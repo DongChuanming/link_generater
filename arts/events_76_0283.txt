@@ -1,0 +1,84 @@
+
+#76.0283
+#Le site, d'une surface de 5077 m2, se trouve sur la commune de Rouxmesnil-Bouteilles sur une zone industrielle.
+
+0l0l0	Le_site	O
+0l0l1	se_trouve_sur_la_commune_de_Rouxmesnil___Bouteilles	L
+0l0l2	sur_une_zone_industrielle	L
+
+#Le site de l'ancien dépôt pétrolier ESSO est actuellement utilisé par la société ABRAHAM.
+
+1l0l0	Le_site	O
+1l0l1	l__ancien_dépôt_pétrolier_ESSO	O
+1l0l2	est_actuellement_utilisé	N
+1l0l3	société_ABRAHAM	O
+1l1l0	dépôt_pétrolier	D
+1l1l1	ESSO	I
+1l1l2	la_société_ABRAHAM	I
+
+#Ce site est exploité depuis les années 1920.
+
+2l0l0	Ce_site	O
+2l0l1	est_exploité	N
+2l0l2	depuis_les_années_1920__	T
+
+#Plusieurs bâtiments sonts présents sur le site (hangars, anciens bureaux et anciens garages).
+
+3l0l0	Plusieurs_bâtiments	O
+
+#Le sous-sol du site est constitué par une formation argileuse surmontée d'un remblai.
+
+
+#Les argiles se rencontrent à une profondeur de 2 mètres.
+
+
+#On rencontre une nappe: la nappe aquifère alluviale, nappe non utilisée à des fins de consommation.
+
+6l0l0	des_fins_de_consommation	N
+
+#Il existe un fossé en bordure de site.
+
+
+#Risques identifiés: en l'état actuel des investigations, il n'y a pas de risque identifié pour les populations.
+
+
+#Cependant les eaux souterraines sont impropres à la consommation humaine.
+
+
+#Actions menées: Un diagnostic des sol a été réalisé par la société Abraham en mai 2000.
+
+10l0l0	Un_diagnostic	N
+10l0l1	sol	O
+10l0l2	a_été_réalisé	N
+10l0l3	la_société_Abraham	N
+10l0l4	en_mai_2000__	T
+
+#Des échantillons de sol ont été réalisés et montrent des concentrations faibles en hydrocarbures sauf sur un échantillon pour lequel on a 8990 mg/kg d'hydrocarbures.
+
+11l0l0	ont_été_réalisés	N
+11l0l1	hydrocarbures	O
+11l1l0	hydrocarbures	S
+11l1l1	hydrocarbures	S
+
+#Les eaux souterraines sont chargées en métaux (Cu, Pb et Zn) et en hydrocarbures.
+
+12l1l0	métaux	S
+12l1l1	Cu	S
+12l1l2	Pb	S
+12l1l3	Zn	S
+
+#Une évaluation simplifiée des risques a été réaliséeclassant le site en 2, c'est à dire site à surveiller.
+
+13l0l0	Une_évaluation_simplifiée_des_risques	N
+13l0l1	a_été_réaliséeclassant	N
+13l0l2	le_site	O
+
+#Actions à mener ou à envisager:
+
+
+#Un nouveau contact devra être pris avec la société ESSO afin de faire réaliser des études complémentaires (plan de gestion ou interprétation de l'état des milieux).
+
+15l0l0	Un_nouveau_contact	N
+15l0l1	la_société_ESSO	O
+15l0l2	de_faire_réaliser_des_études_complémentaires	N
+15l1l0	la_société_ESSO	I

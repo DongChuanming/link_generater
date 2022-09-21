@@ -1,0 +1,299 @@
+
+#72.0072
+#Le site est implanté en périphérie sud du Mans.
+
+0l0l0	Le_site	O
+0l0l1	est_implanté_en_périphérie_sud_du_Mans	L
+
+#Les entreprises ayant occupé le site autrefois sont :
+
+1l0l0	Les_entreprises	O
+1l0l1	ayant_occupé	N
+1l0l2	le_site	O
+
+#- jusqu'en 1987 : la société De Laboudinière avec une activité de spécialiste chauffage ;
+
+2l0l0	jusqu__en_1987	T
+2l0l1	la_société_De_Laboudinière	O
+2l0l2	une_activité_de_spécialiste_chauffage	A
+2l1l0	la_société_De_Laboudinière	I
+
+#- de 1987 au 30/11/95 : une imprimerie.
+
+3l0l0	de_1987_au_30_11_95	T
+3l0l1	imprimerie	O
+
+#Puis depuis le 7 octobre 1997, la société SABLE a été autorisée à exploiter un établissement spécialisé dans la peinture et la métallisation de pièces métalliques (dont le traitement et le revêtement des métaux).
+
+4l0l0	depuis_le_7_octobre_1997__	T
+4l0l1	la_société_SABLE	O
+4l0l2	a_été_autorisée_à_exploiter	N
+4l0l3	un_établissement	O
+4l0l4	spécialisé_dans	R
+4l0l5	la_peinture_et_la_métallisation	N
+4l0l6	pièces_métalliques	O
+4l0l7	le_traitement_et_le_revêtement_des_métaux	A
+4l1l0	la_société_SABLE	I
+
+#Le bâtiment est ceinturé par une bande imperméabilisée en enrobé et l'intégralité des sols du bâtiment est imperméabilisée par du béton.
+
+5l0l0	Le_bâtiment	O
+5l0l1	ceinturé_par	R
+5l0l2	enrobé	O
+5l0l3	bâtiment	O
+5l0l4	est_imperméabilisée_par	N
+5l0l5	du_béton	O
+
+#L'entreprise occupe un terrain de 8 000 m2 dont 3200 m2 de bâtiment.
+
+6l0l0	L__entreprise	O
+6l0l1	un_terrain	O
+6l0l2	3200_m2_de_bâtiment	O
+
+#L'outil de production se compose principalement :
+
+
+#- de 6 chaînes de traitement de surface (48000 litres des bains de traitement au total),
+
+8l0l0	6_chaînes_de_traitement_de_surface	O
+8l0l1	bains_de_traitement	O
+
+#- d'une cabine de pulvérisation de métal fondu (zinc et aluminium),
+
+9l0l0	pulvérisation_de_métal_fondu	A
+9l0l1	aluminium	O
+9l1l0	zinc	S
+
+#- d'un équipement pour la peinture en poudre comprenant : 4 cabines de pulvérisation, de 2 fours électriques de cuisson et d'un four tunnel au gaz,
+
+10l0l0	la_peinture_en_poudre	A
+10l0l1	pulvérisation	N
+10l0l2	un_four_tunnel	O
+
+#- de 2 cabines de pulvérisation pour la peinture liquide,
+
+11l0l0	pulvérisation	N
+11l0l1	la_peinture_liquide	O
+11l1l0	peinture_liquide	U
+
+#- d'une installation de risanisation par immersion des pièces dans un lit fluidisé pour leur conférer des propriétés anti-corrosion.
+
+12l0l0	une_installation_de_risanisation	N
+12l0l1	anti_corrosion	O
+
+#Le site a cessé son activité le 17/06/2015, suite à une liquidation judiciaire.
+
+13l0l0	Le_site	O
+13l0l1	a_cessé_son_activité	N
+13l0l2	le_17_06_2015	T
+13l0l3	suite_à	R
+13l0l4	une_liquidation_judiciaire	N
+
+#Un diagnostic de sol a été réalisé en janvier 2010  et a mis en évidence la présence d'hydrocarbures (HCT à 249 mg/kg en un point).
+
+14l0l0	Un_diagnostic_de_sol	N
+14l0l1	a_été_réalisé	N
+14l0l2	en_janvier_2010	T
+14l0l3	d__hydrocarbures	O
+14l1l0	d__hydrocarbures___HCT	S
+
+#Suite à la cessation d'activité de juin 2015, une mise en sécurité du site a été réalisée :
+
+15l0l0	Suite_à	R
+15l0l1	la_cessation_d__activité	N
+15l0l2	de_juin_2015__	T
+15l0l3	une_mise_en_sécurité	N
+15l0l4	du_site	O
+15l0l5	a_été_réalisée	N
+
+#- 3,95 tonnes de déchets ont été évacués,
+
+16l0l0	3_95_tonnes_de_déchets	O
+16l0l1	ont_été_évacués	N
+
+#- le site a été clôturé,
+
+17l0l0	le_site	O
+17l0l1	a_été_clôturé	N
+
+#- des prélèvements et analyses sur les sols et les eaux souterraines ont été réalisés.
+
+18l0l0	des_prélèvements_et_analyses	N
+18l0l1	les_eaux_souterraines	O
+18l0l2	ont_été_réalisés	N
+
+#Les produits potentiellement vecteurs de pollution du sol et de l'eau, compte tenu du type d'activité exercée,  et recherchés lors des analyses de sol sont :
+
+19l0l0	et_recherchés_lors	R
+19l0l1	des_analyses_de_sol	N
+
+#- les hydrocarbures (carburants) ;
+
+20l1l0	hydrocarbures	S
+20l1l1	carburants	U
+
+#- les HAP : hydrocarbures aromatiques polycycliques(carburants, produits de traitement, colorants...) ;
+
+21l1l0	les_HAP	S
+21l1l1	hydrocarbures_aromatiques_polycycliques_carburants	S
+21l1l2	colorants	U
+
+#- les BTEX : Benzene, Toluene, Ethylbenzene et Xylenes)(colorants), autres produits de process) ;
+
+22l1l0	les_BTEX	S
+22l1l1	Benzene	S
+22l1l2	Toluene	S
+22l1l3	Ethylbenzene	S
+22l1l4	Xylenes_colorants	U
+22l1l5	produits_de_process	U
+
+#- les composés organochlorés (présents dans les rejets) ;
+
+23l1l0	les_composés_organochlorés	S
+
+#- les métaux lourds (produits du process) ;
+
+24l1l0	les_métaux_lourds	U
+
+#- autres composants du rejet de la STEP : fluorures, phénols, cyanures.
+
+25l1l0	fluorures	S
+25l1l1	phénols	S
+25l1l2	cyanures	S
+
+#Une interprétation des milieux a été réalisée en mars 2017.
+
+26l0l0	Une_interprétation_des_milieux	O
+26l0l1	a_été_réalisée	N
+26l0l2	en_mars_2017__	T
+
+#La localisation des sondages est précisée sur les cartes jointes à la fiche BASOL.
+
+27l0l0	La_localisation	O
+
+#SOL
+
+
+#Les résultats d'analyses de sol ont montré les impacts suivants dans les sols à l'arrière du bâtiment :
+
+29l0l0	les_sols	O
+29l0l1	à_l__arrière_du_bâtiment	L
+
+#- la présence généralisée d'HAP (hydrocarbures aromatiques polycycliques), quelle que soit la profondeur des prélèvements (max: 3,1 mg/kg);
+
+30l1l0	d__HAP	S
+30l1l1	hydrocarbures_aromatiques_polycycliques	S
+
+#- la présence d'hydrocarbures même en profondeur au droit de la zone de stockage des déchets ;
+
+31l1l0	hydrocarbures	S
+
+#- traces à faible profondeur de BTEX (benzène, toluène, éthylbenzène et xylènes) (max : 2,1 mg/kg);
+
+32l1l0	BTEX	S
+32l1l1	benzène	S
+32l1l2	toluène	S
+32l1l3	éthylbenzène	S
+32l1l4	xylènes	S
+
+#- présence de PCB (polychlorobiphényles) au droit de la zone de stockage de déchets, dans une moindre mesure en profondeur (0,11 μg/l) ;
+
+33l0l0	au_droit_de_la_zone_de_stockage_de_déchets	L
+33l1l0	PCB	S
+33l1l1	polychlorobiphényles	S
+
+#- présence ponctuelle de métaux (max : 720 mg/kg en zinc):
+
+34l1l0	métaux	S
+34l1l1	zinc	S
+
+#* à faible profondeur, au droit de la zone de stockage de déchets (cuivre, cadmium, zinc,plomb)
+
+35l0l0	au_droit_de_la_zone_de	L
+35l0l1	stockage_de_déchets	N
+35l1l0	stockage_de_déchets	U
+35l1l1	cuivre	S
+35l1l2	cadmium	S
+35l1l3	zinc	S
+35l1l4	plomb	S
+
+#* au droit de la limite sud en superficie (zinc) et en profondeur (zinc, plomb)
+
+36l0l0	au_droit_de_la_limite_sud	L
+36l1l0	zinc	S
+36l1l1	zinc	S
+36l1l2	plomb	S
+
+#* en profondeur, au droit du point "milieu" (mercure)
+
+37l0l0	milieu	O
+37l1l0	mercure	S
+
+#- présence ponctuelle de cyanures à faible profondeur au droit de la zone de stockage de déchets.
+
+38l0l0	cyanures	O
+38l0l1	au_droit_de_la_zone_de_stockage_de_déchets	L
+38l1l0	cyanures	S
+
+#Au vue de ces résultats le bureau d'études recommande la réalisation d'une EQRS pour évaluer l'impact des HAP, retrouvés à tous les niveaux de profondeur et au droit de tous les prélèvements.
+
+39l0l0	bureau_d__études	O
+39l0l1	recommande	R
+39l0l2	HAP	O
+39l0l3	au_droit_de	L
+39l0l4	tous	N
+39l1l0	HAP	S
+
+#EAUX SOUTERRAINES
+
+40l0l0	EAUX_SOUTERRAINES	O
+40l1l0	SOUTERRAINES	I
+
+#Les analyses déclenchées en deux points de prélèvement montrent :
+
+
+#- aucun impact en aval immédiat du bâtiment ;
+
+42l0l0	en_aval_immédiat_du_bâtiment	L
+
+#- des impacts en HAP (0,8 μg/l) et en COT (3,9 mg/l) ont été relevés dans le piézomètre implanté en janvier 2017 dans la zone arrière remblayée et susceptible d'avoir été impactée par des rejets atmosphériques et des ruissellements.
+
+43l0l0	des_impacts	O
+43l0l1	ont_été_relevés	N
+43l0l2	le_piézomètre	O
+43l0l3	implanté	N
+43l0l4	en_janvier_2017	T
+43l0l5	dans_la_zone_arrière	L
+43l0l6	remblayée	O
+43l0l7	et_susceptible_d_	R
+43l0l8	avoir_été_impactée_par	N
+43l0l9	des_rejets_atmosphériques	N
+43l0l10	ruissellements	N
+43l1l0	HAP	S
+43l1l1	COT	S
+
+#Une diminution de l'impact en HAP est observée fin mars 2017.
+
+44l0l0	l__impact	O
+44l0l1	fin_mars_2017__	T
+44l1l0	HAP	S
+
+#L'EQRS réalisée en mars 2017 conclut à la compatibilité des terrains dans leur état avec une activité industrielle ou artisanale.
+
+45l0l0	L_	O
+45l0l1	en_mars_2017	T
+45l0l2	conclut	R
+45l0l3	la_compatibilité	O
+45l0l4	des_terrains	O
+45l0l5	une_activité_industrielle_ou_artisanale	A
+
+#Des contrôles de surveillance de la qualité des eaux souterraines sont cependant à prévoir.
+
+46l0l0	Des_contrôles_de_surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#Compte tenu de la pollution avérée constatée antérieurement, des investigations apparaissent nécessaires en cas de changement d'usage des terrains.
+
+47l0l0	investigations_apparaissent_nécessaires	O
+47l0l1	en_cas_de	R
+47l0l2	changement_d__usage	N
+47l0l3	des_terrains	O

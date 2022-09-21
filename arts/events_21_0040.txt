@@ -1,0 +1,177 @@
+
+#21.0040
+#Le site industriel de Montbard s'étend sur 22 ha de part et d'autre de la voie ferrée (Paris-Dijon).
+
+0l0l0	Montbard_s__étend_sur_22_ha_de_part_et_d__autre_de_la_voie_ferrée___Paris___Dijon____	T
+0l1l0	Le_site_industriel	S
+
+#Il s'est développé depuis plus d'un siècle autour de l'activité métallurgique du groupe Vallourec (forge,fonderie,laminage,traitement de surface...).
+
+1l0l0	Il_s__est_développé_depuis_plus	O
+1l0l1	autour	O
+1l0l2	métallurgique_du_groupe_Vallourec	L
+
+#Le site a été scindé en 6 entités industrielles différentes dont la société METAL DEPLOYE (usine 1) (groupe Vallourec) qui disposait d'une unité de fabrication de panneau métallique par extrusion de feuillard métallique.
+
+2l0l0	site_a_été_scindé	N
+2l0l1	en_6_entités_industrielles	T
+2l0l2	différentes_dont_la_société_METAL	A
+2l0l3	__usine_1____	O
+2l0l4	Vallourec	A
+2l0l5	qui_disposait_d__une_unité_de_fabrication	A
+2l1l0	DEPLOYE___usine_1____	I
+
+#En 2001, le groupe Vallourec a cédé ses 2 usines METAL DEPLOYE à un groupe d'investisseur: ICM Group.
+
+3l0l0	En_2001	O
+3l0l1	__le	N
+3l0l2	groupe_Vallourec_a_cédé_ses_2_usines_METAL_DEPLOYE	O
+3l0l3	groupe_d__investisseur__	O
+3l1l0	groupe_d__investisseur__	I
+
+#Ce dernier a cédé en 2003 l'activité "résistance" à un groupe Italien TELEMA.
+
+4l0l0	Ce_dernier	T
+4l0l1	a_cédé_en_2003_l_	O
+4l0l2	activité	N
+4l0l3	__résistance___à_un_groupe	N
+4l0l4	Italien_TELEMA	O
+4l0l5	_	N
+4l1l0	dernier_a_cédé_en_2003_l__activité	I
+4l1l1	résistance___à_un_groupe	I
+
+#Il résulte de ces cessions/réorganisations la création de 3 nouvelles entités bien distinctes:
+
+5l0l0	de_ces_cessions	T
+5l0l1	__réorganisations	O
+5l0l2	création_de_3_nouvelles_entités	O
+5l1l0	nouvelles_entités	I
+
+#- METAL DEPLOYE RESISTOR (usine 2 - 1 route de Semur à Montbard)
+
+6l0l0	DEPLOYE_RESISTOR___usine_2___1_route_de_Semur	N
+6l0l1	Montbard__	O
+
+#- ICM Group - Departement CABLOFIL (1 route de Semur à Montbard)
+
+7l0l0	Semur_à_Montbard	L
+7l1l0	__ICM_Group___Departement	I
+
+#- ICM Group - Departement METAL DEPLOYEE (usine 1 - Quai Philippe Bouhey à Montbard)
+
+8l0l0	Departement_METAL_DEPLOYEE	O
+8l0l1	__Quai_Philippe	L
+8l1l0	ICM_Group	I
+8l1l1	METAL_DEPLOYEE	I
+
+#Le site de l'usine 1 de METAL DEPLOYE, d'une superficie d'environ 2 ha, est bordé à l'est par une zone résidentielle et puis au-delà par la gare SNCF, et à l'Ouest par le site de VALTUBES ainsi que les bureaux administratifs de DMV.
+
+9l0l0	METAL_DEPLOYE___d__une	N
+9l0l1	ha___est_bordé_à_l_	L
+9l1l0	Le_site_de_l_	I
+9l1l1	de_METAL_DEPLOYE___d__une	I
+9l1l2	environ_2_ha___est	I
+
+#Les eaux souterraines présentes sous le site s'écoulent vers la nappe alluviale de la Brenne qui est utilisée pour l'AEP (alimentation en eau potable).
+
+10l0l0	Les_eaux	O
+10l0l1	souterraines_présentes_sous	O
+10l0l2	alluviale_de_la_Brenne_qui_est_utilisée_pour	L
+10l0l3	alimentation_en_eau_potable	L
+10l0l4	___	L
+10l1l0	souterraines_présentes_sous	I
+
+#e seul captage AEP en aval hydraulique du site est à 4,5 km.
+
+11l0l0	e_seul_captage_AEP_en_aval	O
+
+#Les investigations réalisées dans le cadre du diagnostic initial ont mis en évidence la présence d'une source sol de pollution:il s'agit de remblais imprégnés d'hydrocarbures.
+
+12l0l0	investigations	O
+12l0l1	réalisées_dans_le_cadre_du	L
+12l0l2	diagnostic	L
+
+#Cette zone se situe à l'emplacement d'une ancienne cuve enterrée.
+
+13l0l0	Cette_zone_se_situe_à_l__emplacement	N
+13l0l1	d__une	R
+13l0l2	ancienne_cuve_enterrée__	N
+
+#Cette zone fait l'objet d'un confinement constitué par un revêtement étanche.
+
+14l0l0	Cette_zone	O
+14l0l1	fait_l__objet_d__un_confinement_constitué	L
+14l0l2	par_un_revêtement	O
+
+#Aucun impact n'a été détecté au niveau des eaux souterraines en ce qui concerne les hydrocarbures.
+
+
+#Par ailleurs, des teneurs élevées en fer et en manganèse ont été mesurées dans les sols et les eaux souterraines.
+
+16l1l0	sols_et_les_eaux_souterraines	S
+
+#es constats ont également été faits sur les autres sites étudiés aux alentours.
+
+17l0l0	étudiés_aux_alentours	N
+17l1l0	sur_les_autres_sites	S
+
+#Compte tenu des études remises en mars 2002, le site a été classé "site à surveiller", conformément à l'ancienne méthodologie en matière de gestion des sols pollués.
+
+
+#Un arrêté préfectoral imposant la surveillance des eaux souterraines a été pris le 11 juillet 2002.
+
+19l0l0	préfectoral_imposant	N
+19l0l1	la_surveillance	T
+19l0l2	des	O
+19l0l3	eaux_souterraines	N
+
+#Cette surveillance de la qualité des eaux souterraines a été reprise dans l'arrêté préfectoral du 6 juin 2006.
+
+20l0l0	Cette_surveillance_de	O
+20l0l1	la_qualité	N
+20l0l2	des_eaux_souterraines_a_été_reprise_dans	A
+20l0l3	l__arrêté	N
+20l0l4	préfectoral_du	T
+
+#Cette surveillance comprend les mesures suivantes:
+
+21l0l0	Cette_surveillance_comprend_les_mesures_suivantes__	A
+
+#- les points de prélèvements sont constitués par 2 piézomètres
+
+
+#-les analyses portent sur les sulfates, le chrome, le manganèse, le nickel, le plomb, des hydrocarbures totaux et des solvants chlorés.
+
+
+#En 2012, les teneurs en sulfates, en solvants halogénés ( notamment chlorure de vinyle) et en manganèse restaient supérieures aux valeurs guides du code de la santé pour les eaux de consommation à destination humaine et les eaux brutes.
+
+24l1l0	sulfates___en_solvants_halogénés___notamment_chlorure_de_vinyle	S
+24l1l1	et_en_manganèse_restaient	S
+24l1l2	supérieures_aux_valeurs	S
+
+#A la demande de l'Inspection des installations classées, l'exploitant a réalisé un bilan quadriennal sur la période 2010-2013.
+
+25l0l0	A_la_demande	T
+25l0l1	de_l__Inspection	O
+25l1l0	Inspection_des_installations_classées	S
+25l1l1	exploitant_a_réalisé_un_bilan	S
+25l1l2	quadriennal	S
+
+#Au regard des conclusions de ce bilan, la surveillance des eaux souterraines a été adaptée.
+
+26l0l0	Au_regard_des	N
+26l0l1	conclusions_de_ce_bilan___la_surveillance_des	O
+26l0l2	eaux_souterraines	O
+26l0l3	a_été	N
+26l0l4	adaptée__	N
+
+#Une seule campagne, en basses eaux, est menée chaque année.
+
+27l0l0	est_menée_chaque_année__	A
+
+#Le programme analytique est composé des solvants chlorés uniquement.
+
+
+#Les résultats de la campagne 2014 montrent une globale stabilité des teneurs et l'absence de contamination du captage AEP de Saint-Rémy.
+
+29l1l0	montrent_une_globale_stabilité	U

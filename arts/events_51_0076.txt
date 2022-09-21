@@ -1,0 +1,283 @@
+
+#51.0076
+#L’usine a été créée par les raffineries SAY à la fin des années 1950 sur un terrain boisé n’ayant pas connu d’activité industrielle dans le passé.
+
+0l0l0	L__usine	O
+0l0l1	a_été_créée	N
+0l0l2	les_raffineries_SAY	O
+0l0l3	à_la_fin_des_années_1950	T
+0l0l4	sur	R
+0l0l5	un_terrain_boisé	O
+0l0l6	n__ayant_pas_connu_d__activité_industrielle	A
+0l0l7	dans_le_passé	T
+0l1l0	les_raffineries_SAY	I
+
+#L’activité du site a toujours été la production de sucre sous différentes raisons sociales : raffineries SAY, Beghin Say, Ferruzzi Beghin Say, Eridania Beghin Say, Cristal Union Développement, puis Cristal Union depuis 2004.
+
+1l0l0	L__activité_du_site	A
+1l0l1	production_de_sucre	A
+1l0l2	raffineries_SAY	O
+1l0l3	Beghin_Say	O
+1l0l4	Ferruzzi_Beghin_Say	O
+1l0l5	Eridania_Beghin_Say	O
+1l0l6	Cristal_Union_Développement	O
+1l0l7	depuis_2004__	T
+1l1l0	sucre	U
+1l1l1	Beghin_Say	I
+1l1l2	Ferruzzi_Beghin_Say	I
+1l1l3	Eridania_Beghin_Say	I
+1l1l4	Cristal_Union_Développement	I
+1l1l5	Cristal_Union	I
+
+#Le site était encadré par l’arrêté préfectoral n°90-A-60-IC du 22 octobre 1990 modifié par arrêté n°2000-A-45-IC du 25 avril 2000.
+
+2l0l0	Le_site	O
+2l0l1	était_encadré_par	R
+2l0l2	l__arrêté_préfectoral	O
+2l0l3	22_octobre_1990	T
+2l0l4	25_avril_2000__	T
+
+#Compte tenu la cessation définitive d’activité déclarée par l’exploitant le 25 janvier 2005 non accompagnée du mémoire de remise en état du site, M. le préfet de la Marne a mis en demeure l’exploitant, par arrêté préfectoral n°2005-MD-43-IC du 2 mai 2005, de fournir un diagnostic initial de l’état de pollution du site dans un délai de trois mois.
+
+3l0l0	la_cessation_définitive_d__activité_déclarée	N
+3l0l1	l__exploitant	O
+3l0l2	le_25_janvier_2005	T
+3l0l3	du_mémoire_de_remise_en_état_du_site	O
+3l0l4	M__le_préfet_de_la_Marne	O
+3l0l5	a_mis_en_demeure	N
+3l0l6	l__exploitant	O
+3l0l7	arrêté_préfectoral	O
+3l0l8	2005_MD_43_IC	O
+3l0l9	du_2_mai_2005__	T
+3l0l10	fournir_un_diagnostic_initial	N
+3l0l11	l__état_de_pollution_du_site	O
+3l0l12	dans_un_délai_de_trois_mois__	T
+3l1l0	le_préfet_de_la_Marne	I
+
+#-Diagnostic initial des sols (Etape B ) et évaluation simplifiée des risques (Février 2006)
+
+4l0l0	_Diagnostic_initial_des_sols	N
+4l0l1	évaluation_simplifiée_des_risques	N
+4l0l2	__Février_2006__	T
+
+#Cette étude remise le 22 février 2006 retient une source de pollution aux hydrocarbures totaux à la station service de l’usine (9800 mg/kg) et aux PCB au transformateur électrique proche du bassin n°4 (0,09 mg/kg).
+
+5l0l0	Cette_étude_remise	N
+5l0l1	le_22_février_2006	T
+5l0l2	une_source_de_pollution	O
+5l0l3	l__usine	O
+5l1l0	hydrocarbures_totaux	S
+5l1l1	PCB	S
+
+#Les vecteurs retenus sont l’eau souterraine ou le contact direct.
+
+
+#Le scénario d’exposition est fait pour un usage industriel agroalimentaire sans accueil du public et les conclusions de l’évaluation simplifiée des risques (ESR) devront donc être actualisées pour tout autre scénario.
+
+7l0l0	Le_scénario_d__exposition	O
+7l0l1	est_fait_pour_un_usage	N
+7l0l2	industriel_agroalimentaire	A
+7l0l3	accueil	N
+7l0l4	du_public	A
+
+#Les cibles potentielles sont les travailleurs sur site, les puits d’irrigation, les puits d’adduction en eau potable de Saint Gibrien et le champ captant de Châlons-en-Champagne, et un forage agricole.
+
+8l0l0	Gibrien	O
+8l0l1	le_champ	O
+8l0l2	captant_de	R
+8l0l3	Châlons_en_Champagne	L
+8l0l4	un_forage_agricole	O
+
+#La notation aboutit à une classe 1 (nécessite des investigations complémentaires) pour le milieu sol en raison de la présence locale d’hydrocarbures.
+
+9l0l0	d__hydrocarbures	O
+9l1l0	hydrocarbures	S
+
+#L’ESR n’intègre pas les risques éventuels liés à l’émission de substances dans l’air et un simple confinement des sols contaminés aux hydrocarbures pourrait donc s’avérer insuffisant.
+
+10l0l0	un_simple_confinement	N
+10l0l1	sols_contaminés	O
+10l0l2	aux	R
+10l0l3	hydrocarbures	O
+10l1l0	hydrocarbures	S
+
+#En outre, en l’absence d’analyse sur le puits agricole, l’ESR ne peut conclure sur l’usage de ce puits.
+
+11l0l0	le_puits_agricole	O
+11l1l0	l__ESR	I
+
+#Cette incertitude devra être levé au cours du diagnostic approfondi.
+
+12l0l0	être_levé	N
+12l0l1	au_cours	R
+12l0l2	du_diagnostic_approfondi	N
+
+#Pour les autres sources, le site est classé 2 (surveillance à prévoir).
+
+13l0l0	le_site	O
+
+#Si le site devait acquérir une vocation résidentielle ou recevoir du public, l’évaluation détaillée des risques (EDR) devra déterminer les concentrations résiduelles acceptables dans les sols et les gaz du sol.
+
+14l0l0	Si	R
+14l0l1	le_site	O
+14l0l2	devait_acquérir	N
+14l0l3	une_vocation_résidentielle	A
+14l0l4	recevoir_du_public	A
+14l0l5	évaluation_détaillée_des_risques	N
+
+#-Diagnostic approfondi (DA) et évaluation détaillée des risques (EDR) (Février 2007)
+
+15l0l0	_Diagnostic_approfondi	N
+15l0l1	__Février_2007__	T
+
+#Le diagnostic approfondi apporte des précisions sur deux zones contaminées découvertes pendant l’étape B du diagnostic initial.
+
+16l0l0	Le_diagnostic_approfondi	N
+16l0l1	deux_zones_contaminées	O
+
+#Après la fermeture du site, le projet de réhabilitation a évolué depuis une hypothèse résidentielle (juin 2006) jusqu’à la perspective d’un maintien industriel (septembre 2006).
+
+17l0l0	Après	T
+17l0l1	la_fermeture_du_site	N
+17l0l2	le_projet_de_réhabilitation	O
+17l0l3	a_évolué_depuis	N
+17l0l4	une_hypothèse_résidentielle	O
+17l0l5	__juin_2006	T
+17l0l6	à_la_perspective_d_	R
+17l0l7	un_maintien_industriel	O
+17l0l8	__septembre_2006	T
+
+#Sur cette base, la problématique des deux zones contaminées a du être étudiées pour rendre le site compatible avec les hypothèses d’usage futur.
+
+18l0l0	deux_zones_contaminées	O
+18l0l1	a_du_être_étudiées	N
+18l0l2	le_site_compatible	O
+
+#-Diagnostic approfondi
+
+19l0l0	_Diagnostic	N
+
+#Le diagnostic avait pour objectif de préciser l’extension des concentrations des substances contaminantes en surface et profondeur.
+
+20l0l0	Le_diagnostic	N
+20l1l0	substances_contaminantes	U
+
+#Cette première étape a été conduite après la mise en sécurité de l’ancienne station service afin de tenir compte d’une éventuelle contamination supplémentaire lors de l’enlèvement des cuves.
+
+21l0l0	Cette_première_étape	O
+21l0l1	a_été_conduite	N
+21l0l2	après	R
+21l0l3	la_mise_en_sécurité	N
+21l0l4	l__ancienne_station_service	O
+21l0l5	l__enlèvement_des_cuves	N
+21l1l0	cuves	D
+
+#Station service
+
+22l0l0	Station_service	O
+
+#Des analyses en fond de fouille, de gaz du sol, de sol et de la nappe ont été réalisés.
+
+23l0l0	Des_analyses	N
+23l0l1	en_fond_de_fouille	L
+23l0l2	ont_été_réalisés	N
+
+#Une contamination des sols aux hydrocarbures et au xylène ont conduit l’exploitant à décaisser les sols pollués.
+
+24l0l0	Une_contamination	N
+24l0l1	hydrocarbures	O
+24l0l2	xylène	O
+24l0l3	ont_conduit	N
+24l0l4	l__exploitant	O
+24l0l5	à_décaisser_les_sols_pollués	N
+24l1l0	hydrocarbures	S
+24l1l1	xylène	S
+
+#Ces terres ont été éliminées vers une filière autorisée.
+
+25l0l0	Ces_terres	O
+25l0l1	ont_été_éliminées	N
+25l0l2	vers	L
+25l0l3	une_filière_autorisée	O
+
+#L’excavation a été arrêtée lorsque que la craie blanche a été atteinte.
+
+26l0l0	L__excavation	N
+26l0l1	a_été_arrêtée	N
+26l0l2	lorsque_que	T
+26l0l3	a_été_atteinte	N
+
+#Les concentrations en hydrocarbures totaux en partie basse des parois de la fouille atteignent 5700 mg/kg et 8000 mg/kg en fond de fouille.
+
+27l1l0	hydrocarbures_totaux	S
+
+#La fosse profonde de 4 mètres a été remblayée par des matériaux de perméabilité à l’air très faible (10–12 m2) correspondant à un sable argileux tassé permettant de réduire les transferts de vapeur.
+
+28l0l0	La_fosse_profonde	O
+28l0l1	a_été_remblayée	N
+
+#Un piézomètre a été mis en place en aval proche de la station service et a permis de détecter la présence d’hydrocarbures et de tétrachloréthylène.
+
+29l0l0	Un_piézomètre	O
+29l0l1	a_été_mis_en_place	N
+29l0l2	en_aval_proche_de_la_station_service	L
+29l0l3	de_détecter	N
+29l0l4	la_présence	O
+29l1l0	hydrocarbures	S
+29l1l1	tétrachloréthylène	S
+
+#Transformateur électrique
+
+30l1l0	Transformateur	I
+
+#Au regard des concentrations en PCB dans les sols (maximum = 2,7 mg/kg), un décaissement jusqu’à 4,5 mètres a été réalisé, profondeur à laquelle le PCB n’était plus détecté.
+
+31l0l0	un_décaissement	N
+31l0l1	jusqu_	R
+31l0l2	à_4_5_mètres_a_été_réalisé	N
+31l1l0	PCB	S
+31l1l1	PCB	S
+
+#Les terres polluées ont été éliminées vers une filière autorisée.
+
+32l0l0	Les_terres_polluées	O
+32l0l1	ont_été_éliminées	N
+32l0l2	vers	L
+32l0l3	une_filière_autorisée	O
+
+#La fouille a été remblayée avec des matériaux propres.
+
+33l0l0	La_fouille	O
+33l0l1	a_été_remblayée	N
+33l0l2	des_matériaux	O
+
+#Forage agricole
+
+34l0l0	Forage_agricole	O
+
+#L’incertitude sur le forage agricole a été levée : les analyses ne montrent que des traces de pyrène dont l’origine n’est pas explicable.
+
+35l0l0	forage_agricole	O
+35l0l1	a_été_levée	N
+35l1l0	pyrène	S
+
+#Matériaux de construction
+
+36l0l0	Matériaux_de_construction	O
+
+#Des analyses sur les bétons issus de la déconstruction ont permis de mettre en évidence une pollution par des PCB probablement liée à la présence de fluide hydraulique dans l’ancienne installation.
+
+37l0l0	les_bétons	O
+37l0l1	la_déconstruction_ont	N
+37l0l2	une_pollution	O
+37l0l3	fluide_hydraulique	O
+37l1l0	des_PCB	S
+37l1l1	fluide_hydraulique	U
+
+#Néanmoins, les concentrations mesurées sont inférieures au seuil d’admission d’un déchet non dangereux en centre de classe III.
+
+
+#Cette information reste limitée à la représentativité des trois échantillons réalisés mais les bétons évacués feront l’objet de contrôle avant acceptation par le centre de stockage
+
+39l0l0	les_bétons_évacués	O
+39l0l1	le_centre_de_stockage	O

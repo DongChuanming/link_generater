@@ -1,0 +1,94 @@
+
+#67.0085
+#Le champ pétrolier de Péchelbronn était le plus important de la concession (exploitation simultanée par travaux miniers souterrains et près de 1000 forages).
+
+0l0l0	Le_champ_pétrolier	O
+0l0l1	Péchelbronn	O
+0l0l2	la_concession	O
+0l0l3	travaux_miniers	N
+0l0l4	forages	N
+
+#Il s'étend sur les communes de Preuschdorf, Lamperstloch, Diffenbach, Gunstett, Surbourg et Merkwiller-Pechelbronn principalement.
+
+1l0l0	sur_les_communes_de_Preuschdorf	L
+1l0l1	Lamperstloch	L
+1l0l2	Diffenbach	L
+1l0l3	Gunstett	L
+1l0l4	Surbourg	L
+1l0l5	Merkwiller___Pechelbronn	L
+
+#Les anciens forages d'exploitation à production artésienne sont souvent mal rebouchés et laissent échapper du pétrole brut, de l'eau et du gaz (méthane).
+
+2l0l0	Les_anciens_forages_d__exploitation	O
+2l0l1	pétrole_brut	O
+2l0l2	méthane	O
+
+#En janvier 2000, l'ancien forage 323 laissait échapper du méthane près d'une habitation à preuschdorf.
+
+3l0l0	En_janvier_2000__	T
+3l0l1	l__ancien_forage_323	O
+3l0l2	laissait	N
+3l0l3	près_d__une_habitation	L
+3l0l4	à	R
+3l0l5	preuschdorf	L
+
+#Il a fait l'objet d'un diagnostic sécuritaire du BRGM (rapport RP-50065-FR) et a été rebouché dans les régles de l'art début 2001.
+
+4l0l0	Il	O
+4l0l1	a_fait_l__objet_d_	R
+4l0l2	un_diagnostic_sécuritaire	N
+4l0l3	BRGM	O
+4l0l4	a_été	N
+4l0l5	rebouché	O
+4l0l6	dans	R
+4l0l7	les_régles_de_l__art	O
+4l0l8	début_2001	T
+4l1l0	BRGM	I
+
+#D'autres forages fuyards ont fait l'objet de diagnostics et de rebouchage en 2001-2004.
+
+5l0l0	D_	O
+5l0l1	autres_forages	N
+5l0l2	fuyards	O
+5l0l3	ont_fait_l__objet_de	R
+5l0l4	diagnostics	N
+5l0l5	de_rebouchage	N
+5l0l6	en_2001___2004	T
+
+#Certains forages ont fait l’objet d’une mise en sécurité dite provisoire (pose d’une virole et d’un dispositif de collecte des hydrocardures) :
+
+6l0l0	Certains_forages	O
+6l0l1	ont_fait_l__objet_d_	R
+6l0l2	une_mise_en_sécurité	N
+6l0l3	pose_d__une_virole	N
+6l0l4	un_dispositif_de_collecte	O
+
+#- sondage 106, 148 et 4728 à Durrenbach
+
+7l0l0	à_Durrenbach	L
+
+#- 459 à Merkwiller-Pechelbronn
+
+8l0l0	Merkwiller	L
+
+#Certains dispositifs feront l’objet d’une amélioration prochainement : un nouveau dispositif de mise en sécurité est à l’étude.
+
+9l0l0	un_nouveau_dispositif_de_mise	O
+
+#Le forage 945 a été équipé en 2010 d'un séparateur d'hydrocarbure.
+
+10l0l0	Le_forage_945	O
+10l0l1	a_été_équipé	N
+10l0l2	en_2010	T
+10l0l3	d_	R
+10l0l4	un_séparateur	O
+10l1l0	d__hydrocarbure	S
+
+#Au pied du terril Clémenceau a été mis en place un déshuileur en 1996 afin de drainer les fluides du terril riche en hydrocarbures et de les piéger.
+
+11l0l0	Au_pied_du_terril_Clémenceau	L
+11l0l1	a_été_mis_en	N
+11l0l2	place_un_déshuileur	N
+11l0l3	en_1996	T
+11l0l4	drainer	N
+11l1l0	hydrocarbures	S

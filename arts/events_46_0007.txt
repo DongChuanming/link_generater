@@ -1,0 +1,221 @@
+
+#46.0007
+#Site composé de deux zones distinctes séparées par une route :
+
+0l0l0	Site_composé_de	N
+0l0l1	deux_zones_distinctes	O
+0l0l2	séparées_par_une_route	O
+0l1l0	séparées_par_une_route__	S
+
+#site principal : atelier de production, bureaux, stockage… (site n° 1),
+
+1l0l0	____atelier	O
+
+#site annexe : stockage des emballages vides (site n° 2).
+
+2l0l0	stockage_des_emballages	O
+
+#L'activité de fabrication de peintures et les bureaux administratifs ont été transférés entre 1992 et 1998 dans une usine neuve située en zone industrielle de BIARS-SUR-CERE.
+
+3l1l0	fabrication_de_peintures_et_les	U
+
+#Le site est réglementé par un arrêté préfectoral d'autorisation du 14 octobre 1965.
+
+4l0l0	Le_site_est_réglementé_par_un_arrêté_préfectoral	A
+4l0l1	d__autorisation_du_14	O
+4l0l2	octobre_1965__	N
+
+#Les activités ayant été exercées sur le site (fabrication de peintures, stockages de rebuts de fabrication) étant susceptibles d'avoir été à l'origine d'une pollution éventuelle du sol, sur proposition de la DRIRE Midi-Pyrénées, un arrêté préfectoral complémentaire du 14 octobre 1996, pris conformément à la circulaire du 3 avril 1996, a prescrit à l'exploitant la réalisation d'un diagnostic initial et d'une évaluation simplifiée des risques sur l'ensemble du site.
+
+5l0l0	Les_activités	O
+5l0l1	ayant_été	N
+5l0l2	exercées_sur_le_site___fabrication_de_peintures	O
+5l0l3	__stockages_de_rebuts_de_fabrication___étant_susceptibles_d__avoir_été_à_l__origine_d__une_pollution_éventuelle_du_sol___sur_proposition_de_la_DRIRE_Midi___Pyrénées___un_arrêté_préfectoral_complémentaire_du_14_octobre_1996___pris_conformément_à_la_circulaire_du_3_avril_1996___a_prescrit_à_l__exploitant_la_réalisation_d__un_diagnostic_initial_et_d__une_évaluation_simplifiée_des_risques_sur_l__ensemble_du_site__	T
+
+#L'étude historique du diagnostic initial réalisée à l'été 1999 a recensé comme sources potentielles de pollution la zone de stockage des rebuts de fabrication et une zone de la cour de l'usine (plusieurs sources potentielles et notamment le voisinage des cuves de stockage de solvants).
+
+6l0l0	L__étude_historique	O
+6l0l1	du_diagnostic	N
+6l0l2	initial	L
+6l0l3	réalisée_à_l__été_1999_a_recensé	A
+6l0l4	comme_sources_potentielles_de	A
+6l0l5	pollution_la_zone_de_stockage	R
+6l0l6	des_rebuts	N
+6l0l7	de_fabrication	R
+6l0l8	et_une_zone_de_la_cour_de_l__usine	O
+6l0l9	sources_potentielles_et_notamment	O
+6l0l10	le_voisinage_des_cuves_de_stockage	O
+6l0l11	de_solvants____	T
+6l1l0	sources_potentielles	I
+
+#Des investigations complémentaires (prises d'échantillons de sols) en octobre 1999 ont montré la présence d'hydrocarbures aromatiques.
+
+7l0l0	Des_investigations_complémentaires___prises	N
+7l0l1	échantillons_de	T
+7l0l2	sols___en	N
+7l0l3	octobre_1999_ont_montré_la_présence_d__hydrocarbures	O
+7l0l4	aromatiques__	O
+
+#Suite à ce constat de pollution, il a été demandé de procéder sans attendre à la mise en sécurité du site.
+
+8l0l0	Suite_à_ce_constat_de_pollution___il_a_été	N
+8l0l1	attendre_à_la_mise_en_sécurité	T
+8l0l2	site__	O
+
+#En outre, l'ESR a classé le site en 1 (nécessitant un diagnostic approfondi) à cause de l'impact potentiel de ces pollutions sur les eaux souterraines (usage AEP et agricole).
+
+9l0l0	outre___l__ESR_a_classé_le_site	N
+9l0l1	en_1	O
+9l0l2	__nécessitant_un_diagnostic	N
+9l0l3	approfondi	T
+9l0l4	__à_cause_de_l__impact	N
+
+#Les travaux de mise en sécurité réalisés en octobre 1999 ont consisté à inerter les cuves de solvants enterrées sous les bâtiments, éliminer les cuves enterrées extérieures aux bâtiments et les terres voisines dans des installations autorisées et racler les zones extérieures présentant des souillures en surface.
+
+10l0l0	mise_en	N
+10l0l1	sécurité_réalisés	O
+10l0l2	enterrées_sous_les_bâtiments	O
+10l1l0	travaux_de_mise	I
+
+#La DRIRE Midi-Pyrénées a demandé à l'exploitant les justificatifs d'élimination de ces déchets, qui lui ont été transmis le 4 septembre 2000.
+
+11l0l0	La_DRIRE_Midi___Pyrénées_a_demandé	N
+11l0l1	à_l_	N
+11l0l2	exploitant_les_justificatifs	T
+11l0l3	élimination	N
+11l0l4	été_transmis_le_4	L
+11l0l5	septembre_2000	N
+11l0l6	_	O
+11l1l0	élimination_de_ces	D
+11l1l1	déchets___qui	U
+11l1l2	2000__	D
+
+#Par ailleurs, en août 2000, la DRIRE Midi-Pyrénées a demandé à l'exploitant de mettre en place une surveillance des eaux souterraines, et sur sa proposition, les mesures de surveillance ont été prescrites par un arrêté préfectoral complémentaire du 25 juin 2001.
+
+12l0l0	Par_ailleurs___en_août_2000	O
+12l0l1	__la_DRIRE	N
+12l0l2	Midi___Pyrénées	O
+12l0l3	a_demandé_à_l__exploitant_de_mettre	N
+12l0l4	en_place_une	O
+12l0l5	surveillance_des_eaux	N
+12l0l6	souterraines___et_sur_sa_proposition___les_mesures_de_surveillance_ont_été_prescrites_par_un_arrêté_préfectoral_complémentaire_du_25_juin_2001__	T
+12l1l0	Par_ailleurs	I
+
+#Afin de pouvoir déterminer l'emplacement des points de surveillance des eaux souterraines, l'arrêté préfectoral prévoit la réalisation d'une carte du niveau piézométrique de la nappe phréatique.
+
+13l0l0	pouvoir_déterminer	T
+13l0l1	l__emplacement_des_points	O
+13l0l2	de	N
+13l0l3	surveillance_des_eaux	O
+13l0l4	souterraines___l_	N
+13l0l5	arrêté_préfectoral_prévoit_la_réalisation	A
+13l0l6	niveau_piézométrique_de_la_nappe_phréatique__	N
+13l1l0	l__emplacement	I
+
+#Cette carte a été remise à l'inspection le 6 décembre 2001.
+
+14l0l0	2001__	A
+
+#Les relevés piézométriques réalisés faisant apparaître des fluctuations du sens d'écoulement de la nappe souterraine en fonction des saisons, de nouveaux points de prélèvement ont été proposés par l'exploitant le 26 août 2002.
+
+15l0l0	Les_relevés	O
+15l0l1	piézométriques	N
+15l0l2	réalisés	O
+15l0l3	faisant_apparaître	T
+
+#Le réseau définitif de surveillance des eaux souterraines a été fixé dans un arrêté préfectoral complémentaire du 24 septembre 2002, dont le projet avait été soumis à l'avis préalable du conseil départemental d'hygiène dans sa séance du 19 septembre 2002.
+
+16l0l0	Le_réseau_définitif_de_surveillance	N
+16l0l1	projet_avait_été_soumis_à_l__avis_préalable	O
+16l0l2	du_conseil	N
+16l0l3	départemental_d_	O
+16l0l4	hygiène_dans_sa_séance	T
+
+#La première campagne de mesures s'est déroulée entre le 15 et le 24 octobre 2002 en période de bas niveau de la nappe et a été précédée d'un relevé piézométrique de la nappe, ainsi que d'un pompage préalable à la prise d'échantillons.
+
+17l0l0	La_première_campagne_de	O
+17l0l1	mesures_s__est_déroulée_entre_le_15_et	A
+17l0l2	le_24_octobre	R
+17l0l3	2002_en_période_de_bas_niveau_de_la_nappe	O
+17l0l4	a_été_précédée_d__un	T
+17l0l5	relevé_piézométrique	O
+17l0l6	de_la_nappe	N
+
+#Le résultat des mesures a été transmis à l'inspection le 9 décembre 2002.
+
+18l0l0	Le_résultat_des_mesures_a_été_transmis	O
+18l0l1	à_l__inspection	N
+18l0l2	le_9_décembre_2002__	T
+
+#Dans les 4 puits représentatifs de l'amont et de l'aval hydraulique de l'usine et de la zone "annexe", ont été détectés des hydrocarbures totaux, des HAP et des AOX, mais à des teneurs très inférieures aux valeurs de constat d'impact pour usage sensible des eaux figurant dans le guide méthodologique de gestion des sites et sols pollués relatif au diagnostic initial et à l'évaluation simplifiée des risques.
+
+19l0l0	Dans_les_4_puits_représentatifs	O
+19l0l1	de_l_	N
+19l0l2	amont_et_de_l__aval	O
+19l0l3	hydraulique_de_l_	T
+
+#Au vu de ces résultats, qui demandent toutefois à être confirmés sur le long terme, il n'apparaît pour le moment plus nécessaire d'entreprendre un diagnostic approfondi du site et une évaluation détaillée des risques tant que:
+
+20l0l0	ces_résultats___qui_demandent	O
+20l0l1	toutefois_à_être_confirmés_sur_le_long_terme	L
+20l0l2	il_n__apparaît	O
+20l1l0	nécessaire_d__entreprendre_un_diagnostic_approfondi	S
+
+#· le site ne fait pas l'objet d'un changement d'usage notamment vers un usage plus sensible que l'usage industriel actuel,
+
+21l0l0	sensible_que_l__usage_industriel_actuel	N
+
+#· n'est pas le siège de travaux susceptibles de provoquer une mobilisation de la pollution résiduelle,
+
+22l0l0	mobilisation_de	O
+
+#· l'environnement du site n'est pas modifié dans le sens d'une plus grande sensibilité (par exemple projet de captage AEP),
+
+23l0l0	environnement_du_site_n__est	L
+23l0l1	d__une_plus_grande_sensibilité	N
+
+#· la surveillance ne fait pas apparaître d'impact sur les eaux souterraines.
+
+
+#Dans le cadre de la surveillance régulière des eaux souterraines prescrite à l'exploitant par les arrêtés préfectoraux du 25 juin 2001 et du 24 septembre 2002, une nouvelle campagne de prélèvements a été réalisée les 21 et 22 mai 2003, en période de haut niveau de la nappe.
+
+25l0l0	Dans_le_cadre_de_la	A
+
+#Les résultats d'analyses font apparaître une amélioration sensible de la qualité des eaux souterraines :
+
+26l0l0	Les_résultats_d_	R
+26l0l1	analyses_font_apparaître_une_amélioration_sensible	A
+26l0l2	qualité_des_eaux	O
+26l0l3	souterraines__	O
+
+#· disparition totale des traces de HAP et d'AOX sur le prélèvement effectué à l'aval hydraulique de la zone "annexe",
+
+27l0l0	effectué_à_l__aval_hydraulique_de_la_zone	O
+
+#· disparition des hydrocarbures totaux sur le puits de l'usine,
+
+28l0l0	puits_de_l__usine__	N
+28l1l0	totaux_sur_le	S
+
+#· diminution sensible des traces d'AOX sur le prélèvement aval de l'usine, les valeurs mesurées devenant proches du seuil de détection analytique.
+
+29l1l0	sensible_des_traces_d__AOX_sur	S
+
+#La surveillance aux abords de la zone "annexe" et de l'usine se poursuit par des campagnes régulières de prélèvements réalisées dans les conditions de l'arrêté complémentaire.
+
+30l0l0	usine_se_poursuit_par	L
+30l1l0	abords_de_la_zone___annexe	S
+
+#Elle confirme un maintien de la situation rencontrée depuis 2003, ainsi que le montrent les analyses périodiques dont la dernière a été réalisée en mars 2015.
+
+31l0l0	Elle_confirme_un	A
+31l0l1	maintien_de_la_situation	O
+31l0l2	rencontrée_depuis	L
+31l0l3	que_le_montrent_les_analyses	N
+
+#La surveillance des eaux souterraines n'étant plus justifié et fondé, un arrêté préfectoral daté du 9 juin 2016 a abrogé les deux arrêtés imposant et cadrant le suivi des eaux souterraines.
+
+32l0l0	justifié_et_fondé	T
+32l0l1	préfectoral_daté_du	O
+32l0l2	arrêtés_imposant	N
+32l0l3	et_cadrant_le_suivi_des_eaux_souterraines__	T

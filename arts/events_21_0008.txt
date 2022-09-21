@@ -1,0 +1,161 @@
+
+#21.0008
+#C'est la station service de distribution de carburants de la grande surface LECLERC de Marsannay construite en 1987 qui est à l'origine d'une fuite d'essence sans plomb en 1992.
+
+0l0l0	est_la_station_service_de_distribution_de_carburants	O
+0l0l1	la_grande_surface_LECLERC	O
+0l0l2	de_Marsannay	L
+0l0l3	construite_en_1987	N
+0l0l4	à	L
+0l0l5	l__origine_d_	R
+0l0l6	une_fuite	N
+0l0l7	d__essence_sans_plomb	A
+0l0l8	en_1992	T
+0l1l0	carburants	U
+0l1l1	essence_sans_plomb	U
+
+#La fuite s'est produite sur une tuyauterie reliant une cuve aux pompes.
+
+1l0l0	La_fuite_s__est_produite	N
+1l0l1	sur	R
+1l0l2	une_tuyauterie	O
+
+#Après percolation au travers des fissures de la cuvette de rétention des cuves, l'essence s'est infiltrée dans le sol vers la nappe souterraine du Sud de Dijon qui alimente en eau potable une partie de l'agglomération (50 000 habitants).
+
+2l0l0	Après_percolation	N
+2l0l1	essence	O
+2l0l2	s__est_infiltrée	N
+2l0l3	le_sol	O
+2l0l4	vers	L
+2l0l5	la_nappe_souterraine	O
+2l0l6	du_Sud_de_Dijon	L
+2l0l7	eau_potable	O
+2l0l8	une_partie_de_l__agglomération	L
+2l1l0	cuves	D
+2l1l1	essence	S
+
+#Ce site est inscrit à l'inventaire des sols pollués depuis 1994.
+
+3l0l0	Ce_site	O
+3l0l1	est_inscrit_à_l__inventaire_des_sols_pollués	O
+3l0l2	depuis_1994	T
+
+#La fuite a été découverte en avril 1992 et la pollution détectée en septembre 1993 dans le puits de captage d'eau potable de la ville de Longvic qui a dû être condamné.
+
+4l0l0	La_fuite_a_été_découverte	N
+4l0l1	en_avril_1992	T
+4l0l2	la_pollution	O
+4l0l3	détectée	N
+4l0l4	en_septembre_1993	T
+4l0l5	le_puits_de_captage_d_	O
+4l0l6	la_ville_de_Longvic	L
+4l0l7	a_dû_être_condamné	N
+
+#Les dispositions ont été prises immédiatement pour évacuer les terres souillées par les hydrocarbures.
+
+5l0l0	Les_dispositions	O
+5l0l1	ont_été_prises	N
+5l0l2	évacuer_les_terres_souillées	O
+5l0l3	hydrocarbures	O
+5l1l0	hydrocarbures	S
+
+#Les travaux de réparation et de modernisation de la station service ont débutés en septembre 1992.
+
+6l0l0	Les_travaux_de_réparation_et_de_modernisation	N
+6l0l1	la_station_service	O
+6l0l2	ont_débutés	N
+6l0l3	en_septembre_1992	T
+
+#L'essentiel des polluants légers ont atteint la nappe située à 20 m de profondeur.
+
+7l0l0	atteint_la_nappe_située_à_20_m_de_profondeur	L
+7l1l0	polluants_légers	U
+
+#Le risque résiduel concerne la fraction de polluants encore présente dans les sols et qui peut engendrer des relargages épisodiques dans la nappe.
+
+8l0l0	engendrer_des_relargages_épisodiques	N
+8l1l0	polluants	U
+
+#Les études réalisées en 1994 et complétées en 1995 confirment qu'aucune dépollution du sol ni de la nappe n'est justifiée.
+
+9l0l0	Les_études_réalisées	N
+9l0l1	en_1994	T
+9l0l2	complétées	N
+9l0l3	en_1995	T
+9l0l4	dépollution	N
+9l0l5	sol	O
+
+#Un suivi régulier de la qualité des eaux de la nappe réalisée depuis 1998 sur 5 piézomètres a été allégé en 2000.
+
+10l0l0	Un_suivi_régulier	A
+10l0l1	la_qualité_des_eaux_de_la_nappe	O
+10l0l2	depuis_1998	T
+10l0l3	a_été_allégé	N
+10l0l4	en_2000__	T
+
+#Il confirme l'atténuation des effets de la pollution dans la nappe, les concentrations mesurées en polluant sont depuis plus de 3 ans inférieures au seuil de détection, seules quelques traces sont détectées de manière sporadique dans la zone la plus proche du site.
+
+11l0l0	depuis_plus_de_3_ans	T
+
+#Le suivi a été progressivement allégé et concerne aujourd'hui le piézomètre aval le plus proche avec 2 analyses par an.
+
+12l0l0	Le_suivi	O
+12l0l1	a_été_progressivement_allégé	N
+
+#La surveillance réalisée ne met plus en évidence de pollution, seules quelques traces de MTBE sont encore détectées.
+
+13l0l0	La_surveillance_réalisée	N
+13l1l0	MTBE	S
+
+#Au 31 décembre 2005, il s'est produit une explosion au niveau des cuves de stockage de carburant.
+
+14l0l0	Au_31_décembre_2005__	T
+14l0l1	il_s__est_produit	N
+14l0l2	une_explosion	N
+14l0l3	au_niveau_des	R
+14l0l4	cuves_de_stockage_de_carburant	O
+14l1l0	carburant	U
+
+#Les premiers éléments et constats n'ont pas mis en évidence de fuite d'hydrocarbures au niveau des cuves, leurs intégrités ayant pu être démontrées après une mise en eau.
+
+15l0l0	ayant_pu_être_démontrées_après	R
+15l0l1	une_mise_en_eau	N
+15l1l0	hydrocarbures	S
+15l1l1	cuves	D
+
+#Les dernières analyses d'août 2007 montre l'absence de pollution.
+
+16l0l0	Les_dernières_analyses	N
+16l0l1	d__août_2007	T
+
+#Un suivi semestriel a été nécessaire afin de suivre l'évolution de la qualité des eaux souterraines au droit du site.
+
+17l0l0	Un_suivi_semestriel	T
+17l0l1	a_été	N
+17l0l2	au_droit_du_site	L
+
+#Les campagnes de prélèvements et les résultats d'analyses ont bien été transmis à l'inspection des installations classées.
+
+18l0l0	Les_campagnes_de_prélèvements	N
+18l0l1	ont_bien_été_transmis	N
+
+#Les paramètres analysés, à savoir les hydrocarbures totaux et le MTBE (méthyltertiobutyléther) sont tous en dessous des seuils de qualité fixés.
+
+19l1l0	hydrocarbures_totaux	S
+19l1l1	le_MTBE	S
+19l1l2	méthyltertiobutyléther	S
+
+#A la demande de l'Inspection des installations classées, l'exploitant a fourni un bilan quadriennal de la surveillance des eaux souterraines en août 2013.
+
+20l0l0	A_la_demande_de	R
+20l0l1	l__Inspection_des_installations_classées	O
+20l0l2	l__exploitant	O
+20l0l3	a_fourni	N
+20l0l4	un_bilan_quadriennal	A
+20l0l5	la_surveillance_des_eaux_souterraines	A
+20l0l6	en_août_2013__	T
+
+#Ce bilan montre que les concentrations en hydrocarbures totaux et en MTBE sont en dessous des seuils de qualité fixés.
+
+21l1l0	hydrocarbures_totaux	S
+21l1l1	MTBE	S

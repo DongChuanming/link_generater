@@ -1,0 +1,214 @@
+
+#45.0042
+#Sur ce site étaient implantés un centre commercial et une station service ainsi qu’un dépôt de fioul.
+
+0l0l0	Sur	L
+0l0l1	ce_site	O
+0l0l2	étaient_implantés	N
+0l0l3	un_centre_commercial	O
+0l0l4	un_dépôt_de_fioul	O
+0l1l0	fioul	U
+
+#Le centre commercial et une station service ont cessé d'être exploités en 2004 et seul le dépôt de fioul a continué son activité jusqu'en 2009.
+
+1l0l0	Le_centre_commercial	O
+1l0l1	une_station_service	O
+1l0l2	ont_cessé_d_	N
+1l0l3	être_exploités	N
+1l0l4	en_2004	T
+1l0l5	dépôt_de_fioul	O
+1l0l6	a_continué_son_activité	N
+1l0l7	jusqu__en_2009__	T
+1l1l0	fioul	U
+
+#L'ensemble de ces installations a été démoli en 2010 et le site accueille désormais plusieurs enseignes commerciale ainsi qu'un parking.
+
+2l0l0	L__ensemble_de_ces_installations	O
+2l0l1	a_été_démoli	N
+2l0l2	en_2010	T
+2l0l3	le_site	O
+2l0l4	accueille_désormais	R
+2l0l5	plusieurs_enseignes_commerciale	O
+
+#Le terrain est situé sur le territoire de la commune d'AMILLY dans une zone à vocation commerciale.
+
+3l0l0	Le_terrain	O
+3l0l1	est_situé_sur_le_territoire_de_la_commune_d__AMILLY	L
+3l0l2	dans_une_zone_à_vocation_commerciale	L
+
+#Des travaux de remise en état du site ont été réalisés en novembre 2004.
+
+4l0l0	Des_travaux_de_remise_en_état_du_site	O
+4l0l1	ont_été_réalisés	N
+4l0l2	en_novembre_2004__	T
+
+#Au niveau de la station-service, le dégazage, la vidange et la neutralisation des cuves de carburant et l’enlèvement des postes de ravitaillement ont été réalisés.
+
+5l0l0	le_dégazage	N
+5l0l1	la_vidange	N
+5l0l2	la_neutralisation	N
+5l0l3	cuves_de_carburant	O
+5l0l4	l__enlèvement	N
+5l0l5	des_postes_de_ravitaillement	O
+5l0l6	ont_été_réalisés	N
+5l1l0	carburant	U
+
+#Le séparateur d’hydrocarbure a été pompé et nettoyé.
+
+6l0l0	Le_séparateur_d__hydrocarbure	O
+6l0l1	a_été_pompé	N
+6l0l2	nettoyé	N
+6l1l0	d__hydrocarbure	S
+
+#De plus, le démantèlement des équipements internes au centre commercial, le dégazage des chambres froides, la vidange et le nettoyage d’un bac à graisses et l’élimination des déchets dans un centre agréé ont été effectués.
+
+7l0l0	le_démantèlement	N
+7l0l1	des_équipements_internes_au_centre_commercial	O
+7l0l2	le_dégazage_des_chambres_froides	N
+7l0l3	la_vidange	N
+7l0l4	le_nettoyage	N
+7l0l5	un_bac_à_graisses	O
+7l0l6	l__élimination	N
+7l0l7	des_déchets	O
+7l0l8	dans	A
+7l0l9	un_centre_agréé	O
+7l0l10	ont_été_effectués	N
+
+#Les diagnostics de pollution de sols, réalisés en avril et juin 2005, en périphérie de la station service, ont mis en évidence la présence d’hydrocarbures, à des concentrations inférieures aux valeurs de référence pour un usage non sensible du site.
+
+8l0l0	Les_diagnostics	N
+8l0l1	de_pollution_de_sols	N
+8l0l2	réalisés	N
+8l0l3	en_avril_et_juin_2005__	T
+8l0l4	en_périphérie_de_la_station_service	L
+8l0l5	d__hydrocarbures	O
+8l1l0	hydrocarbures	S
+
+#Les études ont conclu que le site ne présentait pas de pollution avérée.
+
+9l0l0	le_site	O
+
+#Le mémoire de cessation d’activité de novembre 2009, au travers des analyses de sols des 6 forages réalisés, a mis en évidence une pollution aux hydrocarbures, à proximité d’une des cuves de carburant de 100 m³ et du séparateur d’hydrocarbures.
+
+10l0l0	Le_mémoire_de_cessation_d__activité	N
+10l0l1	de_novembre_2009__	T
+10l0l2	6_forages_réalisés	N
+10l0l3	une_pollution	N
+10l0l4	hydrocarbures	O
+10l0l5	à_proximité_d_	L
+10l0l6	une_des_cuves_de_carburant	O
+10l0l7	séparateur_d__hydrocarbures	O
+10l1l0	hydrocarbures	S
+10l1l1	cuves_de	D
+10l1l2	carburant	U
+10l1l3	hydrocarbures	S
+
+#Suite à la cessation d'activité du dépôt de fioul, une société spécialisée a établi un rapport d'intervention indiquant que les cuves ont été extraites et que des analyses de sols ont mis en évidence une pollution aux hydrocarbures.
+
+11l0l0	Suite_à	R
+11l0l1	la_cessation_d__activité	N
+11l0l2	dépôt_de_fioul	O
+11l0l3	une_société_spécialisée	O
+11l0l4	a_établi	N
+11l0l5	un_rapport_d_	O
+11l0l6	cuves	O
+11l0l7	ont_été_extraites	N
+11l0l8	hydrocarbures	O
+11l1l0	fioul	U
+11l1l1	cuves	D
+11l1l2	hydrocarbures	S
+
+#Les sablons situés autour de la cuve de 100 m³ ont été extraits et répartis en 3 tas qui ont été analysés.
+
+12l0l0	Les_sablons	O
+12l0l1	situés_autour_de_la_cuve	L
+12l0l2	ont_été_extraits	N
+12l0l3	ont_été_analysés	N
+
+#Cependant, certains de ces sablons ont été remis accidentellement dans la fouille.
+
+13l0l0	ces_sablons	O
+13l0l1	ont_été_remis_accidentellement	N
+
+#La société spécialisée n'a pas jugé nécessaire de les extraire.
+
+14l0l0	La_société_spécialisée	O
+14l0l1	n__a_pas_jugé_nécessaire_de_les_extraire	N
+
+#En effet, les terres impactées sont situées entre 2 m et 4,5 m en profondeur et sont recouvertes d'un revêtement bitumé empêchant ainsi tout contact ou risque d'ingestion ou inhalation de particules de sol contaminé.
+
+15l0l0	les_terres_impactées	O
+15l0l1	inhalation	N
+
+#Au total, 278 tonnes de terres polluées ont été évacuées vers un centre de traitement adéquat.
+
+16l0l0	278_tonnes_de_terres_polluées	O
+16l0l1	ont_été_évacuées_vers	N
+16l0l2	un_centre_de_traitement_adéquat	O
+
+#L'étude a préconisé la mise en place d'une couche de surface (béton ou bitume), empêchant tout contact direct avec l’homme et que compte tenu de l’aménagement prévu (parking), la présence de la pollution résiduelle ne présente pas de risque vis à vis des usagers.
+
+17l0l0	la_mise_en_place_d__une_couche	N
+17l1l0	bitume	U
+
+#En 2010, l'ensemble des installations a été démoli.
+
+18l0l0	En_2010__	T
+18l0l1	l__ensemble_des_installations	O
+18l0l2	a_été_démoli	N
+
+#Un rapport d’intervention réalisé en 2011 met en évidence une pollution résiduelle en hydrocarbures en fond de fouille au niveau du radier à 4,5 mètres de profondeur ainsi qu’en fond de fouille Est des excavations menées sur le site.
+
+19l0l0	Un_rapport_d__intervention_réalisé	N
+19l0l1	en_2011	T
+19l0l2	hydrocarbures	O
+19l0l3	en_fond_de_fouille_Est	L
+19l0l4	des_excavations	N
+19l0l5	menées_sur_le_site	L
+19l1l0	hydrocarbures	S
+
+#Elle s’étend sur une superficie de 25 m².
+
+
+#Le rapport précise que l’on observe une décroissance de la teneur en hydrocarbures dans les terres analysées au niveau du prélèvement situé à 5,5 mètres de profondeur et que, compte tenu de la présence de craie moins fracturée en profondeur, l’étalement de la pollution est limité.
+
+21l0l0	hydrocarbures	O
+21l0l1	au_niveau_du_prélèvement	R
+21l0l2	situé_à_5_5_mètres_de_profondeur	N
+21l1l0	hydrocarbures	S
+
+#En janvier 2012, les terrains ont été cédés à la société REDEIM pour y construire un ensemble commercial d’équipements de la personne et de la maison.
+
+22l0l0	En_janvier_2012__	T
+22l0l1	les_terrains	O
+22l0l2	ont_été_cédés	N
+22l0l3	la_société_REDEIM	O
+22l0l4	pour_y	R
+22l0l5	construire	N
+22l0l6	un_ensemble_commercial_d__équipements_de_la_personne	O
+22l0l7	et_de_la_maison	A
+22l1l0	la_société_REDEIM	I
+
+#La zone d’extraction de l’ancienne cuve de 100 m³, a été recouverte d’une dalle de béton et est restée non construite.
+
+23l0l0	La_zone	O
+23l0l1	a_été	N
+23l0l2	est_restée_non_construite	N
+
+#Le site accueille désormais plusieurs enseignes commerciales ainsi qu'un parking.
+
+24l0l0	Le_site	O
+24l0l1	accueille_désormais	R
+24l0l2	plusieurs_enseignes_commerciales	O
+
+#La présence de l’impact résiduel devra être gardée en mémoire.
+
+
+#En cas de changement d’usage, compte tenu du passé industriel du site et des anomalies détectées, l’aménageur devra établir un plan de gestion qui sera adapté à son projet.
+
+26l0l0	En_cas	R
+26l0l1	de_changement_d_	N
+26l0l2	usage	O
+26l0l3	l__aménageur	N
+26l0l4	devra_établir	N
+26l0l5	un_plan_de_gestion	O

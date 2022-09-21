@@ -1,0 +1,196 @@
+
+#91.0120
+#La société Air France est la principale compagnie aérienne française.
+
+0l0l0	La_société_Air_France	O
+0l1l0	La_société_Air_France	I
+
+#Ses activités principales sont le transport de passagers, de fret ainsi que la maintenance et l'entretien des avions.
+
+1l0l0	le_transport_de_passagers	A
+1l0l1	fret	O
+1l0l2	la_maintenance_et_l__entretien_des_avions	A
+
+#Dans le cadre de changements d’activités s’opérant sur le site de Paray-Vielle-Poste, les activités telles que la maintenance et la réparation d’avions ne sont plus réalisées sur ce site.
+
+2l0l0	Dans_le_cadre_de	R
+2l0l1	changements	N
+2l0l2	opérant_sur	R
+2l0l3	le	O
+2l0l4	site_de_Paray___Vielle	L
+2l0l5	__Poste	L
+2l0l6	les_activités	A
+2l0l7	maintenance_et_la_réparation_d__avions	O
+2l0l8	ne_sont_plus_réalisées	N
+
+#AIR FRANCE, qui demeure seul occupant du site, exerce dessus des activités dites tertiaires et continue d'être l'exploitant ICPE de quelques utilités telles que chaufferies et équipements frigorifiques ou climatiques.
+
+3l0l0	AIR_FRANCE	O
+3l0l1	exerce_dessus_des_activités_dites_tertiaires	A
+3l0l2	continue_d_	R
+3l0l3	être	N
+3l0l4	l__exploitant_ICPE	O
+3l0l5	frigorifiques_ou_climatiques	A
+3l1l0	AIR_FRANCE	I
+
+#Ces activités ICPE sont sous le régime de la déclaration.
+
+4l0l0	Ces_activités_ICPE	O
+4l0l1	sous_le_régime_de	L
+4l0l2	la_déclaration	N
+
+#Le domaine d’AIR FRANCE à Paray-Vieille-Poste occupe une surface de 20 ha.
+
+5l0l0	Le_domaine_d__AIR_FRANCE	O
+5l0l1	à_Paray___Vieille___Poste	L
+5l0l2	20_ha	O
+5l1l0	d__AIR_FRANCE	I
+
+#L’environnement proche du site est constitué :
+
+6l0l0	L__environnement_proche_du_site	O
+
+#-à l’ouest par le N7, puis par le site d’Orlytech (zone d’activité)
+
+7l0l0	_à_l__ouest_par_le_N7	L
+7l0l1	par_le_site_d__Orlytech	L
+
+#-à l’est par l’aéroport d’Orly
+
+8l0l0	_à_l__est_par_l__aéroport_d__Orly	L
+
+#-au sud par le parking de l’aéroport
+
+9l0l0	_au_sud_par_le_parking_de_l__aéroport	L
+
+#-au nord par la gare routière
+
+10l0l0	_au_nord_par_la_gare_routière	L
+
+#Il n’y a pas de cours d’eau, de plan d’eau ou d’habitation à proximité immédiate du site.
+
+11l0l0	Il	O
+11l0l1	habitation_à_proximité_immédiate_du_site	L
+
+#Les investigations de sols ont mis en évidence la présence d’une nappe superficielle vers 7-8 mètres de profondeur, qui pourrait correspondre à la nappe des calcaires de Brie.
+
+12l0l0	Les_investigations_de_sols	N
+12l0l1	vers_7___8	T
+12l0l2	mètres_de_profondeur	N
+12l0l3	Brie	L
+
+#Compte tenu de sa faible profondeur et des informations disponibles sur la géologie au droit du site, celle-ci est fortement vulnérable à une pollution.
+
+13l0l0	au_droit_du_site	L
+
+#Le sens d'écoulement local de la nappe est estimé en direction du Nord - Nord Est.
+
+14l0l0	en_direction_du_Nord___Nord_Est	L
+
+#Deux captages à usage inconnu (donc considérés sensibles) sont localisés à 500 mètres environ en latéral hydraulique du site.
+
+15l0l0	Deux_captages	O
+15l0l1	localisés_à_500_mètres_environ_en_latéral_hydraulique_du_site	L
+
+#Compte tenu de leur position, ces captages ne sont pas considérés vulnérables à une pollution potentielle en provenance du site.
+
+16l0l0	ces_captages	O
+16l0l1	ne_sont_pas	R
+
+#Un diagnostic de pollution des sols a été réalisé en mai 2011 dans le cadre de la cessation partielle d'activité du site (cessation de l'activité de maintenance/entretien des avions) au droit des zones identifiées à risque.
+
+17l0l0	Un_diagnostic_de_pollution_des_sols_a_été_réalisé	N
+17l0l1	en_mai_2011	T
+17l0l2	dans_le_cadre_de	R
+17l0l3	la_cessation_partielle_d__activité	N
+17l0l4	cessation	N
+17l0l5	l__activité_de_maintenance	A
+17l0l6	entretien_des_avions	A
+17l0l7	au_droit_des_zones_identifiées	L
+17l0l8	à_risque	N
+
+#Sur les 4 zones investiguées, 2 zones avérées de pollution des sols par les hydrocarbures ont été mises en évidence (zones numérotées 1 et 3 dans le rapport de diagnostic).
+
+18l0l0	4	O
+18l0l1	zones_investiguées	N
+18l0l2	2_zones_avérées_de_pollution_des_sols	O
+18l0l3	les_hydrocarbures	O
+18l0l4	ont_été_mises_en	N
+18l1l0	hydrocarbures	S
+
+#L’impact mis en évidence dans la zone 1 était délimité et n’atteignait pas les eaux souterraines.
+
+19l0l0	la_zone	O
+19l0l1	n__atteignait	R
+19l0l2	pas_les_eaux_souterraines	A
+
+#Cette zone a fait l’objet d’une dépollution en octobre 2014.
+
+20l0l0	Cette_zone	O
+20l0l1	a_fait_l__objet_d_	R
+20l0l2	une_dépollution	N
+20l0l3	en_octobre_2014__	T
+
+#L’impact mis en évidence dans la zone 3 n’a pu être délimité pour des raisons d'inaccessibilité.
+
+21l0l0	L_	O
+21l0l1	la_zone_3	O
+
+#La pollution ayant atteint la zone de battement de la nappe souterraine, il est probable qu’elle ait migré en suivant le sens d’écoulement des eaux et il n’est pas exclu qu’elle s’étende sous des bâtiments.
+
+22l0l0	La_pollution	O
+22l0l1	ayant_atteint	N
+22l0l2	la_zone	O
+22l0l3	battement	A
+22l0l4	ait_migré	N
+22l0l5	bâtiments	L
+
+#Deux diagnostics complémentaires visant à définir cette pollution ont été réalisés en novembre 2013 et octobre 2014.
+
+23l0l0	Deux_diagnostics_complémentaires	N
+23l0l1	définir_cette_pollution_ont_été_réalisés	N
+23l0l2	en_novembre_2013_et_octobre_2014__	T
+
+#Le bilan de ces diagnostics pour la zone 3 est le suivant :
+
+24l0l0	ces_diagnostics	N
+24l0l1	la_zone_3	O
+
+#- Pollution des sols aux hydrocarbures (jusqu’à 7170 mg/kg de matière sèche_MS) et aux "BTEX" (Benzène, Toluène, Éthylbenzène et Xylènes) (jusqu’à 8,2 mg/kg de MS),
+
+25l1l0	hydrocarbures	S
+25l1l1	aux___BTEX_____Benzène	S
+25l1l2	Toluène	S
+25l1l3	Éthylbenzène	S
+25l1l4	Xylènes	S
+
+#- Pollution de la nappe aux hydrocarbures totaux (jusqu’à 63 mg/l)
+
+26l0l0	la_nappe	O
+26l1l0	hydrocarbures_totaux	S
+
+#Compte tenu des premiers diagnostics de pollutions ayant démontré la présence de diverses pollutions au droit du site, et de la vulnérabilité de la nappe d’eau souterraine, des campagnes d'analyses supplémentaires ont été prescrites à l'exploitant par arrêté préfectoral du 28/08/2015, de manière préciser les zones sources, l'étendue actuelle et l'importance des diverses pollutions.
+
+27l0l0	des_premiers_diagnostics	N
+27l0l1	de_pollutions	N
+27l0l2	la_présence_de_diverses_pollutions	O
+27l0l3	au_droit_du_site	L
+27l0l4	des_campagnes_d__analyses	N
+27l0l5	supplémentaires_ont_été_prescrites	N
+27l0l6	l__exploitant	O
+27l0l7	arrêté_préfectoral	O
+27l0l8	du_28_08_2015	T
+27l0l9	les_zones_sources	O
+
+#Il a également été prescrit à l'exploitant de mettre en œuvre un plan de gestion dont l’objet est de rechercher les possibilités de suppression des sources de pollution, compte tenu des techniques disponibles et de leurs coûts économiques.
+
+28l0l0	Il_a	O
+28l0l1	également_été_prescrit	N
+28l0l2	l__exploitant	O
+28l0l3	de_mettre_en_œuvre	N
+28l0l4	un_plan_de_gestion	O
+28l0l5	suppression_des_sources_de_pollution	O
+
+#Enfin, il est demandé à l'exploitant de réaliser une interprétation de l’état des milieux qui consiste, via des mesures portant sur la qualité de l’air intérieur des bâtiments potentiellement impactés, de s’assurer que l’état du milieu est compatible avec les usages constatés.
+
+29l0l0	l__exploitant	O

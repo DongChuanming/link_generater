@@ -1,0 +1,62 @@
+
+#02.0049
+#Ancien siège d'une entreprise de "bâtiment et travaux publiques" (Entreprise DANTEC), réaffecté ultérieurement à un usage de casse automobile par le locataire sous le nom de SARL "AUTO-SOLUTION".
+
+0l0l0	Ancien_siège	O
+0l0l1	une_entreprise_de___bâtiment_et_travaux_publiques	O
+0l0l2	Entreprise_DANTEC	O
+0l0l3	____réaffecté	N
+0l0l4	ultérieurement_à	R
+0l0l5	un_usage	O
+0l0l6	casse_automobile	O
+0l0l7	AUTO_SOLUTION	O
+0l1l0	__Entreprise_DANTEC	I
+0l1l1	SARL___AUTO_SOLUTION	I
+
+#Cette société a disparu (suite à la liquidation judiciaire).
+
+1l0l0	Cette_société	O
+1l0l1	a_disparu	N
+1l0l2	à_la_liquidation_judiciaire	N
+
+#Suspicion de pollution des sols par les hydrocarbures.
+
+2l0l0	Suspicion_de_pollution_des_sols	O
+2l0l1	les_hydrocarbures	O
+2l1l0	hydrocarbures	S
+
+#L'arrêté préfectoral du 7 février 1999 imposait à la société AUTO SOLUTION la régularisation administrative du site ou sa remise en état.
+
+3l0l0	L__arrêté_préfectoral	O
+3l0l1	7_février_1999	T
+3l0l2	imposait	N
+3l0l3	la_société_AUTO_SOLUTION	O
+3l0l4	la_régularisation_administrative	N
+3l0l5	site	O
+3l0l6	remise_en_état	N
+3l1l0	la_société_AUTO_SOLUTION	I
+
+#Un arrêté de consignation a ensuite été pris le 16 décembre 1999.
+
+4l0l0	Un_arrêté_de_consignation	O
+4l0l1	a_ensuite_été_pris	N
+4l0l2	le_16_décembre_1999__	T
+
+#En février 2003, la société est mise en liquidation judiciaire.
+
+5l0l0	En_février_2003__	T
+5l0l1	la_société	O
+5l0l2	est_mise_en_liquidation_judiciaire	N
+
+#Lors de la visite de l'inspection des installations classées le 25 février 2009, il n'apparaissait aucune trace de l'activité précédente.
+
+6l0l0	Lors_de_la_visite	N
+6l0l1	l__inspection_des_installations_classées	O
+6l0l2	le_25_février_2009__	T
+
+#Cependant, la mauvaise gestion du site à l'époque laisse supposer la présence d'une pollution.
+
+7l0l0	gestion_du_site	A
+7l0l1	à_l_	T
+7l0l2	époque	O
+7l0l3	la_présence_d__une_pollution	O

@@ -1,0 +1,102 @@
+
+#64.0105
+#La société FEDERAL MOGUL est spécialisée dans la fabrication de pièces de frittage pour le secteur de l'automobile.
+
+0l0l0	La_société_FEDERAL_MOGUL	O
+0l0l1	est_spécialisée_dans_la_fabrication_de_pièces_de_frittage	A
+0l0l2	pour_le_secteur_de_l__automobile	O
+0l1l0	La_société_FEDERAL_MOGUL	I
+
+#L'usine est composée de six ateliers principaux (îlots ou lignes de production), d'un atelier de préparation de matières premières (atelier mélange), d'un atelier de parachèvement et de deux ateliers connexes (atelier outillage et maintenance).
+
+1l0l0	six_ateliers_principaux	O
+1l0l1	un_atelier_de_parachèvement	O
+1l0l2	deux_ateliers_connexes	O
+
+#Lors de la mise en place d'un système de management ISO 14001 sur le site, le bilan des activités a montré que certaines rubriques de la nomenclature des ICPE dépassaient le seuil de l'autorisation, comme la rubrique 2560 (travail mécanique des métaux) et 2565 (traitement ou revêtement des métaux).
+
+2l0l0	la_mise_en_place_d__un_système_de_management_ISO_14001	N
+2l0l1	la_nomenclature_des_ICPE	O
+2l0l2	dépassaient_le_seuil	N
+2l0l3	revêtement_des_métaux	A
+
+#Or, l'exploitant n'était titulaire que de récépissés de déclaration.
+
+3l0l0	l__exploitant	O
+3l0l1	récépissés	O
+3l0l2	déclaration	N
+
+#L'arrêté préfectoral n° 09/IC/214 du 29 septembre 2009 a régularisé cette situation suite à l'instruction d'un dossier de demande d'autorisation d'exploiter soumis à enquête publique.
+
+4l0l0	L__arrêté_préfectoral	O
+4l0l1	du_29_septembre_2009	T
+4l0l2	a_régularisé	N
+4l0l3	cette_situation	N
+4l0l4	suite_à	R
+4l0l5	l__instruction	N
+4l0l6	d_	R
+4l0l7	un_dossier_de_demande_d__autorisation_d_	N
+4l0l8	exploiter	O
+
+#Cet arrêté a également autorisé la société FEDERAL MOGUL à :
+
+5l0l0	Cet_arrêté	O
+5l0l1	a_également_autorisé	N
+5l0l2	la_société_FEDERAL_MOGUL	O
+5l1l0	la_société_FEDERAL_MOGUL	I
+
+#- construire un nouveau bâtiment de 321 m² destiné à une nouvelle activité d'imprégnation,
+
+6l0l0	construire	N
+6l0l1	un_nouveau_bâtiment	O
+6l0l2	une_nouvelle_activité_d__imprégnation	A
+
+#- exploiter dans le bâtiment actuel un nouvel atelier de frittage de pièces mécaniques.
+
+7l0l0	frittage_de_pièces_mécaniques	A
+
+#L'activité est exercée du lundi au samedi en 3/8 heures et les effectifs sont actuellement de 170 personnes.
+
+
+#1 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+9l0l0	SURVEILLANCE_DES_EAUX	A
+9l0l1	SOUTERRAINES	O
+9l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 b) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines.
+
+10l0l0	Ce_site	O
+10l0l1	est_soumis_à	R
+10l0l2	l_	O
+10l0l3	2_février_1998	T
+10l0l4	surveillance_des_eaux_souterraines	A
+
+#L'arrêté préfectoral n° 09/IC/214 du 29 septembre 2009 a fixé les dispositions suivantes :
+
+11l0l0	L__arrêté_préfectoral	O
+11l0l1	du_29_septembre_2009	T
+11l0l2	a_fixé	N
+
+#- surveillance à réaliser via 2 piézomètres (1 amont et 1 aval),
+
+
+#- une campagne de mesure annuelle de la qualité des eaux souterraines,
+
+13l0l0	la_qualité_des_eaux_souterraines	O
+
+#- paramètres à analyser : HCTX, Cuivre, Fer, Magnésiumm, Nickel, COHV,
+
+14l1l0	HCTX	S
+14l1l1	Cuivre	S
+14l1l2	Fer	S
+14l1l3	Magnésiumm	S
+14l1l4	Nickel	S
+14l1l5	COHV	S
+
+#- Relever le niveau piézométrique à chaque campagne.
+
+
+#Résultats de 2009 à 2012?
+
+16l0l0	2009_à_2012__	T

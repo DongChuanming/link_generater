@@ -1,0 +1,169 @@
+
+#03.0024
+#Le site occupe la parcelle YC42 de la commune de Saint-Victor, sur des alluvions récentes, non imperméables, en aval hydraulique proche (500 m) des puits de captage d'eau potable dont elle est séparée par le canal du Berry à l'est du site.
+
+0l0l0	Le_site	O
+0l0l1	la_parcelle_YC42	O
+0l0l2	la_commune_de_Saint_Victor	L
+0l0l3	sur_des_alluvions_récentes	L
+0l0l4	en_aval_hydraulique_proche___500_m___des_puits_de	L
+0l0l5	captage_d__eau_potable	A
+0l0l6	le_canal_du_Berry_à_l__est_du_site	L
+
+#Un chenal de circulation préférentielle des eaux souterraines (nappe aquifère particulièrement importante) passe sous le site et alimente la commune de St Victor.
+
+1l0l0	Un_chenal	O
+1l0l1	alimente_la_commune_de_St_Victor	L
+
+#Le Cher coule à environ 500 m de la parcelle.
+
+2l0l0	Le_Cher	O
+2l0l1	à_environ_500_m_de_la_parcelle	L
+
+#Le site est protégé des inondations du Cher par la présence du canal surélevé du Berry qui joue le rôle de digue.
+
+3l0l0	Le_site	O
+3l0l1	est_protégé_des_inondations_du_Cher	L
+3l0l2	du_canal_surélevé	O
+
+#Peu d'habitations sont recensées à proximité.
+
+
+#Depuis au moins les années 1940 (et peut-être les années 1920), la société DUNLOP utilise le site comme décharge (ses deux tiers sud).
+
+5l0l0	Depuis_au_moins_les_années_1940	T
+5l0l1	peut_être_les_années_1920	T
+5l0l2	la_société_DUNLOP	O
+5l0l3	utilise	N
+5l0l4	le_site	O
+5l0l5	comme_décharge	O
+5l1l0	la_société_DUNLOP	I
+
+#La décharge est créée par comblement de l'étang dit "de la Parisienne".
+
+6l0l0	La_décharge	O
+6l0l1	est_créée_par_comblement	N
+6l0l2	l__étang	O
+6l0l3	dit	R
+
+#Le terrain est acquis par DUNLOP en 1951.
+
+7l0l0	Le_terrain	O
+7l0l1	est_acquis	N
+7l0l2	DUNLOP	O
+7l0l3	en_1951	T
+7l1l0	DUNLOP	I
+
+#La décharge accueille pendant près de 50 ans des poudres noires, ordures ménagères de la cantine Dunlop, mâchefers issus des chaudières à charbon de l'usine, des pneumatiques hors d'usage ainsi que des déchets de démolition divers malgré une clôture.
+
+8l0l0	La_décharge	O
+8l0l1	accueille	R
+8l0l2	pendant_près_de_50_ans	T
+8l0l3	poudres_noires	O
+8l0l4	la_cantine_Dunlop	O
+8l0l5	chaudières_à_charbon	A
+8l0l6	l__usine	O
+8l0l7	pneumatiques_hors_d__usage	O
+8l0l8	une_clôture	O
+8l1l0	poudres_noires	U
+8l1l1	ordures_ménagères	U
+8l1l2	la_cantine	I
+8l1l3	Dunlop	S
+8l1l4	charbon	U
+
+#En 1986, l'arrêté préfectoral 702/86 du 12 mars met en demeure l'exploitant de réaliser une étude hydrogéologique ayant pour but de définir les moyens à mettre en œuvre pour préserver la qualité des eaux aux environs du site.
+
+9l0l0	En_1986	T
+9l0l1	l__arrêté_préfectoral	O
+9l0l2	12_mars_met_en_demeure	T
+9l0l3	l__exploitant	O
+9l0l4	réaliser_une_étude_hydrogéologique	N
+
+#Suite à des avis divergents, une nouvelle expertise est nécessaire.
+
+
+#En l'attente de celle-ci, la décharge est autorisée par arrêté préfectoral du 28 avril 1989 pour une durée limitée de 1 an.
+
+11l0l0	la_décharge	O
+11l0l1	est_autorisée	N
+11l0l2	par_arrêté_préfectoral	O
+11l0l3	28_avril_1989	T
+11l0l4	pour_une_durée_limitée_de_1_an__	T
+
+#Les études montrant la grande sensibilité des eaux superficielles et souterraines au droit de la décharge et l'inadéquation de celle-ci (choisie 50 ans auparavant sans étude spécifique), un arrêté en ordonne la fermeture le 21 janvier 1991 et prescrit un suivi annuel de la qualité des eaux de la nappe à partir de 3 piézomètres implantés, l'un sur la décharge, les deux autres en aval, de l'autre côté du canal du Berry et à proximité des puits de captages de la station de St Victor.
+
+12l0l0	Les_études	O
+12l0l1	au_droit_de_la_décharge	L
+12l0l2	50_ans_auparavant	T
+12l0l3	un_arrêté	O
+12l0l4	en_ordonne_la_fermeture	N
+12l0l5	le_21_janvier_1991	T
+12l0l6	un_suivi_annuel	A
+12l0l7	la_qualité_des_eaux_de_la_nappe	O
+12l0l8	à_partir_de	R
+12l0l9	3_piézomètres_implantés	O
+12l0l10	deux_autres_en_aval	O
+12l0l11	de_l__autre_côté_du_canal_du_Berry	L
+12l0l12	et_à_proximité_des_puits_de_captages_de_la_station_de_St_Victor	L
+
+#Un arrêté préfectoral du 23 juin 1998 impose un diagnostic et une évaluation simplifiée des risques.
+
+13l0l0	Un_arrêté_préfectoral	O
+13l0l1	du_23_juin_1998	T
+13l0l2	impose_un_diagnostic	N
+13l0l3	une_évaluation_simplifiée_des_risques	N
+
+#Un arrêté préfectoral de suivi semestriel  de la qualité des eaux de la nappe sous-jacente est prescrit le 17/10/2002 par le préfet de l'Allier.
+
+14l0l0	Un_arrêté_préfectoral_de	O
+14l0l1	suivi_semestriel	A
+14l0l2	de_la_qualité_des_eaux	O
+14l0l3	de_la_nappe_sous_jacente	O
+14l0l4	est_prescrit	N
+14l0l5	le_17_10_2002	T
+14l0l6	par_le_préfet	O
+14l0l7	de_l__Allier	A
+14l1l0	par_le_préfet	I
+
+#Des restrictions d'usages formalisées par une convention de servitudes au profit de l'Etat sont signées le 6 mai 2003 et enregistrées aux hypothèques le 20 mai 2003.
+
+15l0l0	Des_restrictions_d__usages	O
+15l0l1	formalisées_par	R
+15l0l2	une_convention_de_servitudes	O
+15l0l3	au_profit_de	R
+15l0l4	l__Etat	O
+15l0l5	sont_signées	N
+15l0l6	le_6_mai_2003	T
+15l0l7	hypothèques	O
+15l0l8	le_20_mai_2003__	T
+
+#Prélèvements et analyses du 26/03/2018 : les concentrations de l’ensemble des Hydrocarbures Polycycliques Aromatiques (HAP) restent inférieures aux limites de quantification sur les 3 piézomètres.
+
+16l0l0	Prélèvements_et_analyses	N
+16l0l1	26_03_2018	T
+16l1l0	Hydrocarbures_Polycycliques_Aromatiques	S
+16l1l1	HAP	S
+
+#Il en est de même pour l’Indice Hydrocarbure.
+
+17l1l0	Hydrocarbure	S
+
+#Pour la piézomètre "décharge", la concentration en sulfates est élevée (350 mg/L).
+
+18l1l0	sulfates	S
+
+#Les métaux ont une concentration équivalente entre le piézomètre "décharge" et "station AEP" pour l'arsenic (13 µg/L) et le chrome (0,5 µg/L).
+
+19l0l0	Les_métaux	O
+19l0l1	l__arsenic	O
+19l1l0	métaux	S
+19l1l1	l__arsenic	S
+19l1l2	chrome	S
+
+#Elle est plus faible As et légèrement plus forte (2 µg/L) pour Cr au droit du piézo "n° 2" (proche des puits de captage).
+
+20l1l0	Cr	S
+
+#La concentration en zinc est plus élevée sur le piézo "décharge" (45 µg/L) que sur les deux autres (< 6 µg/L).
+
+21l1l0	zinc	S

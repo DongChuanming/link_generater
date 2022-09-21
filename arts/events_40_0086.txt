@@ -1,0 +1,266 @@
+
+#40.0086
+#Scierie avec traitement du bois exploitée par les établissements GABRIEL BEYRIA (site Usine) située sur la route de Ousse à Ygos St Saturnin (40).
+
+0l0l0	Scierie_avec_traitement_du_bois	A
+0l0l1	exploitée_par	R
+0l0l2	les_établissements_GABRIEL_BEYRIA	O
+0l0l3	située_sur_la_route_de_Ousse	L
+0l0l4	à_Ygos_St_Saturnin	L
+0l0l5	__40__	L
+0l1l0	les_établissements_GABRIEL_BEYRIA	I
+0l1l1	Saturnin	I
+
+#L'exploitant dispose également à Ygos St Saturnin d'un second établissement (site "Scierie") situé sur la route de Garein (fiche BASOL 33.0087).
+
+1l0l0	L__exploitant	O
+1l0l1	à_Ygos_St_Saturnin	L
+1l0l2	un_second_établissement	O
+1l0l3	Scierie	A
+1l0l4	situé_sur_la_route_de_Garein	L
+1l1l0	Scierie__	I
+
+#Le site "Usine" est spécialisé dans la fabrication de produits en bois :
+
+2l0l0	Le_site	O
+2l0l1	spécialisé_dans	R
+2l0l2	la_fabrication_de_produits_en_bois	A
+
+#- des plateaux ferrés pour les fabricants de produits en béton vibré,
+
+3l0l0	ferrés	O
+3l0l1	les_fabricants_de_produits	A
+
+#- des caisses (montées ou en kit) pour l'industrie et l'armement.
+
+4l0l0	l__industrie	A
+4l0l1	armement	A
+
+#Les bois sont traités par un produit anti-bleu en solution aqueuse, un produit fongicide insecticide en solution dans des solvants pétroliers (traitement des caisses) et un produit d'imprégnation également en solution dans des solvants pétroliers (traitement des plateaux ferrés).
+
+5l0l0	sont_traités	N
+5l0l1	un_produit	O
+5l0l2	traitement_des_caisses	A
+5l0l3	traitement	N
+5l1l0	fongicide	S
+5l1l1	solvants_pétroliers	S
+5l1l2	solvants_pétroliers	S
+
+#Les installations ont été autorisées par l'arrêté préfectoral du 23 décembre 1991.
+
+6l0l0	Les_installations	O
+6l0l1	ont_été_autorisées	N
+6l0l2	par_l__arrêté_préfectoral	O
+6l0l3	du_23_décembre_1991__	T
+
+#1- DIAGNOSTIC
+
+7l0l0	DIAGNOSTIC	N
+
+#Dans le cadre de l'action collective "diagnostic des scieries avec traitement des bois" lancée en 2003 par la DRIRE, l'arrêté préfectoral du 2 avril 2003 prescrit le diagnostic initial et l’Évaluation Simplifiée des Risques (ESR) du site.
+
+8l0l0	Dans_le_cadre_de	R
+8l0l1	diagnostic	N
+8l0l2	scieries_avec_traitement_des_bois	A
+8l0l3	en_2003	T
+8l0l4	la_DRIRE	O
+8l0l5	l__arrêté_préfectoral	O
+8l0l6	2_avril_2003	T
+8l0l7	prescrit_le_diagnostic_initial	N
+8l0l8	l__Évaluation_Simplifiée_des_Risques	N
+8l1l0	la_DRIRE	I
+
+#Les études et l'ESR sont remises en 2004 et le 7 juillet 2005.
+
+9l0l0	Les_études	O
+9l0l1	sont_remises	N
+9l0l2	en_2004	T
+9l0l3	le_7_juillet_2005__	T
+
+#L'ESR classe le site en catégorie 2 "à surveiller" pour le milieu "eaux souterraines, autres usages que l'alimentation en eau potable (AEP)".
+
+
+#Les résultats de la surveillance de la nappe montrent notamment un léger impact en propiconazole, observé depuis 2005.
+
+11l0l0	nappe	N
+11l0l1	depuis_2005__	T
+11l1l0	propiconazole	S
+
+#Le bilan de la surveillance mérite d'être effectué afin d'expliquer la situation.
+
+12l0l0	surveillance	A
+
+#Le diagnostic de 2005 susvisé et l'étude d'impact de l'établissement pourront au besoin être actualisés.
+
+13l0l0	Le_diagnostic_de_2005	T
+13l0l1	l__établissement	O
+
+#2- SURVEILLANCE DES EAUX SOUTERRAINES
+
+14l0l0	SURVEILLANCE_DES_EAUX_SOUTERRAINES	O
+14l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 a) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines par référence à la rubrique 2415 (traitement du bois) de la nomenclature des Installations Classées pour la Protection de l'Environnement.
+
+15l0l0	Ce_site	O
+15l0l1	est_soumis_à	R
+15l0l2	l_	O
+15l0l3	2_février_1998	T
+15l0l4	la_surveillance_des_eaux_souterraines	A
+15l0l5	traitement_du_bois	A
+15l0l6	Installations_Classées_pour_la_Protection	O
+
+#L'arrêté préfectoral du 2 avril 2003 prescrit la surveillance des eaux souterraines selon les modalités ci-après :
+
+16l0l0	L__arrêté_préfectoral	O
+16l0l1	2_avril_2003	T
+16l0l2	prescrit	N
+16l0l3	la_surveillance_des_eaux_souterraines	A
+16l0l4	les_modalités	O
+
+#- sur un forage (PZ amont) et par la mise en place de 4 piézomètres,
+
+17l0l0	un_forage	N
+17l0l1	la_mise_en_place	N
+
+#- les paramètres à analyser sont représentatifs des activités et des produits utilisés sur le site :
+
+
+#. cyperméthrine, carbendazime, IPBC, propiconazole pour les traitements fongicide et fongicide - insecticide,
+
+19l0l0	les_traitements_fongicide	N
+19l1l0	cyperméthrine	S
+19l1l1	carbendazime	S
+19l1l2	IPBC	S
+19l1l3	propiconazole	S
+19l1l4	fongicide	S
+19l1l5	fongicide	S
+
+#. fluorène, acénaphtène et phénol pour le traitement par imprégnation des plateaux ferrés,
+
+20l0l0	le_traitement	N
+20l0l1	par_imprégnation	A
+20l0l2	plateaux_ferrés	O
+20l1l0	fluorène	S
+20l1l1	acénaphtène	S
+20l1l2	phénol	S
+
+#- le niveau piézométrique de la nappe est relevé à chaque campagne,
+
+21l0l0	est_relevé_à_chaque_campagne	N
+
+#- la fréquence des campagnes d'analyses est semestrielle.
+
+22l0l0	campagnes_d__analyses	N
+
+#Les relevés piézométriques du 7 février 2005 ont montré des incohérences entre le (ou les) sens d'écoulement de la nappe et les résultats des analyses des eaux souterraines.
+
+23l0l0	Les_relevés_piézométriques	N
+23l0l1	du_7_février_2005	T
+
+#Les analyses montrent en effet une incidence des traitements de bois sur le piézomètre PZ3 situé à l'Est alors qu'il n'est pas censé être en aval des installations.
+
+24l0l0	Les_analyses	N
+24l0l1	traitements_de_bois	A
+24l0l2	le_piézomètre_PZ3	O
+24l0l3	situé_à_l__Est	L
+24l0l4	en_aval_des_installations	L
+
+#Seule la teneur en propiconazole de 3,7 µg/l est supérieure à la valeur de référence "eau de consommation (0,1 µg/l) et "eau ressource" (2 µg/l).
+
+25l1l0	propiconazole	S
+
+#La campagne du 3 mars 2008 montre que :
+
+26l0l0	La_campagne_du	N
+26l0l1	3_mars_2008	T
+
+#- les 4 piézomètres sont impactés par les produits utilisés, ce qui pourrait s'expliquer par un sens d'écoulement variable de la nappe,
+
+27l0l0	4_piézomètres	O
+27l0l1	sont_impactés	N
+27l1l0	les_produits_utilisés	U
+
+#- seul le propiconazole (produit anti-bleu utilisé en phase aqueuse) est détecté en quantité notable sur les piézomètres.
+
+28l1l0	le_propiconazole	S
+28l1l1	produit_anti_bleu	S
+
+#Les valeurs mesurées en µg/l sont : Forage 0,18; PZ1 2,93; PZ2 2,52; PZ3 1,1; la valeur de référence eaux de consommation étant de 0,1 µg/l).
+
+
+#Le 27 mars 2008, l'Inspection demande à l'exploitant sous un délai de 2 mois :
+
+30l0l0	Le_27_mars_2008__	T
+30l0l1	l__Inspection	O
+30l0l2	l__exploitant	O
+30l0l3	sous	R
+30l0l4	un_délai_de_2_mois	T
+
+#- des investigations supplémentaires sur le (ou les) sens d'écoulement de la nappe en fonction des hauteurs de celle-ci,
+
+
+#- la mise en place d'un piézomètre supplémentaire au Sud,
+
+32l0l0	la_mise_en_place_d__un_piézomètre_supplémentaire	O
+32l0l1	au_Sud	L
+
+#- l'ajout du biphényle et du naphtalène aux substances analysées.
+
+33l1l0	biphényle	S
+33l1l1	naphtalène	S
+
+#Il convient de compter 1 an pour avoir une meilleure vision de la situation.
+
+
+#La campagne du 22 juillet 2008 montre une aggravation de la situation par le propiconazole en PZ1 (6,63 µg/l) et l'apparition de l'IPBC sur le forage (0,655 µg/l).
+
+35l0l0	La_campagne_du	N
+35l0l1	22_juillet_2008	T
+35l0l2	l__apparition	N
+35l1l0	le_propiconazole	S
+35l1l1	l__IPBC	S
+
+#La campagne du 2 septembre 2008 montre une amélioration de la situation mais avec l'apparition de traces d'Hydrocarbures Aliphatiques Polycycliques (HAP) :
+
+36l0l0	La_campagne	N
+36l0l1	du_2_septembre_2008	T
+36l0l2	l__apparition	N
+36l1l0	Hydrocarbures_Aliphatiques_Polycycliques	S
+36l1l1	HAP	S
+
+#- sur le forage : acénaphtène (0,101 µg/l), fuorène (0,057 µg/l/l) et naphtalène (0,05 µg/l/l) ,
+
+37l1l0	acénaphtène___0_101	S
+37l1l1	fuorène	S
+37l1l2	naphtalène	S
+
+#- sur PZ1 : naphtalène (0,038 µg/l),
+
+38l1l0	naphtalène	S
+
+#- sur PZ2 : naphtalène (0,043 µg/l) et propiconazole (0,025 µg/l/l),
+
+39l1l0	PZ2	S
+39l1l1	naphtalène___0_043	S
+39l1l2	propiconazole	S
+
+#- sur PZ3 : naphtalène (0,069 µg/l),
+
+40l1l0	naphtalène	S
+
+#La campagne du 15 juin 2009 confirme la situation par l'observation de traces sur l'ensemble des points.
+
+41l0l0	La_campagne	N
+41l0l1	du_15_juin_2009	T
+
+#La campagne du 24 novembre 2009 montre l'absence de HAP et de Phénols et l'absence d'impact dans le forage.
+
+42l0l0	La_campagne	N
+42l0l1	du_24_novembre_2009	T
+42l1l0	HAP	S
+42l1l1	Phénols	S
+
+#En revanche, le propiconazole est détecté sur les 4 piézomètres : PZ1 0,102 µg/l, PZ2 0,038 µg/l, PZ3 0,887 µg/l, PZ4 0,015 µg/l.
+
+43l1l0	le_propiconazole	S

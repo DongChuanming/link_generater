@@ -1,0 +1,310 @@
+
+#44.0087
+#La société DLE SPECIALITES qui fabriquait des armoires électriques a utilisé ce terrain, propriété de Foncière des Régions, jusqu'en janvier 2011, date à laquelle la société a restitué le site à son bailleur.
+
+0l0l0	La_société_DLE_SPECIALITES	O
+0l0l1	fabriquait_des_armoires_électriques	A
+0l0l2	a_utilisé	N
+0l0l3	ce_terrain	O
+0l0l4	Foncière_des_Régions	O
+0l0l5	jusqu__en_janvier_2011__	T
+0l0l6	la_société	O
+0l0l7	a_restitué	N
+0l0l8	le_site	O
+0l0l9	son_bailleur	O
+0l1l0	La_société_DLE_SPECIALITES	I
+
+#L'environnement immédiat du site est constitué :
+
+1l0l0	L__environnement_immédiat	O
+
+#*au sud et à l'ouest, par des habitations individuelles;
+
+
+#*à l'est,  par une voie de chemin de fer puis par des bâtiments d'activités commerciales et/ou industrielles;
+
+3l0l0	à_l__est	L
+3l0l1	chemin_de_fer	O
+3l0l2	par_des_bâtiments	O
+3l0l3	d__activités_commerciales_et___ou_industrielles	A
+
+#*au nord, par des bâtiments d'activités commerciales et/ou industrielles
+
+4l0l0	__au_nord	L
+4l0l1	activités_commerciales_et___ou_industrielles	A
+
+#Le site  a été occupé par :
+
+5l0l0	Le_site	O
+5l0l1	__a_été_occupé	N
+
+#*3 bâtiments à usage de bureaux ou de locaux sociaux (réfectoire puis salle de réunion).
+
+6l0l0	3_bâtiments	O
+6l0l1	à_usage_de	R
+
+#Le mode de chauffage de ces bâtiments est assuré par du gaz de ville ;
+
+7l0l0	ces_bâtiments	O
+
+#*un bâtiment servant d'atelier de réparation des véhicules légers et poids lourds et accueillant :
+
+8l0l0	un_bâtiment	O
+8l0l1	servant_d_	R
+8l0l2	atelier_de_réparation	L
+
+#-deux fosses de visite;
+
+
+#-une fosse d'entretien équipée d'une cuve enterrée d'huiles usagées de 3m3 ayant été nettoyée avant restitution du site;
+
+10l0l0	_une_fosse_d__entretien	O
+10l0l1	une_cuve	O
+10l0l2	enterrée	O
+10l0l3	ayant_été_nettoyée	N
+10l0l4	avant_restitution_du_site	L
+10l1l0	cuve_enterrée	D
+10l1l1	d__huiles_usagées	U
+
+#-une zone de stockage des pièces neuves;
+
+
+#-une zone de stockage des fûts d'huile avec ou sans rétention et une cuve aérienne d'huile neuve de 5m3 sur rétention.
+
+12l0l0	_une_zone	O
+12l0l1	fûts_d__huile	O
+12l0l2	une_cuve_aérienne	O
+12l1l0	huile_neuve	U
+
+#Des traces d'hydrocarbures ont été notées sur la dalle bétonnée;
+
+13l0l0	dalle_bétonnée	O
+13l1l0	hydrocarbures	S
+
+#-un atelier de chaudronnerie ;
+
+14l0l0	chaudronnerie	A
+
+#-une aire de lavage équipée d'un débourbeur et d'un séparateur d'hydrocarbures ayant été nettoyées avant restitution du site;
+
+15l0l0	_une_aire_de_lavage	O
+15l0l1	d__hydrocarbures	O
+15l0l2	ayant_été_nettoyées	N
+15l0l3	avant	T
+15l0l4	restitution_du_site	N
+15l1l0	hydrocarbures	S
+
+#Ce bâtiment était anciennement chauffé au fuel domestique qui était stocké dans une cuve enterrée localisée au sud de ce bâtiment qui a fait l'objet d'une évacuation avant restitution du site ;
+
+16l0l0	Ce_bâtiment	O
+16l0l1	était_anciennement	R
+16l0l2	chauffé_au_fuel_domestique	A
+16l0l3	était_stocké_dans	R
+16l0l4	une_cuve_enterrée	O
+16l0l5	localisée_au_sud_de_ce_bâtiment	L
+16l0l6	a	N
+16l0l7	fait_l__objet_d_	R
+16l0l8	une_évacuation	N
+16l1l0	fuel	S
+16l1l1	une_cuve	D
+
+#*au nord de ce bâtiment, en extérieur, deux zones de stockage sur sol nu de fûts de solvants, piles et accumulateurs et divers entreposages;
+
+17l0l0	_	O
+17l0l1	au_nord_de_ce_bâtiment	L
+17l0l2	entreposages	A
+17l1l0	solvants	U
+17l1l1	piles	U
+
+#*à l'ouest de ce bâtiment, un transformateur diélectrique au pyralène a été démantelé et évacué, conformément à la réglementation, en mars 2011;
+
+18l0l0	à_l__ouest_de_ce_bâtiment	L
+18l0l1	un_transformateur	O
+18l0l2	a_été_démantelé	N
+18l0l3	et_évacué	N
+18l0l4	en_mars_2011	T
+18l1l0	pyralène	S
+
+#*au nord du site, des hangars servant au stationnement de véhicules  ou à l'entreposage de matériel.
+
+19l0l0	au_nord_du_site	L
+19l0l1	hangars	O
+19l0l2	servant	R
+19l0l3	au_stationnement_de_véhicules	A
+19l0l4	l__entreposage_de_matériel	A
+
+#Des traces d'hydrocarbures sont présentes sur la dalle bétonnée au droit d'un des hangars;
+
+20l0l0	la_dalle_bétonnée	O
+20l0l1	au_droit_d__un_des_hangars	O
+20l1l0	Des_traces_d__hydrocarbures	U
+
+#*au centre et au sud du site, des zones de stockage sur sol nu de matériaux, batteries ou de stationnement de véhicules;
+
+21l0l0	centre_et_au_sud_du_site	O
+
+#*à l'est du site, un bâtiment sur dalle bétonnée accueillant des activités de soudure;
+
+22l0l0	à_l__est_du_site	L
+22l0l1	un_bâtiment	O
+22l0l2	dalle_bétonnée	O
+22l0l3	accueillant	R
+22l0l4	des_activités_de_soudure	A
+
+#*au sud-est du site, une ancienne station service comportant 2 cuves enterrées d'essence et de gasoil (contenances non connues - cuves inertées au sable).
+
+23l0l0	__au_sud_est_du_site	L
+23l0l1	une_ancienne_station_service	O
+23l0l2	comportant	R
+23l0l3	2_cuves	O
+23l0l4	enterrées_d__essence_et_de_gasoil	A
+23l0l5	cuves	O
+23l0l6	inertées	N
+23l1l0	cuves_enterrées	D
+23l1l1	cuves_inertées	D
+
+#Ces cuves ont fait l'objet d'une évacuation et les terres encaissantes ont été purgées en avril 2011.
+
+24l0l0	Ces_cuves	O
+24l0l1	ont_fait_l__objet_d_	R
+24l0l2	une_évacuation	N
+24l0l3	les_terres_encaissantes	O
+24l0l4	ont_été_purgées	N
+24l0l5	en_avril_2011__	T
+
+#Dans le cadre de la cessation d'activité par l'exploitant DLE SPECIALITES, celui-ci devait effectuer des travaux de dépollution du site avant le 30 juin 2014.
+
+25l0l0	Dans_le_cadre_de	R
+25l0l1	la_cessation_d__activité	N
+25l0l2	l__exploitant	O
+25l0l3	DLE_SPECIALITES	O
+25l0l4	devait_effectuer_des_travaux_de_dépollution	N
+25l0l5	du_site	N
+25l0l6	avant_le_30_juin_2014__	T
+25l1l0	DLE_SPECIALITES	I
+
+#Lors des diagnostics précédents, des impacts avaient été identifiés dans les sols et dans les eaux souterraines.
+
+26l0l0	des_diagnostics	N
+26l0l1	des_impacts	O
+26l0l2	avaient_été_identifiés	N
+
+#Afin de définir les extensions latérales des zones sources identifiées, des sondages complémentaires ont été réalisés en avril 2014.
+
+27l0l0	les_extensions_latérales	O
+27l0l1	zones_sources_identifiées	O
+27l0l2	des_sondages_complémentaires	N
+27l0l3	ont_été_réalisés	N
+27l0l4	en_avril_2014__	T
+
+#De nouveaux piézomètres ont été réalisés en remplacement des anciens ouvrages endommagés.
+
+28l0l0	De_nouveaux_piézomètres	O
+28l0l1	ont_été_réalisés	N
+28l0l2	en_remplacement	R
+28l0l3	des_anciens_ouvrages_endommagés	N
+
+#L'ensemble des diagnostics effectués de 2007 à 2014 a mis en évidence 5 zones sources de pollution (voir plan cartographique 2 partie B).
+
+29l0l0	des_diagnostics	N
+29l0l1	effectués	N
+29l0l2	de_2007_à_2014	T
+29l0l3	a_mis_en_évidence	R
+29l0l4	5_zones_sources_de_pollution	O
+
+#Conformément au plan de gestion en date du 2 juin 2014, quatre d'entre elles (A, C, D et E) ont fait l'objet d'une dépollution avant le 30 juin 2014, étant précisé que la cinquième zone (B) devra probablement être traitée en deux temps.
+
+30l0l0	Conformément_au	R
+30l0l1	plan_de_gestion	O
+30l0l2	en_date_du_2_juin_2014__	T
+30l0l3	quatre_d_	O
+30l0l4	ont	N
+30l0l5	fait_l__objet	R
+30l0l6	d__une_dépollution	N
+30l0l7	avant_le_30_juin_2014__	T
+
+#Les 4 zones ont été traitées par excavation des sols et évacuation en filière de stockage autorisé.
+
+31l0l0	Les_4_zones	O
+31l0l1	ont_été_traitées	N
+31l0l2	excavation_des_sols	N
+31l0l3	évacuation	O
+
+#L’évacuation de la totalité des terres polluées excavées a été complétée par une intervention fin septembre 2014.
+
+32l0l0	L__évacuation	N
+32l0l1	la_totalité_des_terres_polluées_excavées	O
+32l0l2	a_été_complétée	N
+32l0l3	une_intervention	N
+32l0l4	fin_septembre_2014__	T
+
+#Une quantité totale de 844 tonnes de terres polluées a ainsi été évacuée.
+
+33l0l0	844_tonnes_de_terres_polluées	O
+33l0l1	a_ainsi_été_évacuée	N
+
+#Un gardiennage est maintenu sur le site.
+
+
+#La cinquième zone a été recouverte par un géotextile et une couche de terre saine.
+
+35l0l0	La_cinquième_zone	O
+35l0l1	a_été_recouverte	N
+35l0l2	terre_saine	O
+
+#La qualité des eaux souterraines ne nécessite quant à elle, pas d'action de dépollution particulière.
+
+
+#A l’issue des travaux d’excavation, des analyses ont été réalisées en fond de fouille.
+
+37l0l0	A_l__issue	R
+37l0l1	des_travaux_d__excavation	N
+37l0l2	ont_été_réalisées	N
+37l0l3	en_fond_de_fouille	L
+
+#Elles ont démontré que les objectifs de dépollution fixés dans le plan de gestion ont été atteints à l’exception d’hydrocarbures au fond de fouille de la zone A (jusqu’à 25 mg/kg pour un objectif inférieur à 4 mg/kg).
+
+38l0l0	les_objectifs	O
+38l0l1	de_dépollution	N
+38l0l2	fixés_dans	R
+38l0l3	le_plan_de_gestion	O
+38l0l4	ont_été_atteints	N
+38l1l0	hydrocarbures	S
+
+#Aussi afin de s’assurer de la compatibilité de ces teneurs résiduelles avec l’usage futur, une mise à jour de l’Analyse des Risques Résiduels a été nécessaire.
+
+39l0l0	ces_teneurs_résiduelles	O
+39l0l1	une_mise_à_jour	N
+39l0l2	Analyse_des_Risques_Résiduels	N
+39l0l3	a_été_nécessaire	N
+
+#Cette ARR a permis de démontrer la compatibilité avec l’usage prévu à savoir un usage industriel comparable à l’actuel avec des bureaux et/ou des activités en extérieur.
+
+40l0l0	un_usage_industriel	A
+40l0l1	bureaux_et___ou_des_activités_en_extérieur	A
+
+#Cependant, l’inspection des installations classées a proposé au préfet de rappeler à l’exploitant que compte tenu de la présence d’une pollution résiduelle au droit de la zone B, des restrictions d’usage devaient être mises en place.
+
+41l0l0	l__inspection_des_installations_classées	O
+41l0l1	l__exploitant	O
+41l0l2	au_droit_de	L
+41l0l3	la_zone_B	O
+41l0l4	des_restrictions_d__usage	O
+41l0l5	devaient_être_mises_en_place	N
+
+#Le plan de gestion proposait la mise en place de ces restrictions d’usage au travers d’une procédure de RUP (Restrictions d’Usages entre Partie).
+
+42l0l0	Le_plan_de_gestion	O
+42l0l1	la_mise_en_place	N
+42l0l2	ces_restrictions_d__usage	O
+
+#Le 23 décembre 2014, un récépissé de déclaration de cessation d’activité a été notifié à l'exploitant par le préfet.
+
+43l0l0	Le_23_décembre_2014__	T
+43l0l1	un_récépissé	O
+43l0l2	de_déclaration	N
+43l0l3	cessation_d__activité	N
+43l0l4	a_été_notifié	N
+43l0l5	l__exploitant	O
+43l0l6	le_préfet	O
+43l1l0	le_préfet	I

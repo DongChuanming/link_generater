@@ -1,0 +1,111 @@
+
+#13.0095
+#L B C à Port Saint Louis du Rhône - 13-
+
+0l0l0	L_B_C	O
+0l0l1	à_Port_Saint_Louis_du_Rhône	L
+
+#Ce site en activité a été implanté à Port Saint Louis du Rhône entre les années 1935 et 1942 (anciennement MEDISTOCK et MAVRAC) sur une superficie de 2,8 ha.
+
+1l0l0	Ce_site	O
+1l0l1	activité	O
+1l0l2	a_été_implanté	N
+1l0l3	à_Port_Saint_Louis_du_Rhône	L
+1l0l4	entre_les_années_1935_et_1942	T
+1l0l5	anciennement	N
+1l0l6	MEDISTOCK	O
+1l0l7	MAVRAC	O
+1l0l8	2_8_ha	N
+1l1l0	MEDISTOCK	I
+1l1l1	MAVRAC	I
+
+#La partie du site dite n° 2 comprend des stockages de liquides inflammables et d'alcools d'une capacité globale d'environ 43.000 m3.
+
+2l0l0	La_partie_du_site_dite_n__2	O
+2l0l1	comprend	R
+2l0l2	des_stockages	O
+2l1l0	stockages_de_liquides_inflammables	U
+2l1l1	alcools	U
+
+#Le site est autorisé par AP du 24/11/99.
+
+3l0l0	Le_site	O
+3l0l1	24_11_99__	T
+
+#L'ESR prescrite par AP du 16/06/99 a été réalisée par le groupe DAMES et MOORE.
+
+4l0l0	16_06_99	T
+4l0l1	a_été_réalisée	N
+4l0l2	le_groupe_DAMES	O
+4l1l0	groupe_DAMES	I
+
+#Les résultats analytiques ont montré :
+
+
+#- la présence de benzène dans les sols au droit de l'ancienne aire de chargement camion en concentration > VDSS, ainsi que des traces d'HC en concentration < VDSS sur le même échantillon,
+
+6l0l0	chargement_camion	O
+6l1l0	benzène	S
+6l1l1	traces_d__HC	S
+
+#- la présence d'hydrocarbures totaux dans les eaux souterraines en concentration > VCI et des traces de benzène dans l'eau du piézomètre situé à l'aval de l'ancienne aire de chargement camion,
+
+7l0l0	situé_à_l__aval_de_l__ancienne_aire_de	L
+7l0l1	chargement_camion	O
+7l1l0	hydrocarbures_totaux	S
+7l1l1	benzène	S
+
+#- des concentrations en plomb dans les eaux de la nappe en concentration > à la limite de détection, mais < VCI.
+
+8l1l0	plomb	S
+
+#L'ESR réalisée pour un usage industriel du site et pour les 2 sources potentielles de pollution que sont le benzène et les hydrocarbures totaux a montré que ce site est en classe 2 pour les eaux souterraines et superficielles (à usage non AEP).
+
+9l0l0	L_	N
+9l0l1	réalisée_pour_un_usage_industriel	N
+9l0l2	site	O
+9l0l3	ce_site	O
+9l0l4	en_classe_2	O
+9l1l0	benzène	S
+9l1l1	hydrocarbures_totaux	S
+
+#Recommandations de l'ESR : analyses régulières des concentrations en hydrocarbures totaux, benzène et plomb et études approfondies en cas d'augmentation de la concentration de ces composés.
+
+10l0l0	en_cas_d__augmentation	N
+10l1l0	l__ESR	I
+10l1l1	hydrocarbures_totaux	S
+10l1l2	benzène	S
+10l1l3	plomb	S
+
+#Des dispositions de prévention du sol et du sous-sol sont en place et concrétisées par la mise en rétention autour des stockages.
+
+11l0l0	la_mise_en_rétention	O
+11l0l1	stockages	O
+
+#Sans attendre les conclusions de l'ESR, une surveillance des eaux souterraines est déjà mise en place : 4 piézomètres = fréquence semestrielle.résultats stables.
+
+12l0l0	une_surveillance_des_eaux_souterraines	A
+12l0l1	est_déjà_mise_en_place	N
+12l1l0	l__ESR	I
+
+#les activités de cette partie du site appelée 2 ,comme la partie 1,viennent de s'arrêter; le dossier de cessation d'activité "34-1" a été déposé en préfecture ( fev 2005 complété en sept 2005).
+
+13l0l0	les_activités	N
+13l0l1	cette_partie_du_site	O
+13l0l2	1_viennent_de_s__arrêter	N
+13l0l3	__le_dossier_de	O
+13l0l4	cessation_d__activité	A
+13l0l5	a_été_déposé	N
+13l0l6	en_préfecture	O
+13l0l7	__fev_2005	T
+13l0l8	en_sept_2005	T
+
+#n APC adopté en CdH de fin juillet révoitles conditions de dépollution ainsi que la préparation d'un dossier pour les servitudes d'utilité publique à remettre d'ici fin 2007.
+
+14l0l0	n_APC	O
+14l0l1	fin_juillet	T
+14l0l2	révoitles_conditions	O
+14l0l3	de_dépollution	N
+14l0l4	les_servitudes	O
+14l0l5	d__ici_fin_2007__	T
+14l1l0	CdH	I

@@ -1,0 +1,188 @@
+
+#24.0060
+#Installation de stockage de déchets non dangereux exploitée par SITA Sud Ouest sur la commune de Milhac-d’Auberoche (24).
+
+0l0l0	Installation_de_stockage_de_déchets_non_dangereux	O
+0l0l1	exploitée_par	R
+0l0l2	SITA_Sud_Ouest	O
+0l0l3	sur_la_commune_de_Milhac___d__Auberoche___24	L
+0l1l0	SITA_Sud_Ouest	I
+
+#Ce centre de stockage accueille, annuellement, de l’ordre de 105 000 à 110 000 tonnes de déchets non dangereux composés à 33% de déchets industriels banals (collecte des PME) et 67% d’ordures ménagères.
+
+1l0l0	Ce_centre	O
+1l1l0	déchets_non_dangereux	U
+
+#Ses activités sont réglementées par l’arrêté préfectoral d’autorisation n°09.0439 du 26 mars 2009 complété par l'arrêté préfectoral du 17 août 2010 (actualisation du tableau de classement suite à la parution du décret du 13 avril 2010).
+
+2l0l0	Ses_activités	O
+2l0l1	sont_réglementées	N
+2l0l2	l__arrêté_préfectoral_d__autorisation	O
+2l0l3	26_mars_2009	T
+2l0l4	l__arrêté_préfectoral	O
+2l0l5	17_août_2010	T
+2l0l6	actualisation	N
+2l0l7	13_avril_2010__	T
+
+#1 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+3l0l0	SURVEILLANCE_DES_EAUX	A
+3l0l1	SOUTERRAINES	O
+3l1l0	EAUX_SOUTERRAINES	I
+
+#La surveillance des eaux souterraines s'effectue semestriellement.
+
+4l0l0	La_surveillance_des_eaux_souterraines	A
+
+#Dans le cadre de l'article 4.3., une surveillance quadriennale est imposée sur d'autres paramètres.
+
+5l0l0	une_surveillance_quadriennale	A
+5l0l1	est_imposée	N
+5l0l2	d__autres_paramètres	O
+
+#Les prélèvements ont été effectués le 21 février 2012 et les résultats portant sur l'ensemble des paramètres prescrits ont été transmis à l'inspection.
+
+6l0l0	Les_prélèvements_ont_été_effectués	N
+6l0l1	le_21_février_2012	T
+6l0l2	ont_été_transmis	N
+
+#Les résultats d'analyse du piézomètre Pz3 présentent des anomalies (incohérence d'écoulement de nappe) indiquant qu'il est dissocié hydrauliquement de la nappe suivie par les 2 autres piézomètres ou est colmaté.
+
+
+#Le bureau d'étude mandaté propose le rétablissement de ce point de contrôle en tentant en premier lieu à son nettoyage
+
+8l0l0	Le_bureau_d__étude_mandaté	O
+8l0l1	propose_le_rétablissement	N
+8l0l2	ce_point_de_contrôle	O
+8l0l3	nettoyage	N
+
+#poursuivre la surveillance renforcée sur les 3 piézomètres des paramètres MES, Hg, Fer, Mn.
+
+9l0l0	poursuivre_la_surveillance_renforcée	O
+9l1l0	MES	S
+9l1l1	Hg	S
+9l1l2	Fer	S
+9l1l3	Mn	S
+
+#Filtrer les échantillons d'eau et analyser les métaux dissous pour s'affranchir de l'influence des colloïdes.
+
+10l0l0	Filtrer	N
+10l0l1	s__affranchir	N
+10l1l0	métaux	S
+10l1l1	colloïdes	S
+
+#Aucune évolution significative des paramètres par rapport à l'analyse de 2008.
+
+11l0l0	2008__	T
+
+#Néanmoins, les paramètres fer et manganèse sont particulièrement élevés ([Mn] = 320 microgrammes et [Fe] = 210 microgrammes) sur le piézomètre 1 (aval hydraulique du site) et ce en 2008 jusqu'en 2012.
+
+12l0l0	aval_hydraulique_du_site	L
+12l0l1	ce	N
+12l0l2	en_2008_jusqu__en_2012__	T
+12l1l0	fer	S
+12l1l1	manganèse	S
+12l1l2	Mn	S
+12l1l3	Fe	S
+
+#Les piézomètres amont ne présentent pas de concentrations de cet ordre de grandeur.
+
+
+#L'exploitant a mandaté le bureau d'étude ECTARE pour déterminer l'origine de ces concentrations en aval.
+
+14l0l0	L__exploitant	O
+14l0l1	a_mandaté	N
+14l0l2	le_bureau_d__étude_ECTARE	O
+14l0l3	déterminer	N
+14l0l4	l__origine	O
+14l0l5	ces_concentrations	O
+14l0l6	en_aval	L
+14l1l0	ECTARE	I
+
+#La campagne de mai 2013 montre des concentrations maximales en MES (9 ug/l) au droit du pz3 situé en aval du site, en Mn (580 ug/l) au droit du PZ1 en aval du site, en Hg (<0.5ug/l) au droit des trois piézomètres.
+
+15l0l0	La_campagne_de	N
+15l0l1	mai_2013	T
+15l0l2	du_pz3	O
+15l0l3	situé_en_aval_du_site	L
+15l0l4	aval_du_site	L
+15l1l0	MES	S
+15l1l1	Mn	S
+15l1l2	Hg	S
+
+#La concentration maximale en fer est de 410 ug/l au droit du PZ1 en aval du site durant la campagne de février 2013.
+
+16l0l0	en_aval_du_site	L
+16l0l1	durant_la_campagne	N
+16l0l2	de_février_2013__	T
+16l1l0	fer	S
+
+#2 - RESTRICTIONS D'USAGE
+
+17l1l0	USAGE	I
+
+#Des servitudes d'utilité publique sont institué sur le site, sur la parcelle 514 de la section E et sur la partie des chemins communaux situés sur une bande de 200 m autour de la zone exploitée pour la durée de l'exploitation et de la période de suivi de l'installation de stockage de déchets ultimes.
+
+18l0l0	Des_servitudes_d_	O
+18l0l1	la_partie_des_chemins_communaux	O
+18l0l2	situés_sur_une_bande_de_200_m_autour_de_la_zone_exploitée	N
+18l0l3	la_durée	T
+18l0l4	la_période_de_suivi	A
+18l0l5	l__installation_de_stockage_de_déchets_ultimes	O
+
+#Sont interdits :
+
+
+#- la création d'étangs, plans de baignade et de pêche,
+
+20l0l0	la_création_d__étangs	O
+20l0l1	pêche	A
+
+#- l'écobuage,
+
+
+#- l'implantation de construction, à l'exception de ceux nécessaires à l'exploitation du centre de stockage de déchets et de ses exploitations connexes,
+
+22l0l0	l__implantation_de_construction	N
+22l0l1	l__exploitation_du_centre_de_stockage_de	O
+22l0l2	déchets_et_de_ses_exploitations_connexes	A
+
+#- l'aménagement des terrains de camping, de stationnement de caravanes et d'habitation légères,
+
+23l0l0	l__aménagement	N
+23l0l1	des_terrains_de_camping	O
+
+#- l'aménagement d'aires de sport, de jeu ou de loisir,
+
+24l0l0	l__aménagement	N
+24l0l1	loisir	A
+
+#- les forages et prélèvements d'eau de toute nature autres que ceux nécessaires à la surveillance du centre de stockage,
+
+25l0l0	forages_et_prélèvements_d__eau_de_toute_nature_autres_que_ceux_nécessaires_à_la_surveillance_du_centre_de_stockage	A
+
+#- les excavations susceptibles de porter atteinte à la stabilité du centre de stockage.
+
+26l0l0	excavations	N
+
+#Sont instituées :
+
+
+#- l'obligation du maintien de la possibilité de réalisation de piézomètres pour le suivi de l'impact du centre de stockage sur les eaux souterraines et de l'accès à ces piézomètres,
+
+28l0l0	la_possibilité_de_réalisation_de_piézomètres	O
+28l0l1	le_suivi_de_l_	A
+28l0l2	centre_de_stockage	O
+28l0l3	l_	A
+
+#- le droit et l'accès aux terrains limitrophes au site pour l'entretien de la clôture et de la végétation autour du site.
+
+29l0l0	aux_terrains_limitrophes	O
+29l0l1	au_site	L
+29l0l2	l__entretien	N
+29l0l3	la_clôture	O
+29l0l4	autour_du_site	L
+
+#Ces servitudes doivent être annexées aux documents d'urbanisme en vigueur de la commune concernée.
+
+30l0l0	Ces_servitudes	O

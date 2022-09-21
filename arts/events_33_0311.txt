@@ -1,0 +1,436 @@
+
+#33.0311
+#L'établissement UNIVAR de Blanquefort (33) est classé seveso seuil bas pour le stockage de produits chimiques variés, essentiellement inflammables ou corrosifs dangereux pour l'environnement (très toxiques et toxiques).
+
+0l0l0	L_	R
+0l0l1	établissement_UNIVAR	N
+0l0l2	de_Blanquefort___33___est_classé	O
+
+#L'activité du site est le stockage, le conditionnement et l'expédition de produits inflammables, toxiques, oxydants, acides ou basiques.
+
+1l0l0	L__activité_du_site_est_le	O
+1l0l1	stockage___le_conditionnement	L
+1l0l2	et_l__expédition	O
+1l0l3	produits_inflammables___toxiques___oxydants	A
+1l1l0	site_est_le_stockage___le_conditionnement	I
+1l1l1	inflammables___toxiques___oxydants	U
+1l1l2	basiques__	U
+
+#Le stockage s'effectue soit en vrac, à partir desquels un conditionnement en récipients de plus petite capacité est effectué, soit directement en récipients de volume divers, depuis le petit contenant jusqu'au conteneur d'un mètre cube.
+
+2l0l0	Le_stockage_s__effectue	A
+2l0l1	soit_en_vrac___à_partir_desquels_un_conditionnement_en_récipients_de_plus_petite	A
+2l1l0	en_récipients_de_plus	U
+
+#Ces installations sont autorisées par l’arrêté préfectoral du 18/12/1995, complété par un récépissé de déclaration du 15/03/1999.
+
+
+#1- HISTORIQUE
+
+4l0l0	1__HISTORIQUE	O
+
+#1.1 - Incendie du stockage acide/base
+
+5l1l0	1_1___Incendie_du_stockage_acide___base	I
+
+#Dans la nuit du 30/11/2009 au 01/12/2009, les installations de stockage d’acides et de bases du site, regroupées sous l’appellation de « minérales » par l’exploitant, sont le siège d'un incendie.
+
+6l0l0	la_nuit_du_30_11_2009_au	N
+6l0l1	01_12_2009___les_installations_de_stockage_d__acides_et_de_bases_du_site___regroupées_sous_l__appellation_de___minérales___par_l__exploitant___sont_le_siège_d__un_incendie__	O
+6l1l0	01_12_2009___les_installations_de_stockage_d__acides_et_de_bases_du_site___regroupées_sous_l__appellation_de___minérales___par_l__exploitant___sont_le_siège_d__un_incendie__	S
+
+#Les produits contenus se sont écoulés dans les volumes de rétention prévus à cet effet, représentant un volume total d'environ 180 tonnes.
+
+7l0l0	Les_produits_contenus_se_sont_écoulés_dans	T
+7l0l1	les_volumes_de_rétention_prévus_à_cet_effet	O
+
+#Les eaux d'extinction ont été en grande partie retenues dans les rétentions, en mélange avec les produits.
+
+
+#Toutefois, une partie de ces eaux d'extinction est sortie du site, via la rue, pour rejoindre un fossé et, par débordement, a atteint les berges (et sans doute, en faible quantité, les eaux) de la gravière voisine.
+
+9l0l0	Toutefois___une_partie	O
+9l0l1	de_ces_eaux_d__extinction_est_sortie	O
+9l0l2	site___via_la_rue	O
+
+#Les gendarmes spécialisés en environnement ont réalisé des mesures, notamment de PH, et ne semblaient pas craindre de pollution particulière.
+
+10l0l0	ont	N
+10l0l1	réalisé_des_mesures	L
+10l0l2	pas_craindre_de_pollution	N
+10l0l3	particulière	O
+
+#Les investigations menées montrent que l'incendie de 2009 n'est pas la seule cause de la pollution observée dans la nappe puisque des fuites avaient été observées dans la zone de rétention des cuves aériennes en 2008.
+
+11l0l0	Les_investigations_menées_montrent_que_l_	O
+11l0l1	incendie_de_2009_n__est_pas	N
+11l0l2	pollution_observée_dans_la_nappe_puisque	O
+11l1l0	de	S
+
+#1.2 - Mesures prises
+
+12l0l0	1_2___Mesures_prises	N
+
+#Dans l’attente des moyens de pompage, des bâtards de sables on été mis en place afin de contenir les eaux d’extinction.
+
+
+#Six camions citernes ont ensuite procédé par roulement au pompage et à l’évacuation d’une grande partie des eaux d’extinction.
+
+14l0l0	procédé_par_roulement	O
+14l0l1	pompage_et_à_l__évacuation	N
+14l0l2	des_eaux_d__extinction	N
+
+#Lors de l'inspection du 01/12/2009, il a été noté que seules les eaux d’extinction contenues dans les cuvettes de rétention n’avaient pas été traitées.
+
+15l0l0	Lors_de_l__inspection	O
+15l0l1	seules_les_eaux_d_	R
+15l0l2	extinction	R
+15l0l3	contenues_dans	O
+15l0l4	rétention_n__avaient	A
+
+#2 - DIAGNOSTIC
+
+16l0l0	2___DIAGNOSTIC	L
+
+#2.1 - Nappe
+
+17l0l0	2_1___Nappe	N
+
+#En Octobre 2011, après des investigations complémentaires, l'exploitant produit un nouveau diagnostic.
+
+
+#Il confirme les premières campagnes d'analyses.
+
+19l0l0	Il_confirme_les_premières	T
+
+#Les analyses suivantes révèlent ou confirment un :
+
+20l0l0	analyses_suivantes_révèlent_ou_confirment_un	N
+
+#- impact en toluène en aval du bassin de rétention,
+
+
+#- impacts en xylène, chlorure de vinyle, c-DCE, HCT, PCE et TCE au niveau de la rétention du stockage aérien.
+
+22l0l0	__chlorure_de_vinyle___c___DCE___HCT	L
+22l1l0	en_xylène	S
+
+#Les données suivantes ont été estimées, notamment par un test de réalimentation de la phase libre :
+
+23l0l0	phase_libre__	O
+23l1l0	suivantes_ont_été_estimées	S
+23l1l1	notamment_par_un_test	S
+
+#- Le panache de la pollution s'étendrait au maximum sur 900 m² (contre 2.800 m² avant écrémage),
+
+
+#- la vitesse d'écoulement serait de 20 m/an,
+
+
+#- le volume de la phase libre serait au maximum de 1,5 m3, contre 11 m3 avant écrémage, pour une épaisseur de 0,5 cm.
+
+
+#La phase dissoute pourrait migrer hors site vers le lac de Pasdouens à l'Est.
+
+
+#2.2 - SOLS
+
+
+#Dix sondages ont été réalisés en Mai 2010.
+
+
+#Trois d'entre eux, réalisés aux abords de la cuvette de rétention des cuves aériennes, ont montré des dépassements de concentrations en xylènes et HCT (S3), en TEX (S6) et HCT (S8).
+
+30l0l0	Trois_d__entre_eux___réalisés	N
+30l0l1	aux_abords_de_la_cuvette_de_rétention_des_cuves_aériennes___ont_montré_des_dépassements_de_concentrations_en_xylènes_et_HCT___S3_____en_TEX___S6___et_HCT___S8____	T
+
+#3 - TRAVAUX
+
+
+#Afin de traiter les phases libres sur la nappe, il a été mis en place un système d'écrémage en PZ15 et Pz18 entre Février 2011 et Avril 2011 permettant de récupérer 200 litres d'hydrocarbures.
+
+32l1l0	Afin_de_traiter_les_phases_libres_sur_la_nappe___il_a_été_mis_en_place_un_système_d__écrémage_en_PZ15_et_Pz18_entre_Février_2011_et_Avril_2011_permettant_de_récupérer_200_litres_d__hydrocarbures__	I
+
+#L'arrêt du système d'écrémage en Avril 2011 est motivé par le fait que le ce système de dépannage passif n'était pas adapté.
+
+33l0l0	L__arrêt_du_système	N
+33l0l1	Avril_2011_est	O
+33l0l2	motivé_par_le_fait	N
+33l0l3	que_le_ce_système	O
+33l0l4	n__était_pas_adapté__	T
+
+#De ce fait, peu de phase libre était collectée.
+
+34l0l0	De	N
+34l0l1	ce_fait___peu_de_phase_libre_était	O
+34l0l2	collectée	T
+34l0l3	_	R
+
+#A la suite du diagnostic d'Octobre 2011, l'exploitant propose :
+
+
+#- de déterminer plus précisément le panache de la pollution au niveau Sud et Ouest du parc à cuves,
+
+36l0l0	__de_déterminer	R
+36l0l1	plus	N
+36l0l2	précisément_le_panache	T
+36l0l3	de_la_pollution	O
+
+#- la mise en place d'un nouveau système d'écrémage pour récupérer les phases libre et dissoute et créer un confinement hydraulique pour arrêter la migration de la pollution,
+
+37l0l0	écrémage_pour_récupérer	O
+37l0l1	les_phases_libre_et_dissoute	L
+
+#- de réaliser huit nouveaux piézomètres/ouvrages d'extraction,
+
+38l0l0	de_réaliser	N
+38l0l1	huit	R
+38l0l2	nouveaux_piézomètres	O
+
+#- de réaliser une campagne d'échantillonnage des eaux souterraines sur ces ouvrages et de contrôle la présence éventuelle de phase libre.
+
+39l0l0	de_réaliser	N
+39l0l1	une_campagne_d__échantillonnage	O
+
+#Sur proposition de la DREAL du 13/04/2012, l'arrêté préfectoral du 14/06/2012 prescrit :
+
+40l0l0	14_06_2012_prescrit	O
+
+#- la suppression du transfert du panache de pollution vers le lac de Pasdouens,
+
+41l0l0	transfert	O
+41l0l1	du_panache_de	T
+41l0l2	pollution_vers_le_lac_de	O
+41l0l3	Pasdouens__	T
+41l1l0	transfert	I
+
+#- le traitement de la nappe au droit du site par un système de pompage et de traitement des eaux sur charbons actifs,
+
+42l0l0	le_traitement_de_la_nappe_au	N
+42l0l1	droit_du_site_par_un_système	O
+42l0l2	de_pompage_et_de_traitement	L
+
+#- le traitement des sols par venting,
+
+43l0l0	le_traitement	N
+43l0l1	des_sols_par	O
+43l0l2	venting__	L
+
+#- le rejet des eaux traitées directement dans la Jalle.
+
+44l0l0	le_rejet_des_eaux_traitées_directement	N
+
+#Le 18/06/2012, l'exploitant informe la DREAL que l'appel d'offre pour la prestation globale de dépollution du site est lancée.
+
+45l0l0	18_06_2012___l__exploitant_informe_la	O
+45l0l1	DREAL_que_l__appel	L
+
+#L'unité de dépollution est mise en œuvre à partir du 22/10/2012.
+
+46l0l0	L__unité_de_dépollution_est_mise	O
+46l0l1	en_œuvre_à_partir	O
+46l1l0	œuvre_à_partir	I
+
+#Le rapport d'avancement des traitements, remis le 27/05/2013 appelle les remarques suivantes (courrier à l'exploitant du 09/07/2013) :
+
+47l0l0	Le	O
+47l0l1	rapport_d__avancement	N
+47l0l2	des_traitements	N
+47l0l3	__remis_le_27_05_2013_appelle_les_remarques_suivantes___courrier_à_l__exploitant_du_09_07_2013____	T
+
+#- efficacité de la barrière hydraulique ? (le piézomètre sentinelle aval est impacté),
+
+48l0l0	__efficacité_de_la_barrière_hydraulique__	O
+48l0l1	le	N
+48l0l2	piézomètre_sentinelle	T
+
+#- références des concentrations sont celles de l'arrêté,
+
+
+#La DREAL note la mise en place de pompes écrémeuses supplémentaires en 3 points.
+
+
+#Les conditions de rejet dans la Jalle et les analyses sont à fournir.
+
+51l0l0	Les_conditions	O
+51l0l1	de_rejet_dans	N
+51l0l2	la_Jalle_et_les_analyses	O
+51l1l0	Les_conditions	I
+
+#L'état d'avancement à 6 mois du début du traitement en juillet 2013 qui laisse les questions en suspend :
+
+52l0l0	du_début	L
+
+#- plan de surveillance de l'air ambiant à fournir,
+
+53l0l0	__plan_de_surveillance	O
+53l0l1	de_l_	T
+53l0l2	air_ambiant_à_fournir__	N
+
+#- efficacité de la solution technique permettent de respecter les valeurs limites  des eaux dans la Jalle, analyses,
+
+
+#- modalités de rejet dans la Jalle (canalisation) ou ans le réseau collectif (convention),
+
+
+#- résultats des tests d'efficacité de la barrière hydraulique.
+
+56l0l0	efficacité	L
+
+#On note une augmentation des concentrations dans le piézomètre aval de la barrière hydraulique.
+
+
+#L'état d'avancement au 30/09/2013 laisse les mêmes questions en suspend.
+
+58l0l0	suspend__	O
+
+#La visite d'inspection du 05/02/2014 permet de clarifier la situation par les demandes suivantes :
+
+59l0l0	La_visite_d__inspection	O
+59l0l1	du_05_02_2014	T
+
+#- réalisation d'une étude permettant de vérifier le bien-fondé du PZ24 ainsi qu’une étude de faisabilité de mise en place d’un nouveau piézomètre représentatif de l’aval en fonction des conclusions de la première étude,
+
+60l0l0	__réalisation	N
+60l0l1	permettant	T
+60l0l2	vérifier_le_bien_fondé	N
+
+#- réalisation d'une étude afin de vérifier la corrélation entre les courbes des paramètres de venting et les remontées de nappe et utilisation logarithmique afin de clarifier la lecture des graphiques,
+
+61l0l0	les_courbes	O
+61l0l1	remontées_de	N
+
+#- vérification de l’exutoire de la Jalle du Fleurrenne pour s'assurer que les eaux en sortie de traitement ne se rejettent pas dans le lac de Pasdouens.
+
+
+#4 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+63l0l0	DES_EAUX_SOUTERRAINES	O
+
+#Le 08/12/2009, l’exploitant propose de mettre en place un suivi de la qualité de la nappe.
+
+64l0l0	08_12_2009___l__exploitant_propose_de_mettre_en_place_un_suivi_de_la_qualité_de_la_nappe__	O
+64l1l0	exploitant_propose_de_mettre_en_place_un_suivi_de_la_qualité_de_la_nappe__	I
+
+#Trois piézomètres sont installées : Pz13 à l'amont et PZ15 et PZ16.
+
+65l0l0	Trois_piézomètres	T
+65l0l1	sont_installées	O
+65l0l2	__Pz13	R
+65l0l3	à_l__amont_et_PZ15	N
+65l0l4	et_PZ16__	A
+
+#Il fait procéder dans ce but au contrôle des ions chlorures, Fe2+ et Fe3+ (métaux), ions chlorure et sodium (inorganiques), BTEX, HCT, Cholrobenzène et chlorotoluènes, HAP et COHV.
+
+66l0l0	Il_fait_procéder_dans	O
+66l0l1	ce_but_au_contrôle	N
+
+#L'arrêté du 14/06/2012 prescrit la surveillance de la nappe via neuf piézomètres.
+
+67l0l0	prescrit_la_surveillance	N
+67l1l0	surveillance_de_la_nappe_via_neuf_piézomètres__	S
+
+#Les campagnes trimestrielles portent sur les COHV, HCTX et BTEX.
+
+68l0l0	Les	O
+68l0l1	campagnes	T
+68l0l2	trimestrielles	R
+68l0l3	portent_sur_les_COHV___HCTX_et_BTEX	A
+
+#Les eaux rejetées dans la Jalle seront surveillées ainsi que la qualité des eaux du lac de Pasdouens.
+
+69l1l0	surveillées_ainsi_que_la_qualité	S
+
+#Six campagnes de suivi ont lieu de Décembre 2009 à Juin 2011.
+
+70l0l0	Six_campagnes_de	O
+70l0l1	suivi_ont_lieu	L
+70l0l2	Décembre_2009_à_Juin	A
+
+#Elles portent sur cinq piézomètres : PZ13 (amont) et PZ15, 16, 17, 18 (aval).
+
+71l0l0	Elles_portent_sur_cinq_piézomètres	N
+71l0l1	__PZ13___amont___et_PZ15___16___17___18___aval____	T
+
+#Voir les résultats en page 6.
+
+
+#En juillet 2013, on note une augmentation des concentrations dans le piézomètre aval de la barrière hydraulique.
+
+
+#En septembre 2014 :
+
+74l0l0	En_septembre_2014	T
+
+#- le traitement par venting est arrêté
+
+75l0l0	__le_traitement_par_venting_est_arrêté	T
+
+#- la phase flottante diminue et n'est plus présente que dans PZ18
+
+76l0l0	la_phase_flottante_diminue	N
+76l0l1	et_n__est_plus_présente_que_dans_PZ18	N
+76l1l0	flottante_diminue	I
+
+#- les concentrations en polluant des eaux souterraines diminuent sauf à proximité de la barrière hydraulique
+
+77l0l0	polluant	N
+77l1l0	les_concentrations	U
+77l1l1	diminuent_sauf_à_proximité_de_la_barrière_hydraulique	I
+
+#Campagne de surveillance de mars 2015 :
+
+
+#- une diminution du cône de rabattement de la nappe dans sa partie sud ;
+
+79l0l0	__une_diminution	R
+79l0l1	du_cône_de	N
+79l0l2	rabattement_de_la_nappe_dans_sa_partie_sud____	T
+
+#- une hausse des valeurs en HCT, BTEX et COHV sur le piézomètre 20  et sur l’aiguille V2 ;
+
+80l0l0	HCT___BTEX_et_COHV	N
+80l0l1	sur_le_piézomètre	O
+
+#- la réapparition de flottants sur certains piézomètres ;
+
+81l1l0	flottants_sur_certains	S
+
+#- le dépassement de la valeur de gestion pour le chlorure de vinyle sur le piézomètre 27 situé à l’extérieur du site et à proximité du lac de Pasdouens.
+
+82l0l0	le_dépassement_de	N
+
+#Le confinement de la pollution s’est dégradé depuis l’arrêt le 5 janvier 2015 de l’un des deux pompages constituant la barrière hydraulique.
+
+83l0l0	Le_confinement_de	N
+83l0l1	la_pollution_s__est_dégradé	O
+83l0l2	des_deux_pompages_constituant_la_barrière_hydraulique__	L
+83l1l0	depuis_l__arrêt_le_5_janvier	S
+
+#Compte tenu du risque de transfert de la pollution hors site, il convient de remettre en service sans délai le pompage du piézomètre 20 en application de l’article 3.6 de l’arrêté préfectoral du 14 juin 2012.
+
+84l0l0	Compte_tenu_du_risque_de_transfert	O
+84l0l1	de_la_pollution	N
+84l0l2	hors_site__	N
+84l0l3	il_convient_de_remettre	T
+84l0l4	en_service_sans_délai	O
+
+#Remise en service du traitement par « venting » à compter de mai 2015.
+
+85l0l0	__venting_____à_compter_de	O
+85l0l1	mai_2015__	O
+
+#Campagne de surveillance de juillet 2015 :
+
+86l0l0	Campagne_de_surveillance_de_juillet_2015____	N
+
+#- la présence de flottant sur PZ23 (2cm) ;
+
+87l0l0	__la_présence	R
+87l0l1	de_flottant	O
+87l0l2	sur_PZ23___2_cm______	T
+
+#- une hausse des valeurs en HCT et BTEX sur les aiguilles hormis V2 et 6 piézomètres et ouvrage 2 et un hausse des valeurs en COHV sur l’aiguille V3, 4 piézomètres et ouvrage 2.
+
+88l1l0	valeurs_en	U
+88l1l1	HCT_et_BTEX	I

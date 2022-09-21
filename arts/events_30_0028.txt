@@ -1,0 +1,221 @@
+
+#30.0028
+#La plate-forme de Salindres connait une activité industrielle depuis la fin du XIX siècle.
+
+0l0l0	La_plate___forme	O
+0l0l1	Salindres	L
+0l0l2	connait_une_activité_industrielle	A
+0l0l3	depuis_la_fin_du_XIX_siècle	T
+
+#Elle a été le premier site mondial de production d'aluminium.
+
+1l0l0	Elle_a_été	O
+1l0l1	le_premier	N
+1l0l2	site_mondial_de_production_d__aluminium	A
+
+#La plate-forme accueille aujourd’hui deux exploitants industriels, Rhodia Opérations et Axens ainsi qu’un troisième exploitant d’installations classées, le GIE Chimie, qui opère des utilités aux bénéfices des deux industriels.
+
+2l0l0	La_plate___forme	O
+2l0l1	accueille_aujourd_hui	R
+2l0l2	deux_exploitants_industriels	O
+2l0l3	Rhodia_Opérations	O
+2l0l4	Axens_ainsi_qu__un_troisième_exploitant	O
+2l0l5	GIE_Chimie	O
+2l0l6	opère	N
+2l0l7	des_utilités	O
+2l1l0	Rhodia_Opérations	I
+2l1l1	Axens	I
+2l1l2	le_GIE_Chimie	I
+
+#Elle occupe 100 hectares, à proximité du centre ville, à 6 km environ au Nord-Est de la ville d’Alès et emploie environ 400 personnes.
+
+3l0l0	Elle_occupe	R
+3l0l1	100_hectares	O
+3l0l2	à_proximité_du_centre_ville___à_6_km_environ_au_Nord_Est_de_la_ville_d__Alès	L
+
+#Le site est bordé par l'Arias à l'Est et l'Avène à l'Ouest.
+
+4l0l0	Le_site	O
+4l0l1	est_bordé_par_l__Arias	L
+4l0l2	à_l__Est	L
+4l0l3	Avène_à_l__Ouest	L
+
+#Un zone industrielle est présente au Sud.
+
+5l0l0	Un_zone_industrielle	O
+5l0l1	est_présente	N
+5l0l2	au_Sud	L
+
+#Au titre de la réglementation des installations classées pour la protection de l'environnement, les installations Rhodia et Axens sont soumises au régime d'autorisation avec servitudes (SEVESO seuil haut).
+
+6l0l0	la_réglementation_des_installations_classées	O
+6l0l1	pour_la_protection_de_l__environnement	O
+6l0l2	les_installations_Rhodia	O
+6l0l3	Axens	O
+6l0l4	sont_soumises_au_régime	N
+6l0l5	d__autorisation	O
+6l1l0	Rhodia	I
+6l1l1	SEVESO	S
+
+#La société RHODIA OPERATIONS à Salindres fabrique des produits à base de fluor pour les secteurs de la chimie, et emploie environ 100 personnes.
+
+7l0l0	La_société_RHODIA_OPERATIONS	O
+7l0l1	à_Salindres	L
+7l0l2	fabrique_des_produits	A
+7l0l3	secteurs_de_la_chimie	A
+7l1l0	La_société_RHODIA_OPERATIONS	I
+7l1l1	fluor	S
+
+#Elle est autorisée à utiliser, fabriquer et stocker des substances toxiques sous forme solide, liquide et gazeuse.
+
+8l0l0	stocker_des_substances_toxiques	N
+8l1l0	substances_toxiques	U
+
+#La société Rhodia Opérations réalise dans deux ateliers, des produits organo-fluorés en présence d’acide fluorhydrique.
+
+9l0l0	La_société_Rhodia_Opérations	O
+9l0l1	réalise_dans	R
+9l0l2	deux_ateliers	O
+9l0l3	des_produits	O
+9l1l0	La_société_Rhodia	I
+9l1l1	produits_organo__	U
+9l1l2	fluorés	S
+9l1l3	acide_fluorhydrique	S
+
+#Les installations comprennent également un poste de dépotage de wagons d’acide fluorhydrique anhydre : l'atelier HFA, situé au sud du site.
+
+10l0l0	Les_installations	O
+10l0l1	comprennent_également	R
+10l0l2	un_poste	O
+10l0l3	dépotage_de_wagons	A
+10l0l4	l__atelier_HFA	O
+10l0l5	situé_au_sud_du_site	L
+10l1l0	d__acide_fluorhydrique_anhydre	S
+10l1l1	HFA	I
+
+#Les installations de la société AXENS sont implantées sur environ 18 ha, principalement sur la partie Nord-Ouest de la plate-forme chimique de Salindres, et emploie environ 400 personnes.
+
+11l0l0	Les_installations	O
+11l0l1	la_société_AXENS	O
+11l0l2	sont_implantées	N
+11l0l3	sur_environ_18_ha	L
+11l0l4	sur_la_partie_Nord_Ouest_de_la_plate___forme_chimique_de_Salindres	L
+11l1l0	la_société_AXENS	I
+
+#La société AXENS développe, fabrique et commercialise les produits suivants :
+
+12l0l0	La_société_AXENS	O
+12l0l1	développe___fabrique_et_commercialise_les_produits	A
+12l1l0	société_AXENS	I
+
+#- adsorbants (alumines activées et tamis moléculaires),
+
+13l1l0	adsorbants	S
+13l1l1	alumines_activées	D
+
+#- supports de catalyseurs,
+
+
+#- catalyseurs (homogènes et hétérogènes).
+
+
+#Les catalyseurs ont pour but de favoriser le déroulement des réactions chimiques.
+
+
+#Ils sont utilisés pour de nombreuses applications, notamment dans le raffinage du pétrole, la pétrochimie, l’industrie du gaz.
+
+17l0l0	le_raffinage_du_pétrole	A
+17l0l1	la_pétrochimie	A
+17l0l2	l__industrie_du_gaz	A
+17l1l0	Ils	S
+17l1l1	pétrole	S
+
+#L'ensemble des exploitants, auxquels s'est associé Rio Tinto, ancien exploitant et propriétaire actuel d'une partie du site, a lancé, de manière volontaire, une étude "d'interprétation de l'état des milieux" (IEM) afin d'évaluer l'impact hors site des différentes activités (passées et présentes) exercées sur la plateforme.
+
+18l0l0	L__ensemble_des_exploitants	O
+18l0l1	s__est_associé	N
+18l0l2	Rio_Tinto	O
+18l0l3	exploitant	O
+18l0l4	une_partie_du_site	O
+18l0l5	a_lancé	N
+18l0l6	la_plateforme	O
+18l1l0	Rio_Tinto	S
+
+#Conformément à la méthodologie nationale, cette étude s'appuie sur des analyses :
+
+
+#- de la qualité de l'air et des sols qui auraient pu être impactés par des rejets ou des envols de poussières ;
+
+20l0l0	la_qualité_de_l__air	O
+20l0l1	auraient_pu_être_impactés	N
+20l0l2	des_envols	N
+
+#- de la qualité des eaux de surface et des eaux souterraines qui auraient pu être impactées par des produits présents sur la plateforme;
+
+21l0l0	la_qualité_des_eaux	O
+21l0l1	être_impactées	N
+
+#- le cas échéant, de la qualité des légumes ou tout autre produit qui aurait pu être impacté indirectement par les eaux, l'air ou le sol.
+
+22l0l0	impacté_indirectement	O
+
+#Les objectifs et les résultats de cette étude ont été présentés lors de réunions locales de concertation conduites en 2012.
+
+23l0l0	Les_objectifs	O
+23l0l1	cette_étude_ont_été_présentés	N
+23l0l2	de_réunions_locales_de_concertation_conduites	N
+23l0l3	en_2012__	T
+
+#Cette étude conclut globalement que les activités passées ne sont pas à l'origine d'un risque pour les populations pour ce qui concerne l'ingestion de sols de surface, ou la présence de poussières dans l'air.
+
+24l0l0	activités_passées	O
+24l0l1	ne_sont_pas_à	R
+24l0l2	l__origine_d_	R
+24l0l3	ingestion_de_sols	N
+
+#Elle identifie également que les activités passées sont à l'origine d'un marquage des milieux aquatiques, sans identifier de risque inacceptable pour les populations, compte tenu des usages actuels de l'eau dans le secteur.
+
+25l0l0	activités_passées	O
+25l0l1	sont_à_l__origine_d_	R
+25l0l2	un_marquage	N
+25l0l3	des_milieux_aquatiques	O
+
+#Par ailleurs, une étude épidémiologique sur la santé et la qualité de vie, pilotée par Santé Publique France, a été conduite entre octobre et décembre 2012 auprès de 1495 habitants des 7 communes situées autour du site.
+
+26l0l0	une_étude_épidémiologique	N
+26l0l1	a_été_conduite	N
+26l0l2	entre_octobre_et_décembre_2012	T
+26l0l3	7_communes	O
+26l0l4	situées_autour_du_site	L
+
+#Les résultats de cette étude montrent que les riverains de la plate-forme évaluent plus favorablement leur qualité de vie que le reste de la population française, même si les personnes qui sont exposées aux nuisances (odeurs et bruits) présentent plus d’anxiété et de troubles du sommeil que celles qui n’y sont pas exposées.
+
+27l0l0	les_riverains	O
+27l0l1	la_plate___forme	O
+27l0l2	exposées_aux_nuisances	O
+
+#Une étude des pressions polluantes de l’Avène a été produite en janvier 2017 par le SMAGE (syndicat mixte pour l’Aménagement et la gestion équilibrée des Gardons).  Cette étude et l’analyse des résultats de la surveillance des eaux souterraines et superficielles ont conduit les exploitants à engager un projet de couverture des anciens bassins afin de limiter l’impact lié aux infiltrations des eaux météorites qui migrent dans ces bassins.
+
+28l0l0	Une_étude_des_pressions_polluantes	N
+28l0l1	l_	L
+28l0l2	Avène_a_été_produite	N
+28l0l3	en_janvier_2017	T
+28l0l4	le_SMAGE	O
+28l0l5	gestion_équilibrée_des_Gardons	L
+28l0l6	la_surveillance_des_eaux_souterraines	A
+28l0l7	conduit_les_exploitants	O
+28l0l8	à_engager_un_projet_de_couverture	N
+28l0l9	des_anciens_bassins	O
+28l0l10	afin_de	R
+28l0l11	limiter	N
+28l0l12	l__impact	O
+28l0l13	infiltrations_des_eaux	O
+28l0l14	météorites	N
+28l0l15	migrent_dans_ces_bassins	N
+28l1l0	le_SMAGE	I
+
+#Ce projet devrait être déposé à la préfecture au premier semestre 2020.
+
+29l0l0	Ce_projet	O
+29l0l1	la_préfecture	O
+29l0l2	au_premier_semestre_2020__	T

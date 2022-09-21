@@ -1,0 +1,165 @@
+
+#57.0106
+#Par l’arrêté préfectoral complémentaire n°2005-AG/2-425 du 7 novembre 2005 modifié, la société EDF est autorisée à exploiter des installations de production d’énergie relevant du régime de l’autorisation sur le territoire de la commune de LA MAXE (site de 350 Ha).  Le site disposait de deux tranches de production d'énergie d'une puissance unitaire de 250 MWe, ces deux unités avaient été mises en service en 1971.
+
+0l0l0	l__arrêté_préfectoral_complémentaire	O
+0l0l1	7_novembre_2005	T
+0l0l2	la_société_EDF	O
+0l0l3	est_autorisée_à_exploiter	N
+0l0l4	des_installations_de_production_d__énergie	O
+0l0l5	relevant_du_régime_de	R
+0l0l6	l__autorisation	O
+0l0l7	sur_le_territoire_de_la_commune_de_LA_MAXE	L
+0l0l8	__Le_site	O
+0l0l9	disposait_de	R
+0l0l10	deux_tranches_de_production_d__énergie	O
+0l0l11	__ces_deux_unités	O
+0l0l12	avaient_été_mises_en_service	N
+0l0l13	en_1971	T
+0l1l0	la_société_EDF	I
+0l1l1	MAXE	I
+
+#Les chaudières étaient conçues pour brûler indifféremment du charbon et du fuel lourd.
+
+1l0l0	charbon	O
+1l1l0	charbon	U
+1l1l1	fuel_lourd	U
+
+#Le fuel est utilisé pour les démarrages, le soutien à faible régime et en cas d'indisponibilité du charbon.
+
+2l0l0	les_démarrages	N
+2l0l1	le_soutien_à_faible_régime	O
+2l1l0	fuel	S
+2l1l1	charbon	U
+
+#Le 1er octobre 2015, l'ancien exploitant du site transmet le mémoire de cessation partielle d'activité (arrêt des tranches 1 et 2).
+
+3l0l0	Le_1er_octobre_2015__	T
+3l0l1	l__ancien_exploitant	O
+3l0l2	du_site	O
+3l0l3	transmet	N
+3l0l4	le_mémoire_de	O
+3l0l5	cessation_partielle_d__activité	N
+3l0l6	arrêt_des_tranches_1	N
+
+#Cette cessation partielle ne couvre pas l'exploitation du parc à cendres (situé sur la commune de Woippy et d'une capacité de 1 100 000 tonnes) dont la notification de la mise à l'arrêt définitif sera transmis ultérieurement
+
+4l0l0	Cette_cessation_partielle	N
+4l0l1	l__exploitation_du_parc_à_cendres	O
+4l0l2	situé_sur_la_commune_de_Woippy	L
+4l0l3	tonnes	O
+4l0l4	la_notification	O
+4l0l5	la_mise	N
+
+#Voir également la fiche BASOL n°57.0107 : dépôt de cendres de Woippy, autorisé au titre de la rubrique 2760.2 de la nomenclature des installations classées.
+
+5l0l0	__dépôt	N
+5l0l1	Woippy	O
+
+#Le site est situé dans le périmètre de protection éloigné des captages d’alimentation en eau potable de Metz-Nord.
+
+6l0l0	Le_site	O
+6l0l1	est_situé_dans_le_périmètre_de_protection_éloigné_des_captages	L
+6l0l2	Metz___Nord	L
+
+#Des études sont menées sur le site depuis 2002, date de réalisation d'une évaluation simplifiée des risques (ESR), outil méthodologique en vigueur avant les circulaires nationales du 8 février 2007.
+
+7l0l0	le_site	O
+7l0l1	depuis_2002__	T
+7l0l2	date_de_réalisation	O
+7l0l3	une_évaluation_simplifiée_des_risques	N
+7l0l4	8_février_2007__	T
+
+#Cette étude classe le site en classe 1 "site nécessitant des investigations approfondies" et éventuellement une évaluation détaillée des risques (EDR) concernant deux sources de pollutions :
+
+8l0l0	des_investigations_approfondies	N
+8l0l1	une_évaluation_détaillée_des_risques	N
+8l0l2	deux_sources_de_pollutions	O
+
+#- la zone actuelle de dépotage du fuel lourd est concernée par une pollution par hydrocarbures située entre 0 et 1 m de profondeur.
+
+9l0l0	la_zone	O
+9l0l1	fuel_lourd	O
+9l0l2	est_concernée_par	R
+9l0l3	une_pollution_par_hydrocarbures	O
+9l1l0	fuel_lourd	U
+9l1l1	hydrocarbures	S
+
+#- la zone de dépôt de boues est concernée par une pollution par des métaux lourds (Cu, As, Ni, Cr, Pb) dans les couches superficielles du sol.
+
+10l1l0	métaux_lourds	S
+10l1l1	Cu	S
+10l1l2	As	S
+10l1l3	Ni	S
+10l1l4	Cr	S
+10l1l5	Pb	S
+
+#En application de l’arrêté préfectoral n°2005-AG/2-425 du 7 novembre 2005, l’exploitant est tenu d’assurer une surveillance des eaux souterraines dont l’objectif est de mesurer l’impact des différentes zones (surveillance du parc à cendres humidifiées, surveillance du parc à fioul, surveillance des zones polluées du CPT, surveillance du parc à cendres issues des essais de désulfurisation, surveillance au niveau du parc  charbon).
+
+11l0l0	l__arrêté_préfectoral	O
+11l0l1	7_novembre_2005__	T
+11l0l2	l__exploitant	O
+11l0l3	une_surveillance_des_eaux_souterraines	A
+11l0l4	humidifiées	O
+11l0l5	surveillance_du_parc_à_fioul	A
+11l0l6	surveillance_des_zones_polluées	N
+11l0l7	des_essais_de_désulfurisation	O
+11l1l0	fioul	S
+11l1l1	__charbon	U
+
+#Le 1er octobre 2015, l'ancien exploitant du site transmet le mémoire de cessation partielle d'activité (arrêt des tranches 1 et 2).
+
+12l0l0	Le_1er_octobre_2015__	T
+12l0l1	l__ancien_exploitant	O
+12l0l2	du_site	O
+12l0l3	transmet	N
+12l0l4	le_mémoire_de	O
+12l0l5	cessation_partielle_d__activité	N
+12l0l6	arrêt_des_tranches_1	N
+
+#Cette cessation partielle ne couvre pas l'exploitation du parc à cendres.
+
+13l0l0	exploitation_du_parc_à_cendres	A
+
+#Lors de la visite du 16 octobre 2015, l'inspection a fait le point sur la mise en sécurité du site du CPT.
+
+14l0l0	Lors	T
+14l0l1	de_la_visite	N
+14l0l2	du_16_octobre_2015__	T
+14l0l3	l__inspection	O
+14l0l4	le_point	O
+14l0l5	la_mise_en_sécurité	N
+14l0l6	du_site_du_CPT	O
+
+#* Sur la surveillance des eaux souterraines, il convient de noter la présence ponctuelle d'hydrocarbures en amont et aval hydraulique, à des teneurs inférieures aux valeurs de gestion couramment utilisées, la présence de sulfates au niveau du parc à cendres issues des essais de désulfurisation à des teneurs supérieures aux valeurs de gestion couramment utilisées.
+
+15l0l0	surveillance_des_eaux_souterraines	A
+15l1l0	hydrocarbures	S
+15l1l1	sulfates	S
+
+#Sur ce dernier point, l'inspection demande à l'exploitant, dans son rapport d'octobre 2015, d'évaluer l'impact de ce dépassement et d'en rechercher l'origine.
+
+16l0l0	d__octobre_2015__	T
+16l0l1	l__origine	O
+
+#* Concernant l'impact potentiel de l'installation sur son environnement, l’Inspection considère que l’exploitant devra présenter un programme de reconnaissance des sols à l’issue des travaux de déconstruction.
+
+17l0l0	un_programme_de_reconnaissance_des_sols	O
+17l0l1	des_travaux_de_déconstruction	N
+
+#La démarche devra tenir compte de l’usage futur retenu et être fondée sur les dispositions de la circulaire du 8 février 2007 relative à la prévention de la pollution des sols et à la gestion des sols pollués.
+
+18l0l0	8_février_2007	T
+18l0l1	la_pollution_des_sols	O
+18l0l2	gestion_des_sols_pollués	N
+
+#L’arrêté préfectoral n°2016-DLP/BUPE-20 du 28 janvier 2016 impose des prescriptions complémentaires à la société EDF dans le cadre du suivi « post-exploitation ».
+
+19l0l0	L__arrêté_préfectoral	O
+19l0l1	2016_DLP	O
+19l0l2	28_janvier_2016	T
+19l0l3	impose	N
+19l0l4	des_prescriptions_complémentaires	O
+19l0l5	la_société_EDF	O
+19l0l6	suivi	O
+19l1l0	la_société_EDF	I

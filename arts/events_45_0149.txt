@@ -1,0 +1,206 @@
+
+#45.0149
+#Le site d’étude est localisé en bordure d’habitations individuelles et de bâtiments industriels/commerciaux, sur la commune de Fleury-les-Aubrais.
+
+0l0l0	Le_site	O
+0l0l1	localisé_en_bordure_d__habitations_individuelles_et_de_bâtiments_industriels___commerciaux	L
+0l0l2	sur_la_commune_de_Fleury_les_Aubrais	L
+
+#Il concerne les parcelles cadastrales 106, 107, et 482 de la section AD.
+
+
+#Le terrain, dont la superficie est d’environ 1 350 m², comprend actuellement un bâtiment avec une zone de parking.
+
+2l0l0	Le_terrain	O
+2l0l1	m²___comprend_actuellement	T
+2l0l2	un_bâtiment	O
+2l0l3	avec_une_zone_de_parking	O
+
+#Selon l’étude historique :
+
+
+#– avant 1954, le terrain était à vocation agricole,
+
+4l0l0	__avant_1954	T
+4l0l1	__le_terrain	O
+4l0l2	était_à_vocation_agricole	N
+
+#– de 1954 à 2000, il a été occupé par un atelier de charpente ;
+
+5l0l0	__de_1954_à_2000	T
+5l0l1	__il	O
+5l0l2	a_été_occupé	N
+5l0l3	par_un_atelier_de_charpente	O
+
+#– de 2000 à 2006, après la fermeture de l’atelier, le magasin la Maison Coloniale s’est installé dans le bâtiment existant,
+
+6l0l0	__de_2000_à_2006	T
+6l0l1	__après	R
+6l0l2	la_fermeture	N
+6l0l3	de	R
+6l0l4	l__atelier	O
+6l0l5	__le_magasin_la_Maison_Coloniale	O
+6l0l6	s__est_installé_dans_le_bâtiment_existant	N
+
+#– de 2006 à 2017, plusieurs restaurants se succèdent dans le bâtiment (le dernier étant géré par « la Pataterie »).
+
+7l0l0	__de_2006_à_2017	T
+7l0l1	__plusieurs_restaurants	O
+7l0l2	se_succèdent	N
+7l0l3	dans_le_bâtiment	O
+7l1l0	____la_Pataterie	I
+
+#Le site était anciennement bordé au Nord par une entreprise de métallurgie et au Sud par une ancienne fonderie.
+
+8l0l0	Le_site	O
+8l0l1	était_anciennement	R
+8l0l2	bordé_au_Nord_par	L
+8l0l3	une_entreprise_de_métallurgie	O
+8l0l4	Sud	L
+8l0l5	une_ancienne_fonderie	O
+
+#Dans le cadre d’un projet d’aménagement du site en extension de parking par LIDL (voisin de la parcelle), le propriétaire a fait établir un diagnostic par la société SOCOTEC.
+
+9l0l0	Dans_le_cadre_d_	R
+9l0l1	un_projet	O
+9l0l2	d__aménagement	N
+9l0l3	extension_de_parking	L
+9l0l4	LIDL	O
+9l0l5	voisin_de	L
+9l0l6	la_parcelle	O
+9l0l7	le_propriétaire	O
+9l0l8	a_fait_établir	N
+9l0l9	un_diagnostic	N
+9l0l10	la_société_SOCOTEC	O
+9l1l0	société_SOCOTEC	I
+
+#Lors de ce rapport de décembre 2017, 6 sondages ont été réalisés jusqu’à une profondeur d’un mètre et ont révélé une contamination notable en HCH (hydrocarbures hexachlorocyclohexane) sur les S1 et S5.
+
+10l0l0	Lors	T
+10l0l1	de_ce_rapport	O
+10l0l2	de_décembre_2017__	T
+10l0l3	6_sondages	O
+10l0l4	ont_été_réalisés	N
+10l1l0	HCH	S
+10l1l1	hydrocarbures_hexachlorocyclohexane	S
+
+#On constate que, au droit du sondage S3, le cuivre dépasse la valeur de référence (32 mg/kg pour une valeur référence de 20 mg/kg).
+
+11l1l0	cuivre	S
+
+#Il est observé la présence de métaux lourds sur les autres sondages, à une valeur conforme au fond géochimique naturel pris en référence.
+
+12l1l0	métaux_lourds	S
+
+#Aucun HAP (hydrocarbures aromatiques polycycliques) ni BTEX (Benzène Toluène Éthylbenzène Xylènes), ni COHV (Composés Organo-Halogénés Volatils) n’est quantifié au-dessus des valeurs de référence de fond géochimique.
+
+13l1l0	HAP	S
+13l1l1	hydrocarbures_aromatiques_polycycliques	S
+13l1l2	BTEX	S
+13l1l3	Benzène_Toluène_Éthylbenzène_Xylènes	S
+13l1l4	COHV	S
+13l1l5	Composés_Organo___Halogénés_Volatils	S
+
+#Il est observé la présence de HCT (Hydrocarbures Totaux ; concentration maximale relevée de 210 mg/kg de MS sur le S2).
+
+14l1l0	HCT	S
+14l1l1	Hydrocarbures_Totaux	S
+
+#Il a été retrouvé des chlorobenzènes uniquement sur l’échantillon S5 à une concentration de 1,5 µg/kg MS, supérieure à la valeur de référence de 1 µg/kg MS.
+
+15l1l0	des_chlorobenzènes	S
+
+#On relève aussi des concentrations en DDT (Dichlorodiphényltrichloroéthane) totaux sur les S3, S4 et S6 à des concentrations respectives de 3,1, 3,4 et 6,7µg/kg de MS pour une valeur de référence inférieure à 2 µg/kg MS, des concentrations en aldrines/dieldrines totaux sur S5 à une concentration de 40 µg/kg de MS pour une valeur de référence inférieure à 2 µg/kg MS et des HCH totaux sur S1, S3, S4 et S5 à des concentrations respectives de 190, 8.2, 5.4, et 660 µg/kg de MS pour une valeur de référence inférieure à 4 µg/kg MS.
+
+16l1l0	DDT	S
+16l1l1	Dichlorodiphényltrichloroéthane___totaux	S
+16l1l2	en_aldrines___dieldrines_totaux	S
+16l1l3	MS_et_des_HCH_totaux	S
+
+#La société SOCOTEC, a recommandé la réalisation d’investigations complémentaires afin de définir l'étendue des zones à traiter.
+
+17l0l0	La_société_SOCOTEC	O
+17l0l1	a_recommandé_la_réalisation_d__investigations_complémentaires	N
+17l0l2	l__étendue_des_zones_à_traiter	O
+17l1l0	La_société_SOCOTEC	I
+
+#En 2018, un diagnostic approfondi de pollution des sols a été réalisé en 2 parties.
+
+18l0l0	En_2018__	T
+18l0l1	un_diagnostic_approfondi_de_pollution_des_sols	N
+18l0l2	a_été_réalisé_en	N
+18l0l3	2_parties	O
+
+#La première partie a été réalisée en mars 2018, 8 sondages des sols jusqu’à 3 m de profondeur ont été réalisés.
+
+19l0l0	La_première_partie	O
+19l0l1	a_été_réalisée	N
+19l0l2	en_mars_2018__	T
+19l0l3	8_sondages	N
+19l0l4	ont_été_réalisés	N
+
+#Il a été observé une diminution de la teneur en HCH Totaux en superficie (0-1m), cependant les concentrations retrouvées restent importantes (>100 µg/kg de MS).
+
+20l1l0	HCH_Totaux	S
+
+#Une concentration très importante (38 000 µg/kg) a été relevée sur l’échantillon P8 entre 2 et 3 mètres de profondeur.
+
+21l0l0	Une_concentration	O
+
+#Cette valeur est probablement due à la fuite d’un ouvrage de stockage enterré.
+
+22l0l0	la_fuite	N
+
+#Sachant que le HCH est peu mobile dans les sols et peu soluble dans l’eau, la société Socotec recommande de réaliser des sondages complémentaires à 10-12 mètres de profondeur afin de déterminer l'impact potentiel de la nappe sous-jacente par les polluants.
+
+23l0l0	la_société_Socotec	O
+23l0l1	recommande_de_réaliser_des_sondages_complémentaires	N
+23l0l2	à	T
+23l0l3	10___12_mètres_de_profondeur	N
+23l1l0	le_HCH	S
+23l1l1	la_société_Socotec	I
+23l1l2	polluants	S
+
+#Lors de la seconde partie du diagnostic en mai 2018, la réalisation de 9 sondages, jusqu'à une profondeur maximale de 10 m, ont permis la constitution de 88 échantillons de sols.
+
+24l0l0	Lors	T
+24l0l1	de_la_seconde_partie_du_diagnostic	N
+24l0l2	en_mai_2018__	T
+24l0l3	la_réalisation	N
+24l0l4	9_sondages	N
+
+#Des calculs statistiques basés sur le diagnostic initial (décembre 2017) et les deux diagnostics complémentaires (mars 2018 et mai 2018), ont permis de définir une valeur limite de définition de la pollution concentrée en HCH totaux à 1 900 µg/kg de MS (percentile 85).
+
+25l0l0	le_diagnostic_initial	N
+25l0l1	décembre_2017__	T
+25l0l2	les_deux_diagnostics_complémentaires	N
+25l0l3	mars_2018_et_mai_2018__	T
+25l1l0	HCH_totaux	S
+
+#Afin, de déterminer l’impact de cette contamination sur la qualité des eaux souterraines, il est également recommandé par le bureau d’étude la pose de 3 piézomètres (1 en amont et 2 en aval) et d’assurer le suivi des contaminations résiduelles dans les sols ainsi que celles des eaux souterraines (si contamination avérée).
+
+26l0l0	déterminer_l__impact	N
+26l0l1	cette_contamination	O
+26l0l2	la_qualité_des_eaux_souterraines	O
+26l0l3	le_bureau_d__étude	O
+26l0l4	la_pose_de	N
+26l0l5	3_piézomètres	O
+26l0l6	suivi_des_contaminations	O
+
+#En considérant l'usage futur peu sensible du site (parking), il est préconisé le retrait des zones contaminées au HCH au-dessus du seuil (1 900 µg/kg de MS).
+
+27l0l0	il_est_préconisé	O
+27l0l1	le_retrait	N
+27l0l2	des_zones_contaminées	O
+27l0l3	HCH	O
+27l1l0	HCH	S
+
+#En tenant compte du caractère majorant des modélisations et des incertitudes émises sur les concentrations relevées au-delà de 8 m de profondeur, le retrait de la pollution concentrée sur une surface de 280 m² et une profondeur de 6 m, semble de nature à répondre aux objectifs de réhabilitation du site.
+
+28l0l0	au_delà	T
+28l0l1	de_8___m_de_profondeur	N
+28l0l2	__le_retrait	N
+28l0l3	objectifs_de_réhabilitation_du_site	L
+
+#Cela est équivalent à un volume estimé de 1 680 m3.
+

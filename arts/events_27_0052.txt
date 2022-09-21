@@ -1,0 +1,447 @@
+
+#27.0052
+#Le terrain se trouve à environ 500 m au Nord-Est du centre ville d'Evreux.
+
+0l0l0	Le_terrain	O
+0l0l1	se_trouve_à_environ_500_m_au_Nord_Est_du_centre_ville_d__Evreux	L
+
+#De forme sensiblement rectangulaire, il est délimité à l'Ouest par un garage automobile et au-delà par le Faubourg Saint-Léger, au Sud par des maisons d'habitations et une zone d'activités tertiaires (entrepôts, bureaux, …), à l'Est par des maisons d'habitation et au Nord par une station d'épuration et une zone de stockage d'engins de travaux publics.
+
+1l0l0	un_garage_automobile	O
+1l0l1	au_delà_par_le_Faubourg_Saint_Léger	L
+1l0l2	Sud	L
+1l0l3	des_maisons	O
+1l0l4	habitations	O
+1l0l5	une_station_d__épuration_et	O
+1l0l6	une_zone_de	O
+1l0l7	stockage_d__engins_de_travaux_publics__	O
+
+#Actuellement les bâtiments sont en cours de démolition.
+
+2l0l0	Actuellement	T
+2l0l1	les_bâtiments	O
+2l0l2	sont_en_cours_de_démolition	N
+
+#L'exploitation du site de la société M.
+
+3l0l0	la_société_M_	O
+
+#.E. débuta en 1914 avec la construction, par la société Luchaire, d'une usine de fabrication de caoutchouc pour l'armement.
+
+4l0l0	_E__débuta	N
+4l0l1	en_1914	T
+4l0l2	la_construction	N
+4l0l3	la_société_Luchaire	O
+4l0l4	d_	R
+4l0l5	une_usine	O
+4l0l6	de_fabrication_de_caoutchouc	A
+4l0l7	l__armement	A
+4l1l0	la_société_Luchaire	I
+
+#L'activité a été reprise par la société
+
+5l0l0	L__activité	O
+5l0l1	a_été_reprise	N
+5l0l2	la_société	O
+
+#spécialisée dans la transformation des élastomères de toute nature : mélanges à façon et moulage de pièces techniques avec ou sans inserts.
+
+6l0l0	spécialisée	R
+6l0l1	dans_la_transformation_des_élastomères_de	A
+6l0l2	mélanges_à_façon	A
+6l0l3	moulage	A
+
+#Le site est bordé par la rivière ITON (zone bleue dans le PPRI).
+
+7l0l0	Le_site	O
+7l0l1	bordé_par_la_rivière_ITON	L
+
+#Il n'y a pas de captages AEP proches.
+
+8l0l0	captages_AEP_proches	O
+
+#La société Minnesota Rubber Europe a procédé à la déclaration de cessation d'activité auprès de M. le préfet de l'Eure le 23 mai 2005 et a remis les justificatifs d'élimination de 300 tonnes de déchets suite à cette cessation d'activité.
+
+9l0l0	La_société_Minnesota	O
+9l0l1	Rubber_Europe	O
+9l0l2	a_procédé_à_la_déclaration	N
+9l0l3	cessation_d__activité	N
+9l0l4	M__le_préfet_de_l__Eure	O
+9l0l5	le_23_mai_2005	T
+9l0l6	a_remis	N
+9l0l7	les_justificatifs	O
+9l0l8	d__élimination	N
+9l0l9	300_tonnes_de_déchets	O
+9l0l10	suite_à	R
+9l0l11	cette_cessation_d__activité	N
+9l1l0	La_société_Minnesota_Rubber_Europe	I
+9l1l1	le_préfet_de_l__Eure	I
+
+#L'inspection des installations classées ayant constaté que les transformateurs électriques (dont certains au PCB) n'avaient pas été évacués, la MATMUT prpriétaire du site a fait procéder à leur enlèvement et à leur élimination dans des installations dûment autorisées.
+
+10l0l0	L__inspection_des_installations_classées	O
+10l0l1	ayant_constaté	N
+10l0l2	les_transformateurs_électriques	O
+10l0l3	la_MATMUT	O
+10l0l4	site	O
+10l0l5	a_fait_procéder_à_leur_enlèvement	N
+10l0l6	des_installations	O
+10l1l0	PCB	S
+10l1l1	la_MATMUT	I
+
+#Les justificatifs d'élimination concernant un fût de PCB, 10 transformateurs et 34 condensateurs ont été transmis par la MATMUT à l'inspection des installations classées.
+
+11l0l0	Les_justificatifs	O
+11l0l1	d__élimination	N
+11l0l2	10_transformateurs	O
+11l0l3	ont_été_transmis	N
+11l0l4	la_MATMUT	O
+11l1l0	PCB	S
+11l1l1	la_MATMUT	I
+
+#La MATMUT envisage un projet immobilier (habitations sur le site)
+
+12l0l0	La_MATMUT	O
+12l0l1	envisage	R
+12l0l2	un_projet_immobilier	N
+12l0l3	habitations	O
+12l1l0	La_MATMUT	I
+
+#La société MATMUT a remis à l'inspection des installations classées le document définitif présentant le Diagnostic Approfondi du site  et l'Evaluation Détaillée des Risques sanitaires le 21 septembre 2006.
+
+13l0l0	La_société_MATMUT	O
+13l0l1	a_remis	N
+13l0l2	l__inspection_des_installations_classées	O
+13l0l3	le_document_définitif	N
+13l0l4	le_Diagnostic_Approfondi	N
+13l0l5	site	O
+13l0l6	et_l__Evaluation_Détaillée_des_Risques_sanitaires	N
+13l0l7	le_21_septembre_2006__	T
+13l1l0	La_société_MATMUT	I
+
+#Deux campagnes d'investigations ont été réalisées.
+
+14l0l0	Deux_campagnes_d__investigations	N
+14l0l1	ont_été_réalisées	N
+
+#La première campagne réalisée fin 2003 est basée uniquement sur l'identification des zones potentielles à risque identifiées dans l'étude historique.
+
+15l0l0	La_première_campagne	N
+15l0l1	réalisée	N
+15l0l2	fin_2003	T
+15l0l3	l__identification	N
+15l0l4	des_zones_potentielles_à_risque	O
+
+#Lors de cette campagne 27 sondages carottés (S1 à S27) menés jusqu'à 4,8 m de profondeur et 14 fouilles à la pelle mécanique et à 3 m de profondeur ont été menés. 14 prélèvements d'air du sol ont également été réalisés.
+
+16l0l0	cette_campagne	N
+16l0l1	27_sondages	N
+16l0l2	carottés	O
+16l0l3	ont_été_menés	N
+
+#Compte tenu du projet du nouveau propriétaire du terrain, la MATMUT, l'inspection des installations classées a demandé que cette première campagne soit complétée par une campagne supplémentaire de prélèvements et d'analyse prenant en compte le projet immobilier afin d'augmenter le nombre de résultats disponibles.
+
+17l0l0	du_projet	O
+17l0l1	nouveau_propriétaire_du_terrain	O
+17l0l2	la_MATMUT	O
+17l0l3	l__inspection_des_installations_classées	O
+17l0l4	a_demandé	N
+17l0l5	cette_première_campagne	N
+17l0l6	une_campagne	O
+17l0l7	d__analyse	O
+17l0l8	prenant_en_compte	N
+17l0l9	le_projet_immobilier	O
+17l1l0	la_MATMUT	I
+
+#Cette deuxième campagne s'est déroulée fin 2005 et a consisté en la réalisation de :
+
+18l0l0	Cette_deuxième_campagne_s__est_déroulée	N
+18l0l1	fin_2005	T
+18l0l2	la_réalisation	N
+
+#- 23 sondages carottés (profondeur : 3 m),
+
+19l0l0	23_sondages_carottés	O
+
+#- 2 sondages carottés (profondeur : 6 m),
+
+20l0l0	2_sondages_carottés	O
+
+#- 3 piézomètres (profondeur : 7 m),
+
+
+#- 2 prélèvements d'eaux superficielles.
+
+
+#Les paramètres analysés ont été les suivants :
+
+
+#- Composés Organiques Volatils,
+
+24l1l0	Composés_Organiques_Volatils	S
+
+#- Composés Organo Halogénés,
+
+25l1l0	Composés_Organo_Halogénés	S
+
+#- Chlorure de Vinyle,
+
+26l1l0	Chlorure_de_Vinyle	S
+
+#- Hydrocarbures aromatiques polycycliques,
+
+27l1l0	Hydrocarbures_aromatiques_polycycliques	S
+
+#- Métaux lourds (As, Pb, Cd, Cr, Cu, Ni, Hy, Zn),
+
+28l1l0	Métaux_lourds	S
+28l1l1	As	S
+28l1l2	Pb	S
+28l1l3	Cd	S
+28l1l4	Cr	S
+28l1l5	Cu	S
+28l1l6	Ni	S
+28l1l7	Hy	S
+28l1l8	Zn	S
+
+#- PCB,
+
+29l1l0	PCB	S
+
+#- Hydrocarbures totaux.
+
+30l1l0	Hydrocarbures_totaux	S
+
+#Les analyses effectuées ont mis en évidence :
+
+
+#- des teneurs significatives en hydrocarbures totaux (type fuel ou huile dégradée) en trois endroits:
+
+32l1l0	hydrocarbures_totaux	S
+32l1l1	fuel	S
+32l1l2	huile_dégradée	U
+
+#- sous la dalle de béton de la zone extérieure de déchets et de produits liquides localisés en partie Nord Est du site et dans la couche superficielle de sol en bordure de cette zone (sondages S3, F1 à F3),
+
+33l0l0	la_zone	O
+33l0l1	en_partie_Nord_Est_du_site	L
+33l0l2	en_bordure_de_cette_zone	L
+33l1l0	déchets	U
+33l1l1	produits_liquides	U
+
+#- au niveau d'une cuve à huiles enterrée localisée en partie centrale Est du bâtiment n° 6 (sondages S6).
+
+34l0l0	une_cuve_à_huiles_enterrée	O
+34l0l1	localisée_en_partie_centrale_Est_du_bâtiment_n__6	L
+34l1l0	une_cuve	D
+
+#En ces points les teneurs en hydrocarbures vont de 3 500 mg/kg à 14 000 mg/kg.
+
+35l1l0	hydrocarbures	S
+
+#- au niveau de ces zones la profondeur atteinte va jusqu'à 4,8 m de profondeur,
+
+
+#- des teneurs significatives en Composés Organiques Volatils (jusqu'à 3 m de profondeur par un rapport de sol actuel) en 4 endroits:
+
+37l1l0	Composés_Organiques_Volatils	S
+
+#- dans le sol, sous le béton de l'ancienne zone de nettoyage des pièces localisées en partie centrale du bâtiment n° 4 (sondage S27, trichloroéthylène : 0,86 mg/kg),
+
+38l0l0	le_sol	O
+38l0l1	le_béton	O
+38l0l2	l__ancienne_zone_de_nettoyage	O
+38l0l3	localisées_en_partie_centrale_du_bâtiment_n__4	L
+38l1l0	trichloroéthylène	S
+
+#- dans le sol, en partie Ouest de l'ancienne aire de stockage de produits dangereux et de déchets (sondage S31 : trichloroéthylène : 0,31 mg/kg ; tétrachloroéthylène : 0,16 mg/kg),
+
+39l0l0	le_sol	O
+39l0l1	en_partie_Ouest	L
+39l0l2	aire_de_stockage_de_produits_dangereux	O
+39l1l0	produits_dangereux	U
+39l1l1	déchets	U
+39l1l2	trichloroéthylène	S
+39l1l3	tétrachloroéthylène	S
+
+#- dans le sol en partie Est du bâtiment n°6 (sondages S34 et S35)
+
+40l0l0	en_partie_Est_du_bâtiment_n__6	O
+
+#- dans l'air du sol, en partie Est du bâtiment n° 6 au droit de l'ancien stockage de produits d'entretien et d'huiles de n-hexane, benzène et toluène, sans corrélation avec les analyses de sol effectuées.
+
+41l0l0	en_partie_Est_du_bâtiment	L
+41l0l1	produits_d__entretien	A
+41l1l0	n___hexane	S
+41l1l1	benzène	S
+41l1l2	toluène	S
+
+#- l'absence de teneurs significatives en hydrocarbures aromatiques polycycliques et en métaux au sein de l'ensemble des échantillons prélevés et analysés.
+
+42l1l0	hydrocarbures_aromatiques_polycycliques	S
+42l1l1	métaux	S
+
+#Concernant les hydrocarbures, une analyse des coupes pétrolières a été réalisée.
+
+43l0l0	coupes_pétrolières	O
+43l0l1	a_été_réalisée	N
+43l1l0	hydrocarbures	S
+
+#Elle montre qu'il s'agit de coupes carbonées C21 à C35 (type diesel).
+
+44l1l0	coupes_carbonées	U
+44l1l1	diesel	S
+
+#Concernant les eaux souterraines, un piézomètre (PZ2) a montré la présence d'eau permettant la réalisation de prélèvements.
+
+
+#L'analyse a montré une eau de bonne qualité pour les paramètres recherchés (hydrocarbures totaux, hydrocarbures aromatiques polycycliques, Composés Organiques Volatils et les éléments traces métalliques), les concentrations relevées étant proches des seuils de détection voire inférieures à ceux-ci pour la plupart des composés recherchés.
+
+46l1l0	hydrocarbures_totaux	S
+46l1l1	hydrocarbures_aromatiques_polycycliques	S
+46l1l2	Composés_Organiques_Volatils	S
+46l1l3	les_éléments_traces	U
+46l1l4	métalliques	S
+46l1l5	composés	S
+
+#Concernant les eaux superficielles, les analyses réalisées dans la rivière Iton en amont et en aval hydraulique ont également montré des eaux de bonne qualité pour les paramètres recherchés (hydrocarbures totaux, hydrocarbures aromatiques polycycliques, composés organiques volatils et les éléments traces métalliques), les concentrations relevées étant proches des seuils de détection voire inférieures à ceux-ci pour la plupart des composés recherchés.
+
+47l0l0	dans_la_rivière_Iton_en_amont_et_en_aval_hydraulique_ont	L
+47l1l0	hydrocarbures_totaux	S
+47l1l1	hydrocarbures_aromatiques_polycycliques	S
+47l1l2	composés_organiques_volatils	S
+47l1l3	les_éléments_traces	U
+47l1l4	métalliques	S
+47l1l5	composés	S
+
+#L'Evaluation Détaillée des Risques Sanitaires, mise en œuvre à partir des résultats des diagnostics initiaux et approfondis, a été réalisée conformément à la méthodologie définie dans le guide "Gestion des sites pollués -Diagnostic approfondi et Evaluation Détaillée des Risques" .
+
+48l0l0	Risques_Sanitaires	O
+48l0l1	diagnostics_initiaux	N
+48l0l2	approfondis	N
+48l0l3	a_été_réalisée	N
+48l0l4	conformément_à	R
+48l0l5	la_méthodologie	O
+48l0l6	Gestion_des_sites_pollués	O
+48l0l7	_Diagnostic_approfondi	N
+48l1l0	Sanitaires	S
+
+#Ce document a été réalisé par la société HPC ENvirotech et a été soumis à l'avis de la DDASS.
+
+49l0l0	Ce_document	O
+49l0l1	a_été_réalisé	N
+49l0l2	la_société_HPC_ENvirotech	O
+49l0l3	a_été_soumis	N
+49l0l4	la_DDASS	O
+49l1l0	la_société_HPC_ENvirotech	I
+49l1l1	DDASS	I
+
+#Le projet d'aménagement de la MATMUT en zone résidentielle conduit à définir les scénarios d'exposition suivants :
+
+50l0l0	Le_projet_d__aménagement	N
+50l0l1	la_MATMUT	O
+50l0l2	en	R
+50l0l3	zone_résidentielle	O
+50l1l0	la_MATMUT	I
+
+#- un scénario résidentiel avec culture de jardin potager (habitations de type individuel avec présence d'adultes et d'enfants),
+
+51l0l0	culture	A
+
+#- un scénario résidentiel sans culture de jardin potager (habitations de type collectif avec présence d'adultes et d'enfants et des espaces verts).
+
+
+#L'Evaluation Détaillée des Risques réalisée suite aux investigations en prenant en compte le projet d'aménagement de la MATMUT aboutit aux conclusions suivantes :
+
+53l0l0	L__Evaluation_Détaillée_des_Risques	N
+53l0l1	réalisée_suite_aux_investigations	N
+53l0l2	prenant_en_compte	N
+53l0l3	le_projet	O
+53l0l4	d__aménagement	N
+53l0l5	la_MATMUT	O
+53l1l0	la_MATMUT	I
+
+#1) Existence de risques cancérigènes non tolérables si on ne considère pas le bruit de fond géochimique pour les deux scénarios résidentiels.
+
+54l1l0	cancérigènes	U
+
+#2) Existence de risques non cancérigènes non tolérables pour le scénario résidentiel avec jardin potager dans le cadre de l'étude des incertitudes, en cas de prise en compte de paramètres majorants (concentrations maximales mesurées).
+
+55l1l0	cancérigènes	U
+
+#3) Absence de risques non cancérigènes non tolérables pour les deux scénarios, et de risques cancérigènes si on considère le bruit de fond géochimique.
+
+56l1l0	cancérigènes	U
+56l1l1	cancérigènes	U
+
+#4) L'absence de risques sanitaires (cancérigènes et non cancérigènes) non tolérables pour les deux scénarios dans le cadre de l'étude des incertitudes lors de la prise en compte de paramètres minorants (recouvrement).
+
+57l1l0	cancérigènes	U
+57l1l1	non_cancérigènes	U
+
+#Les conclusions 3 et 4 aboutissent à l'absence de travaux de réhabilitation.
+
+58l0l0	absence_de_travaux_de_réhabilitation	N
+
+#La société HPC ENvirotech a calculé les seuils de dépollution à atteindre pour supprimer les risques (conclusions 1 et 2).
+
+59l0l0	La_société_HPC_ENvirotech	O
+59l0l1	a_calculé	N
+59l0l2	les_seuils	O
+59l0l3	dépollution	N
+59l1l0	La_société_HPC_ENvirotech	I
+
+#Les investigations réalisées sur le site ont montré une pollution par des produits organiques assez limitée en terme d’étendue spatiale.
+
+60l0l0	Les_investigations_réalisées	N
+60l1l0	produits_organiques	U
+
+#Un rapport été présenté au CODERST du mois de janvier 2007.
+
+61l0l0	CODERST	O
+61l0l1	mois_de_janvier_2007__	T
+61l1l0	CODERST	I
+
+#L'inspection des installations classées n'a pas retenu l'approche basée sur la prise en compte du Bruit de Fond Géochimique ou la mise en place d'un recouvrement et a proposé d'imposer une dépollution du site et donc deprocéder à l'extraction des zones souillées et présentant des teneurs supérieures aux Concentrations Maximales Admissibles.
+
+62l0l0	L__inspection_des_installations_classées	O
+62l0l1	la_prise_en_compte	N
+62l0l2	la_mise_en_place_d__un_recouvrement	A
+62l0l3	d__imposer_une_dépollution	N
+62l0l4	l__extraction	N
+62l0l5	zones_souillées	O
+62l0l6	présentant	N
+62l0l7	des_teneurs	O
+
+#e projet d'arrêté préfectoral impose que les terres souillées extraites soient considérées comme des déchets et donc éliminées à l'extérieur du site dans des installations dûment autorisées.
+
+63l0l0	arrêté_préfectoral	O
+63l0l1	impose_que	R
+63l0l2	les_terres_souillées_extraites	O
+63l0l3	éliminées	N
+63l0l4	à_l__extérieur_du_site	L
+63l0l5	des_installations	O
+
+#Le projet d'arrêté préfectoral fixe également les conditions de réalisation des travaux de dépollution, impose la remise d'un mémoire de fin de travaux permettant de vérifier si les objectifs fixés en matière de dépollution ont bien été atteints et demande la mise en place d'une surveillance de la qualité des eaux souterraines pendant 3 ans.
+
+64l0l0	Le_projet	O
+64l0l1	les_conditions	O
+64l0l2	réalisation_des_travaux_de_dépollution	N
+64l0l3	impose_la_remise	N
+64l0l4	d__un	O
+64l0l5	dépollution	N
+64l0l6	surveillance_de_la_qualité_des_eaux_souterraines	A
+64l0l7	pendant_3_ans	T
+
+#L'arrêté Préfectoral a été signé le 5 janvier 2007.
+
+65l0l0	L__arrêté_Préfectoral	O
+65l0l1	a_été_signé	N
+65l0l2	le_5_janvier_2007__	T
+
+#Les travaux de dépollution du site ont débuté début juillet 2007
+
+66l0l0	Les_travaux_de_dépollution	N
+66l0l1	du_site	O
+66l0l2	ont_débuté	N
+66l0l3	début_juillet_2007	T

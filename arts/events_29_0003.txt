@@ -1,0 +1,201 @@
+
+#29.0003
+#Décharge d’une dizaine d’hectares, destinée initialement à recevoir des déchets inertes.
+
+0l0l0	Décharge	N
+0l0l1	initialement	T
+0l0l2	recevoir_des_déchets_inertes	A
+0l1l0	des_déchets_inertes	U
+
+#Elle a pu recevoir des déchets industriels banals (DIB) voire spéciaux (DIS) en particulier abrasifs de carénage, huiles usagées, refus de broyats automobiles (RBA), etc.
+
+1l0l0	Elle	O
+1l0l1	a_pu_recevoir	N
+1l0l2	carénage	O
+1l0l3	broyats_automobiles	O
+1l1l0	des_déchets_industriels_banals	U
+1l1l1	DIB	S
+1l1l2	abrasifs	U
+1l1l3	huiles_usagées	U
+1l1l4	broyats_automobiles	U
+
+#Ce site a fait l’objet d’une exploitation sans autorisation administrative, de 1948 à 1994.
+
+2l0l0	Ce_site	O
+2l0l1	a_fait_l__objet_d_	R
+2l0l2	une_exploitation_sans_autorisation_administrative	N
+2l0l3	de_1948_à_1994__	T
+
+#Un arrêté préfectoral du 29 juin 1997 a prescrit la fermeture et la remise en état du site sous un délai de 6 mois, ainsi  que diverses mesures visant à prévenir la pollution des eaux et assurer la surveillance du site.
+
+3l0l0	Un_arrêté_préfectoral	O
+3l0l1	du_29_juin_1997	T
+3l0l2	a_prescrit_la_fermeture_et_la_remise_en_état	N
+3l0l3	site	O
+3l0l4	sous_un_délai_de_6_mois	T
+3l0l5	prévenir_la_pollution_des_eaux	O
+3l0l6	et_assurer_la_surveillance_du_site	A
+
+#En l'absence de suites, un arrêté de mise en demeure du 16 mars 1998 a été signé avec un délai de réalisation de 3 mois.
+
+4l0l0	un_arrêté_de_mise_en_demeure	N
+4l0l1	16_mars_1998	T
+4l0l2	a_été_signé	N
+
+#La société CTVL a été radiée le 28 mars 2012.
+
+5l0l0	La_société_CTVL	O
+5l0l1	a_été_radiée	N
+5l0l2	le_28_mars_2012__	T
+5l1l0	La_société_CTVL	I
+
+#Actuellement, il n'y a plus d'exploitant juridique du site.
+
+6l0l0	plus_d__exploitant_juridique	O
+
+#Ce site est implanté en tête de bassin versant de Kerléguer utilisé pour partie à l’alimentation en eau de la Communauté Urbaine de Brest.
+
+7l0l0	Ce_site	O
+7l0l1	est_implanté	N
+7l0l2	en_tête_de	L
+7l0l3	bassin_versant	O
+7l0l4	Kerléguer_utilisé_pour_partie	A
+7l0l5	à	R
+7l0l6	l__alimentation_en_eau	A
+7l0l7	de_la_Communauté_Urbaine_de_Brest	L
+
+#L'arrêté préfectoral du 27 juin 1997 encadre la remise en état du site : nettoyage (par enlèvement des déchets à risques), régalage et couverture des déchets inertes.
+
+8l0l0	L__arrêté_préfectoral	O
+8l0l1	27_juin_1997	T
+8l0l2	encadre	R
+8l0l3	la_remise_en_état_du_site	N
+8l0l4	nettoyage	N
+8l0l5	régalage	N
+8l0l6	couverture_des_déchets_inertes	A
+
+#Les opérations de nettoyage ont commencé début 1999 :
+
+9l0l0	Les_opérations_de_nettoyage	N
+9l0l1	ont_commencé	N
+9l0l2	début_1999	T
+
+#- enlèvement des bois, plastiques, ferrailles,
+
+10l0l0	enlèvement	N
+10l0l1	ferrailles	O
+10l1l0	plastiques	S
+
+#- 450 T de sable de carénage ont été évacuées en centre de stockage de classe 2.
+
+11l0l0	450_T_de_sable_de_carénage	O
+11l0l1	ont_été_évacuées	N
+11l0l2	en_centre_de_stockage	L
+11l1l0	sable_de_carénage	U
+
+#Un nivellement et un reprofilage du site ont suivi, ainsi qu'une dérivation en périphérie du cours d'eau qui traversait le remblai constitué par les déchets.
+
+12l0l0	Un_nivellement	N
+12l0l1	un_reprofilage	N
+12l0l2	site	O
+12l0l3	ont_suivi	N
+12l0l4	une	O
+12l0l5	dérivation_en_périphérie_du_cours	L
+12l0l6	d__eau	L
+12l0l7	traversait_le_remblai	N
+12l1l0	les_déchets	D
+
+#Un dispositif de surveillance de la qualité des eaux a été mis en place via deux piézomètres (amont / aval).
+
+13l0l0	Un_dispositif_de_surveillance_de_la_qualité_des_eaux	O
+13l0l1	a_été_mis_en_place	N
+
+#La collecte des eaux superficielles a été mis en place par un fossé drainant en périphérie et en pied de remblai, équipé d'un bassin tampon d'homogénéisation et d'un seul point de rejet à l'aval.
+
+14l0l0	a_été_mis_en_place	N
+14l0l1	drainant	N
+14l0l2	en_périphérie_et_en_pied_de_remblai	L
+14l0l3	équipé_d_	R
+14l0l4	un_bassin_tampon	O
+
+#Les analyses des eaux d'octobre 1999 et mars 2000 montrent un impact réduit sur le milieu naturel, tant au niveau des eaux souterraines que des eaux superficielles.
+
+15l0l0	Les_analyses_des_eaux	N
+15l0l1	d__octobre_1999_et_mars_2000	T
+
+#L'arrêté préfectoral du 16 novembre 2001 confirme le maintien sous surveillance du site par des analyses des eaux souterraines et des eaux superficielles (bassin de confinement du site).
+
+16l0l0	L__arrêté_préfectoral	O
+16l0l1	16_novembre_2001	T
+16l0l2	confirme	R
+16l0l3	le_maintien_sous_surveillance	N
+16l0l4	site	O
+16l0l5	des_analyses_des_eaux_souterraines	A
+
+#Les résultats d'analyses de 2002 à 2006 ont montré un impact du site, caractéristique de ce genre de dépôt :
+
+17l0l0	analyses	N
+17l0l1	de_2002_à_2006	T
+17l0l2	un_impact	N
+
+#- sur les eaux souterraines : augmentation du pH, de la conductivité, des sulfates et de la DCO,
+
+18l1l0	pH	S
+18l1l1	sulfates	S
+18l1l2	DCO	S
+
+#- sur les eaux de surface : minéralisation, enrichissement en matières organiques et en sulfates.
+
+19l0l0	enrichissement	N
+19l1l0	sulfates	S
+
+#Les analyses complémentaires réalisées en décembre 2005 ont montré des traces d'hydrocarbures totaux et une absence de plomb et de composés organiques.
+
+20l0l0	Les_analyses_complémentaires_réalisées	N
+20l0l1	en_décembre_2005	T
+20l1l0	hydrocarbures_totaux	S
+20l1l1	plomb	S
+20l1l2	composés_organiques	S
+
+#L'impact du site sur les eaux est resté stable dans le temps, aucune dégradation n'est apparue entre 2002 et 2006.
+
+21l0l0	L__impact	N
+21l0l1	les_eaux	O
+21l0l2	est_resté_stable_dans_le_temps	N
+21l0l3	n__est_apparue	N
+21l0l4	entre_2002_et_2006__	T
+
+#Au vu de ces résultats, la surveillance a été allégée par l'arrêté préfectoral complémentaire du 22 février 2007 (une analyse par semestre).
+
+22l0l0	la_surveillance	O
+22l0l1	a_été_allégée	N
+22l0l2	l__arrêté_préfectoral_complémentaire	O
+22l0l3	du_22_février_2007	T
+
+#Les résultats de le surveillance depuis mai 2008 montrent un impact du site :
+
+23l0l0	surveillance	A
+23l0l1	depuis_mai_2008	T
+
+#- sur les eaux souterraines fortement minéralisées (augmentation des matières organiques, des sulfates, du manganèse),
+
+24l1l0	organiques	S
+24l1l1	sulfates	S
+24l1l2	manganèse	S
+
+#- sur les eaux de la retenue (enrichissement en minéraux, matières organiques, en sulfates et en manganèse).
+
+25l0l0	la_retenue	O
+25l1l0	sulfates	S
+25l1l1	manganèse	S
+
+#Les eaux qui percolent dans le massif de déchets se chargent en minéraux, en matières organiques et en métaux (notamment le manganèse) avant de rejoindre les eaux superficielles et la nappe.
+
+26l0l0	Les_eaux	O
+26l1l0	manganèse	S
+
+#Après l'augmentation des concentrations en 2008, elles restent globalement stables.
+
+27l0l0	Après	R
+27l0l1	l__augmentation_des_concentrations	N
+27l0l2	en_2008__	T

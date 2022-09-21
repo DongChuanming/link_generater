@@ -1,0 +1,301 @@
+
+#44.0058
+#Le site est situé sur le territoire de la ville de NANTES à 500m au nord de la Loire.
+
+0l0l0	Le_site	O
+0l0l1	est_situé_sur_le_territoire_de_la_ville_de_NANTES	O
+0l0l2	à_500_m_au_nord_de_la_Loire	L
+
+#Il a été exploité par Coliposte, une filiale de la poste, qui a cessé son activité à l'automne 2005.
+
+1l0l0	Il	O
+1l0l1	a_été_exploité	N
+1l0l2	Coliposte	O
+1l0l3	a_cessé	N
+1l0l4	son_activité	O
+1l0l5	à_l__automne_2005__	T
+1l1l0	Coliposte	I
+
+#Actuellement, le terrain est sous la responsabilité de Nantes Métropole qui souhaite aménager le site pour en faire une zone résidentielle avec parkings et espaces verts.
+
+2l0l0	Actuellement	T
+2l0l1	le_terrain	O
+2l0l2	est_sous_la_responsabilité_de	R
+2l0l3	Nantes_Métropole	O
+2l0l4	souhaite	R
+2l0l5	aménager	N
+2l0l6	le_site	O
+2l0l7	pour	R
+2l0l8	en_faire_une_zone_résidentielle	L
+2l1l0	Nantes_Métropole	I
+
+#La pollution du site a été déclenchée en 2006, lorsque deux transformateurs, contenant des PCB, ont été sortis de leur local de rétention par des voleurs afin d'en extraire les matériaux de cuivre, leur contenu a été vidé sur le sol.
+
+3l0l0	La_pollution	N
+3l0l1	site	O
+3l0l2	a_été_déclenchée	N
+3l0l3	en_2006__	T
+3l0l4	deux_transformateurs	O
+3l0l5	ont_été_sortis_de	N
+3l0l6	leur_local_de_rétention	O
+3l0l7	extraire_les_matériaux_de_cuivre	A
+3l0l8	a_été_vidé	N
+3l1l0	des_PCB	S
+3l1l1	cuivre	U
+
+#Cet acte de vandalisme a été constaté le 30/03/2006 par le service de Nantes Métropole chargé de la reprise du site qui en a informé l'inspection des installations classées pour la protection de l'environnement dès le lendemain.
+
+4l0l0	Cet_acte_de_vandalisme	N
+4l0l1	a_été_constaté	N
+4l0l2	le_30_03_2006	T
+4l0l3	le_service_de_Nantes_Métropole	O
+4l0l4	chargé_de	R
+4l0l5	la_reprise	N
+4l0l6	du_site	O
+4l0l7	a_informé	N
+4l0l8	l__inspection_des_installations_classées	O
+4l0l9	la_protection_de_l__environnement	O
+4l0l10	dès_le_lendemain	T
+4l1l0	le_service_de_Nantes_Métropole	I
+
+#La Cellule Opérationnelle de Prévention des Risques (COPR) a estimé la capacité totale des deux transformateurs à 1200L de PCB.
+
+5l0l0	La_Cellule_Opérationnelle_de_Prévention_des_Risques	O
+5l0l1	1200L	O
+5l0l2	de_PCB	A
+5l1l0	La_Cellule_Opérationnelle	I
+5l1l1	PCB	S
+
+#Lors de sa venue sur le site en 2006, l'inspection des installations classées a constaté que la zone souillée et les transformateurs avaient été bâchés mais que la zone sécurisée ne disposait d'aucun balisage.
+
+6l0l0	Lors_de	R
+6l0l1	sa_venue	N
+6l0l2	sur_le_site	L
+6l0l3	en_2006__	T
+6l0l4	l__inspection_des_installations_classées	O
+6l0l5	la_zone_souillée	O
+6l0l6	les_transformateurs	O
+6l0l7	avaient_été_bâchés	N
+6l0l8	la_zone_sécurisée	O
+
+#L’arrêté du 04/04/2006 n°2006/ICPE/165 prescrit des mesures d'urgence à la Direction Local de l'Immobilier de la Poste à Nantes concernant la dépollution, le diagnostic et la décontamination des lieux.
+
+7l0l0	L_	O
+7l0l1	04_04_2006	T
+7l0l2	n__2006	T
+7l0l3	ICPE_165_prescrit_des_mesures_d_	O
+7l0l4	la_Direction_Local_de_l__Immobilier	N
+7l0l5	Nantes_concernant	R
+7l0l6	la_dépollution	N
+7l0l7	le_diagnostic	N
+7l0l8	la_décontamination	N
+7l0l9	des_lieux	N
+
+#Le 23/06/2006, l'inspection des installations classées a constaté que les mesures prescrites par l’arrêté préfectoral du 04/04/2006 ont bien été réalisées.
+
+8l0l0	Le_23_06_2006	T
+8l0l1	l__inspection_des_installations_classées	O
+8l0l2	a_constaté	N
+8l0l3	les_mesures	N
+8l0l4	l__arrêté_préfectoral	O
+8l0l5	du_04_04_2006	T
+8l0l6	ont_bien_été_réalisées	N
+
+#En conclusion du diagnostic de pollution, il est proposé:
+
+
+#- de réaliser un diagnostic approfondi des sols autour des zones impactées afin de définir de façon précise l'étendue de la pollution
+
+10l0l0	de_réaliser_un_diagnostic_approfondi	N
+10l0l1	sols_autour_des_zones_impactées	O
+
+#- de mettre en place des piézomètres pour le contrôle de la qualité des eaux
+
+11l0l0	de_mettre_en_place	N
+11l0l1	des_piézomètres	O
+11l0l2	le_contrôle_de_la_qualité_des_eaux	A
+
+#- de réaliser une Étude Détaillée des Risques (EDR)
+
+12l0l0	Risques	N
+
+#- d'éliminer l'ensemble des terres impactées stockées sur le site
+
+13l0l0	d__éliminer	N
+13l0l1	l__ensemble_des_terres_impactées	O
+
+#Par courrier en date du 20/06/2006, l'exploitant s'engage sur le respect des préconisations susvisées.
+
+14l0l0	en_date_du_20_06_2006	T
+14l0l1	l__exploitant	O
+14l0l2	s__engage	R
+
+#L’arrêté préfectoral du 24/10/2006 n°2006/ICPE/327 requiert l'élimination des sources résiduelles de pollution aux PCB du site avec notamment:
+
+15l0l0	L__arrêté_préfectoral	O
+15l0l1	24_10_2006	T
+15l0l2	n__2006	T
+15l0l3	élimination_des_sources_résiduelles	N
+15l1l0	PCB	S
+
+#- une étude sur les différentes possibilités technico-économiques de dépollution des terres
+
+16l0l0	les_différentes_possibilités_technico	O
+16l0l1	dépollution	N
+16l0l2	terres	O
+
+#- la poursuite des opérations de dépollution
+
+17l0l0	la_poursuite	N
+17l0l1	des_opérations_de_dépollution	N
+
+#- la mise en place d'un suivi piézométrique
+
+18l0l0	la_mise_en_place_d_	N
+18l0l1	un_suivi_piézométrique	A
+
+#L'étude technico-économique a été finalisée le 22/12/2006.
+
+19l0l0	L__étude_technico	N
+19l0l1	a_été_finalisée	N
+19l0l2	le_22_12_2006__	T
+
+#L'EDR préconisé le 23/06/2006 a été réalisée en février 2007 et a relevé que de fortes concentrations en PCB étaient encore présentes dans les sols et la nappe.
+
+20l0l0	L_	N
+20l0l1	le_23_06_2006	T
+20l0l2	a_été_réalisée	N
+20l0l3	en_février_2007	T
+20l0l4	PCB	O
+20l0l5	nappe	O
+20l1l0	PCB	S
+
+#Suite à cela, les arrêtés préfectoraux du 16/10/2007 et du 12/11/2007 ont délivré des prescriptions spéciales relatives à la réhabilitation des zones polluées par des PCB.
+
+21l0l0	les_arrêtés_préfectoraux	O
+21l0l1	du_16_10_2007_et_du_12_11_2007	T
+21l0l2	ont_délivré	N
+21l0l3	des_prescriptions_spéciales	O
+21l0l4	relatives_à	R
+21l0l5	la_réhabilitation	N
+21l0l6	zones_polluées	O
+21l0l7	par	R
+21l0l8	des_PCB	O
+21l1l0	PCB	S
+
+#Des travaux de dépollution ont débuté en 2006 et ont été précisés par l’arrêté préfectoral du 16/10/2007 concernant la réhabilitation des zones polluées par des PCB.
+
+22l0l0	Des_travaux_de_dépollution	N
+22l0l1	ont_débuté	N
+22l0l2	en_2006	T
+22l0l3	ont_été_précisés	N
+22l0l4	l__arrêté_préfectoral	O
+22l0l5	16_10_2007	T
+22l0l6	la_réhabilitation	N
+22l0l7	zones_polluées	O
+22l0l8	par	R
+22l0l9	des_PCB	O
+22l1l0	PCB	S
+
+#Les différentes étapes du chantier ont été les suivantes:
+
+23l0l0	Les_différentes_étapes_du_chantier	O
+23l0l1	ont_été_les	N
+
+#1- Préparatifs du chantier
+
+
+#2- Excavation des matériaux pollués et caractérisation par lot
+
+25l0l0	Excavation	N
+25l0l1	des_matériaux_pollués	O
+25l0l2	caractérisation_par_lot	O
+
+#3- Stockage sur aire étanche
+
+
+#4- Réception des travaux
+
+27l0l0	Réception_des_travaux	O
+
+#5- Évacuation des matériaux pollués
+
+28l0l0	Évacuation_des_matériaux_pollués	N
+
+#6- Remise en état des 2 zones (voir plans cartographiques joints à la partie B de cette fiche BASOL)
+
+29l0l0	6_	O
+29l0l1	2_zones	O
+
+#Le rapport de fin des travaux de dépollutions a été publié le 17/10/2008 et confirme que les objectifs fixés par l’arrêté préfectoral ont bien été atteints.
+
+30l0l0	Le_rapport	O
+30l0l1	de_fin_des_travaux_de_dépollutions	N
+30l0l2	a_été_publié	N
+30l0l3	le_17_10_2008	T
+30l0l4	les_objectifs_fixés	O
+30l0l5	l__arrêté_préfectoral	O
+30l0l6	ont_bien_été_atteints	N
+
+#Le 19/10/2007, un acte de vente est passé entre La Poste et Nantes Aménagement dans lequel sont mentionnées les restrictions d'usage établies au vu du rapport de la société ANTEA de mai 2007, que l'acquéreur, Nantes aménagement, s'est engagé a respecter.
+
+31l0l0	Le_19_10_2007	T
+31l0l1	un_acte_de_vente	N
+31l0l2	est_passé	N
+31l0l3	entre	R
+31l0l4	La_Poste	O
+31l0l5	Nantes_Aménagement	O
+31l0l6	les_restrictions_d__usage	O
+31l0l7	établies_au	R
+31l0l8	vu	N
+31l0l9	la_société_ANTEA	O
+31l0l10	de_mai_2007__	T
+31l0l11	l__acquéreur	O
+31l0l12	Nantes_aménagement	O
+31l1l0	La_Poste	I
+31l1l1	Nantes_Aménagement	I
+31l1l2	la_société_ANTEA	I
+31l1l3	Nantes_aménagement	I
+
+#Les pollutions résiduelles sont compatibles avec un usage résidentiel sous réserve d'aménagements spécifiques : des dispositions constructives, le captage des eaux souterraines interdit et un suivi piézométrique à mettre en place.
+
+32l0l0	le_captage_des_eaux_souterraines	A
+
+#En 2009, d’autres investigations sur les sols, réalisées dans le cadre d'un projet d'aménagement, ont mis en évidence un impact en métaux (zinc, plomb, arsenic, mercure et cuivre), en hydrocarbures totaux ainsi que des traces de Hydrocarbures Aromatiques Polycycliques (HAP) et de PCB.
+
+33l0l0	En_2009__	T
+33l0l1	d__autres_investigations	N
+33l0l2	sur	R
+33l0l3	les_sols	O
+33l0l4	réalisées_dans_le	N
+33l0l5	cadre_d_	R
+33l0l6	un_projet	O
+33l0l7	d__aménagement	N
+33l0l8	un_impact	O
+33l1l0	métaux	S
+33l1l1	zinc	S
+33l1l2	plomb	S
+33l1l3	arsenic	S
+33l1l4	mercure	S
+33l1l5	cuivre	S
+33l1l6	hydrocarbures_totaux	S
+33l1l7	Hydrocarbures_Aromatiques_Polycycliques	S
+33l1l8	HAP	S
+33l1l9	PCB	S
+
+#La nappe est concernée par des traces de benzo(a)pyrène.
+
+34l1l0	benzo_a_pyrène	S
+
+#Par courrier du 17/12/2010, la DREAL autorise l’arrêt des suivis piézométriques sur le site puisque les objectifs de dépollutions ainsi que les délais minimum fixés dans l’arrêté du 12/11/2007 ont été atteints.
+
+35l0l0	17_12_2010	T
+35l0l1	la_DREAL	O
+35l0l2	autorise	N
+35l0l3	l__arrêt_des_suivis	N
+35l0l4	piézométriques	A
+35l0l5	les_objectifs	O
+35l0l6	de_dépollutions	N
+35l0l7	12_11_2007	T
+35l0l8	ont_été_atteints	N
+35l1l0	la_DREAL	I

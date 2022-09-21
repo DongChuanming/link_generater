@@ -1,0 +1,225 @@
+
+#91.0066
+#Les établissements DEBONO ont exercé pendant plusieurs décennies une activité de fabrication de peintures sur ce site d'environ 2 hectares, placé en bordure de l'Orge.
+
+0l0l0	Les_établissements_DEBONO	O
+0l0l1	ont_exercé	R
+0l0l2	pendant_plusieurs_décennies	T
+0l0l3	une_activité_de_fabrication_de_peintures	A
+0l0l4	sur	L
+0l0l5	ce_site	O
+0l0l6	placé_en_bordure_de_l__Orge	L
+0l1l0	Les_établissements_DEBONO	I
+
+#Aujourd'hui cette société n'existe plus, et le site se décompose en trois parties distinctes sur lesquelles persistent 2 sociétés industrielles:
+
+1l0l0	cette_société	O
+1l0l1	le_site	O
+1l0l2	trois_parties_distinctes	O
+1l0l3	2_sociétés_industrielles	O
+
+#- KMG (ex OM GROUP, Ex Laporte Electronics : stockage de produits chimiques pour l'industrie du semi conducteur)
+
+2l0l0	KMG	O
+2l0l1	Laporte_Electronics	O
+2l0l2	__stockage_de_produits_chimiques_pour_l__industrie_du_semi_conducteur	A
+2l1l0	KMG	I
+2l1l1	OM_GROUP	I
+2l1l2	Laporte_Electronics	I
+2l1l3	produits_chimiques	U
+
+#- SHERWIN Williams (ex BECKER AKROMA SAS : fabrication de vernis pour l'ameublement)).
+
+3l0l0	SHERWIN_Williams	O
+3l0l1	BECKER_AKROMA	O
+3l0l2	fabrication_de_vernis_pour_l__ameublement	A
+3l1l0	SHERWIN_Williams	I
+3l1l1	BECKER_AKROMA	I
+
+#La troisième partie est la propriété d'un particulier.
+
+
+#Sur le site détenu par ce particulier, on distingue plusieurs sources de pollution à base, essentiellement, de substances organo-halogénées volatiles, ou d'hydrocarbures aromatiques (BTEX : benzène,toluène,xylène...; triméthylbenzène).
+
+5l0l0	le_site	O
+5l0l1	ce_particulier	O
+5l0l2	plusieurs_sources_de_pollution	O
+5l1l0	substances	S
+5l1l1	halogénées	U
+5l1l2	hydrocarbures_aromatiques	S
+5l1l3	BTEX	S
+5l1l4	benzène	S
+5l1l5	toluène	S
+5l1l6	xylène	S
+5l1l7	triméthylbenzène	S
+
+#Deux sondages réalisés sur la zone détenue par le particulier ont confirmé cet impact.
+
+6l0l0	Deux_sondages	N
+6l0l1	la_zone	O
+6l0l2	le_particulier	O
+6l0l3	cet_impact	O
+
+#En particulier,les emplacements d'anciennes cuves sont concernés.
+
+
+#On ne relève pas d'impact au niveau des premiers puits de particuliers (à 300 m).
+
+8l0l0	premiers_puits_de_particuliers	O
+8l0l1	à_300_m	L
+
+#De même, l'impact sur la rivière Orge est très limité.
+
+9l0l0	Orge	L
+
+#La nappe profonde (nappe de la craie) est affectée en aval du site ce qui a conduit à fermer le captage d'eau potable de Saint-Chéron en 1993.
+
+10l0l0	La_nappe_profonde	O
+10l0l1	est_affectée	N
+10l0l2	en_aval_du_site	L
+10l0l3	a_conduit_à_fermer	N
+10l0l4	le_captage	A
+10l0l5	Saint_Chéron	L
+10l0l6	en_1993	T
+
+#L'origine de cette pollution (nappe de la craie) n'est toutefois pas clairement établie.
+
+11l0l0	L__origine	O
+11l0l1	cette_pollution	O
+
+#La réalisation d'un diagnostic initial et d'une évaluation simplifiée des risques (ESR) a été prescrite par arrêté préfectoral du 15 mars 1999.
+
+12l0l0	La_réalisation_d__un_diagnostic_initial	N
+12l0l1	une_évaluation_simplifiée_des_risques	N
+12l0l2	a_été_prescrite	N
+12l0l3	par_arrêté_préfectoral	O
+12l0l4	du_15_mars_1999__	T
+
+#Les études ont été déposées début 2000.
+
+13l0l0	Les_études	O
+13l0l1	ont_été_déposées	N
+13l0l2	début_2000__	T
+
+#Elles classent le site au niveau 1 c'est-à-dire celui d'un site nécessitant la réalisation d'une étude détaillée des risques.
+
+14l0l0	la_réalisation_d_	R
+14l0l1	une_étude_détaillée_des_risques	N
+
+#La réalisation de cette dernière a été prescrite par arrêté préfectoral du 18 octobre 2000.
+
+15l0l0	La_réalisation_de_cette_dernière_a_été_prescrite	N
+15l0l1	par_arrêté_préfectoral	O
+15l0l2	18_octobre_2000__	T
+
+#Une surveillance de la qualité des eaux souterraines et de la rivière Orge a également été prescrite par ce même arrêté.
+
+16l0l0	Une_surveillance_de_la_qualité_des_eaux_souterraines	A
+16l0l1	rivière_Orge	L
+16l0l2	a_également_été_prescrite	N
+
+#Par courrier en date du 27/09/01 , le propriétaire a informé M. le préfet de l'Essonne qu'il engageait la réalisation des travaux de dépollution du site.
+
+17l0l0	en_date_du_27_09_01	T
+17l0l1	le_propriétaire	O
+17l0l2	a_informé	N
+17l0l3	M__le_préfet_de_l__Essonne	O
+17l0l4	engageait_la_réalisation_des_travaux_de_dépollution	N
+17l1l0	le_préfet	I
+
+#Ce dossier de dépollution a fait l'objet d'un arrêté préfectoral complémentaire fixant les conditions de réalisation de ces travaux, les objectifs de traitement des terres et leur conditions de réutilisation après dépollution.
+
+18l0l0	Ce_dossier	O
+18l0l1	de_dépollution	N
+18l0l2	a_fait_l__objet_d_	R
+18l0l3	un_arrêté_préfectoral_complémentaire	O
+18l0l4	fixant_les_conditions_de_réalisation_de_ces_travaux	N
+18l0l5	les_objectifs	O
+18l0l6	terres	O
+18l0l7	leur_conditions_de_réutilisation	O
+18l0l8	après_dépollution	N
+
+#Cet arrêté a été signé le 26 novembre 2002.
+
+19l0l0	Cet_arrêté	O
+19l0l1	a_été_signé	N
+19l0l2	le_26_novembre_2002	T
+
+#Ces travaux ont débutés en novembre 2002.
+
+20l0l0	Ces_travaux_ont_débutés	N
+20l0l1	en_novembre_2002	T
+
+#Ils ont consisté à détruire les bâtiments et les dalles, à extraire et à évacuer les cuves et à extraire les terres encaissantes polluées.
+
+21l0l0	détruire_les_bâtiments	N
+21l0l1	dalles	O
+21l0l2	extraire	N
+21l0l3	évacuer	N
+21l0l4	cuves	O
+21l0l5	à_extraire_les_terres_encaissantes	N
+21l0l6	polluées	O
+
+#Ces terres ont été traitées par venting sur le site industriel voisin de KMG avec les terres polluées également extraites sur ce site (fiche n°35) à partir de février 2003.
+
+22l0l0	Ces_terres	O
+22l0l1	ont_été_traitées_par_venting	N
+22l0l2	sur_le_site_industriel_voisin_de_KMG	O
+22l0l3	les_terres_polluées	O
+22l0l4	partir_de_février_2003	T
+22l1l0	KMG	I
+
+#Le traitement s'est poursuivi jusqu'en septembre 2005 pour le dernier lot de terres.
+
+23l0l0	Le_traitement	O
+23l0l1	s__est_poursuivi	N
+23l0l2	jusqu__en_septembre_2005	T
+23l0l3	le_dernier_lot_de_terres	O
+
+#Les résultats du suivi analytique ont démontré que les terres respectaient les valeurs limites.
+
+24l0l0	les_terres	O
+
+#Une actualisation de l'ESR a été opérée et a conclu à classer le site en classe 2 (site à surveiller).
+
+25l0l0	Une_actualisation	N
+25l0l1	l__ESR	O
+25l0l2	a_été_opérée	N
+25l0l3	classer	N
+25l0l4	le_site	O
+25l1l0	l__ESR	I
+
+#La zone traitée a été remblayée avec des matériaux inertes après réalisation d'analyses en fond et bord de fouilles pour valider la dépollution.
+
+26l0l0	La_zone_traitée	O
+26l0l1	a_été_remblayée	N
+26l0l2	avec_des_matériaux_inertes	O
+26l0l3	la_dépollution	N
+
+#Recouverte d'enrobé, elle est réutilisée comme voirie d'accès et comme parking pour le site KMG.
+
+27l0l0	Recouverte_d__enrobé	N
+27l0l1	elle	O
+27l0l2	est_réutilisée	N
+27l0l3	comme_voirie	R
+27l0l4	parking	O
+27l0l5	le_site_KMG	O
+27l1l0	le_site_KMG	I
+
+#Un rapport relatif à l'opération de traitement des terres a été communiqué à l'inspection le 8 septembre 2005 : 1420 mètres cube de terres ont été traités.
+
+28l0l0	Un_rapport	O
+28l0l1	relatif_à	R
+28l0l2	l__opération_de_traitement	N
+28l0l3	terres	O
+28l0l4	a_été_communiqué	N
+28l0l5	l__inspection	O
+28l0l6	le_8_septembre_2005	T
+28l0l7	1420_mètres_cube_de_terres	O
+28l0l8	ont_été_traités	N
+
+#L'ensemble du site dont cette zone est sous surveillance de la qualité des eaux de la nappe alluviale et de la nappe de la craie.
+
+29l0l0	cette_zone	O
+29l0l1	sous_surveillance	A
+29l0l2	la_qualité_des_eaux	O

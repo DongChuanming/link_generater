@@ -1,0 +1,297 @@
+
+#73.0141
+#Le syndicat à vocation multiple du canton de Bozel (SIVOM), qui regroupe 10 communes, gère la post-exploitation de l'ancienne décharge d'ordures ménagères située au lieu-dit "Le Carrey".
+
+0l0l0	syndicat_à_vocation_multiple	N
+0l0l1	du_canton_de_Bozel___SIVOM	N
+0l0l2	____qui_regroupe_10_communes___gère_la_post_exploitation	O
+
+#Cette décharge a été exploitée sous couvert d'un arrêté préfectoral du 7 septembre 1984 jusqu'à sa cessation définitive le 31 décembre 2002.
+
+1l0l0	Cette_décharge	O
+1l0l1	a_été_exploitée_sous_couvert_d__un_arrêté	N
+1l0l2	septembre	O
+1l0l3	1984_jusqu__à_sa_cessation_définitive	O
+1l0l4	le_31_décembre_2002__	O
+1l1l0	d__un	I
+1l1l1	arrêté_préfectoral	I
+
+#La plate-forme est orientée est-ouest et est bordé :
+
+2l0l0	La_plate___forme	O
+2l0l1	est_orientée	N
+2l0l2	est_ouest_et_est	R
+2l0l3	bordé__	O
+
+#- au nord, par la rivière le Doron de Bozel, endigué à une dizaine de mètres des déchets ;
+
+3l0l0	rivière_le_Doron_de_Bozel	L
+
+#- au sud, par un versant de vallée abrupt (pente 30-35°) ;
+
+4l0l0	un_versant_de_vallée_abrupt__	L
+4l0l1	30___35______	L
+4l1l0	abrupt__	I
+
+#- à l'ouest, par une déchetterie et une fosse collectant les lixiviats ;
+
+5l0l0	à_l__ouest	L
+
+#- à l'est, par un talus boisé.
+
+6l0l0	à_l__est___par	L
+
+#Le stockage des déchets s'étend sur environ deux hectares (50 m de largeur et 450 m de longueur).
+
+7l0l0	Le_stockage	L
+
+#La hauteur maximale des déchets déposés est d'environ 20 m.
+
+8l0l0	La_hauteur_maximale	N
+
+#La quantité globale de déchets stockés est d'environ 193 000 T soit 442 000 m3 :
+
+
+#- ordures ménagères, ferrailles, encombrant, pneus, gravats de démolition de 1984 à 2002 (162 877 T) ;
+
+
+#- cendres de dépoussièrage d'usine de 1978 à 1983 (20 000 T) ;
+
+11l0l0	dépoussièrage_d__usine	O
+
+#- fumiers et lisiers de 1983 à 1999 (2 780 T) ;
+
+12l0l0	lisiers_de_1983	N
+12l0l1	1999___2	L
+12l0l2	780_T____	T
+
+#- sciures de 1984 à 2002 (373 T) ;
+
+13l0l0	2002___373_T____	T
+
+#- boues d'épuration de 1984 à 1989 (6 427 T).
+
+14l0l0	boues_d_	O
+14l0l1	épuration_de	T
+
+#Avant leur stockage, les déchets étaient broyés selon une granulométrie de 11 cm.
+
+15l0l0	__les_déchets	T
+
+#En 1993, une déchetterie est ouverte à côté de la plate-forme de stockage (arrêté préfectoral du 9 novembre 2007).
+
+16l0l0	En_1993	T
+
+#Elle est utilisée pour la récupération de papiers-cartons, de DTQD, de monstres ménagers, de verres et d'emballages.
+
+17l0l0	Elle_est	T
+17l0l1	utilisée_pour_la	O
+17l0l2	récupération	N
+17l0l3	de_papiers___cartons	N
+17l0l4	verres_et_d__emballages	T
+
+#Un quai de transfert (arrêté préfectoral du 9 novembre 2007), constitué par deux bâtiments bien distincts, est également présent.
+
+18l0l0	arrêté_préfectoral	A
+18l0l1	du_9_novembre_2007	O
+18l1l0	constitué_par_deux_bâtiments	U
+
+#Le bâtiment A, construit en 2002, qui accueille les ordures ménagères et le bâtiment B, construit en 1993, qui accueille les papiers et journaux.
+
+19l0l0	Le_bâtiment_A___construit	O
+19l0l1	accueille_les_ordures_ménagères	T
+
+#Ce dernier accueillait l'installation de broyage des ordures ménagères et dispose de ce fait d'une fosse.
+
+20l0l0	Ce_dernier	O
+20l0l1	accueillait_l__installation	T
+20l0l2	ce_fait_d__une_fosse	T
+20l1l0	broyage_des_ordures_ménagères	D
+
+#La capacité annuelle de transit des déchets autorisée dans les deux hangars est de 10 633 T.
+
+21l0l0	capacité_annuelle_de_transit_des_déchets_autorisée_dans_les_deux_hangars	A
+
+#L'ancienne décharge brute, au sud-est du dépôt, posait des problèmes de feux dans les années qui ont suivi sa fermeture.
+
+22l0l0	L__ancienne_décharge_brute___au_sud_est_du_dépôt	O
+
+#De plus, le brûlage des déchets de bois, souches et autres déchets était régulièrement pratiqué à l'emplacement actuel de la déchetterie.
+
+23l0l0	De_plus___le_brûlage_des_déchets	O
+23l0l1	de_bois___souches	L
+23l0l2	autres_déchets_était_régulièrement	O
+23l0l3	pratiqué_à_l_	T
+23l0l4	emplacement	N
+23l0l5	actuel	O
+
+#Le site est implanté sur une zone de dépôt de sédiments qui a été très largement exploitée au-dessus de niveaux morainiques.
+
+24l0l0	est_implanté	N
+24l0l1	de_dépôt	O
+24l0l2	très	O
+24l0l3	largement_exploitée_au_dessus	N
+24l0l4	_	O
+
+#Des sondages de sols, réalisés en 1983 et 1989 par JAMIER-VIAL, indiquent que les terrains rencontrés au droit de la plate-forme sont des argiles à bloc (schistes) avec des passages graveleux-caillouteux et des veines sablo-argileuses, sur toute la hauteur des sondages (9 m).
+
+25l0l0	Des_sondages	O
+25l0l1	de_sols__	L
+25l0l2	réalisés_en	O
+25l0l3	VIAL___indiquent_que_les_terrains	N
+25l0l4	rencontrés	L
+25l0l5	au_droit_de_la_plate__	N
+
+#Ces terrains correspondent à une moraine compacte à blocs.
+
+26l0l0	Ces_terrains_correspondent_à	N
+26l0l1	une_moraine_compacte	T
+26l0l2	à	O
+
+#Le site est localisé dans une zone de terrains schisteux et métamorphiques imperméables : l'eau y circule dans les alluvions, moraines, schistes altérés ou fracturés.
+
+27l0l0	Le_site_est_localisé	O
+
+#L'existence de zones locales perméables (veines sablo-graveleuses, blocs) peut permettre la formation d'écoulements souterrains.
+
+28l0l0	L__existence	O
+28l0l1	de_zones_locales_perméables	L
+
+#Ces écoulements sont alimentés par les ruissellements depuis les versants, les infiltrations d'eaux météoriques et les écoulements de ruisseaux dans les thalweg du versant.
+
+
+#La nappe alluviale est de faible importance et n'est pas exploitée.
+
+30l0l0	est_de_faible	L
+
+#La réhabilitation du site a été effectuée durant les années 2005 et 2006, encadrée par un arrêté préfectoral du 28 juillet 2006 pris sur la base d’un avant projet détaillé réalisé par le bureau d’étude ANTEA en septembre 2005.
+
+
+#L’arrêté préfectoral du 28 juillet 2006 impose notamment à l’exploitant un suivi post-réhabilitation qui comprend :
+
+32l0l0	L__arrêté_préfectoral	N
+32l0l1	du_28_juillet_2006	N
+32l0l2	impose_notamment_à_l__exploitant	T
+32l0l3	un_suivi_post_réhabilitation_qui	O
+32l0l4	comprend____	T
+
+#- une surveillance semestrielle des eaux souterraines à l’aide de 3 piézomètres ;
+
+33l0l0	__une_surveillance	O
+33l0l1	semestrielle_des_eaux	T
+33l0l2	souterraines	N
+33l0l3	aide_de_3_piézomètres	O
+33l0l4	___	N
+
+#- une surveillance semestrielle des eaux du Doron de Bozel en amont et en aval du site ;
+
+34l0l0	une_surveillance_semestrielle	A
+34l0l1	des_eaux_du_Doron_de_Bozel	A
+
+#- une surveillance semestrielle des eaux pluviales recueillies dans le regard de contrôle ;
+
+35l0l0	une_surveillance_semestrielle	A
+35l0l1	eaux	N
+35l0l2	pluviales_recueillies_dans_le_regard_de_contrôle	L
+35l1l0	recueillies	I
+
+#- un contrôle des lixiviats ;
+
+36l0l0	un_contrôle_des_lixiviats____	A
+
+#- les paramètres suivis pour la surveillance des eaux souterraines et superficielles : pH, conductivité, COT, DCO, DBO5, AOX, HCT, indice phénols, cyanures libres, aluminium, arsenic, cadmium, chrome, chrome hexavalent, cuivre, étain, fer, manganèse, nickel, mercure, plomb, zinc, silicium, calcium, magnésium, potassium, sodium, carbonates, azote total, nitrates, nitrites, ammonium, phosphates, hydrogénocarbonates, fluorures et MES ;
+
+37l0l0	suivis_pour	O
+
+#- une surveillance trimestrielle des émissions et du traitement du biogaz sur les paramètres : CH4, CO2, O2, H2S, H2 et H2O ;
+
+38l0l0	trimestrielle_des_émissions_et_du	A
+38l1l0	paramètres	S
+38l1l1	H2S___H2_et_H2O____	S
+
+#- un entretien régulier du site.
+
+39l0l0	un_entretien_régulier_du_site__	A
+
+#Une visite de récolement réalisée le 30 septembre 2008 par l’inspection des installations classées a permis de constater que la réhabilitation s’est déroulée comme suit :
+
+
+#- reprofilage de la plate-forme avec mise en place d’une couverture semi-imperméable de manière à limiter au maximum la percolation des déchets par les eaux météoriques ;
+
+41l0l0	__reprofilage_de_la_plate	N
+41l0l1	__forme_avec	N
+41l0l2	mise_en_place_d__une	T
+41l0l3	couverture_semi_imperméable_de_manière_à_limiter	O
+41l0l4	percolation_des_déchets	N
+41l0l5	par_les_eaux_météoriques	N
+
+#- collecte des lixiviats assurée par un drain placé sous la décharge, une tranchée drainante en pied de talus et par la mise en place d’un réseau de 9 puits de pompages mixtes (lixiviats et biogaz) sur la plate-forme sommitale ;
+
+42l0l0	collecte_des_lixiviats_assurée	O
+42l0l1	un_drain_placé_sous_la_décharge___une	N
+42l0l2	mise_en_place_d__un	N
+42l0l3	de_pompages	O
+42l1l0	mixtes	U
+
+#- mise en place d’un dispositif de collecte du biogaz complété par 7 puits de pompage spécialement dédiés en compléments des 9 puits précités ;
+
+43l0l0	collecte_du	O
+43l0l1	puits_de_pompage_spécialement	O
+43l0l2	dédiés_en	L
+43l0l3	compléments_des_9_puits_précités	N
+
+#- mise en place d’une torchère d’une capacité nominale de 50 m3/h.
+
+
+#Par courrier du 10 octobre 2012, l’exploitant transmet au préfet une étude « diagnostic biogaz » qui met en évidence que :
+
+45l0l0	Par_courrier_du_10	N
+
+#- le bilan actuel de production de biogaz se situe aux alentours de 30 m3/h à 50 % de CH4, soit environ la moitié de la production théorique totale estimée en 2005 ;
+
+46l0l0	actuel_de_production_de	T
+46l0l1	biogaz_se_situe	O
+46l0l2	aux	N
+46l0l3	alentours_de	O
+46l0l4	30_m3___h_à_50_____de_CH4___soit	N
+46l1l0	environ	S
+
+#- les mesures effectuées sur le site mettent en évidence une activité méthanogène très faible avec une production de biogaz très limité ;
+
+47l1l0	méthanogène	S
+
+#- la qualité et la quantité de biogaz observées ne permettent pas sa destruction par combustion dans les conditions techniques actuelles.
+
+
+#L’arrêté préfectoral complémentaire du 4 février 2013 retire à l’exploitant l’obligation de faire fonctionner la torchère.
+
+
+#Les analyses des eaux souterraines de juin 2010 à juin 2012 (5 campagnes) mettent en évidence des contaminations en :
+
+50l0l0	Les_analyses_des_eaux_souterraines_de_juin	O
+50l0l1	2010_à_juin_2012	T
+50l0l2	__5_campagnes___mettent	O
+50l0l3	en_évidence	N
+50l0l4	des_contaminations_en____	A
+
+#- arsenic (maximum à 14 µg/L en novembre 2011) ;
+
+51l0l0	__arsenic__	N
+51l0l1	maximum_à_14_µg___L_en_novembre	O
+51l0l2	2011______	T
+
+#- manganèse (maximum à 1 700 µg/L en juin 2012) ;
+
+52l0l0	manganèse	O
+52l0l1	µg___L_en_juin_2012__	T
+52l1l0	manganèse	S
+
+#- nitrites (maximum à 17 mg/L en juin 2012) ;
+
+53l0l0	juin_2012______	T
+53l1l0	nitrites__	S
+
+#- ammonium (maximum à 5,3 mg/L en juin 2012).
+
+54l0l0	L_en_juin_2012	T
+54l1l0	ammonium	S

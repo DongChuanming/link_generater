@@ -1,0 +1,280 @@
+
+#68.0120
+#La société HOLCIM Granulats France a exploité une ancienne carrière de sable et de graviers, à Rixheim.
+
+0l0l0	La_société_HOLCIM_Granulats_France	O
+0l0l1	a_exploité	N
+0l0l2	une_ancienne_carrière_de_sable	O
+0l0l3	à_Rixheim	L
+0l1l0	La_société_HOLCIM_Granulats_France	I
+
+#Le périmètre du site se subdivise en trois secteurs, eux-mêmes partagés en quatre zones (A, B, C, D):
+
+1l0l0	Le_périmètre	O
+
+#- Secteur n°1: Partie située au Nord-Ouest du Chemin de Battenheim, dans laquelle se trouve la zone A;
+
+2l0l0	Partie	O
+2l0l1	située_au_Nord_Ouest_du_Chemin_de_Battenheim	L
+
+#- Secteur n°2: Partie située au Sud-Ouest du Chemin de Battenheim, dans laquelle se trouve la zone B;
+
+3l0l0	Partie	O
+3l0l1	située_au_Sud_Ouest_du_Chemin_de_Battenheim	L
+3l0l2	se_trouve	R
+3l0l3	la_zone_B	O
+
+#- Secteur n°3: Partie située à l'Est du Chemin de Battenheim, dans laquelle se trouve les zones C et D.
+
+4l0l0	Partie	O
+4l0l1	située_à_l__Est_du_Chemin_de_Battenheim	L
+
+#La présente fiche BASOL porte sur l'étude de la zone A, située dans le secteur n°1.
+
+5l0l0	la_zone_A	O
+5l0l1	située_dans_le_secteur_n__1	L
+
+#Cette petite zone correspond à l'ancienne décharge communale d'ordures ménagères de Rixheim.
+
+6l0l0	Cette_petite_zone	O
+6l0l1	correspond_à	R
+6l0l2	l__ancienne_décharge_communale	O
+6l0l3	Rixheim	L
+
+#Cette zone fut remblayée dans les années 1980.
+
+7l0l0	Cette_zone	O
+7l0l1	fut_remblayée	N
+7l0l2	dans_les_années_1980__	T
+
+#Entre 1953 et 1989, la carrière est exploitée par la société STURM.
+
+8l0l0	Entre_1953_et_1989	T
+8l0l1	la_carrière	O
+8l0l2	est_exploitée	N
+8l0l3	la_société_STURM	O
+8l1l0	la_société_STURM	I
+
+#Concernant les actes administratifs:
+
+
+#>>Arrêté préfectoral (AP) du 23/04/1976 portant interdiction de déverser des hydrocarbures ou de tout autre produit polluant dans le périmètre de la carrière.
+
+10l0l0	Arrêté_préfectoral	O
+10l0l1	du_23_04_1976	T
+10l0l2	portant_interdiction_de_déverser	N
+10l0l3	des_hydrocarbures	O
+10l0l4	la_carrière	O
+10l1l0	hydrocarbures	S
+
+#>>AP n°88905 du 07/11/1988 portant autorisation d'exploiter la carrière située à Rixheim au bénéfice de la société STURM:
+
+11l0l0	du_07_11_1988	T
+11l0l1	portant_autorisation_d__exploiter	N
+11l0l2	la_carrière	O
+11l0l3	située_à_Rixheim	L
+11l0l4	au_bénéfice_de	R
+11l0l5	la_société_STURM	O
+11l1l0	la_société_STURM	I
+
+#- Cette autorisation se limite à 15 ans;
+
+12l0l0	Cette_autorisation	O
+12l0l1	se_limite_à	R
+12l0l2	15_ans	O
+
+#- Le remblaiement et la restitution à usage agricole, pour (le secteur 1 et 2); à effectuer dans un délai de 4 ans autorisé (au plus tard le 07/11/2007),
+
+13l0l0	Le_remblaiement	N
+13l0l1	la_restitution_à	N
+13l0l2	usage_agricole	O
+13l0l3	effectuer	N
+13l0l4	dans_un_délai_de_4_ans_autorisé	T
+13l0l5	au_plus_tard_le_07_11_2007	T
+
+#>>Arrêté préfectoral complémentaire (APC) n°940435 du 29/03/1994 portant prescriptions complémentaires à l'exploitant, concernant:
+
+14l0l0	Arrêté_préfectoral_complémentaire	O
+14l0l1	29_03_1994	T
+14l0l2	portant_prescriptions_complémentaires	N
+14l0l3	l__exploitant	O
+
+#- La surveillance nappe;
+
+
+#- La surveillance qualité des remblais.
+
+16l0l0	remblais	O
+
+#>>APC n°951476 du 02/08/1995 portant prescriptions complémentaires à l'exploitant, concernant les matériaux de remblais;
+
+17l0l0	du_02_08_1995	T
+17l0l1	portant_prescriptions_complémentaires	N
+17l0l2	l__exploitant	O
+17l0l3	remblais	O
+
+#>>APC n°982048 du 08/07/1998 portant prescriptions complémentaires à l'exploitant, concernant:
+
+18l0l0	____APC	O
+18l0l1	du_08_07_1998	T
+18l0l2	portant_prescriptions_complémentaires	N
+18l0l3	l__exploitant	O
+
+#- Le plan d'exploitation;
+
+19l0l0	d__exploitation	O
+
+#- Le contrôle de la qualité des eaux souterraines.
+
+20l0l0	Le_contrôle_de_la_qualité_des_eaux_souterraines	A
+
+#>>APC n°991248 du 10/06/1999 portant prescriptions complémentaires à l'exploitant, concernant les garanties financières de remise en état;
+
+21l0l0	10_06_1999	T
+21l0l1	portant_prescriptions_complémentaires	N
+21l0l2	l__exploitant	O
+21l0l3	les_garanties_financières_de_remise_en_état	O
+
+#>>APC n°02-1854 du 08/07/2002 portant autorisation de changement d'exploitant au profit de la Société HOLCIM Granulats;
+
+22l0l0	du_08_07_2002	T
+22l0l1	portant_autorisation_de_changement	N
+22l0l2	d__exploitant	O
+22l0l3	au_profit_de	R
+22l0l4	la_Société_HOLCIM_Granulats	O
+22l1l0	la_Société_HOLCIM	I
+22l1l1	Granulats	S
+
+#>>APC n°2005-41-2 du 10/02/2005 portant prescriptions complémentaires à l'exploitant, concernant:
+
+23l0l0	10_02_2005	T
+23l0l1	portant_prescriptions_complémentaires	O
+23l0l2	l__exploitant	O
+
+#- Le prolongement du délai de remise en état (pour le secteur 1) à 5 ans et 6 mois (au plus tard le 10/08/2010);
+
+24l0l0	5_ans	T
+24l0l1	au_plus_tard_le_10_08_2010____	T
+
+#- Les garanties financières de remise en état;
+
+25l0l0	en_état	O
+
+#- Le renforcement de la surveillance des eaux souterraines et l'amélioration du réseau de surveillance, notamment en ce qui concerne l'ancienne décharge communale sur la partie Nord des terrains à l'Ouest du Chemin de Battenheim.
+
+26l0l0	Le_renforcement	N
+26l0l1	de_la_surveillance_des_eaux_souterraines	A
+26l0l2	l__amélioration_du_réseau_de_surveillance	O
+26l0l3	décharge_communale	O
+26l0l4	sur_la_partie_Nord_des_terrains	O
+26l0l5	à_l__Ouest_du_Chemin_de_Battenheim	L
+
+#>>Déclaration de cessation d'activité date du 22/03/2010 pour les terrains du secteur 1 (comprenant la zone A).
+
+27l0l0	Déclaration_de_cessation_d__activité	N
+27l0l1	date_du_22_03_2010	T
+27l0l2	les_terrains	O
+
+#>>APC n°2012-163-0004 du 11/06/2012 portant prescriptions complémentaires à l'exploitant, concernant l'institution de restrictions d'usage des sols et sous-sols.
+
+28l0l0	11_06_2012	T
+28l0l1	portant_prescriptions_complémentaires	N
+28l0l2	l__exploitant	O
+28l0l3	l__institution_de_restrictions	N
+
+#>> AP n°2012-313-0014 du 08/11/2012 portant mise en demeure, à l'encontre de la société HOLCIM Granulats, aux fins de réaliser les documents de restrictions d'usage prescrits dans un délai de 6 mois à compter de la réception du présent arrêté.
+
+29l0l0	du_08_11_2012	T
+29l0l1	la_société_HOLCIM_Granulats	O
+29l0l2	réaliser	N
+29l0l3	les_documents_de_restrictions_d__usage_prescrits	O
+29l0l4	dans_un_délai_de_6_mois	T
+29l1l0	la_société_HOLCIM_Granulats	I
+
+#Le délai de mise en conformité fut échu le 8 février 2013.
+
+30l0l0	Le_délai_de_mise_en_conformité	N
+30l0l1	fut_échu	N
+30l0l2	le_8_février_2013__	T
+
+#>> La partie Nord-Ouest (secteur 1), à l'exclusion de la zone A (ancienne décharge municipale), a fait l'objet d'un Procès Verbal (PV) de récolement en date du 11 mars 2015.
+
+31l0l0	La_partie_Nord_Ouest	O
+31l0l1	secteur_1__	O
+31l0l2	exclusion_de_la_zone_A	L
+31l0l3	a_fait_l__objet_d_	R
+31l0l4	récolement	N
+31l0l5	en_date_du_11_mars_2015__	T
+
+#>>L'exploitant (société HOLCIM Granulats) adresse un dossier de demande de servitudes d'utilité publique (SUP), la Préfecture du Haut-Rhin en accuse la réception à la date du 05/06/2014.
+
+32l0l0	____L__exploitant	O
+32l0l1	société_HOLCIM	O
+32l0l2	Granulats	A
+32l0l3	__adresse	N
+32l0l4	un_dossier_de_demande_de_servitudes_d__utilité_publique	O
+32l0l5	la_Préfecture_du_Haut_Rhin	O
+32l0l6	la_réception	N
+32l0l7	à_la_date_du_05_06_2014__	T
+32l1l0	société_HOLCIM_Granulats	S
+32l1l1	la_Préfecture_du_Haut_Rhin	I
+
+#Le dossier d'institution de SUP est actuellement en cours d'instruction pour remise d'un rapport de synthèse.
+
+33l0l0	Le_dossier_d__institution_de_SUP	O
+33l0l1	actuellement_en_cours_d_	T
+33l0l2	instruction	N
+
+#Concernant l'état des sols de la zone A, en guise de remblaiement ont été utilisés des matériaux de construction (blocs, briques, bois, tuiles) et des déchets ménagers divers (plastiques, verres).
+
+34l0l0	la_zone_A	O
+34l0l1	remblaiement	N
+34l0l2	ont_été_utilisés	N
+34l0l3	des_matériaux_de_construction	O
+34l1l0	plastiques	S
+34l1l1	verres	S
+
+#Concernant la pollution des sols au droit de la zone A: seul le plomb présente une valeur supérieure aux valeurs de définition de source-sol (VDSS) mais reste inférieur à la valeur de constat d'impact (VCI).
+
+35l0l0	la_zone_A	O
+35l1l0	plomb	S
+
+#La valeur relevée en plomb s'élève à 210 mg/kg MS.
+
+36l1l0	plomb	S
+
+#Concernant la surveillance de la qualité des eaux souterraines:
+
+37l0l0	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#>>Elle ne traduit pas de dégradation particulière en aval hydraulique de la décharge communale historique (zone A):
+
+38l0l0	aval_hydraulique	O
+38l0l1	la_décharge_communale_historique	O
+38l0l2	zone_A	O
+
+#- Ni pour les paramètres physico-chimiques;
+
+
+#- Ni pour les paramètres bactériologiques;
+
+40l1l0	bactériologiques	S
+
+#- Ni pour des paramètres plus spécifiques (solvants, chlorés, HAP, PCB, pesticides).
+
+41l1l0	solvants	S
+41l1l1	chlorés	S
+41l1l2	HAP	S
+41l1l3	PCB	S
+41l1l4	pesticides	S
+
+#>>Le réseau de surveillance du secteur 1 (à l'Ouest du Chemin de Battenheim) est constitué de quatre piézomètres.
+
+42l0l0	Le_réseau_de_surveillance_du_secteur_1	O
+42l0l1	à_l__Ouest_du_Chemin_de_Battenheim	L
+
+#Concernant l'usage futur: l'exploitant envisage un usage industriel.
+
+43l0l0	l__exploitant	O
+43l0l1	envisage	R
+43l0l2	un_usage_industriel	A

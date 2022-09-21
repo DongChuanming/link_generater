@@ -1,0 +1,253 @@
+
+#44.0006
+#La société SERACHROM a exploité de 1973 à 1981 une activité de traitement de surfaces autorisée par un arrêté préfectoral délivré le 24 mars 1978.
+
+0l0l0	de_1973_à_1981	O
+
+#L'établissement pratiquait le chromage dur, le nickelage, le cadmiage et l'oxydation anodique.
+
+1l0l0	L__établissement_pratiquait_le	N
+1l0l1	chromage	O
+1l0l2	oxydation_anodique__	O
+
+#Lors de sa cessation d'activité, suite à la liquidation de la société, les installations ont été laissées en l'état  notamment les cuves de traitement de surface, le stockage des produits toxiques (cyanure de sodium) et un transformateur au PCB (polychlorobiphényle).
+
+2l0l0	Lors_de_sa_cessation_d_	O
+2l0l1	activité	N
+2l0l2	__suite_à_la	T
+2l0l3	liquidation_de_la_société___les_installations_ont_été	O
+2l0l4	cuves_de_traitement	T
+2l1l0	Lors_de_sa_cessation_d_	I
+
+#D'après le propriétaire du site, il existait une cuve de décantation enterrée sous la cour à l'ouest des bâtiments qui collectait les effluents aqueux en provenance de l'atelier (eaux de lavage acide).
+
+3l0l0	D__après_le_propriétaire	O
+3l0l1	du_site___il	A
+3l0l2	existait	O
+3l0l3	cuve_de_décantation	N
+3l1l0	décantation	S
+
+#Après un traitement sommaire par neutralisation du pH, ces effluents étaient répandus dans le bois situé à l'ouest, via des buses enterrées en terre cuite.
+
+4l0l0	Après	T
+4l0l1	un_traitement	N
+4l0l2	sommaire_par	O
+4l0l3	neutralisation_du_pH__	N
+4l0l4	ces_effluents_étaient_répandus	O
+4l0l5	dans_le_bois_situé	N
+4l0l6	buses_enterrées_en_terre_cuite__	O
+
+#Le sol de cet ancien atelier de traitement de surface a été pollué par des métaux (essentiellement chrome, cadmium, nickel et zinc) provenant de cuves en mauvais état (fuites) et par des PCB (polychlorobiphényles) issus d'un transformateur après l'abandon en l'état du site en 1981 par la société SERACHROM en liquidation judiciaire.
+
+5l0l0	cet_ancien_atelier_de_traitement	O
+5l0l1	surface_a_été_pollué	O
+5l0l2	par	A
+5l0l3	des_métaux	O
+5l0l4	__essentiellement_chrome___cadmium	L
+5l0l5	nickel_et	O
+5l0l6	zinc	R
+5l0l7	__provenant	O
+5l0l8	PCB___polychlorobiphényles	O
+5l1l0	__provenant_de_cuves_en	U
+5l1l1	PCB___polychlorobiphényles	U
+
+#En 1983, la DDASS de Loire-Atlantique (équivalent actuellement à la délégation territoriale de Loire-Atlantique de l'Agence Régionale de Santé) a fait procéder à l'enlèvement et à la destruction d'une partie des déchets (bains d'acide chromique, bains cyanurés, ...).
+
+6l0l0	territoriale_de	L
+6l0l1	Loire___Atlantique	L
+6l1l0	actuellement	S
+
+#En 1991, des travaux ont été réalisés par l'ADEME au titre de la mise en sécurité des sites à responsables défaillants : au total 412 tonnes de déchets ont été évacués (terres souillées, PCB, bains et boues de chromage, cadmiage).
+
+7l0l0	En_1991	O
+7l0l1	des_travaux_ont_été	O
+7l0l2	réalisés_par_l__ADEME_au	A
+7l0l3	titre_de_la_mise	O
+7l0l4	en_sécurité	O
+7l0l5	déchets_ont	O
+7l1l0	sécurité	S
+7l1l1	responsables_défaillants___au_total_412	S
+7l1l2	PCB___bains_et_boues_de_chromage	S
+
+#Le site comprend deux bâtiments.
+
+8l0l0	Le_site	T
+8l0l1	comprend_deux_bâtiments__	O
+8l1l0	comprend_deux_bâtiments__	I
+
+#Aujourd'hui, les locaux sont loués et occupés par deux sociétés :
+
+9l0l0	Aujourd_hui	T
+9l0l1	__les_locaux_sont_loués_et	N
+9l0l2	occupés_par	O
+9l0l3	sociétés__	N
+
+#- la société QUIRION (électricité industrielle) dans la bâtiment sud,
+
+10l0l0	QUIRION___électricité	O
+
+#- la société COLARENA (négociant en semences et engrais) dans le bâtiment nord enfermant autrefois l'atelier de traitement de surfaces de la société SERACHROM.
+
+11l0l0	COLARENA__	O
+11l0l1	négociant_en	N
+11l0l2	engrais___dans_le	O
+
+#La nature des terrains sous et autour des ateliers où les installations à l'origine de la pollution ont été entreposées est argileuse et imperméable.
+
+12l0l0	La_nature_des_terrains	O
+12l0l1	sous_et_autour_des_ateliers	O
+12l0l2	où_les_installations	L
+12l1l0	La_nature_des_terrains	I
+
+#La migration des polluants vers l'extérieur est donc limitée et très lente.
+
+13l0l0	La_migration_des_polluants	O
+13l0l1	extérieur_est_donc	O
+13l0l2	limitée_et_très_lente__	L
+13l1l0	La_migration_des_polluants	I
+
+#La nature argileuse ne permet pas a priori d'envisager techniquement la dépollution complète du site (en particulier par rinçage des sols au droit des installations).
+
+14l0l0	La_nature_argileuse_ne	O
+14l0l1	permet_pas_a_priori_d__envisager	L
+14l0l2	techniquement_la	O
+14l0l3	complète_du	O
+14l0l4	site___en_particulier	N
+
+#Le suivi analytique des eaux a été réalisé aux frais de l'ADEME au cours des années 1993, 1995, 1997, 1998 sur les eaux souterraines (aucune utilisation pour l'alimentation humaine ou animale) et superficielles (mare, ruisseau) :
+
+15l1l0	analytique_des_eaux	S
+
+#- selon le bilan réalisé en 1998, au droit de l'ancien atelier, la nappe est polluée par le chrome (12 mg/l) et plus faiblement par le cadmium et le nickel (de l'ordre de 2 mg/l).
+
+16l0l0	est_polluée_par_le_chrome	N
+16l0l1	faiblement_par_le_cadmium_et	N
+16l0l2	le_nickel___de_l__ordre_de_2_mg	L
+
+#Cette pollution tend à migrer très lentement (0.5 mg/l pour le chrome et 0.7 mg/l pour le cadmium) dans les piézomètres situés à proximité et à l'extérieur des ateliers.
+
+17l0l0	Cette_pollution_tend	N
+17l0l1	migrer	O
+17l0l2	très_lentement	N
+17l0l3	__0_5_mg__	R
+17l0l4	l_pour_le	O
+17l0l5	et_0_7_mg___l_pour_le_cadmium___dans_les	T
+17l0l6	piézomètres_situés_à_proximité	O
+
+#Enfin, les eaux souterraines ne présentent pas d'intérêt pour le captage d'eau potable compte tenu des caractéristiques hydrogéologiques du secteur.
+
+18l0l0	souterraines_ne	T
+18l0l1	d__eau_potable	N
+18l1l0	potable_compte	S
+18l1l1	hydrogéologiques_du_secteur	S
+
+#- les eaux superficielles extérieures ne présentent pas de niveau de pollution significatif ni évolutif.
+
+19l1l0	niveau_de	S
+19l1l1	significatif_ni	S
+
+#Par arrêté préfectoral le 25 janvier 2001, l'ADEME a été chargée de réaliser une surveillance annuelle des eaux souterraines, en alternance avec le propriétaire du site, pour une durée de 10 ans, aux six points suivants :
+
+
+#- aux deux points de surveillance (piézomètres inférieurs) définis au droit de l'ancienne cuve et à proximité,
+
+
+#- aux trois piézomètres extérieurs (pz1, pz2 et pz3),
+
+22l0l0	__aux_trois_piézomètres	O
+22l0l1	extérieurs___pz1__	T
+22l0l2	pz2_et_pz3	O
+22l0l3	___	N
+
+#- au niveau du ruisseau du Larré, point situé en aval du site.
+
+23l0l0	niveau_du_ruisseau_du_Larré___point	O
+
+#Depuis 2002, seul un piézomètre extérieur (pz1) placé à proximité du bâtiment dans lequel se situe la source de pollution, en aval hydraulique, reste utilisable .
+
+
+#Les derniers résultats obtenus des quatre autres campagnes en 2003, 2004, 2007 et 2008 montrent une pollution résiduelle de la nappe au droit de l'ancien site, par le chrome total, le cadmium et le nickel.
+
+25l0l0	Les_derniers_résultats_obtenus	L
+25l0l1	quatre_autres_campagnes	L
+
+#Malgré une légère baisse des concentrations constatée, un relargage en métaux, notamment en chrome total, peut toujours se produire en fonction du battement de la nappe.
+
+26l0l0	Malgré_une_légère	T
+26l0l1	baisse_des_concentrations	O
+26l0l2	__un_relargage_en_métaux	L
+26l0l3	se_produire_en_fonction	L
+
+#Par ailleurs, le rapport de l’inspection des installations classées daté de 2007 indique que les deux piézomètres (pz2 et pz3) ne sont toujours pas utilisables et recommande la remise en état de ces deux piézomètres défectueux afin d’effectuer une campagne de mesures conformément aux dispositions de l’arrêté du 25 janvier 2001.
+
+27l0l0	inspection_des_installations	N
+27l0l1	classées_daté_de_2007_indique	T
+27l0l2	les_deux_piézomètres___pz2_et	N
+27l0l3	pz3___ne_sont	O
+27l1l0	recommande_la	S
+27l1l1	remise_en_état	S
+27l1l2	ces_deux	S
+
+#Enfin, le rapport de fin de travaux de 2012 révèle une baisse significative, depuis 1993, de la pollution des eaux souterraines au droit du site puis une stabilisation de la situation sur le site confirmée par les résultats des deux dernières campagnes de contrôle réalisées en septembre 2010 (basses eaux) et en février 2011 (hautes eaux).
+
+28l0l0	baisse_significative	N
+28l0l1	une_stabilisation_de_la	A
+28l1l0	significative___depuis	S
+28l1l1	pollution_des	S
+
+#Ces résultats révèlent également une pollution en métaux lourds et en COHV (composés organiques halogénés volatils) sur le site mais en nette diminution depuis 1993.
+
+29l0l0	également_une_pollution_en_métaux_lourds_et_en	O
+29l0l1	COHV___composés	T
+29l0l2	organiques_halogénés_volatils	O
+29l0l3	1993__	N
+
+#Un transfert de la pollution sur site via l'air du sol et hors site via les eaux souterraines a également été constaté.
+
+30l0l0	pollution_sur_site	N
+30l0l1	via_l_	T
+30l0l2	sol_et_hors	N
+30l0l3	souterraines	T
+30l0l4	également_été_constaté__	O
+
+#Cependant, les résultats obtenus hors site, même s'ils confirment le transfert de la pollution via les eaux souterraines, indiquent que ce transfert se déroule à un débit d'écoulement faible et à une teneur faible des polluants (inférieure aux valeurs de référence sur l'eau potable).
+
+31l0l0	déroule_à_un_débit	T
+31l1l0	s__ils_confirment	S
+31l1l1	transfert_de_la_pollution_via_les_eaux_souterraines	S
+
+#De plus, l'enquête menée sur le terrain confirme que seuls deux usages des eaux souterraines hors site revêtent une sensibilité particulière : la mare et le Puits Ker Philippe.
+
+32l0l0	De_plus___l__enquête	N
+
+#Mais, compte tenu des distances les séparant de la source, celles-ci contribuent à amoindrir l'impact du transfert de pollution.
+
+33l0l0	du_transfert_de_pollution	O
+
+#Concernant le risque d'exposition par inhalation des composés volatils, il demeure potentiellement possible, dans l’air du sol et l’air ambiant sous bâtiment du site, par remontée des gaz volatils et confinement dans cet espace.
+
+34l0l0	composés_volatils	O
+34l0l1	__il_demeure_potentiellement	A
+34l0l2	bâtiment_du_site___par_remontée	L
+34l1l0	site___par_remontée	S
+
+#Il pourrait représenter un risque pour la santé des personnes qui fréquenteraient régulièrement le bâtiment.
+
+35l0l0	régulièrement_le_bâtiment	N
+
+#Mais ce risque demeure très limité sous le bâtiment du site dans l'usage actuel (bâtiment peu fréquenté).
+
+36l1l0	site_dans_l__usage_actuel	U
+
+#Par conséquent, l'ADEME considère la mise en sécurité du site assurée dans l'usage actuel et préconise ainsi de ne pas poursuivre la surveillance des eaux souterraines.
+
+
+#Cependant, elle recommande de prévoir des restrictions de tout usage des eaux souterraines au droit du site ainsi que, par mesure de précaution, en son aval hydraulique jusqu'au ruisseau du Larré.
+
+38l0l0	des_restrictions	O
+
+#De plus, l'ADEME recommande d'élaborer un plan de gestion en cas de changement d'usage et/ou de travaux sur le site.
+
+39l0l0	recommande	O
+39l0l1	changement_d__usage_et__	N
+39l0l2	site__	R

@@ -1,0 +1,84 @@
+
+#76.0253
+#Cette ancienne usine à gaz a été exploité par la société Caranza et Cie à partir de 1858.
+
+0l0l0	Cette_ancienne_usine_à_gaz	O
+0l0l1	a_été_exploité	N
+0l0l2	la_société_Caranza	O
+0l0l3	et_Cie	O
+0l0l4	à_partir_de_1858	T
+0l1l0	la_société_Caranza	I
+
+#La date d'arrêt d'activité n'est pas connue pour le moment mais est antérieure à 1947.
+
+1l0l0	est_antérieure_à_1947	T
+
+#le site est en partie réoccupé par des habitations.
+
+2l0l0	le_site	O
+2l0l1	est_en_partie_réoccupé	N
+2l0l2	par	R
+2l0l3	des_habitations	O
+
+#Il se trouve dans une boucle de la Seine à proximité de la Seine.
+
+3l0l0	trouve_dans_une_boucle_de_la_Seine	L
+3l0l1	à_proximité_de_la_Seine	L
+
+#L'inspection des installations classées n'a été destinataire d'aucune étude à ce jour.
+
+4l0l0	L__inspection_des_installations_classées	O
+4l0l1	n__a_été_destinataire_d_	R
+4l0l2	étude	O
+4l0l3	à_ce_jour	T
+
+#Cependant le contexte géologique et hydrogéologique du secteur est relativement bien connu :
+
+5l0l0	le_contexte_géologique_et_hydrogéologique	N
+
+#le sol est constitué de couches perméables(sables, graves...) jusqu'à la nappe de la craie. une nappe des alluvions en communication avec la nappe de la craie est présente également dans cette zone.
+
+
+#Il ne reste aucune trace apparente de l'activité de cette usine.
+
+7l0l0	l__activité	A
+7l0l1	cette_usine	O
+
+#Cependant une partie du site est inoccupé alors que la zone est fortement urbanisée.
+
+8l0l0	la_zone	O
+8l0l1	est_fortement_urbanisée	N
+
+#A ce jour, aucune étude réalisée sur ce site n'a été transmise à l'administration.
+
+9l0l0	A_ce_jour	T
+
+#Ce type d'installation est susceptible d'être pollué par les activités de l'ancienne usine à gaz.
+
+10l0l0	l__ancienne_usine_à_gaz	O
+
+#En effet, souvent à la fermeture de ces unités, les installations ont été détruites hors sols laissant sur place les différentes cuves entérées (cuves à goudrons, cuves à benzol, cuve contenant des eaux ammoniaquées...) et les dépôts de ferro-cyanures.
+
+11l0l0	à	T
+11l0l1	la_fermeture	N
+11l0l2	ces_unités	O
+11l0l3	les_installations	O
+11l0l4	ont_été_détruites_hors_sols	N
+11l0l5	benzol	O
+11l0l6	ferro	O
+11l0l7	cyanures	O
+11l1l0	cuves	S
+11l1l1	goudrons	U
+11l1l2	cuves	D
+11l1l3	benzol	U
+11l1l4	cuve	D
+11l1l5	contenant_des_eaux_ammoniaquées	U
+11l1l6	ferro___cyanures	S
+
+#Ce site ayant été fermé avant les phases de nationalisation, ne fait pas parti des sites concernés par le protocole entre GDF et l'état.
+
+12l0l0	Ce_site	O
+12l0l1	ayant_été_fermé	N
+12l0l2	avant_les_phases_de_nationalisation	T
+12l0l3	sites_concernés	O
+12l1l0	GDF	I

@@ -1,0 +1,323 @@
+
+#33.0317
+#La Mairie de Sainte-Foy-La-Grande a exploité de 1960 à 1999, une décharge de déchets ménagers et assimilés sur le territoire de la commune de Pineuilh, au lieu-dit « Caville ».
+
+0l0l0	La_Mairie	O
+0l0l1	de_Sainte_Foy_La_Grande	L
+0l0l2	a_exploité	N
+0l0l3	de_1960_à_1999__	T
+0l0l4	une_décharge_de_déchets_ménagers	O
+0l0l5	sur_le_territoire_de_la_commune_de_Pineuilh	L
+0l0l6	au_lieu___dit___Caville	L
+0l1l0	La_Mairie_de_Sainte_Foy_La_Grande	I
+
+#Le site se situe à proximité immédiate de la Dordogne qui s’écoule vers le Sud-Ouest.
+
+1l0l0	Le_site	O
+1l0l1	se_situe_à_proximité_immédiate_de_la_Dordogne	L
+1l0l2	s__écoule_vers_le_Sud_Ouest	L
+
+#Cette décharge a principalement accueilli :
+
+
+#-> des ordures ménagères ;
+
+3l1l0	des_ordures_ménagères	U
+
+#-> des déchets d’abattoirs au début des années 1970 ;
+
+4l0l0	au_début_des_années_1970	T
+4l1l0	des_déchets_d_	U
+
+#-> des déchets dangereux et des déchets toxiques en quantité dispersée;
+
+5l1l0	des_déchets_dangereux	U
+5l1l1	des_déchets_toxiques	U
+
+#-> des déchets verts ;
+
+
+#-> des déblais et gravats ;
+
+
+#-> des encombrants ménagers;
+
+
+#-> des pneus.
+
+
+#Les déchets étaient soit enterrés, soit versés dans la pente qui mène à la Dordogne, soit brûlés.
+
+10l0l0	versés_dans_la_pente_qui_mène_à_la_Dordogne	L
+
+#Il est à noter également la présence de l’habitation de l’ancien gardien dans la partie Sud-Ouest de la décharge.
+
+11l0l0	l__habitation	O
+11l0l1	l__ancien_gardien	O
+11l0l2	dans_la_partie_Sud_Ouest_de_la_décharge	L
+
+#I - DIAGNOSTIC
+
+12l0l0	DIAGNOSTIC	N
+
+#Par arrêté préfectoral du 20 juillet 2005, la Mairie de Sainte-Foy-La-Grande a été mise en demeure de déposer un dossier de remise en état comprenant une Évaluation Simplifiée des Risques (ESR) pour cette décharge.
+
+13l0l0	Par_arrêté_préfectoral	O
+13l0l1	du_20_juillet_2005__	T
+13l0l2	la_Mairie	O
+13l0l3	de_Sainte_Foy_La_Grande	L
+13l0l4	a_été_mise_en_demeure	N
+13l0l5	déposer	N
+13l0l6	un_dossier	O
+13l0l7	de_remise_en_état	N
+13l0l8	comprenant	R
+13l0l9	une_Évaluation_Simplifiée_des_Risques	N
+13l0l10	cette_décharge	O
+13l1l0	la_Mairie_de_Sainte_Foy_La_Grande	I
+
+#Un premier dossier, réalisé par la société TEREO, a été produit en juillet 2006.
+
+14l0l0	Un_premier_dossier	O
+14l0l1	la_société_TEREO	O
+14l0l2	a_été_produit	N
+14l0l3	en_juillet_2006__	T
+14l1l0	la_société_TEREO	I
+
+#Suite à l’examen de ce document, plusieurs remarques ont été émises et des compléments d’études ont été demandés.
+
+15l0l0	Suite_à	R
+15l0l1	l__examen	N
+15l0l2	ont_été_demandés	N
+
+#Les compléments demandés ont été produits en juillet 2009.
+
+16l0l0	Les_compléments_demandés	N
+16l0l1	ont_été_produits	N
+16l0l2	en_juillet_2009__	T
+
+#Schématiquement, leur examen ont fait apparaître les principaux éléments suivants :
+
+
+#-> sur le milieu "sol" : des sondages superficiels et en profondeur ont été réalisés sur le site.
+
+18l0l0	des_sondages_superficiels	N
+18l0l1	ont_été_réalisés	N
+
+#La présence de lixiviats a été révélée sur différents sondages profonds et superficiels.
+
+19l0l0	La_présence_de_lixiviats	O
+19l0l1	a_été_révélée	N
+
+#Les analyses réalisées ont révélé un impact de la décharge sur le milieu "sol" en cadmium, cuivre, nickel et arsenic.
+
+20l0l0	Les_analyses_réalisées	N
+20l1l0	cadmium	S
+20l1l1	cuivre	S
+20l1l2	nickel	S
+20l1l3	arsenic	S
+
+#-> sur le caractère lixiviable : des tests de lixiviation effectués sur un échantillon composite ont démontré un fort relargage d'azote ammoniacal.
+
+21l0l0	des_tests_de_lixiviation	N
+21l0l1	relargage	N
+21l1l0	azote_ammoniacal	S
+
+#Selon le bureau d'études TEREO, les faibles concentrations en matière organique (DBO5 notamment) démontrent la faible présence de matière organique dégradable dans le milieu.
+
+22l0l0	le_bureau_d__études_TEREO	O
+22l1l0	TEREO	I
+22l1l1	DBO5	S
+
+#De même, les faibles valeurs mesurées en cuivre, nickel, arsenic et cadmium témoignent d'un faible relargage de ces paramètres révélés par les analyses sur sol.
+
+23l1l0	cuivre	S
+23l1l1	nickel	S
+23l1l2	arsenic	S
+23l1l3	cadmium	S
+
+#-> sur les eaux souterraines : 3 piézomètres ont été réalisés, 1 situé en amont hydraulique et 2 en aval en fonction du sens d’écoulement supposé des eaux souterraines à l’aplomb du site.
+
+24l0l0	3_piézomètres	O
+24l0l1	ont_été_réalisés	N
+24l0l2	1	O
+24l0l3	situé_en_amont_hydraulique	L
+
+#Une campagne de mesures des niveaux piézométriques au droit des 3 piézomètres a été réalisée en mai 2009.
+
+25l0l0	Une_campagne_de_mesures	N
+25l0l1	3_piézomètres	O
+25l0l2	a_été_réalisée	N
+25l0l3	en_mai_2009__	T
+
+#Celle-ci a montré que le sens d’écoulement global de la nappe souterraine était dirigé vers le Nord Ouest, en direction de la Dordogne.
+
+26l0l0	dirigé_vers_le_Nord_Ouest	L
+26l0l1	en_direction_de_la_Dordogne	L
+
+#Le sens d’écoulement des eaux souterraines suggère une alimentation du fleuve par la nappe.
+
+27l0l0	alimentation_du_fleuve	L
+
+#Un prélèvement d’eaux souterraines a également été effectué en mai 2009.
+
+28l0l0	Un_prélèvement	N
+28l0l1	a_également_été_effectué	N
+28l0l2	en_mai_2009__	T
+
+#Les résultats des mesures mettent en évidence une présence modérée des formes oxydées de l’azote, une concentration assez élevée en sulfates au droit du Pz3 égale au seuil fixé par le Code de la Santé Publique, ainsi qu’une concentration de bactéries entériques non négligeable au droit de Pz2 et Pz3.
+
+29l1l0	azote	S
+29l1l1	sulfates	S
+29l1l2	bactéries_entériques	S
+
+#Parmi les éléments traces métalliques recherchés, seul l’arsenic est présent à une faible concentration.
+
+30l0l0	l__arsenic	O
+30l1l0	éléments_traces_métalliques	S
+30l1l1	l__arsenic	S
+
+#II - TRAVAUX
+
+
+#Sur proposition de l'Inspection des Installations Classées, M. le Préfet de la Gironde a imposé à la Mairie de Sainte Foy La Grande, par arrêté du 16 novembre 2009 :
+
+32l0l0	l__Inspection_des_Installations_Classées	O
+32l0l1	M__le_Préfet_de_la_Gironde	O
+32l0l2	a_imposé	N
+32l0l3	la_Mairie	O
+32l0l4	de_Sainte_Foy_La_Grande	L
+32l0l5	16_novembre_2009__	T
+32l1l0	le_Préfet	I
+32l1l1	de_la_Gironde	I
+
+#-> de reprofiler des zones de stockage soit en dôme de pente d’au moins 3%, soit en terrain plan incliné de pente suffisante permettant le ruissellement des eaux pluviales directement dans la Dordogne ;
+
+33l0l0	de_reprofiler	N
+33l0l1	des_zones_de_stockage	O
+33l0l2	dans_la_Dordogne	L
+
+#-> de mettre en place une couverture de type peu perméable (ex : argile) sur le massif de déchets ;
+
+34l0l0	de_mettre_en_place_une_couverture	N
+
+#-> de réaliser des fossés périphériques permettant de récupérer les eaux pluviales et de les acheminer vers un fossé extérieur si la solution du dôme est retenue ;
+
+35l0l0	de_réaliser	N
+35l0l1	des_fossés_périphériques	O
+35l0l2	acheminer_vers	R
+35l0l3	un_fossé_extérieur	O
+
+#-> de recouvrir les zones de stockages reprofilées avec au moins 0,3 m de terre végétale et les engazonner.
+
+36l0l0	de_recouvrir	N
+36l0l1	les_zones_de_stockages_reprofilées	O
+36l0l2	engazonner	N
+
+#-> d'entretenir régulièrement le site.
+
+37l0l0	le_site	O
+
+#Cet arrêté accorde un délai d'1 an à la mairie de Sainte-Foy-La-Grande pour réaliser ces travaux de réhabilitation.
+
+38l0l0	Cet_arrêté	O
+38l0l1	accorde	N
+38l0l2	un_délai_d_1_an	T
+38l0l3	la_mairie	O
+38l0l4	Sainte_Foy_La_Grande	L
+38l0l5	réaliser_ces_travaux_de_réhabilitation	N
+
+#Il lui impose par ailleurs de clôturer le site sur toute sa périphérie.
+
+39l0l0	clôturer	N
+39l0l1	le_site	O
+
+#III - SURVEILLANCE DES EAUX SOUTERRAINES
+
+40l0l0	SURVEILLANCE_DES_EAUX_SOUTERRAINES	O
+40l1l0	SOUTERRAINES	I
+
+#L'arrêté préfectoral du 16 novembre 2009 impose à la mairie de Sainte-Foy-La-Grande de procéder à 2 campagnes annuelles au moins (périodes de basses et hautes eaux) de prélèvements et d’analyses dans les piézomètres mis en place lors de l’étude.
+
+41l0l0	L__arrêté_préfectoral	O
+41l0l1	16_novembre_2009	T
+41l0l2	impose	N
+41l0l3	la_mairie	O
+41l0l4	de_Sainte_Foy_La_Grande	L
+41l0l5	de_procéder_à_2_campagnes_annuelles	N
+41l0l6	périodes	T
+41l0l7	de_basses_et_hautes_eaux	O
+
+#Les paramètres à analyser dans les échantillons prélevés sont les suivants :
+
+
+#- pH,
+
+43l1l0	pH	S
+
+#- conductivité,
+
+
+#- ammonium,
+
+45l1l0	ammonium	S
+
+#- azote Kjeldahl,
+
+46l1l0	azote_Kjeldahl	S
+
+#- éléments traces métalliques (As, Zn, Ni, Cu, Cr, Pb),
+
+47l1l0	éléments_traces_métalliques	U
+47l1l1	As	S
+47l1l2	Zn	S
+47l1l3	Ni	S
+47l1l4	Cu	S
+47l1l5	Cr	S
+47l1l6	Pb	S
+
+#- nitrates,
+
+48l1l0	nitrates	S
+
+#- nitrites,
+
+49l1l0	nitrites	S
+
+#- sulfates,
+
+50l1l0	sulfates	S
+
+#- chlorures,
+
+51l1l0	chlorures	S
+
+#- DCO (demande chimique en oxygène),
+
+52l1l0	DCO	S
+52l1l1	oxygène	S
+
+#- DBO5 (demande biologique en oxygène au bout de 5 jours),
+
+53l1l0	DBO5	S
+
+#- paramètres bactériologiques.
+
+
+#IV - RESTRICTIONS D'USAGE
+
+55l0l0	USAGE	O
+
+#L'arrêté préfectoral du 16 novembre 2009 prescrit des restrictions d'usage de la décharge réhabilitée qui devront être inscrites au registre des hypothèques selon une procédure d'institution de servitudes laissée au choix de l'exploitant.
+
+56l0l0	L__arrêté_préfectoral	O
+56l0l1	16_novembre_2009	T
+56l0l2	prescrit_des_restrictions_d__usage	N
+56l0l3	la_décharge_réhabilitée	O
+56l0l4	registre_des_hypothèques	O
+56l0l5	l__exploitant	O
+
+#Ces restrictions concernent l'interdiction de constructions d'habitation, de travaux de voiries, d'affouillements, de sondage, de forage et de cultures (agricoles, potagères et de pâturage).
+
+57l0l0	l__interdiction_de_constructions_d__habitation	O
+57l0l1	travaux_de_voiries	N
+57l0l2	affouillements___de_sondage___de_forage_et_de_cultures	L

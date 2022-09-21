@@ -1,0 +1,260 @@
+
+#85.0029
+#Le site SEITA, créé en 1955, a été en activité (stockage et fermentation du tabac) jusqu'en 1986.
+
+0l0l0	Le_site_SEITA	O
+0l0l1	créé	N
+0l0l2	en_1955	T
+0l0l3	a_été_en_activité	N
+0l0l4	stockage_et_fermentation_du_tabac	A
+0l0l5	en_1986	T
+0l1l0	SEITA	I
+
+#Le site a ensuite été vendu.
+
+1l0l0	Le_site	O
+1l0l1	a_ensuite_été_vendu	N
+
+#La parcelle AX 364 a été vendue à la SAMRO (racheté par TROUILLET) et a toujours été exploité par Vendée Bâches.
+
+2l0l0	La_parcelle_AX	O
+2l0l1	a_été_vendue	N
+2l0l2	la_SAMRO	O
+2l0l3	racheté	N
+2l0l4	par_TROUILLET	O
+2l0l5	a_toujours_été_exploité	N
+2l0l6	Vendée_Bâches	A
+2l1l0	la_SAMRO	I
+2l1l1	TROUILLET	I
+
+#La parcelle AX 365 a été exploitée à partir de 1996 par la société STOCK INTER (stockage de matériel de puériculture) puis en 2000 par la société GIRAUD LOGISTIQUE, reprise par PREMIUM LOGISTIQUE, elle-même reprise par la sociéte WINCANTON qui a arrêté son activité (enregistrée à la préfecture) en juillet 2008.
+
+3l0l0	La_parcelle_AX	O
+3l0l1	a_été_exploitée	N
+3l0l2	à_partir_de_1996	T
+3l0l3	la_société_STOCK_INTER	O
+3l0l4	stockage_de_matériel_de_puériculture	A
+3l0l5	en_2000	T
+3l0l6	la_société_GIRAUD_LOGISTIQUE	O
+3l0l7	LOGISTIQUE	A
+3l0l8	la_sociéte_WINCANTON	O
+3l0l9	a_arrêté	N
+3l0l10	son_activité	O
+3l0l11	en_juillet_2008__	T
+3l1l0	la_société_STOCK_INTER	I
+3l1l1	la_société_GIRAUD_LOGISTIQUE	I
+3l1l2	PREMIUM_LOGISTIQUE	I
+3l1l3	la_sociéte_WINCANTON	I
+
+#Le site est sans activité depuis cette date.
+
+4l0l0	Le_site	O
+4l0l1	depuis_cette_date	T
+
+#Le propriétaire actuel de la parcelle AX 365 est SCI FONTENAY (groupe BLEECKER).
+
+5l0l0	Le_propriétaire_actuel	O
+5l0l1	la_parcelle_AX	O
+5l0l2	SCI_FONTENAY	O
+5l0l3	BLEECKER	O
+5l1l0	SCI_FONTENAY	I
+5l1l1	BLEECKER	I
+
+#Cette parcelle AX 365 est concernée par la fiche Basias PAL8503409.
+
+6l0l0	Cette_parcelle_AX	O
+
+#Le terrain est concerné par une pollution aux PCB (polychlorobiphényles).
+
+7l0l0	Le_terrain	O
+7l0l1	est_concerné_par	R
+7l0l2	une_pollution	O
+7l1l0	PCB	S
+7l1l1	polychlorobiphényles	S
+
+#En effet, en 2010, suite à un acte de vandalisme dans le local transformateur de ce site, des huiles contenant des PCB se sont écoulées sur le sol bétonné du poste de transformation.
+
+8l0l0	en_2010__	T
+8l0l1	suite	R
+8l0l2	à_un_acte_de_vandalisme	N
+8l0l3	le_local_transformateur	O
+8l0l4	des_huiles	O
+8l0l5	transformation	A
+8l1l0	des_huiles	U
+8l1l1	PCB	S
+
+#La SCI FONTENAY a mandaté la société APROCHIM pour excaver et évacuer les terres visuellement les plus impactées et réaliser des contrôles de fond de fouilles.
+
+9l0l0	La_SCI_FONTENAY	O
+9l0l1	a_mandaté	N
+9l0l2	la_société_APROCHIM	O
+9l0l3	excaver	N
+9l0l4	évacuer_les_terres_visuellement_les_plus_impactées	O
+9l0l5	réaliser_des_contrôles_de_fond_de_fouilles	N
+9l1l0	La_SCI_FONTENAY	I
+9l1l1	la_société_APROCHIM	I
+
+#Quelques autres sources potentielles de pollution ont été relevées (emplacement d'une ancienne cuve à fioul, déchets, fosse à usage non identifié, voies ferrées).
+
+10l0l0	Quelques_autres_sources_potentielles_de_pollution	O
+10l0l1	ont_été_relevées	N
+10l0l2	une_ancienne_cuve_à_fioul	O
+10l1l0	fioul	S
+
+#En mars 2012, un bureau d'étude a réalisé des investigations sur les sols dans le local du poste de transformation électrique, notamment au droit d'un caniveau technique dans lequel les huiles contenant des PCB (polychlorobiphényles) se sont infiltrées.
+
+11l0l0	En_mars_2012__	T
+11l0l1	un_bureau_d__étude	O
+11l0l2	a_réalisé	N
+11l0l3	des_investigations	N
+11l0l4	sur	R
+11l0l5	les_sols	O
+11l0l6	poste_de_transformation_électrique	O
+11l0l7	au_droit_d__un_caniveau_technique	L
+11l0l8	se_sont_infiltrées	N
+11l1l0	huiles_contenant_des_PCB	S
+11l1l1	polychlorobiphényles	S
+
+#Un complément d'investigation a été apporté en juillet 2012, à l'extérieur du local.
+
+12l0l0	Un_complément_d__investigation	O
+12l0l1	a_été_apporté	N
+12l0l2	en_juillet_2012__	T
+12l0l3	à	R
+12l0l4	l_	O
+12l0l5	extérieur_du_local	L
+
+#L'objectif étant de préciser l'extension de la contamination en PCB dans les sols et les eaux souterraines.
+
+13l1l0	PCB	S
+
+#--> Les investigations réalisées en mars 2012 ont montré une contamination en PCB au droit du caniveau technique à l'intérieur du local de transformation électrique et à 1,5 m à l'extérieur, jusqu'à une profondeur d'environ 2m.
+
+14l0l0	Les_investigations_réalisées	N
+14l0l1	en_mars_2012	T
+14l0l2	PCB	O
+14l0l3	au_droit_du	L
+14l0l4	caniveau_technique	O
+14l0l5	local_de_transformation_électrique	A
+14l0l6	1_5	O
+14l0l7	m_à_l__extérieur	L
+14l1l0	PCB	S
+
+#-> Les investigatoins réalisées en juillet 2012, à l'extérieur du local de transformation électrique, n'ont pas mis en évidence d'extension de la contamination en PCB dans le sols en dehors du caniveau technique.
+
+15l0l0	___	L
+15l0l1	Les_investigatoins_réalisées	N
+15l0l2	en_juillet_2012__	T
+15l0l3	à_l__extérieur_du_local_de_transformation_électrique	L
+15l0l4	en_dehors_du	L
+15l0l5	caniveau_technique	O
+15l1l0	PCB	S
+
+#Il a été constaté sur le terrain que le caniveau technique se prolonge à l'extérieur du local, vers le nord.
+
+16l0l0	Il	O
+16l0l1	a_été_constaté	N
+16l0l2	le_terrain	O
+16l0l3	le_caniveau_technique	O
+16l0l4	se_prolonge_à_l__extérieur_du_local	L
+16l0l5	vers_le_nord	L
+
+#La présence de nombreux câbles dans cette galerie n'a pas permis de réaliser de sondages plus éloignés au droit du caniveau.
+
+17l0l0	réaliser_de_sondages	N
+17l0l1	au_droit_du_caniveau	L
+
+#Les sondages S5, S6 et S7, non impactés, ne permettent pas d'exclure la présence de traces résiduelles de PCB au fond du caniveau vers l'extérieur (zone non accessible au sondage lors des investigations).
+
+18l0l0	Les_sondages	N
+18l0l1	caniveau	O
+18l1l0	PCB	S
+
+#Le plan mis à disposition dans le paragraphe B permet de localiser ces différents sondages.
+
+
+#Les analyses faites sur les eaux souterraines en juillet 2012 ont permis de montrer l’absence de diffusion de la pollution aux PCB en dehors du conduit de technique et de constater que la nappe n’avait pas été impactée.
+
+20l0l0	Les_analyses_faites	N
+20l0l1	sur_les	L
+20l0l2	eaux_souterraines	N
+20l0l3	en_juillet_2012	T
+20l0l4	PCB	O
+20l0l5	en_dehors_du	L
+20l0l6	conduit_de_technique	O
+20l0l7	avait_pas_été_impactée	N
+20l1l0	PCB	S
+
+#L’étude a préconisé le retrait des terres polluées (préconisation jusqu’à 3 m de profondeur) ou à défaut, en attente d’un projet pour le réaménagement éventuel du site, le confinement des zones pollués (notamment sur la partie extérieur du conduit technique).
+
+21l0l0	le_retrait_des_terres_polluées	N
+21l0l1	d__un_projet	O
+21l0l2	le_réaménagement_éventuel	N
+21l0l3	du_site	L
+21l0l4	le_confinement_des_zones_pollués	O
+
+#Elle a aussi mis en évidence le cheminement extérieur du caniveau technique impacté qui se prolonge (avec un passage de câbles) en dehors des zones investiguées à l’extérieur des locaux, vers le nord (potentielle pollution dans ce prolongement du caniveau technique).
+
+22l0l0	caniveau_technique_impacté	O
+22l0l1	en_dehors_des	L
+22l0l2	zones_investiguées	N
+22l0l3	à_l__extérieur_des_locaux	L
+22l0l4	vers_le_nord	L
+
+#Par ailleurs un suivi de la qualité des eaux souterraines a été mis en place (relevé semestriel, première campagne en mars 2013).
+
+23l0l0	un_suivi_de_la_qualité_des_eaux_souterraines	A
+23l0l1	a_été_mis_en_place	N
+23l0l2	première_campagne	N
+23l0l3	en_mars_2013__	T
+
+#Le retrait des terres polluées n’a pas été effectué mais la visite du 15/09/2013 par un organisme extérieur a permis de constater la mise en place d’un confinement sur la douille créée au droit du caniveau technique afin de le protéger des eaux météoritiques.
+
+24l0l0	Le_retrait_des_terres_polluées	N
+24l0l1	a_pas_été_effectué	N
+24l0l2	la_visite_du	N
+24l0l3	15_09_2013	T
+24l0l4	un_organisme_extérieur	O
+24l0l5	la_mise_en_place_d__un_confinement	N
+24l0l6	la_douille	O
+24l0l7	créée	N
+24l0l8	au_droit_du	L
+24l0l9	caniveau_technique	O
+24l0l10	afin	R
+24l0l11	eaux_météoritiques	N
+
+#De même, le bureau d'étude a mis en place un suivi de la qualité des eaux souterraines et des prélèvements dans les piézomètres qui ont été réalisés en mars 2013 pour la période des hautes eaux et en novembre 2013 pour la période des basses eaux.
+
+25l0l0	le_bureau_d__étude	O
+25l0l1	a_mis_en_place	N
+25l0l2	un_suivi_de_la_qualité_des_eaux_souterraines	A
+25l0l3	ont_été_réalisés	N
+25l0l4	en_mars_2013	T
+25l0l5	la_période	O
+25l0l6	des_hautes_eaux	O
+25l0l7	en_novembre_2013	T
+25l0l8	la_période_des_basses_eaux	O
+
+#Les analyses ont montré l’absence de PCB dans les eaux souterraines investiguées en quantités quantifiables par le laboratoire.
+
+26l0l0	Les_analyses	N
+26l1l0	PCB	S
+
+#La poursuite du suivi de la qualité des eaux souterraines a été préconisé, au moins jusqu’au retrait de la source de la pollution.
+
+27l0l0	La_poursuite_du_suivi_de_la_qualité_des_eaux_souterraines	A
+27l0l1	a_été_préconisé	N
+
+#Concernant le suivi de la qualité des eaux souterraines, les piézomètres installés sont mal positionnés.
+
+28l0l0	le_suivi_de_la_qualité_des_eaux_souterraines	A
+28l0l1	les_piézomètres	O
+
+#En effet, selon la période (hautes ou basses eaux) de l’année, le piézomètre supposé être en aval du transformateur se situe en latéral hydraulique.
+
+29l0l0	le_piézomètre	O
+29l0l1	en_aval_du_transformateur	L
+29l0l2	se_situe_en_latéral_hydraulique	L
+
+#Ainsi le positionnement d’un piézomètre supplémentaire est nécessaire pour conclure sur la qualité des eaux souterraines.
+

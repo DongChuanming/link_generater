@@ -1,0 +1,82 @@
+
+#76.0289
+#Installation de compostage et de tri/transit/broyage de bois;
+
+0l0l0	compostage_et_de_tri___transit	O
+0l0l1	broyage_de	R
+0l0l2	bois__	O
+
+#A la suite de plusieurs incendies survenus en 2012, dont le dernier date du 19 septembre 2012 sur le stockage de bois, il a été demandé à l'exploitant, par arrêté préfectoral, de procéder à des prélèvements de sol afin de déterminer les conséquences sanitaires des événements survenus sur le site.
+
+1l0l0	A_la_suite_de_plusieurs	R
+1l0l1	survenus_en	N
+1l0l2	2012___dont_le_dernier	A
+
+#L'étude SGS, portée à la connaissance de l'inspection le 9 avril 2013 indiqué les éléments suivants :
+
+2l0l0	L__étude_SGS	R
+2l0l1	__portée_à_la_connaissance_de_l_	N
+2l0l2	inspection	T
+2l0l3	2013_indiqué_les_éléments	T
+2l0l4	suivants__	A
+
+#- localisation des prélèvements (11 au total);
+
+3l0l0	localisation	O
+3l0l1	des_prélèvements___11_au	N
+3l0l2	total____	O
+3l1l0	localisation	I
+
+#- résultats d'analyse sur les dioxines, furanes, PCB dioxines like;
+
+
+#- évaluation des risques sanitaires compte tenu des résultats;
+
+5l1l0	sanitaires_compte_tenu_des_résultats	S
+
+#Les conclusions sont les suivantes :
+
+
+#Les prélèvements ont été réalisés le 23 novembre 2012.
+
+
+#Ceux-ci présentent des concentrations élevées principalement pour 2 types de dioxines (1,2,3,4,6,7,8 HCDD et OCDD), et dans une moindre mesure pour une troisième type de dioxine (1,2,3,6,7,8 HCDD) et deux types de furanes (1,2,3,4,6,7,8 HCDF et OCDF).
+
+8l0l0	Ceux___ci_présentent_des_concentrations	N
+8l0l1	élevées_principalement_pour_2_types_de_dioxines___1_2_3_4_6_7_8_HCDD_et_OCDD_____et_dans_une_moindre_mesure_pour_une_troisième_type_de_dioxine___1_2_3_6_7_8_HCDD___et_deux_types_de_furanes___1_2_3_4_6_7_8_HCDF_et_OCDF____	T
+
+#On remarque également une contamination en dioxines et furanes dégressive par rapport à l'éloignement du site.
+
+9l1l0	dégressive_par_rapport_à	S
+9l1l1	éloignement_du_site	S
+
+#Ainsi, les prélèvements P1 et P2 au droit du site présentent des contaminations maximales, suivi des prélèvements P3 à P6 présentant des concentrations plus modérées, et enfin les prélèvements P7 à P11 présentant des concentrations faibles dans les champs alentours.
+
+10l1l0	site_présentent_des_contaminations	S
+
+#Il semble indispensable de procéder à des mesures de gestion du site de COLLECTI'VERT afin d'empêcher la dispersion de la contamination.
+
+
+#En effet, malgré la présence d'un revêtement au sol de type enrobé, les talus bordant le site sur lesquels ont été prélevés les échantillons ne sont pas recouverts d'un revêtement.
+
+12l0l0	enrobé___les_talus_bordant_le	O
+12l0l1	lesquels_ont_été_prélevés	N
+12l0l2	les_échantillons	O
+12l1l0	talus_bordant	I
+
+#Il est donc primordial d'éviter le contact des tas de déchets verts et de compost entreposés sur le site avec les terres polluées des talus, afin d'éviter que le compost ne devienne un vecteur de dissémination de la contamination vers des champs, des cultures ou potager, ou tout autre site de destination.
+
+13l0l0	et_de_compost	O
+13l0l1	entreposés	L
+
+#Etant donné la présence d'un revêtement de type enrobé sur toute la superficie du site, le transfert de polluant du sol vers le compost n'est pas à craindre dans le futur.
+
+14l0l0	polluant_du_sol_vers_le_compost_n__est	O
+
+#Les observations et recommandations faites ci-dessus ont été établies sur base de l'usage et de la configuration actuelle du site et de parcelles alentours.
+
+
+#Dans le cas où ces informations ne seraient plus d'actualité il conviendra de réactualiser cette étude de risque.
+
+16l0l0	actualité_il_conviendra	N
+16l0l1	de_réactualiser	N

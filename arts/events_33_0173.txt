@@ -1,0 +1,137 @@
+
+#33.0173
+#Usine d'incinération d'ordures ménagères et déchets assimilés de la Communauté Urbaine de Bordeaux exploitée par la société ASTRIA sur la commune de Bègles (33).
+
+0l0l0	Usine	O
+0l0l1	d__incinération	A
+0l0l2	la_Communauté_Urbaine_de_Bordeaux	L
+0l0l3	exploitée_par	R
+0l0l4	la_société_ASTRIA	O
+0l0l5	sur_la_commune_de_Bègles___33__	L
+0l1l0	la_Communauté_Urbaine	I
+0l1l1	la_société_ASTRIA	I
+
+#1 - DIAGNOSTIC
+
+1l0l0	DIAGNOSTIC	N
+
+#De par son activité et les émissions de plomb supérieures à 50 kg/an, ce site a été inscrit dans l'action nationale relative au diagnostic de l'état des sols potentiellement pollués par le plomb.
+
+2l0l0	ce_site	O
+2l0l1	a_été	N
+2l0l2	inscrit_dans	R
+2l0l3	l__action	N
+2l0l4	diagnostic	N
+2l1l0	plomb	S
+2l1l1	plomb	S
+
+#L'arrêté préfectoral du 30 novembre 2005 prescrit ce diagnostic à l'échéance de 3 mois.
+
+3l0l0	L__arrêté_préfectoral	O
+3l0l1	30_novembre_2005	T
+3l0l2	prescrit_ce_diagnostic	N
+3l0l3	à_l_	R
+3l0l4	échéance_de_3_mois	T
+
+#Le diagnostic plomb a été fourni le 1er mars 2006.
+
+4l0l0	Le_diagnostic_plomb_a_été_fourni	N
+4l0l1	le_1er_mars_2006__	T
+
+#Des compléments ont été demandés sur 2 des points de mesures dépassant la teneur de 100 mg/kg.
+
+5l0l0	été_demandés	N
+
+#L’analyse effectuée sur les compléments par l’Institut Européen de l’Environnement de Bordeaux (IEEB) conformément à la méthodologie définie dans l’arrêté susvisé, n'a pas révélé une teneur en plomb anormale liée à l'activité sur les points de prélèvements réalisés.
+
+6l0l0	L__analyse_effectuée	N
+6l0l1	les_compléments	O
+6l0l2	l__Institut_Européen_de_l__Environnement_de_Bordeaux	O
+6l1l0	plomb	S
+
+#Le site ASTRIA relève du niveau "0" * du guide INERIS pour l'orientation des actions à mettre en oeuvre autour d'un site dont les sols sont potentiellement pollués par le plomb et ne nécessite aucune investigation complémentaire.
+
+7l0l0	Le_site_ASTRIA	O
+7l1l0	plomb	S
+
+#* Pour mémoire, les niveaux ont été définis ainsi :
+
+
+#Niveau 0 : <100 mg/kg aucune investigation complémentaire - Surveillance Environnementale à mettre en place au besoin,
+
+
+#Niveau 2a : entre 100 et200 mg/kg Vérification de la représentativité des prélèvements puis diagnostic approfondi,
+
+
+#Niveau 2b : entre 200 et 550 mg/kg Evaluation Quantitative des Risques Sanitaires,
+
+
+#Niveau 3 : mesures de sécurité et d'hygiène, dépistage éventuel, rémédiation
+
+12l0l0	rémédiation	O
+
+#2 - SURVEILLANCE DES SOLS
+
+13l0l0	SURVEILLANCE_DES_SOLS	A
+13l1l0	SOLS	S
+
+#Le paramètre plomb a été intégré au suivi annuel environnemental de l'installation déjà réalisé pour les dioxines et furannes et prescrit par l'arrêté préfectoral du 05/01/2007.
+
+14l0l0	a_été	N
+14l0l1	intégré_au	R
+14l0l2	suivi_annuel_environnemental	N
+14l0l3	l__installation	O
+14l0l4	l__arrêté_préfectoral	O
+14l0l5	05_01_2007__	T
+14l1l0	plomb	S
+14l1l1	dioxines	S
+14l1l2	furannes	S
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+15l0l0	SURVEILLANCE_DES_EAUX	A
+15l0l1	SOUTERRAINES	O
+15l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 b) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines parce qu'il présente un risque notable de pollution des eaux souterraines, de par ses activités actuelles des eaux souterraines.
+
+16l0l0	Ce_site	O
+16l0l1	est_soumis_à	R
+16l0l2	l_	O
+16l0l3	2_février_1998	T
+16l0l4	surveillance_des_eaux_souterraines	A
+16l0l5	un_risque_notable_de_pollution	O
+
+#L'arrêté préfectoral du 05/01/2007 prescrit la surveillance semestrielle des eaux souterraines par 4 piézomètres PRN, PC1, PC2 et PC3 dans lesquels on mesure les paramètres pH, MES, COT, Hg, Cd, Ti, As, Pb, Cr, Cu, NI.
+
+17l0l0	L__arrêté_préfectoral	O
+17l0l1	05_01_2007	T
+17l0l2	prescrit	N
+17l0l3	la_surveillance_semestrielle	A
+17l0l4	des_eaux_souterraines	A
+17l1l0	pH	S
+17l1l1	MES	S
+17l1l2	COT	S
+17l1l3	Hg	S
+17l1l4	Cd	S
+17l1l5	Ti	S
+17l1l6	As	S
+17l1l7	Pb	S
+17l1l8	Cr	S
+17l1l9	Cu	S
+17l1l10	NI	S
+
+#Le niveau piézomètrique est relevé à chaque campagne.
+
+
+#Un suivi effectué en 2006 ne traduit pas la présence d'une pollution.
+
+19l0l0	Un_suivi_effectué	N
+19l0l1	en_2006	T
+
+#La campagne du premier semestre 2009 à été réalisée le 14 avril 2009...
+
+20l0l0	La_campagne_du	N
+20l0l1	premier_semestre_2009	T
+20l0l2	à_été_réalisée	N
+20l0l3	le_14_avril_2009__	T

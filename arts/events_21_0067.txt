@@ -1,0 +1,234 @@
+
+#21.0067
+#La station service AGIP/ENI France est en activité depuis les années 1980.
+
+0l0l0	La_station_service_AGIP	O
+0l0l1	ENI_France	O
+0l0l2	est_en_activité	N
+0l0l3	depuis_les_années_1980__	T
+0l1l0	La_station_service_AGIP___ENI_France	I
+
+#Les installations du site comprenaient:
+
+1l0l0	Les_installations	O
+
+#- une boutique avec une cuve FOD de 3 m3
+
+2l1l0	une_cuve_FOD	I
+
+#- 5 îlots de distribution
+
+
+#- un parc à cuves comprenant 3 cuves de carburants de 30 m3 chacun
+
+4l0l0	un_parc_à_cuves	O
+4l0l1	comprenant	R
+4l0l2	3_cuves_de_carburants	O
+4l1l0	cuves	D
+4l1l1	3_cuves_de	D
+4l1l2	carburants	U
+
+#- une cuve de 20 m3 séparée
+
+5l1l0	une_cuve_de	D
+
+#- un séparateur d'hydrocarbures
+
+6l0l0	hydrocarbures	O
+6l1l0	hydrocarbures	S
+
+#2009: le site a cessé son activité.
+
+7l0l0	2009__	T
+7l0l1	le_site	O
+7l0l2	a_cessé	N
+7l0l3	son_activité	N
+
+#2013: démantèlement et démolition des installations présents sur le site.
+
+8l0l0	2013	T
+8l0l1	démantèlement	N
+8l0l2	démolition_des_installations	N
+
+#27 janvier 2010: suite à la cessation d'activité du site, la société ENI France demande la réalisation d'un diagnostic environnemental à un bureau d'étude.
+
+9l0l0	27_janvier_2010__	T
+9l0l1	suite_à	R
+9l0l2	la_cessation_d__activité	N
+9l0l3	du_site	O
+9l0l4	la_société_ENI_France	O
+9l0l5	demande_la_réalisation_d__un_diagnostic_environnemental	N
+9l0l6	un_bureau_d__étude	O
+9l1l0	la_société_ENI_France	I
+
+#Celui-ci révèle:
+
+
+#- une contamination en hydrocarbures C10-C40 au droit de l'îlot n°1, du dépotage FOD et de
+
+11l0l0	une_contamination	O
+11l0l1	dépotage_FOD	N
+11l1l0	hydrocarbures_C10_C40	S
+
+#l'ancien volucompteur 2 temps
+
+
+#- une contamination en hydrocarbures C10-C40 et composés volatils au droit des îlots n°2 et 3
+
+13l1l0	hydrocarbures_C10_C40	S
+13l1l1	composés_volatils	S
+
+#et du dépotage
+
+14l0l0	dépotage	O
+
+#- une contamination en composés volatils et métaux lourds (cuivre et mercure) au droit de l'îlot
+
+15l0l0	au_droit_de_l__îlot	L
+15l1l0	métaux_lourds	S
+15l1l1	cuivre	S
+15l1l2	mercure	S
+
+#n°5
+
+
+#- une contamination en mercure au droit de l'îlot n°4.
+
+17l1l0	mercure	S
+
+#- l'absence de contamination dans les eaux souterraines.
+
+18l0l0	contamination	O
+
+#Mi-juin 2013: l'exploitant effectue la mise en sécurité du site, le démantèlement et évacuation des installations du site, soit auvent, distributeurs, toutes les canalisations et cuves enterrées ainsi que le séparateur d'hydrocarbures.
+
+19l0l0	Mi_juin_2013__	T
+19l0l1	l__exploitant	O
+19l0l2	effectue_la_mise_en_sécurité	N
+19l0l3	du_site	O
+19l0l4	le_démantèlement	N
+19l0l5	évacuation_des_installations_du_site	N
+19l0l6	toutes_les_canalisations	O
+19l0l7	cuves_enterrées	O
+19l1l0	cuves_enterrées	D
+19l1l1	séparateur_d__hydrocarbures	S
+
+#Juillet 2013: réalisation par l'exploitant de travaux de dépollution des sols
+
+20l0l0	Juillet_2013	T
+20l0l1	__réalisation	N
+20l0l2	l__exploitant	O
+20l0l3	de_travaux_de_dépollution	N
+20l0l4	sols	O
+
+#Excavations des terres polluées pour les zones suivantes:
+
+21l0l0	Excavations	N
+21l0l1	des_terres_polluées	O
+
+#- zone de la cuve FOD de 3 m3
+
+22l1l0	cuve_FOD	I
+
+#- zone de l'îlot n°3 VL de distribution
+
+23l0l0	distribution	A
+
+#- zone de l'îlot n°1 PL de distribution
+
+24l0l0	distribution	O
+
+#- zone des 3 cuves de carburants de 30 m3
+
+25l0l0	3_cuves_de_carburants	O
+25l1l0	cuves_de	D
+25l1l1	carburants	U
+
+#- zone de la cuve de 20 m3 séparée
+
+
+#- zone du séparateur d'hydrocarbures
+
+27l0l0	hydrocarbures	O
+27l1l0	hydrocarbures	S
+
+#- zone correspondant à l'ancien volucompteur 2T
+
+
+#Evacuation des terres excavées, soit 255,02 tonnes, en filière de traitement biologique
+
+29l0l0	Evacuation_des_terres_excavées	N
+29l0l1	filière_de_traitement_biologique	O
+
+#Les zones correspondant à la cuve de 20 m3 séparée, aux îlots de distribution et aux 3 cuves de carburants de 30 m3 ont été remblayées avec des matériaux d'apport dont les origines et les caractéristiques chimiques sont inconnus.
+
+30l0l0	Les_zones	O
+30l0l1	correspondant_à	R
+30l0l2	la_cuve	O
+30l0l3	3_cuves_de_carburants	O
+30l0l4	ont_été_remblayées	N
+30l0l5	avec_des_matériaux	O
+30l1l0	la_cuve	D
+30l1l1	3_cuves_de	D
+30l1l2	carburants	U
+
+#Remblaiement des autres zones avec du sable de cuvelage propre et des terres de décapage.
+
+31l0l0	Remblaiement	N
+31l0l1	des_autres_zones	O
+31l0l2	du_sable_de_cuvelage	O
+
+#La visite d'inspection du 3 décembre 2013 a confirmé la bonne réalisation des travaux
+
+32l0l0	La_visite_d__inspection	N
+32l0l1	3_décembre_2013	T
+32l0l2	a_confirmé_la_bonne	N
+32l0l3	réalisation_des_travaux	O
+
+#19-21 mars 2014: l'exploitant réalise une caractérisation environnementale des matériaux d'apports inconnus pour les remblais.
+
+33l0l0	19	R
+33l0l1	__21_mars_2014__	T
+33l0l2	l__exploitant	O
+33l0l3	réalise_une_caractérisation_environnementale	N
+33l0l4	remblais	N
+
+#- présence d'hydrocarbures c10-c40, xylènes, HAP et PCB dans les matériaux d'apport avec des concentrations en hydrocarbure entre 210 et 300 mg/kg.
+
+34l0l0	hydrocarbure	O
+34l1l0	présence_d__hydrocarbures_c10_c40	S
+34l1l1	xylènes	S
+34l1l2	HAP	S
+34l1l3	PCB	S
+34l1l4	hydrocarbure	S
+
+#L'exploitant considère que les concentrations sont très faibles et que le matériaux peut être considéré comme étant inertes.
+
+35l0l0	L__exploitant	O
+35l0l1	le_matériaux	O
+
+#3 juillet 2014: par arrêté préfectoral, la société ENI France est tenue d'appliquer et de respecter les exigences suivantes:
+
+36l0l0	3_juillet_2014__	T
+36l0l1	par_arrêté_préfectoral	O
+36l0l2	la_société_ENI_France	O
+36l0l3	est_tenue_d_	N
+36l0l4	les_exigences	O
+36l1l0	la_société_ENI_France	I
+
+#- installation de 3 piézomètres pour la surveillance en HCT, HAP, et BTEX dans les eaux souterraines à une fréquence semestrielle.
+
+37l0l0	installation	N
+37l0l1	la_surveillance	A
+37l0l2	HCT	O
+37l1l0	HCT	S
+37l1l1	HAP	S
+37l1l2	BTEX	S
+
+#- réalisation d'un bilan quadriennal de la qualité des eaux souterraines.
+
+38l0l0	réalisation_d__un_bilan_quadriennal	N
+38l0l1	la_qualité_des_eaux_souterraines	O
+
+#La première campagne montre l'absence de dépassements des valeurs de référence pour l'ensemble des échantillons analysés
+

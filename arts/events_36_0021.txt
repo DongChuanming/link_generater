@@ -1,0 +1,116 @@
+
+#36.0021
+#Le site est dans la zone industrielle la plus importante et la plus ancienne de Chateauroux.
+
+0l0l0	Le_site	O
+0l0l1	est_dans_la_zone_industrielle_la_plus_importante_et_la_plus_ancienne_de_Chateauroux	L
+
+#Le seul voisinage sensible est constitué d'une garderie d'enfants située à 200 m.
+
+
+#Au niveau du sous-sol, on relève la présence  jusqu'à 6 m de profondeur d'argile sableuse ou de sable crayeux ainsi que d'une nappe à faible profondeur (2m).
+
+
+#Le site est clos sur toute sa périphérie.
+
+3l0l0	Le_site	O
+
+#A l'occasion des travaux d'excavation pour la réalisation d'une fosse, la société Hydroaluminium a fait réaliser un diagnostic des sols.
+
+4l0l0	A_l__occasion	R
+4l0l1	des_travaux_d__excavation	N
+4l0l2	la_réalisation_d_	R
+4l0l3	une_fosse	O
+4l0l4	la_société_Hydroaluminium	O
+4l0l5	a_fait_réaliser	N
+4l0l6	un_diagnostic_des_sols	N
+4l1l0	la_société_Hydroaluminium	I
+
+#En avril 2000, des investigations ont permis de détecter des pollutions des sols au chrome hexavalent et des eaux souterraines en aluminium, chrome, nickel, plomb et cyanures totaux ont été identifiées.
+
+5l0l0	En_avril_2000__	T
+5l0l1	des_investigations	N
+5l0l2	détecter	N
+5l0l3	chrome_hexavalent	O
+5l0l4	des_eaux_souterraines	O
+5l0l5	ont_été_identifiées	N
+5l1l0	chrome_hexavalent	S
+5l1l1	aluminium	S
+5l1l2	chrome	S
+5l1l3	nickel	S
+5l1l4	plomb	S
+5l1l5	cyanures_totaux	S
+
+#Il n'a été procédé à aucune dépollution , l'évaluation simplifiée des risques réalisée en 2001 ayant conclu à un site de classe 2 (c'est à dire à surveiller).
+
+6l0l0	dépollution	N
+6l0l1	évaluation_simplifiée_des_risques_réalisée	N
+6l0l2	en_2001	T
+6l0l3	ayant	N
+6l0l4	un_site_de_classe_2	O
+
+#Les terres excavées ont été laissées en l'état sur le site.
+
+7l0l0	Les_terres_excavées	O
+7l0l1	ont_été_laissées	N
+
+#La surveillance étant alors assurée par un seul piézomètre, un arrêté préfectoral imposant l'implantation de trois piézomètres de contrôle des eaux souterraines sous-jacentes au site, sous un délai de 18 mois, a été notifié à l'industriel en avril 2002.
+
+8l0l0	La_surveillance	A
+8l0l1	un_seul_piézomètre	O
+8l0l2	un_arrêté_préfectoral	O
+8l0l3	imposant_l__implantation	N
+8l0l4	de_trois_piézomètres	O
+8l0l5	contrôle_des_eaux_souterraines	A
+8l0l6	sous_jacentes	O
+8l0l7	sous_un_délai_de_18_mois	T
+8l0l8	a_été_notifié	N
+8l0l9	l__industriel	O
+8l0l10	en_avril_2002	T
+
+#Les résultats de la campagne de prélèvements effectuée en 2004 sur les piézomètres installés n'ont pas révélé d'impact avéré sur les eaux souterraines pour les polluants mesurés (chrome, cyanures, zinc, aluminium, nickel, cuivre, cadmium et hydrocarbures en concentrations inférieures aux valeurs de constat d'impact pour un usage sensible).
+
+9l0l0	la_campagne_de_prélèvements_effectuée	N
+9l0l1	en_2004	T
+9l1l0	polluants	U
+9l1l1	chrome	S
+9l1l2	cyanures	S
+9l1l3	zinc	S
+9l1l4	aluminium	S
+9l1l5	nickel	S
+9l1l6	cuivre	S
+9l1l7	cadmium	S
+9l1l8	hydrocarbures	S
+
+#Cette surveillance des eaux souteraines est effectuée depuis de façon semestrielle et dans le cadre du bilan de fonctionnement de la société.
+
+10l0l0	Cette_surveillance	A
+10l0l1	eaux_souteraines	O
+10l0l2	est_effectuée_depuis	N
+10l0l3	la_société	O
+
+#Les résultats des campagnes de prélevements indiquent q'il n'y a pas d'impact significatif des activités du site industriel sur la nappe sous-jacente.
+
+11l0l0	Les_résultats	O
+11l0l1	des_campagnes_de_prélevements	N
+11l0l2	site_industriel	A
+11l0l3	la_nappe_sous_jacente	O
+
+#L'arrêté préfectoral du 10/04/2002 portant obligation pour Hydroaluminium d'aménager des piézomètres de contrôle de la qualité des eaux souterraines a été abrogé par l'arrêté du 31/07/2008, les dispositions de surveillance ayant été reprises dans l'article 5 du nouvel arrêté pour la surveillance des impacts de fonctionnement de l'activité sur la qualité de l'eau.
+
+12l0l0	L__arrêté_préfectoral	O
+12l0l1	10_04_2002	T
+12l0l2	portant_obligation	N
+12l0l3	Hydroaluminium	O
+12l0l4	d__aménager	N
+12l0l5	des_piézomètres	O
+12l0l6	contrôle_de_la_qualité_des_eaux_souterraines	A
+12l0l7	a_été_abrogé	N
+12l0l8	l__arrêté	O
+12l0l9	31_07_2008	T
+12l0l10	surveillance	A
+12l0l11	ayant_été_reprises	N
+12l0l12	la_surveillance_des_impacts_de_fonctionnement	A
+12l0l13	l__activité	O
+12l0l14	sur	R
+12l0l15	la_qualité_de_l__eau	A

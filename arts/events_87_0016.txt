@@ -1,0 +1,211 @@
+
+#87.0016
+#Suite à une fuite intervenue au niveau d'une station service, des infiltrations d'eaux polluées par des hydrocarbures ont lieu dans les sous-sols d'un immeuble situé à l'aval.
+
+0l0l0	Suite_à_une_fuite_intervenue_au_niveau_d__une	O
+0l0l1	service___des	T
+0l0l2	infiltrations_d__eaux_polluées_par	O
+0l0l3	des_hydrocarbures	T
+0l0l4	ont_lieu_dans_les_sous_sols_d__un_immeuble_situé	N
+0l0l5	à_l__aval__	O
+0l1l0	infiltrations	I
+
+#1.	Genèse de l’affaire, mesures de mise en sécurité immédiates :
+
+1l0l0	mesures_de_mise	O
+1l0l1	en_sécurité_immédiates	N
+
+#Les odeurs d'essence dans l'immeuble d'habitation collective ont permis au gardien de ce dernier de donner l'alerte.
+
+2l0l0	Les	R
+2l0l1	odeurs_d__essence_dans_l_	N
+2l0l2	immeuble_d_	R
+2l0l3	habitation_collective	O
+2l0l4	ont_permis_au_gardien_de_ce_dernier	O
+2l0l5	donner_l__alerte__	O
+2l1l0	donner_l__alerte__	S
+
+#Une ventilation des sous-sols ainsi que de certaines parties de l'immeuble a été immédiatement mise en place à l'aide de matériel antidéflagrant.
+
+3l0l0	ventilation_des_sous_sols	O
+
+#Parallèlement, des mesures fréquentes d'explosimètrie, réalisées par les sapeurs pompiers, ont exclu tout risque de cette nature.
+
+4l0l0	réalisées_par_les	N
+4l1l0	Parallèlement___des_mesures	U
+
+#L'analyse des eaux souterraines a révélé un profil chromatographique typique d'hydrocarbures de type essence.
+
+5l0l0	L__analyse_des_eaux_souterraines	O
+5l0l1	typique_d__hydrocarbures_de_type_essence	N
+
+#Dès connaissance de cette information (le 12/04) la cuve "super et sans plomb 95" a été vidée puis a subi un test d'étanchéité qui a conclu à l'absence de fuite.
+
+
+#2.	Suppression de la source primaire de pollution et mise en place d’un traitement des eaux souterraines :
+
+7l1l0	des_eaux_souterraines__	S
+
+#Une étude de sols réalisée par le bureau d'étude AMDE, a révélé une pollution des terres au niveau de la station-service.
+
+8l0l0	Une_étude_de_sols	T
+8l0l1	réalisée_par_le_bureau	O
+8l0l2	d__étude	T
+8l0l3	AMDE___a_révélé	O
+8l0l4	terres_au_niveau	N
+8l0l5	de_la_station___service__	N
+8l1l0	__a_révélé	D
+8l1l1	pollution_des	S
+
+#Les cuves ont donc été extraites et éliminées.
+
+9l0l0	Les_cuves_ont_donc	N
+9l0l1	été_extraites_et_éliminées__	O
+
+#Les terres polluées ont été excavées et envoyées en centre de traitement dûment autorisé.
+
+10l0l0	Les_terres_polluées_ont_été	N
+10l0l1	excavées_et_envoyées_en_centre	O
+10l0l2	traitement_dûment	N
+10l0l3	autorisé	O
+10l0l4	_	N
+10l1l0	envoyées_en_centre	I
+
+#Les eaux souterraines accumulées au pied de l'immeuble sont pompées et traitées via un dispositif séparateur d'hydrocarbures.
+
+11l0l0	souterraines_accumulées	N
+11l0l1	au_pied_de_l_	N
+
+#Un piézomètre de contrôle, installé entre les 2 puits de pompage, permet de suivre l'évolution de la pollution.
+
+12l0l0	Un_piézomètre_de_contrôle	O
+12l0l1	__installé_entre_les_2_puits_de_pompage___permet	N
+
+#Le rabattement de la nappe empêche l'infiltration d'eaux dans les sous-sols de l'immeuble.
+
+13l0l0	Le_rabattement_de_la_nappe	O
+
+#Depuis le déclenchement de l'affaire, la préfecture a organisé de nombreuses réunions auxquelles assistent des représentants de l'ensemble des parties prenantes (syndic. des copropriétaires, habitants de l'immeuble, exploitant, Ville de Limoges, services de l'Etat).
+
+14l0l0	Depuis_le_déclenchement	O
+14l0l1	préfecture_a_organisé	O
+
+#La dernière réunion s'est tenue le 17 septembre 2002.
+
+15l0l0	dernière_réunion	N
+
+#Considérant l'évolution favorable de la situation, aucune nouvelle réunion n'a été programmée par la suite.
+
+16l0l0	Considérant_l__évolution_favorable	N
+16l0l1	la_situation__	O
+16l0l2	aucune_nouvelle	N
+16l0l3	réunion_n__a_été_programmée	N
+
+#En octobre 2002, suite au dépôt d'un dossier de cessation d'activité par l'exploitant, la DRIRE a demandé à ce dernier de compléter son dossier par :
+
+17l0l0	En_octobre_2002___suite	N
+17l0l1	au_dépôt_d_	N
+17l0l2	un_dossier_de_cessation	T
+
+#- la proposition de seuils de dépollution des eaux ;
+
+
+#- les modalités du programme de surveillance des eaux souterraines.
+
+19l0l0	__les_modalités_du	T
+19l0l1	programme_de_surveillance	O
+19l0l2	des_eaux_souterraines__	N
+
+#Un nouveau bilan a été réalisé en août 2003.
+
+20l0l0	réalisé_en_août_2003	N
+20l0l1	_	O
+
+#Ce bilan révèle que les concentrations en hydrocarbures mesurées dans les ouvrages de surveillance des eaux souterraines diminuent régulièrement.
+
+21l0l0	Ce_bilan_révèle	O
+21l0l1	concentrations_en_hydrocarbures_mesurées_dans	A
+
+#Depuis le début de l'opération de pompage, environ 450 litres d'hydrocarbures libres ont été extraits de la nappe.
+
+22l0l0	Depuis_le_début_de	N
+22l0l1	l__opération	N
+22l0l2	de_pompage	T
+
+#3.	Surveillance des eaux souterraines :
+
+
+#Sur proposition de l’Inspection des Installations Classées et après avis favorable du Conseil Départemental d’Hygiène dans sa séance du 17 février 2004, un arrêté préfectoral (DRCLE 1-N° 2004-447 du 12 mars 2014) a imposé une surveillance sur 2 puits et 1 piézomètre semestriellement pour les années 2004 et 2005 sur les hydrocarbures totaux et les BTEX.
+
+24l0l0	Sur_proposition	T
+24l0l1	de_l__Inspection	N
+24l0l2	des_Installations	A
+24l0l3	du_Conseil_Départemental	N
+24l0l4	d_	O
+24l1l0	après_avis_favorable	S
+
+#4 campagnes de surveillance ont eu lieu en avril 2004, mars et septembre 2005 et février 2006.
+
+25l0l0	campagnes_de_surveillance_ont_eu_lieu	A
+
+#La dernière campagne a permis de constater la disparition du film d’hydrocarbures.
+
+26l0l0	campagne_a_permis_de_constater_la_disparition_du_film	O
+
+#Cependant le rapport de contrôle, s’il concluait que la poursuite du suivi n’apparaissait plus nécessaire suite au déplacement et à la reconstruction de la station service à l’origine de la pollution conformément à la réglementation en vigueur, mentionnait cependant la présence d’un impact résiduel sur le piézomètre, même si les résultats pouvaient être discutés en raison d’une mauvaise réalimentation en eau ne permettant pas de purger correctement le piézomètre.
+
+27l0l0	Cependant_le_rapport_de_contrôle	N
+27l0l1	__s__il	N
+27l0l2	concluait_que_la_poursuite_du_suivi_n__apparaissait_plus_nécessaire_suite_au_déplacement_et_à_la_reconstruction_de_la_station_service_à_l__origine_de_la_pollution_conformément_à_la_réglementation_en_vigueur___mentionnait_cependant_la_présence_d__un_impact_résiduel_sur_le_piézomètre___même_si_les_résultats_pouvaient_être_discutés_en_raison_d__une_mauvaise_réalimentation_en_eau_ne_permettant_pas_de_purger_correctement_le_piézomètre__	T
+
+#Suite à une visite sur site le 14 avril 2010, il a été demandé à la société COOP ATLANTIQUE de reprendre la surveillance et au vu de ses résultats, soit de la continuer avec des ouvrages adaptés au contexte hydrogéologique local et correctement protégés, soit de procéder à la neutralisation des ouvrages dans les règles de l’art afin d’éviter tout risque de pollution accidentelle par la voirie.
+
+28l0l0	il_a_été_demandé	N
+28l0l1	la_société_COOP_ATLANTIQUE	O
+28l1l0	la_société_COOP_ATLANTIQUE	S
+
+#Les campagnes de surveillance qui ont suivi, si elles ne montrent pas de dégradation de la situation globale, font cependant état de la persistance d’un impact résiduel.
+
+29l0l0	ne_montrent_pas_de	O
+29l0l1	dégradation	N
+29l0l2	de_la_situation_globale	O
+29l0l3	__font_cependant_état	N
+29l0l4	la_persistance_d__un_impact	N
+29l0l5	résiduel__	O
+
+#4.	Adaptation de la surveillance des eaux souterraines – Bilan quadriennal :
+
+30l0l0	4__	R
+30l0l1	Adaptation	R
+30l0l2	de_la_surveillance	N
+30l0l3	des_eaux	T
+30l0l4	souterraines__	N
+30l0l5	Bilan_quadriennal__	O
+30l1l0	Bilan_quadriennal__	I
+
+#Suite à la dernière visite en date (13 octobre 2014), l’Inspection des Installations Classées a demandé la poursuite de la surveillance.
+
+31l0l0	Suite_à_la_dernière_visite_en_date	N
+
+#Par courrier du 10 novembre 2014, COOP ATLANTIQUE confirme mettre en place un plan d’action pour réaliser cette surveillance.
+
+32l0l0	novembre_2014___COOP_ATLANTIQUE_confirme	A
+
+#En fonction des résultats, il est envisagé d’encadrer la poursuite de cette surveillance par arrêté préfectoral avec prescription d’un bilan quadriennal.
+
+33l0l0	En_fonction	R
+33l0l1	des_résultats___il_est	N
+33l0l2	envisagé_d__encadrer	T
+33l0l3	la_poursuite_de_cette_surveillance_par	O
+33l0l4	arrêté	N
+33l0l5	préfectoral_avec_prescription_d__un	A
+
+#Le cas échéant, une analyse des risques résiduels suivant les méthodologies nationales mises en place en février 2007 pourra aussi  être prescrite.
+
+34l0l0	une_analyse_des_risques	T
+34l0l1	résiduels	O
+34l0l2	suivant	R
+34l0l3	les_méthodologies	N
+34l0l4	nationales_mises	O
+34l0l5	février_2007_pourra	A
+34l1l0	risques_résiduels	I

@@ -1,0 +1,907 @@
+
+#59.0593
+#Contexte hydrogéologique :
+
+0l0l0	Contexte_hydrogéologique	N
+
+#Le site repose sur des remblais couvrant les alluvions de la Deûle qui masquent un substratum sablo-argileux (Sables d'Ostricourt et Argiles de Louvil).
+
+1l0l0	Le_site	O
+1l0l1	repose_sur	R
+1l0l2	des_remblais	N
+1l0l3	la_Deûle	L
+1l0l4	Ostricourt	L
+1l1l0	Sables	S
+
+#Ces formations recouvrent la craie, les marnes du secondaire puis le calcaire carbonifère.
+
+
+#Les deux horizons calcaires renferment chacun une nappe captive utilisée pour l'approvisionnement en eaux potable et industrielle (à proximité du site, forages des Grandes Malteries Modernes (nappe du calcaire Carbonifère) et de SONOCO PAPER GROUP (nappe de la craie) à MARQUETTE notamment) alors qu'une nappe alluviale accompagne la Deûle.
+
+3l0l0	l__approvisionnement_en_eaux_potable_et_industrielle	A
+3l0l1	à_proximité_du_site	L
+3l0l2	forages	A
+3l0l3	des_Grandes_Malteries_Modernes	L
+3l0l4	MARQUETTE	O
+3l0l5	accompagne_la_Deûle__	L
+3l1l0	des_Grandes_Malteries_Modernes	I
+3l1l1	SONOCO_PAPER_GROUP	I
+
+#La production de la nappe alluviale très faible et sa vulnérabilité ont condamné son exploitation.
+
+4l0l0	ont_condamné_son_exploitation	N
+
+#L'écoulement général de la nappe de la craie est orienté Sud / Nord mais la piézométrie réalisée ne permet pas de déterminer précisément le sens d'écoulement local.
+
+5l0l0	orienté_Sud	O
+
+#Elle est localement protégée contre une pollution venant de la surface.
+
+
+#Cependant, on ne peut exclure une migration de la pollution depuis la nappe alluviale par l'intermédiaire d'anciens forages.
+
+7l0l0	la_pollution	O
+
+#L'écoulement de la nappe du calcaire carbonifère enfin est orienté SE/NO.
+
+8l0l0	orienté_SE___NO	L
+
+#Elle est présente à partir d'une profondeur de 75m.
+
+9l1l0	Elle	S
+
+#Elle est protégée par les horizons surplombant le calcaire.
+
+10l0l0	les	O
+10l0l1	horizons_surplombant_le_calcaire	L
+
+#Une surveillance des eaux souterraines a également été mise en place dans le cadre de l'application de l'arrêté ministériel du 2 février 1998.
+
+11l0l0	Une_surveillance_des_eaux_souterraines	A
+11l0l1	a_également_été_mise_en_place	N
+11l0l2	dans_le_cadre_de	R
+11l0l3	l_	O
+11l0l4	l_	O
+11l0l5	2_février_1998	T
+
+#L'intégralité du site décrit précédemment a par ailleurs fait l'objet d'un diagnostic initial des sols dans le cadre de l'application de la circulaire du 3 avril 1996.
+
+12l0l0	fait_l__objet_d_	R
+12l0l1	un_diagnostic_initial	N
+12l0l2	sols	O
+12l0l3	dans_le_cadre_de	R
+12l0l4	l__application	N
+12l0l5	3_avril_1996	T
+
+#Caractéristiques du site :
+
+
+#L'histoire de l'usine se décompose en quatre grandes périodes :
+
+
+#- 1849 à 1914 : industrialisation de l'acide sulfurique et de ses dérivés (sulfates notamment) ainsi que de la fabrication entre autres de l'acide nitrique, des silicates et des superphosphates, du chlorure de chaux, de la soude, du chlorure de baryum, des sels de baryte ;
+
+15l0l0	1849_à_1914	T
+15l0l1	__industrialisation	N
+15l0l2	l__acide_sulfurique	O
+15l0l3	la_fabrication	A
+15l1l0	acide_sulfurique	S
+15l1l1	ses_dérivés	U
+15l1l2	sulfates_notamment	S
+15l1l3	acide_nitrique	S
+15l1l4	silicates	S
+15l1l5	superphosphates	S
+15l1l6	chlorure	S
+15l1l7	de_chaux	I
+15l1l8	soude	S
+15l1l9	chlorure_de_baryum	S
+15l1l10	sels_de_baryte	S
+
+#- 1914 à 1918 : l'usine est vidée de son contenu par réquisitions successives ;
+
+16l0l0	1914_à_1918	T
+16l0l1	l__usine	O
+16l0l2	est_vidée	N
+
+#- 1920 à 1963 : fabrication des engrais et développement de l'ammoniac et de l'acide nitrique ; reprise de la fabrication de l'acide sulfurique ; début de la production des produits sulfités et de l'anhydride sulfurique ;
+
+17l0l0	1963	T
+17l0l1	__fabrication_des_engrais	O
+17l0l2	développement	N
+17l0l3	l__ammoniac	O
+17l0l4	l__acide_nitrique	O
+17l0l5	la_fabrication_de_l__acide_sulfurique	A
+17l0l6	début_de_la_production_des_produits_sulfités	N
+17l1l0	ammoniac	S
+17l1l1	acide_nitrique	S
+17l1l2	acide_sulfurique	S
+17l1l3	produits_sulfités	S
+17l1l4	anhydride_sulfurique	S
+
+#- 1963 à 2001 : développement du T.
+
+18l0l0	1963_à_2001	T
+18l0l1	__développement	N
+18l0l2	du_T_	O
+
+#.I. (toluylène disocyanate) et poursuite du déclin des activités minérales.
+
+19l0l0	poursuite_du_déclin	N
+19l0l1	activités_minérales	A
+19l1l0	__toluylène_disocyanate	S
+
+#Le site de production a occupé jusqu'à 33 ha sur les communes de LA MADELEINE, SAINT-ANDRE-LEZ-LILLE et MARQUETTE-LEZ-LILLE.
+
+20l0l0	Le_site_de_production	O
+20l0l1	a	N
+20l0l2	33_ha	O
+20l0l3	sur_les_communes_de_LA_MADELEINE	L
+20l0l4	SAINT_ANDRE_LEZ_LILLE	L
+20l0l5	MARQUETTE___LEZ___LILLE	L
+
+#Il peut ainsi être découpé en cinq secteurs d'activités :
+
+
+#-	PAI (Produits Azotés Industriels),
+
+22l1l0	PAI	I
+22l1l1	Produits_Azotés_Industriels	S
+
+#-	ANS (Acide Nitrique de Synthèse),
+
+23l1l0	ANS___Acide_Nitrique	S
+23l1l1	de_Synthèse	I
+
+#-	AS/PS (Acide Sulfurique / Produits Sulfités),
+
+24l1l0	AS___PS	S
+24l1l1	Acide_Sulfurique	S
+24l1l2	Produits_Sulfités	S
+
+#-	GMG (Gaz Moyens Généraux),
+
+25l1l0	GMG	I
+
+#-	Organique (Production du TDI).
+
+
+#Les unités de production de T.
+
+
+#.I. ont été construites en 1963 par la société DEKACHIMIE, selon le procédé américain DUPONT DE NEMOURS.
+
+28l0l0	ont_été_construites	N
+28l0l1	en_1963	T
+28l0l2	la_société_DEKACHIMIE	O
+28l0l3	DUPONT_DE_NEMOURS	O
+28l1l0	la_société_DEKACHIMIE	I
+28l1l1	DUPONT_DE_NEMOURS	I
+
+#Elles ont été autorisées par arrêté préfectoral du 25 juillet 1962 modifié le 25 mars 1963 et étendues en 1973 (arrêté préfectoral du 4 septembre 1970) pour une capacité nominale de production de 140 t/j de T.
+
+29l0l0	Elles	O
+29l0l1	ont_été_autorisées	N
+29l0l2	par_arrêté_préfectoral	O
+29l0l3	25_juillet_1962	T
+29l0l4	le_25_mars_1963	T
+29l0l5	et_étendues	N
+29l0l6	en_1973	T
+29l0l7	arrêté_préfectoral_du	O
+29l0l8	4_septembre_1970	T
+29l0l9	production	A
+
+#.I..
+
+
+#La société RHONE POULENC CHIMIE est devenue RHODIA CHIMIE depuis le 1er janvier 1998.
+
+31l0l0	La_société_RHONE_POULENC_CHIMIE	O
+31l0l1	est_devenue	N
+31l0l2	RHODIA_CHIMIE	O
+31l0l3	depuis_le_1er_janvier_1998__	T
+31l1l0	La_société_RHONE_POULENC_CHIMIE	I
+31l1l1	RHODIA_CHIMIE	I
+
+#Puis a été créée le 1er juillet 2000 une filiale RHODIA INTERMEDIAIRES qui a intégré les activités de l’usine de SAINT-ANDRE.
+
+32l0l0	a_été_créée	N
+32l0l1	le_1er_juillet_2000	T
+32l0l2	une_filiale_RHODIA_INTERMEDIAIRES	O
+32l0l3	a_intégré	N
+32l0l4	les_activités_de	A
+32l0l5	l__usine	O
+32l0l6	SAINT_ANDRE	L
+32l1l0	RHODIA_INTERMEDIAIRES	I
+
+#Jusque la fin de l’année 2001, elle était spécialisée dans la fabrication du T.
+
+33l0l0	Jusque_la_fin	T
+33l0l1	de_l_	N
+33l0l2	année_2001__	T
+33l0l3	elle	O
+33l0l4	était_spécialisée_dans	R
+33l0l5	la_fabrication_du_T_	A
+
+#.I. (toluylène diisocyanate), une des matières premières des mousses polyuréthanes et employait environ 280 personnes.
+
+34l1l0	toluylène_diisocyanate	S
+34l1l1	matières_premières	U
+34l1l2	mousses_polyuréthanes	S
+
+#En décembre 2001, la production de T.
+
+35l0l0	En_décembre_2001__	T
+35l0l1	la_production	N
+
+#.I. s’est arrêtée pour faire place à la production de T.
+
+36l0l0	s__est_arrêtée	N
+36l0l1	production	A
+
+#.A. (Toluylène Diamine), produit intermédiaire du T.
+
+37l0l0	_A_	O
+37l1l0	Toluylène_Diamine	S
+
+#.I., qui permet d’alimenter l’usine du PONT-DE-CLAIX, autre producteur de T.
+
+38l0l0	l_	O
+38l0l1	usine_du_PONT_DE_CLAIX	L
+38l0l2	producteur_de_T_	A
+
+#.I. de RHODIA faisant quant à lui l’objet d’une extension de capacité.
+
+39l0l0	RHODIA	O
+39l0l1	faisant_quant_à_lui_l__objet_d_	R
+39l0l2	une_extension_de_capacité	N
+39l1l0	RHODIA	I
+
+#Cette reconversion s’est accompagnée d’une diminution de l’effectif du site à environ 100 personnes.
+
+40l0l0	Cette_reconversion	N
+40l0l1	s__est_accompagnée	N
+40l0l2	d_	R
+40l0l3	une_diminution_de_l__effectif	N
+
+#L’adresse postale du site a également été transférée de LA MADELEINE à SAINT-ANDRE à cette occasion.
+
+41l0l0	L__adresse_postale_du_site	O
+41l0l1	a_également_été_transférée	N
+41l0l2	LA_MADELEINE	O
+41l0l3	SAINT_ANDRE	L
+
+#Secteur PAI :
+
+
+#Le secteur de 6,5 ha environ se situe sur les communes de LA MADELEINE et de MARQUETTE.
+
+43l0l0	Le_secteur	O
+43l0l1	se_situe_sur_les_communes_de_LA_MADELEINE	L
+43l0l2	et_de_MARQUETTE	L
+
+#La zone a été exploitée pour la production d'engrais :
+
+44l0l0	La_zone	O
+44l0l1	a_été_exploitée	N
+44l0l2	la_production_d__engrais	A
+
+#- nitrate d'ammoniaque à partir de 1939
+
+45l0l0	partir_de_1939	T
+45l1l0	nitrate_d__ammoniaque	S
+
+#- nitrate de chaux à partir de 1929
+
+46l0l0	partir_de_1929	T
+46l1l0	nitrate	S
+
+#- nitrate de soude, nitrite de soude et nitrate de potasse produit par campagnes successives.
+
+47l1l0	nitrate	S
+47l1l1	soude	S
+47l1l2	nitrite	S
+47l1l3	de	I
+47l1l4	soude	S
+47l1l5	nitrate	S
+47l1l6	de_potasse	I
+
+#- engrais ternaires à partir de 1939.
+
+48l0l0	partir_de_1939	T
+48l1l0	engrais_ternaires	S
+
+#- silicates alcalins (de 1852 à 1972).
+
+49l0l0	1852_à_1972	T
+49l1l0	silicates_alcalins	S
+
+#La plupart des bâtiments sont détruits.
+
+50l0l0	La_plupart_des_bâtiments	O
+
+#La présence de cuves de fioul enterrées inertées n’est pas à exclure.
+
+51l1l0	cuves_de	D
+51l1l1	fioul_enterrées_inertées	D
+
+#Les sources de pollution peuvent être considérées comme étant les sols et les remblais présents.
+
+52l0l0	Les_sources_de_pollution	O
+52l0l1	remblais	N
+
+#Les substances à prendre en compte sont :
+
+
+#- zinc, cuivre et plomb sur le presque totalité du secteur ;
+
+54l1l0	zinc	S
+54l1l1	cuivre	S
+54l1l2	plomb	S
+
+#- nitrates, sulfates et ammonium dans la moitié sud ;
+
+55l0l0	ammonium	O
+55l1l0	nitrates	S
+55l1l1	sulfates	S
+55l1l2	ammonium	S
+
+#- sulfates, plomb zinc et cuivre du côté de la rue de Lille ;
+
+56l0l0	cuivre	O
+56l0l1	du_côté_de_la_rue_de_Lille	L
+56l1l0	sulfates	S
+56l1l1	plomb_zinc	S
+56l1l2	cuivre	S
+
+#- arsenic côté canal de la Deûle.
+
+57l0l0	arsenic	O
+57l0l1	côté_canal_de_la_Deûle	L
+57l1l0	arsenic	S
+
+#La nappe alluviale est contaminée par le potassium, les sulfates, nitrates, nitrites, chlorures, l'ammonium et le sodium.
+
+58l1l0	potassium	S
+58l1l1	les_sulfates	S
+58l1l2	nitrates	S
+58l1l3	nitrites	S
+58l1l4	chlorures	S
+58l1l5	ammonium	S
+58l1l6	sodium	S
+
+#L'apport de sulfates à la nappe de la craie est constaté par les analyses sur le forage 4 de l'usine.
+
+59l0l0	le_forage	N
+59l1l0	sulfates	S
+
+#Secteur ANS :
+
+
+#Le secteur d'environ 3 ha se situe sur la commune de LA MADELEINE.
+
+61l0l0	Le_secteur	O
+61l0l1	se_situe_sur_la_commune_de_LA_MADELEINE	L
+
+#La zone a été exploitée pour la production :
+
+62l0l0	La_zone	O
+62l0l1	a_été_exploitée	N
+62l0l2	la_production	A
+
+#- d'acide nitrique de synthèse à partir de 1845.
+
+63l0l0	partir_de_1845__	T
+63l1l0	acide_nitrique	S
+
+#- du sulfonitrique (mélange d'oléum et d'acide nitrique) à partir de 1925.
+
+64l0l0	partir_de_1925__	T
+64l1l0	du_sulfonitrique	S
+64l1l1	mélange_d__oléum	S
+64l1l2	acide_nitrique	S
+
+#- de solutions de nitrite et nitrate de sodium.
+
+65l1l0	nitrite	S
+65l1l1	nitrate_de_sodium	S
+
+#L'ensemble des installations de la zone a été détruit (notamment 12 postes de transformation au pyralène en 1992).
+
+66l0l0	L__ensemble_des_installations	O
+66l0l1	la_zone	O
+66l0l2	a_été_détruit	N
+66l0l3	transformation_au_pyralène	A
+66l0l4	en_1992	T
+66l1l0	pyralène	S
+
+#Les sources de pollution peuvent être considérées comme étant les sols et les remblais présents sur la zone.
+
+67l0l0	Les_sources_de_pollution	O
+
+#Les substances à prendre en compte sont :
+
+
+#- zinc, cuivre, plomb et arsenic sur la presque totalité de la zone ;
+
+69l1l0	zinc	S
+69l1l1	cuivre	S
+69l1l2	plomb	S
+69l1l3	arsenic	S
+
+#- mercure sur la moitié sud-est de la zone ;
+
+70l0l0	la_zone	O
+
+#- cadmium sur les deux tiers nord-ouest de la zone ;
+
+71l0l0	nord_ouest_de	N
+71l0l1	la_zone	O
+71l1l0	cadmium	S
+
+#- sulfates sur la totalité de la zone.
+
+72l1l0	sulfates	S
+
+#On note en particulier la présence importante de métaux dans la tranche de sols entre 1 et 2 m de profondeur.
+
+73l0l0	métaux	O
+73l0l1	la_tranche_de_sols	O
+73l1l0	métaux	S
+
+#Cette concentration diminue ensuite avec la profondeur.
+
+
+#La nappe alluviale est contaminée par des sulfates, du zinc et du cadmium.
+
+75l1l0	sulfates	S
+75l1l1	du_zinc	S
+75l1l2	cadmium	S
+
+#Secteur AS/PS :
+
+
+#Le secteur de 3,5 ha environ se trouve sur la commune de SAINT-ANDRE.
+
+77l0l0	Le_secteur	O
+77l0l1	3_5_ha_environ	O
+77l0l2	se_trouve_sur_la_commune_de_SAINT_ANDRE	L
+
+#La zone a été utilisée pour la production :
+
+78l0l0	La_zone	O
+78l0l1	a_été_utilisée	N
+78l0l2	pour_la	R
+78l0l3	production	A
+
+#- d'acide sulfurique.
+
+79l1l0	acide_sulfurique	S
+
+#- de produits sulfités (bisulfite de soude, sulfite de soude, métasulfite de soude, hyposulfite cristallisé et anhydride) ;
+
+80l1l0	produits_sulfités	U
+80l1l1	bisulfite	S
+80l1l2	de_soude	U
+80l1l3	sulfite	S
+80l1l4	soude	S
+80l1l5	métasulfite	S
+80l1l6	soude	S
+80l1l7	hyposulfite_cristallisé	S
+80l1l8	anhydride	S
+
+#- d'uranium raffiné dans un atelier pilote (à partir de 1955).
+
+81l0l0	un_atelier_pilote	O
+81l0l1	à_partir_de_1955____	T
+
+#- de chlorhydrine sulfurique ou acide chlorosulfurique et l'exploitation d'ateliers ou magasins généraux (réparation de wagons, plomberie, fabrication de bonbonnes, magasins général, électrique et génie civil).
+
+82l0l0	l_	O
+82l0l1	exploitation_d_	R
+82l0l2	ateliers_ou_magasins_généraux	O
+82l0l3	réparation_de_wagons	A
+82l0l4	fabrication_de_bonbonnes	A
+82l0l5	magasins_général	O
+82l1l0	chlorhydrine_sulfurique	S
+82l1l1	acide_chlorosulfurique	S
+
+#La plupart des bâtiments a été démolie en 1993/1994.
+
+83l0l0	La_plupart_des_bâtiments	O
+83l0l1	a_été_démolie	N
+83l0l2	en_1993_1994__	T
+
+#Ne restaient jusqu'en 2006 qu'un magasin, un atelier vide de réparation de wagons et un stockage de secours pour l'oléum.
+
+84l0l0	jusqu__en_2006	T
+84l0l1	réparation_de_wagons	O
+84l0l2	un_stockage_de_secours	O
+84l0l3	l__oléum	O
+84l1l0	oléum	S
+
+#Il existe de plus une zone où sont stockées les terres (environ 3000 m3) provenant de l'ancien embranchement ferroviaire dont une partie des terrains a été revendue à la société FICHAUX (torréfacteur de café).
+
+85l0l0	une_zone	O
+85l0l1	les_terres	O
+85l0l2	l__ancien_embranchement_ferroviaire	O
+85l0l3	une_partie_des_terrains	O
+85l0l4	a_été_revendue_à	N
+85l0l5	la_société_FICHAUX	O
+85l0l6	torréfacteur_de_café	A
+85l1l0	société_FICHAUX	I
+
+#L'atelier de traitement d'uranium a été démantelé vers 1970.
+
+86l0l0	L__atelier_de_traitement_d__uranium	O
+86l0l1	a_été_démantelé	N
+86l0l2	vers_1970__	T
+
+#Des pollutions de sols par le mercure, le plomb, le cuivre, le zinc et l'arsenic.
+
+87l0l0	Des_pollutions	N
+87l0l1	de_sols	O
+87l0l2	le_mercure	O
+87l1l0	mercure	S
+87l1l1	plomb	S
+87l1l2	cuivre	S
+87l1l3	zinc	S
+87l1l4	arsenic	S
+
+#La pollution par l'arsenic est très élevée sur l'ensemble de la zone et jusqu'à 5 mètres de profondeur.
+
+88l0l0	l__arsenic	O
+88l1l0	arsenic	S
+
+#Les analyses réalisées ont montré la possibilité d'un relargage de l'arsenic.
+
+89l0l0	Les_analyses_réalisées	N
+89l0l1	la_possibilité	O
+89l0l2	un_relargage	N
+89l0l3	l__arsenic	O
+89l1l0	arsenic	S
+
+#La pollution par le mercure est par contre localisée sur la moitié nord-est du site.
+
+90l0l0	localisée_sur_la_moitié_nord_est_du_site	L
+90l1l0	mercure	S
+
+#Une étude spécifique réalisée par l'AINF en 1999 n'a pas révélé de rayonnements résiduels supérieurs aux normes sanitaires.
+
+91l0l0	Une_étude_spécifique_réalisée	N
+91l0l1	l__AINF	O
+91l0l2	en_1999	T
+
+#La nappe alluviale est contaminée en sulfates, en ammonium et en arsenic.
+
+92l0l0	sulfates	O
+92l0l1	ammonium	O
+92l1l0	sulfates	S
+92l1l1	ammonium	S
+92l1l2	arsenic	S
+
+#Secteur GMG :
+
+
+#Le secteur de 5,2 ha environ se situe sur la commune de SAINT-ANDRE.
+
+94l0l0	se_situe_sur_la_commune_de_SAINT_ANDRE	L
+
+#La zone a été exploitée pour :
+
+95l0l0	La_zone	O
+95l0l1	a_été_exploitée	N
+
+#- la fabrication d'ammoniac à partir de 1928.
+
+96l0l0	la_fabrication_d__ammoniac	A
+96l0l1	partir_de_1928__	T
+96l1l0	ammoniac	S
+
+#- la production d'hydrogène et de monoxyde de carbone nécessaires à la production du T.
+
+97l0l0	la_production_d_	A
+97l1l0	hydrogène	U
+97l1l1	monoxyde_de_carbone_nécessaires	U
+97l1l2	T_	S
+
+#.I.
+
+
+#- la production d'énergie à partir du charbon puis du fuel lourd (1971) ;
+
+99l0l0	la_production_d__énergie	A
+99l0l1	charbon	O
+99l0l2	fuel_lourd	O
+99l0l3	__1971	T
+99l1l0	charbon	S
+99l1l1	fuel_lourd	S
+
+#- le traitement de l'eau en provenance de la Deûle ou d'un forage ;
+
+100l0l0	le_traitement	N
+100l0l1	l__eau	O
+100l0l2	la_Deûle	L
+
+#- des ateliers de mécanique générale et de tuyauteries ;
+
+101l0l0	ateliers_de_mécanique_générale_et_de_tuyauteries	A
+
+#- des magasins de matières premières (fer, cuivre, huiles, solvants…).
+
+102l1l0	cuivre	S
+102l1l1	huiles	S
+102l1l2	solvants	U
+
+#Le bâtiment " bicarbonate" et les structures de la synthèse d'ammoniac ont été démolis en 1993.
+
+103l0l0	Le_bâtiment___bicarbonate__	O
+103l0l1	les_structures_de_la_synthèse_d__ammoniac	O
+103l0l2	ont_été_démolis	N
+103l0l3	en_1993__	T
+103l1l0	__bicarbonate__	I
+103l1l1	synthèse_d__ammoniac	U
+
+#Les bâtiments de l'ancienne synthèse avaient été démantelés entre 1963 et 1965.
+
+104l0l0	Les_bâtiments	O
+104l0l1	l__ancienne_synthèse	O
+104l0l2	avaient_été_démantelés	N
+104l0l3	entre_1963_et_1965	T
+
+#La zone n'était jusqu’en 2006 plus utilisée que pour la production d'énergie et des matières premières utiles à la fabrication du T.
+
+105l0l0	La_zone	O
+105l0l1	n_	N
+105l0l2	était_jusqu__en_2006	T
+105l0l3	plus_utilisée_que	N
+105l0l4	pour	R
+105l0l5	la_production_d__énergie	A
+
+#.I..
+
+
+#Des teneurs supérieures aux VDSS (Valeurs de Définition de Sources Sol) ont été observées pour le mercure (partie centrale), le cuivre, l'arsenic (ensemble de la zone), le zinc, le plomb et les HAP.
+
+107l0l0	Des_teneurs	O
+107l1l0	mercure	S
+107l1l1	le_cuivre	S
+107l1l2	arsenic	S
+107l1l3	le_zinc	S
+107l1l4	plomb	S
+107l1l5	HAP	S
+
+#Les analyses de l'eau de la nappe alluviale montrent une pollution généralisée par le manganèse (5 piézomètres sur 8), les sulfates (4 sur 8) et l'ammonium (5 sur 8), une pollution plus ponctuelle par les chlorures, le fer, le sodium, les nitrates et le plomb (pour cette substance, un piézomètre situé en aval hydraulique de la zone).
+
+108l0l0	une_pollution_généralisée	N
+108l0l1	ammonium	O
+108l0l2	situé_en_aval_hydraulique_de_la_zone	L
+108l1l0	le_manganèse	S
+108l1l1	les_sulfates	S
+108l1l2	ammonium	S
+108l1l3	les_chlorures	S
+108l1l4	le_fer	S
+108l1l5	sodium	S
+108l1l6	les_nitrates	S
+108l1l7	plomb	S
+
+#Ces deux secteurs (AS/PS et GMG) étaient référencés sous les numéros de parcelle 0000BK1 et 0000BK5.
+
+109l0l0	Ces_deux_secteurs	O
+109l0l1	étaient_référencés	N
+109l1l0	GMG	I
+
+#Les deux parcelles ont été réunies avec d’autres en une seule parcelle désormais référencée 000BK1 et d’une superficie totale de 10,2 ha (Source cadastre.gouv.fr.
+
+110l0l0	Les_deux_parcelles	O
+110l0l1	ont_été_réunies	N
+110l0l2	une_seule_parcelle	O
+
+#Commune St-André, département du Nord, code postal 59350, feuille cadastrale BK)
+
+111l0l0	Commune_St___André	L
+111l0l1	__département_du_Nord	L
+
+#Dans le cadre de la pré-requalification des secteurs GMG et AS/PS et plus généralement de l’ensemble de la nouvelle parcelle 000BK1, des travaux de gestion de la pollution ont été réalisés d’août 2014 à août 2015.
+
+112l0l0	Dans_le_cadre_de	R
+112l0l1	la_pré_requalification	N
+112l0l2	des_secteurs_GMG	L
+112l0l3	l_	O
+112l0l4	ensemble_de_la_nouvelle_parcelle_000BK1___des_travaux_de_gestion	N
+112l0l5	la_pollution	O
+112l0l6	ont_été_réalisés	N
+112l0l7	d__août_2014_à_août_2015__	T
+
+#Les travaux de pré-requalification ont consisté en :
+
+113l0l0	Les_travaux_de_pré_requalification	N
+
+#1.
+
+
+#La démolition des dalles bétons encore présentes sur site ainsi que le repérage ou la démolition de l’ensemble des fondations encore présentes sur la parcelle.
+
+115l0l0	La_démolition	N
+115l0l1	des_dalles_bétons	O
+115l0l2	le_repérage	N
+115l0l3	la_démolition	N
+115l0l4	l__ensemble_des_fondations	N
+
+#2.
+
+
+#Le traitement sur site, par venting puis recapture des gaz, des terres polluées à l’ammonium.
+
+117l0l0	Le_traitement	N
+117l0l1	venting	N
+117l0l2	recapture	N
+117l0l3	terres_polluées	O
+117l0l4	l__ammonium	O
+117l1l0	ammonium	S
+
+#3.
+
+118l1l0	3__	I
+
+#L’excavation et l’évacuation de matériaux présents à proximité d’une fosse en béton enterrée présentant une source concentrée en hydrocarbures caractérisée par des concentrations en C10-C40 allant jusqu’à 39 000 mg/kg.
+
+119l0l0	L__excavation	N
+119l0l1	l__évacuation_de_matériaux_présents	N
+119l0l2	à_proximité_d__une_fosse_en	L
+119l0l3	béton_enterrée	O
+119l1l0	hydrocarbures	S
+119l1l1	C10_C40	S
+
+#4.
+
+120l1l0	4__	I
+
+#Le recyclage des bétons excavés sur le site après concassage et criblage pour la mise en œuvre d’une couche drainante sur une surface de 19 825m² du site.
+
+121l0l0	Le_recyclage_des_bétons	N
+121l0l1	concassage	A
+121l0l2	criblage	A
+121l0l3	la_mise_en_œuvre_d__une_couche_drainante	N
+121l0l4	825_m²_du_site	O
+
+#5.
+
+
+#La mise en place d’une couche de limon peu perméable sur l’ensemble du site pour créer une barrière physique entre les sols pollués et le futur aménagement du site (conformément au plan de gestion proposé par la société HPC et validé par une tierce expertise menée par la société ANTEA pour le compte de la MEL dans la perspective de la modification du PLU).
+
+123l0l0	La_mise_en_place_d_	N
+123l0l1	créer_une_barrière_physique	N
+123l0l2	sols_pollués	O
+123l0l3	le_futur_aménagement	N
+123l0l4	conformément_au	R
+123l0l5	plan_de_gestion	O
+123l0l6	la_société_HPC	O
+123l0l7	validé_par_une_tierce_expertise	N
+123l0l8	la_société_ANTEA	O
+123l0l9	la_MEL	O
+123l0l10	perspective_de	R
+123l0l11	la_modification_du_PLU	N
+123l1l0	la_société_HPC	I
+123l1l1	la_société_ANTEA	I
+123l1l2	la_MEL	I
+
+#6.
+
+
+#La mise en œuvre d’une zone pilote de phytoremédiation au droit d’une zone de 3000 m² au sud-ouest du site.
+
+125l0l0	La_mise_en_œuvre_d_	N
+125l0l1	une_zone_pilote_de_phytoremédiation	O
+125l0l2	au_droit_d__une_zone_de_3000_m²_au_sud_ouest_du_site	L
+
+#Ces travaux sont destinés à permettre la requalification du site en zone tertiaire et résidentielle.
+
+126l0l0	Ces_travaux	N
+126l0l1	la_requalification_du_site	N
+126l0l2	en_zone_tertiaire	L
+
+#Terrains extérieurs à l'usine proprement dite:
+
+127l0l0	Terrains	O
+127l0l1	l__usine	O
+
+#- Zone de l'embranchement ferroviaire et du site DESMARAIS (dépôt d'essence de 1000 m3) : une étude réalisée par ATE en 1996 montre une pollution des sols par l'arsenic, le plomb, le zinc et les hydrocarbures sur la zone DESMARAIS ; les piézomètres montrent une légère présence de métaux dans la nappe alluviale et la faible mobilisation de ceux-ci.
+
+128l0l0	embranchement_ferroviaire	O
+128l0l1	site_DESMARAIS	O
+128l0l2	une_étude_réalisée	N
+128l0l3	ATE	O
+128l0l4	en_1996	T
+128l0l5	montre	R
+128l0l6	une_pollution_des_sols	N
+128l0l7	l__arsenic	O
+128l0l8	la_zone_DESMARAIS	O
+128l1l0	DESMARAIS	I
+128l1l1	dépôt_d__essence	D
+128l1l2	arsenic	S
+128l1l3	le_plomb	S
+128l1l4	zinc	S
+128l1l5	hydrocarbures	S
+128l1l6	DESMARAIS	I
+128l1l7	métaux	S
+
+#- Zone dite du parking du secteur Organique (rue Félix Faure à SAINT-ANDRE) : une pollution par le cuivre, le zinc, le plomb et le cadmium est observée sur le merlon ceinturant le parking (remblais).
+
+129l0l0	Zone_dite	O
+129l0l1	rue_Félix_Faure_à_SAINT_ANDRE	L
+129l0l2	une_pollution	O
+129l0l3	le_merlon	O
+129l1l0	le_cuivre	S
+129l1l1	zinc	S
+129l1l2	plomb	S
+129l1l3	cadmium	S
+
+#La nappe alluviale apparaît essentiellement touchée par l'ammonium.
+
+130l0l0	touchée_par	R
+130l0l1	l__ammonium	O
+130l1l0	ammonium	S
+
+#- Zone dite du stade (MARQUETTE) : L'ancien stade de l'usine apparaît fortement contaminé par le plomb, le zinc et l'arsenic (valeurs supérieures aux VCI) et en moindre mesure par le mercure, le cuivre et le cadmium.
+
+131l0l0	__Zone_dite_du_stade	O
+131l0l1	l__usine	O
+131l0l2	fortement_contaminé	N
+131l1l0	plomb	S
+131l1l1	zinc	S
+131l1l2	arsenic	S
+131l1l3	le_mercure	S
+131l1l4	cuivre	S
+131l1l5	cadmium	S
+
+#Les sulfates et le sodium ont touché la nappe alluviale (pollution visiblement liée aux remblais).
+
+132l0l0	ont_touché	N
+132l0l1	remblais	N
+132l1l0	sulfates	S
+132l1l1	sodium	S
+
+#PV de récolement :
+
+133l0l0	récolement	N
+
+#Rhodia a mis en sécurité ses installations et a assuré le gardiennage du site, il a aussi remis ce dernier dans un état compatible avec un usage industriel.
+
+134l0l0	Rhodia	O
+134l0l1	a_mis_en_sécurité	N
+134l0l2	ses_installations	O
+134l0l3	a_assuré_le_gardiennage	N
+134l0l4	du_site	A
+134l0l5	un_usage_industriel	A
+134l1l0	Rhodia	I
+
+#Cet usage a été considéré et sert de base à l'instauration de restrictions d'usage.
+
+135l0l0	Cet_usage	O
+135l0l1	a_été_considéré	N
+135l0l2	sert_de_base_à	R
+135l0l3	l__instauration_de_restrictions	N
+135l0l4	usage	N
+
+#Le site a été entièrement rasé à l’exception de deux bâtiments réutilisables.
+
+136l0l0	Le_site	O
+136l0l1	a_été_entièrement_rasé	N
+
+#Les tas de déchets ont été évacués
+
+137l0l0	Les_tas_de_déchets	O
+137l0l1	ont_été_évacués	N
+
+#Le rapport de l'inspection des installations classées en date du 12 septembre 2008 vaut procès-verbal de constatation de la réalisation des travaux tel que prévu à l’article R512-76 du code de l’environnement (sur la base du constat visuel de l’inspecteur des installations classées et des documents fournis par Rhodia).
+
+138l0l0	l__inspection_des_installations_classées	O
+138l0l1	en_date_du_12_septembre_2008	T
+138l0l2	la_réalisation_des_travaux	N
+138l0l3	Rhodia	O
+138l1l0	Rhodia	I
+
+#Toutefois, le site Rhodia n’est pas un site banalisable où tout usage peut être envisagé.
+
+139l0l0	le_site_Rhodia	O
+139l1l0	le_site_Rhodia	I

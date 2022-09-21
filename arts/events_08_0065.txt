@@ -1,0 +1,129 @@
+
+#08.0065
+#La sucrerie d'ATTIGNY , dont la première fabrication datait de 1864, a cessé son activité à la fin de la campagne 1996/1997, le 02 décembre 1996.
+
+0l0l0	La_sucrerie_d__ATTIGNY	O
+0l0l1	la_première_fabrication	O
+0l0l2	datait_de_1864	T
+0l0l3	a_cessé_son_activité	N
+0l0l4	à	T
+0l0l5	la_fin	N
+0l0l6	de_la_campagne_1996_1997	T
+0l0l7	le_02_décembre_1996__	T
+0l1l0	La_sucrerie	I
+
+#Les installations comportent l'usine et les bâtiments deux bassins à écumes situés à l'ouest de l'usine et 4 bassins de décantation et de lagunage situés à 1km au Sud-Ouest de l'usine (surface couverte de 48 hectares).
+
+1l0l0	Les_installations	O
+1l0l1	les_bâtiments	O
+1l0l2	deux_bassins_à_écumes	O
+1l0l3	situés	R
+1l0l4	à_l__ouest_de_l__usine	L
+1l0l5	4_bassins_de	O
+1l0l6	décantation	A
+1l0l7	lagunage	A
+1l0l8	situés	R
+1l0l9	à_1_km_au_Sud_Ouest_de_l__usine	L
+
+#En 1970, l'Aisne est polluée en cours de campagne : les paramètres DBO8 et DCO sont trés élevés et il y a mort de poissons.
+
+2l0l0	En_1970__	T
+2l0l1	l__Aisne	O
+2l0l2	est_polluée	O
+2l1l0	DBO8	S
+2l1l1	DCO	S
+
+#Cet incident provoque la réalisation d'un bassin de lagunage à coté des bassins à terre.
+
+3l0l0	provoque_la_réalisation_d_	N
+3l0l1	un_bassin_de_lagunage	O
+3l0l2	à_coté_des_bassins_à_terre	L
+
+#En 1993, le canal est pollué en début de campagne.
+
+4l0l0	En_1993	T
+4l0l1	le_canal	O
+4l0l2	est_pollué_en_début	N
+
+#On observe des fuites d'eaux recyclées sur les réseaux internes avant 1990.
+
+5l0l0	avant_1990	T
+
+#Un arrêté préfectoral d'autorisation a était notifié pour la société ERIDANIA BEGHIN SAY le 26 janvier 1988.
+
+6l0l0	Un_arrêté_préfectoral_d__autorisation	O
+6l0l1	a_était_notifié	N
+6l0l2	la_société_ERIDANIA_BEGHIN_SAY	O
+6l0l3	le_26_janvier_1988__	T
+6l1l0	la_société_ERIDANIA_BEGHIN_SAY	I
+
+#La société ERIDANIA BEGHIN SAY a cessé toutes ses activités sur le site de sa sucrerie à ATTIGNY depuis le 02 décembre 1996.
+
+7l0l0	La_société_ERIDANIA_BEGHIN_SAY	O
+7l0l1	a_cessé_toutes_ses_activités	N
+7l0l2	sur_le_site	L
+7l0l3	sa_sucrerie	A
+7l0l4	à_ATTIGNY	L
+7l0l5	depuis_le_02_décembre_1996__	T
+7l1l0	La_société_ERIDANIA_BEGHIN_SAY	I
+
+#En Septembre 1997 un diagnostic environnemental, un diagnostic initial et une Evaluation Simplifié des Risques est réalisés.
+
+8l0l0	En_Septembre_1997	T
+8l0l1	un_diagnostic_environnemental	N
+8l0l2	un_diagnostic_initial	N
+8l0l3	une_Evaluation_Simplifié_des_Risques_est_réalisés	N
+
+#Un mémoire de remise en état du site d'ATTIGNY est reçu, le 18 novembre, 1998 à l'inspection des installations classées.
+
+9l0l0	Un_mémoire_de_remise_en_état	N
+9l0l1	site_d__ATTIGNY	O
+9l0l2	est_reçu	N
+9l0l3	le_18_novembre___1998	T
+9l0l4	l__inspection_des_installations_classées	O
+
+#Un Arrêté préfectoral complémentaire est notifié le 12 mai 1999, celui-ci prévoit une autosurveillance des eaux souterraines semestrielle sur l'ensemble du site :
+
+10l0l0	Un_Arrêté_préfectoral_complémentaire	O
+10l0l1	est_notifié	N
+10l0l2	le_12_mai_1999__	T
+10l0l3	prévoit	R
+10l0l4	une_autosurveillance_des_eaux_souterraines_semestrielle	A
+
+#- 4 piézomètres sur le site de l'usine avec comme paramètre surveillé le pH, la conductivité, le sodium, le potassium, le chlorure, le nitrate, l'ammonium, l'azote kjedkal, le fer et les hydrocarbure totaux.
+
+11l1l0	pH	S
+11l1l1	sodium	S
+11l1l2	potassium	S
+11l1l3	chlorure	S
+11l1l4	nitrate	S
+11l1l5	ammonium	S
+11l1l6	l__azote	S
+11l1l7	fer	S
+11l1l8	les_hydrocarbure_totaux	S
+
+#- 4 piézomètres aux abords des bassins de lagunage avec comme paramètre surveillé le pH, la conductivité, le sodium, le potassium, le chlorure, le nitrate, l'ammonium, l'azote kjedkal, le phosphore et la DCO.
+
+12l0l0	aux_abords_des_bassins_de_lagunage	L
+12l1l0	sodium	S
+12l1l1	potassium	S
+12l1l2	chlorure	S
+12l1l3	nitrate	S
+12l1l4	ammonium	S
+12l1l5	l__azote_kjedkal	S
+12l1l6	phosphore	S
+12l1l7	DCO	S
+
+#Le 7 septembre 1999, un arrêté préfectoral d'autorisation est notifié par le préfet pour l'exploitation d'un complexe céréalier sur une partie du site de BEGUIN SAY, par la société CHAMPAGNE CÉRÉALES.
+
+13l0l0	Le_7_septembre_1999__	T
+13l0l1	un_arrêté_préfectoral_d__autorisation	O
+13l0l2	est_notifié_par	N
+13l0l3	le_préfet	O
+13l0l4	l__exploitation_d_	N
+13l0l5	un_complexe_céréalier	O
+13l0l6	sur_une_partie_du_site_de	L
+13l0l7	BEGUIN_SAY	O
+13l0l8	la_société_CHAMPAGNE_CÉRÉALES	O
+13l1l0	le_préfet	I
+13l1l1	la_société_CHAMPAGNE_CÉRÉALES	I

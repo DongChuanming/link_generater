@@ -1,0 +1,198 @@
+
+#72.0064
+#Le site, implanté sur la commune de de Sablé-sur-Sarthe, s'étend sur une surface de 3000m2 dont 2000m2 de bâtis.
+
+0l0l0	Le_site	O
+0l0l1	implanté_sur_la_commune_de_de_Sablé_sur_Sarthe	L
+0l0l2	2000m2_de_bâtis	O
+
+#A environ 3 km au Nord-Ouest du site, s'écoule la Sarthe.
+
+1l0l0	A_environ_3_km_au_Nord_Ouest_du_site	L
+1l0l1	s__écoule	R
+1l0l2	la_Sarthe	L
+
+#L'altitude moyenne du site est d'environ +50 m NGF.
+
+
+#Le site accueillait la société SOTROLEC depuis le 2  août 1991 par l'arrêté préfectoral d'autorisation n °910/2285.
+
+3l0l0	Le_site	O
+3l0l1	accueillait	R
+3l0l2	la_société_SOTROLEC	O
+3l0l3	depuis_le_2___août_1991	T
+3l0l4	par_l__arrêté_préfectoral_d__autorisation	O
+3l1l0	la_société_SOTROLEC	I
+
+#Les activités étaient l'application et le séchage de peintures et des opérations de traitement de surface (dégraissage, décapage, rinçage et sablage).
+
+4l0l0	l__application_et_le_séchage_de_peintures	A
+4l0l1	des_opérations_de_traitement_de_surface	O
+4l0l2	dégraissage	N
+4l0l3	décapage	A
+4l0l4	rinçage	A
+4l0l5	sablage	A
+
+#Une station de traitement des eaux est également présente.
+
+5l0l0	Une_station_de_traitement_des_eaux	O
+
+#Puis se sont succédés les sociétés TRANSMETAL en 2003, et CAPEFI PEINTURE.
+
+6l0l0	succédés_les_sociétés_TRANSMETAL	O
+6l0l1	en_2003__	T
+6l0l2	CAPEFI_PEINTURE	O
+6l1l0	les_sociétés_TRANSMETAL	I
+6l1l1	CAPEFI_PEINTURE	I
+
+#L'activité de la société CAPEFI a été définitivement arrêtée :
+
+7l0l0	L__activité_de	A
+7l0l1	la_société_CAPEFI	O
+7l0l2	a_été_définitivement_arrêtée	N
+7l1l0	la_société_CAPEFI	I
+
+#- le 9 septembre 2011 pour la partie traitement de surfaces ;
+
+8l0l0	le_9_septembre_2011	T
+8l0l1	la_partie_traitement_de_surfaces	O
+
+#- le 23 février 2012 pour la partie application et séchage de peinture.
+
+9l0l0	le_23_février_2012	T
+9l0l1	la_partie_application	N
+9l0l2	séchage_de_peinture	N
+
+#Le site comprend :
+
+
+#-un bâtiment d'exploitation ;
+
+
+#-une cours ;
+
+
+#-un quai de déchargement.
+
+13l0l0	déchargement	A
+
+#Suite à la cessation d'activité du site, une mise en sécurité a été effectuée :
+
+14l0l0	Suite	R
+14l0l1	à_la_cessation_d__activité	N
+14l0l2	du_site	O
+14l0l3	une_mise_en_sécurité	N
+14l0l4	a_été_effectuée	N
+
+#- coupure de l’électricité et du gaz,
+
+
+#- tous les moyens de production ont été démontés et évacués ainsi que les produits dangereux : l'ensemble des produits de traitement ont fait l'objet de pompage par le biais de citernes (adaptées pour le transports de matières dangereuses - ADR) et ont été éliminés conformément à la réglementation en vigueur.
+
+16l0l0	tous_les_moyens_de_production	O
+16l0l1	ont_été_démontés	N
+16l0l2	évacués_ainsi_que_les_produits_dangereux	O
+16l0l3	l__ensemble_des_produits_de_traitement	O
+16l0l4	ont_fait_l__objet_de	R
+16l0l5	pompage	A
+16l0l6	ont_été_éliminés	N
+16l0l7	conformément_à	R
+16l0l8	la_réglementation_en	O
+16l1l0	les_produits_dangereux	U
+
+#Les emballages souillés de peinture et les sacs de peintures en poudre on été aussi éliminés,
+
+17l0l0	les_sacs_de_peintures_en_poudre	O
+17l0l1	on_été_aussi_éliminés	N
+17l1l0	Les_emballages_souillés	U
+17l1l1	les_sacs_de_peintures	U
+
+#- la station de traitement a été nettoyée et les boues ont été collectées.
+
+18l0l0	la_station_de_traitement	O
+18l0l1	a_été_nettoyée	N
+18l0l2	les_boues	O
+18l0l3	ont_été_collectées	N
+
+#Les investigations des sols réalisées en septembre 2011 montrent sur le sol :
+
+19l0l0	Les_investigations_des_sols	N
+19l0l1	réalisées_en	N
+19l0l2	septembre_2011	T
+
+#- des traces d'hydrocarbures totaux inférieures à 500 mg/kg (HT C10-C40),
+
+20l1l0	traces_d__hydrocarbures_totaux	S
+20l1l1	HT_C10_C40	S
+
+#- d'hydrocarbures aromatiques polycycliques inférieures à 50 mg/kg (HAP), ainsi que des traces de composés organiques volatiles (COV), de BETX (Benzène, Toluène, Ethylbenzène, Xylène) et de métaux inférieures au seuil de quantification ou à de faibles concentrations.
+
+21l1l0	hydrocarbures_aromatiques_polycycliques	S
+21l1l1	HAP	S
+21l1l2	composés_organiques_volatiles	S
+21l1l3	COV	S
+21l1l4	BETX	S
+21l1l5	Benzène	S
+21l1l6	Toluène	S
+21l1l7	Ethylbenzène	S
+21l1l8	Xylène	S
+21l1l9	métaux	S
+
+#Les traces de HAP et COHV sont présentes à des concentrations inférieures aux valeurs seuil retenues et définies dans l'arrêté du 28 octobre 2010.
+
+22l0l0	28_octobre_2010__	T
+22l1l0	traces_de_HAP	S
+22l1l1	COHV	S
+
+#L'exploitant considère que le site est recouvert d'une dalle béton et d'enrobé ce qui supprime la voie de transfert par contact direct.
+
+23l0l0	L__exploitant	O
+
+#Les sources de pollution sont négligeables par l'absence de tout stockage sur site et des faibles concentrations relevées sur le site.
+
+24l0l0	Les_sources_de_pollution	O
+
+#Seule la voie de transfert via les eaux souterraines serait possible mais négligeable compte tenu de l'absence de lessivage des sols.
+
+
+#Aucune EQRS (évaluation quantitative des risques sanitaires) n'a été encore réalisée.
+
+26l0l0	encore_réalisée	N
+
+#Le bureau d'étude ayant réalisé les investigations recommande :
+
+27l0l0	Le_bureau_d__étude	O
+
+#- de pérenniser l'absence de contact direct entre le sol et les personnes avec notamment le maintien du recouvrement de surface de type béton ou enrobé sur le site,
+
+28l0l0	le_maintien	N
+
+#- dans le cadre d'un projet futur,  les terres excavées devront être évacuées et stockées dans un centre d'enfouissement particulier, agréé et adapté.
+
+29l0l0	dans_le_cadre_d_	R
+29l0l1	un_projet_futur	N
+29l0l2	__les_terres_excavées	O
+29l0l3	devront_être_évacuées	N
+29l0l4	dans_un_centre_d__enfouissement_particulier	O
+
+#- en cas de découverte de nouveaux réseaux ou sources de pollution, un diagnostic complémentaire sur ces zones devra être réalisé.
+
+30l0l0	en_cas	R
+30l0l1	de_découverte	N
+30l0l2	de_nouveaux_réseaux_ou_sources_de_pollution	O
+30l0l3	un_diagnostic_complémentaire	N
+30l0l4	ces_zones	O
+30l0l5	devra_être_réalisé	N
+
+#L'état des sols est compatible avec l'usage actuel, de type industriel.
+
+
+#En cas de changement d'usage, il sera nécessaire de vérifier la compatibilité de l'état du sol avec le futur usage.
+
+32l0l0	En_cas_de	R
+32l0l1	changement_d_	N
+32l0l2	usage	O
+32l0l3	il_sera_nécessaire	O
+32l0l4	de_vérifier	R
+32l0l5	la_compatibilité	O
+32l0l6	le_futur_usage	O

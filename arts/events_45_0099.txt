@@ -1,0 +1,212 @@
+
+#45.0099
+#Le site, d'une superficie de 2800m2 , est situé sur le territoire de la commune de Lorris (45).
+
+0l0l0	Le_site	O
+0l0l1	2800m2	O
+0l0l2	est_situé_sur_le_territoire_de_la_commune_de_Lorris___45__	L
+
+#Il couvre les parcelles cadastrales AE 95 et AE 96.
+
+1l0l0	les_parcelles_cadastrales	O
+
+#Le site est implanté dans une zone pavillonnaire (il est donc entouré de maisons d'habitations).
+
+2l0l0	Le_site	O
+2l0l1	est_implanté_dans_une_zone_pavillonnaire	L
+2l0l2	entouré_de_maisons_d__habitations	A
+
+#La première nappe pérenne rencontrée au droit du site est la nappe des Calcaires de Beauce dont le niveau est de 2 mètres par rapport à la surface du sol.
+
+3l0l0	au_droit_du_site	L
+3l0l1	Beauce	L
+
+#L'aquifère des Calcaires de Beauce ne bénéficie d'aucun recouvrement argileux : la nappe est donc très vulnérable vis-à-vis d'une pollution potentielle de surface.
+
+4l0l0	Beauce	L
+4l0l1	vis_à_vis_d_	R
+
+#Cette nappe présente un écoulement dirigé vers le Nord-Ouest, vers le canal d'Orléans (qui se situe à 4km au Nord-Ouest du site).
+
+5l0l0	dirigé_vers_le_Nord_Ouest	L
+5l0l1	vers_le_canal_d__Orléans	L
+5l0l2	se_situe_à_4_km_au_Nord_Ouest_du_site	L
+
+#Cette nappe est utilisée en mélange avec la nappe de la craie sénonienne sous-jacente par 2 captage AEP communaux; le site se situe au sein des périmètres de protection des 2 captages.
+
+6l0l0	2_captage_AEP_communaux	O
+6l0l1	le_site	O
+6l0l2	se_situe_au_sein_des_périmètres	L
+
+#Le site accueil depuis les années 50 une activité de stockage de produits agricoles.
+
+7l0l0	Le_site	O
+7l0l1	accueil	R
+7l0l2	depuis_les_années_50	T
+7l0l3	une_activité_de_stockage_de_produits_agricoles	A
+
+#CAPROGA y est présente depuis 1986.
+
+8l0l0	CAPROGA	O
+8l0l1	est_présente	N
+8l0l2	depuis_1986	T
+8l1l0	CAPROGA	I
+
+#Les activités susceptibles de générer un risque de pollution potentielle pour le sol et les eaux souterraines sont le stockage d'engrais réalisé au moins depuis 1989 ainsi que la présence d'une cuve aérienne de stockage de fuel d'une capacité de 8 000L.
+
+9l0l0	Les_activités	O
+9l0l1	susceptibles_de	R
+9l0l2	générer	N
+9l0l3	un_risque_de_pollution	O
+9l0l4	le_stockage_d__engrais	A
+9l0l5	au_moins_depuis_1989	T
+9l0l6	une_cuve_aérienne_de_stockage_de_fuel	O
+9l1l0	stockage_de_fuel	U
+
+#Dans le cadre de la cessation d'activité définitive (prévue pour avril 2011), un projet de réhabilitation du site anciennement exploité par CAPROGA a été mis en place.
+
+10l0l0	Dans_le_cadre_de	R
+10l0l1	la_cessation_d__activité_définitive	N
+10l0l2	prévue_pour_avril_2011__	T
+10l0l3	un_projet_de_réhabilitation	N
+10l0l4	site	O
+10l0l5	anciennement_exploité	N
+10l0l6	CAPROGA	O
+10l0l7	a_été_mis_en_place	N
+10l1l0	CAPROGA	I
+
+#Un diagnostic de l'état de pollution du sous-sol a été effectué par ANTEA en mars 2011 et un diagnostic complémentaire a été apporté par IDDEA en octobre 2012.
+
+11l0l0	Un_diagnostic	N
+11l0l1	l__état_de_pollution	N
+11l0l2	a_été_effectué	N
+11l0l3	ANTEA	O
+11l0l4	en_mars_2011	T
+11l0l5	un_diagnostic_complémentaire_a_été	N
+11l0l6	IDDEA	O
+11l0l7	en_octobre_2012__	T
+11l1l0	ANTEA	I
+11l1l1	IDDEA	I
+
+#Le diagnostic fourni par ANTEA a mis en évidence dans les sols :
+
+12l0l0	Le_diagnostic	N
+12l0l1	ANTEA	O
+12l0l2	les_sols	O
+12l1l0	ANTEA	I
+
+#- une concentration en azote ammoniacal comprise entre 11 et 1300 mg/kg sachant que la concentration détectée dans l'échantillon de référence est de 67 mg/kg.
+
+13l0l0	azote_ammoniacal	O
+13l1l0	azote_ammoniacal	S
+
+#L'échantillon de référence correspond aux valeurs mesurées sur le sondage de référence effectué en dehors de l'emprise des zones potentiellement polluées.
+
+
+#- une concentration en nitrates comprise entre 98 et 6300 mg/kg sachant que la concentration détectée dans l'échantillon de référence est de 150 mg/kg.
+
+15l1l0	nitrates	S
+
+#- une concentration en phosphates comprise entre 0.3 et 8.6 mg/kg sachant que la concentration détectée dans l'échantillon de référence est de 2.2 mg/kg.
+
+16l1l0	phosphates	S
+
+#- une concentration en chlorures comprise entre 50 et 600 mg/kg sachant que la concentration détectée dans l'échantillon de référence est de 2.2 mg/kg.
+
+17l1l0	chlorures	S
+
+#- une concentration en sulfates comprise entre 100 et 1300 mg/kg sachant que la concentration détectée dans l'échantillon de référence est de moins de 100 mg/kg.
+
+18l1l0	sulfates	S
+
+#Ces résultats permettent d'affirmer la présence d'anomalies sur les sondages réalisés :
+
+
+#- au droit du grand bâtiment : en azote ammoniacal, nitrates et phosphates;
+
+20l0l0	au_droit_du_grand_bâtiment	L
+20l0l1	azote_ammoniacal	O
+20l1l0	azote_ammoniacal	S
+20l1l1	nitrates	S
+20l1l2	phosphates	S
+
+#- au droit du petit bâtiment : en nitrates, chlorures et sulfates;
+
+21l1l0	nitrates	S
+21l1l1	chlorures	S
+21l1l2	sulfates	S
+
+#- et sur le côté nord du grand bâtiment : en sulfates.
+
+22l0l0	sulfates	O
+22l1l0	sulfates	S
+
+#Des sondages concernant la concentration en hydrocarbures dans le sol n'ont pas été entrepris par ANTEA et aucun résultat concernant une telle pollution n'a été communiqué.
+
+23l0l0	Des_sondages	N
+23l0l1	sol	O
+23l0l2	n_	R
+23l0l3	ont_pas_été_entrepris	N
+23l0l4	ANTEA	O
+23l1l0	hydrocarbures	S
+23l1l1	ANTEA	I
+
+#Étant donné l'usage futur du site (future zone d'habitation), des investigations supplémentaires doivent avoir lieu concernant l'état des sols : certaines parties du grand bâtiment sont dépourvues de sondages et aucunes données concernant la concentration en hydrocarbure n'ont été communiquées.
+
+24l0l0	usage_futur_du_site	O
+24l0l1	future_zone_d__habitation	O
+24l0l2	des_investigations_supplémentaires_doivent	N
+24l1l0	hydrocarbure	S
+
+#A la demande de la DREAL, des analyses de radioactivité seront également à prévoir étant donné que les engrais stockés sont fabriqués à partir de matières premières telles que des mélanges contenant du phosphore et du potassium (éléments contenant des matières naturellement radioactives).
+
+25l0l0	A_la_demande_de	R
+25l0l1	la_DREAL	O
+25l0l2	radioactivité	O
+25l0l3	les_engrais_stockés	N
+25l1l0	la_DREAL	I
+25l1l1	phosphore	S
+25l1l2	potassium	S
+
+#Un contrôle de la qualité des eaux devra aussi être mis en place en raison de la vulnérabilité de la nappe et la proximité du site avec des captages AEP.
+
+26l0l0	Un_contrôle	O
+26l0l1	la_qualité_des_eaux	O
+26l0l2	la_proximité_du_site	O
+26l0l3	captages_AEP	O
+
+#Antea préconise d'installer trois piézomètres de 10m de profondeur afin de vérifier l’absence d'impact du site sur la qualité des eaux souterraines.
+
+27l0l0	installer	N
+27l0l1	trois_piézomètres	O
+27l0l2	la_qualité_des_eaux_souterraines	O
+27l1l0	Antea	I
+
+#Les paramètres investigués seront : l'azote ammoniacal, les nitrates, les sulfates, les chlorures et les hydrocarbures totaux.
+
+28l1l0	l__azote_ammoniacal	S
+28l1l1	les_nitrates	S
+28l1l2	sulfates	S
+28l1l3	les_chlorures	S
+28l1l4	hydrocarbures_totaux	S
+
+#Un permis de démolir déposé en février 2014, visant à démolir le grand bâtiment du site a reçu un avis favorable de la part du service de l'inspection de la DREAL.
+
+29l0l0	Un_permis	O
+29l0l1	de_démolir_déposé	N
+29l0l2	en_février_2014__	T
+29l0l3	visant_à	R
+29l0l4	démolir	N
+29l0l5	le_grand_bâtiment_du_site	O
+29l0l6	a_reçu	N
+29l0l7	un_avis_favorable	O
+29l0l8	la_DREAL	O
+29l1l0	la_DREAL	I
+
+#Des mesures restent à prendre concernant le traitement et l'élimination des matériaux enlevés lors des opérations de démolitions.
+
+30l0l0	Des_mesures	O
+30l0l1	le_traitement	N
+30l0l2	l__élimination_des_matériaux	O
+30l0l3	enlevés	N
+30l0l4	des_opérations_de_démolitions	N

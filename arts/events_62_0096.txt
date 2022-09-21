@@ -1,0 +1,72 @@
+
+#62.0096
+#Il s'agit d'un site industriel en activité spécialisé dans la fabrication d'électrodes pour électrolyse en graphite artificiel.
+
+0l0l0	un_site_industriel	O
+0l0l1	en_activité	T
+0l0l2	spécialisé_dans	R
+0l0l3	la_fabrication_d__électrodes	A
+0l0l4	électrolyse	A
+
+#Le site mis en place en 1975 sur une superficie totale de 342000 m² dispose :
+
+1l0l0	Le_site	O
+1l0l1	mis_en_place	N
+1l0l2	en_1975	T
+
+#- d'installations de stockages, pesage et préparation matières premières à partir du coke
+
+2l0l0	pesage	A
+2l0l1	coke	A
+2l1l0	coke	I
+
+#- d'une unité de cuisson des électrodes
+
+3l0l0	une_unité_de_cuisson	O
+
+#- d'une unité de graphitation
+
+4l0l0	une_unité_de_graphitation	O
+
+#Ce site est un site en activité visé par la circulaire du 3 avril 1996 qui impose une étude des sols sur les sites en activité
+
+5l0l0	Ce_site	O
+5l0l1	site_en_activité	O
+5l0l2	visé_par	R
+5l0l3	la_circulaire	O
+5l0l4	3_avril_1996	T
+5l0l5	impose_une_étude_des_sols	N
+5l0l6	les_sites	O
+5l0l7	en_activité	N
+
+#Cette étude réalisée et remise à l'administration en Juin 2000 a conclu à un site ne présentant aucune zone à risque de pollution potentielle pour le sol et sous-sol.
+
+6l0l0	Cette_étude_réalisée	N
+6l0l1	l__administration	O
+6l0l2	en_Juin_2000	T
+6l0l3	un_site	O
+6l0l4	zone_à_risque_de_pollution_potentielle	O
+
+#Un contrôle des eaux souterraines (octobre 1997) n'a également révélé aucune pollution de la nappe imputable à Ucar.
+
+7l0l0	Un_contrôle	N
+7l0l1	eaux_souterraines	O
+7l0l2	__octobre_1997	T
+7l0l3	la_nappe	O
+7l1l0	Ucar	S
+
+#Aucune surveillance de la nappe souterraine n'est nécessaire
+
+8l0l0	la_nappe	O
+
+#Site concerné par la circulaire c'action nationale du 15/01/2004 concernant l'action Plomb. 15 points ont fait l'objet d'analyses, et il n'a pas été mis en évidence des rejets atmosphérique en plomb et cadmimum de la SNC Ucar sur les sols environnants.
+
+9l0l0	Site	O
+9l0l1	concerné_par	R
+9l0l2	la_circulaire	O
+9l0l3	15_01_2004	T
+9l0l4	sols_environnants	O
+9l1l0	Plomb	S
+9l1l1	plomb	S
+9l1l2	cadmimum	S
+9l1l3	la_SNC_Ucar	I

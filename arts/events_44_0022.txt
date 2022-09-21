@@ -1,0 +1,265 @@
+
+#44.0022
+#Le site occupe une superficie de 100 ha.
+
+
+#Il est  localisé en bordure de l'estuaire de la Loire, sur l'ancienne île de Cordemais.
+
+1l0l0	__localisé_en_bordure_de_l__estuaire_de_la_Loire	L
+1l0l1	__sur_l__ancienne_île_de_Cordemais	L
+
+#Le parc a été construit à l'origine pour stocker les effluents de lavage des réchauffeurs d'air.
+
+2l0l0	Le_parc	O
+2l0l1	a_été_construit	N
+2l0l2	à_l_	N
+2l0l3	origine_pour	R
+2l0l4	stocker_les_effluents	O
+2l0l5	de_lavage	A
+2l1l0	stocker_les_effluents	U
+
+#Cependant, celui-ci a été souvent sollicité en tant que décharge interne.
+
+3l0l0	a_été_souvent_sollicité	N
+
+#Le parc construit en 1976 a été utilisé en tant que parc à suies au moins jusqu'en 88, en tant que déversoir à effluents liquides et solides de lavage d'éléments de tranches au moins jusqu'en 1990, en tant que décharge interne de produits solides (mâchefers, vases) au moins jusqu'en 1992.
+
+4l0l0	Le_parc	O
+4l0l1	construit	N
+4l0l2	en_1976	T
+4l0l3	a_été_utilisé	N
+4l0l4	en_tant_que	R
+4l0l5	parc_à_suies	O
+4l0l6	au_moins	R
+4l0l7	jusqu__en_88	T
+4l0l8	en_tant_que	R
+4l0l9	déversoir	O
+4l0l10	effluents	O
+4l0l11	éléments_de_tranches	O
+4l0l12	jusqu__en_1990__	T
+4l0l13	en_tant_que	R
+4l0l14	décharge	O
+4l0l15	jusqu__en_1992	T
+4l1l0	effluents_liquides	U
+4l1l1	produits_solides	U
+
+#Depuis 1992, toutes ces actions ont été arrêtées.
+
+5l0l0	Depuis_1992	T
+5l0l1	ces_actions	O
+5l0l2	ont_été_arrêtées	N
+
+#Il comprend 5 tranches dont 3 seulement demeurent aujourd'hui en fonctionnement.
+
+6l0l0	5_tranches	O
+6l0l1	aujourd_hui	T
+6l0l2	en_fonctionnement	A
+
+#Les combustibles utilisés sont le charbon et le fuel.
+
+7l1l0	charbon	U
+7l1l1	fuel	S
+
+#La centrale a reçu l'autorisation de poursuivre l'exploitation du parc à suies fioul en décembre 1982.
+
+8l0l0	La_centrale	O
+8l0l1	a_reçu	N
+8l0l2	l__autorisation	O
+8l0l3	de_poursuivre	N
+8l0l4	l__exploitation_du_parc_à	A
+8l0l5	suies_fioul	O
+8l0l6	en_décembre_1982__	T
+
+#Les pratiques effectives environnementales n'ont pas vraiment existé sur le parc durant tout son fonctionnement de 1976 à 1992.
+
+9l0l0	Les_pratiques_effectives_environnementales	O
+9l0l1	le_parc	O
+9l0l2	durant	T
+9l0l3	tout_son_fonctionnement	N
+9l0l4	de_1976_à_1992	T
+
+#Néanmoins, depuis fin 1990, les effluents rejeté sont contrôlés avec rigueur.
+
+10l0l0	depuis_fin_1990__	T
+10l0l1	contrôlés	N
+10l1l0	effluents	U
+
+#Toutefois, les actions de surveillances ont été engagées dès 1979.
+
+11l0l0	les_actions_de_surveillances	N
+11l0l1	ont_été_engagées	N
+11l0l2	dès_1979__	T
+
+#Les premières actions allant dans le sens de la protection de l'environnement ont été de poser 3 piézomètres fin 1982.
+
+12l0l0	Les_premières_actions	O
+12l0l1	allant_dans_le_sens_de	R
+12l0l2	la_protection_de_l__environnement	O
+12l0l3	ont_été	N
+12l0l4	de_poser	N
+12l0l5	3_piézomètres	O
+12l0l6	fin_1982	T
+
+#Cet action s'inscrit dans le cadre de l'arrêté du 31/12/1982 selon lequel:
+
+13l0l0	Cet_action	O
+13l0l1	s__inscrit_dans	R
+13l0l2	le_cadre	O
+13l0l3	31_12_1982	T
+
+#- Seuls sont admis sur le parc les suies des dépoussiéreurs et, après accord de l’Inspecteur des Installations Classées, d'autres déchets non polluants.
+
+14l0l0	le_parc	O
+14l1l0	les_suies	U
+
+#- Il ne devra y avoir aucun rejet dans les eaux de surface.
+
+
+#- La surveillance des eaux souterraines se fera par trois piézomètres, trimestriellement.
+
+16l0l0	La_surveillance_des_eaux_souterraines	A
+
+#Le CPT de Cordemais fait partie des sites "actifs" au titre de la circulaire du 3 avril 1996 retenus par la DRIRE pour faire l'objet d'une évaluation des risques présentés pour les sols et les eaux souterraines.
+
+17l0l0	Le_CPT_de_Cordemais	O
+17l0l1	fait	R
+17l0l2	partie_des_sites___actifs	N
+17l0l3	3_avril_1996	T
+17l0l4	la_DRIRE	O
+17l0l5	l__objet_d_	R
+17l0l6	une_évaluation_des_risques_présentés	N
+17l1l0	la_DRIRE	I
+
+#Une démarche "diagnostic initial + étude simplifiée des risques" a été prescrite (arrêté préfectoral du 21 juillet 1998) et menée à son terme (31 mars 2000).
+
+18l0l0	Une_démarche	O
+18l0l1	diagnostic_initial	N
+18l0l2	étude_simplifiée_des_risques	N
+18l0l3	a_été_prescrite	N
+18l0l4	arrêté_préfectoral	O
+18l0l5	21_juillet_1998	T
+18l0l6	terme	O
+18l0l7	__31_mars_2000	T
+
+#Elle a conduit à mettre en évidence l'existence de 4 sources principales de pollution potentielle au sein du site :
+
+19l0l0	4_sources_principales_de_pollution	O
+
+#-le parc à suies fuel
+
+20l1l0	fuel	U
+
+#-le parc à fuel Ouest
+
+21l0l0	_le_parc_à_fuel_Ouest	O
+
+#-le parc à fuel Est
+
+22l0l0	_le_parc_à_fuel_Est	O
+
+#-le parc à cendres de charbon
+
+23l0l0	_le_parc_à_cendres_de_charbon	O
+23l1l0	charbon	U
+
+#et à proposer une notation en "classe 2" du site, imposant une surveillance de ce dernier.
+
+24l0l0	imposant	N
+24l0l1	une_surveillance_de	A
+
+#Un réseau de piézomètres existe et permet de répondre à cette exigence.
+
+
+#Indépendamment de ces conclusions, la DRIRE a demandé la mise en œuvre d'un plan d'action visant à la remise en état du parc à suies fuel, constituant la source de pollution potentielle dominante au sein du site.
+
+26l0l0	la_DRIRE	O
+26l0l1	a	N
+26l0l2	un_plan_d__action	O
+26l0l3	visant_à	R
+26l0l4	la_remise_en_état	N
+26l0l5	du_parc_à_suies_fuel	O
+26l1l0	la_DRIRE	I
+26l1l1	suies_fuel	U
+
+#Le parc à suis fuel a été démantelé et dépollué.
+
+27l0l0	Le_parc_à_suis_fuel	O
+27l0l1	a_été_démantelé	N
+27l0l2	dépollué	N
+
+#Les travaux de réhabilitation se sont terminés fin 2006.
+
+28l0l0	Les_travaux_de_réhabilitation	N
+28l0l1	se_sont_terminés	N
+28l0l2	fin_2006__	T
+
+#Le parc à fuel Est est en cours de démantèlement.
+
+29l0l0	Le_parc_à_fuel_Est	O
+29l0l1	est_en_cours_de_démantèlement	N
+29l1l0	fuel	U
+
+#Par ailleurs, un arrêté préfectoral en date du 7 mars 2011, demande à l'exploitant de mener une recherche d'éléments radioactifs au niveau des eaux souterraines situées à proximité du parc à cendres.
+
+30l0l0	un_arrêté_préfectoral	O
+30l0l1	en_date_du_7_mars_2011__	T
+30l0l2	demande	N
+30l0l3	l__exploitant	O
+30l0l4	situées_à_proximité_du	L
+30l0l5	parc_à_cendres	N
+
+#Cette demande est liée au fait que le stockage de cendre peut générer une phénomène de radioactivité naturelle renforcée.
+
+
+#Les études menées ont permis de constater qu'il n'y a pas de radioactivité naturellement renforcée au niveau du parc à cendres.
+
+32l0l0	Les_études_menées	N
+
+#Suite à l'arrêté préfectoral du 02/06/2003 concernant le traitement ou l'enlèvement des résidus de combustion de fioul lourd présents sur le site, une étude des filières d'élimination de ces résidus a été faite.
+
+33l0l0	Suite_à	R
+33l0l1	l__arrêté_préfectoral	O
+33l0l2	02_06_2003	T
+33l0l3	le_traitement	N
+33l0l4	l__enlèvement	N
+33l0l5	résidus_de_combustion_de_fioul_lourd	O
+33l0l6	a_été_faite	N
+33l1l0	résidus_de_combustion	U
+33l1l1	fioul_lourd	U
+
+#Par courrier du 08/07/2005, EDF informe l'inspection des installations classées que la proposition retenue par l'UP Cordemais pour remettre en état le parc de résidus de combustion de fioul lourd consistera en:
+
+34l0l0	du_08_07_2005	T
+34l0l1	l__inspection_des_installations_classées	O
+34l0l2	la_proposition_retenue	O
+34l0l3	l__UP_Cordemais	O
+34l0l4	remettre_en_état	N
+34l0l5	résidus_de_combustion_de_fioul_lourd	O
+34l1l0	EDF	I
+34l1l1	résidus_de_combustion	U
+34l1l2	fioul_lourd	U
+
+#- l'extraction des suies fioul du parc de stockage
+
+35l0l0	l__extraction	N
+35l1l0	des_suies_fioul	U
+35l1l1	stockage	U
+
+#- l'envoie des suies dans un centre de traitement alimentant en énergie les industries cimentières.
+
+36l0l0	l__envoie	N
+36l0l1	suies	O
+36l0l2	un_centre_de_traitement	O
+36l0l3	alimentant_en	R
+36l0l4	énergie	O
+36l0l5	les_industries_cimentières	A
+
+#Le chantier commencera le second semestre 2005.
+
+37l0l0	Le_chantier_commencera	N
+37l0l1	le_second_semestre_2005__	T
+
+#La date butée de l'opération est fixée au 31 décembre 2006.
+
+38l0l0	est_fixée	N
+38l0l1	au_31_décembre_2006__	T

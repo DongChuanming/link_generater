@@ -1,0 +1,186 @@
+
+#72.0068
+#Le site est situé au Sud-Est de la commune de Saint-Calais.
+
+0l0l0	Le_site	O
+0l0l1	est_situé_au_Sud_Est_de_la_commune_de_Saint_Calais	L
+
+#Le site accueillait la société SELITH, spécialisée dans la fabrication de pièces détachées pour composants électroniques.
+
+1l0l0	Le_site	O
+1l0l1	accueillait	R
+1l0l2	la_société_SELITH	O
+1l0l3	spécialisée_dans_la_fabrication_de_pièces_détachées_pour_composants_électroniques	A
+1l1l0	la_société_SELITH	I
+
+#La surface des bâtiments est de 6000 m2 depuis 1995.
+
+2l0l0	6000_m2	O
+2l0l1	depuis_1995	T
+
+#Autrefois exploité par la société RADIOHM en 1974, puis en 1984 par la société SEDER (Société d'Exploitation des Etablissements RADHIOM) pour y exercer les mêmes activités.
+
+3l0l0	Autrefois_exploité	N
+3l0l1	la_société_RADIOHM	O
+3l0l2	en_1974	T
+3l0l3	en_1984	T
+3l0l4	la_société_SEDER	O
+3l0l5	RADHIOM	O
+3l0l6	exercer_les_mêmes_activités	A
+3l1l0	la_société_RADIOHM	I
+3l1l1	la_société_SEDER	I
+3l1l2	Etablissements_RADHIOM	I
+
+#Les parcelles concernées sont les parcelles n°101,102 et 730 de la section B.
+
+
+#Les activités exercées relevaient de la nomenclature des installations classées pour la protection de l'environnement :
+
+5l0l0	Les_activités_exercées	O
+5l0l1	relevaient_de	R
+5l0l2	la_nomenclature_des_installations_classées	O
+5l0l3	pour_la_protection_de	A
+5l0l4	l__environnement	O
+
+#- n°281.1 : travail mécanique des métaux,
+
+6l0l0	travail_mécanique_des_métaux	A
+
+#- n°255.3 : dépot de fioul domestique,
+
+7l1l0	dépot_de	D
+7l1l1	fioul_domestique	U
+
+#- n°257.2 : dépot de liquides inflammables,
+
+8l1l0	dépot	D
+8l1l1	de_liquides_inflammables	U
+
+#- n°272.
+
+
+#et B : emploi de matières plastiques,
+
+
+#- n°284.2 : fonderie de métaux et alliages.
+
+11l0l0	fonderie_de_métaux_et_alliages	A
+
+#Le 4 novembre 2008, la société SELITH a fait l'objet d'une procédure de liquidation judiciaire suite a un jugement par le tribunal de commerce.
+
+12l0l0	Le_4_novembre_2008__	T
+12l0l1	la_société_SELITH	O
+12l0l2	a_fait_l__objet_d_	R
+12l0l3	une_procédure_de_liquidation_judiciaire	N
+12l0l4	suite	R
+12l0l5	a_un_jugement	N
+12l0l6	le_tribunal_de_commerce	O
+12l1l0	la_société_SELITH	I
+
+#Lors de la visite de l'inspection des installations classées du 21 janvier 2009, les observations suivantes ont été faites :
+
+13l0l0	de_la_visite	N
+13l0l1	l__inspection_des_installations_classées	O
+13l0l2	21_janvier_2009__	T
+
+#- de nombreux récipients d'huiles et de produits chimiques sont laissés à l'abandon dans les ateliers et à l'extérieur des bâtiments.
+
+14l0l0	huiles	O
+14l0l1	de_produits_chimiques	O
+14l0l2	à_l__extérieur_des_bâtiments	L
+14l1l0	produits_chimiques	U
+
+#Ces récipients ne bénéficient d'aucune protection et ne sont pas sur rétention ;
+
+
+#- des bacs de la chaîne de traitement de surface sont encore pleins ;
+
+16l0l0	traitement_de_surface	A
+
+#- des flaques de fluides sont visible sur le sol des ateliers ;
+
+17l1l0	des_flaques_de_fluides	U
+
+#- la dalle recouvrant ces cuves porte les résidus et les traces de brûlages de déchets à l'air libre.
+
+18l0l0	brûlages	N
+
+#Suite à cette inspection, le liquidateur, représentant l'ancien exploitant, est mis en demeure de mettre le site en sécurité.
+
+19l0l0	cette_inspection	N
+19l0l1	le_liquidateur	O
+19l0l2	exploitant	O
+19l0l3	est_mis_en_demeure	N
+
+#Une mise en sécurité du site est prescrite par le préfet à son encontre.
+
+20l0l0	Une_mise_en_sécurité	N
+20l0l1	du_site	O
+20l0l2	est_prescrite	N
+20l0l3	par_le_préfet	O
+20l1l0	le_préfet	I
+
+#Lors d'une nouvelle visite de l'inspection des installations classées, le 8 juillet 2009, il a été constaté que :
+
+21l0l0	une_nouvelle_visite	N
+21l0l1	l__inspection_des_installations_classées	O
+21l0l2	le_8_juillet_2009__	T
+
+#- le site est correctement clôturé et fermé à clé ;
+
+22l0l0	le_site	O
+
+#- les déchets et produits dangereux ont été enlevés et envoyés vers un centre de traitement adapté ;
+
+23l0l0	les_déchets_et_produits_dangereux	O
+23l0l1	ont_été_enlevés	N
+23l0l2	envoyés_vers	N
+23l0l3	un_centre_de_traitement	O
+23l1l0	les_déchets	U
+23l1l1	produits_dangereux	U
+
+#- des DIB (déchets industriels banals) sont encore présents.
+
+24l1l0	des_DIB	S
+24l1l1	déchets_industriels	D
+
+#Puis lors d'une nouvelle visite d'inspection du 24 février 2016, il a été observé que :
+
+25l0l0	d__une_nouvelle_visite	N
+25l0l1	d__inspection	N
+25l0l2	24_février_2016__	T
+
+#- le site este fermé à clé et n'est plus accessible,
+
+26l0l0	le_site	O
+26l0l1	n__est_plus_accessible	N
+
+#- les bâtiments sont globalement en bon état,
+
+27l0l0	les_bâtiments	O
+
+#- aucun déchet n'est visible.
+
+
+#Aucune investigation sur l'état des sols n'a été encore réalisée.
+
+29l0l0	n__a_été_encore_réalisée	N
+
+#Aucun plan de gestion ou de surveillance mis en place.
+
+
+#La situation justifie que notamment en cas de changements d'usage ou de travaux occasionnant des déblais de terres à évacuer hors sites, des investigations soient réalisées pour s'assurer de la compatibilité des usages envisagés avec l'état des terrains considérés.
+
+31l0l0	La_situation	O
+31l0l1	en_cas	R
+31l0l2	de_changements_d_	N
+31l0l3	usage	O
+31l0l4	de_travaux	N
+31l0l5	évacuer	O
+31l0l6	hors_sites	L
+31l0l7	investigations_soient_réalisées	N
+
+#Le site fera l'objet d'un secteur d'information sur les sols.
+
+32l0l0	Le_site	O
+32l0l1	fera_l__objet_d_	R

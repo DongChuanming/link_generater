@@ -1,0 +1,387 @@
+
+#63.0028
+#Le site de l'usine Michelin d'Estaing a été construit en 1915 à la périphérie de Clermont- Ferrand, sur des terrains autrefois dévolus aux activités agricoles (jardins, ferme, terres cultivées).
+
+0l0l0	Le_site	O
+0l0l1	l__usine_Michelin	O
+0l0l2	d__Estaing	O
+0l0l3	a_été_construit	N
+0l0l4	en_1915	T
+0l0l5	à_la_périphérie_de_Clermont__Ferrand	L
+0l0l6	sur	R
+0l0l7	des_terrains	O
+0l0l8	autrefois_dévolus_aux	R
+0l0l9	activités_agricoles	A
+0l0l10	cultivées	A
+0l1l0	Michelin	I
+
+#Aujourd'hui il est absorbé par l'agglomération clermontoise.
+
+1l0l0	est_absorbé	N
+1l0l1	par_l__agglomération_clermontoise	L
+
+#L'usine est bordée par un axe ferroviaire important, des bâtiments et installations sportives militaires et des petites copropriétés.
+
+2l0l0	L__usine	O
+2l0l1	bordée_par	L
+2l0l2	un_axe_ferroviaire	O
+2l0l3	des_bâtiments_et_installations_sportives_militaires	O
+
+#Occupant une superficie de 140 167 m2, ce site a accueilli des activités de stockage et d'expédition, de garage et d'essais de pneumatiques.
+
+3l0l0	Occupant	R
+3l0l1	ce_site	O
+3l0l2	a_accueilli	N
+3l0l3	des_activités_de_stockage_et_d__expédition	A
+3l0l4	garage_et_d__essais_de_pneumatiques	A
+
+#Un effectif maximum de 1100 personnes y a été employé.
+
+4l0l0	Un_effectif_maximum	O
+4l0l1	a_été_employé	N
+
+#Le site d'Estaing a fait l'objet d'une vente au profit du CHRU de Clermont-Ferrand (construction d'un centre hospitalier) et de la commune de Clermont Ferrand (opération d'aménagement urbain, zone verte).
+
+5l0l0	Le_site	O
+5l0l1	Estaing	O
+5l0l2	a_fait_l__objet_d_	R
+5l0l3	une_vente	N
+5l0l4	au_profit	R
+5l0l5	du_CHRU_de_Clermont___Ferrand	O
+5l0l6	construction_d_	N
+5l0l7	un_centre_hospitalier	O
+5l0l8	la_commune_de_Clermont_Ferrand	O
+5l0l9	opération_d__aménagement_urbain	N
+5l0l10	zone_verte	O
+5l1l0	CHRU_de_Clermont___Ferrand	I
+5l1l1	la_commune_de_Clermont_Ferrand	I
+
+#Le terrain, à l'origine constitué de 2 parcelles, a été recadastré et acquis pour 80 000 m2 par le CHRU (parcelles Ouest, Sud-Ouest) et pour 60 127 m2 par l'EPF-SMAF (parcelles Nord, Nord-Est).
+
+6l0l0	Le_terrain	O
+6l0l1	a_été_recadastré	N
+6l0l2	et_acquis	N
+6l0l3	m2	O
+6l0l4	le_CHRU	O
+6l0l5	parcelles	O
+6l0l6	Ouest___Sud_Ouest	L
+6l0l7	l_	O
+6l0l8	Nord_Est	L
+6l1l0	le_CHRU	I
+6l1l1	l__EPF___SMAF	I
+
+#La construction du Nouvel Hospital Estaing est maintenant terminée, à ce jour, la construction d'une maison d'accueil des parents est en projet.
+
+7l0l0	La_construction_du_Nouvel_Hospital_Estaing	O
+7l0l1	est_maintenant_terminée	N
+7l0l2	à_ce_jour	T
+7l0l3	la_construction_d_	N
+7l0l4	une_maison_d__accueil_des_parents	O
+7l0l5	est_en_projet	N
+
+#Pour l'aménagement des parcelles destinées à la réurbanisation de la zone, la municipalité a pour objectif la construction de logements, d'une faculté dentaire et d'espaces verts.
+
+8l0l0	l__aménagement	N
+8l0l1	des_parcelles	O
+8l0l2	destinées_à	R
+8l0l3	la_réurbanisation	N
+8l0l4	la_zone	O
+8l0l5	la_municipalité	O
+8l0l6	a	R
+8l0l7	pour_objectif	N
+8l0l8	construction_de_logements	N
+
+#Une nappe phréatique de faible puissance dont le toit est à 3 m, circule au droit du site.
+
+9l0l0	au_droit_du_site	L
+
+#Elle n'est pas en relation avec la nappe d'accompagnement de la Tiretaine, affluent de l'Allier.
+
+10l0l0	la_nappe	O
+10l0l1	affluent_de_l__Allier	L
+
+#La Manufacture Michelin a initié en 2001, des campagnes d'investigations.
+
+11l0l0	La_Manufacture_Michelin	O
+11l0l1	a_initié	N
+11l0l2	en_2001__	T
+11l0l3	des_campagnes_d__investigations	N
+11l1l0	La_Manufacture_Michelin	I
+
+#Les diverses activités liées à l'utilisation de solvants, peintures et hydrocarbures, l'exploitation d'une petite usine à gaz, le stockage de charbon, les nombreux stockages aériens ou enterrés de produits inflammables, sont à l'origine de la pollution des sols et de la nappe.
+
+12l0l0	l__exploitation	N
+12l0l1	une_petite_usine_à_gaz	O
+12l0l2	le_stockage_de_charbon	A
+12l0l3	enterrés	N
+12l0l4	à	L
+12l0l5	l__origine_de	R
+12l0l6	la_pollution_des_sols_et_de_la_nappe	O
+12l1l0	solvants	U
+12l1l1	hydrocarbures	S
+12l1l2	charbon	U
+12l1l3	produits_inflammables	U
+
+#Des piézomètres ont été installés et des sondages réalisés.
+
+13l0l0	Des_piézomètres	O
+13l0l1	ont_été_installés	N
+13l0l2	des_sondages_réalisés	N
+
+#Les premiers résultats des analyses indiquent la présence d'hydrocarbures aromatiques polycycliques et de composés aromatiques volatils (solvants).
+
+14l1l0	hydrocarbures_aromatiques_polycycliques	S
+14l1l1	composés_aromatiques_volatils	S
+14l1l2	solvants	S
+
+#Un arrêté préfectoral du 12 novembre 2003 a prescrit des études de sols afin de diagnostiquer l'état de pollution des sols et de la nappe sous-jacente et d'évaluer la compatibilité de cet état avec les projets de réhabilitation envisagés.
+
+15l0l0	Un_arrêté_préfectoral	O
+15l0l1	12_novembre_2003	T
+15l0l2	a_prescrit	N
+15l0l3	des_études_de_sols	N
+15l0l4	diagnostiquer_l__état_de_pollution_des_sols	N
+15l0l5	la_nappe_sous_jacente	O
+15l0l6	les_projets_de_réhabilitation_envisagés	N
+
+#Des investigations et études (diagnostics sols, évaluation simplifiée et détaillée des risques) ont été menées sur la partie dédiée au CHU et sur la partie réaménagement urbain.
+
+16l0l0	Des_investigations	N
+16l0l1	diagnostics_sols	N
+16l0l2	évaluation_simplifiée	O
+16l0l3	ont_été_menées	N
+16l0l4	la_partie	O
+16l0l5	CHU	L
+16l0l6	la_partie	O
+16l0l7	réaménagement_urbain	N
+
+#Une tierce expertise a confirmé les conclusions des études précédentes
+
+
+#A l'issue de ces études, 3 zones ont ainsi été déterminées :
+
+18l0l0	ces_études	N
+18l0l1	3_zones	O
+18l0l2	ont_ainsi_été_déterminées	N
+
+#- Z1: parcelles Sud Sud-Est (2ha) acquise par la ville de Clermont-Fd,
+
+19l0l0	Z1	O
+19l0l1	__parcelles_Sud_Sud_Est	L
+19l0l2	acquise	N
+19l0l3	par	R
+19l0l4	la	O
+19l0l5	ville_de_Clermont___Fd	L
+
+#- Z2: parcelles destinées au CHU
+
+
+#- Z3: parcelles devant recevoir la Fac dentaire et des logements.
+
+21l0l0	__Z3	O
+21l0l1	la_Fac_dentaire	O
+21l0l2	des_logements	O
+
+#Compte-tenu des risques sanitaires liés à l'état de pollution de la Z1 et de l'impossibilité de dépolluer la zone (proximité de la voie ferrée, risque de déstabilisation), l'implantation des bâtiments du CHU a été déplacée hors de la zone.
+
+22l0l0	la_Z1	O
+22l0l1	dépolluer	N
+22l0l2	la_zone	O
+22l0l3	proximité_de_la_voie_ferrée	L
+22l0l4	l__implantation	N
+22l0l5	des_bâtiments_du_CHU	O
+22l0l6	a_été_déplacée	N
+22l0l7	hors_de_la_zone	L
+
+#Les travaux de démolition, de dépollution et un suivi de la qualité des eaux souterraines ont été prescrits par arrêté en date du 2 mars 2005.
+
+23l0l0	Les_travaux_de_démolition	N
+23l0l1	dépollution	N
+23l0l2	un	O
+23l0l3	suivi_de_la_qualité_des_eaux_souterraines	A
+23l0l4	ont_été_prescrits_par_arrêté	N
+23l0l5	en_date_du_2_mars_2005__	T
+
+#Les travaux de dépollution sur la zone 2, ont été mis en oeuvre en mai 2005 , à savoir:
+
+24l0l0	Les_travaux_de_dépollution_sur	N
+24l0l1	la_zone_2	O
+24l0l2	ont_été_mis_en_oeuvre	N
+24l0l3	en_mai_2005	T
+
+#- Excavation et évacuation en centre de traitement des terres souillées aux hydrocarbures,
+
+25l0l0	Excavation	N
+25l0l1	évacuation_en_centre	O
+25l0l2	de_traitement	N
+25l0l3	hydrocarbures	O
+25l1l0	hydrocarbures	S
+
+#- Les déchets amiantés ont été conditionnés et acheminés vers un centre d'enfouissement technique de classe 1 ou 2, selon leur nature,
+
+26l0l0	Les_déchets_amiantés	O
+26l0l1	ont_été_conditionnés_et_acheminés_vers	N
+26l0l2	un_centre	O
+26l1l0	Les_déchets_amiantés	U
+
+#- Les matériaux inertes (béton,ferraille,etc), issus du démantèlement des bâtiments ont été concassés et réutilisés sur le site,
+
+27l0l0	Les_matériaux_inertes	O
+27l0l1	béton	O
+27l0l2	ferraille	O
+27l0l3	démantèlement_des_bâtiments	N
+27l0l4	ont_été_concassés	N
+27l0l5	et_réutilisés	N
+27l1l0	Les_matériaux_inertes	U
+
+#- Mise en place d'une barrière étanche (argile) pour confiner la pollution restée en place en Z1.
+
+28l0l0	Mise_en_place_d_	N
+28l0l1	une_barrière_étanche	O
+28l0l2	confiner_la_pollution_restée_en_place	N
+28l0l3	en	R
+28l0l4	Z1__	O
+
+#Dans le cadre de la surveillance du chantier, l'inspection des installations classées a effectué plusieurs visites inopinées.
+
+29l0l0	Dans_le_cadre_de	R
+29l0l1	la_surveillance_du_chantier	N
+29l0l2	l__inspection_des_installations_classées	O
+29l0l3	a_effectué_plusieurs_visites_inopinées	N
+
+#Parallèlement, un arrêté préfectoral instaurant des servitudes d'utilité publique, à été signé le 4 novembre 2005, avec pour objectif de fixer, entre autre, les restrictions d'usage suivantes:
+
+30l0l0	un_arrêté_préfectoral	O
+30l0l1	instaurant	N
+30l0l2	des_servitudes_d_	O
+30l0l3	utilité_publique	O
+30l0l4	à_été_signé	N
+30l0l5	le_4_novembre_2005__	T
+30l0l6	les_restrictions_d__usage	O
+
+#- Interdire les constructions, les travaux en sous-sol et les canalisations enterrées en Z1,
+
+31l0l0	Interdire_les_constructions	N
+31l0l1	les	O
+31l0l2	travaux_en_sous_sol	N
+31l0l3	les_canalisations_enterrées	O
+
+#- Interdire les prélèvements d'eaux souterraines sur l'ensemble du site,
+
+32l0l0	Interdire	N
+32l0l1	les_prélèvements_d__eaux_souterraines	A
+
+#- Autoriser l'accès aux ouvrages de prélèvement d'eaux souterraines.
+
+33l0l0	Autoriser_l__accès	N
+33l0l1	aux_ouvrages_de_prélèvement	A
+
+#Les travaux de démolition dans la zone 2 ont été terminés en mars 2006, en juin suivant, la construction du nouvel hôpital a débuté.
+
+34l0l0	Les_travaux_de_démolition	N
+34l0l1	dans	L
+34l0l2	la_zone_2	O
+34l0l3	ont_été_terminés	N
+34l0l4	en_mars_2006__	T
+34l0l5	en_juin_suivant	T
+34l0l6	la_construction_du_nouvel_hôpital_a_débuté	N
+
+#Par deux arrêtés pris en juillet 2007, les travaux de démolition de la zone3 ont été encadrés et un suivi de la qualité des eaux souterraines a été mis en place autour de la zone 1 pour vérifier l'absence de mobilité de la pollution confinée sur cette zone.
+
+35l0l0	deux_arrêtés_pris	N
+35l0l1	en_juillet_2007__	T
+35l0l2	les_travaux_de_démolition	N
+35l0l3	la_zone3	O
+35l0l4	ont_été_encadrés	N
+35l0l5	un_suivi_de_la_qualité_des_eaux_souterraines	A
+35l0l6	a_été_mis_en_place	N
+35l0l7	autour_de_la_zone_1	L
+
+#En juin 2008, lors dune visite, l'inspection des installations classées a fait, sur la zone 3, le constat suivant:
+
+36l0l0	En_juin_2008___lors	T
+36l0l1	dune_visite	N
+36l0l2	l__inspection_des_installations_classées	O
+36l0l3	a_fait	N
+36l0l4	sur_la_zone	L
+36l0l5	le_constat	N
+
+#- Destruction des derniers bâtiments en cours d'achèvement,
+
+37l0l0	Destruction_des_derniers_bâtiments	N
+
+#- Excavation des terres chargées en hydrocarbures, jusqu'au seuil de 150mg/kg.
+
+38l0l0	Excavation_des_terres_chargées	N
+38l0l1	hydrocarbures	O
+38l1l0	hydrocarbures	S
+
+#Ces travaux ont été terminés au 2ème semestre 2008.
+
+39l0l0	Ces_travaux	O
+39l0l1	ont_été_terminés	N
+39l0l2	au_2ème_semestre_2008__	T
+
+#Suite à un diagnostic complémentaire réalisé en 2011 sur la zone 3, deux poches de pollution aux HCT et aux HAP ont été identifiées.
+
+40l0l0	Suite	R
+40l0l1	à_un_diagnostic_complémentaire	N
+40l0l2	en_2011	T
+40l0l3	la_zone_3	O
+40l0l4	deux_poches_de_pollution	O
+40l0l5	ont_été_identifiées	N
+40l1l0	HCT	S
+40l1l1	HAP	S
+
+#Les travaux d'excavation et d'évacuation des terres polluées se sont déroulés en janvier 2012 en respectant le seuil de 150mg/kg.
+
+41l0l0	Les_travaux_d__excavation	N
+41l0l1	d__évacuation_des_terres_polluées	O
+41l0l2	se_sont_déroulés	N
+41l0l3	en_janvier_2012	T
+
+#La compatibilité de ce seuil pour un usage de type habitation (projet LOGIDÔME) est confirmé par l'analyse des risques résiduels de mars 2012.
+
+42l0l0	un_usage	O
+42l0l1	de_type_habitation	A
+42l0l2	mars_2012__	T
+
+#De 2007 à 2009, les analyses dans les eaux de la nappe sous-jacente, réalisées à partir de 6 ouvrages, montrent des concentrations en HCT, HAP et CAV inférieures aux limites de quantifications ou en dessous des valeurs compatibles avec les usages projetés.
+
+43l0l0	De_2007_à_2009__	T
+43l0l1	les_analyses	N
+43l0l2	les_eaux	O
+43l0l3	la_nappe_sous_jacente	O
+43l1l0	HCT	S
+43l1l1	HAP	S
+43l1l2	CAV	S
+
+#En 2010, en raison de l'implantation de la voirie, deux piézomètres ont dû être déplacés.
+
+44l0l0	En_2010__	T
+44l0l1	en_raison_de	R
+44l0l2	l__implantation	N
+44l0l3	la_voirie	O
+44l0l4	deux_piézomètres	O
+44l0l5	ont_dû_être_déplacés	N
+
+#A partir de 2010, deux piézomètres (PZ1 et PZ4), et particulièrement PZ1, situés en aval hydraulique de la zone confinée (Z1) indique une augmentation des concentrations en HAP supérieures aux valeurs de gestion retenues dans les études en 2005 et 2006.
+
+45l0l0	A	R
+45l0l1	partir_de_2010__	T
+45l0l2	deux_piézomètres	O
+45l0l3	situés_en_aval_hydraulique_de_la_zone_confinée	O
+45l0l4	en_2005_et_2006__	T
+45l1l0	HAP	S
+
+#Néanmoins, l'évaluation quantitative des risques sanitaires rendue en février 2012 conclut, sur la base des concentrations mesurées sur ces deux ouvrages, à l'absence de risque pour les populations exposées sur les terrains.
+
+46l0l0	évaluation_quantitative_des_risques_sanitaires	O
+46l0l1	rendue	N
+46l0l2	en_février_2012	T
+46l0l3	ces_deux_ouvrages	O
+46l0l4	les_terrains	O
+
+#Les résultats des dernières campagnes d'analyses des eaux souterraines indiquent un impact faible à modéré et relativement stable.
+
+47l0l0	dernières_campagnes_d__analyses	N

@@ -1,0 +1,202 @@
+
+#59.0124
+#- en 2005: vente de la société SEAC à la société MINAKEM.
+
+0l0l0	en_2005	T
+0l0l1	__vente	N
+0l0l2	la_société_SEAC	O
+0l0l3	la_société_MINAKEM	O
+0l1l0	la_société_SEAC	I
+0l1l1	société_MINAKEM	I
+
+#Néanmoins, SEAC reste propriétaire de trois terrains "annexes à l'entreprise", situés hors site.
+
+1l0l0	SEAC	O
+1l0l1	propriétaire_de_trois_terrains	O
+1l0l2	l__entreprise	O
+1l0l3	situés_hors_site	L
+1l1l0	SEAC	I
+
+#- 6 octobre 2005: SEAC devient Moulin des Ecluses
+
+2l0l0	6_octobre_2005	T
+2l0l1	SEAC	O
+2l0l2	devient	R
+2l0l3	Ecluses	A
+2l1l0	SEAC_devient_Moulin_des_Ecluses	I
+
+#- Ces terrains ont servis de décharge pendant plusieurs années et sont donc fortement pollués
+
+3l0l0	Ces_terrains	O
+3l0l1	ont_servis_de_décharge	N
+3l0l2	pendant_plusieurs_années	T
+3l0l3	pollués	N
+
+#*terrain 1: parcelle A874: 0.26ha (nouvellement numérotée 000ZD120)
+
+4l0l0	0_26_ha	O
+
+#-Parcelle située en face de l'usine MINAKEM
+
+5l0l0	située_en_face_de_l__usine	L
+5l0l1	MINAKEM	O
+
+#*terrain 2: parcelle B253: 0.135 ha
+
+
+#-Située près de l'A23 au lieu-dit rue du moulin
+
+7l0l0	_Située_près_de_l__A23	L
+7l0l1	au_lieu___dit_rue_du_moulin	L
+
+#*terrain 3: terrain dit de l'annexe: 3.5ha
+
+8l0l0	__terrain_3	O
+8l0l1	3_5_ha	O
+
+#-Situé au Sud de la commune  entre l'A23 et MINAKEM
+
+9l0l0	_Situé_au_Sud_de_la_commune___entre_l__A23_et_MINAKEM	L
+
+#-constitué des parcelles -708 à 711 (friche)
+
+
+#-693,694,696 à 701 (prairies où ont été épandues des boues de station de traitement des eaux de SEAC)
+
+11l0l0	701	O
+11l0l1	ont_été_épandues	N
+11l0l2	traitement_des_eaux_de_SEAC	A
+11l1l0	boues	U
+11l1l1	SEAC	I
+
+#-925 à 927 (zone réaménagée)
+
+12l0l0	zone_réaménagée	N
+
+#- Industrie de la chimie.
+
+13l0l0	Industrie_de_la_chimie	A
+
+#-diagnostic des sols et des eaux souterraines en juillet 2003 pour la parcelle A874
+
+14l0l0	_diagnostic	N
+14l0l1	sols_et_des_eaux_souterraines	O
+14l0l2	en_juillet_2003	T
+14l0l3	la_parcelle_A874	O
+
+#-diagnostic des sols et des eaux souterraines en octobre 2003 pour la parcelle B253
+
+15l0l0	_diagnostic	N
+15l0l1	sols_et_des_eaux_souterraines	O
+15l0l2	en_octobre_2003	T
+15l0l3	la_parcelle_B253	O
+
+#-Évaluation détaillée des risques pour la parcelle A874 en janvier 2004
+
+16l0l0	_Évaluation_détaillée_des_risques	N
+16l0l1	la_parcelle_A874	O
+16l0l2	en_janvier_2004	T
+
+#-Ces études ont révélées des pollutions importantes dans les sols et eaux souterraines
+
+17l0l0	révélées	N
+17l0l1	des_pollutions	O
+
+#-Arrêté préfectoral du 10 avril 2006 imposant pour la parcelle A874 la mise en sécurité et la réalisation d'une EDR
+
+18l0l0	_Arrêté_préfectoral	O
+18l0l1	10_avril_2006	T
+18l0l2	imposant	N
+18l0l3	la_parcelle_A874	O
+18l0l4	la_mise_en_sécurité	N
+18l0l5	la_réalisation_d__une_EDR	N
+
+#-Des Arrêtés préfectoraux pour les autre parcelles ont été également réalisés mais ont été cassés suite à un contentieux administratif avec la société Moulin des Écluses
+
+19l0l0	_Des_Arrêtés_préfectoraux	O
+19l0l1	les_autre_parcelles	O
+19l0l2	ont_été_également_réalisés	N
+19l0l3	ont_été_cassés	N
+19l0l4	un_contentieux_administratif	N
+19l0l5	la_société_Moulin_des_Écluses	O
+19l1l0	la_société_Moulin_des_Écluses	I
+
+#-Réalisation d'une Évaluation détaillée des risques le 17 janvier 2007 pour la parcelle A874
+
+20l0l0	_Réalisation_d__une_Évaluation_détaillée_des_risques	N
+20l0l1	le_17_janvier_2007	T
+20l0l2	la_parcelle_A874	O
+
+#-La parcelle A874 est clôturée et la surveillance des eaux souterraines est en cours de mise en place: phase: projet d’arrêté préfectoral (il existe déjà 3 piézomètres sur le site)
+
+21l0l0	_La_parcelle_A874	O
+21l0l1	clôturée	O
+21l0l2	la_surveillance_des_eaux_souterraines	A
+21l0l3	est	R
+21l0l4	en_cours_de	T
+21l0l5	mise_en_place	N
+21l0l6	__phase	O
+21l0l7	d__arrêté_préfectoral	O
+
+#-Le captage d'alimentation d'eau potable le plus proche est à 4km du site, il n'est pas impacté par la pollution des eaux souterraines du site.
+
+22l0l0	_Le_captage	O
+22l0l1	est_à_4_km_du_site	L
+22l0l2	pollution_des_eaux_souterraines	O
+
+#Néanmoins, il existe des puits privés dans le secteur pour lesquels un recensement et des analyses sont demandées.
+
+23l0l0	analyses	O
+23l0l1	sont_demandées	N
+
+#-Une information a été communiquée pour inscrire les parcelles au plan local d'urbanisme de la commune, afin de garder la mémoire des sites
+
+24l0l0	_Une_information	O
+24l0l1	a_été_communiquée	N
+24l0l2	les_parcelles	O
+24l0l3	au	R
+24l0l4	plan_local_d__urbanisme	O
+24l0l5	la_commune	O
+24l0l6	sites	O
+
+#-Les différentes études permettent de confirmer la présence de:
+
+
+#pour les sols:
+
+
+#~Traces significatives de BTEX
+
+27l1l0	BTEX	S
+
+#~Teneurs élevées en métaux lourds (As, Cd, Cr, Cu, Hg, Nl, Pb et Zn)
+
+28l1l0	métaux_lourds	S
+28l1l1	As	S
+28l1l2	Cd	S
+28l1l3	Cr	S
+28l1l4	Cu	S
+28l1l5	Hg	S
+28l1l6	Nl	S
+28l1l7	Pb	S
+28l1l8	Zn	S
+
+#~Teneurs importantes de OHV
+
+
+#~HAP
+
+30l1l0	_HAP	S
+
+#Concernant le nappe des limons (sables d'ostricourt):
+
+31l0l0	ostricourt	O
+
+#~HCT, As, BTEX, Ni, Pb, OHV
+
+32l1l0	_HCT	S
+32l1l1	BTEX	S
+32l1l2	Ni	S
+
+#-Demande d'informations des riverains en cours
+

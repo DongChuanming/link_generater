@@ -1,0 +1,232 @@
+
+#59.0037
+#- Surface du site : 7,5 ha.
+
+
+#- Plusieurs activités ont été exploitées sur le site : une usine de construction métallique (DELATTRE LEVIVIER) dans la partie
+
+1l0l0	Plusieurs_activités	O
+1l0l1	ont_été_exploitées	N
+1l0l2	une_usine_de_construction_métallique	O
+1l0l3	DELATTRE_LEVIVIER	O
+1l0l4	la_partie	O
+1l1l0	DELATTRE_LEVIVIER	I
+
+#sud, une usine à graisse et des ateliers centraux des Houillères dans la partie nord.
+
+2l0l0	une_usine_à_graisse	O
+2l0l1	des_ateliers_centraux	O
+2l0l2	Houillères	L
+2l0l3	dans_la_partie_nord	L
+
+#Après l'arrêt des activités minières, le site a été utilisé par des récupérateurs de ferrailles et de cuivre.
+
+3l0l0	Après	R
+3l0l1	l__arrêt	N
+3l0l2	des_activités_minières	A
+3l0l3	le_site	O
+3l0l4	a_été_utilisé	N
+3l0l5	des_récupérateurs	N
+3l0l6	de_ferrailles	A
+3l0l7	et_de_cuivre	A
+3l1l0	cuivre	S
+
+#- Site à pollutions multiples : sols pollués par des PCB, dépôt de brai (HAP), dépôts de déchets industriels en fûts,
+
+4l1l0	des_PCB	S
+4l1l1	brai___HAP	S
+4l1l2	déchets_industriels	U
+
+#en réservoir et en vrac (huiles minérales, hydrocarbures, sables de fonderie, etc...), éléments de construction souillés.
+
+5l1l0	huiles_minérales	U
+5l1l1	hydrocarbures	S
+
+#- Étude historique établie en 1993.
+
+6l0l0	Étude_historique_établie_en_1993__	T
+
+#- Étude diagnostic approfondi du site réalisé en 1994 sous la maîtrise d'ouvrage de l'EPF (coût : 900 kF).
+
+7l0l0	Étude_diagnostic_approfondi	N
+7l0l1	site	O
+7l0l2	réalisé	N
+7l0l3	en_1994	T
+7l0l4	sous	N
+7l0l5	la_maîtrise_d__ouvrage	O
+7l0l6	kF	O
+7l1l0	EPF	I
+
+#- Travaux de requalification de la friche réalisés: démolition des bâtiments, évacuation et élimination hors site des déchets,
+
+8l0l0	Travaux_de_requalification	N
+8l0l1	la_friche_réalisés	N
+8l0l2	démolition_des_bâtiments	N
+8l0l3	évacuation	N
+8l0l4	élimination_hors_site	N
+
+#verdissement.
+
+9l0l0	verdissement	N
+
+#- La responsabilité de chacun des intervenants (CDF, Delattre-Levivier, Mairie de Valenciennes) sur ce site a été cernée.
+
+10l0l0	Mairie_de_Valenciennes	L
+10l0l1	ce_site	O
+10l0l2	a_été_cernée	N
+10l1l0	CDF	I
+10l1l1	Delattre___Levivier	I
+10l1l2	Mairie_de_Valenciennes	I
+
+#- La société DELATTRE LEVIVIER a fait une étude des sols sur la partie qui relève de sa responsabilité.
+
+11l0l0	La_société_DELATTRE_LEVIVIER	O
+11l0l1	a_fait	N
+11l0l2	une_étude_des_sols	N
+11l0l3	la_partie	O
+11l0l4	sa_responsabilité	A
+11l1l0	La_société_DELATTRE_LEVIVIER	I
+
+#Les travaux de remise en état de cette partie ont été réalisés.
+
+12l0l0	Les_travaux_de_remise_en_état	N
+12l0l1	cette_partie	O
+12l0l2	ont_été_réalisés	N
+
+#- Les sables de décapage ont été éliminés par l'entreprise SIMON.
+
+13l0l0	Les_sables_de_décapage	O
+13l0l1	ont_été_éliminés	N
+13l0l2	l__entreprise_SIMON	O
+
+#- Un diagnostic approfondi sur la partie exploitée précédemment par CDF a été réalisé : cette partie du site a été classée
+
+14l0l0	Un_diagnostic_approfondi	N
+14l0l1	la_partie	O
+14l0l2	exploitée	N
+14l0l3	CDF	O
+14l0l4	a_été_réalisé	N
+14l0l5	cette_partie_du_site	O
+14l0l6	a_été_classée	N
+14l1l0	CDF	I
+
+#en site à surveiller pour la pollution des eaux souterraines.
+
+
+#- La ville de Valenciennes a entrepris les études de sols pour le traitement de la zone noire polluée par les PCB
+
+16l0l0	La_ville_de_Valenciennes	O
+16l0l1	a_entrepris	N
+16l0l2	les_études_de_sols	N
+16l0l3	le_traitement_de	N
+16l0l4	la_zone_noire_polluée	O
+16l0l5	PCB	O
+16l1l0	La_ville_de_Valenciennes	I
+16l1l1	PCB	S
+
+#- La SEMURVAL pour le compte du SITURV (acquéreur du site dans le cadre du projet TRANSVILLE) a confié à ANTEA
+
+17l0l0	La_SEMURVAL	O
+17l0l1	du_SITURV	O
+17l0l2	acquéreur_du_site	N
+17l0l3	projet_TRANSVILLE	N
+17l0l4	a_confié	N
+17l0l5	ANTEA	O
+17l1l0	La_SEMURVAL	I
+17l1l1	du_SITURV	I
+17l1l2	TRANSVILLE	I
+17l1l3	ANTEA	I
+
+#le traitement de la pollution sur l'ensemble du site, aussi bien pour la zone noire que pour le dépôt de brai.
+
+18l0l0	dépôt_de_brai	O
+18l1l0	dépôt_de_brai	U
+
+#- Une évaluation détaillée des risques a défini les objectifs de réhabilitation et les travaux à entreprendre.
+
+19l0l0	Une	O
+19l0l1	évaluation_détaillée_des_risques	N
+19l0l2	a_défini	N
+19l0l3	les_objectifs_de_réhabilitation	O
+
+#- La surveillance du site est instaurée.
+
+20l0l0	La_surveillance_du_site	A
+20l0l1	est_instaurée	N
+
+#- Des servitudes seront instaurées sur la base de l'EDR.
+
+21l0l0	Des_servitudes	O
+21l0l1	seront_instaurées	N
+
+#- Un rapport de tiers expert datant de février 2003 fait état de la conformité des travaux de dépollution par rapport au projet
+
+22l0l0	Un_rapport_de_tiers_expert	O
+22l0l1	datant_de_février_2003	T
+22l0l2	la_conformité	O
+22l0l3	des_travaux_de_dépollution	N
+22l0l4	par_rapport_au	R
+22l0l5	projet	N
+
+#d'arrêté préfectoral (présenté en CDH le 16/09/03)
+
+23l0l0	d__arrêté_préfectoral	O
+23l0l1	le_16_09_03__	T
+
+#- Le récolement des travaux de dépollution a été effectué par la DRIRE le 14/04/04 en la présence de la mairie de Valenciennes
+
+24l0l0	Le_récolement	N
+24l0l1	des_travaux_de_dépollution	N
+24l0l2	a_été_effectué	N
+24l0l3	la_DRIRE	O
+24l0l4	le_14_04_04	T
+24l0l5	en_la_présence_de	R
+24l0l6	la_mairie	O
+24l0l7	Valenciennes	L
+24l1l0	la_DRIRE	I
+24l1l1	la_mairie_de_Valenciennes	I
+
+#et de la Semurval (rapport de la DRIRE du 26 avril 2004.
+
+25l0l0	la_Semurval	O
+25l0l1	la_DRIRE	O
+25l0l2	26_avril_2004__	T
+25l1l0	la_Semurval	I
+25l1l1	DRIRE	I
+
+#- Un dossier de servitudes d'utilité publique établi par Charbonnage de France a été transmis à l'inspection des installations
+
+26l0l0	Un_dossier_de_servitudes_d__utilité_publique	O
+26l0l1	établi_par	R
+26l0l2	Charbonnage_de_France	O
+26l0l3	a_été_transmis	N
+26l1l0	Charbonnage_de_France	I
+
+#classées en février 2004.
+
+27l0l0	classées	O
+27l0l1	en_février_2004__	T
+
+#De même, le SITURV a transmis à l'inspection un dossier de servitudes d'utilité publique en avril 2004.
+
+28l0l0	le_SITURV	O
+28l0l1	a_transmis	N
+28l0l2	l__inspection_un_dossier_de_servitudes_d__utilité_publique	O
+28l0l3	en_avril_2004__	T
+28l1l0	le_SITURV	I
+
+#- Utilisation actuelle: transville (dépôt de tramway).
+
+29l1l0	dépôt	D
+
+#- Aucun usage des eaux souterraines dans le secteur connu de l'administration.
+
+30l0l0	usage_des_eaux_souterraines	A
+30l0l1	dans_le_secteur_connu_de_l__administration	A
+
+#- Site mis en sécurité vis à vis des tiers.
+
+
+#- Action de l'administration toujours en cours.
+
+32l0l0	l__administration	O

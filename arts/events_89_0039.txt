@@ -1,0 +1,234 @@
+
+#89.0039
+#La société MOUVEX est implantée sur un terrain d'environ 30000 m2 dans la zone industrielle de la Plaine des Isles à Auxerre.
+
+0l0l0	La_société_MOUVEX	O
+0l0l1	est_implantée_sur	N
+0l0l2	un_terrain	O
+0l0l3	environ_30000	L
+0l0l4	m2	O
+0l0l5	dans_la_zone_industrielle_de_la_Plaine_des_Isles	L
+0l0l6	à_Auxerre	L
+0l1l0	La_société_MOUVEX	I
+
+#La société est spécialisée dans la fabrication de pompes, compresseurs et refroidisseurs hydrauliques.
+
+1l0l0	La_société	O
+1l0l1	est_spécialisée_dans_la_fabrication_de_pompes___compresseurs_et_refroidisseurs_hydrauliques	A
+
+#La société MOUVEX est autorisée au titre de la nomenclature des installations classées pour la protection de l'environnement.
+
+2l0l0	La_société_MOUVEX	O
+2l0l1	est_autorisée	N
+2l0l2	nomenclature_des_installations_classées_pour_la_protection_de_l__environnement	O
+2l1l0	La_société_MOUVEX	I
+
+#Contexte hydrologique:
+
+
+#Le site se trouve en bordure Est de la vallée de l'Yonne à environ 700 mètres de la rivière du même nom.
+
+4l0l0	Le_site	O
+4l0l1	se_trouve_en_bordure_Est_de_la_vallée_de_l__Yonne_à_environ_700_mètres_de_la_rivière_du_même_nom	L
+
+#Un ru (petit cours d'eau) temporaire passe à 100 mètres au Sud du site et est en parti busé (canalisation permettant l'écoulement de l'eau).
+
+5l0l0	Un_ru	O
+5l0l1	passe_à_100_mètres_au_Sud_du_site	L
+
+#Contexte hydrogéologique:
+
+6l0l0	Contexte_hydrogéologique	N
+
+#La zone étudiée est caractérisée par la présence de deux nappes aquifères qui sont en communication:
+
+7l0l0	La_zone	O
+7l0l1	deux_nappes_aquifères	O
+
+#- la nappe des calcaires fissurés du Portlandien
+
+
+#- la nappe des alluvions de l'Yonne
+
+9l0l0	l__Yonne	L
+
+#Les aquifères au droit du site se trouvent en limite de périmètre de protection pour les captages d'alimentation en eau potable.
+
+10l0l0	Les_aquifères	O
+10l0l1	au_droit_du_site	L
+10l0l2	se_trouvent_en_limite_de_périmètre_de_protection	L
+
+#Les aquifères ont donc un usage sensible et sont potentiellement vulnérables.
+
+
+#Il existe un autre captage proche, situé sur la commune de MONETEAU à environ 1 km du site: le captage de la société YOPLAIT.
+
+12l0l0	un_autre_captage_proche	O
+12l0l1	situé_sur_la_commune_de_MONETEAU_à_environ_1_km_du_site	L
+12l0l2	le_captage	O
+12l0l3	la_société_YOPLAIT	O
+12l1l0	la_société_YOPLAIT	I
+
+#Ce captage sert pour la préparation de produits alimentaires et a donc aussi un usage sensible.
+
+13l0l0	Ce_captage	O
+13l0l1	sert_pour	R
+13l0l2	la_préparation_de_produits_alimentaires	A
+
+#Le site possède des ateliers d'essais de pompe; Les pompes sont testées, parfois jusqu'à la rupture.
+
+14l0l0	Le_site	O
+14l0l1	possède	R
+14l0l2	des_ateliers_d__essais_de_pompe	O
+14l0l3	testées	N
+
+#Un bac de rétention en béton construit en 2005 prévoit les risques de pollution des sols.
+
+15l0l0	Un_bac_de_rétention	O
+15l0l1	béton	O
+15l0l2	construit	N
+15l0l3	en_2005	T
+15l0l4	prévoit	R
+15l0l5	les_risques_de_pollution_des_sols	O
+
+#Le vendredi 2 janvier 2009, un déversement accidentel d'huile minérale s'est produit suite à la rupture d'une soudure lors d'un essai.950 litres d'huile sont alors recueillis dans le bac de rétention.
+
+16l0l0	Le_vendredi_2_janvier_2009__	T
+16l0l1	un_déversement_accidentel	N
+16l0l2	d__huile_minérale	O
+16l0l3	s__est_produit	N
+16l0l4	suite_à	R
+16l0l5	la_rupture_d__une_soudure	O
+16l0l6	lors_d_	R
+16l0l7	un_essai_950	O
+16l0l8	litres_d__huile	O
+16l0l9	bac_de_rétention	O
+16l1l0	huile_minérale	U
+
+#Il était prévu de la récupérer le lundi 5 janvier 2009.
+
+17l0l0	Il_était_prévu	O
+17l0l1	la_récupérer	O
+17l0l2	le_lundi_5_janvier_2009__	T
+
+#La 5 janvier il est constaté la disparition de l'huile et donc la défaillance du bac de rétention.
+
+18l0l0	La_5_janvier	T
+18l0l1	la_disparition	N
+18l0l2	l__huile	O
+18l0l3	la_défaillance_du_bac_de_rétention	O
+
+#Du 10 au 13 janvier:
+
+19l0l0	Du_10_au_13_janvier__	T
+
+#Tous les terrains contaminés par l'huile ont été stockés dans une benne dont le fond, les dessus et les bords sont protégés par une bâche étanche. 60 litres d'huile sont à nouveau récupérés par pompage dans les terrains décaissés.
+
+20l0l0	Tous_les_terrains_contaminés	O
+20l0l1	l__huile	O
+20l0l2	ont_été_stockés	N
+20l0l3	le_fond	O
+20l0l4	les_bords_sont_protégés_par_une_bâche_étanche	O
+20l0l5	pompage	N
+20l0l6	les_terrains_décaissés	N
+
+#Le 15 et 16 janvier:
+
+21l0l0	Le_15_et_16_janvier__	T
+
+#14 sondages à la tarière sont réalisées avec un double but:
+
+
+#- la reconnaissance géologique du site
+
+23l0l0	la_reconnaissance_géologique	N
+23l0l1	site	O
+
+#- le prélèvement d'échantillons du sol en vue de leur analyse en laboratoire pour caractériser l'étendue du panache d'huile dans le sol.
+
+
+#D'autres extractions des terres contaminées à l'huile ont été réalisées et 3 piézomètres de surveillance de la qualité des eaux souterraines ont été installés.
+
+25l0l0	extractions	N
+25l0l1	terres_contaminées	O
+25l0l2	ont_été_réalisées	N
+25l0l3	3_piézomètres	O
+25l0l4	surveillance_de_la_qualité_des_eaux_souterraines	A
+25l0l5	ont_été_installés	N
+25l1l0	huile	S
+
+#29 janvier 2009: par arrêté préfectoral la société MOUVEX se voit imposer des mesures d'urgences.
+
+26l0l0	29_janvier_2009__	T
+26l0l1	par	R
+26l0l2	arrêté_préfectoral	O
+26l0l3	la_société_MOUVEX	O
+26l0l4	se_voit_imposer	N
+26l0l5	des_mesures_d__urgences	O
+26l1l0	la_société_MOUVEX	I
+
+#Un diagnostic initial de pollution des sols et un suivi journalier de la pollution des eaux souterraines étaient à réaliser.
+
+27l0l0	Un_diagnostic_initial_de_pollution	N
+27l0l1	un	O
+27l0l2	suivi_journalier_de_la_pollution_des_eaux_souterraines	A
+27l0l3	étaient_à_réaliser	N
+
+#les résultats du diagnostic initial révèlent:
+
+28l0l0	diagnostic_initial	N
+
+#- une pollution des sols: en hydrocarbures totaux et hydrocarbures aromatiques polycycliques
+
+29l0l0	une_pollution_des_sols	N
+29l1l0	hydrocarbures_totaux	S
+29l1l1	hydrocarbures_aromatiques_polycycliques	S
+
+#Les résultats des 5 campagnes d'analyses d'eau de 2009 ont révélés:
+
+30l0l0	5_campagnes_d__analyses	N
+30l0l1	de_2009	T
+
+#- une teneur en hydrocarbures totaux inférieure aux limites de détection.
+
+31l1l0	hydrocarbures_totaux	S
+
+#Au final, 530 litres d'huile a pu être récupéré (avec une marge d'erreur sur les teneurs en huile du sol.
+
+32l0l0	huile	O
+32l0l1	a_pu_être_récupéré	N
+
+#Il reste ainsi entre 400 et 500 litres d'huile sur site.
+
+
+#Les campagnes de suivi des eaux souterraines se poursuivent de façon semestrielle; les dernières étant de novembre 2011.
+
+34l0l0	Les	A
+34l0l1	campagnes_de_suivi_des_eaux_souterraines	O
+34l0l2	de_novembre_2011__	T
+
+#Par ailleurs depuis aout 2011 l'Association pour la qualité de l'eau potable de la plaine du Saulce a mandaté le bureau d'études Burgeap pour faire des recherches sur la source de pollution (antérieure à 1983) aux organochlorés (chloroéthénes et chloroéthanes) affectant le captage de la plaine des Isles.
+
+35l0l0	depuis_aout_2011	T
+35l0l1	l__Association	O
+35l0l2	plaine_du_Saulce	L
+35l0l3	a_mandaté	N
+35l0l4	le_bureau_d__études	O
+35l0l5	Burgeap	O
+35l0l6	recherches_sur_la_source_de_pollution	O
+35l0l7	1983	T
+35l0l8	plaine_des_Isles	L
+35l1l0	Burgeap	I
+35l1l1	organochlorés	S
+35l1l2	chloroéthénes	S
+35l1l3	chloroéthanes	S
+
+#ce site est répertorié comme source potentielle de la pollution.
+
+36l0l0	ce_site	O
+
+#Des investigations complémentaires sont à mener; une visite du site est programmée prochaine par le service de l'inspection des installations classées.
+
+37l0l0	une_visite	N
+37l0l1	site	O
+37l0l2	est_programmée	N

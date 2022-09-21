@@ -1,0 +1,161 @@
+
+#31.0073
+#Ancienne station service d'une superficie d'environ 1820m2, située à l'est de Toulouse, dont toutes les infrastructures ont été démantelées en 2011 hormis les bâtiments abritant l'ancienne boutique (située au nord-ouest du site) et la baie technique (située au nord-est du site).
+
+0l0l0	Ancienne_station_service	O
+0l0l1	située_à_l__est_de_Toulouse	L
+0l0l2	les_infrastructures	O
+0l0l3	ont_été_démantelées	N
+0l0l4	en_2011	T
+0l0l5	les_bâtiments	O
+0l0l6	située_au_nord_ouest_du_site	L
+0l0l7	la_baie	O
+0l0l8	située_au_nord_est_du_site	L
+
+#Son environnement immédiat est constitué d'habitations individuelles et de commerces.
+
+1l0l0	Son_environnement_immédiat	O
+1l0l1	d__habitations	L
+
+#La station service a cessé son activité en octobre 2010.
+
+2l0l0	La_station_service	O
+2l0l1	a_cessé_son_activité	N
+2l0l2	en_octobre_2010__	T
+
+#Dans le cadre de la cessation d'activité, une étude environnementale a été réalisée entre août 2010 et février 2011 et a mis en évidence :
+
+3l0l0	Dans_le_cadre_de	R
+3l0l1	la_cessation_d__activité	N
+3l0l2	une_étude_environnementale	N
+3l0l3	a_été_réalisée	N
+3l0l4	entre_août_2010_et_février_2011	T
+
+#- au niveau des eaux souterraines une pollution en hydrocarbures C5-C40 (6055,67 µg/L pour une valeur de référence de 1000 µg/L eaux brutes) et en BTEX(benzène, toluène, éthylbenzène et xylènes)(18753,79 µg/L pour une valeur de référence de 1510 µg/L eau potable) au droit du piézomètre A situé en aval du site.
+
+4l0l0	situé_en_aval_du_site	L
+4l1l0	hydrocarbures_C5_C40	S
+4l1l1	BTEX_benzène	S
+4l1l2	toluène	S
+4l1l3	éthylbenzène	S
+4l1l4	xylènes_18753_79	S
+
+#- au niveau des sols des impacts en hydrocarbures (fractions C5-C10 et C10-C40), en BTEX  et en métaux (cadmium, cuivre, plomb, zinc et mercure).
+
+5l1l0	hydrocarbures	S
+5l1l1	C5_C10	S
+5l1l2	C10_C40__	S
+5l1l3	BTEX	S
+5l1l4	en_métaux___cadmium___cuivre___plomb___zinc_et_mercure	S
+
+#Un total de 1775 tonnes de terres polluées a été excavé et évacué en filière agréée (biocentre) au cours du 1er semestre 2011.
+
+6l0l0	1775_tonnes_de_terres_polluées	O
+6l0l1	a_été_excavé	N
+6l0l2	évacué_en_filière_agréée	O
+6l0l3	au_cours_du_1er_semestre_2011__	T
+
+#Suite à ces travaux d'excavation, des investigations de terrains complémentaires ont été réalisées au cours du 3e trimestre 2011 afin de préciser la qualité résiduelle des milieux sur site et hors site. 6 piézomètres gaz ont notamment été installés.
+
+7l0l0	Suite	R
+7l0l1	à_ces_travaux_d__excavation	N
+7l0l2	des_investigations_de_terrains	N
+7l0l3	complémentaires	O
+7l0l4	ont_été_réalisées	N
+7l0l5	au_cours_du_3e_trimestre_2011	T
+7l0l6	la_qualité_résiduelle	O
+7l0l7	des_milieux	O
+7l0l8	été_installés	N
+
+#Il ressort de ces analyses complémentaires:
+
+
+#- pour les eaux souterraines: persistance après les travaux de démantèlement de janvier 2011 d'un impact en hydrocarbures (5639,97 µg/L pour une valeur de référence de 1000 µg/L eaux brutes) et en BTEX (17191,4 µg/L pour une valeur de référence de 1510 µg/L eau potable) au droit du piézomètre A situé en aval du site.
+
+9l0l0	après_les_travaux_de_démantèlement	N
+9l0l1	de_janvier_2011	T
+9l0l2	un_impact	O
+9l0l3	situé_en_aval_du_site	L
+9l1l0	hydrocarbures	S
+9l1l1	BTEX	S
+
+#- pour les sols : un impact résiduel en profondeur en hydrocarbures et BTEX en bordure ouest et sud-ouest hors du site, et une absence d'impact dans les sols de surface
+
+10l0l0	un_impact	N
+10l0l1	en_bordure_ouest_et_sud_ouest_hors_du_site	L
+10l1l0	hydrocarbures	S
+10l1l1	BTEX	S
+10l1l2	surface	U
+
+#- pour les gaz du sol : un impact au sud du site (ancienne cuve) en hydrocarbures relevés en juin 2011 (au niveau du pzg4) qui n'est plus détecté en septembre 2011.
+
+11l0l0	un_impact	O
+11l0l1	au_sud_du_site	L
+11l0l2	hydrocarbures	O
+11l0l3	relevés	N
+11l0l4	en_juin_2011	T
+11l0l5	en_septembre_2011__	T
+11l1l0	hydrocarbures	S
+
+#L'analyse des risques résiduels montre que la qualité des milieux est compatible avec les usages commerciaux ou industriels sur la base des hypothèses d'aménagement considérées (conservation du bâtiment actuel avec conservation de l'état actuel des sols et des surfaces, canalisations AEP conservées et absence d'usage des eaux souterraines) et de la connaissance de la qualité des milieux au moment de l'étude.
+
+12l0l0	conservation_du_bâtiment_actuel	N
+12l0l1	la_qualité_des_milieux	O
+12l0l2	moment_de	R
+12l0l3	l__étude	N
+
+#Par lettre préfectorale du 28 mai 2013, l'inspection des installations classées a demandé la poursuite du suivi des eaux souterraines et une interprétation de l'état des milieux hors site.
+
+13l0l0	28_mai_2013__	T
+13l0l1	l__inspection_des_installations_classées	O
+13l0l2	a_demandé	N
+13l0l3	la_poursuite	O
+13l0l4	du_suivi_des_eaux_souterraines	A
+13l0l5	une_interprétation_de_l__état_des_milieux_hors_site	O
+
+#Cette étude a été communiquée par l'exploitant en mai 2014 : les calculs de risques réalisés montrent la compatibilité des teneurs issues du site avec l’usage de son environnement constaté fin 2013.
+
+14l0l0	Cette_étude_a_été_communiquée	N
+14l0l1	l__exploitant	O
+14l0l2	en_mai_2014	T
+14l0l3	les_calculs_de_risques_réalisés	N
+14l0l4	fin_2013__	T
+
+#Par ailleurs, les résultats de la campagne de suivi des eaux souterraines de janvier 2015 ont montré des teneurs habituellement mesurées depuis les travaux de démantèlement de 2011 sauf pour le piézomètre PZA qui présentait toujours de fortes teneurs notamment en BTEX (12 647 μg/L dont 687 μg/L en benzène).
+
+15l0l0	la_campagne_de_suivi_des_eaux_souterraines	N
+15l0l1	de_janvier_2015	T
+15l0l2	depuis	T
+15l0l3	les_travaux_de_démantèlement	N
+15l0l4	de_2011	T
+15l0l5	piézomètre_PZA	O
+15l1l0	BTEX	S
+15l1l1	benzène	S
+
+#Dans son rapport du 10 août 2015, l'IIC a donc demandé des investigations complémentaires notamment au niveau de la zone où se situe le piézomètre A.
+
+16l0l0	10_août_2015__	T
+16l0l1	l__IIC	O
+16l0l2	a_donc_demandé_des_investigations_complémentaires	N
+16l0l3	au_niveau_de_la_zone_où_se_situe	L
+16l0l4	le_piézomètre_A_	O
+
+#L’exploitant a informé l'inspection de la réalisation de travaux complémentaires de dépollution aux alentours du piézomètre PZA impacté : excavation en septembre 2016 et traitement par pompage de juin à septembre 2017.
+
+17l0l0	L__exploitant	O
+17l0l1	a_informé	N
+17l0l2	l__inspection	O
+17l0l3	de_la_réalisation_de_travaux_complémentaires_de_dépollution	N
+17l0l4	aux_alentours_du	L
+17l0l5	piézomètre_PZA_impacté	O
+17l0l6	__excavation	N
+17l0l7	en_septembre_2016	T
+17l0l8	traitement_par_pompage	N
+17l0l9	de_juin_à_septembre_2017__	T
+
+#La campagne de prélèvements réalisée en janvier 2018 montre une amélioration de la qualité des eaux souterraines au droit de PZA (BTEX : 7,29 µg/l dont 3,49 µg/l en benzène).
+
+18l0l0	La_campagne_de_prélèvements	N
+18l0l1	en_janvier_2018	T
+18l1l0	BTEX	S
+18l1l1	benzène	S

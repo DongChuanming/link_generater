@@ -1,0 +1,103 @@
+
+#53.0044
+#Le terrain se situe au centre de la commune d'Ernée, dans une zone résidentielle.
+
+0l0l0	Le_terrain	O
+0l0l1	se_situe_au_centre_de_la_commune_d__Ernée___dans_une_zone_résidentielle	L
+
+#Le site appartenait à la société Super U qui exploitait une ancienne station de distribution de carburants situé à côté de l'ancien supermarché.
+
+1l0l0	Le_site	O
+1l0l1	appartenait_à	R
+1l0l2	la_société_Super_U	O
+1l0l3	exploitait_une_ancienne_station_de_distribution_de_carburants	O
+1l0l4	situé_à_côté_de_l_	L
+1l1l0	la_société_Super_U	I
+1l1l1	carburants	U
+
+#L'ancienne station service disposait d'un récépissé de déclaration daté du 19 mars 1987 pour un dépôt de liquides inflammables de 80m3 et une distribution de carburants comptant quatre volucompteurs.
+
+2l0l0	ancienne_station_service	O
+2l0l1	disposait_d_	R
+2l0l2	un_récépissé	O
+2l0l3	déclaration	N
+2l0l4	daté_du_19_mars_1987	T
+2l0l5	dépôt_de_liquides_inflammables	N
+2l0l6	une_distribution_de_carburants	N
+2l0l7	comptant	R
+2l0l8	quatre_volucompteurs	O
+2l1l0	liquides_inflammables	U
+2l1l1	carburants	U
+
+#La station service possédait une cuve enterrée compartimentée (60m3 de gazole, 20m3 de SP95 et 10m3 de SP98).
+
+3l0l0	La_station_service	O
+3l0l1	possédait	R
+3l0l2	une_cuve	O
+3l1l0	cuve_enterrée	D
+3l1l1	gazole	S
+3l1l2	SP95	S
+3l1l3	SP98	S
+
+#La station a été démantelée et la cuve fût dégazée et neutralisée au béton le 20 septembre 2006.
+
+4l0l0	La_station	O
+4l0l1	a_été_démantelée	N
+4l0l2	la_cuve	O
+4l0l3	fût_dégazée	N
+4l0l4	neutralisée_au_béton	N
+4l0l5	le_20_septembre_2006__	T
+4l1l0	la_cuve	D
+
+#Une campagne de reconnaissance des sols a été réalisée les 30 juin et 1er juillet 2009 sur quinze sondages répartis sur l'ancienne station service et le parking autour du supermarché.
+
+5l0l0	Une_campagne_de_reconnaissance_des_sols_a_été_réalisée	N
+5l0l1	les_30_juin_et_1er_juillet_2009	T
+5l0l2	quinze_sondages	O
+5l0l3	autour_du_supermarché	L
+
+#Un impact aux hydrocarbures a été mis en évidence sur deux sondages situés près des volucompteurs (1220 mg/kg MS à 0,4m de profondeur et 1250 mg/kg MS à 1,2m de profondeur).
+
+6l0l0	Un_impact	O
+6l0l1	deux_sondages	O
+6l0l2	situés_près_des_volucompteurs	L
+6l1l0	hydrocarbures	S
+
+#De légères valeurs en métaux ont également été observées notamment en arsenic (25,8 mg/kg MS), en cadmium (0,80 mg/Kg MS), en zinc (118 mg/kg MS sur le sondage S10) ainsi qu’en cuivre sur l'ensemble des sondages (25,7 mg/kg MS à 48 mg/kg MS).
+
+7l0l0	arsenic	O
+7l1l0	métaux	S
+7l1l1	arsenic	S
+7l1l2	cadmium	S
+7l1l3	zinc	S
+7l1l4	cuivre	S
+
+#Un défaut d'inertage de la cuve au niveau du compartiment n°3 a été repéré.
+
+8l0l0	a_été_repéré	N
+
+#Ces concentrations ne mettant pas en avant un impact significatif ; aucun impact sanitaire n'était à considérer pour les populations appelées à fréquenter le site dans le cadre des usages futurs fixés (commerce de détail).
+
+9l0l0	fréquenter	A
+9l0l1	le_site	L
+9l0l2	cadre_des	R
+9l0l3	usages_futurs_fixés	N
+
+#La société doit compéter ses résultats en faisant des analyses complémentaires et prendre des mesures pour le défaut d'inertage de la cuve afin de clore son mémoire de cessation d'activité.
+
+10l0l0	La_société	O
+10l0l1	doit_compéter	N
+10l0l2	inertage	O
+10l0l3	la_cuve	O
+10l0l4	clore_son_mémoire	N
+10l0l5	cessation_d__activité	N
+10l1l0	La	I
+
+#En cas de changement d’usage il sera nécessaire de s’assurer de la compatibilité de l’état des terrains avec les usages envisagés.
+
+11l0l0	En_cas	R
+11l0l1	de_changement_d_	N
+11l0l2	usage	O
+11l0l3	s__assurer_de	R
+11l0l4	la_compatibilité	O
+11l0l5	les_usages_envisagés	O

@@ -1,0 +1,99 @@
+
+#57.0120
+#Ancienne station service arrêtée en 2001/2002 et remplacée par une nouvelle station service sur le territoire de la commune de MONDELANGE.
+
+0l0l0	Ancienne_station_service	O
+0l0l1	arrêtée	N
+0l0l2	en_2001_2002	T
+0l0l3	et_remplacée_par	R
+0l0l4	une_nouvelle_station_service	O
+0l0l5	sur_le_territoire_de_la_commune_de_MONDELANGE	L
+
+#Deux mois avant la fin programmée de l'exploitation de l'ancienne station, et suite à une plainte d'un voisin, l'inspection a proposée de prescrire à l'exploitant la remise en état du site et la réalisation d'une évaluation simplifiée des risques (ESR).
+
+1l0l0	Deux_mois_avant_la_fin	T
+1l0l1	l__exploitation	N
+1l0l2	l__ancienne_station	O
+1l0l3	suite_à	R
+1l0l4	une_plainte_d_	O
+1l0l5	un_voisin	O
+1l0l6	l__inspection	O
+1l0l7	prescrire	N
+1l0l8	l__exploitant	O
+1l0l9	la_remise_en_état_du_site	N
+1l0l10	la_réalisation_d__une_évaluation_simplifiée_des_risques	N
+
+#La station service était équipée d'une cuve double enveloppe d'une capacité de 100 m3, aucune trace de fuite n'a été découverte lors du démantèlement de la cuve.
+
+2l0l0	La_station_service	O
+2l0l1	était_équipée_d_	R
+2l0l2	une_cuve	O
+2l0l3	du_démantèlement_de	N
+2l0l4	la_cuve	O
+2l1l0	cuve	D
+
+#Dans le cadre de l'ESR des prélèvements et analyses de sols ont été réalisés, les concentrations en hydrocarbures totaux rencontrés dans les sols sont inférieures aux VDSS ( Valeurs de définition de Source -Sol) permettant de définir la source de pollution constituée d'un sol.
+
+3l0l0	Dans_le_cadre_de	R
+3l0l1	analyses_de_sols	N
+3l0l2	ont_été_réalisés	N
+3l1l0	hydrocarbures_totaux	S
+
+#Trois piézomètres ont également été réalisés dans le cadre de cette étude afin d'analyser les eaux souterraines au droit du site.
+
+4l0l0	Trois_piézomètres	O
+4l0l1	ont_également_été_réalisés	N
+4l0l2	dans_le_cadre_de	R
+4l0l3	cette_étude	N
+4l0l4	afin_d__analyser	R
+4l0l5	les_eaux_souterraines	O
+4l0l6	au_droit_du_site	L
+
+#La concentration en hydrocarbures mesurée sur l'un des deux piézomètres placés en aval de la cuve par rapport au sens d'écoulement de la nappe, dépasse la Valeur de Constat d'Impact définie pour un usage non sensible de la nappe.
+
+5l0l0	en_aval_de_la_cuve_par_rapport_au_sens	L
+5l1l0	hydrocarbures	S
+
+#La source de pollution est constituée d'une zone autour de la cuve, contaminée par des essences et du gasoil de façon chronique, approvisionnement de la cuve et distribution du carburant.
+
+6l0l0	La_source_de_pollution	O
+6l0l1	une_zone	O
+6l0l2	la_cuve	O
+6l0l3	des_essences	O
+6l0l4	approvisionnement_de	N
+6l0l5	la_cuve	O
+6l0l6	distribution_du_carburant	A
+6l1l0	gasoil	S
+6l1l1	carburant	U
+
+#Cette zone est estimée à 300 m2 maximum.
+
+
+#Le captage le plus proche, dans la nappe alluviale de la Moselle et de l'Orne, est la ligne de captage d'Hagondange située à 1400m, située latéralement par rapport au sens d'écoulement de la nappe.
+
+8l0l0	Le_captage	O
+8l0l1	dans_la_nappe_alluviale_de_la_Moselle_et_de_l__Orne	L
+8l0l2	la_ligne_de_captage	O
+8l0l3	Hagondange	L
+8l0l4	située_à_1400_m	L
+
+#L'ESR classe le site en 2 , site à surveiller pour son impact sur les eaux souterraines.
+
+9l1l0	L__ESR	I
+
+#En mai 2003, les zones contaminées ont été excavées, des prélèvements ont été effectués sur les parois et les fonds des fouilles réalisées.
+
+10l0l0	En_mai_2003__	T
+10l0l1	les_zones_contaminées	O
+10l0l2	ont_été_excavées	N
+10l0l3	des_prélèvements_ont_été_effectués	N
+10l0l4	fouilles_réalisées	O
+
+#Les analyses montrent des teneurs résiduelles en hydrocarbures inférieures aux VDSS, entre 1,6 et 216 mg/kg.
+
+11l1l0	hydrocarbures	S
+
+#Le site ne constitue plus une source de pollution.
+
+12l0l0	Le_site	O
+12l0l1	plus_une_source_de_pollution	O

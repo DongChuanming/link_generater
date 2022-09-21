@@ -1,0 +1,88 @@
+
+#76.0200
+#Il s'agit d'un établissement industriel de fabrication de peintures implanté depuis 1972 sur la commune du Grand Quevilly.
+
+0l0l0	un_établissement	O
+0l0l1	industriel_de_fabrication_de_peintures_implanté	A
+0l0l2	depuis_1972	T
+0l0l3	sur_la_commune_du_Grand_Quevilly	L
+
+#La production est arrêtée définitivement depuis le 30 juin 2010.
+
+1l0l0	La_production	O
+1l0l1	est_arrêtée_définitivement	N
+1l0l2	depuis_le_30_juin_2010__	T
+
+#La nappe souterraine (nappe des alluvions est la nappe d'accompagnement de la Seine) passe au droit de l'établissement à une profondeur moyenne de 3 mètres (cette  profondeur varie en fonction des saisons).
+
+2l0l0	la_Seine	L
+2l0l1	passe_au_droit_de_l__établissement	L
+
+#L'établissement présente une pollution au fioul lourd au niveau du toit de la nappe phréatique, à proximité immédiate de la zone des anciennes cuves enterrées de fioul lourd (2 fois 100 m3).
+
+3l0l0	L_	O
+3l0l1	fioul_lourd	O
+3l0l2	à_proximité_immédiate_de	L
+3l0l3	la_zone	O
+3l1l0	fioul_lourd	U
+3l1l1	fioul_lourd	U
+
+#Il s'agit d'hydrocarbures visqueux surnageants et pas d'hydrocarbures dissous.
+
+4l1l0	hydrocarbures_visqueux_surnageants	U
+4l1l1	hydrocarbures	S
+
+#Cette pollution a été mise à jour en 2003 à l'occasion de travaux d'élimination de 2 cuves enterrées (de 100 m3 chacune de fioul lourd) qui alimentaient auparavant les chaudières de l'établissement.
+
+5l0l0	Cette_pollution	O
+5l0l1	a_été_mise	N
+5l0l2	à_jour	N
+5l0l3	en_2003	T
+5l0l4	à_l__occasion	R
+5l0l5	de_travaux_d__élimination	N
+5l0l6	2_cuves_enterrées	O
+5l0l7	alimentaient_auparavant_les_chaudières	A
+5l1l0	cuves_enterrées	D
+5l1l1	fioul_lourd	U
+
+#L'altération de l'étanchéité de la paroi d'une de ces 2 cuves se serait produite dès 1971, à la mise en place des réservoirs.
+
+6l0l0	L__altération_de_l__étanchéité	N
+6l0l1	ces_2_cuves	O
+6l0l2	se_serait_produite	N
+6l0l3	dès_1971	T
+6l0l4	à	R
+6l0l5	la_mise_en_place_des_réservoirs	N
+
+#Une première phase de travaux de dépollution sur une superficie de
+
+7l0l0	Une_première_phase_de_travaux_de_dépollution	N
+
+#1 200 m2 a été mise en œuvre en 2003 et 2004.
+
+8l0l0	200_m2	O
+8l0l1	a_été_mise_en_œuvre	N
+8l0l2	en_2003_et_2004__	T
+
+#Les modalités de surveillance de l'efficacité de ces travaux sont encadrées par l'arrêté préfectoral du 27 juillet 2005.
+
+9l0l0	Les_modalités	O
+9l0l1	ces_travaux	O
+9l0l2	sont_encadrées	N
+9l0l3	l__arrêté_préfectoral	O
+9l0l4	27_juillet_2005__	T
+
+#Une résurgence des pollutions résiduelles est détectée depuis 2006.
+
+10l0l0	Une_résurgence	N
+10l0l1	est_détectée	N
+10l0l2	depuis_2006__	T
+
+#Cette résurgence a été quantifiée à quelques m2 de superficie (en amont hydraulique de l'ouvrage Pz5) à l'occasion d'un nouveau diagnostic réalisé en septembre et décembre 2011.
+
+11l0l0	Cette_résurgence	N
+11l0l1	a_été_quantifiée	N
+11l0l2	en_amont_hydraulique_de_l__ouvrage	L
+11l0l3	occasion_d_	R
+11l0l4	un_nouveau_diagnostic_réalisé	N
+11l0l5	en_septembre_et_décembre_2011__	T

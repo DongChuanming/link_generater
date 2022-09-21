@@ -1,0 +1,375 @@
+
+#17.0027
+#Le site de 15ha a été occupé par la société SAINT GOBAIN de 1850 à 1920 pour y fabriquer de la soude et des engrais chimiques.
+
+0l0l0	Le_site	O
+0l0l1	15_ha	O
+0l0l2	a_été_occupé	N
+0l0l3	la_société_SAINT_GOBAIN	O
+0l0l4	de_1850_à_1920	T
+0l0l5	fabriquer_de_la_soude	A
+0l0l6	et_des_engrais_chimiques	O
+0l1l0	la_société_SAINT_GOBAIN	I
+0l1l1	soude	U
+
+#A partir de 1954, la briqueterie LAFON y a exercé ses activités durant 20 ans.
+
+1l0l0	A_partir_de_1954	T
+1l0l1	la_briqueterie_LAFON	O
+1l0l2	a_exercé_ses_activités	A
+1l0l3	durant_20_ans	A
+1l1l0	la_briqueterie	I
+
+#Ce site est occupé aujourd'hui par la société OLERON STP (2,8 ha) depuis 1971 et par quelques ateliers artisanaux.
+
+2l0l0	Ce_site	O
+2l0l1	est_occupé	N
+2l0l2	aujourd_hui	T
+2l0l3	la_société_OLERON_STP	O
+2l0l4	depuis_1971	T
+2l0l5	quelques_ateliers_artisanaux	O
+2l1l0	la_société_OLERON_STP	I
+
+#La majorité du reste du site est en friche.
+
+3l0l0	La_majorité_du_reste_du_site	O
+
+#La mairie est propriétaire de plus de 3ha, la société LAFON plus de 9ha et le reste est occupé par plusieurs propriétaires.
+
+4l0l0	La_mairie	O
+4l0l1	est_propriétaire_de_plus	N
+4l0l2	de_3_ha	O
+4l0l3	la_société_LAFON	O
+4l0l4	9_ha	O
+4l0l5	le_reste	O
+4l0l6	est_occupé_par	R
+4l0l7	plusieurs_propriétaires	O
+4l1l0	La_mairie	I
+4l1l1	la_société_LAFON	I
+
+#L'hydrogéologie au droit du site est composée d'un aquifère calcaire du Cénomanien, à porosité de fissures, de joints et de conduits karstiques.
+
+5l0l0	L__hydrogéologie	N
+5l0l1	au_droit_du_site	L
+
+#Les remblais ont une porosité locale et une perméabilité qui contient une nappe perchée temporairement en période très pluvieuse.
+
+6l0l0	pluvieuse	L
+
+#Une couche d'argile d'épaisseur variable recouvre le calcaire au droit du site.
+
+7l0l0	au_droit_du_site	L
+
+#Différentes études menées sur le site depuis 2000 font état:
+
+8l0l0	depuis_2000	T
+
+#- d'une pollution généralisée sur l'ensemble des 15 ha par une couche de remblais contenant des métaux lourds (notamment Arsenic, Plomb, Cuivre),
+
+9l0l0	une_pollution_généralisée	N
+9l1l0	métaux_lourds	S
+9l1l1	Arsenic	S
+9l1l2	Plomb	S
+9l1l3	Cuivre	S
+
+#- d'une pollution localisée des eaux souterraines confirmant la migration de l'Arsenic et du Plomb,
+
+10l0l0	une_pollution_localisée	N
+10l0l1	eaux_souterraines	O
+10l1l0	Arsenic	S
+10l1l1	Plomb	S
+
+#- d'une légère contamination des sédiments du chenal, non perceptible 300 m à l'aval.
+
+
+#- d'une détection en octobre 2007 d'une contamination (Arsenic et Plomb) des sols en dehors du périmètre de la friche.
+
+12l0l0	d__une_détection	N
+12l0l1	en_octobre_2007	T
+12l0l2	d__une_contamination	O
+12l0l3	Arsenic	O
+12l0l4	en_dehors_du_périmètre_de_la_friche	L
+12l1l0	Arsenic	S
+12l1l1	Plomb	S
+
+#Selon ces mêmes études, les impacts sur les activités ostréicoles seraient négligeables.
+
+13l0l0	les_activités_ostréicoles	A
+
+#Néanmoins,  les impacts sur les travailleurs de OLERON STP pourraient ne pas être négligeables, dus à l'inhalation de poussières des sols contaminés par des métaux.
+
+14l0l0	de_OLERON_STP	O
+14l0l1	à_l__inhalation	N
+14l0l2	par_des_métaux	O
+14l1l0	de_OLERON_STP	I
+14l1l1	des_métaux	S
+
+#Cependant, des informations manquent sur les gaz du sols, les eaux souterraines et les végétaux pour apprécier vraiment l'impact du site sur la santé et l'environnement.
+
+
+#Un cahier des charges listant les actions à mener a été rédigé par la DRIRE, après consultation des services administratifs.
+
+16l0l0	Un_cahier_des_charges	O
+16l0l1	a_été_rédigé	N
+16l0l2	la_DRIRE	O
+16l0l3	consultation	N
+16l0l4	des_services_administratifs	O
+16l1l0	la_DRIRE	I
+
+#Il a été complété par des propositions du BRGM concernant les eaux souterraines.
+
+17l0l0	BRGM	O
+17l1l0	BRGM	I
+
+#L'intervention de l'ADEME a été sollicitée.
+
+18l0l0	L__intervention	N
+18l0l1	l__ADEME	O
+18l0l2	a_été_sollicitée	N
+
+#Une visite commune a eu lieu 3 février 2009.
+
+19l0l0	Une_visite_commune	O
+19l0l1	a_eu_lieu	N
+19l0l2	3_février_2009__	T
+
+#Le MEEDDM a donné son accord le 17 septembre 2009.
+
+20l0l0	Le_MEEDDM	O
+20l0l1	a_donné_son_accord	N
+20l0l2	le_17_septembre_2009__	T
+20l1l0	Le_MEEDDM	I
+
+#Le rapport au préfet proposant cette intervention a été présenté au CODERST le 19 novembre 2009 et un avis favorable a été émis.
+
+21l0l0	Le_rapport_au_préfet	O
+21l0l1	proposant_cette_intervention	O
+21l0l2	a_été_présenté	N
+21l0l3	CODERST	O
+21l0l4	le_19_novembre_2009	T
+21l0l5	a_été_émis	N
+21l1l0	CODERST	I
+
+#Par arrêté préfectoral du 30 avril 2010, l'ADEME a missionné BURGEAP pour réaliser une Interprétation de l'État des Milieux (IEM).
+
+22l0l0	Par_arrêté_préfectoral	O
+22l0l1	du_30_avril_2010__	T
+22l0l2	l__ADEME	O
+22l0l3	a_missionné_BURGEAP	O
+22l1l0	l__ADEME	I
+22l1l1	BURGEAP	I
+
+#Cette étude a été rendu en Juin 2011.
+
+23l0l0	Cette_étude_a_été_rendu	N
+23l0l1	en_Juin_2011__	T
+
+#Elle a eu pour but de compléter les études précédentes afin de disposer d'une meilleure connaissance du site et de son environnement.
+
+24l0l0	compléter	N
+
+#Le rapport révèle qu'une pollution importante en métaux (As et Pb notamment) a lieu sur l'emprise du site.
+
+25l1l0	métaux	S
+25l1l1	As	S
+25l1l2	Pb_notamment	S
+
+#Cette pollution est toutefois stabilisée et peu susceptible d'être mobilisée dans les eaux souterraines ou de se propager aux alentours.
+
+26l0l0	Cette_pollution	O
+26l0l1	est_toutefois_stabilisée	N
+26l0l2	aux_alentours	L
+
+#Ces pollutions sont en fait  des cendres de pyrite dont les concentrations en plomb, arsenic et mercure peuvent atteindre respectivement 41000 mg/kg, 31000 mg/kg et 1900 mg/kg.
+
+27l1l0	des_cendres_de_pyrite	U
+27l1l1	en_plomb___arsenic_et_mercure	S
+
+#Les concentrations mesurées (notamment en Hg) pour vérifier la qualité de l'air ambiant sur la zone et dans les habitations proches sont inférieures aux valeurs guide définies par l'OMS.
+
+28l1l0	Hg	S
+
+#L'arrêté préfectoral du 14 novembre 2011 demande à l'ADEME de rendre compatible le terrain avec les usages aujourd'hui constatés.
+
+29l0l0	L__arrêté_préfectoral	O
+29l0l1	14_novembre_2011	T
+29l0l2	l__ADEME	O
+29l0l3	le_terrain	O
+
+#Pour la zone résidentielle à l'Ouest de la parcelle BD6 les mesures vont consister à excaver les terre polluées pour les remplacer par des terres non polluées.
+
+30l0l0	la_zone_résidentielle	O
+30l0l1	à_l__Ouest_de_la_parcelle_BD6	L
+30l0l2	excaver	N
+30l0l3	les_terre_polluées	O
+30l0l4	des_terres_non_polluées	O
+
+#L'arrêté préfectoral de travaux d'office du 3 février 2012 définit des mesures qui consistent en la pose d'une clôture périphérique sur l'ensemble de la zone « cœur de fiche » et la mise en place des panneaux signalant l'interdiction d'accès.
+
+31l0l0	L__arrêté_préfectoral_de_travaux_d_	O
+31l0l1	3_février_2012	T
+31l0l2	définit_des_mesures	N
+31l0l3	la_pose_d__une_clôture	N
+31l0l4	de_la_zone_____cœur_de_fiche	L
+31l0l5	et_la_mise_en_place	N
+
+#Un suivi environnemental est assuré sur les cultures maraîchères, les légumes des environs, la qualité des eaux souterraines et la qualité des poussières.
+
+32l0l0	Un_suivi_environnemental	N
+32l0l1	les_cultures_maraîchères	A
+
+#Le rapport de fin de travaux a été délivré par l'ADEME le 20 janvier 2012.
+
+33l0l0	Le_rapport_de_fin_de_travaux	O
+33l0l1	a_été_délivré_par	N
+33l0l2	l__ADEME	O
+33l0l3	le_20_janvier_2012__	T
+
+#Le 31 janvier 2012, le dossier est passé au CODERST.
+
+34l0l0	Le_31_janvier_2012__	T
+34l0l1	le_dossier	O
+34l0l2	est_passé	N
+34l0l3	CODERST	O
+34l1l0	CODERST	I
+
+#Un arrêté préfectoral visant l'occupation des sols a été pris le 27 avril 2012.
+
+35l0l0	Un_arrêté_préfectoral	O
+35l0l1	visant	R
+35l0l2	l_	A
+35l0l3	occupation_des_sols	O
+35l0l4	a_été_pris	N
+35l0l5	le_27_avril_2012__	T
+
+#Dans son rapport de fin de travaux du 5 octobre 2012, l'ADEME informe qu'il subsiste à l'issue des travaux des anomalies (dans les eaux souterraines, le sol, les végétaux du potager et les poussières atmosphériques) en arsenic et en plomb sur la zone BD6.
+
+36l0l0	fin_de_travaux	N
+36l0l1	du_5_octobre_2012__	T
+36l0l2	l__ADEME	O
+36l0l3	la_zone_BD6__	O
+36l1l0	arsenic	S
+36l1l1	plomb	S
+
+#Trois zones présentent des teneurs pour lesquels des travaux supplémentaires sont nécessaires.
+
+
+#L'ADEME rappelle l'incompatibilité entre l'état des milieux et les usages qui en sont fait, et appelle des mesures de gestion.
+
+
+#L'ADEME propose de poursuivre la substitution des sols pollués par des terres saines à engazonner.
+
+39l0l0	sols_pollués	O
+39l0l1	par	R
+39l0l2	des_terres_saines	O
+
+#Les terres excavées seront stockées sur les parcelles « cœur de friche », et pour les plus polluées en centre de stockage de déchets dangereux.
+
+40l0l0	seront_stockées	N
+40l0l1	sur_les_parcelles_____cœur_de_friche	L
+40l0l2	pour_les_plus_polluées	O
+40l0l3	en_centre_de_stockage_de_déchets_dangereux	O
+
+#La réalisation de l'ensemble des travaux a été constatée lors d'une inspection commune à l'ADEME le 25 octobre 2012.
+
+41l0l0	La_réalisation	N
+41l0l1	ensemble_des_travaux	O
+41l0l2	a_été_constatée_lors	N
+41l0l3	d_	R
+41l0l4	une_inspection_commune	N
+41l0l5	à	R
+41l0l6	l__ADEME	O
+41l0l7	le_25_octobre_2012__	T
+
+#Lors d'une réunion en préfecture, en présence de l'ARS et de l'ADEME, il a été confirmé le besoin de poursuivre les actions engagées sur la parcelle BD6 Ouest.
+
+42l0l0	une_réunion	N
+42l0l1	en_préfecture	O
+42l0l2	de_l__ARS	O
+42l0l3	il_a	O
+42l0l4	le_besoin_de_poursuivre_les_actions_engagées	O
+42l0l5	sur	L
+42l0l6	la_parcelle_BD6_Ouest	O
+42l1l0	l__ARS	I
+
+#Les mesures de dépassement des normes ont été confirmées par une nouvelle étude en avril 2013.
+
+43l0l0	Les_mesures_de_dépassement_des_normes	O
+43l0l1	ont_été_confirmées	N
+43l0l2	une_nouvelle_étude	N
+43l0l3	en_avril_2013__	T
+
+#Depuis le début de la surveillance quadriennale en 2013, les résultats sont restitués tous les ans aux riverains, par le Préfet de la Charente-Maritime.
+
+44l0l0	Depuis_le_début_de	T
+44l0l1	la_surveillance_quadriennale	A
+44l0l2	en_2013__	T
+44l0l3	les_résultats	O
+44l0l4	sont_restitués	N
+44l0l5	les_ans	O
+44l0l6	aux_riverains	O
+44l0l7	le_Préfet_de_la_Charente___Maritime	O
+44l1l0	le_Préfet	I
+44l1l1	de_la_Charente___Maritime	I
+
+#Une inspection a eu lieu le 30 juillet 2015.
+
+45l0l0	Une_inspection	N
+45l0l1	a_eu_lieu	N
+45l0l2	le_30_juillet_2015__	T
+
+#Les travaux et mesures de suivi sont toujours en cours en 2016.
+
+46l0l0	Les_travaux_et_mesures_de_suivi	O
+46l0l1	toujours_en_cours_en_2016__	T
+
+#Un rapport d'étape a été reçu par l'inspection en septembre 2016, et un nouveau en décembre 2016.
+
+47l0l0	Un_rapport_d__étape	O
+47l0l1	a_été_reçu	N
+47l0l2	l__inspection	O
+47l0l3	en_septembre_2016__	T
+47l0l4	un_nouveau	O
+47l0l5	en_décembre_2016__	T
+
+#Ces rapports mettent en évidence :
+
+
+#- un fort abattement des teneurs en métaux sur les végétaux bien préparés ;
+
+49l0l0	un_fort_abattement	N
+49l0l1	métaux	O
+49l1l0	métaux	S
+
+#- l'absence de fortes pollutions mais quelques dépassements de seuil peu significatifs sur les poussières;
+
+
+#- dans les eaux souterraines, quelques dépassements de teneurs en métaux, en P4 (Arsenic, nickel, zinc), et P1 (nickel).
+
+51l0l0	les_eaux	O
+51l1l0	métaux	S
+51l1l1	P4	S
+51l1l2	Arsenic	S
+51l1l3	nickel	S
+51l1l4	zinc	S
+51l1l5	nickel	S
+
+#L'ensemble des investigations doit se solder par la constitution par L'ADEME d'un dossier de demande de Servitudes d'Utilité Publique (SUP).
+
+52l0l0	investigations	N
+52l0l1	doit_se_solder_par	R
+52l0l2	la_constitution	N
+52l0l3	L__ADEME	O
+52l0l4	un_dossier_de_demande	N
+52l0l5	Servitudes	O
+
+#La restitution finale des travaux est prévue pour 2017.
+
+53l0l0	La_restitution_finale_des_travaux	O
+53l0l1	prévue_pour_2017__	T
+
+#Sont attendus courant 2017 : un rapport comprenant le descriptif des travaux, le dossier de demande de SUP et les résultats de la surveillance quadriennale.
+
+54l0l0	courant_2017	T
+54l0l1	des_travaux	N
+54l0l2	la_surveillance_quadriennale	A

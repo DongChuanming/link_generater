@@ -1,0 +1,106 @@
+
+#08.0035
+#Les activités exercées sur le site consistent au découpage et au traitement de diverses pièces de bois (piquets, poteaux).
+
+0l0l0	consistent_au	R
+0l0l1	découpage_et_au_traitement_de_diverses_pièces_de_bois	A
+
+#L'établissement est implanté dans une petite zone industrielle.
+
+1l0l0	L__établissement	O
+1l0l1	est_implanté_dans_une_petite_zone_industrielle	L
+
+#L'établissement est réglementé par l'arrêté préfectoral d'autorisation du 27 avril 2006.
+
+2l0l0	réglementé_par	R
+2l0l1	l__arrêté_préfectoral_d__autorisation	O
+2l0l2	27_avril_2006__	T
+
+#Les principaux risques proviennent des activités de traitement longtemps pratiquées d'abord avec de la créosote, puis plus récemment avec des sels de chrome, de cuivre et d'arsenic.
+
+3l0l0	activités_de_traitement	O
+3l1l0	créosote	S
+3l1l1	des_sels_de_chrome	S
+3l1l2	cuivre	S
+3l1l3	arsenic	S
+
+#Ce dernier traitement a été abandonné en décembre 2004.
+
+4l0l0	traitement	O
+4l0l1	a_été_abandonné	N
+4l0l2	en_décembre_2004__	T
+
+#Les traitements actuels sont effectués avec des produits à base de cuivre, biocide organique, d'huile de lin, de sels d'ammonium, d'acides inorganiques.
+
+5l0l0	Les_traitements	O
+5l0l1	ammonium	O
+5l1l0	cuivre	S
+5l1l1	ammonium	S
+5l1l2	inorganiques	S
+
+#Un diagnostic initial et une évaluation simplifiée des risques ont été imposés à la société dans le cadre de la circulaire du 3 avril 1996.
+
+6l0l0	Un_diagnostic_initial	N
+6l0l1	une_évaluation_simplifiée_des_risques	N
+6l0l2	ont_été_imposés	N
+6l0l3	la_société	O
+6l0l4	3_avril_1996	T
+
+#L'évaluation simplifiée des risques réalisée en 1998 classe le site en classe 2 (à surveiller).
+
+7l0l0	évaluation_simplifiée_des_risques	N
+7l0l1	réalisée	N
+7l0l2	en_1998	T
+7l0l3	classe	N
+7l0l4	le_site	O
+7l0l5	en	R
+7l0l6	classe_2	O
+
+#L'eau contaminée en hydrocarbures, phénols et métaux dans le puits de captage situé dans l'usine est pompée et réutilisée dans le traitement des bois.
+
+8l0l0	L__eau_contaminée	O
+8l0l1	le_puits_de_captage	O
+8l0l2	situé_dans_l__usine	L
+8l0l3	est_pompée	N
+8l0l4	réutilisée	A
+8l0l5	le_traitement_des_bois	A
+8l1l0	hydrocarbures	S
+8l1l1	phénols	S
+8l1l2	métaux	S
+
+#Suite à une proposition de l'inspection des installations classées, le préfet des Ardennes a signé le 3 mai 2002 un arrêté complémentaire prescrivant une surveillance accrue des eaux souterraines, une surveillance des eaux superficielles, des investigations complémentaires et des travaux de dépollution.
+
+9l0l0	l__inspection_des_installations_classées	O
+9l0l1	le_préfet_des_Ardennes	O
+9l0l2	a_signé	N
+9l0l3	le_3_mai_2002	T
+9l0l4	un_arrêté_complémentaire	O
+9l0l5	prescrivant	R
+9l0l6	une_surveillance_accrue_des_eaux_souterraines	A
+9l0l7	une	O
+9l0l8	surveillance_des_eaux_superficielles	A
+9l0l9	investigations_complémentaires	O
+9l0l10	des_travaux_de_dépollution__	N
+9l1l0	le_préfet_des_Ardennes	I
+
+#Les derniers résidus de créosote, présent sur le site, ont été éliminés en février 2003.
+
+10l0l0	créosote	O
+10l0l1	ont_été_éliminés	N
+10l0l2	en_février_2003	T
+10l1l0	créosote	S
+
+#Pour l'heure, la surveillance des eaux souterraines se poursuit toujours.
+
+11l0l0	la_surveillance	A
+11l0l1	eaux_souterraines	O
+
+#L’arrêté préfectoral d'autorisation du 27 avril 2006 reprend les prescriptions de l’arrêté préfectoral complémentaire du 3 mai 2002 imposant la surveillance des eaux souterraines.
+
+12l0l0	L__arrêté_préfectoral_d__autorisation	O
+12l0l1	27_avril_2006	T
+12l0l2	les_prescriptions	O
+12l0l3	l__arrêté_préfectoral	O
+12l0l4	3_mai_2002	T
+12l0l5	imposant	N
+12l0l6	la_surveillance_des_eaux_souterraines	A

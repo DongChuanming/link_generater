@@ -1,0 +1,141 @@
+
+#17.0031
+#Ancienne station gazométrique n°2, située au nord du centre ville de La Rochelle (17), proche de l'ancienne usine à gaz.
+
+0l0l0	Ancienne_station_gazométrique	N
+0l0l1	située_au_nord_du_centre_ville_de_La_Rochelle___17_____proche_de_l__ancienne	L
+0l0l2	usine_à_gaz	O
+
+#Par la suite, le site a été utilisé comme locaux techniques EDF GDF Services.
+
+1l0l0	le_site	O
+1l0l1	a_été_utilisé	N
+1l0l2	comme_locaux_techniques	R
+1l0l3	EDF	O
+1l1l0	EDF_GDF_Services	I
+
+#Depuis, le site a été réaménagé en parking aérien.
+
+2l0l0	Depuis	T
+2l0l1	le_site	O
+2l0l2	a_été_réaménagé	N
+2l0l3	en	R
+2l0l4	parking_aérien	O
+
+#A l'échelle du plan cadastral actuel, l'emprise du site occupe une superficie totale de 3 184 m2 (source : www.cadastre.gouv.fr) et se situe dans un environnement dense, en zone d'habitat.
+
+3l0l0	se_situe_dans_un_environnement_dense	L
+3l0l1	en_zone_d__habitat	L
+
+#Gaz de France (GDF) a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+4l0l0	Gaz_de_France	O
+4l0l1	GDF	O
+4l0l2	a_hiérarchisé	N
+4l0l3	ses_actions	O
+4l0l4	467_sites	O
+4l1l0	Gaz_de_France	I
+4l1l1	__GDF	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site, ...).
+
+5l0l0	hiérarchiser	N
+5l0l1	les_sites	O
+5l0l2	en_fonction_de	R
+5l0l3	leur_sensibilité	O
+5l0l4	vis_à_vis_de	R
+5l0l5	l__environnement	O
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de GDF ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et GDF signé le 25 avril 1996.
+
+6l0l0	L__application	N
+6l0l1	cette_méthode	O
+6l0l2	a_abouti_à	R
+6l0l3	l__établissement	N
+6l0l4	5_classes_de_priorité	O
+6l0l5	les_engagements	O
+6l0l6	GDF	O
+6l0l7	ont_fait_l__objet_d_	R
+6l0l8	un_protocole_d__accord	O
+6l0l9	relatif_à	R
+6l0l10	la_maîtrise	O
+6l0l11	suivi	O
+6l0l12	la_réhabilitation	N
+6l0l13	anciens_terrains_d__usines_à_gaz	O
+6l0l14	entre	R
+6l0l15	le_Ministère_de_l__Environnement	O
+6l0l16	GDF	O
+6l0l17	signé	N
+6l0l18	le_25_avril_1996	T
+6l1l0	GDF	I
+6l1l1	le_Ministère_de_l__Environnement	I
+6l1l2	GDF	I
+
+#Cependant, bien qu'associé à l'ancienne usine à gaz de La Rochelle, rue Marcel Paul, ce site n'a jamais accueilli d'installation de production de gaz par le passé.
+
+7l0l0	l__ancienne_usine_à_gaz	O
+7l0l1	La_Rochelle	O
+7l0l2	rue_Marcel_Paul	L
+7l0l3	ce_site	O
+7l0l4	n__a_jamais_accueilli	N
+7l0l5	d__installation_de_production_de_gaz	O
+7l0l6	par_le_passé	T
+
+#Ce site n'a d'ailleurs pas été intégré au protocole "Usines à Gaz".
+
+8l0l0	Ce_site	O
+8l0l1	a_d__ailleurs_pas_été_intégré	N
+
+#Le diagnostic approfondi du site a été réalisé par un bureau d'études le 26 mai 2003 à la demande de GDF.
+
+9l0l0	Le_diagnostic_approfondi	N
+9l0l1	site	O
+9l0l2	a_été_réalisé_par	N
+9l0l3	un_bureau_d__études	O
+9l0l4	le_26_mai_2003	T
+9l0l5	à_la_demande_de	R
+9l0l6	GDF	O
+9l1l0	GDF	I
+
+#Cette intervention s'inscrivait dans le cadre d'une étude de valorisation.
+
+10l0l0	Cette_intervention	O
+10l0l1	s__inscrivait_dans_le_cadre_d_	R
+10l0l2	une_étude_de_valorisation	N
+
+#L'ensemble de l'étude a consisté à effectuer des recherches historiques et documentaires, à rechercher des ouvrages enterrés, à caractériser le sol superficiel pour évaluer les risques de contact direct et ceux liés à d'éventuelles émanations gazeuses, et à caractériser le sol en profondeur.
+
+
+#Ce diagnostic a mis en évidence la présence de zones souillées par les hydrocarbures aromatiques polycycliques (HAP).
+
+12l0l0	Ce_diagnostic	N
+12l0l1	a_mis_en_évidence	R
+12l0l2	la_présence_de_zones_souillées	O
+12l1l0	hydrocarbures_aromatiques_polycycliques	S
+12l1l1	HAP	S
+
+#Aucune structure enterrée (cuve) n'a été mise en évidence ni lors de l'étude historique, ni lors des sondages effectués sur le site.
+
+13l0l0	Aucune_structure_enterrée	O
+13l0l1	sondages_effectués	N
+13l0l2	sur_le_site	L
+
+#Cette étude concluait qu'en l'état des investigations, le site ne présentait pas de risque particulier pour l'environnement et la santé humaine, et demeurait compatible avec son utilisation (locaux techniques EDF GDF Services).
+
+14l0l0	le_site	O
+14l1l0	locaux_techniques_EDF_GDF_Services	I
+
+#Ce site devra en revanche faire l'objet d'un schéma de réhabilitation dans le cadre d'une valorisation de type usage sensible.
+
+15l0l0	Ce_site	O
+15l0l1	objet_d_	R
+15l0l2	un_schéma_de_réhabilitation	O
+15l0l3	dans_le_cadre_d_	R
+15l0l4	une_valorisation	N
+
+#Depuis, le site a été réaménagé en parking aérien.
+
+16l0l0	le_site	O
+16l0l1	a_été_réaménagé	N
+16l0l2	en	R
+16l0l3	parking_aérien	O

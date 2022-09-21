@@ -1,0 +1,200 @@
+
+#03.0027
+#La société SARIA INDUSTRIE SUD-EST est implantée dans une zone agricole à 1,5 km du bourg de Bayet et à 5km de St Pourçain sur Sioule, connu pour ses vins.
+
+0l0l0	est_implantée_dans	N
+0l0l1	une_zone_agricole_à_1_5_km_du_bourg_de	O
+0l0l2	Bayet_et_à_5_km	N
+0l0l3	St_Pourçain_sur_Sioule___connu_pour	O
+
+#Tour à tour, la Société CENTROS, la Société Centrale de Produits Organiques(SCPO) en 1979, la SOPRORGA jusqu'au 30/06/1997 et la SARIA depuis 1996 ont développé des activités de collecte et d'équarrissage de cadavres d'animaux et de fabrication de farines animales (SARIA).
+
+1l0l0	Tour_à_tour___la_Société_CENTROS___la	O
+1l0l1	Société	N
+1l0l2	Centrale_de_Produits_Organiques_SCPO___en_1979___la_SOPRORGA_jusqu__au_30_06_1997_et_la	L
+1l0l3	SARIA_depuis	R
+1l0l4	1996_ont	A
+1l1l0	Tour_à_tour___la_Société_CENTROS___la_Société	I
+1l1l1	30_06_1997_et_la	I
+
+#Les terrains du site ont également acueuilli des activités liées aux explosifs (dépôt de munitions, fabrication d'explosifs à partir du phosphore contenu dans les cadavres..) et de fabrication de roues en caoutchouc pour brouettes.
+
+2l0l0	terrains_du_site_ont_également	O
+2l0l1	acueuilli_des_activités_liées_aux_explosifs	O
+2l0l2	dépôt_de	T
+2l0l3	munitions__	O
+2l0l4	fabrication_d__explosifs	T
+2l0l5	à_partir	O
+2l0l6	du_phosphore	T
+2l0l7	contenu_dans	R
+2l0l8	les_cadavres_____et_de_fabrication_de_roues_en	A
+2l0l9	_	A
+2l1l0	terrains_du_site_ont_également	I
+2l1l1	acueuilli_des_activités_liées	I
+2l1l2	aux_explosifs	S
+2l1l3	__dépôt	I
+2l1l4	munitions___fabrication	I
+2l1l5	à_partir	I
+2l1l6	caoutchouc	U
+
+#Aujourd'hui la SARIA emploie 106 personnes sur le site et 117, réparties dans les 7 dépôts de regroupement des carcasses, qui couvrent 37 départements.
+
+3l0l0	Aujourd_hui	O
+3l0l1	SARIA_emploie_106_personnes_sur	N
+3l0l2	le_site_et_117	A
+3l0l3	__réparties_dans_les	N
+3l0l4	7_dépôts_de_regroupement	O
+3l0l5	des	A
+3l0l6	carcasses___qui_couvrent	O
+3l1l0	départements	S
+
+#Les cadavres d'animaux récupérés sont broyés, cuits et transformés en farines.
+
+4l0l0	d__animaux	O
+4l1l0	d__animaux	I
+
+#La Sioule, effluent de la rivière Allier coule à faible distance du site, c'est dans la Sioule que sont rejetées après traitement, les eaux usées.
+
+5l0l0	La_Sioule___effluent	O
+5l0l1	Allier_coule	O
+5l0l2	distance_du_site___c__est_dans	A
+
+#Il n'y a pas d'habitation proche, mais le SICTOM de Bayet qui exploite un incinérateur d'ordures ménagères, est contigu au site de la SARIA.
+
+6l0l0	Il_n__y_a_pas	O
+6l0l1	habitation_proche___mais_le	L
+6l0l2	SICTOM_de_Bayet_qui_exploite_un	L
+6l0l3	incinérateur_d__ordures	L
+6l1l0	Il_n__y_a_pas	I
+6l1l1	SARIA__	U
+
+#La société s'appelle depuis octobre 2016 SECANIM Sud-Est (précédemment on trouvait aussi le nom SARVAL).
+
+7l0l0	s__appelle_depuis_octobre	O
+7l0l1	2016_SECANIM	O
+7l0l2	Sud_Est	L
+7l0l3	précédemment_on_trouvait	A
+7l1l0	2016_SECANIM	I
+
+#La capacité de traitement annuelle autorisée est de 300 000 tonnes par an, soit 976t/jour de sous-produits animaux.
+
+8l0l0	La_capacité	O
+8l0l1	de_traitement	N
+8l0l2	annuelle_autorisée	T
+8l0l3	est_de_300	O
+8l0l4	sous_produits	N
+8l1l0	autorisée_est_de_300_000	I
+8l1l1	sous_produits	I
+
+#Outre les risques d'odeurs, génériques dans ce type d'installation et pour lesquels la SARIA a réalisé recemment de gros investissements afin de réduire les émissions, les rejets d'eaux usées dans La Sioule font l'objet de reproches de la part d'associations de défense de l'environnement locales.
+
+9l0l0	d__installation	O
+9l0l1	et_pour	T
+
+#Là aussi, la SARIA a réalisés des travaux dans le but d'optimiser le rendement de sa station d'épuration.
+
+10l0l0	station_d_	O
+10l0l1	épuration__	N
+10l1l0	station_d__épuration	I
+
+#A ce jour, pour tenir compte d'un projet d'extension, à la demande de la DSV de l'Allier qui assure l'inspection du site, 6 piézomètres ont été implantés dans l'emprise de la SARIA.
+
+11l0l0	pour_tenir	O
+11l0l1	compte_d__un_projet_d_	N
+11l0l2	extension__	R
+11l0l3	à_la_demande	N
+11l0l4	Allier_qui_assure_l__inspection	O
+11l1l0	pour_tenir	I
+
+#Les premières analyses mettent en évidence la présence d'hydrocarbures, de métaux lourds et de solvants.
+
+12l0l0	Les_premières	T
+12l0l1	mettent_en_évidence	O
+12l0l2	la_présence	N
+12l0l3	d__hydrocarbures	R
+12l0l4	__de_métaux_lourds	L
+12l1l0	hydrocarbures	I
+
+#Afin d'évaluer l'impact sur les eaux souterraines des activitées exercées sur le site, un arrêté préfectoral du 05/08/2003 vient d'imposé à l'exploitant un diagnostic des sols et une évaluation simplifiée des risques.
+
+13l1l0	activitées_exercées	S
+13l1l1	sur_le_site___un_arrêté	U
+
+#Compte tenu du fonctionnement de l'incinérateur du SICTOM sur des terrains contigus à la SARIA, une demande analogue est actuellement en cours auprès du SICTOM.
+
+14l0l0	Compte	R
+14l0l1	tenu_du_fonctionnement	O
+14l0l2	SICTOM_sur_des	A
+14l0l3	terrains	N
+14l0l4	contigus_à	L
+14l0l5	la_SARIA___une_demande_analogue	O
+14l0l6	est	T
+14l0l7	actuellement_en_cours	N
+14l0l8	auprès_du_SICTOM	O
+14l0l9	_	N
+
+#La DRIRE entend avoir une vision globale de la pollution générée par les deux sites.
+
+15l0l0	globale_de_la_pollution_générée	O
+15l0l1	par_les_deux_sites__	L
+15l1l0	pollution_générée	I
+
+#A cet effet, un projet d'arrêté préfectoral imposant une ESR a été proposé à la signature du préfet après avis du CDH de l'Allier et signé le 05 août 2003.
+
+16l0l0	A_cet_effet	O
+16l1l0	A_cet_effet	I
+
+#Le SICTOM, bénéficie déja d'un arrêté lui prescrivant, à partir de 13 piézomètres, de suivre selon une fréquence semestrielle, la qualité des eaux de la nappe non exploitée, circulant sous les deux sites.
+
+17l0l0	bénéficie	O
+17l0l1	déja_d__un_arrêté_lui	O
+17l0l2	prescrivant	N
+17l0l3	__à_partir	O
+17l0l4	de	N
+17l0l5	piézomètres___de_suivre_selon	O
+17l0l6	semestrielle	O
+17l0l7	la_qualité	O
+17l0l8	des_eaux_de	T
+17l1l0	partir	I
+
+#Les analyses indiquent la présence d'hydrocarbures, d'arsenic et de plomb.
+
+18l0l0	Les_analyses	O
+18l0l1	hydrocarbures__	N
+18l1l0	Les_analyses	I
+
+#Les conclusions de l'évaluation simplifiée des risques conduisent à positionner en classe 1 le site, des investigations complémentaires vont être demandées.
+
+19l0l0	simplifiée_des_risques	O
+19l1l0	simplifiée_des_risques_conduisent	S
+19l1l1	positionner	S
+
+#Site visé par l'article 65.
+
+20l0l0	article_65__	N
+
+#Entre 2003 et août 2017 : l'entreprise s'est appelé successivement SARVAL et SARIA INDUSTRIE Sud-Est avant de devenir SECANIM Sud-Est.
+
+
+#Elle est désormais suivi par la DREAL pour les aspects ICPE et pas la DDSPP pour l'agrément sanitaire.
+
+22l0l0	Elle_est_désormais_suivi_par_la_DREAL	O
+22l0l1	pour_les_aspects_ICPE_et_pas_la_DDSPP_pour	N
+22l0l2	l__agrément_sanitaire__	O
+22l1l0	DDSPP_pour_l__agrément_sanitaire__	I
+
+#L'arrêté préfectoral n°1976/15 du 31/07/2015 a imposé de nouvelles prescriptions techniques et a abrogé les précédents arrêtés.
+
+23l0l0	L__arrêté_préfectoral	T
+23l0l1	n__1976_15_du_31_07_2015_a_imposé_de	O
+23l0l2	nouvelles_prescriptions_techniques_et_a	O
+23l1l0	1976_15_du_31_07_2015	I
+23l1l1	imposé_de	I
+23l1l2	nouvelles_prescriptions	I
+
+#Cet arrêté ne comporte pas de prescriptions particulières sur la surveillance des eaux souterraines (il interdit bien sûr tout rejet direct ou indirect dans la nappe et dans les eaux souterraines).
+
+24l0l0	Cet_arrêté_ne_comporte	O
+24l0l1	de_prescriptions	T
+24l0l2	particulières_sur_la_surveillance_des_eaux_souterraines	N
+24l0l3	__il_interdit_bien_sûr_tout_rejet	N

@@ -1,0 +1,264 @@
+
+#53.0032
+#Deux stations-service différentes implantées à une même adresse (21 rue Louis Blériot) mais sur des emplacements différents et ayant pour dernier exploitant :
+
+0l0l0	implantées_à	R
+0l0l1	une_même_adresse	O
+0l0l2	__21_rue_Louis_Blériot	L
+0l0l3	des_emplacements_différents	N
+0l0l4	et_ayant	R
+0l0l5	exploitant	O
+
+#- la société LP SOGI Mayenne Distribution (Leader Price) pour la station service ayant fait l’objet d’un récépissé par la Préfecture de la Mayenne le 19/03/2003 et ayant cessé ses activités en 2013
+
+1l0l0	la_société_LP_SOGI_Mayenne	O
+1l0l1	la_station_service	O
+1l0l2	ayant_fait_l__objet_d_	R
+1l0l3	la_Préfecture_de_la_Mayenne	O
+1l0l4	le_19_03_2003	T
+1l0l5	et_ayant_cessé_ses_activités	N
+1l0l6	en_2013	T
+1l1l0	la_société_LP_SOGI_Mayenne_Distribution	I
+1l1l1	__Leader_Price	I
+
+#- la société SA SERGA (Intermarché) pour l’ancienne station service démantelée en 2003 et ayant bénéficié du récépissé du 26 janvier 1988.
+
+2l0l0	la_société_SA_SERGA	O
+2l0l1	démantelée	N
+2l0l2	en_2003	T
+2l0l3	et_ayant_bénéficié	N
+2l0l4	du_récépissé	O
+2l0l5	26_janvier_1988__	T
+2l1l0	la_société_SA_SERGA	I
+
+#Ces deux station-services ont fait l'objet d’un récépissé de changement d’exploitant en date du 28 septembre 2011 indiquant que la société LP SOGI Mayenne Distribution (Leader Price) a succédé à la SA SERGA (Intermarché) dans l’exploitation d'une nouvelle station-service pour laquelle le récépissé de déclaration n°2003-144 a été délivré le 19 mars 2003.
+
+3l0l0	Ces_deux_station___services	O
+3l0l1	ont_fait_l__objet_d_	R
+3l0l2	un_récépissé	O
+3l0l3	changement	N
+3l0l4	d__exploitant	O
+3l0l5	en_date_du_28_septembre_2011	T
+3l0l6	la_société_LP_SOGI	O
+3l0l7	a_succédé	N
+3l0l8	la_SA_SERGA	O
+3l0l9	Intermarché	O
+3l0l10	l__exploitation_d__une_nouvelle_station___service	N
+3l0l11	le_récépissé	O
+3l0l12	de_déclaration	N
+3l0l13	a_été_délivré	N
+3l0l14	le_19_mars_2003	T
+3l1l0	la_société_LP_SOGI_Mayenne_Distribution	I
+3l1l1	__Leader_Price	I
+3l1l2	la_SA_SERGA	I
+
+#Cette fiche Basol concerne uniquement la station-service Leader Price (LP SOGI Mayenne Distribution) dite "nouvelle station-service" qui a fait l'objet d'une déclaration d'exploitation en préfecture en date du 19 mars 2003 sur ce site.
+
+4l0l0	Cette_fiche_Basol	O
+4l0l1	la_station___service_Leader_Price	O
+4l0l2	a	N
+4l0l3	fait_l__objet_d_	R
+4l0l4	une_déclaration_d__exploitation	N
+4l0l5	en_date_du_19_mars_2003	T
+4l1l0	service_Leader_Price___LP_SOGI_Mayenne_Distribution	I
+
+#La fiche Basol concernant l'autre station-service est la fiche n°53.0031.
+
+
+#Cette installation est située plus au nord que l'ancienne station-service (le plan cartographique n°1 disponible dans le paragraphe B de cette fiche permet de localiser cette nouvelle station-service par rapport à l'ancienne station-service).
+
+6l0l0	Cette_installation	O
+6l0l1	est_située_plus_au_nord_que	L
+6l0l2	le_plan_cartographique	O
+
+#Les principales infrastructures de la station-service (« nouvelle ») étudiée sont désormais les suivantes :
+
+7l0l0	Les_principales_infrastructures	O
+7l1l0	service	I
+
+#- un kiosque au nord de la station-service,
+
+8l0l0	au_nord_de_la_station___service	L
+
+#- quatre pistes de distribution sur dalle béton sous un auvent, au centre de la station-service, avec deux îlots équipés de volucompteur multi-carburants,
+
+9l0l0	béton_sous	O
+9l0l1	un_auvent	L
+9l0l2	au_centre_de_la_station	L
+9l1l0	multi_carburants	U
+
+#- un réservoir enterré quadri-compartimenté de 120 m3 (50 m3 GO + 10 m3 GO + 35 m3 SP95 + 25 m3 SP98, double enveloppe, pleine terre), au nord des pistes de distribution,
+
+10l0l0	au_nord_des_pistes_de_distribution	L
+10l1l0	un_réservoir_enterré	D
+10l1l1	GO	I
+10l1l2	SP95	S
+10l1l3	SP98	S
+
+#- une aire de dépotage du réservoir, située à l’est des pistes de distribution,
+
+11l0l0	une_aire	O
+11l0l1	située_à_l__est_des_pistes_de_distribution	L
+
+#- des évents, situés au nord-ouest du réservoir,
+
+12l0l0	situés_au_nord_ouest_du_réservoir	L
+
+#- un séparateur à hydrocarbures au sud-ouest des pistes de distribution, relié au réseau d’eaux pluviales.
+
+13l0l0	hydrocarbures	O
+13l0l1	au_sud_ouest_des_pistes_de_distribution	L
+13l0l2	relié_au_réseau	L
+13l1l0	hydrocarbures	S
+
+#Le milieu eaux souterraines est jugé vulnérable en raison de :
+
+
+#- la présence d’eaux souterraines à faible profondeur (2,5 m),
+
+
+#- la présence de terrains présentant une porosité variable ou potentiellement importante (porosité variable dans les terrains sus-jacents, de faible épaisseur, porosité de fractures dans les couches altérées des formations granitiques).
+
+
+#Un diagnostic environnemental a été réalisé par un bureau d'étude en septembre 2012 et porte sur les deux stations-services.
+
+17l0l0	Un_diagnostic_environnemental	N
+17l0l1	a_été_réalisé_par	N
+17l0l2	un_bureau_d__étude	O
+17l0l3	en_septembre_2012	T
+17l1l0	services	S
+
+#Cette fiche Basol ne concerne que la nouvelle station-service, les analyses concernant l'autre station-service n'ont donc pas été prises en compte.
+
+18l0l0	Cette_fiche_Basol	O
+18l0l1	analyses_concernant	O
+
+#MISE EN SECURITE
+
+19l0l0	MISE_EN_SECURITE	O
+19l1l0	SECURITE	I
+
+#Lors de la visite détaillée du site réalisée par le bureau d'étude le 1er août 2012, la station-service n’était plus en activité.
+
+20l0l0	de_la_visite	N
+20l0l1	détaillée_du_site	N
+20l0l2	le_bureau_d__étude	O
+20l0l3	le_1er_août_2012__	T
+20l0l4	la_station___service	O
+20l0l5	n__était_plus_en_activité	N
+
+#Les installations pétrolières étaient encore présentes et leur mise en sécurité n’avait pas été entreprise (nettoyage, inertage, démantèlement).
+
+21l0l0	Les_installations_pétrolières	O
+21l0l1	n__avait_pas_été_entreprise	N
+21l0l2	nettoyage	N
+21l0l3	inertage	N
+21l0l4	démantèlement	N
+
+#Il convient alors que l'exploitant doit justifier de la mise en sécurité de son installation.
+
+22l0l0	la_mise_en_sécurité	N
+22l0l1	son_installation	O
+
+#INVESTIGATIONS MENEES
+
+23l0l0	INVESTIGATIONS_MENEES	N
+
+#-->  Analyse du sol
+
+
+#Six sondages (sondages S2 à S7) ont été réalisés les 3, 4 et 5 septembre 2012 sur l'actuelle station-service.
+
+25l0l0	Six_sondages	N
+25l0l1	ont_été_réalisés	N
+25l0l2	les_3___4_et_5_septembre_2012	T
+
+#Les sondages ont été descendus à des profondeurs comprises entre 2 et 5 m au maximum.
+
+26l0l0	Les_sondages_ont_été_descendus	N
+26l0l1	des_profondeurs	O
+
+#L’emplacement de ces sondages a été défini principalement en fonction de la localisation des installations susceptibles d’avoir pu générer une éventuelle pollution du sous-sol (réservoir enterré, pistes de distribution, séparateur à hydrocarbures), en fonction des éventuels réseaux enterrés présents sur le site, ainsi qu’au regard des constats de terrain relevés.
+
+27l0l0	L_	O
+27l0l1	emplacement_de_ces_sondages	N
+27l0l2	a_été_défini_principalement	N
+27l0l3	en_fonction_de	R
+27l0l4	la_localisation	O
+27l0l5	des_installations	O
+27l0l6	susceptibles_d_	R
+27l1l0	hydrocarbures	S
+
+#La localisation de ces différents sondages est disponible sur le plan cartographique n°2 du paragraphe B de cette fiche Basol.
+
+28l0l0	La_localisation	O
+
+#Sur l’actuelle station-service (sondages S2 à S7), les résultats d’analyses sont le plus souvent inférieurs à la limite de quantification (aucun BTEX ni hydrocarbures volatils C5-C10 quantifiés).
+
+29l0l0	actuelle_station___service	O
+29l1l0	BTEX	S
+29l1l1	hydrocarbures_volatils	S
+29l1l2	C5_C10	S
+
+#Les teneurs au-delà de la limite de quantification (5 résultats en C10-C40) sont comprises entre 20,3 et 66,8 mg/kg MS d’hydrocarbures C10-C40, et restent faibles.
+
+30l0l0	Les_teneurs	O
+30l1l0	C10_C40__	S
+30l1l1	d__hydrocarbures_C10_C40	S
+
+#Les résultats mettent en évidence l’absence d’impact par des hydrocarbures C5 à C40 et BTEX ((Benzène, Toluène, Éthylbenzène et Xylènes) au niveau des sols des installations de l’actuelle station-service.
+
+31l1l0	des_hydrocarbures_C5	S
+31l1l1	BTEX	S
+31l1l2	__Benzène	S
+31l1l3	Toluène	S
+31l1l4	Éthylbenzène	S
+31l1l5	Xylènes	S
+
+#Selon le bureau d'étude engagé, les teneurs en Eléments Traces Métalliques (ETM) mesurées dans les échantillons prélevés sur le site sont du même ordre de grandeur que celles rencontrées dans le témoin prélevé (échantillon S1(0,1-1,0 m), représentatif du fond géochimique des teneurs en ETM au niveau de la station-service) et/ou celles des gammes de valeurs rencontrées dans les sols ordinaires définies par l’INRA Orléans.
+
+32l0l0	l__INRA_Orléans	O
+32l1l0	Eléments_Traces_Métalliques	S
+32l1l1	ETM	S
+32l1l2	ETM	S
+
+#Selon le bureau d'étude engagé, ces teneurs restent néanmoins modérées et ne témoignent pas d’un impact notable des sols de la station-service en éléments traces métalliques.
+
+33l0l0	le_bureau_d_	O
+33l0l1	teneurs	O
+33l0l2	restent	R
+33l0l3	néanmoins_modérées	O
+33l0l4	la_station___service	O
+33l1l0	métalliques	S
+
+#--> Analyse des eaux souterraines
+
+
+#Deux piézomètres ont été placés au droit de l'actuelle station service ont permis de constater la présence d’hydrocarbures C5 à C10 à très faibles teneurs dans les deux piézomètres Pz1 et Pz2 placés sur le site (de la nouvelle station-service).
+
+35l0l0	Deux_piézomètres	O
+35l0l1	ont_été_placés	N
+35l0l2	au_droit_de_l__actuelle_station_service	L
+35l1l0	d__hydrocarbures	S
+
+#La localisation de ces différents piézomètres est disponible sur le plan cartographique n°2 du paragraphe B de cette fiche Basol.
+
+36l0l0	La_localisation	O
+
+#RECOMMANDATIONS
+
+
+#L’inspection des installations classées considère qu’il convient, en cas d’extraction des installations, de réaliser un contrôle de la qualité des sols en flancs et fond de fouille.
+
+38l0l0	L__inspection_des_installations_classées	O
+38l0l1	en_cas	R
+38l0l2	d__extraction_des_installations	N
+38l0l3	réaliser_un_contrôle	N
+
+#Enfin, en cas de changement ultérieur d’usage (usage futur non connu à ce jour), il conviendra de vérifier la compatibilité de la qualité des milieux avec le projet envisagé par le biais d’une nouvelle étude.
+
+39l0l0	en_cas	R
+39l0l1	de_changement_ultérieur_d_	N
+39l0l2	usage	O
+39l0l3	à_ce_jour	T
+39l0l4	le_projet	O

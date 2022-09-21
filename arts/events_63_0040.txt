@@ -1,0 +1,294 @@
+
+#63.0040
+#Implantation géographique:
+
+0l0l0	Implantation_géographique	N
+
+#Les installations de l'école du feu de la société MFP MICHELIN sont situées dans la ZI des Gravanches.
+
+1l0l0	Les_installations	O
+1l0l1	l__école_du_feu	O
+1l0l2	la_société_MFP_MICHELIN	O
+1l0l3	sont	R
+1l0l4	situées_dans_la_ZI_des_Gravanches	L
+1l1l0	la_société_MFP_MICHELIN	I
+
+#La surface du terrain est de 14.192 m2.
+
+
+#Son voisinage est constitué:
+
+3l0l0	Son_voisinage	O
+
+#- au Nord par l'autoroute A710, l'usine MICHELIN de Chantemerle;
+
+4l0l0	au_Nord_par_l__autoroute_A710	L
+4l0l1	l__usine_MICHELIN	O
+4l0l2	Chantemerle	L
+4l1l0	MICHELIN	I
+
+#- à l'Ouest par des terrains agricoles et l'usine MICHELIN des Gravanches;
+
+5l0l0	à_l__Ouest	L
+5l0l1	des_terrains_agricoles	O
+5l0l2	l__usine_MICHELIN	O
+5l0l3	Gravanches	L
+
+#- au Sud par des terrains agricoles;
+
+6l0l0	au_Sud	L
+6l0l1	des_terrains_agricoles	O
+
+#- à l'Est par des terrains agricoles, la Sté AUVERSUN et le Marché de Gros.
+
+7l0l0	à_l__Est	L
+7l0l1	des_terrains_agricoles	O
+7l0l2	la_Sté_AUVERSUN	O
+7l0l3	le_Marché_de_Gros	A
+7l1l0	la_Sté_AUVERSUN	I
+
+#Activité:
+
+
+#Implantée en 1979, l'école du feu MICHELIN était utilisée pour l'entrainement des personnels d'intervention MICHELIN, mais également des entreprises extérieures et le SDIS.
+
+9l0l0	Implantée	R
+9l0l1	en_1979	T
+9l0l2	l__école_du_feu_MICHELIN	O
+9l0l3	était_utilisée_pour	R
+9l0l4	l__entrainement	A
+9l0l5	personnels_d__intervention_MICHELIN	O
+9l0l6	entreprises_extérieures	O
+9l0l7	le_SDIS	O
+9l1l0	MICHELIN	I
+9l1l1	le_SDIS	I
+
+#Le site était principalement organisé de la façon suivante:
+
+10l0l0	Le_site	O
+
+#- un bâtiment social et administratif;
+
+
+#- une zone de stockage de produits chimiques;
+
+12l1l0	produits_chimiques	U
+
+#- 3 zones d'extinction de feux spécifiques;
+
+13l0l0	extinction_de_feux	N
+
+#- un bassin de collecte des eaux d'extinction.
+
+14l0l0	un_bassin_de_collecte	O
+
+#Contexte hydrogéologique:
+
+
+#Le site est implanté sur des terrains sédimentaires relativement perméables (sables, argiles, marnes) reposant sur un substratum marno-calcaire.
+
+16l0l0	Le_site	O
+16l0l1	est_implanté_sur	N
+16l0l2	des_terrains	N
+
+#En sous-sol, une nappe peu épaisse, située à quelques mètres de profondeur, s'écoule du Sud/Sud-Ouest vers le Nord/Nord-Est.
+
+17l0l0	du_Sud___Sud___Ouest_vers_le_Nord___Nord___Est	L
+
+#Aucun usage sensible de la nappe n'a été répertorié en aval hydraulique dans un périmètre de 5 kms.
+
+18l0l0	Aucun_usage_sensible	O
+18l0l1	en_aval_hydraulique_dans_un_périmètre_de_5_kms	L
+
+#Les eaux superficielles du site sont recueillies parle canal de la Combaude, au Nord-Ouest du site et se jettent dans le Tiretaine et le Bedat.
+
+19l0l0	parle_canal_de_la_Combaude	L
+19l0l1	au_Nord_Ouest_du_site	L
+19l0l2	se_jettent_dans_le_Tiretaine_et_le_Bedat	L
+
+#Situation administrative:
+
+
+#L'école du feu MICHELIN était soumise à déclaration sous la rubrique 1432 (dépôt de liquides inflammables) et était règlementée par un arrêté préfectoral du 10/01/1989.
+
+21l0l0	L__école_du_feu_MICHELIN	O
+21l0l1	était_soumise_à_déclaration	N
+21l0l2	était_règlementée	N
+21l0l3	un_arrêté_préfectoral	O
+21l0l4	10_01_1989__	T
+21l1l0	dépôt	D
+21l1l1	de_liquides_inflammables	U
+
+#La cessation d'activité a été notifiée au Préfet le 18/02/2011.
+
+22l0l0	La_cessation_d__activité	N
+22l0l1	a_été_notifiée	N
+22l0l2	au_Préfet	O
+22l0l3	le_18_02_2011__	T
+22l1l0	Préfet	S
+
+#Le site a été acquis le 23 avril 2013 par la Sté IKEA pour l'implantation d'un point de vente de la marque.
+
+23l0l0	Le_site	O
+23l0l1	a_été_acquis	N
+23l0l2	le_23_avril_2013	T
+23l0l3	la_Sté_IKEA	O
+23l0l4	l__implantation	N
+23l0l5	d_	R
+23l0l6	un_point_de_vente	O
+23l1l0	la_Sté_IKEA	I
+
+#Situation environnementale:
+
+24l0l0	Situation_environnementale	N
+
+#Un diagnostic environnemental a été réalisé en septembre et octobre 2009 par le cabiner BIOBASIC Environnement, complété par des investigations de la Sté AT Environnement en 2010 et de la Sté SITA Remédiation en 2011.
+
+25l0l0	Un_diagnostic_environnemental	N
+25l0l1	a_été_réalisé	N
+25l0l2	en_septembre_et_octobre_2009	T
+25l0l3	le_cabiner_BIOBASIC_Environnement	O
+25l0l4	des_investigations	N
+25l0l5	la_Sté_AT_Environnement	O
+25l0l6	en_2010	T
+25l0l7	la_Sté_SITA_Remédiation	O
+25l0l8	en_2011__	T
+25l1l0	le_cabiner_BIOBASIC	I
+25l1l1	la_Sté_AT_Environnement	I
+25l1l2	la_Sté_SITA_Remédiation	I
+
+#Les résultats de ces différents diagnostics ont confirmé la présence dans les sols, en différentes zones:
+
+26l0l0	diagnostics	N
+26l0l1	les_sols	O
+
+#- d'hydrocarbures totaux, de BTEX, de HAP, de COHV, de métaux (Ni, Zn, Cd, Hg, Cu, Pb), de dioxines et de furanes;
+
+27l1l0	hydrocarbures_totaux	S
+27l1l1	BTEX	S
+27l1l2	HAP	S
+27l1l3	COHV	S
+27l1l4	métaux	S
+27l1l5	Ni	S
+27l1l6	Zn	S
+27l1l7	Cd	S
+27l1l8	Hg	S
+27l1l9	Cu	S
+27l1l10	Pb	S
+27l1l11	dioxines	S
+27l1l12	furanes	S
+
+#Dans les eaux souterraines , ont été retrouvés:
+
+
+#- des hydrocarbures totaux, des BTEX, des COHV, des HAP, du Chlorobenzène et des métaux(Ni, Pb, Zn, Ti, Al).
+
+29l1l0	hydrocarbures_totaux	S
+29l1l1	des_BTEX	S
+29l1l2	des_COHV	S
+29l1l3	des_HAP	S
+29l1l4	du_Chlorobenzène	S
+29l1l5	métaux_Ni	S
+29l1l6	Pb	S
+29l1l7	Zn	S
+29l1l8	Ti	S
+29l1l9	Al	S
+
+#Travaux de réhabilitation:
+
+30l0l0	Travaux_de_réhabilitation	N
+
+#Suite aux différentes investigations, un plan de gestion a été proposé en décembre 2011 sur la base d'un usage commercial.
+
+31l0l0	un_plan_de_gestion	O
+31l0l1	a_été_proposé	N
+31l0l2	en_décembre_2011	T
+31l0l3	sur_la_base_d_	R
+31l0l4	un_usage_commercial	N
+
+#Les travaux de réhabilitation ont été encadrés par l'arrêté préfectoral du 26/09/2012.
+
+32l0l0	Les_travaux_de_réhabilitation	N
+32l0l1	ont_été_encadrés	N
+32l0l2	l__arrêté_préfectoral	O
+32l0l3	26_09_2012__	T
+
+#Ces travaux ont consisté à mettre en oeuvre les opérations suivantes:
+
+
+#- Eliminer dans un centre de traitement des déchets dangereux les boues des lagunes et des citernes;
+
+34l0l0	Eliminer	N
+34l0l1	un_centre	O
+34l0l2	de_traitement_des_déchets_dangereux	O
+34l1l0	déchets_dangereux	U
+34l1l1	les_boues_des_lagunes	U
+34l1l2	citernes	I
+
+#- Excaver les terres polluées suivi soit d'une élimination en centre de stockage de déchets dangereux, soit d'un traitement biologique sur site ou sur le site du CET de Billom, soit d'un confinement sur site avec recouvrement en matériaux sains;
+
+35l0l0	Excaver	N
+35l0l1	les_terres_polluées	O
+35l0l2	une_élimination	N
+35l0l3	centre_de_stockage_de_déchets_dangereux	O
+35l0l4	un_traitement_biologique	N
+35l0l5	site_du_CET	L
+35l0l6	Billom	L
+35l1l0	CET	I
+
+#- Traiter les eaux de fond de fouille par pompage, filtration et réinjection en amont hydraulique;
+
+36l0l0	Traiter	N
+36l0l1	les_eaux_de_fond	O
+36l0l2	réinjection_en_amont_hydraulique	L
+
+#- Traiter les eaux souterraines par la mise en place d'une tranchée drainante, d'une opération de pompage dans la nappe suivi d'une filtration sur charbon actif et réinjection en amont hydraulique.
+
+37l0l0	Traiter	N
+37l0l1	les_eaux_souterraines	O
+37l0l2	la_mise_en_place_d__une_tranchée_drainante	N
+37l0l3	une_opération_de_pompage	N
+37l0l4	la_nappe	O
+37l0l5	suivi_d_	R
+37l0l6	une_filtration	N
+37l0l7	réinjection_en_amont_hydraulique	L
+37l1l0	charbon_actif	U
+
+#A l'issue des travaux de remise en état, un procès verbal de récolement a été rédigé le 9 avril 2013 par l'inspection des installations classées.
+
+38l0l0	A	R
+38l0l1	l__issue_des_travaux_de_remise_en_état	N
+38l0l2	un_procès_verbal_de_récolement	N
+38l0l3	a_été_rédigé	N
+38l0l4	le_9_avril_2013	T
+38l0l5	l__inspection_des_installations_classées	O
+
+#Suivi post-exploitation:
+
+
+#Un suivi de la qualité des eaux souterraines a été imposé par l'arrêté préfectoral du 26/09/2012 portant sur la remise en état du site.
+
+40l0l0	Un_suivi_de_la_qualité_des_eaux_souterraines	A
+40l0l1	a_été_imposé	N
+40l0l2	l__arrêté_préfectoral	O
+40l0l3	26_09_2012	T
+40l0l4	portant_sur	R
+40l0l5	la_remise_en_état_du_site	N
+
+#A cette fin et à l'issue des travaux, 7 piézomètres ont été implantés pour permettre des prélèvements et analyses semestriels.
+
+41l0l0	à_l__issue_des_travaux	N
+41l0l1	7_piézomètres	O
+41l0l2	ont_été_implantés	N
+
+#Par arrêté préfectoral 14/00816 du 17 avril 2014, des servitudes d'utilité publique ont été instaurés sur les parcelles ayant hébergé l'école du feu MICHELIN.
+
+42l0l0	Par_arrêté_préfectoral	O
+42l0l1	14_00816_du_17_avril_2014__	T
+42l0l2	des_servitudes_d__utilité_publique	O
+42l0l3	ont_été_instaurés	N
+42l0l4	sur	L
+42l0l5	les_parcelles	O
+42l0l6	ayant_hébergé	R
+42l0l7	l__école	O
+42l0l8	feu_MICHELIN	O

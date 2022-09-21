@@ -1,0 +1,168 @@
+
+#24.0003
+#L'établissement de Bergerac NitroCellulose (BNC) est situé en bordure de la rivière Dordogne à environ 1,5 km au sud-est de la ville de Bergerac.
+
+0l0l0	L__établissement	O
+0l0l1	Bergerac_NitroCellulose	O
+0l0l2	situé_en_bordure_de_la_rivière_Dordogne_à_environ_1_5_km_au_sud_est_de_la_ville_de_Bergerac	L
+0l1l0	Bergerac	I
+0l1l1	NitroCellulose	S
+0l1l2	BNC	I
+
+#Sa superficie est de 195 ha dont 120 ha pour la partie industrielle proprement dite.
+
+1l0l0	la_partie_industrielle	O
+
+#BNC résulte de la filialisation entreprise depuis 1992, des activités exercées sur l'ancienne poudrerie de la SNPE.
+
+2l0l0	BNC	O
+2l0l1	résulte_de	R
+2l0l2	la_filialisation_entreprise	N
+2l0l3	depuis_1992	T
+2l0l4	activités_exercées	A
+2l0l5	sur	R
+2l0l6	l__ancienne_poudrerie	O
+2l0l7	la_SNPE	O
+2l1l0	BNC	I
+
+#L'activité de Bergerac NC(BNC)  est la production et la commercialisation de nitrocellulose (NC) à usage de peintures, vernis, encres, collodions, plastifiants,etc.
+
+3l0l0	L__activité	O
+3l0l1	Bergerac_NC_BNC	O
+3l0l2	est_la_production_et_la_commercialisation_de_nitrocellulose	A
+3l1l0	Bergerac_NC_BNC	I
+3l1l1	de_nitrocellulose	U
+3l1l2	__NC	S
+
+#L'activité de production de NC energetique est exercée depuis 2005 par MANUCO.
+
+4l0l0	L__activité_de_production_de_NC_energetique	A
+4l0l1	est_exercée	N
+4l0l2	depuis_2005	T
+4l0l3	MANUCO	O
+4l1l0	NC_energetique	I
+4l1l1	MANUCO	I
+
+#La filiale de BNC présente sur la plate forme est DURLIN, spécialisée dans les vernis à ongles.
+
+5l0l0	La_filiale	O
+5l0l1	BNC	O
+5l0l2	DURLIN	O
+5l0l3	spécialisée_dans	R
+5l0l4	les_vernis_à_ongles	A
+5l1l0	BNC	I
+5l1l1	DURLIN	I
+
+#1 - DIAGNOSTIC
+
+6l0l0	DIAGNOSTIC	N
+
+#Cette usine, accolée à la SNPE, présente des risques d'incendie essentiellement.
+
+7l0l0	Cette_usine	O
+7l0l1	accolée_à_la_SNPE	L
+7l0l2	incendie	N
+
+#Un incendie est recensé en 1980.
+
+8l0l0	Un_incendie	N
+8l0l1	en_1980	T
+
+#Les activités exercées sur ce site ayant pu conduire par le passé, à une pollution du sols et de la nappe, un diagnostic initial et une évaluation simplifiée des risques ont été prescrits par l'arrtêté du 19 octobre 1998.
+
+9l0l0	Les_activités_exercées	N
+9l0l1	sur	R
+9l0l2	ce_site	O
+9l0l3	ayant_pu_conduire	N
+9l0l4	une_pollution	N
+9l0l5	un_diagnostic_initial	N
+9l0l6	une_évaluation_simplifiée_des_risques	N
+9l0l7	ont_été_prescrits	N
+9l0l8	l__arrtêté	O
+9l0l9	19_octobre_1998__	T
+
+#Les études ont été remises le 31/12/99 et complétées le 22 décembre 2000.
+
+10l0l0	Les_études	O
+10l0l1	ont_été_remises	N
+10l0l2	le_31_12_99	T
+10l0l3	et_complétées	N
+10l0l4	le_22_décembre_2000__	T
+
+#Elles concluent au classement 2 "à surveiller" pour les milieux eaux superficielles, sols, air et risque d'incendie.
+
+
+#2 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+12l0l0	SURVEILLANCE_DES_EAUX	A
+12l0l1	SOUTERRAINES	O
+12l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 a) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines par référence aux rubriques 1432 de la nomenclature des Installations Classées.
+
+13l0l0	Ce_site	O
+13l0l1	est_soumis_à	R
+13l0l2	l_	O
+13l0l3	l__arrêté_ministériel	O
+13l0l4	du_2_février_1998	T
+13l0l5	surveillance_des_eaux_souterraines	A
+
+#La surveillance de la nappe a été prescrite par l'arrêté du 29/01/2003 :
+
+14l0l0	La_surveillance_de_la_nappe	A
+14l0l1	a_été_prescrite	N
+14l0l2	l__arrêté	N
+14l0l3	du_29_01_2003	T
+
+#- mise en place de 3 piézomètres
+
+15l0l0	mise_en_place	N
+15l0l1	3_piézomètres	O
+
+#- les paramètres recherchés sont: pH, conductivité, HAP, COV, ETM, NO2-, NO3-, sulfates, explosif, centralites, phtalates, amines
+
+16l1l0	pH	S
+16l1l1	HAP	S
+16l1l2	COV	S
+16l1l3	ETM	S
+16l1l4	NO2_	S
+16l1l5	NO3_	S
+16l1l6	sulfates	S
+16l1l7	explosif	S
+16l1l8	centralites	S
+16l1l9	phtalates	S
+16l1l10	amines	S
+
+#- la fréquence des analyses est semestrielle
+
+
+#La campagne du 31 mars 2005 révèle l'impact de la nappe en amont du site par les nitrates, nitrites, Nickel et Zinc.
+
+18l0l0	La_campagne_du_31	N
+18l0l1	mars_2005	T
+18l0l2	révèle_l__impact	N
+18l0l3	la_nappe	O
+18l0l4	en_amont_du_site	L
+18l0l5	nitrates	N
+18l1l0	nitrates	S
+18l1l1	nitrites	S
+18l1l2	Nickel	S
+18l1l3	Zinc	S
+
+#La situation est satisfaisante à l'aval.
+
+19l0l0	l__aval	O
+
+#La campagne d'avril 2007 montre une amélioration de la situation.
+
+20l0l0	La_campagne_d_	N
+20l0l1	avril_2007	T
+
+#On observe une pollution nitratée et sulfatée en amont du site qui s'estompe à l'aval.
+
+21l0l0	pollution_nitratée	O
+21l0l1	en_amont_du_site	L
+21l0l2	s__estompe	N
+21l0l3	à_l__aval	L
+21l1l0	nitratée	S
+21l1l1	sulfatée	S

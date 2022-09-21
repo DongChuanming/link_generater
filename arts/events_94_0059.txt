@@ -1,0 +1,286 @@
+
+#94.0059
+#Depuis 1930 environ, plusieurs sociétés se sont succédées sur ce site d’une surface de 2000 m² pour y exercer des activités de location et réparation de transformateurs électriques dont des transformateurs contenant des PCB.
+
+0l0l0	Depuis_1930	T
+0l0l1	plusieurs_sociétés	O
+0l0l2	se_sont_succédées	N
+0l0l3	sur_ce_site	L
+0l0l4	2000_m²	O
+0l0l5	exercer_des_activités_de_location_et_réparation_de_transformateurs_électriques	A
+0l0l6	des_transformateurs	O
+0l1l0	des_PCB	S
+
+#La société TRANSFO SERVICE, filiale de SCHNEIDER ELECTRIC, a succédé en 1992 à la société ELECTRIC VITRY.
+
+1l0l0	La_société_TRANSFO_SERVICE	O
+1l0l1	filiale_de	R
+1l0l2	SCHNEIDER_ELECTRIC	O
+1l0l3	a_succédé	N
+1l0l4	en_1992	T
+1l0l5	la_société	N
+1l0l6	ELECTRIC_VITRY	O
+1l1l0	La_société_TRANSFO_SERVICE	I
+1l1l1	SCHNEIDER_ELECTRIC	I
+1l1l2	société_ELECTRIC_VITRY	I
+
+#L’établissement était classé à autorisation sous les rubriques 167-a, 1180-2 et 1180-3.
+
+2l0l0	L__établissement	O
+2l0l1	était_classé_à_autorisation	N
+
+#L'établissement a cessé ses activités le 30/11/2006.
+
+3l0l0	L__établissement	O
+3l0l1	a_cessé_ses_activités	N
+3l0l2	le_30_11_2006__	T
+
+#DANS LE VOISINAGE DU SITE TRANSFO SERVICES:
+
+4l1l0	LE_VOISINAGE_DU_SITE_TRANSFO_SERVICES	I
+
+#Suite à la découverte en juillet 2005 d'une forte pollution aux PCB des sols des jardins mitoyens au sud du site, des travaux d'urgence de dépollution ont été réalisés par l'exploitant (enlèvement et élimination des végétaux et des terres sur 20 cm) et un plan d'action a été établi en concertation avec un bureau conseil afin d'établir un diagnostic précis de la pollution de l'ensemble des jardins voisins du site et de déterminer les mesures supplémentaires de réhabilitation à mettre en œuvre sur ces terrains pour supprimer tout risque sanitaire potentiel sur le long terme.
+
+5l0l0	Suite_à	R
+5l0l1	la_découverte	N
+5l0l2	en_juillet_2005	T
+5l0l3	PCB	O
+5l0l4	jardins_mitoyens_au_sud_du_site	L
+5l0l5	des_travaux_d__urgence_de_dépollution	N
+5l0l6	ont_été_réalisés	N
+5l0l7	l__exploitant	O
+5l0l8	enlèvement	N
+5l0l9	élimination_des_végétaux	N
+5l0l10	un_plan_d__action	O
+5l0l11	a_été_établi	N
+5l0l12	un_bureau	O
+5l0l13	un_diagnostic_précis	N
+5l0l14	la_pollution	N
+5l0l15	l__ensemble_des_jardins_voisins_du_site	O
+5l0l16	de_déterminer_les_mesures_supplémentaires_de_réhabilitation	O
+5l0l17	ces_terrains	O
+5l1l0	PCB	S
+
+#Les investigations de sols destinées à circonscrire la pollution des parcelles de terrain voisines du site ont été réalisées.
+
+6l0l0	Les_investigations_de_sols	N
+6l0l1	destinées_à	R
+6l0l2	circonscrire_la_pollution_des_parcelles_de_terrain_voisines_du_site	O
+6l0l3	ont_été_réalisées	N
+
+#Il n'y a pas eu d'investigations au niveau des eaux souterraines, la première nappe étant située à une vingtaine de mètres de profondeur.
+
+7l0l0	investigations	N
+7l0l1	la_première_nappe	O
+7l0l2	étant_située_à_une	L
+7l0l3	vingtaine_de_mètres_de_profondeur	N
+
+#Des seuils de réhabilitation ont été déterminés en suivant la méthodologie du guide EDR du MEDD/BRGM/INERIS (2000) permettant le maintien de l’usage actuel de chacun des jardins périphériques au site et garantir l’absence de risque sanitaire sur le long terme pour cet usage.
+
+8l0l0	Des_seuils	O
+8l0l1	de_réhabilitation	O
+8l0l2	ont_été_déterminés	N
+8l0l3	MEDD	O
+8l0l4	BRGM	O
+8l0l5	INERIS	O
+8l0l6	l_	A
+8l0l7	usage_actuel	O
+8l0l8	cet_usage	O
+8l1l0	MEDD___BRGM___INERIS	I
+
+#Les parcelles de terrain concernées sont les suivantes: n°242, 243, 209, 211, 213, 215, 93, 267
+
+9l0l0	Les_parcelles_de_terrain	O
+
+#L'exploitant a donc engagé en octobre 2005 les travaux de décapage des terres polluées de l'ensemble de ces jardins en fonction des seuils préconisés et a procédé au remplacement des terres polluées par de la terre propre ainsi qu'à la reconstitution des jardins à l'identique.
+
+10l0l0	L__exploitant	O
+10l0l1	a_donc_engagé	N
+10l0l2	en_octobre_2005	T
+10l0l3	les_travaux_de_décapage	N
+10l0l4	des_terres_polluées	O
+10l0l5	l_	O
+10l0l6	ces_jardins	O
+10l0l7	a_procédé_au_remplacement	N
+10l0l8	des_terres_polluées	O
+10l0l9	qu__à	R
+10l0l10	la_reconstitution_des_jardins	N
+
+#Des analyses de fond et de bord de fouille ont été systématiquement réalisées et chaque terrain réhabilité a fait l’objet, à partir des résultats de ces analyses, d’une Evaluation Détaillée des Risques résiduels afin de vérifier que l’Excès de Risque Individuel (ERI) est bien inférieur à 10-5 et que l’Indice de Risque (IR) est bien inférieur à 1 (cf : circulaire MEDD du 10 décembre 1999).
+
+11l0l0	Des_analyses	N
+11l0l1	ont_été	N
+11l0l2	chaque_terrain_réhabilité	O
+11l0l3	a_fait_l__objet	R
+11l0l4	10_décembre_1999____	T
+11l1l0	circulaire_MEDD	I
+
+#Le service Santé-Environnement de la DDASS du Val-de-Marne et le service Environnement de la Mairie de Vitry sur Seine ont été informés et associés au suivi de cette affaire.
+
+12l0l0	Le_service_Santé___Environnement	O
+12l0l1	la_DDASS	O
+12l0l2	le_service_Environnement	O
+12l0l3	la	O
+12l0l4	Mairie_de_Vitry_sur_Seine	L
+12l0l5	ont_été_informés	N
+12l0l6	associés_au_suivi	N
+12l0l7	cette_affaire	O
+12l1l0	Le_service_Santé___Environnement	I
+12l1l1	la_DDASS_du_Val_de_Marne	I
+
+#Des compléments ont été transmis par l'exploitant suite à des demandes de l'administration (DDASS et préfecture du Val-de-Marne).
+
+13l0l0	Des_compléments	O
+13l0l1	ont_été_transmis	N
+13l0l2	l__exploitant	O
+13l0l3	suite_à	R
+13l0l4	des_demandes	N
+13l0l5	l__administration	O
+13l0l6	préfecture_du_Val_de_Marne	A
+
+#AU DROIT DU SITE EXPLOITE PAR TRANSFO SERVICES :
+
+14l1l0	TRANSFO_SERVICES	I
+
+#Par AP du 10/05/2006, il a été imposé à TRANSFO SERVICES de fournir un diagnostic approfondi de la pollution des sols sur leur site (délai 3 mois) ainsi qu’une EDR (délai 6 mois) permettant de définir les mesures de mise en sécurité, de dépollution et de surveillance du site nécessaires pour assurer la protection des usagers du site et de son voisinage.
+
+15l0l0	10_05_2006	T
+15l0l1	il	O
+15l0l2	a_été_imposé	N
+15l0l3	TRANSFO_SERVICES	O
+15l0l4	de_fournir_un_diagnostic_approfondi	N
+15l0l5	la_pollution_des_sols	N
+15l0l6	leur_site	O
+15l0l7	délai_3_mois	T
+15l0l8	qu__une_EDR	O
+15l0l9	dépollution	N
+15l0l10	usagers_du_site	A
+15l1l0	TRANSFO_SERVICES	I
+
+#En novembre 2006 Transfo Service notifie au Préfet du Val-de-Marne la cessation d'activité et transmet le 12/10/2006 un premier diagnostic de pollution et le 05/11/07, un mémoire de mise en sécurité du site et de réhabilitation.
+
+16l0l0	En_novembre_2006	T
+16l0l1	Transfo_Service	O
+16l0l2	notifie_au_Préfet_du_Val_de_Marne_la_cessation_d__activité	N
+16l0l3	transmet	N
+16l0l4	le_12_10_2006	T
+16l0l5	un_premier_diagnostic_de_pollution	N
+16l0l6	le_05_11_07	T
+16l0l7	un	O
+16l0l8	mémoire_de_mise_en_sécurité	N
+16l0l9	réhabilitation	N
+16l1l0	Transfo_Service	I
+
+#Les investigations réalisées sur le site ont mis en évidence la présence, dans les sols, d'hydrocarbures, de PCB et de COHVM.
+
+17l0l0	Les_investigations_réalisées	N
+17l0l1	le_site	N
+17l0l2	ont_mis_en_évidence	R
+17l0l3	la_présence	O
+17l0l4	les_sols	O
+17l1l0	hydrocarbures	S
+17l1l1	PCB	S
+17l1l2	COHVM	S
+
+#Les campagnes de prélèvements et d'analyses dans l'air ambiant n'ont pas montré de transfert de vapeurs vers l'air intérieur des locaux.
+
+18l0l0	Les_campagnes_de	N
+
+#Les études ont montré que l'état du site était compatible avec son usage, mais qu'il convenait de garder la mémoire de la pollution.
+
+
+#Une proposition de servitudes a également été faite pour les jardins voisins.
+
+20l0l0	Une_proposition	O
+20l0l1	les_jardins_voisins	O
+
+#Par lettre du 14/02/2010 TRANSFO SERVICES a adressé à la Préfecture les résultats d'analyses des eaux de la nappe des calcaires de Saint-Ouen, suite à 2 campagnes réalisées en octobre et en décembre 2010.
+
+21l0l0	14_02_2010	T
+21l0l1	TRANSFO_SERVICES	O
+21l0l2	a_adressé	N
+21l0l3	la_Préfecture	O
+21l0l4	analyses	N
+21l0l5	Saint_Ouen	L
+21l0l6	suite_à	R
+21l0l7	2_campagnes_réalisées	N
+21l0l8	en_octobre_et_en_décembre_2010__	T
+21l1l0	TRANSFO_SERVICES	I
+
+#Les résultats montrent l'absence de PCB mais la présence de traces de solvants chlorés qui ne proviennent pas de l'installation.
+
+22l1l0	PCB	S
+22l1l1	solvants_chlorés	U
+
+#Afin de valider les données de ces 2 campagnes d'analyses, à la demande de l'inspection, l'exploitant a fait réaliser une nouvelle campagne d'analyses au printemps 2012, en période de hautes eaux.
+
+23l0l0	Afin_de	R
+23l0l1	valider	N
+23l0l2	ces_2_campagnes	N
+23l0l3	à_la_demande_de	R
+23l0l4	l__inspection	O
+23l0l5	l__exploitant	O
+23l0l6	a_fait_réaliser	N
+23l0l7	une_nouvelle_campagne_d__analyses	N
+23l0l8	au_printemps_2012__	T
+23l0l9	en_période	T
+23l0l10	de_hautes_eaux	N
+
+#Les résultats étant comparables aux précédentes campagnes d'analyses, le projet de servitudes ne prévoit donc pas de restrictions sur l'utilisation des eaux souterraines.
+
+24l0l0	servitudes	O
+24l0l1	ne_prévoit	R
+
+#Lors des diagnostics de pollution réalisés en 2006, des concentrations significatives en polluants volatils (hydrocarbures, solvants chlorés) ont été mis en évidence.
+
+25l0l0	Lors	R
+25l0l1	des_diagnostics_de_pollution	N
+25l0l2	réalisés	N
+25l0l3	en_2006__	T
+25l0l4	des_concentrations	O
+25l1l0	polluants_volatils	U
+25l1l1	hydrocarbures	S
+25l1l2	solvants_chlorés	U
+
+#Aussi, à la lumière du retour d'expérience, et le site n'ayant pas nécessité de travaux de réhabilitation, il a été demandé à l'exploitant, par courrier du 30/09/2014 puis par arrêté préfectoral du 17/08/2015 de vérifier l'absence de risques de transfert hors site des polluants présents dans les gaz du sol, en réalisant une nouvelle série de mesures dans les gaz du sol en limite de propriété et de nouvelles mesures d'air intérieur dans les bâtiments présents sur le site.
+
+26l0l0	le_site	O
+26l0l1	n__ayant_pas_nécessité_de_travaux_de_réhabilitation	N
+26l0l2	a_été_demandé	N
+26l0l3	l__exploitant	O
+26l0l4	30_09_2014	T
+26l0l5	arrêté_préfectoral	O
+26l0l6	17_08_2015	T
+26l0l7	réalisant_une_nouvelle_série_de_mesures	N
+26l0l8	nouvelles_mesures	N
+26l0l9	les_bâtiments	O
+26l1l0	polluants	S
+
+#L'inspection est en attente des résultats des analyses complémentaires sur les gaz du sol.
+
+
+#Dans le cadre de la procédure visant à l'instauration des servitudes d'utilité publique (SUP) sur le site et sur les terrains mitoyens, le projet d'arrêté de SUP a fait l'objet d'une consultation de l'ARS, de la DRIEA et de la BSPP ainsi que de l'exploitant, des propriétaires des terrains et du conseil municipal.
+
+28l0l0	Dans_le_cadre_de	R
+28l0l1	la_procédure	O
+28l0l2	visant_à	R
+28l0l3	l__instauration_des_servitudes	N
+28l0l4	d__utilité_publique	O
+28l0l5	les_terrains_mitoyens	O
+28l0l6	le_projet	O
+28l0l7	a_fait_l__objet_d_	R
+28l0l8	une_consultation	N
+28l0l9	l__ARS	O
+28l0l10	l__exploitant	O
+28l0l11	des_propriétaires_des_terrains	O
+28l0l12	conseil_municipal	O
+28l1l0	la_DRIEA	I
+28l1l1	BSPP	I
+
+#L'arrêté préfectoral instaurant les servitudes d'utilité publique a été signé le 22/07/2016.
+
+29l0l0	L__arrêté_préfectoral	O
+29l0l1	instaurant	N
+29l0l2	les_servitudes_d__utilité_publique	O
+29l0l3	a_été_signé	N
+29l0l4	le_22_07_2016__	T

@@ -1,0 +1,300 @@
+
+#72.0008
+#Le site, d’une superficie de 16 669 m², est situé au sud de la ville du Mans, dans une zone industrielle longeant la rivière de la Sarthe (voir plan cartographique 1 partie B).
+
+0l0l0	Le_site	O
+0l0l1	est_situé_au_sud_de_la_ville_du_Mans	L
+0l0l2	dans_une_zone_industrielle	L
+0l0l3	longeant_la_rivière_de_la_Sarthe	L
+
+#L’établissement était encadré :
+
+
+#- au nord, par le parc de l’Équipement, comprenant des cuves d’hydrocarbures ;
+
+2l0l0	au_nord	L
+2l0l1	le_parc_de_l__Équipement	O
+2l0l2	cuves_d__hydrocarbures	O
+2l1l0	des_cuves_d_	D
+2l1l1	hydrocarbures	S
+
+#- au sud, par des sociétés de transport ;
+
+3l0l0	des_sociétés	O
+
+#- à l’ouest, par des entreprises, puis la Sarthe ;
+
+4l0l0	ouest	L
+4l0l1	la_Sarthe	O
+4l1l0	la_Sarthe	I
+
+#- à l’est par un dépôt pétrolier.
+
+5l0l0	à_l__est	L
+5l0l1	dépôt_pétrolier	O
+5l1l0	dépôt_pétrolier	D
+
+#Sur sa partie Est, le site repose sur d’important remblais anthropiques de comblement d’anciennes ballastières, recouvrant des alluvions anciens sableux et graveleux.
+
+6l0l0	Sur_sa_partie_Est	L
+6l0l1	comblement	N
+
+#Dans sa partie Ouest, le site repose directement sur les alluvions.
+
+7l0l0	sa_partie_Ouest	O
+
+#Deux types de nappe sont présents :
+
+
+#- la nappe des alluvions de la vallée de la Sarthe en liaison avec la rivière et drainant les terrains.
+
+9l0l0	la	O
+9l0l1	vallée_de_la_Sarthe	L
+9l0l2	drainant_les_terrains	N
+
+#Cette nappe est particulièrement vulnérable aux pollutions chimiques et microbiennes du fait de la bonne perméabilité des terrains ;
+
+
+#- la nappe des sables Cénomanien, présentant une bonne perméabilité en surface, est une nappe importante dont la partie inférieure est quasi imperméable.
+
+
+#Cette nappe est bien protégée des pollutions microbiennes du fait de son pouvoir filtrant des sables, mais reste susceptible d’être affectée par d’éventuelles pollutions chimiques.
+
+
+#Le sens d’écoulement de la nappe au droit du site s’effectue vers l’Ouest, en direction de la rivière La Sarthe.
+
+13l0l0	s_	O
+13l0l1	effectue_vers_l__Ouest	L
+13l0l2	en_direction_de	R
+13l0l3	la_rivière_La_Sarthe	L
+
+#Il n’existe aucun captage AEP (Alimentation en Eau Potable) dans la zone industrielle, malgré quelques forages industriels.
+
+14l0l0	captage_AEP	O
+14l0l1	dans_la_zone_industrielle	L
+
+#Le site a été en activité à partir de 1971.
+
+15l0l0	Le_site	O
+15l0l1	a_été_en_activité	N
+15l0l2	à_partir_de_1971__	T
+
+#L’établissement était un ancien dépôt de produits chimiques solides et liquides situé en zone industrielle sud du Mans, comportant :
+
+16l0l0	L__établissement	O
+16l0l1	était	R
+16l0l2	un_ancien_dépôt_de_produits_chimiques_solides_et_liquides	O
+16l0l3	situé_en_zone_industrielle_sud_du_Mans	L
+16l1l0	dépôt_de_produits_chimiques_solides	U
+
+#- un hangar et des bureaux ;
+
+17l0l0	un_hangar	O
+
+#- une zone de 14 cuves enterrées, dont 2 à doubles compartiment en limite Est du site et 12 cuves aériennes ;
+
+18l0l0	14_cuves_enterrées	O
+18l0l1	en_limite_Est_du_site	L
+
+#- une zone de stockage de fûts.
+
+
+#Le site a cessé son activité en février 1998.
+
+20l0l0	Le_site	O
+20l0l1	a_cessé_son_activité	N
+20l0l2	en_février_1998__	T
+
+#A la demande de LANGLOIS CHIMIE, des investigations se sont déroulées du 25 au 27 février 1997, avec la réalisation de 10 sondages et 2 piézomètres (voir plan cartographique 2 partie B).
+
+21l0l0	A_la_demande_de	R
+21l0l1	LANGLOIS_CHIMIE	O
+21l0l2	__des_investigations_se_sont_déroulées	N
+21l0l3	du_25_au_27_février_1997__	T
+21l0l4	la_réalisation_de_10_sondages	N
+21l0l5	2_piézomètres	O
+21l1l0	CHIMIE	I
+
+#Les résultats ont mis en évidence la présence d’une pollution du sol et de la nappe.
+
+
+#Deux zones sont concernées :
+
+23l0l0	Deux_zones	O
+
+#--> à l’extrémité Nord-est du site, vers les cuves de stockage :
+
+24l0l0	à_l__extrémité_Nord_est_du_site	L
+24l0l1	vers_les_cuves	L
+24l1l0	les_cuves_de_stockage	D
+
+#- forte pollution de la nappe en hydrocarbures (HCT et HAP) et présence de solvants de type Dichloroéthylène ;
+
+25l0l0	la_nappe	O
+25l1l0	hydrocarbures	S
+25l1l1	HCT	S
+25l1l2	HAP	S
+25l1l3	solvants	S
+25l1l4	Dichloroéthylène	S
+
+#- présence sur sol d’hydrocarbures près des cuves enterrées et de solvants près des cuves aériennes (Trichloroéthylène et Tétrachloroéthylène).
+
+26l0l0	cuves_enterrées	O
+26l1l0	d__hydrocarbures	S
+26l1l1	Trichloroéthylène	S
+26l1l2	Tétrachloroéthylène	S
+
+#--> à l’Ouest du dépôt :
+
+27l0l0	à_l__Ouest_du_dépôt	L
+
+#- de fortes teneurs en hydrocarbures au niveau du sol.
+
+
+#Une Évaluation Quantitative des Risques Sanitaires (EQRS) a été effectuée en date du 28 octobre 1997, permettant de classer le site comme nécessitant des investigations approfondies, notamment en ce qui concerne les risques vis-à-vis de la nappe d'eau souterraine.
+
+29l0l0	Une_Évaluation	N
+29l0l1	Quantitative_des_Risques_Sanitaires	O
+29l0l2	a_été_effectuée	N
+29l0l3	en_date_du_28_octobre_1997__	T
+29l0l4	le_site	O
+29l0l5	comme	R
+29l0l6	nécessitant_des_investigations_approfondies	N
+29l1l0	Sanitaires	S
+
+#Suite à la cessation d’activité en février 1998, le site a été démantelé, les cuves démontées et évacuées.
+
+30l0l0	Suite_à	R
+30l0l1	la_cessation_d__activité	N
+30l0l2	en_février_1998__	T
+30l0l3	le_site	O
+30l0l4	a_été_démantelé	N
+30l0l5	les_cuves	O
+30l0l6	démontées_et_évacuées	N
+
+#A la demande de l'inspection, les terres souillées ont été excavées et évacuées vers des installations de traitement aptes à les recevoir.
+
+31l0l0	A	R
+31l0l1	la_demande	N
+31l0l2	l__inspection	O
+31l0l3	les_terres_souillées	O
+31l0l4	ont_été_excavées	N
+31l0l5	évacuées_vers	O
+31l0l6	des_installations_de_traitement	O
+31l0l7	aptes_à	R
+31l0l8	les_recevoir	O
+
+#En tout, 269 tonnes de terres souillées y ont été déposées le 22 avril 1999.
+
+32l0l0	269_tonnes_de_terres_souillées	O
+32l0l1	ont_été_déposées	N
+32l0l2	le_22_avril_1999	T
+
+#Une étude complémentaire concernant la mesure de la pollution résiduelle dans les sols et dans les eaux souterraines a été fournie par l'exploitant le 24 novembre 1999.
+
+33l0l0	Une_étude_complémentaire	N
+33l0l1	a_été_fournie	N
+33l0l2	l__exploitant	O
+33l0l3	le_24_novembre_1999__	T
+
+#Dans les sols, 28 sondages ont été réalisés.
+
+34l0l0	28_sondages_ont_été_réalisés	N
+
+#Les teneurs résiduelles en hydrocarbures sont toutes inférieures au seuil d’intervention.
+
+35l1l0	hydrocarbures	S
+
+#Certains points présentent néanmoins des valeurs supérieures aux valeurs guides :
+
+
+#- A3 : 578 mg/kg, situé à proximité du point de dépotage des cuves de fioul domestique pour l’alimentation du chauffage des locaux ;
+
+37l0l0	__situé_à_proximité_du_point_de_dépotage_des	L
+37l0l1	cuves_de_fioul_domestique	A
+37l0l2	l__alimentation_du_chauffage_des_locaux	A
+37l1l0	de_fioul_domestique	U
+
+#- A 23 : 88 mg/kg, situé à proximité des cuves enterrée ( n° 5 et 10).
+
+38l0l0	__situé_à_proximité_des_cuves_enterrée	L
+38l1l0	des_cuves_enterrée	D
+
+#Dans les eaux (voir plan cartographique 3 partie B), les analyses confirment la présence d’une poche de pollution aux solvants chlorés et BTEX sur la nappe.
+
+39l0l0	les_eaux	O
+39l1l0	solvants_chlorés	S
+39l1l1	BTEX	S
+
+#Cette poche est localisée au droit des anciennes cuves de stockage, aériennes et souterraines.
+
+40l0l0	Cette_poche	O
+40l0l1	localisée_au_droit_des_anciennes_cuves	L
+40l1l0	cuves_de_stockage	D
+
+#Les teneurs observées sont de l’ordre de 140 à 180 mg/L de solvants chlorés sur l’ensemble de la zone et de 15 à 65 mg/L de BTEX (plutôt centré sur les zones de cuves enterrées).
+
+41l0l0	zones_de_cuves_enterrées	L
+41l1l0	solvants_chlorés	U
+41l1l1	BTEX	S
+
+#Les BTEX sont essentiellement centrés sur les piézomètres Z2 et Pz2 et les composés chlorés sont essentiellement centrés sur les piézomètres GW1 et Z2.
+
+42l1l0	Les_BTEX	S
+42l1l1	composés_chlorés	S
+
+#Les analyses effectuées au droit des poches de pollution (Z2 et GW1) montrent que les teneurs en BTEX sont sensiblement constantes avec néanmoins une légère augmentation à partir de février 1999.
+
+43l0l0	Les_analyses_effectuées	N
+43l0l1	au_droit_des_poches_de_pollution	O
+43l0l2	les_teneurs	O
+43l0l3	à_partir_de_février_1999	T
+43l1l0	BTEX	S
+
+#Les teneurs en solvants chlorés (Dichloroéthylène, Trichloroéthylène et Tétrachloroéthylène) présentes des variations notables d’une analyse sur l’autre.
+
+44l1l0	solvants_chlorés	S
+44l1l1	Dichloroéthylène	S
+44l1l2	Trichloroéthylène	S
+44l1l3	Tétrachloroéthylène	S
+
+#L’impact de la pollution en aval du site (Z1) est de 14 μg/L en BTEX (Triméthylbenzène et Ethylbenzène) et de 590 μg/L de composés chlorés (Dichloroéthylène et Tétrachloroéthylène essentiellement).
+
+45l0l0	la_pollution	O
+45l0l1	en_aval_du_site	L
+45l1l0	BTEX	S
+45l1l1	Triméthylbenzène	S
+45l1l2	Ethylbenzène	S
+45l1l3	composés_chlorés	U
+45l1l4	Dichloroéthylène	S
+45l1l5	Tétrachloroéthylène_essentiellement	S
+
+#Vers l’amont du site (Pz2), on observe les teneurs en solvants chlorés maximales du site (65 mg/L), ce piézomètre étant situé dans la poche de pollution.
+
+46l0l0	Vers_l__amont_du_site	L
+46l0l1	situé_dans_la_poche	L
+46l0l2	de_pollution	O
+46l1l0	solvants_chlorés	S
+
+#Les teneurs en BTEX sont de 4,2 mg/L.
+
+47l1l0	BTEX	S
+
+#En observant les évolutions sur 4 mesures (de 1997 à 1999) des teneurs sur le Pz2, une tendance globale à l’augmentation lente a été constatée pouvant correspondre à l’extension de la poche de pollution.
+
+48l0l0	de_1997_à_1999	T
+48l1l0	Pz2	S
+
+#Cette étude a donc démontré la présence de pollution résiduelle dans l'angle Nord-est du site nécessitant un suivi piézométrique des eaux.
+
+49l0l0	la_présence_de_pollution_résiduelle	O
+49l0l1	dans_l__angle_Nord_est_du_site	L
+49l0l2	un_suivi_piézométrique_des_eaux	A
+
+#Ce suivi sur 5 piézomètres a été prescrit par arrêté préfectoral du 27/03/2000.
+
+50l0l0	Ce_suivi	N
+50l0l1	5_piézomètres	O
+50l0l2	a_été_prescrit	N
+50l0l3	par_arrêté_préfectoral	O
+50l0l4	27_03_2000__	T

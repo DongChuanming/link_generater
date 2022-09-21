@@ -1,0 +1,353 @@
+
+#31.0091
+#Le collège public Claude Nougaro (établissement n°0311132W) est situé au 10 rue du caillou gris au nord-ouest du centre-ville de Toulouse (31).
+
+0l0l0	Le_collège_public_Claude_Nougaro	O
+0l0l1	situé_au	R
+0l0l2	10_rue_du_caillou_gris_au_nord_ouest_du_centre___ville_de_Toulouse___31__	L
+0l1l0	Le_collège_public_Claude_Nougaro	I
+
+#Ce collège accueille environ 300 enfants âgés 11 à 15 ans.
+
+1l0l0	Ce_collège	O
+
+#Le collège, propriété du conseil départemental de la Haute-Garonne, s’étend sur une surface de l’ordre de 6000 m2 qui comprend :
+
+2l0l0	Le_collège	O
+2l0l1	propriété_du_conseil_départemental_de_la_Haute_Garonne	O
+2l0l2	6000_m2	O
+2l1l0	conseil_départemental_de_la_Haute_Garonne	I
+
+#- un bâtiment principal de 2 étages avec vide sanitaire accueillant des salles de cours, un CDI, des bureaux et une chaufferie ;
+
+3l0l0	un_bâtiment_principal	O
+
+#- un bâtiment d’un étage, avec vide sanitaire accueillant la demi-pension (réfectoire et cuisine) ;
+
+4l0l0	un_bâtiment	O
+
+#- un atelier, une lingerie, et un bâtiment administratif ;
+
+5l0l0	un_atelier	O
+5l0l1	un_bâtiment_administratif	O
+
+#- deux logements de fonction, sur vide sanitaire, entourés d’un espace vert ;
+
+6l0l0	deux_logements_de_fonction	O
+6l0l1	entourés_d__un_espace_vert	L
+
+#- des espaces extérieurs constitués :
+
+
+#o d'une cour de récréation recouverte d’enrobé en bon état.
+
+
+#o d'un terrain de sport partagé avec l’école élémentaire Claude Nougaro mitoyenne, recouvert d’enrobé excepté pour une bande de sable et le pourtour de 2 arbres.
+
+9l0l0	un_terrain_de_sport	O
+9l0l1	le_pourtour	O
+
+#Résultats de l’étude historique et documentaire
+
+
+#Ce collège a été construit en superposition supposée d’un ancien site de destruction de déchets d’aluminium (BASIAS MPY3111395), ce qui a motivé son intégration dans la liste des établissements concernés par la démarche de diagnostic.
+
+11l0l0	Ce_collège	O
+11l0l1	a_été_construit_en	N
+11l0l2	superposition_supposée_d__un_ancien	L
+11l0l3	site_de_destruction_de_déchets_d__aluminium	O
+11l0l4	BASIAS_MPY3111395	O
+11l0l5	a_motivé	N
+11l0l6	son	O
+11l0l7	intégration	N
+11l1l0	déchets_d__aluminium	U
+
+#Ce site BASIAS a bien existé en proximité sud du collège.
+
+12l0l0	Ce_site_BASIAS	O
+12l0l1	a_bien_existé	N
+12l0l2	en_proximité_sud_du_collège	L
+
+#Ce site était en activité entre 1966 et avant 1976.
+
+13l0l0	Ce_site	O
+13l0l1	était_en_activité_entre_1966_et_avant_1976__	T
+
+#D’autres sites BASIAS ont été recensés à proximité du collège : deux carrosseries (MPY3111427 et MPY3112283), un pressing (MPY3104340) et un dépôt de liquide inflammable (MPY3110354).
+
+14l0l0	D__autres_sites_BASIAS	O
+14l0l1	ont_été_recensés	N
+14l0l2	à_proximité_du_collège	L
+14l0l3	deux_carrosseries	O
+14l0l4	un_pressing	O
+14l0l5	dépôt_de_liquide_inflammable	O
+14l1l0	pressing	I
+14l1l1	dépôt_de	D
+14l1l2	liquide_inflammable	U
+
+#Un garage a également été recensé en contiguité de l’ancien site de destruction de déchets d’aluminium (BASIAS MPY3111395).
+
+15l0l0	Un_garage	O
+15l0l1	a_également_été_recensé	N
+15l0l2	en_contiguité	O
+15l0l3	de	R
+15l0l4	l_	O
+15l0l5	destruction_de	N
+15l0l6	déchets_d__aluminium	O
+15l0l7	BASIAS_MPY3111395	O
+
+#Résultats de l’étude géologique et hydrogéologique
+
+16l0l0	géologique_et_hydrogéologique	O
+
+#L’étude du contexte géologique et hydrogéologique indique que la nappe d’eau souterraine est à environ 4 m de profondeur au droit du site.
+
+17l0l0	à_environ_4_m_de_profondeur_au_droit_du_site	L
+
+#L’écoulement naturel de cette nappe s’effectue vers la Garonne, soit en direction de l’ouest, et n’est pas suspecté d’être perturbé au voisinage du collège (pas de pompage recensé à proximité de l’établissement).
+
+18l0l0	vers_la_Garonne	L
+18l0l1	en_direction_de_l__ouest	L
+18l0l2	au_voisinage_du_collège	L
+18l0l3	à_proximité_de_l__établissement	L
+
+#Le collège est donc positionné en latéral hydraulique de l’ancien site de destruction de déchets d’aluminium (site BASIAS MPY3111395) et du garage.
+
+19l0l0	Le_collège	O
+19l0l1	est_donc	N
+19l0l2	positionné_en_latéral_hydraulique	L
+19l0l3	l__ancien_site_de_destruction_de_déchets_d__aluminium	O
+19l0l4	BASIAS_MPY3111395	O
+19l0l5	garage	O
+
+#Les sites de carrosserie (MPY3111427) et de dépôt de liquides inflammables (MPY3110354) sont ainsi en position latérale et aval hydraulique.
+
+20l0l0	Les_sites_de_carrosserie	O
+20l0l1	en_position_latérale_et_aval_hydraulique	L
+20l1l0	dépôt_de_liquides_inflammables	U
+
+#Les sites de carrosserie (MPY3112283) et de pressing (MPY3104340) sont quant à eux situés en amont hydraulique de l’établissement.
+
+21l0l0	Les_sites_de_carrosserie	O
+21l0l1	situés_en_amont_hydraulique_de_l__établissement	L
+
+#Par circulaire du 4 mai 2010, le ministère en charge du développement durable a fixé les modalités de diagnostic des sols dans les lieux accueillant les enfants et les adolescents construits sur d’anciens sites d’activité industrielle ou de services ou à proximité.
+
+22l0l0	4_mai_2010__	T
+22l0l1	le_ministère_en_charge_du_développement_durable	O
+22l0l2	a_fixé	N
+22l0l3	les_modalités	O
+22l0l4	de_diagnostic	N
+22l0l5	des_sols	O
+22l0l6	dans	R
+22l0l7	les_lieux	O
+22l0l8	accueillant	N
+22l0l9	les_enfants	O
+22l0l10	services_ou	A
+22l0l11	à_proximité	L
+
+#Cette démarche s’est inscrite dans le cadre de l’action 19 du 2e plan national santé environnement 2009-2013 et de l’article 43 de la loi 2009 – 967 du 3 août 2009 de programmation relative à la mise en œuvre du Grenelle de l’environnement.
+
+23l0l0	Cette_démarche	N
+23l0l1	s__est_inscrite_dans	R
+23l0l2	le_cadre_de	R
+23l0l3	l_	O
+23l0l4	2e_plan_national_santé_environnement_2009___2013	O
+23l0l5	3_août_2009	T
+23l0l6	programmation_relative_à	R
+23l0l7	la_mise_en_œuvre_du_Grenelle	N
+23l0l8	de_l__environnement	A
+
+#Etudes des influences potentielles des anciens sites industriels sur l’établissement scolaire
+
+24l0l0	Etudes	N
+
+#S’agissant d’un collège avec 2 logements de fonction, trois scénarios d’exposition sont à considérer.
+
+
+#Deux scénarios d’exposition potentielle sont retenus:
+
+
+#- l'inhalation d'air dans les bâtiments, air qui serait susceptible d'être dégradé par des pollutions éventuelles provenant des sites BASIAS retenus :
+
+27l0l0	l__inhalation	N
+27l0l1	d__air	O
+27l0l2	BASIAS	O
+
+#La proximité du site BASIAS MPY3111395 et la proximité de sites BASIAS en amont hydraulique (pressing et carrosserie) par rapport à l’établissement ne permettent pas de conclure à l’absence d’influence de ces sites BASIAS sur la qualité de l’air à l’intérieur des bâtiments du collège via un transfert de composés volatils dans les sols et/ou les eaux souterraines.
+
+28l0l0	La_proximité_du_site_BASIAS_MPY3111395	O
+28l0l1	proximité_de_sites_BASIAS	O
+28l0l2	en_amont_hydraulique	L
+28l0l3	carrosserie	A
+28l0l4	rapport_à_l__établissement	L
+28l0l5	ces_sites_BASIAS	O
+28l0l6	des_bâtiments_du_collège	L
+28l1l0	composés_volatils	S
+
+#- l’ingestion de sol par les enfants :
+
+29l0l0	l__ingestion	N
+
+#Le scénario d’exposition par ingestion de sols superficiels a été retenu du fait de la présence d’espaces verts accessibles aux abords des logements de fonction (non accessibles aux élèves du collège du fait de la présence d’un portillon) qui seraient susceptibles d'être dégradés par des pollutions éventuelles provenant des sites BASIAS retenus.
+
+30l0l0	ingestion_de_sols	N
+30l0l1	a_été_retenu	N
+30l0l2	la_présence_d__espaces_verts_accessibles	O
+30l0l3	aux_abords_des_logements	L
+30l0l4	des_pollutions	O
+30l0l5	sites_BASIAS_retenus	O
+
+#Le dernier scénario d’exposition potentielle n’est pas retenu :
+
+
+#- l’ingestion d’eau du robinet par les enfants :
+
+32l0l0	ingestion	N
+
+#Les réseaux d’eau potable ne traversant pas l’emprise des sites BASIAS, la possibilité d’une dégradation de la qualité de l’eau du robinet par transfert de polluants au travers des canalisations n’est pas retenue.
+
+33l0l0	BASIAS	O
+33l1l0	polluants	U
+
+#Ainsi, l’étude historique et documentaire n’ayant pas permis de conclure à l’absence d’influence du site BASIAS sur la qualité de l'air à l'intérieur des bâtiments et des sols superficiels de l’établissement, le collège a fait l’objet d’une campagne de diagnostics sur les milieux pertinents (phase 2) à l’issue de la phase 1.
+
+34l0l0	site_BASIAS	O
+34l0l1	le_collège	O
+34l0l2	a_fait_l__objet_d_	R
+34l0l3	une_campagne_de_diagnostics	N
+34l0l4	les_milieux_pertinents___phase	O
+34l0l5	l_	O
+34l0l6	issue_de	R
+34l0l7	la_phase_1__	T
+
+#Les milieux retenus sont «l'air du sol », sous la dalle du bâtiment A et sous la dalle du logement de fonction, et sur les sols.
+
+
+#Les substances recherchées étaient les substances en relation avec les sites BASIAS à proximité du collège.
+
+36l0l0	les_substances	O
+36l0l1	les_sites_BASIAS	O
+36l0l2	à_proximité_du_collège	L
+
+#Les résultats ont été interprétés conformément au guide de gestion des résultats des diagnostics réalisés dans les lieux accueillant enfants et adolescents (BRGM, ADEME, INERIS, InVS) de juin 2011 et à la note ministérielle du 8 février 2007 définissant le cadre général de la politique nationale en matière de gestion des sites et sols pollués.
+
+37l0l0	ont_été_interprétés	N
+37l0l1	conformément_au	R
+37l0l2	diagnostics	N
+37l0l3	réalisés_dans	R
+37l0l4	les_lieux	O
+37l0l5	accueillant_enfants	N
+37l0l6	et_adolescents	A
+37l0l7	BRGM	O
+37l0l8	INERIS	O
+37l0l9	InVS	O
+37l0l10	de_juin_2011	T
+37l0l11	8_février_2007	T
+37l0l12	gestion_des_sites_et_sols_pollués	O
+37l1l0	BRGM	I
+37l1l1	INERIS	I
+37l1l2	InVS	I
+
+#Les investigations ont montré que :
+
+
+#- un composé volatil a été quantifié dans l’air sous la dalle au droit du dépôt dans la chaufferie et dans l’air du vide sanitaire sous les salles de classe.
+
+39l0l0	a_été_quantifié	N
+39l0l1	chaufferie	O
+39l1l0	un_composé	S
+
+#Toutefois, la concentration mesurée est inférieure à la borne basse de l’intervalle de gestion.
+
+
+#- aucun autre composé recherché n’a été quantifié dans l’air sous dalle et l’air du vide sanitaire.
+
+41l1l0	composé	S
+
+#- des composés, dont le plomb, ont été quantifiés localement dans les sols superficiels au droit de l’établissement à des teneurs supérieures à celles mesurées dans les échantillons témoins et aux référentiels bibliographiques.
+
+42l0l0	ont_été_quantifiés	N
+42l0l1	au_droit_de_l__établissement	L
+42l1l0	composés	S
+42l1l1	le_plomb	S
+
+#En vue de réduire l’exposition au plomb de la population française, les autorités sanitaires au niveau national mènent actuellement des travaux pour réévaluer l’ensemble des valeurs de gestion aujourd’hui en vigueur sur le plomb.
+
+43l0l0	les_autorités	O
+43l0l1	réévaluer	N
+43l0l2	l__ensemble_des_valeurs_de_gestion	O
+43l1l0	plomb	S
+43l1l1	plomb	S
+
+#Le Haut Conseil de la Santé Publique a dans son avis du 23 mai 2014 préconisé une politique de réduction des expositions au plomb au plus bas niveau possible et une politique de surveillance de la population.
+
+44l0l0	Le_Haut_Conseil_de_la_Santé_Publique	O
+44l0l1	23_mai_2014_préconisé	T
+44l0l2	une_politique_de_réduction_des_expositions_au_plomb	O
+44l0l3	surveillance_de_la_population	A
+44l1l0	Le_Haut_Conseil_de_la_Santé_Publique	I
+
+#Par lettre du 15/10/2015 , le préfet de Haute-Garonne a recommandé au maître d'ouvrage du collège de réduire autant que possible l’exposition des personnes fréquentant l’établissement par des mesures environnementales.
+
+45l0l0	du_15_10_2015	T
+45l0l1	le_préfet_de_Haute_Garonne	O
+45l0l2	a_recommandé	N
+45l0l3	au_maître_d__ouvrage	O
+45l0l4	des_mesures_environnementales	O
+45l1l0	le_préfet_de_Haute_Garonne	I
+
+#Ainsi :
+
+
+#- à titre conservatoire, il est recommandé de restreindre les accès aux espaces verts concernés par ces teneurs en plomb supérieures à 100 mg/kg avec des clôtures et/ou barrières,
+
+47l0l0	restreindre_les_accès	N
+47l0l1	aux_espaces_verts_concernés	O
+47l0l2	des_clôtures	O
+47l1l0	plomb	S
+
+#- puis il convient soit de recouvrir les sols végétalisés par un matériau synthétique, soit de remplacer les terres en place (sur 30 centimètres) par des terres d’apport dont la qualité sera contrôlée avec mise en place d’un grillage avertisseur.
+
+48l0l0	recouvrir_les_sols_végétalisés	N
+48l0l1	remplacer_les_terres_en_place	N
+
+#Pour tous les autres composés, la gestion des résultats, en considérant un scénario d’ingestion de sol indique que la qualité des sols est compatible avec l’usage actuel.
+
+49l1l0	les_autres_composés	S
+
+#Pour le jardin pédagogique, les teneurs en plomb sont faibles.
+
+50l1l0	plomb	S
+
+#Il n’est donc pas utile d’approfondir le scénario d’exposition par ingestion de végétaux.
+
+51l0l0	ingestion_de_végétaux	N
+
+#Pour les sols, le collège Claude Nougaro (0311232W) à Toulouse est classé en catégorie B c'est à dire que "les aménagements et les usages actuels permettent de protéger les personnes des expositions aux pollutions, que les pollutions soient potentielles ou avérées.
+
+52l0l0	le_collège	O
+52l0l1	Claude_Nougaro	O
+52l0l2	les_aménagements	N
+
+#Des modalités de gestion de l'information doivent cependant être mises en place pour expliquer ce qui doit être fait si les aménagements ou les usages des lieux venaient à être modifiés".
+
+53l0l0	Des_modalités	O
+53l0l1	expliquer	N
+53l0l2	ce_qui_doit_être_fait	O
+53l0l3	si_les_aménagements	N
+53l0l4	les_usages_des_lieux	O
+53l0l5	venaient_à_être_modifiés	N
+
+#Ce classement permet de conserver la mémoire des résultats de ce diagnostic et engager les actions préconisées par lettre du 15/10/2015.
+
+54l0l0	ce_diagnostic	N
+54l0l1	engager	N
+54l0l2	15_10_2015__	T
+
+#Cet avis concerne la configuration actuelle de l’établissement et se base sur les connaissances techniques et scientifiques du moment, au regard de la méthodologie mise en oeuvre dans le cadre de la démarche.
+
+55l0l0	se_base_sur	R
+55l0l1	les_connaissances_techniques	O
+55l0l2	le_cadre_de	R
+55l0l3	la_démarche	N

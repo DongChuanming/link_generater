@@ -1,0 +1,136 @@
+
+#54.0028
+#Ancien dépôt exploité par la société strasbourgeoise et lorraine des combustibles (SSLC) et repris par la société BP Fuel Services.
+
+0l0l0	Ancien_dépôt	O
+0l0l1	exploité	N
+0l0l2	par	R
+0l0l3	la_société	O
+0l0l4	lorraine_des_combustibles	O
+0l0l5	repris	N
+0l0l6	la_société_BP_Fuel_Services	O
+0l1l0	la_société_strasbourgeoise	I
+0l1l1	combustibles	U
+0l1l2	SSLC	I
+0l1l3	la_société_BP_Fuel_Services	I
+
+#En 1998, l'ensemble des installations pétrolières (réservoirs, pompes, bras de chargement) a été démantelé.
+
+1l0l0	En_1998__	T
+1l0l1	l__ensemble_des_installations_pétrolières	O
+1l0l2	a_été_démantelé	N
+1l1l0	pompes	S
+
+#Pollution par les hydrocarbures :
+
+2l1l0	hydrocarbures	S
+
+#- Etude diagnostique en 1995 (réalisée par Geostock)
+
+3l0l0	Etude_diagnostique	N
+3l0l1	en_1995	T
+3l0l2	réalisée_par_Geostock	N
+
+#- Etude complémentaire en avril 1998 (réalisée par ATE) pour déterminer l'extension de la pollution.
+
+4l0l0	Etude_complémentaire	N
+4l0l1	en_avril_1998	T
+4l0l2	réalisée	N
+4l0l3	déterminer_l__extension_de_la_pollution	N
+4l1l0	ATE	I
+
+#La seconde étude était accompagnée d'une proposition technique et financière  pour le traitement des terres et de la nappe.
+
+5l0l0	La_seconde_étude	O
+5l0l1	était_accompagnée_d_	R
+5l0l2	une_proposition_technique	O
+5l0l3	pour_le_traitement_des_terres	N
+5l0l4	de_la_nappe	O
+
+#Il convient de noter que ces deux études portaient uniquement sur la zone d'exploitation et de stockage des carburants.
+
+6l0l0	ces_deux_études	N
+6l0l1	portaient_uniquement_sur	R
+6l0l2	la_zone_d__exploitation	O
+6l0l3	stockage_des_carburants	O
+6l1l0	carburants	U
+
+#Ces études ont mis en évidence :
+
+
+#- une pollution des sols par des hydrocarbures (avec des concentrations supérieures à 5000 mg/kg de matière sèche (MS) sur deux sondages et des concentrations comprises entres 100 et 5000 mg/kg MS sur 10 sondages).
+
+8l0l0	une_pollution_des_sols	N
+8l0l1	des_hydrocarbures	O
+8l1l0	hydrocarbures	S
+
+#L'extension verticale des hydrocarbures adsorbés est limitée par une couche d'argile compacte située à une profondeur entre 0.5 et 3 mètres.
+
+9l0l0	limitée	N
+9l1l0	hydrocarbures	S
+
+#- une pollution des eaux souterraines : présence d'une phase libre d'hydrocarbures au niveau de deux piézomètres (jusque 80cm) et d'hydrocarbures dissous (0.15 mg/l).
+
+10l1l0	hydrocarbures	S
+10l1l1	hydrocarbures	S
+
+#Le bureau d'études ATE a recommandé les mesures de gestion suivantes : excavation des terres et traitement sur site (biodégradation en alvéole étanche) ; écrémage de la phase libre d'hydrocarbures au niveau de la nappe.
+
+11l0l0	Le_bureau_d__études_ATE	O
+11l0l1	a_recommandé	N
+11l0l2	excavation_des_terres	N
+11l0l3	traitement_sur_site	N
+11l0l4	écrémage	N
+11l0l5	d__hydrocarbures	O
+11l1l0	ATE	I
+11l1l1	hydrocarbures	S
+
+#Le traitement des sols doit réduire les teneurs en hydrocarbures totaux à la valeur maximale de 800 mg/kg.
+
+12l0l0	Le_traitement_des_sols	N
+12l1l0	hydrocarbures_totaux	S
+
+#Par courrier du 25 août 1998, l'inspection des installations classées a demandé à l'exploitant :
+
+13l0l0	25_août_1998__	T
+13l0l1	l__inspection_des_installations_classées	O
+13l0l2	l__exploitant	O
+
+#- un diagnostic environnemental sur l'ensemble de l'emprise du site
+
+14l0l0	un_diagnostic_environnemental	N
+
+#- des compléments sur les travaux et le rapport de fin de chantier
+
+15l0l0	les_travaux	O
+15l0l1	le_rapport	O
+15l0l2	fin_de_chantier	N
+
+#- la surveillance des eaux souterraines.
+
+16l0l0	surveillance_des_eaux_souterraines	A
+
+#L'aménageur a été informé des contraintes de pollutions subsistant sur le site.
+
+17l0l0	L__aménageur	O
+17l0l1	a_été_informé	N
+17l0l2	des_contraintes_de_pollutions	O
+
+#Sur la base d'une étude réalisée en application de la politique relative aux sites et sols pollués, l'aménageur s'est engagé à :
+
+18l0l0	Sur_la_base_d_	R
+18l0l1	une_étude_réalisée	N
+18l0l2	en_application_de	R
+18l0l3	la_politique_relative_aux_sites_et_sols_pollués	O
+18l0l4	aménageur	N
+18l0l5	s__est_engagé	N
+
+#- isoler les futurs usagers des sols ;
+
+19l0l0	les_futurs_usagers_des_sols	O
+
+#- ne pas utiliser les eaux souterraines ;
+
+
+#- interposer une ventilation naturelle entre les futurs usagers et les sols.
+

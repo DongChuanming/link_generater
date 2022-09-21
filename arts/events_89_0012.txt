@@ -1,0 +1,582 @@
+
+#89.0012
+#Le terrain, situé dans les faubourgs Ouest de la ville, d’une superficie de 12.897 m2, a accueilli de 1855 à 1961,une usine fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	Le_terrain	O
+0l0l1	situé_dans_les_faubourgs_Ouest_de_la_ville	L
+0l0l2	a_accueilli	N
+0l0l3	de_1855_à_1961_une	T
+0l0l4	usine	O
+0l0l5	fabriquant_du_gaz	A
+0l0l6	à_partir_de	R
+0l0l7	la_distillation_de_la_houille	A
+
+#Après l'arrêt de la production, les installations ont été démantelées.
+
+1l0l0	Après_l__arrêt_de	N
+1l0l1	la_production	O
+1l0l2	les_installations	O
+1l0l3	ont_été_démantelées	N
+
+#En 1961, le site est réaménagé en agence d’exploitation avec l’arrivée du gaz naturel.
+
+2l0l0	En_1961	T
+2l0l1	le_site	O
+2l0l2	est_réaménagé	N
+2l0l3	en_agence	R
+2l0l4	d__exploitation	O
+2l0l5	l__arrivée	N
+2l0l6	gaz_naturel	O
+
+#Actuellement, il accueille toujours une agence EDF GDF Services qui a été réaménagée en 1994 et 1995 (bâtiments administratifs et techniques, locaux d’activité, poste de détente de gaz).
+
+3l0l0	une_agence_EDF	O
+3l0l1	a_été_réaménagée	N
+3l0l2	en_1994_et_1995	T
+3l0l3	bâtiments_administratifs	O
+3l1l0	une_agence_EDF_GDF_Services	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d’anciennes usines à gaz qu’il gère répartis sur l’ensemble du territoire.
+
+4l0l0	Gaz_de_France	O
+4l0l1	a_hiérarchisé	N
+4l0l2	ses_actions	O
+4l0l3	467_sites	O
+4l1l0	Gaz_de_France	I
+
+#La méthodologie a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l’environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site...).
+
+5l0l0	hiérarchiser	N
+5l0l1	les_sites	O
+5l0l2	en_fonction_de	R
+5l0l3	leur_sensibilité	O
+5l0l4	vis_à_vis_de	R
+5l0l5	l__environnement	O
+
+#L’application de cette méthode a abouti à l’établissement de cinq classes de priorité pour lesquelles les engagements de Gaz de France ont fait l’objet d’un protocole d’accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d’usines à gaz entre le Ministère de l’Environnement et Gaz de France signé le 25 avril 1996.
+
+6l0l0	L__application	N
+6l0l1	cette_méthode	O
+6l0l2	a_abouti_à	R
+6l0l3	l__établissement	N
+6l0l4	cinq_classes_de_priorité	O
+6l0l5	les_engagements	O
+6l0l6	Gaz_de_France	O
+6l0l7	ont_fait_l__objet_d_	R
+6l0l8	un_protocole_d__accord	O
+6l0l9	relatif_à	R
+6l0l10	la_maîtrise	O
+6l0l11	suivi	O
+6l0l12	la_réhabilitation	N
+6l0l13	anciens_terrains_d__usines_à_gaz	O
+6l0l14	entre	R
+6l0l15	le_Ministère_de_l__Environnement	O
+6l0l16	Gaz_de_France	O
+6l0l17	signé	N
+6l0l18	le_25_avril_1996	T
+6l1l0	Gaz_de_France	I
+6l1l1	le_Ministère_de_l__Environnement	I
+6l1l2	Gaz_de_France	I
+
+#Le protocole du 25 avril 1996 a pris fin le 25 avril 2006.
+
+7l0l0	Le_protocole_du_25	O
+7l0l1	avril_1996	T
+7l0l2	a_pris_fin	N
+7l0l3	le_25_avril_2006__	T
+
+#Par circulaire en date du 6 août 2007, le ministère de l’environnement précise que, dorénavant, Gaz de France assurera seule en sa qualité de propriétaire foncier la gestion environnementale de ses terrains d’anciennes usines à gaz.
+
+8l0l0	en_date_du_6_août_2007__	T
+8l0l1	l__environnement	O
+8l0l2	dorénavant	N
+8l0l3	__Gaz_de_France	O
+8l0l4	gestion_environnementale	O
+8l0l5	ses_terrains	O
+8l1l0	__Gaz_de_France	I
+
+#Le site de Paron est en classe 3 du protocole.
+
+9l0l0	Le_site_de_Paron	O
+
+#De ce fait, c’est un site dont la sensibilité vis à vis de l’homme, des eaux souterraines et superficielles est faible.
+
+
+#Conformément aux engagements du protocole et en raison d’un projet de réaménagement interne pour les besoins de l’entreprise (construction de la nouvelle agence en 1994-1995), ce site a fait l’objet en mars 1994 d’un diagnostic approfondi.
+
+11l0l0	Conformément_aux	R
+11l0l1	engagements	O
+11l0l2	en_raison_d_	R
+11l0l3	un_projet_de_réaménagement	N
+11l0l4	l__entreprise	O
+11l0l5	construction_de	N
+11l0l6	la_nouvelle_agence	O
+11l0l7	en_1994___1995	T
+11l0l8	ce_site	O
+11l0l9	a_fait_l__objet	R
+11l0l10	en_mars_1994	T
+11l0l11	un_diagnostic_approfondi	N
+
+#L’ensemble de l’étude a consisté à effectuer des recherches historiques et documentaires, à rechercher des ouvrages enterrés, à évaluer l’impact du site sur les ressources locales en eaux souterraines et superficielles, à caractériser le sol superficiel pour évaluer les risques de contact direct et ceux liés à d’éventuelles émanations gazeuses, et à caractériser le sol en profondeur.
+
+
+#Ce diagnostic réalisé par un bureau d’études à la demande de Gaz de France a mis en évidence la présence sur le site de deux stockages souterrains contenant des sous-produits gaziers.
+
+13l0l0	Ce_diagnostic	N
+13l0l1	réalisé_par	N
+13l0l2	un_bureau_d__études	O
+13l0l3	à_la_demande_de	R
+13l0l4	Gaz_de_France	O
+13l0l5	a_mis_en_évidence	R
+13l0l6	la_présence	O
+13l0l7	deux_stockages_souterrains	O
+13l1l0	Gaz_de_France	I
+13l1l1	sous_produits	S
+
+#Gaz de France a entrepris la neutralisation de ces ouvrages en mai et juin 1994 (élimination de 436 tonnes de matériaux souillés).
+
+14l0l0	Gaz_de_France	O
+14l0l1	a_entrepris_la_neutralisation	N
+14l0l2	ces_ouvrages	O
+14l0l3	en_mai_et_juin_1994	T
+14l0l4	élimination	N
+14l0l5	436_tonnes_de_matériaux_souillés	O
+14l1l0	Gaz_de_France	I
+
+#Les analyses effectuées sur les eaux souterraines (surveillance effective depuis 2001) ont montré la présence de composés issus de la manufacture du gaz de houille.
+
+15l0l0	Les_analyses_effectuées	N
+15l0l1	les_eaux	O
+15l0l2	depuis_2001	T
+15l0l3	la_manufacture_du_gaz_de_houille	A
+15l1l0	composés	S
+
+#Les captages AEP localisés en amont hydraulique du site ne peuvent être impactés par la présence de ces substances.
+
+16l0l0	Les_captages_AEP	O
+16l0l1	localisés_en_amont_hydraulique_du_site	L
+16l0l2	ces_substances	O
+
+#L'utilisation de ces captages ne présente donc pas de risques pour la santé humaine.
+
+17l0l0	ces_captages	O
+
+#Des investigations visant à cerner les impacts générés par la présence de ces substances ont été demandées à GDF par l'inspection des installations classées.
+
+18l0l0	Des_investigations	N
+18l0l1	visant_à	R
+18l0l2	cerner_les_impacts	O
+18l0l3	générés	N
+18l0l4	ces_substances	O
+18l0l5	ont_été_demandées	N
+18l0l6	GDF	O
+18l0l7	l__inspection_des_installations_classées	O
+18l1l0	ces_substances	U
+18l1l1	GDF	I
+
+#Par un appel téléphonique du 28 août 2006, la DRIRE a informé Gaz de France d’une suspicion de pollution par des hydrocarbures dans les eaux de puits privés situés rue Fijalkowski à Sens et a demandé à Gaz de France d’entreprendre des recherches concernant le site de l’ancienne usine à gaz située à Paron.
+
+19l0l0	un_appel_téléphonique	N
+19l0l1	du_28_août_2006__	T
+19l0l2	la_DRIRE	O
+19l0l3	a_informé	N
+19l0l4	Gaz_de_France	O
+19l0l5	une_suspicion_de_pollution	O
+19l0l6	les_eaux_de_puits_privés	O
+19l0l7	situés_rue_Fijalkowski_à_Sens	L
+19l0l8	Gaz_de_France	O
+19l0l9	le_site	O
+19l0l10	l__ancienne_usine_à_gaz	O
+19l0l11	située_à_Paron	L
+19l1l0	la_DRIRE	I
+19l1l1	Gaz_de_France	I
+19l1l2	hydrocarbures	S
+19l1l3	Gaz_de_France	I
+
+#Le 29 août 2006, Gaz de France a réalisé une campagne de mesures sur les trois piézomètres implantés au droit du site.
+
+20l0l0	Le_29_août_2006__	T
+20l0l1	Gaz_de_France	O
+20l0l2	a_réalisé	N
+20l0l3	une_campagne_de_mesures	N
+20l0l4	trois_piézomètres	O
+20l0l5	au_droit_du_site	L
+20l1l0	Gaz_de_France	I
+
+#Les résultats de cette campagne ont été communiqués à la DRIRE le 29 septembre 2006.
+
+21l0l0	cette_campagne	N
+21l0l1	ont_été_communiqués	N
+21l0l2	la_DRIRE	O
+21l0l3	le_29_septembre_2006__	T
+21l1l0	la_DRIRE	I
+
+#Ils ont notamment révélé la présence de benzène et d’hydrocarbures à des teneurs supérieures aux normes de potabilité.
+
+22l1l0	benzène	S
+22l1l1	d__hydrocarbures	S
+
+#La présence de naphtalène en quantité importante a également été détectée.
+
+23l0l0	détectée	N
+23l1l0	naphtalène	S
+
+#Cette situation a conduit le Maire de la ville de Sens à prendre un arrêté en date du 28 septembre 2006 interdisant l’usage de l’eau des puits privés des riverains situés à proximité des terrains de l’ancienne usine à gaz.
+
+24l0l0	le_Maire	O
+24l0l1	ville_de_Sens	L
+24l0l2	prendre_un_arrêté	N
+24l0l3	en_date_du_28_septembre_2006	T
+24l0l4	interdisant	N
+24l0l5	l__usage_de_l__eau_des_puits_privés	A
+24l0l6	des_riverains	O
+24l0l7	situés_à_proximité_des_terrains	O
+24l0l8	l__ancienne_usine_à_gaz	O
+
+#Sur proposition de l’inspection des installations classées, le Préfet de l’Yonne, par courrier en date du 20 octobre 2006, a pris acte du programme d’investigations lancé par Gaz de France visant à mieux appréhender la situation hydrogéologique et à déterminer l’origine de la pollution.
+
+25l0l0	l__inspection_des_installations_classées	O
+25l0l1	le_Préfet_de_l__Yonne	O
+25l0l2	en_date_du_20_octobre_2006__	T
+25l0l3	a_pris_acte	N
+25l0l4	du_programme_d__investigations_lancé	N
+25l0l5	Gaz_de_France	O
+25l0l6	visant	R
+25l0l7	situation_hydrogéologique	N
+25l0l8	la_pollution	N
+25l1l0	le_Préfet	I
+25l1l1	Gaz_de_France	I
+
+#Ce programme comprenait :
+
+
+#- la mise en place de trois nouveaux piézomètres (à l’extérieur du site),
+
+27l0l0	la_mise_en_place	N
+27l0l1	de_trois_nouveaux_piézomètres	O
+27l0l2	à_l__extérieur_du_site	L
+
+#- la réalisation, en octobre 2006, d’une nouvelle campagne de prélèvements simultanés sur les six piézomètres et sur des puits privés,
+
+28l0l0	la_réalisation	N
+28l0l1	en_octobre_2006__	T
+28l0l2	d_	R
+28l0l3	une_nouvelle_campagne_de_prélèvements	N
+
+#- la réalisation d’une étude hydrogéologique intégrant l’ensemble des données,
+
+29l0l0	la_réalisation_d__une_étude_hydrogéologique	N
+
+#- la réalisation de sondages au droit du site pour identifier une éventuelle source résiduelle de pollution dans les sols.
+
+30l0l0	la_réalisation_de_sondages	N
+30l0l1	au_droit_du_site	L
+30l0l2	identifier_une_éventuelle_source	O
+
+#Les résultats de ces investigations ont été transmis à la DRIRE le 21 février 2007.
+
+31l0l0	Les_résultats	O
+31l0l1	ces_investigations_ont_été_transmis	N
+31l0l2	la_DRIRE	O
+31l0l3	le_21_février_2007__	T
+31l1l0	la_DRIRE	I
+
+#Les analyses de sols réalisées sur le site de l'ancienne usine à gaz ont révélé un pollution incompatible avec l'usage actuel du site.
+
+32l0l0	Les_analyses_de_sols_réalisées	N
+32l0l1	sur	L
+32l0l2	le_site	O
+32l0l3	l__ancienne_usine_à_gaz	O
+32l0l4	un_pollution	O
+
+#GDF s’est engagé à excaver les terres polluées.
+
+33l0l0	GDF	O
+33l0l1	s__est_engagé_à_excaver	N
+33l0l2	les_terres_polluées	O
+33l1l0	GDF	I
+
+#Les travaux correspondants ont été lancés en octobre 2007 et sont, à ce jour, achevés.
+
+34l0l0	Les_travaux_correspondants	O
+34l0l1	ont_été_lancés	N
+34l0l2	en_octobre_2007	T
+34l0l3	à_ce_jour	T
+
+#En ce qui concerne les analyses réalisées sur les eaux souterraines, tout porte à croire que GDF est à l'origine de tout ou partie de la pollution de la nappe.
+
+35l0l0	eaux_souterraines	O
+35l0l1	tout_ou_partie_de_la_pollution_de_la_nappe	O
+35l1l0	GDF	I
+
+#Toutefois, Gaz de France a considéré qu’il y avait lieu de procéder à une nouvelle campagne de prélèvements et à un complément d’études afin de déterminer avec exactitude si l’origine de la pollution provient de l’exploitation de l’ancienne usine à gaz.
+
+36l0l0	une_nouvelle_campagne_de_prélèvements	N
+36l0l1	un_complément_d__études	N
+36l0l2	l__origine	O
+36l0l3	la_pollution	O
+36l0l4	provient_de	R
+36l0l5	l__exploitation	N
+36l0l6	l__ancienne_usine_à_gaz	O
+36l1l0	Gaz_de_France	I
+
+#L’ensemble des résultats devaient être disponibles pour fin septembre 2007.
+
+37l0l0	devaient	T
+37l0l1	être_disponibles	N
+37l0l2	pour_fin_septembre_2007__	T
+
+#Ils ont été transmis à la DRIRE par courrier en date du 21 mars 2008.
+
+38l0l0	ont_été_transmis	N
+38l0l1	la_DRIRE	O
+38l0l2	en_date_du_21_mars_2008__	T
+38l1l0	la_DRIRE	I
+
+#Sur proposition de l'inspection des installations classées, le Préfet de l'Yonne, par courrier en date du 9 juin 2008, a indiqué à GDF que :
+
+39l0l0	l__inspection_des_installations_classées	O
+39l0l1	le_Préfet_de_l__Yonne	O
+39l0l2	en_date_du_9_juin_2008__	T
+39l0l3	a_indiqué	N
+39l0l4	GDF	O
+39l1l0	le_Préfet	I
+39l1l1	GDF	I
+
+#- l'analyse des résultats transmis en mars 2008 ne permet pas de démontrer que l'exploitation de l'ancienne usine à gaz n'est pas à l'origine de tout ou partie de la pollution de la nappe ;
+
+40l0l0	en_mars_2008	T
+40l0l1	l__exploitation	N
+40l0l2	l__ancienne_usine_à_gaz	O
+40l0l3	n__est_pas_à	R
+40l0l4	l__origine_de	R
+40l0l5	tout_ou_partie_de_la_pollution_de_la_nappe	O
+
+#- il lui appartient, conformément aux engagements que GDF a pris lors de la sortie du protocole signée le 2 avril 2007, de mettre en œuvre, en sa qualité de propriétaire foncier des terrains, les moyens appropriés afin de déterminer l’étendue de la pollution de la nappe (implantation de nouveaux piézomètres, campagnes de mesures rapprochées, modélisation mathématique,…);
+
+41l0l0	GDF	O
+41l0l1	a_pris	N
+41l0l2	lors_de	R
+41l0l3	la_sortie	N
+41l0l4	le_2_avril_2007__	T
+41l0l5	sa_qualité_de_propriétaire_foncier_des_terrains	O
+41l0l6	implantation_de_nouveaux_piézomètres	N
+41l0l7	modélisation_mathématique	O
+41l1l0	GDF	I
+
+#- il lui appartient également de définir et d’engager les actions nécessaires visant à maîtriser l’impact de la pollution au niveau de la nappe.
+
+42l0l0	d__engager	N
+42l0l1	les_actions	O
+42l0l2	maîtriser_l__impact	N
+
+#Les mesures de gestion qu’il incombe à GDF de mettre en œuvre devront notamment permettre de rétablir la compatibilité entre l’état de la nappe et l’usage qui en est fait.
+
+43l0l0	Les_mesures_de_gestion	O
+43l1l0	GDF	I
+
+#Dans l'attente, le Maire de la ville de Sens a été informé que son arrêté interdisant l’usage de l’eau des puits privés des riverains situés à proximité des terrains de l’ancienne usine à gaz devait être maintenu.
+
+44l0l0	le_Maire	O
+44l0l1	la_ville_de_Sens	O
+44l0l2	a_été_informé	N
+44l0l3	son_arrêté	N
+44l0l4	interdisant	N
+44l0l5	l__usage_de_l__eau_des_puits_privés	A
+44l0l6	des_riverains	O
+44l0l7	situés_à_proximité_des_terrains	O
+44l0l8	l__ancienne_usine_à_gaz	O
+44l0l9	devait	R
+
+#Une nouvelle campagne d'analyses des eaux souterraines devait être menée fin 2008- début 2009.
+
+45l0l0	Une_nouvelle_campagne_d__analyses	N
+45l0l1	eaux_souterraines	O
+45l0l2	devait	T
+45l0l3	être_menée	N
+45l0l4	fin_2008__début_2009__	T
+
+#Des retards ont été pris dans l'installation de piézomètres supplémentaires liés aux difficultés rencontrées par GDF SUEZ pour obtenir certaines des autorisations d'implantation des piézomètres.
+
+46l0l0	Des_retards	O
+46l0l1	ont_été_pris	N
+46l0l2	l__installation_de_piézomètres	O
+46l0l3	certaines_des_autorisations	O
+46l1l0	GDF_SUEZ	I
+
+#De nouveaux prélèvements ont finalement été réalisés en juillet 2009.
+
+47l0l0	De_nouveaux_prélèvements_ont_finalement_été_réalisés	N
+47l0l1	en_juillet_2009__	T
+
+#Les résultats et conclusions ont été transmis par GDF SUEZ à la DREAL (service de l'inspection des installations classées) le 8 avril 2010.
+
+48l0l0	ont_été_transmis	N
+48l0l1	GDF_SUEZ	O
+48l0l2	la_DREAL	O
+48l0l3	l__inspection_des_installations_classées	O
+48l0l4	le_8_avril_2010__	T
+48l1l0	GDF_SUEZ	I
+48l1l1	la_DREAL	I
+
+#De l’ensemble des analyses réalisées à l’été 2009, GDF SUEZ conclut à la présence d’hydrocarbures, de HAP (essentiellement naphtalène), de BTEX (essentiellement benzène), de cyanures et d’ammonium.
+
+49l0l0	à_l__été_2009__	T
+49l0l1	GDF_SUEZ	O
+49l0l2	conclut	R
+49l1l0	GDF_SUEZ	I
+49l1l1	hydrocarbures	S
+49l1l2	HAP	S
+49l1l3	naphtalène	S
+49l1l4	BTEX	S
+49l1l5	benzène	S
+49l1l6	cyanures	S
+49l1l7	ammonium	S
+
+#L’élément nouveau et majeur apporté par ces dernières analyses est que GDF SUEZ considère que, parmi les substances en présence, seuls les cyanures et l’ammonium sont liés à l’activité de son ancienne usine à gaz.
+
+50l0l0	ammonium	O
+50l0l1	son_ancienne_usine_à_gaz	O
+50l1l0	GDF_SUEZ	I
+50l1l1	substances	S
+50l1l2	les_cyanures	S
+50l1l3	ammonium	S
+
+#GDF SUEZ évoque comme origine possible de la pollution une ancienne décharge et/ou une ancienne station-service située à proximité.
+
+51l0l0	GDF_SUEZ	O
+51l0l1	la_pollution	O
+51l0l2	une_ancienne_décharge	O
+51l0l3	une_ancienne	O
+51l0l4	située_à_proximité	L
+51l1l0	GDF_SUEZ	I
+
+#En outre, au vu de l’impact des 2 substances concernées qu’il estime limité, GDF SUEZ indique qu’il souhaiterait ne plus intervenir sur ce dossier.
+
+52l0l0	GDF_SUEZ	O
+52l0l1	il_souhaiterait	O
+52l0l2	ne_plus_intervenir_sur_ce_dossier	N
+52l1l0	substances_concernées	U
+52l1l1	GDF_SUEZ	I
+
+#Au vu de la technicité de l’étude et des conclusions tirées, la DREAL a demandé, au cours de l’été 2010, l’avis technique du BRGM afin de vérifier les conclusions de GDF SUEZ.
+
+53l0l0	la_DREAL	O
+53l0l1	a_demandé	N
+53l0l2	au_cours_de_l_	N
+53l0l3	été_2010__	T
+53l0l4	l__avis_technique_du_BRGM	O
+53l0l5	GDF_SUEZ	O
+53l1l0	la_DREAL	I
+53l1l1	BRGM	I
+53l1l2	GDF_SUEZ	I
+
+#De l’analyse du BRGM transmise début novembre 2010, il ressort que :
+
+54l0l0	BRGM	O
+54l0l1	début_novembre_2010__	T
+54l1l0	BRGM	I
+
+#- les polluants organiques analysés (les BTEX et le naphtalène) peuvent provenir d’une source dérivée du charbon (goudron), source typiquement trouvée sur une ancienne usine à gaz ;
+
+55l0l0	charbon	A
+55l1l0	les_polluants_organiques	U
+55l1l1	les_BTEX	S
+55l1l2	naphtalène	S
+55l1l3	charbon	U
+55l1l4	goudron	U
+
+#- au vu des éléments présentés par GDF SUEZ, il semblerait donc possible que l’origine de la pollution relevée dans des captages d’eau privés soit liée à l’exploitation de l’ancienne usine à gaz, même si la source de pollution dans les sols a été localisée hors de la limite actuelle du site (présence d’une zone goudronneuse à l’emplacement de l’ancienne décharge).
+
+56l0l0	GDF_SUEZ	O
+56l0l1	liée_à	R
+56l0l2	l__exploitation	N
+56l0l3	l__ancienne_usine_à_gaz	O
+56l0l4	la_source_de_pollution	O
+56l0l5	a_été_localisée	N
+56l0l6	hors_de_la_limite_actuelle_du_site	L
+56l0l7	une_zone_goudronneuse	O
+56l1l0	GDF_SUEZ	I
+
+#Concernant ce dernier point, le BRGM précise que les procédures d’évacuation des résidus issus de l’exploitation des anciennes usines à gaz, en particulier pendant les premières années d’exploitation, ne sont pas connues.
+
+57l0l0	le_BRGM	O
+57l0l1	l__exploitation	N
+57l0l2	anciennes_usines_à_gaz	O
+57l0l3	pendant_les_premières_années_d_	T
+57l0l4	exploitation	N
+57l1l0	le_BRGM	I
+
+#Le BRGM ajoute que les résidus goudronneux étaient fréquemment éliminés de manières inappropriées à proximité de tels sites.
+
+58l0l0	Le_BRGM	O
+58l0l1	étaient_fréquemment_éliminés	N
+58l0l2	à_proximité_de_tels_sites	L
+58l1l0	Le_BRGM	I
+58l1l1	résidus_goudronneux	U
+
+#Pour obtenir des résultats définitifs permettant de définir les sources de pollution, le BRGM recommande la réalisation d’investigations supplémentaires en analysant notamment  :
+
+59l0l0	définir_les_sources_de_pollution	O
+59l0l1	le_BRGM	O
+59l0l2	recommande_la_réalisation_d__investigations	N
+59l1l0	le_BRGM	I
+
+#- un échantillon goudronneux retrouvé sur le site de l’ancienne usine à gaz ;
+
+60l0l0	un_échantillon_goudronneux	O
+
+#- le goudron localisé à l’emplacement de l’ancienne décharge.
+
+61l0l0	le_goudron	O
+61l0l1	localisé_à_l__emplacement_de	L
+61l0l2	l_	O
+
+#Les analyses réalisées, incluant une méthode d’analyse par fractionnement isotopique, devront porter sur chacun des 16 HAP et sur les BTEX.
+
+62l1l0	HAP	S
+62l1l1	les_BTEX	S
+
+#Sur proposition de l'inspection des installations classées et par courrier en date du 4 avril 2011, le Préfet de l'Yonne a demandé à GDF SUEZ d'engager, dans les plus brefs délais, cette campagne d'analyses complémentaires afin de déterminer avec exactitude si l'exploitation de l'ancienne usine à gaz est à l'origine de la pollution.
+
+63l0l0	l__inspection_des_installations_classées	O
+63l0l1	en_date_du_4_avril_2011__	T
+63l0l2	le_Préfet_de_l__Yonne	O
+63l0l3	GDF_SUEZ	O
+63l0l4	d__engager	N
+63l0l5	l__exploitation	N
+63l0l6	l__ancienne_usine_à_gaz	O
+63l0l7	est_à_l__origine	N
+63l0l8	de_la_pollution	N
+63l1l0	le_Préfet	I
+63l1l1	GDF_SUEZ	I
+
+#A ce jour, GDF SUEZ n'a pas pu démontrer que l'exploitation de l'ancienne usine à gaz n'était pas à l'origine de tout ou partie de cette pollution.
+
+64l0l0	A_ce_jour	T
+64l0l1	GDF_SUEZ	O
+64l0l2	l__exploitation	N
+64l0l3	l__ancienne_usine_à_gaz	O
+64l0l4	n_	R
+64l0l5	était_pas_à_l__origine	N
+64l0l6	cette_pollution	N
+64l1l0	GDF_SUEZ	I
+
+#La dernière étude réalisée par GDF SUEZ (transmise à l'inspection des installations classées par courrier en date du 11 juillet 2014), conclut, à partir des concentrations moyennes mesurées depuis quatre ans au droit du puits privé le plus impacté, que l'utilisation des eaux souterraines pour l'irrigation de jardins potagers par les riverains ne présente pas de risque sanitaire inacceptable pour cet usage.
+
+65l0l0	La_dernière_étude_réalisée	N
+65l0l1	GDF_SUEZ	O
+65l0l2	l__inspection_des_installations_classées	O
+65l0l3	11_juillet_2014__	T
+65l0l4	depuis_quatre_ans	T
+65l0l5	au_droit_du_puits_privé_le_plus_impacté	L
+65l0l6	l__utilisation_des_eaux_souterraines	A
+65l0l7	pour	R
+65l0l8	l__irrigation_de_jardins_potagers	A
+65l0l9	les_riverains	O
+65l0l10	cet_usage	O
+65l1l0	GDF_SUEZ	I
+
+#Pour autant et dans l'immédiat, la surveillance des eaux souterraines est maintenue.
+
+66l0l0	la_surveillance_des_eaux_souterraines	A

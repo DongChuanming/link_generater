@@ -1,0 +1,91 @@
+
+#60.0100
+#La fonderie est installée à Noyon depuis 1899.
+
+0l0l0	La_fonderie	O
+0l0l1	est_installée	N
+0l0l2	à_Noyon	L
+0l0l3	depuis_1899	T
+
+#Le site occupe 6 ha à proximité de la gare de Noyon.
+
+1l0l0	Le_site	O
+1l0l1	6_ha	O
+1l0l2	à_proximité_de_la_gare_de_Noyon	L
+
+#L'activité du site était la fonderie de bronze pour la robinetterie avant la première guerre mondiale puis la fonderie de fonte à partir des années 1920 (production de baignoires en fonte émaillée de la marque Jacob Delafon).
+
+2l0l0	L__activité_du_site	A
+2l0l1	la_fonderie_de_bronze	A
+2l0l2	la_robinetterie	O
+2l0l3	avant_la_première_guerre_mondiale	T
+2l0l4	fonderie_de_fonte	O
+2l0l5	à_partir_des_années_1920	T
+2l0l6	production_de_baignoires_en_fonte_émaillée	A
+
+#L'activité du site a cessé en 2006.
+
+3l0l0	L__activité_du_site	O
+3l0l1	a_cessé	N
+3l0l2	en_2006__	T
+
+#Plusieurs études et diagnostics ont été réalisés sur le site, avant même la cessation d'activité.
+
+4l0l0	Plusieurs_études_et_diagnostics	N
+4l0l1	ont_été_réalisés	N
+4l0l2	avant_même	R
+4l0l3	la_cessation_d__activité	N
+
+#Une évaluation simplifiée des risques (ESR), réalisée en 2003, avait conduit l'exploitant à procéder à des travaux de dépollution de l'aire de lavage.
+
+5l0l0	Une_évaluation_simplifiée_des_risques	N
+5l0l1	réalisée	N
+5l0l2	en_2003__	T
+5l0l3	avait_conduit	N
+5l0l4	l__exploitant	O
+5l0l5	à_procéder_à_des_travaux_de_dépollution	N
+5l0l6	l_	O
+5l0l7	aire_de_lavage	N
+
+#Par la suite l'ESR a été actualisée en novembre 2006 et, suite à la démolition de la plupart des bâtiments du site, l'exploitant a fait réaliser en 2009 une analyse des risques résiduels (ARR).
+
+6l0l0	a_été_actualisée	N
+6l0l1	en_novembre_2006	T
+6l0l2	la_démolition_de	N
+6l0l3	la_plupart_des_bâtiments_du_site	O
+6l0l4	l__exploitant	O
+6l0l5	a_fait_réaliser	N
+6l0l6	en_2009	T
+6l0l7	une_analyse_des_risques_résiduels	N
+
+#Celle-ci conclut à l'acceptabilité du risque sanitaire dans le cadre d'un nouvel usage industriel du site.
+
+7l0l0	le_cadre_d_	R
+7l0l1	un_nouvel_usage_industriel	N
+7l0l2	du_site	A
+
+#Les hypothèses de l'ARR seront reprises dans un arrêté de servitudes d'utilité publique qui est en cours d'élaboration.
+
+8l0l0	un_arrêté_de_servitudes_d__utilité_publique	O
+8l0l1	en_cours_d_	T
+8l0l2	élaboration	N
+
+#La surveillance des eaux souterraines est réalisée au moyen de 5 piézomètres en application de l'arrêté préfectoral du 23 avril 2008.
+
+9l0l0	La_surveillance_des_eaux_souterraines	A
+9l0l1	est_réalisée	N
+9l0l2	l__arrêté_préfectoral	O
+9l0l3	du_23_avril_2008__	T
+
+#La Communauté de Communes du Pays Noyonnais, propriétaire du site, a autorisé l'implantation d'une entreprise réalisant des opérations de transit et de regroupement de déchets non dangereux.
+
+10l0l0	La_Communauté	O
+10l0l1	de_Communes_du_Pays_Noyonnais	L
+10l0l2	propriétaire_du_site	O
+10l0l3	a_autorisé	N
+10l0l4	l__implantation	N
+10l0l5	d__une_entreprise	O
+10l0l6	réalisant_des_opérations_de_transit	A
+10l0l7	regroupement_de_déchets_non_dangereux	O
+10l1l0	La_Communauté_de_Communes	I
+10l1l1	déchets_non_dangereux	U

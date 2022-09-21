@@ -1,0 +1,101 @@
+
+#68.0178
+#Il s'agit d'une zone marécageuse comblée par deux dépôts d'ordures ménagères.
+
+0l0l0	zone_marécageuse_comblée	O
+0l1l0	dépôts	D
+
+#Ils sont contigus, l'un étant exploité par la commune de Leymen, l'autre par un opérateur privé.
+
+1l0l0	contigus	O
+1l0l1	l__un	O
+1l0l2	étant_exploité	N
+1l0l3	par	R
+1l0l4	la_commune	O
+1l0l5	de	R
+1l0l6	Leymen	O
+1l0l7	l__autre	O
+1l0l8	un_opérateur_privé	O
+
+#Les déchets recensés: déblais végétaux, déchets de démolition, sciure, encombrants, carcasse de voitures et ferrailles.
+
+2l0l0	ferrailles	O
+
+#L'activité de dépôt d'ordures a cessé depuis 1988.
+
+3l0l0	L__activité_de_dépôt_d__ordures	O
+3l0l1	a_cessé	N
+3l0l2	depuis_1988__	T
+
+#Un projet d'aménagement en sentier botanique est envisagé.
+
+4l0l0	Un_projet	O
+
+#Rapport géologique du 12/08/1966: avis favorable à l'exploitation d'une décharge.
+
+5l0l0	Rapport_géologique	O
+5l0l1	12_08_1966	T
+5l0l2	__avis_favorable	O
+5l0l3	l__exploitation_d_	N
+5l0l4	une_décharge	O
+
+#En 1971, trois puits de captage sont réalisés au lieu-dit Schoenenbrunn, soit à 600 mètres de la décharge.
+
+6l0l0	En_1971	T
+6l0l1	trois_puits_de_captage	O
+6l0l2	sont_réalisés	N
+6l0l3	au_lieu___dit_Schoenenbrunn	L
+6l0l4	soit_à_600_mètres_de_la_décharge	L
+
+#Rapport géologique du 24/08/1972 définit les périmètres de protection réglementaires des trois captages.
+
+7l0l0	Rapport_géologique	O
+7l0l1	24_08_1972	T
+7l0l2	définit	N
+7l0l3	les_périmètres	O
+7l0l4	trois_captages	O
+
+#Le 01/08/1975, un nouveau rapport géologique donne, cette fois, un avis défavorable pour l'exploitation de la décharge.
+
+8l0l0	Le_01_08_1975	T
+8l0l1	un_nouveau_rapport_géologique	O
+8l0l2	un_avis_défavorable	O
+8l0l3	l__exploitation	N
+8l0l4	la_décharge	O
+
+#Un programme de résorption des décharges brutes conclut pour le site à :
+
+9l0l0	Un_programme	O
+9l0l1	de_résorption	N
+9l0l2	le_site	O
+9l1l0	décharges_brutes	D
+
+#- nuisances visuelles;
+
+
+#- pollutions des eaux souterraines et superficielles;
+
+
+#- présence d'AEP;
+
+
+#- fermeture immédiate avec suivi d'impact.
+
+13l0l0	fermeture	O
+13l0l1	d__impact	O
+
+#L'Inspection des installations classées, après visite du 15/10/1991, préconise une caractérisation des polluants notamment par une surveillance de la qualité:
+
+14l0l0	L__Inspection_des_installations_classées	O
+14l0l1	15_10_1991	T
+14l0l2	polluants	O
+14l0l3	une_surveillance_de	A
+14l1l0	polluants	U
+
+#- des eaux souterraines  avec prélèvements au droit des trois captages;
+
+
+#- des eaux superficielles dans le fossé en aval et en amont de la décharge afin d'en apprécier l'impact.
+
+16l0l0	aval_et_en_amont_de_la_décharge	L
+16l0l1	afin_d_	R

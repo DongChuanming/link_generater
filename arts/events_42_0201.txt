@@ -1,0 +1,126 @@
+
+#42.0201
+#Le site est implanté au nord de la commune de Riorges dans une zone d’activité, il est bordé :
+
+0l0l0	Le_site	O
+0l0l1	est_implanté_au_nord_de_la_commune_de_Riorges_dans_une_zone_d__activité	L
+0l0l2	bordé____	L
+
+#- au nord : de bâtiments industriels, puis la rue Clément Ader,
+
+1l0l0	puis_la_rue_Clément_Ader	L
+
+#- à l’ouest : de bâtiments industriels, puis la rue Louise Michel,
+
+2l0l0	de_bâtiments_industriels	O
+2l0l1	puis_la_rue_Louise_Michel	L
+
+#- à l’est : de bâtiments industriels, puis la rue Paul Forge,
+
+3l0l0	à_l__est	L
+3l0l1	de_bâtiments_industriels	O
+3l0l2	puis_la_rue_Paul_Forge	L
+3l1l0	Paul_Forge	I
+
+#- au sud : la rue Michel Rondet, de bâtiments industriels.
+
+4l0l0	au_sud	L
+4l0l1	__la_rue_Michel_Rondet	L
+4l0l2	de_bâtiments_industriels	O
+
+#La SARL DAMET a exercée, sans autorisation, une exploitation de traitement de véhicules hors d’usage entre 2006 et 2009.
+
+5l0l0	La_SARL_DAMET	O
+5l0l1	a_exercée	N
+5l0l2	sans_autorisation	N
+5l0l3	une_exploitation_de_traitement_de_véhicules_hors_d__usage	O
+5l0l4	entre_2006_et_2009__	T
+5l1l0	La_SARL_DAMET	I
+
+#Cette société n’a pas donné suite aux demandes de régularisation, son activité a été abandonnée et la société dissoute.
+
+6l0l0	Cette_société	O
+6l0l1	demandes_de_régularisation	O
+6l0l2	son_activité	A
+6l0l3	a_été_abandonnée	N
+6l0l4	la_société_dissoute	N
+
+#La SCI DE LA VILLETTE propriétaire du terrain, envisageait une reconversion du site en espace de jeux pour enfants et a fait réaliser par SOCOTEC INDUSTRIES une étude du site.
+
+7l0l0	La_SCI_DE_LA_VILLETTE	O
+7l0l1	du_terrain	O
+7l0l2	envisageait	R
+7l0l3	une_reconversion	N
+7l0l4	site	O
+7l0l5	en	R
+7l0l6	espace_de_jeux_pour_enfants	O
+7l0l7	a_fait_réaliser	N
+7l0l8	par_SOCOTEC_INDUSTRIES	O
+7l0l9	une_étude_du_site	N
+7l1l0	La_SCI_DE_LA_VILLETTE	I
+7l1l1	SOCOTEC_INDUSTRIES	I
+
+#L’inspection a reçu, le 2 avril 2012, le diagnostic de sol établi par SOCOTEC INDUSTRIES le 23 mars 2011 pour le compte de la SCI de la Villette.
+
+8l0l0	L__inspection	O
+8l0l1	a_reçu	N
+8l0l2	le_2_avril_2012__	T
+8l0l3	le_diagnostic_de_sol	N
+8l0l4	établi	N
+8l0l5	par_SOCOTEC_INDUSTRIES	O
+8l0l6	le_23_mars_2011	T
+8l0l7	pour_le_compte_de	R
+8l0l8	la_SCI_de	O
+8l0l9	la_Villette	L
+8l1l0	SOCOTEC_INDUSTRIES	I
+
+#Le diagnostic n'incluait pas le parking extérieur.
+
+9l0l0	le_parking_extérieur	O
+
+#Les 8 échantillons ont permis de mettre en évidence une contamination des sols aux HAP, aux PCB, aux hydrocarbures, aux CAV et aux COHV.
+
+10l0l0	une_contamination	N
+10l0l1	des_sols	O
+10l0l2	HAP	O
+10l1l0	HAP	S
+10l1l1	PCB	S
+10l1l2	hydrocarbures	S
+10l1l3	CAV	S
+10l1l4	COHV	S
+
+#Dans son rapport du 31 juillet 2013, l’inspection conclut que la SCI DE LA VILLETTE, avant d’envisager une autre reconversion du site, engage :
+
+11l0l0	31_juillet_2013__	T
+11l0l1	la_SCI_DE_LA_VILLETTE	O
+11l0l2	avant_d_	R
+11l0l3	envisager_une_autre_reconversion	N
+11l1l0	la_SCI_DE_LA_VILLETTE	I
+
+#– la réalisation d’une étude historique et de vulnérabilité pour connaître l’origine des contaminations ainsi que la sensibilité et la vulnérabilité du milieu,
+
+12l0l0	__la_réalisation_d_	R
+12l0l1	une_étude_historique	N
+12l0l2	des_contaminations	O
+
+#– la mise en place d’un réseau de surveillance des eaux souterraines (si présentes en fonction de l’étude vulnérabilité) accompagné de mesures de leur qualité,
+
+13l0l0	__la_mise_en_place_d_	N
+13l0l1	un_réseau_de	O
+13l0l2	surveillance_des_eaux_souterraines	A
+
+#– un diagnostic approfondi afin de dimensionner plus précisément la contamination des sols,
+
+14l0l0	__un_diagnostic_approfondi	N
+14l0l1	précisément_la_contamination_des_sols	O
+
+#– une analyse de la qualité des dalles bétons,
+
+15l0l0	dalles_bétons	O
+
+#– la réalisation d’un plan de gestion, si nécessaire, ou un bilan coût/avantage pour traiter les points chauds afin de réaliser ensuite une analyse des risques résiduels.
+
+16l0l0	__la_réalisation_d_	N
+16l0l1	un_plan_de_gestion	O
+16l0l2	pour_traiter	N
+16l0l3	les_points_chauds	O

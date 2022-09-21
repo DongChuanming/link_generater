@@ -1,0 +1,332 @@
+
+#40.0123
+#Usine de production d'acétylène exploitée par la société DUFFOUR et IGON sur le site de SAINT MARTIN DE SEIGNANX (40).
+
+0l0l0	Usine_de	O
+0l0l1	production_d__acétylène	A
+0l0l2	exploitée_par	R
+0l0l3	la_société_DUFFOUR	O
+0l0l4	IGON	O
+0l0l5	sur_le_site_de_SAINT_MARTIN_DE_SEIGNANX	L
+0l0l6	__40__	L
+0l1l0	acétylène	S
+0l1l1	la_société_DUFFOUR_et_IGON	I
+0l1l2	SAINT_MARTIN_DE_SEIGNANX	I
+
+#Cette exploitation est autorisée par l'arrêté du 6 mars 1978.
+
+1l0l0	Cette_exploitation	O
+1l0l1	est_autorisée	N
+1l0l2	6_mars_1978__	T
+
+#La société AGA S.
+
+2l0l0	La_société_AGA_S_	O
+2l1l0	La_société_AGA_S_	I
+
+#succède à la Société DUFFOUR et IGON.
+
+3l0l0	succède_à	R
+3l0l1	la_Société_DUFFOUR	O
+3l0l2	et_IGON	O
+3l1l0	la_Société_DUFFOUR_et_IGON	I
+
+#La cessation des activités de AGA S.
+
+4l0l0	cessation_des_activités	N
+4l0l1	AGA_S_	O
+4l1l0	AGA_S_	I
+
+#est déclarée à la préfecture en 1992.
+
+5l0l0	est_déclarée	N
+5l0l1	la_préfecture	O
+5l0l2	en_1992	T
+
+#En 2001, la Société LINDE GAS absorbe la société AGA S.
+
+6l0l0	En_2001__	T
+6l0l1	la_Société_LINDE_GAS	O
+6l0l2	absorbe	N
+6l0l3	la_société_AGA_S_	O
+6l1l0	la_Société_LINDE_GAS	I
+6l1l1	la_société_AGA_S_	I
+
+#.
+
+
+#1 - MISE EN SÉCURITÉ
+
+8l0l0	SÉCURITÉ	N
+8l1l0	SÉCURITÉ	I
+
+#L'arrêté préfectoral du 15 avril 1997 prescrit la mise en sécurité du site, la clôture et la fermeture à clé des portails.
+
+9l0l0	L__arrêté_préfectoral	O
+9l0l1	15_avril_1997	T
+9l0l2	prescrit	R
+9l0l3	la_mise_en_sécurité	N
+9l0l4	site	O
+9l0l5	la_clôture	O
+9l0l6	la	O
+9l0l7	fermeture_à_clé	N
+9l0l8	portails	N
+
+#2 - DIAGNOSTIC
+
+10l0l0	DIAGNOSTIC	N
+
+#Les activités exercées sur ce site ayant pu être à l'origine de pollution potentielle du sol et du sous-sol, une Étude Simplifiée des Risques (ESR) du site est prescrite par l'arrêté préfectoral du 15 avril 1997.
+
+11l0l0	Les_activités_exercées	N
+11l0l1	sur	R
+11l0l2	ce_site	O
+11l0l3	ayant_pu_être	R
+11l0l4	à_l__origine_de	R
+11l0l5	pollution	N
+11l0l6	une_Étude_Simplifiée_des_Risques	N
+11l0l7	site	O
+11l0l8	est_prescrite	N
+11l0l9	l__arrêté_préfectoral	O
+11l0l10	du_15_avril_1997__	T
+
+#Ce n'est qu'en octobre 2001 que la société LINDE GAS transmet à la DRIRE les résultats de l'ESR effectuée par la Société IDE Environnement.
+
+12l0l0	n__est_qu__en_octobre_2001	T
+12l0l1	la_société_LINDE_GAS	O
+12l0l2	transmet	N
+12l0l3	la_DRIRE	O
+12l0l4	la_Société_IDE_Environnement	O
+12l1l0	la_société_LINDE_GAS	I
+12l1l1	la_DRIRE	I
+12l1l2	la_Société_IDE_Environnement	I
+
+#Ces résultats montrent que la nappe alluviale de l'Adour, au droit du site, est très proche du sol, voir affleurante, même en période d'étiage et que la zone non saturée est considérée comme nulle (les tas de déchets "baignent" dans la nappe).
+
+13l0l0	l__Adour	L
+13l0l1	au_droit_du_site	L
+13l0l2	en_période_d__étiage	L
+13l1l0	les_tas_de_déchets	U
+
+#Ils mettent en évidence la toxicité vis à vis de daphnies (14 equitox/m3) dû au pH élevé des lixiviats.
+
+14l1l0	daphnies	S
+
+#Il existe un fort potentiel de ruissellement par les fossés périphériques en relation avec l'Adour, des possibilités d'interactions fortes avec des activités récréatives potentielles et une protection moyenne vis à vis des eaux superficielles et souterraines.
+
+15l0l0	relation_avec_l__Adour	L
+15l0l1	des_activités_récréatives_potentielles	A
+
+#De par son isolement, l'ESR amène à un classement 2 du site.
+
+16l1l0	l__ESR	I
+
+#3 - TRAVAUX
+
+17l0l0	TRAVAUX	O
+
+#Le rapport de l'inspecteur de installations classées du 21 mars 2002 préconise les travaux suivants:
+
+18l0l0	l__inspecteur_de_installations_classées	O
+18l0l1	21_mars_2002	T
+
+#- Démolition des bâtiments et évacuation des gravats (fait le 27 mars 2003.)
+
+19l0l0	Démolition_des_bâtiments	N
+19l0l1	évacuation_des_gravats	N
+19l0l2	fait_le_27_mars_2003____	T
+
+#- Enlèvement des déchets de calcium entreposés sur le terrain de l'ancienne usine AGA( 27000 tonnes entre 2003 et 2004)
+
+20l0l0	Enlèvement	N
+20l0l1	l__ancienne_usine_AGA	O
+20l0l2	27000_tonnes	N
+20l0l3	entre_2003	T
+20l0l4	et_2004__	T
+20l1l0	déchets_de_calcium	U
+
+#- Élimination de ces déchets par épandage.
+
+21l0l0	Élimination	N
+21l0l1	épandage	N
+
+#- Production des justificatifs de transfert et d'élimination à l'inspection des installations classées,
+
+22l0l0	Production_des_justificatifs_de_transfert	N
+22l0l1	l__inspection_des_installations_classées	O
+
+#- Remise en état des lieux tels qu'il n'y subsiste aucun des inconvénients ou des dangers visés à l'art L 511-1 du Code de l'Environnement.
+
+23l0l0	Remise_en_état_des_lieux	N
+
+#Le 17 janvier 2002, un courrier de l'exploitant signale qu'il a fait procéder, en 2001, à l'enlèvement de 752t.
+
+24l0l0	Le_17_janvier_2002__	T
+24l0l1	il	O
+24l0l2	a_fait_procéder	N
+24l0l3	en_2001__	T
+24l0l4	l__enlèvement	N
+24l0l5	752_t_	O
+
+#L'arrêté préfectoral du 27 juin 2003 autorise l'épandage des déchets de calcium sur le territoire du département des landes.
+
+25l0l0	L__arrêté_préfectoral	O
+25l0l1	27_juin_2003	T
+25l0l2	autorise_l__épandage	N
+25l0l3	du_département_des_landes	O
+
+#Au 1er octobre 2003, 12 000 t de chaux sont enlevées du site.
+
+26l0l0	Au_1er_octobre_2003__	T
+26l0l1	12_000_t_de_chaux	O
+26l0l2	sont_enlevées	N
+
+#Entre le printemps 2004 et le printemps 2006, 6 600 t de chaux ont été enlevées.
+
+27l0l0	Entre_le_printemps_2004	T
+27l0l1	et_le_printemps_2006__	T
+27l0l2	6_600_t_de_chaux	O
+27l0l3	ont_été_enlevées	N
+
+#Le 5 avril 2008, l'exploitant demande l'autorisation d'épandre chez des agriculteurs de la chaux restante.
+
+28l0l0	Le_5_avril_2008__	T
+28l0l1	l__exploitant	O
+28l0l2	demande	N
+28l0l3	l__autorisation	O
+28l0l4	d__épandre_chez	N
+28l0l5	des_agriculteurs_de_la_chaux_restante	O
+28l1l0	chaux_restante	U
+
+#L'arrêté préfectoral complémentaire du 20 mai 2008 autorise cette demande.
+
+29l0l0	L__arrêté_préfectoral_complémentaire	O
+29l0l1	20_mai_2008	T
+29l0l2	autorise	N
+29l0l3	cette_demande	O
+
+#Entre décembre 2008 et mai 2011, environ 21 tonnes de chaux ont été enlevées.
+
+30l0l0	Entre_décembre_2008_et_mai_2011__	T
+30l0l1	21_tonnes_de	O
+30l0l2	chaux_ont_été_enlevées	N
+
+#Par courrier du 19/07/2012, la mairie de St Martin de Seignanx indique à l'inspection des installations classées que l'intégralité du stock de chaux a été évacuée et que le site a été remis en état par l'exploitant.
+
+31l0l0	19_07_2012	T
+31l0l1	la_mairie	O
+31l0l2	de_St_Martin_de_Seignanx	L
+31l0l3	indique	R
+31l0l4	l__inspection_des_installations_classées	O
+31l0l5	l__intégralité_du_stock_de_chaux	O
+31l0l6	a_été_évacuée	N
+31l0l7	le_site	O
+31l0l8	a_été_remis_en_état	N
+31l0l9	par_l__exploitant	O
+31l1l0	la_mairie_de_St_Martin_de_Seignanx	I
+
+#Par courrier du 22 août 2012, l'exploitant confirme à l'inspection des installations classées que tous les déchets du site ont été évacués.
+
+32l0l0	du_22_août_2012__	T
+32l0l1	l__exploitant	O
+32l0l2	l__inspection_des_installations_classées	O
+32l0l3	tous_les_déchets_du_site	O
+32l0l4	ont_été_évacués	N
+32l1l0	les_déchets	U
+
+#4 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+33l0l0	SURVEILLANCE_DES_EAUX	A
+33l0l1	SOUTERRAINES	O
+33l1l0	EAUX_SOUTERRAINES	I
+
+#La surveillance piézométrique (3 à différents endroits du site ) réalisée lors de l'ESR montre un pH en aval de la nappe à 12,8 et de 7,4 en amont (le pH acceptable varie entre 6,5 et 8,5).
+
+34l0l0	La_surveillance_piézométrique	N
+34l0l1	réalisée_lors_de_l_	N
+34l0l2	un_pH	O
+34l0l3	en_aval_de_la_nappe	L
+34l0l4	7_4	O
+
+#Les analyses réalisées en juin 2012 sur un seul piézomètre montrent la présence d'un pH 12,3, de calcium, de DCO, de nickel et d'azote.
+
+35l0l0	Les_analyses	N
+35l0l1	réalisées	N
+35l0l2	en_juin_2012	T
+35l1l0	calcium	S
+35l1l1	DCO	S
+35l1l2	nickel	S
+35l1l3	azote	S
+
+#5 - CONTENTIEUX
+
+36l1l0	CONTENTIEUX	I
+
+#Un procès verbal est dressé le 30 mars 2000 pour le non respect de l'arrêté préfectoral du 15 avril 1999.
+
+37l0l0	Un_procès_verbal	O
+37l0l1	est_dressé	N
+37l0l2	le_30_mars_2000	T
+37l0l3	l__arrêté_préfectoral	O
+37l0l4	15_avril_1999__	T
+
+#Un arrêté préfectoral de mise en demeure est par ailleurs pris le 30 juin 2000.
+
+38l0l0	Un_arrêté_préfectoral_de_mise_en_demeure	O
+38l0l1	est_par_ailleurs_pris	N
+38l0l2	le_30_juin_2000__	T
+
+#Le non respect de l'arrêté préfectoral de mise en demeure du 30 juin 2000 conduit à un arrêté préfectoral de consignation du 16 août 2001 (tire de perception 1 242 459.49 €).
+
+39l0l0	l__arrêté_préfectoral_de_mise_en_demeure	O
+39l0l1	du_30_juin_2000	T
+39l0l2	conduit_à	R
+39l0l3	un_arrêté_préfectoral_de_consignation	O
+39l0l4	16_août_2001	T
+
+#Le 27 décembre 2001, LINDE GAS dépose 3 recours contre les arrêtés précédents auprès du tribunal administratif.
+
+40l0l0	Le_27_décembre_2001__	T
+40l0l1	LINDE_GAS	O
+
+#Un accord entre les parties est trouvé en 2002, à savoir le retrait de la consignation si le site est remis en état.
+
+41l0l0	Un_accord	O
+41l0l1	en_2002__	T
+41l0l2	le_retrait_de	N
+41l0l3	la_consignation	O
+41l0l4	le_site	O
+
+#Un contrat de transaction est signé le 28 août 2003.
+
+42l0l0	Un_contrat_de_transaction	N
+42l0l1	est_signé	N
+42l0l2	le_28_août_2003	T
+
+#Le contrat n'ayant pas été respecté (rapport de l'inspection des installations classées d'avril 2006), un projet d'arrêté préfectoral de consignation (montant de la consignation : 1 668 420 €) est proposé.
+
+43l0l0	l__inspection_des_installations_classées	O
+43l0l1	avril_2006	T
+43l0l2	un_projet	O
+43l0l3	d__arrêté_préfectoral_de_consignation	O
+
+#Le 5 mars 2008, la société LINDE GAS demande une autorisation d'épandage, accordée par l'arrêté complémentaire du 20 mai 2008.
+
+44l0l0	Le_5_mars_2008__	T
+44l0l1	la_société_LINDE_GAS	O
+44l0l2	demande_une_autorisation_d__épandage	N
+44l0l3	l__arrêté_complémentaire	O
+44l0l4	20_mai_2008__	T
+44l1l0	la_société_LINDE_GAS	I
+
+#8 - SOLDE
+
+45l1l0	SOLDE	I
+
+#Selon le courrier de l'exploitant du 22 août 2012, tous les déchets ont été évacués du site.
+
+46l0l0	l__exploitant	O
+46l0l1	du_22_août_2012__	T
+46l0l2	tous_les_déchets	O
+46l0l3	ont_été_évacués	N
+46l1l0	les_déchets	U

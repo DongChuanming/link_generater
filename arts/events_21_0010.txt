@@ -1,0 +1,148 @@
+
+#21.0010
+#Sur ce site, un dépôt d'hydrocarbures ,raccordé à une voie d'eau et à des voies ferrées, a été construit en 1934, détruit en 1940 et reconstruit à la fin de la guerre.
+
+0l0l0	Sur_ce_site	L
+0l0l1	un_dépôt_d__hydrocarbures	O
+0l0l2	une_voie_d_	O
+0l0l3	des_voies_ferrées	O
+0l0l4	a_été_construit	N
+0l0l5	en_1934	T
+0l0l6	détruit	N
+0l0l7	en_1940	T
+0l0l8	la_fin_de_la_guerre	N
+0l1l0	dépôt_d_	D
+0l1l1	hydrocarbures	S
+
+#Situé en bordure de la Saône, il repose sur des alluvions de 10 m d'épaisseur qui renferment une nappe superficielle libre.
+
+1l0l0	Situé_en_bordure_de_la_Saône	L
+
+#L'activité du dépôt a été suspendue par décision préfectorale du 13 septembre 1999 en raison de graves manquements aux règles de sécurité.
+
+2l0l0	L__activité_du_dépôt	O
+2l0l1	a_été_suspendue	N
+2l0l2	par_décision_préfectorale	O
+2l0l3	13_septembre_1999	T
+
+#Le dépôt a cessé définitivement toute activité le 31 octobre 1999.
+
+3l0l0	Le_dépôt	O
+3l0l1	a_cessé_définitivement_toute_activité	N
+3l0l2	le_31_octobre_1999__	T
+
+#Les travaux de démantèlement de toutes les installations du site ont été réalisés.
+
+4l0l0	Les_travaux_de_démantèlement	N
+4l0l1	de_toutes_les_installations	N
+4l0l2	ont_été_réalisés	N
+
+#Une fuite sur une tuyauterie enterrée reliant la pomperie au poste de chargement des camions a été découverte en début septembre 1999.
+
+5l0l0	Une_fuite_sur	R
+5l0l1	une_tuyauterie_enterrée	O
+5l0l2	la_pomperie	O
+5l0l3	chargement	A
+5l0l4	des_camions	O
+5l0l5	a_été_découverte	N
+5l0l6	en_début_septembre_1999__	T
+
+#Environ 130 m3 d'essence sans plomb ont été déversés dans la nappe située à 2,50 m de profondeur.
+
+6l0l0	130_m3_d__essence_sans_plomb	O
+6l0l1	ont_été_déversés	N
+6l0l2	dans	L
+6l0l3	la_nappe	O
+6l0l4	située_à	L
+6l0l5	2_50_m	N
+6l1l0	essence_sans_plomb	U
+
+#La nappe n'est pas exploitée en aval hydraulique du site ; les seuls captages d'alimentation en eau potable se situent à plus de 2 km en amont.
+
+7l0l0	en_aval_hydraulique_du_site	L
+7l0l1	les_seuls_captages	O
+7l0l2	se_situent_à_plus_de_2_km_en_amont	L
+
+#La zone polluée délimitée en octobre 1999 représentait environ 1 ha.
+
+8l0l0	La_zone_polluée	O
+8l0l1	délimitée	O
+8l0l2	en_octobre_1999	T
+
+#La récupération par écrémage dans 4 puits  de 35 m3 d'hydrocarbures surnageants sur la nappe a nécessité 18 mois de pompage avec rabattement de la nappe (de décembre 1999 à juin 2001).
+
+9l0l0	La_récupération_par_écrémage_dans	N
+9l0l1	4_puits	O
+9l0l2	nappe_a_nécessité_18_mois_de_pompage	N
+9l0l3	avec_rabattement_de_la_nappe	N
+9l0l4	__de_décembre_1999_à_juin_2001	T
+9l1l0	d__hydrocarbures_surnageants	U
+
+#Les opérations de dépollution de la zone de chargement de camions se sont poursuivies, jusque mi-2003, avec un traitement in situ par bioventing (dégradation biologique aérobie par injection d'air dans les sols).
+
+10l0l0	Les_opérations_de_dépollution	N
+10l0l1	la_zone_de_chargement_de_camions	O
+10l0l2	se_sont_poursuivies	N
+10l0l3	jusque_mi_2003	T
+10l0l4	un_traitement_in_situ	N
+
+#Elles ont permis de réduire les principales sources de pollution et ainsi éviter la migration des polluants dans la nappe.
+
+11l0l0	les_principales_sources_de_pollution	O
+11l1l0	polluants	U
+
+#Le diagnostic de l'ensemble du site et l'ESR associée ont été remis le 7 avril 2003 à l'administration.
+
+12l0l0	Le_diagnostic	N
+12l0l1	l__ensemble_du_site	O
+12l0l2	ont_été_remis	N
+12l0l3	le_7_avril_2003	T
+12l0l4	l__administration	O
+
+#Ces études classent le site en catégorie 1 en raison de la pollution des sols en différents endroits (anciennes fabriques d'essence et d'émulsion de bitumes, zone de stockage de charbon, pomperies...).
+
+13l0l0	Ces_études	N
+13l0l1	le_site	O
+13l0l2	en	R
+13l0l3	catégorie_1	O
+13l0l4	pollution_des_sols	O
+13l0l5	fabriques_d__essence	A
+13l0l6	émulsion	A
+13l0l7	de_bitumes	O
+13l0l8	zone_de_stockage_de_charbon	O
+13l0l9	pomperies	A
+13l1l0	essence	S
+13l1l1	charbon	U
+
+#En revanche, le site est classé 2 (à surveiller) vis-à-vis des eaux souterraines.
+
+14l0l0	le_site	O
+14l0l1	vis_à_vis_des	R
+14l0l2	eaux_souterraines	O
+
+#Le suivi de la qualité des eaux de la nappe est effectué mensuellement sur 3 piézométres en aval de la zone polluée.
+
+15l0l0	Le_suivi_de	A
+15l0l1	la_qualité_des_eaux_de_la_nappe	O
+15l0l2	piézométres	O
+15l0l3	en_aval_de_la_zone_polluée	O
+
+#Il confirme que la pollution demeure confinée à l'intérieur du site .
+
+16l0l0	Il	O
+16l0l1	la_pollution	O
+16l0l2	demeure_confinée	N
+
+#Suite à l'inspection du 3 novembre 2005, l'EDR fournie doit être affinée.
+
+17l0l0	Suite_à	R
+17l0l1	l__inspection	N
+17l0l2	du_3_novembre_2005__	T
+
+#Des compléments ont été transmis à l'inspection des installations classées fin janvier 2007 et sont en cours d'examen.
+
+18l0l0	Des_compléments	O
+18l0l1	ont_été_transmis	N
+18l0l2	l__inspection_des_installations_classées	O
+18l0l3	fin_janvier_2007	T
+18l0l4	en_cours_d_	T

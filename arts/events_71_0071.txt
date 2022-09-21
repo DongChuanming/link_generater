@@ -1,0 +1,463 @@
+
+#71.0071
+#GDF SUEZ Energie Services (ex COFATHEC Services) a exploité entre 2008 et 2012 la centrale thermique du Campus Industriel de Chalon-Nord (dit également "site" ou "campus Kodak") au nord de la commune de Chalon-sur-Saône.
+
+0l0l0	GDF_SUEZ	O
+0l0l1	Energie_Services	O
+0l0l2	COFATHEC_Services	O
+0l0l3	a_exploité	N
+0l0l4	entre_2008_et_2012	T
+0l0l5	la_centrale_thermique_du_Campus_Industriel_de_Chalon___Nord	L
+0l0l6	dit	R
+0l0l7	au_nord_de_la_commune_de_Chalon_sur_Saône	L
+0l1l0	GDF_SUEZ_Energie_Services	I
+0l1l1	COFATHEC_Services	I
+0l1l2	Kodak	I
+
+#L'exploitation de cette centrale relevait du régime de l'autorisation au titre de la nomenclature des installations classées ; ses activités étaient encadrées par les arrêtés préfectoraux du 4 septembre 1997 (régularisation) et du 8 juin 2009 (prescriptions complémentaires).
+
+1l0l0	cette_centrale	O
+1l0l1	relevait	R
+1l0l2	du_régime_de	L
+1l0l3	l__autorisation	O
+1l0l4	la_nomenclature_des_installations_classées	O
+1l0l5	ses_activités	A
+1l0l6	étaient_encadrées	N
+1l0l7	les_arrêtés_préfectoraux	O
+1l0l8	du_4_septembre_1997	T
+1l0l9	__régularisation	N
+1l0l10	du_8_juin_2009	T
+
+#L'installation comportait outre la centrale elle-même ("bâtiment 12" du campus Kodak) des structures annexes :
+
+2l0l0	la_centrale	O
+2l0l1	campus_Kodak	L
+2l0l2	structures_annexes	O
+
+#- un dépôt d'hydrocarbures avec 2 réservoirs aériens sur rétention ("bâtiment 13"), implanté à l'écart ;
+
+3l0l0	un_dépôt_d__hydrocarbures	O
+3l0l1	2_réservoirs_aériens	O
+3l0l2	implanté	N
+3l0l3	à_l__écart__	L
+3l1l0	un_dépôt	D
+3l1l1	d__hydrocarbures	S
+
+#- un dépôt de produits chimiques ("bâtiment 45") jouxtant la centrale à l'Ouest ;
+
+4l0l0	un_dépôt_de_produits_chimiques	O
+4l0l1	jouxtant_la_centrale_à_l__Ouest	L
+4l1l0	un_dépôt	D
+4l1l1	produits_chimiques	U
+
+#- un poste de transformateurs ("bâtiment 27") en bordure Ouest du site.
+
+5l0l0	un_poste_de_transformateurs	O
+5l0l1	en_bordure_Ouest_du_site	L
+
+#► CONTEXTE DU SITE
+
+
+#Le site est localisé en bordure ouest du "campus Kodak", et entouré de toutes parts d'industries en activité ou désaffectées :
+
+7l0l0	Le_site	O
+7l0l1	est_localisé_en_bordure_ouest_du___campus_Kodak	A
+7l0l2	désaffectées	O
+
+#- à l'Ouest, au-delà de la route de Demigny et d'une zone de stationnement, par le site industriel en friches de La Mesta Bourgogne ;
+
+8l0l0	à_l__Ouest	L
+8l0l1	au_delà_de_la_route_de_Demigny	L
+8l0l2	une	O
+8l0l3	zone_de_stationnement	L
+8l0l4	le_site_industriel	O
+8l0l5	en_friches	N
+8l0l6	de_La_Mesta_Bourgogne	L
+
+#- vers le Sud, au-delà du canal du Centre, par une zone industrielle ;
+
+9l0l0	le_Sud	O
+9l0l1	au_delà_du_canal_du_Centre	L
+9l0l2	une_zone_industrielle	L
+
+#- vers le Nord et l'Est, par diverses installations et voiries de l'ancien "campus Kodak" en cours de reconversion.
+
+10l0l0	vers_le_Nord_et_l__Est	L
+10l0l1	diverses_installations	O
+10l0l2	campus_Kodak	O
+10l0l3	en_cours	T
+10l0l4	de_reconversion	N
+10l1l0	Kodak	I
+
+#L'hydrogéologie du site est caractérisée par la présence de 2 nappes aquifères superposées et indépendantes car séparées par plusieurs mètres de limons argileux considérés comme imperméables :
+
+11l0l0	hydrogéologie	N
+11l0l1	2_nappes_aquifères	O
+
+#- en profondeur, la nappe dite "de Saint-Cosme inférieure" qui s'écoule vers le Sud-Est (en direction de la Saône) et fait l'objet de captages d'alimentation en eau potable (AEP) à environ 3 kilomètres au Sud-Est ;
+
+12l0l0	la_nappe	O
+12l0l1	vers_le_Sud_Est__	L
+12l0l2	en_direction_de_la_Saône__	L
+12l0l3	à_environ_3_kilomètres_au_Sud_Est	L
+
+#- proche de la surface à la profondeur d'environ 3 mètres, une nappe perchée dite "de Saint-Cosme supérieure" rechargée par les eaux pluviales et dont les écoulements sont, dans le périmètre du site, orientés vers l'ouest.
+
+13l0l0	Saint_Cosme_supérieure	L
+13l0l1	rechargée_par_les_eaux_pluviales	L
+13l0l2	orientés_vers_l__ouest	N
+
+#Les eaux superficielles à proximité sont principalement représentées par le canal du Centre en bordure sud-ouest, ainsi que deux rivières à moins d'un kilomètre au nord-ouest, la Thalie et la Thaliette.
+
+14l0l0	Les_eaux	O
+14l0l1	le_canal_du_Centre	O
+14l0l2	en_bordure_sud_ouest	L
+14l0l3	à_moins_d__un_kilomètre_au_nord_ouest	L
+
+#La Saône s'écoule à 3 kilomètres au Sud-Est.
+
+15l0l0	à_3_kilomètres_au_Sud_Est	L
+
+#► HISTORIQUE DU SITE
+
+
+#Après l'implantation en 1961 de la société Kodak-Pathe sur la zone industrielle du Bois de Menuse, une "centrale énergie de Chalon-sur-Saône" a été mise en service vers 1964-1965.
+
+17l0l0	Après	R
+17l0l1	l__implantation	N
+17l0l2	en_1961	T
+17l0l3	la_société_Kodak___Pathe	O
+17l0l4	sur_la_zone_industrielle_du_Bois_de_Menuse	L
+17l0l5	une___centrale_énergie	O
+17l0l6	Chalon_sur_Saône__	L
+17l0l7	a_été_mise_en_service	N
+17l0l8	vers_1964___1965	T
+17l1l0	la_société_Kodak	I
+
+#Alimentée en fioul lourd à partir d'une zone de stockage distante, celle-ci fournissait vapeur et énergie aux diverses installations du "campus Kodak".
+
+18l0l0	fioul_lourd	O
+18l0l1	__campus_Kodak	O
+18l1l0	fioul_lourd	U
+18l1l1	Kodak	I
+
+#L'exploitation de la centrale par la société FORCE MOTRICE CHALONNAISE dans les années 1970 s'est accompagnée d'un doublement des surfaces de l'installation (1971-1972), puis de la mise en service d'une unité de déminéralisation en 1988.
+
+19l0l0	L__exploitation	N
+19l0l1	la_centrale	O
+19l0l2	la_société_FORCE_MOTRICE_CHALONNAISE	O
+19l0l3	dans_les_années_1970	T
+19l0l4	s_	N
+19l0l5	est_accompagnée	O
+19l0l6	d_	R
+19l0l7	un_doublement	N
+19l0l8	l__installation	O
+19l0l9	__1971___1972	T
+19l0l10	la_mise_en_service_d_	N
+19l0l11	une_unité_de_déminéralisation	O
+19l0l12	en_1988__	T
+19l1l0	la_société_FORCE_MOTRICE_CHALONNAISE	I
+
+#A partir de cette même année, le combustible employé par la centrale consistait en gaz naturel : seules deux cuves de fioul lourd jusqu'alors dédiées au démarrage des chaudières ont été laissées sur site.
+
+20l0l0	A_partir_de_cette_même_année	T
+20l0l1	la_centrale	O
+20l0l2	deux_cuves_de_fioul_lourd	O
+20l0l3	démarrage_des_chaudières	A
+20l0l4	ont_été_laissées	N
+20l1l0	combustible	U
+20l1l1	fioul_lourd	U
+
+#Avec la fin des activités de KODAK INDUSTRIE SA à Chalon-sur-Saône en 2007, la société COFATHEC SERVICES (groupe Gaz De France) a obtenu le transfert à son profit de l'autorisation d'exploiter les installations de la centrale, changement d'exploitant acté par récépissé de la préfecture en date du 10 juillet 2008.
+
+21l0l0	Avec	R
+21l0l1	la_fin_des_activités	N
+21l0l2	KODAK_INDUSTRIE_SA	O
+21l0l3	à_Chalon_sur_Saône	L
+21l0l4	en_2007__	T
+21l0l5	la_société_COFATHEC_SERVICES	O
+21l0l6	Gaz_De_France	O
+21l0l7	a_obtenu	N
+21l0l8	le_transfert	N
+21l0l9	l__autorisation	O
+21l0l10	exploiter_les_installations	N
+21l0l11	la_centrale	O
+21l0l12	changement_d__exploitant	N
+21l0l13	acté_par_récépissé	N
+21l0l14	la_préfecture	O
+21l0l15	en_date_du_10_juillet_2008__	T
+21l1l0	KODAK_INDUSTRIE_SA	I
+21l1l1	la_société_COFATHEC_SERVICES	I
+21l1l2	groupe_Gaz_De_France	I
+
+#Après 2009, GDF SUEZ ÉNERGIE SERVICES a exploité les installations sous la marque "COFELY", en raison du regroupement des activités de Cofathec (groupe GDF) et Elyo (groupe Suez).
+
+22l0l0	Après_2009__	T
+22l0l1	GDF_SUEZ_ÉNERGIE_SERVICES	O
+22l0l2	a_exploité	N
+22l0l3	les_installations	O
+22l0l4	regroupement	N
+22l0l5	Cofathec	O
+22l0l6	Elyo	O
+22l1l0	GDF_SUEZ_ÉNERGIE_SERVICES	I
+22l1l1	COFELY__	S
+22l1l2	Cofathec	I
+22l1l3	GDF	I
+22l1l4	Elyo	I
+22l1l5	Suez	I
+
+#Le 4 janvier 2013 est intervenue la cessation totale d'activité des installations, faisant suite à la déclaration de l'exploitant transmise en préfecture le 3 octobre 2012 et actée par récépissé du 7 novembre 2012.
+
+23l0l0	Le_4_janvier_2013	T
+23l0l1	est_intervenue_la_cessation_totale_d__activité	N
+23l0l2	des_installations	N
+23l0l3	faisant_suite_à	R
+23l0l4	la_déclaration	N
+23l0l5	l__exploitant	O
+23l0l6	préfecture_le_3_octobre_2012	T
+23l0l7	actée_par_récépissé	N
+23l0l8	7_novembre_2012__	T
+
+#► ÉTAT ENVIRONNEMENTAL DU SITE
+
+24l0l0	ÉTAT_ENVIRONNEMENTAL	O
+
+#Plusieurs études de l'état environnemental du site avaient été conduites alors que celui-ci était exploité pour les besoins de KODAK INDUSTRIE avant 2007.
+
+25l0l0	Plusieurs_études	N
+25l0l1	l__état_environnemental_du_site	O
+25l0l2	avaient_été_conduites	N
+25l0l3	alors_que	R
+25l0l4	celui_ci	O
+25l0l5	était_exploité	N
+25l0l6	les_besoins_de	R
+25l0l7	KODAK_INDUSTRIE	O
+25l0l8	avant_2007__	T
+25l1l0	KODAK_INDUSTRIE	I
+
+#En juillet 2000, une étude de la qualité des sols et de la nappe phréatique réalisée pour le compte de Force Motrice Chalonnaise avait mis en évidence un impact par hydrocarbures localisé à proximité d'anciennes cuves de fioul, au nord du "bâtiment 12".
+
+26l0l0	En_juillet_2000__	T
+26l0l1	une_étude	N
+26l0l2	la_qualité_des_sols	O
+26l0l3	le	O
+26l0l4	compte_de	R
+26l0l5	Force_Motrice_Chalonnaise	O
+26l0l6	avait_mis_en_évidence	R
+26l0l7	un_impact	O
+26l0l8	hydrocarbures_localisé	O
+26l0l9	à_proximité	L
+26l0l10	cuves_de_fioul	O
+26l0l11	au_nord_du___bâtiment	L
+26l1l0	Force_Motrice_Chalonnaise	I
+26l1l1	hydrocarbures	S
+26l1l2	anciennes_cuves_de	D
+26l1l3	fioul	S
+
+#Les opérations de dépollution entreprises le 26 octobre 2000 ont permis l'excavation pour traitement en biocentre d'une partie des terres souillées.
+
+27l0l0	Les_opérations_de_dépollution	N
+27l0l1	entreprises	N
+27l0l2	le_26_octobre_2000	T
+27l0l3	ont_permis	N
+27l0l4	l__excavation	N
+27l0l5	traitement_en_biocentre	N
+27l0l6	une_partie_des_terres_souillées	O
+
+#La totalité des sols impactés n'a toutefois pu être extraite, en raison de la proximité de fondations en béton (dalle de support des cuves, portion de muret) dont la destruction risquait de déstabiliser les bâtiments voisins.
+
+28l0l0	La_totalité_des_sols_impactés	O
+28l0l1	a_toutefois_pu_être_extraite	N
+28l0l2	la_proximité_de_fondations_en_béton	O
+28l0l3	déstabiliser	N
+28l0l4	les_bâtiments_voisins	O
+
+#Le site de la "Centrale énergie de Chalon-sur-Saône" du Campus Kodak avait également fait l'objet de mesures de dépollution du 13 au 16 décembre 2004, suite à la découverte d'un très faible impact des sols par des PCB (polychlorobiphényles) au droit du même "bâtiment 12", lié à une ancienne zone de stockage d'huiles.
+
+29l0l0	Le_site	O
+29l0l1	la___Centrale_énergie	O
+29l0l2	Chalon_sur_Saône	L
+29l0l3	Campus_Kodak	A
+29l0l4	avait_également_fait_l__objet_de	R
+29l0l5	mesures_de_dépollution	N
+29l0l6	du_13_au_16_décembre_2004__	T
+29l0l7	suite_à	R
+29l0l8	la_découverte_d_	N
+29l0l9	au_droit_du_même___bâtiment	L
+29l0l10	lié_à	R
+29l0l11	une_ancienne_zone_de_stockage_d__huiles	O
+29l1l0	des_PCB	S
+29l1l1	polychlorobiphényles	S
+
+#Cette contamination a été traitée par excavation des terres polluées pour lessivage hors site (procédé Solvis).
+
+30l0l0	Cette_contamination	O
+30l0l1	a_été_traitée	N
+30l0l2	excavation_des_terres_polluées	N
+30l0l3	lessivage_hors_site	N
+
+#Un impact notable des sols en hydrocarbures (fioul) avait là encore été constaté.
+
+31l0l0	Un_impact	O
+31l1l0	hydrocarbures	S
+31l1l1	fioul	S
+
+#Toutefois les travaux d'excavation de ces sols pollués par des hydrocarbures n'avaient pu être accomplis en totalité, du fait de la présence d'une canalisation souterraine encore utilisée.
+
+32l0l0	les_travaux_d__excavation	N
+32l0l1	ces_sols_pollués	O
+32l0l2	par	R
+32l0l3	des_hydrocarbures	O
+32l0l4	n__avaient_pu_être_accomplis	N
+32l0l5	une_canalisation_souterraine	O
+32l1l0	hydrocarbures	S
+
+#De ce fait, une pollution "historique" par des hydrocarbures a pu persister au droit et à proximité du "bâtiment 12" entre 2007 et 2012, tout au long de l'exploitation du site par GDF SUEZ ÉNERGIE SERVICES (ex COFATHEC SERVICES).
+
+33l0l0	une_pollution	O
+33l0l1	hydrocarbures	O
+33l0l2	a_pu_persister	N
+33l0l3	au_droit_et_à_proximité_du___bâtiment_12__	L
+33l0l4	entre_2007_et_2012__	T
+33l0l5	l__exploitation	N
+33l0l6	du_site	O
+33l0l7	GDF_SUEZ_ÉNERGIE_SERVICES	O
+33l0l8	COFATHEC_SERVICES	O
+33l1l0	hydrocarbures	S
+33l1l1	GDF_SUEZ_ÉNERGIE_SERVICES	I
+33l1l2	COFATHEC_SERVICES	I
+
+#► ÉTUDES ET TRAVAUX DE RÉHABILITATION
+
+34l0l0	ÉTUDES	O
+34l0l1	TRAVAUX_DE_RÉHABILITATION	N
+
+#Préalablement à la cessation d'activité du site annoncée par GDF SUEZ ÉNERGIE SERVICES pour 2013, une visite d'inspection en date du 7 février 2012 avait identifié des zones du site potentiellement "sensibles" du point de vue environnemental.
+
+35l0l0	Préalablement_à	R
+35l0l1	la_cessation_d__activité	N
+35l0l2	site	O
+35l0l3	annoncée	R
+35l0l4	GDF_SUEZ	O
+35l0l5	ÉNERGIE_SERVICES	O
+35l0l6	pour_2013__	T
+35l0l7	une_visite_d__inspection	N
+35l0l8	en_date_du_7_février_2012	T
+35l0l9	avait_identifié	N
+35l0l10	des_zones	O
+35l1l0	GDF_SUEZ_ÉNERGIE_SERVICES	I
+
+#Par la suite un nouveau diagnostic des sols a été effectué les 7 et 8 juin 2012, par réalisation de 20 sondages et de prélèvements d'eaux souterraines au sein des piézomètres existants.
+
+36l0l0	un_nouveau_diagnostic_des_sols	N
+36l0l1	a_été_effectué	N
+36l0l2	les_7_et_8_juin_2012__	T
+
+#Cette étude avait alors conclu à une absence d'impact sur les sols et eaux souterraines pour ce qui est des PCB, COHV (composés organo-halogénés volatils) et autres solvants, ainsi qu'à l'absence d'anomalie significative pour ce qui est des teneurs en métaux.
+
+37l0l0	Cette_étude	N
+37l1l0	PCB	S
+37l1l1	COHV	S
+37l1l2	composés_organo___halogénés_volatils	S
+37l1l3	solvants	S
+37l1l4	métaux	S
+
+#Toutefois, une contamination des sols par des hydrocarbures avait été détectée au droit d'anciennes cuves et de leur caniveau, conséquence d'une fuite accidentelle de quelques mètres cubes de fioul lourd le 31 décembre 2007.
+
+38l0l0	une_contamination	O
+38l0l1	hydrocarbures	O
+38l0l2	avait_été_détectée	N
+38l0l3	au_droit	L
+38l0l4	caniveau	O
+38l0l5	conséquence_d_	R
+38l0l6	une_fuite_accidentelle	N
+38l0l7	quelques_mètres_cubes_de_fioul_lourd	O
+38l0l8	le_31_décembre_2007__	T
+38l1l0	hydrocarbures	S
+38l1l1	cuves	D
+38l1l2	fioul_lourd	U
+
+#En septembre et octobre 2013, de nouveaux travaux de dépollution ont permis une excavation complète des sols et bétons souillés par des hydrocarbures, et leur évacuation pour traitement en centre agréé.
+
+39l0l0	En_septembre_et_octobre_2013__	T
+39l0l1	de_nouveaux_travaux_de_dépollution_ont_permis	N
+39l0l2	une_excavation_complète	N
+39l0l3	bétons_souillés	O
+39l0l4	leur_évacuation	N
+39l0l5	centre_agréé	O
+39l1l0	hydrocarbures	S
+
+#Les analyses menées durant les travaux ont montré que l'impact résiduel par hydrocarbures en bord et fond de fouilles est réduit.
+
+40l0l0	durant_les_travaux	N
+40l0l1	bord_et_fond_de_fouilles	L
+40l1l0	hydrocarbures	S
+
+#Les excavations ont été remblayées et nivelées par apport de granulats sains.
+
+41l0l0	Les_excavations	N
+41l0l1	ont_été_remblayées	N
+41l0l2	nivelées_par_apport_de	N
+
+#Un mémoire de cessation d'activité transmis le 3 mars 2014 est venu rappeler les principales conclusions quant à l'état environnemental du site, et rend compte des multiples opérations de dépollution effectuées.
+
+42l0l0	Un_mémoire_de_cessation_d__activité	O
+42l0l1	transmis	N
+42l0l2	le_3_mars_2014	T
+42l0l3	les_principales_conclusions	O
+42l0l4	multiples_opérations_de_dépollution_effectuées	N
+
+#Les travaux de remise en état du site on fait l'objet d'un rapport de fin de travaux en date du 21 décembre 2017 (procès-verbal de récolement).
+
+43l0l0	Les_travaux_de_remise_en_état	N
+43l0l1	du_site	O
+43l0l2	on_fait_l__objet_d_	R
+43l0l3	un_rapport_de_fin_de_travaux	N
+43l0l4	en_date_du_21_décembre_2017	T
+
+#L'état du site est jugé compatible avec un usage de type industriel.
+
+44l0l0	un_usage_de_type_industriel	A
+
+#► SURVEILLANCE
+
+45l0l0	SURVEILLANCE	O
+45l1l0	SURVEILLANCE	U
+
+#La cessation d'activité ayant été déclarée le 9 octobre 2012, une visite d'inspection en date du 14 décembre 2012 a permis de constater la bonne mise en sécurité du site.
+
+46l0l0	La_cessation_d__activité	N
+46l0l1	ayant_été_déclarée	N
+46l0l2	le_9_octobre_2012__	T
+46l0l3	une_visite_d__inspection	N
+46l0l4	en_date_du_14_décembre_2012	T
+46l0l5	a_permis_de_constater	R
+46l0l6	la_bonne_mise_en_sécurité	N
+
+#Un suivi de la qualité des eaux souterraines au droit des anciennes installations du "campus Kodak" a été mis en œuvre par KODAK INDUSTRIE SA entre 2008 et décembre 2012.
+
+47l0l0	Un_suivi_de_la_qualité_des_eaux_souterraines	A
+47l0l1	au_droit_des_anciennes_installations_du___campus_Kodak__	A
+47l0l2	a_été_mis_en_œuvre	N
+47l0l3	KODAK_INDUSTRIE_SA	O
+47l0l4	entre_2008_et_décembre_2012__	T
+47l1l0	Kodak	I
+47l1l1	KODAK_INDUSTRIE_SA	I
+
+#Depuis, les nappes ne font plus l'objet d'une surveillance régulière.
+
+48l0l0	les_nappes	O
+48l0l1	ne_font_plus	N
+
+#Un diagnostic environnemental du site a été réalisé en novembre 2015.
+
+49l0l0	Un_diagnostic_environnemental	N
+49l0l1	site	O
+49l0l2	a_été_réalisé_en	N
+49l0l3	novembre_2015__	T
+
+#Il a été démontré la présence de métaux lourd et d'HAP en faible quantités au niveau d'un forage , concluant à une anomalie ponctuelle sans risque significatif.
+
+50l0l0	niveau_d__un_forage	L
+50l1l0	métaux_lourd	S
+50l1l1	HAP	S

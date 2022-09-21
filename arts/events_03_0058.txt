@@ -1,0 +1,121 @@
+
+#03.0058
+#Le site est localisé sur la commune de Désertines, en rive droite du Cher et très proche de la rivière.
+
+0l0l0	Le_site	O
+0l0l1	localisé_sur_la_commune_de_Désertines	L
+0l0l2	en_rive_droite_du_Cher	L
+0l0l3	très_proche_de_la_rivière	L
+
+#En aval, une passerelle sur le Cher permettait l'accès sur les terrain de production SEP.
+
+1l0l0	En_aval	O
+1l0l1	une_passerelle	O
+1l0l2	sur_le_Cher	L
+1l0l3	permettait_l__accès	N
+1l0l4	sur	R
+1l0l5	les_terrain_de_production_SEP	O
+
+#Il s'agit d'une zone en partie revêtue de végétation et sur laquelle une habitation est construite.
+
+2l0l0	habitation	O
+2l0l1	est_construite	N
+
+#La décharge semble reposer directement sur les argiles de couleur beige à verdâtre et localement sur les alluvions et sables.
+
+
+#La partie supérieure de la décharge est plane.
+
+4l0l0	La_partie_supérieure	O
+
+#Durant une trentaine d'années, les entreprises SEP (Société d'Emballages Plastiques), Péchiney Saint-Gobain, Ciba Geygy et Diamantine mettent en dépôt leurs déchets sur le site.
+
+5l0l0	Durant_une_trentaine_d__années	T
+5l0l1	les_entreprises_SEP	O
+5l0l2	Emballages_Plastiques	A
+5l0l3	Péchiney_Saint_Gobain	O
+5l0l4	Ciba_Geygy	O
+5l0l5	Diamantine	O
+5l0l6	mettent_en_dépôt	N
+5l0l7	leurs_déchets	O
+5l0l8	sur_le_site	L
+5l1l0	les_entreprises_SEP	I
+5l1l1	Société_d__Emballages_Plastiques	S
+5l1l2	Péchiney_Saint_Gobain	I
+5l1l3	Ciba_Geygy	I
+5l1l4	Diamantine	S
+
+#Ces déchets, selon un échantillonnage réalisé en 1995, sont constitués de plastiques (rouleaux, balots de déchets, plaques PVC), mâchefers/coke, blocs de verre, laitiers ou crasses de fonderie de verre.
+
+6l0l0	en_1995__	T
+6l0l1	fonderie_de_verre	A
+6l1l0	plastiques	S
+6l1l1	plaques_PVC	U
+
+#Ils sont entassés sur une hauteur d'environ 20 m (soit la hauteur de la butte par rapport au Cher) et une superficie d' 1 ha.
+
+
+#Des dépôts non autorisés ont pu se rajouter et il n'y a pas une connaissance exhaustive de la nature des déchets présents sur site.
+
+
+#La décharge n'est plus utilisée à partir de 1980.
+
+9l0l0	La_décharge	O
+9l0l1	n__est_plus_utilisée	N
+9l0l2	à_partir_de_1980	T
+
+#En 1995, Rhône-Poulenc (maison mère de SEP) réalise une étude sommaire de la décharge.
+
+10l0l0	En_1995__	T
+10l0l1	Rhône___Poulenc	O
+10l0l2	maison_mère_de_SEP	O
+10l0l3	__réalise_une_étude_sommaire	N
+10l0l4	la_décharge	O
+10l1l0	Rhône___Poulenc	I
+10l1l1	SEP	I
+
+#Il est identifié que des sédiments issus de la décharge sont transférés dans le Cher par l'intermédiaire de 2 zones d'érosion.
+
+11l0l0	décharge	O
+11l0l1	sont_transférés	N
+11l0l2	dans_le_Cher	L
+11l0l3	2_zones	O
+11l1l0	sédiments	S
+
+#L'analyse des sols montre la présence des métaux arsenic, baryum, bismuth, cuivre (non quantifiés) dont l'origine pourrait être liée à l'activité de production de verre.
+
+12l0l0	arsenic	O
+12l0l1	l__origine	O
+12l0l2	liée_à	R
+12l0l3	l__activité_de_production_de_verre	A
+12l1l0	métaux_arsenic	S
+12l1l1	baryum	S
+12l1l2	bismuth	S
+12l1l3	cuivre	S
+
+#Une influence de la décharge sur l'eau du Cher semble exister pour l'arsenic (teneur de 55 µg/L à l'amont de la décharge et 88 µg/L à l'aval) mais limitée.
+
+13l0l0	Une_influence	O
+13l0l1	l__arsenic	O
+13l0l2	amont_de_la_décharge	L
+13l1l0	l__arsenic	S
+
+#Les eaux souterraines ne sont pas prélevées.
+
+
+#En 2000, la DRIRE tente d'instaurer une servitude d'utilité publique visant à interdire toute construction sur le site.
+
+15l0l0	En_2000__	T
+15l0l1	la_DRIRE	O
+15l0l2	tente	R
+15l0l3	d__instaurer	N
+15l0l4	une_servitude_d__utilité_publique	O
+15l0l5	interdire_toute_construction	N
+15l0l6	le_site	O
+15l1l0	la_DRIRE	I
+
+#Sous la pression des propriétaires des parcelles concernées, et en raison d'une connaissance trop approximative du périmètre réel de la décharge, la servitude n'a pas été prise.
+
+16l0l0	Sous	R
+16l0l1	la_pression	N
+16l0l2	des_propriétaires_des_parcelles_concernées	O

@@ -1,0 +1,190 @@
+
+#68.0073
+#Site industriel est exploité depuis près de 200 ans et est toujours en activité.
+
+0l0l0	en_activité	N
+
+#La société Clemessy c'est implantée dans les locaux de l'usine Frey en 1964.
+
+1l0l0	La_société_Clemessy	O
+1l0l1	c__est	N
+1l0l2	implantée_dans_les_locaux	O
+1l0l3	de_l__usine_Frey_en_1964__	N
+
+#Le site de l'usine C1 a servi de lieu de réparation de matériels électro-mécanique (bobinages, transformateurs).
+
+2l0l0	Le_site_de_l__usine_C1	O
+2l0l1	a_servi_de_lieu_de	N
+2l0l2	réparation_de	L
+2l0l3	matériels_électro_mécanique___bobinages___transformateurs____	T
+2l1l0	Le_site_de_l__usine_C1	I
+
+#Actuellement le site est occupé par une filiale de Clemessy: la Sté EMCS
+
+3l0l0	Actuellement_le_site	O
+3l0l1	est_occupé_par	O
+3l0l2	une_filiale_de_Clemessy___la_Sté_EMCS	A
+
+#Des travaux de retructuration des bâtiments sont terminé.
+
+4l0l0	Des_travaux_de	T
+4l0l1	retructuration_des	R
+4l0l2	bâtiments_sont	O
+4l0l3	terminé__	O
+4l1l0	terminé__	I
+
+#Le 18/06/2004, la Ville de Mulhouse a été rendue attentive sur:
+
+5l0l0	Le_18_06_2004___la_Ville_de_Mulhouse	N
+5l0l1	a_été_rendue	O
+5l0l2	attentive	N
+
+#- les projets de restructuration en cours,
+
+6l0l0	__les_projets_de	T
+6l0l1	restructuration_en	O
+6l0l2	cours__	N
+
+#- la nature de la pollution au droit du site ( COHV, PCB, HAP),
+
+7l0l0	la_nature_de_la_pollution_au_droit_du_site	O
+
+#- le règlement d'urbanisme de la Ville de Mulhouse est antérieur à la découverte de la pollution,
+
+8l1l0	Mulhouse_est_antérieur	S
+
+#- certaines dispositions de ce règlement ne sont pas judicieuses et compatibles avec la pollution des sols mises en évidence sur le site.
+
+9l0l0	certaines_dispositions_de	O
+9l0l1	ce_règlement_ne_sont	L
+9l0l2	pas_judicieuses	R
+9l0l3	et	N
+9l0l4	compatibles_avec_la_pollution	A
+
+#Un arrêté codifiant les activités du site a été signé le 24/01/2011
+
+
+#Le site de l'usine C1 a été soumis à une ESR en 1999, classant le site en catégorie 1.
+
+11l0l0	Le_site_de_l_	O
+11l0l1	usine_C1_a_été_soumis_à	N
+11l0l2	une_ESR_en	O
+11l0l3	1999___classant	N
+11l0l4	le_site_en_catégorie_1__	T
+
+#Sur le site une pollution aux PCB, HAP, et aux hydrocarbures chlorés, a été détectée et son impact sur la nappe prouvé.
+
+12l0l0	Sur_le_site	O
+12l0l1	une_pollution_aux_PCB	N
+12l0l2	aux	T
+12l0l3	hydrocarbures_chlorés	O
+
+#l'AP complémentaire du 30/04/2001 impose notamment la réalisation d'un réseau de surveillance des eaux souterraines, une EDR s'agissant de la source pollution PCB, et le traitement (imperméabilisation) de la zone polluée par des HAP pour janvier 2002.
+
+13l0l0	d__un_réseau_de	N
+13l0l1	surveillance	O
+13l1l0	30_04_2001_impose_notamment_la_réalisation	S
+
+#S'agissant de certains travaux d'imperméabilisation, l'industriel s'est interrogé sur l'éventuelle nécesite de décaisser préalablement des terres contaminées ( l'ESR a classé site en clases 2, le décaissement n'a pas été d'office décidé).
+
+14l0l0	S__agissant_de_certains	O
+14l0l1	travaux_d_	T
+14l0l2	imperméabilisation___l__industriel_s_	N
+14l0l3	est	O
+14l0l4	interrogé_sur_l__éventuelle_nécesite_de_décaisser	A
+14l0l5	préalablement_des_terres_contaminées	O
+14l0l6	l__ESR_a_classé_site_en_clases_2___le	N
+14l0l7	décaissement_n__a_pas_été	O
+14l0l8	d_	R
+14l0l9	office	O
+14l0l10	décidé____	T
+14l1l0	contaminées	S
+14l1l1	office	S
+
+#S'agissant de la pollution des eaux souterraines par des PCB, les travaux de dépollution sont en cours:
+
+15l0l0	la_pollution_des_eaux_souterraines_par_des	N
+15l0l1	PCB___les_travaux	O
+15l0l2	de_dépollution	N
+
+#- depuis juillet/août 2002: pompage, traitement des eaux pompeés, rejet des eaux traitées dans le réseau d'assainissement communal avec accord du gestionnaire,
+
+16l0l0	pompeés___rejet_des_eaux_traitées	N
+16l0l1	dans_le_réseau	N
+16l1l0	eaux_pompeés	S
+
+#- depuis février 2004: amélioration du dispositif par lessivage de la zone de sol non saturée.
+
+17l0l0	depuis_février_2004___amélioration	N
+17l0l1	du_dispositif_par_lessivage_de	A
+17l0l2	la_zone_de_sol_non_saturée	O
+
+#Il semble toutefois que les concentrations présentes sont plus faibles que celles qui avaient été détectées lors des analyses préalables à la réalisation de l'ESR.
+
+18l0l0	Il_semble_toutefois	T
+18l0l1	que_les_concentrations_présentes_sont_plus	N
+18l0l2	faibles_que_celles	O
+
+#La dépollution et la surveillance se poursuivent.
+
+
+#S'agissant de la pollution par des solvants chlorés ( Tetrachloroéthylène), des investigations ont été réalisées, qui permettent de situer une source de pollution sous une partie du bâti.
+
+20l0l0	S__agissant_de_la	N
+20l0l1	pollution_par_des	O
+20l0l2	solvants_chlorés	T
+
+#Des travaux de dépollution sont en cours (venting depuis l'année 2002).
+
+21l1l0	cours___venting	U
+21l1l1	depuis_l__année_2002____	S
+
+#La surveillance de la qualité des eaux souterraines se poursuit.
+
+22l0l0	La_surveillance_de_la_qualité_des	N
+22l0l1	eaux	O
+22l0l2	souterraines	N
+22l0l3	se_poursuit__	T
+
+#Il est constaté une baisse des teneurs.
+
+23l0l0	Il_est_constaté_une_baisse_des_teneurs__	A
+
+#Par ailleurs, dans le cadre de travaux de restructuration du site, et au vu du document d'urbanisme, la ville de Mulhouse a fait état de son souhait de voir se créer des zones vertes accessibles aux tiers sur une partie du site industriel.
+
+
+#Un courrier préfectoral du 18 juin 2004 a été adressé à la ville de Mulhouse attirant son attention sur la pollution des sols, des eaux souterraines, et sur les conclusions de l'ESR réalisée par l'industriel.
+
+25l0l0	préfectoral_du	R
+25l0l1	18_juin_2004_a_été_adressé_à_la_ville_de_Mulhouse	N
+25l0l2	sur_la_pollution_des_sols	O
+25l0l3	__des_eaux_souterraines	O
+25l0l4	sur	O
+25l0l5	les_conclusions_de_l__ESR_réalisée_par	N
+25l0l6	industriel__	O
+25l1l0	sur_la_pollution_des_sols	I
+
+#Lors de la restructuration les travaux de pompages des eaux souterraines s'est interrompu.
+
+26l0l0	Lors_de_la_restructuration	O
+26l0l1	les_travaux	T
+26l0l2	de_pompages_des	N
+26l0l3	eaux_souterraines	O
+
+#Le 05/02/2010, au vu des résultats aval dans les eaux souterraines pour la somme TCE+PCE il est demandé à l'exploitant de redimensionner une barrière de pompage hydrolique, cette demande est formalisée par arrêté du 20/01/2012 qui encadre la dépollution.
+
+27l0l0	Le_05_02_2010___au_vu_des_résultats	N
+27l0l1	aval_dans_les_eaux	N
+27l0l2	souterraines_pour_la	A
+27l0l3	somme_TCE_PCE_il_est	N
+
+#Les concentrations dans en aval du site sont désormais conforme, cependant l'exploitant continu son pompage, et tente de trouver la source de pollution en TCE et PCE se trouvant au nord du site, au droit des bâtiment, qui influence encore la qualité des eaux souterraines.
+
+28l0l0	Les_concentrations	T
+28l0l1	pompage___et_tente	O
+28l0l2	de_trouver_la_source	N
+28l0l3	de_pollution	O
+28l0l4	en_TCE_et_PCE_se_trouvant	A
+28l0l5	qui_influence	T
+28l0l6	encore_la_qualité_des_eaux	N
+28l1l0	exploitant	I

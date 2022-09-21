@@ -1,0 +1,145 @@
+
+#88.0074
+#La société LES TEXTILES DE FRANCE est propriétaire d'un ancien site indutriel situé sur le territoire de la commune de CHARMES.
+
+0l0l0	La_société_LES_TEXTILES	O
+0l0l1	DE_FRANCE	O
+0l0l2	est	N
+0l0l3	propriétaire_d_	R
+0l0l4	un_ancien_site_indutriel	O
+0l0l5	situé_sur_le_territoire_de_la_commune_de_CHARMES	L
+0l1l0	La_société_LES_TEXTILES_DE_FRANCE	I
+
+#Selon les informations à la disposition de l'Inspection, ce site a été exploité pour une activité de filature jusqu'au début des années 1990.
+
+1l0l0	ce_site	O
+1l0l1	a_été_exploité	N
+1l0l2	une_activité_de_filature	A
+1l0l3	jusqu__au_début_des_années_1990__	T
+
+#Cette activité était, jusqu'à son arrêt définitif, soumise à la législation installations classées pour la protection de l'environnement.
+
+2l0l0	Cette_activité	O
+2l0l1	était___jusqu__à_son_arrêt_définitif	N
+2l0l2	soumise_à	R
+2l0l3	la_législation_installations_classées	O
+2l0l4	pour_la_protection_de	A
+2l0l5	l__environnement	O
+
+#Ce site a été victime le samedi 29 octobre 2011 d'un incendie.
+
+3l0l0	Ce_site	O
+3l0l1	a_été_victime	R
+3l0l2	le_samedi_29_octobre_2011	T
+3l0l3	d_	R
+3l0l4	un_incendie	N
+
+#Au cours de leur intervention, les services de secours ont identifié des transformateurs électriques étiquetés comme ayant contenu des PCB et deux rétentions pleines associées à ces transformateurs.
+
+4l0l0	ont_identifié	N
+4l0l1	des_transformateurs_électriques	O
+4l0l2	étiquetés_comme	R
+4l0l3	ayant_contenu	N
+4l0l4	deux_rétentions_pleines	O
+4l0l5	ces_transformateurs	O
+4l1l0	des_PCB	S
+
+#Lors d'une visite d'inspection du site propriété de la société LES TEXTILES DE FRANCE le 10 novembre 2011, il a été constaté la présence de 7 transformateurs électriques à l'intérieur des bâtiments.
+
+5l0l0	d__une_visite_d__inspection	N
+5l0l1	site	O
+5l0l2	propriété_de	R
+5l0l3	la_société_LES_TEXTILES	O
+5l0l4	DE_FRANCE	O
+5l0l5	le_10_novembre_2011__	T
+5l0l6	il_a	R
+5l0l7	été_constaté	N
+5l0l8	la_présence_de_7_transformateurs_électriques	O
+5l1l0	la_société_LES_TEXTILES_DE_FRANCE	I
+
+#Ces transformateurs étaient vides de tout bobinage et de tout diélectrique.
+
+
+#Il est probable qu'ils aient été vidés pour récupérer leur bobinage en cuivre.
+
+7l0l0	aient_été_vidés	N
+7l0l1	leur_bobinage	O
+7l1l0	cuivre	S
+
+#Il est difficile de savoir depuis combien de temps ces transformateurs ont été vidés, ni s'il s'agit de vandalisme.
+
+8l0l0	depuis_combien_de_temps	T
+8l0l1	ces_transformateurs	O
+8l0l2	ont_été_vidés	N
+
+#Une des plaques visible sur un des transformateurs mentionne clairement la composition du liquide isolant "pyralène".
+
+9l0l0	un_des_transformateurs	O
+9l1l0	liquide_isolant__	U
+9l1l1	pyralène__	S
+
+#Une pollution des eaux et des sols aux PCB n'est donc pas exclue.
+
+10l0l0	Une_pollution	O
+10l1l0	PCB	S
+
+#En effet, pour les 2 transformateurs déplacés, l'état des sols laisse supposer que les liquides ont été vidés sur place.
+
+11l0l0	2_transformateurs	O
+11l0l1	déplacés	N
+11l0l2	ont_été_vidés	N
+
+#Suite à la découverte sur ce site d'appareils contenant ou ayant contenu des PCB, appareils visiblement vandalisés, le Préfet a mis demeure la société DES TEXTILES DE FRANCE par arrêté préfectoral n°2861/2001 du 18 novembre 2011, d'éliminer les appareils contaminés ainsi que les quantités de PCB encore présentes dans les rétentions du local de transformation.
+
+12l0l0	Suite	R
+12l0l1	à_la_découverte	N
+12l0l2	d__appareils	O
+12l0l3	le_Préfet	O
+12l0l4	a_mis	N
+12l0l5	demeure_la_société_DES_TEXTILES	O
+12l0l6	DE_FRANCE	O
+12l0l7	arrêté_préfectoral	O
+12l0l8	du_18_novembre_2011__	T
+12l0l9	d__éliminer	N
+12l0l10	les_appareils_contaminés	O
+12l0l11	transformation	A
+12l1l0	des_PCB	S
+12l1l1	le_Préfet	I
+12l1l2	la_société_DES_TEXTILES_DE_FRANCE	I
+12l1l3	PCB	S
+
+#Par arrêté d'urgence du même jour, il a également été imposé à cette société:
+
+13l0l0	a_également_été_imposé	N
+13l0l1	cette_société	O
+
+#- des prélèvements des eaux présentes en sous-sol du local abritant les appareils;
+
+14l0l0	les_appareils	O
+
+#- des investigations sur les exutoires possibles des eaux potentiellement polluées.
+
+15l0l0	les_exutoires	O
+15l0l1	polluées	O
+
+#Les résultats montrent la présence d'une contamination aux PCB des eaux du sous-sol, à des concentrations comprises entre 9 et 54 ppm.
+
+16l1l0	PCB	S
+
+#Des investigations complémentaires sont en cours.
+
+17l0l0	Des_investigations_complémentaires	O
+
+#Par arrêté préfectoral n°916/2012 du 24/05/2012, la société LES TEXTILES DE FRANCE a été mise en demeure de mener des investigations sur les exutoires des fluides pollués, prescrites par l'arrêté préfectoral d'urgence n°2862/2011 du 18 novembre 2011.
+
+18l0l0	24_05_2012	T
+18l0l1	la_société_LES_TEXTILES	O
+18l0l2	DE_FRANCE	O
+18l0l3	a_été_mise_en_demeure_de_mener_des_investigations	N
+18l0l4	sur	R
+18l0l5	les_exutoires	O
+18l0l6	fluides_pollués	O
+18l0l7	l__arrêté_préfectoral_d__urgence	O
+18l0l8	du_18_novembre_2011__	T
+18l1l0	la_société_LES_TEXTILES_DE_FRANCE	I
+18l1l1	fluides	S

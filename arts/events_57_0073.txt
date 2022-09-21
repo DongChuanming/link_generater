@@ -1,0 +1,161 @@
+
+#57.0073
+#Affinage d'acier en poche chauffante, forge de lingots, traitement thermique et usinage.
+
+0l0l0	Affinage_d__acier	N
+0l0l1	forge_de_lingots	O
+0l0l2	usinage	N
+
+#La société AKERS était soumise à autorisation au titre de la législation des installations classées pour la protection de l'environnement pour la forge de son usine de THIONVILLE par l'arrêté préfectoral du 26 novembre 1998.
+
+1l0l0	La_société_AKERS	O
+1l0l1	était_soumise_à_autorisation	N
+1l0l2	la_législation_des_installations_classées	O
+1l0l3	pour_la_protection_de	N
+1l0l4	l__environnement	O
+1l0l5	la_forge	A
+1l0l6	son_usine	O
+1l0l7	de_THIONVILLE	L
+1l0l8	l__arrêté_préfectoral	O
+1l0l9	26_novembre_1998__	T
+1l1l0	La_société_AKERS	I
+
+#La société AKERS France a été déclarée en liquidation judiciaire par le Tribunal de Grande Instance de Thionville le 20 avril 2016.
+
+2l0l0	La_société_AKERS_France	O
+2l0l1	a_été_déclarée_en_liquidation_judiciaire	N
+2l0l2	par_le_Tribunal_de_Grande_Instance_de_Thionville	N
+2l0l3	le_20_avril_2016__	T
+2l1l0	La_société_AKERS_France	I
+2l1l1	Thionville	I
+
+#L'étape A finalisée en septembre 1998 recommande de purger et d'évacuer la citerne située au nord des halles et de vider la cave à huile de l'ancien train de laminoir et le réservoir de l'ancienne salle des pompes.
+
+3l0l0	L__étape_A_finalisée	O
+3l0l1	en_septembre_1998	T
+3l0l2	recommande	R
+3l0l3	de_purger	N
+3l0l4	d__évacuer	N
+3l0l5	la_citerne	O
+3l0l6	située_au_nord_des_halles	L
+3l0l7	vider	N
+3l0l8	la_cave_à_huile	O
+3l0l9	laminoir	O
+3l0l10	le_réservoir	O
+
+#L'Evaluation simplifiée des risques rendue en décembre 1998.
+
+4l0l0	Evaluation_simplifiée_des_risques_rendue	N
+4l0l1	en_décembre_1998__	T
+
+#Le sous sol apparaît comme étant essentiellement composé de remblais sur une épaisseur de plusieurs mètres.
+
+5l0l0	remblais	R
+
+#Ces remblais sont constitués de laitiers, de briques réfractaires, de sables de fonderie, de poussière et de tout-venant.
+
+6l0l0	Ces_remblais	O
+
+#Les résultats des analyses de sols indiquent l'existence de 5 sources de pollution :
+
+7l0l0	5_sources_de_pollution	O
+
+#- des anciens réservoirs à goudrons (HAP),
+
+8l0l0	anciens_réservoirs_à_goudrons___HAP	O
+8l1l0	goudrons	U
+8l1l1	HAP	S
+
+#- des sols au droit de l'ancien réservoir des pompes à huile des laminoires (vanadium),
+
+9l0l0	au_droit_de_l_	L
+9l0l1	laminoires	O
+9l0l2	vanadium	O
+9l1l0	vanadium	S
+
+#- des remblais présents au nord du caniveau à pompes de la bâche à huile de 115m3 (As, Cd, Cu, Pb, V, Zn),
+
+10l0l0	remblais	N
+10l0l1	présents_au_nord	L
+10l1l0	As	S
+10l1l1	Cd	S
+10l1l2	Cu	S
+10l1l3	Pb	S
+10l1l4	V	S
+10l1l5	Zn	S
+
+#- des remblais dans la zone de stockage des huiles usées (hydrocarbures),
+
+11l0l0	remblais	N
+11l0l1	dans	R
+11l0l2	la_zone	O
+11l1l0	huiles_usées	U
+11l1l1	hydrocarbures	S
+
+#- de la zone de ferrailleur (As, Cr, V).
+
+12l0l0	la_zone_de_ferrailleur	O
+
+#Les résultats des analyses d'eau montrent un impact, peu significatif en zinc et en HAP sur les eaux souterraines.
+
+13l1l0	zinc	S
+13l1l1	HAP	S
+
+#Par contre, et sur l'ensemble du site, les teneurs en fer, en manganèse, en sulfates et en cyanures sont supérieures à la VCI pour les eaux souterraines à usage sensible.
+
+14l1l0	fer	S
+14l1l1	manganèse	S
+14l1l2	sulfates	S
+14l1l3	cyanures	S
+
+#Un dépassement de la VCI (valeur de constat d'impact - cf ancienne méthodologie sur les sites et sols pollués) en solvants chlorés est également enregistré sur le piézomètre aval PZ3.
+
+15l0l0	Un_dépassement	O
+15l1l0	chlorés	S
+
+#La zone de l'ancien réservoir des pompes à huile des laminoirs est à banaliser (classe 3).
+
+16l0l0	La_zone	O
+16l0l1	laminoirs	O
+16l0l2	est_à_banaliser	N
+
+#Les 4 autres zones sont à surveiller (classe 2).
+
+
+#Il est préconisé la mise en conformité de la zone de stockage des huiles usées (rétention, jauge de niveau, etc.).
+
+18l0l0	Il_est_préconisé	O
+18l0l1	la_mise_en_conformité	N
+18l0l2	la_zone	O
+18l0l3	huiles_usées	O
+18l1l0	des_huiles_usées	U
+
+#Une surveillance des eaux souterraines est assurée par 3 piézomètres 2 fois par an.
+
+19l0l0	Une_surveillance_des_eaux_souterraines	A
+
+#Le 24 janvier 2012, un incident c'est produit sur le site.
+
+20l0l0	Le_24_janvier_2012__	T
+20l0l1	un_incident	N
+20l0l2	c__est_produit	N
+
+#L'inspection a été prévenue de la rupture des goujons de fixation qui ont entrainé de faibles panaches de combustion d'hydrocarbures.
+
+21l0l0	L__inspection	O
+21l0l1	a_été_prévenue	N
+21l0l2	la_rupture_des_goujons_de_fixation	O
+21l0l3	d__hydrocarbures	O
+21l1l0	combustion_d__hydrocarbures	U
+
+#En 2016, la société est placée en liquidation judiciaire.
+
+22l0l0	En_2016__	T
+22l0l1	la_société	O
+22l0l2	est_placée_en_liquidation_judiciaire	N
+
+#Le site doit être mis en sécurité ; notamment les poussières d'aciérie doivent être évacuées.
+
+23l0l0	Le_site	O
+23l0l1	aciérie	O
+23l0l2	doivent_être_évacuées	N

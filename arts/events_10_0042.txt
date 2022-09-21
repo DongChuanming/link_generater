@@ -1,0 +1,94 @@
+
+#10.0042
+#Unité d'agglomération et de conditionnement de charbon de bois.
+
+0l0l0	conditionnement_de_charbon_de_bois	A
+0l1l0	Unité	D
+0l1l1	charbon_de_bois	U
+
+#La société CARBONEX a pour vocation la production, l'ensachage et la vente de charbon de bois.
+
+1l0l0	La_société_CARBONEX	O
+1l0l1	a_pour_vocation	N
+1l0l2	la_production___l__ensachage_et_la_vente_de_charbon_de_bois	A
+1l1l0	La_société_CARBONEX	I
+1l1l1	charbon_de_bois	U
+
+#La production est scindée en deux:
+
+
+#Le charbon de vois d'une part,
+
+3l1l0	charbon	U
+
+#Les briquettes de charbon d'autre part.
+
+4l0l0	briquettes_de_charbon	O
+4l1l0	charbon	U
+
+#En parallèle, Carbonex va mettre en service une chaudière Biomasse et une nouvelle unité de carbonisation.
+
+5l0l0	Carbonex	O
+5l0l1	va_mettre_en_service	N
+5l0l2	une_nouvelle_unité_de_carbonisation	A
+5l1l0	Carbonex	I
+
+#Le site de CARBONEX est positionne sur un plateau calcaire surplombant le village de Gyé-sur-Seine et la vallée de la Seine.
+
+6l0l0	Le_site	O
+6l0l1	CARBONEX	O
+6l0l2	est_positionne_sur_un_plateau_calcaire_surplombant_le_village_de_Gyé_sur_Seine	L
+6l0l3	la	O
+6l0l4	vallée_de_la_Seine	L
+6l1l0	CARBONEX	I
+
+#AP du 9 octobre 2001: il est demandé à l'exploitant des réaliser un diagnostic initial ou étude des sols du site (analyse historique du site, "tude de vulnérabilité de l'environnement à la pollution, une visite de terrain et ses environs immédiats, un rapport de synthèse).
+
+7l0l0	9_octobre_2001	T
+7l0l1	l__exploitant	O
+7l0l2	réaliser_un_diagnostic_initial	N
+7l0l3	ses_environs_immédiats	O
+
+#Dans le cas où l'impact du site sur l'environnement serait constaté, l'exploitant fera réaliser une évaluation simplifiée des risques.
+
+8l0l0	l__exploitant	O
+8l0l1	fera_réaliser_une_évaluation_simplifiée_des_risques	N
+
+#Aucune régularisation administrative n'avait été effectuée par l'exploitant jusqu'à l'incendie qui s'est produit sur le site le 1er mai 2003 et qui a pu avoir un impact sur la qualité des sols et des eaux souterraines.
+
+9l0l0	Aucune_régularisation_administrative	O
+9l0l1	n__avait_été_effectuée	N
+9l0l2	l__exploitant	O
+9l0l3	jusqu__à	R
+9l0l4	l__incendie	N
+9l0l5	s__est_produit	N
+9l0l6	sur_le_site	L
+9l0l7	le_1er_mai_2003	T
+9l0l8	a_pu	R
+9l0l9	avoir_un_impact	N
+
+#Cette situation irrégulière ainsi que l'incendie ont conduit à prendre l'arrêté de mise en demeure du 17 mars 2006 pour risques de pollution des sols et demande d'une étude simplifiée des risques et un diagnostic initial.
+
+10l0l0	l__incendie	N
+10l0l1	ont_conduit_à_prendre	N
+10l0l2	l__arrêté_de_mise_en_demeure	O
+10l0l3	17_mars_2006	T
+10l0l4	risques_de_pollution_des_sols	O
+10l0l5	demande_d__une_étude_simplifiée_des_risques	N
+10l0l6	un_diagnostic_initial	N
+
+#La visite de décembre 2009 a été menée pour faire le point sur la situation administrative de l'établissement et vérifier le respect des arrêtés préfectoraux.
+
+11l0l0	La_visite	N
+11l0l1	de_décembre_2009	T
+11l0l2	a_été_menée	N
+11l0l3	la_situation_administrative	O
+
+#Un dossier de demande d'autorisation d'exploiter a été déposé en août 2011 et comprend une étude de sol (5 prélèvement de sol montrant un impact).
+
+12l0l0	Un_dossier_de_demande	N
+12l0l1	d__autorisation_d__exploiter	O
+12l0l2	a_été_déposé	N
+12l0l3	en_août_2011	T
+12l0l4	comprend	R
+12l0l5	une_étude_de_sol	N

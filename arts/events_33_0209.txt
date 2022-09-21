@@ -1,0 +1,199 @@
+
+#33.0209
+#Ancienne décharge d'ordures ménagères et déchets assimilés exploitée de 1972 à 1997 par la commune de Carcans.
+
+0l0l0	Ancienne_décharge	O
+0l0l1	exploitée	N
+0l0l2	de_1972_à_1997	T
+0l0l3	par	R
+0l0l4	la_commune	O
+0l0l5	de_Carcans	L
+0l1l0	ordures	S
+
+#Le terrain est situé au nord de la commune de Carcans, à proximité du lieu dit « Villeneuve ».
+
+1l0l0	Le_terrain	O
+1l0l1	est_situé_au_nord_de_la_commune_de_Carcans	L
+1l0l2	à_proximité_du_lieu_dit___Villeneuve	L
+
+#Il occupe une surface d’environ 2 ha.
+
+
+#I - MISE EN SECURITE
+
+3l0l0	MISE_EN_SECURITE	O
+3l1l0	SECURITE	I
+
+#A la fermeture de la décharge en 1997, tous les déchets ont été brûlés, le merlon de ceinture du site a été détruit et les matériaux ont été régalés sur les déchets restants (gravats, déchets verts et quelques déchets plastiques).
+
+4l0l0	A_la_fermeture	N
+4l0l1	la_décharge	O
+4l0l2	en_1997__	T
+4l0l3	tous_les_déchets	O
+4l0l4	ont_été_brûlés	N
+4l0l5	le_merlon	O
+4l0l6	de_ceinture_du_site	O
+4l0l7	a_été_détruit	N
+4l0l8	les_matériaux	O
+4l0l9	ont_été_régalés	N
+4l1l0	quelques_déchets_plastiques	U
+
+#II - DIAGNOSTIC
+
+5l0l0	DIAGNOSTIC	N
+
+#Les activités exercées sur ce site ayant pu être à l'origine de pollution potentielle du sol et du sous-sol, un diagnostic initial et une Évaluation Simplifiée des Risques (ESR) ont été prescrits par un courrier de la préfecture datant du 13/07/2004.
+
+6l0l0	Les_activités_exercées	N
+6l0l1	sur	R
+6l0l2	ce_site	O
+6l0l3	ayant_pu_être	R
+6l0l4	à_l__origine_de_pollution	R
+6l0l5	un_diagnostic_initial	N
+6l0l6	une_Évaluation_Simplifiée_des_Risques	N
+6l0l7	ESR___ont_été_prescrits	N
+6l0l8	la_préfecture	O
+6l0l9	datant_du_13_07_2004__	T
+
+#Une première étude a été transmise le 30/03/2005 et a fait l'objet d'un certain nombre de remarques de la part de l'Inspection des Installations Classées (IIC) qui demandait des investigations supplémentaires sur les eaux superficielles.
+
+7l0l0	Une_première_étude_a_été_transmise	N
+7l0l1	le_30_03_2005	T
+7l0l2	a_fait_l__objet_d_	R
+7l0l3	l__Inspection_des_Installations_Classées	O
+7l0l4	IIC	O
+
+#Une étude complémentaire est transmise en date du 07/03/2006.
+
+8l0l0	Une_étude_complémentaire	O
+8l0l1	est_transmise	N
+8l0l2	en_date_du_07_03_2006__	T
+
+#Cette ESR a classé le site en 3 « site banalisable », pour les usages du moment, mais suggère toutefois de procéder à un suivi qualitatif des eaux superficielles.
+
+9l0l0	Cette_ESR	O
+9l0l1	a_classé	N
+9l0l2	le_site	O
+9l0l3	site_banalisable	O
+
+#En effet, le rapport ne met pas en évidence une pollution importante de la craste de la Queytive et donc de la nappe, néanmoins compte tenu des forts enjeux du lac de Carcans-Hourtin, une surveillance des eaux superficielles est tout de même proposée.
+
+10l0l0	une_pollution_importante	N
+10l0l1	de_la_craste_de_la_Queytive	L
+10l0l2	Carcans___Hourtin	L
+10l0l3	une_surveillance_des_eaux_superficielles	A
+
+#Pour les biogaz, l’étude conclut en l’absence de risque du fait des très faibles concentrations trouvées en méthane et sur les autres paramètres lors des analyses.
+
+11l1l0	méthane	S
+
+#Les sondages réalisés sur le site ne montrent pas de pollution significative des sols et ne remettent donc pas en cause l’utilisation du terrain en stand de tir.
+
+12l0l0	Les_sondages_réalisés	N
+12l0l1	le_site	O
+12l0l2	de_tir	A
+
+#III - TRAVAUX
+
+13l1l0	TRAVAUX	I
+
+#L'arrêté du 11/10/2006 ne prescrit pas de règles particulières en matière de confinement du dépôt.
+
+14l0l0	L_	O
+14l0l1	11_10_2006	T
+14l0l2	ne_prescrit	N
+14l0l3	pas_de_règles	O
+
+#IV - SURVEILLANCE DES EAUX SOUTERRAINES
+
+15l0l0	SURVEILLANCE_DES_EAUX_SOUTERRAINES	O
+15l1l0	EAUX_SOUTERRAINES	I
+
+#L'arrêté du 11/10/2006 prescrit à la commune de Carcans le suivi semestriel des eaux superficielles concernant les paramètres suivants: pH, conductivité, DCO, azote total, ammonium, chlorures, sulfates, composés halogénés absorbables, manganèse, fer et salmonelles.
+
+16l0l0	L_	O
+16l0l1	11_10_2006	T
+16l0l2	prescrit	N
+16l0l3	la_commune	O
+16l0l4	de	R
+16l0l5	Carcans	L
+16l0l6	le_suivi_semestriel_des_eaux_superficielles	A
+16l1l0	DCO	S
+16l1l1	azote_total	S
+16l1l2	ammonium	S
+16l1l3	chlorures	S
+16l1l4	sulfates	S
+16l1l5	composés_halogénés_absorbables	S
+16l1l6	manganèse	S
+16l1l7	fer	S
+16l1l8	salmonelles	S
+
+#Le cours d'eau étant à sec la moitié de l'année, seule une campagne annuelle est menée.
+
+17l0l0	Le_cours_d__eau	O
+17l0l1	étant_à_sec_la	L
+17l0l2	moitié_de	R
+17l0l3	l__année	T
+17l0l4	campagne_annuelle	N
+17l0l5	est_menée	N
+
+#La prochaine aura lieu pendant l'hiver 2012-2013.
+
+18l0l0	La_prochaine	O
+18l0l1	aura_lieu	N
+18l0l2	pendant_l_	N
+18l0l3	hiver_2012___2013	T
+
+#V -RESTRICTIONS D'USAGES
+
+19l0l0	USAGES	O
+
+#L'arrêté du 11/10/2006 fixe les interdictions suivantes :
+
+20l0l0	L_	O
+20l0l1	11_10_2006	T
+20l0l2	fixe_les_interdictions	N
+
+#- de constructions à usage d'habitation,
+
+
+#- de travaux de voirie sauf ceux nécessaires à l'accès du site et à son entretien,
+
+
+#- de tous travaux d'affouillements, de sondage et de forage,
+
+23l0l0	de_tous_travaux_d__affouillements	N
+23l0l1	forage	N
+
+#- de cultures agricoles, potagères et de pâturage.
+
+
+#La procédure d'inscription aux hypothèques est laissée au choix de l'exploitant.
+
+25l0l0	l__exploitant	O
+
+#Non transmise à ce jour.
+
+
+#Le site abrite aujourd’hui un stand de tir.
+
+27l0l0	Le_site	O
+27l0l1	abrite_aujourd_hui	R
+27l0l2	un_stand_de_tir	O
+
+#La moitié de la surface de la décharge a été recouverte par des pins maritimes.
+
+28l0l0	la_décharge	O
+28l0l1	a	N
+28l0l2	été_recouverte_par	R
+28l0l3	des_pins_maritimes	O
+28l1l0	des_pins_maritimes	I
+
+#→ Pas de nouveaux éléments à la date de révision de la fiche.
+
+29l0l0	la_date_de_révision	N
+
+#Rapport de la campagne 2012/2013 non reçu.
+
+30l0l0	Rapport	R
+30l0l1	de_la_campagne_2012_2013	T

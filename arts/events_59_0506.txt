@@ -1,0 +1,104 @@
+
+#59.0506
+#Ancienne usine d'incinération d'ordures ménagères exploitée par la Communauté Urbaine de Dunkerque (CUD) entre 1970 et 1998.
+
+0l0l0	Ancienne_usine_d__incinération	N
+0l0l1	ordures_ménagères	O
+0l0l2	exploitée	N
+0l0l3	par	R
+0l0l4	la_Communauté_Urbaine_de_Dunkerque___CUD	O
+0l0l5	entre_1970_et_1998__	T
+0l1l0	la_Communauté_Urbaine_de_Dunkerque	I
+
+#Capacité : 1970, usine N°1 --> deux fours de 100t/j
+
+1l0l0	100t__	O
+1l0l1	j	T
+
+#1975, usine N°2 --> deux fours de 116t /j
+
+2l0l0	1975	T
+
+#Le site est localisé au sud de la commune de Dunkerque, sur le territoire de la ZI de Petite-Synthe, rue A Carrel.
+
+3l0l0	Le_site	O
+3l0l1	localisé_au_sud_de_la_commune_de_Dunkerque	L
+3l0l2	sur_le_territoire_de_la_ZI_de_Petite_Synthe	L
+3l0l3	rue_A_Carrel	L
+
+#Les habitations les plus proches sont à 400 m à l'ouest du site.
+
+4l0l0	Les_habitations_les_plus_proches	O
+4l0l1	sont_à_400_m_à_l__ouest_du_site	L
+
+#Il se trouve au sein du pôle de valorisation de déchets de la CUD, à proximité du nouvel incinérateur et centre de traitement organique.
+
+5l0l0	Il	O
+5l0l1	se_trouve_au_sein_du_pôle	L
+5l0l2	de_valorisation_de_déchets	O
+5l0l3	la_CUD	O
+5l0l4	à_proximité_du_nouvel	L
+5l0l5	incinérateur_et_centre_de_traitement_organique	A
+5l1l0	la_CUD	I
+
+#La CUD prépare la reconversion de l'ensemble de la plate-forme et prévoit la destruction de l'ancienne UIOM.
+
+6l0l0	La_CUD	O
+6l0l1	prépare	R
+6l0l2	la_reconversion	N
+6l0l3	l_	O
+6l0l4	la_plate___forme	O
+6l0l5	prévoit_la_destruction	N
+6l0l6	l__ancienne_UIOM	O
+6l1l0	La_CUD	I
+
+#Mémoire de cessation d'acitvité et de réhabilitation (février 2009) complété un diagnostic de sol et plan de gestion (avril 2010)
+
+7l0l0	Mémoire_de_cessation_d__acitvité	O
+7l0l1	de_réhabilitation	N
+7l0l2	__février_2009__	T
+7l0l3	complété_un_diagnostic	N
+7l0l4	plan_de_gestion	N
+7l0l5	__avril_2010__	T
+
+#Diagnostic des sols : présence de métaux et hydrocarbures et dioxines dans les boues du décanteur.
+
+8l0l0	Diagnostic_des_sols	N
+8l1l0	métaux	S
+8l1l1	hydrocarbures	S
+8l1l2	dioxines	S
+
+#Concentrations supérieures aux valeurs de référence en métaux sur deux échantillons et en dioxines sur un échantillon.
+
+9l1l0	métaux	S
+9l1l1	dioxines	S
+
+#Absence de BTEX ou de cyanures.
+
+10l1l0	BTEX	S
+10l1l1	cyanures	S
+
+#Plan de gestion :
+
+
+#zone 1 (décanteur) : évacuation
+
+
+#zone 2 (emprise générale) : confinement + évacuation du surplus en fonction des aménagements
+
+13l0l0	zone_2	O
+13l0l1	évacuation	N
+13l0l2	du_surplus	O
+
+#zone 3  (proximité volucompteur impacté au plomb et aux hydrocarbures) : excavation.
+
+14l0l0	zone_3	O
+14l0l1	__excavation	N
+14l1l0	au_plomb	S
+14l1l1	aux_hydrocarbures	S
+
+#EQRS : compte tenu de projet d'aménagement et des mesures prises (suppression des sources et imperméabilisation) le risque sanitaire est considéré comme acceptable.
+
+15l0l0	suppression	N
+15l0l1	imperméabilisation	N
+15l1l0	EQRS	I

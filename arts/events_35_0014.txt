@@ -1,0 +1,443 @@
+
+#35.0014
+#La société SOLVADIS France a été autorisée par arrêté en date du 29 août 2003 à exploiter une installation de stockage et de conditionnement de produits chimiques et inflammables sur la commune de Saint-Jacques-de-la-Lande.
+
+0l0l0	La_société_SOLVADIS_France	O
+0l0l1	a_été_autorisée_par_arrêté	N
+0l0l2	en_date_du_29_août_2003	T
+0l0l3	exploiter	N
+0l0l4	une_installation_de_stockage_et_de_conditionnement_de_produits_chimiques_et_inflammables	O
+0l0l5	sur_la_commune_de_Saint_Jacques_de_la_Lande	L
+0l1l0	La_société_SOLVADIS_France	I
+0l1l1	produits_chimiques	U
+0l1l2	et_inflammables	U
+
+#Par arrêté préfectoral du 6 octobre 2005, la société QUARON a repris l'exploitation de l’établissement SOLVADIS.
+
+1l0l0	Par_arrêté_préfectoral	O
+1l0l1	du_6_octobre_2005__	T
+1l0l2	la_société_QUARON	O
+1l0l3	a_repris_l__exploitation	N
+1l0l4	l__établissement_SOLVADIS	O
+1l1l0	la_société_QUARON	I
+1l1l1	SOLVADIS	I
+
+#I/ L'arrêté préfectoral du 29 août 2003 prescrit la surveillance des eaux souterraines et des sols, et notamment la réalisation d'un diagnostic initial et d'une étude simplifiée des risques (ESR) sur l'ensemble du site.
+
+2l0l0	L__arrêté_préfectoral	O
+2l0l1	29_août_2003	T
+2l0l2	prescrit	N
+2l0l3	la_surveillance_des_eaux_souterraines	A
+2l0l4	la_réalisation_d__un_diagnostic_initial	N
+2l0l5	d__une_étude_simplifiée_des_risques	N
+
+#I/1- Données sur les sols
+
+
+#Les conclusions de l'ESR s'appuient sur un diagnostic de pollution mené en 1997 sur l'ensemble du site LANGLOIS Chimie (SOLVADIS et SPEICHIM PROCESSING n°Basol 35.0015) :
+
+4l0l0	un_diagnostic_de_pollution	N
+4l0l1	mené	N
+4l0l2	en_1997	T
+4l0l3	site_LANGLOIS_Chimie	A
+4l1l0	l__ESR	I
+4l1l1	SOLVADIS	I
+4l1l2	SPEICHIM_PROCESSING	I
+
+#- pour les sols : indice HCT, composés organo-halogénés volatils (dont le tétrachloréthylène), légères odeurs.
+
+5l1l0	composés_organo___halogénés_volatils	S
+5l1l1	le_tétrachloréthylène	S
+
+#- pour les eaux : indice HCT, composés organo-halogénés volatils, chlorures, nitrates, sulfates.
+
+6l1l0	HCT	S
+6l1l1	composés_organo___halogénés_volatils	S
+6l1l2	chlorures	S
+6l1l3	nitrates	S
+6l1l4	sulfates	S
+
+#L'étude conclut en l'absence de pollution de sol, au droit des zones investiguées en 1997.
+
+7l0l0	zones_investiguées	O
+7l0l1	en_1997__	T
+
+#I/2- Données sur les eaux souterraines
+
+
+#Les eaux des 6 piézomètres présents sur le site ainsi que de 8 ouvrages extérieurs (4 puits privés, 2 piézomètres implantés dans des entreprises voisines, l'étang de la Piblais et le bassin tampon) ont été analysés.
+
+9l0l0	Les_eaux	O
+9l0l1	6_piézomètres	O
+9l0l2	8_ouvrages_extérieurs	O
+9l0l3	des_entreprises_voisines	O
+9l0l4	ont_été_analysés	N
+
+#Ils mettent en évidence un impact sur la nappe par :
+
+10l0l0	la_nappe	O
+
+#* le trichloroéthylène (TCE),
+
+11l1l0	le_trichloroéthylène	S
+11l1l1	TCE	S
+
+#* le tétrachloroéthylène (PCE),
+
+12l1l0	le_tétrachloroéthylène	S
+12l1l1	PCE	S
+
+#* le dichlorométhane,
+
+13l1l0	le_dichlorométhane	S
+
+#* le trichlorométhane,
+
+14l1l0	le_trichlorométhane	S
+
+#* le cis 1,2 dichloroéthylène (cis-1,2-DCE),
+
+15l1l0	cis_1_2_dichloroéthylène	S
+15l1l1	cis_1_2_DCE	I
+
+#* le 1,1 dichloroéthylène,
+
+16l1l0	le_1_1_dichloroéthylène	S
+
+#* le chloroforme,
+
+17l1l0	chloroforme	S
+
+#* le chlorure de vinyle,
+
+18l1l0	chlorure_de_vinyle	S
+
+#* les benzène, toluène, éthylène, xylène (BTEX),
+
+19l1l0	_	D
+19l1l1	les_benzène	S
+19l1l2	toluène	S
+19l1l3	éthylène	S
+19l1l4	xylène	S
+19l1l5	BTEX	S
+
+#* les hydrocarbures,
+
+20l1l0	hydrocarbures	S
+
+#* les métaux lourds (Cr, Ni, Zn).
+
+21l1l0	les_métaux_lourds	S
+21l1l1	Cr	S
+21l1l2	Ni	S
+21l1l3	Zn	S
+
+#Au regard du milieu eaux souterraines (usage AEP et non AEP), le site se trouve en classe 1 "site nécessitant des investigations complémentaires et une EDR" pour les substances : chlorure de vinyle, BTEX, TCE, chloroforme, tétrachlorométhane, dichlorométhane, butanol-2.
+
+22l0l0	le_site	O
+22l0l1	se_trouve	L
+22l0l2	en_classe_1	N
+22l0l3	__site	O
+22l0l4	nécessitant_des_investigations_complémentaires	N
+22l1l0	les_substances	S
+22l1l1	chlorure_de_vinyle	S
+22l1l2	BTEX	S
+22l1l3	TCE	S
+22l1l4	chloroforme	S
+22l1l5	tétrachlorométhane	S
+22l1l6	dichlorométhane	S
+22l1l7	butanol_2	S
+
+#Au regard du milieu eaux superficielles (usage non AEP), le site se trouve en classe 1 "site nécessitant des investigations complémentaires et une EDR" pour les substances : chlorure de vinyle, benzène, TCE, chloroforme, tétrachlorométhane, dichlorométhane ; et en classe 2 "site nécessitant une surveillance" pour les substances : toluène, ethylbenzène, xylène et butanol-2.
+
+23l0l0	le_site	O
+23l0l1	se_trouve_en_classe	L
+23l1l0	les_substances	S
+23l1l1	chlorure_de_vinyle	S
+23l1l2	benzène	S
+23l1l3	TCE	S
+23l1l4	chloroforme	S
+23l1l5	tétrachlorométhane	S
+23l1l6	dichlorométhane	S
+23l1l7	les_substances	S
+23l1l8	toluène	S
+23l1l9	ethylbenzène	S
+23l1l10	xylène	S
+23l1l11	butanol_2	S
+
+#Il apparaît un impact important en COHV en latéral hydraulique et en COHV et BTEX en aval hydraulique.
+
+24l0l0	un_impact	O
+24l0l1	aval_hydraulique	L
+24l1l0	COHV	S
+24l1l1	COHV	S
+24l1l2	BTEX	S
+
+#Compte-tenu de la répartition de la pollution dans les eaux souterraines, deux sources de pollution sont identifiées :
+
+25l0l0	deux_sources_de_pollution	O
+25l0l1	sont_identifiées	N
+
+#- une source en COHV et BTEX au niveau de l'ancienne zone (A2) de stockage vrac des solvants de l'entreprise Solvadis,
+
+26l0l0	une_source_en_COHV	O
+26l0l1	au	L
+26l0l2	niveau_de	R
+26l0l3	l__ancienne_zone	O
+26l0l4	solvants	O
+26l0l5	l__entreprise_Solvadis	O
+26l1l0	COHV_et_BTEX	S
+26l1l1	solvants	U
+26l1l2	Solvadis	I
+
+#- une source en COHV au niveau de l'ancienne zone (A1) de chargement/déchargement de l'entreprise Solvadis.
+
+27l0l0	une_source_en_COHV	O
+27l0l1	au_niveau_de_l__ancienne_zone___A1___de_chargement___déchargement	N
+27l0l2	l__entreprise_Solvadis	O
+27l1l0	COHV	S
+27l1l1	Solvadis	I
+
+#L'extension de la pollution hors site, en aval, implique que l'origine provient du site de QUARON (ex-Solvadis) (pollution par le benzène, le chlorure de vinyle, le cis-1,2-DCE, les TCE et le PCE).
+
+28l0l0	L__extension	N
+28l0l1	la_pollution_hors_site	O
+28l0l2	en_aval	L
+28l0l3	l__origine	O
+28l0l4	provient_du	R
+28l0l5	site	N
+28l0l6	QUARON	O
+28l0l7	ex_Solvadis	O
+28l1l0	QUARON	I
+28l1l1	ex_Solvadis	I
+28l1l2	le_benzène	S
+28l1l3	le_chlorure_de_vinyle	S
+28l1l4	le_cis_1_2_DCE	S
+28l1l5	les_TCE	S
+28l1l6	le_PCE	S
+
+#Une source potentielle de pollution en amont du site est possible, pour les paramètres BTEX et COHV.
+
+29l0l0	Une_source_potentielle_de_pollution	O
+29l0l1	en_amont_du_site	L
+29l1l0	BTEX	S
+29l1l1	COHV	S
+
+#Parallèlement, des études ont été menées sur le site voisin de SPEICHIM, situé à l'amont est du site de QUARON.
+
+30l0l0	des_études_ont_été_menées	N
+30l0l1	sur	L
+30l0l2	le_site_voisin_de_SPEICHIM	O
+30l0l3	situé_à_l__amont_est_du_site_de_QUARON	L
+30l1l0	SPEICHIM	I
+
+#Les analyses des eaux souterraines en aval du site de SPEICHIM (et donc à l'amont du site de QUARON) ont révélé la présence de BTEX et de COHV.
+
+31l0l0	Les_analyses	N
+31l0l1	eaux_souterraines	O
+31l0l2	en_aval_du_site_de_SPEICHIM	O
+31l0l3	amont_du_site_de_QUARON	L
+31l0l4	la_présence	O
+31l1l0	SPEICHIM	I
+31l1l1	BTEX	S
+31l1l2	COHV	S
+
+#II/ Suite aux constats réalisés à l'issue de l'ESR, un arrêté préfectoral du 25 novembre 2004 prescrit la réalisation d'une étude détaillée des risques (EDR).
+
+32l0l0	aux_constats	N
+32l0l1	un_arrêté_préfectoral	O
+32l0l2	25_novembre_2004	T
+32l0l3	prescrit_la_réalisation_d__une_étude_détaillée_des_risques	N
+
+#II/1- Données sur les sols et l'air du sol
+
+
+#* pH : les mesures des échantillons de sol montrent des anomalies de pH acides (jusqu'à 3,1) ou basiques (jusqu'à 9,3).
+
+34l1l0	acides	S
+
+#* BTEX et autres CAV
+
+35l1l0	__BTEX	I
+35l1l1	CAV	I
+
+#La détection du benzène varie de l'état de trace à la très forte concentration, suivant la localisation du sondage.
+
+36l1l0	benzène	S
+
+#Le toluène, le xylène et l'éthylbenzène sont détectés en forte concentration en surface, qui diminue avec la profondeur.
+
+37l0l0	sont_détectés	N
+37l1l0	Le_toluène	S
+37l1l1	le_xylène	S
+37l1l2	éthylbenzène	S
+
+#Des traces de CAV sont également détectées.
+
+38l1l0	CAV	S
+
+#* COHV
+
+39l1l0	__COHV	I
+
+#Le PCE, le TCE, le chlorure de vinyle, le cis-1,2-DCE et le dichlorométhane ont été détectés dans au moins un sondage à une concentration supérieure à la valeur de référence VDSS.
+
+40l0l0	ont_été_détectés	N
+40l1l0	Le_PCE	S
+40l1l1	le_TCE	S
+40l1l2	le_chlorure_de_vinyle	S
+40l1l3	le_cis_1_2_DCE	S
+40l1l4	dichlorométhane	S
+
+#Deux sources sol ont ainsi été mises en évidence :
+
+
+#- une source de pollution par les solvants de part et d'autre des ateliers de fabrication et de conditionnement (B1) : toluène, xylène pour les CAV et PCE, TCE, chlorure de vinyle et dichlorométhane pour les COHV.
+
+42l0l0	une_source_de_pollution	O
+42l0l1	fabrication_et_de_conditionnement	A
+42l1l0	solvants	U
+42l1l1	toluène	S
+42l1l2	xylène	S
+42l1l3	les_CAV	I
+42l1l4	PCE	I
+42l1l5	TCE	S
+42l1l6	chlorure_de_vinyle	S
+42l1l7	dichlorométhane	S
+42l1l8	les_COHV	I
+
+#- une source de pollution par des acides et des bases dans la partie est et sud-est du site.
+
+43l0l0	une_source_de_pollution	O
+43l0l1	des_acides	O
+43l0l2	des_bases	O
+43l0l3	dans_la_partie_est_et_sud_est_du_site	L
+43l1l0	des_acides	U
+
+#II/2- Données sur les eaux souterraines
+
+
+#* pH : des anomalies de pH acide ont été mises en évidence.
+
+45l1l0	pH	S
+45l1l1	pH_acide	S
+
+#* BTEX et CAV
+
+46l1l0	__BTEX	I
+46l1l1	CAV	I
+
+#Les BTEX présentent des concentrations supérieures aux valeurs de référence au droit des zones sources sols et en aval immédiat.
+
+47l0l0	en_aval_immédiat	L
+47l1l0	Les_BTEX	S
+
+#Dans les piézomètres hors site, des teneurs en benzène supérieures aux valeurs de référence ont été détectées.
+
+48l0l0	ont_été_détectées	N
+48l1l0	benzène	S
+
+#* COHV
+
+49l1l0	__COHV	I
+
+#La synthèse des analyses des eaux souterraines montre qu'il existe un impact sur la nappe au droit du site en composés volatils (BTEX et notamment le benzène, les COHV et notamment les TCE, PCE, cis-1,2-DCE, chlorure de vinyle, dichlorométhane et trichlorométhane).
+
+50l1l0	BTEX	S
+50l1l1	le_benzène	S
+50l1l2	les_COHV	S
+50l1l3	les_TCE	S
+50l1l4	PCE	S
+50l1l5	cis_1_2_DCE	S
+50l1l6	chlorure_de_vinyle	S
+50l1l7	dichlorométhane	S
+50l1l8	trichlorométhane	S
+
+#* Alcools et solvants polaires
+
+
+#Ces composés sont retrouvés dans les eaux souterraines en assez forte concentration.
+
+52l1l0	composés	S
+
+#L'absence de valeur limite pour ces substances ne permet pas d'affirmer leur impact sur le milieu.
+
+
+#II/3- Données sur les eaux superficielles
+
+
+#Un prélèvement d'eau a été effectué dans l'étang de la Piblais, qui reçoit les eaux de rejet du bassin tampon de la zone industrielle.
+
+55l0l0	Un_prélèvement_d__eau	O
+55l0l1	a_été_effectué	N
+55l0l2	dans_l__étang_de_la_Piblais	O
+55l0l3	reçoit	A
+55l0l4	les_eaux_de_rejet	O
+55l0l5	bassin_tampon	O
+55l0l6	la_zone_industrielle	O
+
+#Des traces de COHV ont été retrouvées et vraisemblablement associées au rejet des eaux pluviales du bassin tampon de Bellevue.
+
+56l0l0	Des_traces_de_COHV	O
+56l0l1	ont_été_retrouvées	N
+56l0l2	vraisemblablement_associées_au_rejet	R
+56l0l3	bassin_tampon_de_Bellevue	L
+56l1l0	COHV	S
+
+#Les modes de transfert et d'exposition considérés dans l'étude est l'inhalation de polluants sous forme gazeuse (BTEX et COHV) issus des eaux souterraines, pour les travailleurs adultes de la zone industrielle.
+
+57l0l0	l__inhalation	N
+57l0l1	de_polluants	N
+57l0l2	zone_industrielle	O
+57l1l0	polluants_sous_forme_gazeuse	U
+57l1l1	BTEX	S
+57l1l2	COHV	S
+
+#L'EDR montre que les risques cancérigènes et non cancérigène pour les hypothèses de l'étude sont acceptables.
+
+58l1l0	cancérigènes	U
+58l1l1	cancérigène	I
+
+#La modélisation de la migration de la pollution hors site permet d'écarter l'hypothèse d'un impact du site sur la qualité des eaux utilisées pour l'AEP au captage de Lillion ainsi que sur celles utilisées par les puits privés au NO du site.
+
+59l0l0	la_pollution_hors_site	O
+59l0l1	l__AEP	A
+59l0l2	au_captage_de_Lillion	L
+59l0l3	au_NO_du_site	L
+
+#En l'état actuel d'un usage industriel du site, aucune dépollution de la nappe n'est nécessaire.
+
+60l0l0	un_usage_industriel	N
+60l0l1	site	O
+60l0l2	dépollution	N
+60l0l3	la_nappe	O
+
+#Cependant, une restriction d'usage de l'eau (interdiction de tout autre usage qu'industriel) doit perdurer et le contrôle des eaux souterraines doit être maintenu.
+
+61l0l0	une_restriction	N
+61l0l1	l__eau	O
+61l0l2	doit_perdurer	T
+61l0l3	le_contrôle_des_eaux_souterraines	A
+
+#Au vu de l'ensemble des études et des conclusions, l'exploitant doit établir une démarche de prévention et de gestion des émissions ; il doit proposer un plan de gestion et de surveillance de l'impact des installations classées sur son environnement extérieur.
+
+62l0l0	l__exploitant	O
+62l0l1	doit_établir	R
+62l0l2	une_démarche_de_prévention_et_de_gestion_des_émissions	O
+62l0l3	surveillance	O
+62l0l4	installations_classées	N
+
+#Le bilan historique de la surveillance des eaux souterraines (réalisé sur la période 2005-2011) permet de conclure à une stabilité des niveaux de pollution.
+
+63l0l0	Le_bilan_historique	N
+63l0l1	surveillance_des_eaux_souterraines	A
+63l0l2	la_période_2005___2011	T
+63l0l3	niveaux_de_pollution	O
+
+#Au regard de cette stabilité, la société QUARON demande à réduire la fréquence de surveillance des paramètres, actuellement suivis tous les trimestres, à 6 mois.
+
+64l0l0	la_société_QUARON	O
+64l0l1	la_fréquence	O
+64l0l2	surveillance_des_paramètres	A
+64l0l3	suivis_tous_les_trimestres	A
+64l1l0	la_société_QUARON	I

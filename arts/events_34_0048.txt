@@ -1,0 +1,195 @@
+
+#34.0048
+#Ce site en zone urbaine a été occupée par une station service exploitée entre 1956 et 2007.
+
+0l0l0	Ce_site	O
+0l0l1	en_zone_urbaine	L
+0l0l2	a_été_occupée_par	N
+0l0l3	une_station	O
+0l0l4	service_exploitée	N
+0l0l5	entre_1956_et_2007__	T
+
+#L'environnement immédiat du site est composé :
+
+1l0l0	environnement_immédiat	O
+
+#- au Nord-Est, par une coopérative viticole ;
+
+2l0l0	au_Nord_Est	L
+
+#- au Sud-Est, par une habitation et un garage de contrôle technique ;
+
+3l0l0	au_Sud_Est	L
+3l0l1	une_habitation	O
+3l0l2	un_garage_de_contrôle_technique	O
+
+#- au Sud, par une habitation ;
+
+4l0l0	au_Sud	L
+
+#- à l’Ouest, par un supermarché.
+
+5l0l0	à_l__Ouest	L
+
+#D’autres stations-service sont répertoriées à proximité du site.
+
+6l0l0	à_proximité_du_site	L
+
+#Lors de l’arrêt de la station service, les installations comportaient :
+
+7l0l0	Lors_de_l_	N
+7l0l1	arrêt_de_la_station_service	O
+7l0l2	les_installations	O
+
+#- 4 réservoirs enterrés mis en service en 1956 : 1 réservoir (R1) de SP98 (15 m3), 1 réservoir (R2) de SP95 (15 m3), 2 réservoirs de GO (R3 : 15 m3 et R4 : 7,5 m3).
+
+8l0l0	4_réservoirs_enterrés	O
+8l0l1	mis_en_service	N
+8l0l2	en_1956	T
+8l0l3	1_réservoir	O
+8l1l0	4_réservoirs_enterrés	D
+8l1l1	SP98	S
+8l1l2	SP95	S
+8l1l3	GO	U
+
+#Le réservoir de GO de 7,5 m3 a contenu jusqu’en dans les années 1980 du FOD ;
+
+9l0l0	Le_réservoir_de_GO	O
+9l0l1	a_contenu	N
+9l0l2	jusqu__en_dans_les_années_1980	T
+9l1l0	FOD	S
+
+#- 4 volucompteurs (2 GO, 1 SP98 et 2 SP95) ;
+
+10l1l0	SP98	S
+10l1l1	SP95	S
+
+#- 2 points de remplissage de GO à proximité des cuves de GO ;
+
+11l0l0	2_points_de_remplissage	O
+11l0l1	à_proximité_des_cuves	L
+11l1l0	cuves_de_GO	D
+
+#- 1 point de remplissage SP95 et un de SP98, à proximité des cuves de SP95 et SP98.
+
+12l0l0	à_proximité_des_cuves	L
+12l1l0	SP95	I
+12l1l1	SP98	S
+12l1l2	cuves	D
+12l1l3	SP95	S
+12l1l4	SP98	S
+
+#Des travaux de démantèlement et d’extraction des cuves d’hydrocarbures ont été effectués en 2007.
+
+13l0l0	Des_travaux_de_démantèlement	N
+13l0l1	d__extraction_des_cuves_d__hydrocarbures	O
+13l0l2	ont_été_effectués	N
+13l0l3	en_2007__	T
+13l1l0	des_cuves_d_	D
+13l1l1	hydrocarbures	S
+
+#Ils ont consisté :
+
+
+#- au démantèlement et à l’extraction des cuves de GO (cuves R3 et R4) ;
+
+15l0l0	démantèlement	N
+15l0l1	l__extraction_des_cuves	N
+15l1l0	cuves_de_GO	D
+
+#- au dégazage et à la neutralisation avec du béton des cuves de SP (95 et 98).
+
+16l0l0	au_dégazage	N
+16l0l1	la_neutralisation	N
+16l0l2	avec_du_béton	O
+16l1l0	cuves	D
+16l1l1	de_SP	U
+
+#Ces cuves (R1 et R2) n’ont pas été extraites en raison d’un risque de déstabilisation du bâtiment présent sur le site (boutique).
+
+17l0l0	n__ont_pas_été_extraites	N
+17l1l0	cuves	D
+
+#Aucun travaux de terrassement n’a été réalisé au niveau de l’ancien îlot de distribution.
+
+18l0l0	Aucun_travaux_de_terrassement	N
+18l0l1	a_été_réalisé	N
+
+#La station a été réaménagée en un commerce au rez-de-chaussée (boulangerie et épicerie) et une habitation à l’étage.
+
+19l0l0	La_station	O
+19l0l1	a_été_réaménagée_en	N
+19l0l2	un_commerce	O
+19l0l3	une_habitation	O
+
+#La cessation d'activité a été notifiée en préfecture de l'Hérault le 23 avril 2007.
+
+20l0l0	La_cessation_d__activité	N
+20l0l1	a_été_notifiée	N
+20l0l2	en_préfecture_de_l__Hérault	N
+20l0l3	le_23_avril_2007__	T
+
+#Les études suivantes ont été réalisées:
+
+21l0l0	ont_été_réalisées	N
+
+#- Diagnostic environnemental de la station-service établie le 28 mai 2007
+
+22l0l0	Diagnostic_environnemental	N
+22l0l1	la_station___service	O
+22l0l2	établie	N
+22l0l3	le_28_mai_2007	T
+
+#- Rapport final de prise en charge des terres polluées
+
+23l0l0	terres_polluées	O
+
+#- Suivi d’extraction des cuves établie le 31 juillet 2007
+
+24l0l0	cuves	O
+24l0l1	établie	N
+24l0l2	le_31_juillet_2007	T
+
+#- Évaluation Quantitative des Risques Sanitaires (EQRS) établi le 20 mai 2008.
+
+25l0l0	établi	N
+25l0l1	le_20_mai_2008__	T
+25l1l0	Sanitaires	S
+
+#Cette étude a comporté des mesures de la qualité de l’air ambiant dans les locaux commerciaux présents sur le site.
+
+26l0l0	Cette_étude_a_comporté	N
+26l0l1	des_mesures	N
+26l0l2	la_qualité_de_l__air_ambiant	O
+
+#- Bilan quadriennal en date du 12 novembre 2012 (suivi eaux souterraines et eau de puits privés situés au voisinage du site).
+
+27l0l0	quadriennal	O
+27l0l1	en_date_du_12_novembre_2012	T
+27l0l2	situés_au_voisinage_du_site	L
+
+#Teneurs en polluants résiduels dans les sols, après travaux d'excavation des infrastructures :
+
+28l0l0	après_travaux_d__excavation	N
+28l0l1	infrastructures	O
+28l1l0	polluants	U
+
+#Certaines zones restent localement impactées par les hydrocarbures (9000 mg/kg d’HCT C10-40 au niveau du poste de distribution à 3 m de profondeur, notamment) et justifient à ce titre la création d'un SIS (secteur d'information pour les Sols).
+
+29l0l0	Certaines_zones	O
+29l1l0	hydrocarbures	S
+29l1l1	d__HCT_C10__	S
+
+#Un Secteur d'information sur les sols (SIS) a été acté par arrêté préfectoral du 9 août 2018 sur les terrains concernés par la pollution.
+
+30l0l0	a_été_acté	N
+30l0l1	par_arrêté_préfectoral	O
+30l0l2	9_août_2018	T
+30l0l3	les_terrains_concernés	O
+30l0l4	par_la_pollution	N
+
+#Tout projet d'aménagement devra faire appel à un bureau d'études certifié dans le domaine des sites et sols pollués pour garantir la compatibilité du projet avec l'état du sol.
+
+31l0l0	Tout_projet_d_	N
+31l0l1	un_bureau_d__études	O
+31l0l2	sols_pollués	O

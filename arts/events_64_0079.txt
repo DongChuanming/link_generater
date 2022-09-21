@@ -1,0 +1,102 @@
+
+#64.0079
+#Garage et station service exploités par la société Vinches, puis par la société AS 24 depuis le 03/06/2005, Route de Bordeaux sur la commune de SERRES-CASTET (64).
+
+0l0l0	Garage_et_station	N
+0l0l1	service_exploités	O
+0l0l2	Vinches___puis_par_la_société_AS_24_depuis_le_03_06_2005___Route	A
+
+#L'installation fonctionne sous le régime de la déclaration (récépissé du 6 mars 1997).
+
+1l0l0	L__installation	O
+1l0l1	fonctionne	N
+1l0l2	sous_le_régime_de	O
+1l1l0	régime_de_la	I
+
+#Le récépissé de déclaration de changement d'exploitant est délivré à la société AS 24 le 03/06/2005.
+
+2l0l0	Le_récépissé_de_déclaration_de_changement	N
+2l0l1	d__exploitant_est	O
+2l0l2	à_la_société_AS	O
+2l0l3	24_le_03_06_2005__	T
+2l1l0	changement_d__exploitant_est	I
+2l1l1	à_la_société_AS_24	I
+
+#1 - DIAGNOSTIC
+
+
+#Lors de la vente et de la cession des installations à la société AS24, cette dernière fait réaliser un diagnostic des sols par le cabinet ADEP.
+
+4l0l0	Lors_de_la_vente_et_de_la_cession	O
+4l0l1	des_installations_à_la_société	O
+4l0l2	AS24___cette	N
+4l0l3	dernière_fait	O
+4l0l4	réaliser_un_diagnostic_des_sols_par_le_cabinet_ADEP__	T
+4l1l0	cette_dernière_fait	I
+
+#Ce diagnostic remis le 5/11/2003 révèle la pollution des terrains situés au dessus du radier des postes de distribution.
+
+5l0l0	diagnostic_remis_le_5_11_2003_révèle_la_pollution_des_terrains_situés_au_dessus_du_radier_des_postes_de_distribution__	N
+
+#2 - TRAVAUX
+
+6l0l0	TRAVAUX	N
+
+#l'arrêté préfectoral du 14 septembre 2004 prescrit, à l'échéance du 14 mars 2005, les travaux d'excavation des terres polluées et leur évacuation vers un centre de traitement prévu et autorisé à cet effet.
+
+7l0l0	l__arrêté_préfectoral	N
+7l0l1	du_14_septembre	T
+7l0l2	2004_prescrit__	O
+7l0l3	à_l__échéance	O
+7l0l4	du_14_mars_2005___les	L
+7l0l5	travaux	O
+7l0l6	excavation_des_terres_polluées	N
+
+#Le rapport de fin de travaux est remis le 25/02/2005 et fait état de 151 tonnes de terres excavées et envoyées en décharge de classe 1 à Bellegarde (30).
+
+8l0l0	rapport_de_fin_de_travaux_est_remis_le_25_02_2005_et_fait_état_de_151_tonnes_de_terres_excavées_et_envoyées_en_décharge_de_classe_1_à_Bellegarde___30____	O
+8l1l0	rapport_de_fin_de_travaux_est_remis_le_25_02_2005_et_fait_état_de_151_tonnes_de_terres_excavées_et_envoyées_en_décharge_de_classe_1_à_Bellegarde___30____	I
+
+#Le courrier de la DRIRE du 26/05/2005 au Préfet constitue le procès-verbal de récolement des travaux et propose la délivrance du récépissé de déclaration de changement d'exploitant.
+
+9l0l0	Le_courrier_de_la_DRIRE	O
+9l0l1	26_05_2005_au_Préfet_constitue	T
+9l0l2	le_procès_verbal_de_récolement	T
+9l0l3	des_travaux_et_propose	N
+9l0l4	la_délivrance_du	O
+9l0l5	récépissé_de_déclaration	N
+9l0l6	de_changement_d__exploitant	O
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+10l0l0	3___SURVEILLANCE_DES_EAUX	O
+10l0l1	SOUTERRAINES	N
+
+#Le diagnostic du 25/02/2003 ne mentionne pas d'impact de la nappe.
+
+11l0l0	Le_diagnostic	O
+11l0l1	du_25_02_2003	O
+11l0l2	ne_mentionne	T
+11l1l0	du_25_02_2003	I
+11l1l1	mentionne_pas_d_	S
+
+#La pollution des terres se limiterait à la partie non saturée.
+
+12l0l0	pollution_des_terres_se_limiterait_à_la_partie_non_saturée__	O
+12l1l0	se_limiterait_à_la_partie_non_saturée__	I
+
+#La surveillance périodique des eaux souterraines n'est donc pas nécessaire.
+
+13l0l0	La_surveillance	N
+13l0l1	périodique	T
+
+#4 - SOLDE
+
+
+#Le 03/07/2009, la DRIRE estime qu’une action complémentaire de l'Inspection des Installations Classées sur ce site n’est pas nécessaire.
+
+15l0l0	Le_03_07_2009___la_DRIRE_estime_qu__une_action_complémentaire	A
+
+#La DRIRE propose de basculer ce site dans la Base de données des Anciens Sites Industriels et Activités de Service (BASIAS).
+
+16l1l0	DRIRE_propose_de_basculer_ce_site_dans_la_Base_de_données_des_Anciens_Sites_Industriels_et_Activités_de_Service___BASIAS____	I

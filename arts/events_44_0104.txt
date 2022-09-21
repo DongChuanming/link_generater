@@ -1,0 +1,350 @@
+
+#44.0104
+#La consultation des photographies aériennes de l'Institut Géographique a permis de constater la présence de champs et d’une exploitation agricole de 1949 à 1966 au droit de la zone, puis, l'aménagement de hangars entre 1966 et 1979 au droit du site.
+
+0l0l0	photographies_aériennes	O
+0l0l1	l__Institut_Géographique	O
+0l0l2	une_exploitation_agricole	O
+0l0l3	de_1949_à_1966	T
+0l0l4	au_droit_de	R
+0l0l5	la_zone	O
+0l0l6	l__aménagement_de_hangars	O
+0l0l7	entre_1966_et_1979	T
+0l0l8	au_droit_du_site	L
+
+#Ces aménagements ont donc nécessité l’apport de remblais pour la construction des plates-formes des bâtiments.
+
+1l0l0	Ces_aménagements	N
+1l0l1	l__apport_de_remblais	O
+1l0l2	la_construction_des_plates___formes	O
+
+#Ensuite, différentes activités ont été effectuées sur le site :
+
+
+#-1ère activité (avant 1987) : concession de tracteurs (propriétaire M.
+
+3l0l0	_1ère_activité	O
+3l0l1	__avant_1987__	T
+3l0l2	_	R
+3l0l3	__concession_de_tracteurs	O
+
+#Gueutier), sur l’ensemble du site ;
+
+
+#-2ème activité, de 1987 à 2007 : entreprise de location de chapiteaux (Ets Blanchard), sur l’ensemble du site ;
+
+5l0l0	_2ème_activité	O
+5l0l1	de_1987_à_2007	T
+5l0l2	__entreprise_de_location_de_chapiteaux	O
+5l1l0	__Ets_Blanchard	I
+
+#-3ème activité, de 2007 à 2009 : ACCOR Environnement exploite deux parties du hangar principal (ce dernier ayant été divisé en trois parties) pour du stockage de déchets d’équipements électriques et électroniques (DEEE), le volume stocké sur site étant inférieur à 200 m3 ;
+
+6l0l0	_3ème_activité	N
+6l0l1	de_2007_à_2009	T
+6l0l2	ACCOR_Environnement	O
+6l0l3	exploite	N
+6l0l4	deux_parties_du_hangar_principal	O
+6l0l5	pour_du_stockage_de_déchets_d__équipements_électriques_et_électroniques	A
+6l0l6	__DEEE	O
+6l1l0	__ACCOR_Environnement	I
+6l1l1	du_stockage_de_déchets_d__équipements_électriques	U
+6l1l2	__DEEE	S
+
+#-4ème activité, de 2009 à 2012 : PAPREC rachète ACCOR Environnement et continue à exploiter les deux parties du hangar pour du stockage de piles.
+
+7l0l0	_4ème_activité	O
+7l0l1	de_2009_à_2012	T
+7l0l2	__PAPREC	O
+7l0l3	rachète	N
+7l0l4	ACCOR_Environnement	O
+7l0l5	continue_à_exploiter	N
+7l0l6	les_deux_parties_du_hangar	O
+7l0l7	pour_du_stockage_de_piles	A
+7l1l0	__PAPREC_rachète_ACCOR_Environnement	I
+7l1l1	du_stockage_de_piles	U
+
+#Un puits appartenant à Monsieur Gueutier (propriétaire du site) est présent sur la parcelle ZO 40.
+
+8l0l0	Un_puits	O
+8l0l1	appartenant_à	R
+8l0l2	Monsieur_Gueutier	O
+8l0l3	sur_la_parcelle	L
+8l1l0	Gueutier	I
+
+#Il est cependant en dehors de la zone d'étude.
+
+9l0l0	en_dehors_de_la_zone_d_	L
+
+#L'inspection des installations classées a constaté le 30 janvier 2012 l'exploitation par la société PAPREC DEEE d'une station de tri, transit, regroupement de piles et accumulateurs sur le site sans l'autorisation requise.
+
+10l0l0	L__inspection_des_installations_classées	O
+10l0l1	a_constaté	N
+10l0l2	le_30_janvier_2012	T
+10l0l3	l__exploitation	N
+10l0l4	la_société_PAPREC_DEEE	O
+10l0l5	une_station_de_tri___transit	O
+10l1l0	la_société_PAPREC_DEEE	I
+
+#L'arrêté préfectoral du 13 mars 2012 a mis en demeure PAPREC DEEE d'évacuer les piles et accumulateurs et de mettre à l'arrêt définitif cette station de tri, transit, regroupement conformément aux articles R512-39-1 et suivants du code de l'environnement.
+
+11l0l0	L__arrêté_préfectoral	O
+11l0l1	13_mars_2012	T
+11l0l2	a_mis_en_demeure	N
+11l0l3	PAPREC_DEEE	O
+11l0l4	l__arrêt_définitif	N
+11l0l5	cette_station_de_tri	O
+11l1l0	PAPREC_DEEE	I
+11l1l1	les_piles	U
+
+#En réponse de cet arrêté, PAPREC DEEE a :
+
+12l1l0	PAPREC_DEEE	I
+
+#- confirmé l'évacuation des piles et accumulateurs,
+
+13l1l0	des_piles	U
+
+#- joint un dossier de cessation d'activité y compris un diagnostic de pollution des sols.
+
+14l0l0	un_dossier	O
+14l0l1	cessation_d__activité	N
+14l0l2	un_diagnostic_de_pollution_des_sols	N
+
+#En 2012, un premier diagnostic a été effectué.
+
+15l0l0	En_2012__	T
+15l0l1	un_premier_diagnostic	N
+15l0l2	a_été_effectué	N
+
+#Au total, dix sondages de sols ont été réalisés jusqu'à une profondeur maximale de 2 m sur l'ensemble de la zone d'étude.
+
+16l0l0	dix_sondages_de_sols	O
+16l0l1	ont_été_réalisés	N
+
+#Il est à noter que trois prélèvements superficiels de sols ont été réalisés à proximité du site (parcelles agricoles) afin d'établir un bruit de fond géochimique local.
+
+17l0l0	ont_été_réalisés	N
+17l0l1	à_proximité_du_site	L
+
+#Les résultats d’analyses ont mis en évidence :
+
+
+#- des concentrations supérieures à la limite de quantification, mais inférieures aux critères d’acceptation en installations de stockage de déchets inertes, pour les hydrocarbures aromatiques polycycliques (45 % des échantillons analysés) et les polychlorobiphényles (90 % des échantillons analysés) ;
+
+19l1l0	les_hydrocarbures_aromatiques_polycycliques	S
+19l1l1	et_les_polychlorobiphényles	S
+
+#- des concentrations supérieures à la limite de quantification du laboratoire pour les hydrocarbures totaux (65 % des échantillons analysés) mais aussi à la valeur de référence de l’arrêté du 28/10/10 relatif à l’acceptation en installations de stockage de déchets inertes pour deux échantillons S7 et S9 (une carte permettant de localiser ces deux sondages est disponible dans le paragraphe B de cette fiche) ;
+
+20l0l0	la_limite	O
+20l0l1	du_28_10_10	T
+20l1l0	hydrocarbures_totaux	S
+
+#- des concentrations en éléments-traces métalliques (arsenic, cadmium, cuivre, mercure, plomb et zinc) supérieures aux gammes de valeurs couramment observées dans les sols ordinaires du programme APSITET et aux valeurs du bruit de fond pédogéochimique local.
+
+21l0l0	APSITET	O
+21l1l0	traces_métalliques	S
+21l1l1	arsenic	S
+21l1l2	cadmium	S
+21l1l3	cuivre	S
+21l1l4	mercure	S
+21l1l5	plomb	S
+21l1l6	zinc	S
+
+#Selon cette étude, l'origine des contaminations est difficilement identifiable.
+
+22l0l0	l__origine_des_contaminations	O
+
+#En effet, les contaminations en hydrocarbures totaux (HCT), hydrocarbures aromatiques polycycliques (HAP) et les traces de polychlorobiphényles (PCB) détectées au droit de ces sondages pourraient être à relier soit :
+
+23l1l0	hydrocarbures_totaux	S
+23l1l1	HCT	S
+23l1l2	hydrocarbures_aromatiques_polycycliques	S
+23l1l3	HAP	S
+23l1l4	polychlorobiphényles	S
+23l1l5	PCB	S
+
+#- aux déversements accidentels d’huiles usagées suite aux vidanges et/ou fuites des tracteurs du propriétaire du site,
+
+24l0l0	déversements_accidentels	N
+24l0l1	huiles	O
+24l0l2	suite_aux	R
+24l0l3	vidanges	N
+24l0l4	fuites_des_tracteurs	N
+24l0l5	propriétaire_du_site	O
+24l1l0	déversements_accidentels	U
+24l1l1	huiles_usagées	U
+
+#- aux activités de l’entreprise de forage,
+
+25l0l0	l__entreprise_de_forage	O
+
+#- à une éventuelle qualité médiocre des remblais d’aménagement.
+
+26l0l0	remblais	A
+
+#Concernant les contaminations en éléments-traces métalliques détectées au droit des sondages, elles pourraient être à relier soit :
+
+27l1l0	métalliques	S
+
+#- aux activités de stockage actuelles de piles pour PAPREC,
+
+28l0l0	aux	L
+28l0l1	activités_de_stockage_actuelles_de_piles	A
+28l0l2	PAPREC	O
+28l1l0	PAPREC	I
+
+#- aux activités de stockage antérieures de DEEE par ACOOR Environnement,
+
+29l0l0	activités_de_stockage_antérieures	O
+29l0l1	ACOOR_Environnement	O
+29l1l0	DEEE	I
+29l1l1	ACOOR_Environnement	I
+
+#- aux activités du propriétaire du site et/ou de l’entreprise de forage (stockage divers),
+
+30l0l0	l__entreprise_de_forage	O
+
+#- à une éventuelle qualité médiocre des remblais d’aménagement.
+
+31l0l0	remblais	A
+
+#Les sols comportant des substances organiques (hydrocarbures totaux, polychlorobiphényles et hydrocarbures aromatiques polycycliques) et des concentrations en éléments-traces métalliques supérieures au références nationales (programme ASPITET) et locales (bruit de fond pédogéochimique local) se situent actuellement, soit sous une couche de grave compactée pour les zones de stockage extérieures, soit sous une dalle de béton pour les hangars, c'est-à-dire recouverts d'un matériau limitant le contact direct avec ceux-ci.
+
+32l0l0	hangars	A
+32l1l0	des_substances_organiques	U
+32l1l1	hydrocarbures_totaux	S
+32l1l2	polychlorobiphényles	S
+32l1l3	hydrocarbures_aromatiques_polycycliques	S
+32l1l4	traces_métalliques	S
+32l1l5	ASPITET	I
+
+#Cette première étude conclut que ces concentrations mises en évidence ne sont donc pas problématiques d'un point de vue sanitaire.
+
+
+#Il conviendra par conséquent de maintenir la pérennité de ce recouvrement de surface.
+
+34l0l0	Il_conviendra	O
+
+#Un second diagnostic effectué en 2015 révèle que seules les teneurs en arsenic et plomb identifiées en S7 et S9 (une carte permettant de localiser ces deux sondages est disponible dans le paragraphe B de cette fiche) seraient susceptibles de générer des risques sanitaires en cas d’usage sensible, en l’absence de recouvrement pérenne des sols.
+
+35l0l0	Un_second_diagnostic	N
+35l0l1	effectué	N
+35l0l2	en_2015	T
+35l0l3	teneurs	O
+35l0l4	arsenic	O
+35l1l0	arsenic	S
+35l1l1	plomb	S
+
+#Hors à ce jour, l’usage actuel reste un usage industriel.
+
+36l0l0	à_ce_jour	T
+36l0l1	l__usage_actuel	O
+
+#De plus, les résultats des analyses concernant les paramètres HCT , HAP, BTEX (benzène, toluène, éthylbenzène et xylène), COHV (composés organiques halogénés volatils ) et PCB sont tous inférieurs à la limite de quantification du laboratoire.
+
+37l1l0	paramètres_HCT	S
+37l1l1	HAP	S
+37l1l2	BTEX	S
+37l1l3	benzène	S
+37l1l4	toluène	S
+37l1l5	éthylbenzène	S
+37l1l6	xylène	S
+37l1l7	COHV	S
+37l1l8	composés_organiques	S
+37l1l9	halogénés_volatils	S
+37l1l10	PCB	S
+
+#Aucune investigation sur les eaux souterraines n'a été menée car leur sensibilité a été jugée peu vulnérable (absence d'une nappe d'eau superficielle au droit du site et présence d'horizons imperméables en couverture).
+
+38l0l0	les_eaux_souterraines	O
+
+#En 2015 et 2016, la société a complété son dossier de cessation d'activité par  un schéma conceptuel, un plan de gestion, une évaluation qualitative des risques et un dossier de demande de servitudes.
+
+39l0l0	En_2015_et_2016__	T
+39l0l1	la_société	O
+39l0l2	a_complété	N
+39l0l3	son_dossier	O
+39l0l4	cessation_d__activité	N
+39l0l5	__un_schéma_conceptuel	O
+39l0l6	__un_plan_de_gestion	N
+39l0l7	__une_évaluation_qualitative_des_risques	N
+39l0l8	et_un_dossier	O
+39l0l9	de_demande_de_servitudes	O
+
+#Sur la base des investigations de 2012, un schéma conceptuel a été réalisé.
+
+40l0l0	investigations	N
+40l0l1	de_2012__	T
+40l0l2	un_schéma_conceptuel	O
+40l0l3	a_été_réalisé	N
+
+#Les cibles potentielles susceptibles d’être atteintes sont des employés.
+
+
+#Les voies d’exposition envisagées sont l’ingestion et l’inhalation compte tenu de la volatilité des hydrocarbures totaux, des hydrocarbures aromatiques polycycliques, des PCB et de la nature des espaces extérieures
+
+42l1l0	hydrocarbures_totaux	S
+42l1l1	des_hydrocarbures_aromatiques_polycycliques	S
+42l1l2	des_PCB	S
+
+#La voie d’exposition par ingestion des eaux polluées n’est pas envisagée compte tenu de l’absence de puits sur les zones impactées.
+
+43l0l0	La_voie	O
+43l0l1	ingestion	A
+43l0l2	eaux_polluées	O
+43l0l3	n__est_pas	R
+43l0l4	zones_impactées	O
+
+#Suite au bilan coûts/avantages et compte tenu de l'usage futur du site (industriel et commercial), de la formation géologique au droit du site (argile) et du confinement des sources de pollution, l’exploitant propose de confiner la pollution sur site avec:
+
+44l0l0	la_formation_géologique	O
+44l0l1	au_droit_du_site	L
+44l0l2	confinement	N
+44l0l3	des_sources_de_pollution	O
+44l0l4	l__exploitant	O
+
+#– une restriction de l’usage des sols (arbres fruitiers, potagers) et des eaux souterraines au droit du site,
+
+45l0l0	__une_restriction	N
+45l0l1	souterraines_au_droit_du_site	L
+
+#– la conservation de la mémoire des impacts par acte notarié.
+
+
+#Les résultats de l'évaluation qualitative des risques sont inférieurs aux limites d'acceptabilité définies par la circulaire du 8 février 2007 relative aux sites et sols pollués.
+
+47l0l0	la_circulaire	O
+47l0l1	8_février_2007	T
+
+#Dans le cadre du dossier de servitudes présenté par la société PAPREC DEEE, la restriction d’usage entre parties (RUP) a été choisie.
+
+48l0l0	Dans_le_cadre_du	R
+48l0l1	dossier_de_servitudes	O
+48l0l2	la_société_PAPREC_DEEE	O
+48l0l3	la_restriction_d__usage	O
+48l0l4	a_été_choisie	N
+48l1l0	la_société_PAPREC_DEEE	I
+
+#Les restrictions visent essentiellement à :
+
+
+#- interdire toute plantation destinée à la consommation humaine ou animale,
+
+
+#- interdire les affouillements et creusement,
+
+51l0l0	interdire_les_affouillements	N
+51l0l1	creusement	N
+
+#- interdire la création d’installation de captage des eaux souterraines,
+
+52l0l0	interdire_la_création_d__installation	N
+
+#- conserver le dallage ou le revêtement de surface actuellement présent.
+
+53l0l0	dallage	N
+
+#Aucune surveillance n’est proposée.
+

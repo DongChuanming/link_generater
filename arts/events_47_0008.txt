@@ -1,0 +1,345 @@
+
+#47.0008
+#La Société EUTICALS(ex ARCHIMICA), usine de Bon Encontre est spécialisée dans la fabrication de principes actifs pour l'industrie pharmaceutique, d'intermédiaires de synthèse pour la fabrication de principes actifs et des produits organiques fonctionnels tels que des stabilisants enzymatiques pour lessive.
+
+0l0l0	La_Société_EUTICALS_ex	O
+0l0l1	ARCHIMICA	O
+0l0l2	Encontre	L
+0l0l3	est_spécialisée_dans_la_fabrication_de_principes_actifs	A
+0l0l4	l__industrie_pharmaceutique	A
+0l0l5	la_fabrication_de_principes_actifs	A
+0l1l0	La_Société_EUTICALS_ex_ARCHIMICA	I
+0l1l1	principes_actifs	U
+0l1l2	des_stabilisants	S
+0l1l3	lessive	U
+
+#Cette usine a été autorisée par arrêté préfectoral du 01/10/1993 (SA Hexachimie repris par Archimica le 05.05.1999, puis par CLARIANT LIFE SCIENCE MOLECULES FRANCE le 30.08.2000, par ARCHIMICA SAS en juillet 2006 et par EUTICALS SAS en octobre 2012).
+
+1l0l0	Cette_usine	O
+1l0l1	a_été_autorisée	N
+1l0l2	par_arrêté_préfectoral	O
+1l0l3	du_01_10_1993	T
+1l0l4	Hexachimie	A
+1l0l5	Archimica	O
+1l0l6	le_05_05_1999	T
+1l0l7	CLARIANT	O
+1l0l8	MOLECULES_FRANCE	O
+1l0l9	le_30_08_2000	T
+1l0l10	ARCHIMICA_SAS	O
+1l0l11	en_juillet_2006	T
+1l0l12	EUTICALS_SAS	O
+1l0l13	en_octobre_2012____	T
+1l1l0	SA_Hexachimie	I
+1l1l1	Archimica	I
+1l1l2	CLARIANT_LIFE_SCIENCE_MOLECULES_FRANCE	I
+1l1l3	ARCHIMICA_SAS	I
+1l1l4	EUTICALS_SAS	I
+
+#La superficie du site est de 3,6 hectares et se situe dans la zone industrielle "Laville".
+
+2l0l0	se_situe_dans_la_zone_industrielle___Laville__	L
+
+#1 - DIAGNOSTIC
+
+3l0l0	DIAGNOSTIC	N
+
+#En 1994, lors de l'acquisition par le groupe Bristol Myers Squibb Company, une étude de sol et de nappe a été menée, montrant une pollution des sols et de la nappe par des produits chlorés et des BTEX au niveau d'une ancienne cuve aérienne de fuel et le long d'une ancienne canalisation de rejet des eaux usées.
+
+4l0l0	En_1994__	T
+4l0l1	l__acquisition	N
+4l0l2	le_groupe_Bristol_Myers_Squibb_Company	O
+4l0l3	une_étude_de_sol	N
+4l0l4	a_été_menée	N
+4l0l5	une_pollution	N
+4l0l6	au_niveau_d_	R
+4l0l7	une_ancienne_cuve_aérienne_de_fuel	O
+4l0l8	le_long_d__une_ancienne_canalisation_de_rejet	L
+4l0l9	des_eaux_usées	O
+4l1l0	le_groupe_Bristol_Myers_Squibb_Company	I
+4l1l1	des_produits_chlorés	U
+4l1l2	des_BTEX	S
+4l1l3	fuel	U
+4l1l4	eaux_usées	U
+
+#Les activités exercées sur ce site ayant pu être à l'origine d'une pollution potentielle du sol et du sous-sol,un diagnostic initial et une évaluation simplifiée des risques ont été prescrits par l'arrêté du 15/10/1998 (Echéances : étape A : 31/03/1999, étape B : 30/09/1999).
+
+5l0l0	Les_activités_exercées	N
+5l0l1	sur	R
+5l0l2	ce_site	O
+5l0l3	ayant_pu_être_à	R
+5l0l4	l__origine_d_	R
+5l0l5	une_pollution	N
+5l0l6	un_diagnostic_initial	N
+5l0l7	une_évaluation_simplifiée_des_risques	N
+5l0l8	ont_été_prescrits	N
+5l0l9	l__arrêté	O
+5l0l10	15_10_1998	T
+5l0l11	31_03_1999	T
+5l0l12	30_09_1999	T
+
+#L'étape A a été remise le 23/03/1999 et l'étape B le 12/09/2003.
+
+6l0l0	L__étape_A	O
+6l0l1	a_été_remise	N
+6l0l2	le_23_03_1999	T
+6l0l3	et_l__étape_B	O
+6l0l4	le_12_09_2003	T
+
+#L'ESR classe le site en 2 "à surveiller" pour les milieux eaux souterraines, superficielles et le sol pour les Hydrocarbures, le Benzène, les Xylènes, le Chloroforme et le Dichlorométhane.
+
+7l1l0	les_Hydrocarbures	S
+7l1l1	le_Benzène	S
+7l1l2	les_Xylènes	S
+7l1l3	le_Chloroforme	S
+7l1l4	Dichlorométhane	S
+
+#2 - TRAVAUX
+
+8l0l0	TRAVAUX	N
+8l1l0	TRAVAUX	I
+
+#Suite au constat de 1994, la nappe a été dépolluée par l'implantation d'un puits de pompage.
+
+9l0l0	Suite_au	R
+9l0l1	constat	N
+9l0l2	de_1994__	T
+9l0l3	la_nappe	O
+9l0l4	a_été_dépolluée_par	N
+9l0l5	l__implantation_d__un_puits_de_pompage	N
+
+#Les eaux ont été traitées puis réinjectées en amont.
+
+10l0l0	Les_eaux	O
+10l0l1	ont_été_traitées	N
+10l0l2	réinjectées_en_amont	N
+
+#En juin 1996, on observait de très faibles concentrations en chloroforme et l'absence d'hydrocarbures totaux.
+
+11l0l0	En_juin_1996__	T
+11l1l0	chloroforme	S
+11l1l1	hydrocarbures_totaux	S
+
+#En 1997, on constatait une réduction considérable de l'épaisseur de flottant.
+
+12l0l0	En_1997__	T
+12l1l0	flottant	U
+
+#et depuis, plus de flottant ?
+
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+14l0l0	SURVEILLANCE_DES_EAUX	A
+14l0l1	SOUTERRAINES	O
+14l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 a) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines par référence aux rubriques 1111, 1130 et 1131 de la nomenclature des Installations Classées pour la Protection de l'Environnement.
+
+15l0l0	Ce_site	O
+15l0l1	est_soumis_à	R
+15l0l2	l_	O
+15l0l3	2_février_1998	T
+15l0l4	surveillance_des_eaux_souterraines	A
+
+#La surveillance des eaux souterraines est prescrite par l'arrêté du 8 août 2001 :
+
+16l0l0	La_surveillance_des_eaux_souterraines	A
+16l0l1	est_prescrite	N
+16l0l2	l_	O
+16l0l3	8_août_2001	T
+
+#- mise en place de 3 piézomètres;
+
+17l0l0	mise_en_place	N
+17l0l1	3_piézomètres	O
+
+#- analyses semestrielles;
+
+
+#- Composés à analyser : DCO, Phosphore total, Hydrocarbures totaux, cyanures et composés organiques halogénés volatils.
+
+19l1l0	DCO	S
+19l1l1	Phosphore_total	S
+19l1l2	Hydrocarbures_totaux	S
+19l1l3	cyanures	S
+19l1l4	composés_organiques_halogénés_volatils	S
+
+#Le rapport de l'inspection des installations classées du 7 mars 2012 propose de retirer le cyanure de la liste des paramètres à analyser ainsi que les composés organiques halogénés sauf le chloroforme ainsi que le dichlorométhane.
+
+20l0l0	l__inspection_des_installations_classées	O
+20l0l1	7_mars_2012	T
+20l0l2	cyanure	O
+20l1l0	cyanure	S
+20l1l1	composés_organiques_halogénés	S
+20l1l2	le_chloroforme	S
+20l1l3	dichlorométhane	S
+
+#L'arrêté du 08/08/2001 a-t-il complété les paramètres par BTEX comme préconisé dans l'ESR ?
+
+21l0l0	L_	O
+21l0l1	08_08_2001	T
+21l1l0	BTEX	I
+21l1l1	l__ESR	I
+
+#L'arrêté préfectoral complémentaire du 12 février 2012 prescrit des relevés piézométriques comme suit:
+
+22l0l0	L__arrêté_préfectoral_complémentaire	O
+22l0l1	12_février_2012	T
+22l0l2	prescrit_des_relevés_piézométriques	N
+
+#Deux fois par an (en période de basses et hautes eaux) et quotidiennement pendant une semaine après chaque incident notable, des relevés du niveau piézométrique de la nappe et des prélèvements d'eau sont effectués dans ces puits.
+
+23l0l0	Deux_fois_par_an	T
+23l0l1	en_période	T
+23l0l2	de_basses_et_hautes_eaux	N
+23l0l3	pendant_une_semaine	T
+23l0l4	après	R
+23l0l5	la_nappe	O
+23l0l6	sont_effectués	N
+23l0l7	ces_puits	O
+
+#L'eau prélevée fait l'objet de mesures susceptibles de caractériser une éventuelle pollution de la nappe compte tenu de l'activité de l'installation.
+
+24l0l0	fait_l__objet	R
+24l0l1	de_mesures	N
+24l0l2	caractériser_une_éventuelle_pollution	N
+24l0l3	activité_de_l_	A
+
+#Les résultats de mesures sont transmis à l'inspection des installations classées.
+
+
+#Toute anomalie lui est signalée dans les meilleurs délais.
+
+26l0l0	est_signalée	N
+
+#Si ces résultats mettent en évidence une pollution des eaux souterraines, l'exploitant détermine par tous les moyens utiles si ses activités sont à l'origine ou non de la pollution constatée.
+
+27l0l0	eaux_souterraines	O
+27l0l1	l__exploitant	O
+
+#Il informe le préfet du résultat de ses investigations et, le cas échéant, des mesures prises envisagées.
+
+28l0l0	Il	O
+28l0l1	informe	N
+28l0l2	le_préfet	O
+28l1l0	le_préfet	I
+
+#Les analyses sont réalisées sur les paramètres suivants: DCO, Phosphore total, Hydrocarbures totaux et BTEX.
+
+29l1l0	DCO	S
+29l1l1	Phosphore_total	S
+29l1l2	Hydrocarbures_totaux	S
+29l1l3	BTEX	S
+
+#4- SURVEILLANCE DES EAUX DE REJET
+
+30l0l0	SURVEILLANCE	A
+30l0l1	DES_EAUX_DE_REJET	O
+
+#La campagne de mai 2013 donne les résultats suivants:
+
+31l0l0	La_campagne_de	N
+31l0l1	mai_2013	T
+
+#- volume moyen de rejet : 110,355 m3/j (<200 m3/j);
+
+
+#- température moyenne : 29°C (<30°C);
+
+
+#- pH moyen : 7.431 (5.5
+
+
+#- concentration moyenne en DCO : 5596.774 mg/l (<10000 mg/l);
+
+35l1l0	DCO	S
+
+#- masse moyenne en DCO : 615.189 kg (<2000 kg);
+
+
+#- concentration moyenne en Cl- : 80193.548 mg/l (<105000 mg/l) avec 2 dépassements à 110000 mg/l;
+
+37l1l0	Cl_	S
+
+#- masse moyenne en Cl- : 9036.767 kg (<15000 kg);
+
+
+#- concentration en Phosphore total : 13.226 mg/l (<320 mg/l);
+
+39l1l0	Phosphore	S
+
+#- masse moyenne en Phosphore total : 1.823 kg (<64 kg);
+
+40l1l0	Phosphore	S
+
+#- concentration moyenne en MES : 634.667 mg/l (>600 mg/l) avec un dépassement à 1449 mg/l;
+
+41l1l0	MES	S
+
+#- masse moyenne en MES : 84.214 kg (<120 kg) avec un dépassement à 181.125 kg;
+
+
+#- concentration moyenne en NGL : 68.333 mg/l (<500 mg/l);
+
+43l1l0	NGL	S
+
+#- masse moyenne en NGL : 9.922 kg (<100 kg).
+
+
+#La campagne de juin 2013 donne les résultats suivants:
+
+45l0l0	La_campagne_de	N
+45l0l1	juin_2013	T
+
+#- volume moyen de rejet : 144,767 m3/j (<200 m3/j);
+
+
+#- température moyenne : 29°C (<30°C);
+
+
+#- pH moyen : 7.097 (5.5
+
+
+#- concentration moyenne en DCO : 5923.333 mg/l (<10000 mg/l);
+
+49l1l0	DCO	S
+
+#- masse moyenne en DCO : 856.867 kg (<2000 kg);
+
+
+#- concentration moyenne en Cl- : 81612.667 mg/l (<105000 mg/l) avec 3 dépassements à 116000 mg/l et un dépassement à 108000 mg/l;
+
+51l1l0	Cl_	S
+
+#- masse moyenne en Cl- : 11880.007 kg (<15000 kg) avec un dépassement à 15912.720 kg;
+
+
+#- concentration en Phosphore total : 84.667 mg/l (<320 mg/l) avec un dépassement à 390 mg/l et 3 dépassements à 440 mg/l;
+
+53l1l0	Phosphore_total	S
+
+#- masse moyenne en Phosphore total : 12.764 kg (<64 kg)avec 3 dépassements à 66.44 kg;
+
+54l1l0	Phosphore	S
+
+#- concentration moyenne en MES : 165.667 mg/l (<600 mg/l) avec un dépassement à 4079 mg/l;
+
+55l1l0	MES	S
+
+#- masse moyenne en MES : 26.379 kg (<120 kg) avec un dépassement à 648.561 kg;
+
+
+#- concentration moyenne en NGL : 12.8 mg/l (<500 mg/l);
+
+57l1l0	NGL	S
+
+#- masse moyenne en NGL : 2.021 kg (<100 kg);
+
+
+#- concentration moyenne en DBO5 (une seule mesure sur le mois) : 1749 mg/l (>800 mg/l);
+
+59l1l0	DBO5	S
+
+#- masse moyenne en DBO5 (une seule mesure sur le mois) : 288.585 kg (>160 kg).
+
+60l1l0	DBO5	I

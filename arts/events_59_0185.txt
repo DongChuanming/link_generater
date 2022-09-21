@@ -1,0 +1,164 @@
+
+#59.0185
+#- Usine construite en 1975 sur un marais remblayé.
+
+0l0l0	Usine	O
+0l0l1	construite_en_1975_sur	N
+0l0l2	un_marais_remblayé	O
+
+#- Fabrication de ronds et de longueurs destinés principalement à la fabrication des tubes sans soudures pour l'exploitation du pétrole et du gaz, de canalisations, de tubes pour chaudières, ...
+
+1l0l0	Fabrication_de_ronds	A
+1l0l1	et_de_longueurs	O
+1l0l2	destinés_principalement_à	R
+1l0l3	la_fabrication_des_tubes_sans_soudures	A
+1l0l4	l__exploitation_du_pétrole	A
+1l0l5	tubes_pour_chaudières	O
+
+#- Site divisé en plusieurs activités:
+
+
+#*V&M FRANCE tuberie d'Aulnoye
+
+3l0l0	__V_M_FRANCE	O
+3l0l1	tuberie	O
+3l0l2	Aulnoye	L
+3l1l0	__V_M_FRANCE_tuberie	I
+
+#*Vallourec Mannesman Oil & Gas France
+
+4l0l0	__Vallourec_Mannesman_Oil___Gas_France	O
+4l1l0	__Vallourec_Mannesman_Oil___Gas_France	I
+
+#*VAM Driling
+
+5l0l0	Driling	O
+5l1l0	__VAM_Driling	I
+
+#*Vallourec Research Aulnoye (ex CEV)
+
+6l0l0	__Vallourec_Research_Aulnoye	L
+6l0l1	ex_CEV	N
+6l1l0	__Vallourec	I
+
+#- site en activité visé par la circulaire du 3 avril 1996 qui impose une étude des sols sur les sites en activité.
+
+7l0l0	site_en_activité	O
+7l0l1	visé_par	R
+7l0l2	la_circulaire	O
+7l0l3	3_avril_1996	T
+7l0l4	impose_une_étude_des_sols	N
+7l0l5	les_sites_en_activité	O
+
+#- Arrêté préfectoral du 04/09/1998 imposant la réalisation de diagnostics initiaux et d'une évaluation détaillée des risque.
+
+8l0l0	Arrêté_préfectoral	O
+8l0l1	04_09_1998	T
+8l0l2	imposant_la_réalisation_de_diagnostics_initiaux	N
+8l0l3	une_évaluation_détaillée_des_risque	N
+
+#- Le diagnostic environnemental de juillet 2007 a mis en évidence la présence d'anomalies dans les sols par les métaux, hydrocarbures et COHV.
+
+9l0l0	Le_diagnostic_environnemental	N
+9l0l1	de_juillet_2007	T
+9l0l2	a_mis_en_évidence	R
+9l0l3	la_présence_d__anomalies	O
+9l1l0	métaux	S
+9l1l1	hydrocarbures	S
+9l1l2	COHV	S
+
+#Il y est écrit: "la présence de métaux dans les sols ne présente pas de risque pour la santé humaine en l'état actuel du site", "la source COHV identifiée n'impacte pas la qualité de l'air ambiant dans cette zone", "la source hydrocarbure est peu volatile, et confiné sous le bâtiment".
+
+10l0l0	la_source_COHV	O
+10l0l1	sous_le_bâtiment__	L
+10l1l0	COHV	S
+10l1l1	la_source_hydrocarbure	S
+
+#En l'état actuel, les risques sont donc inexistants.
+
+
+#- Réalisation d'un diagnostic de la tuberie, en octobre 2008, lequel met en évidence:
+
+12l0l0	Réalisation_d__un_diagnostic	N
+12l0l1	la_tuberie	O
+12l0l2	en_octobre_2008__	T
+
+#*une contamination ponctuelle des sols par des hydrocarbures au droit de l'ancienne sulfaterie.
+
+13l0l0	une_contamination_ponctuelle_des_sols	N
+13l0l1	des_hydrocarbures	O
+13l1l0	hydrocarbures	S
+
+#*la présence en fond et en remplissage de la lagune (zone de stockage des boues fortement chargées en hydrocarbures au droit d'une ancienne lagune de décantation des eaux usées d'une superficie de 7800 m2), de matériaux présentant des teneurs anomaliques en métaux lourds et hydrocarbures.
+
+14l0l0	la_lagune	L
+14l0l1	hydrocarbures	O
+14l0l2	au_droit_d_	R
+14l0l3	une_ancienne	O
+14l0l4	lagune_de_décantation_des_eaux_usées	A
+14l1l0	hydrocarbures	S
+14l1l1	eaux_usées	U
+14l1l2	métaux_lourds	S
+14l1l3	hydrocarbures	S
+
+#- Arrêté préfectoral du 25/05/2009 d'autorisation de poursuite d'exploitation, imposant la surveillance piézométrique et sa transmission à l'administration, ainsi que la réalisation d'une interprétation de l'état des milieux.
+
+15l0l0	Arrêté_préfectoral	O
+15l0l1	du_25_05_2009	T
+15l0l2	d__autorisation	O
+15l0l3	poursuite_d__exploitation	O
+15l0l4	imposant	N
+15l0l5	la_surveillance_piézométrique	A
+15l0l6	la_réalisation_d_	R
+15l0l7	une_interprétation_de_l__état_des_milieux	O
+
+#- Réalisation d'une interprétation des milieux en juin 2010, mis à jour en avril 2011, recommandant un confinement pour la zone sulfaterie et la zone lagune.
+
+16l0l0	Réalisation_d_	N
+16l0l1	une_interprétation_des_milieux	O
+16l0l2	en_juin_2010__	T
+16l0l3	mis_à_jour	N
+16l0l4	en_avril_2011__	T
+16l0l5	recommandant	R
+16l0l6	un_confinement	O
+16l0l7	la_zone_sulfaterie	O
+16l1l0	sulfaterie	S
+16l1l1	lagune	I
+
+#- Arrêté préfectoral du 13/07/2011 imposant le confinement des boues de la lagune, ainsi que le dépôt d'un dossier de demande de servitudes d'utilité publique.
+
+17l0l0	Arrêté_préfectoral	O
+17l0l1	13_07_2011	T
+17l0l2	imposant_le_confinement	N
+17l0l3	la_lagune	O
+17l0l4	le_dépôt_d_	N
+17l0l5	un_dossier	O
+17l0l6	d__utilité_publique	O
+
+#- En août 2011: travaux de confinement des boues de la lagune.
+
+18l0l0	En_août_2011	T
+18l0l1	__travaux_de_confinement	N
+18l0l2	la_lagune	O
+
+#- Dossier d'ouvrage exécuté: confinement de la lagune, réalisé en décembre 2012.
+
+19l0l0	ouvrage_exécuté	O
+19l0l1	__confinement	N
+19l0l2	la_lagune	O
+19l0l3	réalisé	N
+19l0l4	en_décembre_2012__	T
+19l1l0	la_lagune	I
+
+#- Utilisation des eaux souterraines dans le secteur pour un usage uniquement industriel.
+
+20l0l0	Utilisation	N
+20l0l1	des_eaux_souterraines	A
+20l0l2	un_usage_uniquement_industriel	A
+
+#- Site en sécurité vis à vis des tiers.
+
+
+#- Action de l'administration toujours en cours.
+
+22l0l0	l__administration	O

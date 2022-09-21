@@ -1,0 +1,203 @@
+
+#44.0143
+#Le site d’une superficie totale de 1 165 m² est constitué d’anciens locaux d’activité et de bureaux inoccupés.
+
+0l0l0	Le_site	O
+0l0l1	bureaux_inoccupés	N
+
+#Ce site constitué quasi-essentiellement de bâtiments s’étend entre 2 rues : 16 rue de Ploërmel au nord-ouest et 15 rue Jules ferry au sud-est.
+
+1l0l0	Ce_site	O
+1l0l1	__16_rue_de_Ploërmel	L
+1l0l2	au_nord_ouest	L
+1l0l3	et_15_rue_Jules_ferry_au_sud_est	L
+
+#Il est entouré d’habitations individuelles avec jardins privatifs au nord et au sud et du Tramway à l’est.
+
+2l0l0	entouré_d__habitations_individuelles	L
+2l0l1	au_sud_et_du_Tramway_à_l__est	L
+
+#Le site repose sur des altérations du socle micaschisteux surmontées de remblais hétérogènes sur environ 1 mètre d’épaisseur.
+
+3l0l0	Le_site	O
+3l0l1	repose_sur	R
+3l0l2	des_altérations	N
+
+#Aucune venue d’eau n’a été constatée lors de la réalisation des sondages.
+
+4l0l0	la_réalisation	N
+4l0l1	des_sondages	N
+
+#De 1930 à 1989, le site est un dépôt d’allumettes exploité par la Société Allumetière Française (SAF).
+
+5l0l0	De_1930_à_1989	T
+5l0l1	le_site	O
+5l0l2	dépôt_d__allumettes	O
+5l0l3	la_Société_Allumetière_Française	O
+5l1l0	dépôt	D
+5l1l1	la_Société_Allumetière_Française	I
+5l1l2	SAF	S
+
+#En 1989, changement d’activité, le site est exploité en chambres frigorifiques par la société LADVI HEBEL activité de traiteur-restauration).
+
+6l0l0	En_1989	T
+6l0l1	__changement_d__activité	N
+6l0l2	le_site	O
+6l0l3	est_exploité	N
+6l0l4	en_chambres_frigorifiques	O
+6l0l5	la_société_LADVI_HEBEL	O
+6l0l6	activité_de_traiteur___restauration____	A
+6l1l0	la_société_LADVI	I
+
+#En 2005, l’ensemble immobilier est vendu à la SCI ELLYSA mais garde la même activité.
+
+7l0l0	En_2005__	T
+7l0l1	l__ensemble_immobilier	O
+7l0l2	est_vendu	N
+7l0l3	la_SCI_ELLYSA	O
+7l0l4	garde_la_même_activité	A
+7l1l0	la_SCI_ELLYSA	I
+
+#En 2013 le site est racheté par la SARL AD Consulting, l’actuel propriétaire en vue du réaménagement pour la création de logements.
+
+8l0l0	En_2013	T
+8l0l1	le_site	O
+8l0l2	est_racheté	N
+8l0l3	par_la_SARL_AD_Consulting	O
+8l0l4	du_réaménagement	N
+8l0l5	la_création_de_logements	N
+8l1l0	la_SARL_AD_Consulting	I
+
+#Le projet de réhabilitation prévoit la conservation d’une partie des bâtiments pour la réalisation de lofts avec terrasse et plantation en bacs.
+
+9l0l0	Le_projet_de_réhabilitation	O
+9l0l1	prévoit	R
+9l0l2	la_conservation	N
+9l0l3	d__une_partie_des_bâtiments	O
+9l0l4	la_réalisation_de_lofts	N
+
+#Les dallages bétonnées seront conservés dans le cadre du projet.
+
+10l0l0	Les_dallages_bétonnées	O
+
+#Un arrêté d’autorisation a été délivré à la SAF en novembre 1930 pour son activité de dépôt d’allumettes ainsi qu’un récépissé de déclaration en novembre 1964 pour l’exploitation d’un dépôt de fuel.
+
+11l0l0	Un_arrêté_d__autorisation	O
+11l0l1	a_été_délivré	N
+11l0l2	la_SAF	O
+11l0l3	en_novembre_1930	T
+11l0l4	son_activité_de_dépôt_d__allumettes	A
+11l0l5	ainsi_qu__un_récépissé	O
+11l0l6	déclaration	N
+11l0l7	en_novembre_1964	T
+11l0l8	l__exploitation	N
+11l0l9	d_	R
+11l0l10	un_dépôt_de_fuel	O
+11l1l0	la_SAF	I
+11l1l1	fuel	U
+
+#Aucun dossier de cessation d'activité n'a été déposé auprès de la Préfecture de Loire-Atlantique en 1989, date de cessation présumée de l'exploitation des installations classées susvisées sur ce site.
+
+12l0l0	Aucun_dossier_de	O
+12l0l1	cessation_d__activité	N
+12l0l2	a_été_déposé	N
+12l0l3	la_Préfecture_de_Loire	O
+12l0l4	__Atlantique	L
+12l0l5	en_1989	T
+12l0l6	cessation_présumée_de_l__exploitation_des_installations_classées_susvisées	O
+
+#Un diagnostic environnemental des sols a été effectué par un bureau d’études en octobre 2017. 4 sondages de sol au carottier ont été effectués pour la recherche de polluants.
+
+13l0l0	Un_diagnostic_environnemental	N
+13l0l1	sols_a_été_effectué	N
+13l0l2	un_bureau_d__études	O
+13l0l3	en_octobre_2017__	T
+13l0l4	4	O
+13l0l5	sondages_de_sol	N
+13l0l6	au	R
+13l0l7	carottier	O
+13l0l8	ont_été_effectués	N
+13l0l9	recherche_de_polluants	O
+
+#Les investigations réalisées ont mis en évidence des anomalies ponctuelles en arsenic au droit du sondage S1 (61 mg/kg MS) et des concentrations non négligeables en hydrocarbures totaux C10-C40 (S2 - 188 mg/kg) et en HAP dont du naphtalène en concentration peu élevée (S2 - somme des HAP de 75 mg/kg).
+
+14l0l0	Les_investigations_réalisées	N
+14l0l1	arsenic	O
+14l1l0	arsenic	S
+14l1l1	hydrocarbures_totaux	S
+14l1l2	C10_C40	S
+14l1l3	HAP	S
+14l1l4	du_naphtalène	S
+14l1l5	HAP	S
+
+#Du benzo(a)pyrène a également été détecté dans les remblais superficiels du sondage S2 (10 mg/kg).
+
+15l0l0	a_également_été_détecté	N
+15l0l1	les_remblais	L
+15l1l0	benzo_a_pyrène	S
+
+#On note également la présence d’anomalies peu significatives en mercure et plomb sur l’ensemble du site.
+
+16l1l0	mercure	S
+16l1l1	plomb	S
+
+#L’usage futur sera de type habitation.
+
+
+#Les risques sanitaires identifiés sont liés à l’exposition des futurs occupants du site aux composés polluants mis en évidence.
+
+18l1l0	composés_polluants	U
+
+#Les sols présentant des anomalies pourraient donc générer des incompatibilités avec l’usage prévu si ceux-ci ne sont pas recouverts.
+
+
+#Le projet de réhabilitation ne prévoit pas de zones de pleine terre.
+
+20l0l0	Le_projet_de_réhabilitation	O
+20l0l1	ne_prévoit	R
+
+#Les jardinets privatifs seront constitués de plantations en bacs.
+
+
+#En l’absence de zone de pleine terre aucune voie de transfert n’a été retenue dans le diagnostic environnemental réalisé.
+
+22l0l0	de_zone_de_pleine_terre	O
+22l0l1	aucune_voie_de_transfert	O
+22l0l2	le_diagnostic_environnemental_réalisé	N
+
+#Ainsi le risque sanitaire lié à l'exposition aux polluants précités a été considéré comme nul.
+
+23l0l0	a_été_considéré	N
+23l1l0	polluants	U
+
+#Toutefois, si des espaces verts de pleine terre étaient réalisés par la suite, par mesure de précaution, le recouvrement des anomalies identifiées en arsenic et en hydrocarbures a été recommandé.
+
+24l0l0	des_espaces_verts_de_pleine_terre	O
+24l0l1	étaient_réalisés	N
+24l0l2	par	T
+24l0l3	la_suite	O
+24l0l4	le_recouvrement	N
+24l0l5	a_été_recommandé	N
+24l1l0	arsenic	S
+24l1l1	hydrocarbures	S
+
+#Ce recouvrement pourra s’effectuer par l’apport de 50 cm de terre végétale saine et inerte et supprimera les voies d'exposition.
+
+25l0l0	l__apport	N
+25l0l1	de_50_cm_de_terre_végétale_saine	O
+25l0l2	supprimera_les_voies_d__exposition	N
+
+#Pour rendre le site dans un état tel qu'il soit compatible avec son usage futur (habitations), les recommandations du diagnostic environnemental doivent être mises en œuvre.
+
+26l0l0	diagnostic_environnemental	N
+
+#L'inspection des installations classées note néanmoins que
+
+
+#le diagnostic recommande un recouvrement des sols sans proposer l'excavation des zones des pollutions les plus concentrées (sondage S2) alors que la circulaire du 8 février 2007 précise "en tout premier lieu, les possibilités de suppression des sources de pollution et de leurs impacts doivent être dûment recherchées."
+
+28l0l0	le_diagnostic	N
+28l0l1	l__excavation	N
+28l0l2	zones_des_pollutions	O
+28l0l3	8_février_2007	T
+28l0l4	suppression_des_sources_de_pollution	O

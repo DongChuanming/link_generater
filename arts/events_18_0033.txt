@@ -1,0 +1,319 @@
+
+#18.0033
+#Le site, d'une superficie de 75 000 m2 environ, est implanté sur le territoire de la commune de Vierzon, dans la zone industrielle des Forges.
+
+0l0l0	Le_site	O
+0l0l1	est_implanté_sur_le_territoire_de_la_commune_de_Vierzon	L
+0l0l2	dans_la_zone_industrielle_des_Forges	L
+
+#Il couvre les parcelles 92, 389, 103, 104, 117, 118, 119 et 339 de la section AW du plan cadastral de la commune.
+
+
+#Il est situé en rive gauche du canal de Berry et de l'Yèvre, en rive droite du Cher.
+
+2l0l0	situé_en_rive_gauche_du_canal_de_Berry	L
+2l0l1	l__Yèvre	L
+2l0l2	en_rive_droite_du_Cher	L
+
+#L'usine a été construite en 1933 pour la production de pâte à papier.
+
+3l0l0	L__usine	O
+3l0l1	a_été_construite	N
+3l0l2	en_1933	T
+3l0l3	la_production_de_pâte_à_papier	A
+
+#De 1935 à 1944, elle fabrique des armements.
+
+4l0l0	De_1935_à_1944	T
+4l0l1	elle	O
+4l0l2	fabrique	A
+4l0l3	des	O
+4l0l4	armements	A
+
+#En 1945, la société la Précision Moderne y poursuit des activités de mécanique générale.
+
+5l0l0	En_1945	T
+5l0l1	la_société_la_Précision_Moderne	O
+5l0l2	poursuit_des_activités_de_mécanique_générale	A
+5l1l0	la_société_la_Précision	I
+
+#En 1960, l'usine est vendue à DENISON ENGINEERING.
+
+6l0l0	En_1960	T
+6l0l1	l__usine	O
+6l0l2	est_vendue_à	N
+6l0l3	DENISON_ENGINEERING	O
+6l1l0	DENISON_ENGINEERING	I
+
+#En 1993, elle est incluse dans une holding et devient DENISON HYDRAULICS FRANCE S.
+
+7l0l0	En_1993	T
+7l0l1	elle	O
+7l0l2	est_incluse_dans	N
+7l0l3	une_holding	O
+7l0l4	devient	R
+7l0l5	DENISON_HYDRAULICS_FRANCE	O
+7l1l0	DENISON_HYDRAULICS_FRANCE_S_	I
+
+#. Elle est spécialisée dans l'activité de traitement mécanique des métaux et de dégraissage liée à la fabrication de pompes hydrauliques.
+
+8l0l0	l__activité_de_traitement_mécanique_des_métaux	A
+8l0l1	dégraissage	A
+8l0l2	liée_à	R
+8l0l3	la_fabrication_de_pompes_hydrauliques	A
+
+#L'arrêté préfectoral du 2 mai 2005 transfère l'autorisation d'exploitation à la société PARKER HANNIFIN.
+
+9l0l0	L__arrêté_préfectoral	O
+9l0l1	du_2_mai_2005	T
+9l0l2	transfère	N
+9l0l3	l__autorisation_d__exploitation	O
+9l0l4	la_société_PARKER_HANNIFIN	O
+9l1l0	la_société_PARKER_HANNIFIN	I
+
+#La nappe des alluvions du Cher, présente au droit du site à 3 mètres de profondeur est vulnérable aux pollutions.
+
+10l0l0	Cher	L
+10l0l1	au_droit_du_site	L
+10l0l2	est_vulnérable_aux_pollutions	N
+
+#Elle s'écoule vers le sud-ouest.
+
+11l0l0	écoule_vers_le_sud_ouest	L
+
+#Elle est captée pour l'utilisation en eau potable pour la ville de VIERZON à environ 1 500 m en aval hydraulique du site.
+
+12l0l0	Elle	O
+12l0l1	est_captée	N
+12l0l2	ville_de_VIERZON	L
+12l0l3	à_environ_1_500_m_en_aval_hydraulique_du_site	L
+
+#Vierzon dispose également d'une réserve d'eau, le plan d'eau du Bois Blanc, qui servirait à la fabrication d'eau potable en cas de pollution du Cher, à 300 mètres de l'usine.
+
+13l0l0	Vierzon	L
+13l0l1	une_réserve_d__eau	O
+13l0l2	le_plan_d__eau	O
+13l0l3	la_fabrication_d__eau_potable	A
+13l0l4	en_cas_de	R
+13l0l5	pollution_du_Cher	L
+13l0l6	à_300_mètres_de_l__usine	L
+
+#Dans le cadre de sa démarche de certification ISO 14001, la société DENISON HYDRAULICS a fait réaliser un diagnostic de l'état de pollution des sols au droit du site en juin 1999.
+
+14l0l0	Dans_le_cadre_de	R
+14l0l1	sa_démarche	N
+14l0l2	certification_ISO_14001	N
+14l0l3	la_société_DENISON_HYDRAULICS	O
+14l0l4	a_fait_réaliser	N
+14l0l5	un_diagnostic	N
+14l0l6	l__état_de_pollution_des_sols	O
+14l0l7	au_droit_du_site	L
+14l0l8	en_juin_1999__	T
+14l1l0	la_société_DENISON_HYDRAULICS	I
+
+#Quatre piézomètres étaient présents.
+
+
+#Les résultats de l'étude montrent la présence :
+
+
+#- d'une contamination des sols par des hydrocarbures et des métaux lourds,
+
+17l0l0	une_contamination_des_sols	N
+17l0l1	des_hydrocarbures	O
+17l0l2	métaux_lourds	O
+17l1l0	hydrocarbures	S
+17l1l1	métaux_lourds	S
+
+#- d'une pollution des eaux souterraines par des hydrocarbures et des composés organohalogénés.
+
+18l0l0	une_pollution	N
+18l0l1	eaux_souterraines	O
+18l1l0	hydrocarbures	S
+18l1l1	composés_organohalogénés	S
+
+#Les concentrations dans la nappe augmentent de l'amont du site vers l'aval.
+
+19l0l0	la_nappe	O
+19l0l1	amont_du_site_vers_l__aval	L
+
+#L'exploitant a alors mis en place une surveillance de la qualité des eaux souterraines et prévu d'excaver les sols contaminés situés à l'arrière de l'usine.
+
+20l0l0	L__exploitant	O
+20l0l1	a_alors_mis_en_place	N
+20l0l2	une_surveillance_de_la_qualité_des_eaux_souterraines	A
+20l0l3	prévu	R
+20l0l4	d__excaver	N
+20l0l5	les_sols_contaminés	O
+20l0l6	situés_à_l__arrière_de_l__usine	L
+
+#L'arrêté préfectoral complémentaire du 2 septembre 2002 prévoit :
+
+21l0l0	L__arrêté_préfectoral_complémentaire	O
+21l0l1	2_septembre_2002	T
+
+#- des prélévements supplémentaires dans la nappe à l'aval de l'établissement et en direction du captage AEP, dans le plan d'eau existant et au droit du captage,
+
+22l0l0	des_prélévements	N
+22l0l1	à_l__aval_de_l__établissement	L
+22l0l2	et	R
+22l0l3	en_direction_du_captage_AEP	L
+22l0l4	le_plan_d_	O
+22l0l5	au_droit_du_captage	L
+
+#- l'élaboration d'une étude historique au niveau des divers locaux et de leurs utilisations successives,
+
+23l0l0	leurs_utilisations_successives	N
+
+#- la réalisation d'un piézomètre supplémentaire à l'aval,
+
+24l0l0	la_réalisation_d__un_piézomètre_supplémentaire	O
+24l0l1	à_l__aval	L
+
+#- une étude hydrogéologique afin de préciser les écoulements de la nappe,
+
+25l0l0	une_étude_hydrogéologique	N
+
+#- la poursuite des analyses trimestrielle des eaux recueillies dans les piézomètres,
+
+26l0l0	la_poursuite	N
+26l0l1	des_analyses_trimestrielle	A
+26l0l2	eaux	O
+
+#- la réalisation d'une évaluation simplifiée des risques (ESR).
+
+27l0l0	la_réalisation_d__une_évaluation_simplifiée_des_risques	N
+
+#L'étude historique a été déposée le 12 novembre 2002.
+
+28l0l0	a_été_déposée	N
+28l0l1	le_12_novembre_2002	T
+
+#Elle met en évidence deux sources potentielles de pollution des sols.
+
+
+#Deux piézomètres complémentaires ont été mis en place : un à l'aval selon les prescriptions de l'arrêté préfectoral complémentaire et un en amont hydraulique de l'usine.
+
+30l0l0	Deux_piézomètres_complémentaires	O
+30l0l1	ont_été_mis_en_place	N
+30l0l2	un	O
+30l0l3	à_l__aval	L
+30l0l4	les_prescriptions	O
+30l0l5	l__arrêté_préfectoral_complémentaire	O
+30l0l6	un	O
+30l0l7	en_amont_hydraulique_de_l__usine	L
+
+#La deuxième étape, remise en mars 2003, consistait en des campagnes d'investigations complémentaires.
+
+31l0l0	La_deuxième_étape	O
+31l0l1	en_mars_2003__	T
+31l0l2	consistait_en	R
+31l0l3	des_campagnes_d__investigations	N
+
+#Les résultats ont montré que les eaux souterraines, au droit du site, présentent un impact en dichloroéthylène, trichloroéthylène, tétrachloroéthylène et en hydrocarbures.
+
+32l0l0	les_eaux	O
+32l0l1	au_droit_du_site	L
+32l1l0	dichloroéthylène	S
+32l1l1	trichloroéthylène	S
+32l1l2	tétrachloroéthylène	S
+32l1l3	hydrocarbures	S
+
+#Les eaux du captage AEP et du plan d'eau du Bois Blanc sont conformes aux normes de potabilité.
+
+33l0l0	Les_eaux	O
+33l0l1	captage_AEP	O
+
+#La troisième étape, l'étude simplifiée des risques (ESR), est remise en mars 2003 et a conclu à un classement du site en classe 1, c'est à dire que le site nécessite des investigations approfondies et une évaluation détaillée des risques.
+
+34l0l0	La_troisième_étape	O
+34l0l1	l__étude_simplifiée_des_risques	N
+34l0l2	en_mars_2003	T
+34l0l3	site	O
+34l0l4	en	R
+34l0l5	classe_1	O
+34l0l6	le_site	O
+34l0l7	investigations_approfondies	N
+34l0l8	une_évaluation_détaillée_des_risques	N
+
+#La première des deux zones de sols contaminées à l'arrière de l'usine a fait l'objet d'une excavation de 262 tonnes de terres souillées en avril 2003.
+
+35l0l0	La_première	O
+35l0l1	deux_zones_de_sols_contaminées	O
+35l0l2	à_l__arrière_de_l__usine	L
+35l0l3	a_fait_l__objet_d_	R
+35l0l4	une_excavation	N
+35l0l5	262_tonnes_de_terres_souillées	O
+35l0l6	en_avril_2003	T
+
+#Les terres souillées ont été évacuées en centre d'enfouissement technique de classe 1, c'est à dire pour les déchets dangereux. 284 tonnes de terres souillées provenant de la deuxième zone ont été excavées en avril 2004 dans les mêmes conditions d'évacuation des terres.
+
+36l0l0	Les_terres_souillées	O
+36l0l1	ont_été_évacuées	N
+36l0l2	en_centre_d__enfouissement_technique	N
+36l0l3	284_tonnes_de_terres_souillées	O
+36l0l4	provenant_de	R
+36l0l5	la_deuxième_zone	O
+36l0l6	ont_été_excavées	N
+36l0l7	en_avril_2004	T
+
+#Lors de ces travaux, 5 m3 d'eau pompés dans la nappe ont été traités in situ par évaporation sous vide.
+
+37l0l0	Lors	T
+37l0l1	de_ces_travaux	N
+37l0l2	la_nappe	O
+37l0l3	ont_été_traités_in_situ	N
+37l0l4	évaporation_sous_vide	A
+
+#Un suivi semestriel des eaux souterraines est mis en place en septembre 2003.
+
+38l0l0	Un_suivi_semestriel_des_eaux_souterraines	A
+38l0l1	est_mis_en_place	N
+38l0l2	en_septembre_2003	T
+
+#La première campagne a mis en évidence une pollution des eaux souterraines par des composés organo-halogénés volatils (COHV) et du chlorure de vinyle.
+
+39l0l0	La_première_campagne	N
+39l0l1	une_pollution	N
+39l0l2	eaux_souterraines	O
+39l1l0	composés_organo___halogénés_volatils	S
+39l1l1	COHV	S
+39l1l2	du_chlorure_de_vinyle	S
+
+#Les teneurs en polluants dépassent les valeurs de référence données par l'arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine.
+
+40l0l0	11_janvier_2007	T
+
+#Des teneurs en hydrocarbures inférieures à la valeur de référence de l'arrêté précité ont aussi été détectées.
+
+41l0l0	Des_teneurs	O
+41l0l1	ont_aussi_été_détectées	N
+41l1l0	hydrocarbures	S
+
+#La concentration en hydrocarbures diminue jusqu'en février 2004 où elle se stabilise à une valeur inférieure à la valeur de référence de l'arrêté précité.
+
+42l0l0	jusqu__en_février_2004	T
+42l0l1	se_stabilise	N
+42l1l0	hydrocarbures	S
+
+#Les teneurs en COHV ont globalement diminué pour se stabiliser à une valeur supérieure à celle donnée dans le même arrêté.
+
+43l1l0	COHV	S
+
+#La concentration en chlorure de vinyle est sujette à des pics de pollution, surement dus aux dégradations des polluants chlorés, dont l'amplitude a tendance à diminuer avec le temps.
+
+44l0l0	sujette_à	R
+44l0l1	des_pics	N
+44l0l2	de_pollution	O
+44l1l0	chlorure_de_vinyle	S
+44l1l1	polluants_chlorés	U
+
+#Les teneurs de ce polluant restent trop importantes en comparaison de la valeur de référence de l'arrêté précité.
+
+45l0l0	Les_teneurs	O
+
+#Le suivi de la qualité des eaux souterraines se poursuit sur 6 piézomètres.
+
+46l0l0	Le_suivi	A
+46l0l1	la_qualité_des_eaux_souterraines	O
+46l0l2	se_poursuit	N

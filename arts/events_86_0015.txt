@@ -1,0 +1,252 @@
+
+#86.0015
+#La société GM METAL a été créé en 1989 après le rachat du terrain en 1988 à Aldevienne.
+
+0l0l0	La_société_GM_METAL	O
+0l0l1	a_été_créé	N
+0l0l2	en_1989	T
+0l0l3	après	R
+0l0l4	le_rachat_du_terrain	N
+0l0l5	en_1988	T
+0l0l6	à	R
+0l0l7	Aldevienne	L
+0l1l0	La_société_GM_METAL	I
+
+#En 2002 le groupe UMICORE achète GM METAL.
+
+1l0l0	En_2002	T
+1l0l1	le_groupe_UMICORE	O
+1l0l2	achète	N
+1l0l3	GM_METAL	O
+1l1l0	UMICORE_achète_GM_METAL	I
+
+#Puis en 2007 le groupe ZENIFEX et UMICORE associent leurs productions de zinc et de plomb pour donner naissance à NYRSTAR.
+
+2l0l0	en_2007	T
+2l0l1	le_groupe_ZENIFEX	O
+2l0l2	UMICORE	O
+2l0l3	associent	N
+2l0l4	leurs_productions_de_zinc	A
+2l0l5	donner_naissance	N
+2l0l6	à_NYRSTAR	L
+2l1l0	le_groupe_ZENIFEX	I
+2l1l1	UMICORE	I
+2l1l2	zinc	S
+2l1l3	plomb	S
+2l1l4	NYRSTAR	I
+
+#GM METAL devient donc propriété de NYRSTAR.
+
+3l0l0	GM_METAL	O
+3l0l1	devient	R
+3l0l2	NYRSTAR	O
+3l1l0	GM_METAL	I
+3l1l1	NYRSTAR	I
+
+#GM METAL était une entreprise spécialisée dans :
+
+4l0l0	GM_METAL	O
+4l1l0	GM_METAL	I
+
+#- la production d'alliage de zinc à partir de matière première primaire
+
+5l0l0	la_production_d__alliage	A
+5l1l0	zinc	S
+5l1l1	matière_première_primaire	U
+
+#- le recyclage de zinc/aluminium et d'alliage de zinc/aluminium pour fabriquer des alliages recyclés.
+
+6l0l0	aluminium	O
+6l1l0	zinc___aluminium	S
+6l1l1	zinc___aluminium	S
+
+#Elle a cessé son activité en 2010.
+
+7l0l0	Elle	O
+7l0l1	a_cessé	N
+7l0l2	son_activité	O
+7l0l3	en_2010__	T
+
+#La société GM METAL est implantée sur la commune du vigeant, dans la zone d'activité située au lieu dit "Bramme-Faim", à 4.5 km au Sud-Ouest du centre ville.
+
+8l0l0	La_société_GM_METAL	O
+8l0l1	est	N
+8l0l2	implantée_sur_la_commune_du_vigeant	L
+8l0l3	dans_la_zone_d_	L
+8l0l4	activité	R
+8l0l5	située_au_lieu_dit___Bramme___Faim__	L
+8l0l6	__à_4_5_km_au_Sud_Ouest_du_centre_ville	L
+8l1l0	La_société_GM_METAL	I
+
+#En décembre 2001, ERM a réalisé un audit environnemental de phase I sur le Site.
+
+9l0l0	En_décembre_2001__	T
+9l0l1	ERM	O
+9l0l2	a_réalisé	N
+9l0l3	un_audit_environnemental	N
+9l0l4	de_phase_I	O
+9l1l0	ERM	I
+
+#Cet audit a identifié 12 aires potentiellement contaminées.
+
+10l0l0	Cet_audit_a_identifié	N
+10l0l1	12_aires	O
+
+#Un Audit Environnemental approfondi a été réalisée lors du rachat de GM METAL par Umicore en février 2002.
+
+11l0l0	Un_Audit_Environnemental_approfondi	N
+11l0l1	a_été_réalisée_lors_du_rachat	N
+11l0l2	GM_METAL	O
+11l0l3	Umicore	O
+11l0l4	en_février_2002	T
+11l1l0	GM_METAL	I
+11l1l1	Umicore	I
+
+#L'étude de vulnérabilité menée pour le site a révélé une vulnérabilité hydrologique modérée compte tenu de l'éloignement du site avec la vienne, et une vulnérabilité hydrogéologique faible compte tenu de la profondeur de la première nappe et la faible perméabilité des terrains.
+
+12l0l0	le_site	O
+12l0l1	avec_la_vienne	L
+
+#Des analyses des sols et des eaux souterraines ont été effectué.
+
+13l0l0	Des_analyses	N
+13l0l1	ont_été_effectué	N
+
+#Concernant les sols elles ont porté sur 8 métaux (Arsenic, Cadmium, Chrome, Cuivre, Mercure,Plomb, Nickel, Zinc), THP et PAH, le Béryllium et le Trinitro Toluène.
+
+14l1l0	métaux	S
+14l1l1	Arsenic	S
+14l1l2	Cadmium	S
+14l1l3	Chrome	S
+14l1l4	Cuivre	S
+14l1l5	Mercure	S
+14l1l6	Plomb	S
+14l1l7	Nickel	S
+14l1l8	Zinc	S
+14l1l9	THP_et_PAH	S
+14l1l10	le_Béryllium	S
+14l1l11	Trinitro_Toluène	S
+
+#Les analyses des eaux souterraines ont porté sur les mêmes composés complétée par les BTEX et les COV.
+
+15l0l0	Les_analyses	N
+15l1l0	les_BTEX	S
+15l1l1	les_COV	S
+
+#Tous les échantillons des sols ont excédé la Valeur Définition de Source-Sol (VDSS) pour l'arsenic.
+
+16l0l0	excédé	N
+16l0l1	l__arsenic	O
+16l1l0	arsenic	S
+
+#Seul un échantillon dépasse la Valeur de Constat d'Impact (VCI) non sensible.
+
+
+#Aucune explication n'a pu être donnée compte tenu de la connaissance des activités sur le site.
+
+
+#Ces concentrations d'arsenic reflètent certainement une particularité du sous sol géochimique local.
+
+19l0l0	d__arsenic	O
+19l1l0	arsenic	S
+
+#Un étude hydrogéologique et la mise en place de piézomètre sur le site GM Métal a été effectué en Juin 2004.
+
+20l0l0	Un_étude_hydrogéologique	N
+20l0l1	la_mise_en_place_de_piézomètre	O
+20l0l2	le_site_GM_Métal	O
+20l0l3	a_été_effectué	N
+20l0l4	en_Juin_2004__	T
+20l1l0	GM_Métal	I
+
+#Les résultats d'analyses montrent une contamination de la nappe du Dogger par l'aluminium et les hydrocarbures, avec des dépassements de 1.5 et 2 fois la VCI usage sensible pour l'aluminium et de 1,1 à 4,4 fois la VCI usage sensible pour les hydrocarbures totaux.
+
+21l0l0	une_contamination	N
+21l0l1	la_nappe	O
+21l1l0	l__aluminium	S
+21l1l1	hydrocarbures	S
+21l1l2	l__aluminium	S
+21l1l3	les_hydrocarbures_totaux	S
+
+#D'après le mémoire de Cessation d'activité réalisé en juillet 2009 le risque lié aux pollutions relevées lors des différentes campagnes d'investigations et du suivi piézométrique de la nappe est évalué comme modéré pour un usage futur du terrain industriel.
+
+22l0l0	Cessation_d_	N
+22l0l1	activité	O
+22l0l2	réalisé	N
+22l0l3	en_juillet_2009	T
+22l0l4	pollutions_relevées	N
+22l0l5	lors	R
+22l0l6	des_différentes_campagnes_d__investigations	N
+22l0l7	suivi_piézométrique	N
+22l0l8	la_nappe	O
+22l0l9	un_usage_futur_du_terrain_industriel	O
+
+#GM METAL veux réaliser une dernière campagne de suivi de la qualité des eaux souterraines après la fin de l'activité sur le site et avant la cessation de la propriété à un acquéreur afin de valider l'absence de contamination observées depuis 2006.
+
+23l0l0	GM_METAL	O
+23l0l1	veux	R
+23l0l2	réaliser_une_dernière_campagne	N
+23l0l3	de_suivi_de_la_qualité_des_eaux_souterraines	A
+23l0l4	après	R
+23l0l5	la_fin_de	N
+23l0l6	l__activité	O
+23l0l7	avant_la_cessation_de_la_propriété_à	N
+23l0l8	un_acquéreur	N
+23l0l9	depuis_2006__	T
+23l1l0	GM_METAL	I
+
+#Cette dernière campagne inclura la mesure des PCB afin de lever les dernières incertitudes liées à l'historique du site.
+
+24l0l0	la_mesure	N
+24l1l0	PCB	S
+
+#Ce dossier n'a pas permis à l'inspection d'évaluer pleinement l'absence d'impact pour l'usage futur du site proposé par l'exploitant.
+
+25l0l0	l__exploitant	O
+
+#C'est pour cette raison que l'inspection des installations classées demande des investigations complémentaires.
+
+26l0l0	l__inspection_des_installations_classées	O
+26l0l1	demande_des_investigations_complémentaires	N
+
+#Un arrêté du 15 septembre 2011 a donc été réalisé pour imposer a l'exploitant de la société GM METAL une analyse du fond géochimique, de prélèvements et d'analyses des eaux souterraines, ainsi qu'un plan de gestion qui sera réalisé avec les conclusions de l'évaluation de la compatibilité géochimique et des résultats des analyses des eaux souterraines.
+
+27l0l0	Un_arrêté_du	O
+27l0l1	15_septembre_2011	T
+27l0l2	a_donc_été_réalisé	N
+27l0l3	imposer	N
+27l0l4	a_l__exploitant	O
+27l0l5	la_société_GM_METAL	O
+27l0l6	une_analyse	N
+27l0l7	fond_géochimique	N
+27l0l8	un_plan_de_gestion	O
+27l1l0	la_société_GM_METAL	I
+
+#Ce plan de gestion doit veiller sur la compatibilité du site avec son usage future.
+
+28l0l0	Ce_plan_de_gestion	O
+28l0l1	doit	R
+28l0l2	veiller	T
+
+#Ce plan de gestion a été fourni en Juin 2012 par le bureau d'études Antéa : "Détermination du fond géochimiques, analyse des eaux souterraines : Proposition de mesures de gestion du site".
+
+29l0l0	Ce_plan_de_gestion	O
+29l0l1	a_été_fourni	N
+29l0l2	en_Juin_2012	T
+29l0l3	le_bureau_d__études_Antéa	O
+29l0l4	Détermination	N
+29l0l5	fond_géochimiques	O
+29l0l6	Proposition_de_mesures_de_gestion	O
+29l1l0	Antéa	I
+
+#L'analyse des risques sanitaires conclu que " Sur la base des informations disponibles au moment de la réalisation de la présente étude et des hypothèses retenue, l'état des sols  au terme de la cessation d'activité du site GM Metal et caractérisé en février 2012, est compatible avec les usages futurs envisagés (usage de type industriel) au regard des risques sanitaires par inhalation de poussières." La cessation d'activité a pu être finalisé.
+
+30l0l0	au_terme_de	R
+30l0l1	la_cessation_d__activité	N
+30l0l2	du_site_GM_Metal	O
+30l0l3	et_caractérisé	N
+30l0l4	en_février_2012	T
+30l0l5	avec_les_usages_futurs_envisagés	O
+30l0l6	__La_cessation_d__activité	N
+30l0l7	a_pu_être_finalisé	N
+30l1l0	site_GM_Metal	I

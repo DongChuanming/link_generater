@@ -1,0 +1,343 @@
+
+#76.0211
+#Depuis 1964, la société DORLYL, filiale d’ARKEMA, située rue des Chantiers au Havre, est spécialisée dans la fabrication de composés vinyliques à partir de granulés et de poudres PVC.
+
+0l0l0	Depuis_1964	T
+0l0l1	la_société_DORLYL	O
+0l0l2	ARKEMA	O
+0l0l3	située_rue_des_Chantiers_au_Havre	L
+0l0l4	est_spécialisée_dans_la_fabrication_de_composés_vinyliques	A
+0l1l0	la_société_DORLYL	I
+0l1l1	d__ARKEMA	I
+0l1l2	composés_vinyliques	S
+0l1l3	poudres_PVC	U
+
+#Les activités du site sont réglementées par l’arrêté préfectoral du 12 mars 2001.
+
+1l0l0	Les_activités	A
+1l0l1	du_site	O
+1l0l2	sont_réglementées	N
+1l0l3	l__arrêté_préfectoral	O
+1l0l4	12_mars_2001	T
+
+#Depuis juin 2008, la société a cessé ses activités sur le site du Havre.
+
+2l0l0	Depuis_juin_2008__	T
+2l0l1	la_société	O
+2l0l2	a_cessé	N
+2l0l3	ses_activités	A
+2l0l4	sur_le_site_du_Havre	L
+
+#Le site DORLYL s’étend sur une surface de 19 290 m².
+
+3l0l0	Le_site_DORLYL	O
+3l1l0	Le_site_DORLYL	I
+
+#Le site est entouré des sociétés suivantes:  SIDEL, SOLMA, SOTRASI, des Entrepôts frigorifiques,  SATREMT-EIFFEL-LENOIR.
+
+4l0l0	Le_site	O
+4l0l1	__SIDEL	O
+4l0l2	__SOLMA___SOTRASI	O
+4l0l3	Entrepôts_frigorifiques	R
+4l0l4	____SATREMT	O
+4l1l0	__SIDEL___SOLMA___SOTRASI	I
+4l1l1	Entrepôts_frigorifiques	S
+4l1l2	____SATREMT___EIFFEL___LENOIR	I
+
+#Le canal de Tancarville passe au Nord du site.
+
+5l0l0	Le_canal	O
+5l0l1	de_Tancarville	O
+5l0l2	passe_au_Nord_du_site	L
+5l1l0	Tancarville	I
+
+#Les premières habitations sont situées à 700 mètres au sud du site.
+
+6l0l0	Les_premières_habitations	O
+6l0l1	sont_situées_à_700_mètres_au_sud_du_site	L
+
+#La nappe alluviale est rencontrée entre 0,6 et 3 mètres de profondeur.
+
+
+#Dans le cadre de la cessation des activités du site, en juin 2008, l'exploitant a remis un diagnostic des sols et des eaux souterraines réalisé en juin 2008, suivi d’un diagnostic complémentaire en février et mai 2009, puis d’un plan de gestion en octobre 2009 (réalisation par BURGEAP).
+
+8l0l0	Dans_le_cadre_de	R
+8l0l1	la_cessation_des_activités	N
+8l0l2	du_site	O
+8l0l3	en_juin_2008__	T
+8l0l4	l__exploitant	O
+8l0l5	a_remis_un_diagnostic	N
+8l0l6	sols_et_des_eaux_souterraines	O
+8l0l7	réalisé	N
+8l0l8	en_juin_2008__	T
+8l0l9	suivi_d_	R
+8l0l10	un_diagnostic_complémentaire	N
+8l0l11	en_février_et_mai_2009__	T
+8l0l12	un_plan_de_gestion	O
+8l0l13	en_octobre_2009	T
+8l0l14	BURGEAP	O
+8l1l0	BURGEAP	I
+
+#Les différentes investigations ont mis en évidence la présence :
+
+
+#=> dans les sols :
+
+
+#- de métaux en teneurs supérieures aux valeurs de référence mais toutefois du même ordre de grandeur que les teneurs mesurées sur des échantillons de sols témoins prélevés à l’extérieur du site ;
+
+11l1l0	métaux	S
+
+#- d’hydrocarbures à une profondeur comprise entre 1,50 et 1,80 mètre au nord-est du site, au niveau de la cuve de fuel de 1500 litres.
+
+12l0l0	mètre_au_nord_est_du_site	L
+12l0l1	__au_niveau_de	R
+12l0l2	la_cuve_de_fuel	N
+12l1l0	d__hydrocarbures	S
+12l1l1	la_cuve_de_fuel	U
+
+#Suite à ces résultats d’analyse, celle-ci a été vidangée, dégazée puis excavée et évacuée en centre de traitement spécifique par une entreprise spécialisée.
+
+13l0l0	a_été_vidangée	N
+13l0l1	dégazée	N
+13l0l2	excavée	N
+13l0l3	évacuée	O
+13l0l4	en_centre_de_traitement_spécifique	N
+13l0l5	une_entreprise_spécialisée	O
+
+#Par ailleurs, 12 m3 de terres ont également été excavées.
+
+14l0l0	m3_de_terres	O
+14l0l1	ont_également_été_excavées	N
+
+#Des prélèvements et des analyses d’échantillons de sols ont été réalisés en fonds et bords de fouille après l’enlèvement de la cuve et des terres afin de s’assurer que l’ensemble de la pollution avait été excavée ;
+
+15l0l0	ont_été_réalisés	N
+15l0l1	fonds_et_bords_de_fouille	L
+15l0l2	après	R
+15l0l3	l__enlèvement_de	N
+15l0l4	la_cuve	O
+15l0l5	des_terres	O
+15l0l6	l__ensemble_de_la_pollution	O
+15l0l7	avait_été_excavée	N
+
+#- d’hydrocarbures au nord-ouest du site.
+
+16l0l0	hydrocarbures	O
+16l0l1	au_nord_ouest_du_site	L
+
+#=> dans les eaux souterraines :
+
+
+#- de métaux ;
+
+
+#- d’hydrocarbures aromatiques polycycliques (HAP) ;
+
+19l1l0	d__hydrocarbures_aromatiques_polycycliques	S
+19l1l1	HAP	S
+
+#- d’hydrocarbures, principalement au niveau du piézomètre situé à proximité de l’emplacement de la cuve de fuel.
+
+20l0l0	au_niveau_du_piézomètre	L
+20l0l1	situé_à_proximité_de_l__emplacement_de	L
+20l0l2	la_cuve_de_fuel	O
+20l1l0	hydrocarbures	S
+20l1l1	cuve_de_fuel	U
+
+#Des prélèvements ont été réalisés dans les eaux superficielles du bassin Despujols en amont et en aval du site.
+
+21l0l0	Des_prélèvements_ont_été_réalisés	N
+21l0l1	bassin_Despujols	O
+21l0l2	en_amont_et_en_aval_du_site	L
+
+#Les résultats d’analyses n’ont pas montré de dépassements par rapport aux valeurs de référence retenues.
+
+
+#Pour les polluants recherchés (métaux lourds, hydrocarbures, HAP et phtalates), les concentrations sont du même ordre de grandeur à l’amont et à l’aval.
+
+23l0l0	aval	O
+23l1l0	les_polluants	U
+23l1l1	métaux_lourds	S
+23l1l2	hydrocarbures	S
+23l1l3	HAP	S
+23l1l4	phtalates	S
+
+#Des échantillons d’air ambiant ont été prélevés sur le site par pompage constant sur une durée de 8 heures.
+
+24l0l0	pompage	O
+24l0l1	une_durée_de_8_heures	T
+
+#Les analyses ont porté sur certains paramètres :
+
+
+#- les composés organiques mono-aromatiques volatiles BTEX : benzène, toluène, éthyl-benzène et xylènes,
+
+26l1l0	les_composés_organiques_mono_aromatiques_volatiles	S
+26l1l1	BTEX	S
+26l1l2	__benzène___toluène___éthyl___benzène_et_xylènes	S
+
+#- le méthyl tert-butyl éther,
+
+27l1l0	le_méthyl_tert___butyl_éther	S
+
+#- les hydrocarbures aromatiques monocycliques (HAM).
+
+28l1l0	les_hydrocarbures_aromatiques_monocycliques	S
+28l1l1	HAM	S
+
+#-> Les résultats analytiques de tous les échantillons sont inférieurs aux valeurs de référence.
+
+
+#Suite à ces résultats d’analyses, l’exploitant a conclu que :
+
+30l0l0	l__exploitant	O
+
+#- la pollution en métaux n'apparaissait pas être du fait des activités de la société DORLYL étant donné la nature des activités exercées sur le site (fabrication de composés vinyliques à partir de granulés et de poudres PVC).
+
+31l0l0	des_activités	A
+31l0l1	de_la_société_DORLYL	O
+31l0l2	__fabrication_de_composés_vinyliques	A
+31l1l0	de_la_société_DORLYL	I
+31l1l1	de_composés_vinyliques	S
+31l1l2	poudres_PVC	S
+
+#Par ailleurs, cette pollution a été détectée dans les zones enherbées à l’intérieur et à l’extérieur du site qui sont pourtant non susceptibles d’avoir été impactées par les activités de DORLYL,
+
+32l0l0	cette_pollution	O
+32l0l1	a_été_détectée	N
+32l0l2	les_zones_enherbées	O
+32l0l3	l__extérieur_du_site	L
+32l0l4	susceptibles_d__avoir_été_impactées	N
+32l0l5	les_activités_de_DORLYL	O
+32l1l0	DORLYL	I
+
+#- la pollution en hydrocarbures au nord-ouest ne semblait pas être liée aux activités du site puisqu’à cet endroit aucun produit à base d’hydrocarbures n’a été manipulé.
+
+33l0l0	hydrocarbures_au_nord_ouest	O
+33l0l1	ne_semblait_pas	R
+33l0l2	être_liée_aux	R
+33l0l3	activités_du_site	A
+33l1l0	hydrocarbures	S
+33l1l1	hydrocarbures	S
+
+#A noter que d’après les investigations menées par l’exploitant, les activités suivantes ont été précédemment exercées sur le site :
+
+34l0l0	l__exploitant	O
+34l0l1	les_activités_suivantes_ont_été_précédemment_exercées	N
+34l0l2	sur_le_site	L
+
+#de 1918 à 1948 : activité de raffinage et de stockage d’hydrocarbures par la société « Les Fils de A.
+
+35l0l0	de_1918_à_1948	T
+35l0l1	__activité_de_raffinage_et_de_stockage_d__hydrocarbures	A
+35l0l2	la_société___Les_Fils_de_A_	O
+35l1l0	hydrocarbures	S
+35l1l1	la_société	I
+
+#Deutsch de la Meurthe et Cie »,
+
+36l0l0	Deutsch_de_la_Meurthe_et_Cie	O
+
+#de 1949 à 1962 : activité de fabrication de solvants gras par la société DESMARAIS FRERES,
+
+37l0l0	de_1949	T
+37l0l1	à_1962	T
+37l0l2	__activité_de_fabrication_de_solvants_gras	A
+37l0l3	la_société_DESMARAIS_FRERES	O
+37l1l0	solvants_gras	U
+37l1l1	la_société_DESMARAIS_FRERES	I
+
+#de 1962 à 1964 : activité de raffinage d’huiles végétales par la société LESIEUR.
+
+38l0l0	de_1962	T
+38l0l1	à_1964	T
+38l0l2	__activité_de_raffinage_d__huiles_végétales	A
+38l0l3	la_société_LESIEUR	O
+38l1l0	la_société_LESIEUR	I
+
+#D’après le plan d’occupation des sols du Havre, le terrain devait rester à usage industriel, artisanal ou commercial.
+
+39l0l0	du_Havre	L
+39l0l1	le_terrain	O
+39l0l2	devait_rester_à	R
+39l0l3	usage_industriel___artisanal_ou_commercial	A
+
+#La partie du site appartenant à la société DORLYL a été vendue au transporteur DUFOUR.
+
+40l0l0	La_partie	O
+40l0l1	la_société_DORLYL	O
+40l0l2	a_été_vendue	N
+40l0l3	au_transporteur_DUFOUR	O
+40l1l0	société_DORLYL	I
+40l1l1	DUFOUR	I
+
+#Une restriction conventionnelle d’usage a été intégrée dans l’acte de cession stipulant que les propriétaires successifs du terrain devront se soumettre à certaines obligations :
+
+41l0l0	Une_restriction_conventionnelle_d__usage	O
+41l0l1	a_été_intégrée	N
+41l0l2	acte_de_cession	N
+41l0l3	les_propriétaires_successifs	O
+
+#- interdiction d’accès du public aux surfaces non imperméabilisées par la mise en place d’un grillage (ou tout autre dispositif équivalent) pour cause de pollution (zones polluées aux métaux et hydrocarbures),
+
+42l0l0	interdiction_d__accès	N
+42l0l1	imperméabilisées_par_la_mise_en_place_d_	N
+42l1l0	métaux	S
+42l1l1	hydrocarbures	S
+
+#- obligation d’excaver les terres dans le cas où elles pourraient être en contact direct avec le public (absence de grillage,...) et de les éliminer conformément à la réglementation en vigueur.
+
+43l0l0	d__excaver	N
+43l0l1	les_terres	O
+43l0l2	en_contact_direct_avec_le_public	L
+43l0l3	grillage	O
+43l0l4	de_les_éliminer	N
+43l0l5	conformément_à	R
+43l0l6	la_réglementation	O
+
+#Le futur propriétaire devra conserver les bordereaux de suivi d’élimination de ces terres.
+
+44l0l0	Le_futur_propriétaire	O
+44l0l1	les_bordereaux	O
+44l0l2	ces_terres	O
+
+#Suite à l'instruction du dossier de cessation d'activité par l'inspection des installations classées et après passage devant les membres du CODERST en mars 2010, l'arrêté préfectoral complémentaire du 05 octobre 2010 a imposé par ailleurs à l'exploitant :
+
+45l0l0	Suite_à	R
+45l0l1	l__instruction	N
+45l0l2	cessation_d__activité	O
+45l0l3	l__inspection_des_installations_classées	O
+45l0l4	CODERST	O
+45l0l5	en_mars_2010__	T
+45l0l6	l__arrêté_préfectoral_complémentaire	O
+45l0l7	05_octobre_2010	T
+45l0l8	a_imposé	N
+45l0l9	l__exploitant	O
+45l1l0	CODERST	I
+
+#- un suivi de la qualité des eaux souterraines au droit du site afin de garder une traçabilité de la qualité des eaux souterraines et de s’assurer que les concentrations en BTEX, HAP et hydrocarbures restent constantes,
+
+46l0l0	suivi_de	A
+46l0l1	la_qualité_des_eaux_souterraines	O
+46l0l2	au_droit_du_site	L
+46l1l0	BTEX	S
+46l1l1	HAP	S
+46l1l2	hydrocarbures	S
+
+#- de déposer un dossier de demande de servitudes d’utilité publique afin d’intégrer au plan d’occupation des sols du Havre et au registre de la conservation des hypothèques les restrictions d’usage sur l’ensemble du site puisqu’une partie du terrain appartient au Grand Port Maritime du Havre.
+
+47l0l0	de_déposer_un_dossier_de_demande	N
+47l0l1	de_servitudes_d__utilité_publique	O
+47l0l2	plan_d__occupation_des_sols_du_Havre	O
+47l0l3	une_partie_du_terrain	O
+47l0l4	appartient_au	R
+47l0l5	Grand_Port_Maritime_du_Havre	L
+47l1l0	Grand_Port_Maritime_du_Havre	I
+
+#Ce dossier a été transmis par courrier du 22 octobre 2010.
+
+48l0l0	Ce_dossier	O
+48l0l1	a_été_transmis	N
+48l0l2	par_courrier	N
+48l0l3	du_22_octobre_2010__	T

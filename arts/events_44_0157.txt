@@ -1,0 +1,232 @@
+
+#44.0157
+#station-service qui était située sur le MIN de Nantes au 58 boulevard Gustave Roch.
+
+0l0l0	était	A
+0l0l1	située_sur_le_MIN	L
+0l0l2	de_Nantes	L
+0l0l3	au_58_boulevard_Gustave_Roch	L
+
+#En activité de 1968 à 2019.
+
+1l0l0	En_activité_de_1968_à_2019__	T
+
+#Cessation d'activité déclarée le 8 janvier 2019.
+
+2l0l0	Cessation_d__activité_déclarée	N
+2l0l1	le_8_janvier_2019__	T
+
+#Cette cessation d’activité intervient dans le cadre du projet de reconversion urbaine du site sous Maîtrise d’Ouvrage de Nantes Métropole entraînant le transfert des activités du Marché d’Intérêt National à Rezé.
+
+3l0l0	Cette_cessation	N
+3l0l1	d__activité	O
+3l0l2	intervient_dans_le_cadre	R
+3l0l3	du_projet_de_reconversion_urbaine	N
+3l0l4	site	O
+3l0l5	sous_Maîtrise	N
+3l0l6	d__Ouvrage	O
+3l0l7	Nantes_Métropole	O
+3l0l8	entraînant_le_transfert	N
+3l0l9	des_activités_du_Marché_d__Intérêt_National	O
+3l0l10	Rezé	O
+
+#L’exploitant indique dans son plan de gestion que d’après les informations transmises par Nantes Métropole, l’emprise du terrain occupé à ce jour par la station-service serait affectée à un projet de construction d’une voie de transport (tramway).
+
+4l0l0	L__exploitant	O
+4l0l1	Nantes_Métropole	O
+4l0l2	à_ce_jour	T
+4l0l3	la_station___service	O
+4l0l4	serait_affectée_à	R
+4l0l5	un_projet	O
+4l0l6	de	R
+4l0l7	construction_d__une_voie_de_transport	N
+4l0l8	tramway	L
+4l1l0	Nantes_Métropole	I
+
+#Un diagnostic environnemental a été réalisé en février/mars 2017 et un diagnostic complémentaire en juin 2017.
+
+5l0l0	Un_diagnostic_environnemental	N
+5l0l1	a_été_réalisé	N
+5l0l2	en_février___mars_2017	T
+5l0l3	un_diagnostic_complémentaire	N
+5l0l4	en_juin_2017__	T
+
+#Ces diagnostics ont mis en évidence  :
+
+6l0l0	Ces_diagnostics	N
+
+#- sur le milieu « sols » : un impact identifié en hydrocarbures C5 à C40, BTEX, HAP et COV dans la zone de battement de la nappe (nappe alluvionnaire en relation hydraulique avec la Loire d’après l’étude), à partir de 6 mètres de profondeur, avec un profil d’hydrocarbures de type gazole ou fioul totalement dégradé (concentration maximum de 11800 mg/kg) ainsi que de faibles anomalies ponctuelles en arsenic, cuivre, plomb et mercure ;
+
+7l0l0	______un_impact	O
+7l0l1	dans_la	O
+7l0l2	zone_de_battement_de_la_nappe	L
+7l0l3	avec_la_Loire	L
+7l1l0	identifié_en_hydrocarbures	S
+7l1l1	C40___BTEX___HAP_et	S
+7l1l2	profil_d__hydrocarbures	S
+7l1l3	type_gazole_ou_fioul	S
+7l1l4	ponctuelles_en_arsenic___cuivre___plomb_et_mercure	S
+
+#- sur le milieu « eaux souterraines » : Un impact significatif en hydrocarbures C5 à C40 (concentration max de 62 mg/l), BTEX (max de 28 376 µg/l) et HAP (max de 650 µg/l) en Pz1, Pz3 et Pz7.
+
+8l1l0	eaux_souterraines	S
+8l1l1	significatif_en_hydrocarbures	S
+8l1l2	l_____BTEX	S
+8l1l3	__et	S
+
+#La coupe pétrolière de ces ouvrages indique un produit de type fioul ou gazole totalement dégradé.
+
+9l0l0	La	N
+9l0l1	coupe_pétrolière	O
+9l0l2	ces_ouvrages	O
+9l1l0	fioul	U
+9l1l1	gazole	U
+
+#Un Impact plus faible dans les ouvrages Pz2, Pz4 et Pz6.
+
+
+#Les conclusions de ces diagnostics sont les suivantes : Les sondages de sols S2/Pz1 - S25/Pz7 et les eaux souterraines (Pz1, Pz3 et Pz7) les plus impactés sont proches d’une même source de pollution de type gazole/fioul totalement dégradé localisée entre le réservoir R1 de 15 m3 et le réservoir R3 de 80 m3.
+
+11l0l0	ces_diagnostics	N
+11l0l1	__Les_sondages_de_sols	N
+11l0l2	et_les_eaux_souterraines	O
+11l0l3	proches_d_	R
+11l0l4	une_même_source_de_pollution	O
+11l0l5	dégradé_localisée_entre_le_réservoir	L
+11l0l6	et_le_réservoir	O
+11l1l0	de_type_gazole___fioul	U
+
+#Il s’agit donc d’une pollution ancienne qui semble imputable au réservoir R1 et les tuyauteries associées d’après l’étude historique et les résultats d’analyses dans les milieux.
+
+12l0l0	une_pollution_ancienne	N
+12l0l1	les	O
+
+#Le panache de pollution s’est propagé à la faveur de la circulation de la nappe des alluvions fluviatiles vers le Sud-Ouest et le Sud-Est d’après les concentrations observées dans les piézomètres Pz2, Pz4 et Pz13.
+
+13l0l0	Le_panache	N
+13l0l1	de_pollution	O
+13l0l2	s__est_propagé	N
+13l0l3	à_la_faveur_de	R
+13l0l4	la_circulation	N
+13l0l5	alluvions_fluviatiles	N
+13l0l6	vers_le_Sud_Ouest_et_le_Sud_Est	L
+
+#Toutefois, l’atténuation des teneurs en hydrocarbures observées dans ces ouvrages en aval hydraulique ainsi que l’absence d’impact significatif dans les piézomètres éloignés, Pz5, Pz6, Pz8 et Pz9 démontrent l’extension limitée de l’impact en aval hydraulique.
+
+14l0l0	hydrocarbures	O
+14l0l1	ces_ouvrages	O
+14l0l2	en_aval_hydraulique	L
+14l0l3	en_aval_hydraulique	L
+14l1l0	hydrocarbures	S
+
+#Le diagnostic complémentaire concluait à la nécessité d’élaborer un plan de gestion sur la base d’un bilan coûts-avantages pour déterminer les options de gestion dans le cadre de la réhabilitation du site.
+
+15l0l0	Le_diagnostic	N
+15l0l1	un_plan_de_gestion	O
+15l0l2	sur_la_base_d_	R
+15l0l3	les_options_de_gestion	O
+15l0l4	dans_le_cadre_de	R
+15l0l5	la_réhabilitation	N
+
+#Le schéma conceptuel montre que la pollution des sols en hydrocarbures alimente la nappe des eaux souterraines avec un impact modéré hors site en aval hydraulique (Pz13 – 3 mg/l en hydrocarbures C5 – C40).
+
+16l0l0	Le_schéma_conceptuel	O
+16l0l1	hydrocarbures_alimente	O
+16l0l2	la_nappe	L
+16l0l3	en_aval_hydraulique	L
+16l1l0	hydrocarbures	S
+16l1l1	hydrocarbures	S
+
+#Au terme d’une analyse coûts/avantages et compte-tenu des contraintes liées au projet (nécessité de libérer le terrain rapidement pour Nantes Métropole), la solution de traitement proposée par l’exploitant est l’excavation de la pollution concentrée aux hydrocarbures (HC C5 à C40, HAP et BTEX) dans les sols puis transport vers un centre de traitement biologique.
+
+17l0l0	libérer	N
+17l0l1	le_terrain	O
+17l0l2	Nantes_Métropole	O
+17l0l3	l__exploitant	O
+17l0l4	l__excavation	N
+17l0l5	transport_vers_un_centre_de_traitement_biologique	N
+17l1l0	Nantes_Métropole	I
+17l1l1	hydrocarbures	S
+17l1l2	HC	S
+17l1l3	C40	S
+17l1l4	HAP	S
+17l1l5	BTEX	S
+
+#L’exploitant ne propose pas de traitement «actif» des eaux souterraines de type pompage et filtration/absorption sur filtre à charbon actif en indiquant que la nette diminution des teneurs en hydrocarbures dans les piézomètres situés en périphérie des stations-service et hors site démontre la faible extension du panache de pollution concentrée localisé au niveau des réservoirs R1 S25/Pz7) et R3 (S02/Pz1).
+
+18l0l0	L__exploitant	O
+18l0l1	situés_en_périphérie_des_stations	L
+18l1l0	charbon_actif	U
+18l1l1	hydrocarbures	S
+18l1l2	S25	I
+18l1l3	S02	S
+
+#Il précise qu’il est probable que la suppression des sources de pollution via l’extraction et l’évacuation des installations pétrolières et le terrassement des sols conduisent à une amélioration de la qualité des eaux souterraines dans le temps.
+
+19l0l0	suppression_des_sources_de_pollution	O
+19l0l1	l__évacuation_des_installations_pétrolières	O
+19l0l2	le_terrassement_des_sols	N
+19l0l3	la_qualité_des_eaux_souterraines	O
+
+#Il propose donc un suivi des eaux souterraines sur site et hors site afin de suivre l’évolution de la qualité dans le temps à l’issue des travaux de démantèlement et la mise en place de restrictions d’usage de la nappe.
+
+20l0l0	un_suivi_des_eaux_souterraines	A
+20l0l1	l__issue_des_travaux_de_démantèlement	N
+20l0l2	la_mise_en_place_de_restrictions	N
+20l0l3	d__usage_de_la_nappe	A
+
+#Un traitement passif avec mise en place de boudins oléophiles et remplacement dès leur saturation est néanmoins proposé par l’exploitant.
+
+21l0l0	mise_en_place	N
+21l0l1	remplacement	O
+21l0l2	dès	R
+21l0l3	leur_saturation	O
+21l0l4	l__exploitant	O
+
+#Les opérations d’excavation devront avoir lieu en parallèle des opérations de démantèlement des installations pétrolières.
+
+22l0l0	Les_opérations_d__excavation	N
+22l0l1	devront_avoir_lieu_en_parallèle_des	R
+22l0l2	opérations_de_démantèlement	N
+22l0l3	des_installations_pétrolières	A
+
+#En effet, l’extraction des réservoirs enterrés rendra accessible les terres polluées entre 6 et 7 m de profondeur.
+
+23l0l0	l__extraction_des_réservoirs_enterrés	N
+23l0l1	rendra_accessible	N
+23l0l2	les_terres_polluées	O
+
+#En raison de la présence d’eaux souterraines à partir de 6 m de profondeur, une unité de pompage des eaux en fond de fouilles devra être mise en place.
+
+24l0l0	une_unité_de	O
+24l0l1	pompage_des_eaux	A
+24l0l2	en_fond_de_fouilles	L
+24l0l3	devra_être_mise_en_place	N
+
+#A l'issue des travaux de dépollution, l’exploitant indique que des restrictions d’usage sur site pourront être mises en place permettant notamment de garder en mémoire la présence d’impacts résiduels dans les sols et les eaux souterraines, d’encadrer des modifications d’usage et d’assurer l’information des tiers.
+
+25l0l0	issue_des_travaux_de_dépollution	N
+25l0l1	des_restrictions_d__usage	O
+25l0l2	d__encadrer	R
+25l0l3	des_modifications_d__usage	N
+
+#Ces restrictions d’usages pourront notamment porter :
+
+
+#- sur l’encadrement d’éventuels travaux de terrassement à des profondeurs supérieures à 4 m de profondeur ;
+
+27l0l0	encadrement_d__éventuels_travaux_de_terrassement	N
+27l0l1	des_profondeurs_supérieures	N
+27l0l2	à_4_m_de_profondeur	N
+
+#- sur l’usage des eaux souterraines ;
+
+
+#- sur la surveillance des eaux souterraines ;
+
+29l0l0	la_surveillance_des_eaux_souterraines	A
+
+#- sur la surveillance de la qualité de l’air ambiant.
+
+30l0l0	la_surveillance_de	A
+30l0l1	la_qualité_de_l__air_ambiant	O

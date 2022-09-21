@@ -1,0 +1,159 @@
+
+#55.0036
+#L'entreprise GRT GAZ a exploité une station de compression de gaz naturel sur le territoire de la commune de BREHEVILLE depuis 1978.
+
+0l0l0	L__entreprise	N
+0l0l1	compression_de_gaz	O
+0l0l2	commune_de_BREHEVILLE	O
+
+#L'exploitation de cette station, visée par la rubrique 2920 de la nomenclature des installations classées pour la protection de l'environnement (puissance de 11MW), a été autorisée par l'arrêté préfectoral n°3504/85 du 05/04/1985.
+
+1l0l0	L__exploitation_de_cette	O
+1l0l1	station	N
+1l0l2	__visée_par_la_rubrique_2920_de_la_nomenclature	O
+1l0l3	des_installations_classées_pour_la	L
+1l0l4	protection_de_l__environnement___puissance_de_11MW_____a_été_autorisée_par_l__arrêté_préfectoral_n__3504_85_du_05_04_1985__	T
+1l1l0	L__exploitation_de_cette	I
+
+#Les activités/installations potentiellement polluantes qui se trouvaient sur le site sont :
+
+2l0l0	Les_activités__	N
+2l0l1	installations	O
+2l0l2	potentiellement	R
+
+#- un groupe éléctrogène,
+
+3l0l0	__un_groupe_éléctrogène__	O
+
+#- deux turbocompresseurs,
+
+
+#- une ancienne unité de compression,
+
+5l1l0	une_ancienne_unité_de_compression	S
+
+#- deux cuves à huiles enterrées de 5 000 L chacune,
+
+6l0l0	deux_cuves_à_huiles_enterrées_de_5_000	O
+
+#- un transformateur contenant des huiles contaminées aux PCB,
+
+7l0l0	un_transformateur	O
+
+#- une zone de stockage de fûts d'huile.
+
+8l0l0	une_zone_de_stockage	O
+8l0l1	huile__	O
+8l1l0	une_zone_de_stockage	D
+8l1l1	de_fûts_d__huile__	U
+
+#L'exploitant a notifié à l'autorité administrative l'arrêt définitif de l'exploitation de cette station par courrier en date du 24/12/2007.
+
+9l0l0	L__exploitant	O
+9l0l1	a_notifié_à_l__autorité	A
+
+#Conformément aux dispositions prévues à l'article R.512-39-3 du code de l'environnement, l'exploitant a informé le Préfet de la réalisation des travaux de réhabilitation du site en vue d'un usage industriel.
+
+10l0l0	Conformément	O
+10l0l1	aux_dispositions	N
+10l0l2	prévues_à_l__article	O
+10l0l3	R_512___39___3_du_code_de	N
+10l0l4	l__environnement	N
+10l0l5	l__exploitant_a	O
+10l0l6	Préfet_de_la_réalisation_des_travaux_de_réhabilitation_du_site_en_vue_d__un_usage_industriel__	T
+
+#Il a remis différentes études diagnostic qui précisent les mesures de gestion mises en oeuvre et justifient la remise en état du site pour un usage industriel :
+
+11l0l0	oeuvre_et_justifient	O
+11l0l1	la_remise	N
+11l0l2	en_état_du	O
+11l0l3	site_pour_un_usage	N
+11l0l4	industriel__	N
+
+#- mémoire de démantèlement de la station de compression,
+
+12l0l0	__mémoire	N
+12l0l1	de_démantèlement_de_la_station_de	N
+12l0l2	_	O
+
+#- Etude historique et documentaire, diagnostic de pollution des sols,
+
+13l0l0	historique_et_documentaire	N
+13l0l1	__diagnostic_de_pollution	O
+
+#- diagnostic complémentaire et analyse des risques résiduels.
+
+14l0l0	analyse_des_risques	N
+14l0l1	résiduels__	N
+
+#L'étude diagnostic de la pollution des sols, basée sur 9 sondages, a mis en évidence :
+
+15l0l0	L__étude_diagnostic_de_la_pollution	O
+
+#- des spots de pollution aux hydrocarbures au droit de 2 sondages (970 et 1580 mg/kg),
+
+16l0l0	pollution_aux_hydrocarbures_au	O
+
+#- la détection de BTEX et de HAP dans de faibles teneurs au droit de différents sondages,
+
+17l0l0	la_détection_de_BTEX_et_de_HAP_dans_de_faibles	O
+
+#- un spot de pollution en mercure (teneur supérieure au fonds géochimique).
+
+18l1l0	pollution	S
+18l1l1	mercure	S
+
+#Sur la base de ce diagnostic et après démantèlement des installations de la station de compression de gaz, l'exploitant a fait procéder à l'excavation de 68 tonnes de terres souillées aux hydrocarbures.
+
+19l1l0	diagnostic_et_après	S
+
+#Les analyses en fonds et bords de fouilles ont révélé la persistance d'une pollution aux hydrocarbures totaux, en HAP et en mercure.
+
+20l0l0	en_fonds_et_bords	N
+20l0l1	de_fouilles_ont_révélé_la_persistance_d_	N
+20l0l2	une_pollution_aux_hydrocarbures_totaux___en_HAP_et	O
+20l0l3	en_mercure__	N
+
+#Une analyse des risques résiduels a été réalisée et a permis de vérifier que l'usage industriel était compatible avec l'état de pollution résiduelle.
+
+21l0l0	Une_analyse_des	N
+21l1l0	industriel_était_compatible	S
+21l1l1	avec	S
+21l1l2	état_de_pollution	S
+
+#Le site reste la propriété de la société GRT GAZ qui y maintient des infrastructures nécessaires au contrôle et à la maintenance des réseaux de transport de gaz.
+
+22l0l0	Le	N
+22l0l1	site_reste_la_propriété_de_la_société	O
+22l0l2	GRT_GAZ_qui	N
+22l0l3	infrastructures_nécessaires	A
+
+#Un procès-verbal constatant la fin des travaux de réhabilitation du site a été établi par l'inspection des installations classées en date du 1er octobre 2012.
+
+23l0l0	Un	O
+23l0l1	procès_verbal_constatant	R
+23l0l2	la_fin_des_travaux	O
+23l0l3	réhabilitation_du_site_a_été_établi	O
+23l0l4	par_l__inspection	R
+23l0l5	des_installations_classées	O
+23l0l6	en_date_du_1er_octobre_2012	A
+23l1l0	constatant_la_fin_des_travaux	I
+
+#En raison du maintien en place de pollutions résiduelles, il a été demandé à l'exploitant de proposer des restrictions d'usage.
+
+24l0l0	En_raison_du_maintien	O
+24l0l1	en_place	R
+24l0l2	de_pollutions_résiduelles___il_a_été	N
+24l0l3	demandé	O
+24l0l4	à_l__exploitant	N
+24l0l5	de_proposer_des_restrictions_d__usage__	O
+
+#Une demande d'instauration de SUP, conformément aux dispositions prévues à l'article L515-12 du code de l'environnement, a été déposée en ce sens auprès de Madame le Préfet de la Meuse.
+
+25l0l0	d__instauration_de_SUP___conformément_aux_dispositions	O
+25l0l1	prévues	N
+25l0l2	à_l__article_L515	O
+
+#Ce dossier est en cours d'instruction.
+
+26l0l0	Ce_dossier_est_en_cours_d__instruction	O

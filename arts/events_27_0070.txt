@@ -1,0 +1,280 @@
+
+#27.0070
+#Cet ancien dépôt pétrolier (stockage de fuel), d'une superficie de 990 m², situé en zone résidentielle, a été exploité de 1963 à 2004.
+
+0l0l0	Cet_ancien_dépôt_pétrolier	O
+0l0l1	stockage_de_fuel	O
+0l0l2	situé_en_zone_résidentielle	L
+0l0l3	a_été_exploité	N
+0l0l4	de_1963_à_2004__	T
+0l1l0	dépôt_pétrolier	D
+0l1l1	fuel	U
+
+#On observe une source à l'entrée ouest du dépôt qui est canalisée le long de la rue Maurice Ravel pour rejoindre un ruisseau qui se jette dans la rivière l'ANDELLE, située à proximité immédiate du site.
+
+1l0l0	une_source	O
+1l0l1	à_l__entrée_ouest_du	L
+1l0l2	dépôt	O
+1l0l3	est	N
+1l0l4	canalisée	O
+1l0l5	le_long_de_la_rue_Maurice_Ravel	L
+1l0l6	un_ruisseau	O
+1l0l7	se_jette_dans_la_rivière_l__ANDELLE	L
+1l0l8	située_à_proximité_immédiate_du_site	L
+
+#Les sols sont constitués de remblais reposant sur des sables et des limons puis la craie du Turonien.
+
+
+#La première nappe rencontrée est située à environ 1m de profondeur (nappe des alluvions).
+
+3l0l0	La_première_nappe_rencontrée	O
+3l0l1	est_située_à_environ_1	L
+
+#La seconde nappe rencontrée est la nappe de la craie.
+
+
+#En l'absence d'horizon imperméable, ces deux nappes ne sont pas protégées des pollutions.
+
+5l0l0	ces_deux_nappes	O
+
+#Il existe plusieurs forages en aval hydraulique du site pour un usage industriel.
+
+6l0l0	plusieurs_forages	O
+6l0l1	en_aval_hydraulique_du_site	L
+6l0l2	un_usage_industriel	A
+
+#Le site est à l'état de friche.
+
+7l0l0	Le_site	O
+
+#Les bâtiments et structures ont été démantelés.
+
+8l0l0	Les_bâtiments	O
+8l0l1	structures_ont_été_démantelés	N
+
+#Risques et nuisances :
+
+
+#Il n'y a pas de risque immédiat identifié pour l'usage actuel du site.
+
+
+#Actions menées :
+
+
+#A la suite de la cessation d'activité du dépôt, la société DMS a notifié la cessation de ses activités sur ce site à la préfecture de l'EURE le 27 juin 2005.
+
+12l0l0	A_la_suite_de	R
+12l0l1	la_cessation_d__activité	N
+12l0l2	dépôt	O
+12l0l3	la_société_DMS	O
+12l0l4	a_notifié_la_cessation_de_ses_activités	N
+12l0l5	sur	R
+12l0l6	ce_site	O
+12l0l7	la_préfecture_de_l__EURE	O
+12l0l8	le_27_juin_2005__	T
+12l1l0	la_société_DMS	I
+12l1l1	la_préfecture_de_l__EURE	I
+
+#Le récépissé de déclaration est délivré le 29 juin 2005.
+
+13l0l0	Le_récépissé	O
+13l0l1	de_déclaration	O
+13l0l2	est_délivré	N
+13l0l3	le_29_juin_2005__	T
+
+#Deux études ont été jointes à cette notification :
+
+14l0l0	cette_notification	N
+
+#- un rapport du 11/04/2005 faisant état du démantèlement des installations (déconstruction des bâtiments, enlèvement des installations pétrolières et mise à nu des terrains),
+
+15l0l0	un_rapport	O
+15l0l1	11_04_2005	T
+15l0l2	démantèlement_des_installations	N
+15l0l3	déconstruction_des_bâtiments	N
+15l0l4	enlèvement_des_installations_pétrolières	N
+15l0l5	mise_à_nu_des_terrains	N
+
+#- une étude de sols du 08/04/2005 réalisée à la suite du démantèlement des installations en fait exécuté en décembre 2004.
+
+16l0l0	une_étude_de_sols	N
+16l0l1	du_08_04_2005	T
+16l0l2	réalisée	N
+16l0l3	à_la_suite	R
+16l0l4	du_démantèlement_des_installations	N
+16l0l5	en_fait_exécuté	N
+16l0l6	en_décembre_2004__	T
+
+#Cette étude mettait à jour l’existence de trois sources de pollution dans les sols :
+
+17l0l0	trois_sources_de_pollution	O
+
+#- par du cuivre ponctuellement,
+
+18l1l0	cuivre	S
+
+#- par des HAP liés à la présence de remblais pollués,
+
+19l0l0	remblais_pollués	O
+19l1l0	des_HAP	S
+
+#- par des hydrocarbures totaux dans la partie nord-est du terrain.
+
+20l0l0	hydrocarbures_totaux	O
+20l0l1	dans_la_partie_nord_est_du_terrain	L
+20l1l0	hydrocarbures_totaux	S
+
+#Par ailleurs, l'étude montrait la présence d'hydrocarbures dans les eaux souterraines.
+
+21l1l0	hydrocarbures	S
+
+#L'étude recommandait en conclusion la réalisation d'une évaluation détaillée des risques (EDR).
+
+
+#Des investigations approfondies ont ainsi été réalisées en juin 2006 et ont permis de caractériser les pollutions identifiées précédemment.
+
+23l0l0	Des_investigations_approfondies	N
+23l0l1	ont_ainsi_été_réalisées	N
+23l0l2	en_juin_2006	T
+
+#La quantification des risques a mis en évidence la présence de risques inacceptables pour un usage de potager pour l'ensemble de la population usagère du site (exposition chronique) et globalement pour les enfants (exposition aiguë).
+
+24l0l0	La_quantification	N
+
+#L'EDR conclue sur la nécessité de mettre en place un réseau de surveillance des eaux souterraines qui est mis en place dés fin 2006.
+
+25l0l0	en_place_un_réseau_de	N
+25l0l1	surveillance_des_eaux_souterraines	A
+25l0l2	est_mis_en_place	N
+25l0l3	dés_fin_2006__	T
+
+#Un plan de gestion a été produit en décembre 2007 et des travaux de dépollution du site ont été réalisés en septembre 2008.
+
+26l0l0	Un_plan_de_gestion	O
+26l0l1	a_été_produit	N
+26l0l2	en_décembre_2007	T
+26l0l3	des_travaux_de_dépollution	N
+26l0l4	site	O
+26l0l5	ont_été_réalisés	N
+26l0l6	en_septembre_2008__	T
+
+#Ceux-ci ont consisté en l'excavation et l'évacuation de 231,46 tonnes de matériaux pollués par des hydrocarbures et de 34,36 tonnes d'eaux chargées en hydrocarbures.
+
+27l0l0	l__excavation	N
+27l0l1	l__évacuation	N
+27l0l2	231_46_tonnes_de_matériaux_pollués	O
+27l0l3	hydrocarbures	O
+27l0l4	hydrocarbures	O
+27l1l0	hydrocarbures	S
+27l1l1	hydrocarbures	S
+
+#A l'issue des travaux, il a été mis en évidence la présence résiduelle de concentrations significatives en hydrocarbures dans les zones Nord-Ouest, Sud-Est, Est et Sud-Ouest du site.
+
+28l0l0	les_zones	O
+28l0l1	Nord_Ouest___Sud_Est___Est_et_Sud_Ouest_du_site	L
+28l1l0	hydrocarbures	S
+
+#De plus, des teneurs résiduelles en Hydrocarbures Aromatiques Polycycliques (HAP) élevées ont été détectées dans les échantillons de sol prélevés à l'Est du site.
+
+29l0l0	ont_été_détectées	N
+29l0l1	à_l__Est_du_site	L
+29l1l0	Hydrocarbures_Aromatiques_Polycycliques	S
+29l1l1	HAP	S
+
+#Des teneurs anormales (mais faibles au demeurant) en plomb, cuivre, zinc, cadmium et mercure ont été détectées à l'Est et en flanc Sud-Ouest de la fouille.
+
+30l0l0	ont_été_détectées	N
+30l0l1	à_l__Est_et_en_flanc_Sud_Ouest_de_la_fouille	L
+30l1l0	plomb	S
+30l1l1	cuivre	S
+30l1l2	zinc	S
+30l1l3	cadmium	S
+30l1l4	mercure	S
+
+#La qualité des eaux souterraines s'est améliorée avec une diminution des teneurs en hydrocarbures et en HAP.
+
+31l0l0	La_qualité_des_eaux_souterraines	O
+31l0l1	s__est_améliorée	N
+31l1l0	hydrocarbures	S
+31l1l1	HAP	S
+
+#Par ailleurs, on note la présence d'hydrocarbures à des teneurs significatives dans l'échantillon prélevé dans un piézair au Nord du site.
+
+32l0l0	des_teneurs	O
+32l0l1	au_Nord_du_site	L
+32l1l0	hydrocarbures	S
+
+#Le rapport de fin de travaux du 13/03/2009 reprenant ces constats précise les mesures de gestion du site :
+
+33l0l0	Le_rapport	O
+33l0l1	fin_de_travaux	N
+33l0l2	13_03_2009	T
+33l0l3	ces_constats	O
+33l0l4	précise	R
+33l0l5	les_mesures_de_gestion	O
+
+#- interdiction de l'usage du site à des fins de potager,
+
+34l0l0	l__usage_du_site	A
+34l0l1	à_des_fins	O
+
+#- mise en place d'une couche végétale saine de 50 cm,
+
+35l0l0	mise_en_place_d__une_couche_végétale_saine	N
+
+#- isolement des canalisations d'eau potable,
+
+
+#- présence de vides sanitaires lors de la construction de bâtiments sur le site,
+
+37l0l0	la_construction_de_bâtiments	N
+
+#- précautions concernant les affouillements et les usages de la nappe,
+
+38l0l0	affouillements	N
+
+#- mise en place d'un réseau de surveillance des eaux souterraines.
+
+39l0l0	mise_en_place_d_	N
+39l0l1	un_réseau_de	O
+39l0l2	surveillance_des_eaux_souterraines	A
+
+#Moyennant le respect de ces mesures de gestion , l'exploitant estime la réalisation d'une analyse des risques résiduels inutile.
+
+40l0l0	ces_mesures_de_gestion	O
+40l0l1	l__exploitant	O
+
+#Un bilan quadriennal transmis à l'inspection des installations classées par courrier du 29 juillet 2011 propose l'arrêt de la surveillance des eaux souterraines compte tenu de l'absence d'impact constaté en hydrocarbures et en BTEX et de l'amélioration de la qualité des eaux souterraines concernant les teneurs en HAP depuis les travaux de réhabilitation engagés en septembre 2008.
+
+41l0l0	Un_bilan_quadriennal_transmis	N
+41l0l1	l__inspection_des_installations_classées	O
+41l0l2	29_juillet_2011	T
+41l0l3	surveillance_des_eaux_souterraines	A
+41l0l4	la_qualité_des_eaux_souterraines	O
+41l0l5	les_travaux_de_réhabilitation	N
+41l0l6	en_septembre_2008__	T
+41l1l0	hydrocarbures	S
+41l1l1	BTEX	S
+41l1l2	HAP	S
+
+#l'exploitant propose l'institution de servitudes d'utilité publique (10 octobre 2011).
+
+42l0l0	l__exploitant	O
+42l0l1	l_	N
+42l0l2	institution_de_servitudes_d__utilité_publique	O
+42l0l3	__10_octobre_2011__	T
+
+#Ces servitudes d'utilité publique reprennent les conclusions du rapport de fin de travaux à l’exception du suivi piézométrique.
+
+43l0l0	Ces_servitudes_d_	O
+43l0l1	fin_de_travaux	N
+43l0l2	suivi_piézométrique	O
+
+#Actions à mener :
+
+
+#Des servitudes devront être prises sur l'usage future du site.
+
+45l0l0	Des_servitudes	O
+45l0l1	l__usage	N
+45l0l2	future	T

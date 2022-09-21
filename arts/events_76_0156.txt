@@ -1,0 +1,279 @@
+
+#76.0156
+#La société ORTEC Environnement a exploité, sur son site d'une surface de 6 720 m2, entre mai 1992 et août 1999, un stockage aérien de déchets industriels.
+
+0l0l0	La_société_ORTEC_Environnement	O
+0l0l1	a_exploité	N
+0l0l2	sur	L
+0l0l3	son_site	O
+0l0l4	entre_mai_1992_et_août_1999__	T
+0l0l5	un_stockage_aérien_de_déchets_industriels	O
+0l1l0	La_société_ORTEC_Environnement	I
+0l1l1	déchets_industriels	U
+
+#Ce stockage constitue une ICPE soumise à autorisation préfectorale(AP du 25 janvier 1983).
+
+1l0l0	Ce_stockage	O
+1l0l1	constitue_une_ICPE	O
+1l0l2	autorisation_préfectorale_AP	O
+1l0l3	25_janvier_1983____	T
+
+#La société effectuait des activités de maintenance et de nettoyage industriels, pompage et curage de boues et déchets, stockages de déchets divers.
+
+2l0l0	La_société	O
+2l0l1	effectuait_des_activités_de_maintenance	A
+2l0l2	nettoyage_industriels	O
+2l0l3	pompage	A
+2l0l4	curage_de_boues_et_déchets	A
+
+#Cette société avait repris les activités de la Société SGAE qui exploitait le site depuis 1900 environ.
+
+3l0l0	Cette_société	O
+3l0l1	avait_repris	N
+3l0l2	les_activités	N
+3l0l3	la_Société_SGAE	O
+3l0l4	exploitait	N
+3l0l5	le_site	O
+3l0l6	depuis_1900	T
+3l1l0	la_Société_SGAE	I
+
+#Le sol est constitué de remblais d'épaisseur plus ou moins importante selon les zones du site, qui reposent sur des formations alluvionnaires récentes, puis sur des alluvions à dominance graveleuse.
+
+
+#Ces formations reposent en profondeur sur un substratum crayeux.
+
+
+#La nappe alluvionnaire située dans les graves est en connexion hydraulique avec la nappe de la craie.
+
+
+#De fait, compte tenu de la nature perméable des sols, cette nappe n'est pas protégée.
+
+
+#Par ailleurs, la Seine se trouve à 500 m au nord-est du site.
+
+8l0l0	la_Seine	L
+8l0l1	se_trouve_à_500_m_au_nord_est_du_site	L
+
+#Actions menées :
+
+
+#La société Ortec à transmis à la DRIRE un mémoire de cessation d'activité le 13 juin 2000.
+
+10l0l0	La_société_Ortec	O
+10l0l1	à_transmis	N
+10l0l2	la_DRIRE	O
+10l0l3	un_mémoire_de_cessation_d__activité	N
+10l0l4	le_13_juin_2000__	T
+10l1l0	La_société_Ortec	I
+10l1l1	la_DRIRE	I
+
+#Ce mémoire précisait les opérations de démantèlement des installations et de nettoyage entreprises ainsi que les modes d'évacuation des déchets.
+
+11l0l0	les_opérations_de	O
+11l0l1	démantèlement_des_installations	N
+11l0l2	nettoyage	O
+
+#Par arrêté préfectoral complémentaire du 07 février 2001, il a été prescrit à la Société ORTEC Environnement une Évaluation Simplifiée des Risques étapes A et B.
+
+12l0l0	Par_arrêté_préfectoral_complémentaire	O
+12l0l1	du_07_février_2001__	T
+12l0l2	il_a_été_prescrit	N
+12l0l3	la_Société_ORTEC_Environnement	O
+12l0l4	une_Évaluation_Simplifiée_des_Risques	N
+12l1l0	la_Société_ORTEC_Environnement	I
+
+#Une surveillance des eaux souterraines superficielles du site a été imposée par un APC du 7/02/01.
+
+13l0l0	Une_surveillance_des_eaux_souterraines	A
+13l0l1	a_été_imposée	N
+13l0l2	par	R
+13l0l3	un_APC	O
+13l0l4	7_02_01__	T
+
+#Le 13 novembre 2001, au terme de l'ESR (évaluation simplifiée des risques) réalisée en application de l'arrêté préfectoral complémentaire du 7 février 2001, le site est classé 2 (à surveiller).
+
+14l0l0	Le_13_novembre_2001__	T
+14l0l1	au_terme_de	R
+14l0l2	l_	N
+14l0l3	évaluation_simplifiée_des_risques	N
+14l0l4	application_de_l__arrêté_préfectoral_complémentaire	O
+14l0l5	7_février_2001__	T
+14l0l6	le_site	O
+
+#Les sols pollués identifiés sont les suivants :
+
+15l0l0	Les_sols_pollués	O
+
+#- sols autour des bacs de décantation des anciennes cuves de fuel, huiles et FOD pollués aux hydrocarbures et ponctuellement en mercure et en nickel,
+
+16l0l0	décantation	N
+16l0l1	anciennes_cuves_de_fuel	O
+16l1l0	anciennes_cuves_de	D
+16l1l1	fuel	S
+16l1l2	huiles	S
+16l1l3	FOD	S
+16l1l4	hydrocarbures	S
+16l1l5	mercure	S
+16l1l6	nickel	S
+
+#- sols autour du système de décantation des huiles usées et des hydrocarbures pollués par des HCT et du benzène et ponctuellement par des métaux lourds (Arsenic, Chrome, Plomb et Nickel),
+
+17l0l0	autour_du_système_de_décantation	N
+17l0l1	hydrocarbures_pollués	O
+17l0l2	des_métaux_lourds	O
+17l1l0	huiles_usées	U
+17l1l1	hydrocarbures	S
+17l1l2	des_HCT	S
+17l1l3	du_benzène	S
+17l1l4	des_métaux_lourds	S
+17l1l5	Arsenic	S
+17l1l6	Chrome	S
+17l1l7	Plomb	S
+17l1l8	Nickel	S
+
+#- sols pollués au niveau de la zone de stationnement de camions et de bennes par des HCT, des HAP et du plomb.
+
+18l0l0	sols_pollués	O
+18l0l1	au_niveau_de	R
+18l0l2	la_zone	O
+18l0l3	des_HCT	O
+18l1l0	des_HCT	S
+18l1l1	des_HAP	S
+18l1l2	plomb	S
+
+#Conformément aux conclusions de l'ESR, il a été procédé aux opérations suivantes :
+
+19l0l0	a_été_procédé_aux_opérations	N
+19l1l0	l__ESR	I
+
+#- nettoyage complet de l'ancien système de décantation et curage des sols de surface du 4 au 11 janvier 2005,
+
+20l0l0	__nettoyage_complet	N
+20l0l1	l__ancien_système_de_décantation	N
+20l0l2	curage_des_sols_de	N
+20l0l3	surface	O
+20l0l4	du_4_au_11_janvier_2005__	T
+
+#- prélèvement et analyse en laboratoire agréé des eaux souterraines le 11 mai 2005.
+
+21l0l0	prélèvement_et_analyse	N
+21l0l1	le_11_mai_2005__	T
+
+#A la suite d'un projet de réalisation de logements sur le site, un permis de construire a été accordé par la mairie de Petit Quevilly.
+
+22l0l0	A_la_suite_d_	R
+22l0l1	un_projet_de_réalisation_de_logements_sur	R
+22l0l2	le_site	O
+22l0l3	un_permis_de_construire	O
+22l0l4	a_été_accordé	N
+22l0l5	la_mairie	O
+22l0l6	de_Petit_Quevilly	L
+
+#Compte tenu du projet, il a été demandé à la société KHOR Immobilier, responsable des travaux, d'enlever les sources de pollution lors des travaux de démolition devant se dérouler au cours du 1er trimestre 2006.
+
+23l0l0	du_projet	O
+23l0l1	il	O
+23l0l2	a_été_demandé	N
+23l0l3	la_société_KHOR_Immobilier	O
+23l0l4	responsable_des_travaux	N
+23l0l5	d__enlever_les	N
+23l0l6	sources_de_pollution	O
+23l0l7	lors	R
+23l0l8	des_travaux_de_démolition	N
+23l0l9	devant	T
+23l0l10	se_dérouler	N
+23l0l11	au_cours_du_1er_trimestre_2006__	T
+23l1l0	la_société_KHOR_Immobilier	I
+
+#Les piézomètres ayant été détruits lors de ces travaux, la société Ortec Générale de dépollution (OGD) a fait réaliser de nouveaux ouvrages.
+
+24l0l0	Les_piézomètres	O
+24l0l1	ayant_été_détruits	N
+24l0l2	ces_travaux	N
+24l0l3	la_société_Ortec_Générale_de_dépollution	N
+24l0l4	OGD	O
+24l0l5	a_fait_réaliser_de_nouveaux_ouvrages	N
+24l1l0	la_société_Ortec	I
+24l1l1	OGD	I
+
+#Lors de leur réalisation sur le site en février 2007, des prélèvements de sols ont été réalisés.
+
+25l0l0	Lors	T
+25l0l1	de_leur_réalisation_sur_le_site	N
+25l0l2	en_février_2007__	T
+25l0l3	des_prélèvements_de_sols	N
+25l0l4	ont_été_réalisés	N
+
+#Les résultats analytiques montraient des concentrations importantes en métaux lourds, notamment en chrome et en nickel au niveau du piézomètre PZ3.
+
+26l0l0	métaux_lourds	O
+26l1l0	métaux_lourds	S
+26l1l1	chrome	S
+26l1l2	nickel	S
+
+#La société Khor immobilier (responsable du changement d'usage des sols) a fait procéder à l'excavation des terres polluées autour du piézomètre.
+
+27l0l0	La_société_Khor	O
+27l0l1	immobilier	N
+27l0l2	a_fait_procéder	N
+27l0l3	à	R
+27l0l4	l__excavation	N
+27l0l5	des_terres_polluées_autour_du_piézomètre	O
+27l1l0	La_société_Khor_immobilier	I
+
+#A la suite d'échanges avec cette société, il a été convenu que cette dernière fasse réaliser des investigations complémentaires et une analyse des risques résiduels.
+
+28l0l0	cette_société	O
+28l0l1	fasse_réaliser_des_investigations_complémentaires	N
+28l0l2	une_analyse	N
+
+#Un tel document a été fourni le 02 juillet 2008.
+
+29l0l0	a_été_fourni	N
+29l0l1	le_02_juillet_2008__	T
+
+#Les analyses effectuées mettent notamment en évidence sur la zone autour du PZ3 :
+
+30l0l0	la_zone	O
+
+#- de faibles concentrations en métaux dans la tranche de terrain de 0 à 0,3 m par rapport à celle plus profonde (0,3 à 1m) avec un rapport de concentration de 5 à 20 fois plus élevées,
+
+31l1l0	métaux	S
+
+#- la présence de HAPs, de trichloréthylène, tétrachloroéthylène et cis-dichloroéthylène sur les échantillons de sols prélevés de 0,3 à 1 m de profondeur.
+
+32l1l0	HAPs	S
+32l1l1	trichloréthylène	S
+32l1l2	tétrachloroéthylène	S
+32l1l3	cis___dichloroéthylène	S
+
+#Les calculs de risques sanitaires effectués sur la base de ces résultats et pour un usage des sols de type jardin privatif (hors jardin potager) indiquent que les valeurs de risque sont inférieures aux valeurs de référence.
+
+33l0l0	Les_calculs	N
+33l0l1	effectués_sur_la_base	N
+33l0l2	un_usage	N
+
+#Dans ces conditions, l'étude conclue sur les contraintes de gestion suivantes :
+
+
+#- interdiction de mettre en place des jardins potagers,
+
+35l0l0	interdiction_de	R
+35l0l1	mettre_en_place	N
+35l0l2	des_jardins_potagers	A
+
+#- interdiction d'utilisation des eaux souterraines au droit du site pour l'arrosage notamment.
+
+36l0l0	interdiction	N
+36l0l1	d__utilisation_des_eaux_souterraines	A
+36l0l2	au_droit_du_site	L
+36l0l3	l__arrosage	A
+
+#Actions à mener ou envisagées :
+
+
+#Dans la mesure ou des contraintes de gestion persistent concernant ce site, il conviendra de mettre en place des servitudes d'utilité publique pour maintenir le bon usage des sols tel que défini dans les différentes études.
+
+38l0l0	des_contraintes_de_gestion	O
+38l0l1	mettre_en_place	N
+38l0l2	des_servitudes_d_	O

@@ -1,0 +1,256 @@
+
+#40.0094
+#Aciérie électrique utilisant des ferrailles usagées, exploitée par CELSA France, située en bordure de l'Adour, à cheval sur les communes de Tarnos (40) et de Boucau (64).
+
+0l0l0	Aciérie_électrique	O
+0l0l1	utilisant_des_ferrailles_usagées	A
+0l0l2	exploitée	N
+0l0l3	par_CELSA_France	O
+0l0l4	située_en_bordure_de_l__Adour	L
+0l0l5	à_cheval_sur_les_communes_de_Tarnos___40___et_de_Boucau___64__	L
+0l1l0	CELSA_France	I
+
+#L'autorisation d'exploiter a été délivrée à la société ADA (aciérie de l'Atlantique) par l'arrêté préfectoral du 14 août 1995.
+
+1l0l0	L__autorisation_d__exploiter	O
+1l0l1	a_été_délivrée	N
+1l0l2	la_société_ADA	O
+1l0l3	aciérie	O
+1l0l4	l__arrêté_préfectoral	O
+1l0l5	14_août_1995__	T
+1l1l0	la_société_ADA	I
+
+#Le changement de dénomination sociale pour CELSA France a été effectué en septembre 2008.
+
+2l0l0	Le_changement_de_dénomination_sociale	N
+2l0l1	CELSA_France	O
+2l0l2	a_été_effectué	N
+2l0l3	en_septembre_2008__	T
+2l1l0	CELSA_France	I
+
+#1 - DIAGNOSTIC
+
+3l0l0	DIAGNOSTIC	N
+
+#1-1- DIAGNOSTIC PLOMB
+
+4l0l0	DIAGNOSTIC	N
+4l1l0	PLOMB	S
+
+#De par son activité et les émissions de plomb supérieures à 50 kg/an, ce site a été inscrit dans l'action nationale relative au diagnostic de l'état des sols potentiellement pollués par le plomb.
+
+5l0l0	ce_site	O
+5l0l1	a_été	N
+5l0l2	inscrit_dans	R
+5l0l3	l__action	N
+5l0l4	diagnostic	N
+5l1l0	plomb	S
+5l1l1	plomb	S
+
+#L'arrêté inter-préfectoral du 27 février 2006 prescrit ce diagnostic à l'échéance du 27 mai 2006.
+
+6l0l0	27_février_2006	T
+6l0l1	prescrit_ce_diagnostic	N
+6l0l2	à_l_	R
+6l0l3	échéance_du_27_mai_2006__	T
+
+#Le rapport du 6 juin 2006 montre un impact par le plomb pour 9 des 10 points investigué hors site dans un rayon de 400 à 800 mètres de l'usine.
+
+7l0l0	Le_rapport	O
+7l0l1	du_6_juin_2006	T
+7l0l2	un_impact	O
+7l0l3	investigué_hors_site	N
+7l0l4	dans_un_rayon_de_400_à_800_mètres_de_l__usine	L
+7l1l0	plomb	S
+
+#Le fond géochimique du secteur a été évalué à 24 mg/kg.
+
+8l0l0	a_été_évalué	N
+
+#Les valeurs mesurées s'échelonnent entre 50 et 527 mg/kg.
+
+
+#Le secteur le plus touché se situe dans le secteur nord-est de l'usine.
+
+10l0l0	Le_secteur_le_plus_touché	O
+10l0l1	se_situe_dans_le_secteur_nord_est_de_l__usine	L
+
+#Ce diagnostic de l'état des sols au regard de la contamination en plomb est sans doute représentatif de l'historique des activités industrielles de la zone.
+
+11l0l0	Ce_diagnostic	N
+11l0l1	l__état_des_sols	N
+11l0l2	la_zone	O
+11l1l0	plomb	S
+
+#Toutefois, de par ses rejets, l'aciérie ADA contribue à cette pollution.
+
+12l0l0	l__aciérie_ADA	O
+12l1l0	aciérie_ADA	I
+
+#Ce diagnostic a été l'occasion d'analyser également les autres métaux émis par l'aciérie.
+
+13l0l0	Ce_diagnostic	N
+13l0l1	l__aciérie	O
+13l1l0	métaux	S
+
+#En effet, une contamination par ces métaux (notamment le chrome, le nickel, le zinc, l'arsenic et le cadmium) est constatée.
+
+14l0l0	une_contamination	O
+14l0l1	ces_métaux	O
+14l1l0	métaux	S
+14l1l1	le_chrome	S
+14l1l2	nickel	S
+14l1l3	zinc	S
+14l1l4	arsenic	S
+14l1l5	cadmium	S
+
+#Le site relève du niveau "2b" du guide INERIS* pour l'orientation des actions à mettre en œuvre autour d'un site dont les sols sont potentiellement pollués par le plomb.
+
+15l0l0	Le_site	O
+15l1l0	plomb	S
+
+#Le diagnostic approfondi et l’Évaluation des Risques Sanitaires (ERS) doivent être menés.
+
+16l0l0	Le_diagnostic_approfondi	N
+16l0l1	l__Évaluation_des_Risques_Sanitaires	N
+16l1l0	Sanitaires	U
+
+#Toutefois, le plomb ne semble pas être mobilisé dans la nappe, au regard des résultats de la surveillance des eaux souterraines.
+
+17l1l0	plomb	S
+
+#* Pour mémoire, les niveaux ont été définis ainsi :
+
+
+#Niveau 0 (<100 mg/kg) : aucune investigation complémentaire - Surveillance Environnementale à mettre en place au besoin,
+
+19l0l0	Surveillance_Environnementale	N
+
+#Niveau 2a (entre 100 et200 mg/kg) : Vérification de la représentativité des prélèvements puis diagnostic approfondi,
+
+20l0l0	Niveau_2a	O
+
+#Niveau 2b (entre 200 et 550 mg/kg) : Évaluation Quantitative des Risques Sanitaires,
+
+21l0l0	Niveau_2b	O
+
+#Niveau 3 : mesures de sécurité et d'hygiène, dépistage éventuel, remédiation
+
+
+#1-2- ÉVALUATION DES RISQUES SANITAIRES
+
+23l0l0	ÉVALUATION	N
+23l1l0	SANITAIRES	I
+
+#L'ERS a été rendue en mars 2008.
+
+24l0l0	L__ERS	O
+24l0l1	a_été_rendue	N
+24l0l2	en_mars_2008__	T
+
+#Les quotients de danger calculés pour la voie inhalation sont supérieurs au seuil (1) pour le système respiratoire sur les 4 points de mesures et pour le système nerveux sur 2 points.
+
+
+#Pour la voie ingestion, les excès de risque individuel lié à l'arsenic sont supérieurs au seuil d'acceptabilité pour un enfant.
+
+26l0l0	l__arsenic	O
+26l1l0	arsenic	S
+
+#1-3- MISE A JOUR DE L’ÉVALUATION DES RISQUES SANITAIRES
+
+27l0l0	MISE_A_JOUR	N
+27l0l1	ÉVALUATION_DES_RISQUES_SANITAIRES	N
+27l1l0	RISQUES_SANITAIRES	I
+
+#Suite aux travaux réalisés sur le poste des scories noires en août 2010 visant à réduire les émissions atmosphériques, CELSA France a demandé la mise à jour de l'ERS.
+
+28l0l0	Suite	R
+28l0l1	aux_travaux_réalisés	N
+28l0l2	sur_le	L
+28l0l3	scories_noires	O
+28l0l4	en_août_2010	T
+28l0l5	visant_à	R
+28l0l6	réduire_les_émissions_atmosphériques	N
+28l0l7	CELSA_France	O
+28l0l8	a_demandé_la_mise_à_jour	N
+28l1l0	CELSA_France	I
+
+#L'étude datée de février 2013 a été remis en avril 2013, elle est en court d'analyse.
+
+29l0l0	L__étude	N
+29l0l1	datée_de_février_2013	T
+29l0l2	a_été_remis	N
+29l0l3	en_avril_2013__	T
+
+#2 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+30l0l0	SURVEILLANCE_DES_EAUX	A
+30l0l1	SOUTERRAINES	O
+30l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 a) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines par référence à la rubrique 2545 (Fabrication d'acier, fer, fonte, ferro-alliages, à l'exclusion de la fabrication des ferro-alliages au four électrique lorsque la puissance installée du (ou des) four(s) est inférieure à 25 kW) de la nomenclature des Installations Classées pour la Protection de l'Environnement.
+
+31l0l0	Ce_site	O
+31l0l1	est_soumis_à	R
+31l0l2	l__application	N
+31l0l3	l__arrêté_ministériel	O
+31l0l4	du_2_février_1998	T
+31l0l5	surveillance_des_eaux_souterraines	A
+31l0l6	exclusion_de_la_fabrication_des_ferro___alliages	A
+31l0l7	la_nomenclature_des_Installations_Classées	O
+31l0l8	pour_la_Protection_de_l__Environnement	L
+
+#L'arrêté préfectoral du 4 mai 2009 prescrit la surveillance semestrielle des eaux souterraines selon les modélités suivantes :
+
+32l0l0	L__arrêté_préfectoral	O
+32l0l1	4_mai_2009	T
+32l0l2	prescrit	N
+32l0l3	la_surveillance_semestrielle	A
+32l0l4	des_eaux_souterraines	A
+
+#- 5 piézomètres et 3 forages
+
+33l0l0	forages	A
+
+#- fréquence semestrielle (en hautes et basses eaux),
+
+
+#- les paramètres à analyser : DCO, hydrocarbures totaux (HCT), hydrocarbures aromatiques polycyclique (HAP), ammonium, sulfates, sodium, clhore et les métaux (arsenic, cadmium, chrome, cuivre, manganèse, molybdène, nickel, plomb, zinc),
+
+35l1l0	DCO	S
+35l1l1	hydrocarbures_totaux	S
+35l1l2	HCT	S
+35l1l3	hydrocarbures_aromatiques_polycyclique	S
+35l1l4	HAP	S
+35l1l5	ammonium	S
+35l1l6	sulfates	S
+35l1l7	sodium	S
+35l1l8	clhore	S
+35l1l9	métaux	S
+35l1l10	arsenic	S
+35l1l11	cadmium	S
+35l1l12	chrome	S
+35l1l13	cuivre	S
+35l1l14	manganèse	S
+35l1l15	molybdène	S
+35l1l16	nickel	S
+35l1l17	plomb	S
+35l1l18	zinc	S
+
+#- le niveau piézométrique est relevé à chaque campagne.
+
+
+#La surveillance semestrielle des eaux souterraines a été réalisée depuis 2009 sur 5 piézomètres et 3 forages.
+
+37l0l0	La_surveillance_semestrielle	A
+37l0l1	des_eaux_souterraines	A
+37l0l2	a_été_réalisée	N
+37l0l3	depuis_2009	T
+
+#En 2012, la pompe du forage 1 est hors service.
+
+38l0l0	En_2012__	T
+38l0l1	la_pompe_du_forage	O
+
+#Les résultats sont donnés page 6 "Surveillance du site et restrictions d'usage".
+

@@ -1,0 +1,532 @@
+
+#94.0092
+#Le garage automobile, succursale PEUGEOT, a été exploité par la société PICOT PAULMIER.
+
+0l0l0	Le_garage_automobile	O
+0l0l1	succursale_PEUGEOT	O
+0l0l2	a_été_exploité_par	N
+0l0l3	la	N
+0l0l4	société_PICOT	O
+0l1l0	succursale_PEUGEOT	I
+0l1l1	la_société_PICOT_PAULMIER	I
+
+#Le terrain, cadastré AB 13, AB 14 et AB 37, occupe une surface d’environ 7610 m².
+
+1l0l0	Le_terrain	O
+
+#Le stockage de liquides inflammables, constitué de 3 cuves enterrées de 10 m³ a été déclaré le 22/03/1955.
+
+2l0l0	Le_stockage_de_liquides_inflammables	A
+2l0l1	a_été_déclaré	N
+2l0l2	le_22_03_1955__	T
+2l1l0	liquides_inflammables	U
+2l1l1	3_cuves_enterrées	D
+
+#Suite à une révision du classement du site, réalisée le 22/07/1985, la station service est devenue classable à déclaration selon l’ancienne rubrique R 261bis-B [D].
+
+3l0l0	Suite	R
+3l0l1	à_une_révision	N
+3l0l2	classement_du_site	O
+3l0l3	le_22_07_1985	T
+3l0l4	la_station_service	O
+3l0l5	est_devenue_classable_à_déclaration	N
+
+#Cette dernière a fait l’objet d’une déclaration de cessation d’activité le 12/03/1993.
+
+4l0l0	a_fait_l__objet_d_	R
+4l0l1	une_déclaration_de_cessation_d__activité	N
+4l0l2	le_12_03_1993__	T
+
+#Les justificatifs de dégazage et de neutralisation des cuves ont été transmis.
+
+5l0l0	Les_justificatifs	O
+5l0l1	dégazage	N
+5l0l2	de_neutralisation	N
+5l0l3	cuves	O
+5l0l4	ont_été_transmis	N
+5l1l0	cuves	D
+
+#L’activité de réparation et d’entretien de véhicules a été déclassée suite à une visite d’inspection du 08/11/2005, après une modification de la nomenclature des installations classées.
+
+6l0l0	L__activité_de_réparation_et_d__entretien_de_véhicules	A
+6l0l1	a_été_déclassée	N
+6l0l2	suite_à	R
+6l0l3	une_visite	N
+6l0l4	d__inspection	L
+6l0l5	du_08_11_2005	T
+6l0l6	après	R
+6l0l7	une_modification	N
+6l0l8	la_nomenclature_des_installations_classées	O
+
+#Enfin, le transformateur au PCB, déclaré en 1986, a été supprimé le 29/04/2009.
+
+7l0l0	déclaré	N
+7l0l1	en_1986__	T
+7l0l2	a_été_supprimé	N
+7l0l3	le_29_04_2009__	T
+7l1l0	PCB	S
+
+#À partir de 2009, le site ne comprenait plus d’installations classées.
+
+8l0l0	À_partir_de_2009__	T
+8l0l1	le_site	O
+8l0l2	ne_comprenait_plus	R
+8l0l3	d__installations_classées	O
+
+#Dans le cadre de la cession du site, des investigations des sols ont mis en évidence de la pollution.
+
+9l0l0	Dans_le_cadre_de	R
+9l0l1	la_cession	N
+9l0l2	du_site	O
+9l0l3	des_investigations_des_sols_ont_mis	N
+9l0l4	la_pollution	N
+
+#Ainsi, les diagnostics et le plan de gestion réalisés complètent les dispositions prises en 1993 lors de la remise en état du site.
+
+10l0l0	les_diagnostics	N
+10l0l1	le_plan_de_gestion_réalisés	O
+10l0l2	en_1993	T
+10l0l3	lors_de_la_remise_en_état	N
+
+#Par courrier du 05/11/2015, la société PEUGEOT, dans le cadre de la cession du site, a porté à la connaissance du préfet les diagnostics environnementaux et le plan de gestion de la pollution réalisés pour le site PICOT PAULMIER, sur la commune de Sucy-en-Brie.
+
+11l0l0	05_11_2015	T
+11l0l1	la_société_PEUGEOT	O
+11l0l2	dans_le_cadre_de	R
+11l0l3	la_cession	N
+11l0l4	du_site	O
+11l0l5	la_connaissance	N
+11l0l6	du_préfet	O
+11l0l7	les_diagnostics_environnementaux	N
+11l0l8	le_plan_de_gestion_de_la_pollution_réalisés	O
+11l0l9	le_site	O
+11l0l10	PICOT_PAULMIER	O
+11l0l11	sur_la_commune_de_Sucy_en_Brie	L
+11l1l0	la_société_PEUGEOT	I
+11l1l1	le_site_PICOT_PAULMIER	I
+
+#Trois diagnostics environnementaux ont été réalisés : en août 2010, avril 2015 et août 2015.
+
+12l0l0	Trois_diagnostics_environnementaux	N
+12l0l1	ont_été_réalisés__	N
+12l0l2	en_août_2010___avril_2015_et_août_2015__	T
+
+#Les investigations dans les sols ont permis d’identifier :
+
+13l0l0	Les_investigations	N
+13l0l1	dans_les_sols	N
+
+#- une source de pollution localisée à proximité des anciennes cuves enterrées, ayant contenues du gasoil.
+
+14l0l0	une_source_de_pollution	O
+14l0l1	localisée_à_proximité_des_anciennes	L
+14l0l2	cuves_enterrées	N
+14l0l3	ayant_contenues_du_gasoil	A
+14l1l0	des_anciennes_cuves_enterrées	D
+14l1l1	gasoil	U
+
+#- un impact en hydrocarbures et BTEX entre 2 et 5 mètres de profondeur, jusqu’à la nappe et qui s’étend vers l’ouest ;
+
+15l0l0	un_impact	N
+15l0l1	s__étend_vers_l__ouest	N
+15l1l0	hydrocarbures	S
+15l1l1	BTEX	S
+
+#- un impact ponctuel au droit de l’ancienne cuve enterrée des huiles usagées, probablement induit par un débordement, entre 1 et 3 mètres de profondeur ;
+
+16l0l0	un_impact_ponctuel	N
+16l0l1	au_droit_de_l_	L
+16l0l2	ancienne_cuve_enterrée	N
+16l0l3	probablement_induit_par	R
+16l0l4	un_débordement	N
+16l1l0	cuve_enterrée	D
+16l1l1	des_huiles_usagées	U
+
+#- la présence d’une contamination au niveau de la zone enherbée en limite ouest avec des BTEX avec une éventuelle extension vers l’extérieur du site ;
+
+17l0l0	une_contamination	O
+17l0l1	au_niveau_de	R
+17l0l2	la_zone_enherbée	O
+17l0l3	en_limite_ouest	L
+17l0l4	des_BTEX	O
+17l0l5	une_éventuelle	O
+17l0l6	extension_vers_l_	N
+17l0l7	extérieur_du_site	L
+17l1l0	BTEX	S
+
+#- la présence de solvants chlorés dans la nappe au niveau du piézomètre PZ2, sans source identifiée dans les sols.
+
+18l1l0	solvants_chlorés	U
+
+#La contamination semblerait provenir d’un site voisin qui aurait fabriqué des peintures et des vernis.
+
+19l0l0	La_contamination	O
+19l0l1	un_site_voisin	O
+19l0l2	aurait_fabriqué_des_peintures_et_des_vernis	A
+
+#Les résultats des analyses de l'eau de la nappe ont permis de mettre en évidence :
+
+
+#- un impact généralisé mais hétérogène en solvants chlorés sur l’ensemble du site ;
+
+21l1l0	solvants_chlorés	S
+
+#- des impacts en hydrocarbures et BTEX au droit des zones de l’ancienne station service, de la fosse d’entretien et de l’aire de lavage.
+
+22l0l0	au_droit_des_zones	O
+22l0l1	fosse_d__entretien	O
+22l0l2	lavage	A
+22l1l0	hydrocarbures	S
+22l1l1	BTEX	S
+
+#Le piézair le plus impacté est celui qui est situé dans la zone de la fosse d’entretien et de l’aire de lavage.
+
+23l0l0	Le_piézair	O
+23l0l1	situé_dans_la_zone	L
+23l0l2	lavage	A
+
+#Le plan de gestion en date du 22/09/2015 a permis d'identifier 4 zones nécessitant des mesures de gestion :
+
+24l0l0	Le_plan_de_gestion	O
+24l0l1	en_date_du_22_09_2015	T
+24l0l2	a_permis_d__identifier	N
+24l0l3	4_zones	O
+
+#- zone 1 : Ancienne station-service comprenant des cuves enterrées ayant contenues du gasoil et de l’essence ;
+
+25l0l0	comprenant_des_cuves_enterrées	O
+25l0l1	ayant	A
+25l0l2	de_l__essence	O
+25l1l0	__Ancienne_station___service	I
+25l1l1	comprenant_des_cuves_enterrées	D
+25l1l2	du_gasoil	S
+25l1l3	l__essence	S
+
+#- zone 2 : Fosse d’entretien et aire de lavage ;
+
+
+#- zone 3 : zone de parking en limite ouest du site ;
+
+27l0l0	parking_en_limite_ouest_du_site	L
+
+#- zone 4 : Ancienne cuve d’huiles usagées.
+
+28l1l0	__Ancienne_cuve_d__huiles_usagées	U
+
+#Les objectifs du plan de gestion sont :
+
+29l0l0	Les_objectifs	O
+
+#- l’élimination, la neutralisation ou la réfection des installations responsables des impacts (cuves de carburants, fosse d’entretien, aire de lavage) ;
+
+30l0l0	l__élimination	N
+30l0l1	la_neutralisation	N
+30l0l2	la_réfection_des_installations	N
+30l0l3	cuves_de_carburants	O
+30l0l4	lavage	A
+30l1l0	cuves	S
+30l1l1	carburants	U
+
+#- l’élimination des sources concentrées : les sols impactés par des hydrocarbures et les BTEX au droit de l’ancienne station-service, de la fosse d’entretien et de l’aire de lavage ; les sols impactés en BTEX au droit de la zone de parking.
+
+31l0l0	élimination	N
+31l0l1	les_sols_impactés	O
+31l0l2	les_BTEX	O
+31l0l3	au_droit_de_l__ancienne_station	L
+31l0l4	la_fosse_d__entretien	O
+31l0l5	lavage	A
+31l0l6	__les_sols_impactés	O
+31l0l7	de_la_zone_de_parking	O
+31l1l0	hydrocarbures	S
+31l1l1	BTEX	S
+31l1l2	en_BTEX	S
+
+#- le traitement des eaux souterraines impactées.
+
+32l0l0	le_traitement_des_eaux_souterraines_impactées	O
+
+#Les objectifs de dépollutions ont été fixés pour les différentes zones.
+
+33l0l0	Les_objectifs	O
+33l0l1	de_dépollutions	N
+33l0l2	ont_été_fixés	N
+33l0l3	les_différentes_zones	O
+
+#Le taux d’abattement des concentrations en polluant est estimé à 80 %.
+
+
+#Les conclusions du bilan coûts/avantages ont permis de déterminer les mesures de gestion suivantes :
+
+35l0l0	les_mesures_de_gestion	O
+
+#En cas de conservation de garage :
+
+
+#zone 1 : Élimination hors site des anciennes cuves de carburants actuellement neutralisées au sablon, traitement de sols par excavation et traitement hors site puis traitement des eaux de nappe et des volatils résiduels par extraction multiphase ;
+
+37l0l0	__Élimination_hors_site	N
+37l0l1	des_anciennes_cuves_de_carburants	O
+37l0l2	actuellement_neutralisées	N
+37l0l3	__traitement_de_sols	N
+37l0l4	par_excavation_et_traitement_hors_site	N
+37l0l5	puis_traitement_des_eaux_de_nappe	N
+37l1l0	site_des_anciennes_cuves_de	D
+37l1l1	carburants	U
+
+#zone 2 : Traitement des eaux de la nappe et des volatils par extraction multiphase ;
+
+38l0l0	zone_2	O
+38l0l1	de_la_nappe	O
+
+#zone 3 : Traitement des sols par excavation et traitement hors site puis traitement des eaux de la nappe par injection de réactifs ;
+
+39l0l0	zone_3	O
+39l0l1	par_excavation	N
+39l0l2	et_traitement_hors_site	N
+39l0l3	puis_traitement	N
+39l0l4	des_eaux	A
+39l0l5	par_injection_de_réactifs	N
+
+#zone 4 : Traitement des sols par excavation et traitement hors site.
+
+40l0l0	__Traitement_des_sols_par_excavation	N
+40l0l1	et_traitement_hors_site	N
+
+#En cas de démolition du garage
+
+41l0l0	démolition_du_garage	N
+
+#zones 1-2 et 3 : Excavation de l’ensemble des terres impactées et traitement en biotertre sur le site puis traitement in situ des eaux de la nappe par biosparging et bioventing ;
+
+42l0l0	zones	O
+42l0l1	__Excavation	N
+42l0l2	de_l__ensemble_des_terres_impactées	O
+42l0l3	et_traitement_en_biotertre	N
+42l0l4	puis_traitement_in_situ	N
+42l0l5	des_eaux_de_la_nappe	A
+42l0l6	et_bioventing	N
+
+#zone 4 : Excavations et traitement hors site des terres impactées.
+
+43l0l0	__Excavations_et_traitement_hors_site	N
+43l0l1	des_terres_impactées	O
+
+#Dans son rapport du 26/07/2016 l'inspection des installations classées a informé l'exploitant que le plan de gestion proposé pouvait être mis en œuvre.
+
+44l0l0	26_07_2016	T
+44l0l1	l__inspection_des_installations_classées	O
+44l0l2	a_informé	N
+44l0l3	l__exploitant	O
+44l0l4	le_plan_de_gestion	O
+
+#* travaux de dépollution
+
+45l0l0	travaux_de_dépollution	N
+
+#Les travaux de terrassement ont été réalisés entre le 8 mars 2017 et le 7 juillet 2018, sans démolition du garage.
+
+46l0l0	Les_travaux_de_terrassement	N
+46l0l1	ont_été_réalisés	N
+46l0l2	entre_le_8_mars_2017_et_le_7_juillet_2018__	T
+46l0l3	sans	O
+46l0l4	démolition_du_garage	N
+
+#• pour la zone 1 (ancienne station-service) : Les cuves ont été extraites du sol, les fondations de la station-service ont été démolies, les terres polluées ont été excavées et envoyées en centre de traitement;
+
+47l0l0	la_zone_1	O
+47l0l1	__Les_cuves	O
+47l0l2	ont_été_extraites	N
+47l0l3	__les_fondations_de_la_station___service	O
+47l0l4	ont_été_démolies	N
+47l0l5	__les_terres_polluées	O
+47l0l6	ont_été_excavées	N
+47l0l7	et_envoyées_en	R
+47l0l8	centre_de_traitement	O
+47l1l0	station___service	I
+47l1l1	__Les_cuves	D
+
+#• pour la zone 3 (parking en limite ouest du site) : Les terres ont été excavées sur 50 m² et 2 mètres de profondeur.
+
+48l0l0	la_zone_3	O
+48l0l1	en_limite_ouest_du_site	L
+48l0l2	__Les_terres	O
+48l0l3	ont_été_excavées	N
+
+#La nappe a été traitée en fond de fouille avec l’ajout d’un produit oxydant ;
+
+49l0l0	La_nappe	O
+49l0l1	a_été_traitée	N
+49l0l2	en_fond_de_fouille	L
+49l0l3	l__ajout_d_	R
+49l0l4	un_produit_oxydant	O
+
+#• pour la zone 4 de l'ancienne cuve d’huiles usagées : Les travaux ont consisté en l’extraction et l’évacuation de la cuve à huile et au curage des terres en fond de fouille
+
+50l0l0	la_zone	O
+50l0l1	huiles_usagées	O
+50l0l2	Les_travaux	N
+50l0l3	l__extraction	N
+50l0l4	l__évacuation	N
+50l0l5	la_cuve_à_huile	O
+50l0l6	au_curage	N
+50l0l7	des_terres	O
+50l0l8	en_fond_de_fouille	L
+50l1l0	cuve	D
+50l1l1	d__huiles	U
+
+#Au total, 1936 tonnes de terres polluées ont été excavées en envoyées en biocentre.
+
+51l0l0	1936_tonnes_de_terres_polluées	O
+51l0l1	ont_été_excavées	N
+
+#Des prélèvements ont été réalisés en fond et bords de fouilles.
+
+52l0l0	Des_prélèvements_ont_été_réalisés	N
+52l0l1	en_fond_et_bords_de_fouilles	L
+
+#Les résultats d’analyses ont mis en évidence la présence d’un impact résiduel :
+
+
+#• zone de l'ancienne cuve d'huile usagée :
+
+54l0l0	huile_usagée	O
+54l1l0	cuve_d_	D
+54l1l1	huile_usagée	U
+
+#◦ hydrocarbures C10-C40 = 510 mg/kg et hydrocarbures C5-C10 = 130 mg/kg sur la paroi nord ;
+
+55l1l0	hydrocarbures_C10_C40	S
+55l1l1	hydrocarbures_C5_C10	S
+
+#◦ hydrocarbures C10-C40 = 110 mg/kg sur la paroi ouest ;
+
+56l1l0	hydrocarbures_C10_C40	S
+
+#• zone de l'ancienne station-service : hydrocarbures C10-C40 = 40 mg/kg sur la paroi sud ;
+
+57l1l0	service	S
+57l1l1	__hydrocarbures_C10_C40	S
+
+#Le traitement de la nappe a été réalisé sur les zones 1 et 2 au moyen d’une extraction multiphases.
+
+58l0l0	Le_traitement	N
+58l0l1	la_nappe	O
+58l0l2	a_été_réalisé	N
+58l0l3	les_zones	O
+58l0l4	extraction_multiphases	N
+
+#Le pompage a débuté en juillet 2017 et a été arrêté en février 2018.
+
+59l0l0	Le_pompage	O
+59l0l1	a_débuté	N
+59l0l2	en_juillet_2017	T
+59l0l3	a_été_arrêté	N
+59l0l4	en_février_2018__	T
+
+#Suite aux résultats d’analyses qui montraient la persistance de fortes concentrations en polluants, l’installation de traitement a été remise en fonctionnement, en juin 2018.
+
+60l0l0	Suite_aux	R
+60l0l1	résultats	O
+60l0l2	la_persistance	O
+60l0l3	l__installation_de_traitement	O
+60l0l4	a_été_remise_en_fonctionnement	N
+60l0l5	en_juin_2018__	T
+60l1l0	polluants	S
+
+#Elle a été arrêté en août 2018.
+
+61l0l0	Elle	O
+61l0l1	a_été_arrêté	N
+61l0l2	en_août_2018__	T
+
+#En septembre et octobre 2018, les résultats des campagnes d’analyses ont montré que les objectifs de dépollution, déterminés dans le plan de gestion, avaient été atteints.
+
+62l0l0	En_septembre_et_octobre_2018__	T
+62l0l1	les_résultats	O
+62l0l2	des_campagnes_d__analyses	N
+62l0l3	les_objectifs	O
+62l0l4	de_dépollution	N
+
+#Pour la zone 3 (zone de parking en limite ouest du site), le traitement de la nappe a débuté en juin 2017.                 Mais, en mars 2018, les résultats d’analyses ont mis en évidence une augmentation des concentrations en hydrocarbures volatils. 3 sondages ont donc été réalisés, sur le pourtour de la zone, afin de déterminer l’existence d’une source de pollution.
+
+63l0l0	la_zone_3	O
+63l0l1	zone_de_parking	O
+63l0l2	en_limite_ouest_du_site	L
+63l0l3	le_traitement_de_la_nappe	N
+63l0l4	a_débuté	N
+63l0l5	en_juin_2017____	T
+63l0l6	volatils___3_sondages_ont	N
+63l0l7	donc_été_réalisés___sur_le	L
+63l0l8	pourtour_de_la_zone__	R
+63l0l9	afin_de_déterminer_l__existence_d__une_source	O
+63l1l0	concentrations_en_hydrocarbures	S
+
+#Les résultats d’analyses des sols et de l’eau de la nappe ont montré qu’il n’y avait aucun impact significatif : 86 mg/kg en hydrocarbures C10-C40 et 0,98 mg/kg en hydrocarbures C5-C10.
+
+64l1l0	en_hydrocarbures_C10_C40	S
+64l1l1	en_hydrocarbures_C5_C10	S
+
+#Par ailleurs, afin de poursuivre le traitement de la nappe, une nouvelle solution technique a été mise en place en juin et juillet 2018 : pompage/traitement et réinjection de l’eau de la nappe.
+
+65l0l0	le_traitement	N
+65l0l1	la_nappe	O
+65l0l2	une_nouvelle_solution_technique	O
+65l0l3	a_été_mise_en_place	N
+65l0l4	en_juin_et_juillet_2018	T
+65l0l5	__pompage___traitement	N
+65l0l6	et_réinjection_de	R
+65l0l7	l__eau_de_la_nappe	O
+
+#Cependant, un léger dépassement des concentrations en hydrocarbures C10-C40 est à noter en limite du site (1200 µg/l), malgré la mise en œuvre de 2 traitements et de 2 produits oxydants différents, sur 18 mois, et la réalisation de sondages supplémentaires qui n’ont pas montré d’impact dans les sols.
+
+66l0l0	en_limite_du_site	L
+66l0l1	la_mise_en_œuvre	N
+66l0l2	de_2_traitements	N
+66l0l3	la_réalisation_de_sondages_supplémentaires	N
+66l1l0	hydrocarbures_C10_C40	S
+
+#Le bureau d’étude explique ce phénomène par :
+
+
+#• la présence d’une source de pollution, dans les sols, localisée au droit du piézomètre impacté, à plus de 2 mètres de profondeur, dans la zone saturée ;
+
+68l0l0	une_source_de_pollution	O
+68l0l1	localisée_au_droit_du_piézomètre_impacté	L
+68l0l2	dans_la_zone_saturée	L
+
+#• ou par la présence d’une source de pollution à l’extérieur du site.
+
+69l0l0	une_source_de_pollution	O
+69l0l1	à_l__extérieur_du_site	L
+
+#L'analyse des risques résiduels a conclu que « le risque sanitaire résiduel est donc considéré comme acceptable pour un usage industriel et commercial inchangé ».
+
+70l0l0	pour_un_usage_industriel_et_commercial	A
+
+#Cependant, l’inspection des installations classées a proposé, dans son rapport du 30/07/2019 :
+
+71l0l0	30_07_2019	T
+
+#- d’informer la mairie de Sucy-en-Brie que des hydrocarbures sont susceptibles d’être présents sur le terrain cadastré AB40, situé derrière le garage automobile PEUGEOT anciennement exploité par la société PICOT PAULMIER;
+
+72l0l0	d__informer	N
+72l0l1	la_mairie	O
+72l0l2	Sucy_en_Brie	L
+72l0l3	hydrocarbures	O
+72l0l4	le_terrain_cadastré_AB40	O
+72l0l5	situé_derrière_le_garage	L
+72l0l6	automobile_PEUGEOT	O
+72l0l7	anciennement	R
+72l0l8	exploité	N
+72l0l9	la_société_PICOT_PAULMIER	O
+72l1l0	Sucy_en_Brie	I
+72l1l1	hydrocarbures	S
+72l1l2	le_garage_automobile_PEUGEOT	I
+72l1l3	la_société_PICOT_PAULMIER	I
+
+#- de demander à l'exploitant de transmettre les modalités de surveillance de la qualité des eaux de la nappe, tel que prévu dans le rapport de fin de travaux.
+
+73l0l0	l__exploitant	O
+73l0l1	les_modalités	O
+73l0l2	surveillance_de_la_qualité_des_eaux_de_la_nappe	A
+73l0l3	fin_de_travaux	N

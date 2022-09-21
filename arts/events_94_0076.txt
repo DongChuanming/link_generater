@@ -1,0 +1,232 @@
+
+#94.0076
+#Le site a été occupé par une station service, déclarée en 1971.
+
+0l0l0	Le_site	O
+0l0l1	a_été_occupé_par	N
+0l0l2	une_station_service	O
+0l0l3	déclarée	N
+0l0l4	en_1971	T
+
+#Il est implanté dans une zone résidentielle.
+
+1l0l0	implanté_dans_une_zone_résidentielle	L
+
+#Par courrier du 22/10/2010, SHELL a adressé à la préfecture sa notification de cessation d'activité, accompagnée d'un diagnostic pollution en date du 12/11/2009.
+
+2l0l0	du_22_10_2010	T
+2l0l1	__SHELL	O
+2l0l2	a_adressé	N
+2l0l3	la_préfecture	O
+2l0l4	sa_notification	N
+2l0l5	de_cessation_d__activité	N
+2l0l6	d__un_diagnostic_pollution	N
+2l0l7	en_date_du_12_11_2009__	T
+2l1l0	SHELL	I
+
+#La fermeture de la station a été effective au 23/11/2010.
+
+3l0l0	La_fermeture_de	N
+3l0l1	la_station	O
+3l0l2	a_été_effective	N
+3l0l3	au_23_11_2010__	T
+
+#Par courrier du 20/07/2011, SHELL confirme que l'ensemble des travaux de mise en sécurité et de dépollution ont été réalisés au droit du site.
+
+4l0l0	20_07_2011	T
+4l0l1	SHELL	O
+4l0l2	l__ensemble	O
+4l0l3	des_travaux_de_mise_en_sécurité_et_de_dépollution	N
+4l0l4	ont_été_réalisés	N
+4l0l5	au_droit_du_site	L
+4l1l0	SHELL	I
+
+#Sont joints au courrier :
+
+
+#- Le dossier de démantèlement regroupant notamment les documents suivants :
+
+6l0l0	Le_dossier_de_démantèlement	N
+
+#- Les certificats de dégazage pour 2 cuves de 60 m3, une cuve à huile de 2000 litres et des tuyauteries.
+
+7l0l0	Les_certificats	O
+7l0l1	de_dégazage	N
+7l0l2	2_cuves	O
+7l0l3	une_cuve_à_huile	O
+7l0l4	2000_litres	O
+7l1l0	cuves	D
+
+#- L'attestation de destruction des cuves délivrée.
+
+8l0l0	attestation_de_destruction	N
+8l0l1	cuves	O
+8l1l0	cuves	D
+
+#- Les bordereaux de suivi de déchets suite au nettoyage des cuves et du séparateur à hydrocarbures
+
+9l0l0	bordereaux_de_suivi_de_déchets	O
+9l0l1	suite_au	R
+9l0l2	nettoyage	N
+9l0l3	cuves	O
+9l0l4	séparateur_à_hydrocarbures	O
+9l1l0	hydrocarbures	S
+
+#- Le rapport de suivi environnemental du chantier de démantèlement.
+
+10l0l0	Le_rapport_de_suivi_environnemental	O
+10l0l1	du_chantier_de_démantèlement	N
+
+#Les travaux de démantèlement ont été échelonnés du 22 février au 06 avril 2011. 7 fouilles ont été réalisées au droit du site,  2144 tonnes de terres impactées ont été excavées et éliminées en centre agréé.
+
+11l0l0	Les_travaux_de_démantèlement	N
+11l0l1	ont_été_échelonnés	N
+11l0l2	du_22_février_au_06_avril_2011__	T
+11l0l3	7_fouilles_ont_été_réalisées	N
+11l0l4	au_droit_du_site	L
+11l0l5	2144_tonnes_de_terres_impactées	O
+11l0l6	ont_été_excavées	N
+11l0l7	et_éliminées_en_centre_agréé	O
+
+#Les concentrations maximales résiduelles ont toutes été mesurées au droit de la paroi Ouest des fouilles D et G (1700 mg/kg en hydrocarbures).
+
+12l0l0	été_mesurées	N
+12l0l1	au_droit_de_la_paroi_Ouest_des_fouilles_D	L
+12l1l0	hydrocarbures	S
+
+#En effet, cette paroi n'a pas pu être reprise en raison de limite technique (proximité de la voirie et d'une conduite de gaz).
+
+13l0l0	n__a_pas_pu_être_reprise	N
+13l0l1	proximité_de_la_voirie	L
+
+#Suite au démantèlement, 3 piézomètres ont été mis en place.
+
+14l0l0	Suite	R
+14l0l1	au_démantèlement	N
+14l0l2	3_piézomètres	O
+14l0l3	ont_été_mis_en_place	N
+
+#Les prélèvements et analyses réalisés au mois de mai 2011 mettent en évidence la conformité de la qualité des eaux souterraines par rapport aux critères de qualité définis pour l'eau potable dans l'arrêté ministériel du 11 janvier 2007 ou à défaut par l'OMS.
+
+15l0l0	Les_prélèvements_et_analyses_réalisés	N
+15l0l1	au_mois_de_mai_2011	T
+15l0l2	la_qualité_des_eaux_souterraines	O
+15l0l3	11_janvier_2007	T
+
+#Afin de vérifier la compatibilité des milieux avec l'usage futur du site, commerces et industries de plain-pied, une ARR (Analyse des risques résiduels) a été réalisée.
+
+16l0l0	une_ARR	N
+16l0l1	Analyse_des_risques	N
+16l0l2	a_été_réalisée	N
+
+#La seule voie d'exposition retenue correspond à la volatilisation de polluants vers l'air extérieur et intérieur, les cibles étant les futurs employés et usagers du site.
+
+17l1l0	polluants	U
+
+#L'ARR a été réalisée en considérant les concentrations résiduelles maximales mesurées dans les eaux souterraines et les moyennes de concentrations mesurées dans les sols, suite aux travaux de démantèlement et d'excavation.
+
+18l0l0	L__ARR_a_été_réalisée	N
+18l0l1	les_sols	O
+18l0l2	suite	R
+18l0l3	aux_travaux_de_démantèlement	N
+18l0l4	d__excavation	N
+
+#Les niveaux de risque ainsi calculés sont inférieurs aux valeurs de référence à la fois pour les effets à seuil et les effets sans seuil.
+
+
+#Le site peut être considéré comme compatible avec son usage futur de type commercial ou industriel.
+
+20l0l0	Le_site	O
+
+#Cependant, du benzène reste présent dans les eaux de la nappe.
+
+21l1l0	benzène	S
+
+#Les rapports de suivi de la qualité des eaux de la nappe pour les mois de septembre 2011, mai et décembre 2012 et confirme que les résultats sont en amélioration sur deux des trois piézomètres présents sur le site.
+
+22l0l0	la_qualité_des_eaux	O
+22l0l1	les_mois_de_septembre_2011___mai_et_décembre_2012	T
+
+#L’augmentation des teneurs sur le 3e piézomètre serait due aux travaux d’excavations (benzène = 270 µg/l en mai 2012 et 53 µg/l en décembre 2012).
+
+23l0l0	L__augmentation	N
+23l0l1	aux_travaux_d__excavations	N
+23l0l2	en_mai_2012	T
+23l0l3	en_décembre_2012__	T
+23l1l0	benzène	S
+
+#L'inspection a donc rappelé à SHELL, dans son rapport du 14/05/2014 que :
+
+24l0l0	SHELL	O
+24l0l1	14_05_2014	T
+24l1l0	SHELL	I
+
+#- La surveillance semestrielle de la qualité de l’eau de la nappe doit être poursuivie, les concentrations en benzène restant importantes.
+
+25l0l0	La_surveillance_semestrielle	A
+25l0l1	la	O
+25l0l2	qualité_de_l__eau_de_la_nappe	A
+25l1l0	benzène	S
+
+#- Des piézairs doivent être mis en place, dans un délai de 3 mois, afin de vérifier la présence ou non de benzène dans les gaz du sol et l’ARR devra être mise jour avec les résultats.
+
+26l0l0	Des_piézairs	O
+26l0l1	doivent_être_mis_en_place	N
+26l0l2	dans_un_délai_de_3_mois	T
+26l1l0	benzène	S
+
+#- Les rapports de suivi de la qualité des eaux de la nappe pour l’année 2013, doivent être transmis à la préfecture du Val-de-Marne.
+
+27l0l0	Les_rapports_de_suivi_de_la_qualité_des_eaux_de_la_nappe	O
+27l0l1	pour_l__année_2013__	T
+27l0l2	doivent	N
+27l0l3	la_préfecture_du_Val_de_Marne	A
+27l1l0	la_préfecture	I
+
+#- En cas de changement d’usage du site, la compatibilité des milieux, avec ce nouvel usage devra être vérifiée et en cas de cession des terrains, tous les documents relatifs à la réhabilitation du site devront être annexés à l’acte de vente.
+
+28l0l0	En_cas_de	R
+28l0l1	changement_d__usage	N
+28l0l2	site	O
+28l0l3	ce_nouvel_usage	O
+28l0l4	devra_être_vérifiée	N
+28l0l5	en_cas_de	R
+28l0l6	cession_des_terrains	N
+28l0l7	tous_les_documents	O
+28l0l8	relatifs_à	R
+28l0l9	la_réhabilitation	N
+
+#Le terrain a été vendu à la ville du Perreux-sur-Marne en février 2011.
+
+29l0l0	Le_terrain	O
+29l0l1	a_été_vendu	N
+29l0l2	à	R
+29l0l3	la	O
+29l0l4	ville_du_Perreux_sur_Marne	L
+29l0l5	en_février_2011__	T
+
+#L'acte de vente, transmis par l'exploitant, précise les restriction d'usage applicable sur le site et la nécessite de réaliser des investigations en cas de changement d'usage du site.
+
+30l0l0	l__exploitant	O
+30l0l1	les_restriction_d__usage	O
+30l0l2	investigations	O
+30l0l3	en_cas_de	R
+30l0l4	changement_d__usage	N
+
+#SHELL a cessé la surveillance de la qualité des eaux de la nappe en décembre 2012, vu la compatibilité du site avec un usage comparable à la dernière période d'exploitation (industrielle et commerciale), l'absence de risque pour les habitations riveraines, la nette diminution des concentrations en benzène dans les eaux de la nappe suite aux travaux de dépollution.
+
+31l0l0	SHELL	O
+31l0l1	a_cessé	N
+31l0l2	la_surveillance_de_la_qualité_des_eaux_de_la_nappe	A
+31l0l3	en_décembre_2012__	T
+31l0l4	dernière_période_d__exploitation	O
+31l0l5	la_nappe	O
+31l0l6	suite	R
+31l0l7	aux_travaux_de_dépollution	N
+31l1l0	SHELL	I
+31l1l1	benzène	S
+
+#Sauf élément nouveau, ce site n'appelle plus d'action de l'inspection des installations classées.
+
+32l0l0	action	O
+32l0l1	l__inspection_des_installations_classées	O

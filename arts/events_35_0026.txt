@@ -1,0 +1,202 @@
+
+#35.0026
+#La société CIO a été autorisée à exploiter une installation de traitement de surface par arrêté préfectoral du 7 décembre 1989.
+
+0l0l0	La_société_CIO	O
+0l0l1	a_été_autorisée_à_exploiter	N
+0l0l2	une_installation_de_traitement_de_surface	O
+0l0l3	arrêté_préfectoral	O
+0l0l4	du_7_décembre_1989__	T
+0l1l0	La_société_CIO	I
+
+#La société Ovako a repris la même activité en 2006.
+
+1l0l0	La_société_Ovako	O
+1l0l1	a_repris_la_même_activité	N
+1l0l2	en_2006__	T
+1l1l0	La_société_Ovako	I
+
+#Dans le cadre du projet de rénovation de la station de détoxication et du rebouchage de la fosse servant à collecter les eaux de rinçage avant traitement, des diagnostics des sols autour de la fosse ont été réalisés en décembre 2008.
+
+2l0l0	Dans_le_cadre_du	R
+2l0l1	projet	O
+2l0l2	de_rénovation	N
+2l0l3	la_station_de_détoxication	O
+2l0l4	rebouchage	N
+2l0l5	la_fosse	O
+2l0l6	servant	R
+2l0l7	à_collecter_les_eaux_de_rinçage_avant_traitement	A
+2l0l8	des_diagnostics	N
+2l0l9	sols	O
+2l0l10	autour_de	L
+2l0l11	la_fosse	O
+2l0l12	ont_été_réalisés	N
+2l0l13	en_décembre_2008__	T
+2l1l0	détoxication	U
+
+#Ils ont mis en évidence une pollution par le nickel et le chrome.
+
+3l0l0	chrome	O
+3l1l0	le_nickel	S
+3l1l1	chrome	S
+
+#La ligne de nickelage chromage de petite longueur a fait l'objet d'une cessation d'activité en mars 2009.
+
+4l0l0	La_ligne_de	O
+4l0l1	nickelage_chromage_de_petite_longueur	A
+4l0l2	a_fait_l__objet_d_	R
+4l0l3	une_cessation_d__activité	N
+4l0l4	en_mars_2009__	T
+
+#Les deux diagnostics des sols de 2008 ont mis en évidence une pollution très localisée dans les terrains compactés autour de la fosse et plus particulièrement entre la fosse et le bardage du bâtiment.
+
+5l0l0	Les_deux_diagnostics	N
+5l0l1	des_sols	N
+5l0l2	de_2008	T
+5l0l3	une_pollution	O
+5l0l4	très_localisée	N
+5l0l5	les_terrains	O
+5l0l6	compactés	N
+5l0l7	autour_de_la_fosse	L
+5l0l8	fosse_et_le_bardage_du_bâtiment	L
+
+#Du chrome (dissous et hexavalent) et du nickel ont également été trouvés dans les eaux souterraines.
+
+6l0l0	ont_également_été_trouvés	N
+6l1l0	chrome	S
+6l1l1	hexavalent	S
+6l1l2	nickel	S
+
+#Les diagnostics concluent en la nécessité d'excaver des terres et de mettre en place un suivi piézométrique.
+
+7l0l0	Les_diagnostics	N
+7l0l1	concluent	R
+7l0l2	la_nécessité	O
+7l0l3	d__excaver_des_terres	N
+7l0l4	mettre_en_place_un_suivi_piézométrique	N
+
+#A cet effet:
+
+
+#- 130 tonnes de terres ont été excavées en mars 2009,
+
+9l0l0	130_tonnes_de_terres	O
+9l0l1	ont_été_excavées	N
+9l0l2	en_mars_2009__	T
+
+#- 2 piézomètres complémentaires ont été mis en place avec un suivi trimestriel.
+
+10l0l0	2_piézomètres_complémentaires	O
+10l0l1	ont_été_mis_en_place	N
+10l0l2	un_suivi_trimestriel	A
+
+#I/ Excavation des terres :
+
+11l0l0	Excavation_des_terres	N
+
+#L'excavation a été limitée à la présence d'un pilier de soutènement et de l'exiguïté des lieux d'excavation, ne permettant pas de poursuivre les travaux sans mettre en péril la stabilité du bâtiment.
+
+12l0l0	L__excavation	N
+12l0l1	a_été_limitée	N
+12l0l2	un_pilier_de_soutènement	O
+12l0l3	excavation	N
+12l0l4	poursuivre_les_travaux	N
+
+#Ainsi, des contaminations résiduelles en chrome total et en nickel ont été mesurées dans les sols.
+
+13l0l0	des_contaminations	O
+13l0l1	ont_été_mesurées	N
+13l1l0	chrome_total	S
+13l1l1	nickel	S
+
+#Une analyse des risques résiduels a été réalisée.
+
+14l0l0	Une_analyse	N
+14l0l1	a_été_réalisée	N
+
+#Compte tenu de la nature des polluants (éléments traces métalliques), du comblement de la fosse par des matériaux sains et de l'installation d'une dalle en béton revêtue de résine au-dessus de la fosse, seul le risque de mobilisation des métaux par la battement de la nappe est retenu pour le risque résiduel.
+
+15l0l0	comblement_de_la_fosse	N
+15l0l1	l__installation_d_	N
+15l0l2	battement	N
+15l0l3	la_nappe	O
+15l1l0	polluants	U
+15l1l1	éléments_traces_métalliques	S
+15l1l2	métaux	S
+
+#La surveillance piézométrique est donc maintenue afin de suivre l'éventuelle mobilité des polluants.
+
+16l0l0	La_surveillance_piézométrique	A
+16l1l0	des_polluants	U
+
+#II/ Suivi piézométrique :
+
+
+#Du fait de son activité de traitement de surface, un suivi de la nappe souterraine est réalisé depuis 2006.
+
+18l0l0	son_activité_de_traitement_de_surface	A
+18l0l1	un_suivi_de_la_nappe_souterraine	A
+18l0l2	est_réalisé	N
+18l0l3	depuis_2006__	T
+
+#Cette surveillance à été renforcée en 2009, suite aux conclusions des diagnostics des sols de 2008.
+
+19l0l0	Cette_surveillance	A
+19l0l1	à_été_renforcée	N
+19l0l2	en_2009__	T
+19l0l3	suite_aux	R
+19l0l4	conclusions	O
+19l0l5	des_diagnostics	N
+19l0l6	des_sols	N
+19l0l7	de_2008__	T
+
+#Les résultats de février 2009 à mars 2012 mettent en évidence :
+
+20l0l0	Les_résultats_de	N
+20l0l1	février_2009_à_mars_2012	T
+
+#- Nickel :
+
+21l1l0	Nickel	S
+
+#* après la dépollution, les concentrations ont diminuée progressivement dans l'un des deux piézomètre de contrôle ;
+
+22l0l0	après_la_dépollution	N
+22l0l1	ont_diminuée_progressivement	N
+
+#* en revanche, les concentrations fluctuent dans le deuxième piézomètre de contrôle, tout en restant inférieures aux seuils réglementaires.
+
+
+#- Chrome total : les concentrations sont inférieures aux valeurs réglementaires malgré des pics ponctuels.
+
+24l1l0	Chrome_total	S
+
+#- Chrome VI : les concentrations sont inférieures aux valeurs réglementaires
+
+25l1l0	Chrome_VI	S
+
+#Suivant ces résultats, le suivi de la pollution a été allégée à une fréquence semestrielle à compter de juin 2011.
+
+26l0l0	suivi_de_la_pollution	O
+26l0l1	a_été_allégée	N
+26l0l2	une_fréquence	O
+26l0l3	compter_de_juin_2011__	T
+
+#Les analyses de 2013 à 2015 confirment l'absence en chrome total et en chrome hexavalent sur l'ensemble des piézomètres.
+
+27l0l0	Les_analyses	N
+27l0l1	de_2013_à_2015	T
+27l0l2	chrome_hexavalent	O
+27l1l0	chrome_total	S
+27l1l1	chrome_hexavalent	S
+
+#Le nickel est présent dans deux piézomètres (avec une anomalie très légère en 2015 et inférieure aux valeurs limites).
+
+28l0l0	en_2015	T
+28l1l0	Le_nickel	S
+
+#Il faut noter que lors de la cessation définitive de l'activité, la présence de la pollution résiduelle devra être prise en compte et des restrictions d'usage seront éventuellement proposées.
+
+29l0l0	lors_de	R
+29l0l1	la_cessation_définitive	N
+29l0l2	l__activité	N

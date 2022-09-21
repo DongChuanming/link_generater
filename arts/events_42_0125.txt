@@ -1,0 +1,557 @@
+
+#42.0125
+#Avant 1985, le site était occupé par les établissements Veuve Denis et Fils, qui exploitait déjà un atelier de traitement de surface.
+
+0l0l0	Avant_1985	T
+0l0l1	le_site	O
+0l0l2	était_occupé_par	R
+0l0l3	les_établissements_Veuve_Denis_et_Fils	O
+0l0l4	exploitait_déjà	R
+0l0l5	un_atelier_de	O
+0l0l6	traitement_de_surface	A
+0l1l0	les_établissements_Veuve_Denis	I
+
+#Cet établissement était autorisé à exploiter par arrêté préfectoral du 02/04/1982.
+
+1l0l0	Cet_établissement	O
+1l0l1	était_autorisé_à_exploiter	N
+1l0l2	par_arrêté_préfectoral	O
+1l0l3	du_02_04_1982__	T
+
+#En 1985, la société DUBOEUF rachète l'établissement par acte notarié du 02/07/1985, alors que les établissements Veuve Denis et Fils sont mis en liquidation.
+
+2l0l0	En_1985	T
+2l0l1	la_société_DUBOEUF	O
+2l0l2	rachète	N
+2l0l3	l__établissement_par	O
+2l0l4	acte_notarié	N
+2l0l5	du_02_07_1985	T
+2l0l6	les_établissements_Veuve_Denis_et_Fils	O
+2l1l0	la_société_DUBOEUF	I
+
+#La société DUBOEUF y poursuit la même activité.
+
+3l0l0	La_société_DUBOEUF	O
+3l1l0	La_société_DUBOEUF	I
+
+#En 1986, la société DUBOEUF déclare à la Préfecture de la Loire le changement d'exploitant.
+
+4l0l0	En_1986	T
+4l0l1	la_société_DUBOEUF	O
+4l0l2	déclare	N
+4l0l3	la_Préfecture_de_la_Loire	O
+4l0l4	le_changement_d_	N
+4l0l5	exploitant	O
+4l1l0	la_société_DUBOEUF	I
+
+#Le 21/05/1990, un arrêté préfectoral d'autorisation d'exploiter est émis par la Préfecture de la Loire pour la poursuite d'activité de la société DUBOEUF.
+
+5l0l0	Le_21_05_1990	T
+5l0l1	un_arrêté_préfectoral_d__autorisation_d__exploiter	O
+5l0l2	est_émis_par	R
+5l0l3	la_Préfecture_de_la_Loire	O
+5l0l4	la_poursuite_d__activité	A
+5l0l5	la_société_DUBOEUF	O
+5l1l0	la_Préfecture_de_la_Loire	I
+5l1l1	la_société_DUBOEUF	I
+
+#Il remplace celui du 02/04/1982.
+
+6l0l0	02_04_1982__	T
+
+#La société DUBOEUF est une entreprise de traitement de surface et de travail mécanique des métaux.
+
+7l0l0	La_société_DUBOEUF	O
+7l0l1	une_entreprise_de	O
+7l0l2	traitement_de_surface	A
+7l0l3	travail_mécanique_des_métaux	A
+7l1l0	La_société_DUBOEUF	I
+
+#Elle relève de la législation sur les ICPE, sous le régime de l'autorisation pour la rubrique 2565.
+
+8l0l0	Elle	O
+8l0l1	relève_de	R
+8l0l2	la_législation_sur_les_ICPE	O
+
+#Le 16/10/2006, un incendie se déclare dans les locaux de la société.
+
+9l0l0	Le_16_10_2006	T
+9l0l1	__un_incendie_se_déclare	N
+9l0l2	dans_les_locaux	L
+9l0l3	la_société	O
+
+#Les activités du site sont sinistrées et mises à l'arrêt.
+
+10l0l0	Les_activités_du_site	O
+10l0l1	sont_sinistrées	N
+10l0l2	mises_à_l__arrêt	N
+
+#Les locaux sont maintenus fermés à clé.
+
+11l0l0	Les_locaux	O
+11l0l1	sont_maintenus	N
+
+#Le 17/06/2008, l'inspection reçoit d'un dossier de cessation d'activité effectué par Galtier expertise environnement et une étude de sols.
+
+12l0l0	Le_17_06_2008	T
+12l0l1	cessation	N
+12l0l2	d__activité	O
+12l0l3	effectué	N
+12l0l4	par_Galtier_expertise_environnement	O
+12l0l5	une_étude_de_sols	N
+
+#Le site est implanté à proximité du quartier de Bellevue, au sud-ouest de l'agglomération stéphanoise.
+
+13l0l0	Le_site	O
+13l0l1	est_implanté	R
+13l0l2	à_proximité_du_quartier_de_Bellevue	L
+13l0l3	__au_sud_ouest_de_l__agglomération_stéphanoise	L
+
+#Plus précisément, il dispose de deux accès, l'un au niveau de la rue des verriers et le second dans la rue perpendiculaire de l'Egalerie.
+
+14l0l0	deux_accès	O
+14l0l1	rue_des_verriers	L
+14l0l2	dans_la_rue_perpendiculaire_de_l__Egalerie	L
+
+#Le site représente une superficie globale de 976 m².
+
+15l0l0	Le_site	O
+
+#Les formations géologiques correspondent à des couches sédimentaires datant de l'ère primaire et notamment du Stéphanien et l'Autunien.
+
+
+#Ces formations sont constituées d'un ensemble puissant de schistes, grès et poudingues de teinte de gris comportant à la base de rares et médiocres veines de houille.
+
+
+#Au droit du site, les couches carbonifères ne comportent que des schistes et des grès compacts non aquifères.
+
+18l0l0	Au_droit_du_site	L
+
+#Cependant, des écoulements diffus d'imprégnation d'eaux de pluie à l'intérieur de l'ossature du substratum rocheux, stratifié et de perméabilité variable peuvent toujours engendrer des circulations hydrologiques aléatoires.
+
+19l0l0	imprégnation	A
+
+#Dans son rapport du 20/10/2006, l'inspection considère qu'il y a lieu, d'une part, de réaliser une analyse des causes de cet accident et d'autre part de prendre des prescriptions de mesures conservatoires à savoir l'évacuation des produits présents dans la station d'épuration.
+
+20l0l0	20_10_2006	T
+20l0l1	analyse_des_causes	N
+20l0l2	cet_accident	O
+20l1l0	des_produits_présents	U
+
+#Il s'ensuit l'arrêté préfectoral du 02/11/2006 de prescription d'urgence.
+
+21l0l0	l__arrêté_préfectoral	O
+21l0l1	02_11_2006	T
+21l0l2	de_prescription_d__urgence	O
+
+#En décembre 2007 puis janvier 2008, l'entreprise SECHE procède à l'évacuation et l'élimination de l'ensemble des déchets dangereux et non dangereux restant sur le site.
+
+22l0l0	En_décembre_2007_puis_janvier_2008__	T
+22l0l1	l__entreprise_SECHE	O
+22l0l2	procède_à	R
+22l0l3	l__évacuation	N
+22l0l4	l__élimination	N
+22l0l5	l__ensemble_des	O
+22l0l6	déchets_dangereux	N
+22l1l0	entreprise_SECHE	I
+
+#Le 17/06/2008, l'inspection reçoit d'un dossier de cessation d'activité effectué par Galtier expertise environnement et une étude de sols.
+
+23l0l0	Le_17_06_2008	T
+23l0l1	cessation	N
+23l0l2	d__activité	O
+23l0l3	effectué	N
+23l0l4	par_Galtier_expertise_environnement	O
+23l0l5	une_étude_de_sols	N
+
+#Dans son rapport du 03/03/2011, l'inspection indique qu'elle a contacté M.
+
+24l0l0	03_03_2011	T
+24l0l1	a_contacté	N
+24l0l2	M_	O
+
+#DUBOEUF afin de savoir ce qu'il était advenu de l'installation de traitement de surface qu'il exploitait jusqu'en 2006.
+
+25l0l0	l__installation_de_traitement_de_surface	O
+25l0l1	il_exploitait	O
+25l0l2	jusqu__en_2006__	T
+25l1l0	DUBOEUF	I
+
+#Ce dernier précise avoir cédé le site en vue de la construction d'immeubles d'habitation.
+
+26l0l0	avoir_cédé	N
+26l0l1	le_site	O
+26l0l2	en_vue_de	R
+26l0l3	la_construction_d__immeubles	N
+26l0l4	d__habitation	O
+
+#M.
+
+27l0l0	M_	O
+
+#DUBOEUF a indiqué que le site avait été entièrement réhabilité après « dépollution » et que la vente avait bien eu lieu, le site étant désormais occupé par des habitations.
+
+28l0l0	le_site	O
+28l0l1	avait_été_entièrement_réhabilité	N
+28l0l2	après_____dépollution	N
+28l0l3	que_la_vente_avait_bien_eu_lieu	N
+28l0l4	__le_site	O
+28l0l5	étant_désormais_occupé	R
+28l0l6	par_des_habitations	O
+28l1l0	DUBOEUF	I
+
+#L'inspection s'est donc rendue à l'adresse indiquée et a constaté que les 4 et 6 rue des Verriers sont constitués de petits immeubles d'habitation avec pignon sur rue.
+
+29l0l0	rue_des_Verriers	L
+29l0l1	d__habitation	O
+29l0l2	pignon_sur_rue	L
+
+#Le 8 rue des Verriers est occupé par une allée grillagée et un peu arborée, qui distribue de petits immeubles d'habitation à 5 étages.
+
+30l0l0	Le_8	O
+30l0l1	rue_des_Verriers	L
+30l0l2	grillagée	O
+
+#Il ne reste aucune trace de l'ancienne exploitation industrielle.
+
+31l0l0	exploitation_industrielle	O
+
+#Il ne semble pas que M.
+
+
+#DUBOEUF ait communiqué à la Préfecture ni à l'inspection des installations classées les éléments demandés par courrier du 12 septembre 2007, à savoir :
+
+33l0l0	DUBOEUF	O
+33l0l1	la_Préfecture	O
+33l0l2	12_septembre_2007__	T
+33l1l0	DUBOEUF	I
+33l1l1	la_Préfecture	I
+
+#« Vous êtes tenu de déclarer la cessation d'activité en préfecture et de satisfaire aux articles 34.1 à 34.4 du décret n° 77- 1133 du 21 septembre 1977 pris pour l'application de la loi n° 76-663 du 19 juillet 1976  relative aux Installations Classées pour la Protection de l'Environnement.
+
+34l0l0	de_déclarer_la_cessation_d__activité	N
+34l0l1	du_21_septembre_1977	T
+34l0l2	du_19_juillet_1976	T
+34l0l3	aux_Installations_Classées_pour_la_Protection_de_l__Environnement	O
+
+#J'attire particulièrement votre attention sur le changement d'usage du site.
+
+
+#La parcelle était à usage industriel et deviendrait une habitation, donc à usage sensible.
+
+36l0l0	à_usage_industriel	A
+36l0l1	deviendrait	R
+36l0l2	une_habitation	O
+
+#Le dossier de cessation d'activité devra prendre en compte ce changement d'usage. »
+
+37l0l0	cessation_d_	N
+37l0l1	activité	O
+37l0l2	devra	R
+37l0l3	prendre_en_compte	N
+37l0l4	ce_changement_d_	N
+37l0l5	usage	O
+37l0l6	___	O
+
+#En conséquence, il a été demandé par courrier à l'ancien exploitant de communiquer tous les rapports relatifs à la cessation d'activité :
+
+38l0l0	exploitant	O
+38l0l1	de_communiquer	N
+38l0l2	tous_les_rapports	O
+38l0l3	relatifs_à	R
+38l0l4	la_cessation_d__activité	N
+
+#- bordereaux de suivi de déchets,
+
+
+#- analyses de sols,
+
+
+#- le cas échéant, analyses des eaux souterraines,
+
+
+#- nature des travaux d'excavation réalisés,
+
+42l0l0	travaux_d__excavation_réalisés	N
+
+#- Analyses de bord et de fond de fouilles.
+
+
+#Dans son rapport du 23/03/2011, l'inspection précise qu'au regard des contaminants recherchés, les propositions du prestataire paraissent acceptables compte tenu d'un certain nombre de dispositions constructives et d'aménagement, notamment du décapage du sol et de la couverture par des matières saines au droit du jardin d'agrément.
+
+44l0l0	23_03_2011	T
+44l0l1	décapage_du_sol	N
+44l0l2	couverture_par_des_matières_saines	O
+44l0l3	au_droit_du_jardin_d__agrément	L
+44l1l0	contaminants	S
+
+#Il apparaît enfin indispensable que soient figées dans le temps les mesures de gestion préconisées, par l'élaboration d'un dossier de servitudes à proposer à l'inspection.
+
+45l0l0	figées_dans_le_temps	O
+45l0l1	les_mesures_de_gestion	N
+
+#En particulier :
+
+
+#- le devenir de la cuve de fioul (maintien en place après inertage),
+
+47l0l0	cuve_de_fioul	O
+47l0l1	maintien_en_place	N
+47l0l2	inertage	N
+47l1l0	la_cuve_de	D
+47l1l1	fioul	U
+
+#- le maintien en place des dalles saines,
+
+48l0l0	dalles_saines	O
+
+#- la couverture par une dalle saine et neuve des dalles existantes (lots 1 et 3),
+
+49l0l0	la_couverture	N
+49l0l1	par_une_dalle	O
+
+#- la couverture par des terres saines du jardin d'agrément (lot 2),
+
+50l0l0	couverture_par_des_terres_saines	O
+50l0l1	jardin_d__agrément	O
+
+#sont des dispositions minimales à pérenniser.
+
+
+#Dans son rapport du 08/04/2011 concernant le récolement après travaux, l’inspection des installations classées conclue qu'au regard des contaminants recherchés, les propositions du prestataire ont paru acceptables compte tenu d'un certain nombre de dispositions constructives et d'aménagement, notamment du décapage du sol et de la couverture par des matières saines au droit du jardin d'agrément.
+
+52l0l0	son_rapport	N
+52l0l1	du_08_04_2011	T
+52l0l2	le_récolement	N
+52l0l3	après_travaux	N
+52l0l4	l__inspection_des_installations_classées	O
+52l0l5	les_propositions	O
+52l0l6	décapage_du_sol	N
+52l0l7	couverture_par_des_matières_saines	O
+52l0l8	au_droit_du_jardin_d__agrément	L
+
+#La réserve liée à la non recherche de Composés Organo-Halogénés Volatils, alors qu'il était procédé à une activité de décapage est à lever : le décapage était effectué en bain d'acide chlorhydrique et eau savonneuse.
+
+53l0l0	une_activité_de_décapage	A
+53l0l1	__le_décapage	N
+53l1l0	Composés_Organo___Halogénés_Volatils	S
+53l1l1	d__acide_chlorhydrique	U
+
+#La recherche de COHV dans les sols n'était donc pas pertinente.
+
+54l0l0	La_recherche	A
+54l0l1	COHV	O
+54l1l0	COHV	S
+
+#Selon l'expertise réalisée en juillet 2008, la configuration future des lieux était la suivante :
+
+55l0l0	en_juillet_2008__	T
+55l0l1	la_configuration_future_des_lieux	O
+
+#- lot 1 - contamination aux métaux lourds : une habitation serait aménagée en R+1, une dalle béton en RDC constituant une barrière efficace contre les risques d'ingestion de sols contaminés,
+
+56l0l0	aux_métaux_lourds	O
+56l0l1	____une_habitation	O
+56l0l2	serait_aménagée_en_R_1	N
+56l1l0	aux_métaux_lourds	S
+
+#- lot 2 – contamination aux métaux lourds : la réalisation d'un jardin d'agrément était programmée.
+
+57l0l0	lot_2	O
+57l0l1	métaux_lourds	O
+57l0l2	__la_réalisation_d_	N
+57l0l3	un_jardin_d__agrément	O
+57l0l4	était_programmée	O
+57l1l0	métaux_lourds	S
+
+#La dalle existante devait être détruite, les sols superficiels devaient être décapés sur 45 m², et le remblaiement de la zone devait être réalisé par apport de sols propres,
+
+58l0l0	La_dalle_existante	O
+58l0l1	devait_être_détruite	N
+58l0l2	les_sols_superficiels	O
+58l0l3	devaient_être_décapés	N
+58l0l4	le_remblaiement_de	N
+58l0l5	la_zone	O
+58l0l6	devait	R
+58l0l7	être_réalisé	N
+58l0l8	apport_de_sols	N
+
+#- Lot 3 – Présence d'une cuve de fuel enterrée : elle devait être vidée, dégazée et inertée.
+
+59l0l0	une_cuve_de_fuel_enterrée	O
+59l0l1	__elle	O
+59l0l2	devait_être_vidée	N
+59l0l3	__dégazée_et_inertée	N
+59l1l0	cuve_de	D
+59l1l1	fuel	U
+59l1l2	et_inertée	D
+
+#Ensemble du site : la station d'épuration de l'atelier et les anciens réseaux d'assainissement du site ont été condamnés et démantelés
+
+60l0l0	__la_station_d__épuration	O
+60l0l1	de_l__atelier	O
+60l0l2	et_les_anciens_réseaux_d__assainissement_du_site	O
+60l0l3	ont_été_condamnés_et_démantelés	N
+
+#Dans la pratique, 2 expertises contradictoires réalisées les 17 et 18 novembre 2008 au profit d'une part de M.
+
+61l0l0	2_expertises	N
+61l0l1	réalisées	N
+61l0l2	les_17_et_18_novembre_2008	T
+61l0l3	au_profit_d_	R
+61l0l4	une	O
+61l0l5	M_	O
+
+#DUBOEUF, d'autre part des deux acquéreurs, ont fait apparaître les constats suivants :
+
+62l0l0	deux_acquéreurs	O
+62l1l0	DUBOEUF	I
+
+#- le jardin prévu sur le lot 2 a été supprimé du projet de réhabilitation.
+
+63l0l0	le_jardin	O
+63l0l1	a_été_supprimé	N
+63l0l2	projet	R
+63l0l3	de_réhabilitation	N
+
+#La dalle et la terre ont été décapées dans les dimensions suivantes : 6,6 x 7 x 0,6 m,
+
+64l0l0	La	O
+64l0l1	la_terre	O
+64l0l2	ont_été_décapées	N
+
+#- deux lofts ont été aménagés sur les lots 1 et 2,
+
+65l0l0	deux_lofts	O
+65l0l1	ont_été_aménagés	N
+
+#- un commerce en RDC et un appartement en R+1 sont prévus sur le lot 3.
+
+66l0l0	un_commerce	O
+66l0l1	un_appartement	O
+
+#Des gravats inertes ont été rapportés pour régaler le sol au droit de ce tènement,
+
+67l0l0	Des_gravats	O
+67l0l1	ont_été_rapportés	N
+67l0l2	au_droit_de_ce_tènement	N
+
+#- l'ensemble du site est couvert d'une dalle,
+
+
+#- les passages entre les lots ont été murés avec des parpaings, la cuve de fuel a été vidangée, dégazée et inertée avec du sable.
+
+69l0l0	les_passages_entre_les_lots	O
+69l0l1	ont_été_murés	N
+69l0l2	avec_des_parpaings	O
+69l0l3	la_cuve_de_fuel	O
+69l0l4	a_été_vidangée	N
+69l0l5	dégazée_et	N
+69l0l6	inertée_avec_du_sable	O
+69l1l0	la_cuve	D
+69l1l1	de_fuel	U
+69l1l2	inertée	D
+
+#Un constat d'huissier a ensuite été établi, qui précise que :
+
+70l0l0	Un_constat_d__huissier_a_ensuite_été_établi	N
+
+#- l'ensemble des déchets présents sur le site ont été évacués,
+
+71l0l0	ont_été_évacués	N
+
+#- une dalle béton spécial mesurée à 10 à 15 cm de type C25/30 « avec fibre SIKA CRASTOP 12 mm Plastiment 23 » recouvre les sols du tènement,
+
+72l0l0	une_dalle_béton_spécial	O
+72l0l1	recouvre_les_sols_du_tènement	O
+72l1l0	__avec_fibre_SIKA_CRASTOP	I
+
+#- une canalisation orientée est/ouest a été réalisée,
+
+73l0l0	une_canalisation	O
+73l0l1	orientée_est___ouest	L
+73l0l2	a_été_réalisée	N
+
+#- une ouverture de 1x1 m donnant sur la rue des Verriers permet d'accéder aux différents réseaux : gaines électriques, évacuations d'eaux usées et d'eaux pluviales, téléphone, arrivée gaz.
+
+74l0l0	donnant_sur	R
+74l0l1	la_rue_des_Verriers	L
+
+#Le constat de l'inspection est le suivant :
+
+
+#- 2 bâtiments jumeaux sur pilotis (1,7 m environ) sont construits sur les lots 1 et 2.
+
+76l0l0	construits	N
+76l0l1	sur_les_lots	L
+
+#Les habitations sont donc protégées d'éventuels risques par la dalle béton présente au sol, le vide créé par les pilotis, et la dalle de sol des lofts,
+
+77l0l0	Les_habitations	O
+
+#- 1 appartement est présent sur le lot 3, qui ne présentait pas de risque particulier.
+
+78l0l0	ne_présentait_pas_de_risque	N
+
+#La société DUBOEUF a réalisé les travaux d'excavation et de confinement pour permettre la réalisation d'un tènement immobilier destiné au logement en R+1 et à la création d'un petit jardin d'agrément ; les aménagements tels que réalisés par les nouveaux propriétaires diffèrent quelque peu du projet initial, sans que cela remette en cause la pertinence du traitement du site tel qu'il était prévu : inertage de la cuve de fuel, décapage de la zone polluée aux hydrocarbures, couverture du site par une dalle béton, absence d'habitations au niveau RDC.
+
+79l0l0	La_société_DUBOEUF	O
+79l0l1	a_réalisé_les_travaux_d__excavation	N
+79l0l2	confinement	O
+79l0l3	pour	R
+79l0l4	permettre_la_réalisation_d_	N
+79l0l5	un_tènement	O
+79l0l6	la_création	N
+79l0l7	d_	R
+79l0l8	un_petit_jardin_d__agrément	O
+79l0l9	par_les_nouveaux_propriétaires	O
+79l0l10	____inertage	N
+79l0l11	de_la_cuve_de_fuel	O
+79l0l12	__décapage	N
+79l0l13	de_la_zone_polluée_aux_hydrocarbures	O
+79l0l14	__couverture_du_site	N
+79l0l15	par_une_dalle_béton	O
+79l1l0	La_société_DUBOEUF	I
+79l1l1	de_la_cuve	D
+79l1l2	de_fuel	U
+79l1l3	aux_hydrocarbures	S
+
+#Il est donc proposé de donner acte à la société DUBOEUF de la bonne réalisation des travaux programmés.
+
+80l0l0	donner_acte	O
+80l0l1	la_société_DUBOEUF	O
+80l0l2	la_bonne_réalisation_des_travaux_programmés	N
+80l1l0	la_société_DUBOEUF	I
+
+#Compte tenu du faible risque résiduel, et contrairement à la proposition établie en conclusion du rapport de l'inspection en date du 23 mars 2011, il n'apparaît pas nécessaire de gréver le tènement de servitudes particulières.
+
+81l0l0	l__inspection	O
+81l0l1	en_date_du_23_mars_2011__	T
+81l0l2	il_n__apparaît_pas_nécessaire	O
+81l0l3	de_gréver	N
+81l0l4	le_tènement	O
+
+#Il devra être rappelé à l'ancien exploitant (Ets DUBOEUF – 45 rue de la Chataignère – 42000 – SAINT ETIENNE) que, conformément à l'article R.512.39-4 du code de l'environnement « à tout moment, même après remise en état du site, le préfet peut imposé à l'exploitant... les prescriptions nécessaires à la protection des intérêts visés à l'article L.511.1 ».
+
+82l0l0	l__ancien_exploitant	O
+82l0l1	Ets_DUBOEUF	O
+82l0l2	rue_de_la_Chataignère___42000___SAINT_ETIENNE	L
+82l0l3	__le_préfet	O
+82l0l4	peut_imposé	N
+82l0l5	à_l__exploitant	O
+82l1l0	__Ets_DUBOEUF	I
+82l1l1	Chataignère	I
+82l1l2	SAINT_ETIENNE	I
+82l1l3	__le_préfet	I
+
+#Le 23/09/2011, la préfecture a émis un récépissé de notification de fin d'exploitation (Art.
+
+83l0l0	Le_23_09_2011	T
+83l0l1	la_préfecture	O
+83l0l2	a_émis	N
+83l0l3	un_récépissé	O
+83l0l4	fin_d__exploitation	N
+83l1l0	la_préfecture	I
+
+#R. 512-39-1).
+

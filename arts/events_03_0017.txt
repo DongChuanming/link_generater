@@ -1,0 +1,128 @@
+
+#03.0017
+#Le site de Moulins Hoche a accueilli une usine fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	Le_site	O
+0l0l1	Moulins_Hoche	O
+0l0l2	a_accueilli	N
+0l0l3	une_usine	O
+0l0l4	fabriquant_du_gaz	A
+0l0l5	à_partir_de	R
+0l0l6	la_distillation_de_la_houille	A
+
+#Il est situé en pleine agglomération et est entouré d'habitations individuelles.
+
+1l0l0	situé_en_pleine_agglomération	L
+1l0l1	est	N
+1l0l2	entouré_d__habitations	L
+
+#Actuellement, il est utilisé pour les besoins des entreprises EDF et Gaz de France.
+
+2l1l0	des_entreprises_EDF	I
+2l1l1	Gaz_de_France	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+3l0l0	Gaz_de_France	O
+3l0l1	a_hiérarchisé	N
+3l0l2	ses_actions	O
+3l0l3	467_sites	O
+3l1l0	Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement  (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site...).
+
+4l0l0	hiérarchiser	N
+4l0l1	les_sites	O
+4l0l2	en_fonction_de	R
+4l0l3	leur_sensibilité	O
+4l0l4	vis_à_vis_de	R
+4l0l5	l__environnement	O
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+5l0l0	L__application	N
+5l0l1	cette_méthode	O
+5l0l2	a_abouti_à	R
+5l0l3	l__établissement	N
+5l0l4	5_classes_de_priorité	O
+5l0l5	les_engagements	O
+5l0l6	Gaz_de_France	O
+5l0l7	ont_fait_l__objet_d_	R
+5l0l8	un_protocole_d__accord	O
+5l0l9	relatif_à	R
+5l0l10	la_maîtrise	O
+5l0l11	suivi	O
+5l0l12	la_réhabilitation	N
+5l0l13	anciens_terrains_d__usines_à_gaz	O
+5l0l14	entre	R
+5l0l15	le_Ministère_de_l__Environnement	O
+5l0l16	Gaz_de_France	O
+5l0l17	signé	N
+5l0l18	le_25_avril_1996	T
+5l1l0	Gaz_de_France	I
+5l1l1	le_Ministère_de_l__Environnement	I
+5l1l2	Gaz_de_France	I
+
+#Le site de Moulins Hoche est en classe 3 du protocole.
+
+6l0l0	Le_site_de_Moulins_Hoche	O
+
+#De ce fait, c'est un site dont la sensibilité vis à vis de l'homme, des eaux souterraines et superficielles est faible.
+
+
+#En novembre 2003, des investigations dans les sols ont mis en évidence la présence d'une cuve maçonnée enterrée de 130 m2, contenant des goudrons.
+
+8l0l0	En_novembre_2003__	T
+8l0l1	des_investigations	N
+8l0l2	dans_les_sols	N
+8l0l3	ont_mis_en_évidence	R
+8l0l4	la_présence_d_	O
+8l0l5	une_cuve	O
+8l1l0	une_cuve	D
+8l1l1	goudrons	U
+
+#En mars et avril 2004, des travaux de mise en sécurité ont été mis en oeuvre, ils ont consisté à ouvrir la fosse, extraire les goudrons, les gravats et eaux souillées.
+
+9l0l0	En_mars_et_avril_2004__	T
+9l0l1	des_travaux_de_mise_en_sécurité	N
+9l0l2	ont_été_mis_en_oeuvre	N
+9l0l3	ouvrir	N
+9l0l4	la_fosse	O
+9l0l5	extraire	N
+9l0l6	les_goudrons	O
+9l0l7	gravats	N
+9l0l8	eaux_souillées	O
+
+#Au total, 645 tonnes de matériaux souillés ont été traités.
+
+10l0l0	645_tonnes_de_matériaux_souillés	O
+10l0l1	ont_été_traités	N
+
+#La fosse a ensuite été nettoyée et remblayée avec des matériaux sains et revêtue d'un enrobé pour un usage de parking.
+
+11l0l0	La_fosse	O
+11l0l1	a_ensuite_été_nettoyée	N
+11l0l2	remblayée	N
+11l0l3	avec_des	N
+11l0l4	matériaux_sains	O
+11l0l5	revêtue_d__un_enrobé	N
+11l0l6	un	N
+11l0l7	usage_de_parking	L
+
+#Le site ne fait l'objet d'aucune surveillance des eaux souterraines.
+
+12l0l0	Le_site	O
+
+#Compte tenu de l'activité historique et de la présence d'une fosse à goudrons, des investigations et vérifications sur la compatibilité sanitaire du site seront nécessaire dans le cas d'une cession ou d'un changement d'usage de type résidentiel.
+
+13l0l0	fosse_à_goudrons	O
+13l0l1	des_investigations	N
+13l0l2	vérifications	N
+13l0l3	le_cas_d_	R
+13l0l4	une_cession	N
+13l0l5	d__un_changement_d__usage	N
+13l0l6	de_type_résidentiel	A
+
+#En l'absence de restrictions d'usage imposées par arrêté préfectoral, il convient de répertorier ce site dans le dispositif sur les Secteurs d'Information des Sols introduit par l'article L.125-6 du code de l'environnement.
+
+14l0l0	ce_site	O

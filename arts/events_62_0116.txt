@@ -1,0 +1,131 @@
+
+#62.0116
+#- La société SARBOIS a été créée en 1950.
+
+0l0l0	La_société_SARBOIS	O
+0l0l1	a_été_créée	N
+0l0l2	en_1950__	T
+0l1l0	La_société_SARBOIS	I
+
+#Entreprise installée sur un terrain de 6500m².
+
+1l0l0	Entreprise	O
+1l0l1	installée_sur	N
+1l0l2	un_terrain	O
+1l0l3	6500_m²__	O
+
+#- L'activité de la société PINAULT SARBOIS puis PANOFRANCE est essentiellement une activité de négoce portant sur le bois et les matériaux divers (contreplaqué, aggloméré, polystyrène, laine de verre, ...)
+
+2l0l0	la_société_PINAULT_SARBOIS	O
+2l0l1	PANOFRANCE	O
+2l0l2	une_activité_de_négoce	A
+2l0l3	portant_sur	R
+2l0l4	le_bois_et_les_matériaux_divers	A
+2l1l0	la_société_PINAULT_SARBOIS_puis_PANOFRANCE	I
+2l1l1	contreplaqué	S
+2l1l2	polystyrène	S
+2l1l3	laine_de_verre	U
+
+#- Outre cette activité purement commerciale et pour répondre à la demande de la clientèle, la société a installé sur le site une scie à panneau, une scie à ruban, et un bac de traitement du bois de charpente.
+
+3l0l0	la_société	O
+3l0l1	a_installé	N
+3l0l2	site_une_scie_à_panneau	O
+3l0l3	scie_à_ruban	A
+3l0l4	un_bac_de	O
+3l0l5	traitement_du_bois_de_charpente	A
+
+#- Changement d'entité juridique: PANOFRANCE devient WOSELEY FRANCE BOIS ET MATERIAUX en 2010 (récépissé du 17/11/2011).
+
+4l0l0	entité_juridique	O
+4l0l1	PANOFRANCE	O
+4l0l2	devient	R
+4l0l3	WOSELEY_FRANCE_BOIS_ET_MATERIAUX	O
+4l0l4	en_2010	T
+4l0l5	récépissé	O
+4l0l6	17_11_2011____	T
+4l1l0	PANOFRANCE	I
+4l1l1	WOSELEY_FRANCE_BOIS_ET_MATERIAUX	I
+
+#- L'arrêté du 3 août 2001 élargit le champ d'application de l'article 65 de l'arrêté ministériel du 2 février 1998 à certains secteurs d'activités dits "sensibles" dont font partie les installations de mise en œuvre de produits de préservation du bois et matériaux dérivés visées par la rubrique 2415 de la nomenclature des installations classées pour la protection de l'environnement (surveillance piézométrique).
+
+5l0l0	3_août_2001	T
+5l0l1	élargit_le_champ_d_	N
+5l0l2	l__arrêté_ministériel	O
+5l0l3	2_février_1998	T
+5l0l4	certains_secteurs_d__activités_dits	O
+5l0l5	installations_de_mise_en_œuvre_de_produits_de_préservation_du_bois_et_matériaux_dérivés_visées	A
+5l0l6	surveillance_piézométrique	O
+
+#- Suite aux résultats de l'étude hydrogéologique réalisée en mai 2003,   un arrêté préfectoral en date du 26/03/2003 impose la constitution d'un réseau piézométrique.
+
+6l0l0	étude_hydrogéologique_réalisée	N
+6l0l1	en_mai_2003__	T
+6l0l2	__un_arrêté_préfectoral	O
+6l0l3	en_date_du_26_03_2003	T
+6l0l4	impose_la_constitution	N
+6l0l5	d__un_réseau_piézométrique	O
+
+#- Trois piézomètres ont été mis en place en limite de propriété du site en mars 2005.
+
+7l0l0	Trois_piézomètres	O
+7l0l1	ont_été_mis_en_place	N
+7l0l2	en_limite_de_propriété_du_site	L
+7l0l3	en_mars_2005__	T
+
+#- Depuis le début du suivi de la nappe (mars2005) des teneurs en pesticides dissous ont été observés au droit des trois ouvrages suivis mettant en évidence des dépassements des valeurs réglementaires associées.
+
+8l0l0	Depuis_le_début	T
+8l0l1	du_suivi	N
+8l0l2	la_nappe	O
+8l0l3	__mars2005	T
+8l0l4	ont_été_observés	N
+8l0l5	au_droit_des	L
+8l0l6	trois_ouvrages_suivis	O
+8l1l0	pesticides	S
+
+#La campagne de surveillance de la qualité de la nappe effectuée en octobre 2007 a mis en évidence la présence de propiconazole et de tébuconazole, de tensioactifs anioniques et de cyperméthrine dissoute.
+
+9l0l0	La_campagne_de_surveillance	N
+9l0l1	la_qualité_de_la_nappe	O
+9l0l2	effectuée	N
+9l0l3	en_octobre_2007	T
+9l0l4	a_mis_en_évidence	R
+9l0l5	la_présence	O
+9l1l0	propiconazole	S
+9l1l1	tébuconazole	S
+9l1l2	tensioactifs_anioniques	S
+9l1l3	cyperméthrine	S
+
+#Il faut donc poursuivre le suivi de la qualité des eaux souterraines.
+
+10l0l0	poursuivre	O
+10l0l1	le_suivi_de_la_qualité_des_eaux_souterraines	A
+
+#- Mise aux normes du réseau piézométrique conformément à l'APMD du 09/08/2010 réalisé en 2011. (ajout d'un piézomètre et surélévation des têtes de piézomètres).
+
+11l0l0	Mise_aux_normes	N
+11l0l1	réseau_piézométrique	O
+11l0l2	conformément_à	R
+11l0l3	l_	O
+11l0l4	09_08_2010	T
+11l0l5	réalisé	N
+11l0l6	en_2011__	T
+11l0l7	ajout_d__un_piézomètre	N
+11l0l8	surélévation_des_têtes_de_piézomètres	N
+
+#- Les eaux souterraines sont utilisées dans le secteur pour un usage AEP (Adduction d'Eau Potable).
+
+12l0l0	Les_eaux_souterraines	O
+12l0l1	sont_utilisées	N
+12l0l2	un_usage_AEP	A
+
+#- Transmission régulière de l’autosurveillance.
+
+
+#- Le site est en sécurité vis-à-vis des tiers.
+
+
+#- Action de l’administration toujours en cours.
+
+15l0l0	l__administration	O

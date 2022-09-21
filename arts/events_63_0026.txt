@@ -1,0 +1,145 @@
+
+#63.0026
+#L'entreprise TBI est implantée à Chignat, commune de Vertaizon, à la sortie du bourg, le long de la D10.
+
+0l0l0	L__entreprise_TBI	O
+0l0l1	est_implantée	N
+0l0l2	à_Chignat___commune_de_Vertaizon	L
+0l0l3	à_la_sortie_du_bourg	L
+0l0l4	le_long_de_la_D10	L
+0l1l0	TBI	I
+
+#Qelques maisons d'habitation et des champs cultivés sont situés proches du site.
+
+1l0l0	des_champs_cultivés	A
+1l0l1	sont_situés_proches_du_site	L
+
+#Les bâtiments de l'entreprise sont relativement anciens, ils ont été construits à des époques différentes, au gré des nécessités des productions des diverses sociétés qui se sont succédées sur le site.
+
+2l0l0	Les_bâtiments	O
+2l0l1	ont_été_construits	N
+2l0l2	à	R
+2l0l3	des_époques	N
+
+#L'activité de la chimie du caoutchouc (100 personnes) a débuté avec la fabrication d'éléments pour la SNCF, une fabrique de ballons (PCC) y a ensuite exercé ses activités jusqu'en 1970.
+
+3l0l0	L__activité_de_la_chimie_du_caoutchouc	A
+3l0l1	a_débuté	N
+3l0l2	la_fabrication_d__éléments_pour	R
+3l0l3	la_SNCF	O
+3l0l4	une_fabrique_de_ballons	O
+3l0l5	a_ensuite_exercé_ses_activités	N
+3l0l6	jusqu__en_1970	T
+
+#La société ENODIM de 1979 à 1989 puis TBI  à partir de 1990 ont développé des activités liées à la fabrication de matières plastiques et à la formulation de produits chimiques.
+
+4l0l0	La_société_ENODIM	O
+4l0l1	de_1979_à_1989	T
+4l0l2	TBI	O
+4l0l3	__à_partir_de_1990	T
+4l0l4	ont_développé	R
+4l0l5	des_activités	A
+4l0l6	liées	R
+4l0l7	à_la_fabrication_de_matières_plastiques	A
+4l0l8	et_à_la_formulation_de_produits_chimiques	A
+4l1l0	La_société_ENODIM	I
+4l1l1	TBI	I
+
+#Les bâtiments sont construits sur un terrain faiblement pentu, une nappe non  exploitée circule sous le site, son toit est à une quinzaine de mètres du sol.
+
+5l0l0	Les_bâtiments	O
+5l0l1	sont_construits_sur_un_terrain_faiblement_pentu	N
+5l0l2	sous_le_site	O
+
+#Un effluent de l'Allier coule à 500 m, en contrebas du site.
+
+6l0l0	Un_effluent	O
+6l0l1	l__Allier	L
+6l0l2	à_500_m___en_contrebas_du_site	L
+
+#L'attention de l'administration a été attirée à l'occasion d'une visite de contrôle du 21/08/2002 par la quantité importante de déchets (40 tonnes), produits chimiques et matériaux divers entreposés sur le site, soit à l'air libre, soit dans des bâtiments.
+
+7l0l0	L__attention	O
+7l0l1	l__occasion_d_	R
+7l0l2	une_visite_de_contrôle	N
+7l0l3	21_08_2002	T
+7l1l0	déchets	U
+7l1l1	produits_chimiques	U
+
+#Ces matériaux provenaient de fabrications abandonnées.
+
+8l0l0	Ces_matériaux	O
+8l0l1	fabrications_abandonnées	N
+
+#Compte tenu de leurs conditions de stockage(absence de rétention, états des emballages...) et de l'importance des volumes, la DRIRE a demandé après inventaire, l'enlèvement en vue de leur traitement selon des filières spécialisées, de tous les déchets présents sur le site.
+
+9l0l0	la_DRIRE	O
+9l0l1	a_demandé	N
+9l0l2	l__enlèvement	N
+9l1l0	la_DRIRE	I
+9l1l1	les_déchets	U
+
+#Un arrêté préfectoral de mise en demeure du 28/08/2002 a prescrit, outre l'enlèvement des déchets, la production d'un diagnostic initial et d'une évaluation simplifiée des risques(ESR).
+
+10l0l0	Un_arrêté_préfectoral_de_mise_en_demeure	O
+10l0l1	28_08_2002	T
+10l0l2	a_prescrit	N
+10l0l3	l__enlèvement_des_déchets	O
+10l0l4	la	O
+10l0l5	production_d__un_diagnostic_initial	N
+10l0l6	d__une_évaluation_simplifiée_des_risques_ESR	N
+
+#La régularisation des activités encore exercées sur le site a également été demandée.
+
+11l0l0	activités_encore_exercées	N
+11l0l1	le_site	O
+11l0l2	a_également_été_demandée	N
+
+#Les déchets accumulés par les entreprises qui se sont succédées, ont été dans leur grande majorité enlevés, l'étude des sols a mis en évidence des zones touchées par des pollutions (hydrocarbures et métaux lourds) dues aux différents stockages.
+
+12l0l0	les_entreprises	O
+12l0l1	ont_été_dans_leur_grande_majorité_enlevés	N
+12l0l2	des_zones_touchées	O
+12l0l3	par	R
+12l0l4	des_pollutions	O
+12l1l0	hydrocarbures	S
+12l1l1	métaux_lourds	S
+
+#Des travaux de dépollution ont été engagés durant l'été 2003 (enlèvement des derniers déchets et excavation de terres en vu d'un traitement biologique in situ et en centre d'enfouissement technique).
+
+13l0l0	Des_travaux_de_dépollution	N
+13l0l1	ont_été_engagés	N
+13l0l2	durant_l__été_2003	T
+13l0l3	enlèvement_des_derniers_déchets	N
+13l0l4	excavation_de_terres	N
+13l0l5	en_vu_d_	R
+13l0l6	un_traitement_biologique	N
+
+#Le site a été rangé en classe 2 au regard de la méthodologie nationale de gestion de sites et sols (potentiellement)pollués.
+
+14l0l0	Le_site	O
+14l0l1	a_été_rangé_en	N
+
+#Des piézomètres ont été implantés(2)mais il s'avère qu'une couche d'argile importante(10 m)à partir de 1 m de profondeur évite tout transfert de pollution vers la nappe alluviale; il n'y a pas(ou peu) de communication entre les eaux souterraines et cette nappe.
+
+15l0l0	ont_été_implantés_2_mais	N
+
+#Un suivi piézométrique n'apparait pas nécessaire compte tenu de l'absence d'impact des zones polluées sur les eaux souterraines.
+
+16l0l0	zones_polluées	O
+
+#Le rapport de fin de travaux définitif a été fourni à la DRIRE le 29/09/2003.
+
+17l0l0	Le_rapport_de_fin_de_travaux_définitif	O
+17l0l1	a_été_fourni	N
+17l0l2	la_DRIRE	O
+17l0l3	le_29_09_2003	T
+17l1l0	la_DRIRE	I
+
+#Un récépissé de déclaration de cessation d'activité a été délivré le 21 septembre 2010.
+
+18l0l0	Un_récépissé	O
+18l0l1	déclaration	N
+18l0l2	cessation_d__activité	N
+18l0l3	a_été_délivré	N
+18l0l4	le_21_septembre_2010__	T

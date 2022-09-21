@@ -1,0 +1,86 @@
+
+#73.0100
+#Le site est occupé par un entrepôt et un atelier de réparation de véhicules lourds.
+
+0l0l0	Le_site	O
+0l0l1	est_occupé_par	R
+0l0l2	un_entrepôt	O
+0l0l3	un_atelier_de_réparation_de_véhicules_lourds	O
+
+#Il existait sur le site une fosse contenant un réservoir de stockage d'huiles usagées.
+
+1l0l0	une_fosse	O
+1l0l1	huiles_usagées	O
+1l1l0	huiles_usagées	U
+
+#Le site est en activité.
+
+2l0l0	Le_site	O
+2l0l1	est_en_activité	N
+
+#Le débordement de la citerne de stockage d'huiles usagées, constaté en juin 2006 au cours de travaux de mise en place d'un séparateur d'hydrocarbures, a provoqué une pollution des sols et des eaux souterraines.
+
+3l0l0	Le_débordement	N
+3l0l1	la_citerne_de_stockage	O
+3l0l2	huiles_usagées	O
+3l0l3	en_juin_2006	T
+3l0l4	au_cours	R
+3l0l5	de_travaux_de_mise_en_place_d__un	N
+3l0l6	séparateur_d__hydrocarbures	O
+3l0l7	a_provoqué_une_pollution	N
+3l0l8	sols	O
+3l1l0	stockage_d__huiles_usagées	U
+3l1l1	hydrocarbures	S
+
+#Les installations sont situées dans le périmètre éloigné du puits d'alimentation en eau potable des Iles.
+
+4l0l0	Les_installations	O
+4l0l1	sont_situées_dans_le_périmètre_éloigné_du_puits_d_	L
+4l0l2	alimentation_en_eau_potable	A
+4l0l3	des_Iles	L
+
+#Le puits est situé au sud, en amont hydraulique du site.
+
+5l0l0	Le_puits	O
+5l0l1	est_situé_au_sud___en_amont_hydraulique_du_site	L
+
+#Une récupération sélective des huiles flottantes, mise en place en décembre 2006, par un écremeur à bande oléophile et par un pompage au point bas de la fouille, a permis la récupération d'environ 1300 L d'huile.
+
+6l0l0	huiles_flottantes	O
+6l0l1	mise_en_place	N
+6l0l2	en_décembre_2006__	T
+6l0l3	un_pompage	A
+6l0l4	au_point_bas_de_la_fouille	L
+6l0l5	1300_L_d__huile	O
+6l1l0	huiles_flottantes	U
+
+#Depuis février 2007 la récupération a été faible au niveau de la source et nulle en aval.
+
+7l0l0	Depuis_février_2007	T
+
+#L'absence d'hydrocarbures a été constatée dans les piézomètres amont et aval en avril 2007.
+
+8l0l0	hydrocarbures	O
+8l0l1	a_été_constatée	N
+8l0l2	en_avril_2007__	T
+8l1l0	hydrocarbures	S
+
+#Les terres polluées résiduelles sont confinées sous le bâtiment.
+
+9l0l0	Les_terres_polluées	O
+9l0l1	confinées	N
+9l0l2	sous_le_bâtiment	L
+
+#Le site fait l'objet d'un suivi piézométrique.
+
+10l0l0	Le_site	O
+10l0l1	fait_l__objet_d_	R
+10l0l2	un	N
+10l0l3	suivi_piézométrique	A
+
+#Les résultats d'analyses des prélèvements réalisés en 2009 et 2010 montrent des teneurs en hydrocarbures inférieures au seuil de détection.
+
+11l0l0	analyses_des_prélèvements_réalisés	N
+11l0l1	en_2009_et_2010	T
+11l0l2	des_teneurs	O
+11l1l0	hydrocarbures	S

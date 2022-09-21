@@ -1,0 +1,235 @@
+
+#37.0057
+#Le site, d’une superficie de 18000 m², est situé sur le territoire de la commune de St Pierre des Corps.
+
+0l0l0	Le_site	O
+0l0l1	est_situé_sur_le_territoire_de_la_commune_de_St_Pierre_des_Corps	L
+
+#Il a accueilli une activité de traitement du bois depuis 1978 (société DECHIRON), et de 1996 à 2013 une activité d’importation et de transformation du bois ainsi que la vente et le stockage des produits dérivés du bois (contreplaqué, menuiserie,…) et des matériaux de construction (plastique alvéolaire, quincaillerie, carrelage,…).
+
+1l0l0	Il	O
+1l0l1	a_accueilli	N
+1l0l2	une_activité_de_traitement_du_bois	A
+1l0l3	depuis_1978	T
+1l0l4	société_DECHIRON	O
+1l0l5	et	N
+1l0l6	de_1996_à_2013	T
+1l0l7	une_activité_d__importation_et_de_transformation_du_bois	A
+1l0l8	ainsi_que	R
+1l0l9	la_vente_et_le_stockage_des_produits_dérivés_du_bois	A
+1l0l10	quincaillerie___carrelage____	A
+1l1l0	société_DECHIRON	I
+
+#Pour ce faire, il bénéficie de l’arrêté préfectoral du 06 août 1997.
+
+2l0l0	l__arrêté_préfectoral	O
+2l0l1	06_août_1997__	T
+
+#En juin 2010, la société WOLSELEY FRANCE a racheté les installations à la société SNC PINAULT CENTRE OUEST.
+
+3l0l0	En_juin_2010__	T
+3l0l1	la_société_WOLSELEY_FRANCE	O
+3l0l2	a_racheté_les_installations	N
+3l0l3	la_société_SNC_PINAULT_CENTRE_OUEST	O
+3l1l0	la_société_WOLSELEY_FRANCE	I
+3l1l1	la_société_SNC_PINAULT_CENTRE_OUEST	I
+
+#La nappe des alluvions se situe au droit du site, elle est assez vulnérable à une pollution provenant du site en raison d’une faible profondeur et de terrains relativement perméables avec la formation superficielle de sables, graviers et galets.
+
+4l0l0	se_situe_au_droit_du_site	L
+4l0l1	pollution_provenant_du_site	L
+
+#Par arrêté préfectoral du 07 août 2002, l’exploitant a installé 3 piézomètres sur son site pour contrôler la qualité des eaux souterraines :
+
+5l0l0	Par_arrêté_préfectoral_du	O
+5l0l1	07_août_2002__	T
+5l0l2	l__exploitant	O
+5l0l3	a_installé	N
+5l0l4	3_piézomètres	O
+5l0l5	sur	R
+5l0l6	son_site	O
+5l0l7	contrôler_la_qualité_des_eaux_souterraines	A
+
+#- un puits de contrôle est implanté sur le terrain d’emprise de la société PINAULT à l’amont hydrogéologique,
+
+6l0l0	un_puits_de_contrôle	O
+6l0l1	est_implanté	N
+6l0l2	sur	R
+6l0l3	le_terrain	O
+6l0l4	la_société_PINAULT	O
+6l0l5	à_l__amont_hydrogéologique	N
+6l1l0	la_société_PINAULT	I
+
+#- deux puits de contrôle similaires sont implantés à l’aval hydrogéologique.
+
+7l0l0	deux_puits_de_contrôle_similaires	O
+7l0l1	sont_implantés	N
+7l0l2	à_l__aval_hydrogéologique	N
+
+#Les analyses portent sur les marqueurs du produit de traitement du bois « SARPALO 650 » qu’utilisait l’exploitant.
+
+8l0l0	Les_analyses	N
+8l0l1	produit_de_traitement	O
+8l0l2	bois	O
+8l0l3	utilisait_l__exploitant	O
+8l1l0	__SARPALO_650	I
+
+#L’eau prélevée fait l’objet de mesures pour la naphténate de tributylétain, cyperméthrine, tébuconazole ainsi que l'idocarbamate et propiconazole par arrêté préfectoral complémentaire du 22 avril 2008.
+
+9l0l0	L_	O
+9l0l1	l__objet_de	R
+9l0l2	mesures	N
+9l0l3	du_22_avril_2008__	T
+9l1l0	la_naphténate_de_tributylétain	S
+9l1l1	cyperméthrine	S
+9l1l2	tébuconazole	S
+9l1l3	l__idocarbamate	S
+9l1l4	propiconazole	S
+
+#Les niveaux des piézomètres sont relevés deux fois par an et des prélèvements sont effectués dans la nappe.
+
+10l0l0	Les_niveaux	O
+10l0l1	fois_par_an	T
+10l0l2	sont_effectués	N
+
+#Par courrier du 20 août 2012, l’inspection des installations classées a fait connaître à l’exploitant qu’il existait un très léger impact de ces activités sur la nappe phréatique par des produits biocides caractéristiques du fongicide utilisé pour traiter le bois (triazoles : propiconazole et tébuconazole) confirmé par les résultats de l’analyse des eaux prélevées le 13 mars 2012 notamment dans le piézomètre Pz2 situé en aval hydraulique du sens d’écoulement de la nappe phréatique.
+
+11l0l0	du_20_août_2012__	T
+11l0l1	l__inspection_des_installations_classées	O
+11l0l2	a_fait_connaître	N
+11l0l3	l__exploitant	O
+11l0l4	des_produits_biocides	O
+11l0l5	prélevées	N
+11l0l6	le_13_mars_2012	T
+11l0l7	le_piézomètre	O
+11l0l8	situé_en_aval_hydraulique_du_sens	L
+11l1l0	des_produits_biocides	I
+11l1l1	fongicide	S
+11l1l2	triazoles	S
+11l1l3	propiconazole	S
+11l1l4	tébuconazole	S
+
+#L’exploitant précise qu’il s’est probablement agit d’un écoulement d’eau météorique sur les bois traités, stockés en extérieur, qui a localement impacté le piézomètre Pz2 dont le débouché, bien que capoté, était situé au ras du sol.
+
+12l0l0	bois_traités	O
+12l0l1	a_localement_impacté	N
+12l0l2	situé_au	L
+12l0l3	ras_du_sol	N
+
+#Depuis, ce piézomètre a été légèrement rehaussé afin que l’eau d’origine météorique ne puisse pénétrer à l’intérieur.
+
+13l0l0	Depuis	T
+13l0l1	ce_piézomètre	O
+13l0l2	a_été_légèrement_rehaussé	N
+
+#Par courrier du 18 juin 2013, l’exploitant a déclaré à la préfecture d’Indre-et-Loire, la cessation de son activité.
+
+14l0l0	du_18_juin_2013__	T
+14l0l1	l__exploitant	O
+14l0l2	a_déclaré	N
+14l0l3	la_préfecture_d_	O
+14l0l4	Indre_et_Loire	L
+14l0l5	la_cessation_de_son_activité	N
+
+#Il a également transmis les éléments sur la mise en sécurité du site, son état environnemental et la détermination de l’usage futur des bâtiments.
+
+15l0l0	Il	O
+15l0l1	la_mise_en_sécurité	N
+15l0l2	du_site	O
+15l0l3	la	O
+15l0l4	détermination_de	R
+15l0l5	l__usage_futur_des_bâtiments	O
+
+#Dans son courrier du 17 juillet 2013, le Maire de St Pierre des Corps a émis un avis défavorable au maintien d’un usage industriel pour le site de l’établissement, précisant que l’activité de Réseau Pro est davantage de nature commerciale qu’industrielle et que le devenir du site doit conforter la vocation commerciale et tertiaire de la ZAC.
+
+16l0l0	Dans	L
+16l0l1	son_courrier	O
+16l0l2	du_17_juillet_2013__	T
+16l0l3	le_Maire	O
+16l0l4	de_St_Pierre_des_Corps	L
+16l0l5	a_émis	N
+16l0l6	un_avis_défavorable	O
+16l0l7	au_maintien_d_	N
+16l0l8	un_usage_industriel	O
+16l0l9	le_site	O
+16l0l10	l__établissement	O
+16l0l11	l__activité_de_Réseau_Pro	A
+16l0l12	le_devenir_du_site	O
+16l0l13	doit_conforter	R
+16l0l14	la_vocation_commerciale_et_tertiaire_de_la_ZAC	N
+16l1l0	le_Maire	I
+
+#L’avis de l’exploitant et du propriétaire sur l’usage futur des terrains a été sollicité.
+
+17l0l0	l__exploitant	O
+17l0l1	du_propriétaire	O
+17l0l2	l__usage_futur_des_terrains	O
+17l0l3	a_été_sollicité	N
+
+#Par courrier du 12 décembre 2013, l’inspection des installations classées a constaté dans le rapport de surveillance des eaux souterraines relatif à la campagne du 21 mars 2013, une concentration en tébuconazole (3.4 mg/l) supérieure à la valeur limite (2 mg/l) et une somme des pesticides (5.2 mg/l) supérieure à la valeur limite (5 mg/l).
+
+18l0l0	du_12_décembre_2013__	T
+18l0l1	l__inspection_des_installations_classées	O
+18l0l2	a_constaté	N
+18l0l3	surveillance_des_eaux_souterraines	A
+18l0l4	relatif_à	R
+18l0l5	la_campagne_du_21	N
+18l0l6	mars_2013__	T
+18l1l0	tébuconazole	S
+18l1l1	pesticides	S
+
+#Pour autant, ces résultats sont en très sensible amélioration au regard de ceux des deux précédentes campagnes (13 mars et 15 octobre 2012).
+
+19l0l0	mars_et_15_octobre_2012__	T
+
+#En mai 2015, WOLSELEY FRANCE mandate INOVADIA pour réaliser des investigations complémentaires sur la surveillance de la qualité des eaux souterraines.
+
+20l0l0	En_mai_2015__	T
+20l0l1	WOLSELEY_FRANCE	O
+20l0l2	mandate	N
+20l0l3	INOVADIA	O
+20l0l4	réaliser_des_investigations_complémentaires	N
+20l0l5	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+20l1l0	WOLSELEY_FRANCE	I
+20l1l1	INOVADIA	I
+
+#Il est constaté la présence d’un impact par du perchloroéthylène (PCE) et trichloréthylène (TCE).
+
+21l1l0	du_perchloroéthylène	S
+21l1l1	PCE	S
+21l1l2	trichloréthylène	S
+21l1l3	TCE	S
+
+#En octobre 2015, le bâtiment a été démantelé par le nouveau propriétaire du site.
+
+22l0l0	En_octobre_2015__	T
+22l0l1	le_bâtiment	O
+22l0l2	a_été_démantelé	N
+22l0l3	par_le_nouveau_propriétaire_du_site	O
+
+#Par courrier du 12 février 2016, l’exploitant a transmis les résultats d’analyses de la qualité des eaux souterraines de la campagne du second semestre 2015.
+
+23l0l0	12_février_2016__	T
+23l0l1	l__exploitant	O
+23l0l2	a_transmis	N
+23l0l3	les_résultats_d__analyses	N
+23l0l4	la_qualité_des_eaux_souterraines	O
+23l0l5	la_campagne	N
+23l0l6	du_second_semestre_2015__	T
+
+#Ils mettent en évidence :
+
+
+#- un impact en tébuconazole et propiconazole au droit du Pz2,
+
+25l0l0	un_impact	N
+25l1l0	tébuconazole	S
+25l1l1	propiconazole	S
+
+#- un impact en pentachlorophénol au droit du Pz1,
+
+26l1l0	pentachlorophénol	S
+26l1l1	Pz1	S
+
+#- un impact en nickel au droit du Pz6.
+

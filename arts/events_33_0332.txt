@@ -1,0 +1,295 @@
+
+#33.0332
+#Ancienne installation de re-compression de gaz naturel exploitée par GRT GAZ sur la commune d'Auros (33).
+
+0l0l0	Ancienne_installation_de	O
+0l0l1	re_compression_de	A
+0l0l2	gaz_naturel	O
+0l0l3	exploitée_par	R
+0l0l4	GRT_GAZ	O
+0l0l5	sur_la_commune_d__Auros___33__	L
+0l1l0	GRT_GAZ	I
+
+#Les installations ont été autorisées par l'arrêté préfectoral d'autorisation n°14765 du 8 juin 2001.
+
+1l0l0	Les_installations	O
+1l0l1	ont_été_autorisées	N
+1l0l2	par	R
+1l0l3	l__arrêté_préfectoral_d__autorisation	O
+1l0l4	du_8_juin_2001	T
+
+#Le site a été en exploitation de 1959 à 2009.
+
+2l0l0	Le_site	O
+2l0l1	a_été_en_exploitation	N
+2l0l2	de_1959_à_2009__	T
+
+#L'exploitant à porté à la connaissance de Monsieur le Préfet de la Gironde sa déclaration de cessation d'activité puis a réalisé de sa propre initiative les travaux de remise en état conformément au mémoire de travaux déposé en septembre 2011 à l'Inspection des installations Classées.
+
+3l0l0	L__exploitant	O
+3l0l1	à_porté_à_la_connaissance	N
+3l0l2	Monsieur_le_Préfet_de_la_Gironde	O
+3l0l3	sa_déclaration	N
+3l0l4	cessation_d__activité	N
+3l0l5	a_réalisé_de_sa_propre_initiative	N
+3l0l6	les_travaux_de_remise_en_état	N
+3l0l7	conformément_au	R
+3l0l8	mémoire_de_travaux	O
+3l0l9	en_septembre_2011	T
+3l0l10	l__Inspection_des_installations_Classées	O
+3l1l0	le_Préfet	I
+3l1l1	de_la_Gironde	I
+
+#Il n'y a pas eu d'arrêté préfectoral de travaux encadrant cette remise en état du site.
+
+4l0l0	Il	O
+4l0l1	n__y_a_pas_eu	N
+4l0l2	d__arrêté_préfectoral	O
+4l0l3	encadrant_cette_remise_en_état_du_site	N
+
+#1 - MISE EN SÉCURITÉ
+
+5l0l0	SÉCURITÉ	O
+5l1l0	SÉCURITÉ	I
+
+#Les installations et les équipements sont démontés et évacués en 2011.
+
+6l0l0	Les_installations	O
+6l0l1	les_équipements	O
+6l0l2	sont_démontés	N
+6l0l3	évacués	N
+6l0l4	en_2011__	T
+
+#Les déchets (braie de houille, huiles usagées...) sont évacués vers des filières autorisées.
+
+7l0l0	sont_évacués_vers_des_filières_autorisées	N
+7l1l0	Les_déchets	U
+7l1l1	houille	U
+7l1l2	huiles_usagées	U
+
+#A la suite des travaux de dépollution en mai 2011 (voir 3 - TRAVAUX), les bâtiments techniques sont démolis.
+
+8l0l0	A_la_suite	R
+8l0l1	des_travaux_de_dépollution	N
+8l0l2	en_mai_2011	T
+8l0l3	TRAVAUX	N
+8l0l4	les_bâtiments_techniques	O
+8l0l5	sont_démolis	N
+8l1l0	TRAVAUX	I
+
+#2 - DIAGNOSTIC
+
+9l0l0	DIAGNOSTIC	N
+
+#Les diagnostic ICF Environnement de 2010 et du du 1er juillet 2011 montre que :
+
+10l0l0	Les_diagnostic	N
+10l0l1	ICF_Environnement	O
+10l0l2	de_2010	T
+10l0l3	du_1er_juillet_2011	T
+10l1l0	ICF_Environnement	I
+
+#- plusieurs zones sont impactées par des hydrocarbures jusqu'à 7000 mg/kg, au droit des anciens stockages d'huiles, lors de la fuite survenue lors des opérations de démantèlement (voir 1 - MISE EN SÉCURITÉ), au droit d'anciennes cuves enterrées, etc.
+
+11l0l0	plusieurs_zones	O
+11l0l1	sont_impactées	N
+11l0l2	par	R
+11l0l3	des_hydrocarbures	O
+11l0l4	au_droit_des_anciens_stockages	L
+11l0l5	lors_de	R
+11l0l6	la_fuite	N
+11l0l7	des_opérations_de_démantèlement	N
+11l1l0	hydrocarbures	S
+11l1l1	SÉCURITÉ	I
+
+#- les profondeurs impactées varient de 0 à quelques mètres, voire jusqu'à 6 m,
+
+12l0l0	profondeurs_impactées	O
+
+#- les investigations n'ont pas montré de contamination majeure du sous-sol par des HAP (Hydrocarbures Aromatique Polycycliques), des BTEX (Benzène, Toluène, Ethyle benzène et Xylène), des PCB, des COHV (Composés Organo-Halogénés Volatils) et glycols sur l'ensemble des échantillons analysés.
+
+13l0l0	des_HAP	O
+13l1l0	des_HAP	S
+13l1l1	Hydrocarbures_Aromatique_Polycycliques	S
+13l1l2	des_BTEX	S
+13l1l3	Benzène	S
+13l1l4	Toluène	S
+13l1l5	Ethyle_benzène	S
+13l1l6	Xylène	S
+13l1l7	des_PCB	S
+13l1l8	des_COHV	S
+13l1l9	Composés_Organo___Halogénés_Volatils	S
+13l1l10	glycols	S
+
+#- les sols présentent des marques de pollution (hydrocarbures, huiles et eau glycolée).
+
+14l1l0	hydrocarbures	S
+14l1l1	huiles	S
+
+#La qualité des eaux souterraines n'est pas impactée par la pollution des sols.
+
+
+#Toutefois, quatre piézomètres ont été installés avant travaux en supplément de celui déjà existant, afin de suivre une éventuelle migration de pollution à partir des spots identifiés dans les sols.
+
+16l0l0	quatre_piézomètres	O
+16l0l1	ont_été_installés_avant_travaux	N
+
+#3 - TRAVAUX
+
+17l1l0	TRAVAUX	I
+
+#Les sols impactés ont été excavés en mai 2011 et éliminés en centre de traitement biologique autorisé.
+
+18l0l0	Les_sols_impactés	O
+18l0l1	ont_été_excavés	N
+18l0l2	en_mai_2011	T
+18l0l3	éliminés	O
+18l0l4	en_centre_de_traitement_biologique_autorisé	N
+
+#La dépollution a consisté en l'excavation de cinq zones identifiées du site présentant des teneurs en hydrocarbures totaux supérieures à 2500 mg/kg (HCT fraction C10-C40).
+
+19l0l0	La_dépollution	N
+19l0l1	l__excavation	N
+19l0l2	cinq_zones_identifiées	O
+19l1l0	hydrocarbures_totaux	S
+19l1l1	HCT	S
+
+#Les échantillons de contrôle de fond et de bord de fouille de ces cinq zones présentent des teneurs en hydrocarbures totaux inférieures au seuil de dépollution jusqu'à une teneur maximale de 2450 mg/kg.
+
+20l0l0	des_teneurs	O
+20l1l0	hydrocarbures_totaux	S
+
+#Il est à noter que seuls deux échantillons présentent des teneurs supérieures à 2000 mg/kg.
+
+
+#L'analyse des risques résiduels conclut que l'état environnemental du site est compatible avec l'usage non sensible envisagé (ferme solaire).
+
+
+#Les terres polluées excavées ont été dûment acceptées et envoyées vers le site de l'entreprise SEDA à Campteussé sur Baconne (49) pour un tonnage total d'environ 441,46 t soit un volume total d'environ 240 m3.
+
+23l0l0	Les_terres_polluées	O
+23l0l1	excavées_ont_été_dûment_acceptées	N
+23l0l2	envoyées_vers	N
+23l0l3	le_site	O
+23l0l4	l__entreprise_SEDA	O
+23l0l5	à	R
+23l0l6	Campteussé	O
+23l0l7	sur_Baconne___49__	L
+23l0l8	un_tonnage	O
+23l0l9	441_46	O
+23l1l0	SEDA	I
+
+#Le remblaiement des excavations et la remise en état du site s'est faite à partir de matériaux d'apports inertes.
+
+24l0l0	Le_remblaiement_des_excavations	N
+24l0l1	la_remise_en_état_du_site	N
+24l0l2	s__est_faite	N
+
+#L'inspection du 15 mars 2012 a permis de constater que les travaux de remise en état du site de l'établissement GRT Gaz à Auros ont été exécutés conformément au programme présenté par l'exploitant.
+
+25l0l0	L__inspection	N
+25l0l1	du_15_mars_2012	T
+25l0l2	les_travaux_de_remise_en_état_du_site	N
+25l0l3	l__établissement_GRT_Gaz	O
+25l0l4	à_Auros	L
+25l0l5	ont_été_exécutés	N
+25l0l6	conformément_au	R
+25l0l7	programme	O
+25l0l8	l__exploitant	O
+25l1l0	GRT_Gaz	I
+
+#Le procès-verbal de récolement a été dressé à l'issue de l'inspection.
+
+26l0l0	Le_procès_verbal_de_récolement	N
+26l0l1	a_été_dressé	N
+26l0l2	à_l__issue_de	R
+26l0l3	l__inspection	N
+
+#4 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+27l0l0	SURVEILLANCE_DES_EAUX	A
+27l0l1	SOUTERRAINES	O
+27l1l0	EAUX_SOUTERRAINES	I
+
+#Les analyses effectuées par avant travaux et après travaux montrent que les concentrations en polluants spécifiques de l'activité dans les eaux souterraines sont inférieures aux limites de quantification.
+
+28l0l0	Les_analyses_effectuées_par_avant_travaux	N
+
+#Suite à l'inspection du 15 mars 2012, l'Inspection des Installations Classées a proposé à Monsieur le Préfet de la Gironde un arrêté préfectoral complémentaire prescrivant l'abandon dans les règles de l'art des cinq piézomètres.
+
+29l0l0	Suite_à	R
+29l0l1	l__inspection_du	O
+29l0l2	15_mars_2012__	T
+29l0l3	l__Inspection_des_Installations_Classées	O
+29l0l4	Monsieur_le_Préfet_de_la_Gironde	O
+29l0l5	un_arrêté_préfectoral_complémentaire	O
+29l0l6	prescrivant	R
+29l0l7	l__abandon_dans	N
+29l0l8	les_règles_de_l__art	O
+29l0l9	cinq_piézomètres	O
+29l1l0	le_Préfet	I
+29l1l1	de_la_Gironde	I
+
+#Le 26/09/2013, l'exploitant déclare que les piézomètres sont en place et en état.
+
+30l0l0	Le_26_09_2013	T
+30l0l1	l__exploitant	O
+30l0l2	déclare	N
+30l0l3	les_piézomètres	O
+30l0l4	sont_en_place	N
+
+#5 - CESSION
+
+31l0l0	CESSION	R
+
+#GRT FRANCE prévoit de conserver la propriété des parcelles de l'ancienne station de compression en vue d'y permettre l'installation d'une ferme photovoltaïque.
+
+32l0l0	GRT_FRANCE	O
+32l0l1	prévoit	R
+32l0l2	de_conserver	N
+32l0l3	la_propriété_des_parcelles	O
+32l0l4	l__ancienne_station_de_compression	O
+32l0l5	en_vue_d_	R
+32l0l6	permettre_l__installation	N
+32l0l7	une_ferme_photovoltaïque	O
+32l1l0	GRT_FRANCE	I
+
+#Le porteur de projet a déposé à la Direction Départementale des Territoires et de mer de la Gironde un dossier de candidature à un appel d'offre régional.
+
+33l0l0	Le_porteur_de_projet	O
+33l0l1	a_déposé	N
+33l0l2	la_Direction_Départementale_des_Territoires_et_de_mer	O
+33l0l3	de_la_Gironde	L
+33l0l4	un_dossier_de_candidature	O
+33l1l0	la_Direction_Départementale_des_Territoires_et_de_mer_de_la_Gironde	I
+
+#L'analyse des risques résiduels a montré la compatibilité de l'état du site après dépollution avec ce projet de ferme photovoltaïque.
+
+34l0l0	analyse_des_risques_résiduels	O
+34l0l1	dépollution	N
+34l0l2	ce_projet_de_ferme_photovoltaïque	O
+
+#Toutefois, si le site devait changer d'usage pour un usage plus sensible de type résidentiel par exemple, une nouvelle analyse des risques résiduels devrait alors être menée.
+
+35l0l0	un_usage	O
+35l0l1	une_nouvelle_analyse	N
+
+#Le 26/09/2013, le site est en friche.
+
+36l0l0	Le_26_09_2013	T
+36l0l1	le_site	O
+
+#Le projet de ferme photovoltaïque est toujours d'actualité pour GDF SUEZ.
+
+37l0l0	Le_projet_de_ferme_photovoltaïque	O
+37l1l0	GDF_SUEZ	I
+
+#La première candidature de 2012 a été rejetée.
+
+38l0l0	La_première	N
+
+#Une nouvelle candidature est en cours d'analyse avec le soutien de la mairie de Auros.
+
+39l0l0	le_soutien	O
+39l0l1	la_mairie	O
+39l0l2	de_Auros	L

@@ -1,0 +1,182 @@
+
+#42.0141
+#Le site était occupé par la Teinturerie Largeron et Cie depuis 1961.
+
+0l0l0	Le_site	O
+0l0l1	était_occupé	N
+0l0l2	par_la_Teinturerie_Largeron	O
+0l0l3	et_Cie	O
+0l0l4	depuis_1961	T
+0l1l0	la_Teinturerie_Largeron	I
+
+#La Teinturerie du Bernay a été créée le 1er juin 1981.
+
+1l0l0	La_Teinturerie	O
+1l0l1	du_Bernay	O
+1l0l2	a_été_créée	N
+1l0l3	le_1er_juin_1981__	T
+1l1l0	La_Teinturerie_du_Bernay	I
+
+#La société Teinturerie du Bernay exerçait une activité soumise à déclaration pour les rubriques 595-2 Teinture et impression de matières textiles (récépissé du 24 juillet 1995) et 355 A Composants, appareils et matériels contenant plus de 30 l de PCB (récépissé du 29 septembre 1986).
+
+2l0l0	La_société	O
+2l0l1	Teinturerie_du_Bernay	A
+2l0l2	exerçait	N
+2l0l3	une_activité_soumise	A
+2l0l4	à_déclaration	N
+2l0l5	Teinture	A
+2l0l6	impression_de_matières_textiles	A
+2l0l7	récépissé	O
+2l0l8	24_juillet_1995	T
+2l0l9	récépissé	O
+2l0l10	29_septembre_1986	T
+2l1l0	La_société_Teinturerie	I
+2l1l1	Teinture	S
+2l1l2	Composants	I
+2l1l3	PCB	S
+
+#Le site est situé au Sud-Est du centre-ville de St Étienne.
+
+3l0l0	Le_site	O
+3l0l1	est_situé_au_Sud_Est_du_centre___ville_de_St_Étienne	L
+
+#Il est entouré par :
+
+
+#- au Nord et à l'Est, par une zone boisée,
+
+5l0l0	au_Nord_et_à_l__Est	L
+
+#- au Sud, par des habitations individuelles,
+
+6l0l0	au_Sud	L
+
+#- à l'Ouest par le Furan (cours d'eau) en contrebas puis des habitations individuelles et un poste EDF.
+
+7l0l0	à_l__Ouest_par_le_Furan	L
+7l0l1	en_contrebas	L
+7l0l2	un_poste_EDF	O
+7l1l0	le_Furan	I
+
+#Contexte géologique :
+
+
+#Le site est localisé sur un affleurement rocheux à caractère cristallin composé de roches très fissibles.
+
+9l0l0	Le_site	O
+9l0l1	localisé_sur_un_affleurement	L
+
+#Les formations géologiques localisées à proximité du site sont :
+
+10l0l0	Les_formations_géologiques	O
+10l0l1	à_proximité_du_site	L
+
+#- de 0 à 0,5 m : terre végétale,
+
+
+#- de 0,5 à 3 m : argile sableuse jaunâtre avec galets,
+
+
+#- de 3 à 7,9 m : sable argileux avec décomposition de roche, bloc de silex.
+
+
+#Contexte hydrogéologique :
+
+14l0l0	Contexte_hydrogéologique	N
+
+#La présence d'une nappe d'accompagnement du Furan est potentiellement présente au droit du site.
+
+15l1l0	Furan	S
+
+#Toutefois, compte tenu du contexte géologique, l'aquifère présent serait peu productif.
+
+
+#Le site n'est pas localisé au droit d'un périmètre de captage d'alimentation en eau potable.
+
+17l0l0	Le_site	O
+17l0l1	n_	R
+17l0l2	localisé_au_droit_d__un_périmètre_de_captage	L
+
+#Contexte hydrologique :
+
+
+#La rivière le Furan est présente à environ 10m à l'ouest du site, en contrebas.
+
+19l0l0	La_rivière	O
+19l0l1	à_environ_10_m_à_l__ouest_du_site	L
+19l0l2	en_contrebas	L
+
+#Elle s'écoule du Sud au Nord et se jette dans la Loire à Andrézieux-Bouthéon.
+
+20l0l0	jette_dans_la_Loire	L
+20l0l1	à	R
+20l0l2	Andrézieux___Bouthéon	L
+
+#Le site est concerné par le plan de prévention des risques naturels prévisibles d'inondation, toutefois il n'est pas localisé en zone inondable.
+
+21l0l0	Le_site	O
+21l0l1	est_concerné_par	R
+21l0l2	le_plan_de_prévention_des_risques_naturels	O
+21l0l3	localisé_en_zone_inondable	L
+
+#La société MJ-lex a fait établir par le bureau d'études AD-Environnement un dossier de cessation d'activité pour le compte de la société Teinturerie du Bernay, en qualité de liquidateur de cette société (dossier reçu le 16 mars 2012 par l'inspection).
+
+22l0l0	La_société_MJ___lex	O
+22l0l1	a_fait_établir	N
+22l0l2	par_le_bureau_d__études_AD	O
+22l0l3	__Environnement_un_dossier	O
+22l0l4	cessation_d__activité	N
+22l0l5	pour_le_compte_de	R
+22l0l6	la_société	O
+22l0l7	Teinturerie_du_Bernay	A
+22l0l8	le_16_mars_2012	T
+22l1l0	La_société_MJ___lex	I
+22l1l1	la_société_Teinturerie_du_Bernay	I
+
+#Faisant suite à la réception de ce dossier, l'inspection propose dans son rapport du 10 avril 2012 :
+
+23l0l0	Faisant_suite_à	R
+23l0l1	la_réception	N
+23l0l2	10_avril_2012	T
+
+#- De rappeler au propriétaire du transformateur que le plan national de décontamination et d’élimination des appareils contenant des PCB et PCT, lui imposait l'élimination de son transformateur.
+
+24l0l0	propriétaire_du_transformateur	O
+24l0l1	décontamination	N
+24l0l2	imposait	N
+24l0l3	l__élimination	N
+24l0l4	son_transformateur	O
+24l1l0	PCB	S
+24l1l1	PCT	S
+
+#- De lui demander de régulariser sa situation, et d'en rendre compte à la préfecture.
+
+25l0l0	régulariser	N
+25l1l0	la_préfecture	I
+
+#- De demander au mandataire judiciaire de préciser la nature et la dangerosité des produits manipulés lors de l'exploitation de la teinturerie, pour définir une campagne de reconnaissance, qui devrait porter à priori sur les bétons de la dalle, et, le cas échéant sur les sols sous-jacents, avec pour objectif :
+
+26l0l0	préciser_la_nature_et_la_dangerosité_des_produits_manipulés	O
+26l0l1	lors_de	R
+26l0l2	l_	N
+26l0l3	exploitation_de_la_teinturerie	A
+26l0l4	une_campagne_de_reconnaissance	N
+26l0l5	bétons	N
+26l0l6	les_sols_sous_jacents	O
+
+#* de s'assurer que le local est apte à un usage industriel (sécurité sanitaire des employés)
+
+
+#* de s'assurer de l'absence d'une source de pollution susceptible contaminer l'environnement.
+
+28l0l0	une_source_de_pollution	O
+
+#L'administration a adressé un courrier, en date du 20 juin 2012 au propriétaire afin de régulariser la situation concernant le transformateur au PCB.
+
+29l0l0	L__administration	O
+29l0l1	a_adressé_un_courrier	N
+29l0l2	en_date_du_20_juin_2012	T
+29l0l3	propriétaire	O
+29l0l4	afin	R
+29l0l5	de_régulariser	N
+29l1l0	PCB	S

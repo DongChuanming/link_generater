@@ -1,0 +1,355 @@
+
+#54.0017
+#Le site a accueilli les activités suivantes :
+
+0l0l0	Le_site	O
+0l0l1	a_accueilli	R
+0l0l2	les_activités	A
+
+#-	une centrale électrique thermique équipée d’un gazomètre qui a produit, de 1951 à 1987, de l’électricité à partir des gaz de hauts-fourneaux et des gaz de cokerie, pour quatre usines sidérurgiques implantées sur les territoires des communes de Longwy, Mont-Saint-Martin et Réhon,
+
+1l0l0	une_centrale_électrique_thermique	O
+1l0l1	de_1951_à_1987	T
+1l0l2	l__électricité	O
+1l0l3	cokerie	O
+1l0l4	quatre_usines	O
+1l0l5	sidérurgiques	A
+1l0l6	implantées	R
+1l0l7	sur_les_territoires_des_communes_de_Longwy	L
+1l0l8	__Mont_Saint_Martin_et_Réhon	L
+
+#-	une centrale d’oxygène sidérurgique qui a alimenté en oxygène, de 1955 à 1987, les sites sidérurgiques du bassin de Longwy.
+
+2l0l0	une	O
+2l0l1	centrale_d__oxygène_sidérurgique	A
+2l0l2	a_alimenté_en_oxygène	A
+2l0l3	de_1955_à_1987	T
+2l0l4	les_sites	O
+2l0l5	sidérurgiques_du_bassin_de_Longwy	L
+2l1l0	une_centrale_d__oxygène	U
+2l1l1	sidérurgique	S
+
+#Ces installations étaient de nature à être soumise à autorisation au titre de la réglementation ICPE.
+
+3l0l0	Ces_installations	O
+3l0l1	étaient	R
+3l0l2	être_soumise_à_autorisation	N
+
+#L'ayant droit de l'ancien et dernier exploitant est ARCELORMITTAL FRANCE.
+
+4l0l0	L__ayant_droit	O
+4l0l1	exploitant	O
+4l0l2	ARCELORMITTAL_FRANCE	O
+4l1l0	ARCELORMITTAL_FRANCE	I
+
+#Le site est à l'état de friche, sans usage.
+
+5l0l0	Le_site	O
+5l0l1	est_à_l__état_de_friche	N
+5l0l2	sans_usage	N
+
+#Il est clôturé.
+
+
+#L'évaluation simplifiée des risques a été rendue en novembre 1999.
+
+7l0l0	évaluation_simplifiée_des_risques	N
+7l0l1	a_été_rendue	N
+7l0l2	en_novembre_1999__	T
+
+#Le site est classer 2, à surveiller,pour son impact sur les eaux souterraines et 3 pour les sols.
+
+8l0l0	Le_site	O
+
+#Un arrêté préfectoral du 16 août 2000 prescrit la surveillance des eaux de la nappe phréatique au travers de deux piézomètres.
+
+9l0l0	Un_arrêté_préfectoral	O
+9l0l1	16_août_2000	T
+9l0l2	prescrit	N
+9l0l3	la_surveillance_des_eaux_de_la_nappe_phréatique	A
+
+#Les paramètres analysés sont: pH, HC totaux, As, Cd, Cr, Cu, Hg, Ni, Pb, Zn, CN totaux, PCB, HAP, F, Ca, Na, K, PO4, Mg.
+
+10l1l0	pH	S
+10l1l1	HC_totaux	S
+10l1l2	As	S
+10l1l3	Cd	S
+10l1l4	Cr	S
+10l1l5	Cu	S
+10l1l6	Hg	S
+10l1l7	Ni	S
+10l1l8	Pb	S
+10l1l9	Zn___CN_totaux	S
+10l1l10	PCB	S
+10l1l11	HAP	S
+10l1l12	F	S
+10l1l13	Ca	S
+10l1l14	Na	S
+10l1l15	K	S
+10l1l16	PO4___Mg	S
+
+#L'amiante n'a jamais été utilisée sur le site.
+
+11l0l0	L__amiante	O
+11l0l1	n__a_jamais_été_utilisée	N
+
+#Lors de la visite du 5 mars 2002, il est constaté que les démolitions ont été totalement réalisées, le site est entièrement clôturé.
+
+12l0l0	Lors	T
+12l0l1	de_la_visite	N
+12l0l2	du_5_mars_2002__	T
+12l0l3	les_démolitions	N
+12l0l4	ont_été_totalement_réalisées	N
+12l0l5	le_site	O
+
+#A la date du 27 octobre 2005, le terrain appartient à la CCAL mais reste suivi par BI.
+
+13l0l0	A_la_date_du_27_octobre_2005__	T
+13l0l1	le_terrain	O
+13l0l2	appartient_à	R
+13l0l3	la_CCAL	O
+13l0l4	BI	O
+13l1l0	la_CCAL	I
+
+#La CCAL a démoli les silos et utilise actuellement le site comme zone de pesée des camions de la société LAUBACH.
+
+14l0l0	La_CCAL	O
+14l0l1	a_démoli_les_silos	O
+14l0l2	utilise_actuellement	T
+14l0l3	le_site	O
+14l0l4	comme	R
+14l0l5	zone_de_pesée	A
+14l0l6	la_société_LAUBACH	O
+14l1l0	La_CCAL	I
+14l1l1	la_société_LAUBACH	I
+
+#Deux spots pollués par de l'huile et des graisses (zones entreposage d'engrenages) sont toujours présents : la commande est passée pour un traitement de l'un des deux (~10m3) et le second spot n'est plus localisable suite aux travaux de destruction des silos effectués par la CCAL.
+
+15l0l0	Deux_spots_pollués	O
+15l0l1	huile	O
+15l0l2	des_graisses	O
+15l0l3	zones	O
+15l0l4	entreposage_d__engrenages	A
+15l0l5	est_passée	N
+15l0l6	un_traitement	N
+15l0l7	l__un	O
+15l0l8	aux_travaux_de_destruction_des	N
+15l0l9	silos	O
+15l0l10	effectués	N
+15l0l11	la_CCAL	O
+15l1l0	des_graisses	U
+15l1l1	la_CCAL	I
+
+#Un problème de servitude autour des piézométres reste à étudier.
+
+
+#Deux études ont été réalisées sur ce site :
+
+17l0l0	Deux_études	O
+17l0l1	ont_été_réalisées	N
+
+#« Etude des sols (étape A) – étude historique et environnementale » (LECES, RC/L4124, août 1998)
+
+18l0l0	étape_A	O
+18l0l1	août_1998	T
+
+#Zones identifiées comme potentiellement polluées :
+
+
+#- de l’ancien gazomètre
+
+20l0l0	l__ancien_gazomètre	O
+
+#- des citernes à essence,
+
+21l0l0	citernes_à_essence	O
+21l1l0	des_citernes	D
+
+#- des réservoirs à naphta et à fuel lourd,
+
+22l0l0	naphta	O
+22l1l0	naphta	S
+22l1l1	fuel_lourd	S
+
+#- des atelier/garage/ salle des machines/ chaufferie.
+
+
+#Polluants suspectés :
+
+24l1l0	Polluants	S
+
+#Hydrocarbures aromatiques polycycliques (HAP), hydrocarbures totaux, métaux lourds, PCB.
+
+25l1l0	Hydrocarbures_aromatiques_polycycliques	S
+25l1l1	HAP	S
+25l1l2	hydrocarbures_totaux	S
+25l1l3	métaux_lourds	S
+25l1l4	PCB	S
+
+#« Etude des sols (étape B) – ESR » (LECES, RC/L 4699, novembre 1999)
+
+26l0l0	novembre_1999__	T
+
+#Spots de pollution aux hydrocarbures totaux :
+
+27l1l0	hydrocarbures_totaux	S
+
+#- salle des machines (F17 à 39 000 mg/kg de MS),
+
+28l1l0	F17	S
+
+#- battitures (F7 à 14 000 mg/kg de MS),
+
+
+#- sol gras (F8 à 58 000 mg/kg de MS).
+
+30l1l0	F8	S
+
+#Spot de pollution aux PCB :
+
+31l1l0	PCB	S
+
+#- poste électrique (F11 à 120 mg/kg de MS)
+
+32l1l0	F11	I
+
+#Un suivi de la qualité des eaux souterraines est réalisé depuis décembre 2000 au moyen de deux piézomètres en amont et en aval du site.
+
+33l0l0	Un_suivi_de_la_qualité_des_eaux_souterraines	A
+33l0l1	est_réalisé	N
+33l0l2	depuis_décembre_2000	T
+33l0l3	en_amont_et_en_aval_du_site	L
+
+#Les résultats de cette surveillance, notamment au droit du piézomètre aval, ne révèlent pas d’impact du site sur les eaux souterraines.
+
+34l0l0	surveillance	A
+34l0l1	au_droit_du_piézomètre_aval	L
+
+#Des fluorures et cyanures sont détectés, parfois dans des teneurs supérieures aux valeurs de gestion de référence, en amont du site.
+
+35l0l0	détectés	N
+35l0l1	en_amont_du_site	L
+35l1l0	fluorures	S
+35l1l1	cyanures	S
+
+#Cette pollution pourrait provenir du crassier d’HAUCOURT-MOULAINE, présent en amont du site.
+
+36l0l0	HAUCOURT___MOULAINE	L
+36l0l1	présent_en_amont_du_site	L
+
+#Le site est actuellement la propriété de la Communauté de Communes de l’Agglomération de Longwy.
+
+37l0l0	Le_site	O
+37l0l1	est_actuellement_la_propriété_de	R
+37l0l2	la_Communauté_de_Communes	O
+37l0l3	de_l__Agglomération_de_Longwy	L
+37l1l0	la_Communauté_de_Communes	I
+
+#Lors de la  visite du 27 octobre 2005 de ce site réalisée l’inspection des installations classées , il avait été constaté que la zone de pesée subsistante sur le site était utilisée par la société LAUBACH.
+
+38l0l0	Lors	T
+38l0l1	de_la___visite	N
+38l0l2	du_27_octobre_2005	T
+38l0l3	de_ce_site_réalisée_l__inspection_des_installations_classées	O
+38l0l4	que_la_zone_de_pesée_subsistante	O
+38l0l5	le_site	O
+38l0l6	était_utilisée_par	R
+38l0l7	la_société_LAUBACH	O
+38l1l0	par_la_société_LAUBACH	I
+
+#Le site était également traversé par cette même entreprise pour accéder au crassier de SAULNES qu’elle exploitait alors.
+
+39l0l0	Le_site	O
+39l0l1	était_également_traversé_par	R
+39l0l2	cette_même_entreprise	O
+39l0l3	accéder_au_crassier_de_SAULNES	L
+39l0l4	elle_exploitait_alors	T
+
+#En outre, à cette même époque, il existait toujours deux secteurs pollués par des huiles et des graisses que l’inspection des installations classées a demandés au représentant de l’ancien et dernier exploitant de traiter.
+
+40l0l0	deux_secteurs_pollués	O
+40l0l1	par	R
+40l0l2	des_huiles	O
+40l0l3	l__inspection_des_installations_classées	O
+40l0l4	a_demandés	N
+40l0l5	exploitant	O
+40l1l0	des_huiles	U
+
+#Par courrier en date du 23 décembre 2005, la société BAIL INDUSTRIE, devenue la société ARCELORMITTAL REAL ESTATE FRANCE, avait indiqué qu’un des deux spots de pollution allait être traité en même temps que seraient menées des opérations de remise en état du site du Train à fil d’HERSERANGE, contigu.
+
+41l0l0	en_date_du_23_décembre_2005__	T
+41l0l1	la_société_BAIL_INDUSTRIE	O
+41l0l2	devenue	N
+41l0l3	la_société_ARCELORMITTAL_REAL_ESTATE_FRANCE	O
+41l0l4	deux_spots_de_pollution	O
+41l0l5	allait_être_traité	N
+41l0l6	en_même_temps_que	R
+41l0l7	seraient_menées	O
+41l0l8	des_opérations_de_remise_en_état_du_site	N
+41l0l9	du_Train_à_fil_d__HERSERANGE	O
+41l0l10	contigu	L
+41l1l0	la_société_BAIL_INDUSTRIE	I
+41l1l1	la_société_ARCELORMITTAL_REAL_ESTATE_FRANCE	I
+
+#Lors de la visite du 24 novembre 2011, aucun usage n’a été constaté sur le site qui est à l’état de friche.
+
+42l0l0	Lors	T
+42l0l1	de_la_visite	N
+42l0l2	du_24_novembre_2011__	T
+42l0l3	l__état_de_friche	N
+
+#Le poste électrique extérieur situé au cœur du site du COS-SIH est une enclave qui n’est pas sous la responsabilité de l’ayant-droit de l’ancien et dernier exploitant.
+
+43l0l0	Le_poste_électrique_extérieur	O
+43l0l1	situé_au_cœur_du_site_du_COS___SIH	L
+43l0l2	enclave	O
+43l0l3	l__ayant___droit	O
+43l0l4	exploitant	O
+
+#L'inspection des installations classées a par ailleurs demandé au représentant de l'ancien exploitant :
+
+44l0l0	L__inspection_des_installations_classées	O
+44l0l1	exploitant	O
+
+#-	décrire l’ensemble des mesures de gestion qui ont été mises en œuvre sur le site et notamment préciser le traitement des zones polluées identifiées dans les études diagnostic de l’état des sols (nature et localisation des pollutions, mode du traitement appliqué, volumes de sols traités, analyses réalisées après traitement pour déterminer les pollutions résiduelles subsistant sur le site…),
+
+45l0l0	des_mesures_de_gestion	O
+45l0l1	qui_ont_été_mises_en_œuvre	N
+45l0l2	préciser_le_traitement_des_zones_polluées_identifiées	O
+45l0l3	les_études_diagnostic	N
+45l0l4	réalisées_après_traitement	N
+
+#-	conclure sur la compatibilité du site avec un usage comparable à la dernière période d’exploitation,
+
+46l0l0	la	N
+46l0l1	dernière_période_d__exploitation	T
+
+#-	proposer des restrictions d’usage en fonction des éléments ci-dessus, afin de conserver la mémoire des activités passées exercées et des pollutions résiduelle laissées sur le site.
+
+47l0l0	activités_passées_exercées	A
+47l0l1	pollutions	N
+
+#Une réflexion est actuellement menée par le représentant de l'ancien et dernier exploitant pour mettre en place une surveillance global des sites sidérurgiques implantés dans les vallées de la Côte-Rouge, de la Moulaine et de la Chiers.
+
+48l0l0	le	O
+48l0l1	exploitant	O
+48l0l2	mettre_en_place_une_surveillance_global	N
+48l0l3	sites_sidérurgiques	O
+48l0l4	implantés	R
+48l0l5	dans_les_vallées_de_la_Côte_Rouge	L
+48l0l6	Chiers	L
+
+#L'exploitant a réalisé une opération de levée de doute afin de dresser un état des lieux de la contamination résiduelle du site.
+
+49l0l0	L__exploitant	O
+49l0l1	a_réalisé	N
+49l0l2	une_opération_de_levée_de_doute	N
+49l0l3	un_état_des_lieux	N
+49l0l4	la_contamination_résiduelle	O
+
+#Cette étude est en cours d'instruction.
+
+50l0l0	Cette_étude	O
+50l0l1	en_cours	T
+50l0l2	d_	A
+50l0l3	instruction	N

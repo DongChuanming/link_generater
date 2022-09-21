@@ -1,0 +1,208 @@
+
+#59.0529
+#Le diagnostic environnemental établi dans le cadre du dossier de demande d'autorisation d'exploiter de 2011 a permis d'identifier la présence de deux zones de déchets sur le site.
+
+0l0l0	Le_diagnostic_environnemental	N
+0l0l1	établi_dans_le_cadre	R
+0l0l2	du_dossier	O
+0l0l3	demande___d__autorisation	N
+0l0l4	d__exploiter	R
+0l0l5	de_2011	T
+0l0l6	a_permis_d__identifier	N
+0l0l7	la_présence	O
+0l0l8	de_deux_zones_de_déchets	O
+
+#Il s'agit d'une situation historique dont hérite 3Si, les déchets n'étant pas imputables aux activités de 3Si.
+
+1l0l0	activités_de_3Si	A
+1l1l0	3Si	I
+1l1l1	les_déchets	U
+
+#3Si a mis en œuvre un plan de gestion afin de maîtriser l'impact de ces déchets historiques sur l'environnement basé sur la caractérisation des sols et des gaz de l'air, la nature des déchets et la vulnérabilité de l'environnement.
+
+2l0l0	3Si	O
+2l0l1	a_mis_en_œuvre	N
+2l0l2	un_plan_de_gestion	O
+
+#Ces zones de déchets sont implantées sur un site peu vulnérable, les nappes stratégiques de la Craie et du Calcaire carbonifère (captive dans le secteur d'étude) sont protégées par au moins 20m d'argile.
+
+3l0l0	Ces_zones	O
+3l0l1	de_déchets	O
+3l0l2	sont_implantées	N
+3l0l3	sur_un_site_peu_vulnérable	L
+3l0l4	les_nappes_stratégiques	O
+
+#La nappe des Sables est également protégée par une couche d'argile.
+
+
+#Les principales caractéristiques des zones de déchets sont les suivantes:
+
+
+#- au droit de l'ancienne voie ferrée (représentant environ 700m de long, 10m de hauteur et 15m de large), zone remblayée par des déchets ménagers, des déchets de déconstruction localement mélangés à des matériaux naturels. 0,8m de terre végétale recouvrent ces remblais.
+
+6l0l0	au_droit_de_l__ancienne	L
+6l0l1	voie_ferrée	O
+6l0l2	zone_remblayée	O
+6l0l3	remblais	N
+
+#Les analysés réalisées sur les sols ont montré des enrichissements significatifs en métaux (cadmium, cuivre, mercure, plomb et zinc) et une contamination aux hydrocarbures sous la terre végétale et les limons.
+
+7l0l0	limons	N
+7l1l0	métaux	S
+7l1l1	cadmium	S
+7l1l2	cuivre	S
+7l1l3	mercure	S
+7l1l4	plomb	S
+7l1l5	zinc	S
+7l1l6	hydrocarbures	S
+
+#- au droit de l'ancienne carrière d'argile et de la butte (représentant un volume de 68000m3): présence de remblais de déconstruction avec quelques déchets (sacs plastiques...).
+
+8l0l0	au_droit_de_l_	L
+8l0l1	remblais_de_déconstruction	N
+8l1l0	plastiques	S
+
+#Les analyses de sols ont montré des enrichissements pouvant être localement significatifs en métaux (cadmium, cuivre, mercure, plomb et zinc) et un comportement d'une partie des matériaux considéré comme inerte (le sulfate déclasse).
+
+9l0l0	Les_analyses_de_sols	N
+9l0l1	des_enrichissements	N
+9l1l0	métaux	S
+9l1l1	cadmium	S
+9l1l2	cuivre	S
+9l1l3	mercure	S
+9l1l4	plomb	S
+9l1l5	zinc	S
+9l1l6	sulfate	S
+
+#Sur 45 échantillons prélevés, un seul échantillon fait ressortir une pollution aux hydrocarbures  totaux et aux hydrocarbures aromatiques polycycliques.
+
+10l0l0	Sur_45_échantillons_prélevés	N
+10l0l1	hydrocarbures___totaux	O
+10l1l0	hydrocarbures___totaux	S
+10l1l1	aux_hydrocarbures_aromatiques_polycycliques	S
+
+#Les zones de stockage de déchets dépassent l'emprise du site 3Si et le plan de gestion ne couvre que les secteurs localisés sur le site 3Si, dans le cadre du réaménagement du site.
+
+11l0l0	Les_zones_de_stockage_de_déchets	O
+11l0l1	le_plan_de_gestion	O
+11l0l2	ne_couvre_que	R
+11l0l3	les_secteurs_localisés	O
+11l0l4	sur	R
+11l0l5	le_site_3Si	O
+11l0l6	le_cadre_du	R
+11l0l7	réaménagement_du_site	N
+
+#Les premières analyses ont mis en évidence  les points suivants :
+
+
+#- présence dans les gaz du sol de BTEX (benzène, toluène, ethylbenzène, xylène), d'hydrocarbures aliphatiques et aromatiques et de méthane sur un piézair et la présence d'hydrocarbures aliphatiques et de méthane sur un autre (sur 3 piézomètres implantés);
+
+13l1l0	BTEX	S
+13l1l1	benzène	S
+13l1l2	toluène	S
+13l1l3	ethylbenzène	S
+13l1l4	xylène	S
+13l1l5	d__hydrocarbures_aliphatiques_et_aromatiques	S
+13l1l6	méthane	S
+13l1l7	hydrocarbures_aliphatiques	S
+13l1l8	méthane	S
+
+#- absence d'impact de la qualité des sols sur les eaux souterraines pour les métaux, les hydrocarbures totaux et aromatiques, les concentrations mesurées étant inférieures aux valeurs réglementaires définies par l'arrêté du 11 janvier 2007 concernant les limites de la qualité des eaux destinées à la consommation humaine et aux limites de la qualité des eaux brutes destinées à la production d'eau d'alimentation.
+
+14l0l0	11_janvier_2007	T
+14l1l0	les_métaux	S
+14l1l1	les_hydrocarbures_totaux	S
+
+#Un plan de gestion a été établi.
+
+15l0l0	Un_plan_de_gestion	O
+15l0l1	a_été_établi	N
+
+#Le bilan coûts/avantages établi par 3Si avec l'appui du bureau d'études VERITAS a permis a 3Si de retenir les mesures de gestion suivantes qui visent à maintenir sur site les déchets:
+
+16l0l0	Le_bilan_coûts	N
+16l0l1	3Si	O
+16l0l2	appui	N
+16l0l3	du_bureau_d__études_VERITAS	O
+16l1l0	3Si	I
+16l1l1	VERITAS	I
+16l1l2	les_déchets	U
+
+#- remodelage de la butte existante et déplacement partiel pour libérer l'emprise des futurs bâtiments et voiries.
+
+17l0l0	remodelage_de_la_butte_existante	N
+17l0l1	déplacement_partiel	N
+17l0l2	libérer_l__emprise_des_futurs_bâtiments	N
+
+#Les déblais reposent sur des argiles et la butte remodelée sera recouverte de terre végétale et végétalisée.
+
+18l0l0	Les_déblais	N
+18l0l1	des_argiles	O
+18l0l2	la_butte	O
+18l0l3	remodelée	N
+
+#- Compactage dynamique au droit du futur bâtiment implanté au dessus de la décharge au niveau de l'ancienne voie ferrée afin de réduire les vides (et par conséquent les gaz du sol).
+
+19l0l0	Compactage_dynamique	N
+19l0l1	au_droit_du_futur_bâtiment	O
+19l0l2	implanté	R
+19l0l3	au_dessus_de_la_décharge	L
+
+#Une couche de matériaux drainants d'une épaisseur de 30 cm a été mise en place avec incorporation de drains qui seront reliés à des évents en toiture du bâtiment.
+
+20l0l0	Une_couche_de_matériaux_drainants	N
+20l0l1	a_été_mise_en_place	N
+20l0l2	incorporation_de_drains	O
+20l0l3	évents_en_toiture_du_bâtiment	L
+
+#Au niveau de l'entrepôt qui sera implanté au droit de cette zone, la voie de transfert est supprimée par mise en place de ces drains.
+
+21l0l0	Au_niveau_de	R
+21l0l1	l__entrepôt	O
+21l0l2	implanté	T
+21l0l3	au_droit_de_cette_zone	L
+21l0l4	la_voie_de_transfert	O
+21l0l5	est_supprimée_par_mise_en_place_de	N
+21l0l6	ces_drains	N
+
+#Par conséquent, il n'y a pas d'analyse des risques résiduels de réalisée.
+
+
+#Les mesures complémentaires de gestion sont:
+
+
+#- le suivi des gaz du sol;
+
+
+#- le suivi de la qualité des eaux souterraines;
+
+25l0l0	le_suivi_de_la_qualité_des_eaux_souterraines	A
+
+#- la mise en place de restrictions d'usages.
+
+26l0l0	la_mise_en_place_de	N
+26l0l1	restrictions_d__usages	O
+
+#Concernant l'usage des eaux souterraines, il n'y a pas eu d'impact constaté de la pollution des sols sur la qualité des eaux souterraines.
+
+
+#Au 01/06/2012, une révision du plan de gestion doit être transmise par 3Si compte tenu d'aléas de chantiers qui n'ont pas pu permettre de décliner totalement la stratégie retenue initialement.
+
+28l0l0	Au_01_06_2012	T
+28l0l1	une_révision	N
+28l0l2	plan_de_gestion	O
+28l0l3	doit_être	R
+28l0l4	transmise	N
+
+#L'arrêté préfectoral du 25/04/2012 autorise l'exploitation de l'installation au titre des installations classées  pour la protection de l'environnement et reprend les prescriptions associées au plan de gestion.
+
+29l0l0	L__arrêté_préfectoral	O
+29l0l1	25_04_2012	T
+29l0l2	autorise_l__exploitation	N
+29l0l3	l__installation	N
+29l0l4	au_titre	R
+29l0l5	des_installations_classées___pour_la_protection_de_l__environnement	O
+
+#Il impose par ailleurs une surveillance des eaux souterraines afin de vérifier l'absence de risque sanitaire inacceptable.
+
+30l0l0	une_surveillance_des_eaux_souterraines	A

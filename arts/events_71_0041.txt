@@ -1,0 +1,303 @@
+
+#71.0041
+#La société SCHNEIDER ELECTRIC ENERGY FRANCE est autorisée à exploiter une unité spécialisée dans la conception, la fabrication, la vente et l'après-vente d'équipements de distribution d'électricité dans son établissement situé dans la Z.
+
+0l0l0	La_société	R
+0l0l1	SCHNEIDER_ELECTRIC	N
+0l0l2	ENERGY_FRANCE_est_autorisée_à_exploiter	O
+0l0l3	une_unité_spécialisée	N
+
+#. du Stand sur le territoire au sud de la commune de Mâcon.
+
+1l0l0	__du_Stand_sur_le	O
+1l0l1	territoire_au_sud_de_la_commune	O
+1l0l2	de_Mâcon__	N
+1l1l0	__du_Stand_sur_le_territoire_au_sud_de_la_commune	I
+
+#Le site est environné par une zone industrielle au Sud et à l'Est, longé par une voie ferrée à l'Ouest, et adjacent à une zone résidentielle immédiatement au Nord.
+
+2l0l0	est_environné_par_une_zone_industrielle_au_Sud_et	L
+
+#La rivière la Saône coule à moins de 500 mètres à l'Est.
+
+3l0l0	La_rivière	O
+3l0l1	la_Saône_coule	L
+3l0l2	à_moins_de_500_mètres_à_l_	O
+
+#Du point de vue de l'hydrogéologie, la nappe de la Saône est présente au droit du site ; les études réalisées montrent qu'elle s'y écoule aussi bien vers l'Ouest (dans la partie la plus à l'Ouest du site) que vers le Sud-Est (dans la partie la plus à l'Est du site).
+
+4l0l0	hydrogéologie___la_nappe_de_la_Saône	L
+
+#Historique du site:
+
+
+#C'est en 1959 que le site localisé Boulevard de la Résistance a été crée par le Groupe ALSTOM.
+
+
+#En janvier 2004, la société AREVA T&D demande le transfert à son profit de l'autorisation d'exploiter l'unité de fabrication de matériel électrique au droit du site étudié.
+
+7l0l0	En	N
+7l0l1	janvier_2004	T
+7l0l2	la_société	O
+7l0l3	AREVA_T_D_demande_le_transfert_à_son	L
+7l0l4	profit_de_l_	N
+7l0l5	autorisation_d_	O
+7l1l0	autorisation_d_	I
+
+#En date du 7 mars 2011, la société AREVA T&D a été cédée à la société SCHNEIDER ELECTRIC.
+
+8l0l0	En_date_du_7_mars	T
+8l0l1	2011___la_société_AREVA	O
+8l0l2	T_D_a_été_cédée_à_la_société	N
+8l0l3	SCHNEIDER_ELECTRIC__	O
+8l1l0	2011___la_société_AREVA	I
+
+#Le site étudié devient ainsi SCHNEIDER ELECTRIC ENERGY FRANCE et ce changement de dénomination n'a pas entraîné de changement d'activité.
+
+9l0l0	Le_site_étudié_devient	T
+9l0l1	ainsi_SCHNEIDER	O
+9l0l2	ELECTRIC_ENERGY	N
+9l0l3	FRANCE_et_ce_changement_de_dénomination	O
+9l1l0	devient_ainsi_SCHNEIDER_ELECTRIC	I
+9l1l1	ENERGY_FRANCE_et_ce_changement_de_dénomination	I
+
+#Dans le cadre d'une démarche volontaire, l’établissement ALSTOM (ancien exploitant du site), avait fait effectuer courant 1999 des analyses de sol et d'eau de la nappe au droit du site Boulevard de la Résistance.
+
+10l0l0	Dans_le_cadre_d_	O
+10l0l1	une	R
+10l0l2	démarche_volontaire	O
+10l0l3	__l__établissement_ALSTOM	O
+10l0l4	__ancien_exploitant_du_site____	N
+10l0l5	avait_fait_effectuer	N
+10l1l0	volontaire___l__établissement_ALSTOM	I
+
+#Les investigations avaient consisté en la réalisation de 25 forages et de 8 piézomètres.
+
+11l0l0	Les_investigations	N
+11l0l1	la_réalisation_de_25_forages	O
+11l0l2	piézomètres__	A
+11l1l0	réalisation_de_25_forages	I
+
+#Au vu des résultats et de la constatation d'une pollution avérée en métaux, hydrocarbures et composés halogénés volatils, un arrêté préfectoral a été prescrit.
+
+12l0l0	Au_vu_des_résultats_et	N
+12l0l1	d__une_pollution_avérée_en_métaux	N
+12l0l2	__hydrocarbures	O
+
+#4 juillet 2003 : par arrêté préfectoral, la société ALSTOM était tenue de faire réaliser une étude des sols et une évaluation simplifiée des risques conformément à l'ancienne réglementation en vigueur pour les sites et sols pollués.
+
+13l0l0	société_ALSTOM_était	N
+13l0l1	tenue_de_faire	O
+13l0l2	simplifiée_des_risques	O
+13l0l3	conformément	N
+13l1l0	tenue_de_faire_réaliser_une_étude_des_sols_et_une_évaluation	S
+
+#Étant donné le changement d'exploitant en 2004, la société AREVA T&D était tenue de respecter les arrêtés préfectoraux antérieurs dont ceux portant sur la pollution des sols et des eaux souterraines au droit du site.
+
+14l0l0	Étant_donné_le	T
+14l0l1	changement_d__exploitant	O
+14l0l2	en_2004___la_société	O
+14l0l3	AREVA_T_D	R
+14l0l4	était_tenue_de_respecter_les_arrêtés	N
+14l0l5	préfectoraux_antérieurs_dont_ceux_portant	N
+14l1l0	en_2004___la_société	I
+
+#4 août 2004 : par arrêté préfectoral, la société AREVA T&D devait respecter les prescriptions suivantes:
+
+15l0l0	par_arrêté_préfectoral___la	O
+15l0l1	société	T
+15l0l2	AREVA_T_D_devait	O
+15l0l3	respecter_les	N
+15l0l4	prescriptions_suivantes__	O
+15l1l0	AREVA_T_D_devait_respecter	I
+
+#- procéder à une surveillance de la qualité des eaux de la nappe souterraine à l'aide de 4 piézomètres.
+
+16l0l0	__procéder	T
+16l0l1	surveillance_de_la	O
+16l0l2	qualité_des_eaux_de_la_nappe	O
+16l1l0	qualité_des_eaux_de_la_nappe	I
+
+#La fréquence des surveillances était semestrielle et ces dernières portaient sur les métaux (cadmium, arsenic, chrome, cuivre, plomb), les hydrocarbures totaux et les composés halogénés volatils (COHV).
+
+17l0l0	fréquence_des_surveillances_était_semestrielle_et_ces_dernières_portaient	A
+
+#En avril 2008, la société AREVA T&D a sollicité la réduction de la surveillance de la qualité des eaux de la nappe en supprimant le contrôle semestriel des métaux.
+
+18l0l0	société_AREVA_T_D	A
+18l1l0	qualité_des_eaux_de_la_nappe_en_supprimant_le_contrôle_semestriel_des_métaux__	S
+
+#Il apparaissait en effet que le suivi de la nappe était exercé conformément à l'arrêté préfectoral sus-visé et qu'aucune trace de métaux n'avait jamais été détectée depuis 2004.
+
+19l0l0	Il_apparaissait	T
+19l0l1	en_effet_que_le_suivi	O
+19l0l2	de_la_nappe_était_exercé	N
+19l0l3	conformément_à_l__arrêté_préfectoral_sus_visé_et	O
+19l0l4	qu_	R
+19l0l5	aucune_trace	N
+19l0l6	de_métaux_n__avait_jamais_été_détectée	A
+19l1l0	apparaissait_en_effet_que_le_suivi	I
+
+#En septembre 2008, l'inspection des installations classées a reçu un dossier de cessation partielle d'activité.
+
+20l0l0	inspection_des	N
+20l0l1	installations	O
+20l0l2	classées_a_reçu_un_dossier	R
+
+#En effet, les activités de tôlerie et de peinture ont été arrêtées.
+
+21l0l0	En_effet___les_activités	T
+21l0l1	de_tôlerie_et_de_peinture_ont_été_arrêtées	O
+21l0l2	_	N
+
+#Dans le cadre de cette cessation partielle d'activité, 6 sondages de sols et des analyses des eaux souterraines ont été effectués au droit des installations arrêtées.
+
+22l0l0	cadre_de_cette_cessation	A
+22l0l1	partielle_d__activité	A
+22l0l2	__6_sondages	N
+
+#Il en résultait que seule la teneur en métaux était significative compte tenu de la présence de mâchefers utilisés comme remblais.
+
+23l0l0	Il_en_résultait	R
+23l0l1	que_seule_la_teneur_en_métaux_était	O
+23l0l2	significative_compte_tenu	O
+23l0l3	de_la_présence_de_mâchefers_utilisés	A
+23l0l4	comme_remblais	N
+23l0l5	_	L
+
+#Aucune mesure particulière n'a été envisagée.
+
+24l0l0	envisagée	O
+24l1l0	envisagée	S
+
+#10 décembre 2008 : compte tenu des différents rapports de l'organisme chargé du suivi de la nappe concluant que le site n'est pas impacté par les métaux, il a été décidé par arrêté préfectoral de supprimer les analyses portant sur les métaux quant au suivi de la qualité des eaux souterraines.
+
+
+#Ainsi seuls les hydrocarbures totaux et les composés halogénés volatils doivent être surveillés à l'aide de 5 piézomètres.
+
+26l0l0	Ainsi_seuls_les_hydrocarbures	T
+
+#En décembre 2009, des opérations de purge sur un piézomètre (piézomètre à proximité de 2 anciennes cuves enterrées) ont révélé une réalimentation notable en hydrocarbures.
+
+27l1l0	2009___des_opérations_de_purge	S
+27l1l1	sur_un_piézomètre___piézomètre	S
+
+#N'ayant aucune donnée confirmant l'enlèvement de l'une et/ou l'autre cuve, AREVA T&D a décidé de procéder à des investigations de forage au droit de l'emplacement supposé des cuves.
+
+28l0l0	N__ayant_aucune	T
+28l0l1	donnée_confirmant_l__enlèvement	N
+28l0l2	de_l__une_et	O
+28l0l3	cuve___AREVA_T_D	L
+28l0l4	a_décidé_de_procéder	O
+28l0l5	investigations	N
+28l0l6	de_forage_au_droit_de_l_	N
+28l0l7	emplacement_supposé_des	O
+28l1l0	procéder_à_des_investigations	D
+28l1l1	emplacement_supposé_des	S
+
+#Les résultats ont conclu à l'absence des anciennes cuves de stockage de fioul lourd.
+
+29l0l0	absence_des_anciennes	N
+29l0l1	fioul_lourd__	O
+29l1l0	lourd__	I
+
+#De plus, les sondages ont permis de délimiter l'extension de la  zone de pollution, considérée comme zone source active réalimentant le piézomètre concerné.
+
+30l0l0	délimiter_l__extension_de_la___zone_de_pollution__	O
+30l1l0	délimiter_l__extension	D
+30l1l1	pollution__	U
+
+#Celle-ci représentait une surface d'environ 180 m² et un volume de terres contaminées d'environ 400 m3.
+
+31l0l0	ci_représentait_une_surface_d__environ	N
+31l0l1	volume_de_terres_contaminées	O
+31l0l2	d__environ_400	R
+31l0l3	m3__	O
+
+#Compte tenu du maintien de l'activité sur le site, un suivi de la qualité de la nappe tel que pratiqué semestriellement sur le site paraissait suffisant.
+
+32l0l0	suivi_de_la_qualité_de_la_nappe_tel_que	O
+
+#21 octobre 2010 : par arrêté préfectoral, la société AREVA T&D est tenue de réaliser une surveillance de la qualité des eaux de la nappe jusqu'au 30 septembre 2014.
+
+33l0l0	préfectoral__	R
+33l0l1	la_société	O
+33l0l2	AREVA_T_D_est_tenue	A
+33l0l3	réaliser	O
+
+#Les modalités de la surveillance sont les suivantes :
+
+34l0l0	Les_modalités_de	T
+34l0l1	la_surveillance_sont_les	O
+34l0l2	suivantes__	O
+34l1l0	suivantes__	I
+
+#- 6 piézomètres mis en place ;
+
+35l0l0	mis_en_place__	A
+
+#- 2 analyses par an (période de basse eaux et période de hautes eaux) ;
+
+
+#- les paramètres pris en compte sont les hydrocarbures totaux, les composés halogénés volatils et le niveau de flottant pour le piézomètre à proximité des anciennes cuves de fioul lourd ;
+
+37l0l0	compte_sont_les	O
+37l0l1	hydrocarbures_totaux___les	O
+
+#- le curage du piézomètre à proximité des anciennes cuves doit être effectué autant que nécessaire et a minima annuellement.
+
+38l1l0	des_anciennes_cuves_doit	S
+38l1l1	être_effectué_autant	S
+38l1l2	que_nécessaire	S
+
+#La campagne d'août 2011 a montré que les concentrations en composés halogénés volatils (COHV) étaient toutes inférieures au seuil de détection sauf pour un piézomètre (MW8) où des teneurs largement supérieures au seuil réglementaire ont été mesurées.
+
+39l0l0	La_campagne	N
+39l0l1	d__août_2011_a	O
+39l0l2	montré_que_les	L
+39l0l3	concentrations_en_composés_halogénés	N
+39l0l4	volatils___COHV___étaient	O
+
+#L'exploitant a précisé que ce piézomètre devrait faire l'objet d'une attention particulière pour les prochaines campagnes de surveillance.
+
+40l0l0	L__exploitant	N
+40l0l1	a_précisé	T
+40l1l0	objet_d__une_attention_particulière	S
+
+#17 décembre 2013 : un rapport de suivi de la qualité de la nappe souterraine au droit du site a été transmis à l'Inspection, lequel offre un bilan du suivi depuis 2009.
+
+41l0l0	17_décembre_2013	O
+41l0l1	__un_rapport	N
+41l0l2	de_suivi_de_la	O
+41l0l3	qualité_de_la_nappe_souterraine	R
+41l0l4	Inspection___lequel_offre_un_bilan_du	A
+
+#Ce document met en évidence :
+
+42l0l0	Ce_document_met_en	T
+42l0l1	évidence__	O
+
+#- des fluctuations et une tendance à la baisse de la teneur en COHV sur la période considérée ;
+
+
+#- la présence de flottant de fioul lourd dans le piézomètre MW2, lequel est récupéré par curage ;
+
+44l1l0	MW2___lequel	S
+
+#- la persistance dans l'ouvrage MW8 d'un impact par des COHV (Tri- et tétrachloroéthylène), au-delà des valeurs seuils définies par arrêté ministériel du 17 décembre 2008 ;
+
+45l0l0	tétrachloroéthylène_____au_delà	N
+45l1l0	ouvrage_MW8_d__un	U
+
+#- l'absence d'impact détectable par des hydrocarbures C10-C40 dans les eaux souterraines ;
+
+46l1l0	hydrocarbures_C10_C40_dans_les_eaux_souterraines	S
+
+#- des traces de 1,1,1-trichloroéthane dans un ouvrage (MW7bis).
+
+47l1l0	dans_un_ouvrage___MW7bis__	S
+
+#Il est de ce fait proposé de maintenir le suivi des eaux souterraines sur site, et poursuivre le curage annuel des ouvrages impactés par des hydrocarbures flottants.
+
+48l0l0	suivi_des_eaux_souterraines	O
+48l1l0	fait_proposé_de_maintenir_le	S

@@ -1,0 +1,97 @@
+
+#68.0196
+#Il s'agit d'une ancienne gravière sur laquelle ont été déposés de nombreux déchets.
+
+0l0l0	une_ancienne_gravière	O
+0l0l1	ont_été_déposés	N
+0l0l2	de_nombreux_déchets	O
+
+#La date des premiers dépôts reste inconnue à ce jour.
+
+1l0l0	à_ce_jour	T
+
+#L'arrêté municipal n° 28/1996 du 20 août 1996 ferme le site.
+
+2l0l0	L__arrêté_municipal	O
+2l0l1	28_1996	T
+2l0l2	du_20_août_1996	T
+2l0l3	ferme	N
+2l0l4	le_site	O
+
+#Le site est entièrement nivelé, planté de quelques arbres et sert de stockage de gravats et matériaux de construction provenant essentiellement des travaux communaux (tuiles, gravier et pavés).
+
+3l0l0	Le_site	O
+3l0l1	nivelé	N
+3l0l2	sert_de	R
+3l0l3	stockage	A
+3l0l4	travaux_communaux	A
+3l0l5	tuiles	O
+
+#Une clôture et un portail en interdisent l'accès.
+
+4l0l0	Une_clôture	O
+
+#Les types de déchets enfouis dans cette décharge Westergelaend:
+
+
+#- Gravats;
+
+
+#- Encombrants;
+
+7l1l0	Encombrants	S
+
+#- Déchets verts;
+
+8l1l0	Déchets_verts	U
+
+#- Ordures ménagères;
+
+9l1l0	Ordures_ménagères	D
+
+#- Déchets de démolition.
+
+
+#Les déchets ont été entreposés à un niveau de nappe affleurante (3 à 4 mètres de profondeur).
+
+11l0l0	Les_déchets	O
+11l0l1	ont_été_entreposés	N
+
+#Un piézomètre est présent sur site.
+
+
+#Les deux contrôles réalisés font apparaître des anomalies pour :
+
+
+#- composés organiques halogénés adsorbés (AOX) avec une teneur moyenne de 56 µg/L ;
+
+14l1l0	composés_organiques_halogénés	S
+14l1l1	adsorbés	S
+14l1l2	AOX	S
+
+#- zinc avec une concentration de 40 µg/L (inférieure au seuil de potabilité).
+
+15l1l0	zinc	S
+
+#Une étude de l'ANTEA sur les eaux souterraines révèle des traces de:
+
+16l0l0	Une_étude	N
+16l0l1	l__ANTEA	O
+16l1l0	l__ANTEA	I
+
+#- plomb ;
+
+17l1l0	plomb	S
+
+#- manganèse avec une concentration de 10 µg/L (inférieure au seuil de potabilité) ;
+
+18l1l0	manganèse	S
+
+#- mercure.
+
+19l1l0	mercure	S
+
+#En conclusion, l'impact de la décharge sur la nappe est faible, mais le suivi avec analyses doit être maintenu.
+
+20l0l0	le_suivi_avec_analyses	A
+20l0l1	doit	R

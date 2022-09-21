@@ -1,0 +1,133 @@
+
+#62.0076
+#L'activité de l'établissement est la chimie fine organique : synthèse en milieu solvants ou aqueux de principes actifs, d'intermédiaires de principes actifs, de spécialités chimiques destinés principalement au secteur de l'industrie pharmaceutique.
+
+0l0l0	spécialités_chimiques	O
+0l0l1	destinés_principalement	R
+0l0l2	au_secteur_de_l_	A
+
+#e site occupe un terrain de 11ha dont 1800m² couverts.
+
+1l0l0	e_site	O
+1l0l1	un_terrain	O
+1l0l2	1800_m²_couverts	O
+
+#Cette activité s'effectue dans un atelier de fabrication - dit atelier synthèse - équipé de réacteurs chimiques et disposant d'installations de production d'utilités, de stockage, de prétraitement et traitement d'effluents pour l'essentiel.
+
+2l0l0	un_atelier_de_fabrication	O
+2l1l0	effluents	U
+
+#Cette activité comprend aussi la fabrication, dans un atelier spécifique, de l'éthylate de sodium, produit réactif utilisé dans la chimie fine comme agent d'alkylation.
+
+3l0l0	la_fabrication	A
+3l0l1	alkylation	A
+3l1l0	éthylate_de_sodium	S
+
+#Site Seveso seuil haut.
+
+4l0l0	Site_Seveso	O
+
+#Site en activité visé par la circulaire du 3 avril 1996 qui impose une étude des sols sur les sites en activité.
+
+5l0l0	Site_en_activité	O
+5l0l1	visé_par	R
+5l0l2	la_circulaire	O
+5l0l3	3_avril_1996	T
+5l0l4	impose_une_étude_des_sols	N
+5l0l5	les_sites_en_activité	O
+
+#-un bassin de 500m² permet de confiner en cas de besoin, les eaux accidentellement polluées et le trop plein d'eaux pluviales en cas de fortes pluies.
+
+6l0l0	en_cas	T
+6l0l1	de_besoin	O
+
+#-Les zones intérieurs et extérieures dédiées aux activités de production sont imperméabilisés et raccordés au réseau de collecte des eaux usées et pluviales du site.(ces eaux sont traitées dans la station interne).
+
+7l0l0	_Les_zones	O
+7l0l1	activités_de_production	A
+7l0l2	sont_imperméabilisés	N
+7l0l3	raccordés_au_réseau_de_collecte	L
+7l0l4	des_eaux_usées	O
+
+#-La surveillance de la nappe superficielle des sables Flandriens, peu productive et non exploitée en AEP, est assurée par 5 piézomètres prélevés 2 fois par an.(imposée dans le cadre de l’arrêté préfectoral complémentaire en date du 15 octobre 2001.)
+
+8l0l0	_La_surveillance_de_la_nappe	A
+8l0l1	Flandriens	L
+8l0l2	exploitée	N
+8l0l3	en_AEP	A
+8l0l4	fois_par_an_imposée	N
+8l0l5	en_date_du_15_octobre_2001	T
+
+#-En 1999, une pollution de la nappe est détectée sur un piézomètre au niveau de la frontière commune aux établissement Synthexim et Interor.
+
+9l0l0	_En_1999__	T
+9l0l1	une_pollution	N
+9l0l2	la_nappe	O
+9l0l3	est_détectée	N
+9l0l4	un_piézomètre	O
+9l0l5	au_niveau_de_la_frontière_commune	L
+9l0l6	aux_établissement_Synthexim	O
+9l0l7	Interor	O
+9l1l0	Synthexim	I
+9l1l1	Interor	I
+
+#-Arrêté préfectoral du 08/03/2000 imposant la réalisation d'une étude de sol.
+
+10l0l0	_Arrêté_préfectoral	O
+10l0l1	du_08_03_2000	T
+10l0l2	imposant_la_réalisation_d__une_étude_de_sol	N
+
+#-Réalisation dune caractérisation de la pollution des eaux souterraines du site de production de Calais et étude hydrogéologique détaillée, le 15/02/2001.
+
+11l0l0	_Réalisation_dune_caractérisation_de_la_pollution	N
+11l0l1	production	A
+11l0l2	de_Calais	L
+11l0l3	étude_hydrogéologique	N
+11l0l4	le_15_02_2001	T
+
+#-Réalisation d'un pré diagnostic et d'une Évaluation Simplifiée des Risques, le 16/02/2001.
+
+12l0l0	_Réalisation_d__un_pré_diagnostic	N
+12l0l1	une_Évaluation_Simplifiée_des_Risques	N
+12l0l2	le_16_02_2001__	T
+
+#Site en classe 2: à surveiller.
+
+
+#-Arrêté préfectoral complémentaire du 15/10/2001 modifiant les modalités de la surveillance piézométrique.
+
+14l0l0	_Arrêté	N
+14l0l1	préfectoral_complémentaire	O
+14l0l2	15_10_2001	T
+14l0l3	modifiant	N
+14l0l4	les_modalités	O
+14l0l5	surveillance_piézométrique	O
+
+#-Réalisation d'un examen environnemental du site par Pontignac, le 14/05/2002.
+
+15l0l0	_Réalisation_d__un_examen_environnemental	N
+15l0l1	site_par_Pontignac	O
+15l0l2	le_14_05_2002	T
+
+#-Les résultats de surveillance entre 2001 et 2006 font apparaître un maintien voire une diminution de la lentille de pollution.
+
+16l0l0	surveillance	N
+16l0l1	entre_2001_et_2006	T
+16l0l2	une_diminution	N
+16l0l3	lentille_de_pollution	O
+
+#Le risque de transfert de cette pollution vers la nappe de la craie est limitée par l'épaisse couche d'argile de Louvil.
+
+
+#-Etablissement IPPC (Prévention et Réduction Intégrée de la Pollution) ayant fourni un bilan de fonctionnement en 2007.
+
+18l0l0	_Etablissement_IPPC	O
+18l0l1	ayant_fourni_un_bilan_de_fonctionnement	N
+18l0l2	en_2007__	T
+
+#-Site en sécurité vis à vis des tiers.
+
+
+#-Action de l'administration toujours en cours.
+
+20l0l0	l__administration	O

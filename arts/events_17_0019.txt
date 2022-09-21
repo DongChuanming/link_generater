@@ -1,0 +1,252 @@
+
+#17.0019
+#Ancienne usine fabriquant du gaz à partir de la distillation de la houille, exploitée de 1865 à 1961, située en bordure sud de la ville de Saintes (17).
+
+0l0l0	Ancienne_usine	O
+0l0l1	fabriquant_du_gaz	A
+0l0l2	à_partir_de	R
+0l0l3	la_distillation_de_la_houille	A
+0l0l4	exploitée	N
+0l0l5	de_1865_à_1961	T
+0l0l6	située	N
+0l0l7	en_bordure_sud_de_la_ville_de_Saintes	L
+0l0l8	__17__	L
+
+#Depuis 1961, le site est partiellement occupé par un poste de détente gaz.
+
+1l0l0	Depuis_1961	T
+1l0l1	le_site	O
+1l0l2	un_poste_de_détente_gaz	O
+
+#Actuellement, le site est inoccupé.
+
+2l0l0	le_site	O
+
+#L’emprise du site occupe une superficie totale de 10 600 m2 (source : www.cadastre.gouv.fr).
+
+
+#Gaz de France (GDF) a hiérarchisé ses actions sur les 467 sites d’anciennes usines à gaz qu’il gère, répartis sur l’ensemble du territoire.
+
+4l0l0	Gaz_de_France	O
+4l0l1	GDF	O
+4l0l2	a_hiérarchisé	N
+4l0l3	ses_actions	O
+4l0l4	467_sites	O
+4l1l0	Gaz_de_France	I
+4l1l1	GDF	I
+
+#La méthodologie a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l’environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site...).
+
+5l0l0	hiérarchiser	N
+5l0l1	les_sites	O
+5l0l2	en_fonction_de	R
+5l0l3	leur_sensibilité	O
+5l0l4	vis_à_vis_de	R
+5l0l5	l__environnement	O
+
+#L’application de cette méthode a abouti à l’établissement de cinq classes de priorité, pour lesquelles les engagements de GDF ont fait l’objet d’un protocole d’accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d’usines à gaz entre le Ministère de l’Environnement et GDF signé le 25 avril 1996.
+
+6l0l0	L__application	N
+6l0l1	cette_méthode	O
+6l0l2	a_abouti_à	R
+6l0l3	l__établissement	N
+6l0l4	cinq_classes_de_priorité	O
+6l0l5	les_engagements	O
+6l0l6	GDF	O
+6l0l7	ont_fait_l__objet_d_	R
+6l0l8	un_protocole_d__accord	O
+6l0l9	relatif_à	R
+6l0l10	la_maîtrise	O
+6l0l11	suivi	O
+6l0l12	la_réhabilitation	N
+6l0l13	anciens_terrains_d__usines_à_gaz	O
+6l0l14	entre	R
+6l0l15	le_Ministère_de_l__Environnement	O
+6l0l16	GDF	O
+6l0l17	signé	N
+6l0l18	le_25_avril_1996	T
+6l1l0	GDF	I
+6l1l1	le_Ministère_de_l__Environnement	I
+6l1l2	GDF	I
+
+#Le site de Saintes est en classe 2 du protocole.
+
+7l0l0	Le_site_de_Saintes	O
+7l1l0	Saintes	I
+
+#De ce fait, c'est un site dont la sensibilité vis à vis de l'homme, des eaux souterraines et superficielles est limitée.
+
+
+#L'engagement national de GDF sur les sites de classe 2 était de réaliser un diagnostic initial dans un délai de 3 ans (avant fin avril 1999).
+
+9l0l0	GDF	O
+9l0l1	les_sites	O
+9l0l2	classe_2	O
+9l0l3	réaliser_un_diagnostic_initial	N
+9l0l4	dans_un_délai_de_3_ans	T
+9l0l5	avant_fin_avril_1999____	T
+9l1l0	GDF	I
+
+#En fonction du diagnostic, GDF s'engageait à prendre, dans ce délai, en accord avec les services de l'Inspection des Installations Classées, les mesures appropriées à mettre en oeuvre.
+
+10l0l0	En_fonction_du	R
+10l0l1	diagnostic	N
+10l0l2	GDF	O
+10l0l3	s__engageait_à_prendre	N
+10l0l4	les_services_de_l__Inspection_des_Installations_Classées	O
+10l1l0	GDF	I
+
+#Conformément aux engagements du protocole, et en raison d'un projet de cession, un diagnostic initial a été réalisé en 1998, suivi d'un diagnostic approfondi en cours à partir de 1999.
+
+11l0l0	Conformément_aux	R
+11l0l1	engagements	O
+11l0l2	un_projet_de_cession	N
+11l0l3	un_diagnostic_initial	N
+11l0l4	a_été_réalisé	N
+11l0l5	en_1998__	T
+11l0l6	suivi_d_	R
+11l0l7	un_diagnostic_approfondi	N
+11l0l8	partir_de_1999	T
+
+#L'ensemble des études a consisté à effectuer des recherches historiques et documentaires, à rechercher des ouvrages enterrés, à évaluer l'impact du site sur les ressources en eaux souterraines et superficielles, à caractériser le sol superficiel pour évaluer les risques de contact direct et ceux liés à d'éventuelles émanations gazeuses, et à caractériser le sol en profondeur.
+
+
+#Ces diagnostics, effectués par un bureau d’études à la demande de GDF, ont mis en évidence la présence sur le site de plusieurs stockages souterrains (1 cuve à goudrons, 2 cuves à solvants naphta, 2 fosses à goudrons).
+
+13l0l0	Ces_diagnostics	N
+13l0l1	effectués	N
+13l0l2	un_bureau_d__études	O
+13l0l3	à_la_demande_de	R
+13l0l4	GDF	O
+13l0l5	ont_mis_en_évidence	R
+13l0l6	la_présence	O
+13l0l7	plusieurs_stockages_souterrains	O
+13l0l8	cuve_à_goudrons	O
+13l0l9	2_fosses_à_goudrons	O
+13l1l0	GDF	I
+13l1l1	goudrons	U
+13l1l2	2_cuves	D
+13l1l3	solvants_naphta	S
+13l1l4	goudrons	U
+
+#Les deux cuves à solvant naphta ont été neutralisées en avril 1999 et 8 tonnes de solvants éliminées.
+
+14l0l0	Les_deux_cuves_à_solvant_naphta	O
+14l0l1	ont_été_neutralisées	N
+14l0l2	en_avril_1999	T
+14l0l3	8_tonnes_de_solvants_éliminées	O
+14l1l0	cuves	D
+14l1l1	solvant_naphta	S
+14l1l2	solvants	U
+
+#GDF a réalisé en 2001 la neutralisation des ouvrages restants.
+
+15l0l0	GDF	O
+15l0l1	a_réalisé	N
+15l0l2	en_2001	T
+15l0l3	la_neutralisation	N
+15l0l4	ouvrages	O
+15l1l0	GDF	I
+
+#Ainsi, 193 tonnes de goudrons solides et pateux, 31 tonnes d'eaux souillées par les hydrocarbures et 70 m3 de terres souillées ont été traitées.
+
+16l0l0	terres_souillées	O
+16l0l1	ont_été_traitées	N
+16l1l0	goudrons_solides	U
+16l1l1	hydrocarbures	S
+
+#L’analyse des eaux de la nappe alluviale prélevées au moyen de cinq piézomètres a mis en évidence la présence locale de certains composés liés à l’activité de production de gaz de houille.
+
+17l0l0	activité_de_production_de_gaz_de_houille	A
+
+#Le terrain est inclus dans le périmètre de protection éloigné du captage AEP de Lucérat (nappe du Santonien) et des mesures régulières montrent que l'eau pompée, sur cet ouvrage, est de bonne qualité.
+
+18l0l0	Le_terrain	O
+18l0l1	est	R
+18l0l2	inclus_dans_le_périmètre_de_protection_éloigné_du_captage_AEP_de_Lucérat	L
+
+#Néanmoins, la nappe au droit du site ayant démontré une contamination notable, il a été réalisé une étude hydrogéologique complémentaire, à l'issue de laquelle il a été confirmé la nécessité de continuer la surveillance semestrielle de la qualité des eaux souterraines, ainsi que de celles de la Charente, qui draine la nappe alluviale.
+
+19l0l0	la_nappe	O
+19l0l1	au_droit_du_site	L
+19l0l2	ayant_démontré	N
+19l0l3	une_contamination	O
+19l0l4	il	O
+19l0l5	a_été_réalisé	N
+19l0l6	une_étude_hydrogéologique_complémentaire	N
+19l0l7	la_nécessité	O
+19l0l8	la_surveillance_semestrielle	A
+19l0l9	la_qualité_des_eaux_souterraines	O
+19l0l10	la_Charente	L
+
+#En juillet 2004, suite à une dégradation de la qualité des eaux souterraines et au constat de certaines contaminations ponctuelles de la Charente, l'inspection des installations classées a demandé à GDF de rechercher les explications de cette mobilisation de pollution, afin de définir les mesures opportunes, le cas échéant, pour limiter les impacts.
+
+20l0l0	En_juillet_2004__	T
+20l0l1	suite_à	R
+20l0l2	une_dégradation	N
+20l0l3	la_qualité_des_eaux_souterraines	O
+20l0l4	au_constat	N
+20l0l5	certaines_contaminations	O
+20l0l6	ponctuelles	N
+20l0l7	de_la_Charente	L
+20l0l8	l__inspection_des_installations_classées	O
+20l0l9	a_demandé	N
+20l1l0	GDF	I
+
+#Par suite, et dans le cadre d'un projet d'aménagement de ce site, GDF a transmis, en mars et en juin 2005, un diagnostic des sols et un schéma de réhabilitation.
+
+21l0l0	le_cadre_d_	R
+21l0l1	un_projet_d__aménagement	N
+21l0l2	GDF	O
+21l0l3	a_transmis	N
+21l0l4	en_mars_et_en_juin_2005__	T
+21l0l5	un_diagnostic	N
+21l0l6	sols	N
+21l0l7	un_schéma_de_réhabilitation	O
+21l1l0	GDF	I
+
+#En retour, l'inspection des installations classées a sollicité, le 18 juillet 2005, un certain nombre de précisions auprès du responsable de ce site.
+
+22l0l0	l__inspection_des_installations_classées	O
+22l0l1	a	N
+22l0l2	le_18_juillet_2005__	T
+
+#Le projet de réaménagement a été par la suite abandonné.
+
+23l0l0	Le_projet_de_réaménagement	O
+23l0l1	a_été_par_la_suite_abandonné	N
+
+#En avril 2015, au regard des rapports de suivi environnemental des années précédentes, GDF a demandé l'autorisation d'interrompre le suivi des eaux superficielles de la Charente.
+
+24l0l0	En_avril_2015__	T
+24l0l1	suivi_environnemental	O
+24l0l2	des_années_précédentes	T
+24l0l3	GDF	O
+24l0l4	a_demandé	N
+24l0l5	l__autorisation	O
+24l0l6	d_	N
+24l0l7	interrompre	R
+24l0l8	le_suivi_des_eaux_superficielles_de_la_Charente	A
+24l1l0	GDF	I
+
+#Les analyses ne montrant aucune contamination significative, cette surveillance a été stoppée.
+
+25l0l0	Les_analyses	N
+25l0l1	cette_surveillance	N
+25l0l2	a_été_stoppée	N
+
+#Le suivi se poursuit donc désormais par le biais de 3 piézomètres.
+
+26l0l0	Le_suivi	A
+
+#Par ailleurs, en cas de mutation des terrains et/ou de changement d'usage et/ou de projet de travaux, le propriétaire et/ou le porteur de projet seront le cas échéant amenés à faire procéder sous leur responsabilité à un examen plus approfondi de l'état des sols du site, afin de s'assurer de sa compatibilité avec l'usage futur prévu.
+
+27l0l0	cas_de_mutation	N
+27l0l1	des_terrains	O
+27l0l2	de_changement_d__usage	N
+27l0l3	de_projet_de_travaux	N
+27l0l4	le_propriétaire	O
+27l0l5	le_porteur_de_projet	O
+27l0l6	seront_le_cas_échéant	N
+27l0l7	un_examen_plus_approfondi	N
+27l0l8	l__état_des_sols_du_site	O

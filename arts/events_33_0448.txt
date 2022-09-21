@@ -1,0 +1,210 @@
+
+#33.0448
+#Ancienne station-service exploitée de décembre 2011 à juillet 2013.
+
+0l0l0	Ancienne_station	O
+0l0l1	exploitée	N
+0l0l2	de_décembre_2011_à_juillet_2013__	T
+0l1l0	service	I
+
+#Les installations ont fait l'objet du récépissé n° BL598 du 13/12/11 pour la rubrique 1435-3.
+
+1l0l0	Les_installations	O
+1l0l1	ont_fait_l__objet_du	R
+1l0l2	récépissé	O
+1l0l3	13_12_11	T
+
+#Le foncier appartient à la liquidation de l'entreprise.
+
+2l0l0	Le_foncier	O
+2l0l1	appartient_à	R
+2l0l2	la_liquidation	N
+2l0l3	l__entreprise	O
+
+#Les cuves sont la propriété de TOTAL.
+
+3l0l0	Les_cuves	O
+3l0l1	sont_la_propriété_de	R
+3l0l2	TOTAL	O
+3l1l0	TOTAL	S
+
+#1-DIAGNOSTIC
+
+4l0l0	1_DIAGNOSTIC	N
+
+#Un diagnostic a été réalisé en 2010 par le bureau d'études AMDE.
+
+5l0l0	Un_diagnostic	N
+5l0l1	a_été_réalisé	N
+5l0l2	en_2010	T
+5l0l3	le_bureau_d__études_AMDE	O
+5l1l0	AMDE	I
+
+#Ce dernier concluait montrait la présence d'anomalies en hydrocarbures et BTEX dans les sols au niveau des pistes de distribution et du parc à cuves.
+
+6l0l0	au_niveau_des	R
+6l0l1	pistes_de_distribution	N
+6l0l2	cuves	O
+6l1l0	hydrocarbures	S
+6l1l1	BTEX	S
+6l1l2	cuves	D
+
+#Les analyses d'eau souterraines ont montré la présence d'un impact très faible en hydrocarbures et toluène.
+
+7l0l0	Les_analyses	N
+7l0l1	la_présence_d__un_impact	O
+7l1l0	hydrocarbures	S
+7l1l1	toluène	S
+
+#2-TRAVAUX
+
+8l0l0	2_TRAVAUX	N
+
+#Les travaux de démantèlement ont été réalisés entre octobre et novembre 2013 :
+
+9l0l0	Les_travaux_de_démantèlement	N
+9l0l1	ont_été_réalisés	N
+9l0l2	entre_octobre_et_novembre_2013	T
+
+#- retrait des 3 réservoirs de carburant
+
+10l0l0	carburant	O
+10l1l0	carburant	U
+
+#- retrait des postes de distribution
+
+11l0l0	retrait	N
+11l0l1	des_postes_de_distribution	O
+11l1l0	distribution	U
+
+#- retrait des tuyauteries
+
+12l0l0	retrait	N
+12l0l1	des_tuyauteries	O
+
+#- retrait des installations de dépotage
+
+13l0l0	retrait	N
+13l0l1	des_installations_de_dépotage	O
+
+#- retrait des évents
+
+14l0l0	retrait_des_évents	N
+
+#- retrait du séparateur d'hydrocarbures.
+
+15l0l0	retrait	N
+15l0l1	du_séparateur_d__hydrocarbures	O
+15l1l0	hydrocarbures	S
+
+#Lors de ces travaux, 1371 tonnes de terre polluée ont été excavées et envoyées au centre de traitement OCCITANIS (Graulhet, 81).
+
+16l0l0	Lors	T
+16l0l1	de_ces_travaux	N
+16l0l2	1371_tonnes_de_terre_polluée	O
+16l0l3	ont_été_excavées	N
+16l0l4	envoyées_au_centre_de_traitement_OCCITANIS	O
+16l0l5	Graulhet___81	L
+16l1l0	OCCITANIS	I
+
+#Suite aux travaux d'excavation, le bureau d'études AMDE préconise la réalisation d'un contrôle de la qualité de l'air dans la boutique et l'analyse de la qualité du cours d'eau situé à l'aval du site.
+
+17l0l0	Suite	R
+17l0l1	aux_travaux_d__excavation	N
+17l0l2	le_bureau_d__études_AMDE	O
+17l0l3	préconise_la_réalisation_d__un_contrôle	N
+17l0l4	la_qualité_de_l__air	O
+17l0l5	l__analyse_de_la_qualité_du_cours_d_	A
+17l0l6	eau_situé_à_l__aval_du_site	L
+17l1l0	AMDE	I
+
+#3-ANALYSE DES EAUX SOUTERRAINES
+
+18l0l0	EAUX_SOUTERRAINES	O
+18l1l0	SOUTERRAINES	I
+
+#L'exploitant n'a pas réalisé d'analyses des eaux souterraines lors de travaux de dépollution.
+
+19l0l0	L__exploitant	O
+19l0l1	n__a_pas_réalisé	N
+19l0l2	d__analyses	N
+19l0l3	des_eaux_souterraines	O
+19l0l4	de_travaux_de_dépollution	N
+
+#L'inspection demande la mise en place d'un piézomètre en aval du site et la réalisation d'analyses complémentaires.
+
+20l0l0	L__inspection	O
+20l0l1	demande_la_mise_en_place_d_	N
+20l0l2	un_piézomètre	O
+20l0l3	en_aval_du_site	L
+20l0l4	la_réalisation_d__analyses	N
+
+#4-AVIS DE L'INSPECTION
+
+21l0l0	L__INSPECTION	O
+21l1l0	L__INSPECTION	I
+
+#Les travaux de dépollution entrepris sur le site ne sont pas suffisants : les concentrations de polluants retrouvés dans les terres laissées en place sont importantes.
+
+22l0l0	Les_travaux_de_dépollution_entrepris	N
+22l0l1	le_site	O
+22l1l0	polluants	S
+
+#Les limites techniques évoquées ne peuvent être considérées comme des limites à l’excavation des terres.
+
+23l0l0	l__excavation	N
+23l0l1	des_terres	N
+
+#De ce fait, l'inspection demande la transmission d'un plan de gestion de la pollution laissée en place basé sur un bilan coût/avantage.
+
+24l0l0	la_transmission	N
+24l0l1	un_plan_de_gestion	N
+24l0l2	la_pollution	O
+
+#Le 16 mai 2016, un piézomètre complémentaire a été installé en aval hydraulique des anciennes pistes de distribution.
+
+25l0l0	Le_16_mai_2016__	T
+25l0l1	un_piézomètre_complémentaire	O
+25l0l2	a_été_installé	N
+25l0l3	en_aval_hydraulique_des_anciennes_pistes	L
+25l0l4	de_distribution	N
+
+#Les campagnes de surveillance de la qualité des eaux souterraines effectuée en mai et septembre 2016 ont permis de:
+
+26l0l0	Les_campagnes_de_surveillance	N
+26l0l1	de	A
+26l0l2	la_qualité_des_eaux_souterraines	O
+26l0l3	effectuée	N
+26l0l4	en_mai_et_septembre_2016	T
+
+#-vérifier la présence d'une nappe peu profonde (0.3 à 1.9m sous la surface), de perméabilité médiocre (gradient hydraulique de 0.2 à 6%) et drainée par le réseau hydrographique superficiel (écoulement vers le Sud-Est en direction du ruisseau le Peujais);
+
+27l0l0	drainée	N
+27l0l1	vers_le_Sud_Est_en_direction_du_ruisseau_le_Peujais	L
+
+#-confirmer l'absence d'impact en hydrocarbures dissous et BTEX dans les eaux souterraines en aval hydraulique des anciennes pistes de distribution;
+
+28l0l0	en_aval_hydraulique_des_anciennes_pistes_de_distribution	L
+28l1l0	hydrocarbures_dissous	S
+28l1l1	BTEX	S
+
+#-noter, à l'aide d'un schéma conceptuel, l'absence de risques sanitaires potentiels  aussi bien sur site que hors site.
+
+
+#En l'absence de transfert ou de risques sanitaires sur et hors site les teneurs résiduels ne nécessitent pas la mise en ouvre de mesures de gestion complémentaires pour une usage comparable au dernier usage (commercial).
+
+30l0l0	nécessitent	T
+30l0l1	pas_la_mise_en_ouvre_de_mesures	N
+
+#Toutefois, il conviendra de conserver la mémoire des teneurs actuellement en place au droit du site notamment sous les anciennes pistes de distribution.
+
+
+#Enfin, la société AMDE recommande également l'inertage des ouvrages de contrôle de la qualité des eaux souterraines dans les règles de l'art.
+
+32l0l0	la_société_AMDE	O
+32l0l1	l__inertage	O
+32l0l2	des_ouvrages_de_contrôle	N
+32l0l3	la_qualité_des_eaux_souterraines	O
+32l0l4	dans	R
+32l0l5	les_règles_de_l__art	O
+32l1l0	la_société_AMDE	I

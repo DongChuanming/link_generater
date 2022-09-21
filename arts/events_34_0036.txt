@@ -1,0 +1,453 @@
+
+#34.0036
+#La société TOTAL a exploité de 1990 à 2004 un dépôt d'une capacité de 135 138 m3 construit en 1968 sur 54 700 m2 en zone portuaire de Sète.
+
+0l0l0	La_société_TOTAL	O
+0l0l1	a_exploité	N
+0l0l2	de_1990_à_2004	T
+0l0l3	un_dépôt	O
+0l0l4	construit	N
+0l0l5	en_1968	T
+0l0l6	en_zone_portuaire_de_Sète	L
+0l1l0	La_société_TOTAL	I
+0l1l1	dépôt	D
+
+#Le dépôt comprenait 11 réservoirs d’hydrocarbures liquides de catégories B et C, et des installations de chargement des camions citernes sur 4 îlots.
+
+1l0l0	Le_dépôt	O
+1l0l1	comprenait	R
+1l0l2	11_réservoirs_d__hydrocarbures_liquides	O
+1l0l3	des_installations_de_chargement	O
+1l1l0	11_réservoirs_d_	D
+1l1l1	hydrocarbures_liquides	U
+
+#Les installations exploitées par la société TOTAL en zone Portuaire à Sète sont autorisées par l’arrêté préfectoral n° 5172 du 17 août 1967 modifié par les arrêtés préfectoraux n° 72 55 du 15 mars 1972 et n° 92-1-2465 du 1er septembre 1992.
+
+2l0l0	Les_installations	O
+2l0l1	exploitées	N
+2l0l2	la_société_TOTAL	O
+2l0l3	en_zone_Portuaire_à_Sète	L
+2l0l4	sont_autorisées	N
+2l0l5	l__arrêté_préfectoral	O
+2l0l6	17_août_1967	T
+2l0l7	15_mars_1972	T
+2l0l8	du_1er_septembre_1992__	T
+2l1l0	la_société_TOTAL	I
+2l1l1	Portuaire	I
+2l1l2	Sète	I
+
+#Le dépôt était alimenté uniquement par pipeline depuis le dépôt GDH à Frontignan via un centre d’approvisionnement et de distribution sur le port de Sète, à 350 m du dépôt TOTAL.
+
+3l0l0	Le_dépôt_était_alimenté	O
+3l0l1	pipeline	O
+3l0l2	depuis_le_dépôt_GDH_à_Frontignan	L
+3l0l3	via_un_centre_d_	O
+3l0l4	approvisionnement_et_de_distribution	A
+3l0l5	sur_le_port_de_Sète	L
+3l0l6	à_350_m_du_dépôt_TOTAL	L
+3l1l0	le_dépôt_GDH	I
+3l1l1	dépôt_TOTAL	D
+
+#Le site se trouve en  zone portuaire de Sète.
+
+4l0l0	Le_site	O
+4l0l1	se_trouve_en___zone_portuaire_de_Sète	L
+4l1l0	de_Sète	I
+
+#Les premières habitations sont distantes de 500 m.
+
+5l0l0	Les_premières_habitations	O
+
+#Au voisinage proche on trouve un stockage de bois, des hangars de stockages détenus par la l'établissement Public régional Port Sud de France, une gare de fret SNCF.
+
+6l0l0	Au_voisinage_proche	O
+6l0l1	un_stockage_de_bois	O
+6l0l2	des_hangars_de_stockages	O
+6l0l3	la_l__établissement_Public_régional_Port_Sud_de_France	O
+6l0l4	une_gare_de_fret_SNCF	O
+6l1l0	établissement_Public_régional_Port_Sud_de_France	I
+
+#Sols : sables, graviers; nappe à 1,5 m de profondeur.
+
+
+#En 2011, le site a été réaménagé.
+
+8l0l0	En_2011__	T
+8l0l1	le_site	O
+8l0l2	a_été_réaménagé	N
+
+#Il est aujourd'hui dédié au stockage de produits divers (éléments d'éoliennes, éléments de forage pétrolier, containers).
+
+9l0l0	Il_est_aujourd_hui	O
+9l0l1	dédié	T
+9l0l2	au_stockage_de_produits_divers	A
+
+#La surveillance de la nappe était prescrite depuis le 01/09/1992 .
+
+10l0l0	La_surveillance	A
+10l0l1	la_nappe	O
+10l0l2	était_prescrite	N
+10l0l3	depuis_le_01_09_1992	T
+
+#Plusieurs incidents durant l’activité du site ont conduit à des pollutions accidentelles des sols et des eaux souterraines ; les plus récentes sont :
+
+11l0l0	Plusieurs_incidents	O
+11l0l1	l__activité_du_site	A
+11l0l2	ont_conduit_à	R
+11l0l3	des_pollutions_accidentelles	N
+
+#- Avril 1997 : fuite sur tuyauterie aérienne alimentant le poste de chargement,
+
+12l0l0	__Avril_1997	T
+12l0l1	__fuite	N
+12l0l2	sur_tuyauterie_aérienne_alimentant_le_poste_de_chargement	A
+
+#- Septembre 1997 : débordement d’une citerne au poste de chargement,
+
+13l0l0	Septembre_1997	T
+13l0l1	__débordement	N
+13l0l2	d__une_citerne	O
+13l0l3	chargement	A
+
+#- Septembre 1997 : découverte d’une fuite au fond d’un bac,
+
+14l0l0	Septembre_1997	T
+14l0l1	__découverte_d_	R
+14l0l2	une_fuite	O
+14l0l3	au_fond_d__un_bac	L
+
+#- Mai 2000 : fuite d’environ 55,5 m3 sur tuyauterie enterrée alimentant le poste de chargement.
+
+15l0l0	__Mai_2000	T
+15l0l1	__fuite	N
+15l0l2	55_5_m3	O
+15l0l3	sur_tuyauterie_enterrée_alimentant_le_poste_de_chargement	L
+
+#Une étude ponctuelle de dépollution après la fuite sur canalisation enterrée est menée en juin 2000 par ANTEA.
+
+16l0l0	Une_étude_ponctuelle_de_dépollution	N
+16l0l1	après	O
+16l0l2	la_fuite_sur_canalisation_enterrée	N
+16l0l3	est_menée	N
+16l0l4	en_juin_2000	T
+16l0l5	ANTEA	O
+16l1l0	ANTEA	I
+
+#TOTAL a remis le 5 juillet 2004 un document de synthèse des travaux de dépollution, rédigé par ANTEA, ainsi qu'une expertise métallurgique.
+
+17l0l0	TOTAL	O
+17l0l1	a_remis	N
+17l0l2	le_5_juillet_2004	T
+17l0l3	un_document_de_synthèse_des_travaux_de_dépollution	N
+17l0l4	ANTEA	O
+17l0l5	une_expertise_métallurgique	N
+17l1l0	TOTAL	I
+17l1l1	ANTEA	I
+
+#L'exploitant a réalisé des travaux de récupération, pompages des surnageants, écrémages , d'août 2001 jusqu’en avril 2004.
+
+18l0l0	L__exploitant	O
+18l0l1	a_réalisé	N
+18l0l2	des_travaux_de_récupération	N
+18l0l3	pompages_des_surnageants	N
+18l0l4	écrémages	O
+18l0l5	d__août_2001	T
+18l0l6	en_avril_2004__	T
+18l1l0	surnageants	U
+
+#La quasi totalité des produits ont été récupérés, soit 11,5 m3 au moment de la fuite et 45,5 m3 retirés du sol.
+
+19l0l0	La_quasi_totalité_des_produits	O
+19l0l1	ont_été_récupérés	N
+19l0l2	retirés	N
+
+#Monsieur le Préfet de l’Hérault a pris acte de l’achèvement des travaux par lettre du 11 octobre 2004.
+
+20l0l0	Monsieur_le_Préfet_de_l__Hérault	O
+20l0l1	a_pris_acte	N
+20l0l2	l__achèvement_des_travaux	N
+20l0l3	11_octobre_2004__	T
+20l1l0	le_Préfet	I
+
+#L’exploitant a informé Monsieur le Préfet de l’Hérault de la cessation de l’activité de ce dépôt pétrolier, par lettre du 13 août 2004, accompagnée d'un mémoire de cessation d’activité.
+
+21l0l0	L__exploitant	O
+21l0l1	a_informé	N
+21l0l2	Monsieur_le_Préfet_de_l__Hérault	O
+21l0l3	de_la_cessation_de_l__activité	N
+21l0l4	ce_dépôt_pétrolier	O
+21l0l5	13_août_2004__	T
+21l0l6	un	O
+21l0l7	mémoire_de_cessation_d__activité	N
+21l1l0	le_Préfet	I
+21l1l1	dépôt_pétrolier	D
+
+#Ce dernier comportait un diagnostic sommaire de la qualité des sols et eaux souterraines montrant une contamination jusqu'à 16 500 mg/kg d'hydrocarbure dans le sol.
+
+22l0l0	un_diagnostic_sommaire	N
+22l1l0	hydrocarbure	S
+
+#Les installations ont été démantelées, à l'exception du bâtiment administratif .
+
+23l0l0	Les_installations	O
+23l0l1	ont_été_démantelées	N
+23l0l2	du_bâtiment_administratif	O
+
+#L'arrêté préfectoral du 20/12/2005 a prescrit un diagnostic approfondi et une évaluation détaillée des risques (EDR).
+
+24l0l0	L__arrêté_préfectoral	O
+24l0l1	20_12_2005	T
+24l0l2	a_prescrit_un_diagnostic_approfondi	N
+
+#L'exploitant a produit le diagnostic approfondi en juillet 2006 et l'EDR en novembre 2006.
+
+25l0l0	L__exploitant	O
+25l0l1	a_produit_le_diagnostic_approfondi	N
+25l0l2	en_juillet_2006	T
+25l0l3	l_	O
+25l0l4	EDR	N
+25l0l5	en_novembre_2006__	T
+
+#Ce nouveaux diagnostic a révélé la présence localement de teneurs en hydrocarbure de l'ordre de 48 000 mg/kg.
+
+26l0l0	Ce_nouveaux_diagnostic	N
+26l1l0	hydrocarbure	S
+
+#Les sources de pollution ( Hydrocarbures, BTEX, HAP) sont principalement localisées à l'intérieur du site (poste de chargement, pomperie, bassin d'orage, voie ferrée, et 2 zones ponctuelles); la nappe s'apparente à une lentille d'eau douce dont l'exutoire est la mer, soit directement, soit via des canaux.
+
+27l0l0	Les_sources_de_pollution	O
+27l0l1	principalement_localisées	N
+27l0l2	à_l__intérieur_du_site	L
+27l0l3	poste_de_chargement	O
+27l0l4	pomperie	O
+27l0l5	des_canaux	O
+27l1l0	Hydrocarbures	S
+27l1l1	BTEX	S
+27l1l2	HAP	S
+27l1l3	une_lentille	U
+
+#Le canal de la Peyrade et celui du Rhône à Sète font office de barrières hydrauliques.
+
+28l0l0	Le_canal_de_la_Peyrade	O
+28l0l1	celui_du_Rhône_à_Sète	L
+
+#L'EDR ressources en eau indique qu'il n'y a pas de risque induit pour des captages d'eaux exploités.
+
+
+#L'EDR santé  tient compte d'un recouvrement des sols et de l'élimination des flottants.
+
+30l0l0	l__élimination_des_flottants	N
+
+#Elle envisage 3 scénarios et évalue le risque pour la santé, au regard des seuils de la circulaire ministérielle du 10 décembre 1999:
+
+31l0l0	10_décembre_1999	T
+
+#- scénario 1 : réutilisation du bâtiment administratif pour usage industriel; le risque est acceptable
+
+32l0l0	réutilisation_du_bâtiment_administratif	N
+32l0l1	usage_industriel	O
+32l0l2	le_risque	O
+
+#- scénario 2: construction de bureaux; le risque est inacceptable sur les zones d'impact, acceptable sur le reste du site.
+
+33l0l0	construction_de_bureaux	N
+33l1l0	bureaux	D
+
+#- scénario 3: parking; l'acceptabilité varie selon l'usage (utilisateur ou travailleur).
+
+
+#L'arrêté préfectoral du 02 septembre 2008 a prescrit la réalisation de travaux nécessaires à la réhabilitation du site, puis la justification de la compatibilité de l’état du site avec l'usage envisagé compte tenu des teneurs résiduelles.
+
+35l0l0	L__arrêté_préfectoral	O
+35l0l1	du_02_septembre_2008	T
+35l0l2	a_prescrit	N
+35l0l3	la_réalisation_de_travaux	N
+35l0l4	nécessaires_à	R
+35l0l5	la_réhabilitation	N
+35l0l6	site	O
+35l0l7	la_justification	O
+35l0l8	usage_envisagé	O
+
+#En particulier, la compatibilité avec l’usage en  parking de transit de voyageurs, bâtiments de bureaux et hangars a été examinée.
+
+36l0l0	l__usage	O
+36l0l1	__parking_de_transit	O
+36l0l2	et_hangars	O
+36l0l3	a_été_examinée	N
+
+#Suite aux études environnementales, des travaux de réhabilitation des sols et des eaux souterraines ont été effectués entre juin 2007 et mai 2009.
+
+37l0l0	Suite_aux	R
+37l0l1	études_environnementales	N
+37l0l2	des_travaux_de_réhabilitation	N
+37l0l3	sols_et_des_eaux_souterraines	O
+37l0l4	ont_été_effectués	N
+37l0l5	entre_juin_2007_et_mai_2009__	T
+
+#Ces travaux ont consisté en :
+
+
+#- l'excavation des sols au droit du site présentant des concentrations en hydrocarbures totaux supérieures à l'objectif de réhabilitation défini dans l'arrêté préfectoral du 02 septembre 2008 : 5 000 mg/kg MS ;
+
+39l0l0	l__excavation	N
+39l0l1	des_sols	N
+39l0l2	au_droit_du_site	L
+39l0l3	l__arrêté_préfectoral	O
+39l0l4	du_02_septembre_2008	T
+39l1l0	hydrocarbures_totaux	S
+
+#- le traitement sur site des terres impactées par voie biologique (aération par brassage mécanique et ensemencement bactérien), puis en finition par voie chimique (chaulage) ;
+
+40l0l0	le_traitement_sur_site	N
+40l0l1	terres_impactées	O
+40l0l2	par_voie_biologique	N
+40l0l3	ensemencement	N
+40l0l4	finition_par_voie_chimique	O
+40l0l5	chaulage	A
+
+#- l'extraction du flottant identifié sur la nappe souterraine par un système de pompage-écrémage pneumatique ou par des feuilles adsorbantes oléophiles ;
+
+41l0l0	l__extraction	N
+41l0l1	pompage	A
+
+#- le remblaiement des zones excavées avec les terres traitées, des gravats de démolition et avec des terres saines.
+
+42l0l0	le_remblaiement_des_zones_excavées	N
+42l0l1	les_terres_traitées	O
+42l0l2	gravats_de_démolition	N
+42l0l3	des_terres_saines	O
+
+#Au total, 9 171 m3 de terres ont été excavées et mis en andains de traitement.
+
+43l0l0	m3_de_terres	O
+43l0l1	ont_été_excavées	N
+43l0l2	mis_en_andains_de_traitement	N
+
+#A l'issue de ces travaux de réhabilitation, des analyses de sol ont montré une teneur résiduelle moyenne de 1900 mg/kg MS, c'est-à-dire inférieure aux objectifs de réhabilitation.
+
+44l0l0	A_l_	T
+44l0l1	issue_de_ces_travaux_de_réhabilitation	N
+
+#Cependant, quelques fronts et fonds de fouille présentent localement des teneur supérieures à 5 000 mg/kg MS.
+
+
+#En effet, en raison d'atteinte des limites techniques et pour des raisons de stabilité et de sécurité des ouvrages / terrains, les excavations ont du être arrêtées avant atteinte du seuil de dépollution.
+
+46l0l0	les_excavations	N
+46l0l1	ont_du_être_arrêtées	N
+46l0l2	avant_atteinte	N
+46l0l3	dépollution	N
+
+#Environ 7200 m3 de terres saines ont été utilisées pour le recouvrement des terres traitées sur une épaisseur minimale de 30 cm.
+
+47l0l0	7200_m3_de_terres_saines	O
+47l0l1	le_recouvrement	N
+47l0l2	des_terres_traitées	O
+
+#Environ 100 litres de produits flottants ont été extraits dans le cadre du traitement de la nappe souterraine et éliminés en filière d'élimination agréée.
+
+48l0l0	ont_été_extraits	N
+48l0l1	dans_le_cadre_du_traitement	R
+48l0l2	éliminés_en_filière	N
+48l1l0	produits_flottants	U
+
+#A l'issue de ces travaux, la société TOTAL a remis en juin 2009 une analyse des risques résiduels (ARR).
+
+49l0l0	la_société_TOTAL	O
+49l0l1	a_remis	N
+49l0l2	en_juin_2009	T
+49l0l3	une_analyse	N
+49l0l4	des_risques_résiduels	O
+49l1l0	la_société_TOTAL	I
+
+#Celle-ci a conclu à l'absence de risque sanitaire pour les aménagements envisagés (parking de transit de voyageurs, bâtiments de bureaux et hangars).
+
+50l0l0	les_aménagements_envisagés	O
+50l0l1	transit_de_voyageurs	O
+50l0l2	hangars	O
+
+#Une visite de récolement suite aux travaux de réhabilitation a été faite par l'inspection des installations classées le 26 juin 2009.
+
+51l0l0	Une_visite_de_récolement	N
+51l0l1	suite	R
+51l0l2	aux_travaux_de_réhabilitation	N
+51l0l3	a_été_faite	N
+51l0l4	l__inspection_des_installations_classées	O
+51l0l5	le_26_juin_2009__	T
+
+#Le 1er juin 2010, la société TOTAL RAFFINAGE MARKETING a adressé un dossier de demande d'institution de servitudes pour son ancien site.
+
+52l0l0	Le_1er_juin_2010__	T
+52l0l1	la_société_TOTAL	O
+52l0l2	RAFFINAGE_MARKETING	A
+52l0l3	a_adressé	N
+52l0l4	un_dossier_de_demande_d__institution_de_servitudes	O
+52l0l5	son_ancien_site	O
+52l1l0	la_société_TOTAL_RAFFINAGE_MARKETING	I
+
+#A l'issue de l'instruction de ce dossier, un arrêté préfectoral d'instauration de servitudes a été présenté devant les membres du conseil départemental de l'environnement et des risques sanitaires et technologiques de l'Hérault le 29 septembre 2011.
+
+53l0l0	l__issue_de_l__instruction	N
+53l0l1	ce_dossier	O
+53l0l2	un_arrêté_préfectoral	O
+53l0l3	d_	N
+53l0l4	instauration_de_servitudes	O
+53l0l5	a_été_présenté_devant	N
+53l0l6	les_membres_du_conseil_départemental_de_l__environnement_et_des_risques_sanitaires_et_technologiques_de_l__Hérault	O
+53l0l7	le_29_septembre_2011__	T
+
+#Cet arrêté a été signé le 30 novembre 2011.
+
+54l0l0	Cet_arrêté	O
+54l0l1	a_été_signé	N
+54l0l2	le_30_novembre_2011__	T
+
+#Cet acte n'a pu être enregistré par les hypothèques et a été modifié afin de pouvoir l'être le 28 février 2017.
+
+55l0l0	Cet_acte	O
+55l0l1	n__a_pu	N
+55l0l2	les_hypothèques	O
+55l0l3	a_été_modifié	N
+55l0l4	afin	R
+55l0l5	de_pouvoir_l__être	N
+55l0l6	le_28_février_2017__	T
+
+#Un Secteur d'information sur les sols (SIS) a été acté par arrêté préfectoral du 9 août 2018 sur les terrains concernés par la pollution.
+
+56l0l0	a_été_acté	N
+56l0l1	par_arrêté_préfectoral	O
+56l0l2	9_août_2018	T
+56l0l3	les_terrains_concernés	O
+56l0l4	par_la_pollution	N
+
+#Tout projet d'aménagement devra faire appel à un bureau d'études certifié dans le domaine des sites et sols pollués pour garantir la compatibilité du projet avec l'état du sol.
+
+57l0l0	Tout_projet_d_	N
+57l0l1	un_bureau_d__études	O
+57l0l2	sols_pollués	O
+
+#BILAN DU SUIVI DES EAUX SOUTERRAINES
+
+58l0l0	SUIVI_DES_EAUX	A
+58l0l1	SOUTERRAINES	O
+58l1l0	EAUX_SOUTERRAINES	I
+
+#Un bilan du suivi de la surveillance des eaux souterraines a été établi en 2016.
+
+59l0l0	suivi_de_la_surveillance_des_eaux_souterraines	A
+59l0l1	a_été_établi	N
+59l0l2	en_2016__	T
+
+#Cette synthèse montre globalement une amélioration de la situation.
+
+
+#Compte tenu de ces résultats, de l'implantation de l'ancien dépôt en zone portuaire et de l'absence d'usage sensible des eaux souterraines (eaux saumâtres), l'arrêt de la surveillance des eaux souterraines a pu être actée.
+
+61l0l0	l__implantation	N
+61l0l1	l__ancien_dépôt	O
+61l0l2	en_zone_portuaire	L
+61l0l3	l_	N
+61l0l4	absence_d__usage_sensible_des_eaux_souterraines	A
+61l0l5	l_	N
+61l0l6	surveillance_des_eaux_souterraines	A
+61l0l7	a_pu_être_actée	N

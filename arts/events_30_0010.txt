@@ -1,0 +1,124 @@
+
+#30.0010
+#Etablissement créé en 1979 , repris en 1984 par SNER suite à liquidation judiciaire de l'exploitant .
+
+0l0l0	Etablissement	O
+0l0l1	créé	N
+0l0l2	en_1979	T
+0l0l3	repris	N
+0l0l4	en_1984	T
+0l0l5	SNER	O
+0l0l6	suite_à	R
+0l0l7	liquidation_judiciaire	N
+0l0l8	l__exploitant	O
+0l1l0	SNER	I
+
+#L'activité de réfection de matériel électrique a compris notamment celle de transformateurs au PCB jusqu'au début de 1988.
+
+1l0l0	L__activité_de_réfection_de_matériel_électrique	A
+1l0l1	a_compris	N
+1l0l2	celle_de_transformateurs	O
+1l0l3	jusqu__au_début_de_1988__	T
+1l1l0	PCB	S
+
+#L'établissement , entièrement clôturé , est implanté en zone industrielle.
+
+2l0l0	L__établissement	O
+2l0l1	est_implanté_en_zone_industrielle	L
+
+#Sur le plan de la législation des installations classées, l'établissement relevait du régime de la simple déclaration.
+
+3l0l0	l__établissement	O
+3l0l1	relevait	R
+3l0l2	du_régime_de	L
+3l0l3	la_simple_déclaration	N
+
+#l n'est actuellement plus visé.
+
+
+#A la suite d'une dénonciation le 29/10/1997, l'inspection des installations classées assurée par la DRIRE a été informée de la présence possible de fûts de PCB enfouis sur le site d'environ 4000 m².
+
+5l0l0	A_la_suite_d_	R
+5l0l1	une_dénonciation	N
+5l0l2	le_29_10_1997	T
+5l0l3	l__inspection_des_installations_classées	O
+5l0l4	la_DRIRE	O
+5l0l5	a_été_informée	N
+5l0l6	la_présence_possible	O
+5l0l7	de_fûts_de_PCB_enfouis	N
+5l1l0	la_DRIRE	I
+5l1l1	PCB	S
+
+#Les investigations ont été menées à la demande de l'autorité judiciaire et définies et suivies par la DRIRE.
+
+6l0l0	Les_investigations_ont_été_menées_à_la_demande	N
+6l0l1	l__autorité_judiciaire	O
+6l0l2	suivies_par_la_DRIRE	O
+6l1l0	la_DRIRE	I
+
+#ne campagne de géophysique dite magnétotellurique puis des sondages au tractopelle n'ont pas révélé la présence de fûts de PCB, mais des travaux de fouille du sol ont permis de localiser des zones de sol contaminées par des PCB et des hydrocarbures.
+
+7l0l0	ne_campagne_de_géophysique	N
+7l0l1	des_sondages_au_tractopelle	N
+7l0l2	des_travaux_de_fouille	N
+7l0l3	sol	N
+7l0l4	ont_permis_de_localiser	R
+7l0l5	des_zones_de_sol_contaminées	O
+7l0l6	par	N
+7l1l0	PCB	S
+7l1l1	des_PCB	S
+7l1l2	hydrocarbures	S
+
+#Les études et analyses effectuées dans l'environnement en 1997 et 1998 ont conduit à conclure à l'absence de contamination au voisinage du site.
+
+8l0l0	Les_études	N
+8l0l1	l__environnement	N
+8l0l2	en_1997_et_1998	T
+8l0l3	absence_de_contamination	O
+8l0l4	au_voisinage_du_site	L
+
+#En l'absence de nappe phréatique, aucune surveillance n'a été demandée.
+
+9l0l0	n__a_été_demandée	N
+
+#Une centaine de mètres cubes des terres les plus souillées a été traitée hors site en 1998 par APROCHIM.
+
+10l0l0	souillées	O
+10l0l1	a_été_traitée_hors_site	N
+10l0l2	en_1998	T
+10l0l3	par_APROCHIM	O
+10l1l0	APROCHIM	I
+
+#Le traitement biologique in situ d'environ 140 t d'autres terres polluées a débuté en mai 1999.
+
+11l0l0	Le_traitement_biologique_in_situ	N
+11l0l1	autres_terres_polluées	O
+11l0l2	a_débuté	N
+11l0l3	en_mai_1999__	T
+
+#Fin janvier 2001,l'analyse d'échantillons représentatifs des terres en traitement donnait environ 100 ppm d'hydrocarbures totaux et 1,5 ppm de PCB.
+
+12l0l0	Fin_janvier_2001_l_	T
+12l0l1	traitement	N
+12l1l0	hydrocarbures_totaux	S
+12l1l1	PCB	S
+
+#L'exploitant a souhaité néanmoins, poursuivre le traitement .
+
+13l0l0	L__exploitant	O
+13l0l1	a	N
+
+#Sur la base d'une confirmation , fin 2002, du niveau de décontamination déjà atteint, l'inspection a été conduite à prendre acte de la fin de la réhabilitation du site compte tenu de sa vocation industrielle ou commerciale.
+
+14l0l0	Sur_la_base_d_	R
+14l0l1	une_confirmation	O
+14l0l2	fin_2002__	T
+14l0l3	décontamination	N
+14l0l4	l__inspection	O
+14l0l5	a_été_conduite	N
+14l0l6	la_fin	N
+14l0l7	la_réhabilitation	N
+14l0l8	site	O
+14l0l9	compte_tenu_de	R
+14l0l10	sa	O
+14l0l11	vocation_industrielle_ou_commerciale	A

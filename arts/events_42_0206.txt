@@ -1,0 +1,557 @@
+
+#42.0206
+#Concernant l’historique du site, ce dernier a été occupé :
+
+0l0l0	a_été_occupé	N
+
+#- Entre 1950 et 1965 : par un complexe industriel d’exploitation de mines de charbon ;
+
+1l0l0	Entre_1950_et_1965	T
+1l0l1	un_complexe_industriel	O
+1l0l2	d__exploitation_de_mines_de_charbon	A
+1l1l0	charbon	U
+
+#- en 1967 : l’ensemble de l’exploitation a disparu et le terrain est en friche ;
+
+2l0l0	en_1967	T
+2l0l1	l__ensemble_de_l__exploitation	O
+2l0l2	a_disparu	N
+2l0l3	le_terrain	O
+
+#- en 1976 : un bâtiment est construit ; la société SEVAM soumise à déclaration exploite le site à l’étude pour son activité de dépôt de gaz combustibles liquéfiés.
+
+3l0l0	en_1976	T
+3l0l1	un_bâtiment	O
+3l0l2	est_construit	N
+3l0l3	la_société_SEVAM	O
+3l0l4	soumise_à	R
+3l0l5	déclaration	N
+3l0l6	exploite	N
+3l0l7	le_site	O
+3l0l8	son_activité_de_dépôt_de_gaz_combustibles_liquéfiés	A
+3l1l0	la_société_SEVAM	I
+3l1l1	combustibles_liquéfiés	U
+
+#- En 1984, le site est exploité par S.
+
+4l0l0	En_1984	T
+4l0l1	le_site	O
+4l0l2	est_exploité	N
+
+#. NOMAR (STAUB Fonderie SARL), soumise elle aussi à déclaration pour son usine d’émaillage d’articles culinaires en fonte.
+
+5l0l0	NOMAR	O
+5l0l1	Fonderie_SARL	O
+5l0l2	à_déclaration	N
+5l0l3	son_usine_d__émaillage_d__articles_culinaires	A
+5l0l4	fonte	A
+5l1l0	NOMAR___STAUB_Fonderie	I
+
+#- En 1988, était déclarée l’existence d’un transformateur au PCB pour cette même entreprise.
+
+6l0l0	En_1988	T
+6l0l1	était_déclarée	N
+6l0l2	l__existence	O
+6l0l3	un_transformateur	O
+6l1l0	PCB	S
+
+#L’ancien transformateur n’a pas pu être localisé.
+
+7l0l0	L_	O
+
+#Les activités d’émaillage de la société Staub Fonderie étaient dûment déclarées au titre de la législation des installations classées pour la protection de l’environnement par récépissé du 14 décembre 1984.
+
+8l0l0	Les_activités_d__émaillage	A
+8l0l1	la_société_Staub_Fonderie	O
+8l0l2	étaient_dûment_déclarées	N
+8l0l3	au_titre_de	R
+8l0l4	la_législation_des_installations_classées	O
+8l0l5	pour_la_protection_de	A
+8l0l6	l__environnement	O
+8l0l7	récépissé	O
+8l0l8	14_décembre_1984__	T
+8l1l0	la_société_Staub_Fonderie	I
+
+#Par arrêté préfectoral de prescriptions spéciales du 24 février 1997, monsieur le préfet de la Loire a prescrit à la société Staub Fonderie des prescriptions relatives aux rejets aqueux de ces installations.
+
+9l0l0	Par	N
+9l0l1	arrêté_préfectoral_de_prescriptions_spéciales	O
+9l0l2	du_24_février_1997__	T
+9l0l3	monsieur_le_préfet_de_la_Loire	O
+9l0l4	a_prescrit	N
+9l0l5	la_société_Staub_Fonderie	O
+9l0l6	des_prescriptions	O
+9l0l7	aqueux	O
+9l0l8	ces_installations	O
+9l1l0	le_préfet_de_la_Loire	I
+9l1l1	la_société_Staub_Fonderie	I
+
+#Par courrier du 23 décembre 2016, la société Staub Fonderie a notifié au préfet de la Loire l’arrêt définitif des activités exploitées sur le site de la commune de Roche la Molière.
+
+10l0l0	du_23_décembre_2016__	T
+10l0l1	la_société_Staub_Fonderie	O
+10l0l2	a_notifié	N
+10l0l3	au_préfet_de_la_Loire	O
+10l0l4	l__arrêt_définitif	N
+10l0l5	des_activités_exploitées	N
+10l0l6	sur_le_site_de_la_commune_de_Roche_la_Molière	L
+10l1l0	la_société_Staub_Fonderie	I
+10l1l1	préfet_de_la_Loire	I
+
+#Le site à l’étude présente une superficie approximative de 9 250 m².
+
+11l0l0	Le_site	O
+
+#Il est occupé par un bâtiment de type usine où est réalisé l’émaillage de poteries culinaires en fonte, une aire de stationnement des véhicules ainsi qu’une zone de stockage des déchets en extérieur.
+
+12l0l0	un_bâtiment	O
+12l0l1	réalisé_l__émaillage_de_poteries_culinaires	A
+12l0l2	une_aire_de_stationnement_des_véhicules	O
+12l0l3	une_zone	O
+
+#L’environnement du site est essentiellement de type industriel.
+
+13l0l0	L__environnement	O
+
+#Il est composé d’usines sur les parties nord, est et sud, mais aussi d’une zone pavillonnaire avec maisons individuelles sur la partie ouest.
+
+14l0l0	usines	O
+14l0l1	les_parties_nord	O
+14l0l2	une_zone_pavillonnaire	O
+14l0l3	sur_la_partie_ouest	L
+
+#Les sondages ont mis en évidence la succession moyenne de terrain suivante, de haut en bas :
+
+15l0l0	Les_sondages	N
+
+#- des remblais sablo-graveleux beige jusqu’à environ 0,5 m de profondeur,
+
+
+#- suivi par des limons charbonneux noir jusqu’à 2 m de profondeur.
+
+
+#L’étude de vulnérabilité des milieux a permis de mettre en évidence :
+
+
+#- La présence d’une formation de terrains cristallins composés essentiellement de schistes gréseux ;
+
+
+#- La présence d’une nappe d’eau souterraine de type socle dont aucune profondeur au droit du site n’est référencée.
+
+
+#Elle est considérée comme moyennement vulnérable vis-à-vis de toute pollution issue du site et non sensible du fait de l’absence de captage AEP à proximité du site ;
+
+21l0l0	captage_AEP	O
+21l0l1	à_proximité_du_site	L
+
+#- La présence d’eaux superficielles sous couverture, peu vulnérables au regard de la distance au site et dont l’usage est considéré comme sensible en raison de recensement de zones de pêche ;
+
+22l0l0	l__usage	O
+
+#- L’environnement proche de la zone d’étude est considéré comme non vulnérable du fait de l’absence de zones naturelles à proximité du site.
+
+23l0l0	environnement_proche_de_la_zone_d_	O
+23l0l1	l__absence_de_zones_naturelles	N
+23l0l2	à_proximité_du_site	L
+
+#La consultation de la Banque de données du Sous-Sol du BRGM (BSS) et de la carte géologique de Saint-Etienne permet de constater que le site se trouve sur les formations du Primaire « terrains cristallins – Massif Central – Stephanien B : série de Saint-Etienne ».
+
+24l0l0	La_consultation	N
+24l0l1	BRGM	O
+24l0l2	la_carte_géologique	O
+24l0l3	Saint_Etienne	L
+24l0l4	le_site	O
+24l0l5	se_trouve_sur	R
+24l1l0	BRGM	I
+24l1l1	Massif_Central	I
+
+#Il s’agit de formations de type schistogréseuses avec passage charbonneux.
+
+
+#Plusieurs sondages, notamment des puits pour l’exploitation du charbon, sont référencés dans la BSS à proximité du site.
+
+26l0l0	Plusieurs_sondages	O
+26l0l1	des_puits	O
+26l0l2	l__exploitation_du_charbon	A
+26l0l3	référencés	N
+26l0l4	la_BSS	O
+26l0l5	à_proximité_du_site	L
+26l1l0	charbon	U
+
+#Un sondage réalisé à environ 800 m au sud-est du site, présente la lithologie ci-après :
+
+27l0l0	Un_sondage	O
+27l0l1	réalisé	N
+27l0l2	à_environ_800_m_au_sud_est_du_site	L
+27l0l3	lithologie	N
+
+#- De 0 à 3,5 m Terre argileuse et grés schisteux oxydé,
+
+28l0l0	oxydé	O
+
+#- de 3,5 à 11,05 m Schistes gréseux très fins,
+
+
+#- de 11,05 à 14,1 m Grés très fins schisteux,
+
+
+#- de 14,1 à 15 m Grés grossiers et grés schisteux.
+
+
+#D’après la base de données des masses d’eaux souterraines ADES, la masse d’eau souterraines
+
+32l0l0	souterraines_ADES	O
+
+#« Bassin versant de la Loire forézienne» est présente au droit du site.
+
+33l0l0	Loire_forézienne	L
+33l1l0	Bassin_versant_de_la_Loire_forézienne	I
+
+#Les formations du Stéphanien présentent à l’état naturel un comportement hydrogéologique peu
+
+
+#perméable : les circulations d’eau s’effectuent souvent dans les réseaux de fractures ou d’altération
+
+35l0l0	altération	N
+
+#superficielle.
+
+
+#Ainsi, les potentiels aquifères des formations apparaissent globalement assez limités.
+
+
+#Concernant les formations houillères, l'activité minière a pu engendrer des modifications des
+
+38l0l0	houillères	A
+38l0l1	l_	A
+38l0l2	activité_minière	O
+38l0l3	a_pu_engendrer	N
+38l0l4	des_modifications	N
+
+#circulations d'eaux souterraines.
+
+
+#En effet, les effondrements éventuellement liés à l'exploitation du
+
+40l0l0	effondrements	N
+40l0l1	éventuellement_liés_à	R
+40l0l2	l__exploitation	N
+
+#charbon ont pu être à l'origine de la disparition de nappes superficielles, ces dernières pouvant alors
+
+41l0l0	la_disparition	N
+41l0l1	de_nappes	O
+
+#s'infiltrer dans des terrains sous-jacents, à priori peu perméables.
+
+42l0l0	infiltrer_dans	R
+42l0l1	des_terrains_sous_jacents	O
+
+#Inversement, le creusement de
+
+43l0l0	le_creusement	N
+
+#galeries a pu localement favoriser la remontée de nappes profondes vers la surface.
+
+44l0l0	galeries	O
+44l0l1	a_pu	N
+44l0l2	la_remontée	N
+
+#Selon la base de données BSS-Infoterre, l’ensemble des ouvrages recensés comme des points d’eau
+
+
+#sont en réalité d’anciens puits de mines pour l’extraction du charbon à proximité du site mais aussi surtout la commune de Roche-la-Molière.
+
+46l0l0	puits_de_mines	O
+46l0l1	l__extraction_du_charbon	A
+46l0l2	à_proximité_du_site	L
+46l0l3	aussi_surtout_la_commune_de_Roche_la_Molière	L
+
+#Aucun de ces ouvrages ne fait état d’un niveau d’eau.
+
+
+#D’après l’ARS de la Loire, la zone à l’étude n’est pas concernée par des périmètres de protection de
+
+48l0l0	ARS_de_la_Loire	L
+48l0l1	la_zone	O
+48l0l2	est_pas_concernée_par	O
+48l0l3	des_périmètres	O
+
+#captages d’alimentation en eau potable.
+
+49l0l0	captages	O
+
+#Etant donné la profondeur, le type de nappe souterraine et la formation géologique, les eaux souterraines sont moyennement vulnérables pour toute pollution de surface issue du site.
+
+
+#Etant donné l’absence de captage AEP autour de la zone d’étude et notamment en aval du site,
+
+51l0l0	captage_AEP	O
+51l0l1	autour_de_la_zone_d_	L
+51l0l2	étude	O
+51l0l3	en_aval_du_site	L
+
+#l’usage des eaux souterraines est considéré comme non sensible.
+
+
+#Le réseau hydrologique dans le voisinage de la zone d’étude est principalement composé du ruisseau le Pommaraise circulant à environ 200 m au nord-est du site.
+
+53l0l0	Le_réseau_hydrologique	O
+53l0l1	dans	R
+53l0l2	le_voisinage	O
+53l0l3	de	R
+53l0l4	la_zone_d_	O
+53l0l5	le_Pommaraise	L
+53l0l6	circulant_à_environ_200_m_au_nord_est_du_site	L
+
+#Ce ruisseau de 3,3 km de
+
+
+#long est sous couvert sur une distance de 1,1 km aux alentours du site.
+
+55l0l0	km_aux_alentours_du_site	L
+
+#Le ruisseau est utilisé pour les rejets des eaux industriels de la zone.
+
+56l0l0	Le_ruisseau	O
+56l0l1	est_utilisé	N
+56l0l2	eaux_industriels	O
+
+#Des usages de pêches y sont recensés.
+
+57l0l0	Des_usages_de_pêches	A
+
+#Du fait de la distance du cours d’eau le Pommaraise, les eaux superficielles apparaissent comme peu
+
+58l0l0	Pommaraise	L
+
+#vulnérables à une éventuelle pollution issue du site.
+
+
+#De par les usages (pêche), les cours d’eau sont
+
+
+#considérés comme sensibles.
+
+
+#Suite à à l’étude des documents transmis dans le cadre de la cessation d’activité et à la visite d’inspection du 10 janvier 2017, l’inspection, dans son rapport du 23 mai 2017, constate que l’exploitant avait évacué l’ensemble des déchets, et démonter les installations.
+
+62l0l0	dans_le_cadre_de	R
+62l0l1	la_cessation_d__activité	N
+62l0l2	à_la_visite_d__inspection	N
+62l0l3	10_janvier_2017__	T
+62l0l4	23_mai_2017__	T
+62l0l5	l__exploitant	O
+62l0l6	avait_évacué	N
+62l0l7	l_	O
+62l0l8	et	O
+62l0l9	démonter_les_installations	N
+62l1l0	des_déchets	U
+
+#Le site était propre, clos et gardienné.
+
+63l0l0	Le_site	O
+
+#L’ensemble des justificatifs d’élimination des déchets a été fourni à l’inspection.
+
+64l0l0	L__ensemble_des_justificatifs_d__élimination_des_déchets	O
+64l0l1	a_été_fourni	N
+
+#Le bureau d’études, suite à l’étude historique du site, a identifié les zones sensibles du site.
+
+65l0l0	Le_bureau_d__études	O
+65l0l1	a_identifié	N
+65l0l2	les_zones_sensibles_du_site	O
+
+#Des investigations de sols ont eu lieu sur ces zones. 7 sondages de sols ont été réalisés.
+
+66l0l0	Des_investigations_de_sols	N
+66l0l1	ont_eu_lieu	N
+66l0l2	ces_zones	O
+66l0l3	7_sondages_de_sols	N
+66l0l4	ont_été_réalisés	N
+
+#Les résultats analytiques mettent en avant :
+
+
+#- Pour les Composés Organo-Halogénés Volatils (COHV)
+
+68l1l0	les_Composés_Organo___Halogénés_Volatils	S
+68l1l1	COHV	S
+
+#La majorité des échantillons analysés présente des teneurs inférieures ou très proches des limites de quantification du laboratoire.
+
+69l0l0	des_teneurs	O
+
+#Des traces en 1,2 dichloropropane et en 1,1,1 trichloroéthane ont été mesurées respectivement dans les sondages S2 (0,4 mg/kg de MS) et S6 (0,26 mg/kg de MS).
+
+70l0l0	ont_été_mesurées	N
+70l1l0	1_2_dichloropropane	S
+70l1l1	1_1_1_trichloroéthane	S
+
+#- Pour le BTEX
+
+
+#Sur les sept échantillons analysés, quatre mettent en évidence la présence de BTEX, avec des concentrations entre 0,32 et 0,69 mg/kg de MS.
+
+72l1l0	BTEX	S
+
+#Ces valeurs ne sont pas significatives d’un risque pour l’environnement ou pour la santé.
+
+
+#- Pour les hydrocarbures totaux (HCT C10-C40)
+
+74l1l0	les_hydrocarbures_totaux	S
+74l1l1	HCT_C10_C40__	S
+
+#La présence d’HCT totaux a été mise en exergue sur sept des huit échantillons analysés.
+
+75l1l0	d__HCT_totaux	S
+
+#Les teneurs vont de 45 à 1 800 mg/kg de MS.
+
+
+#La concentration la plus élevée est située au droit du sondage S4.
+
+77l0l0	située_au_droit_du_sondage	L
+
+#- Pour les Hydrocarbures aromatiques polycycliques (HAP)
+
+78l1l0	les_Hydrocarbures_aromatiques_polycycliques	S
+78l1l1	HAP	S
+
+#Des concentrations en HAP ont été mesurées sur sept des huit échantillons analysés.
+
+79l0l0	Des_concentrations	O
+79l0l1	ont_été_mesurées	N
+79l1l0	HAP	S
+
+#Elles sont comprises entre 6,6 et 1 800 mg/kg de MS.
+
+
+#Les anomalies constatées au droit des sondages S2 (130 mg/kg de mS), S4 (1 800 mg/kg de MS), S5 (220 mg/kg de MS), S6 (170 mg/kg de MS) et S7 (150 mg/kg de MS) peuvent s’expliquer par l’ancienne présence d’un complexe industriel d’exploitation et transformation du charbon sur l’ensemble du site et de la zone industrielle du Buisson.
+
+81l0l0	au_droit_des_sondages	L
+81l0l1	S2	O
+81l0l2	un_complexe_industriel_d__exploitation_et	O
+81l0l3	transformation_du_charbon	A
+81l0l4	du_site_et_de_la_zone_industrielle_du_Buisson	L
+81l1l0	mS	S
+
+#Ces polluants ne sont pas dus à l’activité de la société STAUB.
+
+82l0l0	la_société_STAUB	O
+82l1l0	la_société_STAUB	I
+
+#Cette pollution est historique.
+
+83l0l0	Cette_pollution	O
+
+#- Pour les métaux
+
+
+#Sur les échantillons analysés, trois échantillons S2 (0,2-1 m), S5 (0,2-1 m) et S7 (1-2 m) présentent des anomalies en arsenic avec des teneurs comprises entre 290 et 1900 mg/kg MS, en comparaison aux valeurs de la cellule INDIQUASOL et de la base de données ASPITET.
+
+85l0l0	arsenic	O
+85l1l0	arsenic	S
+85l1l1	ASPITET	S
+
+#En plus de l’arsenic, le sondage S2 met en avant des anomalies généralisées en métaux : cadmium (62 mg/kg de MS), chrome (100 mg/kg de MS), cuivre (100 mg/kg de MS), plomb (150 mg/kg de MS), nickel (150 mg/kg de MS) et zinc (300mg/kg de MS).
+
+86l0l0	l__arsenic	O
+86l1l0	arsenic	S
+86l1l1	métaux	S
+86l1l2	cadmium	S
+86l1l3	chrome	S
+86l1l4	cuivre	S
+86l1l5	plomb	S
+86l1l6	nickel	S
+86l1l7	zinc	S
+
+#Ces prélèvements de sols ont été complétés par les analyses de gaz du sols.
+
+87l0l0	ont_été_complétés	N
+87l0l1	gaz_du_sols	O
+
+#Un des piézairs a été installé à proximité immédiate du point S4 présentant les anomalies en hydrocarbures totaux et en HAP les plus élevées de tout le site.
+
+88l0l0	Un_des_piézairs	O
+88l0l1	a_été_installé	N
+88l0l2	à_proximité_immédiate_du_point_S4	L
+88l1l0	hydrocarbures_totaux	S
+88l1l1	HAP	S
+
+#Les gaz de sols ne présentent pas d’anomalies, les concentrations relevées étant toutes inférieures aux limites de quantification, aussi bien en Hydrocarbures totaux qu’en HAP.
+
+89l1l0	Les_gaz_de_sols	U
+89l1l1	Hydrocarbures_totaux	S
+89l1l2	HAP	S
+
+#Le bureau d’études s’engage sur la compatibilité du site avec un usage industriel.
+
+90l0l0	Le_bureau_d__études	O
+90l0l1	s__engage_sur	R
+90l0l2	la_compatibilité	O
+90l0l3	un_usage_industriel	A
+
+#Dans son rapport du 14 septembre 2018, l’inspection indique que les études conduites par la société Staub Fonderie ont montré que les risques sanitaires pour les usagers des sites et environnementaux sont acceptables au regard des critères fixés par les autorités sous réserve de la mise en œuvre de mesures de gestion énoncées dans le projet de servitudes.
+
+91l0l0	14_septembre_2018__	T
+91l0l1	les_études_conduites	N
+91l0l2	la_société_Staub_Fonderie	O
+91l0l3	le_projet	O
+91l1l0	la_société_Staub_Fonderie	I
+
+#À l’issue de la procédure simplifiée de mise en œuvre de servitudes d’utilité publique sur un ancien site industriel pollué prévue par l’article L. 515-12 et définie par les articles R.515-31-1 à R.515-31-7 du code de l’environnement et sur la base des études réalisés, l'inspection des installations classées a reçu lors de la séance du  08 octobre 2018 un avis favorable des membres du Conseil Département de l'Environnement et des Risques Sanitaires et Technologiques sur le projet de Servitudes d'Utilité Publique.
+
+92l0l0	À	R
+92l0l1	l__issue	N
+92l0l2	de	R
+92l0l3	la_procédure_simplifiée	O
+92l0l4	de_mise_en_œuvre_de_servitudes	N
+92l0l5	un_ancien_site_industriel_pollué	O
+92l0l6	l__inspection_des_installations_classées	O
+92l0l7	a_reçu_lors	R
+92l0l8	de_la_séance	N
+92l0l9	du___08_octobre_2018	T
+92l0l10	du_Conseil_Département_de_l__Environnement_et_des_Risques_Sanitaires_et_Technologiques	O
+92l0l11	sur_le_projet_de_Servitudes	N
+
+#L'arrêté préfectoral instituant les servitudes d'utilité publique a été signée le 18/10/2018.
+
+93l0l0	L__arrêté_préfectoral	O
+93l0l1	instituant	N
+93l0l2	les_servitudes_d__utilité_publique	O
+93l0l3	a_été_signée	N
+93l0l4	le_18_10_2018__	T
+
+#Pour être opposables, ces servitudes devront être annexées au plan local d’urbanisme de la commune de Roche La Molière dans les conditions prévues à l’article L. 126-1 du code de l’urbanisme.
+
+94l0l0	ces_servitudes	O
+94l0l1	devront_être_annexées	N
+94l0l2	au_plan_local_d__urbanisme	O
+94l0l3	la_commune_de_Roche_La_Molière	L
+94l0l4	les_conditions	O
+
+#L’acte instituant les servitudes doit être notifié par le préfet de la Loire au maire de Roche-la-Molière, aux propriétaires et à la société Staub Fonderie conformément à l’article R515-31-7 du code de l’environnement.
+
+95l0l0	L__acte	N
+95l0l1	instituant_les_servitudes	O
+95l0l2	doit_être_notifié	N
+95l0l3	le_préfet_de_la_Loire	O
+95l0l4	maire_de_Roche_la_Molière	L
+95l0l5	la_société_Staub_Fonderie	O
+95l1l0	le_préfet_de_la_Loire	I
+95l1l1	la_société_Staub_Fonderie	I
+
+#L’acte instituant les servitudes doit faire l'objet, en vue de l'information des tiers, d'une publication au recueil des actes administratifs du département et d'une publicité foncière à la charge financière de la société Staub Fonderies conformément à l’article R515-31-7 du code de l’environnement.
+
+96l0l0	L__acte_instituant	N
+96l0l1	la_société_Staub_Fonderies	O
+96l1l0	la_société_Staub_Fonderies	I
+
+#Le justificatif de l’accomplissement de cette formalité doit être transmis, dans un délai de 1 mois, à l’inspection.
+
+97l0l0	Le_justificatif_de	O
+97l0l1	l__accomplissement	N
+97l0l2	dans_un_délai_de_1_mois	T

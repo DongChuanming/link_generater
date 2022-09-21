@@ -1,0 +1,147 @@
+
+#76.0298
+#Ce site a été le lieu d'exploitation d'une scierie implantée dés la fin du 19ème siècle.
+
+0l0l0	Ce_site	O
+0l0l1	a_été	N
+0l0l2	le_lieu	O
+0l0l3	d__exploitation_d_	R
+0l0l4	une	O
+0l0l5	scierie	A
+0l0l6	implantée	R
+0l0l7	dés_la	T
+0l0l8	fin_du	L
+0l0l9	19ème_siècle__	T
+
+#Il a été exploité par la société VERSTRAETE dès 1946.
+
+1l0l0	Il	O
+1l0l1	a_été_exploité	N
+1l0l2	la_société_VERSTRAETE	O
+1l0l3	dès_1946	T
+1l1l0	la_société_VERSTRAETE	I
+
+#A la suite d'une expropriation pour cause d'utilité publique (reconstruction du Lycée Michel Anguier), le site est arrêté le 30 janvier 2007.
+
+2l0l0	A_la_suite_d_	R
+2l0l1	une_expropriation_pour_cause_d__utilité_publique	O
+2l0l2	reconstruction	N
+2l0l3	Lycée_Michel_Anguier	O
+2l0l4	le_site	O
+2l0l5	est_arrêté	N
+2l0l6	le_30_janvier_2007__	T
+
+#Le sous-sol est constitué de limons ou de terres végétales sur 1 m puis une formation argileuse grise.
+
+
+#La nappe de la craie se situe vers 10m.
+
+4l0l0	se_situe_vers_10_m_	L
+
+#Une première étude de sols a été réalisée en février 2006 (ESR).
+
+5l0l0	Une_première_étude_de_sols	N
+5l0l1	a_été_réalisée	N
+5l0l2	en_février_2006	T
+
+#Cette étude montre un dépassement de la valeur de constat d'impact pour un usage sensible pour les métaux lourds (arsenic, cuivre plomb) et les hydrocarbures.
+
+6l0l0	un_dépassement	N
+6l0l1	un_usage_sensible	O
+6l1l0	les_métaux_lourds	S
+6l1l1	arsenic	S
+6l1l2	cuivre_plomb	S
+6l1l3	hydrocarbures	S
+
+#La pollution métallique est liée à la qualité des remblais.
+
+7l0l0	La_pollution_métallique	O
+7l0l1	remblais	O
+
+#L'ESR a placé le site en classe 1 (nécessité de réaliser un diagnostic approfondi).
+
+8l0l0	a_placé	N
+8l0l1	le_site	O
+8l0l2	réaliser_un_diagnostic_approfondi	N
+8l1l0	L__ESR	I
+
+#Un diagnostic approfondi et une étude sanitaire ont été réalisés en décembre 2006.
+
+9l0l0	Un_diagnostic_approfondi	N
+9l0l1	une_étude_sanitaire_ont_été_réalisés	N
+9l0l2	en_décembre_2006__	T
+
+#Ces études montrent que deux types de contaminations ont été mises en évidence:
+
+10l0l0	deux_types_de_contaminations	O
+
+#- une contamination ponctuelle en hydrocarbures totaux dans les sols, à l'origine d'un impact sur les eaux souterraines.
+
+11l0l0	une_contamination_ponctuelle	N
+11l0l1	hydrocarbures_totaux	O
+11l0l2	à_l__origine_d_	R
+11l0l3	un	O
+11l0l4	impact_sur	R
+11l0l5	les_eaux_souterraines	O
+11l1l0	hydrocarbures_totaux	S
+
+#- la présence de métaux lourds dans les remblais.
+
+12l0l0	remblais	L
+12l1l0	métaux_lourds	U
+
+#Compte tenu de la localisation des contaminations, et des projet de reconversion du site, un calcul des risques sanitaires a été réalisé.
+
+13l0l0	localisation_des_contaminations	O
+13l0l1	des_projet_de_reconversion	N
+13l0l2	un_calcul_des_risques_sanitaires	N
+13l0l3	a_été_réalisé	N
+
+#Ce calcul montre que les risques sont acceptables à l'exception des risques liés à l'exposition possible d'enfants résident dans un logement de fonction sur le site (risque cancérogène lié à la présence d'arsenic et de plomb).
+
+14l1l0	cancérogène	S
+14l1l1	arsenic	S
+14l1l2	plomb	S
+
+#L'étude conclue sur une proposition d'élimination des sols contaminés en hydrocarbures, et de confinement des zones contaminées aux métaux lourds.
+
+15l0l0	sols_contaminés	O
+15l0l1	hydrocarbures	O
+15l0l2	confinement	N
+15l0l3	zones_contaminées	O
+15l1l0	hydrocarbures	S
+15l1l1	métaux_lourds	S
+
+#Elle propose la réalisation de servitudes à l'issue des travaux de réhabilitation ainsi que la mise en place d'un réseau de surveillance piézométrique.
+
+16l0l0	Elle	O
+16l0l1	propose_la	N
+16l0l2	réalisation_de_servitudes	O
+16l0l3	à_l__issue	N
+16l0l4	des_travaux_de_réhabilitation	N
+16l0l5	la_mise_en_place_d_	N
+16l0l6	un_réseau_de	O
+16l0l7	surveillance_piézométrique	A
+
+#Suite à mener:
+
+
+#Bien que l'exploitant ait déclaré la cessation d'activité de ses installations, aucun récépissé de déclaration n'a été délivré.
+
+18l0l0	Bien_que	R
+18l0l1	l__exploitant	O
+18l0l2	ait_déclaré	N
+18l0l3	la_cessation_d__activité	N
+18l0l4	ses_installations	N
+18l0l5	aucun_récépissé	O
+
+#La situation administrative de la société est à régulariser.
+
+19l0l0	La_situation_administrative	O
+19l0l1	la_société	O
+
+#Il convient, suites aux études fournies, de s'assurer que les travaux prévus ont bien été réalisés, qu'une servitude (conventionnelle) a bien été signée et qu'un contrôle piézométrique des eaux souterraines est bien réalisé.
+
+20l0l0	les_travaux_prévus	O
+20l0l1	ont_bien_été_réalisés	N
+20l0l2	eaux_souterraines	O

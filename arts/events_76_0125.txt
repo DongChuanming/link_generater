@@ -1,0 +1,290 @@
+
+#76.0125
+#Le site a une superficie de 13 500 m2.
+
+0l0l0	Le_site	O
+
+#Il se compose de deux lots, l'un d'une surface de 6 889 m2 et l'autre,le plus récemment acquis par l'exploitant, d'une surface de 6 574 m2.
+
+1l0l0	deux_lots	O
+1l0l1	l__autre	O
+1l0l2	récemment_acquis	N
+1l0l3	l__exploitant	O
+
+#Trois diagnostics de pollution de sols ont été réalisés, la phase 1 en décembre 1995, la phase 2 en mars 1996 et la phase 3 en juillet 1996.
+
+2l0l0	Trois_diagnostics	N
+2l0l1	de_pollution_de_sols	O
+2l0l2	ont_été_réalisés	N
+2l0l3	la	O
+2l0l4	phase_1_en_décembre_1995__	T
+2l0l5	la_phase_2	O
+2l0l6	en_mars_1996	T
+2l0l7	en_juillet_1996	T
+
+#Ceux-ci concernent le terrain le plus ancien.
+
+3l0l0	le_terrain	O
+
+#Lors de ces diagnostics, plusieurs sondages ont permis de mettre en évidence une pollution de type hydrocarbures accompagnés de métaux lourds.
+
+4l0l0	ces_diagnostics	N
+4l0l1	une_pollution	N
+4l1l0	hydrocarbures	S
+4l1l1	métaux_lourds	S
+
+#Le site est situé sur le plateau du Pays de Caux.
+
+5l0l0	Le_site	O
+5l0l1	est_situé_sur_le_plateau_du_Pays_de_Caux	L
+
+#Les terrains rencontrés en surface lors des travaux de reconnaissance sont des limons argileux beige, non aquifères.
+
+6l0l0	Les_terrains	O
+6l0l1	des_travaux_de_reconnaissance	N
+
+#Par contre, un aquifère est présent dans les formations crayeuses, situé à plus de 60 m sous la surface du sol au droit du site.
+
+7l0l0	un_aquifère	O
+7l0l1	situé_à_plus	L
+7l0l2	au_droit_du_site	L
+
+#Le volume estimé de terres polluées par des produits pétroliers est de :
+
+8l0l0	Le_volume_estimé_de_terres_polluées	O
+8l1l0	produits_pétroliers	S
+
+#- 1400 m3 pour une teneur en hydrocarbures totaux supérieure à 5000 mg/kg de sols secs,
+
+9l1l0	hydrocarbures_totaux	S
+
+#- 2900 m3 pour une teneur en hydrocarbures totaux supérieure à 1000 mg/kg de sols secs.
+
+10l1l0	hydrocarbures_totaux	S
+
+#L'exploitant a :
+
+11l0l0	L__exploitant	O
+
+#- mis en place une chape de béton constituant l'aire de démontage,
+
+12l0l0	mis_en_place	N
+12l0l1	une_chape_de_béton	O
+12l0l2	l_	O
+12l0l3	aire_de_démontage	N
+
+#- traité à la chaux liquide la zone le plus au sud de l'ancien terrain,
+
+13l0l0	la_chaux_liquide_la_zone_le	O
+
+#- mis en place un deuxième déshuileur traitant les eaux en provenance de l'aire de stockage et de démontage des moteurs.
+
+14l0l0	mis_en_place	N
+14l0l1	un_deuxième_déshuileur	O
+14l0l2	traitant	R
+14l0l3	les_eaux	O
+14l0l4	en_provenance_de	R
+14l0l5	l_	O
+14l0l6	démontage_des_moteurs	N
+
+#Fin 2001, les derniers travaux de mise en conformité devaient être terminés:
+
+15l0l0	Fin_2001__	T
+15l0l1	les_derniers_travaux_de_mise_en_conformité	N
+15l0l2	devaient	T
+15l0l3	être_terminés	N
+
+#- sondage et traitement éventuel par chaulage du terrain le plus récent (extension Nord),
+
+16l0l0	__sondage	N
+16l0l1	traitement_éventuel	O
+16l0l2	chaulage	N
+16l0l3	du_terrain	O
+16l0l4	extension_Nord	L
+
+#- traitement par chaulage de la partie centrale de l'ancien terrain.
+
+17l0l0	chaulage	O
+17l0l1	la_partie_centrale_de_l__ancien_terrain	O
+
+#- imperméablisation du terrain le plus ancien soit par du bitume, soit par du béton.
+
+18l0l0	imperméablisation	N
+18l0l1	du_terrain	O
+18l0l2	bitume	O
+
+#Action de l'administration :
+
+
+#- 12-01-1993 : arrêté préfectoral demandant la réalisation d'une étude de décontamination.
+
+20l0l0	12___01___1993	T
+20l0l1	_	N
+20l0l2	arrêté_préfectoral	O
+20l0l3	demandant_la_réalisation_d__une_étude_de_décontamination	N
+
+#- 02-12-94 : arrêté préfectoral demandant la prise de disposition particulière pour la décontamination des sols.
+
+21l0l0	__02___12	O
+21l0l1	__94	T
+21l0l2	__arrêté_préfectoral	O
+21l0l3	demandant_la_prise_de_disposition_particulière	N
+21l0l4	la_décontamination	N
+21l0l5	sols	N
+
+#- 11-02-2000 : courrier de la DRIRE à M. le le Procureur de la République demandant l'application des sanctions prévues par la réglementation pour non respect des délais imposés par les différents arrêtés,
+
+22l0l0	11___02___2000	T
+22l0l1	la_DRIRE	O
+22l1l0	la_DRIRE	I
+22l1l1	le_le_Procureur_de_la_République	I
+
+#- 08/06/08 : inspection constatant la réalisation de 10 sondages sur toute la partie Nord du site (terrain le plus récent) ; deux pollutions ponctuelles ont été identifiées (hydrocarbures et plomb),
+
+23l0l0	08_06_08	T
+23l0l1	__inspection	N
+23l0l2	constatant_la_réalisation_de_10_sondages	N
+23l0l3	sur_toute_la_partie_Nord_du_site	L
+23l0l4	deux_pollutions	O
+23l0l5	ont_été_identifiées	N
+23l1l0	hydrocarbures	S
+23l1l1	plomb	S
+
+#- 03/07/07 : arrêté préfectoral de mise en demeure imposant le respect de certaines dispositions de l'arrêté du 02/12/1994 concernant la pollution des sols ainsi que sa prévention,
+
+24l0l0	03_07_07	T
+24l0l1	_	N
+24l0l2	arrêté_préfectoral	O
+24l0l3	mise_en_demeure	O
+24l0l4	imposant_le_respect	N
+24l0l5	02_12_1994	T
+
+#Une étude de vulnérabilité du site a été transmise en mai 2008.
+
+25l0l0	Une_étude_de_vulnérabilité	N
+25l0l1	du_site	O
+25l0l2	a_été_transmise	N
+25l0l3	en_mai_2008__	T
+
+#Elle mentionne :
+
+
+#- la présence de terrains argileux d'au moins 10 mètres d'épaisseur, permettant de limiter et de stopper la migration verticale d'éventuels polluants vers l'aquifère,
+
+27l0l0	de_stopper_la_migration_verticale	N
+27l1l0	éventuels_polluants	U
+
+#- la présence d'une nappe souterraine à plus de 60 m de profondeur,
+
+28l0l0	à_plus_de_60_m_de_profondeur	L
+
+#- l'absence de captage vulnérable à une éventuelle pollution issue du site compte tenu du positionnement du site et de la distance les séparant du site.
+
+29l0l0	captage	O
+29l0l1	les_séparant_du_site	L
+
+#En conclusion, cette étude indique que les risques de migration d'une pollution jusqu'aux eaux souterraines et le transfert de cette pollution vers la rivière le Saint Laurent ou vers des captages sont très fortement limités.
+
+30l0l0	le_transfert	N
+30l0l1	vers_la_rivière_le_Saint_Laurent	L
+
+#De ce fait, la mise en place d'un réseau de surveillance de la qualité des eaux souterraines paraît inappropriée car les puits d'observation (piézomètres) pourraient constituer des zones de migration préférentielle des pollutions potentielles.
+
+31l0l0	la_mise_en_place_d_	N
+31l0l1	surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#De plus, il a été convenu, compte tenu de l'évolution réglementaire (textes du 8 février 2007 relatifs à la politique et à la gestion des sols pollués) que l'exploitant établisse et transmette un plan de gestion des sols pollués afin de répondre aux non-conformités sur les sols pollués relevées dans l'arrêté de mise en demeure du 03/07/2007 précité.
+
+32l0l0	8_février_2007	T
+32l0l1	la_gestion_des_sols_pollués	O
+32l0l2	l__exploitant	O
+32l0l3	établisse	N
+32l0l4	transmette	R
+32l0l5	un_plan_de_gestion_des_sols_pollués	O
+32l0l6	non_conformités_sur_les_sols_pollués	O
+32l0l7	l__arrêté_de_mise_en_demeure	O
+32l0l8	du_03_07_2007	T
+
+#Ce plan a été transmis le 07/10/2008.
+
+33l0l0	Ce_plan	O
+33l0l1	a_été_transmis	N
+33l0l2	le_07_10_2008__	T
+
+#Son examen par l'inspection des installations classées est en cours.
+
+34l0l0	Son_examen	N
+34l0l1	l__inspection_des_installations_classées	O
+34l0l2	cours	T
+
+#Sur l'ancien terrain au sud du site, les terres les plus souillées ont été excavées sur les zones identifiées comme particulièrement très polluées.
+
+35l0l0	l__ancien_terrain	O
+35l0l1	au_sud_du_site	L
+35l0l2	les_terres_les_plus_souillées	O
+35l0l3	ont_été_excavées	N
+35l0l4	les_zones_identifiées	O
+
+#Sur le terrain récent au nord du site, seules deux sources de pollution très localisées ont été détectées, l'une en hydrocarbures totaux et l'autre en plomb.
+
+36l0l0	le_terrain_récent	O
+36l0l1	au_nord_du_site	L
+36l0l2	deux_sources_de_pollution	O
+36l0l3	ont_été_détectées	N
+36l1l0	hydrocarbures_totaux	S
+36l1l1	plomb	S
+
+#Concernant la problématique de pollution des sols, l'exploitant a remis une proposition de mesures de gestion en juillet 2008, complétée par courrier du 12/03/2009.
+
+37l0l0	la_problématique_de_pollution_des_sols	O
+37l0l1	l__exploitant	O
+37l0l2	a_remis	N
+37l0l3	une_proposition_de_mesures_de_gestion	O
+37l0l4	en_juillet_2008__	T
+37l0l5	complétée_par_courrier	N
+37l0l6	du_12_03_2009__	T
+
+#La synthèse de cette étude montre :
+
+
+#- la présence de captages dans la zone d'étude, non vulnérables à une éventuelle pollution issue du site du fait de leur éloignement, de la profondeur de la nappe (plus de 50 m) et de l'existence d'une couche d'argile protectrice de plus de 10 mètres d'épaisseur au droit du site,
+
+39l0l0	de_captages	O
+39l0l1	une_éventuelle_pollution	O
+39l0l2	issue_du_site	L
+
+#- une contamination des sols de surface en hydrocarbures et métaux.
+
+40l0l0	une_contamination	N
+40l1l0	hydrocarbures	S
+40l1l1	métaux	S
+
+#Des traces de HAP et ponctuellement de PCB sont rencontrées.
+
+41l0l0	Des_traces_de_HAP	O
+41l1l0	HAP	S
+41l1l1	PCB	S
+
+#Cette étude ne met pas en évidence de voie de transfert de la pollution vers l'extérieur du site.
+
+42l0l0	la_pollution	O
+42l0l1	vers_l__extérieur_du_site	L
+
+#Les usagers du site peuvent être exposés à la pollution du site par inhalation de poussière, par inhalation de gaz, mais le risque est acceptable pour ces voies d'exposition (quotient de danger de 0,0002 inférieur au seuil tolérable de 1 et excès de risque individuel de 3,7.10-9 inférieur au seuil tolérable de 10-5).
+
+43l0l0	exposés_à_la_pollution	N
+
+#Le risque est également acceptable pour les travailleurs en prenant en compte l'ingestion involontaire de sol et l'inhalation de poussière1 (quotient de danger de 0,57 inférieur au seuil tolérable de 1 et excès de risque individuel de 8,8.10-6 inférieur au seuil tolérable de 10-5).
+
+
+#La voie d'exposition cutanée n'est pas prise en compte, selon la méthodologie de février 2007, en l'absence de Valeurs Toxicologiques de référence spécifiques pour le contact cutané.
+
+45l0l0	février_2007__	T
+
+#Une analyse de l'eau du robinet du site a été réalisée en juillet 2009 et conclut à une eau non contaminée en composés organiques volatils et hydrocarbures totaux.
+
+46l0l0	Une_analyse	N
+46l0l1	a_été_réalisée	N
+46l0l2	en_juillet_2009	T
+46l1l0	composés_organiques_volatils	S
+46l1l1	hydrocarbures_totaux	S

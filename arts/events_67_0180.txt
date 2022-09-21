@@ -1,0 +1,201 @@
+
+#67.0180
+#L'arrêté préfectoral (AP) du 12 août 1983 autorise la société SCHWEIGHOUSE-ENROBES (actuellement EJL ALSACE) à exploiter une centrale fixe d'enrobage à chaud de matériaux routiers.
+
+0l0l0	L__arrêté_préfectoral	O
+0l0l1	12_août_1983	T
+0l0l2	autorise	N
+0l0l3	la_société_SCHWEIGHOUSE	O
+0l0l4	__ENROBES	O
+0l0l5	__actuellement	L
+0l0l6	EJL_ALSACE	O
+0l0l7	exploiter	N
+0l0l8	une_centrale_fixe_d_	O
+0l0l9	enrobage_à_chaud	A
+0l0l10	matériaux_routiers	O
+0l1l0	la_société_SCHWEIGHOUSE___ENROBES	I
+0l1l1	EJL_ALSACE	I
+
+#La société a changé d'exploitant de nombreuses fois (société ROEHRIG TP en 1991 puis société JEAN LEFEBVRE en 2004, EUROVIA en 2011 et enfin EJL ALSACE en 2014).
+
+1l0l0	La_société	O
+1l0l1	a_changé_d_	N
+1l0l2	exploitant	O
+1l0l3	société	N
+1l0l4	ROEHRIG_TP	O
+1l0l5	en_1991	T
+1l0l6	société_JEAN_LEFEBVRE	O
+1l0l7	en_2004__	T
+1l0l8	EUROVIA	O
+1l0l9	en_2011	T
+1l0l10	EJL_ALSACE	O
+1l1l0	société_ROEHRIG_TP	I
+1l1l1	société_JEAN_LEFEBVRE	I
+1l1l2	EUROVIA	I
+1l1l3	EJL_ALSACE	I
+
+#Elle est actuellement en activité et exploite une centrale d'enrobage à chaud de matériaux routiers, une plate-forme de maturation de mâchefers et une installation de distribution de liquides inflammables.
+
+2l0l0	Elle	O
+2l0l1	est_actuellement_en_activité	N
+2l0l2	exploite	R
+2l0l3	une_centrale	O
+2l0l4	enrobage_à_chaud	A
+2l0l5	matériaux_routiers	O
+2l0l6	une_installation_de	O
+2l0l7	distribution_de_liquides_inflammables	A
+2l1l0	liquides_inflammables	U
+
+#Cette société, soumise au régime de l'autorisation, est encadrée par l'AP du 26/10/2004.
+
+3l0l0	Cette_société	O
+3l0l1	l__autorisation	O
+3l0l2	est_encadrée_par	R
+3l0l3	l_	O
+3l0l4	26_10_2004__	T
+
+#Certaines activités de la société EJL ALSACE présentent des risques de pollution comme par exemple le stockage et l'utilisation de liquides inflammables ; le dépôt de houille, coke, lignite, charbon de bois, ainsi que le stockage et traitement des ordures ménagères et autres résidus urbains.
+
+4l0l0	Certaines_activités	O
+4l0l1	la_société_EJL_ALSACE	O
+4l0l2	le_stockage_et_l__utilisation_de_liquides_inflammables	A
+4l0l3	le_stockage	A
+4l0l4	et_traitement_des_ordures_ménagères	O
+4l1l0	la_société_EJL_ALSACE	I
+4l1l1	liquides_inflammables	U
+4l1l2	houille	U
+4l1l3	coke	U
+4l1l4	charbon_de_bois	U
+4l1l5	ordures_ménagères	U
+4l1l6	résidus_urbains	U
+
+#L'AP du 17/06/1996 complété par celui du 26/10/2004 prescrit à la société une surveillance trimestrielle de la qualité des eaux souterraines à partir des 3 piézomètres amont et avals implantés sur le site.
+
+5l0l0	L__AP	O
+5l0l1	17_06_1996	T
+5l0l2	26_10_2004_prescrit	T
+5l0l3	la_société	O
+5l0l4	une_surveillance_trimestrielle	A
+5l0l5	la	O
+5l0l6	qualité_des_eaux_souterraines	A
+5l0l7	à_partir_des	R
+5l0l8	3_piézomètres_amont	O
+
+#Les paramètres analysés sont :
+
+
+#indice phénol, agents de surface, chlorures, sulfates, calcium, magnésium, sodium, potassium, bicarbonate, fluorures, nitrates, nitrites,ammonium, azote Kjedhal, Carbone organique total (COT), Fer (Fe), Aluminium (Al), Cuivre (Cu), Zinc (Zn), Manganèse (Mn), Plomb (Pb), Mercure (Hg),  Cadmium (Cd), Chrome (Cr), Arsenic (As).
+
+7l1l0	phénol	S
+7l1l1	agents_de_surface	U
+7l1l2	chlorures	S
+7l1l3	sulfates	S
+7l1l4	calcium	S
+7l1l5	magnésium	S
+7l1l6	sodium	S
+7l1l7	potassium	S
+7l1l8	bicarbonate	S
+7l1l9	fluorures	S
+7l1l10	nitrates	S
+7l1l11	nitrites	S
+7l1l12	ammonium	S
+7l1l13	azote	S
+7l1l14	Kjedhal	I
+7l1l15	Carbone	U
+7l1l16	COT	S
+7l1l17	Fer___Fe_____Aluminium___Al	S
+7l1l18	Cuivre	S
+7l1l19	Cu	S
+7l1l20	Zinc	S
+7l1l21	Zn	S
+7l1l22	Manganèse	S
+7l1l23	Mn	S
+7l1l24	Plomb	S
+7l1l25	Pb	S
+7l1l26	Mercure	S
+7l1l27	Hg	S
+7l1l28	__Cadmium___Cd	S
+7l1l29	__Chrome___Cr	S
+7l1l30	__Arsenic___As	S
+
+#Des analyses faites en 2013 montrent des concentrations supérieures aux seuils de quantifications respectifs des paramètres suivants :
+
+8l0l0	Des_analyses_faites	N
+8l0l1	en_2013	T
+
+#Manganèse : concentration à 380 ug/L sur Pz1, 1130.00 ug/L sur Pz2 et 1340.00 ug/L sur Pz3 pour un seuil de 50 ug/L
+
+9l0l0	Manganèse	O
+9l1l0	Manganèse	S
+
+#Carbone organique : concentration à 4.48 mg/L sur Pz1, 25.10 mg/L sur Pz2 et 22.10 mg/L sur Pz3 pour un seuil de 2 mg/L
+
+10l1l0	Carbone_organique	S
+
+#Azote Kjedhal : concentration à 7.80 mg/L sur Pz2 et 7.50 mg/L sur Pz3 pour un seuil de 1mg/L (concentration normale sur Pz1)
+
+11l0l0	Azote_Kjedhal	O
+11l1l0	Azote_Kjedhal	I
+
+#Hydrogénocarbonates : concentration à 484.00 mg/L sur Pz2 et 603.00 mg/L sur Pz3 pour un seuil de 350.00 mg/L (concentration normale sur Pz1)
+
+12l1l0	Hydrogénocarbonates	S
+
+#Ammonium : concentration à 8.54 mg/L sur Pz2 et 8.92 mg/L sur Pz3 pour un seuil de 0.5 mg/L. (concentration normale sur Pz1)
+
+13l0l0	8_92	O
+13l1l0	Ammonium	S
+
+#Potassium : concentration à 29.90 mg/L sur Pz2 et 67.40 mg/L sur Pz3 pour un seuil de 12 mg/L (concentration normale sur Pz1)
+
+14l1l0	Potassium	S
+
+#Arsenic : concentration à 32.30 ug/L sur Pz2 pour un seuil de 10 ug/L (concentration normale sur Pz1)
+
+15l0l0	Arsenic	O
+15l1l0	Arsenic	S
+
+#Aluminium : concentration à 992.00 ug/L sur Pz2 pour un seuil de 200ug/L. (concentration normale sur Pz1)
+
+16l1l0	Aluminium	S
+
+#Calcium : concentration à 142.00 mg/L sur Pz2 et 218 mg/L sur Pz3 pour un seuil de 100 mg/L
+
+17l0l0	Calcium	O
+17l1l0	Calcium	S
+
+#(concentration normale sur Pz1)
+
+
+#Plomb : concentration à 9.70 ug/L sur Pz2 pour un seuil de 1.2 ug/L (concentration normale sur Pz1)
+
+19l1l0	Plomb	S
+
+#Fer : concentration à 35 200.00 ug/L sur Pz2 et 24300.00 ug/L sur Pz3 pour un seuil de 200. (concentration normale sur Pz1)
+
+20l0l0	24300_00	O
+20l1l0	Fer	S
+
+#Les concentrations en Chlorures, sulfates, magnésium, sodium, bicarbonate, nitrates, nitrites, mercure, cadmium, chrome et zinc sont toutes inférieures à leurs seuils de quantifications respectifs, au droit des 3 piézomètres.
+
+21l1l0	Chlorures	S
+21l1l1	sulfates	S
+21l1l2	magnésium	S
+21l1l3	sodium	S
+21l1l4	bicarbonate	S
+21l1l5	nitrates	S
+21l1l6	nitrites	S
+21l1l7	mercure	S
+21l1l8	cadmium	S
+21l1l9	chrome	S
+21l1l10	zinc	S
+
+#En comparant les résultats d'analyses réalisées en 2013 et les valeurs minimale, maximale et médiane des analyses de 2008 à 2012, on constate que les concentrations ne sont pas stables : elles évoluent à la hausse, à la baisse voir se stabilisent suivant les différents paramètres.
+
+22l0l0	en_2013	T
+22l0l1	de_2008_à_2012__	T
+22l0l2	se_stabilisent	N
+
+#Cette instabilité montre la nécessité de poursuivre la surveillance de la qualité des eaux souterraines de manière trimestrielle.
+
+23l0l0	la_surveillance_de_la_qualité_des_eaux_souterraines	A

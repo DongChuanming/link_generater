@@ -1,0 +1,112 @@
+
+#13.0063
+#FLUXEL (Ex PAM)- Terminal Pétrolier à Fos - 13 -
+
+0l0l0	FLUXEL	O
+0l0l1	Terminal	N
+0l0l2	Pétrolier	O
+0l0l3	à_Fos	L
+0l1l0	FLUXEL___Ex_PAM_	I
+0l1l1	Terminal_Pétrolier	S
+
+#Le Terminal pétrolier est implanté à FOS sur les terrains du Port Autonome de Marseille gagnés sur la mer.
+
+1l0l0	Le_Terminal_pétrolier	O
+1l0l1	est_implanté	N
+1l0l2	à	R
+1l0l3	FOS	O
+1l0l4	sur	R
+1l0l5	les_terrains	O
+1l0l6	du_Port_Autonome_de_Marseille	L
+1l0l7	gagnés	A
+1l0l8	sur_la_mer	L
+1l1l0	Port	I
+
+#Il est constitué de postes de distribution, d'une aire de dépotage, de bacs de déballastage, d'une lagune de stockage (60 000 m3).
+
+2l0l0	postes_de_distribution	O
+2l0l1	dépotage	O
+
+#C'est un site est en activité, exploité par FLUXEL depuis le 2/05/2011 (date de la déclaration écrite) et est autorisé par les AP du 23/11/1999, 22/11/2004, .
+
+3l0l0	C__est_un_site	O
+3l0l1	est_en_activité	N
+3l0l2	exploité_par	N
+3l0l3	FLUXEL	O
+3l0l4	depuis_le_2_05_2011	T
+3l0l5	est_autorisé_par	N
+3l0l6	les_AP	O
+3l0l7	23_11_1999	T
+3l0l8	22_11_2004	T
+3l1l0	FLUXEL	I
+
+#L'ESR prescrite par l'arrêté préfectoral du 16/06/2000 a été remise à la DRIRE en juillet 2000.
+
+4l0l0	ESR_prescrite	N
+4l0l1	par	R
+4l0l2	l__arrêté_préfectoral	O
+4l0l3	du_16_06_2000	T
+4l0l4	a_été_remise	N
+4l0l5	la_DRIRE	O
+4l0l6	en_juillet_2000__	T
+4l1l0	la_DRIRE	I
+
+#Elle conclue en un classement "2" du site (à surveiller), et identifie des sources particulières de pollutions :
+
+5l0l0	identifie	N
+5l0l1	des_sources_particulières_de_pollutions	O
+
+#* Sur le terminal, le sous-sol d'un poste de chargement est pollué par des hydrocarbures volatils (en particulier présence de benzène).
+
+6l0l0	le_terminal	O
+6l0l1	chargement	A
+6l0l2	est_pollué	N
+6l1l0	hydrocarbures_volatils	S
+6l1l1	benzène	S
+
+#L'origine de cette pollution est une fuite sur un ballon enterré de reprise des égouttures.
+
+7l0l0	L__origine	O
+7l0l1	une_fuite	N
+7l0l2	un_ballon_enterré	O
+7l0l3	reprise_des_égouttures	O
+
+#Des mesures ont été immédiatement prises par l'exploitant pour traiter la fuite.
+
+8l0l0	Des_mesures	O
+8l0l1	ont_été_immédiatement_prises	N
+8l0l2	l__exploitant	O
+
+#* Sur les postes de distribution appelés PAM 2 et 3, sols pollués d'origine accidentelle historique (1997), le seul captage AEP à proximité (propriété de la raffinerie d'ESSO) est protégé par la présence d'une tranchée drainante entre les postes de distribution et la raffinerie ESSO.
+
+9l0l0	les_postes_de_distribution	O
+9l0l1	origine_accidentelle_historique	N
+9l0l2	__1997__	T
+9l0l3	le_seul_captage_AEP_à_proximité	O
+9l0l4	la_raffinerie	O
+9l0l5	d__ESSO	O
+9l0l6	une_tranchée_drainante	N
+9l0l7	la_raffinerie_ESSO	O
+9l1l0	raffinerie_d__ESSO	I
+9l1l1	la_raffinerie_ESSO	I
+
+#Les zones concernées sont géographiquement limitées.
+
+
+#Un réseau de surveillance des eaux souterraines constitué de cinq piézomètres est en place (AP du 23/11/1999).
+
+11l0l0	Un_réseau_de	O
+11l0l1	surveillance_des_eaux_souterraines	A
+11l0l2	23_11_1999____	T
+
+#Pas d'anomalies dans les mesures.
+
+
+#L'AP du 3/03/2010 fixe les modalités de rejets de substances dangereuses dans l'eau.
+
+13l0l0	L__AP	O
+13l0l1	3_03_2010	T
+13l0l2	fixe	N
+13l0l3	les_modalités	O
+13l0l4	rejets_de_substances_dangereuses	N
+13l1l0	substances_dangereuses	U

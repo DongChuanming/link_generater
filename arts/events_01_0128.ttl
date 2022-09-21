@@ -1,0 +1,152 @@
+@prefix : <http://example.com/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:event_components a owl:Class.
+:labels a owl:Class.
+:when a owl:ObjectProperty .
+:status a owl:ObjectProperty .
+:locate a owl:ObjectProperty .
+:parallel a owl:ObjectProperty .
+:unknown a owl:ObjectProperty .
+:agent a owl:ObjectProperty .
+:pagent a owl:ObjectProperty .
+:target a owl:ObjectProperty .
+:indirect_target a owl:ObjectProperty .
+:ptarget a owl:ObjectProperty .
+:complement a owl:ObjectProperty .
+:passive_target a owl:ObjectProperty .
+:passive_agent a owl:ObjectProperty .
+:precise a owl:ObjectProperty .
+:pprecise a owl:ObjectProperty .
+:pollutant a owl:ObjectProperty .
+:event owl:subClassOf owl:Class.
+:N a :labels.
+:event rdfs:label :N.
+:object owl:subClassOf owl:Class.
+:O a :labels.
+:object rdfs:label :O.
+:time owl:subClassOf owl:Class.
+:T a :labels.
+:time rdfs:label :T.
+:location owl:subClassOf owl:Class.
+:L a :labels.
+:location rdfs:label :L.
+:industrial_activity owl:subClassOf owl:Class.
+:A a :labels.
+:industrial_activity rdfs:label :A.
+:relation owl:subClassOf owl:Class.
+:R a :labels.
+:relation rdfs:label :R.
+:institution owl:subClassOf owl:Class.
+:I a :labels.
+:institution rdfs:label :I.
+:pollutant_container owl:subClassOf owl:Class.
+:D a :labels.
+:pollutant_container rdfs:label :D.
+:pollutant owl:subClassOf owl:Class.
+:U a :labels.
+:pollutant rdfs:label :U.
+:chemical owl:subClassOf owl:Class.
+:S a :labels.
+:chemical rdfs:label :S.
+:0l0l0 a :object.
+:créer owl:subClassOf :event.
+:0l0l1 a :créer.
+:0l0l2 a :time.
+:0l0l0 :target :0l0l1.
+:0l0l1 :when :0l0l2.
+:1l0l0 a :object.
+:1l0l1 a :time.
+:2l0l0 a :industrial_activity.
+:2l0l1 a :industrial_activity.
+:3l0l0 a :time.
+:diagnostic owl:subClassOf :event.
+:3l0l1 a :diagnostic.
+:réaliser owl:subClassOf :event.
+:3l0l2 a :réaliser.
+:3l0l3 a :object.
+:3l0l2 :when :3l0l0.
+:3l0l2 :status :3l0l1.
+:pollution owl:subClassOf :event.
+:4l0l0 a :pollution.
+:investigation owl:subClassOf :event.
+:5l0l0 a :investigation.
+:5l0l1 a :object.
+:5l0l2 a :object.
+:métallique owl:subClassOf :chemical.
+:5l1l0 a :métallique.
+:cuivre owl:subClassOf :chemical.
+:5l1l1 a :cuivre.
+:plomb owl:subClassOf :chemical.
+:5l1l2 a :plomb.
+:chrome owl:subClassOf :chemical.
+:5l1l3 a :chrome.
+:5l1l4 a :chrome.
+:arsenic owl:subClassOf :chemical.
+:5l1l5 a :arsenic.
+:hydrocarbure owl:subClassOf :chemical.
+:5l1l6 a :hydrocarbure.
+:cohv owl:subClassOf :chemical.
+:5l1l7 a :cohv.
+:5l0l2 :complement :5l0l1.
+:5l0l2 :contain :5l1l0.
+:5l1l1 :complement :5l0l2.
+:6l0l0 a :object.
+:7l0l0 a :object.
+:7l0l1 a :location.
+:alluvion owl:subClassOf :event.
+:7l0l2 a :alluvion.
+:7l0l3 a :location.
+:7l0l4 a :location.
+:7l0l1 ::locate :7l0l0.
+:relevé owl:subClassOf :event.
+:8l0l0 a :relevé.
+:8l0l1 a :time.
+:8l0l2 a :object.
+:8l0l3 a :object.
+:8l0l4 a :location.
+:8l0l5 a :object.
+:8l1l0 a :chrome.
+:forme owl:subClassOf :chemical.
+:8l1l1 a :forme.
+:8l1l0 :complement :8l0l2.
+:8l0l3 :complement :8l0l2.
+:8l0l5 :complement :8l0l2.
+:8l0l5 :overlap :8l1l0.
+:8l1l1 :complement :8l0l5.
+:9l0l0 a :location.
+:trichloroéthylène owl:subClassOf :chemical.
+:9l1l0 a :trichloroéthylène.
+:tétrachloroéthylène owl:subClassOf :chemical.
+:9l1l1 a :tétrachloroéthylène.
+:composé owl:subClassOf :chemical.
+:9l1l2 a :composé.
+:10l0l0 a :object.
+:manganèse owl:subClassOf :chemical.
+:10l1l0 a :manganèse.
+:nickel owl:subClassOf :chemical.
+:10l1l1 a :nickel.
+:fer owl:subClassOf :chemical.
+:10l1l2 a :fer.
+:10l1l0 :complement :10l0l0.
+:11l0l0 a :location.
+:11l0l1 a :object.
+:11l0l2 a :location.
+:12l0l0 a :object.
+:remettre owl:subClassOf :event.
+:12l0l1 a :remettre.
+:12l0l2 a :object.
+:12l0l3 a :time.
+:12l0l0 :agent :12l0l1.
+:12l0l2 :target :12l0l1.
+:12l0l1 :when :12l0l3.
+:travail owl:subClassOf :event.
+:13l0l0 a :travail.
+:prescrire owl:subClassOf :event.
+:13l0l1 a :prescrire.
+:13l0l2 a :object.
+:13l0l3 a :time.
+:13l0l1 :status :13l0l0.
+:13l0l2 :unknown :13l0l1.

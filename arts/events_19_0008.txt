@@ -1,0 +1,297 @@
+
+#19.0008
+#La société SANICENTRE exploitait depuis 1994 sur le site une plate-forme de transit de "DIS" (déchets industiels spéciaux), essentiellement des hydrocarbures.
+
+0l0l0	La_société_SANICENTRE	O
+0l0l1	exploitait	N
+0l0l2	depuis_1994	T
+0l0l3	le_site	O
+0l0l4	une_plate___forme	O
+0l0l5	de_transit	O
+0l0l6	hydrocarbures	O
+0l1l0	La_société_SANICENTRE	I
+0l1l1	__DIS__	U
+0l1l2	déchets_industiels_spéciaux	U
+0l1l3	hydrocarbures	S
+
+#Le 29 avril 2002 la société SANICENTRE informe l'Inspection des Installations Classées qu'elle ne souhaite pas déposer un dossier de demande d'autorisation d'exploiter et qu'elle cesse toute activité de transit de DIS.
+
+1l0l0	Le_29_avril_2002	T
+1l0l1	la_société_SANICENTRE	O
+1l0l2	informe	N
+1l0l3	l__Inspection_des_Installations_Classées	O
+1l0l4	elle_ne	O
+1l0l5	souhaite_pas_déposer	N
+1l0l6	elle	O
+1l0l7	cesse	N
+1l0l8	toute_activité_de_transit	A
+1l1l0	la_société_SANICENTRE	I
+
+#Le site sera alors utilisé pour le stationnement des véhicules de la société.
+
+2l0l0	Le_site	O
+2l0l1	la_société	O
+
+#Le site actuel de Sanicentre à Saint-Viance constitue l'agence de Brive de cette société qui intervient dans le domaine du recyclage, de la vidange, des canalisations, de l'assainissement et des fosses septiques.
+
+3l0l0	Le_site_actuel	O
+3l0l1	Sanicentre_à_Saint_Viance	L
+3l0l2	l__agence_de_Brive	L
+3l0l3	cette_société	O
+3l0l4	intervient_dans_le_domaine_du_recyclage___de_la_vidange	A
+3l0l5	des_canalisations	O
+3l0l6	l__assainissement	N
+3l0l7	fosses_septiques	O
+3l1l0	Sanicentre	I
+3l1l1	septiques	S
+
+#Seule une activité de stationnement des véhicules d'intervention de la société sans présence de stockage des fluides et boues et résidus de fosses et bacs pompés est exercée.
+
+4l0l0	une_activité_de_stationnement_des_véhicules_d__intervention	A
+4l0l1	la_société	O
+4l0l2	pompés	A
+4l0l3	est_exercée	N
+
+#Au vu des constats effectués lors de sa dernière visite d'inspection en date du 31 juillet 2014, l'Inspection des Installations Classées considère qu'il n'y a plus sur site d'installation justifiant un classement du site des Rieux à Saint-Viance au titre des ICPE.
+
+5l0l0	des_constats_effectués_lors_de	N
+5l0l1	sa_dernière_visite_d__inspection	N
+5l0l2	en_date_du_31_juillet_2014__	T
+5l0l3	l__Inspection_des_Installations_Classées	O
+5l0l4	Rieux_à_Saint_Viance	L
+5l0l5	au_titre_des_ICPE	N
+
+#La réglementation qui s'applique en l’espèce est donc le règlement sanitaire départemental.
+
+
+#1.
+
+
+#Origine de l'affaire et premières investigations :
+
+
+#Suite à une visite de l'Inspection des Installations Classées, le défaut d'autorisation de l'activité est découvert.
+
+9l0l0	Suite_à	R
+9l0l1	une_visite	N
+9l0l2	l__Inspection_des_Installations_Classées	O
+9l0l3	autorisation	N
+9l0l4	l__activité	O
+9l0l5	est_découvert	N
+
+#Un Procès Verbal pour ce motif est alors dressé le 6 mars 2002 et transmis au Tribunal de Grande Instance de Brive-la-Gaillarde.
+
+10l0l0	Un_Procès_Verbal	O
+10l0l1	ce_motif	O
+10l0l2	est_alors_dressé	N
+10l0l3	le_6_mars_2002	T
+10l0l4	Tribunal_de_Grande_Instance_de_Brive_la_Gaillarde	L
+10l1l0	Brive_la_Gaillarde	I
+
+#Sur proposition de l'Inspection, un arrêté de mise en demeure demandant la régularisation administrative ou la remise en état du site est signé le 15 mars 2002.
+
+11l0l0	un_arrêté_de_mise_en_demeure	N
+11l0l1	la_régularisation_administrative	O
+11l0l2	la_remise_en_état_du_site	O
+11l0l3	est_signé	N
+11l0l4	le_15_mars_2002	T
+
+#L'exploitant réalise un diagnostic initial - étude des sols (rapport EGEH de mars 2002).
+
+12l0l0	L__exploitant	O
+12l0l1	réalise_un_diagnostic_initial	N
+12l0l2	mars_2002	T
+
+#L'analyse des échantillons de sols indique une absence de pollution au PCB et aux hydrocarbures totaux mais une présence de chrome avec une teneur de 118 mg/kg (teneur inférieure à la "VCI ZNS" - valeur de constat d'impact zone non sensible, critère d'évaluation alors en vigueur, ne valant pas objectif de réhabilitation).
+
+13l1l0	PCB	S
+13l1l1	hydrocarbures_totaux	S
+13l1l2	chrome	S
+
+#Compte tenu de l'activité exercée et d'une présomption de pollution du sol, sur proposition de l'Inspection, un second arrêté préfectoral en date du 22 mai 2002 impose la réalisation d'un diagnostic initial de pollution ainsi qu'une "ESR" (évaluation simplifiée des risques) au sens de la méthodologie alors en vigueur en matière de sites et sols (potentiellement) pollués.
+
+14l0l0	un_second_arrêté_préfectoral	O
+14l0l1	en_date_du_22_mai_2002	T
+14l0l2	impose_la_réalisation_d__un_diagnostic_initial	N
+
+#Après complément, le rapport d'étape A  du diagnostic initial est remis le 16 janvier 2003.
+
+15l0l0	du_diagnostic_initial	N
+15l0l1	est_remis	N
+15l0l2	le_16_janvier_2003__	T
+
+#Suivant les informations relevées au cours de cette première phase (étude historique et de vulnérabilité), et à la demande de l'Inspection des Installations Classées, un réseau de 3 piézomètres est mis en place en juillet 2003 pour suivre la qualité des eaux souterraines (étape B du diagnostic initial).
+
+16l0l0	Suivant	R
+16l0l1	cours_de_cette_première_phase	N
+16l0l2	à_la_demande_de	R
+16l0l3	l__Inspection_des_Installations_Classées	O
+16l0l4	3_piézomètres	O
+16l0l5	est_mis_en_place	N
+16l0l6	en_juillet_2003	T
+16l0l7	la_qualité_des_eaux_souterraines	O
+
+#L'ESR est réalisée en septembre 2003 et classe le site en 2 ("à surveiller").
+
+17l0l0	en_septembre_2003	T
+
+#Un courrier de l'Inspection des Installations Classées en date du 26 octobre 2004 a demandé la mise en place d'une surveillance régulière des eaux souterraines.
+
+18l0l0	l__Inspection_des_Installations_Classées	O
+18l0l1	en_date_du_26_octobre_2004	T
+18l0l2	a_demandé_la_mise_en_place_d_	N
+18l0l3	une_surveillance_régulière_des_eaux_souterraines	A
+
+#2.
+
+
+#Surveillance du site et mesures de remédiation :
+
+20l0l0	Surveillance_du_site	O
+
+#Depuis la mise en place de la surveillance de la nappe souterraine, on a d'abord constaté une nette tendance à l'amélioration de la qualité des eaux souterraines au droit du site.
+
+21l0l0	Depuis_la_mise_en_place	N
+21l0l1	la_surveillance_de_la_nappe_souterraine	A
+21l0l2	la_qualité_des_eaux_souterraines	O
+21l0l3	au_droit_du_site	L
+
+#Cependant, alors que les analyses des échantillons prélevés lors du relevé piézométrique d'avril 2011 n'indiquaient pour l'ensemble des paramètres recherchés que des concentrations proches ou inférieures aux différents seuils de quantification du laboratoire, celles de mai 2012 réalisées sur des prélèvements effectués en période de haute eaux, indiquent une dégradation du paramètre hydrocarbures C10-C40 (assimilable aux anciens HCT) avec une teneur de 940 µg/l (à comparer à la valeur de référence de 1000 µg/l pour les eaux brutes destinées à la préparation d'eaux destinées à la consommation humaine).
+
+22l0l0	d__avril_2011	T
+22l0l1	de_mai_2012	T
+22l0l2	effectués_en_période_de_haute_eaux	N
+22l0l3	destinées_à	L
+22l0l4	la_préparation_d__eaux_destinées_à_la_consommation	A
+22l1l0	paramètre_hydrocarbures_C10_C40	S
+22l1l1	anciens_HCT	S
+
+#Ce marquage, pourrait être la conséquence d'une pollution antérieure "accidentelle" des sols due à des actes de malveillance contre l'entreprise (plusieurs réservoirs de carburant des véhicules de l'entreprise ayant été percés).
+
+23l0l0	la	O
+23l0l1	conséquence_d_	R
+23l0l2	une_pollution_antérieure___accidentelle	N
+23l0l3	sols	O
+23l0l4	due_à	R
+23l0l5	des_actes	N
+23l0l6	de_malveillance	A
+23l0l7	l__entreprise	O
+23l0l8	plusieurs_réservoirs_de_carburant	O
+23l0l9	l__entreprise	O
+23l0l10	ayant_été_percés	N
+23l1l0	carburant	U
+
+#Une campagne de prélèvements et d'analyses effectuée en 2009 avait déjà révélé des teneurs en C10-C40 dans les eaux souterraines sous-jacentes de 1700 et 2000 µg/l.
+
+24l0l0	Une_campagne_de_prélèvements_et_d__analyses	N
+24l0l1	effectuée	N
+24l0l2	en_2009	T
+24l0l3	des_teneurs	O
+24l1l0	C10_C40	S
+
+#L'Inspection des Installations Classées a procédé à une visite du site le 15 février 2012, au cours de laquelle elle a constaté que désormais une grande partie du site est goudronnée (travaux effectués en 2011).
+
+25l0l0	L__Inspection_des_Installations_Classées	O
+25l0l1	a_procédé_à_une_visite	N
+25l0l2	site	O
+25l0l3	le_15_février_2012__	T
+25l0l4	désormais_une_grande_partie_du_site	O
+25l0l5	est_goudronnée	N
+25l0l6	travaux_effectués	N
+25l0l7	en_2011__	T
+
+#La surveillance des eaux souterraines est alors régulièrement maintenue.
+
+26l0l0	La_surveillance	A
+26l0l1	eaux_souterraines	O
+
+#Le dernier rapport du suivi analytique des eaux souterraines réalisé par EGEH en juin 2014 (référencé n°2014 133) indique des teneurs en HCT inférieures à 20 µg/l pour les 3 piézomètres.
+
+27l0l0	eaux_souterraines	O
+27l0l1	réalisé	N
+27l0l2	EGEH	O
+27l0l3	en_juin_2014	T
+27l1l0	EGEH	I
+27l1l1	HCT	S
+
+#3.
+
+
+#Suspension de la surveillance mais maintien en état du réseau piézométrique :
+
+29l0l0	Suspension	N
+29l0l1	la_surveillance	A
+29l0l2	réseau_piézométrique	O
+
+#Au regard des résultats de surveillance, et d'un bilan quadriennal demandé par l'Inspection des Installations Classées, la société SANICENTRE a demandé l'arrêt de la surveillance.
+
+30l0l0	surveillance	A
+30l0l1	quadriennal	T
+30l0l2	l__Inspection_des_Installations_Classées	O
+30l0l3	la_société_SANICENTRE	O
+30l0l4	a_demandé	N
+30l0l5	l_	O
+30l0l6	la_surveillance	O
+30l1l0	la_société_SANICENTRE	I
+
+#Il convient de noter que cette surveillance n'ayant été instituée que suite à une demande de l'Inspection mais sans recours à un arrêté préfectoral, sa suspension ne requérait pas l'avis préalable du CODERST.
+
+31l0l0	surveillance	O
+31l0l1	n__ayant_été_instituée_que	N
+31l0l2	suite_à	R
+31l0l3	une_demande	N
+31l0l4	un_arrêté_préfectoral	O
+31l0l5	ne_requérait_pas	R
+31l1l0	CODERST	I
+
+#Par conséquent, après étude du dossier, sur proposition de l'inspection des installations classées, la préfecture a accepté l'arrêt de la surveillance par un courrier en date du 22 octobre 2014.
+
+32l0l0	l__inspection_des_installations_classées	O
+32l0l1	la_préfecture	O
+32l0l2	a_accepté	N
+32l0l3	l__arrêt	N
+32l0l4	la_surveillance	O
+32l0l5	un_courrier	O
+32l0l6	en_date_du_22_octobre_2014__	T
+32l1l0	la_préfecture	I
+
+#Toutefois, sur proposition de l'Inspection qui avait obtenu de la société SANICENTRE le maintien en état du réseau piézométrique, ce courrier confirme la demande faite à l'exploitant de conserver l'intégrité et la protection du réseau des 3 piézomètres.
+
+33l0l0	la_société_SANICENTRE	O
+33l0l1	le_maintien_en_état	N
+33l0l2	réseau_piézométrique	O
+33l0l3	l__exploitant	O
+33l1l0	la_société_SANICENTRE	I
+
+#4.
+
+34l1l0	4__	S
+
+#Versement de la fiche BASOL vers la base de données BASIAS :
+
+35l0l0	Versement	N
+
+#L'exploitation du site en son état actuel ne ressort plus de la législation des installations classées, la surveillance des eaux souterraines est suspendue au vu des résultats du bilan quadriennal, et l'exploitant reste locataire du site et s'est engagé à protéger et maintenir en état le réseau piézométrique.
+
+36l0l0	L__exploitation	N
+36l0l1	site	O
+36l0l2	son_état_actuel	O
+36l0l3	ne_ressort_plus_de	R
+36l0l4	la_législation_des_installations_classées	O
+36l0l5	la_surveillance_des_eaux_souterraines	A
+36l0l6	l__exploitant	O
+36l0l7	s__est_engagé_à_protéger	N
+36l0l8	maintenir_en_état	N
+
+#Comme préconisé par l'Inspection des Installations Classées, et rappelé dans le courrier préfectoral du 22 octobre 2014, la présente fiche BASOL sera reversée sur la base de données BASIAS, le site de Saint-Viance n'appelant plus à ce jour et en son état actuel d'action de l'Administration en matière de sites et sols pollués.
+
+37l0l0	l__Inspection_des_Installations_Classées	O
+37l0l1	courrier_préfectoral	O
+37l0l2	du_22_octobre_2014__	T
+37l0l3	la_présente_fiche_BASOL	O
+37l0l4	sera_reversée	N
+37l0l5	le_site	O
+37l0l6	Saint_Viance	L
+37l0l7	n__appelant_plus	N
+37l0l8	à_ce_jour	T
+37l0l9	sols_pollués	O

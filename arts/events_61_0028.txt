@@ -1,0 +1,114 @@
+
+#61.0028
+#Filature établie en 1896 par la SA de la filature de la Martinique puis par la société FERODO/VALEO pour le tressage et la fabrication de joints d'amiante.
+
+0l0l0	Filature	O
+0l0l1	établie	R
+0l0l2	en_1896	T
+0l0l3	la_SA_de_la	O
+0l0l4	filature_de_la_Martinique	A
+0l0l5	la_société_FERODO	O
+0l0l6	VALEO	O
+0l0l7	le_tressage_et_la_fabrication_de_joints_d__amiante	A
+0l1l0	la_SA_de_la_filature_de_la_Martinique	I
+0l1l1	la_société_FERODO___VALEO	I
+
+#La société VALEO a cessé son activité en 1982.
+
+1l0l0	La_société_VALEO	O
+1l0l1	a_cessé_son_activité	N
+1l0l2	en_1982__	T
+1l1l0	La_société_VALEO	I
+
+#Le site a ensuite été repris par la société Philips puis acheté, en 1985, par la société Dubourg et Fils qui y exerce depuis cette date une activité de traitement de surface et d'application de peintures industrielles.
+
+2l0l0	Le_site	O
+2l0l1	a_ensuite_été_repris	N
+2l0l2	la_société_Philips	O
+2l0l3	acheté	N
+2l0l4	en_1985	T
+2l0l5	la_société_Dubourg_et_Fils	O
+2l0l6	depuis_cette_date	T
+2l0l7	une_activité_de_traitement_de_surface	A
+2l0l8	et_d__application_de_peintures_industrielles	A
+2l1l0	la_société_Philips	I
+2l1l1	la_société_Dubourg	I
+
+#Le site se situe dans la vallée de la Vère et est longé par le cours d'eau.
+
+3l0l0	Le_site	O
+3l0l1	se_situe_dans_la_vallée_de_la_Vère	L
+3l0l2	longé_par_le_cours_d__eau	L
+
+#En raison de la détection en 2003 d'une pollution des sols par des solvants chlorés, le site fait l'objet d'une surveillance des eaux de surface et de la fiche BASOL n°BNO.0014.
+
+4l0l0	En_raison_de	R
+4l0l1	la_détection	N
+4l0l2	en_2003	T
+4l0l3	une_pollution_des_sols	N
+4l0l4	le_site	O
+4l0l5	fait_l__objet_d_	R
+4l0l6	une_surveillance_des_eaux_de_surface	A
+4l0l7	la_fiche_BASOL	O
+4l1l0	solvants_chlorés	S
+
+#Présence de déchets d'amiante sur le site : non.
+
+
+#Cibles : présence d'une habitation en face du site (30 m).
+
+6l0l0	une_habitation	O
+6l0l1	en_face_du_site	L
+
+#Aucun établissement sensible (tels qu’un hôpital ou une école) ne se situe à proximité de l’ancienne usine.
+
+7l0l0	Aucun_établissement_sensible	O
+7l0l1	une_école	O
+7l0l2	se_situe_à_proximité_de_l__ancienne_usine	L
+
+#En raison de l’activité de la société Dubourg, un diagnostic de sols et une évaluation simplifiée des risques ont été menées en 2003.
+
+8l0l0	l__activité_de	A
+8l0l1	la_société_Dubourg	O
+8l0l2	__un_diagnostic_de_sols	N
+8l0l3	une_évaluation_simplifiée_des_risques	N
+8l0l4	ont_été_menées	N
+8l0l5	en_2003	T
+8l1l0	la_société_Dubourg	I
+
+#Deux sondages de sol ont été effectués et aucun déchet d’amiante n’a été identifié à cette occasion.
+
+9l0l0	Deux_sondages_de_sol	N
+9l0l1	ont_été_effectués	N
+9l0l2	a_été_identifié	N
+9l0l3	à_cette_occasion	N
+
+#Les divers remaniements de terrains (réfection des parkings, création d’un quai de chargement le long de la falaise) n’ont pas mis en évidence la présence de dépôts de déchets.
+
+10l0l0	Les_divers_remaniements_de_terrains	N
+10l0l1	réfection_des_parkings	N
+10l0l2	création_d_	R
+10l0l3	un_quai_de_chargement	O
+10l0l4	le_long_de_la_falaise	L
+10l0l5	la_présence_de_dépôts_de_déchets	O
+10l1l0	dépôts_de_déchets	U
+
+#La visite du 23 juin 2006 a permis de constater l'absence apparente de déchet d’amiante.
+
+11l0l0	La_visite	N
+11l0l1	du_23_juin_2006	T
+11l0l2	l_	O
+
+#Le site étant toujours en activité, les bâtiments et l’extérieur sont correctement entretenus.
+
+12l0l0	Le_site	O
+12l0l1	étant_toujours_en_activité	N
+12l0l2	les_bâtiments	O
+12l0l3	l__extérieur	O
+12l0l4	sont_correctement_entretenus	N
+
+#En raison de l'absence apparente de déchets constatée lors de la visite du site, des sondages de sol et des divers remaniements de terrains qui n'ont pas mis en évidence la présence de dépôts, aucune action ne s'avère nécessaire, au titre de la législation sur les installations classées, afin de prévenir le risque d’exposition à l’amiante.
+
+13l0l0	la_visite	N
+13l0l1	remaniements_de_terrains	N
+13l1l0	amiante	U

@@ -1,0 +1,291 @@
+
+#11.0018
+#Le dépôt TOTAL, appelé SARAM jusque mi 2005, est constitué du dépôt « historique » (anciennement Société des Carburants du Sud-Ouest) et de l’ancien dépôt ESSO, mitoyen, acquis en 1999.
+
+0l0l0	Le_dépôt_TOTAL	O
+0l0l1	appelé_SARAM	O
+0l0l2	jusque_mi_2005__	T
+0l0l3	dépôt	O
+0l0l4	anciennement	R
+0l0l5	Société_des_Carburants_du_Sud_Ouest	O
+0l0l6	dépôt_ESSO	O
+0l0l7	mitoyen	L
+0l0l8	acquis	N
+0l0l9	en_1999	T
+0l1l0	dépôt_TOTAL	I
+0l1l1	appelé_SARAM	I
+0l1l2	Société_des_Carburants	S
+0l1l3	dépôt_ESSO	I
+
+#Le dépôt est situé au nord de la zone portuaire de Port La Nouvelle (4500 habitants), à proximité de la darse pétrolière.
+
+1l0l0	Le_dépôt	O
+1l0l1	est_situé_au_nord_de_la_zone_portuaire_de_Port_La_Nouvelle___4500_habitants	L
+1l0l2	à_proximité_de_la_darse_pétrolière	O
+
+#Les premières habitations sont éloignées de 420 m; au voisinage proche on trouve :
+
+2l0l0	Les_premières_habitations	O
+2l0l1	au_voisinage_proche	L
+
+#- un dépôt relais vrac de gaz liquéfié: 1 réservoir de propane sous talus de 3000 m3, à l’ouest du site;
+
+3l0l0	liquéfié	A
+3l0l1	1_réservoir_de_propane	O
+3l0l2	à_l__ouest_du_site	L
+3l1l0	un_dépôt	D
+
+#- des stockages d’alcools: 77 000 m3 en 39 bacs à l’est du site;
+
+4l0l0	à_l__est_du_site	L
+
+#- Un silo de stockage de céréales à 200 m au sud du site
+
+5l0l0	silo_de_stockage_de_céréales	O
+5l0l1	à_200_m_au_sud_du_site	L
+
+#- La darse pétrolière au sud du site avec un appontement pétrolier et un appontement pétrolier et gazier.
+
+6l0l0	La_darse_pétrolière	O
+6l0l1	au_sud_du_site	L
+6l0l2	un_appontement_pétrolier	O
+6l0l3	un_appontement	O
+6l1l0	La_darse_pétrolière	I
+6l1l1	appontement_pétrolier	D
+
+#L'activité est le stockage d’hydrocarbures de catégories B et C comprenant 21 réservoirs, pour une capacité globale de 138 377 m3
+
+7l0l0	le_stockage_d__hydrocarbures	A
+7l1l0	d__hydrocarbures	S
+
+#TOTAL est propriétaire des terrains ( 8 hectares) sauf sur la zone terminal sea-line.
+
+8l0l0	TOTAL	O
+8l0l1	est_propriétaire	N
+8l0l2	des_terrains	O
+8l0l3	la_zone_terminal_sea	O
+8l0l4	__line	L
+
+#Effectif : 15 personnes.
+
+
+#6 incidents ont été recensés depuis 1970 : 2 fuites de fond de bacs, déversements au poste de chargement, au terminal sea-line, sur la voie ferrée.
+
+10l0l0	6_incidents	O
+10l0l1	ont_été_recensés	N
+10l0l2	depuis_1970	T
+10l0l3	bacs	O
+10l0l4	terminal_sea___line	L
+10l0l5	la	O
+10l0l6	voie_ferrée	L
+
+#La réalisation d’études simplifiées des risques ont été prescrites à  SARAM et à ESSO , exploitants du site, par arrêtés complémentaires du 25/08/1998.
+
+11l0l0	La_réalisation_d__études_simplifiées_des_risques	N
+11l0l1	ont_été_prescrites	N
+11l0l2	__SARAM	O
+11l0l3	à_ESSO	O
+11l0l4	__exploitants_du_site	L
+11l0l5	du_25_08_1998__	T
+11l1l0	__SARAM	I
+11l1l1	à_ESSO	I
+
+#Une étude simplifiée des risques a été réalisée en 1999 ; elle conclut à la contamination des sols par des hydrocarbures (jusqu’à 22 g/kg) en 7 zones : 2 postes de chargement, ancienne pomperie, terminal sea-line, limite est SARAM/ESSO, bac 24, allée nord est ESSO.  Les eaux souterraines sont également impactées : mise en évidence de surnageant, concentration en HC jusqu’à 3,8 mg/l (la VCI usage non sensible = 0,05 mg/l).
+
+12l0l0	Une_étude_simplifiée_des_risques	N
+12l0l1	a_été_réalisée	N
+12l0l2	en_1999	T
+12l0l3	la_contamination	N
+12l0l4	7_zones	O
+12l0l5	2_postes_de_chargement	O
+12l0l6	sea___line___limite_est_SARAM___ESSO	L
+12l0l7	nord_est_ESSO	L
+12l1l0	hydrocarbures	S
+12l1l1	SARAM___ESSO	I
+12l1l2	est_ESSO	I
+12l1l3	de_surnageant	U
+12l1l4	en_HC	S
+
+#L’étude classe le site 2 (à surveiller) et préconise l’implantation d’un réseau piézométrique.
+
+13l0l0	le_site_2	O
+13l0l1	préconise_l_	R
+13l0l2	implantation_d_	N
+
+#Des opérations de dépollution et la surveillance de la nappe sont prescrites par l’ap du 03/12/01.
+
+14l0l0	Des_opérations_de_dépollution	N
+14l0l1	la_surveillance_de_la_nappe	A
+14l0l2	sont_prescrites	N
+14l0l3	l__ap	O
+14l0l4	du_03_12_01__	T
+
+#Le réseau de surveillance des eaux souterraines est en place (7 piézomètres).
+
+15l0l0	Le_réseau_de	O
+15l0l1	surveillance_des_eaux_souterraines	A
+15l0l2	est_en_place	N
+
+#L’exploitant a procédé fin 2000 à l’écrémage passif des hydrocarbures flottants à partir du puits le plus contaminé;
+
+16l0l0	L__exploitant	O
+16l0l1	a_procédé	N
+16l0l2	fin_2000	T
+16l0l3	l__écrémage	N
+16l0l4	partir_du_puits_le_plus_contaminé	O
+16l1l0	hydrocarbures	S
+
+#Les analyses semestrielles indiquent qu’il reste un puits pollué (Pz 14).
+
+17l0l0	Les_analyses_semestrielles	N
+17l0l1	il_reste_un_puits_pollué	O
+
+#L'exploitant a rendu un nouveau diagnostic sur cette zone, en février 2004, corrigé en septembre 2004.
+
+18l0l0	L__exploitant	O
+18l0l1	a_rendu_un_nouveau_diagnostic	N
+18l0l2	sur	L
+18l0l3	cette_zone	O
+18l0l4	en_février_2004___corrigé	T
+18l0l5	en_septembre_2004__	T
+
+#la description d'un projet de dispositif de pompage – écrémage et de traitement des eaux, répondant aux prescriptions de l'arrêté du 03/12/01, est transmis par TOTAL au préfet de l'AUDE le 30 mars 2005. le dispositif est mis en œuvre à partir d'aout 2005.
+
+19l0l0	la_description	N
+19l0l1	un_projet	O
+19l0l2	de_dispositif_de_pompage	O
+19l0l3	écrémage	N
+19l0l4	traitement_des_eaux	A
+19l0l5	03_12_01	T
+19l0l6	est_transmis	N
+19l0l7	TOTAL	O
+19l0l8	préfet_de_l__AUDE	O
+19l0l9	le_30_mars_2005__	T
+19l0l10	le_dispositif	O
+19l0l11	est_mis	N
+19l0l12	en_œuvre_à	R
+19l0l13	partir_d__aout_2005__	T
+19l1l0	préfet_de_l_	I
+
+#- Au droit de la zone sea-line une pollution des sols et de la nappe sous forme libre et gazeuse a été identifiée lors des diagnostics conduits en 2004.
+
+20l0l0	Au_droit_de	R
+20l0l1	la_zone_sea___line	O
+20l0l2	une_pollution_des_sols	N
+20l0l3	a_été_identifiée	N
+20l0l4	des_diagnostics_conduits	N
+20l0l5	en_2004__	T
+
+#Le traitement par pompage écrémage et venting a été installé et mis en fonctionnement en mars 2006 (SITA Remédiation).
+
+21l0l0	Le_traitement_par_pompage	O
+21l0l1	écrémage_et_venting	N
+21l0l2	a_été_installé	N
+21l0l3	mis_en_fonctionnement	N
+21l0l4	en_mars_2006	T
+21l1l0	SITA_Remédiation	I
+
+#La lentille de produit en phase libre n'a pas pu être récupérée par pompage du fait de phénomènes tels que la dissolution, la volatilisation ou la biodégradation naturelle.
+
+22l0l0	La_lentille	O
+22l0l1	pompage	A
+22l1l0	La_lentille_de_produit	U
+
+#La résultante de la présence d'hydrocarbures a été un panache gazeux traité par venting pendant 6 mois.
+
+23l0l0	d__hydrocarbures	O
+23l0l1	panache_gazeux_traité_par_venting	N
+23l0l2	pendant_6_mois	T
+23l1l0	hydrocarbures	S
+
+#La phase de surveillance de 6 mois après arrêt du traitement, ainsi que la campagne de contrôle contradictoire réalisée en mars 2007 ont permis de montrer l'atteinte des objectifs de traitement.
+
+24l0l0	La_phase_de_surveillance	O
+24l0l1	de_6_mois_après_arrêt	T
+24l0l2	du_traitement	N
+24l0l3	la_campagne_de_contrôle	N
+24l0l4	en_mars_2007	T
+
+#- Concernant la zone de dépotage fer du dépôt, TOTAL a procédé au démantèlement de cette zone entre 2005 et 2009.
+
+25l0l0	la_zone_de_dépotage_fer	O
+25l0l1	dépôt___TOTAL	O
+25l0l2	a_procédé_au_démantèlement_de	N
+25l0l3	cette_zone	O
+25l0l4	entre_2005_et_2009__	T
+25l1l0	TOTAL	I
+
+#En 2008 des sondages à la foreuse ont été réalisés en vue de caractériser l'état environnemental des sols le long des voies ferrées.
+
+26l0l0	En_2008	T
+26l0l1	des_sondages_à_la_foreuse	N
+26l0l2	ont_été_réalisés	N
+26l0l3	en_vue_de_caractériser	R
+26l0l4	l__état_environnemental	N
+26l0l5	long_des_voies_ferrées	L
+
+#Ces analyses montrent une concentration élevée en hydrocarbures totaux (8690 mg/kg) et confirme la présence d'une pollution ponctuelle des sols (suite à une perte d'hydrocarbures en 1970) qui ne nécessite pas d'être traitée immédiatement.
+
+27l0l0	Ces_analyses	N
+27l0l1	hydrocarbures_totaux	O
+27l0l2	pollution_ponctuelle	N
+27l0l3	hydrocarbures	O
+27l0l4	en_1970	T
+27l1l0	hydrocarbures_totaux	S
+27l1l1	hydrocarbures	S
+
+#- Sur les autres zones, des travaux de dépollution de la nappe ont été entrepris entre août 2005 et octobre 2007 afin de récupérer les hydrocarbures sous forme flottante.
+
+28l0l0	des_travaux_de_dépollution	N
+28l0l1	de_la_nappe	N
+28l0l2	ont_été_entrepris	N
+28l0l3	entre_août_2005_et_octobre_2007	T
+28l0l4	hydrocarbures	O
+28l1l0	hydrocarbures	S
+
+#Au total 13 m3 d'hydrocarbures en phase pure ont été récupérés.
+
+29l0l0	hydrocarbures_en_phase_pure	O
+29l0l1	ont_été_récupérés	N
+29l1l0	hydrocarbures	S
+
+#Néanmoins, une quantité de flottant subsiste dans une zone amont du dépôt montrant une ré-alimentation de la pollution.
+
+30l0l0	dans_une_zone_amont_du_dépôt	L
+30l0l1	une_ré_alimentation	N
+30l0l2	la_pollution	N
+
+#L'origine déterminée est un drainage par le réseau d'assainissement d'une pollution historique située dans le secteur du poste de chargement des camions et dans la zone Est du dépôt.
+
+31l0l0	L__origine_déterminée	O
+31l0l1	un_drainage	N
+31l0l2	le_réseau_d__assainissement	O
+31l0l3	une_pollution_historique	O
+31l0l4	située_dans_le_secteur_du_poste	L
+31l0l5	de_chargement_des_camions	O
+31l0l6	et	R
+31l0l7	dans_la_zone_Est_du_dépôt	L
+
+#Devant ce constat l'unité de traitement a été démantelée en mai 2008 et 2 piézomètres viennent renforcer la surveillance de cette pollution pour s'assurer que le flottant ne migre pas hors du site.
+
+32l0l0	l__unité_de_traitement	O
+32l0l1	a_été_démantelée	N
+32l0l2	en_mai_2008	T
+32l0l3	2_piézomètres	O
+32l0l4	viennent_renforcer	R
+32l0l5	la_surveillance_de	A
+32l0l6	cette_pollution	O
+
+#TOTAL a engagé depuis 2010 une refonte de son réseau d'assainissement du site qui doit permettre d'améliorer la connaissance de l'origine de cette pollution et de définir un traitement de finition.
+
+33l0l0	TOTAL	O
+33l0l1	a_engagé	N
+33l0l2	depuis_2010	T
+33l0l3	une_refonte	N
+33l0l4	son_réseau_d__assainissement	O
+33l0l5	de_définir_un_traitement_de_finition	O
+33l1l0	TOTAL	I
+
+#Ces actions sont toujours en cours.
+
+34l0l0	Ces_actions	O

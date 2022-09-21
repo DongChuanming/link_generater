@@ -1,0 +1,283 @@
+
+#18.0039
+#Alors que des activités variées se sont succédées sur le site depuis le début du XXème siècle (raffinerie de sucre, production de charbon, fonderie, fabrication de munitions puis de chenilles de tanks), la société STROMAG France (anciennement SIME-STROMAG) fabrique depuis les années 1960 des systèmes de freinage sur la commune de LA GUERCHE-SUR-L’AUBOIS.
+
+0l0l0	se_sont_succédées	N
+0l0l1	sur_le_site	L
+0l0l2	depuis_le_début_du_XXème_siècle	T
+0l0l3	raffinerie_de_sucre	A
+0l0l4	production_de_charbon	A
+0l0l5	fonderie	A
+0l0l6	fabrication_de_munitions	A
+0l0l7	chenilles_de_tanks	O
+0l0l8	la_société_STROMAG_France	O
+0l0l9	SIME___STROMAG	O
+0l0l10	depuis_les_années_1960	T
+0l0l11	des_systèmes_de_freinage	O
+0l0l12	sur_la_commune_de_LA_GUERCHE_SUR_L_AUBOIS	L
+0l1l0	la_société_STROMAG_France	I
+0l1l1	SIME___STROMAG	I
+
+#Les principales activités réalisées sur le site sont :
+
+
+#-	la réception et le stockage des matières, composants et produits (matières premières, freins à réparer),
+
+2l0l0	la_réception_et_le_stockage	A
+
+#-	le travail mécanique des métaux,
+
+3l0l0	travail_mécanique_des_métaux	A
+
+#-	le traitement de surface des métaux,
+
+4l0l0	métaux	O
+
+#-	l’assemblage,
+
+
+#-	l’application de peinture,
+
+6l0l0	application_de_peinture	O
+
+#-	la réparation et les essais de freins,
+
+7l0l0	les_essais_de_freins	A
+
+#-	le stockage et l’expédition de produits finis.
+
+8l0l0	l__expédition_de_produits_finis	A
+
+#La société est située en zone d’activité industrielle, artisanale et commerciale et occupe un terrain d’une superficie de 21 700 m².
+
+9l0l0	La_société	O
+9l0l1	située_en_zone_d_	L
+9l0l2	activité_industrielle___artisanale_et_commerciale	A
+9l0l3	un_terrain	O
+
+#Le bâtiment de production est d’un seul tenant de 11 000 m2  et occupe la quasi-totalité du site.
+
+10l0l0	Le_bâtiment_de_production	O
+
+#Il intègre principalement les ateliers de montage, d’usinage, de réparation de freins et les installations de traitement de surface.
+
+11l0l0	usinage	A
+11l0l1	réparation_de_freins	A
+11l0l2	les_installations_de	O
+11l0l3	traitement_de_surface	A
+
+#A l’extérieur de celui-ci, on retrouve un bâtiment administratif de 381 m², un local d’essai de frein de 658 m², un local contenant les produits chimiques dangereux et un local de décontamination de l’amiante.
+
+12l0l0	un_bâtiment_administratif	O
+12l0l1	un_local	O
+12l0l2	un_local_de_décontamination	N
+12l0l3	l__amiante	O
+12l1l0	les_produits_chimiques_dangereux	U
+
+#Le reste de la superficie, en partie bitumé ou cimenté, est occupé par les voies de circulation, les aires de manutention, ainsi que le parc de stockage des déchets.
+
+13l0l0	bitumé	O
+13l0l1	est_occupé_par	R
+13l0l2	les_voies_de_circulation	O
+13l0l3	manutention	A
+13l0l4	le_parc	O
+
+#Le site est soumis au régime de l’autorisation préfectorale et les prescriptions de fonctionnement sont fixées par l’arrêté préfectoral n° 2005.1.698 du 13 juin 2005.
+
+14l0l0	Le_site	O
+14l0l1	est	N
+14l0l2	soumis_au_régime_de	L
+14l0l3	l__autorisation_préfectorale	O
+14l0l4	les_prescriptions_de_fonctionnement	O
+14l0l5	l__arrêté_préfectoral	O
+14l0l6	du_13_juin_2005__	T
+
+#Deux études en novembre 2000 et novembre 2004 ont mis en évidence des pollutions des sols et des eaux souterraines.
+
+15l0l0	Deux_études	N
+15l0l1	en_novembre_2000_et_novembre_2004	T
+15l0l2	ont_mis_en_évidence	R
+15l0l3	des_pollutions	N
+15l0l4	sols	O
+15l0l5	des_eaux_souterraines	O
+
+#Les études réalisées indiquent :
+
+16l0l0	Les_études_réalisées	N
+
+#- Une pollution dans les sols (Arsenic, Chrome, cuivre, poluclhlorobiphényles, trichloroéthylène (TCE))
+
+17l0l0	les_sols	O
+17l1l0	Arsenic	S
+17l1l1	Chrome	S
+17l1l2	cuivre	S
+17l1l3	poluclhlorobiphényles	S
+17l1l4	trichloroéthylène	S
+17l1l5	TCE	S
+
+#- Une pollution sous forme dissoute dans les eaux souterraines (TCE, tétrachloroéthylène, Cis-1,2-dichloroéthylène, 1,2-dichloroéthane, 1,1-dichloroéthylène, chlorure de vinyle)
+
+18l1l0	souterraines	S
+18l1l1	TCE	S
+18l1l2	tétrachloroéthylène	S
+18l1l3	Cis_1_2_dichloroéthylène	S
+18l1l4	1_2_dichloroéthane	S
+18l1l5	1_1_dichloroéthylène	S
+18l1l6	chlorure_de_vinyle	S
+
+#Ces résultats mettent en évidence une pollution des sols par des métaux toxiques découlant principalement des activités de traitement de surface, ainsi que des nappes souterraines contaminées par des hydrocarbures aliphatiques halogénés résultant a priori de l’utilisation de solvants halogénés.
+
+19l0l0	une_pollution_des_sols	N
+19l0l1	des_métaux_toxiques	O
+19l0l2	activités_de_traitement_de_surface	A
+19l0l3	nappes_souterraines_contaminées	O
+19l1l0	des_métaux_toxiques	U
+19l1l1	des_hydrocarbures_aliphatiques_halogénés	S
+19l1l2	solvants_halogénés	U
+
+#L'arrêté préfectoral du 13 juin 2005 prescrivait à la société STROMAG une étude simplifiée des risques (ESR).
+
+20l0l0	L__arrêté_préfectoral	O
+20l0l1	13_juin_2005	T
+20l0l2	prescrivait	N
+20l0l3	la_société_STROMAG	O
+20l0l4	une_étude_simplifiée_des_risques	N
+20l1l0	la_société_STROMAG	I
+
+#Cette ESR a été réalisée suite à un diagnostic environnemental réalisé courant 2005.
+
+21l0l0	Cette_ESR	O
+21l0l1	a_été_réalisée	N
+21l0l2	un_diagnostic_environnemental_réalisé	N
+21l0l3	courant_2005__	T
+
+#Suite aux études réalisées sur le site, 8 sources de pollution ont été identifiées et le bureau d'étude a proposé les mesures suivantes :
+
+22l0l0	Suite_aux	R
+22l0l1	études_réalisées	N
+22l0l2	le_site	O
+22l0l3	8_sources_de_pollution	O
+22l0l4	ont_été_identifiées	N
+22l0l5	le_bureau_d__étude	O
+
+#- la mise en œuvre d’une surveillance semestrielle des eaux souterraines présentes au droit du site en période de basses et hautes eaux (arsenic, cuivre, chrome total, hydrocarbures totaux (HCT), PCB, TCE, tétrachloroéthylène, chlorure de vinyle et cis-1,2-dichloroéthylène, 1,1-dichloroéthylène et 1,2-dichloroéthane);
+
+23l0l0	la_mise_en	N
+23l0l1	une_surveillance_semestrielle	A
+23l0l2	eaux_souterraines	O
+23l0l3	au_droit_du_site	L
+23l0l4	en_période_de_basses_et_hautes_eaux	N
+23l1l0	arsenic	S
+23l1l1	cuivre	S
+23l1l2	chrome_total	S
+23l1l3	hydrocarbures_totaux	S
+23l1l4	HCT	S
+23l1l5	PCB	S
+23l1l6	TCE	S
+23l1l7	tétrachloroéthylène	S
+23l1l8	chlorure_de_vinyle	S
+23l1l9	cis_1_2_dichloroéthylène	S
+23l1l10	1_1_dichloroéthylène	S
+23l1l11	1_2_dichloroéthane	S
+
+#- l’évaluation de la qualité des eaux souterraines au sein des puits privés implantés à environ 20 mètres en amont hydraulique du site au-delà de l’avenue de l’Europe (analyse des teneurs en arsenic, cuivre, chrome total, HCT, PCB et solvants chlorés) ;
+
+24l0l0	l__évaluation	N
+24l0l1	la_qualité_des_eaux_souterraines	O
+24l0l2	des_puits_privés	O
+24l0l3	implantés	R
+24l0l4	à_environ_20_mètres_en_amont_hydraulique_du_site	L
+24l0l5	au_delà_de_l__avenue_de_l__Europe	L
+24l1l0	arsenic	S
+24l1l1	cuivre	S
+24l1l2	chrome_total	S
+24l1l3	HCT	S
+24l1l4	PCB	S
+24l1l5	solvants_chlorés	S
+
+#- l’évaluation de la qualité des eaux superficielles (canal de Berry et rivière l’Aubois) en amont ainsi qu’en aval hydraulique du site (analyse des teneurs en arsenic, cuivre, chrome total, HCT, PCB et solvants chlorés) ;
+
+25l0l0	l__évaluation	N
+25l0l1	la_qualité_des_eaux	O
+25l0l2	canal_de_Berry_et_rivière_l__Aubois	L
+25l0l3	en_amont	L
+25l0l4	ainsi	O
+25l0l5	qu_	R
+25l0l6	en_aval_hydraulique_du_site	L
+25l0l7	arsenic	O
+25l1l0	arsenic	S
+25l1l1	cuivre	S
+25l1l2	chrome_total	S
+25l1l3	HCT	S
+25l1l4	PCB	S
+25l1l5	solvants_chlorés	S
+
+#- la réalisation d’un diagnostic visant à évaluer la qualité de l’air du sol sur l’ensemble du site (analyse des teneurs en solvants chlorés) ;
+
+26l0l0	la_réalisation_d__un_diagnostic	N
+26l0l1	la_qualité_de_l__air	O
+26l1l0	solvants_chlorés	S
+
+#- l’information et la protection des travailleurs devant éventuellement intervenir dans le cadre de travaux en sous-sol (port d’équipements de protection individuelle adaptés) ;
+
+27l0l0	l_	N
+27l0l1	information_et_la_protection_des_travailleurs	O
+27l0l2	devant_éventuellement_intervenir_dans	R
+27l0l3	le_cadre_de_travaux_en_sous_sol	A
+27l0l4	port_d_	N
+
+#- la gestion des matériaux souillés présents en sous-sol devant être terrassés en cas de travaux et éventuellement évacués hors site (évacuation en centre de traitement ou d’enfouissement agréé).
+
+28l0l0	la_gestion_des_matériaux_souillés	O
+28l0l1	devant_être_terrassés_en_cas_de_travaux	N
+28l0l2	évacués_hors_site	N
+28l0l3	évacuation_en_centre_de_traitement	N
+
+#Ces recommandations ont été formalisées dans un arrêté préfectoral du 5 mars 2008 de la manière suivante :
+
+29l0l0	un_arrêté_préfectoral	O
+29l0l1	du_5_mars_2008	T
+
+#- surveillance des eaux souterraines à fréquence semestrielle
+
+30l0l0	surveillance_des_eaux_souterraines	A
+
+#- Investigations relatives au site de l'usine (analyse historique du site, des investigations visant à préciser le degré de pollution résiduelle des sols et des eaux souterraines en cas d’excavation,étude hydrogéologique).
+
+31l0l0	Investigations	N
+31l0l1	relatives	R
+31l0l2	au_site	O
+31l0l3	l__usine	O
+31l0l4	des_investigations	N
+31l0l5	visant_à_préciser	R
+31l0l6	le_degré_de_pollution_résiduelle	O
+31l0l7	étude_hydrogéologique	N
+
+#-Investigations relatives à l'extérieur du site de l'usine (étude de la vulnérabilité, identification les cibles potentielles, investigations de terrain , interprétation de l'état des milieux (IEM), réalisation d'une cartographie de l'étendue du panache de polluants, évaluation des risques de contamination des eaux superficielles voisines par les polluants présents dans le panache.
+
+32l0l0	_Investigations	N
+32l0l1	relatives	R
+32l0l2	à_l__extérieur_du_site_de_l__usine	L
+32l0l3	identification	N
+32l0l4	les_cibles_potentielles	O
+32l0l5	investigations_de_terrain	N
+32l0l6	évaluation_des_risques_de_contamination	O
+32l0l7	eaux_superficielles_voisines	O
+32l1l0	polluants	U
+32l1l1	les_polluants	U
+
+#- Schéma conceptuel :
+
+
+#Sur la base des investigations réalisées à l'intérieur et à l'extérieur du site, un schéma conceptuel est réalisé démontrant les dimensions de la pollution et ses conséquences : sources de pollution, les différents milieux de transfert, les cibles ou enjeux à protéger)
+
+34l0l0	à_l__extérieur_du_site	L
+34l0l1	un_schéma_conceptuel	O
+34l0l2	la_pollution	O
+
+#- Plan de gestion.
+
+
+#Ce plan de gestion vise la maîtrise des sources de pollution et leurs impacts sanitaires.
+
+36l0l0	maîtrise_des_sources_de_pollution	O

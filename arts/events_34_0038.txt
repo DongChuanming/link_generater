@@ -1,0 +1,387 @@
+
+#34.0038
+#La sous-station électrique exploitée par la SNCF est située le long de la voie ferrée en contrebas du village de JONCELS.
+
+0l0l0	La	O
+0l0l1	sous_station_électrique_exploitée_par_la_SNCF_est_située	N
+0l0l2	long_de_la_voie	O
+0l0l3	ferrée_en_contrebas	N
+
+#Le site, implanté sur une plate-forme remblayée retenue par un mur de soutènement d’environ 10 mètres, est entouré :
+
+1l0l0	Le_site___implanté_sur_une_plate	O
+1l0l1	__forme_remblayée	O
+1l0l2	retenue	R
+1l0l3	par_un_mur_de_soutènement_d__environ_10_mètres___est_entouré__	L
+1l1l0	remblayée_retenue	I
+
+# en partie basse, à proximité immédiate du mur de soutènement, par le chemin «  Saint Jacques de Compostelle » longé par un champ utilisé, avant l'accident du 24 juillet 2008, pour le pâturage,
+
+2l0l0	__en_partie	O
+2l0l1	basse___à_proximité	N
+2l0l2	immédiate_du_mur	O
+
+# en partie basse, à environ 250 m, de la rivière du GRAVEZON,
+
+3l0l0	partie_basse	O
+3l0l1	à_environ_250_m___de_la_rivière_du_GRAVEZON__	L
+
+# à l’ouest, à proximité immédiate, d’une habitation qui disposait d’un jardin potager,
+
+4l0l0	proximité_immédiate	L
+4l0l1	d__une_habitation_qui_disposait	L
+
+# au sud-est, d’un chemin arboré donnant vers un ruisseau,
+
+5l0l0	au_sud_est___d__un_chemin_arboré_donnant	L
+5l0l1	vers_un_ruisseau	O
+5l0l2	_	A
+
+# au nord, de la voie ferrée et de la voie d’accès au site.
+
+6l0l0	au_nord___de	L
+6l0l1	voie_ferrée_et_de_la	O
+6l0l2	voie_d__accès_au_site__	L
+
+#Ce site était composé de 3 transformateurs:
+
+7l0l0	était_composé_de_3	O
+7l0l1	transformateurs	O
+7l0l2	_	L
+
+#- 2 transformateurs de puissance de 2 MW chacun, de contenance respectives de 6 tonnes, mis en service en 1954,
+
+8l0l0	__2_transformateurs	O
+8l0l1	puissance_de_2_MW_chacun	O
+
+#- 1 petit transformateur de 160 KW dont la quantité de fluide était de 700 kg et mis en service en 1965.
+
+9l0l0	service_en_1965__	N
+
+#Le diélectrique utilisé dans ces transformateurs était composé d’huile caractérisée par des teneurs en PCB respective de 124.5, 110.3 et 52.1 ppm.
+
+10l0l0	caractérisée_par	N
+10l0l1	des_teneurs_en_PCB_respective_de_124_5___110_3_et_52_1_ppm__	T
+10l1l0	était_composé	U
+
+#Ces équipements constituaient une installation classée pour la protection de l’environnement soumise à déclaration sous la rubrique 1180.
+
+11l0l0	constituaient_une_installation_classée	O
+11l1l0	protection	S
+11l1l1	à_déclaration	S
+
+#* Accident du 24 juillet 2008
+
+12l0l0	__Accident_du_24	O
+12l0l1	juillet_2008	R
+
+#Un des 2 transformateurs de 2 MW a été frappé par la foudre le 24 juillet 2008 vers 22h15, ce qui a occasionné une surtension sur le réseau électrique.
+
+13l0l0	Un_des_2	L
+13l0l1	transformateurs_de_2_MW_a_été_frappé_par_la_foudre_le_24_juillet_2008_vers_22h15___ce_qui_a_occasionné_une_surtension_sur_le_réseau_électrique__	T
+
+#Cet incident a provoqué la rupture des soudures à 4 endroits situés en partie basse de l’équipement et le dysfonctionnement du poste électrique.
+
+14l0l0	rupture_des_soudures_à_4_endroits	N
+14l0l1	situés_en_partie	T
+14l0l2	basse_de	T
+14l0l3	équipement_et_le_dysfonctionnement	N
+
+#Le transformateur ne disposant pas de rétention, ces ouvertures ont entraîné l’écoulement de fluide diéléctrique contenant des PCB et l'infiltration de celui-ci dans les sols sous-jacent.
+
+15l0l0	Le_transformateur_ne	N
+15l0l1	disposant_pas_de_rétention	O
+15l0l2	__ces_ouvertures	O
+15l0l3	ont_entraîné_l__écoulement	L
+15l0l4	fluide_diéléctrique_contenant_des_PCB_et_l__infiltration	N
+
+#Les services de secours, qui sont arrivés sur place vers 2h du matin, ont tenté de contenir l’écoulement par la mise en place de bacs de récupération et de digues de sable à l’endroit des fuites.
+
+16l0l0	place_vers_2h_du_matin	O
+16l0l1	__ont_tenté_de	N
+16l0l2	contenir_l__écoulement_par	A
+16l0l3	endroit_des_fuites	O
+16l1l0	écoulement_par_la	S
+16l1l1	de_récupération	S
+
+#La SNCF a diligenté des équipes de BEZIERS et de MONTPELLIER afin de récupérer le liquide restant dans le transformateur.
+
+17l0l0	La_SNCF_a_diligenté_des_équipes	O
+17l0l1	MONTPELLIER_afin_de	T
+17l0l2	récupérer	N
+17l0l3	transformateur__	N
+
+#Un contrôle visuel a été réalisé dans le champ voisin et au niveau de la rivière du GRAVEZON :  aucun déversement de diélectrique n’a été constaté à ces endroits.
+
+18l0l0	Un_contrôle	O
+18l0l1	visuel	N
+18l0l2	a_été_réalisé	N
+18l0l3	dans_le_champ_voisin_et_au	O
+18l0l4	niveau_de_la_rivière	R
+18l0l5	du_GRAVEZON	O
+18l0l6	déversement_de_diélectrique	O
+18l1l0	Un_contrôle	I
+
+#Au total, 3,5 m3 de fluide ont été pompés par les équipes dépêchées sur place.
+
+19l0l0	Au_total___3_5_m3_de	N
+19l0l1	fluide_ont_été	N
+19l0l2	pompés	R
+19l0l3	par_les_équipes	O
+19l0l4	dépêchées_sur_place__	L
+
+#Selon les données techniques du transformateur, celui-ci contenait au maximum 6 000 kg de fluide (soit un volume total de 6,7 m3).
+
+20l0l0	données_techniques	O
+20l0l1	du_transformateur	N
+20l0l2	__celui_ci	O
+20l0l3	contenait	N
+20l1l0	techniques	U
+
+#Le volume qui s'est infiltré dans les sols a donc été estimé à 3,2 m3.
+
+
+#Le dimanche 27 juillet 2008, des promeneurs empruntant le chemin de Saint Jacques de Compostelle ont alerté les autorités de la présence d'écoulements au pied du mur de soutènement de la plate-forme sur laquelle se trouvait le transformateur accidenté.
+
+22l0l0	27_juillet_2008__	N
+22l0l1	des_promeneurs_empruntant_le	N
+
+#Des écoulements étaient nettement visibles en bordure du mur de soutènement.
+
+23l0l0	Des_écoulements_étaient_nettement	T
+23l0l1	visibles	O
+23l0l2	en_bordure	R
+23l0l3	du_mur_de_soutènement__	L
+
+#En revanche, aucune trace d'écoulement n'était perceptible à l'œil nu dans le champ en contrebas.
+
+24l0l0	En_revanche___aucune	O
+24l0l1	était_perceptible_à_l__œil_nu_dans_le	O
+
+#Après investigations de la zone située entre le transformateur et le champ situé en contrebas, les rétentions de sable, qui avaient été érigées au pied du mur de soutènement suite à l'accident, étaient remplies d'eau chargées en huiles (+PCB).
+
+25l0l0	contrebas___les	L
+
+#Une réunion s'est alors tenue en mairie de JONCELS afin d'élaborer un programme d'actions d'urgence:
+
+26l0l0	Une_réunion_s__est_alors	N
+26l0l1	tenue_en	O
+26l0l2	mairie_de_JONCELS_afin_d__élaborer_un_programme_d__actions_d_	L
+26l0l3	urgence__	O
+
+#- création de deux bassins de récupération des ruissellements, en bordure du mur de soutènement sur le chemin de Saint Jacques de Compostelle,
+
+27l0l0	__création_de	N
+27l0l1	deux_bassins_de	N
+27l0l2	récupération_des_ruissellements	L
+27l0l3	bordure_du_mur_de_soutènement	O
+
+#- surveillance et pompage des deux bassins de récupération,
+
+28l0l0	surveillance	N
+28l0l1	et_pompage	O
+
+#- création d'une tranchée de 30 mètres environ en aval des bassins, dans le champ en contrebas, afin de vérifier l'absence de diffusion du PCB dans cette zone,
+
+29l0l0	création_d__une_tranchée	A
+29l0l1	30_mètres_environ_en_aval_des_bassins	O
+
+#- évacuation du transformateur endommagé,
+
+30l0l0	évacuation	N
+30l0l1	du_transformateur	O
+30l0l2	endommagé__	L
+
+#- excavation des terres souillées sous le transformateur,
+
+31l0l0	excavation	N
+31l0l1	des_terres_souillées_sous_le_transformateur	O
+
+#- analyses des eaux et des sols,
+
+32l0l0	analyses_des	N
+32l0l1	eaux_et_des_sols__	O
+
+#- échantillonnage des sols afin de déterminer le bilan matières,
+
+
+#- réalisation de forages dans le remblai de la plate-forme afin de s'assurer de l'absence de poches de diélectrique,
+
+
+#- évacuation des terres souillées et des conteneurs d'huile pompée,
+
+35l0l0	évacuation_des_terres	N
+35l0l1	souillées_et_des	L
+
+#- réalisation d'un diagnostic des sols,
+
+36l0l0	réalisation	N
+36l0l1	un_diagnostic_des	O
+
+#- suivi des travaux par un hydrogéologue.
+
+37l0l0	suivi_des_travaux_par_un_hydrogéologue	N
+
+#Immédiatement après avoir été informée de l'accident, linspection des installations classées s'est rendue à trois reprises sur le site (25 et 28 juillet 2008, et 1er août 2008).
+
+38l0l0	Immédiatement_après	N
+38l0l1	avoir_été_informée	O
+
+#Les contrôles effectués visaient à vérifier la conformité réglementaire des installations, identifier les zones potentiellement atteintes par la pollution, prescrire à la SCNF les mesures pour remédier à la situation.
+
+39l0l0	Les	O
+39l0l1	contrôles	R
+39l0l2	effectués_visaient_à_vérifier	N
+39l0l3	la_conformité	O
+39l0l4	réglementaire_des_installations__	O
+39l0l5	identifier_les_zones_potentiellement	N
+39l0l6	atteintes_par_la_pollution___prescrire_à_la	T
+
+#Dans le cadre de ces contrôles, l'inspection des installations classées a proposé au Préfet de l'Hérault de prendre un arrêté de mesures d'urgences demandant à la SNCF de récupérer les PCB déversés, d'évaluer l'extension de la pollution et évaluer ses conséquences.
+
+40l0l0	Dans_le_cadre_de_ces_contrôles	N
+40l0l1	l__Hérault_de_prendre	O
+40l0l2	un_arrêté_de_mesures_d__urgences_demandant_à_la	N
+40l0l3	récupérer_les	O
+40l1l0	récupérer_les	I
+
+#Cet arrêté a été signé le 28 juillet 2008.
+
+41l0l0	Cet_arrêté_a_été	R
+41l0l1	signé_le_28_juillet	N
+41l0l2	2008__	O
+
+#En parallèle, le Maire de JONCELS a signé 3 arrêtés municipaux le 28 juillet 2008, pour interdire l'accès au chemin de Saint Jacques de Compostelle passant au pied de la plate-forme, interdire le pâturage dans le champ en contrebas, interdire la consommation des fruits et légumes récoltés dans le potager situé au voisinage de la sous-station électrique.
+
+42l0l0	En_parallèle	O
+42l0l1	__le_Maire	N
+42l0l2	de_JONCELS_a_signé_3_arrêtés_municipaux_le_28_juillet_2008___pour_interdire_l__accès_au_chemin_de_Saint_Jacques_de_Compostelle_passant_au_pied_de_la_plate___forme___interdire_le_pâturage_dans_le_champ_en_contrebas___interdire_la_consommation_des_fruits_et_légumes_récoltés_dans_le_potager_situé_au_voisinage_de_la_sous_station_électrique__	T
+
+#Suite à l'accident :
+
+43l0l0	accident__	O
+43l1l0	accident__	I
+
+#- les trois transformateurs ont été démantelés.
+
+
+#Un nouveau transformateur ayant une teneur moindre en PCB (< 20 ppm) a été mis en place et équipé d'une rétention ;
+
+45l0l0	Un_nouveau_transformateur	O
+45l0l1	ayant_une_teneur_moindre	N
+
+#- 27 m3 de terres ont été excavées au droit du transformateur accidenté et envoyé en filière de traitement adaptée.
+
+46l0l0	__27_m3_de_terres_ont_été_excavées	O
+46l0l1	accidenté_et_envoyé_en	N
+46l0l2	filière_de_traitement_adaptée	O
+46l1l0	transformateur	S
+
+#Mais la totalité de la source de pollution n'a pu être excavée compte tenu des contraintes techniques du site (voie d'amenée des transformateurs, présence d'un bâtiment et de piliers) ;
+
+47l0l0	la_totalité_de_la_source_de	N
+47l0l1	pollution_n__a_pu_être_excavée	L
+47l0l2	compte_tenu	O
+47l0l3	des_contraintes_techniques_du_site___voie	N
+
+#- les terres polluées au pied du mur de soutènement ont été excavées ;
+
+48l0l0	terres_polluées_au_pied_du_mur_de	O
+48l0l1	soutènement_ont_été_excavées	N
+
+#- un diagnostic de la pollution des sols et des eaux souterraines a été établi en septembre 2008.
+
+49l0l0	un_diagnostic_de_la	O
+49l0l1	pollution_des_sols_et_des_eaux	O
+49l0l2	souterraines_a_été	N
+
+#D'octobre 2008 à octobre 2009, un traitement in-situ a été mis en place par la SNCF.
+
+50l0l0	D__octobre_2008	N
+50l0l1	octobre_2009___un_traitement	N
+50l0l2	place_par_la	N
+50l0l3	SNCF__	T
+
+#Celui-ci a consisté à écrémer le fluide dielectrique en phase libre et à pomper les eaux souterraines afin de confiner la pollution (mise en place de puits de pompage sur la plateforme, d'une barrière drainante, d'une tranchée d'infiltration et de puits de contrôle en aval de celle-ci).
+
+51l0l0	Celui___ci_a_consisté_à_écrémer_le	T
+51l0l1	fluide_dielectrique	N
+51l0l2	en_phase_libre_et	N
+51l0l3	pomper_les	O
+
+#A partir d'avril 2009, le système de pompage a été maintenu à l'arrêt afin de vérifier l'absence de réalimentation de phase flottante dans les puits.
+
+52l0l0	__le_système	N
+52l0l1	de_pompage	O
+52l0l2	afin_de	N
+52l0l3	vérifier_l__absence_de	A
+52l0l4	réalimentation_de_phase_flottante	N
+52l0l5	dans_les_puits__	N
+52l1l0	système_de_pompage	U
+
+#La SNCF ayant constaté que les puits n'étaient effectivement plus réalimentés, les installations ont été démantelées en octobre 2009.
+
+53l0l0	La_SNCF_ayant_constaté	T
+53l0l1	que_les_puits_n__étaient	O
+53l0l2	effectivement_plus	N
+53l0l3	réalimentés___les	R
+53l0l4	installations	O
+53l0l5	démantelées_en_octobre_2009	O
+53l1l0	démantelées_en_octobre_2009	U
+
+#Un réseau de surveillance de la qualité des eaux souterraines a été maintenu en place.
+
+54l0l0	Un_réseau	O
+54l0l1	de_surveillance	N
+54l0l2	de_la_qualité	O
+54l0l3	eaux_souterraines_a_été_maintenu_en	N
+54l0l4	place__	O
+54l1l0	Un_réseau	I
+
+#Celui-ci comporte :
+
+55l0l0	Celui___ci	O
+55l0l1	comporte__	A
+
+#- plusieurs ouvrages au niveau des anciens puits de pompage de la sous-station ;
+
+
+#- un ouvrage de contrôle au niveau de la tranchée drainante ;
+
+57l0l0	un_ouvrage_de_contrôle	O
+57l0l1	au_niveau	R
+57l0l2	de_la_tranchée_drainante__	O
+
+#- plusieurs ouvrages de contrôle en aval de l'ancienne tranchée d'infiltration.
+
+58l0l0	plusieurs_ouvrages_de	O
+58l0l1	contrôle_en	R
+58l0l2	aval_de_l__ancienne_tranchée	O
+
+#La surveillance est actuellement faite selon une fréquence trimestrielle.
+
+59l0l0	La_surveillance_est_actuellement	O
+59l0l1	faite_selon_une	L
+59l0l2	fréquence_trimestrielle__	O
+
+#Par ailleurs, depuis décembre 2010, des écrémeurs passifs ont été mis en place au niveau de deux ouvrages de la plateforme.
+
+60l0l0	Par_ailleurs__	A
+60l0l1	depuis_décembre_2010___des_écrémeurs	N
+
+#Ces écrémeurs ont été remplacés en juin 2011.
+
+61l0l0	ont_été_remplacés_en_juin	T
+61l0l1	2011__	O
+
+#Un contrôle a été effectué par l'inspection des installations classées en octobre 2011 afin de faire un point de synthèse des travaux de réhabilitation et de suivi du site.
+
+62l0l0	Un_contrôle_a	O
+62l0l1	été_effectué_par_l_	N
+62l0l2	inspection_des_installations_classées_en_octobre_2011_afin_de_faire_un_point_de_synthèse_des_travaux_de_réhabilitation_et_de_suivi_du_site__	T
+
+#Actuellement, l'écrémage passif et le suivi de la qualité des eaux souterraines se poursuivent.
+
+63l0l0	Actuellement___l__écrémage	N
+63l0l1	passif_et_le_suivi_de_la_qualité_des_eaux_souterraines	O
+63l0l2	se_poursuivent	T

@@ -1,0 +1,218 @@
+
+#35.0002
+#Le site correspond à une ancienne station-service comportant un réservoir souterrain de 5 500L et un distributeur de carburant.
+
+0l0l0	Le_site	O
+0l0l1	correspond_à	R
+0l0l2	une_ancienne_station	O
+0l0l3	un_distributeur_de_carburant	O
+0l1l0	carburant	U
+
+#Une pollution de la nappe phréatique par les hydrocarbures, due à une fuite de canalisation, a été découverte en juin 1991.
+
+1l0l0	Une_pollution	O
+1l0l1	la_nappe_phréatique_par	O
+1l0l2	les_hydrocarbures	O
+1l0l3	une_fuite_de_canalisation	N
+1l0l4	a_été_découverte	N
+1l0l5	en_juin_1991	T
+1l1l0	hydrocarbures	S
+
+#Un des voisin de la station service a porté plainte contre l'ancien exploitant.
+
+2l0l0	Un_des_voisin_de_la_station_service	O
+2l0l1	a_porté_plainte	N
+2l0l2	contre_l__ancien_exploitant	O
+
+#L'exploitant a notifié sa cessation d'activité en février 2007.
+
+3l0l0	L__exploitant	O
+3l0l1	a_notifié_sa_cessation_d__activité	N
+3l0l2	en_février_2007__	T
+
+#Le réservoir a été dégazé et inerté.
+
+4l0l0	Le_réservoir	O
+4l0l1	a_été_dégazé	N
+4l0l2	inerté	O
+4l1l0	inerté	D
+
+#La dépollution des terrains de juin 1991 à mai 1992 a permis de récupérer la quasi-totalité des hydrocarbures flottant à la surface de la nappe.
+
+5l0l0	La_dépollution	N
+5l0l1	des_terrains	N
+5l0l2	de_juin_1991_à_mai_1992	T
+5l1l0	hydrocarbures	S
+
+#Toutefois l’efficacité des travaux a été contestée par le plaignant.
+
+6l0l0	a_été_contestée	N
+
+#Au regard des conclusions du BRGM, sollicité à cet effet, il a été demandé au maire de Taillis :
+
+7l0l0	BRGM	O
+7l0l1	maire_de_Taillis	L
+7l1l0	BRGM	I
+
+#- d’assurer la surveillance du ruisseau qui draine la zone ;
+
+8l0l0	d_	N
+8l0l1	assurer_la_surveillance_du_ruisseau	A
+8l0l2	draine_la_zone	O
+
+#- d’informer l’administration des plaintes éventuelles d’habitants de ce bassin versant.
+
+9l0l0	d__informer	N
+9l0l1	l__administration	O
+9l0l2	bassin_versant	O
+
+#Par ailleurs, un arrêté préfectoral d'octobre 1996 demande à l’exploitant de mettre sous surveillance les abords de la maison du plaignant par une analyse, tous les 2 mois, des eaux des puits proches ainsi que de celle du puisard de la cave .
+
+10l0l0	un_arrêté_préfectoral	O
+10l0l1	octobre_1996	T
+10l0l2	l__exploitant	O
+10l0l3	surveillance_les_abords_de_la_maison	O
+10l0l4	une_analyse	A
+10l0l5	tous_les_2_mois	T
+
+#Suite à la présence rémanente d’odeurs d’hydrocarbures ressenties par le plaignant dans l’air de sa cave et à l'observation d'une irisation de l’eau souterraine au droit de son terrain, ce dernier a fait réaliser une étude simplifiée des risques.
+
+11l0l0	Suite_à	R
+11l0l1	la_présence_rémanente	N
+11l0l2	une_irisation	N
+11l0l3	au_droit_de_son_terrain	O
+11l0l4	a_fait_réaliser_une_étude_simplifiée_des_risques	N
+11l1l0	hydrocarbures	S
+
+#Les résultats de cette étude mettent en évidence :
+
+
+#- l’absence de souillures dans les horizons du sol superficiel ;
+
+13l0l0	souillures	O
+
+#- la présence d’hydrocarbures dans l’eau souterraine ;
+
+14l1l0	hydrocarbures	S
+
+#- l'absence de composés organiques volatils dans l’air ambiant (l’odeur proviendrait d'un dégazage de l’eau s'infiltrant dans la cave ).
+
+15l0l0	dégazage	N
+15l1l0	composés_organiques_volatils	S
+
+#Les recommandations données dans l'étude sont :
+
+
+#- de ne pas utiliser ou manipuler les eaux souterraines ;
+
+17l0l0	ne_pas_utiliser	N
+17l0l1	manipuler_les_eaux_souterraines	A
+
+#- d'éviter le pompage de cette eau pour l’évacuer dans le réseau d’assainissement ;
+
+18l0l0	le_pompage_de	A
+18l0l1	cette_eau	O
+
+#- de réaliser de nouveaux prélèvements gazeux ;
+
+19l0l0	de_réaliser	N
+
+#- de quantifier les risques sanitaires de l’exposition à l’air ambiant de la cave.
+
+
+#En 2000, un constat de dépollution a été effectué par une entreprise spécialisée.
+
+21l0l0	En_2000__	T
+21l0l1	un_constat_de_dépollution	N
+21l0l2	a_été_effectué	N
+21l0l3	une_entreprise	O
+
+#Il a été complété par une étude simplifiée des risques (ESR) qui classe le site en 1 (site nécessitant des investigations profondes).
+
+22l0l0	Il	O
+22l0l1	a_été_complété	N
+22l0l2	une_étude_simplifiée_des_risques	N
+22l0l3	classe	N
+22l0l4	le_site	O
+
+#Le Tribunal de Grande Instance de Rennes a demandé en juin 2003 une expertise.
+
+23l0l0	Le_Tribunal_de_Grande_Instance	O
+23l0l1	Rennes	T
+23l0l2	a_demandé	N
+23l0l3	en_juin_2003	T
+23l1l0	Le_Tribunal_de_Grande_Instance_de_Rennes	I
+
+#Un diagnostic approfondi du sous sol a été réalisé en 2004.
+
+24l0l0	Un_diagnostic_approfondi	N
+24l0l1	sous_sol	O
+24l0l2	a_été_réalisé	N
+24l0l3	en_2004__	T
+
+#Il conclut à la nécessité de réaliser une étude détaillée des risques (EDR) axée notamment sur la ressource en eau et la santé humaine.
+
+25l0l0	détaillée_des_risques	N
+
+#Une analyse des risques résiduels a été réalisée en juillet 2008 puis actualisée en décembre 2008 et mai 2009.
+
+26l0l0	a_été_réalisée	N
+26l0l1	en_juillet_2008	T
+26l0l2	actualisée	N
+26l0l3	en_décembre_2008_et_mai_2009__	T
+
+#Un contentieux existe concernant le responsable de la pollution.
+
+
+#Une procédure civile est en cours.
+
+28l0l0	Une_procédure	O
+
+#Une analyse des risques résiduels concernant l'habitation des propriétaires a été réalisée en mai 2009 à la demande de l'expert judiciaire.
+
+29l0l0	Une_analyse	N
+29l0l1	des_risques_résiduels	O
+29l0l2	propriétaires	O
+29l0l3	a_été_réalisée	N
+29l0l4	en_mai_2009	T
+29l0l5	la_demande	N
+29l0l6	l_	O
+29l0l7	expert_judiciaire	N
+
+#Des échantillons d'air ambiant, d'air du sol sous dalle du rdc, d'eau de la cave, de sédiments provenant du pompage des eaux de la cave et d'eau souterraine ont été réalisés.
+
+30l0l0	sédiments	O
+30l0l1	provenant_du	R
+30l0l2	pompage_des_eaux_de	A
+30l0l3	la_cave	O
+30l0l4	ont_été_réalisés	N
+
+#L'analyse des risques résiduels montre que :
+
+
+#- les expositions par inhalation de vapeur issues de la nappe impactées, au droit de l'habitation sont compatibles avec un usage d'habitation (enfant et adulte),
+
+32l0l0	la_nappe_impactées	O
+32l0l1	un_usage_d__habitation	A
+
+#- la consommation de végétaux auto-produits et arrosés avec l'eau du puits aval peut entraîner un risque sanitaire.
+
+33l0l0	la_consommation	A
+33l0l1	arrosés	T
+33l0l2	avec_l__eau_du_puits_aval	L
+
+#Cette étude recommande :
+
+
+#- la mise en place d'une ventilation forcée de la cave, afin d'éviter la concentrations des gaz dans la cave en période de hautes eaux,
+
+35l0l0	la_mise_en_place_d__une_ventilation_forcée	N
+35l0l1	la_cave	O
+35l0l2	la_cave	O
+35l0l3	en	T
+35l0l4	période_de_hautes_eaux	A
+
+#- de proscrire l'utilisation de l'eau souterraine pour tout usage au droit de l'habitation.
+
+36l0l0	proscrire_l__utilisation_de_l__eau_souterraine	A
+36l0l1	tout_usage	O

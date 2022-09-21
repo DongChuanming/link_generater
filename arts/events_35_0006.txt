@@ -1,0 +1,179 @@
+
+#35.0006
+#Le dépôt DPC a été construit en 1972 et stockait des liquides inflammables (hydrocarbures) dans 6 réservoirs, d’une capacité totale de 53 000 m3.
+
+0l0l0	construit_en_1972_et_stockait_des_liquides	N
+
+#Le site a cessé son activité en 2005.
+
+1l0l0	Le_site_a_cessé	O
+1l0l1	son_activité	N
+1l0l2	en_2005	T
+1l1l0	Le_site_a_cessé	I
+
+#Le démantèlement des installations a eu lieu durant l'année 2005 avec le démontage des différents bacs de stockage, du poste de chargement, de la gare d'arrivée du pipeline, de la pomperie, ainsi que de la suppression des merlons périphériques de protection.
+
+2l0l0	Le	O
+2l0l1	démantèlement_des_installations	N
+2l0l2	a_eu_lieu_durant_l__année_2005_avec_le_démontage_des_différents_bacs_de_stockage___du_poste_de_chargement___de_la_gare_d__arrivée_du_pipeline___de_la_pomperie___ainsi_que_de_la_suppression_des_merlons_périphériques_de_protection__	T
+
+#L'usage futur du site retenu est de type industriel, artisanal ou commercial.
+
+3l0l0	L__usage_futur_du_site_retenu_est_de_type	N
+3l0l1	industriel___artisanal_ou	T
+3l0l2	commercial__	N
+
+#4 incidents majeurs sont survenus au cours de l'exploitation du dépôt :
+
+4l0l0	4_incidents_majeurs	O
+
+#- 1991 : percement de la tuyauterie enterrée de purge (fuites de supercarburants),
+
+5l0l0	__1991___percement_de	O
+5l0l1	la_tuyauterie	N
+5l0l2	enterrée_de	R
+5l0l3	purge___fuites_de	N
+5l0l4	supercarburants	O
+
+#- 1992 : percement de la pipe au niveau de la gare d'arrivée du pipeline (fuites d'essence sans plomb et de gasoil),
+
+6l0l0	__1992	T
+6l0l1	__percement	N
+6l0l2	de_la_pipe_au_niveau_de_la_gare	O
+6l0l3	pipeline___fuites_d_	O
+6l0l4	essence	A
+6l1l0	pipeline___fuites_d__essence	U
+
+#- 1994 : fuite sur les tuyauterie d'un bac lors du montage de vannes anti-retour,
+
+7l0l0	__1994	T
+7l0l1	__fuite_sur_les_tuyauterie	O
+7l0l2	d__un_bac_lors_du_montage_de	L
+7l0l3	vannes	O
+7l0l4	anti_retour__	A
+
+#- 2003 : fuite de gasoil sur un bas.
+
+8l0l0	2003	T
+8l0l1	__fuite	N
+8l0l2	gasoil_sur_un_bas	O
+
+#De plus, une partie de la zone NE a fait l'objet de dépôt de boues de fond de bac.
+
+9l0l0	partie_de_la	O
+9l0l1	zone	R
+9l0l2	NE_a	O
+9l1l0	partie_de	U
+
+#D'autre part, une aire (étanchéifiée) d'entreposage des terres polluées suite aux accidents de 1992 et 1994 a été constitué en partie nord du site.
+
+10l0l0	part___une_aire__	O
+10l0l1	étanchéifiée___d__entreposage	N
+
+#Une analyse des terres en 1995 a mis en évidence une forte concentration en hydrocarbures, entraînant l'évacuation des terres en 1997.
+
+11l0l0	des_terres	O
+11l0l1	en_1995_a_mis_en	O
+11l0l2	évidence_une_forte_concentration_en	O
+11l0l3	hydrocarbures___entraînant	R
+11l0l4	l__évacuation	T
+11l0l5	des_terres	N
+11l0l6	en_1997__	L
+
+#Au cours de l'évacuation des terres, la dégradation de la géomembrane a été constatée.
+
+12l0l0	Au_cours_de_l__évacuation	N
+12l0l1	des_terres	T
+12l0l2	été_constatée__	O
+12l1l0	été_constatée__	S
+
+#Différentes études ont été menées entre 1990 et 2006.
+
+13l0l0	Différentes	R
+13l0l1	études_ont_été_menées_entre	N
+
+#Une pollution des sols par les hydrocarbures et les BTEX a été reconnue sous un poste de chargement, la gare d’arrivée du pipeline qui alimente le dépôt et sous un réservoir.
+
+14l0l0	hydrocarbures_et_les_BTEX_a_été_reconnue_sous_un_poste_de_chargement___la_gare_d__arrivée_du_pipeline_qui_alimente_le_dépôt_et_sous_un_réservoir__	T
+
+#Aucun impact par les métaux n'ont été constatés.
+
+15l0l0	Aucun_impact_par_les_métaux_n__ont_été_constatés	O
+15l0l1	_	O
+15l1l0	ont_été_constatés__	S
+
+#Le suivi de la qualité des eaux souterraines depuis 1994 a montré la migration des hydrocarbures présents dans les sols vers les eaux souterraines.
+
+
+#L'arrêté préfectoral du 13 février 2006 prescrit la surveillance semestrielle des eaux souterraines pour les paramètres hydrocarbures (C5-C40) et BTEX.
+
+17l0l0	L__arrêté	N
+17l0l1	préfectoral_du_13_février_2006	A
+17l0l2	prescrit_la_surveillance	T
+17l0l3	des_eaux_souterraines	O
+17l1l0	des_eaux_souterraines	S
+
+#Une tranchée drainante et un puits de rabattement ont été mis en place en 1997 entre la cuvette polluée et la limite de l'établissement (drainage et rabattement de la nappe) de manière à éviter une migration de la pollution hors du dépôt.
+
+18l0l0	Une_tranchée_drainante	O
+18l0l1	et_un_puits_de	T
+18l0l2	rabattement	R
+18l0l3	ont_été_mis_en_place_en_1997_entre	A
+18l0l4	la_cuvette_polluée_et	A
+18l1l0	établissement___drainage	S
+18l1l1	rabattement	S
+
+#Ces mesures de gestion ont permis de résorber l'impact.
+
+19l0l0	Ces_mesures_de_gestion_ont	N
+19l0l1	permis_de_résorber_l_	O
+19l0l2	impact__	N
+
+#Lors de la campagne de juillet 2009, des hydrocarbures (C8-C10) ont été décelés à l'état de traces.
+
+20l0l0	Lors_de_la_campagne_de	O
+20l0l1	juillet_2009___des	N
+20l0l2	hydrocarbures	O
+
+#Des travaux de dépollution des sols ont été réalisés en 2007 et 2008.
+
+21l0l0	Des	T
+21l0l1	travaux_de	N
+21l0l2	dépollution_des_sols	T
+21l0l3	ont_été_réalisés_en	O
+21l0l4	2008__	N
+21l1l0	été_réalisés_en_2007_et_2008	S
+
+#A l'issue des travaux, une analyse des concentrations résiduelles a mis en évidence :
+
+22l0l0	A_l__issue_des_travaux___une_analyse	N
+22l0l1	des_concentrations	N
+22l0l2	résiduelles_a_mis_en_évidence__	T
+
+#- quelques concentrations résiduelles remarquables pour les hydrocarbures ;
+
+
+#- des concentrations maximales résiduelles pour les BTEX inférieures au seuil fixé.
+
+24l1l0	inférieures_au_seuil	S
+
+#Dans la mesure où des concentrations résiduelles subsistent dans les sols et les eaux souterraines, une analyse des risques résiduels a été réalisée en prenant en compte un usage futur industriel.
+
+25l1l0	subsistent	S
+
+#Les calculs des risques résiduels pour les risques cancérigène et non cancérigène étant supérieurs aux seuils recommandés, au vu des travaux importants déjà réalisés, des servitudes d'utilité publique ont été instituées par arrêté préfectoral du 15 décembre 2015.
+
+26l0l0	travaux_importants	N
+26l0l1	des_servitudes_d__utilité	O
+
+#Le bilan quadriennal 2005-2010 conclut en l'absence d'impact significatif des anciennes activités sur les eaux souterraines et préconise l'arrêt de la surveillance.
+
+27l0l0	préconise_l__arrêt_de_la_surveillance	N
+27l1l0	absence_d__impact_significatif	U
+
+#Le rapport de 2011 valant PV de récolement abroge les prescriptions de l'arrêté préfectoral d'autorisation, dans lequel la surveillance des eaux souterraines (HCT semestriel) était prescrite.
+
+28l0l0	rapport_de_2011_valant	N
+28l0l1	PV_de_récolement	T
+28l0l2	autorisation___dans_lequel_la_surveillance	O
+28l0l3	souterraines___HCT_semestriel	A

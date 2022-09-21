@@ -1,0 +1,137 @@
+
+#27.0113
+#La fromagerie a été créée en 1973, puis agrandie en 1982 sous le nom de Fromagerie DI BENEDETTO, puis à nouveau en 1991.
+
+0l0l0	La_fromagerie	O
+0l0l1	a_été_créée	N
+0l0l2	en_1973	T
+0l0l3	agrandie	N
+0l0l4	en_1982	T
+0l0l5	le	O
+0l0l6	nom_de	R
+0l0l7	Fromagerie_DI_BENEDETTO	O
+0l0l8	en_1991	T
+0l1l0	Fromagerie_DI_BENEDETTO	I
+
+#L’activité était réglementée par des récépissés de déclaration, dont une réfrigération à l'ammoniac.
+
+1l0l0	L__activité	O
+1l0l1	était	R
+1l0l2	réglementée_par	O
+1l0l3	des_récépissés	N
+1l0l4	déclaration	N
+1l0l5	réfrigération_à_l__ammoniac	A
+1l1l0	ammoniac	S
+
+#Le site occupe les parcelles 385, 278 à 281 et 45 à 48 section A (soit environ 31 200 m²) sur la commune de Sacquenville (27930), à l'orée de la forêt, à 1 km environ du centre bourg ; des habitations sont situées à environ 40 m du site.
+
+2l0l0	Le_site	O
+2l0l1	__sur_la_commune_de_Sacquenville	L
+2l0l2	__27930	L
+2l0l3	__à_l__orée_de_la_forêt	L
+2l0l4	__à_1_km_environ_du_centre_bourg	L
+2l0l5	____des_habitations	O
+2l0l6	sont	R
+2l0l7	situées_à_environ_40_m_du_site	L
+
+#Le site recevait environ 50 000 litres de lait par jour en 2008.
+
+3l0l0	Le_site	O
+3l0l1	jour_en_2008__	T
+
+#Suite à la liquidation judiciaire de la société mi-2006, 2 groupements d’agriculteurs qui étaient fournisseurs de lait à la fromagerie, ont racheté le site en 2007, sous le nom de Société Nouvelle DI BENEDETTO.
+
+4l0l0	Suite_à	R
+4l0l1	la_liquidation_judiciaire	N
+4l0l2	la_société_mi_2006	T
+4l0l3	2_groupements	O
+4l0l4	fournisseurs_de_lait	A
+4l0l5	la_fromagerie	O
+4l0l6	ont_racheté	N
+4l0l7	le_site	O
+4l0l8	en_2007__	T
+4l0l9	sous_le_nom	R
+4l0l10	de_Société_Nouvelle_DI_BENEDETTO	O
+4l1l0	Société_Nouvelle_DI_BENEDETTO	I
+
+#L’activité cesse par liquidation judiciaire le 9 novembre 2010.
+
+5l0l0	L__activité	O
+5l0l1	cesse_par_liquidation_judiciaire	N
+5l0l2	le_9_novembre_2010__	T
+
+#Le site était une fromagerie soumise à Déclaration mais l’inspection est intervenue courant 2008 suite à une plainte pour le débordement d’un bassin de lagunage vers un captage AEP.
+
+6l0l0	Le_site	O
+6l0l1	fromagerie	O
+6l0l2	soumise	L
+6l0l3	à_Déclaration	N
+6l0l4	l__inspection	O
+6l0l5	est_intervenue	N
+6l0l6	courant_2008	T
+6l0l7	le_débordement	N
+6l0l8	un_bassin_de_lagunage	O
+6l0l9	vers_un_captage_AEP	A
+
+#La société a été mise en demeure de régulariser ses installations, avec d’autres points.
+
+7l0l0	La_société	O
+7l0l1	a_été_mise_en_demeure_de_régulariser	N
+7l0l2	ses_installations	O
+7l1l0	La	I
+
+#L'activité a cessé suite à liquidation judiciaire le 9 novembre 2010.
+
+8l0l0	L__activité	O
+8l0l1	a_cessé	N
+8l0l2	suite	R
+8l0l3	à_liquidation_judiciaire	N
+8l0l4	le_9_novembre_2010__	T
+
+#Le liquidateur a réalisé la notification de mise à l’arrêt définitif courant 2014 avec notamment la justification de l'évacuation de l’ammoniac pour la réfrigération, la reprise de la cuve de gaz par Total Gaz, la vidange des bassins et l’évacuation des déchets.
+
+9l0l0	Le_liquidateur	O
+9l0l1	a_réalisé	N
+9l0l2	la_notification	O
+9l0l3	de_mise_à_l__arrêt_définitif	N
+9l0l4	courant_2014	T
+9l0l5	la_justification	N
+9l0l6	l_	O
+9l0l7	évacuation_de	R
+9l0l8	l__ammoniac	O
+9l0l9	la_réfrigération	A
+9l0l10	la_reprise_de	N
+9l0l11	la_cuve_de_gaz	O
+9l0l12	Total_Gaz	O
+9l0l13	la_vidange_des_bassins	N
+9l0l14	l__évacuation_des_déchets	O
+9l1l0	l__ammoniac	U
+9l1l1	cuve_de_gaz	U
+9l1l2	Total_Gaz	I
+
+#Fin 2014, le liquidateur a fait réaliser un diagnostic de sol du site par SOCOTEC et 2 zones ont été identifiées comme contaminées aux hydrocarbures totaux.
+
+10l0l0	Fin_2014__	T
+10l0l1	le_liquidateur	O
+10l0l2	a_fait_réaliser	N
+10l0l3	un_diagnostic_de_sol	N
+10l0l4	site_par_SOCOTEC	O
+10l0l5	2_zones	O
+10l0l6	ont_été_identifiées	N
+10l0l7	contaminées	N
+10l0l8	hydrocarbures_totaux	O
+10l1l0	SOCOTEC	I
+10l1l1	hydrocarbures_totaux	S
+
+#Des investigations complémentaires sur ces 2 zones ont été réalisées en janvier 2015, préconisant l’excavation de ces zones, pour un volume d’environ 10 à 15 m³ de terres.
+
+11l0l0	Des_investigations_complémentaires	N
+11l0l1	ces_2_zones	O
+11l0l2	ont_été_réalisées	N
+11l0l3	en_janvier_2015__	T
+11l0l4	préconisant_l__excavation	N
+11l0l5	ces_zones	O
+
+#Depuis, le site est resté en l’état.
+
+12l0l0	le_site	O

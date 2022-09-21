@@ -1,0 +1,61 @@
+
+#30.0011
+#Station service en milieu urbain, en rive droite du Gardon.
+
+0l0l0	Station_service	O
+0l0l1	en_milieu_urbain	L
+0l0l2	en_rive_droite_du_Gardon	L
+
+#Le risque est celui d'une contamination de la nappe phréatique par les hydrocarbures.
+
+1l0l0	hydrocarbures	O
+1l1l0	hydrocarbures	S
+
+#Le 30/09/1997, les pompiers ont informé l'inspecteur des installations classées d'odeurs d'hydrocarbures dans un puits voisin de la station ROLLIN.
+
+2l0l0	Le_30_09_1997	T
+2l0l1	les_pompiers	O
+2l0l2	ont_informé	N
+2l0l3	l__inspecteur_des_installations_classées	O
+2l0l4	d__hydrocarbures	O
+2l0l5	dans_un_puits_voisin_de_la_station_ROLLIN	L
+2l1l0	hydrocarbures	S
+2l1l1	la_station_ROLLIN	I
+
+#A la suite de ces évènements, l'exploitant a identifié une légère fuite d'essence sur une canalisation enterrée.
+
+3l0l0	A_la_suite	R
+3l0l1	de_ces_évènements	N
+3l0l2	l__exploitant	O
+3l0l3	a_identifié	N
+3l0l4	une_légère	O
+3l0l5	fuite	R
+3l0l6	d__essence	O
+3l0l7	une_canalisation_enterrée	O
+3l1l0	d__essence	U
+
+#Compte tenu du contexte urbain et de l'hydrogéographie du site, il a été demandé à l'exploitant, par arrêté préfectoral en date du 13/11/1997, de procéder directement aux travaux de dépollution (pompage dans les puits voisins et traitement des eaux - injection de bacteries de traitement  in situ du sol).
+
+4l0l0	a_été_demandé	N
+4l0l1	l__exploitant	O
+4l0l2	arrêté_préfectoral	O
+4l0l3	en_date_du_13_11_1997	T
+4l0l4	directement_aux_travaux_de_dépollution	N
+4l0l5	pompage_dans_les_puits_voisins	N
+4l0l6	traitement_des_eaux	N
+4l0l7	injection_de	N
+4l0l8	bacteries_de_traitement___in_situ	N
+
+#Les travaux ont été achevés en mars 1999.
+
+5l0l0	Les_travaux	O
+5l0l1	ont_été_achevés	N
+5l0l2	en_mars_1999__	T
+
+#Les concentrations en hydrocarbures dans la nappe tendent vers le niveau du bruit de fond.
+
+6l0l0	hydrocarbures	O
+6l0l1	la_nappe	O
+6l0l2	tendent_vers	R
+6l0l3	le_niveau	O
+6l1l0	hydrocarbures	S

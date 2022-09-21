@@ -1,0 +1,131 @@
+
+#971.0005
+#L'établissement exploité par Total Guadeloupe est une station service qui comprend des réservoirs de stockage enterrés de capacité totale équivalente de 18 m3 :
+
+0l0l0	L_	O
+0l0l1	établissement_exploité_par	N
+0l0l2	Total_Guadeloupe	T
+0l0l3	est_une_station_service_qui_comprend_des	O
+0l0l4	réservoirs_de_stockage_enterrés_de_capacité_totale_équivalente	N
+0l0l5	de_18_m3__	N
+
+#-	un réservoir de super sans-plomb de 13 m3 (coefficient 1) ;
+
+
+#-	un réservoir de super détaxé de 4 m3 (coefficient 1) ;
+
+2l0l0	_	O
+2l0l1	un_réservoir_de_super	O
+2l0l2	_	O
+2l1l0	de_4_m3___coefficient	I
+
+#-	un réservoir de gasoil de 10 m3 (coefficient 1/5).
+
+3l0l0	un_réservoir_de_gasoil_de_10	O
+3l1l0	un_réservoir_de	D
+3l1l1	gasoil_de_10_m3___coefficient	U
+
+#et une installation de distribution de carburant de débit total équivalent de 6,6 m3/h :
+
+4l0l0	et_une_installation_de_distribution	O
+4l1l0	installation_de_distribution	U
+
+#-	une pompe de distribution de super sans plomb de 3 m3/h (coefficient 1) ;
+
+5l1l0	distribution	U
+
+#-	une pompe de distribution de super détaxé de 3 m3/h (coefficient 1) ,
+
+6l0l0	une_pompe_de_distribution_de_super_détaxé_de_3_m3__	O
+6l1l0	détaxé_de_3_m3__	U
+
+#-	une pompe de distribution de gasoil de 3 m3/h (coefficient 1/5).
+
+7l1l0	gasoil_de_3_m3___h__	U
+
+#Ces équipements ont été démontés en 2004 sans être remplacés.
+
+8l0l0	Ces_équipements	O
+8l0l1	ont_été_démontés_en_2004	A
+8l1l0	démontés_en_2004_sans	U
+
+#A la suite d'une pollution du réseau d’eau potable à Goyave en décembre 2003 (forte odeur d’hydrocarbures dans l’eau potable distribuée dans un lotissment proche de la station service, impliquant 32 foyers), Total Guadeloupe a déposé les différents dossiers et études suivantes :
+
+9l1l0	réseau_d_	U
+
+#- évaluation simplifiée des risques étape B du 27 janvier 2004,
+
+10l0l0	__évaluation_simplifiée	O
+10l0l1	des	N
+10l0l2	risques_étape	T
+
+#- évaluation détaillée des risques résiduelles du 15 novembre 2007.
+
+11l0l0	__évaluation_détaillée_des	N
+11l0l1	résiduelles_du	O
+11l0l2	15_novembre	L
+11l0l3	2007__	T
+
+#Les études engagées en décembre 2003 et janvier 2004 ont fait apparaître une contamination des sols et des eaux souterraines par des hydrocarbures.
+
+12l0l0	Les_études_engagées_en_décembre_2003	N
+12l0l1	janvier_2004_ont_fait_apparaître_une_contamination_des_sols_et_des_eaux_souterraines_par_des_hydrocarbures__	T
+
+#Les principales zones affectées par la pollution se situent dans le sens d'écoulement hydraulique de la nappe, et des tranchées des canalisations d'eau potable.
+
+13l0l0	Les_principales	N
+13l0l1	se_situent_dans_le_sens_d__écoulement_hydraulique_de_la_nappe___et_des_tranchées_des_canalisations_d__eau_potable__	T
+
+#Les terrasses alluviales, au droit du site, renferment une petite nappe superficielle qui n’est pas exploitée.
+
+14l0l0	Les_terrasses_alluviales	N
+14l0l1	__au_droit_du_site___renferment	T
+14l0l2	une_petite_nappe	R
+14l0l3	superficielle_qui	N
+14l0l4	est_pas	O
+
+#Elle est principalement alimentée par les précipitations.
+
+15l0l0	Elle_est_principalement_alimentée	O
+15l0l1	par_les_précipitations	O
+15l0l2	_	L
+
+#Ce sont principalement des BTEX qui ont été mesurés avec des concentrations maximales en Toluène de 35 mg/l, Benzène de 28 mg/l, Ethyl-benzène de 4.4 mg/l, Xylène totaux de 28 mg/l et 35 mg/l en hydrocarbures totaux.
+
+16l0l0	BTEX_qui_ont_été	L
+16l0l1	mesurés_avec	R
+
+#Pour les sols, les concentrations maximales BTEX sont de : Toluène de 420 mg/kg, Benzène de 76 mg/kg, Ethyl-benzène de 130 mg/kg, Xylène totaux de 770 mg/kg.
+
+
+#L'évaluation des risques menées en janvier 2004 conduit à un classement en classe 1 (nécessité de mener des investigations approfondies).
+
+18l0l0	janvier_2004_conduit	N
+18l1l0	menées	S
+18l1l1	nécessité_de	S
+18l1l2	investigations_approfondies____	S
+
+#Des travaux de dépollution de la nappe ont été menés pendant six mois (août 2004 à février 2005) et ont permis d'abaisser nettement les concentrations en hydrocarbures : Toluène de 0.025 mg/l, Benzène de 0.056 mg/l, Ethyl-benzène de 0.89 mg/l, Xylène totaux de 4,2 mg/l et 1,2 mg/l en hydrocarbures totaux.
+
+19l1l0	menés_pendant_six_mois	S
+19l1l1	février	S
+19l1l2	permis_d__abaisser_nettement_les_concentrations	S
+
+#A l'issue de ces travaux de dépollution de la nappe, l'exploitant a déposée une étude détaillée des risques qui conclue à l'absence de risques pour la santé hummaine mais également à la nécessité de dépolluer les terres encore contaminées sur le site et d'instaurer des servitudes d'utilité publique afin de garantir la pérénité de l'usage du foncier.
+
+20l0l0	A_l__issue_de_ces_travaux_de_dépollution	N
+20l0l1	de_la_nappe	T
+20l0l2	__l_	R
+20l0l3	exploitant_a_déposée_une_étude	O
+20l0l4	qui_conclue_à_l__absence_de_risques	N
+
+#Cette EDR reste à valider.
+
+21l0l0	Cette_EDR_reste_à_valider__	N
+
+#La surveillance des eaux souterraines sera prochainement prescrite.
+
+22l0l0	La_surveillance	N
+22l0l1	des_eaux_souterraines	N
+22l0l2	sera_prochainement_prescrite	O
+22l0l3	_	N

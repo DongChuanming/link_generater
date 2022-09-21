@@ -1,0 +1,391 @@
+
+#71.0033
+#La COGEMA a exploité, sur le territoire de la commune de Gueugnon, une usine de traitement de minerais uranifères locaux puis de préconcentrés provenant de l'étranger.
+
+0l0l0	La_COGEMA_a_exploité	O
+0l0l1	uranifères_locaux	N
+0l0l2	puis_de	O
+0l0l3	provenant_de_l__étranger__	N
+
+#Construite en 1954, cette usine a fonctionné jusqu'en 1980.
+
+1l0l0	Construite	O
+1l0l1	en_1954__	N
+1l0l2	cette_usine_a_fonctionné_jusqu__en_1980__	L
+1l1l0	Construite	I
+
+#Les résidus de traitement et certains produits de démolition de l'usine (ceux de faibles activités) ont été stockés dans des bassins situés sur la commune de Gueugnon, propriété de la COGEMA (devenue AREVA NC en 2001, puis AREVA Mines en 2011).
+
+2l0l0	Les_résidus	N
+2l0l1	de	T
+2l0l2	traitement_et	O
+2l0l3	certains_produits	A
+2l0l4	de_démolition	T
+
+#Aucune activité ne persiste sur le site.
+
+3l0l0	Aucune_activité_ne_persiste	O
+3l0l1	sur_le_site__	O
+
+#► CONTEXTE DU SITE
+
+
+#La superficie de ce stockage est d'environ 6 ha.
+
+
+#Il est implanté à proximité immédiate du stade de Gueugnon, en rive gauche (Est) de la rivière Arroux.
+
+
+#Il est constitué de 225 000 tonnes de résidus de traitement de minerais uranifères, d'hydroxydes, terres et gravats provenant du démantèlement de l’usine.
+
+7l0l0	constitué_de_225_000_tonnes_de_résidus_de_traitement	L
+7l0l1	de_minerais_uranifères___d__hydroxydes___terres	L
+
+#Dans le périmètre de l'installation, ces matériaux sont stockés en 6 bassins du Nord vers le Sud :
+
+8l0l0	matériaux_sont_stockés	N
+
+#- 2 bassins occupés par des résidus issus du traitement de minerais locaux ou du décapage de zones périphériques ;
+
+9l0l0	issus_du_traitement	O
+9l0l1	locaux_ou_du	O
+9l0l2	décapage_de_zones	L
+
+#- 1 bassin utilisé pour l'épandage communal et pour les résidus de travaux d'assainissement ;
+
+10l0l0	1_bassin	O
+10l0l1	utilisé_pour	R
+10l0l2	l__épandage	O
+10l0l3	communal_et_pour_les_résidus_de_travaux	A
+10l0l4	assainissement	N
+10l0l5	_	L
+
+#- 1 bassin stockant des hydroxydes issus du traitement de préconcentrés étrangers ;
+
+11l0l0	1_bassin	O
+11l0l1	hydroxydes_issus_du	L
+11l0l2	traitement_de	O
+11l0l3	préconcentrés_étrangers__	N
+
+#- 1 bassin contenant des résidus de traitement de minerais locaux ;
+
+12l0l0	contenant	R
+12l0l1	des_résidus_de	O
+12l0l2	traitement_de_minerais	N
+12l1l0	contenant_des_résidus_de	S
+12l1l1	minerais_locaux__	U
+
+#- 1 bassin où sont stockés les matériaux issus du démantèlement de l'usine opéré de mai 1980 à mai 1981.
+
+13l0l0	matériaux_issus_du_démantèlement	A
+13l1l0	stockés_les_matériaux	D
+
+#Du point de vue hydrogéologique, le site se trouve au droit d'une nappe alluviale dont le toit est à environ 5 mètres de profondeur.
+
+14l0l0	hydrogéologique___le_site	O
+14l0l1	trouve_au_droit_d__une	N
+14l0l2	nappe	O
+14l0l3	alluviale	N
+14l0l4	dont_le_toit_est_à_environ_5_mètres_de_profondeur__	T
+
+#Celle-ci s'écoule vers la rivière Arroux, située immédiatement à l'Ouest.
+
+15l0l0	rivière_Arroux	O
+15l0l1	__située_immédiatement_à_l__Ouest	O
+
+#On note également en bordure Sud du site la présence de deux anciennes sablières désormais occupées par des plans d'eau, ainsi que d'un canal (la Rigole de l'Arroux) à 50 mètres à l'Est.
+
+16l0l0	en_bordure_Sud_du_site_la	L
+16l0l1	présence_de_deux_anciennes_sablières	L
+
+#Aucun captage d'alimentation en eau potable ou puits privé n'est connu à proximité du site.
+
+17l0l0	alimentation_en_eau_potable	L
+17l0l1	_	N
+
+#► STATUT ADMINISTRATIF
+
+18l0l0	__STATUT_ADMINISTRATIF	O
+
+#Le site de stockage est une installation classée pour la protection de l'environnement soumise au régime de l'autorisation, statut reconfirmé suite au changement de nomenclature du 11 janvier 2011 relatif aux installations nucléaires de base.
+
+
+#► ÉTUDES ENVIRONNEMENTALES, TRAVAUX
+
+20l0l0	__ÉTUDES_ENVIRONNEMENTALES	O
+20l0l1	__TRAVAUX	O
+
+#Suite à la mise à l'arrêt du site, sa réhabilitation a fait l'objet d'arrêtés préfectoraux en dates du 4 septembre 1980, du 28 aout 1987, du 20 avril 1994, du 29 juin 2009 (annulé le 22 novembre 2011) et du 7 mars 2012.
+
+21l0l0	Suite_à_la_mise_à_l_	N
+21l0l1	arrêt_du_site	O
+21l0l2	__sa_réhabilitation_a_fait_l__objet_d__arrêtés_préfectoraux_en_dates_du_4_septembre_1980___du_28_aout_1987___du_20_avril_1994___du_29_juin_2009___annulé_le_22_novembre_2011___et_du_7_mars_2012__	N
+21l1l0	Suite_à_la_mise_à_l__arrêt_du_site___sa_réhabilitation_a_fait_l__objet_d__arrêtés_préfectoraux_en_dates_du_4_septembre_1980___du_28_aout_1987___du_20_avril_1994___du_29_juin_2009___annulé_le_22_novembre_2011___et_du_7_mars_2012__	I
+
+#Les principales dispositions de ces arrêtés concernent l'aménagement, la surveillance au titre des eaux et du milieu ainsi que l'impact radiologique.
+
+22l0l0	Les	R
+22l0l1	principales_dispositions	O
+22l0l2	de_ces_arrêtés_concernent	N
+22l0l3	l__aménagement	R
+22l0l4	des_eaux_et_du_milieu	T
+22l0l5	ainsi_que_l__impact	T
+22l0l6	radiologique__	T
+
+#Il a été notamment procédé à la couverture des résidus stockés par une couche de matériaux inertes et de terres, avant revégétalisation du site.
+
+23l0l0	stockés_par_une_couche	N
+23l0l1	de_matériaux	O
+23l0l2	inertes_et_de	R
+23l0l3	terres	N
+23l0l4	__avant_revégétalisation	O
+
+#En outre des servitudes au profit de l'Etat ont été mises en place pour ce qui concerne l'emprise de la zone de stockage.
+
+24l0l0	En_outre	O
+24l0l1	profit_de_l__Etat	N
+24l0l2	stockage	T
+24l0l3	_	N
+
+#Des mesures réalisées à proximité de cette zone de stockage début 2007, tant par la CRIIRAD que par l'Autorité de Sûreté Nucléaire (ASN), ont mis en évidence à plusieurs endroits la présence de points présentant une radioactivité plus élevée que le niveau naturel ("points chauds").
+
+25l0l0	mesures_réalisées_à	O
+25l0l1	proximité_de	R
+25l0l2	cette	O
+25l0l3	zone_de_stockage_début	N
+
+#Rapidement, la DRIRE a demandé à AREVA de réaliser notamment une cartographie radiologique détaillée de l'ensemble de la zone, et d'établir un plan d'actions permettant de maintenir l'exposition des personnes au niveau le plus bas qu'il soit possible d'atteindre.
+
+26l0l0	Rapidement___la_DRIRE_a	N
+26l0l1	demandé_à_AREVA_de_réaliser_notamment	L
+26l0l2	une_cartographie	T
+26l0l3	radiologique_détaillée_de_l__ensemble_de_la_zone___et	O
+
+#Une cartographie de l'ensemble de ce secteur a été réalisée en avril 2007, confirmant la présence des "points chauds".
+
+27l0l0	cartographie_de_l_	O
+27l0l1	de_ce_secteur	O
+27l0l2	en_avril_2007___confirmant_la_présence	N
+27l1l0	cartographie_de_l_	I
+27l1l1	de	I
+
+#Bien que pouvant conduire à des dépassements de seuil réglementaire en cas d'exposition prolongée, les seuils de radioactivité mesurés sur le site de Gueugnon sont sans impact à court et moyen terme sur la santé des populations.
+
+28l0l0	Bien_que_pouvant_conduire	N
+28l0l1	dépassements	O
+28l0l2	de_seuil_réglementaire	N
+28l0l3	en_cas	T
+
+#Les travaux projetés par AREVA ont été présentés au cours d'une réunion qui s'est tenue le 20 février 2008 à la Mairie de Gueugnon à laquelle participaient le maire et ses services, AREVA, l'association "Vigilance Projet Incinérateur Gueugnon" (VIPG), l'association "La Perche Gueugnonnaise", la DRIRE et l'ASN.
+
+29l0l0	participaient_le_maire	A
+29l0l1	l__association	O
+
+#Ils consistent à décaper tout ou partie des zones radiologiquement marquées, à les remplacer et recouvrir par des terres "saines" et du bitume, et à stocker les matériaux excavés dans un des bassins du site existant avant de les couvrir également de terres "saines".
+
+30l0l0	Ils_consistent_à_décaper	O
+30l0l1	tout_ou	O
+30l0l2	partie_des_zones	N
+30l0l3	radiologiquement_marquées	N
+30l0l4	__à_les	N
+30l0l5	remplacer_et_recouvrir	T
+30l0l6	par_des	O
+30l0l7	terres___saines	L
+30l0l8	stocker_les_matériaux	O
+30l0l9	dans_un	O
+30l0l10	également	L
+30l1l0	tout_ou	I
+30l1l1	dans_un	I
+30l1l2	de_les_couvrir_également	I
+
+#Par ailleurs, une réunion publique s'est tenue le 11 avril 2008.
+
+31l0l0	une_réunion	N
+31l0l1	tenue_le_11_avril_2008__	O
+
+#Une Commission Locale d'Information et de Suivi (CLIS) a été créée par arrêté préfectoral en date du 25 septembre 2008.
+
+32l0l0	Commission_Locale_d__Information	N
+32l0l1	et_de_Suivi	N
+32l0l2	__CLIS___a_été_créée_par_arrêté_préfectoral_en_date_du_25_septembre_2008__	T
+
+#Elle permet de disposer d'une instance d'échanges et de dialogue sur les questions soulevées.
+
+33l0l0	dialogue	N
+33l0l1	sur_les_questions_soulevées	O
+33l0l2	_	T
+
+#La première réunion de la CLIS s'est tenue le 22 janvier 2009 et a notamment permis d'arriver à un consensus sur la réalisation des travaux à l'été 2009 (modalités et échéancier).
+
+
+#Il est à noter que ces travaux devrait permettre d'aboutir à un niveau radiologique ne différant pas notablement de celui du milieu naturel.
+
+35l0l0	Il_est_à_noter_que_ces	N
+35l0l1	travaux_devrait_permettre	N
+35l0l2	d__aboutir_à	T
+35l0l3	notablement_de_celui_du_milieu_naturel	N
+35l0l4	_	T
+
+#Une nouvelle réunion de la CLIS a eu lieu le 21 avril 2009.
+
+
+#Après une présentation complétant celle du 22 janvier 2009, un vote a donné lieu à un avis favorable de l'ensemble des parties prenantes, exceptés les 2 associations de défense de l'environnement.
+
+37l0l0	Après_une_présentation	O
+37l0l1	complétant_celle	N
+37l0l2	du_22_janvier_2009___un_vote_a_donné_lieu_à_un_avis_favorable_de_l__ensemble_des_parties_prenantes___exceptés_les_2_associations_de_défense_de_l__environnement__	T
+
+#L'arrêté préfectoral relatif au stockage a été actualisé le 29 juin 2009 pour permettre le stockage des terres décapées lors des travaux, lesquels se sont déroulés comme prévu au cours de l'été 2009.
+
+38l0l0	été_actualisé_le	T
+38l0l1	lesquels_se_sont_déroulés_comme_prévu_au_cours_de_l__été_2009	O
+
+#Les matériaux issus des travaux d'assainissement effectués sur la période 2003-2009 ont été stockés dans l'un des bassins du site.
+
+39l0l0	Les_matériaux_issus_des	O
+39l0l1	travaux	R
+39l0l2	d__assainissement_effectués	N
+39l0l3	sur_la_période	T
+39l0l4	2003___2009_ont	N
+39l0l5	été_stockés_dans_l__un	O
+39l0l6	des_bassins_du_site__	N
+
+#Sur le parking situé au sud du stade de Gueugnon (zone radiologiquement marquée), une cartographie avant pose du revêtement final a été réalisée.
+
+40l0l0	Sur_le_parking_situé	O
+40l0l1	au_sud_du_stade_de_Gueugnon___zone	N
+40l0l2	radiologiquement	N
+40l0l3	marquée_____une	T
+40l0l4	cartographie	N
+40l0l5	avant	L
+40l0l6	pose_du_revêtement_final	O
+
+#Elle montre que l'objectif d'assainissement a été tenu, puisque globalement le niveau radiologique actuel se situe au niveau du bruit de fond.
+
+41l0l0	Elle_montre_que_l__objectif_d__assainissement	L
+41l0l1	été_tenu___puisque	O
+41l0l2	niveau_radiologique_actuel_se	N
+41l0l3	situe_au_niveau_du	O
+41l0l4	bruit_de_fond__	N
+
+#Cependant, lors de la mise en place d'un enrobé sur le trottoir longeant le stade, les mesures réalisées après sa pose ont montré une élévation du débit de dose surprenante (environ trois fois la valeur relevée avant pose de l'enrobé), excédant ainsi le seuil retenu pour significatif de 3 fois le bruit de fond.
+
+42l0l0	place_d__un_enrobé	O
+42l0l1	sur_le_trottoir	N
+
+#Après analyse par l'exploitant des raisons de cette élévation dosimétrique, il s'avère qu'elle est directement liée à une augmentation du flux d'exhalation du radon en provenance du sol.
+
+43l0l0	analyse_par	T
+43l0l1	l__exploitant_des_raisons_de	N
+43l0l2	cette_élévation	O
+43l0l3	dosimétrique___il	L
+43l0l4	s__avère_qu_	O
+43l0l5	elle_est_directement_liée	N
+43l0l6	augmentation_du_flux	N
+
+#Les travaux menés par l'exploitant pour trouver une solution à ce problème l'ont conduit à proposer la pose d'un revêtement intermédiaire de type "membrane", avant pose du revêtement définitif.
+
+44l0l0	Les_travaux_menés	N
+44l0l1	par_l__exploitant	O
+44l0l2	trouver_une_solution_à_ce	N
+44l0l3	la_pose_d__un_revêtement_intermédiaire	N
+
+#Plusieurs essais ont été réalisés par AREVA, et cette solution ainsi que le résultat des tests ont fait l'objet d'une présentation aux membres de la CLIS le 25 janvier 2010.
+
+45l0l0	Plusieurs_essais	N
+45l0l1	été_réalisés_par	O
+45l0l2	fait_l__objet_d__une_présentation	N
+45l0l3	2010__	O
+
+#Cette solution est apparue acceptable aux autorités qui n'ont émis aucune objection à sa mise en œuvre courant 2010, moyennant la réalisation d'une cartographie finale de l'ensemble de la zone.
+
+46l0l0	Cette_solution_est	O
+46l0l1	apparue_acceptable	N
+46l0l2	aux	O
+46l0l3	autorités_qui_n__ont	O
+46l0l4	aucune_objection_à_sa_mise	O
+46l0l5	en_œuvre_courant	R
+46l0l6	cartographie_finale_de_l__ensemble_de_la_zone__	T
+46l1l0	acceptable_aux	I
+
+#► SURVEILLANCE DU SITE
+
+
+#A la demande de l'Etat, l'IRSN a procédé en août et septembre 2010 à des mesures radiologiques sur l'ensemble des zones ayant fait l'objet d'un assainissement.
+
+48l0l0	demande_de_l__Etat___l__IRSN_a_procédé_en_août_et_septembre_2010_à_des_mesures_radiologiques_sur_l__ensemble_des_zones_ayant_fait_l__objet_d__un_assainissement__	O
+
+#Hormis quelques "points chauds" persistants devant encore faire l'objet de travaux par AREVA, les valeurs mesurées sont du même ordre de grandeur que pour le milieu naturel.
+
+49l0l0	Hormis_quelques___points_chauds	O
+49l0l1	__persistants	N
+49l0l2	devant_encore_faire	T
+49l0l3	l__objet_de_travaux_par_AREVA	N
+49l0l4	mesurées	O
+49l0l5	sont_du_même_ordre_de	R
+
+#Par ailleurs, le parking situé au sud du stade devra faire l'objet d'une interdiction aux véhicules lourds afin d'éviter toute détérioration du revêtement neuf, et ainsi garantir la pérennité de l'assainissement.
+
+
+#L'arrêté préfectoral du 7 mars 2012 est venu étendre et réitérer les prescriptions de l'arrêté de 1994.
+
+51l0l0	préfectoral_du	O
+51l0l1	7_mars_2012_est_venu	L
+51l0l2	étendre_et_réitérer_les	R
+51l0l3	prescriptions_de	O
+51l0l4	arrêté_de_1994__	O
+
+#De ce fait les mesures de surveillance et de précaution concernant ce site sont :
+
+52l0l0	De_ce_fait_les_mesures_de	O
+52l0l1	surveillance	T
+52l0l2	et_de_précaution	N
+52l0l3	concernant_ce_site_sont__	N
+
+#- un suivi trimestriel de la qualité des eaux souterraines sur le site et au voisinage de celui-ci ;
+
+53l0l0	trimestriel_de_la_qualité_des	A
+
+#- l'exécution de relevés topographiques annuels sur le site, et la réalisation d'une étude géotechnique sur la stabilité des talus du site face aux crues et à l'érosion par l'Arroux ;
+
+54l0l0	l__exécution_de_relevés	A
+54l0l1	topographiques_annuels_sur_le_site	O
+54l0l2	réalisation_d__une_étude_géotechnique	L
+
+#- l'actualisation d'une étude hydrogéologique du site ;
+
+55l0l0	l__actualisation_d__une_étude_hydrogéologique_du	N
+
+#- la maintenance des ouvrages piézométriques du site ;
+
+56l0l0	la_maintenance_des	N
+56l0l1	ouvrages_piézométriques_du	N
+56l0l2	site__	O
+
+#- la mise en place de réseaux de surveillance radiologique sur le site (dosimètres pour mesures trimestrielles) et la réalisation de contrôles radiologiques (eaux, sédiments etc.) tous les 2 ans.
+
+57l0l0	mise_en_place_de_réseaux_de_surveillance_radiologique	O
+
+#Les études hydrogéologiques et géotechniques prescrites ont été transmises en mars 2013.
+
+58l0l0	Les_études_hydrogéologiques_et_géotechniques_prescrites	N
+
+#Ce même arrêté requérait le réexamen critique, tous les 5 ans, du plan de surveillance du site, ainsi que la production d'un bilan du fonctionnement du site tous les 10 ans.
+
+59l0l0	Ce_même_arrêté_requérait_le_réexamen_critique___tous_les_5	N
+59l0l1	ans	O
+59l0l2	__du_plan_de_surveillance	N
+59l0l3	du_site___ainsi_que_la_production_d__un_bilan_du_fonctionnement_du_site_tous_les_10_ans__	T
+
+#En décembre 2012, un rapport d'analyse critique du plan de surveillance a été de ce fait transmis par l'IRSN.
+
+60l0l0	rapport_d__analyse	N
+60l0l1	critique_du_plan_de_surveillance	T
+60l0l2	a_été_de_ce_fait_transmis	A
+
+#Outre la suggestion de modifications à apporter au réseau de surveillance atmosphérique et aux relevés topographiques de la couverture du site, le document préconise la réalisation d'un suivi précis des impacts en radionucléides dans les eaux souterraines.
+
+61l0l0	Outre_la_suggestion	T
+61l0l1	de_modifications	O
+61l0l2	réseau_de_surveillance	O
+61l0l3	atmosphérique_et_aux	N

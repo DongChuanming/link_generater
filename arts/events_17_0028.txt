@@ -1,0 +1,150 @@
+
+#17.0028
+#Le Technicentre de Saintes est implanté à l’est du centre ville de Saintes, à proximité de la gare voyageurs.
+
+0l0l0	Le_Technicentre	O
+0l0l1	de_Saintes	O
+0l0l2	est_implanté	N
+0l0l3	à_l__est_du_centre_ville_de_Saintes	L
+0l0l4	à_proximité_de_la_gare_voyageurs	L
+0l1l0	Le_Technicentre	I
+0l1l1	Saintes	I
+
+#Le site représente près de 14 hectares et s’étend sur une bande de 900 mètres de long selon un axe Nord-Sud, à 500 m de la Charente autour de laquelle se concentre le cœur de la ville de Saintes.
+
+1l0l0	Le_site	O
+1l0l1	Nord_Sud	O
+1l0l2	à_500_m_de_la_Charente_autour	L
+1l0l3	se_concentre_le_cœur_de_la_ville_de_Saintes	L
+
+#La maintenance des voitures ferroviaires constitue l’activité majeure du site.
+
+2l0l0	maintenance_des_voitures_ferroviaires	O
+
+#es principales opérations intéressant la réglementation ICPE concernent les opérations de traitement de surface destinées à décaper ou à laver les pièces ainsi que les opérations de peinture, sur les pièces une fois nettoyées.
+
+3l0l0	ICPE	O
+3l0l1	les_opérations_de_traitement_de_surface	A
+3l0l2	destinées_à	R
+3l0l3	décaper	N
+3l0l4	laver	N
+3l0l5	les_pièces	O
+3l0l6	opérations_de_peinture	A
+3l0l7	les_pièces	O
+3l0l8	une_fois	R
+3l0l9	nettoyées	O
+
+#Le site  représente une surface bâtie d’environ 4,5 hectares avec 27 bâtiments répartis au sein de la parcelle qui se composent essentiellement d’ateliers de production assez vastes en raison de l’encombrement des pièces manipulées.
+
+4l0l0	Le_site	O
+4l0l1	avec_27_bâtiments	O
+4l0l2	répartis_au_sein_de	L
+4l0l3	la_parcelle	O
+
+#Dans le cadre de la procédure de régularisation administrative du site il a été demandé à l'exploitant de mettre en place un réseau de piézomètres afin d'évaluer la qualité des eaux souterraines et de mieux appréhender les conséquences des activités réalisées au cours de l'histoire de ce site.
+
+5l0l0	Dans_le_cadre_de	R
+5l0l1	la_procédure_de_régularisation_administrative	N
+5l0l2	site	O
+5l0l3	il_a_été_demandé	N
+5l0l4	l__exploitant	O
+5l0l5	de_mettre_en_place	N
+5l0l6	un_réseau_de_piézomètres	O
+5l0l7	la_qualité_des_eaux_souterraines	O
+
+#Cette surveillance des eaux souterraines a mis en évidence
+
+6l0l0	surveillance_des_eaux_souterraines	A
+6l0l1	a_mis_en_évidence	N
+
+#* sur un des piézomètres : la présence d'une forte pollution aux hydrocarbures (de l'ordre de 50 mg/l en hydrocarbures), avec des teneurs supérieures à la valeur de référence, en forte augmentation entre les campagnes de 2007 et de 2008.
+
+7l0l0	les	A
+7l0l1	campagnes_de_2007_et_de_2008__	T
+7l1l0	hydrocarbures	S
+7l1l1	hydrocarbures	S
+
+#Les coupes retrouvées dans les eaux sont significatives d'une pollution aux hydrocarbures de type gazole/fioul (coupe C10-C30 majoritaire), et Des traces de naphtalène et des autres HAP analysés, de l'ordre d'2 µg/l pour la somme des HAP, les teneurs pour la somme des HAP sont supérieures à la valeur réglementaire pour les eaux destinées à la consommation humaine,
+
+8l0l0	les_eaux	O
+8l0l1	les_teneurs	O
+8l1l0	hydrocarbures	S
+8l1l1	gazole	S
+8l1l2	fioul	S
+8l1l3	naphtalène	S
+8l1l4	autres_HAP	S
+8l1l5	HAP	S
+8l1l6	des_HAP	S
+
+#*5 des 9 présentent une pollution au naphtalène
+
+9l1l0	naphtalène	S
+
+#*L'absence de BTEX.
+
+10l1l0	BTEX	S
+
+#*l'absence de COHV
+
+11l1l0	COHV	I
+
+#Suite à recherches historiques, l'exploitant a déterminé que la zone polluée par les hydrocarbures abritait  dans le passé une station de distribution de carburant de 1950 à 2003.
+
+12l0l0	Suite_à	R
+12l0l1	recherches_historiques	N
+12l0l2	l__exploitant	O
+12l0l3	a_déterminé	N
+12l0l4	la_zone_polluée	O
+12l0l5	hydrocarbures_abritait	O
+12l0l6	__dans_le_passé	T
+12l0l7	une_station_de_distribution_de_carburant	O
+12l0l8	de_1950_à_2003	T
+12l1l0	hydrocarbures	S
+12l1l1	de_carburant	U
+
+#Avant son démantèlement, la station était composée de 11 cuves de stockage de fuel/gazole, de 5 à 50 m 3 de capacité de stockage chacune.
+
+13l0l0	Avant	T
+13l0l1	son_démantèlement	N
+13l0l2	la_station	O
+13l1l0	stockage_de_fuel	U
+13l1l1	gazole	S
+
+#Ces cuves ont été neutralisées en 2003.
+
+14l0l0	Ces	O
+14l0l1	cuves_ont_été_neutralisées	N
+14l0l2	en_2003	T
+
+#Dans le cadre d'un projet d'extension de ses locaux (atelier maintenance TER) et du traitement de la pollution, la SNCF a décidé d'évacuer près de 1 000 tonnes de terres souillées, en filière agréée.
+
+15l0l0	Dans_le_cadre_d_	R
+15l0l1	un_projet_d__extension_de_ses_locaux	N
+15l0l2	maintenance_TER	O
+15l0l3	traitement_de_la_pollution	N
+15l0l4	la_SNCF	O
+15l0l5	a_décidé	N
+15l0l6	d__évacuer	N
+15l0l7	1_000_tonnes_de_terres_souillées	O
+15l0l8	filière_agréée	O
+
+#La fouille d'une profondeur maximale de 4,5 m a une surface approximative de 300 m².
+
+
+#Après l'évacuation des terres polluées, la fouille a été remblayée par la SNCF avec des matériaux sains, de type sables et graviers.
+
+17l0l0	Après_l__évacuation_des_terres_polluées	N
+17l0l1	la_fouille	O
+17l0l2	a_été_remblayée	N
+17l0l3	la_SNCF	O
+17l0l4	avec_des_matériaux_sains	O
+17l1l0	la_SNCF	I
+
+#Des analyses ont ensuite été effectuées en fond  de fouille afin de mesurer les concentrations en hydrocarbures et une analyse des risques rédisuels (ARR) a été réalisée démontrant l'absence de risques sanitaires résiduels dans l'usage fixé.
+
+18l0l0	Des_analyses_ont_ensuite_été_effectuées	N
+18l0l1	en_fond___de_fouille	L
+18l0l2	afin_de	R
+18l0l3	mesurer	N
+18l0l4	__a_été_réalisée	N
+18l1l0	en_hydrocarbures	S

@@ -1,0 +1,170 @@
+
+#27.0054
+#Le site se trouve en périphérie SUD EST de la commune de BOURTH à 400 m du centre ville, dans une zone à prédominante résidentielle.
+
+0l0l0	Le_site	O
+0l0l1	se_trouve_en_périphérie_SUD_EST_de_la_commune_de_BOURTH	L
+0l0l2	à_400_m_du_centre_ville___dans_une_zone	L
+
+#Le site fait une superficie de 3.4 ha.
+
+
+#L'activité exercée consistait en la fabrication de pièces automobiles (bielles, tulipes de joints de transmission,...).
+
+2l0l0	la_fabrication_de_pièces_automobiles	A
+
+#Il s'agissait d'une activité de travail mécanique des métaux.
+
+3l0l0	activité_de_travail_mécanique_des_métaux	A
+
+#L'activité du site remonte à 1907.
+
+4l0l0	L__activité_du_site	A
+4l0l1	remonte_à_1907__	T
+
+#Le site a été mis en liquidation judiciaire le 01 avril 2004.
+
+5l0l0	Le_site	O
+5l0l1	a_été_mis_en_liquidation_judiciaire	N
+5l0l2	le_01_avril_2004__	T
+
+#Une première évacuation des déchets a eu lieu en 2004.
+
+6l0l0	Une_première_évacuation_des_déchets	N
+6l0l1	a_eu_lieu	N
+6l0l2	en_2004__	T
+
+#Suite à une visite de l'inspection des installations classées en 2005, des déchets encore présents sur le site ont été évacués en novembre 2005 et février 2006.
+
+7l0l0	Suite	R
+7l0l1	à_une_visite	N
+7l0l2	l__inspection_des_installations_classées	O
+7l0l3	en_2005__	T
+7l0l4	des_déchets	O
+7l0l5	le_site	O
+7l0l6	ont_été_évacués	N
+7l0l7	en_novembre_2005_et_février_2006__	T
+
+#Lors des opérations près de 80 tonnes de déchets constitués principalement d'hydrocarbures, huiles ont été évacués.
+
+8l0l0	des_opérations	N
+8l0l1	huiles	O
+8l0l2	ont_été_évacués	N
+8l1l0	hydrocarbures	S
+8l1l1	huiles	S
+
+#Des cuves de stockage d'hydrocarbures ont été démantelées, des fosses de rétention comblées.
+
+9l0l0	Des_cuves_de_stockage_d__hydrocarbures	O
+9l0l1	ont_été_démantelées	N
+9l0l2	des_fosses_de_rétention_comblées	O
+9l1l0	cuves_de_stockage_d_	D
+9l1l1	hydrocarbures	S
+
+#La société HPC envirotec a été missionnée par le liquidateur judiciaire pour procéder à un diagnostic de l'état du site.
+
+10l0l0	La_société_HPC_envirotec	O
+10l0l1	a_été_missionnée	N
+10l0l2	par_le_liquidateur_judiciaire	O
+10l0l3	un_diagnostic	N
+10l0l4	l__état_du_site	O
+10l1l0	La_société_HPC_envirotec	I
+
+#Ce diagnostic s'est déroulé en 2005 et 2006.
+
+11l0l0	Ce_diagnostic	N
+11l0l1	s__est_déroulé	N
+11l0l2	en_2005_et_2006__	T
+
+#Des prélèvements de sols ont été effectués (21 sondages  jusqu'à 3.5 m de profondeur) ainsi que des analyses d'air de sol par tubes draeger.
+
+12l0l0	Des_prélèvements_de_sols	N
+12l0l1	ont_été_effectués	N
+12l0l2	par_tubes_draeger	O
+12l1l0	draeger	I
+
+#Les paramètres analysés sont: hydrocarbures totaux, Métaux lourds, PCB, Cyanures, COV et COHV, HAP, Phénol.
+
+13l1l0	hydrocarbures_totaux	S
+13l1l1	Métaux_lourds	S
+13l1l2	PCB	S
+13l1l3	Cyanures	S
+13l1l4	COV_et_COHV	S
+13l1l5	HAP	S
+13l1l6	Phénol	S
+
+#Les résultats des analyses ont montré:
+
+
+#- la présence d'éléments métalliques à des teneurs supérieurs aux VDSS mais inférieurs aux VCI us sens en 7 endroits
+
+15l1l0	éléments_métalliques	S
+15l1l1	VDSS	S
+
+#- la présence d'hydrocarbures totaux à des teneurs supérieurs à la VCI us sens dans l'ancien atelier des forges
+
+16l0l0	forges	A
+16l1l0	hydrocarbures_totaux	S
+
+#- des teneurs en HAP, COV, PCB, CN, Phénols très faibles voire inférieures aux seuils de détection analytiques.
+
+17l1l0	HAP	S
+17l1l1	COV	S
+17l1l2	PCB	S
+17l1l3	CN	S
+17l1l4	Phénols	S
+
+#Les analyses de qualité d'air du sol ont montré l'absence de détection de composés.
+
+
+#Une évaluation simplifiée des risques a été menée en prenant deux usages possibles:
+
+19l0l0	Une_évaluation_simplifiée_des_risques	N
+19l0l1	a_été_menée	N
+
+#- usage actuel (friche)
+
+
+#- usage industriel
+
+
+#Le classement du site est en classe 2 pour la situation actuelle et en classe 1 (si contact avec les hydrocarbures présents en surface sur les sols).
+
+22l1l0	hydrocarbures	S
+
+#Si les sols présentant des traces d'hydrocarbures sont nettoyés ou recouverts le site est en classe 2 pour un usage industriel.
+
+23l0l0	d__hydrocarbures	O
+23l0l1	sont_nettoyés	N
+23l0l2	recouverts	N
+23l0l3	le_site	O
+23l0l4	un_usage_industriel	A
+23l1l0	hydrocarbures	S
+
+#En 2006, 3 piézomètres ont été implantés sur le site.
+
+24l0l0	En_2006__	T
+24l0l1	3_piézomètres	O
+24l0l2	ont_été_implantés	N
+
+#La première campagne de mesure montre des valeurs inférieures aux VCI us non sens.
+
+
+#Suite à la visite de l'inspection des installations classées en 2007, des travaux de nettoyage complémentaires ont été menés en juin 2008 et février 2009.
+
+26l0l0	Suite	R
+26l0l1	à_la_visite	N
+26l0l2	de_l__inspection_des_installations_classées	O
+26l0l3	en_2007__	T
+26l0l4	des_travaux_de_nettoyage	N
+26l0l5	complémentaires	O
+26l0l6	ont_été_menés	N
+26l0l7	en_juin_2008_et_février_2009__	T
+
+#En 2010 , la société HPC envirotec a effectué une évaluation quantitative des risques sanitaires.
+
+27l0l0	En_2010	T
+27l0l1	la_société_HPC_envirotec	O
+27l0l2	a_effectué	N
+27l0l3	une_évaluation_quantitative	N
+27l1l0	la_société_HPC_envirotec	I

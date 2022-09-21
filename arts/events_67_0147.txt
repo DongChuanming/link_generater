@@ -1,0 +1,203 @@
+
+#67.0147
+#La société WAGRAM TERMINAL a été autorisée par arrêté du 25 janvier 2013 à reprendre une partie du dépôt d’hydrocarbures exploité précédemment par la société PETROPLUS RAFFINAGE REICHSTETT à Reichstett.
+
+0l0l0	La_société_WAGRAM_TERMINAL	O
+0l0l1	a_été_autorisée_par_arrêté	N
+0l0l2	du_25_janvier_2013	T
+0l0l3	reprendre	N
+0l0l4	une_partie_du_dépôt_d__hydrocarbures	O
+0l0l5	exploité_précédemment	N
+0l0l6	la_société_PETROPLUS	O
+0l0l7	RAFFINAGE_REICHSTETT	O
+0l0l8	à_Reichstett	L
+0l1l0	La_société_WAGRAM_TERMINAL	I
+0l1l1	dépôt_d_	D
+0l1l2	hydrocarbures	S
+0l1l3	la_société_PETROPLUS_RAFFINAGE_REICHSTETT	I
+
+#La capacité de stockage des hydrocarbures est de 400 000 tonnes.
+
+1l0l0	La_capacité_de_stockage_des_hydrocarbures	O
+1l1l0	hydrocarbures	S
+
+#Le site est classé Seveso seuil haut au titre de la rubrique 1432 (stockage de liquides inflammables) de la nomenclature des installations classées.
+
+2l0l0	Le_site	O
+2l0l1	est_classé_Seveso	N
+2l1l0	liquides_inflammables	U
+
+#Depuis la reprise du site, l’exploitant a effectué de nombreux travaux de mise en conformité de ses installations et de caractérisation des pollutions présentes sur son site.
+
+3l0l0	Depuis	T
+3l0l1	la_reprise	N
+3l0l2	du_site	O
+3l0l3	l__exploitant	O
+3l0l4	a_effectué	N
+3l0l5	de_nombreux_travaux_de_mise_en_conformité	N
+3l0l6	ses_installations	N
+3l0l7	caractérisation_des_pollutions	N
+3l0l8	présentes_sur_son_site	N
+
+#Un arrêté du 24 janvier 2014 a demandé à l’exploitant de définir une stratégie globale de dépollution et la réalisation d’investigations complémentaires pour caractériser au mieux les pollutions.
+
+4l0l0	Un_arrêté_du	O
+4l0l1	24_janvier_2014	T
+4l0l2	a	N
+4l0l3	l__exploitant	O
+4l0l4	de_définir	N
+4l0l5	une_stratégie	O
+4l0l6	globale_de_dépollution	N
+4l0l7	la_réalisation_d__investigations_complémentaires	N
+
+#Le site WAGRAM dispose de 3 réseaux piézométriques qui ont fait l’objet d’analyses mensuelles pendant plus d’un an :
+
+5l0l0	Le_site_WAGRAM	O
+5l0l1	ont_fait_l__objet_d_	R
+5l0l2	d_	N
+5l0l3	un_an	T
+
+#- le réseau AMONT PIEZOMETRIQUE : toutes les analyses effectuées sur les prélèvements d’eau provenant du réseau de contrôle en limite foncière AMONT (ouest) sont inférieures au seuil de détection analytique.
+
+6l0l0	contrôle_en_limite	L
+6l0l1	foncière_AMONT	O
+6l0l2	__ouest	L
+6l1l0	PIEZOMETRIQUE	I
+
+#Le réseau piézométrique amont hydraulique n’est pas impacté par les pollutions recherchées.
+
+
+#- Le réseau de surveillance dit « d’Alerte » est constitué de 8 piézomètres : les analyses effectuées à partir de prélèvement d’eau provenant des piézomètres d’alerte sont toutes inférieures aux seuils de détection analytique pour les hydrocarbures de coupes C5-C40.
+
+8l0l0	Le_réseau_de_surveillance_dit	O
+8l1l0	pour_les_hydrocarbures	S
+
+#Des traces de benzène ont été détectées sur un seul ouvrage le Pz14.
+
+9l0l0	ont_été_détectées	N
+9l1l0	benzène	S
+
+#- Le réseau AVAL PIEZOMETRIQUE (limite foncière) dit réseau de potabilité est constitué de 6 piézomètres  : les analyses effectuées à partir de prélèvements d’eau provenant des piézomètres de réseau de surveillance dit de « potabilité » sont inférieures au seuil de détection analytique pour les hydrocarbures C5-C40 et pour le benzène.
+
+10l0l0	Le_réseau_AVAL_PIEZOMETRIQUE	O
+10l0l1	6_piézomètres	O
+10l1l0	PIEZOMETRIQUE	I
+10l1l1	pour_les_hydrocarbures	S
+10l1l2	pour_le_benzène	S
+
+#Des traces d’éthyl tertio butyl éther (ETBE) ont été détectées.
+
+11l0l0	ont_été_détectées	N
+11l1l0	traces_d__éthyl_tertio_butyl_éther	S
+11l1l1	ETBE	S
+
+#Sources de pollution identifiées en lien avec les pollutions historiques connues :
+
+
+#Il existe plusieurs typologies de sources de pollution  :
+
+
+#- secteur Sud Ouest avec les zones bitume / gare routière / cuvette 6B : sources constituées d’un mélange de gasoil (GO) et d’essence avec additifs (ETBE en particulier) qui peuvent être reliées a minima avec la ou les fuites d’hydrocarbures signalées au Nord de la gare routière en 1993 ;
+
+14l0l0	secteur_Sud_Ouest	L
+14l0l1	les_zones_bitume	O
+14l0l2	signalées_au_Nord_de_la_gare_routière	L
+14l0l3	en_1993	T
+14l1l0	de_gasoil___GO	S
+14l1l1	d__essence	S
+14l1l2	avec_additifs	U
+14l1l3	__ETBE	S
+14l1l4	ou_les_fuites_d__hydrocarbures	U
+
+#- cuvette 9A et pomperie Nord : plusieurs sources, impliquant de l’ETBE autour du bac T490 et de l’essence autour du bac T491 qui peuvent être reliées a minima au déversement d’hydrocarbures aromatiques signalé au niveau des bacs T490 et T491 en 2003 ;
+
+15l0l0	pomperie_Nord	O
+15l0l1	de_l__ETBE	O
+15l0l2	de_l__essence	O
+15l0l3	au_déversement	N
+15l0l4	T491_en_2003	T
+15l1l0	l__ETBE	I
+15l1l1	l__essence	S
+15l1l2	d__hydrocarbures	S
+
+#-  au nord de la cuvette 9A : plusieurs sources, impliquant du kérosène autour du piézomètre  PzNS3, du benzène voire du GO dont le lien avec la pollution de 2001 n’est pas confirmé ;
+
+16l0l0	__au_nord_de_la_cuvette_9A	L
+16l0l1	____plusieurs_sources	O
+16l0l2	du_kérosène	O
+16l1l0	kérosène	S
+16l1l1	__du_benzène_voire_du	S
+
+#- gare ferroviaire : source impliquant de l’essence et de l’ETBE (voire de l’additif  MTBE) ;
+
+17l1l0	de_l__essence	U
+17l1l1	de_l__ETBE	U
+17l1l2	de_l__additif	U
+17l1l3	__MTBE	I
+
+#- cuvette 9B : source autour du bac T495 impliquant de l’essence avec additif (ETBE en particulier) qui peut être relié avec le débordement d’essence du bac d’essence T495 en 2011
+
+18l0l0	de_l__essence	O
+18l0l1	avec_le_débordement_d__essence	A
+18l0l2	T495_en_2011	T
+18l1l0	de_l__essence	U
+18l1l1	avec_additif	U
+18l1l2	__ETBE	S
+18l1l3	le_débordement_d__essence	U
+18l1l4	d__essence	S
+
+#- bac 3506 : source constituée d’un mélange d’essence et de GO qui ne peut être reliée à aucune pollution historique connue
+
+19l1l0	d__essence	S
+
+#- sud cuvette 7 (bac T477) et déshuileur : source impliquant du GO essentiellement.
+
+20l0l0	déshuileur	O
+
+#Les sources principales identifiées semblent correspondre à des fuites chroniques liées à l’exploitation plutôt qu’aux fuites accidentelles.
+
+21l0l0	Les_sources	O
+
+#Analyse des sources en fonction de leur impact en dissous sur les eaux souterraines :
+
+
+#Les pollutions associées au GO (marqueur hydrocarbures C10-C40) et à l’essence présentent des impacts en éléments dissous d’extension limitée vers l’aval.
+
+23l0l0	aval	L
+23l1l0	GO	S
+23l1l1	marqueur_hydrocarbures_C10_C40__	S
+23l1l2	essence	S
+
+#Il n’est en effet pas observé de dégradation de la qualité de l’eau pour ces paramètres dans les piézomètres d’alerte.
+
+
+#La dégradation de la qualité des eaux vers l’aval hydrogéologique est constatée vis-à-vis du benzène et de l’ETBE / MTBE.
+
+25l0l0	la_qualité_des_eaux	O
+25l0l1	vers_l__aval_hydrogéologique	N
+25l1l0	benzène	S
+25l1l1	l__ETBE	S
+25l1l2	MTBE	S
+
+#Ce sont donc les pollutions impliquant majoritairement de l’essence et des additifs (essences légères, aromatiques purs, essence avec additif ou additif pur) qui sont les plus problématiques vis-à-vis du risque de dégradation de la qualité des eaux en limite aval du site : le benzène est le marqueur principal compte tenu de l’objectif de potabilité de 1µg/l en limite du site qui est à ce jour respecté.
+
+26l0l0	en_limite_aval_du_site	L
+26l0l1	est_à_ce_jour	T
+26l1l0	majoritairement_de_l__essence	U
+26l1l1	additifs	U
+26l1l2	essence	S
+26l1l3	additif	U
+26l1l4	additif_pur	I
+26l1l5	le_benzène	S
+
+#Les plus fortes concentrations en ETBE dissous localisées au niveau de la cuvette 9A (et pomperie Nord) et les plus fortes concentrations en benzène dissous provenant de la zone Nord (propriété Petroplus) qui sont dans les deux cas les plus proches de la limite aval du site, constituent visiblement les principales sources d’alimentation en éléments dissous.
+
+27l0l0	Les_plus_fortes_concentrations	O
+27l0l1	localisées_au_niveau_de_la_cuvette_9A___et_pomperie_Nord	L
+27l0l2	la_zone_Nord	O
+27l0l3	propriété_Petroplus	O
+27l0l4	plus_proches_de_la_limite_aval_du_site	L
+27l1l0	ETBE_dissous	S
+27l1l1	benzène_dissous	S
+27l1l2	Petroplus	S
+27l1l3	éléments	U

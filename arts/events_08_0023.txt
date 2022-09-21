@@ -1,0 +1,166 @@
+
+#08.0023
+#IDEAL STANDARD FRANCE (ex PORCHER puis SANIFRANCE puis AMERICAN STANDARD) exploite à REVIN une usine comportant des ateliers de fonderie, d'émaillerie et de céramique.
+
+0l0l0	IDEAL_STANDARD_FRANCE	O
+0l0l1	PORCHER	O
+0l0l2	SANIFRANCE	O
+0l0l3	AMERICAN_STANDARD	O
+0l0l4	__exploite_à	R
+0l0l5	REVIN	O
+0l0l6	une_usine	O
+0l0l7	comportant	R
+0l0l8	des_ateliers_de_fonderie	A
+0l0l9	émaillerie	A
+0l0l10	céramique	A
+0l1l0	IDEAL_STANDARD_FRANCE	I
+0l1l1	PORCHER_puis_SANIFRANCE	I
+0l1l2	AMERICAN_STANDARD	I
+
+#L'établissement fabrique essentiellement des baignoires et des sanitaires.
+
+
+#Une décharge a été exploitée par la société IDEAL STANDARD FRANCE sur la rive gauche de la Meuse sur une superficie de 2 ha.
+
+2l0l0	Une_décharge	O
+2l0l1	a_été_exploitée	N
+2l0l2	la_société_IDEAL_STANDARD_FRANCE	O
+2l0l3	sur_la_rive_gauche_de_la_Meuse	L
+2l0l4	2_ha	O
+2l1l0	la_société_IDEAL_STANDARD_FRANCE	I
+
+#Cette décharge a été mise à l'arrêt en 1999.
+
+3l0l0	Cette_décharge	O
+3l0l1	a_été_mise_à_l__arrêt	N
+3l0l2	en_1999__	T
+
+#Sur proposition de l'inspection des installations classées, le préfet du département des Ardennes a demandé à la société SANIFRANCE de fournir un dossier de calcul des garanties financières de cette décharge.
+
+4l0l0	le_préfet_du_département_des_Ardennes	O
+4l0l1	a_demandé	N
+4l0l2	la_société_SANIFRANCE	O
+4l0l3	un_dossier	O
+4l0l4	cette_décharge	O
+4l1l0	le_préfet_du_département_des_Ardennes	I
+4l1l1	la_société_SANIFRANCE	I
+
+#Ce dossier a été remis à l'inspection des installations classées en avril 1999.
+
+5l0l0	Ce_dossier	O
+5l0l1	a_été_remis	N
+5l0l2	l__inspection_des_installations_classées	O
+5l0l3	en_avril_1999__	T
+
+#Il concluait à la nécessité de réaliser plusieurs mesures de mise en sécurité du site et préconisait la mise en place d'une surveillance des eaux souterraines.
+
+6l0l0	préconisait	R
+6l0l1	la_mise_en_place_d_	N
+6l0l2	une_surveillance_des_eaux_souterraines	A
+
+#L'inspection des installations classées a demandé par courriers du 15 juillet 1999 et du 26 janvier 2000 à la société SANIFRANCE de conduire des investigations complémentaires et en cas de poursuite de la décharge de fournir l'acte de cautionnement des garanties financières.
+
+7l0l0	L__inspection_des_installations_classées	O
+7l0l1	a_demandé_par_courriers	N
+7l0l2	du_15_juillet_1999_et_du_26_janvier_2000	T
+7l0l3	la_société_SANIFRANCE	O
+7l0l4	de_conduire_des_investigations_complémentaires	N
+7l0l5	en_cas_de	R
+7l0l6	la_décharge	O
+7l0l7	l__acte_de_cautionnement_des_garanties_financières	O
+7l1l0	la_société_SANIFRANCE	I
+
+#L'exploitant a cessé les apports de déchets industriels dès 1999 et a réalisé une évaluation simplifiée des risques en mai 2001 qui conclut au classement du site en classe 1 c'est à dire site nécessitant des investigations complémentaires (soit un diagnostic approfondi et une évaluation détaillée des risques).
+
+8l0l0	L__exploitant	O
+8l0l1	a_cessé	N
+8l0l2	les_apports_de_déchets_industriels	O
+8l0l3	dès_1999	T
+8l0l4	a_réalisé	N
+8l0l5	une_évaluation_simplifiée_des_risques	N
+8l0l6	en_mai_2001	T
+8l0l7	un_diagnostic_approfondi	N
+8l0l8	une_évaluation_détaillée_des_risques	N
+8l1l0	déchets_industriels	U
+
+#Les eaux souterraines font apparaîte la présence de plomb, de nickel, de chrome, de cobalt, de manganèse et aussi d'hydrocarbures.
+
+9l0l0	Les_eaux_souterraines	O
+9l1l0	plomb	S
+9l1l1	nickel	S
+9l1l2	chrome	S
+9l1l3	cobalt	S
+9l1l4	manganèse	S
+9l1l5	hydrocarbures	S
+
+#Une surveillance des eaux souterraines est réalisée depuis 2001.
+
+10l0l0	Une_surveillance_des_eaux_souterraines	A
+10l0l1	est_réalisée	N
+10l0l2	depuis_2001	T
+
+#En octobre 2002, il a été indiqué que la mairie de Revin projetait d'implanter sur l'emprise de cette décharge le centre d'incendie et de secours de la ville.
+
+11l0l0	En_octobre_2002__	T
+11l0l1	la_mairie	O
+11l0l2	de_Revin	L
+11l0l3	projetait	N
+11l0l4	d__implanter	N
+11l0l5	le_centre_d__incendie_et_de_secours	O
+
+#Des études préalable de stabilité des terrains ont été engagées.
+
+12l0l0	Des_études_préalable_de_stabilité_des_terrains	O
+12l0l1	ont_été_engagées	N
+
+#En 2004, la mairie décide d'implanter le centre d'incendie et de secours sur un autre site.
+
+13l0l0	En_2004__	T
+13l0l1	la_mairie	O
+13l0l2	décide	R
+13l0l3	d__implanter	N
+13l0l4	le_centre_d__incendie_et_de_secours	O
+13l0l5	sur_un_autre_site	L
+
+#Aucune réutilisation du site à moyen terme n'étant envisagée, suite à une proposition de l'inspection des installations classées, le Préfet des Ardennes a prescrit, le 8 octobre 2004, par arrêté complémentaire, une surveillance des eaux souterraines ainsi que la réalisation d'un diagnostic approfondi et d'une évaluation détaillée des risques.
+
+14l0l0	Aucune_réutilisation	O
+14l0l1	site	O
+14l0l2	l__inspection_des_installations_classées	O
+14l0l3	le_Préfet_des_Ardennes	O
+14l0l4	a_prescrit	N
+14l0l5	le_8_octobre_2004__	T
+14l0l6	une_surveillance_des_eaux_souterraines	A
+14l0l7	ainsi_que	R
+14l0l8	la_réalisation_d__un_diagnostic_approfondi	N
+14l0l9	évaluation_détaillée_des_risques	N
+14l1l0	le_Préfet_des_Ardennes	I
+
+#L’évaluation détaillée des risques a été remise à l’inspection des installations classées en janvier 2006.
+
+15l0l0	évaluation_détaillée_des_risques	O
+15l0l1	a_été_remise	N
+15l0l2	l__inspection_des_installations_classées	O
+15l0l3	en_janvier_2006__	T
+
+#Celle-ci conclut :
+
+
+#- que l’utilisation du site est compatible avec un usage industriel,
+
+17l0l0	usage_industriel	A
+
+#- à l’absence de risque pour les écosystèmes faisant l’objet de statut de protection compte tenu des faibles concentrations de polluants retrouvés dans le fleuve,
+
+18l1l0	polluants	S
+
+#- que les captages d’eau ne sont pas vulnérables à la pollution issue du site car les eaux souterraines s’écoulent vers la Meuse où la pollution est diluée.
+
+19l0l0	vers_la_Meuse	L
+
+#Jusqu’alors, l’exploitant n’a aucun projet concret de réutilisation ou de vente du site.
+
+20l0l0	l__exploitant	O
+20l0l1	réutilisation	N
+20l0l2	de_vente	N
+20l0l3	site	O

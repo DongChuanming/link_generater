@@ -1,0 +1,260 @@
+
+#40.0059
+#Scierie avec traitement du bois exploitée par la société GWP sur la commune d'Escource (40).
+
+0l0l0	Scierie_avec_traitement_du_bois	A
+0l0l1	exploitée_par	R
+0l0l2	la_société_GWP	O
+0l0l3	sur_la_commune_d__Escource___40__	L
+0l1l0	la_société_GWP	I
+
+#Cette installation a été autorisée par l'arrêté préfectoral du 29 juillet 1991 délivrée aux Etablissements LHOSPITAL.
+
+1l0l0	Cette_installation	O
+1l0l1	a_été_autorisée_par	R
+1l0l2	l__arrêté_préfectoral	O
+1l0l3	du_29_juillet_1991	T
+1l0l4	Etablissements_LHOSPITAL	O
+1l1l0	Etablissements_LHOSPITAL	I
+
+#Plusieurs exploitants se sont succédés sur ce site : Espiet, Escobois et, depuis le 21 février 2006, la société GASCOGNE WOOD et, depuis le 1er février 2008, par GWP.
+
+2l0l0	Plusieurs_exploitants	O
+2l0l1	se_sont_succédés	N
+2l0l2	sur_ce_site	L
+2l0l3	Espiet	O
+2l0l4	depuis_le_21_février_2006__	T
+2l0l5	la_société_GASCOGNE_WOOD	O
+2l0l6	depuis_le_1er_février_2008__	T
+2l0l7	GWP	O
+2l1l0	Espiet	I
+2l1l1	la_société_GASCOGNE_WOOD	I
+2l1l2	GWP	I
+
+#Les cours d'eau proches du site sont :
+
+
+#- le Capcos qui prend sa source à 100 m à l'ouest du site à proximité de la sortie des eaux pluviales du site,
+
+4l0l0	à_100_m_à_l__ouest_du_site	L
+4l0l1	à_proximité_de_la_sortie_des_eaux	L
+
+#- l'Escource à 500 m au nord-est du site.
+
+5l0l0	l__Escource	O
+5l0l1	à_500_m_au_nord_est_du_site	L
+
+#Le ruisseau l'Escource est utilisé pour la pisciculture (Pont de Couailles) en aval.
+
+6l0l0	Escource	L
+6l0l1	utilisé_pour	R
+6l0l2	la_pisciculture	A
+6l0l3	Pont_de_Couailles	L
+6l0l4	en_aval	L
+
+#Le site est implanté au droit d'une nappe superficielle (sables grossiers et gravillons du Quaternaire) qui est vulnérable au pollution de surface.
+
+7l0l0	Le_site	O
+7l0l1	est_implanté_au_droit_d__une_nappe	L
+
+#Elle s'écoule vers l'ouest.
+
+8l0l0	vers_l__ouest	L
+
+#La nappe sous-jacente du Miocène est particulièrement bien protégée des pollutions de la nappe superficielle par une couche épaisse et peu perméable de marnes.
+
+
+#1 - DIAGNOSTIC
+
+10l0l0	DIAGNOSTIC	N
+
+#Dans le cadre de l'action collective "diagnostic des scieries avec traitement des bois" lancée en 2003 par la DRIRE, l'arrêté préfectoral du 02 avril 2003 prescrit le diagnostic initial et l'évaluation simplifiée des risques (ESR) du site.
+
+11l0l0	Dans_le_cadre_de	R
+11l0l1	diagnostic	N
+11l0l2	scieries_avec_traitement_des_bois	A
+11l0l3	en_2003	T
+11l0l4	la_DRIRE	O
+11l0l5	l__arrêté_préfectoral	O
+11l0l6	du_02_avril_2003	T
+11l0l7	prescrit	R
+11l0l8	le_diagnostic_initial	N
+11l0l9	l__évaluation_simplifiée_des_risques	N
+11l1l0	la_DRIRE	I
+
+#L'étape A a été remise en janvier 2004 et l'étape B le 7 juillet 2005.
+
+12l0l0	L__étape_A	O
+12l0l1	a_été_remise	N
+12l0l2	en_janvier_2004	T
+12l0l3	l__étape_B	O
+12l0l4	le_7_juillet_2005__	T
+
+#Le diagnostic des sols a mis en évidence :
+
+13l0l0	Le_diagnostic_des_sols	N
+
+#- une pollution aux hydrocarbures autour du poste de distribution,
+
+14l0l0	hydrocarbures	O
+14l0l1	autour_du_poste	L
+14l1l0	hydrocarbures	S
+
+#- la détection de PCP dans deux sondages à des teneurs largement inférieures aux valeurs guides,
+
+15l1l0	PCP	S
+
+#- l'absence de détection du TCMTB, carbendazime et azaconazole qui sont contenus dans les produits de traitement du bois.
+
+16l0l0	TCMTB	O
+16l0l1	traitement_du_bois	A
+16l1l0	TCMTB	S
+16l1l1	carbendazime	S
+16l1l2	azaconazole	S
+16l1l3	les_produits	U
+
+#Aucune des substances recherchées ne sont détectées dans les piézomètres.
+
+
+#Le site est classé en catégorie 2 "à surveiller" pour les milieux "eaux souterraines, autre usage que AEP (Alimentation en Eau Potable)" et "eaux de surface, autre usage que AEP" et pour l'état et l'usage du moment.
+
+18l0l0	Le_site	O
+18l0l1	autre_usage_que_AEP	A
+
+#2 - TRAVAUX
+
+19l0l0	TRAVAUX	N
+19l1l0	TRAVAUX	I
+
+#Le diagnostic du sol de l'ESR a mis en évidence une pollution aux hydrocarbures.
+
+20l0l0	Le_diagnostic_du_sol	N
+20l0l1	l__ESR	O
+20l0l2	a_mis_en_évidence	R
+20l0l3	une_pollution	N
+20l0l4	hydrocarbures	O
+20l1l0	l__ESR	I
+20l1l1	hydrocarbures	S
+
+#En réponse, l'exploitant a fait extraire 15 tonnes de terres souillées en juillet 2005 qui ont été mises en décharge de classe 1.
+
+21l0l0	l__exploitant	O
+21l0l1	a_fait_extraire	N
+21l0l2	15_tonnes_de_terres_souillées	O
+21l0l3	en_juillet_2005	T
+21l0l4	ont_été_mises_en_décharge	N
+21l0l5	classe_1__	O
+
+#3 - ACCIDENT
+
+
+#Un incendie a été déclaré le 11 février 2011 sur le site.
+
+23l0l0	Un_incendie_a_été_déclaré	N
+23l0l1	le_11_février_2011	T
+
+#Une machine a pris feu au redémarrage de la ligne Scierie GB.
+
+24l0l0	Une_machine	O
+24l0l1	a_pris_feu_au_redémarrage_de	N
+24l0l2	la_ligne	N
+24l0l3	Scierie_GB	O
+24l1l0	Scierie	I
+
+#Le feu a été rapidement maîtrisé par les pompiers et il n'y a pas eu d'impact sur l'environnement du site.
+
+25l0l0	Le_feu_a_été_rapidement_maîtrisé	N
+25l0l1	les_pompiers	O
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+26l0l0	SURVEILLANCE_DES_EAUX	A
+26l0l1	SOUTERRAINES	O
+26l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 a) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines par référence à la rubrique 2415 (traitement du bois) de la nomenclature des Installations classées pour la Protection de l'Environnement.
+
+27l0l0	Ce_site	O
+27l0l1	est_soumis_à	R
+27l0l2	l_	O
+27l0l3	2_février_1998	T
+27l0l4	la_surveillance_des_eaux_souterraines	A
+27l0l5	traitement_du_bois	A
+27l0l6	Installations_classées_pour_la_Protection	O
+
+#Par arrêté préfectoral du 2 avril 2003, les prescriptions concernant la surveillance des eaux souterraines sont les suivantes :
+
+28l0l0	Par_arrêté_préfectoral	O
+28l0l1	du_2_avril_2003__	T
+28l0l2	les_prescriptions	O
+28l0l3	la_surveillance_des_eaux_souterraines	A
+
+#- mise en place de 3 piézomètres;
+
+29l0l0	mise_en_place	N
+29l0l1	de_3_piézomètres	O
+
+#- les paramètres à analyser sont représentatifs des activités et des produits utilisés sur le site;
+
+
+#- le niveau piézométrique de la nappe est relevé à chaque campagne;
+
+31l0l0	est_relevé_à_chaque_campagne	N
+
+#- la fréquence des campagnes d'analyses est semestrielle.
+
+32l0l0	campagnes_d__analyses	N
+
+#Un troisième puits de contrôle PZ3 a été créé suite une visite d'inspection du 07 septembre 2005.
+
+33l0l0	Un_troisième_puits_de_contrôle_PZ3	O
+33l0l1	a_été_créé	N
+33l0l2	suite	R
+33l0l3	une_visite_d__inspection	N
+33l0l4	du_07_septembre_2005__	T
+
+#Le réseau de piézomètres est constitué : de Pz2 à l'amont du site, de Pz1 et Pz3 à l'aval.
+
+34l0l0	Le_réseau_de_piézomètres	O
+34l0l1	amont_du_site	L
+
+#Les produits utilisés ont été changés en 2006 et en 2008.
+
+35l0l0	Les_produits_utilisés	O
+35l0l1	ont_été_changés	N
+35l0l2	en_2006_et_en_2008__	T
+
+#Le produit utilisé avant 2006 contenait les substances suivantes : TCMTB et carbendazime.
+
+36l0l0	Le_produit_utilisé	O
+36l0l1	avant_2006	T
+36l1l0	les_substances	U
+36l1l1	TCMTB	S
+36l1l2	carbendazime	S
+
+#Le traceur des produits utilisés après 2006 est le propiconazole.
+
+37l0l0	après_2006	T
+37l1l0	propiconazole	S
+
+#Le TCMTB et carbendazime n'ont plus été analysés à partir de novembre 2009, car ces substances n'ont pas été détectées.
+
+38l0l0	Le_TCMTB	O
+38l0l1	n__ont_plus_été_analysés	N
+38l0l2	à_partir_de_novembre_2009__	T
+38l1l0	Le_TCMTB	S
+38l1l1	carbendazime	S
+
+#Rapport des analyses piézométriques de mars 2013 :
+
+39l0l0	analyses_piézométriques	N
+39l0l1	mars_2013	T
+
+#- plus de traces de propiconazole sur le Pz2(amont) et le Pz3 (aval),
+
+40l1l0	propiconazole	S
+40l1l1	le_Pz2_amont	I
+
+#- sur le Pz1 (aval) : teneur propiconazole (17 ug/l) > valeur limite (2 ug/l).
+
+41l1l0	propiconazole	S

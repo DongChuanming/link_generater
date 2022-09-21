@@ -1,0 +1,310 @@
+
+#21.0058
+#Depuis 1878 et jusque dans les années 1960, la PLM (Paris Lyon Marseille) puis la SNCF ont exploité un atelier de créosotage  situé sur le territoire de la commune de Collonges les Premières.
+
+0l0l0	Depuis_1878_et_jusque_dans_les_années_1960	T
+0l0l1	la_PLM	O
+0l0l2	la_SNCF	O
+0l0l3	ont_exploité	N
+0l0l4	un_atelier_de	O
+0l0l5	créosotage	A
+0l0l6	__situé_sur_le_territoire_de_la_commune_de_Collonges_les_Premières	L
+0l1l0	la_PLM	I
+
+#La créosote est distillée à partir du goudron brut produit dans un four à coke.
+
+1l0l0	goudron	O
+1l1l0	La_créosote	U
+1l1l1	goudron_brut	U
+1l1l2	coke	U
+
+#Elle est essentiellement composée d'hydrocarbures aromatiques polycycliques (HAP), mais ses propriétés proviennent aussi des phénols et crésols qu'elle contient.
+
+2l1l0	Elle	S
+2l1l1	hydrocarbures_aromatiques_polycycliques	S
+2l1l2	HAP	S
+2l1l3	phénols	S
+2l1l4	crésols	S
+
+#La créosote de goudron de houille est un liquide noir ou ambré, malodorant, épais et huileux.
+
+3l1l0	La_créosote_de_goudron_de_houille	U
+
+#Il a été le conservateur du bois le plus utilisé dans le monde, principalement pour les poteaux téléphoniques et les traverses de chemin de fer ou des bois de marine.
+
+4l0l0	les_poteaux_téléphoniques	O
+4l0l1	bois_de_marine	O
+
+#Depuis la cessation d'activité dans les années 60, le site a été morcelé puis soit vendu à la commune ou à des tiers, soit reversé au patrimoine de RFF (Réseau Ferré de France) lors de sa création en 1997.
+
+5l0l0	Depuis	T
+5l0l1	la_cessation_d__activité	N
+5l0l2	dans_les_années_60	T
+5l0l3	le_site	O
+5l0l4	a_été_morcelé_puis_soit_vendu_à	R
+5l0l5	la_commune	O
+5l0l6	RFF	O
+5l0l7	Ferré	L
+5l0l8	de_France	O
+5l0l9	lors	T
+5l0l10	de_sa_création	N
+5l0l11	en_1997__	T
+5l1l0	RFF___Réseau_Ferré_de_France	I
+
+#En 2008, dans le cadre d'un projet d'urbanisme visant le réaménagement de la zone de la gare, la commune a fait réaliser un diagnostic environnemental du site.
+
+6l0l0	En_2008__	T
+6l0l1	dans_le_cadre_d_	R
+6l0l2	un_projet_d__urbanisme	N
+6l0l3	visant	R
+6l0l4	le_réaménagement	N
+6l0l5	la_zone	O
+6l0l6	la_gare	O
+6l0l7	la_commune	O
+6l0l8	a_fait_réaliser	N
+6l0l9	un_diagnostic_environnemental	N
+
+#Celui-ci a mis en avant la présence d'une pollution des sols, et de la nappe, par des produits de conservation du bois de type créosote.
+
+7l0l0	pollution_des_sols	O
+7l0l1	des_produits_de	O
+7l0l2	conservation_du_bois	A
+7l0l3	créosote	O
+7l1l0	créosote	U
+
+#La superficie totale des parcelles cadastrales concernées est d'environ 15.5 hectares.
+
+
+#Contexte hydrologique:
+
+
+#Aux abords de la zone d'étude se trouve le ruisseau des Carennes à environ 200 m au Nord-Est.
+
+10l0l0	Aux_abords_de	L
+10l0l1	la_zone_d__étude	O
+10l0l2	se_trouve	R
+10l0l3	le_ruisseau_des_Carennes	O
+10l0l4	à_environ_200_m_au_Nord_Est	L
+
+#Les ruisseaux "le Crône" et le "Castereau" se situent à environ 1200 mètres.
+
+11l0l0	Les_ruisseaux___le_Crône	O
+11l0l1	situent_à_environ_1200_mètres	L
+11l1l0	le_Crône	I
+11l1l1	_	S
+
+#Les 3 ruisseaux susvisés se jettent dans la rivière "La Tille".
+
+12l0l0	jettent_dans_la_rivière___La_Tille__	L
+
+#Il est à noter la présence en limite du site de l'étang du "Creux de Chien" qui est lié aux eaux souterraines.
+
+13l0l0	en_limite_du_site	L
+13l0l1	l__étang	O
+13l0l2	__Creux_de_Chien	L
+
+#Contexte hydrogéologique:
+
+
+#Les principales ressources en eau sont les alluvions de la Tille constitués de 2 aquifères distincts ( un superficiel et un plus profond semi-captif).
+
+15l0l0	la_Tille	L
+15l0l1	2_aquifères	O
+
+#L'aquifère superficiel au droit du site constitue une ressource potentiellement vulnérable à l'égard d'une pollution à la créosote.
+
+16l0l0	créosote	O
+16l1l0	créosote	U
+
+#Usage de l'eau:
+
+17l0l0	Usage	O
+
+#1 captage d'alimentation en eau potable a été recensé dans un rayon de 5 km autour du site: le captage de Treclun.
+
+18l0l0	1_captage	O
+18l0l1	a_été_recensé	N
+18l0l2	dans_un_rayon_de_5_km_autour_du_site	L
+18l0l3	le_captage_de_Treclun	L
+18l1l0	Treclun	I
+
+#Plus de 50 captages à usages agricoles ont été recensés dans un rayon de 5 km autour du site.
+
+19l0l0	Plus	R
+19l0l1	de_50_captages	O
+19l0l2	à_usages_agricoles	O
+19l0l3	ont_été_recensés	N
+19l0l4	dans_un_rayon_de_5_km_autour_du_site	L
+
+#Ils sont tous considérés comme potentiellement vulnérables vis-à-vis du passif environnemental du site.
+
+
+#Il a été rapporté des odeurs d'hydrocarbures sur certains privés; A noter que certains habitants avaient/ont un usage de leur puits pour le remplissage de piscine.
+
+21l0l0	d__hydrocarbures	O
+21l0l1	certains_privés	O
+21l0l2	certains_habitants	O
+21l0l3	avaient___ont	R
+21l0l4	un_usage	N
+21l0l5	leur_puits	O
+21l0l6	remplissage_de_piscine	A
+21l1l0	hydrocarbures	S
+
+#A ce jour, le problème de la responsabilité du site est toujours d'actualité.
+
+22l0l0	A_ce_jour	T
+
+#La mairie de la commune a souhaité que le programme de l'ADEME prenne en compte ce site pollué mais ne peut financer un bureau d'étude dans cette perspective.
+
+23l0l0	La_mairie	O
+23l0l1	la_commune	O
+23l0l2	a	N
+23l0l3	le_programme	O
+23l0l4	l__ADEME	O
+23l0l5	prenne_en_compte	N
+23l0l6	ce_site_pollué	O
+23l0l7	financer_un_bureau_d__étude	O
+
+#La SNCF, quant à elle, dispose de la prescription trentenaire étant donné la cessation de toute activité depuis 1960.
+
+24l0l0	La_SNCF	O
+24l0l1	la_cessation_de_toute_activité	N
+24l0l2	depuis_1960	T
+24l1l0	La_SNCF	I
+
+#Deux campagnes de reconnaissance environnementale ont été réalisées en 2008 (une pour le compte de la commune de Collonges les Premières, l'autre pour le compte  d'une gestion immobilière d'entreprise).
+
+25l0l0	Deux_campagnes_de_reconnaissance_environnementale	N
+25l0l1	ont_été_réalisées	N
+25l0l2	en_2008	T
+25l0l3	une	O
+25l0l4	pour_le_compte_de	R
+25l0l5	la_commune	O
+25l0l6	de_Collonges_les_Premières	O
+25l0l7	le_compte___d_	R
+25l0l8	une_gestion_immobilière	O
+
+#Ces campagnes ont mis en évidence des teneurs anormales en hydrocarbures aromatiques polycycliques (HAP, composés potentiellement issus de l'exploitation de l'usine de créosotage) et en métaux (potentiellement liés à la présence dde mâchefers dans les remblais utilisés lors des différentes phases d'aménagement du site).
+
+26l0l0	Ces_campagnes	N
+26l0l1	créosotage	A
+26l0l2	les_remblais	N
+26l1l0	hydrocarbures_aromatiques_polycycliques	S
+26l1l1	HAP	S
+26l1l2	métaux	S
+
+#Les teneurs les plus importantes en HAP ont été retrouvées au droit de l'ancien site de créosotage.
+
+27l0l0	Les_teneurs	O
+27l0l1	ont_été_retrouvées	N
+27l0l2	au_droit_de_l_	L
+27l0l3	créosotage	O
+27l1l0	HAP	S
+
+#Les anomalies en métaux sont retrouvées sur la quasi-totalité du site.
+
+28l0l0	Les_anomalies	O
+
+#Suite à ces constats, un diagnostic approfondi a été réalisé pour le compte de la commune. les investigations se sont déroulées du 4 au 15 mai 2009 et le rapport a été transmis à l'inspection en août 2009.
+
+29l0l0	ces_constats	N
+29l0l1	un_diagnostic_approfondi	N
+29l0l2	a_été_réalisé	N
+29l0l3	pour_le_compte_de	R
+29l0l4	la_commune	O
+29l0l5	les_investigations	N
+29l0l6	se_sont_déroulées	N
+29l0l7	du_4_au_15_mai_2009	T
+29l0l8	le_rapport	O
+29l0l9	a_été_transmis	N
+29l0l10	l__inspection	O
+29l0l11	en_août_2009__	T
+
+#Ce diagnostic présentait 2 objectifs:
+
+30l0l0	Ce_diagnostic	N
+
+#- acquérir les données nécessaires à la réalisation de l'évaluation quantitative des risques sanitaires
+
+
+#- acquérir les éléments nécessaires pour préciser l'extension de la pollution.
+
+
+#Au total, 43 sondages ont été réalisés.
+
+
+#Ils ont été complétés de 5 piézomètres gaz (faible profondeur) pour les gaz des sols et 7 piézomètres (profondeur de 5 mètres) pour connaître la qualité des eaux souterraines .
+
+34l0l0	ont_été_complétés	N
+34l0l1	la_qualité_des_eaux_souterraines	O
+
+#Des prélèvements d'eau ont également été effectués au niveau de certains puits privés.
+
+35l0l0	Des_prélèvements_d__eau	O
+35l0l1	ont_également_été_effectués	N
+35l0l2	au_niveau_de	R
+35l0l3	certains_puits_privés	O
+
+#Au final, les résultats ont indiqué:
+
+
+#- pour les sols: des anomalies en HAP ont été identifiées au droit des anciens ateliers de créosotage.
+
+37l0l0	ont_été_identifiées	N
+37l0l1	au_droit_des_anciens	L
+37l0l2	ateliers_de_créosotage	O
+37l1l0	HAP	S
+
+#Ces anomalies en HAP s'accompagnent également d'anomalies en hydrocarbures totaux.
+
+38l0l0	HAP	O
+38l1l0	HAP	S
+38l1l1	hydrocarbures_totaux	S
+
+#- pour les eaux souterraines: les anomalies constatées pour les sols sont corrélées à celles sur les eaux souterraines, à savoir la présence de HAP principalement au droit des anciens ateliers de créosotage.
+
+39l0l0	HAP_principalement	O
+39l0l1	au_droit_des	L
+39l0l2	anciens_ateliers_de_créosotage	O
+39l1l0	HAP	S
+
+#- pour les gaz du sol: les prélèvements ont montré la présence d'hydrocarbures au droit de l'ancien atelier supra ainsi que des phénols et du toluène.
+
+40l1l0	hydrocarbures	S
+40l1l1	phénols	S
+40l1l2	toluène	S
+
+#Sur la base de ces résultats, un schéma conceptuel et une évaluation quantitative des risques sanitaires (EQRS) ont été réalisés.
+
+41l0l0	un_schéma_conceptuel	O
+41l0l1	une_évaluation_quantitative	N
+41l0l2	ont_été_réalisés	N
+
+#Il est à noter que selon le bureau d'étude en charge de ces diagnostics, l'IEM n'a pas été jugée pertinente.
+
+42l0l0	le_bureau_d__étude	O
+42l0l1	ces_diagnostics	N
+
+#Les résultats de l'EQRS n'ont pas indiqué de risques inacceptables pour les voies d'exposition que sont
+
+
+#- l'inhalation des poussières et des vapeurs
+
+
+#- l'ingestion de végétaux arrosés d'eau de la nappe.
+
+45l0l0	l__ingestion	N
+
+#Toutefois, sur la base d'analyses réalisées sur des puits dont l'utilisation était l'arrosage de potagers, les calculs ont montré un dépassement des valeurs repères du Ministère en charge de l'Environnement.
+
+46l0l0	des_puits	O
+46l0l1	l__utilisation	T
+46l0l2	l__arrosage_de_potagers	A
+46l0l3	Ministère_en_charge_de_l__Environnement	O
+
+#La mise en évidence de ce risque justifie l'arrêté municipal imposant l'arrêt de l'utilisation des puits pour l'arrosage de potagers.
+
+47l0l0	La_mise_en_évidence	N
+47l0l1	l__arrêté_municipal	O
+47l0l2	imposant_l__arrêt	N
+47l0l3	l__utilisation_des_puits_pour_l__arrosage_de_potagers	A

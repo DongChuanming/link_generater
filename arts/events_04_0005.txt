@@ -1,0 +1,400 @@
+
+#04.0005
+#ARKEMA ( ex ATO FINA) - Usine en activité à Saint -Auban - 04-
+
+0l0l0	ARKEMA	O
+0l0l1	ex	N
+0l0l2	ATO_FINA	O
+0l0l3	Usine_en_activité	N
+0l0l4	à_Saint__Auban___04_	L
+0l1l0	ARKEMA	I
+0l1l1	ATO_FINA	I
+
+#* Créée en 1915, et implantée sur la commune de Saint-Auban, l'usine ATOFINA fabrique, en utilisant comme matières premières du sel et de l'éthylène, des solvants chlorés et du PVC.
+
+1l0l0	Créée	N
+1l0l1	en_1915	T
+1l0l2	implantée_sur_la_commune_de_Saint_Auban	L
+1l0l3	l__usine_ATOFINA	O
+1l0l4	fabrique	A
+1l1l0	ATOFINA	I
+1l1l1	sel	S
+1l1l2	éthylène	S
+1l1l3	solvants_chlorés	U
+1l1l4	PVC	S
+
+#Elle occupe environ 70 hectares.
+
+
+#* Un atelier d'électrolyse du sel (chlorure de sodium) à cathode de mercure, permet la production d'environ 180 000 t/an de chlore, base des différentes fabrications de solvants chlorés et de PVC.
+
+3l0l0	Un_atelier_d__électrolyse	O
+3l0l1	la_production	A
+3l0l2	fabrications_de_solvants	A
+3l1l0	sel	S
+3l1l1	chlorure_de_sodium	S
+3l1l2	mercure	S
+3l1l3	chlore	S
+3l1l4	solvants_chlorés	U
+3l1l5	PVC	S
+
+#* L'usine emploie actuellement environ 850 personnes.
+
+4l0l0	L__usine	O
+
+#* L'établissement est située en bordure immédiate de la Durance et implanté sur sa nappe alluviale.
+
+5l0l0	L__établissement	O
+5l0l1	est_située_en_bordure_immédiate_de_la_Durance	L
+5l0l2	implanté_sur	R
+5l0l3	sa_nappe_alluviale	O
+
+#n canal, appelé canalde Manosque, traverse l'usine.
+
+6l0l0	n_canal	O
+6l0l1	appelé_canalde_Manosque	L
+6l0l2	traverse_l__usine	L
+
+#* ATOFINA est devenu ARKEMA fin 2004.
+
+7l0l0	ATOFINA	O
+7l0l1	est_devenu	N
+7l0l2	ARKEMA	O
+7l0l3	fin_2004__	T
+7l1l0	__ATOFINA	I
+7l1l1	ARKEMA	I
+
+#et établisssement connaît depuis courrant 2006 d'importantes réorganisations d'activité suite aux décisisons stratégiques prises.
+
+8l0l0	et_établisssement	N
+8l0l1	connaît	R
+8l0l2	depuis_courrant_2006	T
+8l0l3	d__importantes_réorganisations	N
+8l0l4	d__activité	O
+8l0l5	suite_aux	R
+8l0l6	décisisons_stratégiques_prises	N
+
+#*Les substances toxiques rejetées par cette usine sont essentiellement classables en 2 catégories :
+
+9l0l0	cette_usine	O
+9l1l0	Les_substances_toxiques_rejetées	U
+
+#1. les métaux lourds et plus spécifiquement le mercure ;
+
+10l1l0	les_métaux_lourds	S
+10l1l1	mercure	S
+
+#2. les solvants chlorés (TRI, PER, D12...).
+
+11l1l0	les_solvants_chlorés	S
+11l1l1	TRI	S
+11l1l2	PER	S
+11l1l3	D12	S
+
+#*La pollution chronique de la Durance et de sa nappe d'accompagnement par cette usine a deux origines :
+
+12l0l0	La_pollution_chronique	N
+12l0l1	la_Durance	L
+12l0l2	nappe	O
+12l0l3	cette_usine	O
+
+#a) l'effluent issu de la station d'épuration dit rejet canalisé;
+
+13l0l0	canalisé	O
+13l1l0	effluent	U
+
+#b) les déversements dans la Durance et sa nappe d'accompagnement de la nappe qui s'écoule sous l'usine.
+
+14l0l0	les_déversements	N
+14l0l1	dans_la_Durance	L
+14l0l2	l__usine	L
+
+#*Suite à une étude réalisée en 1995, en application de l' arrêté préfectoral du 30 juin 1993, l'industriel a effectué d'importants travaux prescrits par deux arrêtés préfectoraux du 19 avril 1996 et destinés à :
+
+15l0l0	Suite_à	R
+15l0l1	une_étude_réalisée	N
+15l0l2	en_1995__	T
+15l0l3	l___arrêté_préfectoral	O
+15l0l4	30_juin_1993	T
+15l0l5	l__industriel	O
+15l0l6	a_effectué	N
+15l0l7	d__importants_travaux_prescrits	N
+15l0l8	par	R
+15l0l9	deux_arrêtés_préfectoraux	O
+15l0l10	du_19_avril_1996	T
+
+#+ réduire les émissions de solvants chlorés
+
+16l1l0	solvants_chlorés	U
+
+#+ supprimer les risques d'infiltration de produits polluants dans la nappe
+
+17l1l0	produits_polluants	U
+
+#+ décontaminer la nappe (par reprise par pompage dela pollution)
+
+18l0l0	décontaminer	N
+18l0l1	la_nappe	O
+18l0l2	pompage_dela_pollution	N
+
+#+ suivre l'amélioration de la qualité des eaux souterraines
+
+
+#*Pour les rejets canalisés le flux journalier de solvants chlorés qui était de 76 kg/j(moyenne 1994) est tombé - selon les moyens d'investigation de cette époque - à une valeur inférieure à 10 kg/j en 2002.
+
+20l0l0	rejets_canalisés	O
+20l0l1	est_tombé	N
+20l0l2	en_2002	T
+20l1l0	solvants_chlorés	U
+
+#*Par contre, l'impact positif de ces travaux sur la qualité de la nappe circulant sous l'usine ne s'est pas avéré évident.
+
+21l0l0	ces_travaux	N
+21l0l1	la_qualité_de_la_nappe	O
+
+#es étudesviant à préciser ce point et réalisées en 1999 et 2000n'ont pas permis d'apporter à cette époque d'éléménts déterminants..
+
+22l0l0	en_1999_et_2000n_	T
+
+#*Les études réalisées dans le cadre de l'approche appelée "sites en activité" ont été prescrites selon les directives nationales afin de cerner la situation d'établissement ayant des avtivités industrielles sensibles etune localisation sur un milieu également sensible ( ici: Durance et nappe).
+
+23l0l0	Les_études_réalisées	N
+23l0l1	dans_le_cadre_de	R
+23l0l2	ont_été_prescrites	N
+23l0l3	selon	R
+23l0l4	les_directives	O
+23l0l5	des_avtivités_industrielles_sensibles	A
+23l0l6	etune_localisation	N
+23l0l7	sur_un_milieu_également_sensible	L
+23l0l8	Durance_et_nappe	L
+
+#'ESR (prescite par AP du 11/05/1999)a classé le site en catégorie 1; l'EDR a été consécutivement réalisée.
+
+24l0l0	__ESR	N
+24l0l1	11_05_1999_a	T
+24l0l2	classé	N
+24l0l3	le_site	O
+24l0l4	a_été_consécutivement_réalisée	N
+24l1l0	__ESR	I
+
+#Deux questions essentielles de pollution des sols et sous -sols ressortent : Solvants et Mercure.
+
+25l1l0	Solvants	S
+25l1l1	Mercure	S
+
+#* ASPECT SOLVANTS: Sans attendre les résultats de l'EDR, l'AP du 06/11/2000 avait fixé à fin 2002, des objectifs de dépollution( réduction du flux de solvant apporté au point de confluence Durance / Bléone appelé "Goulet" à à 20kg/j) .
+
+26l0l0	Sans_attendre	N
+26l0l1	l__AP	O
+26l0l2	06_11_2000	T
+26l0l3	avait_fixé	N
+26l0l4	à_fin_2002__	T
+26l0l5	des_objectifs	O
+26l0l6	de_dépollution	N
+26l0l7	point_de_confluence_Durance___Bléone_appelé	L
+26l1l0	SOLVANTS	S
+
+#* Pour satisfaire ces objectifs, ATO a mis en place, depuis décembre 2002, une barrière hydraulique constituée d'une" ligne pilote" de 10 puits espacés d'une 20.aine de metres, interceptant l'écoulement de la nappe avec traitement de l'effluent pompé.
+
+27l0l0	ATO	O
+27l0l1	a_mis_en_place	N
+27l0l2	depuis_décembre_2002__	T
+27l0l3	une_barrière_hydraulique	O
+27l0l4	interceptant	N
+27l1l0	effluent	U
+
+#* La campagne de mesure réalisée le 15/01/2003,ayant mis en évidence un large dépassement des valeurs limites prescrites par l'AP du 06/11/2000, ATO a été mis en demeure( AP du 10 mars 2003) de respecter sous 2 mois ces prescriptions .
+
+28l0l0	La_campagne_de_mesure_réalisée	N
+28l0l1	le_15_01_2003_ayant	T
+28l0l2	un_large_dépassement_des_valeurs_limites	N
+28l0l3	l__AP	O
+28l0l4	06_11_2000	T
+28l0l5	ATO	O
+28l0l6	a_été_mis_en_demeure	N
+28l0l7	10_mars_2003	T
+28l0l8	sous_2_mois	T
+28l1l0	ATO	I
+
+#* Courant 2003, un renfocement de la barrière hydraulique a été réalisé( passage à 23 puits de pompage) afin de mieux intercepter la pollution centrale du site et une réduction du flux polluant a été observée au niveau du Goulet( niveau de 100 kg/j en solvants ramené à une trentaine ,sans pouvoir respecter les 20 kg/j de l'AP précité de nov 2000).
+
+29l0l0	Courant_2003__	T
+29l0l1	un_renfocement	N
+29l0l2	la_barrière_hydraulique	O
+29l0l3	a_été_réalisé	N
+29l0l4	23_puits_de_pompage	O
+29l0l5	pollution_centrale_du_site	A
+29l0l6	niveau_du_Goulet	L
+29l0l7	nov_2000	T
+
+#e dépassement de ces valeurs limites ayant été constaté,un P.
+
+30l0l0	e_dépassement	N
+
+#. de délit a étédressé le 19 mai 2003 et la préfecture a pris un AP de consignation( 24 nov 2003-1 M€).
+
+31l0l0	a_étédressé	N
+31l0l1	le_19_mai_2003	T
+31l0l2	la_préfecture	O
+31l0l3	a_pris	N
+31l0l4	un_AP	O
+31l0l5	24_nov_2003	T
+31l1l0	la_préfecture	I
+
+#*En 2004, malgré ce renforcement de la barrière hydraulique, aucune amélioration de la qualité de la nappe alluviale de la Durance n'a été constatée.
+
+32l0l0	En_2004__	T
+32l0l1	malgré	O
+32l0l2	ce_renforcement	N
+32l0l3	la_barrière_hydraulique	O
+32l0l4	la_Durance	L
+
+#Globalament,il est fréquent d'indiquer que la quantité de solvants apportée par la nappe au milieu naturel est supérieure à celle contenue dans le rejet  global de l'usine après traitement par la STEP.
+
+33l0l0	par_la_STEP	O
+33l1l0	solvants	S
+
+#* Suite à rencontre,fin 2004, avec le Préfet et la DRIRE, ARKEMA( ex Atofina) a proposé pour le 1° trim 2005, un plan d'actions portant sur l'implantation de 2 nouveaux puits ,d'une part, et d'autre part, la mise en place ,au Sud du terril, source identifiée de solvants présents en sous-sol( 50 à 100ppm),d'un pilote de traitement de ces solvants ,par bio-rémédiation.
+
+34l0l0	à_rencontre	N
+34l0l1	fin_2004__	T
+34l0l2	le_Préfet	O
+34l0l3	la_DRIRE	O
+34l0l4	ARKEMA	O
+34l0l5	Atofina	O
+34l0l6	pour_le_1___trim_2005__	T
+34l0l7	un_plan_d_	O
+34l0l8	actions	N
+34l0l9	l__implantation	N
+34l0l10	2_nouveaux_puits	O
+34l0l11	la_mise_en_place	N
+34l0l12	au_Sud_du_terril	N
+34l0l13	un_pilote	O
+34l0l14	traitement	N
+34l0l15	ces_solvants	O
+34l0l16	bio_rémédiation	N
+34l1l0	le_Préfet	I
+34l1l1	la_DRIRE	I
+34l1l2	ARKEMA___ex_Atofina	I
+
+#En cas de succès de ce pilote, le traitement serait étendu pour un aboutissemnt annoncé par l'industriel pour septembre 2006.
+
+35l0l0	le_traitement	O
+35l0l1	un_aboutissemnt	O
+35l0l2	l__industriel	O
+35l0l3	pour_septembre_2006__	T
+
+#* Cette barrière hydraulique a été examinée par un scientifigue eminent de l'universite de Paris qui a  fait des propositions de modifications - améliorations du système(fin 2006); celles-ci ,après avoir été débattues avec la DRIRE et l'industriel, mettent en évidence une contribution historique de Solvants vers le cours d'eau et provenant de la nappe.
+
+36l0l0	barrière_hydraulique	O
+36l0l1	a_été_examinée_par	N
+36l0l2	un_scientifigue	O
+36l0l3	fait_des_propositions_de_modifications	O
+36l0l4	système_fin_2006	T
+36l0l5	avec_la_DRIRE	O
+36l0l6	et_l__industriel	O
+36l0l7	de_la_nappe	L
+36l1l0	avec_la_DRIRE	I
+36l1l1	de_Solvants	S
+
+#es mesures techniques à mettre en oeuvre sont à discuter.
+
+37l0l0	es_mesures_techniques	O
+
+#* ASPECT MERCURE: Conformémént à l'AP spécifique du 10 juin 2003, ATO a remis ,fin d'été 2003, une étude concernant les niveaux de présence de mercure dans les sols et la nappe, en relation avec les principales zones "sources" individualisées.
+
+38l0l0	Conformémént_à	R
+38l0l1	l_	O
+38l0l2	10_juin_2003__	T
+38l0l3	ATO	O
+38l0l4	a_remis	N
+38l0l5	fin_d__été_2003__	T
+38l1l0	MERCURE	S
+38l1l1	mercure	S
+
+#Cette étude a été substantiellement complétée à la demande de la DRIRE, par 2 rapports de juin et septembre 2004.
+
+39l0l0	Cette_étude_a_été_substantiellement_complétée	N
+39l0l1	à_la	R
+39l0l2	demande_de	R
+39l0l3	la_DRIRE	O
+39l0l4	2_rapports	N
+39l0l5	de_juin_et_septembre_2004__	T
+39l1l0	la_DRIRE	I
+
+#* 6 zones impactées par le mercure dont 3 incluant la nappe, ont été mises en évidence: secteurs de l'ancien et du nouvel atelier d'électrolyse,terril historique.
+
+40l0l0	6_zones_impactées	O
+40l0l1	ont_été_mises_en_évidence	N
+40l0l2	secteurs_de_l__ancien_et_du_nouvel_atelier_d__électrolyse	L
+40l1l0	mercure	S
+
+#es études , selon Arkéma ne mettent pas en évidence de migration du mercure vers la Durance du fait d'un piégeage local dans les sols .
+
+41l0l0	mercure	O
+41l0l1	vers_la_Durance	L
+41l1l0	mercure	S
+
+#Ce point de vue " très particulier" et ces études sont soumis à tièrce expertise , à la demande de la DRIRE suite à un AP spécifique pris en ce sens:03/01/2005.
+
+42l0l0	ces_études	N
+42l0l1	la_demande	N
+42l0l2	la_DRIRE	O
+42l0l3	suite_à	R
+42l0l4	un_AP_spécifique	O
+42l0l5	sens_03_01_2005	T
+42l1l0	la_DRIRE	I
+
+#n effet la situation met en évidenc une présence de mercure dans les poissons( barbeaux)dont l'explication exacte est recherchée, le mercure apporté au milieu par le dispositif canalisé étant,quant à lui,inférieur de 10 fois au niveau de l'ar. min."intégré" de 1998.
+
+43l0l0	dispositif_canalisé	O
+43l1l0	mercure	S
+43l1l1	mercure	S
+
+#Une mesure importante a été prescrite par l'AP du 03/01/2005 afin de traiter l'effluent en sortie de l'atelier actuel d'électrolyse, secteur identifié comme point source (voir plus haut).
+
+44l0l0	Une_mesure_importante	O
+44l0l1	a_été_prescrite	N
+44l0l2	par	R
+44l0l3	l__AP	O
+44l0l4	du_03_01_2005	T
+44l0l5	traiter	N
+44l0l6	l__effluent	O
+44l0l7	en_sortie_de_l__atelier_actuel	L
+44l0l8	d__électrolyse	A
+44l1l0	effluent	U
+
+#lus recemment, la mise à l'arrêt de cet atelier et le dossier constitué de cessation d'activité va amener l'exploitant à globaliser la question de la remédiation des sols et sous sols de cet atelier.
+
+45l0l0	la_mise	N
+45l0l1	cet_atelier	O
+45l0l2	le_dossier	O
+45l0l3	cessation_d__activité	N
+45l0l4	va_amener	R
+45l0l5	l__exploitant	O
+45l0l6	à_globaliser	R
+45l0l7	la_question_de_la_remédiation	N
+45l0l8	sols_et_sous_sols	O
+45l0l9	cet_atelier	O
+
+#* la qualité de la nappe fait l'objet d'un suivi régulier grâce à un réseau de piézomètres -analyses à fréquence hebdomadaire pour 5 puits et 11 piézomètres, et à fréquence mensuelle pour 15 piézomètres - portent sur 16 solvants chlorés, le benzène, HCB, et le Hg.
+
+46l1l0	solvants_chlorés	S
+46l1l1	le_benzène___HCB	S
+46l1l2	le_Hg	S
+
+#La qualité des eaux de la Durance ainsi que celle de la nappe d'accompagnement,en aval de l'usine,après s'être améliorée en 2003 suite au renforcement des pompages, est redevenue stable en 2004 faute de nouveaux travaux.
+
+47l0l0	La_qualité_des_eaux_de	O
+47l0l1	la_Durance	L
+47l0l2	en_aval_de_l__usine	L
+47l0l3	s__être_améliorée	N
+47l0l4	en_2003	T
+47l0l5	renforcement_des_pompages	N
+47l0l6	est_redevenue	N
+47l0l7	en_2004	T
+47l0l8	de_nouveaux_travaux	N
+
+#La situation n'a pas connu d'évolutionsensible  depuis 2005.
+
+48l0l0	__depuis_2005__	T

@@ -1,0 +1,126 @@
+
+#68.0153
+#La société GEFCO exploite, sur la commune de Sausheim, un entrepôt de stockage et quai de transit de marchandises, soumis à autorisation.
+
+0l0l0	La_société	O
+0l0l1	GEFCO_exploite	N
+0l0l2	__un_entrepôt_de_stockage	O
+0l0l3	autorisation__	O
+0l1l0	autorisation	I
+
+#Le site est autorisé au titre des installations classées par :
+
+1l0l0	Le_site_est_autorisé	O
+1l0l1	au_titre	N
+1l0l2	des_installations_classées	L
+1l0l3	par____	O
+1l1l0	Le_site_est_autorisé	I
+
+#-l'arrêté préfectoral d'autorisation n°2004-92-4 du 01 avril 2004,
+
+2l0l0	_l__arrêté	O
+2l0l1	préfectoral	N
+
+#-l'arrêté préfectoral complémentaire et codificatif n°2006-86-10 du 27 mars 2006.
+
+3l0l0	_l__arrêté_préfectoral_complémentaire	O
+3l0l1	codificatif_n__2006___86___10_du_27_mars_2006__	T
+
+#Par courrier du 17 février 2010, l'exploitant transmet le bilan quadriennal de la surveillance de la qualité des eaux souterraines au droit de son site sur la période 2006-2009, et demande, compte-tenu de ce bilan, la révision du programme de surveillance imposé par l'arrêté du 27 mars 2006.
+
+4l0l0	Par_courrier_du_17_février_2010___l__exploitant_transmet	N
+4l0l1	bilan_quadriennal	O
+4l0l2	de_la_surveillance_de_la_qualité_des_eaux_souterraines_au_droit_de_son_site_sur_la_période_2006___2009___et_demande___compte_tenu_de_ce_bilan___la_révision_du_programme_de_surveillance_imposé_par_l__arrêté_du_27_mars_2006__	T
+
+#Suite à l'instruction de ce bilan, un arrêté portant prescriptions complémentaires est signé le 25/11/2010 encadrant la surveillance des eaux souterraines.
+
+5l0l0	instruction_de_ce_bilan	T
+5l0l1	__un_arrêté	O
+5l0l2	portant	N
+5l0l3	prescriptions_complémentaires_est_signé_le	A
+5l0l4	25_11_2010_encadrant_la_surveillance	O
+5l0l5	des_eaux_souterraines	L
+5l0l6	_	T
+
+#Le programme de surveillance imposé à l'exploitant en 2006 a été défini sur la base de l'étude hydrogéologique remise en février 2005 conformément aux prescriptions de l'arrêté du 01 avril 2004.
+
+6l0l0	imposé_à_l__exploitant_en_2006_a_été_défini_sur_la_base_de_l_	O
+6l0l1	étude	N
+6l0l2	hydrogéologique	T
+6l0l3	remise_en	R
+6l0l4	février_2005_conformément_aux_prescriptions	A
+
+#La surveillance consiste en la réalisation sur 6 piézomètres de deux campagnes (hautes eaux et basses eaux) de mesures des paramètres suivants :
+
+7l0l0	La_surveillance	O
+7l0l1	consiste_en_la_réalisation	N
+7l0l2	sur_6	O
+7l0l3	piézomètres	T
+7l0l4	de_deux	N
+7l0l5	campagnes___hautes	R
+7l0l6	eaux_et_basses_eaux___de_mesures	N
+7l0l7	des_paramètres	T
+
+#pH, DCO, DBO5, potassium, chlorures, sulfates, sodium, magnésium, azote K, cyanures totaux, HAP totaux, hydrocarbures totaux, métaux : Sb, As, Hg, Br, Cd, Cr, Cu, Sn, Pb, Zn, Al total.
+
+8l0l0	__DCO___DBO5___potassium	A
+8l0l1	chlorures___sulfates	N
+
+#Le bilan quadriennal conclut, au vu des analyses réalisées de 2006 à 2009 sur la pertinence du suivi imposé :
+
+9l1l0	Le_bilan_quadriennal_conclut___au_vu_des_analyses_réalisées_de_2006_à_2009_sur_la_pertinence_du	S
+9l1l1	suivi_imposé	S
+9l1l2	_	S
+
+#*métaux : les dépassements réguliers observés au droit de tous les piézomètres (amonts comme avals) justifient la poursuite de la surveillance de ces paramètres,
+
+10l0l0	tous_les_piézomètres	T
+
+#*HAP (somme des 6), hydrocarbures totaux : un dépassement ponctuel a été observé en décembre 2008 sur les HAP, les hydrocarbures totaux ont toujours respecté les limites de qualité.
+
+11l0l0	les_hydrocarbures	N
+11l0l1	totaux_ont_toujours	A
+11l0l2	respecté_les	O
+11l1l0	__HAP___somme	S
+
+#Cependant, au vu des activités exercées sur le site (activité logistique et infiltration, après traitement, des eaux de ruissellement), il est pertinent de continuer la surveillance de ces paramètres,
+
+12l0l0	sur_le_site___activité_logistique_et	N
+12l0l1	infiltration___après	T
+12l1l0	Cependant	S
+12l1l1	des_activités_exercées_sur	S
+12l1l2	traitement	S
+12l1l3	des_eaux_de_ruissellement	S
+
+#*chlorures, sulfates, cyanures totaux et sodium : ces paramètres n'ont jamais présenté de concentrations supérieures aux limites de qualité sur la période 2006-2009.
+
+13l0l0	2009__	A
+
+#De plus, ces paramètres ne sont pas liés aux activités exercées sur le site.
+
+14l1l0	De_plus___ces_paramètres_ne_sont_pas_liés_aux	S
+14l1l1	activités	S
+
+#*DCO, DBO5, azote K, magnésium et potassium : les trois premiers paramètres sont, depuis juin 2006, inférieurs aux limites de quantification.
+
+
+#Ces conclusions ont pour partie été prise en compte dans l'arrêté du 25/11/2010, où il est imposé un suivi semestriel sur les 6 ouvrages du site des métaux, des 6 HAP, des hydrocarbures dissous, des MES, pH et Carbonique total.
+
+16l0l0	où_il_est_imposé_un_suivi	T
+16l1l0	Ces_conclusions_ont_pour_partie_été_prise_en	S
+
+#Par ailleurs il a été demandé de mener en commun avec Peugeot Citroën Mulhouse SNC des investigations pour déterminer la ou les sources de la pollution métallique observée sous les deux sites.
+
+17l0l0	Mulhouse_SNC	T
+17l0l1	investigations	N
+17l0l2	pour_déterminer	A
+17l0l3	ou_les_sources	O
+17l0l4	métallique	O
+17l1l0	pollution_métallique_observée_sous_les_deux_sites	S
+
+#Au vu des dernières analyses transmises (décembre 2011), la pollution métallique détectée n'est pas attribuable aux activités de GEFCO puisqu'elle se retrouve en amont du site.
+
+18l0l0	2011_____la_pollution_métallique	O
+18l0l1	détectée_n__est_pas	N
+18l0l2	aux_activités_de_GEFCO_puisqu__elle_se_retrouve	O
+18l1l0	2011_____la_pollution_métallique	I

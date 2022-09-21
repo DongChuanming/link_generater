@@ -1,0 +1,182 @@
+
+#71.0059
+#Le terrain d'une superficie de 3086 m² est situé dans la zone industrielle de Saint-Nizier à l'ouest de Marcigny.
+
+
+#Il est entouré de zones agricoles d'une part, industrielles d'autre part, avec une habitation à proximité immédiate (50 mètres environ).
+
+1l0l0	Il_est_entouré	O
+1l0l1	une_part___industrielles_d__autre_part___avec_une_habitation_à_proximité_immédiate	L
+
+#Du point de vue hydrogéologique, 11 captages existent dans un rayon de 5 km (dont deux périmètres de protection) mais aucun n'est à l'aval hydrologique immédiat du site.
+
+2l0l0	point_de_vue_hydrogéologique__	O
+2l0l1	dont_deux_périmètres	O
+2l0l2	de_protection___mais_aucun_n__est_à_l__aval	L
+
+#► HISTORIQUE
+
+
+#Ce site a accueilli un dépôt d'ordures mal caractérisées jusqu'à son acquisition par Gaz De France (aujourd'hui GDF-Suez) en 1976.
+
+4l1l0	Ce_site_a_accueilli_un_dépôt_d__ordures_mal_caractérisées_jusqu__à_son_acquisition_par_Gaz_De_France___aujourd_hui_GDF___Suez___en_1976__	I
+
+#L'arrêté préfectoral du 13 juin 1973 avait en effet autorisé l'usage du site pour une installation de stockage de gaz propane liquéfié, "établissement de classe 2" équivalent aux actuelles ICPE relevant du régime de l'autorisation.
+
+5l0l0	L__arrêté	O
+5l0l1	préfectoral	N
+5l0l2	autorisé_l_	T
+5l0l3	usage_du_site_pour_une	N
+5l0l4	installation	O
+5l0l5	propane_liquéfié	T
+5l1l0	préfectoral_du_13_juin_1973_avait	D
+5l1l1	installation	I
+5l1l2	gaz_propane	I
+
+#Vers 1976-1977 et après viabilisation du terrain par des graviers ou mâchefers, 2 réservoirs aériens de 100 m3 chacun ont été installés sur le site et raccordés au réseau de distribution public de Marcigny.
+
+6l0l0	Vers_1976___1977_et_après	O
+6l0l1	viabilisation	T
+6l0l2	du_terrain_par_des_graviers	N
+6l0l3	ou_mâchefers	O
+6l0l4	2_réservoirs_aériens_de_100_m3_chacun_ont_été_installés	A
+
+#En 1979 ou 1980, un poste de détente de gaz (installation non classée) a été ajouté dans l'emprise Nord-Est du site, où il occupe environ 530m².
+
+7l0l0	En_1979_ou_1980__	T
+7l0l1	poste_de_détente_de_gaz	N
+7l0l2	__installation	O
+7l0l3	dans_l__emprise_Nord_Est	O
+7l0l4	il_occupe_environ_530	N
+
+#À une date indéterminée entre 1980 et 1986, l'activité de stockage d'hydrocarbures a cessé sur ce site, avec démantèlement des installations et retour à une friche industrielle.
+
+8l0l0	À_une_date_indéterminée	T
+8l0l1	entre_1980_et_1986	O
+8l0l2	hydrocarbures	N
+8l0l3	a_cessé_sur_ce_site___avec_démantèlement	L
+
+#Seul le poste de détente de gaz est toujours en exploitation, raccordé à des conduites enterrées, avec présence sur site de tétrahydrothiophène (THT) ou mercaptan destiné à l'odorisation du gaz propane.
+
+9l0l0	Seul_le_poste_de_détente	T
+9l0l1	de_gaz_est_toujours	T
+9l0l2	en_exploitation___raccordé_à_des_conduites	O
+9l0l3	enterrées	N
+9l0l4	__avec	L
+9l0l5	présence_sur_site_de_tétrahydrothiophène	N
+9l0l6	mercaptan_destiné_à_l__odorisation	O
+9l1l0	raccordé_à_des_conduites	S
+
+#► DIAGNOSTIC ENVIRONNEMENTAL
+
+10l0l0	DIAGNOSTIC_ENVIRONNEMENTAL	O
+
+#Sur requête de l'exploitant GDF-Suez en mars 2013, la Préfecture a confirmé l'arrêt de l'autorisation d'exploitation pour stockage d'hydrocarbures et requis une notification de cessation d'activité de la part de l'exploitant, incluant notamment un diagnostic environnemental des sols.
+
+11l0l0	Sur_requête_de_l__exploitant_GDF___Suez_en_mars_2013___la_Préfecture_a_confirmé_l__arrêt_de_l__autorisation_d__exploitation_pour_stockage_d__hydrocarbures_et_requis_une_notification_de_cessation_d__activité_de_la_part_de_l__exploitant___incluant_notamment_un_diagnostic_environnemental_des_sols__	N
+11l1l0	de_l__exploitant_GDF___Suez_en_mars_2013___la_Préfecture_a_confirmé_l__arrêt_de_l__autorisation_d__exploitation_pour_stockage_d__hydrocarbures_et_requis_une_notification_de_cessation_d__activité_de_la_part_de_l__exploitant___incluant_notamment_un_diagnostic_environnemental_des_sols__	I
+
+#Celui-ci, déjà finalisé en février 2013, se base sur des relevés de juillet 2012.
+
+12l0l0	Celui___ci___déjà	N
+12l0l1	finalisé_en_février_2013	O
+12l0l2	__se_base_sur	T
+12l0l3	des_relevés_de	O
+12l0l4	juillet_2012__	N
+12l1l0	février_2013	I
+
+#Le rapport de diagnostic conclut à l'existence d'une pollution des sols au droit du site.
+
+13l0l0	conclut_à_l__existence	T
+13l0l1	d__une	R
+13l0l2	pollution	N
+13l0l3	des_sols_au_droit_du_site__	T
+
+#Les 4 sondages P1-P4 réalisés ont mis en évidence une teneur anormale des sols en métaux lourds et métalloïdes (plomb, cadmium, chrome, cuivre, zinc) ainsi qu'en hydrocarbures aromatiques polycycliques (HAP) :
+
+14l0l0	en_évidence	R
+14l0l1	une_teneur_anormale_des	O
+14l0l2	sols_en_métaux_lourds	L
+
+#- Pb, Cd dans les sondages P2 à P4
+
+15l0l0	__Pb	N
+15l0l1	__Cd_dans_les	N
+
+#- Cr, Cu, Zn dans le sondage P2
+
+
+#- HAP dans les sondages P1 et P2.
+
+17l1l0	HAP_dans	S
+
+#Des hydrocarbures sont également présents à l'état de traces dans les sols (sondages P1 et P2).
+
+18l1l0	Des_hydrocarbures	S
+
+#La diversité des polluants suggère l'existence de sources multiples, du fait des activités successives sur le site : décharge d'ordures avec remblais divers, vidange d'huiles pour moteurs, incinération d'ordures ; viabilisation du site par des graviers et mâchefers riches en métaux.
+
+19l1l0	diversité_des_polluants	S
+
+#Les sondages effectués indiquent un impact limité en profondeur (de 0 à -1 mètre environ) mais, faute d'investigations plus poussées, il doit être considéré a priori comme s'étendant à toute la surface du site (3086 m²).
+
+20l0l0	priori_comme_s__étendant	A
+20l0l1	la_surface_du_site___3086	N
+20l0l2	m²	O
+20l0l3	___	N
+20l1l0	effectués_indiquent	U
+20l1l1	comme_s__étendant_à_toute	U
+
+#La pose d'un minipiézomètre a révélé un impact en arsenic dans les eaux de saturation du sol, la concentration de cet élément reste toutefois inférieure au seuil de potabilité.
+
+21l0l0	La_pose_d__un_minipiézomètre	N
+
+#En l'absence de teneurs anormales en polluants dans la nappe au droit du site, un usage non sensible des eaux souterraines reste possible ; aucun usage des eaux souterraines n'est à ce titre recensé à l'aval hydrologique immédiat du site.
+
+22l0l0	En_l__absence	N
+22l0l1	anormales_en	N
+22l0l2	polluants_dans_la_nappe	O
+22l0l3	au_droit_du_site___un_usage_non_sensible	O
+22l1l0	dans_la_nappe	S
+
+#Le schéma conceptuel a mis en évidence un risque potentiel par ingestion ou inhalation de poussières transportées par les vents à partir des sols pollués par le plomb et le chrome-III.
+
+
+#Une interprétation de l'état des milieux avec analyse des risques résiduels conclut à l'absence de risque sanitaire pour l'usage actuel de ce site (usage industriel de type professionnel), ainsi que pour les habitations alentour.
+
+24l0l0	Une_interprétation_de	O
+24l0l1	résiduels_conclut_à	N
+24l1l0	industriel	S
+24l1l1	type_professionnel	S
+
+#► PERSPECTIVES
+
+25l0l0	__PERSPECTIVES	O
+
+#En cas de vente, de changement d'usage et/ou de travaux sur le site, les fortes teneurs en métaux dans les sols nécessiteraient des mesures de précaution (confinement, protection contre l'inhalation et l'ingestion de poussières).
+
+
+#Des restrictions d'usage de type conventionnelles devraient dans ce cas porter sur :
+
+27l0l0	Des	R
+27l0l1	restrictions	O
+27l0l2	d__usage_de_type_conventionnelles	N
+27l0l3	devraient_dans	L
+
+#- la gestion des terres excavées lors de travaux ;
+
+
+#- la compatibilité de l'état environnemental du site avec l'usage prévu.
+
+29l0l0	la	A
+29l0l1	compatibilité_de_l__état_environnemental_du	N
+
+#Au 10 février 2014, une inspection du site a montré que celui-ci est exempt de déchets ou produits dangereux en surface, et sécurisé par un grillage avec interdiction d'accès.
+
+30l0l0	celui_ci_est_exempt	O
+
+#Le poste de détente de gaz (installation non classée toujours en exploitation) est lui-même sécurisé par clôture et portail d'accès indépendants.
+
+31l0l0	Le_poste_de_détente	T
+31l0l1	de_gaz___installation	N
+31l0l2	non	L

@@ -1,0 +1,139 @@
+
+#54.0062
+#La société Brenntag Lorraine est soumise à autorisation au titre de la législation ICPE depuis le 11 octobre 1991 sur l'ancien site des ex sociétés PROCIA et PRO TOUL.
+
+0l0l0	La_société_Brenntag_Lorraine	O
+0l0l1	est_soumise_à_autorisation	N
+0l0l2	au_titre_de	R
+0l0l3	la_législation_ICPE	O
+0l0l4	depuis_le_11_octobre_1991	T
+0l0l5	l_	O
+0l0l6	ancien_site	N
+0l0l7	ex_sociétés_PROCIA	O
+0l1l0	La_société_Brenntag_Lorraine	I
+0l1l1	ex_sociétés_PROCIA	I
+0l1l2	PRO_TOUL	I
+
+#Elle y exerce des activités de stockage et de conditionnement de produits chimiques et est soumise au régime SEVESO seuil haut.
+
+1l0l0	Elle	O
+1l0l1	exerce	N
+1l0l2	des_activités_de_stockage_et_de_conditionnement_de_produits_chimiques	A
+1l0l3	est_soumise_au_régime_SEVESO	L
+1l0l4	seuil_haut	O
+1l1l0	produits_chimiques	U
+
+#On y trouve d'importants stockages de produits chimiques dont notamment :  600 m3 de liquides inflammables, 2 t de chlore liquéfié, 20 t de chlorate de soude, 50 à 100 t d'acide sulfurique concentré, 14 t d'acide fluorhydrique en solution aqueuse.
+
+2l0l0	stockages_de_produits_chimiques	O
+2l1l0	produits_chimiques	U
+2l1l1	de_liquides_inflammables	U
+2l1l2	de_chlore	S
+2l1l3	de_chlorate	S
+2l1l4	de_soude	I
+2l1l5	d__acide_sulfurique_concentré	S
+2l1l6	d__acide_fluorhydrique	S
+
+#C'est également une station de transit de solvants usés et de boues de solvants chlorés.
+
+3l0l0	une_station_de_transit	O
+3l1l0	solvants_usés	U
+3l1l1	solvants_chlorés	U
+
+#Des analyses des eaux souterraines au droit du site sont effectuées depuis 1999.  Les prélèvements sont réalisés à l'aide de quatre piézomètres.
+
+4l0l0	Des_analyses_des_eaux_souterraines	A
+4l0l1	au_droit_du_site	L
+4l0l2	sont_effectuées	N
+4l0l3	depuis_1999	T
+4l0l4	__Les_prélèvements_sont_réalisés_à_l_	N
+
+#Les prélèvements ont mis en évidence une pollution significative des eaux souterraines depuis 2003 pour les composés suivants :
+
+5l0l0	Les_prélèvements	N
+5l0l1	une_pollution_significative	N
+5l0l2	depuis_2003	T
+5l1l0	composés	S
+
+#- Hydrocarbures totaux
+
+6l1l0	Hydrocarbures_totaux	S
+
+#- Benzène, Toluène, Éthylbenzène et Xylènes (BTEX)
+
+7l1l0	Benzène	S
+7l1l1	Toluène	S
+7l1l2	Éthylbenzène	S
+7l1l3	Xylènes	S
+7l1l4	BTEX	S
+
+#- Composés organiques halogénés volatils (COHV)
+
+8l1l0	Composés_organiques_halogénés_volatils	S
+8l1l1	COHV	S
+
+#En particulier, la campagne d'analyse de juin 2013 montre des concentrations maximales en COHV de l'ordre de 20 000 µg/l dans les eaux souterraines (pour une valeur de référence de 10µg/l).
+
+9l0l0	la_campagne_d__analyse	N
+9l0l1	de_juin_2013	T
+9l1l0	COHV	S
+
+#Le suivi de la qualité des eaux souterraines confirme un impact très notable des installations sur les milieux autour du site.
+
+10l0l0	Le_suivi_de_la_qualité_des_eaux_souterraines	A
+10l0l1	les_milieux	O
+10l0l2	autour_du_site	L
+
+#En outre, les eaux souterraines s’écoulant sous l’établissement BRENNTAG LORRAINE passent ensuite au droit de terrains occupés par des cibles humaines (site industriel, ...) pouvant être exposées aux substances polluantes volatiles décelées.
+
+11l0l0	les_eaux_souterraines	O
+11l0l1	BRENNTAG_LORRAINE	O
+11l0l2	passent_ensuite	R
+11l0l3	au_droit_de_terrains	O
+11l0l4	occupés_par	N
+11l1l0	l__établissement_BRENNTAG_LORRAINE	I
+11l1l1	substances_polluantes	U
+
+#La source de pollution n’étant pas récente et semblant être en décroissance au droit du site, il y a lieu d’étudier sans tarder sa migration et son extension en dehors du site industriel ainsi de déterminer son évolution.
+
+12l0l0	La_source_de_pollution	O
+12l0l1	au_droit_du_site	L
+12l0l2	sans_tarder	T
+12l0l3	sa_migration	N
+12l0l4	son_extension	N
+12l0l5	en_dehors_du_site_industriel	L
+12l0l6	ainsi_de_déterminer	R
+
+#Aussi, le préfet a imposé à la société BRENNTAG, par arrêté préfectoral du 03 juillet 2014, la réalisation d'investigations complémentaires (démarche d’interprétation de l’état des milieux (IEM) et recherche des sources de pollution) et a encadré l'autosurveillance des eaux souterraines.
+
+13l0l0	le_préfet	O
+13l0l1	a_imposé	N
+13l0l2	la_société_BRENNTAG	O
+13l0l3	par_arrêté_préfectoral	O
+13l0l4	03_juillet_2014__	T
+13l0l5	la_réalisation_d__investigations_complémentaires	N
+13l0l6	recherche_des_sources_de_pollution	O
+13l0l7	a_encadré_l_	N
+13l0l8	autosurveillance_des_eaux_souterraines	A
+13l1l0	le_préfet	I
+13l1l1	la_société_BRENNTAG	I
+
+#L’origine de la pollution est, selon les premiers éléments d’information donnés par l’exploitant, issue de la manipulation et du stockage de produits organochlorés, activités qui ne sont plus exercées sur le site depuis plusieurs années.
+
+14l0l0	L__origine_de_la_pollution	O
+14l0l1	l__exploitant	O
+14l0l2	la_manipulation_et_du_stockage_de_produits_organochlorés	A
+14l0l3	ne_sont_plus_exercées	N
+14l0l4	sur_le_site	L
+14l0l5	depuis_plusieurs_années__	T
+14l1l0	produits_organochlorés	S
+
+#La société BRENNTAG a transmis un rapport de diagnostic environnemental et une étude d'interprétation de l'état des milieux en février 2015
+
+15l0l0	La_société_BRENNTAG	O
+15l0l1	a_transmis	N
+15l0l2	un_rapport_de_diagnostic_environnemental	N
+15l0l3	une_étude	N
+15l0l4	d__interprétation_de_l__état_des_milieux	O
+15l0l5	en_février_2015	T
+15l1l0	La_société_BRENNTAG	I

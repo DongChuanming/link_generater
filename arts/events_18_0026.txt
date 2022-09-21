@@ -1,0 +1,152 @@
+
+#18.0026
+#Le site, d'une superficie de 4500 m2, occupe la parcelle ZO 163 du plan cadastral de la commune de Méreau.
+
+0l0l0	Le_site	O
+0l0l1	la_commune_de_Méreau	L
+
+#Il est exploité par la société de matériel industriel et de protection électrolytique (SMIPE), spécialisée dans le traitement des métaux et alliages depuis la fin des années soixante.
+
+1l0l0	est_exploité	N
+1l0l1	la_société_de_matériel	O
+1l0l2	dans_le_traitement_des_métaux_et_alliages	A
+1l0l3	depuis_la_fin_des_années_soixante__	T
+1l1l0	la_société	I
+1l1l1	SMIPE	I
+
+#Les effluents liquides issus du traitement transitaient par une simple lagune avant d’être rejetés dans un fossé.
+
+2l0l0	Les_effluents	O
+2l0l1	traitement_transitaient_par	R
+2l0l2	une_simple_lagune	O
+2l0l3	dans_un_fossé	L
+2l1l0	Les_effluents_liquides	U
+
+#Une station de d'épuration physico-chimique des effluents liquides a été mise en place en 2001.
+
+3l0l0	Une_station_de_d__épuration	O
+3l0l1	a_été_mise_en_place	N
+3l0l2	en_2001	T
+3l1l0	effluents_liquides	U
+
+#La nappe des sables de Vierzon est présente au droit du site.
+
+4l0l0	Vierzon	L
+
+#Elle est utilisée dans le cadre de captages destinés à l'alimentation en eau potable (AEP), pour l'irrigation et l'industrie.
+
+5l0l0	Elle	O
+5l0l1	est_utilisée	N
+5l0l2	dans_le_cadre_de_captages	O
+5l0l3	destinés_à	R
+5l0l4	l__alimentation_en_eau_potable	A
+5l0l5	l__irrigation_et_l__industrie	A
+
+#Cependant, aucun captage AEP n'a été relevé sur la commune.
+
+6l0l0	captage_AEP	O
+6l0l1	sur_la_commune	L
+
+#Suite à une visite d’inspection du site et compte tenu des conditions d’exploitation, l’Administration  a demandé à l’industriel de réaliser un diagnostic initial et une évaluation simplifiée des risques (ESR), en Janvier 1999.
+
+7l0l0	Suite_à	R
+7l0l1	une_visite	N
+7l0l2	d__inspection_du_site	L
+7l0l3	d__exploitation	O
+7l0l4	l__Administration	O
+7l0l5	__a_demandé	N
+7l0l6	de_réaliser_un_diagnostic_initial	N
+7l0l7	et_une_évaluation_simplifiée_des_risques	N
+7l0l8	__en_Janvier_1999__	T
+
+#Le diagnostic a fait apparaître une pollution des sols en chrome, nickel, zinc, plomb et étain au niveau de l’ancienne lagune de stockage des effluents industriels et des fossés amont et aval.
+
+8l0l0	Le_diagnostic	N
+8l0l1	a_fait_apparaître	N
+8l0l2	une_pollution	N
+8l0l3	sols	O
+8l0l4	chrome	O
+8l0l5	étain	O
+8l0l6	au_niveau_de	R
+8l0l7	l__ancienne_lagune	O
+8l0l8	fossés_amont_et_aval	L
+8l1l0	chrome	S
+8l1l1	nickel	S
+8l1l2	zinc	S
+8l1l3	plomb	S
+8l1l4	étain	S
+8l1l5	effluents_industriels	U
+
+#Des investigations complémentaires ont été exigées sur ces secteurs et au niveau des installations de traitement de surface, ainsi que la mise en place de piézomètres pour contrôler la qualité des eaux souterraines.
+
+9l0l0	Des_investigations_complémentaires	O
+9l0l1	ont_été_exigées	N
+9l0l2	ces_secteurs	O
+9l0l3	traitement	A
+9l0l4	la_mise_en_place_de_piézomètres	O
+9l0l5	contrôler_la_qualité_des_eaux_souterraines	A
+
+#Celles-ci ont été réalisées au cours du premier trimestre 2002.
+
+10l0l0	ont_été_réalisées	N
+10l0l1	au_cours_du_premier_trimestre_2002	T
+
+#L'ESR remise en avril 2002 classe le site en catégorie 2 : à surveiller.
+
+11l0l0	en_avril_2002	T
+11l0l1	classe	N
+11l0l2	le_site	O
+
+#Les analyses d'eau souterraine montrent :
+
+
+#- des teneurs en nickel supérieures à la valeur de l'arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine,
+
+13l0l0	11_janvier_2007	T
+
+#- la présence de chrome et de plomb en concentrations inférieures aux valeurs de l'arrêté précité,
+
+14l1l0	chrome	S
+14l1l1	plomb	S
+
+#- des teneurs en zinc et en étain inférieures aux limites de détection.
+
+15l1l0	zinc	S
+15l1l1	étain	S
+
+#Le site a été entièrement clos en octobre 2002.
+
+16l0l0	Le_site	O
+16l0l1	a_été_entièrement_clos	N
+16l0l2	en_octobre_2002	T
+
+#La surveillance semestrielle des eaux souterraines a été imposée par arrêté préfectoral du 21 mars 2003.
+
+17l0l0	La_surveillance_semestrielle	A
+17l0l1	des_eaux_souterraines	A
+17l0l2	a_été_imposée	N
+17l0l3	par_arrêté_préfectoral	O
+17l0l4	21_mars_2003	T
+
+#Les résultats du suivi de la qualité des eaux souterraines effectués en 2003 ne montrent aucun changement par rapport au suivi de 2002.
+
+18l0l0	suivi_de	A
+18l0l1	la_qualité_des_eaux_souterraines	O
+18l0l2	effectués	N
+18l0l3	en_2003	T
+
+#Le suivi de la qualité des eaux souterraines a été momentanément suspendu en 2004 suite à des difficultés financières de l'exploitant.
+
+19l0l0	Le_suivi_de_la_qualité_des_eaux_souterraines	A
+19l0l1	a_été_momentanément_suspendu	N
+19l0l2	en_2004	T
+19l0l3	l__exploitant	O
+
+#Par arrêté préfectorale complémentaire du 24 novembre 2009, la l'entreprise est tenue de réaliser des mesures mensuelles des eaux en sortie de détoxification du site.
+
+20l0l0	24_novembre_2009__	T
+20l0l1	la_l__entreprise	O
+20l0l2	est_tenue_de_réaliser	N
+20l0l3	des_mesures_mensuelles	A
+20l0l4	sortie_de	N
+20l0l5	détoxification_du_site	L

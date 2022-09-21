@@ -1,0 +1,138 @@
+
+#54.0031
+#Le site a accueilli un dépôt de coproduits sidérurgiques de 1886 à 1987 ( laitiers, poussières de gaz de hauts fourneaux, décombres divers, boues de laminoirs et de train à fil, déchets ménagers et divers) représentant un volume global de 3.5 millions de m3.
+
+0l0l0	Le_site	O
+0l0l1	a_accueilli	N
+0l0l2	un_dépôt_de_coproduits_sidérurgiques	O
+0l0l3	de_1886_à_1987	T
+0l0l4	laminoirs	A
+0l1l0	dépôt	D
+0l1l1	poussières_de_gaz	U
+0l1l2	décombres_divers	U
+
+#L'ayant droit de l'ancien et dernier exploitant est ARCELORMITTAL FRANCE.
+
+1l0l0	L__ayant_droit	O
+1l0l1	exploitant	O
+1l0l2	ARCELORMITTAL_FRANCE	O
+1l1l0	ARCELORMITTAL_FRANCE	I
+
+#Le site est situé à flancs de coteaux.
+
+2l0l0	Le_site	O
+2l0l1	est_situé_à_flancs_de_coteaux	L
+
+#La Moulaine s'écoule en contre-bas du site, mais la rivière a été busée depuis l'amont jusqu'en aval du site.
+
+3l0l0	La_Moulaine	O
+3l0l1	en_contre_bas_du_site	L
+3l0l2	a_été	N
+3l0l3	busée_depuis_l_	O
+3l0l4	en_aval_du_site	L
+
+#Les déchets urbains ont été éliminés.
+
+4l0l0	ont_été_éliminés	N
+
+#Il n'y a pas de captage AEP en aval du site.
+
+5l0l0	captage_AEP	O
+5l0l1	en_aval_du_site	L
+
+#Le crassier est en cours d'exploitation par la SLAG.
+
+6l0l0	Le_crassier	O
+6l0l1	est_en_cours_d__exploitation	N
+6l0l2	la_SLAG	O
+6l1l0	la_SLAG	I
+
+#Evaluation simplifiée des risques demandée et rendue.
+
+7l0l0	Evaluation_simplifiée_des_risques	N
+
+#Classement 2 (site à surveiller)
+
+
+#La Surveillance des eaux souterraines et de la Moulaine est assurée depuis 1985.
+
+9l0l0	La_Surveillance_des_eaux_souterraines	A
+9l0l1	la_Moulaine	O
+9l0l2	est_assurée	N
+9l0l3	depuis_1985	T
+
+#Lors de la visite du 7 juin 2006, le crassier est toujours en exploitation et cette exploitation devrait durer jusqu'en 2017.
+
+10l0l0	Lors	T
+10l0l1	de_la_visite	N
+10l0l2	du_7_juin_2006__	T
+10l0l3	le_crassier	O
+10l0l4	est_toujours_en_exploitation	N
+10l0l5	cette_exploitation	N
+10l0l6	devrait_durer_jusqu__en_2017__	T
+
+#Au delà, la SLAG réalisera une remise en état du site : passage en décharge de classe 3 avec mise en forme de la pente en plusieurs étages, plantage d'arbres à pousse rapide pour une exploitation ultérieure (valorisation en briquettes).
+
+11l0l0	la_SLAG	O
+11l0l1	réalisera_une_remise_en_état	N
+11l0l2	passage_en_décharge	N
+11l0l3	classe_3	O
+11l0l4	mise_en_forme	N
+11l0l5	plantage_d__arbres	N
+11l1l0	la_SLAG	I
+
+#Une partie du crassier n'est pas exploitée et reste la propriété de BI car un bassin à boues et une décharge d'ordures ménagères datant des années 1960 y sont présents à priori en surface.
+
+12l0l0	Une_partie	O
+12l0l1	BI	O
+12l0l2	un_bassin_à_boues	O
+12l0l3	datant_des_années_1960	T
+12l1l0	ordures	S
+
+#Le site est excentré des zones d'habitation et peu accessible, une servitude devra être mise en place par BI sur le secteur concerné.
+
+13l0l0	Le_site	O
+13l0l1	est_excentré_des_zones_d__habitation	L
+13l0l2	une_servitude	O
+13l0l3	secteur_concerné	O
+
+#Les résultats de surveillance obtenus en décembre 2007 confirment globalement les observations effectuées lors de la majorité des campagnes antérieures, à savoir :
+
+14l0l0	surveillance	A
+14l0l1	en_décembre_2007	T
+
+#- la qualité des eaux de la rivière est stable.
+
+
+#Les teneurs mesurées, pour tous les paramètres analysés, sont inférieures aux seuils des exigences de qualité des eaux douces superficielles ou destinées à être utilisées pour la production d'eau potable,
+
+
+#- la qualité des eaux de la nappe phréatique à l'aval du crassier est caractérisée par une minéralisation importante en sodium et sulfates, par la persistance d'une anomalie en cyanures totaux et par la présence d'ammonium,
+
+17l0l0	aval_du_crassier	L
+17l0l1	ammonium	O
+17l1l0	sodium	S
+17l1l1	sulfates	S
+17l1l2	cyanures_totaux	S
+17l1l3	ammonium	S
+
+#- la baisse constatée en juin 2007 concernant les teneurs en sulfates, sodium, potassium et de la DCO dans les eaux souterraines n'est pas confirmée,
+
+18l0l0	en_juin_2007	T
+18l1l0	sulfates	S
+18l1l1	sodium	S
+18l1l2	DCO	S
+
+#- les teneurs en métaux lourds, notamment cadmium, chrome, cuivre, nickel et plomb restent à l'état de traces dans les eaux de la nappe et sont inférieures aux seuils de détection analytique dans la rivière.
+
+19l1l0	métaux_lourds	S
+19l1l1	cadmium	S
+19l1l2	chrome	S
+19l1l3	cuivre	S
+19l1l4	nickel	S
+19l1l5	plomb	S
+
+#Une réflexion sur le réaménagement global sera engagée sur ce site une fois que l'exploitation du crassier sera achevée.
+
+20l0l0	réaménagement_global	N
+20l0l1	l__exploitation	N

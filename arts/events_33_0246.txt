@@ -1,0 +1,316 @@
+
+#33.0246
+#Ancienne décharge non autorisée exploitée par la Mairie du Verdon sur Mer au lieu dit  « Les Huttes » sur la commune du Verdon sur Mer
+
+0l0l0	Ancienne_décharge_non_autorisée	O
+0l0l1	exploitée	N
+0l0l2	par	R
+0l0l3	la_Mairie	O
+0l0l4	du_Verdon_sur_Mer	L
+0l0l5	au_lieu_dit_____Les_Huttes	L
+0l0l6	__sur_la_commune_du_Verdon_sur_Mer	L
+0l1l0	Ancienne_décharge	D
+0l1l1	la_Mairie_du_Verdon_sur_Mer	I
+0l1l2	__Les_Huttes	I
+0l1l3	sur_Mer	I
+
+#L'ancienne décharge est implantée à côté de la déchetterie actuelle.
+
+1l0l0	L__ancienne_décharge	O
+1l0l1	est_implantée	N
+1l0l2	à_côté_de_la_déchetterie_actuelle	L
+
+#Elle est limitée au Nord par une ancienne route, à l’Est par la route nationale N215, au Sud par un chenal et à l’Ouest par la route D1-E4.
+
+2l0l0	limitée_au_Nord_par	L
+2l0l1	une_ancienne_route	O
+2l0l2	la_route_nationale_N215___au_Sud_par_un_chenal	L
+2l0l3	Ouest	O
+2l0l4	par_la_route_D1_E4	L
+
+#Le site n’est pas accessible aux véhicules : un portail cadenassé est installé à l’entrée actuelle du site, sur la D1-E4 et un merlon de terre barre l’accès par la RN215.
+
+3l0l0	Le_site	O
+3l0l1	un_portail_cadenassé	O
+3l0l2	est_installé	N
+3l0l3	à_l__entrée_actuelle_du_site	L
+3l0l4	sur_la_D1_E4	L
+3l0l5	un_merlon_de_terre	O
+3l0l6	accès_par_la_RN215	L
+
+#Cependant le site n’est pas entièrement clôturé.
+
+
+#L'ancienne décharge est divisée en deux parties : une petite zone de dépôt à l’entrée du site (à l’Ouest), d’une superficie d’environ 400 m² et une grande zone de dépôt (à l’Est) de l’ordre de 11 000 m², sur laquelle est stockée la quasi totalité des déchets.
+
+5l0l0	deux_parties	O
+5l0l1	une_petite_zone_de_dépôt	O
+5l0l2	à_l__entrée_du_site	L
+5l0l3	à_l__Ouest	L
+
+#Les déchets forment des tas de 1 m à 1,50 m de hauteur représentant un volume entre 11 400 m3 et 17 100 m3.
+
+
+#1 - HISTORIQUE
+
+
+#La commune du Verdon a exploité la décharge sans autorisation de 1985 à 2002.
+
+8l0l0	La_commune_du_Verdon	O
+8l0l1	a_exploité	N
+8l0l2	la_décharge	O
+8l0l3	sans_autorisation	O
+8l0l4	de_1985_à_2002	T
+
+#Depuis cette date, la Mairie du Verdon utilise le site comme dépôt technique et y stocke des remblais.
+
+9l0l0	Depuis_cette_date	T
+9l0l1	la_Mairie_du_Verdon	O
+9l0l2	utilise	N
+9l0l3	le_site	O
+9l0l4	comme	R
+9l0l5	dépôt_technique	O
+9l0l6	stocke	N
+9l0l7	des_remblais	O
+
+#Durant l’exploitation, les déchets ont été déposés à même le sol, sans creusement préalable ni protection du fond.
+
+10l0l0	Durant_l__exploitation	N
+10l0l1	les_déchets	O
+10l0l2	ont_été_déposés	N
+10l0l3	sans_creusement_préalable	L
+10l0l4	protection_du_fond	A
+10l1l0	les_déchets	U
+
+#La décharge recevait principalement des déchets industriels banals, des gravats et des déchets verts, peu d’ordures ménagères, envoyées pour la quasi totalité à la décharge de Grayan.
+
+11l0l0	La_décharge	O
+11l0l1	recevait_principalement	R
+11l0l2	des_déchets_industriels_banals	O
+11l0l3	la_décharge	O
+11l0l4	Grayan	O
+11l1l0	des_déchets_industriels	U
+
+#Depuis 1990, les ordures ménagères sont collectées et traitées par le SMICOTOM qui les envoie au CET de Naujac.
+
+12l0l0	Depuis_1990__	T
+12l0l1	sont_collectées_et_traitées_par	N
+12l0l2	le_SMICOTOM	O
+12l0l3	CET	O
+12l0l4	de_Naujac	L
+12l1l0	les_ordures_ménagères	U
+12l1l1	le_SMICOTOM	I
+12l1l2	CET	I
+
+#Quelques carcasses de voitures (moins de 10) et des déchets automobiles (batteries, pneus) ont été déposés sur le site puis récupérés et la zone de stockage nettoyée avant la fermeture de la décharge.
+
+13l0l0	des_déchets_automobiles	O
+13l0l1	ont_été_déposés	N
+13l0l2	sur_le_site	L
+13l0l3	la_zone_de_stockage_nettoyée	O
+13l0l4	avant	R
+13l0l5	la_fermeture_de_la_décharge	A
+13l1l0	des_déchets_automobiles	U
+
+#2 - DIAGNOSTIC
+
+14l0l0	DIAGNOSTIC	N
+
+#Cette décharge est inscrite dans l'action nationale de résorption des décharges de déchets ménagers et assimilés, autorisées ou non autorisées, introduite par la circulaire du Ministère de l'Ecologie et du Développement Durable du 23 février 2004.
+
+15l0l0	résorption	N
+15l0l1	Ministère_de_l__Ecologie	O
+15l0l2	du_23_février_2004__	T
+15l1l0	Ministère_de_l__Ecologie	I
+
+#Par arrêté préfectoral du 11 avril 2006, la Mairie du Verdon sur Mer a été mise en demeure de déposer un dossier de remise en état de l’ancienne décharge non autorisée, située sur sa commune, au lieu dit  « Les Huttes ».
+
+16l0l0	arrêté_préfectoral	O
+16l0l1	du_11_avril_2006__	T
+16l0l2	la_Mairie	O
+16l0l3	du_Verdon_sur_Mer	L
+16l0l4	a_été_mise	N
+16l0l5	déposer	N
+16l0l6	un_dossier	O
+16l0l7	de_remise_en_état	N
+16l0l8	l__ancienne_décharge_non_autorisée	O
+16l0l9	située_sur_sa_commune	L
+16l0l10	au_lieu_dit_____Les_Huttes	L
+
+#L’étude réalisée montre que les eaux souterraines et superficielles sont impactées par la présence de la décharge.
+
+17l0l0	sont_impactées	O
+17l0l1	par	R
+17l0l2	la	N
+17l0l3	la_décharge	O
+
+#Les lixiviats polluent les eaux au droit du site (en DCO, DBO5, ammonium, chlorures, sulfates, nickel, fer et manganèse), qui drainées par le chenal entraînent la pollution de celui ci.
+
+18l0l0	les_eaux	O
+18l0l1	au_droit_du_site	L
+18l0l2	drainées_par_le_chenal	N
+18l1l0	DCO	S
+18l1l1	DBO5	S
+18l1l2	ammonium	S
+18l1l3	chlorures	S
+18l1l4	sulfates	S
+18l1l5	nickel	S
+18l1l6	fer	S
+18l1l7	manganèse	S
+
+#Les sondages réalisés ont révélé la présence d’eau dans le massif de déchets pour certains, indiquant que les déchets baignent dans la nappe superficielle;
+
+19l0l0	Les_sondages_réalisés	N
+19l0l1	d__eau	O
+
+#3 - REMISE EN ETAT
+
+20l1l0	ETAT	I
+
+#L'arrêté préfectoral du 29/09/2008 impose à la mairie du Verdon sur mer la remise en état du site par:
+
+21l0l0	L__arrêté_préfectoral	O
+21l0l1	29_09_2008	T
+21l0l2	impose	N
+21l0l3	la_mairie	O
+21l0l4	du_Verdon_sur_mer	L
+21l0l5	la_remise_en_état_du_site	N
+
+#- le remodelage des déchets en un dôme;
+
+22l0l0	remodelage	N
+
+#- une couverture de type étanche pour éviter l’infiltration des eaux de pluie, ancrée dans les argiles pour éviter le lessivage des déchets par la nappe superficielle;
+
+23l0l0	ancrée	N
+23l0l1	lessivage	N
+
+#- le pompage des lixiviats et leur traitement en station d’épuration externe ou sur site ;
+
+24l0l0	pompage	A
+24l0l1	lixiviats	O
+
+#- la création d’un bassin étanche pour récolter les lixiviats en attente de traitement ;
+
+25l0l0	la_création_d_	N
+25l0l1	un_bassin	O
+25l0l2	lixiviats	O
+
+#- la création d’un réseau de drainage de biogaz qui devra déboucher sur des évents ;
+
+26l0l0	la_création_d_	N
+26l0l1	un_réseau_de_drainage	O
+
+#- une analyse de biogaz, ainsi qu’une installation de valorisation ou de destruction dans le cas où l’analyse réalisée révélerait une présence importante de biogaz ;
+
+27l0l0	qu__une_installation_de_valorisation	O
+27l0l1	destruction	O
+27l1l0	biogaz	U
+27l1l1	biogaz	U
+
+#- un suivi semestriel, en hautes et basses eaux, des eaux souterraines et superficielles en amont et en aval du site sur les paramètres suivants : pH, conductivité, DCO, DBO5, ammonium, chlorures, sulfates, nickel, fer et manganèse, arsenic et mercure ;
+
+28l0l0	un_suivi_semestriel	N
+28l0l1	hautes_et_basses_eaux	N
+28l0l2	en_aval_du_site	L
+28l1l0	DCO	S
+28l1l1	DBO5	S
+28l1l2	ammonium	S
+28l1l3	chlorures	S
+28l1l4	sulfates	S
+28l1l5	nickel	S
+28l1l6	fer	S
+28l1l7	manganèse	S
+28l1l8	arsenic	S
+28l1l9	mercure	S
+
+#- la mise en place d’une couverture de terre végétale et la revégétalisation du dôme pour permettre une bonne intégration paysagère ;
+
+29l0l0	la_mise_en_place_d_	N
+29l0l1	la_revégétalisation	N
+29l0l2	dôme	O
+29l0l3	intégration_paysagère	N
+
+#- la création d’un fossé en périphérie du dôme pour collecter les eaux de ruissellement ;
+
+30l0l0	la_création_d_	R
+30l0l1	un_fossé	O
+30l0l2	en_périphérie_du_dôme	L
+
+#- la création d’un merlon argileux d’une hauteur de 0,50 m en bordure du chenal sud, afin d’éviter une inondation du site ;
+
+31l0l0	la_création_d__un_merlon	N
+31l0l1	en_bordure_du_chenal_sud	L
+31l0l2	d_	N
+31l0l3	éviter_une_inondation_du_site	L
+
+#- la clôture du site entièrement.
+
+32l0l0	la_clôture	N
+
+#4 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+33l0l0	SURVEILLANCE_DES_EAUX	A
+33l0l1	SOUTERRAINES	O
+33l1l0	EAUX_SOUTERRAINES	I
+
+#L'arrêté préfectoral du 29/09/2008 prescrit la surveillance semestrielle des eaux souterraines par la mise en place de 3 piézomètres.
+
+34l0l0	L__arrêté_préfectoral	O
+34l0l1	29_09_2008	T
+34l0l2	prescrit	N
+34l0l3	la_surveillance_semestrielle	A
+34l0l4	des_eaux_souterraines	A
+34l0l5	la_mise_en_place	N
+
+#Les paramètres à analyser sont les suivants: pH, conductivité, DCO, DBO5, ammonium, chlorures, sulfates, nickel, fer et manganèse, arsenic et mercure
+
+35l1l0	pH	S
+35l1l1	DCO	S
+35l1l2	DBO5	S
+35l1l3	ammonium	S
+35l1l4	chlorures	S
+35l1l5	sulfates	S
+35l1l6	nickel	S
+35l1l7	fer	S
+35l1l8	manganèse	S
+35l1l9	arsenic	S
+35l1l10	mercure	S
+
+#Le niveau piézomètrique est relevé à chaque campagne.
+
+
+#5 - SURVEILLANCE DES EAUX SUPERFICIELLES
+
+37l0l0	SURVEILLANCE_DES_EAUX	A
+37l0l1	SUPERFICIELLES	O
+
+#L'arrêté préfectoral du 29/09/2008 prescrit la surveillance semestrielle du chenal au sud de la décharge, en amont et en aval du site, selon les modalités identiques à celles des eaux souterraines.
+
+38l0l0	L__arrêté_préfectoral	O
+38l0l1	29_09_2008	T
+38l0l2	prescrit	N
+38l0l3	la_surveillance_semestrielle	A
+38l0l4	chenal	O
+38l0l5	au_sud_de_la_décharge	L
+38l0l6	en_amont_et_en_aval_du_site	L
+38l0l7	les_modalités	O
+
+#6 - RESTRICTIONS D'USAGE
+
+39l0l0	USAGE	O
+
+#L'arrêté préfectoral du 29/09/2008 prescrit des restrictions d'usage de la décharge réhabilitée qui devront être inscrites au registre des hypothèques (aujourd'hui Service de la publicité foncière) selon une procédure d'institution de servitudes laissé au choix de l'exploitant.
+
+40l0l0	L__arrêté_préfectoral	O
+40l0l1	du_29_09_2008	T
+40l0l2	prescrit_des_restrictions_d__usage	N
+40l0l3	la_décharge_réhabilitée	O
+40l0l4	registre_des	O
+40l0l5	l__exploitant	O
+
+#Interdictions de constructions à usage d'habitation, de travaux de voiries, d'affouillements, de sondage, de forage  et de cultures (agricoles, potagères et de pâturage)
+
+41l0l0	Interdictions	N
+41l0l1	de_constructions_à_usage	O
+41l0l2	affouillements___de_sondage___de_forage___et_de_cultures	L

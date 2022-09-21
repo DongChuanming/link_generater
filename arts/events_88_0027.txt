@@ -1,0 +1,118 @@
+
+#88.0027
+#Le site de Neufchateau a accueilli a priori une usine fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	priori_une	O
+0l0l1	usine_fabriquant_du_gaz_à_partir_de_la_distillation	N
+
+#Actuellement, il est utilisé pour les besoins des entreprises EDF et / ou Gaz de France.
+
+1l0l0	Actuellement	O
+1l0l1	__il_est_utilisé_pour	N
+1l0l2	les_besoins	R
+1l0l3	des	O
+1l0l4	entreprises_EDF_et__	A
+1l0l5	ou_Gaz_de_France	R
+1l0l6	_	A
+
+#Le site repose sur des terrains alluvionnaires limoneux, la première nappe présente au droit du site est la nappe des alluvions de la Mouzon, cet acquifère n'est pas exploité pour l'eau potable à proximité du site.
+
+2l1l0	alluvionnaires_limoneux___la_première	I
+2l1l1	nappe_présente	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+3l0l0	Gaz_de_France	O
+3l0l1	il_gère___répartis	L
+3l0l2	territoire__	L
+
+#La méthodologie a consisté à hiérarchiser les sites en fonction de leur sensibilité vis-à-vis de l'environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site).
+
+4l0l0	La_méthodologie	O
+4l0l1	a_consisté	N
+4l0l2	à_hiérarchiser	O
+4l0l3	sites_en_fonction	O
+4l1l0	La_méthodologie	I
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maitrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+5l0l0	méthode_a_abouti_à_l__établissement	O
+5l0l1	de_5	R
+5l0l2	classes_de_priorité	O
+5l0l3	pour_lesquelles_les_engagements	O
+
+#Le site de l'ancienne usine à gaz de Neufchateau est en classe 4 du protocole.
+
+6l0l0	Le_site_de_l__ancienne	N
+6l0l1	usine_à_gaz	O
+6l0l2	de_Neufchateau_est_en_classe	N
+6l0l3	du_protocole__	O
+
+#De ce fait, c'est un site dont la sensibilité vis-à-vis de l'homme, des eaux souterraines et superficielles est très faible.
+
+7l0l0	De_ce_fait	O
+7l0l1	__c__est_un_site_dont_la	O
+7l0l2	sensibilité_vis_à_vis	L
+
+#Une campagne de 10 sondages de sols a été menée en avril 2005.
+
+
+#Ces investigations ont permis de détecter une contamination des sols correspondant à l'emplacement de l'ancienne zone de déversement des goudrons.
+
+9l0l0	Ces_investigations_ont_permis_de_détecter_une	N
+9l0l1	contamination_des_sols_correspondant_à_l__emplacement_de_l__ancienne_zone_de_déversement_des_goudrons__	T
+
+#La pollution est caractérisée par la présence de remblais souillés par des goudrons, le volume contaminé est estimé à environ 150 m3.
+
+10l0l0	La_pollution_est_caractérisée	N
+10l0l1	par_la_présence_de_remblais_souillés	N
+10l0l2	est_estimé_à_environ_150_m3__	O
+
+#Une fosse contenant encore environ 40 m3 de goudrons a été découverte.
+
+11l0l0	goudrons_a_été	N
+11l0l1	découverte	O
+
+#Ces deux secteurs ont été traités en mars 2006, cependant les travaux ont mis en évidence l'existence d'une pollution au droit du poste de transformation électrique qui n'a pu être traitée.
+
+12l0l0	Ces_deux_secteurs	O
+12l0l1	2006___cependant	A
+12l0l2	les_travaux	N
+12l1l0	2006___cependant	U
+
+#Bilan du protocole anciennes usines à gaz – Réunion du 5 avril 2006 avec l'inspection des installations classées :
+
+13l0l0	Bilan_du_protocole	O
+13l0l1	anciennes_usines	N
+13l0l2	à_gaz___Réunion	T
+13l0l3	installations_classées__	O
+
+#L’étude historique a été finalisée et a permis de localiser un ouvrage souterrain contenant des goudrons ainsi qu’une zone de terres ayant servi de déversoir des excédents de goudron.
+
+14l0l0	étude_historique_a_été_finalisée_et_a	O
+14l0l1	permis_de	N
+14l0l2	localiser_un	T
+14l0l3	ouvrage_souterrain_contenant_des_goudrons_ainsi_qu_	O
+
+#Les travaux de vidange de la cuve et d’élimination de ces goudrons ont été réalisés du 13 février au 6 mars 2006, ainsi que la dépollution de la zone d’épandage.
+
+15l0l0	Les_travaux_de_vidange	N
+15l0l1	de_la_cuve_et_d_	N
+15l0l2	goudrons_ont_été_réalisés	O
+15l0l3	que_la_dépollution	O
+15l0l4	de_la_zone_d__épandage__	N
+15l1l0	au_6_mars_2006	U
+
+#En raison de la présence d’un poste de transformation de 63kV, l’ensemble de cette zone n’a pu être traité.
+
+16l0l0	En_raison_de_la_présence	N
+16l0l1	d__un_poste	O
+16l0l2	de_transformation	N
+16l0l3	de_63kV___l_	O
+16l0l4	ensemble_de_cette	N
+16l0l5	zone_n__a_pu_être_traité__	T
+
+#En conséquence, Gaz de France a mis en place un dispositif de contrôle semestriel de la qualité des eaux souterraines portant sur les HAP, BTEX, Cyanures et phénols.
+
+17l0l0	France_a_mis_en_place_un_dispositif	O
+17l0l1	contrôle_semestriel_de_la_qualité	O

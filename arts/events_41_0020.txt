@@ -1,0 +1,379 @@
+
+#41.0020
+#Le site de la société "Les Tanneries Solognotes" est situé sur le territoire de la commune de VENDOME.
+
+0l0l0	Le_site	O
+0l0l1	Tanneries_Solognotes	O
+0l0l2	situé_sur_le_territoire_de_la_commune_de_VENDOME	L
+0l1l0	Les_Tanneries_Solognotes	I
+0l1l1	VENDOME	I
+
+#Sa superficie est de 6715 m2 et couvre les parcelles cadastrales section BE n° 207, 210, 495, 496, 497 et 498.
+
+1l0l0	les_parcelles_cadastrales	O
+
+#De 1850 à 2002, la société "Les Tanneries Solognotes" a exploité une installation de tannage à VENDOME.
+
+2l0l0	De_1850_à_2002__	T
+2l0l1	la_société	O
+2l0l2	Tanneries	O
+2l0l3	a_exploité	N
+2l0l4	une_installation_de_tannage	O
+2l0l5	à_VENDOME	L
+2l1l0	Les_Tanneries_Solognotes	I
+
+#Au titre des installations classées pour la protection de l'environnement, l'activité de tannage, en regard de la nomenclature des installations classées, était soumise à autorisation préfectorale.
+
+3l0l0	Au_titre	R
+3l0l1	des_installations_classées_pour_la_protection_de_l__environnement	O
+3l0l2	l__activité_de_tannage	A
+3l0l3	était_soumise_à	R
+3l0l4	autorisation_préfectorale	O
+
+#Il n'est plus le siège d'activités industrielles depuis 2002.
+
+4l0l0	Il	O
+4l0l1	n__est_plus	N
+4l0l2	le_siège_d__activités_industrielles	A
+4l0l3	depuis_2002	T
+
+#Les infrastructures suivantes sont notamment présentes sur le site: une maison d'habitation, d'anciens bureaux, des bâtiments industriels contenant pour certains des cuves de traitement, une cuve enterrée de fioul,...
+
+5l0l0	Les_infrastructures	O
+5l0l1	une_maison	O
+5l0l2	d__habitation	A
+5l0l3	des_bâtiments_industriels	O
+5l0l4	contenant	R
+5l0l5	cuves_de_traitement	O
+5l0l6	une_cuve_enterrée	O
+5l0l7	de_fioul	A
+5l1l0	des_cuves	D
+5l1l1	une_cuve_enterrée	D
+5l1l2	fioul	S
+
+#L'environnement immédiat du site est constitué par:
+
+6l0l0	L__environnement_immédiat	O
+
+#- le Loir au sud,
+
+7l0l0	le_Loir_au_sud	L
+
+#- des maisons au nord et à l'ouest,
+
+8l0l0	des_maisons	O
+8l0l1	au_nord_et_à_l__ouest	L
+
+#- un espace vert public à l'est.
+
+9l0l0	un_espace_vert	O
+
+#En 2004, dans le cadre d'un projet immobilier résidentiel qui n'a pas abouti, un état des lieux  de la qualité des sols est réalisé.
+
+10l0l0	En_2004__	T
+10l0l1	dans_le_cadre_d_	R
+10l0l2	un_projet_immobilier_résidentiel	N
+10l0l3	un_état_des_lieux	N
+10l0l4	de_la_qualité_des_sols	O
+10l0l5	est_réalisé	N
+
+#Les résultats d'investigation mettent en évidence des contaminations localisées des sols par des métaux (baryum, plomb, arsenic et cuivre) et par du xylène.
+
+11l0l0	des_contaminations_localisées	N
+11l0l1	sols	O
+11l0l2	des_métaux	O
+11l1l0	métaux	S
+11l1l1	baryum	S
+11l1l2	plomb	S
+11l1l3	cuivre	S
+11l1l4	xylène	S
+
+#Les bâtiments sont fortement dégradés, de nombreux bidons et fûts vides ayant contenus divers produits chimiques, ainsi qu'une cuve enterrée et une aérienne contenant du fioul domestique.
+
+12l0l0	Les_bâtiments	O
+12l0l1	sont_fortement_dégradés	N
+12l0l2	fûts_vides	O
+12l0l3	une_cuve_enterrée	O
+12l0l4	fioul_domestique	A
+12l1l0	fûts_vides	U
+12l1l1	produits_chimiques	U
+12l1l2	fioul_domestique	U
+
+#Un transformateur à bain d'huile et des mâchefers sont également recensés.
+
+13l0l0	Un_transformateur	O
+
+#Les concentrations anormales en métaux lourds et xylène rendent le site incompatible avec l'usage futur du site projeté d'habitations collectives.
+
+14l0l0	le_site	O
+14l0l1	l_	A
+14l0l2	usage_futur_du_site_projeté	O
+14l1l0	métaux_lourds	S
+14l1l1	xylène	S
+
+#Au vu des résultats d'analyse et du projet de changement d'usage du site, les investigations doivent être approfondies pour rendre le risques sanitaire acceptable.
+
+15l0l0	changement_d__usage	N
+15l0l1	les_investigations	N
+15l0l2	doivent	R
+15l0l3	être_approfondies	N
+
+#Par arrêté préfectoral du 30 décembre 2004, des mesures de sécurisation sont prescrites à l'ancien exploitant.
+
+16l0l0	Par_arrêté_préfectoral	O
+16l0l1	du_30_décembre_2004__	T
+16l0l2	des_mesures	N
+16l0l3	sécurisation_sont_prescrites	N
+16l0l4	l__ancien_exploitant	O
+
+#Ces mesures concernent notamment:
+
+
+#- L'évacuation et l'élimination de tous les produits dangereux;
+
+18l0l0	l__élimination_de_tous_les_produits_dangereux	N
+18l1l0	les_produits_dangereux	U
+
+#- L'extraction ou la mise en sécurité des réservoirs enterrés;
+
+19l0l0	L__extraction	N
+19l0l1	la_mise_en_sécurité	N
+19l0l2	réservoirs_enterrés	O
+
+#- La réalisation de toutes mesures nécessaires à la mise en sécurité immédiate du site.
+
+
+#Par arrêté du 27 avril 2005, le préfet de Loir et Cher prescrit à la société Les Tanneries Solognotes, la mise en place d'une surveillance des eaux souterraines et la réalisation d'une étude détaillée des risques.
+
+21l0l0	du_27_avril_2005__	T
+21l0l1	le_préfet	O
+21l0l2	de_Loir_et_Cher_prescrit	N
+21l0l3	la_société_Les_Tanneries_Solognotes	O
+21l0l4	la_mise_en_place_d_	N
+21l0l5	une_surveillance_des_eaux_souterraines	A
+21l0l6	la_réalisation_d__une_étude_détaillée_des_risques	N
+21l1l0	le_préfet	I
+21l1l1	la_société_Les_Tanneries_Solognotes	I
+
+#En 2005, l'exploitant transmet à l'inspection des installations classées 2 bordereaux de suivi de déchets industriels correspondant à l'élimination de 200 kg de déchets.
+
+22l0l0	En_2005__	T
+22l0l1	l__exploitant	O
+22l0l2	transmet	N
+22l0l3	l__inspection_des_installations_classées	O
+22l0l4	2_bordereaux	O
+22l0l5	de_suivi_de_déchets_industriels	O
+22l0l6	correspondant_à	R
+22l0l7	l__élimination	N
+22l0l8	200_kg_de_déchets	O
+
+#Par la suite, l'arrêté préfectoral de 2005 fait l'objet d'un recours en contentieux de la part de l'exploitant, sur la non responsabilité de la société de la pollution détectée.
+
+23l0l0	l__arrêté_préfectoral	O
+23l0l1	de_2005	T
+23l0l2	fait_l__objet_d_	R
+23l0l3	l__exploitant	O
+23l0l4	la_société	O
+23l0l5	pollution_détectée	N
+
+#Ce recours est rejeté le 17/10/2008 par le tribunal administratif.
+
+24l0l0	le_17_10_2008	T
+24l0l1	le_tribunal_administratif	O
+
+#La liquidation judiciaire de la société est prononcée le 16 janvier 2009.
+
+25l0l0	La_liquidation_judiciaire_de	N
+25l0l1	la_société	O
+25l0l2	est_prononcée	N
+25l0l3	le_16_janvier_2009__	T
+
+#Un arrêté préfectoral daté du 17/07/2009 met en demeure la société Les Tanneries Solognotes représentée par le mandataire judiciaire de mettre en sécurité le site.
+
+26l0l0	Un_arrêté_préfectoral	O
+26l0l1	daté_du_17_07_2009	T
+26l0l2	Tanneries_Solognotes	O
+26l0l3	mettre_en_sécurité	N
+26l0l4	le_site	O
+26l1l0	la_société_Les_Tanneries_Solognotes	I
+
+#Lors de l'inspection du site en septembre 2009, il a été constaté que le mandataire judiciaire en charge de la liquidation n'avait pas respecté les dispositions de l'arrêté préfectoral de mise en demeure.
+
+27l0l0	l__inspection	N
+27l0l1	en_septembre_2009__	T
+27l0l2	il	O
+27l0l3	a_été_constaté	N
+27l0l4	le_mandataire_judiciaire	O
+27l0l5	l__arrêté_préfectoral	O
+
+#Comme le prévoit le code de l'Environnement en son article L514-1, une procédure de consignation de fonds a été engagée et un arrêté préfectoral de consignation a été pris le 11/05/2010 à l'encontre du mandataire.
+
+28l0l0	une_procédure_de_consignation_de_fonds	O
+28l0l1	a_été_engagée	N
+28l0l2	un_arrêté_préfectoral_de_consignation	T
+28l0l3	a_été_pris	N
+28l0l4	le_11_05_2010	T
+
+#Le site a été vendu par contrat de droit privé à un particulier le 09/06/2010 pour un usage d'habitation individuelle.
+
+29l0l0	Le_site	O
+29l0l1	a_été_vendu_par_contrat_de	N
+29l0l2	un_particulier	O
+29l0l3	le_09_06_2010	T
+29l0l4	un_usage_d__habitation_individuelle	A
+
+#Celui-ci ne reprenant pas l'exploitation de l'installation classée, les Tanneries Solognotes sont toujours responsables de la remise en état du site.
+
+30l0l0	l__exploitation	N
+30l0l1	l__installation_classée	O
+30l0l2	les_Tanneries_Solognotes	O
+30l0l3	la_remise_en_état_du_site	N
+
+#Le site a fait l'objet d'une division devant notaire au profit d'un tiers en 2012.
+
+31l0l0	Le_site	O
+31l0l1	a_fait_l__objet_d_	R
+31l0l2	une_division_devant_notaire	N
+31l0l3	au_profit_d_	R
+31l0l4	un_tiers	O
+31l0l5	en_2012__	T
+
+#Des analyses réalisées en 2010 sur le contenu des cuves de tannage mettent en évidence la présence de certains métaux lourds retrouvés dans les sols (cuivre, baryum).
+
+32l0l0	Des_analyses_réalisées	N
+32l0l1	en_2010	T
+32l0l2	tannage	A
+32l1l0	métaux_lourds	S
+32l1l1	cuivre	S
+32l1l2	baryum	S
+
+#Situation du site suite à la visite d'inspection de 2012:
+
+33l0l0	à_la_visite	N
+33l0l1	d__inspection	N
+33l0l2	de_2012	T
+
+#- Des cuves  non vidangées  de traitement (bains et tannages) et des futs de produits chimiques sont encore présents sur le site;
+
+34l0l0	Des_cuves	O
+34l0l1	et_des_futs_de_produits_chimiques	O
+34l1l0	Des_cuves	D
+34l1l1	de_produits_chimiques	U
+
+#- Une cuve de fioul aérienne contenant des résidus;
+
+35l0l0	Une_cuve_de_fioul_aérienne	O
+35l1l0	fioul_aérienne_contenant_des_résidus	U
+
+#- L'état dégradé de la clôture ne permet pas de limiter l'accès au site;
+
+36l0l0	la_clôture	O
+
+#- Aucune investigation environnementale complémentaire n'a été réalisée.
+
+37l0l0	investigation_environnementale	N
+37l0l1	a_été_réalisée	N
+
+#Suite au non respect de la mise en sécurité du site, la procédure de consignation est maintenue.
+
+38l0l0	Suite	R
+38l0l1	la_mise_en_sécurité	N
+38l0l2	du_site	O
+38l0l3	la_procédure	O
+
+#Les services de la Direction régionale de l'environnement, de l'aménagement et du logement (DREAL Centre) ont procédé à une inspection du site le 2 mai 2013.
+
+39l0l0	Les_services_de_la_Direction_régionale_de_l__environnement	O
+39l0l1	DREAL_Centre	O
+39l0l2	ont_procédé_à	N
+39l0l3	une_inspection_du_site	N
+39l0l4	le_2_mai_2013__	T
+39l1l0	DREAL_Centre	I
+
+#Ils ont constaté que les dispositions imposées par les articles R. 512-39-1 et R. 512-39-1 du code de l’environnement, respectivement pour la cessation d’activité et pour la remise en état du site, étaient satisfaites pour un usage comparable à la dernière période d’exploitation (usage industriel).
+
+40l0l0	la_cessation_d__activité	N
+40l0l1	la_remise_en_état_du_site	N
+40l0l2	dernière_période_d__exploitation	N
+40l0l3	usage_industriel	O
+
+#En conséquence, sur proposition de l’inspection des installations classées  le Préfet du Loir-et-Cher a décidé :
+
+41l0l0	l__inspection_des_installations_classées	O
+41l0l1	__le_Préfet_du	O
+41l0l2	Loir_et_Cher_a_décidé	N
+41l1l0	__le_Préfet	I
+
+#1.	de lever la consignation de fonds prescrite par arrêté n°2010-131-6 du 11 mai 2010, considérant que toutes les dispositions de mise en sécurité du site, imposées par l’arrêté préfectoral de mise en demeure n°2009-198-3 du 17 juillet 2009, étaient satisfaites ;
+
+42l0l0	lever_la	N
+42l0l1	consignation_de_fonds	O
+42l0l2	11_mai_2010__	T
+42l0l3	toutes_les_dispositions_de_mise	O
+42l0l4	l__arrêté_préfectoral	O
+42l0l5	17_juillet_2009__	T
+
+#2.	de donner acte de la cessation d’activité de l’établissement Les Tanneries Solognotes, considérant que les dispositions imposées par l’article R. 512-39-1 du Code de l’environnement sont satisfaites pour un usage comparable à celui de la dernière période d'exploitation de l'installation (usage industriel).
+
+43l0l0	de_donner_acte	N
+43l0l1	de_la_cessation_d__activité	N
+43l0l2	l__établissement_Les_Tanneries_Solognotes	O
+43l0l3	dernière_période	T
+
+#Une étude historique a été réalisée en mai 2013 et les résultats ont été portés à la connaissance de l'inspection des installations classées.
+
+44l0l0	Une_étude_historique_a_été_réalisée	N
+44l0l1	en_mai_2013	T
+44l0l2	les_résultats	O
+44l0l3	ont_été_portés_à_la_connaissance	N
+44l0l4	l__inspection_des_installations_classées	O
+
+#Ces derniers témoignent de l'absence d'utilisation industrielle des parcelles n° 207, 495, 496, 497 et 498 qui aurait pu contaminer les sols et que rien ne s'oppose à la réhabilitation des locaux qui s'y trouve, pour un usage d'habitation.
+
+45l0l0	utilisation_industrielle	O
+45l0l1	contaminer	N
+45l0l2	les_sols	O
+45l0l3	la_réhabilitation_des_locaux	N
+45l0l4	un_usage_d__habitation	A
+
+#En revanche, compte tenu, d'une part, des activités passées du site et de la présence avérée de concentrations anormalement élevées en métaux et en xylène dans les sols prélevés en zone saturée et non saturée de la parcelle section BE n°210 (cf. rapport du diagnostic simplifié des sols), d'autre part, en l'absence d'évaluation des risques sanitaires, il apparaît souhaitable :
+
+46l0l0	des_activités_passées	N
+46l0l1	xylène	O
+46l0l2	prélevés	N
+46l0l3	en_zone_saturée	L
+46l1l0	métaux	S
+46l1l1	xylène	S
+
+#1. de ne pas envisager de délivrer de permis de construire sur la parcelle section BE n°210, pour des usages autres qu'industriels ;
+
+47l0l0	de_ne_pas_envisager_de_délivrer	N
+47l0l1	de_permis_de_construire_sur	R
+47l0l2	la_parcelle_section_BE	O
+47l0l3	des_usages	O
+
+#2. d'interdire, sur l'ensemble des parcelles du site, la création d'ouvrages de prélèvement de la nappe alluviale et de l'utilisation de ses eaux pour quelque usage que ce soit et en particulier pour la consommation humaine, à l’exception de la surveillance de sa qualité.
+
+48l0l0	interdire	N
+48l0l1	la_création_d__ouvrages_de_prélèvement	N
+48l0l2	l__utilisation_de_ses_eaux	A
+48l0l3	quelque_usage	O
+48l0l4	la_consommation_humaine	A
+48l0l5	la_surveillance_de_sa_qualité	A
+
+#Un porter à connaissance a été transmis à la mairie (suite à la visite de 2013 et à l’étude historique) pour préconiser, en l'absence d'investigations complémentaires :
+
+49l0l0	Un_porter_à_connaissance	O
+49l0l1	a_été_transmis	N
+49l0l2	la_mairie	O
+49l0l3	suite_à	R
+49l0l4	la_visite	N
+49l0l5	de_2013	T
+
+#1)le maintient d'une restriction d'usage sur la parcelle section BE 210,
+
+50l0l0	1_le_maintient_d__une_restriction_d__usage	O
+
+#2)la restriction sur l'utilisation des eaux souterraines sur toutes les parcelles du site.
+
+51l0l0	utilisation_des_eaux_souterraines	A

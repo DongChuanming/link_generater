@@ -1,0 +1,396 @@
+
+#18.0028
+#Le site, d'une superficie de 7000 m2, est situé en zone péri-urbaine.
+
+0l0l0	Le_site	O
+0l0l1	est_situé_en_zone_péri_urbaine	L
+
+#Il a accueilli un dépôt d’hydrocarbures (gasoil et fuel) à partir de 1985 et une station service à partir de 1972.
+
+1l0l0	Il	O
+1l0l1	a_accueilli	N
+1l0l2	un_dépôt_d__hydrocarbures	O
+1l0l3	à_partir_de_1985	T
+1l0l4	une_station_service	O
+1l0l5	1972	T
+1l1l0	dépôt	D
+1l1l1	d__hydrocarbures	S
+1l1l2	fuel	U
+
+#La société Mercier est devenue exploitant du site en 1988.
+
+2l0l0	La_société_Mercier	O
+2l0l1	est_devenue_exploitant	N
+2l0l2	du_site	O
+2l0l3	en_1988__	T
+2l1l0	La_société_Mercier	I
+
+#L’activité de stockage a été stoppée en 1998 et les installations mises en sécurité.
+
+3l0l0	L__activité_de_stockage	O
+3l0l1	a_été_stoppée	N
+3l0l2	en_1998	T
+3l0l3	les_installations	O
+3l0l4	mises_en_sécurité	N
+
+#La cessation d’activité a été portée à la connaissance du Préfet fin 2000.
+
+4l0l0	La_cessation_d__activité	N
+4l0l1	a_été_portée_à_la_connaissance	N
+4l0l2	du_Préfet	O
+4l0l3	fin_2000__	T
+4l1l0	du_Préfet	I
+
+#En juillet 2001, la société Mercier a changé de nom pour devenir Caldeo.
+
+5l0l0	En_juillet_2001__	T
+5l0l1	la_société_Mercier	O
+5l0l2	a_changé_de_nom	N
+5l0l3	devenir	N
+5l0l4	Caldeo	O
+5l1l0	la_société_Mercier	I
+5l1l1	Caldeo	I
+
+#La station ELAN, exploitée par Caldeo, a cessé d'exploiter en 2007.
+
+6l0l0	La_station_ELAN	O
+6l0l1	exploitée	N
+6l0l2	Caldeo	O
+6l0l3	a_cessé	N
+6l0l4	d__exploiter	O
+6l0l5	en_2007__	T
+6l1l0	La_station_ELAN	I
+6l1l1	Caldeo	I
+
+#Le site est situé à 500 mètres à l'Ouest de la rivière Grande Sauldre, utilisée pour des activités de pêche et de baignade, et à environ 1800 mètres de l'étang de la misère.
+
+7l0l0	Le_site	O
+7l0l1	est_situé_à_500_mètres_à_l__Ouest_de_la_rivière_Grande_Sauldre	L
+7l0l2	utilisée_pour	R
+7l0l3	des_activités_de_pêche	A
+7l0l4	et_de_baignade	A
+7l0l5	et	R
+7l0l6	à_environ_1800_mètres_de_l__étang_de_la_misère	L
+
+#Trois nappes sont présentes au droit du site :
+
+
+#- la nappe des sables et argiles de Sologne, à 5 mètres de profondeur, est drainée par les cours d'eau,
+
+9l0l0	Sologne	L
+9l0l1	est_drainée	N
+
+#- la nappe de l'Eocène, dont la Grande Sauldre est alternativement un axe de drainage ou d'alimentation de la nappe,
+
+10l0l0	Sauldre	L
+10l0l1	un_axe_de_drainage_ou_d_	O
+10l0l2	alimentation_de_la_nappe	L
+10l1l0	la_Grande_Sauldre	I
+
+#- la nappe du Cénomanien, située à 100 mètres de profondeur, s'écoule vers l'ouest ; elle est très bien protégée par son épaisse couverture marneuse.
+
+11l0l0	vers_l__ouest	N
+
+#Deux captages destinés à l'alimentation en eau potable (AEP) sont situés à 1800 mètres au sud-est et à 4 kilomètres au sud du site.
+
+12l0l0	Deux_captages	O
+12l0l1	destinés_à	R
+12l0l2	l__alimentation_en_eau_potable	A
+12l0l3	situés_à_1800_mètres_au_sud_est_et_à_4_kilomètres_au_sud_du_site	L
+
+#Ils sont approvisionnés par la nappe de l'Eocène.
+
+
+#Dans le cadre de la cessation d’activité de stockage du site, l’Administration a demandé à l’exploitant de réaliser un diagnostic de l’état de pollution des terrains.
+
+14l0l0	Dans_le_cadre_de	R
+14l0l1	la_cessation	N
+14l0l2	d__activité_de_stockage_du_site	A
+14l0l3	l__Administration	O
+14l0l4	a_demandé	N
+14l0l5	l__exploitant	O
+14l0l6	réaliser_un_diagnostic	N
+14l0l7	l__état_de_pollution_des_terrains	O
+
+#Celui-ci,remis en juillet 2001 a mis en évidence une pollution des sols ponctuelle par des hydrocarbures et une contamination des eaux souterraines par des hydrocarbures totaux et des hydrocarbures aromatiques polycycliques (HAP).
+
+15l0l0	en_juillet_2001	T
+15l0l1	une_pollution_des_sols_ponctuelle	N
+15l0l2	une_contamination	O
+15l0l3	eaux_souterraines	O
+15l1l0	hydrocarbures	S
+15l1l1	hydrocarbures_totaux	S
+15l1l2	hydrocarbures_aromatiques_polycycliques	S
+15l1l3	HAP	S
+
+#Une phase flottante est détectée au droit d'un piézomètre.
+
+16l0l0	est_détectée	N
+16l0l1	au_droit	L
+
+#Une surveillance trimestrielle des eaux souterraines s'écoulant au droit du site a été demandée en août 2002 sur les paramètres suivants: hydrocarbures totaux (HCT), HAP, BTEX (Benzène, Toluène, Ethylbenzène, Xylènes).
+
+17l0l0	Une_surveillance_trimestrielle	A
+17l0l1	des_eaux_souterraines	A
+17l0l2	au_droit_du_site	L
+17l0l3	a_été_demandée	N
+17l0l4	en_août_2002	T
+17l1l0	hydrocarbures_totaux	S
+17l1l1	HCT	S
+17l1l2	HAP	S
+17l1l3	BTEX	S
+17l1l4	Benzène	S
+17l1l5	Toluène	S
+17l1l6	Ethylbenzène	S
+17l1l7	Xylènes	S
+
+#A l'automne 2002, des travaux de dépollution ont eu lieu.
+
+18l0l0	A_l__automne_2002__	T
+18l0l1	des_travaux_de_dépollution	N
+18l0l2	ont_eu_lieu	N
+
+#Les cuves de stockage d'hydrocarbures ont été extraites. 175 tonnes de terres souillées ont été évacuées vers un centre de traitement biologique agréé.
+
+19l0l0	Les_cuves_de_stockage_d__hydrocarbures	O
+19l0l1	ont_été_extraites	N
+19l0l2	175_tonnes_de_terres_souillées	O
+19l0l3	ont_été_évacuées_vers	N
+19l0l4	un_centre_de_traitement_biologique_agréé	O
+19l1l0	Les_cuves_de_stockage	D
+19l1l1	d__hydrocarbures	S
+
+#Les échantillons prélevés sur les parois de fouille ont montré une contamination des sols à partir de 50 cm de profondeur jusqu'au toit de la nappe, sur une surface de 450 m2 environ.
+
+20l0l0	une_contamination	N
+
+#Ceux prélevés en fond de fouille ont montré que les objectifs de dépollution y sont atteints.
+
+21l0l0	dépollution	N
+
+#Un écrémage passif a été mis en place pour récupérer la phase flottante détectée dans la nappe de l'Eocène. 3 campagnes de prélèvement ont été menées en septembre ainsi qu'en octobre 2002.
+
+22l0l0	Un_écrémage	N
+22l0l1	a_été_mis_en_place	N
+22l0l2	la_nappe	N
+22l0l3	3_campagnes_de_prélèvement	N
+22l0l4	ont_été_menées	N
+22l0l5	en_septembre	T
+22l0l6	ainsi_qu_	R
+22l0l7	en_octobre_2002	T
+
+#L'épuisement de l'alimentation en phase flottante a été constaté lors de la troisième campagne.
+
+23l0l0	L__épuisement	N
+23l0l1	phase_flottante	O
+23l0l2	a_été_constaté	N
+23l0l3	lors_de	T
+23l0l4	la_troisième_campagne	N
+
+#L'arrêté préfectoral du 18 octobre 2004 impose la réalisation de trois piézomètres supplémentaires, la surveillance trimestrielle de la qualité des eaux souterraines et une évaluation simplifiée des risques (ESR) intégrant les nouvelles données.
+
+24l0l0	L__arrêté_préfectoral	O
+24l0l1	18_octobre_2004	T
+24l0l2	impose_la_réalisation_de	N
+24l0l3	trois_piézomètres	O
+24l0l4	la_surveillance_trimestrielle	A
+24l0l5	de_la_qualité_des_eaux_souterraines	A
+24l0l6	une	O
+24l0l7	évaluation_simplifiée_des_risques	N
+
+#Les premiers résultats ont révélé une contamination de la nappe par des hydrocarbures et des BTEX.
+
+25l0l0	une_contamination_de	N
+25l0l1	la_nappe	O
+25l0l2	des_hydrocarbures	O
+25l1l0	hydrocarbures	S
+25l1l1	des_BTEX	S
+
+#En novembre 2004, des travaux de dépollution ont été réalisés. 2034 tonnes de terres polluées ont évacuées en filières agréées.
+
+26l0l0	En_novembre_2004__	T
+26l0l1	des_travaux_de_dépollution	N
+26l0l2	ont_été_réalisés	N
+26l0l3	2034_tonnes_de_terres_polluées	O
+26l0l4	ont_évacuées_en_filières_agréées	N
+
+#La pollution des terres s'étendant hors des limites de la parcelle appartenant à Caldeo et pour éviter de déstabiliser des bâtiments voisins, des sols souillés par des hydrocarbures et par des xylènes ont été laissés en place.
+
+27l0l0	La_pollution	N
+27l0l1	des_terres	O
+27l0l2	s__étendant	R
+27l0l3	hors_des_limites_de	L
+27l0l4	la_parcelle	O
+27l0l5	appartenant_à	R
+27l0l6	Caldeo	O
+27l0l7	déstabiliser	N
+27l0l8	bâtiments_voisins	O
+27l0l9	des_sols_souillés	R
+27l0l10	ont_été_laissés_en_place	N
+27l1l0	Caldeo	I
+27l1l1	hydrocarbures	S
+27l1l2	xylènes	S
+
+#Un piézomètre a été détruit et remplacé par un autre en juin 2005.
+
+28l0l0	Un_piézomètre	O
+28l0l1	a_été_détruit	N
+28l0l2	en_juin_2005__	T
+
+#En novembre 2006, suite à la cessation temporaire d'activité de la station service et au projet de cessation définitive, CALDEO a fait réaliser un diagnostic des sols et des eaux souterraines au droit de la station.
+
+29l0l0	En_novembre_2006__	T
+29l0l1	suite_à	R
+29l0l2	la_cessation_temporaire_d__activité	N
+29l0l3	la_station_service	O
+29l0l4	projet_de_cessation_définitive	O
+29l0l5	CALDEO	O
+29l0l6	a_fait_réaliser_un_diagnostic	N
+29l0l7	sols_et_des_eaux_souterraines	O
+29l0l8	au_droit_de_la_station	L
+
+#Cette étude a mis en valeur :
+
+
+#- une pollution des sols par des hydrocarbures, des xylènes, du toluène et des composés organiques volatils (COV),
+
+31l0l0	une_pollution_des_sols	N
+31l1l0	hydrocarbures	S
+31l1l1	des_xylènes	S
+31l1l2	du_toluène	S
+31l1l3	composés_organiques_volatils	S
+31l1l4	COV	S
+
+#- une pollution des eaux par des hydrocarbures et des BTEX.
+
+32l0l0	une_pollution_des	N
+32l0l1	eaux	O
+32l0l2	des_hydrocarbures	O
+32l1l0	hydrocarbures	S
+32l1l1	BTEX	S
+
+#- les sources de pollution du sol étant recouvertes avec de l'enrobé et se trouvant en extérieur, le contact direct avec ces sources n'est pas possible et le risque généré par un dégazage est négligeable.
+
+33l0l0	les_sources_de_pollution	O
+33l0l1	se_trouvant_en_extérieur	L
+33l0l2	le	A
+33l0l3	contact_direct	O
+33l0l4	avec	R
+33l0l5	ces_sources	O
+33l0l6	dégazage	N
+
+#La pollution des sols et de l'eau souterraine est très localisée du fait de la faible perméabilité de l'aquifère présent au droit du site.
+
+34l0l0	au_droit_du_site	L
+
+#L'impact sur les eaux souterraines persistant au droit du dépôt et à une augmentation des teneurs en hydrocarbures dans les eaux, un dispositif passif d'oxygénation (DPO) a été installé le 29 janvier 2008 dans deux piézomètres.
+
+35l0l0	L__impact	O
+35l0l1	un_dispositif_passif_d__oxygénation	O
+35l0l2	a_été_installé	N
+35l0l3	le_29_janvier_2008	T
+35l1l0	hydrocarbures	S
+
+#Ce dispositif, qui permet de stimuler la biodégradation des polluants, a permis de diminuer les teneurs d'hydrocarbures dans l'eau entre la date de son implantation et septembre 2009.
+
+36l0l0	les_teneurs	O
+36l0l1	hydrocarbures	O
+36l0l2	entre_la_date_de_son_implantation_et_septembre_2009__	T
+36l1l0	des_polluants	U
+36l1l1	hydrocarbures	S
+
+#Afin de vérifier l'impact de la pollution du site sur l'eau potable, des campagnes de suivi de qualité de l'air ambiant et du réseau AEP ont été menées en 2008.
+
+37l0l0	des_campagnes	N
+37l0l1	de_suivi_de_qualité_de_l__air_ambiant	O
+37l0l2	AEP	O
+37l0l3	ont_été_menées	N
+37l0l4	en_2008__	T
+
+#Elles n'ont pas détecté de polluants dans l'eau potable ou dans l'air de la boutique sur le site.
+
+
+#Suite aux teneurs élevées en hydrocarbures au droit de la station, un traitement de la nappe a été mené à partir d'avril 2008 par ozonation in situ.
+
+39l0l0	Suite	R
+39l0l1	hydrocarbures	O
+39l0l2	au_droit_de_la_station	L
+39l0l3	un_traitement_de_la_nappe	N
+39l0l4	a_été_mené	N
+39l0l5	à_partir_d_	N
+39l0l6	avril_2008	T
+39l0l7	ozonation_in_situ	N
+39l1l0	hydrocarbures	S
+
+#La surveillance des eaux souterraines montre que :
+
+40l0l0	La_surveillance_des_eaux_souterraines	A
+
+#- au droit du dépôt, des teneurs stables en hydrocarbures et un impact en BTEX avec des teneurs supérieures à la valeur de l'arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine.
+
+41l0l0	un_impact	O
+41l0l1	11_janvier_2007	T
+41l1l0	hydrocarbures	S
+41l1l1	BTEX	S
+
+#- au droit de la station, un impact en hydrocarbures qui, après une baisse importante des concentrations entre juin 2008 et juin 2009, s'est stabilisé, et un impact en BTEX sur un piézomètre sur les 5 utilisés pour le suivi, stable depuis décembre 2009.
+
+42l0l0	au_droit_de_la_station	L
+42l0l1	un_impact	O
+42l0l2	concentrations	N
+42l0l3	entre_juin_2008_et_juin_2009__	T
+42l0l4	s__est_stabilisé	N
+42l0l5	un_impact	O
+42l0l6	depuis_décembre_2009__	T
+42l1l0	hydrocarbures	S
+42l1l1	BTEX	S
+
+#Les teneurs de ces deux polluants sont supérieures à celle de l'arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine.
+
+43l0l0	Les_teneurs	O
+43l0l1	11_janvier_2007	T
+
+#La présence de benzène dans les eaux n'est pas liée uniquement à l'ancienne activité de stockage de CALDEO, mais peut être expliquée par la proximité d'autres activités(non exploitées par CALDEO)
+
+44l0l0	les_eaux	O
+44l0l1	activité_de_stockage	A
+44l0l2	CALDEO	O
+44l0l3	exploitées	N
+44l1l0	benzène	S
+44l1l1	CALDEO	I
+44l1l2	CALDEO	I
+
+#La surveillance de la qualité des eaux souterraines se poursuit sur 5 piézomètres.
+
+45l0l0	La_surveillance	A
+45l0l1	la_qualité_des_eaux_souterraines	O
+45l0l2	se_poursuit	N
+
+#Fin 2011, l'ancien exploitant a formulé une demande de réduction de la fréquence de contrôle des eaux souterraines au droit de l'ancien dépôt avec contrôle limité aux hydrocarbures totaux et aux BTEX.
+
+46l0l0	Fin_2011__	T
+46l0l1	l_	O
+46l0l2	exploitant	O
+46l0l3	a_formulé	N
+46l0l4	une_demande_de_réduction	N
+46l0l5	de_la_fréquence	O
+46l0l6	contrôle_des_eaux_souterraines	A
+46l1l0	hydrocarbures_totaux	S
+46l1l1	BTEX	S
+
+#Par lettre en date du 5 mars 2015, le représentant de la société CALDEO a sollicité l’institution de servitudes d’utilité publique concernant ce dépôt pétrolier.
+
+47l0l0	en_date_du_5_mars_2015__	T
+47l0l1	le	O
+47l0l2	la_société_CALDEO	O
+47l0l3	a_sollicité	N
+47l0l4	l__institution_de_servitudes_d__utilité_publique	O
+47l0l5	dépôt_pétrolier	O
+47l1l0	le_représentant_de_la_société_CALDEO	I
+47l1l1	dépôt_pétrolier	D
+
+#Ce dossier amendé en octobre 2015 est en cours d'instruction.
+
+48l0l0	Ce_dossier	O
+48l0l1	amendé	R
+48l0l2	en_octobre_2015	T

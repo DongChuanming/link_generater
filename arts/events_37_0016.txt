@@ -1,0 +1,130 @@
+
+#37.0016
+#Ce site qui n'est actuellement plus exploité, était spécialisé dans la fabrication de produits en amiante-ciment (tôles pour toitures) avec une capacité de production supérieure à 20 000 T/an.
+
+0l0l0	Ce_site	O
+0l0l1	était_spécialisé_dans_la_fabrication_de_produits_en_amiante	A
+0l0l2	une_capacité_de_production	A
+0l0l3	T___an	T
+
+#La mise en sécurité du site a été réalisée.
+
+1l0l0	La_mise_en_sécurité	N
+1l0l1	du_site	O
+1l0l2	a_été_réalisée	N
+
+#Compte tenu de l’usage futur du site (qui doit permettre la ré-industrialisation du site) la solution retenue pour la protection de l’environnement consiste à :
+
+2l0l0	usage_futur_du_site	O
+2l0l1	la_ré_industrialisation_du_site	N
+2l0l2	l__environnement	O
+
+#- laisser ces matériaux en place pour certaines zones, moyennant une consolidation du confinement des déchets,
+
+3l0l0	laisser_ces_matériaux	O
+3l0l1	certaines_zones	O
+3l0l2	une_consolidation	N
+
+#- excaver les terres polluées sur d'autres zones, à les conditionner en big-bag amiante et à les confiner sur site.
+
+4l0l0	excaver	N
+4l0l1	les_terres_polluées	O
+4l0l2	à_les	N
+4l0l3	conditionner	A
+4l0l4	à_les_confiner_sur_site	N
+
+#Cette proposition technique a fait l'objet d'une tierce-expertise.
+
+5l0l0	Cette_proposition_technique	O
+5l0l1	a_fait_l__objet_d_	R
+
+#L'expert :
+
+
+#- valide le choix de confinement des déchets contenant de l’amiante par le recouvrement d’une couche de 50 cm de terres saines,
+
+7l0l0	confinement	N
+7l0l1	le_recouvrement	N
+7l0l2	terres_saines	O
+7l1l0	déchets_contenant	D
+
+#- laisse apparaître la nécessité de renforcer le confinement bitume pour certaines zones.
+
+
+#Ces travaux de confinement ont été effectués en vue de garantir l'absence de contact avec les dépôts d'amiante par :
+
+9l0l0	Ces_travaux_de_confinement_ont_été_effectués_en	N
+
+#- excavation des terres souillées et conditionnement en big-bag spéciaux, recouverts de terre végétale sur une épaisseur minimale de 50 cm;
+
+10l0l0	excavation	N
+10l0l1	des_terres_souillées	O
+
+#- mise en place de couches bitume.
+
+11l0l0	mise_en_place	N
+11l0l1	de_couches_bitume	O
+
+#Les visites d’inspection ont permis de constater que :
+
+
+#- des terres souillées ont été excavées puis conditionnées en big-bags amiante confinés sur site. 310 big-bag de 15 tonnes chacun ont ainsi été entreposés ;
+
+13l0l0	des_terres_souillées	O
+13l0l1	ont_été_excavées	N
+13l0l2	été_entreposés	N
+
+#- le modelage de cette zone de confinement en vue de garantir 50 cm d’épaisseur en tout point a été effectué, notamment par l’ajout de terre de type marno-calcaire, sur les big-bags d’amiante ;
+
+14l0l0	le_modelage	N
+14l0l1	cette_zone_de_confinement	O
+14l0l2	a_été_effectué	N
+14l0l3	big___bags_d__amiante	O
+14l1l0	amiante	U
+
+#- une couverture goudronnée bicouche a été mise en place sur les parties non encore traitées ;
+
+15l0l0	une_couverture_goudronnée_bicouche	O
+15l0l1	a_été_mise_en_place	N
+15l0l2	les	O
+15l0l3	parties_non_encore_traitées	N
+
+#- le contrôle de réhabilitation a été effectué par la société AXE ;
+
+16l0l0	le_contrôle_de_réhabilitation	O
+16l0l1	a_été_effectué	N
+16l0l2	la_société_AXE	O
+16l1l0	la_société_AXE	I
+
+#- l’ancienne zone réservée pour les essais de vieillissement des tôles en amiante-ciment a été démantelée ;
+
+17l0l0	l__ancienne_zone_réservée	O
+17l0l1	les_essais_de_vieillissement_des_tôles	A
+17l0l2	amiante___ciment	O
+17l0l3	a_été_démantelée	N
+
+#- l’accès à la passerelle enjambant le canal des Moulins a été rétabli.
+
+18l0l0	la_passerelle	O
+18l0l1	enjambant_le_canal_des_Moulins	L
+18l0l2	a_été_rétabli	N
+
+#Par ailleurs, de façon à assurer la pérennité du confinement mis en oeuvre, Monsieur le Préfet d'Indre et Loire a institué des servitudes d'utilité publique par arrêté préfectoral n°18897 du 08/11/2010.
+
+19l0l0	Monsieur_le_Préfet_d__Indre_et_Loire	O
+19l0l1	a_institué_des	N
+19l0l2	servitudes_d__utilité_publique	O
+19l0l3	arrêté_préfectoral	O
+19l0l4	du_08_11_2010__	T
+19l1l0	le_Préfet	I
+
+#Par la suite, l’exploitant a mis en place des bornes délimitant les zones contenant des résidus d’amiante ciment et visées par des servitudes d'utilité publique cadrées par l'arrêté préfectoral n°18897 du 08/11/2010.
+
+20l0l0	l__exploitant	O
+20l0l1	a_mis_en_place	N
+20l0l2	des_bornes	O
+20l0l3	délimitant	R
+20l0l4	les_zones	O
+20l0l5	l__arrêté_préfectoral	O
+20l0l6	du_08_11_2010__	T
+20l1l0	amiante_ciment	U

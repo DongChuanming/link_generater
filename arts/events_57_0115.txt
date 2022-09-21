@@ -1,0 +1,123 @@
+
+#57.0115
+#La société SOPRODI est implantée à Hesse sur un terrain de 2500 m2, dont 1300 m2 de surface batie, situé au bord du canal de la Marne au Rhin.
+
+0l0l0	La_société_SOPRODI	O
+0l0l1	est_implantée	N
+0l0l2	à_Hesse	L
+0l0l3	sur_un_terrain	O
+0l0l4	batie	O
+0l0l5	situé_au_bord_du_canal_de_la_Marne_au_Rhin	L
+0l1l0	La_société_SOPRODI	I
+
+#L’entreprise développe une activité de fabrication d’accessoires de tuyauterie flexible à destination de grands comptes des secteurs de l’aéronautique et de l’industrie.
+
+1l0l0	L__entreprise	O
+1l0l1	développe	N
+1l0l2	une_activité_de_fabrication_d__accessoires_de_tuyauterie_flexible	A
+1l0l3	à_destination	R
+1l0l4	de_grands_comptes_des_secteurs_de_l__aéronautique_et_de_l__industrie	A
+
+#Ses activités de transformation des métaux pour la fabrication de soufflets de dilation et travaux métalliques sont soumises à déclaration au titre de la rubrique n°2560 de la nomenclature des installations classées pour la protection de l’environnement et font l’objet du récépissé de déclaration n°2001-245 du 7 septembre 2001.
+
+2l0l0	Ses_activités_de_transformation_des_métaux_pour_la_fabrication_de_soufflets_de_dilation	A
+2l0l1	travaux_métalliques	O
+2l0l2	sont_soumises_à_déclaration	N
+2l0l3	la_nomenclature_des_installations_classées	O
+2l0l4	récépissé	N
+2l0l5	de_déclaration	N
+2l0l6	7_septembre_2001	T
+
+#Suite au constat d’une pollution du site par des solvants chlorés, à savoir notamment le trichloroéthylène (TCE) et le tétrachloroéthylène/perchloroéthylène (PCE), la société SOPRODI s’est vue prescrire, par arrêté préfectoral n° 2000-AG/2-350 du 6 novembre 2000, diverses études visant à déterminer les travaux et aménagements préventifs et/ou curatifs nécessaires pour mettre le site en sécurité à long terme.
+
+3l0l0	Suite	R
+3l0l1	au_constat_d_	R
+3l0l2	une_pollution	N
+3l0l3	la_société_SOPRODI	O
+3l0l4	s__est_vue_prescrire	N
+3l0l5	par_arrêté_préfectoral	O
+3l0l6	6_novembre_2000__	T
+3l0l7	les_travaux	N
+3l0l8	aménagements_préventifs	N
+3l0l9	curatifs	N
+3l1l0	solvants_chlorés	S
+3l1l1	le_trichloroéthylène	S
+3l1l2	TCE	S
+3l1l3	le_tétrachloroéthylène___perchloroéthylène	S
+3l1l4	PCE	S
+3l1l5	la_société_SOPRODI	I
+
+#Les études réalisées ont en particulier mis en évidence que la pollution concerne uniquement la nappe captive sus-jacente non exploitée et non la nappe sous-jacente exploitée pour l’alimentation en eau potable, qui est protégée par des couches argileuses.
+
+4l0l0	Les_études_réalisées	N
+4l0l1	la_nappe_sous_jacente	O
+4l0l2	l__alimentation_en_eau_potable	A
+
+#L’exploitant a mis en place une surveillance de la qualité des eaux souterraines ainsi qu’un traitement de la pollution par pompage et stripping des eaux.
+
+5l0l0	L__exploitant	O
+5l0l1	a_mis_en_place	N
+5l0l2	une_surveillance_de_la_qualité_des_eaux_souterraines	A
+5l0l3	un_traitement_de_la_pollution	N
+5l0l4	pompage	A
+5l0l5	stripping_des_eaux	N
+
+#Lors d’une visite du site en mars 2011, l’inspection a demandé à l’exploitant de procéder à de nouvelles campagnes d’analyses de la qualité des eaux souterraines sur les ouvrages existants, afin de vérifier l’état de pollution résiduel de la nappe d’eau souterraine.
+
+6l0l0	Lors_d_	R
+6l0l1	une_visite	N
+6l0l2	site	O
+6l0l3	en_mars_2011__	T
+6l0l4	l__inspection	O
+6l0l5	de_nouvelles_campagnes_d__analyses	N
+6l0l6	la_qualité_des_eaux_souterraines	O
+6l0l7	les_ouvrages_existants	O
+
+#La société SOPRODI a transmis les résultats des analyses de la qualité des eaux souterraines effectuées en mai et juin 2011 par courrier du 23 mai 2011 complété le 27 juin 2011.
+
+7l0l0	La_société_SOPRODI	O
+7l0l1	a_transmis	N
+7l0l2	les_résultats	O
+7l0l3	analyses_de	R
+7l0l4	la_qualité_des_eaux_souterraines	O
+7l0l5	effectuées_en	N
+7l0l6	mai_et_juin_2011	T
+7l0l7	par_courrier	O
+7l0l8	du_23_mai_2011	T
+7l0l9	le_27_juin_2011__	T
+7l1l0	La_société_SOPRODI	I
+
+#Les résultats d’analyses ont révélé des teneurs en solvants chlorés et en TCE notamment (teneur de 1 000 µg/l en mai 2011), supérieures au seuil de qualité de l’eau fixé dans l’arrêté ministériel du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine (seuil de 10 µg/l pour la somme TCE+PCE).
+
+8l0l0	des_teneurs	O
+8l0l1	en_mai_2011__	T
+8l0l2	11_janvier_2007	T
+8l1l0	solvants_chlorés	S
+8l1l1	TCE_notamment	S
+8l1l2	TCE_PCE	S
+
+#Néanmoins, les teneurs mesurées avaient diminué par rapport  à celles mesurées précédemment sur cet ouvrage.
+
+
+#Ces résultats ont conduit Monsieur le Préfet de la Moselle à imposer à la société SOPRODI, par arrêté préfectoral n° 2011-DLP/BUPE-348 en date du 26 septembre 2011 :
+
+10l0l0	Monsieur_le_Préfet_de_la_Moselle	O
+10l0l1	à_imposer	N
+10l0l2	la_société_SOPRODI	O
+10l0l3	en_date_du_26_septembre_2011	T
+10l1l0	le_Préfet	I
+10l1l1	de_la_Moselle	I
+10l1l2	la_société_SOPRODI	I
+
+#- la mise en place d’une surveillance semestrielle de la qualité des eaux souterraines ;
+
+11l0l0	la_mise_en_place_d_	N
+11l0l1	une_surveillance_semestrielle	A
+11l0l2	la_qualité_des_eaux_souterraines	O
+
+#- de proposer, dans un délai de douze mois, les mesures de gestion appropriées permettant de s’assurer que le site n’est pas source de pollution vers l’extérieur et qu’il est compatible avec l’usage qui y est exercé.
+
+12l0l0	dans_un_délai_de_douze_mois	T
+12l0l1	les_mesures_de_gestion	O
+12l0l2	pollution_vers	L
+12l0l3	l__extérieur	O

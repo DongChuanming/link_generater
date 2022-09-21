@@ -1,0 +1,157 @@
+
+#30.0003
+#Le site d'Aigues-Vives est spécialisé dans la production de produits phytosanitaires liquides (herbicides, insecticides et fongicides) à des fins agricoles.
+
+0l0l0	Le_site_d__Aigues_Vives	O
+0l0l1	est_spécialisé_dans	R
+0l0l2	la_production_de_produits_phytosanitaires_liquides	A
+0l0l3	des_fins_agricoles	O
+
+#Exploité depuis 1962, le site s’étend sur une superficie d’environ 13 hectares en bordure de la route départementale n°142, du chemin départemental n° 742 et de la voie ferrée (axe Nîmes – Montpellier) au sud de la commune  d'Aigues-Vives, en zone agricole.
+
+1l0l0	Exploité	N
+1l0l1	depuis_1962	T
+1l0l2	le_site	O
+1l0l3	en_bordure_de_la_route_départementale_n__142___du_chemin_départemental	L
+1l0l4	la_voie_ferrée	O
+1l0l5	__axe_Nîmes___Montpellier	L
+1l0l6	au_sud_de_la_commune___d__Aigues_Vives	L
+1l0l7	en_zone_agricole	O
+
+#L'usine SYNGENTA,anciennement CIBA-GEIGY puis NOVARTIS incorpore du métolachlore (MOC) dans la composition des produits phytosanitaires qu'elle fabrique.
+
+2l0l0	L__usine_SYNGENTA	O
+2l0l1	anciennement	N
+2l0l2	CIBA___GEIGY	O
+2l0l3	NOVARTIS	O
+2l0l4	incorpore	R
+2l0l5	du_métolachlore	O
+2l0l6	la_composition_des_produits_phytosanitaires	O
+2l1l0	SYNGENTA	I
+2l1l1	CIBA___GEIGY_puis_NOVARTIS	I
+2l1l2	du_métolachlore	S
+2l1l3	MOC	S
+2l1l4	des_produits_phytosanitaires	U
+
+#En 1992, du MOC a été détecté dans le captage Alimentation en Eau Potable (AEP) du village de Gallargues, situé à environ 850 m au sud-ouest de l’usine, en aval hydraulique du site.
+
+3l0l0	En_1992	T
+3l0l1	a_été_détecté	N
+3l0l2	dans	R
+3l0l3	le_captage_Alimentation_en_Eau_Potable___AEP	O
+3l0l4	du_village_de_Gallargues	L
+3l0l5	situé_à_environ_850_m_au_sud_ouest_de_l__usine	L
+3l0l6	en_aval_hydraulique_du_site	L
+3l1l0	MOC	S
+
+#Le captage a été fermé suite à cet évènement.
+
+4l0l0	Le_captage	O
+4l0l1	a_été_fermé	N
+4l0l2	suite	R
+4l0l3	à_cet_évènement	N
+
+#Une étude destinée à déterminer l'origine de la pollution a été engagée par ANTEA à la demande de CIBA-GEIGY dès 1992.
+
+5l0l0	Une_étude_destinée_à_déterminer	N
+5l0l1	l__origine_de_la_pollution	O
+5l0l2	a_été_engagée	N
+5l0l3	ANTEA	O
+5l0l4	la_demande	N
+5l0l5	CIBA___GEIGY	O
+5l0l6	dès_1992	T
+5l1l0	ANTEA	I
+5l1l1	CIBA___GEIGY	I
+
+#A partir de 1993, une barrière hydraulique a été mise en place par étapes sur le site afin de minimiser la migration potentielle du MOC en aval du site.
+
+6l0l0	A	R
+6l0l1	partir_de_1993	T
+6l0l2	une_barrière_hydraulique	O
+6l0l3	a_été_mise_en	N
+6l0l4	en_aval_du_site	L
+6l1l0	MOC	S
+
+#En parallèle, plusieurs milliers de tonnes de sols impactés par du MOC ont été excavés au droit de 2 sources de pollution au MOC.
+
+7l0l0	milliers_de_tonnes_de_sols_impactés	O
+7l0l1	par	N
+7l0l2	du_MOC	O
+7l0l3	ont_été_excavés	N
+7l0l4	au_droit_de	L
+7l0l5	2_sources_de_pollution	O
+7l1l0	MOC	S
+7l1l1	MOC	S
+
+#Cependant, il reste un impact résiduel en MOC sur la nappe souterraine au droit du site 20 ans après la mise en place de la barrière hydraulique.
+
+8l0l0	ans	T
+8l0l1	après_la_mise_en_place_de	N
+8l0l2	la_barrière_hydraulique	O
+
+#D'une manière générale, l'ensemble des piézomètres proches situés à l'extérieur du site montre désormais des teneurs résiduelles faibles en métolachlore (teneurs inférieures à 20 µg/l, à comparer au seuil OMS de 10 µg/l);sur le puits de Rouvillac les teneurs sont inférieures à 4 µg/l.
+
+9l0l0	situés_à_l__extérieur_du_site	L
+9l0l1	métolachlore	O
+9l0l2	Rouvillac	L
+9l1l0	métolachlore	S
+
+#La barrière hydraulique constitué par les forages F2,F5,F6 et F7 intercepte le métolachlore et évite sa migration à l'extérieur du site.
+
+10l0l0	les_forages	N
+10l0l1	métolachlore	O
+10l1l0	métolachlore	S
+
+#Une présentation montrant l'efficacité de la barrière hydraulique et les résultats de la surveillance des eaux souterraines a été faite à la CLIC le 2 juin 2008.
+
+11l0l0	Une_présentation	O
+11l0l1	surveillance_des_eaux_souterraines	A
+11l0l2	a_été_faite	N
+11l0l3	la_CLIC	O
+11l0l4	le_2_juin_2008__	T
+
+#Les terres polluées excavées ont été éliminées en filière agréée en février et mars 2012.
+
+12l0l0	Les_terres_polluées	O
+12l0l1	ont_été_éliminées_en_filière_agréée	N
+12l0l2	en_février_et_mars_2012__	T
+
+#Afin d’évaluer les solutions de traitement de la pollution résiduelle, l’exploitant a engagé plusieurs études :
+
+13l0l0	l__exploitant	O
+13l0l1	a_engagé	N
+13l1l0	pollution_résiduelle	U
+
+#- un diagnostic complémentaire du sol (sept 2012)
+
+14l0l0	un_diagnostic_complémentaire_du_sol	N
+14l0l1	__sept_2012__	T
+
+#- un complément d’étude historique (janvier 2013),
+
+15l0l0	janvier_2013__	T
+
+#-un diagnostic environnemental (mai 2014),
+
+16l0l0	_un_diagnostic_environnemental	N
+16l0l1	__mai_2014__	T
+
+#- un plan de gestion (mai 2014),
+
+17l0l0	un_plan_de_gestion	O
+17l0l1	__mai_2014__	T
+
+#- une étude pour l’optimisation et le renforcement de la barrière hydraulique (sept 2014).
+
+18l0l0	une_étude	N
+18l0l1	l__optimisation	N
+18l0l2	le_renforcement_de_la_barrière_hydraulique	O
+18l0l3	__sept_2014__	T
+
+#Le plan de gestion conclut  qu’  « il n’est pas pertinent d’essayer d’améliorer la qualité des eaux souterraines via une action sur les sols tant que le site est en activité ».
+
+19l0l0	est_en_activité	N
+
+#La version finalisée du plan de gestion indiquera s’il est possible d’agir sur les eaux souterraines pour réduire la pollution résiduelle.
+
+20l0l0	La_version_finalisée	O

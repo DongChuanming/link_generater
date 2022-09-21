@@ -1,0 +1,190 @@
+
+#64.0085
+#Installation de traitement de surface de pièces métalliques exploitée par la société AEROPROTEC (ex BODYCOTTE JANINI) sur la commune de PAU(64), au 6 rue Vincent Auriol.
+
+0l0l0	Installation_de_traitement	O
+0l0l1	pièces_métalliques	O
+0l0l2	exploitée_par	R
+0l0l3	la_société_AEROPROTEC	O
+0l0l4	BODYCOTTE_JANINI	O
+0l0l5	sur_la_commune_de_PAU_64	L
+0l0l6	au_6_rue_Vincent_Auriol	L
+0l1l0	la_société_AEROPROTEC	I
+0l1l1	BODYCOTTE_JANINI	I
+
+#L'usine est implantée en limite sud du Parc d’activités Pau-Pyrénées, sur la commune de Pau.
+
+1l0l0	L__usine	O
+1l0l1	est_implantée	N
+1l0l2	en_limite_sud_du_Parc_d__activités_Pau___Pyrénées	L
+1l0l3	sur_la_commune_de_Pau	L
+
+#Elle occupe les parcelles cadastrales BH96 et BH97, pour une superficie globale de 11 984 m².
+
+2l0l0	les_parcelles_cadastrales	N
+
+#L'exploitation est autorisée par l'arrêté préfectoral du 23 avril 1991, actualisé par l'arrêté du 19/08/2009.
+
+3l0l0	L__exploitation	O
+3l0l1	est_autorisée	N
+3l0l2	par	R
+3l0l3	l__arrêté_préfectoral	O
+3l0l4	23_avril_1991	T
+3l0l5	l_	O
+3l0l6	19_08_2009__	T
+
+#1- DIAGNOSTIC
+
+4l0l0	DIAGNOSTIC	N
+
+#Le diagnostic initial et l'évaluation simplifiée des risques remis en décembre 2002 mettent en évidence une source potentielle de sols pouvant être contaminés suites à des déversements chroniques anciens et à des stockages de produits sans rétention.
+
+5l0l0	Le_diagnostic_initial	N
+5l0l1	l__évaluation_simplifiée_des_risques_remis	N
+5l0l2	en_décembre_2002	T
+5l0l3	une_source_potentielle	O
+5l0l4	des_déversements	N
+5l0l5	chroniques_anciens	O
+5l0l6	stockages_de_produits_sans_rétention	O
+
+#La nappe est impactée de façon significative par le manganèse, le trichloréthylène et l'ammonium.
+
+6l0l0	est_impactée	N
+6l1l0	manganèse	S
+6l1l1	le_trichloréthylène	S
+6l1l2	ammonium	S
+
+#L'ESR classe toutefois le site en 2 "à surveiller" pour le milieu eaux souterraines, autres usages que consommation.
+
+7l1l0	L__ESR	I
+
+#L'arrêté préfectoral du 31/10/2003 prescrit le diagnostic approfondi et l'évaluation détaillée des risques.
+
+8l0l0	L__arrêté_préfectoral	O
+8l0l1	31_10_2003	T
+8l0l2	prescrit_le_diagnostic_approfondi	N
+8l0l3	l__évaluation_détaillée_des_risques	N
+
+#Le rapport remis en novembre 2005 confirme l'impact de la nappe au droit du site par le Trichloréthylène et ses produits de décomposition et l'Aluminium.
+
+9l0l0	Le_rapport_remis	N
+9l0l1	en_novembre_2005	T
+9l0l2	l__impact	N
+9l0l3	la_nappe	O
+9l0l4	au_droit_du_site	L
+9l0l5	Aluminium	O
+9l1l0	le_Trichloréthylène	S
+9l1l1	ses_produits_de_décomposition	U
+9l1l2	Aluminium	S
+
+#La modélisation réalisée par le bureau d'études montre un panache qui s'étire hors site vers l'Ousse des Bois.
+
+10l0l0	La_modélisation	O
+10l0l1	réalisée	N
+10l0l2	par_le_bureau_d__études	O
+10l0l3	étire_hors_site_vers_l__Ousse_des_Bois	L
+
+#Aucune investigation de terrain n'a permis de valider cette hypothèse.
+
+11l0l0	investigation_de_terrain	N
+
+#L'évaluation détaillée des risques pour la santé humaine a été réalisée en novembre 2005 dans le cadre du dossier d'autorisation d'exploiter.
+
+12l0l0	L__évaluation_détaillée_des_risques	N
+12l0l1	a_été_réalisée	N
+12l0l2	en_novembre_2005	T
+12l0l3	dans_le_cadre_du	R
+
+#Elle a porté sur le scénario « ingestion de fruits et légumes irrigués par une eau contaminée par les solvants chlorés, le  Mn et Le NH4».
+
+13l0l0	ingestion	N
+13l0l1	de_fruits_et_légumes_irrigués	A
+13l0l2	eau_contaminée	O
+13l1l0	les_solvants_chlorés	U
+13l1l1	le___Mn_et_Le_NH4	S
+
+#L’étude conclut à un risque acceptable tant pour les employés que pour les riverains.
+
+
+#2 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+15l0l0	SURVEILLANCE_DES_EAUX	A
+15l0l1	SOUTERRAINES	O
+15l1l0	SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 b) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines parce qu'il présente un risque notable de pollution des eaux souterraines de par ses activités actuelles.
+
+16l0l0	Ce_site	O
+16l0l1	est_soumis_à	R
+16l0l2	l_	O
+16l0l3	2_février_1998	T
+16l0l4	surveillance_des_eaux_souterraines	A
+16l0l5	activités_actuelles	A
+
+#L'arrêté préfectoral du 31 octobre 2003, complété par l'arrêté d'autorisation du 19/08/2009 prescrit la surveillance semestrielle des eaux souterraines par 5 piézomètres dans lesquels sont mesurées les paramètres HCTX, COV, BTEX, métaux (Al,Cr,Fe,Mn,Pb,Ni)
+
+17l0l0	L__arrêté_préfectoral	O
+17l0l1	31_octobre_2003__	T
+17l0l2	l_	O
+17l0l3	d__autorisation	O
+17l0l4	19_08_2009	T
+17l0l5	prescrit	N
+17l0l6	la_surveillance_semestrielle	A
+17l0l7	des_eaux_souterraines	A
+17l0l8	5_piézomètres	O
+17l1l0	HCTX	S
+17l1l1	COV	S
+17l1l2	BTEX	S
+17l1l3	métaux	S
+17l1l4	Al	S
+17l1l5	Cr	S
+17l1l6	Fe	S
+17l1l7	Mn	S
+17l1l8	Pb	S
+17l1l9	Ni	S
+
+#Le niveau piézomètrique est relevé à chaque campagne.
+
+
+#Les campagnes du 15/11/2004 et février 2005 révèlent un impact de la nappe par les hydrocarbures, les solvants chlorés, le Manganèse et l'ammonium.
+
+19l0l0	Les_campagnes_du	N
+19l0l1	15_11_2004_et_février_2005	T
+19l0l2	révèlent_un_impact	N
+19l0l3	la_nappe	O
+19l1l0	hydrocarbures	S
+19l1l1	les_solvants_chlorés	S
+19l1l2	le_Manganèse	S
+19l1l3	ammonium	S
+
+#La campagne du 15/04/2009 révèle des concentrations élevées en fer dans 3 piezos à l'aval ainsi qu'un impact par le Mn, le 111 Trichloréthane et le trichloréthylène, en baisse toutefois.
+
+20l0l0	La_campagne	N
+20l0l1	du_15_04_2009	T
+20l0l2	3_piezos	O
+20l0l3	un_impact	O
+20l1l0	fer	S
+20l1l1	le_Mn	S
+20l1l2	le_111_Trichloréthane	S
+20l1l3	le_trichloréthylène	S
+
+#Les produits de décomposition et l'ammonium n'ont pas été mesurés.
+
+21l0l0	l__ammonium	O
+21l1l0	ammonium	S
+
+#Les campagnes d'avril et novembre 2009 montrent l'absence d'impact par les solvants et les HCTX.
+
+22l0l0	Les_campagnes_d_	N
+22l0l1	avril_et_novembre_2009	T
+22l1l0	solvants	S
+22l1l1	les_HCTX	S
+
+#Les concentrations élevées en Mn sont toujours observées à l'amont.
+
+23l0l0	à_l__amont	L
+23l1l0	Mn	S
+
+#Résultats analyses 1er semestre 2010 ?
+
+24l0l0	1er_semestre_2010__	T

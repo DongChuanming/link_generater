@@ -1,0 +1,460 @@
+
+#91.0080
+#Le site a été exploité de 1987 à 1998 : l'ancien entrepôt a été détruit lors d'un incendie le 7 août 1998.
+
+0l0l0	Le_site	O
+0l0l1	a_été_exploité	N
+0l0l2	de_1987_à_1998	T
+0l0l3	l__ancien_entrepôt	O
+0l0l4	a_été_détruit	N
+0l0l5	lors_d_	R
+0l0l6	un_incendie	N
+0l0l7	le_7_août_1998__	T
+
+#Le terrain occupe une superficie de 8000 m² : sur celui-ci, une dalle béton était identifiée sur ses deux tiers avant les travaux d'aménagement.
+
+1l0l0	Le_terrain	O
+1l0l1	dalle_béton	O
+1l0l2	était_identifiée	N
+1l0l3	avant	T
+1l0l4	les_travaux_d__aménagement	N
+
+#La parcelle est située le long d'un aqueduc et entre une zone pavillonnaire d'une part au nord et une zone artisanale/industrielle d'autre part au sud.
+
+2l0l0	La_parcelle	O
+2l0l1	est_située_le_long_d__un_aqueduc	L
+2l0l2	et_entre	R
+2l0l3	une_zone_pavillonnaire	O
+2l0l4	une	O
+2l0l5	zone_artisanale___industrielle	A
+2l0l6	au_sud	L
+
+#A 250 m à l'Ouest, une zone boisée puis agricole est présente.
+
+3l0l0	A_250_m_à_l__Ouest	L
+3l0l1	une_zone_boisée	O
+3l0l2	agricole	O
+3l0l3	est_présente	N
+
+#A l'est se trouve les centre ville de Lisses et Courcouronnes.
+
+4l0l0	A	L
+4l0l1	l__est	O
+4l0l2	se_trouve_les_centre_ville_de_Lisses	L
+4l0l3	et_Courcouronnes	L
+
+#L’entrepôt était situé dans la zone industrielle des Malines.
+
+5l0l0	L__entrepôt	O
+5l0l1	était	R
+5l0l2	situé_dans_la_zone_industrielle_des_Malines	L
+
+#Y étaient exercées les activités d’entreposage de produits divers (produits alimentaires, revues), de stockage de produits chimiques et de transit de déchets industriels (résidus de gravure ammoniacale).
+
+6l0l0	étaient_exercées_les_activités_d__entreposage_de_produits	A
+6l0l1	stockage_de_produits_chimiques	O
+6l0l2	transit	O
+6l0l3	de_déchets_industriels	N
+6l1l0	produits_chimiques	U
+6l1l1	résidus_de_gravure_ammoniacale	U
+
+#Ces activités soumises à déclaration et à autorisation n’étaient pas exercées régulièrement, l’exploitant n’ayant jamais déposé de demande d’autorisation d’exploiter ni de déclaration en préfecture.
+
+7l0l0	Ces_activités	O
+7l0l1	soumises_à_déclaration	N
+7l0l2	autorisation	O
+7l0l3	n_	R
+7l0l4	étaient_pas_exercées	N
+7l0l5	l__exploitant	O
+7l0l6	n__ayant_jamais_déposé_de_demande	N
+7l0l7	de_déclaration	N
+
+#L’incendie du 7 août 1998 a complètement détruit l’entrepôt, la structure s’étant effondrée sur les produits stockés.
+
+8l0l0	L__incendie	N
+8l0l1	du_7_août_1998	T
+8l0l2	a_complètement_détruit	N
+8l0l3	l__entrepôt	O
+8l0l4	la_structure	O
+8l0l5	s__étant_effondrée	N
+
+#Il a conduit à une production importante d’eaux d’extinction contaminées par les produits chimiques stockés.
+
+9l0l0	extinction_contaminées	O
+9l1l0	produits_chimiques	U
+
+#Le site n’était pas équipé de bassin de confinement (il l’aurait été si le site avait été autorisé), les effluents pollués se sont alors directement écoulés sur le sol pour aboutir dans le lac de Courcouronnes et dans le réseau jusqu’à la station d’épuration urbaine d’Evry.
+
+10l0l0	Le_site	O
+10l0l1	le_site	O
+10l0l2	avait_été_autorisé	N
+10l0l3	pollués	O
+10l0l4	se_sont_alors_directement_écoulés	N
+10l0l5	dans_le_lac_de_Courcouronnes	L
+10l0l6	la_station_d__épuration_urbaine	O
+10l0l7	d__Evry	L
+10l1l0	effluents	S
+
+#Les conséquences de ce sinistre ont été importantes.
+
+11l0l0	ce_sinistre_ont	N
+
+#Il a conduit à la mortalité de 5 tonnes de poissons du lac, à la mise hors service de la station d’Evry durant 6 semaines et à une pollution du sol du site.
+
+12l0l0	la_mise_hors_service	N
+12l0l1	la_station_d__Evry	O
+12l0l2	durant_6_semaines	T
+
+#Par ailleurs, le site étant proche de l’aqueduc de la Vanne alimentant Paris en eau potable, des risques importants de pollution des eaux potables étaient à craindre.
+
+13l0l0	le_site	O
+13l0l1	étant_proche_de_l__aqueduc_de_la_Vanne	L
+13l0l2	alimentant_Paris_en_eau_potable	A
+13l0l3	des_risques_importants_de_pollution_des_eaux_potables	O
+13l0l4	étaient_à_craindre	O
+
+#De nombreux actes administratifs ont suivi ce sinistre et notamment :
+
+14l0l0	actes_administratifs	O
+14l0l1	ont_suivi	N
+
+#- arrêté préfectoral d’urgence du 13 août 1998 à l’encontre de FB logistique prescrivant le pompage des eaux d’extinction, au titre de la législation ICPE,
+
+15l0l0	arrêté_préfectoral_d__urgence	O
+15l0l1	13_août_1998	T
+15l0l2	FB_logistique	O
+15l0l3	prescrivant	N
+15l0l4	le_pompage_des_eaux_d__extinction	A
+15l0l5	au_titre_de	R
+15l0l6	la_législation_ICPE	O
+15l1l0	FB	I
+
+#- arrêté du 13 août 1998 mettant en demeure la société Mac Dermid, propriétaire des déchets, d’évacuer les déchets encore présents, au titre de la législation sur les déchets,
+
+16l0l0	13_août_1998	T
+16l0l1	mettant_en_demeure	N
+16l0l2	la_société_Mac_Dermid	O
+16l1l0	la_société_Mac_Dermid	I
+
+#- arrêté d’urgence du 21 août 1998 à l’encontre de FB logistique prescrivant la réalisation d’analyses de sols a proximité de l’entrepôt et de l’aqueduc de la Vanne,
+
+17l0l0	arrêté_d__urgence	N
+17l0l1	21_août_1998	T
+17l0l2	FB_logistique	O
+17l0l3	prescrivant	R
+17l0l4	la_réalisation_d__analyses	N
+17l0l5	de_sols	O
+17l0l6	a_proximité_de_l__entrepôt_et_de_l__aqueduc_de_la_Vanne	L
+17l1l0	FB	I
+
+#- arrêté du 21 août 1998 mettant en demeure FB logistique de respecter l’arrêté d’urgence de 13 août 1998,
+
+18l0l0	21_août_1998	T
+18l0l1	13_août_1998__	T
+18l1l0	FB_logistique	I
+
+#- arrêté du 26 août 1998 mettant en demeure FB logistique de respecter l’arrêté d’urgence du 21 août 1998.
+
+19l0l0	26_août_1998	T
+19l0l1	21_août_1998__	T
+19l1l0	FB_logistique	I
+
+#La société FB logistique ayant fait faillite à la suite du sinistre, les actions administratives ultérieures ont été dirigées vers la société Batical, propriétaire à l'époque du site, et la société Mac Dermid, soit :
+
+20l0l0	La_société_FB_logistique	O
+20l0l1	ayant_fait_faillite	N
+20l0l2	à	T
+20l0l3	la_suite	R
+20l0l4	du_sinistre	N
+20l0l5	les_actions_administratives_ultérieures	O
+20l0l6	ont_été_dirigées_vers	N
+20l0l7	la_société_Batical	O
+20l0l8	l__époque	T
+20l0l9	du_site	O
+20l0l10	la_société_Mac_Dermid	O
+20l1l0	La_société_FB	I
+20l1l1	la_société_Batical	I
+20l1l2	la_société_Mac_Dermid	I
+
+#- arrêté d’urgence du 1er septembre 1998 prescrivant à l’encontre de Mac Dermid la réalisation d’analyses de sols a proximité de l’entrepôt et de l’aqueduc de la Vanne,
+
+21l0l0	arrêté_d__urgence	N
+21l0l1	du_1er_septembre_1998	T
+21l0l2	prescrivant	R
+21l0l3	Mac_Dermid	O
+21l0l4	la_réalisation_d__analyses	N
+21l0l5	de_sols	O
+21l0l6	a_proximité_de_l__entrepôt_et_de_l__aqueduc_de_la_Vanne	L
+21l1l0	Mac_Dermid	I
+
+#- arrêté d’urgence du 23 septembre 1998 prescrivant à Batical l’évacuation, sous contrôle judiciaire, des ferrailles emprisonnant les déchets que Mac Dermid devait évacuer.
+
+22l0l0	arrêté_d__urgence	N
+22l0l1	du_23_septembre_1998	T
+22l0l2	prescrivant	N
+22l0l3	Batical	O
+22l0l4	l__évacuation	N
+22l0l5	sous_contrôle_judiciaire	N
+22l0l6	ferrailles	O
+22l0l7	emprisonnant	N
+22l0l8	les_déchets	O
+22l0l9	Mac_Dermid	O
+22l0l10	devait_évacuer	N
+22l1l0	les_déchets	U
+22l1l1	Mac_Dermid	I
+
+#Les travaux prescrits ont été réalisés par les sociétés Batical et Mac Dermid en 1998.
+
+23l0l0	Les_travaux_prescrits	N
+23l0l1	ont_été_réalisés	N
+23l0l2	les_sociétés_Batical	O
+23l0l3	Mac_Dermid	O
+23l0l4	en_1998	T
+23l1l0	les_sociétés_Batical	I
+23l1l1	Mac_Dermid	I
+
+#La société Mac Dermid a par la suite réalisé plusieurs études de sol dont une étude hydrogéologique qui a conclu à l’absence de risques pour l’aqueduc de la Vanne et la nappe d’eau souterraine.
+
+24l0l0	La_société_Mac_Dermid	O
+24l0l1	a_par_la_suite_réalisé	N
+24l0l2	plusieurs_études_de_sol	N
+24l0l3	une_étude_hydrogéologique	N
+24l0l4	aqueduc_de_la_Vanne	L
+24l1l0	La_société_Mac_Dermid	I
+
+#Des travaux d’excavation et d’élimination des terres polluées à l’extérieur de la dalle ont également été réalisés ainsi que des sondages de sols sous la dalle.
+
+25l0l0	Des_travaux_d__excavation	N
+25l0l1	d__élimination	N
+25l0l2	des_terres_polluées	O
+25l0l3	la_dalle	O
+25l0l4	ont_également_été_réalisés	N
+25l0l5	des_sondages_de_sols	N
+
+#La conclusion principale de ces études est la présence résiduelle d’une pollution enfouie sous la dalle qui ne présente pas de risques tant que la dalle qui assure son confinement reste en place et tant qu’aucun changement de l’usage du site n’est effectué.
+
+26l0l0	une_pollution	O
+26l0l1	en_place	N
+
+#De ce fait des restrictions d'usage devaient être envisagées.
+
+
+#Par la suite, la société Batical, a décidé de changer l'usage du site pour y permettre l'implantation d'habitations individuelles.
+
+28l0l0	la_suite	O
+28l0l1	la_société_Batical	O
+28l0l2	a_décidé_de_changer	N
+28l0l3	l__usage	N
+28l0l4	du_site	O
+28l0l5	permettre_l__implantation	N
+28l0l6	d__habitations_individuelles	A
+28l1l0	la_société_Batical	I
+
+#Elle a donc déposé une évaluation détaillée des risques en 2005 qui comprenait des investigations des sols, des gaz du sol et des eaux souterraines du site.
+
+29l0l0	Elle	O
+29l0l1	a_donc_déposé	N
+29l0l2	une_évaluation_détaillée_des_risques	N
+29l0l3	en_2005	T
+29l0l4	des_investigations	N
+
+#Cette étude a fait l'objet d'une réponse de l'inspection des installations classées en date du 18 octobre 2005, demandant des compléments d'investigation.
+
+30l0l0	Cette_étude	N
+30l0l1	a_fait_l__objet_d_	R
+30l0l2	l__inspection_des_installations_classées	O
+30l0l3	en_date_du_18_octobre_2005__	T
+
+#Par courrier du 16 janvier 2008, la société FORTIS LEASE France (nouveau propriétaire du site) a communiqué à la DRIRE un diagnostic complémentaire relatif à un projet d'aménagement de 39 logements (comprenant des habitations individuelles et des résidences).
+
+31l0l0	16_janvier_2008__	T
+31l0l1	la_société_FORTIS_LEASE_France	O
+31l0l2	a_communiqué	N
+31l0l3	la_DRIRE	O
+31l0l4	un_diagnostic	N
+31l0l5	complémentaire	O
+31l0l6	relatif_à	R
+31l0l7	un_projet	O
+31l0l8	d__aménagement_de_39_logements	N
+31l1l0	la_société_FORTIS_LEASE_France	I
+31l1l1	la_DRIRE	I
+
+#Ce diagnostic a fait l'objet d'une réunion technique entre la DRIRE et le propriétaire du site le 14 février 2008.
+
+32l0l0	Ce_diagnostic	N
+32l0l1	a_fait_l__objet_d_	R
+32l0l2	une_réunion_technique_entre	N
+32l0l3	la_DRIRE	O
+32l0l4	le_propriétaire_du_site	O
+32l0l5	le_14_février_2008__	T
+32l1l0	la_DRIRE	I
+
+#Les réponses aux remarques formulées par la DRIRE ont été intégrées dans une mise à jour du diagnostic remis le 28 mars 2008 à l'inspection des installations classées.
+
+33l0l0	la_DRIRE	O
+33l0l1	ont_été_intégrées	N
+33l0l2	dans	R
+33l0l3	une_mise_à_jour	N
+33l0l4	diagnostic_remis	N
+33l0l5	le_28_mars_2008	T
+33l0l6	l__inspection_des_installations_classées	O
+33l1l0	la_DRIRE	I
+
+#La société FORTIS LEASE France a vendu le terrain à la société Kaufman et Broad.
+
+34l0l0	La_société_FORTIS_LEASE_France	O
+34l0l1	a_vendu	N
+34l0l2	le_terrain	O
+34l0l3	la_société_Kaufman	O
+34l1l0	La_société_FORTIS_LEASE_France	I
+34l1l1	la_société_Kaufman	I
+
+#Les investigations menées dans le cadre du diagnostic précité sont les suivantes :
+
+35l0l0	Les_investigations_menées	N
+35l0l1	dans_le_cadre	R
+35l0l2	du_diagnostic	N
+
+#- réalisation de 14 sondages (27 échantillons de sols analysés),
+
+
+#- réalisation de 10 piézogaz,
+
+37l0l0	10_piézogaz	O
+
+#- réalisation de 3 piézomètres.
+
+38l0l0	réalisation_de	N
+38l0l1	3_piézomètres	O
+
+#Les résultats d'analyses ont mis en évidence la présence de métaux dans les sols (chrome et cuivre sur 4 sondages).
+
+39l0l0	les_sols	O
+39l1l0	métaux	S
+39l1l1	chrome	S
+39l1l2	cuivre	S
+
+#Des traces de HAP ont également été détectées sur un sondage.
+
+40l0l0	Des_traces_de_HAP	O
+40l0l1	ont_également_été_détectées	N
+40l1l0	HAP	S
+
+#Concernant les BTEX, COHV, PCB, hydrocarbures, les teneurs étaient toutes inférieures au seuil de quantification du matériel utilisé.
+
+41l1l0	BTEX	S
+41l1l1	COHV	S
+41l1l2	PCB	S
+41l1l3	hydrocarbures	S
+
+#Des traces de COHV et des composés aromatiques volatils (CAV) ont également été détectés dans les gaz du sol.
+
+42l0l0	ont_également_été_détectés	N
+42l1l0	COHV	S
+42l1l1	composés_aromatiques_volatils	S
+42l1l2	CAV	S
+
+#Pour les eaux souterraines, aucun impact significatif n'a été détecté.
+
+
+#Une analyse des risques résiduels a été menée dans le cadre de ces investigations : celle-ci a mis en évidence des indices de risques inférieurs aux valeurs seuils.
+
+44l0l0	Une_analyse	N
+44l0l1	a_été_menée	N
+44l0l2	dans_le_cadre_de	R
+44l0l3	ces_investigations	N
+
+#Des recommandations ont été formulées par le bureau d'études dans le cadre du futur réaménagement du site (excavation d'une zone au droit d'un sondage, excavation de terres et comblement par de la terre saine, mise en place de filets avertisseurs).
+
+45l0l0	Des_recommandations	O
+45l0l1	ont_été_formulées	N
+45l0l2	le_bureau_d__études	O
+45l0l3	dans_le_cadre	R
+45l0l4	du_futur_réaménagement	N
+45l0l5	excavation	N
+45l0l6	une_zone	O
+45l0l7	au_droit_d__un_sondage	L
+45l0l8	excavation_de_terres	N
+45l0l9	comblement	N
+45l0l10	la_terre_saine	O
+45l0l11	mise_en_place_de	N
+45l0l12	filets_avertisseurs	O
+
+#Un permis de construire a été déposé fin 2009 par la société Kaufman et Broad qui a fait l'objet d'un examen par l'inspection des installations classées.
+
+46l0l0	Un_permis_de_construire	O
+46l0l1	a_été_déposé	N
+46l0l2	fin_2009	T
+46l0l3	la_société_Kaufman_et_Broad	O
+46l0l4	a_fait_l__objet_d_	R
+46l0l5	un_examen	N
+46l0l6	l__inspection_des_installations_classées	O
+46l1l0	la_société_Kaufman	I
+
+#Au regard des élements communiqués, la DRIRE a émis un avis favorable en rappelant à la mairie de Lisses que le pétitionnaire devait respecter et mettre en œuvre les recommandations émises dans l'analyse des risques résiduels .
+
+47l0l0	la_DRIRE	O
+47l0l1	a_émis_un_avis_favorable	N
+47l0l2	la_mairie	O
+47l0l3	de_Lisses	L
+47l0l4	le_pétitionnaire	O
+47l0l5	devait_respecter	R
+47l1l0	la_DRIRE	I
+
+#Des restrictions d'usage, reprenant l'ensemble de ces recommandations, doivent être prises : celle-ci doivent être intégrées dans les différents actes notariés concernant le site.
+
+48l0l0	Des_restrictions_d_	O
+
+#A l'issue de la visite d'avril 2010, le promoteur a démontré que les terrains n'étaient pas impactés par les COHV.
+
+49l0l0	A_l_	R
+49l0l1	issue_de_la_visite	N
+49l0l2	d__avril_2010__	T
+49l0l3	le_promoteur	O
+49l0l4	les_terrains	O
+49l0l5	n__étaient_pas_impactés	O
+49l0l6	par	R
+49l0l7	les_COHV	O
+49l1l0	les_COHV	I
+
+#Les zones polluées par les métaux ont fait l'objet d'une excavation et élimination dans des filières agréées.
+
+50l0l0	Les_zones_polluées	O
+50l0l1	les_métaux	O
+50l0l2	ont_fait_l__objet_d_	R
+50l0l3	une_excavation	N
+50l0l4	élimination_dans	N
+50l0l5	des_filières_agréées	O
+50l1l0	métaux	S
+
+#Un filet avertisseur va être mis en place au droit des zones excavées.
+
+51l0l0	Un_filet_avertisseur	O
+51l0l1	va_être_mis_en_place	N
+51l0l2	au_droit_des_zones_excavées	L
+
+#Le promoteur a également effectué des analyses sur des merlons de terres situés en périphérie du site : les résultats ont démontré que ces terres pouvaient être utilisées pour combler les excavations.
+
+52l0l0	Le_promoteur	O
+52l0l1	a_également_effectué	N
+52l0l2	des_analyses	N
+52l0l3	des_merlons_de_terres	O
+52l0l4	situés_en_périphérie_du_site	L
+52l0l5	ces_terres	O
+52l0l6	combler_les_excavations	N
+
+#Une couche de terre végétale sera régalée sur le site pour terminer le réaménagement du site.
+
+53l0l0	terminer	R
+53l0l1	le_réaménagement_du_site	N
+
+#Les travaux d'aménagement sont terminés.
+
+54l0l0	Les_travaux_d__aménagement	N
+54l0l1	terminés	N
+
+#Sauf élément nouveau, ce site n'appelle plus de remarques de l'inspection des installations classées.
+
+55l0l0	ce_site	O
+55l0l1	n__appelle_plus	N
+55l0l2	l__inspection_des_installations_classées	O

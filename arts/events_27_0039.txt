@@ -1,0 +1,83 @@
+
+#27.0039
+#Il s'agit d'une usine de fabrication de serrures à partir d'aluminium, d'acier et de laiton.
+
+0l0l0	une_usine	O
+0l0l1	de_fabrication_de_serrures	A
+
+#Le procédé de fabrication comprend des opérations de traitements de surfaces: traitement anti-corrosion de l'aluminium par oxydation anodique et préparation avant peinture des pièces en aluminium et acier par chromatation et phosphatation.
+
+1l0l0	traitements_de_surfaces	A
+1l0l1	anti_corrosion	N
+1l0l2	aluminium	O
+1l0l3	préparation_avant_peinture	N
+1l0l4	aluminium_et_acier	O
+
+#En application de l'arrêté préfectoral du 20/09/00 réglementant son établissement, la société BROGSER a fait réaliser en juillet 2001 par le cabinet C.
+
+2l0l0	En_application_de	R
+2l0l1	l__arrêté_préfectoral	O
+2l0l2	20_09_00	T
+2l0l3	réglementant	N
+2l0l4	la_société_BROGSER	O
+2l0l5	a_fait_réaliser	N
+2l0l6	en_juillet_2001	T
+2l0l7	par_le_cabinet_C_	O
+2l1l0	la_société_BROGSER	I
+
+#.D AZUR un diagnostic initial et une évaluation simplifiée des risques, dans le but d'apprécier l'impact résiduel sur le sous-sol de l'ancien rejet d'eaux résiduaires non traitées vers la nappe et des anciennes lagunes de décantation de ces eaux.
+
+3l0l0	un_diagnostic_initial	N
+3l0l1	une_évaluation_simplifiée_des_risques	N
+3l0l2	anciennes_lagunes_de_décantation	N
+3l1l0	AZUR	I
+
+#Au regard des conclusions de l'E.
+
+
+#.R, le site relève de la classe 3 pour tous les milieux d'exposition (sol, eaux souterraines et superficielles).
+
+5l0l0	le_site	O
+5l0l1	relève_de	R
+5l0l2	la_classe_3	O
+
+#Toutefois, les fiches de notation E.
+
+
+#.R font apparaitre un classement très proche de la classe 2 pour le milieu "eaux souterraines exploitées pour l'alimentation en eau potable".
+
+
+#Compte tenu de la présence des captages AEP de la ville de BERNAY en aval hydraulique du site, et du fait qu'aucune analyse des eaux souterraines n'a pu être réalisée réellement au droit du site en raison de l'effondrement de l'ancien puisard, la surveillance des eaux souterraines  a été mise en place en application des directives de la circulaire ministérielle du 10/01/2000 relative aux installations de traitement de surfaces.
+
+8l0l0	captages_AEP	O
+8l0l1	la_ville_de_BERNAY	O
+8l0l2	en_aval_hydraulique_du_site	L
+8l0l3	la_surveillance_des_eaux_souterraines	A
+8l0l4	__a_été_mise_en_place	N
+8l0l5	du_10_01_2000	T
+8l0l6	aux_installations_de_traitement_de_surfaces	O
+
+#Par ailleurs, conformément à l'arrêté préfectoral du 20/09/00, un curage des anciennes lagunes de décantation des eaux résiduaires a été réalisé en fin d'année 2000 préalablement au diagnostic pré-cité.
+
+9l0l0	l__arrêté_préfectoral	O
+9l0l1	20_09_00	T
+9l0l2	__un_curage	N
+9l0l3	anciennes_lagunes_de_décantation_des_eaux_résiduaires	O
+9l0l4	a_été_réalisé	N
+9l0l5	en_fin_d_	N
+9l0l6	année_2000	T
+9l0l7	préalablement_au	R
+9l0l8	diagnostic	N
+
+#Les boues extraites (92 t) ont été évacuées sur le C.
+
+10l0l0	ont_été_évacuées	N
+10l0l1	sur_le_C_	L
+
+#.T de classe 1 de la société SECHE à LAVAL pour un coût de 124 kF.
+
+11l0l0	_T_de_classe_1	O
+11l0l1	la_société_SECHE	O
+11l0l2	LAVAL	L
+11l1l0	la_société_SECHE	I
+11l1l1	LAVAL	I

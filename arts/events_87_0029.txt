@@ -1,0 +1,325 @@
+
+#87.0029
+#Les premières activités identifiées sur le site datent de 1917 (raffinage électrolytique de cuivre).
+
+0l0l0	Les_premières_activités_identifiées	N
+0l0l1	le_site	O
+0l0l2	datent_de_1917	T
+0l0l3	raffinage_électrolytique_de_cuivre	A
+0l1l0	cuivre	S
+
+#Les activités de la Compagnie Générale d’Électricité du Palais (CGEP) fondée en 1950 étaient :
+
+1l0l0	Les_activités	A
+1l0l1	la_Compagnie_Générale_d__Électricité	O
+1l0l2	du_Palais	O
+1l0l3	fondée	N
+1l0l4	en_1950	T
+1l1l0	la_Compagnie_Générale_d__Électricité_du_Palais	I
+1l1l1	CGEP	I
+
+#- la fusion de matières cuivreuses, de déchets contenant du cuivre,
+
+2l1l0	cuivreuses	S
+2l1l1	cuivre	S
+
+#- l'électrolyse acide de cuivre,
+
+3l0l0	électrolyse_acide	O
+3l1l0	cuivre	S
+
+#- la fusion de cuivre pur pour la fabrication de billettes.
+
+4l0l0	la_fusion_de_cuivre_pur_pour_la_fabrication_de_billettes	A
+4l1l0	cuivre	S
+
+#En 1999, la CGEP cesse son activité.
+
+5l0l0	En_1999__	T
+5l0l1	la_CGEP	O
+5l0l2	cesse	N
+5l0l3	son_activité	A
+5l1l0	la_CGEP	I
+
+#Elle se sépare alors en trois entités juridiques distinctes :
+
+
+#- l'une des usines devient la Fonderie de Cuivre du Palais (FCP - Filiale de Péchiney), aujourd'hui arrêtée (notification de mise à l'arrêt définitif faite par son exploitant le 9 décembre 2010, cf. fiche BASOL n° 87.0028),
+
+7l0l0	l__une_des_usines	O
+7l0l1	devient	R
+7l0l2	la	O
+7l0l3	Fonderie_de	A
+7l0l4	Cuivre_du_Palais	O
+7l0l5	Péchiney	O
+7l0l6	notification_de_mise_à_l__arrêt_définitif	N
+7l0l7	son_exploitant	O
+7l0l8	le_9_décembre_2010__	T
+7l1l0	la_Fonderie	I
+7l1l1	Cuivre	S
+7l1l2	FCP	I
+7l1l3	Péchiney	I
+
+#- l'autre usine est vendue à la société Valdi (alors membre du Groupe AFE) et se voit renommer "Valdi le Palais" (ou "VLP"), la raison sociale redevenant Valdi lors de son rachat par le groupe ERAMET (présente fiche),
+
+8l0l0	l__autre_usine	O
+8l0l1	est_vendue_à	N
+8l0l2	la_société_Valdi	O
+8l0l3	se_voit_renommer	N
+8l0l4	__Valdi_le_Palais__	O
+8l0l5	redevenant	R
+8l0l6	Valdi	O
+8l0l7	son_rachat	N
+8l0l8	le_groupe_ERAMET	O
+8l1l0	la_société_Valdi	I
+8l1l1	Groupe_AFE	I
+8l1l2	redevenant_Valdi	I
+8l1l3	le_groupe_ERAMET	I
+
+#- la CGEP qui conserve la propriété des sols de l'ensemble du site (usines et décharges internes) ; les décharges internes sont décrites dans la fiche BASOL n° 87.0008.
+
+9l0l0	la_propriété_des_sols	O
+9l1l0	la_CGEP	I
+
+#Lors de cet arrêt d'activité en 1999, CGEP a fait réaliser une étude des sols et un diagnostic sites et sols pollués.
+
+10l0l0	Lors	T
+10l0l1	de_cet_arrêt_d__activité	N
+10l0l2	en_1999__	T
+10l0l3	CGEP	O
+10l0l4	a_fait_réaliser	N
+10l0l5	une_étude_des_sols	N
+10l0l6	un_diagnostic_sites_et_sols_pollués	N
+10l1l0	CGEP	I
+
+#La société VALDI (groupe ERAMET) exploite actuellement les installations de son site du Palais-sur-Vienne pour procéder :
+
+11l0l0	La_société_VALDI	O
+11l0l1	ERAMET	O
+11l0l2	exploite_actuellement	N
+11l0l3	les_installations	O
+11l0l4	son_site	O
+11l0l5	du_Palais_sur_Vienne	L
+11l1l0	société_VALDI	I
+11l1l1	groupe_ERAMET	I
+
+#1. au tri, au transit et au regroupement de 3 familles de déchets correspondant à :
+
+12l0l0	au_regroupement	N
+
+#- des catalyseurs utilisés dans les industries pétro-chimiques (Ni, Co, Mo),
+
+13l0l0	les_industries_pétro___chimiques	A
+13l1l0	des_catalyseurs	S
+13l1l1	pétro___chimiques	U
+13l1l2	Ni	S
+13l1l3	Co	S
+13l1l4	Mo	S
+
+#- des oxydes, hydroxydes ou sels métalliques issus des industries métallurgiques ou chimiques,
+
+14l0l0	industries_métallurgiques	N
+14l1l0	sels_métalliques	S
+
+#- des piles et accumulateurs.
+
+15l1l0	des_piles	U
+
+#2. au traitement thermique des deux premières familles de déchets :
+
+
+#- les oxydes, hydroxydes et sels métalliques peuvent être calcinés s’ils se présentent sous forme de boues.
+
+17l1l0	oxydes	S
+17l1l1	hydroxydes	S
+17l1l2	sels_métalliques	S
+
+#Ces produits peuvent aussi être fondus en vue d’entrer dans la composition de lingots de métal.
+
+
+#Une partie de ces déchets (composés du zinc) étaient expédiés en pyrométallurgie en Allemagne.
+
+19l0l0	étaient_expédiés	N
+19l0l1	pyrométallurgie	A
+19l0l2	en_Allemagne	L
+19l1l0	composés_du_zinc	S
+
+#- les catalyseurs sont généralement grillés pour être débarrassés de leur teneur en soufre avant d’être eux aussi généralement fondus.
+
+20l1l0	soufre	S
+
+#Les fumées du grillage, qui contiennent des oxydes de soufre, font pour leur part l’objet de traitements avant rejet à l’atmosphère.
+
+21l0l0	grillage	O
+21l0l1	l__objet_de	R
+21l0l2	traitements	O
+21l1l0	soufre	S
+
+#Les traitements thermiques que sont la calcination, le grillage ou encore la fusion, engendrent en outre des poussières qui constituent elles-mêmes :
+
+
+#- soit des  « produits » de sortie du site, valorisés,
+
+
+#- soit des « déchets » du site, repris par des partenaires de VALDI dans la chaîne de traitement.
+
+24l0l0	VALDI	O
+24l1l0	VALDI	I
+
+#3. à des opérations mécaniques de tris, broyages et criblages pour les piles et accumulateurs :
+
+25l0l0	des_opérations_mécaniques_de_tris	A
+25l0l1	criblages	A
+
+#- cette activité a cessé au cours du second semestre 2012.
+
+26l0l0	cette_activité	O
+26l0l1	a_cessé	N
+26l0l2	au_cours_du_second_semestre_2012__	T
+
+#Le site est actuellement réglementé par l'arrêté préfectoral d'autorisation DCE n° 2013-773 du 13 avril 2010, et par des arrêtés complémentaires en date des 17 novembre 2011 et 9 janvier 2015.
+
+27l0l0	Le_site	O
+27l0l1	est_actuellement_réglementé	N
+27l0l2	l__arrêté_préfectoral_d__autorisation	O
+27l0l3	du_13_avril_2010__	T
+27l0l4	des	N
+27l0l5	arrêtés_complémentaires	O
+27l0l6	en_date_des_17_novembre_2011_et_9_janvier_2015__	T
+
+#Il ressort de la directive "SEVESO" ("seuil haut").
+
+28l1l0	SEVESO______	I
+
+#Les arrêtés réglementant l'établissement sont consultables sur la base de données nationale de l'Inspection des Installations Classées et sur le site de la DREAL Limousin.
+
+29l0l0	Les_arrêtés_réglementant	O
+29l0l1	l__Inspection_des_Installations_Classées	O
+29l0l2	la_DREAL_Limousin	O
+29l1l0	la_DREAL_Limousin	I
+
+#Le site du Palais-sur-Vienne de la société VALDI est soumis à l'article 65 de l'arrêté ministériel du  février 1998 modifié relatif aux prélèvements et à la consommation d'eau ainsi qu'aux émissions de toute nature des installations classées pour la protection de l'environnement soumises à autorisation.
+
+30l0l0	Le_site	O
+30l0l1	du_Palais_sur_Vienne	A
+30l0l2	la_société_VALDI	O
+30l0l3	est_soumis_à	R
+30l0l4	l_	O
+30l0l5	l__arrêté_ministériel	O
+30l0l6	du___février_1998	T
+30l0l7	à_la_consommation_d_	A
+30l0l8	des_installations_classées_pour_la_protection	O
+30l0l9	de_l__environnement	A
+30l1l0	la_société_VALDI	I
+
+#Cet article prescrit la surveillance des eaux souterraines en cas d'utilisation de substances ou produits potentiellement impactants pour l'environnement.
+
+31l0l0	la_surveillance_des_eaux_souterraines	A
+31l0l1	en_cas_d_	R
+31l0l2	utilisation_de_substances	O
+
+#L'arrêté préfectoral qui a prescrit la surveillance des eaux souterraines en application de l'article 65 précité date du 23 avril 2004.
+
+32l0l0	L__arrêté_préfectoral	O
+32l0l1	a_prescrit	N
+32l0l2	la_surveillance_des_eaux_souterraines	A
+32l0l3	date_du_23_avril_2004__	T
+
+#Cette surveillance a été modifiée par l'arrêté préfectoral du 13 avril 2010 autorisant la société "VLP" à exploiter une unité de regroupement, de tri, de pré-traitement et de valorisation de coproduits métalliques et minéraux.
+
+33l0l0	Cette_surveillance	O
+33l0l1	a_été_modifiée	N
+33l0l2	l__arrêté_préfectoral	O
+33l0l3	du_13_avril_2010	T
+33l0l4	autorisant	N
+33l0l5	la_société___VLP	O
+33l0l6	exploiter	N
+33l0l7	une_unité_de_regroupement	O
+33l0l8	coproduits_métalliques	O
+33l1l0	la_société___VLP__	I
+33l1l1	coproduits_métalliques	U
+
+#La fréquence d'analyses est d'une fois par an.
+
+
+#Les substances analysées correspondent donc à l'activité actuelle du site et sont :
+
+35l0l0	activité_actuelle_du_site	A
+
+#- pH,
+
+36l1l0	pH	S
+
+#- potentiel d'oxydo-réduction,
+
+37l1l0	oxydo	U
+
+#- résistivité,
+
+
+#- COT,
+
+
+#- Molybdène,
+
+40l1l0	Molybdène	S
+
+#- Cobalt,
+
+41l1l0	Cobalt	S
+
+#- Vanadium.
+
+42l1l0	Vanadium	S
+
+#3 piézomètres sont présents sur le site : un en amont et deux en aval.
+
+43l0l0	3_piézomètres	O
+
+#Des études ont montré une pollution historique de métaux et de minéraux dans les sols et les sous-sols (études de 1999 susmentionnée).
+
+44l1l0	métaux	S
+
+#Les eaux souterraines présentent également une pollution historique notamment en chrome, cuivre, zinc, nickel et cadmium.
+
+45l0l0	Les_eaux_souterraines	O
+45l1l0	chrome	S
+45l1l1	cuivre	S
+45l1l2	zinc	S
+45l1l3	nickel	S
+45l1l4	cadmium	S
+
+#La pollution constatée résulte essentiellement de pollutions historiques liées à l'exploitation précédente (CGEP) mais aussi de l'activité actuelle.
+
+46l0l0	l__activité	N
+46l1l0	CGEP	I
+
+#Un diagnostic environnemental permettra de préciser la part de responsabilité des entités et activités qui se sont succédées sur le site.
+
+47l0l0	Un_diagnostic_environnemental	N
+47l0l1	la_part_de_responsabilité	O
+47l0l2	se_sont_succédées	N
+47l0l3	le_site	O
+
+#Les eaux de ruissellement sont quant à elles collectées et dirigées par un tunnel souterrain vers la station d'épuration CGEP située en contre-bas du site (cf. aussi la fiche CGEP).
+
+48l0l0	dirigées_par	R
+48l0l1	un_tunnel_souterrain	O
+48l0l2	vers	R
+48l0l3	la_station_d__épuration_CGEP	O
+48l0l4	située_en_contre_bas_du_site	L
+48l1l0	d__épuration_CGEP	I
+48l1l1	CGEP	I
+
+#Le rejet final après le traitement physico-chimique en résultant s'effectue dans le ruisseau du Palais.
+
+49l0l0	Le_rejet_final	O
+49l0l1	dans_le_ruisseau_du_Palais	L
+
+#Les eaux de process (eaux de purge des tours aéroréfrigérantes) sont également traitées par cette installation.
+
+50l0l0	Les_eaux_de_process	O
+50l0l1	tours_aéroréfrigérantes	A
+50l0l2	sont_également_traitées	N
+50l0l3	cette_installation	O
+50l1l0	Les_eaux_de_process	U

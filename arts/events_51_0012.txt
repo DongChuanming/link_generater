@@ -1,0 +1,133 @@
+
+#51.0012
+#Station service située en bordure d'autoroute.
+
+0l0l0	située_en_bordure_d__autoroute	L
+
+#Elle est située en amont du captage d'eau potable de Valmy-Orbeval qui alimente la commune.
+
+1l0l0	située_en_amont_du_captage	L
+1l0l1	Valmy___Orbeval	L
+1l0l2	alimente_la_commune	L
+
+#L'origine des faits remonte à  une fuite sur une canalisation d'hydrocarbures à l'origine de la perte d'environ  9000 litres de gazole entre fin octobre et novembre 1994.
+
+2l0l0	origine_des_faits	O
+2l0l1	remonte_à	R
+2l0l2	__une_fuite	N
+2l0l3	sur	R
+2l0l4	une_canalisation_d__hydrocarbures	O
+2l0l5	environ___9000_litres_de_gazole	A
+2l0l6	entre_fin_octobre_et_novembre_1994	T
+2l1l0	d__hydrocarbures	S
+2l1l1	gazole	S
+
+#Compte tenu de la proximité du captage, et sur recommandation de l'hydrogéologue agréé en matière d'eau et d'hygiène publique, un réseau de surveillance de la qualité des eaux souterraines a été mis en place entre la station service et le forage.
+
+3l0l0	proximité_du_captage	O
+3l0l1	surveillance_de_la_qualité_des_eaux_souterraines	A
+3l0l2	a_été_mis_en_place	N
+3l0l3	le_forage	O
+
+#Deux puits de dépollution ont été forés et ont permis de récupérer 2600 litres de gazole.
+
+4l0l0	Deux	O
+4l0l1	puits_de_dépollution	N
+4l0l2	ont_été_forés	N
+4l0l3	2600	O
+4l0l4	litres_de_gazole	A
+4l1l0	gazole	S
+
+#Le rapport de l'hydrogéologue agréé de février 1995 précise que le captage présente peu de risque d'être pollué et préconise la mise en place d'une surveillance en amont du captage.
+
+5l0l0	Le	O
+5l0l1	rapport	N
+5l0l2	de_février_1995	T
+5l0l3	le_captage	O
+5l0l4	préconise_la_mise_en_place_d_	N
+5l0l5	une_surveillance	A
+5l0l6	en_amont_du_captage	L
+
+#Cette surveillance a été imposée au responsable du site pour une durée de 5 ans par arrêté préfectoral du 28 juillet 1998.
+
+6l0l0	Cette_surveillance	O
+6l0l1	a_été_imposée	N
+6l0l2	responsable_du_site	O
+6l0l3	pour_une_durée_de_5_ans	T
+6l0l4	par_arrêté_préfectoral	O
+6l0l5	28_juillet_1998__	T
+
+#Par ailleurs, une modélisation a été demandée par arrêté préfectoral du 16 juin 1999
+
+7l0l0	modélisation	O
+7l0l1	a_été_demandée	N
+7l0l2	arrêté_préfectoral	O
+7l0l3	16_juin_1999	T
+
+#pour mieux appréhender le comportement du panache de pollution.
+
+
+#Des analyses périodiques des eaux souterraines en périodes de hautes et basses eaux sont réalisées grâce au réseau de piézomètres implantés aux abords du site.
+
+9l0l0	Des_analyses_périodiques	A
+9l0l1	en_périodes	T
+9l0l2	de_hautes_et_basses_eaux	O
+9l0l3	sont_réalisées	N
+9l0l4	aux_abords_du_site	L
+
+#La dernière campagne d'analyses réalisée en février 2003 indique une baisse générale des teneurs en hydrocarbures dissous dans la nappe à l'aval de la station service.
+
+10l0l0	La_dernière_campagne_d__analyses	N
+10l0l1	en_février_2003	T
+10l0l2	teneurs	O
+10l0l3	hydrocarbures	O
+10l0l4	la_nappe	O
+10l0l5	à_l__aval_de_la_station_service	L
+10l1l0	hydrocarbures	S
+
+#L'inspection des installations classées a demandé à l'exploitant le 19/09/06 de faire un bilan de la surveillance des eaux souterraines et des éventuelles suites à donner.
+
+11l0l0	L__inspection_des_installations_classées	O
+11l0l1	a_demandé	N
+11l0l2	l__exploitant	O
+11l0l3	le_19_09_06	T
+11l0l4	surveillance_des_eaux_souterraines	A
+
+#L'exploitant (TOTAL) a remis le 14 mars 2007 :
+
+12l0l0	L__exploitant	O
+12l0l1	a_remis	N
+12l0l2	le_14_mars_2007__	T
+12l1l0	__TOTAL	I
+
+#- une modélisation des transferts datant de septembre 1999,
+
+13l0l0	une_modélisation	N
+13l0l1	septembre_1999__	T
+
+#- un rapport de synthèse de suivi de la qualité des eaux souterraines entre septembre 1997 et mars 2004,
+
+14l0l0	la_qualité_des_eaux_souterraines	O
+14l0l1	entre_septembre_1997_et_mars_2004__	T
+
+#- un audit des piézomètres datant d'octobre 2006.
+
+15l0l0	un_audit	N
+15l0l1	des_piézomètres	O
+15l0l2	datant_d_	N
+15l0l3	octobre_2006__	T
+
+#L'exploitant s'est engagé à maintenir une surveillance semestrielle de la nappe sur 4 piézomètres.
+
+16l0l0	L__exploitant	O
+16l0l1	s__est_engagé	N
+16l0l2	une_surveillance_semestrielle	A
+16l0l3	la_nappe	A
+
+#Le captage d'alimentation en eau potable d'Orbeval n'a jamais été atteint par la pollution aux hydrocarbures.
+
+17l0l0	Le_captage	O
+17l0l1	Orbeval	L
+17l0l2	n__a_jamais_été_atteint	N
+17l0l3	hydrocarbures	O
+17l1l0	hydrocarbures	S

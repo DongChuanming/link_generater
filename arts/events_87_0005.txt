@@ -1,0 +1,330 @@
+
+#87.0005
+#Une ancienne usine de traitement de minerai d'or et un stockage de résidus de traitement contenant de l'arsenic s'étendent sur une quinzaine d'hectares.
+
+0l0l0	Une_ancienne_usine_de_traitement_de_minerai_d__or	O
+0l0l1	un_stockage_de_résidus_de_traitement	O
+0l0l2	l__arsenic	O
+0l0l3	quinzaine_d__hectares	O
+0l1l0	arsenic	S
+
+#Les stériles issus de l'exploitation forment un terril.
+
+
+#A l'aval de ce terril se succèdent 3 bassins de décantation délimités par 3 digues de retenue.
+
+2l0l0	3_bassins_de_décantation	O
+2l0l1	3_digues_de_retenue	O
+
+#A l'aval de ces bassins coule une rivière (l'Isle).
+
+3l0l0	une_rivière	O
+3l0l1	l__Isle	L
+
+#En 1993, suite à une dégradation, les digues se sont rompues et les résidus de traitement ont été entraînés vers la rivière Isle.
+
+4l0l0	En_1993	T
+4l0l1	une_dégradation	N
+4l0l2	les_digues	O
+4l0l3	se_sont_rompues	N
+4l0l4	les_résidus_de_traitement	O
+4l0l5	ont_été_entraînés	N
+4l0l6	vers_la_rivière_Isle	L
+
+#Suite à cet accident ayant conduit à une pollution, un arrêté préfectoral signé le 15 avril 1993 a notamment imposé à la société CHENI de :
+
+5l0l0	cet_accident_ayant_conduit_à_une_pollution	N
+5l0l1	un_arrêté_préfectoral	O
+5l0l2	signé	N
+5l0l3	le_15_avril_1993	T
+5l0l4	a_notamment_imposé	N
+5l0l5	la_société_CHENI	O
+5l1l0	la_société_CHENI	I
+
+#- prendre les mesures nécessaires pour éviter tout rejet des résidus de traitement dans l'Isle,
+
+6l0l0	traitement	A
+6l0l1	dans_l__Isle	L
+
+#- proposer des solutions pérennes pour que le dépôt ne présente aucun danger.
+
+
+#En 1994, certains travaux (écrêtement du terril, création de fossés de part et d'autre des déblais, révégétalisation du terril) ont lieu.
+
+8l0l0	En_1994__	T
+8l0l1	certains_travaux	N
+8l0l2	écrêtement_du_terril	N
+8l0l3	création_de_fossés	N
+8l0l4	révégétalisation_du_terril	N
+8l0l5	ont_lieu	N
+
+#Ils s'avèrent tous insatisfaisants.
+
+
+#Entre 1995 et 1997, une étude universitaire portant sur le suivi analytique des eaux pose le problème de l'arsenic présent dans les matières en suspension.
+
+10l0l0	Entre_1995_et_1997__	T
+10l0l1	suivi_analytique_des_eaux	A
+10l0l2	l__arsenic	O
+10l1l0	arsenic	S
+
+#En avril 1999, la société ANTEA remet son rapport relatif au projet de réhabilitation des stocks de résidus de lavage (étude géotechnique).
+
+11l0l0	En_avril_1999__	T
+11l0l1	la_société_ANTEA	O
+11l0l2	remet	N
+11l0l3	son_rapport	O
+11l0l4	relatif	R
+11l0l5	au_projet_de_réhabilitation	N
+11l0l6	étude_géotechnique	N
+11l1l0	la_société_ANTEA	I
+
+#Ce rapport préconise la réparation des digues existantes et la réalisation d'un cordon graveleux tout autour du terril.
+
+12l0l0	la_réparation	N
+12l0l1	des_digues	O
+12l0l2	existantes	N
+12l0l3	la_réalisation_d_	N
+12l0l4	un_cordon_graveleux	O
+12l0l5	autour_du_terril	L
+
+#En août 1999, suite à une demande de la DRIRE auprès de la société CHENI, l'INERIS réalise l'expertise technique des propositions de réhabilitation.
+
+13l0l0	En_août_1999__	T
+13l0l1	suite_à	R
+13l0l2	une_demande	N
+13l0l3	la_DRIRE	O
+13l0l4	la_société_CHENI	O
+13l0l5	l__INERIS	O
+13l0l6	réalise_l__expertise_technique	N
+13l0l7	propositions_de_réhabilitation	O
+13l1l0	la_DRIRE	I
+13l1l1	société_CHENI	I
+
+#En décembre 1999, les travaux de consolidation des digues sont achevés.
+
+14l0l0	En_décembre_1999__	T
+14l0l1	les_travaux_de_consolidation	N
+14l0l2	des_digues	O
+14l0l3	sont_achevés	N
+
+#En juillet 2000, une visite sur site par la DRIRE a permis de constater la réparation des digues et le confinement du terril.
+
+15l0l0	En_juillet_2000__	T
+15l0l1	une_visite_sur_site	N
+15l0l2	la_DRIRE	O
+15l0l3	la_réparation_des_digues	N
+15l0l4	le_confinement_du_terril	N
+15l1l0	la_DRIRE	I
+
+#Depuis juillet 2000, des analyses, d'abord mensuelles puis bimestrielles, sont réalisées au droit du rejet unique et dans les eaux superficielles (amont/aval).
+
+16l0l0	Depuis_juillet_2000__	T
+16l0l1	des_analyses	A
+16l0l2	sont_réalisées	N
+16l0l3	au_droit_du_rejet_unique	L
+
+#Ces analyses montrent une influence très modérée du rejet sur la qualité des eaux de la rivière, due à la forte dilution exercée par cette dernière.
+
+17l0l0	dilution	A
+
+#Le service d'inspection poursuit son action de surveillance de la conformité des rejets.
+
+18l0l0	Le	O
+18l0l1	son_action_de_surveillance_de_la_conformité	A
+18l0l2	des_rejets	O
+
+#La nécessité de surveiller les eaux souterraines au droit du site ne paraît pas utile dans la mesure où la rivière longe le site et que la mesure différentielle amont/aval dans l'Isle est plus représentative de l'impact sur le milieu naturel.
+
+19l0l0	surveiller_les_eaux_souterraines	A
+19l0l1	au_droit_du_site	L
+19l0l2	rivière_longe_le_site	L
+19l0l3	aval	A
+19l0l4	dans_l__Isle	L
+
+#En octobre 2002, la DRIRE a relancé l'action administrative en vue de la réhabilitation de l'usine de traitement du minerai d'or voisine du terril de résidus.
+
+20l0l0	En_octobre_2002__	T
+20l0l1	la_DRIRE	O
+20l0l2	a_relancé	N
+20l0l3	l__action_administrative	N
+20l0l4	la_réhabilitation	N
+20l0l5	l__usine_de_traitement_du_minerai_d__or	O
+20l0l6	voisine_du_terril_de_résidus	O
+20l1l0	la_DRIRE	I
+
+#La première étape consistera en la réalisation par l'exploitant d'un état des lieux.
+
+21l0l0	la_réalisation	N
+21l0l1	l__exploitant	O
+21l0l2	un_état_des_lieux	N
+
+#Le 25 novembre 2002, la société a été placée en liquidation judiciaire par décision du Tribunal de Commerce de Paris.
+
+22l0l0	Le_25_novembre_2002__	T
+22l0l1	la_société	O
+22l0l2	a_été_placée_en_liquidation_judiciaire	N
+22l0l3	décision_du_Tribunal_de_Commerce	O
+22l1l0	du_Tribunal_de_Commerce_de_Paris	I
+
+#Le 29 janvier 2003, le BRGM, pour le compte de CHENI SA, a proposé au mandataire, après avis de la DRIRE, un plan d'action visant à mettre en sécurité le site, à poursuivre la surveillance de la qualité des eaux et à évaluer l'impact de l'ancienne usine et du terril de résidus arséniés.
+
+23l0l0	Le_29_janvier_2003__	T
+23l0l1	le_BRGM	O
+23l0l2	CHENI_SA	O
+23l0l3	la_DRIRE	O
+23l0l4	un_plan_d__action	O
+23l0l5	poursuivre	O
+23l0l6	la_surveillance_de_la_qualité_des_eaux	A
+23l0l7	évaluer_l__impact	N
+23l0l8	l__ancienne_usine	O
+23l0l9	terril	N
+23l0l10	de_résidus_arséniés	O
+23l1l0	le_BRGM	I
+23l1l1	CHENI_SA	I
+23l1l2	la_DRIRE	I
+23l1l3	résidus_arséniés	U
+
+#Par arrêté du 19 juin 2003, les mesures d'urgences (interdiction d'accès et élimination des déchets dangereux) ont été prescrites au liquidateur.
+
+24l0l0	19_juin_2003__	T
+24l0l1	les_mesures_d__urgences	O
+24l0l2	interdiction_d__accès	N
+24l0l3	élimination_des_déchets_dangereux	N
+24l0l4	ont_été_prescrites	N
+24l1l0	déchets_dangereux	U
+
+#En août 2003 une Évaluation Simplifiée des Risques est remise à l'administration.
+
+25l0l0	En_août_2003	T
+25l0l1	une_Évaluation_Simplifiée_des_Risques	N
+25l0l2	est_remise	N
+25l0l3	l__administration	O
+
+#Cette évaluation conclut par la nécessité de compléter les investigations déjà réalisées.
+
+26l0l0	compléter_les_investigations_déjà_réalisées	N
+
+#Une Évaluation Détaillée des Risques ainsi que la surveillance des eaux souterraines est demandée par arrêté préfectoral du 20 novembre 2003.
+
+27l0l0	Une_Évaluation	O
+27l0l1	Détaillée_des_Risques	N
+27l0l2	la_surveillance_des_eaux_souterraines	A
+27l0l3	est_demandée	N
+27l0l4	arrêté_préfectoral	O
+27l0l5	du_20_novembre_2003__	T
+
+#Elle a été proposé au CDH le 24/05/2005.
+
+28l0l0	le_24_05_2005	T
+
+#Le montant des travaux a réaliser est de l'ordre de 2 millions d'euros et s'échelonnera sur 2 ans au terme du quel un PV de récolement sera envisagé.
+
+29l0l0	Le_montant_des_travaux_a_réaliser	N
+29l0l1	2_millions_d__euros	O
+29l0l2	échelonnera_sur_2_ans	N
+29l0l3	récolement	N
+
+#Les travaux prescrits par l'arrêté préfectoral du 27 juin 2005 consistent en :
+
+30l0l0	Les_travaux_prescrits	N
+30l0l1	l__arrêté_préfectoral	O
+30l0l2	27_juin_2005	T
+
+#- arrasement des terrils ;
+
+31l0l0	arrasement_des_terrils	N
+
+#- confinement des terrils ;
+
+32l0l0	confinement_des_terrils	N
+
+#- assèchement de l'étang ;
+
+33l0l0	assèchement	N
+33l0l1	l__étang	O
+
+#- démolition des bâtiments ;
+
+34l0l0	démolition_des_bâtiments	N
+
+#- traitement du sol pollué avec élimination dans un centre de traitement adapté ;
+
+35l0l0	traitement_du_sol_pollué	N
+35l0l1	un_centre	O
+
+#L'arrêté du 27 juin 2005 prescrit également le dépôt d'un dossier SUP.
+
+36l0l0	27_juin_2005	T
+36l0l1	le_dépôt_d_	A
+36l0l2	un_dossier_SUP	O
+
+#Les déchets les plus concentrés en As ont été enlevés en 2005.
+
+37l0l0	Les_déchets	O
+37l0l1	As	O
+37l0l2	ont_été_enlevés	N
+37l0l3	en_2005__	T
+37l1l0	As	S
+
+#Les bâtiments ont été démolis en 2007.
+
+38l0l0	Les_bâtiments	O
+38l0l1	ont_été_démolis	N
+38l0l2	en_2007__	T
+
+#Les travaux de confinement et de traitement des déchets se sont déroulés en 2007 et 2008.
+
+39l0l0	Les_travaux_de	N
+39l0l1	confinement_et_de_traitement_des_déchets	O
+39l0l2	se_sont_déroulés	N
+39l0l3	en_2007_et_2008__	T
+
+#Le BRGM a établi en mars 2014 un rapport regroupant les résultats de surveillance de la qualité des eaux souterraines (amont et aval du site) et superficielles depuis le début des années 2000 jusqu'en 2013.
+
+40l0l0	Le_BRGM	O
+40l0l1	a_établi	N
+40l0l2	en_mars_2014	T
+40l0l3	surveillance	A
+40l0l4	la_qualité_des_eaux_souterraines	O
+40l0l5	amont_et_aval_du_site	L
+40l0l6	depuis_le_début_des_années_2000_jusqu__en_2013__	T
+40l1l0	Le_BRGM	I
+
+#Malgré des fluctuations résiduelles des teneurs en certains polluants relevées dans les eaux souterraines, on constate une tendance à une amélioration en terme d'impact global traduisant le bien fondé des mesures de gestion des pollutions prescrites en 2007, en particulier sur les paramètres arsenic, fer et manganèse.
+
+41l0l0	le_bien_fondé	O
+41l0l1	des_mesures_de_gestion	N
+41l0l2	des_pollutions_prescrites	N
+41l0l3	en_2007__	T
+41l0l4	arsenic	O
+41l1l0	polluants	S
+41l1l1	arsenic	S
+41l1l2	fer	S
+41l1l3	manganèse	S
+
+#Quelques travaux supplémentaires doivent cependant être exécutés pour renforcer l'efficacité de ces mesures de gestion.
+
+42l0l0	ces_mesures_de_gestion	O
+
+#L'Inspection des Installations Classées examine actuellement deux dossiers transmis par le responsable du site (dossier de fin de travaux et dossier de demande de SUP) en application de l'article R. 512-39-3 du code de l'environnement.
+
+43l0l0	L__Inspection_des_Installations_Classées	O
+43l0l1	examine_actuellement	N
+43l0l2	deux_dossiers	O
+43l0l3	le_responsable_du_site	O
+43l0l4	fin_de_travaux	N
+
+#Toutefois, il s'avère que les travaux supplémentaires doivent d'abord être exécutés et les deux documents précités revus et complétés par le descriptif des travaux pour pouvoir terminer l'instruction officielle du dossier.
+
+44l0l0	les_travaux_supplémentaires	O
+44l0l1	doivent_d_	T
+44l0l2	abord_être_exécutés	N
+
+#Lorsque le dossier de demande de SUP aura été jugé complet et recevable, la société étant l'unique propriétaire des terrains, il pourra être fait usage de la procédure dite "simplifiée" (consultation écrite en lieu et place d'une enquête publique, possibilité donnée par l'article L. 515-12 du code de l'environnement).
+
+45l0l0	demande	O
+45l0l1	de_SUP	O
+45l0l2	aura_été_jugé_complet	N
+45l0l3	la_société	O
+45l0l4	des_terrains	O

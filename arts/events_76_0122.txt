@@ -1,0 +1,560 @@
+
+#76.0122
+#Le terminal pétrolier de la Compagnie Industrielle Maritime est situé à l'extrémité de l'embouchure de l'estuaire de la Seine (rive droite).
+
+0l0l0	Maritime_est_situé	T
+0l0l1	à_l__extrémité_de_l__embouchure_de_l__estuaire	O
+0l0l2	de_la	N
+0l0l3	Seine___rive_droite	O
+0l1l0	Seine___rive_droite	I
+
+#Le dépôt est en fait implanté sur l'ancienne digue sud du port du Havre.
+
+1l0l0	Le_dépôt_est_en_fait_implanté	O
+1l0l1	sur_l__ancienne_digue_sud_du_port_du	O
+1l0l2	Havre__	R
+1l1l0	implanté_sur_l__ancienne_digue_sud_du_port_du	I
+
+#La CIM se trouve sur une langue de terre de terre d'environ 6 km de long dont la largeur varie d'est en ouest de 400 m à 100 m.
+
+2l0l0	La_CIM_se	O
+2l0l1	trouve_sur_une_langue	N
+2l0l2	de_terre_de_terre_d__environ_6_km_de_long_dont	L
+
+#Sa superficie est de 160 ha.
+
+3l0l0	Sa	O
+3l0l1	superficie_est_de_160	L
+
+#La société est bordé au nord par les bassins du port (Théophile Ducrocq et René Coty) et par le terminal de Normandie (transit de conteneurs) et au sud par les terminaux de France et de la Porte Océane crées dans le cadre de Port 2000.
+
+
+#Les 4 559 649 m3 (capacité globale) des différents hydrocarbures sont stockés dans 114 bacs dont les volumes varient de 240 à 127 000 m3, dont 4 dédiés au traitement des eaux polluées.
+
+5l0l0	Les_4_559_649	O
+5l0l1	__capacité_globale___des_différents_hydrocarbures_sont	L
+5l0l2	bacs_dont_les_volumes_varient	O
+5l0l3	de_240_à_127_000_m3___dont	A
+5l0l4	traitement_des	O
+5l0l5	eaux_polluées	O
+5l1l0	127_000_m3___dont	U
+5l1l1	traitement_des_eaux_polluées	I
+
+#L'établissement dispose notamment de :
+
+
+#7 appontements pour la réception et l'expédition des produits ;
+
+
+#1 poste de chargement de citernes routières pour le carburéacteur (carburant pour avions).
+
+8l0l0	1_poste	O
+8l0l1	de_chargement	O
+8l0l2	de_citernes_routières_pour_le_carburéacteur	A
+
+#Il abrite par ailleurs les pomperies des sociétés TOTAL, ESSO, PETROPLUS et TRAPIL qui expédient ou réceptionnent leurs produits depuis leurs raffineries ou leurs dépôts.
+
+9l0l0	Il_abrite	O
+9l0l1	par_ailleurs_les_pomperies_des_sociétés	O
+9l0l2	TOTAL___ESSO___PETROPLUS	O
+9l1l0	TOTAL___ESSO__	U
+9l1l1	PETROPLUS_et_TRAPIL	U
+
+#Les produits pétroliers stockés sont de 2 classes :
+
+10l0l0	pétroliers_stockés_sont	O
+10l1l0	sont_de_2_classes__	I
+
+#classe B (1ère catégorie ) : pétrole brut, essences, carburéacteur, naphta ;
+
+
+#classe C (2ème catégorie ) : gazole, fioul domestique.
+
+12l1l0	gazole___fioul	U
+12l1l1	domestique__	S
+
+#Le terminal du Havre est alimenté en pétrole brut par le terminal d'Antifer de la CIM via une canalisation de 42''.
+
+13l1l0	alimenté_en	S
+13l1l1	pétrole_brut_par_le	U
+
+#L'accès au dépôt peut se faire par route à l'extrémité est du dépôt (entrée gardée) ou par bateau depuis les bassins.
+
+14l0l0	L__accès_au	O
+14l0l1	dépôt_peut	L
+14l0l2	route_à_l__extrémité_est_du_dépôt	O
+14l0l3	gardée___ou	O
+14l1l0	route_à_l__extrémité	D
+14l1l1	est_du_dépôt___entrée_gardée___ou	I
+
+#Une issue de secours a été mise en place sur la clôture sud juste en face de la rotonde du bassin Hubert Raoul-Duval (clôture posée suite à la cession au GPMH des terrains occupés par le bac 200 et la pomperie SHELL).
+
+15l0l0	Une_issue	N
+15l0l1	sur_la_clôture_sud_juste	L
+15l0l2	en_face	O
+15l0l3	bassin_Hubert	O
+15l0l4	Raoul___Duval___clôture	L
+
+#La digue nord  de l'estuaire de la Seine, sur laquelle est implantée la  CIM, a été construite au cours des années 1895 à 1920.
+
+16l0l0	La_digue_nord___de_l_	O
+16l0l1	estuaire_de_la_Seine	N
+16l0l2	sur_laquelle_est	O
+16l0l3	implantée_la___CIM___a_été_construite_au_cours_des_années	L
+16l0l4	1895_à	O
+16l0l5	1920__	O
+
+#Les matériaux mis en place provenaient en partie du creusement des bassins portuaires et des dragages de la Seine.
+
+17l0l0	Les_matériaux	O
+17l0l1	mis_en_place_provenaient	L
+17l0l2	creusement_des	N
+17l0l3	bassins	O
+17l0l4	portuaires_et	N
+17l0l5	des_dragages_de_la_Seine__	T
+17l1l0	bassins	I
+
+#Les premières installations de la CIM, datant de 1920, se sont donc implantées sur des terrains artificiels constitués de remblais.
+
+18l0l0	Les_premières	O
+18l0l1	1920___se_sont_donc	N
+18l0l2	implantées_sur_des	O
+18l0l3	terrains_artificiels_constitués	L
+
+#L'extrémité ouest du dépôt est la partie la plus proche des habitations qui sont situées à 700 m environ au nord (quartier Notre-Dame du Havre).
+
+19l0l0	L__extrémité_ouest_du_dépôt_est	O
+19l0l1	la_partie	O
+19l0l2	la_plus_proche	T
+19l0l3	des_habitations_qui_sont	N
+19l0l4	situées_à_700_m_environ_au_nord	O
+19l0l5	Notre_Dame	N
+19l1l0	la_partie	I
+
+#Il n'existe aucun aquifère exploitable au droit du site.
+
+20l0l0	Il_n__existe_aucun_aquifère	O
+20l0l1	exploitable_au_droit_du_site__	O
+
+#Le site est contigu à des zones naturelles protégées.
+
+
+#En effet, deux Zones Naturelles d'Intérêts Écologiques Faunistiques et  Floristiques (ZNIEFF) bordent le sud du site, une Zone d'Importance pour la Conservation des Oiseaux (ZICO) et une Zone de Protection Spéciale-(ZPS) sont également répertoriées au sud, enfin une réserve naturelle ainsi qu'une réserve de chasse maritime sont présentes à proximité du terre Plein Sud.
+
+22l0l0	deux_Zones	L
+22l0l1	Naturelles_d__Intérêts_Écologiques	O
+
+#La surveillance piézométrique se fait à partir d'un réseau de 13 piézomètres dispersés sur le terminal.
+
+23l0l0	surveillance_piézométrique	O
+23l0l1	terminal__	L
+23l1l0	dispersés	S
+
+#Elle se fait de façon bi-annuelle depuis 1992, date de création des piézomètres.
+
+24l0l0	Elle_se_fait_de_façon_bi_annuelle	A
+
+#Le suivi de la qualité des eaux souterraines réalisé depuis 1992 a mis en évidence :
+
+25l0l0	souterraines_réalisé	T
+25l0l1	depuis_1992	N
+25l0l2	a_mis_en_évidence	O
+
+#de 1993 à 1995 : la présence de surnageant au niveau des piézomètres 9,10,11 et 12 ;
+
+26l0l0	de_1993_à	N
+26l0l1	1995___la_présence_de_surnageant_au_niveau	O
+26l0l2	des_piézomètres	T
+
+#la présence fluctuante de teneurs en hydrocarbures supérieures à la valeur de constat d'impact (VCI de 1 mg/l) sur les piézomètres 3,5,7,8,9,10,11 et 12.
+
+27l0l0	présence_fluctuante	T
+27l0l1	teneurs_en_hydrocarbures	O
+27l1l0	teneurs_en_hydrocarbures	U
+
+#Suite à plusieurs incidents, d'autres ouvrages ont été forés dans le but d'accueillir un pompage continu :
+
+28l1l0	autres_ouvrages_ont	S
+
+#2 puits à proximité du bac 160 ;
+
+
+#2 puits à proximité des bacs 58, 59 et 60 ;
+
+30l0l0	2_puits	O
+30l0l1	à_proximité_des_bacs_58	L
+
+#1 puits et 9 piézomètres à proximité du bac 56 ;
+
+31l0l0	1_puits	O
+31l0l1	et_9_piézomètres_à_proximité	L
+
+#2 piézomètres à proximité du bassin n°1 ;
+
+32l0l0	2_piézomètres	O
+32l0l1	proximité_du_bassin_n__1____	L
+
+#9 piézomètres à proximité du bassin n°2.
+
+33l0l0	à_proximité_du_bassin_n__2	O
+
+#Les épaisseurs de surnageants sont très variables suivant la marée : quelques centimètres à marrée basse ,jusqu'à 2,58 m près du bac 56 et 1,80 m près du bassin n°1.
+
+34l0l0	épaisseurs_de_surnageants_sont	L
+
+#D'une manière générale, ces fortes valeurs ne sont constatées qu'en tout début de pompage puis tendent rapidement à s'amenuiser.
+
+35l1l0	générale___ces_fortes	U
+
+#Une évaluation simplifiée des risques (ESR) est demandée par arrêté préfectoral en date du 16 octobre 2000.
+
+36l0l0	arrêté_préfectoral	N
+
+#Cette étude a été remise fin 2001.
+
+37l0l0	Cette	O
+37l0l1	étude_a_été_remise_fin_2001__	N
+
+#La phase A conclue à la nécessité d'une phase B.
+
+38l0l0	La_phase_A_conclue_à_la	N
+38l0l1	nécessité	T
+
+#Elle a été prescrite par arrêté préfectoral du 07 mars 2005.
+
+39l0l0	préfectoral_du	O
+
+#L'étape A a été remise en février 2002, elle a permis d'accéder à une connaissance assez correcte de l'état de la nappe mais pas de collecter suffisamment d'informations sur la qualité des sols et leur éventuelle contamination.
+
+40l0l0	L__étape	O
+40l0l1	A_a_été_remise	N
+40l0l2	en_février_2002___elle_a	O
+40l0l3	permis_d__accéder_à_une_connaissance_assez_correcte_de_l__état_de_la_nappe_mais_pas_de_collecter_suffisamment_d__informations_sur_la_qualité_des_sols_et_leur_éventuelle_contamination__	T
+
+#Par ailleurs, les évènements nouveaux survenus (nouvelles sources de pollution suite à des incidents sur le site et nouvelles investigations) entre la remise de l'étape A et la rédaction de ce rapport ont nécessité une mise à jour de l'ESR-Phase A (octobre 2004).
+
+41l0l0	Par_ailleurs	O
+41l0l1	__les	N
+41l0l2	évènements_nouveaux	T
+41l0l3	rapport_ont_nécessité_une_mise_à_jour	O
+
+#En effet, suite à une pollution du sol en avril 2004 à proximité du bac n°2, une dépollution était nécessaire, celle-ci a été réalisée fin 2004.
+
+42l0l0	suite_à_une_pollution_du_sol_en_avril_2004	N
+42l0l1	à_proximité_du_bac_n__2___une_dépollution	O
+42l0l2	celle_ci_a_été_réalisée_fin_2004__	N
+
+#L'étape B de l' ESR a permis de mettre en évidence 7 sources potentielles de pollution :
+
+43l0l0	de_l___ESR	R
+43l0l1	a_permis_de_mettre_en	N
+43l0l2	évidence_7	T
+43l0l3	sources_potentielles	L
+43l0l4	de_pollution____	N
+
+#Source 1 : secteur du bac 160
+
+
+#Source 2 : secteur des bacs 58-59-60
+
+
+#Source 3 : secteur du bac 56
+
+
+#Source 4 : secteur du bassin n°1
+
+47l0l0	Source_4	O
+
+#Source 5 : secteur du bassin n°2
+
+48l0l0	__secteur_du_bassin_n__2	O
+
+#Source 6 : zone de traitement des terres souillées (actuelle et future)
+
+
+#Source 7 : secteur de l'ancien bac 201
+
+50l0l0	__secteur_de_l__ancien	O
+50l0l1	bac_201	O
+
+#Les analyses réalisées sur la source 1 révèlent des teneurs en HCT supérieures à la Valeur de Définition Source-Sol (VDSS) (2500 mg/kg ms) mais inférieures à la Valeur de Constat d'Impact (VCI) pour un usage non sensible (25 000 mg/kg ms).
+
+
+#La phase B à également tenu compte des analyses de sols et eaux ainsi que des travaux de dépollution effectués depuis la remise de l'étape A.
+
+52l0l0	La_phase_B_à_également_tenu	N
+52l1l0	ainsi	S
+
+#Ainsi, pour la source 7, le terrain a été excavé jusqu'à 1,5m de profondeur autour d'un sondage ayant révélé une valeur en HCT supérieures à la VDSS (3300mg/kg ms).
+
+53l0l0	Ainsi___pour	O
+53l0l1	été_excavé	N
+53l0l2	jusqu__à_1_5_m_de	O
+53l0l3	profondeur_autour_d__un_sondage_ayant	N
+53l0l4	révélé_une_valeur_en_HCT	N
+53l0l5	supérieures	O
+
+#Le terrain a ensuite été remblayé avec le matériau du merlon du bac 201 démantelé.
+
+54l0l0	remblayé	O
+54l0l1	avec_le_matériau	N
+54l0l2	du_merlon_du_bac_201_démantelé__	L
+
+#Les analyses réalisées par la suite ont montrées l'absence de pollution résiduelle.
+
+55l0l0	Les_analyses	O
+55l0l1	réalisées_par_la_suite	N
+55l0l2	ont_montrées_l_	O
+55l0l3	absence	O
+55l0l4	pollution_résiduelle	N
+
+#Par ailleurs, la source 1 comportait autrefois un ancien site de stockage d'essence plombée, des analyses recherchant plus spécifiquement la présence de plomb dans les sols ont donc été entreprises.
+
+56l0l0	Par_ailleurs___la_source	N
+56l1l0	de_stockage_d__essence	U
+
+#Les résultats ont montrés des teneurs en plomb de 621 et 462 mg/kg ms, valeurs supérieures à la VDSS (200 mg/kg ms) mais inférieures à la VCI usage non sensible (2000 mg/kg ms).
+
+57l0l0	ont_montrés	O
+57l0l1	des_teneurs_en_plomb_de	R
+57l0l2	621_et_462_mg___kg_ms___valeurs_supérieures_à_la	O
+57l0l3	VDSS___200_mg___kg_ms___mais_inférieures_à_la_VCI_usage	N
+57l1l0	supérieures_à_la	U
+57l1l1	__2000	S
+
+#L'ensemble des sources a été classé en catégorie 2 « site à surveiller », mis à part la source 1 qui pour la non présence de plomb dans le sol a été classé en catégorie 3 « site banalisable ».
+
+58l1l0	catégorie	S
+
+#Zone de la pomperie Manifold M2 (source 5) :
+
+59l0l0	Zone_de_la_pomperie_Manifold	O
+59l0l1	M2___source	R
+59l0l2	5____	O
+
+#Le rapport d'implantation de piézomètres sur la zone de la pomperie manifold M2 au sud du site ainsi qu'en bordure du bassin n°2 a été remis à l'inspections des installations classés en date du 16 mars 2006. 7 piézomètres ont été mis en place dans le but de localiser et de déterminer l'extension de la lentille de pollution.
+
+60l1l0	implantation_de	I
+
+#Les résultats d'analyses sur les eaux souterraines ont montrés des teneurs inférieures à la VCI pour un usage non sensible.
+
+61l0l0	Les_résultats_d__analyses_sur_les_eaux_souterraines_ont	O
+61l0l1	inférieures_à_la	L
+61l0l2	VCI_pour	O
+61l0l3	un	R
+61l0l4	usage_non_sensible__	L
+
+#Cependant, les ouvrages PM2-71 et PM2-75 présentent une phase flottante d'hydrocarbures légers avec une épaisseur variable entre 0,01 m et 2,50 m.
+
+62l0l0	flottante_d_	O
+
+#Une unité de pompage a également été installée par la même occasion.
+
+63l0l0	pompage_a_également	O
+63l1l0	occasion__	U
+
+#Zone de la future aire de stockage (source 6) :
+
+64l0l0	Zone_de_la_future_aire	O
+64l0l1	de_stockage___source_6____	N
+
+#Dans le cadre du projet de déplacement de la zone de dépôt et de conditionnement de stabilité des terres souillées, un diagnostic des sols a été réalisé en novembre 2004 sur la zone du site en question.
+
+65l0l0	cadre_du_projet_de_déplacement	O
+
+#De ce fait, 6 sondages ont été réalisés sur la future zone de stockage et 4 piézomètres ont été implantés en périphérie.
+
+66l0l0	De_ce_fait___6_sondages	O
+66l0l1	ont_été_réalisés	N
+66l0l2	sur_la_future_zone	O
+66l0l3	stockage_et_4_piézomètres_ont_été_implantés_en_périphérie	O
+66l0l4	_	N
+
+#Les analyses réalisées ont démontré l'absence de teneurs significatives en hydrocarbures totaux, BTEX ( Benzène, Toluène, Éthyl-benzène et Xylènes) et indice phénols dans les sols et les eaux souterraines.
+
+67l0l0	analyses_réalisées	O
+67l0l1	ont_démontré_l_	N
+67l0l2	absence_de_teneurs_significatives_en_hydrocarbures	O
+67l0l3	totaux__	N
+67l0l4	BTEX___Benzène__	L
+
+#Zone de l'ancien bac 201 (source 7) :
+
+68l0l0	Zone_de_l__ancien_bac_201	N
+
+#Dans le cadre de la cessation d'activité du réservoir 201aujourd'hui démoli et avant restitution, des terrains libérés au Port Autonome du Havre, un diagnostic des sols a été réalisé en mai 2005 sur la zone de l'ancien bac 201.
+
+
+#L'ensemble des teneurs en hydrocarbures totaux mesurées dans le sol était inférieur à la valeur de définition de source sol (VDSS) de 2500mg/kg à l'exception d'un sondage qui présentait une VDSS de 3300 mg/kg mais l'analyse effectuée en profondeur au droit du sondage en question (1,5 à 3
+
+70l0l0	L__ensemble_des	R
+70l0l1	teneurs_en_hydrocarbures	N
+70l0l2	totaux_mesurées	O
+70l0l3	source	N
+70l0l4	sol___VDSS___de_2500mg___kg_à_l_	L
+70l0l5	exception_d__un_sondage	N
+70l0l6	qui_présentait	N
+70l0l7	une_VDSS	T
+70l0l8	de_3300_mg	L
+70l1l0	__VDSS___de_2500mg___kg_à_l_	I
+
+#m) a montré l'absence de contamination en profondeur.
+
+71l0l0	contamination_en_profondeur	O
+71l1l0	contamination_en_profondeur	S
+
+#Aux vues de ces résultats d'analyse et compte tenu de l'usage futur du site ; à savoir un terminal à conteneurs après remblai du terrain actuel pour mise à la côte de la plateforme de Port 2000 et aménagement dans cette zone des voies de circulation ; la zone a été entièrement traité par excavation des terres polluées.
+
+72l0l0	résultats_d__analyse_et_compte_tenu_de_l_	O
+
+#Les terres excavées ont ensuite été traitées in situ par réaction chimique à base de chaux.
+
+73l0l0	chaux__	O
+
+#Au cours du mois de juillet 2005, des contrôles ont été réalisés dans le cadre de l'aménagement de la nouvelle aire de traitement des terres souillées.
+
+74l0l0	Au_cours_du_mois	O
+74l0l1	de_juillet_2005___des_contrôles_ont_été	N
+
+#Le but étant de contrôler la perméabilité du matériau traité à la chaux et compacté.
+
+75l0l0	Le_but_étant_de_contrôler_la_perméabilité_du	N
+75l0l1	matériau_traité_à_la	N
+75l0l2	chaux_et_compacté	R
+75l0l3	_	N
+
+#Les résultats des contrôles ont montrés que la couche inférieure présentait une perméabilité inférieure à 10-8 m/s, ce qui permet donc de garantir l'étanchéité de la nouvelle aire de stockage.
+
+76l0l0	Les_résultats	O
+
+#Enfin, au mois de décembre 2005, des investigations supplémentaires ont été réalisées afin de pouvoir proposer un classement définitif de la zone de l'ancien bac 201.
+
+77l0l0	201__	O
+
+#Les résultats de cette nouvelle campagne ont permis de mettre en évidence une absence de teneurs significatives en HCT et HAP sur les différents horizons prélevés sur la zone et l'absence de contamination résiduelle suite aux actions correctives effectuées sur les sols et les eaux souterraines.
+
+78l0l0	résultats_de_cette_nouvelle	T
+78l0l1	campagne_ont_permis_de_mettre_en_évidence_une_absence_de	N
+78l0l2	différents_horizons	O
+
+#Dans le cadre de Port 2000, la CIM a dû restituer au Grand Port Maritime du Havre (GPMH) les terrains sur lesquels étaient implantés le bac 200 et la pomperie PETROPLUS (ex SHELL).
+
+79l0l0	Port_2000___la_CIM_a_dû_restituer	N
+79l1l0	étaient_implantés	S
+
+#En 2010, après démantèlement des équipements et avant restitution des terrains au GPMH, un diagnostic des sols a été réalisé afin de déterminer les risques résiduels (ARR).
+
+80l0l0	En_2010___après	R
+80l0l1	démantèlement_des	O
+80l0l2	équipements	N
+80l0l3	et_avant_restitution_des_terrains	L
+80l0l4	au_GPMH___un_diagnostic_des_sols	O
+80l0l5	a_été_réalisé_afin	N
+80l0l6	déterminer_les_risques_résiduels	O
+80l0l7	ARR____	O
+80l1l0	démantèlement_des	I
+80l1l1	avant_restitution_des_terrains_au	I
+80l1l2	déterminer_les_risques_résiduels	I
+80l1l3	ARR____	I
+
+#Les travaux de dépollution par excavation des terres polluées ont été réalisés fin 2010 au droit du bac 200, des cuvettes nord et ouest ainsi que de l'ancienne pomperie.
+
+81l0l0	Les_travaux	T
+81l0l1	de_dépollution_par_excavation_des	N
+81l0l2	terres_polluées_ont	N
+81l0l3	été_réalisés_fin_2010	O
+81l0l4	au_droit_du_bac_200___des_cuvettes_nord	N
+81l1l0	2010	I
+
+#Un pompage du flottant a également été entrepris au droit de l'ancien piézomètre PZ4, les mesures de terrains ont indiquées l'absence de flottant au droit de l'ouvrage PZ4bis implanté à proximité de PZ4.
+
+82l0l0	Un_pompage_du_flottant_a_également	N
+82l0l1	été_entrepris_au_droit_de_l_	N
+82l0l2	ancien_piézomètre	N
+82l0l3	PZ4___les	T
+82l0l4	mesures_de_terrains	L
+82l0l5	ont_indiquées_l__absence	O
+
+#Les analyses menées après les travaux ont mis en évidence la présence d'une pollution résiduelle :
+
+83l0l0	Les_analyses	N
+83l0l1	menées_après	O
+83l0l2	les_travaux_ont_mis_en	N
+83l0l3	évidence_la	L
+
+#en hydrocarbures totaux : teneur maximale de 4100 mg/kg MS pour une valeur de référence de 1000 mg/kg MS (valeur pour  les eaux brutes d'après la réglementation française) au droit de la cuvette nord, teneur maximale de 6600 mg/kg MS pour une valeur de référence de 1000 mg/kg MS (valeur pour  les eaux brutes d'après la réglementation française) au droit de l'ancien bac 200, teneur maximale de 1100 mg/kg MS pour une valeur de référence de 1000 mg/kg MS (valeur pour  les eaux brutes d'après la réglementation française) au droit de l'ancienne pomperie.
+
+84l0l0	en_hydrocarbures_totaux___teneur_maximale	N
+84l0l1	de_4100_mg___kg_MS	R
+84l0l2	pour_une_valeur	O
+84l1l0	de_référence_de_1000_mg__	U
+
+#en BTEX : sous forme de trace (teneurs maximales de 1,4 mg/kg MS pour la somme des BTEX) pour une valeur de référence de 1000 mg/kg MS (valeur pour les eaux brutes d'après la réglementation française) au droit de la cuvette nord, teneur maximum de 91 mg/kg MS au droit de l'ancien bac 200 BTEX.
+
+85l0l0	réglementation_française__	L
+85l1l0	en_BTEX___sous_forme_de_trace	S
+
+#L'ARR après travaux de dépollution a été considérée pour un usage industriel.
+
+86l1l0	L__ARR_après	S
+
+#En effet, la zone étudiée est divisée en une zone « GPMH » qui sera utilisée pour la desserte des futurs terminaux et zone « opérateur » qui sera aménagée en terre-pleins où des bureaux seront potentiellement présents.
+
+87l0l0	En_effet	O
+87l0l1	__la_zone_étudiée_est_divisée	N
+87l0l2	en_une_zone_____GPMH	N
+87l0l3	qui_sera_utilisée_pour	N
+
+#La voie d'exposition considérée est l'inhalation de gaz issus du dégazage de la nappe et des sols.
+
+88l0l0	exposition	O
+88l0l1	inhalation	O
+88l0l2	issus_du_dégazage_de	R
+88l0l3	la_nappe_et	O
+88l0l4	des_sols__	O
+88l1l0	inhalation_de	I
+
+#Après travaux de dépollution et en considérant les analyses résiduelles, l'ARR après travaux montre que la qualité des milieux au droit du bac 200, de la cuvette nord, de la cuvette ouest et de l'ancienne pomperie est compatible avec l'usage et l'aménagement futur du site.
+
+89l0l0	considérant	N
+89l0l1	résiduelles__	N
+89l0l2	l__ARR_après	L
+
+#Certains piézomètres implantés dans les cuvettes sont susceptibles de générer une pollution de la nappe en cas d'épandage de produit.
+
+90l0l0	Certains_piézomètres_implantés	N
+90l0l1	une_pollution	N
+90l0l2	en_cas_d__épandage_de	O
+90l0l3	produit__	L
+
+#L'arrêté préfectoral du 18 juillet 2006 demande donc de boucher ces piézomètres et de les remplacer par d'autres judicieusement implantés à l'extérieur des cuvettes de façon à surveiller l'ensemble du site.
+
+91l0l0	L__arrêté_préfectoral	O
+91l0l1	piézomètres_et_de_les_remplacer	N
+91l0l2	par_d_	O
+91l0l3	autres	R
+91l0l4	judicieusement_implantés	L
+
+#Ces mesures devront être respectées au 31 décembre 2011.
+
+92l0l0	Ces_mesures_devront_être	O
+92l0l1	respectées_au_31	T
+92l0l2	_	O
+
+#L'arrêté préfectoral du 13 novembre 2015 demande une surveillance pérenne sur les rejets aqueux des Benzène, Xylène, Toluène, Arsenic, Plomb, Nonylphénols et Naphtalène, pendant une durée minimale de 2 ans et demi.
+
+93l0l0	2015_demande_une_surveillance_pérenne_sur_les_rejets_aqueux_des_Benzène___Xylène___Toluène___Arsenic___Plomb___Nonylphénols_et_Naphtalène___pendant_une_durée_minimale_de_2_ans_et_demi__	T
+
+#Ce même arrêté demande un programme d'actions et une étude technico-économique pour réduire ou supprimer les Benzène, Xylène et Toluène.
+
+94l0l0	Ce_même_arrêté_demande	O
+94l0l1	programme_d_	T
+94l0l2	actions_et	R
+94l0l3	une_étude_technico___économique	A
+94l0l4	pour_réduire_ou_supprimer	N
+94l1l0	supprimer_les_Benzène___Xylène_et_Toluène__	S
+
+#L'étude technico-économique a été remise le 19 janvier 2018 et prévoit l'installation d'une nouvelle station de traitement des rejets aqueux.
+
+95l0l0	économique_a_été_remise	O
+95l1l0	station_de_traitement_des_rejets_aqueux	S

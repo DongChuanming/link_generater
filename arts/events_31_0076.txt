@@ -1,0 +1,368 @@
+
+#31.0076
+#Le site, d'une superficie de 3ha, est implanté dans une zone artisanale, à proximité de l'A62, à l'ouest du centre-ville.
+
+0l0l0	Le_site	O
+0l0l1	3_ha	O
+0l0l2	est_implanté_dans_une_zone_artisanale	O
+0l0l3	à_proximité_de_l__A62	L
+0l0l4	à_l__ouest_du_centre___ville	L
+
+#Il est bordé dans ses parties ouest et est par des entreprises artisanales, au nord-est par une aire d'accueil pour les gens du voyage, au nord par des champs agricoles et au sud par une zone pavillonnaire.
+
+1l0l0	bordé	L
+1l0l1	des_entreprises_artisanales	O
+1l0l2	au_nord_est	L
+1l0l3	une_aire	O
+1l0l4	gens_du_voyage	O
+1l0l5	des_champs_agricoles	O
+1l0l6	une_zone_pavillonnaire	O
+
+#Le site était occupé par la société GERLERO ET FILS qui exerçait une activité de travaux de terrassement courants et travaux de démolition de bâtiments.
+
+2l0l0	Le_site	O
+2l0l1	était_occupé_par	R
+2l0l2	la_société_GERLERO	O
+2l0l3	ET_FILS	O
+2l0l4	exerçait_une_activité_de	A
+2l0l5	travaux_de_terrassement_courants	N
+2l0l6	travaux_de_démolition	N
+2l0l7	de_bâtiments	N
+2l1l0	la_société_GERLERO_ET_FILS	I
+
+#Au vu des photos aériennes témoignant de l'évolution du site dans le temps, les apports de déchets ont débuté vers 2002.
+
+3l0l0	les_apports	N
+3l0l1	de_déchets	O
+3l0l2	ont_débuté	N
+3l0l3	vers_2002	T
+
+#L'activité a pris fin en 2011.
+
+4l0l0	L__activité	O
+4l0l1	a_pris_fin	N
+4l0l2	en_2011__	T
+
+#Cette entreprise est en liquidation judiciaire depuis le 28 juillet 2011.
+
+5l0l0	Cette_entreprise	O
+5l0l1	est_en_liquidation_judiciaire	N
+5l0l2	depuis_le_28_juillet_2011__	T
+
+#L'entreprise GERLERO ET FILS était une entreprise de démolition de chantiers.
+
+6l0l0	L__entreprise_GERLERO	O
+6l0l1	ET_FILS	O
+6l0l2	était	R
+6l0l3	une_entreprise_de_démolition_de_chantiers	N
+6l1l0	GERLERO_ET_FILS	I
+
+#Elle disposait d'une habilitation pour intervenir sur des chantiers contenant de l'amiante lié, cette habilitation lui avait été retirée avant sa liquidation.
+
+7l0l0	Elle	O
+7l0l1	une_habilitation	O
+7l0l2	intervenir_sur_des_chantiers	N
+7l0l3	contenant_de	A
+7l0l4	l__amiante_lié	O
+7l0l5	cette_habilitation	O
+7l0l6	avait_été_retirée	N
+7l0l7	avant	T
+7l0l8	sa_liquidation	N
+
+#Le site n'avait fait l'objet d'aucune procédure « Installation Classée pour la Protection de l'Environnement » (déclaration ou demande d'autorisation) par l'exploitant.
+
+8l0l0	Le_site	O
+8l0l1	n_	N
+8l0l2	avait_fait_l__objet_d_	R
+8l0l3	aucune_procédure	O
+8l0l4	__Installation_Classée_pour_la	N
+8l0l5	Protection_de_l__Environnement	O
+8l0l6	déclaration_ou_demande_d__autorisation	N
+8l0l7	par_l__exploitant	O
+
+#L'entreprise a été liquidée le 28 juillet 2011 par liquidateur judiciaire nommé.
+
+9l0l0	L__entreprise	O
+9l0l1	a_été_liquidée	N
+9l0l2	le_28_juillet_2011	T
+
+#Une vente aux enchères du matériel de l'entreprise a eu lieu le 12 décembre 2011.
+
+10l0l0	Une_vente_aux_enchères	N
+10l0l1	matériel_de_l__entreprise	O
+10l0l2	a_eu_lieu	N
+10l0l3	le_12_décembre_2011__	T
+
+#Le 15 mars 2011, suite à un signalement de l'Inspection du travail, l'Inspection des installations classées a réalisé une première inspection de cette entreprise et a découvert l'existence d'un site illégal de transit de plusieurs centaines de tonnes de déchets contenant de l'amiante.
+
+11l0l0	Le_15_mars_2011__	T
+11l0l1	suite_à	R
+11l0l2	un_signalement	N
+11l0l3	l__Inspection_du_travail	O
+11l0l4	l__Inspection_des_installations_classées	O
+11l0l5	a_réalisé	N
+11l0l6	une_première_inspection	N
+11l0l7	cette_entreprise	O
+11l0l8	a_découvert	N
+11l0l9	l__existence_d_	O
+11l0l10	un_site_illégal_de_transit	O
+11l0l11	de_tonnes_de_déchets_contenant_de_l__amiante	O
+11l1l0	amiante	U
+
+#Depuis cette date, ce site fait l'objet d'un suivi particulier de la part de l'Inspection des installations classées (notamment 14 inspections entre 2011 et 2012).
+
+12l0l0	Depuis_cette_date	T
+12l0l1	ce_site	O
+12l0l2	fait_l__objet_d_	R
+12l0l3	un_suivi_particulier	O
+12l0l4	l__Inspection_des_installations_classées	O
+12l0l5	inspections	N
+12l0l6	entre_2011_et_2012__	T
+
+#Par arrêtés de mise en demeure et de prescriptions intérimaires du 8 juillet 2011 pris envers l'administrateur judiciaire, la Préfecture de Haute-Garonne a procédé à des demandes de traçabilité, conditionnement et caractérisation des déchets, de réalisation de diagnostics des sous-sols après les évacuations.
+
+13l0l0	Par	R
+13l0l1	arrêtés_de_mise_en	O
+13l0l2	du_8_juillet_2011	T
+13l0l3	pris_envers	N
+13l0l4	l_	O
+13l0l5	administrateur_judiciaire	N
+13l0l6	la_Préfecture_de_Haute_Garonne	O
+13l0l7	a_procédé_à	R
+13l0l8	des_demandes	N
+13l0l9	réalisation_de_diagnostics	N
+13l0l10	sous_sols	O
+13l0l11	après_les_évacuations	N
+13l1l0	la_Préfecture_de_Haute_Garonne	I
+
+#Sur ce site se trouvent 3 parcelles :
+
+14l0l0	Sur	L
+14l0l1	ce_site	O
+
+#- la parcelle 1 de 11 245 m2 est celle où étaient stockés les déchets amiantés (environ 3 000 m2 en fond de parcelle) et où sont stockés le tas de déchets en mélange et tout ou partie du merlon de séparation avec les terrains voisins ;
+
+15l0l0	celle	O
+15l0l1	où	R
+15l0l2	étaient_stockés	A
+15l0l3	les_déchets_amiantés	O
+15l0l4	merlon	O
+15l0l5	les_terrains_voisins	O
+15l1l0	les_déchets_amiantés	U
+15l1l1	déchets	U
+
+#- la parcelle 2 est celle où sont construits les bâtiments et est bitumée ;
+
+16l0l0	la_parcelle_2	O
+16l0l1	construits	N
+16l0l2	les_bâtiments	O
+16l0l3	bitumée	O
+
+#- la parcelle 3 de 11 562 m2 est celle où sont stockés, en majorité, des gravats, bois et granulats
+
+
+#L'action de l'État a porté en priorité sur la zone de la parcelle 1 où environ 700 tonnes de déchets contenant de l'amiante étaient stockés.
+
+18l0l0	l__État	O
+18l0l1	a_porté_en_priorité_sur	R
+18l0l2	la_zone	O
+18l0l3	700_tonnes_de_déchets_contenant_de_l__amiante	O
+18l0l4	étaient_stockés	N
+
+#Depuis juin 2012, il ne reste plus de déchets contenant de l'amiante stocké en aérien.
+
+19l0l0	Depuis_juin_2012__	T
+19l0l1	il	O
+19l0l2	ne_reste_plus_de_déchets	N
+19l0l3	l__amiante	O
+19l1l0	amiante	U
+
+#La zone du tas de déchets en mélange a peu évolué depuis la découverte du site.
+
+20l0l0	La_zone	O
+20l0l1	a_peu_évolué	N
+20l0l2	depuis	T
+20l0l3	la_découverte	N
+
+#Rejoignant le merlon de séparation, elle est toujours présent sur le site.
+
+
+#A l'issue de l'évacuation des matériaux présents en surface sur les parcelles, le préfet de Haute-Garonne a imposé à l'exploitant (dans ses 2 arrêtés du 8 juillet 2011 susvisés) de réaliser des diagnostics de l'état des sous-sols permettant de vérifier l'absence ou non de produits amiantés dans le sous-sol.
+
+22l0l0	A_l__issue_de	R
+22l0l1	l__évacuation	N
+22l0l2	matériaux	O
+22l0l3	les_parcelles	O
+22l0l4	le_préfet_de_Haute_Garonne	O
+22l0l5	a_imposé	N
+22l0l6	l__exploitant	O
+22l0l7	8_juillet_2011	T
+22l0l8	réaliser_des_diagnostics	N
+22l0l9	l__état_des_sous_sols	O
+22l0l10	permettant_de_vérifier	R
+22l0l11	l__absence_ou_non_de_produits_amiantés	O
+22l1l0	le_préfet_de_Haute_Garonne	I
+22l1l1	produits_amiantés	U
+
+#Le 30 novembre 2012 ont été réalisés des sondages dans les sous-sols de la partie de la parcelle 1 ayant fait l'objet d'évacuations et dans les différents tas présents sur la parcelle 1 du site.
+
+23l0l0	Le_30_novembre_2012	T
+23l0l1	ont_été_réalisés	N
+23l0l2	des_sondages	N
+23l0l3	la_partie_de_la_parcelle_1	O
+23l0l4	ayant_fait_l__objet	R
+
+#Cette prestation répond partiellement aux exigences de diagnostic des sous-sols du site formulées dans l'article 2 de l'arrêté du 8 juillet 2011.
+
+24l0l0	Cette_prestation	N
+24l0l1	8_juillet_2011__	T
+
+#Suite aux investigations menées, le rapport de l'APAVE conclut à la présence d'amiante sur le site :
+
+25l0l0	Suite_aux	R
+25l0l1	investigations_menées	N
+25l0l2	l__APAVE	O
+25l0l3	la_présence_d__amiante	O
+
+#- fragments de plaques fibres-ciment en surface sur le terrain ;
+
+26l0l0	fibres___ciment	O
+
+#- fragments de plaques fibres-ciment en profondeur dans le talus de remblais ;
+
+27l0l0	ciment_en_profondeur	O
+27l0l1	dans_le_talus_de_remblais	L
+27l1l0	plaques_fibres___ciment	U
+
+#- pas de présence d'amiante dans deux zones de fouille.
+
+28l0l0	deux_zones_de_fouille	O
+
+#Suite aux recherches effectuées le 30 novembre 2012 et à la fourniture du rapport de l'APAVE du 7 janvier 2013, l'Inspection a constaté que :
+
+29l0l0	Suite	R
+29l0l1	aux_recherches_effectuées	N
+29l0l2	le_30_novembre_2012	T
+29l0l3	l__APAVE	O
+29l0l4	7_janvier_2013__	T
+
+#- de l'amiante a été retrouvé dans chaque recherche ou sondage effectué sur des tas se trouvant en surface (tas de déchets, monticule, merlon) ;
+
+30l0l0	l__amiante	O
+30l0l1	a_été_retrouvé	N
+30l1l0	amiante	S
+
+#- de l'amiante a été retrouvé sous forme de fragments de plaques de fibro-ciment dans certains des sondages effectués dans les sous-sols du fond de la parcelle 1.
+
+31l0l0	certains_des_sondages	O
+31l0l1	effectués_dans_les_sous_sols	N
+31l0l2	du_fond_de_la_parcelle_1__	L
+31l1l0	amiante	S
+
+#Il n'a pas été retrouvé dans ces sondages d'enfouissement massif de plaques de fibro-ciment.
+
+32l0l0	ces_sondages	O
+32l0l1	enfouissement_massif_de_plaques_de_fibro___ciment	O
+
+#Suite à ces constats, la DREAL (Direction régionale de l'environnement, de l'aménagement et du logement) de Midi-Pyrénées et la mairie de Saint-Alban (31) ont sollicité, à l'été 2013, la Direction régionale du BRGM en Midi-Pyrénées pour un avis d’expert, relatif à différents scénarios possibles de mise en sécurité du dépôt de déchets en mélange comportant des produits amiantés sur l’ancien site de la société GERLERO, situé sur la commune de Saint-Alban :
+
+33l0l0	ces_constats	N
+33l0l1	la_DREAL	O
+33l0l2	Pyrénées_et_la_mairie	O
+33l0l3	de_Saint_Alban___31___ont_sollicité	N
+33l0l4	à_l__été_2013__	T
+33l0l5	la_Direction_régionale_du_BRGM	O
+33l0l6	mise_en_sécurité	N
+33l0l7	dépôt_de_déchets_en_mélange	N
+33l0l8	produits_amiantés	O
+33l0l9	la_société_GERLERO	O
+33l0l10	situé_sur_la_commune_de_Saint_Alban	L
+33l1l0	la_DREAL	I
+33l1l1	BRGM	I
+33l1l2	des_produits_amiantés	U
+33l1l3	la_société_GERLERO	I
+
+#- procéder à un état des lieux par :
+
+34l0l0	un_état_des_lieux	N
+
+#• une consultation de l’ensemble des documents existants sur l’historique de ce site, et en particulier, les photographies aériennes pouvant témoigner des évolutions des dépôts et la nature des matériaux entreposés,
+
+
+#• une visite de terrain afin de vérifier certaines informations ou de les compléter,
+
+36l0l0	une_visite_de_terrain	N
+
+#- d’examiner la vulnérabilité des milieux environnants de la parcelle vis-à-vis du risque sanitaire « amiante »,
+
+37l0l0	milieux_environnants	O
+37l0l1	vis_à_vis	N
+
+#- d’identifier les différentes options de gestion possibles et de définir les modalités techniques de réhabilitation du site.
+
+38l0l0	gestion_possibles	O
+38l0l1	de_définir	N
+38l0l2	les_modalités_techniques_de_réhabilitation	O
+
+#En première approche, deux scénarii seraient techniquement envisageables :
+
+
+#• soit une évacuation des déchets hors site vers des filières appropriées,
+
+40l0l0	évacuation_des_déchets_hors_site	N
+
+#• ou soit leur confinement sous des matériaux propres (granulats) présents sur l’une des parcelles adjacentes au terrain,
+
+41l0l0	des_matériaux	O
+41l0l1	au_terrain	O
+41l1l0	des_matériaux_propres	U
+
+#- d’énoncer les restrictions d’usage (ou de servitudes) du site compte tenu des confinements proposés et des futurs usages envisagés du site.
+
+42l0l0	d__énoncer	N
+42l0l1	les_restrictions_d__usage	O
+42l0l2	des_futurs_usages_envisagés	A
+42l0l3	du_site	A
+
+#Au vu des résultats de l’étude transmise par le BRGM en novembre 2013, la commune de Saint-Alban, M.
+
+43l0l0	le_BRGM	O
+43l0l1	en_novembre_2013__	T
+43l0l2	la_commune	O
+43l0l3	de_Saint_Alban	L
+43l0l4	M_	O
+43l1l0	le_BRGM	I
+
+#erlero et les services de l’Etat ont opté, lors d’une réunion en février 2014, pour l’évacuation totale des déchets présents sur le site.
+
+44l0l0	erlero_et_les_services_de_l__Etat	O
+44l0l1	ont_opté	N
+44l0l2	lors	T
+44l0l3	d__une_réunion	N
+44l0l4	en_février_2014__	T
+44l0l5	l__évacuation_totale	N
+44l0l6	le_site	O
+44l1l0	les_services_de_l__Etat	I
+
+#La société qui serait en charge de la dépollution serait spécialisée dans la réhabilitation de sites et disposerait d'une qualification pour le traitement de l’amiante.
+
+45l0l0	La_société	O
+45l0l1	serait_en_charge_de	R
+45l0l2	la_dépollution	N
+45l0l3	serait_spécialisée_dans	R
+45l0l4	la_réhabilitation_de_sites	N
+45l0l5	une_qualification	O
+45l0l6	le_traitement	N
+45l0l7	l__amiante	O
+
+#Des habitats collectifs sans sous sol pourraient être construits sur le site après la vente des terrains au porteur de projet potentiel et sous réserve de la modification du plan d'urbanisme de la commune.
+
+46l0l0	Des	O
+46l0l1	habitats_collectifs	N
+46l0l2	être_construits	N
+46l0l3	la_vente_des_terrains	N
+46l0l4	projet_potentiel	O
+46l0l5	sous_réserve_de	R
+46l0l6	la_modification	N
+46l0l7	plan_d__urbanisme	N
+46l0l8	la_commune	O

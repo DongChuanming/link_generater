@@ -1,0 +1,89 @@
+
+#92.0082
+#Ancien site de 6 hectares comportant un seul bâtiment où étaient exercées des activités de fabrication de bougies automobiles et traitement électrolytique des métaux.
+
+0l0l0	Ancien_site	O
+0l0l1	6_hectares	O
+0l0l2	comportant	R
+0l0l3	un_seul_bâtiment	O
+0l0l4	étaient_exercées_des_activités_de_fabrication_de_bougies_automobiles_et_traitement_électrolytique_des_métaux	A
+
+#Des études environnementales ont été menées depuis 2007 et différents exploitants se sont succédés.
+
+1l0l0	Des_études_environnementales	N
+1l0l1	ont_été_menées	N
+1l0l2	depuis_2007	T
+1l0l3	différents_exploitants	O
+1l0l4	se_sont_succédés	N
+
+#Des investigations complémentaires ont été réalisées en 2009, donnant des résultats cohérents avec ceux des précédents diagnostics sol :
+
+2l0l0	Des_investigations_complémentaires_ont_été_réalisées	N
+2l0l1	en_2009__	T
+
+#- les remblais sont impactés par des métaux (plomb, zinc);
+
+3l0l0	remblais	O
+3l0l1	sont_impactés	N
+3l1l0	des_métaux	S
+3l1l1	plomb	S
+3l1l2	zinc	S
+
+#- des hydrocarbures totaux et des hydrocarbures aromatiques polycycliques sont retrouvés en profondeur (3 à 6 m);
+
+4l1l0	hydrocarbures_totaux	S
+4l1l1	hydrocarbures_aromatiques_polycycliques	S
+
+#- 1 sondage montrant la présence de solvants chlorés (COHV) et 1 sondage présentant des teneurs élevées en PCB.
+
+5l1l0	solvants_chlorés	U
+5l1l1	COHV	S
+5l1l2	PCB	S
+
+#Les analyses sur la nappe souterraine montrent de fortes concentrations en chlorure de vinyle et en cis 1,2 dichloroéthylène, qui ne se retrouvent pas au niveau des piézomètres en aval du site, et également des métaux lourds (Ni, Cu, As, Pb, Cr).
+
+6l0l0	Les_analyses	N
+6l0l1	en_aval_du_site	L
+6l1l0	chlorure_de_vinyle	S
+6l1l1	en_cis_1_2_dichloroéthylène	S
+6l1l2	métaux_lourds	S
+6l1l3	Ni	S
+6l1l4	Cu	S
+6l1l5	As	S
+6l1l6	Pb	S
+6l1l7	Cr	S
+
+#Le site a été réhabilité d'octobre 2009 à mars 2010.
+
+7l0l0	Le_site	O
+7l0l1	a_été_réhabilité	N
+7l0l2	d__octobre_2009_à_mars_2010__	T
+
+#Du fait de la pollution de la nappe souterraine en amont du site, et pour confiner la pollution résiduelle en amont, un dispositif d'étanchéité-drainage aux gaz a été mis en place sous l'ensemble du futur bâtiment (20 000 m2).
+
+8l0l0	en_amont_du_site	L
+8l0l1	amont	O
+8l0l2	un_dispositif_d__étanchéité	O
+8l0l3	a_été_mis_en	N
+
+#L'analyse des risques résiduels transmise en mars 2011 montre que les expositions résiduelles pour les futurs usagers du site sont acceptables.
+
+9l0l0	analyse_des_risques_résiduels	O
+9l0l1	transmise	N
+9l0l2	en_mars_2011	T
+
+#Le procès verbal de récolement a été dressé le 13/08/2012.
+
+10l0l0	Le_procès_verbal_de_récolement	O
+10l0l1	a_été_dressé	N
+10l0l2	le_13_08_2012__	T
+
+#Le site est actuellement occupé par un centre de tri postal.
+
+11l0l0	Le_site	O
+11l0l1	est_actuellement_occupé_par	R
+11l0l2	un_centre_de_tri_postal	O
+
+#Ce site n'appelle plus d'action de la part de l'inspection.
+
+12l0l0	Ce_site	O

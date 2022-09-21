@@ -1,0 +1,469 @@
+
+#33.0464
+#Le site se situe  75 de la rue Bourbon à Bordeaux Bacalan, aux parcelles RY 1, 26, 27 et 28.
+
+0l0l0	Le_site	O
+0l0l1	se_situe___75_de_la_rue_Bourbon_à_Bordeaux_Bacalan	L
+0l0l2	__aux_parcelles_RY_1___26	L
+
+#Historiquement le site a abrité une minoterie, des faïenceries puis une usine métallurgique.
+
+1l0l0	le_site	O
+1l0l1	a_abrité	A
+1l0l2	minoterie	A
+1l0l3	faïenceries	A
+1l0l4	une_usine_métallurgique	A
+
+#La pollution ne serait pas du aux activités mais à une apport de remblais.
+
+2l0l0	apport_de_remblais	N
+
+#1 - CONTEXTE
+
+
+#Dans le cadre du renouvellement urbain du quartier des Bassins à flot de Bordeaux, la Ville de Bordeaux a décidé la construction d’un groupe scolaire et d’une crèche multi-accueil sur les parcelles cadastrées 000 RY 1, 26, 27 et 28 au 75 de la rue Bourbon à Bordeaux Bacalan.
+
+4l0l0	Dans_le_cadre	R
+4l0l1	du_renouvellement_urbain_du_quartier_des_Bassins_à_flot_de_Bordeaux	L
+4l0l2	la_Ville_de_Bordeaux	O
+4l0l3	a_décidé	N
+4l0l4	la_construction_d_	N
+4l0l5	un_groupe_scolaire	O
+4l0l6	une_crèche_multi_accueil	O
+4l0l7	75_de_la_rue_Bourbon	L
+4l0l8	à_Bordeaux_Bacalan	L
+
+#Des diagnostics (Amiante, études géotechniques, plan de gestion…) ont été réalisés début 2012.
+
+5l0l0	Des_diagnostics	N
+5l0l1	études_géotechniques	N
+5l0l2	plan_de_gestion	N
+5l0l3	ont_été_réalisés	N
+5l0l4	début_2012__	T
+5l1l0	Amiante	S
+
+#Des travaux de désamiantage et de démolitions ont été entrepris entre juillet et novembre 2012 puis l’ordre de service des travaux est intervenu en novembre 2014.
+
+6l0l0	Des_travaux_de_désamiantage	N
+6l0l1	de_démolitions	N
+6l0l2	ont_été_entrepris	N
+6l0l3	entre_juillet_et_novembre_2012	T
+6l0l4	l__ordre_de_service_des_travaux	O
+6l0l5	est_intervenu	N
+6l0l6	en_novembre_2014__	T
+
+#Des vestiges archéologiques ont été mis à nu en janvier 2015.
+
+7l0l0	Des_vestiges_archéologiques	O
+7l0l1	ont_été_mis_à_nu	N
+7l0l2	en_janvier_2015__	T
+
+#Les travaux de terrassement ont débuté en mars 2015.
+
+8l0l0	Les_travaux_de_terrassement_ont_débuté	N
+8l0l1	en_mars_2015__	T
+
+#Lors des opérations d’évacuation des terres et remblais sur le centre de stockage de Lapouyade réalisées le 12 mars 2015, deux semi-remorques sur une trentaine ont déclenché le portique de détection de radioactivité.
+
+9l0l0	Lors	R
+9l0l1	des_opérations_d__évacuation_des_terres	N
+9l0l2	remblais	N
+9l0l3	sur_le_centre_de_stockage_de_Lapouyade	L
+9l0l4	réalisées	N
+9l0l5	le_12_mars_2015__	T
+9l0l6	deux_semi_remorques	O
+9l0l7	ont_déclenché	N
+9l0l8	le_portique_de_détection_de_radioactivité	O
+
+#Le lendemain, les travaux sur ce chantier ont été suspendus et le site a été fermé.
+
+10l0l0	les_travaux	N
+10l0l1	sur	L
+10l0l2	ce_chantier	O
+10l0l3	ont_été_suspendus	N
+10l0l4	le_site	O
+10l0l5	a_été_fermé	N
+
+#Par ailleurs, le même jour, à la demande de la ville de Bordeaux, des mesures de radioactivité étaient réalisées par le Centre d’études nucléaires de Bordeaux Gradignan (CENBG).
+
+11l0l0	le_même_jour	T
+11l0l1	à_la_demande_de	R
+11l0l2	la_ville_de_Bordeaux	O
+11l0l3	__des_mesures_de_radioactivité_étaient_réalisées	N
+11l0l4	le_Centre_d__études_nucléaires_de_Bordeaux_Gradignan___CENBG	O
+11l1l0	CENBG	I
+
+#Par courrier daté du 17 mars 2015 le maire de Bordeaux confirmait à monsieur le préfet de la Gironde la découverte de cette pollution radioactive.
+
+12l0l0	daté_du_17_mars_2015	T
+12l0l1	le_maire_de_Bordeaux	O
+12l0l2	confirmait	N
+12l0l3	monsieur_le_préfet_de_la_Gironde	O
+12l0l4	la_découverte	N
+12l0l5	cette_pollution_radioactive	O
+12l1l0	maire_de_Bordeaux	I
+
+#Le 18 mars 2015, le CENBG restituait les résultats des premières investigations aux responsables du chantier et confirmait la pollution du site par du radium 226.
+
+13l0l0	Le_18_mars_2015__	T
+13l0l1	le_CENBG	O
+13l0l2	restituait_les_résultats_des_premières_investigations	N
+13l0l3	confirmait	R
+13l0l4	la_pollution	N
+13l0l5	du_site	O
+13l1l0	le_CENBG	I
+13l1l1	radium_226	S
+
+#Ce radioélément est en tête de chaîne ce qui confirme l’origine anthropique des substances radioactives découvertes sur ce site.
+
+14l0l0	l__origine	O
+
+#2 - DIAGNOSTIC
+
+15l0l0	DIAGNOSTIC	N
+
+#L’activité massique en radium 226 de l’échantillon prélevé sur la zone excavée est très importante.
+
+16l1l0	radium_226	S
+
+#Elle est proche de celles de terres polluées retrouvées sur des sites où une activité d’extraction de radium a été mise en œuvre.
+
+17l0l0	terres_polluées	O
+17l0l1	des_sites	O
+17l0l2	activité_d__extraction_de_radium	A
+17l0l3	a_été_mise_en_œuvre	N
+
+#En l’état des investigations, seul le radium 226 est mis en cause.
+
+18l1l0	radium_226	I
+
+#Les débits de dose en plusieurs points sur une surface importante sont significatifs, plus de trois fois le bruit de fond.
+
+
+#L’attention des responsables de la ville de Bordeaux est attirée sur les conditions d’élimination des terres polluées par des substances radioactives.
+
+20l0l0	L__attention	O
+20l0l1	des_responsables	O
+20l0l2	la_ville_de_Bordeaux	O
+20l0l3	terres_polluées_par	O
+20l0l4	des_substances_radioactives	O
+
+#Si l’activité massique moyenne de ces terres est de quelques dizaines de Bq/g et si les volumes en jeu sont importants, leur prise en charge par l’agence nationale de gestion des déchets radioactifs (ANDRA) pourrait être compromise et un entreposage sur le site devrait être mis en place.
+
+21l0l0	ces_terres	O
+21l0l1	l__agence	O
+21l0l2	gestion_des_déchets_radioactifs	N
+21l0l3	ANDRA	O
+21l0l4	un_entreposage	N
+21l0l5	sur_le_site	L
+
+#La pollution du site par du radium 226 est avérée.
+
+22l1l0	radium_226	I
+
+#Une caractérisation complémentaire doit être engagée pour préciser l’étendue et l’importance de cette pollution sur l’ensemble du site.
+
+
+#Concernant les modalités de prise en charge des terres contaminées, l’ASN?
+
+24l0l0	les_modalités	O
+24l0l1	terres_contaminées	O
+
+#Agence de Sûreté Nucléaire, invite les responsables de la ville de Bordeaux à se rapprocher de l’Agence nationale pour la gestion des déchets radioactifs (ANDRA).
+
+25l0l0	Agence_de_Sûreté_Nucléaire	O
+25l0l1	les_responsables	O
+25l0l2	la_ville	O
+25l0l3	de_Bordeaux	O
+25l0l4	se_rapprocher_de	L
+25l0l5	l__Agence_nationale_pour_la	O
+25l0l6	gestion_des_déchets_radioactifs	N
+25l0l7	ANDRA	L
+
+#Ce site n’apparaît pas dans la liste des 134 sites recensés par l’ASN en 2009 comme ayant abrité une activité mettant en œuvre du radium en France.
+
+26l0l0	Ce_site	O
+26l0l1	134_sites	O
+26l0l2	l__ASN	O
+26l0l3	en_2009	T
+26l0l4	comme_ayant_abrité	R
+26l0l5	une_activité_mettant_en_œuvre_du_radium	A
+26l0l6	en_France	A
+
+#L'historique par la DREAL fait état des activités industrielles exercées sur ce site :
+
+27l0l0	la_DREAL	O
+27l0l1	activités_industrielles_exercées	A
+27l0l2	sur	L
+27l0l3	ce_site	O
+27l1l0	la_DREAL	I
+
+#- stockage de produits chimiques entre 1961 et 2004 au 75 rue de Bourbon ;
+
+28l0l0	stockage_de_produits_chimiques	O
+28l0l1	entre_1961_et_2004	T
+28l0l2	au_75_rue_de_Bourbon	L
+28l1l0	produits_chimiques	U
+
+#- activité de verrerie à partir de 1931 au 50 rue de la Faïencerie.
+
+29l0l0	activité_de_verrerie	A
+29l0l1	à_partir_de_1931	T
+29l0l2	au_50_rue_de_la_Faïencerie	L
+
+#Les éléments recueillis à ce jour ne permettent pas d’établir un lien entre ces activités et la pollution au radium 226.
+
+30l0l0	ces_activités	O
+
+#Des informations complémentaires sur les activités artisanales et industrielles historiques exercées sur ce site sont nécessaires pour identifier le ou les responsables de cette pollution.
+
+31l0l0	les_activités_artisanales_et_industrielles_historiques_exercées	A
+
+#Les activités massiques mesurées sur les échantillons de terres polluées nécessitent de prendre en compte le risque d’exposition aux rayonnements ionisants par inhalation, en particulier pour les activités humaines réalisées en surface ou en fouille à proximité des zones contenant les terres polluées.
+
+32l0l0	terres_polluées	O
+32l0l1	à_proximité_des_zones_contenant_les	L
+32l0l2	terres_polluées	O
+
+#Concernant le risque d’irradiation, plusieurs débits de dose mesurés sur le chantier dépassent le seuil réglementaire imposant la délimitation de zones réglementées au titre des rayonnements ionisants.
+
+33l0l0	délimitation_de_zones_réglementées	O
+
+#Sur la base des résultats des premières investigations, des personnes sont susceptibles d’avoir été exposées aux rayonnements ionisants au-delà du seuil réglementaire pour le public.
+
+34l0l0	d_	R
+34l0l1	avoir_été_exposées_aux_rayonnements	N
+
+#Cela peut concerner en particulier des activités humaines exercées pendant plusieurs jours à proximité immédiate des terres polluées comme celles de recherches archéologiques ou de démolition d’ouvrages de surface.
+
+35l0l0	des_activités_humaines_exercées	N
+35l0l1	pendant_plusieurs_jours	T
+35l0l2	à_proximité_immédiate_des	L
+35l0l3	terres_polluées	O
+35l0l4	de_recherches_archéologiques	O
+35l0l5	de_démolition_d__ouvrages_de	N
+
+#La ville de Bordeaux a suspendu les activités sur ce chantier et a fermé le site.
+
+36l0l0	La_ville_de_Bordeaux	O
+36l0l1	a_suspendu	N
+36l0l2	les_activités	A
+36l0l3	ce_chantier	O
+36l0l4	a_fermé	N
+36l0l5	le_site	O
+36l1l0	La_ville_de_Bordeaux	I
+
+#La présence de radium 226 dans le sol est de nature à diffuser du radon en surface et dans les locaux implantés au-dessus ou à proximité du terrain pollué.
+
+37l0l0	les	N
+37l0l1	locaux_implantés_au_dessus_ou_à_proximité_du_terrain_pollué	L
+37l1l0	radium_226	S
+
+#Compte tenu des activités massiques mesurées sur les échantillons prélevées, une exposition au radon dans les locaux proches peut être suspectée.
+
+38l0l0	une_exposition_au_radon	N
+
+#Deux bâtiments fermés implantés à l’intérieur du périmètre sécurisés sont proches des lieux de prélèvement et permettent donc une première investigation sur le thème du risque radon.
+
+39l0l0	Deux_bâtiments_fermés	O
+39l0l1	implantés_à_l__intérieur_du_périmètre_sécurisés_sont_proches_des_lieux	L
+39l0l2	de_prélèvement	N
+
+#L’accès au site doit être interdit au public et aux travailleurs non exposés jusqu’à nouvel ordre.
+
+40l0l0	L__accès_au_site_doit_être_interdit	N
+
+#Les travaux d’affouillements et d’évacuation de terres ou remblais sont également interdits exceptés ceux qui seront nécessaires pour les investigations complémentaires.
+
+41l0l0	Les_travaux_d__affouillements	N
+41l0l1	d_	O
+41l0l2	évacuation_de_terres	N
+41l0l3	remblais	O
+
+#Un historique des activités humaines réalisées sur ce site depuis début 2012 doit être établi afin d’identifier les personnes susceptibles d’avoir été exposées aux rayonnements ionisants.
+
+42l0l0	ce_site	O
+42l0l1	depuis_début_2012	T
+42l0l2	doit_être_établi	N
+42l0l3	d__identifier_les_personnes_susceptibles_d__avoir	O
+42l0l4	été_exposées_aux_rayonnements_ionisants	N
+
+#Une évaluation du risque radon sera réalisée dans les deux bâtiments fermés implantés à l’intérieur du périmètre sécurisé.
+
+43l0l0	Une_évaluation_du_risque_radon	O
+43l0l1	sera_réalisée	N
+43l0l2	les_deux_bâtiments_fermés_implantés	O
+43l0l3	à_l__intérieur_du_périmètre	L
+
+#3 - TRAVAUX DE DEPOLLUTION
+
+44l0l0	TRAVAUX_DE	N
+44l0l1	DEPOLLUTION	O
+44l1l0	TRAVAUX_DE_DEPOLLUTION	I
+
+#Compte tenu de l’usage futur du site, la démarche de référence est l’assainissement complet du site.
+
+45l0l0	l__assainissement_complet	N
+45l0l1	site	O
+
+#Un retrait partiel des terres polluées n’est pas envisageable.
+
+46l0l0	retrait_partiel_des_terres_polluées	N
+
+#Une caractérisation approfondie de la pollution est indispensable pour préciser l’activité massique des terres polluées, leur volume et l’emplacement des zones en contenant.
+
+47l0l0	la_pollution	O
+47l0l1	terres_polluées	O
+
+#Cette étape doit être réalisée préalablement à l’élaboration des scénarii d’assainissement qui seront soumis pour approbation aux services de l’État avant leur mise en œuvre.
+
+48l0l0	être_réalisée	N
+48l0l1	préalablement_à	R
+48l0l2	l__élaboration	N
+48l0l3	des_scénarii_d__assainissement	O
+48l0l4	l__État	O
+48l0l5	avant_leur_mise_en_œuvre	T
+
+#Le responsable de l’activité à l’origine de la pollution est tenu de procéder à l’assainissement du site.
+
+49l0l0	l__origine_de_la_pollution	O
+49l0l1	est_tenu	R
+49l0l2	de_procéder_à_l__assainissement	N
+
+#En l’absence de responsable connu ou solvable, cette obligation incombe au propriétaire du site (article R.1333-89 du code de la santé publique) qui pourra solliciter un accompagnement financier auprès de la Commission nationale des aides dans le domaine radioactif (CNAR).
+
+50l0l0	accompagnement_financier	O
+
+#Si l’étude historique atteste de la disparition ou de la non-solvabilité du responsable de l’activité à l’origine de la pollution radioactive sur le site, la ville de Bordeaux sera invitée à se rapprocher de l’ANDRA (CNAR) pour solliciter une proposition technique et financière de réhabilitation du site.
+
+51l0l0	la_disparition	N
+51l0l1	la_pollution_radioactive	O
+51l0l2	la_ville_de_Bordeaux	O
+51l0l3	l__ANDRA	O
+51l0l4	une_proposition_technique_et_financière_de_réhabilitation	O
+51l1l0	l__ANDRA	I
+51l1l1	CNAR	I
+
+#Les conditions de prise en charge des sites de pollution radioactive sont précisées dans une circulaire aux préfets datée du 17 novembre 2008 :
+
+52l0l0	Les_conditions	O
+52l0l1	sites_de_pollution_radioactive	O
+52l0l2	sont_précisées	N
+52l0l3	une_circulaire	O
+52l0l4	préfets	O
+52l0l5	datée_du_17_novembre_2008	T
+
+#si la pollution est imputable à une activité relevant des installations classées (responsable solvable ou défaillant), l’instruction est réalisée par l’inspection des installations classées avec appui ASN ;
+
+53l0l0	la_pollution	O
+53l0l1	est	R
+53l0l2	imputable_à_une_activité_relevant_des_installations_classées	A
+53l0l3	l__inspection_des_installations_classées	O
+53l0l4	appui_ASN	O
+
+#dans les autres cas, le code de la santé publique constitue le cadre législatif et réglementaire, en particulier les dispositions prévues en cas de situation d’exposition durable (article R. 1333-89 et suivants).
+
+
+#Dans le présent dossier, la deuxième option est à prendre en considération car :
+
+
+#- la pollution au radium 226 des parcelles cadastrées 000 RY 1, 26, 27 et 28 de la commune de Bordeaux est susceptible d’engendrer une exposition durable des personnes à des rayonnements ionisants ;
+
+56l0l0	la_commune_de_Bordeaux	L
+56l0l1	est_susceptible_d_	R
+56l0l2	engendrer_une_exposition_durable	N
+56l1l0	radium_226	S
+
+#- la caractérisation de la pollution radioactive des parcelles susmentionnées est encore très partielle ;
+
+57l0l0	la_pollution_radioactive	O
+
+#- le responsable à l’origine de cette pollution n’a pas été identifié ;
+
+
+#- le propriétaire des terrains est la ville de Bordeaux.
+
+59l0l0	le_propriétaire_des_terrains	O
+59l1l0	la_ville_de_Bordeaux	I
+
+#L'arrêté préfectoral du 1er juin 2015 prescrit à la ville de Bordeaux en application des dispositions des articles R.1333-89 et R.1333-90 du code de la santé publique les demandes et actions suivantes :
+
+60l0l0	L__arrêté_préfectoral	O
+60l0l1	du_1er_juin_2015	T
+60l0l2	prescrit	N
+60l0l3	la_ville_de_Bordeaux	O
+
+#- interdire l’accès au public et aux travailleurs non exposés des parcelles cadastrées 000 RY 1, 26, 27 et 28 de la commune de Bordeaux dans l’attente des résultats des investigations complémentaires sur la pollution radioactive de ces parcelles ;
+
+61l0l0	interdire_l__accès_au_public	N
+61l0l1	aux_travailleurs	O
+61l0l2	la_commune_de_Bordeaux	L
+61l0l3	radioactive	N
+61l0l4	ces_parcelles	O
+
+#- interdire les travaux d’affouillement de sols et l’évacuation de terres ou remblais entreposés sur les parcelles cadastrées 000 RY 1, 26, 27 et 28 hormis les travaux nécessaires à la caractérisation et à la surveillance de la pollution sous réserve de la mise en place des mesures de radioprotection nécessaires le cas échéant ;
+
+62l0l0	interdire_les_travaux_d__affouillement	N
+62l0l1	et_l_	O
+62l0l2	évacuation_de_terres	N
+62l0l3	entreposés_sur	R
+62l0l4	les_parcelles	N
+62l0l5	la_surveillance_de_la_pollution	A
+62l0l6	sous_réserve	R
+62l0l7	de_la_mise_en_place	N
+
+#évaluer l’exposition des personnes en dehors des limites des parcelles cadastrées 000 RY 1, 26, 27 et 28, notamment au radon à l’intérieur et à l’extérieur des bâtiments ;
+
+63l0l0	évaluer	R
+63l0l1	en_dehors_des_limites	L
+63l0l2	à_l__extérieur_des_bâtiments	L
+
+#- établir et transmettre un bilan des activités humaines exercées sur les parcelles cadastrées 000 RY 1, 26, 27 et 28 de la commune de Bordeaux depuis le 1er janvier 2012, les employeurs et les postes de travail seront précisés ;
+
+64l0l0	transmettre_un_bilan	N
+64l0l1	la	O
+64l0l2	commune_de_Bordeaux	L
+64l0l3	depuis_le_1er_janvier_2012__	T
+64l0l4	les_employeurs	O
+
+#- définir à partir des données disponibles, les scénarii types d’exposition et évaluer les doses reçues correspondantes concernant l’ensemble des travailleurs qui sont intervenus sur les parcelles cadastrées 000 RY 1, 26, 27 et 28 de la commune de Bordeaux depuis le 1er janvier 2012 ;
+
+65l0l0	les_scénarii_types_d__exposition	O
+65l0l1	sont_intervenus	N
+65l0l2	sur	L
+65l0l3	les_parcelles_cadastrées	O
+65l0l4	la_commune_de_Bordeaux	L
+65l0l5	depuis_le_1er_janvier_2012	T
+
+#- établir et transmettre une étude historique et de vulnérabilité du site selon les dispositions du guide méthodologique1 ;
+
+66l0l0	transmettre_une_étude_historique	N
+
+#- établir et transmettre pour avis préalable une stratégie d’investigation et d’échantillonnage des parcelles cadastrées 000 RY 1, 26, 27 et 28 de la commune de Bordeaux selon les dispositions du guide méthodologique1, ce document comportera les propositions des organismes extérieurs sollicités.
+
+67l0l0	transmettre	N
+67l0l1	une_stratégie	O
+67l0l2	d__investigation	N
+67l0l3	la_commune_de_Bordeaux	L
+
+#Le 29/02/2016, la mairie de Bordeaux remet au Préfet, l'étude documentaire ainsi que l'étude de vulnérabilité.
+
+68l0l0	Le_29_02_2016	T
+68l0l1	la_mairie_de_Bordeaux	O
+68l0l2	remet	N
+68l0l3	Préfet	O
+68l0l4	l__étude_documentaire	N
+68l1l0	la_mairie_de_Bordeaux	I
+68l1l1	Préfet	S
+
+#Les documents sont téléchargeables en page 4.
+
+
+#L'ANDRA va assurer l'assistance à maîtrise d'ouvrage en amont de l'assainissement radiologique des terrains.
+
+70l0l0	L__ANDRA	O
+70l0l1	va_assurer	N
+70l0l2	l__assistance_à_maîtrise_d__ouvrage	O
+70l0l3	en_amont_de	L
+70l0l4	l__assainissement_radiologique	N
+70l0l5	des_terrains	O

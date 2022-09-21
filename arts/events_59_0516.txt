@@ -1,0 +1,352 @@
+
+#59.0516
+#Localisation du site:
+
+
+#Le site couvre une superficie totale de 4500 m², dont 4000 m² de surface construite lors de l'exploitation du site.
+
+1l0l0	l__exploitation_du_site__	A
+1l1l0	dont_4000	S
+
+#Il est implanté dans une zone mixte,résidentielle et tertiaire, dont le voisinage immédiat est le suivant:
+
+
+#- au nord: le Bd de Lyon et au-delà, une grande surface de bricolage et une zone résidentielle,
+
+3l0l0	__au_nord	O
+3l0l1	de_bricolage	O
+3l0l2	résidentielle__	N
+
+#- au sud: la rue d'Ingres et au-delà une zone résidentielle (habitations individuelles),
+
+4l0l0	sud___la_rue_d__Ingres_et_au_delà	L
+4l0l1	habitations_individuelles____	O
+
+#- à l'est: la rue Jean-Baptiste Corot et au-delà une zone résidentielle (logements collectifs), et
+
+5l0l0	à_l__est	L
+5l0l1	__la_rue_Jean_Baptiste	L
+5l0l2	résidentielle___logements_collectifs	O
+
+#- à l'ouest: une zone résidentielle (habitations individuelles).
+
+6l0l0	ouest___une_zone	L
+6l0l1	résidentielle___habitations_individuelles	L
+6l0l2	___	O
+
+#Historique du site:
+
+7l0l0	Historique_du_site__	L
+
+#Les activités pratiquées sur le site ont été spécialisées dans le travail mécanique des métaux et le traitement de surface.
+
+
+#L'historique des activités du site depuis 1949, reconstitué à partir des études disponibles, est résumé ci-dessous:
+
+
+#- en 1949, le site, propriété des établissements PLATT FRERES, est un atelier de construction mécanique spécialisé dans la transformation de l'acier et la fabrication de machine-outil.
+
+10l0l0	__en_1949___le_site	A
+10l0l1	des_établissements	O
+10l0l2	PLATT_FRERES	N
+10l0l3	est_un_atelier_de_construction	A
+10l0l4	mécanique_spécialisé_dans_la	A
+
+#- à partir de 1954, la société PLATT FRERES développe des activités de forge, de martelage mécanique, d'estampage, de matriçage, de découpage et de métallurgie des poudres.
+
+11l0l0	la_société_PLATT	O
+11l0l1	FRERES_développe	T
+
+#Pour les besoins de l'activité, des produits tels que des solvants (dont des solvants chlorés), des gaz de soudure (acétylène...) et des carburants (gasoil, mazout, fioul...) ont été stockés sur le site.
+
+12l0l0	Pour_les	T
+12l0l1	besoins	O
+12l0l2	de_l__activité___des_produits_tels_que_des_solvants	O
+12l0l3	__dont_des_solvants_chlorés_____des_gaz_de	O
+12l0l4	soudure___acétylène	R
+12l0l5	____et_des_carburants__	A
+12l0l6	gasoil___mazout___fioul_____ont_été_stockés	A
+12l1l0	activité___des_produits_tels_que_des_solvants	I
+
+#Entre 2004 et 2008, la société BEKAERT reprend l'exploitation du site et poursuit la même activité que la société PLATT FRERES.
+
+13l0l0	Entre_2004_et_2008	T
+13l0l1	__la_société_BEKAERT	O
+13l0l2	reprend_l__exploitation_du_site_et	A
+13l0l3	poursuit_la_même_activité_que	A
+13l0l4	la_société_PLATT_FRERES__	A
+13l1l0	__la_société_BEKAERT_reprend	I
+
+#La cessation définitive d'activité du site a été notifiée le 30 juin 2008.
+
+14l0l0	cessation_définitive_d__activité	A
+14l1l0	notifiée_le_30_juin	U
+14l1l1	_	U
+
+#D’importants travaux de démolition ont été entrepris début 2017 par le propriétaire du site, l’Établissement Public Foncier Nord-Pas-de-Calais.
+
+15l0l0	D__importants_travaux	T
+15l0l1	de_démolition	O
+15l0l2	ont_été_entrepris_début_2017	N
+15l0l3	par_le	O
+15l0l4	propriétaire	R
+15l0l5	du_site___l_	N
+15l0l6	Établissement_Public_Foncier	O
+15l1l0	travaux_de_démolition_ont	I
+15l1l1	Établissement_Public_Foncier	I
+
+#Ces travaux ont consisté à la mise à terre de l’ensemble du bâti du site et à la destruction de l’ensemble des dalles bétons et voies enrobées, à l’exception d’une petite zone en partie Sud-Est du site où le maintien d’un revêtement étanche a été inscrit dans l’acte de vente.
+
+16l0l0	Ces_travaux_ont_consisté_à_la_mise_à_terre	N
+16l0l1	de_l_	O
+16l0l2	ensemble_du	N
+16l0l3	bâti_du_site_et_à_la_destruction_de_l__ensemble_des_dalles_bétons_et_voies_enrobées___à_l__exception_d__une_petite_zone_en_partie_Sud_Est_du_site_où_le_maintien_d__un_revêtement_étanche_a_été_inscrit_dans_l__acte_de_vente__	T
+
+#Historique des différentes études:
+
+17l0l0	Historique_des_différentes_études__	N
+
+#- TAUW Environnement - R/6036800-V01 "Carclo France, Boulevard de Lyon à Roubaix (59), Diagnostic de la qualité des sols, rapport d'intervention", 30 octobre 2008
+
+18l0l0	__TAUW_Environnement	N
+18l0l1	R_6036800_V01___Carclo	N
+18l0l2	à_Roubaix___59____	N
+18l0l3	rapport_d__intervention	O
+
+#- URS France - Rapport LIL-RAP-09-001100B "Plan de gestion", 6 novembre 2009
+
+
+#- URS France - Rapport LIL-RAP-10-00329A "Complementary soil investigation", 15 juillet 2010
+
+20l0l0	__URS_France___Rapport	O
+20l0l1	00329A___Complementary	O
+20l0l2	soil_investigation_____15_juillet	L
+20l0l3	2010	N
+20l1l0	URS_France___Rapport	I
+20l1l1	00329A___Complementary	I
+
+#- URS France - Rapport LIL-RAP-11-00560B- "Rapport de fin de travaux de remise en état", 31 mai 2011
+
+21l0l0	travaux_de_remise_en_état_____31_mai_2011	T
+21l1l0	URS_France	I
+
+#- URS France et AECOM - Rapports de suivi annuel de la qualité des eaux souterraines
+
+22l0l0	souterraines	T
+22l1l0	URS_France	I
+
+#- AECOM - Rapport LIL-RAP-16-01727B - Mise à jour de l'analyse des risques résiduels, 16 août 2016
+
+23l0l0	analyse_des_risques_résiduels	N
+23l0l1	_	O
+23l0l2	août_2016	T
+23l1l0	AECOM___Rapport	I
+
+#Travaux de remise en état:
+
+24l0l0	remise_en	O
+24l1l0	Travaux_de_remise_en	I
+
+#Des travaux de remise en état du site ont été entrepris en 2011 consécutivement à la cessation d'activité du site.
+
+25l0l0	ont_été_entrepris	N
+25l0l1	cessation_d__activité_du_site__	T
+25l1l0	Des_travaux	I
+
+#ls ont été menés conformément à l'arrêté préfectoral du 27 août 2010, qui encadrait ces travaux et ont inclus les opérations suivantes:
+
+26l0l0	ls_ont_été	N
+
+#- découpage de la dalle béton dans l'ancien bâtiment,
+
+27l0l0	__découpage_de_la_dalle_béton	N
+27l0l1	dans_l_	O
+27l0l2	ancien_bâtiment__	N
+
+#- excavation des terres contaminées par les hydrocarbures (zone des anciennes lignes de process),
+
+28l0l0	excavation_des	N
+28l0l1	contaminées_par_les_hydrocarbures	O
+28l0l2	__zone_des	T
+28l0l3	anciennes	R
+28l0l4	lignes_de_process	N
+28l0l5	___	N
+
+#- contrôle des terres en parois et fond de fouille,
+
+29l0l0	contrôle_des	N
+29l0l1	terres_en_parois	O
+
+#- remblaiement de l'excavation par un apport de matériaux extérieur,
+
+30l0l0	remblaiement	N
+30l0l1	de_l__excavation_par_un	O
+30l0l2	apport_de_matériaux_extérieur	O
+30l0l3	_	O
+30l1l0	apport_de_matériaux_extérieur	S
+
+#- élimination des terres et des débris de béton en centre agréé en Belgique,
+
+31l0l0	élimination	A
+
+#- débroussaillage et couverture des sols de surface par une dalle béton le long de la façade sud-est du bâtiment, sur une superficie d'environ 62 m², dans une zone où la présence diffuse de trichloroéthylène avait été mise en évidence dans les sols lors des investigations.
+
+32l0l0	débroussaillage_et_couverture	N
+32l0l1	des_sols_de_surface_par_une_dalle_béton	O
+
+#Des travaux complémentaires ont été menés en 2017 lors des opérations de démolition des bâtiments :
+
+33l0l0	Des_travaux_complémentaires	N
+33l0l1	menés_en_2017_lors_des_opérations_de_démolition	O
+
+#- excavation d'une cuve enterrée de fioul domestique et purges supplémentaires au droit de cette cuve ainsi que du réservoir de stockage de propane.
+
+34l0l0	excavation_d__une	N
+34l0l1	cuve_enterrée_de_fioul	N
+34l0l2	purges	O
+34l0l3	supplémentaires_au_droit_de_cette_cuve_ainsi_que	L
+34l0l4	_	L
+
+#Synthèse de l'état environnemental du site:
+
+35l0l0	Synthèse_de_l__état_environnemental_du_site	N
+35l0l1	_	T
+
+#- État qualitatif des sols:
+
+36l0l0	__État	N
+36l0l1	qualitatif	N
+36l0l2	des_sols__	O
+36l1l0	qualitatif_des_sols__	D
+
+#Les données disponibles mettent en évidence la présence d'impacts résiduels sur les sols dans certaines zones du site à l'issue des travaux de réhabilitation.
+
+
+#Les zones concernées sont les suivantes:
+
+
+#- au droit de l'ancien bâtiment : anomalies ponctuelles en métaux lourds, supérieures aux valeurs guides, mises en évidence à plusieurs endroits et impact résiduel dans les sols par les hydrocarbures totaux identifiés au niveau de l’ancienne cuve de fioul domestique.
+
+39l0l0	supérieures_aux	O
+39l0l1	valeurs_guides___mises	O
+39l0l2	évidence_à_plusieurs_endroits_et_impact_résiduel	N
+
+#Les purges complémentaires ont permis d'abaisser de 42 000 à 7 000 mg/kg les teneurs résiduelles en hydrocarbures ;
+
+40l0l0	Les_purges_complémentaires	O
+
+#- le long de la façade sud-est du bâtiment, une présence diffuse de trichloroéthylène dans les sols de surface.
+
+41l0l0	le_long_de_la_façade_sud_est_du	L
+41l0l1	bâtiment___une_présence	N
+41l0l2	diffuse_de_trichloroéthylène	O
+41l1l0	diffuse_de_trichloroéthylène	S
+
+#Cette zone a été confinée sous une dalle béton en 2011.
+
+42l0l0	Cette_zone_a_été_confinée_sous	N
+42l0l1	béton_en_2011	N
+
+#Cette dalle a été laissée en place lors des travaux de démolition.
+
+43l0l0	Cette_dalle_a_été_laissée_en_place_lors_des	L
+
+#-État qualitatif des eaux souterraines:
+
+44l0l0	_État_qualitatif	O
+44l0l1	des_eaux	N
+44l0l2	souterraines__	O
+
+#Des campagnes de prélèvements d'eaux souterraines sont réalisées annuellement par la société URS France (devenue AECOM) conformément aux dispositions des arrêtés préfectoraux des 27 août 2010 et 23 décembre 2015.
+
+45l0l0	Des_campagnes	O
+45l0l1	de_prélèvements_d_	N
+45l0l2	eaux	T
+45l0l3	souterraines_sont_réalisées	N
+
+#Les derniers résultats d'analyses disponibles (novembre 2017) mettent en évidence un impact résiduel en COHV en limite aval hydraulique du site.
+
+
+#Les hydrocarbures totaux sont détectés sur certains ouvrages mais en concentration inférieure aux Normes de Qualités Environnementales.
+
+47l0l0	Les_hydrocarbures_totaux_sont	N
+47l0l1	certains_ouvrages_mais_en_concentration	N
+47l0l2	inférieure_aux_Normes	O
+47l0l3	Qualités_Environnementales	N
+47l1l0	inférieure_aux_Normes	I
+47l1l1	Qualités_Environnementales	I
+
+#L'arrêté préfectoral du 23 décembre 2015 prévoit une surveillance piézométrique annuelle pour une période minimale de 4 ans.
+
+48l0l0	une_surveillance	T
+48l0l1	annuelle_pour_une_période	O
+48l0l2	minimale_de_4_ans__	L
+48l1l0	période_minimale	S
+
+#Le réseau piézométrique est constitué de 7 piézomètres.
+
+49l0l0	est_constitué_de	N
+49l1l0	réseau_piézométrique_est	S
+
+#Analyse des risques résiduels:
+
+50l0l0	Analyse_des_risques	O
+50l0l1	résiduels__	T
+
+#En 2009, BEKAERT a mandaté un bureau d'étude spécialisé pour réaliser un plan de gestion, comprenant une première analyse des risques résiduels (ARR), dont l'objectif était de vérifier l'absence de niveau de risques résiduels aux critères de référence pour un usage de type industriel/tertiaire.
+
+
+#Cette ARR a été mise à jour par URS, suite aux travaux de remise en état effectués sur le site en 2011,en fonction des données nouvellement acquises.
+
+
+#Les calculs de risques ont été réévalués à partir des teneurs constatées suite aux travaux d'excavation.
+
+53l0l0	Les_calculs	T
+53l0l1	de	O
+53l0l2	risques_ont	N
+53l0l3	été_réévalués_à_partir	O
+53l0l4	constatées_suite_aux_travaux	N
+53l1l0	calculs_de_risques	I
+
+#Les calculs réalisés par URS indiquent que les niveaux de risques sanitaires sont acceptables pour les scénarios envisagés.
+
+54l0l0	Les_calculs	O
+54l0l1	réalisés_par	N
+54l0l2	indiquent	O
+54l0l3	que_les_niveaux_de_risques_sanitaires	N
+54l0l4	sont_acceptables	L
+54l0l5	pour	T
+54l1l0	indiquent	I
+
+#Les détails des calculs réalisés sont présentés dans le rapport URS LIL-RAP-11-00560B de mai 2011.
+
+55l0l0	Les_détails_des_calculs	N
+55l0l1	réalisés_sont_présentés	N
+55l0l2	RAP_11___00560B_de_mai_2011__	N
+
+#Au regard de l'évolution des teneurs en COHV et HCT dans la nappe et de la méthodologie en vigueur en matière de sélection des valeurs toxicologiques de référence, une mise à jour de l'ARR a été prescrite par l'arrêté préfectoral du 23 décembre 2015.
+
+56l0l0	Au_regard_de_l__évolution	N
+56l0l1	des	O
+56l1l0	des	I
+
+#L'ARR mise à jour, intégrant un usage industriel sur site et résidentiel hors site, fait l'objet du rapport AECOM LIL-RAP-16-01727B.
+
+57l0l0	jour___intégrant_un_usage	O
+57l0l1	objet_du_rapport_AECOM_LIL___RAP_16___01727B_	T
+57l1l0	résidentiel	I
+
+#Elle conclut à la compatibilité de l'état du site avec son usage actuel et les usages constatés dans son environnement immédiat.
+
+58l0l0	compatibilité_de_l_	O
+58l1l0	état_du_site_avec	S
+
+#A noter que des restrictions d'usages entre parties (ancien exploitant et propriétaires successifs* du terrain) concernant l'usage du sol, du sous-sol, et des eaux souterraines, ont été réalisées afin d'encadrer les usages autorisés.
+
+59l0l0	A_noter_que_des_restrictions	N
+59l0l1	d_	O
+59l0l2	usages_entre_parties___ancien_exploitant_et_propriétaires	L
+59l0l3	successifs	N
+
+#* L'EPF est propriétaire du site depuis l'année 2012.
+

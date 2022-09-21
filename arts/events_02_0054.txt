@@ -1,0 +1,131 @@
+
+#02.0054
+#Le site de 66 000 m² se trouve le long de la route reliant Soisssons à Château Thierry.
+
+0l0l0	Le_site	O
+0l0l1	se_trouve_le_long_de_la_route_reliant_Soisssons_à_Château_Thierry	L
+
+#Il est bordé au sud-est par un ruisseau (le ru d'Aconin) et au nord et nord-est par la rivière La Crise.
+
+1l0l0	bordé_au_sud_est_par_un_ruisseau___le_ru_d__Aconin	L
+1l0l1	au_nord_et_nord_est	N
+1l0l2	la_rivière_La_Crise	L
+
+#Le site se trouve à l'extérieur du village de Noyant et Aconin mais est proche de quelques habitations.
+
+2l0l0	Le_site	O
+2l0l1	se_trouve_à_l__extérieur_du_village_de_Noyant_et_Aconin	L
+2l0l2	est_proche_de_quelques_habitations	L
+
+#Le site a été le siège d'une ancienne sucrerie.
+
+3l0l0	Le_site	O
+3l0l1	a_été_le	N
+3l0l2	siège_d_	R
+3l0l3	une_ancienne_sucrerie	O
+
+#Depuis 1983 Etirex est autorisée pour le traitement de surface des métaux.
+
+4l0l0	Depuis_1983	T
+4l0l1	Etirex	O
+4l0l2	est_autorisée	N
+4l0l3	le_traitement_de_surface	A
+4l0l4	métaux	O
+4l1l0	Etirex	I
+
+#En 2001, la société EMERSON a cédé le site ETIREX et ses activités à CHROMALOX tout en conservant des obligations liées au passif environnemental.
+
+5l0l0	En_2001__	T
+5l0l1	la_société_EMERSON	O
+5l0l2	a_cédé	N
+5l0l3	le_site_ETIREX	O
+5l0l4	ses_activités	O
+5l0l5	CHROMALOX	O
+5l1l0	la_société_EMERSON	I
+5l1l1	le_site_ETIREX	I
+5l1l2	CHROMALOX	I
+
+#Ainsi, EMERSON a mandaté un bureau d'études afin de réaliser des études de sols et des eaux souterraines sur le site de la société Etirex-Chromalox à Noyant et Aconin.
+
+6l0l0	EMERSON	O
+6l0l1	a_mandaté	N
+6l0l2	un_bureau_d__études	O
+6l0l3	afin_de	R
+6l0l4	réaliser_des_études_de_sols	N
+6l0l5	des_eaux_souterraines	O
+6l0l6	sur_le_site	L
+6l0l7	la_société_Etirex___Chromalox	O
+6l0l8	à_Noyant_et_Aconin	L
+6l1l0	EMERSON	I
+6l1l1	la_société_Etirex	I
+6l1l2	Chromalox	S
+
+#Les différentes études de sols et des eaux souterraines réalisées sur site ont permis de mettre en évidence plusieurs zones de contamination par les métaux et les solvants chlorés au droit du site.
+
+7l0l0	plusieurs_zones_de_contamination	O
+7l0l1	au_droit_du_site	L
+7l1l0	les_métaux	S
+7l1l1	solvants_chlorés	S
+
+#En revanche, les investigations menées hors site ont montré que les contaminations en métaux et en solvants chlorés observées n’impactent pas les eaux souterraines hors site et les eaux de surface en limite de site.
+
+8l0l0	hors_site	L
+8l0l1	les_eaux_de_surface_en_limite_de_site	L
+8l1l0	métaux	S
+8l1l1	solvants_chlorés	S
+
+#Les panaches de pollution ne migrent donc pas hors site.
+
+
+#Des premières mesures de gestion ont déjà été mises en œuvre sur le site (excavation, confinement, etc.) et ont permis d’atteindre les objectifs fixés.
+
+10l0l0	Des_premières_mesures_de_gestion	O
+10l0l1	ont_déjà_été_mises_en_œuvre	N
+10l0l2	excavation	N
+
+#Ces mesures de gestion ont concerné principalement les sols pollués.
+
+11l0l0	Ces_mesures_de_gestion	O
+11l0l1	ont_concerné_principalement	R
+11l0l2	les_sols_pollués	O
+
+#Concernant les deux panaches de contamination qui sont observés dans les eaux souterraines (contamination au PCE pour l’un et au PCE et à ses produits de dégradation pour l’autre), plusieurs essais en laboratoire et pilotes de traitement in situ ont été mis en œuvre de 2009 à 2011 afin de définir un mode adapté de dépollution des eaux souterraines contaminées par du PCE.
+
+12l0l0	deux_panaches_de_contamination	O
+12l0l1	ont_été_mis_en_œuvre	N
+12l0l2	de_2009_à_2011	T
+12l0l3	dépollution	N
+12l0l4	eaux_souterraines_contaminées	O
+12l0l5	PCE	O
+12l1l0	PCE	S
+12l1l1	PCE	S
+12l1l2	ses_produits_de_dégradation	U
+12l1l3	PCE	S
+
+#Suite à ces essais, le bureau d'études a retenu deux scénarios de réhabilitation consistant à traiter les sources par injection d’un réducteur chimique et, pour l’une des deux sources, à combiner cette injection avec du pompage et traitement.
+
+13l0l0	le_bureau_d__études	O
+13l0l1	deux_scénarios_de_réhabilitation	O
+13l0l2	traiter	N
+13l0l3	les_sources	O
+13l0l4	deux_sources	O
+13l0l5	pompage	A
+13l0l6	traitement	N
+
+#L’arrêté préfectoral du 22/06/2012 encadre les travaux de dépollution, impose de compléter la surveillance de la qualité des eaux souterraines en place par le suivi de 4 autres piézomètres et impose la remise d’un dossier de demande de restrictions d’usage.
+
+14l0l0	L__arrêté_préfectoral	O
+14l0l1	du_22_06_2012	T
+14l0l2	encadre_les_travaux_de_dépollution	N
+14l0l3	impose_de_compléter	N
+14l0l4	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+14l0l5	en_place	N
+14l0l6	le_suivi_de	A
+14l0l7	4_autres_piézomètres	O
+14l0l8	impose_la_remise	N
+
+#Les travaux de dépollution des eaux souterraines sont en cours.
+
+15l0l0	Les_travaux_de_dépollution	N
+15l0l1	des_eaux_souterraines	A
+15l0l2	en_cours	T

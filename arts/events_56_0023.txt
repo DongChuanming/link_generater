@@ -1,0 +1,143 @@
+
+#56.0023
+#Historiquement, le site a servi:
+
+0l0l0	le_site	O
+
+#- de 1955 à 1975 : de décharge de déchets municipaux et industriels,
+
+1l0l0	de_1955_à_1975	T
+
+#- de 1984 à 1999 : pour la récupération et le stockage de ferrailles par la société SAUGERA (non déclaré),
+
+2l0l0	de_1984_à_1999	T
+2l0l1	la_récupération_et_le_stockage_de_ferrailles	A
+2l0l2	la_société_SAUGERA	O
+2l1l0	la_société_SAUGERA	I
+
+#- de 1999 à 2008 : pour la récupération et le stockage de ferrailles par la société Ludovic LE GALL.
+
+3l0l0	de_1999_à_2008	T
+3l0l1	la_récupération_et_le_stockage_de_ferrailles	A
+3l0l2	la_société_Ludovic_LE_GALL	O
+3l1l0	la_société_Ludovic_LE_GALL	I
+
+#En 2003, la Société L.
+
+4l0l0	En_2003__	T
+4l0l1	la_Société_L_	O
+
+#LE GALL a dépose un dossier de demande d'autorisation en vue d'exploiter un site de récupération et de stockage des ferrailles.
+
+5l0l0	LE_GALL	O
+5l0l1	a_dépose	N
+5l0l2	un_dossier	O
+5l0l3	d__autorisation	O
+5l0l4	en_vue_d_	R
+5l0l5	exploiter	R
+5l0l6	un_site	O
+5l0l7	de_récupération_et_de_stockage_des_ferrailles	A
+
+#Le site étant en zone inondable du Blavet, un arrêté préfectoral du 22 mars 2007 refuse l'autorisation et impose un dossier de remise en état du site par l'exploitant.
+
+6l0l0	Le_site	O
+6l0l1	étant_en_zone_inondable_du_Blavet	L
+6l0l2	un_arrêté_préfectoral	O
+6l0l3	22_mars_2007	T
+6l0l4	refuse	N
+6l0l5	l__autorisation	O
+6l0l6	impose	N
+6l0l7	un_dossier	O
+6l0l8	de_remise_en_état_du_site	O
+6l0l9	l__exploitant	O
+6l1l0	Blavet	S
+
+#En avril 2008, l'exploitant a déposé un dossier de cessation d'activité.
+
+7l0l0	En_avril_2008__	T
+7l0l1	l__exploitant	O
+7l0l2	a_déposé	N
+7l0l3	un_dossier	O
+7l0l4	cessation_d__activité	N
+
+#Le site ne présentait pas de revêtement imperméable et accueillait différents types de déchets métalliques.
+
+8l0l0	Le_site	O
+8l0l1	accueillait_différents_types_de_déchets_métalliques	O
+8l1l0	déchets_métalliques	U
+
+#Un diagnostic des sols, réalisé en août et décembre 2007, conclut :
+
+9l0l0	Un_diagnostic_des_sols	N
+9l0l1	réalisé	N
+9l0l2	en_août_et_décembre_2007__	T
+
+#- que les sols sont essentiellement pollués par des métaux lourds (baryum, plomb, cuivre, chrome, nickel, zinc, cadmium), des hydrocarbures et des HAP (benzo(a)anthracène, benzo(a)pyrène, indéno(1,2,3-cd)pyrène) ;
+
+10l0l0	des_HAP	O
+10l1l0	des_métaux_lourds	S
+10l1l1	baryum	S
+10l1l2	plomb	S
+10l1l3	cuivre	S
+10l1l4	chrome	S
+10l1l5	nickel	S
+10l1l6	zinc	S
+10l1l7	cadmium	S
+10l1l8	hydrocarbures	S
+10l1l9	des_HAP	S
+10l1l10	benzo_a_anthracène	S
+10l1l11	benzo_a_pyrène	S
+10l1l12	indéno_1_2_3_cd_pyrène	S
+
+#- en une pollution de l'ensemble des terrains sont pollués par de l'arsenic, provenant des terres de remblais utilisées pour l'aménagement de la zone industrielle ;
+
+11l0l0	une_pollution	N
+11l0l1	l__ensemble_des_terrains	O
+11l0l2	l__arsenic	O
+11l0l3	remblais	O
+11l0l4	utilisées_pour	R
+11l0l5	l__aménagement	N
+11l0l6	la_zone_industrielle	O
+11l1l0	arsenic	S
+
+#- que des vapeurs de solvants sont présentes dans l'air du sol ;
+
+
+#- que les eaux de saturation du sol (3 mètres de profondeur) présentent une pollution aux HAP totaux - fluoranthène - et une forte DCO, indiquant une fermentation de la matière organique (dégradation des déchets organiques provenant de l'exploitation de la décharge municipale).
+
+13l0l0	les_eaux_de_saturation	O
+13l1l0	HAP_totaux	S
+13l1l1	fluoranthène	S
+13l1l2	des_déchets_organiques	U
+
+#L'étude hydrogéologique de 2007 met en évidence un enjeux majoritaire de migration de la pollution des sols vers le Blavet et, dans une moindre mesure, vers la nappe alluviale.
+
+14l0l0	étude_hydrogéologique	N
+14l0l1	de_2007	T
+14l0l2	vers_le_Blavet	L
+14l0l3	vers_la_nappe_alluviale	L
+14l1l0	Blavet	S
+
+#Les origines de la pollution sont les différentes activités qui se sont déroulées sur le site ainsi que les remblais utilisés pour aménager la ZI.
+
+15l0l0	Les_origines	O
+15l0l1	la_pollution	O
+15l0l2	se_sont_déroulées	N
+15l0l3	les_remblais	N
+15l0l4	utilisés_pour_aménager	N
+15l0l5	la_ZI	L
+
+#Au vu de la pollution résiduelle des sols, laissée en place, des restrictions d'usage doivent être proposées par l'exploitant, pour un usage industriel.
+
+16l0l0	laissée_en_place	N
+16l0l1	des_restrictions_d__usage	O
+16l0l2	doivent	R
+16l0l3	l__exploitant	O
+16l0l4	un_usage_industriel	A
+
+#A cet effet, une notice de servitudes a été remise en juin 2011 à l'administration.
+
+17l0l0	une_notice_de_servitudes	O
+17l0l1	a_été_remise	N
+17l0l2	en_juin_2011	T
+17l0l3	l__administration	O

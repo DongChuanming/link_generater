@@ -1,0 +1,118 @@
+
+#22.0004
+#Ancien site minier exploité entre 1630 et 1930.
+
+0l0l0	Ancien_site_minier	O
+0l0l1	exploité	N
+0l0l2	entre_1630_et_1930	T
+
+#Une pollution métallique (plomb, zinc, arsenic…) a été mise en évidence au droit de vestiges d’anciennes installations (déblais de laverie, fonderie).
+
+1l0l0	Une_pollution_métallique	O
+1l0l1	été_mise_en_évidence_au	N
+1l0l2	droit_de_vestiges_d_	L
+1l0l3	fonderie____	A
+1l1l0	métallique	S
+1l1l1	plomb	S
+1l1l2	zinc	S
+1l1l3	arsenic	S
+
+#En 1994, le BRGM a établi, à la demande de la DRIRE, un diagnostic sécurité de ce site.
+
+2l0l0	En_1994__	T
+2l0l1	le_BRGM	O
+2l0l2	a_établi	N
+2l0l3	à_la_demande_de	R
+2l0l4	la_DRIRE	O
+2l0l5	un_diagnostic_sécurité	N
+2l0l6	ce_site	O
+2l1l0	le_BRGM	I
+2l1l1	DRIRE	I
+
+#Dans ce cadre, quelques prélèvements ponctuels d’échantillons de sols ont montré l’existence d’une pollution des sols en certains endroits :
+
+3l0l0	l__existence_d__une_pollution_des_sols	O
+
+#- ancienne fonderie (poussières de scories)
+
+4l0l0	scories	O
+
+#- stock de déblais de laverie (plomb, zinc, cadmium, arsenic…) à proximité d’une aire utilisée pour des jeux.
+
+5l0l0	proximité_d__une_aire	L
+5l0l1	utilisée_pour_des_jeux	R
+5l0l2	_	A
+5l1l0	plomb	S
+5l1l1	zinc	S
+5l1l2	cadmium	S
+5l1l3	arsenic	S
+
+#Le rapport du BRGM a été porté à la connaissance des maires des communes concernées (Trémuson, Plélo, Plérin).
+
+6l0l0	Le_rapport_du_BRGM	O
+6l0l1	a_été_porté	N
+6l0l2	à_la_connaissance	N
+6l0l3	des_maires_des_communes_concernées	O
+6l0l4	Trémuson	O
+6l0l5	Plérin	L
+6l1l0	BRGM	I
+
+#Plusieurs visites du site par la DRIRE ont eu lieu avec les mairies de Trémuson et Plérin.
+
+7l0l0	Plusieurs_visites	N
+7l0l1	site	O
+7l0l2	la_DRIRE	O
+7l0l3	ont_eu_lieu	N
+7l0l4	les	O
+7l0l5	mairies_de_Trémuson_et_Plérin	L
+7l1l0	la_DRIRE	I
+
+#Une visite en compagnie de la DDASS et de la Cellule InterRégionale Epidémiologique (CIRE) Ouest, dans le cadre d'un partenariat au titre d'une enquête nationale sur la plombémie, a également été menée.
+
+8l0l0	Une_visite	N
+8l0l1	en_compagnie_de_la_DDASS	O
+8l0l2	de_la_Cellule_InterRégionale_Epidémiologique	O
+8l0l3	CIRE___Ouest	O
+8l0l4	dans_le_cadre_d_	R
+8l0l5	un_partenariat	O
+8l1l0	la_DDASS	I
+8l1l1	la_Cellule_InterRégionale_Epidémiologique	I
+8l1l2	plombémie	S
+
+#Cette enquête a donné pour ce site des résultats négatifs.
+
+
+#Dans le cadre de "l'après mine" du 30 mars 1999, une action d'analyse est engagée depuis 2003 en liaison avec le pôle après-mine Ouest (Caen) pour déterminer les mesures à prendre au plan de la stabilité des terrains (présence d'ouvrages miniers souterrains) et de protection de 'environnement (scories de fonderie, déblais de laverie,...)
+
+10l0l0	Dans_le_cadre_de	R
+10l0l1	30_mars_1999__	T
+10l0l2	une_action	N
+10l0l3	depuis_2003	T
+10l0l4	liaison_avec_le_pôle_après_mine	O
+10l0l5	Ouest___Caen	L
+10l0l6	les_mesures	O
+10l0l7	protection_de___environnement	O
+10l0l8	scories_de_fonderie	O
+
+#Une carte d'aléas "mouvements de terrain" a été établie en 2006, et présentée aux élus des communes concernées par l'ancienne concession.
+
+11l0l0	Une_carte	O
+11l0l1	a_été_établie	N
+11l0l2	en_2006__	T
+11l0l3	élus_des_communes_concernées	O
+
+#Des sondages d'auscultation sont en cours d’exécution afin de valider le positionnement de certains ouvrages souterrains.
+
+12l0l0	Des_sondages_d__auscultation	N
+12l0l1	en_cours_d_	T
+12l0l2	exécution	O
+12l0l3	afin_de_valider	R
+12l0l4	le_positionnement_de_certains_ouvrages_souterrains	O
+
+#Une carte d'aléas "environnement" sera élaborée en début 2007 : elle permettra de définir les modalités de surveillance de la qualité des eaux de surface et souterraines au regard des enjeux existants.
+
+13l0l0	Une_carte	O
+13l0l1	en_début_2007	T
+13l0l2	les_modalités	O
+13l0l3	surveillance	A
+13l0l4	la_qualité_des_eaux_de_surface	A

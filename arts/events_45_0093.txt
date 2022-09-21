@@ -1,0 +1,420 @@
+
+#45.0093
+#La société Constructions Électriques WESTENDORP (CEW) exerce des activités de traitement et de décontamination des transformateurs contenant des polychlorobiphényles (PCB) à une concentration supérieure à 50 parties par million (ppm) en masse, pour lesquelles elle est soumise à autorisation au titre des rubriques 2792-1 et 2792-2 de la nomenclature des installations classées pour la protection de l'environnement.
+
+0l0l0	La_société_Constructions_Électriques_WESTENDORP	O
+0l0l1	exerce	N
+0l0l2	des_activités_de_traitement_et	A
+0l0l3	de_décontamination	N
+0l0l4	transformateurs	O
+0l1l0	La_société_Constructions_Électriques_WESTENDORP	I
+0l1l1	CEW	I
+0l1l2	des_polychlorobiphényles	S
+0l1l3	PCB	S
+
+#La société bénéficie d'arrêtés préfectoraux en date des 29 mai 1981, 5 mars 1987, 27 octobre 2008, du 19 avril 2010, 26 mars 2015 et 21 novembre 2017.
+
+1l0l0	La_société	O
+1l0l1	en_date_des_29_mai_1981	T
+1l0l2	5_mars_1987	T
+1l0l3	27_octobre_2008___du_19_avril_2010___26_mars_2015_et_21_novembre_2017__	T
+
+#L’établissement est autorisé à stocker au maximum 5000 litres d’huile à plus de 50 ppm en PCB contenue dans les transformateurs et 4000 litres d’huile à plus de 50 ppm en PCB issue de l’activité de traitement.
+
+2l0l0	L__établissement	O
+2l0l1	est_autorisé	N
+2l0l2	stocker	N
+2l0l3	au_maximum	T
+2l0l4	5000_litres_d__huile	O
+2l0l5	4000_litres_d__huile	O
+2l1l0	PCB	S
+2l1l1	PCB	S
+
+#Les installations du site sont composées :
+
+
+#- d'un bâtiment principal étanche regroupant les activités de réparation des transformateurs ;
+
+4l0l0	les_activités_de_réparation_des_transformateurs	A
+
+#- d'un bâtiment étanche dédié au stockage des transformateurs en attente de réparation sur rétention ;
+
+5l0l0	un_bâtiment	O
+5l0l1	au_stockage_des_transformateurs	A
+
+#- d'un parc de stockages de cuves d'huiles en extérieur sur rétention ;
+
+6l0l0	un_parc_de_stockages	O
+6l1l0	cuves_d_	D
+
+#- d'une plate-forme de livraisons et d'expéditions des transformateurs, comprenant notamment un aire extérieure où sont entreposés les transformateurs traités (sans PCB).
+
+7l0l0	expéditions	O
+7l0l1	transformateurs	O
+7l0l2	un_aire	O
+7l0l3	les_transformateurs_traités	O
+7l1l0	sans_PCB	S
+
+#Le site, d'une superficie de 5000 m² dont 1800 m² couverts, est localisé dans la zone industrielle des Sablons, sur le territoire de la commune de Meung-sur-Loire.
+
+8l0l0	Le_site	O
+8l0l1	localisé_dans_la_zone_industrielle_des_Sablons	L
+8l0l2	sur_le_territoire_de_la_commune_de_Meung_sur_Loire	L
+
+#Il couvre les parcelles AV 56 et AV 57 du plan cadastral.
+
+9l0l0	couvre_les_parcelles	N
+
+#Le site est implanté à environ cent mètres des premières habitations.
+
+10l0l0	Le_site	O
+10l0l1	est_implanté_à_environ_cent_mètres_des_premières_habitations	L
+
+#La nappe des calcaires de Beauce, constituée des nappes des calcaires de Pithiviers et des calcaires d'Étampes, est présente au droit du site.
+
+11l0l0	calcaires_de_Beauce	L
+11l0l1	Étampes	L
+11l0l2	au_droit_du_site	L
+
+#Compte tenu de sa faible profondeur (15 à 16 m) et du caractère perméable des couches géologiques la recouvrant, cette nappe, et plus particulièrement la nappe des calcaires de Pithiviers, est vulnérable à une pollution provenant du site.
+
+12l0l0	Pithiviers	L
+
+#Deux cours d'eau sont situés à proximité du site : la Loire, qui s'écoule à environ 425 m au sud-est du site, et le ruisseau Les Mauves, qui s'écoule à 650 m à l'ouest du site.
+
+13l0l0	Deux_cours_d__eau	O
+13l0l1	situés_à_proximité_du_site	L
+13l0l2	la_Loire	L
+13l0l3	à_environ_425_m_au_sud_est_du_site	L
+13l0l4	le_ruisseau_Les_Mauves	L
+13l0l5	m_à_l__ouest_du_site	L
+
+#Ils accueillent des activités de loisirs, et notamment la pêche.
+
+14l0l0	la_pêche	A
+
+#Le ruisseau Les Mauves est vulnérable à une pollution provenant du site CEW ; les eaux pluviales collectées de CEW étant rejetées, par l'intermédiaire du réseau communal, dans le ruisseau Les Mauves.
+
+15l0l0	Mauves	L
+15l0l1	site_CEW	O
+15l0l2	le_ruisseau_Les_Mauves	L
+15l1l0	du_site_CEW	I
+
+#De nombreux forages sont recensés à proximité du site, notamment le captage AEP "Les Sablons" situé à 70 m à l'ouest de l'installation.
+
+16l0l0	De_nombreux_forages	O
+16l0l1	à_proximité_du_site	L
+16l0l2	le_captage_AEP	O
+16l0l3	situé_à_70_m_à_l__ouest_de_l__installation	L
+
+#Ce captage n'est toutefois pas vulnérable à une pollution provenant du site CEW, compte tenu de sa position en latéral hydraulique du site et de sa profondeur de captage.
+
+17l0l0	Ce_captage	O
+17l0l1	pollution_provenant_du_site_CEW	O
+17l0l2	position_en_latéral_hydraulique_du_site	L
+17l1l0	du_site_CEW	I
+
+#À la suite de la publication de la carte nationale de la pollution des sédiments fluviaux par les PCB par le Ministère en charge de l'environnement le 10 octobre 2007 mettant en évidence la présence de PCB dans les sédiments du ruisseau Les Mauves, l'inspection des installations classées a entrepris des investigations ayant mis en évidence des risques de contamination du milieu naturel par les PCB sur le site de CEW ; les boues prélevées le 18 octobre 2007 au niveau de deux regards d'eaux pluviales du site présentaient en effet une contamination notable en PCB.
+
+18l0l0	À_la_suite_de	R
+18l0l1	la_publication	N
+18l0l2	sédiments_fluviaux	O
+18l0l3	le_Ministère_en_charge_de_l__environnement	O
+18l0l4	le_10_octobre_2007	T
+18l0l5	ruisseau_Les_Mauves	L
+18l0l6	l__inspection_des_installations_classées	O
+18l0l7	a_entrepris	N
+18l0l8	des_investigations	N
+18l0l9	ayant_mis_en	N
+18l0l10	le_site_de_CEW	O
+18l0l11	prélevées	N
+18l0l12	le_18_octobre_2007	T
+18l0l13	au_niveau_de	L
+18l0l14	deux_regards	O
+18l0l15	site	L
+18l0l16	effet_une_contamination	O
+18l1l0	les_PCB	S
+18l1l1	PCB	S
+18l1l2	les_PCB	S
+18l1l3	CEW	I
+18l1l4	PCB	S
+
+#Afin de limiter les transferts de PCB vers le milieu naturel, l'inspection des installations classées a proposé à Monsieur le Préfet du Loiret un arrêté de mesures d'urgences, signé le 9 novembre 2007, prescrivant notamment à l'exploitant le curage des regards de son réseau d'eaux pluviales et le nettoyage de l'ensemble de ce réseau.
+
+19l0l0	l__inspection_des_installations_classées	O
+19l0l1	Monsieur_le_Préfet_du_Loiret	L
+19l0l2	un_arrêté_de_mesures_d__urgences	O
+19l0l3	le_9_novembre_2007__	T
+19l0l4	prescrivant	N
+19l0l5	l__exploitant	O
+19l0l6	le_curage	N
+19l0l7	le_nettoyage	N
+19l1l0	PCB	S
+19l1l1	le_Préfet_du_Loiret	I
+
+#Par lettre du 16 novembre 2007, l'exploitant a indiqué avoir procédé à ces opérations.
+
+20l0l0	du_16_novembre_2007__	T
+20l0l1	l__exploitant	O
+20l0l2	a	N
+20l0l3	indiqué	R
+20l0l4	avoir_procédé_à_ces_opérations	N
+
+#En complément de ces mesures, un arrêté complémentaire, prescrivant à l'exploitant l'identification d'autres sources éventuelles de contamination en PCB localisées sur son site et de définir les mesures de surveillance nécessaires en fonction des ces sources éventuelles et de la vulnérabilité des eaux souterraines, a été pris le 21 janvier 2008.
+
+21l0l0	un_arrêté_complémentaire	O
+21l0l1	prescrivant	N
+21l0l2	l__exploitant	O
+21l0l3	identification_d__autres_sources_éventuelles_de_contamination	O
+21l0l4	de_définir_les_mesures_de_surveillance	O
+21l0l5	a_été_pris	N
+21l0l6	le_21_janvier_2008__	T
+21l1l0	PCB	S
+
+#L'ensemble de ces éléments a été communiqué à l'inspection des installations classées qui, sur cette base, a proposé à Monsieur le Préfet du Loiret, un arrêté actualisant les prescriptions applicables à l'établissement (surveillance des rejets en eaux pluviales et des eaux souterraines.
+
+22l0l0	a_été_communiqué	N
+22l0l1	l__inspection_des_installations_classées	O
+22l0l2	Monsieur_le_Préfet_du_Loiret	O
+22l0l3	un_arrêté	O
+22l0l4	actualisant	N
+22l0l5	les_prescriptions_applicables	O
+22l1l0	le_Préfet_du_Loiret	I
+
+#Cet arrêté a été pris le 27 octobre 2008.
+
+23l0l0	Cet_arrêté	O
+23l0l1	a_été_pris	N
+23l0l2	le_27_octobre_2008__	T
+
+#Par ailleurs, les résultats des prélèvements effectués en 2008 mettant en évidence la présence de PCB dans des poissons du cours d'eau Les Mauves, un arrêté interdisant la consommation et la commercialisation des poissons pêchés dans le cours d'eau Les Mauves et ses affluents a été pris le 5 juin 2009.
+
+24l0l0	des_prélèvements_effectués	N
+24l0l1	en_2008	T
+24l0l2	cours_d__eau_Les_Mauves	L
+24l0l3	un_arrêté	O
+24l0l4	interdisant	N
+24l0l5	la_consommation_et_la_commercialisation_des_poissons	A
+24l0l6	pêchés_dans_le	R
+24l0l7	cours_d__eau_Les_Mauves	L
+24l0l8	a_été_pris	N
+24l0l9	le_5_juin_2009__	T
+24l1l0	PCB	S
+
+#Les teneurs en PCB détectées dans les poissons restaient toutefois inférieures aux préconisations de l'OMS sur l'absorption d'une dose journalière acceptable tout au long d'une vie.
+
+25l1l0	PCB	S
+
+#Par courriel du 12 juillet 2011, les services techniques de la mairie de Meung-sur-Loire ont informé l'inspection des installations classées d'une contamination en PCB des boues de la station d'épuration communale, vers laquelle sont dirigés les rejets canalisés d'eaux usées de la société CEW.
+
+26l0l0	Par_courriel	O
+26l0l1	du_12_juillet_2011__	T
+26l0l2	les_services_techniques	O
+26l0l3	la_mairie	O
+26l0l4	de_Meung_sur_Loire	L
+26l0l5	ont_informé	N
+26l0l6	l__inspection_des_installations_classées	O
+26l0l7	une_contamination	O
+26l0l8	la_station_d__épuration_communale	O
+26l0l9	dirigés	N
+26l0l10	les_rejets_canalisés	L
+26l0l11	la_société_CEW	O
+26l1l0	la_mairie_de_Meung_sur_Loire	I
+26l1l1	PCB	S
+26l1l2	la_société_CEW	I
+
+#L'analyse des rejets eaux usées du site effectuée par la société CEW le 18 juillet 2011, à la suite d'une demande formulée par l'inspection des installations classées lors de la visite d'inspection du 13 juillet 2011, a montré une contamination en PCB des eaux usées, les rendant ainsi impropre à une utilisation dans le cadre d'un plan d'épandage.
+
+27l0l0	L__analyse	N
+27l0l1	rejets_eaux_usées_du_site	L
+27l0l2	effectuée	N
+27l0l3	la_société_CEW	O
+27l0l4	le_18_juillet_2011__	T
+27l0l5	à_la_suite_d_	R
+27l0l6	une_demande_formulée	N
+27l0l7	l__inspection_des_installations_classées	O
+27l0l8	la_visite	N
+27l0l9	13_juillet_2011__	T
+27l0l10	a_montré	R
+27l0l11	une_contamination	O
+27l0l12	une_utilisation	N
+27l0l13	dans_le_cadre_d__un	L
+27l1l0	la_société_CEW	I
+27l1l1	PCB	S
+27l1l2	eaux_usées	U
+
+#Suite à cet épisode de pollution, un arrêté de mesures d’urgence a été pris le 9 septembre 2011, pour prescrire le nettoyage et le curage du réseau d’eaux usées de CEW, ainsi que la recherche des causes possibles de la contamination aux PCB des boues de la STEP communale.
+
+28l0l0	Suite	R
+28l0l1	à_cet_épisode_de_pollution	N
+28l0l2	un_arrêté_de_mesures_d__urgence	O
+28l0l3	a_été_pris	N
+28l0l4	le_9_septembre_2011__	T
+28l0l5	pour_prescrire	R
+28l0l6	le_nettoyage	N
+28l0l7	le_curage	N
+28l0l8	réseau_d__eaux_usées_de_CEW	O
+28l0l9	la_recherche_des_causes_possibles	O
+28l0l10	la_contamination	O
+28l0l11	la_STEP_communale	O
+28l1l0	PCB	S
+
+#Un procès-verbal, pour présence de PCB dans le réseaux d'eaux pluviales, a également été dressé le 9 septembre 2011 à l'encontre de l'exploitant.
+
+29l0l0	Un_procès_verbal	O
+29l0l1	a_également_été_dressé	N
+29l0l2	le_9_septembre_2011	T
+29l0l3	l__exploitant	O
+29l1l0	PCB	S
+
+#L'exploitant a également été mis en demeure, par arrêté du 23 septembre 2011, de respecter l'interdiction de rejet de PCB dans son réseau d'eaux pluviales.
+
+30l0l0	L__exploitant	O
+30l0l1	a_également_été_mis_en	N
+30l0l2	du_23_septembre_2011__	T
+30l1l0	PCB	S
+
+#Des dépassements récurrents du seuil maximal de la concentration en PCB totaux dans les rejets des eaux pluviales du site sont constatés.
+
+31l0l0	Des_dépassements_récurrents	N
+31l1l0	PCB_totaux	S
+
+#Compte tenu de ces dépassements récurrents, un arrêté complémentaire prescrivant le suivi du dispositif de filtrage, que l'exploitant a mis en oeuvre sur ses regards d'eaux pluviales, et renforçant la surveillance des rejets aqueux de CEW a été pris le 26 mars 2015.
+
+32l0l0	un_arrêté_complémentaire	O
+32l0l1	prescrivant	R
+32l0l2	le_suivi_du_dispositif_de_filtrage	O
+32l0l3	l__exploitant	O
+32l0l4	a_mis_en	N
+32l0l5	renforçant_la_surveillance_des_rejets_aqueux	N
+32l0l6	CEW	O
+32l0l7	a_été_pris	N
+32l0l8	le_26_mars_2015__	T
+32l1l0	CEW	I
+
+#L’exploitant a indiqué avoir sollicité, sur proposition de l’inspection, l’aide de l’Agence de l’Eau pour subventionner la réfection complète de son réseau d’eaux pluviales.
+
+33l0l0	L__exploitant	O
+33l0l1	a_indiqué	N
+33l0l2	avoir_sollicité	N
+33l0l3	l__aide	O
+33l0l4	subventionner_la_réfection_complète_de	N
+33l0l5	son_réseau_d__eaux_pluviales	O
+
+#Une étude préalable a été réalisée par le cabinet Optimia Environnement sur, entre autres, les thématiques de réduction des sources de pollution aux PCB présentes sur le site et d'amélioration de la gestion des eaux pluviales.
+
+34l0l0	Une_étude_préalable	N
+34l0l1	a_été_réalisée	N
+34l0l2	le_cabinet_Optimia_Environnement	O
+34l0l3	les_thématiques	O
+34l0l4	sources_de_pollution	O
+34l0l5	amélioration_de	R
+34l0l6	la	O
+34l0l7	gestion_des_eaux_pluviales	A
+34l1l0	le_cabinet_Optimia_Environnement	I
+34l1l1	PCB	U
+
+#À la suite de cette étude, l'exploitant a transmis un plan d'action de mise en conformité de ses rejets d'eaux pluviales sur la période 2017-2018.
+
+35l0l0	À_la_suite_de	R
+35l0l1	cette_étude	N
+35l0l2	l__exploitant	O
+35l0l3	a_transmis	N
+35l0l4	un_plan_d__action	O
+35l0l5	mise_en_conformité	N
+35l0l6	la_période_2017___2018	T
+
+#Ce plan d'action est actuellement en cours d'instruction.
+
+36l0l0	Ce_plan_d__action	O
+36l0l1	actuellement_en_cours	T
+36l0l2	d_	A
+36l0l3	instruction	N
+
+#Par ailleurs, à la suite d'un courrier de la Direction Générale de la Prévention des Risques du Ministère en charge de l'Environnement, la découverte d'une situation environnementale dégradée autour d'un centre de traitement de déchets contaminés aux PCB, la surveillance des rejets atmosphériques du site, notamment en dioxines-furanes et en PCB dioxines likes, a été prescrite à CEW par arrêté préfectoral complémentaire du 15 décembre 2011.
+
+37l0l0	à_la_suite_d_	R
+37l0l1	un_courrier	N
+37l0l2	la_Direction_Générale_de_la_Prévention_des_Risques_du_Ministère_en_charge_de_l__Environnement	O
+37l0l3	la_découverte_d__une_situation_environnementale_dégradée	N
+37l0l4	autour_d__un_centre_de_traitement_de_déchets_contaminés	L
+37l0l5	la_surveillance	A
+37l0l6	rejets_atmosphériques	N
+37l0l7	du_site	N
+37l0l8	a_été_prescrite	N
+37l0l9	CEW_par_arrêté_préfectoral_complémentaire	O
+37l0l10	du_15_décembre_2011__	T
+37l1l0	PCB	S
+37l1l1	dioxines___furanes	S
+37l1l2	PCB_dioxines_likes	S
+37l1l3	CEW	I
+
+#L'analyse des échantillons de sols prélevés dans le cadre de cette surveillance a mis en évidence une contamination du sol aux PCB (teneur de 47 mg/kg de matière sèche en PCB indicateur) au niveau de l'ancienne zone de stockage auxiliaire de transformateurs non pollués (huile contenant moins de 50 ppm de PCB) et non fuyards (zone dite zone Est).
+
+38l0l0	dans_le_cadre_de	R
+38l0l1	cette_surveillance	N
+38l0l2	a_mis_en_évidence	R
+38l0l3	une_contamination	N
+38l0l4	au_niveau_de	R
+38l0l5	l__ancienne_zone_de_stockage	O
+38l0l6	transformateurs_non_pollués	O
+38l1l0	PCB	S
+38l1l1	PCB	S
+38l1l2	PCB	S
+
+#Cette zone est composée de 160 m² de surface enherbée et de 120 m² de graviers.
+
+39l0l0	Cette_zone	O
+39l0l1	enherbée	O
+
+#Le calcul de risque sanitaire effectué sur les poussières issues du sol mitoyen à la zone Est exploité par CEW indique un risque sanitaire en cas d’ingestion de poussières de sol.
+
+40l0l0	mitoyen_à_la_zone_Est	L
+40l0l1	exploité_par_CEW	O
+40l1l0	CEW	I
+
+#L'exploitant a entrepris des travaux de réhabilitation de cette zone du 31 octobre au 5 novembre 2015, qui ont consisté en :
+
+41l0l0	L__exploitant	O
+41l0l1	a_entrepris	N
+41l0l2	des_travaux_de_réhabilitation	N
+41l0l3	cette_zone	O
+41l0l4	du_31_octobre_au_5_novembre_2015__	T
+
+#- un apport de terre végétale saine sur une épaisseur de 10 cm sur la zone enherbée et de graviers calcaires sur une épaisseur de 6 cm au niveau des graviers déjà présents ;
+
+42l0l0	un_apport	N
+42l0l1	de_terre_végétale_saine	O
+
+#- une délimitation du site par la pose de bordure sur béton ;
+
+43l0l0	une_délimitation	N
+43l0l1	la_pose	N
+43l0l2	de_bordure	O
+
+#- la mise en place de gazon et la plantation d'un arbre non fruitier sur la terre végétale saine apportée.
+
+44l0l0	la_mise_en_place	N
+44l0l1	de_gazon	O
+44l0l2	la_plantation_d_	N
+
+#La pose d'un géotextile, pourtant recommandée, n'a pas été effectuée.
+
+45l0l0	La_pose_d__un_géotextile	N
+45l0l1	n__a_pas_été_effectuée	N
+
+#Le 14 septembre 2017, CEW a déposé un dossier de demande d'institution de servitudes d'utilité publique sur la zone polluée aux PCB.
+
+46l0l0	Le_14_septembre_2017__	T
+46l0l1	CEW	O
+46l0l2	a_déposé	N
+46l0l3	un_dossier_de_demande_d_	N
+46l0l4	institution_de_servitudes_d__utilité_publique	O
+46l0l5	la_zone_polluée	O
+46l0l6	aux_PCB	A
+46l1l0	CEW	I
+46l1l1	PCB	S
+
+#Ce dossier est en cours d'instruction.
+
+47l0l0	Ce_dossier	O

@@ -1,0 +1,330 @@
+
+#87.0003
+#Cavités minières remontant aux Gallos-Romains (aurières à ciel ouvert) et puits et galeries d’exploration du début du XXème siècle, pendant plusieurs décennies réceptacles de déchets (matières de vidange de fosses septiques) générant des pollutions des eaux souterraines par hydrocarbures.
+
+0l0l0	Cavités_minières	O
+0l0l1	début_du_XXème_siècle	T
+0l0l2	pendant_plusieurs_décennies	T
+0l0l3	réceptacles	O
+0l1l0	hydrocarbures	S
+
+#1.	Genèse de l’affaire, mise en sécurité et traitement
+
+1l0l0	l__affaire	O
+1l0l1	traitement	A
+
+#En 1986, suite au constat de présence d'hydrocarbures surnageant dans les fosses de l'aurière, la Compagnie des Services d'Assainissement (CSA) est mise en demeure d'éliminer les hydrocarbures ainsi que les autres liquides des trois fosses et de réaliser une étude hydrogéologique du site.
+
+2l0l0	En_1986	T
+2l0l1	au_constat	N
+2l0l2	l__aurière	O
+2l0l3	la_Compagnie_des_Services_d__Assainissement	O
+2l0l4	hydrocarbures	O
+2l0l5	réaliser_une_étude_hydrogéologique	N
+2l1l0	hydrocarbures_surnageant	U
+2l1l1	la_Compagnie_des_Services_d__Assainissement	I
+2l1l2	hydrocarbures	S
+
+#Trois nouveaux arrêtés de mise en demeure sont pris à l'encontre de la CSA (10 juillet 1989, 17 novembre 1989 et 3 juin 1991) imposant finalement le remblaiement des fosses et le traitement des eaux de la résurgence située à l'aval du site.
+
+3l0l0	Trois_nouveaux_arrêtés_de_mise_en_demeure	O
+3l0l1	sont_pris_à_l__encontre	N
+3l0l2	la_CSA	O
+3l0l3	__10_juillet_1989	T
+3l0l4	_	N
+3l0l5	17_novembre_1989_et_3_juin_1991	T
+3l0l6	imposant_finalement_le_remblaiement	N
+3l0l7	fosses	O
+3l0l8	le_traitement_des_eaux	N
+3l0l9	la_résurgence	N
+3l0l10	située_à_l__aval_du_site	L
+
+#Lorsque la CSA est finalement liquidée, et que la SOAF (Groupe Nantaise des Eaux) reprend les actifs de la CSA et devient de ce fait propriétaire de l'emprise foncière des cavités, le site avait cessé toute exploitation.
+
+4l0l0	la_CSA	O
+4l0l1	est_finalement_liquidée	N
+4l0l2	la_SOAF	O
+4l0l3	reprend_les_actifs	N
+4l0l4	la_CSA	O
+4l0l5	l__emprise_foncière	O
+4l0l6	le_site	O
+4l0l7	avait_cessé_toute_exploitation	N
+4l1l0	la_CSA	I
+4l1l1	la_SOAF	I
+4l1l2	Groupe_Nantaise	I
+
+#La SOAF devient alors, en sa qualité de propriétaire, responsable du site au regard de la gestion des impacts générés par la pollution résultant de l'activité du dernier exploitant.
+
+5l0l0	La_SOAF	O
+5l0l1	devient	N
+5l0l2	responsable_du_site	N
+5l0l3	gestion_des_impacts	O
+5l0l4	générés	N
+5l0l5	la_pollution	N
+5l0l6	exploitant	O
+5l1l0	La_SOAF	I
+
+#C'est dans ce cadre qu'elle fait réaliser une évaluation détaillée des risques en 1995.
+
+6l0l0	elle	O
+6l0l1	fait_réaliser_une_évaluation_détaillée_des_risques	N
+6l0l2	en_1995	T
+
+#Suite à de multiples demandes de compléments du dossier, et après avis favorable du Conseil Départemental d’Hygiène, un arrêté préfectoral est signé le 18 janvier 2002.
+
+7l0l0	un_arrêté_préfectoral	O
+7l0l1	est_signé	N
+7l0l2	le_18_janvier_2002	T
+7l1l0	Conseil_Départemental_d_	I
+
+#Cet arrêté prescrit au responsable du site (propriétaire) les dispositions suivantes :
+
+
+#- surveillance et entretien du site (notamment de la clôture),
+
+9l0l0	surveillance_et_entretien_du_site	O
+9l0l1	la_clôture	O
+
+#- mise en place d'un dispositif de séparation des hydrocarbures au niveau de la résurgence,
+
+10l0l0	mise_en_place_d_	N
+10l0l1	hydrocarbures	O
+10l0l2	au_niveau_de	R
+10l0l3	la_résurgence	N
+10l1l0	hydrocarbures	S
+
+#- surveillance de la qualité des eaux de la résurgence (après traitement) et des eaux souterraines,
+
+11l0l0	surveillance_de	A
+11l0l1	la_qualité_des_eaux	O
+11l0l2	après_traitement	N
+
+#- dépôt d'un dossier de demande de servitudes d'utilité publique.
+
+12l0l0	un_dossier_de_demande_de_servitudes_d__utilité_publique	O
+
+#Outre les opérations de mise en sécurité (écrémage du surnageant, remblaiement des fosses et traitement de la résurgence aval site), le site a alors fait l'objet de nombreuses études et enfin de la mise en place d'un traitement plus poussé de la résurgence.
+
+13l0l0	les_opérations_de_mise_en_sécurité	N
+13l0l1	écrémage_du	N
+13l0l2	surnageant	O
+13l0l3	remblaiement_des_fosses	N
+13l0l4	traitement	N
+13l0l5	la	O
+13l0l6	résurgence_aval_site	L
+13l0l7	le_site	O
+13l0l8	fait_l__objet_de	R
+13l0l9	la_mise_en_place_d__un_traitement	N
+13l0l10	la_résurgence	O
+
+#2.	Premier dossier de restrictions d’usage
+
+
+#Un dossier de demande d'institution de servitudes d'utilité publique a été remis le 30 juillet 2003 par le responsable du site (SOAF en sa qualité de propriétaire, l'exploitant à l'origine des pollutions historiques ayant disparu).
+
+15l0l0	Un_dossier_de_demande_d__institution_de_servitudes_d__utilité_publique	O
+15l0l1	a_été_remis	N
+15l0l2	le_30_juillet_2003	T
+15l0l3	le_responsable_du_site	O
+15l0l4	l__exploitant	O
+15l0l5	pollutions	N
+15l0l6	historiques	O
+15l0l7	ayant_disparu	N
+15l1l0	SOAF	S
+
+#Ce dossier de demande de SUP avait pour objet d'interdire toute construction et de préserver l’intégrité et l’accès aux ouvrages de traitement et de surveillance.
+
+16l0l0	Ce_dossier	O
+16l0l1	demande_de_SUP	O
+16l0l2	avait	R
+16l0l3	interdire_toute_construction	N
+16l0l4	accès_aux_ouvrages_de_traitement	N
+
+#La SOAF a aussi acquis auprès de la Ville de Limoges deux parcelles pour protéger le dispositif de traitement et le réseau de surveillance.
+
+17l0l0	La_SOAF	O
+17l0l1	a_aussi_acquis	N
+17l0l2	la_Ville_de_Limoges	O
+17l0l3	deux_parcelles	O
+17l0l4	protéger	N
+17l0l5	le_dispositif_de_traitement	O
+17l0l6	le_réseau_de_surveillance	A
+17l1l0	La_SOAF	I
+
+#L'instruction s'est alors heurtée à des difficultés techniques notamment afin de déterminer si parmi les servitudes il devait être institué des servitudes de type non aedificandi aussi hors emprise du site, et dans l’affirmative comment en fixer le périmètre.
+
+18l0l0	L__instruction	O
+18l0l1	les_servitudes	O
+18l0l2	des_servitudes	O
+18l0l3	aussi	T
+18l0l4	hors_emprise_du_site	L
+
+#3.	Nécessité d’une réévaluation du site
+
+19l0l0	une_réévaluation	N
+19l0l1	site	O
+
+#La situation du site a connu plusieurs évolutions qui motivent de reconsidérer le dossier dans son ensemble afin, en s'appuyant sur les outils issus de la nouvelle méthodologie nationale en matière de sites et sols pollués introduite en février 2007 :
+
+20l0l0	La_situation_du_site	O
+20l0l1	a_connu	N
+20l0l2	reconsidérer	N
+20l0l3	sols_pollués	O
+20l0l4	en_février_2007	T
+
+#- de déterminer quelle est l'évolution des impacts depuis 2003, notamment en synthétisant les données de la surveillance des eaux souterraines et de la surveillance de la qualité de l'air au droit des fosses,
+
+21l0l0	l__évolution_des_impacts	O
+21l0l1	depuis_2003__	T
+21l0l2	la_surveillance_des_eaux_souterraines	A
+21l0l3	la_surveillance_de_la_qualité_de_l_	A
+21l0l4	au_droit_des_fosses	L
+
+#- d'étudier la faisabilité de mesures de gestion complémentaires à même de réduire significativement la source de pollution pour à terme aboutir à une réduction suffisante du potentiel d'impact, le site ne faisant pour le moment l'objet que d'un traitement de la résurgence,
+
+22l0l0	le_site	O
+22l0l1	ne_faisant_pour	N
+22l0l2	le_moment	T
+22l0l3	l__objet_que_d_	R
+22l0l4	un_traitement	N
+22l0l5	résurgence	N
+
+#- d'effectuer une réévaluation des risques,
+
+23l0l0	d__effectuer_une_réévaluation	N
+23l0l1	des_risques	N
+
+#- d'en déduire une redéfinition de la nature et du périmètre effectif de chaque type de servitude, afin de pouvoir actualiser la demande de SUP et déterminer la procédure de consultation la plus appropriée (consultation écrite des propriétaires ou enquête publique),
+
+24l0l0	chaque_type_de_servitude	O
+24l0l1	actualiser_la_demande	N
+
+#- de se positionner le cas échéant sur le devenir à long terme de la surveillance et sur son adaptation en fonction de l'évolution constatée et au regard des résultats des mesures de gestion complémentaires (par exemple enlèvement de sources) si de telles mesures peuvent être mises en œuvre.
+
+25l0l0	de_se_positionner_le_cas_échéant	O
+25l0l1	le_devenir	O
+25l0l2	à_long_terme	T
+25l0l3	la_surveillance	A
+25l0l4	enlèvement_de_sources	N
+
+#Une première réunion de travail et une visite du site avec les représentants du propriétaire ont eu lieu le 23 avril 2013.
+
+26l0l0	Une_première_réunion_de	N
+26l0l1	une_visite	N
+26l0l2	site_avec_les_représentants_du_propriétaire	O
+26l0l3	ont_eu_lieu	N
+26l0l4	le_23_avril_2013__	T
+
+#L’examen des rapports de surveillance des eaux souterraines au droit du site, des eaux en sortie du séparateur et de l’air ambiant au-dessus des fosses avait permis de conclure à une stabilité de la situation en matière d’impact, celui étant actuellement limité au site, essentiellement au droit des fosses.
+
+27l0l0	L__examen	N
+27l0l1	surveillance_des_eaux_souterraines	A
+27l0l2	au_droit_du_site	L
+27l0l3	au_dessus_des_fosses	L
+27l0l4	au_droit_des_fosses	L
+
+#L'Inspection a par ailleurs demandé le renforcement de la clôture interdisant l'accès au site.
+
+28l0l0	L__Inspection	O
+28l0l1	a_par_ailleurs_demandé_le_renforcement	N
+28l0l2	la_clôture	O
+28l0l3	interdisant_l__accès	N
+28l0l4	au_site	L
+
+#De nouveaux contacts ont été pris avec le propriétaire pour relancer l'étude de faisabilité de mesures de gestion complémentaires et demander une nouvelle campagne de surveillance.
+
+29l0l0	De_nouveaux_contacts	N
+29l0l1	ont_été_pris	N
+29l0l2	le_propriétaire	O
+29l0l3	relancer_l__étude_de	N
+29l0l4	faisabilité_de_mesures_de_gestion_complémentaires	O
+29l0l5	demander_une_nouvelle_campagne_de_surveillance	N
+
+#Une réunion de travail s'est tenue le 27 janvier 2015, en vue de présenter d'une part le bilan de la surveillance, et d'autre part d'aborder les différentes options de gestion future envisagées par la SOAF à court, moyen et long terme et notamment leur faisabilité technique et environnementale.
+
+30l0l0	Une_réunion	N
+30l0l1	s__est_tenue	N
+30l0l2	le_27_janvier_2015__	T
+30l0l3	la_surveillance	A
+30l0l4	les_différentes_options_de_gestion	O
+30l0l5	la_SOAF	O
+30l0l6	leur_faisabilité_technique_et_environnementale	O
+30l1l0	la_SOAF	I
+
+#Le conseil technique du propriétaire a notamment signalé qu’un changement de régime hydraulique en amont du séparateur, qui serait induit par des remblaiements entre le site (parcelle NA62) et le séparateur (parcelle 115) serait de nature à perturber l’écoulement vers le séparateur et donc affecter les performances du traitement.
+
+31l0l0	un_changement_de_régime_hydraulique	N
+31l0l1	en_amont_du_séparateur	L
+31l0l2	des_remblaiements	N
+
+#Lors de cette réunion, l'Inspection des Installations Classées a confirmé que la SOAF devra en premier réactualiser le dossier de demande de SUP, sur plusieurs points et en particulier :
+
+32l0l0	l__Inspection_des_Installations_Classées	O
+32l0l1	la_SOAF	O
+32l0l2	réactualiser_le_dossier	N
+32l1l0	la_SOAF	I
+
+#- mise à jour du parcellaire et de la liste des propriétaires, ainsi que des usages avérés des terrains (le secteur est partiellement en voie d'urbanisation diffuse),
+
+33l0l0	mise_à_jour	N
+33l0l1	usages_avérés	A
+33l0l2	des_terrains	O
+33l0l3	partiellement_en_voie_d__urbanisation_diffuse	L
+
+#- recensement des différentes servitudes grevant actuellement l'emprise foncière du site et de ses abords à d'autres titres que la pollution des sols (réseaux notamment),
+
+34l0l0	recensement	N
+34l0l1	des_différentes_servitudes	O
+
+#- identification et localisation des ouvrages de traitement et de surveillance à protéger et laisser libres d'accès,
+
+35l0l0	identification	N
+35l0l1	localisation_des_ouvrages_de_traitement	O
+
+#- réévaluation des risques sanitaires sur et hors site et de la nature et du périmètre des servitudes sur et hors site.
+
+36l0l0	réévaluation	N
+36l0l1	hors_site	O
+36l0l2	la_nature	O
+
+#La réévaluation des risques sanitaires résultant des sources de pollution encore présentes dans le sous-sol du site SOAF est nécessaire pour intégrer :
+
+37l0l0	La_réévaluation	N
+37l0l1	sources_de_pollution	O
+
+#- l'évolution au cours du temps des teneurs constatées sur les ouvrages de contrôle des eaux souterraines, y compris les effets liés à l'atténuation naturelle
+
+38l0l0	les_ouvrages_de	O
+38l0l1	contrôle_des_eaux_souterraines	A
+
+#- l'impact des perturbations récentes apportées au régime d'écoulement des eaux sous-jacentes, afin de statuer sur la nécessité ou non de revenir au régime précédent,
+
+39l0l0	la_nécessité	O
+
+#- les conséquences en matière d'usage des terrains et d'utilisation des eaux souterraines hors site dans le voisinage immédiat et proche.
+
+40l0l0	d__utilisation_des_eaux_souterraines_hors_site	A
+40l0l1	dans_le_voisinage_immédiat_et_proche	L
+
+#La réévaluation des risques sanitaires sur, et surtout hors site, devra comporter pour chaque scénario d'exposition, une évaluation quantitative (calcul des quotients de dangers et des excès de risques individuels, en intégrant la parution de nouvelles VTR au niveau français ces dernières années) des risques liés à chaque substance et voie d'exposition pertinente, un examen des incertitudes et l'exclusion des scénarios non retenus devra être argumentée.
+
+41l0l0	La_réévaluation	N
+41l0l1	ces_dernières_années	T
+41l0l2	l__exclusion	O
+
+#Ceci est déterminant pour fixer la nature exacte des restrictions d'usage, particulièrement hors site.
+
+42l0l0	fixer_la_nature_exacte	O
+
+#Parmi les variables de la réévaluation de chaque scénario, il conviendra de tenir compte, d'une part des résultats actuels de mesures d'eaux superficielles (aval traitement de la résurgence), d'eaux souterraines (piézomètres et puits sur et hors site) et d'émissions dans l'air (gaz du sol et air ambiant au droit des fosses), et d'autre part des scénarios d'exposition pertinents à ce jour au regard des usages avérés des sols et des eaux dans le pourtour proche du site.
+
+43l0l0	la_réévaluation	N
+43l0l1	aval	O
+43l0l2	traitement	N
+43l0l3	sols_et_des_eaux	A
+43l0l4	dans_le_pourtour_proche_du_site	L
+
+#Par ailleurs, la surveillance régulière doit être maintenue et ses résultats devront être régulièrement communiqués à l'Inspection des Installations Classées.
+
+44l0l0	la_surveillance_régulière	O
+44l0l1	doit	R

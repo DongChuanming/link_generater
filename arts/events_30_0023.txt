@@ -1,0 +1,281 @@
+
+#30.0023
+#Site du "hameau de la Papeterie" situé en bordure de la rivière Vis sur la commune de St Laurent le Minier.
+
+0l0l0	Site	O
+0l0l1	hameau	L
+0l0l2	de_la_Papeterie	O
+0l0l3	situé_en_bordure_de_la_rivière_Vis	L
+0l0l4	sur_la_commune_de_St_Laurent_le_Minier	L
+
+#Ce hameau compte une cinquantaine d'habitants résidant essentiellement en rive droite de la Vis, une exploitation piscicole, une exploitation agricole et une centrale hydrolélectrique.
+
+1l0l0	en_rive_droite_de_la_Vis	L
+1l0l1	une_exploitation_piscicole	O
+1l0l2	une_exploitation_agricole	O
+1l0l3	une_centrale_hydrolélectrique	O
+
+#Les habitations et jardins se situent sur le site d'anciennes installations de traitement de minerai de zinc et plomb.
+
+2l0l0	Les_habitations	O
+2l0l1	et_jardins	O
+2l0l2	se_situent_sur_le_site	L
+2l0l3	anciennes_installations_de	O
+2l0l4	traitement_de_minerai_de_zinc_et_plomb	A
+2l1l0	zinc	S
+2l1l1	plomb	S
+
+#L'activité de la dernière laverie en fonctionnement sur ce site a cessé en 1954.
+
+3l0l0	L__activité	N
+3l0l1	a_cessé	N
+3l0l2	en_1954	T
+
+#Par extension, d'autres zones de la commune et plus particulièrement celles habitées ont fait l'objet d'investigations.
+
+4l0l0	d__autres_zones	O
+4l0l1	de_la_commune	O
+4l0l2	particulièrement_celles_habitées	A
+4l0l3	ont_fait_l__objet_d_	R
+4l0l4	investigations	N
+
+#Début 2004, sur un terrain du lieu dit la papeterie, un propriétaire a fait faire des prélèvements qui révèlent des concentrations en arsenic variant de 73,4 à 910 mg/kg.
+
+5l0l0	Début_2004__	T
+5l0l1	sur	L
+5l0l2	un_terrain	O
+5l0l3	du_lieu_dit_la_papeterie	L
+5l0l4	un_propriétaire	O
+5l0l5	a_fait_faire_des_prélèvements	N
+5l0l6	arsenic	O
+5l1l0	arsenic	S
+
+#La mairie mandate alors "Burgeap" pour réaliser une Evaluation Simplifiée des Risques.
+
+6l0l0	La_mairie	O
+6l0l1	mandate	N
+6l0l2	__Burgeap	O
+6l0l3	réaliser_une_Evaluation_Simplifiée_des_Risques	N
+6l1l0	__Burgeap	I
+
+#Le rapport indique non seulement la présence d'Arsenic mais également de Cadmium, de plomb et de zinc à des teneurs significatives.
+
+7l0l0	d__Arsenic	O
+7l1l0	Arsenic	S
+7l1l1	Cadmium	S
+7l1l2	plomb	S
+7l1l3	zinc	S
+
+#Ce rapport, parvenu à la DRIRE en septembre 2004, mentionne l'existence d'anciennes activités de traitement de minerais métalliques à "la papeterie" et désigne Metaleurop SA comme dernier exploitant minier ayant eu une telle activité dans cette zone, maintenant habitée.
+
+8l0l0	la_DRIRE	O
+8l0l1	en_septembre_2004__	T
+8l0l2	mentionne	R
+8l0l3	l__existence	O
+8l0l4	anciennes_activités_de_traitement_de_minerais_métalliques	A
+8l0l5	à	R
+8l0l6	__la_papeterie__	O
+8l0l7	Metaleurop_SA	O
+8l0l8	exploitant_minier	O
+8l0l9	ayant_eu_une_telle_activité	N
+8l0l10	dans_cette_zone	L
+8l0l11	maintenant_habitée	A
+8l1l0	la_DRIRE	I
+8l1l1	Metaleurop_SA	I
+
+#La laverie de minerai à la papeterie aurait cessé en 1953.
+
+9l0l0	La_laverie_de_minerai	A
+9l0l1	papeterie	O
+9l0l2	aurait_cessé	N
+9l0l3	en_1953	T
+
+#Suite à la proposition de la DRIRE, M. le Préfet du Gard a, par lettre du 27 janvier 2005, sollicité l'intervention du Ministère de l'Ecologie et du Développement Durable afin de pouvoir réaliser des analyses complémentaires indispensables pour prendre les décisions adéquates.
+
+10l0l0	Suite_à	R
+10l0l1	la_DRIRE	O
+10l0l2	M__le_Préfet_du_Gard	O
+10l0l3	27_janvier_2005__	T
+10l0l4	du_Ministère_de_l__Ecologie	O
+10l1l0	la_DRIRE	I
+10l1l1	le_Préfet_du_Gard	I
+10l1l2	Ministère_de_l__Ecologie_et_du_Développement_Durable	I
+
+#L'INERIS a été missionné à cet effet.
+
+11l0l0	L__INERIS	O
+11l0l1	a_été_missionné	N
+11l0l2	à_cet_effet	N
+
+#Des analyses sur végétaux ont par ailleurs été diligentées par la DDCCRF, et révèlent des teneurs importantes en métaux (taux de Pb et Cd mesurés jusqu'à plus de 10 fois la norme admise) dans les légumes cultivés, sur le hameau de la papeterie mais aussi sur des terrains au bord de la Crenze, donc en amont.
+
+12l0l0	Des_analyses	N
+12l0l1	ont_par_ailleurs_été_diligentées	N
+12l0l2	la_DDCCRF	O
+12l0l3	des_teneurs	O
+12l0l4	cultivés	A
+12l0l5	sur_le_hameau_de_la_papeterie	O
+12l0l6	des_terrains	O
+12l0l7	au_bord_de_la_Crenze	L
+12l0l8	__donc_en_amont	L
+12l1l0	la_DDCCRF	I
+12l1l1	métaux	S
+12l1l2	Pb	S
+12l1l3	Cd	S
+
+#Les résultats ont été communiqués le 10 février 2005 lors d'une réunion publique à la mairie de St-Laurent-le-Minier.
+
+13l0l0	ont_été_communiqués	N
+13l0l1	le_10_février_2005	T
+13l0l2	lors_d_	R
+13l0l3	une_réunion_publique	N
+13l0l4	à_la_mairie_de_St___Laurent___le___Minier	L
+
+#Il y est indiqué aux habitants des principes de précaution à adopter dans leur comportement pour protéger leur santé et il leur est annoncé que des investigations complémentaires vont avoir lieu.
+
+14l0l0	il	O
+14l0l1	est_annoncé_que_des_investigations_complémentaires	O
+14l0l2	vont_avoir_lieu	N
+
+#Un arrêté municipal est pris le 3 mars et interdit, notamment, l'usage alimentaire des eaux d'ouvrages privés, la consommation de fruits et légumes; il incite également à des précautions d'hygiène renforcées.
+
+15l0l0	Un_arrêté_municipal	O
+15l0l1	est_pris	N
+15l0l2	le_3_mars	T
+15l0l3	interdit	R
+15l0l4	l__usage_alimentaire_des_eaux_d__ouvrages_privés	A
+15l0l5	la_consommation_de_fruits_et_légumes	A
+
+#Suite au rapport INERIS transmis en juin 2005 et au résultat de la campagne de dépistage de saturnisme pilotée par la DDASS, la DRIRE a demandé au dernier exploitant de mettre rapidement en sécurité les habitations du hameau.
+
+16l0l0	Suite_au	R
+16l0l1	rapport_INERIS	O
+16l0l2	transmis	N
+16l0l3	en_juin_2005	T
+16l0l4	la_campagne_de_dépistage_de_saturnisme_pilotée_par	R
+16l0l5	la_DDASS	O
+16l0l6	la_DRIRE	O
+16l0l7	a_demandé	N
+16l0l8	dernier_exploitant	O
+16l0l9	mettre_rapidement_en_sécurité	N
+16l0l10	les_habitations	O
+16l1l0	la_DDASS	I
+16l1l1	la_DRIRE	I
+
+#Des travaux de décapage des terres polluées (50 cm) et remplacement par de la terre propre ont été réalisés en janvier et février 2006 dans les jardins du hameau, en rive droite de la Vis.
+
+17l0l0	Des_travaux_de_décapage	N
+17l0l1	des_terres_polluées	O
+17l0l2	remplacement_par_de_la_terre_propre	O
+17l0l3	ont_été_réalisés	N
+17l0l4	en_janvier_et_février_2006	T
+17l0l5	dans_les_jardins_du_hameau	L
+17l0l6	en_rive_droite_de_la_Vis	L
+
+#L'exploitant a également fourni, en mars 2007, une étude sur l'impact des activités minières et connexes, via la Crenze, sur la commune de Saint Laurent le Minier.
+
+18l0l0	L__exploitant	O
+18l0l1	a_également_fourni	N
+18l0l2	en_mars_2007__	T
+18l0l3	une_étude	N
+18l0l4	l__impact	N
+18l0l5	activités_minières	N
+18l0l6	via_la_Crenze	L
+18l0l7	sur_la_commune_de_Saint_Laurent_le_Minier	L
+
+#Pour complément d'information, la DRIRE a fait réaliser par l'expert GEODERIS, courant 2007, une campagne de mesures de teneurs en différents polluants à la surface des sols en de nombreux points.
+
+19l0l0	la_DRIRE	O
+19l0l1	a_fait_réaliser	N
+19l0l2	par_l__expert_GEODERIS	O
+19l0l3	courant_2007__	T
+19l0l4	une_campagne_de_mesures	N
+19l0l5	teneurs	O
+19l1l0	la_DRIRE	I
+19l1l1	GEODERIS	I
+19l1l2	polluants	U
+
+#Les résultats de ces investigations ont été communiqués à Recylex (ex Metaleurop) afin que le bureau d'études qu'il a mandaté puisse les prendre en compte dans le cadre de sa mission.
+
+20l0l0	Les_résultats	O
+20l0l1	ces_investigations_ont_été_communiqués	N
+20l0l2	Recylex	O
+20l0l3	Metaleurop	O
+20l0l4	le_bureau_d__études	O
+20l1l0	Recylex	I
+20l1l1	Metaleurop	I
+
+#L'ensemble des actions ainsi engagées sur la commune ont, d'une part, permis de mettre les habitations du hameau de la papeterie en sécurité mais ont, d'autre part, montré que les données scientifiques actuelles étaient insuffisantes pour évaluer correctement les risques sanitaires et proposer aux populations des mesures de gestion adaptées.
+
+21l0l0	la_commune	O
+21l0l1	les_habitations	O
+21l0l2	la_papeterie	O
+21l0l3	ont___d_	N
+
+#Aussi le pilotage d'un programme de recherche sur les effets de la présence des polluants identifiés dans les sols en matière de santé humaine a été confié à l'INERIS par les ministères chargés de l'Ecologie et de la Santé.
+
+22l0l0	le_pilotage_d_	R
+22l0l1	un_programme	O
+22l0l2	a_été_confié	N
+22l0l3	l__INERIS	O
+22l0l4	les_ministères_chargés_de_l__Ecologie	O
+22l1l0	des_polluants	U
+22l1l1	les_ministères_chargés_de_l__Ecologie	I
+
+#es travaux ont commencé en 2008 et le comité de pilotage se réunit aux points d'étapes utiles sous la présidence du sous préfet du Vigan.
+
+23l0l0	es_travaux	O
+23l0l1	ont_commencé	N
+23l0l2	en_2008	T
+23l0l3	le_comité_de_pilotage	O
+23l0l4	se_réunit	N
+23l0l5	présidence_du_sous_préfet	O
+23l0l6	du_Vigan	L
+23l1l0	du_sous_préfet_du_Vigan	I
+
+#Les conclusions des travaux de recherche menés par l'INERIS ont été présentés début 2010.
+
+24l0l0	Les_conclusions	O
+24l0l1	l__INERIS	O
+24l0l2	ont_été_présentés	N
+24l0l3	début_2010__	T
+
+#La probabilité d'envol de poussières à partir de sources de contamination non traitées situées en partie sur les berges de la Vis est avancée.
+
+25l0l0	partir_de_sources_de_contamination	O
+25l0l1	sur_les_berges_de_la_Vis	L
+
+#Les concentrations de métaux mesurées dans les poussières des habitations restent à des niveaux élevés, donc préoccupants.
+
+26l0l0	métaux_mesurées	N
+26l1l0	métaux	S
+
+#Le Ministère en charge de l'écologie a été sollicité en vue d'une intervention de l'ADEME afin de conduire le projet de mise en sécurité du site.
+
+27l0l0	Le_Ministère_en_charge_de_l__écologie	O
+27l0l1	a_été_sollicité	N
+27l0l2	en_vue_d_	R
+27l0l3	une_intervention	N
+27l0l4	l__ADEME	O
+27l0l5	conduire_le_projet_de_mise_en_sécurité	N
+
+#Par courrier du 15 décembre 2010, le Ministre d'Etat a confirmé au Préfet du Gard qu'une intervention de l'ADEME était justifiée.
+
+28l0l0	du_15_décembre_2010__	T
+28l0l1	le_Ministre_d__Etat	O
+28l0l2	a_confirmé	N
+28l0l3	Préfet_du_Gard	O
+28l0l4	une_intervention	O
+28l0l5	l__ADEME	O
+28l1l0	le_Ministre_d__Etat	I
+28l1l1	l__ADEME	I
+
+#Situation au 15/02/2011 : L'arrêté préfectoral de travaux d'office permettant l'intervention de l'ADEME sur le site va être présenté au CODERST du Gard et signé prochainement.
+
+29l0l0	au_15_02_2011	T
+29l0l1	L__arrêté_préfectoral_de_travaux_d__office	O
+29l0l2	permettant_l__intervention	N
+29l0l3	l__ADEME	O
+29l0l4	le_site	O
+29l0l5	CODERST_du_Gard	O
+29l1l0	CODERST_du_Gard	I

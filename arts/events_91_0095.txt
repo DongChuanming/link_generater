@@ -1,0 +1,303 @@
+
+#91.0095
+#La société AFACIM s'est installée en 1976 sur une zone industrielle de Longjumeau.
+
+
+#Elle fabriquait des circuits imprimés simple face, double face et multicouches.
+
+1l0l0	Elle_fabriquait	O
+1l0l1	des_circuits_imprimés	N
+1l0l2	simple_face___double_face_et_multicouches__	L
+1l1l0	Elle_fabriquait_des	I
+
+#La situation administrative de l'entreprise  a été régularisée en 1984 avec le dépot d'une demande d'autorisation.
+
+2l0l0	La_situation_administrative	A
+
+#La société AFACIM a été autorisée à exploiter par arrêté préfectoral n° 84 4766 en date du 27 novembre 1984 les activités suivantes :
+
+3l0l0	La_société_AFACIM_a_été_autorisée	O
+3l0l1	à_exploiter_par	O
+3l0l2	arrêté_préfectoral	N
+3l0l3	n_	T
+3l0l4	4766_en_date	N
+3l0l5	du_27_novembre_1984_les_activités	N
+
+#- atelier de traitement électrolytique et chimique des métaux, classé sous la rubrique n° 288 1 (A) ;
+
+4l0l0	__atelier_de_traitement	O
+4l0l1	électrolytique_et_chimique	N
+4l0l2	des_métaux___classé	O
+4l0l3	rubrique_n__288_1___A____	T
+4l1l0	__atelier_de_traitement	I
+
+#- atelier où l’on emploie des liquides halogénés, classé sous la rubrique n° 251 2° (D) ;
+
+5l0l0	atelier_où_l__on_emploie_des_liquides_halogénés___classé_sous_la	A
+
+#- emploi de matières plastiques ou résines synthétiques, classé sous la rubrique n° 272 b (D).
+
+6l0l0	matières_plastiques_ou_résines_synthétiques	A
+6l1l0	plastiques_ou_résines_synthétiques	U
+
+#Par courrier du 25 avril 1986, la société AFACIM déclarait par ailleurs posséder deux transformateurs contenant plus de 30 litres de  PCB.
+
+
+#Les transformateurs contenaient respectivement 700 kg et 315 kg de pyralène.
+
+8l0l0	transformateurs_contenaient	T
+8l0l1	respectivement	O
+8l0l2	700_kg_et	N
+8l0l3	pyralène__	N
+8l1l0	contenaient_respectivement	I
+
+#Par récépissé de déclaration de changement d’exploitant en date du 21 janvier 2002, l’autorisation est transférée à la société SODEREP-ECANS ELECTRONIQUE dont le siège social est situé à Bel-Air, 03410 SAINT-VICTOR.
+
+9l0l0	21_janvier	O
+9l1l0	21_janvier	S
+
+#La société a été mise en redressement judiciaire par jugement du 10 octobre 2002.
+
+10l0l0	La_société_a_été	O
+10l0l1	mise_en_redressement	N
+10l0l2	judiciaire_par_jugement	N
+10l0l3	du_10_octobre_2002__	T
+
+#e site est à l'abandon depuis cette date.
+
+11l0l0	e_site_est_à	O
+11l0l1	l__abandon_depuis_cette_date__	N
+
+#Par jugement en date du 25 février  2003 le tribunal de Commerce de MONTLUCON arrête le plan de redressement par cession et désigne maître Vincent GLADEL en qualité de Commissaire à l’exécution du plan.
+
+12l0l0	Par_jugement	O
+12l0l1	du_25_février___2003	T
+
+#Le site est aujourd'hui situé dans une zone industrielle mais à proximité immédiate d'habitations.
+
+13l0l0	aujourd_hui_situé_dans_une	T
+13l0l1	zone_industrielle_mais	O
+13l0l2	proximité	O
+13l0l3	immédiate_d__habitations__	N
+13l1l0	zone_industrielle_mais_à_proximité_immédiate	I
+
+#En particulier, un ancien bâtiment industriel, contigü au site a été transformé en habitations.
+
+14l0l0	En_particulier	O
+14l0l1	__un_ancien	N
+14l0l2	bâtiment_industriel___contigü_au_site_a_été_transformé_en_habitations__	L
+
+#Suite à une plainte d'un riverain et à une inspection de l'inspection des installations classées réalisée le 20 juillet 2006, le préfet a prescrit par arrêté préfectoral d’urgence n°2006.
+
+15l0l0	plainte_d__un_riverain_et_à_une_inspection	O
+15l0l1	de_l__inspection	L
+15l0l2	des_installations	N
+15l0l3	classées	O
+
+#REF.
+
+16l0l0	REF__	R
+
+#CI/BE 0153 du 16 août 2006, les mesures d’urgence suivantes à maître GLADEL, 8, rue Beaumarchais, 63038 CLERMONT-FERRAND, administrateur judiciaire de la société  SODEREP ECANS, dès la notification de l’arrêté :
+
+
+#- sous un délai de 48 heures de mettre le site en sécurité et notamment en interdire efficacement l’accès par tout moyen (gardiennage, murs…) ;
+
+18l0l0	délai_de_48_heures	T
+18l0l1	de_mettre_le_site_en_sécurité	O
+18l0l2	interdire_efficacement_l_	L
+18l0l3	accès_par_tout_moyen__	L
+18l0l4	gardiennage___murs______	N
+18l1l0	en_interdire	I
+
+#- sous trois jours d’éliminer les produits ou déchets non contenus dans des bidons étanches et fermés, ou abandonnés à même le sol qui peuvent être à l’origine d’une pollution, s’assurer de la mise en sécurité des transformateurs ;
+
+19l0l0	sous_trois_jours_d__éliminer	T
+
+#- sous un mois, d’éliminer du site, via une filière d’élimination agréée, tous les produits chimiques et leurs emballages ainsi que les transformateurs, ou déchets dangereux et leur élimination dans une filière agréée.
+
+20l0l0	sous_un_mois___d_	T
+20l0l1	éliminer_du_site	N
+20l0l2	dangereux_et	R
+20l0l3	filière_agréée__	N
+20l1l0	site___via_une_filière_d__élimination	U
+
+#Suite à un nouveau signalement en septembre 2006, il apparait qu’aucune des mesures d’urgence prescrites sous un délai de 48 heures et trois jours n’ont été prises.
+
+21l0l0	Suite_à_un_nouveau	T
+21l0l1	signalement	N
+21l0l2	en	O
+21l1l0	mesures_d__urgence_prescrites	U
+
+#On constate  que :
+
+22l0l0	On_constate	R
+22l0l1	__que__	N
+
+#- le site est accessible  à partir de deux rues situées de part et d’autre du bâtiment : l’allée d’Effiat, et la ruelle Mancelle ; les portes donnant sur la ruelle Mancelle sont ouvertes permettant à quiconque de pénétrer dans l’établissement : aucune mise en sécurité, même sommaire du site n’a été réalisée ;
+
+
+#- à l’intérieur du site les produits toxiques, inflammables et corrosifs sont toujours présents ;
+
+24l0l0	à_l__intérieur	O
+24l0l1	du_site_les	N
+24l0l2	produits	R
+24l0l3	toxiques	O
+24l0l4	__inflammables	L
+24l0l5	présents__	L
+
+#- deux bacs de rétentions sont toujours remplis de liquides colorés, brun dans l’un vert dans l’autre, caractéristique à priori de sels de cuivre en solution ;
+
+25l1l0	rétentions_sont_toujours_remplis_de_liquides	U
+
+#- un des transformateurs contenant des PCB a été depuis la dernière inspection renversé ;
+
+26l1l0	depuis_la_dernière_inspection	U
+
+#- le local où sont installés les transformateurs donne sur l’allée d’Effiat  et du produit (PCB issus du transformateur vandalisé) s’est répandu sur l’allée d’Effiat ;
+
+27l0l0	transformateurs_donne_sur_l__allée_d__Effiat___et	N
+27l0l1	du_produit	O
+27l1l0	transformateurs	S
+
+#- une pièce du transformateur enduite de produit (PCB) est présente sur la voie publique ;
+
+28l0l0	une_pièce	O
+28l0l1	transformateur_enduite_de_produit	O
+28l0l2	__PCB___est	R
+28l0l3	présente	L
+28l0l4	sur_la_voie	O
+
+#Le bâtiment exploité par la société SODEREP ECANS est contigu à un ancien bâtiment industriel réaménagé en une copropriété à usage d’habitation.
+
+29l1l0	SODEREP_ECANS_est	U
+
+#Les cuves de rétention ou stagnent des produits de couleur brune et verte et le local où sont installés les transformateurs sont contiguës aux habitations.
+
+30l0l0	Les_cuves_de	O
+30l0l1	rétention	N
+30l0l2	stagnent_des_produits_de	O
+30l0l3	couleur_brune_et_verte_et_le_local_où_sont	L
+30l0l4	installés_les_transformateurs	O
+30l0l5	sont_contiguës_aux_habitations	A
+30l1l0	stagnent_des_produits_de	I
+
+#Des taches d’infiltration de couleur bleue apparaissent sur un des murs intérieurs d’une habitation contiguë à SODEREP ECANS.
+
+31l0l0	intérieurs	O
+31l0l1	d_	R
+31l0l2	une_habitation_contiguë_à_SODEREP_ECANS	O
+31l1l0	couleur_bleue_apparaissent	U
+
+#Compte tenu de cette situation, un signalement a été fait au service départemental d’incendie et de sécurité.
+
+32l0l0	signalement	A
+32l0l1	a_été_fait_au	N
+32l0l2	service_départemental_d_	O
+32l0l3	incendie_et_de_sécurité__	L
+
+#Une intervention a été diligentée le 7 septembre vers 17h par les pompiers: deux échelons du risque chimique, un chef de colonne, un PC de commandement, 20 sapeurs pompiers ont été déployés sur place.
+
+33l0l0	septembre_vers_17h	N
+
+#Les habitants situés à proximité ont été confinés le temps des investigations mais il n'a pas été mis en évidence de dégagements gazeux à proximité des habitations.
+
+34l0l0	Les_habitants_situés_à_proximité	N
+34l0l1	ont_été_confinés_le_temps	T
+34l0l2	des_investigations_mais_il_n_	O
+34l0l3	évidence	O
+34l0l4	gazeux_à_proximité_des	O
+34l0l5	habitations__	O
+
+#La mairie de LONGJUMEAU, et EDF sont également intervenus sur place, ce qui a permis :
+
+35l0l0	La_mairie_de	O
+35l0l1	LONGJUMEAU___et_EDF_sont	O
+35l0l2	également	N
+35l0l3	intervenus	T
+35l0l4	sur_place___ce_qui_a_permis	N
+
+#- de limiter l’accès au site : un arrêté municipal interdisant l’accès au site par l’allée d’Effiat a été pris et des barrières installées ;
+
+36l0l0	__de_limiter_l__accès_au_site	O
+36l0l1	__un	O
+36l0l2	arrêté_municipal_interdisant	N
+36l1l0	__un	I
+
+#- de fermer l’accès par la ruelle Mancelle (les ouvertures ont été recouvertes de planches de bois) ;
+
+37l0l0	ruelle_Mancelle___les	O
+37l0l1	ouvertures_ont_été_recouvertes	N
+37l0l2	de_bois__	O
+37l0l3	_	N
+
+#- de couper le courant à l’intérieur du local des transformateurs, celui-ci étant toujours sous tension.
+
+38l0l0	de_couper_le_courant	N
+38l0l1	l__intérieur_du_local	L
+38l0l2	des_transformateurs	O
+38l0l3	__celui_ci_étant	N
+
+#Les travaux de mise en sécurité ont été effectués en novembre 2006.
+
+39l0l0	Les_travaux	N
+39l0l1	de_mise_en	O
+39l0l2	sécurité_ont_été_effectués_en_novembre_2006	O
+
+#Par courrier du 20 septembre 2006, le préfet a sollicité l'autorisation du ministère de l'écologie et du développement durable pour charger l'Ademe de la mise en sécurité du site.
+
+40l0l0	Par_courrier_du_20_septembre_2006	N
+40l0l1	__le_préfet_a	N
+40l0l2	sollicité_l__autorisation_du_ministère_de_l__écologie_et_du_développement_durable_pour_charger_l__Ademe_de_la_mise_en_sécurité_du_site__	T
+
+#Suite à l'autorisation reçue le 21 septembre 2006, un arrêté préfectoral du 10 octobre 2006 a porté exécution d'office de travaux en urgence par l'Ademe :
+
+41l0l0	autorisation_reçue_le_21	T
+41l0l1	septembre	O
+41l0l2	2006___un	N
+41l0l3	arrêté_préfectoral_du_10_octobre_2006_a_porté_exécution	O
+41l0l4	urgence	N
+41l0l5	par_l__Ademe	O
+41l0l6	_	N
+41l1l0	septembre	I
+
+#- évacuation et traitement des déchets et transformateurs
+
+42l0l0	__évacuation_et_traitement	O
+42l0l1	des	N
+42l0l2	déchets_et_transformateurs	T
+
+#- décapage des terres polluées : intervention, transport des terres en centre de traitement, traitement des déchets, mise en place d'un enrobé ;
+
+43l0l0	décapage_des_terres_polluées	N
+
+#- curage des réseaux.
+
+44l0l0	curage_des	N
+44l0l1	réseaux__	O
+
+#Entre le 31 octobre et le 11 décembre 2006, l'ADEME a procédé à l'enlèvement des déchets (17 t) et des transformateurs aux PCB (>1 t), le décapage des terres (20 t) et le curage des réseaux.
+
+45l0l0	Entre_le	N
+45l0l1	31_octobre_et	O
+
+#En juin 2008, la police municipale a découvert la présence de fûts qui avaient été dissimulés (il était impossible à l'ADEME de les découvrir à l'époque de leur première intervention).
+
+46l0l0	En_juin_2008___la_police_municipale_a_découvert	T
+46l0l1	la	O
+46l0l2	présence_de	N
+46l0l3	fûts_qui_avaient	N
+46l0l4	il_était_impossible_à	O
+46l0l5	l_	O
+46l0l6	découvrir_à_l_	N
+46l0l7	époque_de	O
+46l0l8	première_intervention__	N
+46l1l0	ADEME	S
+
+#La DRIRE s'est rendue sur place et s'est chargée de les faire prendre en charge par un éliminateur agréé [8 fûts (220 kg) ont ainsi été éliminés].
+
+47l0l0	La_DRIRE_s__est	T
+47l0l1	rendue_sur_place_et_s_	O
+47l0l2	est_chargée	N
+47l0l3	de_les_faire	O
+47l0l4	en_charge_par_un_éliminateur	N

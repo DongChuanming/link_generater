@@ -1,0 +1,272 @@
+
+#71.0030
+#Le site était constitué d'une surface de supermarché et d'une station service afférente.
+
+0l0l0	Le_site	O
+0l0l1	une_station_service_afférente	O
+
+#La station service a arrêté de fonctionner depuis le 1er semestre 2001 afin de réaliser des travaux de déplacement.
+
+1l0l0	La_station_service	O
+1l0l1	a_arrêté_de_fonctionner	N
+1l0l2	depuis_le_1er_semestre_2001	T
+1l0l3	afin	R
+1l0l4	de_réaliser_des_travaux_de_déplacement	N
+
+#Elle était constituée de 3 pompes (gasoil, super, super sans plomb) et d'une cuve enterrée de 60 m³.
+
+2l1l0	3_pompes	D
+2l1l1	super_sans_plomb	U
+2l1l2	une_cuve	D
+
+#Le contexte hydrogéologique du site est caractérisé par un aquifère peu profond (0,8 à 1,5 m sous la surface du sol) s'écoulant vers le Nord-Ouest au sein de terrains peu perméables.
+
+3l0l0	Le_contexte_hydrogéologique	N
+3l0l1	vers	T
+3l0l2	le_Nord_Ouest	L
+
+#► DIAGNOSTIC ENVIRONNEMENTAL
+
+4l0l0	DIAGNOSTIC_ENVIRONNEMENTAL	N
+4l1l0	ENVIRONNEMENTAL	I
+
+#Des odeurs d'hydrocarbures dans des habitations de riverains ont été perçues au 1er semestre 2001.
+
+5l0l0	Des_odeurs_d__hydrocarbures	O
+5l0l1	des_habitations	O
+5l0l2	de_riverains	O
+5l0l3	ont_été_perçues	N
+5l0l4	au_1er_semestre_2001	T
+5l1l0	hydrocarbures	S
+
+#Après quelques investigations rapides, une pollution des sols au niveau de la station service était constatée.
+
+6l0l0	une_pollution_des_sols	O
+
+#Des avaries ont alors été observées au niveau d'une cuve enterrée, ayant conduit à des déversements dans le sol de carburants.
+
+7l0l0	une_cuve_enterrée	O
+7l0l1	ayant_conduit_à	R
+7l0l2	des_déversements	N
+7l0l3	sol_de_carburants	O
+7l1l0	cuve_enterrée	D
+7l1l1	carburants	U
+
+#31 juillet 2001 : par arrêté préfectoral, il est prescrit à la société ARDIS de réaliser une étude de nature à préciser :
+
+8l0l0	31_juillet_2001	T
+8l0l1	par_arrêté_préfectoral	O
+8l0l2	est_prescrit	N
+8l0l3	la_société_ARDIS	O
+8l0l4	de_réaliser	N
+8l0l5	une_étude_de	N
+8l1l0	la_société_ARDIS	I
+
+#- le contexte géologique ;
+
+
+#- le contexte hydrogéologique ;
+
+
+#- l'état de la contamination du site à savoir la localisation précise de la pollution, la quantité et la nature de cette pollution ;
+
+11l0l0	la_localisation_précise_de_la_pollution	O
+
+#- l'impact de la pollution sur l'environnement ;
+
+
+#- les risques (ESR : Étude Simplifiée des Risques).
+
+
+#D’août 2001 à octobre 2001, des études sont réalisées et des mesures d'urgences prises par la société ARDIS :
+
+14l0l0	D__août_2001_à_octobre_2001__	T
+14l0l1	des_études_sont_réalisées	N
+14l0l2	des_mesures_d_	O
+14l0l3	la_société_ARDIS	O
+14l1l0	la_société_ARDIS	I
+
+#- 13 sondages de reconnaissance des sols ;
+
+15l0l0	13_sondages_de_reconnaissance	N
+
+#- 32 prélèvements d'échantillons de sols pour analyse ;
+
+
+#- 11 créations piézométriques ;
+
+
+#- une cartographie du produit flottant au toit de la nappe ;
+
+
+#- des prélèvements des eaux souterraines.
+
+
+#Les résultats ont indiqué une pollution avérée en hydrocarbures et en BTEX (benzène, toluène, éthylbenzène et xylènes) touchant les sols et les eaux souterraines.
+
+20l0l0	une_pollution	N
+20l1l0	hydrocarbures	S
+20l1l1	BTEX	S
+20l1l2	benzène	S
+20l1l3	toluène	S
+20l1l4	éthylbenzène	S
+20l1l5	xylènes	S
+
+#► TRAVAUX DE DÉPOLLUTION
+
+21l0l0	TRAVAUX_DE_DÉPOLLUTION	N
+21l1l0	DÉPOLLUTION	I
+
+#15 avril 2003 : par arrêté préfectoral, la société ARDIS est tenue de réaliser et respecter les exigences suivantes :
+
+22l0l0	15_avril_2003	T
+22l0l1	la_société_ARDIS	O
+22l0l2	est_tenue_de_réaliser	N
+22l1l0	la_société_ARDIS	I
+
+#- excavations des terres souillées et des zones principales de flottants ;
+
+23l0l0	excavations	N
+23l0l1	terres_souillées	O
+23l1l0	flottants	U
+
+#- démantèlement des installations de l'ancienne station service ;
+
+24l0l0	démantèlement_des_installations	N
+24l0l1	l__ancienne_station_service	O
+
+#- extraction des vapeurs d'hydrocarbures sur certains réseaux d'eaux de la commune de Saint Germain du Bois ;
+
+25l0l0	extraction	N
+25l0l1	d__hydrocarbures	O
+25l0l2	la_commune_de_Saint_Germain_du_Bois	L
+25l1l0	vapeurs_d__hydrocarbures	U
+
+#- mise en place de surveillance mensuelle de la qualité des eaux souterraines ;
+
+26l0l0	mise_en_place_de	N
+26l0l1	surveillance_mensuelle	A
+26l0l2	la_qualité_des_eaux_souterraines	O
+
+#- évaluation de l'impact, après dépollution.
+
+27l0l0	l__impact	O
+27l0l1	dépollution	N
+
+#En 2003 et 2004, les travaux de dépollution se sont déroulés en 3 phases :
+
+28l0l0	En_2003_et_2004__	T
+28l0l1	les_travaux_de_dépollution	N
+28l0l2	se_sont_déroulés	N
+28l0l3	3_phases	O
+
+#- l'excavation, le transport et le traitement des terres polluées et de la lentille de pollution ;
+
+29l0l0	l__excavation	N
+29l0l1	le_transport	N
+29l0l2	le	N
+29l0l3	traitement_des_terres_polluées	O
+29l0l4	la_lentille_de_pollution	O
+29l1l0	la_lentille_de_pollution	U
+
+#- l'extraction sous-vide ("venting") des vapeurs d'hydrocarbures diffusant dans les réseaux d'eau ;
+
+30l0l0	extraction_sous_vide	O
+30l1l0	vapeurs_d__hydrocarbures	U
+
+#- la réalisation d'une barrière hydraulique active.
+
+31l0l0	la_réalisation_d_	R
+31l0l1	une_barrière_hydraulique_active	O
+
+#Le rapport de fin de travaux et de réhabilitation a été envoyé le 16 juin 2005 à l'inspection des installations classées.
+
+32l0l0	Le_rapport_de_fin_de_travaux_et_de_réhabilitation	O
+32l0l1	a_été_envoyé	N
+32l0l2	le_16_juin_2005	T
+32l0l3	l__inspection_des_installations_classées	O
+
+#Aucun PV de récolement n'a été établi.
+
+33l0l0	a_été_établi	N
+
+#► SUIVI, PERSPECTIVES
+
+
+#La surveillance de la qualité des eaux souterraines avait commencé en 2001, suite au constat de pollution.
+
+35l0l0	La_surveillance_de	A
+35l0l1	la_qualité_des_eaux_souterraines	A
+35l0l2	avait_commencé	N
+35l0l3	en_2001__	T
+35l0l4	suite_au	R
+35l0l5	constat_de_pollution	N
+
+#L'arrêté du 15 avril 2003 avait prescrit à la société ARDIS le suivi de la dépollution des eaux souterraines, lequel devait être effecuté de façon trimestrielle voire mensuelle selon les zones.
+
+36l0l0	L_	O
+36l0l1	15_avril_2003	T
+36l0l2	avait_prescrit	N
+36l0l3	la_société_ARDIS	O
+36l0l4	le_suivi	N
+36l0l5	la_dépollution	N
+36l0l6	des_eaux_souterraines	A
+36l0l7	effecuté	N
+36l1l0	la_société_ARDIS	I
+
+#Cet arrêté prévoyait d'autre part que les résultats de suivi de la nappe soient fournis dans le dossier de fin de travaux.
+
+37l0l0	les_résultats_de_suivi_de_la_nappe	O
+37l0l1	fin_de_travaux	N
+
+#Par conséquent, il n'était pas prévu de suivi de la qualité des eaux souterraines après la fin des travaux.
+
+38l0l0	il_n__était_pas_prévu	O
+38l0l1	de_suivi_de	A
+38l0l2	la_qualité_des_eaux_souterraines_après	O
+38l0l3	la_fin_des_travaux	N
+
+#Après les travaux de dépollution en 2004, la qualité des eaux souterraines s'est améliorée, avec disparition du flottant.
+
+39l0l0	Après	R
+39l0l1	les_travaux_de_dépollution	N
+39l0l2	en_2004__	T
+39l0l3	la_qualité_des_eaux_souterraines	O
+39l0l4	s__est_améliorée	N
+
+#Néanmoins les teneurs en hydrocarbures, en BTEX et en MTBE représentaient encore un impact significatif.
+
+40l1l0	hydrocarbures	S
+40l1l1	BTEX	S
+40l1l2	MTBE	S
+
+#Une enquête de voisinage et un rapport concernant l'évaluation des risques résiduels ont été transmis aux services de l'État en février 2006.
+
+41l0l0	Une_enquête_de_voisinage	O
+41l0l1	évaluation_des_risques_résiduels	O
+41l0l2	ont_été_transmis	N
+41l0l3	en_février_2006__	T
+
+#Ce dernier document a conclu à la persistance d'un risque pour l'usage résidentiel en aval hydrologique du site : il recommande la mise en place de servitudes limitées dans le temps, destinées à éviter l'ingestion directe ou indirecte des eaux souterraines.
+
+42l0l0	l__usage_résidentiel	A
+42l0l1	en_aval_hydrologique_du_site	L
+42l0l2	en_place_de_servitudes_limitées	N
+42l0l3	le_temps	O
+42l0l4	l__ingestion_directe_ou_indirecte_des_eaux_souterraines	A
+
+#Le dernier bilan de la surveillance des eaux souterraines a été communiqué en 2006.
+
+43l0l0	Le_dernier_bilan	O
+43l0l1	surveillance_des_eaux_souterraines	A
+43l0l2	a_été_communiqué	N
+43l0l3	en_2006__	T
+
+#Il était alors constaté que la qualité des eaux souterraines restait stable, avec toujours des impacts en hydrocarbures totaux, BTEX et MTBE (méthyltertiobutyléther).
+
+44l0l0	la_qualité_des_eaux_souterraines	O
+44l0l1	des_impacts	O
+44l1l0	hydrocarbures_totaux	S
+44l1l1	BTEX	S
+44l1l2	MTBE	S
+44l1l3	méthyltertiobutyléther	S

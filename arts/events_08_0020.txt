@@ -1,0 +1,105 @@
+
+#08.0020
+#La société SMBI, filiale du groupe OXFORD AUTOMOTIVE, produit des profilés en acier ordinaire, élaborés à partir de laminoirs à chaud.
+
+0l0l0	La_société_SMBI	O
+0l0l1	OXFORD_AUTOMOTIVE	O
+0l0l2	produit_des_profilés_en_acier_ordinaire	A
+0l0l3	laminoirs_à_chaud	A
+0l1l0	La_société_SMBI	I
+0l1l1	groupe_OXFORD_AUTOMOTIVE	I
+
+#Elle est autorisée par arrêté préfectoral du 09/12/1998, à exercer les activités suivantes:
+
+1l0l0	Elle	O
+1l0l1	est_autorisée_par	N
+1l0l2	arrêté_préfectoral	O
+1l0l3	09_12_1998	T
+1l0l4	exercer_les_activités	N
+
+#-le travail mécanique des métaux et alliages
+
+2l0l0	travail_mécanique_des_métaux_et_alliages	A
+
+#-des activités diverses soumises à déclaration ou non classées.
+
+
+#Lors d'une visite, l'inspection des installations classées a constaté la présence de traces de pollution au niveau d'un ancien stockage de fioul lourd et des dépôts divers de déchets sur le site et à proximité de la Chiers.
+
+4l0l0	une_visite	N
+4l0l1	l__inspection_des_installations_classées	O
+4l0l2	a_constaté	N
+4l0l3	la_présence	O
+4l0l4	de_traces_de_pollution	O
+4l0l5	au_niveau_d_	R
+4l0l6	un_ancien_stockage_de_fioul_lourd	O
+4l0l7	des_dépôts_divers_de_déchets	O
+4l0l8	à_proximité_de_la_Chiers	L
+4l1l0	fioul_lourd	U
+
+#Compte tenu des présomptions de pollution de la Chiers et du sol du site soulevées par l'inspection des installations classées, un arrêté préfectoral en date du 06/11/2000 a imposé la réalisation :
+
+5l0l0	la_Chiers	L
+5l0l1	l__inspection_des_installations_classées	O
+5l0l2	un_arrêté_préfectoral	O
+5l0l3	en_date_du_06_11_2000	T
+5l0l4	a_imposé_la_réalisation	N
+
+#* d'un diagnostic de l'état du sol à l'endroit d'un ancien stockage de fioul lourd et d'une remise en état du site à cet endroit avant fin mars 2001;
+
+6l0l0	un_diagnostic	N
+6l0l1	l__état_du_sol	O
+6l0l2	un_ancien_stockage_de_fioul_lourd	O
+6l0l3	d__une_remise_en_état_du_site	N
+6l0l4	à_cet_endroit	L
+6l0l5	avant_fin_mars_2001	T
+6l1l0	fioul_lourd	U
+
+#* d'un diagnostic de l'état de pollution de la Chiers et du sol sur l'ensemble du site, et des actions correctives avant fin août 2001.
+
+7l0l0	un_diagnostic	N
+7l0l1	l__état_de_pollution	O
+7l0l2	la_Chiers	O
+7l0l3	sol	O
+7l0l4	des_actions_correctives	O
+7l0l5	avant_fin_août_2001	T
+
+#Les résultats de ces études, remis en 2001, n'ont fait apparaître aucune pollution.
+
+8l0l0	en_2001__	T
+
+#Les déchets visibles sur le site ont été envoyés vers des centres agréés.
+
+9l0l0	le_site	O
+9l0l1	ont_été_envoyés_vers	N
+9l0l2	des_centres_agréés	O
+
+#La bordure de la Chiers a été remise en état.
+
+10l0l0	La_bordure_de_la_Chiers	O
+10l0l1	a_été_remise_en_état	N
+
+#Ces actions ont été réalisées en 2001.
+
+11l0l0	Ces_actions	O
+11l0l1	ont_été_réalisées	N
+11l0l2	en_2001	T
+
+#Aucune pollution du sol et des eaux souterraines n'ayant été mise en évidence dans le diagnostic, la surveillance des eaux souterraines n'apparaît pas nécessaire.
+
+12l0l0	le_diagnostic	N
+12l0l1	la_surveillance_des_eaux_souterraines	A
+12l0l2	n__apparaît_pas_nécessaire	R
+
+#Un mémoire de cessation d'activité a été communiqué à l'inspection des installations classées le 27 juin 2006.
+
+13l0l0	Un_mémoire_de	O
+13l0l1	cessation_d__activité	N
+13l0l2	a_été_communiqué	N
+13l0l3	l__inspection_des_installations_classées	O
+13l0l4	le_27_juin_2006__	T
+
+#Une autre visite sur le site est prévue afin de clôturer la procèdure de cessation.
+
+14l0l0	Une_autre_visite	N
+14l0l1	clôturer_la_procèdure	O

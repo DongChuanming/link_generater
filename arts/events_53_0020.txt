@@ -1,0 +1,362 @@
+
+#53.0020
+#Le site est en activité depuis 1964 (anciennement appelé MCB Industrie SA) pour la fabrication de composants électroniques (essentiellement des résistances, capteurs et potentiomètres) pour les secteurs aéronautiques, ferroviaires et militaires.
+
+0l0l0	Le_site	O
+0l0l1	est_en_activité	N
+0l0l2	depuis_1964	T
+0l0l3	anciennement_appelé	R
+0l0l4	MCB_Industrie_SA	O
+0l0l5	la_fabrication_de_composants_électroniques	A
+0l0l6	les_secteurs_aéronautiques	A
+0l1l0	MCB_Industrie_SA	I
+
+#Des solvants chlorés on été historiquement utilisés sur le site pour des activités de dégraissage.
+
+1l0l0	on_été_historiquement_utilisés	N
+1l0l1	des_activités_de_dégraissage	A
+1l1l0	solvants_chlorés	U
+
+#Sur la base des données recueillies auprès du management du site, les données suivantes ont pu être collectées concernant les types de solvants chlorés utilisés et leur gestion :
+
+2l0l0	ont_pu_être_collectées	N
+2l1l0	solvants_chlorés	U
+
+#- Trichloroéthylène (TCE): Utilisation historique (arrêt total d'utilisation début 2012) ;
+
+3l0l0	arrêt_total_d__utilisation	N
+3l0l1	début_2012__	T
+3l1l0	Trichloroéthylène	S
+3l1l1	TCE	S
+
+#- Dichlorométhane (DCM): Pas de connaissance d'une éventuelle utilisation historique au droit du site, sur la base des données disponibles ;
+
+4l1l0	Dichlorométhane	S
+4l1l1	DCM	S
+
+#- Rejets des solvants usagés sur site ("bac à sable"): antérieur à 1980 puis élimination en filière agréée hors-site.
+
+5l0l0	antérieur_à_1980	T
+5l0l1	élimination_en_filière_agréée_hors_site	N
+5l1l0	solvants_usagés	U
+
+#Une pollution a été détectée par le biais d'investigations spontanées de la part de l'exploitant dans le cadre d'un changement d'actionnaire (Vishay).
+
+6l0l0	Une_pollution	O
+6l0l1	a_été_détectée	N
+6l0l2	par_le_biais_d_	R
+6l0l3	investigations_spontanées	N
+6l0l4	l__exploitant	O
+6l0l5	dans_le_cadre_d_	R
+6l0l6	un_changement	N
+6l0l7	Vishay	O
+6l1l0	Vishay	I
+
+#Les investigations ont été réalisées au droit du site entre juillet 2012 et juin 2013.
+
+7l0l0	Les_investigations_ont_été_réalisées	N
+7l0l1	au_droit_du_site	L
+7l0l2	entre_juillet_2012_et_juin_2013__	T
+
+#- rapport de visite de site pour établissement des zones potentiellement polluées en juillet 2012,
+
+8l0l0	zones_potentiellement_polluées	O
+8l0l1	en_juillet_2012__	T
+
+#- investigations sur les milieux sols, eaux souterraines et air ambiant (septembre 2012 à juin 2013).
+
+9l0l0	septembre_2012_à_juin_2013__	T
+
+#D'après les résultats analytiques :
+
+
+#- les eaux souterraines font apparaître des teneurs pouvant atteindre plusieurs dizaines de mg/l d’organochlorés.
+
+11l1l0	organochlorés	S
+
+#- sur les sols, les valeurs les plus importantes concernent les hydrocarbures totaux (2800 mg/kg).
+
+12l1l0	hydrocarbures_totaux	S
+
+#Il y a 2 sources de pollution, l’une correspondant au bâtiment de stockage actuel des solvants, et l’autre à proximité de bacs de sable et de l’actuelle chaufferie.
+
+13l0l0	2_sources_de_pollution	O
+13l0l1	bâtiment_de_stockage_actuel_des_solvants	O
+13l0l2	à_proximité_de	L
+13l0l3	bacs_de_sable	A
+13l0l4	l__actuelle	O
+13l0l5	chaufferie	A
+13l1l0	solvants	U
+
+#L'exploitant déclare que le recours aux solvants chlorés dans les procédés a été abandonné dans les années 2000.
+
+14l0l0	L__exploitant	O
+14l0l1	les_procédés	O
+14l0l2	a_été_abandonné	N
+14l0l3	dans_les_années_2000__	T
+14l1l0	solvants_chlorés	U
+
+#Depuis 2012, le site n’emploie plus de trichloréthylène (TCE).
+
+15l0l0	Depuis_2012__	T
+15l0l1	le_site	O
+15l0l2	n__emploie_plus_de	N
+15l0l3	trichloréthylène	A
+15l1l0	trichloréthylène	S
+15l1l1	TCE	S
+
+#La pollution n’est pas alimentée par l’activité actuelle du site.
+
+16l0l0	l__activité_actuelle_du_site	A
+
+#Suite à la demande du préfet, l'exploitant à réalisé un rapport d'investigations environnementales complémentaires contenant le résultat de ses études et ses propositions d’actions transmis aux services de l'état le 16 mai 2014.
+
+17l0l0	Suite	R
+17l0l1	à_la_demande	N
+17l0l2	du_préfet	O
+17l0l3	l__exploitant	O
+17l0l4	à_réalisé	N
+17l0l5	un_rapport_d_	O
+17l0l6	investigations_environnementales	N
+17l0l7	le_16_mai_2014__	T
+
+#Les différentes phases d'investigations réalisées au droit du site ont permis de mettre en évidence les principaux éléments suivants au droit de deux zones définies (ancien bac à sable de rejet de solvants et centre du site et stockage historique de TCE) :
+
+18l0l0	au_droit_du_site	L
+18l0l1	au_droit_de	R
+18l0l2	deux_zones_définies	O
+18l0l3	centre_du_site	O
+18l0l4	TCE	O
+18l1l0	solvants	U
+18l1l1	de_TCE	I
+
+#- la présence de COHV (composés organiques halogénés volatils) et toluène dans les sols ;
+
+19l1l0	COHV	S
+19l1l1	composés_organiques_halogénés_volatils	S
+19l1l2	toluène	S
+
+#- la présence d'impacts en COHV dans les eaux souterraines avec notamment des teneurs élevées observées pour les composés chlorés "parents" (TCE essentiellement) au niveau des deux principales zones.
+
+20l1l0	COHV	S
+20l1l1	les_composés_chlorés___parents_____TCE	S
+
+#Sur la base de ces constats, des investigations complémentaires ont été réalisées afin de connaitre les conséquences de l'installation hors site, avec notamment la pose d'ouvrages piézométriques complémentaires.
+
+21l0l0	ces_constats	N
+21l0l1	des_investigations_complémentaires	N
+21l0l2	ont_été_réalisées	N
+21l0l3	l__installation_hors_site	N
+21l0l4	la_pose_d__ouvrages_piézométriques	O
+
+#Les travaux d’investigations complémentaires menés au droit du site MCB Industries se sont déroulés du 8 au 11 juillet 2014.
+
+22l0l0	Les_travaux_d__investigations_complémentaires_menés	N
+22l0l1	au_droit_du_site	L
+22l0l2	MCB_Industries	O
+22l0l3	se_sont_déroulés	N
+22l0l4	du_8_au_11_juillet_2014__	T
+
+#Ces travaux ont compris :
+
+
+#- des sondages, échantillonnages et analyses de sol au droit et à proximité des bacs à sable ayant servi de réceptacle pour le rejet de solvants usagés ;
+
+24l0l0	des_sondages	N
+24l0l1	au_droit_et_à_proximité_des_bacs	L
+24l0l2	à_sable	O
+24l0l3	ayant_servi	N
+24l0l4	réceptacle	O
+24l0l5	le_rejet_de_solvants_usagés	A
+24l1l0	solvants_usagés	U
+
+#- le forage et l’installation de trois nouveaux piézomètres suivi d'une campagne de prélèvement et d'analyse des échantillons d'eaux souterraines.
+
+25l0l0	le_forage	N
+25l0l1	l__installation_de	N
+25l0l2	trois_nouveaux_piézomètres	O
+25l0l3	__suivi_d_	R
+25l0l4	une_campagne_de_prélèvement	N
+
+#* Qualité des sols : Aucun impact notable n’a été identifié sur les quatre échantillons de sol.
+
+
+#Seule la présence de 1,1,1-Trichloroethane (TCA) a été localement détectée dans les sols superficiels au droit du Bac 2 entre 0,5 et 0,8 m de profondeur à une faible concentration de 0,33 mg/kg.
+
+27l0l0	au_droit_du_Bac_2	L
+27l1l0	1_1_1_Trichloroethane	S
+27l1l1	TCA	S
+
+#Cependant, le transport des échantillons de sol entre le site et le laboratoire d'analyse pourraient avoir altéré la représentativité des échantillons avec la perte par volatilisation des composés présents pendant le prélèvement.
+
+28l0l0	le_transport	N
+
+#* Qualité des eaux souterraines : Des COHV ont été détectés dans les eaux souterraines issues des prélèvements effectués sur 17 des 18 piézomètres installés sur site à des concentrations supérieures aux valeurs de comparaison retenues.
+
+29l0l0	Des_COHV	O
+29l0l1	ont_été_détectés	N
+29l1l0	Des_COHV	S
+
+#Les ouvrages mettant en évidence les impactes les plus important sont l'ouvrage (Pz18) installé peu avant la campagne de prélèvement situé en aval historique de TCE (source 2) ; un autre piézomètre (Pz14) montrant un impacte est localisé à environ une vingtaine de mètres au nord-est du nouvel ouvrage ; et Pz13 et Pz5, tous les deux situés à proximité des bacs à sable (source 1).
+
+30l0l0	Les_ouvrages	O
+30l0l1	les_impactes	O
+30l0l2	__installé	N
+30l0l3	peu_avant	T
+30l0l4	la_campagne_de_prélèvement	A
+30l0l5	situé_en_aval_historique_de_TCE	L
+30l0l6	est_localisé_à_environ_une_vingtaine_de_mètres_au_nord_est_du_nouvel_ouvrage	L
+30l0l7	deux_situés_à_proximité_des_bacs_à_sable	N
+
+#A part le PCE (solvant chloré : perchlorethylene), composé vraisemblablement lié à une pollution en amont dans la zone industrielle, les trois composés les plus répandus sur le site à des concentrations élevées sont :
+
+31l0l0	une	N
+31l0l1	pollution_en_amont_dans_la_zone_industrielle	L
+31l1l0	le_PCE	S
+31l1l1	solvant_chloré___perchlorethylene	S
+31l1l2	composés	S
+
+#- le TCE (solvant chloré): concentration maximale de 45 000 µg/L (Pz18) ; concentrations dépassant la valeur de comparaison dans 14 des 18 piézomètres ;
+
+32l1l0	le_TCE_____solvant_chloré	S
+
+#- le cis 1,2-dichloroéthane : concentration maximale de 43 000 µg/L (Pz5) ; composé issu de la biodégradation de PCE/TCE en conditions anaérobiques ; concentrations dépassant la valeur de comparaison dans 9 des 18 piézomètres ;
+
+33l1l0	le_cis_1_2_dichloroéthane	S
+33l1l1	de_PCE___TCE	S
+
+#-le 1,1-dichloroéthane : concentration maximale de 13 000 µg/L (Pz5) ; composé de dégradation du 1,1,1-TCA issu d’une réaction abiotique ; concentrations dépassant la valeur de comparaison dans 10 des 18 piézomètres.
+
+34l1l0	_le_1_1_dichloroéthane	S
+34l1l1	du_1_1_1_TCA	S
+
+#Comme identifié lors de la précédente phase d’investigations, les données relevées indiquent la présence de deux différents panaches dans les eaux souterraines :
+
+35l0l0	deux_différents_panaches	O
+
+#- source 1 : origine correspondant à la zone des bacs à sable formant un panache de pollution localisée vers le centre du site.
+
+36l0l0	la_zone	O
+36l0l1	localisée_vers_le_centre_du_site	L
+
+#L'étude a confirmé des niveaux de concentration notable en COHV au droit de deux ouvrages situés vers le centre du site (concentrations totales d’environ 70 000 µg/L), et des niveaux plutôt faibles en COHV au droit des cinq ouvrages en limite aval de cette source (concentrations totales comprises entre 44 et 332 µg/L).
+
+37l0l0	au_droit_de	L
+37l0l1	deux_ouvrages	O
+37l0l2	situés_vers_le_centre_du_site	L
+37l0l3	ouvrages_en_limite_aval_de_cette_source	L
+37l1l0	COHV	S
+37l1l1	COHV	S
+
+#Le potentiel de migration hors-site du panache associé à cette source en des concentrations jugées importantes en termes de risques éventuels est considéré relativement faible.
+
+
+#- source 2 : ancien stockage historique de TCE comme origine formant un panache de polluant localisé vers le nord-ouest.
+
+39l0l0	ancien_stockage_historique	O
+39l0l1	TCE	O
+39l0l2	comme_origine	O
+39l0l3	localisé_vers_le_nord_ouest	L
+39l1l0	TCE	I
+
+#L'étude a identifié des niveaux de concentrations notables en COHV au droit du nouvel piézomètre (concentration totale d’environ 94 000 µg/L) localisé en aval direct de la source supposée, le long de la limite nord-ouest du site.
+
+40l0l0	a_identifié	N
+40l0l1	des_niveaux_de_concentrations	O
+40l0l2	au_droit_du_nouvel	L
+40l0l3	localisé_en_aval_direct_de_la_source	L
+40l0l4	le_long_de_la_limite_nord_ouest_du_site	L
+40l1l0	COHV	S
+
+#Le piézomètre Pz14, localisé sur le bord du site à environ une vingtaine de mètres au nord-est de Pz18, montre également des concentrations élevées en COHV.
+
+41l0l0	localisé_sur_le_bord_du_site	L
+41l0l1	à_environ_une_vingtaine_de_mètres_au_nord_est_de_Pz18	L
+41l1l0	COHV	S
+
+#Il est probable que le panache associé à cette source s’étende hors-site en des concentrations importantes.
+
+
+#Cette information a été transmise à l'Agence Régionale de Santé.
+
+43l0l0	Cette_information	O
+43l0l1	a_été_transmise	N
+43l0l2	l_	O
+43l1l0	Agence_Régionale_de_Santé	I
+
+#De plus, des concentrations en hydrocarbures totaux légers et volatils (C5-C10) sont également observées sur la plupart des piézomètres, principalement associés à la présence de COHV.
+
+44l1l0	hydrocarbures_totaux	S
+44l1l1	légers_et_volatils	S
+44l1l2	C5_C10	S
+44l1l3	COHV	S
+
+#Les ouvrages présentant les teneurs les plus notables (50 000 µg/L) sont les trois listés (Pz5, Pz13 et Pz18), localisés à proximité des sources identifiées au droit du site.
+
+45l0l0	Les_ouvrages	O
+45l0l1	localisés_à_proximité_des_sources_identifiées_au_droit_du_site	L
+45l1l0	Pz18	S
+
+#Des impacts localisés en nickel, benzène et toluène ont également été identifiés.
+
+46l0l0	Des_impacts	O
+46l0l1	ont_également_été_identifiés	N
+46l1l0	nickel	S
+46l1l1	benzène	S
+46l1l2	toluène	S
+
+#En janvier 2016 et octobre 2016, la société Vishay MCB Industrie SA a poursuivi les investigations environnementales au droit de son site (suivi eaux souterraines sur site et hors site et suivi des gaz du sol hors site).
+
+47l0l0	En_janvier_2016_et_octobre_2016__	T
+47l0l1	la_société_Vishay_MCB_Industrie_SA	O
+47l0l2	a_poursuivi	N
+47l0l3	les_investigations_environnementales	N
+47l0l4	au_droit_de_son_site	L
+47l1l0	la_société_Vishay_MCB_Industrie_SA	I
+
+#A l’issue de ces campagnes, les résultats ont mis en évidence :
+
+48l0l0	ces_campagnes	N
+
+#- suivi eaux souterraines (sur site et hors site) : les concentrations mesurées en COHV en octobre 2016 confirment les constats relevés lors des précédentes campagnes.
+
+49l0l0	concentrations_mesurées	N
+49l0l1	COHV_en_octobre_2016	T
+49l1l0	en_COHV	S
+
+#Le TCE reste le composé majoritairement relevé dans les eaux souterraines sur site et hors site.
+
+50l1l0	Le_TCE	S
+
+#- suivi gaz du sol (hors site) : présence de PCE dans les gaz du sol.
+
+51l1l0	de_PCE	S
+
+#Au droit des ouvrages PzaA, PzaG et PzaH, des concentrations notables relevées en PCE (d’un ordre de grandeur supérieur à celles relevées en TCE) qui semblent indiquer que la pollution historique en PCE de la zone industrielle contribue majoritairement à ces impacts (source 3).
+
+52l0l0	Au_droit_des_ouvrages	L
+52l0l1	PzaA	O
+52l0l2	pollution_historique_en_PCE	O
+52l0l3	la_zone_industrielle	O
+52l1l0	PCE	S
+52l1l1	PCE	S
+
+#Le bureau d'étude recommande la réalisation de deux campagnes de suivi hors site sur les eaux souterraines et gaz du sol en 2017, en périodes de hautes eaux et de basses eaux.
+
+53l0l0	Le_bureau_d__étude	O
+53l0l1	recommande_la_réalisation_de_deux_campagnes_de_suivi_hors_site	N
+53l0l2	les_eaux_souterraines	O
+53l0l3	en_2017__	T
+53l0l4	en_périodes	T
+53l0l5	de_hautes_eaux	N
+
+#L'exploitant doit établir les mesures de gestion des sources 1 et 2 de pollution de son site.
+
+54l0l0	L__exploitant	O
+54l0l1	doit_établir	N
+
+#Des investigations complémentaires seront nécessaires pour caractériser l'origine de la pollution historique en PCE de la zone industrielle (source 3).
+
+55l0l0	l__origine_de_la_pollution_historique	O
+55l0l1	la_zone_industrielle	O
+55l1l0	PCE	S

@@ -1,0 +1,102 @@
+
+#57.0158
+#La société DECONSTRA est spécialisée dans la collecte, la dépollution et le démontage de véhicules automobiles accidentés ou hors d'usage.
+
+0l0l0	La_société_DECONSTRA	O
+0l0l1	est_spécialisée_dans	R
+0l0l2	la_collecte	O
+0l0l3	la_dépollution	N
+0l0l4	le	O
+0l0l5	démontage_de_véhicules_automobiles_accidentés	N
+0l1l0	La_société_DECONSTRA	I
+
+#Cette activité nécessite un stock tampon de véhicules dépollués en attente de démontage.
+
+1l0l0	véhicules_dépollués	O
+
+#L'exploitant est soumis à autorisation au titre de la législation des installations classées pour la protection de l'environnement par l'arrêté préfectoral du 16 février 1994.
+
+2l0l0	L__exploitant	O
+2l0l1	est_soumis_à_autorisation	N
+2l0l2	la_législation_des_installations_classées	O
+2l0l3	pour_la_protection_de	A
+2l0l4	l__environnement	O
+2l0l5	l_	O
+2l0l6	16_février_1994	T
+
+#Le captage AEP le plus proche se situe à plus de 2 km en aval du site.
+
+3l0l0	Le_captage_AEP_le_plus_proche	O
+3l0l1	se_situe_à_plus_de_2_km_en_aval_du_site	L
+
+#Suite à un incendie en date du 19 mars 2004, un premier diagnostic du site a été réalisé sur la zone touchée par l'incendie.
+
+4l0l0	Suite	R
+4l0l1	à_un_incendie	N
+4l0l2	en_date_du_19_mars_2004__	T
+4l0l3	un_premier_diagnostic	N
+4l0l4	site	O
+4l0l5	a_été_réalisé	N
+4l0l6	sur_la_zone_touchée_par_l__incendie	N
+
+#Compte tenu du fait que l'incendie a mis à jour des déchets ne provenant pas des véhicules incendiés, la zone d'investigation a été élargie à la zone de stockage des véhicules en attente de démontage (suspicion de présence d'une décharge liée aux activités de l'ancienne laiterie).
+
+5l0l0	l__incendie	N
+5l0l1	a_mis_à_jour	N
+5l0l2	déchets	O
+5l0l3	véhicules_incendiés	O
+5l0l4	la_zone_d__investigation	O
+5l0l5	a_été_élargie	N
+5l0l6	à	R
+5l0l7	la_zone_de_stockage_des_véhicules	O
+5l0l8	l__ancienne_laiterie	O
+
+#Les prélèvements réalisés ont démontré que le sol de la zone incendiée est en partie composé de déchets provenant vraisemblement de l'ancienne laiterie (bouteilles plastiques, pots de yaourt, briques alimentaires...).
+
+6l0l0	la_zone_incendiée	O
+6l0l1	laiterie	A
+6l0l2	briques_alimentaires	O
+6l1l0	bouteilles_plastiques	U
+6l1l1	briques_alimentaires	U
+
+#Le volume de ces déchets est estimé entre 1000 et 3000 m3.
+
+7l0l0	3000_m3	O
+
+#Il s'agit essentiellement de déchets plastiques dont les plus récents semblent dater de 1988.
+
+8l0l0	dater_de_1988	T
+8l1l0	déchets_plastiques	U
+
+#La zone de stockage des véhicules en attente de démontage ne semble toutefois pas avoir été utilisée pour stocker les déchets de l'ancienne laiterie.
+
+9l0l0	La_zone_de_stockage_des_véhicules	O
+9l0l1	démontage_ne_semble_toutefois_pas_avoir_été_utilisée	N
+9l0l2	l__ancienne_laiterie	O
+9l1l0	les_déchets	U
+
+#Les analyses ont été réalisées sur les paramètres Cd, Cr, Cu, Ni, Pb, hydrocarbures totaux (HCT), hydrocarbures aromatiques polycycliques (HAP) et polychlorobiphényles (PCB).
+
+10l0l0	Les_analyses	N
+10l0l1	ont_été_réalisées	N
+10l1l0	Cd	S
+10l1l1	Cr	S
+10l1l2	Cu	S
+10l1l3	Ni	S
+10l1l4	Pb	S
+10l1l5	hydrocarbures_totaux	S
+10l1l6	HCT	S
+10l1l7	hydrocarbures_aromatiques_polycycliques	S
+10l1l8	HAP	S
+10l1l9	polychlorobiphényles	S
+10l1l10	PCB	S
+
+#Les résultats montrent des valeurs inférieures aux valeurs de définition de source sol (VDSS), sauf pour le Cr et le Cu.
+
+11l1l0	le_Cr	S
+11l1l1	Cu	S
+
+#Ces valeurs en Cr et Cu restent toutefois cohérentes avec le référentiel géochimique naturel.
+
+12l1l0	Cr	S
+12l1l1	Cu	S

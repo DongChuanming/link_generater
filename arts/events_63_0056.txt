@@ -1,0 +1,199 @@
+
+#63.0056
+#Le site, d’une superficie de 7 080 m², est localisé dans la ZI du Brezet à Clermont-Ferrand et est bordé par diverses entreprises.
+
+0l0l0	Le_site	O
+0l0l1	localisé_dans_la_ZI_du_Brezet	L
+0l0l2	à_Clermont___Ferrand	L
+0l0l3	bordé_par	L
+0l0l4	__diverses_entreprises	O
+
+#Le site comporte 3 zones distinctes :
+
+
+#- la station service où existait 5 postes de distribution
+
+2l0l0	5_postes_de_distribution	O
+2l1l0	distribution	U
+
+#- la bâtiment principal des transports LADOUX
+
+3l0l0	la_bâtiment_principal_des_transports_LADOUX	O
+3l1l0	bâtiment_principal_des_transports_LADOUX	I
+
+#- le bâtiment de maintenance des Transports LADOUX
+
+4l0l0	le_bâtiment_de_maintenance_des_Transports_LADOUX	O
+4l1l0	des_Transports_LADOUX	I
+
+#L’ensemble du site est recouvert par du bitume et/ou des remblais routiers.
+
+5l0l0	bitume	O
+5l0l1	remblais_routiers	N
+
+#Le site est localisé sur des formations alluviales anciennes et actuelles en limite avec le complexe de Limagne (marne).
+
+6l0l0	Le_site	O
+6l0l1	localisé_sur_des	L
+6l0l2	en_limite_avec_le_complexe_de_Limagne___marne	L
+
+#Le site se situe sur un système aquifère à aire d'alimentation comportant des formations semi-perméables.
+
+7l0l0	Le_site	O
+7l0l1	se_situe_sur_un	L
+7l0l2	système_aquifère	O
+
+#Le site n'est inclus dans aucune zone à caractère naturel ou paysager particulier, faisant l'objet d'un recensement national ou de protections particulières.
+
+8l0l0	Le_site	O
+8l0l1	inclus_dans_aucune_zone_à_caractère_naturel	L
+8l0l2	l__objet_d_	R
+
+#Le site a abrité plusieurs activités.
+
+9l0l0	Le_site	O
+9l0l1	a_abrité	A
+
+#Avant 1965, il est utilisé pour l’exploitation agricole.
+
+10l0l0	Avant_1965	T
+10l0l1	est_utilisé	N
+10l0l2	l__exploitation_agricole	O
+
+#En 1965, la ZI du Brézet est créée.
+
+11l0l0	En_1965	T
+11l0l1	la_ZI	O
+11l0l2	du_Brézet	L
+11l0l3	est_créée	N
+
+#Un récépissé de déclaration est accordé aux établissements LADOUX en mars 1967.
+
+12l0l0	Un_récépissé	O
+12l0l1	de_déclaration	O
+12l0l2	est_accordé	N
+12l0l3	établissements_LADOUX	O
+12l0l4	en_mars_1967	T
+
+#En 2000/2001, le site cesse son activité.
+
+13l0l0	En_2000_2001	T
+13l0l1	le_site	O
+13l0l2	cesse_son_activité	N
+
+#Un diagnostic initial de la qualité des sols est réalisé dans le cadre de la vente du site industriel.
+
+14l0l0	Un_diagnostic_initial	N
+14l0l1	la_qualité_des_sols	O
+14l0l2	est_réalisé	N
+14l0l3	dans_le_cadre_de	R
+14l0l4	la_vente	N
+14l0l5	site_industriel	O
+
+#Dans le cadre du diagnostic initial du 30 mars 2004, 20 sondages sont réalisés.
+
+15l0l0	Dans_le_cadre	R
+15l0l1	du_diagnostic_initial	N
+15l0l2	du_30_mars_2004__	T
+15l0l3	20_sondages	O
+15l0l4	sont_réalisés	N
+
+#Les investigations montrent que le sol peut être considéré comme source de pollution à l’arsenic, au chrome et aux hydrocarbures totaux.
+
+16l0l0	Les_investigations	N
+16l0l1	l__arsenic	O
+16l1l0	arsenic	S
+16l1l1	chrome	S
+16l1l2	hydrocarbures_totaux	S
+
+#La concentration en arsenic est probablement liée au fond géochimique.
+
+17l0l0	arsenic	O
+17l1l0	arsenic	S
+
+#La concentration moyenne de chrome prélevée sur le site est de 53 mg/kg MS : le chrome et ses composés ne peuvent donc pas être retenus comme source de pollution.
+
+18l1l0	chrome	S
+18l1l1	__le_chrome	S
+
+#Des travaux de dépollution sont effectués le 30/09/2005.
+
+19l0l0	Des_travaux_de_dépollution	N
+19l0l1	sont_effectués	N
+19l0l2	le_30_09_2005	T
+
+#L’opération de réhabilitation comprend :
+
+20l0l0	réhabilitation	N
+
+#- détamponnage de trois cuves enterrées (4 tampons), nettoyage et dégazage des cuves (3 cuves dégazées)
+
+21l0l0	détamponnage_de	N
+21l0l1	trois_cuves_enterrées___4_tampons	O
+21l0l2	____nettoyage	N
+21l0l3	dégazage	N
+21l0l4	cuves	O
+21l0l5	cuves_dégazées	O
+21l1l0	cuves_enterrées	D
+
+#- destruction de la dalle béton et excavation des cuves
+
+22l0l0	destruction_de	N
+22l0l1	la_dalle_béton	O
+22l0l2	excavation_des_cuves	N
+22l1l0	des_cuves	D
+
+#- découpage et transport des cuves dans les 48h suivant le dégazage
+
+23l0l0	transport_des_cuves	N
+23l0l1	dans_les_48h_suivant	T
+23l0l2	le_dégazage	N
+
+#- évacuation, transport, et mise en centre de traitement ou de stockage des terres polluées
+
+24l0l0	évacuation	N
+24l0l1	transport	N
+24l0l2	mise_en_centre_de_traitement	N
+24l0l3	terres_polluées	O
+
+#- remblaiement des fouilles par un matériau sain
+
+25l0l0	remblaiement_des_fouilles	N
+25l1l0	matériau_sain	U
+
+#Quantités évacuées :
+
+
+#- 10,76 tonnes d’hydrocarbures pompées dans les cuves
+
+27l0l0	hydrocarbures_pompées	O
+27l0l1	cuves	O
+27l1l0	hydrocarbures	S
+27l1l1	cuves	D
+
+#- 6,44 tonnes d’eau souillée pompées dans les rétentions
+
+28l0l0	6_44	O
+28l0l1	les_rétentions	O
+
+#- 249,46 tonnes de terre polluée par des hydrocarbures
+
+29l0l0	terre_polluée	O
+29l0l1	des_hydrocarbures	O
+29l1l0	hydrocarbures	S
+
+#Trois échantillons sont prélevés en fond de fouille après enlèvement des terres polluées, qui valident l’élimination totale de pollution.
+
+30l0l0	en_fond_de_fouille	L
+30l0l1	après	R
+30l0l2	enlèvement	N
+30l0l3	des_terres_polluées	O
+30l0l4	valident_l__élimination_totale_de_pollution	N
+
+#Lors des travaux de démantèlement et/ou de rénovation des bâtiments, une attention particulière devra être portée à la présence de fosses de vidange, situées sous le bâtiment et non accessibles lors des travaux de dépollution, considérées comme sources de pollution potentielle.
+
+31l0l0	Lors	R
+31l0l1	des_travaux_de_démantèlement	N
+31l0l2	de_rénovation_des_bâtiments	N
+31l0l3	situées_sous_le_bâtiment	L
+31l0l4	des_travaux_de_dépollution	N

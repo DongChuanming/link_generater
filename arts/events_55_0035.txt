@@ -1,0 +1,195 @@
+
+#55.0035
+#La société LES LIANTS DE L'EST exerçait, sur son site de Verdun, une activité orientée dans la fabrication et le stockage de trois types de liants hydrocarbonés:
+
+0l0l0	La_société_LES_LIANTS_DE_L__EST	O
+0l0l1	exerçait	N
+0l0l2	sur_son_site_de_Verdun	L
+0l0l3	une_activité	A
+0l0l4	orientée_dans	R
+0l0l5	la_fabrication_et_le_stockage	A
+0l0l6	trois_types_de_liants_hydrocarbonés	O
+0l1l0	société_LES_LIANTS	I
+0l1l1	hydrocarbonés	U
+
+#- les émulsions de bitumes produits par dispersion de bitume dans de l'eau
+
+1l1l0	bitumes	U
+1l1l1	bitume	U
+
+#- les bitumes fluxés produits par fluidification d'un bitume à l'aide d'un solvant aromatique
+
+2l0l0	fluidification	N
+2l1l0	les_bitumes_fluxés	S
+2l1l1	bitume	U
+2l1l2	un_solvant_aromatique	U
+
+#- les bitumes anhydres produits par fluidification d'un bitume à l'aide d'une solution mère.
+
+3l0l0	fluidification	N
+3l1l0	les_bitumes_anhydres	S
+3l1l1	bitume	U
+
+#Ces activités étaient soumises à autorisation au titre de la législation sur les installations classées pour la protection de l'environnement.
+
+4l0l0	Ces_activités	O
+4l0l1	étaient_soumises_à_autorisation	N
+4l0l2	les_installations_classées	O
+4l0l3	la_protection_de	A
+4l0l4	l__environnement	O
+
+#Les activités ont cessé en décembre 2008.
+
+5l0l0	Les_activités	O
+5l0l1	ont_cessé	N
+5l0l2	en_décembre_2008__	T
+
+#Les bâtiments et les installations ont été démantelés.
+
+6l0l0	Les_bâtiments	O
+6l0l1	les_installations	O
+6l0l2	ont_été_démantelés	N
+
+#Après consultation de la Communauté de Communes de VERDUN, l’usage futur du site envisagé est un usage de type « sensible » qui pourra consister en un aménagement de type résidentiel ou une zone d’activités concertées (établissements recevant du public, parkings, espaces verts….)
+
+7l0l0	la_Communauté_de_Communes_de_VERDUN	O
+7l0l1	l__usage_futur_du_site_envisagé	O
+7l0l2	un_usage	O
+7l0l3	un_aménagement	N
+7l1l0	Communauté_de_Communes_de_VERDUN	I
+
+#Les différentes investigations réalisées dans le cadre de la cessation d’activité du site ont mis en évidence :
+
+8l0l0	Les_différentes_investigations_réalisées	N
+8l0l1	dans_le_cadre_de	R
+8l0l2	la_cessation_d__activité	N
+8l0l3	du_site	A
+
+#- une contamination des sols sur site et hors site en hydrocarbures totaux, hydrocarbures aromatiques polycycliques (HAP) et BTEX,
+
+9l0l0	une_contamination	N
+9l1l0	hydrocarbures_totaux	S
+9l1l1	hydrocarbures_aromatiques_polycycliques	S
+9l1l2	HAP	S
+9l1l3	BTEX	S
+
+#- une contamination des eaux souterraines en BTEX et ammonium notamment au droit et en aval hydraulique du site,
+
+10l0l0	une_contamination	N
+10l0l1	ammonium	O
+10l0l2	au_droit_et_en_aval_hydraulique_du_site	L
+10l1l0	BTEX	S
+10l1l1	ammonium	S
+
+#- des pollutions des gaz des sols en hydrocarbures légers C5-C15 et BTEX (xylène et éthylbenzène).
+
+11l1l0	hydrocarbures_légers_C5_C15_et_BTEX	S
+11l1l1	xylène	S
+11l1l2	éthylbenzène	S
+
+#Les échanges entre l’ancien exploitant et l’inspection des installations classées ont permis d’aboutir à la remise de la version finale du plan de gestion le 13 novembre 2011.
+
+12l0l0	Les_échanges	N
+12l0l1	l__ancien_exploitant	O
+12l0l2	l__inspection_des_installations_classées	O
+12l0l3	ont_permis_d__aboutir_à	R
+12l0l4	la_remise	N
+12l0l5	la_version_finale_du_plan_de_gestion	O
+12l0l6	le_13_novembre_2011__	T
+
+#Ce plan de gestion prévoit :
+
+
+#- d’excaver et de traiter les terres polluées hors site par voie biologique et/ou désorption thermique ;
+
+14l0l0	d__excaver	N
+14l0l1	de_traiter	N
+14l0l2	les_terres_polluées	O
+14l0l3	hors_site	O
+14l0l4	désorption	N
+
+#- de pomper les eaux souterraines polluées, de les épurer sur site par passage sur charbon actif avant de les rejeter dans la darse voisine.
+
+15l0l0	de_pomper	N
+15l0l1	les_eaux_souterraines_polluées	O
+15l0l2	de_les_épurer	N
+15l0l3	charbon_actif	O
+15l0l4	la_darse_voisine	O
+15l1l0	charbon_actif	U
+
+#L’arrêté préfectoral n°2011-2086 du 6 octobre 2011, impose à la société LES LIANTS DE L’EST, ancien et dernier exploitant du site de VERDUN, la réalisation des travaux de réhabilitation du site ainsi que les mesures de surveillance à effectuer.
+
+16l0l0	L__arrêté_préfectoral	O
+16l0l1	6_octobre_2011__	T
+16l0l2	impose	N
+16l0l3	la_société_LES_LIANTS_DE_L__EST	O
+16l0l4	dernier_exploitant	N
+16l0l5	site_de_VERDUN	L
+16l0l6	la_réalisation_des_travaux_de_réhabilitation	N
+16l0l7	site	O
+16l0l8	les_mesures_de_surveillance	O
+16l1l0	la_société_LES_LIANTS_DE_L__EST	I
+16l1l1	VERDUN	I
+
+#L’inspection des installations classées de la DREAL Lorraine a constaté, lors de la visite du 17 avril 2012, que les travaux de traitement des sols ont été réalisés entre octobre et décembre 2011 et ont permis d’excaver 7300 tonnes de terres souillées dans la zone non saturée du sol.
+
+17l0l0	L__inspection_des_installations_classées	O
+17l0l1	la_DREAL_Lorraine	O
+17l0l2	a_constaté	N
+17l0l3	lors	T
+17l0l4	de_la_visite	N
+17l0l5	du_17_avril_2012__	T
+17l0l6	les_travaux_de_traitement	N
+17l0l7	des_sols	O
+17l0l8	ont_été_réalisés	N
+17l0l9	entre_octobre_et_décembre_2011	T
+17l0l10	d__excaver	N
+17l0l11	7300_tonnes_de_terres_souillées	O
+17l0l12	dans	L
+17l0l13	la_zone_non_saturée	O
+17l1l0	la_DREAL_Lorraine	I
+
+#Des terres polluées ont été laissées en place au niveau d’un mur en pierre de taille situé en limite du site côté Est et au niveau de certains réseaux situés au Sud-Ouest du site.
+
+18l0l0	Des_terres_polluées	O
+18l0l1	ont_été_laissées_en_place	N
+18l0l2	au_niveau_d_	R
+18l0l3	un_mur	O
+18l0l4	pierre_de_taille	O
+18l0l5	situé_en_limite_du_site_côté_Est	L
+18l0l6	et_au_niveau_de	R
+18l0l7	certains_réseaux	R
+18l0l8	situés_au_Sud_Ouest_du_site	L
+
+#Il a été demandé à l'exploitant de démontrer que les travaux mis en œuvre sont suffisants pour garantir la compatibilité de l'état de pollution résiduelle du site avec l'usage futur envisagé (résidentiel).
+
+19l0l0	l__exploitant	O
+19l0l1	les_travaux_mis_en_œuvre	N
+19l0l2	l__usage_futur_envisagé	O
+19l0l3	résidentiel	L
+
+#L'abnalyse des risques résiduels a été remise à l'inspection des installations classées en 2013.
+
+20l0l0	L__abnalyse_des_risques_résiduels	O
+20l0l1	a_été_remise	N
+20l0l2	l__inspection_des_installations_classées	O
+20l0l3	en_2013__	T
+
+#Les travaux de dépollution des eaux souterraines par pompage et traitement sur charbon actif ont débuté en octobre 2011. en septembre 2015, ce traitement est toujours en cours.
+
+21l0l0	Les_travaux_de_dépollution	N
+21l0l1	eaux_souterraines_par_pompage	N
+21l0l2	traitement_sur	N
+21l0l3	charbon_actif	O
+21l0l4	ont_débuté	N
+21l0l5	en_octobre_2011__	T
+21l0l6	en_septembre_2015__	T
+21l0l7	ce_traitement	N
+21l1l0	charbon_actif	U
+
+#En outre, une surveillance de la qualité des eaux souterraines est exercée au droit et en dehors du site.
+
+22l0l0	une_surveillance	A
+22l0l1	la_qualité_des_eaux_souterraines	O
+22l0l2	est_exercée	N
+22l0l3	au_droit_et_en_dehors_du_site	L

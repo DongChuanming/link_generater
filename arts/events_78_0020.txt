@@ -1,0 +1,404 @@
+
+#78.0020
+#Le site, d'une superficie d'environ 4 ha, comprenait deux bâtiments d'exploitation.
+
+0l0l0	Le_site	O
+0l0l1	comprenait	R
+0l0l2	deux_bâtiments_d_	O
+0l0l3	exploitation	N
+
+#Le bâtiment Nord (correspondant au "Centre Technique de Conflans") a accueilli des installations de production de circuits imprimés et de galvanoplastie exploitées par la société Thomson CSF de 1882 à 1994 puis, par la société MCC Holding jusqu'en 1995, date de cessation des activités (liquidation judiciaire).
+
+1l0l0	Le_bâtiment_Nord	O
+1l0l1	correspondant_au	L
+1l0l2	__Centre_Technique	O
+1l0l3	Conflans__	L
+1l0l4	a_accueilli	N
+1l0l5	des_installations_de_production_de_circuits_imprimés	O
+1l0l6	et_de_galvanoplastie	A
+1l0l7	exploitées	N
+1l0l8	la_société_Thomson_CSF	O
+1l0l9	de_1882_à_1994	T
+1l0l10	la_société_MCC	O
+1l0l11	jusqu__en_1995__	T
+1l0l12	liquidation_judiciaire	N
+1l1l0	la_société_Thomson_CSF	I
+1l1l1	la_société_MCC_Holding	I
+
+#Le bâtiment a été racheté par la société ALCATEL CABLES qui produisait, depuis 1989, des fibres optiques dans le bâtiment situé au Sud du site.
+
+2l0l0	Le_bâtiment	O
+2l0l1	a_été_racheté	N
+2l0l2	par_la_société_ALCATEL_CABLES	O
+2l0l3	produisait	A
+2l0l4	depuis_1989	T
+2l0l5	des_fibres_optiques	A
+2l0l6	le_bâtiment	O
+2l0l7	situé_au_Sud_du_site	L
+2l1l0	la_société_ALCATEL_CABLES	I
+
+#La société DRAKA COMTEQ a succédé à la société ALCATEL CABLES en mars 2005.
+
+3l0l0	La_société_DRAKA_COMTEQ	O
+3l0l1	a_succédé	N
+3l0l2	à_la_société	L
+3l0l3	ALCATEL_CABLES	O
+3l0l4	en_mars_2005__	T
+3l1l0	société_DRAKA_COMTEQ	I
+3l1l1	la_société_ALCATEL_CABLES	I
+
+#Ces activités étaient classées à autorisation sous la rubrique 2920 et à déclaration sous les rubriques 1220-3, 1416-3, 2910-a2 et 2925 de la nomenclature des installations classées.
+
+4l0l0	Ces_activités	O
+4l0l1	étaient_classées_à_autorisation	N
+4l0l2	à_déclaration	N
+
+#DRAKA COMTEQ (ex-ALCATEL CABLES) a cessé définitivement ses activités en décembre 2005 et a obtenu un récépissé de cessation d'activité le 16 mars 2006.
+
+5l0l0	DRAKA_COMTEQ	O
+5l0l1	ex_ALCATEL_CABLES	O
+5l0l2	a_cessé_définitivement_ses_activités	N
+5l0l3	en_décembre_2005	T
+5l0l4	a_obtenu	N
+5l0l5	un_récépissé	O
+5l0l6	cessation_d__activité	N
+5l0l7	le_16_mars_2006__	T
+5l1l0	DRAKA_COMTEQ	I
+5l1l1	ex_ALCATEL_CABLES	I
+
+#Le site est implanté au Nord de la commune de Conflans-Sainte-Honorine, dans la zone industrielle dite du Renouveau au cœur d'une zone urbanisée.
+
+6l0l0	Le_site	O
+6l0l1	est_implanté_au_Nord_de_la_commune_de_Conflans___Sainte___Honorine	L
+6l0l2	dans_la_zone_industrielle	L
+6l0l3	dite	R
+6l0l4	du_Renouveau	L
+6l0l5	au_cœur_d__une_zone_urbanisée	L
+
+#La Seine et l'Oise s'écoulent d'Est en Ouest et passent à moins de 3 km du site.
+
+7l0l0	Oise	L
+7l0l1	passent_à_moins_de_3_km_du_site	L
+
+#Le site est implanté à 2 km du champ captant d'Andrésy qui exploite les nappes des alluvions et du Lutétien présentes au droit du site.
+
+8l0l0	Le_site	O
+8l0l1	est_implanté_à_2_km_du_champ_captant_d__Andrésy	L
+8l0l2	exploite	N
+8l0l3	au_droit_du_site	L
+
+#L'écoulement global de ces nappes est orienté de l'Est vers le Sud-Ouest.
+
+9l0l0	ces_nappes	O
+9l0l1	orienté_de_l__Est_vers_le_Sud_Ouest	L
+
+#Actuellement, le site accueille des immeubles d'habitation collectifs et des habitations individuelles.
+
+10l0l0	le_site	O
+10l0l1	accueille	R
+10l0l2	des_immeubles_d__habitation	O
+
+#La parcelle AI 814 a été rétrocédée à la commune.
+
+11l0l0	La_parcelle_AI_814	O
+11l0l1	a_été_rétrocédée	N
+11l0l2	la_commune	O
+
+#Aucun projet de changement d'usage n'est prévu pour cette parcelle, dont l'usage prévu reste non sensible (voirie).
+
+12l0l0	Aucun_projet	O
+12l0l1	cette_parcelle	O
+12l0l2	l__usage_prévu	O
+
+#A la suite de la liquidation judiciaire de la société MCC Holding en 1995, un diagnostic de pollution sur la partie nord du site et des travaux de remise en état du site ont été pris en charge par la société THOMSON CSF, avant-dernier exploitant du site.
+
+13l0l0	A_la_suite_de	R
+13l0l1	la_liquidation_judiciaire	N
+13l0l2	la_société_MCC_Holding	O
+13l0l3	en_1995__	T
+13l0l4	un_diagnostic	N
+13l0l5	de_pollution	O
+13l0l6	sur_la_partie_nord	L
+13l0l7	du_site	O
+13l0l8	des_travaux_de_remise_en_état	N
+13l0l9	du_site	O
+13l0l10	ont_été_pris_en_charge	N
+13l0l11	la_société_THOMSON_CSF	O
+13l1l0	la_société_MCC_Holding	I
+13l1l1	la_société_THOMSON_CSF	I
+
+#Ce diagnostic a révélé une pollution de la nappe (à 20 m de profondeur) en solvants chlorés.
+
+14l0l0	Ce_diagnostic	N
+14l0l1	a_révélé	N
+14l0l2	une_pollution	N
+14l0l3	la_nappe	O
+14l1l0	solvants_chlorés	S
+
+#Un puits profond présent sur le site a été rebouché.
+
+15l0l0	Un_puits_profond	O
+15l0l1	a_été_rebouché	N
+
+#De ce fait, une surveillance de l'évolution de la pollution a été assurée par la société THOMSON GESTION IMMOBILIERE, de 1996 à 2001.
+
+16l0l0	une_surveillance	A
+16l0l1	l__évolution_de_la_pollution	O
+16l0l2	a_été_assurée	N
+16l0l3	la_société_THOMSON	O
+16l0l4	GESTION_IMMOBILIERE	O
+16l0l5	de_1996_à_2001	T
+16l1l0	la_société_THOMSON_GESTION_IMMOBILIERE	I
+
+#Les concentrations de solvants chlorés sont restées stables durant cette période.
+
+17l0l0	durant_cette_période	T
+17l1l0	solvants_chlorés	U
+
+#A la suite d'une cessation partielle des activités de stockage et emploi d'oxygène et d'hydrogène en septembre 2003, des travaux de démantèlement des installations exploitées par la société DRAKA COMTEQ ont eu lieu jusqu'en novembre 2005.
+
+18l0l0	A_la_suite_d_	R
+18l0l1	une_cessation_partielle	N
+18l0l2	activités_de_stockage_et_emploi_d__oxygène_et_d__hydrogène	A
+18l0l3	en_septembre_2003__	T
+18l0l4	des_travaux_de_démantèlement	N
+18l0l5	des_installations_exploitées	N
+18l0l6	la_société_DRAKA_COMTEQ	O
+18l0l7	ont_eu_lieu	N
+18l0l8	jusqu__en_novembre_2005__	T
+18l1l0	oxygène	S
+18l1l1	la_société_DRAKA_COMTEQ	I
+
+#Dans le cadre de la cessation définitive d'activités sur le site, un diagnostic approfondi a révélé une pollution des sols en métaux lourds, en solvants chlorés et en hydrocarbures aromatiques polycycliques (HAP).
+
+19l0l0	Dans_le_cadre_de	R
+19l0l1	la_cessation_définitive_d__activités	N
+19l0l2	un_diagnostic_approfondi_a_révélé	N
+19l0l3	une_pollution_des_sols	N
+19l0l4	métaux_lourds	O
+19l1l0	métaux_lourds	S
+19l1l1	solvants_chlorés	S
+19l1l2	hydrocarbures_aromatiques_polycycliques	S
+19l1l3	HAP	S
+
+#Une pollution de la nappe du Lutétien (à environ 22 à 26 m de profondeur) en hydrocarbures totaux, métaux lourds et solvants chlorés a également été identifiée au droit de l'ensemble du site.
+
+20l0l0	Une_pollution	O
+20l0l1	la_nappe	O
+20l0l2	hydrocarbures_totaux	O
+20l0l3	a_également_été_identifiée	N
+20l0l4	au_droit_de	L
+20l1l0	hydrocarbures_totaux	S
+20l1l1	métaux_lourds	S
+20l1l2	solvants_chlorés	S
+
+#Par arrêté préfectoral du 22 décembre 2006, la surveillance de la qualité de la nappe du Lutétien a été prescrite au droit du site.
+
+21l0l0	Par_arrêté_préfectoral	O
+21l0l1	du_22_décembre_2006__	T
+21l0l2	la_surveillance	A
+21l0l3	la_qualité_de_la_nappe	O
+21l0l4	Lutétien	O
+21l0l5	a_été_prescrite	N
+21l0l6	au_droit_du_site	L
+
+#Compte tenu d'un projet d'aménagement du site, une évaluation détaillée des risques (EDR) pour la santé, réalisée en 2006 et complétée au mois de février 2007, a défini des seuils de dépollution à atteindre pour un usage sensible.
+
+22l0l0	un_projet_d__aménagement	N
+22l0l1	une_évaluation_détaillée_des_risques	N
+22l0l2	réalisée	N
+22l0l3	en_2006	T
+22l0l4	complétée	O
+22l0l5	au_mois_de_février_2007__	T
+22l0l6	a_défini	N
+22l0l7	des_seuils	O
+22l0l8	dépollution	N
+22l0l9	un_usage_sensible	O
+
+#Ces seuils concernent les concentrations de solvants chlorés dans les gaz du sol au droit des futures maisons d'habitation de plain-pied et du projet d'établissement public (crèche).
+
+23l0l0	au_droit_des_futures_maisons	L
+23l1l0	chlorés	S
+
+#Ils concernent aussi les métaux lourds, les HAP et les solvants chlorés au droit des jardins privatifs associés aux maisons ou aux appartements situés en rez-de-chaussée des immeubles et au droit des espaces verts du futur établissement public.
+
+24l0l0	droit_des_jardins_privatifs	A
+24l0l1	associés_aux	R
+24l0l2	maisons	O
+24l0l3	situés_en_rez_de_chaussée_des_immeubles	L
+24l0l4	et_au_droit_des	R
+24l0l5	espaces_verts	N
+24l0l6	futur_établissement_public	O
+24l1l0	métaux_lourds	S
+24l1l1	les_HAP	S
+24l1l2	solvants_chlorés	S
+
+#Au vu de la pollution de la nappe du Lutétien et dans le cadre de l'arrêté préfectoral du 22 décembre 2006, une évaluation détaillée des risques (EDR) pour la ressource en eau a été réalisée en 2007.
+
+25l0l0	la_nappe	O
+25l0l1	Lutétien	L
+25l0l2	22_décembre_2006__	T
+25l0l3	une_évaluation_détaillée_des_risques	N
+25l0l4	a_été_réalisée	N
+25l0l5	en_2007__	T
+
+#Cette étude a montré que la pollution de la nappe du Lutétien migrait à l'extérieur du site et que le panache de pollution était susceptible d'atteindre la Seine située à environ 3 km en aval du site.
+
+26l0l0	Cette_étude	N
+26l0l1	migrait	N
+26l0l2	à_l__extérieur_du_site	L
+26l0l3	atteindre_la_Seine_située_à_environ_3_km_en_aval_du_site	L
+
+#Toutefois, la modélisation réalisée sur le panache a conclu à l'absence d'impact sur la Seine compte tenu de l'effet de dilution et à l'absence d'impact sur le captage d'eau potable d'Andrésy, situé sur la rive opposée de l'Oise.
+
+27l0l0	la_modélisation	O
+27l0l1	la_Seine	L
+27l0l2	dilution	O
+27l0l3	le_captage	A
+27l0l4	Andrésy	L
+27l0l5	situé_sur_la_rive_opposée_de_l__Oise	L
+
+#Aucun puits privés n'a été identifié dans la zone du panache.
+
+28l0l0	été_identifié	N
+28l0l1	dans_la_zone_du_panache	L
+
+#Par arrêté préfectoral du 10 avril 2007, des mesures de réhabilitation du site pour un usage résidentiel et d'accueil de populations sensibles (enfants) ont été prescrites.
+
+29l0l0	Par_arrêté_préfectoral	O
+29l0l1	10_avril_2007__	T
+29l0l2	des_mesures_de_réhabilitation	N
+29l0l3	du_site	O
+29l0l4	un_usage_résidentiel	A
+29l0l5	ont_été_prescrites	N
+
+#Des travaux de dépollution des sols ont été réalisés au cours des mois d'avril à juin 2007 au droit des futurs jardins privatifs et des maisons d'habitation.
+
+30l0l0	Des_travaux_de_dépollution	N
+30l0l1	des_sols_ont_été_réalisés	N
+30l0l2	au_cours_des_mois_d__avril_à_juin_2007	T
+30l0l3	au_droit_des_futurs_jardins_privatifs	L
+30l0l4	maisons_d__habitation	A
+
+#Les terres souillées par les solvants chlorés ont été confinées sous un parking situé au nord du site et les terres polluées par les métaux lourds ont en majorité été évacuées et pour une partie confinées sous certaines voies de circulation et sous les espaces verts non privatifs.
+
+31l0l0	Les_terres_souillées	O
+31l0l1	ont_été_confinées	N
+31l0l2	sous_un_parking	O
+31l0l3	situé_au_nord_du_site	L
+31l0l4	les_terres_polluées	O
+31l0l5	métaux_lourds	O
+31l0l6	ont_en_majorité_été_évacuées	N
+31l0l7	les_espaces_verts	N
+31l1l0	les_solvants_chlorés	U
+31l1l1	métaux_lourds	S
+
+#Ces travaux de dépollution ont fait l'objet d'un procès-verbal de récolement de l'inspection des installations classées en date du 31 juillet 2007.
+
+32l0l0	Ces_travaux_de_dépollution	N
+32l0l1	ont_fait_l__objet_d_	R
+32l0l2	l__inspection_des_installations_classées	O
+32l0l3	en_date_du_31_juillet_2007__	T
+
+#Les niveaux de dépollution en tétrachloroéthylène fixés par l'arrêté préfectoral du 10 avril 2007 n'ont pas pu être atteints au niveau de la maille F12, compte tenu de la présence d'une couche de calcaires massifs à 5 m de profondeur.
+
+33l0l0	Les_niveaux	O
+33l0l1	de_dépollution	N
+33l0l2	l_	O
+33l0l3	10_avril_2007	T
+33l1l0	tétrachloroéthylène	S
+
+#L'exploitant a proposé de construire les deux maisons mitoyennes prévues sur cette maille sur un vide sanitaire et de mettre en place une géomembrane jusqu'à 5 m sous le vide sanitaire afin de limiter les transferts de vapeurs de tétrachloroéthylène dans ces habitations.
+
+34l0l0	L__exploitant	O
+34l0l1	a_proposé_de_construire	N
+34l0l2	les_deux_maisons_mitoyennes	O
+34l0l3	cette	O
+34l0l4	maille_sur_un_vide_sanitaire	L
+34l0l5	de_mettre_en_place_une_géomembrane	O
+34l0l6	le_vide_sanitaire	O
+34l1l0	tétrachloroéthylène	S
+
+#Cette solution a été validée par une analyse des risques résiduels (ARR).
+
+35l0l0	Cette_solution	O
+35l0l1	a_été_validée	N
+
+#L'ARR prévoyait également la présence d'une géomembrane et d'un vide sanitaire ventilé au droit de l'établissement public destiné à la petite enfance sur la parcelle AI 810.
+
+36l0l0	la_présence	O
+36l0l1	d__une_géomembrane	O
+36l0l2	au_droit_de_l__établissement_public	O
+36l0l3	destiné_à	R
+36l0l4	la_petite_enfance	O
+36l0l5	sur_la_parcelle	L
+
+#Par ailleurs, les calculs de risques sanitaires réalisés pour la présence d'un habitant des immeubles construits sur le site qui passerait une demi-heure par jour au droit du parking construit sur la zone de confinement des terres concluaient à des risques acceptables.
+
+37l0l0	immeubles	O
+37l0l1	construits	N
+37l0l2	au_droit_du_parking	L
+37l0l3	construit_sur	R
+37l0l4	la_zone_de_confinement_des_terres	O
+
+#Ainsi, l'ARR a conclu que la pollution résiduelle du site était compatible avec l'usage sensible (habitation et crèche) envisagé sous réserve de la prise en compte des mesures constructives et des restrictions d'usage.
+
+
+#Seule la parcelle AI 814 rétrocédée à la commune de Conflans-Sainte-Honorine conserve son usage industriel.
+
+39l0l0	rétrocédée_à	R
+39l0l1	la	O
+39l0l2	commune_de_Conflans___Sainte___Honorine	L
+39l0l3	conserve	R
+39l0l4	son_usage_industriel	A
+
+#Des servitudes contractuelles ont été prises par le propriétaire du site afin de pérenniser la situation du site.
+
+40l0l0	Des_servitudes_contractuelles	O
+40l0l1	ont_été_prises	N
+40l0l2	le_propriétaire_du_site	O
+
+#L'acte de vente comprenant ces servitudes a été inscrit au registre des hypothèques en août 2007.
+
+41l0l0	L__acte_de_vente	N
+41l0l1	comprenant	R
+41l0l2	ces_servitudes	O
+41l0l3	a_été_inscrit	N
+41l0l4	au_registre	L
+41l0l5	des_hypothèques	N
+41l0l6	en_août_2007__	T
+
+#Après achèvement de la construction en 2007, une mesure d'air ambiant dans le vide sanitaire des maisons construites sur une géomembrane a été réalisée en 2008 à la demande de l'inspection des installations classées.
+
+42l0l0	Après	R
+42l0l1	achèvement_de_la_construction	N
+42l0l2	en_2007__	T
+42l0l3	une_mesure	A
+42l0l4	maisons	O
+42l0l5	construites_sur_une_géomembrane	O
+42l0l6	a_été_réalisée	N
+42l0l7	en_2008	T
+42l0l8	à_la_demande_de	R
+42l0l9	l__inspection_des_installations_classées	O
+
+#Les résultats des calculs de risque sanitaire pour la voie d'exposition par inhalation de substances volatiles (type composés organo-halogénés volatils) indique que les niveaux de risque sanitaires sont inférieurs aux seuils de référence, pour les futurs usagers du site.
+
+43l0l0	inhalation_de_substances	N
+43l1l0	substances_volatiles	U
+43l1l1	composés_organo___halogénés_volatils	S
+
+#Après réhabilitation du site, l'analyse des risques résiduels a montré que les risques sanitaires étaient liés en grande partie aux polluants présents dans la nappe du Lutétien.
+
+44l0l0	Après_réhabilitation	N
+
+#La surveillance des eaux souterraines se poursuit selon les dispositions de l'arrêté préfectoral du 22 décembre 2006.
+
+45l0l0	La_surveillance_des_eaux_souterraines	A
+45l0l1	22_décembre_2006__	T
+
+#Les concentrations en polluants mises en évidence lors des campagnes de surveillance de la qualité des eaux souterraines de juin 2015 et d'avril 2017 restent inférieures aux valeurs prises en compte dans l'évaluation des risques sanitaires.
+
+46l0l0	des_campagnes_de_surveillance	N
+46l0l1	la_qualité_des_eaux_souterraines	O
+46l0l2	de_juin_2015	T
+46l0l3	avril_2017	T

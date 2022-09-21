@@ -1,0 +1,272 @@
+
+#95.0040
+#Le site de 33 ha est une ancienne zone d'extraction de sables qui a ensuite été comblée par différents dépôts et décharges de matériaux variés.
+
+0l0l0	Le_site_de_33_ha	O
+0l0l1	une_ancienne_zone	O
+0l0l2	a_ensuite_été_comblée	N
+
+#Différentes activités de casses automobiles se sont ensuite succédées sur le site avant d'être démantelées.
+
+1l0l0	Différentes_activités_de_casses_automobiles	O
+1l0l1	se_sont_ensuite_succédées	N
+1l0l2	le_site	O
+1l0l3	avant_d_	R
+1l0l4	être_démantelées	N
+
+#La commune a souhaité réhabiliter cette zone en 1990 pour un usage d'activités.
+
+2l0l0	La_commune	O
+2l0l1	a_souhaité_réhabiliter	N
+2l0l2	cette_zone	O
+2l0l3	en_1990	T
+2l0l4	un_usage_d__activités	A
+
+#Des études environnementales du sous sol ont été menées de 1998 à 2001 pour caractériser la nature et l'extension des pollutions présentes sur le site.
+
+3l0l0	Des_études_environnementales	N
+3l0l1	sous_sol	O
+3l0l2	ont_été_menées	N
+3l0l3	de_1998_à_2001	T
+
+#LA SARL PARCOLOG a lancé un projet de parc d'activités logistiques en 2001 (entrepôts de stockage et bâtiment de messageries) et a obtenu un arrêté d'autorisation le 05 novembre 2002 pour un bâtiment logistique (cet arrêté définit églament les travaux de remise en état du site pour un usage industriel, travaux qui doivent être effectués en préalable à la construction des bâtiments logistiques en projet).
+
+4l0l0	LA_SARL_PARCOLOG	O
+4l0l1	a_lancé	N
+4l0l2	un_projet_de_parc_d__activités_logistiques	O
+4l0l3	en_2001	T
+4l0l4	entrepôts_de_stockage_et_bâtiment_de_messageries	A
+4l0l5	a_obtenu	N
+4l0l6	un_arrêté_d__autorisation	O
+4l0l7	le_05_novembre_2002	T
+4l0l8	un_bâtiment_logistique	O
+4l0l9	les_travaux_de_remise_en_état_du_site	N
+4l0l10	un_usage_industriel	A
+4l0l11	doivent_être_effectués	N
+4l0l12	en_préalable_à	R
+4l0l13	la_construction	N
+4l0l14	des_bâtiments_logistiques	O
+4l1l0	LA_SARL_PARCOLOG	I
+
+#n mars 2004, le titre d'exploitant a été repris par la société SARLU ENTREPOT qui a demandé une extension de l'autorisation pour un ensemble de 3 autres bâtiments logistiques puis a retiré sa demande en 2005.
+
+5l0l0	n_mars_2004__	T
+5l0l1	le_titre_d__exploitant	O
+5l0l2	a_été_repris	N
+5l0l3	la_société_SARLU_ENTREPOT	O
+5l0l4	a_demandé	N
+5l0l5	une_extension	N
+5l0l6	l__autorisation	N
+5l0l7	3_autres_bâtiments_logistiques	O
+5l0l8	puis	R
+5l0l9	a_retiré	N
+5l0l10	sa_demande	O
+5l0l11	en_2005__	T
+5l1l0	la_société_SARLU_ENTREPOT	I
+
+#Les travaux de remise en état des sols de la moitié du site concerné par ce projet ont été réalisés en 2004.
+
+6l0l0	Les_travaux_de_remise_en_état_des_sols	N
+6l0l1	la_moitié_du_site_concerné	O
+6l0l2	ce_projet	O
+6l0l3	ont_été_réalisés	N
+6l0l4	en_2004__	T
+
+#Plusieurs bâtiments logistiques ont été construits (dont certains ne sont pas des installations classées et ne relèvent pas de l'arrêté susvisé).
+
+7l0l0	Plusieurs_bâtiments_logistiques	O
+7l0l1	ont_été_construits	N
+
+#Le site est touché par des remblais hétérogènes (débris de démolition ou déchets divers) et par des pollutions locales dans les remblais ou dans le sol(hydrocarbures, HAP, PCB, métaux lourds).
+
+8l0l0	Le_site	O
+8l0l1	est_touché	O
+8l0l2	remblais	N
+8l1l0	sol_hydrocarbures	S
+8l1l1	HAP	S
+8l1l2	PCB	S
+8l1l3	métaux_lourds	S
+
+#Enfin, sept tâches de pollutions organiques fortes ont été détectées sur le site.
+
+9l0l0	ont_été_détectées	N
+
+#Des objectifs de réhabilitation des sols pour remise en état à usage industriel ont été fixés par l'arrêté du 5 novembre 2002.
+
+10l0l0	Des_objectifs	O
+10l0l1	de_réhabilitation_des_sols	O
+10l0l2	remise_en_état	N
+10l0l3	à_usage_industriel	A
+10l0l4	ont_été_fixés	N
+10l0l5	l__arrêté	O
+10l0l6	5_novembre_2002	T
+
+#Une première tranche de réhabilitation a été menée de mars à avril 2004 pour atteindre les objectifs de réhabilitation fixés par l'arrêté préfectoral.
+
+11l0l0	Une_première_tranche_de_réhabilitation	O
+11l0l1	a_été_menée	N
+11l0l2	de_mars_à_avril_2004	T
+11l0l3	les_objectifs_de_réhabilitation	O
+11l0l4	fixés_par	R
+11l0l5	l__arrêté_préfectoral	O
+
+#BILAN des travaux phase 1 (environ la moitié du site) :
+
+12l0l0	BILAN_des_travaux_phase_1	O
+
+#Remblais et tas de déchets divers : 155 000m3 excavés et triés, 129 000m3 de fraction fine (diamètre < 50mm) réutilisés sur site après contrôle et 26 000 m3 de fraction grosse éliminés en centre agrées (80,5 t de ferrailles, 41,9t de bois, 94 t de pneus, 449t de plastiques et 1289t de gros blocs bétons).
+
+13l0l0	Remblais	O
+13l0l1	26_000_m3	O
+13l0l2	ferrailles	O
+13l0l3	gros_blocs_bétons	O
+13l1l0	pneus	S
+13l1l1	plastiques	S
+
+#Les contrôles par échantillonnage effectués lors du traitement de ces remblais ont nécessité 1419 analyses.
+
+14l0l0	Les_contrôles	N
+14l0l1	du_traitement	N
+14l0l2	ces_remblais	O
+14l0l3	ont	R
+
+#Tâches de pollution organiques : 50 tas (4700 m3) de terres excavées ont été traités sur site par le procédé TERRASTRIP (extraction en phase vapeur des polluants volatils qui sont ensuite captés par des filtres à charbons actifs).36 tas (soit 3470m3) étaient conformes aux objectifs après traitement et 14 tas non-conformes (1230m3) éliminés en centre agréé en septembre 2004.
+
+15l0l0	ont_été_traités_sur_site	N
+15l0l1	le_procédé_TERRASTRIP	N
+15l0l2	14_tas_non_conformes	N
+15l0l3	centre_agréé	O
+15l0l4	en_septembre_2004__	T
+15l1l0	pollution_organiques	U
+15l1l1	TERRASTRIP	I
+15l1l2	polluants_volatils	U
+15l1l3	charbons_actifs_36	U
+
+#Les contrôles par échantillonnage effectués lors du traitement de ces terres ont nécessité 946 analyses.
+
+16l0l0	Les_contrôles	N
+16l0l1	du_traitement	N
+16l0l2	ces_terres	O
+
+#es terres conformes ont été compactées sur 30 cm puis recouvertes de 30 cm de limon + chaux pour assurer l'étanchéité (couche qui sera elle même recouverte de dalle béton ou de goudron).
+
+17l0l0	es_terres_conformes	O
+17l0l1	ont_été_compactées	N
+17l0l2	dalle_béton	O
+
+#4 cuves d'hydrocarbures ont été déterrées lors des travaux, elles ont été nettoyées/dégazées puis éliminées en centre agrée ainsi que les résidus d'hydrocarbures qui se trouvaient dedans.
+
+18l0l0	4_cuves_d__hydrocarbures	O
+18l0l1	ont_été_déterrées_lors_des_travaux	N
+18l0l2	ont_été_nettoyées	N
+18l0l3	dégazées	N
+18l0l4	éliminées_en_centre	O
+18l0l5	agrée	R
+18l0l6	ainsi_que_les_résidus_d__hydrocarbures	O
+18l1l0	4_cuves_d_	D
+18l1l1	hydrocarbures	S
+18l1l2	résidus_d__hydrocarbures	U
+
+#Les travaux ont nécessité l'apport de 10 147 t de terres végétalisées pour mettre à niveau le site et 25 000m3 de limons extérieur pour assurer une couverture inerte au dessus des terres réutilisées.
+
+19l0l0	Les_travaux	N
+19l0l1	mettre_à_niveau	N
+19l0l2	le_site	O
+19l0l3	25_000m3_de_limons_extérieur	O
+19l0l4	au_dessus_des	L
+19l0l5	terres_réutilisées	N
+
+#Les analyses d'échantillons faites pendant les travaux ont montré l'absence de pollution des sols par des cyanures libres (taux inférieur aux seuils de quantification analytique)et l'absence de pollution significative des sols par les principaux composés organiques (COHV et BTEX) en dehors des tâches de pollution organique déjà identifiées.
+
+20l0l0	l__absence_de_pollution_des_sols	O
+20l1l0	des_cyanures_libres	S
+20l1l1	les_principaux_composés_organiques	S
+20l1l2	COHV	S
+20l1l3	BTEX	S
+
+#La concentration des principaux polluants dans les sols après réhabilitation est inférieure ou égale aux objectifs de réhabilitation fixés par l'arrêté:
+
+21l1l0	polluants	S
+
+#Hydrocarbures totaux: concentration moyenne de 259 mg/kg (objectif arrêté 2500 mg/kg)
+
+22l1l0	Hydrocarbures_totaux	S
+
+#PCB totaux: concentration moyenne de 0,82 mg/kg (objectif arrêté 17mg/kg)
+
+23l1l0	PCB_totaux	S
+
+#HAP totaux: concentration moyenne de 9,4 mg/kg
+
+24l1l0	HAP_totaux	S
+
+#La concentration des métaux lourds rencontrés sur le site (essentiellement Plomb et Cuivre) est inférieure aux seuils de lixiviation, ces composés peu mobiles sont donc piégés dans les terres compactées et recouvertes d'une couche imperméable inerte.
+
+25l1l0	métaux_lourds	S
+25l1l1	Plomb	S
+25l1l2	Cuivre	S
+
+#S'agissant des eaux souterraines, des teneurs en tétrachloroéthylène supérieures à la potabilité ont été mesurées sur un des 7 piézomètres.
+
+26l0l0	des_teneurs	O
+26l0l1	ont_été_mesurées	N
+26l1l0	tétrachloroéthylène	S
+
+#Il semblerait que cette pollution soit très localisée.
+
+
+#Une pollution en hydrocarbures a été relevée sur le piézomètre amont.
+
+28l0l0	Une_pollution_en_hydrocarbures	O
+28l0l1	a_été_relevée	N
+28l1l0	hydrocarbures	S
+
+#La phase 1 des travaux de réhabilitation est terminée depuis fin 2004 (50% du site), les phases de réhabilitation 2A, 2B, 4 et Z16 se sont déroulées de février 2006 à octobre 2007.
+
+29l0l0	La_phase_1	O
+29l0l1	des_travaux_de_réhabilitation	N
+29l0l2	est_terminée	N
+29l0l3	depuis_fin_2004	T
+29l0l4	50___du_site	O
+29l0l5	les_phases_de_réhabilitation	O
+29l0l6	se_sont_déroulées	N
+29l0l7	de_février_2006_à_octobre_2007__	T
+
+#La tranche 3 d'une superficie d'environ 4,5 ha a été réhabilitée pour un usage de transit (messagerie et de bureaux).
+
+30l0l0	La_tranche_3	O
+30l0l1	a_été_réhabilitée	N
+30l0l2	un_usage_de_transit	A
+30l0l3	messagerie_et_de_bureaux	A
+
+#Les travaux ont commencé le 25 octobre 2010 et ont été achevés le 11 mars 2011 :
+
+31l0l0	Les_travaux_ont_commencé	N
+31l0l1	le_25_octobre_2010	T
+31l0l2	ont_été_achevés	N
+31l0l3	le_11_mars_2011	T
+
+#- 32 000 m3 en place de remblais ont été excavés et triés,
+
+32l0l0	32_000_m3_en_place_de_remblais	O
+32l0l1	ont_été_excavés	N
+
+#- 4400 m3 ont été éliminés en centres extérieurs
+
+33l0l0	4400_m3	O
+33l0l1	ont_été_éliminés	N
+
+#- 13 800 m3 de terres ont été amenées sur le site.
+
+34l0l0	800_m3_de_terres	O
+34l0l1	ont_été_amenées	N
+34l0l2	le_site	O
+
+#La parcelle concernée par l'installation classée entrepôt SARLU, ayant été réhabilitée ainsi que les parcelles de l'ensemble du Pont Yblon, sauf élément nouveau, ce site ne nécessite pas de nouvelles actions de l'inspection des installations classées.
+
+35l0l0	La_parcelle_concernée	O
+35l0l1	l__installation_classée	O
+35l0l2	ayant_été_réhabilitée	N
+35l0l3	ainsi_que_les_parcelles	O
+35l0l4	Pont_Yblon	L
+35l0l5	ce_site	O

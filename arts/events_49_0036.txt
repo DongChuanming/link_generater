@@ -1,0 +1,507 @@
+
+#49.0036
+#Le site est situé dans la zone industrielle de Saint Barthélemy d’Anjou (voir plan 1).
+
+0l0l0	Le_site	O
+0l0l1	est_situé_dans_la_zone_industrielle_de_Saint_Barthélemy_d__Anjou	L
+
+#Les habitations les plus proches se situent d’une part à environ 200 m à l’est du site dans le quartier de la croix blanche et d’autre part à environ 700 m au sud-ouest du site dans le quartier de l’arceau.
+
+1l0l0	Les_habitations	O
+1l0l1	les_plus_proches	O
+1l0l2	à_environ_200_m_à_l__est_du	L
+1l0l3	site	O
+1l0l4	dans_le_quartier_de_la_croix_blanche	L
+1l0l5	à_environ_700_m_au_sud_ouest_du_site	L
+1l0l6	dans_le_quartier_de_l__arceau	L
+
+#Une nappe phréatique semi-captive et peu productive est présente au droit du site à faible profondeur (autour de 2,50 mètres).
+
+2l0l0	au_droit_du_site	L
+
+#Le sens général d’écoulement des eaux souterraines est très faible et la détermination du sens d’écoulement reste relativement incertain (certain rapport de bureau d’étude mentionne un écoulement d’Est en Ouest alors que d’autres le caractérise d’Ouest en Est), avec quelques inversions locales de gradient hydraulique induit, soit par la présence de zones de recharges par précipitation et ruissellement, soit par la présence d’une légère dépression à l’interface aquifère / substratum.
+
+3l0l0	inversions_locales	N
+3l0l1	la_présence_de_zones_de_recharges	O
+3l0l2	ruissellement	N
+
+#Aucun captage AEP n’est situé dans un rayon de 3 km autour du site et le site ne se trouve dans aucun périmètre de protection de captages.
+
+4l0l0	Aucun_captage_AEP	A
+4l0l1	est_situé_dans_un_rayon_de_3_km_autour_du_site	L
+4l0l2	le_site	O
+4l0l3	ne	R
+4l0l4	se_trouve_dans_aucun_périmètre	L
+4l0l5	de_protection	N
+
+#La société "Etablissements Langlois" s’est implantée sur le site en 1968 ; la zone était à vocation agricole avant d’être aménagée.
+
+5l0l0	La_société___Etablissements_Langlois	O
+5l0l1	s__est_implantée	N
+5l0l2	sur_le_site	L
+5l0l3	en_1968	T
+5l0l4	__la_zone	O
+5l0l5	était	R
+5l0l6	à_vocation_agricole	O
+5l0l7	avant	R
+5l0l8	d__être_aménagée	N
+5l1l0	La_société	I
+
+#Un arrêté préfectoral d’autorisation le 27 novembre 1969 a été délivré pour un dépôt de produits chimiques et pharmaceutiques, ainsi que 2 arrêtés complémentaires du 3 février 1970 relatif au stockage d’ammoniac anhydre et du 17 juin 1976.
+
+6l0l0	Un_arrêté_préfectoral_d__autorisation	O
+6l0l1	le_27_novembre_1969	T
+6l0l2	a_été_délivré	N
+6l0l3	un_dépôt_de_produits_chimiques_et_pharmaceutiques	O
+6l0l4	ainsi_que_2_arrêtés_complémentaires	O
+6l0l5	du_3_février_1970	T
+6l0l6	stockage_d__ammoniac	A
+6l0l7	anhydre	O
+6l0l8	17_juin_1976	T
+6l1l0	dépôt	D
+6l1l1	produits_chimiques	U
+6l1l2	ammoniac	S
+
+#En 28 février 2002, les "établissements Langlois" sont devenus SOLVADIS France (changement de dénomination sociale).
+
+7l0l0	En_28_février_2002__	T
+7l0l1	les___établissements_Langlois__	O
+7l0l2	sont_devenus	N
+7l0l3	SOLVADIS_France	O
+7l0l4	changement_de_dénomination_sociale	N
+7l1l0	les___établissements	I
+7l1l1	SOLVADIS_France	I
+
+#Cette société était spécialisée dans le négoce de produits chimiques et, l’installation principale était située à proximité de Rennes.
+
+8l0l0	Cette_société	O
+8l0l1	était_spécialisée_dans	R
+8l0l2	le_négoce_de_produits_chimiques	A
+8l0l3	l__installation_principale	O
+8l0l4	était	R
+8l0l5	située_à_proximité_de_Rennes	L
+8l1l0	produits_chimiques	U
+
+#Le site de Saint Barthélémy d’Anjou constituait un dépôt relais pour la livraison de la clientèle.
+
+9l0l0	Le_site	O
+9l0l1	Saint_Barthélémy_d__Anjou	L
+9l0l2	la_clientèle	O
+9l1l0	Saint_Barthélémy_d__Anjou	I
+
+#Sur le site de Saint Barthélémy d’Anjou, les installations autorisées comprenaient (cf. plans partie B):
+
+10l0l0	Saint_Barthélémy_d__Anjou	L
+10l0l1	les_installations_autorisées	O
+10l1l0	Saint_Barthélémy_d__Anjou	I
+
+#– un dépôt de chlorate de soude,
+
+11l1l0	un_dépôt_de	D
+11l1l1	chlorate_de_soude	U
+
+#– un dépôt aérien de liquides inflammables conditionnés en fûts,
+
+12l1l0	de_liquides_inflammables	U
+
+#– un dépôt de liquides inflammables en réservoirs enterrés.
+
+13l1l0	un_dépôt	D
+13l1l1	de_liquides_inflammables	U
+
+#Les liquides inflammables initialement stockés sur le site étaient des essences C et F, de l’alcool de l’acétone, du White Spirit, de la méthyléthylcétone, du xylène, du toluène et du pétrole désaromatisé.
+
+14l0l0	des_essences	O
+14l1l0	Les_liquides_inflammables	U
+14l1l1	des_essences_C	S
+14l1l2	l__alcool	S
+14l1l3	acétone	S
+14l1l4	du_White_Spirit	S
+14l1l5	méthyléthylcétone	S
+14l1l6	du_xylène	S
+14l1l7	du_toluène	S
+14l1l8	pétrole_désaromatisé	S
+
+#Au fil des ans ces produits ont été complétés par des composés halogénés (trichloréthane, chlorure de méthylène) ainsi que par des acides et bases.
+
+15l0l0	ces_produits	O
+15l0l1	ont_été_complétés	N
+15l0l2	des_acides	O
+15l1l0	composés_halogénés	S
+15l1l1	trichloréthane	S
+15l1l2	chlorure_de_méthylène	S
+
+#Les acides et bases étaient stockés en cuves aériennes et en fûts.
+
+16l0l0	Les_acides	O
+16l1l0	Les_acides	U
+
+#Les établissements Langlois ont notifié leur cessation d’activité en date du 9 décembre 1997.
+
+17l0l0	Les_établissements_Langlois	O
+17l0l1	ont_notifié_leur_cessation_d__activité	N
+17l0l2	en_date_du_9_décembre_1997__	T
+17l1l0	Les_établissements_Langlois	I
+
+#Actuellement, la société COGEMAD est propriétaire du site, qu’elle loue à une société Auto Distribution spécialisée dans la réparation/entretien de Poids Lourds.
+
+18l0l0	la_société_COGEMAD	O
+18l0l1	est_propriétaire	N
+18l0l2	du_site	O
+18l0l3	une_société_Auto_Distribution	O
+18l0l4	spécialisée_dans	R
+18l0l5	la_réparation___entretien_de_Poids_Lourds	A
+18l1l0	la_société_COGEMAD	I
+18l1l1	une_société_Auto_Distribution	I
+
+#Un premier diagnostic de pollution a été effectué sur le site des établissements Langlois dans le cadre de la vente du site.
+
+19l0l0	Un_premier_diagnostic_de_pollution	N
+19l0l1	a_été_effectué	N
+19l0l2	le_site	O
+19l0l3	établissements_Langlois	O
+19l0l4	dans_le_cadre_de	R
+19l0l5	la_vente	N
+19l0l6	du_site	O
+
+#Dix sondages ont été réalisés le 25/08/1997, dont 5 à proximité des cuves enterrées et 5 autres au droit des cuves et des zones de stockage de surface, ainsi que la pose de 2 piézomètres aux sondages T3 et T5 (voir plan cartographique partie B).
+
+20l0l0	Dix_sondages	O
+20l0l1	ont_été_réalisés	N
+20l0l2	le_25_08_1997	T
+20l0l3	5	O
+20l0l4	à_proximité_des_cuves_enterrées	L
+20l0l5	5_autres	O
+20l0l6	au_droit_des_cuves	L
+20l0l7	la_pose	N
+20l0l8	2_piézomètres	O
+20l1l0	cuves_enterrées	D
+20l1l1	cuves	D
+
+#Le pré-diagnostic a mis en évidence une acidification localisée des sols, de fortes odeurs de solvants en imprégnation des terrains ainsi qu’une pollution des eaux souterraines par plusieurs composés (acides, hydrocarbures, composés organochlorés, chlorures, etc.) dans des teneurs qui excèdent nettement les valeurs guides d’intervention (Composés Organo-Halogénés Volatils (COHV) = 2000 mg/L).
+
+21l0l0	Le_pré_diagnostic	N
+21l0l1	une_acidification_localisée	N
+21l0l2	sols	O
+21l0l3	imprégnation	A
+21l0l4	des_terrains	O
+21l0l5	qu_	R
+21l0l6	une_pollution	O
+21l0l7	eaux_souterraines	O
+21l1l0	odeurs_de_solvants	U
+21l1l1	composés	S
+21l1l2	acides	S
+21l1l3	hydrocarbures	S
+21l1l4	composés_organochlorés	S
+21l1l5	chlorures	S
+21l1l6	Composés_Organo___Halogénés_Volatils	S
+21l1l7	COHV	S
+
+#Une Évaluation Simplifiée des Risques a été effectuée le 31 octobre 1997 et conclut que le site est à surveiller avec une mise en place d’un dispositif de surveillance.
+
+22l0l0	Une_Évaluation_Simplifiée_des_Risques	N
+22l0l1	a_été_effectuée	N
+22l0l2	le_31_octobre_1997	T
+22l0l3	le_site	O
+22l0l4	surveiller	A
+22l0l5	une_mise_en_place_d__un	N
+22l0l6	dispositif_de_surveillance	A
+
+#Ces 2 rapports concluent en la nécessité d’effectuer un diagnostic approfondi afin de connaître l’étendue de la pollution et de préciser la source et les différents polluants en présence.
+
+23l0l0	de_préciser_la_source	O
+
+#Celui-ci a été demandé par arrêté préfectoral en date du 29 avril 1998.
+
+24l0l0	a_été_demandé	N
+24l0l1	par	R
+24l0l2	arrêté_préfectoral	O
+24l0l3	en_date_du_29_avril_1998__	T
+
+#L’exploitant a procédé à une information en date du 14 avril 1998, en indiquant que les installations de distribution n’existaient plus, que les cuves de corrosifs ont été vidées et démontées, et les cuves enterrées dégazées et neutralisées avec remplissage de sable.
+
+25l0l0	L__exploitant	O
+25l0l1	a_procédé	N
+25l0l2	à_une_information	N
+25l0l3	en_date_du_14_avril_1998__	T
+25l0l4	les_installations_de_distribution	O
+25l0l5	les_cuves_de_corrosifs	O
+25l0l6	ont_été_vidées	N
+25l0l7	démontées	N
+25l0l8	et_les_cuves_enterrées	O
+25l0l9	dégazées	N
+25l0l10	neutralisées_avec_remplissage_de_sable	N
+25l1l0	corrosifs	S
+25l1l1	les_cuves_enterrées	D
+
+#Le site a été vendu en 1998, le nouveau propriétaire a pris en charge le suivi de la dépollution du site et un bureau d'études a été mandaté à cet effet.
+
+26l0l0	Le_site	O
+26l0l1	a_été_vendu	N
+26l0l2	en_1998__	T
+26l0l3	le_nouveau_propriétaire	O
+26l0l4	a_pris_en_charge	N
+26l0l5	le_suivi	O
+26l0l6	de_la_dépollution	N
+26l0l7	du_site	N
+26l0l8	un_bureau_d__études	O
+26l0l9	a_été_mandaté	N
+26l0l10	à_cet_effet	N
+
+#Des diagnostics, réalisés en 2004 (12 sondages) et en 2006 (6 sondages sols et 3 piézomètres), font état de pollution dans les sols et les eaux souterraines qui ont mis en évidence des impacts en solvants chlorés, en COHV (composés organiques volatils) et en BTEX (principalement du tétrachloroéthylène et du trichloroéthylène) dans le sol et des impacts en solvants chlorés et en BTEX dans la nappe d’eau souterraine.
+
+27l0l0	Des_diagnostics	N
+27l0l1	réalisés	N
+27l0l2	en_2004	T
+27l0l3	en_2006	T
+27l0l4	les_eaux_souterraines	O
+27l1l0	solvants_chlorés	S
+27l1l1	COHV	S
+27l1l2	composés_organiques_volatils	S
+27l1l3	BTEX	S
+27l1l4	du_tétrachloroéthylène	S
+27l1l5	du_trichloroéthylène	S
+27l1l6	solvants_chlorés	S
+27l1l7	BTEX	S
+
+#Une surveillance trimestrielle a été effectuée sur la qualité des eaux souterraines de 1999 à 2003, puis bi-annuelle de 2004 à 2005.
+
+28l0l0	Une_surveillance_trimestrielle	A
+28l0l1	a_été_effectuée	N
+28l0l2	la_qualité_des_eaux_souterraines	O
+28l0l3	de_1999_à_2003__	T
+28l0l4	de_2004_à_2005__	T
+
+#La comparaison entre les différents suivis permet de mettre en évidence un axe d’écoulement dirigés vers le nord-est et de confirmer que le panache de pollution des eaux souterraines par des hydrocarbures totaux, des BTEX et des COHV (trichloroéthane, dichloroéthane, chlorure de vinyle, TCE/PCE, dichlorométhane, trichlorométhane) est présent au droit des piézomètres T3, T11 et T24 et ne s’étend pas au secteur des piézomètres T14, T15 et T16.
+
+29l0l0	dirigés_vers_le_nord_est	L
+29l0l1	panache_de_pollution_des_eaux_souterraines	O
+29l0l2	au_droit_des_piézomètres	L
+29l1l0	hydrocarbures_totaux	S
+29l1l1	des_BTEX	S
+29l1l2	des_COHV	S
+29l1l3	trichloroéthane	S
+29l1l4	dichloroéthane	S
+29l1l5	chlorure_de_vinyle	S
+29l1l6	TCE___PCE	S
+29l1l7	dichlorométhane	S
+29l1l8	trichlorométhane	S
+
+#La plupart des composés présentent des concentrations en légère diminution sans qu’il y ait cependant de changement de grandeur.
+
+
+#La forte pollution des eaux souterraines est donc confirmée par les différentes campagnes d’analyses de 1997 à 2005.
+
+31l0l0	La_forte_pollution_des_eaux_souterraines	O
+31l0l1	campagnes_d__analyses	N
+31l0l2	de_1997_à_2005__	T
+
+#En date du 2 mars 2015, l’audit approfondi réalisé en 1998 a été remis au repreneur du site.
+
+32l0l0	En_date_du_2_mars_2015__	T
+32l0l1	l__audit_approfondi	N
+32l0l2	réalisé	N
+32l0l3	en_1998	T
+32l0l4	a_été_remis	N
+32l0l5	au_repreneur_du_site	O
+
+#A cet effet, plusieurs dossiers (diagnostics et études) relatifs à la réalisation d’un schéma conceptuel (4 juillet 2012 - voir plan cartographique partie B), d’un plan de gestion ( 4juillet 2012) ainsi que d’une proposition de dépollution des sols (en juillet 2013) ont été réalisés par un bureau d’étude mandaté par le propriétaire.
+
+33l0l0	diagnostics	N
+33l0l1	relatifs_à	R
+33l0l2	la_réalisation_d_	N
+33l0l3	un_schéma_conceptuel	O
+33l0l4	__4_juillet_2012	T
+33l0l5	un_plan_de_gestion	O
+33l0l6	_	N
+33l0l7	4juillet_2012__	T
+33l0l8	dépollution	N
+33l0l9	des_sols__	N
+33l0l10	en_juillet_2013__	T
+33l0l11	ont_été_réalisés_par	N
+33l0l12	un_bureau_d__étude_mandaté	O
+33l0l13	par	R
+33l0l14	le_propriétaire	O
+
+#Les nouvelles investigations dans les sols et eaux souterraines ont eu lieu en 2010 et 2012 (6 +5 sondages + 2 piézomètres).
+
+34l0l0	Les_nouvelles_investigations	N
+34l0l1	les_sols_et_eaux_souterraines	O
+34l0l2	ont_eu_lieu	N
+34l0l3	en_2010_et_2012	T
+
+#Il en ressort :
+
+
+#- la présence d’impacts en COHV (principalement du m+p-xylène), BTEX (principalement du tétrachloroéthylène) dans le sol ;
+
+36l1l0	COHV	S
+36l1l1	du_m_p___xylène	S
+36l1l2	BTEX	S
+36l1l3	du_tétrachloroéthylène	S
+
+#- la présence de BTEX, notamment en COHV, d’alcènes et d’alcanes chlorés dans la nappe ;
+
+37l1l0	BTEX	S
+37l1l1	COHV	S
+37l1l2	d__alcènes	S
+37l1l3	d__alcanes_chlorés	S
+
+#Par ailleurs, la présence de six cuves enterrées a été confirmée au nord-ouest du site par des mesures Géoradar.
+
+38l0l0	la_présence_de_six_cuves_enterrées	O
+38l0l1	a_été_confirmée	N
+38l0l2	au_nord_ouest_du_site	L
+38l0l3	des_mesures_Géoradar	N
+38l1l0	cuves_enterrées	D
+
+#Il est conclu sur la base des investigations réalisées que des travaux de dépollution sont nécessaires pour protéger les enjeux identifiés (qualité de l’air dans les locaux professionnels et les usages éventuels de la nappe d’eau souterraine).
+
+39l0l0	des_travaux_de_dépollution	N
+39l0l1	les_usages_éventuels_de_la_nappe_d_	A
+
+#Sur la base des investigations réalisées, des travaux de dépollution ont été réalisés entre novembre 2013 et juillet 2014 au cours desquelles de nouveaux sondages (16) et piézomètres (4) ont été effectués :
+
+40l0l0	des_travaux_de_dépollution	N
+40l0l1	ont_été_réalisés	N
+40l0l2	entre_novembre_2013_et_juillet_2014	T
+40l0l3	de_nouveaux_sondages	N
+40l0l4	ont_été_effectués	N
+
+#- les six cuves enterrées ont été enlevées en décembre 2013 ;
+
+41l0l0	les_six_cuves_enterrées	O
+41l0l1	ont_été_enlevées	N
+41l0l2	en_décembre_2013	T
+
+#- les deux « zones sources » ont été excavées (emplacement des anciennes cuves aériennes de stockage à l’ouest du site et emplacement des anciennes cuves enterrées en limite ouest du site).
+
+42l0l0	les_deux_____zones_sources	O
+42l0l1	____ont_été_excavées	N
+42l0l2	__emplacement_des_anciennes_cuves_aériennes_de_stockage	O
+42l0l3	à_l__ouest_du_site	L
+42l0l4	et_emplacement	R
+42l0l5	des_anciennes_cuves_enterrées	O
+42l0l6	en_limite_ouest_du_site	L
+
+#Le volume réel de terres excavées était de 1800m³.
+
+43l0l0	1800m³_	O
+
+#Ces terres ont été traitées in situ au courant du premier semestre 2014 par broyage, aspiration des gaz qui ont été mélangés à de la chaux et filtrés sur charbon actif ;
+
+44l0l0	Ces_terres	O
+44l0l1	ont_été_traitées_in_situ	N
+44l0l2	au_courant_du_premier_semestre_2014	T
+44l0l3	broyage	O
+44l0l4	aspiration	N
+44l0l5	ont_été_mélangés	N
+44l0l6	charbon_actif	O
+44l1l0	charbon_actif	U
+
+#- un traitement de la nappe d’eau souterraine par injection de substance favorisant la dégradation des substances polluantes et une injection en aval du site pour réaliser une réduction complète évitant la création de sous-produits dangereux.
+
+45l0l0	un_traitement	N
+45l0l1	la_nappe	O
+45l0l2	injection_de_substance	O
+45l0l3	favorisant_la	N
+45l0l4	dégradation_des_substances_polluantes	O
+45l0l5	une_injection	O
+45l0l6	en_aval_du_site	L
+45l1l0	substances_polluantes	U
+45l1l1	sous_produits_dangereux	U
+
+#- mise en place d'une barrière réductrice par injection de fer zéro valent afin d'éviter la migration hors site des polluants;
+
+46l0l0	mise_en_place_d__une	N
+46l0l1	fer	O
+46l0l2	migration_hors_site_des_polluants	N
+46l1l0	fer_zéro	S
+46l1l1	polluants	U
+
+#- 18 forages ont été réalisés pour effectuer des injections dans la nappe d’eau souterraine pour traiter les pollutions (traitement par biodégradation anaérobie), dont 8 chez un terrain voisin où une pollution de la nappe a été détectée.
+
+47l0l0	18_forages	N
+47l0l1	ont_été_réalisés	N
+47l0l2	effectuer_des_injections	N
+47l0l3	traiter_les_pollutions	O
+47l0l4	8	O
+47l0l5	chez	L
+47l0l6	un_terrain_voisin	O
+47l0l7	la_nappe	O
+47l0l8	a_été_détectée	N
+
+#Les injections se feront sur un rythme allant à 3 fois par an sur une période de 4 ans.
+
+48l0l0	Les_injections	N
+48l0l1	période_de_4_ans	T
+
+#Des échantillons ont par la suite été prélevés sur les flancs de fouilles pour analyses (fonds de fouilles en zone saturée), ainsi qu’une analyse des terres excavées avant et après traitement.
+
+49l0l0	ont_par_la_suite_été_prélevés	N
+49l0l1	sur_les_flancs_de_fouilles	L
+49l0l2	saturée	O
+49l0l3	une_analyse	N
+49l0l4	après_traitement	N
+
+#Concernant les échantillons de sol prélevés en flancs de fouilles :
+
+
+#- la zone de fouille 1 présente des teneurs pour les COHV égales à 87,4 mg/kg MS au sud de la cette zone et égales à 399 mg/kg MS à l’est, et pour les BTEX des teneurs égales à 6,40 mg/kg MS au sud de cette zone ;
+
+51l0l0	la_zone	O
+51l0l1	au_sud_de_la_cette_zone	L
+51l1l0	les_COHV	S
+51l1l1	les_BTEX	S
+
+#- la zone de fouille 2 présente des teneurs en BTEX des flancs nord et ouest de cette zone respectivement égales à 280 et jusqu’à 260 mg/kg MS, et pour les COHV des teneurs égales à 9,86 mg/kg MS pour la partie Ouest de cette zone;
+
+52l1l0	BTEX	S
+52l1l1	les_COHV	S
+
+#- la zone de fouille 3 présente des teneurs en COHV égales à 12,29 mg/kg MS pour la partie Nord de cette zone.
+
+53l0l0	teneurs	O
+53l1l0	COHV	S
+
+#Concernant les échantillons de terre prélevés avant et après traitement :
+
+
+#- une baisse de teneurs en COHV et BTEX a été constatée après traitement avec des taux d’abattement compris entre 90 % et 99 %.
+
+55l1l0	COHV	S
+55l1l1	BTEX	S
+
+#- l’obtention des teneurs en COHV et BTEX inférieures à l’objectif de réhabilitation fixé à 5 mg/kg MS.
+
+56l1l0	COHV	S
+56l1l1	BTEX	S
+
+#Le remblaiement des zones a été effectué avec les terres excavées après traitement.
+
+57l0l0	Le_remblaiement	N
+57l0l1	des_zones	O
+57l0l2	a_été_effectué	N
+57l0l3	avec_les_terres_excavées	O
+
+#Le traitement des eaux souterraines est actuellement en cours.
+
+58l0l0	Le_traitement_des_eaux_souterraines	O
+58l0l1	est_actuellement_en_cours	T
+
+#Au bout de trente trois mois de traitement, des abattements sont observés en COGV totaux et en BTEX.
+
+59l0l0	Au_bout_de_trente_trois_mois	T
+59l1l0	COGV_totaux	S
+59l1l1	BTEX	S
+
+#En certains ouvrages, les objectifs de réhabilitation sont atteints (avec asymptote).
+
+60l0l0	réhabilitation	O
+
+#Il , néanmoins , des teneurs élevées en COHV au droit du site et au droit du site voisin.
+
+61l1l0	COHV	S
+
+#Le traitement est poursuivi à ce stade.
+

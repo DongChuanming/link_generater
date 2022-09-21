@@ -1,0 +1,92 @@
+
+#85.0005
+#SNAM-ANTIPOL est implantée dans l'enceinte de l'usine SVR sur la zone industrielle sud-est de Fontenay le Comte, près de la route départementale menant à Niort.
+
+0l0l0	SNAM___ANTIPOL	O
+0l0l1	est_implantée	N
+0l0l2	dans_l__enceinte_de	R
+0l0l3	l__usine_SVR	O
+0l0l4	sur_la_zone_industrielle_sud_est_de_Fontenay_le_Comte	L
+0l0l5	près_de_la_route_départementale_menant_à_Niort	L
+0l1l0	SNAM___ANTIPOL	I
+
+#Le voisinage immédiat est représenté par :
+
+1l0l0	Le_voisinage_immédiat	O
+
+#-des industries en bordure sud-ouest
+
+2l0l0	industries	O
+2l0l1	en_bordure_sud_ouest	L
+
+#-des champs agricoles en bordure Nord-Est.
+
+3l0l0	champs_agricoles	O
+3l0l1	en_bordure_Nord_Est	L
+
+#Les premières habitations se trouvent à environ 450 m.
+
+4l0l0	Les_premières_habitations	O
+4l0l1	se_trouvent_à_environ_450_m_	L
+
+#SNAM-ANTIPOL est spécialisée dans la collecte, le tri et le traitement des déchets industriels spéciaux.
+
+5l0l0	SNAM___ANTIPOL	O
+5l0l1	est_spécialisée_dans	R
+5l0l2	la_collecte	N
+5l0l3	le_tri_et_le_traitement_des_déchets_industriels_spéciaux	A
+5l1l0	SNAM___ANTIPOL	I
+5l1l1	des_déchets_industriels_spéciaux	U
+
+#SNAM-ANTIPOL a fait l'objet d'un arrêté préfectoral du 27/01/1998 prescrivant l'obligation de réaliser un diagnostic initial avec évaluation simplifiée des risques afin de cerner une éventuelle pollution des sols.
+
+6l0l0	SNAM___ANTIPOL	O
+6l0l1	a_fait_l__objet_d_	R
+6l0l2	un_arrêté_préfectoral	O
+6l0l3	27_01_1998	T
+6l0l4	prescrivant_l__obligation_de_réaliser_un_diagnostic_initial	N
+6l0l5	évaluation_simplifiée_des_risques	N
+6l0l6	afin_de_cerner	R
+6l0l7	une_éventuelle_pollution_des_sols	O
+6l1l0	SNAM___ANTIPOL	I
+
+#Le diagnostic de sols réalisé sur les zones identifiées par la SNAM au  cours de l'étude historique (étape A réalisée en décembre 1998), met en évidence 2 sources de pollution par les hydrocarbures, dont les quantités estimatives sont les suivantes :
+
+7l0l0	Le_diagnostic_de_sols	N
+7l0l1	les_zones	O
+7l0l2	identifiées	N
+7l0l3	la_SNAM	O
+7l0l4	réalisée_en_décembre_1998	T
+7l0l5	évidence_2_sources_de_pollution	O
+7l0l6	les_hydrocarbures	O
+7l1l0	la_SNAM	I
+7l1l1	les_hydrocarbures	S
+
+#-Fosse de reprise : 25 m3 contenant 0.2% d'hydrocarbures en moyenne
+
+8l1l0	_Fosse	D
+8l1l1	hydrocarbures	S
+
+#-Ancienne lagunes : 7000 m3 de sols contenant 2% d'hydrocarbures en moyenne
+
+9l1l0	_Ancienne_lagunes	I
+9l1l1	hydrocarbures	S
+
+#L'évaluation simplifiée des risques remise début 2000 a classé le site en catégorie 2, c'est à dire parmi les sites à surveiller.
+
+10l0l0	L_	O
+10l0l1	évaluation_simplifiée_des_risques_remise	N
+10l0l2	début_2000	T
+10l0l3	a_classé	N
+10l0l4	le_site	O
+10l0l5	en	R
+10l0l6	catégorie_2	O
+
+#Un piézomètre implanté en aval hydraulique permet d'assurer le suivi de la qualité des eaux souterraines. l'arrêté préfectoral du 6/07/2001 a formalisé cette disposition.
+
+11l0l0	piézomètre	O
+11l0l1	implanté	R
+11l0l2	en_aval_hydraulique	L
+11l0l3	suivi_de_la_qualité_des_eaux_souterraines	A
+11l0l4	l__arrêté_préfectoral	O
+11l0l5	6_07_2001	T

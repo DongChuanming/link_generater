@@ -1,0 +1,75 @@
+
+#68.0221
+#La société des Papeteries de Turckheim est le dernier exploitant d'une activité de fabrication de papiers à Turckheim.
+
+0l0l0	La_société_des_Papeteries	O
+0l0l1	de_Turckheim	O
+0l0l2	exploitant	O
+0l0l3	d__une_activité_de_fabrication_de_papiers	A
+0l0l4	à_Turckheim	O
+0l1l0	La_société_des_Papeteries	I
+
+#La fabrication de papier a commencé au milieu du XIX° siècle et a pris fin en mai 2010.
+
+1l0l0	La_fabrication_de_papier	A
+1l0l1	a_commencé	N
+1l0l2	au_milieu_du_XIX___siècle	T
+1l0l3	a_pris_fin	N
+1l0l4	en_mai_2010__	T
+
+#Les Papeteries de Turckheim ont été mises en liquidation judiciaire en mars 2011.
+
+2l0l0	Les_Papeteries_de_Turckheim	O
+2l0l1	ont_été_mises_en_liquidation_judiciaire	N
+2l0l2	en_mars_2011__	T
+2l1l0	Les	I
+
+#Le site se décompose en deux parties :
+
+
+#- à l'ouest, site dit n°1, d'environ 6,7 hectares
+
+4l0l0	à_l__ouest	L
+
+#- à l'est, site n°2, d'environ 15 hectares, où des parcelles affectées à l'usage industriel jouxtent une partie d'environ 6,3 hectares affectés à la culture de la vigne.
+
+5l0l0	à_l__est	L
+5l0l1	des_parcelles	O
+5l0l2	affectées_à	R
+5l0l3	l__usage_industriel	A
+5l0l4	jouxtent	R
+5l0l5	une_partie	O
+5l0l6	affectés	R
+5l0l7	à_la_culture_de_la_vigne	A
+
+#Les deux sites ont été mis en sécurité par l’État sous maîtrise d’ouvrage délégué à l’ADEME en 2012 par l'élimination des transformateurs au PCB et des déchets dangereux.
+
+6l0l0	Les_deux_sites	O
+6l0l1	ont_été_mis_en_sécurité	N
+6l0l2	l__État	O
+6l0l3	sous_maîtrise_d__ouvrage	O
+6l0l4	délégué	N
+6l0l5	l__ADEME	O
+6l0l6	en_2012	T
+6l0l7	l__élimination_des_transformateurs	N
+6l0l8	déchets_dangereux	N
+6l1l0	PCB	S
+6l1l1	des_déchets_dangereux	U
+
+#Le mémoire de réhabilitation (ICF Environnement, décembre 2012) a mis en évidence une pollution aux hydrocarbures sous la station de distribution de carburants.
+
+7l0l0	Le_mémoire_de_réhabilitation	O
+7l0l1	décembre_2012__	T
+7l0l2	a_mis_en_évidence	R
+7l0l3	une_pollution_aux	N
+7l0l4	hydrocarbures_sous_la_station_de_distribution_de_carburants	O
+7l1l0	ICF	I
+7l1l1	hydrocarbures	S
+7l1l2	carburants	U
+
+#Le procès-verbal de fin de travaux a été délivré en mars 2015 pour un usage industriel.
+
+8l0l0	Le_procès_verbal_de_fin_de_travaux	O
+8l0l1	a_été_délivré	N
+8l0l2	en_mars_2015	T
+8l0l3	un_usage_industriel	N

@@ -1,0 +1,271 @@
+
+#60.0131
+#Le site est localisé en bordure ouest de l'agglomération.
+
+0l0l0	Le_site	O
+0l0l1	localisé_en_bordure_ouest_de_l__agglomération	L
+
+#Le site est entouré par un quartier résidentiel au sud, à l'Est un parc, au Nord des batiments techniques du conseil departemental et a l'ouest une friche.
+
+1l0l0	Le_site	O
+1l0l1	est_entouré_par	R
+1l0l2	un_quartier_résidentiel	O
+1l0l3	au_Nord_des_batiments_techniques_du	L
+1l0l4	conseil_departemental	O
+1l0l5	ouest	T
+1l0l6	une_friche	L
+
+#La Béronelle et la breche sont deux cours d'eau qui s'écoulent à l'ouest du site à environ 300m et 1km respectivement.
+
+2l0l0	breche	O
+2l0l1	écoulent_à_l__ouest_du_site_à_environ_300_m	L
+
+#L'aire du site est de 27 000m².
+
+3l0l0	L__aire	O
+
+#La société PCE y exploitait des installations de fabrication de pièces moteur pour voitures (chemises et pistons) autorisées par arrêté préfectoral du 26 mars 1984 (fonderie de métaux non ferreux, traitement des métaux par voie chimique, travail mecanique des metaux).
+
+4l0l0	La_société_PCE	O
+4l0l1	exploitait	R
+4l0l2	des_installations	O
+4l0l3	de_fabrication_de_pièces_moteur	A
+4l0l4	arrêté_préfectoral	O
+4l0l5	26_mars_1984	T
+4l0l6	fonderie_de_métaux_non_ferreux	A
+4l0l7	traitement_des_métaux	A
+4l0l8	travail_mecanique_des_metaux	A
+4l1l0	La_société_PCE	I
+
+#La cessation d'activité a été déclarée en 1999.
+
+5l0l0	La_cessation_d__activité	N
+5l0l1	a_été_déclarée	N
+5l0l2	en_1999__	T
+
+#Dans le cadre de la cessation d'activités, la société PCE a :
+
+6l0l0	Dans_le_cadre_de	R
+6l0l1	la_cessation_d__activités	N
+6l0l2	la_société_PCE	O
+6l1l0	la_société_PCE	I
+
+#- vidangé et nettoyé les cuves de stockage et bains de lignes de production (BSDD remis),
+
+7l0l0	vidangé	N
+7l0l1	nettoyé	N
+7l1l0	les_cuves_de_stockage	D
+
+#- évacué 3 anciennes cuves de fioul et 135 tonnes de terres souillées en octobre 2000,
+
+8l0l0	3_anciennes_cuves_de_fioul	O
+8l0l1	135_tonnes_de_terres_souillées	O
+8l0l2	en_octobre_2000__	T
+8l1l0	3_anciennes_cuves_de	D
+8l1l1	fioul	U
+
+#- éliminé les déchets et produits présents,
+
+9l1l0	les_déchets	U
+
+#- démantelé les installations et éliminé le transformateur au PCB en 1999,
+
+10l0l0	démantelé	N
+10l0l1	les_installations	N
+10l0l2	éliminé_le_transformateur	N
+10l0l3	PCB	O
+10l0l4	en_1999__	T
+10l1l0	PCB	S
+
+#- réalisé un diagnostic de l'état des sols et des eaux souterraines en 1997, complété en 1999.
+
+11l0l0	réalisé_un_diagnostic	N
+11l0l1	l__état_des_sols_et_des_eaux_souterraines	O
+11l0l2	en_1997___complété	T
+11l0l3	en_1999__	T
+
+#Les investigations réalisées en 1997/1999 ont détectées :
+
+12l0l0	Les_investigations_réalisées	N
+12l0l1	en_1997_1999	T
+12l0l2	ont_détectées	N
+
+#- ponctuellement des hydrocarbures dans les sols (jusqu'à 27 600mg/kg [zone excavée en 2000])
+
+13l1l0	hydrocarbures	S
+
+#- une contamination de la nappe aux hydrocarbures (jusqu'à 4.3mg/l), trichloroéthylène (jusqu'à 24 000µg/l), 1-2 dicholoroéthylène (jusqu'à 3000µg/l), au chlorure de vinyle (jusqu'à 170µg/l) et au 1-1 dichloroéthylène, 1-1 dichloroéthane, tetrachloroéthylène.
+
+14l0l0	une_contamination	N
+14l0l1	la_nappe	O
+14l1l0	hydrocarbures	S
+14l1l1	trichloroéthylène	S
+14l1l2	dicholoroéthylène	S
+14l1l3	chlorure_de_vinyle	S
+14l1l4	1___1_dichloroéthylène	S
+14l1l5	1___1_dichloroéthane	S
+14l1l6	tetrachloroéthylène	S
+
+#L'Evaluation simplifiée des risques menée conclut à un classement de catégorie 2, soit un site à surveiller et recommande la dépollution de la nappe d'eau souterraine.
+
+15l0l0	Evaluation_simplifiée_des_risques	N
+15l0l1	catégorie_2	O
+15l0l2	recommande	R
+15l0l3	la_dépollution	N
+15l0l4	la_nappe_d__eau_souterraine	O
+
+#La société PCE a communiqué une évaluation détaillée des risques en mars 2001, pour un usage industriel, qui conclut à un niveau de risque acceptable concernant la pollution des sols, mais à la nécessité de dépolluer la nappe d'eau souterraine.
+
+16l0l0	La_société_PCE	O
+16l0l1	a_communiqué	N
+16l0l2	une_évaluation_détaillée_des_risques	N
+16l0l3	en_mars_2001__	T
+16l0l4	un_usage_industriel	A
+16l0l5	dépolluer	N
+16l0l6	la_nappe	O
+16l1l0	La_société_PCE	I
+
+#La société PCE a donc transmis en complément un plan d'opération de dépollution de la nappe en juin 2001.
+
+17l0l0	La_société_PCE	O
+17l0l1	a_donc_transmis	N
+17l0l2	en_complément	N
+17l0l3	un_plan_d__opération	O
+17l0l4	de_dépollution	N
+17l0l5	la_nappe	O
+17l0l6	en_juin_2001	T
+17l1l0	La_société_PCE	I
+
+#Monsieur le Prefet a prescrit à la société PCE par arrêté préfectoral du 11 fevrier 2002 , la réalisation des travaux de dépollution de la nappe souterraine, la proposition de servitudes à mettre en oeuvre suite aux travaux, et la remise d'une évaluation complémentaire des risques hors site.
+
+18l0l0	Monsieur_le_Prefet	O
+18l0l1	a_prescrit	N
+18l0l2	la_société_PCE	O
+18l0l3	par	R
+18l0l4	arrêté_préfectoral	O
+18l0l5	11_fevrier_2002	T
+18l0l6	la_réalisation	N
+18l0l7	des_travaux_de_dépollution	N
+18l0l8	la_nappe_souterraine	O
+18l0l9	la_proposition_de_servitudes	O
+18l0l10	la_remise	O
+18l0l11	d_	R
+18l0l12	une_évaluation_complémentaire_des_risques_hors_site	O
+18l1l0	le_Prefet	I
+18l1l1	la_société_PCE	I
+
+#Lʼarrêté du 11 Février 2002 impose à Perfect Circle Europe la dépollution des eaux souterraines jusquʼà lʼatteinte des seuils suivants :
+
+19l0l0	11_Février_2002	T
+19l0l1	impose	N
+19l0l2	Circle_Europe	O
+19l0l3	la_dépollution	N
+19l0l4	eaux_souterraines	O
+19l1l0	Perfect_Circle_Europe	I
+
+#- Composés organo-halogénés (AOX) : 1 mg/L
+
+20l1l0	Composés_organo___halogénés	S
+20l1l1	AOX	S
+
+#- Hydrocarbures totaux : 3 mg/L
+
+21l1l0	Hydrocarbures_totaux	S
+
+#- Trichloroéthylène (TCE) : 0,1 mg/Lg
+
+22l1l0	Trichloroéthylène	S
+22l1l1	TCE	S
+
+#- 1,1-dichloroéthane, 1,1-dichloroéthylène, 1,2-dichloroéthylène et 1,1,1-trichloroéthylène : 1 mg/L en cumulé.
+
+23l1l0	1_1_dichloroéthane	S
+23l1l1	1_1_dichloroéthylène	S
+23l1l2	1_2_dichloroéthylène	S
+23l1l3	1_1_1_trichloroéthylène	S
+
+#En 2003 ont débuté les travaux de dépollution de la nappe d'eau souterraine.
+
+24l0l0	En_2003	T
+24l0l1	ont_débuté	N
+24l0l2	les_travaux_de_dépollution	N
+24l0l3	la_nappe_d__eau_souterraine	O
+
+#Le rapport dʼactivité n°12 est relatif à la campagne dʼéchantillonnage de Mars 2008, il s'agit du dernier rapport.
+
+25l0l0	relatif_à	R
+25l0l1	la_campagne_dʼéchantillonnage	N
+25l0l2	de_Mars_2008__	T
+
+#Le système a permis de récupérer 67 kg de COHV mais les seuils de réhabilitation imposés par l'AP de 2002 à la société PCE n'ont pas été atteints.
+
+26l0l0	COHV	O
+26l0l1	réhabilitation	O
+26l0l2	imposés_par	R
+26l0l3	l__AP	O
+26l0l4	la_société_PCE	O
+26l1l0	COHV	S
+26l1l1	la_société_PCE	I
+
+#En mars 2005, le site a été vendu à la commune de Liancourt.
+
+27l0l0	En_mars_2005__	T
+27l0l1	le_site	O
+27l0l2	a_été_vendu	N
+27l0l3	à_la_commune_de_Liancourt	L
+
+#En mars 2015, une nouvelle évaluation environnementale (eau, sol, gaz du sol) a été conduite à la demande de la mairie de Liancourt, réalisée en référence à la méthodologie nationale établie par les circulaires du 8 février 2007 et les outils méthodologiques concernant la gestion des sites pollués.
+
+28l0l0	En_mars_2015__	T
+28l0l1	une_nouvelle_évaluation_environnementale	N
+28l0l2	a_été_conduite_à_la_demande	N
+28l0l3	de	R
+28l0l4	la_mairie	O
+28l0l5	de_Liancourt	L
+28l0l6	8_février_2007	T
+28l0l7	sites_pollués	O
+
+#Cette évaluation conclut à une pollution des sols et de la nappe d'eau souterraine toujours présentes, notamment :
+
+29l0l0	une_pollution_des_sols	N
+
+#Problématique sol :
+
+
+#- Zone de pollution concentrée aux métaux (Cuivre et Nickel) dans la zone des sondages T1 et T2,
+
+31l0l0	Zone_de_pollution_concentrée	O
+31l0l1	dans_la_zone_des_sondages	L
+31l1l0	métaux	S
+31l1l1	Cuivre	S
+31l1l2	Nickel	S
+
+#- Pollution diffuse en hydrocarbures totaux (HCT), en surface comme en profondeur, sur lʼensemble du site,
+
+32l1l0	hydrocarbures_totaux	S
+32l1l1	HCT	S
+
+#- Pollution diffuse en composés chlorés (COHV) avec une zone concentrée en surface du sondage T5,
+
+33l0l0	une_zone	O
+33l1l0	composés_chlorés	S
+33l1l1	COHV	S
+
+#- Impact localisé en PCB dans la zone du sondage T21.
+
+34l1l0	PCB	S
+
+#Problématique eau souterraine
+
+
+#- Pollution concentrée en composés chlorés (COHV) en PzG,
+
+36l1l0	composés_chlorés	S
+36l1l1	COHV	S
+36l1l2	PzG	S
+
+#- Pollution en hydrocarbures totaux (HCT) en PzF
+
+37l1l0	hydrocarbures_totaux	S
+37l1l1	HCT	S
+37l1l2	PzF	I

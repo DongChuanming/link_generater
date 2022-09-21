@@ -1,0 +1,219 @@
+
+#34.0042
+#Le site concerné est une station-service en activité, soumise à enregistrement, situé dans le centre commercial en limite de zone urbaine.
+
+0l0l0	Le_site_concerné	O
+0l0l1	situé_dans_le_centre_commercial_en_limite_de_zone_urbaine	L
+
+#Suite à une visite de l'inspection des installations classées réalisée en 2011, il a été demandé à l'exploitant de réaliser une étude hydrogéologique et d'implanter le cas échéant les piézomètres nécessaires. 3 piézomètres (Pz1, Pz2 et Pz3) ont été implantés en décembre 2011.
+
+1l0l0	Suite_à	R
+1l0l1	une_visite	N
+1l0l2	l__inspection_des_installations_classées	O
+1l0l3	en_2011__	T
+1l0l4	il	O
+1l0l5	a_été_demandé	N
+1l0l6	l__exploitant	O
+1l0l7	de_réaliser_une_étude_hydrogéologique	N
+1l0l8	d__implanter_le_cas_échéant	N
+1l0l9	ont_été_implantés	N
+1l0l10	en_décembre_2011__	T
+
+#Les résultats d'analyses du 09/12/2011 ont montré une pollution significative en aval de la station-service en hydrocarbures et BTEX au droit de Pz2 et Pz3.
+
+2l0l0	09_12_2011	T
+2l0l1	une_pollution_significative	N
+2l0l2	en_aval_de_la_station	L
+2l0l3	BTEX	O
+2l0l4	au_droit_de_Pz2	L
+2l1l0	hydrocarbures	S
+2l1l1	BTEX	S
+
+#L'inspection des installations classées a demandé la vérification de l'étanchéité des cuves et tuyauteries, la réalisation d'une nouvelle campagne de mesures dans les piézomètres afin de connaître l'évolution de la pollution et une étude historique du site.
+
+3l0l0	L__inspection_des_installations_classées	O
+3l0l1	a_demandé_la_vérification	N
+3l0l2	l__étanchéité	O
+3l0l3	cuves	O
+3l0l4	la_réalisation_d__une_nouvelle_campagne_de_mesures_dans_les	N
+3l0l5	piézomètres	O
+
+#Par courrier du 22/08/2012, l'inspection des installations classées a demandé à l'exploitant d'expliquer les causes de cette pollution (détermination de la zone source), de mettre en œuvre les actions correctives nécessaires pour stopper toute fuite éventuelle à l'origine de cette pollution (mesures de gestion).
+
+4l0l0	22_08_2012	T
+4l0l1	l__inspection_des_installations_classées	O
+4l0l2	l__exploitant	O
+4l0l3	la_zone_source	O
+4l0l4	mettre_en	O
+
+#En janvier 2013 la station service a fait l'objet d'un investissement important pour sa rénovation et mises aux normes.
+
+5l0l0	En_janvier_2013	T
+5l0l1	la_station_service	O
+5l0l2	a_fait_l__objet_d_	R
+5l0l3	un_investissement	N
+5l0l4	rénovation_et_mises_aux_normes	N
+
+#Un courrier de la DREAL fin 2014 demande :
+
+6l0l0	la_DREAL	O
+6l0l1	fin_2014	T
+6l1l0	la_DREAL	I
+
+#- un passage à des analyses bimestrielles,
+
+7l0l0	un_passage	N
+
+#- à ce que les niveaux de nappe au droit des piézomètres soit correctement nivelés au  niveau NGF pour vérifier les sens d'écoulement,
+
+
+#- les actions faites, prévues ou envisagées pour réduire les teneurs assorties d'une analyse critique des résultats d'analyses.
+
+9l0l0	envisagées	O
+
+#En réponse, une campagne de diagnostic des sols et eaux souterraines a permis de définir :
+
+10l0l0	une_campagne_de_diagnostic	N
+
+#• une contamination des sols au gazole (HC C10-C40, BTEX) entre 3 et 4,5 m (ancienne cuve gazole de 1994) au niveau des cuves de stockage enterrées,
+
+11l0l0	une_contamination_des_sols	N
+11l0l1	gazole	O
+11l0l2	de_1994	T
+11l1l0	gazole___HC_C10_C40	S
+11l1l1	BTEX	S
+11l1l2	gazole	S
+11l1l3	cuves_de_stockage_enterrées	D
+
+#• une contamination mixte « essence/gazole » (HC C10-C40, BTEX) des sols entre 3 et 4,5 mètres de profondeur en aval station probablement liée à une fuite des anciennes cuves, des canalisations de carburants au sud de l’aire de distribution et  à l’effet de battement de la nappe,
+
+12l0l0	une_contamination	N
+12l0l1	en_aval	L
+12l0l2	au_sud_de_l__aire	L
+12l0l3	de_distribution	N
+12l0l4	de_battement	N
+12l1l0	essence	S
+12l1l1	gazole	S
+12l1l2	HC_C10_C40	S
+12l1l3	BTEX	S
+12l1l4	cuves	D
+12l1l5	carburants	U
+
+#• des contaminations de surface au gazole et/ou essence (HC C10-C40, BTEX) proche de l’aire de distribution, liées aux activités de surface et à l’infiltration des eaux de ruissellement de la zone,
+
+13l0l0	aux_activités_de_surface	A
+13l0l1	l_	N
+13l0l2	infiltration_des_eaux_de_ruissellement_de_la_zone	L
+13l1l0	gazole	S
+13l1l1	HC_C10_C40	S
+13l1l2	BTEX	S
+
+#• une contamination des eaux souterraines en aval station (HC C10-C40, BTEX, HAP).
+
+14l0l0	une_contamination	N
+14l0l1	eaux_souterraines	O
+14l0l2	en_aval_station	L
+14l1l0	HC_C10_C40	S
+14l1l1	BTEX	S
+14l1l2	HAP	S
+
+#A la demande de l’inspection, l’exploitant a réalisé par la suite un bilan coûts/avantages des techniques possibles de réhabilitation et une étude d’interprétation des milieux (IEM) qui conclut à une absence d’impact sur les cibles situées en aval hydraulique de la pollution.
+
+15l0l0	A_la_demande_de	R
+15l0l1	l__inspection	O
+15l0l2	l__exploitant	O
+15l0l3	a_réalisé	N
+15l0l4	par	T
+15l0l5	la_suite	O
+15l0l6	un_bilan	N
+15l0l7	coûts___avantages_des_techniques_possibles	O
+15l0l8	réhabilitation	N
+15l0l9	une_étude	N
+15l0l10	d__interprétation_des_milieux	O
+15l0l11	d__impact	O
+15l0l12	les_cibles	O
+15l0l13	situées_en_aval_hydraulique_de_la_pollution	L
+
+#Le procédé retenu pour la réhabilitation est un traitement in situ des eaux souterraines par extraction multi-phase (pompage simultané des gaz du sol, des eaux de la nappe et des hydrocarbures surnageants).
+
+16l0l0	la_réhabilitation	O
+16l0l1	un_traitement_in_situ	N
+16l0l2	eaux_souterraines	O
+16l0l3	pompage	N
+16l0l4	hydrocarbures	O
+16l1l0	hydrocarbures_surnageants	U
+
+#L’unité de traitement a démarré en janvier 2018 (9 ouvrages de pompage, 2 puits de réinjection) ; un dispositif de surveillance constitué de 3 piézomètres a permis de suivre son efficacité.
+
+17l0l0	L__unité_de_traitement	O
+17l0l1	a_démarré	N
+17l0l2	en_janvier_2018	T
+17l0l3	de_surveillance	A
+
+#Ce suivi (15 prélèvements dont 9 après la mise en place des mesures de gestion) a fait apparaître une baisse générale des teneurs, décroissance particulièrement prononcée pour les paramètres HCT C10-C40 et BTEX.
+
+18l0l0	Ce_suivi	N
+18l0l1	la_mise_en_place_des_mesures	N
+18l1l0	les_paramètres_HCT_C10_C40	S
+18l1l1	BTEX	S
+
+#Pour ces 2 composés, une stabilisation des teneurs est apparu suite à une forte décroissance des concentrations ; cette stabilisation pouvant laisser envisager l’atteinte des limites techniques du traitement.
+
+19l0l0	une_stabilisation	N
+19l0l1	teneurs	O
+19l0l2	est_apparu	N
+19l0l3	suite_à	R
+19l0l4	une_forte_décroissance	N
+
+#Aussi à la demande de l'exploitant, le procédé a été mis à l’arrêt en avril 2019 afin de procéder à un test d’arrêt de 3 mois et vérifier l’apparition d’un éventuel « effet rebond ».
+
+20l0l0	la_demande	N
+20l0l1	l__exploitant	O
+20l0l2	le_procédé	O
+20l0l3	a_été_mis_à_l__arrêt	N
+20l0l4	en_avril_2019	T
+20l0l5	un_test_d__arrêt	N
+20l0l6	3_mois	T
+20l0l7	l__apparition	N
+
+#Le bilan des 15 mois de traitement est le suivant :
+
+21l0l0	15_mois_de_traitement	T
+
+#• 247 m³ d’eaux ont été traitées,
+
+22l0l0	ont_été_traitées	N
+
+#• 85 m³ d’eaux ont été réinjectées,
+
+23l0l0	ont_été_réinjectées	N
+
+#• 0,4 kg d’hydrocarbures C5-C40 dont 0,2 kg de BTEX ont été fixés par le charbon actif traitant le compartiment « eaux »,
+
+24l1l0	hydrocarbures_C5_C40	S
+24l1l1	BTEX	S
+24l1l2	charbon_actif	U
+
+#• 150 à 180 kg d’hydrocarbures volatils ont été fixés sur le charbon actif traitant le compartiment « air ».
+
+25l0l0	le_charbon_actif	O
+25l0l1	traitant	N
+25l1l0	hydrocarbures_volatils	S
+25l1l1	charbon_actif	U
+
+#Les résultats de suivi de la qualité des eaux pendant le test d’arrêt ont confirmé la baisse des teneurs en HCT C10-C40, BTEX et HAP, aucun effet rebond n’étant mis en évidence.
+
+26l0l0	la_qualité_des_eaux_pendant	O
+26l0l1	le_test_d_	N
+26l0l2	arrêt	O
+26l0l3	teneurs	O
+26l1l0	HCT_C10_C40	S
+26l1l1	BTEX	S
+26l1l2	HAP	S
+
+#Au vu des l'ensemble de ces résultats, l'inspection des installations classées considère que l'exploitant a satisfait à ses obligations au titre de la protection de l'environnement, sous réserve d'anomalies non visibles actuellement ou de désordres, non prévisibles aujourd’hui, liés à cet évènement et qui se manifesteraient dans le futur.
+
+27l0l0	l__inspection_des_installations_classées	O
+27l0l1	l__exploitant	O
+27l0l2	a_satisfait_à	N
+27l0l3	ses_obligations	O

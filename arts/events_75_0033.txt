@@ -1,0 +1,327 @@
+
+#75.0033
+#ENI FRANCE a exploité à partir de 2002 sur ce site une station-service composée de :
+
+0l0l0	ENI_FRANCE	O
+0l0l1	a_exploité	N
+0l0l2	à_partir	T
+0l0l3	de_2002	T
+0l0l4	ce_site	O
+0l1l0	ENI_FRANCE	I
+
+#- 3 cuves enterrées double enveloppe en fosses maçonnées (25, 15 et 30 m3) de carburants (GO/SP95/SP98),
+
+1l0l0	3_cuves_enterrées	O
+1l1l0	3_cuves_enterrées	D
+1l1l1	carburants	U
+1l1l2	GO	S
+1l1l3	SP95	S
+1l1l4	SP98	S
+
+#- 3 îlots de distribution de carburants,
+
+2l0l0	3_îlots_de_distribution_de_carburants	O
+2l1l0	carburants	U
+
+#- un dépotage,
+
+3l0l0	dépotage	O
+
+#- un séparateur d'hydrocarbures,
+
+4l1l0	d__hydrocarbures	S
+
+#- une boutique, des réserves, des bureaux et un local compresseur.
+
+5l0l0	un_local_compresseur	O
+
+#Ces installations étaient classées sous les rubriques 1434.1.c (DC) et 1435.2 (DC).
+
+6l0l0	Ces_installations	O
+6l0l1	étaient_classées_sous	R
+6l0l2	les	O
+6l1l0	DC	S
+
+#L'exploitant a déclaré la cessation d'activité le 30 juin 2017.
+
+7l0l0	L__exploitant	O
+7l0l1	a_déclaré_la_cessation_d__activité	N
+7l0l2	le_30_juin_2017__	T
+
+#Celle-ci n'étant pas effectuée avec le formulaire adéquat, la Préfecture de Police a demandé, le 25 août 2017, à l'exploitant de notifier une nouvelle déclaration de cessation d'activité.
+
+8l0l0	la_Préfecture_de_Police	O
+8l0l1	a_demandé	N
+8l0l2	le_25_août_2017__	T
+8l0l3	l__exploitant	O
+8l0l4	notifier_une_nouvelle_déclaration	N
+8l0l5	cessation_d__activité	N
+8l1l0	la_Préfecture_de_Police	I
+
+#Le site est localisé sur une avenue avec une circulation dense, en zone urbaine.
+
+9l0l0	Le_site	O
+9l0l1	localisé_sur_une_avenue	L
+9l0l2	en_zone_urbaine	L
+
+#La Seine est située à environ 20 m du site.
+
+10l0l0	La_Seine	O
+10l0l1	située_à_environ_20_m_du_site	L
+
+#La nappe des alluvions de la Seine est à environ 2 m de profondeur au droit du site.
+
+11l0l0	la_Seine	L
+11l0l1	au_droit_du_site	L
+
+#Un diagnostic de sols et des eaux souterraines, réalisé en juillet 2016, a mis en évidence deux zones de contamination des sols aux hydrocarbures, principalement du gasoil, jusqu'au toit de la nappe :
+
+12l0l0	Un_diagnostic	N
+12l0l1	eaux_souterraines	O
+12l0l2	en_juillet_2016__	T
+12l0l3	a_mis_en_évidence	R
+12l0l4	deux_zones_de_contamination	O
+12l0l5	la_nappe	O
+12l1l0	hydrocarbures	S
+12l1l1	gasoil	S
+
+#- Au droit des cuves C1 et C2 (maximum : 4280 mg/kg),
+
+
+#- Au droit de la cuve C3 et des îlots de distribution n°1 et 2 (maximum : 879 mg/kg).
+
+14l0l0	Au_droit_de_la_cuve_C3	L
+
+#Les eaux souterraines ont montré un impact en hydrocarbures au droit de Pz2 (7 mg/l), en BTEX (1,8 mg/l) et en ETBE (2,35 mg/l).
+
+15l1l0	hydrocarbures	S
+15l1l1	BTEX	S
+15l1l2	ETBE	S
+
+#Un diagnostic complémentaire de sols, des eaux souterraines et des gaz du sol, réalisé en janvier 2017, a montré :
+
+16l0l0	Un_diagnostic_complémentaire	N
+16l0l1	en_janvier_2017__	T
+
+#- Une contamination des sols en hydrocarbures au droit des anciens dépotages, des cuves de carburants, des canalisations reliant les dépotages aux cuves, des volucompteurs et à l'entrée du site,
+
+17l0l0	Une_contamination	N
+17l0l1	hydrocarbures	O
+17l0l2	au_droit_des_anciens	L
+17l0l3	dépotages	O
+17l0l4	cuves_de_carburants	O
+17l0l5	dépotages	O
+17l0l6	volucompteurs	O
+17l0l7	à_l__entrée_du_site	L
+17l1l0	hydrocarbures	S
+17l1l1	des_cuves_de	D
+17l1l2	carburants	U
+17l1l3	cuves	D
+
+#- Un impact dans les eaux souterraines en hydrocarbures en Pz2 (4,3 mg/l) et Pz3 (1,5 mg/l) et en ETBE Pz2 (2,05 mg/l) et Pz3 (10,3 mg/l),
+
+18l0l0	Un_impact	O
+18l1l0	hydrocarbures_en_Pz2	S
+18l1l1	Pz3	S
+18l1l2	ETBE_Pz2	S
+18l1l3	Pz3	S
+
+#- Un impact dans les gaz du sol en hydrocarbures aliphatiques entre la cuve C1 et l'ancien dépotage D1 (3221µg/m3).
+
+19l0l0	Un_impact	N
+19l0l1	la_cuve_C1	O
+19l1l0	hydrocarbures_aliphatiques	S
+
+#Les travaux de désinvestissement, de démolition, de démantèlement, d’excavation des terres impactées et de remise en état du site ont été menés du 26 juin au 18 août 2017.
+
+20l0l0	Les_travaux_de_désinvestissement	N
+20l0l1	démolition	N
+20l0l2	démantèlement	N
+20l0l3	d__excavation	N
+20l0l4	des_terres_impactées	O
+20l0l5	de_remise_en_état_du_site	N
+20l0l6	ont_été_menés	N
+20l0l7	du_26_juin_au_18_août_2017__	T
+
+#L’ensemble des infrastructures pétrolières a été démantelé.
+
+21l0l0	L__ensemble_des_infrastructures_pétrolières	O
+21l0l1	a_été_démantelé	N
+
+#Les cuves de carburants ont été éliminées après dégazage.
+
+22l0l0	Les_cuves_de_carburants	O
+22l0l1	ont_été_éliminées	N
+22l0l2	après_dégazage	N
+22l1l0	Les_cuves_de	D
+22l1l1	carburants	U
+
+#Les justificatifs de démantèlement des installations n'ont pas été fournis.
+
+23l0l0	Les_justificatifs_de	O
+23l0l1	démantèlement_des_installations	N
+
+#Les terrassements ont été limités par des contraintes techniques liées à la proximité de la voie Georges Pompidou, des piliers du parking de la Maison de la Radio et de la nappe des alluvions.
+
+24l0l0	Les_terrassements	N
+24l0l1	ont_été_limités	N
+24l0l2	des_contraintes_techniques	O
+24l0l3	la_Maison_de_la_Radio	O
+24l0l4	la_nappe	O
+24l0l5	alluvions	O
+
+#Au total, 6 zones ont été excavées.
+
+25l0l0	6_zones	O
+25l0l1	ont_été_excavées	N
+
+#Des prélèvements de sols, réalisés au niveau des fouilles (parois et fonds), ont montré un impact résiduel, notamment en hydrocarbures type gasoil, au niveau de 3 fouilles (maximum : 1920 mg/kg sur une paroi de la fouille 3 située entre les cuves C1 et C2).
+
+26l0l0	Des_prélèvements_de_sols	N
+26l1l0	hydrocarbures	S
+26l1l1	gasoil	S
+
+#Certains impacts constatés lors des études précédentes n'ayant pas été traités, certaines zones n'ayant pas été contrôlées (pourtour des fosses maçonnées des cuves, paroi de certaines fouilles), l'extension des pollutions, notamment à l'extérieur du site, n'ayant pas été recherchée et certains milieux n'ayant pas été investigués après démantèlement des installations (eaux souterraines et gaz du sol), l'inspection a proposé dans son rapport du 8 janvier 2018 de :
+
+27l0l0	Certains_impacts	O
+27l0l1	certaines_zones	O
+27l0l2	extension_des_pollutions	O
+27l0l3	à_l__extérieur_du_site	L
+27l0l4	certains_milieux	O
+27l0l5	pas_été_investigués	N
+27l0l6	après	R
+27l0l7	démantèlement_des_installations	N
+27l0l8	du_8_janvier_2018	T
+
+#- Renouveler sa déclaration de cessation d'activité,
+
+28l0l0	Renouveler_sa_déclaration	N
+28l0l1	cessation_d__activité	N
+
+#- Fournir les justificatifs du démantèlement des installations,
+
+29l0l0	démantèlement_des_installations	N
+
+#- Informer la Mairie et le propriétaire du site de la cessation d'activité et de la réhabilitation en cours,
+
+30l0l0	Informer	N
+30l0l1	la_Mairie	O
+30l0l2	le_propriétaire_du_site	O
+30l0l3	la_cessation_d__activité	N
+30l0l4	la_réhabilitation_en_cours	O
+30l1l0	la_Mairie	I
+
+#- Faire de nouvelles investigations,
+
+
+#- Réaliser des mesures de gestion complémentaires.
+
+
+#ENI France, en réponse au courrier préfectoral du 30 janvier 2018, a communiqué les 5 et 13 février 2018 :
+
+33l0l0	ENI_France	O
+33l0l1	30_janvier_2018__	T
+33l0l2	a_communiqué	N
+33l0l3	les_5_et_13___février_2018	T
+33l1l0	ENI_France	I
+
+#- La déclaration de cessation d’activité de la station-service effectuée le 9 février 2018 à l’aide du formulaire cerfa adéquat,
+
+34l0l0	La_déclaration_de_cessation_d__activité	N
+34l0l1	la_station___service	O
+34l0l2	effectuée	N
+34l0l3	le_9_février_2018	T
+
+#- La copie d’un courrier adressé à la Mairie de Paris le 5 février 2018 pour l’informer de la cessation d’activité des 2 stations-service et des travaux de réhabilitation des sites,
+
+35l0l0	la_Mairie_de_Paris	O
+35l0l1	le_5_février_2018	T
+35l0l2	informer_de_la_cessation_d__activité	N
+35l0l3	2_stations___service	O
+35l0l4	des_travaux_de_réhabilitation_des_sites	N
+35l1l0	la_Mairie_de_Paris	I
+35l1l1	stations___service	D
+
+#- Les justificatifs du démantèlement des installations de distribution de carburants et d’élimination des terres et matériaux pollués,
+
+36l0l0	Les_justificatifs	O
+36l0l1	du_démantèlement	N
+36l0l2	des_installations_de_distribution_de_carburants	O
+36l0l3	élimination_des	N
+36l0l4	terres_et_matériaux_pollués	O
+36l1l0	carburants	U
+
+#- Un rapport de fin de travaux établi par SERPOL en octobre 2017.
+
+37l0l0	Un_rapport	O
+37l0l1	de_fin_de_travaux_établi	N
+37l0l2	SERPOL	O
+37l0l3	en_octobre_2017__	T
+37l1l0	SERPOL	I
+
+#Des investigations menées en avril 2018, après les travaux de démantèlement des installations pétrolières et le retrait de 3 spots de pollution de l’ancienne station-service, ont montré :
+
+38l0l0	Des_investigations_menées	N
+38l0l1	en_avril_2018__	T
+38l0l2	après	R
+38l0l3	les_travaux_de_démantèlement_des_installations_pétrolières	N
+38l0l4	le_retrait_de	N
+38l0l5	3_spots_de_pollution	O
+38l0l6	l_	O
+
+#- Un impact résiduel dans les sols, notamment en HCT C5-C40 au droit du dépotage D1, au Nord-Ouest de la cuve C1 et des anciennes canalisations de l’îlot I3, au Sud-Est de la cuve C2 et d’anciennes canalisations, au droit d’anciens volucompteurs de l’îlot I3 et de la délimitation des contaminations du dépotage D4, au Nord-Ouest de la cuve C3 et au droit de l’îlot I2, au droit du dépotage D4 (maximum 5 110 mg/kg) et à l’Ouest du dépotage D4,
+
+39l0l0	au_droit_du_dépotage	L
+39l0l1	au_Nord_Ouest_de_la_cuve_C1	L
+39l0l2	et_des_anciennes_canalisations	O
+39l0l3	au_Sud_Est_de_la_cuve	L
+39l0l4	au_Nord_Ouest_de_la_cuve_C3_et_au_droit_de_l__îlot_I2___au_droit_du_dépotage	L
+39l0l5	à_l__Ouest_du_dépotage_D4__	L
+39l1l0	HCT_C5_C40	S
+
+#- Un impact dans les eaux souterraines en PZ2, notamment en HC C10-C-40 : 14 950 µg/l, en benzène : 272 µg/l et en ETBE : 2 260 µg/l, et en PZ3 en ETBE : 3 260 µg/l,
+
+40l0l0	Un_impact	O
+40l0l1	les_eaux	O
+40l1l0	PZ2__	S
+40l1l1	HC_C10_C_40	S
+40l1l2	en_benzène	S
+40l1l3	en_ETBE	S
+40l1l4	et_en_PZ3_en_ETBE	S
+
+#- Un impact dans les gaz du sol en PG4 en hydrocarbures aliphatiques (211 255 µg/m³), en hydrocarbures aromatiques (16 854 µg/m³) et en BTEX (2 466 µg/m³), en PG5 en hydrocarbures aliphatiques (5 318 521 µg/m³), en hydrocarbures aromatiques (2 134 377 µg/m³) et en BTEX (2 243 155 µg/m³ dont 6 891 µg/m³ en benzène), et en PG6 en hydrocarbures aliphatiques (1 389 937 µg/m³), en hydrocarbures aromatiques (20 566 µg/m³) et en BTEX (7 437 µg/m³ dont 3 075 µg/m³ en benzène).
+
+41l1l0	PG4	S
+41l1l1	hydrocarbures_aliphatiques	S
+41l1l2	hydrocarbures_aromatiques	S
+41l1l3	BTEX	S
+41l1l4	PG5	S
+41l1l5	hydrocarbures_aliphatiques	S
+41l1l6	hydrocarbures_aromatiques	S
+41l1l7	BTEX	S
+41l1l8	en_benzène	S
+41l1l9	en_PG6_en_hydrocarbures_aliphatiques	S
+41l1l10	____en_hydrocarbures_aromatiques	S
+41l1l11	et_en	S
+41l1l12	__m³_en_benzène	S
+
+#L'inspection a proposé dans son rapport du 4 octobre 2018 de demander à l’exploitant de :
+
+42l0l0	4_octobre_2018	T
+42l0l1	l__exploitant	O
+
+#- Rechercher l’étendue des pollutions rencontrées dans les sols et les gaz du sol,
+
+
+#- Proposer un plan de gestion des pollutions rencontrées,
+
+
+#- Contrôler, après traitement des pollutions identifiées, la pollution résiduelle,
+
+45l0l0	Contrôler	O
+45l0l1	après_traitement	N
+45l0l2	pollutions_identifiées	N
+
+#- En cas de pollution résiduelle, réaliser une analyse des risques résiduels et proposer un suivi des eaux souterraines.
+
+46l0l0	un_suivi_des_eaux_souterraines	A

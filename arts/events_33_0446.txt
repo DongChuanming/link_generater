@@ -1,0 +1,216 @@
+
+#33.0446
+#La société SAS Financière et Commerciale FIB exerçait, quai de Queyries à Bordeaux, des activités de peintures industrielles et de revêtements de métaux.
+
+0l0l0	et_Commerciale_FIB_exerçait	N
+0l0l1	__quai_de_Queyries	N
+0l0l2	Bordeaux___des_activités	N
+0l0l3	de_peintures_industrielles	O
+0l1l0	de_peintures_industrielles	D
+
+#Elle bénéficiait :
+
+1l0l0	Elle_bénéficiait____	O
+1l1l0	Elle_bénéficiait____	I
+
+#-> d'un récépissé de déclaration délivrée par le préfet de Gironde en date du 28 décembre 1989 à la société BORIFER SA pour les activités soumises à déclaration au titre des Installations classées pour la protection de l'environnement (ICPE) suivantes :
+
+
+#- emploi de matières abrasives (rubrique 1 bis),
+
+3l0l0	emploi_de_matières	O
+3l0l1	abrasives__	N
+3l0l2	rubrique_1_bis	N
+3l0l3	___	O
+3l1l0	___	I
+
+#- galvanisation, étamage, plombage des métaux ou revêtement métallique d'un matériau quelconque par
+
+4l0l0	galvanisation___étamage	O
+
+#- pulvérisation de métal fondu (rubrique 289-2),
+
+5l0l0	pulvérisation_de	N
+5l0l1	métal	A
+5l0l2	fondu___rubrique	N
+5l0l3	289___2	O
+
+#- utilisation et dépôt d’oxygène liquide (rubrique 38 bis),
+
+6l0l0	utilisation_et_dépôt_d_	A
+
+#-application de peinture (rubrique 405),
+
+7l0l0	_application_de_peinture___rubrique_405__	A
+7l1l0	peinture___rubrique_405__	U
+
+#-> d'un récépissé de changement d’exploitant en date du 22 février 2005 au nom de la SAS Financière et Commerciale FIB pour la reprise des activités de BORIFER SA.
+
+8l0l0	__d__un_récépissé	N
+
+#Le site de la SAS Financière et Commerciale FIB se situe dans la zone industrielle des Queyries, en bordure de Garonne, site classé natura 2000.
+
+9l0l0	site_de_la_SAS	O
+9l0l1	Financière_et_Commerciale_FIB	O
+9l0l2	se_situe_dans_la_zone_industrielle	T
+9l0l3	des_Queyries___en	O
+9l0l4	site_classé_natura_2000__	N
+9l1l0	industrielle_des_Queyries___en_bordure_de_Garonne	I
+
+#D’après les informations fournies par la ville de Bordeaux, l’activité du site a cessé fin 2012 / début 2013.
+
+10l0l0	D__après	O
+10l0l1	les_informations_fournies_par_la_ville	O
+10l0l2	de_Bordeaux___l__activité_du_site_a_cessé_fin_2012	L
+10l0l3	__début_2013__	L
+10l1l0	les_informations_fournies_par_la_ville	I
+
+#La SAS Financière et Commerciale FIB (directeur M.
+
+11l0l0	directeur_M_	O
+11l1l0	directeur_M_	I
+
+#Fabrice MOREAU) a été placée en liquidation judiciaire le 9 avril 2014 et est à présent représentée, es-qualité, par la SELARL Laurent MAYON (54 cours Georges Clemenceau à Bordeaux).
+
+12l0l0	Fabrice_MOREAU___a_été_placée_en_liquidation	O
+12l1l0	liquidation	I
+
+#Dans le cadre du projet de réaménagement de la zone, la ville de Bordeaux prévoit une reconversion du site en espace public (parc aux Angéliques).
+
+13l0l0	projet_de_réaménagement_de_la_zone___la_ville	N
+13l0l1	de_Bordeaux	T
+13l0l2	prévoit_une_reconversion	N
+13l0l3	public___parc_aux_Angéliques	O
+13l1l0	Dans_le_cadre_du	I
+13l1l1	public	I
+13l1l2	parc_aux_Angéliques	I
+
+#1 - MISE EN SECURITE
+
+14l0l0	1___MISE_EN_SECURITE	R
+
+#L'inspection des installations classées a procédé à une visite du site le 17 juillet 2014.
+
+15l0l0	inspection_des_installations_classées_a_procédé_à_une_visite_du_site_le_17_juillet_2014__	O
+
+#Il en ressort qu'aucune action de mise en sécurité n'a été réalisée sur le site : présence de produits et de déchets dangereux (peinture, solvants, déchets de grenaillage), site non fermé, ...
+
+16l0l0	Il_en_ressort_qu__aucune_action_de_mise_en	O
+16l0l1	sécurité_n__a_été_réalisée	N
+16l0l2	sur_le	O
+16l0l3	site___présence_de_produits_et_de_déchets_dangereux___peinture___solvants___déchets_de_grenaillage_____site_non_fermé____	T
+
+#La visite du 17/07/2014 dresse le constat suivant :
+
+
+#- stockage de produits et déchets sous auvent, bidons ou GRV de peintures, solvant, etc
+
+18l0l0	de_produits_et	T
+
+#- présence d'une fosse enterrée sous ce stockage boues de peintures ?
+
+19l0l0	présence_d__une_fosse_enterrée	O
+19l0l1	sous_ce_stockage	L
+19l1l0	peintures__	U
+
+#- Déchets banals dans plusieurs bennes,
+
+20l0l0	bennes__	O
+20l1l0	_	D
+
+#- stockages de produits abrasifs et de sables de grenaillage, en sacs et en palettes,
+
+
+#- big bag et fûts  de déchets de grenaillage
+
+22l0l0	big_bag_et_fûts___de_déchets_de	N
+22l1l0	fûts___de_déchets_de_grenaillage	U
+
+#- quelques pots de durcisseurs dans le hangar principal,
+
+23l0l0	durcisseurs_dans_le_hangar_principal__	O
+
+#- quelques fûts d'huile et de gazole dans le bâtiment d'entrée,
+
+
+#- bonbonnes de d'oxygène.
+
+25l0l0	bonbonnes_de_d__oxygène	O
+
+#L'arrêté préfectoral du 02/09/2014 met le mandataire liquidateur en demeure de procéder à la mise en sécurité du site dans le délai de 15 jours.
+
+26l1l0	préfectoral_du	U
+
+#Le 27/10/2014, l'inspection propose de lancer la procédure de consignation à l'encontre du mandataire liquidateur.
+
+27l0l0	Le_27_10_2014___l__inspection	O
+27l0l1	propose	T
+27l0l2	du_mandataire_liquidateur	N
+27l0l3	_	T
+
+#L'inspection du 04/11/2014 en présence de la Mairie de Bordeaux a mis en évidence la dégradation de la situation du site et qu'aucune mesure de mise en sécurité n'a été prise.
+
+28l0l0	L__inspection	T
+28l0l1	de_la_Mairie_de_Bordeaux	N
+
+#L'arrêté du 13/11/2014 prescrit la mise en sécurité du site : clôture, limitation d'accès et la justification de l'évacuation des déchets.
+
+29l0l0	L__arrêté_du	N
+29l0l1	13_11_2014_prescrit	T
+29l0l2	en_sécurité_du_site___clôture	O
+29l1l0	sécurité_du_site___clôture	I
+
+#2 - DIAGNOSTIC
+
+30l0l0	2	O
+30l0l1	DIAGNOSTIC	T
+
+#Un diagnostic des sols du site a été réalisé en février 2010 par le bureau d'études SGS, à l'initiative de l'ancien exploitant : 9 prélèvements de sol ont été réalisés dans 3 secteurs différents du site (secteur transfert de gazole, secteur grenaillage et secteur peinture).
+
+31l0l0	diagnostic_des_sols_du_site_a_été_réalisé_en_février_2010_par_le_bureau_d__études_SGS___à_l__initiative_de_l__ancien_exploitant___9_prélèvements_de_sol_ont_été_réalisés_dans_3_secteurs_différents_du_site___secteur_transfert_de_gazole___secteur_grenaillage_et_secteur_peinture____	N
+
+#Le rapport de diagnostic fait ressortir :
+
+32l0l0	Le_rapport_de_diagnostic_fait	O
+32l0l1	ressortir____	N
+
+#- des traces notables d’hydrocarbures dans le secteur de transfert de gazole (2000 mg/kg),
+
+
+#- des traces en BTEX (Benzène, Toluène, Ethylbenzène, Xylènes) et en HAP (Hydrocarbures aromatiques polycycliques),
+
+34l0l0	Ethylbenzène___Xylènes___et_en_HAP___Hydrocarbures	A
+34l1l0	Benzène___Toluène__	S
+34l1l1	Hydrocarbures	S
+
+#- des niveaux importants de concentration en fer, zinc et plomb (au maximum : 315 g/kg de Fer, 2,4 g/kg de Plomb et 335 g/kg de Zinc).
+
+35l1l0	importants_de_concentration_en_fer___zinc_et_plomb	S
+35l1l1	maximum_____315_g___kg_de_Fer___2_4_g___kg_de_Plomb_et_335_g__	S
+
+#L'arrêté préfectoral du 13/11/2014 prescrit au mandataire-liquidateur le diagnostic environnemental du site et la proposition de mesures de gestion dans le délai de 6 mois.
+
+36l1l0	prescrit_au_mandataire___liquidateur	S
+36l1l1	diagnostic_environnemental_du	S
+36l1l2	proposition	S
+
+#La Mairie de Bordeaux fait réaliser un diagnostic de pollution par TEREO en 2014 sur ce site en vu d'un réaménagement.
+
+37l0l0	La_Mairie_de_Bordeaux_fait	O
+37l0l1	réaliser_un	T
+37l0l2	diagnostic	N
+37l0l3	pollution_par_TEREO_en	O
+37l0l4	2014_sur_ce_site_en_vu_d__un_réaménagement	N
+
+#Le rapport confirme la pollution du site.
+
+38l0l0	Le_rapport_confirme_la	O
+38l0l1	pollution_du	N
+38l0l2	site__	N
+38l1l0	Le_rapport_confirme_la	I
+
+#L'audience du 29/09/2016 de l'ADEME a refusé la requête du liquidateur.
+
+39l0l0	L__audience	O
+39l0l1	du_29_09_2016_de_l__ADEME	N
+39l0l2	a_refusé	O

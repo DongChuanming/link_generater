@@ -1,0 +1,159 @@
+
+#57.0085
+#Usine sidérurgique d'une superficie de 300 hectares, localisée dans la vallée de l'Orne, qui regroupe une aciérie électrique, deux stations d'affinage, une ligne de dégazage sous vide, deux coulées continues, un train à billettes, une ligne de parachèvement, un laminoir.
+
+0l0l0	Usine_sidérurgique	O
+0l0l1	localisée_dans_la_vallée_de_l__Orne	L
+0l0l2	aciérie	N
+0l0l3	affinage	O
+0l0l4	dégazage_sous_vide	A
+0l0l5	une_ligne_de_parachèvement	O
+0l0l6	laminoir	N
+
+#Production 1,5 million de tonnes d'acier par an.
+
+1l0l0	million_de_tonnes_d__acier	O
+
+#Ces activités étaient soumises à autorisation au titre de la législation sur les Installations Classées pour la Protection de l'Environnement.
+
+2l0l0	Ces_activités	O
+2l0l1	étaient_soumises_à_autorisation	N
+2l0l2	les_Installations_Classées	O
+2l0l3	pour_la_Protection_de	N
+2l0l4	l__Environnement	O
+
+#Fin mars 2009, le groupe a arrêté définitivement l'aciérie.
+
+3l0l0	Fin_mars_2009__	T
+3l0l1	le_groupe	O
+3l0l2	a_arrêté_définitivement	N
+3l0l3	l__aciérie	N
+
+#Le plan des installations relatives à cette fiche contient l'ensemble des installations d'AMG, à savoir : aciérie, TAB (train à billettes) et le LCB.
+
+4l0l0	Le_plan_des_installations_relatives	O
+4l1l0	d__AMG	I
+4l1l1	LCB	I
+
+#La présente fiche BASOL concerne uniquement l'aciérie et le TAB.
+
+5l0l0	le_TAB	O
+
+#Le LCB est toujours en fonctionnement.
+
+6l0l0	Le_LCB	O
+
+#Une Evaluation Simplifiée des Risques (ESR) est présentée à l'inspection le 20 mars 2002 :
+
+7l0l0	Une	O
+7l0l1	Evaluation_Simplifiée_des_Risques	N
+7l0l2	ESR___est_présentée	N
+7l0l3	l__inspection	N
+7l0l4	le_20_mars_2002	T
+
+#- Le site de Gandrange est rangé en classe 1 pour le milieu sols à cause des hydrocarbures totaux (HCT) présents au niveau de l'ancien stockage de fûts, du parc à ferrailles et pour l'arsenic, le chrome et le plomb présents au niveau de la lagune.
+
+8l0l0	Le_site_de_Gandrange	L
+8l0l1	parc_à_ferrailles	A
+8l1l0	Gandrange	I
+8l1l1	hydrocarbures_totaux	S
+8l1l2	HCT	S
+8l1l3	arsenic	S
+8l1l4	le_chrome	S
+8l1l5	plomb	S
+
+#- Pour le milieu des eaux superficielles le site est classé 1, site nécessitant des investigations approfondies, pour les hydrocarbures totaux présents au niveau de la zone du parc à ferrailles, le reste du site est classé 2, à surveiller, concernant son impact sur ce milieu.
+
+9l0l0	hydrocarbures_totaux	O
+9l0l1	parc_à_ferrailles	O
+9l1l0	hydrocarbures_totaux	S
+
+#Une surveillance des eaux souterraines est assurée depuis 2002 sur des ouvrages de contrôle.
+
+10l0l0	Une_surveillance_des_eaux_souterraines	A
+10l0l1	est_assurée	N
+10l0l2	depuis_2002	T
+10l0l3	des_ouvrages_de_contrôle	O
+
+#Certains dépassements des références de qualité ont été constatées sur les paramètres HCT, As, Cr, Cu, Cd, Ni, Pb et Zn.
+
+11l1l0	paramètres_HCT	S
+11l1l1	As	S
+11l1l2	Cr	S
+11l1l3	Cu	S
+11l1l4	Cd	S
+11l1l5	Ni	S
+11l1l6	Pb	S
+11l1l7	Zn	S
+
+#L'exploitant s'est engagé à remettre une étude conforme à la nouvelle méthodologie relative aux sites et sols pollués.
+
+12l0l0	L__exploitant	O
+12l0l1	s__est_engagé_à_remettre	N
+12l0l2	une_étude	N
+12l0l3	conforme_à	R
+12l0l4	la_nouvelle_méthodologie	O
+12l0l5	sols_pollués	O
+
+#Depuis 2009, les activités ont définitivement cessé sur l'aciérie.
+
+13l0l0	Depuis_2009__	T
+13l0l1	les_activités	N
+13l0l2	ont_définitivement_cessé	N
+13l0l3	l__aciérie	N
+
+#L'arrêté préfectoral du 22 mai 2012 prévoit la remise d’un bilan de l'état environnemental du site de l'aciérie et du TAB et la remise en état du site dans un état compatible avec l'usage retenu.
+
+14l0l0	L__arrêté_préfectoral	O
+14l0l1	du_22_mai_2012	T
+14l0l2	prévoit	R
+14l0l3	la_remise	N
+14l0l4	l__état_environnemental	O
+14l0l5	aciérie	N
+14l0l6	TAB	O
+14l0l7	la_remise_en_état_du_site	O
+
+#Le démantèlement de l'aciérie a démarré en 2016 et est prévu jusque 2022.
+
+15l0l0	Le_démantèlement	N
+15l0l1	l__aciérie	O
+15l0l2	a_démarré	N
+15l0l3	en_2016	T
+15l0l4	est_prévu_jusque_2022	T
+
+#AMF a présenté les travaux réalisés en 2017 (diagnostic des réseaux souterrains et de drainage, essais de pompage de la nappe pour la rabattre dans le cadre du démantèlement, démantèlement du hall à briques réfractaires et des silos en béton, mise en sécurité des toitures, démantèlement en cours de l'unité dépoussiérage, du hall d’entretien (problématique amiante) et du portique, enlèvement et ferraillage en cours des gros équipements de l'aciérie).
+
+16l0l0	AMF	O
+16l0l1	a_présenté	N
+16l0l2	les_travaux_réalisés	N
+16l0l3	en_2017	T
+16l0l4	diagnostic_des_réseaux_souterrains	N
+16l0l5	drainage	O
+16l0l6	__essais_de_pompage	N
+16l0l7	la_nappe	O
+16l0l8	rabattre	O
+16l0l9	dans_le_cadre_du	R
+16l0l10	démantèlement	N
+16l0l11	démantèlement	N
+16l0l12	démantèlement	N
+16l0l13	en_cours	O
+16l0l14	l__unité_dépoussiérage	O
+16l0l15	hall_d__entretien	O
+16l0l16	portique	N
+16l0l17	enlèvement	N
+16l0l18	ferraillage	O
+16l0l19	en_cours	O
+16l0l20	des_gros_équipements_de_l_	A
+16l0l21	aciérie	N
+16l1l0	AMF	I
+
+#La prochaine phase de démantèlement concernera l'usine de traitement des boues.
+
+17l0l0	La_prochaine_phase_de_démantèlement_concernera	N
+17l0l1	l__usine_de_traitement_des_boues	O
+
+#Les solutions pour l'abattage des structures de grande envergure (aciérie) sont à l'étude.
+
+18l0l0	Les_solutions	O
+18l0l1	l__abattage_des_structures_de_grande_envergure___aciérie	A
+18l0l2	à_l__étude	T

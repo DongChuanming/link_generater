@@ -1,0 +1,281 @@
+
+#88.0036
+#Cette usine, anciennement ALLIBERT INDUSTRIE, appartient au groupe FAURECIA, et fabrique dans ses ateliers des pièces moulées en matières plastiques destinées principalement à l'industrie automobile: boucliers, planches de bord, accoudoirs, garnitures et pièces diverses.
+
+0l0l0	Cette_usine	O
+0l0l1	anciennement	R
+0l0l2	ALLIBERT_INDUSTRIE	O
+0l0l3	appartient_au	R
+0l0l4	groupe_FAURECIA	O
+0l0l5	fabrique	A
+0l0l6	moulées_en_matières_plastiques	A
+0l0l7	l__industrie_automobile	A
+0l1l0	ALLIBERT_INDUSTRIE	I
+0l1l1	groupe_FAURECIA	I
+
+#Elle était soumise à déclaration au titre de la législation des installations classées pour la protection de l'environnement.
+
+1l0l0	Elle	O
+1l0l1	était_soumise_à_déclaration	N
+1l0l2	la_législation_des_installations_classées	O
+1l0l3	la_protection_de	A
+1l0l4	l__environnement	O
+
+#Le site, d'une superficie d'environ 7 hectares dont un étang de 1.2 ha et des bâtiments d'une surface au sol de 17 000 m2 sur le territoire de la commune de LA PETITE RAON, est bordé à l'Ouest par le ruisseau Le Rabodeau.
+
+2l0l0	Le_site	O
+2l0l1	un_étang	O
+2l0l2	de_1_2_ha	N
+2l0l3	des_bâtiments	O
+2l0l4	sur_le_territoire_de_la_commune_de_LA_PETITE_RAON	L
+2l0l5	bordé_à_l__Ouest_par_le_ruisseau_Le_Rabodeau	L
+
+#Dans le cadre de la cession du site à NIEF PLASTIC à partir du 1er novembre 2002, la société FAURECIA a fait réaliser un audit environnemental du site avant la transaction.
+
+3l0l0	Dans_le_cadre_de	R
+3l0l1	la_cession_du_site	N
+3l0l2	NIEF_PLASTIC	O
+3l0l3	partir_du_1er_novembre_2002__	T
+3l0l4	la_société_FAURECIA	O
+3l0l5	a_fait_réaliser	N
+3l0l6	un_audit_environnemental	N
+3l0l7	site	O
+3l0l8	avant	T
+3l0l9	la_transaction	N
+3l1l0	NIEF_PLASTIC	I
+3l1l1	la_société_FAURECIA	I
+
+#Des investigations visant à évaluer l'impact des activités passées sur le sol et le sous-sol, selon la méthodologie développée par le Ministère de l'Ecologie et le BRGM, ont été réalisées.
+
+4l0l0	Des_investigations	N
+4l0l1	visant_à	R
+4l0l2	évaluer_l__impact	N
+4l0l3	activités_passées	O
+4l0l4	le_Ministère_de_l__Ecologie	O
+4l0l5	le_BRGM	O
+4l0l6	ont_été_réalisées	N
+4l1l0	le_Ministère_de_l__Ecologie	I
+4l1l1	le_BRGM	I
+
+#Ces investigations ont mis en évidence l'existence d'une pollution par du trichloroéthylène.
+
+5l0l0	Ces_investigations	N
+5l0l1	l__existence	O
+5l0l2	d_	R
+5l0l3	une_pollution	O
+5l1l0	trichloroéthylène	S
+
+#Faurecia a donc réalisé une évaluation simplifiée des risques (ESR) en mai 2002.
+
+6l0l0	Faurecia	O
+6l0l1	a_donc_réalisé	N
+6l0l2	une_évaluation_simplifiée_des_risques	N
+6l0l3	en_mai_2002	T
+6l1l0	Faurecia	I
+
+#Cette étude révèle la contamination de la nappe souterraine par le trichloroéthylène et ses composés de décomposition (dichloroéthylène et chlorure de vinyle principalement).
+
+7l0l0	la_contamination	N
+7l0l1	la_nappe	O
+7l1l0	le_trichloroéthylène	S
+7l1l1	ses_composés_de_décomposition	U
+7l1l2	dichloroéthylène	S
+7l1l3	chlorure_de_vinyle_principalement	S
+
+#La contamination de la nappe représente une superficie d'environ 3 200 m2 située pour partie sous les bâtiments.
+
+8l0l0	La_contamination	N
+8l0l1	la_nappe	O
+8l0l2	partie_sous_les_bâtiments	L
+
+#L' ESR classe le site en catégorie 1, nécessitant des investigations complémentaires.
+
+9l0l0	le_site	O
+9l1l0	L___ESR	I
+
+#Aucune utilisation d'eau de la nappe à moins de 5 km en aval du site n'a été recensée.
+
+10l0l0	Aucune_utilisation_d__eau	O
+10l0l1	la_nappe	O
+10l0l2	à_moins_de_5_km_en_aval_du_site	L
+
+#L'industriel a formulé une proposition de traitement des eaux souterraines qui a été acceptée.
+
+11l0l0	L__industriel	O
+11l0l1	a_formulé_une_proposition_de_traitement	N
+
+#Le site est en cours de  traitement par pompage de l'eau qui est filtrée par du charbon actif, une partie de cette eau est réinjectée dans la nappe avec un oxydant.
+
+12l0l0	Le_site	O
+12l0l1	en_cours	T
+12l0l2	de___traitement	O
+12l0l3	par_pompage	N
+12l0l4	de_l__eau	O
+12l0l5	dans_la_nappe	N
+12l1l0	du_charbon_actif	U
+
+#Cette technique permet de dégrader les composés présents dans la nappe en eau et dioxyde en carbone.
+
+13l1l0	composés	S
+13l1l1	dioxyde_en_carbone	S
+
+#Les conditions de traitement et de rejet des effluents engendrés par le système de dépollution, les mesures de surveillance ont été encadrés par arrêté préfectoral du 12 novembre 2002.
+
+14l0l0	Les_conditions	O
+14l0l1	dépollution	N
+14l0l2	surveillance	A
+14l0l3	ont_été_encadrés	N
+14l0l4	arrêté_préfectoral	O
+14l0l5	12_novembre_2002	T
+14l1l0	effluents	U
+
+#Par courrier du 20 octobre 2003, l'inspection informe le Préfet des Vosges que le site n'est plus abandonné.
+
+15l0l0	20_octobre_2003__	T
+15l0l1	l__inspection	O
+15l0l2	informe	R
+15l0l3	le_Préfet_des_Vosges	O
+15l0l4	le_site	O
+15l0l5	n__est_plus_abandonné	N
+15l1l0	le_Préfet_des_Vosges	I
+
+#Il a été repris par la société NIEF PLASTIC.
+
+16l0l0	Il	O
+16l0l1	a_été_repris	N
+16l0l2	la_société_NIEF_PLASTIC	O
+16l1l0	la_société_NIEF_PLASTIC	I
+
+#Par ailleurs, les travaux de dépollution incombant à la société FAURECIA et réglementés par l'arrêté préfectoral du 12 novembre 2002 vont commencer.
+
+17l0l0	les_travaux_de_dépollution	N
+17l0l1	incombant_à	R
+17l0l2	la_société_FAURECIA	O
+17l0l3	réglementés	N
+17l0l4	l__arrêté_préfectoral	O
+17l0l5	12_novembre_2002	T
+17l0l6	vont_commencer	N
+17l1l0	la_société_FAURECIA	I
+
+#Les travaux d'extraction des eaux et des gaz et d'oxydation in situ ont débuté en décembre 2003.
+
+18l0l0	Les_travaux_d__extraction	N
+18l0l1	eaux_et_des_gaz	O
+18l0l2	d__oxydation_in_situ	O
+18l0l3	ont_débuté	N
+18l0l4	en_décembre_2003__	T
+
+#Le rapport du 8 mai 2008 fait état de l'avancement de la dépollution.
+
+19l0l0	Le_rapport	O
+19l0l1	du_8_mai_2008	T
+19l0l2	l__avancement	O
+19l0l3	de_la_dépollution	N
+
+#Les systèmes de dépollution mis en place en 2003 ont permis de réduire le panache sur sa périphérie ainsi que la masse de contamination.
+
+20l0l0	Les_systèmes_de_dépollution	N
+20l0l1	mis_en_place	N
+20l0l2	en_2003	T
+20l0l3	ont_permis	N
+20l0l4	masse_de_contamination	O
+
+#Toutefois, les concentrations au centre du panache restent élevées.
+
+
+#L'évaluation qualitative des risques sanitaires (EQRS) réalisée au cours du premier trimestre 2007 a permis d'évaluer les niveaux de risque résultant de la pollution, en particulier pour l'usage industriel prévu du site, suite à la fin d'activité de la société NIEF PLASTIC, repreneur du site précédemment exploité.
+
+22l0l0	L__évaluation_qualitative_des_risques_sanitaires	N
+22l0l1	réalisée	N
+22l0l2	au_cours_du_premier_trimestre_2007	T
+22l0l3	l__usage_industriel_prévu_du_site	A
+22l0l4	suite_à	R
+22l0l5	la_fin_d__activité	N
+22l0l6	la_société_NIEF	O
+22l0l7	PLASTIC	N
+22l0l8	site	O
+22l0l9	précédemment_exploité	N
+22l1l0	la_société_NIEF_PLASTIC	I
+
+#Les conclusions de cette étude sont les suivantes :
+
+
+#- les risques sur l'homme sont inférieurs aux critères sur l'ensemble du site sauf dans l'ancienne zone de stockage des huiles hydrauliques et cuve TCE ;
+
+24l0l0	huiles_hydrauliques	O
+24l0l1	et_cuve_TCE	O
+24l1l0	huiles_hydrauliques	U
+24l1l1	cuve_TCE	I
+
+#- les risques sont tous inférieurs aux critères pour les ressources en eau.
+
+
+#Au vu de ces conclusions, il a été proposé un plan de gestion permettant d'obtenir un usage industriel ultérieur du site ne présentant plus de risques pour l'homme.
+
+26l0l0	un_plan_de_gestion	O
+26l0l1	permettant_d_	R
+26l0l2	obtenir_un_usage_industriel_ultérieur_du_site	O
+26l0l3	ne_présentant_plus_de_risques	N
+
+#Ce scenario consiste à la mise en place des étapes suivantes :
+
+
+#- mise en place d'un drain le long de la limite amont afin de supprimer les risques de rejet ;
+
+28l0l0	mise_en_place_d_	N
+28l0l1	un_drain	O
+28l0l2	le_long_de_la_limite_amont	L
+28l0l3	afin_de_supprimer	N
+
+#- excavation de la zone source, élimination et traitement des terres polluées et remblayage avec des terres propres ;
+
+29l0l0	__excavation	N
+29l0l1	la_zone_source	O
+29l0l2	élimination	N
+29l0l3	traitement_des_terres_polluées	O
+29l0l4	remblayage_avec_des_terres_propres	N
+
+#- destruction de 2000m² de bâtiments et pose d'un enrobé de surface ;
+
+30l0l0	destruction	N
+30l0l1	2000_m²_de_bâtiments	O
+30l0l2	et_pose_d_	R
+30l0l3	un_enrobé	N
+
+#- mise en place de servitudes d'usage interdisant les constructions sur la zone contaminée afin de conserver la mémoire des pollutions.
+
+31l0l0	mise_en_place_de	N
+31l0l1	servitudes_d__usage	O
+31l0l2	interdisant	R
+31l0l3	les_constructions	O
+31l0l4	la_zone_contaminée	O
+31l0l5	pollutions	N
+
+#Les travaux d'excavation ont commencé en août 2007 pour s'achever par la transmission à l'inspection des bordereaux de suivi des déchets en date du 1er avril 2008.
+
+32l0l0	Les_travaux_d__excavation	N
+32l0l1	ont_commencé	N
+32l0l2	en_août_2007	T
+32l0l3	s__achever	O
+32l0l4	la_transmission	N
+32l0l5	en_date_du_1er_avril_2008__	T
+
+#L'excavation des terres polluées a pu mobiliser des polluants.
+
+33l0l0	L__excavation	N
+33l0l1	des_terres_polluées	N
+33l0l2	a_pu_mobiliser	N
+33l0l3	des_polluants	O
+
+#Un suivi piézométrique afin d'attester de l'efficience des mesures réalisées a été prescrit par arrêté préfectoral.
+
+34l0l0	Un_suivi_piézométrique	O
+34l0l1	mesures_réalisées	O
+34l0l2	a_été_prescrit	N
+34l0l3	par_arrêté_préfectoral	O
+
+#Des restrictions d'usage doivent être instituées
+
+35l0l0	usage	O
+35l0l1	doivent_être	R
+35l0l2	instituées	N

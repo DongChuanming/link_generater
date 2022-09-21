@@ -1,0 +1,256 @@
+
+#89.0013
+#La société OAM possède 2 sites sur la commune de Champigny.
+
+0l0l0	La_société_OAM	O
+0l0l1	possède_2_sites_sur_la_commune_de_Champigny	N
+0l0l2	_	T
+
+#1: le premier site dit "Champigny-Village".
+
+1l0l0	Champigny___Village____	N
+
+#L'arrêté préfectoral d'autorisation à exploiter du 5 janvier 1989 a été délivré à la S.
+
+2l0l0	L__arrêté	O
+2l0l1	préfectoral	R
+2l0l2	d_	O
+2l0l3	autorisation_à_exploiter_du_5_janvier	L
+2l1l0	L__arrêté_préfectoral	I
+
+#. Alfred Dubois & Cie pour les activités exercées sur cette implantation:
+
+3l0l0	Alfred_Dubois__	O
+3l0l1	Cie_pour	R
+
+#- Fonderie des métaux et traitement électrolytique ou chimique des métaux
+
+4l0l0	__Fonderie_des_métaux_et_traitement_électrolytique	O
+4l0l1	ou_chimique_des	T
+4l0l2	métaux	N
+
+#- Formage et usinage des métaux, installations au pyralène, compresseurs.
+
+5l0l0	métaux___installations_au	A
+5l0l1	pyralène___compresseurs	O
+
+#Cette installation a été successivement reprise par:
+
+6l0l0	Cette_installation_a	A
+6l0l1	été_successivement_reprise_par__	A
+
+#- EPI en 1995
+
+7l0l0	EPI_en_1995	A
+
+#- AIMDF (Aries Industries Mécanismes et Découpage Fin) en 1999
+
+
+#- OAM (Oxford Automotive Mecanismes) en 2000.
+
+9l0l0	__Oxford_Automotive_Mecanismes___en_2000__	T
+
+#Ce dernier ne poursuit pas l'exploitation de "Champigny-Village".
+
+10l0l0	Ce_dernier	O
+10l0l1	ne_poursuit_pas	O
+10l0l2	l__exploitation_de___Champigny	A
+10l0l3	__Village____	T
+10l1l0	Ce_dernier	I
+
+#2: le deuxième site dit ""La Chapelle".
+
+11l0l0	_	T
+11l1l0	__le	I
+11l1l1	deuxième_site_dit__	I
+
+#L'arrêté préfectoral d'autorisation à exploiter du 5 janvier 1989 a été délivré à la S.
+
+12l0l0	exploiter_du_5_janvier_1989	L
+
+#DUBOIS & Cie pour des installations de fonderie, peinture et travail mécanique des métaux.
+
+13l0l0	DUBOIS___Cie_pour_des_installations	O
+
+#Cette installation est successivement reprise par:
+
+14l0l0	Cette_installation_est_successivement_reprise_par	O
+14l0l1	_	T
+
+#- EPI dès 1989
+
+15l0l0	__EPI_dès	O
+15l1l0	__EPI_dès	I
+
+#- AIMDF en 2000
+
+
+#- OAMDF (Oxford Automotivs Mecanismes Decoupage Fin) en 2005
+
+
+#Pour le site 1 dit "Chanpigny-village":
+
+18l0l0	Pour_le	O
+18l0l1	site_1_dit___Chanpigny___village____	T
+
+#A la suite de la déclaration de cessation de la dernière activité exercée sur le site par AIMDF, une investigation environnementale et une évaluation simplifiée des risques est menée en 2001.
+
+19l0l0	activité_exercée_sur_le_site_par_AIMDF___une_investigation_environnementale_et_une_évaluation_simplifiée_des_risques_est_menée_en_2001__	T
+19l1l0	suite_de_la_déclaration	I
+
+#Une étude détaillée des risques est délivrée à l'inspection des installations classées le 3 février 2005
+
+20l0l0	détaillée_des	O
+20l0l1	risques_est_délivrée	N
+
+#30 juin 2005: le site fait l'objet d'un arrêté préfectoral prescrivant une dépollution des sols et des eaux souterraines.
+
+21l0l0	30_juin_2005	R
+21l0l1	__le_site_fait_l_	N
+21l0l2	objet_d__un_arrêté_préfectoral	N
+21l0l3	prescrivant_une_dépollution	A
+21l0l4	des	O
+21l0l5	sols_et_des_eaux_souterraines__	N
+21l1l0	dépollution_des_sols	I
+
+#Ces travaux de réhabilitation se décomposent en 6 process:
+
+22l0l0	Ces_travaux	O
+22l0l1	de_réhabilitation_se_décomposent	N
+22l0l2	en_6_process__	O
+
+#- Extraction de la source primaire de pollution des sols par des Composés Organo-Halogénés Volatils (COHV)
+
+23l0l0	__Extraction	T
+23l0l1	de_la	O
+23l0l2	source_primaire_de	R
+23l0l3	pollution_des_sols_par	O
+23l0l4	des	R
+23l0l5	Composés_Organo___Halogénés	N
+23l0l6	Volatils___COHV__	O
+
+#- Traitement in situ des sols impactés par des COHV
+
+24l0l0	__Traitement_in_situ_des_sols_impactés	N
+
+#- Traitement in situ des eaux souterraines impactées par des COHV.
+
+25l0l0	Traitement	N
+25l0l1	in_situ_des_eaux_souterraines_impactées_par	O
+25l1l0	COHV__	S
+
+#L'oxydation chimique par injection d'un oxydant (permanganate de potassium est prescrite
+
+26l0l0	L__oxydation_chimique	N
+26l0l1	par_injection_d_	O
+26l0l2	oxydant___permanganate_de_potassium_est_prescrite	O
+26l1l0	oxydant___permanganate_de_potassium_est_prescrite	S
+
+#- Extraction des sols impactés par les hydrocarbures et traitement ex situ (les sols impactés seront évacués et traités par voie biologique)
+
+27l0l0	Extraction_des_sols	N
+27l0l1	impactés_par_les_hydrocarbures	O
+27l0l2	et	R
+27l0l3	traitement	O
+27l1l0	traitement	S
+
+#- Extraction et traitement ex situ des eaux souterraines impactées par les hydrocarbures.
+
+28l0l0	_	A
+28l0l1	Extraction_et_traitement	N
+28l0l2	ex_situ_des	N
+28l0l3	eaux	O
+28l1l0	eaux_souterraines_impactées_par_les_hydrocarbures	S
+
+#Les eaux souterraines sont extraites puis traitées (séparation et filtration).
+
+29l0l0	Les_eaux_souterraines_sont	N
+29l0l1	extraites_puis_traitées__	O
+29l0l2	séparation_et_filtration	N
+29l0l3	___	O
+29l1l0	puis_traitées__	S
+
+#- Extraction et traitement hors site des sols impactés par les métaux.
+
+30l0l0	Extraction_et_traitement_hors_site	N
+30l0l1	des_sols_impactés_par_les_métaux	O
+30l0l2	_	R
+
+#Les sols impactés par les métaux (zinc) sont extraits et éliminés vers un centre de stockage de déchets agrée
+
+31l0l0	vers_un_centre	A
+
+#Avril 2007: Le rapport de fin de dépollution-réhabilitation des travaux a été remis en avril 2007.
+
+32l0l0	Avril_2007___Le_rapport_de_fin_de_dépollution	N
+32l0l1	_	O
+32l0l2	réhabilitation_des_travaux	O
+
+#1 juin 2007: Arrêté de servitude pour les parcelles cadastrées
+
+33l0l0	1_juin_2007___Arrêté	O
+33l0l1	servitude	O
+33l0l2	les_parcelles_cadastrées	N
+33l1l0	servitude_pour_les	S
+
+#énumérées.
+
+34l0l0	énumérées	T
+
+#Les règles suivantes sont applicables:
+
+35l0l0	Les_règles	T
+35l0l1	applicables__	O
+
+#- L'implantation des ouvrages permettant l'extraction d'eau souterraine est interdite
+
+
+#- L'utilisation des eaux souterraines à partir d'ouvrages de captage existants est interdite
+
+
+#Pour le site 2 dit "La Chapelle":
+
+38l0l0	Pour	O
+38l0l1	le_site_2_dit___La_Chapelle____	A
+
+#8 octobre 2002: OAMDF a bénéficié d'un nouvel arrêté préfectoral d'autorisation pour l'exploitation d'une unité de fabrication de mécanismes d'automobiles (travail mécanique des métaux).
+
+39l0l0	octobre_2002___OAMDF_a_bénéficié_d__un_nouvel	A
+39l0l1	pour_l__exploitation_d__une_unité_de_fabrication_de_mécanismes_d__automobiles___travail_mécanique_des_métaux____	O
+
+#22 juillet 2004: Arrêté préfectoral portant dispositions complémentaires.
+
+40l0l0	Arrêté_préfectoral	O
+
+#Les autres activités et installations relèvent du régime de déclaration à savoir: trempe, recuit ou revenu de métaux, fontaine de dégraissage avec solvant, installations de combustion, de réfrigération et de compression, atelier de charge d'accumulateurs, dépôt de bacs plastiques à l'extérieur, équipement de remplissage de gaz inflammables liquéfiés pour l'alimentation des chariots automoteurs.
+
+41l0l0	Les_autres_activités	O
+41l0l1	et_installations	N
+41l0l2	relèvent_du_régime_de_déclaration_à_savoir	O
+41l0l3	trempe	O
+41l0l4	__recuit_ou_revenu	R
+41l0l5	de_métaux	O
+41l0l6	__fontaine_de_dégraissage_avec_solvant___installations_de_combustion___de	A
+41l1l0	activités	I
+
+#Ce site 2 est à l'arrêt depuis juillet 2007.
+
+42l0l0	Ce_site_2_est_à_l_	T
+42l0l1	arrêt_depuis_juillet	O
+
+#Le rapport de la société ERM de mars 2007 établi qu'il n'existe pas d'impact résiduel sur ce site.
+
+43l0l0	Le_rapport_de_la_société_ERM_de_mars_2007	O
+43l0l1	résiduel_sur_ce_site__	A
+
+#27 juin 2008: déclaration de cessation d'activités.
+
+44l0l0	27_juin	O
+44l0l1	2008___déclaration	N
+44l0l2	de_cessation_d__activités__	T
+
+#Au vu des éléments transmis par l'exploitant à l'Inspection des Installations Classées, il n'y a pas lieu de demander des moyens complémentaires en terme de dépollution et de surveillance du site.
+
+45l0l0	éléments_transmis	O
+45l0l1	par_l__exploitant	T
+45l1l0	éléments_transmis	I

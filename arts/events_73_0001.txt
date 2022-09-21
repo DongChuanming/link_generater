@@ -1,0 +1,561 @@
+
+#73.0001
+#Le site des Sorderettes a accueilli une décharge de déchets industriels et ménagers (180 000 tonnes, 22 000 m²), exploitée de 1957 au début des années 2000.
+
+0l0l0	Le_site	O
+0l0l1	Sorderettes	L
+0l0l2	a_accueilli	N
+0l0l3	une_décharge_de_déchets_industriels	O
+0l0l4	exploitée	N
+0l0l5	de_1957_au_début_des_années_2000__	T
+0l1l0	une_décharge	D
+0l1l1	de_déchets_industriels	U
+
+#Ce site n'a disposé à priori d'aucune autorisation d'exploitation.
+
+1l0l0	Ce_site	O
+
+#La décharge est implantée dans le lit majeur de la rivière Arc.
+
+2l0l0	La_décharge	O
+2l0l1	est_implantée	N
+2l0l2	dans_le_lit_majeur_de_la_rivière_Arc	L
+
+#Une étude historique de la nature et de la quantité des déchets entreposés sur le site a montré que les déchets provenaient de :
+
+3l0l0	Une_étude_historique	N
+3l1l0	les_déchets	U
+
+#- Aluminium Péchiney (usine de la Saussaz) : cathodes, brasques, réfractaires, déchets divers, déchets banals (18 000 tonnes soit 12 000 m3) ;
+
+4l0l0	Aluminium_Péchiney	O
+4l1l0	Aluminium	S
+4l1l1	Péchiney	I
+
+#- Elf Atochem (usine de Prémont) : déchets d'emballage, boues de désulfatation et de fond de cuves, déchets banals (1 650 tonnes soit 1 100 m3) ;
+
+5l0l0	Elf_Atochem	O
+5l0l1	Prémont	O
+5l1l0	Elf_Atochem	I
+
+#- Métaltemple (usine de Saint-Michel-de-Maurienne) : sables, fines, déchets d'urée, enduits, boues de phosphatation, d'usinage, fonds de cuves, déchets de démolition, laitiers, sels de trempe, boues acides, etc. (70 000 tonnes soit 46 000 m3) ;
+
+6l0l0	Métaltemple	O
+6l0l1	Saint_Michel_de_Maurienne	L
+6l0l2	usinage	A
+6l0l3	boues_acides	O
+6l1l0	Métaltemple	I
+6l1l1	boues_acides	U
+
+#- Commune de Saint-Michel-de-Maurienne : ordures ménagères, encombrants, déchets verts, gravats (63 000 tonnes) ;
+
+7l0l0	Commune	O
+7l0l1	de_Saint_Michel_de_Maurienne	L
+
+#- Entreprises extérieurs (chantier d'autoroute) intervenant en sous-traitance de la SFTRF : Déchets BTP (40 000 tonnes).
+
+8l0l0	__Entreprises_extérieurs	O
+8l0l1	intervenant_en_sous_traitance	N
+8l0l2	la_SFTRF	O
+8l1l0	la_SFTRF	I
+
+#Cette synthèse a permis de mettre évidence le caractère hétérogène des déchets entreposés qui peuvent être tout de même répartis selon certaines grandes catégories :
+
+
+#- déchets inertes,
+
+
+#- déchets banals, encombrants, ou ordures ménagères,
+
+
+#- déchets fluorés et cyanurés générés par la fabrication de l'aluminium,
+
+12l0l0	la_fabrication_de_l__aluminium	A
+12l1l0	déchets_fluorés	U
+12l1l1	cyanurés	S
+
+#- déchets métallurgiques pouvant contenir des métaux toxiques (chrome, cuivre, nickel, molybdène, plomb),
+
+13l1l0	métaux_toxiques	U
+13l1l1	chrome	S
+13l1l2	cuivre	S
+13l1l3	nickel	S
+13l1l4	molybdène	S
+13l1l5	plomb	S
+
+#- déchets contenant des chlorates (fonds de cuve de Elf Atochem),
+
+14l0l0	Elf_Atochem	O
+14l1l0	des_chlorates	S
+14l1l1	Elf_Atochem	S
+
+#- déchets contenant des hydrocarbures,
+
+15l1l0	déchets_contenant_des_hydrocarbures	U
+
+#- boues de désulfatation susceptibles de contenir du chrome VI,
+
+16l0l0	désulfatation	A
+16l1l0	boues_de_désulfatation	U
+16l1l1	du_chrome_VI	S
+
+#- sels de trempes cyanurés.
+
+17l1l0	trempes_cyanurés	U
+
+#Diverses études, cofinancées par l'ADEME, l'Agence de l'Eau et les 4 déposants (Métaltemple, Péchiney, Elf Atochem et la mairie de St-Michel de Maurienne), ont été menées de 1999 à 2000: étude historique, hydraulique, diagnostic environnemental, ESR.
+
+18l0l0	Diverses_études	N
+18l0l1	cofinancées	O
+18l0l2	l__ADEME	O
+18l0l3	l__Agence_de_l_	O
+18l0l4	4_déposants	O
+18l0l5	Péchiney	O
+18l0l6	Elf_Atochem	O
+18l0l7	la_mairie	O
+18l0l8	de_St___Michel_de_Maurienne	L
+18l0l9	ont_été_menées	N
+18l0l10	de_1999_à_2000	T
+18l0l11	diagnostic_environnemental	N
+18l1l0	Péchiney	I
+18l1l1	Elf_Atochem	I
+18l1l2	la_mairie_de_St___Michel	I
+18l1l3	de_Maurienne	I
+
+#Un comité de pilotage de ces études a été constitué dès 1997.
+
+19l0l0	Un_comité_de_pilotage	O
+19l0l1	ces_études	O
+19l0l2	a_été_constitué	N
+19l0l3	dès_1997	T
+
+#Les résultats sont les suivants :
+
+
+#- Situation dégradée de la rivière Arc en amont et en aval de la décharge.
+
+21l0l0	la_rivière_Arc	O
+21l0l1	en_amont_et_en_aval_de_la_décharge	L
+
+#- Indice phénol dans les eaux souterraines supérieur à la valeur seuil de l'époque.
+
+
+#- Azote ammoniacal et kjeldahl dans les eaux de l'Arc supérieur à la valeur seuil de l'époque.
+
+23l0l0	kjeldahl	O
+23l1l0	Azote_ammoniacal	S
+23l1l1	kjeldahl	S
+
+#- Très forte sensibilité vis-à-vis des crues.
+
+24l0l0	vis_à_vis_des	R
+24l0l1	crues	N
+
+#Le rapport de Safege (phase I de juillet 1999 ; phase II d'octobre 1999) précise que l'Arc, à Saint-Michel-de-Maurienne, draine un bassin versant d'environ 940 km2.
+
+25l0l0	Safege	O
+25l0l1	juillet_1999	T
+25l0l2	octobre_1999	T
+25l0l3	à_Saint_Michel_de_Maurienne	L
+25l0l4	draine	R
+25l0l5	un_bassin_versant	O
+
+#L'Arc a  été l'objet de diverses crues dont la plus notable est celle du 14 juin 1997 dont la période de retour est estimée à 30 ans.
+
+26l0l0	Arc	O
+26l0l1	a___été_l__objet	R
+26l0l2	de_diverses_crues	N
+26l0l3	du_14_juin_1997	T
+
+#Le lit de l'Arc avait alors été exhaussé de 7 mètres.
+
+27l0l0	Le	O
+27l0l1	lit_de_l__Arc_avait_alors_été_exhaussé	N
+
+#L'ensemble des éléments collectés ont permis de réaliser une Évaluation Simplifiée des Risques.
+
+28l0l0	une_Évaluation_Simplifiée_des_Risques	N
+
+#Le classement en catégorie 2 conforte les études précédentes et ne justifie pas d'étude approfondie.
+
+
+#Le programme de remise en état s'articule autour des points suivants :
+
+30l0l0	Le_programme	O
+30l0l1	de_remise_en_état	O
+
+#- remodelage et étanchéification du massif de déchets pour éviter la percolation des eaux météorites et le relargage des substances de la famille des hydrocarbures,
+
+31l0l0	remodelage	N
+31l0l1	étanchéification	N
+31l0l2	massif_de_déchets	O
+31l0l3	la_percolation	N
+31l0l4	des_eaux_météorites	N
+31l0l5	le_relargage	N
+31l1l0	eaux_météorites	U
+31l1l1	hydrocarbures	S
+
+#- protection du massif de l'érosion de l'Arc et des crues centennales,
+
+32l0l0	massif_de_l__érosion_de_l__Arc	L
+
+#- réinsertion paysagère de la décharge,
+
+33l0l0	réinsertion_paysagère	N
+33l0l1	la_décharge	O
+
+#- surveillance du site par une campagne semestrielle des eaux,
+
+34l0l0	surveillance_du_site	A
+34l0l1	une_campagne_semestrielle	N
+
+#- recherche de solutions alternatives au stockage d'inertes sur le site.
+
+35l1l0	inertes	S
+
+#Un plan de financement a été arrêté entre la commune de St Michel de Maurienne, les industriels, le FEDER, le Conseil Général, l'Agence de l'eau, l'ADEME, la région suite à l'avis favorable donné par la Commission Nationale de Aides de l'ADEME le 8 avril 2003.
+
+36l0l0	Un_plan_de_financement	O
+36l0l1	a_été_arrêté	N
+36l0l2	entre	R
+36l0l3	la_commune	O
+36l0l4	de_St_Michel_de_Maurienne	L
+36l0l5	les_industriels	O
+36l0l6	le_FEDER	O
+36l0l7	le_Conseil_Général	O
+36l0l8	l__Agence	O
+36l0l9	l__eau	O
+36l0l10	l__ADEME	O
+36l0l11	la_région	O
+36l0l12	suite_à	R
+36l0l13	l__avis_favorable	N
+36l0l14	l__ADEME	O
+36l0l15	le_8_avril_2003	T
+36l1l0	la_commune_de_St_Michel_de_Maurienne	I
+36l1l1	le_FEDER	I
+36l1l2	le_Conseil_Général	I
+36l1l3	la_région	I
+36l1l4	la_Commission_Nationale	I
+
+#Les travaux de réhabilitation prévus, touchant notamment le lit de l'Arc, ont fait l'objet d'une étude d'impact en mai 2003.
+
+37l0l0	Les_travaux_de_réhabilitation	N
+37l0l1	prévus	O
+37l0l2	l__Arc	L
+37l0l3	ont_fait_l__objet_d_	R
+37l0l4	une_étude	N
+37l0l5	d__impact	O
+37l0l6	en_mai_2003	T
+
+#L'AP du 06/11/2003 porte déclaration d'utilité publique, déclaration d'intérêt général et autorisation au titre de la loi sur l'eau des opérations nécessaires à la réhabilitation de la décharge des Sorderettes.
+
+38l0l0	L__AP_du	O
+38l0l1	06_11_2003	T
+38l0l2	porte_déclaration_d__utilité_publique	N
+38l0l3	d__intérêt_général	O
+38l0l4	autorisation	N
+38l0l5	au_titre_de	R
+38l0l6	la_loi_sur_l__eau	O
+38l0l7	des_opérations	N
+38l0l8	nécessaires_à	R
+38l0l9	la_réhabilitation	N
+38l0l10	la_décharge	O
+38l0l11	Sorderettes	L
+
+#Les travaux se sont déroulés en 2004-2005, sous maîtrise d'ouvrage communale.
+
+39l0l0	Les_travaux_se_sont_déroulés	N
+39l0l1	en_2004___2005	T
+39l0l2	sous_maîtrise_d_	R
+39l0l3	ouvrage_communale	O
+
+#Des analyses des eaux souterraines (2 piézomètres) se sont déroulées avant, pendant et après les travaux (17/03/2003, 23/04/2003, 04/03/2004, 31/08/2005).
+
+40l0l0	Des_analyses_des_eaux_souterraines	O
+40l0l1	se_sont_déroulées_avant	N
+40l0l2	après_les_travaux	N
+40l0l3	__17_03_2003	T
+40l0l4	23_04_2003	T
+40l0l5	04_03_2004	T
+40l0l6	31_08_2005	T
+
+#Les résultats montrent surtout une augmentation de l'indice phénol de moins de 0,01 mg/L le 17/03/2003 à 0,32 mg/L le 31/08/2005, le reste (aluminium, fer, fluorures, manganèse et HAP) étant inférieurs aux valeurs seuils.
+
+41l0l0	le_17_03_2003	T
+41l0l1	le_31_08_2005	T
+41l1l0	phénol	S
+41l1l1	aluminium	S
+41l1l2	fer	S
+41l1l3	fluorures	S
+41l1l4	manganèse	S
+41l1l5	HAP	S
+
+#Une visite de récolement a été réalisée par l'inspection le 11 septembre 2006, ce qui a permis de constater :
+
+42l0l0	Une_visite_de_récolement	N
+42l0l1	a_été_réalisée	N
+42l0l2	l__inspection	O
+42l0l3	le_11_septembre_2006__	T
+
+#- Une protection, ceinturant les déchets et dimensionnée à la crue centennale (plus de 2 m), a été réalisée par des enrochements liés, prélevés directement dans le lit et par une terre armée (Tetratel).
+
+43l0l0	ceinturant	L
+43l0l1	les_déchets	O
+43l0l2	a_été_réalisée	N
+43l0l3	des_enrochements	N
+43l0l4	une_terre_armée	O
+43l1l0	Tetratel	S
+
+#- En amont, le lit a été élargi pour permettre un meilleur écoulement en cas de crue.
+
+44l0l0	le_lit	O
+44l0l1	a_été_élargi	N
+
+#- Le lit du brief asséché, en rive gauche, sert de dépôt de déchets inertes à la société Metaltemple.
+
+45l0l0	brief_asséché	O
+45l0l1	en_rive_gauche	L
+45l0l2	sert_de	R
+45l0l3	dépôt_de_déchets_inertes	N
+45l0l4	la_société_Metaltemple	O
+45l1l0	dépôt	D
+45l1l1	la_société_Metaltemple	I
+
+#- Un éperon rocheux a été miné en amont dans l'objectif d'éviter un renvoi du courant vers les enrochements.
+
+46l0l0	Un_éperon_rocheux	O
+46l0l1	a_été_miné	N
+46l0l2	en_amont	L
+46l0l3	enrochements	A
+
+#- Cinq seuils, dont trois en amont, ont été créés afin de stabiliser le lit de l'Arc qui a tendance à se creuser.
+
+47l0l0	Cinq_seuils	O
+47l0l1	ont_été_créés	N
+47l0l2	afin_de	R
+47l0l3	stabiliser	N
+47l0l4	l__Arc	L
+
+#- Des aménagements paysagers ont été mis en œuvre par la société Millet, au mois d'avril 2006, en faisant appel à des essences locales.
+
+48l0l0	Des_aménagements_paysagers	N
+48l0l1	ont_été_mis_en_œuvre	N
+48l0l2	la_société_Millet	O
+48l0l3	au_mois_d__avril_2006__	T
+48l1l0	la_société_Millet	I
+
+#Depuis la fin des travaux de réhabilitation, le brief a été remblayé (non prévu par l'AP du 06/11/2003) sur 130 ml à l'aide de déchets à priori inerte, pour un volume total déposé d'au moins 8 000 m3 (largeur 20 ml, épaisseur > 3 m).
+
+49l0l0	Depuis_la_fin	T
+49l0l1	des_travaux_de_réhabilitation	N
+49l0l2	le_brief	O
+49l0l3	a_été_remblayé	N
+49l0l4	06_11_2003	T
+
+#Les déchets apportés ont 3 origines :
+
+
+#- des déchets de moulage ("carapace") de pièces Métaltemple,
+
+
+#- les déchets inertes (déblais notamment) des chantiers communaux,
+
+52l0l0	chantiers_communaux	O
+52l1l0	les_déchets_inertes	U
+
+#- les bennes "gravats" des déchetteries de Saint-Michel-de-Maurienne et de Valloire.
+
+53l0l0	Saint_Michel_de_Maurienne_et_de_Valloire	L
+
+#Un projet d'arrêté visant à mettre en place sur le site une surveillance de la qualité des eaux souterraines et des eaux de surface a été adressé en octobre 2007 aux dépositaires de déchets.
+
+54l0l0	Un_projet	O
+54l0l1	le_site	O
+54l0l2	une_surveillance_de_la_qualité_des_eaux_souterraines_et_des_eaux_de	A
+54l0l3	a_été_adressé	N
+54l0l4	en_octobre_2007	T
+
+#Ce projet prévoit également la mise en place sur le site d'une servitude d'utilité publique afin de garantir, de manière pérenne, par des restrictions d'usage, la protection de l'environnement et de la santé.
+
+55l0l0	Ce_projet	O
+55l0l1	prévoit_également	R
+55l0l2	la_mise_en_place	N
+55l0l3	le_site	O
+55l0l4	une_servitude_d__utilité_publique	O
+55l0l5	l__environnement	O
+
+#Une reprise des enrochements a été réalisée en 2008 suite à la crue, pour protéger une zone déstabilisée en raison de bétons "pourris".
+
+56l0l0	Une_reprise_des_enrochements_a_été_réalisée	N
+56l0l1	en_2008	T
+56l0l2	suite	R
+56l0l3	à_la_crue	N
+56l0l4	protéger_une_zone_déstabilisée	N
+
+#Dans la période récente, un secteur attenant à l'ancienne décharge de déchets industriels et ménagers (bief asséché RG) ont reçu des dépôts de déchets inertes.
+
+57l0l0	Dans_la_période_récente	T
+57l0l1	un_secteur	O
+57l0l2	attenant_à_l__ancienne	L
+57l0l3	décharge_de_déchets_industriels	O
+57l0l4	ont_reçu	N
+57l0l5	des_dépôts_de_déchets_inertes	O
+57l1l0	dépôts	D
+
+#Cette exploitation n'a cependant pas fait l'objet d'une autorisation administrative.
+
+58l0l0	Cette_exploitation	O
+
+#Une visite de contrôle a été réalisée par la DDT le 7 septembre 2011 suite à un signalement concernant la reprise d'activité du site.
+
+59l0l0	Une_visite_de_contrôle	N
+59l0l1	a_été_réalisée	N
+59l0l2	la_DDT	O
+59l0l3	le_7_septembre_2011	T
+59l0l4	un_signalement	N
+59l0l5	la_reprise_d__activité	N
+59l0l6	du_site	A
+59l1l0	la_DDT	I
+
+#Elle permet de constater que les apports sont très récents et a priori régulier (ballet de camion lors de l'arrivée sur les lieux).
+
+
+#La DDT a demandé de faire cesser tout apport de déchets sur le site tant que des garanties ne seront pas fournies.
+
+61l0l0	La_DDT	O
+61l0l1	a_demandé	N
+61l1l0	La_DDT	I
+
+#Une réunion a été programmée le 19 septembre 2011 entre la DDT, la DREAL, la commune, le SIRTOMM et Métaltemple afin de faire le point.
+
+62l0l0	Une_réunion	N
+62l0l1	a_été_programmée	N
+62l0l2	le_19_septembre_2011	T
+62l0l3	entre	R
+62l0l4	la_DDT	O
+62l0l5	la_DREAL	O
+62l0l6	la_commune	O
+62l0l7	le_SIRTOMM	O
+62l0l8	Métaltemple	O
+62l1l0	la_DDT	I
+62l1l1	la_DREAL	I
+62l1l2	la_commune	I
+62l1l3	le_SIRTOMM	I
+62l1l4	Métaltemple	I
+
+#Il en ressort que l'exploitation actuelle est réalisée sous maîtrise d'ouvrage communale, avec un appui du SIRTOMM (contrôle/gestion des entrées par le gardien de la déchetterie).
+
+63l0l0	l__exploitation_actuelle	O
+63l0l1	est_réalisée_sous_maîtrise_d_	N
+63l0l2	ouvrage_communale	O
+63l0l3	un_appui_du_SIRTOMM	O
+63l0l4	contrôle	N
+63l0l5	gestion_des_entrées	O
+63l0l6	la_déchetterie	O
+63l1l0	du_SIRTOMM	I
+
+#Le relevé de décision est le suivant :
+
+
+#- La commune précise ses intentions en terme de fin d'exploitation du site des Sorderettes (volume à accueillir, durée, modalités de remise en état, usage futur).
+
+65l0l0	La_commune	O
+65l0l1	précise	R
+65l0l2	ses_intentions	O
+65l0l3	fin_d__exploitation	N
+65l0l4	Sorderettes	L
+65l0l5	volume_à_accueillir	O
+65l0l6	remise_en_état	N
+
+#En fonction de ces éléments, la DDT déterminera si une procédure ISDI est encore exigible ou non.
+
+66l0l0	une_procédure_ISDI	O
+66l0l1	est_encore_exigible	N
+66l1l0	la_DDT	I
+
+#- Le SIRTOMM adresse dès que possible une version "minute" du projet d'ISDI de Saint-Martin la Porte ; ceci permettra d'anticiper d'éventuelles contraintes ou procédures parallèles à lancer (loi sur l'eau notamment).
+
+67l0l0	Le_SIRTOMM	O
+67l0l1	adresse	N
+67l0l2	dès_que_possible	T
+67l0l3	Saint_Martin_la_Porte	L
+67l0l4	d__anticiper_d__éventuelles_contraintes	O
+67l1l0	Le_SIRTOMM	I
+
+#- Métaltemple adresse à la DDT et la DREAL des éléments concernant les "carapaces" mises en décharge des Sorderettes.
+
+68l0l0	la_DDT	O
+68l0l1	la_DREAL	O
+68l0l2	carapaces	O
+68l0l3	mises_en_décharge	N
+68l0l4	Sorderettes	L
+68l1l0	Métaltemple	I
+68l1l1	la_DDT	I
+68l1l2	la_DREAL	I
+
+#- La DREAL étudiera les filières d'élimination proposées par Métaltemple.
+
+69l0l0	La_DREAL	O
+69l0l1	Métaltemple	O
+69l1l0	La_DREAL	I
+69l1l1	Métaltemple	I
+
+#La mairie à reçu le 17 octobre 2012 les analyses des déchets (fines grenaillage et égrappage) réalisées par Métaltemple le 27 août 2012 qui demande une acceptation préalable pour l'enfouissement de ses déchets soit à la décharge des Sorderettes, soit au CET de Saint-Martin la Porte.
+
+70l0l0	La_mairie	O
+70l0l1	à_reçu	N
+70l0l2	le_17_octobre_2012	T
+70l0l3	les_analyses	O
+70l0l4	fines	O
+70l0l5	grenaillage	A
+70l0l6	égrappage	A
+70l0l7	Métaltemple	O
+70l0l8	le_27_août_2012	T
+70l0l9	une_acceptation_préalable	O
+70l0l10	l__enfouissement	N
+70l0l11	Sorderettes	L
+70l0l12	CET	O
+70l0l13	Saint_Martin_la_Porte	L
+70l1l0	Saint_Martin_la_Porte	I
+
+#Ces analyses montrent que les déchets sont validés comme étant inertes, les déchets étant conformes aux critères d'acceptation en installation de stockage de déchets inertes tels que prévus par l'annexe II de l'arrêté ministériel du 28 octobre 2010.
+
+71l0l0	28_octobre_2010__	T
+
+#Métaltemple estime le volume généré à environ 100 T/an (50 T d'égrappage et 50 T de grenaillage) et qu'il y a en plus un stock historique de bigbag des deux types de fines d'environ 500 T.
+
+72l0l0	100_T	O
+72l0l1	grenaillage	A
+72l1l0	Métaltemple	I
+
+#Cependant, la DDT note, dans un courrier du 22 novembre 2012 au Maire, qu'il s'agit de déchets industriels ne figurant pas dans la liste fixée par l'annexe I de cet arrêté et qu'ils devront donc faire l'objet d'une procédure d'acceptation préalable pour être éliminés en ISDI.
+
+73l0l0	la_DDT	O
+73l0l1	un_courrier	N
+73l0l2	du_22_novembre_2012	T
+73l0l3	Maire	O
+73l1l0	la_DDT	I
+
+#Pour ce faire, la société Métaltemple devra produire un dossier synthétique précisant l'origine et la nature de ces déchets, et justifiant de leur innocuité vis-à-vis de la santé et de l'environnement (notamment préciser le degré de radioactivité due au Zircon).
+
+74l0l0	l__environnement	O
+74l1l0	la_société_Métaltemple	I
+74l1l1	Zircon	S
+
+#Le courrier note également que comme le site des Sorderettes ne dispose à ce jour d'aucune autorisation administrative et qu'il arrive à saturation, il conviendrait d'envisager sa fermeture et sa revégétalisation dans les meilleurs délais.
+
+75l0l0	le_site	O
+75l0l1	Sorderettes	L
+75l0l2	à_ce_jour	T
+75l0l3	il	O
+75l0l4	arrive_à_saturation	N
+75l0l5	il_conviendrait	O
+75l0l6	d__envisager_sa_fermeture	N
+75l0l7	revégétalisation	N
+
+#Toute poursuite d'exploitation ne pourrait s'envisager que dans le cadre d'une procédure ISDI, à la pertinence discutable compte tenu du volume résiduel, et à l'issue rendu incertaine par les contraintes géotechniques imposées par la proximité de l'ancienne décharge industrielle.
+
+76l0l0	Toute_poursuite_d__exploitation	N
+76l0l1	envisager_que	O
+76l0l2	dans_le_cadre_d_	R
+76l0l3	une_procédure_ISDI	N

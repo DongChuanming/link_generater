@@ -1,0 +1,216 @@
+
+#54.0030
+#Le complexe sidérurgique d’AUBOUE était de nature à être soumis à autorisation au titre de la législation ICPE.
+
+0l0l0	Le_complexe_sidérurgique	O
+0l0l1	d__AUBOUE	O
+0l0l2	était	R
+0l0l3	de_nature_à_être_soumis_à_autorisation	N
+0l0l4	la_législation_ICPE	O
+0l1l0	sidérurgique_d__AUBOUE	I
+
+#Il comprenait les installations suivantes :
+
+
+#-	Une fonderie,
+
+2l0l0	fonderie	A
+
+#-	Trois hauts-fourneaux,
+
+
+#-	Une briqueterie à partir de laitiers,
+
+
+#-	Un crassier (environ 4 à 5 millions de tonnes de laitiers).
+
+
+#L’activité sidérurgique a cessé définitivement en juin 1966 et les équipements industriels ont été démantelés.
+
+6l0l0	L__activité_sidérurgique	O
+6l0l1	a_cessé_définitivement	N
+6l0l2	en_juin_1966	T
+6l0l3	les_équipements_industriels	O
+6l0l4	ont_été_démantelés	N
+
+#Le crassier a été exploité par la SLAG jusqu'en 2015.
+
+7l0l0	Le_crassier	O
+7l0l1	a_été_exploité	N
+7l0l2	la_SLAG	O
+7l0l3	jusqu__en_2015__	T
+7l1l0	la_SLAG	I
+
+#Il a notamment été utilisé pour la réalisation de la voie TGV Est.
+
+8l0l0	Il	O
+8l0l1	a	R
+8l0l2	notamment_été_utilisé	N
+8l0l3	la_réalisation	N
+8l0l4	la_voie_TGV_Est	O
+
+#Il reste environ 3 millions de tonnes de laitier à exploiter.
+
+
+#Le site a été partiellement reconverti.
+
+10l0l0	Le_site	O
+10l0l1	a_été_partiellement_reconverti	N
+
+#Une partie des anciens bâtiments sidérurgiques accueille la société TRAMAT qui exerce une activité de valorisation (récupération, tri, broyage) de briques réfractaires et de fabrication de briques de laitiers depuis 1979.
+
+11l0l0	Une_partie_des_anciens_bâtiments_sidérurgiques	O
+11l0l1	accueille	R
+11l0l2	la_société_TRAMAT	O
+11l0l3	exerce_une_activité_de_valorisation	A
+11l0l4	récupération___tri	A
+11l0l5	broyage	A
+11l0l6	fabrication_de_briques_de_laitiers	A
+11l0l7	depuis_1979	T
+11l1l0	la_société_TRAMAT	I
+
+#Il s’agit d’une ICPE soumise à autorisation (arrêté préfectoral n°1999-320 du 18 octobre 1999).
+
+12l0l0	une_ICPE	N
+12l0l1	soumise_à_autorisation	N
+12l0l2	18_octobre_1999____	T
+
+#Les bâtiments des anciens ateliers sidérurgiques de maintenance, réparation, mécanique et garage accueillent de nouvelles activités artisanales et commerciales.
+
+13l0l0	Les_bâtiments	O
+13l0l1	des_anciens_ateliers_sidérurgiques	O
+13l0l2	de_maintenance	O
+13l0l3	réparation	A
+13l0l4	garage	O
+13l0l5	accueillent	R
+13l0l6	de_nouvelles	N
+13l0l7	activités_artisanales_et_commerciales	A
+
+#L’étude historique du site a permis d’identifier 14 zones susceptibles d’avoir été polluées par les activités passées.
+
+14l0l0	identifier	N
+14l0l1	14_zones_susceptibles	O
+14l0l2	d_	R
+14l0l3	avoir	N
+14l0l4	été_polluées	O
+14l0l5	par	R
+14l0l6	les_activités_passées	A
+
+#8 sources de pollution, essentiellement aux métaux lourds et hydrocarbures, ont été confirmées par les investigations (prélèvements et analyses de sol) menées sur le site :
+
+15l0l0	8_sources_de_pollution	O
+15l0l1	ont_été_confirmées	N
+15l0l2	les_investigations	N
+15l1l0	métaux_lourds	S
+15l1l1	hydrocarbures	S
+
+#-	crassier (Zn, Pb)
+
+16l1l0	crassier	S
+16l1l1	Zn	S
+16l1l2	Pb	S
+
+#-	briqueterie ‘Cu, Zn, Pb)
+
+17l1l0	Cu	S
+17l1l1	Zn	S
+17l1l2	Pb	S
+
+#-	tas de poussières (As, Zn, Pb)
+
+18l1l0	As	S
+18l1l1	Zn	S
+
+#-	halle à coke (cyanures)
+
+19l0l0	coke	A
+19l0l1	cyanures	O
+19l1l0	coke	I
+
+#-	Ateliers mécaniques (hydrocarbures)
+
+20l1l0	hydrocarbures	S
+
+#-	dépoussiérage (Pb, Hg, Zn, hydrocarbures, cyanures)
+
+21l0l0	dépoussiérage	O
+21l1l0	Pb	S
+21l1l1	Hg	S
+21l1l2	Zn	S
+21l1l3	hydrocarbures	S
+21l1l4	cyanures	S
+
+#-	hauts-fourneaux (Zn)
+
+22l1l0	Zn	S
+
+#-	bassin à boues (Zn, Pb, hydrocarbures, cyanures).
+
+23l1l0	boues	S
+23l1l1	Zn	S
+23l1l2	Pb	S
+23l1l3	hydrocarbures	S
+23l1l4	cyanures	S
+
+#Certains secteurs présentent des contaminations pouvant nécessiter la mise en œuvre de mesures de gestion :
+
+24l0l0	Certains_secteurs	O
+24l0l1	des_contaminations	O
+24l0l2	la_mise_en_œuvre_de_mesures	N
+
+#-	dépoussiérage,
+
+25l0l0	dépoussiérage	O
+
+#-	tas de poussières,
+
+
+#-	bassin à boues.
+
+
+#A l’heure actuelle, les sols - sous-sols du site (usine et crassier) n’ont fait l’objet d’aucune mesures de gestion particulières.
+
+28l0l0	A_l__heure_actuelle	T
+28l0l1	les_sols___sous_sols	O
+28l0l2	ont_fait_l__objet_d_	R
+
+#L’exploitation du crassier a mis en suspens la remise en état de ce secteur incluant les tas de poussières et le bassin à boues.
+
+29l0l0	L__exploitation	N
+29l0l1	crassier	O
+29l0l2	a_mis_en_suspens	N
+29l0l3	la_remise_en_état	N
+29l0l4	ce_secteur	O
+29l0l5	le_bassin_à_boues	A
+
+#La société ARCELORMITTAL France n’a pas encore conclu à la compatibilité du site avec un usage industriel, niveau de remise en état exigé en application des dispositions du code de l’environnement.
+
+30l0l0	La_société_ARCELORMITTAL_France	O
+30l0l1	encore_conclu	T
+30l0l2	la_compatibilité	O
+30l0l3	un_usage_industriel	A
+30l1l0	La_société_ARCELORMITTAL_France	I
+
+#Une surveillance de la qualité des eaux souterraines et superficielles est effectuée depuis 2000 :
+
+31l0l0	Une_surveillance	A
+31l0l1	la_qualité_des_eaux_souterraines	O
+31l0l2	est_effectuée	N
+31l0l3	depuis_2000	T
+
+#-	un impact en cyanures totaux et en sulfates a été mis en évidence dans la nappe des calcaires à polypiers  imputable au site.
+
+32l1l0	cyanures_totaux	S
+32l1l1	sulfates	S
+
+#-	un impact en sulfates est également constaté en aval du site, tant dans les eaux superficielles de l’Orne et que dans les eaux de la nappe alluviale
+
+33l0l0	en_aval_du_site	L
+33l0l1	l__Orne	L
+33l0l2	eaux_de	R
+33l0l3	la_nappe	O
+33l1l0	sulfates	S
+
+#Une réflexion globale de réaménagement du site sera menée prochainement.
+
+34l0l0	réaménagement_du_site	N

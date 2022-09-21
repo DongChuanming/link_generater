@@ -1,0 +1,284 @@
+
+#56.0026
+#La société SBG a été autorisée à exploiter une installation de traitement de surface des métaux et de galvanisation par arrêté préfectoral du 20 mars 1992.
+
+0l0l0	La_société_SBG	O
+0l0l1	a_été_autorisée_à_exploiter	N
+0l0l2	une_installation_de_traitement_de_surface_des_métaux	O
+0l0l3	galvanisation	N
+0l0l4	arrêté_préfectoral	O
+0l0l5	20_mars_1992__	T
+0l1l0	La_société_SBG	I
+
+#Cependant, l'établissement exerce ses activités depuis 1977.
+
+1l0l0	exerce_ses_activités	N
+1l0l1	depuis_1977__	T
+
+#En 2008, la société a transféré ses activités (SBG2) sur un terrain jouxtant le site initialement exploité afin de remplacer les anciennes installations.
+
+2l0l0	En_2008__	T
+2l0l1	la_société	O
+2l0l2	a_transféré	N
+2l0l3	ses_activités	O
+2l0l4	SBG2__	O
+2l0l5	sur	L
+2l0l6	un_terrain	O
+2l0l7	jouxtant_le_site_initialement_exploité	N
+2l0l8	les	O
+2l0l9	anciennes_installations	N
+2l1l0	la_société	I
+2l1l1	__SBG2	I
+
+#La cessation d'activité de la première installation (SBG1) a été notifiée en octobre 2011.
+
+3l0l0	La_cessation_d__activité	N
+3l0l1	la_première_installation	O
+3l0l2	SBG1__	R
+3l0l3	a_été_notifiée	N
+3l0l4	en_octobre_2011__	T
+3l1l0	SBG1	I
+
+#Le bâtiment a été partiellement démantelé.
+
+4l0l0	Le_bâtiment	O
+4l0l1	a_été_partiellement_démantelé	N
+
+#Cette partie du site a fait l'objet des mesures de mise en sécurité du site (évacuation des produits dangereux, nettoyage des cuves utilisées pour les traitement de surface puis elles ont été comblées avec de la terre).
+
+5l0l0	Cette_partie_du_site	O
+5l0l1	a_fait_l__objet	R
+5l0l2	des_mesures	N
+5l0l3	évacuation_des_produits_dangereux	N
+5l0l4	nettoyage	N
+5l0l5	cuves	O
+5l0l6	utilisées_pour	R
+5l0l7	les_traitement_de_surface	O
+5l0l8	ont_été_comblées	N
+5l1l0	des_produits_dangereux	U
+
+#A partir de 2008, la société SBG a fait dresser un état des lieux des pollutions pouvant potentiellement impacter son site compte tenu des activités passées.
+
+6l0l0	A	R
+6l0l1	partir_de_2008__	T
+6l0l2	la_société_SBG	O
+6l0l3	a_fait_dresser	N
+6l0l4	un_état_des_lieux	N
+6l0l5	pollutions	N
+6l0l6	pouvant	R
+6l0l7	potentiellement_impacter	N
+6l0l8	son_site	O
+6l0l9	activités_passées	O
+6l1l0	la_société_SBG	I
+
+#Un premier diagnostic des sols et des eaux souterraines a été réalisé et un suivi piézométrique mis en place.
+
+7l0l0	Un_premier_diagnostic	N
+7l0l1	des_eaux_souterraines	O
+7l0l2	a_été_réalisé	N
+7l0l3	un_suivi_piézométrique	O
+7l0l4	mis_en_place	N
+
+#Des compléments ont été apportés en 2013, 2014, 2015 et 2017.
+
+8l0l0	ont_été_apportés	N
+8l0l1	en_2013___2014___2015_et_2017__	T
+
+#IMPACT SUR LES SOLS - SUR SITE
+
+9l1l0	LES_SOLS___SUR_SITE	I
+
+#- impact généralisé par les métaux,
+
+10l0l0	les_métaux	O
+10l1l0	métaux	S
+
+#- impact en arsenic et zinc dans le hall de traitement,
+
+11l0l0	traitement	A
+11l1l0	arsenic	S
+11l1l1	zinc	S
+
+#- impact fort en arsenic, plomb, zinc à proximité de l'ancienne station de traitement,
+
+12l0l0	arsenic	O
+12l0l1	à_proximité_de_l__ancienne_station_de_traitement	A
+12l1l0	arsenic	S
+12l1l1	plomb	S
+12l1l2	zinc	S
+
+#- impact modéré par le cuivre et le cadmium,
+
+13l1l0	le_cuivre	S
+13l1l1	cadmium	S
+
+#- pas d'impact par les hydrocarbures totaux (HCT), les composés organo-halogénés volatils (COHV), les BTEX, les chlorures et l'ammonium,
+
+14l0l0	ammonium	O
+14l1l0	hydrocarbures_totaux	S
+14l1l1	HCT	S
+14l1l2	les_composés_organo___halogénés_volatils	S
+14l1l3	COHV	S
+14l1l4	les_BTEX	S
+14l1l5	les_chlorures	S
+14l1l6	ammonium	S
+
+#Toutefois, l'inspection demande à l'exploitant de compléter les analyses sur deux zones non investiguées et par des paramètres non recherchés (fer, étain, aluminium, bismuth).
+
+15l0l0	compléter_les_analyses	N
+15l0l1	deux_zones	O
+15l0l2	non_investiguées	N
+15l0l3	des_paramètres	O
+15l1l0	fer	S
+15l1l1	étain	S
+15l1l2	aluminium	S
+15l1l3	bismuth	S
+
+#IMPACT SUR LES EAUX - SUR SITE
+
+16l1l0	LES	S
+
+#Le réseau piézométrique permettant de suivre la qualité des eaux souterraines comporte 8 piézomètres.
+
+17l0l0	la_qualité_des_eaux_souterraines	O
+
+#Le suivi est mis en place depuis 2008 :
+
+18l0l0	Le_suivi	A
+18l0l1	est_mis_en_place	N
+18l0l2	depuis_2008	T
+
+#- teneurs significatives dans les eaux pour le cadmium, le nickel, le plomb, le zinc,
+
+19l0l0	les_eaux	O
+19l1l0	le_cadmium	S
+19l1l1	le_nickel	S
+19l1l2	plomb	S
+19l1l3	zinc	S
+
+#- un léger dépassement pour le mercure en aval éloigné,
+
+20l0l0	aval_éloigné	O
+20l1l0	mercure	S
+
+#- impact par les chlorures et l'ammonium,
+
+21l1l0	les_chlorures	S
+21l1l1	ammonium	S
+
+#- des eaux acides,
+
+22l0l0	eaux_acides	O
+
+#- aucun impact en hydrocarbures, COHV et BTEX.
+
+23l1l0	hydrocarbures	S
+23l1l1	COHV	S
+23l1l2	BTEX	S
+
+#IMPACT SUER LES SEDIMENTS HORS SITE (7 sondages)
+
+24l0l0	IMPACT	O
+24l0l1	SEDIMENTS	O
+24l1l0	SEDIMENTS_HORS_SITE	I
+
+#- fortes anomalies en zinc, cuivre et plomb
+
+25l1l0	zinc	S
+25l1l1	cuivre	S
+25l1l2	plomb	S
+
+#- absence d'impact pour les autres métaux, les COHV, les BTEX, les chlorures et l'ammonium.
+
+26l1l0	autres_métaux	S
+26l1l1	les_COHV	S
+26l1l2	les_BTEX	S
+26l1l3	les_chlorures	S
+26l1l4	ammonium	S
+
+#Toutefois, l'inspection demande à l'exploitant de compléter les analyses sur les terrains situés à l'ouest immédiat du site, sur certains métaux en particulier.
+
+27l0l0	l__exploitant	O
+27l0l1	compléter_les_analyses	N
+27l0l2	les_terrains	O
+27l0l3	situés_à_l__ouest_immédiat_du_site	L
+
+#IMPACT SUER LES PUITS HORS SITE
+
+28l0l0	PUITS_HORS_SITE	O
+28l1l0	PUITS_HORS_SITE	I
+
+#- fort impact sur le puits situé en aval direct du site par le cadmium, le nickel, le plomb et le zinc,
+
+29l0l0	le_puits	O
+29l0l1	situé_en_aval_direct_du_site	L
+29l1l0	cadmium	S
+29l1l1	le_nickel	S
+29l1l2	plomb	S
+29l1l3	zinc	S
+
+#- impact par les ions ammonium et chlorures,
+
+30l1l0	ions_ammonium	S
+30l1l1	chlorures	S
+
+#- faible ou absence d'impact sur les puits situés latéralement.
+
+31l0l0	les_puits	O
+31l0l1	situés_latéralement	L
+
+#LE SCHEMA CONCEPTUEL réalisé montre une incompatibilité de l'état des eaux des puits avec l'usage d'arrosage de la pelouse et du jardin (dont potager) et un éventuel usage d'eau potable.
+
+32l0l0	LE_SCHEMA_CONCEPTUEL	O
+32l0l1	l__usage_d__arrosage	A
+32l0l2	un_éventuel_usage	O
+32l0l3	d__eau_potable	A
+
+#Toutefois, l'inspection demande à l'exploitant de vérifier la compatibilité entre l'état de la prairie et l'usage de pâture par des vaches laitières.
+
+33l0l0	l__exploitant	O
+33l0l1	l__usage_de_pâture	A
+33l0l2	des_vaches_laitières	A
+
+#Par ailleurs, l'exploitant a décidé de mettre en œuvre une dépollution de la nappe (avec des objectifs de qualité sur et hors site).
+
+34l0l0	l__exploitant	O
+34l0l1	a_décidé	N
+34l0l2	de_mettre_en_œuvre_une_dépollution	N
+34l0l3	la_nappe	O
+34l0l4	des_objectifs	O
+
+#A cet effet, il prévoit un pompage-traitement des eaux sur une dizaine d'année (essais de pompage concluants).
+
+35l0l0	il	O
+35l0l1	prévoit	R
+35l0l2	un_pompage	N
+35l0l3	traitement_des_eaux	O
+35l0l4	d__année	T
+
+#Au vu de ces constats, l'inspection a proposé un arrêté préfectoral complémentaire afin que l'exploitant réponde aux demandes de l'inspection et d'encadrer les mesures de traitement de la nappe.
+
+36l0l0	l__inspection	O
+36l0l1	a_proposé	N
+36l0l2	un_arrêté_préfectoral_complémentaire	O
+36l0l3	d__encadrer	R
+36l0l4	les_mesures_de_traitement	N
+36l0l5	la_nappe	O
+
+#L'exploitant prévoit un recouvrement de la totalité des sols de l'emprise du site afin de supprimer le lessivage des polluants présents dans les sols vers les eaux souterraines.
+
+37l0l0	L__exploitant	O
+37l0l1	prévoit	R
+37l0l2	un_recouvrement	N
+37l0l3	la	O
+37l0l4	lessivage	N
+37l1l0	polluants	U
+
+#Enfin, l'état de la nappe étant incompatible avec l'usage à des fins alimentaires ou d'arrosage de potager à partir d'un puits privatif, des restrictions d'usage pour ce puits doivent être instituées.
+
+38l0l0	l__usage	O
+38l0l1	d__arrosage_de_potager	A
+38l0l2	à_partir_d__un_puits_privatif	L
+38l0l3	ce_puits	O
+38l0l4	doivent	R
+38l0l5	être_instituées	N

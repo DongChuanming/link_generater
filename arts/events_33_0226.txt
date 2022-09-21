@@ -1,0 +1,200 @@
+
+#33.0226
+#Le site est localisé à 1200 m au Sud-Ouest de plans d'eau.
+
+0l0l0	Le_site	O
+0l0l1	localisé_à_1200_m_au_Sud_Ouest_de_plans_d__eau	L
+
+#Plus au Sud, à une distance de 2500 m, le ruisseau de "l'Eau Bourde" s'écoule et draine les eaux de surface.
+
+1l0l0	Plus_au_Sud	L
+1l0l1	à_une_distance_de_2500_m	L
+
+#Selon la déclaration de la société TOTAL FRANCE du 27 août 2003, la station service comprend 8 installations de distribution dédiées aux véhicules légers et 2 autres dédiées aux poids lourds, pour un débit total équivalent de 19,28 m3/h.
+
+2l0l0	la_déclaration	N
+2l0l1	de	R
+2l0l2	la_société_TOTAL_FRANCE	O
+2l0l3	27_août_2003__	T
+2l0l4	la_station_service	O
+2l0l5	comprend	R
+2l0l6	8_installations_de_distribution	O
+2l0l7	2	O
+2l1l0	la_société_TOTAL_FRANCE	I
+
+#Elle dispose également de cuves enterrées dédiées au carburant pour un volume équivalent de 12,4m3/h.
+
+3l0l0	carburant	O
+3l1l0	cuves_enterrées	D
+3l1l1	carburant	U
+
+#1 - CONTEXTE
+
+
+#La station service est une installation classée soumise à déclaration au titre des rubriques 1414-3, 1432-2b et 1434-1b.
+
+5l0l0	La_station_service	O
+5l0l1	est_une_installation_classée_soumise_à_déclaration	N
+
+#Suite à l'observation d'hydrocarbures dans le ruisseau de "L'Eau Bourde", l'inspection des installations classées conduit une visite inopinée le 22 juillet 2003.
+
+6l0l0	Suite_à	R
+6l0l1	l_	N
+6l0l2	observation_d__hydrocarbures	O
+6l0l3	dans_le_ruisseau_de___L__Eau_Bourde	L
+6l0l4	l__inspection_des_installations_classées	O
+6l0l5	conduit_une_visite_inopinée	N
+6l0l6	le_22_juillet_2003	T
+6l1l0	hydrocarbures	S
+
+#2 - DIAGNOSTIC
+
+7l0l0	DIAGNOSTIC	N
+
+#L'arrêté préfectoral d'urgence du 19 août 2003 prescrit notamment à l'exploitant de :
+
+8l0l0	L__arrêté_préfectoral_d__urgence	O
+8l0l1	19_août_2003	T
+8l0l2	prescrit	N
+8l0l3	l__exploitant	O
+
+#- réaliser un diagnostic des sols et de ses équipements,
+
+9l0l0	réaliser_un_diagnostic_des_sols	N
+9l0l1	ses_équipements	O
+
+#- réaliser un compte rendu détaillé des travaux effectués et des évènements ayant conduit à la pollution constatée,
+
+10l0l0	des_travaux_effectués	N
+10l0l1	des_évènements_ayant_conduit_à	N
+
+#- transmettre les bordereaux d'élimination des déchets, résultant de l'activité, depuis janvier 2003.
+
+11l0l0	transmettre	N
+11l0l1	depuis_janvier_2003__	T
+
+#Le diagnostic réalisé en septembre 2003 montre la présence d'hydrocarbures sous forme dissoute au droit de 2 des 3 ouvrages implantés sur l'emprise du site.
+
+12l0l0	Le_diagnostic	N
+12l0l1	réalisé	N
+12l0l2	en_septembre_2003	T
+12l0l3	au_droit_de	L
+12l0l4	2	O
+12l0l5	3_ouvrages_implantés	O
+12l0l6	sur	R
+12l0l7	l_	N
+12l0l8	emprise_du_site	L
+12l1l0	hydrocarbures	S
+
+#La présence ponctuelle de benzène dans les eaux du piézomètre situé sur la piste de distribution est également identifiée.
+
+13l0l0	la_piste_de_distribution	O
+13l0l1	est_également_identifiée	N
+13l1l0	benzène	S
+
+#Le rapport conclut qu'au regard des résultats, la réalisation d'actions correctives n'est pas justifiée.
+
+14l0l0	la_réalisation_d__actions_correctives	N
+
+#Toutefois, il recommande un suivi de la qualité des eaux souterraines.
+
+15l0l0	un_suivi_de_la_qualité_des_eaux_souterraines	A
+
+#Un arrêté préfectoral du 20 avril 2004 prescrit la surveillance des eaux souterraines sur les 3 ouvrages cités précédemment sur les paramètres suivants : hydrocarbures totaux, benzène, toluène, éthylbenzène et xylène.
+
+16l0l0	Un_arrêté_préfectoral	O
+16l0l1	du_20_avril_2004	T
+16l0l2	prescrit	N
+16l0l3	la_surveillance_des_eaux_souterraines	A
+16l1l0	hydrocarbures_totaux	S
+16l1l1	benzène	S
+16l1l2	toluène	S
+16l1l3	éthylbenzène	S
+16l1l4	xylène	S
+
+#La fréquence est trimestrielle la première année, puis semestrielle.
+
+17l0l0	La_fréquence	O
+17l0l1	la_première_année	T
+
+#Depuis 2004, les résultats de la surveillance ont permis de noter la présence récurrente d'hydrocarbures sur l'ouvrage situé en aval hydraulique et plus sporadique sur les deux autres ouvrages.
+
+18l0l0	Depuis_2004__	T
+18l0l1	surveillance	A
+18l0l2	d__hydrocarbures	O
+18l0l3	ouvrage_situé_en_aval_hydraulique	L
+18l1l0	hydrocarbures	S
+
+#Toutefois, les valeurs de référence ne sont pas dépassées pour ce paramètre.
+
+
+#Par contre, des teneurs en benzène supérieures aux valeurs de référence sont observées quasiment à chaque campagne.
+
+20l0l0	des_teneurs	O
+20l1l0	benzène	S
+
+#Malgré l'ajout début 2009 de 200 grammes d'IXPER (oxydant visant à favoriser la biodégradation), les résultats d'analyses de la campagne du 16 septembre 2009 confirment les teneurs en benzène.
+
+21l0l0	l__ajout	N
+21l0l1	début_2009	T
+21l0l2	200	O
+21l0l3	la_campagne	N
+21l0l4	16_septembre_2009	T
+21l1l0	d__IXPER	I
+21l1l1	oxydant	S
+21l1l2	benzène	S
+
+#Le rapport du 22 septembre 2009 recommande de nouveau un ajout de peroxyde de calcium pour favoriser la biodégradation.
+
+22l0l0	Le_rapport	O
+22l0l1	22_septembre_2009	T
+22l1l0	peroxyde	S
+22l1l1	de_calcium	U
+
+#Le peroxyde de calcium a été ajouté d'août 2008 à août 2013.
+
+23l0l0	a_été_ajouté	N
+23l0l1	d__août_2008_à_août_2013__	T
+23l1l0	Le_peroxyde_de_calcium	S
+
+#En l'absence d'évolution significative de la concentration en benzène, cet ajout a été stoppé.
+
+24l0l0	cet_ajout_a_été_stoppé	N
+24l1l0	benzène	S
+
+#Lors de la campagne d'août 2014, un impact en benzène est toujours présent en PZC.
+
+25l0l0	Lors	T
+25l0l1	de_la_campagne_d_	N
+25l0l2	août_2014__	T
+25l0l3	un_impact	O
+25l1l0	benzène	S
+
+#Les teneurs observées restent stables et cet impact n'est pas observé en aval.
+
+26l0l0	cet_impact	O
+26l0l1	aval	L
+
+#3 - TRAVAUX
+
+27l0l0	TRAVAUX	O
+27l1l0	TRAVAUX	I
+
+#Suite au dysfonctionnement d'un déshuileur sur le site de la station service en fin d'année 2002 entrainant une pollution du ruisseau de "l'Eau Bourde", la société TOTAL FRANCE a fait mettre en place un barrage absorbant en entrée du réseau d'évacuation des eaux pluviales ainsi qu'en sortie du séparateur des eaux de piste de façon à garantir l'absence de rejet non conforme en aval du réseau de la station service.
+
+28l0l0	Suite_au	R
+28l0l1	dysfonctionnement	N
+28l0l2	la_station_service	O
+28l0l3	en_fin_d__année_2002	T
+28l0l4	entrainant	R
+28l0l5	une_pollution	N
+28l0l6	du_ruisseau_de___l__Eau_Bourde__	L
+28l0l7	la_société_TOTAL_FRANCE	O
+28l0l8	a_fait_mettre_en_place	N
+28l0l9	un_barrage_absorbant	O
+28l0l10	en_entrée_du_réseau_d_	L
+28l0l11	en_sortie_du_séparateur	L
+28l0l12	des_eaux_de_piste	O
+28l0l13	en_aval_du_réseau_de_la_station_service	L
+28l1l0	la_société_TOTAL_FRANCE	I
+28l1l1	eaux_de_piste	U

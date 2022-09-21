@@ -1,0 +1,160 @@
+
+#63.0042
+#La station service  TOTAL a été créée en 1975, elle a fait l'objet de travaux de réaménagement en 1987 et 1993.
+
+0l0l0	TOTAL_a_été	O
+0l0l1	créée_en_1975__	N
+0l0l2	elle_a_fait	O
+0l0l3	objet_de_travaux_de_réaménagement_en_1987_et	O
+
+#Le site est implanté en zone fortement urbanisée, il s'étend sur les parcelles ES 83 et 556, pour une surface de 920 m2 et il est bordé:
+
+1l0l0	Le_site_est_implanté_en_zone	O
+1l0l1	fortement	N
+1l0l2	urbanisée	T
+1l0l3	__il_s__étend_sur	R
+1l0l4	les_parcelles_ES_83_et_556__	N
+1l0l5	pour_une_surface	T
+1l1l0	Le_site_est_implanté_en_zone	I
+
+#- au Nord, par la rue Anatole FRANCE, puis des habitations;
+
+2l0l0	__au_Nord	O
+2l0l1	__par_la_rue_Anatole_FRANCE___puis_des	L
+2l0l2	habitations	N
+
+#- au Nord-Ouest, à 200 m environ se trouve la gare de Clermont-Ferrand;
+
+3l0l0	au_Nord_Ouest___à_200_m_environ_se_trouve	L
+
+#- au Sud, Est et Ouest, par des logements collectifs et des commerces.
+
+4l0l0	au_Sud___Est_et	L
+4l0l1	Ouest___par_des	L
+4l0l2	logements_collectifs_et_des_commerces	L
+
+#Les sols et les sous-sols sont constitués de remblais sableux à graveleux jusqu'à 1,5 m de profondeur, puis d'argiles sableuses jusqu'à 7,5 m.
+
+
+#Aucune nappe d'eau active d'origine souterraine, n'a été mise à jour au droit du site.
+
+
+#La cessation d'activité de la station a été effective le 11 janvier 2016.
+
+
+#A la date de création de la fiche, la DREAL n'a pas connaissance d'un projet de reconversion.
+
+8l0l0	A_la_date_de_création_de_la	N
+8l0l1	fiche___la_DREAL	O
+8l0l2	n__a_pas_connaissance	N
+8l0l3	d__un_projet_de_reconversion__	T
+
+#Par anticipation à la cessation d'activité, TOTAL MARKETING FRANCE a fait réaliser, en décembre 2015 un diagnostic des sols.
+
+9l0l0	Par_anticipation_à_la	N
+9l0l1	d__activité	O
+9l0l2	_	R
+9l0l3	TOTAL_MARKETING	N
+9l0l4	FRANCE	O
+9l0l5	a_fait_réaliser___en_décembre	N
+9l1l0	d__activité	I
+
+#A l'issue de ces investigations, 2 zones impactées par des hydrocarbures (HCT) et des Composés Aromatiques Volatils (CAV) ont été identifiées ainsi que l'absence d'une nappe d'eaux souterraines au droit du site.
+
+10l0l0	issue_de_ces	R
+10l0l1	investigations___2_zones_impactées_par_des_hydrocarbures	O
+10l0l2	__HCT___et_des	N
+10l0l3	Composés_Aromatiques	T
+10l0l4	Volatils___CAV___ont	N
+10l1l0	impactées_par_des_hydrocarbures	I
+
+#Les travaux de réhabilitation se sont déroulés du 18 janvier au 17 février 2016.
+
+11l0l0	de_réhabilitation_se	N
+11l0l1	sont_déroulés_du	O
+11l0l2	18_janvier	N
+11l1l0	janvier_au_17_février_2016	S
+
+#A cette occasion:
+
+12l0l0	A_cette_occasion__	N
+
+#- 3 cuves enterrées ont été extraites et évacuer;
+
+
+#- les radiers des cuves et des séparateurs d'hydrocarbures ont été évacués;
+
+14l0l0	les_radiers_des	O
+14l0l1	cuves_et_des_séparateurs	N
+14l0l2	d__hydrocarbures	O
+14l1l0	les_radiers_des	D
+
+#- les eaux de ruissellement, collectées en fonds de fouille ont été pompées et traitées;
+
+15l0l0	les_eaux_de_ruissellement	O
+15l0l1	fonds_de_fouille	O
+15l0l2	ont_été_pompées	N
+15l1l0	ruissellement	D
+15l1l1	fonds_de_fouille	S
+
+#- l'ensemble des terres impactées par la pollution (1290,38 tonnes) a été évacué en biocentre.
+
+16l0l0	l__ensemble_des_terres_impactées	O
+16l0l1	pollution___1290_38	L
+16l0l2	tonnes___a_été_évacué	N
+
+#Au fil des travaux, des analyses de fonds de fouille ont permis de tracer les concentrations résiduelles suivantes:
+
+17l0l0	Au_fil_des_travaux___des_analyses	O
+17l0l1	tracer_les_concentrations	N
+17l0l2	résiduelles	O
+
+#- pour les HCT, une valeur maximale atteint 361 mg/kg, les autres étant majoritairement inférieures à 100 mg/kg;
+
+
+#- pour les CAV, une valeur maximale se situe entre 0,5 et 0,65 mg/kg, les autres valeurs étant inférieures à 0,25 mg/kg.
+
+19l1l0	les_CAV	S
+
+#Une analyse des risques résiduels démontre, qu'en l'absence de polluants résiduels volatils significatifs et de circulation d'eaux souterraines au droit du site, que ce site ne présente pas de risques sanitaires pour les usagers du site et son voisinage.
+
+20l1l0	analyse_des	S
+
+#Ainsi, la société TOTAL MARKETING FRANCE a répondu à ces obligations de mise en sécurité de ses installations et aux exigences de réhabilitation définit à l'article L-512-12-1 du code de l'environnement.
+
+21l0l0	Ainsi___la_société	N
+21l0l1	définit_à_l__article	L
+21l0l2	L_512___12___1	O
+
+#Un procès verbal de fin de travaux lui a été délivré par la préfecture.
+
+22l0l0	procès_verbal_de_fin_de_travaux_lui_a_été	O
+22l0l1	délivré_par_la_préfecture__	N
+22l1l0	procès_verbal_de_fin_de_travaux_lui_a_été	I
+
+#Toutefois, la pollution résiduelle peut ne pas être compatible avec un usage du site autre qu'industriel ou artisanal.
+
+23l0l0	Toutefois___la	O
+23l0l1	pollution_résiduelle	N
+23l0l2	peut_ne_pas_être_compatible_avec	O
+
+#Aussi, dès lors qu'il sera l'objet d'un usage plus sensible, une étude de compatibilité sanitaire devra être réalisée.
+
+24l0l0	étude_de_compatibilité	N
+
+#De plus, dans le cas de travaux d'affouillement avec évacuation de terres, ces dernières devront être caractérisées et suivre une filière d'élimination adaptée.
+
+25l0l0	de	O
+25l0l1	travaux_d_	R
+25l0l2	affouillement	N
+25l0l3	être_caractérisées_et	N
+
+#Ce site a vocation a être intégré au Secteur d'Information des Sols (S.
+
+26l0l0	vocation_a	R
+26l0l1	être_intégré_au_Secteur_d_	N
+26l0l2	Information_des_Sols___S_	N
+
+#.S), prévu à l'article L-125-6 du code de l'environnement.
+
+27l0l0	_S_____prévu	O

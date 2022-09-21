@@ -1,0 +1,207 @@
+
+#76.0226
+#Ce site d'une surface de 5500 m2 environ a accueilli les activités de la société Margot de 1958 à 2004.
+
+0l0l0	Ce_site	O
+0l0l1	a_accueilli	N
+0l0l2	les_activités	A
+0l0l3	la_société_Margot	O
+0l0l4	de_1958_à_2004__	T
+0l1l0	la_société_Margot	I
+
+#L'activité principale de cette société était la fonderie, le polissage, l'usinage, et le traitement de surface (fabrication de robinetterie de luxe).
+
+1l0l0	L__activité	O
+1l0l1	cette_société	O
+1l0l2	la_fonderie	A
+1l0l3	polissage	A
+1l0l4	l__usinage	O
+1l0l5	traitement_de_surface	A
+1l0l6	fabrication_de_robinetterie_de_luxe	A
+
+#L'usine comprenait un atelier de fonderie (pièces en cuivre, laiton, bronze), de polissage et d'usinage.
+
+2l0l0	L__usine	O
+2l0l1	comprenait	R
+2l0l2	un_atelier_de_fonderie	O
+2l0l3	polissage	A
+2l0l4	d__usinage	A
+
+#Le site est situé à proximité de pavillons, de jardins potagers, de pâturages et d'un cours d'eau allant à la BRESLE.
+
+3l0l0	Le_site	O
+3l0l1	est_situé_à_proximité_de_pavillons	L
+3l0l2	pâturages	A
+3l0l3	un_cours	O
+3l0l4	d_	R
+3l0l5	eau_allant_à_la_BRESLE	L
+
+#Suite à l'intervention de l'ADEME, les déchets et les machines qui étaient présents sur site ont été évacués.
+
+4l0l0	Suite_à	R
+4l0l1	l__intervention	N
+4l0l2	l__ADEME	O
+4l0l3	les_déchets	O
+4l0l4	les_machines	O
+4l0l5	ont_été_évacués	N
+4l1l0	les_déchets	U
+
+#Risques et nuisances :
+
+
+#Risque d'effondrement : La toiture et certaines tôles de bardage et vitres sont en très mauvais état, elles sont parfois même effondrées.
+
+6l0l0	et_certaines_tôles	O
+
+#De plus les murs ne donnent pas signe d'une bonne santé, il sont gorgé d'humidité ce qui fragilise la structure.
+
+
+#Risques de pollution des sols : l'établissement ayant accueilli plusieurs bains de traitement notamment de chrome et de nickel, les sols sont par conséquent contaminés par des métaux mais aussi surement par des hydrocarbures.
+
+8l0l0	__l__établissement	O
+8l0l1	ayant_accueilli	N
+8l0l2	plusieurs_bains_de_traitement	O
+8l1l0	de_nickel	S
+8l1l1	des_métaux	S
+8l1l2	des_hydrocarbures	S
+
+#Par ailleurs, une contamination des sols aux PCB au droit de l'ancienne pièce où se trouvait le transformateur a été constatée.
+
+9l0l0	une_contamination	O
+9l0l1	PCB	O
+9l0l2	au_droit	L
+9l0l3	le_transformateur	O
+9l0l4	a_été_constatée	N
+9l1l0	PCB	S
+
+#Risque sanitaire : Malgré l'évacuation des déchets et de quelques boues, les eaux qui passent à proximité de la société MARGOT alimentent toujours les jardins qui sont cultivés au pied de l'établissement.
+
+10l0l0	__les_eaux	O
+10l0l1	passent_à_proximité_de	L
+10l0l2	la_société_MARGOT_alimentent	O
+10l0l3	toujours	R
+10l0l4	les_jardins	O
+10l0l5	qui_sont_cultivés	N
+10l0l6	au_pied_de_l__établissement	L
+10l1l0	de_la_société_MARGOT	I
+
+#Actions menées :
+
+
+#Des actions à mener ont été identifiées.
+
+12l0l0	ont_été_identifiées	N
+
+#Ces actions ont été encadrées par un arrêté d’exécution de travaux d'office du 20 juillet 2007 et par des arrêtés d'occupation temporaires des 20 juillet 2007 et 29 décembre 2008 (3 ans).
+
+13l0l0	Ces_actions	O
+13l0l1	ont_été_encadrées	N
+13l0l2	un_arrêté_d__exécution_de_travaux	N
+13l0l3	20_juillet_2007	T
+13l0l4	des	N
+13l0l5	arrêtés_d__occupation_temporaires	O
+13l0l6	des_20_juillet_2007_et_29_décembre_2008	T
+13l0l7	__3_ans____	T
+
+#Les actions susvisées visent à :
+
+
+#- la mise en sécurité du site : enlèvement des déchets toxiques et des matière souillées (déchets de fonderie et de traitement de surface pour l'essentiel) et nettoyage du site afin d'assurer la maitrise des sources de pollutions,
+
+15l0l0	la_mise_en_sécurité	N
+15l0l1	du_site	O
+15l0l2	__enlèvement_des_déchets_toxiques	N
+15l0l3	des_matière_souillées	O
+15l0l4	de_traitement_de_surface	A
+15l0l5	et_nettoyage	N
+15l0l6	du_site	L
+15l0l7	assurer_la_maitrise_des_sources_de_pollutions	O
+15l1l0	enlèvement_des_déchets_toxiques	U
+15l1l1	et_des_matière_souillées	U
+
+#- la caractérisation des milieux aux abords du site et sur ce dernier en vue de s'assurer que leur état est compatible avec les usages en place (jardins, rivière, pâturages, etc.).
+
+16l0l0	la_caractérisation_des_milieux	N
+16l0l1	aux_abords_du_site	L
+
+#Elles ne visent pas notamment à sécuriser le bâti lequel est en mauvais état.
+
+
+#En effet, ce type d'action ne relève pas du champs d'intervention habituel de l'ADEME.
+
+
+#Dans le cadre de l'application de l'arrêté préfectoral d'exécution de travaux d'office, l'ADEME a confié la mission de mise en sécurité du site à une entreprise extérieure, la société SERPOL.
+
+19l0l0	Dans_le_cadre_de	R
+19l0l1	l__application_de	R
+19l0l2	l__arrêté_préfectoral	O
+19l0l3	exécution_de_travaux	N
+19l0l4	l__ADEME	O
+19l0l5	a_confié_la_mission_de_mise_en_sécurité	N
+19l0l6	du_site	O
+19l0l7	une_entreprise_extérieure	O
+19l0l8	la_société_SERPOL	O
+19l1l0	la_société_SERPOL	I
+
+#Les travaux ont consisté à l'enlèvement des déchets amiantés (débris d'amiante-ciment jonchant les sols des locaux) le 18 février 2010 et à l'enlèvement et au traitement des autres déchets dangereux (terres polluées visibles en surface notamment) et non dangereux (papiers, bois, ferraille, DIB en mélange) entre le 1er mars et le 7 avril 2010.
+
+20l0l0	Les_travaux	N
+20l0l1	l__enlèvement_des_déchets_amiantés	N
+20l0l2	le_18_février_2010	T
+20l0l3	et_à	R
+20l0l4	l__enlèvement	O
+20l0l5	au_traitement_des_autres_déchets_dangereux	N
+20l0l6	papiers	O
+20l0l7	ferraille	O
+20l0l8	entre_le_1er_mars_et_le_7_avril_2010__	T
+20l1l0	des_déchets_amiantés	U
+20l1l1	amiante	S
+20l1l2	autres_déchets_dangereux	U
+
+#Une visite du site le 7 juillet 2010, réalisée conjointement par l'ADEME et la DREAL, a permis de constater l'état d'avancement de ces travaux.
+
+21l0l0	Une_visite	N
+21l0l1	site	O
+21l0l2	le_7_juillet_2010__	T
+21l0l3	l__ADEME	O
+21l0l4	la_DREAL	O
+21l0l5	d__avancement_de_ces_travaux	N
+21l1l0	l__ADEME	I
+21l1l1	la_DREAL	I
+
+#La visite a fait l'objet d'un compte rendu d'intervention de la part de L'ADEME en septembre 2011.
+
+22l0l0	La_visite	N
+22l0l1	a_fait_l__objet_d_	R
+22l0l2	L__ADEME	O
+22l0l3	en_septembre_2011__	T
+
+#Il ressort de la visite et du rapport de l'ADEME que l'ensemble des travaux d'enlèvement et d'élimination de déchets prévus ont été réalisés.
+
+23l0l0	la_visite	N
+23l0l1	l__ADEME	O
+23l0l2	l__ensemble_des_travaux_d__enlèvement	N
+23l0l3	d__élimination	N
+23l0l4	déchets_prévus	O
+23l0l5	ont_été_réalisés	N
+
+#En revanche, l'étude de caractérisation des milieux eaux et sols sur et autour du site reste à réaliser.
+
+24l0l0	caractérisation_des_milieux_eaux	O
+24l0l1	autour_du_site	L
+
+#Elle devrait permettre de déterminer si des actions plus approfondies sont nécessaires.
+
+
+#Action à mener :
+
+
+#Une étude de sol doit être réalisée afin de caractériser la pollution des sols, des eaux souterraines et des eaux de surface. cette action entre dans le cadre de l'action de l'ADEME prise en application de l'arrêté d’exécution de travaux d'office du 20 juillet 2007.
+
+27l0l0	Une_étude_de_sol_doit_être_réalisée	N
+27l0l1	caractériser	R
+27l0l2	la_pollution	N
+27l0l3	cette_action	O
+27l0l4	entre_dans_le_cadre_de	R
+27l0l5	l__ADEME	O
+27l0l6	20_juillet_2007__	T

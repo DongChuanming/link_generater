@@ -1,0 +1,192 @@
+
+#44.0025
+#Le site est localisé à l'Est de la ville de Paimboeuf, entre la route de Nantes et la Loire et occupe une surface d'environ 24 ha.
+
+0l0l0	Le_site	O
+0l0l1	est_localisé_à_l__Est_de_la_ville_de_Paimboeuf	L
+0l0l2	entre_la_route_de_Nantes_et_la_Loire	L
+
+#Il s'agit aujourd'hui d'une friche industrielle.
+
+1l0l0	une_friche_industrielle	O
+
+#Anciennement, ont été exercées sur le site :
+
+2l0l0	ont_été_exercées	N
+2l0l1	le_site	O
+
+#-des activités de la chimie minérale de base (fabrication d'acide sulfurique, d'ammoniac et d'engrais), correspondant au secteur d'Atofina (ex Atochem)
+
+3l0l0	activités_de_la_chimie_minérale_de_base	A
+3l0l1	fabrication_d__acide_sulfurique	A
+3l0l2	ammoniac	O
+3l0l3	et_d__engrais	O
+3l0l4	au_secteur	A
+3l0l5	Atofina	O
+3l0l6	Atochem	O
+3l1l0	acide_sulfurique	S
+3l1l1	d__ammoniac	S
+3l1l2	d__engrais	S
+3l1l3	Atofina	I
+
+#-des activités de fabrication d'additifs plombé, pour les essences (composé de plomb alkyles), correspondant au secteur Octel proprement dit.
+
+4l0l0	activités_de_fabrication_d__additifs_plombé	A
+4l0l1	au_secteur_Octel	A
+4l1l0	additifs_plombé	U
+4l1l1	les_essences	U
+4l1l2	plomb_alkyles	S
+
+#Le site a définitivement cessé d'être exploité à la fin de l'année 1996.
+
+5l0l0	Le_site	O
+5l0l1	a_définitivement_cessé_d__être_exploité	N
+5l0l2	à_la_fin_de_l__année_1996__	T
+
+#Une évaluation approfondie des impacts environnementaux résultant des activités passées du site a été confiée en 1996 à une société spécialisée .
+
+6l0l0	Une_évaluation_approfondie_des_impacts_environnementaux	N
+6l0l1	activités_passées_du_site	A
+6l0l2	a_été_confiée	N
+6l0l3	en_1996	T
+6l0l4	une_société	O
+
+#Cette étude a été  réalisée selon la méthode source vecteur cible.
+
+7l0l0	Cette_étude_a_été___réalisée	N
+
+#Elle s'est notamment appuyée, pour la définition du terme source sur l'historique du site (remonte à 1914) et sur de nombreux sondages, prélèvements et analyses de sols et d'eaux.
+
+8l0l0	terme_source	O
+8l0l1	remonte_à_1914	T
+
+#Deux éléments polluants ont été pris en compte à titre principal :
+
+
+#- le plomb sous ses formes organique et minérale (résultant des activités Octel)
+
+10l0l0	activités_Octel	A
+10l1l0	plomb	S
+
+#- l'arsenic (résultant des activités de fabrication d'acide sulfurique et d'ammoniac).
+
+11l0l0	l__arsenic	O
+11l0l1	activités_de_fabrication_d__acide_sulfurique	A
+11l0l2	ammoniac	O
+11l1l0	arsenic	S
+11l1l1	acide_sulfurique	S
+11l1l2	ammoniac	S
+
+#Dans les conclusions (1999),le site a été caractérisé comme présentant un niveau de risque résiduel non significatif pour l'homme et l'environnement, dans la perspective affichée d'une réutilisation industrielle des terrains.
+
+12l0l0	1999_le_site	O
+12l0l1	a_été_caractérisé	N
+12l0l2	comme	R
+12l0l3	présentant	N
+12l0l4	un_niveau_de_risque_résiduel	O
+12l0l5	réutilisation_industrielle_des_terrains	A
+
+#Cependant, dans le cadre d'une gestion responsable des risques et à la demande  de la DRIRE, un plan d'action visant à conforter la sécurité environnementale à long terme du site a été mis en place.
+
+13l0l0	à_la_demande___de	R
+13l0l1	la_DRIRE	O
+13l0l2	__un_plan_d__action	O
+13l0l3	visant	R
+13l0l4	à_conforter_la_sécurité_environnementale	N
+13l0l5	à_long_terme	T
+13l0l6	du_site	O
+13l0l7	a_été_mis_en_place	N
+13l1l0	de_la_DRIRE	I
+
+#Ce plan, entrepris en juillet 2000, a comporté à titre principal :
+
+14l0l0	Ce_plan	O
+14l0l1	entrepris	N
+14l0l2	en_juillet_2000__	T
+
+#- l'élimination en centre de stockage de classe 1 des fractions de bétons de démolition pollués par le plomb (2160 tonnes)
+
+15l0l0	l__élimination	N
+15l0l1	fractions_de_bétons_de_démolition_pollués	O
+15l1l0	plomb	S
+
+#- l'évacuation des zones des terrains  polluées par le plomb, l'arsenic ou des déchets divers et l'élimination des matériaux extraits en centre de stockage de classe 1 (plus de 6500 tonnes à mi 2001)
+
+16l0l0	l__évacuation	N
+16l0l1	des_zones	O
+16l0l2	terrains___polluées	O
+16l0l3	et_l__élimination	N
+16l0l4	des_matériaux	O
+16l0l5	extraits_en_centre	N
+16l0l6	de_6500_tonnes	O
+16l0l7	à_mi_2001	T
+16l1l0	le_plomb	S
+16l1l1	l__arsenic	S
+16l1l2	ou_des_déchets_divers	U
+
+#- le comblement des zones excavées avec des matériaux extérieurs et des bétons de démolition ne présentant aucun risque significatif de relargage de plomb.
+
+17l0l0	le_comblement_des_zones_excavées	N
+17l0l1	des_matériaux_extérieurs	O
+17l0l2	des_bétons_de_démolition	N
+17l1l0	plomb	S
+
+#Les opérations sont terminées à l'exception du traitement d'une zone résiduelle de terrains pollués devant intervenir avant la fin de l'été 2001.
+
+18l0l0	Les_opérations	O
+18l0l1	sont_terminées	N
+18l0l2	du_traitement	N
+18l0l3	une_zone	O
+18l0l4	terrains_pollués	O
+18l0l5	devant	T
+18l0l6	intervenir	N
+18l0l7	avant_la_fin_de_l__été_2001	T
+
+#L'ensemble des travaux a fait l'objet d'un suivi par un organisme extérieur en vue d'un récolement en fin d'exécution.
+
+19l0l0	L__ensemble_des_travaux	O
+19l0l1	a_fait_l__objet_d_	R
+19l0l2	un	N
+19l0l3	suivi_par_un_organisme_extérieur	O
+19l0l4	en_vue_d_	R
+19l0l5	un_récolement	N
+19l0l6	en_fin_d__exécution	N
+
+#En 2006, de nouveaux travaux d'excavation de terres ont été réalisés dans le cadre de la mise en place de SUP : ces travaux visaient à dépolluer une zone complémentaire en vue de permettre leur utilisation pour des usages de type "artisanal".
+
+20l0l0	En_2006__	T
+20l0l1	de_nouveaux_travaux_d__excavation	N
+20l0l2	de_terres	N
+20l0l3	ont_été_réalisés	N
+20l0l4	dans_le_cadre_de	R
+20l0l5	la_mise_en_place	N
+20l0l6	de_SUP	O
+20l0l7	ces_travaux	N
+20l0l8	dépolluer	N
+20l0l9	une_zone_complémentaire	O
+20l0l10	en_vue_de	R
+20l0l11	permettre_leur_utilisation	N
+20l0l12	des_usages_de_type	A
+
+#Le suivi piézomètrique mis en place est maintenu pour appréhender toute évolution de la qualité des eaux de site.
+
+21l0l0	Le_suivi_piézomètrique	A
+21l0l1	est_maintenu	N
+
+#Le dossier de servitude d'utilité publique établi par l'exploitant a été mis à l'enquête en 2009.
+
+22l0l0	Le_dossier_de_servitude_d__utilité_publique	O
+22l0l1	établi_par	N
+22l0l2	l__exploitant	O
+22l0l3	a_été_mis_à_l__enquête	N
+22l0l4	en_2009__	T
+
+#Des servitudes d'utilité publique seront instituées par arrêté préfectoral du 23/08/2012 afin de "limiter ou d'interdire des modifications de l'état du sol, sous-sol, d'en limiter les usages, compte-tenu des travaux réalisés".
+
+23l0l0	Des_servitudes_d__utilité_publique	O
+23l0l1	seront_instituées	N
+23l0l2	par_arrêté_préfectoral	O
+23l0l3	23_08_2012	T
+23l0l4	limiter	N
+23l0l5	d__interdire_des_modifications	N
+23l0l6	des_travaux_réalisés	N

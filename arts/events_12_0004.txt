@@ -1,0 +1,234 @@
+
+#12.0004
+#Au milieu du XIXème siècle, DECAZEVILLE était le plus grand centre sidérurgique de France.
+
+0l0l0	Au_milieu_du_XIXème_siècle	T
+0l0l1	__DECAZEVILLE	O
+0l0l2	était	N
+0l0l3	le_plus_grand_centre_sidérurgique	A
+0l1l0	DECAZEVILLE	I
+0l1l1	sidérurgique	I
+
+#Sur cette zone, des activités de sidérurgie (fonte, zinc et donc cadmium), cokerie, usine de synthèse d'ammoniaque, usine de méthanol, four à chaux se sont succédées.
+
+1l0l0	cette_zone	O
+1l0l1	des_activités_de_sidérurgie	A
+1l0l2	cokerie	O
+1l0l3	usine_de_synthèse_d__ammoniaque	A
+1l0l4	usine_de_méthanol	A
+1l0l5	se_sont_succédées	N
+1l1l0	zinc	S
+1l1l1	cadmium	S
+1l1l2	synthèse_d__ammoniaque	U
+1l1l3	méthanol	S
+
+#On constate une pollution du sol par des métaux lourds et composés organiques.
+
+2l1l0	métaux_lourds	S
+2l1l1	composés_organiques	S
+
+#Le site étudié couvre environ 20 000 ha et 13 communes : Les Albres, Almont-les-Junies, Aubin, Boisse-Penchot, Bouillac, Cransac, Decazeville, Firmi, Flagnac, Livinhac-le-Haut, Saint-Parthem, Saint-Santin et Viviez.
+
+3l0l0	13_communes	O
+3l0l1	Les_Albres___Almont_les_Junies	L
+3l0l2	Aubin	O
+3l0l3	Boisse	L
+3l0l4	Cransac	L
+3l0l5	Livinhac_le_Haut	L
+3l0l6	Saint_Parthem	L
+3l0l7	Viviez	L
+
+#L'action menée sous l'égide de l'Etat peut se résumer suivant les étapes suivantes :
+
+4l0l0	l__égide_de	R
+4l0l1	l__Etat	O
+
+#1) 1996 - 1998
+
+
+#Concomitamment à la prise de conscience nationale de la problématique des sites et sols pollués et à l'élaboration d'outils techniques par le Ministère de l'Aménagement du Territoire et de l'Environnement, la DRIRE Midi-Pyrénées a imposé ponctuellement la réalisation d'évaluations simplifiées des risques sur certains terrains particulièrement sensibles en termes d'environnement ou d'aménagement du territoire (cf. fiches BASOL correspondantes n°s 2, 11 et 13 à 20).
+
+6l0l0	Concomitamment_à	R
+6l0l1	la_prise_de_conscience	N
+6l0l2	la_problématique_des_sites_et_sols_pollués	O
+6l0l3	le_Ministère_de_l__Aménagement_du_Territoire	O
+6l0l4	la_DRIRE_Midi___Pyrénées	O
+6l0l5	a_imposé_ponctuellement	N
+6l0l6	la_réalisation_d__évaluations_simplifiées	N
+6l0l7	certains_terrains	O
+6l0l8	particulièrement_sensibles	O
+6l1l0	le_Ministère_de_l__Aménagement_du_Territoire	I
+6l1l1	la_DRIRE_Midi	I
+
+#2) 1998 - 2000
+
+7l0l0	2000	T
+
+#En raison de la multiplicité des sources potentielles de pollution, des propriétaires des terrains (principalement des collectivités territoriales), des exploitants (qui pour la plupart ont cessé leur activité depuis des décennies), la DRIRE Midi-Pyrénées a proposé que le problème soit examiné dans son ensemble.
+
+8l0l0	propriétaires_des_terrains	O
+8l0l1	collectivités_territoriales	O
+8l0l2	ont_cessé_leur_activité	N
+8l0l3	depuis_des_décennies	T
+8l0l4	la_DRIRE_Midi___Pyrénées	O
+8l1l0	la_DRIRE_Midi	I
+
+#Aussi un comité de pilotage a été institué en 1999 avec pour mission :
+
+9l0l0	comité_de_pilotage	O
+9l0l1	a_été_institué	N
+9l0l2	en_1999	T
+
+#· d'orienter la stratégie et les priorités en matière d'évaluation des risques liés aux anciennes activités industrielles du bassin,
+
+10l0l0	d__orienter	N
+10l0l1	la_stratégie	O
+10l0l2	les_priorités	O
+10l0l3	activités_industrielles_du_bassin	A
+
+#· de promouvoir l'information du public sur les problèmes qui en découlent, en ce qui concerne l'environnement et la santé,
+
+11l0l0	les_problèmes	O
+
+#· de faire toute recommandation utile en vue d'aider les décideurs en matière d'aménagement territorial.
+
+
+#Le comité de pilotage comprend les élus, les associations de protection de l'environnement, des représentants des administrations concernées et des personnes qualifiées.
+
+
+#La presse locale est invitée à participer aux débats.
+
+
+#Dans un premier temps, sur proposition de la DRIRE Midi-Pyrénées, il a été décidé de lancer un inventaire historique des anciens sites industriels et miniers du bassin.
+
+15l0l0	la_DRIRE_Midi___Pyrénées	O
+15l0l1	a_été_décidé_de_lancer_un_inventaire_historique	N
+15l0l2	anciens_sites_industriels_et_miniers	O
+15l1l0	la_DRIRE_Midi___Pyrénées	I
+
+#Cet inventaire confié au BRGM, est financé par :
+
+16l0l0	au_BRGM	O
+16l1l0	BRGM	I
+
+#· les crédits de services publics du BRGM,
+
+17l0l0	BRGM	O
+17l1l0	BRGM	I
+
+#· les fonds FIBM (fonds d'industrialisation des bassins miniers du ministère chargé de l'industrie),
+
+18l0l0	les_fonds_FIBM	O
+18l0l1	industrialisation_des_bassins_miniers	O
+18l0l2	ministère_chargé_de_l__industrie	A
+18l1l0	les_fonds_FIBM	I
+
+#· le FEDER (crédits d'aménagement communautaires),
+
+19l1l0	le_FEDER	I
+
+#· le Conseil Régional.
+
+20l1l0	le_Conseil_Régional	I
+
+#Les critères de sélection retenus ont été les sites des groupes 1 et 2 du code NAF utilisés pour les IHR (inventaires historiques régionaux).
+
+21l0l0	les_sites	O
+
+#La rédaction des fiches techniques suit la méthodologie nationale ADEME / BRGM des IHR.
+
+22l0l0	fiches_techniques	O
+22l0l1	BRGM	O
+22l1l0	BRGM_des_IHR	I
+
+#La restitution documentaire faite sous forme d'un CD ROM comprend outre le fichier technique, une transposition des données recueillies dans un SIG (système informatique géographique).
+
+
+#Ce SIG fournit notamment une cartographie du bassin indiquant les zones susceptibles de connaître une pollution des sols.
+
+24l0l0	bassin	O
+24l0l1	les_zones	O
+24l0l2	susceptibles_de	R
+24l0l3	connaître_une_pollution_des_sols	N
+
+#Le CD ROM a été remis aux différents partenaires le 13 juillet 2000.
+
+25l0l0	Le	O
+25l0l1	a_été_remis	N
+25l0l2	différents_partenaires	O
+25l0l3	le_13_juillet_2000__	T
+
+#3) 2000 - 2002
+
+
+#Dans un deuxième temps, sur proposition de la DRIRE Midi-Pyrénées, il a été décidé de lancer une étude d'impact globale à l'échelle du bassin.
+
+27l0l0	la_DRIRE_Midi___Pyrénées	O
+27l0l1	a_été_décidé	N
+27l0l2	de_lancer_une_étude	N
+27l0l3	d__impact_globale	O
+27l0l4	l__échelle	O
+27l0l5	du_bassin	O
+27l1l0	la_DRIRE_Midi___Pyrénées	I
+
+#Elle comprend deux volets :
+
+
+#· une étude globale de l'impact de sites et sols potentiellement pollués situés dans le bassin de Decazeville,
+
+29l0l0	l__impact	O
+29l0l1	situés_dans_le_bassin_de_Decazeville	L
+
+#· la réalisation d'ESR sur 10 sites considérés d'intérêt prioritaire (ces sites feront l'objet prochainement de mises à jour de fiches BASOL existantes ou de la création de nouvelles fiches BASOL).
+
+30l0l0	10_sites	O
+30l0l1	ces_sites	O
+30l1l0	ESR	I
+
+#Des résultats intermédiaires ont été présentés au comité de pilotage du 26 octobre 2001.
+
+31l0l0	Des_résultats_intermédiaires	O
+31l0l1	ont_été_présentés	N
+31l0l2	comité_de_pilotage	O
+31l0l3	26_octobre_2001	T
+
+#Deux idées principales se dégagent :
+
+
+#· malgré de nombreuses pollutions ponctuelles, désormais mieux connues et caractérisées, il n'y a pas, comme le souligne la qualité des eaux souterraines et de surface, de pollution globale notable à l'échelle du bassin.
+
+
+#Les captages d'alimentation en eau potable sont en outre positionnés dans la rivière Lot très en aval hydraulique du bassin,
+
+34l0l0	Les_captages	O
+34l0l1	positionnés_dans_la_rivière_Lot	L
+34l0l2	très_en_aval_hydraulique_du_bassin	L
+
+#· les notations ESR établies sur les 10 sites d'intérêt prioritaire positionnent à priori 8 sites sur 10 dans leur état actuel en classe 1 au sens du guide méthodologique.
+
+35l1l0	ESR	I
+
+#En revanche, eu égard aux réaménagements envisagés, la plupart des sites classés 1 pourraient passer en classe 2.
+
+36l0l0	la_plupart_des_sites_classés_1_pourraient_passer_en_classe_2__	O
+
+#Pour les sites qui resteraient classés 1, des diagnostics approfondis seraient alors lancés.
+
+37l0l0	des_diagnostics_approfondis	N
+
+#Afin d'effectuer les diagnostics approfondis de manière pertinente, il convient d'attendre la remise de la version définitive de l'étude prévue pour le 15 février 2002.
+
+38l0l0	d__effectuer_les_diagnostics_approfondis	N
+38l0l1	pour_le_15_février_2002	T
+
+#Les travaux de dépollution de la zone du RUAU et du COMBAL sont terminés depuis septembre 2006 (confinement sur place des terres polluées et le recouvrement de celles-ci par des terres saines).
+
+39l0l0	Les_travaux_de_dépollution	N
+39l0l1	la_zone_du_RUAU	O
+39l0l2	et	R
+39l0l3	du_COMBAL_sont_terminés	N
+39l0l4	depuis_septembre_2006	T
+39l0l5	confinement_sur_place	N
+39l0l6	terres_polluées	O
+39l0l7	le_recouvrement	N
+39l0l8	des_terres_saines	O

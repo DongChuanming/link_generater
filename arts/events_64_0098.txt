@@ -1,0 +1,148 @@
+
+#64.0098
+#La décharge de Soeix est une ancienne décharge d’ordures ménagères et de déchets assimilés située sur la commune de Oloron-Saint-Marie.
+
+0l0l0	La_décharge_de_Soeix	O
+0l0l1	est_une_ancienne_décharge	N
+0l0l2	située_sur_la_commune_de_Oloron_Saint_Marie	L
+0l1l0	La_décharge_de_Soeix	I
+
+#Elle a été exploitée par le SICTOM du Haut Béarn à partir de 1993 et jusqu'au 1er janvier 2002, puis par le SMTD (Syndicat Mixte et Traitement des Déchets du Bassin Est).
+
+1l0l0	Elle	O
+1l0l1	a_été_exploitée	N
+1l0l2	le_SICTOM	O
+1l0l3	du_Haut_Béarn	L
+1l0l4	à_partir_de_1993_et_jusqu__au_1er_janvier_2002__	T
+1l0l5	le_SMTD	O
+1l0l6	Traitement_des_Déchets_du_Bassin_Est	O
+1l1l0	le_SICTOM_du_Haut_Béarn	I
+1l1l1	le_SMTD	I
+1l1l2	Syndicat	S
+1l1l3	Déchets	S
+
+#La décharge a été autorisée par arrêté préfectoral du 29 juin 1993.
+
+2l0l0	La_décharge	O
+2l0l1	a_été_autorisée	N
+2l0l2	par_arrêté_préfectoral	O
+2l0l3	du_29_juin_1993__	T
+
+#Elle a cessé son activité en 2007 (transmission du dossier de cessation d'activité par l'exploitant le 4 juin 2007).
+
+3l0l0	Elle	O
+3l0l1	a_cessé_son_activité	N
+3l0l2	en_2007	T
+3l0l3	__transmission	N
+3l0l4	cessation_d__activité	N
+3l0l5	l__exploitant	O
+3l0l6	le_4_juin_2007__	T
+
+#Cette décharge est inscrite dans l'action nationale de résorption des décharges de déchets ménagers et assimilés, autorisées ou non autorisées, introduite par la circulaire du Ministère de l’Écologie et du Développement Durable du 23 février 2004.
+
+4l0l0	résorption	N
+4l0l1	Ministère_de_l__Écologie	O
+4l0l2	du_23_février_2004__	T
+
+#1 - TRAVAUX
+
+5l1l0	TRAVAUX	I
+
+#L'arrêté préfectoral du 21 mars 2008 prescrit les travaux de réhabilitation suivants dans un délai de 12 mois :
+
+6l0l0	L__arrêté_préfectoral	O
+6l0l1	21_mars_2008	T
+6l0l2	prescrit_les_travaux_de_réhabilitation	N
+6l0l3	dans_un_délai_de_12_mois	T
+
+#- Reprofilage du terrain de façon à obtenir des pentes de 3% minimum,
+
+7l0l0	Reprofilage_du_terrain	N
+
+#- Mise en place, sur les parcelles remblayées, d'une couche de matériaux argileux remaniés et compactés d'une épaisseur minimale d'un mètre ou d'un autre dispositif d'une efficacité équivalente,
+
+8l0l0	Mise_en_place	N
+8l0l1	sur_les_parcelles_remblayées	N
+
+#- Mise en place par dessus d'une couche de matériaux drainants et d'une couche de terre végétale permettant l'engazonnement du site
+
+9l0l0	Mise_en_place	N
+9l0l1	par_dessus	O
+9l0l2	permettant_l__engazonnement	N
+9l0l3	du_site	L
+
+#- Clôture de l'enceinte de la décharge, notamment vis-à-vis des autres équipements présents sur les sites de Soeix (déchetterie, centre de stockage de déchets inertes),
+
+10l0l0	vis_à_vis	R
+10l0l1	des_autres_équipements	O
+10l0l2	présents	N
+10l0l3	sur_les_sites_de_Soeix	L
+10l0l4	déchetterie	N
+10l1l0	la_décharge	D
+10l1l1	stockage_de_déchets_inertes	U
+
+#- Mise en place d'un second piézomètre à l'aval hydrogéologique du site.
+
+11l0l0	Mise_en_place_d_	N
+11l0l1	un_second_piézomètre	O
+11l0l2	à_l__aval_hydrogéologique_du_site	L
+
+#2 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+12l0l0	SURVEILLANCE_DES_EAUX	A
+12l0l1	SOUTERRAINES	O
+12l1l0	EAUX_SOUTERRAINES	I
+
+#L'arrêté préfectoral du 21 mars 2008 prescrit la surveillance semestrielle des eaux souterraines par la mise en place de 3 piézomètres.
+
+13l0l0	L__arrêté_préfectoral	O
+13l0l1	21_mars_2008	T
+13l0l2	prescrit	R
+13l0l3	la_surveillance_semestrielle	A
+13l0l4	des_eaux_souterraines	A
+13l0l5	la_mise_en_place	N
+
+#Les paramètres à analyser sont les suivants: pH, conductivité, Ammonium, N global, DCO, DBO5, HCTX.
+
+14l1l0	pH	S
+14l1l1	Ammonium	S
+14l1l2	N_global	S
+14l1l3	DCO	S
+14l1l4	DBO5	S
+14l1l5	HCTX	S
+
+#Le niveau piézométrique est relevé à chaque campagne.
+
+
+#Annuellement, l'analyse des métaux lourds (Cd, Zn, Al, Hg, Fe, Mn) est réalisée.
+
+16l0l0	métaux_lourds	O
+16l0l1	est_réalisée	N
+16l1l0	métaux_lourds	S
+16l1l1	Cd	S
+16l1l2	Zn	S
+16l1l3	Al	S
+16l1l4	Hg	S
+16l1l5	Fe	S
+16l1l6	Mn	S
+
+#3 - RESTRICTIONS D'USAGES ET SERVITUDES
+
+17l0l0	SERVITUDES	O
+17l1l0	SERVITUDES	I
+
+#L'arrêté préfectoral du 21 mars 2008 prescrit des restrictions d'usage de la décharge réhabilitée qui devront être inscrites au registre des hypothèques selon une procédure d'institution de servitudes laissée au choix de l'exploitant.
+
+18l0l0	L__arrêté_préfectoral	O
+18l0l1	21_mars_2008	T
+18l0l2	prescrit_des_restrictions_d__usage	N
+18l0l3	la_décharge_réhabilitée	O
+18l0l4	registre_des_hypothèques	O
+18l0l5	l__exploitant	O
+
+#Interdictions de constructions de toute nature, de travaux de voiries (sauf ceux nécessaires à l'accès du site et à son entretient), d'affouillements, de sondage, de forage  et de cultures (agricoles, potagères et de pâturage).
+
+19l0l0	Interdictions	N
+19l0l1	de_constructions	O
+19l0l2	affouillements	N
+19l0l3	__de_sondage___de_forage___et_de_cultures	L

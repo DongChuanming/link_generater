@@ -1,0 +1,103 @@
+
+#59.0582
+#RESTOR CHROMES est une entreprise artisanale qui avait pour objet la rénovation et la réparation de pièces de voitures et motos anciennes, de pièces d’antiquité et de petites séries de pièces industrielles.
+
+0l0l0	artisanale_qui_avait	O
+0l0l1	pour	N
+0l0l2	objet_la_rénovation_et_la_réparation	A
+0l0l3	de_pièces_de_voitures_et	O
+
+#Pour cela, l’atelier de traitement et de revêtement des métaux comprend des installations de dégraissage, de décapage, de sablage, de chromage.
+
+1l0l0	revêtement	T
+1l0l1	des_métaux_comprend	N
+1l0l2	des	T
+1l1l0	installations_de_dégraissage	S
+
+#Le volume total des cuves nécessaires pour ces opérations s’élève à 14 620 litres.
+
+
+#La ligne de traitement et de revêtement des métaux ne fonctionnait qu’une journée par semaine.
+
+3l0l0	La_ligne_de_traitement	O
+3l0l1	et_de_revêtement_des_métaux	O
+3l0l2	ne_fonctionnait_qu__une_journée_par_semaine__	A
+3l1l0	La_ligne_de_traitement	I
+
+#Le site est autorisé par arrêté préfectoral du 23 janvier 1997 pour l'activité de traitement de surface.
+
+4l0l0	arrêté_préfectoral	A
+4l0l1	janvier_1997	O
+4l0l2	pour_l__activité	R
+4l0l3	de_traitement_de_surface__	N
+
+#Par courrier du 20 octobre 2011, Madame Dumoulin a déclaré la reprise d'activité de la société RESTOR CHROMES.
+
+5l1l0	octobre	D
+
+#L'exploitant a réalisé par courrier du 21 janvier 2013 la déclaration de cessation d'activité auprès de Monsieur le Préfet du Nord ainsi que la consultation pour l'usage futur.
+
+6l0l0	L__exploitant_a_réalisé_par_courrier_du_21_janvier	O
+6l0l1	2013_la_déclaration_de_cessation	N
+
+#L'élimination des déchets et l'évaluation des impacts du site sur son environnement n'est pas réalisée.
+
+7l0l0	L__élimination	O
+7l0l1	des	N
+7l0l2	déchets_et_l__évaluation	O
+7l0l3	des_impacts_du_site	T
+7l0l4	son_environnement_n__est_pas_réalisée	A
+
+#De ce fait, l'exploitant a été mis en demeure par arrêté du 5 avril 2013 d'éliminer les déchets présents sur le site et de réaliser l'évaluation des impacts du site sur son environnement.
+
+8l0l0	exploitant_a_été_mis	T
+8l0l1	en_demeure_par	O
+8l0l2	arrêté_du_5_avril_2013_d__éliminer	N
+8l0l3	les_déchets_présents_sur_le_site	O
+8l1l0	les_déchets_présents_sur_le_site	I
+
+#Un arrêté préfectoral de consignation en date du 15 octobre 2013 impose à Madame Dumoulin de consigner la somme nécessaire à l'évacuation des déchets ainsi qu'à la réalisation d'une étude historique sur le site.
+
+9l0l0	Un_arrêté	O
+9l0l1	préfectoral_de_consignation	N
+9l0l2	en_date_du_15_octobre	T
+9l0l3	2013_impose	N
+9l0l4	Madame_Dumoulin_de_consigner	N
+9l0l5	somme_nécessaire_à_l__évacuation	O
+9l0l6	des_déchets_ainsi_qu_	N
+9l0l7	la_réalisation	O
+9l1l0	nécessaire_à	I
+
+#La mise en sécurité correspond à l'évacuation des produits dangereux et des déchets, la limitation d'accès au site, l'élimination de tout risque d'incendie et d'explosion.
+
+10l0l0	La_mise_en_sécurité	N
+10l0l1	correspond_à_l__évacuation_des_produits	O
+
+#La limitation d'accès (fermeture des locaux) et l’élimination des risques incendie et explosion ont été pris en compte par l’exploitant.
+
+11l0l0	limitation_d__accès__	O
+11l0l1	fermeture_des_locaux	N
+11l0l2	élimination_des	T
+11l0l3	risques_incendie	N
+11l1l0	incendie_et_explosion	U
+
+#Restait l'élimination des produits encore présents (cuves de traitement contenant encore des bains concentrés ou de rinçage).
+
+12l0l0	Restait_l__élimination_des_produits_encore	O
+12l0l1	présents___cuves_de	T
+12l0l2	traitement_contenant_encore	O
+12l0l3	des_bains_concentrés	O
+
+#Une vingtaine de cuves (traitement ou rinçage) étaient présentes.
+
+13l0l0	Une_vingtaine_de_cuves	N
+13l1l0	__étaient_présentes__	U
+
+#Par ailleurs, la présence de PCB dans les transformateurs serait à vérifier.
+
+14l0l0	présence_de_PCB_dans_les	N
+14l0l1	transformateurs_serait_à_vérifier__	N
+
+#Une inspection avec l'ADEME a été effectuée le 4 mars 2014 afin d'enclencher la procédure d'intervention de l'ADEME.
+
+15l1l0	ADEME_a_été_effectuée_le_4_mars_2014	U

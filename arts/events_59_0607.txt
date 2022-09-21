@@ -1,0 +1,76 @@
+
+#59.0607
+#Ce site a été occupé par les brasseries-malteries MOTTE-CORDONNIER à partir de 1923.
+
+0l0l0	Ce_site	O
+0l0l1	a_été_occupé	N
+0l0l2	les_brasseries	O
+0l0l3	__malteries_MOTTE___CORDONNIER	O
+0l0l4	à_partir_de_1923	T
+0l1l0	malteries_MOTTE	I
+0l1l1	CORDONNIER	I
+
+#Après plusieurs changement de noms et fusions ce groupe devient INTERBREW puis IN’BEV.
+
+1l0l0	changement_de_noms	N
+1l0l1	fusions	N
+1l0l2	INTERBREW	O
+1l0l3	IN__BEV	O
+1l1l0	INTERBREW	I
+1l1l1	IN__BEV	I
+
+#En 1993 les activités de brassage sont arrêtées, ne subsistent que le conditionnement et la distribution de bières spécialisées.
+
+2l0l0	En_1993	T
+2l0l1	les_activités_de_brassage	A
+2l0l2	sont_arrêtées	N
+2l0l3	ne_subsistent	O
+2l0l4	le_conditionnement_et_la_distribution_de_bières_spécialisées	A
+
+#En 2002 le conditionnement est arrête, seule reste la logistique qui sera également arrêtée en 2010.
+
+3l0l0	En_2002	T
+3l0l1	le_conditionnement	O
+3l0l2	est_arrête	N
+3l0l3	la_logistique	O
+3l0l4	sera_également_arrêtée	N
+3l0l5	en_2010__	T
+
+#Depuis, il n’y a plus d’activités industrielles sur le site.
+
+4l0l0	Depuis	T
+4l0l1	n__y_a_plus_d_	N
+4l0l2	activités_industrielles	A
+4l0l3	sur_le_site	L
+
+#Concernant l’état des sols, des contaminations aux métaux lourds, aux HAP, aux HCT et aux COHV ont été identifiées.
+
+5l0l0	des_contaminations	O
+5l0l1	ont_été_identifiées	N
+5l1l0	métaux_lourds	S
+5l1l1	HAP	S
+5l1l2	HCT	S
+5l1l3	COHV	S
+
+#Cependant, ces pollutions sont quasiment uniquement présentes dans les remblais.
+
+6l0l0	ces_pollutions	O
+6l0l1	remblais	L
+
+#D’autre part les résultats diffèrent selon la zone du site étudiée.
+
+
+#On peut donc définir deux zones sur ce site:
+
+
+#- La zone «Wincanton» dont l’état a été jugé compatible avec un usage industriel
+
+9l0l0	La_zone___Wincanton	O
+9l0l1	l__état_a_été_jugé_compatible	O
+9l0l2	avec	R
+9l0l3	un_usage_industriel	O
+
+#- La zone «Brasserie-Malterie» pour laquelle un plan de gestion devra être mis en œuvre afin de déterminer les mesures à appliquer pour remettre le site en état pour un usage industriel.
+
+10l0l0	un_plan_de_gestion	O
+10l0l1	un_usage_industriel	A

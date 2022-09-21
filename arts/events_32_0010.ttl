@@ -1,0 +1,117 @@
+@prefix : <http://example.com/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:event_components a owl:Class.
+:labels a owl:Class.
+:when a owl:ObjectProperty .
+:status a owl:ObjectProperty .
+:locate a owl:ObjectProperty .
+:parallel a owl:ObjectProperty .
+:unknown a owl:ObjectProperty .
+:agent a owl:ObjectProperty .
+:pagent a owl:ObjectProperty .
+:target a owl:ObjectProperty .
+:indirect_target a owl:ObjectProperty .
+:ptarget a owl:ObjectProperty .
+:complement a owl:ObjectProperty .
+:passive_target a owl:ObjectProperty .
+:passive_agent a owl:ObjectProperty .
+:precise a owl:ObjectProperty .
+:pprecise a owl:ObjectProperty .
+:pollutant a owl:ObjectProperty .
+:event owl:subClassOf owl:Class.
+:N a :labels.
+:event rdfs:label :N.
+:object owl:subClassOf owl:Class.
+:O a :labels.
+:object rdfs:label :O.
+:time owl:subClassOf owl:Class.
+:T a :labels.
+:time rdfs:label :T.
+:location owl:subClassOf owl:Class.
+:L a :labels.
+:location rdfs:label :L.
+:industrial_activity owl:subClassOf owl:Class.
+:A a :labels.
+:industrial_activity rdfs:label :A.
+:relation owl:subClassOf owl:Class.
+:R a :labels.
+:relation rdfs:label :R.
+:institution owl:subClassOf owl:Class.
+:I a :labels.
+:institution rdfs:label :I.
+:pollutant_container owl:subClassOf owl:Class.
+:D a :labels.
+:pollutant_container rdfs:label :D.
+:pollutant owl:subClassOf owl:Class.
+:U a :labels.
+:pollutant rdfs:label :U.
+:chemical owl:subClassOf owl:Class.
+:S a :labels.
+:chemical rdfs:label :S.
+:0l0l0 a :object.
+:exploiter owl:subClassOf :event.
+:0l0l1 a :exploiter.
+:0l0l2 a :time.
+:0l0l3 a :object.
+:0l0l4 a :industrial_activity.
+:0l1l0 a :institution.
+:0l1l1 a :pollutant_container.
+:0l0l0 ::target :0l0l1.
+:0l0l1 :when :0l0l2.
+:0l0l3 :unknown :0l0l1.
+:0l0l3 :contain :0l1l0.
+:0l1l1 :complement :0l0l3.
+:0l0l4 :contain :0l1l1.
+:1l0l0 a :object.
+:1l0l1 a :exploiter.
+:1l0l2 a :time.
+:1l0l3 a :object.
+:1l0l4 a :object.
+:1l1l0 a :institution.
+:1l0l0 ::target :1l0l1.
+:1l0l1 :when :1l0l2.
+:1l0l3 :unknown :1l0l1.
+:1l0l3 :contain :1l1l0.
+:cessation owl:subClassOf :event.
+:2l0l0 a :cessation.
+:2l0l1 a :time.
+:2l0l0 :when :2l0l1.
+:diagnostic owl:subClassOf :event.
+:3l0l0 a :diagnostic.
+:3l0l1 a :object.
+:réaliser owl:subClassOf :event.
+:3l0l2 a :réaliser.
+:3l0l3 a :time.
+:3l0l1 :target :3l0l0.
+:3l0l2 :status :3l0l0.
+:3l0l2 :when :3l0l3.
+:constat owl:subClassOf :event.
+:4l0l0 a :constat.
+:pollution owl:subClassOf :event.
+:4l0l1 a :pollution.
+:4l0l2 a :location.
+:plomb owl:subClassOf :chemical.
+:4l1l0 a :plomb.
+:hydrocarbure owl:subClassOf :chemical.
+:4l1l1 a :hydrocarbure.
+:cadmium owl:subClassOf :chemical.
+:4l1l2 a :cadmium.
+:4l0l0 :parallel :4l1l1.
+:4l0l1 :complement :4l0l0.
+:4l1l0 :complement :4l0l2.
+:5l0l0 a :constat.
+:5l0l1 a :pollution.
+:5l0l2 a :location.
+:5l0l3 a :object.
+:5l1l0 a :plomb.
+:zinc owl:subClassOf :chemical.
+:5l1l1 a :zinc.
+:5l1l0 :complement :5l0l0.
+:5l0l1 :complement :5l0l0.
+:5l0l3 :target :5l0l1.
+:travail owl:subClassOf :event.
+:7l0l0 a :travail.
+:7l0l1 a :object.

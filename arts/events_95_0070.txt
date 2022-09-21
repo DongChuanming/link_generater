@@ -1,0 +1,189 @@
+
+#95.0070
+#La Société AUTOSHOP a exercé une activité de casse automobile jusque 2010, sans l'autorisation requise pour cette activité relevant de la nomenclature des installations classées.
+
+0l0l0	La_Société_AUTOSHOP	O
+0l0l1	a_exercé	R
+0l0l2	une_activité_de	A
+0l0l3	casse_automobile	O
+0l0l4	jusque_2010__	T
+0l0l5	sans	R
+0l0l6	l__autorisation	O
+0l0l7	la_nomenclature_des_installations_classées	O
+0l1l0	La_Société_AUTOSHOP	I
+
+#En 2010, suite à une plainte, l'inspection des installations classées a contacté l'exploitant de cette Société, qui a indiqué arrêter son activité en juin 2010.
+
+1l0l0	En_2010__	T
+1l0l1	une_plainte	O
+1l0l2	l__inspection_des_installations_classées	O
+1l0l3	a_contacté	N
+1l0l4	l__exploitant	O
+1l0l5	cette_Société	O
+1l0l6	arrêter_son_activité	N
+1l0l7	en_juin_2010__	T
+
+#Un arrêté préfectoral du 27 juillet 2010 a donc demandé à la Société AUTOSHOP de fournir un mémoire de cessation d'activité.
+
+2l0l0	Un_arrêté_préfectoral	O
+2l0l1	27_juillet_2010	T
+2l0l2	a_donc_demandé	N
+2l0l3	la_Société_AUTOSHOP	O
+2l0l4	fournir	N
+2l0l5	un_mémoire_de	O
+2l0l6	cessation_d__activité	N
+2l1l0	la_Société_AUTOSHOP	I
+
+#Les terrains ont été rachetés par un promoteur immobilier qui y a implanté des logements.
+
+3l0l0	Les_terrains	O
+3l0l1	ont_été_rachetés	N
+3l0l2	un_promoteur_immobilier	O
+3l0l3	a_implanté_des_logements	N
+
+#Le site est entouré par :
+
+4l0l0	Le_site	O
+
+#- la rue Jean Catelas au Nord,
+
+5l0l0	la_rue_Jean_Catelas	L
+5l0l1	au_Nord	L
+
+#- des bâtiments d'activité à l'Est,
+
+6l0l0	activité	A
+6l0l1	à_l__Est	L
+
+#- un complexe immobilier à l'Ouest,
+
+7l0l0	un_complexe_immobilier	O
+7l0l1	à_l__Ouest	L
+
+#- une ancienne zone d'activité au Sud.
+
+8l0l0	une_ancienne_zone_d__activité_au_Sud	O
+
+#Dans le cadre de l'arrêt de ses activités, l'exploitant a fourni des justificatifs de l'élimination des déchets présents sur le site.
+
+9l0l0	Dans_le_cadre_de	R
+9l0l1	l__arrêt_de_ses_activités	N
+9l0l2	l__exploitant	O
+9l0l3	a_fourni	N
+9l0l4	des_justificatifs	O
+9l0l5	l__élimination	N
+
+#Le nouveau propriétaire des terrains a quant à lui adressé à l'inspection des installations classées des analyses de sol réalisées en 2011 et des analyses d'eau de nappe réalisées en 2009.
+
+10l0l0	Le_nouveau_propriétaire_des_terrains	O
+10l0l1	adressé	N
+10l0l2	l__inspection_des_installations_classées	O
+10l0l3	des_analyses_de_sol	N
+10l0l4	réalisées_en_2011	N
+10l0l5	des_analyses_d__eau_de_nappe_réalisées	N
+10l0l6	en_2009__	T
+
+#Ces analyses ne montrent pas de pollution des eaux souterraines, protégées par la nature des terrains susjacents (marnes).
+
+11l0l0	Ces_analyses	N
+
+#Les sols, quant à eux, présentent une pollution en métaux, en hydrocarbures totaux, en BTEX (benzène, toluène, éthylbenzène et xylènes) et en HAP (hydrocarbures aromatiques polycycliques).
+
+12l1l0	métaux	S
+12l1l1	hydrocarbures_totaux	S
+12l1l2	BTEX	S
+12l1l3	benzène	S
+12l1l4	toluène	S
+12l1l5	éthylbenzène	S
+12l1l6	xylènes	S
+12l1l7	HAP	S
+12l1l8	hydrocarbures_aromatiques_polycycliques	S
+
+#Sur la base de ces résultats et dans le cadre d'un projet d'aménagement, une étude de risque sanitaire a été réalisée en juin 2011, en considérant un usage résidentiel (102 logements répartis sur 5 bâtiments de type R+1 et R+1+combles avec parking semi-enterré et jardins privatifs).
+
+13l0l0	Sur_la_base	N
+13l0l1	le_cadre_d_	R
+13l0l2	un_projet	N
+13l0l3	une_étude_de_risque_sanitaire	N
+13l0l4	a_été_réalisée	N
+13l0l5	en_juin_2011__	T
+13l0l6	un_usage_résidentiel	A
+13l0l7	5_bâtiments	O
+
+#L'étude prend également en compte les mouvements de terres prévus dans le cadre de ce projet de construction : excavation de terres sur la totalité de la surface du site hors les pointes nord et sud sur lesquelles des buttes seront mises en place.
+
+14l0l0	mouvements_de_terres	O
+14l0l1	prévus_dans_le_cadre_de	R
+14l0l2	ce_projet	O
+14l0l3	de_construction	N
+14l0l4	excavation_de_terres	N
+14l0l5	les_pointes_nord_et_sud	L
+14l0l6	seront_mises_en_place	N
+
+#L'étude conclut que le site est compatible avec cet usage futur, sous réserve de :
+
+
+#- confiner les terres polluées sous 40 à 50 cm de terres propres, et séparation terres polluées / terres propres par un géotextile ;
+
+16l0l0	confiner	N
+16l0l1	les_terres_polluées	O
+
+#- interdire de planter des espèces comestibles ;
+
+17l0l0	planter_des_espèces_comestibles	A
+
+#- interdire d'affouiller le sol ;
+
+18l0l0	affouiller	A
+
+#- isoler le réseau d'alimentation en eau potable par un géotextile avec des remblais sains ;
+
+19l0l0	un_géotextile	O
+19l0l1	remblais_sains	A
+
+#- assurer la protection des travailleurs amenés à travailler sur le chantier de construction.
+
+20l0l0	chantier_de_construction	N
+
+#Un rapport de fin de travaux a été reçu début 2013 par l'inspection des installations classées et montre que les travaux listés ci-dessus ont bien été mis en œuvre.
+
+21l0l0	Un_rapport_de_fin_de_travaux	O
+21l0l1	a_été_reçu	N
+21l0l2	début_2013	T
+21l0l3	l__inspection_des_installations_classées	O
+21l0l4	les_travaux	O
+21l0l5	ont_bien_été_mis_en_œuvre	N
+
+#Un dossier proposant la mise en place de servitudes d'utilités publiques (SUP) a été déposé par l'exploitant en novembre 2012 pour fixer les usages possibles sur le site tel qu'il a été traité.
+
+22l0l0	Un_dossier	O
+22l0l1	proposant	R
+22l0l2	la_mise_en_place_de	N
+22l0l3	servitudes_d__utilités_publiques	O
+22l0l4	a_été_déposé	N
+22l0l5	l__exploitant	O
+22l0l6	en_novembre_2012	T
+22l0l7	fixer	N
+22l0l8	les_usages_possibles	O
+22l0l9	a_été_traité	N
+
+#La procédure de mise en place des SUP a été abandonnée en septembre 2017.
+
+23l0l0	La_procédure	O
+23l0l1	mise_en_place	N
+23l0l2	des_SUP	O
+23l0l3	a_été_abandonnée	N
+23l0l4	en_septembre_2017__	T
+
+#Le terrain concerné par la pollution est néanmoins inclus dans le dispositif de création de secteurs d'information sur les sols (SIS).
+
+24l0l0	Le_terrain_concerné	O
+24l0l1	la_pollution	O
+24l0l2	est_néanmoins_inclus_dans_le_dispositif	N
+
+#Sauf élément nouveau, ce site n'appelle plus d'actions de l'inspection des installations classées.
+
+25l0l0	ce_site	O
+25l0l1	n__appelle_plus	N
+25l0l2	actions	O
+25l0l3	l__inspection_des_installations_classées	O

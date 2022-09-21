@@ -1,0 +1,130 @@
+
+#59.0302
+#Le terrain situé en zone urbaine, d'une superficie de 10 600 m², a acueilli de 1872 à 1951, une usine fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	Le_terrain	O
+0l0l1	situé_en_zone_urbaine	L
+0l0l2	a_acueilli	N
+0l0l3	de_1872_à_1951	T
+0l0l4	une_usine	O
+0l0l5	fabriquant_du_gaz	A
+0l0l6	à_partir_de	R
+0l0l7	la_distillation_de_la_houille	A
+
+#Les installations de l'usine ont été démollies dans les années 50-60.
+
+1l0l0	Les_installations_de_l__usine	O
+1l0l1	ont_été_démollies	N
+1l0l2	dans_les_années_50___60__	T
+
+#Actuellement le terrain,  comprend les bâtiments administratifs et techniques du centre EDF Agence d'Avesnes sur Helpe.
+
+2l0l0	Actuellement	T
+2l0l1	le_terrain	O
+2l0l2	__comprend	R
+2l0l3	les_bâtiments_administratifs_et_techniques	O
+2l0l4	du_centre_EDF_Agence	O
+2l0l5	d__Avesnes_sur_Helpe	L
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère repartis sur l'ensemble du territoire.
+
+3l0l0	Gaz_de_France	O
+3l0l1	a_hiérarchisé	N
+3l0l2	ses_actions	O
+3l0l3	467_sites	O
+3l1l0	Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement (usage du site, vulnérabilité des eaux souterraines et superficielles présence et type de population sur le site...).
+
+4l0l0	hiérarchiser	N
+4l0l1	les_sites	O
+4l0l2	en_fonction_de	R
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+5l0l0	L__application	N
+5l0l1	cette_méthode	O
+5l0l2	a_abouti_à	R
+5l0l3	l__établissement	N
+5l0l4	5_classes_de_priorité	O
+5l0l5	les_engagements	O
+5l0l6	Gaz_de_France	O
+5l0l7	ont_fait_l__objet_d_	R
+5l0l8	un_protocole_d__accord	O
+5l0l9	relatif_à	R
+5l0l10	la_maîtrise	O
+5l0l11	suivi	O
+5l0l12	la_réhabilitation	N
+5l0l13	anciens_terrains_d__usines_à_gaz	O
+5l0l14	entre	R
+5l0l15	le_Ministère_de_l__Environnement	O
+5l0l16	Gaz_de_France	O
+5l0l17	signé	N
+5l0l18	le_25_avril_1996	T
+5l1l0	Gaz_de_France	I
+5l1l1	le_Ministère_de_l__Environnement	I
+5l1l2	Gaz_de_France	I
+
+#Le site de l'ancienne usine à gaz d'Avesnes sur Helpe est en classe 3 du protocole.  De ce fait c'est un site dont la sensibilité vis-à-vis de l'homme, des eaux souterraines et superficielles est faible.
+
+6l0l0	Le_site	O
+6l0l1	l__ancienne_usine_à_gaz	O
+6l0l2	d__Avesnes_sur_Helpe	L
+6l0l3	est_en	R
+6l0l4	classe_3	O
+
+#Conformément aux engagements pris dans le protocole, ce site a fait l'objet d'un diagnostic initial et d'un diagnostic approfondi, dont les principaux objectifs sont en outre les recherches historiques et documentaires, la recherche des ouvrages entérrés, l'évaluation de l'impact du site sur les ressources locales en eaux (eaux superficielles et souterraines) et la caractérisation du sol superficiel pour évaluer les risques de contact et ceux liés à d'éventuelles émanations gazeuses.
+
+7l0l0	Conformément_aux	R
+7l0l1	engagements	O
+7l0l2	pris_dans	R
+7l0l3	le_protocole	O
+7l0l4	ce_site	O
+7l0l5	a_fait_l__objet_d_	R
+7l0l6	un_diagnostic_initial	N
+7l0l7	d__un_diagnostic_approfondi	N
+7l0l8	ouvrages_entérrés	O
+7l0l9	sol_superficiel	O
+7l0l10	les_risques_de_contact	O
+
+#Ces diagnostics effectués par un bureau d'études à la demande de Gaz de France ont mis en évidence l'existence de trois cuves à goudrons enterrées dont la neutralisation a été effectuée par Gaz de France au deuxième semestre 1995.
+
+8l0l0	Ces_diagnostics	N
+8l0l1	effectués	N
+8l0l2	un_bureau_d__études	O
+8l0l3	à_la_demande_de	R
+8l0l4	Gaz_de_France	O
+8l0l5	ont_mis_en_évidence	R
+8l0l6	l__existence_de_trois_cuves_à_goudrons_enterrées	O
+8l0l7	la_neutralisation	N
+8l0l8	a_été_effectuée	N
+8l0l9	Gaz_de_France	O
+8l0l10	au_deuxième_semestre_1995	T
+8l1l0	Gaz_de_France	I
+8l1l1	cuves	D
+8l1l2	goudrons	U
+8l1l3	Gaz_de_France	I
+
+#Un diagnostic a montré que le site est exempt de toute pollution .
+
+9l0l0	Un_diagnostic	N
+9l0l1	le_site	O
+
+#Il fait l'objet d'un projet de vente .
+
+10l0l0	Il	O
+10l0l1	fait_l__objet_d_	R
+10l0l2	un_projet_de_vente	N
+
+#Le rapport de diagnostic sera annexé à l'acte de vente afin d'informer l'acheteur.
+
+11l0l0	Le_rapport_de_diagnostic	O
+
+#Aucune action n'est à prévoir.
+
+
+#Ce site sera basculé dans la base BASIAS.
+
+13l0l0	Ce_site	O
+13l0l1	sera_basculé	N
+13l0l2	BASIAS	O

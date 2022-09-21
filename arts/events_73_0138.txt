@@ -1,0 +1,313 @@
+
+#73.0138
+#Le site de la décharge dite "de Pussy" se trouve sur le versant en rive gauche de la vallée de l'Isère, à environ 1 km au sud du village de Pussy et à environ 720 m d'altitude.
+
+0l0l0	Le_site	O
+0l0l1	se_trouve_sur_le_versant_en_rive_gauche_de_la_vallée_de_l__Isère	L
+0l0l2	__à_environ_1_km_au_sud_du_village_de_Pussy	L
+0l0l3	à_environ_720_m_d__altitude	L
+
+#La décharge est située en contre-bas de la route départementale 94 reliant La Léchère au col de la Madeleine, au lieu-dit "L’Écoulée".
+
+1l0l0	La_décharge	O
+1l0l1	est_située_en_contre_bas_de_la_route_départementale_94_reliant_La_Léchère_au_col_de_la_Madeleine	L
+1l0l2	au_lieu___dit___L__Écoulée	L
+1l1l0	la_Madeleine	I
+
+#Elle a accueilli des déchets de 1967 à 2002 (autorisée par arrêté préfectoral du 10 septembre 1979).
+
+2l0l0	Elle	O
+2l0l1	a_accueilli	N
+2l0l2	des_déchets	O
+2l0l3	de_1967_à_2002	T
+2l0l4	autorisée	N
+2l0l5	par_arrêté_préfectoral	O
+2l0l6	10_septembre_1979____	T
+
+#La décharge est limitée :
+
+
+#- à l'amont, par la Route Départementale et par un grillage évitant tout dépôt sauvage à partir de cette route ;
+
+4l0l0	la_Route_Départementale	L
+
+#- au sud, par une zone de type clairière, peu boisée et défrichée, occupée par une zone de stockage de compost ;
+
+5l0l0	au_sud	L
+5l0l1	défrichée	N
+5l0l2	occupée_par	N
+5l0l3	une_zone	O
+
+#- au nord et à l'est, par des zones boisées en fortes pentes avec localement des sentiers.
+
+6l0l0	à_l__est	L
+6l0l1	des	O
+6l0l2	zones_boisées_en_fortes_pentes	L
+
+#Il n'y a aucune habitation ni activité humaine à proximité de la décharge.
+
+7l0l0	aucune_habitation	O
+7l0l1	activité_humaine	O
+7l0l2	à_proximité_de_la_décharge	L
+
+#La décharge est essentiellement composée de déchets :
+
+8l1l0	déchets	U
+
+#- industriels (mâchefers, carbone, graphite, silice, etc.) ;
+
+9l1l0	carbone	U
+9l1l1	silice	S
+
+#- domestiques (ordures ménagères, monstres, déchets verts, etc.) ;
+
+
+#- thermaux (boues argileuses en sachets plastiques) ;
+
+
+#- de démolition (plâtre, bois traité, etc.).
+
+12l0l0	démolition	N
+
+#La décharge est caractérisée par une plate-forme de déversement de l'ordre de 6 000 m².
+
+
+#Le volume des déchets déposés est estimé à 190 000 m3 au maximum (sachant qu'il n'y a jamais eu de bascule sur le site et que la vie de la décharge a été marquée par une succession d'incendies de plus ou moins grande ampleur).
+
+14l0l0	la_décharge	O
+14l0l1	a_été_marquée	R
+14l0l2	incendies	N
+
+#Les investigations géotechniques par forage destructif à une profondeur variant entre 21 et 31 m font apparaître la succession de faciès suivants :
+
+15l0l0	Les_investigations_géotechniques	N
+15l0l1	forage_destructif	N
+
+#- dépôts de déchets formant une couche superficielle sur 1 à 2 m de hauteur ;
+
+
+#- dépôts de déchets plus anciens formant le corps de la décharge dont la base est estimée à 15 m/TN en SD 1, 9m/TN en SD 2 et 8,8 m/TN en SD 3 ;
+
+17l0l0	dépôts_de_déchets	N
+17l0l1	8_8_m	O
+
+#- matériau graveleux voir sableux avec des blocs pouvant correspondre à un matériau de type éboulis avec des éléments très grossiers à matrice de type scories et dont la base est estimée à 22/TN en SD 1, 16,3 m/TN en SD 2 et inexistante en SD 3 ;
+
+18l0l0	scories	O
+18l1l0	des_blocs	D
+
+#- substratum rocheux mica-schisteux, visible en pied de talus aval.
+
+19l0l0	en_pied_de_talus_aval	L
+19l1l0	schisteux	S
+
+#Il n'a pas été identifié de réseaux d'eaux superficielles à proximité de la décharge ni de sources ou captages en aval du dépôt jusqu'au lit de l'Isère situé 350 m de dénivelée plus bas.
+
+20l0l0	à_proximité_de_la_décharge	L
+20l0l1	de_sources_ou_captages	O
+20l0l2	en_aval_du_dépôt	L
+20l0l3	au_lit_de_l__Isère	L
+20l0l4	situé_350_m_de_dénivelée_plus_bas	L
+
+#De plus, lors des investigations de terrain, il n'a été observé aucune venue d'eau, ni dans les sondages, ni en pied de talus au contact du substratum rocheux.
+
+21l0l0	lors	T
+21l0l1	des_investigations_de_terrain	N
+21l0l2	en_pied_de_talus	L
+
+#Néanmoins, la zone de la décharge formant un impluvium important, la formation de lixiviats lors de fortes précipitations ou de fontes des neiges n'est pas exclue.
+
+22l0l0	la_zone	O
+22l0l1	lixiviats	O
+22l0l2	fontes	N
+22l0l3	des_neiges	A
+
+#Le rapport "réhabilitation de la décharge de Pussy" de novembre 2004, réalisé par GINGER ENVIRONNEMENT, met en évidence, après 6 sondages, les contaminations suivantes dans les sols :
+
+23l0l0	réhabilitation	N
+23l0l1	la_décharge	O
+23l0l2	de_Pussy___de	N
+23l0l3	novembre_2004__	T
+23l0l4	réalisé	N
+23l0l5	GINGER_ENVIRONNEMENT	O
+23l0l6	6_sondages	N
+23l0l7	les_contaminations	O
+23l1l0	GINGER_ENVIRONNEMENT	I
+
+#- phénol libre (1,6 mg/kg MS) ;
+
+
+#- HCT (800 mg/kg MS) ;
+
+25l1l0	HCT	S
+
+#- arsenic (40 mg/kg MS) ;
+
+26l0l0	arsenic	O
+26l1l0	arsenic	S
+
+#- cadmium (7 mg/kg MS) ;
+
+27l1l0	cadmium	S
+
+#- chrome (180 mg/kg MS) ;
+
+28l1l0	chrome	S
+
+#- cuivre (1 200 mg/kg MS) ;
+
+29l1l0	cuivre	S
+
+#- nickel (210 mg/kg MS) ;
+
+30l1l0	nickel	S
+
+#- plomb (360 mg/kg MS) ;
+
+31l1l0	plomb	S
+
+#- zinc (1 200 mg/kg MS) ;
+
+32l1l0	zinc	S
+
+#- mercure (2,4 mg/kg MS) ;
+
+33l1l0	mercure	S
+
+#- HAP (1 634 mg/kg MS) dont somme 6 HAP (883 mg/kg MS) dont benzo(a)pyrène (270 mg/kg MS).
+
+34l1l0	__HAP	S
+34l1l1	somme_6_HAP	S
+34l1l2	benzo_a_pyrène	S
+
+#Ce rapport présente également un projet de réaménagement de la décharge entre mars et mai 2005 :
+
+35l0l0	un_projet	O
+35l0l1	de_réaménagement	N
+35l0l2	la_décharge	O
+35l0l3	entre_mars_et_mai_2005	T
+
+#- réalisation d'aménagements préliminaires (création d'une piste d'accès dont une en pied de talus de la décharge sur une longueur de 100 m environ, débroussaillage, enlèvement des monstres éparpillés en limite aval et aux alentours de la décharge) ;
+
+36l0l0	réalisation_d__aménagements	N
+36l0l1	préliminaires	O
+36l0l2	création_d_	N
+36l0l3	une_piste_d_	O
+36l0l4	en_pied_de_talus	O
+36l0l5	la_décharge	O
+36l0l6	100_m_environ	L
+36l0l7	__débroussaillage	N
+36l0l8	enlèvement	N
+36l0l9	en_limite_aval_et_aux_alentours_de_la_décharge	L
+
+#- reprofilage des talus (une risberme sera notamment placée à mi-pente du talus est sur trois m de large, afin d'en améliorer la stabilité) et de la plate-forme (consistant à donner une forme de dôme afin d'évacuer les eaux de ruissellement en périphérie de la décharge) ;
+
+37l0l0	reprofilage_des_talus	O
+37l0l1	une_risberme	O
+37l0l2	en_périphérie_de_la_décharge	L
+
+#- confinement de la surface du site (étanchéification de 10 500 m² de surface par mise en place d'un géocomposite bentonique comprenant un dispositif de drainage et d'évacuation des éventuels biogaz en surface ainsi qu'un système d'accroche de la terre végétale sur les talus) ;
+
+38l0l0	confinement	N
+38l0l1	étanchéification	N
+38l0l2	mise_en_place_d__un_géocomposite	N
+38l0l3	les_talus	O
+38l1l0	des_éventuels_biogaz	U
+
+#- création de fossés périphériques pour collecter les eaux de pluie (linéaire de 260 m) ;
+
+39l0l0	création_de_fossés_périphériques	O
+
+#- végétalisation de l'ensemble de la décharge efin de restaurer l'aspect visuel du site (mise en place d'une couche de 30 cm de terre végétale amendée par du fumier maturé puis d'une couverture herbacée à base de graminées associée à une arbustive à système racinaire traçant et non pivotant de manière à ne pas détériorer la membrane sous-jacente) ;
+
+40l0l0	végétalisation	N
+40l0l1	la_décharge	O
+40l0l2	efin_de	R
+40l0l3	restaurer	N
+40l0l4	mise_en_place	N
+
+#- création d'une voie d'accès sur la plate-forme pour assurer l'entretien du site à long terme ;
+
+41l0l0	création_d_	N
+41l0l1	une_voie_d__accès	O
+41l0l2	la_plate___forme	O
+41l0l3	l__entretien_du_site	N
+41l0l4	à_long_terme	T
+
+#- mise en place d'une clôture autour de la décharge pour en interdire l'accès.
+
+42l0l0	mise_en_place_d_	N
+42l0l1	une_clôture	O
+42l0l2	autour_de	L
+42l0l3	la_décharge	O
+42l0l4	interdire_l__accès	N
+
+#L'arrêté préfectoral du 7 avril 2005 entérine ces propositions de réaménagement et impose une surveillance des eaux souterraines 3 fois par an via un piézomètre sur les paramètres suivants : pH, résistivité, HCT, HAP, arsenic, chrome total, cuivre, plomb et nickel.
+
+43l0l0	L__arrêté_préfectoral	O
+43l0l1	7_avril_2005	T
+43l0l2	réaménagement	O
+43l0l3	impose	N
+43l0l4	une_surveillance_des_eaux_souterraines	A
+43l0l5	3_fois_par_an	T
+43l0l6	un_piézomètre	O
+43l1l0	HCT	S
+43l1l1	HAP	S
+43l1l2	arsenic	S
+43l1l3	chrome_total	S
+43l1l4	cuivre	S
+43l1l5	plomb	S
+43l1l6	nickel	S
+
+#La diagnostic complémentaire de juin 2005 (1 échantillon brut et 2 échantillons lixiviés), réalisé par GINGER ENVIRONNEMENT dans le cadre du chantier de réhabilitation en cours de réalisation et sur un secteur non encore étudié, confirme globalement les contaminations présentent dans les sols mais ne met principalement en évidence que des lixiviations en plomb (0,6  mg/kg MS) et en zinc (3,8 mg/kg MS).
+
+44l0l0	La_diagnostic_complémentaire	N
+44l0l1	de_juin_2005	T
+44l0l2	GINGER_ENVIRONNEMENT	O
+44l0l3	le_cadre	R
+44l0l4	du_chantier_de_réhabilitation	N
+44l0l5	en_cours_de_réalisation	N
+44l0l6	sur_un_secteur_non_encore_étudié	L
+44l0l7	lixiviations	N
+44l1l0	GINGER_ENVIRONNEMENT	I
+44l1l1	plomb	S
+44l1l2	en_zinc	S
+
+#L'arrêté préfectoral du 16 mai 2007 impose les servitudes d'utilités publiques suivantes :
+
+45l0l0	L__arrêté_préfectoral	O
+45l0l1	16_mai_2007	T
+45l0l2	impose	N
+45l0l3	les_servitudes_d__utilités_publiques	O
+
+#- interdiction de tout usage du sol ;
+
+
+#- interdiction de toute modification de l'état du sol et du sous-sol ;
+
+47l0l0	interdiction_de_toute_modification	N
+
+#- interdiction de tous travaux à l'exception de l'entretien du site (clôture, végétation, fossés de collecte, etc.) ;
+
+48l0l0	interdiction_de_tous_travaux	N
+48l0l1	l__entretien	N
+
+#- interdiction d'irriguer les terrains à l'exception de l'arrosage nécessaire en vue de maintenir la végétation superficielle pour pallier un défaut de précipitation atmosphérique ;
+
+49l0l0	interdiction_d__irriguer	N
+49l0l1	les_terrains	O
+
+#- interdiction de planter des arbres ou arbustes dont les racines sont susceptibles de descendre à une profondeur supérieure à 30 cm.
+
+50l0l0	interdiction_de_planter_des_arbres	N
+
+#La visite de récolement réalisée par l'inspection des installations classées le 19 juin 2007 permet de constater le bon achèvement des travaux.
+
+51l0l0	La_visite_de_récolement_réalisée	N
+51l0l1	l__inspection_des_installations_classées	O
+51l0l2	le_19_juin_2007	T
+51l0l3	achèvement_des_travaux	N
+
+#Quelques compléments sont néanmoins demandés dont les résultats de la surveillance des eaux souterraines.
+
+52l0l0	surveillance_des_eaux_souterraines	A

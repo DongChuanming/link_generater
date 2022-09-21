@@ -1,0 +1,255 @@
+
+#73.0144
+#La décharge communale de Bonneval-sur-Arc est localisée à l'entrée de la commune en bordure de la départementale RD902.
+
+0l0l0	La_décharge_communale	O
+0l0l1	Bonneval_sur_Arc	O
+0l0l2	localisée_à_l__entrée_de_la_commune_en_bordure_de_la_départementale_RD902__	L
+
+#Le site n'est pas clôturé et même s'il ne fait plus l'objet de dépôts communaux depuis au moins une dizaine d'années, il fait encore l'objet de dépôts sauvages de déchets verts.
+
+1l0l0	Le_site	O
+1l0l1	fait	N
+1l0l2	plus_l__objet_de	R
+1l0l3	dépôts_communaux	O
+1l0l4	depuis_au_moins_une_dizaine_d__années	T
+1l0l5	l__objet_de	R
+1l0l6	dépôts_sauvages_de_déchets_verts	O
+
+#Le site est implanté dans un environnement de milieux naturels constitués d'espaces boisés (forêt alluviale / ripisylve), de prairies humides et de landes.
+
+2l0l0	Le_site	O
+2l0l1	est_implanté_dans_un_environnement_de_milieux_naturels	N
+
+#Une zone humide est ainsi recensée par le Conservatoire du Patrimoine Naturel de Savoie directement au nord-est de l'ancienne décharge.
+
+3l0l0	Une_zone_humide	O
+3l0l1	le_Conservatoire_du_Patrimoine_Naturel_de_Savoie	O
+3l0l2	directement_au_nord_est_de_l__ancienne_décharge	L
+3l1l0	le_Conservatoire	I
+
+#Le site, d'une surface approximative de 2 500 m2, est limité :
+
+4l0l0	Le_site	O
+
+#- au nord et à l'ouest par l'Arc puis des terrains alluviaux ;
+
+5l0l0	à	L
+5l0l1	l__ouest	N
+
+#- au sud par la RD902 puis le versant nord de la montagne d'Andagne ;
+
+6l0l0	au_sud_par_la_RD902_puis_le_versant_nord_de_la_montagne_d__Andagne	L
+6l1l0	la_montagne_d_	U
+
+#- à l'est par une zone humide boisée, puis l'Arc.
+
+7l0l0	à_l__est	L
+7l0l1	une_zone_humide	O
+7l0l2	l__Arc	L
+
+#L'ensemble du site de la décharge a permis de stocker depuis 1977 :
+
+8l0l0	stocker	O
+8l0l1	depuis_1977	T
+
+#- les mâchefers issus de l'ancienne UIOM de Bonneval-sur-Arc (fiche BASOL n°73.0084) ;
+
+9l0l0	l__ancienne_UIOM	O
+9l0l1	de_Bonneval_sur_Arc	L
+
+#- des déchets encombrants ;
+
+10l1l0	des_déchets_encombrants	U
+
+#- des ordures ménagères brutes ;
+
+11l1l0	des_ordures_ménagères_brutes	U
+
+#- des déchets issus de démolition et de construction de bâtiments ;
+
+12l0l0	de_démolition	N
+12l0l1	de_construction_de_bâtiments	N
+12l1l0	des_déchets	U
+
+#- des déchets verts issus de tonte, de taille et d'abattage d'arbres.
+
+13l0l0	tonte	A
+13l0l1	d__abattage_d__arbres	N
+13l1l0	des_déchets_verts	U
+
+#Hormis le front actuel de dépôts de déchets verts et de déchets issus des travaux de démolition et de construction, d'une dimension d'environ 10 m par 5 m de largeur sur une hauteur de 2,5 m, le reste des anciens dépôts est intégralement végétalisé.
+
+14l0l0	le_front_actuel_de_dépôts_de_déchets_verts	O
+14l0l1	des_travaux_de_démolition	N
+14l0l2	de_construction	N
+
+#Des flaques d'effluents correspondant à la dégradation des matières organiques liées aux dépôts des déchets verts sont présentes à l'avant du front actuel des dépôts.
+
+15l0l0	Des_flaques	O
+15l0l1	à_l__avant_du_front	L
+
+#D'après la carte géologique du BRGM, le site repose sur les alluvions actuelles et récentes de l'Arc.
+
+16l0l0	BRGM	O
+16l0l1	le_site	O
+16l0l2	repose_sur	R
+16l0l3	les_alluvions_actuelles_et_récentes_de_l__Arc	L
+16l1l0	BRGM	I
+
+#Ces alluvions sont constituées de graviers, galets à blocs pouvant être emballés dans une matrice sableuse plus rarement limoneuse à argileuse.
+
+
+#La position du site en amont du bassin versant de l'Arc justifie des dépôts grossiers.
+
+18l0l0	La_position_du_site	O
+18l0l1	en_amont_du_bassin_versant_de_l__Arc	L
+
+#Ces alluvions abritent une nappe d'eau souterraine en relation directe avec l'Arc.
+
+19l0l0	relation_directe_avec_l__Arc	L
+
+#L’arrêté préfectoral du 19 décembre 2006 impose à la commune de Bonneval-sur-Arc la réalisation d’une étude de sol au droit du site.
+
+20l0l0	L__arrêté_préfectoral	O
+20l0l1	19_décembre_2006	T
+20l0l2	impose_à	R
+20l0l3	la_commune	O
+20l0l4	de_Bonneval_sur_Arc	L
+20l0l5	la_réalisation_d__une_étude_de_sol	N
+20l0l6	au_droit_du_site	L
+
+#L’arrêté préfectoral du 6 décembre 2010 met en demeure la commune de Bonneval-sur-Arc de faire réaliser cette étude.
+
+21l0l0	L__arrêté_préfectoral	O
+21l0l1	du_6_décembre_2010	T
+21l0l2	met_en_demeure	N
+21l0l3	la_commune	O
+21l0l4	de_Bonneval_sur_Arc	L
+21l0l5	de_faire_réaliser_cette_étude	N
+
+#Le 13 février 2012, le diagnostic environnemental de l’ancienne décharge, établi par BURGEAP, a été transmis à l’inspection des installations classées. 9 sondages à la pelle mécanique ont été réalisés sur le site, qui occupe une surface d’environ 2 500 m², à des profondeurs comprises entre 1,5 et 4 m.
+
+22l0l0	Le_13_février_2012__	T
+22l0l1	le_diagnostic_environnemental	N
+22l0l2	l__ancienne_décharge	O
+22l0l3	établi	N
+22l0l4	par_BURGEAP	O
+22l0l5	a_été_transmis	N
+22l0l6	l__inspection_des_installations_classées	O
+22l0l7	9_sondages_à_la_pelle_mécanique	O
+22l0l8	ont_été_réalisés	N
+22l0l9	sur_le_site	L
+22l1l0	BURGEAP	I
+
+#Les résultats d’analyses mettent en évidence des contaminations en :
+
+23l0l0	des_contaminations	O
+
+#- cadmium (9,64 mg/kg MS) ;
+
+24l1l0	cadmium	S
+
+#- cuivre (191 mg/kg MS) ;
+
+25l1l0	cuivre	S
+
+#- plomb (821 mg/kg MS) ;
+
+26l1l0	plomb	S
+
+#- zinc (2790 mg/kg MS) ;
+
+27l1l0	zinc	S
+
+#- mercure (37,3 mg/kg MS) ;
+
+28l1l0	mercure	S
+
+#- mercure sur éluât (0,062 mg/kg MS) ;
+
+29l1l0	mercure_sur_éluât	S
+
+#- antimoine sur éluât (0,062 mg/kg MS) ;
+
+30l1l0	antimoine	S
+
+#- fraction soluble (10 600 mg/kg MS) ;
+
+
+#- sulfates sur éluât (6230 mg/kg MS) ;
+
+32l1l0	sulfates_sur_éluât	S
+
+#- HCT (1 400 mg/kg MS) ;
+
+33l1l0	HCT	S
+
+#- PCB de type dioxine (6,8 ng/kg MS) ;
+
+34l1l0	PCB_de_type_dioxine	S
+
+#- dioxines et furannes TEQ (50,4 ng/kg MS).
+
+35l1l0	dioxines	S
+35l1l1	furannes_TEQ	S
+
+#Une analyse, effectuée sur un piézomètre en novembre 2011, n’a pas fait apparaître d’anomalie sur les paramètres analysés (HCT, HAP, arsenic, cadmium, chrome, cuivre, nickel, plomb, zinc, mercure).
+
+36l0l0	Une_analyse	N
+36l0l1	un_piézomètre	O
+36l0l2	en_novembre_2011__	T
+36l0l3	arsenic	O
+36l1l0	HCT	S
+36l1l1	HAP	S
+36l1l2	arsenic	S
+36l1l3	cadmium	S
+36l1l4	chrome	S
+36l1l5	cuivre	S
+36l1l6	nickel	S
+36l1l7	plomb	S
+36l1l8	zinc	S
+36l1l9	mercure	S
+
+#Suite à une visite du site le 21 juin 2012, l’inspecteur des installations classées demande à la commune de Bonneval-sur-Arc dans son rapport du 28 juin 2012 :
+
+37l0l0	Suite	R
+37l0l1	à_une_visite	N
+37l0l2	site	O
+37l0l3	le_21_juin_2012__	T
+37l0l4	l__inspecteur_des_installations_classées	O
+37l0l5	la_commune	O
+37l0l6	de_Bonneval_sur_Arc	O
+37l0l7	28_juin_2012	T
+
+#- de prévoir des solutions de substitution pour la collecte et le regroupement des déchets verts et de démolition ;
+
+38l0l0	la_collecte	N
+38l0l1	le_regroupement_des_déchets_verts	N
+38l0l2	démolition	O
+
+#- de condamner le site de manière efficace de façon à interdire tout nouveau dépôt ;
+
+
+#- la mise en place d’un réseau piézométrique permettant de juger de l’impact du massif de déchets sur les eaux souterraines ;
+
+40l0l0	la_mise_en_place_d_	N
+
+#- de réaliser des prélèvements et analyses des eaux souterraines semestriellement, en période de hautes et de basses eaux sur les paramètres suivants : HCT, HAP, métaux, PCB type dioxine, dioxines et furannes ;
+
+41l0l0	de_réaliser_des_prélèvements_et_analyses	N
+41l0l1	eaux_souterraines	O
+41l0l2	semestriellement	T
+41l0l3	en_période_de_hautes	T
+41l1l0	__HCT___HAP___métaux___PCB_type_dioxine___dioxines_et_furannes	S
+
+#- de proposer une solution de réhabilitation permettant la mise en sécurité à long terme du site en prenant en compte le risque d’embâcle des déchets en cas de forte crue de l’Arc.
+
+42l0l0	une_solution_de_réhabilitation	O
+42l0l1	permettant_la_mise_en_sécurité_à_long_terme	N
+42l0l2	l__Arc	L
+
+#L’inspecteur des installations classées note également que le brûlage de déchets à l’air libre constaté sur le site de l’ancienne décharge relève des pouvoirs de police du maire au titre notamment des articles L.2212-1 et L.2212-2 du Code Général des Collectivités Territoriales.
+
+43l0l0	brûlage_de_déchets_à_l__air	N
+43l0l1	maire	O

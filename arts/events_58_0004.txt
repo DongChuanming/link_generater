@@ -1,0 +1,218 @@
+
+#58.0004
+#Un abattoir de porcs a été créé sur le site en 1934.
+
+0l0l0	Un_abattoir_de_porcs	O
+0l0l1	a_été_créé	N
+0l0l2	sur_le_site	L
+0l0l3	en_1934	T
+
+#Il a été racheté en 1962 par la SA SOUBITEZ fabricant d'accessoires électriques pour automobiles et bicyclettes.
+
+1l0l0	Il	O
+1l0l1	a_été_racheté	N
+1l0l2	en_1962	T
+1l0l3	la_SA_SOUBITEZ	O
+1l0l4	fabricant_d__accessoires_électriques	A
+1l1l0	la_SA_SOUBITEZ	I
+
+#Elle y a exploité les activités de formage, emboutissage, traitement de surface et injection plastique.
+
+2l0l0	Elle	O
+2l0l1	a_exploité	N
+2l0l2	les_activités_de_formage	A
+2l0l3	emboutissage	N
+2l0l4	traitement_de_surface	A
+2l0l5	injection_plastique	A
+
+#Cette entreprise fut intégrée au groupe TAPIE, puis reprise par ses cadres.
+
+3l0l0	Cette_entreprise	O
+3l0l1	fut_intégrée_au	R
+3l0l2	groupe_TAPIE	O
+3l0l3	ses_cadres	O
+3l1l0	groupe_TAPIE	I
+
+#Le 20 avril 1991, un incendie a ravagé les locaux de production.
+
+4l0l0	Le_20_avril_1991	T
+4l0l1	un_incendie_a_ravagé_les_locaux_de_production	N
+
+#Il a notamment détruit des équipements électriques contenant des PCB.
+
+5l0l0	Il	O
+5l0l1	a_notamment_détruit	N
+5l0l2	des_équipements_électriques	O
+5l1l0	PCB	S
+
+#Un audit environnemental a été réalisé par DAMES et MOORE à la demande du groupe INCENTIVE qui a racheté le site en 1993.
+
+6l0l0	Un_audit_environnemental	N
+6l0l1	a_été_réalisé	N
+6l0l2	DAMES	O
+6l0l3	MOORE	O
+6l0l4	la_demande	N
+6l0l5	du_groupe_INCENTIVE	O
+6l0l6	a_racheté	N
+6l0l7	le_site	O
+6l0l8	en_1993	T
+6l1l0	DAMES_et_MOORE	I
+6l1l1	groupe_INCENTIVE	I
+
+#Celui-ci a mis en évidence une zone polluée par les métaux (anciens bassins de décantation des eaux issues du traitement de surface), divers petits emplacements chargés d'hydrocarbures et le dépôt des gravats de démolition après l'incendie de 1991.
+
+7l0l0	une_zone_polluée	O
+7l0l1	traitement_de_surface	O
+7l0l2	le_dépôt_des_gravats	O
+7l0l3	de_démolition	N
+7l0l4	après	R
+7l0l5	l__incendie	N
+7l0l6	de_1991	T
+7l1l0	les_métaux	S
+7l1l1	hydrocarbures	S
+
+#Fin 1999, le groupe INCENTIVE a revendu l'usine à la Société BASTA FRANCE.
+
+8l0l0	Fin_1999__	T
+8l0l1	le_groupe_INCENTIVE	O
+8l0l2	a_revendu	N
+8l0l3	l__usine	O
+8l0l4	la_Société_BASTA_FRANCE	O
+8l1l0	le_groupe_INCENTIVE	I
+8l1l1	la_Société_BASTA_FRANCE	I
+
+#L'unité de production est située sur le territoire des communes de Clamecy et Rix.
+
+9l0l0	L__unité_de_production	O
+9l0l1	est_située_sur_le_territoire_des_communes_de_Clamecy_et_Rix	L
+
+#L'activité principale exercée au droit du site est l'étude et la fabrication d'éclairages pour cycles, par transformation de matières plastiques et assemblage de produits.
+
+10l0l0	l__étude_et_la_fabrication_d__éclairages_pour_cycles	A
+10l0l1	transformation_de_matières_plastiques_et_assemblage_de_produits	A
+
+#Suite à l'arrêt définitif de son atelier de chromage, intervenu à la fin de l'année 2004, la Société BASTA a fait parvenir à la Préfecture de la Nièvre, en date du 14 juin 2006, un dossier en vue de la régularisation administrative de ses activités toujours exploitées à son usine de Beaulieu.
+
+11l0l0	Suite_à	R
+11l0l1	l__arrêt_définitif	N
+11l0l2	son_atelier_de_chromage	A
+11l0l3	à_la	N
+11l0l4	fin_de_l__année_2004__	T
+11l0l5	la_Société_BASTA	O
+11l0l6	a_fait_parvenir	N
+11l0l7	la_Préfecture_de_la_Nièvre	O
+11l0l8	en_date_du_14_juin_2006__	T
+11l0l9	un_dossier	O
+11l0l10	la_régularisation_administrative	O
+11l0l11	ses_activités_toujours_exploitées	N
+11l0l12	à_son_usine_de_Beaulieu	L
+11l1l0	la_Société_BASTA	I
+
+#L'examen de ce dossier a fait apparaitre que les installations classées pour la protection restantes au droit du site n'étaient plus soumises à autorisation mais à simple déclaration.
+
+12l0l0	les_installations_classées	O
+12l0l1	la_protection_restantes	O
+12l0l2	au_droit_du_site	L
+12l0l3	plus_soumises_à_autorisation	N
+12l0l4	simple_déclaration	N
+
+#l'activité de traitement de surface a eu un impact avéré sur l'environnement et en particulier sur la qualité des eaux superficielles et souterraines.
+
+13l0l0	l_	N
+13l0l1	activité_de_traitement_de_surface	O
+13l0l2	a_eu_un_impact	N
+13l0l3	l__environnement	O
+13l0l4	la_qualité_des_eaux_superficielles	O
+
+#Par ailleurs, suite à un incendie en 1991 qui avait entrainé la destruction de l'ensemble des installations de l'usine et notamment des équipements contenant des PCB (polychlorobiphényles), plusieurs zones contaminées avaient été identifiées à cette époque (anciens bassins de décantation pollués en métaux, petits emplacements divers pollués en hydrocarbures et un dépôt de gravât souillé par l'incendie présentant des traces de PCB).
+
+14l0l0	suite_à	R
+14l0l1	un_incendie	N
+14l0l2	en_1991	T
+14l0l3	entrainé_la_destruction	N
+14l0l4	l__ensemble_des_installations_de_l__usine	O
+14l0l5	plusieurs_zones_contaminées	O
+14l0l6	avaient_été_identifiées	N
+14l0l7	à_cette_époque	T
+14l0l8	anciens_bassins_de_décantation_pollués	O
+14l1l0	des_PCB	S
+14l1l1	polychlorobiphényles	S
+14l1l2	métaux	S
+14l1l3	hydrocarbures	S
+14l1l4	dépôt	D
+14l1l5	PCB	S
+
+#Toutes les zones concernées ont fait l'objet d'investigations particulières.
+
+15l0l0	Toutes_les_zones_concernées	O
+15l0l1	ont_fait_l__objet_d_	R
+15l0l2	investigations	N
+15l0l3	particulières	O
+
+#Les terres les plus polluées ont été excavé&es puis évacuées, les bassins ont fait l'objet d'un traitement in situ afin de les rendre étanches et le stock de gravats a été confiné sous un mètre d'argile.
+
+16l0l0	Les_terres_les_plus_polluées	O
+16l0l1	ont_été_excavé_es	N
+16l0l2	évacuées	O
+16l0l3	les_bassins	O
+16l0l4	ont_fait_l__objet_d_	R
+16l0l5	un_traitement_in_situ	N
+16l0l6	le_stock_de_gravats	O
+16l0l7	a_été_confiné	N
+
+#Enfin, une surveillance du site a été mise en place afin de contrôler la qualité des eaux souterraines au droit du site.
+
+17l0l0	une_surveillance	A
+17l0l1	site	O
+17l0l2	a_été_mise_en_place	N
+17l0l3	contrôler	A
+17l0l4	la_qualité_des_eaux_souterraines	O
+17l0l5	au_droit_du_site	L
+
+#Cette surveillance, prescrite dans l'arrêté préfectoral d'autorisation de 1994 était réalisée jusqu'en 2009 de façon semestrielle.
+
+18l0l0	Cette_surveillance	A
+18l0l1	prescrite_dans	R
+18l0l2	l__arrêté_préfectoral	O
+18l0l3	d__autorisation	O
+18l0l4	1994	T
+18l0l5	était_réalisée	N
+18l0l6	jusqu__en_2009	T
+
+#Les paramètres analysés étaient les hydrocarbures totaux, les PCB, le trichloroéthane et les hydrocarbures aromatiques polycycliques.
+
+19l1l0	hydrocarbures_totaux	S
+19l1l1	les_PCB	S
+19l1l2	le_trichloroéthane	S
+19l1l3	hydrocarbures_aromatiques_polycycliques	S
+
+#Le dossier de cessation d'activité parvenu à l'inspection des installations classées en 2006 a fait ressortir que la qualité des sols ne semblait pas affecté; néanmoins il précisait que les analyses des eaux souterraines réalisées au fil des années (depuis 1995) indiquaient des traces de nickel, de phénol, d'hydrocarbures et plus particulièrement de chrome à une teneur supérieure à la valeur réglementaire de potabilité des eaux à destinées à la consommation humaines.
+
+20l0l0	Le_dossier	O
+20l0l1	de_cessation_d__activité	N
+20l0l2	l__inspection_des_installations_classées	O
+20l0l3	en_2006	T
+20l0l4	des_années	T
+20l0l5	depuis_1995	T
+20l1l0	nickel	S
+20l1l1	phénol	S
+20l1l2	d__hydrocarbures	S
+20l1l3	chrome	S
+
+#29 janvier 2010: par arrêté préfectoral portant prescriptions complémentaires, la société BASTA FRANCE était tenue de respecter les exigences suivantes en matière de surveillance du site:
+
+21l0l0	29_janvier_2010__	T
+21l0l1	par_arrêté_préfectoral	O
+21l0l2	la_société_BASTA_FRANCE	O
+21l0l3	était_tenue_de_respecter	N
+21l0l4	surveillance_du_site	A
+21l1l0	la_société_BASTA_FRANCE	I
+
+#- Les prélèvements et analyses des eaux souterraines devaient être réalisés via 3 piézomètres
+
+22l0l0	Les_prélèvements_et_analyses	N
+
+#- la fréquence des campagnes de surveillance devait être semestrielle.
+
+23l0l0	la_fréquence	O
+23l0l1	campagnes_de_surveillance	A

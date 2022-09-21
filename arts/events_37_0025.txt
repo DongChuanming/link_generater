@@ -1,0 +1,326 @@
+
+#37.0025
+#SITUATION ADMINISTRATIVE
+
+
+#La société TOTAL a été autorisée à exploiter les installations de la station service située 163 avenue Maginot sur la commune de Tours, par récépissés n°10487 du 13 mars 1972 et n°12710 du 25 août 1985.
+
+1l0l0	La_société_TOTAL	O
+1l0l1	a_été_autorisée_à_exploiter	N
+1l0l2	les_installations	O
+1l0l3	la_station_service_située	O
+1l0l4	163_avenue_Maginot_sur_la_commune_de_Tours	L
+1l0l5	récépissés	O
+1l0l6	du_13_mars_1972	T
+1l0l7	25_août_1985__	T
+1l1l0	La_société_TOTAL	I
+
+#Par courrier du 10 décembre 2007, l’exploitant a notifié à Monsieur le Préfet d’Indre-et-Loire la cessation de ses activités depuis le 1er août 2006.
+
+2l0l0	10_décembre_2007__	T
+2l0l1	l__exploitant	O
+2l0l2	a_notifié	N
+2l0l3	Monsieur_le_Préfet_d__Indre_et_Loire	O
+2l0l4	la_cessation_de_ses_activités	N
+2l0l5	depuis_le_1er_août_2006__	T
+2l1l0	le_Préfet	I
+
+#Par courrier du 20 décembre 2007, Monsieur le Préfet a pris acte de la cessation d’activité.
+
+3l0l0	20_décembre_2007__	T
+3l0l1	Monsieur_le_Préfet	O
+3l0l2	a_pris_acte	N
+3l0l3	la_cessation_d__activité	N
+3l1l0	le_Préfet	I
+
+#CONTEXTE DU SITE
+
+
+#Dans une étude réalisée en 2005, le bureau d’études SERPOL, missionné par la société TOTAL, a précisé la vulnérabilité du milieu environnant la station service.
+
+5l0l0	Dans	R
+5l0l1	une_étude_réalisée	N
+5l0l2	en_2005__	T
+5l0l3	le_bureau_d__études_SERPOL	O
+5l0l4	missionné	N
+5l0l5	société_TOTAL	O
+5l0l6	a_précisé	N
+5l0l7	la_vulnérabilité_du_milieu_environnant	O
+5l0l8	la_station_service	O
+5l1l0	SERPOL	I
+5l1l1	la_société_TOTAL	I
+
+#Parmi les éléments recensés, soulignons :
+
+
+# l’implantation en zone urbaine de la station service ;
+
+7l0l0	l_	N
+7l0l1	implantation_en_zone_urbaine	L
+7l0l2	la_station_service	O
+
+# la présence au droit du site de 3 nappes potentiellement vulnérables ( nappe du calcaire de Touraine à partir de 10 m de profondeur, nappe de la Craie en relation avec celle précédente, nappes alluviales de la Loire ayant des relations hydrauliques possibles avec celles précitées) ;
+
+8l0l0	au_droit_du_site	L
+8l0l1	3_nappes	O
+8l0l2	la_Loire	L
+
+# en aval hydraulique présumé (vers le Sud) du site :
+
+9l0l0	aval_hydraulique_présumé__	O
+9l0l1	vers_le_Sud	L
+
+#- à plus de 2,5 km, deux captages AEP ;
+
+10l0l0	2_5_km	L
+10l0l1	deux_captages_AEP	O
+
+#- plusieurs captages privés dont un à 650 m, à 14m de profondeur ;
+
+11l0l0	plusieurs_captages	O
+11l0l1	un	O
+11l0l2	à_650_m	L
+
+#- un usage sensible de la Loire (pêche).
+
+12l0l0	un_usage_sensible	O
+12l0l1	la_Loire	L
+
+#De ce qui précède, il ressort que l’environnement du site peut être considéré comme vulnérable.
+
+
+#INVESTIGATIONS MENEES DE 2006 A 2008
+
+14l0l0	INVESTIGATIONS_MENEES	N
+14l0l1	DE_2006_A_2008	T
+
+#Dans le cadre du démantèlement des installations, des prélèvements en fond et flancs de fouille ont été effectués et analysés.
+
+15l0l0	Dans_le_cadre_du	R
+15l0l1	démantèlement_des_installations	N
+15l0l2	fond	O
+15l0l3	ont_été_effectués	N
+
+#Eu égard au constat d’impact en hydrocarbures, notamment au niveau de l’ancienne cuve de 7,5m3 de SP98 et de celle de Fuel domestique de 1,5m3, et en xylène au niveau de l’ancien séparateur d’hydrocarbures encastré au niveau du trottoir, plusieurs opérations d’excavations de terres ont été effectuées.
+
+16l0l0	Eu_égard_au	R
+16l0l1	constat	N
+16l0l2	hydrocarbures	O
+16l0l3	7_5m3_de_SP98	A
+16l0l4	celle_de_Fuel_domestique	O
+16l0l5	1_5m3	O
+16l0l6	au_niveau_du_trottoir	L
+16l0l7	plusieurs_opérations_d__excavations_de_terres	N
+16l0l8	ont_été_effectuées	N
+16l1l0	hydrocarbures	S
+16l1l1	cuve	D
+16l1l2	SP98	S
+16l1l3	Fuel_domestique	S
+16l1l4	xylène	S
+16l1l5	hydrocarbures	S
+
+#Celles-ci n’ont pu être approfondies en raison des risques d’effondrement du trottoir ou du mur voisin.
+
+17l0l0	mur_voisin	O
+
+#Par la suite de nouveaux prélèvements ont été effectués.
+
+18l0l0	ont_été_effectués	N
+
+#Les résultats d’analyse des sols ont mis en évidence :
+
+
+#- Pour les BTEX (Benzène, Toluène, Ethlybenzène, Xylène) : une concentration maximale en xylène de 2,3 mg / kg de matière sèche (MS) et en éthylbenzène de 0,3 mg / kg MS, au droit de l’ancien séparateur d’hydrocarbures ;
+
+20l1l0	les_BTEX	S
+20l1l1	Benzène	S
+20l1l2	Toluène	S
+20l1l3	Ethlybenzène	S
+20l1l4	Xylène	S
+20l1l5	xylène	S
+20l1l6	éthylbenzène	S
+20l1l7	hydrocarbures	S
+
+#- Pour les hydrocarbures : une concentration de 780 mg / kg MS (ancienne cuve de 7,5 m3 de SP98), entre 4,5 et 5,7 m de profondeur, principalement due aux hydrocarbures aliphatiques à chaîne longue de la fraction C21-C35 ; toutefois, la pollution n’a pu être dimensionnée verticalement du fait d’un refus de sondage à 5,7 m de profondeur.
+
+21l0l0	de_profondeur	L
+21l1l0	hydrocarbures	S
+21l1l1	SP98	S
+21l1l2	hydrocarbures_aliphatiques	S
+
+#Les résultats d’analyse des gaz des sols ont mis en évidence :
+
+
+#- Au niveau de l’ancien séparateur d’hydrocarbures : des teneurs significatives en xylène (23,23 mg/m3) et en éthylbenzène (9,10 mg/m3) et une concentration élevée en hydrocarbures (658,45 mg/m3 à 3,5 m de profondeur et 355,69 mg/m3 à 1,5 m, majoritairement aliphatiques de la fraction C5-C8) ;
+
+23l1l0	d__hydrocarbures	S
+23l1l1	xylène	S
+23l1l2	éthylbenzène	S
+23l1l3	hydrocarbures	S
+23l1l4	majoritairement_aliphatiques	S
+23l1l5	C5_C8	S
+
+#- Au droit de l’ancienne cuve de SP98 : une teneur significative en benzène (20,16 mg/m3) et une concentration significative en hydrocarbures (110,7 mg/m3 à 3,5 m de profondeur, majoritairement aliphatiques de la fraction C6-C12).
+
+24l1l0	cuve_de	D
+24l1l1	SP98	S
+24l1l2	benzène	S
+24l1l3	hydrocarbures	S
+24l1l4	majoritairement_aliphatiques	S
+24l1l5	C6_C12	S
+
+#CONCLUSIONS DE L’ANALYSE DES RISQUES RESIDUELS
+
+25l0l0	RISQUES_RESIDUELS	O
+25l1l0	RISQUES_RESIDUELS	I
+
+#Sur la base des résultats présentés ci-dessus, l’exploitant a réalisé une analyse des risques résiduels pour la santé humaine, prenant en compte comme usages futurs: immeuble collectif à usage d’habitation (avec parking souterrain et espaces verts) – maison individuelle (avec jardin et sans potager).
+
+26l0l0	l__exploitant	O
+26l0l1	a_réalisé	N
+26l0l2	une_analyse	N
+
+#La zone d’implantation du futur bâtiment est considérée au droit de l’ancienne cuve SP98 et aucune construction n’est envisagée à l’emplacement de l’ancien séparateur d’hydrocarbures.
+
+27l0l0	La_zone_d__implantation	O
+27l0l1	du_futur_bâtiment	O
+27l0l2	au_droit	L
+27l1l0	cuve_SP98	I
+27l1l1	hydrocarbures	S
+
+#Les valeurs obtenuees sont inférieures aux seuils de référence à savoir 1 pour les effets non cancérigènes et 1.10-5 pour ceux cancérigènes.
+
+28l1l0	non_cancérigènes	U
+
+#Par conséquent, l’exploitant a conclu à la compatibilité des teneurs résiduelles en hydrocarbures et BTEX, avec les usages futurs retenus.
+
+29l0l0	l__exploitant	O
+29l0l1	les_usages_futurs_retenus	O
+29l1l0	hydrocarbures	S
+29l1l1	BTEX	S
+
+#Néanmoins , à la lecture des éléments techniques transmis par l’exploitant, il est apparu que l’analyse des risques résiduels était incomplète puisqu’elle ne retenait pas la voie d’exposition « ingestion de l’eau », voie qui ne pouvait être exclue, la démonstration de l’invulnérabilité de la nappe d’eaux souterraines n’étant pas faite.
+
+30l0l0	l__exploitant	O
+30l0l1	invulnérabilité	N
+30l0l2	la	O
+30l0l3	nappe_d__eaux	A
+
+#De plus, il semblait nécessaire de compléter le diagnostic, en démontrant, notamment, l’absence de risques pour les occupants des maisons voisines.
+
+31l0l0	compléter	N
+31l0l1	le_diagnostic	N
+
+#De fait, par arrêté préfectoral complémentaire n°18651 du 22 septembre 2009, il a été prescrit la réalisation d’investigations complémentaires afin de préciser les sources de pollution à proximité et/ou au droit du site et des habitations riveraines ainsi que le contexte hydrogéologique local.
+
+32l0l0	par_arrêté_préfectoral_complémentaire	O
+32l0l1	du_22_septembre_2009__	T
+32l0l2	il_a_été_prescrit	N
+32l0l3	la_réalisation_d__investigations_complémentaires	N
+32l0l4	préciser_les_sources_de_pollution_à_proximité_et__	O
+32l0l5	ou_au_droit_du_site	L
+32l0l6	habitations_riveraines	L
+32l0l7	le_contexte_hydrogéologique	N
+
+#Ces investigations devaient inclure une surveillance piézométrique semestrielle du site et la mise à jour de l’analyse des risques résiduels susmentionnée.
+
+33l0l0	Ces_investigations	N
+33l0l1	une_surveillance_piézométrique_semestrielle	A
+33l0l2	la_mise_à_jour	N
+
+#INVESTIGATIONS MENEES EN 2009
+
+34l0l0	INVESTIGATIONS_MENEES	N
+34l0l1	EN_2009	T
+
+#Dans son avis du 14 août 2009, l’hydrogéologue agréé avait indiqué qu’il était fort probable que des piézomètres à 15 m de profondeur permettent de capter la nappe d’eaux souterraines.
+
+35l0l0	Dans	L
+35l0l1	son	N
+35l0l2	14_août_2009__	T
+
+#Par conséquent, le 25 novembre 2009, l’exploitant a fait procéder à l’implantation d’un piézomètre entre l’emplacement de l’ancienne cuve de SP98 et le mur des habitations voisines .
+
+36l0l0	le_25_novembre_2009__	T
+36l0l1	l__exploitant	O
+36l0l2	a_fait_procéder	N
+36l0l3	à	R
+36l0l4	l__implantation_d__un_piézomètre	N
+36l0l5	le_mur_des_habitations_voisines	L
+36l1l0	cuve	D
+36l1l1	de_SP98	U
+
+#Il a été constaté la présence d’une couche d’argiles entre 1m et 6m de profondeur puis une alternance d’argiles et de calcaire jusqu’à 15m de profondeur.
+
+
+#Aucune arrivée d’eau n’a été constatée.
+
+
+#Rappelons que lors des précédentes investigations, menées à 10m de profondeur, aucune arrivée d’eau n’avait été relevée.
+
+39l0l0	lors	T
+39l0l1	des_précédentes_investigations	N
+39l0l2	10	O
+39l0l3	m_de_profondeur	N
+
+#L’exploitant a donc stoppé les travaux et conservé l’étude des risques sanitaires susmentionnée en l’état.
+
+40l0l0	L__exploitant	O
+40l0l1	a_donc_stoppé_les_travaux	N
+40l0l2	conservé_l__étude_des_risques_sanitaires	N
+
+#Néanmoins, pour les usagers hors site, l'exploitant dans son rapport transmis le 1er juin 2010, a rappelé que le risque par inhalation d’air intérieur dans les maisons voisines est négligeable, la contamination ayant été délimitée horizontalement et la voie de migration via les eaux souterraines ayant été abandonnée.
+
+41l0l0	les_usagers_hors_site	O
+41l0l1	l__exploitant	O
+41l0l2	le_1er_juin_2010__	T
+41l0l3	inhalation_d__air	A
+41l0l4	les_maisons_voisines	O
+41l0l5	la_contamination	O
+41l0l6	ayant_été	N
+41l0l7	abandonnée	O
+
+#Les investigations réalisées en 2009 ont donc permis de confirmer les hypothèses sur lesquelles l’analyse des risques résiduels a été élaborée et, par conséquent, ses conclusions : il n’y a pas de dépassements des seuils réglementaires, pour un immeuble collectif à usage d’habitation (avec parking souterrain et espaces verts) et une maison individuelle (avec jardin et sans potager), qui seraient implantés au droit des zones contaminées.
+
+42l0l0	Les_investigations_réalisées	N
+42l0l1	en_2009	T
+42l0l2	une_maison	O
+42l0l3	implantés_au_droit_des_zones_contaminées	L
+
+#Par conséquent, par courrier du 26 août 2010 Monsieur le Préfet a pris acte de la cessation d’activité de la station service TOTAL située avenue Maginot à Tours, en indiquant à l’exploitant :
+
+43l0l0	26_août_2010	T
+43l0l1	Monsieur_le_Préfet	O
+43l0l2	a_pris_acte	N
+43l0l3	la_cessation_d__activité	N
+43l0l4	la_station_service_TOTAL	O
+43l0l5	située_avenue_Maginot_à_Tours	L
+43l0l6	l__exploitant	O
+43l1l0	le_Préfet	I
+43l1l1	la_station_service_TOTAL	I
+
+#- que seul un usage futur du site comparable à celui de la dernière période d'exploitation de l'installation est envisageable, à savoir industriel ;
+
+44l0l0	un_usage_futur_du_site	O
+
+#- qu’en cas de modification ultérieure de l'usage du site, en application de l’article R. 166-66-2 du Code de l’Environnement, il ne peut se voir imposer de mesures complémentaires induites par ce nouvel usage sauf s'il en est lui-même à l'initiative ;
+
+45l0l0	qu__en_cas	R
+45l0l1	de_modification	N
+45l0l2	ultérieure	O
+45l0l3	usage_du_site	A
+45l0l4	il	O
+45l0l5	ne_peut_se_voir_imposer_de_mesures	N
+
+#- qu’il doit informer par écrit le maire de Tours de la cessation d’activité du site, de son état et de son usage futur retenu.
+
+46l0l0	il	O
+46l0l1	doit_informer_par_écrit	N
+46l0l2	le_maire_de_Tours	O
+46l0l3	la_cessation_d__activité	N
+46l0l4	site	O
+46l0l5	son_état_et_de_son_usage_futur_retenu	O
+46l1l0	le_maire	I
+
+#Il veillera à vous adresser copie de ce courrier.
+

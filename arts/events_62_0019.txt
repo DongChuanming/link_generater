@@ -1,0 +1,204 @@
+
+#62.0019
+#- Ce site est localisé au centre de la commune de Corbehem, le long de la Scarpe (rive gauche), à l'endroit où le canal de dérivation de la Sensée rejoint la Scarpe.
+
+0l0l0	Ce_site	O
+0l0l1	localisé_au_centre_de_la_commune_de_Corbehem	L
+0l0l2	le_long_de_la_Scarpe___rive_gauche	L
+0l0l3	à_l__endroit	L
+0l0l4	le_canal_de	O
+0l0l5	dérivation_de_la_Sensée	A
+0l0l6	rejoint_la_Scarpe	L
+
+#- La surface du site est de 7 hectares.
+
+
+#- Actuellement, le site ne comprend plus aucun bâtiment.
+
+2l0l0	le_site	O
+
+#Ce site a fait l'objet d'une activité industrielle depuis le milieu du 19ème siècle.
+
+3l0l0	Ce_site	O
+3l0l1	a_fait_l__objet_d_	R
+3l0l2	une_activité_industrielle	A
+3l0l3	depuis_le_milieu_du_19ème_siècle__	T
+
+#Ce site était connu sous le nom des établissements PAIX puis de l'usine GERLAND.
+
+4l0l0	Ce_site	O
+4l0l1	était_connu_sous_le_nom	N
+4l0l2	des_établissements_PAIX	O
+4l0l3	l__usine_GERLAND	O
+
+#Différents exploitants se sont succédés, le dernier en date étant l'entreprise BP FRANCE.
+
+5l0l0	Différents_exploitants	O
+5l0l1	se_sont_succédés	N
+5l0l2	l__entreprise_BP_FRANCE	O
+5l1l0	l__entreprise_BP_FRANCE	I
+
+#Ce site est situé à proximité immédiate de l'ancienne raffinerie de pétrole de COURCHELETTES(59).
+
+6l0l0	Ce_site	O
+6l0l1	est_situé_à_proximité_immédiate_de_l__ancienne_raffinerie_de_pétrole_de_COURCHELETTES_59	O
+6l1l0	pétrole	U
+6l1l1	COURCHELETTES_59	I
+
+#Certains produits issus du raffinage du pétrole étaient transformés sur le site de Corbehem.  Ont notamment été produits sur site :
+
+7l0l0	Certains_produits	O
+7l0l1	raffinage_du_pétrole	A
+7l0l2	étaient_transformés	N
+7l0l3	Corbehem	L
+
+#- huiles raffinées ;
+
+
+#- vaseline (pour le secteur de la pharmacie et le secteur industriel) ;
+
+9l0l0	le_secteur_de_la_pharmacie	A
+9l1l0	vaseline	S
+
+#- produits à base de graisses ;
+
+
+#- colles ;
+
+
+#- polymères ;
+
+
+#- détergents non ioniques.
+
+13l1l0	détergents_non_ioniques	S
+
+#Ce site a été impacté par l'utilisation de produits issus de la transformation du pétrole sur site, d'autant que l'activité a commencé il y a plus d'un siècle.
+
+14l0l0	Ce_site	O
+14l0l1	a_été_impacté	N
+14l0l2	l__utilisation_de_produits_issus_de_la_transformation_du_pétrole	A
+14l0l3	sur_site	L
+14l0l4	l__activité	O
+14l0l5	a_commencé	N
+14l0l6	il_y_a_plus_d__un_siècle__	T
+
+#L'activité s'est arrêtée fin des années 1990, à la suite de quoi les bâtiments ont été détruits et une dépollution des sols a été réalisée.
+
+15l0l0	L__activité	O
+15l0l1	s__est_arrêtée	N
+15l0l2	fin_des_années_1990__	T
+15l0l3	à_la_suite_de	R
+15l0l4	quoi_les_bâtiments	O
+15l0l5	ont_été_détruits	N
+15l0l6	une_dépollution	N
+15l0l7	des_sols	N
+15l0l8	a_été_réalisée	N
+
+#Les limites de la dépollution sont les suivantes : - la dépollution s'est arrêtée au moment où la nappe phréatique est atteinte, sachant que celle-ci est affleurante sur le site – le périmètre pris en compte est le périmètre du site – les terrains situés trop proches de la Scarpe canalisée n'ont pas pu faire l'objet d'une dépollution.
+
+16l0l0	la_dépollution	N
+16l0l1	la_dépollution	N
+16l0l2	s__est_arrêtée	N
+16l0l3	au_moment_où	T
+16l0l4	la_nappe_phréatique	O
+16l0l5	les_terrains	O
+16l0l6	situés_trop_proches_de_la_Scarpe_canalisée	L
+16l0l7	n__ont_pas_pu	N
+16l0l8	faire_l__objet	R
+16l0l9	d__une_dépollution	N
+
+#Le mémoire de cessation d'activité a mis en évidence 3 zones impactées aux hydrocarbures et 2 zones impactées aux solvants.
+
+17l0l0	cessation_d__activité	N
+17l0l1	a_mis_en_évidence	R
+17l0l2	3_zones_impactées	O
+17l0l3	2_zones_impactées	O
+17l1l0	hydrocarbures	S
+
+#Les parties qui ont pu être excavées de ces 5 zones ont été traitées sur site par un procédé dit "biopile" (dégradation de la pollution en hydrocarbures et solvants présente dans les terres grâce aux bactéries dans le sol et dont l'activité est accélérée par ajout d'oxygène et de nutriments).
+
+18l0l0	Les_parties	O
+18l0l1	ces_5_zones	O
+18l0l2	ont_été_traitées	N
+18l1l0	hydrocarbures	S
+
+#Le pollution résiduelle des sols montre, à certains endroits, une concentration élevée en :
+
+
+#métaux lourds : arsenic, cuivre, mercure, plomb
+
+20l0l0	arsenic	O
+20l1l0	métaux_lourds	S
+20l1l1	arsenic	S
+20l1l2	cuivre	S
+20l1l3	mercure	S
+20l1l4	plomb	S
+
+#hydrocarbures totaux
+
+21l1l0	hydrocarbures_totaux	S
+
+#HAP (hydrocarbures aromatiques polycycliques)
+
+22l0l0	HAP	O
+22l1l0	HAP	S
+22l1l1	hydrocarbures_aromatiques_polycycliques	S
+
+#BTEX (benzene, toluene, ethylbenzene, xylene)
+
+23l1l0	BTEX___benzene	S
+23l1l1	toluene	S
+23l1l2	ethylbenzene	S
+23l1l3	xylene	S
+
+#cyclohexane
+
+24l1l0	cyclohexane	S
+
+#L'exploitant a effectué un suivi piezométrique des eaux souterraines.
+
+25l0l0	L__exploitant	O
+25l0l1	a_effectué	N
+25l0l2	un_suivi_piezométrique_des_eaux_souterraines	A
+
+#Ce suivi, déterminé par l'exploitant en application des directives déterminées par le ministère, a montré l'absence d'impact du site sur les eaux souterraines.
+
+26l0l0	Ce_suivi	N
+26l0l1	l__exploitant	O
+26l0l2	le_ministère	O
+26l0l3	les_eaux_souterraines	O
+
+#Après plusieurs années de stabilité de ce suivi, la surveillance des eaux souterraines a été arrêtée et les piezomètres ont été comblés conformément aux règles de l'art.
+
+27l0l0	Après	R
+27l0l1	plusieurs_années_de_stabilité	N
+27l0l2	suivi	A
+27l0l3	la_surveillance	A
+27l0l4	des_eaux_souterraines	O
+27l0l5	a_été_arrêtée	N
+27l0l6	les_piezomètres	O
+27l0l7	ont_été_comblés	N
+27l0l8	conformément_aux	R
+27l0l9	règles_de_l__art	O
+
+#Eu égard aux restrictions d'usage liées à l'usage futur de ce site (parking et voie de circulation après mise en place d'enrobés, espaces verts après mise en place d'une couche de terres propres d'une épaisseur de 30 cm), eu égard à la présence de pollutions sur site non traitées car trop proches du canal, eu égard à la présence ponctuelle de concentrations élevées en polluant à différents endroits du site, un arrêté de servitudes d'utilité publique a été pris sur l'ensemble du site afin d'encadrer les activités futures sur ce site et garder la mémoire de l'impact des activités passées.
+
+28l0l0	Eu_égard_aux	R
+28l0l1	restrictions_d__usage	O
+28l0l2	liées_à	R
+28l0l3	l__usage_futur	N
+28l0l4	ce_site	O
+28l0l5	voie_de_circulation_après	O
+28l0l6	mise_en_place_d__enrobés	N
+28l0l7	mise_en_place_d_	N
+28l0l8	la_présence_de_pollutions	O
+28l0l9	trop_proches_du_canal	L
+28l0l10	un_arrêté_de_servitudes_d__utilité_publique	O
+28l0l11	a_été_pris	N
+28l0l12	d__encadrer	R
+28l0l13	les_activités_futures	N
+28l0l14	sur	L
+28l0l15	ce_site	O
+28l0l16	l_	N
+28l0l17	impact_des_activités_passées	O

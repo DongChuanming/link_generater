@@ -1,0 +1,283 @@
+
+#57.0118
+#Les couches de minerai de fer autrefois affleurantes ont conduit à la création à Hagondange, d’une vaste usine sidérurgique sur un terrain d’un seul tenant de 435 ha.
+
+0l0l0	ont_conduit_à	R
+0l0l1	la_création	N
+0l0l2	à_Hagondange	L
+0l0l3	une_vaste_usine_sidérurgique	O
+
+#L’ensemble  sidérurgique, constitué d’une usine et de sa cokerie comprenait :
+
+1l0l0	__sidérurgique	O
+1l0l1	__constitué_d_	R
+1l0l2	une_usine	O
+1l0l3	de_sa	O
+1l0l4	cokerie_comprenait	R
+
+#-	Une cokerie d’une surface d’environ 18 ha (gazomère, batterie de fours et ateliers de traitement des sous-produits)
+
+2l0l0	traitement_des_sous_produits	A
+2l1l0	gazomère	S
+2l1l1	sous_produits	U
+
+#-	Une usine sidéurgique comprenant 6 hauts-fourneaux, 2 mélangeurs, 5 convertisseurs Thomas, une aciérie Martin, des laminoirs et des centrales électriques
+
+3l0l0	Une_usine_sidéurgique	N
+3l0l1	5_convertisseurs_Thomas	O
+3l0l2	une_aciérie_Martin	O
+3l0l3	laminoirs	N
+3l0l4	des_centrales_électriques	O
+3l1l0	sidéurgique	S
+3l1l1	hauts_fourneaux	S
+
+#-	Des aires de stockage de matériaux, de dépôts de poussières et de boues
+
+4l0l0	boues	O
+
+#-	Un port privé construit en bordure est de la cokerie.
+
+5l0l0	Un_port_privé_construit	O
+5l0l1	en_bordure_est_de_la_cokerie	O
+
+#En outre, un crassier appelé « crassier Nord » serait présent au sud ouest de la zone étudiée (appelé crassier Nord car il serait situé au nord-ouest de la zone sidérurgique considérée dans le rapport de l’inspection des installations classées en date du 28 avril 1999, qui identifiait 2 crassiers dans la zone sidérurgique d’Hagondange-Maizières Les Metz-Rombas…).
+
+6l0l0	crassier_Nord	O
+6l0l1	au_sud_ouest_de_la_zone_étudiée	L
+6l0l2	crassier_Nord	O
+6l0l3	situé_au_nord_ouest_de_la_zone_sidérurgique	L
+6l0l4	l__inspection_des_installations_classées	O
+6l0l5	en_date_du_28_avril_1999__	T
+6l0l6	identifiait	N
+6l0l7	2_crassiers	N
+6l0l8	dans_la_zone_sidérurgique_d__Hagondange___Maizières_Les_Metz___Rombas	L
+6l0l9	_____	O
+6l1l0	sidérurgique	S
+
+#Au-delà du périmètre d’étude (usine+cokerie d'Hagondange), le complexe comprenait également :
+
+7l0l0	delà_du_périmètre_d__étude	O
+7l0l1	usine_cokerie	O
+7l0l2	d__Hagondange	L
+7l0l3	le_complexe	O
+
+#-	une usine située au nord (Usine d’Hagondange)
+
+8l0l0	une_usine	O
+8l0l1	située_au_nord	L
+8l0l2	Hagondange	L
+
+#-	une cimenterie située au nord-ouest
+
+9l0l0	cimenterie	A
+9l0l1	située_au_nord_ouest	L
+
+#-	une briqueterie située au Nord-est.
+
+10l0l0	briqueterie	O
+10l0l1	située_au_Nord_est	L
+10l1l0	une_briqueterie	D
+
+#Un certain nombre d’investigations sur les zones occupées par l’ancienne usine et l’ancienne cokerie d’HAGONDANGE entre 1994 et 2009.
+
+11l0l0	investigations	N
+11l0l1	les_zones	O
+11l0l2	occupées	N
+11l0l3	l__ancienne_usine	O
+11l0l4	l_	O
+11l0l5	HAGONDANGE	N
+11l0l6	entre_1994_et_2009__	T
+
+#Les investigations ont porté sur les milieux sols et eaux souterraines et superficielles.
+
+12l0l0	Les_investigations	N
+
+#-	Milieu sol
+
+
+#Concernant la zone correspondant à l’ancienne usine, deux zones sources de pollution présentant de fortes teneurs en métaux (Pb, As, Cr, Zn) ont été mises en évidence :
+
+14l0l0	la_zone	O
+14l0l1	deux_zones_sources_de_pollution	O
+14l1l0	métaux	S
+14l1l1	Pb	S
+14l1l2	As	S
+14l1l3	Cr	S
+14l1l4	Zn	S
+
+#-	l’ancien stockage de poussières de la zone Sud (As : 200 mg/kg ; Ni : 80 mg/kg ; Cr : 150 mg/kg)
+
+15l0l0	la_zone_Sud	O
+15l1l0	As	S
+15l1l1	Ni	S
+15l1l2	Cr	S
+
+#-	l’ancien bassin de décantation des poussières de la zone TRABET.
+
+16l0l0	l__ancien_bassin_de_décantation	N
+16l0l1	zone_TRABET	O
+
+#Outre une contamination diffuse en métaux et en hydrocarbures totaux, une pollution diffuse en HAP est présente sur l’ensemble de la zone.
+
+17l0l0	une_pollution_diffuse_en_HAP	O
+17l1l0	métaux	S
+17l1l1	hydrocarbures_totaux	S
+17l1l2	HAP	S
+
+#Les teneurs les plus élevées en HAP ont été rencontrées au niveau de la zone source Sud et de la zone source TRABET ainsi que dans la zone de transition entre ces 2 zones.
+
+18l0l0	ont_été_rencontrées	N
+18l0l1	au_niveau_de	R
+18l0l2	la_zone_source_Sud	O
+18l0l3	la_zone_source_TRABET	O
+18l0l4	ainsi_que	R
+18l0l5	dans_la_zone	L
+18l1l0	HAP	S
+
+#Les teneurs atteignent localement 95 mg/kg et 40 mg/kg en profondeur.
+
+
+#La zone anciennement occupée par les Hauts-Fourneaux, entre autres, ne semble pas avoir fait l’objet d’investigation de sols.
+
+20l0l0	La_zone_anciennement	O
+20l0l1	occupée_par	R
+20l0l2	les_Hauts_Fourneaux	O
+20l0l3	ne	A
+20l0l4	semble_pas_avoir_fait_l__objet_d_	R
+20l0l5	investigation	N
+
+#Pour les besoins des études, la cokerie a été découpée en 12 zones (A à F et la zone F a été découpée en 7), et l’ancienne usine a été divisée en 7 zones:
+
+21l0l0	les_besoins_des_études	N
+21l0l1	la_cokerie	O
+21l0l2	a_été_découpée_en	N
+21l0l3	12_zones	O
+21l0l4	a_été_découpée	N
+21l0l5	l__ancienne_usine	O
+21l0l6	a_été_divisée_en	R
+21l0l7	7_zones	O
+
+#-	ZAC de TALANGE.
+
+22l0l0	ZAC_de_TALANGE	L
+22l1l0	TALANGE	I
+
+#-	ZAC de TRABET.
+
+23l0l0	_	O
+23l0l1	ZAC_de_TRABET	O
+
+#-	Extension de la ZAC de TRABET.
+
+24l0l0	Extension	N
+24l0l1	de_la_ZAC_de_TRABET	O
+24l1l0	TRABET	I
+
+#-	Zone source TRABET.
+
+25l0l0	Zone_source_TRABET	O
+
+#-	Zone Sud.
+
+26l0l0	Zone_Sud	O
+
+#-	Zone source Sud.
+
+27l0l0	Zone_source_Sud	O
+
+#-	ZAC d’HAGONDANGE.
+
+28l0l0	HAGONDANGE	L
+28l1l0	HAGONDANGE	I
+
+#Le projet de réaménagement d'une partie de la cokerie et d'une partie de l'usine d'Hagondange, porté par la SARL Zone Industrielle du Port, entre dans le cadre du plan de relance « friche » lancé en 2009 par le gouvernement.
+
+29l0l0	Le_projet_de_réaménagement	N
+29l0l1	une_partie	O
+29l0l2	cokerie	O
+29l0l3	une_partie	O
+29l0l4	l__usine	O
+29l0l5	Hagondange	L
+29l0l6	la_SARL_Zone_Industrielle_du_Port	O
+29l0l7	entre_dans	R
+29l0l8	le_cadre_du	R
+29l0l9	plan_de_relance___friche	N
+29l0l10	lancé	N
+29l0l11	en_2009	T
+29l0l12	le_gouvernement	O
+29l1l0	la_SARL	I
+
+#Le projet consiste en la création d’une plate-forme multimodale, sur une partie de l’ancienne implantation du complexe sidérurgique (55 ha concernés sur 435 ha au total).
+
+30l0l0	Le_projet	N
+30l0l1	la_création_d__une_plate	N
+30l0l2	forme_multimodale	O
+30l0l3	sur_une_partie_de_l_	L
+30l0l4	complexe_sidérurgique	O
+30l0l5	435_ha	O
+
+#Les zones sources Sud et ZAC d’HAGONDANGE de l’ancienne usine ainsi que les zones C, E, F7 et une partie de F1 et de F5 ne font pas partie du projet (zones découpées dans les études)
+
+31l0l0	Les_zones_sources_Sud	O
+31l0l1	ZAC_d_	L
+31l0l2	HAGONDANGE	N
+31l0l3	les_zones	O
+31l0l4	une_partie_de	O
+31l0l5	font_pas_partie	R
+31l0l6	du_projet	O
+31l1l0	HAGONDANGE	I
+
+#Dans le cadre du projet, différentes mesures de gestion ont été mises en œuvre :
+
+32l0l0	gestion	O
+32l0l1	ont_été_mises_en_œuvre	N
+
+#-	excavation des spots de pollution,
+
+33l0l0	excavation	N
+
+#-	confinement et sécurisation de zones,
+
+34l0l0	confinement	N
+34l0l1	sécurisation_de_zones	N
+
+#-	réalisation d’une tranchée de sécurisation entre la zone du projet ZIP et le parc d’attractions WALYGATOR, afin d’éviter tout transfert de pollution des sols entre les 2 parcelles,
+
+35l0l0	réalisation_d_	N
+35l0l1	une_tranchée_de_sécurisation	O
+35l0l2	la_zone_du_projet_ZIP	O
+35l0l3	le_parc_d__attractions_WALYGATOR	O
+35l0l4	transfert_de_pollution_des_sols	N
+35l1l0	attractions_WALYGATOR	I
+
+#-	réalisation d’un merlon paysager confiné, constitué des déblais de terrassement et des sédiments issus du curage des voies de navigation du canal des mines de fer de la MOSELLE,
+
+36l0l0	réalisation_d__un_merlon_paysager_confiné	N
+36l0l1	terrassement	N
+36l0l2	curage_des_voies_de_navigation	N
+36l0l3	du_canal_des_mines_de_fer_de_la_MOSELLE	O
+
+#-	curage des alvéoles du bassin de décantation,
+
+37l0l0	curage_des_alvéoles	N
+37l0l1	du_bassin_de_décantation	O
+
+#-	sécurisation et dépollution des galeries techniques,
+
+38l0l0	sécurisation	N
+38l0l1	dépollution	N
+38l0l2	galeries_techniques	O
+
+#-	échantillonnage des sols pour vérification du respect des seuils de l’ARR.
+
+
+#Concernant les eaux souterraines et superficielles, indépendamment des conclusions de l'étude hydrogéologique réalisée par SOGREAH, les derniers résultats disponibles, de décembre 2010, montrent la persistance des principales anomalies régulièrement observées dans les eaux souterraines (métaux, Cn, indice phénol, HAP) sur le piézomètre en amont du site notamment.
+
+40l0l0	étude_hydrogéologique	N
+40l0l1	SOGREAH	O
+40l0l2	décembre_2010__	T
+40l1l0	SOGREAH	I
+40l1l1	métaux	S
+40l1l2	Cn	S
+40l1l3	indice_phénol	S
+40l1l4	HAP	S

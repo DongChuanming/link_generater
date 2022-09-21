@@ -1,0 +1,197 @@
+
+#21.0022
+#Le site de la décharge SEB est une ancienne carrière où ont été stockées, de 1977 à 1997, des boues issues des stations d'épuration des usines locales SEB d'Is-sur-Tille et Selongey.
+
+0l0l0	Le_site	O
+0l0l1	la_décharge_SEB	O
+0l0l2	une_ancienne_carrière	O
+0l0l3	de_1977_à_1997__	T
+0l0l4	des_boues_issues_des_stations	O
+0l0l5	d__épuration	O
+0l0l6	usines_locales_SEB	O
+0l0l7	d__Is_sur_Tille	L
+0l0l8	Selongey	L
+0l1l0	décharge_SEB	I
+0l1l1	SEB	I
+
+#La Société SEB a décidé d'arrêter l'exploitation de cette décharge en 1997, suite à un dépassement des critères de qualité des boues.
+
+1l0l0	La_Société_SEB	O
+1l0l1	a_décidé	N
+1l0l2	d__arrêter_l__exploitation	N
+1l0l3	cette_décharge	O
+1l0l4	en_1997__	T
+1l0l5	suite	R
+1l0l6	à_un_dépassement	N
+1l0l7	des_critères_de_qualité_des_boues	O
+1l1l0	La_Société_SEB	I
+
+#La décharge se trouve à 1,5 km environ au nord d'Is-sur-Tille, au lieu dit "Les Champs de Bergerie" en bordure de la D959.
+
+2l0l0	La_décharge	O
+2l0l1	se_trouve_à_1_5_km_environ_au_nord_d__Is_sur_Tille	L
+2l0l2	au_lieu_dit___Les_Champs_de_Bergerie	L
+2l0l3	__en_bordure_de_la_D959	L
+
+#Elle occupe la parcelle ZB42 du plan cadastral de la commune.
+
+3l0l0	Elle_occupe	R
+3l0l1	la_parcelle_ZB42	O
+
+#Deux rivières s'écoulent à proximité : l'Ignon à environ 1,5 km au sud et la Tille à environ 1 km au nord-est.
+
+4l0l0	Deux_rivières	O
+4l0l1	à_proximité	L
+4l0l2	Ignon	L
+4l0l3	à_environ_1_5_km_au_sud	L
+4l0l4	Tille_à_environ_1_km_au_nord_est	L
+
+#Selon les données de l'étude, aucune relation directe superficielle avec ces rivières n'existe.
+
+
+#En ce qui concerne le milieu souterrain, le substratum de la décharge de nature calcaire est affecté par une karstification importante qui facilite l'infiltration des eaux de pluie en profondeur.
+
+6l0l0	affecté_par	R
+6l0l1	une_karstification	N
+6l0l2	facilite_l_	A
+
+#De ces éléments, le bureau d'étude conclut à une faible probabilité la possibilité d'accumulation d'eau, et donc la présence d'aquifère.
+
+7l0l0	le_bureau_d__étude	O
+
+#L'étude des sols réalisée en 1999 a montré que le potentiel polluant du dépôt est relativement faible du fait d'une faible mobilité des éléments chimiques contenus dans les boues (hydrocarbures, métaux).
+
+8l0l0	L__étude_des_sols	N
+8l0l1	en_1999	T
+8l1l0	les_boues	U
+8l1l1	hydrocarbures	S
+8l1l2	métaux	S
+
+#La reconnaissance du terrain a confirmé l'absence de ruissellement vers l'extérieur.
+
+9l0l0	La_reconnaissance_du_terrain	N
+9l0l1	ruissellement_vers	R
+9l0l2	l_	O
+
+#De plus, l'absence de relation directe de la décharge avec la Tille empêche tout transfert jusqu'à la rivière.
+
+10l0l0	la_décharge	O
+10l0l1	avec_la_Tille	L
+
+#Il a également été montré que la quantité d'eau de pluie qui s'infiltre dans le massif est faible.
+
+
+#Dans ces conditions, il ressortait des conclusions de l'étude que l'impact sur une nappe hypothétique est considéré comme pratiquement nul, et la surveillance piézométrique ne semblait pas s'imposer.
+
+12l0l0	la_surveillance_piézométrique	A
+
+#D'autre part, les travaux de réaménagement du site ont été prescrits à l'exploitant par arrêté préfectoral du 6 mai 2000.
+
+13l0l0	les_travaux_de_réaménagement	N
+13l0l1	site	O
+13l0l2	ont_été_prescrits	N
+13l0l3	l__exploitant	O
+13l0l4	arrêté_préfectoral	O
+13l0l5	6_mai_2000__	T
+
+#L'objectif de ces travaux concernaient essentiellement la suppression des infiltrations dans le dépôt.
+
+14l0l0	la_suppression_des_infiltrations	N
+14l0l1	le_dépôt	O
+
+#Les efforts de réhabilitation portaient sur la protection supérieure du massif par la mise en place d'une couverture étanche.
+
+15l0l0	Les_efforts_de_réhabilitation	N
+15l0l1	portaient_sur	R
+15l0l2	la_protection_supérieure	O
+15l0l3	la_mise_en_place_d__une_couverture	N
+
+#Les travaux de réaménagement du site (pose de l'instrumentation, pose de la membrane bentonique et son recouvrement) débutés en juillet 2001 sont terminés.
+
+16l0l0	Les_travaux_de_réaménagement_du_site	N
+16l0l1	pose_de_l__instrumentation	N
+16l0l2	pose_de	N
+16l0l3	la_membrane_bentonique	O
+16l0l4	recouvrement	A
+16l0l5	débutés	N
+16l0l6	en_juillet_2001	T
+16l0l7	sont_terminés	N
+
+#Ces travaux sont réalisés à ce jour.
+
+17l0l0	Ces_travaux_sont_réalisés_à	N
+17l0l1	ce_jour	T
+
+#La surveillance est constituée d'un contrôle de la pérennité de la couverture, un contrôle du flux d'infiltration et de l'assèchement du massif.
+
+18l0l0	un	O
+18l0l1	contrôle	R
+18l0l2	l__assèchement	N
+
+#Des Servitudes d'Utilité Publique (SUP) ont été prescrites par arrêté préfectoral en date du 19 mai 2003.
+
+19l0l0	Des_Servitudes	O
+19l0l1	ont_été_prescrites	N
+19l0l2	par_arrêté_préfectoral	O
+19l0l3	en_date_du_19_mai_2003__	T
+
+#Fin 2006 on constate qu'il n'y a pas d'infiltration d'eau les résultats obtenus en matière de traitement sont conformes aux attendus.
+
+20l0l0	Fin_2006	T
+
+#En février 2010, une inspection a été réalisée par l'inspection des installations classées.
+
+21l0l0	En_février_2010__	T
+21l0l1	une_inspection	N
+21l0l2	a_été_réalisée	N
+21l0l3	par_l__inspection_des_installations_classées	O
+
+#Deux dispositifs ont été mis en place pour détecter une éventuelle fuite au niveau de la couverture étanche et prévenir une éventuelle percolation des eaux de pluies au travers du massif de boues, à savoir:
+
+22l0l0	Deux_dispositifs	O
+22l0l1	ont_été_mis_en	N
+22l0l2	détecter	N
+22l0l3	une_éventuelle_fuite	O
+22l0l4	au_niveau_de_la_couverture	L
+22l0l5	prévenir_une_éventuelle_percolation	N
+22l0l6	des_eaux_de_pluies	N
+
+#- un système de contrôle de type lysimètre (dispositif permettant d’étudier et de mesurer l’évolution de l’eau dans un sol ) sous la couverture étanche
+
+23l0l0	un_système_de_contrôle	O
+
+#- un système de contrôle de type capteurs d'humidité au sein du massif de boues.
+
+24l0l0	un_système_de_contrôle	O
+
+#Un contrôle annuel des repères topographiques est également effectué par l'exploitant afin de suivre les phénomènes de tassement.
+
+25l0l0	Un_contrôle_annuel	N
+25l0l1	des_repères_topographiques	O
+25l0l2	est_également_effectué	N
+25l0l3	l__exploitant	O
+
+#Le site est clôturé et fait l'objet d'un entretien régulier (fossé, écran végétal...).
+
+26l0l0	Le_site	O
+26l0l1	l__objet_d_	R
+26l0l2	un_entretien_régulier	O
+
+#4 septembre 2013 : à la demande de l'inspection des installations classées, l'exploitant transmet un bilan quadriennal de la surveillance exercée sur le site.
+
+27l0l0	4_septembre_2013	T
+27l0l1	la_demande	N
+27l0l2	l__inspection_des_installations_classées	O
+27l0l3	l__exploitant	O
+27l0l4	transmet	N
+27l0l5	un_bilan_quadriennal	A
+27l0l6	la_surveillance_exercée_sur_le_site	A
+
+#Ce bilan ne fait pas apparaître d'anomalie.
+
+
+#18 juin 2014 : le contrôle du flux d'infiltration et de l'assèchement du massif ne montre pas d'anomalie.
+
+29l0l0	18_juin_2014	T
+29l0l1	le_contrôle	N
+29l0l2	assèchement	N

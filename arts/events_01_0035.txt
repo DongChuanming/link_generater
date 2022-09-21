@@ -1,0 +1,282 @@
+
+#01.0035
+#La Société Thevenin-Ducrot Distribution exploite un dépôt d'hydrocarbures situé rue Abbé Gorini à Bourg-en-Bresse.
+
+0l0l0	La_Société_Thevenin	O
+0l0l1	__Ducrot_Distribution	O
+0l0l2	exploite	N
+0l0l3	un_dépôt_d__hydrocarbures	O
+0l0l4	situé_rue_Abbé_Gorini_à_Bourg_en_Bresse	L
+0l1l0	La_Société_Thevenin___Ducrot_Distribution	I
+0l1l1	dépôt	D
+0l1l2	d_	I
+0l1l3	hydrocarbures	S
+
+#Ce dépôt comprend :
+
+
+#- des installations de stockage (60 m3 + 20 m3 de fioul domestique et 50 m3 de gazole) ;
+
+2l1l0	fioul_domestique	U
+2l1l1	gazole	S
+
+#- des installations de distribution d'un débit de 50 m3/h pour le fioul domestique et de 39 m3/h pour le gazole.
+
+3l1l0	fioul_domestique	U
+3l1l1	gazole	S
+
+#Ce dépôt a fait l'objet d'un récépissé de déclaration daté du 9 septembre 1997.
+
+4l0l0	Ce_dépôt	N
+4l0l1	a_fait_l__objet_d_	R
+4l0l2	un_récépissé	O
+4l0l3	déclaration	N
+4l0l4	daté_du_9_septembre_1997__	T
+
+#Ce récépissé précise que la société Thévenin-Ducrot Distribution doit se conformer aux prescriptions de l'arrêté du 01/06/90.
+
+5l0l0	Ce_récépissé	O
+5l0l1	la_société_Thévenin	O
+5l0l2	__Ducrot_Distribution	O
+5l0l3	doit	R
+5l0l4	se_conformer	N
+5l0l5	01_06_90	T
+5l1l0	la_société_Thévenin	I
+
+#Suite à la constatation de pollutions par hydrocarbures dans le sous-sol du dépôt et dans un puits voisin de l'installation, des dispositions complémentaires ont été imposées à la société Thévenin et Ducrot Distribution par arrêté du 30/04/1998.
+
+6l0l0	Suite_à	R
+6l0l1	la_constatation_de_pollutions	N
+6l0l2	hydrocarbures	O
+6l0l3	dépôt	O
+6l0l4	et_dans_un_puits_voisin_de_l__installation	L
+6l0l5	des_dispositions_complémentaires	O
+6l0l6	ont_été_imposées	N
+6l0l7	la_société_Thévenin	O
+6l0l8	30_04_1998__	T
+6l1l0	hydrocarbures	S
+6l1l1	la_société_Thévenin	I
+
+#Lors des travaux de mise en place de la cuve supplémentaire, les terres extraites ont été triées et, le cas échéant, traitées en bio centre.
+
+7l0l0	Lors	R
+7l0l1	des_travaux_de_mise_en_place	N
+7l0l2	la_cuve	O
+7l0l3	les_terres_extraites	O
+7l0l4	ont_été_triées	N
+
+#Les études menées en application de l'arrêté préfectoral du 30/04/1998 ont montré la présence d'hydrocarbures en quantité importante sur une grande surface, avec des concentrations importantes dans les eaux.
+
+8l0l0	Les_études_menées	N
+8l0l1	en	L
+8l0l2	application	N
+8l0l3	de_l__arrêté_préfectoral	O
+8l0l4	du_30_04_1998	T
+8l0l5	d__hydrocarbures	O
+8l1l0	hydrocarbures	S
+
+#Cette zone était drainée par le puits de la propriété voisine.
+
+9l0l0	Cette_zone	O
+9l0l1	le_puits	O
+9l0l2	la_propriété_voisine	O
+
+#Compte tenu des concentrations en hydrocarbures dans les eaux souterraines, la Société Thévenin et Ducrot Distribution a proposé de traiter la pollution du dépôt en créant un puits de pompage afin de piéger les hydrocarbures et de les traiter par biodégradation.
+
+10l0l0	la_Société_Thévenin	O
+10l0l1	Ducrot_Distribution	O
+10l0l2	a_proposé_de_traiter_la_pollution	N
+10l0l3	dépôt	O
+10l0l4	créant	N
+10l0l5	un_puits_de_pompage	O
+10l0l6	hydrocarbures	O
+10l1l0	hydrocarbures	S
+10l1l1	la_Société_Thévenin	I
+10l1l2	hydrocarbures	S
+
+#Les travaux de dépollution ont consisté en :
+
+11l0l0	Les_travaux_de_dépollution	N
+
+#- un pompage et un traitement des eaux ont été effectués (prescrit par arrêté préfectoral du 16/8/2001) entre décembre 2001 et septembre 2002 ;
+
+12l0l0	un_pompage	O
+12l0l1	un_traitement_des_eaux	O
+12l0l2	ont_été_effectués	N
+12l0l3	prescrit_par	R
+12l0l4	arrêté_préfectoral_du	O
+12l0l5	16_8_2001__	T
+12l0l6	entre_décembre_2001_et_septembre_2002	T
+
+#- une excavation des terres contaminées (prescrite par AP du 15/03/2006) sur une surface de 40 m² environ et jusqu'à une profondeur d'environ 4 m, soit 161 tonnes de terres contaminées par des hydrocarbures évacuées en centre de traitement agréé, réalisé en août 2006.
+
+13l0l0	une_excavation	N
+13l0l1	terres_contaminées	O
+13l0l2	prescrite	N
+13l0l3	15_03_2006	T
+13l0l4	hydrocarbures	O
+13l0l5	évacuées_en_centre_de_traitement	N
+13l0l6	agréé	O
+13l0l7	réalisé	N
+13l0l8	en_août_2006__	T
+13l1l0	hydrocarbures	S
+
+#Des teneurs résiduelles en fond de fouille en hydrocarbures sont présentes.
+
+14l1l0	hydrocarbures	S
+
+#La société Thévenin et Ducrot a transmis le 23/11/2006 une actualisation de l'évaluation détaillée des risques de novembre 2004.
+
+15l0l0	La_société_Thévenin_et_Ducrot	O
+15l0l1	a_transmis	N
+15l0l2	le_23_11_2006	T
+15l0l3	une_actualisation	N
+15l0l4	évaluation_détaillée_des_risques	N
+15l0l5	novembre_2004__	T
+15l1l0	La_société_Thévenin	I
+
+#Suite à cette étude, il a été demandé :
+
+
+#- une interdiction de l’utilisation de l’eau du puits situé sur le terrain voisin pour l’arrosage par un arrêté municipal du 9/8/2007 puis un comblement du puits ;
+
+17l0l0	une_interdiction	N
+17l0l1	l__utilisation_de_l__eau_du_puits	A
+17l0l2	situé_sur	R
+17l0l3	le_terrain_voisin	O
+17l0l4	l__arrosage	A
+17l0l5	un_arrêté_municipal	O
+17l0l6	du_9_8_2007	T
+17l0l7	un_comblement_du_puits	N
+
+#- la réalisation de prélèvements d'air ambiant dans l'habitation voisine (prescrit par arrêté préfectoral du 12/7/2007).
+
+18l0l0	la_réalisation_de	N
+18l0l1	prélèvements_d__air_ambiant	O
+18l0l2	prescrit_par	R
+18l0l3	arrêté_préfectoral	O
+18l0l4	12_7_2007____	T
+
+#Trois campagnes de mesure de la qualité de l'air dans la maison d’habitation ont été réalisées en septembre 2007, octobre 2008 et mai 2009 qui ont permis de réactualiser une nouvelle évaluation des risques sanitaires.
+
+19l0l0	Trois_campagnes_de_mesure	N
+19l0l1	de_la_qualité_de	A
+19l0l2	l__air	O
+19l0l3	la_maison_d__habitation	O
+19l0l4	ont_été_réalisées	N
+19l0l5	en_septembre_2007___octobre_2008_et_mai_2009	T
+19l0l6	de_réactualiser	N
+19l0l7	une_nouvelle_évaluation_des_risques_sanitaires	N
+
+#Celle-ci montre que les concentrations mesurées ne génèrent pas de risque sanitaire inacceptable.
+
+
+#En ce qui concerne les eaux souterraines, la surveillance des eaux est en place depuis 2001, à partir de 8 piézomètres (4 sur le site TD, 4 dans la propriété voisine) et trimestrielle.
+
+21l0l0	la_surveillance	A
+21l0l1	des_eaux	O
+21l0l2	est_en_place	N
+21l0l3	depuis_2001__	T
+21l1l0	TD	I
+
+#Les premières analyses montraient la présence d'hydrocarbures flottants dans le puits voisin et une teneur maximale de 2 mg/L dans les piézomètres.
+
+22l1l0	hydrocarbures_flottants	S
+
+#Depuis les travaux complémentaires de dépollution réalisés en 2006, les teneurs sont en baisse.
+
+23l0l0	Depuis	T
+23l0l1	les_travaux_complémentaires_de_dépollution	N
+23l0l2	réalisés	N
+23l0l3	en_2006__	T
+23l0l4	les_teneurs	O
+
+#Une teneur maximale de 0,64 mg/L a ainsi été mise en évidence en juin 2010 dans le piézomètre implanté sur le site à proximité immédiate des zones de pollution résiduelle.
+
+24l0l0	Une_teneur_maximale	O
+24l0l1	ainsi_été_mise_en_évidence	N
+24l0l2	en_juin_2010	T
+24l0l3	le_piézomètre	O
+24l0l4	implanté_sur	R
+24l0l5	le_site	O
+24l0l6	à_proximité_immédiate_des_zones_de_pollution	L
+24l1l0	pollution_résiduelle	U
+
+#Depuis les analyses confirment la baisse des teneurs en hydrocarbures.
+
+25l0l0	Depuis	T
+25l0l1	hydrocarbures	O
+25l1l0	hydrocarbures	S
+
+#Pour les 4 piézomètres situés sur la propriété voisine, les teneurs mesurées en hydrocarbures et en BTEX sont inférieures au seuil de détection du laboratoire.
+
+26l0l0	4_piézomètres	O
+26l0l1	situés_sur_la_propriété_voisine	L
+26l1l0	hydrocarbures	S
+26l1l1	BTEX	S
+
+#Pour 3 des 4 ouvrages, les teneurs sont inférieures ou proches des limites de détection depuis 2006.
+
+27l0l0	les_teneurs	O
+27l0l1	détection	O
+27l0l2	depuis_2006__	T
+
+#Les importants travaux réalisés sur le site en 2002 et en 2006 ainsi que le traitement des eaux par pompage/écrémage ont permis d'améliorer sensiblement la qualité des eaux souterraines.
+
+28l0l0	Les_importants_travaux_réalisés	N
+28l0l1	sur_le_site	L
+28l0l2	en_2002_et_en_2006	T
+28l0l3	le_traitement_des_eaux	N
+28l0l4	pompage__	A
+28l0l5	écrémage_ont	N
+
+#Un allègement de la surveillance des eaux a donc été accepté par arrêté préfectoral du 22/07/2011.
+
+29l0l0	la_surveillance_des_eaux	O
+29l0l1	a_donc_été_accepté	N
+29l0l2	par_arrêté_préfectoral	O
+29l0l3	du_22_07_2011	T
+
+#Une fréquence semestrielle permettant de tenir compte des périodes de hautes et basses eaux et un contrôle réalisé uniquement à partir des 4 piézomètres implantés dans l'enceinte du dépôt ont été retenus.
+
+30l0l0	périodes_de_hautes_et_basses_eaux	O
+30l0l1	un_contrôle_réalisé	N
+
+#Après deux années de surveillance supplémentaire, un bilan de la surveillance devra être réalisé par l'exploitant et les modalités de contrôle pourront si nécessaire être révisées.
+
+31l0l0	Après	R
+31l0l1	deux_années_de	N
+31l0l2	surveillance_supplémentaire	O
+31l0l3	la_surveillance	O
+31l0l4	devra_être_réalisé	N
+31l0l5	l__exploitant	O
+31l0l6	les_modalités_de_contrôle	O
+
+#Bien que les travaux n'aient pas permis de supprimer totalement les hydrocarbures présents dans les sols, les dernières analyses indiquent l'absence d'impact en dehors du site.
+
+32l0l0	les_travaux	N
+32l0l1	hydrocarbures	O
+32l0l2	en_dehors_du_site	L
+32l1l0	hydrocarbures	S
+
+#Le dossier de demande de servitudes a été transmis en octobre 2011 et est en cours d'instruction.
+
+33l0l0	Le_dossier_de_demande_de_servitudes	O
+33l0l1	a_été_transmis	N
+33l0l2	en_octobre_2011	T
+
+#La mise en place de servitudes permettra de conserver la mémoire des pollutions laissées en place afin de garantir que des travaux ou un éventuel changement d'usage du site ne conduisent pas à une exposition dangereuse.
+
+34l0l0	La_mise_en_place_de_servitudes	O
+34l0l1	pollutions_laissées_en_place	N
+34l0l2	des_travaux	N
+34l0l3	un_éventuel_changement_d__usage	N
+
+#L'arrêté préfectoral instituant des servitudes d'utilité publique sur le site a été signé le 16 septembre 2013.
+
+35l0l0	L__arrêté_préfectoral	O
+35l0l1	instituant	N
+35l0l2	des_servitudes_d__utilité_publique	O
+35l0l3	le_site	O
+35l0l4	a_été_signé	N
+35l0l5	le_16_septembre_2013__	T

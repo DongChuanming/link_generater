@@ -1,0 +1,319 @@
+
+#24.0035
+#Usine de fabrication de vannes et de robinets à papillon exploitée par la société KSB SAS sur la ZI de La Roche Chalais (24).
+
+0l0l0	Usine_de	O
+0l0l1	fabrication_de_vannes_et_de_robinets_à_papillon	A
+0l0l2	exploitée_par	R
+0l0l3	la_société_KSB_SAS	O
+0l0l4	sur_la_ZI_de_La_Roche_Chalais___24	L
+0l1l0	la_société_KSB_SAS	I
+
+#Les installations sont autorisées par l'arrêté préfectoral du 26 avril 2005 complété par l'arrêté du 08 décembre 2010 relatif à la modification des conditions d'une unité de fabrication de vannes et robinets à papillon.
+
+1l0l0	Les_installations	O
+1l0l1	sont_autorisées	N
+1l0l2	l__arrêté_préfectoral	O
+1l0l3	26_avril_2005	T
+1l0l4	08_décembre_2010	T
+1l0l5	relatif_à	R
+1l0l6	la_modification	N
+1l0l7	unité_de_fabrication_de_vannes_et_robinets_à_papillon	A
+
+#Le site est bordé au NOrd par la rivière La Dronne, laquelle s'écoule vers le Sud-Ouest, à l'Ouest par des habitations, des terrains agricoles et des terrains inoccupés ainsi qu'une voie ferrée, à l'Est par un camping municipal et au Sud par des bâtiments industriels.
+
+2l0l0	Le_site	O
+2l0l1	bordé_au_NOrd_par_la_rivière_La_Dronne	L
+2l0l2	vers	T
+2l0l3	le_Sud_Ouest	L
+2l0l4	l_	O
+2l0l5	Ouest	N
+2l0l6	des_habitations	O
+2l0l7	des_terrains_agricoles	O
+2l0l8	une_voie_ferrée	O
+2l0l9	un_camping_municipal	O
+2l0l10	des_bâtiments_industriels	O
+2l1l0	Dronne	I
+
+#Sur le site, une société de remise en état de matériel de travaux publics a exercé son activité entre 1960 et 1996.
+
+3l0l0	une_société_de_remise_en_état_de_matériel_de_travaux_publics	O
+3l0l1	a_exercé_son_activité	A
+3l0l2	entre_1960_et_1996	T
+
+#1 - DIAGNOSTIC
+
+4l0l0	DIAGNOSTIC	N
+
+#Sur sa propre initiative, l'exploitant fait réaliser en 2002 le diagnostic des sols et de la nappe qui révèle un impact des sols de l'ancienne zone du parc à déchets par des solvants chlorés.
+
+5l0l0	l__exploitant	O
+5l0l1	fait_réaliser	N
+5l0l2	en_2002	T
+5l0l3	le_diagnostic	N
+5l0l4	révèle_un_impact	N
+5l0l5	l__ancienne_zone_du_parc_à_déchets	O
+5l1l0	solvants_chlorés	U
+
+#L'origine des solvants chlorés proviendrait sans doute des fuites de la benne de stockage des bidons de peinture et de solvants en attente d'enlèvement, déplacée depuis.
+
+6l0l0	L__origine	O
+6l0l1	solvants_chlorés	O
+6l0l2	la_benne_de_stockage_des_bidons_de_peinture	O
+6l0l3	déplacée	N
+6l0l4	depuis	T
+6l1l0	solvants_chlorés	U
+
+#Des traces de métaux sont également observées dans les sols de la zone de l'ancien incinérateur.
+
+7l0l0	incinérateur	N
+7l1l0	métaux	S
+
+#L'évaluation simplifiée des risques classe le site en 2 "à surveiller" pour les eaux souterraines et pour l'usage du moment.
+
+8l0l0	évaluation_simplifiée_des_risques	N
+
+#Le 03/04/2008, la DRIRE demande à l'exploitant de faire réaliser le diagnostic approfondi du site, et notamment des deux zones ci-dessus, afin de rechercher les éventuelles sources de pollutions des sols qui pourraient être à l'origine de l'impact de la nappe par des produits chlorés constaté à l'aval.
+
+9l0l0	Le_03_04_2008	T
+9l0l1	la_DRIRE	O
+9l0l2	l__exploitant	O
+9l0l3	faire_réaliser	N
+9l0l4	le_diagnostic_approfondi	N
+9l0l5	deux_zones	O
+9l0l6	rechercher	N
+9l0l7	les_éventuelles_sources_de_pollutions	O
+9l0l8	à_l__aval	L
+9l1l0	la_DRIRE	I
+9l1l1	des_produits_chlorés	U
+
+#Les solutions de traitement seront proposées sur les conclusions de ce diagnostic, notamment pour la zone de l'ancien parc à déchets qui devrait être réaménagé en bassin de réception des eaux d'extinction d'incendie.
+
+10l0l0	ce_diagnostic	N
+10l0l1	la_zone	O
+10l0l2	devrait	T
+10l0l3	être_réaménagé	N
+10l0l4	en	R
+10l0l5	bassin_de_réception	O
+10l0l6	eaux_d__extinction_d__incendie	O
+
+#Le diagnostic réalisé en août 2010 montre que :
+
+11l0l0	Le_diagnostic_réalisé_en	N
+11l0l1	août_2010	T
+
+#- zone du parc à déchets : traces d'hydrocarbures (de 140 à 280 mg/kg), Teneurs en métaux dans la gamme du bruit de fond,
+
+12l1l0	hydrocarbures	S
+
+#- zone de l'ancien incinérateur : traces d'hydrocarbures (de 230 à 760 mg/kg), 1 point à 760 mg/kg,
+
+13l0l0	incinérateur	N
+13l1l0	hydrocarbures	S
+
+#- zone enherbée : pas d'impact, sauf un spot avec traces de métaux et d'hydrocarbures (200 mg/kg),
+
+14l1l0	métaux	S
+14l1l1	hydrocarbures	S
+
+#zone de l'ancien fossé d'eaux pluviales : absence d'impact, notamment pour la présence redoutée de Chloroforme.
+
+15l1l0	Chloroforme	S
+
+#Le plan de gestion recommande :
+
+
+#- dans le cas de l'aménagement du bassin de rétention des eaux pluviales sur l'ensemble des zones, un décapage de 1 mètre nécessitera l'envoi des terres en ISDI,
+
+17l0l0	le_cas_de	R
+17l0l1	l__aménagement	N
+17l0l2	du_bassin_de_rétention	O
+17l0l3	un_décapage	N
+17l0l4	1_mètre	O
+17l0l5	l__envoi	N
+17l0l6	des_terres	O
+
+#- les zones du parc à déchets et de l'ancien incinérateur sont laissées en l'état (faibles anomalies, confinement, absence de risques résiduels, absence de transfert),
+
+18l0l0	les_zones	O
+
+#- maintien du recouvrement des sols,
+
+
+#- maintien de la surveillance des eaux souterraines.
+
+20l0l0	la_surveillance_des_eaux_souterraines	A
+
+#2 - TRAVAUX
+
+21l0l0	TRAVAUX	N
+21l1l0	TRAVAUX	I
+
+#La création du bassin de récupération des eaux d'extinction d'incendie de 700 m3 est programmée pour l'été 2008.
+
+22l0l0	La_création	N
+22l0l1	du_bassin_de_récupération_des_eaux	O
+22l0l2	m3	O
+22l0l3	est_programmée	N
+22l0l4	pour_l__été_2008__	T
+22l1l0	des_eaux_d__extinction	U
+
+#Son emplacement est apparemment prévu sur l'ancienne zone du parc à déchets.
+
+23l0l0	Son_emplacement	O
+23l0l1	est_apparemment	R
+23l0l2	prévu	O
+23l0l3	parc_à_déchets	O
+
+#Le 03/04/2008, la DRIRE demande à l'exploitant de faire réaliser le diagnostic approfondi de la zone et de définir la (ou les) solution(s) de dépollution, préalablement à l'aménagement de ce bassin.
+
+24l0l0	Le_03_04_2008	T
+24l0l1	la_DRIRE	O
+24l0l2	demande	N
+24l0l3	l__exploitant	O
+24l0l4	de_faire_réaliser	N
+24l0l5	le_diagnostic_approfondi	N
+24l0l6	la_zone	O
+24l0l7	de_définir_la___ou_les___solution_s	O
+24l0l8	dépollution	N
+24l0l9	préalablement_à	R
+24l0l10	l__aménagement_de	N
+24l0l11	ce_bassin	O
+24l1l0	la_DRIRE	I
+
+#Ce diagnostic réalisé en juillet/août 2010 ne révèle pas d'anomalies nécessitant la mis en oeuvre de travaux de remédiation.
+
+25l0l0	Ce_diagnostic	N
+25l0l1	réalisé	N
+25l0l2	en_juillet___août_2010	T
+25l0l3	mis_en_oeuvre_de_travaux_de_remédiation	N
+
+#Toutefois, en fonction de la solution choisie pour la création du bassin (bassin semi enterré de 500 m3 ou décaissement d'une zone plus large), il conviendra de gérer le contrôle et la filière d'évacuation des terres excavées sur une zone approximative de 25 m2.
+
+26l0l0	la_création	N
+26l0l1	du_bassin	O
+26l0l2	décaissement	N
+26l0l3	une_zone	O
+26l0l4	gérer_le_contrôle	O
+
+#Un bassin de rétention des eaux d'extinction a été réalisé en dehors des zones faisant l'objet d'étude par ANTEA.
+
+27l0l0	Un_bassin_de_rétention	O
+27l0l1	a_été_réalisé	N
+27l0l2	en_dehors_des_zones	L
+27l0l3	faisant_l__objet	R
+27l0l4	d__étude	N
+27l0l5	ANTEA	O
+27l1l0	ANTEA	I
+
+#Ce bassin est opérationnel depuis juillet 2012.
+
+28l0l0	Ce_bassin	O
+28l0l1	est_opérationnel	N
+28l0l2	depuis_juillet_2012__	T
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+29l0l0	SURVEILLANCE_DES_EAUX	A
+29l0l1	SOUTERRAINES	O
+29l1l0	EAUX_SOUTERRAINES	I
+
+#La surveillance périodique des eaux souterraines mise en place sur le site fait suite aux conclusions de l'étude simplifiée des risques réalisée en 2002 et qui relève en conséquence de l’article 65 b) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines de par ses activités actuelles et passées et de par la sensibilité ou la vulnérabilité des eaux souterraines.
+
+30l0l0	La_surveillance_périodique_des_eaux_souterraines	A
+30l0l1	mise_en_place	N
+30l0l2	étude_simplifiée_des_risques	N
+30l0l3	réalisée	N
+30l0l4	en_2002	T
+30l0l5	2_février_1998	T
+
+#La campagne de mars 2001 montre la présence de traces de Chloroforme 95µg/l, tétrachloréthylène 1,4µg/l et dichlorométhane 9,6µG/l dans le PZ3 (aval hydraulique parc à déchets).
+
+31l0l0	La_campagne_de	N
+31l0l1	mars_2001	T
+31l1l0	Chloroforme	S
+31l1l1	tétrachloréthylène	S
+31l1l2	dichlorométhane_9_6µG	S
+
+#L'arrêté préfectoral du 26 avril 2005 prescrit la surveillance semestrielle des eaux souterraines par 3 piézomètres dans lesquels on mesure les paramètres COHV, hydrocarbures totaux, Cu, Ni, Cr total.
+
+32l0l0	L__arrêté_préfectoral	O
+32l0l1	26_avril_2005	T
+32l0l2	prescrit	N
+32l0l3	la_surveillance_semestrielle	A
+32l0l4	des_eaux_souterraines	A
+32l1l0	COHV	S
+32l1l1	hydrocarbures_totaux	S
+32l1l2	Cu	S
+32l1l3	Ni	S
+32l1l4	Cr_total	S
+
+#Le niveau piézomètrique est relevé à chaque campagne.
+
+33l0l0	Le_niveau	O
+
+#Les deux campagnes de 2007 montrent un impact par le Trichlorométhane dans un piézomètre à l'aval des deux zones ci-dessus.
+
+34l0l0	Les_deux_campagnes	N
+34l0l1	de_2007	T
+34l0l2	Trichlorométhane	O
+34l0l3	à_l__aval_des	L
+34l0l4	deux_zones	O
+34l1l0	Trichlorométhane	S
+
+#Les campagnes semestrielles de 2005 à 2012 montrent :
+
+35l0l0	Les_campagnes_semestrielles	N
+35l0l1	de_2005_à_2012	T
+
+#- l'absence d'impact du trichloréthylène et de ses produits de décomposition au droit des 3 piézomètres,
+
+36l1l0	trichloréthylène	S
+36l1l1	ses_produits_de_décomposition	U
+
+#- la présence de chloroforme au droit du PZ2 (amont) de 0,6 à 4,9 mg/l en périodes de basses eaux.
+
+37l1l0	chloroforme	S
+
+#Ce polluant n'est plus détecté de 2008 à 2013 en périodes de hautes et basses eaux,
+
+38l0l0	n__est_plus_détecté	N
+38l0l1	de_2008_à_2013	T
+38l0l2	en_périodes_de_hautes	T
+38l0l3	et_basses_eaux	O
+38l1l0	Ce_polluant	S
+
+#- apparition du 1,1,2 trichloréthane au droit des 3 piézos (0,5 à 1,4 mg/),
+
+39l1l0	1_1_2_trichloréthane	S
+
+#- l'absence de détection des COHV en PZ3 de 2005 à 2012,
+
+40l0l0	de_2005_à_2012__	T
+40l1l0	COHV	S
+
+#- l'absence de détection des métaux depuis 2006.
+
+41l0l0	métaux	O
+41l0l1	depuis_2006__	T
+
+#Jusqu'au premier semestre 2014, les campagnes semestrielles montrent que les valeurs mesurées sont nettement inférieurs aux valeurs guides et ceux sur tous les paramètres.
+
+42l0l0	Jusqu__au_premier_semestre_2014__	T
+
+#En 2014,au cours du second semestre, seul des traces d'hydrocarbures ont été détectées sur la seconde campagne.
+
+43l0l0	En_2014_au	T
+43l0l1	cours_du_second_semestre	T
+43l0l2	ont_été_détectées	N
+43l1l0	hydrocarbures	S
+
+#Seule des traces d'hydrocarbures ont été retrouvées dans des proportions permettant sa quantification dans le piézomètre 3 (0,24mg/L) .
+
+44l1l0	hydrocarbures	S
+
+#Cependant, ce paramètre ne figurant pas dans les valeurs guides des arrêtés du 17 décembre 2008 et du 11 Janvier 2007.
+
+45l0l0	17_décembre_2008	T
+45l0l1	du	N
+45l0l2	11_Janvier_2007__	T

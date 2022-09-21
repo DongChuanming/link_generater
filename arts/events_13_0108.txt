@@ -1,0 +1,105 @@
+
+#13.0108
+#Ce site correspond à une ancienne carrière située au nord-est de la commune de Chateaurenard qui a accueilli de 1930 à 1958, une usine fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	carrière_située	O
+0l0l1	au_nord_est_de_la_commune	N
+0l0l2	de_Chateaurenard	O
+0l0l3	la_houille__	O
+
+#Cette activité a été stoppée en 1958 au profit de la distribution du propane.
+
+1l0l0	Cette	O
+1l0l1	activité_a_été	R
+1l0l2	stoppée_en_1958_au_profit	O
+1l0l3	de_la_distribution_du_propane__	L
+
+#* Actuellement, le site d'une superficie de 53300 m2 est utilisé dans sa partie basse par l'agence d'exploitation de Chateaurenard.
+
+2l0l0	__Actuellement	O
+2l0l1	__le_site_d__une	N
+2l0l2	superficie	T
+2l0l3	de_53300	R
+2l0l4	m2_est_utilisé_dans_sa_partie	A
+
+#Les anciennes installations de l'usine à gaz ont été détruites.
+
+3l0l0	installations	O
+3l0l1	détruites__	N
+
+#* Une nouvelle agence est en cours de construction sur la partie haute du site, qui n'a jamais été utilisée pour un usage industriel.
+
+4l0l0	__Une_nouvelle_agence_est_en_cours_de_construction	O
+4l0l1	sur_la_partie	N
+
+#* Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+5l0l0	Gaz_de_France_a_hiérarchisé	O
+5l0l1	ses_actions_sur_les_467	N
+5l0l2	sites_d__anciennes_usines	L
+5l0l3	gaz	N
+5l0l4	qu__il_gère___répartis_sur_l_	R
+5l0l5	ensemble_du_territoire	N
+
+#La méthodologie a consisté à hiérarchiser les sites en fonction de leur sensibilité vis-à-vis de l'environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site).
+
+6l0l0	La_méthodologie	O
+6l0l1	a_consisté_à	N
+6l0l2	hiérarchiser	O
+6l0l3	sites_en_fonction	O
+6l1l0	La_méthodologie	I
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objetd'un protocole d'accord relatif à la maitrise et au suivi de la réhabilitationdes anciens terrains d'usines à gaz entre le ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+7l0l0	méthode_a_abouti_à_l__établissement	O
+7l0l1	de_5	R
+7l0l2	classes_de_priorité	O
+7l0l3	pour_lesquelles_les_engagements	O
+
+#* Sur le site de l'ancienne usine à gaz de chateaurenard en classe 4 du protocole ont été réalisés un diagnostic initial en 1995, suivi d'un diagnostic approfondi en raison de réaménagements pour les besoins internes de l'entreprise.
+
+8l0l0	__Sur_le_site_de_l_	N
+8l0l1	ancienne_usine	O
+8l0l2	à_gaz_de_chateaurenard_en_classe	N
+8l0l3	4_du_protocole_ont_été	O
+8l0l4	diagnostic_initial	O
+8l0l5	en_1995___suivi	O
+8l0l6	d__un_diagnostic	R
+8l0l7	approfondi_en_raison_de	O
+8l0l8	réaménagements_pour_les	O
+8l0l9	besoins_internes_de_l__entreprise	N
+8l0l10	_	O
+8l1l0	en_1995___suivi	I
+
+#L'ensemble des études a consisté à effectuer des recherches historiques et documentaires à rechercher des ouvrages enterrés, à évaluer l'impact du site sur les ressources
+
+9l0l0	L__ensemble	L
+9l0l1	des_études_a_consisté_à_effectuer_des	O
+9l0l2	recherches	L
+9l0l3	documentaires_à	N
+9l0l4	rechercher_des_ouvrages	N
+9l0l5	enterrés	T
+9l0l6	__à_évaluer	R
+9l0l7	l__impact_du_site_sur_les	N
+9l0l8	ressources	R
+
+#locales en eaux(eaux souterraines et superficielles), à caractériser le sol superficiel pour évaluer les risques de contact direct et ceux liés à d'éventuelles émanations gazeuses et à caractériser le sol en profondeur sur l'ensemble du site.
+
+
+#* Ces diagnostics effectués par un bureau d'étude à la demande de Gaz de France ont mis en évidence l'absence de cuve à goudrons sur le site et l'absence de contamination de l'environnement immédiat du site.
+
+
+#Le rapport parcellaire a été transmis à la DRIRE le 3/10/2005.
+
+12l0l0	Le_rapport_parcellaire	N
+12l0l1	a_été	N
+12l0l2	transmis_à_la_DRIRE_le	O
+12l0l3	3_10_2005__	R
+
+#* Il n'y a pas de surveillance des eaux souterraines, car absence de nappe en l'état des connaissances actuelles.
+
+13l0l0	__Il_n__y_a_pas_de_surveillance	O
+13l0l1	des_eaux	N
+13l0l2	souterraines	O
+13l0l3	__car_absence	T
+13l1l0	souterraines	I

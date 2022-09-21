@@ -1,0 +1,135 @@
+
+#59.0031
+#- La SCI du Fort de Maulde achète le fort de Maulde le 04/09/1969.
+
+0l0l0	La_SCI	O
+0l0l1	Fort_de_Maulde	O
+0l0l2	achète	N
+0l0l3	le_fort_de_Maulde	O
+0l0l4	le_04_09_1969__	T
+0l1l0	La_SCI_du_Fort	I
+0l1l1	de_Maulde_achète_le_fort_de_Maulde	I
+
+#- Le fort de Maulde est loué à la société Manufacture Française de carrelage pour y décharger ses déchets de fabrication le 01/01/1971.
+
+1l0l0	Le_fort_de_Maulde	O
+1l0l1	est_loué	N
+1l0l2	la_société_Manufacture_Française_de_carrelage	O
+1l0l3	décharger	N
+1l0l4	ses_déchets_de_fabrication	O
+1l0l5	le_01_01_1971	T
+1l1l0	Le_fort_de_Maulde	I
+1l1l1	la_société_Manufacture_Française	I
+
+#- Jusqu'à 1990: cette société et par la suite la société Mulliez France Carrelages déchargent dans le fort (fossé périphérique et dans les contreforts entourant les casemates et la cour encaissée) des boues de polissage et des dalles cassées (environ 40 000 Tonnes).
+
+2l0l0	Jusqu__à_1990	T
+2l0l1	cette_société	O
+2l0l2	par_la_suite	T
+2l0l3	la_société_Mulliez	O
+2l0l4	Carrelages	A
+2l0l5	déchargent	N
+2l0l6	dans_le_fort	L
+2l0l7	fossé	O
+2l0l8	périphérique_et_dans_les_contreforts_entourant_les_casemates_et_la_cour_encaissée	L
+2l0l9	boues_de_polissage	O
+2l1l0	la_société_Mulliez_France_Carrelages	I
+
+#- Dépôt de bilan de Mulliez France Carrelages le 06/08/1990.
+
+3l0l0	Dépôt_de_bilan	N
+3l0l1	Mulliez_France_Carrelages	O
+3l0l2	le_06_08_1990__	T
+
+#- Reprise de la SCI par la société La Pierre Mulliez.
+
+4l0l0	Reprise_de_la_SCI	N
+4l0l1	la_société_La_Pierre_Mulliez	O
+4l1l0	la_société_La_Pierre_Mulliez	I
+
+#- En 1993: dépôt de terres par la commune de Maulde.
+
+5l0l0	En_1993	T
+5l0l1	_	N
+5l0l2	dépôt_de_terres	O
+5l0l3	commune_de_Maulde	L
+
+#- Superficie du site : 4 ha.
+
+
+#- Réalisation d'une étude hydrogéologique en février 1995, cette étude conclu qu'il y a des traces de métaux lourds (plomb, chrome, nickel et zinc) et d'hydrocarbures.
+
+7l0l0	__Réalisation	N
+7l0l1	une_étude_hydrogéologique	N
+7l0l2	en_février_1995__	T
+7l1l0	métaux_lourds	S
+7l1l1	plomb	S
+7l1l2	chrome	S
+7l1l3	nickel	S
+7l1l4	zinc	S
+7l1l5	hydrocarbures	S
+
+#- Rapport de l'inspecteur du 09/09/1996: "L'examen de l'étude hydrogéologique et géochimique de cette décharge appelle de notre part les observations suivants:
+
+8l0l0	09_09_1996	T
+8l0l1	L__examen	N
+8l0l2	étude_hydrogéologique	N
+
+#*des investigations plus poussées au niveau des fosses 1 et 6 doivent être effectuées afin d'expliquer et de quantifier éventuellement les présences de plomb et de zinc.
+
+9l0l0	doivent_être_effectuées	N
+9l1l0	plomb	S
+9l1l1	zinc	S
+
+#*de nouvelles analyses de contrôle de l'eau du piézomètre 1 sont à prévoir pour vérifier l'éventuelle présence de chrome.
+
+10l0l0	__de_nouvelles_analyses_de_contrôle	N
+10l0l1	l__eau	O
+10l1l0	chrome	S
+
+#*la perméabilité des sols situés sous les déchets est à déterminer.
+
+
+#*la réalisation d'un second piézomètre situé en amont hydraulique est à prévoir.
+
+12l0l0	la_réalisation_d_	N
+12l0l1	un_second_piézomètre	O
+12l0l2	situé_en_amont_hydraulique	L
+
+#*le réaménagement du site est à définir."
+
+13l0l0	__le_réaménagement_du_site	O
+
+#- Arrêté préfectoral du 08/07/1997 relatif à l'étude environnementale du dépôt de boues exploité au Fort de Maulde par la société "La Pierre Mulliez" (afin de compléter l'étude).
+
+14l0l0	Arrêté_préfectoral	O
+14l0l1	du_08_07_1997	T
+14l0l2	relatif_à	R
+14l0l3	l__étude_environnementale	N
+14l0l4	dépôt_de_boues	O
+14l0l5	exploité	N
+14l0l6	au_Fort_de_Maulde	L
+14l0l7	la_société___La_Pierre_Mulliez	O
+14l1l0	la_société___La_Pierre_Mulliez	I
+
+#- En aout 2012: projet d'acquisition par l'EPF de l’ensemble immobilier; cadastré section A n°693, situé lieu dit "la couture du Moulin" à Maulde.
+
+15l0l0	En_aout_2012	T
+15l0l1	__projet	O
+15l0l2	d__acquisition	N
+15l0l3	l__EPF	O
+15l0l4	l__ensemble_immobilier	O
+15l0l5	situé_lieu_dit___la_couture_du_Moulin__	L
+15l0l6	à_Maulde	L
+15l1l0	EPF	I
+
+#- Les eaux souterraines du secteur sont utilisées pour un usage AEP (adduction d'eau potable).
+
+16l0l0	Les_eaux_souterraines	O
+16l0l1	du_secteur	O
+16l0l2	sont_utilisées_pour	N
+16l0l3	un_usage_AEP	A
+
+#- Action de l'administration toujours en cours.
+
+17l0l0	l__administration	O

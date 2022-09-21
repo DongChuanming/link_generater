@@ -1,0 +1,130 @@
+
+#10.0067
+#Le site occupe une superficie de 26185 m2 dont 5553 m2 bâtis, le reste étant réservé aux aires de circulation, de stockage et de parking (dont 6902 m2 de surface imperméabilisée).
+
+0l0l0	Le_site	O
+
+#L'ensemble bâti est constitué d'un bâtiment principal regroupant les ateliers d'entretien, de démontage et de dépollution et les bureaux, d'un hangar de stockage, d'un atelier dit "service rapide" réservé à la clientèle et d'un local compresseur.
+
+1l0l0	L_	O
+1l0l1	un_bâtiment_principal	O
+1l0l2	les_ateliers_d__entretien	O
+1l0l3	démontage_et_de_dépollution	O
+1l0l4	les_bureaux	O
+1l0l5	un_hangar_de_stockage	O
+1l0l6	un_atelier	O
+
+#Les aménagements extérieurs concernent les zones de stockage des véhicules, des pneumatiques, les bennes de batteries, moteurs, pots d'échappement et ferrailles et la pompe de distribution de carburant.
+
+2l0l0	Les_aménagements_extérieurs	O
+2l0l1	distribution_de_carburant	A
+2l1l0	distribution_de_carburant	U
+
+#La société Auto Casse THIEBAULT exploite 13650 m2 de surfaces pour le stockage des véhicules hors d'usage dépollués et 5700 m2 pour le stockage des véhicules hors d'usage dépollués.
+
+3l0l0	La_société_Auto_Casse_THIEBAULT	O
+3l0l1	exploite	N
+3l0l2	le_stockage	A
+3l0l3	5700	O
+3l0l4	m2	R
+3l0l5	le_stockage	A
+3l0l6	véhicules_hors_d__usage_dépollués	O
+3l1l0	La_société_Auto_Casse_THIEBAULT	I
+3l1l1	véhicules_hors_d_	U
+
+#Les activités exercées sont:
+
+
+#-la dépollution des véhicules hors d'usage par pompage de tous les fluides (huiles, liquides de refroidissement, de freins, de climatisation, carburant, lave-glace, etc.), démontage de la batterie, des pneumatiques et des pots d'échappement catalytiques, puis stockage avant évacuation vers un broyeur agréé.
+
+5l0l0	_la_dépollution	N
+5l0l1	pompage	A
+5l0l2	les_fluides	O
+5l0l3	démontage	N
+5l0l4	broyeur_agréé	O
+5l1l0	carburant	S
+
+#-L'entretien et la réparation de véhicules de tourisme
+
+6l0l0	_L__entretien	O
+6l0l1	la_réparation_de_véhicules_de_tourisme	O
+
+#-La vente de pièces , d'équipements automobiles neufs et de véhicules de loisirs.
+
+7l0l0	vente_de_pièces	O
+7l0l1	d__équipements_automobiles	N
+
+#L'exploitation de cet établissement a été autorisée par un arrêté préfectoral du 19 janvier 2010.
+
+8l0l0	L__exploitation	N
+8l0l1	cet_établissement	O
+8l0l2	a_été_autorisée_par	N
+8l0l3	un_arrêté_préfectoral	O
+8l0l4	19_janvier_2010__	T
+
+#Deux diagnostics de pollution des sols ont été réalisés en juin 2006 et mars 2008.
+
+9l0l0	Deux_diagnostics_de_pollution_des_sols	N
+9l0l1	ont_été_réalisés	N
+9l0l2	en_juin_2006_et_mars_2008__	T
+
+#Le dernier diagnostic confirme la présence de 4 zones contaminées au droit du site par les hydrocarbures, HAP, xylène, benzène, éthylbenzène, toluène et plomb selon les emplacements.
+
+10l0l0	Le_dernier_diagnostic	N
+10l0l1	4_zones_contaminées	O
+10l0l2	au_droit_du_site	L
+10l1l0	hydrocarbures	S
+10l1l1	HAP	S
+10l1l2	xylène	S
+10l1l3	benzène	S
+10l1l4	éthylbenzène	S
+10l1l5	toluène	S
+10l1l6	plomb	S
+
+#Ces zones sont situées au niveau des aires de stockage des véhicules, des déshuileurs et puisards et des cuves enterrées de fioul.
+
+11l0l0	Ces_zones	O
+11l0l1	situées_au_niveau_des_aires	L
+11l0l2	des_véhicules	O
+11l1l0	fioul	U
+
+#Ces diagnostics n'ont pas permis de conclure quant à l'impact des pollutions constatées sur la nappe.
+
+12l0l0	Ces_diagnostics	N
+12l0l1	la_nappe	O
+
+#Suite à ce constat de contamination des sols, dans son rapport de mars 2008, ANTEA conclut qu'il était nécessire d'effectuer un diagnostic complémentaire par le biais de prélèvements et d'analyses répartis au niveau des sources identifiées de manière à déterminer l'extension de la pollution latéralement et verticalement afin d'évaluer l'ampleur des contaminations et de maintenir une surveillance des eaux souterraines.
+
+13l0l0	Suite_à	R
+13l0l1	ce_constat_de_contamination	N
+13l0l2	sols	O
+13l0l3	de_mars_2008__	T
+13l0l4	ANTEA	O
+13l0l5	conclut	R
+13l0l6	l__extension_de_la_pollution	N
+13l0l7	l__ampleur_des_contaminations	O
+13l0l8	surveillance_des_eaux_souterraines	A
+13l1l0	ANTEA	I
+
+#Ceci a été prescrit  par l'Arrêté Préfectoral d'Autorisation de janvier 2010.
+
+14l0l0	Ceci	O
+14l0l1	a_été_prescrit	N
+14l0l2	par_l__Arrêté_Préfectoral	O
+14l0l3	d_	N
+14l0l4	Autorisation	O
+14l0l5	de_janvier_2010__	T
+
+#Les résultats ont été transmis en mai  2011 ; aucune investigation complémentaire ne s'avère nécessaire à ce jour.
+
+15l0l0	Les_résultats	O
+15l0l1	ont_été_transmis	N
+15l0l2	en_mai___2011	T
+15l0l3	s__avère_nécessaire	O
+15l0l4	à_ce_jour	T
+
+#En revanche, la surveillance des eaux souterraines doit être poursuivie dans les conditions fixées par  l'Arrêté Préfectoral d'Autorisation.
+
+16l0l0	la_surveillance_des_eaux_souterraines	A
+16l0l1	doit_être_poursuivie_dans	R
+16l0l2	les_conditions	O

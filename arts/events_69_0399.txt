@@ -1,0 +1,192 @@
+
+#69.0399
+#CONTEXTE
+
+
+#La société THEVENIN DUCROT DISTRIBUTION (AVIA) a déclaré le 1er février 2019 la mise à l’arrêt définitif d’une station-service située lieu dit Le Bourg à Propières (69).
+
+1l0l0	La_société_THEVENIN_DUCROT_DISTRIBUTION	O
+1l0l1	AVIA	O
+1l0l2	a_déclaré	N
+1l0l3	le_1er_février_2019	T
+1l0l4	la_mise_à_l__arrêt_définitif_d_	N
+1l0l5	une_station___service	O
+1l0l6	située_lieu_dit_Le_Bourg_à_Propières___69__	L
+1l1l0	La_société_THEVENIN_DUCROT_DISTRIBUTION___AVIA	I
+
+#Cette installation était soumise à déclaration avec contrôle périodique au titre de la législation sur les ICPE.
+
+2l0l0	Cette_installation	O
+2l0l1	était_soumise_à	R
+2l0l2	déclaration	N
+2l0l3	contrôle	N
+
+#La mise à l’arrêt effective de l’installation a eu lieu un an plus tôt le 1er février 2018.
+
+3l0l0	La_mise_à_l__arrêt_effective	N
+3l0l1	l__installation	O
+3l0l2	a_eu_lieu	N
+3l0l3	un_an_plus_tôt_le_1er_février_2018__	T
+
+#Conjointement à la déclaration de cessation d’activité, l’exploitant a transmis à l'administration un rapport de diagnostic environnemental des sols (INGEOS Réf.
+
+4l0l0	Conjointement_à	R
+4l0l1	la_déclaration	N
+4l0l2	cessation_d__activité	N
+4l0l3	l__exploitant	O
+4l0l4	a_transmis	N
+4l0l5	l__administration	O
+4l0l6	un_rapport_de_diagnostic_environnemental	N
+4l0l7	sols	N
+4l1l0	INGEOS	I
+
+#3778-17-001-IndB du 15/07/2018).
+
+5l0l0	15_07_2018____	T
+
+#SITUATION ENVIRONNEMENTALE
+
+6l0l0	SITUATION_ENVIRONNEMENTALE	O
+
+#-> Impact des installations sur les sols
+
+
+#Les investigations réalisées par INGEOS ont consisté en la réalisation de 10 sondages et l’échantillonnage des sols pour analyse en laboratoire.
+
+8l0l0	Les_investigations_réalisées	N
+8l0l1	par_INGEOS	O
+8l0l2	la_réalisation	N
+8l0l3	10_sondages	O
+8l0l4	l__échantillonnage_des_sols	N
+8l1l0	INGEOS	I
+
+#Ces dernières ont mis en évidence un impact généralisé en hydrocarbures HCT C10-C40, avec les valeurs les plus significatives au droit de 2 cuves enterrées de 4 m3 (8400 mg/kg MS) et 50 m³ (6900 mg/kg MS).
+
+9l1l0	hydrocarbures_HCT_C10_C40	S
+
+#Les hydrocarbures volatils et les BTEX sont présents à des teneurs peu significatives.
+
+10l1l0	Les_hydrocarbures_volatils	S
+10l1l1	les_BTEX	S
+
+#Le profil des hydrocarbures mesurés est plutôt celui d’un fioul ou d’un gazol peu dégradé.
+
+11l1l0	hydrocarbures	S
+11l1l1	fioul	U
+11l1l2	gazol	S
+
+#-> Impact potentiel sur les eaux souterraines
+
+
+#Il a également été observé lors du diagnostic :
+
+
+#- la présence d’eaux souterraines très superficielles puisqu’observées entre 30 et 60 cm de 	profondeur au sein des regards des cuves enterrées ;
+
+14l0l0	cuves_enterrées	N
+
+#- des regards de cuves tous emplis d’eau, en mélange avec des hydrocarbures dissous (irisation visibles).
+
+15l1l0	des_regards_de_cuves	D
+15l1l1	hydrocarbures	S
+
+#Les cuves étant situées pour partie en zone saturée, et les constats visuels dans les regards laissant apparaître des irisations, un impact des eaux souterraines (sur site et éventuellement hors site) est suspecté.
+
+16l0l0	Les_cuves	O
+16l0l1	étant_situées_pour_partie_en_zone_saturée	L
+16l0l2	un_impact	O
+
+#MESURES DE GESTION (actuellement en cours)
+
+
+#Sur le plan environnemental, le bureau d’études INGEOS recommande :
+
+18l0l0	le_bureau_d__études_INGEOS	O
+18l1l0	INGEOS	I
+
+#→ la surveillance des eaux souterraines :
+
+19l0l0	surveillance_des_eaux_souterraines	A
+
+#- en raison de la vulnérabilité de la nappe, implantation d’un réseau de piézomètres en aval 	hydraulique des installations (1 en zone source et 2 en aval).
+
+20l0l0	implantation_d_	N
+20l0l1	un_réseau_de_piézomètres	O
+20l0l2	en_aval	L
+20l0l3	hydraulique_des_installations	L
+
+#Étant donné la faible profondeur de 	la nappe, une profondeur de 2 m serait suffisante ;
+
+
+#- réaliser une campagne de surveillance de la qualité des eaux au droit de ces ouvrages (BTEX et 	HCT) ;
+
+22l0l0	réaliser_une_campagne_de_surveillance	N
+22l0l1	la_qualité_des_eaux	O
+22l1l0	BTEX	I
+
+#- s’assurer de l’absence d’usage de la nappe en aval hydraulique hors site ;
+
+23l0l0	en_aval_hydraulique_hors_site	L
+
+#- dans le cas où la nappe serait impactée et exploitée en aval, une interprétation de l’état des 	milieux devrait être menée et seconde campagne réalisée.
+
+24l0l0	impactée	O
+24l0l1	exploitée	O
+24l0l2	en_aval	L
+24l0l3	une_interprétation_de_l__état_des	O
+24l0l4	milieux	O
+
+#→ le traitement des sols par excavation :
+
+25l0l0	le_traitement_des_sols	N
+25l0l1	excavation	N
+
+#- dans les limites techniques imposées par les superstructures et la voirie, le traitement par excavation des sols les plus impactés sur la tranche 0,3-1,5 m aux abords des 2 cuves enterrées et leur gestion hors site en centre de traitement autorisé ;
+
+26l0l0	les_limites	O
+26l0l1	les_superstructures	O
+26l0l2	le_traitement_par_excavation_des_sols	N
+26l0l3	plus_impactés	O
+26l0l4	la_tranche	O
+26l0l5	2_cuves_enterrées	O
+26l0l6	gestion_hors_site	N
+26l0l7	traitement_autorisé	O
+26l1l0	2_cuves_enterrées	D
+
+#- le traitement des eaux polluées en fond de fouille par pompage et écrémage avant rejet conventionné au réseau d’assainissement public ;
+
+27l0l0	le	N
+27l0l1	traitement_des_eaux_polluées	O
+27l0l2	écrémage	N
+27l0l3	avant_rejet_conventionné_au_réseau_d__assainissement	L
+
+#- une fois les terrains assainis dans les limites techniques imposées par les limites de propriété, de 	voiries et du bâtiment, un remblaiement par des matériaux sains pourra alors être envisagé.
+
+28l0l0	terrains_assainis	N
+28l0l1	un_remblaiement_par_des_matériaux_sains	N
+
+#L'inspection des installations classée considère également nécessaire de réaliser un prélèvement d'air à l'intérieur du bâtiment d'habitation (usage de boutique au rez de chaussée et logement à l'étage) situé sur site afin de vérifier que la qualité des milieux est comptaible avec un usage comparable à la dernière période d'activité.
+
+29l0l0	L__inspection_des_installations_classée	O
+29l0l1	du_bâtiment_d_	O
+29l0l2	habitation	A
+29l0l3	la_qualité_des_milieux	O
+
+#La procédure de cessation d'activité du site est actuellement en cours.
+
+30l0l0	La_procédure	O
+30l0l1	cessation_d__activité	N
+30l0l2	du_site	O
+30l0l3	est_actuellement_en_cours	T
+
+#L'Inspection des installation classée propose au préfet du Rhône d'encadrer les travaux de dépollution et les investigations complémentaire par arrêté préfectoral (en cours au moment de la rédaction - projet a présenter au CODERST).
+
+31l0l0	L__Inspection_des_installation_classée	O
+31l0l1	préfet_du_Rhône	O
+31l0l2	d__encadrer_les_travaux_de_dépollution	N
+31l0l3	les_investigations_complémentaire	N
+31l0l4	arrêté_préfectoral	O
+31l0l5	au_moment_de	N
+31l0l6	CODERST	O
+31l1l0	préfet_du_Rhône	I
+31l1l1	CODERST	I

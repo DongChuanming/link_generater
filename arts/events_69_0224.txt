@@ -1,0 +1,319 @@
+
+#69.0224
+#Localisé à l'ouest du centre ville, le site, d'une superficie totale d’environ 4000 m², se situe au cœur d'une zone d'activités industrielles et commerciales.
+
+0l0l0	Localisé_à_l__ouest_du_centre_ville	L
+0l0l1	le_site	O
+0l0l2	se_situe_au_cœur_d__une_zone_d__activités	L
+0l0l3	industrielles_et_commerciales	A
+
+#L'aéroport de Lyon-Bron se situe également à proximité, au sud-est du site.
+
+1l0l0	L__aéroport_de_Lyon___Bron	O
+1l0l1	se_situe_également_à_proximité___au_sud_est_du_site	L
+
+#Le canal de Jonage est situé à environ 2,7 km au nord du site.
+
+2l0l0	Le_canal_de_Jonage	R
+2l0l1	est_situé_à_environ_2_7_km_au_nord_du_site	L
+
+#Son sens d'écoulement est dirigé vers l'ouest.
+
+3l0l0	Son_sens	O
+3l0l1	dirigé_vers_l__ouest	L
+
+#Le Rhône est situé à environ 2,9 km au nord du site.
+
+4l0l0	Le_Rhône	O
+4l0l1	est_situé_à_environ_2_9_km_au_nord_du_site	L
+
+#Son sens d'écoulement est également dirigé vers l'ouest.
+
+5l0l0	Son_sens	O
+5l0l1	dirigé_vers_l__ouest	L
+
+#Les principales activités du site étaient le nettoyage de camions citernes ayant contenu divers produits chimiques, activités de traitement de déchets dangereux visées par la nomenclature ICPE.
+
+6l0l0	activités_du_site	A
+6l0l1	le_nettoyage	A
+6l0l2	de_camions_citernes	O
+6l0l3	ayant	R
+6l0l4	contenu_divers_produits_chimiques	O
+6l0l5	activités_de_traitement_de_déchets_dangereux_visées	O
+6l1l0	camions_citernes	S
+6l1l1	produits_chimiques	U
+
+#Le site n'a, selon les études antérieures, jamais abrité d'autre activité industrielle.
+
+7l0l0	Le_site	O
+7l0l1	activité_industrielle	A
+
+#Le site a abrité :
+
+8l0l0	Le_site	O
+8l0l1	a_abrité	A
+
+#- une zone de levage non couverte,
+
+
+#- une zone bétonnée sous auvent,
+
+
+#- un décanteur-séparateur,
+
+
+#- un bâtiment de plain-pied.
+
+
+#Mr Robert BEAUCOURT a exercé en toute illégalité des activités de traitement de déchets dangereux visées par la nomenclature des ICPE.
+
+13l0l0	Mr_Robert_BEAUCOURT	O
+13l0l1	a_exercé_en_toute_illégalité	N
+13l0l2	des_activités_de_traitement_de_déchets_dangereux	A
+13l0l3	visées_par	R
+13l0l4	la_nomenclature_des_ICPE	O
+13l1l0	Mr_Robert_BEAUCOURT	I
+
+#La société ROBERT BEAUCOURT a donc, par arrêté préfectoral du 17 juillet 2007, été mise en demeure :
+
+14l0l0	La_société_ROBERT_BEAUCOURT	O
+14l0l1	arrêté_préfectoral	O
+14l0l2	du_17_juillet_2007__	T
+14l1l0	La_société_ROBERT_BEAUCOURT	I
+
+#- dans un délai de 3 mois de régulariser la situation administrative de ses activités,
+
+15l0l0	dans_un_délai_de_3_mois	T
+15l0l1	régulariser	N
+15l0l2	la_situation_administrative	O
+15l0l3	ses_activités	N
+
+#- dans l'attente de la décision relative à la demande d'autorisation, de suspendre immédiatement l'exploitation de son installation.
+
+16l0l0	dans_l__attente_de	R
+16l0l1	la_décision	O
+16l0l2	relative_à	R
+16l0l3	la_demande_d__autorisation	N
+16l0l4	de_suspendre_immédiatement	N
+16l0l5	l__exploitation_de_son_installation	N
+
+#Un procès verbal contradictoire en date du 28 décembre 2007 atteste de la cessation d'activité et du départ de Mr BEAUCOURT, le 31 décembre 2007.
+
+17l0l0	Un_procès_verbal_contradictoire	O
+17l0l1	en_date_du_28_décembre_2007	T
+17l0l2	la_cessation_d__activité	N
+17l0l3	du_départ	N
+17l0l4	de_Mr_BEAUCOURT	O
+17l0l5	le_31_décembre_2007__	T
+17l1l0	Mr_BEAUCOURT	I
+
+#L'entreprise a été radiée le 14 octobre 2007.
+
+18l0l0	L__entreprise	O
+18l0l1	a_été	N
+18l0l2	le_14_octobre_2007__	T
+
+#Un diagnostic de sols initial daté du 7 décembre 2007 a été réalisé par la société SITA REMEDIATION.
+
+19l0l0	Un_diagnostic_de_sols_initial	N
+19l0l1	daté_du_7_décembre_2007	T
+19l0l2	a_été_réalisé	N
+19l0l3	la_société_SITA_REMEDIATION	O
+19l1l0	la_société_SITA_REMEDIATION	I
+
+#Ce diagnostic a permis de mettre en évidence deux zones présentant des impacts significatifs :
+
+20l0l0	Ce_diagnostic	N
+20l0l1	deux_zones	O
+20l0l2	présentant_des_impacts	N
+
+#- au niveau du décanteur-séparateur d'hydrocarbures, où des teneurs significatives 	en HCT (3600 mg/kg), BTEX (180 mg/kg) et HAP (130 mg/kg) ont été mises en évidence ;
+
+21l0l0	au_niveau_du_décanteur	L
+21l1l0	hydrocarbures	S
+21l1l1	HCT	S
+21l1l2	BTEX	S
+21l1l3	HAP	S
+
+#- au niveau de l'aire de lavage, des teneurs modérées à significatives en HCT (1300 	mg/kg), Xylène (14 mg/kg), TCE (10 mg/kg), PCE (21 mg/kg) et HAP (380 mg/kg) ont été détectées.
+
+22l0l0	des_teneurs	O
+22l1l0	HCT	S
+22l1l1	Xylène	S
+22l1l2	TCE	S
+22l1l3	PCE	S
+22l1l4	HAP	S
+
+#Les conclusions du diagnostic des sols réalisé par SITA REMEDIATION indiquent que l'état des sols est susceptible de générer un risque pour la santé des usagers du site et des personnes chargées d'éventuels travaux d'excavation ainsi que pour les ressources en eau, dû à une éventuelle migration des substances polluantes vers la nappe souterraine.
+
+23l0l0	Les_conclusions	O
+23l0l1	du_diagnostic_des_sols_réalisé	N
+23l0l2	SITA_REMEDIATION	O
+23l0l3	usagers_du_site	A
+23l1l0	SITA_REMEDIATION	I
+23l1l1	substances_polluantes	U
+
+#Mr BEAUCOURT se dégageant de toutes ses responsabilités et de toutes ses obligations administratives au regard de la législation des ICPE, a été mis en demeure par arrêté préfectoral du 10 avril 2009, de produire un dossier de cessation d'activité sous un mois et de réaliser une évaluation de l'état du milieu sous 3 mois.
+
+24l0l0	Mr_BEAUCOURT	O
+24l0l1	se_dégageant_de_toutes_ses_responsabilités	N
+24l0l2	a_été_mis_en_demeure_par	R
+24l0l3	arrêté_préfectoral	O
+24l0l4	10_avril_2009__	T
+24l0l5	cessation_d__activité	N
+24l0l6	sous	L
+24l0l7	un_mois	T
+24l0l8	l__état_du_milieu	O
+24l0l9	sous_3_mois	T
+24l1l0	Mr_BEAUCOURT	I
+
+#Un rapport de gestion de la problématique de dépollution transmis le 7 janvier 2009, réalisé par SITA REMEDIATION, propose une méthodologie et un devis pour la gestion de la dépollution de ce site.
+
+25l0l0	Un_rapport	O
+25l0l1	de_gestion	N
+25l0l2	la_problématique_de_dépollution	O
+25l0l3	transmis	N
+25l0l4	le_7_janvier_2009___réalisé	T
+25l0l5	SITA_REMEDIATION	O
+25l0l6	un_devis	O
+25l0l7	la_dépollution	N
+25l0l8	ce_site	O
+25l1l0	SITA_REMEDIATION	I
+
+#L'arrêté préfectoral du 1er septembre 2009, procède à la consignation d'une somme de 170 000 €, sur la base du devis établi par SITA REMEDIATION, gageant la réalisation des travaux de dépollution.
+
+26l0l0	L__arrêté_préfectoral	O
+26l0l1	du_1er_septembre_2009__	T
+26l0l2	procède_à	R
+26l0l3	la_consignation	N
+26l0l4	000__	O
+26l0l5	SITA_REMEDIATION	O
+26l0l6	gageant	R
+26l0l7	la_réalisation_des_travaux_de_dépollution	N
+26l1l0	SITA_REMEDIATION	I
+
+#Conformément à la circulaire du 8 février 2007 relative à la cessation d'activité d'une Installation Classée - Chaîne de responsabilités - Défaillance des responsables, le préfet du Rhône a sollicité l'accord auprès du ministère chargé de l'environnement pour mettre en œuvre la procédure de travaux d'office.
+
+27l0l0	Conformément_à	R
+27l0l1	la_circulaire	O
+27l0l2	8_février_2007	T
+27l0l3	relative_à	L
+27l0l4	la_cessation_d__activité	N
+27l0l5	d__une_Installation_Classée	O
+27l0l6	le_préfet	O
+27l0l7	du_Rhône	A
+27l0l8	mettre_en_œuvre	N
+27l1l0	le_préfet_du_Rhône	I
+
+#Le 7 avril 2011, le Ministère a donné son accord pour réaliser les interventions suivantes :
+
+28l0l0	Le_7_avril_2011__	T
+28l0l1	le_Ministère	O
+28l0l2	a_donné	N
+28l0l3	réaliser_les_interventions	N
+
+#- excavation des terres polluées sur certaines zones du terrain,
+
+29l0l0	__excavation	N
+29l0l1	des_terres_polluées	O
+29l0l2	certaines_zones_du_terrain	O
+
+#- mise en place de trois piézomètres en aval pour vérifier la qualité de la nappe phréatique,
+
+30l0l0	en_aval	O
+30l0l1	vérifier_la_qualité_de_la_nappe_phréatique	A
+
+#- réalisation d'une étude de vulnérabilité, d'un schéma conceptuel, d'une ARR et d'une interprétation de l'état des milieux,
+
+31l0l0	une_étude_de_vulnérabilité	N
+31l0l1	un_schéma_conceptuel	O
+31l0l2	l__état_des_milieux	N
+
+#- élimination et valorisation des matériaux souillés en filière agréée.
+
+32l0l0	élimination_et_valorisation	N
+32l1l0	matériaux_souillés	U
+
+#La préfecture, via un arrêté préfectoral d'exécution de travaux d'office, daté du 19 avril 2011, a confié à l'ADEME l'exécution des travaux sur le site BEAUCOURT.
+
+33l0l0	La_préfecture	O
+33l0l1	un_arrêté_préfectoral	O
+33l0l2	exécution_de_travaux_d_	N
+33l0l3	daté_du_19_avril_2011__	T
+33l0l4	a_confié	N
+33l0l5	l__ADEME	O
+33l0l6	l__exécution_des_travaux	N
+33l0l7	sur_le	L
+33l0l8	site_BEAUCOURT	O
+33l1l0	La_préfecture	I
+
+#Les travaux de dépollution ont été réalisés du 25 mai 2011 au 2 août 2011 par la société GRS VALTECH.
+
+34l0l0	Les_travaux_de_dépollution	N
+34l0l1	ont_été_réalisés	N
+34l0l2	du_25_mai_2011_au_2_août_2011	T
+34l0l3	par_la_société_GRS_VALTECH	O
+34l1l0	la_société_GRS_VALTECH	I
+
+#Les travaux effectués ont permis de traiter l'ensemble des zones polluées identifiées lors du diagnostic de 2007-2008 effectué par SITA REMEDIATION.
+
+35l0l0	Les_travaux_effectués	N
+35l0l1	ont_permis_de_traiter	N
+35l0l2	l__ensemble_des_zones_polluées	O
+35l0l3	du_diagnostic	N
+35l0l4	de_2007___2008	T
+35l0l5	SITA_REMEDIATION	O
+35l1l0	SITA_REMEDIATION	I
+
+#Au total, 1596,14 tonnes de terres polluées et 121,9 tonnes de bétons pollués ont ainsi été évacués vers une filière de traitement adaptée (désorption thermique).
+
+36l0l0	1596_14_tonnes_de_terres_polluées	O
+36l0l1	bétons_pollués	O
+36l0l2	ont_ainsi_été_évacués_vers_une_filière_de_traitement	N
+36l0l3	désorption	N
+
+#Une fois les excavations terminées, un remblaiement a été effectué sur les zones terrassées.
+
+37l0l0	Une_fois	O
+37l0l1	les_excavations_terminées	N
+37l0l2	un_remblaiement	N
+37l0l3	a_été_effectué	N
+37l0l4	les_zones_terrassées	O
+
+#L'ARR et l'IEM ont été réalisées par la société BURGEAP suite aux travaux de dépollution.
+
+38l0l0	L__ARR	N
+38l0l1	l__IEM	O
+38l0l2	ont_été_réalisées	N
+38l0l3	la_société_BURGEAP	O
+38l0l4	suite	R
+38l0l5	aux_travaux_de_dépollution	N
+38l1l0	la_société_BURGEAP	I
+
+#Elles concluent que les risques sanitaires pour les travailleurs exposés en extérieur seraient acceptables tant pour les effets à seuil que sans seuil.
+
+
+#En conclusion, le site ne présente, dans son état actuel, aucun risque pour la ressource en eau et pour la santé.
+
+40l0l0	le_site	O
+
+#Néanmoins la présence de déchets enfouis a été remarquée lors de la réalisation des travaux au nord de la zone 3.
+
+41l0l0	a_été_remarquée_lors_de	N
+41l0l1	la_réalisation	N
+41l0l2	des_travaux	N
+41l0l3	au_nord_de_la_zone_3__	L
+
+#Un polyane PEHD a été nouvellement placé en bordure d'excavation afin de délimiter les remblais sains et la zone de déchets.
+
+42l0l0	Un_polyane_PEHD	O
+42l0l1	a_été_nouvellement_placé	N
+42l0l2	en_bordure_d__excavation	N
+42l0l3	remblais_sains	N
+42l0l4	la_zone_de_déchets	O
+42l1l0	PEHD	I
+
+#Même si la zone de déchet de génère pas d'impact sanitaire inacceptable sur la nappe, des restrictions d'usage seront mises en place.
+
+43l0l0	des_restrictions_d__usage	O
+43l0l1	seront_mises_en_place	N

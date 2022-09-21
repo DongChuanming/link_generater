@@ -1,0 +1,148 @@
+
+#72.0052
+#L'entreprise OUEST RENOV SERVICE est implantée sur la commune d'Arnage.
+
+0l0l0	L__entreprise_OUEST	O
+0l0l1	RENOV_SERVICE	O
+0l0l2	est	N
+0l0l3	implantée_sur_la_commune_d__Arnage	L
+0l1l0	OUEST_RENOV_SERVICE	I
+
+#A proximité du site est localisé le ruisseau des Mattefeux, nappe à faible profondeur.
+
+1l0l0	A_proximité_du_site	L
+1l0l1	localisé_le_ruisseau_des_Mattefeux	L
+
+#L'entreprise est spécialisée dans les travaux de déconstruction, rénovation, décoration de bâtiments.
+
+2l0l0	L__entreprise	O
+2l0l1	les_travaux_de_déconstruction	N
+2l0l2	rénovation	N
+2l0l3	décoration_de_bâtiments	N
+
+#L'activité exercée relève du régime des Installations Classées pour la Protection de l'Environnement (ICPE) et est soumise à Autorisation.
+
+3l0l0	L__activité_exercée	A
+3l0l1	relève	R
+3l0l2	du_régime_des_Installations_Classées_pour	L
+3l0l3	la_Protection_de	A
+3l0l4	l__Environnement	O
+3l0l5	est_soumise_à_Autorisation	N
+
+#L'entreprise exploite une installation de transit de déchets dangereux relevant de la rubrique n°2718-1 de la nomenclature ICPE.
+
+4l0l0	L__entreprise	O
+4l0l1	exploite	R
+4l0l2	une_installation_de_transit_de_déchets_dangereux	O
+4l0l3	relevant_de	R
+4l0l4	la_rubrique	O
+4l1l0	déchets_dangereux	U
+
+#La visite d'inspection du 04/07/2017 montre la présence :
+
+5l0l0	La_visite	N
+5l0l1	04_07_2017	T
+
+#- d'environ 40 big-bags contenant des déchets classés comme déchets dangereux (amiante),
+
+6l0l0	40_big___bags	O
+6l1l0	des_déchets_classés_comme_déchets_dangereux	U
+6l1l1	amiante	U
+
+#- de déchets amiantés stockés sur palettes filmées,
+
+7l0l0	déchets_amiantés	O
+7l1l0	de_déchets_amiantés	U
+
+#- de plaques de fibro-ciment stockées à l'air libre,
+
+
+#- pollution du sol sur environ 40m2 par déversement d'hydrocarbures.
+
+9l0l0	déversement_d_	N
+9l0l1	hydrocarbures	O
+9l1l0	déversement_d__hydrocarbures	S
+
+#Le 16 août 2017, le site est mis en demeure de régulariser sa situation administrative :
+
+10l0l0	Le_16_août_2017__	T
+10l0l1	le_site	O
+10l0l2	est_mis_en_demeure_de_régulariser	N
+10l0l3	sa_situation_administrative	O
+
+#- en déposant un dossier de demande d'autorisation en préfecture,
+
+11l0l0	déposant_un_dossier_de_demande_d_	N
+11l0l1	autorisation	O
+
+#- en cessant ces activités et en procédant à la remise en état du site.
+
+12l0l0	cessant	N
+12l0l1	ces_activités	A
+12l0l2	procédant_à	R
+12l0l3	la_remise_en_état_du_site	N
+
+#Les mesures d’urgence prises suite à l'arrêté préfectoral du 16 août 2017 sont :
+
+13l0l0	Les_mesures_d__urgence	O
+13l0l1	l__arrêté_préfectoral	O
+13l0l2	16_août_2017	T
+
+#- de cesser sous 24 h tout apport de déchets et d’évacuer les déchets dangereux présents vers une installation de traitement dûment autorisée sous 2 mois,
+
+14l0l0	cesser	N
+14l0l1	sous_24_h	T
+14l0l2	d__évacuer_les_déchets_dangereux	N
+14l0l3	une_installation_de_traitement	O
+14l0l4	sous_2_mois	T
+14l1l0	les_déchets_dangereux_présents	U
+
+#- de réaliser des investigations au droit de la zone polluée par des hydrocarbures ainsi qu’au droit des stockages de déchets afin d’établir l’étendue de la pollution et de mettre en œuvre, le cas échéant, les mesures de décontamination et/ou de surveillance nécessaires.
+
+15l0l0	de_réaliser_des_investigations	N
+15l0l1	au_droit_de	L
+15l0l2	la_zone_polluée	O
+15l0l3	par	N
+15l0l4	hydrocarbures	O
+15l1l0	hydrocarbures	S
+
+#Le 22 décembre 2017, l'inspection des installations classées a constaté que la mise en sécurité du site n'a pas été réalisée :
+
+16l0l0	Le_22_décembre_2017__	T
+16l0l1	l__inspection_des_installations_classées	O
+16l0l2	a_constaté	N
+16l0l3	la_mise_en_sécurité	N
+16l0l4	du_site	O
+16l0l5	n__a_pas_été_réalisée	N
+
+#- les big-bags contenant des déchets d'amiante, présents à l'extérieur du bâtiment ont été évacués,
+
+17l0l0	les_big__	O
+17l0l1	à_l__extérieur_du_bâtiment	L
+17l0l2	ont_été_évacués	N
+17l1l0	des_déchets_d__amiante	U
+
+#- les plaques de fibro-ciment stockées à l'air libre ont été évacuées,
+
+18l0l0	les_plaques_de_fibro___ciment	O
+18l0l1	ont_été_évacuées	N
+
+#- les déchets dont la nature n'avait pas pu être définie ont été mis en benne, en attente de traitement.
+
+19l0l0	ont_été_mis_en_benne	N
+19l0l1	attente	T
+19l0l2	de_traitement	N
+19l1l0	les_déchets	U
+
+#Par arrêté préfectoral du 17 janvier 2018, la société est mise en demeure d'évacuer la benne de déchets dont la nature n'a pas pu être définie, la réalisation de l'étude de diagnostic nécessaire au mémoire de cessation de l'activité clasée, ainsi que de la réalisation des travaux de dépollution.
+
+20l0l0	Par_arrêté_préfectoral	O
+20l0l1	du_17_janvier_2018__	T
+20l0l2	la_société	O
+20l0l3	est_mise_en	N
+20l0l4	d__évacuer	N
+20l0l5	la_benne_de_déchets	O
+20l0l6	la_réalisation_de_l__étude_de_diagnostic	N
+20l0l7	l__activité	N
+20l0l8	clasée	O
+20l0l9	la_réalisation_des_travaux_de_dépollution	N

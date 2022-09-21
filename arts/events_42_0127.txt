@@ -1,0 +1,385 @@
+
+#42.0127
+#En 1911, une chapellerie (Établissement BOURNE) a été construite.
+
+0l0l0	En_1911	T
+0l0l1	une_chapellerie	O
+0l0l2	Établissement_BOURNE	O
+0l0l3	a_été_construite	N
+0l1l0	Établissement_BOURNE	I
+
+#En 1926, le site est racheté par messieurs ECUYER et THOMAS pour y exercer la même activité.
+
+1l0l0	En_1926	T
+1l0l1	le_site	O
+1l0l2	est_racheté	N
+1l0l3	par_messieurs_ECUYER	O
+1l0l4	et_THOMAS	O
+1l0l5	exercer_la_même_activité	A
+1l1l0	messieurs_ECUYER_et_THOMAS	I
+
+#En 1978, un atelier de teinture sur fils est installé dans un bâtiment annexe.
+
+2l0l0	En_1978	T
+2l0l1	un_atelier_de_teinture_sur_fils	O
+2l0l2	est_installé	N
+2l0l3	dans_un_bâtiment_annexe	L
+
+#En 1993, monsieur TABARY, gérant de la société ECUYER-THOMAS, déclare la mise en service de cette installation (rubrique 365 pour une quantité inférieure à une tonne).
+
+3l0l0	En_1993	T
+3l0l1	monsieur_TABARY	O
+3l0l2	la_société_ECUYER___THOMAS	O
+3l0l3	__déclare	N
+3l0l4	la_mise_en_service	N
+3l0l5	de_cette_installation	O
+3l1l0	TABARY	I
+3l1l1	la_société_ECUYER___THOMAS	I
+
+#En 1996, les Établissements ECUYER-THOMAS cessent leur activité.
+
+4l0l0	En_1996__	T
+4l0l1	les_Établissements_ECUYER___THOMAS	O
+4l0l2	cessent_leur_activité	N
+4l1l0	les_Établissements_ECUYER___THOMAS	I
+
+#En 1998 , le site est racheté par la mairie de Chazelles-sur-Lyon et les bâtiments sont restés en l’état.
+
+5l0l0	En_1998	T
+5l0l1	le_site	O
+5l0l2	est_racheté	N
+5l0l3	par	R
+5l0l4	la_mairie	O
+5l0l5	de_Chazelles_sur_Lyon	L
+5l0l6	les_bâtiments	O
+5l0l7	sont_restés_en_l_	N
+
+#Le site est implanté sur la commune de Chazelles-sur-Lyon à 500 m au nord du centre ville au sein d'une zone urbaine à dominante résidentielle.
+
+6l0l0	Le_site	O
+6l0l1	est_implanté_sur_la_commune_de_Chazelles_sur_Lyon_à_500_m_au_nord_du_centre_ville_au_sein_d__une_zone_urbaine_à_dominante_résidentielle	L
+
+#Sa surface est de 3080 m².
+
+
+#D'un point de vue géologique, le site est implanté sur un ensemble métamorphique caractérisé par des orthogneiss rubanés.
+
+8l0l0	le_site	O
+8l0l1	est_implanté_sur	N
+8l0l2	un_ensemble_métamorphique	N
+
+#La succession géologique suivante est généralement trouvée dans le secteur :
+
+9l0l0	La_succession_géologique	O
+
+#- arènes sablo-argileuses à mica,
+
+
+#- gore,
+
+
+#- roche mère.
+
+
+#Les couches d'altération (arènes et gore) sont perméables et permettent l'emmagasinement des eaux météorique.
+
+13l0l0	permettent_l__emmagasinement_des_eaux_météorique	A
+
+#Elles sont donc le siège d'une nappe mal protégée dont le sens d'écoulement suit les lignes de pente et qui est à l'origine de quelques sources de faible débit.
+
+14l0l0	le_siège	O
+14l0l1	est_à_l__origine	N
+
+#D'un point de vue hydrographique, le site est implanté à environ 200m en amont d'une retenue d'eau qui alimente le ruisseau des Calles.
+
+15l0l0	le_site	O
+15l0l1	est_implanté_à_environ_200_m_en_amont_d__une_retenue_d_	L
+15l0l2	alimente_le_ruisseau_des_Calles	L
+
+#Ce ruisseau s'écoule vers le nord ouest et se jette à environ 1,3 km en aval dans le ruisseau de l'Anzieu qui est un affluent de la Loire.
+
+16l0l0	vers_le_nord_ouest	N
+16l0l1	se_jette_à_environ_1_3_km_en_aval	L
+16l0l2	dans_le_ruisseau_de_l__Anzieu	L
+16l0l3	un_affluent_de_la_Loire	L
+
+#Latéralement à l'ouest du site, est également présent à environ 1,2km le ruisseau des Egouts qui s'écoule vers le nord ouest et se jette en aval dans le ruisseau de l'Anzieu à environ 2 km du site.
+
+17l0l0	Latéralement_à_l__ouest_du_site	L
+17l0l1	à_environ_1_2_km	L
+17l0l2	Egouts	L
+17l0l3	vers	T
+17l0l4	le_nord_ouest	N
+17l0l5	jette_en_aval_dans_le_ruisseau_de_l__Anzieu	L
+17l0l6	à_environ_2_km_du_site	L
+
+#Par ailleurs, deux sources situées latéralement à l'ouest du site à environ 800m sont référencées sur la carte IGN.
+
+18l0l0	deux_sources	O
+18l0l1	situées_latéralement_à_l__ouest_du_site_à_environ_800_m	L
+18l0l2	la_carte_IGN	O
+
+#Usage des eaux :
+
+19l0l0	Usage_des_eaux	O
+
+#- les eaux superficielles :
+
+
+#Le ruisseau de l'Anzieu est vraisemblablement utilisé pour la pêche.
+
+21l0l0	l__Anzieu	L
+21l0l1	est_vraisemblablement_utilisé	N
+21l0l2	pour	R
+21l0l3	la_pêche	A
+
+#- Les eaux souterraines :
+
+
+#Aucun captage pour l'alimentation en eau potable n'est présent dans un rayon de 2km autour du site.
+
+23l0l0	Aucun_captage	O
+23l0l1	l__alimentation_en_eau_potable	A
+23l0l2	dans_un_rayon_de_2_km_autour_du_site	L
+
+#Les captages les plus proches sont situés sur les communes de Courzieu, Duerne, Sainte-Foy l'Argentière et Montromant.
+
+24l0l0	Les_captages_les_plus_proches	O
+24l0l1	situés_sur_les_communes_de_Courzieu___Duerne___Sainte_Foy_l__Argentière_et_Montromant	L
+
+#En revanche, d'après la carte IGN, dans un rayon de 500m autour du site, sont présents des puits de particuliers et un réservoir sans doute utilisé pour l'irrigation.
+
+25l0l0	dans_un_rayon_de_500_m_autour_du_site	L
+25l0l1	sont_présents	N
+25l0l2	des_puits_de_particuliers	O
+25l0l3	sans_doute	O
+25l0l4	utilisé_pour	R
+25l0l5	l__irrigation	L
+
+#En février 2006, l'inspection a reçu un dossier d’évaluation simplifiée des risques réalisé par SOCOTEC le 05/02/2004 à la demande de la Mairie de Chazelles sur Lyon dans le cadre d'une démolition et de la requalification foncière en habitation du site Ecuyer-Thomas.
+
+26l0l0	En_février_2006__	T
+26l0l1	l__inspection	O
+26l0l2	a_reçu	N
+26l0l3	un	O
+26l0l4	dossier_d__évaluation_simplifiée_des_risques_réalisé	N
+26l0l5	SOCOTEC	O
+26l0l6	le_05_02_2004	T
+26l0l7	à_la_demande_de	R
+26l0l8	la_Mairie	O
+26l0l9	de_Chazelles_sur_Lyon	L
+26l0l10	dans_le_cadre_d_	R
+26l0l11	une_démolition	N
+26l0l12	la_requalification_foncière_en_habitation	N
+26l0l13	Ecuyer___Thomas	L
+26l1l0	SOCOTEC	I
+
+#Le BE Socotec a conclu que cette évaluation est valable pour un site conservé en l'état destiné à l'accueil d'habitations, avec en cas de présence de jardins, l'apport de 30 cm de terre végétale et l'interdiction de potagers ou arbres fruitiers sur site.
+
+27l0l0	Le_BE_Socotec	O
+27l0l1	site	O
+27l0l2	conservé_en	N
+27l0l3	l__état	L
+27l0l4	destiné_à	R
+27l0l5	l_	R
+27l0l6	accueil_d__habitations	A
+27l1l0	Le_BE_Socotec	I
+
+#De ce fait, aucun contact avec le sols pollué ne sera possible.
+
+
+#En tout état de cause, des investigations complémentaires au droit du bâtiment principal sont à envisager compte tenu de la présence de sédiments pollués par des métaux.
+
+29l0l0	des_investigations_complémentaires	O
+29l0l1	au_droit_du_bâtiment_principal	L
+29l0l2	des_métaux	O
+29l1l0	métaux	S
+
+#Par ailleurs, les bétons souillés devront être éliminés en centre adapté lors de la démolition.
+
+30l0l0	la_démolition	N
+
+#Dans son rapport du 07/02/2007, l'inspection a indiqué que l’étude de sols montre la présence de pollution sur le site pouvant présenter des risques notamment une pollution au mercure, une pollution des bétons par les hydrocarbures et une pollution des sols localisée au droit de la teinturerie par le cuivre et des composés chlorés.
+
+31l0l0	07_02_2007	T
+31l0l1	la_présence_de_pollution	O
+31l0l2	une_pollution_des_sols_localisée	N
+31l0l3	au_droit_de_la_teinturerie	A
+31l1l0	mercure	S
+31l1l1	hydrocarbures	S
+31l1l2	le_cuivre	S
+31l1l3	des_composés_chlorés	S
+
+#L'inspection préconise que des investigations complémentaires soient réalisées comme proposé par SOCOTEC et que des travaux de dépollution soient réalisés :
+
+32l0l0	des_investigations_complémentaires	O
+32l0l1	soient_réalisées	N
+32l0l2	SOCOTEC	O
+32l0l3	des_travaux_de_dépollution_soient_réalisés	N
+32l1l0	SOCOTEC	I
+
+#- évacuation des déchets restants,
+
+33l0l0	évacuation	N
+
+#- élimination des bétons souillés,
+
+34l0l0	élimination	N
+34l0l1	bétons_souillés	O
+
+#- caractérisation et élimination des sédiments souillés éventuellement.
+
+
+#L'inspection préconise aussi la réalisation d’un diagnostic approfondi pour caractériser la pollution en mercure et produits chlorés, puis la réalisation d’un plan de gestion.
+
+36l0l0	réalisation_d__un_diagnostic_approfondi	N
+36l1l0	mercure	S
+36l1l1	produits_chlorés	U
+
+#Enfin, elle préconise la mise en place d’un réseau de surveillance des eaux souterraines.
+
+37l0l0	en_place_d__un	N
+37l0l1	réseau_de_surveillance_des_eaux_souterraines	A
+
+#L'inspection a donc transmis un projet d’arrêté préfectoral en application de l’article 34-1 du décret n° 77-1133 du 21 septembre 1977 modifié et proposé d’imposer les prescriptions par arrêté préfectoral à madame le Maire de Chazelles-sur-Lyon en tant que détenteur du site (Arrêté Préfectoral signé le 29/06/2007).
+
+38l0l0	L__inspection	O
+38l0l1	a_donc_transmis	N
+38l0l2	un_projet	O
+38l0l3	21_septembre_1977	T
+38l0l4	d__imposer_les_prescriptions	N
+38l0l5	par_arrêté_préfectoral	O
+38l0l6	madame_le_Maire	O
+38l0l7	Chazelles_sur_Lyon	L
+38l0l8	le_29_06_2007	T
+38l1l0	le_Maire	I
+
+#En septembre 2008, l'inspection a reçu un rapport de Norisko Environnement mandaté par l'EPORA pour la conduite d'un diagnostic environnemental approfondi du site ainsi que pour son assistance dans l'élaboration d'une stratégie de dépollution.
+
+39l0l0	En_septembre_2008__	T
+39l0l1	l__inspection	O
+39l0l2	a_reçu	N
+39l0l3	un_rapport	O
+39l0l4	Norisko_Environnement	O
+39l0l5	mandaté	N
+39l0l6	par_l__EPORA	O
+39l0l7	la_conduite_d__un_diagnostic_environnemental_approfondi	N
+39l0l8	site	O
+39l0l9	l_	O
+39l0l10	élaboration_d_	N
+39l0l11	une_stratégie	O
+39l0l12	dépollution	N
+39l1l0	l__EPORA	I
+
+#En conclusion de ce rapport, Norisko Environnement indique que suite aux résultats obtenus pour la campagne menée le 06/08/2008, et dans le cadre de l'usage futur du site (aménagement en un usage résidentiel avec jardins, parking et éventuels puits), ils recommandent :
+
+40l0l0	Norisko_Environnement	O
+40l0l1	la_campagne	N
+40l0l2	menée	N
+40l0l3	le_06_08_2008	T
+40l0l4	dans_le_cadre_de	R
+40l0l5	l_	A
+40l0l6	usage_futur_du_site	O
+40l0l7	aménagement_en_un_usage_résidentiel	N
+
+#- L'arrêt de cette surveillance bi-annuelle mais la mise en œuvre d'une Interprétation de l'Etat des Milieux (IEM) afin de statuer sur l'adéquation entre l'état des milieux (teneurs anormales en nickel et plomb en "hautes eaux" en aval du site) et les usages recensés.
+
+41l0l0	L__arrêt	N
+41l0l1	surveillance_bi_annuelle	O
+41l0l2	la_mise_en_œuvre	N
+41l0l3	en_aval_du_site	L
+41l1l0	nickel	S
+41l1l1	plomb	S
+
+#A cet effet, une enquête de terrain visant l'inventaire détaillé des usages des captages d'eaux souterraines en aval hydraulique du site doit être menée,
+
+42l0l0	une_enquête_de_terrain	N
+42l0l1	visant	R
+42l0l2	l__inventaire	N
+42l0l3	en_aval_hydraulique_du_site	L
+
+#- En cas de présence avérée de captages sensibles dans les environs du site : la réalisation de prélèvements d'eaux au sein de ceux-ci et leur comparaison aux valeurs réglementaires et la mise en œuvre d'un plan de gestion au niveau du nouveau site.
+
+43l0l0	En_cas_de	R
+43l0l1	présence_avérée_de_captages_sensibles	O
+43l0l2	dans_les_environs_du_site	L
+43l0l3	la_réalisation	N
+43l0l4	la_mise_en_œuvre_d_	N
+43l0l5	un_plan_de_gestion	O
+
+#Enfin, dans l'attente de l'accord de la mairie de Chazelles-sur-Lyon pour la poursuite des études de réhabilitation du terrain et dans un souci de préserver la santé humaine, Norisko Environnement réitère la préconisation émise à l'issue du diagnostic approfondi de pollution des sols à savoir :
+
+44l0l0	la_mairie	O
+44l0l1	de_Chazelles_sur_Lyon	L
+44l0l2	la_poursuite_des_études_de_réhabilitation	N
+44l0l3	du_terrain	O
+44l0l4	Norisko_Environnement	O
+44l0l5	réitère_la_préconisation	N
+44l0l6	diagnostic_approfondi_de_pollution_des_sols	N
+
+#- la quantification des risques encourus par les futurs usagers du site par la réalisation d'une Évaluation Quantitative des Risques sanitaires (EQRS).
+
+45l0l0	la_réalisation_d__une_Évaluation_Quantitative	N
+
+#Faute de projets concrets sur le site, la réhabilitation n'a pas été poursuivie par la Mairie.
+
+46l0l0	Faute_de_projets_concrets	O
+46l0l1	la_réhabilitation	O
+46l0l2	n_	R
+46l0l3	a_pas_été_poursuivie	N
+46l0l4	la_Mairie	O
+
+#Ce site est actuellement une friche industrielle
+
+47l0l0	Ce_site	O
+47l0l1	une_friche_industrielle	O
+
+#Vus les résultats d’une étude montrant une pollution au mercure, au cuivre, aux hydrocarbures et aux composés chlorés, ce site a fait l'objet d'un arrêté de prescriptions spéciales.
+
+48l0l0	ce_site	O
+48l0l1	a_fait_l__objet_d_	R
+48l0l2	un_arrêté_de_prescriptions_spéciales	O
+48l1l0	mercure	S
+48l1l1	cuivre	S
+48l1l2	hydrocarbures	S
+
+#Aucun élément n’a été transmis à l’administration à la suite de cet arrêté préfectoral.
+
+49l0l0	l__administration	O
+49l0l1	à_la_suite_de	R
+49l0l2	cet_arrêté_préfectoral	O
+
+#Ainsi, au regard des pollutions résiduelles présentes sur site, et de la liquidation définitive de la société, il a été proposé d'inscrire ce site en SIS.
+
+50l0l0	la_liquidation_définitive	N
+50l0l1	la_société	O
+50l0l2	ce_site	O
+
+#« En application de l’article L 556-2 du code de l’environnement, il relève de la responsabilité du maître d’ouvrage de s’assurer de la compatibilité de son projet avec l’état de pollution du terrain, en réalisant notamment une étude de sol dont le contenu est défini à l’article R 556-2 du même code.
+
+51l0l0	la_responsabilité_du_maître_d__ouvrage	O
+51l0l1	de	R
+51l0l2	s__assurer_de	N
+51l0l3	la_compatibilité	O
+51l0l4	notamment_une_étude_de_sol	N
+
+#Le maître d'ouvrage doit attester de la compatibilité de son projet avec l’état de pollution des sols en joignant au dossier de demande de permis de construire / d’aménager une attestation garantissant la réalisation de cette étude des sols et de sa prise en compte dans la conception du projet de construction ou de lotissement.
+
+52l0l0	Le_maître_d_	O
+52l0l1	ouvrage	R
+52l0l2	doit_attester	N
+52l0l3	la_compatibilité	O
+52l0l4	son_projet	O
+52l0l5	permis_de_construire	N
+52l0l6	d__aménager	N
+52l0l7	une_attestation	O
+52l0l8	garantissant_la_réalisation	N
+52l0l9	construction_ou_de_lotissement	N
+
+#Cette attestation, dont les modalités sont définies au R 556-3 du code de l’environnement, doit être établie par un bureau d'études certifié dans le domaine des sites et sols pollués conformément à une norme définie par arrêté du ministre chargé de l'environnement, ou équivalent. »
+
+53l0l0	les_modalités	O
+53l0l1	être_établie	N
+53l0l2	par_un_bureau_d__études	O
+53l0l3	certifié_dans_le_domaine_des	R
+53l0l4	sites_et_sols_pollués	O

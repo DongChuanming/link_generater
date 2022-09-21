@@ -1,0 +1,97 @@
+
+#29.0064
+#L'arrêté préfectoral du 5 novembre 1996 autorise la société LE BRIS Garage Poids-Lourds à exploiter un établissement spécialisé dans la récupération et le stockage de véhicule poids-lourds hors d’usage.
+
+0l0l0	L__arrêté	O
+0l0l1	autorise_la_société	O
+0l0l2	Lourds_à_exploiter_un_établissement	A
+0l0l3	spécialisé	O
+0l1l0	L__arrêté	I
+
+#Cependant, l'activité existe depuis 1953.
+
+1l0l0	Cependant___l__activité	O
+1l0l1	existe_depuis_1953	T
+1l0l2	_	N
+
+#La société a notifié l’arrêt partiel de ses activités par courrier du 19 mai 2004 (site coupé en deux) :
+
+2l0l0	notifié_l_	O
+2l0l1	arrêt_partiel_de_ses	T
+
+#- la moitié nord, polluée, objet de la cessation d'activité ;
+
+3l0l0	__la_moitié	O
+3l0l1	nord___polluée	N
+3l0l2	__objet_de_la_cessation_d__activité	O
+3l1l0	__la	I
+
+#- la moitié sud (n'a pas fait l'objet d'étude environnementale) qui a été réaménagée et a fait l'objet d'un arrêté préfectoral complémentaire le 28 avril 2011 pour réactualiser l'AP initial et, accessoirement, introduire l'agrément VHU.
+
+4l0l0	la_moitié_sud__	O
+4l0l1	objet_d__étude_environnementale	N
+
+#L'exploitant a déclaré la cessation définitive de ses activités par lettre du 17 avril 2018.
+
+5l0l0	L__exploitant	O
+5l0l1	cessation_définitive_de_ses_activités	N
+5l0l2	par_lettre_du_17_avril	N
+5l0l3	2018__	R
+
+#Des études ont été menées sur la partie nord de 2004 à 2007 dans le cadre de la cessation partielle d’activité.
+
+6l0l0	Des_études_ont	O
+6l0l1	été_menées_sur_la_partie_nord_de_2004_à	N
+6l0l2	2007_dans_le_cadre	O
+6l0l3	cessation_partielle_d__activité__	T
+
+#Elles ont mis de mettre en évidence :
+
+7l0l0	Elles_ont_mis_de_mettre_en	N
+7l0l1	évidence__	O
+
+#- une pollution des sols par les métaux lourds - ETM (plomb, chrome, cuivre, arsenic, nickel) et les hydrocarbures totaux (HCT) ;
+
+
+#- une pollution des eaux souterraines par le plomb et le nickel.
+
+9l0l0	une_pollution_des_eaux	N
+9l0l1	souterraines_par_le_plomb	O
+9l1l0	souterraines_par_le_plomb_et_le_nickel__	S
+
+#L’arrêté préfectoral du 11 mars 2005 prescrit la remise en état du site ainsi que la surveillance semestrielle des eaux souterraines (pour les paramètres indice d'hydrocarbures totaux (HCT), plomb, arsenic, chrome, cuivre, nickel, cadmium).
+
+10l0l0	L__arrêté_préfectoral	N
+10l0l1	remise_en_état	O
+10l1l0	prescrit_la_remise_en_état	S
+
+#Les travaux de dépollution ont été effectués de 2004 à 2007 par l'évacuation des déchets et des terres souillées (116 tonnes).
+
+11l0l0	Les_travaux_de_dépollution	O
+11l0l1	ont_été	T
+11l0l2	effectués_de_2004_à_2007_par_l_	N
+11l0l3	déchets_et_des_terres_souillées	A
+11l0l4	__116_tonnes____	A
+
+#Une visite de l'’inspection des installations classées a eu lieu le 18 février 2011 et a permis de constater la remise en état de la partie nord du site (procès-verbal de récolement en date du 1er mars 2011).
+
+12l0l0	Une_visite_de_l_inspection	N
+12l0l1	des_installations	N
+12l0l2	classées_a	T
+12l0l3	lieu_le_18_février	N
+
+#Les campagnes de prélèvements 2005 à 2007 ont conclu en l’absence d’impact sur les eaux souterraines (traces pour les hydrocarbures C10-C40 et les métaux).
+
+13l0l0	Les_campagnes	N
+13l0l1	de_prélèvements_2005_à_2007_ont_conclu_en_l_	O
+13l0l2	absence	N
+13l0l3	d__impact_sur_les_eaux	T
+13l0l4	traces_pour_les_hydrocarbures	N
+13l0l5	C10_C40_et_les	O
+
+#Compte tenu de ces résultats, la surveillance des eaux souterraines a été supprimée par l’arrêté préfectoral du 28 avril 2011.
+
+14l0l0	Compte_tenu_de_ces_résultats___la	N
+14l0l1	surveillance	T
+14l0l2	souterraines_a_été_supprimée	O
+14l1l0	28_avril_2011__	S

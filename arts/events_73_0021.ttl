@@ -1,0 +1,153 @@
+@prefix : <http://example.com/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:event_components a owl:Class.
+:labels a owl:Class.
+:when a owl:ObjectProperty .
+:status a owl:ObjectProperty .
+:locate a owl:ObjectProperty .
+:parallel a owl:ObjectProperty .
+:unknown a owl:ObjectProperty .
+:agent a owl:ObjectProperty .
+:pagent a owl:ObjectProperty .
+:target a owl:ObjectProperty .
+:indirect_target a owl:ObjectProperty .
+:ptarget a owl:ObjectProperty .
+:complement a owl:ObjectProperty .
+:passive_target a owl:ObjectProperty .
+:passive_agent a owl:ObjectProperty .
+:precise a owl:ObjectProperty .
+:pprecise a owl:ObjectProperty .
+:pollutant a owl:ObjectProperty .
+:event owl:subClassOf owl:Class.
+:N a :labels.
+:event rdfs:label :N.
+:object owl:subClassOf owl:Class.
+:O a :labels.
+:object rdfs:label :O.
+:time owl:subClassOf owl:Class.
+:T a :labels.
+:time rdfs:label :T.
+:location owl:subClassOf owl:Class.
+:L a :labels.
+:location rdfs:label :L.
+:industrial_activity owl:subClassOf owl:Class.
+:A a :labels.
+:industrial_activity rdfs:label :A.
+:relation owl:subClassOf owl:Class.
+:R a :labels.
+:relation rdfs:label :R.
+:institution owl:subClassOf owl:Class.
+:I a :labels.
+:institution rdfs:label :I.
+:pollutant_container owl:subClassOf owl:Class.
+:D a :labels.
+:pollutant_container rdfs:label :D.
+:pollutant owl:subClassOf owl:Class.
+:U a :labels.
+:pollutant rdfs:label :U.
+:chemical owl:subClassOf owl:Class.
+:S a :labels.
+:chemical rdfs:label :S.
+:0l0l0 a :object.
+:0l0l1 a :relation.
+:exploiter owl:subClassOf :event.
+:0l0l2 a :exploiter.
+:0l0l3 a :object.
+:0l0l3 ::target :0l0l2.
+:0l0l3 :target :0l0l2.
+:1l0l0 a :object.
+:habitation owl:subClassOf :event.
+:1l0l1 a :habitation.
+:1l0l2 a :time.
+:2l0l0 a :object.
+:2l0l1 a :location.
+:2l0l2 a :location.
+:2l0l1 ::locate :2l0l0.
+:3l0l0 a :object.
+:pollution owl:subClassOf :event.
+:3l0l1 a :pollution.
+:3l0l2 a :object.
+:3l0l0 ::target :3l0l1.
+:3l0l2 :unknown :3l0l1.
+:5l0l0 a :time.
+:diagnostic owl:subClassOf :event.
+:5l0l1 a :diagnostic.
+:5l0l2 a :object.
+:5l0l3 a :object.
+:5l0l4 a :time.
+:site owl:subClassOf :event.
+:5l0l5 a :site.
+:5l0l1 :when :5l0l0.
+:5l0l1 :when :5l0l0.
+:5l0l2 :complement :5l0l1.
+:5l0l3 :unknown :5l0l1.
+:5l0l5 :when :5l0l0.
+:6l0l0 a :relation.
+:être owl:subClassOf :event.
+:6l0l1 a :être.
+:sol owl:subClassOf :event.
+:6l0l2 a :sol.
+:6l0l2 :complement :6l0l1.
+:12l0l0 a :object.
+:12l0l1 a :relation.
+:12l0l2 a :industrial_activity.
+:12l0l3 a :object.
+:12l0l4 a :industrial_activity.
+:12l0l1 :unknown :12l0l2.
+:12l0l1 :unknown :12l0l4.
+:conclusion owl:subClassOf :event.
+:13l0l0 a :conclusion.
+:montrer owl:subClassOf :chemical.
+:15l1l0 a :montrer.
+:chrome owl:subClassOf :chemical.
+:15l1l1 a :chrome.
+:lagune owl:subClassOf :chemical.
+:15l1l2 a :lagune.
+:arsenic owl:subClassOf :chemical.
+:16l1l0 a :arsenic.
+:piézomètre owl:subClassOf :chemical.
+:16l1l1 a :piézomètre.
+:17l0l0 a :object.
+:17l1l0 a :diagnostic.
+:17l0l0 :contain :17l1l0.
+:18l0l0 a :object.
+:18l0l1 a :site.
+:18l0l2 a :object.
+:18l0l3 a :time.
+:18l0l1 :complement :18l0l0.
+:18l0l2 :complement :18l0l1.
+:19l1l0 a :institution.
+:profit owl:subClassOf :event.
+:20l0l0 a :profit.
+:20l0l1 a :industrial_activity.
+:rapport owl:subClassOf :event.
+:21l0l0 a :rapport.
+:21l0l1 a :relation.
+:21l0l2 a :object.
+:eau owl:subClassOf :event.
+:21l0l3 a :eau.
+:21l0l4 a :time.
+:21l0l0 :when :21l0l4.
+:21l0l2 :indirect_target :21l0l1.
+:21l0l3 :complement :21l0l2.
+:21l0l3 :when :21l0l4.
+:valeur owl:subClassOf :event.
+:22l0l0 a :valeur.
+:22l0l1 a :time.
+:22l0l2 a :industrial_activity.
+:22l0l0 :when :22l0l1.
+:22l0l0 :when :22l0l1.
+:anomalie owl:subClassOf :event.
+:25l0l0 a :anomalie.
+:25l0l1 a :time.
+:25l0l0 :when :25l0l1.
+:résultat owl:subClassOf :event.
+:26l0l0 a :résultat.
+:26l0l1 a :time.
+:27l0l0 a :arsenic.
+:amont owl:subClassOf :chemical.
+:27l1l0 a :amont.
+:28l1l0 a :valeur.

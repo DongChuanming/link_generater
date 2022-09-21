@@ -1,0 +1,634 @@
+
+#33.0168
+#Usine de fabrication de capsules embouties mono pièces en aluminium et en étain exploitée par la société AMCOR (ex ALCAN PACKAGING) à St Seurin sur l'Isle (33).
+
+0l0l0	Usine	O
+0l0l1	de_fabrication_de_capsules_embouties_mono_pièces_en_aluminium_et_en_étain	A
+0l0l2	exploitée_par	R
+0l0l3	la_société_AMCOR	O
+0l0l4	ALCAN_PACKAGING	O
+0l0l5	à_St_Seurin_sur_l__Isle___33__	L
+0l1l0	la_société_AMCOR	I
+0l1l1	ALCAN_PACKAGING	I
+
+#Le site est localisé en bordure de l’Isle, au Nord de la commune.
+
+1l0l0	Le_site	O
+1l0l1	localisé_en_bordure_de_l__Isle	L
+1l0l2	__au_Nord_de_la_commune	L
+
+#L’activité du groupe dans ce domaine est répartie sur 3 usines en France.
+
+2l0l0	L__activité	A
+2l0l1	3_usines	O
+2l0l2	en_France	L
+
+#Le site de SAINT-SEURIN-SUR-L’ISLE emploie environ 220 personnes.
+
+3l0l0	Le_site	O
+3l0l1	SAINT_SEURIN_SUR_L_ISLE	O
+3l1l0	Le_site_de_SAINT_SEURIN_SUR_L_ISLE	I
+
+#Les installations sont autorisées par l'arrêté préfectoral du 21/02/1995.
+
+4l0l0	Les_installations	O
+4l0l1	sont_autorisées	N
+4l0l2	par_l__arrêté_préfectoral	O
+4l0l3	21_02_1995__	T
+
+#Les capsules, destinées à l'habillage des bouteilles de spiritueux et de vin haut de gamme, remplacent les capsules en plomb plaqué d'étain dont la fabrication a été stoppée courant 1993 suite à l'interdiction de l'utilisation du plomb.
+
+5l0l0	destinées_à	R
+5l0l1	l__habillage_des_bouteilles_de_spiritueux_et_de_vin_haut_de_gamme	A
+5l0l2	a_été_stoppée	N
+5l0l3	courant_1993	T
+5l0l4	suite_à	R
+5l0l5	l__interdiction	N
+5l0l6	l__utilisation_du_plomb	A
+5l1l0	plomb	S
+5l1l1	étain	S
+5l1l2	plomb	S
+
+#La production du site concerne trois types de produits :
+
+
+#- capsules en étain (120 millions de capsules par an)
+
+7l1l0	étain	S
+
+#- capsules en aluminium (180 millions de capsules par an dont 80 millions de capsules à vis)
+
+8l1l0	aluminium	S
+
+#- et capsules en complexe PVC – aluminium (80 millions de capsules par an)
+
+9l0l0	capsules	A
+9l1l0	PVC	S
+9l1l1	aluminium	S
+
+#et comprend les activités suivantes :
+
+
+#- fonte et laminage de l’étain
+
+11l0l0	laminage_de_l__étain	A
+
+#- formation des capsules par emboutissage (étain et aluminium) ou par collage (complexe PVC – aluminium)
+
+12l0l0	emboutissage	O
+12l0l1	aluminium	O
+12l1l0	étain	S
+12l1l1	aluminium	S
+12l1l2	complexe	I
+12l1l3	PVC	S
+12l1l4	aluminium	S
+
+#- peinture (par deux machines d’héliographie, par des postes automatisés de pulvérisation et six postes manuels)
+
+13l0l0	pulvérisation	N
+
+#- revenu (pour faciliter le formage de certaines capsules d’aluminium)
+
+14l0l0	faciliter_le_formage_de_certaines_capsules	A
+14l1l0	capsules_d__aluminium	U
+
+#1 - DIAGNOSTIC
+
+15l0l0	DIAGNOSTIC	N
+
+#1 -1 Action nationale sur les sols potentiellement pollués par le plomb
+
+16l1l0	plomb	S
+
+#De par son activité et les émissions passées de plomb supérieures à 50 kg/an, ce site a été inscrit dans l'action nationale relative au diagnostic de l'état des sols potentiellement pollués par le plomb.
+
+17l0l0	les_émissions_passées	O
+17l0l1	ce_site	O
+17l0l2	a_été	N
+17l0l3	inscrit_dans	R
+17l0l4	l__action	N
+17l0l5	nationale	O
+17l0l6	relative_au	R
+17l0l7	diagnostic	N
+17l1l0	plomb	S
+17l1l1	plomb	S
+
+#L'arrêté du 18/07/2005 prescrit ce diagnostic à l'échéance de trois mois.
+
+18l0l0	18_07_2005	T
+18l0l1	prescrit_ce_diagnostic	N
+18l0l2	à	R
+18l0l3	l__échéance_de_trois_mois	T
+
+#Le plan d'échantillonnage a été remis le 28/11/2005.
+
+19l0l0	Le_plan_d__échantillonnage	O
+19l0l1	a_été_remis	N
+19l0l2	le_28_11_2005__	T
+
+#Le diagnostic, remis le 02/03/2006, révèle un dépassement de la teneur de 100 mg/kg de plomb en un point d'une zone récréative et résidentielle à l'Est du site.
+
+20l0l0	Le_diagnostic	N
+20l0l1	remis	N
+20l0l2	le_02_03_2006	T
+20l0l3	en_un_point_d__une_zone_récréative	N
+20l0l4	résidentielle	A
+20l0l5	à_l__Est_du_site	L
+20l1l0	plomb	S
+
+#Le site relèverait du niveau "2a" du guide INERIS pour l'orientation des actions à mettre en œuvre autour d'un site dont les sols sont potentiellement pollués par le plomb (réalisation d'un diagnostic approfondi).
+
+21l0l0	Le_site	O
+21l0l1	l__orientation_des_actions	O
+21l0l2	réalisation_d__un_diagnostic	N
+21l1l0	plomb	S
+
+#Toutefois, il s'agit tout d'abord de réaliser d'autres prélèvements pour vérifier la représentativité de cette mesure.
+
+
+#Une nouvelle mesure réalisée en 2008 fait apparaître une teneur en plomb au point n°12 de 220 mg/kg.
+
+23l0l0	Une_nouvelle_mesure_réalisée	N
+23l0l1	en_2008	T
+23l1l0	plomb	S
+
+#Outre le fait qu’elle est supérieure à la valeur précédemment mesurée (130 mg/kg en 2005), le guide INERIS relatif à ce type de diagnostic prévoit qu’au-delà de 200 mg/kg, un diagnostic approfondi doit être réalisé.
+
+24l0l0	en_2005	T
+24l0l1	ce_type_de_diagnostic	N
+24l0l2	un_diagnostic_approfondi	N
+24l0l3	doit_être_réalisé	N
+
+#L’exploitant met en avant le fait que cette mesure fut réalisée à l’extérieur du site, sur un ancien parking communal, qui pourrait expliquer des concentrations en plomb semblables à celles relevées en bordure de la RN89, lors de la mesure en 2005.
+
+25l0l0	L__exploitant	O
+25l0l1	cette_mesure	N
+25l0l2	fut_réalisée	N
+25l0l3	à_l__extérieur_du_site	L
+25l0l4	sur_un_ancien_parking_communal	L
+25l0l5	en_bordure_de_la_RN89	L
+25l0l6	la_mesure	N
+25l0l7	en_2005__	T
+25l1l0	plomb	S
+
+#Par ailleurs il précise que l’activité de fusion du plomb est arrêtée depuis le 1er janvier 1993 et que les mesures faites à l’intérieur de l’établissement en 2005 étaient inférieures au seuil de référence.
+
+26l0l0	l__activité_de_fusion_du_plomb	A
+26l0l1	est_arrêtée	N
+26l0l2	depuis_le_1er_janvier_1993	T
+26l0l3	les_mesures	A
+26l0l4	faites	N
+26l0l5	à_l__intérieur_de_l__établissement	L
+26l0l6	en_2005	T
+
+#D’après les résultats des prélèvements ; ce point étant singulier, isolé ; la teneur mesurée étant proche du seuil et compte tenu de l’incertitude de mesures, l'Inspection des Installation Classées à proposé de solder ce point.
+
+27l0l0	__l__Inspection_des_Installation_Classées	O
+
+#1 -2 Diagnostic de pollution
+
+28l0l0	Diagnostic_de_pollution	O
+
+#Dans le cadre de sa politique environnementale, l'exploitant a fait réaliser un diagnostic de pollution des sols de son site en 2014.
+
+29l0l0	Dans_le_cadre_de	R
+29l0l1	sa_politique_environnementale	O
+29l0l2	l__exploitant	O
+29l0l3	a_fait_réaliser	N
+29l0l4	un_diagnostic_de_pollution_des_sols	N
+29l0l5	son_site	O
+29l0l6	en_2014__	T
+
+#Les premières investigations de terrain ont consisté en la réalisation de 15 sondages de sol réalisés les 7 et 11 avril 2014.
+
+30l0l0	Les_premières_investigations_de_terrain	N
+30l0l1	la_réalisation	N
+30l0l2	de	R
+30l0l3	15_sondages_de_sol	N
+30l0l4	réalisés	N
+30l0l5	les_7_et_11_avril_2014__	T
+
+#Les investigations ont porté sur les installations suivantes :
+
+31l0l0	Les_investigations	N
+
+#- Zones de localisation de plusieurs anciennes cuves enterrées ;
+
+32l0l0	plusieurs_anciennes_cuves_enterrées	O
+
+#- Zone de laminage ;
+
+33l0l0	laminage	O
+
+#- Cuves de récupération des condensats ;
+
+34l0l0	condensats	O
+34l1l0	condensats	U
+
+#- Zones de stockage des déchets.
+
+
+#Les résultats mettent en évidence :
+
+
+#- des concentrations en métaux sur brut localement élevées,
+
+
+#- un impact notable en hydrocarbures (hydrocarbures totaux) pour le sondage réalisé à proximité des cuves de récupération des condensats attenantes à l’ancienne salle compresseur.
+
+38l0l0	un_impact	O
+38l0l1	le_sondage_réalisé	N
+38l0l2	à_proximité_des_cuves	L
+38l0l3	attenantes_à_l__ancienne_salle_compresseur	L
+38l1l0	hydrocarbures	S
+38l1l1	hydrocarbures_totaux	S
+38l1l2	condensats	U
+
+#Au vu des résultats, des investigations complémentaires ainsi que l’étude de différentes mesures de gestion sont demandées à l'exploitant.
+
+39l0l0	investigations_complémentaires	O
+39l0l1	l__exploitant	O
+
+#Les résultats obtenus sur les sols mettent en évidence 2 zones impactées :
+
+40l0l0	2_zones_impactées	O
+
+#- une contamination des terrains par les hydrocarbures totaux autour de l’ancienne salle compresseur et ses cuves de récupération des condensats.
+
+41l0l0	une_contamination	N
+41l0l1	des_terrains	O
+41l0l2	hydrocarbures_totaux	O
+41l0l3	compresseur	A
+41l0l4	ses_cuves_de_récupération_des_condensats	O
+41l1l0	hydrocarbures_totaux	S
+41l1l1	condensats	U
+
+#La zone impactée est comprise entre 3 et 4,7 m de profondeur, au niveau de la nappe au-dessus du substratum marneux.
+
+42l0l0	La_zone_impactée	O
+
+#Il s’agit de terrain de nature argilo-limoneuse.
+
+
+#Les hydrocarbures détectés sont majoritairement des fractions lourdes aliphatiques ;
+
+44l1l0	hydrocarbures	S
+44l1l1	lourdes_aliphatiques	S
+
+#- des remblais de nature pâteuse et de couleur noire ou rouge observés dans une zone affaissée du site présentent des concentrations en métaux élevées, mais aussi ponctuellement des concentrations en HAP et PCB notables.
+
+45l0l0	des_remblais	N
+45l0l1	une_zone_affaissée_du_site	L
+45l1l0	métaux	S
+45l1l1	HAP	S
+45l1l2	PCB	S
+
+#Les résultats des tests de lixiviation mettent cependant en évidence le faible potentiel de lixiviation des principaux métaux détectés.
+
+46l0l0	lixiviation	O
+46l1l0	métaux	U
+
+#L’étude de différentes mesures de gestion a été réalisée sur base de l’ensemble des résultats obtenus au cours des 2 diagnostics.
+
+47l0l0	différentes_mesures_de_gestion	O
+47l0l1	a_été_réalisée	N
+47l0l2	2_diagnostics	N
+
+#La réalisation d’un bilan coûts-avantages met en évidence que les solutions les plus pertinentes dans le cadre de la situation actuelle du site sont :
+
+48l0l0	La_réalisation	N
+
+#- pour la pollution en hydrocarbures totaux autour de l’ancienne salle compresseur et ses cuves de récupération des condensats : neutralisation des cuves et surveillance des eaux souterraines en aval de la zone,
+
+49l0l0	hydrocarbures_totaux	O
+49l0l1	autour	L
+49l0l2	ses_cuves	O
+49l0l3	neutralisation	N
+49l0l4	cuves	O
+49l0l5	surveillance_des_eaux_souterraines	A
+49l0l6	en_aval_de_la_zone	L
+49l1l0	hydrocarbures_totaux	S
+49l1l1	cuves	D
+
+#- pour la pollution en métaux, PCB et HAP au niveau des remblais de la zone affaissée : maintien sur site confiné (situation actuelle).
+
+50l0l0	remblais	N
+50l0l1	affaissée	N
+50l1l0	métaux	S
+50l1l1	PCB	S
+50l1l2	HAP	S
+
+#Par courrier du 23 février 2015, l'inspection des installations classées répond à l'exploitant qu'il apparaît prioritaire d’identifier la source de cette pollution, de caractériser et localiser son extension dans les milieux « sol » et « eaux souterraines ».
+
+51l0l0	23_février_2015__	T
+51l0l1	l__inspection_des_installations_classées	O
+51l0l2	l__exploitant	O
+51l0l3	il_apparaît_prioritaire	O
+
+#Il convient également d’identifier rapidement les cibles potentielles atteintes par cette pollution en vue de les protéger (risque de transfert vers la rivière avec usage sensible ?).
+
+52l0l0	les_cibles	O
+
+#Un diagnostic complémentaire est alors effectué en 2015 ainsi qu'un plan de gestion en vue de retenir les mesures de gestion adaptées.
+
+53l0l0	Un_diagnostic_complémentaire	O
+53l0l1	est_alors_effectué	N
+53l0l2	en_2015	T
+53l0l3	un_plan_de_gestion	O
+53l0l4	les_mesures_de_gestion	O
+
+#Cette nouvelle étude confirme la présence d'une pollution résiduelle importante en HCT en aval proche de l'atelier, principalement en profondeur et au niveau de la zone saturée, et révèle une extension horizontale limitée au point de sondage S31.
+
+54l0l0	Cette_nouvelle_étude	N
+54l0l1	en_aval_proche_de_l__atelier	L
+54l0l2	en_profondeur_et_au_niveau_de_la_zone_saturée	L
+54l1l0	HCT	S
+
+#Il n'est pas constaté de transfert hors site et vers le milieu "eaux souterraines".
+
+
+#Le bureau d'étude recommande alors une surveillance environnementale de cette pollution afin de contrôler l'absence de transfert, mais pas de traitement.
+
+56l0l0	Le_bureau_d__étude	O
+56l0l1	une_surveillance_environnementale	N
+56l0l2	cette_pollution	O
+
+#A la lecture du rapport et au vu de l'importance de la pollution résiduelle en HCT, l'inspection demande à l'exploitant par courrier du 26 septembre 2016, de proposer une technique de remédiation en tenant compte des contraintes techniques de la zone impactée du site.
+
+57l0l0	l__exploitant	O
+57l0l1	26_septembre_2016__	T
+57l0l2	une_technique_de_remédiation	O
+57l0l3	la_zone_impactée	O
+57l1l0	HCT	S
+
+#Par courrier du 11 septembre 2017, l'exploitant transmet une étude de faisabilité technique et financière pour la gestion et le traitement de la pollution des sols du site par les HCT.
+
+58l0l0	11_septembre_2017__	T
+58l0l1	l__exploitant	O
+58l0l2	transmet	N
+58l0l3	une_étude_de_faisabilité_technique	O
+58l0l4	la_gestion	N
+58l0l5	traitement_de_la_pollution_des_sols	N
+58l0l6	du_site	O
+58l0l7	les_HCT	O
+58l1l0	HCT	S
+
+#D'après les éléments fournis, de fortes contraintes techniques se posent pour pouvoir traiter (excaver) la pollution en place.
+
+59l0l0	de_fortes_contraintes_techniques	O
+59l0l1	pouvoir_traiter	N
+59l0l2	excaver___la_pollution_en_place	N
+
+#Par courrier daté du 4 juin 2018, l'Inspection informe l'exploitant qu'au vu de ces contraintes et de la faible mobilité du panache de pollution dû au fait qu'il est composé en majorité de fractions lourdes, il retient kla proposition de l'exploitant, à savoir: continuer la surveillance semestrielle des eaux souterraines, sans excaver la zone source.
+
+60l0l0	daté_du_4_juin_2018__	T
+60l0l1	l__Inspection	O
+60l0l2	informe	N
+60l0l3	l__exploitant	O
+60l0l4	la_surveillance_semestrielle	A
+60l0l5	des_eaux_souterraines	A
+60l0l6	sans_excaver	N
+60l0l7	la_zone_source	O
+60l1l0	fractions_lourdes	U
+
+#Cette position sera amenée à être revue :
+
+61l0l0	Cette_position	O
+
+#- si les résultats montrent finalement une migration de la pollution vers les eaux souterraines ou hors du site
+
+62l0l0	hors_du_site	L
+
+#- ou dans le cas de la déconstruction du bâtiment adjacent
+
+63l0l0	la_déconstruction	N
+63l0l1	du_bâtiment_adjacent	O
+
+#- ou dans le cas de nouvelles possibilités techniques économiquement acceptables.
+
+64l0l0	cas_de_nouvelles_possibilités_techniques	O
+
+#Au moment de la dernière actualisation de la fiche BASOL, cette position est remise en cause compte tenu de la dernière campagne de suivi de la qualité des eaux souterraines (juin 2018) mettant en évidence une migration de la pollution en HC dans la nappe (cf. détails dans la section suivante II - SURVEILLANCE DES EAUX SOUTERRAINES).
+
+65l0l0	Au_moment_de	R
+65l0l1	la_dernière_actualisation	N
+65l0l2	BASOL	O
+65l0l3	la_dernière_campagne	N
+65l0l4	de_suivi_de_la_qualité_des_eaux_souterraines	A
+65l0l5	__juin_2018__	T
+65l0l6	une_migration	N
+65l0l7	EAUX_SOUTERRAINES	O
+65l1l0	HC	S
+65l1l1	EAUX_SOUTERRAINES	I
+
+#L'inspection des installations classées a demandé à l'exploitant de revoir sa proposition de gestion en prenant en compte ces nouveaux résultats.
+
+66l0l0	L__inspection_des_installations_classées	O
+66l0l1	a	N
+66l0l2	l__exploitant	O
+66l0l3	revoir	N
+66l0l4	sa_proposition_de_gestion	O
+66l0l5	en	R
+66l0l6	prenant_en_compte	N
+66l0l7	ces_nouveaux_résultats	O
+
+#II - SURVEILLANCE DES EAUX SOUTERRAINES
+
+67l0l0	SURVEILLANCE_DES_EAUX_SOUTERRAINES	O
+67l1l0	SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65-a de l’arrêté ministériel du 02/02/1998 modifié relatif à la surveillance des eaux souterraines par référence à la rubrique 2552 de la nomenclature des Installations Classées pour la Protection de l'Environnement.
+
+68l0l0	Ce_site	O
+68l0l1	est_soumis_à	R
+68l0l2	l_	O
+68l0l3	02_02_1998	T
+68l0l4	surveillance_des_eaux_souterraines	A
+
+#L'arrêté complémentaire du 26/02/2007 prescrit cette surveillance selon les modalités suivantes :
+
+69l0l0	26_02_2007	T
+69l0l1	prescrit	N
+69l0l2	cette_surveillance	O
+69l0l3	selon	R
+69l0l4	les_modalités	O
+
+#- 3 piézomètres,
+
+
+#- paramètres : Plomb, Etain, Aluminium, Bismuth, BTEX et COHV,
+
+71l0l0	Etain	O
+71l1l0	Plomb	S
+71l1l1	Etain	S
+71l1l2	Aluminium	S
+71l1l3	Bismuth	S
+71l1l4	BTEX	S
+71l1l5	COHV	S
+
+#- niveau piézométrique,
+
+
+#- fréquence semestrielle.
+
+
+#La campagne du 11/10/2007 montre l'absence d'impact sauf pour le PZ1 qui présente un indice hydrocarbures supérieur à la VCI usage sensible (0.09mg/L).
+
+74l0l0	La_campagne	N
+74l0l1	11_10_2007	T
+74l1l0	hydrocarbures	S
+
+#Jusqu'en 2013, les campagnes mettent en évidence la conformité (absence ou faible détection) de tous les paramètres étudiés (métaux, HCT, composés volatils, BTEX).
+
+75l0l0	Jusqu__en_2013__	T
+75l0l1	les_campagnes	N
+75l1l0	métaux	S
+75l1l1	HCT	S
+75l1l2	composés_volatils	S
+75l1l3	BTEX	S
+
+#Dans le cadre du diagnostic de pollution réalisé en 2014 et du suivi semestriel de la qualité des eaux souterraines, un contrôle a été réalisé au droit des 3 piézomètres du site (PZ1, PZ2, PZ3).
+
+76l0l0	Dans_le_cadre	R
+76l0l1	du_diagnostic_de_pollution	N
+76l0l2	réalisé	N
+76l0l3	en_2014	T
+76l0l4	suivi_semestriel_de_la_qualité_des_eaux_souterraines	A
+76l0l5	un_contrôle_a_été_réalisé	N
+76l0l6	au_droit	L
+
+#Aucune concentration notable n’est à relever sur le réseau de surveillance de la qualité des eaux souterraines en place, hormis la présence d’arsenic (entre 12 et 67 ug/L).
+
+77l0l0	la_qualité_des_eaux_souterraines	O
+77l0l1	arsenic	O
+77l1l0	arsenic	S
+
+#A noter cependant qu’aucun piézomètre n’est localisé en aval hydraulique de la zone impactée par les hydrocarbures.
+
+78l0l0	localisé_en_aval_hydraulique_de_la_zone_impactée_par_les_hydrocarbures	O
+78l1l0	hydrocarbures	S
+
+#Dans le cadre des investigations complémentaires demandées par l'Inspection et du suivi semestriel de la qualité des eaux souterraines, une campagne de suivi a été réalisée en avril 2016 et confirme les résultats précédents:
+
+79l0l0	Dans_le_cadre_des	R
+79l0l1	investigations_complémentaires	N
+79l0l2	suivi_semestriel_de_la_qualité_des_eaux_souterraines	A
+79l0l3	une_campagne_de_suivi	N
+79l0l4	a_été_réalisée	N
+79l0l5	en_avril_2016	T
+
+#- des teneurs inférieures à la limite de quantification du laboratoire au droit de l’ensemble des ouvrages pour l’indice hydrocarbures totaux C10-C40, les BTEX et les COHV
+
+80l1l0	hydrocarbures_totaux_C10_C40	S
+80l1l1	les_BTEX	S
+80l1l2	les_COHV	S
+
+#- des traces de métaux (arsenic, plomb et zinc) avec un dépassement des valeurs de référence disponibles pour l’arsenic (10 μg/l) au droit des 3 ouvrages.
+
+81l0l0	un_dépassement	N
+81l0l1	l__arsenic	O
+81l1l0	métaux	S
+81l1l1	arsenic	S
+81l1l2	plomb	S
+81l1l3	zinc	S
+81l1l4	arsenic	S
+
+#Trois piézomètres complémentaires ont été mis en place (PZ4, PZ5 et PZ6) ultérieurement.
+
+82l0l0	Trois_piézomètres_complémentaires	O
+82l0l1	ont_été_mis_en_place	N
+
+#Le piézomètre PZ5 a fait l’objet de prélèvement lors de la campagne annuel de septembre 2017, en période de "basses eaux".
+
+83l0l0	a_fait_l__objet	R
+83l0l1	de_prélèvement_lors_de_la_campagne_annuel	N
+83l0l2	de_septembre_2017__	T
+83l0l3	en_période	A
+
+#Les analyses réalisées en laboratoire portant sur les prélèvements de PZ1, PZ2, PZ3 et PZ5 révèlent :
+
+84l1l0	PZ1	S
+84l1l1	PZ2	S
+84l1l2	PZ5	S
+
+#- pour les hydrocarbures totaux : l’absence de détection de ce paramètre sur l’ensemble des points de mesure.
+
+85l1l0	hydrocarbures_totaux	S
+
+#- pour les composés aromatiques volatils : l’absence de détection de ce paramètre sur l’ensemble des points de mesure.
+
+86l1l0	les_composés_aromatiques_volatils	S
+
+#- pour les COHV : à l’instar des campagnes précédentes, la détection de trichloroéthylène, uniquement sur PZ1, à une teneur environ 8 fois supérieures à la valeur limite de quantification du laboratoire.
+
+87l0l0	les_COHV	O
+87l0l1	la_détection	N
+87l1l0	les_COHV	S
+87l1l1	trichloroéthylène	S
+
+#La concentration relevée reste largement inférieure à la valeur limite de qualité.
+
+
+#- pour les métaux : à l’instar des campagnes précédentes, la détection d’arsenic sur l’ensemble des piézomètres à des teneurs supérieures à la valeur limite de qualité dans l’eau destinée à la consommation humaine.
+
+89l0l0	la_détection	N
+89l0l1	d__arsenic	O
+89l0l2	des_teneurs_supérieures	O
+89l1l0	les_métaux	S
+89l1l1	arsenic	S
+
+#Les autres métaux sont non détectés ou mis en évidence à des teneurs qui restent très proches des valeurs limites de quantification et largement inférieures aux valeurs limites de qualité.
+
+90l0l0	des_teneurs	O
+90l1l0	métaux	S
+
+#Lors du suivi annuel de juin 2018 en période de hautes eaux, les analyses ne montrent pas d'évolution par rapport aux précédentes campagnes, sauf pour les hydrocarbures.
+
+91l0l0	Lors	R
+91l0l1	du_suivi_annuel	N
+91l0l2	de_juin_2018	T
+91l0l3	en_période	T
+91l0l4	de_hautes_eaux	N
+91l0l5	hydrocarbures	O
+91l1l0	hydrocarbures	S
+
+#En effet, cette campagne met en évidence pour la première fois un impact en HC (fractions lourdes majoritaire C21-C40) sur 2 piézomètres en aval du site (PZ1 et PZ5).
+
+92l0l0	cette_campagne	N
+92l0l1	la_première_fois_un_impact	N
+92l0l2	en_aval_du_site	L
+92l1l0	HC	S
+92l1l1	C21_C40__	S
+
+#Ces résultats sont transmis par l'exploitant le 20 août 2018.
+
+93l0l0	Ces_résultats	O
+93l0l1	sont_transmis	N
+93l0l2	l__exploitant	O
+93l0l3	le_20_août_2018__	T
+
+#L'Inspection répond par courrier daté du 11 septembre 2018, et rappelle que conformément à l'AP du 26/02/2007,  l'exploitant est tenu de déterminer par tous les moyens l'origine de l'anomalie et si ces activités sont à l'origine de la pollution constatée.
+
+94l0l0	daté_du_11_septembre_2018__	T
+94l0l1	26_02_2007	T
+94l0l2	__l__exploitant	O
+94l0l3	est_tenu_de_déterminer	N
+94l0l4	si_ces_activités	O
+94l0l5	sont_à_l__origine_de	R
+94l0l6	la_pollution	N
+
+#De plus, en lien avec le courrier de l'Inspection du 4 juin 2018, il était clairement défini que la pollution pouvait rester en place à condition qu'elle ne soit pas mobile. ce point est donc remis en cause.
+
+95l0l0	en_lien_avec	R
+95l0l1	le	O
+95l0l2	4_juin_2018__	T
+
+#L'exploitant est tenu de proposer des mesures de suivi complémentaire et/ou mesures correctives.
+
+96l0l0	L__exploitant	O
+96l0l1	est_tenu_de_proposer_des_mesures_de_suivi_complémentaire	O
+
+#L'Inspection est en attente du retour de l'exploitant au moment de la dernière actualisation de cette fiche.
+
+97l0l0	moment_de	R
+97l0l1	la_dernière_actualisation	N

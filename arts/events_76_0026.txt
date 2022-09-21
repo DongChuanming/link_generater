@@ -1,0 +1,71 @@
+
+#76.0026
+#Le site est exploité par la société PPG COATINGS dont l'activité principale est la fabrication de peintures et de vernis.
+
+0l0l0	Le_site	O
+0l0l1	est_exploité	N
+0l0l2	la_société_PPG_COATINGS	O
+0l0l3	la_fabrication_de_peintures_et_de_vernis	A
+0l1l0	la_société_PPG_COATINGS	I
+
+#Le site PPG est classé SEVESO Seuil Bas.
+
+1l0l0	Le_site_PPG	O
+1l0l1	classé_SEVESO	O
+1l1l0	Le_site_PPG	I
+1l1l1	SEVESO	I
+
+#L'établissement occupe un terrain d'une superficie totale de 87 000m².
+
+2l0l0	un_terrain	O
+
+#La surface construite au sol du site PPG COATINGS est d'environ 10 800m².
+
+3l0l0	PPG_COATINGS	O
+3l1l0	PPG_COATINGS	I
+
+#Les eaux superficielles dans les environs du site sont représentées par la rivière Saint Laurent à environ 1350m au Nord du site, par la rivière la Lézarde située à 1950met par le canal de Tancarville localisé à 1500m au Sud du site.
+
+4l0l0	la_rivière_Saint_Laurent_à_environ_1350_m_au_Nord_du_site	L
+4l0l1	la	O
+4l0l2	rivière_la_Lézarde	L
+4l0l3	le_canal_de_Tancarville	O
+4l0l4	localisé_à_1500_m_au_Sud_du_site	L
+4l1l0	Tancarville	I
+
+#La nappe est située à environ 50m de profondeur.
+
+5l0l0	La_nappe	O
+5l0l1	est_située_à_environ_50	L
+
+#Risques et nuisances :
+
+6l0l0	Risques	N
+
+#Pollutions des sols :  Les études menées sur le site ont permis de mettre en évidence la présence d'anomalies de concentration de certains métaux dans le sol (mercure, zinc) qui seraient liées à la qualité médiocre des remblais du site.
+
+7l0l0	____Les_études_menées	N
+7l0l1	sur_le_site	O
+7l0l2	des_remblais_du_site	L
+7l1l0	certains_métaux	S
+7l1l1	sol___mercure___zinc	S
+
+#Par ailleurs, les études mettent également en évidence des teneurs notables en BTEX (xylène, toluène).
+
+8l1l0	BTEX	S
+8l1l1	xylène	S
+8l1l2	toluène	S
+
+#Actions menées :
+
+
+#Dans le cadre d'une démarche volontaire du groupe PPG COATINGS, deux études de sols (Juillet 2007 et Janvier 2009) ont été menées sur le site afin d'avoir une meilleur connaissance de la qualité du sous-sol.
+
+10l0l0	Dans_le_cadre_d_	R
+10l0l1	PPG_COATINGS	O
+10l0l2	__deux_études_de_sols__	N
+10l0l3	Juillet_2007_et_Janvier_2009__	T
+10l0l4	ont_été_menées	N
+10l0l5	sur_le_site	L
+10l0l6	la_qualité_du_sous_sol	O
+10l1l0	groupe_PPG_COATINGS	I

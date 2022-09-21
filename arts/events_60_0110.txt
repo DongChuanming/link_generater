@@ -1,0 +1,120 @@
+
+#60.0110
+#La société SGI a exercé sur ce site des activités de peinture pour l’industrie automobile de 1984 à 1993 (AP 143/1966 d’autorisation d’exploiter du 10 mai 1987).
+
+0l0l0	La_société_SGI	O
+0l0l1	a_exercé	N
+0l0l2	sur_ce_site	L
+0l0l3	des_activités_de_peinture_pour_l__industrie_automobile	A
+0l0l4	de_1984_à_1993	T
+0l0l5	autorisation_d__exploiter	O
+0l0l6	10_mai_1987____	T
+0l1l0	La_société_SGI	I
+
+#Le site, d’une superficie de 17 500 m2, est implanté dans la zone d’activité Angleterre de la commune Laboissière-en-Thelle.
+
+1l0l0	Le_site	O
+1l0l1	est_implanté	N
+1l0l2	dans_la_zone_d__activité_Angleterre_de_la_commune_Laboissière_en_Thelle	L
+
+#L’environnement de ce site est constitué :
+
+
+#-	au sud : entre le chemin de Beauvais et la rue de Noailles, d’un bâtiment de mécanique et d’un autre bâtiment d’activité ;
+
+3l0l0	au_sud___entre_le_chemin_de_Beauvais	L
+3l0l1	la_rue_de_Noailles	L
+3l0l2	un_bâtiment_de_mécanique	O
+3l0l3	un_autre_bâtiment	O
+
+#-	au nord : d’un terrain nu ;
+
+4l0l0	au_nord	L
+
+#-	à l’est : de l’autre côté de la rue de Noailles, d’un bâtiment de stockage et d’un terrain nu
+
+5l0l0	à_l__est	L
+5l0l1	de_l__autre_côté_de	R
+5l0l2	la_rue_de_Noailles	L
+5l0l3	un_bâtiment_de_stockage	O
+5l0l4	un_terrain	O
+5l0l5	nu	R
+
+#-	et à l’ouest : de divers bâtiments.
+
+
+#Les investigations menées dans les sols conduisent aux conclusions suivantes :
+
+7l0l0	Les_investigations_menées	N
+7l0l1	dans	L
+7l0l2	les_sols	N
+
+#-	Les 19 sondages réalisés jusqu’à 4 m de profondeur au maximum ont rencontré des remblais et des argiles.
+
+8l0l0	19_sondages_réalisés	N
+8l0l1	au_maximum	O
+8l0l2	ont_rencontré_des_remblais	N
+
+#Les analyses de sols effectuées montrent la présence de COHV dans les sols (PCE et produits de dégradation ainsi que du dichlorométhane).
+
+9l0l0	Les_analyses_de_sols_effectuées	N
+9l0l1	COHV	O
+9l1l0	COHV	S
+9l1l1	PCE	S
+9l1l2	dichlorométhane	S
+
+#-	Le milieu « eaux souterraines » n’a pas été investigué en raison de la profondeur élevée de la nappe (niveau statique supérieur à 52 m).
+
+10l0l0	été_investigué	N
+
+#-	Des analyses de gaz du sol ont été effectuées en 4 points (6 prélèvements à 1,5 ou 3 m de profondeur) dans la partie sud du bâtiment, dans la zone de l’ancienne tour de PCE.
+
+11l0l0	Des_analyses_de_gaz_du_sol	O
+11l0l1	ont_été_effectuées	N
+11l0l2	4_points	O
+11l0l3	dans_la_partie_sud_du_bâtiment	L
+11l0l4	dans_la_zone_de_l__ancienne_tour_de_PCE	O
+11l1l0	PCE	I
+
+#Le PCE et ses produits de dégradation sont détectés dans les prélèvements de gaz du sol effectués.
+
+12l0l0	sont_détectés	N
+12l1l0	Le_PCE	S
+
+#-	Des analyses d’air ambiant ont été effectuées en 1 point du bâtiment principal (à proximité immédiate du point où les teneurs en gaz du sol étaient les plus élevées) en deux dates.
+
+13l0l0	Des_analyses	N
+13l0l1	ont_été_effectuées	N
+13l0l2	en_1_point_du_bâtiment_principal	L
+13l0l3	à_proximité_immédiate_du_point_où	L
+13l0l4	deux_dates	O
+
+#Ces analyses montrent que le PCE peut se retrouver dans l’air ambiant (il a été détecté dans les prélèvements lors d’une des campagnes).
+
+14l0l0	a_été_détecté	N
+14l1l0	le_PCE	I
+
+#L'EQRS réalisée en 2006 montre que le site, dans son état actuel, est compatible avec un usage industriel et commercial.
+
+15l0l0	L__EQRS	O
+15l0l1	réalisée	N
+15l0l2	en_2006	T
+15l0l3	le_site	O
+15l0l4	compatible_avec	R
+15l0l5	un_usage_industriel	N
+
+#La société SGI a transmis à Monsieur le Préfet de l’Oise un dossier de demande de servitudes d’utilité publique (SUP) en date du 06 décembre 2010.
+
+16l0l0	La_société_SGI	O
+16l0l1	a_transmis	N
+16l0l2	Monsieur_le_Préfet_de_l__Oise	O
+16l0l3	un_dossier_de_demande	N
+16l0l4	de_servitudes_d__utilité_publique	O
+16l0l5	en_date_du_06_décembre_2010__	T
+16l1l0	La_société_SGI	I
+16l1l1	le_Préfet	I
+
+#L'arrêté de SUP est en cours de consultation selon la procédure réglementaire.
+
+17l0l0	L__arrêté_de_SUP	O
+17l0l1	en_cours_de_consultation	T

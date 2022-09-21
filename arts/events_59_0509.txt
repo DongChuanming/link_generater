@@ -1,0 +1,182 @@
+
+#59.0509
+#L'acitvité industrielle sur ce site aurait démarré en 1874.
+
+0l0l0	ce_site	O
+0l0l1	aurait_démarré	N
+0l0l2	en_1874__	T
+
+#Les sociétés suivantes se seraient succédées:  DELECAILLE, FAUCHER, MOLINEL, FLANDRES ENNOBLISSEMENT (appartenant au groupe SCHAFFER-DUFOUR puis TRADIMO).
+
+1l0l0	Les_sociétés_suivantes	O
+1l0l1	se_seraient_succédées	N
+1l0l2	__DELECAILLE___FAUCHER	O
+1l0l3	__MOLINEL___FLANDRES_ENNOBLISSEMENT	O
+1l0l4	groupe_SCHAFFER	O
+1l0l5	DUFOUR_puis_TRADIMO	O
+1l1l0	Les_sociétés	I
+1l1l1	__DELECAILLE___FAUCHER___MOLINEL___FLANDRES_ENNOBLISSEMENT	I
+1l1l2	au_groupe_SCHAFFER___DUFOUR_puis_TRADIMO	I
+
+#FLRANDRES ENNOBLISSEMENT est devenu FLANDRES INVESTISSEMENT SAS en 2006.
+
+2l0l0	FLRANDRES_ENNOBLISSEMENT	O
+2l0l1	est_devenu	N
+2l0l2	FLANDRES	O
+2l0l3	INVESTISSEMENT	N
+2l0l4	SAS	N
+2l0l5	en_2006__	T
+2l1l0	FLRANDRES_ENNOBLISSEMENT	I
+2l1l1	FLANDRES_INVESTISSEMENT_SAS	I
+
+#L'activité exercée sur le site était la teinture de tissus en cotons et polyester.
+
+3l0l0	L__activité_exercée_sur_le_site	A
+3l0l1	la_teinture_de_tissus_en_cotons_et_polyester	A
+
+#En lien avec l'activité principale de teinturerie, on notera les informations suivantes concernant le site selon les éléments des dossiers à la disposition de l'inspection des installations classées:
+
+4l0l0	En_lien_avec	R
+4l0l1	l__activité_principale_de_teinturerie	A
+
+#- présence d'une double citerne souterraine: 2000L essence et 5000L gazoil et d'un réservoir enfoui de 50m3 pour du fioul domestique
+
+5l0l0	fioul_domestique	A
+5l1l0	gazoil	S
+5l1l1	fioul_domestique	U
+
+#- présence de transformateurs qui ne seraient pas au pyralène
+
+6l1l0	pyralène	S
+
+#- présence de bassins et lagunes pour le traitement des effluents industriels liquides;
+
+7l0l0	le_traitement_des_effluents_industriels_liquides	A
+7l1l0	des_effluents_industriels_liquides	U
+
+#- stockages aériens d'ammoniaque liquéfié, de propane, de chlore liquéfié, de fioul;
+
+8l1l0	ammoniaque	U
+8l1l1	propane	S
+8l1l2	chlore	S
+8l1l3	fioul	S
+
+#- exploitation d'une chaudière;
+
+
+#- exploitation d'un gazomètre.
+
+10l0l0	exploitation_d_	N
+10l0l1	un_gazomètre	O
+
+#L'activité principale concernait la teinture de tissus.
+
+11l0l0	L_	O
+11l0l1	la_teinture_de_tissus	A
+
+#Dans le cadre de cette activité, des installations/activités annexes étaient exploitées sur site : stockage des tissus, chaudière au charbon puis au gaz naturel, stockage d'hydrocarbures en réservoirs enterrés et aériens, production de déchets, transformateurs (sans pyralène selon les éléments du dossier), traitement des eaux par des lagunes, etc.
+
+12l0l0	Dans_le_cadre_de	R
+12l0l1	cette_activité	O
+12l0l2	des_installations___activités_annexes	O
+12l0l3	étaient_exploitées	N
+12l0l4	production_de_déchets	A
+12l0l5	traitement_des_eaux	O
+12l0l6	des_lagunes	N
+12l1l0	hydrocarbures	S
+12l1l1	déchets	U
+12l1l2	pyralène	S
+
+#Par courrier en date du 15 décembre 2005, FLANDRES INVESTISSEMENT informait Monsieur le préfet du Nord de la cessation d’activité sur son site de FRELINGHIEN, effective :
+
+13l0l0	en_date_du_15_décembre_2005__	T
+13l0l1	FLANDRES	O
+13l0l2	INVESTISSEMENT	N
+13l0l3	informait	N
+13l0l4	Monsieur_le_préfet_du_Nord	O
+13l0l5	la_cessation_d__activité	N
+13l0l6	sur	L
+13l0l7	son_site_de_FRELINGHIEN	O
+13l1l0	FLANDRES_INVESTISSEMENT	I
+13l1l1	le_préfet_du_Nord	I
+13l1l2	FRELINGHIEN	I
+
+#•	depuis le 22 juillet 2005 pour les activités d’ennoblissement,
+
+14l0l0	depuis_le_22_juillet_2005	T
+14l0l1	les_activités_d__ennoblissement	N
+
+#•	depuis le 28 novembre 2005 pour les activités de stockage de tissus.
+
+15l0l0	depuis_le_28_novembre_2005	T
+15l0l1	les_activités_de_stockage_de_tissus	A
+
+#Cette déclaration a été complétée par un courrier du 22 décembre 2005 présentant les mesures mises en œuvre vis-à-vis de la mise en sécurité du site.
+
+16l0l0	Cette_déclaration	N
+16l0l1	a_été_complétée	N
+16l0l2	un_courrier	O
+16l0l3	du_22_décembre_2005	T
+16l0l4	mises_en_œuvre	N
+16l0l5	vis_à_vis_de	R
+16l0l6	la_mise_en_sécurité	N
+
+#Un arrêté préfectoral du 26 août 2011 impose à la société FLANDRES INVESTISSEMENT des prescriptions complémentaires pour la surveillance des eaux souterraines et des études sur la remise en état du site situé à FRELINGHIEN.
+
+17l0l0	Un_arrêté_préfectoral	O
+17l0l1	26_août_2011	T
+17l0l2	impose	N
+17l0l3	la_société_FLANDRES	O
+17l0l4	INVESTISSEMENT	N
+17l0l5	des_prescriptions_complémentaires	O
+17l0l6	la_surveillance_des_eaux_souterraines	A
+17l0l7	la_remise_en_état_du_site	N
+17l0l8	situé_à_FRELINGHIEN	L
+17l1l0	la_société_FLANDRES_INVESTISSEMENT	I
+
+#A ce jour, le site est en friche industrielle.
+
+18l0l0	A_ce_jour	T
+18l0l1	le_site	O
+18l0l2	friche_industrielle	O
+
+#Le 27 mai 2015, l'exploitant de la société Flandres Investissement déposait en préfecture du Nord le plan de gestion (référencé Entime 3785-006-003/Rév.
+
+19l0l0	Le_27_mai_2015__	T
+19l0l1	l__exploitant	O
+19l0l2	la_société_Flandres	O
+19l0l3	Investissement_déposait	N
+19l0l4	en_préfecture_du_Nord	L
+19l0l5	le_plan_de_gestion	O
+19l1l0	société_Flandres_Investissement	I
+
+#C/04.03.2015) relatif à la réhabilitation de son ancien site situé au 18 rue du Pont Rouge à FRELINGHIEN.
+
+20l0l0	C_04_03_2015	T
+20l0l1	la_réhabilitation	N
+20l0l2	son_ancien_site	O
+20l0l3	situé_au_18_rue_du_Pont_Rouge_à_FRELINGHIEN	L
+
+#Comme suite à cette transmission, l'arrêté préfectoral complémentaire du 31 août 2015 encadre les travaux de réhabilitation du site (dépollution des sols et de la nappe alluviale), avec pour objectif de rendre le site compatible avec un usage futur de type industriel.
+
+21l0l0	cette_transmission	N
+21l0l1	l__arrêté_préfectoral_complémentaire	O
+21l0l2	du_31_août_2015	T
+21l0l3	encadre_les_travaux_de_réhabilitation	N
+21l0l4	du_site	O
+21l0l5	dépollution	N
+21l0l6	la_nappe_alluviale	O
+21l0l7	le_site	O
+21l0l8	compatible_avec	R
+21l0l9	un_usage_futur_de_type_industriel	A
+
+#A la date du 31 mars 2016, les travaux de réhabilitation n'ont pas démarré ; ils doivent démarrer prochainement (le portage du projet de dépollution par la mairie de Frelinghien ayant retardé le lancement des travaux).
+
+22l0l0	A_la_date_du_31_mars_2016__	T
+22l0l1	les_travaux_de_réhabilitation	N
+22l0l2	n__ont_pas_démarré	N
+22l0l3	doivent_démarrer_prochainement	T
+22l0l4	le_portage_du_projet_de_dépollution	N
+22l0l5	la_mairie	O
+22l0l6	de_Frelinghien	L
+22l0l7	ayant_retardé_le_lancement_des_travaux	N

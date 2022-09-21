@@ -1,0 +1,268 @@
+
+#33.0324
+#Canalisation d'hydrocarbures raffinés reliant le dépôt pétrolier DPA Bayon au stockage SPBA d'Ambès exploitée par la société Les Docks des Pétroles d’Ambès (DPA), avenue des Guerlandes, Bassens, 33565 Carbon Blanc cedex.
+
+0l0l0	Canalisation_d__hydrocarbures_raffinés	O
+0l0l1	le_dépôt_pétrolier	O
+0l0l2	DPA_Bayon	O
+0l0l3	au_stockage	L
+0l0l4	SPBA	O
+0l0l5	Ambès	O
+0l0l6	exploitée	N
+0l0l7	la_société_Les_Docks	O
+0l0l8	des_Pétroles	A
+0l0l9	d__Ambès	O
+0l0l10	avenue_des_Guerlandes	L
+0l0l11	Bassens___33565_Carbon_Blanc_cedex	L
+0l1l0	hydrocarbures	S
+0l1l1	dépôt_pétrolier	D
+0l1l2	DPA	I
+0l1l3	SPBA	I
+0l1l4	la_société_Les	I
+0l1l5	Docks_des_Pétroles	S
+0l1l6	d__Ambès___DPA	I
+
+#1 - CONTEXTE
+
+
+#Suite à la découverte par des chasseurs le dimanche 19 avril 2015 d’une nappe d’hydrocarbures à proximité de la canalisation DPA Bayon - SPBA Ambès, le SIDPC 33 a appelé l’astreinte régionale DREAL pour l’informer d’une suspicion de fuite de la canalisation.
+
+2l0l0	Suite_à	R
+2l0l1	la_découverte	N
+2l0l2	des_chasseurs	O
+2l0l3	le_dimanche_19_avril_2015	T
+2l0l4	d__une_nappe_d__hydrocarbures	O
+2l0l5	à_proximité_de_la_canalisation_DPA_Bayon___SPBA_Ambès	L
+2l0l6	le_SIDPC_33	O
+2l0l7	a_appelé	N
+2l0l8	l_	O
+2l0l9	une_suspicion	O
+2l0l10	de_fuite_de_la_canalisation	N
+2l1l0	hydrocarbures	S
+2l1l1	SPBA_Ambès	I
+2l1l2	le_SIDPC_33	I
+2l1l3	DREAL	I
+
+#La présence d’une fuite a été confirmée lors de l’excavation de la canalisation le lundi 20 avril 2015, par la découverte d’un percement sur la génératrice inférieure de l’ouvrage posé à 1 mètre de profondeur.
+
+3l0l0	La_présence_d__une_fuite	O
+3l0l1	a_été_confirmée_lors	N
+3l0l2	de	R
+3l0l3	l__excavation	N
+3l0l4	la_canalisation	O
+3l0l5	le_lundi_20_avril_2015__	T
+3l0l6	la_découverte	N
+3l0l7	d_	R
+3l0l8	un_percement	N
+3l0l9	sur	R
+3l0l10	la_génératrice_inférieure	O
+3l0l11	1_mètre_de_profondeur	N
+
+#La durée de fuite et le volume de gazole déversé n’ont pu à ce jour être évalués.
+
+4l0l0	La_durée_de_fuite	O
+4l0l1	gazole_déversé	O
+4l0l2	à_ce_jour	T
+4l1l0	gazole_déversé	U
+
+#Des traces de gazole sont visibles en surface sur une longueur d’environ 50 mètres.
+
+5l1l0	gazole	S
+
+#La fuite s’est produite à proximité du site sensible « Marais du Bec d’Ambès », classé Natura 2000 en application de la directive Habitat.
+
+6l0l0	La_fuite	R
+6l0l1	s__est_produite	N
+6l0l2	à_proximité_du_site_sensible___Marais_du_Bec_d__Ambès	L
+6l0l3	classé_Natura_2000	O
+
+#2 - MISE EN SECURITE
+
+7l1l0	SECURITE	I
+
+#La visite du 20 avril 2015 a permis de localiser la pollution et l'origine de la fuite.
+
+8l0l0	La_visite	N
+8l0l1	du_20_avril_2015	T
+8l0l2	a_permis_de	R
+8l0l3	localiser_la_pollution	O
+
+#La pollution se situe à proximité du point kilométrique pk20, et est visible en surface sur une longueur d’environ 50 mètres.
+
+9l0l0	La_pollution	O
+9l0l1	se_situe_à_proximité_du_point_kilométrique_pk20	L
+
+#DPA n’est pas en mesure d’apporter des éléments permettant d’estimer la quantité de produit déversé.
+
+10l1l0	DPA	I
+10l1l1	produit_déversé	U
+
+#la société DPA a pris les dispositions pour enrayer la source de pollution : vidange de la canalisation et balayage à l’eau, présence de camions de pompage sur le site pour pomper l’eau polluée (volume recueilli (eau + hydrocarbures) : environ 500 m3 transférés au dépôt DPA de Bayon).
+
+11l0l0	la_société_DPA	O
+11l0l1	a_pris_les_dispositions	N
+11l0l2	enrayer_la_source_de_pollution	N
+11l0l3	__vidange_de	N
+11l0l4	la_canalisation	O
+11l0l5	et_balayage	N
+11l0l6	à_l__eau	R
+11l0l7	présence_de_camions_de_pompage	O
+11l0l8	pour_pomper	A
+11l0l9	l__eau_polluée	O
+11l0l10	de_Bayon	L
+11l1l0	la_société_DPA	I
+11l1l1	__hydrocarbures	S
+11l1l2	au_dépôt_DPA	I
+
+#les précautions ont été prises pour tenir compte de la présence de la canalisation de gaz TIGF posée en parallèle avec la canalisation DPA.
+
+12l0l0	les_précautions	O
+12l0l1	ont_été_prises	N
+12l0l2	la_canalisation_de_gaz_TIGF	O
+12l0l3	posée	N
+12l0l4	en_parallèle_avec	L
+12l0l5	la_canalisation_DPA	O
+12l1l0	TIGF	I
+
+#la société DPA évacue les terres polluées sur un site aménagé à cet effet situé sur le site SPBA d'Ambès.
+
+13l0l0	la_société_DPA	O
+13l0l1	évacue	N
+13l0l2	les_terres_polluées	O
+13l0l3	sur	R
+13l0l4	un_site	O
+13l0l5	aménagé_à_cet_effet	N
+13l0l6	situé_sur_le_site_SPBA_d__Ambès	L
+13l1l0	la_société_DPA	I
+
+#La DREAL Aquitaine a donc demandé à la société DPA :
+
+14l0l0	La_DREAL_Aquitaine	O
+14l0l1	société_DPA	O
+14l1l0	La_DREAL_Aquitaine	I
+14l1l1	la_société_DPA	I
+
+#de la tenir informée en temps réel de l’évolution de la situation,
+
+
+#de prendre les mesures nécessaires pour limiter la zone de pollution et traiter les terres polluées,
+
+16l0l0	de_prendre_les_mesures	N
+16l0l1	zone_de_pollution	O
+16l0l2	traiter	N
+16l0l3	les_terres_polluées	O
+
+#de prendre les mesures nécessaires pour réparer la canalisation dans le respect de la réglementation,
+
+17l0l0	la_canalisation	O
+
+#de réaliser une expertise permettant d’apporter une explication sur l’origine de la corrosion,
+
+18l0l0	de_réaliser_une_expertise	N
+18l0l1	la_corrosion	O
+
+#de mettre en œuvre les contrôles adéquats pour s’assurer de l’intégrité de la canalisation avant d’envisager sa remise en service.
+
+19l0l0	de_mettre_en_œuvre_les_contrôles	N
+19l0l1	la_canalisation	O
+19l0l2	avant_d__envisager	R
+19l0l3	sa_remise_en_service	N
+
+#La remise en service de la canalisation sera soumise à l’avis de la DREAL.
+
+20l0l0	La_remise_en_service	N
+20l0l1	la_canalisation	O
+20l0l2	sera_soumise_à	R
+20l0l3	la_DREAL	O
+20l1l0	la_DREAL	I
+
+#3 - TRAVAUX DE DEPOLLUTION
+
+21l0l0	TRAVAUX_DE	N
+21l0l1	DEPOLLUTION	O
+21l1l0	TRAVAUX_DE_DEPOLLUTION	I
+
+#L'arrêté préfectoral du 28 avril 2015 prescrit, en urgence :
+
+22l0l0	L__arrêté_préfectoral	O
+22l0l1	28_avril_2015	T
+22l0l2	prescrit	N
+
+#- la remise du rapport d'incident,
+
+23l0l0	la_remise	N
+
+#- la réalisation du diagnostic environnemental,
+
+24l0l0	la_réalisation_du_diagnostic_environnemental	N
+
+#- l'excavation des sols impactés et leur traitement,
+
+25l0l0	l__excavation	N
+25l0l1	sols_impactés	O
+25l0l2	traitement	O
+
+#- le traitement des eaux de fouilles,
+
+26l0l0	traitement_des_eaux_de_fouilles	O
+
+#- le remblaiement.
+
+27l0l0	remblaiement	N
+
+#Le démarrage du traitement est immédiat, le rapport d'incident et le diagnostic sont remis dans le délai de 1 mois.
+
+28l0l0	Le_démarrage_du_traitement	N
+28l0l1	le_diagnostic	O
+28l0l2	sont_remis	N
+28l0l3	dans_le_délai_de_1_mois	T
+
+#Le diagnostic est transmis le 26 juin 2015, il comprend :
+
+29l0l0	Le_diagnostic	O
+29l0l1	est_transmis	N
+29l0l2	le_26_juin_2015__	T
+
+#- l'étude de vulnérabilité du milieu,
+
+
+#- le descriptif des interventions menées depuis la découverte de la fuite,
+
+31l0l0	des_interventions	N
+31l0l1	depuis	T
+31l0l2	la_découverte	N
+31l0l3	la_fuite	O
+
+#- la synthèse des impacts résiduels et le schéma conceptuel,
+
+32l0l0	le_schéma_conceptuel	O
+
+#les conclusions et les recommandations pour les travaux de dépollution sont les suivantes :
+
+33l0l0	les_travaux_de_dépollution	N
+
+#- état résiduel des sédiments des Jalles (campagnes de prélèvements en juillet 2015),
+
+34l0l0	Jalles	L
+34l0l1	__campagnes	N
+34l0l2	de_prélèvements	N
+34l0l3	en_juillet_2015__	T
+
+#- suivi de la qualité des eaux souterraines (début septembre et novembre 2015),
+
+35l0l0	suivi_de	A
+35l0l1	la_qualité_des_eaux_souterraines	O
+35l0l2	début_septembre_et_novembre_2015__	T
+
+#- gestion des impacts résiduels en surface (rondes de surveillance),
+
+36l0l0	gestion	O
+
+#- évacuation des terres vers le centre BIOTER Val de Loire.
+
+37l0l0	évacuation	N
+37l0l1	des_terres	O
+37l0l2	vers	L
+37l0l3	le_centre_BIOTER_Val	O
+37l0l4	de_Loire	L
+37l1l0	le_centre_BIOTER_Val_de_Loire	I

@@ -1,0 +1,195 @@
+
+#23.0003
+#La Société Le Flockage a exercé une activité liée à l'industrie textile.
+
+0l0l0	Flockage_a_exercé_une_activité_liée_à_l_	N
+0l0l1	industrie_textile__	O
+
+#Elle était installée depuis 1985 dans des bâtiments autrefois utilisés par la Société Insodec implantée depuis 1953 et ayant exercé la même activité.
+
+1l0l0	Elle_était_installée	A
+1l0l1	depuis_1985	R
+1l0l2	dans_des_bâtiments_autrefois_utilisés	A
+1l1l0	Elle_était_installée	I
+
+#Deux lagunes assèchées sont présentes en aval de l'usine de fabrication et de teinture de fibres synthétiques.
+
+2l0l0	Deux	O
+2l0l1	lagunes_assèchées	N
+2l0l2	sont_présentes	T
+2l0l3	en_aval_de_l_	O
+2l0l4	usine_de_fabrication	N
+2l0l5	de_teinture_de_fibres	O
+2l0l6	synthétiques	R
+2l0l7	_	T
+2l1l0	de_teinture_de_fibres	I
+
+#Ces lagunes, en contrebas étaient utilisées pour la décantation des eaux industrielles.
+
+3l0l0	Ces_lagunes___en_contrebas	O
+3l0l1	utilisées_pour_la	L
+3l0l2	décantation_des_eaux_industrielles__	A
+
+#La situation géographique est la suivante : partie ouest de l'agglomération guérétoise.
+
+4l0l0	La_situation	O
+4l0l1	géographique	L
+4l0l2	est_la_suivante___partie	R
+4l0l3	ouest_de_l__agglomération_guérétoise	A
+
+#Au lieudit "Le Maupuy", se succèdent du sud vers le nord : la RD 914, les anciens bâtiments industriels, la voie ferrée, le terrain d'implantation des lagunes.
+
+5l0l0	vers_le_nord___la_RD_914___les_anciens_bâtiments_industriels	L
+
+#Des champs et des parties boisées en constituent le voisinage immédiat.
+
+6l0l0	Des_champs_et_des_parties	L
+6l0l1	boisées_en	N
+6l0l2	constituent_le_voisinage	L
+6l0l3	immédiat__	O
+
+#L'usine a cessé son activité en mars 1991.
+
+7l0l0	cessé_son_activité_en_mars	O
+
+#Par la suite les activités de l'usine ont été reprises par le groupe SEF-FRANCE.
+
+8l0l0	Par_la_suite	O
+8l0l1	les_activités_de	N
+8l0l2	l__usine_ont_été_reprises_par_le_groupe_SEF___FRANCE__	T
+
+#Lorsqu'elles se sont arrêtées, les bâtiments (situés entre la RD 914 et la voie ferrée) ont été vendus à un tiers pour des activités de formation.
+
+9l0l0	elles_se_sont_arrêtées___les	O
+9l0l1	bâtiments___situés	N
+9l0l2	entre_la_RD_914_et_la_voie	O
+9l1l0	entre_la_RD_914_et_la_voie	I
+
+#Le groupe, par l'intermédiaire de la société LE FLOCKAGE (activité de holding) reste propriétaire du site des lagunes asséchées.
+
+10l0l0	l__intermédiaire	N
+10l0l1	de_la_société_LE	O
+10l0l2	FLOCKAGE___activité_de_holding___reste_propriétaire_du	N
+10l0l3	site_des	O
+10l0l4	lagunes_asséchées__	A
+
+#1.	Traitement réalisé au cours des années 1990 et surveillance :
+
+11l0l0	1__	O
+11l0l1	Traitement	O
+11l0l2	années_1990_et_surveillance	O
+11l0l3	_	A
+11l1l0	1__	I
+11l1l1	Traitement	I
+11l1l2	années_1990_et_surveillance	I
+
+#Par arrêté préfectoral du 10 décembre 1993, la SA LE FLOCKAGE a été mise en demeure de réhabiliter les lagunes de décantation avant fin 1995.
+
+12l0l0	Par_arrêté_préfectoral	N
+12l0l1	du_10_décembre_1993___la	T
+
+#Les conclusions de l'étude hydrogéologique du 3 avril 1995 faisaient apparaître l'absence de contamination par du chrome de l'aquifère continu présent dans l'arène granitique, sous les lagunes.
+
+13l0l0	Les_conclusions_de_l__étude	O
+13l0l1	hydrogéologique	T
+13l0l2	du_3_avril_1995	O
+13l0l3	faisaient_apparaître	N
+13l0l4	l__absence_de	N
+13l0l5	contamination_par_du_chrome	O
+13l0l6	de_l__aquifère	T
+13l1l0	hydrogéologique_du_3_avril_1995_faisaient	I
+
+#Par arrêté préfectoral du 7 juillet 1995, la société LE FLOCKAGE, s'est vue prescrire la réhabilitation de la zone polluée (parcelle 209).
+
+14l0l0	Par_arrêté_préfectoral	O
+14l0l1	du_7_juillet_1995___la	N
+14l0l2	société_LE_FLOCKAGE	T
+14l0l3	réhabilitation_de_la_zone	O
+14l1l0	polluée__	S
+
+#Le traitement comprenait :
+
+15l0l0	Le_traitement_comprenait	O
+15l0l1	_	T
+
+#- la création d'une alvéole étanche avec géomembrane,
+
+
+#- l'excavation des sédiments et terres polluées,
+
+17l0l0	l__excavation	N
+17l0l1	des_sédiments_et_terres	O
+
+#- le confinement après dessiccation (boues à 30% d'humidité).
+
+18l0l0	le_confinement	N
+18l0l1	après_dessiccation___boues_à_30__	O
+
+#Un détournement par les drains des eaux de ruissellement sur la zone des anciennes lagunes réhabilitées a également été effectué.
+
+19l0l0	détournement_par_les_drains_des_eaux	N
+
+#Une surveillance (d’abord trimestrielle puis semestrielle) des eaux souterraines a été réalisée à partir de 4 piézomètres.
+
+20l0l0	Une_surveillance	O
+20l0l1	d__abord_trimestrielle	O
+20l0l2	semestrielle___des_eaux	O
+20l0l3	souterraines_a_été	O
+20l0l4	réalisée_à	N
+20l0l5	partir	O
+20l0l6	de_4_piézomètres__	N
+
+#Les résultats montrent que la situation des eaux souterraines au droit du site s’améliore progressivement.
+
+21l0l0	Les_résultats_montrent	A
+21l0l1	droit_du_site_s__améliore	O
+21l0l2	progressivement	N
+
+#2.
+
+
+#Évolution des modalités de surveillance :
+
+
+#A la demande de l'inspection, la surveillance de la qualité des eaux souterraines réalisée précédemment par l'exploitant (prélèvements), a été confiée depuis 2011 à un organisme spécialisé.
+
+
+#Les modalités de surveillance sont à adapter (paramètres significatifs, fréquence des prélèvements,...) en fonction de l'évolution des concentrations.
+
+25l0l0	Les_modalités	N
+25l0l1	surveillance_sont_à_adapter___paramètres_significatifs___fréquence	A
+25l0l2	des_prélèvements____	N
+25l0l3	en_fonction_de	O
+25l0l4	concentrations	N
+25l0l5	_	T
+
+#Un piézomètre (Pz1bis) a été réimplanté en aval en remplacement de l'ouvrage Pz1 devenu inopérant.
+
+
+#Les résultats de la dernière campagne de 2014 indiquent que l'impact des anciennes activités exercées sur le site s'améliore.
+
+27l0l0	Les_résultats	O
+27l0l1	dernière_campagne_de	N
+27l0l2	2014	L
+27l0l3	indiquent_que_l__impact_des_anciennes	O
+
+#La fréquence des prélèvements sera désormais annuelle.
+
+28l0l0	prélèvements_sera	N
+28l0l1	désormais	T
+
+#3.	Mise en place de restrictions d’usage (servitudes d’utilité publique) :
+
+29l0l0	3__	O
+29l0l1	Mise_en_place	O
+
+#La mise en place de restrictions d'usage (convention au profit de l'Etat) n'ayant jamais abouti, et entre temps le code de l’environnement ayant évolué dans un sens facilitant et favorisant la procédure de « SUP » (servitudes d'utilité publique), la seule qui soit juridiquement stable et pérenne et surtout permettant une reprise dans les documents d’urbanisme, la DREAL Limousin a engagé en juillet 2010 la procédure de servitudes d'utilité publique.
+
+30l0l0	mise_en_place_de_restrictions_d_	N
+30l0l1	usage	O
+30l0l2	convention_au	O
+
+#L'arrêté instituant la mise en place de SUP a été signé le 27 juillet 2011 par le préfet du département (voir onglet "surveillance du site et restrictions d'usage pour téléchargement de l'AP).
+
+31l0l0	L__arrêté_instituant	N
+31l0l1	la_mise_en_place_de_SUP	O

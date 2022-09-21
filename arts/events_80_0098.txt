@@ -1,0 +1,239 @@
+
+#80.0098
+#La société DMS a exploité un site localisé, 25 rue de la vallée sur la commune de Biaches pour une activité de stockage et de vente d’hydrocarbures.
+
+0l0l0	La_société_DMS	O
+0l0l1	a_exploité	N
+0l0l2	un_site	O
+0l0l3	localisé	L
+0l0l4	25_rue_de_la_vallée_sur_la_commune_de_Biaches	L
+0l0l5	une_activité_de_stockage_et_de_vente_d__hydrocarbures	A
+0l1l0	La_société_DMS	I
+0l1l1	hydrocarbures	S
+
+#Ce site relève de la déclaration d’exploiter.
+
+1l0l0	Ce_site	O
+1l0l1	la_déclaration	N
+1l0l2	d__exploiter	O
+
+#Le site est occupé par une maison d’habitation, un hangar de stockage de charbon, une dépendance regroupant des anciens bureaux et 2 garages.
+
+2l0l0	Le_site	O
+2l0l1	est_occupé_par	R
+2l0l2	une_maison_d__habitation	O
+2l0l3	un_hangar_de_stockage_de_charbon	O
+2l0l4	une_dépendance	O
+2l0l5	2_garages	O
+2l1l0	charbon	U
+
+#L’exploitant a exploité 2200 m² sur les 4000 m² environ du site.
+
+3l0l0	L__exploitant	O
+3l0l1	a_exploité	N
+3l0l2	2200_m²	O
+
+#La partie non exploitée par DMS constitue un jardin séparé du reste du site par un dénivelé en hauteur (au sud du site). il n'a jamais été exploité par DMS.
+
+4l0l0	La_partie	O
+4l0l1	DMS	O
+4l0l2	jardin	O
+4l0l3	séparé_du_reste_du_site	L
+4l0l4	dénivelé_en_hauteur___au_sud_du_site	L
+4l0l5	a_jamais_été_exploité	N
+4l1l0	DMS	I
+4l1l1	DMS	I
+
+#Une évaluation du sous-sol a été réalisée en janvier 2009 par HPC Envirotec sur la partie exploitée par DMS.
+
+5l0l0	Une_évaluation	N
+5l0l1	sous_sol	O
+5l0l2	a_été_réalisée	N
+5l0l3	en_janvier_2009	T
+5l0l4	HPC_Envirotec	O
+5l0l5	la_partie	O
+5l0l6	exploitée	N
+5l0l7	DMS	O
+5l1l0	HPC_Envirotec	I
+5l1l1	DMS	I
+
+#Ce rapport HPC-F 2A/2.06.4551 a – Evaluation de la qualité du sous-sol (HPC ENVIROTEC) de janvier 2009 a été remis à l’Inspection
+
+6l0l0	Ce_rapport_HPC	O
+6l0l1	la_qualité_du_sous_sol	O
+6l0l2	de_janvier_2009	T
+6l0l3	a_été_remis	N
+6l1l0	HPC_ENVIROTEC	I
+
+#En conclusion l’exploitant retient que des teneurs apparaissent significatives en hydrocarbures C10-C40 globalement jusqu’à 1 m de profondeur :
+
+7l1l0	hydrocarbures_C10_C40	S
+
+#•	En partie Nord Est, aux abords d’une ancienne cuve aérienne de FOD et de l’ancien volucompteur,
+
+8l0l0	En_partie_Nord_Est	L
+8l0l1	aux_abords_d_	L
+8l0l2	une_ancienne_cuve_aérienne	O
+8l1l0	cuve	D
+8l1l1	aérienne_de_FOD	U
+
+#•	En partie centrale Ouest, au droit de l’ancienne aire de dépotage et à proximité d’une ancienne cuve aérienne de FOD,
+
+9l0l0	En_partie_centrale_Ouest	L
+9l0l1	au_droit_de_l__ancienne_aire	L
+9l0l2	dépotage	O
+9l0l3	à_proximité_d_	L
+9l0l4	une_ancienne_cuve_aérienne	O
+9l1l0	FOD	S
+
+#•	En parties centrales Nord et Nord Nord-Est, au droit d’anciennes voies de circulation.
+
+10l0l0	En_parties_centrales_Nord	L
+10l0l1	et_Nord_Nord_Est	O
+
+#On note la présence de remblais ubiquistes, renfermant des mâchefers, morceaux de briques et /ou charbon qui sont souvent associés à des teneurs remarquables en éléments traces métalliques (arsenic, plomb, cadmium, cuivre, nickel, mercure et zinc) entre 0 et 1.3 m de profondeur.
+
+11l0l0	remblais	N
+11l1l0	traces_métalliques	S
+11l1l1	arsenic	S
+11l1l2	plomb	S
+11l1l3	cadmium	S
+11l1l4	cuivre	S
+11l1l5	nickel	S
+11l1l6	mercure	S
+11l1l7	zinc	S
+
+#L’évaluation conclut à l’absence d’impact des anciennes activités exercées sur le site dans les eaux souterraines.
+
+12l0l0	anciennes_activités_exercées	N
+12l0l1	sur	R
+12l0l2	le_site	O
+12l0l3	les_eaux_souterraines	O
+
+#Les résultats ont mis en évidence des concentrations inférieures aux seuils de détection analytique en hydrocarbures volatils par dosage in situ et analyse en laboratoire pour l’ensemble des sondages réalisés.
+
+13l0l0	des_sondages_réalisés	N
+13l1l0	hydrocarbures	S
+
+#Préalablement aux travaux, une évaluation quantitative des risques sanitaires a été réalisée en janvier 2009 par HPC Envirotec dans le cadre d’un usage résidentiel avec jardin privatif et selon les instructions de la circulaire du 8 février 2007 relatives à la fixation d’objectifs de dépollution pour un site pollué.
+
+14l0l0	Préalablement_aux_travaux	N
+14l0l1	une_évaluation_quantitative_des_risques_sanitaires	N
+14l0l2	a_été_réalisée	N
+14l0l3	en_janvier_2009	T
+14l0l4	HPC_Envirotec	O
+14l0l5	dans_le_cadre_d_	R
+14l0l6	un_usage_résidentiel_avec_jardin_privatif	L
+14l0l7	8_février_2007	T
+14l0l8	la_fixation_d__objectifs	O
+14l0l9	dépollution	N
+14l0l10	un_site_pollué	O
+14l1l0	HPC_Envirotec	I
+
+#Le scénario étudié est un scénario résidentiel avec jardin privatif sur l’ensemble de la surface du site (présence d’adultes et d’enfants) et possibilité de jardins potagers.
+
+
+#Pour le site, sans mesure de gestion particulière, on constate des dépassements de concentrations maximales admissibles:
+
+16l0l0	des_dépassements	N
+
+#•	du fait de la présence de benzène, arsenic, plomb, cadmium, hydrocarbures C5-C10 et C10-C40 dans les sols cultivables (entre 0 et 1 m) en cas de présence de jardin potager.
+
+17l0l0	les_sols_cultivables	N
+17l1l0	benzène	S
+17l1l1	arsenic	S
+17l1l2	plomb	S
+17l1l3	cadmium	S
+17l1l4	hydrocarbures_C5_C10	S
+17l1l5	C10_C40	S
+
+#•	du fait de la présence de benzène, arsenic, plomb, hydrocarbures C5-C10 et C10-C40 dans les sols superficiels des espaces verts (0 et 30 cm).
+
+18l1l0	benzène	S
+18l1l1	arsenic	S
+18l1l2	plomb	S
+18l1l3	hydrocarbures_C5_C10	S
+
+#•	du fait de la présence d’hydrocarbures C5-C10 dans les sols profonds (> 30 cm) hors et sous bâti.
+
+19l1l0	hydrocarbures_C5_C10	S
+
+#Les travaux de dépollution ont été réalisés les 17, 18, 19, 20 et 23 novembre 2009.
+
+20l0l0	Les_travaux_de_dépollution	N
+20l0l1	ont_été_réalisés	N
+20l0l2	les_17___18___19___20_et_23_novembre_2009__	T
+
+#Les travaux de terrassement et de remblaiement ont été confiés à la société D-FER.
+
+21l0l0	Les_travaux_de_terrassement	N
+21l0l1	de_remblaiement	N
+21l0l2	ont_été_confiés	N
+21l0l3	la_société_D___FER	O
+21l1l0	société_D___FER	I
+
+#La société EACM a été chargée du suivi environnemental des travaux ainsi que de l’organisation de l’élimination des terres polluées.
+
+22l0l0	La_société_EACM	O
+22l0l1	a_été_chargée_du_suivi_environnemental	N
+22l0l2	des_travaux	N
+22l0l3	l__élimination	N
+22l0l4	terres_polluées	O
+22l1l0	La_société_EACM	I
+
+#Ces opérations ont fait l’objet d’un rapport de décembre 2009 intitulé « suivi de la dépollution d’un ancien stockage de carburant – EACM – décembre 2009 ».
+
+23l0l0	Ces_opérations	N
+23l0l1	ont_fait_l__objet_d_	R
+23l0l2	un_rapport	N
+23l0l3	de_décembre_2009	T
+23l0l4	suivi_de_la_dépollution_d_	N
+23l0l5	un_ancien_stockage_de_carburant	O
+23l0l6	EACM	O
+23l0l7	décembre_2009	T
+23l1l0	carburant	U
+
+#Préalablement aux travaux, une évaluation quantitative des risques sanitaires en janvier 2009 a été réalisée par HPC Envirotec à partir des concentrations obtenues lors du diagnostic et pour un usage résidentiel du site.
+
+24l0l0	Préalablement_aux_travaux	N
+24l0l1	une_évaluation_quantitative_des_risques_sanitaires	N
+24l0l2	en_janvier_2009	T
+24l0l3	a_été_réalisée	N
+24l0l4	HPC_Envirotec	O
+24l0l5	du_diagnostic	N
+24l0l6	un_usage_résidentiel	A
+24l0l7	du_site	L
+24l1l0	HPC_Envirotec	I
+
+#L’inspecteur des installations classées s’est rendu sur le site le 30 mars 2010 pour constater que la réalisation des travaux conformément au plan de travaux établi par DMS.
+
+25l0l0	L__inspecteur_des_installations_classées	O
+25l0l1	s__est_rendu	N
+25l0l2	sur_le_site	L
+25l0l3	le_30_mars_2010	T
+25l0l4	la_réalisation_des_travaux	N
+25l0l5	conformément_au	R
+25l0l6	plan_de_travaux_établi	N
+25l1l0	DMS	I
+
+#Dans le cas où des mesures particulières rendent le site compatible avec l’usage retenu, l'article L515.12 du code de l'environnement prévoit que des servitudes d'utilité publique peuvent être Instituées sur des terrains pollués de façon à protéger les intérêts mentionnés à l'article L.511-1 du Code de l'environnement (danger et inconvénients pour le voisinage, la santé, la nature et l'environnement...) ou à garantir la sécurité et la salubrité publique.
+
+26l0l0	des_servitudes_d_	O
+26l0l1	des_terrains_pollués	N
+
+#L’Inspection a demandé par courrier à la société DMS de faire ses propositions de restrictions d’usage sur le site sis 25 rue de la vallée à Biaches.
+
+27l0l0	L_	O
+27l0l1	la_société_DMS	O
+27l0l2	ses_propositions_de_restrictions_d__usage	O
+27l0l3	le_site	O
+27l0l4	sis	R
+27l0l5	25_rue_de_la_vallée_à_Biaches	L
+27l1l0	la_société_DMS	I
+
+#Ce dossier a été transmis courant janvier 2012 par DMS à l'inspection.
+
+28l0l0	Ce_dossier	O
+28l0l1	a_été_transmis	N
+28l0l2	courant_janvier_2012	T
+28l1l0	DMS	I

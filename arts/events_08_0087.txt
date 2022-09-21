@@ -1,0 +1,162 @@
+
+#08.0087
+#L'usine de Charleville-Mézières fabrique des modules de climatisation destinés au secteur de l'automobile, et plus précisément les évaporateurs de climatisation ou les petits radiateurs de chauffage (pour FORD) et les refroidisseurs air (pour JAGUAR).
+
+0l0l0	L__usine	O
+0l0l1	de_Charleville___Mézières	O
+0l0l2	fabrique	A
+0l0l3	des_modules_de_climatisation	O
+0l0l4	destinés	R
+0l0l5	au_secteur_de_l__automobile	A
+0l0l6	évaporateurs_de_climatisation	O
+0l0l7	les_refroidisseurs_air	O
+0l1l0	FORD	I
+0l1l1	pour_JAGUAR	I
+
+#En effet, les pièces destinées aux véhicules FORD (Fiesta, Focus, Mondeo, etc.) représentent 90% de la production annuelle de l'établissement.
+
+1l0l0	les_pièces_destinées_aux_véhicules_FORD	O
+1l0l1	production_annuelle_de_l__établissement	A
+1l1l0	véhicules_FORD___Fiesta	I
+1l1l1	Mondeo	I
+
+#Les activités sont réparties dans deux ateliers :
+
+
+#bâtiment CH1 représentant une surface de 24 438 m²,
+
+
+#bâtiment CH2 représentant une surface de 11 246 m².
+
+
+#Le centre technique s’étend sur une surface de 409 m².
+
+5l0l0	Le_centre_technique	O
+
+#Dans le bâtiment CH1, on retrouve :
+
+
+#l'expédition des climatisations,
+
+7l0l0	climatisations	O
+
+#l'atelier plasturgie,
+
+8l0l0	plasturgie	A
+
+#la maintenance et la qualité,
+
+
+#l'atelier aluminium,
+
+
+#la station d'épuration interne (pour les eaux industrielles provenant essentiellement de l'atelier aluminium).
+
+11l0l0	les_eaux_industrielles	O
+11l0l1	aluminium	A
+11l1l0	les_eaux_industrielles	U
+
+#Le fonctionnement de cette station est le suivant :
+
+
+#Stockage des effluents avant traitement,
+
+13l0l0	Stockage	N
+
+#Homogénéisation,
+
+14l0l0	Homogénéisation	N
+
+#Précipitation des métaux lourds (coagulation),
+
+15l0l0	coagulation	O
+15l1l0	métaux_lourds	S
+
+#Neutralisation,
+
+16l0l0	Neutralisation	N
+
+#Floculation,
+
+
+#Décantation.
+
+18l0l0	Décantation	N
+
+#Les boues sont alors envoyées vers un filtre-presse et l'eau traitée est rejetée en Meuse.
+
+19l0l0	en_Meuse	L
+
+#Le bâtiment CH2, quant à lui, a été réorganisé comme suit :
+
+20l0l0	Le_bâtiment_CH2	O
+20l0l1	a_été_réorganisé	N
+
+#60% du bâtiment est lou à la société KINETEC (50 personnes – établissement non soumis à la réglementation des installations classées),
+
+21l0l0	60___du_bâtiment	O
+21l0l1	est_lou	N
+21l0l2	la_société_KINETEC	O
+21l0l3	établissement_non_soumis_à_la_réglementation_des_installations_classées	A
+21l1l0	la_société_KINETEC	I
+
+#40 % du bâtiment sert au stockage pour la société VISTEON.
+
+22l0l0	40___du_bâtiment	O
+22l0l1	sert_au	R
+22l0l2	stockage	A
+22l0l3	la_société_VISTEON	O
+22l1l0	la_société_VISTEON	I
+
+#Les dernières visites d'inspections ont été réalisées le 23 mars 2011 et le 12 juillet 2012 et portaient respectivement sur la situation administrative et les rejets (aqueux et atmosphériques) ainsi que sur les risques technologiques.
+
+23l0l0	Les_dernières_visites_d__inspections	N
+23l0l1	ont_été_réalisées	N
+23l0l2	le_23_mars_2011_et_le_12_juillet_2012	T
+23l0l3	la_situation_administrative	O
+23l0l4	les_risques_technologiques	N
+
+#Depuis ces visites, la société VISTEON a fait parvenir à l'inspection des installations classées une mise à jour de son étude d'impact, une mise à jour de son étude de dangers et une évaluation quantitative des risques sanitaires motivée par la présence au droit du site d'une pollution importante des sols et de la nappe aux composés organiques halogénés volatils (COHV).
+
+24l0l0	Depuis	T
+24l0l1	ces_visites	N
+24l0l2	la_société_VISTEON	O
+24l0l3	a_fait_parvenir	N
+24l0l4	l__inspection_des_installations_classées	O
+24l0l5	une_mise_à_jour	N
+24l0l6	son_étude_d__impact	O
+24l0l7	une_mise_à_jour	N
+24l0l8	son	O
+24l0l9	étude_de_dangers	N
+24l0l10	une_évaluation_quantitative_des_risques_sanitaires_motivée	N
+24l0l11	la_présence	O
+24l0l12	au_droit_du_site	L
+24l1l0	la_société_VISTEON	I
+24l1l1	composés_organiques_halogénés_volatils	S
+24l1l2	COHV	S
+
+#La pollution (COHV) impacte les sols et la nappe phréatique au droit du site.
+
+25l0l0	au_droit_du_site	L
+25l1l0	COHV	S
+
+#Aucun impact à l'extérieur du site n'a été identifié.
+
+26l0l0	Aucun_impact	O
+26l0l1	à_l__extérieur_du_site	L
+26l0l2	été_identifié	N
+
+#Il n'a également pas été mis en évidence un transferts de polluants vers la Meuse qui se trouve en bordure immédiate du site.
+
+27l0l0	la_Meuse	L
+27l0l1	se_trouve_en_bordure_immédiate_du_site	L
+27l1l0	polluants	U
+
+#Des études ont été réalisées par l'exploitant depuis 2004 afin de caractériser la pollution, évaluer son impact et proposer des actions de correction (plan de gestion - février 2013)
+
+28l0l0	Des_études_ont_été_réalisées	N
+28l0l1	l__exploitant	O
+28l0l2	depuis_2004	T
+28l0l3	la_pollution	N
+28l0l4	évaluer_son_impact	N
+28l0l5	février_2013__	T

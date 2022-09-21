@@ -1,0 +1,183 @@
+
+#01.0008
+#Cette société est implantée sur le parc industriel de la plaine de l'Ain depuis 1993.
+
+0l0l0	Cette_société	O
+0l0l1	est_implantée	N
+0l0l2	sur_le_parc_industriel_de_la_plaine_de_l__Ain	L
+0l0l3	depuis_1993	T
+
+#lle est spécialisée dans la fabrication de produits de base pour la pharmacie.
+
+1l0l0	lle	O
+1l0l1	est_spécialisée_dans_la_fabrication_de_produits_de_base	A
+
+#Plus précisemment elle fabrique des principes actifs destinés à l'élaboration de médicaments.
+
+2l0l0	fabrique	A
+2l0l1	des_principes_actifs	O
+
+#Elle emploie actuellement 130 personnes.
+
+
+#La capacité de production est de 1500 kg jour de produits finis.
+
+
+#L'usine est implantée sur un terrain de 7ha, dont 50% est bati.
+
+5l0l0	L__usine	O
+5l0l1	est_implantée_sur_un_terrain_de_7_ha	N
+5l0l2	bati	O
+
+#Le parc industriel de la plaine de l'Ain est situé dans la basse plaine de l'Ain, encadré à l'Est par la rivière "l'Ain" et à l'Ouest par le Rhône.
+
+6l0l0	Le_parc_industriel	O
+6l0l1	la_plaine_de	O
+6l0l2	l__Ain	L
+6l0l3	est_situé_dans_la_basse_plaine_de_l__Ain	L
+6l0l4	encadré_à_l__Est_par_la_rivière___l__Ain__	L
+6l0l5	l_	O
+6l0l6	Ouest_par_le_Rhône	L
+
+#La Géologie du site est caractérisée par des formations molassiques à faciès de sable et de marnes sur lesquelles se sont déposées des formations glaciaires du quaternaire.
+
+7l0l0	La_Géologie	N
+7l0l1	se_sont_déposées	N
+
+#Cette installation est soumise à autosurveillance de ses rejets liquides:
+
+8l0l0	Cette_installation	O
+8l0l1	est	N
+8l0l2	soumise_à	R
+8l0l3	autosurveillance_de	A
+8l0l4	ses_rejets_liquides	N
+
+#-mesure en continu du Ph, de la température, et du débit
+
+
+#-mesure journalière des MES, de la DCO, de l'indice Phénol
+
+10l1l0	Phénol	S
+
+#-mesure mensuelle des composés organiques halogénés, des hydrocarbures totaux et du toluène
+
+11l1l0	composés_organiques_halogénés	S
+11l1l1	hydrocarbures_totaux	S
+11l1l2	toluène	S
+
+#-tous les 4 mois, en plus des polluants précités,Azote global, Phosphore total, Cyanures totaux, Dichlorométhane, Mercure, Cadmium, Arsenic, Chrome VI et composés, Cuivre, Plomb, Zinc, Métaux totaux
+
+12l0l0	_tous_les_4_mois	T
+12l1l0	polluants	U
+12l1l1	Azote_global	S
+12l1l2	Phosphore_total	S
+12l1l3	Cyanures_totaux	S
+12l1l4	Dichlorométhane	S
+12l1l5	Mercure	S
+12l1l6	Cadmium	S
+12l1l7	Arsenic	S
+12l1l8	Chrome_VI	S
+12l1l9	composés	S
+12l1l10	Cuivre	S
+12l1l11	Plomb	S
+12l1l12	Zinc	S
+12l1l13	Métaux_totaux	S
+
+#et à autosurveillance de ses rejets atmosphériques:
+
+13l0l0	autosurveillance_de	A
+13l0l1	ses_rejets_atmosphériques	N
+
+#-mesure en continu des COV, du Chlore, du Phosgène
+
+14l1l0	COV	S
+14l1l1	Chlore	S
+14l1l2	Phosgène	I
+
+#-mesure annuelle de 43 COV, de l'Ammoniac, de l'Acide chlorhydrique, des poussières, des métaux, du SO2, du CO, des NOX,de l'acide Cyanhydrique, du Brome et composés inorganiques du Brome, du Chlore, de l'Hydrogène sulfuré
+
+15l1l0	COV	S
+15l1l1	Ammoniac	S
+15l1l2	Acide_chlorhydrique	S
+15l1l3	métaux	S
+15l1l4	SO2___du_CO	S
+15l1l5	des_NOX	S
+15l1l6	acide_Cyanhydrique	S
+15l1l7	du_Brome	S
+15l1l8	composés_inorganiques	S
+15l1l9	Brome	S
+15l1l10	du_Chlore	S
+15l1l11	l__Hydrogène_sulfuré	S
+
+#Une pollution du sous-sol, par un déversement accidentel de 7 000 litres de solvant souillés a eu lieu le 22 avril 1996.
+
+16l0l0	Une_pollution	N
+16l0l1	sous_sol	O
+16l0l2	un_déversement_accidentel	N
+16l0l3	a_eu_lieu	N
+16l0l4	le_22_avril_1996	T
+16l1l0	solvant_souillés	U
+
+#Environ 900 m3 de terres et graviers sont pollués.
+
+
+#Par arrêté préfectoral du 14/06/96 l'administration a prescrit :
+
+18l0l0	arrêté_préfectoral_du	O
+18l0l1	14_06_96	T
+18l0l2	l__administration	O
+18l0l3	a_prescrit	N
+
+#-une étude de reconnaissance de la pollution
+
+19l0l0	_une_étude_de_reconnaissance	N
+19l0l1	de_la_pollution	N
+
+#-le traitement des sols avec objectifs de dépollution
+
+20l0l0	traitement_des_sols	N
+20l0l1	dépollution	N
+
+#-le traitement des sols excavés dans une installation autorisée à cet effet
+
+21l0l0	_le_traitement_des_sols_excavés	N
+
+#-la surveillance de la nappe phréatique pendant toute la durée des travaux, ainsi que la surveillance des rejets atmosphériques ( COV )de l'unité de traitement.
+
+22l0l0	_la_surveillance	A
+22l0l1	la_nappe_phréatique	O
+22l0l2	pendant_toute_la_durée	T
+22l0l3	des_travaux	N
+22l0l4	la_surveillance	A
+22l0l5	rejets_atmosphériques	N
+22l0l6	traitement	A
+22l1l0	COV	S
+
+#Une petite quantité de terre fortement polluée a été excavée et incinérée.
+
+23l0l0	a_été_excavée	N
+23l0l1	incinérée	N
+
+#La zone polluée a ensuite été traitée en utlisant le procédé du venting.
+
+24l0l0	La_zone_polluée	O
+24l0l1	a_ensuite_été_traitée	N
+
+#Le rapport final de la société spécialisée qui est intervenu daté du 30/01/97 a mis en évidence que les concentrations en solvant dans les sols répondaient aux exigences des objectifs de qualité definies par arrêté préfectoral du 14/06/96.
+
+25l0l0	Le_rapport_final	O
+25l0l1	la_société	O
+25l0l2	est_intervenu	N
+25l0l3	daté_du_30_01_97	T
+25l0l4	aux_exigences	N
+25l0l5	definies_par	R
+25l0l6	arrêté_préfectoral	O
+25l0l7	14_06_96	T
+
+#Plus de pollution connue à ce jour sur cette partie du site
+
+26l0l0	Plus_de_pollution	O
+
+#Dans les connaissances actuelles, l'administration considère que ce site (pour ce qui concerne cette pollution et dans les conditions d'usage et d'environnement actuelles) est à considèrer comme libre de toute restriction.
+
+27l0l0	ce_site	O

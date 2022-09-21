@@ -1,0 +1,122 @@
+
+#51.0044
+#La société VALLOUREC PRECISION ETIRAGE fabrique des tubes en acier.
+
+0l0l0	La_société_VALLOUREC	O
+0l0l1	PRECISION	O
+0l0l2	ETIRAGE_fabrique_des_tubes_en_acier	A
+0l1l0	La_société_VALLOUREC_PRECISION_ETIRAGE	I
+
+#Les activités exercées sont principalement des activités de travail mécanique des métaux, de traitement thermique et de traitement de surface des métaux.
+
+1l0l0	activités_de_travail_mécanique_des_métaux	A
+1l0l1	traitement_thermique	A
+1l0l2	traitement_de_surface_des_métaux	A
+
+#L'arrêté d'autorisation d'exploitation  de l'établissement détermine les limites de rejets autorisés.
+
+2l0l0	L__arrêté_d__autorisation	O
+2l0l1	de_l__établissement	O
+2l0l2	détermine	R
+2l0l3	les_limites_de_rejets_autorisés	O
+
+#Fin 2007, la société Vallourec Précision Etirage a été racheté par une entreprise allemande et se dénomme maintenant "Salzgitter Mannesmann Precision"
+
+3l0l0	Fin_2007__	T
+3l0l1	la_société_Vallourec_Précision_Etirage	O
+3l0l2	a_été_racheté	N
+3l0l3	par_une_entreprise_allemande	O
+3l0l4	se_dénomme_maintenant	N
+3l1l0	la_société_Vallourec_Précision_Etirage	I
+3l1l1	__Salzgitter_Mannesmann_Precision	I
+
+#Ce site relève de l'application de la circulaire du 03/04/1996.
+
+4l0l0	Ce_site	O
+4l0l1	03_04_1996__	T
+
+#Un diagnostic initial et une évaluation simplifiée des risques ont été prescrits par arrêté préfectoral du 12/07/2000.
+
+5l0l0	Un_diagnostic_initial_et_une_évaluation_simplifiée_des_risques	N
+5l0l1	ont_été_prescrits	N
+5l0l2	par_arrêté_préfectoral	O
+5l0l3	12_07_2000__	T
+
+#Les analyses ont montré une pollution des sols, de la nappe et d'un étang de loisir en aval par des hydrocarbures, des métaux (Cuivre, chrome), des composés halogénés (trichloroéthylène, 1,2 dichloroéthène).
+
+6l0l0	une_pollution	N
+6l0l1	sols	O
+6l0l2	un_étang_de_loisir_en_aval	L
+6l1l0	hydrocarbures	S
+6l1l1	des_métaux	S
+6l1l2	Cuivre	S
+6l1l3	chrome	S
+6l1l4	des_composés_halogénés___trichloroéthylène___1_2_dichloroéthène	S
+
+#L'évaluation simplifiée des risques conclut à un site en classe 1, à traiter.
+
+7l0l0	évaluation_simplifiée_des_risques	N
+
+#Le rapport préconise la prescription d'une évaluation détaillée des risques et d'une surveillance des eaux de surface et souterraines.
+
+8l0l0	évaluation_détaillée_des_risques	N
+8l0l1	surveillance_des_eaux_de_surface_et_souterraines	A
+
+#Le rapport précise que le site serait classé en classe 2 en l'absence d'activité liée à l'étang privé.
+
+9l0l0	le_site	O
+9l0l1	classé_en_classe_2	O
+9l0l2	activité	A
+9l0l3	liée_à	R
+9l0l4	l_	O
+
+#L'inspection des installations classées a demandé à l'exploitant de cesser les activités de pêche liées à l'étang privé de l'industriel et de mettre en place une surveillance trimestrielle des eaux.
+
+10l0l0	L__inspection_des_installations_classées	O
+10l0l1	a_demandé	N
+10l0l2	l__exploitant	O
+10l0l3	cesser	N
+10l0l4	les_activités_de_pêche	A
+10l0l5	liées_à	R
+10l0l6	l_	O
+10l0l7	étang	R
+10l0l8	l__industriel	O
+10l0l9	de_mettre_en_place_une	N
+10l0l10	surveillance_trimestrielle	A
+10l0l11	des_eaux	O
+
+#Vallourec Précision Automobile a confirmé l'abandon de la pêche dans l'étang privé lui appartenant (classement du site en classe 2).
+
+11l0l0	Vallourec_Précision_Automobile	O
+11l0l1	a_confirmé	R
+11l0l2	l__abandon	N
+11l0l3	de_la_pêche	A
+11l0l4	dans	R
+11l0l5	l__étang_privé	O
+11l0l6	classe_2	O
+11l1l0	Vallourec_Précision_Automobile	I
+
+#La surveillance trimestrielle est assurée et maintenue.
+
+
+#La situation reste globalement stable.
+
+
+#Le 28 juillet 2008, l'exploitant s'est engagé à étudier la possibilité de compléter le réseau de points de contrôles par la mise en place de nouveaux piézomètres (le site en possédant déjà 8).
+
+14l0l0	Le_28_juillet_2008__	T
+14l0l1	l__exploitant	O
+14l0l2	s__est_engagé	N
+14l0l3	étudier_la_possibilité	O
+14l0l4	réseau_de_points_de_contrôles	O
+14l0l5	la_mise_en_place_de_nouveaux_piézomètres	O
+
+#L'exploitant est soumis à des nouvelles prescriptions ajoutées par un arrêté préfectoral complémentaire du 9 juin 2010 dans le cadre de l'action nationale de Recherche des Substances Dangereuses dans l'Eau (RSDE).
+
+15l0l0	L__exploitant	O
+15l0l1	est_soumis_à_des_nouvelles_prescriptions	N
+15l0l2	un_arrêté_préfectoral_complémentaire	O
+15l0l3	du_9_juin_2010	T
+15l0l4	dans_le_cadre_de	R
+15l0l5	l_	O
+15l1l0	Substances_Dangereuses	U

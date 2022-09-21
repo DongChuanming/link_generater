@@ -1,0 +1,242 @@
+
+#56.0018
+#La société Parker-Legris a été autorisée à exploiter une installation de de fabrication de raccords hydrauliques et pneumatiques par arrêté préfectoral du 23 mai 2007.
+
+0l0l0	La_société_Parker___Legris	O
+0l0l1	a_été_autorisée_à_exploiter	N
+0l0l2	une_installation_de_de	O
+0l0l3	fabrication_de_raccords_hydrauliques_et_pneumatiques	A
+0l0l4	arrêté_préfectoral	O
+0l0l5	du_23_mai_2007__	T
+0l1l0	La_société_Parker___Legris	I
+
+#Cependant, une activité existait déjà et réglementée par un récépissé de déclaration du 11 octobre 1990.
+
+1l0l0	réglementée	N
+1l0l1	un_récépissé	N
+1l0l2	déclaration	N
+1l0l3	11_octobre_1990	T
+
+#Une machine de dégraissage des pièces métalliques est présente sur le site depuis 2000.
+
+2l0l0	Une_machine_de_dégraissage	N
+2l0l1	pièces_métalliques	O
+2l0l2	depuis_2000__	T
+
+#Préalablement à cette date, les pièces étaient dégraissées dans une machine utilisant du trichloroéthylène (TCE).
+
+3l0l0	à_cette_date	T
+3l0l1	les_pièces	O
+3l0l2	étaient_dégraissées	N
+3l0l3	une_machine	O
+3l0l4	utilisant_du_trichloroéthylène	A
+3l1l0	trichloroéthylène	S
+3l1l1	TCE	S
+
+#Des fûts contenant du TCE étaient historiquement stockés en intérieur et en extérieur.
+
+4l0l0	TCE	O
+4l0l1	étaient_historiquement_stockés_en_intérieur	N
+4l1l0	du_TCE	I
+
+#Le TCE a été remplacé par des alcools modifiés fin 2010.
+
+5l0l0	a_été_remplacé	N
+5l0l1	des_alcools_modifiés	O
+5l0l2	fin_2010__	T
+5l1l0	Le_TCE	I
+5l1l1	des_alcools	U
+
+#Plusieurs diagnostics environnementaux ont été réalisés entre 2008 et 2010 à l'initiative de l'exploitant.
+
+6l0l0	Plusieurs_diagnostics_environnementaux	N
+6l0l1	ont_été_réalisés	N
+6l0l2	entre_2008_et_2010	T
+6l0l3	à_l__initiative	N
+6l0l4	de_l__exploitant	O
+
+#4 zones potentielles de sources de pollution ont été identifiées :
+
+7l0l0	4_zones_potentielles	O
+7l0l1	de_sources_de_pollution	O
+7l0l2	ont_été_identifiées	N
+
+#- localisation de l'ancienne machine de dégraissage utilisant du TCE (1978 à 1991) ;
+
+8l0l0	l__ancienne_machine_de_dégraissage	O
+8l0l1	utilisant	N
+8l0l2	du_TCE	O
+8l0l3	__1978_à_1991__	T
+8l1l0	TCE	S
+
+#- localisation de l'ancienne zone de stockage des fûts de TCE ;
+
+9l0l0	l__ancienne_zone_de_stockage	O
+9l0l1	fûts_de_TCE	O
+9l1l0	fûts_de_TCE	I
+
+#- localisation de la machine de dégraissage utilisant du TCE (de 1991 à 2010) ;
+
+10l0l0	la_machine_de_dégraissage	O
+10l0l1	utilisant	A
+10l0l2	du_TCE	O
+10l0l3	de_1991_à_2010__	T
+10l1l0	du_TCE	I
+
+#- localisation d'une ancienne cuve enterrée simple paroi de fioul (avant 1985).
+
+11l0l0	localisation_d_	O
+11l0l1	une_ancienne_cuve_enterrée	O
+11l0l2	avant_1985____	T
+11l1l0	cuve_enterrée	D
+11l1l1	fioul	U
+
+#Les diagnostics concluent en la présence de substances dans les sols, les gaz du sol et les eaux souterraines :
+
+12l0l0	Les_diagnostics	N
+12l1l0	substances	S
+
+#- sol : COHV (tétrachloroéthylène (PCE), TCE, cis-1,2-dichloroéthylène (cis-1,2-DCE) ), hydrocarbures totaux (HCT) ponctuellement ;
+
+13l1l0	sol	S
+13l1l1	COHV	S
+13l1l2	tétrachloroéthylène	S
+13l1l3	PCE	S
+13l1l4	TCE	S
+13l1l5	cis_1_2_dichloroéthylène	S
+13l1l6	cis_1_2_DCE	S
+13l1l7	hydrocarbures_totaux	S
+13l1l8	HCT	S
+
+#- gaz de sol : COHV (dont PCE, TCE, cis-1,2-DCE, trichlorométhane (TCM) ), les 4 chlorobenzènes en faibles concentrations, HCT volatils ;
+
+14l1l0	gaz_de_sol	U
+14l1l1	COHV	S
+14l1l2	PCE	S
+14l1l3	TCE	S
+14l1l4	cis_1_2_DCE	S
+14l1l5	trichlorométhane	S
+14l1l6	TCM	S
+14l1l7	les_4_chlorobenzènes	S
+14l1l8	HCT_volatils	S
+
+#En raison de l'utilisation du TCE sur le site, un suivi annuel de la qualité de l'air ambiant au poste de travail est mis en place depuis 2000.
+
+15l0l0	En_raison_de	R
+15l0l1	l_	N
+15l0l2	utilisation_du_TCE	A
+15l0l3	un_suivi_annuel	A
+15l0l4	la_qualité_de_l__air	O
+15l0l5	est_mis_en_place	N
+15l0l6	depuis_2000__	T
+15l1l0	TCE	I
+
+#Les résultats des suivis de 2006, 2007 et 2009 mettent en évidence la présence de TCE dans l'air ambiant, mais à des concentrations inférieurs aux valeurs limites d'exposition des professionnels.
+
+16l0l0	suivis_de	N
+16l0l1	2006___2007_et_2009	T
+16l0l2	TCE	O
+16l1l0	TCE	S
+
+#- eaux souterraines : COHV (dont TCE, PCE, trans-1,2-DCE, PCM), HCT (fractions lourdes) ponctuellement.
+
+17l1l0	souterraines	S
+17l1l1	COHV	S
+17l1l2	TCE	S
+17l1l3	PCE	S
+17l1l4	PCM	S
+17l1l5	HCT	S
+
+#Il existe un panache de TCE dans les eaux souterraines, suivant le sens d'écoulement des eaux.
+
+18l1l0	TCE	S
+
+#Une surveillance des eaux souterraines est active depuis le 23 novembre 2011à fréquence semestrielle.
+
+19l0l0	Une_surveillance	A
+19l0l1	des_eaux_souterraines	O
+19l0l2	est_active	N
+19l0l3	depuis_le_23_novembre_2011à	T
+
+#Au vu de ces résultats, l'arrêté préfectoral du 23 novembre 2011 prescrit l'élaboration d'une démarche de gestion des sols pollués.
+
+20l0l0	l__arrêté_préfectoral	O
+20l0l1	du_23_novembre_2011	T
+20l0l2	prescrit_l_	R
+20l0l3	élaboration_d__une_démarche	N
+20l0l4	de_gestion_des_sols_pollués	O
+
+#A l'issue des diagnostics réalisés :
+
+21l0l0	des_diagnostics_réalisés	N
+
+#- une migration hors site des polluants a été mise en évidence sur une centaine de mètres ;
+
+22l0l0	migration_hors_site	N
+22l0l1	une_centaine_de_mètres	L
+22l1l0	polluants	S
+
+#- aucun usage sensible n'a été identifié en aval ;
+
+
+#- aucune pollution des eaux superficielles n'est mise en évidence.
+
+
+#Le plan de gestion réalisé en 2013 prévoit le début des travaux de réhabilitation de dépollution après la réalisation de tests préliminaires d'essais afin de préciser les faisabilités techniques des traitements prévus.
+
+25l0l0	Le_plan_de_gestion	O
+25l0l1	réalisé	N
+25l0l2	en_2013	T
+25l0l3	prévoit	R
+25l0l4	le_début	N
+25l0l5	des_travaux_de_réhabilitation_de_dépollution	N
+25l0l6	après	R
+25l0l7	la_réalisation_de_tests_préliminaires	N
+25l0l8	les_faisabilités_techniques_des_traitements	O
+
+#L'APC du 6 mars 2014 prescrit la mise en œuvre des travaux de réhabilitation.
+
+26l0l0	L__APC	O
+26l0l1	6_mars_2014	T
+26l0l2	prescrit	N
+26l0l3	la_mise_en_œuvre_des_travaux_de_réhabilitation	N
+
+#Les tests ont débuté fin 2014 : venting et oxydation chimique in-situ.
+
+27l0l0	Les_tests	O
+27l0l1	ont_débuté	N
+27l0l2	fin_2014	T
+27l0l3	venting	N
+27l0l4	oxydation_chimique_in___situ	N
+
+#Les résultats des essais étant concluant, l'exploitant doit désormais mettre en œuvre les travaux de dépollution.
+
+28l0l0	l__exploitant	O
+28l0l1	doit	R
+28l0l2	désormais	T
+28l0l3	mettre_en_œuvre	N
+28l0l4	les_travaux_de_dépollution	N
+
+#La solution finale retenue est le Venting plus Air sparging .
+
+29l1l0	Venting	I
+29l1l1	Air_sparging	U
+
+#En août 2017, l'exploitant testait la faisabilité technique de la méthode sur site.
+
+30l0l0	En_août_2017__	T
+30l0l1	l__exploitant	O
+30l0l2	testait	R
+30l0l3	la_faisabilité_technique	N
+30l0l4	la_méthode	O
+
+#Le début des travaux sont prévus pour la semaine 44 de 2017 et la durée du traitement de 2 à 3 ans.
+
+31l0l0	Le_début_des_travaux_sont	N
+31l0l1	prévus_pour_la_semaine_44_de_2017	T
+31l0l2	la_durée_du_traitement	N
+31l0l3	2_à_3_ans	T
+
+#L'inspection sera régulièrement tenue informée de l'avancée et de l'efficacité du traitement.
+
+32l0l0	L__inspection	O

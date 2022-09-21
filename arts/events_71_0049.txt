@@ -1,0 +1,567 @@
+
+#71.0049
+#La société DELEK FRANCE exploite une station-service sur la commune de LUX, en bordure (Est) de la Route Nationale 6.
+
+0l0l0	La_société_DELEK	T
+0l0l1	FRANCE_exploite	N
+0l0l2	sur_la_commune_de_LUX___en_bordure__	N
+0l0l3	Est___de_la_Route	O
+0l0l4	Nationale_6__	T
+0l1l0	DELEK_FRANCE	I
+
+#DELEK FRANCE a racheté la branche d'activité de station-service de BP FRANCE.
+
+1l0l0	DELEK_FRANCE_a_racheté_la	O
+1l0l1	branche	N
+1l0l2	d__activité_de_station	O
+1l0l3	__service_de_BP_FRANCE	L
+1l0l4	_	L
+1l1l0	DELEK_FRANCE_a_racheté_la	I
+
+#L'accord prévoit une licence d'utilisation exclusive de la marque et de l'enseigne BP.
+
+2l0l0	L__accord_prévoit	O
+2l0l1	une	N
+2l0l2	licence_d_	O
+2l0l3	utilisation_exclusive_de	A
+2l0l4	et_de_l__enseigne	O
+2l1l0	L__accord_prévoit	I
+2l1l1	et_de_l__enseigne	I
+
+#Cette station-service est soumise au régime de déclaration au titre de la nomenclature des installations classées pour la protection de l'environnement.
+
+3l0l0	la_nomenclature	O
+
+#Le récépissé de changement d'exploitant au profit de la société DELEK a été acté en date du 10 novembre 2010.
+
+4l0l0	Le_récépissé_de_changement	O
+4l0l1	d__exploitant_au_profit_de_la_société	N
+4l0l2	été_acté_en_date_du_10_novembre_2010__	O
+
+#Le récépissé d'exploitation au profit de la société BP FRANCE avait, quant à lui, été acté en date du 5 juin 1997.
+
+5l0l0	Le_récépissé	O
+5l0l1	exploitation_au_profit_de	O
+5l0l2	la_société_BP	R
+5l0l3	FRANCE_avait__	O
+5l0l4	quant_à_lui	N
+5l0l5	__été_acté_en_date_du_5_juin_1997__	T
+5l1l0	BP_FRANCE_avait___quant	I
+
+#La station service a été démantelée en 2015.
+
+6l0l0	La_station_service_a_été_démantelée	O
+6l0l1	en_2015	R
+6l0l2	_	O
+6l1l0	2015__	I
+
+#► CONTEXTE HYDROGÉOLOGIQUE
+
+7l0l0	__CONTEXTE_HYDROGÉOLOGIQUE	O
+
+#L'aquifère prépondérant dans la région chalonnaise est contenu dans les alluvions récentes de la Saône.
+
+8l1l0	aquifère_prépondérant_dans_la_région_chalonnaise_est_contenu_dans_les_alluvions_récentes_de_la_Saône__	I
+
+#Cet aquifère productif et très exploité est très vulnérable à la pollution car la couche  superficielle ne présente pas à terme un réel écran pour la nappe.
+
+9l0l0	Cet	O
+9l0l1	vulnérable_à_la_pollution	R
+9l0l2	car_la_couche___superficielle	L
+
+#Cette nappe est présente au droit du site et potentiellement vulnérable à une pollution en provenance du site.
+
+
+#Les études hydrogéologiques mettent également en évidence des circulations aléatoires au sein de formations plus ou moins perméables du sous-sol (formation de Saint-Cosme).
+
+
+#► CONTEXTE HYDROLOGIQUE
+
+12l0l0	CONTEXTE_HYDROLOGIQUE	N
+
+#Le cours d'eau principal est la Saône qui s'écoule à 850 mètres de la station.
+
+13l1l0	d__eau_principal_est_la_Saône_qui_s__écoule_à_850_mètres_de_la_station__	I
+
+#Le cours d'eau le plus proche de la station est le ruisseau Roie de Droux qui se situe à environ 350 mètres.
+
+14l0l0	Le_cours	O
+14l0l1	de_la_station	L
+14l0l2	ruisseau_Roie_de_Droux_qui_se	L
+
+#26 captages AEP (Alimentation en Eau Potable) sont connus dans un rayon de 6 km.
+
+15l0l0	26_captages_AEP	O
+15l0l1	__sont_connus_dans_un_rayon	L
+15l0l2	6_km__	L
+
+#Enfin, 2 puits privés sont recensés dans la maison accolée à la station-service ; les 2 ouvrages sont considérés comme vulnérables à une pollution provenant du site (ils ont déjà été impactés suite à une pollution de 1990).
+
+16l0l0	Enfin___2_puits_privés	O
+16l0l1	accolée_à_la_station___service	L
+
+#► HISTORIQUE ENVIRONNEMENTAL DU SITE
+
+17l0l0	HISTORIQUE_ENVIRONNEMENTAL	O
+
+#Un suivi de la qualité des eaux souterraines au droit du site avait été mis en œuvre depuis les années 1990.
+
+
+#Ce suivi a mis en évidence une contamination des eaux souterraines par des hydrocarbures.
+
+19l0l0	Ce_suivi_a	A
+19l0l1	mis_en_évidence_une_contamination	O
+19l0l2	des_eaux	L
+19l0l3	souterraines_par_des_hydrocarbures	N
+19l0l4	_	T
+
+#Cette pollution avait été décelée suite à la découverte d'hydrocarbures dans le puits de la propriété voisine.
+
+20l0l0	Cette	N
+20l0l1	pollution_avait_été	R
+20l0l2	décelée_suite_à_la	O
+20l0l3	découverte_d__hydrocarbures_dans_le_puits_de	O
+20l1l0	dans_le_puits_de	S
+
+#Une fuite dans une cuve d'une quantité d'environ 4 m³ en était la cause.
+
+21l0l0	Une_fuite_dans_une	O
+21l0l1	cuve_d__une_quantité	N
+21l0l2	d__environ_4_m³_en	N
+21l0l3	était_la_cause__	O
+21l1l0	était_la_cause__	S
+
+#En 1993, un premier diagnostic des sols a été réalisé afin de déterminer la zone de pollution.
+
+22l0l0	En_1993___un_premier	R
+22l0l1	diagnostic	O
+
+#Suite à cette étude, des travaux de dépollution ont été effectués entre 1993 et 1994.
+
+23l0l0	Suite_à	T
+23l0l1	cette_étude___des_travaux_de_dépollution_ont_été	N
+23l0l2	1993_et_1994__	O
+
+#Le traitement consistait en une biodégradation des sols grâce à une injection d'une solution biologique favorisant l'activité des micro-organismes.
+
+24l0l0	consistait_en_une_biodégradation	N
+24l0l1	des_sols_grâce_à	N
+24l0l2	une_injection_d__une	T
+
+#Un écrémage du surnageant par pompage a également été effectué.
+
+25l0l0	par_pompage_a_également	N
+
+#Un rapport de fin de travaux a été transmis à l'inspection des installations le 8 avril 1994.
+
+26l0l0	Un_rapport_de	N
+26l0l1	été_transmis_à_l__inspection_des_installations	N
+26l1l0	fin_de_travaux	U
+
+#En septembre 1995, une nouvelle perte de gasoil s'est produite entraînant une contamination des eaux souterraines.
+
+27l0l0	En_septembre_1995___une_nouvelle	O
+27l0l1	perte_de	N
+27l0l2	gasoil_s__est_produite_entraînant	O
+27l0l3	une_contamination	T
+
+#Une unité de récupération automatique du flottant avait alors été mise en place.
+
+28l0l0	Une_unité_de_récupération	T
+28l0l1	automatique	N
+28l0l2	du_flottant_avait_alors	N
+28l0l3	place__	O
+28l1l0	flottant	S
+
+#Un suivi de la qualité des eaux souterraines avait été instauré par l'implantation de 6 piézomètres au droit du site.
+
+29l0l0	Un_suivi_de_la_qualité_des_eaux_souterraines	O
+29l0l1	avait	O
+29l0l2	été_instauré_par_l__implantation	N
+
+#En 1997, le puits initialement impacté a été victime d'une résurgence de la pollution sus-visée.
+
+30l0l0	En_1997___le_puits_initialement_impacté_a_été	A
+30l0l1	victime_d__une_résurgence_de_la_pollution	N
+30l0l2	sus_visée__	O
+
+#Le puits a été une nouvelle fois nettoyé par l'exploitant.
+
+31l0l0	Le_puits	T
+31l0l1	a_été_une_nouvelle_fois_nettoyé	O
+31l0l2	par_l_	N
+31l0l3	exploitant	R
+31l0l4	_	N
+
+#Le 14 décembre 2009, une plainte a été portée à l'encontre de l'exploitant.
+
+32l0l0	Le_14	O
+32l0l1	décembre_2009___une_plainte_a_été_portée	N
+32l0l2	à_l__encontre	O
+
+#Les objets de la réclamation concernaient des odeurs, une pollution de l'eau et un impact sur la santé.
+
+33l0l0	Les_objets_de_la	T
+33l0l1	réclamation_concernaient_des	N
+33l0l2	odeurs___une_pollution_de_l_	O
+
+#Suite à cette plainte, des éléments ont été demandés à l'exploitant, notamment concernant le suivi de la qualité des eaux souterraines.
+
+34l0l0	Suite_à_cette	O
+34l0l1	notamment	O
+
+#Des investigations avaient déjà été réalisées en septembre 2009 et d'autres en décembre 2009.
+
+35l0l0	avaient_déjà_été	O
+35l0l1	réalisées_en	N
+35l0l2	septembre_2009_et	O
+35l0l3	2009__	A
+
+#Les conclusions de ces travaux indiquaient des concentrations importantes en hydrocarbures mesurées dans les sols, les eaux souterraines et les puits voisins.
+
+36l0l0	Les_conclusions_de_ces_travaux_indiquaient_des	N
+36l0l1	concentrations_importantes	T
+36l0l2	en_hydrocarbures_mesurées_dans_les_sols___les_eaux_souterraines_et_les_puits_voisins__	T
+
+#Une enquête de voisinage pour recenser les autres puits susceptibles d'avoir été contaminés a été réalisée ce même mois de décembre 2009.
+
+37l0l0	Une_enquête_de_voisinage	O
+37l0l1	été_contaminés_a_été_réalisée	N
+37l1l0	été_contaminés_a	S
+
+#Les analyses effectuées dans ces puits ne présentaient pas d'anomalies significatives.
+
+38l0l0	Les_analyses_effectuées	N
+38l0l1	significatives__	O
+
+#Suite à ces constats, une visite de l'inspection des installations classées a été réalisée en date du 11 février 2010.
+
+39l0l0	Suite_à_ces_constats	O
+39l0l1	visite_de_l__inspection	O
+
+#Des écarts aux arrêtés ministériels de référence ont été constatés et des actions correctives avaient été demandées.
+
+40l0l0	aux_arrêtés_ministériels	N
+40l0l1	de_référence_ont_été_constatés_et_des_actions	O
+40l0l2	correctives	N
+40l0l3	avaient_été_demandées__	T
+
+#L'inspection a notamment demandé à l'exploitant de se positionner par rapport à la pollution résiduelle, de définir les impacts de celle-ci sur le milieu extérieur, et de mettre en place les actions nécessaires pour contrer l'évolution de cette pollution.
+
+41l0l0	de_se_positionner	N
+41l0l1	par_rapport_à_la_pollution	O
+41l0l2	résiduelle___de_définir	N
+
+#En parallèle, l'inspection a recommandé à la Mairie de Lux de prendre un arrêté municipal portant interdiction d'usage de l'eau de puits de particuliers et de l'eau prélevée à l'aide de tête piquées.
+
+42l0l0	de_Lux_de_prendre	O
+42l0l1	un_arrêté	R
+42l0l2	municipal_portant_interdiction	O
+42l0l3	prélevée_à_l_	O
+42l0l4	aide_de_tête	N
+
+#Une évaluation quantitative des risques sanitaires concernant les employés et les clients de la station-service a été transmise à l'inspection en date du 28 septembre 2010.
+
+43l0l0	évaluation_quantitative	O
+43l0l1	des_risques	N
+43l0l2	sanitaires	O
+43l0l3	concernant_les	N
+43l0l4	employés_et_les_clients	O
+43l0l5	de_la_station___service	N
+43l0l6	a_été_transmise_à_l__inspection_en_date	A
+43l0l7	septembre	O
+
+#Cette dernière confirmait l'acceptabilité des risques sanitaires pour l'usage en 2010 mais n'étudiait pas les impacts sur le milieu à l'extérieur du site.
+
+44l0l0	Cette_dernière_confirmait_l_	N
+44l0l1	n__étudiait_pas_les	O
+44l0l2	impacts_sur_le_milieu	N
+44l0l3	à_l__extérieur	O
+44l0l4	du_site__	T
+
+#3 février 2011 : considérant que la pollution des eaux souterraines était de nature à porter atteinte à l'environnement, que la migration de cette pollution vers le milieu a été constatée, et que la maîtrise de la ou les sources de pollution n'a pas été justifiée, l'exploitant s'est vu imposer par arrêté préfectoral de respecter les prescriptions suivantes :
+
+45l0l0	de_nature	O
+45l0l1	à_porter	T
+45l0l2	de_cette_pollution	L
+
+#- détermination l'état de la contamination du site (identification des sources de pollution, nature, quantité et état physique des polluants) ;
+
+46l0l0	__détermination	T
+46l0l1	site___identification	O
+
+#- réalisation d'investigations approfondies afin de déterminer l'étendue de la pollution dans la nappe phréatique ;
+
+47l0l0	de_déterminer_l__étendue_de_la_pollution_dans	O
+
+#- réalisation d'un plan de gestion, conformément à la réglementation en vigueur en matière de gestion de sites et sols pollués ;
+
+48l0l0	réalisation_d__un_plan_de_gestion___conformément	N
+
+#- réalisation d'une surveillance trimestrielle des eaux souterraines a minima sur les hydrocarbures totaux, les hydrocarbures aromatiques polycycliques (HAP) et les BTEX (benzène, toluène, éthylbenzène et xylène).
+
+49l0l0	réalisation_d_	R
+49l0l1	une_surveillance	O
+49l0l2	les_hydrocarbures	O
+
+#En date du 29 juillet 2011 et conformément aux prescriptions, un rapport a été remis à l'inspection lequel comprend une interprétation de l'état des milieux et un plan de gestion, assortis d'une évaluation quantitative des risques sanitaires.
+
+50l0l0	juillet_2011_et_conformément_aux	A
+50l0l1	prescriptions___un_rapport	O
+50l1l0	inspection_lequel_comprend	S
+50l1l1	une_interprétation_de_l__état_des_milieux_et	S
+50l1l2	un_plan_de_gestion___assortis_d__une_évaluation_quantitative	S
+
+#Les résultats produits dans ce document mettent en évidence une pollution des sols avec :
+
+51l0l0	Les_résultats_produits_dans	T
+51l0l1	une_pollution	O
+51l0l2	des_sols	N
+
+#- teneurs notables à significatives en hydrocarbures C5-C10, C10-C40 et en éthylbenzène en partie Sud du site (abords de la cuve n°3 de l'aire de distribution VL) ;
+
+52l0l0	C5_C10___C10_C40_et_en_éthylbenzène	N
+
+#- teneurs notables à significatives en hydrocarbures C5-C10 et/ou C10-C40 en partie Nord-Ouest du site (au droit et aux abords des cuves n°1 et 2 de l'aire de distribution PL) ;
+
+53l0l0	Nord_Ouest_du_site___au_droit	L
+53l0l1	et_aux_abords_des	L
+53l1l0	hydrocarbures_C5_C10	S
+53l1l1	__ou_C10_C40_en_partie_Nord_Ouest	S
+53l1l2	abords_des	D
+
+#- dans l'air du sol, des teneurs faibles en benzène, toluène et/ou xylènes au droit des aires de distribution PL et VL.
+
+54l0l0	droit_des_aires_de_distribution_PL_et_VL__	L
+54l1l0	en_benzène___toluène_et	S
+
+#Les eaux souterraines au droit du site sont également impactées :
+
+55l1l0	sont_également_impactées	S
+
+#- au droit de l'aire de distribution VL avec des teneurs significatives en hydrocarbures C5-C10 et C10-C40, en benzène, éthylbenzène, ainsi que des teneurs notables en MTBE et ETBE (méthyl- et éthyl-tertiobutyléther) associées à des odeurs d'hydrocarbures ; et dans l'ouvrage Pz9, avec des teneurs significatives en benzo(a)pyrène et HAP ;
+
+56l0l0	__au_droit_de_l__aire_de	O
+56l0l1	distribution_VL	L
+56l0l2	teneurs_significatives	O
+
+#- aux abords du séparateur d'hydrocarbures, avec teneurs notables en benzo(a)pyrène et HAP dans l'ouvrage Pz14 ;
+
+57l0l0	aux_abords_du_séparateur_d__hydrocarbures	L
+57l1l0	benzo_a_pyrène_et_HAP	S
+57l1l1	ouvrage_Pz14__	S
+
+#- au droit du parking PL, une teneur notable en hydrocarbures C10-C40 (ouvrage Pz16).
+
+58l0l0	au_droit_du_parking	L
+58l1l0	teneur_notable_en	S
+58l1l1	ouvrage_Pz16____	S
+
+#Enfin les eaux souterraines de l'environnement proche du site montrent également des teneurs significatives en benzo(a)pyrène et HAP au droit du piézomètre PzB ; et, dans des puits privés à proximité, une teneur
+
+59l0l0	Enfin_les_eaux_souterraines	L
+59l1l0	environnement_proche_du_site_montrent	S
+
+#notable en hydrocarbures C10-C40 avec irisations en surface (puits au Nord du site), ainsi que des traces de naphtalène dans un puits au Nord-Ouest du site.
+
+60l0l0	Nord_Ouest_du_site	L
+60l0l1	_	O
+60l1l0	naphtalène_dans_un_puits_au_Nord_Ouest	S
+
+#L'évaluation quantitative des risques sanitaires portant sur les données d'octobre 2009 à avril 2011 concluait, pour un usage en tant que station-service, à des niveaux inférieurs aux limites acceptables quant aux risques cancérigènes et systémiques non cancérigènes - y compris dans le cas d'une prise en compte de facteurs majorants.
+
+61l0l0	données_d__octobre	L
+61l0l1	usage_en_tant	O
+61l0l2	que_station___service	L
+61l1l0	évaluation_quantitative_des_risques	S
+61l1l1	concluait___pour	S
+
+#L'interprétation de l'état des milieux (IEM) indiquait d'autre part que les eaux souterraines étaient compatibles avec l'usage constaté dans l'environnement du site, hormis pour un puits privé au Nord du site ayant un historique de pollution et montrant la persistance d'irisations en surface.
+
+62l0l0	L__interprétation_de_l__état	N
+62l0l1	eaux_souterraines_étaient	T
+62l0l2	avec_l__usage	N
+62l0l3	constaté_dans_l_	L
+62l0l4	environnement	A
+62l1l0	historique_de_pollution	U
+62l1l1	montrant_la_persistance_d_	U
+
+#Pour ce qui est de l'air ambiant, les risques sanitaires calculés restaient compatibles avec un usage pour logements individuels ; la teneur en benzène s'y montrait également inférieure à la valeur réglementaire.
+
+63l0l0	air_ambiant___les_risques	O
+63l0l1	restaient_compatibles_avec_un	O
+63l0l2	inférieure_à_la	O
+63l0l3	valeur_réglementaire__	L
+
+#Au vu de ces résultats, le plan de gestion proposé consistait en une maîtrise des sources résiduelles et une réfection des surfaces, sans toutefois envisager le traitement complet des sources de pollution pour des raisons technico-économiques.
+
+64l1l0	toutefois_envisager	S
+
+#Il préconisait également des mesures de précaution en cas de changement d'usage (nouvelles études, ou servitudes réglementaires) ainsi que la poursuite d'un suivi semestriel de la qualité des eaux souterraines, sur et hors site.
+
+65l0l0	également_des_mesures_de	N
+65l0l1	changement_d__usage___nouvelles_études__	O
+65l0l2	servitudes	N
+65l0l3	réglementaires	O
+65l0l4	suivi_semestriel_de	N
+65l0l5	la_qualité_des_eaux_souterraines	O
+
+#1er octobre 2013 : depuis le début du suivi il a été observé pour les piézomètres dans l'emprise du site :
+
+66l0l0	le_début_du_suivi_il_a_été_observé	O
+66l0l1	pour	R
+66l0l2	les_piézomètres	N
+66l0l3	dans	O
+66l0l4	l__emprise_du_site	N
+
+#- l'apparition de teneurs significatives en HAP(4) dans Pz7 et HAP(6) dans Pz14 ;
+
+67l0l0	__l__apparition_de	T
+67l0l1	teneurs_significatives	N
+67l0l2	Pz14__	L
+
+#- l'augmentation des teneurs en benzène dans Pz12, en benzo(a)pyrène et HAP(4) dans Pz14, en hydrocarbures C10-C40 dans Pz15, en benzo(a)pyrène dans Pz16 ;
+
+68l1l0	Pz12___en_benzo_a_pyrène	S
+
+#- la disparition du benzo(a)pyrène dans Pz13, tandis que l'absence de MTBE se confirme dans tous les ouvrages.
+
+69l1l0	benzo_a_pyrène_dans_Pz13___tandis_que_l__absence_de_MTBE_se_confirme	S
+69l1l1	tous_les_ouvrages__	S
+
+#Hors site, la présence de benzo(a)pyrène à des teneurs significatives est confirmée dans le puits privé au Nord du site, substance qui fait également son apparition dans les autres ouvrages hors-site PzA, PzB, PzD.
+
+70l1l0	présence_de_benzo_a_pyrène_à_des	S
+70l1l1	significatives_est	S
+
+#Mars 2014 : une nouvelle campagne de suivi fait état d'une situation contrastée tant sur site que hors site.
+
+71l0l0	Mars_2014	N
+71l0l1	site_que_hors_site	O
+71l0l2	_	L
+71l1l0	campagne_de_suivi	S
+
+#Les ouvrages implantés dans l'emprise du site montrent :
+
+72l0l0	Les_ouvrages	T
+72l0l1	implantés_dans_l__emprise_du	N
+
+#- à l'amont (Pz12), une teneur significative en benzène ;
+
+73l0l0	__à_l__amont__	O
+73l0l1	Pz12_____une	N
+
+#- latéralement (Pz7, Pz11, Pz15-16) des concentrations toujours significatives en hydrocarbures C5-C40, benzène, benzo(a)pyrène et HAP ;
+
+74l1l0	concentrations	S
+
+#- à l'aval hydraulique (Pz13-14), des teneurs là encore significatives en benzène, benzo(a)pyrène et HAP ;
+
+75l1l0	benzo_a_pyrène_et_HAP__	S
+
+#- des teneurs très faibles ou non quantifiables en MTBE dans tous les ouvrages.
+
+76l0l0	teneurs_très_faibles	O
+76l1l0	ouvrages__	S
+
+#Une légère hausse de la concentration en benzène à l'amont du site (Pz12) laisse par ailleurs envisager l'existence d'une source de pollution externe.
+
+77l0l0	l__amont	O
+77l1l0	l__amont	S
+
+#Hors site, dans les piézomètres PzA-D et les puits privés, il est observé :
+
+78l0l0	privés___il_est_observé	L
+78l1l0	les_puits	S
+
+#- l'absence de polluants détectables en amont hydraulique du site ;
+
+79l0l0	__l__absence	N
+
+#- des teneurs significatives en benzo(a)pyrène et HAP en position latérale (PzC) ainsi qu'en aval hydraulique du site (PzA-B, puits privé).
+
+80l0l0	benzo_a_pyrène_et_HAP_en_position	L
+
+#La surveillance effectuée de juillet 2011 à mars 2014 offre ainsi un bilan mitigé pour ce qui est de l'évolution des polluants et de leurs teneurs dans les eaux souterraines, très disparates d'un ouvrage à l'autre.
+
+81l0l0	est_de_l__évolution_des_polluants	L
+81l1l0	juillet_2011_à_mars_2014_offre	S
+
+#Certaines substances en présence voient leurs concentrations diminuer ou se stabiliser (MTBE par exemple), mais on note au sein de quelques ouvrages une tendance marquée à l'augmentation des teneurs au fil des campagnes, notamment en benzo(a)pyrène et HAP (ouvrage PzB hors site), et en hydrocarbures C5-C40 (Pz15 sur site).
+
+82l0l0	Certaines_substances	N
+82l0l1	en	N
+82l0l2	présence_voient_leurs_concentrations	T
+82l1l0	mais_on_note_au	U
+
+#En conséquence, la poursuite d'une surveillance trimestrielle des eaux souterraines reste de mise au droit des ouvrages Pz7, Pz9, Pz11-Pz16 comme dans l'environnement proche du site (piézomètres PzA-PzD, puits privé contaminé).
+
+83l1l0	reste_de	S
+
+#Des analyses des eaux et des sols ont été réalisés en juin et juillet 2014.
+
+84l0l0	eaux_et_des_sols_ont_été_réalisés_en_juin_et_juillet	A
+84l0l1	2014__	A
+
+#Elles indiquent , pour les eaux :
+
+85l0l0	Elles_indiquent	N
+
+#- Une teneur significative en benzène au niveau de Pz12
+
+
+#- Pour Pz7 , pz11 , pz15 , pz16 , une forte diminution des teneurs en benzopyrène et en HAP à Pz7 ; une augmentation des concentrations significatives en HC et benzène ; une concentration significative en HC sur Pz15; une diminution des teneurs significatives en benzopyrène et HAP au droit de Pz16 +
+
+87l1l0	une_forte	S
+87l1l1	des_teneurs_en_benzopyrène_et_en_HAP_à_Pz7___une_augmentation_des_concentrations_significatives_en_HC_et_benzène___une_concentration_significative_en_HC_sur_Pz15___une_diminution_des_teneurs_significatives_en_benzopyrène_et_HAP_au_droit_de_Pz16__	S
+
+#- L'apparition d'une teneur très significative en HC et légèrement significative en HAP au niveau du puits Bellets
+
+88l0l0	très_significative_en	N
+88l1l0	légèrement_significative_en	S
+
+#- Dans l'environnement du site , la présence de concentrations significatives en benzopyrène et HAP au niveau de PzD et PzB
+
+89l0l0	Dans_l__environnement	N
+89l0l1	benzopyrène_et_HAP_au_niveau_de_PzD_et_PzB	L
+89l1l0	concentrations	S
+89l1l1	benzopyrène	S
+
+#Pour les sols , l'absence d'impact significatif.
+
+
+#Il est préconisé de continué la surveillance.
+
+
+#En 2014 , l'ensemble des cuves ont été neutralisées à l'eau.
+
+92l0l0	cuves_ont_été_neutralisées	A
+
+#En 2015 , l'ensemble des installations de la partie VL ont été démantelés et les terres excavées ont été redirigées vers un centre ISDI.
+
+93l0l0	En_2015	T
+93l0l1	l__ensemble_des_installations_de_la	N
+93l0l2	partie_VL_ont_été	O
+93l1l0	installations	D
+
+#La campagne de surveillance des eaux et des sols réalisée en juin 2015 conclue à une absence de pollution pour les sols.
+
+94l0l0	La_campagne	T
+94l0l1	de_surveillance_des_eaux_et	O
+94l0l2	des_sols_réalisée	O
+94l0l3	en_juin_2015_conclue	N
+94l0l4	à_une_absence_de_pollution_pour_les_sols__	N
+
+#Quant aux eaux , elles indiquent la présence de BTEX , d'HC , et d'HAP (modérée) au niveau de Pz11 , Pz16 et du puits Bellets.
+
+95l0l0	Quant_aux_eaux___elles_indiquent	N
+95l0l1	la_présence_de_BTEX	O
+95l0l2	__et_d__HAP__	T
+95l0l3	modérée___au	R
+95l0l4	niveau_de_Pz11___Pz16_et_du	O
+
+#L'interdiction d'utiliser les eaux est recommandé et un plan de gestion est préconisé.
+
+96l0l0	préconisé__	L
+96l1l0	recommandé_et_un	S
+96l1l1	de_gestion	S

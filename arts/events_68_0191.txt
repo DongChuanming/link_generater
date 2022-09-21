@@ -1,0 +1,147 @@
+
+#68.0191
+#Suite à d'anciens dépôts de déchets de production de lindane, les remblais, situés sous le refuge du Rosshimmel, présente une contamination des sols en HexaChloroCycloHexane (HCH) et ses isomères.
+
+0l0l0	lindane	O
+0l0l1	les_remblais	N
+0l0l2	situés_sous_le_refuge_du_Rosshimmel	L
+0l0l3	une_contamination	O
+0l1l0	déchets_de_production_de_lindane	S
+0l1l1	HexaChloroCycloHexane	S
+0l1l2	HCH	S
+
+#Un Arrêté Préfectoral de Travaux (APT) saisit l'Agence De l'Environnement et de la Maîtrise de l’Énergie (ADEME) pour la maîtrise de l'ouvrage, à savoir la mise en sécurité du site dit "le Refuge du Rosshimmel".
+
+1l0l0	Un_Arrêté_Préfectoral_de_Travaux	N
+1l0l1	APT	O
+1l0l2	__saisit	N
+1l0l3	l_	O
+1l0l4	la_maîtrise	O
+1l0l5	l__ouvrage	O
+1l0l6	la_mise_en_sécurité	N
+1l0l7	site	O
+1l0l8	dit	R
+1l0l9	_	O
+1l0l10	le_Refuge_du_Rosshimmel	L
+
+#> Arrêté Préfectoral du 07/06/2012 portant prescriptions, concernant:
+
+2l0l0	__Arrêté_Préfectoral	O
+2l0l1	du_07_06_2012	T
+2l0l2	portant_prescriptions	N
+2l0l3	_	O
+
+#- Interdiction aux véhicules d'accéder à la parcelle n°127, section n°14 de la commune de Hagenthal-le-Bas;
+
+3l0l0	Interdiction	N
+3l0l1	la_commune_de_Hagenthal_le_Bas	L
+
+#- Interdiction aux personnes d'accéder aux parcelles n°126, 127, et 128, section n°14 identifiées comme contenant de fortes concentrations en HCH;
+
+4l0l0	Interdiction	N
+4l1l0	HCH	S
+
+#- Réalisation d'une Interprétation de l’État des Milieux (IEM);
+
+
+#- Réalisation d'un diagnostic complémentaire et d'un Plan de Gestion.
+
+6l0l0	Réalisation_d__un_diagnostic_complémentaire	N
+6l0l1	d__un_Plan_de_Gestion	O
+
+#Le schéma conceptuel réalisé identifie des sources sols contaminées au lindane (HCH) présentant un risque sanitaire pour la population.
+
+7l0l0	Le_schéma_conceptuel_réalisé	O
+7l0l1	identifie	R
+7l0l2	des_sources_sols_contaminées	O
+7l0l3	lindane	O
+7l1l0	lindane	S
+7l1l1	HCH	S
+
+#Il identifie trois modes d'exposition potentielle, à savoir:
+
+
+#- Contact cutané;
+
+
+#- Ingestions de sols pollués ou de poussières;
+
+
+#- Inhalation de poussières.
+
+
+#La zone investiguée est accessible.
+
+12l0l0	zone_investiguée	N
+
+#Elle présente une contamination majoritairement en béta-HCH.
+
+13l1l0	béta___HCH	S
+
+#Et, l'usage du site est récréatif (promeneurs, manifestation, barbecue).
+
+
+#Or, ces zones ne sont pas recouvertes.
+
+
+#Les investigations sols, réalisées en juillet et novembre 2013, présentent des sources de pollutions majoritairement en béta-HCH dans les remblais constitués par des galets et sables argileux entre 0,4 et 1,0 mètre de profondeur;
+
+16l0l0	Les_investigations_sols	N
+16l0l1	en_juillet_et_novembre_2013__	T
+16l0l2	présentent	R
+16l0l3	des_sources_de_pollutions	O
+16l0l4	remblais	L
+16l1l0	béta___HCH	S
+
+#Absence de HCH au droit de la prairie végétalisée et du chemin d'accès au refuge.
+
+17l0l0	Absence_de_HCH	O
+17l0l1	au_droit_de_la	L
+17l0l2	prairie_végétalisée	O
+
+#La contaminations révèlent les valeurs suivantes dans les sols:
+
+
+#- Béta-HCH comprises entre 0,13 et 110 mg/kg;
+
+19l1l0	Béta___HCH	S
+
+#- Alpha-HCH de 0,20 mg/kg;
+
+20l1l0	Alpha___HCH	S
+
+#- Gamma-HCH de 0,06 mg/kg;
+
+21l1l0	Gamma___HCH	S
+
+#- Delta-HCH de 1,1 mg/kg;
+
+22l1l0	Delta___HCH	S
+
+#- Epsilon-HCH de 7,3 mg/kg.
+
+23l1l0	Epsilon___HCH	S
+
+#Pas de détection en HCH dans les eaux souterraines, les eaux superficielles ou les sédiments.
+
+24l1l0	HCH	S
+
+#Dans une optique de gestion de la pollution, il est préconisé:
+
+
+#- Soit de supprimer les sources par une excavation et une élimination des polluants;
+
+26l0l0	supprimer	N
+26l0l1	les_sources	O
+26l0l2	une_excavation	N
+26l0l3	une_élimination_des_polluants	N
+26l1l0	polluants	U
+
+#- Soit de les confiner et de les recouvrir afin d'éviter le transfert de pollution vers les cibles.
+
+27l0l0	confiner	N
+27l0l1	recouvrir	O
+
+#Un Plan de Gestion reste à réaliser.
+
+28l0l0	Un_Plan_de_Gestion	O

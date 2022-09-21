@@ -1,0 +1,200 @@
+
+#94.0090
+#Le site est implanté à ARCUEIL sur une parcelle de 4000 m² dont SITA était locataire et la commune d’Arcueil propriétaire.
+
+0l0l0	sur_une_parcelle_de_4000	O
+0l0l1	dont_SITA_était_locataire	O
+0l0l2	propriétaire__	L
+
+#Il a été occupé jusque fin 2008, date de fin du bail.
+
+1l0l0	Il_a_été	O
+1l0l1	occupé_jusque	R
+1l0l2	fin_2008	O
+1l0l3	__date_de_fin_du_bail	L
+1l0l4	_	O
+
+#Le site était classé à autorisation selon la rubrique R 322- A [A] pour le transit d’ordures ménagères et autres résidus urbains, était réglementé par les arrêtés préfectoraux n°2007/500 du 02/02/2007 et n° 2008/66 du 04/01/2008 et comprenait une fosse de tri des déchets couverte et une installation de distribution de carburants, non classable, pour le fonctionnement des engins d’exploitation, comprenant deux cuves de stockage de carburants de 10,5 m3 et 5 m3 et un volucompteur.
+
+2l0l0	Le	O
+2l0l1	site_était	N
+2l0l2	classé_à_autorisation	T
+2l0l3	selon	T
+2l0l4	la_rubrique	O
+
+#Selon les zones, un revêtement bitumeux ou une dalle bétonnée recouvrait le site.
+
+3l0l0	Selon	O
+3l0l1	les_zones___un_revêtement_bitumeux	N
+3l0l2	ou	R
+3l0l3	une_dalle_bétonnée	O
+3l0l4	recouvrait_le_site__	A
+
+#Par courrier du 08/08/2008, l’exploitant a transmis la notification de cessation d’activité pour son site.
+
+4l0l0	08_08_2008___l__exploitant	O
+4l0l1	a_transmis_la_notification	O
+4l0l2	de_cessation	O
+
+#SITA a proposé une remise en état du site pour un usage d’activités économiques (bureaux et/ou activités tertiaires) sur toute la partie sud du site et création d’un parking aérien au droit de l’ancien bâtiment d’exploitation du quai de transfert.
+
+5l0l0	proposé_une_remise_en	T
+5l0l1	état_du_site_pour	O
+5l0l2	un_usage_d_	N
+5l0l3	activités	O
+5l0l4	économiques___bureaux_et___ou	N
+5l0l5	activités_tertiaires	O
+
+#La Mairie d’Arcueil a donné un avis favorable par courrier du 04/02/2008.
+
+6l0l0	La	O
+6l0l1	Mairie_d__Arcueil_a_donné_un_avis	N
+6l0l2	favorable	O
+6l0l3	par_courrier_du_04_02_2008__	A
+6l1l0	La_Mairie	I
+
+#Le diagnostic des sols réalisé daté de septembre 2008 a mis en évidence :
+
+7l0l0	Le_diagnostic	O
+7l0l1	des_sols	L
+7l0l2	réalisé_daté_de_septembre_2008_a_mis	N
+7l0l3	en_évidence__	T
+7l1l0	Le_diagnostic_des_sols	I
+
+#- la présence d’hydrocarbures C10-C40, à proximité de la cuve aérienne de stockage de fioul (sondage S3 = 1100 mg/kg) et du distributeur de carburants (sondage S5 = 9900 mg/kg) ;
+
+8l0l0	__la_présence_d__hydrocarbures	N
+8l0l1	C10_C40___à_proximité_de	T
+8l0l2	la_cuve	R
+
+#- la présence, à l’état de trace de tétrachloréthylène (sondage S6 = 0,5 mg/kg) ;
+
+9l0l0	tétrachloréthylène___sondage_S6___0_5	L
+9l0l1	mg___kg____	A
+9l1l0	l__état_de_trace_de_tétrachloréthylène	S
+
+#- la présence de métaux.
+
+
+#Aucun prélèvement n’a été fait dans la nappe qui est située à environ 12 mètres de profondeur au droit du site.
+
+
+#Le bilan coûts-avantages, transmis par courrier du 09/12/2009, a énuméré les trois solutions qui ont été envisagées, en matière de dépollution, en tenant compte des caractéristiques du site et de son environnement et du type de polluants rencontrés :
+
+12l0l0	transmis_par_courrier	O
+12l0l1	du_09_12_2009___a_énuméré_les_trois_solutions_qui_ont_été_envisagées	L
+
+#- excavation et traitement hors site ;
+
+13l0l0	__excavation_et_traitement	O
+
+#- traitement sur site, après excavation ;
+
+14l0l0	traitement_sur_site___après_excavation	N
+
+#- traitement in-situ, sans excavation.
+
+15l0l0	excavation__	N
+
+#La solution technico-économique la plus adaptée, retenue par la Société SITA, est l’excavation des terres impactées par des hydrocarbures et leur élimination en dehors du site.
+
+16l0l0	La_solution_technico	N
+16l0l1	économique_la_plus	N
+
+#Par courrier du 16/07/2010, complété le 05/10/2010, SITA a transmis un rapport de fin de travaux, daté du 09/09/2010.
+
+17l0l0	Par_courrier_du_16_07_2010	N
+17l0l1	transmis_un_rapport	O
+17l0l2	fin_de	N
+17l0l3	travaux___daté_du_09_09_2010__	N
+17l1l0	transmis_un_rapport	I
+
+#Une première phase de travaux, réalisée en décembre 2009, a permis l’excavation de :
+
+18l0l0	phase_de_travaux	T
+18l0l1	réalisée_en_décembre	T
+18l0l2	2009__	O
+18l0l3	a_permis_l_	N
+18l0l4	excavation	O
+18l0l5	de____	N
+18l1l0	2009__	I
+
+#- 136 m³ de terres impactées, éliminées dans un centre de stockage de déchets dangereux ;
+
+19l0l0	__136_m³_de_terres_impactées__	N
+19l0l1	éliminées	N
+19l0l2	dans_un_centre_de	T
+19l0l3	stockage_de_déchets_dangereux	N
+
+#- 204 m³ de terres, éliminées dans un centre de stockage de déchets non-dangereux ;
+
+20l0l0	terres___éliminées	O
+20l0l1	dans_un_centre_de	R
+20l0l2	stockage_de_déchets_non_dangereux____	O
+20l1l0	non_dangereux____	U
+
+#- 102 m³ de terres, éliminées dans un centre de stockage de déchets inertes.
+
+21l0l0	éliminées_dans	R
+21l0l1	un_centre	O
+21l1l0	déchets_inertes__	U
+
+#A l’issue de ces travaux, il a été constaté que des hydrocarbures étaient toujours présents, en fond de fouille, au niveau de deux sondages.
+
+22l0l0	travaux___il	O
+22l0l1	a_été	R
+22l0l2	constaté_que	O
+
+#Une seconde campagne d’excavation a donc été réalisée en avril 2010.
+
+23l0l0	campagne_d_	N
+23l0l1	réalisée_en_avril_2010	O
+23l1l0	réalisée_en_avril_2010	S
+
+#Les contrôles analytiques réalisés au fond de la fouille et sur les parois ont montré que les teneurs en hydrocarbures étaient comprises entre 35 et 300 mg/kg.
+
+24l0l0	Les_contrôles_analytiques_réalisés	N
+24l0l1	au_fond_de_la_fouille	N
+24l0l2	et_sur_les_parois_ont_montré_que_les_teneurs_en_hydrocarbures_étaient_comprises_entre_35_et_300_mg___kg__	T
+
+#Par ailleurs, au regard des concentrations en hydrocarbures et des conditions climatiques favorables, un traitement sur site, au moyen de deux bio-tertres, a été mis en place, pour une durée de 5 mois.
+
+25l0l0	Par_ailleurs__	N
+25l0l1	concentrations_en_hydrocarbures	L
+25l1l0	favorables___un_traitement	S
+
+#A l’issue de cette période, les analyses ont montrées que les concentrations en hydrocarbures des terres étaient devenues inférieures à 500 mg/kg (220 et 350 mg/kg).
+
+26l0l0	étaient_devenues_inférieures	N
+26l0l1	mg___kg____	N
+26l1l0	montrées_que_les_concentrations	S
+
+#Ces terres ont donc été réutilisées sur le site le 26/08/2010 pour assurer le remblaiement partiel de l’excavation.
+
+27l1l0	remblaiement_partiel	S
+
+#Aucune analyse des risques résiduelles n’a été réalisée vu l’usage futur du site et les faibles teneurs résiduelles en hydrocarbures.
+
+28l0l0	Aucune_analyse	O
+28l0l1	des_risques_résiduelles	N
+28l0l2	n__a_été	O
+28l0l3	réalisée_vu_l_	T
+28l0l4	du_site_et_les_faibles_teneurs_résiduelles	N
+
+#Une inspection du site a été réalisée le 03/02/2016, au cours de laquelle il a été constaté que le site était en friche.
+
+29l0l0	03_02_2016___au_cours	N
+
+#Par ailleurs, un procès verbal de récolement a été joint au rapport de l'inspection du 17/02/2016.
+
+30l0l0	Par_ailleurs___un	N
+30l0l1	procès	O
+30l0l2	verbal_de_récolement	N
+30l0l3	a_été_joint	T
+30l0l4	17_02_2016__	O
+
+#Ainsi, sauf élément nouveau, ce site n'appelle plus d'action de l'inspection des installations classées.
+
+31l0l0	élément_nouveau___ce_site_n__appelle	N
+31l0l1	plus_d__action_de_l_	N
+31l0l2	installations_classées__	T

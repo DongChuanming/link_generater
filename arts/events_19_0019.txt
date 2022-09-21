@@ -1,0 +1,448 @@
+
+#19.0019
+#La société Le TANNEUR et Cie est spécialisée dans la confection de maroquinerie de luxe.
+
+0l0l0	La_société_Le_TANNEUR_et_Cie	O
+0l0l1	est_spécialisée_dans_la_confection_de_maroquinerie	A
+0l1l0	La_société_Le_TANNEUR	I
+
+#Elle est installée sur le site de Bort-les-Orgues depuis 1997.
+
+1l0l0	Elle	O
+1l0l1	est_installée	N
+1l0l2	sur_le_site_de_Bort_les_Orgues	L
+1l0l3	depuis_1997	T
+
+#C'est une installation classée soumise à déclaration au titre de la rubrique 2360-1.
+
+2l0l0	déclaration	N
+
+#Il convient de préciser que cette société n'a aucun lien avec le site des "Anciennes Tannerie de Bort les Orgues" (fiche BASOL 19.0001) qui est situé en face et en est séparée par une route.
+
+3l0l0	cette_société	O
+3l0l1	lien_avec	R
+3l0l2	le_site	O
+3l0l3	__Anciennes_Tannerie_de_Bort	O
+3l0l4	les_Orgues__	L
+3l0l5	situé_en_face_et_en_est_séparée_par_une_route	L
+3l1l0	Bort_les_Orgues	I
+
+#L'emprise totale du site est de 22817 m².
+
+
+#Les bâtiments de la société Le Tanneur ont été construits à l'emplacement de l'ancienne gare de triage de Bort les Orgues.
+
+5l0l0	Les_bâtiments	O
+5l0l1	la_société_Le_Tanneur	O
+5l0l2	ont_été_construits	N
+5l0l3	à_l__emplacement_de_l__ancienne_gare_de_triage_de_Bort_les_Orgues	L
+5l1l0	la_société_Le_Tanneur	I
+
+#Le site industriel se compose d’un bâtiment comprenant des ateliers de fabrication (activité de maroquinerie), bureaux, zones de stockage et locaux techniques (l’ensemble des locaux techniques sont implantés sur dalle béton à l’intérieur de l’entreprise).
+
+6l0l0	Le_site_industriel	O
+6l0l1	un_bâtiment	O
+6l0l2	activité_de_maroquinerie	A
+6l0l3	l__ensemble_des_locaux_techniques	O
+
+#A l’extérieur de ce bâtiment, sont implantées des zones de parkings et deux anciennes maisons aujourd’hui reconverties, l’une en maison d’habitation pour l’un des employés, et l’autre en magasin d’usine.
+
+7l0l0	A_l__extérieur_de_ce_bâtiment	L
+7l0l1	sont_implantées	N
+7l0l2	des_zones_de_parkings	O
+7l0l3	deux_anciennes_maisons	O
+7l0l4	aujourd_hui_reconverties	L
+7l0l5	l__une_en_maison_d__habitation	O
+7l0l6	l__autre	O
+7l0l7	en	R
+7l0l8	magasin	O
+
+#Une partie du site se trouve sur la commune de Lanobre (Cantal) mais cette zone n'est pas impactée par les travaux de gestion des pollutions.
+
+8l0l0	Une_partie_du_site	O
+8l0l1	se_trouve_sur_la_commune_de_Lanobre___Cantal	L
+8l0l2	cette_zone	O
+8l0l3	les_travaux_de_gestion	N
+
+#1.
+
+
+#Constat de la pollution :
+
+
+#Dans le cadre d'une cession-vente, l'exploitant a fait réaliser par le Bureau Véritas un diagnostic environnemental des sols (document du 13 janvier 2010 référencé VD/FJ/2108950/2/1) puis un complément d'investigations (document du 13 avril 2010 référencé VD/AF/2136250/1)
+
+11l0l0	Dans_le_cadre_d_	R
+11l0l1	une_cession___vente	N
+11l0l2	l__exploitant	O
+11l0l3	a_fait_réaliser	N
+11l0l4	par_le_Bureau_Véritas	O
+11l0l5	un_diagnostic_environnemental	N
+11l0l6	sols___document	O
+11l0l7	du_13_janvier_2010	T
+11l0l8	un_complément_d__investigations	N
+11l0l9	13_avril_2010	T
+
+#Ces diagnostics ont révélé la présence de mercure dans les sols situés devant l'atelier.
+
+12l0l0	Ces_diagnostics_ont_révélé	N
+12l0l1	la_présence_de_mercure	O
+12l0l2	les_sols	O
+12l0l3	situés_devant_l__atelier	L
+12l1l0	mercure	S
+
+#La présence de mercure est localisée sur la couche superficielle du terrain (tranche de profondeur 0-1m).
+
+13l1l0	mercure	S
+
+#Il semblerait que la présence de mercure provienne d'un apport de terre pour réaliser un remblai lors des travaux de terrassement et d’aménagement effectués sur le site en 1996.
+
+14l0l0	un_remblai	O
+14l0l1	lors_des_travaux_de_terrassement	N
+14l0l2	d__aménagement	N
+14l0l3	effectués_sur_le_site	N
+14l0l4	en_1996	T
+14l1l0	mercure	S
+
+#Dans son rapport du 13 avril 2010, le Bureau Véritas précise :
+
+15l0l0	13_avril_2010__	T
+15l0l1	le_Bureau_Véritas	O
+
+#"Zone n°8 : Zone avec anomalie en mercure :
+
+16l0l0	__Zone	O
+16l1l0	mercure	S
+
+#Mercure sur brut : Toutes les teneurs appartiennent soit à la gamme de valeurs couramment observées dans les sols ordinaires soit à la gamme de valeurs observées dans le cas d’anomalies naturelles modérées ;
+
+17l1l0	Mercure	S
+
+#Mercure sur lixiviat : Des teneurs sur lixiviat supérieures ou égales à 0,01 mg/kg (0,01 mg/kg et 0,023 mg/kg) ont été relevées respectivement sur les échantillons SM3 (0-0,5m) et SM3 (0,5-1m).
+
+18l0l0	Des_teneurs	O
+18l1l0	Mercure	S
+
+#Ces teneurs relevées sont supérieures à la valeur seuil fixée de 0,01 mg/kg de l’annexe II de l’arrêté du 28 mars 2010 fixant les critères à respecter pour l’admission de terres en stockage inerte provenant de sites contaminés."
+
+19l0l0	28_mars_2010	T
+
+#"Zone n°9 : Eaux souterraines :
+
+
+#Mercure : Toutes les teneurs relevées sont inférieures à la limite de quantification du laboratoire".
+
+21l1l0	Mercure	S
+
+#Toutefois, convient-il de noter que les analyses des échantillons de sols font état que les teneurs anormalement élevées en mercure (entre 5,7 et 12,7 mg/kg)trouvées dans le secteur du magasin d'usine (d'une superficie de 2800 m²) restent limitées à une zone d'environ 1560 m² donc à une emprise faible au regard de l'ensemble du site industriel (7 %).
+
+22l0l0	dans_le_secteur	L
+22l0l1	une_zone	O
+22l1l0	mercure	S
+
+#Sur le reste du site du Tanneur, les teneurs en mercure situées au-dessus de la limite de quantification du laboratoire restent cependant plus modérées (de 0,49 à 1,87 mg/kg).
+
+23l0l0	les_teneurs_en_mercure	O
+23l0l1	situées_au_dessus	L
+23l1l0	mercure	S
+
+#Le milieu impacté par le mercure est à ce jour seulement le sol, et il n'a pas été retrouvé de mercure dans les milieux eau et air.
+
+24l0l0	Le_milieu_impacté	O
+24l0l1	à_ce_jour	T
+24l1l0	mercure	S
+24l1l1	mercure	S
+
+#Par ailleurs, on constate l'absence de méthyl-mercure dans les sols du terrain étudié, sachant que c'est ce composé mercuriel qui est toxique pour l'homme.
+
+25l1l0	méthyl___mercure	S
+25l1l1	composé_mercuriel	I
+
+#2.
+
+
+#Surveillance :
+
+
+#Cependant, il convenait de s'assurer de la continuité d’absence d'impact sur le milieu eaux souterraines.
+
+
+#Suite à l'examen des propositions du Bureau Véritas et de l'exploitant l'Inspection des Installations Classées a demandé qu'une une surveillance semestrielle de la nappe soit mise en place (fait en mai 2010) et que ses résultats lui soient adressés régulièrement.
+
+29l0l0	Suite_à	R
+29l0l1	l__examen	N
+29l0l2	Bureau_Véritas	O
+29l0l3	l__exploitant	O
+29l0l4	l__Inspection_des_Installations_Classées	O
+29l0l5	a_demandé	N
+29l0l6	une_une	O
+29l0l7	surveillance_semestrielle	A
+29l0l8	la_nappe	O
+29l0l9	soit_mise_en_place	N
+29l0l10	fait	N
+29l0l11	en_mai_2010__	T
+
+#L'exploitant ayant effectivement mis en place cette surveillance, celle-ci n'a pas été prescrite par voie d'arrêté préfectoral.
+
+30l0l0	L__exploitant	O
+30l0l1	ayant_effectivement_mis_en_place_cette_surveillance	N
+30l0l2	n__a_pas_été_prescrite	N
+
+#Aucun impact n'a été constaté sur les eaux souterraines depuis la mise en place de la surveillance.
+
+31l0l0	depuis	T
+31l0l1	la_mise_en_place	N
+31l0l2	la_surveillance	A
+
+#3.
+
+
+#Plan de gestion :
+
+
+#Compte tenu que la zone polluée au mercure est essentiellement en espaces verts (surface perméable et potentialité de contact direct), et à la demande de l'Inspection des Installations Classées, l'exploitant a fait réaliser par le Bureau Véritas un plan de gestion au sens de la méthodologie nationale résultant des circulaires ministérielles du 8 février 2007.
+
+34l0l0	zone_polluée	O
+34l0l1	la_demande	N
+34l0l2	l__Inspection_des_Installations_Classées	O
+34l0l3	l__exploitant	O
+34l0l4	a_fait_réaliser	N
+34l0l5	par_le_Bureau_Véritas	O
+34l0l6	un_plan_de_gestion	N
+34l0l7	8_février_2007__	T
+34l1l0	mercure	S
+
+#Le plan de gestion a été proposé par Bureau Véritas le 24 mai 2011 (rapport référencé FR/AF/231703/1) et a reçu un avis favorable de l'Inspection.
+
+35l0l0	Le_plan_de_gestion	O
+35l0l1	a_été_proposé	N
+35l0l2	Bureau_Véritas	O
+35l0l3	le_24_mai_2011	T
+
+#L'option de gestion retenue par l'exploitant après comparaison de diverses propositions sur la base d'un bilan "coûts-avantages" est le confinement "de surface" (séparation des couches polluées de la surface pour éviter le contact direct cutané, l'inhalation ou l'ingestion de terres polluées, ainsi que le lessivage par les eaux météoriques qui pourrait via le milieu eaux souterraines contaminer des milieux en aval hydraulique du site) assorti de restrictions d'usage pour conserver la mémoire des zones polluées, préserver le confinement et pérenniser les ouvrages de surveillance.
+
+36l0l0	L__option_de_gestion_retenue	O
+36l0l1	l__exploitant	O
+36l0l2	couches_polluées	O
+36l0l3	l__ingestion	N
+36l0l4	terres_polluées	O
+36l0l5	lessivage	N
+36l0l6	en_aval_hydraulique_du_site	L
+36l0l7	zones_polluées	O
+36l0l8	pérenniser	N
+36l0l9	les_ouvrages_de_surveillance	A
+36l1l0	terres_polluées	U
+
+#Il n'a pas été jugé nécessaire d'encadrer les travaux par arrêté préfectoral, l'Inspection des Installations Classées ayant estimé qu'un accord sur le plan de gestion, dont la mise en œuvre reste de l'entière responsabilité de l'exploitant, était suffisant.
+
+37l0l0	encadrer	N
+37l0l1	les_travaux	O
+37l0l2	arrêté_préfectoral	O
+37l0l3	l__Inspection_des_Installations_Classées	O
+37l0l4	ayant_estimé	N
+37l0l5	accord_sur	R
+37l0l6	le_plan_de_gestion	O
+37l0l7	l__exploitant	O
+
+#4.
+
+
+#Travaux :
+
+
+#Les travaux ont été réalisés en juin-juillet 2011.
+
+40l0l0	Les_travaux_ont_été_réalisés	N
+40l0l1	en_juin___juillet_2011__	T
+
+#La partie du site caractérisée comme étant polluée au mercure a fait l'objet :
+
+41l0l0	La_partie_du_site	O
+41l0l1	caractérisée_comme	R
+41l0l2	étant_polluée	N
+41l0l3	au	R
+41l0l4	mercure	O
+41l0l5	a_fait_l__objet	R
+41l1l0	mercure	S
+
+#- pour partie d'une réduction de son affectation en espaces verts au profit de zones imperméabilisées (création d'un parking, imperméabilisation complémentaire des espaces verts dans les zones jardin et cour(habitation du gardien et
+
+42l0l0	une_réduction	N
+42l0l1	son_affectation	O
+42l0l2	en	R
+42l0l3	espaces_verts	N
+42l0l4	création	N
+42l0l5	imperméabilisation_complémentaire_des_espaces_verts	O
+
+#magasin d’usine),
+
+
+#- pour partie d'un aménagement des zones restant en espaces verts constitué d'un géotextile avertisseur et protecteur des terres polluées surmonté de 30 cm de terre végétale.
+
+44l0l0	un_aménagement	N
+44l0l1	des_zones_restant	O
+44l0l2	en	R
+44l0l3	espaces_verts	N
+44l0l4	terres_polluées	O
+
+#a été destinataire du "Rapport de synthèse de suivi des travaux de dépollution des sols" (document référencé FR/AF/2317037/1 réalisé par Bureau Véritas le 30 décembre 2011).
+
+45l0l0	a_été_destinataire	N
+45l0l1	suivi	O
+45l0l2	des_travaux_de_dépollution	N
+45l0l3	sols__	O
+45l0l4	Bureau_Véritas	O
+45l0l5	le_30_décembre_2011__	T
+
+#5.
+
+
+#Constat d'achèvement des travaux + mise en place de restrictions d'usage :
+
+47l0l0	Constat	O
+47l0l1	d__achèvement_des_travaux	N
+47l0l2	mise_en_place_de	N
+47l0l3	restrictions_d__usage	O
+
+#L'Inspection des Installations Classées a constaté l'exécution des travaux.
+
+48l0l0	L__Inspection_des_Installations_Classées	O
+48l0l1	a_constaté	N
+48l0l2	l__exécution_des_travaux	N
+
+#Rapport de fin de travaux établi le 6 décembre 2012.
+
+49l0l0	Rapport	O
+49l0l1	fin_de_travaux_établi	N
+49l0l2	le_6_décembre_2012__	T
+
+#Par ailleurs, elle a subordonné son accord sur le plan de gestion à la constitution d'un dossier de restriction d'usage définissant les usages des sols admis, les contraintes en cas de travaux et/ou de changement d'usage, la préservation du bon état et de l'accès au réseau de surveillance piézométrique et l'entretien du confinement.
+
+50l0l0	le_plan_de_gestion	O
+50l0l1	un_dossier_de_restriction_d__usage	O
+50l0l2	sols_admis	O
+50l0l3	changement_d__usage	N
+50l0l4	l_	O
+50l0l5	entretien	R
+50l0l6	du_confinement	N
+
+#Le dossier de demande de servitudes a été remis à l'inspection des installations classées le 8 novembre 2012 (référence FR/AF/2448235/1).
+
+51l0l0	Le_dossier_de_demande_de_servitudes	O
+51l0l1	a_été_remis	N
+51l0l2	l__inspection_des_installations_classées	O
+51l0l3	le_8_novembre_2012	T
+
+#Conformément aux préconisations du guide méthodologique pour l'établissement de restrictions d'usage sur des sites pollués, il a été instruit par l'Inspection des Installations Classées dans l'objectif d'aboutir à un arrêté préfectoral instituant des servitudes d'utilité publique.
+
+52l0l0	Conformément_aux	R
+52l0l1	établissement_de_restrictions_d__usage	O
+52l0l2	sur_des	L
+52l0l3	sites_pollués	O
+52l0l4	il	O
+52l0l5	a_été_instruit	N
+52l0l6	par_l__Inspection_des_Installations_Classées	O
+52l0l7	dans_l__objectif_d_	R
+52l0l8	aboutir_à	R
+52l0l9	un_arrêté_préfectoral	O
+52l0l10	instituant	N
+52l0l11	des_servitudes_d__utilité_publique	O
+
+#6.
+
+
+#Avenir de la surveillance des eaux souterraines :
+
+54l0l0	surveillance_des_eaux_souterraines	A
+
+#L'exploitant a exprimé l'intention, dès lors qu'il n'a pas été détecté d'impact et que des travaux de confinement ont été réalisés, d'arrêter la surveillance des eaux souterraines au 31 décembre 2012.
+
+55l0l0	L__exploitant	O
+55l0l1	a_exprimé	N
+55l0l2	l_	O
+55l0l3	intention	N
+55l0l4	des_travaux_de_confinement_ont_été_réalisés	N
+55l0l5	d__arrêter	N
+55l0l6	la_surveillance_des_eaux_souterraines	O
+55l0l7	au_31_décembre_2012__	T
+
+#Le projet d'arrêté de février 2015 proposant d'instituer des servitudes d'utilité publique (cf. point 6) prend acte de cette suspension de surveillance mais prescrit le maintien en bon état de fonctionnement du réseau piézométrique et par ailleurs interdit tout prélèvement dans l'aquifère au droit du site.
+
+56l0l0	Le_projet	O
+56l0l1	de_février_2015	T
+56l0l2	des_servitudes_d_	O
+56l0l3	cette_suspension	N
+56l0l4	surveillance	A
+56l0l5	prescrit	R
+56l0l6	le_maintien_en_bon_état_de_fonctionnement	N
+56l0l7	l__aquifère	O
+56l0l8	au_droit_du_site	L
+
+#7.
+
+
+#Instruction de la demande et projet d'arrêté de servitude d'utilité publique :
+
+58l0l0	Instruction	N
+58l0l1	la_demande	O
+58l0l2	projet_d__arrêté_de_servitude_d__utilité_publique	O
+
+#A l'issue de la réception du dossier de demande de servitudes d'utilité publique, l'instruction de la demande et la finalisation des servitudes ont été conduites en application des articles R.515-31-1 à R.515-31-7 du code de l'environnement.
+
+59l0l0	A_l__issue_de	R
+59l0l1	la_réception	N
+59l0l2	demande_de_servitudes_d__utilité_publique	O
+59l0l3	l__instruction	N
+59l0l4	la_demande	N
+59l0l5	la_finalisation_des	N
+59l0l6	servitudes	O
+59l0l7	ont_été_conduites	N
+
+#Compte tenu de l'existence à ce jour d'un seul propriétaire (société CICOBAIL) et du caractère restreint de la pollution (circonscrite aux terrains d'emprise de l'exploitation de la société LE TANNEUR), en application du troisième alinéa de l'article L.515-12 la consultation écrite des propriétaires des terrains a été retenue par substitution à la procédure d'enquête publique prévue au troisième alinéa de l'article L.515-9, et en application de l'article R.515-31-5, les avis écrits des conseils municipaux de Bort-les-Orgues (Corrèze) et Lanobre (Cantal) ont été sollicités.
+
+60l0l0	à_ce_jour	T
+60l0l1	un_seul_propriétaire	O
+60l0l2	société_CICOBAIL	O
+60l0l3	la_pollution	O
+60l0l4	circonscrite_aux	R
+60l0l5	terrains	O
+60l0l6	la_société_LE_TANNEUR	O
+60l0l7	propriétaires_des_terrains	O
+60l0l8	a_été_retenue	N
+60l0l9	conseils_municipaux	O
+60l0l10	de_Bort_les_Orgues___Corrèze___et_Lanobre___Cantal	L
+60l0l11	__ont_été_sollicités	N
+60l1l0	société_CICOBAIL	I
+60l1l1	la_société_LE_TANNEUR	I
+60l1l2	Cantal	S
+
+#Ces conseils municipaux ont émis un avis favorable respectivement les 12 et 5 décembre 2014.
+
+61l0l0	Ces_conseils_municipaux	O
+61l0l1	ont_émis_un	N
+61l0l2	les_12_et_5_décembre_2014__	T
+
+#Le projet d'arrêté a été présenté au CODERST de la Corrèze le 18 février 2015 et au CODERST du Cantal le 23 février 2015.
+
+62l0l0	Le_projet	O
+62l0l1	a_été_présenté	N
+62l0l2	CODERST	O
+62l0l3	la_Corrèze	O
+62l0l4	le_18_février_2015	T
+62l0l5	et	N
+62l0l6	au_CODERST_du_Cantal	O
+62l0l7	le_23_février_2015__	T
+62l1l0	CODERST_de_la_Corrèze	I
+62l1l1	CODERST_du_Cantal	I
+
+#L'arrêté a été cosigné des préfets de la Corrèze et du Cantal le 7 avril 2015.
+
+63l0l0	L__arrêté	O
+63l0l1	a_été_cosigné	N
+63l0l2	préfets_de_la_Corrèze_et_du_Cantal	O
+63l0l3	le_7_avril_2015__	T
+63l1l0	préfets_de_la_Corrèze	I
+
+#Version pdf téléchargeable au chapitre "Restrictions d'usage et mesures d'urbanisme", section "Mesures d'urbanisme réalisées", champ  "Servitude d'utilité publique (SUP)".
+
+64l0l0	Servitude_d__utilité_publique	O

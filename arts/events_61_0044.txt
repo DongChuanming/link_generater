@@ -1,0 +1,157 @@
+
+#61.0044
+#Le site accueille depuis 1999 les gens du voyage.
+
+0l0l0	Le_site	O
+0l0l1	accueille	R
+0l0l2	depuis_1999	T
+0l0l3	les_gens_du_voyage	O
+
+#Cette aire d'accueil est équipée d'un bassin de rétention des eaux pluviales ; une pollution aux PCB (polychlorobiphényl) a été découverte à proximité lors de travaux d'entretien en 2013.
+
+1l0l0	Cette_aire_d_	O
+1l0l1	un_bassin_de_rétention	O
+1l0l2	une_pollution	O
+1l0l3	a_été_découverte	N
+1l0l4	à_proximité_lors_de_travaux_d_	L
+1l0l5	entretien	N
+1l0l6	en_2013__	T
+1l1l0	PCB	S
+1l1l1	polychlorobiphényl	S
+
+#L'aire d'accueil se situe sur un terrain en pente avec, située en contre-bas, la zone de travaux de réhabilitation de l'équipement de traitement des eaux pluviales.
+
+2l0l0	L__aire_d__accueil	O
+2l0l1	se_situe_sur_un_terrain_en_pente	L
+2l0l2	située_en_contre_bas	L
+2l0l3	la_zone_de_travaux	O
+2l0l4	de_réhabilitation	N
+2l0l5	l__équipement_de_traitement_des_eaux_pluviales	O
+
+#Le fleuve de l'Orne se situe à proximité du site (environ 300 mètres).
+
+3l0l0	Le_fleuve	O
+3l0l1	de_l__Orne	L
+3l0l2	se_situe_à_proximité_du_site	L
+
+#Des travaux d'entretien annuel du site et la mise en place d'une cuve reliée à un débourbeur-déshuileur, en juillet 2013, ont nécessité le curage du bassin de rétention et l'excavation de terres.
+
+4l0l0	Des_travaux_d__entretien_annuel	N
+4l0l1	site	O
+4l0l2	la_mise_en_place_d_	N
+4l0l3	une_cuve_reliée	O
+4l0l4	débourbeur	N
+4l0l5	__déshuileur	O
+4l0l6	en_juillet_2013__	T
+4l0l7	ont_nécessité	N
+4l0l8	le_curage	N
+4l0l9	bassin_de_rétention	O
+4l0l10	l__excavation_de_terres	N
+
+#Suite à un refus de prise en charge de boues par une ISDND (Installation de Stockage des déchets non dangereux), des analyses ont été réalisées sur l'aire d'accueil ; ces dernières ont montré la présence d'hydrocarbures et de PCB (Polychlorobiphényl) dans le sol et dans la nappe.
+
+5l0l0	Suite_à	R
+5l0l1	un_refus_de_prise_en_charge	N
+5l0l2	boues	O
+5l0l3	une_ISDND	O
+5l0l4	des_analyses_ont_été_réalisées	N
+5l0l5	sur_l__aire	L
+5l1l0	une_ISDND	I
+5l1l1	hydrocarbures	S
+5l1l2	PCB	S
+5l1l3	Polychlorobiphényl	S
+
+#L'origine de cette pollution serait le brûlage de transformateurs.
+
+6l0l0	L__origine	O
+6l0l1	brûlage_de_transformateurs	N
+
+#Compte tenu de l'impact sur l'environnement, un arrêté de mesure d'urgence a été pris le 29 août 2013 par le préfet de l'Orne envers la mairie d'Argentan, pour imposer la mise en sécurité du site, sa décontamination et sa remise en état ; en réalisant notamment les travaux suivant :
+
+7l0l0	un_arrêté_de_mesure_d__urgence	O
+7l0l1	a_été_pris	N
+7l0l2	le_29_août_2013	T
+7l0l3	le_préfet_de_l__Orne	O
+7l0l4	la	O
+7l0l5	mairie_d__Argentan	L
+7l0l6	imposer_la_mise_en_sécurité	N
+7l0l7	décontamination	N
+7l0l8	sa_remise_en_état__	N
+7l0l9	en_réalisant_notamment_les_travaux	N
+7l1l0	le_préfet	I
+
+#- enlever et détruire les boues de curage contaminées,
+
+8l0l0	enlever	N
+8l0l1	détruire	N
+8l0l2	les_boues_de_curage_contaminées	O
+8l1l0	les_boues	U
+
+#- clore la zone affectée afin d'interdire l'accès à toute personne extérieure,
+
+9l0l0	clore	N
+9l0l1	la_zone_affectée	O
+9l0l2	d__interdire_l__accès	N
+
+#- réaliser des investigations complémentaires pour identifier l'étendue de la pollution.
+
+
+#Les deux premiers points ont été réalisés le 29 et 30 août 2013.
+
+11l0l0	Les_deux_premiers_points	O
+11l0l1	ont_été_réalisés	N
+11l0l2	le_29_et_30_août_2013__	T
+
+#Les résultats des investigations complémentaires sont parvenus le 23 septembre 2013 confirmant la pollution aux PCB et hydrocarbures.
+
+12l0l0	Les_résultats_des_investigations_complémentaires	O
+12l0l1	sont_parvenus	N
+12l0l2	le_23_septembre_2013	T
+12l0l3	hydrocarbures	O
+12l1l0	PCB	S
+12l1l1	hydrocarbures	S
+
+#Suite à ces résultats, un arrêté préfectoral complémentaire a été pris en décembre 2013 pour que soit réalisée une IEM (interprétation de l'état des milieux) par la mairie d'Argentan.
+
+13l0l0	un_arrêté_préfectoral_complémentaire	O
+13l0l1	a_été_pris	N
+13l0l2	en_décembre_2013	T
+13l0l3	réalisée_une_IEM	N
+13l0l4	la_mairie	O
+13l0l5	d__Argentan	L
+
+#L'IEM a été rendue en mars 2014 ; celle-ci a permis d'identifier les voies de transfert dans le cas d'un scénario d'aménagement de la zone en promenade et zone de jeux potentielle.
+
+14l0l0	L__IEM	O
+14l0l1	a_été_rendue	N
+14l0l2	en_mars_2014	T
+14l0l3	les_voies_de_transfert	O
+14l0l4	dans_le_cas_d_	R
+
+#Le bureau d'étude recommande un recouvrement de la zone d'étude  pour couper les voies de transferts.
+
+15l0l0	Le_bureau_d__étude	O
+15l0l1	recommande_un_recouvrement	N
+15l0l2	la_zone_d__étude	O
+15l0l3	pour_couper_les_voies_de_transferts	O
+
+#De plus, il propose la mise en place de restrictions d'usages pour garantir la pérennité du recouvrement, interdire le remaniement du sol et tout usage plus sensible.
+
+16l0l0	en_place_de_restrictions_d_	N
+16l0l1	usages	O
+16l0l2	interdire_le_remaniement_du_sol	N
+16l0l3	tout_usage	O
+
+#Enfin, il suggère également la réalisation d'une seconde campagne de prélèvement d'eaux souterraines en période de "basse eaux".
+
+17l0l0	campagne_de_prélèvement_d__eaux	O
+17l0l1	en_période	T
+17l0l2	de___basse_eaux	O
+
+#En cas de confirmation de l'impact, 2 piézomètres pourraient être ajoutés en aval hydraulique accompagnés d'une surveillance semestrielle des eaux souterraines sur une période quadriennale.
+
+18l0l0	2_piézomètres	O
+18l0l1	ajoutés_en_aval_hydraulique	L
+18l0l2	surveillance_semestrielle	A
+18l0l3	des_eaux_souterraines	A
+18l0l4	sur_une_période_quadriennale	T

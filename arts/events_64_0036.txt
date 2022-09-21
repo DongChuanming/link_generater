@@ -1,0 +1,334 @@
+
+#64.0036
+#Plate-forme d'accueil d'unités de chimie fine appartenant à la Société Béarnaise de Gestion Industrielle (SOBEGI).
+
+0l0l0	Plate___forme	O
+0l0l1	chimie_fine	O
+0l0l2	appartenant_à	R
+0l0l3	la_Société_Béarnaise	O
+0l0l4	SOBEGI	O
+0l1l0	la_Société_Béarnaise	I
+0l1l1	SOBEGI	I
+
+#Elle fut créée en 1975.
+
+1l0l0	fut_créée	N
+1l0l1	en_1975__	T
+
+#SOBEGI fournit un certain nombre de services aux industriels implantés sur la plate-forme (maintenance/entretien, traitement des réseaux d'eaux pluviales et de process...).
+
+2l0l0	SOBEGI	O
+2l0l1	fournit	N
+2l0l2	un	O
+2l0l3	industriels	O
+2l0l4	implantés	R
+2l0l5	sur_la_plate___forme	L
+2l0l6	maintenance	O
+2l0l7	__entretien	A
+2l0l8	traitement_des_réseaux	N
+2l1l0	SOBEGI	I
+
+#Pour ce faire, elle exploite actuellement 3 chaudières et un stockage sur cette plateforme relevant de la législation sur les installations classées.
+
+3l0l0	elle	O
+3l0l1	exploite_actuellement	T
+3l0l2	3_chaudières	O
+3l0l3	un_stockage	O
+3l0l4	cette_plateforme	O
+
+#Par le passé, SOBEGI a également exploité un incinérateur de déchets industriels pour éliminer les effluents liquides et gazeux, chlorés et non chlorés, générés sur la plate-forme ou par des clients extérieurs.
+
+4l0l0	SOBEGI	O
+4l0l1	a_également_exploité	N
+4l0l2	un_incinérateur	N
+4l0l3	éliminer	N
+4l0l4	des_clients_extérieurs	O
+4l1l0	SOBEGI	I
+4l1l1	déchets_industriels	U
+4l1l2	les_effluents_liquides	U
+4l1l3	non_chlorés	U
+
+#Ces installations d'incinération ont été transférées à SOBEGI Environnement en août 2011.
+
+5l0l0	Ces_installations_d__incinération	O
+5l0l1	ont_été_transférées	N
+5l0l2	SOBEGI_Environnement	O
+5l0l3	en_août_2011__	T
+5l1l0	SOBEGI_Environnement	I
+
+#Il convient par ailleurs de noter que SOBEGI assure également un rôle de coordination au niveau de la plateforme, notamment en terme de suivi de la qualité des eaux souterraines.
+
+6l0l0	SOBEGI	O
+6l0l1	assure_également	N
+6l0l2	un_rôle_de_coordination	A
+6l0l3	suivi_de_la_qualité_des_eaux_souterraines	A
+6l1l0	SOBEGI	I
+
+#1 - DIAGNOSTIC
+
+7l0l0	DIAGNOSTIC	N
+
+#Plusieurs installations classées présentes sur la plateforme SOBEGI ont fait l'objet d'une publication dans BASOL :
+
+8l0l0	Plusieurs_installations_classées	O
+8l0l1	la_plateforme_SOBEGI	O
+8l0l2	ont_fait_l__objet_d_	R
+8l0l3	une_publication	N
+8l0l4	BASOL	O
+8l1l0	la_plateforme_SOBEGI	I
+
+#- CHIMEX (fiche BASOL n°64.0033),
+
+9l1l0	CHIMEX	S
+
+#- SANOFI Chimie (fiche BASOL n°64.0035),
+
+10l1l0	SANOFI_Chimie	I
+
+#- SPEICHIM Processing (fiche BASOL n°64.0037),
+
+11l1l0	SPEICHIM_Processing	I
+
+#- FINORGA (fiche BASOL n°64.0038),
+
+
+#- LUBRIZOL (fiche BASOL n°64.0034).
+
+13l1l0	LUBRIZOL	S
+
+#1-1- DIAGNOSTIC INITIAL
+
+14l0l0	DIAGNOSTIC_INITIAL	N
+14l1l0	INITIAL	I
+
+#Les activités exercées sur ce site ayant pu être à l'origine de pollution potentielle du sol et du sous-sol, l'arrêté préfectoral du 13 mars 1997 prescrit le diagnostic initial et l'évaluation simplifiée des risques (ESR) du site.
+
+15l0l0	Les_activités_exercées	N
+15l0l1	sur	R
+15l0l2	ce_site	O
+15l0l3	ayant_pu_être	R
+15l0l4	à_l__origine_de	R
+15l0l5	pollution	N
+15l0l6	l__arrêté_préfectoral	O
+15l0l7	13_mars_1997	T
+15l0l8	prescrit	R
+15l0l9	le_diagnostic_initial	N
+15l0l10	l__évaluation_simplifiée_des_risques	N
+
+#L'ESR a été remise en décembre 2000.
+
+16l0l0	a_été_remise	N
+16l0l1	en_décembre_2000__	T
+16l1l0	L__ESR	I
+
+#Elle conclut à l'absence de source de pollution notable du sous-sol au droit de la parcelle exploitée par SOBEGI au moment de la rédaction du rapport.
+
+17l0l0	l__absence_de_source_de_pollution	O
+17l0l1	au_droit_de_la_parcelle	L
+17l0l2	exploitée_par	R
+17l0l3	SOBEGI	O
+17l0l4	au	N
+17l0l5	moment_de	T
+17l0l6	la_rédaction_du_rapport	N
+17l1l0	SOBEGI	I
+
+#Elle classe de ce fait le site en catégorie 3 "banalisable" pour l'usage du moment.
+
+
+#Toutefois, l'ESR recommande de surveiller les polluants potentiels suivants : les métaux lourds (As, Ni, Pb et Zn), les aromatiques (dont le Toluène), le MonoChloroBenzènze (MCB) et le dichlorométhane.
+
+19l1l0	l__ESR	I
+19l1l1	les_polluants	U
+19l1l2	les_métaux_lourds	S
+19l1l3	As	S
+19l1l4	Ni	S
+19l1l5	Pb	S
+19l1l6	Zn	S
+19l1l7	les_aromatiques	S
+19l1l8	le_Toluène	S
+19l1l9	le_MonoChloroBenzènze	S
+19l1l10	MCB	S
+19l1l11	dichlorométhane	S
+
+#1-2- DIAGNOSTIC SUITE A LA POLLUTION DE LA BAÏSE
+
+20l0l0	DIAGNOSTIC	N
+20l0l1	SUITE_A	R
+20l0l2	LA_POLLUTION	N
+20l0l3	LA_BAÏSE	O
+20l1l0	LA_POLLUTION	I
+
+#A partir de 2009, dans le cadre de la recherche des causes d'une pollution de la Baïse (pollution au Fer, As, Mn ainsi que MCB et méthyl tert-butyl éther), des études hydro-géologiques ont été réalisées.
+
+21l0l0	A_partir_de_2009__	T
+21l0l1	dans_le_cadre_de	R
+21l0l2	la_recherche	N
+21l0l3	des_causes	O
+21l0l4	d_	R
+21l0l5	une_pollution	N
+21l0l6	de_la_Baïse	L
+21l0l7	des_études_hydro___géologiques	N
+21l0l8	ont_été_réalisées	N
+21l1l0	Fer	S
+21l1l1	As	S
+21l1l2	Mn	S
+21l1l3	MCB	S
+21l1l4	méthyl_tert___butyl_éther	S
+
+#Celles-ci montrent que la pollution de la Baïse par des métaux est liée au potentiel d'oxydo-réduction (corrélé à la quantité d'oxygène) très bas dans les eaux souterraines s'écoulant au droit de la plateforme de Mourenx.
+
+22l0l0	la_Baïse	L
+22l0l1	des_métaux	O
+22l0l2	au_droit_de_la_plateforme_de_Mourenx	L
+22l1l0	métaux	S
+
+#En effet, les métaux naturellement présents dans le milieu aquifère sont dissous dans la nappe et, au niveau de la résurgence de la Baïse, précipitent au contact de l'air.
+
+23l0l0	résurgence_de_la_Baïse__	L
+23l0l1	précipitent	N
+23l0l2	au_contact_de	R
+23l1l0	métaux	S
+
+#Ces perturbations de la nappe proviennent d'une pollution organique dont la biodégradation induit une diminution de l'oxygène.
+
+24l0l0	la_nappe	O
+24l1l0	pollution_organique	U
+
+#Les études montrent que la plateforme SOBEGI a un impact sur la qualité des eaux souterraines et qu'un lien, au moins partiel, existe avec la pollution de la Baïse.
+
+25l0l0	Les_études	N
+25l0l1	la_plateforme_SOBEGI	O
+25l0l2	a_un_impact	N
+25l0l3	sur	R
+25l0l4	la_qualité_des_eaux_souterraines	O
+25l0l5	avec	R
+25l0l6	la_pollution_de_la_Baïse	L
+25l1l0	la_plateforme_SOBEGI	I
+
+#Pour autant, les contributions individuelles de chaque établissement de la plateforme ne sont pas déterminées.
+
+
+#1-3- ÉTUDE DE CARACTÉRISATION DE L’ÉTAT DE CONTAMINATION DES MILIEUX
+
+27l0l0	ÉTUDE_DE_CARACTÉRISATION	N
+27l0l1	CONTAMINATION	N
+27l0l2	MILIEUX	O
+27l1l0	MILIEUX	I
+
+#Les arrêtés préfectoraux complémentaires du 23 juillet 2012 prescrivent à 7 des 10 établissements de la plateforme (y compris à SOBEGI) une étude de caractérisation de l'état de contamination des milieux.
+
+28l0l0	Les_arrêtés_préfectoraux_complémentaires	O
+28l0l1	du_23_juillet_2012	T
+28l0l2	prescrivent	N
+28l0l3	7	O
+28l0l4	10_établissements	O
+28l0l5	la_plateforme	O
+28l0l6	SOBEGI	O
+28l0l7	une_étude_de_caractérisation	N
+28l0l8	l__état_de_contamination_des_milieux	O
+28l1l0	SOBEGI	I
+
+#2 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+29l0l0	SURVEILLANCE_DES_EAUX	A
+29l0l1	SOUTERRAINES	O
+29l1l0	SURVEILLANCE	S
+29l1l1	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 b) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines pour les risques de pollution présentés par les industriels de la plate forme.
+
+30l0l0	Ce_site	O
+30l0l1	est_soumis_à	R
+30l0l2	l_	O
+30l0l3	2_février_1998	T
+30l0l4	la_surveillance_des_eaux_souterraines	A
+30l0l5	les_risques_de_pollution	O
+30l0l6	la_plate_forme	O
+
+#2-1- SURVEILLANCE TRIMESTRIELLE
+
+
+#L'arrêté préfectoral du 13 janvier 1997 prescrit la surveillance trimestrielle des eaux souterraines selon les modalités suivantes :
+
+32l0l0	L__arrêté_préfectoral	O
+32l0l1	13_janvier_1997	T
+32l0l2	prescrit	N
+32l0l3	la_surveillance_trimestrielle	A
+32l0l4	des_eaux_souterraines	A
+
+#- 13 piézomètres,
+
+
+#- la fréquence trimestrielle,
+
+
+#- les paramètres à analyser : pH, DCO, nitrates, azote total, orthophosphates, hydrocarbures totaux (HCT), chlorobenzène et fer.
+
+35l1l0	pH	S
+35l1l1	DCO	S
+35l1l2	nitrates	S
+35l1l3	azote_total	S
+35l1l4	orthophosphates	S
+35l1l5	hydrocarbures_totaux	S
+35l1l6	HCT	S
+35l1l7	chlorobenzène	S
+35l1l8	fer	S
+
+#Les résultats de cette surveillance sont donnés page 6 "Surveillance du site et restrictions d'usage".
+
+
+#L'arrêté préfectoral complémentaire du 23 juillet 2012 modifie notamment la liste des paramètres à rechercher dans le cadre du suivi de la qualité des eaux souterraines.
+
+37l0l0	L__arrêté_préfectoral_complémentaire	O
+37l0l1	du_23_juillet_2012	T
+37l0l2	modifie	N
+37l0l3	la_liste_des_paramètres	O
+37l0l4	suivi_de_la_qualité_des_eaux_souterraines	A
+
+#Les paramètres à rechercher sont : hauteur piézométrique, pH in situ, DCO, COT, nitrates, ammonium, hydrocarbures totaux, monochlorobenzène, température in situ, fer, fer II, fer III, MTBE, DDP in situ, potentiel rédox, sulfates, chlorures, nitrite, manganèse et arsenic.
+
+38l1l0	pH	S
+38l1l1	DCO	S
+38l1l2	COT	S
+38l1l3	nitrates	S
+38l1l4	ammonium	S
+38l1l5	hydrocarbures_totaux	S
+38l1l6	monochlorobenzène	S
+38l1l7	fer	S
+38l1l8	fer_II	S
+38l1l9	fer_III	S
+38l1l10	MTBE	S
+38l1l11	DDP_in_situ	S
+38l1l12	rédox	S
+38l1l13	sulfates	S
+38l1l14	chlorures	S
+38l1l15	nitrite	S
+38l1l16	manganèse	S
+38l1l17	arsenic	S
+
+#A noter que la plateforme SOBEGI se situe dans le panache de pollution historique en provenance de la société YARA (voir fiche basol de YARA 64.0011).
+
+39l0l0	la_plateforme_SOBEGI	O
+39l0l1	se	R
+39l0l2	situe_dans_le	L
+39l0l3	panache_de_pollution	N
+39l0l4	la_société_YARA	O
+39l1l0	la_plateforme_SOBEGI	I
+39l1l1	la_société_YARA	I
+39l1l2	YARA	I
+
+#2-2- COORDINATION DE LA SURVEILLANCE
+
+40l0l0	LA_SURVEILLANCE	O
+
+#Les arrêtés préfectoraux complémentaires du 23 juillet 2012 prescrivent à 7 des 10 établissements de la plateforme, dont SOBEGI, une surveillance coordonnée des eaux souterraines dont la coordination est assurée par SOBEGI.
+
+41l0l0	Les_arrêtés_préfectoraux_complémentaires	O
+41l0l1	du_23_juillet_2012	T
+41l0l2	prescrivent	N
+41l0l3	10_établissements	O
+41l0l4	la_plateforme	O
+41l0l5	une_surveillance_coordonnée_des_eaux_souterraines	A
+41l0l6	SOBEGI	O
+41l1l0	SOBEGI	I
+41l1l1	SOBEGI	I

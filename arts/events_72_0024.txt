@@ -1,0 +1,600 @@
+
+#72.0024
+#Le site, d’une surface de 13,34 ha dont 1,36 ha occupés par les bâtiments, est situé sur la commune du Mans, en zone industrielle sud, à proximité de l'usine ACI et de l'usine CLAAS Tractors.
+
+0l0l0	Le_site	O
+0l0l1	1_36	O
+0l0l2	les_bâtiments	O
+0l0l3	est_situé_sur_la_commune_du_Mans	L
+0l0l4	en_zone_industrielle_sud	L
+0l0l5	à_proximité_de_l__usine_ACI	L
+0l0l6	l__usine_CLAAS_Tractors	O
+0l1l0	ACI	I
+0l1l1	CLAAS_Tractors	I
+
+#Les activités industrielles sur le site ont débuté en 1919 et consistaient en la fabrication de peintures, de laques et de vernis pour l'industrie automobile.
+
+1l0l0	Les_activités_industrielles	A
+1l0l1	sur_le_site	O
+1l0l2	ont_débuté	N
+1l0l3	en_1919	T
+1l0l4	la_fabrication_de_peintures	A
+
+#Plusieurs exploitants se sont succédés, la société RENAULT en 1987, puis la société HERBERTS en 1992.
+
+2l0l0	Plusieurs_exploitants	O
+2l0l1	se_sont_succédés	N
+2l0l2	la_société_RENAULT	O
+2l0l3	en_1987	T
+2l0l4	la_société_HERBERTS	O
+2l0l5	en_1992	T
+2l1l0	la_société_RENAULT	I
+2l1l1	la_société_HERBERTS	I
+
+#La société Dupont a fait l’acquisition de l’usine à partir de 1999.
+
+3l0l0	La_société_Dupont	O
+3l0l1	a_fait_l__acquisition	N
+3l0l2	l__usine	O
+3l0l3	à_partir_de_1999__	T
+3l1l0	La_société_Dupont	I
+
+#L'environnement du site est constitué par :
+
+
+#- au nord-est et à l'est, une voie ferrée, puis l'entreprise Auto Chassis International (ex-Renault Automobiles), puis un quartier résidentiel (Les Batignolles) et l'Huisne, affluent de la Sarthe, à environ 1400m;
+
+5l0l0	au_nord_est_et_à_l__est	L
+5l0l1	une_voie_ferrée	O
+5l0l2	l__entreprise_Auto_Chassis_International	O
+5l0l3	ex_Renault	O
+5l0l4	Automobiles	A
+5l0l5	quartier_résidentiel___Les_Batignolles__	L
+5l0l6	et_l__Huisne___affluent_de_la_Sarthe	L
+5l0l7	à_environ_1400_m	L
+
+#- au nord-ouest, à l'ouest et au sud-ouest, l'avenue Pierre Piffault, puis des entreprises et la Sarthe, à environ 500m;
+
+6l0l0	au_nord_ouest___à_l__ouest_et_au_sud_ouest	L
+6l0l1	Piffault	L
+6l0l2	la_Sarthe	L
+6l0l3	à_environ_500_m	L
+
+#- au nord, l'intersection entre la voie ferrée et l'avenue Pierre Piffault, puis un établissement scolaire et la confluence de l'Huisne et la Sarthe, à environ 1250m;
+
+7l0l0	au_nord	L
+7l0l1	l__intersection_entre_la_voie_ferrée_et_l_	L
+7l0l2	un_établissement_scolaire	O
+7l0l3	la_confluence_de_l__Huisne_et_la_Sarthe	L
+7l0l4	à_environ_1250_m	L
+
+#- au sud-est, l'entreprise Renault Agriculture.
+
+8l0l0	au_sud_est	L
+8l0l1	l__entreprise_Renault_Agriculture	O
+
+#Les principaux équipements de production comprenaient :
+
+
+#- des aires de stockage de matières premières, et de produits finis en fûts, conteneurs ou en citerne,
+
+
+#- des bâtiments abritant des malaxeurs, des mélangeurs et des broyeurs.
+
+11l0l0	des_bâtiments	O
+11l0l1	malaxeurs	N
+11l0l2	broyeurs	O
+
+#L'activité réalisée était la fabrication de peintures, des laques et des vernis pour l'industrie automobile.
+
+12l0l0	la_fabrication_de_peintures	A
+12l0l1	vernis_pour	R
+12l0l2	l__industrie_automobile	O
+
+#La production a pu atteindre 15000t/an.
+
+13l0l0	La_production_a_pu_atteindre	N
+13l0l1	15000t___an	O
+
+#Les matières premières utilisées étaient des pigments et des poudres, des solvants organiques et de l'eau pour les peintures hydrodiluables, des résines et des additifs.
+
+14l0l0	Les_matières	O
+14l1l0	pigments	U
+14l1l1	solvants_organiques	U
+14l1l2	résines	U
+14l1l3	additifs	U
+
+#Les principales activités relevant de la nomenclature des installations classées qui y étaient exercées sont :
+
+15l0l0	Les_principales	O
+15l0l1	activités_relevant_de	A
+15l0l2	la_nomenclature_des_installations_classées	O
+15l0l3	étaient_exercées	A
+
+#- ateliers où l'on emploie des liquides halogénés,
+
+16l0l0	liquides_halogénés	O
+16l1l0	des_liquides_halogénés	U
+
+#- installation de traitement de déchets industriels provenant d'installations classées,
+
+17l0l0	installation_de_traitement_de_déchets_industriels	O
+
+#- stockage de liquides inflammables en réservoirs manufacturés,
+
+18l0l0	réservoirs_manufacturés	O
+18l1l0	stockage_de_liquides_inflammables	U
+
+#- installation d'emploi et de mélange à froid de liquides inflammables,
+
+19l0l0	d__emploi_et_de_mélange_à_froid	A
+19l0l1	de_liquides_inflammables	A
+19l1l0	liquides_inflammables	U
+
+#- emploi et stockage de solide facilement inflammables,
+
+20l0l0	stockage_de_solide	A
+20l1l0	solide_facilement_inflammables	U
+
+#- appareils contenant des polychlorobiphényles (PCB),
+
+21l1l0	des_polychlorobiphényles	S
+21l1l1	PCB	S
+
+#- fabrication industrielle de préparations toxiques.
+
+22l0l0	fabrication_industrielle_de_préparations_toxiques	A
+22l1l0	préparations_toxiques	U
+
+#La société DUPONT PERFORMANCE COATINGS a déclaré le 7 août 2009 la cessation de son activité de son usine du Mans au titre du code de l’environnement.
+
+23l0l0	La_société_DUPONT_PERFORMANCE_COATINGS	O
+23l0l1	a_déclaré	N
+23l0l2	le_7_août_2009	T
+23l0l3	la_cessation_de_son_activité	N
+23l0l4	son_usine_du_Mans	O
+23l0l5	au_titre	R
+23l0l6	l__environnement	O
+23l1l0	La_société_DUPONT_PERFORMANCE_COATINGS	I
+
+#Depuis 2010, le site est occupé par la société VALOR pôle 72, centre de tri et de valorisation des déchets.
+
+24l0l0	Depuis_2010__	T
+24l0l1	le_site	O
+24l0l2	est_occupé	N
+24l0l3	la_société_VALOR_pôle_72	O
+24l0l4	centre_de_tri_et_de_valorisation_des_déchets	O
+24l1l0	la_société_VALOR_pôle_72	I
+24l1l1	valorisation_des_déchets	S
+
+#Le site est classé au titre de la nomenclature des installations classées pour la protection de l'environnement (ICPE) à régime d'autorisation.
+
+25l0l0	Le_site	O
+25l0l1	est_classé	N
+25l0l2	au_titre_de	R
+25l0l3	la_nomenclature_des_installations_classées	O
+25l0l4	pour_la_protection	N
+25l0l5	l__environnement	O
+
+#VALOR POLE 72 a pour activité principale le tri, le transit et le regroupement de déchets dangereux et non dangereux pour une capacité de 120 000 tonnes de matières par an.
+
+26l0l0	VALOR_POLE_72	O
+26l0l1	a_pour_activité_principale	N
+26l0l2	le_tri___le_transit_et	A
+26l0l3	le_regroupement_de_déchets_dangereux	N
+26l0l4	000_tonnes_de_matières	O
+26l1l0	VALOR_POLE_72	I
+26l1l1	déchets_dangereux	U
+
+#Pour cela, elle dispose des principaux équipements suivants :
+
+
+#- un bâtiment destiné au tri-transit et mise en balles de déchets issus des collectes sélectives ;
+
+28l0l0	un_bâtiment	O
+28l0l1	destiné_au	R
+28l0l2	tri_transit	O
+
+#- une déchèterie d'entreprises de 8500 m2 ;
+
+29l0l0	déchèterie	N
+29l1l0	une_déchèterie	D
+
+#- une structure couverte de 96 m2 pour le stockage des déchets dangereux de la déchèterie ;
+
+30l1l0	des_déchets_dangereux	U
+
+#- un bâtiment de stockage des balles de déchets issus des collectes sélectives et des métaux provenant de la déchèterie d'entreprises ;
+
+31l0l0	un_bâtiment	O
+31l0l1	métaux	O
+
+#- un bâtiment de tri et mise en balles des déchets industriels banals (DIB)-papiers, cartons, plastiques, ordures ménagères et DIB résiduels- associé à une aire de stockage des balles ;
+
+32l0l0	un_bâtiment	O
+32l0l1	mise_en_balles	O
+32l0l2	une_aire_de_stockage_des_balles	O
+32l1l0	déchets_industriels_banals	U
+32l1l1	DIB_papiers	S
+32l1l2	ordures_ménagères	U
+
+#- un bâtiment destiné au stockage et démantèlement de déchets d'équipements électriques et électroniques (DEEE) et comprenant l'unité de bio-déconditionnement de produits agroalimentaires et le broyage de matières plastiques ;
+
+33l0l0	un_bâtiment	O
+33l0l1	destiné_au	R
+33l0l2	stockage_et_démantèlement	A
+33l0l3	bio_déconditionnement_de_produits_agroalimentaires	A
+33l0l4	le_broyage_de_matières_plastiques	A
+33l1l0	DEEE	S
+
+#- une plate-forme extérieure de 5 000m2 de récupération, stockage, éventuellement broyage de bois et de déchets de bois ;
+
+34l0l0	broyage_de_bois	A
+
+#- une plate-forme extérieure de 4000 m2 de récupération de déchets du bâtiments (gravats, déchets inertes).
+
+
+#Le site a été mis en sécurité suite à la cessation d’activité de 2009 :
+
+36l0l0	Le_site	O
+36l0l1	a_été_mis_en_sécurité	N
+36l0l2	suite_à	R
+36l0l3	la_cessation_d__activité	N
+36l0l4	de_2009	T
+
+#- les matières premières et les produits ont été ramenés sur d'autres sites ou cédés,
+
+37l0l0	ont_été_ramenés	N
+37l0l1	cédés	N
+
+#- les déchets ont été éliminés dans des installations autorisées à les recevoir au titre du code de l'environnement,
+
+38l0l0	ont_été_éliminés	N
+38l0l1	dans_des_installations_autorisées_à_les_recevoir	N
+38l1l0	les_déchets	U
+
+#- les billes de zirconium ont été prises en charge par un centre d’élimination de déchets
+
+39l0l0	zirconium	O
+39l0l1	ont_été_prises_en_charge	N
+39l0l2	un_centre	O
+39l1l0	les_billes_de_zirconium	S
+
+#- les réservoirs ont été isolés et vidangés,
+
+40l0l0	les_réservoirs	O
+40l0l1	ont_été_isolés_et_vidangés	N
+
+#- les machines ont été vidées, démontées et enlevées du site pour un nouvel usage ou ont été éliminées comme déchets.
+
+41l0l0	les_machines	O
+41l0l1	ont_été_vidées	N
+41l0l2	démontées	N
+41l0l3	enlevées	N
+41l0l4	site	O
+41l0l5	un_nouvel_usage	N
+41l0l6	ont_été_éliminées	N
+
+#Le diagnostic initial étape A réalisé en mars 2004 a permis d'identifier les zones sources potentielles et les substances associées en relation avec les activités de l'usine.
+
+42l0l0	Le_diagnostic_initial_étape_A_réalisé	N
+42l0l1	en_mars_2004	T
+42l0l2	a_permis_d_	R
+42l0l3	identifier	N
+42l0l4	les_zones_sources_potentielles	O
+42l0l5	les_substances_associées	O
+42l0l6	les_activités_de_l_	A
+42l0l7	usine	L
+42l1l0	les_substances_associées	U
+
+#L'existence éventuelle de ces sources résulte notamment des stockages en cuves et en fûts, des activités d'empâtage, de broyage, de finition et de lavage, selon des procédés qui ont évolué depuis le début du siècle.
+
+43l0l0	activités_d__empâtage	A
+43l0l1	broyage___de_finition_et_de_lavage	A
+43l0l2	depuis_le_début_du_siècle__	T
+
+#Dans le cadre de l'étude d'évaluation simplifiée des risques les couples (milieux-usages) à prendre en compte ont été définit comme suit :
+
+44l0l0	Dans_le_cadre_de	R
+44l0l1	l_	N
+44l0l2	évaluation_simplifiée_des_risques	N
+44l0l3	ont_été_définit	N
+
+#- eaux souterraines utilisées pour l'alimentation en eau industrielle, agricole et potable,
+
+45l0l0	l__alimentation_en_eau_industrielle	A
+
+#- eaux superficielles utilisées pour l'alimentation en eau potable (Huisne uniquement), industrielle, agricole, pour l'irrigation, la pêche et le nautisme (Sarthe et Huisne),
+
+46l0l0	l__alimentation_en_eau_potable	A
+46l0l1	l__irrigation	A
+46l0l2	la_pêche_et_le_nautisme	A
+46l0l3	Sarthe_et_Huisne	L
+
+#- sol-contact cutané, sur les zones non recouvertes.
+
+
+#L’entreprise a mené plusieurs études sur la qualité des sols et des eaux souterraines : en 2003 (étude documentaire et historique), en 2006 (diagnostic environnemental avec investigations de sols et eaux souterraines), en juin 2007 (délimitation de la pollution dans la nappe alluviale) et en aout 2008 (délimitation des sources).
+
+48l0l0	L__entreprise	O
+48l0l1	a_mené_plusieurs_études	N
+48l0l2	des_eaux_souterraines	O
+48l0l3	en_2003	T
+48l0l4	en_2006	T
+48l0l5	diagnostic_environnemental	N
+48l0l6	en_juin_2007	T
+48l0l7	en_aout_2008	T
+48l0l8	délimitation_des_sources	N
+
+#Ces études ont mis en évidence la présence de panaches de pollutions dues à la présence de solvants (BTEX = Benzène, Toluène, Ethylbenzène, Xylène) et de solvants chlorés qui sont des composés organo-halogénés volatils (COHV) tels que le tétrachloroethylène (PCE), le trichloroethylène (TCE), le 1,2-dichloroethylène (1,2-DCE) et le chlorure de vinyle (VC).
+
+49l1l0	solvants	S
+49l1l1	BTEX	S
+49l1l2	Benzène	S
+49l1l3	Toluène	S
+49l1l4	Ethylbenzène	S
+49l1l5	Xylène	S
+49l1l6	solvants_chlorés	S
+49l1l7	des_composés_organo___halogénés_volatils	S
+49l1l8	COHV	S
+49l1l9	le_tétrachloroethylène	S
+49l1l10	PCE	S
+49l1l11	le_trichloroethylène	S
+49l1l12	TCE	S
+49l1l13	le_1_2_dichloroethylène	S
+49l1l14	1_2_DCE	S
+49l1l15	le_chlorure_de_vinyle	S
+49l1l16	VC	S
+
+#Les 3 dernières campagnes de surveillance 2009 pour les eaux souterraines montrent des dépassements successifs du seuil d’alerte fixé pour le Chlorure de Vinyle (CV) de 0.13 mg/L au droit du puits MW06.
+
+50l0l0	Les_3_dernières_campagnes_de_surveillance	N
+50l0l1	2009	T
+50l0l2	les_eaux_souterraines	O
+50l0l3	des_dépassements_successifs	N
+50l1l0	le_Chlorure_de_Vinyle	S
+50l1l1	CV	S
+
+#La concentration en Chlorure de vinyle des eaux réintroduites dans la nappe ne doit pas dépasser 0.5 μg/L Le présence de billes de Zirconium, utilisées pour le broyage de la préparation de peinture, présente une radioactivité naturelle renforcée.
+
+51l0l0	réintroduites	N
+51l0l1	Zirconium	O
+51l0l2	le_broyage_de_la_préparation_de_peinture	A
+51l1l0	Chlorure_de_vinyle	S
+51l1l1	Zirconium	S
+
+#Le plan de gestion comprenant la surveillance des eaux souterraines débuté en juin 2010.
+
+52l0l0	Le_plan_de_gestion	O
+52l0l1	comprenant	R
+52l0l2	la_surveillance_des_eaux_souterraines	A
+52l0l3	débuté	N
+52l0l4	en_juin_2010__	T
+
+#L’unité de dépollution de la nappe utilisera le procédé de traitement physique des eaux par  Air-stripping (mise en phase vapeur des polluants de l’eau pour ensuite traiter les gaz extraits), auquel s’ajoute un programme de surveillance des rejets des eaux traitées, des émissions dans l’air et de la performance du traitement.
+
+53l0l0	L__unité_de_dépollution	N
+53l0l1	la_nappe	O
+53l0l2	des_eaux_traitées	O
+53l1l0	vapeur_des_polluants	U
+
+#Les sources de pollution sont principalement localisées à proximité ou sous les bâtiments.
+
+54l0l0	Les_sources_de_pollution	O
+54l0l1	localisées_à_proximité_ou_sous_les_bâtiments	L
+
+#L’évaluation des risques sanitaires a montré l’absence de risques pour les travailleurs et les visiteurs des installations voisines.
+
+55l0l0	visiteurs_des_installations_voisines	A
+
+#Les résultats montrent que les risques cancérigènes et les risques toxiques sont inférieurs aux seuils de référence pour tous les récepteurs considérés.
+
+56l1l0	cancérigènes	U
+
+#Les composés qui sont porteurs des risques sont les suivants :
+
+
+#- pour les risques cancérigènes : le chlorure de vinyle, le tetrachloroéthylène, suivi par le dichloroéthane et le trichloroéthylène,
+
+58l1l0	les_risques_cancérigènes	U
+58l1l1	le_chlorure_de_vinyle	S
+58l1l2	le_tetrachloroéthylène	S
+58l1l3	le_dichloroéthane	S
+58l1l4	le_trichloroéthylène	S
+
+#- pour les risques toxiques : les hydrocarbures aliphatiques C06-C08 et C09-C10, le 1,1 dichloroéthylène et le chlorure de vinyle.
+
+59l1l0	risques_toxiques	U
+59l1l1	les_hydrocarbures_aliphatiques_C06_C08	S
+59l1l2	C09_C10	S
+59l1l3	le_1_1_dichloroéthylène	S
+59l1l4	le_chlorure_de_vinyle	S
+
+#Les modalités de surveillance et d'intervention en cas de dépassement des seuils d'alerte sont fixées par l'arrêté préfectoral n° 10-6382 du 10 décembre 2010.
+
+60l0l0	Les_modalités	O
+60l0l1	d__intervention	N
+60l0l2	en	R
+60l0l3	cas_de_dépassement_des_seuils	N
+60l0l4	fixées	N
+60l0l5	l__arrêté_préfectoral	O
+60l0l6	10_décembre_2010__	T
+
+#Les travaux de réhabilitation du site ont été menés de façon à permettre une utilisation de type industriel du site.
+
+61l0l0	Les_travaux_de_réhabilitation	N
+61l0l1	du_site	O
+61l0l2	ont_été_menés_de	N
+61l0l3	une_utilisation_de_type_industriel	A
+
+#Les mesures prises par POLE VALOR 72, suite à l'étude d'impact réalisée en décembre 2011, afin de limiter la pollution des eaux et des sols sont les suivantes :
+
+62l0l0	Les_mesures_prises	N
+62l0l1	POLE_VALOR	O
+62l0l2	suite_à	R
+62l0l3	l__étude_d__impact_réalisée	N
+62l0l4	en_décembre_2011__	T
+62l0l5	afin_de	R
+62l0l6	limiter	N
+62l0l7	la_pollution_des_eaux_et_des_sols	O
+62l1l0	POLE_VALOR_72	I
+
+#- l'établissement dispose d'un compteur général d'arrivée d'eau de ville, afin de suivre ses consommations,
+
+
+#- l'alimentation en eau potable est équipée d'un système de dis-connexion, ce qui interdit tout retour dans les réseaux d'adduction,
+
+64l0l0	adduction	O
+
+#- le réseau d'effluents du site est séparatif (eaux usées/eaux pluviales),
+
+65l1l0	effluents	U
+
+#- les effluents sanitaires sont traités par la station d'épuration communale,
+
+66l0l0	la_station	O
+66l1l0	les_effluents_sanitaires	U
+
+#- l'ensemble des produits liquides susceptibles de provoquer une pollution des sols ou des effluents, sera placé sur des rétentions étanches de volumes conformes aux exigences de la réglementation,
+
+67l0l0	sera_placé_sur	N
+67l0l1	des_rétentions	O
+67l0l2	la_réglementation	O
+67l1l0	produits_liquides	U
+67l1l1	des_effluents	U
+
+#- un séparateur-débourbeur d'hydrocarbures (rejet résiduel en hydrocarbures <10 mg/l) est mis en place afin de traiter les eaux ruisselant sur les surfaces imperméabilisées du site,
+
+68l0l0	est_mis_en_place	N
+68l0l1	traiter	N
+68l0l2	les_eaux_ruisselant	O
+68l1l0	hydrocarbures	S
+68l1l1	hydrocarbures	S
+
+#- le stockage d'ordures ménagères et de DIB résiduels est réalisé à l'intérieur du bâtiment DIB afin de prévenir tout risque de pollution et des eaux et des sols,
+
+69l0l0	le_stockage	N
+69l0l1	réalisé	N
+69l0l2	à_l__intérieur_du_bâtiment_DIB	L
+69l0l3	risque_de_pollution	O
+69l1l0	ordures_ménagères	U
+69l1l1	DIB_résiduels	U
+
+#- les activités du site n'entraîneront aucun rejet d'eaux industrielles,
+
+70l0l0	les_activités_du_site	A
+
+#- l'ensemble des zones d'activités, voiries, parkings et aires de manœuvre du site sont étanches,
+
+
+#- un bassin d'orage est mis en place afin de réguler les rejets d'eaux pluviales au réseau et au milieu naturel.
+
+72l0l0	un_bassin_d__orage	O
+72l0l1	est_mis_en_place	N
+
+#Les résultats d'analyse de surveillance de la qualité des eaux souterraines de 2013 ont mis en évidence :
+
+73l0l0	la_qualité_des_eaux_souterraines	O
+73l0l1	de_2013	T
+
+#- en amont du site (P1) : de faible traces de toluène et d'hydrocarbures aromatiques C7-C8 et aliphatiques C6-C8;
+
+74l0l0	en_amont_du_site	L
+74l1l0	toluène	S
+74l1l1	hydrocarbures_aromatiques	S
+74l1l2	aliphatiques	S
+
+#- en aval hydraulique du parc 5 et N2 (MW4) : un impact en BTEX, essentiellement en mars et juin 2013, dans les eaux souterraines essentiellement, des éthylbenzènes (moyenne en 2013 : 59 microgramme/l) et des xylènes (moyenne sur 2013 : 88 microgramme/l), des traces de COHV et de faibles teneurs en hydrocarbures légers dans les eaux souterraines;
+
+75l0l0	en_aval_hydraulique_du_parc	L
+75l0l1	un_impact	N
+75l0l2	en_mars_et_juin_2013__	T
+75l0l3	2013	T
+75l0l4	2013	T
+75l1l0	BTEX	S
+75l1l1	éthylbenzènes	S
+75l1l2	xylènes	S
+75l1l3	COHV	S
+75l1l4	hydrocarbures	S
+
+#- en aval hydraulique du parc 3 (MW7) : des traces en BTEX dans les eaux souterraines principalement des xylènes, des traces de COHV dans les eaux souterraines;
+
+76l0l0	en_aval_hydraulique_du_parc_3	O
+76l1l0	BTEX	S
+76l1l1	xylènes	S
+76l1l2	COHV	S
+
+#- en aval hydraulique des parcs 4 et 7 (MW8 et MW14) : un impact en COHV en MW14 dans les eaux souterraines principalement du TCE (Trichloroéthylène : 4850 microgramme/L en moyenne) et des teneurs plus faibles au droit du MW8 (61 microgramme/L en moyenne), des faibles traces d'hydrocarbures légers en MW14;
+
+77l0l0	en_aval_hydraulique	L
+77l0l1	des_parcs_4	N
+77l0l2	un_impact	N
+77l1l0	COHV	S
+77l1l1	TCE___Trichloroéthylène	S
+77l1l2	traces_d__hydrocarbures_légers_en_MW14	S
+
+#- en aval hydraulique du parc 5 et du bâtiment W (MW6) : un impact en COHV dans les eaux souterraines principalement du TCE (545 microgramme/l), DCE (dichloroéthane : 485 microgramme/l en 2013) et chlorure de vinyle (45 microgramme/l);
+
+78l0l0	en_aval_hydraulique_du_parc_5_et_du_bâtiment_W	L
+78l1l0	COHV	S
+78l1l1	du_TCE	S
+78l1l2	DCE	S
+78l1l3	dichloroéthane	S
+78l1l4	chlorure_de_vinyle	S
+
+#- en aval hydraulique du site (MW3): des traces en COHV, des traces de BTEX dans les eaux souterraines;
+
+79l0l0	en_aval_hydraulique_du_site	L
+79l1l0	COHV	S
+79l1l1	des_traces_de	D
+79l1l2	BTEX	S
+
+#- en aval hydraulique et en hors site (MW15) : des traces en COHV.
+
+80l0l0	en_aval_hydraulique_et_en_hors_site	L
+80l1l0	COHV	S
+
+#Au cours de l'année 2013, aucune teneur en BTEX, COHV et hydrocarbures n'a dépassé les valeurs seuils d'alerte.
+
+81l0l0	Au_cours_de_l__année_2013__	T
+81l1l0	BTEX	S
+81l1l1	COHV	S
+81l1l2	hydrocarbures	S
+
+#Au vu des teneurs mesurées dans les eaux, aucune procédure de vigilance n'est mise en place.
+
+82l0l0	les_eaux	O
+
+#La campagne de surveillance des eaux souterraines de 2015 a mis en évidence :
+
+83l0l0	La_campagne_de_surveillance	N
+83l0l1	des_eaux_souterraines	A
+83l0l2	de_2015	T
+83l0l3	a_mis_en	R
+
+#- la présence d'une nappe entre 2,79 et 9,08 m de profondeur environ;
+
+84l0l0	une_nappe	O
+84l0l1	9_08_m	T
+
+#- des teneurs inférieures aux seuils d'alerte au droit des puits sentinelles MW3, MW4,MW6,MW7 et MW8;
+
+
+#- des teneurs faibles ou proches du seuil de détection analytique, à l'exception des teneurs en COHV, au droit du piézomètre MW15 situé à l'extérieur du site et implanté à proximité immédiate de la parcelle sensible "A";
+
+86l0l0	au_droit_du	L
+86l0l1	piézomètre_MW15	O
+86l0l2	situé_à_l__extérieur_du_site	L
+86l0l3	et	R
+86l0l4	implanté_à_proximité_immédiate_de_la_parcelle_sensible	L
+86l1l0	COHV	S
+
+#- des teneurs fortes en COHV sont observées au droit de MW14, situé en aval du site, par rapport aux autres ouvrages;
+
+87l0l0	observées_au_droit_de_MW14	L
+87l0l1	situé_en_aval_du_site	L
+87l1l0	COHV	S
+
+#- des teneurs en P1 inférieures ou proches du seuil de détection de la méthode analytique.
+
+88l1l0	P1	S

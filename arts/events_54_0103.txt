@@ -1,0 +1,122 @@
+
+#54.0103
+#La société Richard exerce des activités de nettoyage et d'assainissement (nettoyage et débouchage de canalisation, vidanges de fosses septiques...).
+
+0l0l0	La_société_Richard	O
+0l0l1	exerce	R
+0l0l2	des_activités_de_nettoyage	A
+0l0l3	d__assainissement	O
+0l0l4	nettoyage	A
+0l0l5	débouchage_de_canalisation	N
+0l0l6	vidanges_de_fosses_septiques______	O
+0l1l0	La_société_Richard	I
+
+#Présence sur le site de déchets divers (boues, gravats, plastiques, bois, plâtres, limailles, etc.) dont certains proviennent d'installations classées et d'une zone de brûlage à l'air libre de déchets.
+
+1l0l0	une_zone	O
+1l0l1	de_brûlage	A
+1l0l2	à_l_	N
+1l1l0	plastiques	S
+
+#Suite à la visite du 27 novembre 2006, la société RICHARD doit régulariser sa situation administrative en déposant une demande d'autorisation d'exploiter une installation classée dans un délai de 3 mois et doit supprimer les risques de pollution des sols dans un délai d'un mois en faisant évacuer et traiter les déchets présents sur le site et en remettant en état le site en fonction du caractère polluant des déchets relevés.
+
+2l0l0	Suite_à	R
+2l0l1	la_visite	N
+2l0l2	du_27_novembre_2006__	T
+2l0l3	la_société_RICHARD	O
+2l0l4	doit_régulariser	N
+2l0l5	sa_situation_administrative	N
+2l0l6	déposant_une_demande_d__autorisation	N
+2l0l7	d__exploiter_une_installation_classée	N
+2l0l8	dans_un_délai_de_3_mois	T
+2l0l9	doit_supprimer_les_risques_de_pollution	N
+2l0l10	sols	O
+2l0l11	dans	R
+2l0l12	un_délai_d__un_mois	T
+2l0l13	faisant_évacuer	N
+2l0l14	remettant_en_état	N
+2l0l15	le_site	O
+2l1l0	la_société_RICHARD	I
+2l1l1	les_déchets	U
+
+#Le rapport d'analyse de décembre 2006 est réalisé sur les résultats de 3 prélèvements (A (surface), B et C (10 cm de profondeur).
+
+3l0l0	décembre_2006	T
+
+#Sur les échantillons moyens de sol A et C, les résultats d'analyses sont conformes aux  valeurs seuils (basés sur les critères d'admissibilité en centre de déchets dit inertes).
+
+
+#Sur l'échantillon sol B, la teneur en huile minérale (C10 à C40) est supérieure à la valeur seuil (1500mg/kgcontre 500mg/kg).
+
+5l1l0	huile_minérale	U
+5l1l1	C10	I
+
+#Par arrêté préfectoral du 22 janvier 2007, des mesures d’urgence portant sur l'évacuation et la remise en état sont prescrites.
+
+6l0l0	Par_arrêté_préfectoral	O
+6l0l1	du_22_janvier_2007__	T
+6l0l2	des_mesures_d_	O
+6l0l3	l__évacuation	N
+6l0l4	la_remise_en_état_sont_prescrites	N
+
+#Le 15 juin 2007, un arrêté préfectoral complémentaire prescrit un diagnostic pollution et une remise en état du site.
+
+7l0l0	Le_15_juin_2007__	T
+7l0l1	un_arrêté_préfectoral_complémentaire	O
+7l0l2	prescrit	R
+7l0l3	un_diagnostic_pollution	N
+7l0l4	une_remise_en_état_du_site	N
+
+#Une détermination de l'impact de la contamination sur l'homme et l'environnement devra être réalisée.
+
+8l0l0	Une_détermination	N
+8l0l1	la_contamination	O
+8l0l2	devra_être_réalisée	N
+
+#Le diagnostic de sol est reçu le 10 mars 2008.
+
+9l0l0	Le_diagnostic_de_sol	N
+9l0l1	est_reçu	N
+9l0l2	le_10_mars_2008__	T
+
+#Les conclusions sont les suivantes : pour les éléments analysés et les zones investiguées, les résultats d'analyses montrent des teneurs en hydrocarbures.
+
+10l0l0	les_zones	O
+10l0l1	investiguées	N
+10l1l0	hydrocarbures	S
+
+#Une contamination des sols en hydrocarbures est donc révélée sur la zone la plus au nord du site : à proximité et dans le fossé, toutefois l'étendue de cette contamination n'est pas connue.
+
+11l0l0	Une_contamination	O
+11l0l1	hydrocarbures	O
+11l0l2	la_zone	O
+11l0l3	la_plus_au_nord_du_site	L
+11l0l4	à_proximité	L
+11l1l0	hydrocarbures	S
+
+#Par courrier du 13 mars 2008, il est demandé des compléments à l'exploitant :
+
+12l0l0	13_mars_2008__	T
+12l0l1	l__exploitant	O
+
+#- des prélèvements et analyses complémentaires de terres permettant de dimensionner l'étendue des zones polluées détectées en profondeur ;
+
+13l0l0	terres	O
+13l0l1	zones_polluées_détectées	O
+13l0l2	en_profondeur	N
+
+#- une déterminetion de l'impact de cette contamination sur l'homme et l'environnement (avec volet hydrogéologique) ;
+
+14l0l0	une_déterminetion	N
+14l0l1	cette_contamination	O
+
+#- la mise en oeuvre des mesures de remise en état.
+
+15l0l0	la_mise_en_oeuvre_des_mesures_de_remise_en_état	O
+
+#La réalisation de ces mesures complémentaires sont prescrites par l'arrêté préfectoral du 02 mai 2008.
+
+16l0l0	La_réalisation_de	N
+16l0l1	ces_mesures_complémentaires	O
+16l0l2	l__arrêté_préfectoral	O
+16l0l3	02_mai_2008__	T

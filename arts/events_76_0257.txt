@@ -1,0 +1,202 @@
+
+#76.0257
+#Le site, en bordure de l'Austreberthe, a été occupé par la société Badin depuis 1852 (fondation d'une filature).
+
+0l0l0	Le_site	O
+0l0l1	en_bordure_de_l__Austreberthe	L
+0l0l2	a_été_occupé	N
+0l0l3	la_société_Badin	O
+0l0l4	depuis_1852	T
+0l0l5	fondation_d__une_filature	A
+0l1l0	la_société_Badin	I
+
+#Le site est composé de deux usines :
+
+1l0l0	Le_site	O
+1l0l1	deux_usines	O
+
+#- Usine 1 : filage synthétique avec chaudière,
+
+2l0l0	filage_synthétique	A
+
+#- Usine 2 : filage coton et fibre mélangée.
+
+3l0l0	Usine_2	O
+3l0l1	filage_coton_et_fibre_mélangée	A
+
+#Le procédé de fabrication était le suivant :
+
+
+#Les balles de fibres sont mises en écheveau, puis le fil est étiré, peigné et bobiné.
+
+5l0l0	écheveau	O
+
+#Puis certains fils sont retordus et mis en autoclave.
+
+6l0l0	retordus	L
+
+#Le tribunal de commerce de Rouen a prononcé la liquidation judiciaire de l'entreprise Mossley-Badin le 28/03/2003 et maître Pascual a été désigné liquidateur judiciaire.
+
+7l0l0	Le_tribunal_de_commerce	O
+7l0l1	Rouen	L
+7l0l2	a_prononcé_la_liquidation_judiciaire	N
+7l0l3	l__entreprise_Mossley	O
+7l0l4	__Badin	O
+7l0l5	le_28_03_2003	T
+7l0l6	Pascual	O
+7l0l7	a_été_désigné_liquidateur_judiciaire	N
+7l1l0	Le_tribunal_de_commerce_de_Rouen	I
+7l1l1	Mossley___Badin	I
+
+#La Sa Mossley-Badin reste propriétaire des murs et du foncier.
+
+8l0l0	La_Sa_Mossley	O
+8l0l1	reste_propriétaire_des_murs	N
+8l1l0	La	I
+
+#En 2003, l'actif de la SA Mossley-badin est liquidé au profit de l'entreprise Badin Sartel.
+
+9l0l0	En_2003__	T
+9l0l1	l__actif	O
+9l0l2	la_SA_Mossley___badin	O
+9l0l3	est_liquidé	N
+9l0l4	au_profit_de	R
+9l0l5	l__entreprise_Badin_Sartel	O
+9l1l0	la_SA_Mossley	I
+9l1l1	Badin_Sartel	I
+
+#Toutefois, la société Badin Sartel n'a pas déclaré le changement d'exploitant.
+
+10l0l0	la_société_Badin_Sartel	O
+10l0l1	n__a_pas_déclaré	N
+10l0l2	le_changement	N
+10l0l3	d__exploitant	O
+10l1l0	la_société_Badin_Sartel	I
+
+#En 2004, l'IIC recense les activités suivantes :
+
+11l0l0	En_2004__	T
+
+#- filage de 7t/j de coton,
+
+12l0l0	filage	A
+
+#- présence de chaudières et compresseurs.
+
+
+#Le 08 janvier 2008, le tribunal de commerce de Rouen prononce la liquidation judiciaire de la SAS Badin Sartel.
+
+14l0l0	Le_08_janvier_2008__	T
+14l0l1	le_tribunal_de_commerce	O
+14l0l2	Rouen	L
+14l0l3	prononce	R
+14l0l4	la_liquidation_judiciaire	N
+14l0l5	la_SAS_Badin_Sartel	O
+14l1l0	le_tribunal_de_commerce_de_Rouen	I
+14l1l1	la_SAS_Badin_Sartel	I
+
+#Maître Leblay est nommé liquidateur judiciaire.
+
+15l0l0	Maître_Leblay	O
+15l0l1	est_nommé_liquidateur_judiciaire	N
+
+#L'exploitant n'a pas réalisé de procédure de cessation d'activité conformément aux dispositions du Code de l'environnement.
+
+16l0l0	L__exploitant	O
+16l0l1	n__a_pas_réalisé	N
+16l0l2	cessation_d__activité	N
+
+#Les bâtiments dont certains sont vétustes sont encore en place.
+
+17l0l0	Les_bâtiments	O
+
+#Le site est à l'état de friche.
+
+18l0l0	Le_site	O
+
+#Risques et nuisances :
+
+
+#Les bâtiments hors d'état pourraient être dangereux pour d'éventuels occupants.
+
+
+#Certains déchets non dangereux sont encore présents sur le site.
+
+
+#Actions menées :
+
+
+#le 14 mars 2010, l'inspection des installations classées est informée d'une pollution de l'Austreberthe par des hydrocarbures en provenance du site (irisations).
+
+23l0l0	le_14_mars_2010__	T
+23l0l1	l__inspection_des_installations_classées	O
+23l0l2	est_informée_d_	R
+23l0l3	une_pollution	N
+23l0l4	l__Austreberthe	L
+23l0l5	des_hydrocarbures	O
+23l0l6	en_provenance_du_site	L
+23l1l0	hydrocarbures	S
+
+#L'origine de la pollution est de l'huile en provenance d'un transformateur électrique hors service suite à un acte de vandalisme (récupération du cuivre).
+
+24l0l0	L__origine	O
+24l0l1	l__huile	O
+24l0l2	un_transformateur_électrique_hors_service	O
+24l0l3	suite_à	R
+24l0l4	un_acte_de_vandalisme	N
+24l0l5	récupération_du_cuivre	A
+24l1l0	huile	S
+
+#Il n'existe pas d'information concernant la qualité du diélectrique.
+
+25l1l0	diélectrique	U
+
+#Les transformateurs ne sont pas recensé comme contenant des PCBs.
+
+26l0l0	Les_transformateurs	O
+26l1l0	Les_transformateurs	D
+26l1l1	contenant_des_PCBs	S
+
+#Un arrêté de mesure d'urgence visant à la mise en sécurité du site et à la connaissance de la nature du diélectrique est pris le 16 mars 2010 à l'encontre de la société Mossley Badin (la société Badin Sartel n'ayant pas repris officiellement les activités de Mossley badin).
+
+27l0l0	Un_arrêté_de_mesure_d__urgence	O
+27l0l1	visant_à	R
+27l0l2	la_mise_en_sécurité	N
+27l0l3	la	O
+27l0l4	connaissance_de_la_nature_du_diélectrique	A
+27l0l5	est_pris	N
+27l0l6	le_16_mars_2010	T
+27l0l7	à_l__encontre_de	R
+27l0l8	la_société_Mossley_Badin	O
+27l0l9	la_société_Badin_Sartel	O
+27l0l10	officiellement	L
+27l0l11	les_activités_de	A
+27l0l12	Mossley_badin	O
+27l1l0	la_société_Mossley_Badin	I
+27l1l1	la_société_Badin_Sartel	I
+27l1l2	Mossley_badin	I
+
+#L'ensemble des diélectriques restant sur les autres transformateurs encore présents sur le site ont été purgés et éliminés.
+
+28l0l0	L_	O
+28l0l1	les_autres_transformateurs	O
+28l0l2	ont_été_purgés	N
+28l0l3	éliminés	O
+
+#Aucune étude de sol n'a été réalisée sur ce site, en particulier au niveau de la zone de déversement du diélectrique.
+
+29l0l0	Aucune_étude_de_sol	N
+29l0l1	a_été_réalisée	N
+29l0l2	diélectrique	O
+
+#Actions à mener ou envisagées :
+
+
+#En dehors des actions de mise en sécurité du site déjà imposées par l'arrêté de mesures d'urgence du 16 mars 2010, il conviendrait de réaliser une étude de sols (dans un premier temps une analyse historique et documentaire).
+
+31l0l0	En_dehors	R
+31l0l1	des_actions_de_mise_en_sécurité	N
+31l0l2	site	O
+31l0l3	l__arrêté_de_mesures_d__urgence	O
+31l0l4	16_mars_2010__	T
+31l0l5	une_étude_de_sols	N

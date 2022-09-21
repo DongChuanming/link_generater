@@ -1,0 +1,72 @@
+
+#972.0025
+#Pollution évidente sur le site mais aucun diagnostic n'a été réalisé.
+
+
+#Le propriétaire du terrain Mr Landy a loué son terrain temporairement à MetalCaraib qui depuis a cessé son activité et évacué ses déchets.
+
+1l0l0	temporairement	N
+
+#Depuis le départ de MetalCaraib, le propriétaire a effectué de nouveaux remblais sur ce terrain (constats police de l'eau).
+
+2l0l0	Depuis_le_départ_de_MetalCaraib___le	O
+2l0l1	propriétaire_a_effectué_de_nouveaux	N
+2l0l2	remblais_sur	O
+2l0l3	terrain	T
+2l0l4	__constats_police_de	N
+2l0l5	l__eau____	N
+2l1l0	nouveaux_remblais_sur	I
+
+#Aucun élément concret sur la nature des remblais.
+
+3l0l0	Aucun	T
+3l0l1	élément	N
+3l0l2	concret_sur_la_nature_des_remblais__	O
+3l1l0	concret_sur_la_nature	I
+
+#Suspicion forte de pollution des sols au droit de cette parcelle qui a servi de :
+
+4l0l0	au_droit_de	O
+
+#- zone de stockage de remblais divers;
+
+5l0l0	__zone_de_stockage_de_remblais_divers__	O
+
+#- zone de stockage de déchets et VHU (ICPE illégale exploitée par le propriétaire M Landy);
+
+6l0l0	déchets_et_VHU___ICPE	O
+
+#- zone de stockage de déchets métalliques et VHU (ICPE ilicite exploitée par MetalCaraib en sous-location pendant un an environ.
+
+7l0l0	zone_de_stockage_de_déchets	O
+7l0l1	métalliques_et_VHU__	O
+7l0l2	ICPE_ilicite_exploitée_par_MetalCaraib	O
+7l1l0	déchets_métalliques	I
+7l1l1	et_VHU___ICPE	I
+7l1l2	exploitée_par_MetalCaraib	I
+
+#Le terrain a de nouveau été remblayé en 2013/2014.
+
+8l0l0	Le_terrain_a_de_nouveau_été_remblayé_en_2013_2014	O
+8l1l0	Le_terrain_a_de_nouveau_été_remblayé_en_2013_2014	S
+
+#Procédure de la Police de l'Eau en cours à l'encontre du propriétaire de la parcelle.
+
+9l0l0	Procédure	O
+9l0l1	de_la_Police_de_l__Eau_en_cours	N
+9l0l2	à_l__encontre_du_propriétaire_de_la_parcelle__	T
+
+#- poursuite de la procédure de la Police de l'Eau (remblai illicite)
+
+10l0l0	de_la_procédure_de_la	O
+10l0l1	Police	T
+10l0l2	remblai_illicite__	O
+
+#- prescriptions éventuelle de travaux d'office (réalisation d'un diagnostic des sols)
+
+11l0l0	prescriptions_éventuelle	N
+11l0l1	de_travaux_d__office	O
+11l0l2	__réalisation_d__un	N
+
+#- APSUP
+

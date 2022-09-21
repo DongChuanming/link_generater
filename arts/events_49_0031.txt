@@ -1,0 +1,595 @@
+
+#49.0031
+#Le site de l’étude, couvrant une superficie d’environ 891 m², est implanté sur la commune de Saumur et se caractérise au nord par une prairie humide et des fossés le séparant de la rivière le Thouet, à l’ouest et au sud-ouest par des logements localisés à moins de 100 m de la station, à l’est du Pont Fouchard et au sud-est par une route nationale.
+
+0l0l0	Le_site	O
+0l0l1	est_implanté_sur_la_commune_de_Saumur	L
+0l0l2	au_nord	L
+0l0l3	des_fossés	O
+0l0l4	le_séparant_de_la_rivière_le_Thouet	L
+0l0l5	sud_ouest	N
+0l0l6	localisés_à_moins_de_100_m_de_la_station	L
+0l0l7	à_l__est_du_Pont_Fouchard_et_au_sud_est_par_une_route_nationale	L
+0l1l0	Thouet	I
+
+#Le site est localisé dans la plaine alluviale de la Loire à une distance de 1300 m au sud-ouest (la Loire s’écoulant en direction du nord-ouest) et est également situé à 50 mètres du Thouet (affluent de la Loire s’écoulant en direction du nord).
+
+1l0l0	Le_site	O
+1l0l1	localisé_dans_la_plaine_alluviale_de_la_Loire_à_une_distance_de_1300_m_au_sud_ouest___la_Loire	L
+1l0l2	écoulant_en_direction_du_nord_ouest	L
+1l0l3	situé_à_50_mètres_du_Thouet__	L
+1l0l4	affluent	R
+1l0l5	de_la_Loire	L
+1l0l6	écoulant_en_direction_du_nord	L
+1l1l0	Thouet	I
+
+#La profondeur de la nappe sur site est estimée entre 6,5 et 8,5 m.
+
+
+#Deux captages AEP sont situés sur la commune de Saumur et distants de 2,2 km et de 4,4 km à l’est du site.
+
+3l0l0	Deux_captages_AEP	O
+3l0l1	sont_situés_sur_la_commune_de_Saumur	L
+3l0l2	2_2_km	L
+3l0l3	4_4_km_à_l__est_du_site	L
+
+#Un autre captage AEP est présent au nord du site à une distance de 800 mètres.
+
+4l0l0	Un_autre_captage_AEP	O
+4l0l1	présent_au_nord_du_site_à_une_distance_de_800_mètres	L
+
+#Il existe également dans un rayon de 1 km autour du site 11 points d’eau à usage privé.
+
+5l0l0	km_autour_du_site	L
+5l0l1	11_points_d__eau	O
+
+#Une activité de stockage et de distribution de carburants était exercée depuis 1956.
+
+6l0l0	Une	O
+6l0l1	activité_de_stockage_et_de_distribution_de_carburants	A
+6l0l2	était_exercée	N
+6l0l3	depuis_1956__	T
+6l1l0	carburants	U
+
+#Un récépissé de déclaration a été délivré en date du 16 mai 1990 au nom de l’établissement HAYE et CHAPUS.
+
+7l0l0	Un_récépissé	O
+7l0l1	de_déclaration	O
+7l0l2	a_été_délivré_en	N
+7l0l3	date_du_16_mai_1990	T
+7l0l4	au_nom	N
+7l0l5	l__établissement_HAYE_et_CHAPUS	O
+
+#Un transfert d’exploitation en date du 11 juin 2007 est réalisé au nom de HYDRO-MECA SARL.
+
+8l0l0	Un_transfert_d__exploitation	N
+8l0l1	en_date_du_11_juin_2007	T
+8l0l2	est_réalisé	N
+8l0l3	au_nom_de	R
+8l0l4	HYDRO___MECA_SARL	O
+8l1l0	HYDRO___MECA_SARL	I
+
+#L’inspection des installations n’a pas connaissance d’un transfert de l’exploitation au profit de la CPO - Pont Fouchard.
+
+9l0l0	un_transfert	N
+9l0l1	l__exploitation	O
+9l0l2	au_profit_de	R
+9l0l3	la_CPO	O
+9l0l4	Fouchard	L
+9l1l0	la_CPO	I
+
+#Cette station service présentait une capacité totale de stockage de 90 000 litres avec :
+
+10l0l0	Cette_station	O
+
+#- une cuve enterrée double enveloppe de 15m³ de SP 98
+
+11l1l0	une_cuve_enterrée	D
+11l1l1	SP_98	U
+
+#- une cuve enterrée simple enveloppe de 15m³ de SP 95
+
+12l1l0	une_cuve_enterrée	D
+12l1l1	SP_95	U
+
+#- 2 cuves enterrées simple enveloppe de 15m³ inertées à la mousse expansive, dont une cuve étant bicompartimentée (7 et 8 m³) et adjacente à la cuve de SP95
+
+13l0l0	2_cuves_enterrées	O
+13l0l1	adjacente_à_la_cuve	L
+13l1l0	2_cuves_enterrées	D
+13l1l1	mousse_expansive	U
+13l1l2	SP95	U
+
+#- une cuve enterrée double enveloppe de 30m³ de gas-oil
+
+14l0l0	une_cuve_enterrée	O
+14l0l1	m³_de_gas___oil	A
+14l1l0	une_cuve_enterrée	D
+14l1l1	gas___oil	U
+
+#- 2 aires de dépotage
+
+15l0l0	2_aires_de_dépotage	O
+
+#- une aire de lavage et une boutique
+
+
+#La société CPO - Pont Fouchard se présente comme étant le dernier exploitant de la station service qui a cessé son activité le 1er novembre 2010.
+
+17l0l0	La_société_CPO	O
+17l0l1	le	O
+17l0l2	dernier_exploitant	N
+17l0l3	a_cessé_son_activité	N
+17l0l4	le_1er_novembre_2010__	T
+17l1l0	La_société_CPO	I
+
+#Souhaitant connaître l’état environnemental du sous-sol de la station service ELAN, la société CPO - Pont Fouchard a mandaté un bureau d’étude pour la réalisation d’un diagnostic de la pollution des sols, réalisé les 14 et 26 avril 2010.
+
+18l0l0	Souhaitant	R
+18l0l1	connaître	N
+18l0l2	l__état_environnemental	O
+18l0l3	la_station_service_ELAN	O
+18l0l4	la_société_CPO	O
+18l0l5	Fouchard	L
+18l0l6	a_mandaté	N
+18l0l7	un_bureau_d__étude	O
+18l0l8	la_réalisation_d__un_diagnostic	N
+18l0l9	la_pollution_des_sols	N
+18l0l10	réalisé	N
+18l0l11	les_14_et_26_avril_2010__	T
+18l1l0	service_ELAN	I
+18l1l1	la_société_CPO	I
+
+#En tout, 8 sondages ont été réalisés.
+
+19l0l0	ont_été_réalisés	N
+
+#L’étude a mis en évidence la présence d’une source de pollution par des hydrocarbures totaux (HCT) et aux BTEX au niveau du sondage C2 se situant près des 2 cuves enterrées (de 15m³ chacune) inertées à la mousse expansive et de la cuve de 15 m³ contenant du SP 95.
+
+20l0l0	la_présence_d__une_source_de_pollution	O
+20l0l1	au_niveau_du_sondage	L
+20l0l2	C2	O
+20l0l3	se	R
+20l0l4	situant_près_des	L
+20l0l5	2_cuves_enterrées	O
+20l0l6	la_cuve	O
+20l1l0	hydrocarbures_totaux	S
+20l1l1	HCT	S
+20l1l2	BTEX	S
+20l1l3	cuves_enterrées	D
+20l1l4	la_cuve	D
+20l1l5	SP_95	S
+
+#Les teneurs mesurées s’élèvent à 1100 mg/kg de matières sèches pour les HCT et 2500 mg/kg pour les BTEX (valeurs réglementaires fixées à 500 mg/kg pour HCT et 6 mg/kg pour les BTEX – arrêté du 15 mars 2006)
+
+21l0l0	15_mars_2006	T
+21l1l0	les_HCT	S
+21l1l1	les_BTEX	S
+21l1l2	HCT	S
+21l1l3	les_BTEX	S
+
+#Un diagnostic complémentaire a été effectué sur les eaux souterraines afin de déterminer l’impact éventuel de la source de pollution.
+
+22l0l0	Un_diagnostic_complémentaire_a_été_effectué	N
+22l0l1	les_eaux_souterraines	O
+22l0l2	l__impact	O
+22l0l3	la_source_de_pollution	O
+
+#Six piézomètres ont ainsi été implantés sur les sites en amont et en aval de la pollution.
+
+23l0l0	Six_piézomètres	O
+23l0l1	ont_ainsi_été_implantés	N
+23l0l2	les_sites	O
+23l0l3	en_amont_et_en_aval_de_la_pollution	L
+
+#Les investigations menées le 20 et 31 mai 2010, ainsi qu’en novembre 2010 ont mis en évidence une migration des hydrocarbures en profondeur au droit de la zone des cuves et une dispersion de ces hydrocarbures dans les sols de la zone de battement de la nappe et dans les eaux souterraines, à l’aval hydraulique des cuves.
+
+24l0l0	Les_investigations_menées	N
+24l0l1	le_20_et_31_mai_2010__	T
+24l0l2	ainsi_qu_	N
+24l0l3	en_novembre_2010	T
+24l0l4	une_migration	N
+24l0l5	au_droit_de_la_zone_des_cuves	L
+24l0l6	une_dispersion_de	N
+24l0l7	ces_hydrocarbures	O
+24l0l8	battement	N
+24l0l9	à_l__aval_hydraulique_des_cuves	L
+24l1l0	hydrocarbures	S
+24l1l1	hydrocarbures	S
+
+#Les teneurs en BTEX total atteignent 100 000 μg/l au niveau du Pz2bis et les teneurs en HCT sont de l’ordre de 6700 μg/l (supérieures aux valeurs de référence de la qualité des eaux brutes).
+
+25l1l0	BTEX_total	S
+25l1l1	HCT	S
+
+#Pour les piézomètres 5 et 6, les teneurs en Benzène (BTEX) atteignent respectivement 600 et 680 μg/l.
+
+26l1l0	Benzène	S
+26l1l1	BTEX	S
+
+#Compte tenu de la présence d’une pollution des sols, la société CPO - Pont Fouchard a mandaté un bureau d’étude pour exécuter des travaux de démantèlement des installations pétrolières et de l’aire de lavage, d’excavation et d’évacuation des sols pollués aux hydrocarbures, ainsi que pour remettre en état le site.
+
+27l0l0	la_présence_d__une_pollution_des_sols	O
+27l0l1	la_société_CPO	O
+27l0l2	Fouchard	L
+27l0l3	a_mandaté	N
+27l0l4	un_bureau_d__étude	O
+27l0l5	exécuter_des_travaux_de_démantèlement	N
+27l0l6	des_installations_pétrolières	O
+27l0l7	l__aire	O
+27l0l8	évacuation_des_sols_pollués	N
+27l0l9	aux_hydrocarbures	O
+27l0l10	remettre_en_état_le_site	N
+27l1l0	la_société_CPO	I
+27l1l1	pétrolières	D
+27l1l2	hydrocarbures	S
+
+#Les travaux se sont déroulés du 27 juin au 8 juillet 2011.
+
+28l0l0	Les_travaux_se_sont_déroulés	N
+28l0l1	du_27_juin_au_8_juillet_2011__	T
+
+#La quantité totale de terres polluées aux hydrocarbures, prise en charge, a atteint 356 tonnes environ.
+
+29l0l0	La_quantité_totale_de_terres_polluées	O
+29l0l1	hydrocarbures	O
+29l0l2	prise_en_charge	N
+29l1l0	hydrocarbures	S
+
+#Seule une cuve a été maintenue en place en bordure du bâtiment afin de ne pas risquer de déstabiliser les fondations (ancienne cuve à SP95).
+
+30l0l0	une_cuve	O
+30l0l1	a_été_maintenue_en_place	N
+30l0l2	en_bordure_du_bâtiment	L
+30l0l3	déstabiliser_les_fondations	N
+30l1l0	SP95	S
+
+#Les travaux de réhabilitation se sont achevés par les remblaiements de fouilles avec des terres reconnues saines.
+
+31l0l0	Les_travaux_de_réhabilitation	N
+31l0l1	se_sont_achevés	N
+31l0l2	les_remblaiements	N
+31l0l3	de_fouilles	N
+31l0l4	des_terres_reconnues_saines	O
+
+#Des analyses de sol ont été réalisées à l’issue des travaux et indiquent qu’il subsiste des teneurs résiduelles en composés hydrocarburés sur les terrains sous la cuve de 15 m³ en SP95 maintenue en place en limite nord-est du bâtiment.
+
+32l0l0	Des_analyses_de_sol	N
+32l0l1	ont_été_réalisées_à_l__issue_des_travaux	N
+32l0l2	les_terrains	O
+32l0l3	sous_la_cuve	A
+32l0l4	en_limite_nord_est_du_bâtiment	L
+32l1l0	composés_hydrocarburés	S
+32l1l1	la_cuve	D
+32l1l2	SP95	S
+
+#Il semblerait donc que ce soit l’ancienne cuve de 15m³ bicompartimentée et inertée à la mousse expansive, adjacente à la cuve en SP95, qui soit à l’origine de la pollution des sols et des eaux souterraines par des hydrocarbures.
+
+33l0l0	adjacente_à_la_cuve_en_SP95	A
+33l0l1	la_pollution_des_sols	N
+33l1l0	cuve	D
+33l1l1	inertée	D
+33l1l2	cuve	D
+33l1l3	SP95	S
+33l1l4	hydrocarbures	S
+
+#Concernant les analyses des eaux souterraines, les teneurs en polluants au droit du piézomètre 2bis ont fortement augmenté allant pour les HC à 160 000 μg/l, pour les HCT à 27 000 μg/l et pour les BTEX à 91 000μg/l.
+
+34l1l0	polluants	S
+34l1l1	les_HC	S
+34l1l2	les_HCT	S
+34l1l3	les_BTEX	S
+
+#La même constatation a été observée pour les piézomètres 5 et 6 avec une augmentation des concentrations en BTEX (respectivement de 9 900 et 12 000 μg/l) et en HCT (respectivement de 1 000 et 2 000 μg/l) par rapport aux campagnes précédentes.
+
+35l1l0	BTEX	S
+35l1l1	HCT	S
+
+#Des travaux de dépollution des eaux souterraines, consistant en l’injection dans le sous-sol d’une solution qui favorise le processus de biodégradation des hydrocarbures, ont également été effectuées du 1er au 5 août 2011, ainsi que la mise en place d’un suivi analytique (suivi mensuel au niveau des piézomètres 2bis, 4 et 5) sur une période de 12 mois (1er analyse le 21/09/2011 et dernière analyse le 24/10/2012).
+
+36l0l0	Des_travaux_de_dépollution	N
+36l0l1	eaux_souterraines	O
+36l0l2	l__injection	N
+36l0l3	ont_également_été_effectuées	N
+36l0l4	du_1er_au_5_août_2011__	T
+36l0l5	la_mise_en_place_d_	N
+36l0l6	une_période_de_12_mois	T
+36l0l7	1er_analyse	N
+36l0l8	le_21_09_2011	T
+36l0l9	analyse	N
+36l0l10	le_24_10_2012	T
+36l1l0	hydrocarbures	S
+
+#Ce suivi analytique a été effectué et a démontré, au droit du Pz2bis, qu’une phase surnageante décelée durant cette campagne avait diminué puis disparu, dû a la remontée des eaux souterraines.
+
+37l0l0	a_été_effectué	N
+37l0l1	au_droit_du_Pz2bis	L
+37l0l2	une_phase	O
+37l0l3	décelée	N
+37l0l4	durant	T
+37l0l5	cette_campagne	N
+37l0l6	la_remontée	N
+37l0l7	des_eaux_souterraines	A
+
+#Concernant le Pz4, situé en aval hydraulique de la zone source de pollution, il présente toujours des teneurs en benzène et en HC, mais globalement une diminution des teneurs durant tout le suivi analytique a été constatée.
+
+38l0l0	situé_en_aval_hydraulique_de_la_zone_source_de_pollution	L
+38l1l0	Pz4	S
+38l1l1	benzène	S
+38l1l2	HC	S
+
+#Enfin, concernant le Pz5 situé également en aval hydraulique de la zone source de pollution mais sous son influence directe, ne permet pas une diminution constante des composés hydrocarbonés.
+
+39l0l0	situé_également_en_aval_hydraulique_de_la_zone_source_de_pollution	L
+39l1l0	composés_hydrocarbonés	U
+
+#Un traitement par stripping a ensuite été effectué en avril 2013, dû à la persistance de la pollution des eaux souterraines.
+
+40l0l0	Un_traitement_par_stripping_a_ensuite_été_effectué	N
+40l0l1	en_avril_2013__	T
+40l0l2	la_pollution_des_eaux_souterraines	O
+
+#Des campagnes de suivi des eaux souterraines pompées et traitées ont été réalisées à divers dates : 09/04/2013, 06/05/2013, 05/06/2013, 02/07/2013, 07/08/2013 et le 03/09/2013.
+
+41l0l0	Des_campagnes_de_suivi	N
+41l0l1	des_eaux_souterraines	A
+41l0l2	traitées	O
+41l0l3	ont_été_réalisées_à	N
+41l0l4	divers_dates	O
+41l0l5	__09_04_2013___06_05_2013___05_06_2013	T
+41l0l6	__02_07_2013	T
+41l0l7	__07_08_2013	T
+41l0l8	et_le_03_09_2013__	T
+
+#Les résultats ont montré une baisse significative des teneurs en hydrocarbures et en BTEX avec un abattement compris entre 90 et 97 % au niveau du puits de pompage situé sur la zone source de pollution.
+
+42l0l0	niveau_du_puits_de_pompage	O
+42l0l1	situé_sur_la_zone_source_de_pollution	L
+42l1l0	hydrocarbures	S
+42l1l1	BTEX	S
+
+#En raison des concentrations en benzène et xylène demeurant élevées au droit du puits de pompage, le traitement des eaux souterraines par stripping s’est poursuivi sur une période supplémentaire de 3 mois, ainsi que le suivi des eaux souterraines au niveau des puits de pompage (différents de piézomètres).
+
+43l0l0	au_droit_du_puits_de_pompage	L
+43l0l1	le_traitement_des_eaux_souterraines	O
+43l0l2	stripping_s__est_poursuivi	N
+43l0l3	sur_une_période_supplémentaire_de_3_mois	T
+43l0l4	le_suivi_des_eaux_souterraines	A
+43l1l0	benzène	S
+43l1l1	xylène	S
+
+#En complément des travaux de dépollution effectués par le même bureau d’étude, une Analyse des Risques Résiduels (ARR) a été réalisée le 22/05/2014 afin de s’assurer que les travaux de dépollution soient compatibles avec un aménagement projeté (usage commercial).
+
+44l0l0	En_complément	R
+44l0l1	des_travaux_de_dépollution	N
+44l0l2	effectués	N
+44l0l3	le_même_bureau_d__étude	O
+44l0l4	une_Analyse_des_Risques_Résiduels	N
+44l0l5	ARR___a_été_réalisée	N
+44l0l6	le_22_05_2014	T
+44l0l7	les_travaux_de_dépollution	N
+44l0l8	compatibles_avec	R
+44l0l9	un_aménagement_projeté	O
+
+#L’ARR conclut que les teneurs résiduelles en hydrocarbures totaux volatils et BTEX dans les sols et les eaux souterraines ne présentent pas de risques inacceptables pour la santé des adultes, futurs usagers du site.
+
+45l1l0	hydrocarbures_totaux_volatils	S
+45l1l1	BTEX	S
+
+#Les voies d’exposition considérées sont l’inhalation de vapeur de gaz en intérieur et extérieur.
+
+46l0l0	l__inhalation	N
+46l1l0	vapeur_de_gaz	U
+
+#L'administration a prescrit des investigations complémentaires en dehors du site, demande de revoir l’Analyse des Risques Résiduels (ARR) et de fournir des informations sur le traitement des cuves de stockage d’hydrocarbures et transmettre des propositions sur les mesures de restriction d’usage.
+
+47l0l0	L__administration	O
+47l0l1	a_prescrit_des_investigations_complémentaires	N
+47l0l2	en_dehors_du_site	L
+47l0l3	le_traitement	N
+47l0l4	cuves_de_stockage_d__hydrocarbures	O
+47l1l0	cuves_de_stockage_d_	D
+47l1l1	hydrocarbures	S
+
+#La mise à jour de l’ARR en date du 08/12/2014, prend en compte comme cible les adultes travaillant sur le site, ainsi que les adultes et les enfants fréquentant les futurs commerces.
+
+48l0l0	La_mise_à_jour	N
+48l0l1	l__ARR	O
+48l0l2	en_date_du_08_12_2014	T
+48l0l3	le_site	O
+
+#Les voies d’exposition considérées sont donc l’inhalation de vapeur de gaz en intérieur (bâtiment) et en extérieur (parking et voirie).
+
+49l0l0	l_	A
+49l0l1	inhalation	N
+
+#Le périmètre de l’analyse est limité aux usagers dans l’enceinte du site.
+
+50l0l0	Le_périmètre	O
+
+#La mise à jour a mis en évidence des teneurs en HCT volatils, en BTEX et en naphtalène présents dans les sols et les eaux souterraines ne présentant pas de risque inacceptable pour les futurs usagers du site.
+
+51l0l0	La_mise	N
+51l1l0	HCT_volatils	S
+51l1l1	BTEX	S
+51l1l2	naphtalène	S
+
+#De plus, la société CPO - Pont Fouchard propose des Servitudes d’Utilité Publique simplifiée afin de maintenir des mesures et des restrictions sur le sous-sol.
+
+52l0l0	la_société_CPO	O
+52l0l1	Fouchard	L
+52l0l2	propose_des	N
+52l0l3	Servitudes	O
+52l0l4	maintenir_des_mesures	N
+52l0l5	le_sous_sol	O
+52l1l0	la_société_CPO	I
+
+#Cependant, des insuffisances persistent notamment sur le suivi de l’efficacité de mesures de gestion et sur des investigations complémentaires en dehors du site pour connaître l’étendue de la pollution
+
+53l0l0	l__efficacité_de_mesures_de_gestion	O
+53l0l1	des_investigations_complémentaires	N
+53l0l2	en_dehors_du_site	L
+
+#Le 15/12/2014, la société CPO - Pont Fouchard demande à un bureau d’étude de réaliser un dossier de demande d’institution de Servitudes d’Utilités Publiques (SUP) sans enquête publique.
+
+54l0l0	Le_15_12_2014	T
+54l0l1	la_société_CPO	O
+54l0l2	un_bureau_d__étude	O
+54l0l3	de_réaliser_un_dossier_de_demande	N
+54l0l4	Servitudes	O
+54l1l0	la_société_CPO	I
+
+#Des usages en dehors du site de la nappe souterraine ont été inventoriés dans le dossier et une interdiction d’usage de cette nappe sur site (pour un usage futur) a été proposé.
+
+55l0l0	Des_usages	O
+55l0l1	en_dehors_du_site_de_la_nappe_souterraine	A
+55l0l2	ont_été_inventoriés	N
+
+#Au regard des compléments apportés par l’exploitant, l’inspection a demandé, par courrier préfectoral du 6 octobre 2015, à la société CPO de justifier de l’efficacité du traitement mis en œuvre et de la nécessité ou non de poursuivre la surveillance.
+
+56l0l0	l__exploitant	O
+56l0l1	l__inspection	O
+56l0l2	6_octobre_2015__	T
+56l0l3	la_société_CPO	O
+56l0l4	la_nécessité	O
+56l0l5	poursuivre_la_surveillance	A
+56l1l0	la_société_CPO	I
+
+#Il a également été demandé de procéder à des investigations complémentaires en dehors du site pour connaître l’étendue de la pollution (migration ou non en dehors du site) et d’analyser la compatibilité entre l’état des eaux souterraines et les usages constatés (notamment le captage AEP au Nord du site à 800 m, à priori en aval hydraulique du site et les puits à usage domestique).
+
+57l0l0	des_investigations_complémentaires	N
+57l0l1	en_dehors_du_site	L
+57l0l2	en_dehors_du_site	L
+57l0l3	le_captage_AEP	O
+57l0l4	au_Nord_du_site	L
+57l0l5	à_800_m	L
+57l0l6	à_priori_en_aval_hydraulique_du_site	L
+57l0l7	les	O
+57l0l8	puits_à_usage_domestique	A
+
+#La société CPO a transmis à l’inspection un nouveau complément au dossier de cessation d’activités le 11 mars 2016.
+
+58l0l0	La_société_CPO	O
+58l0l1	a_transmis	N
+58l0l2	l__inspection	O
+58l0l3	un_nouveau_complément	O
+58l0l4	cessation_d__activités	N
+58l0l5	le_11_mars_2016__	T
+58l1l0	La_société_CPO	I
+
+#L’exploitant a fournit les résultats d’analyses des campagnes de mesures complémentaires réalisées en novembre 2015, en janvier et en février 2016.
+
+59l0l0	L__exploitant	O
+59l0l1	analyses_des_campagnes_de_mesures	N
+59l0l2	complémentaires	O
+59l0l3	réalisées	N
+59l0l4	en_novembre_2015__	T
+59l0l5	en_janvier_et_en_février_2016__	T
+
+#Ces résultats montrent que les teneurs en hydrocarbures volatils, en BTEX et en Benzène ont notablement augmenté pour atteindre en 2016, respectivement 26 000 μg/l, 20 000 μg/l et 5700  μg/l.
+
+60l0l0	en_2016__	T
+60l1l0	hydrocarbures_volatils	S
+60l1l1	BTEX	S
+60l1l2	Benzène	S
+
+#Selon le bureau d’étude, les polluants présents dans les sols sont relargués à la faveur des battements de nappes.
+
+61l0l0	le_bureau_d__étude	O
+61l0l1	sont_relargués	N
+61l0l2	à_la_faveur_des	R
+61l0l3	battements	N
+61l0l4	de_nappes	O
+61l1l0	polluants	S
+
+#Au vu de ces résultats, il recommande la réalisation de poursuivre le traitement par injection dans le sol (au droit de l’ancienne cuve d’essence laissée en place pour ne pas compromettre la stabilité du bâtiment) et les eaux souterraines afin de réduire les teneurs en polluants hydrocarburés au droit des zones sources (PZ2bis) et du panache de pollution (PZ5).
+
+62l0l0	poursuivre	O
+62l0l1	le_traitement_par_injection	N
+62l0l2	le_sol	O
+62l0l3	au_droit_de_l__ancienne	L
+62l0l4	cuve_d__essence	A
+62l0l5	les_eaux_souterraines	O
+62l0l6	au_droit_des	L
+62l0l7	zones_sources	O
+62l1l0	cuve	D
+62l1l1	d__essence	U
+62l1l2	polluants_hydrocarburés	U
+
+#Concernant l’analyse de l’état des milieux (en dehors du site) et l’évaluation des risques en considérant l’environnement sensible (captage AEP, puits), l’exploitant met en évidence (à travers une étude géologique, hydrogéologique et hydrologique fournie par un bureau d’étude) que la première nappe susceptible d’être rencontrée au droit du site est la nappe d’accompagnement (nappe alluvion) du Thouet, affluent de la Loire, coulant à quelques dizaines de mètre du site.
+
+63l0l0	analyse_de_l__état_des_milieux	O
+63l0l1	en_dehors_du_site	L
+63l0l2	évaluation_des_risques	N
+63l0l3	un_bureau_d__étude	O
+63l0l4	la_première_nappe	O
+63l0l5	la_nappe_d__accompagnement	O
+63l0l6	Thouet___affluent_de_la_Loire	L
+63l0l7	coulant_à_quelques_dizaines_de_mètre_du_site	L
+
+#Les captages recensés en aval hydrologique du site sont considérés par l’exploitant non sensibles à une pollution de surface qui proviendrait du site.
+
+64l0l0	en_aval_hydrologique_du_site	L
+64l0l1	l__exploitant	O
+
+#Il conclut que la pollution est localisée au droit des piézomètres PZ2bis et PZ5 (panache dirigé vers le Nord/Nord-Est).
+
+65l0l0	localisée_au_droit	L
+65l0l1	dirigé_vers_le_Nord___Nord___Est	L
+
+#Le captage AEP présent au Nord à 800 mètres est quant à lui abandonné et n’est plus en service.
+
+66l0l0	Le_captage_AEP	O
+66l0l1	présent_au_Nord_à_800_mètres	L
+66l0l2	n__est_plus_en_service	N
+
+#L’inspection des installations classées recommande :
+
+
+#- que l’exploitant doit poursuivre le traitement du sol (au droit de l’ancienne cuve d’essence laissée en place pour ne pas compromettre la stabilité du bâtiment) et des eaux souterraines afin de réduire les teneurs en polluants hydrocarburés au droit des zones sources (PZ2bis) et du panache de pollution (PZ5) conformément aux recommandations du bureau d’études ;
+
+68l0l0	l__exploitant	O
+68l0l1	doit_poursuivre	N
+68l0l2	le_traitement	N
+68l0l3	sol	O
+68l0l4	au_droit_de_l__ancienne_cuve	L
+68l0l5	bureau_d__études	O
+68l1l0	cuve	D
+68l1l1	d__essence	U
+68l1l2	polluants_hydrocarburés	U
+
+#- que l’exploitant doit poursuivre le suivi des eaux souterraines par la réalisation de nouvelles campagnes de mesures afin d’apprécier l’efficacité du traitement mis en œuvre.
+
+69l0l0	l__exploitant	O
+69l0l1	doit_poursuivre	R
+69l0l2	le_suivi_des_eaux_souterraines	A
+69l0l3	la_réalisation_de_nouvelles_campagnes_de_mesures	N
+
+#Par ailleurs, l’exploitant devra procéder à une nouvelle analyse des risques résiduels basée sur les résultats d’analyses après la réalisation des travaux complémentaires de dépollution comprenant l’analyse des sols, des analyses des eaux souterraines et également des analyses effectuées à l’extérieur du site.
+
+70l0l0	une_nouvelle_analyse	N
+70l0l1	des_risques_résiduels	O
+70l0l2	après	R
+70l0l3	la_réalisation	N
+70l0l4	des_travaux_complémentaires_de_dépollution	N
+
+#Un arrêt préfectoral sera pris en ce sens afin de :
+
+71l0l0	Un_arrêt_préfectoral	O
+71l0l1	sera_pris_en	N
+
+#- définir des mesures complémentaires de gestion à mettre en œuvre afin de rendre le site dans un état compatible avec un usage futur comparable à celui de la dernière période d’exploitation de l’installation ;
+
+72l0l0	définir	R
+72l0l1	des_mesures_complémentaires_de_gestion	O
+72l0l2	dernière_période_d_	T
+72l0l3	exploitation	N
+72l0l4	l__installation	N
+
+#- la mise à jour de l’ARR ;
+
+73l0l0	la_mise_à_jour	N
+
+#- une surveillance des eaux souterraines et des gaz des sols pour suivre l’évolution des pollutions dans le temps.
+
+74l0l0	eaux_souterraines	O

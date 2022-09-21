@@ -1,0 +1,183 @@
+@prefix : <http://example.com/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:event_components a owl:Class.
+:labels a owl:Class.
+:when a owl:ObjectProperty .
+:status a owl:ObjectProperty .
+:locate a owl:ObjectProperty .
+:parallel a owl:ObjectProperty .
+:unknown a owl:ObjectProperty .
+:agent a owl:ObjectProperty .
+:pagent a owl:ObjectProperty .
+:target a owl:ObjectProperty .
+:indirect_target a owl:ObjectProperty .
+:ptarget a owl:ObjectProperty .
+:complement a owl:ObjectProperty .
+:passive_target a owl:ObjectProperty .
+:passive_agent a owl:ObjectProperty .
+:precise a owl:ObjectProperty .
+:pprecise a owl:ObjectProperty .
+:pollutant a owl:ObjectProperty .
+:event owl:subClassOf owl:Class.
+:N a :labels.
+:event rdfs:label :N.
+:object owl:subClassOf owl:Class.
+:O a :labels.
+:object rdfs:label :O.
+:time owl:subClassOf owl:Class.
+:T a :labels.
+:time rdfs:label :T.
+:location owl:subClassOf owl:Class.
+:L a :labels.
+:location rdfs:label :L.
+:industrial_activity owl:subClassOf owl:Class.
+:A a :labels.
+:industrial_activity rdfs:label :A.
+:relation owl:subClassOf owl:Class.
+:R a :labels.
+:relation rdfs:label :R.
+:institution owl:subClassOf owl:Class.
+:I a :labels.
+:institution rdfs:label :I.
+:pollutant_container owl:subClassOf owl:Class.
+:D a :labels.
+:pollutant_container rdfs:label :D.
+:pollutant owl:subClassOf owl:Class.
+:U a :labels.
+:pollutant rdfs:label :U.
+:chemical owl:subClassOf owl:Class.
+:S a :labels.
+:chemical rdfs:label :S.
+:0l0l0 a :industrial_activity.
+:0l0l1 a :industrial_activity.
+:0l0l2 a :industrial_activity.
+:0l1l0 a :pollutant.
+:résine owl:subClassOf :chemical.
+:0l1l1 a :résine.
+:stabilisant owl:subClassOf :chemical.
+:0l1l2 a :stabilisant.
+:ignifugeant owl:subClassOf :chemical.
+:0l1l3 a :ignifugeant.
+:0l1l4 a :pollutant.
+:0l1l5 a :pollutant.
+:0l0l1 :overlap :0l1l0.
+:2l0l0 a :location.
+:3l0l0 a :object.
+:3l0l1 a :object.
+:3l0l2 a :relation.
+:3l0l3 a :object.
+:3l0l1 :target :3l0l2.
+:5l0l0 a :object.
+:7l0l0 a :industrial_activity.
+:8l0l0 a :object.
+:9l0l0 a :object.
+:9l0l1 a :location.
+:9l0l1 ::locate :9l0l0.
+:10l0l0 a :object.
+:détruire owl:subClassOf :event.
+:10l0l1 a :détruire.
+:10l0l2 a :relation.
+:incendie owl:subClassOf :event.
+:10l0l3 a :incendie.
+:10l0l4 a :time.
+:arrêt owl:subClassOf :event.
+:10l0l5 a :arrêt.
+:déclarer owl:subClassOf :event.
+:10l0l6 a :déclarer.
+:10l0l7 a :time.
+:10l0l0 :target :10l0l1.
+:10l0l1 :when :10l0l4.
+:10l0l6 :status :10l0l5.
+:10l0l6 :parallel :10l0l1.
+:10l0l1 :when :10l0l7.
+:10l0l6 :when :10l0l7.
+:11l0l0 a :relation.
+:limiter owl:subClassOf :event.
+:11l0l1 a :limiter.
+:prendre owl:subClassOf :event.
+:11l0l2 a :prendre.
+:11l0l3 a :object.
+:procéder owl:subClassOf :event.
+:11l0l4 a :procéder.
+:eau owl:subClassOf :event.
+:11l0l5 a :eau.
+:évacuation owl:subClassOf :event.
+:11l0l6 a :évacuation.
+:enlèvement owl:subClassOf :event.
+:11l0l7 a :enlèvement.
+:11l0l1 :target :11l0l0.
+:11l0l3 :unknown :11l0l2.
+:11l0l5 :complement :11l0l4.
+:11l0l6 :parallel :11l0l4.
+:11l0l7 :parallel :11l0l4.
+:12l0l0 a :relation.
+:sinistre owl:subClassOf :event.
+:12l0l1 a :sinistre.
+:12l0l2 a :object.
+:reprendre owl:subClassOf :event.
+:12l0l3 a :reprendre.
+:12l0l1 :target :12l0l0.
+:12l0l1 :unknown :12l0l3.
+:12l0l2 :target :12l0l3.
+:13l0l0 a :object.
+:engager owl:subClassOf :event.
+:13l0l1 a :engager.
+:13l0l2 a :object.
+:présenter owl:subClassOf :event.
+:13l0l3 a :présenter.
+:13l0l4 a :time.
+:13l0l0 :agent :13l0l1.
+:13l0l2 :target :13l0l1.
+:13l0l3 :parallel :13l0l1.
+:13l0l1 :when :13l0l4.
+:13l0l3 :when :13l0l4.
+:description owl:subClassOf :event.
+:15l0l0 a :description.
+:16l1l0 a :pollutant.
+:19l0l0 a :enlèvement.
+:19l0l1 a :object.
+:fuite owl:subClassOf :event.
+:19l0l2 a :fuite.
+:infiltration owl:subClassOf :event.
+:19l0l3 a :infiltration.
+:19l0l1 :target :19l0l0.
+:19l0l3 :parallel :19l0l2.
+:décontamination owl:subClassOf :event.
+:20l0l0 a :décontamination.
+:usage owl:subClassOf :event.
+:20l0l1 a :usage.
+:20l0l2 a :location.
+:20l0l3 a :object.
+:20l0l3 :unknown :20l0l1.
+:métal owl:subClassOf :chemical.
+:21l1l0 a :métal.
+:forage owl:subClassOf :event.
+:22l0l0 a :forage.
+:chlorure owl:subClassOf :chemical.
+:22l1l0 a :chlorure.
+:trichloroéthylène owl:subClassOf :chemical.
+:22l1l1 a :trichloroéthylène.
+:tce owl:subClassOf :chemical.
+:22l1l2 a :tce.
+:tétrachloroéthylène owl:subClassOf :chemical.
+:22l1l3 a :tétrachloroéthylène.
+:pce owl:subClassOf :chemical.
+:22l1l4 a :pce.
+:22l1l5 a :chlorure.
+:cv owl:subClassOf :chemical.
+:22l1l6 a :cv.
+:22l1l7 a :pollutant.
+:23l0l0 a :object.
+:23l0l1 a :time.
+:23l0l2 a :relation.
+:imposer owl:subClassOf :event.
+:23l0l3 a :imposer.
+:23l0l4 a :industrial_activity.
+:23l0l5 a :object.
+:cessation owl:subClassOf :event.
+:23l0l6 a :cessation.
+:23l0l7 a :industrial_activity.
+:23l0l6 :complement :23l0l5.

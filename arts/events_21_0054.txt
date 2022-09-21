@@ -1,0 +1,313 @@
+
+#21.0054
+#La société THALES via une société immobilière était propriétaire du terrain à usage industriel, situé à BEAUNE (Côte d'Or), route de Savigny, site exploité par TPC Beaune dont la parcelle, cadastrée CD n° 376 située au Nord :  la société SNC BEAUNE est propriétaire depuis 1993 .
+
+0l0l0	La_société_THALES_via_une_société	N
+0l0l1	immobilière	O
+0l0l2	propriétaire_du_terrain	O
+0l0l3	usage_industriel	A
+
+#Son actionnariat et son siège social a changé en 2006 (aujourd’hui Mr Péculier est principal actionnaire ).
+
+1l0l0	Son_actionnariat	O
+1l0l1	son_siège_social_a_changé_en	O
+1l0l2	2006___aujourd_hui	R
+1l0l3	Mr_Péculier_est_principal	O
+1l0l4	actionnaire____	L
+1l1l0	Son_actionnariat	I
+
+#Cette parcelle était, avant la seconde guerre mondiale, utilisée en tant que carrière à ciel ouvert pour l'extraction de calcaire à chaux.
+
+2l0l0	Cette_parcelle	O
+2l0l1	était	N
+2l0l2	__avant_la_seconde	O
+2l0l3	guerre	N
+2l0l4	mondiale	T
+2l0l5	__utilisée	T
+2l1l0	en_tant_que_carrière	I
+
+#L'exploitation de la carrière s'est arrêtée entre 1936 et 1937.
+
+3l0l0	L__exploitation	O
+3l0l1	de_la	N
+3l0l2	carrière_s__est_arrêtée_entre_1936	T
+3l0l3	et_1937__	R
+
+#Ultérieurement, le terrain aurait été utilisé comme décharge de tout venant y compris des huiles et batteries de voitures, les dépôts s'étant poursuivis jusqu'aux années 1970.
+
+4l0l0	Ultérieurement	N
+4l0l1	le_terrain_aurait	O
+4l0l2	été_utilisé	N
+4l0l3	comme_décharge_de_tout_venant_y_compris_des_huiles_et_batteries_de_voitures___les_dépôts_s__étant_poursuivis_jusqu__aux_années_1970__	T
+
+#Dans les années 1980, des cuves de stockage de produits indéterminés auraient été installées par le propriétaire ou occupant de ladite parcelle et ont été enlevées avant la cession de celle-ci, en 1989, à la société CECE-LCC.
+
+5l0l0	1980___des_cuves	O
+5l0l1	de_stockage_de	N
+5l0l2	produits_indéterminés	O
+5l0l3	installées_par_le_propriétaire_ou_occupant	O
+5l0l4	de_ladite	O
+5l0l5	parcelle_et_ont_été	N
+5l0l6	enlevées_avant_la_cession	T
+5l1l0	produits_indéterminés	D
+5l1l1	installées_par	U
+
+#Le 13 septembre 1989, la société CECE-LCC, aux droits de laquelle vient la société THOMSON PASSIVE COMPONENTS (ci-après "TPC" (Thalès)) devient propriétaire de la parcelle n° CD 376 mais n'y exerce aucune activité industrielle, seules deux cuves de fuel lourd à double paroi y ayant été installées.
+
+6l0l0	Le_13_septembre_1989__	T
+6l0l1	la_société_CECE___LCC___aux_droits_de_laquelle_vient	O
+6l0l2	la_société_THOMSON	N
+6l0l3	PASSIVE_COMPONENTS___ci	O
+6l0l4	Thalès_____devient	O
+6l0l5	propriétaire_de	N
+6l0l6	la_parcelle_n__CD_376	N
+6l0l7	mais_n__y	O
+6l0l8	exerce_aucune	T
+6l0l9	activité_industrielle	O
+6l1l0	aux_droits_de_laquelle	U
+6l1l1	aucune_activité_industrielle	I
+
+#L’exploitant final du site est TPC Division AVX
+
+7l0l0	L__exploitant_final	T
+7l0l1	du_site_est_TPC_Division	O
+7l1l0	du_site_est_TPC_Division	I
+
+#Géologie de la zone Nord : les formations géologiques au droit du site sont:
+
+8l0l0	Géologie_de_la_zone_Nord	O
+8l1l0	formations_géologiques_au_droit_du_site_sont__	I
+
+#- remblais d'au moins 3 m dans l'ancienne carrière,
+
+9l0l0	d__au_moins_3_m	O
+9l0l1	dans_l__ancienne_carrière__	O
+
+#- 5m d'alluvions récentes,
+
+10l0l0	5_m_d__alluvions	N
+
+#- 15m d'alluvions anciennes variables,
+
+
+#- 160m d'argile et de calcaire intercalaire (donné par coupe puits profond).
+
+
+#Hydrogéologie :
+
+
+#L'eau est rencontrée à une profondeur de 6m environ dans les alluvions sous la zone étudiée.
+
+14l0l0	L__eau_est	O
+
+#La masse alluviale n'est pas exploitée à proximité.
+
+15l0l0	proximité	O
+
+#Sous les formations, les calcaires du jurassique constituent un aquifère important.
+
+16l0l0	jurassique_constituent	L
+
+#En 1998, des investigations ont mis en évidence ,sur la parcelle sus-visée, la présence d'hydrocarbures, d'hydrocarbures polycycliques aromatiques (HAP), de métaux lourds et de PCB (polychlorobiphényles), dans les sols ainsi que des HAP et des solvants chlorés dans la nappe.
+
+
+#Le rapport desdites investigations transmis à l'inspection des installations classées a indiqué que ces substances étaient sans lien avec le fuel lourd stocké dans les deux cuves utilisées par la société TPC, et dont l’intégrité était garantie par une double enveloppe.
+
+18l0l0	Le_rapport	T
+18l0l1	desdites_investigations	N
+18l0l2	installations_classées	O
+18l1l0	a_indiqué_que_ces_substances_étaient_sans_lien_avec_le_fuel_lourd	S
+18l1l1	stocké_dans_les_deux_cuves_utilisées_par_la_société_TPC__	S
+18l1l2	garantie	S
+18l1l3	par_une_double_enveloppe	S
+
+#Des analyses complémentaires dans la nappe, ainsi qu'une étude simplifiée des risques ont été réalisées en 2000 laquelle a classé le site en catégorie 2 "à surveiller" aux termes d'un rapport intitulé "Evaluation simplifiée des risques du site de THOMSON PASSIVE COMPONENTS, Beaune, France" en date d'avril 2001.
+
+19l0l0	ainsi_qu__une_étude_simplifiée_des_risques_ont	O
+19l0l1	réalisées_en_2000_laquelle	O
+19l0l2	catégorie_2___à	O
+19l0l3	__aux_termes_d__un_rapport	O
+19l0l4	intitulé___Evaluation	O
+19l1l0	catégorie_2___à	U
+19l1l1	termes_d__un_rapport	D
+19l1l2	intitulé___Evaluation	I
+
+#Le 20 décembre 2001, la parcelle a été cédée à la société IMMOBILIERE OLIVE FRANCE I SAS.
+
+20l0l0	Le_20_décembre_2001___la_parcelle	N
+20l0l1	été_cédée_à	O
+20l0l2	IMMOBILIERE_OLIVE_FRANCE_I_SAS__	N
+
+#Des analyses complémentaires de la nappe ont été réalisées en juillet 2002 et août 2003 lesquelles donnaient lieu à un rapport daté de décembre 2003 intitulé "Synthèse des données environnementales disponibles - Site de TPC - Beaune, France".
+
+21l0l0	Des_analyses_complémentaires_de	O
+21l0l1	la_nappe_ont	N
+21l0l2	été_réalisées_en_juillet_2002_et_août	O
+21l1l0	ont_été_réalisées_en_juillet_2002_et_août	I
+
+#Les investigations des sols et de la nappe (de 1998 à 2003) complétées par un suivi de la nappe réalisé entre février 2000 et octobre 2006 ainsi que le prélèvement dans la nappe profonde ont permis de conclure les points suivants sur l'état du site de TPC à Beaune:
+
+22l0l0	Les_investigations_des_sols_et_de_la_nappe	N
+22l0l1	__de_1998_à_2003__	N
+22l0l2	complétées_par_un_suivi_de_la_nappe	T
+22l0l3	2006_ainsi_que_le_prélèvement	T
+22l0l4	suivants	O
+
+#- La zone de l'EJP (zone Nord) correspondant à une zone remblayée montrait la présence d'hydrocarbures totaux et de métaux, en concentration, dans les sols, supérieures aux valeurs réglementaire de l'époque.
+
+23l0l0	__La_zone_de_l__EJP___zone	N
+23l0l1	correspondant_à_une_zone_remblayée	T
+23l0l2	montrait_la_présence_d__hydrocarbures	A
+23l0l3	totaux_et_de_métaux___en_concentration	T
+
+#- Cette zone couvrait une surface d'environ 6 111 m² (telle que définie dans le dossier de servitude).
+
+24l0l0	Cette_zone	O
+24l0l1	couvrait_une_surface	O
+24l0l2	m²___telle_que	L
+24l0l3	définie	N
+24l1l0	servitude____	S
+
+#Les investigations réalisées ont montré que les matériaux impactés étaient limités aux 5 premiers mètres et étaient donc hors nappe.
+
+
+#Dès lors, les migrations des polluants vers la nappe ne résultaient que de phénomènes de lixiviation liés aux eaux météoriques.
+
+26l0l0	Dès_lors___les_migrations_des_polluants	N
+26l0l1	nappe_ne_résultaient	O
+26l0l2	météoriques__	L
+
+#Une imperméabilisation de la parcelle 376 avait été recommandée.
+
+27l1l0	la_parcelle	S
+
+#4 janvier 2007: par arrêté préfectoral, la société TPC a été tenue de respecter les exigences suivantes:
+
+28l0l0	4_janvier_2007___par_arrêté	N
+28l0l1	préfectoral___la	O
+28l0l2	société_TPC_a_été_tenue	N
+
+#- réalisation de l'obturation des forages avant déconstruction des bâtiments pour éviter tous risques de pollution des eaux souterraines
+
+29l0l0	__réalisation_de	T
+29l0l1	l__obturation_des_forages	O
+29l0l2	avant	O
+29l0l3	déconstruction_des_bâtiments	N
+29l1l0	forages_avant_déconstruction	I
+
+#- enlèvement des cuves enterrées après les avoir dégazées.
+
+30l0l0	enlèvement_des_cuves	O
+30l0l1	enterrées_après_les	N
+30l0l2	avoir_dégazées__	N
+
+#Une vérification de l'état des sols en fond de fouille après enlèvement a également été imposée.
+
+31l0l0	Une_vérification_de_l__état_des	N
+31l0l1	sols	O
+31l0l2	en	R
+31l0l3	fond_de_fouille_après	N
+31l1l0	vérification_de_l__état_des	D
+
+#- démantèlement des bâtiments de production, caractérisation des matériaux de démolition souillés si il y a lieu et élimination desdits matériaux dans une filière agrée.
+
+32l0l0	__démantèlement_des	N
+32l0l1	bâtiments_de	O
+32l0l2	production__	O
+32l0l3	caractérisation_des_matériaux_de_démolition_souillés	N
+
+#26 octobre 2007: par arrêté préfectoral, considérant la pollution résiduelle présente sur la parcelle citée et considérant les différentes conclusions des études sus-visées, la société TPC a été tenue de respecter les prescriptions suivantes:
+
+33l0l0	26_octobre_2007___par_arrêté_préfectoral__	N
+33l0l1	considérant_la_pollution_résiduelle_présente_sur	N
+33l0l2	considérant_les	N
+
+#- mise en place d'un géotextile avertisseur et d'une couverture étanche pour la parcelle concernée CD 376
+
+34l0l0	__mise_en_place_d_	T
+34l0l1	un_géotextile_avertisseur	O
+
+#- mise en place d'un suivi piézométrique (1 en amont et 3 en aval hydraulique) d'une fréquence semestrielle pendant 2 ans renouvelable selon les résultats.
+
+35l0l0	mise_en_place_d__un_suivi	N
+35l0l1	piézométrique	O
+35l0l2	amont_et_3_en_aval_hydraulique	O
+35l0l3	d__une_fréquence_semestrielle	O
+
+#Les paramètres à analyser étant les hydrocarbures totaux, le chlorure de vinyle et les composés halogénés.
+
+36l0l0	Les_paramètres_à_analyser_étant_les_hydrocarbures	N
+36l0l1	_	T
+
+#15 mai 2008: la société TPC a été mise en demeure de respecter et de réaliser les prescriptions imposées par l'arrêté préfectoral du 26 octobre 2007.
+
+37l1l0	en_demeure_de_respecter	S
+37l1l1	et_de_réaliser_les	S
+37l1l2	prescriptions_imposées_par	S
+
+#10 octobre 2008 : l'Inspection constate la mise en place d'un géotextile avertisseur et d'une couverture étanche pour la parcelle CD 376.
+
+38l0l0	10_octobre	T
+38l0l1	2008___l__Inspection	O
+38l0l2	constate_la_mise	N
+38l0l3	géotextile_avertisseur_et_d__une	O
+38l0l4	couverture	N
+38l0l5	étanche_pour_la_parcelle	O
+38l0l6	CD_376__	T
+38l1l0	2008___l__Inspection	I
+
+#Au vu des différents résultats des analyses des eaux souterraines (présence de chlorure de vinyle, d'hydrocarbures totaux et d'AOX), l'inspection des installations classées a prolongé la surveillance semestrielle de la qualité des eaux souterraines.
+
+39l0l0	Au_vu_des_différents	T
+39l0l1	résultats	O
+39l0l2	des_analyses_des_eaux_souterraines__	N
+39l0l3	présence_de	O
+39l0l4	de_vinyle___d__hydrocarbures	O
+
+#9 mars 2012 : signature d'une convention de servitudes.
+
+
+#Y sont particulièrement interdits :
+
+41l0l0	Y_sont	T
+41l0l1	particulièrement_interdits__	O
+
+#- la réalisation de fouilles profondes, hormis celles nécessaires à l’enlèvement de cuves d’hydrocarbures
+
+
+#- la création de plans d'eau,
+
+43l0l0	la_création_de_plans_d__eau__	N
+
+#- toute construction d'immeubles, d'habitation particulière ou logement,
+
+44l0l0	toute_construction_d_	A
+44l0l1	immeubles	O
+
+#- tout terrain de camping,
+
+45l0l0	terrain_de_camping__	N
+
+#- toutes cultures de plantes ou fruits destinés à l'alimentation humaine ou animale,
+
+
+#- tout forage ou puits dans le sol et la nappe sous-jacente autres que pour l'installation de piézomètres,
+
+47l0l0	forage_ou_puits_dans_le_sol_et_la_nappe_sous_jacente_autres_que	A
+
+#- l'apport de matériaux autres que ceux nécessaires à conserver ou parfaire l'étanchéité du sol.
+
+48l0l0	l__apport_de	N
+48l0l1	parfaire	N
+48l0l2	l__étanchéité_du_sol__	A
+
+#24 décembre 2013 : le suivi de la qualité des eaux souterraines de juin 2013 conclut : "Au vu des résultats des dernières campagnes présentant des teneurs inférieures aux seuils de quantification ou en baisse et proche des seuils de quantification, URS France propose l'arrêt du suivi".
+
+49l0l0	conclut_____Au_vu_des	O
+
+#janvier 2014 : l'Inspection des installations classées n'est pas opposée à la suspension du suivi de la qualité des eaux souterraines et demande à l'exploitant de sécuriser le réseau de piézomètres afin qu'aucun déversement n'y puisse être fait.
+
+50l0l0	janvier_2014___l_	T
+50l0l1	Inspection	A
+50l0l2	des_installations_classées_n__est	O
+50l0l3	pas_opposée	T

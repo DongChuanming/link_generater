@@ -1,0 +1,34 @@
+
+#68.0101
+#Dépôt de fuel de la société BP ayant cessé ses activités.
+
+0l0l0	Dépôt_de_fuel	O
+0l0l1	la_société_BP	O
+0l0l2	ayant_cessé_ses_activités	N
+0l1l0	fuel	U
+0l1l1	la_société_BP	I
+
+#Dans le cadre de la cessation d'activité, l'exploitant a procédé à la remise en état du site.
+
+1l0l0	Dans_le_cadre_de	R
+1l0l1	la_cessation_d__activité	N
+1l0l2	l__exploitant	O
+1l0l3	a_procédé_à	R
+1l0l4	la_remise_en_état_du_site	N
+
+#Les investigations réalisées ont montré la présence d'utilisation privée d'eau de la nappe à des fins alimentaires en aval du dépôt et la présence homogène de teneurs en hydrocarbures dissous en amont et en aval du dépôt, supérieur à la VCI usage sensible : 0,05 mg/l au lieu de 0,01 mg/l.
+
+2l0l0	Les_investigations_réalisées	N
+2l0l1	en_aval_du_dépôt	L
+2l0l2	aval_du_dépôt	L
+2l1l0	hydrocarbures	S
+
+#Suite aux recommandations du rapport ATE du 15 juin 2000, des analyses d'eau souterraines ont été faites en 2002 qui n'ont pas montré d'anomalie entre l'amont et l'aval du site.
+
+3l0l0	Suite_aux	R
+3l0l1	15_juin_2000__	T
+3l0l2	des_analyses	N
+3l0l3	ont_été_faites	N
+3l0l4	en_2002	T
+3l0l5	amont	L
+3l0l6	aval_du_site	L

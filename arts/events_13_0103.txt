@@ -1,0 +1,108 @@
+
+#13.0103
+#Ancienne usine à gaz d'AUBAGNE (13)
+
+0l0l0	Ancienne_usine	O
+0l0l1	d_	T
+0l0l2	AUBAGNE___13__	L
+0l1l0	AUBAGNE___13__	I
+
+#* Le site d'Aubagne a accueilli a priori une usine fabriquant du gaz à partir de la distillation de la houille (ce qui devra être confirmé par une étude historique).
+
+1l0l0	Le_site	O
+1l0l1	d__Aubagne	L
+1l0l2	a_accueilli	N
+1l0l3	a_priori	R
+1l0l4	une_usine	O
+1l0l5	fabriquant_du_gaz	A
+1l0l6	la_distillation_de_la_houille	A
+1l1l0	houille	U
+
+#* Actuellement, il est utilisé pour les besoins des entreprises EDF et / ou Gaz de France.
+
+2l1l0	des_entreprises_EDF	I
+2l1l1	Gaz_de_France	I
+
+#* Ce site a été remis à la disposition de la Ville avant signature du protocole.
+
+3l0l0	Ce_site	O
+3l0l1	a_été_remis	N
+3l0l2	la_Ville	O
+3l0l3	avant_signature	R
+3l0l4	du_protocole	O
+
+#Il a donc été reférencé par erreur au protocole.
+
+
+#Depuis 1993, des logements ont été construits.
+
+5l0l0	Depuis_1993	T
+5l0l1	des_logements_ont_été_construits	N
+
+#* Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+6l0l0	Gaz_de_France	O
+6l0l1	a_hiérarchisé	N
+6l0l2	ses_actions	O
+6l0l3	467_sites	O
+6l1l0	__Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement  (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site...).
+
+7l0l0	hiérarchiser	N
+7l0l1	les_sites	O
+7l0l2	en_fonction_de	R
+7l0l3	leur_sensibilité	O
+7l0l4	vis_à_vis_de	R
+7l0l5	l__environnement	O
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+8l0l0	L__application	N
+8l0l1	cette_méthode	O
+8l0l2	a_abouti_à	R
+8l0l3	l__établissement	N
+8l0l4	5_classes_de_priorité	O
+8l0l5	les_engagements	O
+8l0l6	Gaz_de_France	O
+8l0l7	ont_fait_l__objet_d_	R
+8l0l8	un_protocole_d__accord	O
+8l0l9	relatif_à	R
+8l0l10	la_maîtrise	O
+8l0l11	suivi	O
+8l0l12	la_réhabilitation	N
+8l0l13	anciens_terrains_d__usines_à_gaz	O
+8l0l14	entre	R
+8l0l15	le_Ministère_de_l__Environnement	O
+8l0l16	Gaz_de_France	O
+8l0l17	signé	N
+8l0l18	le_25_avril_1996	T
+8l1l0	Gaz_de_France	I
+8l1l1	le_Ministère_de_l__Environnement	I
+8l1l2	Gaz_de_France	I
+
+#* Le site d'Aubagne est en classe 4 du protocole.
+
+9l0l0	Le_site_d__Aubagne	O
+
+#De ce fait, c'est un site dont la sensibilité vis à vis de l'homme, des eaux souterraines et superficielles est très faible.
+
+
+#* Conformément aux engagements pris dans le protocole, Gaz de France a réalisé une étude historique.
+
+11l0l0	Conformément_aux	R
+11l0l1	engagements	O
+11l0l2	pris_dans	R
+11l0l3	le_protocole	O
+11l0l4	Gaz_de_France	T
+11l0l5	a_réalisé	N
+11l0l6	une_étude_historique	N
+11l1l0	Gaz_de_France	I
+
+#Le rapport parcellaire a été envoyé à la DRIRE le 30/12/2004.
+
+12l0l0	Le_rapport_parcellaire	O
+12l0l1	a_été_envoyé	N
+12l0l2	la_DRIRE	O
+12l0l3	le_30_12_2004__	T
+12l1l0	la_DRIRE	I

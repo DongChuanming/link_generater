@@ -1,0 +1,29 @@
+
+#27.0095
+#Poste électrique appartenant à ERDF.
+
+0l0l0	Poste_électrique	O
+0l0l1	appartenant_à	R
+0l0l2	ERDF	O
+
+#Présence d'un transformateur électrique de 1973, de marque ALS 397787, de puissance 50 kVA, contenant de l'huile contaminée aux PCB (344 ppm).
+
+1l0l0	Présence_d_	O
+1l0l1	un_transformateur_électrique	O
+1l0l2	de_1973	T
+1l0l3	l__huile_contaminée	O
+1l1l0	PCB	S
+
+#Incident : explosion du transformateur électrique suite à un incident électrique sans incendie.
+
+2l0l0	Incident___explosion_du	N
+2l0l1	transformateur_électrique	O
+2l0l2	suite_à	R
+2l0l3	un_incident_électrique_sans_incendie	N
+
+#Conséquence : déversement de 10 L d'huile contaminée aux PCB (344 pmm), soit environ 3g de PCB.
+
+3l0l0	déversement	N
+3l0l1	huile_contaminée	O
+3l1l0	PCB	S
+3l1l1	PCB	S

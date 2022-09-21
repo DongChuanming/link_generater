@@ -1,0 +1,283 @@
+
+#45.0075
+#La société LA GRANDE PAROISSE a été autorisée, par arrêté préfectoral d'autorisation du 2 août 1990, à poursuivre les activités de fabrication et de stockage d'engrais liquide de la SCGP (Société Chimique de la Grande Paroisse).
+
+0l0l0	La_société_LA	R
+0l0l1	GRANDE_PAROISSE	N
+0l0l2	préfectoral_d_	O
+0l0l3	autorisation_du_2_août_1990___à_poursuivre_les_activités	N
+
+#Ce site a été exploité par des sociétés exerçant des activités du même type depuis 1968.
+
+1l0l0	Ce_site_a_été_exploité_par_des	O
+1l0l1	sociétés_exerçant	N
+1l0l2	des_activités_du_même_type_depuis_1968__	O
+1l1l0	Ce_site_a_été_exploité_par_des_sociétés	I
+
+#L'exploitant exerce les activités suivantes :
+
+2l0l0	L__exploitant	O
+2l0l1	exerce_les	N
+2l0l2	activités	O
+2l0l3	suivantes__	A
+
+#- dépôt d'engrais liquide (rubrique 2175-1 de la nomenclature des installations classées pour la protection de l'environnement, soumise à autorisation),
+
+3l0l0	__dépôt_d__engrais	O
+3l0l1	liquide___rubrique	N
+
+#- dépôt d'acide nitrique concentré (rubrique 1611-2 soumise à déclaration).
+
+4l0l0	dépôt_d__acide_nitrique_concentré	O
+4l1l0	acide_nitrique	S
+
+#Il réalise aussi l'activité de stockage et d'emploi de sulfate de zinc et d'oxyde de zinc (rubrique 1172 soumise à déclaration), mais cette dernière n'est pas mentionnée dans l'arrêté préfectoral d'autorisation.
+
+5l1l0	réalise_aussi_l__activité_de_stockage	S
+
+#Le site, d'une superficie de 18 372 m², est implanté en zone urbaine d'activités.
+
+6l0l0	Le	O
+6l0l1	site___d_	N
+6l0l2	superficie_de_18_372_m²___est_implanté_en_zone_urbaine	A
+6l1l0	zone_urbaine_d_	S
+6l1l1	activités__	S
+
+#Quelques habitations individuelles sont situées à proximité du site.
+
+7l0l0	Quelques	O
+7l0l1	sont_situées_à_proximité_du_site__	L
+
+#La Loire, située à 4 km au sud du site, est le seul cours d'eau présent à proximité du site.
+
+8l0l0	La_Loire___située_à_4_km_au_sud_du_site___est	O
+8l0l1	le_seul_cours_d__eau_présent_à_proximité	L
+
+#Il existe deux nappes au droit du site : la première, localisée dans les Calcaires de Pithiviers, est située à 20 m de profondeur ; la seconde, localisée dans les Calcaires d'Etampes, est à environ 100 m de profondeur.
+
+9l0l0	Il_existe	O
+9l0l1	deux_nappes_au_droit_du_site	L
+9l0l2	les_Calcaires_de_Pithiviers	L
+
+#Ces nappes ne sont pas en relation hydraulique avec la Loire, mais servent en revanche à de nombreux captages pour l'alimentation en eau potable (AEP) et l'exploitation à des fins industrielles (AEI).
+
+10l0l0	nappes_ne_sont_pas	O
+10l0l1	en_relation_hydraulique	L
+10l0l2	la_Loire___mais_servent	R
+10l0l3	revanche_à_de_nombreux	L
+10l0l4	alimentation_en_eau_potable	O
+10l0l5	des_fins_industrielles	L
+
+#Le 16 décembre 2004, LA GRANDE PAROISSE a transmis à l'inspection des installations classées une demande de cessation d'activité.
+
+11l0l0	Le_16_décembre	O
+11l0l1	l__inspection	L
+
+#Le site a été sécurisé, puis démantelé, depuis l'arrêt des activités.
+
+12l0l0	Le_site_a_été_sécurisé	T
+12l0l1	__puis_démantelé__	O
+12l0l2	depuis_l_	N
+12l0l3	arrêt_des_activités__	O
+12l1l0	sécurisé___puis_démantelé__	I
+
+#En 2010, des servitudes d'utilité publique ont été instituées.
+
+13l0l0	En_2010	O
+13l0l1	__des_servitudes	N
+13l0l2	utilité	N
+13l0l3	publique_ont_été	N
+13l0l4	instituées__	A
+
+#Le 16 décembre 2004, LA GRANDE PAROISSE a transmis à l'inspection des installations classées une demande de cessation d'activité.
+
+14l0l0	Le_16_décembre	T
+14l0l1	2004___LA_GRANDE_PAROISSE_a_transmis	O
+14l0l2	à_l__inspection	N
+
+#Il a été demandé à l'exploitant, par arrêté préfectoral complémentaire du 16 mars 2005, d'installer sur son site trois piézomètres (un puits en amont hydraulique des installations et deux en aval), afin de surveiller la qualité des eaux souterraines au droit du site.
+
+15l0l0	Il_a_été_demandé_à_l_	T
+15l0l1	exploitant___par_arrêté	O
+15l0l2	préfectoral	N
+15l0l3	complémentaire_du_16_mars_2005___d__installer	O
+15l0l4	sur_son_site_trois_piézomètres	N
+15l1l0	exploitant___par_arrêté	I
+
+#Des prélèvements effectués deux fois par an permettraient ainsi de vérifier la présence dans la nappe des éléments suivants : hydrocarbures totaux, hydrocarbures aromatiques polycycliques, composés minéraux, composés organiques volatils, et métaux lourds.
+
+16l0l0	Des_prélèvements	N
+16l0l1	effectués_deux	O
+16l0l2	fois_par_an_permettraient_ainsi_de_vérifier	O
+16l0l3	la_présence	T
+16l0l4	dans_la_nappe	N
+16l0l5	des_éléments_suivants___hydrocarbures	O
+16l0l6	totaux___hydrocarbures_aromatiques_polycycliques___composés	L
+16l0l7	minéraux___composés_organiques_volatils___et	A
+16l0l8	métaux_lourds__	L
+
+#Le 5 avril 2005, Monsieur Le Maire de Fleury-les-Aubrais a accordé un permis de démolir à LA GRANDE PAROISSE, le démantèlement du site pouvant ainsi permettre l'implantation d'un nouvel établissement.
+
+17l0l0	de_Fleury_les_Aubrais	T
+17l1l0	du_site_pouvant_ainsi	S
+17l1l1	permettre_l__implantation_d__un_nouvel_établissement	S
+17l1l2	_	S
+
+#Les travaux de démantèlement et de destruction des installations ont pris fin en février 2007.
+
+18l0l0	Les_travaux_de	T
+18l0l1	démantèlement_et_de	O
+18l0l2	destruction_des	L
+18l0l3	installations	N
+18l0l4	ont_pris	O
+18l0l5	fin_en_février	N
+18l0l6	2007__	O
+18l1l0	février_2007__	I
+
+#Par courrier du 15 janvier 2009, Monsieur le Maire de Fleury-les-Aubrais a indiqué à l'inspection avoir donné son accord pour l'implantation sur le site d'une activité commerciale.
+
+19l0l0	Par_courrier_du_15_janvier_2009	N
+19l0l1	Monsieur_le_Maire	N
+19l0l2	de_Fleury_les_Aubrais	O
+19l0l3	a_indiqué	N
+19l0l4	à_l__inspection_avoir_donné_son_accord_pour_l__implantation_sur_le_site_d__une_activité_commerciale__	T
+
+#Le rapport d'inspection du 4 février 2010 a indiqué que plusieurs pollutions du site avaient été mises en évidence.
+
+20l0l0	inspection_du_4	T
+20l0l1	février_2010_a_indiqué	O
+20l0l2	que_plusieurs_pollutions	L
+20l0l3	avaient_été	O
+20l0l4	mises_en_évidence__	N
+20l1l0	a_indiqué	I
+
+#En effet, des zones liées aux anciens stockages d'engrais ont été contaminées par de l'ammoniac et des nitrates, tandis qu'une zone de terrains ayant été remblayés par des terres sablo-granuleuses présentant des mâchefers a été contaminée par des éléments-traces métalliques d'arsenic.
+
+21l0l0	aux_anciens_stockages	T
+21l0l1	engrais_ont_été_contaminées_par_de	O
+21l0l2	l__ammoniac_et_des_nitrates___tandis	N
+
+#De plus, des analyses réalisées sur les trois piézomètres du site indiquent que la nappe alluviale a été polluée par de l'ammonium et des nitrates.
+
+22l0l0	des_analyses	O
+22l0l1	du_site_indiquent_que	N
+22l0l2	nappe_alluviale	O
+22l0l3	été_polluée	O
+22l0l4	ammonium_et_des_nitrates	O
+22l0l5	_	N
+22l1l0	nappe_alluviale	S
+22l1l1	été_polluée	S
+
+#Suite à la demande de l'exploitant en date du 24 avril 2008 et au rapport d'inspection du 4 février 2010, l'arrêté préfectoral du 24 mars 2010 a institué des servitudes d'utilité publique (SUP) sur le site de LA GRANDE PAROISSE.
+
+23l0l0	la_demande_de_l_	N
+23l0l1	2010___l__arrêté	N
+23l0l2	préfectoral_du_24	O
+23l0l3	2010_a_institué	O
+23l1l0	préfectoral_du_24	S
+23l1l1	2010_a_institué	S
+
+#Ces servitudes impliquent la mise en place sur l'ensemble du site d'un recouvrement soit minéral, soit par une couche de terre végétale des sols, ainsi que la pérennité des trois piézomètres installés sur le site, la présence d'ammonium et de nitrates dans les eaux souterraines devant désormais être contrôlée en plus des paramètres prévus par l'arrêté du 16 mars 2005.
+
+24l0l0	Ces_servitudes	N
+24l0l1	impliquent_la_mise	O
+24l0l2	en_place_sur_l__ensemble	T
+24l0l3	du_site_d__un_recouvrement	N
+24l0l4	soit_minéral___soit	T
+24l0l5	par_une_couche_de_terre	O
+24l0l6	végétale_des	T
+24l0l7	sols___ainsi	N
+24l0l8	que_la_pérennité_des_trois_piézomètres	O
+24l0l9	le_site___la_présence	O
+24l1l0	site___la_présence	I
+
+#Cette surveillance ne pourra être levée que si les résultats des analyses des eaux prélevées ne comportent aucune anomalie et aucune valeur de concentration supérieure aux valeurs limites et aux valeurs de référence des eaux brutes destinées à la consommation humaine sur une période d'au moins trois années consécutives.
+
+25l0l0	pourra_être_levée_que	N
+25l0l1	d__au_moins_trois_années_consécutives	N
+25l1l0	brutes_destinées_à_la_consommation	S
+
+#De plus, la réalisation de puits et de forages pour le prélèvement d'eaux destinées à la consommation humaine est interdite sur le site.
+
+26l0l0	De_plus___la_réalisation	A
+
+#Enfin, le site est limité à un usage industriel ou commercial.
+
+27l0l0	le_site_est_limité_à_un_usage	N
+27l0l1	commercial__	A
+
+#Le 19 novembre 2010, la commission départementale d'aménagement commercial a refusé l'installation d'une galerie de magasins sur le site de LA GRANDE PAROISSE, estimant que ce dernier n'était pas suffisamment dépollué.
+
+
+#En effet, les SUP instituées par l'arrêté du 24 mars 2010 n'ont toujours pas été mises en place.
+
+29l0l0	En_effet___les_SUP	T
+29l0l1	instituées_par_l__arrêté_du_24_mars_2010_n__ont_toujours_pas_été	O
+29l0l2	mises_en_place__	N
+29l1l0	instituées_par_l__arrêté_du_24_mars	I
+
+#L'exploitant a indiqué à l'inspection, par courrier du 8 septembre 2011, avoir effectué un recouvrement des sols du site par des déblais argilo-sableux, conformément à l'arrêté du 24 mars 2010.
+
+30l0l0	courrier_du	T
+30l0l1	8_septembre_2011___avoir_effectué_un_recouvrement	N
+
+#Le rapport d'inspection du 22 décembre 2011 a confirmé que cette mesure avait été mise en place.
+
+31l0l0	Le_rapport_d__inspection	O
+31l0l1	du_22_décembre	O
+31l0l2	confirmé_que_cette_mesure	T
+31l0l3	avait_été_mise_en_place__	N
+
+#Il a également indiqué que les usages retenus du site par un futur exploitant (industriel ou commercial) étaient acceptables, à condition de respecter les prescriptions de l'arrêté du 24 mars 2010.
+
+32l0l0	les_usages_retenus	T
+32l0l1	futur_exploitant	O
+32l0l2	__industriel_ou_commercial	N
+
+#Par conséquent, les SUP instituées par ce même arrêté ne devaient pas être levées.
+
+33l0l0	Par	O
+33l0l1	instituées_par_ce_même	O
+33l0l2	arrêté	O
+33l0l3	devaient_pas_être_levées	O
+
+#La surveillance des eaux souterraines au droit du site, prescrite par les arrêtés du 16 mars 2005 et du 24 mars 2010, fait apparaitre les résultats suivants :
+
+34l0l0	site___prescrite_par	N
+
+#- depuis 2009, les hydrocarbures totaux et les composés métalliques ont toujours présenté des concentrations inférieures à la limite de qualité des eaux brutes ;
+
+35l0l0	__depuis_2009___les_hydrocarbures_totaux	A
+35l0l1	et_les_composés	L
+35l0l2	ont_toujours	O
+35l0l3	présenté_des_concentrations_inférieures	T
+
+#- les campagnes de mai et d'octobre 2013 ont montré que les concentrations en nitrates étaient devenues supérieures à la valeur seuil de qualité des eaux brutes sur le piézomètre Pz2 situé en aval du site ;
+
+36l0l0	les_campagnes	T
+36l1l0	mai_et_d__octobre_2013_ont	S
+36l1l1	montré_que_les_concentrations	S
+
+#- à partir d'avril 2014, une baisse des concentrations en nitrates a été mise en évidence, ces dernières étant désormais inférieures à la limite ;
+
+37l0l0	à_partir_d__avril	N
+37l0l1	2014___une_baisse_des_concentrations	T
+37l0l2	en_évidence	O
+37l0l3	__ces_dernières_étant_désormais	N
+37l1l0	en_évidence	S
+
+#- les concentrations en ammonium ont dépassé la limite de qualité des eaux brutes lors de la campagne d'avril 2012 sur les piézomètres Pz1 et Pz3 (respectivement situés en amont et en aval latéral du site) et entre mai 2012 et avril 2014 sur le piézomètre Pz2 ;
+
+38l0l0	les_concentrations_en	T
+38l0l1	qualité_des	O
+38l1l0	qualité_des	S
+
+#- depuis septembre 2014, les concentrations en ammonium sont repassées sous la limite sur les trois piézomètres.
+
+39l0l0	__les	O
+39l0l1	concentrations	N
+39l0l2	en_ammonium_sont_repassées	O
+39l0l3	sous_la_limite	A
+39l0l4	sur_les_trois	N
+39l0l5	piézomètres	T
+39l1l0	__les_concentrations	S

@@ -1,0 +1,185 @@
+
+#76.0291
+#Le site se trouve dans la zone industrialo-portuaire du Havre.
+
+0l0l0	Le_site_se_trouve_dans_la_zone	N
+0l0l1	industrialo___portuaire	O
+0l0l2	du_Havre	N
+0l0l3	_	T
+
+#Le site est bordé :
+
+1l0l0	Le_site	O
+1l0l1	est_bordé__	L
+
+#- à l'ouest par la route de la Pointe du Hoc puis par le canal Bossière puis le terminal de l'Europe,
+
+2l0l0	__à_l__ouest	O
+
+#- au sud et à l'est par la société SHMPP,
+
+3l0l0	au_sud_et_à_l__est_par_la_société_SHMPP__	L
+3l1l0	société_SHMPP	U
+
+#- au nord par le DTIH (District de Transit Interarmées Le Havre).
+
+4l0l0	au_nord_par_le_DTIH	L
+4l0l1	District_de_Transit	O
+4l1l0	District_de_Transit	I
+
+#La superficie du site est d’environ 13 000 m².
+
+5l0l0	superficie_du_site	O
+5l0l1	est_d__environ_13	O
+5l0l2	000_m²__	O
+5l1l0	superficie_du_site	I
+5l1l1	est_d__environ_13_000_m²__	S
+
+#Depuis 1958, une activité de fabrication, réparation et de ré-épreuve des bouteilles de gaz est exercée sur le site (chaudronnerie, grenaillage, peinture...).
+
+
+#Depuis 2008, seule l'activité de dégazage et de stockage des réservoirs de gaz est exercée.
+
+7l0l0	Depuis_2008	T
+7l0l1	seule_l__activité_de_dégazage_et_de_stockage_des_réservoirs_de_gaz_est_exercée__	A
+7l1l0	gaz_est_exercée__	U
+
+#Le site n'est plus en activité depuis le 28 septembre 2012.
+
+8l0l0	Le_site_n__est_plus_en	T
+8l0l1	activité_depuis_le_28_septembre_2012__	A
+
+#La majorité des machines ont été enlevées, les bâtiments n'ont pas été démontés.
+
+9l0l0	La_majorité	O
+9l0l1	des_machines_ont	N
+9l0l2	été_enlevées___les_bâtiments_n__ont_pas_été_démontés__	T
+
+#Par courrier du 28 juin 2013, l’exploitant nous a transmis le rapport N7 11 032 0 – V1 finale aout 2011 établi par SITA REMEDIATION comprenant un diagnostic des sols, une analyse des risques résiduels prédictive et un plan de gestion.
+
+10l0l0	Par_courrier_du_28_juin_2013	O
+10l0l1	__l__exploitant	N
+10l0l2	nous_a_transmis	O
+10l0l3	le	R
+10l0l4	rapport_N7_11_032_0__	N
+
+#L’usage pris en contact pour cette analyse est un usage de type industriel.
+
+11l0l0	contact_pour	T
+11l0l1	cette_analyse	O
+11l0l2	un_usage_de	N
+11l0l3	type_industriel	O
+
+#L'exploitation nous a indiqué avoir lancé les consultations sur le type d’usage futur auprès des maires et propriétaires.
+
+12l0l0	L__exploitation	O
+12l0l1	consultations	O
+
+#Le diagnostic a mis en évidence concernant la qualité des sols :
+
+13l0l0	Le_diagnostic_a_mis	O
+13l0l1	concernant	N
+
+#- un impact significatif en hydrocarbures en limite sud du site induit a priori par la fuite d'un pipeline appartenant au site limitrophe SHMPP,
+
+14l0l0	__un_impact_significatif	N
+14l0l1	en_limite_sud_du_site	O
+
+#- un impact significatif en hydrocarbures à proximité de l'ancienne cuve de FOD/GO,
+
+15l0l0	un_impact	N
+15l0l1	hydrocarbures	O
+15l0l2	à_proximité_de_l__ancienne	L
+15l0l3	GO__	N
+15l1l0	hydrocarbures	S
+
+#- un impact en hydrocarbures associés à des anomalies significatives en métaux au droit de l'ancienne zone de stockage des copeaux de grenailles située à proximité du réfectoire,
+
+16l0l0	un_impact	N
+16l0l1	hydrocarbures_associés_à_des	O
+16l0l2	anomalies_significatives	L
+16l1l0	hydrocarbures_associés_à_des	S
+16l1l1	significatives_en_métaux_au_droit	I
+
+#- plusieurs zones présentant des anomalies significatives en métaux : sous la dalle du bâtiment de traitement des gros réservoirs, dans l'ancienne zone de stockage provisoire des futs à proximité du bâtiment entretien, au droit de l'ancienne zone de stockage des sacs de grenailles, à proximité des cuves pour les eaux résiduaires de dégazage et sous l'atelier principal.
+
+17l0l0	plusieurs	N
+17l0l1	zones_présentant	O
+17l0l2	des_anomalies_significatives	N
+17l0l3	sous_la	O
+17l0l4	dalle_du_bâtiment	R
+17l0l5	zone_de_stockage_provisoire_des	L
+17l1l0	zones_présentant	S
+
+#Concernant la qualités des eaux souterraines, le diagnostic a mis en évidence une phase flottante de 2 cm à proximité de la zone de pollution liée à la fuite de pipeline et une légère anomalie en arsenic en position latérale.
+
+18l0l0	évidence_une_phase_flottante_de_2_cm_à_proximité_de_la_zone_de_pollution	O
+18l0l1	liée_à_la_fuite_de_pipeline_et_une_légère_anomalie	O
+18l0l2	en_arsenic_en_position_latérale	L
+
+#Une visite d'inspection a été réalisée le 23/07/2013.
+
+
+#Le site est entièrement clôturé et cadenassé.
+
+20l0l0	Le_site_est_entièrement_clôturé_et_cadenassé	N
+20l0l1	_	T
+
+#Un affichage d’interdiction de pénétrer sur le site a été mis en place.
+
+21l0l0	Un_affichage	O
+
+#Les énergies ont été coupées (eau et électricité).
+
+22l0l0	électricité____	O
+
+#Certaines cuves ont été retirées et d’autres laissées sur place mais vidées.
+
+23l0l0	Certaines	O
+23l0l1	cuves_ont_été_retirées	N
+
+#Les machines utilisées pour l’ancienne activité ont été enlevées laissant apparaître des fosses.
+
+24l0l0	Les_machines	O
+24l0l1	utilisées_pour_l__ancienne	N
+24l0l2	activité_ont_été_enlevées_laissant	N
+
+#Ces fosses sont remplies d’eau à causes des intempéries, elles ont été vidées.
+
+25l0l0	Ces_fosses_sont	O
+25l0l1	remplies_d__eau	R
+25l0l2	à_causes_des_intempéries	O
+25l0l3	__elles_ont_été_vidées__	N
+
+#Cependant la pluie ruisselant dans les bâtiments les a de nouveau remplies de plus d’un mètre pour certaines, créant des risques de chutes et de noyades.
+
+26l0l0	Cependant	O
+26l0l1	la_pluie_ruisselant	N
+26l0l2	nouveau_remplies_de	N
+
+#De nombreux gravas, détritus divers (bidons vides, sacs de terre...), machines hors d’usage sont encore présentes sur le site.
+
+27l0l0	divers___bidons_vides	O
+27l0l1	sacs_de_terre_______machines	N
+
+#Il y a cinq transformateurs sur le site datant de 1960, 1965 ou 1987.
+
+28l1l0	datant_de_1960	U
+
+#L’exploitant n’a pas été en mesure de préciser s’ils contenaient des PCB et aucune étiquette le précisant n’est apposée sur les appareils.
+
+29l0l0	exploitant_n__a_pas_été_en	O
+
+#De plus, un transformateur fuyant a été observé.
+
+30l0l0	De_plus___un_transformateur	O
+
+#L'exploitant doit faire part à l'inspection des actions engagées pour justifier la mise en sécurité complète du site.
+
+31l0l0	exploitant_doit_faire_part_à_l_	O
+31l0l1	inspection_des	N
+
+#Un mémoire de réhabilitation en fonction de l'usage futur déterminé doit être remis à l'inspection.
+
+32l0l0	Un_mémoire_de_réhabilitation	O
+32l0l1	remis_à_l__inspection__	N

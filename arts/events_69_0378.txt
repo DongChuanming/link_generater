@@ -1,0 +1,51 @@
+
+#69.0378
+#Le site correspond à la zone de retombée du stand de tir sportif de l'association de tir de Villeneuve-sur-Jarnioux, il est en activité depuis 1978.
+
+0l0l0	Le_site	O
+0l0l1	correspond_à	R
+0l0l2	la_zone_de_retombée	O
+0l0l3	stand_de_tir_sportif	O
+0l0l4	l__association_de_tir	O
+0l0l5	de_Villeneuve_sur_Jarnioux	L
+0l0l6	est_en_activité_depuis_1978	T
+
+#Un diagnostic environnemental de la qualité des sols a été réalisé sur la parcelle OA 230 pour le compte du collectif des riverains du ball-trap permanent de Ville-sur-Jarnioux par le bureau d’étude HUB environnement.
+
+1l0l0	Un_diagnostic_environnemental	N
+1l0l1	la_qualité_des_sols	O
+1l0l2	a_été_réalisé	N
+1l0l3	sur_la	L
+1l0l4	parcelle_OA_230	O
+1l0l5	compte_du_collectif_des_riverains_du_ball___trap_permanent	O
+1l0l6	Ville_sur_Jarnioux	L
+1l0l7	le_bureau_d__étude_HUB_environnement	O
+1l1l0	HUB	I
+
+#Le rapport du 03/03/2017 fait apparaitre la présence de grenailles de plomb, de cibles détruites et de concentrations en plomb, arsenic et soufre supérieures aux valeurs de référence sur la parcelle OA 230 :
+
+2l0l0	Le_rapport	O
+2l0l1	03_03_2017	T
+2l1l0	plomb	S
+2l1l1	plomb	S
+2l1l2	arsenic	S
+2l1l3	soufre	S
+
+#-Plomb : plusieurs milliers de mg/kg (jusqu’à 11 000) pour une valeur de référence d'anomalie modérée de 60 à 90 mg/kg.
+
+3l1l0	_Plomb	S
+
+#-Soufre : plusieurs milliers de mg/kg (jusqu’à 7 500) pour une valeur de référence d'anomalie modérée de 300 mg/kg.
+
+4l1l0	_Soufre	S
+
+#Les analyses montrent aussi la présence d'arsenic à des niveaux néanmoins proche des valeurs de références d'anomalie modérée.
+
+5l0l0	d__arsenic	O
+5l1l0	arsenic	S
+
+#En outre le lien entre la présence d'arsenic et les activités de tirs n'est pas identifié à ce stade et les concentrations relevées ne sont pas incompatible avec une situation naturelle.
+
+6l0l0	d__arsenic	O
+6l0l1	activités_de_tirs	A
+6l1l0	arsenic	S

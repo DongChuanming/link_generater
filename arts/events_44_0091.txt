@@ -1,0 +1,401 @@
+
+#44.0091
+#La société UNIVAR exploite depuis 1975 un établissement situé sur le territoire de la commune de Carquefou, au cœur de la zone industrielle Nantes-Carquefou, 6 rue Nouveau Bêle, dont les activités principales sont :
+
+0l0l0	La_société_UNIVAR	O
+0l0l1	exploite	R
+0l0l2	depuis_1975	T
+0l0l3	un_établissement	O
+0l0l4	situé_sur_le_territoire_de_la_commune_de_Carquefou	L
+0l0l5	au_cœur_de_la_zone_industrielle_Nantes___Carquefou	L
+0l0l6	6_rue_Nouveau_Bêle	L
+0l1l0	La_société_UNIVAR	I
+
+#- le stockage et le conditionnement de solvants inflammables, de produits minéraux et de quelques produits toxiques,
+
+1l0l0	le_stockage_et_le_conditionnement_de_solvants_inflammables	A
+1l1l0	solvants_inflammables	U
+1l1l1	produits_minéraux	U
+
+#- la dénaturation de l’alcool.
+
+2l0l0	dénaturation	N
+
+#Les installations du site de Carquefou sont composées de :
+
+3l0l0	Les_installations	O
+3l0l1	Carquefou	O
+
+#- deux magasins de stockage (1 entrepôt et 1 tente) de produits non inflammables destinés au secteur agroalimentaire (acide citrique, amidon...),
+
+4l0l0	deux_magasins_de_stockage	O
+4l0l1	amidon	A
+4l1l0	produits_non_inflammables	U
+
+#- trois cuvettes de stockage permettant de stocker 48 cuves de produits, d'un volume allant de 5 à 50 m3,
+
+
+#- deux bungalows métalliques permettant de stocker du matériel et des produits non conformes,
+
+6l0l0	deux_bungalows_métalliques	O
+6l0l1	permettant	R
+6l0l2	de_stocker	A
+6l0l3	du_matériel	O
+
+#- deux cuves aériennes de stockage de fioul (2 x 1 m3) pour les chariots élévateurs,
+
+7l1l0	deux_cuves	D
+7l1l1	fioul	U
+
+#- un atelier de dénaturation des alcools ouverts sur 2 côtés (façades nord et est),
+
+8l0l0	un_atelier_de_dénaturation	O
+8l1l0	alcools	U
+
+#- une aire de dépotage des cuve de solvants,
+
+9l0l0	une_aire	O
+9l0l1	de_dépotage	A
+9l0l2	cuve_de_solvants	O
+9l1l0	solvants	U
+
+#- une aire de stockage des fûts conditionnés de 33 x 22 m, formant rétention,
+
+10l0l0	une_aire	O
+
+#- un poste de reconditionnement et de mélange à froid de solvants,
+
+11l0l0	reconditionnement_et_de_mélange_à_froid_de_solvants	A
+11l1l0	solvants	U
+
+#- une zone de pomperie,
+
+
+#- une aire de chargement, zone de préparation des produits en attente d'expédition,
+
+
+#- des bureaux administratifs,
+
+
+#- un local surpresseur,
+
+
+#- une galerie technique qui va de l'atelier de conditionnement et passe sous la voie de circulation proche des trois cuvettes de rétention.
+
+16l0l0	galerie_technique	O
+16l0l1	passe_sous_la_voie_de_circulation_proche_des	L
+16l0l2	trois_cuvettes_de_rétention	O
+
+#L'établissement est régulièrement autorisé par arrêté préfectoral du 29 mars 1991.
+
+17l0l0	L__établissement	O
+17l0l1	est_régulièrement_autorisé	N
+17l0l2	arrêté_préfectoral	O
+17l0l3	du_29_mars_1991__	T
+
+#En 1996, une première étude environnementale a été menée par le bureau d’études ATE pour définir un état des lieux.
+
+18l0l0	En_1996__	T
+18l0l1	une_première_étude_environnementale	N
+18l0l2	a_été_menée	N
+18l0l3	le_bureau_d__études_ATE	O
+18l0l4	définir_un_état_des_lieux	N
+18l1l0	ATE	I
+
+#Les investigations menées ont mis en évidence un impact dans les gaz du sol par les composés organiques volatils (COHV), les BTEX et les hydrocarbures aliphatiques (alcanes C5 à C9), principalement au droit :
+
+19l0l0	Les_investigations_menées	N
+19l0l1	un_impact	N
+19l1l0	les_composés_organiques_volatils	S
+19l1l1	COHV	S
+19l1l2	les_BTEX	S
+19l1l3	hydrocarbures_aliphatiques	S
+19l1l4	alcanes	S
+
+#- de la zone de stockage sur la partie Ouest, à proximité des cuvettes de rétention A et B,
+
+20l0l0	la_zone_de_stockage	O
+20l0l1	sur_la_partie_Ouest	L
+20l0l2	à_proximité_des_cuvettes_de_rétention	L
+
+#- du poste de conditionnement dans la partie Est.
+
+21l0l0	dans_la_partie_Est	L
+
+#Des impacts en COHV ont également été mis en évidence dans les eaux souterraines au droit des 2 piézomètres installées sur le site.
+
+22l0l0	Des_impacts	O
+22l0l1	les_eaux_souterraines	O
+22l1l0	COHV	S
+
+#Un diagnostic complémentaire du sous-sol a été menée en juin 2010 par le bureau d’études URS (actuellement AECOM).
+
+23l0l0	Un_diagnostic_complémentaire_du_sous_sol	N
+23l0l1	a_été_menée	N
+23l0l2	en_juin_2010	T
+23l0l3	le_bureau_d__études_URS	O
+23l0l4	actuellement_AECOM	N
+23l1l0	URS	I
+
+#es résultats des investigations ont confirmé un impact notable des eaux souterraines sur la majeure partie des zones d’exploitation, à l’exception de la partie Sud du site.
+
+24l0l0	investigations	N
+24l0l1	la_partie_Sud_du_site	L
+
+#Les principaux impacts sont constatés :
+
+
+#- au droit des cuvettes de rétention A et B : présence de BTEX, de COHV et d’hydrocarbures,
+
+26l0l0	au_droit_des_cuvettes	L
+26l0l1	de_rétention	O
+26l1l0	de_BTEX	S
+26l1l1	de_COHV_et_d__hydrocarbures	S
+
+#- au droit de l’ancien parc des cuves mobiles : présence de BTEX, de COHV et d’hydrocarbures,
+
+27l0l0	cuves_mobiles	O
+27l1l0	cuves_mobiles	D
+27l1l1	de_BTEX	S
+27l1l2	de_COHV_et_d__hydrocarbures	S
+
+#- en aval hydraulique des zones d’exploitation : présence de COHV et d’hydrocarbures.
+
+28l0l0	en_aval_hydraulique_des_zones_d_	L
+28l0l1	exploitation	N
+28l0l2	et_d__hydrocarbures	O
+28l1l0	de_COHV_et_d__hydrocarbures	S
+
+#Une campagne complémentaire de surveillance de la qualité des eaux souterraines a été réalisée en août 2011.
+
+29l0l0	Une_campagne_complémentaire	N
+29l0l1	surveillance_de	A
+29l0l2	la_qualité_des_eaux_souterraines	A
+29l0l3	a_été_réalisée	N
+29l0l4	en_août_2011__	T
+
+#Cette campagne a permis de confirmer le sens d’écoulement établi en 2010 et de valider le constat d’impact notable des eaux souterraines ;
+
+30l0l0	Cette_campagne	N
+30l0l1	en_2010	T
+30l0l2	eaux_souterraines	O
+
+#Sur la base des investigations menées en 1996 et 2010, trois zones sources ont été identifiées :
+
+31l0l0	en_1996_et_2010__	T
+31l0l1	trois_zones_sources	O
+31l0l2	ont_été_identifiées	N
+
+#- zone 1 : zone de stockage sur la partie Ouest du site, à proximité des cuvettes de rétention A et B,
+
+32l0l0	stockage_sur_la_partie_Ouest_du_site	L
+32l0l1	__à_proximité_des_cuvettes_de_rétention	L
+
+#- zone 2 : poste de conditionnement sur la partie Est,
+
+
+#- zone 3 : ancien parc des cuves mobiles.
+
+34l0l0	zone_3	O
+34l0l1	des_cuves_mobiles	O
+34l1l0	des_cuves_mobiles	D
+
+#Suite à cette étude, l'exploitant a proposé de:
+
+35l0l0	cette_étude	N
+35l0l1	l__exploitant	O
+
+#- continuer la surveillance des eaux souterraines au droit du site,
+
+36l0l0	la_surveillance_des_eaux_souterraines	A
+36l0l1	au_droit_du_site	L
+
+#- mettre en place un système de traitement.
+
+37l0l0	mettre_en_place_un_système	N
+
+#L’objectif de dépollution présenté par la société UNIVAR est de réduire les teneurs en COHV, HCT, BTEX, acétone, méthyl-éthyl cétone/méthylisobutylcétone (MEK/MIBK) et alcools présents dans les sols au droit des zones 1,2 et 3, et des eaux souterraines au droit des zones 1,3 et en amont du site.
+
+38l0l0	L__objectif	O
+38l0l1	de_dépollution	N
+38l0l2	la_société_UNIVAR	O
+38l0l3	au_droit_des_zones_1_3_et_en_amont_du_site	L
+38l1l0	la_société_UNIVAR	I
+38l1l1	COHV	S
+38l1l2	HCT	S
+38l1l3	BTEX	S
+38l1l4	acétone	S
+38l1l5	méthyl___éthyl_cétone___méthylisobutylcétone	S
+38l1l6	MEK	S
+38l1l7	MIBK	S
+38l1l8	alcools	S
+
+#La stratégie de réhabilitation retenue consiste en un traitement suivant une double approche :
+
+39l0l0	un_traitement	O
+
+#- 1ère phase : réalisation d’un traitement par extraction triple phase, dont le principe consiste en la récupération des gaz de la zone non sature, des polluants en phase dissoute et des phases pures.
+
+40l0l0	extraction_triple_phase	O
+40l1l0	__des_polluants	U
+
+#Ce traitement doit permettre une réduction rapide et massive de l’ensemble des polluants,
+
+41l1l0	des_polluants	U
+
+#- 2ème phase : traitement de finition par biodégradation anaérobie.
+
+
+#Les résultats attendus sont :
+
+
+#- 75 % d’abattement en moyenne sur la somme des COHV,
+
+
+#- 75 % d’abattement en moyenne sur la somme des BTEX,
+
+
+#- 75 % d’abattement minimum visé en moyenne sur la somme des HC C5-C10,
+
+
+#- 50 % d’abattement en moyenne sur la somme des alcools,
+
+
+#- 50 % d’abattement en moyenne sur la somme des aldéhydes,
+
+48l1l0	des_aldéhydes	S
+
+#- 50 % d’abattement en moyenne sur la somme des cétones (acétone et MEK-MIBK).
+
+49l1l0	des_cétones	S
+49l1l1	acétone_et_MEK___MIBK	I
+
+#Les travaux de mise en place du système de traitement ont démarré en novembre 2012.
+
+50l0l0	Les_travaux_de_mise_en_place	N
+50l0l1	du_système_de_traitement	O
+50l0l2	ont_démarré	N
+50l0l3	en_novembre_2012__	T
+
+#Le raccordement électrique des systèmes de l'unité de traitement a été réalisé le 14 octobre 2013.
+
+51l0l0	Le_raccordement_électrique_des_systèmes_de_l__unité_de_traitement	O
+51l0l1	a_été_réalisé	N
+51l0l2	le_14_octobre_2013__	T
+
+#Dix-huit aiguilles de pompages (nommées A1 à A18) ont été installées et raccordées à l’unité de traitement par un réseau unique permettant de diriger l’ensemble des phases pompées (eau, air et phase pure de polluants) vers l’unité de traitement avant rejet.
+
+52l0l0	Dix_huit_aiguilles_de_pompages	O
+52l0l1	ont_été_installées	N
+52l0l2	raccordées_à	R
+52l0l3	l_	O
+52l0l4	unité_de_traitement	N
+52l0l5	vers_l_	L
+52l0l6	unité_de_traitement	O
+52l1l0	phase_pure_de_polluants	U
+
+#Afin de compléter la caractérisation de la zone 1, 10 aiguilles complémentaires ont été installées (A20 à A29) en août 2016.
+
+53l0l0	Afin	R
+53l0l1	de_compléter_la_caractérisation	N
+53l0l2	la_zone_1	O
+53l0l3	10_aiguilles_complémentaires	O
+53l0l4	ont_été_installées	N
+53l0l5	A20_à_A29__	L
+53l0l6	en_août_2016__	T
+
+#Les investigations menées sur les eaux souterraines et les gaz de sol, au niveau de ces nouvelles aiguilles, ont mis en évidence une source concentrée au Nord/Nord-Ouest de la cuvette de rétention, au droit des ouvrages A23, A25, A26 et A27.
+
+54l0l0	Les_investigations_menées	N
+54l0l1	eaux_souterraines	O
+54l0l2	au_niveau_de	R
+54l0l3	ces_nouvelles_aiguilles	O
+54l0l4	ont_mis_en_évidence	R
+54l0l5	une_source	O
+54l0l6	concentrée_au_Nord___Nord___Ouest_de_la_cuvette_de_rétention	O
+54l0l7	au_droit_des_ouvrages_A23	L
+
+#Des prélèvements complémentaires de gaz des sols et d’eaux souterraines ont été réalisées, en octobre 2016, au droit de cette source concentrée et en aval de cette source (aiguille A3).
+
+55l0l0	Des_prélèvements_complémentaires	N
+55l0l1	souterraines_ont_été_réalisées	N
+55l0l2	en_octobre_2016__	T
+55l0l3	au_droit_de_cette_source_concentrée_et_en_aval_de_cette_source	L
+
+#Les résultats montrent qu’outre la source concentrée identifiée en Nord/Nord-ouest de la zone 1, des teneurs résiduelles dans les gaz du sol en COHV persistent en aval hydraulique de cette source concentrée, ainsi qu’au droit de la zone 3 (A12).
+
+56l0l0	la_source	O
+56l0l1	en_Nord___Nord___ouest_de_la_zone_1	L
+56l0l2	en_aval_hydraulique_de_cette_source_concentrée	L
+56l0l3	au_droit_de_la_zone_3	L
+56l1l0	COHV	S
+
+#En juillet 2016, l'exploitant a déclaré la cessation partielle de ces activités (passage du régime de l'autorisation à la déclaration).
+
+57l0l0	En_juillet_2016__	T
+57l0l1	l__exploitant	O
+57l0l2	a_déclaré	N
+57l0l3	la_cessation_partielle_de_ces_activités	N
+57l0l4	passage_du_régime	N
+57l0l5	la_déclaration	N
+
+#Les activités restantes seront reprises par la société CHIMIREC pour une activité de transit-regroupement et traitement de déchets.
+
+58l0l0	Les_activités_restantes	O
+58l0l1	seront_reprises	N
+58l0l2	la_société_CHIMIREC	O
+58l0l3	une_activité_de_transit	A
+58l0l4	regroupement_et_traitement_de_déchets	A
+58l1l0	la_société_CHIMIREC	I
+
+#En août 2016 et après 33 mois de traitement :
+
+59l0l0	En_août_2016_et_après_33_mois_de_traitement	T
+
+#- 7117 kg de COV sous forme gazeuses ont été extraits,
+
+60l0l0	ont_été_extraits	N
+60l1l0	COV	S
+
+#- 281 kg de COV ont été extraits dans la nappe.
+
+61l0l0	ont_été_extraits	N
+61l0l1	la_nappe	O
+61l1l0	COV	S
+
+#Les taux d’abattement dans les gaz du sol après 33 mois de traitement varient de 85 à 99 % selon les polluants tandis que les taux d’abattement dans les eaux souterraines, par ouvrage, varient de 32 à 100 % selon les piézomètres et les polluants.
+
+62l0l0	après_33_mois_de_traitement	T
+62l1l0	selon_les_polluants	U
+62l1l1	et_les_polluants	U
+
+#Les objectifs que s’est fixée la société UNIVAR sont partiellement atteints.
+
+63l0l0	Les_objectifs	O
+63l0l1	s__est_fixée	N
+63l0l2	la_société_UNIVAR	O
+63l1l0	la_société_UNIVAR	I
+
+#Dans son dossier de janvier 2017 relatif à la cessation partielle de ces activités, l'exploitant a proposé de:
+
+64l0l0	Dans	L
+64l0l1	son_dossier	N
+64l0l2	de_janvier_2017	T
+64l0l3	relatif_à	R
+64l0l4	la_cessation_partielle_de_ces_activités	N
+64l0l5	l__exploitant	O
+
+#– poursuivre les travaux de dépollution des zones 1 et 3,
+
+65l0l0	__poursuivre_les_travaux_de_dépollution	N
+65l0l1	des_zones_1_et	O
+
+#– poursuivre le suivi de la qualité des eaux souterraines et des gaz des sols.
+
+66l0l0	poursuivre_le_suivi_de	A
+66l0l1	la_qualité_des_eaux_souterraines	O
+
+#Ces propositions ont été actées par arrêté préfectoral.
+
+67l0l0	Ces_propositions	O
+67l0l1	ont_été_actées	N

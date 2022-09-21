@@ -1,0 +1,130 @@
+
+#10.0037
+#Usine de production de roues acier construite en 1957 sur un terrain de 25 ha.
+
+0l0l0	Usine_de_production_de_roues_acier	O
+0l0l1	construite	N
+0l0l2	en_1957	T
+0l0l3	sur_un_terrain_de_25_ha	L
+
+#Les activités principales du site sont :
+
+
+#1° Atelier de traitement de surface (volume des bains 59,8 m3)
+
+
+#2° Application, cuisson et séchage de peinture :
+
+3l0l0	cuisson_et_séchage_de_peinture	A
+
+#* Application par procédé au trempé (volume des bains 70 m3)
+
+
+#* Application par pulvérisation 264 kg/jour maxi
+
+5l0l0	pulvérisation	N
+
+#3° Travail mécanique des métaux : P installée : 28 466 kW
+
+6l0l0	Travail_mécanique_des_métaux	A
+
+#Le procédé de fabrication implique la transformation mécanique de bobines d'acier, la soudure d'éléments en acier, le traitement de surface des roues assemblées et leur mise en peinture par cataphorèse, avec un éventuel laquage de finition.
+
+7l0l0	transformation_mécanique_de_bobines_d__acier	A
+7l0l1	soudure_d__éléments_en_acier	O
+7l0l2	le_traitement_de_surface	O
+7l0l3	leur_mise_en_peinture	N
+7l0l4	laquage	A
+
+#Les effluents aqueux générés lors de la production sont traités par un système physico-chimique puis par un bioréacteur, avant rejet dans la Noue Robert  via l'ovoïde principal de l'usine.
+
+8l0l0	la_production	A
+8l0l1	sont_traités	N
+8l0l2	la_Noue_Robert	L
+8l1l0	Les_effluents	U
+
+#La société MEFRO ROUES FRANCE, réglementée par l'arrêté préfectoral n°88/970A du 28 mars 1988, modifié par les arrêtés préfectoraux complémentaires n° 91-2960A du 12 septembre 1991, n° 01-1161A du 11 avril 2001, n° 01-4541A du 21 décembre 2001, n ° 05-3898 du 27 septembre 2005, n° 08-2080 du 26 juin 2008 et n° 10-0238 du 26 janvier 2010, exploite sur le territoire de la commune de LA CHAPELLE-SAINT-LUC, des installations destinées à la production de roues en tôle d’acier pour les véhicules de tourisme et les poids lourds.
+
+9l0l0	La_société_MEFRO_ROUES_FRANCE	O
+9l0l1	28_mars_1988	T
+9l0l2	les_arrêtés_préfectoraux	O
+9l0l3	12_septembre_1991	T
+9l0l4	11_avril_2001__	T
+9l0l5	21_décembre_2001__	T
+9l0l6	27_septembre_2005__	T
+9l0l7	26_juin_2008	T
+9l0l8	26_janvier_2010__	T
+9l0l9	exploite	N
+9l0l10	sur_le_territoire_de_la_commune_de_LA_CHAPELLE_SAINT_LUC	L
+9l0l11	des	N
+9l0l12	installations_destinées_à_la_production_de_roues_en_tôle_d__acier	A
+9l0l13	les_poids_lourds	O
+9l1l0	La_société_MEFRO_ROUES_FRANCE	I
+
+#Un arrêté préfectoral signé le 11/04/2001 a prescrit un diagnostic initial et une évaluation simplifiée des risques remis le 17/07/2001.
+
+10l0l0	Un_arrêté_préfectoral	O
+10l0l1	signé	N
+10l0l2	le_11_04_2001	T
+10l0l3	a_prescrit_un_diagnostic_initial	N
+10l0l4	une_évaluation_simplifiée_des_risques_remis	N
+10l0l5	le_17_07_2001	T
+
+#Au vu de cette évaluation le site est en classe 1, site à traiter.
+
+
+#La cotation 1 est obtenue pour 2 sources pour le milieu eaux souterraines :
+
+
+#* Lentilles de tétrachloroéthylène dans l'aquifère sous le site.
+
+13l1l0	__Lentilles_de	U
+13l1l1	tétrachloroéthylène	S
+
+#Celle-ci pouvant provenir de l'extérieur du site, il a été convenu de poursuivre la surveillance des eaux souterraines sur les piézomètres amont, aval et sur le forage MW1.
+
+14l0l0	de_l__extérieur_du_site	L
+14l0l1	poursuivre	O
+14l0l2	la_surveillance_des_eaux_souterraines	A
+14l0l3	le_forage_MW1__	O
+
+#* Sols pollués par du chrome.
+
+15l1l0	chrome	S
+
+#La pollution observée pourrait provenir d'une fuite sur la chaine du traitement de surface.
+
+16l0l0	la_chaine_du_traitement_de_surface	O
+
+#Celle-ci a été détectée et réparée.
+
+17l0l0	a_été_détectée	N
+
+#La surveillance des eaux souterraines est poursuivie sur ce paramètre.
+
+18l0l0	La_surveillance_des_eaux_souterraines	A
+
+#On observe une décroissance régulière des teneurs (diminution de moitié).
+
+
+#(Le site avait obtenu la cotation en 2 pour les hydrocarbures.)
+
+20l0l0	Le_site	O
+20l0l1	avait_obtenu	N
+20l0l2	hydrocarbures	O
+
+#L'exploitant poursuit toujours sa surveillance des eaux souterraines.
+
+21l0l0	L__exploitant	O
+21l0l1	sa_surveillance_des_eaux_souterraines	A
+
+#Lors de travaux importants, il examine systématiquement l'état des sols sous les machines et dépollue au besoin.
+
+22l0l0	Lors	R
+22l0l1	de_travaux_importants	N
+22l0l2	il	O
+22l0l3	examine	N
+22l0l4	l__état_des_sols	O
+22l0l5	les_machines	O
+22l0l6	dépollue	N
+22l0l7	au_besoin	N

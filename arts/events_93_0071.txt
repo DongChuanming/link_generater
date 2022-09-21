@@ -1,0 +1,296 @@
+
+#93.0071
+#L’ancien CPR (centre de production de Romainville), d’une superficie de 7,3 ha, était exploité depuis 1946 par différentes sociétés de production pharmaceutiques et depuis 2006 par la société SANOFI CHIMIE.  Le site se trouve dans une zone à usage mixte industriel, commercial tertiaire et résidentiel dense.
+
+0l0l0	L__ancien_CPR	O
+0l0l1	centre_de_production	O
+0l0l2	Romainville	L
+0l0l3	était_exploité	N
+0l0l4	depuis_1946	T
+0l0l5	différentes_sociétés_de_production_pharmaceutiques	O
+0l0l6	depuis_2006	T
+0l0l7	la_société_SANOFI_CHIMIE	O
+0l0l8	__Le_site	O
+0l0l9	se_trouve_dans_une_zone_à_usage_mixte_industriel	N
+0l1l0	la_société_SANOFI_CHIMIE	I
+
+#Les activités du CPR étaient réglementées par un arrêté préfectoral d’autorisation.
+
+1l0l0	Les_activités	A
+1l0l1	CPR	O
+1l0l2	étaient_réglementées	N
+1l0l3	un_arrêté_préfectoral_d_	O
+1l0l4	autorisation	N
+
+#Une partie de l’exploitation du site a été reprise par d’autres exploitants.
+
+2l0l0	Une_partie_de_l__exploitation_du_site	O
+2l0l1	a_été_reprise	N
+2l0l2	d__autres_exploitants	O
+
+#Le reste du site fait l’objet d’une procédure de cessation d’activité.
+
+3l0l0	Le_reste_du_site	O
+3l0l1	fait_l__objet_d_	R
+3l0l2	une_procédure	O
+3l0l3	cessation_d__activité	N
+
+#Le site est divisé en 4 zones.
+
+4l0l0	Le_site	O
+4l0l1	4_zones	O
+
+#Ainsi, la zone Est du site, qui rassemble les unités de production en activité, a fait l’objet d’une reprise d’activité depuis le 1er janvier 2014.
+
+5l0l0	la_zone_Est_du_site	O
+5l0l1	production_en_activité	A
+5l0l2	a	N
+5l0l3	fait_l__objet_d_	R
+5l0l4	une_reprise_d__activité	N
+5l0l5	depuis_le_1er_janvier_2014__	T
+
+#SANOFI CHIMIE, dernier exploitant et propriétaire des zones Nord, Ouest et Sud (4,4 ha), qui n’accueillent plus d’activités industrielles, prépare actuellement leur reconversion.
+
+6l0l0	SANOFI_CHIMIE	O
+6l0l1	dernier_exploitant	N
+6l0l2	propriétaire	N
+6l0l3	des_zones_Nord	O
+6l0l4	n__accueillent_plus_d__activités_industrielles	N
+6l0l5	prépare_actuellement_leur_reconversion	N
+6l1l0	SANOFI_CHIMIE	I
+
+#La vente du secteur "chaufferie" a eu lieu fin 2016.
+
+7l0l0	La_vente	N
+7l0l1	du_secteur___chaufferie__	O
+7l0l2	a_eu_lieu	N
+7l0l3	fin_2016__	T
+
+#L’activité sur ces zones a cessé au 31/12/2013.
+
+8l0l0	L__activité	O
+8l0l1	sur	L
+8l0l2	ces_zones	O
+8l0l3	a_cessé	N
+8l0l4	au_31_12_2013__	T
+
+#La dernière activité présente sur site concernait un stockage de déchets radioactifs stockés dans des conteneurs adaptés et entreposés dans un bâtiment fermé .
+
+9l0l0	La	O
+9l0l1	dernière_activité	N
+9l0l2	un_stockage_de_déchets_radioactifs	O
+
+#Ils ont été évacués mi-2017.
+
+10l0l0	ont_été_évacués	N
+10l0l1	mi_2017__	T
+
+#Les parcelles libérées pour un nouvel usage sont exemptes de tout déchet.
+
+11l0l0	un_nouvel_usage	N
+
+#La plupart des bâtiments qui y étaient présents ont été démolis.
+
+12l0l0	La_plupart_des_bâtiments	O
+12l0l1	ont_été_démolis	N
+
+#Un plan de gestion du site (zones Nord, Ouest et Sud) a été transmis à l'administration en janvier 2013, ainsi qu'un addendum en février 2016 pour la zone P1, comportant notamment les investigations réalisées sur le site, une synthèse de l'état du sous-sol au droit du site.
+
+13l0l0	Un_plan_de_gestion	O
+13l0l1	zones_Nord	O
+13l0l2	a_été_transmis	N
+13l0l3	l__administration	O
+13l0l4	en_janvier_2013__	T
+13l0l5	ainsi_qu__un_addendum	O
+13l0l6	en_février_2016	T
+13l0l7	la_zone_P1	O
+
+#La remise en état est prévue pour un usage industriel.
+
+14l0l0	La_remise_en_état	O
+14l0l1	est_prévue_pour	R
+14l0l2	un_usage_industriel	A
+
+#Deux zones d'impacts dans la nappe perchée associées aux sources de pollution du sol ont été identifiées sur les zones Nord et Ouest (BTEX et solvants chlorés).
+
+15l0l0	Deux_zones	O
+15l0l1	perchée	O
+15l0l2	associées_aux	R
+15l0l3	sources_de_pollution_du_sol	O
+15l0l4	ont_été_identifiées	N
+15l0l5	sur_les	L
+15l0l6	zones_Nord_et_Ouest	N
+15l1l0	BTEX	S
+15l1l1	solvants_chlorés	S
+
+#Une troisième zone d'impact dans la nappe perchée est identifiée au Sud-Est du site (alcools, acétone, BTEX, solvants chlorés).
+
+16l0l0	Une_troisième_zone_d_	O
+16l0l1	la_nappe_perchée	O
+16l0l2	est_identifiée	N
+16l0l3	au_Sud_Est_du_site	L
+16l1l0	alcools	S
+16l1l1	acétone	S
+16l1l2	BTEX	S
+16l1l3	solvants_chlorés	S
+
+#La nappe de l'Eocène à 20 m de profondeur est également impactée mais dans une moindre mesure.
+
+17l0l0	impactée	N
+
+#Le plan de gestion transmis prévoit le retrait et le traitement sur site des sources sols, le traitement de la nappe perchée et le suivi des eaux souterraines.
+
+18l0l0	Le_plan_de_gestion_transmis	O
+18l0l1	prévoit	R
+18l0l2	le_retrait	N
+18l0l3	le_traitement_sur_site	N
+18l0l4	sources_sols	O
+18l0l5	le_traitement	O
+18l0l6	la_nappe_perchée	O
+18l0l7	le_suivi_des_eaux_souterraines	A
+
+#Ce plan de gestion a fait l’objet d’une demande de compléments de l’inspection des installations classées en mai 2013 et a été transmis par SANOFI CHIMIE.
+
+19l0l0	Ce_plan_de_gestion	O
+19l0l1	a_fait_l__objet_d_	R
+19l0l2	une_demande	N
+19l0l3	l__inspection_des_installations_classées	O
+19l0l4	en_mai_2013	T
+19l0l5	a_été_transmis	N
+19l0l6	SANOFI_CHIMIE	O
+19l1l0	SANOFI_CHIMIE	I
+
+#En réponse à cette demande, un nouveau plan de gestion a été transmis à l’inspection des installations classées en juillet 2014.
+
+20l0l0	un_nouveau_plan_de_gestion	O
+20l0l1	a_été_transmis	N
+20l0l2	l__inspection_des_installations_classées	O
+20l0l3	en_juillet_2014__	T
+
+#Un arrêté préfectoral du 24/08/2015 encadre les travaux de dépollution.
+
+21l0l0	Un_arrêté_préfectoral	O
+21l0l1	24_08_2015	T
+21l0l2	encadre_les_travaux_de_dépollution	N
+
+#L’Inspection a effectué une visite de chantier le 12/10/2016.
+
+22l0l0	L_	O
+22l0l1	a_effectué	N
+22l0l2	une_visite_de_chantier	N
+22l0l3	le_12_10_2016__	T
+
+#SANOFI CHIMIE a transmis au préfet en 2017 et 2018 des rapports de fin de travaux sur les secteurs Nord, Ouest et Sud.
+
+23l0l0	SANOFI_CHIMIE	O
+23l0l1	a_transmis	N
+23l0l2	préfet	O
+23l0l3	en_2017_et_2018	T
+23l0l4	des_rapports	O
+23l0l5	fin_de_travaux	N
+23l0l6	les_secteurs_Nord	O
+23l1l0	SANOFI_CHIMIE	I
+
+#Un rapport de l'Inspection a acté la réalisation des travaux sur le secteur Nord le 25/07/2017 (zone des remblais+P2 Genevoix) et sur le secteur Ouest, le 5/10/2018.
+
+24l0l0	la_réalisation_des_travaux	N
+24l0l1	sur_le	L
+24l0l2	secteur_Nord	O
+24l0l3	le_25_07_2017	T
+24l0l4	remblais_P2	N
+24l0l5	sur_le_secteur_Ouest	L
+24l0l6	le_5_10_2018__	T
+
+#Une demande de SUP a été déposée par SANOFI CHIMIE sur les 3 secteurs.
+
+25l0l0	Une_demande_de_SUP	O
+25l0l1	a_été_déposée	N
+25l0l2	SANOFI_CHIMIE	O
+25l1l0	SANOFI_CHIMIE	I
+
+#L'AP SUP a été pris le 13/04/2018 pour le secteur Nord.
+
+26l0l0	L__AP_SUP	O
+26l0l1	a_été_pris	N
+26l0l2	le_13_04_2018	T
+26l0l3	le_secteur_Nord	O
+
+#L'AP SUP a été pris le 30/04/2019 pour le secteur Ouest.
+
+27l0l0	L__AP_SUP	O
+27l0l1	a_été_pris	N
+27l0l2	le_30_04_2019	T
+27l0l3	le_secteur_Ouest	O
+
+#L'AP SUP a été notifié 30/04/2019 pour le secteur Sud.
+
+28l0l0	L__AP_SUP	O
+28l0l1	a_été_notifié	N
+28l0l2	30_04_2019	T
+28l0l3	le_secteur_Sud	O
+
+#Un suivi des eaux souterraines post-travaux est mi en oeuvre pour 4 ans.
+
+29l0l0	Un_suivi_des_eaux_souterraines	A
+29l0l1	post_travaux	O
+29l0l2	est_mi_en_oeuvre	N
+29l0l3	pour_4_ans	T
+
+#Les travaux en cours début 2019 concernent le secteur POMAROLA (1000 m2) pour lequel SANOFI CHIMIE a déposé un plan de gestion en octobre 2018.
+
+30l0l0	Les_travaux_en_cours	N
+30l0l1	début_2019	T
+30l0l2	concernent	R
+30l0l3	le_secteur_POMAROLA	O
+30l0l4	SANOFI_CHIMIE	O
+30l0l5	a_déposé_un_plan_de_gestion	N
+30l0l6	en_octobre_2018__	T
+30l1l0	POMAROLA	I
+30l1l1	SANOFI_CHIMIE	I
+
+#L’ASN est associée au processus de réhabilitation en cours et a émis un avis sur les documents transmis par SANOFI CHIMIE, compte tenu de la nature des déchets qui étaient présents et compte tenu d'un impact en tritium identifié.
+
+31l0l0	L_	O
+31l0l1	associée_au	L
+31l0l2	processus_de_réhabilitation	N
+31l0l3	a_émis_un_avis	N
+31l0l4	SANOFI_CHIMIE	O
+31l1l0	SANOFI_CHIMIE	I
+31l1l1	tritium	S
+
+#Ainsi le préfet a pris un arrêté pour encadrer les travaux de réhabilitation du secteur POMAROLA le 20/02/2019.
+
+32l0l0	le_préfet	O
+32l0l1	a_pris	N
+32l0l2	un_arrêté	N
+32l0l3	encadrer	R
+32l0l4	les_travaux_de_réhabilitation	N
+32l0l5	du_secteur_POMAROLA	O
+32l0l6	le_20_02_2019__	T
+32l1l0	le_préfet	I
+32l1l1	POMAROLA	I
+
+#L’Inspection a effectué une visite de chantier le 04/03/2019.
+
+33l0l0	L__Inspection	O
+33l0l1	a_effectué	N
+33l0l2	une_visite_de_chantier	N
+33l0l3	le_04_03_2019__	T
+
+#Il a été constaté le début des travaux d'excavation et la mise en contenants adaptés des terres excavées.
+
+34l0l0	Il_a_été_constaté	O
+34l0l1	le_début_des_travaux_d__excavation	N
+34l0l2	la_mise_en_contenants_adaptés	O
+
+#Les exutoires sont situés dans des installations autorisées (département du 78 pour les terres pollués avec de l’amiante et des traces de tritium, département de l'Aube pour les déchets tritiés).
+
+35l0l0	Les_exutoires	O
+35l0l1	situés_dans	L
+35l0l2	des_installations_autorisées	O
+35l0l3	département_du_78	O
+35l0l4	les_terres_pollués	O
+35l0l5	l__Aube	O
+35l0l6	tritiés	A
+35l1l0	tritium	S
+35l1l1	les_déchets_tritiés	S

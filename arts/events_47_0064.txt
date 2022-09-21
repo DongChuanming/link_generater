@@ -1,0 +1,519 @@
+
+#47.0064
+#Ancienne station service à usage intrene de la concession CITROËN DE Ste Bazeille.
+
+0l0l0	Ancienne_station_service_à	O
+0l0l1	usage_intrene	A
+0l0l2	la_concession_CITROËN_DE	O
+0l0l3	Ste_Bazeille	L
+0l1l0	la_concession_CITROËN	I
+
+#La concession Citroën exploitée par la SA BAUDRIN jusqu'en 2000, disposait d'une installation de stockage et de distribution de carburants pour ses besoins internes, comportant 2 réservoirs enterrés de 15000 litres et 7500 litres et un ilot de distribution.
+
+1l0l0	La_concession_Citroën	O
+1l0l1	exploitée	N
+1l0l2	la_SA_BAUDRIN	O
+1l0l3	jusqu__en_2000__	T
+1l0l4	disposait_d_	R
+1l0l5	une_installation_de_stockage_et_de_distribution_de_carburants	O
+1l0l6	un_ilot_de_distribution	O
+1l1l0	La_concession_Citroën	I
+1l1l1	la_SA_BAUDRIN	I
+1l1l2	carburants	U
+
+#En 2000,  la SA CAZES, devenue SAS ACTIVE AUTO, achète la totalité des parts de la SA BAUDRIN et devient le nouvel exploitant de l'installation de  stockage et de distribution de carburants.
+
+2l0l0	En_2000__	T
+2l0l1	__la_SA_CAZES	O
+2l0l2	__devenue	R
+2l0l3	SAS_ACTIVE_AUTO	O
+2l0l4	__achète_la_totalité_des_parts	N
+2l0l5	de_la_SA_BAUDRIN	O
+2l0l6	et_devient	R
+2l0l7	le	O
+2l0l8	nouvel_exploitant	N
+2l0l9	de_l_	O
+2l0l10	installation_de___stockage_et_de_distribution_de_carburants	A
+2l1l0	__la_SA_CAZES	I
+2l1l1	__devenue_SAS_ACTIVE_AUTO	I
+2l1l2	de_la_SA_BAUDRIN	I
+2l1l3	de_carburants	U
+
+#La SA CAZES va ensuite exploiter cette installation jusqu'au 19 octobre 2012, date à laquelle elle déclare la cessation d'activité au Préfet de Lot et Garonne.
+
+3l0l0	La_SA_CAZES	O
+3l0l1	va_ensuite_exploiter	N
+3l0l2	cette_installation	O
+3l0l3	jusqu__au_19_octobre_2012__	T
+3l0l4	date_à_laquelle	R
+3l0l5	elle_déclare	N
+3l0l6	la_cessation_d__activité	N
+3l0l7	Préfet_de_Lot_et_Garonne	O
+3l1l0	La_SA_CAZES	I
+
+#Le récépissé de déclaration de cessation d'activité est délivré le 25 octobre 2012.
+
+4l0l0	Le_récépissé	O
+4l0l1	déclaration	N
+4l0l2	cessation_d__activité	N
+4l0l3	est_délivré	N
+4l0l4	le_25_octobre_2012__	T
+
+#1 - DIAGNOSTIC
+
+5l0l0	DIAGNOSTIC	N
+
+#Sur sa propre initiative, SAS ACTIVE AUTO fait réaliser en juin 2012 et février 2013, le diagnostic environnemental de l'installation de stockage et de distribution de carburants par le bureau d'études TEREO
+
+6l0l0	ACTIVE_AUTO	O
+6l0l1	fait_réaliser	N
+6l0l2	en_juin_2012_et_février_2013__	T
+6l0l3	le_diagnostic_environnemental	N
+6l0l4	l_	O
+6l0l5	installation_de_stockage_et_de_distribution_de_carburants	A
+6l0l6	le_bureau_d__études_TEREO	O
+6l1l0	ACTIVE_AUTO	I
+6l1l1	carburants	U
+6l1l2	TEREO	I
+
+#Le rapport TEREO de mai 2013 met en évidence la contamination des sols par des hydrocarbures de type Gaz Oil, au droit des réservoirs enterrés et de l'ilot de distribution.
+
+7l0l0	Le_rapport_TEREO	O
+7l0l1	de_mai_2013	T
+7l0l2	la_contamination_des_sols	N
+7l0l3	des_hydrocarbures	O
+7l0l4	au_droit_des_réservoirs_enterrés	L
+7l1l0	TEREO	I
+7l1l1	hydrocarbures	S
+7l1l2	Gaz_Oil	S
+
+#La nappe est impactée à l'aval latéral immédiat des réservoirs enterrés.
+
+8l0l0	est_impactée	N
+8l0l1	à_l__aval_latéral_immédiat_des_réservoirs_enterrés	L
+
+#TEREO propose les mesures de gestion suivantes :
+
+9l0l0	TEREO	O
+9l1l0	TEREO	I
+
+#excavation des sols impactés au delà de 2 500 mg/kg, seuil défini, d'une part sur les conclusions d'une  modélisation du transfert dans les sols à partir de la source (pour évaluer les volumes) et, d'autre part, sur l'absence de risques sanitaires liés à la présence de gaz du sol, traitement biologique sur site ou évacuation vers une installation prévue et autorisée à cet effet, surveillance périodique de la qualité des eaux souterraines.
+
+10l0l0	excavation	N
+10l0l1	sols_impactés	O
+10l0l2	au_delà	O
+10l0l3	ou_évacuation	O
+10l0l4	vers_une_installation_prévue	L
+10l0l5	et_autorisée	O
+10l0l6	à_cet_effet	N
+10l0l7	__surveillance_périodique_de_la_qualité_des_eaux_souterraines	A
+
+#Au vu des éléments du diagnostic ci-dessus, nous sommes visiblement en présence d'un spot d'hydrocarbures (lourds à priori), concentré et localisé au droit de l'installation de dépotage et des réservoirs enterrés.
+
+11l0l0	localisé_au_droit_de_l__installation_de_dépotage_et_des_réservoirs_enterrés	L
+11l1l0	hydrocarbures	S
+
+#Un point d'impact a également été mesuré au droit de l'ilot de distribution.
+
+12l0l0	Un_point_d_	O
+12l0l1	ilot_de_distribution	L
+
+#Le piézomètre PZ2 qui a été installé au cœur du spot de pollution montre un impact important des hydrocarbures sur la nappe.
+
+13l0l0	a_été_installé	N
+13l0l1	au_cœur_du_spot	L
+13l1l0	hydrocarbures	S
+
+#Toutefois, cet impact semble localisé au droit du dit spot, dans la mesure où seul un piézomètre PZ3 a été installé à l'aval hydraulique, considéré comme tel.
+
+14l0l0	localisé	N
+14l0l1	au_droit_du_dit_spot	L
+14l0l2	a_été_installé	N
+14l0l3	à_l__aval_hydraulique	L
+
+#L'absence de signal en PZ3 ne permet toutefois pas de statuer sur l'absence de migration à partir de la source proche de Pz2.
+
+15l0l0	de_la_source_proche_de	L
+15l0l1	Pz2__	O
+
+#Le bureau d'études utilise une modélisation pour définir l'auréole de pollution.
+
+16l0l0	Le_bureau_d__études	O
+16l0l1	une_modélisation	O
+
+#L'utilisation d'un logiciel d'interpolation n'est pas forcément adaptée pour définir des extensions de pollution dans les sols.
+
+
+#En effet, l'interprétation des données est réalisée de façon continue entre les différents points alors que les sols n'ont pas d'effet intégrateur en latéral, contrairement aux eaux souterraines.
+
+
+#On agrège par ailleurs des données de 2 systèmes différents, les sols non saturés et  la zone de battement de la nappe, pour des  modalités de migrations de polluants différentes.
+
+19l1l0	de_polluants	U
+
+#Dans ces conditions les auréoles des isosoncentrations ainsi définies, ont peu de sens, et  risquent de surdimensionner l'impact réel.
+
+20l0l0	de_surdimensionner	N
+
+#Toutefois, comme le propose le bureau d'études, la mesure de gestion la plus appropriée est effectivement l'excavation et le traitement biologique sur site ou hors site.
+
+21l0l0	le_bureau_d__études	O
+21l0l1	la_mesure_de_gestion	O
+21l0l2	l__excavation	N
+21l0l3	le_traitement_biologique	N
+
+#Toutefois, aucun test de biodégradabilité n'a été réalisé.
+
+
+#Pour définir le seuil de dépollution, c'est à dire la concentration dans les sols à partir de laquelle on arrête l'excavation, le bureau d'études dresse à cette fin le bilan technico-économique des techniques de dépollution et le bilan matière, en s'inspirant de la loi empirique dite de « Pareto » (par exemple, 20% des terres extraites représentent 50% de la quantité de pollution extraite).
+
+23l0l0	les_sols	O
+23l0l1	l__excavation	N
+23l0l2	le_bureau_d__études	O
+23l0l3	techniques_de_dépollution	N
+
+#Le bilan matière s'appuie sur une figure fausse faisant application d'un principe de linéarité dans les sols (modélisation SURFER) pour ensuite appliquer le principe de Pareto qui est par définition non linéaire.
+
+24l0l0	modélisation	A
+24l1l0	SURFER	I
+
+#L'inspection considère que cette démonstration n'est pas conforme à l'approche nationale de gestion des sites et sols pollués concernant les installations classées, dont les principes sont les suivants :
+
+25l0l0	sols_pollués	O
+
+#- en premier lieu, supprimer et/ou traiter la source de pollution,
+
+26l0l0	traiter_la_source_de_pollution	O
+
+#- sinon et en second lieu, maîtriser les transfert dans les milieux et sur la nappe notamment,
+
+
+#- s'assurer que le résiduel laissé en place est compatible avec l'usage actuel ou envisagé.
+
+28l0l0	place	N
+
+#Les 2 premières mesures de gestion sont basées sur le bilan « coût/avantages » des solutions techniques à mettre en oeuvre.
+
+29l0l0	Les_2_premières_mesures_de_gestion	O
+
+#L'objectif est la protection durable de l'environnement et de la santé des populations.
+
+30l0l0	protection_durable	N
+30l0l1	l__environnement	O
+
+#Ceci revêt une importance toute particulière, puisque le spot de pollution au droit des réservoirs enterrés est situé en profondeur et constitue visiblement une source de pollution des eaux souterraines avec 620 mg/l d'hydrocarbures dissous observé en PZ2.
+
+31l0l0	le_spot_de_pollution	O
+31l0l1	au_droit_des_réservoirs_enterrés	L
+31l0l2	est_situé_en_profondeur	L
+31l1l0	hydrocarbures	S
+
+#A ce propos, vu la profondeur de l'impact observé sur les sols et la hauteur d'eau dans les piézomètres, il semble que la pollution soit localisée, en partie dans la zone de battement de la nappe.
+
+32l0l0	partie	O
+32l0l1	dans_la_zone_de	L
+32l0l2	battement	A
+
+#Cet élément est à prendre en compte dans les coût de dépollution des sols et de la nappe.
+
+33l0l0	dépollution	N
+
+#Il conviendra de s'assurer que le résiduel qui restera en place (en mg/kg) n'est plus mobilisable et transférable dans la nappe.
+
+
+#3 - TRAVAUX
+
+
+#En conclusion, le plan de gestion proposé par le bureau d'études ne recueille pas l'aval de l'inspection, notamment pour ce qui concerne les modalités de définition du seuil de dépollution.
+
+36l0l0	le_plan_de_gestion	O
+36l0l1	le_bureau_d__études	O
+36l0l2	les_modalités	O
+36l0l3	dépollution	N
+
+#En résumé,
+
+
+#- la pollution est concentrée en profondeur et en partie dans la zone saturée (battement de la nappe),
+
+38l0l0	saturée	O
+38l0l1	battement	N
+
+#- le seuil de dépollution proposé repose sur l'interpolation modélisée de l'impact dans les sols,
+
+39l0l0	dépollution	N
+39l0l1	interpolation	N
+39l0l2	modélisée	O
+39l0l3	l__impact	O
+39l0l4	les_sols	N
+
+#- la partie nord de PZ2 de pollution des sols est occultée (hors propriété),
+
+40l0l0	la_partie_nord_de_PZ2	O
+
+#- la dépollution de la nappe au droit du spot de dépollution n'est pas prévue.
+
+41l0l0	la_dépollution	N
+41l0l1	la_nappe	O
+41l0l2	au_droit_du_spot	L
+41l0l3	de_dépollution	N
+
+#L'inspection considère toutefois que le contexte environnemental est simple, et que les spots de pollutions doivent être enlevés et/ou traités sur site ou hors site, avec la prise en compte de la contrainte de pollution en zone saturée et le traitement de la nappe, notamment en phase chantier.
+
+42l0l0	les_spots	O
+42l0l1	de_pollutions	O
+42l0l2	le_traitement	N
+42l0l3	la_nappe	O
+42l0l4	en_phase_chantier	N
+
+#Les sols impactés situés dans la zone de battement de la nappe devront être excavés en totalité et remplacés par des matériaux d'apport sains.
+
+43l0l0	Les_sols_impactés	O
+43l0l1	situés_dans_la_zone_de_battement_de	L
+43l0l2	la_nappe	O
+43l0l3	devront_être_excavés	N
+43l0l4	des_matériaux_d__apport_sains	O
+
+#Pendant cette phase chantier, un pompage et un traitement de la nappe sera à mettre en œuvre dans la fouille.
+
+44l0l0	Pendant	R
+44l0l1	cette_phase_chantier	N
+44l0l2	un_pompage	O
+44l0l3	un_traitement	N
+44l0l4	la_nappe	O
+
+#Enfin, la pollution étant apparemment circonscrite autour, et probablement en dessous, des cuves enterrées, ces dernières avec les installations annexes (ilot de distribution), devront être enlevées afin de faciliter les travaux d'excavation des terres.
+
+45l0l0	apparemment_circonscrite	N
+45l0l1	cuves_enterrées	N
+45l0l2	les_installations_annexes	O
+45l0l3	devront_être_enlevées	N
+45l0l4	les_travaux_d__excavation	N
+45l1l0	cuves_enterrées	D
+
+#L'arrêté préfectoral du 02/06/2014 prescrit les travaux suivants dans le délai maxi de 6 mois :
+
+46l0l0	L__arrêté_préfectoral	O
+46l0l1	du_02_06_2014	T
+46l0l2	prescrit_les_travaux_suivants	N
+46l0l3	dans_le_délai_maxi_de_6_mois	T
+
+#- Excavation de spots d'hydrocarbures avec les objectifs suivants :
+
+47l0l0	Excavation_de_spots	N
+47l0l1	d__hydrocarbures	O
+47l1l0	hydrocarbures	S
+
+#.élimination d'au moins 80% de la masse de polluants contenue dans les sols, ou résiduel en place de         500 mg/kg maximum (correspondant au seuil de déchet inerte),
+
+48l1l0	polluants	U
+
+#et
+
+49l1l0	et	S
+
+#. absence de transfert de la pollution résiduelle dans la nappe.
+
+
+#- traitement des terres sur site ou en filière externe adaptée,
+
+
+#Le PV de récolement partiel du 20/05/2015 conclut que :
+
+52l0l0	Le_PV_de_récolement_partiel	N
+52l0l1	du_20_05_2015	T
+
+#- le biotraitement sur site des terres impactées doit être poursuivi tant que la performance optimale n'aura pas été atteinte dans les conditions de l'article 5.4 de l'arrêté du 02 juin 2004,
+
+53l0l0	le_biotraitement_sur_site	N
+53l0l1	terres_impactées	O
+53l0l2	doit_être_poursuivi	N
+53l0l3	02_juin_2004__	T
+
+#- ce biotraitement est à poursuivre au moins sur la période estivale,
+
+54l0l0	ce_biotraitement	O
+54l0l1	sur_la_période_estivale	T
+
+#- que le réemploi des terres traitées pour remblayer les fouilles dépendra du résiduel et  du  respect de l'objectif  fixé à l'article 5.1,
+
+55l0l0	réemploi_des_terres_traitées	N
+55l0l1	remblayer_les_fouilles	O
+
+#- il n'est pas exclus de penser, dans ce cas, qu'une partie des terres traitées puisse être évacuées en filière externe,
+
+56l0l0	terres_traitées	O
+
+#- la canalisation de rejet des eaux pluviales devra être remise en état lors des travaux de remblaiement de la fouille des cuves,
+
+57l0l0	la_canalisation_de_rejet	O
+57l0l1	eaux_pluviales	O
+57l0l2	devra_être_remise_en_état_lors	N
+57l0l3	des_travaux_de_remblaiement	N
+57l0l4	la_fouille	N
+
+#- l'intégrité du piézomètre PZ2 devra être assurée pendant les travaux de remblaiement de la fouille des cuves,
+
+58l0l0	pendant	T
+58l0l1	les_travaux_de_remblaiement	N
+58l0l2	la_fouille	N
+
+#- en vue de l'institution de servitudes, un dossier devra être remis à l'inspection de l'environnement comportant notamment la synthèse des travaux de dépollution, les plans en surface et en coupe matérialisant les infrastructuress, réseaux gaz, eaux pluviales, etc. et l'emprise de la pollution résiduelle.
+
+59l0l0	en_vue_de	R
+59l0l1	l__institution	N
+59l0l2	des_travaux_de_dépollution	N
+
+#Les autres documents à joindre à ce dossier seront précisés ultérieurement.
+
+
+#L'inspection de l'environnement demande que soient fournis :
+
+
+#- l'autorisation d'exploiter délivrée à la SAS La POPULAIRE pour le traitement  des eaux polluées,
+
+62l0l0	l__autorisation_d__exploiter	O
+62l0l1	la_SAS_La_POPULAIRE	O
+62l0l2	le_traitement___des_eaux_polluées	A
+62l1l0	la_SAS_La_POPULAIRE	I
+
+#- l'explicitation des pourcentages de masse de polluants excavée et traitée,
+
+63l0l0	explicitation	N
+63l0l1	traitée	O
+63l1l0	polluants	U
+
+#- l'explicitation et la justification de l'abandon du forage de l'alimentation en eau potable sur le site,
+
+64l0l0	l__explicitation	N
+64l0l1	la_justification	O
+64l0l2	l__abandon_du_forage	N
+64l0l3	l__alimentation_en_eau_potable	A
+
+#- la justification de la poursuite ou non de l'excavation liée aux contraintes techniques des réseaux notamment et au résiduel,au regard des objectifs définis par l'article 5.1,
+
+65l0l0	la_justification	N
+65l0l1	la_poursuite_ou_non	O
+65l0l2	l__excavation	N
+
+#- l'explicitation du critère de respect de l'objectif de l'absence de transfert dans la nappe (lixiviation),
+
+66l0l0	l__explicitation	N
+
+#- l'accord de la Mairie de Ste Bazeille pour rejeter les eaux traitées dans le réseau des eaux pluviales,
+
+67l0l0	l__accord	N
+67l0l1	la_Mairie	O
+67l0l2	Ste_Bazeille	L
+67l0l3	rejeter_les_eaux_traitées	O
+
+#- les résultats d'analyses de la nappe via les 2 piézomètres hors fouille des cuves et le prélèvement des eaux de fond de fouille remplaçant le PZ2, à fréquence mensuelle,
+
+68l0l0	le_prélèvement_des_eaux_de_fond	A
+68l0l1	de_fouille	N
+
+#- le rapport de suivi du 1er trimestre 2015 validé par l'Assistant à Maitrise d'Ouvrage,
+
+69l0l0	le_rapport_de_suivi_du	O
+69l0l1	1er_trimestre_2015_validé	T
+69l0l2	l__Assistant	O
+
+#D'après la note du 18/11/2015, le procès-verbal de récolement partiel du 20 mai 2015 dresse le constat de la conformité de l'avancement des opérations de dépollution.
+
+70l0l0	la_note	O
+70l0l1	18_11_2015	T
+70l0l2	le_procès_verbal	O
+70l0l3	récolement_partiel	N
+70l0l4	du_20_mai_2015	T
+70l0l5	dresse	R
+70l0l6	le_constat	N
+70l0l7	l__avancement_des_opérations_de_dépollution	N
+
+#A compter du 15 novembre 2015, le biotraitement des terres du sites sera arrêté, les installations de traitement seront démantelées et les fouilles seront remblayées.
+
+71l0l0	A_compter_du_15_novembre_2015__	T
+71l0l1	le_biotraitement_des_terres_du_sites	O
+71l0l2	sera_arrêté	N
+71l0l3	les_installations_de_traitement	O
+71l0l4	seront_démantelées	N
+71l0l5	les_fouilles	O
+71l0l6	seront_remblayées	N
+
+#De plus, le piézomètre PZ2 sera retiré de la fouille principale.
+
+72l0l0	le_piézomètre_PZ2	O
+72l0l1	sera	N
+72l0l2	retiré_de_la_fouille	L
+
+#L'entreprise VALGO devra également fournir les résultats des contrôles relatifs au biotraitement et les analyses des terres du biotertre sur la période allant du 07/10/2015 au 15/11/2015.
+
+73l0l0	L__entreprise_VALGO	O
+73l0l1	les_résultats_des_contrôles	O
+73l0l2	relatifs_au	R
+73l0l3	biotraitement	O
+73l0l4	les_analyses	N
+73l0l5	terres_du_biotertre	N
+73l0l6	la_période_allant_du_07_10_2015_au_15_11_2015__	T
+73l1l0	VALGO	I
+
+#Un rapport final des opérations de dépollution est à fournir ainsi qu'une analyse des risques résiduels (ARR).
+
+74l0l0	Un_rapport_final	O
+74l0l1	des_opérations_de_dépollution	N
+
+#4 - SURVEILLANCE DE EAUX SOUTERRAINES
+
+75l0l0	SURVEILLANCE	A
+75l0l1	DE_EAUX_SOUTERRAINES	O
+75l1l0	SURVEILLANCE	S
+75l1l1	SOUTERRAINES	I
+
+#Le projet d'arrêté de travaux prévoit la surveillance semestrielle des eux souterraines via au moins les 2 piézomètres implantés sur le site.
+
+76l0l0	Le_projet	O
+76l0l1	travaux	N
+76l0l2	prévoit	R
+76l0l3	la_surveillance_semestrielle	A
+76l0l4	eux_souterraines	A
+
+#Les paramètres à analyser sont : hydrocarbures totaux.
+
+77l1l0	hydrocarbures_totaux	S
+
+#Le niveau piézométrique doit être relevé à chaque campagne.
+
+
+#Pendant la phase de travaux de dépollution, la fréquence des prélèvements est mensuelle.
+
+79l0l0	Pendant	R
+79l0l1	la_phase_de_travaux_de_dépollution	N
+79l0l2	la_fréquence	O
+
+#5 - CESSION DES TERRAINS
+
+80l0l0	CESSION_DES_TERRAINS	N
+
+#A l'issue des opérations de traitement et de dépollution ci-dessus, l'exploitant s'assurera, au moyen d'une analyse des risques résiduels, que l'état du site est compatible avec l'usage actuel du site de type industriel, artisanal et commercial.
+
+81l0l0	A_l_	R
+81l0l1	issue_des_opérations_de_traitement	N
+81l0l2	de_dépollution	N
+81l0l3	l__exploitant	O
+
+#Toutes les données environnementales recueillies sur ce site seront fournies au propriétaire.
+
+82l0l0	ce_site	O
+
+#6 - RESTRICTIONS D'usages
+
+83l0l0	usages	O
+
+#Il est prévu d'instituer des servitudes d'utilité publiques.
+
+84l0l0	prévu	R
+84l0l1	d__instituer	N
+84l0l2	des_servitudes_d__utilité_publiques	O
+
+#Un dossier de demande est à adresser au Préfet.
+
+85l1l0	Préfet	I

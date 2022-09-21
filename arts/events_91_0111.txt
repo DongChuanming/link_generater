@@ -1,0 +1,228 @@
+
+#91.0111
+#Le site occupe une superficie de 11 400 m² et est délimité au nord par une voie SNCF, au sud et à l'est par la rivière l'Orge et à l'ouest par des entrepôts et des pavillons.
+
+0l0l0	Le_site	O
+0l0l1	est_délimité_au_nord_par	L
+0l0l2	une_voie_SNCF	O
+0l0l3	la_rivière_l__Orge	L
+0l0l4	à_l__ouest	L
+0l0l5	des	O
+0l0l6	entrepôts	R
+0l0l7	des_pavillons	O
+
+#Le site accueille 3 hangars, deux maisons ainsi que des préfabriqués.
+
+1l0l0	Le_site	O
+1l0l1	accueille	R
+1l0l2	3_hangars	O
+1l0l3	deux_maisons	O
+
+#L'établissement CANTONI était spécialisé dans la fabrication et la pose de clôture, la fabrication de pieux et de dalles en béton.
+
+2l0l0	L__établissement_CANTONI	O
+2l0l1	était_spécialisé_dans	R
+2l0l2	la_fabrication_et_la_pose_de_clôture	A
+2l0l3	la_fabrication_de_pieux_et_de_dalles_en_béton	O
+2l1l0	CANTONI	I
+
+#L'établissement était une installation classée relevant du régime de la déclaration pour les activités suivantes : serrurerie, matériel vibrant, peinture par pulvérisation et poste à acétylène.
+
+3l0l0	L__établissement	O
+3l0l1	était	R
+3l0l2	une_installation_classée	O
+3l0l3	la_déclaration	N
+3l0l4	pulvérisation	N
+3l0l5	acétylène	O
+3l1l0	acétylène	S
+
+#L'activité sur site a débuté vers 1946, le site a été classé (au sens ICPE) en 1957.
+
+4l0l0	L__activité_sur_site	A
+4l0l1	a_débuté	N
+4l0l2	vers_1946	T
+4l0l3	le_site	O
+4l0l4	a_été_classé	N
+4l0l5	en_1957	T
+
+#La cessation d'activité a été actée par récépissé le 31 décembre 2009.
+
+5l0l0	La_cessation_d__activité	N
+5l0l1	a_été	N
+5l0l2	actée_par_récépissé	O
+5l0l3	le_31_décembre_2009__	T
+
+#Dans le cadre de la construction de logements collectifs et individuels, le promoteur immobilier a mandaté un bureau d'étude afin que celui-ci établisse un diagnostic de la qualité des milieux (sols et eaux souterraines) et démontre la faisabilité du projet.
+
+6l0l0	Dans_le_cadre_de	R
+6l0l1	la_construction_de_logements_collectifs	N
+6l0l2	le_promoteur_immobilier	O
+6l0l3	a_mandaté	N
+6l0l4	un_bureau_d__étude	O
+6l0l5	un_diagnostic	N
+6l0l6	la_qualité_des_milieux	O
+6l0l7	sols_et_eaux_souterraines	O
+
+#Le promoteur a remis à l'inspection des installations classées lors d'une réunion technique tenue le 19 mai 2010 un diagnostic de pollution.
+
+7l0l0	Le_promoteur	O
+7l0l1	a_remis	N
+7l0l2	l__inspection_des_installations_classées	O
+7l0l3	le_19_mai_2010	T
+7l0l4	un_diagnostic_de_pollution	N
+
+#Celui-ci met en évidence la présence de métaux dans les sols (zinc, plomb, cuivre), ainsi que des hydrocarbures et des HAP (sur deux sondages).
+
+8l0l0	les_sols	O
+8l1l0	métaux	S
+8l1l1	zinc	S
+8l1l2	plomb	S
+8l1l3	cuivre	S
+8l1l4	hydrocarbures	S
+8l1l5	HAP	S
+
+#Les eaux souterraines présentent également des métaux (+ quelques légères traces d’hydrocarbures).
+
+9l1l0	métaux	S
+9l1l1	hydrocarbures	S
+
+#Le promoteur désirait connaître les actions à engager vis-à-vis de la pollution résiduelle afin que l’usage futur des terrains soit compatible avec cette pollution.
+
+10l0l0	Le_promoteur	O
+10l0l1	l__usage_futur_des_terrains	O
+
+#Conformément aux outils méthodologiques en vigueur (circulaires du 8 février 2007 établies par le ministère en charge de l’environnement), le bureau d’études a identifié les sources de pollution, les voies de transferts ainsi que les cibles afin de déterminer si un risque (combinaison des 3 facteurs précédents) était identifié.
+
+11l0l0	Conformément_aux	R
+11l0l1	outils_méthodologiques	O
+11l0l2	8_février_2007	T
+11l0l3	le_ministère_en_charge_de_l__environnement	O
+11l0l4	le_bureau_d__études	O
+11l0l5	a_identifié	N
+11l0l6	les_sources_de_pollution	O
+11l0l7	les_voies_de_transferts	O
+11l1l0	les_sources_de_pollution	U
+
+#Afin de gérer la pollution résiduelle sur le site, le promoteur s’est engagé sur les points suivants :
+
+12l0l0	le_promoteur	O
+12l0l1	s__est_engagé	N
+
+#- A décaper au droit des espaces verts, une épaisseur de 30 cm de terres et remblayer par des matériaux sains.
+
+13l0l0	A_décaper	N
+13l0l1	au_droit_des	L
+13l0l2	espaces_verts	N
+13l0l3	remblayer_par_des_matériaux_sains	O
+
+#L’élimination des terres impactées devant être réalisée dans des filières agréées (avec fourniture des les bordereaux de suivi ).
+
+14l0l0	L__élimination	N
+14l0l1	terres_impactées	O
+14l0l2	devant	R
+14l0l3	être_réalisée	N
+14l0l4	des_filières_agréées	O
+
+#Les terres saines apportées sur le site devront avoir fait l’objet d’une caractérisation.
+
+15l0l0	Les_terres_saines	O
+15l0l1	avoir	N
+15l0l2	fait_l__objet_d_	R
+15l0l3	une_caractérisation	N
+
+#- Au droit du sondage TC, les terres doivent être excavées car elles présentaient des traces d’hydrocarbures et de HAP ainsi que de fortes concentrations en métaux,
+
+16l0l0	Au_droit_du_sondage_TC	L
+16l0l1	les_terres	O
+16l0l2	doivent_être_excavées	N
+16l1l0	hydrocarbures	S
+16l1l1	HAP	S
+16l1l2	métaux	S
+
+#- Les cuves enterrées doivent faire l’objet d’un nettoyage/vidange/ élimination dans une filière agréée,
+
+17l0l0	cuves_enterrées	O
+17l0l1	doivent_faire_l__objet	R
+17l0l2	d_	L
+17l0l3	un_nettoyage	N
+17l0l4	vidange__élimination	N
+17l0l5	une_filière_agréée	O
+17l1l0	Les_cuves_enterrées	D
+
+#- Les terres au droit du sondage TA doivent être excavées car elles présentaient des HAP,
+
+18l0l0	Les_terres_au_droit_du_sondage_TA	O
+18l0l1	doivent_être_excavées	N
+18l0l2	des_HAP	O
+18l1l0	HAP	S
+
+#- Les piézomètres de contrôle doivent être rebouchés suivant les règles de l’art,
+
+19l0l0	piézomètres_de_contrôle	O
+19l0l1	doivent	R
+
+#- Des restrictions d’usage doivent être insérées dans l’acte de vente (interdiction de creuser au delà de 30cm, interdiction de puits…)
+
+20l0l0	interdiction_de_creuser	N
+20l0l1	au_delà_de_30_cm	R
+20l0l2	interdiction_de_puits	N
+
+#Les terres impactées qui ne seraient pas excavées doivent être confinées sous les maisons ou les voiries (avec inscription de ce point dans l’acte de vente).
+
+21l0l0	Les_terres_impactées	O
+21l0l1	doivent_être_confinées	N
+21l0l2	sous_les_maisons	L
+
+#Les restrictions permettent également de gérer les pollutions identifiées dans les eaux souterraines.
+
+22l0l0	Les_restrictions	O
+22l0l1	gérer_les_pollutions	O
+
+#Le promoteur a sollicité fin 2010 une nouvelle fois l'inspection des installations classées sur une modification du projet : en effet, concernant les logements sociaux prévus dans le projet, les terrains vont être recouverts d'une terrasse béton (et non décapés puis recouverts par des terres saines).
+
+23l0l0	Le_promoteur	O
+23l0l1	a_sollicité	N
+23l0l2	fin_2010	T
+23l0l3	l__inspection_des_installations_classées	O
+23l0l4	une_modification	N
+23l0l5	du_projet	O
+23l0l6	les_logements_sociaux	O
+23l0l7	prévus_dans	R
+23l0l8	le_projet	O
+23l0l9	les_terrains	O
+23l0l10	vont_être_recouverts_d_	R
+23l0l11	une_terrasse_béton	O
+23l0l12	des_terres_saines	N
+
+#L'inspection des installations classées a confirmé au promoteur que ce dispositif garantissait l'absence de contact entre les pollutions résiduelles présentes dans les sols et les futurs usagers (mesure plus pérenne que la solution retenue initialement).
+
+24l0l0	L__inspection_des_installations_classées	O
+
+#Tous les travaux et engagement du promoteur doivent faire l’objet d’un plan de gestion qui sera annexé au dépôt du permis de construire.
+
+25l0l0	Tous_les_travaux	N
+25l0l1	promoteur	O
+25l0l2	doivent_faire_l__objet_d_	R
+25l0l3	un_plan_de_gestion	O
+25l0l4	permis_de_construire	N
+
+#Le projet a été repris par un autre promoteur qui a entrepris de nouvelles investigations qui ont confirmé les précédentes.
+
+26l0l0	Le_projet	O
+26l0l1	a_été_repris	N
+26l0l2	un_autre_promoteur	O
+26l0l3	a_entrepris_de_nouvelles_investigations	N
+
+#Ces nouvelles données ont été annexées au dépôt d'un nouveau permis de construire déposé en juin 2012.
+
+27l0l0	Ces_nouvelles_données	O
+27l0l1	ont_été_annexées_au	R
+27l0l2	dépôt_d_	R
+27l0l3	un_nouveau_permis_de_construire_déposé	N
+27l0l4	en_juin_2012__	T
+
+#L'inspection des installations classées a rappelé par courrier en date du 20 août 2012 les recommandations susvisées.
+
+28l0l0	L__inspection_des_installations_classées	O
+28l0l1	a_rappelé_par_courrier	N
+28l0l2	en_date_du_20_août_2012	T

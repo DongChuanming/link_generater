@@ -1,0 +1,143 @@
+
+#68.0215
+#Le site a accueilli de 1868 à 1972 les Usines Municipales de Colmar fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	Le_site	O
+0l0l1	a_accueilli	N
+0l0l2	de_1868_à_1972	T
+0l0l3	les_Usines_Municipales	O
+0l0l4	Colmar_fabriquant_du_gaz	A
+0l0l5	à_partir_de	R
+0l0l6	la_distillation_de_la_houille	A
+
+#En 1972, la production du gaz fut arrêtée suite à l'arrivée du gaz naturel.
+
+1l0l0	En_1972	T
+1l0l1	la_production_du_gaz	A
+1l0l2	fut_arrêtée	N
+1l0l3	suite_à	R
+1l0l4	l__arrivée	N
+1l0l5	gaz_naturel	O
+
+#Les usines municipales changèrent d'appellation et devinrent la régie municipale de Colmar (RMC).
+
+2l0l0	Les_usines_municipales	O
+2l0l1	changèrent_d_	N
+2l0l2	appellation	O
+2l0l3	devinrent	N
+2l0l4	la_régie_municipale	O
+2l0l5	de_Colmar	N
+2l1l0	la_régie_municipale_de_Colmar	I
+
+#Actuellement, le site est occupé par la société VIALIS qui loue une partie de ses terrains aux transports en commun de Colmar et environs (TRACE).
+
+3l0l0	le_site	O
+3l0l1	est_occupé_par	R
+3l0l2	la_société_VIALIS	O
+3l0l3	loue	N
+3l0l4	une_partie_de_ses_terrains	O
+3l0l5	transports_en_commun_de_Colmar_et_environs	L
+3l1l0	la_société_VIALIS	I
+
+#Les activités de VIALIS sont les suivantes :
+
+4l0l0	Les_activités	A
+4l1l0	VIALIS	I
+
+#- distribution et fourniture de gaz naturel et d'électricité,
+
+5l0l0	distribution_et_fourniture_de_gaz_naturel_et_d__électricité	A
+
+#- fourniture de la télévision par le câble et de l'accès Internet,
+
+
+#- l'éclairage public, l'éclairage de bâtiments et la signalisation.
+
+
+#Le site se compose de bâtiments administratifs et techniques.
+
+8l0l0	Le_site	O
+
+#Les anciennes activités d'usine à gaz représentent une source de pollution pour les sols et les eaux souterraines.
+
+9l0l0	Les_anciennes_activités_d__usine_à_gaz	O
+9l0l1	représentent	R
+9l0l2	une_source_de_pollution	O
+
+#Un captage d'eau potable se trouve à environ un kilomètre.
+
+10l0l0	Un_captage	O
+10l0l1	trouve_à_environ_un_kilomètre	L
+
+#Compte tenu de l'ancienne exploitation d'une usine à gaz, l'inspection a prescrit par arrêté préfectoral du 19 avril 2005 la réalisation d'une étude simplifiée des risques.
+
+11l0l0	une_usine_à_gaz	O
+11l0l1	l__inspection	O
+11l0l2	a_prescrit	N
+11l0l3	par_arrêté_préfectoral	O
+11l0l4	19_avril_2005	T
+11l0l5	la_réalisation_d__une_étude_simplifiée_des_risques	N
+
+#Les conclusions de cette étude ont abouti à la proposition d'un programme détaillé d'investigations (7 sondages et 3 piézomètres) afin de caractériser les 8 sources potentielles de pollution identifiées.
+
+12l0l0	8_sources_potentielles_de_pollution_identifiées	O
+
+#Ces investigations ont mis en évidence des impacts :
+
+13l0l0	Ces_investigations	N
+13l0l1	des_impacts	O
+
+#- sur les sols: en hydrocarbures, en HAP, HCT et BTX
+
+14l1l0	hydrocarbures	S
+14l1l1	HAP	S
+14l1l2	HCT	S
+14l1l3	BTX	S
+
+#- dans les eaux souterraines : en HAP, naphtalène, cyanures.
+
+15l1l0	HAP	S
+15l1l1	naphtalène	S
+15l1l2	cyanures	S
+
+#Le réseau piézométrique a de ce fait été renforcé par la pose de 3 nouveaux ouvrages.
+
+16l0l0	Le_réseau_piézométrique	O
+16l0l1	a_de_ce_fait_été_renforcé	N
+16l0l2	la_pose_de	N
+16l0l3	3_nouveaux_ouvrages	O
+
+#La fréquence semestrielle de suivi a été fixée par l'arrêté préfectoral du 8 août 2013 relatif à l'autosurveillance du site.
+
+17l0l0	La_fréquence	O
+17l0l1	suivi	T
+17l0l2	a_été_fixée	N
+17l0l3	l__arrêté_préfectoral	O
+17l0l4	8_août_2013	T
+17l0l5	l_	N
+17l0l6	autosurveillance_du_site	A
+
+#Des travaux de réhabilitation des fosses à goudron ont été réalisés en été 2013 permettant de traiter une majeure partie des sources sols de pollution.
+
+18l0l0	Des_travaux_de_réhabilitation	N
+18l0l1	fosses_à_goudron	O
+18l0l2	ont_été_réalisés	N
+18l0l3	en_été_2013	T
+18l0l4	permettant	R
+18l0l5	de_traiter_une	N
+18l0l6	majeure_partie_des_sources_sols_de_pollution	O
+
+#Cependant, du fait de contraintes techniques et des limites de propriété, une pollution résiduelle des sols en HCT, HAP et BTEX subsiste sur le site.
+
+19l1l0	HCT	S
+19l1l1	HAP	S
+19l1l2	BTEX	S
+
+#Les résultats d'autosurveillance de 2016 ont révélé un dépassement de la norme de potabilité pour le cyanure au droit de l'ouvrage amont.
+
+20l0l0	autosurveillance	N
+20l0l1	de_2016	T
+20l0l2	un_dépassement_de_la_norme_de_potabilité	N
+20l0l3	cyanure	O
+20l0l4	au_droit_de_l__ouvrage_amont	L
+20l1l0	cyanure	S

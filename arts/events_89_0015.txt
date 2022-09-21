@@ -1,0 +1,223 @@
+
+#89.0015
+#La société Salzgitter Mannesmann Precision Etirage (anciennement Vallourec Precision Etirage) est spécialisée dans l'étirage à froid de tubes en acier.
+
+0l0l0	La_société_Salzgitter	O
+0l0l1	Mannesmann_Precision_Etirage	O
+0l0l2	anciennement	N
+0l0l3	Vallourec_Precision	O
+0l0l4	Etirage	A
+0l0l5	est_spécialisée_dans_l__étirage_à_froid_de_tubes_en_acier	A
+0l1l0	La_société_Salzgitter_Mannesmann_Precision_Etirage	I
+0l1l1	Vallourec_Precision_Etirage	I
+
+#Le site est situé à Saint-Florentin.
+
+1l0l0	Le_site	O
+1l0l1	est_situé_à_Saint_Florentin	L
+
+#Il comprend un bâtiment usine (activités administratives et de production), un bâtiment exclusivement administratif et des zones de stockage externes.
+
+2l0l0	un_bâtiment_usine	O
+2l0l1	activités_administratives_et_de_production	A
+2l0l2	stockage_externes	O
+
+#La production de tubes est d'environ 40000 tonnes en 2007.
+
+3l0l0	La_production_de_tubes	A
+3l0l1	40000_tonnes	O
+3l0l2	en_2007__	T
+
+#Le voisinage du site est constitué de:
+
+4l0l0	Le_voisinage	O
+
+#- Au Nord, des terrains agricoles et l'Armançon
+
+5l0l0	Au_Nord	L
+5l0l1	des_terrains_agricoles	O
+5l0l2	l__Armançon	L
+
+#- Au Sud et à l'Est, des terrains agricoles
+
+6l0l0	des_terrains_agricoles	O
+
+#- Au Sud-Ouest, la société TROUILLARD puis PRIMAGAZ et le réseau ferré Paris-Lyon
+
+7l0l0	Au_Sud_Ouest	L
+7l0l1	la_société_TROUILLARD	O
+7l0l2	PRIMAGAZ	O
+7l0l3	le_réseau_ferré	O
+7l0l4	Paris__	O
+7l0l5	Lyon	L
+7l1l0	la_société_TROUILLARD	I
+7l1l1	puis_PRIMAGAZ	I
+7l1l2	le_réseau_ferré_Paris___Lyon	I
+
+#- A l'Ouest, la ligne SNCF Troyes - Saint-Florentin
+
+8l0l0	l__Ouest	O
+8l0l1	la_ligne_SNCF_Troyes	O
+8l0l2	__Saint_Florentin	L
+8l1l0	Saint_Florentin	I
+
+#Le site a une superficie de 73 383 m2.
+
+9l0l0	Le_site	O
+
+#9 octobre 1998: La société Vallourec Precision Etirage est autorisée à exploiter une unité d'étirage à froid de tubes.
+
+10l0l0	9_octobre_1998__	T
+10l0l1	La_société_Vallourec_Precision_Etirage	O
+10l0l2	est_autorisée_à_exploiter	N
+10l0l3	une_unité	O
+10l0l4	d__étirage_à_froid_de_tubes	A
+10l1l0	La_société_Vallourec_Precision_Etirage	I
+
+#L’article 36 imposait à l’exploitant de faire réaliser une étude simplifiée des risques (ESR) en deux étapes conformément au guide méthodologique national de l'époque.
+
+11l0l0	l__exploitant	O
+11l0l1	faire_réaliser_une_étude_simplifiée_des_risques	N
+11l0l2	deux_étapes	O
+
+#L’étape A correspond à l’analyse historique du site.
+
+
+#L’étape B correspond aux investigations de terrain (analyses de sols et d’eaux).
+
+13l0l0	aux_investigations_de_terrain	N
+13l0l1	d__eaux	O
+
+#L’exploitant a transmis le rapport de l’étape A le 26 septembre 2000; elle a été modifiée le 25 avril 2001 suite aux remarques de l’inspection des installions classées le 8 janvier 2001.
+
+14l0l0	L__exploitant	O
+14l0l1	a_transmis	N
+14l0l2	le_rapport	O
+14l0l3	l__étape_A	O
+14l0l4	le_26_septembre_2000	T
+14l0l5	__elle	O
+14l0l6	a_été_modifiée	N
+14l0l7	le_25_avril_2001	T
+14l0l8	l__inspection_des_installions	O
+14l0l9	classées	O
+14l0l10	le_8_janvier_2001	T
+
+#A l’issue de l’étape B, l’exploitant a transmis le rapport final le 1er février 2002.
+
+15l0l0	A_l__issue_de	R
+15l0l1	l__étape_B	O
+15l0l2	l__exploitant	O
+15l0l3	a_transmis	N
+15l0l4	le_rapport_final	O
+15l0l5	le_1er_février_2002	T
+
+#Par courrier du 11 avril 2002, l’inspection des installations classées n’a pas validé le rapport final de l’ESR .
+
+16l0l0	11_avril_2002__	T
+16l0l1	l__inspection_des_installations_classées	O
+16l0l2	n__a_pas_validé	N
+16l0l3	le_rapport_final	O
+16l1l0	ESR	I
+
+#L’exploitant et le bureau d’études ont été rencontrés le 24 avril 2002 sur site.
+
+17l0l0	L__exploitant	O
+17l0l1	le_bureau_d__études	O
+17l0l2	ont_été_rencontrés	N
+17l0l3	le_24_avril_2002	T
+
+#L’évaluation simplifiée des risques a tout de même permis d’identifier la présence :
+
+18l0l0	évaluation_simplifiée_des_risques	N
+18l0l1	a_tout_de_même_permis_d__identifier	N
+
+#- d’hydrocarbures (phase flottante d’exxol)
+
+19l1l0	d__hydrocarbures	S
+19l1l1	phase_flottante_d__exxol	U
+
+#- de polychlorobiphényles (PCB): famille de composés aromatiques organo-chlorés
+
+20l1l0	de_polychlorobiphényles	S
+20l1l1	PCB	S
+20l1l2	composés_aromatiques	U
+20l1l3	chlorés	S
+
+#- de nombreux métaux dans la lagune de décantation (bras mort de l’Armançon)
+
+21l0l0	décantation	N
+
+#- de xylène
+
+22l1l0	xylène	S
+
+#- de Molybdène, Zinc, Nickel
+
+23l1l0	Molybdène	S
+23l1l1	Zinc	S
+23l1l2	Nickel	S
+
+#- de Manganèse
+
+24l1l0	__de_Manganèse	I
+
+#Un arrêté préfectoral imposant des mesures complémentaires est alors proposé par l'Inspection des Installations Classées.
+
+25l0l0	Un_arrêté_préfectoral_imposant_des_mesures_complémentaires	O
+25l0l1	l__Inspection_des_Installations_Classées	O
+
+#6 janvier 2003: Un arrêté préfectoral portant prescriptions complémentaires impose à Vallourec:
+
+26l0l0	6_janvier_2003__	T
+26l0l1	Un_arrêté_préfectoral	O
+26l0l2	portant	R
+26l0l3	prescriptions_complémentaires	O
+26l0l4	impose	N
+26l0l5	Vallourec	O
+26l1l0	Vallourec	I
+
+#- de procéder à une surveillance de la qualité des eaux souterraines pour les polluants suivants: Hydrocarbures (HCT), hydrocarbures aromatiques polycycliques (HAP), Chrome, Cuivre, Manganèse, Molybdène, Nickel, Zinc, xylène et PCB
+
+27l0l0	une_surveillance_de_la_qualité_des_eaux_souterraines	A
+27l1l0	les_polluants	U
+27l1l1	Hydrocarbures	S
+27l1l2	HCT	S
+27l1l3	hydrocarbures_aromatiques_polycycliques	S
+27l1l4	HAP	S
+27l1l5	Chrome	S
+27l1l6	Cuivre	S
+27l1l7	Manganèse	S
+27l1l8	Molybdène	S
+27l1l9	Nickel	S
+27l1l10	Zinc	S
+27l1l11	xylène	S
+27l1l12	PCB	S
+
+#- de déterminer les sources sols responsable de la pollution (notamment le point de rejet des eaux usées dans l'Armançon et le bras mort de l'Armançon en aval de la lagune de décantation)
+
+28l0l0	déterminer	R
+28l0l1	les_sources_sols	O
+28l0l2	le_point_de_rejet_des_eaux_usées	O
+28l0l3	dans_l__Armançon	L
+28l0l4	le	O
+28l0l5	bras_mort_de_l__Armançon	L
+28l0l6	en_aval_de_la_lagune_de_décantation	L
+
+#- de dépolluer les eaux souterraines. les substances à dépolluer sont la phase flottante d'hydrocarbures et les PCB
+
+29l0l0	dépolluer	N
+29l0l1	les_eaux	O
+29l1l0	la_phase_flottante_d__hydrocarbures	U
+29l1l1	PCB	S
+
+#20 juin 2008: L'arrêté préfectoral portant mesures complémentaires impose à la société Salzgitter Mannesmann Precision Etirage de poursuivre sa surveillance concernant les polluants énumérés.
+
+30l0l0	20_juin_2008__	T
+30l0l1	L__arrêté_préfectoral	O
+30l0l2	portant	R
+30l0l3	mesures_complémentaires	O
+30l0l4	impose	N
+30l0l5	la_société_Salzgitter_Mannesmann_Precision_Etirage	O
+30l0l6	sa_surveillance	A
+30l1l0	la_société_Salzgitter_Mannesmann_Precision_Etirage	I
+30l1l1	les_polluants	U

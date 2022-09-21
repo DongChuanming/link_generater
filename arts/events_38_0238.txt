@@ -1,0 +1,435 @@
+
+#38.0238
+#Le site est situé au 1 rue Maladière, sur la commune de Sassenage (38).
+
+0l0l0	Le_site_est	A
+0l0l1	situé_au_1_rue_Maladière___sur_la_commune	O
+
+#Le site a une superficie totale d'environ 3137 m².
+
+1l0l0	Le_site	O
+1l0l1	une_superficie_totale_d_	L
+1l0l2	environ_3137_m²__	L
+
+#Le site est implanté à 250 m au nord-est du Drac et à 600 m au nord-est de l'Isère.
+
+2l0l0	Le_site	O
+
+#Plusieurs canaux et cours d'eaux sont situés à proximité du site :
+
+3l0l0	Plusieurs	O
+3l0l1	canaux_et_cours_d__eaux_sont_situés_à_proximité_du_site__	L
+
+#- un canal se situe à environ 60 m au sud-ouest du site ;
+
+4l0l0	__un_canal_se_situe	O
+4l0l1	sud_ouest_du_site__	L
+
+#- le ruisseau "de la petite Saône" est situé à environ 650 m à l'ouest du site ;
+
+5l0l0	le_ruisseau	O
+5l0l1	__de_la_petite_Saône___est_situé_à_environ	L
+
+#- le ruisseau "du Gua" est situé à environ 700 m à l'ouest du site ;
+
+6l0l0	environ_700_m_à_l__ouest_du_site__	L
+
+#- le ruisseau "la grande Sâone" est situé à environ 250 m au nord-est du site ;
+
+7l0l0	Sâone___est_situé_à_environ_250_m_au_nord_est	L
+
+#- le ruisseau "Furon" est situé à environ 1,2 km au sud-ouest du site.
+
+8l0l0	environ_1_2_km_au_sud_ouest_du_site__	L
+8l1l0	__Furon___est_situé	I
+
+#La nappe d'eaux souterraines au droit du site est à une profondeur d'environ 1 m et le sens d'écoulement est orienté vers le nord-nord/ouest.
+
+9l0l0	souterraines_au_droit_du_site_est_à_une_profondeur_d_	L
+
+#Le réseau piézométrique est constitué de 3 piézomètres, PZ1 (amont), PZ2 et PZ3 (aval).
+
+
+#La société TECSAS exploitait sur le site, une activité de traitement et de revêtement de métaux.
+
+
+#Elle possédait un transformateur PCB, un chauffage à air propulsé, des équipements correspondant à l'activité de traitement de surface, une station de traitement des effluents et différentes aires de stockages.
+
+12l0l0	Elle_possédait_un	O
+12l0l1	transformateur	N
+12l0l2	chauffage_à_air_propulsé___des_équipements_correspondant	A
+12l1l0	Elle_possédait_un	I
+
+#L'établissement est réglementé par l'arrêté préfectoral d'autorisation d'exploiter du 05/04/1996.
+
+13l0l0	L_	O
+13l0l1	établissement	R
+13l0l2	est_réglementé_par_l_	O
+13l0l3	arrêté_préfectoral_d__autorisation_d__exploiter	O
+13l0l4	du_05_04_1996	R
+13l0l5	_	A
+13l1l0	par_l_	S
+
+#Par décision du tribunal de commerce de Grenoble, la société TECSAS a été mise sous liquidation judiciaire le 22/09/2009.
+
+14l0l0	Par_décision_du	O
+14l0l1	tribunal_de_commerce	N
+14l0l2	de_Grenoble___la_société_TECSAS_a_été_mise_sous_liquidation	O
+14l0l3	judiciaire_le_22_09_2009__	T
+
+#Par courrier du 01/10/2009, l'inspection des intallations classées a demandé au mandataire judiciaire Maître MASSELON :
+
+15l0l0	intallations_classées	O
+15l0l1	a_demandé_au_mandataire_judiciaire	N
+15l0l2	Maître_MASSELON__	T
+15l1l0	du_01_10_2009___l__inspection_des	I
+15l1l1	intallations_classées	I
+
+#-  de fournir la notification d'arrêt définitif de la société TECSAS, qui indiquera les mesures prises pour la mise en sécurité du site ;
+
+16l0l0	notification	T
+16l0l1	d__arrêt_définitif_de_la_société_TECSAS__	O
+
+#- d'établir un dossier comportant des études sur la situation environnementale et l'usage futur du site.
+
+17l0l0	établir	N
+17l0l1	un_dossier_comportant	O
+17l0l2	des_études_sur	O
+17l0l3	la_situation_environnementale	O
+17l0l4	et_l__usage_futur	N
+17l1l0	la_situation_environnementale	I
+
+#Une visite d'inspection a été effectuée le 19/11/2009, pour évaluer la mise en sécurité du site.
+
+18l0l0	Une_visite_d_	N
+18l0l1	19_11_2009___pour_évaluer_la_mise_en	O
+18l0l2	sécurité_du_site__	T
+
+#Le rapport datant du 23/11/2009, indique :
+
+19l0l0	Le_rapport_datant_du_23_11_2009___indique	N
+19l0l1	_	T
+
+#- la présence des produits chimiques dont certains très toxiques sont encore présents sur le site ;
+
+20l0l0	__la_présence	O
+20l0l1	des_produits_chimiques	T
+
+#- certaines zones intérieures (proximité bain cyanures) ou extérieures (déchets) présentent des aspects laissant présager un impact sur les sols ;
+
+21l1l0	zones_intérieures___proximité	U
+
+#- la quasi-totalité des bains actifs des traitements de surface sont  encore pleins ;
+
+22l1l0	traitements_de_surface	S
+22l1l1	pleins	S
+
+#- les divers réservoirs de la STEP (au sous-sol) sont à priori pleins.
+
+
+#L'arrêté préfectoral d'urgence a été émis le 26/01/2010, imposant le liquidateur judiciaire :
+
+24l0l0	urgence	O
+24l1l0	urgence	I
+
+#- d'assurer la mise en sécurité du site ;
+
+25l0l0	__d__assurer_la_mise_en_sécurité_du	O
+25l0l1	site__	N
+
+#- la mise en place d'un réseau de surveillance des eaux souterraines au droit et à proximité du site ;
+
+26l0l0	place_d__un_réseau_de	N
+26l0l1	surveillance	O
+
+#- la réalisation d'un dossier comportant une analyse historique du site, une étude de la vulnérabilité de l'environnement, un diagnostic des milieux sols, eaux souterraines/superficielles et air si nécessaire ;
+
+27l0l0	la_réalisation_d_	N
+27l0l1	un_dossier	O
+27l0l2	comportant_une_analyse_historique_du	A
+27l0l3	étude_de_la_vulnérabilité	L
+
+#- une caractérisation de l'état des milieux à l'extérieur du site ;
+
+28l0l0	une_caractérisation	N
+
+#- un mémoire de réhabilitation du site à l'issu du diagnostic de site et de l'état des milieux, et une analyse des risques résiduels (ARR) si nécessaire.
+
+29l0l0	réhabilitation_du_site_à_l__issu	O
+29l0l1	du_diagnostic_de_site	L
+
+#Une visite d'inspection a été effectuée le 19/07/2010.
+
+30l0l0	inspection_a_été_effectuée	N
+30l0l1	le_19_07_2010__	N
+
+#Le rapport d'inspection du 20/07/2010 indique :
+
+31l0l0	Le_rapport_d__inspection	N
+31l0l1	du_20_07_2010	N
+31l0l2	indique__	T
+
+#- la présence résiduelle de certains produits chimiques (huiles, solvants, chlorure de potassium, produits de traitement de l'eau) et déchets dangereux (boues de traitements de surface, emballages souillés ;
+
+32l0l0	certains_produits	T
+
+#- la présence d'un transformateur PCB ;
+
+33l1l0	PCB__	U
+
+#- la présence d'un puits de forage non protégé ;
+
+34l1l0	non_protégé	S
+
+#- l'absence de surveillance des eaux souterraines.
+
+35l0l0	surveillance_des_eaux	O
+
+#Des sanctions administratives ont été prises contre le mandataire judiciaire le 19/08/2010, afin que l'arrêté préfectoral d'urgence du 26/01/2010 soit respecté.
+
+36l0l0	administratives_ont_été_prises_contre	A
+
+#Une visite d'inspection a été effectuée le 27/05/2011.
+
+37l0l0	Une_visite_d__inspection_a_été	O
+37l0l1	effectuée_le_27_05_2011	N
+37l0l2	_	O
+
+#Le rapport de l'inspection datant du 30/06/2011 indique :
+
+38l0l0	Le_rapport_de_l__inspection_datant_du	N
+38l0l1	30_06_2011_indique__	T
+
+#- que les conditions de mise en sécurité du site sont remplies mise à part le puits qui n'est toujours pas protégé ;
+
+39l0l0	en_sécurité_du_site_sont	T
+
+#- l'attestation de coupure de gaz, les justificatifs d'élimination des produits et déchets, les justificatifs d'élimination du transformateur de PCB et les justificatifs relatifs au traitement des effluents des traitement de surface ont été transmis à l'administration ;
+
+
+#- 3 piézomètres ont été implantés sur le site mais aucun résultats n'a été transmis.
+
+41l0l0	3_piézomètres_ont_été_implantés_sur_le_site_mais_aucun_résultats_n__a_été_transmis	O
+
+#L'inspection propose par courrier du 30/06/2011, au mandataire judiciaire :
+
+42l0l0	L__inspection	O
+42l0l1	propose_par_courrier	N
+
+#- d'effectuer la mise en sécurité du puits ;
+
+43l0l0	_	O
+43l0l1	puits__	T
+
+#- de transmettre les résultats des premières analyses eau et sols effectuées par la société SOCOTEC.
+
+44l0l0	de_transmettre_les_résultats_des	N
+44l0l1	premières	O
+
+#Le diagnostic des sols a été établi le 27/05/2011 par SOCOTEC.
+
+45l0l0	Le_diagnostic_des	N
+
+#15 sondages ont été effectués dans les sols :
+
+46l0l0	15_sondages_ont_été_effectués_dans	N
+46l0l1	les_sols__	T
+
+#- jusqu'à 260 mg/kg d'argent ont été trouvés vers la zone de stockage des boues ;
+
+47l0l0	__jusqu__à_260	O
+47l0l1	mg___kg_d__argent	N
+47l0l2	ont_été_trouvés	L
+
+#- jusqu'à 460 mg/kg de cadmium, 600 mg/kg de chrome, 390 mg/kg de nickel, 3000 mg/kg de zinc, 1910 mg/kg d'étain, 3000 mg/kg de chlorures ont été détectés au niveau du réseau d'effluent et de la chaîne de zingage acide ;
+
+48l0l0	cadmium___600_mg___kg_de	N
+48l0l1	chrome___390_mg___kg_de_nickel___3000_mg	O
+48l1l0	cadmium	S
+
+#- jusqu'à 1400 mg/kg de cuivre, 0,60 mg/kg de mercure, 1000 mg/kg d'HCT, des traces de benzo(b)fluoranthène et phénanthrène ont été détectés à l'extérieur du bâtiment vers la zone de déversement potentiel ;
+
+49l0l0	détectés_à_l__extérieur	N
+49l0l1	potentiel__	O
+49l1l0	de_cuivre	S
+49l1l1	de_mercure	S
+49l1l2	kg_d__HCT	S
+49l1l3	benzo_b_fluoranthène_et_phénanthrène_ont_été_détectés	S
+
+#- jusqu'à 740 mg/kg de cyanures et 1880 mg/kg de sulfates ont été trouvés au niveau de la chaîne d'argenture/phosphatation/brunissage/décapage et réseaux d'effluents ;
+
+50l0l0	brunissage___décapage	N
+50l0l1	et_réseaux_d__effluents	L
+50l0l2	_	L
+50l1l0	cyanures	S
+50l1l1	de_sulfates	S
+50l1l2	trouvés	S
+50l1l3	la_chaîne_d__argenture___phosphatation___brunissage	S
+
+#- des traces d'arsenic et de plomb ont été décelées sur l'ensemble du site ;
+
+51l1l0	arsenic_et_de_plomb	S
+51l1l1	décelées_sur_l_	S
+
+#- des traces de chlorure de vinyle ont été trouvées dans 5 sondages ;
+
+52l0l0	chlorure	O
+52l0l1	ont_été_trouvées	N
+52l1l0	chlorure	S
+52l1l1	vinyle	S
+
+#- des traces de dichlorométhane ont été trouvés au droit de la chaine de zinguage et de nickelage ;
+
+53l1l0	dichlorométhane_ont	S
+
+#- du TCE a été trouvé sur l'ensemble du site avec un maximum de 9,2 mg/kg au droit du stockage de produits chimiques ;
+
+54l0l0	trouvé_sur_l__ensemble	O
+54l0l1	du_site_avec_un	N
+54l0l2	maximum_de_9_2_mg___kg_au	L
+54l0l3	droit_du_stockage_de_produits	A
+54l1l0	trouvé_sur_l__ensemble	S
+
+#- du PCE a été trouvé sur l'ensemble du site avec un maximum de 920 mg/kg au droit de la zone de déversement potentiel ;
+
+55l1l0	du_PCE	S
+55l1l1	déversement_potentiel	U
+
+#- jusqu'à 4 mg/kg de cis-dichloroéthylène ont été trouvés au droit du stockage de produits chimiques ;
+
+56l0l0	stockage_de_produits_chimiques	N
+56l0l1	_	O
+56l1l0	jusqu_	I
+
+#- des teneurs en PCB supérieures au bruit de fond géochimique mais inférieures à 1mg/kg ont été décelées dans échantillon de béton.
+
+57l0l0	fond_géochimique	N
+57l0l1	mais_inférieures_à	L
+57l0l2	1mg___kg_ont_été_décelées	N
+57l1l0	supérieures_au_bruit_de	S
+57l1l1	1mg___kg_ont_été_décelées	U
+
+#Au niveau des eaux souterraines :
+
+58l0l0	Au_niveau_des	O
+58l1l0	eaux_souterraines	S
+
+#Des prélèvements ont été effectués sur PZ1, PZ2, PZ3 et le drain de la station de traitement (21/04/2011).
+
+
+#- du TCE a été trouvé au droit de PZ2 à 68,9 µg/L, de PZ3 à 4,3 µg/L et 10,8 µg/L au niveau du drain ;
+
+60l0l0	__du_TCE_a_été_trouvé_au_droit_de_PZ2_à_68_9	N
+60l0l1	4_3_µg___L_et	O
+60l0l2	10_8_µg___L_au_niveau_du_drain	O
+60l0l3	_	T
+
+#- du PCE a été trouvé au droit de PZ2 à 50,9 µg/L, de PZ3 à 5,6 µg/L et 24,6 µg/L au niveau du drain ;
+
+61l1l0	PCE	S
+
+#- du chlorure de vinyle a été détecté au droit de PZ1 à 2,24 µg/L, PZ2 à 37,5 µg/L, PZ3 à 779 µg/L et du drain à 16,1 µg/L ;
+
+62l1l0	du_chlorure	S
+
+#- du cis-1,2-dichloroéthane a été détecté au droit de PZ2 à 192 µg/L, de PZ3 à 746 µg/L et 30,6 µg/L au niveau du drain ;
+
+63l0l0	cis_1_2_dichloroéthane_a_été_détecté	N
+63l1l0	du_cis_1_2_dichloroéthane	S
+
+#- des traces de trans-1,2-dichloroéthane à 3,8 µg/L au droit de PZ3 ;
+
+64l0l0	trans_1_2_dichloroéthane	N
+64l1l0	des_traces_de_trans_1_2_dichloroéthane	S
+
+#- des traces d'arsenic ont été décelées au droit de PZ1, PZ3 et du drain ;
+
+65l1l0	arsenic_ont_été_décelées_au_droit	S
+
+#- des traces d'HCT au droit de PZ1, PZ2 et PZ3 ;
+
+66l0l0	d__HCT_au	O
+66l0l1	droit_de_PZ1___PZ2_et	N
+66l0l2	PZ3__	L
+66l1l0	HCT_au_droit	S
+
+#- des traces de mercure au droit de PZ2 ;
+
+67l1l0	des_traces	D
+67l1l1	de_mercure	I
+
+#- des traces de nickel ont été trouvées au droit de PZ2 et PZ3.
+
+68l1l0	nickel_ont	S
+
+#Des investigations complémentaires suite au diagnostic de pollution des sols ont été réalisées et le rapport a été établi le 20/09/2011.
+
+69l0l0	complémentaires	N
+69l0l1	suite_au_diagnostic	L
+69l1l0	investigations_complémentaires	S
+
+#6 sondages ont été réalisés.
+
+70l0l0	6_sondages_ont_été_réalisés__	N
+
+#Au niveau du réseau d'effluent de la chaîne de zinguage acide, il a été décelé :
+
+
+#- jusqu'à 21 mg/kg d'argent, jusqu'à 1200 mg/kg de cadmium, jusqu'à 390 mg/kg de chrome, jusqu'à 1100 mg/kg de cuivre, jusqu'à 1600 mg/kg d'étain, jusqu'à 350 mg/kg de nickel, jusqu'à 2500 mg/kg de zinc, jusqu'à 460 mg/kg de cyanures, des traces de plombs ;
+
+72l0l0	kg_de_cadmium___jusqu_	O
+72l0l1	à_390_mg___kg	N
+
+#- la présence de TCE à 1,1 mg/kg et jusqu'à 14 mg/kg de PCE ;
+
+73l1l0	1_1_mg__	S
+73l1l1	de_PCE__	S
+
+#- la présence de cis-1,2-dichloroéthylène à 0,42 mg/kg.
+
+74l1l0	cis_1_2_dichloroéthylène	S
+74l1l1	mg___kg	S
+
+#Un prélèvement de béton a été effectué au centre de l'atelier et au niveau du réseau d'effluent de la chaîne de zinguage acide :
+
+75l1l0	de_béton_a_été_effectué_au_centre	S
+
+#- la présence de cuivre à 21 mg/kg a été détectée ;
+
+76l0l0	__la_présence_de_cuivre_à	O
+76l0l1	21_mg___kg_a_été	N
+76l0l2	détectée__	L
+
+#- la présence de cyanures à 2,5 mg/kg à été décelée ;
+
+77l0l0	été_décelée	N
+77l1l0	cyanures	S
+
+#- la présence de PCE a été trouvée à 0,48 mg/kg.
+
+78l0l0	0_48_mg___kg__	N
+78l1l0	PCE_a_été_trouvée	S
+
+#Au vu de ces résultats, le bureau d'études préconise :
+
+79l1l0	résultats	I
+
+#- la réalisation d'une purge sur les points les plus impactés ;
+
+80l0l0	purge_sur_les_points	O
+
+#- la réalisation d'une évaluation des risques sanitaires, en vue de valider la compatibilité ou non du site à l'usage envisagé ;
+
+81l0l0	la_réalisation_d__une_évaluation	N
+
+#- la réalisation d'un plan de gestion en vue de déterminer les mesures de gestion à mettre en œuvre pour maîtriser les risques potentiels liés à ces contaminations ;
+
+82l0l0	la_réalisation_d_	R
+82l0l1	un_plan_de_gestion_en_vue_de_déterminer	N
+82l0l2	mesures_de_gestion_à_mettre_en_œuvre	O
+
+#- la mise en place d'une surveillance de la qualité des eaux souterraines.
+
+83l0l0	la_mise_en_place_d_	R
+83l0l1	une_surveillance	O
+83l0l2	eaux_souterraines__	O

@@ -1,0 +1,203 @@
+
+#16.0029
+#Le site a accueilli un dépôt pétrolier exploité par la société CHARVET dès 1967.
+
+0l0l0	Le_site	O
+0l0l1	a_accueilli	N
+0l0l2	un_dépôt_pétrolier	O
+0l0l3	exploité	N
+0l0l4	société_CHARVET	O
+0l0l5	dès_1967	T
+0l1l0	dépôt_pétrolier	D
+0l1l1	la_société_CHARVET	I
+
+#L'exploitation a fait l'objet d'un récépissé de déclaration d'activité le 18 janvier 1978.
+
+1l0l0	L__exploitation	O
+1l0l1	a_fait_l__objet_d_	R
+1l0l2	un_récépissé	N
+1l0l3	déclaration	N
+1l0l4	d__activité	N
+1l0l5	le_18_janvier_1978__	T
+
+#Après l'acquisition de CHARVET par TOTAL, le site a été exploité par la Compagnie Pétrolière de l'Ouest (CPO) à partir de 1990.
+
+2l0l0	Après	R
+2l0l1	l__acquisition	N
+2l0l2	CHARVET	O
+2l0l3	TOTAL	O
+2l0l4	le_site	O
+2l0l5	a_été_exploité	N
+2l0l6	la_Compagnie_Pétrolière_de_l__Ouest	O
+2l0l7	partir_de_1990	T
+2l1l0	CHARVET	I
+2l1l1	TOTAL	S
+2l1l2	la_Compagnie_Pétrolière	S
+2l1l3	de_l__Ouest	I
+2l1l4	CPO	I
+
+#Aux alentours du site, ce sont essentiellement des pavillons avec terrains clôturés au Nord, à l'Ouest et au Sud du site, et à l'Est du site, un entrepôt de stockage.
+
+3l0l0	Aux_alentours_du_site	L
+3l0l1	des_pavillons	O
+3l0l2	clôturés	O
+3l0l3	au_Nord___à_l__Ouest_et_au_Sud_du_site	L
+3l0l4	à_l__Est_du_site	L
+3l0l5	un_entrepôt_de_stockage	O
+
+#La géologie régionale est composée de calcaires du Dogger (Bathonien et Bajocien), et d'une formation argilo-marneuse de 3 à 20 mètres d' épaisseur.
+
+
+#Deux formations aquifères sont présentes, renfermant une nappe inférieure semi-captive protégée par une couverture argileuse et la nappe supérieure karstifiée du Dogger, très productive et moins protégée.
+
+5l0l0	Deux_formations_aquifères	O
+
+#L'exploitation a cessé son activité de dépôt pétrolier.
+
+6l0l0	L__exploitation	O
+6l0l1	a_cessé	N
+6l0l2	son_activité_de	A
+6l0l3	dépôt_pétrolier	O
+
+#Celui-ci a été démantelé au début de l'année 2009.
+
+7l0l0	a_été_démantelé	N
+7l0l1	au_début_de_l__année_2009__	T
+
+#Le démantèlement du dépôt pétrolier et la gestion des sols pollués identifiés ont été menés pour que la réhabilitation du site puisse conduire à la construction d'un pavillon de plain-pied, sans sous-sol et d'une surface de l'ordre de 130 m².
+
+8l0l0	Le_démantèlement	N
+8l0l1	dépôt_pétrolier	O
+8l0l2	la	O
+8l0l3	gestion_des_sols_pollués_identifiés	N
+8l0l4	ont_été_menés	N
+8l0l5	la_réhabilitation_du_site	N
+8l0l6	puisse_conduire_à	R
+8l0l7	la_construction_d__un_pavillon_de_plain__	N
+8l1l0	dépôt_pétrolier	D
+
+#Les travaux de dépollution ont été accompagnés d'une Analyse des Risques Résiduels (ARR), conformément aux prescriptions ministérielles.
+
+9l0l0	Les_travaux_de_dépollution	N
+9l0l1	ont_été_accompagnés_d_	R
+9l0l2	une_Analyse_des_Risques_Résiduels	O
+
+#Les travaux de dépollution ont été effectués pas la société VALGO.
+
+10l0l0	Les_travaux_de_dépollution	N
+10l0l1	ont_été_effectués_pas	N
+10l0l2	la_société_VALGO	O
+10l1l0	la_société_VALGO	I
+
+#Les analyses de sols réalisées après sondages ont révélé une pollution aux Hydrocarbures (concentration max : 17 090 mg/kg).
+
+11l0l0	Les_analyses_de_sols	N
+11l0l1	réalisées_après_sondages	N
+11l0l2	Hydrocarbures	O
+11l1l0	Hydrocarbures	S
+
+#Les premières interventions de dépollution en juillet 2009 ont consisté à un nettoyage et dégazage des cuves et des tuyauteries de distribution de carburants.
+
+12l0l0	Les_premières_interventions	N
+12l0l1	de_dépollution	N
+12l0l2	en_juillet_2009	T
+12l0l3	un_nettoyage	N
+12l0l4	dégazage	N
+12l0l5	cuves	O
+12l0l6	distribution_de_carburants	A
+12l1l0	carburants	U
+
+#Les cuves enterrées ont été retirées.
+
+13l0l0	Les_cuves_enterrées	O
+13l0l1	ont_été_retirées	N
+
+#Les déchets triés.
+
+
+#Les terres souillées (plus de 330 tonnes) ont été excavées et évacuées dans une filière de traitement agréée.
+
+15l0l0	Les_terres_souillées	O
+15l0l1	ont_été_excavées_et_évacuées	N
+15l0l2	dans	L
+15l0l3	une_filière_de_traitement_agréée	O
+
+#Les fouilles ont été remblayées avec du sable et de la terre végétale et nivelées.
+
+16l0l0	Les_fouilles	O
+16l0l1	ont_été_remblayées	N
+16l0l2	nivelées	N
+
+#Le sol a été compacté et 3 essais de plaque de type LCPC ont attesté de ce compactage jugé satisfaisant.
+
+17l0l0	Le_sol	O
+17l0l1	a_été_compacté	N
+17l0l2	3_essais	O
+
+#A l'issue de ces travaux, 24 sondages ont été réalisés.
+
+18l0l0	ces_travaux	N
+18l0l1	24_sondages	N
+18l0l2	ont_été_réalisés	N
+
+#Des traces d'Hydrocarbures subsistent principalement au fond des 3 fouilles ouvertes.
+
+19l0l0	Hydrocarbures	O
+19l1l0	Hydrocarbures	S
+
+#Ces résidus n'ont pas été enlevés car un massif rocheux calcaire empêche toute excavation.
+
+20l0l0	excavation	N
+
+#Afin de déterminer si l'état du site est compatible avec les usages futurs projetés, une ARR a été réalisée par la société VALGO.
+
+21l0l0	les_usages_futurs_projetés	O
+21l0l1	une_ARR	N
+21l0l2	a_été_réalisée	N
+21l0l3	la_société_VALGO	O
+21l1l0	la_société_VALGO	I
+
+#Le site ayant été recouvert de terre végétale saine sur 30 à 50 cm, aucun risque d'ingestion ou d'inhalation de pollution de surface n'est possible.
+
+22l0l0	Le_site	O
+22l0l1	ayant_été_recouvert_de_terre_végétale_saine	N
+22l0l2	inhalation_de_pollution	N
+
+#Il est possible d'envisager la mise en place de potagers.
+
+
+#Aucune contamination des eaux souterraines n'a été  mise en évidence.
+
+24l0l0	Aucune_contamination	O
+
+#L'exposition aux gaz de sol est acceptable pour un usage résidentiel avec jardin potager.
+
+
+#Malgré l'absence de risque sanitaire, l'ARR préconise d’éviter l'implantation du pavillon au droit des fouilles où les résidus de polluants sont les plus importants.
+
+26l0l0	l__implantation	N
+26l0l1	du_pavillon	O
+26l0l2	au_droit_des_fouilles	L
+
+#Si malgré tout, il est choisi de construire, un vide sanitaire aéré est recommandé.
+
+27l0l0	construire	N
+
+#De même, les arbres fruitiers à racines profondes sont déconseillés.
+
+
+#Des restrictions d'usage conventionnelles au profit de l'Etat (RUCPE), du sol et du sous-sol doivent être mises en place.
+
+29l0l0	Des_restrictions_d__usage	O
+29l0l1	conventionnelles	N
+29l0l2	au_profit_de	R
+29l0l3	l__Etat	O
+29l0l4	sous_sol	O
+29l0l5	doivent_être_mises_en_place	N
+29l1l0	l__Etat	I
+29l1l1	RUCPE	I
+
+#Ces documents seront ensuite transmis au maire de la commune pour être intégrés au document d'urbanisme.
+
+30l0l0	Ces_documents	O
+30l0l1	la_commune	O

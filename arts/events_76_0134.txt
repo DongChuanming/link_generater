@@ -1,0 +1,49 @@
+
+#76.0134
+#Le site se trouve sur une zone industrielle.
+
+0l0l0	Le_site	O
+0l0l1	se_trouve_sur_une_zone_industrielle	L
+
+#L'aire de stockage des déchets regroupe des fûts de poudre et peinture, des boues de peintures, des solvants, des ferrailles.
+
+1l0l0	L__aire	O
+1l0l1	ferrailles	O
+1l1l0	poudre	S
+1l1l1	boues_de_peintures	U
+1l1l2	solvants	U
+
+#Il existe un risque potentiel de contamination des personnes travaillant sur le site (en activité) et un risque de pollution des eaux souterraines.
+
+2l0l0	pollution_des_eaux_souterraines	A
+
+#L'arrêté préfectoral du 20 décembre 2000 a prescrit le diagnostic initial de l'état du sol et l'évaluation simplifiée des risques à remettre avant la fin du 1er semestre 2001.
+
+3l0l0	L__arrêté_préfectoral	O
+3l0l1	20_décembre_2000	T
+3l0l2	a_prescrit	N
+3l0l3	le_diagnostic_initial	N
+3l0l4	l_	O
+3l0l5	évaluation_simplifiée_des_risques	N
+3l0l6	remettre	N
+3l0l7	avant_la_fin_du_1er_semestre_2001	T
+
+#Par arrêté préfectoral du 1er décembre 1998 l'exploitant avait été mis en demeure de procéder à :
+
+4l0l0	Par_arrêté_préfectoral	O
+4l0l1	du_1er_décembre_1998	T
+4l0l2	l__exploitant	O
+4l0l3	avait_été_mis_en	N
+
+#- l'évacuation et l'élimination des déchets industriels spéciaux et banals entreposés à l'extérieur des bâtiments ;
+
+5l0l0	l__évacuation	N
+5l0l1	l__élimination	N
+5l0l2	à_l__extérieur_des_bâtiments	L
+5l1l0	des_déchets_industriels_spéciaux	U
+
+#- l'aménagement d'une aire de stockage à l'abris des intempéries et permettant une protection du sol et des eaux souterraines.
+
+6l0l0	l__aménagement_d_	N
+6l0l1	une_aire	O
+6l0l2	abris_des_intempéries	N

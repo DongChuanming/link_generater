@@ -1,0 +1,363 @@
+
+#54.0009
+#Ancien site sidérurgique dont l'activité a cessé en 1987.
+
+0l0l0	Ancien_site_sidérurgique	O
+0l0l1	l__activité	O
+0l0l2	a_cessé	N
+0l0l3	en_1987__	T
+0l1l0	sidérurgique	S
+
+#Ces installations étaient de nature à être soumises à autorisation au titre de la législation ICPE.
+
+1l0l0	Ces_installations	O
+1l0l1	étaient	R
+1l0l2	de_nature_à_être_soumises_à_autorisation	N
+
+#Suite à la fermeture de la sidérurgie, l'EPFL est devenu propriétaire du site (~110ha) situé en plein centre urbain des communes d'Herserange et Longwy et a lancé un programme de réhabilitation sur 50ha (création d'un golf urbain)
+
+2l0l0	Suite	R
+2l0l1	à_la	N
+2l0l2	fermeture_de_la_sidérurgie	A
+2l0l3	l__EPFL	O
+2l0l4	est_devenu_propriétaire	N
+2l0l5	du_site	O
+2l0l6	_110_ha	O
+2l0l7	situé_en_plein_centre_urbain_des_communes_d__Herserange	L
+2l0l8	et_Longwy	L
+2l0l9	a_lancé	N
+2l0l10	un_programme	O
+2l0l11	de_réhabilitation_sur	N
+2l0l12	50_ha	O
+2l0l13	__création_d__un_golf_urbain__	N
+2l1l0	l__EPFL	I
+
+#Les sources de pollution identifiées dans les rapports LECES de 1992, 1993 et 1994 étaient au droit des secteurs suivants:
+
+3l0l0	Les_sources_de_pollution	O
+
+#- les bassins de Neustadt, Zschocke et Dorr,
+
+4l0l0	les_bassins	O
+4l0l1	de_Neustadt	L
+4l1l0	Zschocke	I
+4l1l1	Dorr	I
+
+#- des hauts fourneaux n°1-2 et n°3-4,
+
+
+#- des accumulateurs à minerai et à coke,
+
+6l1l0	coke	U
+
+#- de l'acierie,
+
+7l0l0	l__acierie	O
+
+#- des gazogènes.
+
+
+#L'ensemble des résultats sur les sols indique que toutes ces zones à  l'exception des gazogènes présentent des concentrations en métaux supérieures aux VDSS et certaines aux VCI usage sensible (contact direct).
+
+9l1l0	gazogènes	U
+9l1l1	en_métaux	S
+
+#En plus de la présence de métaux, une pollution aux HAP a été détectée au droit de la zone des gazogènes.
+
+10l0l0	une_pollution_aux_HAP	O
+10l0l1	a_été_détectée	N
+10l0l2	au_droit_de_la	L
+10l1l0	métaux	S
+10l1l1	HAP	S
+10l1l2	gazogènes	U
+
+#Travaux de dépollution réalisés par Bail Industrie (1993 à 1998):
+
+11l0l0	Travaux_de_dépollution	N
+11l0l1	réalisés	N
+11l0l2	par_Bail_Industrie	O
+11l0l3	__1993_à_1998	T
+11l1l0	Bail_Industrie	I
+
+#Des travaux de mise en sécurité de la canalisation de la fouille 49 ont été réalisés en juin 1993.
+
+12l0l0	Des_travaux_de_mise_en_sécurité	N
+12l0l1	la_canalisation	O
+12l0l2	la_fouille_49	O
+12l0l3	ont_été_réalisés	N
+12l0l4	en_juin_1993	T
+
+#Les bassins de Neustadt et Zschocke auraient été traités à la même époque.
+
+13l0l0	Les_bassins	O
+13l0l1	de_Neustadt	L
+13l0l2	auraient_été_traités	N
+13l0l3	à	T
+13l0l4	la_même_époque	N
+13l1l0	Zschocke	I
+
+#En 1998, BI a également entrepris des travaux de dépollution au droit de la zone des gazogènes.
+
+14l0l0	En_1998__	T
+14l0l1	BI	O
+14l0l2	a_également_entrepris	N
+14l0l3	des_travaux_de_dépollution	N
+14l0l4	au_droit	L
+14l1l0	gazogènes	U
+
+#Les terres contaminées aux HAP ont été excavées et envoyées en traitement.
+
+15l0l0	Les_terres_contaminées	O
+15l0l1	aux	R
+15l0l2	HAP	O
+15l0l3	ont_été_excavées_et_envoyées_en_traitement	N
+15l1l0	HAP	S
+
+#Une analyse de la pollution résiduelle aurait été réalisée et validée par la DRIRE.
+
+16l0l0	Une_analyse_de	N
+16l0l1	la_pollution_résiduelle	O
+16l0l2	aurait_été_réalisée	N
+16l0l3	validée_par_la_DRIRE	O
+16l1l0	pollution_résiduelle	U
+16l1l1	la_DRIRE	I
+
+#Suite aux travaux de réhabilitation et une expertise en 1998, le secteur des gazogènes ne doit plus être considéré comme source de pollution.
+
+17l0l0	Suite	R
+17l0l1	aux_travaux_de_réhabilitation	N
+17l0l2	une_expertise	N
+17l0l3	en_1998__	T
+17l0l4	le_secteur	O
+17l0l5	gazogènes	O
+17l0l6	ne_doit_plus	N
+17l0l7	être_considéré_comme_source_de_pollution	N
+17l1l0	gazogènes	U
+
+#Le schéma conceptuel de l'ESR indique que le seul milieu de transfert à prendre en compte est le milieu sol.
+
+18l0l0	Le_schéma_conceptuel	O
+18l0l1	le_seul_milieu_de_transfert	O
+18l1l0	l__ESR	I
+
+#D'après les résultats de campagne d'analyse de décembre 1997, aucun impact n'est constaté tant sur les eaux superficielles que sur les eaux souterraines.
+
+19l0l0	décembre_1997__	T
+
+#L'ESR réalisée conduit à un classement 2 pour le milieu sol.
+
+
+#Les conclusions recommandent de recouvrir les derniers secteurs qui présentent des concentrations supérieures aux VCI sensibles.
+
+21l1l0	VCI	S
+
+#La poursuite de la surveillance des eaux de surface et souterraines (2 fois par an) est recommandée.
+
+22l0l0	La_poursuite_de_la_surveillance	A
+22l0l1	des_eaux_de	O
+
+#Travaux de requalification par l'EPFL:
+
+23l0l0	Travaux_de_requalification	N
+23l0l1	l__EPFL	O
+
+#Ces travaux ce sont déroulés de 1996 à 1997 et ont consisté en la réalisation de bassins d'agréments dans le Vallon du Croix Chaudron.
+
+24l0l0	Ces_travaux_ce_sont_déroulés	N
+24l0l1	de_1996_à_1997	T
+24l0l2	la_réalisation	N
+24l0l3	de_bassins_d__agréments	O
+24l0l4	dans_le_Vallon_du_Croix_Chaudron	L
+
+#Les matériaux argileux ont excédentaires ont été utilisés afin de recouvrir les zones identifiées comme polluées (zone des hauts fourneaux notamment).
+
+25l0l0	ont_été_utilisés	N
+25l0l1	afin_de_recouvrir	R
+25l0l2	les_zones	O
+25l0l3	zone_des_hauts_fourneaux	O
+
+#Ces opérations de régalage ont fait l'objet d'un plan de récolement au droit de la zone des HF3 et HF4.
+
+26l0l0	Ces_opérations_de_régalage	N
+26l0l1	ont_fait_l__objet_d_	R
+26l0l2	un_plan_de_récolement	N
+26l0l3	au_droit_de_la_zone_des_HF3	L
+
+#Après une période sans entretien du site, l'EPFL a fait réaliser en 2001 des travaux d'étanchéification et de mise en sécurité du bassin aval et des plantations de végétaux.
+
+27l0l0	Après	R
+27l0l1	une_période_sans_entretien	N
+27l0l2	site	O
+27l0l3	l__EPFL	O
+27l0l4	a_fait_réaliser	N
+27l0l5	en_2001	T
+27l0l6	des_travaux_d__étanchéification	N
+27l0l7	de_mise_en_sécurité	N
+27l0l8	bassin_aval	O
+27l0l9	des_plantations_de_végétaux	N
+
+#Les conclusions du rapport d'ANTEA d'octobre 1999 portant sur les analyses des sols situés sous l'emprise de l'ancien gazogène de la friche mettent en évidence la présence de HAP dans la couche de remblais superficiels (0.4 à 0.5 mètre d'épaisseur en moyenne) recouvrant les grouines et calcaires constituant le substratum, des teneurs relativements faibles dans ces remblais (5 à 100 fois plus basses que celles mesurées par le LECES en 1992 dans le même faciès) et la confirmation de l'absence des HAP dans le terrain naturel formé de grouines et de bancs calcaires.
+
+28l0l0	ANTEA	O
+28l0l1	d__octobre_1999	T
+28l0l2	situés_sous	L
+28l0l3	l__emprise	N
+28l0l4	en_1992	T
+28l0l5	HAP	O
+28l0l6	le_terrain_naturel	N
+28l1l0	ANTEA	S
+28l1l1	HAP	S
+28l1l2	HAP	S
+
+#Les analyses effectuées en 1998 par le LCDI dans ce faciès sont confirmés par les analyses d'ANTEA de 1999.
+
+29l0l0	Les_analyses	O
+29l0l1	effectuées	N
+29l0l2	en_1998	T
+29l0l3	ce_faciès	O
+29l0l4	ANTEA	O
+29l0l5	de_1999	T
+29l1l0	LCDI	I
+
+#A la date du 14 juin 2005, BI réalise une étude de mise en œuvre de servitude au droit des 3 zones suivantes :
+
+30l0l0	A_la_date_du_14_juin_2005__	T
+30l0l1	BI	O
+30l0l2	réalise_une_étude_de_mise_en_œuvre	N
+30l0l3	3_zones	O
+
+#- zone des gazogènes,
+
+31l1l0	gazogènes	U
+
+#- zone des hauts fourneaux HF3 et HF4,
+
+
+#- zone des bassins Neustadt et Zschoke.
+
+33l0l0	bassins_Neustadt	L
+33l1l0	Zschoke	I
+
+#L'ensemble des zones polluées auraient donc fait l'objet de recouvrement cependant seules les zones des gazogènes, des bassins Neustadt et Zschoke et la zone des hauts fourneaux auraient fait l'objet de plan de récolement.
+
+34l0l0	L__ensemble_des_zones_polluées	O
+34l0l1	les_zones	O
+34l0l2	bassins	O
+34l0l3	Neustadt_et_Zschoke	L
+34l0l4	fourneaux	O
+34l0l5	auraient_fait_l__objet	R
+34l0l6	de_plan_de_récolement	N
+34l1l0	gazogènes	U
+34l1l1	Zschoke	I
+
+#Le rapport d'Arcadis du 14 juin 2005 soulève le problème de 5 zones sources potentielles qui n'ont jamais fait l'objet d'investigations :
+
+35l0l0	14_juin_2005	T
+35l0l1	5_zones_sources_potentielles	O
+
+#- 7 réservoirs d'HC (dont 4 enterrés) réunis en 4 zones distinctes,
+
+36l0l0	4_zones_distinctes	O
+36l1l0	7_réservoirs_d_	D
+36l1l1	HC	S
+
+#- la zone du faisceau ferroviaire.
+
+37l0l0	faisceau_ferroviaire	O
+
+#Des mesures de composés volatils (COHV et HCT C6-C12), une caractérisation des remblais de couverture et un échantillonnage aléatoire dans chaque zone de site (caractérisation de l'impact des retombées de poussières) sont intégrés au programme d'investigations complémentaires.
+
+38l0l0	remblais_de_couverture	N
+38l0l1	de_l__impact	N
+38l0l2	sont_intégrés	N
+38l1l0	COHV	S
+38l1l1	HCT	S
+
+#Le 27 octobre 2005, lors d'une visite pour constater l'état d'avancement, il est constaté que la réalisation d'un golf est projeté.
+
+39l0l0	Le_27_octobre_2005__	T
+39l0l1	la_réalisation_d__un_golf_est_projeté	N
+
+#Il reste sur le site un haut fourneau, des réservoirs à eau en béton et un bâtiment.
+
+40l0l0	un_haut_fourneau	O
+40l0l1	un_bâtiment	O
+
+#La zone des hauts fourneaux et du gazogène a fait l'objet de restriction d'usage (parcelles AN60 61 et 62).
+
+41l0l0	La_zone	O
+41l0l1	gazogène	O
+41l0l2	a_fait_l__objet	R
+41l0l3	de_restriction_d_	N
+41l0l4	usage	O
+41l1l0	gazogène	U
+
+#Dans le cadre du projet golf, une évaluation des risques sanitaires est constituée et établira le plan de gestion des pollutions résiduelles du site afin de rendre compatible celui ci avec l'usage futur.
+
+42l0l0	Dans_le_cadre	R
+42l0l1	du_projet_golf	O
+42l0l2	une_évaluation_des_risques_sanitaires	N
+42l0l3	établira	R
+42l0l4	le_plan_de	O
+42l0l5	gestion_des_pollutions	N
+42l0l6	site	O
+42l0l7	afin_de	R
+42l0l8	rendre_compatible	N
+
+#Les analyses des eaux de décembre 2007 montrent :
+
+43l0l0	Les_analyses_des_eaux_de	N
+43l0l1	décembre_2007	T
+
+#- une augmentation de la DCO dans les eaux souterraines et dans les eaux superficielles (Moulaine à l'aval et ruisseau du Chaudron,
+
+44l0l0	Moulaine_à_l__aval_et_ruisseau_du_Chaudron	L
+
+#- la non détection de l'ammonium dans les eaux superficielles,
+
+45l0l0	l__ammonium	O
+45l1l0	ammonium	S
+
+#- une qualité des eaux conforme aux valeurs précédemment enregistrées pour la source E après les anomalies en sulfates, potassium, cyanures et DCO décelées en juin 2007,
+
+46l0l0	en_juin_2007__	T
+46l1l0	sulfates	S
+46l1l1	cyanures	S
+46l1l2	DCO	S
+
+#- la présence de cyanures au niveau de la sources D comme depuis 2001, avec des fluctuations de teneurs autour de la limite de qualité,
+
+47l0l0	cyanures	O
+47l0l1	depuis_2001__	T
+47l1l0	cyanures	S
+
+#- la non détection d'hydrocarbures sur l'ensemble des points de contrôle,
+
+48l1l0	hydrocarbures	S
+
+#- les métaux dissous ne sont pas détectés en dehors de traces de zinc dans les eaux superficielles où les teneurs restent très largement inférieures aux seuils de qualité.
+
+49l1l0	les_métaux	S
+49l1l1	zinc	S
+
+#Suite à la visite d'inspection de septembre 2010, le représentant de l'ancien exploitant doit transmettre à l'inspection :
+
+50l0l0	Suite_à	R
+50l0l1	la_visite	N
+50l0l2	d__inspection	N
+50l0l3	de_septembre_2010__	T
+
+#- les justificatifs concernant les travaux de couverture de la zone A (anciens gazogènes impactés aux HAP),
+
+51l0l0	les_justificatifs	O
+51l0l1	les_travaux_de_couverture	N
+51l0l2	la_zone_A	O
+51l0l3	gazogènes	O
+51l0l4	impactés	R
+51l1l0	gazogènes_impactés	U
+51l1l1	HAP	S
+
+#- l'ensemble des documents et études nécessaires à l'instauration des restrictions d'usage, ainsi que leur contenu.
+
+52l0l0	l__instauration	N
+52l0l1	d__usage	O

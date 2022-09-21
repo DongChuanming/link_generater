@@ -1,0 +1,108 @@
+
+#67.0184
+#L'arrêté préfectoral du 10 août 2000 autorise la société ALCATEL (ex HURON GRAFFENSTADEN) à exploiter ses installations de montage de matériel de communication sur le site de ILLKIRCH-GRAFFENSTADEN.
+
+0l0l0	L__arrêté_préfectoral	O
+0l0l1	10_août_2000	T
+0l0l2	autorise	N
+0l0l3	la_société_ALCATEL	O
+0l0l4	HURON_GRAFFENSTADEN	O
+0l0l5	exploiter	N
+0l0l6	ses_installations_de_montage_de_matériel_de_communication	O
+0l0l7	sur_le_site_de_ILLKIRCH___GRAFFENSTADEN	L
+0l1l0	la_société_ALCATEL	I
+0l1l1	HURON_GRAFFENSTADEN	I
+0l1l2	ILLKIRCH___GRAFFENSTADEN	I
+
+#Depuis 2005 le nouvel exploitant du site est la société COLILLKIRCH SAS.
+
+1l0l0	Depuis_2005	T
+1l0l1	le_nouvel_exploitant	O
+1l0l2	du_site	O
+1l0l3	la_société_COLILLKIRCH_SAS	O
+1l1l0	la_société_COLILLKIRCH_SAS	I
+
+#Celle ci est en activité et soumise au régime de la déclaration.
+
+2l0l0	est_en_activité	N
+
+#La société exerce actuellement une activité qui consiste à l'administration d'immeubles ou de biens immobiliers.
+
+3l0l0	La_société	O
+3l0l1	exerce_actuellement	T
+3l0l2	une_activité	A
+3l0l3	l_	A
+3l0l4	administration_d__immeubles	N
+3l0l5	de_biens_immobiliers	N
+
+#L'arrêté préfectoral (AP) du 10 octobre 1991 prescrit l'implantation d'un piézomètre en aval du site de la société COLILLKIRCH (ex ALCATEL).
+
+4l0l0	L__arrêté_préfectoral	O
+4l0l1	10_octobre_1991	T
+4l0l2	prescrit_l__implantation_d_	N
+4l0l3	un_piézomètre	O
+4l0l4	en_aval_du_site	L
+4l0l5	la_société_COLILLKIRCH	O
+4l0l6	ALCATEL	O
+4l1l0	la_société_COLILLKIRCH	I
+4l1l1	ALCATEL	I
+
+#L'AP du 10 aout 2000 prescrit une surveillance annuelle de la qualité des eaux souterraines sur les paramètres suivants :
+
+5l0l0	L__AP	O
+5l0l1	10_aout_2000	T
+5l0l2	prescrit	N
+5l0l3	une_surveillance_annuelle	A
+5l0l4	la_qualité_des_eaux_souterraines	A
+
+#Analyses physico-chimiques du type C3-C4 et recherches d'hydrocarbures halogénés à l'état de trace.
+
+6l0l0	Analyses_physico	N
+6l0l1	hydrocarbures_halogénés	N
+6l1l0	hydrocarbures_halogénés	S
+
+#La campagne d'analyse réalisée en 2011 respecte les paramètres de contrôle à l'exception de la turbidité et de la couleur vraie.
+
+7l0l0	La_campagne	N
+7l0l1	en_2011	T
+7l0l2	respecte	R
+7l0l3	les_paramètres	O
+7l0l4	turbidité	O
+
+#Elle montre également la présence de matières oxydables au permanganate de potassium ( mesuré à 4,7 ug/L pour une valeur de référence fixée à 5 ug/L), mais aussi la présence de fluor et de phosphore de manière peu significative.
+
+8l1l0	permanganate_de_potassium	S
+8l1l1	fluor	S
+8l1l2	phosphore	S
+
+#Les analyses réalisées le 07/12/2012 montrent un dépassement du seuil de quantification pour le Manganèse total avec une concentration de 59 ug/L pour une limite de quantification de 50 ug/L au droit du Pz aval.
+
+9l0l0	Les_analyses_réalisées	N
+9l0l1	le_07_12_2012	T
+9l0l2	un_dépassement_du_seuil_de_quantification	N
+9l1l0	Manganèse_total	S
+
+#Elles montrent aussi la présence de fer, d'aluminium, de calcium et de fluorures mais avec des concentrations inférieures aux limites de qualité.
+
+10l1l0	fer	S
+10l1l1	aluminium	S
+10l1l2	fluorures	S
+
+#A noter que le réseau actuel de surveillance de la nappe n'est composé que d'un piézomètre et que cet ouvrage ne permet pas à l'exploitant de surveiller la qualité des eaux souterraines à l'amont de son site.
+
+11l0l0	surveillance_de_la_nappe	A
+11l0l1	surveiller_la_qualité_des_eaux_souterraines	A
+11l0l2	amont_de_son_site	L
+
+#L'exploitant est tenu de continuer à réaliser le contrôle de la qualité des eaux souterraines annuellement, conformément à la prescription de l'AP.
+
+12l0l0	L__exploitant	O
+12l0l1	est_tenu	N
+12l0l2	réaliser_le_contrôle	N
+12l0l3	la_qualité_des_eaux_souterraines	O
+12l0l4	annuellement	N
+
+#L'autosurveillance sera révisée en 2015
+
+13l0l0	sera_révisée	N
+13l0l1	en_2015	T

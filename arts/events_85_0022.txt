@@ -1,0 +1,284 @@
+
+#85.0022
+#L'ancien propriétaire, Monsieur Burgaud, a exercé une activité d'agriculteur et d'aviculteur sur le site de 1953 à 1969.
+
+0l0l0	L__ancien_propriétaire	O
+0l0l1	Monsieur_Burgaud	O
+0l0l2	a_exercé	A
+0l0l3	une_activité_d__agriculteur	O
+0l0l4	d__aviculteur	O
+0l0l5	sur_le_site	L
+0l0l6	de_1953_à_1969__	T
+
+#A partir de 1969, il a commencé une activité de garage qu'il a cessé en 1991.
+
+1l0l0	A_partir_de_1969	T
+1l0l1	il	O
+1l0l2	a_commencé	N
+1l0l3	une_activité_de_garage	A
+1l0l4	il	O
+1l0l5	a_cessé	N
+1l0l6	en_1991	T
+
+#Le service ICPE de la préfecture n'a cependant pas été informé de cette cessation d'activité.
+
+2l0l0	Le_service_ICPE	O
+2l0l1	la_préfecture	O
+2l0l2	n__a_cependant_pas_été_informé	N
+2l0l3	cette_cessation_d__activité	N
+2l1l0	Le_service_ICPE	I
+2l1l1	la_préfecture	I
+
+#Parallèlement à son commerce de mécanique et vente d'automobiles, M.
+
+3l0l0	Parallèlement_à	R
+3l0l1	son_commerce_de_mécanique	A
+3l0l2	vente_d__automobiles	A
+3l0l3	M_	O
+
+#urgaud a déclaré avoir développé une activité de camping à la ferme au cours des saisons 1985 et 1986.
+
+4l0l0	urgaud	O
+4l0l1	a_déclaré	N
+4l0l2	avoir_développé	N
+4l0l3	une_activité_de_camping_à_la_ferme	O
+4l0l4	au_cours_des_saisons_1985	T
+4l0l5	et_1986	T
+
+#Cette activité a ensuite pris de l'essor pour se transformer en camping.
+
+5l0l0	Cette_activité	O
+5l0l1	a_ensuite_pris	N
+5l0l2	l__essor	N
+5l0l3	se_transformer_en_camping	N
+
+#Monsieur et Madame Biraud ont acheté le terrain de camping à Monsieur Burgaud le 23 mai 2003.
+
+6l0l0	Monsieur_et_Madame_Biraud	O
+6l0l1	ont_acheté_le_terrain_de_camping_à	N
+6l0l2	Monsieur_Burgaud	O
+6l0l3	le_23_mai_2003__	T
+
+#Fin 2004, au cours de travaux d'aménagement du terrain, Monsieur et Madame Biraud ont découvert un dépôt de déchets enfouis par M.
+
+7l0l0	Fin_2004__	T
+7l0l1	au_cours	R
+7l0l2	de_travaux_d__aménagement	N
+7l0l3	du_terrain	O
+7l0l4	Monsieur_et_Madame_Biraud	O
+7l0l5	ont_découvert	N
+7l0l6	un	O
+7l0l7	dépôt_de_déchets_enfouis	N
+7l1l0	dépôt	D
+
+#Burgaud provenant essentiellement de son ancienne activité de garage sur des terrains formant aujourd'hui le terrain de camping.
+
+8l0l0	son_ancienne_activité_de_garage	O
+8l0l1	sur	R
+8l0l2	des_terrains	O
+8l0l3	formant_aujourd_hui_le_terrain_de_camping	N
+
+#Ces déchets étaient enfouis depuis les années 1968-1969.
+
+9l0l0	étaient_enfouis	N
+9l0l1	depuis_les_années_1968___1969__	T
+
+#La technique d'enfouissement n'a fait l'objet d'aucune précaution particulière : aucune étanchéité du fond ou latérale.
+
+10l0l0	La_technique	O
+10l0l1	enfouissement	O
+10l0l2	n__a_fait_l_	R
+
+#De plus, les lixiviats (jus de décomposition) n'ont été ni drainés ni collectés.
+
+
+#Selon l'enquête menée par la gendarmerie, les déchets enfouis semblaient être des ferrailles, des pneumatiques, carcasses automobiles (certaines ayant encore leur batterie au plomb).
+
+12l0l0	la_gendarmerie	O
+12l0l1	ferrailles	O
+12l0l2	carcasses_automobiles	O
+12l1l0	plomb	S
+
+#L'expert judiciaire a convoqué les deux parties le 5/03/2004 au camping.
+
+13l0l0	L__expert_judiciaire	O
+13l0l1	a_convoqué_les_deux_parties	N
+13l0l2	le_5_03_2004	T
+13l0l3	au_camping	O
+
+#Monsieur Burgaud a alors accepté de prendre à sa charge :
+
+14l0l0	Monsieur_Burgaud	O
+14l0l1	a	N
+14l0l2	sa_charge	O
+
+#- le retrait de blocs de béton qui ont servi au remblaiement de l'étier qui sépare les parcelles 701 et 704 (parcelles correspondant à l'ancien plan cadastral disponible dans le paragraphe B de cette fiche, le nouveau plan cadastral ne permet pas d'identifier cette séparation).
+
+15l0l0	le_retrait	N
+15l0l1	de_blocs_de_béton	O
+15l0l2	ont_servi_au_remblaiement	N
+15l0l3	l__étier	O
+
+#De la terre a ensuite été régalée en surface.
+
+16l0l0	De_la_terre	O
+16l0l1	a_ensuite_été_régalée	N
+
+#- le nettoyage de l'étier qui sépare les parcelles 704 et 706 (parcelles correspondant à l'ancien plan cadastral disponible dans le paragraphe B de cette fiche).
+
+17l0l0	le_nettoyage	N
+17l0l1	l__étier	O
+
+#- le retrait d'une carcasse d'automobile présente dans l'étier situé au sein du camping en limite des parcelles 694 et 695 (parcelles correspondant à l'ancien plan cadastral disponible dans le paragraphe B de cette fiche).
+
+18l0l0	le_retrait	N
+18l0l1	une_carcasse	O
+18l0l2	automobile	O
+18l0l3	présente_dans	R
+18l0l4	l_	O
+18l0l5	étier_situé_au_sein_du_camping	L
+18l0l6	en_limite_des_parcelles	L
+
+#L'ensemble de ces travaux ont été réalisés par l'entreprise TP PAJOT en juin 2004.
+
+19l0l0	L__ensemble_de_ces_travaux	N
+19l0l1	ont_été_réalisés	N
+19l0l2	l__entreprise_TP_PAJOT	O
+19l0l3	en_juin_2004__	T
+19l1l0	TP_PAJOT	I
+
+#Suite à l'expertise judiciaire du 15 janvier 2005, Monsieur Burgaud s'était alors engagé le 31 janvier 2005 à enlever les déchets et remettre en état les lieux.
+
+20l0l0	Suite_à	R
+20l0l1	l__expertise_judiciaire	N
+20l0l2	du_15_janvier_2005__	T
+20l0l3	Monsieur_Burgaud	O
+20l0l4	s__était_alors_engagé	N
+20l0l5	le_31_janvier_2005	T
+20l0l6	enlever_les_déchets	N
+20l0l7	remettre_en_état_les_lieux	N
+20l1l0	les_déchets	U
+
+#De plus, Madame le Maire a établi un arrêté municipal daté du 2 juin 2005 mettant en demeure M.
+
+21l0l0	Madame_le_Maire	O
+21l0l1	a_établi	N
+21l0l2	un_arrêté_municipal	N
+21l0l3	daté_du_2_juin_2005	T
+21l1l0	le_Maire	I
+
+#urgaud d'éliminer les déchets sur les terrains concernés.
+
+22l0l0	les_terrains_concernés	O
+
+#Des analyses sur la zone polluée ont alors été effectuées par SAS Tertrade le 13 décembre 2005.
+
+23l0l0	Des_analyses	N
+23l0l1	sur	L
+23l0l2	la_zone_polluée	O
+23l0l3	ont_alors_été_effectuées	N
+23l0l4	par_SAS_Tertrade	O
+23l0l5	le_13_décembre_2005__	T
+23l1l0	SAS_Tertrade	I
+
+#L'objectif de ces premières analyses est de quantifier la concentration des substances polluantes dans les sols et dans les eaux de la nappe.
+
+24l0l0	substances_polluantes	O
+24l1l0	substances_polluantes	U
+
+#Trois excavations à la pelle mécanique ont alors été réalisées (emplacement des excavations disponible sur le deuxième plan cartographique du paragraphe B de cette fiche Basol).
+
+25l0l0	Trois_excavations	N
+25l0l1	la_pelle_mécanique	O
+25l0l2	ont_alors_été_réalisées	N
+25l0l3	excavations	N
+
+#Les constats faits montrent la présence, sous une couche de terre végétale de 0,1m à 0,15m d'épaisseur, de matériaux sablo limoneux beige qui ont été reconnus jusqu'à une profondeur de 1 à 1,2 m.
+
+26l0l0	Les_constats_faits	N
+
+#Dans chacune des excavations, on relève la présence de déchets divers (ferraille, pneumatiques, tuyaux en plastique, jantes automobiles, ...) en quantité variable, la proportion de déchets présents semblant augmenter du nord vers le sud.
+
+27l0l0	excavations	N
+27l1l0	déchets_divers	U
+27l1l1	jantes_automobiles	U
+
+#Un échantillon de matériau sablo limoneux a été prélevé dans chacune des trois excavations, ainsi qu'un échantillon d'eau de la nappe.
+
+28l0l0	excavations	N
+
+#--> Résultats d'analyses réalisées sur des échantillons de sol : les concentrations mesurées pour les différentes substances recherchées (arsenic, cadmium, chrome, cuivre, humidité résiduelle, hydrocarbures, mercure, nickel, plomb, zinc et hydrocarbures aromatiques polycycliques) sont inférieures aux valeurs réglementaires de référence pour les trois échantillons de sol analysés.
+
+29l1l0	arsenic	S
+29l1l1	cadmium	S
+29l1l2	chrome	S
+29l1l3	cuivre	S
+29l1l4	humidité	S
+29l1l5	hydrocarbures	S
+29l1l6	mercure	S
+29l1l7	nickel	S
+29l1l8	plomb	S
+29l1l9	zinc	S
+29l1l10	hydrocarbures_aromatiques_polycycliques	S
+
+#--> Résultats d'analyses réalisées sur un échantillon d'eau souterraine : l'échantillon d'eau analysé renferme des substances polluantes (arsenic, cadmium, chrome, mercure, nickel, plomb et zinc) en quantités significatives.
+
+30l0l0	des_substances_polluantes	O
+30l0l1	arsenic	O
+30l1l0	substances_polluantes	S
+30l1l1	arsenic	S
+30l1l2	cadmium	S
+30l1l3	chrome	S
+30l1l4	mercure	S
+30l1l5	nickel	S
+30l1l6	plomb	S
+30l1l7	zinc	S
+
+#Lors de la réunion d'expertise qui s'est tenue sur le site le 1er février 2006, il a été décidé de procéder au prélèvement de deux échantillons d'eau dans les ouvrages en eau présents sur le site : l'un à l'extrémité nord de l'étier central, l'autre à l'extrémité sud est du plan d'eau.
+
+31l0l0	Lors_de	R
+31l0l1	la_réunion	N
+31l0l2	s__est_tenue	N
+31l0l3	sur	R
+31l0l4	le_site	O
+31l0l5	le_1er_février_2006__	T
+31l0l6	deux_échantillons_d__eau	O
+31l0l7	les_ouvrages_en_eau	O
+31l0l8	l__un	O
+31l0l9	à_l__extrémité_nord_de_l__étier_central	L
+31l0l10	l__extrémité_sud_est_du_plan	L
+
+#En raison du caractère comparatif, les substances recherchées sont les mêmes que celles décelées dans l'échantillon prélevé le 13 décembre 2005 : arsenic, cadmium, chrome, mercure, nickel, plomb et zinc.
+
+32l0l0	le_13_décembre_2005	T
+32l0l1	arsenic	O
+32l1l0	arsenic	S
+32l1l1	cadmium	S
+32l1l2	chrome	S
+32l1l3	mercure	S
+32l1l4	nickel	S
+32l1l5	plomb	S
+32l1l6	zinc	S
+
+#Les résultats obtenus pour les deux échantillons d'eau analysés montrent des traces de cuivre et de zinc avec des concentrations très nettement inférieures aux valeurs de constat d'impact.
+
+33l1l0	cuivre	S
+33l1l1	zinc	S
+
+#A titre de rappel, la valeur de constat d'impact est la valeur qui détermine la concentration d'un polluant à partir de laquelle, et pour un usage donné (sensible ou non), le milieu est considéré comme pollué.
+
+34l0l0	un_usage_donné	N
+
+#Pour les six autres substances recherchées, les concentrations mesurées sont inférieures à la limite de quantification.
+
+
+#Il y a une légère pollution résiduelle des terres du site.
+
+
+#Cette pollution résiduelle est compatible avec un usage de camping et un usage d'habitat selon la méthodologie nationale du guide de gestion des sites et sols pollués (et potentiellement pollués) élaboré en 2000.  Il n'y a aucune restriction d'usage sur le site.
+
+37l0l0	un_usage_de_camping	O
+37l0l1	un_usage_d__habitat	A
+37l0l2	gestion_des	N
+37l0l3	sites_et_sols_pollués	O
+37l0l4	en_2000__	T

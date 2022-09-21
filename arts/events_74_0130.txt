@@ -1,0 +1,716 @@
+
+#74.0130
+#Le site historique de Chedde est bordé :
+
+0l0l0	Le_site_historique	O
+0l0l1	Chedde	O
+
+#- au nord, par la D43 reliant le Fayet à Chedde.
+
+1l0l0	au_nord	L
+1l0l1	par_la_D43_reliant_le_Fayet_à_Chedde	L
+
+#- à l'est, par l'Arve et par le viaduc des Egratz,
+
+2l0l0	à_l__est	L
+2l0l1	l__Arve_et_par_le_viaduc_des_Egratz	L
+
+#- à l’ouest, par des bois, des espaces agricoles et des habitations (hameau de Chedde),
+
+3l0l0	à_l__ouest	L
+3l0l1	hameau_de_Chedde	L
+3l1l0	Chedde	I
+
+#- au sud, par l’usine d’incinération d’ordures ménagères de Passy, exploitée par le SITOM des Vallées du Mont Blanc.
+
+4l0l0	au_sud	L
+4l0l1	l_	O
+4l0l2	usine_d__incinération	A
+4l0l3	Passy	O
+4l0l4	exploitée	N
+4l0l5	le_SITOM	O
+4l0l6	Vallées_du_Mont_Blanc	L
+4l1l0	ordures_ménagères	U
+4l1l1	le_SITOM_des_Vallées	I
+
+#Les activités industrielles sur le site historique de Chedde sont très anciennes : elles ont commencé en 1896.
+
+5l0l0	Les_activités_industrielles	A
+5l0l1	Chedde	O
+5l0l2	elles_ont_commencé	N
+5l0l3	en_1896__	T
+
+#L’implantation du site est liée à la présence de l’Arve, torrent permettant la production de l'électricité nécessaire aux procédés industriels.
+
+6l0l0	L__implantation	N
+6l0l1	du_site	O
+6l0l2	l__Arve	L
+6l0l3	la_production_de_l_	A
+6l0l4	procédés_industriels	A
+
+#Le site était initialement dédié à la fabrication de chlorates de sodium et de potassium.
+
+7l0l0	Le_site	O
+7l0l1	était_initialement_dédié_à	R
+7l0l2	la_fabrication	A
+7l1l0	chlorates	U
+7l1l1	sodium	S
+
+#Les productions se sont ensuite significativement diversifiées : perchlorates, carbure de calcium, aluminium, graphite, ferro-alliages, magnésie...
+
+8l1l0	__perchlorates___carbure_de_calcium	S
+8l1l1	__aluminium___graphite___ferro___alliages	S
+8l1l2	__magnésie	S
+
+#Plusieurs exploitants se sont succédés et juxtaposés au cours de l'histoire, en fonction des productions réalisées et des restructurations des groupes industriels (groupes Pechiney et TOTAL notamment).
+
+9l0l0	Plusieurs_exploitants	O
+9l0l1	se_sont_succédés	N
+9l0l2	l__histoire	O
+9l0l3	restructurations	N
+9l0l4	Pechiney	O
+9l1l0	groupes_Pechiney	I
+9l1l1	TOTAL	S
+
+#Le site a également accueilli des activités de fabrication d’explosifs (per)chloratés ("Cheddite") au cours de la première guerre mondiale.
+
+10l0l0	Le_site	O
+10l0l1	a_également_accueilli	N
+10l0l2	des_activités_de_fabrication_d_	A
+10l0l3	cours_de_la_première_guerre_mondiale__	T
+10l1l0	explosifs	U
+10l1l1	per_chloratés	S
+10l1l2	__Cheddite__	S
+
+#La seule activité encore en cours est la fabrication de produits en graphites.
+
+11l0l0	La_seule_activité	O
+11l0l1	la_fabrication_de_produits_en_graphites	A
+
+#Employant près de 200 personnes, elle occupe la majeure partie de l’emprise maximale du site au milieu des années 1980 (11,5 ha sur 14).
+
+12l0l0	elle_occupe	R
+12l0l1	la_majeure_partie_de_l__emprise_maximale	O
+12l0l2	au_milieu_des_années_1980	T
+
+#Cette activité est exercée sous la responsabilité de la société SGL Carbon depuis 1993, sous couvert de l’arrêté préfectoral d’autorisation du 29/12/95, mis à jour le 26/01/18.
+
+13l0l0	Cette_activité	O
+13l0l1	est	N
+13l0l2	exercée_sous	R
+13l0l3	la_responsabilité_de	R
+13l0l4	la_société_SGL_Carbon	O
+13l0l5	depuis_1993	T
+13l0l6	sous_couvert_de	R
+13l0l7	l__arrêté_préfectoral_d__autorisation	O
+13l0l8	29_12_95	T
+13l0l9	le_26_01_18__	T
+13l1l0	la_société_SGL_Carbon	I
+
+#L’usine SGL Carbon fait l’objet de la fiche BASOL 74.0023.
+
+14l0l0	L__usine	O
+14l0l1	SGL_Carbon	A
+14l1l0	SGL_Carbon	I
+
+#Les autres activités industrielles, ayant relevé elles aussi de la législation sur les installations classées pour la protection de l’environnement, se sont arrêtées progressivement à la fin du XXème siècle et les bâtiments correspondants ont été détruits.
+
+15l0l0	Les_autres_activités_industrielles	O
+15l0l1	ayant	T
+15l0l2	relevé_elles_aussi_de	L
+15l0l3	la_législation_sur_les_installations_classées	O
+15l0l4	la_protection_de	A
+15l0l5	l__environnement	O
+15l0l6	se_sont_arrêtées_progressivement	N
+15l0l7	à_la_fin_du_XXème_siècle	T
+15l0l8	les_bâtiments_correspondants	O
+15l0l9	ont_été_détruits	N
+
+#Par exemple, les activités de production de chlorates et de perchlorates ont été exploitées en dernier lieu par la société ATOCHEM, comme acté par récépissé préfectoral du 12/05/86.
+
+16l0l0	les_activités_de_production_de_chlorates	A
+16l0l1	ont_été_exploitées	N
+16l0l2	en_dernier_lieu	N
+16l0l3	la_société_ATOCHEM	O
+16l0l4	acté_par	R
+16l0l5	récépissé_préfectoral	O
+16l0l6	12_05_86__	T
+16l1l0	chlorates	U
+16l1l1	perchlorates	S
+16l1l2	la_société_ATOCHEM	I
+
+#Elles se sont arrêtées respectivement en 1987 et 1990.
+
+17l0l0	se_sont_arrêtées_respectivement	N
+17l0l1	en_1987_et_1990	T
+
+#Les cessations de ces deux activités ont été actées par récépissés préfectoraux du 24/02/87 et 7/03/91.
+
+18l0l0	Les_cessations	N
+18l0l1	ces_deux_activités	O
+18l0l2	ont_été_actées_par_récépissés	N
+18l0l3	24_02_87_et_7_03_91__	T
+
+#La société ARKEMA France constitue l’ayant-droit du dernier exploitant de ces activités et en assume la responsabilité environnementale.
+
+19l0l0	La_société_ARKEMA_France	O
+19l0l1	constitue	N
+19l0l2	l_	O
+19l0l3	exploitant	O
+19l0l4	ces_activités	O
+19l0l5	assume_la_responsabilité_environnementale	N
+19l1l0	La_société_ARKEMA_France	I
+
+#Les activités de production de perchlorates font l’objet de la présente fiche BASOL 74.0130.
+
+20l0l0	Les_activités_de_production_de_perchlorates	A
+20l1l0	perchlorates	S
+
+#Le dernier arrêt d’activité sur le site historique de Chedde date du 31/12/03 et concerne les installations de broyage et conditionnement de magnésie et le laboratoire de recherche en électrothermie, exploités en dernier lieu par la société Pechiney Electrométallurgie (PEM).
+
+21l0l0	Le_dernier_arrêt_d__activité	O
+21l0l1	sur_le_site_historique_de_Chedde	L
+21l0l2	date_du_31_12_03	T
+21l0l3	les_installations	O
+21l0l4	de_broyage_et_conditionnement_de_magnésie	O
+21l0l5	et_le_laboratoire_de_recherche_en_électrothermie	O
+21l0l6	__exploités_en_dernier_lieu	N
+21l0l7	par_la_société_Pechiney_Electrométallurgie___PEM	O
+21l1l0	par_la_société_Pechiney_Electrométallurgie___PEM	I
+
+#L’ancienne usine PEM fait l’objet de la fiche BASOL 74.0024.
+
+22l0l0	L__ancienne_usine_PEM	O
+22l0l1	fait_l__objet_de	R
+22l1l0	PEM	I
+
+#Les terrains sont aujourd’hui occupés par la société de travaux publics Benedetti (propriétaire), dont les activités ne relèvent pas de la législation sur les installations classées.
+
+23l0l0	Les_terrains	O
+23l0l1	sont_aujourd_hui_occupés	N
+23l0l2	la_société_de_travaux_publics_Benedetti	O
+23l0l3	les_activités_ne_relèvent_pas_de_la_législation_sur_les_installations_classées	A
+23l1l0	la_société_de_travaux_publics_Benedetti	I
+
+#A noter également la présence, dès la création de l'usine, d'une décharge interne destinée à accueillir les déchets générés par les différentes activités du site.
+
+24l0l0	dès	T
+24l0l1	la_création	N
+24l0l2	l__usine	O
+24l0l3	activités_du_site	A
+24l1l0	les_déchets	U
+
+#Le crassier, entièrement clôturé, est situé au sud-ouest du site historique de Chedde, dans le prolongement de l’actuelle usine SGL Carbon, entre une zone boisée et l'usine d'incinération à l’ouest et le viaduc des Egratz et l’Arve à l’est.
+
+25l0l0	Le_crassier	O
+25l0l1	est_situé_au_sud_ouest_du_site_historique_de_Chedde	L
+25l0l2	dans_le_prolongement_de_l__actuelle	L
+25l0l3	usine_SGL_Carbon	A
+25l0l4	entre_une_zone_boisée_et_l__usine	L
+25l0l5	incinération	A
+25l0l6	ouest_et_le_viaduc_des_Egratz	L
+25l0l7	l__Arve_à_l__est	L
+25l1l0	SGL	I
+25l1l1	Carbon	U
+
+#Il occupe une superficie d’environ 3 ha.
+
+
+#Il a été fermé puis réhabilite en l'an 2000, sous la responsabilité de la société PEM (responsable actuel : Rio Tinto).
+
+27l0l0	Il	O
+27l0l1	a_été_fermé	N
+27l0l2	réhabilite	N
+27l0l3	en_l__an_2000__	T
+27l0l4	sous	R
+27l0l5	la_responsabilité	N
+27l0l6	de_la_société_PEM	O
+27l1l0	société_PEM	I
+27l1l1	__Rio_Tinto	S
+
+#Cette décharge fait l’objet de la fiche BASOL 74.0022.
+
+28l0l0	Cette_décharge	O
+
+#En 2005-2006, la responsabilité environnementale des anciennes activités de la société PEM (ferro-alliages, magnésie et ancienne décharge notamment) a été transférée à la société Pechiney Bâtiment, filiale du groupe anglo-australien Rio Tinto dédiée à la gestion des sites fermés ("héritage industriel").
+
+29l0l0	En_2005	T
+29l0l1	__2006	T
+29l0l2	la_responsabilité_environnementale	O
+29l0l3	anciennes_activités	N
+29l0l4	la_société_PEM	O
+29l0l5	a_été_transférée	N
+29l0l6	à	R
+29l0l7	la_société_Pechiney_Bâtiment	O
+29l0l8	gestion_des_sites_fermés	O
+29l1l0	la_société_PEM	I
+29l1l1	ferro	S
+29l1l2	magnésie	S
+29l1l3	la_société_Pechiney_Bâtiment	I
+29l1l4	Rio_Tinto	S
+
+#LOCALISATION DES BÂTIMENTS DE PRODUCTION
+
+30l0l0	LOCALISATION_DES_BÂTIMENTS_DE_PRODUCTION	O
+30l1l0	PRODUCTION	I
+
+#L’étude historique transmise par ARKEMA en avril 2018 localise les anciens bâtiments de production de perchlorates :
+
+31l0l0	L__étude_historique_transmise	N
+31l0l1	ARKEMA	O
+31l0l2	en_avril_2018	T
+31l0l3	localise	R
+31l0l4	les_anciens_bâtiments_de	O
+31l0l5	production_de_perchlorates	A
+31l1l0	ARKEMA	I
+31l1l1	perchlorates	U
+
+#° l’un, dénommé "PCl3", utilisé au plus tard jusqu’en 1942, était situé dans la partie sud du site SGL Carbon actuel ; d’après les photographies aériennes, cette partie du site est actuellement occupée par un autre bâtiment exploité par SGL ;
+
+32l0l0	plus_tard_jusqu__en_1942	T
+32l0l1	était_situé_dans_la_partie_sud_du_site	L
+32l0l2	SGL_Carbon_actuel	O
+32l0l3	__cette_partie	O
+32l0l4	du_site	O
+32l0l5	est_actuellement_occupée_par	R
+32l0l6	un_autre_bâtiment	O
+32l0l7	exploité	N
+32l1l0	__PCl3	I
+32l1l1	_	S
+32l1l2	SGL_Carbon	I
+32l1l3	par_SGL	I
+
+#° les 2 autres, dénommés "PCl1 et 2", utilisés au plus tôt à partir de 1942, et jusqu’en 1990, étaient situés à l’ouest du site.
+
+33l0l0	les_2	O
+33l0l1	au_plus_tôt	T
+33l0l2	à	R
+33l0l3	partir_de_1942__	T
+33l0l4	et	A
+33l0l5	jusqu__en_1990__	T
+33l0l6	étaient	R
+33l0l7	situés_à_l__ouest_du_site	L
+
+#Ils n’existent plus aujourd’hui.
+
+34l0l0	n__existent_plus_aujourd_hui	N
+
+#Cette partie du site est actuellement occupée par un parc de stationnement de véhicules au sein de la société Benedetti.
+
+35l0l0	Cette_partie_du_site	O
+35l0l1	est_actuellement_occupée_par	R
+35l0l2	un_parc_de_stationnement_de_véhicules	O
+35l0l3	au_sein_de	R
+35l0l4	la_société_Benedetti	O
+35l1l0	la_société_Benedetti	I
+
+#PREMIERES INVESTIGATIONS CONCERNANT LES PERCHLORATES
+
+36l0l0	PREMIERES_INVESTIGATIONS	N
+36l0l1	CONCERNANT	R
+36l0l2	LES_PERCHLORATES	O
+36l1l0	LES_PERCHLORATES	S
+
+#L’ion perchlorates, polluant "émergent" depuis 2011 en France, n’a semble-t-il jamais fait l’objet d’investigations particulières sur le site historique de Chedde lors de la période d’exploitation de l’usine ou lors de la cessation d’activité en 1990.
+
+37l0l0	depuis_2011	T
+37l0l1	a	N
+37l0l2	semble__t	R
+37l0l3	_il_jamais_fait_l__objet_d_	R
+37l0l4	investigations	N
+37l0l5	le_site_historique	O
+37l0l6	Chedde	O
+37l0l7	lors_de	R
+37l0l8	la_période_d__exploitation	N
+37l0l9	l__usine	O
+37l0l10	lors_de	R
+37l0l11	la_cessation_d__activité	N
+37l0l12	en_1990	T
+37l1l0	L__ion_perchlorates	S
+37l1l1	polluant__	S
+
+#Les perchlorates ont été recherchés dans les eaux souterraines au droit du site SGL Carbon dans le cadre d’un diagnostic réalisé par le bureau 2IE en 2001-2002.
+
+38l0l0	Les_perchlorates	O
+38l0l1	ont_été_recherchés	N
+38l0l2	les_eaux_souterraines	O
+38l0l3	au_droit_du_site	L
+38l0l4	SGL_Carbon	O
+38l0l5	dans_le_cadre_d_	R
+38l0l6	un_diagnostic_réalisé	N
+38l0l7	le_bureau_2IE	O
+38l0l8	en_2001___2002	T
+38l1l0	perchlorates	S
+38l1l1	le_bureau_2IE	I
+
+#Du fait de limites de quantification de laboratoire alors très élevées (1000 µg/L, alors que l’on atteint aujourd’hui 0,1 µg/L), la présence de ce polluant n’avait alors pas été détectée.
+
+39l1l0	ce_polluant	S
+
+#En 2017, une pollution en perchlorates a été détectée dans la nappe d’eau souterraine transfrontalière du genevois.
+
+40l0l0	En_2017__	T
+40l0l1	une_pollution	O
+40l0l2	perchlorates	O
+40l0l3	a_été_détectée	N
+40l0l4	la_nappe	O
+40l0l5	transfrontalière	A
+40l0l6	du_genevois	L
+40l1l0	perchlorates	S
+
+#Ce point a été signalé dans le cadre de la commission franco-suisse dédiée et est suivi depuis lors des réunions périodiques de la commission.
+
+41l0l0	a_été_signalé	N
+41l0l1	est	N
+41l0l2	suivi	O
+41l0l3	depuis	T
+
+#Par suite, les perchlorates  ont été recherchés dans les eaux souterraines et superficielles (Arve) au droit du site historique de Chedde, connu comme un des rares sites de production de cet ion au niveau national.
+
+42l0l0	__ont_été_recherchés	N
+42l0l1	__au_droit_du_site_historique_de_Chedde	L
+42l0l2	comme_un_des_rares_sites_de_production	O
+42l1l0	les_perchlorates	S
+
+#Les investigations ont été menées sur l’ensemble des piézomètres existants, dont les 5 présents dans le secteur "usine" occupé aujourd’hui par les sociétés SGL Carbon et Benedetti (PZR-1-2-3-4), et les 4 piézomètres de la décharge PEM (voir fiche BASOL 74.0022).
+
+43l0l0	Les_investigations_ont_été_menées	N
+43l0l1	les_5	O
+43l0l2	présents_dans_le_secteur___usine	L
+43l0l3	les_sociétés_SGL_Carbon	O
+43l0l4	Benedetti	O
+43l0l5	4_piézomètres	O
+43l0l6	la_décharge_PEM	O
+43l1l0	les_sociétés_SGL_Carbon_et_Benedetti	I
+43l1l1	décharge_PEM	I
+
+#Des concentrations élevées ont été relevées à l’amont, au cœur et à l’aval du secteur usine (concentration maximale : 174 µg/L, pour une valeur de référence de 4 µg/L).
+
+44l0l0	ont_été_relevées	N
+44l0l1	__à_l__amont	L
+44l0l2	au_cœur	O
+44l0l3	l__aval_du_secteur_usine	L
+
+#Par suite, par arrêté du 1/2/17, M. le préfet de la Haute-Savoie a prescrit les investigations suivantes à la société ARKEMA France, ayant-droit du dernier exploitant des installations de production de perchlorates :
+
+45l0l0	du_1_2_17	T
+45l0l1	M__le_préfet_de_la_Haute_Savoie	O
+45l0l2	a_prescrit_les_investigations	N
+45l0l3	la_société_ARKEMA_France	O
+45l0l4	exploitant	O
+45l0l5	des_installations_de_production_de_perchlorates	A
+45l1l0	le_préfet_de_la_Haute_Savoie	I
+45l1l1	la_société_ARKEMA_France	I
+45l1l2	perchlorates	S
+
+#° étude historique concernant les activités chlorates et perchlorates au sein du site de Chedde ;
+
+46l0l0	de_Chedde	O
+46l1l0	activités_chlorates_et_perchlorates	S
+
+#° investigations au droit de l’ancienne usine de Chedde afin d’identifier et de localiser d’éventuelles "sources-sol" à l’origine des perchlorates détectés dans les eaux souterraines ;
+
+47l0l0	investigations	N
+47l0l1	au_droit_de_l__ancienne_usine_de	L
+47l0l2	Chedde	O
+47l0l3	localiser_d__éventuelles___sources	O
+47l1l0	perchlorates	S
+
+#° étude géologique et hydrogéologique, destinée notamment à déterminer les conditions et sens d’écoulement des eaux souterraines dans le secteur du site de Chedde, les communications entre les eaux souterraines et les eaux superficielles (Arve), et l’étendue du panache de pollution aux perchlorates à l’aval du site de Chedde.
+
+48l0l0	étude_géologique_et_hydrogéologique	N
+48l0l1	des_eaux_souterraines	O
+48l0l2	dans_le_secteur_du_site_de_Chedde	L
+48l0l3	perchlorates_à_l__aval_du_site_de_Chedde	L
+48l1l0	aux_perchlorates	S
+
+#° interprétation de l’état des milieux (IEM), conformément à la méthodologie nationale de gestion sites et sols pollués (circulaire ministérielle du 19/04/17) : étude consistant notamment à vérifier la compatibilité entre la qualité des eaux et leurs usages à l’aval du site (puits privés, puits d’irrigation...) ;
+
+49l0l0	état_des_milieux___IEM	O
+49l0l1	gestion_sites_et_sols_pollués	O
+49l0l2	19_04_17	T
+49l0l3	l__aval_du_site	L
+
+#° plan de gestion visant à maîtriser l’impact des pollutions identifiées sur les milieux et usages à l’aval ;
+
+50l0l0	l__aval	O
+
+#° surveillance des eaux : renforcement par rapport au dispositif initialement prescrit à la seule société Pechiney Bâtiment (voir fiche BASOL 74.0024) : ajout des eaux superficielles, ajout des perchlorates et d’autres paramètres pertinents, augmentation de la fréquence d’analyses (trimestrielle).
+
+51l0l0	surveillance_des_eaux	O
+51l0l1	à_la_seule_société_Pechiney_Bâtiment	O
+51l1l0	la_seule_société_Pechiney_Bâtiment	I
+51l1l1	des_perchlorates	S
+
+#Des investigations similaires ont été prescrites en parallèle à la société Pechiney Bâtiment, en lien avec la présence potentielle de déchets perchloratés au sein de l’ancienne décharge (voir fiche BASOL 74.0022).
+
+52l0l0	Des_investigations_similaires_ont_été_prescrites	N
+52l0l1	la_société_Pechiney_Bâtiment	O
+52l1l0	la_société_Pechiney_Bâtiment	I
+52l1l1	déchets_perchloratés	U
+
+#Les prescriptions concernant ces deux sociétés ont été modifiées par arrêté préfectoral du 6/04/18 concernant les délais de réalisation et la responsabilité de la pollution.
+
+53l0l0	Les_prescriptions	O
+53l0l1	ces_deux_sociétés	O
+53l0l2	ont_été_modifiées	N
+53l0l3	par_arrêté_préfectoral	O
+53l0l4	du_6_04_18	T
+53l0l5	responsabilité_de_la_pollution	N
+
+#ETUDE HISTORIQUE
+
+54l1l0	ETUDE_HISTORIQUE	I
+
+#Le rapport a été remis par ARKEMA en avril 2018.
+
+55l0l0	Le_rapport	O
+55l0l1	a_été_remis	N
+55l0l2	ARKEMA	O
+55l0l3	en_avril_2018__	T
+55l1l0	ARKEMA	I
+
+#Cette étude a clarifié l’historique des activités "perchlorates" sur le site de Chedde et les a localisées, permettant de déterminer le lieu des sondages de sol ultérieurs.
+
+56l0l0	Cette_étude_a_clarifié	N
+56l0l1	sur_le_site_de_Chedde	L
+56l0l2	a_localisées	N
+56l0l3	déterminer	R
+56l0l4	le_lieu	O
+56l0l5	sol_ultérieurs	O
+56l1l0	perchlorates	S
+
+#Cette étude a par ailleurs :
+
+
+#° confirmé l’existence sur le site de Chedde, dans la 1ère moitié du XXème siècle, d’une fabrique d’explosifs à base de perchlorates, exploitée par l’armée française ;
+
+58l0l0	le_site	O
+58l0l1	de_Chedde	L
+58l0l2	dans_la_1ère_moitié_du_XXème_siècle	T
+58l0l3	une_fabrique_d__explosifs	O
+58l0l4	perchlorates	O
+58l0l5	exploitée_par	R
+58l0l6	l__armée_française	O
+58l1l0	explosifs	U
+58l1l1	base_de_perchlorates	U
+
+#° identifié le déversement par l’armée française de 4300 t de perchlorates dans l’Arve pendant l’été 1919.
+
+59l0l0	le_déversement	N
+59l0l1	l__armée_française	O
+59l0l2	4300_t_de_perchlorates	O
+59l0l3	dans_l__Arve	L
+59l0l4	pendant_l__été_1919__	T
+59l1l0	perchlorates	S
+
+#Par suite, le ministère des armées a été saisi par M. le préfet de la Haute-Savoie.
+
+60l0l0	le_ministère_des_armées	O
+60l0l1	a_été_saisi	N
+60l0l2	M__le_préfet_de_la_Haute_Savoie	O
+60l1l0	le_ministère_des_armées	I
+60l1l1	le_préfet_de_la_Haute_Savoie	I
+
+#Une étude historique est en cours de réalisation par ce ministère.
+
+61l0l0	Une_étude_historique	N
+61l0l1	est_en_cours_de_réalisation	N
+61l0l2	ce_ministère	O
+
+#ETUDE DE SOL
+
+
+#Un rapport relatif aux sondages effectués au droit des activités "perchlorate" a été réalisé par le bureau d’études BURGEAP et transmis en septembre 2018.
+
+63l0l0	Un_rapport	O
+63l0l1	relatif	R
+63l0l2	aux_sondages_effectués	N
+63l0l3	a_été_réalisé	N
+63l0l4	le_bureau_d__études_BURGEAP	O
+63l0l5	en_septembre_2018__	T
+63l1l0	perchlorate__	I
+63l1l1	BURGEAP	I
+
+#4 sondages présentent des concentrations élevées à très élevées en perchlorates, au droit de l’ancien bâtiment "PCl3" (entre 400 et 32 000 mg/kg MS).
+
+64l0l0	4_sondages	O
+64l0l1	perchlorates	O
+64l0l2	au_droit_de_l__ancien_bâtiment	L
+64l1l0	perchlorates	S
+
+#Le perchlorate a été détecté sur les autres points, mais à des concentrations faibles à moyennes (< 120 mg/kg).
+
+65l0l0	a_été_détecté	N
+65l1l0	Le_perchlorate	S
+
+#En l’état actuel des connaissances concernant les voies de transfert des pollutions, ARKEMA considère que, les sols étant recouverts par de l’enrobé, et la source-sol mise en évidence au droit du bâtiment "PCl3" étant située dans les horizons superficiels (2-3m de profondeur), cette dernière ne peut pas être lixiviée, et qu’elle ne peut donc être à l’origine des concentrations importantes de perchlorates relevées dans les eaux souterraines.
+
+66l0l0	ARKEMA	O
+66l0l1	enrobé	O
+66l0l2	la_source___sol	O
+66l0l3	au_droit_du_bâtiment	L
+66l0l4	située_dans_les_horizons_superficiels	L
+66l1l0	ARKEMA	I
+66l1l1	perchlorates	S
+
+#Des justifications complémentaires sont cependant attendues concernant cette affirmation.
+
+67l0l0	Des_justifications_complémentaires	O
+
+#ETUDE GÉOLOGIQUE ET HYDROGÉOLOGIQUE
+
+68l0l0	ETUDE_GÉOLOGIQUE	N
+68l0l1	HYDROGÉOLOGIQUE	N
+68l1l0	GÉOLOGIQUE	I
+68l1l1	HYDROGÉOLOGIQUE	I
+
+#Un rapport intermédiaire daté de janvier 2019 a été rédigé conjointement par les bureaux AQUILA-CONSEIL et RAMBOLL, travaillant respectivement pour les sociétés ARKEMA et Pechiney Bâtiment.
+
+69l0l0	Un_rapport_intermédiaire	O
+69l0l1	daté_de_janvier_2019	T
+69l0l2	a_été_rédigé_conjointement	N
+69l0l3	les_bureaux_AQUILA	O
+69l0l4	les_sociétés_ARKEMA	O
+69l0l5	Pechiney_Bâtiment	O
+69l1l0	AQUILA___CONSEIL	I
+69l1l1	RAMBOLL	I
+69l1l2	les_sociétés_ARKEMA	I
+69l1l3	Pechiney_Bâtiment	I
+
+#Elle a mis en évidence un schéma d’écoulement des eaux souterraines au droit du site historique de Chedde plus complexe que prévu, et nécessitant des investigations complémentaires (nouveaux piézomètres, mesures physiques...).
+
+70l0l0	au_droit_du_site_historique_de_Chedde	L
+
+#Le rapport définitif devrait être transmis en octobre 2019.
+
+71l0l0	Le_rapport_définitif	O
+71l0l1	devrait_être_transmis	N
+71l0l2	en_octobre_2019__	T
+
+#SURVEILLANCE DES EAUX
+
+72l0l0	SURVEILLANCE_DES_EAUX	O
+
+#Les campagnes de surveillances sont réalisées par ARKEMA au pas trimestriel depuis 2018, comme prévu par l’arrêté préfectoral.
+
+73l0l0	Les_campagnes_de_surveillances	N
+73l0l1	sont_réalisées	N
+73l0l2	ARKEMA	O
+73l0l3	pas_trimestriel	T
+73l0l4	depuis_2018__	T
+73l1l0	ARKEMA	I
+
+#Concernant les eaux souterraines, 10 piézomètres sont prélevés dans le secteur usine, dont 5 installés par ARKEMA en octobre 2018.
+
+74l0l0	dans_le_secteur_usine	L
+74l0l1	ARKEMA	O
+74l0l2	en_octobre_2018__	T
+74l1l0	ARKEMA	I
+
+#Les teneurs en perchlorates mesurées sont faibles au cœur du site (de l’ordre de quelques µg/L).
+
+75l0l0	Les_teneurs	O
+75l0l1	cœur_du_site	L
+75l1l0	perchlorates	S
+
+#Un marquage avec des teneurs élevées est en revanche observé à l’extrémité sud-ouest de l’actuelle usine SGL (maximum : 360 µg/L).
+
+76l0l0	Un_marquage	O
+76l0l1	à_l__extrémité_sud_ouest_de_l__actuelle_usine_SGL	L
+76l1l0	SGL	I
+
+#Concernant les eaux superficielles, 3 points sont prélevés dans l’Arve : à l’amont, à l’aval immédiat (aval décharge), et à l’aval éloigné (amont de Sallanches) du site historique de Chedde.
+
+77l0l0	dans_l__Arve	L
+77l0l1	aval_décharge	O
+77l0l2	à_l__aval_éloigné___amont_de_Sallanches___du_site_historique_de_Chedde	L
+
+#L’impact du site sur les concentrations de perchlorates dans l’Arve est limité, mais visible à l’aval éloigné (maximum 2,9 µg/L en mars-2018) et, ponctuellement, à l’aval immédiat (maximum 1 µg/L en mars-2018, pour un bruit de fond naturel de l’ordre de 0,3 µg/L).
+
+78l0l0	l__Arve	L
+78l0l1	à_l__aval_éloigné	L
+78l0l2	en_mars_2018	T
+78l0l3	à_l__aval	L
+78l0l4	en_mars_2018	T
+78l1l0	perchlorates	S
+
+#INTERPRÉTATION DE L’ÉTAT DES MILIEUX
+
+79l0l0	MILIEUX	O
+
+#L’impossibilité de pouvoir déterminer le responsable de la pollution en perchlorates détectée dans les eaux souterraines du site historique de Chedde n’a pas permis à ce stade de faire réaliser cette étude.
+
+80l0l0	la_pollution	O
+80l0l1	site_historique_de_Chedde	L
+80l1l0	perchlorates	S
+
+#ARKEMA et Pechiney Bâtiment ont produit un inventaire des puits privés situés à l’aval du site historique de Chedde (rapport transmis en mai 2018 et complété en octobre 2018).
+
+81l0l0	ARKEMA	O
+81l0l1	Pechiney_Bâtiment	O
+81l0l2	ont_produit	N
+81l0l3	un_inventaire	N
+81l0l4	des_puits_privés	O
+81l0l5	situés_à_l__aval_du_site_historique_de_Chedde	L
+81l0l6	rapport_transmis	N
+81l0l7	en_mai_2018	T
+81l0l8	et_complété	N
+81l0l9	en_octobre_2018	T
+81l1l0	ARKEMA	I
+81l1l1	Pechiney_Bâtiment	I
+
+#Cet inventaire a permis à l’ARS d’effectuer en juillet et septembre 2018 des analyses d’eau au droit de certains puits privés de la commune de Passy.
+
+82l0l0	Cet_inventaire	N
+82l0l1	l__ARS	O
+82l0l2	d__effectuer	N
+82l0l3	en_juillet_et_septembre_2018	T
+82l0l4	des_analyses_d__eau	A
+82l0l5	au_droit_de_certains_puits_privés_de_la_commune_de_Passy	L
+
+#Les concentrations en perchlorates étaient comprises entre 4 et 18 µg/L sur 9 puits, dans un secteur non raccordé au réseau d’eau potable communal.
+
+83l0l0	Les_concentrations	O
+83l0l1	__dans_un_secteur_non_raccordé_au_réseau	L
+83l1l0	perchlorates	S
+
+#Le dépassement de la valeur guide de 4 µg/L établie par l’ANSES a donné lieu à une information des propriétaires.
+
+84l0l0	Le_dépassement	N
+84l0l1	l__ANSES	O
+84l0l2	a_donné_lieu_à	R
+84l0l3	une_information_des_propriétaires	O
+
+#L’ARS a recommandé de limiter la consommation, par les nourrissons, de l’eau des puits privés concernés.
+
+85l0l0	L__ARS	O
+85l0l1	limiter_la_consommation	A
+85l0l2	les_nourrissons	O
+
+#PLAN DE GESTION DES POLLUTIONS
+
+86l0l0	GESTION_DES_POLLUTIONS	O
+86l1l0	POLLUTIONS	I
+
+#Ce plan constituera l’étape ultime de la gestion de la pollution.
+
+
+#Cette prescription est cependant conditionnée à la détermination de l’origine de la source de pollution et à la compréhension des modalités de transferts des perchlorates dans les différents milieux et dans le temps (sol, eaux souterraines, eaux superficielles).
+
+88l0l0	la_détermination	N
+88l0l1	l__origine_de_la_source_de_pollution	O
+88l0l2	la_compréhension_des_modalités	O
+88l1l0	perchlorates	S
+
+#Ces éléments ne sont pas réunis au 9/08/19.
+
+89l0l0	9_08_19__	T
+
+#La situation, très complexe, est encore insuffisamment comprise.
+
+
+#La réalisation d’un plan de gestion est conditionnée à l'établissement des responsabilités respectives des différents acteurs.
+
+91l0l0	un_plan_de_gestion	O
+91l0l1	est_conditionnée	N

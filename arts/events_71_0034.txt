@@ -1,0 +1,761 @@
+
+#71.0034
+#Le site est situé dans un environnement résidentiel de faible densité (maisons d’habitations individuelles) caractéristique d'un hameau de milieu rural.
+
+0l0l0	Le_site	O
+0l0l1	est_situé_dans_un_environnement_résidentiel	L
+0l0l2	un_hameau_de_milieu_rural	L
+
+#Le site est coupé en deux par la RD n° 140 avec à l'Est de cette voie la partie administrative de l'entreprise et à l'Ouest la partie industrielle qui comprend les bâtiments de stockage, de production et un laboratoire.
+
+1l0l0	Le_site	O
+1l0l1	par_la_RD_n_	L
+1l0l2	à_l__Est_de_cette_voie	L
+1l0l3	la_partie_administrative	O
+1l0l4	l__entreprise	O
+1l0l5	l__Ouest	L
+1l0l6	la_partie_industrielle	O
+1l0l7	comprend	R
+1l0l8	les_bâtiments	O
+1l0l9	production	A
+1l0l10	un_laboratoire	O
+
+#Dans son environnement proche sont présents :
+
+
+#- Au nord, une zone forestière comprenant une zone de rétention utilisée
+
+3l0l0	Au_nord	L
+3l0l1	une_zone_forestière	O
+3l0l2	comprenant	R
+3l0l3	une_zone	O
+
+#comme réserve d’incendie (nord-ouest) et des maisons d’habitations
+
+4l0l0	comme	R
+4l0l1	réserve	O
+4l0l2	nord_ouest	L
+4l1l0	comme_réserve_d__incendie	U
+
+#individuelles (nord-est) ;
+
+5l0l0	nord_est	L
+
+#- à l’est des maisons d’habitations individuelles puis une zone de
+
+6l0l0	à_l__est	L
+6l0l1	une_zone	O
+
+#prairie avec à environ 600 m le ruisseau du Teuil ;
+
+7l0l0	à_environ_600__	L
+7l0l1	m_le_ruisseau_du_Teuil	L
+
+#- au sud des maisons d’habitations individuelles et des hangars
+
+8l0l0	au_sud	L
+8l0l1	hangars	O
+
+#agricoles, une zone de vergers à environ 200 m au sud puis des zones
+
+9l0l0	une_zone_de_vergers	O
+9l0l1	à_environ_200_m_au_sud	L
+9l0l2	des_zones	O
+
+#de prairies ou cultivées;
+
+
+#- à l’ouest, des zones de prairies ou cultivées avec les premières
+
+11l0l0	cultivées_avec	R
+11l0l1	les_premières	O
+
+#habitations individuelles à environ 700 m à l’ouest du site.
+
+12l0l0	habitations_individuelles	O
+12l0l1	à_environ_700___m_à_l__ouest_du_site	L
+
+#► HISTORIQUE
+
+13l1l0	HISTORIQUE	I
+
+#A partir de 1962 démarre sur le site une activité de production et commercialisation de produits de décapage pour le matériel de chantier puis de nettoyage de façades et enfin de démoulage du béton.
+
+14l0l0	A_partir_de_1962	T
+14l0l1	démarre_sur	R
+14l0l2	le_site	O
+14l0l3	une_activité_de_production_et_commercialisation_de_produits_de_décapage	A
+14l0l4	le_matériel_de_chantier	O
+14l0l5	nettoyage_de_façades	A
+14l0l6	démoulage_du_béton	A
+
+#Avant cela, le site était occupé par une exploitation agricole.
+
+15l0l0	le_site	O
+15l0l1	était_occupé_par	R
+15l0l2	une_exploitation_agricole	O
+
+#C'est en 1968 que la SA PIERI est créée et que le site accueille un premier bâtiment.
+
+16l0l0	C_	N
+16l0l1	est_en_1968	T
+16l0l2	la_SA_PIERI	O
+16l0l3	est_créée	N
+16l0l4	le_site	O
+16l0l5	accueille	R
+16l0l6	un_premier_bâtiment	O
+16l1l0	la_SA_PIERI	I
+
+#A compter de 1973, PIERI SA connait un développement important de son marché et le site se développe avec la création de nouveaux bâtiments.
+
+17l0l0	A_compter_de_1973	T
+17l0l1	un_développement	N
+17l0l2	le_site	O
+17l0l3	se_développe_avec	R
+17l0l4	la_création_de_nouveaux_bâtiments	N
+17l1l0	PIERI_SA	I
+
+#En 1997, un incendie dans une zone de conditionnement de solvants détruit une partie des installations (deux bâtiments sont détruits).
+
+18l0l0	En_1997__	T
+18l0l1	un_incendie	N
+18l0l2	dans	L
+18l0l3	une_zone_de_conditionnement_de_solvants	O
+18l0l4	détruit	R
+18l0l5	une_partie_des_installations	O
+18l0l6	deux_bâtiments	O
+
+#Le site est alors réorganisé et de nouveaux bâtiments sont construits.
+
+19l0l0	Le_site	O
+19l0l1	de_nouveaux_bâtiments_sont_construits	N
+
+#L'activité de fabrication de produits de mise en œuvre du béton (ralentisseurs de prise, démoulant, hydrofugeant, colles pour béton…)sera poursuivie par PIERI SA jusqu'en 2001, puis par GRACE Produits de construction qui rachète alors PIERI SA.
+
+20l0l0	L__activité_de_fabrication_de_produits_de_mise_en_œuvre_du_béton	A
+20l0l1	PIERI_SA	O
+20l0l2	jusqu__en_2001___puis	T
+20l0l3	GRACE_Produits_de_construction_qui	O
+20l0l4	rachète_alors	N
+20l1l0	PIERI_SA_jusqu_	I
+20l1l1	GRACE_Produits	I
+20l1l2	PIERI_SA__	I
+
+#L'activité de production de produit de démoulage est arrêtée dès le second semestre 2003 mais les autres productions ne cesseront qu'en octobre 2008 à la fermeture définitive du site de production.
+
+21l0l0	L__activité_de_production_de_produit_de_démoulage	A
+21l0l1	est_arrêtée	N
+21l0l2	dès_le_second_semestre_2003	T
+21l0l3	les_autres_productions	O
+21l0l4	ne_cesseront	N
+21l0l5	qu__en_octobre_2008	T
+21l0l6	la_fermeture_définitive_du_site_de_production	O
+
+#► NATURE DE L'ACTIVITE
+
+22l0l0	L__ACTIVITE	O
+
+#Plusieurs techniques de production des produits étaient employées mais aucune ne comprend de réaction chimiques entre les matières premières :
+
+23l0l0	Plusieurs_techniques	O
+
+#- La dissolution simple : simple mélange de résines et de solvants.
+
+24l1l0	résines	U
+24l1l1	solvants	U
+
+#- La fabrication par broyage : le mélange résines, solvants, pigments et autres charges et homogénéisé par un broyage fin.
+
+25l0l0	broyage	A
+25l1l0	résines	U
+25l1l1	solvants	U
+25l1l2	pigments	U
+
+#- L'émulsification : mélange d'huiles, de résines, d'eau et d'émulsifiant.
+
+26l1l0	résines	U
+
+#- Fabrication par dispersion à haute vitesse : mélange à haute vitesse    par un disperseur des matières premières (charges, résines, solvants,eau).
+
+27l0l0	mélange_à_haute_vitesse	O
+27l1l0	des_matières_premières	U
+27l1l1	charges___résines___solvants	U
+
+#Tous les produits finis étaient conditionnés sur place avant expédition dans des bidons ou fûts métalliques.
+
+28l0l0	fûts_métalliques	O
+
+#Les matières premières étaient principalement constituées par des solvants, des huiles, des acides, des produits pulvérulents des résines (solides ou liquides) et des additifs divers.
+
+29l1l0	solvants	S
+29l1l1	huiles	S
+29l1l2	des_acides	U
+29l1l3	résines	S
+29l1l4	additifs	U
+
+#Diverses matières premières liquides ont donc été stockées en de nombreux points du site qui se répartissent en quatre groupes :
+
+30l0l0	Diverses_matières_premières_liquides	O
+30l0l1	ont_donc_été_stockées	N
+30l1l0	matières_premières_liquides	U
+
+#- Des solvants pétroliers : Essence F, C, White spirit, White spirit D60, White spirit K2, solvant naphta, huiles claires usagées ou neuves.
+
+31l1l0	Des_solvants_pétroliers	S
+31l1l1	Essence_F	I
+31l1l2	White_spirit	S
+31l1l3	White_spirit_D60	I
+31l1l4	White_spirit_K2___solvant_naphta	S
+31l1l5	huiles_claires_usagées	U
+
+#- Des solvants oxygénés : cétones (méthyle-éthyle cétone et métyl-   isobutyl cétone) , acétate de butyle, acétate d'éthyle, cyclohexanone   alcool isopropylique et méthanol.
+
+32l1l0	Des_solvants_oxygénés	S
+32l1l1	cétones	S
+32l1l2	méthyle___éthyle_cétone	S
+32l1l3	métyl____isobutyl_cétone	S
+32l1l4	acétate_de_butyle	S
+32l1l5	acétate_d__éthyle___cyclohexanone___alcool_isopropylique	S
+32l1l6	et_méthanol	S
+
+#- D'autres solvants comme le xylène,
+
+33l1l0	solvants	U
+33l1l1	le_xylène	S
+
+#- Des acides et bases : acide chlorhydrique, acétique, phosphorique et   lessives caustiques.
+
+34l1l0	Des_acides	S
+34l1l1	acide_chlorhydrique	S
+34l1l2	acétique	S
+34l1l3	phosphorique	S
+34l1l4	__lessives_caustiques	U
+
+#Il y avait également sur le site des cuves aériennes de stockage des matières premières.
+
+35l0l0	cuves_aériennes	O
+
+#Du fait de l'activité des déchets dangereux tels que solvants de rinçage, fûts vides et autres emballages souillés étaient également présents sur le site.
+
+36l0l0	rinçage	A
+36l1l0	solvants_de_rinçage	U
+36l1l1	fûts_vides	U
+
+#► RECONNAISSANCES ENVIRONNEMENTALES REALISEES
+
+37l0l0	REALISEES	O
+37l1l0	ENVIRONNEMENTALES	I
+
+#Différentes campagnes de diagnostic environnemental ont été conduites entre 2001 (préalablement au rachat du site par GRACE) et 2012.
+
+38l0l0	Différentes_campagnes_de_diagnostic_environnemental	N
+38l0l1	ont_été_conduites	N
+38l0l2	entre_2001	T
+38l0l3	préalablement_au	R
+38l0l4	rachat_du_site	N
+38l0l5	GRACE	O
+38l0l6	et_2012__	T
+38l1l0	GRACE	I
+
+#Ces reconnaissances ont porté essentiellement sur la qualité des sols et de la nappe souterraine mais également sur la qualité de l'air intérieur de maisons d'habitations proches du site.
+
+39l0l0	Ces_reconnaissances	N
+39l0l1	maisons_d__habitations	O
+39l0l2	proches_du_site	L
+
+#- Janvier et mars 2001 : Diagnostic de pollution préalable au rachat de PIERI par GRACE (8 sondages de sols et 3 piézomètres).
+
+40l0l0	__Janvier_et_mars_2001	T
+40l0l1	__Diagnostic	N
+40l0l2	de_pollution	O
+40l0l3	préalable_au	R
+40l0l4	rachat_de	N
+40l0l5	PIERI	O
+40l0l6	GRACE___8	O
+40l0l7	sondages_de_sols	N
+40l1l0	GRACE	I
+
+#Aucun impact n'a été détecté sur les eaux souterraines mais un impact sur les sols est identifié au niveau de 2 sondages avec une concentration significative de trichloroéthylène à 3 m de profondeur sur l'un des sondages et la mise en évidence d'huile à 0,5 m (apparemment lié à une fuite de canalisation).
+
+41l0l0	les_eaux_souterraines	O
+41l0l1	un_impact	O
+41l0l2	sur	R
+41l0l3	les_sols	O
+41l0l4	est_identifié	N
+41l0l5	au_niveau_de	R
+41l0l6	2_sondages	O
+41l0l7	la_mise_en	N
+41l0l8	une_fuite_de_canalisation	L
+41l1l0	trichloroéthylène	S
+41l1l1	huile	S
+
+#- Mai 2009 : Diagnostic de pollution de sols dans le cadre du démantèlement de 4 cuves enterrées situées en partie sud du site (10 sondages de sols d'une profondeur maximale de 3 m.
+
+42l0l0	Mai_2009	T
+42l0l1	__Diagnostic_de_pollution	N
+42l0l2	de_sols	O
+42l0l3	dans_le_cadre_du	R
+42l0l4	démantèlement_de	N
+42l0l5	4_cuves_enterrées	O
+42l0l6	situées_en_partie_sud_du_site	L
+42l0l7	__10_sondages_de_sols	N
+42l1l0	cuves_enterrées	D
+
+#Aucun impact identifié dans le sol au droit des cuves (concentration pour les substances recherchées < aux seuils de limite de potabilité de l'arrêté du 11/01/2007)
+
+43l0l0	Aucun_impact	O
+43l0l1	au_droit_des_cuves	L
+43l0l2	11_01_2007	T
+
+#- Mai et juin 2010 : Synthèse environnementale liée à la mise à l'arrêt des installations (7 sondages de sols d'une profondeur de 3,5 à 4,5 m et forage de 3 piézomètres(PZ2 bis -remplacement du piézomètre PZ2 de 2001-, PZ4 et PZ5)avec prélèvement sur les 5 piézomètres existants)
+
+44l0l0	__Mai_et_juin_2010	T
+44l0l1	__Synthèse_environnementale	N
+44l0l2	liée_à	R
+44l0l3	la_mise_à_l_	N
+44l0l4	arrêt_des_installations	N
+44l0l5	__7_sondages_de_sols	O
+44l0l6	3_piézomètres_PZ2	O
+
+#→ Impact sur les sols : contamination par les hydrocarbures (C10-C40) avec un maximum de 1400 mg/kg de matière sèche identifiée sur deux sondages.
+
+45l1l0	hydrocarbures	S
+45l1l1	C10_C40	S
+
+#→ Impact important sur les eaux souterraines avec :
+
+
+#~ une contamination par des solvants chlorés (tétrachloroéthylène, trichloroéthylène, Cis 1,2 dichloroéthylène et chlorure de vinyle) au niveau du PZ3.
+
+47l1l0	des_solvants_chlorés	S
+47l1l1	tétrachloroéthylène	S
+47l1l2	trichloroéthylène___Cis_1_2_dichloroéthylène	S
+47l1l3	chlorure_de_vinyle	S
+47l1l4	PZ3	S
+
+#~ Une contamination par du chlorure de vinyle, des d’hydrocarbures volatils fractions comprises entre C8-C10 et C10-C16) et des hydrocarbures aromatiques (Isopropylbenzène,1,3,5 triméthylbenzène,1,2,4 triméthylbenzène, n-propylbenzène et nbutylbenzène) au niveau de PZ5.
+
+48l1l0	du_chlorure_de_vinyle	S
+48l1l1	des_d__hydrocarbures_volatils	S
+48l1l2	C8_C10	S
+48l1l3	C10_C16	S
+48l1l4	des_hydrocarbures_aromatiques	S
+48l1l5	Isopropylbenzène_1_3_5_triméthylbenzène_1_2_4_triméthylbenzène	S
+48l1l6	n___propylbenzène	S
+48l1l7	nbutylbenzène	S
+
+#~ Des teneurs supérieures aux valeurs seuils (arrêté ministériel du 17 décembre 2008) en arsenic et en plomb détectées.
+
+49l0l0	Des_teneurs	O
+49l0l1	17_décembre_2008__	T
+49l1l0	arsenic	S
+49l1l1	plomb	S
+
+#- Juillet 2010 : Campagne de prélèvement sur les eaux souterraines au niveau de PZ3 et PZ5.
+
+50l0l0	Juillet_2010	T
+
+#L'impact sur les eaux souterraines est confirmé.
+
+51l0l0	L__impact	O
+
+#- Décembre 2010 et janvier 2011 : Interprétation de l'état des milieux et du schéma conceptuel.
+
+52l0l0	Décembre_2010_et_janvier_2011	T
+52l0l1	l__état_des_milieux	O
+52l0l2	du_schéma_conceptuel	O
+
+#Sont réalisés à l'intérieur du site : 19 tranchées à la pelle mécanique sur d'anciennes zones de stockage de produits (profondeur variant entre 0,5 et 4m avec prélèvements de sols et de flottants.
+
+53l0l0	réalisés	N
+53l0l1	à_l__intérieur_du_site	L
+53l0l2	19_tranchées	O
+53l0l3	la_pelle_mécanique	O
+
+#A l'extérieur du site sont réalisés: des tests de pompage et prélèvements d'eau sur 2 puits de particuliers (P1201 et P1204), le forage d'un piézomètre (PZ6) dans la propriété la plus proche du site, et des prélèvements et analyses d'air ambiant au niveau de 3 maisons d'habitation.
+
+54l0l0	A_l__extérieur_du_site	L
+54l0l1	sont_réalisés__	N
+54l0l2	des_tests_de_pompage	N
+54l0l3	2_puits_de_particuliers	O
+54l0l4	le_forage	N
+54l0l5	un_piézomètre	O
+54l0l6	dans_la_propriété_la_plus_proche_du_site	L
+54l0l7	des_prélèvements_et_analyses	N
+54l0l8	3_maisons_d__habitation	O
+
+#Est alors mis en évidence :
+
+
+#→ un impact sur les sols au niveau de deux zones distinctes, l'une en partie nord du site, identification d'une source de pollution au droit des rétentions des anciennes cuves aériennes.
+
+56l0l0	un_impact_sur	R
+56l0l1	les_sols	O
+56l0l2	au_niveau_de	R
+56l0l3	deux_zones	O
+56l0l4	une	O
+56l0l5	en_partie_nord_du_site	L
+56l0l6	identification_d_	R
+56l0l7	une_source_de_pollution	O
+56l0l8	au_droit_des_rétentions	O
+56l0l9	anciennes_cuves_aériennes	O
+
+#La pollution apparaît limitée à une zone d'environ 700 m² et sur les deux premiers mètres de sol.
+
+
+#Elle concerne des solvants chlorés, aromatiques et des hydrocarbures (huiles).
+
+58l1l0	solvants_chlorés	S
+58l1l1	aromatiques	S
+58l1l2	hydrocarbures	S
+
+#A l'ouest du site, la source de pollution des eaux souterraines par des composés organo-halogénés volatils n'a pas été identifiée.
+
+59l0l0	A_l__ouest_du_site	L
+59l0l1	la_source_de_pollution	O
+59l0l2	eaux_souterraines	O
+59l1l0	composés_organo___halogénés	S
+
+#→ un impact sur les eaux souterraines au droit du site au niveau de 2 zones distinctes :
+
+60l0l0	un_impact	O
+60l0l1	au_droit_du_site	L
+
+#~ ouest du site : impact par des solvants chlorés (tétrachloroéthylène (PCE), trichloroéthylène (TCE) et les produits issus de leur dégradation
+
+61l0l0	ouest_du_site	L
+61l1l0	des_solvants_chlorés	S
+61l1l1	tétrachloroéthylène	S
+61l1l2	PCE	S
+61l1l3	trichloroéthylène	S
+61l1l4	TCE	S
+61l1l5	les_produits	U
+
+#~ en partie centrale du site : impact par des solvants aromatiques Aucun impact n'est alors identifié dans les eaux souterraines à l’extérieur du site pour les composés identifiés sur site.
+
+62l0l0	en_partie_centrale_du_site	L
+62l1l0	des_solvants_aromatiques	S
+62l1l1	composés	S
+
+#→ Qualité de l'air ambiant des habitations : présence d'hydrocarbures volatils (C4-C12), de xylène, de 1,2,4 triméthylbenzène dans les trois habitations et présence de tri et de tétrachloroéthylène au niveau de l'habitation la plus proche.
+
+63l1l0	hydrocarbures_volatils	S
+63l1l1	C4_C12	S
+63l1l2	xylène	S
+63l1l3	1_2_4_triméthylbenzène	S
+63l1l4	tri_et_de_tétrachloroéthylène	S
+
+#Les prélèvements d'air à l'extérieur des habitations montrent systématiquement la présence de xylènes et d'hydrocarbures volatils.
+
+64l0l0	habitations	L
+64l1l0	xylènes	S
+64l1l1	hydrocarbures	S
+
+#Les concentrations pour les composés identifiés dans l'air ambiant des habitations n'étant pas significatives dans les eaux souterraines au droit des habitations, l'IEM conclue alors à l'absence de lien entre la pollution du site et les constats relatifs à la qualité de l'air ambiant des habitations.
+
+65l0l0	au_droit_des_habitations	L
+65l0l1	la_pollution	N
+65l0l2	les_constats	N
+65l0l3	relatifs_à	R
+65l0l4	la_qualité_de_l__air_ambiant_des_habitations	O
+65l1l0	composés	S
+
+#- Août et septembre 2011 : Complément d'investigations chez les riverains (7 tarières manuelles jusqu'à 1 m de profondeur, forage de 5 piézomètres complémentaires (PZ8 à PZ12)et réalisations de trois prélèvements d'air au niveau de l'habitation la plus proche du site.
+
+66l0l0	Août_et_septembre_2011	T
+66l0l1	__Complément_d__investigations	N
+66l0l2	chez	R
+66l0l3	les_riverains	O
+66l0l4	PZ12_et_réalisations	N
+66l0l5	au_niveau_de_l__habitation_la_plus_proche_du_site	L
+
+#→ Confirmation de l'impact significatif de la nappe au droit du site par des hydrocarbures et des solvants aromatiques volatils (PZ5) mais également à son aval immédiat situé au-delà des limites d'emprise du site(PZ12).
+
+67l0l0	la_nappe	O
+67l0l1	au_droit_du_site	L
+67l0l2	son_aval_immédiat	O
+67l0l3	situé_au_delà_des_limites_d_	L
+67l1l0	hydrocarbures	S
+67l1l1	des_solvants_aromatiques_volatils	S
+
+#→ Confirmation de l'impact significatif de la nappe au droit du site par des solvants chlorés (PZ3) mais également à son aval immédiat situé au-delà des limites d'emprises du site (PZ11).
+
+68l0l0	la_nappe	O
+68l0l1	au_droit_du_site	L
+68l0l2	son_aval_immédiat	O
+68l0l3	situé_au_delà_des_limites_d_	L
+68l1l0	solvants_chlorés	S
+
+#Les panaches de pollution sortent donc des limites du site.
+
+69l0l0	des_limites_du_site	L
+
+#Les concentrations pour les composés identifiés restent inférieures aux seuils de potabilité au niveau de la nappe à l'aplomb des propriétés situées à l'est (PZ8 et PZ9).
+
+70l0l0	aplomb_des_propriétés_situées_à_l__est	L
+70l1l0	composés	S
+
+#→ La présence de tri et de tétrachloroéthylène n'est plus constatée dans l'air de la maison d'habitation mais la présence de xylène, triméthylbenzène et des hydrocarbures aliphatiques et aromatiques est détectée (en concentration très inférieures aux seuils admissibles).
+
+71l1l0	tri	S
+71l1l1	tétrachloroéthylène	S
+71l1l2	xylène	S
+71l1l3	triméthylbenzène	S
+71l1l4	hydrocarbures_aliphatiques	S
+
+#► BILAN DES RECONNAISSANCES
+
+72l0l0	RECONNAISSANCES	O
+
+#Les différentes reconnaissances ont mis en évidence :
+
+
+#1/ Une contamination des sols en deux zones :
+
+74l0l0	Une_contamination	N
+74l0l1	deux_zones	O
+
+#- une première zone polluée par des solvants aromatiques,
+
+75l0l0	une_première_zone_polluée	O
+75l1l0	solvants_aromatiques	S
+
+#- et seconde zone contaminée par des hydrocarbures (huiles).
+
+76l0l0	zone_contaminée	O
+76l1l0	hydrocarbures	S
+
+#2/ Une contamination des eaux souterraines sur deux secteurs.
+
+77l0l0	Une_contamination	N
+
+#L'un correspond au panache de pollution par les solvants aromatiques issus de la première zone de sol contaminée.
+
+78l1l0	solvants_aromatiques	S
+
+#Le second concerne une pollution par des solvants chlorés mais dont la source n'a pas pu être identifiée.
+
+79l0l0	une_pollution	O
+79l1l0	solvants_chlorés	U
+
+#→ Les dernières reconnaissances (septembre 2011) ont mis en évidence que le panache de pollution dépasse les limites d'emprise du site.
+
+80l0l0	Les_dernières_reconnaissances	N
+80l0l1	__septembre_2011__	T
+80l0l2	panache_de_pollution	O
+80l0l3	dépasse_les_limites	L
+
+#3/ Les analyses des prélèvements d'air intérieur dans les habitations situées à l'aval hydraulique du site ont, dans un premier temps, mis en évidence pour une habitation une incompatibilité d'usage avec le niveau de la qualité de l'air.
+
+81l0l0	les_habitations	O
+81l0l1	situées_à_l__aval_hydraulique_du_site	L
+81l0l2	une_habitation	O
+
+#Une seconde campagne de mesures n'a pas confirmé ce constat.
+
+82l0l0	Une_seconde_campagne_de_mesures	N
+
+#Par ailleurs, à ce jour, les conclusions des reconnaissances ont conduit l'exploitant à écarter la possibilité d'un lien entre les premières mesures sur la qualité de l'air intérieur et la pollution mise en évidence sur le site.
+
+83l0l0	à_ce_jour	T
+83l0l1	reconnaissances	N
+83l0l2	l__exploitant	O
+83l0l3	les_premières_mesures	N
+
+#► PLAN DE GESTION
+
+84l0l0	GESTION	O
+
+#Partant du diagnostic environnemental établi, l'exploitant a préparé un plan de gestion du site.
+
+85l0l0	Partant	R
+85l0l1	du_diagnostic_environnemental_établi	N
+85l0l2	l__exploitant	O
+85l0l3	a_préparé	N
+85l0l4	un_plan_de_gestion	N
+
+#Ce plan comprenait initialement :
+
+
+#1/ Une excavation des deux sources de pollution identifiées au niveau des sols avec un traitement des terres excavées hors site.
+
+87l0l0	Une_excavation	N
+87l0l1	deux_sources_de_pollution	O
+87l0l2	un_traitement_des_terres_excavées	N
+
+#Le volume de sol concerné représente environ 900 m3 soit près de 1800 tonnes.
+
+88l0l0	1800_tonnes	O
+
+#2/ Un traitement de eaux souterraines de type bio-remediation aérobie pour la pollution par les solvants aromatiques.
+
+89l0l0	Un_traitement	N
+89l1l0	solvants_aromatiques	S
+
+#3/ Un traitement de eaux souterraines de type bio-remediation anaérobie pour la pollution par les solvants chlorés.
+
+90l0l0	3_	O
+90l1l0	solvants_chlorés	S
+
+#Le chantier de dépollution du site qui a démarré en décembre 2011 intègre également:
+
+91l0l0	Le_chantier_de_dépollution	N
+91l0l1	du_site	O
+91l0l2	a_démarré	N
+91l0l3	en_décembre_2011	T
+91l0l4	intègre	R
+
+#1/ Une dynamisation du traitement de la zone source de pollution de la nappe par les solvants aromatiques par un pompage en aval immédiat de cette zone et une réinjection des eaux dans la zone elle-même.
+
+92l0l0	dynamisation_du_traitement	N
+92l0l1	la_zone_source_de_pollution	O
+92l0l2	un_pompage	N
+92l0l3	en_aval_immédiat_de_cette_zone	L
+92l0l4	une	N
+92l0l5	réinjection_des_eaux	O
+92l0l6	dans	L
+92l0l7	la_zone	O
+92l1l0	solvants_aromatiques	S
+
+#2/ Un traitement du panache de pollution par les solvants aromatiques par plusieurs points d'injection et de contrôle prévus également sur la propriété voisine.
+
+93l0l0	Un_traitement	N
+93l0l1	panache_de_pollution	O
+93l0l2	la_propriété_voisine	O
+93l1l0	solvants_aromatiques	S
+
+#La durée de traitement de la nappe est estimée à au moins 18 mois.
+
+94l0l0	traitement	N
+94l0l1	la_nappe	O
+
+#Les traitements de la nappe ont débuté en janvier 2012.
+
+95l0l0	Les_traitements	N
+95l0l1	la_nappe	O
+95l0l2	ont_débuté	N
+95l0l3	en_janvier_2012__	T
+
+#► TRAVAUX DE REHABILITATION
+
+96l0l0	TRAVAUX_DE_REHABILITATION	N
+
+#Les sols pollués excavés du 30 novembre au 21 décembre 2011 ainsi que des débris de béton sain ou pollué ont fait l'objet d'un traitement hors site (en CET de classe I pour les bétons pollués, en biocentre pour les terres polluées, en installation de stockage de déchets inertes pour les bétons sains).
+
+97l0l0	Les_sols_pollués	O
+97l0l1	excavés	N
+97l0l2	du_30_novembre_au_21_décembre_2011	T
+97l0l3	béton_sain_ou_pollué	O
+97l0l4	ont_fait_l__objet_d_	R
+97l0l5	un_traitement_hors_site	N
+97l0l6	CET	O
+97l0l7	terres_polluées	O
+97l0l8	bétons_sains	O
+97l1l0	CET	I
+
+#Le traitement de la nappe par bio-remédiation, initié en janvier 2012, est accompagné d'un suivi trimestriel de la qualité des eaux souterraines.
+
+98l0l0	Le_traitement_de_la_nappe	N
+98l0l1	initié	N
+98l0l2	en_janvier_2012__	T
+98l0l3	est_accompagné	R
+98l0l4	un_suivi_trimestriel	A
+98l0l5	la_qualité_des_eaux_souterraines	O
+
+#Les objectifs de la réhabilitation visent à ramener les concentrations en polluants sous les seuils réglementaires de potabilité ou, à défaut de valeurs guides, à réduire de 80% leur concentration par rapport aux teneurs moyennes initiales (mesurées en mars 2012).
+
+99l0l0	Les_objectifs	O
+99l0l1	la_réhabilitation	O
+99l0l2	mesurées	N
+99l0l3	en_mars_2012____	T
+
+#Un bilan de cette surveillance dressé en février 2014 vient confirmer l'efficacité des opérations de traitement de la nappe.
+
+100l0l0	Un_bilan_de_cette_surveillance_dressé	N
+100l0l1	en_février_2014	T
+100l0l2	traitement	N
+100l0l3	la_nappe	O
+
+#- Dans la zone de PZ3, les teneurs en PCE et TCE répondent aux objectifs de réhabilitation ; la dégradation biologique de ces solvants chlorés au cours du traitement explique par ailleurs les teneurs observées en cis-1,2-DCE et chlorure de vinyle, supérieures aux valeurs seuil fixées.
+
+101l0l0	la_zone	O
+101l0l1	du_traitement	N
+101l1l0	PCE	S
+101l1l1	TCE	S
+101l1l2	ces_solvants_chlorés	S
+101l1l3	cis_1_2_DCE	S
+101l1l4	chlorure_de_vinyle	S
+
+#- Pour la zone PZ5, les objectifs de dépollution sont atteints pour les teneurs en hydrocarbures totaux (C5-C40), en hydrocarbures aromatiques, ainsi qu'en solvants chlorés hormis le chlorure de vinyle dans les ouvrages Pz2bis, P3 et P4.
+
+102l0l0	la_zone_PZ5	O
+102l0l1	les_objectifs	O
+102l0l2	de_dépollution	N
+102l0l3	sont_atteints	N
+102l1l0	hydrocarbures_totaux	S
+102l1l1	C5_C40	S
+102l1l2	hydrocarbures_aromatiques	S
+102l1l3	solvants_chlorés	S
+102l1l4	le_chlorure_de_vinyle	S
+
+#- Le panache de pollution en aval de PZ5 présente une situation plus complexe tant sur site que hors site.
+
+103l0l0	Le_panache_de_pollution	O
+103l0l1	en_aval_de_PZ5	L
+
+#Les teneurs en hydrocarbures totaux (C5-C40) sont fluctuantes et ponctuellement en hausse, malgré une tendance globale à la diminution et à une stabilisation sur la période 2012-2013 ; les objectifs de dépollution ne sont pas encore atteints pour ces composés en PA1, PA2, PA3, PA7, PZ5 et PZ12.
+
+104l0l0	la_période_2012___2013	T
+104l1l0	hydrocarbures_totaux	S
+104l1l1	C5_C40__	S
+104l1l2	PZ5	S
+104l1l3	PZ12	S
+
+#Les teneurs en hydrocarbures aromatiques bien que stables restent au-dessus des limites fixées, sauf dans PZ1 et PA5.
+
+105l0l0	au_dessus	N
+105l1l0	hydrocarbures_aromatiques	S
+
+#Les concentrations en solvants chlorés sont également stables et conformes aux objectifs de dépollution hormis en PA2 ainsi qu'en PA1 où une hausse de la teneur a été constatée en décembre 2013.
+
+106l0l0	a_été_constatée	N
+106l0l1	en_décembre_2013__	T
+106l1l0	solvants_chlorés	S
+
+#Dans les ouvrages PC2, PC4 et PZ11, la concentration en chlorure de vinyle reste également supérieure aux objectifs fixés pour la réhabilitation du site.
+
+107l0l0	la_réhabilitation	N
+107l1l0	chlorure_de_vinyle	S
+
+#Avril 2014 : l'inspection du site confirme la nécessité de continuer la surveillance et le traitement de la nappe, sauf pour la zone PZ5 "source" où le suivi de la qualité des eaux souterraines permet d'envisager l'arrêt du dispositif de dépollution.
+
+108l0l0	Avril_2014	T
+108l0l1	la_nécessité_de_continuer	O
+108l0l2	la_surveillance	A
+108l0l3	le_traitement	N
+108l0l4	la_nappe	O
+108l0l5	la_zone_PZ5	O
+108l0l6	le_suivi_de_la_qualité_des_eaux_souterraines	A
+108l0l7	dépollution	N
+
+#Pour ce qui est du panache de pollution en aval de PZ5, les objectifs de réhabilitation non encore atteints nécessitent de poursuivre voire renforcer le traitement selon des modalités à déterminer.
+
+109l0l0	panache_de_pollution	O
+109l0l1	en_aval_de	L
+109l0l2	PZ5	O
+109l0l3	les_objectifs_de_réhabilitation	O
+109l0l4	renforcer	N
+109l0l5	le_traitement	O
+109l0l6	selon	R
+109l0l7	des_modalités	O
+
+#Une prolongation des travaux jusqu'à fin 2014 est également prévue pour la zone PZ3, où la dégradation biologique des solvants chlorés progresse.
+
+110l0l0	Une_prolongation	O
+110l0l1	des_travaux	N
+110l0l2	fin_2014	T
+110l0l3	est_également_prévue	O
+110l0l4	la_zone_PZ3__	O
+110l0l5	dégradation_biologique	N
+110l0l6	solvants_chlorés	A
+110l1l0	solvants_chlorés	U

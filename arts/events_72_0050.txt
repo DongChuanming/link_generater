@@ -1,0 +1,312 @@
+
+#72.0050
+#Le site, d'une superficie de 25.000 m2, est implanté à 1,5 km à l'est de la commune de Mansigné.
+
+0l0l0	Le_site	O
+0l0l1	est_implanté_à_1_5_km_à_l__est_de_la_commune_de_Mansigné	L
+
+#L'entreprise LEFAUCHEUR a été autorisée en 1999 par arrêté préfectoral n°99.3163 à exploiter un  dépôt de ferrailles et de véhicules hors d'usage  (VHU) dont le stockage maximum est de 70 VHU.
+
+1l0l0	L__entreprise_LEFAUCHEUR	O
+1l0l1	a_été_autorisée	N
+1l0l2	en_1999	T
+1l0l3	par_arrêté_préfectoral	O
+1l0l4	exploiter	N
+1l0l5	un___dépôt_de_ferrailles	O
+1l1l0	LEFAUCHEUR	I
+
+#Le site a exercé les mêmes activités entre 1991 et 2003, à savoir : stockage de différents métaux (ferraille mêlée, platinage, cuivre, fonte, aluminium...), stockage d'épaves de véhicules automobiles et agricoles, stockage de matériel agricole de culture.
+
+2l0l0	Le_site	O
+2l0l1	a_exercé_les_mêmes_activités	N
+2l0l2	entre_1991_et_2003__	T
+2l0l3	stockage	O
+2l0l4	stockage	O
+2l0l5	de_matériel_agricole_de_culture	A
+2l1l0	cuivre	S
+2l1l1	aluminium	S
+
+#Depuis fin 2003, l'exploitant ne stocke plus de ferrailles et n'exerce plus aucune activité sur son site de Mansigné.
+
+3l0l0	Depuis_fin_2003__	T
+3l0l1	l__exploitant	O
+3l0l2	ne	N
+3l0l3	stocke	O
+3l0l4	plus_de_ferrailles	A
+3l0l5	n__exerce_plus_aucune_activité	N
+3l0l6	sur_son_site_de_Mansigné	L
+
+#L'arrêt de l'activité a été constaté  le 23 septembre 2010 par l'inspection des installations classées.
+
+4l0l0	L__arrêt_de	N
+4l0l1	l__activité	O
+4l0l2	a_été_constaté	N
+4l0l3	__le_23_septembre_2010	T
+4l0l4	par_l__inspection_des_installations_classées	O
+
+#Une mise en sécurité a été effectuée suite à la cessation d'activité.
+
+5l0l0	Une_mise_en_sécurité	N
+5l0l1	a_été_effectuée	N
+5l0l2	suite_à	R
+5l0l3	la_cessation_d__activité	N
+
+#Les déchets ont été évacués et éliminés.
+
+6l0l0	Les_déchets	O
+6l0l1	ont_été_évacués	N
+6l0l2	éliminés	N
+
+#Les risques suivants ont été identifiés :
+
+7l0l0	ont_été_identifiés	N
+
+#-pollution potentielle par ruissellement, puis fossés,
+
+
+#-pollution potentielle par infiltration, contamination des sols, sous-sols.
+
+
+#Le 24 février 2011, une notification de cessation d'activité a été réalisée accompagnée d'un changement d'usage en un terrain résidentiel.
+
+10l0l0	Le_24_février_2011__	T
+10l0l1	une_notification_de_cessation_d__activité	N
+10l0l2	a_été_réalisée	N
+10l0l3	accompagnée_d_	R
+10l0l4	un_changement_d__usage_en	N
+10l0l5	un_terrain_résidentiel	O
+
+#Le site  a été vendu le 4 mars 2011 à des particuliers.
+
+11l0l0	Le_site	O
+11l0l1	__a_été_vendu	N
+11l0l2	le_4_mars_2011	T
+11l0l3	à_des_particuliers	O
+
+#Le préfet a effectué une mise en demeure n°2012264-002 du 20 septembre 2012, compte tenu du futur usage résidentiel du site avec les abords proches de l'habitation en pelouse et le reste du site, comme terrain attenant.
+
+12l0l0	Le_préfet	O
+12l0l1	a_effectué	N
+12l0l2	une_mise_en_demeure	N
+12l0l3	20_septembre_2012__	T
+12l0l4	futur_usage_résidentiel_du_site	O
+12l0l5	avec	R
+12l0l6	les	O
+12l0l7	abords_proches_de_l__habitation	L
+12l1l0	Le_préfet	I
+
+#Dans le cadre du mémoire de cessation, des sources potentielles de pollution ont été mise en évidence :
+
+13l0l0	des_sources_potentielles_de_pollution	O
+13l0l1	ont_été_mise	N
+
+#-ancienne zone de stockage de ferrailles (sondage LEF 1, à 1m de profondeur),
+
+14l0l0	_ancienne_zone_de_stockage_de_ferrailles	O
+
+#-ancienne zone de stockage de batteries, sur rétention(sondage LEF 2, à 1m de profondeur),
+
+15l0l0	_ancienne_zone_de_stockage_de_batteries	O
+
+#-ancienne zone de stockage de carcasses de véhicule(sondage LEF 3, à 1m de profondeur).
+
+16l0l0	_ancienne_zone	O
+16l0l1	carcasses_de_véhicule_sondage	O
+
+#Les résultats des investigations sur les sols de février 2011 ont mis en évidence :
+
+17l0l0	Les_résultats	O
+17l0l1	des_investigations_sur_les_sols	N
+17l0l2	de_février_2011	T
+
+#* au sondage LEF1 :
+
+
+#-des traces d'hydrocarbures totaux (44,2 mg/kg MS),
+
+19l1l0	traces_d__hydrocarbures_totaux	S
+
+#-la présence de divers éléments traces métalliques, notamment pour les paramètres plomb (143 mg/kg MS) et mercure (0,24 mg/kg MS).
+
+20l1l0	éléments_traces	U
+20l1l1	métalliques	S
+20l1l2	plomb	S
+20l1l3	mercure	S
+
+#* au sondage LEF 2 :
+
+
+#-des hydrocarbures totaux (261 mg/kg),
+
+22l1l0	_des_hydrocarbures_totaux	S
+
+#-la présence de divers éléments traces métalliques, notamment la présence de plomb (779 mg/kg MS), de zinc (746 mg/kg MS) et de cadmium (1,41 mg/kg MS).
+
+23l1l0	éléments_traces_métalliques	S
+23l1l1	plomb	S
+23l1l2	zinc	S
+23l1l3	cadmium	S
+
+#* au sondage LEF3 :
+
+
+#-des traces d'hydrocarbures (77,7 mg/ks MS),
+
+25l1l0	traces_d__hydrocarbures	S
+
+#-la présence de divers éléments traces métalliques mais avec des valeurs proche de celles du fonds géochimique naturel.
+
+26l1l0	divers_éléments_traces	U
+26l1l1	métalliques	S
+
+#L'exploitant a indiqué que la zone contaminée identifiée au niveau du sondage LEF2, ne serait pas une zone utilisée, même ponctuellement, par les futurs occupants.
+
+27l0l0	L__exploitant	O
+27l0l1	a_indiqué	N
+27l0l2	la_zone_contaminée	O
+27l0l3	LEF2__	O
+27l0l4	ne	R
+27l0l5	zone_utilisée	N
+27l0l6	les_futurs_occupants	O
+
+#Cette zone ne sera pas inclues dans le périmètre clôturée de la partie habitation (pelouse, maison, potager...).
+
+28l0l0	Cette_zone	O
+28l0l1	ne_sera_pas_inclues	R
+28l0l2	dans_le_périmètre	L
+28l0l3	clôturée	O
+28l0l4	habitation	A
+
+#Aucune mesure pour limiter l'accès au site, ni de surveillance particulière n'est envisagée.
+
+
+#En octobre 2012, un diagnostic de pollution de sols réalisé par un bureau d'études a permis de mieux connaître l'état du site et de proposer une stratégie de réhabilitation :
+
+30l0l0	En_octobre_2012__	T
+30l0l1	un_diagnostic_de_pollution_de_sols	N
+30l0l2	réalisé_par	N
+30l0l3	un_bureau_d__études	O
+30l0l4	une_stratégie_de_réhabilitation	O
+
+#-pour les hydrocarbures : la moitié des échantillons a une concentration inférieure ou voisine de 50 mg/kg MS.
+
+31l1l0	les_hydrocarbures	S
+
+#Les autres présentent des contaminations légères à moyennes avec un maximum de 390 mg/kg MS;
+
+
+#-pour les HAP (Hydrocarbures Aromatiques Polycycliques): les mesures traduisent une contamination plus prononcée dans les sols de surface avec pratiquement tous les composés détectés de la famille des HAP;
+
+33l1l0	les_HAP	S
+33l1l1	Hydrocarbures_Aromatiques_Polycycliques	S
+33l1l2	composés	S
+33l1l3	HAP	S
+
+#-les BTEX (Benzène, Toluène, Éthylbenzène et Xylènes) ne sont pas retrouvés dans les échantillons de sol de surface, mais sont présents dans deux zones où des déchets ont été enfouis (valeur max : 0,84 mg/kg MS);
+
+34l0l0	deux_zones	O
+34l0l1	ont_été_enfouis	N
+34l1l0	_les_BTEX	S
+34l1l1	Benzène	S
+34l1l2	Toluène	S
+34l1l3	Éthylbenzène	S
+34l1l4	Xylènes	S
+34l1l5	des_déchets	U
+
+#-la présence de COHV (Composés Organiques Halogénés Volatils) n'a été constatée ;
+
+35l1l0	COHV	S
+35l1l1	Composés_Organiques_Halogénés_Volatils	S
+
+#-les PCB (Polychlorobiphényls) ont été détecté dans un seul échantillon à l'état de trace (0,12 mg/kg MS).
+
+36l0l0	ont_été_détecté	N
+36l1l0	_les_PCB	S
+36l1l1	Polychlorobiphényls	S
+
+#Il apparaît que la qualité des sols est incompatible avec les usages actuels et potentiels.
+
+
+#En raison de la présence de zones identifiées avec enfouissement de déchets divers, le bureau d'étude recommande des investigations complémentaires sur le milieu sol afin de dimensionner ces zones.
+
+38l0l0	enfouissement	N
+38l0l1	le_bureau_d__étude	O
+38l0l2	recommande_des_investigations_complémentaires	N
+38l0l3	dimensionner	A
+38l0l4	ces_zones	O
+
+#Les mesures de gestion proposées sont les suivantes :
+
+
+#-les sols les plus contaminés peuvent faire l'objet d'une évacuation vers des filières agrées et adaptées en fonction des concentrations et des contaminants identifiés ;
+
+40l0l0	sols_les_plus_contaminés	O
+40l0l1	peuvent	N
+40l0l2	faire_l__objet_d_	R
+40l0l3	une_évacuation	N
+40l0l4	vers_des_filières_agrées	L
+40l1l0	contaminants	S
+
+#-les sols moins contaminés peuvent rester sur site sous réserve de validation de leur compatibilité avec les usages actuels et futurs dans le cadre d'une EQRS (Evaluation Quantitative des Risques Sanitaires),
+
+41l0l0	sous_réserve_de	R
+41l0l1	validation	N
+41l1l0	Sanitaires	S
+
+#-le maintien sur site des sols contaminés après nettoyage du site pour l'enlèvement des déchets divers enfouis identifiés.
+
+42l0l0	sols_contaminés_après_nettoyage	O
+42l0l1	l__enlèvement	N
+
+#Les sols contaminés devront être recouverts localement d'une épaisseur de terre végétale d'apport de a minima 0,30 (apport jusqu'à 1m maximum en fonction des usages futurs prévus).
+
+43l0l0	sols_contaminés	O
+
+#Les déchets doivent être collectés et évacués selon des filières de valorisation ou d'élimination autorisées.
+
+44l1l0	Les_déchets	U
+
+#L'inspection des installations classées a proposé de réaliser des travaux de remise en état pour un usage résidentiel sur l'ensemble du site :
+
+45l0l0	L__inspection_des_installations_classées	O
+45l0l1	a_proposé	N
+45l0l2	de_réaliser_des_travaux_de_remise_en_état	N
+45l0l3	un_usage_résidentiel	A
+
+#- délimiter un espace de vie destiné à être dépollué,
+
+46l0l0	délimiter	R
+46l0l1	dépollué	N
+
+#- mettre en place une clôture avec 2 portails pour faciliter l'accès,
+
+47l0l0	mettre_en_place_une_clôture	N
+
+#- décaisser les terres polluées à l'intérieur du périmètre délimité,
+
+48l0l0	décaisser	N
+48l0l1	les_terres_polluées	O
+
+#- remplacer les matériaux évacués par des matériaux inertes préférentiellement argileux et de la terre végétale,
+
+49l0l0	matériaux_évacués	N
+49l1l0	les_matériaux	U
+49l1l1	des_matériaux_inertes	U
+
+#- entretenir la végétation du site,
+
+50l0l0	entretenir_la_végétation	N
+
+#- extraire et évacuer les déchets enfouis sur les 4 zones identifiées (P13,P15, P25 et cave),
+
+51l0l0	extraire	N
+51l0l1	évacuer_les_déchets_enfouis	N
+51l1l0	les_déchets	U
+
+#- réaliser une EQRS validant la compatibilité de la réhabilitation de la zone de vie avec un usage résidentiel.
+
+52l0l0	réaliser	N
+52l0l1	une_EQRS	O
+52l0l2	la_réhabilitation	N
+52l0l3	la_zone_de_vie	O
+52l0l4	un_usage_résidentiel	A

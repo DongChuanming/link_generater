@@ -1,0 +1,125 @@
+
+#68.0195
+#Il s'agit d'une ancienne carrière d'exploitation de granite, elle fut exploitée ensuite comme décharge (sans autorisation d'exploitation) avant les années 1960.
+
+0l0l0	ancienne	O
+0l0l1	carrière_d__exploitation	N
+
+#L'activité cesse en 1989.
+
+1l0l0	cesse_en_1989__	O
+
+#Un Arrêté type Police des Eaux n°98805 du 28 juillet 1992 arrête la fermeture de la décharge.
+
+2l0l0	Un_Arrêté_type	O
+2l0l1	Police	N
+2l0l2	des_Eaux_n__98805_du_28_juillet_1992_arrête_la_fermeture_de_la_décharge__	T
+
+#Actuellement, le site correspond à une plateforme nivelée d'environ 15 mètres de haut, dont le talus arrive en contrebas de la rue de l'Eglise.
+
+3l0l0	Actuellement___le_site_correspond	O
+3l0l1	plateforme_nivelée	T
+3l0l2	d__environ_15_mètres	N
+3l0l3	de_haut___dont	O
+
+#Le type de déchets entreposés:
+
+4l0l0	déchets	O
+4l0l1	entreposés__	R
+
+#- Gravats;
+
+
+#- Encombrants;
+
+6l0l0	Encombrants	O
+
+#- Ordures ménagères;
+
+7l1l0	Ordures_ménagères__	I
+
+#- Déchets de démolition;
+
+8l1l0	Déchets_de_démolition	D
+
+#- Déchets de voirie;
+
+
+#- Déchets verts;
+
+
+#- Ferrailles;
+
+11l1l0	Ferrailles__	U
+
+#- Enrobés.
+
+
+#Le site est clôturé et fermé puis cédé à l'entreprise FRITSCH pour le stockage provisoire de ferrailles, dalles, terre végétale, enrobés, déchets verts et déchets de démolition.
+
+
+#Il existe une partie clôturé en pied de talus où sont entreposés des déchets pour le compostage et où sont encore des déchets divers de la décharge (ferrailles, encombrants).
+
+14l0l0	Il_existe	O
+14l0l1	une_partie	N
+14l0l2	clôturé_en_pied_de	N
+14l0l3	talus_où_sont_entreposés	O
+14l0l4	des_déchets_pour_le_compostage	N
+14l0l5	et_où_sont	O
+14l0l6	encombrants____	N
+14l1l0	entreposés	I
+
+#Des prélèvement ont été réalisés sur de l'eau prélevée dans un regard de collecte des eaux d'infiltration de la décharge en pied de talus.
+
+15l0l0	prélèvement_ont_été_réalisés	O
+15l0l1	sur_de_l__eau	L
+15l0l2	prélevée_dans_un_regard	N
+15l0l3	collecte_des_eaux_d__infiltration	A
+
+#Elles révèlent:
+
+16l0l0	Elles_révèlent__	N
+
+#>> Pollution organique faible, mais pouvant être attribuée aux déchets fermentescibles et composts:
+
+
+#- Carbone Organique Total (COT);
+
+
+#- Demande Chimique en Oxygène (DCO);
+
+19l1l0	Demande_Chimique_en_Oxygène	S
+19l1l1	_	S
+
+#>> Des concentrations en ions métalliques importantes:
+
+20l1l0	concentrations_en_ions	S
+
+#- Fer;
+
+
+#- Plomb;
+
+22l1l0	Plomb	S
+
+#- Mercure;
+
+23l1l0	Mercure	S
+
+#- Avec des dépassements des normes de potabilité pour le manganèse (concentration de 750 µg/L) et pour le zinc (concentration de 200 µg/L).
+
+24l1l0	Avec_des	S
+
+#>> Des concentrations en certains ions majeurs dépassant les normes de potabilité, notamment les sulfates et le potassium.
+
+25l0l0	concentrations	N
+25l1l0	dépassant_les_normes	S
+25l1l1	sulfates_et	S
+
+#Ces éléments sont présents dans les déchets agricoles.
+
+
+#Il convient de poursuivre le suivi d'impact afin de vérifier la variabilité temporelle de ces éléments.
+
+27l1l0	convient_de	S
+27l1l1	suivi_d__impact_afin_de_vérifier	U

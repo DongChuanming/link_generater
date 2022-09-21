@@ -1,0 +1,540 @@
+
+#49.0027
+#Le site de la société YARA France à Trémentines se situe dans une zone urbaine affectée aux activités économiques, non insérables dans les espaces urbanisés à dominante résidentielle.
+
+0l0l0	Le_site	O
+0l0l1	la_société_YARA_France	O
+0l0l2	à	R
+0l0l3	Trémentines	O
+0l0l4	se_situe_dans_une_zone_urbaine	L
+0l0l5	affectée_aux	R
+0l0l6	activités_économiques	A
+0l0l7	les_espaces_urbanisés	N
+0l1l0	la_société_YARA_France	I
+0l1l1	Trémentines	I
+
+#Elle est entourée de parcelles agricoles et d’une voie ferrée à l’Est.
+
+1l0l0	entourée_de_parcelles_agricoles	O
+1l0l1	une_voie_ferrée	O
+1l0l2	à_l__Est	L
+
+#Sa superficie est de 28 532 m².
+
+
+#Le plan d’eau le plus proche se situe à 500 mètres au Sud du site (en aval) : étang de la Florancière.
+
+3l0l0	Le_plan_d__eau_le_plus_proche	O
+3l0l1	se_situe_à_500_mètres_au_Sud_du_site___en_aval__	L
+3l0l2	__étang_de_la_Florancière	L
+
+#Le niveau de la nappe est généralement de faible profondeur et suit globalement la surface du sol.
+
+
+#L’écoulement des eaux souterraines semble s’effectuer en direction du Sud et ces eaux sont affleurantes sur le site de l’étude.
+
+5l0l0	en_direction_du_Sud	L
+5l0l1	ces_eaux	O
+
+#A noter que le milieu environnant l’étang est essentiellement composé de parcelles agricoles, et s’avère être le récepteur principal des eaux de ruissellement.
+
+6l0l0	le_milieu_environnant	O
+6l0l1	s__avère_être	R
+6l0l2	le_récepteur	O
+
+#Le site d’étude a connu une activité de fabrication et de dépôt d’engrais de 1932 à 2010, déclarée comme installation classée auprès de la préfecture du Maine et Loire.  Ce site a été SEVESO jusqu'en 2010 puis déclassé en installation soumise à déclaration (récépissé du 14/04/2010).
+
+7l0l0	Le_site_d__étude	O
+7l0l1	a_connu_une_activité_de_fabrication_et_de_dépôt_d__engrais	A
+7l0l2	de_1932_à_2010___déclarée	T
+7l0l3	comme_installation_classée	N
+7l0l4	auprès_de	R
+7l0l5	la_préfecture_du_Maine_et_Loire	O
+7l0l6	__Ce_site	O
+7l0l7	a_été_SEVESO	N
+7l0l8	jusqu__en_2010	T
+7l0l9	puis_déclassé_en_installation_soumise_à_déclaration	N
+7l0l10	__récépissé	O
+7l0l11	du_14_04_2010	T
+7l1l0	SEVESO	S
+
+#Elle s’est nommée « Société des engrais organique de l’Ouest » (premier arrête préfectoral du 27/03/1932), puis a fait l’objet de plusieurs transferts d’exploitation :
+
+8l0l0	Elle	O
+8l0l1	s__est_nommée	N
+8l0l2	__Société_des_engrais_organique_de_l__Ouest	O
+8l0l3	du_27_03_1932	T
+8l0l4	puis_a_fait_l__objet	R
+8l1l0	__Société_des_engrais_organique	I
+
+#- société « Gardinier de l’Ouest » récépissé du 24/12/1976
+
+9l0l0	__société_____Gardinier	O
+9l0l1	de_l__Ouest	O
+9l0l2	____récépissé	O
+9l0l3	du_24_12_1976	T
+9l1l0	société_____Gardinier_de_l__Ouest	I
+
+#- société «Compagnie Française de l’Azote » récépissé du 14/11/1986
+
+10l0l0	Compagnie_Française_de_l__Azote	O
+10l0l1	__récépissé	O
+10l0l2	du_14_11_1986	T
+10l1l0	société___Compagnie	I
+10l1l1	Française_de_l_	U
+10l1l2	Azote	S
+
+#- société « SA NORSK AZOTE » récépissé du 04/07/1988
+
+11l0l0	__SA_NORSK_AZOTE	O
+11l0l1	____récépissé	O
+11l0l2	du_04_07_1988	T
+11l1l0	société_____SA_NORSK_AZOTE	I
+
+#- société «SA HYDROZATE » récépissé du 24/01/1991
+
+12l0l0	HYDROZATE	O
+12l0l1	__récépissé	O
+12l0l2	du_24_01_1991	T
+12l1l0	__société___SA_HYDROZATE	I
+
+#- société « HYDROAGRI FRANCE » récépissé du 04/06/1993
+
+13l0l0	__HYDROAGRI_FRANCE	O
+13l0l1	__récépissé	O
+13l0l2	du_04_06_1993	T
+13l1l0	__société_____HYDROAGRI_FRANCE	I
+
+#- société « YARA » à partir du 22/11/2000
+
+14l0l0	partir_du_22_11_2000	T
+14l1l0	société___YARA	I
+
+#En 2010, le site a souhaité réduire ses activités et être, de fait, déclassé.
+
+15l0l0	En_2010__	T
+15l0l1	le_site	O
+15l0l2	a_souhaité_réduire	N
+15l0l3	ses_activités	A
+
+#Il a, dès lors, bénéficié d'un récépissé de déclaration en date du 14/04/2010.
+
+16l0l0	Il	O
+16l0l1	a___dès	N
+16l0l2	un_récépissé	O
+16l0l3	déclaration	N
+16l0l4	en_date_du_14_04_2010__	T
+
+#Puis, le site a fait l'objet d'une cessation des activités en date du 01/10/2010, de la société YARA France de Trémentines.
+
+17l0l0	le_site	O
+17l0l1	a_fait_l__objet_d_	R
+17l0l2	une_cessation_des_activités	N
+17l0l3	en_date_du_01_10_2010	T
+17l0l4	la_société_YARA_France	O
+17l0l5	Trémentines	L
+17l1l0	la_société_YARA_France	I
+17l1l1	de_Trémentines	I
+
+#Lors de la phase exploitation :
+
+18l0l0	la_phase_exploitation	O
+
+#De 1967 à 1976, des plaintes ont été déposées mentionnant qu’une partie des eaux de ruissellement polluait l’étang de la Florancière et entrainait une pollution par des hydrocarbures des champs voisins et de l’étang.
+
+19l0l0	De_1967_à_1976	T
+19l0l1	une_partie_des_eaux_de_ruissellement_polluait	N
+19l0l2	l_	R
+19l0l3	étang_de_la_Florancière	L
+19l0l4	une_pollution	O
+19l0l5	des_hydrocarbures	O
+19l0l6	champs_voisins	O
+19l1l0	hydrocarbures	S
+
+#-> l'exploitant y a remédié.
+
+
+#Dans le cadre de la cessation d'activités :
+
+21l0l0	la_cessation_d__activités	N
+
+#Entre 2010 et 2011, des investigations ont été réalisées par un bureau d'étude :
+
+22l0l0	Entre_2010_et_2011__	T
+22l0l1	des_investigations_ont_été_réalisées	N
+22l0l2	un_bureau_d__étude	O
+
+#> Résultats des analyses des sols :
+
+
+#- Hydrocarbures totaux : sur 3 sondages avec un maximum de 134 mg/kg (en S2)
+
+24l1l0	Hydrocarbures_totaux	S
+
+#- HAP : sur 4 sondages avec un max de 3,6 mg/kg (en S2)
+
+25l1l0	HAP	S
+
+#- Métaux (sur 6 sondages) : teneur max en Arsenic de 240 mg/kg en S4 / teneur max en Cadmium de 2 mg/kg en S5 / unique anomalie en Chrome de 130 mg/kg en S3 / teneur maximale en Mercure de 0,44mg/kg en S17 / unique anomalie en Plomb de 110 mg/kg et en Zinc de 120 mg/kg en S2
+
+26l1l0	Métaux	S
+26l1l1	en_Arsenic	S
+26l1l2	en_Cadmium	S
+26l1l3	en_Chrome	S
+26l1l4	en_Mercure	S
+26l1l5	en_Plomb	S
+26l1l6	en_Zinc	S
+
+#- PCB : 2 sondages (sur 8 analysés) avec un max de 0,018 mg/kg en S2
+
+27l1l0	PCB	S
+
+#- Insecticides organochlorés : 4 sondages (sur 6 analysés) avec un max de 0,22 mg/kg en S5
+
+28l1l0	Insecticides_organochlorés	S
+
+#- Phtalates : unique anomalie en « Dibutylphtalate » mesuré à 0,42 mg/kg dans l’échantillon S2
+
+29l1l0	Phtalates	S
+29l1l1	____Dibutylphtalate	S
+
+#D'autres anomalies ont été mises en évidence notamment en composés azotés, Sulfates, Chlorures, Phosphates, Magnésium et Potassium.
+
+30l1l0	composés_azotés	S
+30l1l1	Sulfates	S
+30l1l2	Chlorures	S
+30l1l3	Phosphates	S
+30l1l4	Magnésium	S
+30l1l5	Potassium	S
+
+#> Résultats des analyses des eaux souterraines dans les 2 puits présents sur le site :
+
+31l0l0	analyses_des_eaux_souterraines	O
+31l0l1	2_puits	O
+
+#Puits usine :
+
+32l0l0	Puits_usine	O
+
+#- pH acide de 5,9, inférieur aux valeurs guide de 6,5 à 9 et conductivité élevée de 1291 μS/cm supérieure aux valeurs guide de 180 à 1000 μS/cm (arrêté du 11 janvier 2007).
+
+33l0l0	11_janvier_2007__	T
+33l1l0	pH_acide	S
+
+#- Manganèse : 480 μg/l
+
+34l1l0	Manganèse	S
+
+#- pesticides chlorés : Dieldrine = 0,074 μg/l, Azote ammoniacal = 1,6 mg/l, Nitrates = 64 mg/l, et Potassium = 120 mg/l
+
+35l1l0	pesticides_chlorés	S
+35l1l1	__Dieldrine	S
+35l1l2	__Azote_ammoniacal	S
+35l1l3	__Nitrates	S
+35l1l4	et_Potassium	S
+
+#Puits bureau :
+
+
+#- pH inférieur de 6,4 inférieur aux valeurs guide de 6,5 à 9 (arrêté du 11 janvier 2007).
+
+37l0l0	11_janvier_2007__	T
+
+#- Anthracène (HAP) = 0,022 μg/l
+
+38l1l0	Anthracène___HAP	S
+
+#- Arsenic = 27μg/l
+
+39l1l0	Arsenic	S
+
+#- Pesticides chlorés : Dieldrine = 0,1 μg/l et Orthophosphates = 0,23 mg/l
+
+40l1l0	Pesticides_chlorés	S
+40l1l1	__Dieldrine	S
+40l1l2	et_Orthophosphates	S
+
+#> Résultats analyse mercure volatil dans les gaz du sol
+
+
+#Le Mercure volatil n’a pas été détecté suite à la mise en place du piézair au point S4
+
+42l0l0	la_mise_en_place	N
+42l1l0	Mercure_volatil	S
+
+#Suite à la mise en évidence de terres souillées en hydrocarbures, la société YARA Trémentines a fait enlever le poste de distribution et la cuve aérienne de fioul, ainsi que l’enceinte maçonnée qui servait de rétention à la cuve.
+
+43l0l0	Suite_à	R
+43l0l1	la_mise_en	N
+43l0l2	terres_souillées	O
+43l0l3	hydrocarbures	O
+43l0l4	la_société_YARA_Trémentines	O
+43l0l5	a_fait_enlever	N
+43l0l6	le_poste_de_distribution	O
+43l0l7	la_cuve_aérienne_de_fioul	O
+43l0l8	ainsi_que_l_	O
+43l1l0	hydrocarbures	S
+43l1l1	la_société_YARA_Trémentines	I
+43l1l2	fioul	U
+
+#Les sols sous le volucompteur et sous la cuve ont été excavés.
+
+44l0l0	Les_sols	O
+44l0l1	la_cuve	O
+44l0l2	ont_été_excavés	N
+44l1l0	la_cuve	D
+
+#Un prélèvement des terres excavées a été effectué le 11 janvier 2011 ne révélant aucune anomalie.
+
+45l0l0	Un_prélèvement_des_terres_excavées	N
+45l0l1	a_été_effectué	N
+45l0l2	le_11_janvier_2011	T
+
+#Des sondages sur la qualité des déblais de terrassement (4 points de sondages) ont été demandés et réalisés les 29 et 30 Novembre 2011 par un bureau d'étude (voir carte paragraphe B pour la localisation de ces sondages).
+
+46l0l0	Des_sondages	N
+46l0l1	la_qualité_des_déblais_de_terrassement	N
+46l0l2	ont_été_demandés	N
+46l0l3	réalisés	N
+46l0l4	les_29_et_30_Novembre_2011	T
+46l0l5	un_bureau_d__étude	O
+
+#On y retrouve des HCT (Hydrocarbures totaux) en S3b = 61 mg/kg et S4b = 68 mg/kg avec des fractions en hydrocarbures aliphatiques non volatiles : S3b = 38 mg/kg et S4b = 18 mg/kg, et des fractions aromatiques (HAP) non volatiles S4b = 18 mg/kg.
+
+47l1l0	des_HCT	S
+47l1l1	Hydrocarbures_totaux	S
+47l1l2	hydrocarbures_aliphatiques_non_volatiles	S
+47l1l3	des_fractions_aromatiques___HAP___non_volatiles	S
+
+#Des investigations complémentaires dans le cadre de la surveillance des eaux souterraines ont été réalisées, avec au préalable une mise en place de 4 piézomètres (PZ1 à PZ4) les 29 et 30 novembre 2011, suivie des prélèvements des eaux souterraines le 6 décembre 2011 (voir carte paragraphe B pour la localisation de ces sondages).
+
+48l0l0	Des_investigations_complémentaires	N
+48l0l1	dans_le_cadre_de	R
+48l0l2	la_surveillance_des_eaux_souterraines	A
+48l0l3	ont_été_réalisées	N
+48l0l4	une_mise_en_place	N
+48l0l5	les_29_et_30_novembre_2011__	T
+48l0l6	eaux_souterraines	O
+48l0l7	le_6_décembre_2011	T
+
+#On y retrouve :
+
+
+#- pH acide pour PZ1 (= 5,1) et PZ3 (= 4,6).
+
+50l1l0	pH_acide	S
+
+#- conductivité élevée pour PZ3 (= 2250 μS/cm) et PZ4 (= 1391  μS/cm) s’expliquant par des teneurs en ions plus fortes (Ammonium, Nitrates, Phosphates, Fluorures, Bromures, Calcium et Potassium)
+
+51l1l0	__Ammonium___Nitrates___Phosphates___Fluorures___Bromures___Calcium_et_Potassium	S
+
+#- anomalies en Arsenic (=640 μg/l) et Manganèse (=1200 μg/l) sur PZ3
+
+52l0l0	Arsenic	O
+52l1l0	Arsenic	S
+52l1l1	Manganèse	S
+
+#- anomalie en Naphtalène en PZ1 (=0,1 μg/l)
+
+53l1l0	Naphtalène	S
+53l1l1	PZ1	S
+
+#- anomalies en Trichlorophénols de 0,18 μg/l en PZ2 et en Tétrachlorophénols de 0,15 μg/l en PZ2 et de 0,05 μg/l en PZ3
+
+54l1l0	Trichlorophénols	S
+54l1l1	Tétrachlorophénols	S
+54l1l2	PZ3	I
+
+#- anomalies en 1,2,3-trichlorobenzène de 0,07 μg/l en PZ3 et de 0,1 μg/l en PZ4
+
+55l1l0	1_2_3_trichlorobenzène	S
+55l1l1	en_PZ4	S
+
+#- anomalie en Dieldrine sur PZ3 1,9 μg/l
+
+56l1l0	Dieldrine	S
+56l1l1	sur_PZ3	I
+
+#Toutes ces anomalies recensées dans les sols et les eaux souterraines en éléments organiques ainsi qu’en métaux, peuvent être selon le bureau d'étude dues aux activités historiques du site, de stockage d’engrais et de pesticides.
+
+57l0l0	activités	A
+57l0l1	historiques_du_site	L
+57l0l2	stockage_d__engrais	A
+57l1l0	métaux	S
+
+#Poursuite des campagnes de suivi de la qualité des eaux souterraines par le même bureau d'étude, avec des prélèvements sur les 4 piézomètres le 25 octobre 2012 (voir carte paragraphe B pour la localisation de ces sondages) et dans l’étang de la Florancière.
+
+58l0l0	Poursuite_des_campagnes_de	N
+58l0l1	suivi_de_la_qualité_des_eaux_souterraines	A
+58l0l2	le_même_bureau_d__étude	O
+58l0l3	avec_des_prélèvements	N
+58l0l4	4_piézomètres	O
+58l0l5	le_25_octobre_2012	T
+58l0l6	dans_l__étang_de_la_Florancière	L
+
+#> Anomalie dans les eaux souterraines :
+
+
+#- pH : PZ1 (=5,1) et PZ3 (=5,4) (comme pour les campagnes précédentes, un pH acide)
+
+60l1l0	pH_acide	S
+
+#- Conductivité : PZ2 (=1448 μS/cm) et PZ3 (=1829 μS/cm) (teneurs en ions plus fortes sur ces ouvrages)
+
+
+#- Dieldrine (= 2,1 μg/l)  sur PZ3
+
+62l1l0	Dieldrine	S
+
+#- 1,2,3,4 – Tétrachlorobenzène (= 0,01 μg/l) sur PZ3
+
+63l1l0	Tétrachlorobenzène	S
+
+#- Arsenic (= 540 μg/l) et Manganèse (= 710 μg/l) sur PZ3
+
+64l0l0	Arsenic	O
+64l1l0	Arsenic	S
+64l1l1	Manganèse	S
+
+#> Anomalie dans les eaux de l’étang :
+
+65l0l0	les_eaux	O
+
+#Anomalies en Manganèse (= 66 μg/l) et en ions nitrites (= 0,16 μg/l)
+
+66l1l0	Manganèse	S
+66l1l1	ions_nitrites	S
+
+#Le suivi de la qualité des eaux souterraines au droit du site sera basé sur 2 campagnes par an (hautes eaux / basse eaux) sur demande de la DREAL en date du 17/10/2012.
+
+67l0l0	Le_suivi_de_la_qualité_des_eaux_souterraines	A
+67l0l1	au_droit_du_site	L
+67l0l2	sera_basé_sur	R
+67l0l3	2_campagnes_par_an	N
+67l0l4	la_DREAL	O
+67l0l5	en_date_du_17_10_2012__	T
+67l1l0	la_DREAL	I
+
+#Une visite d’inspection, portant sur la vérification de la remise en état du site, a été effectuée en date du 13 mars 2013.
+
+68l0l0	Une_visite_d__inspection	N
+68l0l1	la_vérification	N
+68l0l2	la_remise_en_état_du_site	N
+68l0l3	a_été_effectuée	N
+68l0l4	en_date_du_13_mars_2013__	T
+
+#A l’issue de cette visite, il a été demandé de poursuivre l’instruction de cessation d’activités à savoir :
+
+69l0l0	cette_visite	N
+69l0l1	cessation_d__activités	N
+
+#- une étude de compatibilité des milieux et des usages hors site avec recensement des usages hors site notamment de la nappe d’eau souterraine
+
+70l0l0	une_étude_de_compatibilité_des_milieux	N
+70l0l1	hors_site	O
+70l0l2	recensement_des_usages_hors_site	O
+
+#- plan de gestion compte tenu de l’usage futur du site envisagé : acquéreur potentiel à usage industriel pour de la fabrication de granulé de bois soumis au régime de déclaration
+
+71l0l0	site_envisagé	O
+71l0l1	__acquéreur_potentiel	O
+71l0l2	à_usage_industriel	A
+71l0l3	de_la_fabrication_de_granulé	A
+71l0l4	de_bois_soumis_au_régime_de_déclaration	A
+
+#- compléments d’analyses pour les terres excavées et les derniers résultats d’analyses des eaux souterraines
+
+
+#Un Plan de gestion et des Analyses des Risques Résiduels ont été proposés par un bureau d'étude en janvier 2013, avec plusieurs options de gestion possibles et notamment une vigilance pérenne sur les changements d’usages à venir et une information systématique des acquéreurs par le biais des documents d’urbanisme ou fonciers.
+
+73l0l0	Un_Plan_de_gestion	O
+73l0l1	Analyses_des_Risques_Résiduels	O
+73l0l2	ont_été_proposés_par	N
+73l0l3	un_bureau_d_	O
+73l0l4	étude	N
+73l0l5	en_janvier_2013__	T
+73l0l6	acquéreurs	N
+
+#Des servitudes et/ou restrictions d’usage ont également été proposées :
+
+74l0l0	Des_servitudes	O
+
+#- usage industriel et, usagers uniquement adultes / pas d’enfants sur site
+
+
+#- pas d’utilisation des eaux souterraines sur le site
+
+76l0l0	pas_d__utilisation_des_eaux_souterraines	A
+
+#- pas d’arbre fruitier, ni jardin potager
+
+
+#- vérification de la qualité des eaux potables du site, et si une anomalie est détectée, mise en place de canalisations d’adduction d’eau potable en matériaux adaptés aux polluants volatils et enterrés dans des remblais propres.
+
+78l0l0	vérification_de_la_qualité_des_eaux_potables	A
+78l0l1	mise_en_place_de_canalisations	N
+78l0l2	enterrés	N
+78l0l3	dans_des_remblais_propres	L
+
+#L’usage futur du site envisagé par l’exploitant est de type industriel.
+
+79l0l0	L__usage_futur_du_site_envisagé	O
+79l0l1	l__exploitant	O
+
+#Il est prévu pour ce site une restriction d’usage entre parties (droit privé).
+
+
+#YARA France, propriétaire des terrains, a indiqué que les recommandations et restrictions d’usages seront formalisées dans l’acte de vente du site en cas de revente de celui-ci.
+
+81l0l0	YARA_France	O
+81l0l1	propriétaire_des_terrains	O
+81l0l2	a_indiqué	N
+81l0l3	que_les_recommandations_et_restrictions_d__usages	O
+81l0l4	site	O
+81l0l5	en_cas_de	R
+81l0l6	revente	N
+81l1l0	YARA_France	I
+
+#Recherche des usages éventuels
+
+82l0l0	Recherche_des_usages	O
+
+#Inventaire et caractérisation des points d’eau souterraine présents à proximité du site de YARA.
+
+83l0l0	à_proximité_du_site_de_YARA	L
+
+#Recensement de 4 forages et 9 puits dans le périmètre de la zone d’étude, 10 sur les 13 ont pu faire l’objet d'une visite le 28/11/2012 (voir carte paragraphe B pour la localisation de ces sondages).
+
+84l0l0	Recensement_de_4_forages	N
+84l0l1	9_puits	O
+84l0l2	dans_le_périmètre_de_la	L
+84l0l3	zone_d__étude	O
+84l0l4	une_visite	N
+84l0l5	le_28_11_2012	T
+
+#Les points d’eau souterraine identifiés dans l’environnement périphérique du site, ne sont pas localisés en aval hydrogéologique de ce dernier.
+
+85l0l0	ne_sont_pas	R
+85l0l1	localisés_en_aval_hydrogéologique_de_ce	L
+
+#Les rayons d’influences estimés des forages en pompage les plus proches n’atteignent pas le site YARA.
+
+86l0l0	Les_rayons_d__influences_estimés	O
+86l0l1	forages	O
+86l0l2	pompage_les_plus_proches	O
+86l0l3	n__atteignent	R
+86l0l4	pas_le_site_YARA	L
+86l1l0	YARA	I
+
+#Il convient, néanmoins, de maintenir la surveillance du site, en ce qui concerne la nappe d’eau souterraine, et par conséquent de la surveillance de l’évolution des pollutions dans le temps.
+
+87l0l0	Il_convient	O
+87l0l1	maintenir_la_surveillance	O
+87l0l2	site	O
+87l0l3	la_surveillance	A
+
+#Un arrêté préfectoral en date du 27/09/2013 a été pris en ce sens.
+
+88l0l0	Un_arrêté_préfectoral	O
+88l0l1	en_date_du_27_09_2013	T
+88l0l2	a_été_pris_en	N

@@ -1,0 +1,453 @@
+
+#37.0021
+#La station-service autoroutière le "Relais de Meslay" à l'enseigne TOTAL, a fait l'objet de l'arrêté préfectoral d'autorisation N°14.780 du 18/06/1997 "autorisant la Société TOTAL Raffinage - distribution à poursuivre l'exploitation de la station-service située sur l'A 10 à MONNAIE - Relais de Meslay, aire de "Tours val de Loire".
+
+0l0l0	La_station___service_autoroutière	O
+0l0l1	Relais_de_Meslay	L
+0l0l2	l__enseigne_TOTAL	O
+0l0l3	a_fait_l__objet_de	R
+0l0l4	l__arrêté_préfectoral_d__autorisation	O
+0l0l5	18_06_1997	T
+0l0l6	autorisant	N
+0l0l7	la_Société_TOTAL_Raffinage	O
+0l0l8	l__exploitation	N
+0l0l9	la_station___service	O
+0l0l10	située_sur_l__A_10_à_MONNAIE	O
+0l0l11	__Relais_de_Meslay	L
+0l0l12	aire_de___Tours_val_de_Loire	L
+0l1l0	TOTAL	I
+0l1l1	la_Société_TOTAL_Raffinage	I
+
+#Le dépôt de liquides inflammables associé à l'installation de distribution concernait :
+
+1l1l0	liquides_inflammables	U
+
+#- 2 réservoirs de 60 m³ de supercarburant (actuellement SP 98),
+
+2l0l0	supercarburant	O
+2l1l0	supercarburant	U
+2l1l1	SP_98	S
+
+#- 1 réservoir de 60 m³ à 2 compartiments de 40 m³ (actuellement SP 95) et 20 m³ (actuellement GO plus) de supercarburant,
+
+3l1l0	SP_95	U
+3l1l1	supercarburant	U
+
+#- 1 réservoir de 20 m³ (actuellement GO plus) de supercarburant,
+
+4l0l0	supercarburant	O
+4l1l0	supercarburant	U
+
+#- 3 réservoirs de 60 m³ de gazole,
+
+5l0l0	gazole	A
+5l1l0	gazole	U
+
+#- 1 réservoir de 7,5 m³ de F.
+
+
+#.D.
+
+
+#Le réservoir enterré de F.
+
+
+#.D. a été supprimé en 2004.
+
+9l0l0	_D_	O
+9l0l1	a_été_supprimé	N
+9l0l2	en_2004__	T
+
+#A noter que cette station-service distribue également du GPL à partir d'un réservoir aérien de 10,4 m³.
+
+10l0l0	cette_station___service	O
+10l0l1	distribue_également_du_GPL	A
+10l1l0	GPL	S
+
+#Par arrêté préfectoral n°19151 du 19 janvier 2012, la société Total raffinage - distribution relève désormais du régime de la déclaration au titre des n°1432.2b (DC) pour un volume V eq <3500m³ et n°14353 (DC) pour un volume de 28,2m³ de la nomenclature des installations classées pour l'environnement.
+
+11l0l0	du_19_janvier_2012__	T
+11l0l1	la_société_Total_raffinage	O
+11l0l2	__distribution	O
+11l0l3	relève_désormais	N
+11l0l4	la_déclaration	N
+11l0l5	28_2_m³	O
+11l1l0	la_société_Total_raffinage	I
+
+#En novembre 2006, suite à une suspicion de fuite d’essence Sans Plomb 95 (SP95), la société TOTAL a fait réaliser des investigations sur les sols et les eaux souterraines au droit du site.
+
+12l0l0	En_novembre_2006__	T
+12l0l1	suite_à	R
+12l0l2	une_suspicion_de_fuite_d__essence_Sans	O
+12l0l3	la_société_TOTAL	O
+12l0l4	a_fait_réaliser	N
+12l0l5	des_investigations	N
+12l0l6	sur	R
+12l0l7	les_sols_et_les_eaux_souterraines	O
+12l0l8	au_droit_du_site	L
+12l1l0	fuite_d__essence	U
+12l1l1	Sans_Plomb_95	S
+12l1l2	SP95	S
+12l1l3	la_société_TOTAL	I
+
+#Les analyses de sols ont montré une concentration significative à savoir 555 mg / kg MS pour les hydrocarbures de la fraction C5-C40, en un point.
+
+13l1l0	les_hydrocarbures	S
+13l1l1	C5_C40	S
+
+#Pour ce qui est des analyses sur les eaux souterraines, celles-ci ont permis de définir le sens d’écoulement présumé de la nappe superficielle à savoir vers le Sud-Ouest en direction de la Loire.
+
+14l0l0	vers_le_Sud_Ouest	L
+14l0l1	en_direction_de_la_Loire	L
+
+#Le piézomètre Pz3 est ainsi à l’amont hydraulique du site et le Pz2 à l’aval.
+
+15l0l0	à_l__amont_hydraulique_du_site	L
+
+#En outre, il a été détecté :
+
+
+#- la présence d’hydrocarbures de la fraction C5-C10 dans les piézomètres Pz2, Pz3 et Pz4 (au droit du site), la concentration la plus élevée étant de 150 µg/l ;
+
+17l1l0	hydrocarbures	S
+17l1l1	C5_C10	S
+
+#- la présence de benzène dans les piézomètres Pz1 et Pz4, les concentrations étant de 9,4 et 11 µg/l, soit nettement supérieures à celle précisée par l'arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine mentionnées aux articles R. 1321-2, R. 1321-3, R. 1321-7 et R. 1321-38 du code de la santé publique  (1µg/l).
+
+18l0l0	11_janvier_2007	T
+18l1l0	benzène	S
+
+#Par ailleurs, le remplacement du collecteur fuyard a été effectué, ce qui a nécessité la réalisation de tranchées.
+
+19l0l0	le_remplacement	N
+19l0l1	du_collecteur_fuyard	O
+19l0l2	a_été_effectué	N
+19l0l3	réalisation_de_tranchées	N
+
+#Des prélèvements en fond de fouille ont été effectués en vue d’analyse, mais n’ont pas mis en évidence de concentrations significatives en hydrocarbures et BTEX.
+
+20l0l0	Des_prélèvements_en_fond_de_fouille	N
+20l0l1	ont_été_effectués	N
+20l1l0	hydrocarbures	S
+20l1l1	BTEX	S
+
+#Eu égard à la vulnérabilité du milieu, Monsieur le Préfet d’Indre-et-Loire par arrêté complémentaire n°18 153 du 25 juin 2007 a prescrit :
+
+21l0l0	Monsieur_le_Préfet_d__Indre_et_Loire	O
+21l0l1	25_juin_2007	T
+21l0l2	a_prescrit	N
+21l1l0	le_Préfet	I
+
+#- la réalisation d’une surveillance trimestrielle piézomètrique du site,
+
+22l0l0	la_réalisation_d_	N
+22l0l1	une_surveillance_trimestrielle_piézomètrique	A
+
+#- la réalisation de prélèvements d’eau au niveau des puits privés et agricoles recensés par le bureau d’études SERPOL, autour de la station service et puisant, a priori, dans la nappe superficielle,
+
+23l0l0	la_réalisation_de_prélèvements	N
+23l0l1	d__eau	O
+23l0l2	au_niveau	R
+23l0l3	le_bureau_d__études_SERPOL	O
+23l0l4	autour_de_la_station_service	L
+23l0l5	et_puisant	R
+23l1l0	SERPOL	I
+
+#- l’actualisation du schéma conceptuel présentant les mécanismes qui peuvent conduire à une exposition des cibles.
+
+24l0l0	l__actualisation	N
+24l0l1	du_schéma_conceptuel	O
+
+#L’ensemble de ces dispositions ayant pour objectif de préciser les sources de pollution et le contexte hydrogéologique local, en vue d’élaborer des modalités de traitement éventuel du site.
+
+25l0l0	préciser_les_sources_de_pollution	O
+25l0l1	d_	O
+25l0l2	élaborer	R
+25l0l3	des_modalités	O
+
+#Par la suite, en l’absence de source de pollution connue et de piézomètre implanté à l’amont hydraulique de l’installation, considérant la vulnérabilité du milieu et l’existence d’une autre station service à environ 100 m en aval hydraulique , par arrêté préfectoral n°18349 du 22 avril 2008, il a été prescrit le renforcement du réseau de surveillance de la qualité de la nappe d'eaux souterraines.
+
+26l0l0	en_l__absence_de	L
+26l0l1	source_de_pollution	O
+26l0l2	piézomètre	O
+26l0l3	implanté	R
+26l0l4	à_l__amont_hydraulique_de_l__installation	L
+26l0l5	une_autre_station_service	O
+26l0l6	à_environ_100_m_en_aval_hydraulique	L
+26l0l7	du_22_avril_2008__	T
+26l0l8	il_a_été_prescrit	N
+26l0l9	le_renforcement	N
+26l0l10	réseau_de	O
+26l0l11	surveillance_de_la_qualité_de_la_nappe_d__eaux_souterraines	A
+
+#Globalement, les concentrations des différents composés analysés diminuent depuis novembre 2006.
+
+27l0l0	depuis_novembre_2006__	T
+27l1l0	composés	S
+
+#Sur la base des résultats transmis par l'exploitant, de 2006 à 2010, on peut retenir depuis 2006 :
+
+28l0l0	l__exploitant	O
+28l0l1	de_2006_à_2010__	T
+28l0l2	depuis_2006	T
+
+#- Pour le piézomètre Pz1 en aval ou latéral hydraulique suivant les campagnes de mesures : la disparition du constat d’impact en BTEX et l’absence d’hydrocarbures dissous ;
+
+29l0l0	les_campagnes_de_mesures	N
+29l1l0	BTEX	S
+29l1l1	hydrocarbures	S
+
+#- Pour le Pz2* en aval hydraulique :  les BTEX sont présents à l’état de traces, avec toutefois un léger dépassement pour le benzène de la valeur limite de 1 µg/l  .
+
+30l1l0	Pz2__	S
+30l1l1	__les_BTEX	S
+30l1l2	pour_le_benzène	S
+
+#Les hydrocarbures dissous sont présents à des teneurs très inférieures à la valeur limite de 1000 µg/ l ;
+
+31l1l0	hydrocarbures	S
+
+#- Pour le piézomètre Pz3 en amont hydraulique : la disparition des constats d’impact en benzène et hydrocarbures dissous, observée lors des précédentes campagnes, est confirmée ;
+
+32l0l0	la_disparition	N
+32l1l0	benzène	S
+32l1l1	hydrocarbures	S
+
+#- Pour le piézomètre Pz4 en aval hydraulique du site : un constat d’impact persistant en benzène et hydrocarbures dissous, fluctuant d’une campagne à l’autre (pour le benzène, concentration de l’ordre de 40 µg/l, supérieure à la valeur de référence susmentionnée de 1µg/l mais en diminution depuis septembre 2008  - pour les hydrocarbures, teneur significative, de l’ordre de la valeur de référence de 1000 µg/l précitée).
+
+33l0l0	en_aval_hydraulique_du_site	L
+33l0l1	depuis_septembre_2008	T
+33l1l0	benzène	S
+33l1l1	hydrocarbures	S
+33l1l2	le_benzène	S
+33l1l3	pour_les_hydrocarbures	S
+
+#On notera que cet ouvrage a été curé avant analyse ;
+
+
+#- L’absence d’impact en hydrocarbures et BTEX sur les puits privés en aval et latéral hydraulique du site, ainsi que les piézomètres Pz5 et Pz6 en amont.
+
+35l0l0	les_puits	O
+35l0l1	privés_en_aval_et_latéral_hydraulique_du_site	L
+35l1l0	hydrocarbures	S
+35l1l1	BTEX	S
+
+#Par ailleurs, en complément des investigations menées en 2006/2007, en 2009, 9 sondages entre 3 et 6 mètres de profondeur ont été effectués, à proximité du parc à cuves de stockage des carburants.
+
+36l0l0	complément	T
+36l0l1	des_investigations_menées	N
+36l0l2	en_2006_2007	T
+36l0l3	en_2009__	T
+36l0l4	9_sondages_entre_3_et_6_mètres_de_profondeur_ont_été_effectués	N
+36l0l5	à_proximité_du_parc	L
+36l0l6	à	R
+36l0l7	cuves_de_stockage_des_carburants	O
+36l1l0	cuves_de	D
+36l1l1	stockage_des_carburants	U
+
+#n observe un constat d’impact par les hydrocarbures autour de la cuve de gasoil de 60 m³ (concentrations significatives en hydrocarbures de la fraction C10-C40 en deux points, à 3m, respectivement de 740 et 790 mg/kg de matière sèche).
+
+37l0l0	autour_de_la	L
+37l0l1	cuve_de_gasoil	A
+37l1l0	hydrocarbures	S
+37l1l1	la_cuve	D
+37l1l2	de_gasoil	U
+37l1l3	hydrocarbures	S
+37l1l4	C10_C40	S
+
+#L'arrêté préfectoral complémentaire n°18153 du 25 juin 2007 a permis d'engager la démarche en prescrivant à la société TOTAL la réalisation et de la surveillance des eaux souterraines et des investigations complémentaire sur le site.
+
+38l0l0	L__arrêté_préfectoral_complémentaire	O
+38l0l1	25_juin_2007	T
+38l0l2	a_permis_d__engager_la_démarche	N
+38l0l3	prescrivant	N
+38l0l4	la_société_TOTAL	O
+38l0l5	la_réalisation	N
+38l0l6	la	N
+38l0l7	surveillance_des_eaux_souterraines	A
+38l0l8	des_investigations_complémentaire	N
+38l0l9	sur_le_site	L
+38l1l0	la_société_TOTAL	I
+
+#En 2008 l'arrêté complémentaire n° 18349 du 22 avril 2008 a renforcé le maillage piézométrique.
+
+39l0l0	En_2008	T
+39l0l1	du_22_avril_2008	T
+39l0l2	a_renforcé	N
+39l0l3	maillage_piézométrique	O
+
+#Depuis 2008, des investigations complémentaires ont été menées sur la base de ce nouveau maillage.
+
+40l0l0	Depuis_2008__	T
+40l0l1	des_investigations_complémentaires	N
+40l0l2	ont_été_menées	N
+
+#Au vu des informations recueillies et conformément à l'arrêté de 2007.
+
+41l0l0	conformément_à	R
+41l0l1	l_	O
+41l0l2	2007__	T
+
+#Monsieur le Préfet a demandé par courrier du 27 octobre 2010 à l'exploitant de:
+
+42l0l0	Monsieur_le_Préfet	O
+42l0l1	a_demandé_par_courrier	N
+42l0l2	27_octobre_2010	T
+42l0l3	l__exploitant	O
+42l1l0	le_Préfet	I
+
+#- préciser les propositions technico-économiques de traitement des sols contaminés au droit du parc à cuves, plus spécialement à proximité de la cuve de gasoil de 60 m³ ;
+
+43l0l0	sols_contaminés	O
+43l0l1	au_droit_du_parc_à_cuves	A
+43l0l2	à_proximité_de_la_cuve_de_gasoil	A
+43l1l0	cuves	D
+43l1l1	cuve	D
+43l1l2	de_gasoil	U
+
+#- réaliser une évaluation des risques sanitaires si les sources et/ou vecteurs de pollution ne peuvent être supprimés, incluant la voie de transfert de la nappe de la Craie, en possible communication avec la nappe d'eaux superficielles.
+
+44l0l0	réaliser_une_évaluation_des_risques_sanitaires	N
+44l0l1	les_sources_et___ou_vecteurs_de_pollution	O
+
+#En complément des rapports relatifs à la surveillance de la qualité des eaux envoyés trimestriellement par l'exploitant au Préfet, deux rapports de diagnostics des sols réalisés par la société SERPOL portant respectivement les n° 6985-5 de janvier 2013 et 6985-6 de mai 2013 mettent en évidence au regard des analyses en laboratoire et sur site les éléments suivants:
+
+45l0l0	En_complément	R
+45l0l1	des_rapports	N
+45l0l2	relatifs_à	R
+45l0l3	la_surveillance_de_la_qualité_des_eaux	A
+45l0l4	l__exploitant	O
+45l0l5	Préfet	O
+45l0l6	deux	O
+45l0l7	rapports_de_diagnostics	N
+45l0l8	sols_réalisés	N
+45l0l9	la_société_SERPOL	O
+45l0l10	janvier_2013	T
+45l0l11	de_mai_2013	T
+45l1l0	la_société_SERPOL	I
+
+#Sur les sols;
+
+
+#- une anomalie significative en hydrocarbures volatiles sur un sondage réalisé sur une piste PL à proximité du manifold M1 avec une teneur de 238 ppmV au PID entre 2 et 3m de profondeur.
+
+47l0l0	un_sondage_réalisé	N
+47l0l1	sur_une_piste_PL_à_proximité_du_manifold_M1	L
+47l1l0	hydrocarbures_volatiles	S
+
+#Cette anomalie est en baisse entre 3 et 4 m de profondeur et n'est pas présente sur les sondages adjacents.
+
+
+#-une anomalie en hydrocarbures C10-C40 absorbés sur un sondage réalisé sur une piste de distribution VL, entre 0,15 et 1m de profondeur  avec une teneur de 2140mg/kg, inférieure au seuil de dépollution définie dans le guide ANTEA A37808/C de décembre 2005.
+
+49l0l0	un_sondage	N
+49l0l1	réalisé	N
+49l0l2	sur_une_piste_de_distribution_VL	A
+49l0l3	de_décembre_2005__	T
+49l1l0	hydrocarbures_C10_C40_absorbés	S
+49l1l1	guide_ANTEA	I
+
+#Les autres sondages ne montrent pas d'anomalies avec une teneur maximale de 789 mg/kg à proximité du dépotage, entre 2 et 3 m de profondeur.
+
+50l0l0	à_proximité_du_dépotage	L
+
+#Sur les eaux souterraines;
+
+
+#-un impact en benzène dissous (sans lien avec la piézométrie) dans la nappe superficielle au droit du parc à cuves (Pz2 et Pz4), globalement en baisse depuis septembre 2008 et accompagné d'un impact fluctuant (en hausse en mars 2013) en hydrocarbures C10-C40;
+
+52l0l0	_un_impact	N
+52l0l1	au_droit_du_parc_à_cuves	L
+52l0l2	depuis_septembre_2008	T
+52l0l3	en_mars_2013__	T
+52l1l0	benzène	S
+52l1l1	cuves	D
+52l1l2	hydrocarbures_C10_C40	S
+
+#-une légère anomalie sans lien avec la piézométrie et globalement stable en benzène dissous dans la nappe superficielle en limite de site en aval du parc à cuves.
+
+53l0l0	en_limite_de_site_en_aval_du_parc_à_cuves	L
+53l1l0	benzène	S
+
+#Sur les eaux superficielles;
+
+
+#Le schéma conceptuel indique l'absence de risque lié à cette station service en l'état actuel compte tenu de l'absence d'utilisation de la nappe superficielle en aval du site, de l'absence d'impact dans les puits privés exploitant la nappe de la craie les plus proches du site et l'absence d'utilisation actuelle du kiosque.
+
+55l0l0	Le_schéma_conceptuel	O
+55l0l1	cette_station_service	O
+55l0l2	en_aval_du_site	L
+55l0l3	proches_du_site	L
+55l0l4	d__utilisation_actuelle_du_kiosque	A
+
+#Sur la base des résultats de suivi de la qualité des eaux souterraines transmis de 2013 à 2014 (n°26 13/08/2014) par l'exploitant il apparait concernant:
+
+56l0l0	résultats_de_suivi_de_la_qualité_des_eaux_souterraines	O
+56l0l1	transmis	N
+56l0l2	de_2013_à_2014	T
+56l0l3	13_08_2014	T
+56l0l4	l__exploitant	O
+
+#Le sens d'écoulement et évolution des niveaux piézométriques;
+
+
+#-une baisse globale des niveaux piézométriques depuis mai 2014 et niveaux plus haut qu'en août 2013, le sens d'écoulement de la nappe superficielle étant confirmé vers le sud-ouest.
+
+58l0l0	depuis_mai_2014	T
+58l0l1	en_août_2013__	T
+58l0l2	vers_le_sud_ouest	L
+
+#Dans la nappe superficielle;
+
+
+#-une légère anomalie en mai et en août 2014 en benzène Pz3(1,5µg/l en août) et en mai 2014 sur Pz5 (2,16 µg/l).
+
+60l0l0	_une_légère_anomalie	N
+60l0l1	en_mai_et_en_août_2014	T
+60l0l2	en_août	T
+60l0l3	en_mai_2014	T
+60l1l0	benzène_Pz3_1_5µg	S
+60l1l1	Pz5	S
+
+#-maintien d'un léger impact en benzène dissous au droit et en aval du parc à cuves (Pz2 et Pz4).
+
+61l0l0	_maintien	N
+61l0l1	au_droit_et_en_aval_du_parc_à	L
+61l0l2	cuves	O
+61l1l0	benzène_dissous	S
+61l1l1	cuves	D
+
+#-anomalies ponctuelles en hydrocarbures dissous (dont une forte teneur lors de ce suivi avec 42 400 µg/l) et HAP (de nouveau observé en août 2014) au droit du parc à cuves
+
+62l0l0	en_août_2014__	T
+62l0l1	au_droit_du_parc_à	L
+62l0l2	cuves	O
+62l1l0	hydrocarbures	S
+62l1l1	HAP	S
+62l1l2	cuves	D
+
+#-concernant le MTBE, impact globalement stable en aval du parc à cuves.
+
+63l0l0	en_aval_du_parc_à_cuves	A
+63l1l0	MTBE	S
+63l1l1	cuves	D
+
+#Les fortes teneurs en hydrocarbures dissous sur Pz4 surviennent en février/mars de chaque année depuis 2012 mais ce sont poursuivies en mai et août 2014.
+
+64l0l0	en_février___mars_de	T
+64l0l1	chaque	N
+64l0l2	année_depuis_2012	T
+64l0l3	ce	O
+64l0l4	sont_poursuivies	N
+64l0l5	en_mai_et_août_2014__	T
+64l1l0	hydrocarbures	S
+
+#La mise à jour du schéma conceptuel indique l'absence d'impact dans les puits privés les plus proches du site exploitant la nappe de la craie d'octobre 2007 à août 2013.
+
+65l0l0	La_mise_à_jour	N
+65l0l1	du_schéma_conceptuel	O
+65l0l2	les_puits	O
+65l0l3	privés_les_plus_proches_du_site	L
+65l0l4	exploitant_la_nappe	N
+65l0l5	la_craie	N
+65l0l6	d__octobre_2007_à_août_2013__	T

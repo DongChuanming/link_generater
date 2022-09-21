@@ -1,0 +1,215 @@
+
+#45.0141
+#Le site de la société ERDF est implanté en zone urbaine.
+
+0l0l0	Le_site	O
+0l0l1	la_société_ERDF	O
+0l0l2	est	R
+0l0l3	implanté_en_zone_urbaine	L
+0l1l0	la_société_ERDF	I
+
+#Le voisinage est constitué :
+
+1l0l0	Le_voisinage	O
+
+#- à l'est, un supermarché
+
+2l0l0	à_l__est	L
+2l0l1	un_supermarché	O
+
+#- au sud et à l'ouest, des habitations
+
+
+#Une nappe des calcaires de Beauce est rencontrée, à une profondeur de 5 m.
+
+4l0l0	Beauce	L
+4l0l1	est_rencontrée	N
+
+#Elle est vulnérable à une pollution provenant du site du fait de sa faible profondeur.
+
+
+#Les activités de la société ERDF étaient régies par récépissé de déclaration du 18 septembre 2003 pour les rubriques suivantes de la nomenclature des installations classées :
+
+6l0l0	Les_activités	A
+6l0l1	la_société_ERDF	O
+6l0l2	étaient_régies_par	R
+6l0l3	récépissé	O
+6l0l4	de_déclaration	N
+6l0l5	du_18_septembre_2003	T
+6l1l0	la_société_ERDF	I
+
+#- 1434 Installation de remplissage ou de distribution de liquides inflammables comprenant : 1 pistolet de distribution pour l'essence et un autre pour le gazole
+
+7l0l0	Installation_de	O
+7l0l1	remplissage_ou_de_distribution_de_liquides_inflammables	A
+7l1l0	liquides_inflammables	U
+7l1l1	gazole	S
+
+#- 1430/1432 Stockage en réservoirs manufacturés de liquides inflammables : 1 cuve enterrée 10 m3 double paroi avec détection de fuite d'essence sans plomb puis 1 cuve enterrée 5 m3 double paroi avec détection de gazole.
+
+8l0l0	détection_de_fuite_d__essence_sans_plomb	A
+8l1l0	liquides_inflammables	U
+8l1l1	fuite_d_	U
+8l1l2	essence_sans_plomb	U
+8l1l3	gazole	S
+
+#Par courrier du 9 juin 2011, ERDF a informé le Préfet de la cessation définitive de ses activités.
+
+9l0l0	9_juin_2011__	T
+9l0l1	ERDF	O
+9l0l2	a_informé	N
+9l0l3	le_Préfet	O
+9l0l4	la_cessation_définitive_de	N
+9l0l5	ses_activités	O
+9l1l0	ERDF	I
+9l1l1	le_Préfet	I
+
+#Dans le cadre de sa cessation d'activité, l'exploitant a transmis à l'inspection des installations classées le dossier de cessation d'activité contenant les documents suivants :
+
+10l0l0	Dans_le_cadre_de	R
+10l0l1	sa_cessation_d__activité	N
+10l0l2	l__exploitant	O
+10l0l3	a_transmis	N
+10l0l4	l__inspection_des_installations_classées	O
+10l0l5	le_dossier	O
+10l0l6	cessation_d__activité	N
+
+#- la facture de nettoyage des cuves effectués le 2 décembre 2009, ainsi que les bordereaux de suivi des déchets afférents,
+
+11l0l0	la_facture_de_nettoyage_des_cuves	O
+11l0l1	effectués	N
+11l0l2	le_2_décembre_2009__	T
+11l1l0	cuves	D
+
+#- les justificatifs de la neutralisation au sable des deux anciennes cuves de carburants réalisé le 4 décembre 2009
+
+12l0l0	la_neutralisation_au_sable	N
+12l0l1	deux_anciennes_cuves_de_carburants	O
+12l0l2	réalisé	N
+12l0l3	le_4_décembre_2009	T
+12l1l0	anciennes_cuves_de	D
+12l1l1	carburants	U
+
+#- un diagnostic de l'état du sous-sol en date d'avril 2012.
+
+13l0l0	un_diagnostic	N
+13l0l1	l__état_du_sous_sol	O
+13l0l2	en_date_d__avril_2012__	T
+
+#Les résultats de ce diagnostic montrent que, sur les 8 sondages réalisés, 2 types d'anomalies sont mis en évidence :
+
+14l0l0	ce_diagnostic	N
+
+#- une anomalie en d'hydrocarbures (jusqu'à 9 700 mg/kg de matières sèches) sur le sondage 3 entre 2.4 et 4.8 m de profondeur ( hydrocarbures, alcanes et de composés aromatiques volatils ).
+
+15l0l0	hydrocarbures	O
+15l0l1	2_4_et_4_8_m	N
+15l0l2	de_profondeur	L
+15l1l0	hydrocarbures	S
+15l1l1	hydrocarbures	S
+15l1l2	alcanes	S
+15l1l3	composés_aromatiques	S
+
+#Les hydrocarbures mesurés (C10-C21) sont caractéristique du gasoil.
+
+16l1l0	hydrocarbures	S
+16l1l1	C10_C21	S
+16l1l2	gasoil	U
+
+#- une anomalie en métaux sur le sondage 4 entre 0.15 et 1.2 m de profondeur ( cuivre, cadmium, mercure et plomb ) et sur le sondage 0 entre 0.2 et 2 m de profondeur ( arsenic ) .
+
+17l0l0	0_15	O
+17l0l1	et_1_2_m_de_profondeur	N
+17l1l0	cuivre	S
+17l1l1	cadmium	S
+17l1l2	mercure	S
+17l1l3	plomb	S
+17l1l4	arsenic	S
+
+#Les concentrations en métaux restent cependant assez faibles.
+
+18l1l0	métaux	S
+
+#Les concentrations hydrocarbures sont supérieures aux limites de quantification du laboratoire.
+
+19l1l0	hydrocarbures	S
+
+#Ce diagnostic émettait des recommandations concernant :
+
+20l0l0	Ce_diagnostic	N
+20l0l1	émettait	L
+20l0l2	des_recommandations	O
+
+#- la mise en place d'un réseau piézométrique de surveillance pour contrôler la qualité de la nappe d'eau souterraine,
+
+21l0l0	la_mise_en_place_d_	N
+21l0l1	contrôler_la_qualité_de_la_nappe_d__eau_souterraine	A
+
+#- la réalisation de sondages de sol complémentaires afin de déterminer l'étendue horizontale et verticale de l'impact mis en évidence.
+
+22l0l0	la_réalisation_de_sondages_de_sol	N
+22l0l1	complémentaires	O
+
+#Par courriel du 14 décembre 2017, l'exploitant a transmis le rapport de diagnostic complémentaire réalisé par la société ANTEA en octobre 2017.
+
+23l0l0	Par_courriel	O
+23l0l1	du_14_décembre_2017__	T
+23l0l2	l__exploitant	O
+23l0l3	a_transmis	N
+23l0l4	le_rapport_de_diagnostic_complémentaire	O
+23l0l5	réalisé	N
+23l0l6	la_société_ANTEA	O
+23l0l7	en_octobre_2017__	T
+23l1l0	la_société_ANTEA	I
+
+#Ce diagnostic a consisté en la réalisation de 6 sondages de sol à proximité du sondage S3 à 6 mètres de profondeur (sauf refus ou présence de la nappe) et la recherche de l’emprise latérale et verticale du sol concerné par le spot d’hydrocarbures.
+
+24l0l0	Ce_diagnostic	N
+24l0l1	la_réalisation	N
+24l0l2	6_sondages_de_sol	O
+24l0l3	à_proximité_du_sondage_S3_à_6_mètres	L
+24l1l0	hydrocarbures	S
+
+#Ces investigations ont montré :
+
+
+#- la présence d’argiles compactes jusqu’à 2 mètres de profondeur recouvrant des sables humides jusqu’à environ 4 mètres de profondeur.
+
+
+#- la présence dans les sols d’hydrocarbures allant jusqu’à 6 400 mg/kg MS de HCT C10-C40 (S3b entre 4 et 4,6 m de profondeur) et 130 mg/kg de CAV-BTEX (S3b entre 3 et 4 mètres de profondeur).
+
+27l0l0	les_sols	O
+27l1l0	hydrocarbures	S
+27l1l1	HCT_C10_C40	S
+27l1l2	CAV___BTEX	S
+
+#Les HAP sont retrouvés en moindre quantité (jusqu’à 8,5 mg/kg MS).
+
+28l1l0	Les_HAP	S
+
+#Les métaux, quant à eux, sont retrouvées en concentrations inférieures aux valeurs de références.
+
+29l1l0	Les_métaux	S
+
+#Il est à noter que les sondages ont du être arrêtés entre 4,6 et 4,8 mètres de profondeur de par la présence de la nappe alluviale.
+
+30l0l0	les_sondages	O
+30l0l1	ont_du_être_arrêtés	N
+30l0l2	4_6_et_4_8	T
+
+#- une étendue horizontale de l’impact de la pollution d’au moins 3 mètres sur 2 mètres (limite non définie au nord, au sud et à l’est).
+
+31l0l0	à_l__est	L
+
+#L’étendue verticale n’a pu être déterminée par la présence de la nappe vers 4,8 mètres et la nappe n’a pas été investiguée.
+
+32l0l0	n__a_pu_être_déterminée	N
+32l0l1	la_nappe	O
+32l0l2	été_investiguée	N
+
+#Le bureau d’étude préconise au vu des résultats la mise en place d’un réseau de surveillance de la qualité des eaux souterraines, qui est en cours de réalisation.
+
+33l0l0	Le_bureau_d__étude	O
+33l0l1	mise_en_place_d__un_réseau_de	N
+33l0l2	surveillance_de_la_qualité_des_eaux_souterraines	A
+33l0l3	en_cours_de_réalisation	T

@@ -1,0 +1,418 @@
+
+#18.0032
+#Le site, d'une superficie de  23 300 m2 dont 13 800 m2 imperméabilisés, entièrement clos, est situé à 3 km à l'est de VIERZON, en zone industrielle des Forges.
+
+0l0l0	Le_site	O
+0l0l1	__est_situé_à_3_km_à_l__est_de_VIERZON	L
+0l0l2	__en_zone_industrielle_des_Forges	L
+
+#Il est bordé au nord par le ruisseau "La Chée" qui lui-même coule à 200 mètres au sud du Canal du Berry et se jette dans l'Yèvre, située à 500 mètres du site.
+
+1l0l0	bordé_au_nord_par	L
+1l0l1	le_ruisseau	O
+1l0l2	à_200_mètres_au_sud_du_Canal_du_Berry	L
+1l0l3	se_jette_dans_l__Yèvre	L
+1l0l4	située_à_500_mètres_du_site	L
+
+#La Société des roulements à Aiguilles NADELLA s'y est installée en 1946.
+
+2l0l0	La_Société_des_roulements	O
+2l0l1	à	R
+2l0l2	Aiguilles_NADELLA	O
+2l0l3	s__y_est_installée	N
+2l0l4	en_1946__	T
+2l1l0	La_Société_des_roulements_à_Aiguilles	I
+
+#En février 2001, la société NADELLA a déposé auprès de la préfecture du Cher une demande d'autorisation pour l'exploitation d'un atelier de travail mécanique et de traitement des métaux.
+
+3l0l0	En_février_2001__	T
+3l0l1	la_société_NADELLA	O
+3l0l2	a_déposé	N
+3l0l3	la_préfecture_du_Cher	O
+3l0l4	une_demande_d_	N
+3l0l5	autorisation	O
+3l0l6	l_	O
+3l0l7	exploitation_d_	R
+3l0l8	un_atelier_de_travail_mécanique_et_de	O
+3l0l9	traitement_des_métaux	A
+3l1l0	la_société_NADELLA	I
+
+#En 2010, un changement d'exploitant en faveur de la société KOYO est déclaré.
+
+4l0l0	En_2010__	T
+4l0l1	un_changement	N
+4l0l2	d__exploitant	O
+4l0l3	la_société_KOYO	O
+4l0l4	est_déclaré	N
+4l1l0	la_société_KOYO	I
+
+#2 nappes souterraines sont présentes au droit du site :
+
+
+#- la nappe des sables de Vierzon à 2 mètres de profondeur, qui s'écoule vers le sud-ouest,
+
+6l0l0	Vierzon	L
+6l0l1	vers	T
+6l0l2	le_sud_ouest	L
+
+#- la nappe de l'Albien, profonde et naturellement protégée d'une pollution provenant du site, qui s'écoule vers le nord-ouest.
+
+7l0l0	s__écoule_vers_le_nord_ouest	N
+
+#La nappe profonde est utilisée dans le cadre de captages industriels et agricoles dont les puits sont situés en amont du site ou en position latérale par rapport au sens d'écoulement de la nappe.
+
+8l0l0	est_utilisée	N
+8l0l1	dans_le_cadre_de_captages_industriels_et_agricoles	L
+8l0l2	les_puits	O
+8l0l3	sont_situés_en_amont_du_site	L
+
+#Aucun puits privé ne se trouve en aval du site, entre l'emprise industrielle et le Cher situé à 800 mètres au sud-ouest.
+
+9l0l0	Aucun_puits	O
+9l0l1	se_trouve_en_aval_du_site	L
+9l0l2	entre_l__emprise_industrielle_et_le_Cher	L
+9l0l3	situé_à_800_mètres_au_sud_ouest	L
+
+#La ville de Vierzon possède un plan d'eau, le Bois Blanc, qui pourrait être utilisé à des fins d'alimentation en eau potable (AEP) en aval du site.
+
+10l0l0	La	O
+10l0l1	ville_de_Vierzon	L
+10l0l2	possède	R
+10l0l3	un_plan_d__eau	O
+10l0l4	en_aval_du_site	L
+
+#Une prise d'eau dans le Cher, destinée à l'alimentation en eau potable, est présente à 800 mètres en aval du site.
+
+11l0l0	Une_prise_d__eau	O
+11l0l1	dans_le_Cher	L
+11l0l2	destinée_à	R
+11l0l3	l__alimentation_en_eau_potable	A
+11l0l4	est	N
+11l0l5	présente_à_800_mètres_en_aval_du_site	L
+
+#A la demande de l'administration, des analyses de sédiments et de sols ont été effectuées en 2000 et ont abouti à la réalisation d'un diagnostic initial en février 2001.
+
+12l0l0	A	R
+12l0l1	la_demande	N
+12l0l2	l__administration	O
+12l0l3	des_analyses	N
+12l0l4	sédiments	O
+12l0l5	ont_été_effectuées	N
+12l0l6	en_2000	T
+12l0l7	ont_abouti_à_la_réalisation_d__un_diagnostic_initial	N
+12l0l8	en_février_2001	T
+
+#Celui-ci révèle que les sols et la nappe sont pollués par des hydrocarbures.
+
+13l0l0	sont_pollués	O
+13l0l1	par	R
+13l0l2	des_hydrocarbures	O
+13l1l0	hydrocarbures	S
+
+#Les sédiments d'une lagune et du lit du ruisseau La Chée, bordant le site au nord, sont également pollués.
+
+14l0l0	du_ruisseau_La_Chée	L
+14l0l1	bordant_le_site_au_nord	L
+
+#A la suite de ce constat, une évaluation simplifiée des risques (ESR) a été faite.
+
+15l0l0	une_évaluation_simplifiée_des_risques	N
+15l0l1	a_été_faite	N
+
+#Les résultats de 38 prélèvements de sols et de 11 piézomètres montrent pour les sols des concentrations notables pour les hydrocarbures, les hydrocarbures aromatiques polycycliques (HAP), les polychlorobiphényls (PCB) et les métaux lourds; pour les eaux souterraines, une contamination par les hydrocarbures, les phénols et les solvants chlorés est détectée.
+
+16l0l0	une_contamination	O
+16l1l0	les_hydrocarbures	S
+16l1l1	les_hydrocarbures_aromatiques_polycycliques	S
+16l1l2	HAP	S
+16l1l3	les_polychlorobiphényls	S
+16l1l4	PCB	S
+16l1l5	métaux_lourds	S
+16l1l6	les_hydrocarbures	S
+16l1l7	les_phénols	S
+16l1l8	solvants_chlorés	U
+
+#L'étude range le site en classe 1, pour laquelle des investigations supplémentaires et une évaluation détaillée des risques (EDR) sont nécessaires, et préconise la surveillance de la nappe ainsi que le traitement des sédiments des lagunes et de La Chée.
+
+17l0l0	le_site	O
+17l0l1	en	R
+17l0l2	classe_1	O
+17l0l3	une_évaluation_détaillée_des_risques	N
+17l0l4	la_surveillance	A
+17l0l5	la_nappe	O
+17l0l6	le_traitement	N
+17l0l7	sédiments	O
+17l0l8	La_Chée	L
+
+#L'administration a demandé en 2002 à la société Nadella d'établir une surveillance de la qualité des eaux souterraines en hautes et basses eaux sur les 11 piézomètres, d'engager une procédure de dépollution des sédiments de La Chée et de clôturer les zones polluées du site.
+
+18l0l0	L__administration	O
+18l0l1	a_demandé	N
+18l0l2	en_2002	T
+18l0l3	la_société_Nadella	O
+18l0l4	d__établir	N
+18l0l5	une_surveillance_de_la_qualité_des_eaux_souterraines	A
+18l0l6	hautes_et_basses_eaux	N
+18l0l7	engager	R
+18l0l8	une_procédure	O
+18l0l9	dépollution	N
+18l0l10	sédiments	O
+18l0l11	La_Chée	L
+18l0l12	clôturer_les_zones_polluées	O
+18l0l13	du_site	O
+18l1l0	la_société_Nadella	I
+
+#Une inspection faite le 15 janvier 2003 a permis de constater la réalisation des travaux suivants : clôture du site, installation de trois séparateurs d'hydrocarbures, installation générale de rétentions et protection du forage de l'usine.
+
+19l0l0	Une_inspection_faite	N
+19l0l1	le_15_janvier_2003	T
+19l0l2	la_réalisation_des_travaux	N
+19l0l3	clôture_du_site	N
+19l0l4	installation_de	N
+19l0l5	trois_séparateurs_d__hydrocarbures	O
+19l0l6	installation_générale_de_rétentions	O
+19l0l7	protection_du_forage	O
+19l0l8	l__usine	O
+19l1l0	hydrocarbures	S
+
+#L'arrêté préfectoral du 13 janvier 2004 prescrit la mise en place d'une surveillance semestrielle des eaux souterraines et la réalisation d'une EDR Santé.
+
+20l0l0	L__arrêté_préfectoral	O
+20l0l1	13_janvier_2004	T
+20l0l2	prescrit_la_mise_en_place_d_	N
+20l0l3	une_surveillance_semestrielle	A
+20l0l4	des_eaux_souterraines	A
+20l0l5	la_réalisation_d__une_EDR_Santé	N
+
+#Lors de l'inspection du 14 septembre 2004, il a été constaté :
+
+21l0l0	de_l__inspection	N
+21l0l1	14_septembre_2004__	T
+
+#- la remise en état de la zone anciennement occupée par l'activité de bains de sels fondus (nettoyage des surface, évacuation des déchets, réfection des sols),
+
+22l0l0	la_remise_en_état	N
+22l0l1	la_zone_anciennement	O
+22l0l2	occupée_par	N
+22l0l3	l__activité_de_bains_de_sels_fondus	A
+22l0l4	nettoyage	N
+22l0l5	des_surface	A
+22l0l6	évacuation_des_déchets	N
+22l0l7	réfection_des_sols	N
+
+#- l'élimination d'un transformateur au PCB,
+
+23l0l0	l__élimination_d_	N
+23l0l1	un_transformateur	O
+23l1l0	PCB	S
+
+#- l'arrêt de l'utilisation du trichloroéthylène.
+
+24l0l0	l__arrêt	N
+24l0l1	l__utilisation_du_trichloroéthylène	A
+24l1l0	trichloroéthylène	S
+
+#Un diagnostic approfondi et une évaluation détaillée des risques ont été réalisés en avril 2005.
+
+25l0l0	Un_diagnostic_approfondi	N
+25l0l1	une_évaluation_détaillée_des_risques	N
+25l0l2	ont_été_réalisés	N
+25l0l3	en_avril_2005__	T
+
+#Les résultats montrent :
+
+
+#- une pollution des sols par des composés métalliques (arsenic, baryum, cadmium, chrome, cuivre, plomb), des COHV, des PCB, des BTEX (Benzène, Toluène, Ethylbenzène, Xylènes) et des hydrocarbures,
+
+27l0l0	une_pollution_des_sols	N
+27l1l0	composés_métalliques	S
+27l1l1	arsenic	S
+27l1l2	baryum	S
+27l1l3	cadmium	S
+27l1l4	chrome	S
+27l1l5	cuivre	S
+27l1l6	plomb	S
+27l1l7	des_COHV	S
+27l1l8	des_PCB	S
+27l1l9	des_BTEX	S
+27l1l10	Benzène	S
+27l1l11	Toluène	S
+27l1l12	Ethylbenzène	S
+27l1l13	Xylènes	S
+27l1l14	hydrocarbures	S
+
+#- une contamination des sédiments de la Chée par de l'arsenic, du chrome, du cuivre, du nickel, des COHV, des hydrocarbures et des PCB,
+
+28l0l0	une_contamination	N
+28l0l1	la_Chée	L
+28l0l2	l__arsenic	O
+28l1l0	l__arsenic	S
+28l1l1	du_chrome	S
+28l1l2	cuivre	S
+28l1l3	nickel	S
+28l1l4	des_COHV	S
+28l1l5	des_hydrocarbures	S
+28l1l6	des_PCB	S
+
+#- une pollution des sols sous la Chée par du chrome, des PCB et des hydrocarbures,
+
+29l0l0	une_pollution_des_sols	N
+29l0l1	sous_la_Chée	L
+29l1l0	chrome	S
+29l1l1	des_PCB	S
+29l1l2	hydrocarbures	S
+
+#- une pollution de la lagune par des hydrocarbures, des PCB, du cuivre, du nickel et du chrome,
+
+30l0l0	une_pollution	N
+30l0l1	la_lagune	N
+30l0l2	hydrocarbures	O
+30l1l0	hydrocarbures	S
+30l1l1	des_PCB	S
+30l1l2	du_cuivre	S
+30l1l3	du_nickel	S
+30l1l4	chrome	S
+
+#- une pollution des eaux souterraines par des composés métalliques (arsenic, plomb, nickel), des COHV ( trichloroéthane, trichloroéthylène, dichloroéthylène, chlorure de vinyle), des hydrocarbures et des cyanures.
+
+31l0l0	une_pollution_des_eaux	N
+31l1l0	souterraines	S
+31l1l1	composés_métalliques	S
+31l1l2	arsenic	S
+31l1l3	plomb	S
+31l1l4	nickel	S
+31l1l5	des_COHV	S
+31l1l6	trichloroéthane	S
+31l1l7	trichloroéthylène	S
+31l1l8	dichloroéthylène	S
+31l1l9	chlorure_de_vinyle	S
+31l1l10	des_hydrocarbures	S
+31l1l11	cyanures	S
+
+#- aucun risque inacceptable n'est engendré par la pollution du site dans le cadre d'un usage industriel ou résidentiel du site sauf en cas de travaux,
+
+32l0l0	la_pollution	N
+32l0l1	le_cadre_d_	R
+32l0l2	un	N
+32l0l3	usage_industriel_ou_résidentiel_du_site	A
+32l0l4	en	T
+32l0l5	cas_de_travaux	N
+
+#- aucun risque inacceptable associé à un usage récréatif de la Chée (baignade, pêche) n'a été mis en évidence.
+
+33l0l0	associé_à	R
+33l0l1	un_usage_récréatif	N
+33l0l2	Chée	A
+33l0l3	baignade___pêche	A
+
+#La réserve AEP du Bois Blanc et le Cher ont toujours présenté une qualité acceptable.
+
+34l0l0	La_réserve_AEP	O
+34l0l1	Blanc_et_le_Cher	L
+34l0l2	ont_toujours_présenté	N
+
+#Les analyses de l'eau de la Chée a montré des anomalies en hydrocarbures et en arsenic.
+
+35l0l0	Les_analyses	N
+35l0l1	l__eau	O
+35l0l2	Chée	L
+35l0l3	arsenic	O
+35l1l0	hydrocarbures	S
+35l1l1	arsenic	S
+
+#Une investigation des sédiments a été menée en janvier 2006.
+
+36l0l0	Une_investigation	N
+36l0l1	sédiments	O
+36l0l2	a_été_menée	N
+36l0l3	en_janvier_2006__	T
+
+#L'estimation des volumes de sédiments pollués est de 475 m3 au droit de la Chée et de 48 tonnes au droit de la lagune.
+
+37l0l0	au_droit_de_la_Chée	L
+37l0l1	lagune	L
+37l1l0	sédiments	S
+
+#Des travaux de dépollution de la lagune et de la Chée ont été réalisés au mois d'août 2006.
+
+38l0l0	Des_travaux_de_dépollution	N
+38l0l1	la_lagune	O
+38l0l2	Chée	L
+38l0l3	ont_été_réalisés	N
+38l0l4	au_mois_d__août_2006__	T
+
+#Une pollution résiduelle en chrome, en PCB et en hydrocarbures a été détectée. 607 tonnes de sédiments ont été excavés.
+
+39l0l0	Une_pollution	O
+39l0l1	hydrocarbures	O
+39l0l2	a_été_détectée	N
+39l0l3	607_tonnes_de_sédiments	O
+39l0l4	ont_été_excavés	N
+39l1l0	chrome	S
+39l1l1	PCB	S
+39l1l2	hydrocarbures	S
+
+#Les 2 transformateurs aux PCB restant sur le site ont été éliminés en 2008.
+
+40l0l0	Les_2_transformateurs	O
+40l0l1	ont_été_éliminés	N
+40l0l2	en_2008__	T
+40l1l0	PCB	S
+
+#Des analyses des eaux souterraines ont été réalisées semestriellement entre 2004 et 2010 sur les paramètres BTEX, COHV, HAP, HCT, cyanures, métaux lourds, PCB, phénols.
+
+41l0l0	Des_analyses	N
+41l0l1	eaux_souterraines	O
+41l0l2	ont_été_réalisées_semestriellement	N
+41l0l3	entre_2004_et_2010	T
+41l1l0	BTEX	S
+41l1l1	COHV	S
+41l1l2	HAP	S
+41l1l3	HCT	S
+41l1l4	cyanures	S
+41l1l5	métaux_lourds	S
+41l1l6	PCB	S
+41l1l7	phénols	S
+
+#Elles ont mis en évidence une absence ou une forte décroissance de la pollution des eaux sur la plupart des paramètres contrôlés.
+
+42l0l0	une_forte_décroissance	N
+42l0l1	la_pollution_des_eaux	O
+
+#En conséquence, l'arrêté préfectoral du 7 avril 2010 modifie celui de janvier 2004 en prescrivant la surveillance semestrielle sur les COHV et les cyanures.
+
+43l0l0	l__arrêté_préfectoral	O
+43l0l1	7_avril_2010	T
+43l0l2	modifie_celui	O
+43l0l3	de_janvier_2004	T
+43l0l4	en_prescrivant	R
+43l0l5	la_surveillance_semestrielle	A
+43l0l6	les_cyanures	O
+43l1l0	les_COHV	S
+43l1l1	cyanures	S
+
+#Le suivi des autres composés est arrêté.
+
+44l0l0	Le_suivi	A
+
+#Le suivi met en valeur :
+
+
+#- une concentration en chlorure de vinyle supérieure à la valeur de l'arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine,
+
+46l0l0	11_janvier_2007	T
+46l1l0	chlorure_de_vinyle	S
+
+#- des teneurs en cyanures et en trichloroéthylène inférieures à la valeur donnée dans l'arrêté précité,
+
+47l1l0	cyanures	S
+47l1l1	trichloroéthylène	S
+
+#- des teneurs en dichloroéthylène supérieures à la valeur guide fournie par l'organisation mondiale de la santé (OMS).
+
+48l1l0	dichloroéthylène	S
+
+#La surveillance de la qualité des eaux souterraines se poursuit.
+
+49l0l0	La_surveillance_de	A
+49l0l1	la_qualité_des_eaux_souterraines	O

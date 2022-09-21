@@ -1,0 +1,147 @@
+
+#61.0046
+#La fonderie a été crée en 1835 sur le site actuel.
+
+0l0l0	La_fonderie	O
+0l0l1	a_été_crée	N
+0l0l2	en_1835	T
+
+#Entre 1920 et 1980 plusieurs propriétaires se sont succédés, les fonderies et ateliers d'usinage de Pontchardon (FAP), la société des fonderies de Randonnai et PAMCO.
+
+1l0l0	Entre_1920_et_1980	T
+1l0l1	plusieurs_propriétaires	O
+1l0l2	se_sont_succédés	N
+1l0l3	les_fonderies_et_ateliers_d__usinage	O
+1l0l4	de_Pontchardon	O
+1l0l5	FAP	O
+1l0l6	la_société_des_fonderies	O
+1l0l7	Randonnai	O
+1l0l8	PAMCO	O
+1l1l0	la_société_des_fonderies_de_Randonnai	I
+1l1l1	PAMCO	I
+
+#Ce dernier intègre le groupe CF2M (compagnie française des moulages et métallurgie).
+
+2l0l0	intègre	R
+2l0l1	le_groupe_CF2_M	O
+2l0l2	compagnie_française_des_moulages_et_métallurgie	O
+2l1l0	le_groupe_CF2_M	I
+
+#En 1995, PAMCO fusionne avec la société CFFC de Rochefort (compagnie française des fontes en coquille), ils deviennent alors la CFFC PAMCO industries du groupe CF2M.
+
+3l0l0	En_1995__	T
+3l0l1	PAMCO	O
+3l0l2	fusionne_avec	R
+3l0l3	la_société_CFFC	O
+3l0l4	de_Rochefort	O
+3l0l5	compagnie_française_des_fontes_en_coquille	A
+3l0l6	la_CFFC_PAMCO_industries	O
+3l0l7	CF2M_	O
+3l1l0	PAMCO	I
+3l1l1	la_société_CFFC	I
+3l1l2	de_Rochefort	I
+3l1l3	la_CFFC_PAMCO_industries	I
+3l1l4	groupe_CF2M_	I
+
+#La société produit des pièces en fonte et en bronze en utilisant la technique du moulage au sable.
+
+4l0l0	La_société	O
+4l0l1	moulage	A
+
+#En 2005, la fonderie est mise en redressement judiciaire, un plan de reprise par les salariés est proposé sous la forme d'une SCOP (société coopérative ouvrière de production).
+
+5l0l0	En_2005__	T
+5l0l1	la_fonderie	O
+5l0l2	est_mise_en_redressement_judiciaire	N
+5l0l3	un_plan_de_reprise	N
+
+#En décembre 2008, le crassier est vendu à la Communauté de communes de Camembert qui mandate l'EPFN (Établissement Public Foncier de Normandie) pour gérer le traitement et le réaménagement du site.
+
+6l0l0	En_décembre_2008__	T
+6l0l1	le_crassier	O
+6l0l2	est_vendu	N
+6l0l3	à	R
+6l0l4	la_Communauté	O
+6l0l5	de_communes_de_Camembert	L
+6l0l6	mandate	N
+6l0l7	l__EPFN	O
+6l0l8	gérer_le_traitement	N
+6l0l9	le_réaménagement_du_site	N
+6l1l0	la_Communauté	I
+6l1l1	l__EPFN	I
+
+#Le crassier est difficilement accessible depuis la voie publique et ne présente pas de risque d'éboulement et d'effondrement.
+
+7l0l0	Le_crassier	O
+7l0l1	éboulement	N
+
+#Suite aux prescriptions de l'arrêté préfectoral d'autorisation d'exploiter d'avril 2001, des analyses ont été réalisées en amont et en aval du crassier.
+
+8l0l0	Suite_aux	R
+8l0l1	prescriptions	N
+8l0l2	l__arrêté_préfectoral	O
+8l0l3	autorisation_d__exploiter	O
+8l0l4	d__avril_2001__	T
+8l0l5	des_analyses_ont_été_réalisées	N
+8l0l6	en_amont_et_en_aval_du_crassier	L
+
+#Ces dernières ont mis en évidence un impact de l'arsenic et en moindre mesure du cadmium, du chrome et du nickel dans la nappe.
+
+9l0l0	un_impact	N
+9l0l1	l__arsenic	O
+9l0l2	la_nappe	O
+9l1l0	arsenic	S
+9l1l1	cadmium	S
+9l1l2	chrome	S
+9l1l3	nickel	S
+
+#Les sables présents dans le crassier sont peu contaminés, mais l'exposition du crassier aux intempéries et sa localisation en zone inondable sont à l'origine de la pollution de la nappe.
+
+10l0l0	sa	O
+10l0l1	localisation_en_zone_inondable	L
+10l0l2	la_nappe	O
+
+#L'arrêté d'autorisation d'exploiter du 12 avril 2001 prévoyait l'évacuation des sables vers une installation autorisée.
+
+11l0l0	L__arrêté_d__autorisation_d__exploiter	O
+11l0l1	du_12_avril_2001	T
+11l0l2	l__évacuation_des_sables_vers	R
+11l0l3	une_installation_autorisée	O
+
+#En 2010, aucune évacuation n'avait encore eu lieu.
+
+12l0l0	En_2010__	T
+12l0l1	encore_eu_lieu	O
+
+#Lors du rachat de la parcelle par la Communauté de communes de Camembert, un diagnostic des sols a été réalisé concluant qu'il n'y avait pas de risques importants et immédiats.
+
+13l0l0	Lors	R
+13l0l1	du_rachat	N
+13l0l2	la_parcelle	O
+13l0l3	la_Communauté_de_communes	O
+13l0l4	de_Camembert	L
+13l0l5	un_diagnostic_des_sols	N
+13l0l6	a_été_réalisé	N
+13l0l7	avait_pas_de_risques_importants	O
+13l1l0	la_Communauté_de_communes	I
+
+#Un plan de gestion a été fait en 2010 recommandant comme solution la plus pertinente de maintenir en place les matériaux stockés sous condition de confinement et de réaménagement du terrain.
+
+14l0l0	Un_plan_de_gestion	O
+14l0l1	a_été_fait	N
+14l0l2	en_2010	T
+14l0l3	de_réaménagement_du_terrain	N
+
+#Un courrier a été envoyé par la DREAL à la communauté de communes de Camembert le 29 mars 2012, leur demandant les suites quant aux préconisations et recommandations évoqués dans le plan de gestion.
+
+15l0l0	a_été_envoyé	N
+15l0l1	la_DREAL	O
+15l0l2	la_communauté_de_communes	O
+15l0l3	de_Camembert	L
+15l0l4	le_29_mars_2012__	T
+15l1l0	la_DREAL	I
+15l1l1	la_communauté_de_communes	I
+
+#A ce jour, ce courrier reste sans réponse.
+
+16l0l0	A_ce_jour	T

@@ -1,0 +1,581 @@
+
+#42.0150
+#La société Loire Hydro a exercé son activité dans un établissement de 6984 m2, dont 4800 m2 bâtis.
+
+0l0l0	La_société_Loire_Hydro	O
+0l0l1	a_exercé	N
+0l0l2	son_activité	O
+0l0l3	dans	R
+0l0l4	un_établissement	O
+0l1l0	La_société_Loire_Hydro	I
+
+#Les recherches sur l’occupation du site menées par SOGREAH ont montré qu’il avait accueilli les activités suivantes :
+
+1l0l0	Les_recherches	N
+1l0l1	SOGREAH	O
+1l0l2	avait_accueilli	N
+1l0l3	les_activités	O
+1l1l0	SOGREAH	I
+
+#- Imprimerie à partir de 1912,
+
+2l0l0	Imprimerie	O
+2l0l1	à_partir_de_1912	T
+
+#- Scierie,
+
+3l0l0	Scierie	O
+3l1l0	__Scierie	I
+
+#- Société de décolletage (Forézienne de décolletage),
+
+4l0l0	Société_de_décolletage	O
+4l0l1	Forézienne_de_décolletage	A
+4l1l0	Forézienne	I
+
+#- Société d’emballage (Mabotex) entre 1960 et 1975,
+
+5l0l0	d__emballage	O
+5l0l1	Mabotex	O
+5l0l2	entre_1960_et_1975	T
+5l1l0	Mabotex	I
+
+#- Société de vérins hydrauliques (Bachet) entre 1975 et 1985,
+
+6l0l0	Société_de_vérins_hydrauliques	O
+6l0l1	entre_1975_et_1985	T
+6l1l0	Société_de_vérins_hydrauliques	I
+
+#- Société de conception et réalisation de vérins hydrauliques (Loire-Hydro) entre 1985 et 2003.
+
+7l0l0	Société_de_conception_et_réalisation_de_vérins_hydrauliques	O
+7l0l1	entre_1985_et_2003__	T
+
+#La déclaration des activités de l'établissement Loire-Hydro a fait l'objet d'un récépissé de la préfecture de la Loire n°16709 en date du 04/04/90.
+
+8l0l0	La_déclaration	N
+8l0l1	des_activités	N
+8l0l2	l__établissement_Loire___Hydro	O
+8l0l3	a_fait_l__objet_d_	R
+8l0l4	un_récépissé	O
+8l0l5	la_préfecture_de_la_Loire	O
+8l0l6	en_date_du_04_04_90__	T
+8l1l0	Loire___Hydro	I
+8l1l1	la_préfecture_de_la_Loire	I
+
+#L’entreprise Loire Hydro a cessé son activité en 2003.
+
+9l0l0	L__entreprise_Loire_Hydro	O
+9l0l1	a_cessé	N
+9l0l2	son_activité	O
+9l0l3	en_2003__	T
+
+#Les bâtiments ont été démolis.
+
+10l0l0	Les_bâtiments	O
+10l0l1	ont_été_démolis	N
+
+#Des reconnaissances et des travaux de dépollution ont été réalisés de 2006 à 2009.
+
+11l0l0	Des_reconnaissances	N
+11l0l1	des_travaux_de_dépollution	N
+11l0l2	ont_été_réalisés	N
+11l0l3	de_2006_à_2009__	T
+
+#Un permis de construire a été accordé le 01/03/2007 à Bowfonds-Marignan-immobilier pour 4 bâtiments d'habitation de 3 étages sur parking enterré (périmé).
+
+12l0l0	Un_permis_de_construire	O
+12l0l1	a_été_accordé	N
+12l0l2	le_01_03_2007	T
+12l0l3	Bowfonds___Marignan	L
+12l0l4	__immobilier	N
+12l0l5	4_bâtiments_d__habitation	O
+12l0l6	sur_parking_enterré	O
+12l1l0	Bowfonds	I
+
+#L'inspection a reçu, le 19 novembre 2012 , un bilan du diagnostic de sol sur le bâtiment D de février 2008, un rapport de contrôle de fin de travaux de dépollution d'avril 2009, un courrier de SOGREAH au promoteur du 22 février 2010 concernant les bâtiments A et B et un courriel de SOGREAH au promoteur du 26 janvier 2011 concernant le bâtiment C.
+
+13l0l0	L_	O
+13l0l1	le_19_novembre_2012	T
+13l0l2	un_bilan_du_diagnostic_de_sol	N
+13l0l3	sur_le_bâtiment_D	L
+13l0l4	de_février_2008__	T
+13l0l5	un_rapport_de_contrôle	O
+13l0l6	fin_de_travaux_de_dépollution	N
+13l0l7	d__avril_2009__	T
+13l0l8	un_courrier	O
+13l0l9	SOGREAH	O
+13l0l10	promoteur	O
+13l0l11	du_22_février_2010	T
+13l0l12	un_courriel	N
+13l0l13	SOGREAH_au_promoteur	O
+13l0l14	26_janvier_2011	T
+13l0l15	concernant	R
+13l0l16	le_bâtiment_C_	O
+13l1l0	SOGREAH	I
+13l1l1	SOGREAH	I
+
+#Suite à l'étude de ces documents, l'inspection, dans son rapport du 20 décembre 2012, conclut que les documents reçus sont très parcellaires et probablement en partie rendus obsolètes par les travaux réalisés.
+
+14l0l0	20_décembre_2012__	T
+14l0l1	conclut	R
+
+#Ils ne fournissent notamment aucune indication sur la présence d’eau souterraine et les risques de transfert des pollutions hors site.
+
+
+#Cependant, l'inspection peut faire ponctuellement les observations suivantes :
+
+
+#- Les concentrations en COHV observées en fond de fouille aux abords ou sous le futur bâtiment B sont très élevées (113 mg/kg) et devraient faire l'objet d'un traitement au titre de la protection de l'environnement, même si le calcul montre que le risque sanitaire reste acceptable.
+
+17l0l0	fond_de_fouille_aux_abords_ou_sous_le_futur_bâtiment_B	L
+17l0l1	l__objet_d_	R
+17l1l0	COHV	S
+
+#- Les mesures de gestion de la pollution par des solutions de ventilation mécanique sont consommatrices d'énergie et risquent de ne pas être pérennes, car leur maintenance ne peut pas être garantie sur le long terme.
+
+18l0l0	Les_mesures_de_gestion	N
+18l0l1	la_pollution	O
+
+#De plus, même si l'extraction fonctionne correctement, la ventilation est problématique si les garages sont constitués de boxes individuels.
+
+
+#- Les déblais sortant du site lors de la réalisation des fouilles des bâtiments devront faire l'objet d'une caractérisation en vue d'une gestion adaptée à leur état.
+
+20l0l0	déblais_sortant_du_site	L
+20l0l1	lors_de	R
+20l0l2	la_réalisation_des_fouilles	N
+20l0l3	bâtiments	O
+20l0l4	devront_faire_l__objet_d_	R
+
+#Ces observations ont été transmises au propriétaire.
+
+21l0l0	Ces_observations	O
+21l0l1	ont_été_transmises	N
+
+#Le projet de la société Bowfonds-Marignan-immobilier a été abandonné.
+
+22l0l0	Le_projet	O
+22l0l1	la_société_Bowfonds	O
+22l0l2	immobilier	O
+22l0l3	a_été_abandonné	N
+22l1l0	la_société_Bowfonds	I
+
+#Le projet d’aménagement d’un établissement accueillant les personnes âgées dépendantes est en cours sur le site par la société SCCV Paul Krüger (filiale Vinci).
+
+23l0l0	Le_projet	O
+23l0l1	d__aménagement_d_	N
+23l0l2	un_établissement	O
+23l0l3	accueillant	R
+23l0l4	les_personnes_âgées_dépendantes	A
+23l0l5	est_en_cours_sur	R
+23l0l6	le_site	O
+23l0l7	la_société_SCCV_Paul_Krüger	O
+23l0l8	filiale_Vinci	O
+23l1l0	la_société_SCCV_Paul_Krüger	I
+
+#Il répond à une demande forte sur la ville de Saint Étienne permettant de reloger des personnes hébergées actuellement dans des logements qui ne sont plus conformes aux normes de sécurité et d’accessibilité.
+
+24l0l0	sur_la_ville_de_Saint_Étienne	L
+24l0l1	reloger_des_personnes_hébergées	N
+24l0l2	actuellement_dans_des_logements	N
+
+#Le projet est porté par la ville de Saint Étienne, par l’ARS, qui finance au titre des soins, et par le Conseil Général, qui finance au titre de la dépendance.
+
+25l0l0	Le_projet	O
+25l0l1	est_porté	N
+25l0l2	la_ville	O
+25l0l3	de_Saint_Étienne	L
+25l0l4	l__ARS	O
+25l0l5	finance_au_titre	R
+25l0l6	soins	O
+25l0l7	le_Conseil_Général	O
+25l0l8	finance_au	R
+25l1l0	l__ARS	I
+25l1l1	le_Conseil_Général	I
+
+#L’établissement serait géré à terme par la Mutualité de la Loire, le bâtiment restant la propriété d’un investisseur après avoir été construit par un aménageur (ADIM) qui s’est adjoint les services d’une équipe de maîtrise d’œuvre dirigée par un architecte.
+
+26l0l0	L__établissement_serait	O
+26l0l1	géré_à_terme	T
+26l0l2	par	R
+26l0l3	la_Mutualité	O
+26l0l4	de_la_Loire	O
+26l0l5	le_bâtiment	O
+26l0l6	restant_la_propriété_d_	R
+26l0l7	un_investisseur	N
+26l0l8	après	R
+26l0l9	avoir_été_construit_par	N
+26l0l10	un_aménageur	N
+26l0l11	ADIM	O
+26l0l12	s__est_adjoint	N
+26l0l13	une_équipe_de_maîtrise_d__œuvre	O
+26l0l14	un_architecte	O
+26l1l0	la_Mutualité	I
+26l1l1	de_la_Loire	I
+
+#Compte tenu du lourd passif environnemental, l’aménageur a demandé l’assistance du bureau d’études spécialisé EODD.
+
+27l0l0	l__aménageur	N
+27l0l1	a_demandé	N
+27l0l2	l__assistance_du_bureau_d__études_spécialisé	O
+27l0l3	EODD	T
+27l1l0	EODD	I
+
+#S’agissant d’un établissement à vocation sociale, le prix de journée est fixé par les financeurs, et tout le calcul de la rentabilité du projet se fait à partir de ce paramètre, des coûts du foncier et des coûts de dépollution.
+
+28l0l0	est_fixé	N
+28l0l1	les_financeurs	O
+28l0l2	dépollution	N
+
+#Sur la base de la capacité du projet d’EHPAD (160 résidents), du prix de journée cible imposé par les tutelles que sont l’A.
+
+29l0l0	la_capacité	O
+29l0l1	du_projet	N
+29l0l2	les_tutelles	O
+29l0l3	l__A_	O
+
+#.S et le Département 42 et du prix du foncier, le budget maximal pouvant être alloué à la gestion complémentaire des pollutions et aux études associées en amont et en cours de travaux est estimé à 450 k€ HT par la SCCV Paul Krüger.
+
+30l0l0	le_Département_42	O
+30l0l1	le_budget_maximal	O
+30l0l2	pouvant_être_alloué_à	R
+30l0l3	la_gestion_complémentaire_des_pollutions	N
+30l0l4	aux_études_associées	N
+30l0l5	en	L
+30l0l6	amont_et_en_cours	T
+30l0l7	de_travaux	N
+30l0l8	450_k__HT	O
+30l0l9	la_SCCV	O
+30l0l10	Krüger	O
+30l1l0	le_Département_42	I
+30l1l1	la_SCCV_Paul_Krüger	I
+
+#Le plan de gestion a été transmis à l’inspection le 18 février 2016 par la société SCCV Paul Krüger et annexé également au dossier de demande de permis de construire déposé en Mairie de Saint-Etienne le 8 février 2016.
+
+31l0l0	Le_plan_de_gestion	O
+31l0l1	a_été_transmis	N
+31l0l2	l__inspection	O
+31l0l3	le_18_février_2016	T
+31l0l4	la_société_SCCV_Paul_Krüger	O
+31l0l5	demande_de_permis_de_construire	N
+31l0l6	Mairie_de_Saint_Etienne	L
+31l0l7	le_8_février_2016__	T
+31l1l0	la_société_SCCV_Paul_Krüger	I
+
+#Lors de la réunion du 5 mars 2016, l’inspection a donné son positionnement quant à ce dossier.
+
+32l0l0	Lors	T
+32l0l1	de_la_réunion	N
+32l0l2	du_5_mars_2016__	T
+32l0l3	l__inspection	O
+32l0l4	a_donné	N
+32l0l5	son_positionnement	O
+32l0l6	quant_à	R
+32l0l7	ce_dossier	O
+
+#- Les travaux de dépollution portent légitimement sur les solvants chlorés et les hydrocarbures, principales sources de pollution du site.
+
+33l0l0	Les_travaux_de_dépollution	N
+33l0l1	principales_sources_de_pollution_du_site	O
+33l1l0	solvants_chlorés	S
+33l1l1	hydrocarbures	S
+
+#Le choix de consacrer le budget disponible plutôt aux solvants chlorés qu’aux hydrocarbures semble également pertinent, car les premiers sont beaucoup plus pénalisants en termes de transfert et de mobilité dans les eaux souterraines et l’air alors que les seconds sont présents sous formes de molécules lourdes peu mobiles et souvent moins volatiles.
+
+34l1l0	solvants_chlorés	S
+34l1l1	hydrocarbures	S
+34l1l2	les_seconds	S
+34l1l3	molécules_lourdes	U
+
+#- Au regard des hypothèses retenues dans l’analyse des risques sanitaires, l’inspection estime que deux points chauds supplémentaires (Z11 et Z38), présentant une teneur en HCT supérieure à 3500 mg/kg, doivent faire obligatoirement l’objet d’un traitement afin de permettre un 1er niveau de validation de l’EQRS.
+
+35l0l0	deux_points_chauds_supplémentaires	O
+35l0l1	obligatoirement_l__objet	R
+35l1l0	HCT	S
+
+#Pour l’ensemble des points chauds mentionnés au plan de gestion et ceux cités supra, l’inspection propose de retenir un seuil de dépollution pour les HCT (C10-C40) égale à 3500 mg/kg Ms avec une fraction volatile C10-C40 inférieure à 1200 mg/kg en raison des hypothèses retenues dans l’analyse des risques sanitaires.
+
+36l0l0	dépollution	N
+36l0l1	les_HCT	O
+36l1l0	les_HCT	S
+36l1l1	C10_C40__	S
+36l1l2	volatile_C10_C40	S
+
+#- Au regard des zones contaminées aux COHV à dépolluer, retenues dans le plan de gestion, l’inspection propose de traiter le point chaud complémentaire correspondant au secteur Z33 objet d’une contamination significative aux COHV et présent au droit du futur bâtiment de l’EHPAD.
+
+37l0l0	des_zones_contaminées	O
+37l0l1	traiter	N
+37l0l2	le_point_chaud_complémentaire	O
+37l0l3	correspondant_au	R
+37l0l4	secteur_Z33_objet	N
+37l0l5	au_droit_du_futur_bâtiment_de_l__EHPAD	L
+37l1l0	COHV	S
+37l1l1	COHV	S
+
+#Le traitement de cette zone (Z33) permettrait de maîtriser davantage l’impact environnemental (écoulement d’eau souterraine peu profond) notamment hors site et de garantir une meilleure maîtrise des impacts sanitaires pour les occupants de l’EHPAD et, de manière générale, pour la population comme en attestent les OQAI pour ces composés.
+
+38l0l0	Le_traitement	N
+38l0l1	cette_zone	O
+38l1l0	composés	S
+
+#Les concentrations résiduelles en COHV présentes dans le sol au droit du site seraient ainsi inférieures à 10 mg/kg Ms.
+
+39l1l0	COHV	S
+
+#Pour l’ensemble des points chauds mentionnés au plan de gestion et ceux cités supra, l’inspection propose donc de retenir un seuil de dépollution pour les COHV égale à 10 mg/kg Ms qui semble cohérent avec le bruit de fond global mesuré sur les parcelles.
+
+40l0l0	dépollution	N
+40l1l0	COHV	S
+
+#- Le plan de gestion prévoit la création d’un parking semi-enterré au droit du bâtiment construit sur la parcelle LR52 (environ 2000 m³ de déblais générés).
+
+41l0l0	Le_plan_de_gestion	O
+41l0l1	prévoit	R
+41l0l2	la_création_d__un_parking	N
+41l0l3	semi_enterré_au_droit_du_bâtiment_construit_sur_la_parcelle_LR52	L
+41l0l4	2000___m³	O
+
+#Conformément au  plan de gestion, la SCCV Paul Krüger devra être en mesure de justifier à l’inspection les modalités de gestion des terres excavées sur les différentes parcelles et, le cas échéant, fournir les justificatifs de leur élimination selon une filière agréée.
+
+42l0l0	__la	O
+42l0l1	à_l__inspection_les_modalités	O
+42l1l0	__la_SCCV_Paul_Krüger	I
+
+#- Les déblais issus des précédents travaux de dépollution stockés sur site ont été caractérisés par des prélèvements et analyses.
+
+43l0l0	précédents_travaux_de_dépollution	N
+43l0l1	stockés	N
+43l0l2	ont_été_caractérisés	N
+
+#Les résultats de ces investigations ne mettent pas en évidence d’anomalies de concentration significatives en HCT et COHV (respect des seuils du plan de gestion).
+
+44l1l0	HCT	S
+44l1l1	COHV	S
+
+#Ces déblais seront soit réutilisés sur site soit éliminés hors site après caractérisation préalable.
+
+45l0l0	éliminés_hors_site	O
+45l0l1	après	R
+45l0l2	caractérisation_préalable	O
+
+#Dans son rapport du 14 novembre 2016, l’inspection indique que les documents produits par la SCCV Paul Krüger permettent une bonne connaissance de l’état de pollution de la parcelle LR61 ayant accueilli Loire-Hydro.
+
+46l0l0	14_novembre_2016__	T
+46l0l1	la_SCCV	O
+46l0l2	Krüger	O
+46l0l3	l__état_de_pollution	O
+46l0l4	la_parcelle_LR61	O
+46l0l5	ayant_accueilli	N
+46l0l6	Loire___Hydro	O
+46l1l0	la_SCCV_Paul_Krüger	I
+
+#Ils donnent également des indications sur l’état de la parcelle LR52, qui n’a pas reçu d’activité classée mais dont le sol fortement remanié comporte notamment des produits de démolition.
+
+47l0l0	la_parcelle_LR52	O
+47l0l1	n__a_pas_reçu_d__activité_classée	N
+
+#La mise en œuvre des dispositions dont les travaux de dépollution prévues dans le rapport de l’inspection devraient permettent de garantir la compatibilité du terrain avec les usages projetés ainsi que la maîtrise des impacts environnementaux.
+
+48l0l0	les_travaux_de_dépollution	N
+48l0l1	les_usages_projetés	O
+48l0l2	la_maîtrise_des_impacts_environnementaux	N
+
+#À partir des solutions partagées par l’ensemble des acteurs à l’issue de la réunion du 14 octobre 2016 et afin de répondre au courrier adressé au préfet de la Loire, l’inspection a informé la SCCV Paul Krüger de la validation du plan de gestion 18 février 2016 sous réserve de la prise en compte des remarques de l’inspection formulées dans le rapport du 14 novembre 2016 et acceptées par la SCCV Paul Krüger.
+
+49l0l0	À_partir	R
+49l0l1	de_la_réunion	N
+49l0l2	14_octobre_2016	T
+49l0l3	préfet	L
+49l0l4	de_la_Loire	O
+49l0l5	l__inspection	O
+49l0l6	a_informé	N
+49l0l7	la_SCCV	O
+49l0l8	la_validation_du_plan_de_gestion	O
+49l0l9	18_février_2016	T
+49l0l10	le_rapport	N
+49l0l11	14_novembre_2016	T
+49l0l12	acceptées	N
+49l0l13	la_SCCV	O
+49l0l14	Paul_Krüger	N
+49l1l0	préfet_de_la_Loire	I
+49l1l1	la_SCCV_Paul_Krüger	I
+49l1l2	la_SCCV_Paul_Krüger	I
+
+#Dans son courrier du 24 avril 2017, l’inspection rappelle les précautions à prendre afin de valider l’évaluation des risques sanitaires réalisée à partir de mesures des gaz du sol.
+
+50l0l0	24_avril_2017__	T
+50l0l1	l__inspection	O
+
+#La SCCV Paul Krüger a donc procédé, par l’intermédiaire du bureau d’études EODD, et après accord de l’inspection sur le positionnement des ouvrages et les types de prélèvement, à une campagne de mesures des gaz du sol les 11 et 12 avril 2017 au préalable des travaux de dépollution.
+
+51l0l0	La_SCCV_Paul_Krüger	O
+51l0l1	a_donc_procédé	N
+51l0l2	du_bureau_d__études_EODD	O
+51l0l3	ouvrages	O
+51l0l4	les_types_de_prélèvement	O
+51l0l5	une_campagne_de_mesures_des_gaz_du_sol	N
+51l0l6	les_11_et_12_avril_2017	T
+51l0l7	des_travaux_de_dépollution__	N
+51l1l0	La_SCCV_Paul_Krüger	I
+51l1l1	EODD	I
+
+#Dans ce cadre, l’inspection a effectué, le 12 avril 2017, une visite du site afin d’évaluer les dispositions prises par le bureau d’études EODD pour assurer une bonne représentativité des mesures de gaz du sol et a formulé ses remarques dans son rapport du 25 avril 2017.
+
+52l0l0	l__inspection	O
+52l0l1	a_effectué	N
+52l0l2	le_12_avril_2017__	T
+52l0l3	une_visite	N
+52l0l4	site	O
+52l0l5	le_bureau_d__études_EODD	O
+52l0l6	25_avril_2017__	T
+52l1l0	EODD	I
+
+#Par courrier du 12 juin 2017, la société SSCV Paul Krüger a répondu aux remarques formulées dans ce même rapport et a également adressé un compte-rendu des investigations complémentaires d’avril 2017.
+
+53l0l0	du_12_juin_2017__	T
+53l0l1	la_société_SSCV	O
+53l0l2	Krüger	O
+53l0l3	adressé_un_compte_rendu	N
+53l0l4	des_investigations_complémentaires	N
+53l0l5	d__avril_2017__	T
+53l1l0	la_société_SSCV	I
+53l1l1	Paul_Krüger	I
+
+#Suite au courrier de la société SSCV Paul Krüger du 31 août 2017, répondant au rapport de l’inspection du 27 juillet 2017, et aux visites d’inspection des 8 et 13 septembre 2017, l’inspection a adressé son rapport du 15 septembre 2017 à  la SCCV Paul Krüger.
+
+54l0l0	Suite_au	R
+54l0l1	courrier	O
+54l0l2	la_société_SSCV	O
+54l0l3	Krüger	O
+54l0l4	du_31_août_2017__	T
+54l0l5	27_juillet_2017__	T
+54l0l6	et_aux_visites_d__inspection	N
+54l0l7	des_8_et_13_septembre_2017__	T
+54l0l8	l__inspection	O
+54l0l9	a_adressé_son_rapport	N
+54l0l10	15_septembre_2017	T
+54l1l0	la_société_SSCV_Paul_Krüger	I
+54l1l1	__la_SCCV_Paul_Krüger	I
+
+#Elle indique que suite aux travaux de dépollution, la plateforme a été aménagée (opérations de remblaiement / déblaiement) afin de permettre les travaux de construction des futurs bâtiments.
+
+55l0l0	suite	R
+55l0l1	aux_travaux_de_dépollution	N
+55l0l2	la_plateforme	O
+55l0l3	a_été_aménagée	N
+55l0l4	opérations_de_remblaiement	N
+55l0l5	déblaiement	N
+55l0l6	afin_de_permettre	R
+55l0l7	les_travaux_de_construction_des_futurs_bâtiments	N
+
+#L’installation des 250 pieux prévus pour soutenir les dalles des bâtiments était en cours.
+
+56l0l0	L__installation	N
+56l0l1	soutenir	N
+56l0l2	dalles_des_bâtiments	O
+56l0l3	était_en_cours	T
+
+#La campagne de prélèvement des gaz du sol, prévue le 13 septembre, doit permettre d’acquérir des résultats représentatifs pour évaluer les risques sanitaires des futurs occupants.
+
+57l0l0	La_campagne_de_prélèvement	N
+57l0l1	prévue_le_13_septembre	T
+
+#Le programme prévisionnel d’implantation des ouvrages de mesure des gaz du sol à partir de 8 nouveaux piézairs (PZa2 à PZa9) proposé par la société Paul Krüger peut être mise en œuvre sur le site.
+
+58l0l0	Le_programme_prévisionnel	O
+58l0l1	des_ouvrages_de_mesure	O
+58l0l2	sol	O
+58l0l3	à_partir_de	R
+58l0l4	8_nouveaux_piézairs	O
+58l0l5	la_société_Paul_Krüger	O
+58l1l0	la_société_Paul_Krüger	I
+
+#Les travaux de dépollution menés sur les terrains du projet « Cité des Aînés » ont permis, sous réserve de la validation dans l’ARR post travaux (réalisée à partir des mesures des gaz du sol de la campagne du 13 septembre 2017) de la compatibilité du site avec le projet, de réhabiliter le site pour permettre la réalisation d’un EHPAD, d’une résidence autonomie et de 12 logements adaptés.
+
+59l0l0	Les_travaux_de_dépollution_menés_sur	N
+59l0l1	les_terrains	O
+59l0l2	__Cité_des_Aînés	O
+59l0l3	permis___sous_réserve	R
+59l0l4	de_la_validation	N
+59l0l5	du_13_septembre_2017	T
+59l0l6	de_réhabiliter_le_site	N
+59l0l7	pour_permettre	R
+59l0l8	la_réalisation_d__un_EHPAD	N
+59l0l9	une_résidence_autonomie	N
+59l0l10	de_12_logements_adaptés	N
+59l1l0	un_EHPAD	I
+
+#Conformément à l’article R. 512-39-3 III, l’inspection a constaté par procès-verbal la réalisation des travaux prévus au mémoire de réhabilitation.
+
+60l0l0	l__inspection	O
+60l0l1	a_constaté_par_procès_verbal	N
+60l0l2	la_réalisation	N
+60l0l3	des_travaux_prévus_au_mémoire_de_réhabilitation	N
+
+#La société Paul Krüger s’est engagée, suite à différentes demandes de l’inspection, a retranscrire le suivi des travaux de dépollution, la campagne de mesures de gaz du sol après travaux, le remblaiement des 2 fouilles correspondant respectivement à l’excavation des 2 zones sources Z17 et Z18 et des 7 zones sources Z10 à Z12, Z29, Z31, Z33 et Z35, à l’élimination des déchets (terres polluées) hors-site, dans le rapport de fin de travaux et le projet de servitudes d’utilité publique.
+
+61l0l0	La_société_Paul_Krüger	O
+61l0l1	s_	N
+61l0l2	suivi	O
+61l0l3	des_travaux_de_dépollution	N
+61l0l4	la_campagne_de_mesures	N
+61l0l5	le_remblaiement	N
+61l0l6	l__excavation	N
+61l0l7	2_zones_sources	O
+61l0l8	l__élimination	N
+61l0l9	terres_polluées	O
+61l0l10	hors_site	O
+61l0l11	le_rapport	O
+61l0l12	fin_de_travaux	N
+61l0l13	le_projet_de_servitudes_d__utilité_publique	O
+61l1l0	La_société_Paul_Krüger	I
+
+#Elle doit également, au terme des travaux, assurer la surveillance des eaux souterraines et, au terme de cette surveillance, fournir un bilan conformément aux recommandations formulées par l’inspection dans son rapport du 14 novembre 2016 c’est-à-dire une campagne de surveillance avant le démarrage des travaux et au terme de ces derniers, une surveillance à fréquence trimestrielle pendant 2 ans.
+
+62l0l0	au_terme	R
+62l0l1	des_travaux	N
+62l0l2	la_surveillance_des_eaux_souterraines	A
+62l0l3	au_terme_de	R
+62l0l4	cette_surveillance	A
+62l0l5	14_novembre_2016	T
+62l0l6	une_campagne_de_surveillance	N
+62l0l7	avant	R
+62l0l8	le_démarrage_des_travaux	N
+62l0l9	pendant_2_ans	T
+
+#A la fin de cette surveillance, un rapport sera transmis à l’inspection précisant l’opportunité de la poursuivre ou non (substance/substance).
+
+63l0l0	cette_surveillance	A
+
+#Dans son rapport du 23 janvier 2018, l'inspection indique que les derniers éléments fournis par la société Paul Krüger attestent de la conformité des travaux de dépollution.
+
+64l0l0	23_janvier_2018__	T
+64l0l1	l__inspection	O
+64l0l2	la_société_Paul_Krüger	O
+64l0l3	des_travaux_de_dépollution	N
+64l1l0	la_société_Paul_Krüger	I
+
+#Ils doivent permettre, sous réserve de la mise en œuvre des mesures de gestion simples prévues dans l’ARR imposées par des servitudes d’utilité publique, de garantir la compatibilité du terrain avec les usages projetés ainsi que la maîtrise des impacts environnementaux.
+
+65l0l0	les_usages_projetés	O
+65l0l1	la_maîtrise_des_impacts_environnementaux	O
+
+#L’analyse des risques sanitaires résiduels, basée sur les valeurs de pollution mesurées après travaux, montre la compatibilité du site avec l’usage projeté, sous réserve du respect des règles constructives et des modalités de gestion prises en compte pour les calculs de risques.
+
+66l0l0	l_	A
+66l0l1	usage_projeté	O
+66l0l2	des_modalités	O
+
+#La société Paul Krüger doit transmettre, dans les meilleurs délais, à l’inspection le dossier permettant l’institution de servitudes d’utilité publique sur l’ensemble des parcelles concernées par le projet « La cité des Aînés ».
+
+67l0l0	La_société_Paul_Krüger	O
+67l0l1	doit_transmettre	N
+67l0l2	dans_les_meilleurs_délais	T
+67l0l3	l__inspection_le_dossier	O
+67l0l4	permettant	R
+67l0l5	l_	N
+67l0l6	institution_de_servitudes_d__utilité_publique	O
+67l0l7	des_parcelles_concernées	O
+67l0l8	__La_cité_des_Aînés	O
+67l1l0	La_société_Paul_Krüger	I

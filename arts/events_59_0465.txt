@@ -1,0 +1,79 @@
+
+#59.0465
+#le site ASTRAZENECA de DUNKERQUE implanté en zone industrielle de PETITE SYNTHE comprenait les activités et installations suivantes :
+
+0l0l0	le_site_ASTRAZENECA	O
+0l0l1	DUNKERQUE	O
+0l0l2	implanté	R
+0l0l3	en_zone_industrielle_de_PETITE_SYNTHE	L
+0l0l4	comprenait	R
+0l0l5	les_activités_et_installations	O
+0l1l0	le_site_ASTRAZENECA_de_DUNKERQUE	I
+0l1l1	PETITE_SYNTHE	I
+
+#*	une unité chimie destinée à la fabrication de substances actives pharmaceutiques, regroupant 2 grands bâtiments de production P1 et P2 dans lesquels sont synthétisés par opérations unitaires discontinues et flux gravitaire, les 2 principes actifs Budésonide et Esomépazole
+
+1l0l0	chimie	O
+1l0l1	destinée_à	R
+1l0l2	la_fabrication_de_substances_actives_pharmaceutiques	A
+1l0l3	2_grands_bâtiments_de_production	O
+1l1l0	substances_actives_pharmaceutiques	U
+1l1l1	actifs_Budésonide	S
+1l1l2	Esomépazole	S
+
+#*	une unité pharmacie destinée à la production et au conditionnement de médicaments.
+
+2l0l0	la_production_et_au_conditionnement_de_médicaments	A
+
+#Cette unité met en œuvre des secteurs de formulation galénique (procédés de micronisation, désactivation, sphéronisation, mélanges) et des lignes de remplissage conditionnement : aérosols (Symbicort) et turbuhaler (inhalateurs de poudre sèche Bricanyl – Pulmicort).
+
+3l0l0	secteurs_de_formulation_galénique	O
+3l0l1	lignes_de_remplissage_conditionnement	O
+3l1l0	Symbicort	S
+3l1l1	poudre_sèche	U
+3l1l2	Bricanyl___Pulmicort	I
+
+#- En 2009, l'activité chimie fine a été vendue à la société MINAKEM.
+
+4l0l0	En_2009__	T
+4l0l1	l__activité_chimie_fine	O
+4l0l2	a_été_vendue_à	N
+4l0l3	la_société_MINAKEM	O
+4l1l0	société_MINAKEM	I
+
+#La société ASTRA ZENECA a conservée l'activité de formulation et du conditionnement de médicaments.
+
+5l0l0	La_société_ASTRA_ZENECA	O
+5l0l1	a_conservée	N
+5l0l2	l__activité_de_formulation_et_du_conditionnement_de_médicaments	A
+5l1l0	La_société_ASTRA_ZENECA	I
+
+#-Pollution constatée du watergang du Noordgracht, en amont de la portion achetée par ASTRAZENECA traversant le site.
+
+6l0l0	_Pollution	N
+6l0l1	watergang_du_Noordgracht	L
+6l0l2	en_amont_de	L
+6l0l3	la_portion	O
+6l0l4	achetée	N
+6l0l5	ASTRAZENECA_traversant_le_site	O
+6l1l0	ASTRAZENECA	I
+
+#- Léger dépassement des valeurs seuils en hydrocarbures sur les résultats piézométriques d'octobre 2010.
+
+7l0l0	octobre_2010__	T
+7l1l0	hydrocarbures	S
+
+#- Curage et traitement des boues.
+
+8l0l0	Curage	N
+8l0l1	et_traitement_des_boues	O
+
+#- Aucune utilisation connue des nappes d'eau souterraines.
+
+
+#- Action de l'administration toujours en cours.
+
+10l0l0	l__administration	O
+
+#- Site en sécurité vis à vis des tiers.
+

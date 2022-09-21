@@ -1,0 +1,311 @@
+
+#76.0382
+#lors de travaux de remplacement de la canalisation L12 allant du stockage exploité par Rubis terminal (HFR à l'appontement APGA, l'exploitant a identifié la présence de pollutions lors de travaux de démantèlement de l'ancienne canalisation.
+
+0l0l0	lors	R
+0l0l1	de_travaux_de_remplacement	N
+0l0l2	la_canalisation_L12	O
+0l0l3	stockage_exploité	O
+0l0l4	à_l__appontement_APGA	L
+0l0l5	l__exploitant	O
+0l0l6	a_identifié	N
+0l0l7	la_présence_de_pollutions	O
+0l0l8	de_travaux_de_démantèlement	N
+0l0l9	l__ancienne_canalisation	O
+0l1l0	Rubis_terminal___HFR	I
+0l1l1	APGA	I
+
+#Suite à cela l'exploitant a produit un diagnostic de l'état de pollution des sols et des eaux souterraines.
+
+1l0l0	l__exploitant	O
+1l0l1	a_produit	N
+1l0l2	un_diagnostic	N
+1l0l3	l__état_de_pollution_des_sols	O
+1l0l4	des_eaux_souterraines	O
+
+#Lors des travaux menés pour le remplacement de la canalisation L12 entre le dépôt RUBIS TERMINAL HFR et l'appontement APGA, il a été identifiée une problématique de pollution des eaux suite à la réalisation d'une excavation.
+
+2l0l0	Lors	T
+2l0l1	des_travaux_menés	N
+2l0l2	le_remplacement_de	N
+2l0l3	la_canalisation_L12	O
+2l0l4	entre_le_dépôt	L
+2l0l5	RUBIS_TERMINAL_HFR	O
+2l0l6	et_l_	L
+2l0l7	appontement_APGA	O
+2l0l8	il	O
+2l0l9	a_été_identifiée	N
+2l0l10	une_problématique_de_pollution_des_eaux	O
+2l0l11	suite_à	R
+2l0l12	la_réalisation_d__une_excavation	N
+2l1l0	dépôt_RUBIS_TERMINAL_HFR	I
+2l1l1	appontement_APGA	I
+
+#L'exploitant a diligenté un bureau d'étude en vue de caractériser la pollution.
+
+3l0l0	L__exploitant	O
+3l0l1	a_diligenté	N
+3l0l2	un_bureau_d__étude	O
+3l0l3	en_vue_de	R
+3l0l4	caractériser_la_pollution	N
+
+#Suite à quoi, le bureau d'étude a procédé à l'implantation d'un piézomètre et procédé à des analyses dans la fouille.
+
+4l0l0	le_bureau_d__étude	O
+4l0l1	a_procédé	N
+4l0l2	à	R
+4l0l3	l__implantation_d_	N
+4l0l4	un_piézomètre	O
+4l0l5	à	R
+4l0l6	des_analyses	O
+4l0l7	dans_la_fouille	L
+
+#Le rapport complet est disponible au près de la DREAL Normandie à l'Unité Départementale Rouen-Dieppe.
+
+5l0l0	la_DREAL_Normandie	O
+5l0l1	Rouen___Dieppe	L
+5l1l0	la_DREAL_Normandie	I
+
+#Pour l'analyse des sols, un prélèvement a été réalisé à 3 - 4 mètres de profondeur et un second dans le fond de la fouille réalisée lors des travaux d'excavation sur le site.
+
+6l0l0	un_prélèvement_a_été_réalisé	N
+6l0l1	un	O
+6l0l2	dans_le_fond_de_la_fouille	L
+6l0l3	réalisée_lors_des_travaux_d__excavation	N
+
+#Les conclusions de l'étude, montrent que les sols prélevés au droit de la fouille, au -dessus du niveau d'eau, montrent des impacts en métaux (plomb et zinc), en composés azotés et en sulfates. ces terres ne répondent pas aux critères d'acceptation en ISDI sur éluas (fraction soluble en sulfate), imposant en cas d'excavation et d'évacuation des terres, leur prise en charge par des filières adaptées.
+
+7l0l0	prélevés	N
+7l0l1	au_droit_de_la_fouille	L
+7l0l2	au__dessus_du_niveau_d__eau	L
+7l0l3	excavation	N
+7l0l4	d__évacuation_des_terres	N
+7l0l5	leur_prise_en_charge	N
+7l1l0	métaux	S
+7l1l1	plomb	S
+7l1l2	zinc	S
+7l1l3	composés_azotés	S
+7l1l4	sulfates	S
+7l1l5	sulfate	S
+
+#L'échantillon de sol réalisé entre 3 et 4 mètres de profondeur répond aux critères d'acceptation en ISDI.
+
+
+#Les résultats analytiques sur les eaux prélevées dans le piézomètre mettent en évidence :
+
+
+#► des teneurs inférieures à a limite de quantification pour l'indice phénol, la somme des BTEX, la somme des HAP, les COHV et les nitrites,
+
+10l0l0	des_teneurs	O
+10l0l1	nitrites	O
+10l1l0	indice_phénol	S
+10l1l1	BTEX	S
+10l1l2	des_HAP	S
+10l1l3	les_COHV	S
+10l1l4	nitrites	S
+
+#► la présence de traces de métaux avec notamment :
+
+
+#■ du cuivre (36 µg/l), du plomb (5µg/l) et du nickel (4.5 µg/l) à des teneurs inférieures aux valeurs de référence de l'OMS 2017,
+
+12l1l0	cuivre	S
+12l1l1	plomb	S
+12l1l2	nickel	S
+
+#■ du zinc (28 µg/l) à une teneure inférieure à la valeur guide Eaux Brutes (5 000 µg/l),
+
+13l1l0	du_zinc	S
+
+#■ de l'arsenic, avec une teneur de 11 µg/l, concentration proche de la valeur de référence de l'OMS 2017 (10 µg/l),
+
+14l0l0	l__arsenic	O
+14l1l0	l__arsenic	S
+
+#► la présence de composés inorganiques avec notamment :
+
+15l1l0	composés_inorganiques	S
+
+#■ des chlorures (30 mg/l) et des cyanures libres (2.3 mg/l) à des teneurs inférieures aux valeurs de référence de l'OMS 2017,
+
+16l1l0	des_chlorures	S
+16l1l1	des_cyanures_libres	S
+
+#■ de l'ammonium (110 mg/l), des nitrates (210 mg/) et des sulfates (1 100 mg/l) à des teneurs supérieures aux valeurs guides Eaux Brutes, respectivement de 4 mg/l, 50 mg/l et 250 mg/l,
+
+17l0l0	l__ammonium	O
+17l1l0	ammonium	S
+17l1l1	nitrates	S
+17l1l2	sulfates	S
+
+#► la présence d'hydrocarbures totaux, avec une teneur de 100 µg/l, inférieure à la valeur guide Eaux Brutes de 1 000 µg/l. cette concentration en hydrocarbures est principalement portée par des fractions volatiles C12-C16 (45%), contre 30% pour les fractions les plus lourdes (C21-C40).
+
+18l1l0	hydrocarbures_totaux	S
+18l1l1	hydrocarbures	S
+18l1l2	C21_C40	S
+
+#Les résultats analytiques sur les eaux prélevées dans la fouille mettent en évidence :
+
+
+#► des teneurs inférieures à la limite de quantification pour l'indice phénol et les COHV,
+
+20l0l0	des_teneurs	O
+20l1l0	phénol	S
+20l1l1	les_COHV	S
+
+#► la présence de traces de métaux avec notamment :
+
+
+#■ du cadmium (1.9 µg/l), du chrome (12 µg/l), du cuivre (900 µg/l) et du mercure (0.06 µg/l) à des teneurs inférieures aux valeurs de référence de l'OMS2017,
+
+22l1l0	du_cadmium	S
+22l1l1	chrome	S
+22l1l2	cuivre	S
+22l1l3	mercure	S
+
+#■ du zinc (4100 µg/l) à une teneur inférieure à la valeur guide Eaux Brutes (5000 µg/l),
+
+23l1l0	zinc	S
+
+#■ du plomb (26 µg/l) et du nickel (120 µg/l) à des teneurs supérieures aux valeurs de référence de l'OMS2017, respectivement de 10 µg/l et de 70 µg/l,
+
+24l1l0	plomb	S
+24l1l1	nickel	S
+
+#■ de l'arsenic, avec une teneur de 130 µg/l, concentration supérieure à la valeur guide Eaux Brutes (1000 µg/l),
+
+25l0l0	l__arsenic	O
+25l1l0	arsenic	S
+
+#► la présence d'hydrocarbures aromatiques polycycliques, à une teneur totale de 62 µg/l.
+
+26l1l0	hydrocarbures_aromatiques_polycycliques	S
+
+#La somme des 6 HAP est un indicateur de qualité des eaux brutes destinées à la production d'eau potables.
+
+27l0l0	6_HAP	O
+27l0l1	la_production_d__eau_potables	A
+27l1l0	HAP	S
+
+#La valeur portée par cette somme est de 8.23 µg/l, concentration supérieure à la valeur guide Eaux Brutes, fixée à 1 µg/l ;
+
+
+#► la présence d'hydrocarbures totaux, avec une teneur de 140 000 µg/l, valeur supérieure à la valeur guide Eaux Brutes de 1000 µg/l.
+
+29l1l0	hydrocarbures_totaux	S
+
+#Cette concentration en hydrocarbures est principalement portée par des fractions C16-C21 (60%), contre 30% pour les fractions les plus volatiles (C12-C16).
+
+30l1l0	hydrocarbures	S
+30l1l1	fractions_C16_C21	S
+30l1l2	C12_C16	S
+
+#Ces résultats mettent en évidence un impact des eaux prélevées dans la fouille, ainsi que des eaux souterraines prélevées en amont hydrauliques de l'excavation. ces impacts sont principalement portés par les composés azotés (ammonium, nitrates), les sulfates et dans une moindre mesure par l'arsenic.
+
+31l0l0	un_impact	N
+31l0l1	en_amont_hydrauliques_de_l__excavation	N
+31l0l2	l__arsenic	O
+31l1l0	les_composés_azotés	S
+31l1l1	ammonium	S
+31l1l2	nitrates	S
+31l1l3	les_sulfates	S
+31l1l4	arsenic	S
+
+#Les eaux de fouille indiquent en plus des concentrations soutenues en HAP et en hydrocarbures totaux (C16-C21) à des teneurs supérieures aux valeurs guides Eaux Brutes définies par l'Arrêté du 11/01/2007 (Annexe II).
+
+32l0l0	Les_eaux_de_fouille	O
+32l0l1	11_01_2007	T
+32l1l0	HAP	S
+32l1l1	hydrocarbures_totaux	S
+32l1l2	C16_C21	S
+
+#CONCLUSION du rapport d'étude :
+
+
+#"Le diagnostic de sols a mis en évidence des impacts sur les remblais prélevés au droit de la fouille, au-dessus du niveau d'eaux.
+
+34l0l0	__Le_diagnostic_de_sols	N
+34l0l1	a_mis_en_évidence	R
+34l0l2	des_impacts	O
+34l0l3	remblais	O
+34l0l4	prélevés	N
+34l0l5	au_droit_de_la_fouille	L
+34l0l6	au_dessus_du_niveau_d__eaux	L
+
+#Ces impacts s'expriment comme suit :
+
+35l0l0	Ces_impacts	O
+
+#● la présence d'éléments traces métalliques à des concentrations significativement supérieures au bruit de fond géochimique local, notamment en cadmium, en cuivre, en plomb et en zinc.
+
+36l1l0	éléments_traces_métalliques	S
+36l1l1	cadmium	S
+36l1l2	cuivre	S
+36l1l3	plomb	S
+36l1l4	zinc	S
+
+#Ces anomalies de concentration en métaux sur sols bruts apparaissent toutefois peu lixiviables, avec des valeurs sur éluats répondant aux critères d'acceptation en ISDI ;
+
+37l1l0	métaux	S
+
+#● la présence de composés azotés (ammonium et nitrates) et de sulfates sur sols bruts.
+
+38l1l0	composés_azotés	S
+38l1l1	ammonium	S
+38l1l2	nitrates	S
+38l1l3	sulfates	S
+
+#Les sulfates analysés sur éluats confirment leur mobilité ;
+
+39l0l0	éluats	O
+39l1l0	sulfates	S
+
+#● des dépassements des critères d'acceptation en ISDI pour les paramètres fraction soluble et sulfates sur éluats.
+
+40l0l0	des_dépassements	N
+40l1l0	sulfates	S
+
+#On relèvera également la détection de traces de HAP, de PCB et d'hydrocarbures, à des teneurs inférieures aux critères d'acceptation en ISDI.
+
+41l1l0	HAP	S
+41l1l1	PCB	S
+41l1l2	hydrocarbures	S
+
+#Le prélèvement de sol analysé en amont de l'excavation, entre 3 et 4 mètres de profondeur, répond aux critères ISDI.
+
+42l0l0	en_amont_de	L
+42l0l1	l__excavation	N
+
+#Les eaux prélevées dans la fouille, ainsi qu'en amont hydraulique de l'excavation montrent une qualité dégradée avec des impacts portés par les composés azotés (ammonium, nitrates), les sulfates et dans une moindre mesure par l'arsenic.
+
+43l0l0	Les_eaux	O
+43l0l1	en_amont_hydraulique_de	L
+43l0l2	l__excavation	N
+43l1l0	composés_azotés	S
+43l1l1	ammonium	S
+43l1l2	nitrates	S
+43l1l3	les_sulfates	S
+43l1l4	arsenic	S
+
+#Les eaux de la fouille indiquent en plus des concentrations soutenues en HAP et en hydrocarbures totaux (C16-C21) à des teneurs supérieures aux valeurs guides Eaux Brutes définies par l'arrêté du 11/01/2007.
+
+44l0l0	Les_eaux	O
+44l0l1	11_01_2007__	T
+44l1l0	HAP	S
+44l1l1	hydrocarbures_totaux	S
+44l1l2	C16_C21	S
+
+#Les investigations menées confirment un impact significatif dans les sols au droit de la fouille dans les eaux prélevées au droit et en amont de cette excavation.
+
+45l0l0	Les_investigations_menées	N
+45l0l1	un_impact	O
+45l0l2	les_sols	O
+45l0l3	au_droit_de_la_fouille	L
+45l0l4	les	O
+45l0l5	eaux_prélevées_au_droit_et_en_amont_de_cette_excavation	N
+
+#L’extension de cet impact porté principalement par des composés azotés, des sulfates et des hydrocarbures, n'est pas circonscrit dans l'état."
+
+46l1l0	des_composés_azotés	S
+46l1l1	des_sulfates	S
+46l1l2	hydrocarbures	S

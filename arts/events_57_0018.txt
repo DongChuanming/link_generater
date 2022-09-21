@@ -1,0 +1,153 @@
+
+#57.0018
+#La cokerie de Russange a été installée en 1950 sur le carreau de l’ancienne mine à ciel ouvert partiellement remblayée en 3 terrasses de dimensions inégales.
+
+0l0l0	La_cokerie_de_Russange	O
+0l0l1	a_été_installée	N
+0l0l2	en_1950	T
+0l0l3	sur_le_carreau	L
+0l0l4	remblayée	O
+
+#Toute activité cokière a été stoppée en 1975.
+
+1l0l0	Toute_activité	A
+1l0l1	cokière	O
+1l0l2	a_été_stoppée	N
+1l0l3	en_1975__	T
+
+#Tous les bâtiments ont été rasés entre 1976 et 1979.
+
+2l0l0	Tous_les_bâtiments	O
+2l0l1	ont_été_rasés	N
+2l0l2	entre_1976_et_1979__	T
+
+#Le terrain est resté à l’état de friche et reconquis par la végétation naturelle.
+
+3l0l0	Le_terrain	O
+3l0l1	est_resté_à_l__état_de_friche	N
+3l0l2	reconquis	N
+3l0l3	la_végétation_naturelle	N
+
+#La friche de la cokerie couvre environ 6ha.
+
+4l0l0	La_friche	O
+4l0l1	6_ha	O
+
+#Différentes investigations de sols ont été réalisées sur la zone anciennement occupée par la cokerie de MICHEVILLE entre 1994 et 2004.
+
+5l0l0	Différentes_investigations_de_sols	N
+5l0l1	ont_été_réalisées	N
+5l0l2	sur_la_zone_anciennement_occupée_par	L
+5l0l3	la_cokerie_de_MICHEVILLE	O
+5l0l4	entre_1994_et_2004__	T
+
+#Des contaminations en HAP, en métaux et en cyanures ont été détectées.
+
+6l0l0	Des_contaminations	O
+6l0l1	ont_été_détectées	N
+6l1l0	HAP	S
+6l1l1	métaux	S
+6l1l2	cyanures	S
+
+#En 2000, 58 tonnes de goudrons ont été traités par incinération sur une zone présentant des indices visuels de pollution.
+
+7l0l0	En_2000__	T
+7l0l1	58_tonnes_de_goudrons	O
+7l0l2	ont_été_traités_par_incinération	N
+7l0l3	sur_une_zone_présentant_des_indices_visuels_de_pollution	L
+7l1l0	goudrons	U
+
+#Des travaux de dépollution des terres polluées par des cyanures ont été menés dans le secteur des gazomètres et de nouveaux prélèvements ont été effectués en 2004 pour vérification (étude LECES de 2004).
+
+8l0l0	Des_travaux_de_dépollution	N
+8l0l1	terres_polluées	O
+8l0l2	des_cyanures	O
+8l0l3	ont_été_menés	N
+8l0l4	dans_le_secteur_des_gazomètres	L
+8l0l5	de_nouveaux_prélèvements_ont_été_effectués	N
+8l0l6	en_2004	T
+8l0l7	de_2004	T
+8l1l0	cyanures	S
+
+#Les résultats montrent que les sols sont quasiment exempts de cyanures. (Nota : l’étude précise que l’expertise réalisée en 1994 n’avait pas mis en évidence de cyanures hors du secteur des gazomètres.)
+
+9l0l0	cyanures	O
+9l0l1	en_1994	T
+9l0l2	cyanures	O
+9l0l3	hors_du_secteur_des_gazomètres	A
+9l1l0	cyanures	S
+9l1l1	cyanures	S
+
+#L’étude précise également que les sols peuvent cependant être considérés comme source secondaire de pollution pour Ba, Cu, Ni, Pb, naphtalène, benzo(a)anthracène, benzo(a)pyrène, Indéno(1,2,3-c,d)pyrène.
+
+10l1l0	Ba___Cu	S
+10l1l1	Ni	S
+10l1l2	Pb	S
+10l1l3	naphtalène	S
+10l1l4	benzo_a_anthracène	S
+10l1l5	benzo_a_pyrène	S
+10l1l6	Indéno_1_2_3_c	S
+10l1l7	d_pyrène	S
+
+#Suite aux investigations de 2004, une Evaluation Simplifiée des Risques résiduels, a été mise en œuvre avec un scénario d’occupation des sols correspondant à une friche industrielle sans activité mais parcourue par moins de 50 personnes sensibles.
+
+11l0l0	Suite_aux	R
+11l0l1	investigations_de_2004__	T
+11l0l2	une_Evaluation_Simplifiée	N
+11l0l3	des_Risques_résiduels	O
+11l0l4	a_été_mise_en_œuvre	N
+11l0l5	une_friche_industrielle_sans_activité	O
+11l0l6	parcourue	O
+
+#Elle range :
+
+
+#- le milieu « eaux souterraines » pour un usage AEP en classe 2, c'est-à-dire en milieu à surveiller,
+
+13l0l0	un_usage_AEP	A
+
+#- le milieu « sol » en classe 2 pour les métaux en considérant qu’une faible surface est polluée et en classe 1, c'est-à-dire, nécessitant des invesigations complémentaires, pour le naphtalène, le benzo(a)anthracène et le benzo(a)pyrène, en considérant que toute la surface de la cokerie est polluée par les HAP.
+
+14l0l0	classe_2	O
+14l0l1	invesigations_complémentaires	N
+14l0l2	la_cokerie	O
+14l0l3	est_polluée_par	R
+14l0l4	les_HAP	O
+14l1l0	les_métaux	S
+14l1l1	le_naphtalène	S
+14l1l2	le_benzo_a_anthracène	S
+14l1l3	le_benzo_a_pyrène	S
+14l1l4	les_HAP	S
+
+#En effet, des indices visuels et/ou olfactifs de pollution ont été notés dans certains secteurs du site et plus particulièrement :
+
+15l0l0	certains_secteurs_du_site	L
+
+#- des plaques ou des lentilles de goudrons pâteux en surface et en profondeur, en particulier dans le secteur des sous-produits,
+
+16l0l0	le_secteur_des_sous_produits	A
+16l1l0	goudrons_pâteux	U
+
+#- des odeurs significatives sur une grande partie du site mais plus particulièrement au droit et au voisinage des gazomètres et de la zone des sous-produits.
+
+17l0l0	au_droit_et_au_voisinage_des_gazomètres	L
+
+#Suite à cette étude, l’arrêté préfectoral  interdépartemental du 22 avril 2005, impose notamment, la réalisation d’un diagnostic approfondi de la friche industrielle et donc de la zone cokerie.
+
+18l0l0	l__arrêté_préfectoral___interdépartemental	O
+18l0l1	du_22_avril_2005	T
+18l0l2	__impose	N
+18l0l3	__la_réalisation_d__un_diagnostic_approfondi	N
+18l0l4	de_la_friche_industrielle	O
+18l0l5	de_la_zone_cokerie	O
+
+#Il a été demandé à l'exploitant, par arrêté du 4 septembre 2012, de proposer des mesures de gestion pour remette en état le site de la cokerie dans un état tel qu'il ne manifeste pas de risque ou inconvénient pour les intérêts mentionnés à l'article L.511-1 du code de l'environnement, établies sur la base d'un bilan coût-avantages.
+
+19l0l0	Il_a_été_demandé	N
+19l0l1	l__exploitant	O
+19l0l2	4_septembre_2012__	T
+19l0l3	des_mesures_de_gestion	O
+19l0l4	la_cokerie	O
+
+#Des restrictions d'usage seront mises en œuvre à cette issue.
+

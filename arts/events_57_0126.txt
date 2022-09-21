@@ -1,0 +1,159 @@
+
+#57.0126
+#Le secteur des hauts-fourneaux de l'usine d'Uckange est localisé au milieu d'un vaste complexe industriel dont les premiers travaux remontent dans les années 1890, avec l'installation des premiers hauts-fourneaux et forges.
+
+0l0l0	Le_secteur_des_hauts_fourneaux	O
+0l0l1	l__usine	O
+0l0l2	Uckange	L
+0l0l3	localisé_au_milieu_d__un_vaste	L
+0l0l4	complexe_industriel	O
+0l0l5	les_premiers_travaux_remontent	N
+0l0l6	dans_les_années_1890	T
+0l0l7	l__installation	N
+0l0l8	des_premiers_hauts_fourneaux_et_forges	O
+
+#L'usine exploita des Hauts-fourneaux sur ce site jusqu'en 1991.
+
+1l0l0	L__usine	O
+1l0l1	exploita	N
+1l0l2	des_Hauts_fourneaux	O
+1l0l3	sur_ce_site	L
+1l0l4	jusqu__en_1991	T
+
+#Le site d'Uckange est implanté dans la plaine alluviale de la Moselle, sur la rive gauche de la rivière, en aval de sa confluence avec l'Orne.
+
+2l0l0	Le_site_d__Uckange	O
+2l0l1	est_implanté_dans_la_plaine_alluviale_de_la_Moselle	L
+2l0l2	sur_la_rive_gauche_de_la_rivière	L
+2l0l3	en_aval_de_sa_confluence_avec_l__Orne	L
+
+#Ce site s'étend sur une longueur de 1.7 km et d'une largeur de 300 m.
+
+
+#Au droit du site s'écoule la nappe des alluvions de la moselle qui est exploitée pour l'alimentation en eau potable à moins de 1 km en aval latéral.
+
+4l0l0	Au_droit_du_site	L
+4l0l1	moselle	L
+4l0l2	est_exploitée	N
+4l0l3	pour	R
+4l0l4	l__alimentation_en_eau_potable	A
+4l0l5	à_moins_de_1_km_en_aval_latéral	L
+
+#Dans le cadre de la mise en oeuvre d'un projet d'aménagement public du secteur des hauts-fourneaux, l'Etablissement Public Foncier de Lorraine a fait réalisé une Evaluation  Simplifiée des Risques pour un usage sensible du site, en mai 2003.
+
+5l0l0	Dans_le_cadre_de	R
+5l0l1	la_mise_en_oeuvre_d__un_projet_d__aménagement_public	N
+5l0l2	du_secteur_des_hauts_fourneaux	L
+5l0l3	l__Etablissement_Public_Foncier_de_Lorraine	O
+5l0l4	a_fait_réalisé	N
+5l0l5	une_Evaluation___Simplifiée_des_Risques	N
+5l0l6	pour_un_usage_sensible	O
+5l0l7	__en_mai_2003	T
+
+#Cette étude reprend les résultats des investigations qui avaient été réalisées en janvier 1994 et février 1995 par l'ancien exploitant.
+
+6l0l0	avaient_été_réalisées	N
+6l0l1	en_janvier_1994_et_février_1995	T
+6l0l2	l__ancien_exploitant	O
+
+#Les prélèvements et analyses de sols avaient montré des concentrations en arsenic, baryum et plomb, supérieures au fond géochimique local, dans les remblais d'origine sidérurgique constituant la partie supérieure des sols.
+
+7l0l0	Les_prélèvements_et_analyses_de_sols	N
+7l0l1	arsenic	O
+7l0l2	les_remblais_d__origine_sidérurgique	L
+7l0l3	la_partie_supérieure_des_sols	O
+7l1l0	arsenic	S
+7l1l1	baryum	S
+7l1l2	plomb	S
+
+#Mais les concentrations moyennes mesurées sont  cependant inférieures aux Valeurs de Constat d'Impact (VCI) définies dans le cadre d'un usage sensible des sols.
+
+
+#En un point du site, il a été constaté une concentration en cyanures dans les sols supérieures à la VCI usage sensible.
+
+9l0l0	cyanures	O
+9l1l0	cyanures	S
+
+#La zone polluée est très limitée et devra faire l'objet d'un traitement.
+
+10l0l0	La_zone_polluée	O
+
+#La surveillance des eaux souterraines est assurée par un réseau de piézomètres qui couvre l'ensemble du site industriel ( Agglomération, Hauts-fourneaux, usine à cyanamide, crassier, anciennes aires de stockage des matières premières.
+
+11l0l0	La_surveillance_des_eaux_souterraines	A
+11l0l1	cyanamide	O
+11l1l0	cyanamide	S
+
+#La surveillance des eaux souterraines a été prescrite par arrêté préfectoral du 27 octobre 2000 à l'encontre de BAIL INDUSTRIE, représentant l'ancien exploitant.
+
+12l0l0	La_surveillance_des_eaux_souterraines	A
+12l0l1	a_été_prescrite	N
+12l0l2	par_arrêté_préfectoral	O
+12l0l3	27_octobre_2000	T
+12l0l4	BAIL_INDUSTRIE	O
+12l0l5	exploitant	O
+12l1l0	BAIL_INDUSTRIE	I
+
+#Les résultats semestriels montrent une eau de qualité, répondant aux critères demandés pour utilisation pour l'alimentation en eau potable.
+
+
+#Des analyses complémentaires ont eté effectuées sur le secteur contaminé par des cyanures début 2004, le teneurs mesurées ne nécessitent pas la mise en oeuvre d'un secteur.
+
+14l0l0	Des_analyses	N
+14l0l1	complémentaires	O
+14l0l2	ont_eté_effectuées	N
+14l0l3	le_secteur_contaminé	O
+14l0l4	cyanures	O
+14l0l5	début_2004__	T
+14l1l0	cyanures	S
+
+#Les analyses réalisées sur les eaux souterraines montrent des teneurs en cyanures dans les eaux souterraines inférieures à la VCI non sensible.
+
+15l0l0	Les_analyses_réalisées	N
+15l0l1	les_eaux_souterraines	O
+15l0l2	des_teneurs	O
+15l0l3	cyanures	O
+15l1l0	cyanures	S
+
+#Action amiante : Présence d'amiante dans les joints, calorifugeages.
+
+16l0l0	calorifugeages	O
+
+#Eléments amiantés évacués en décharge de classe 1
+
+17l0l0	Eléments_amiantés	O
+17l0l1	évacués	N
+17l1l0	amiantés	U
+
+#La campagne de mesures réalisée le 30 novembre 2007 ne montre aucune évolution particulière en regard de l'historique piézométrique du site.
+
+18l0l0	La_campagne_de_mesures	N
+18l0l1	le_30_novembre_2007	T
+
+#Par rapport aux précédents campagnes, on retiendra :
+
+
+#- la persistance d'une minéralisation en sulfates des eaux souterraines, en particulier au niveau du piézomètre Pz Est où la limite de qualité est dépassée,
+
+20l1l0	sulfates	S
+
+#- une anomalie en DCO sur les piézomètres PZ2, PZ3 et PZ Ouest, anomalie vraisemblablement liée au faible taux de renouvellement des eaux se traduisant également au niveau des teneurs en MES sur PZ2 et PZ3,
+
+21l1l0	DCO	S
+21l1l1	MES	S
+
+#- l'absence ou la quasi absence d'éléments métalliques indésirables ou toxiques,
+
+22l1l0	éléments_métalliques_indésirables	U
+
+#- l'absence d'hydrocabures dans les eaux souterraines,
+
+
+#- la persistance de la présence de cyanures sur tous les piézomètres hors PZ3, avec des teneurs supérieures à la limite de qualité sur PZ1 et Pz Ouest,
+
+24l0l0	cyanures	O
+24l1l0	cyanures	S
+
+#- des teneurs en fluorures dépassant la limite de qualité sur les piézomètres PZ1 et PZ Ouest.
+
+25l1l0	fluorures	S

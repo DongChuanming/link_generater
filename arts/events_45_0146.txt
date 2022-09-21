@@ -1,0 +1,169 @@
+
+#45.0146
+#Le site se trouve dans l'assiette foncière de l'ancienne usine chimique Saint Gobain, pour la fabrication d'engrais.
+
+0l0l0	Le_site	O
+0l0l1	se_trouve_dans_l__assiette_foncière_de	L
+0l0l2	l__ancienne_usine_chimique_Saint_Gobain	O
+0l0l3	la_fabrication_d__engrais	A
+0l1l0	Saint_Gobain	I
+
+#La station service, régie par récépissé de déclaration du 6 octobre 1999, a été exploitée dans un premier temps par la société INTERMARCHE puis cédée le 14 avril 2011 à la société CASINO CARBURANTS.
+
+1l0l0	La_station_service	O
+1l0l1	récépissé	N
+1l0l2	6_octobre_1999__	T
+1l0l3	a_été_exploitée	N
+1l0l4	dans_un_premier_temps	N
+1l0l5	la_société_INTERMARCHE	O
+1l0l6	cédée	N
+1l0l7	le_14_avril_2011	T
+1l0l8	la_société_CASINO_CARBURANTS	O
+1l1l0	la_société_INTERMARCHE	I
+1l1l1	la_société_CASINO_CARBURANTS	I
+
+#Un courrier préfectoral d'actualisation de classement en date du 30 juillet 2015 prend acte du fait que la station-service est toujours soumise au régime de la déclaration suite à la publication du décret n°2014-285 du 3 mars 2014 pour les rubriques 1435-3 et 4734-1c.
+
+2l0l0	Un_courrier_préfectoral	O
+2l0l1	classement	O
+2l0l2	en_date_du_30_juillet_2015	T
+2l0l3	est_toujours_soumise_au_régime	N
+2l0l4	la_déclaration	N
+2l0l5	3_mars_2014	T
+
+#Une preuve de dépôt de déclaration de cession a été réalisée le 23 décembre 2016 au bénéfice de la société SUMACAS.
+
+3l0l0	Une_preuve	O
+3l0l1	dépôt_de_déclaration	N
+3l0l2	cession_a_été_réalisée	N
+3l0l3	le_23_décembre_2016	T
+3l0l4	au_bénéfice_de	R
+3l0l5	la_société_SUMACAS	O
+3l1l0	la_société_SUMACAS	I
+
+#La station service comporte 2 cuves multi-compartimentées enterrées en double enveloppe de respectivement 100 et 40 m3, contenant du SP98, du SP95 et du GO.
+
+4l0l0	La_station_service	O
+4l0l1	comporte	N
+4l0l2	2_cuves	O
+4l1l0	cuves	D
+4l1l1	SP98	S
+4l1l2	SP95	S
+4l1l3	GO	S
+
+#Le contexte environnemental du site est constitué :
+
+5l0l0	Le_contexte_environnemental	O
+
+#- de la rivière du Loing, à quelques centaines de mètres du site ;
+
+6l0l0	la_rivière_du_Loing	L
+6l0l1	à_quelques_centaines_de_mètres_du_site	L
+
+#- du Solin, rivière s'écoulant à 7/8 mètres en contrebas, en partie Ouest ;
+
+7l0l0	écoulant_à_7_8_mètres_en_contrebas	L
+
+#- de sols à composante limoneuse surmontés de remblais "industriels" ;
+
+
+#- d'une probable nappe alluviale à une profondeur plus importante que les sondages réalisés (6 mètres), qui n'ont pas constaté la présence de nappe.
+
+
+#Des diagnostics environnementaux ont été réalisées entre 2003 et 2005 par le bureau d'études ERG Environnement dans le cadre d'une extension du supermarché Intermarché.
+
+10l0l0	Des_diagnostics_environnementaux	N
+10l0l1	ont_été_réalisées	N
+10l0l2	entre_2003_et_2005	T
+10l0l3	le_bureau_d__études_ERG_Environnement	O
+10l0l4	dans_le_cadre_d_	R
+10l0l5	une_extension_du_supermarché_Intermarché	L
+10l1l0	ERG_Environnement	I
+
+#L'usage futur retenu est un usage industriel.
+
+
+#9 sondages ont été réalisées à 3 mètres, et 3 à 6 mètres de profondeur.
+
+12l0l0	9_sondages_ont_été_réalisées	N
+12l0l1	à	R
+12l0l2	3	O
+
+#Les résultats d'analyses montrent des dépassements des valeurs guides en métaux (arsenic, cuivre, plomb) pour des concentrations allant jusqu'à 12
+
+13l0l0	des_dépassements	N
+13l1l0	métaux	S
+13l1l1	arsenic	S
+13l1l2	cuivre	S
+13l1l3	plomb	S
+
+#000 mg/kg en plomb dans les remblais industriels.
+
+14l0l0	remblais_industriels	O
+14l1l0	plomb	S
+
+#Une étude simplifiée des risques a été établie et demande la réalisation d'une étude complémentaire de diagnostic approfondi.
+
+15l0l0	Une	O
+15l0l1	étude_simplifiée_des_risques	N
+15l0l2	a_été_établie	N
+
+#Ce diagnostic, réalisé en avril 2004, a consisté en la réalisation de sondages supplémentaires et de l'implantation de piézomètres et une analyse des sédiments du Solin.
+
+16l0l0	Ce_diagnostic	N
+16l0l1	réalisé	N
+16l0l2	en_avril_2004__	T
+16l0l3	la_réalisation_de_sondages_supplémentaires	N
+16l0l4	l__implantation_de_piézomètres	N
+16l0l5	une_analyse	N
+16l0l6	sédiments	N
+16l0l7	Solin	O
+
+#Les résultats montrent des concentrations en zinc de 7 500 µg/l sur la campagne d'août 2003 (5 000 µg/l en mars 2004) et l'absence d'impact sur les sédiments du Solin et de fortes teneurs dans les remblais (22 000 mg/kg), non retrouvées dans les couches sous-jacentes.
+
+17l0l0	la_campagne_d_	N
+17l0l1	août_2003	T
+17l0l2	en_mars_2004	T
+17l0l3	les_remblais	N
+
+#L'inspection des installations classées, par courrier en date du 16 avril 2004, a indiqué qu'afin de détecter et suivre l'évolution de la pollution, les piézomètres en place devraient être conservés et analysés périodiquement ainsi qu'un piézomètre profond dans la nappe du Solin ajouté.
+
+18l0l0	L__inspection_des_installations_classées	O
+18l0l1	en_date_du_16_avril_2004__	T
+18l0l2	la_pollution	N
+18l0l3	piézomètres	O
+
+#Des travaux de dépollution ont été réalisés dans le cadre de l'extension du supermarché, qui ont donné lieu à un rapport de fin de travaux réalisé en mai 2005.
+
+19l0l0	Des_travaux_de_dépollution	N
+19l0l1	ont_été_réalisés	N
+19l0l2	dans_le_cadre_de	R
+19l0l3	l__extension_du_supermarché	L
+19l0l4	un_rapport_de_fin_de_travaux_réalisé	N
+19l0l5	en_mai_2005__	T
+
+#Ces travaux ont conduit à excaver un mètre de remblais industriels, envoyés en installation de stockage de déchets dangereux et non dangereux (près de 2 800 tonnes de matériaux) et substitués par des matériaux sains.
+
+20l0l0	Ces_travaux	N
+20l0l1	excaver	N
+20l0l2	un_mètre_de_remblais_industriels	O
+20l0l3	envoyés_en	R
+20l0l4	installation_de_stockage_de_déchets_dangereux	O
+20l0l5	tonnes_de_matériaux	O
+20l0l6	des_matériaux_sains	O
+
+#Une géomembrane de 1623 m² a été étendue sur la fouille avant remblayage.
+
+21l0l0	Une_géomembrane	O
+21l0l1	m²	O
+21l0l2	a_été_étendue	N
+21l0l3	sur_la_fouille_avant_remblayage	N
+
+#La surveillance de la qualité des eaux souterraines (nappe alluviale du Solin) deux fois par an a été préconisée par le bureau d'études à l'aide d'un piézomètre profond à réaliser pour atteindre la nappe du Solin et les ouvrages en place.
+
+22l0l0	La_surveillance_de_la_qualité_des_eaux_souterraines	A
+22l0l1	Solin	L
+22l0l2	deux_fois_par_an	T
+22l0l3	a_été_préconisée	N
+22l0l4	le_bureau_d__études	O
+22l0l5	les_ouvrages_en_place	N

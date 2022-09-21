@@ -1,0 +1,99 @@
+
+#76.0012
+#Cette grotte creusée dans la falaise de craie a été utilisé comme zone de stockage de pesticides conditionnés en sachets.
+
+0l0l0	a_été_utilisé	N
+0l0l1	comme	R
+0l0l2	zone_de_stockage_de_pesticides_conditionnés_en_sachets	A
+
+#Ce Stockage de 1700 tonnes de produits a été réalisé avant 1965 et a été découvert après enquête en 1992 de la gendarmerie sous ordre du Préfet.
+
+1l0l0	Ce_Stockage	O
+1l0l1	1700_tonnes_de_produits	O
+1l0l2	a_été_réalisé	N
+1l0l3	avant_1965	T
+1l0l4	a_été_découvert_après_enquête	N
+1l0l5	en_1992	T
+1l0l6	la_gendarmerie	O
+1l0l7	ordre_du_Préfet	O
+1l1l0	Préfet	I
+
+#La grotte se situe a proximité de la Seine.
+
+2l0l0	situe_a_proximité_de_la_Seine	L
+
+#la nappe la plus proche est la nappe d'accompagnement de la Seine.
+
+3l0l0	accompagnement_de_la_Seine	L
+
+#Action de l'administration :
+
+
+#- Demande d'enquête par le Préfet en 1992,
+
+5l0l0	le_Préfet	O
+5l0l1	en_1992	T
+5l1l0	le_Préfet	I
+
+#- 9 mars 1994 : lettre du Préfet à la Société HOECHST (nouveau propriétaire du site) prenant acte de son engagement à résorber le dépôt et en confiant le suivi et le contrôle des opérations à la DRIRE,
+
+6l0l0	__9_mars_1994	T
+6l0l1	la_Société_HOECHST	O
+6l0l2	son_engagement_à_résorber	N
+6l0l3	confiant	N
+6l0l4	le_suivi	O
+6l0l5	contrôle_des_opérations	O
+6l0l6	la_DRIRE	O
+6l1l0	Préfet	I
+6l1l1	la_Société_HOECHST	I
+6l1l2	la_DRIRE	I
+
+#- Rapport de la DRIRE du 26 août 1994 attestant de la remise en état du site,
+
+7l0l0	la_DRIRE	O
+7l0l1	26_août_1994	T
+7l0l2	la_remise_en_état_du_site	N
+7l1l0	la_DRIRE	I
+
+#- Lettre du Préfet à HOECHST du 13 septembre 1994 prenant acte de la remise en état du site.
+
+8l0l0	HOECHST	O
+8l0l1	du_13_septembre_1994	T
+8l0l2	la_remise_en_état_du_site	N
+8l1l0	Préfet	I
+8l1l1	HOECHST	I
+
+#Actions menées :
+
+
+#- Evacuation et traitement des produits stockés (fin : juillet 1994) dans l'unité pyrométallurgique de Salsigne (SEPS).
+
+10l0l0	Evacuation_et_traitement_des_produits_stockés	N
+10l0l1	__fin___juillet_1994	T
+10l0l2	l__unité_pyrométallurgique	N
+10l0l3	Salsigne	O
+10l1l0	Salsigne	I
+10l1l1	SEPS	I
+
+#- Décontamination des parois.
+
+11l0l0	Décontamination	N
+
+#Des teneurs résiduelles demeurent :
+
+
+#- pour les parois et la voûte; entre 0,2 et 11 mg d'AS/kg de matière brute,
+
+13l1l0	d__AS	S
+
+#- pour le sol; entre 0,2 et 19 mg d'As/kg de matière brute,
+
+14l1l0	d__As	S
+
+#- à l'extérieur; entre 0,2 et 7,3 mg d'As/kg de matière brute.
+
+15l1l0	d__As	S
+
+#Le site présentant des risques d'effondrement est interdit d'accés.
+
+16l0l0	Le_site	O

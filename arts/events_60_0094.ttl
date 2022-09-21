@@ -1,0 +1,209 @@
+@prefix : <http://example.com/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:event_components a owl:Class.
+:labels a owl:Class.
+:when a owl:ObjectProperty .
+:status a owl:ObjectProperty .
+:locate a owl:ObjectProperty .
+:parallel a owl:ObjectProperty .
+:unknown a owl:ObjectProperty .
+:agent a owl:ObjectProperty .
+:pagent a owl:ObjectProperty .
+:target a owl:ObjectProperty .
+:indirect_target a owl:ObjectProperty .
+:ptarget a owl:ObjectProperty .
+:complement a owl:ObjectProperty .
+:passive_target a owl:ObjectProperty .
+:passive_agent a owl:ObjectProperty .
+:precise a owl:ObjectProperty .
+:pprecise a owl:ObjectProperty .
+:pollutant a owl:ObjectProperty .
+:event owl:subClassOf owl:Class.
+:N a :labels.
+:event rdfs:label :N.
+:object owl:subClassOf owl:Class.
+:O a :labels.
+:object rdfs:label :O.
+:time owl:subClassOf owl:Class.
+:T a :labels.
+:time rdfs:label :T.
+:location owl:subClassOf owl:Class.
+:L a :labels.
+:location rdfs:label :L.
+:industrial_activity owl:subClassOf owl:Class.
+:A a :labels.
+:industrial_activity rdfs:label :A.
+:relation owl:subClassOf owl:Class.
+:R a :labels.
+:relation rdfs:label :R.
+:institution owl:subClassOf owl:Class.
+:I a :labels.
+:institution rdfs:label :I.
+:pollutant_container owl:subClassOf owl:Class.
+:D a :labels.
+:pollutant_container rdfs:label :D.
+:pollutant owl:subClassOf owl:Class.
+:U a :labels.
+:pollutant rdfs:label :U.
+:chemical owl:subClassOf owl:Class.
+:S a :labels.
+:chemical rdfs:label :S.
+:0l0l0 a :object.
+:0l0l1 a :relation.
+:0l0l2 a :industrial_activity.
+:0l0l3 a :time.
+:0l0l4 a :relation.
+:0l0l5 a :industrial_activity.
+:0l1l0 a :institution.
+:plomb owl:subClassOf :chemical.
+:0l1l1 a :plomb.
+:0l1l2 a :institution.
+:0l1l3 a :plomb.
+:pbo owl:subClassOf :chemical.
+:0l1l4 a :pbo.
+:rouge owl:subClassOf :chemical.
+:0l1l5 a :rouge.
+:0l1l6 a :plomb.
+:minium owl:subClassOf :chemical.
+:0l1l7 a :minium.
+:0l1l8 a :plomb.
+:pb3o4 owl:subClassOf :chemical.
+:0l1l9 a :pb3o4.
+:0l1l10 a :institution.
+:plombate owl:subClassOf :chemical.
+:0l1l11 a :plombate.
+:calcium owl:subClassOf :chemical.
+:0l1l12 a :calcium.
+:silicate owl:subClassOf :chemical.
+:0l1l13 a :silicate.
+:0l1l14 a :plomb.
+:0l1l15 a :institution.
+:0l1l16 a :plomb.
+:0l0l0 :target :0l0l4.
+:0l0l0 :contain :0l1l0.
+:0l0l2 :target :0l0l1.
+:0l0l2 :contain :0l1l1.
+:0l0l1 :when :0l0l3.
+:0l0l5 :target :0l0l4.
+:0l1l0 :target :0l0l4.
+:0l0l5 :unknown :0l0l4.
+:0l1l2 :complement :0l0l5.
+:0l1l7 :complement :0l0l5.
+:3l0l0 a :object.
+:fermer owl:subClassOf :event.
+:3l0l1 a :fermer.
+:avoir owl:subClassOf :event.
+:3l0l2 a :avoir.
+:3l0l3 a :relation.
+:cessation owl:subClassOf :event.
+:3l0l4 a :cessation.
+:3l0l0 :target :3l0l1.
+:3l0l4 :target :3l0l3.
+:4l0l0 a :object.
+:4l0l1 a :relation.
+:4l0l0 :agent :4l0l1.
+:absence owl:subClassOf :event.
+:6l0l0 a :absence.
+:mise owl:subClassOf :event.
+:6l0l1 a :mise.
+:6l0l2 a :object.
+:6l0l3 a :mise.
+:6l0l0 :complement :6l0l1.
+:6l0l2 :target :6l0l1.
+:6l0l3 :complement :6l0l1.
+:travail owl:subClassOf :event.
+:7l0l0 a :travail.
+:élimination owl:subClassOf :event.
+:7l0l1 a :élimination.
+:7l0l2 a :object.
+:7l0l3 a :location.
+:7l0l4 a :object.
+:7l0l5 a :relation.
+:7l0l6 a :object.
+:7l0l2 :target :7l0l1.
+:7l0l4 :target :7l0l1.
+:7l0l6 :complement :7l0l4.
+:8l0l0 a :mise.
+:8l0l1 a :object.
+:8l0l1 ::target :8l0l0.
+:8l0l1 :target :8l0l0.
+:9l0l0 a :object.
+:9l0l1 a :relation.
+:9l0l2 a :object.
+:9l1l0 a :plomb.
+:9l0l0 :agent :9l0l1.
+:9l0l2 :target :9l0l1.
+:9l1l0 :complement :9l0l2.
+:10l0l0 a :object.
+:11l0l0 a :object.
+:excaver owl:subClassOf :event.
+:11l0l1 a :excaver.
+:11l0l2 a :time.
+:11l0l0 :target :11l0l1.
+:11l0l1 :when :11l0l2.
+:12l0l0 a :travail.
+:12l0l1 a :avoir.
+:12l0l2 a :time.
+:excavation owl:subClassOf :event.
+:12l0l3 a :excavation.
+:12l0l4 a :object.
+:12l0l1 :status :12l0l0.
+:12l0l1 :when :12l0l2.
+:12l0l3 :unknown :12l0l1.
+:12l0l4 :target :12l0l3.
+:13l0l0 a :object.
+:visite owl:subClassOf :event.
+:14l0l0 a :visite.
+:14l0l1 a :object.
+:14l0l2 a :time.
+:14l1l0 a :institution.
+:14l1l0 :complement :14l0l0.
+:14l0l1 :target :14l0l0.
+:14l0l1 :contain :14l1l0.
+:14l0l0 :when :14l0l2.
+:15l0l0 a :object.
+:15l0l1 a :location.
+:15l0l2 a :relation.
+:15l0l3 a :excavation.
+:remblaiement owl:subClassOf :event.
+:15l0l4 a :remblaiement.
+:15l0l0 :agent :15l0l2.
+:15l0l3 :target :15l0l2.
+:15l0l4 :parallel :15l0l3.
+:16l0l0 a :object.
+:16l0l1 a :time.
+:impose owl:subClassOf :event.
+:16l0l2 a :impose.
+:16l0l3 a :industrial_activity.
+:16l0l4 a :object.
+:16l0l0 :agent :16l0l2.
+:17l0l0 a :time.
+:17l0l1 a :object.
+:17l0l2 a :object.
+:17l0l3 a :time.
+:transmettre owl:subClassOf :event.
+:17l0l4 a :transmettre.
+:17l0l5 a :object.
+:17l1l0 a :institution.
+:17l1l1 a :institution.
+:17l0l4 :when :17l0l0.
+:17l0l1 :target :17l0l4.
+:17l0l5 :unknown :17l0l4.
+:17l0l5 :contain :17l1l0.
+:17l0l5 :contain :17l1l1.
+:18l0l0 a :object.
+:conventionnel owl:subClassOf :event.
+:18l0l1 a :conventionnel.
+:18l0l2 a :relation.
+:18l0l3 a :object.
+:18l0l0 ::target :18l0l1.
+:18l0l3 :indirect_target :18l0l2.
+:19l0l0 a :object.
+:signer owl:subClassOf :event.
+:19l0l1 a :signer.
+:19l0l2 a :time.
+:19l0l0 :target :19l0l1.
+:19l0l1 :when :19l0l2.

@@ -1,0 +1,138 @@
+
+#76.0314
+#Le terrain a une superficie d’environ 2 750 m2 (dont 1 700 m2 exploités) et occupe la parcelle AB 143.
+
+0l0l0	Le_terrain	O
+0l0l1	occupe	R
+0l0l2	la_parcelle_AB	O
+
+#Un bâtiment d’environ 550 m2 se situe au milieu de la parcelle.
+
+1l0l0	Un_bâtiment	O
+1l0l1	se_situe_au_milieu_de_la_parcelle	L
+
+#Ce bâtiment, pour les besoins liés à l’activité, n’a été exploité qu’en partie.
+
+2l0l0	Ce_bâtiment	O
+2l0l1	les_besoins_liés_à_l__activité	A
+2l0l2	n__a_été_exploité_qu_	N
+
+#En effet seule la partie atelier d’environ 360 m2 a été utilisée (la partie Sud-Ouest de 190 m2 est constituée de bureaux).
+
+3l0l0	a_été_utilisée	O
+3l0l1	la_partie_Sud_Ouest	O
+
+#Une partie du terrain était également inexploitée.
+
+4l0l0	Une_partie_du_terrain	O
+
+#Un appentis couvert d’environ 40 m2 occupe la partie Nord.
+
+5l0l0	Un_appentis	O
+5l0l1	la_partie_Nord	O
+
+#L’angle Nord est occupé par un chenil.
+
+6l0l0	L__angle_Nord	O
+6l0l1	est_occupé_par	R
+6l0l2	un_chenil	O
+
+#Le reste de l’établissement est constituée d’une plate-forme bitumée ou bétonnée selon les zones.
+
+7l0l0	bitumée	O
+
+#Les activités exercées par la société R.
+
+8l0l0	Les_activités_exercées	N
+8l0l1	la_société_R_	O
+8l1l0	la_société_R_	I
+
+#.M. étaient les suivantes : Découpe hors site de métaux et de ferrailles / Collecte / Nouvelle découpe éventuelle sur site / Tri - Traitement / Mise en benne / Vente - Expédition.
+
+9l0l0	_M_	O
+9l0l1	Découpe_hors_site_de_métaux_et_de_ferrailles	A
+9l0l2	Nouvelle_découpe	A
+9l0l3	Mise_en_benne	N
+9l0l4	Expédition	A
+
+#Aucun produit dangereux n’est entreposé dans le bâtiment.
+
+10l0l0	le_bâtiment	O
+
+#Seuls des déchets (essentiellement composé de métaux et de DIB) ont été déchargés, triés et broyés (cas des câbles électriques) dans le bâtiment.
+
+11l0l0	ont_été_déchargés	N
+11l0l1	câbles_électriques	O
+11l0l2	le_bâtiment	O
+11l1l0	des_déchets	U
+11l1l1	DIB	I
+
+#Risques et nuisances:
+
+
+#Dans le cadre de la cessation d'activité, l'exploitant a évacuer l'ensemble des déchets et produits dangereux susceptibles d'être présents sur le site.
+
+13l0l0	Dans_le_cadre_de	R
+13l0l1	la_cessation_d__activité	N
+13l0l2	l__exploitant	O
+13l0l3	a_évacuer	N
+13l0l4	l__ensemble_des_déchets_et_produits_dangereux	O
+
+#A ce titre, l'inspecteur de l'environnement en charge du suivi d'exploitation du site n'a pas relevé lors des constats visuels de risques immédiats.
+
+
+#Actions menées:
+
+
+#Dans la mesure où l’ensemble des activités exercées dans le bâtiment par la société RVM a été réalisé à couvert sur une dalle béton, et compte-tenu de la nature des déchets triés dans le bâtiment et du raccordement du réseau d’eaux pluviales du site, rien ne laisse supposer que les activités exercées dans le bâtiment aient été à l’origine d’une pollution des sols ou de la nappe qui s’écoule au droit du site.
+
+16l0l0	activités_exercées_dans	R
+16l0l1	le_bâtiment	O
+16l0l2	la_société_RVM	O
+16l0l3	a_été_réalisé_à_couvert_sur	N
+16l0l4	une_dalle_béton	O
+16l0l5	le_bâtiment	O
+16l0l6	les_activités_exercées	N
+16l0l7	dans	R
+16l0l8	le_bâtiment	O
+16l0l9	aient_été_à_l__origine_d_	R
+16l0l10	une_pollution_des_sols	O
+16l0l11	la_nappe	O
+16l0l12	au_droit_du_site	L
+16l1l0	la_société_RVM	I
+
+#Toutefois, la société RVM a mandaté le bureau d’études AIRELE pour la réalisation d’un diagnostic de pollution des sols sur son terrain.
+
+17l0l0	la_société_RVM	O
+17l0l1	a_mandaté	N
+17l0l2	le_bureau_d__études_AIRELE	O
+17l0l3	la_réalisation_d__un_diagnostic_de_pollution_des_sols	N
+17l0l4	sur	L
+17l0l5	son_terrain	O
+17l1l0	la_société_RVM	I
+17l1l1	AIRELE	I
+
+#Conclusion :
+
+
+#Les études remises sont relativement exhaustives et permettent d'avoir une idée assez précise de l'état du site.
+
+19l0l0	Les_études_remises	N
+
+#L'inspection des installations classées dispose des données sur l'état des sols au droit du site.
+
+20l0l0	L__inspection_des_installations_classées	O
+
+#Les pollutions identifiées (Cuivre, HCT) sont peu mobiles et circonscrites au périmètre du site.
+
+21l0l0	circonscrites_au_périmètre_du_site	L
+21l1l0	Cuivre	S
+21l1l1	HCT	S
+
+#Le site a été placé en sécurité : l'interdiction d'accès est assurée par une clôture, les déchets ont été évacués.
+
+22l0l0	Le_site	O
+22l0l1	a_été_placé_en_sécurité	N
+22l0l2	une_clôture	O
+22l0l3	les_déchets	O
+22l0l4	ont_été_évacués	N

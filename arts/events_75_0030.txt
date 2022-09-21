@@ -1,0 +1,292 @@
+
+#75.0030
+#Le dépôt de la Villette est un site dont l’existence remonte à 1849.
+
+0l0l0	Le_dépôt_de_la_Villette	O
+0l0l1	un_site	O
+0l0l2	remonte_à_1849__	T
+
+#Ce site a connu depuis de nombreuses évolutions.
+
+1l0l0	Ce_site	O
+1l0l1	a_connu_depuis_de_nombreuses_évolutions	N
+
+#Sur le plan des installations classées et de manière plus récente, la SNCF exploitait sur son unité de maintenance des locomotives diesel de Paris – Villette les installations suivantes :
+
+2l0l0	la_SNCF	O
+2l0l1	exploitait_sur	R
+2l0l2	son_unité_de_maintenance_des_locomotives_diesel_de_Paris___Villette	O
+2l0l3	les_installations	N
+2l1l0	la_SNCF	I
+
+#- un dépôt aérien de GO, d’une capacité totale de 600 m3, classé sous la rubrique 1432-2-a (A) ;
+
+3l0l0	un_dépôt_aérien	O
+3l1l0	un_dépôt	D
+
+#- une distribution de GO, d’un volume annuel supérieur à 100 m3 mais inférieur à 3500 m3, classée sous la rubrique 1435-3 (DC) ;
+
+4l0l0	une_distribution	N
+
+#- un atelier de maintenance d’une surface de 3000 m2, classé sous la rubrique 2930-1-b (D).
+
+5l0l0	un_atelier_de_maintenance	O
+
+#Le site est à vocation ferroviaire et le restera à moyen terme.
+
+6l0l0	Le_site	O
+6l0l1	vocation_ferroviaire	O
+
+#Il est implanté en zone urbaine dense.
+
+7l0l0	implanté_en_zone_urbaine_dense	L
+
+#La SNCF a notifié la cessation d'activité le 11 septembre 2013.
+
+8l0l0	La_SNCF	O
+8l0l1	a_notifié	N
+8l0l2	la_cessation_d__activité	N
+8l0l3	le_11_septembre_2013__	T
+8l1l0	La_SNCF	I
+
+#La SNCF a engagé depuis 2006 plusieurs diagnostics sur le site de la Villette pour déterminer l'impact de ses activités industrielles. ces diagnostics ont mis en évidence:
+
+9l0l0	La_SNCF	O
+9l0l1	a_engagé	N
+9l0l2	depuis_2006	T
+9l0l3	plusieurs_diagnostics	N
+9l0l4	sur_le_site_de_la_Villette	L
+9l0l5	l__impact	O
+9l0l6	ses_activités_industrielles	A
+9l0l7	ces_diagnostics	N
+9l1l0	La_SNCF	I
+
+#- la présence d'une nappe vers 12 m de profondeur et l'existence d'une nappe perchée vers 6-7 m de profondeur.
+
+10l0l0	une_nappe_vers	O
+10l0l1	perchée_vers	R
+10l0l2	6___7_m_de_profondeur	O
+
+#- une importante contamination des sols par des hydropcarbures au droit des anciennes installations de stockage et de distribution de carburant.
+
+11l0l0	une_importante_contamination	N
+11l0l1	des_hydropcarbures	O
+11l0l2	au_droit_des_anciennes	L
+11l0l3	installations_de_stockage_et_de_distribution_de_carburant	A
+11l1l0	hydropcarbures	S
+11l1l1	carburant	U
+
+#- une pollution concentrée mais ponctuelle en hydrocarbures entre 1 et 3 m de profondeur au droit de l'ancienne fosse de lavage,
+
+12l0l0	hydrocarbures	O
+12l0l1	lavage	A
+12l1l0	hydrocarbures	S
+
+#- Des teneurs en métaux ponctuellement élevées, qui ne semblent pas liées à l'exploitation des installations,
+
+13l0l0	exploitation_des_installations	N
+
+#- un impact local sur les eaux souterraines avec la présence de flottant.
+
+
+#Dans le cadre de la cessation d'activité, la SNCF a fait réaliser de nouvelles investigations dans les sols et les eaux souterraines en juin 2012 et mars 2013.
+
+15l0l0	Dans_le_cadre_de	R
+15l0l1	la_cessation	N
+15l0l2	d__activité	O
+15l0l3	la_SNCF	O
+15l0l4	a_fait_réaliser	N
+15l0l5	de_nouvelles_investigations	N
+15l0l6	les_sols_et_les_eaux_souterraines	O
+15l0l7	en_juin_2012_et_mars_2013__	T
+15l1l0	la_SNCF	I
+
+#Les résultats des investigations font apparaître un impact important des anciennes activités, même s'il reste inférieur à celui constaté lors des études précédentes.
+
+16l0l0	anciennes_activités	O
+
+#La SNCF a transmis en septembre 2013 un plan de gestion qui proposait le démantèlement des installations, un traitement in-situ de la pollution et le suivi des eaux souterraines.
+
+17l0l0	La_SNCF	O
+17l0l1	a_transmis	N
+17l0l2	en_septembre_2013	T
+17l0l3	un_plan_de_gestion	O
+17l0l4	le_démantèlement_des_installations	N
+17l0l5	un	O
+17l0l6	traitement_in___situ	N
+17l0l7	la_pollution	O
+17l0l8	le	O
+17l0l9	suivi_des_eaux_souterraines	A
+17l1l0	La_SNCF	I
+
+#L’inspection a proposé, dans son rapport du 15 septembre 2014, de compléter le plan de gestion par la caractérisation de l’étendue de la pollution, des propositions de mesures de dépollution pour l’ensemble des sols pollués, des précisions sur la ou les techniques de dépollution et des précisions sur le protocole de suivi des eaux souterraines.
+
+18l0l0	15_septembre_2014__	T
+18l0l1	compléter	T
+18l0l2	le_plan_de_gestion	N
+18l0l3	des_propositions_de_mesures_de_dépollution	N
+18l0l4	sols_pollués	O
+18l0l5	la_ou_les_techniques_de_dépollution	N
+18l0l6	suivi_des_eaux_souterraines	A
+
+#Ces propositions ont été reprises dans le courrier de la Préfecture de Police du 31 octobre 2014 adressé à la SNCF.
+
+19l0l0	la_Préfecture_de_Police	O
+19l0l1	du_31_octobre_2014	T
+19l1l0	la_Préfecture_de_Police	I
+
+#La SNCF a communiqué en mars 2016 un plan de gestion actualisé :
+
+20l0l0	La_SNCF	O
+20l0l1	a_communiqué	N
+20l0l2	en_mars_2016	T
+20l0l3	un_plan_de_gestion	O
+20l1l0	La_SNCF	I
+
+#- Les travaux de démantèlement et démolition des anciennes installations de stockage et de distribution de liquides inflammables ont été réalisés au mois de juillet et août 2015 (dépose des cuves aériennes et enterrées, dépose des canalisations, démolition du local pompe,...).
+
+21l0l0	Les_travaux_de_démantèlement	N
+21l0l1	démolition_des_anciennes	N
+21l0l2	installations_de_stockage_et_de_distribution_de_liquides_inflammables	A
+21l0l3	ont_été_réalisés	N
+21l0l4	au_mois_de_juillet_et_août_2015	T
+21l0l5	dépose_des_cuves_aériennes	N
+21l0l6	enterrées	O
+21l0l7	dépose_des_canalisations	N
+21l0l8	démolition	N
+21l1l0	liquides_inflammables	U
+
+#Les justificatifs n’ont pas été fournis,
+
+22l0l0	Les_justificatifs	O
+
+#- Deux méthodes de traitement in-situ devaient être testées : l’oxydation des sols par injection d’ozone et la biodégradation in-situ par injection d’oxygène concentré.
+
+23l0l0	Deux_méthodes_de_traitement_in___situ	O
+23l0l1	in___situ	N
+23l0l2	par_injection	N
+23l1l0	d__oxygène_concentré	S
+
+#Pendant la phase d’installation des ouvrages, en octobre 2015, il a été constaté des épaisseurs de produit pur, atteignant plus de 1 m, au droit des différents ouvrages, notamment au niveau des aiguilles d’injection.
+
+24l0l0	Pendant	T
+24l0l1	la_phase_d__installation	N
+24l0l2	des_ouvrages	O
+24l0l3	en_octobre_2015__	T
+24l0l4	des_épaisseurs	N
+24l0l5	au_droit_des_différents_ouvrages	L
+24l1l0	produit_pur	U
+
+#Il a également été constaté, durant la même phase, des arrivées d’eau aléatoires massives susceptibles de perturber les tests. dans ces conditions, la SNCF a décidé le retrait du pilote,
+
+25l0l0	durant	T
+25l0l1	la_même_phase	N
+25l0l2	la_SNCF	O
+25l0l3	a_décidé	N
+25l0l4	le_retrait_du_pilote	O
+25l1l0	la_SNCF	I
+
+#- La réalisation d'une tranchée drainante est programmée pour récupérer les produits purs présents dans les sols.
+
+26l0l0	La_réalisation_d_	N
+26l0l1	une_tranchée_drainante	O
+26l0l2	est_programmée	N
+
+#Un puits de forage de récupération de la phase pure est également prévu afin d’augmenter l’efficacité de l’opération de dépollution.
+
+27l0l0	Un_puits_de_forage	O
+27l0l1	la_phase_pure	O
+27l0l2	dépollution	N
+
+#La SNCF indique que la pollution ponctuelle, constatée sur deux piézomètres tend à diminuer, ne semble pas migrer, et est située au cœur du site et que les 3 piézomètres en aval ne présentent aucun impact.
+
+28l0l0	La_SNCF	O
+28l0l1	ne_semble_pas	R
+28l0l2	migrer	N
+28l0l3	située_au_cœur_du_site	L
+28l0l4	les_3_piézomètres	O
+28l1l0	La_SNCF	I
+
+#Elle propose de maintenir un suivi semestriel des eaux souterraines à partir des 7 piézomètres existants et, le cas échéant, de purger le flottant régulièrement.
+
+29l0l0	un_suivi_semestriel_des_eaux_souterraines	A
+
+#Dans le cadre du projet CDG Express, une emprise foncière à caractère ferroviaire est prévue d’être réservée pour la création de différentes fonctionnalités (base infrastructure, site de maintenance et de remisage) en lieu et place de la zone station-service, et les voies ferrées contiguës à la zone station-service sont prévues d’être neutralisées à partir de 2020, créant ainsi un contexte favorable pour engager les travaux d’excavation des terres polluées sans déstabiliser la plate-forme ferroviaire ni arrêter la circulation ferroviaire.
+
+30l0l0	du_projet_CDG_Express	N
+30l0l1	une_emprise_foncière	O
+30l0l2	à_caractère_ferroviaire	R
+30l0l3	est_prévue	O
+30l0l4	d_	N
+30l0l5	la_création_de_différentes_fonctionnalités	N
+30l0l6	base_infrastructure	O
+30l0l7	maintenance_et_de_remisage	A
+30l0l8	les_voies_ferrées	O
+30l0l9	contiguës_à_la_zone_station	L
+30l0l10	_	N
+30l0l11	d__être_neutralisées	N
+30l0l12	à_partir_de_2020	T
+30l0l13	créant_ainsi	N
+30l0l14	un_contexte_favorable	O
+30l0l15	engager_les_travaux_d__excavation	N
+30l0l16	terres_polluées	O
+30l0l17	forme_ferroviaire	O
+30l0l18	arrêter_la_circulation_ferroviaire	N
+30l1l0	CDG_Express	I
+
+#La décision sera connue en juillet 2017.
+
+31l0l0	La_décision	O
+31l0l1	sera_connue	N
+31l0l2	en_juillet_2017__	T
+
+#L'inspection a proposé dans son rapport de juillet 2016 de :
+
+32l0l0	juillet_2016	T
+
+#- Délivrer le récépissé de déclaration de cessation d’exploitation des installations classées,
+
+33l0l0	Délivrer	N
+33l0l1	le_récépissé	O
+33l0l2	déclaration	N
+33l0l3	cessation_d__exploitation	N
+33l0l4	des_installations_classées	A
+
+#- Demander à l’exploitant de :
+
+
+#- Fournir les justificatifs du démantèlement des anciennes installations ;
+
+35l0l0	démantèlement_des_anciennes_installations	N
+
+#- Transmettre un historique des résultats des campagnes de suivi des eaux souterraines réalisées depuis 2006;
+
+36l0l0	des_campagnes_de_suivi	N
+36l0l1	des_eaux_souterraines_réalisées	O
+36l0l2	depuis_2006	T
+
+#- Poursuivre le suivi semestriel des eaux souterraines et  communiquer les résultats ;
+
+37l0l0	le_suivi_semestriel_des_eaux_souterraines	A
+
+#- Maintenir le pompage du surnageant ;
+
+38l0l0	pompage	A
+38l0l1	surnageant	O
+38l1l0	surnageant	U
+
+#- Transmettre une cartographie des impacts rencontrés dans les sols et les eaux souterraines ;
+
+39l0l0	Transmettre_une_cartographie	N
+
+#- Vérifier l’efficacité de la tranchée drainante et communiquer les résultats de ce suivi ;
+
+40l0l0	la_tranchée_drainante	O
+
+#- Communiquer, dès que possible, la décision concernant le site dans le cadre du projet du TGV Express Paris-CDG.
+
+41l0l0	dès_que_possible	O
+41l0l1	la_décision	O
+41l0l2	le_site	O
+41l0l3	TGV_Express_Paris___CDG	L
+41l1l0	TGV_Express_Paris___CDG	I

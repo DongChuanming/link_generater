@@ -1,0 +1,188 @@
+
+#42.0163
+#L’entreprise est une station-service en cessation d’activité, situé au lieu-dit Les côtes.
+
+0l0l0	L__entreprise	O
+0l0l1	une_station___service	O
+0l0l2	en_cessation_d__activité	N
+0l0l3	situé_au_lieu___dit_Les_côtes	L
+
+#Elle était régulièrement déclarée en date du 29 mai 1986, date de création de la station-service.
+
+1l0l0	Elle	O
+1l0l1	était_régulièrement_déclarée	N
+1l0l2	en_date_du_29_mai_1986	T
+1l0l3	__date_de_création_de_la_station___service	O
+
+#Avant cette exploitation, le terrain était nu de toute construction ou activité.
+
+2l0l0	Avant	T
+2l0l1	cette_exploitation	N
+2l0l2	le_terrain	O
+2l0l3	construction_ou_activité	A
+
+#La station service est à l’arrêt depuis 2012, le récépissé de la déclaration de mise à l’arrêt définitif de la station service a été signé le 19 septembre 2013.
+
+3l0l0	La_station_service	O
+3l0l1	est_à_l__arrêt	N
+3l0l2	depuis_2012__	T
+3l0l3	le_récépissé	O
+3l0l4	la_déclaration_de_mise_à_l__arrêt_définitif	N
+3l0l5	la_station_service	O
+3l0l6	a_été_signé	N
+3l0l7	le_19_septembre_2013__	T
+
+#Le site est d’une superficie 1130m².
+
+4l0l0	Le_site	O
+
+#Contexte géologique :
+
+
+#Le site est implanté sur des formations granitiques, remarquables par leur hétérogénéité.
+
+6l0l0	Le_site	O
+6l0l1	est_implanté_sur	N
+
+#Cette dernière est due à des variations de granulométrie (de fine à moyenne), de structure, à la présence ou non de mégacristaux d’orthose.
+
+
+#Contexte hydrogéologique :
+
+
+#Les eaux souterraines, présentes à faible profondeur dans les altérites de type arènes, apparaissent en surface par de nombreuses sources à faible débit.
+
+9l0l0	Les_eaux_souterraines	O
+
+#L’utilisation pour l’alimentation humaine des eaux souterraines se fait par captages des sources là où la population est faible.
+
+10l0l0	l__alimentation_humaine_des_eaux_souterraines	A
+10l0l1	se_fait_par	R
+10l0l2	captages_des_sources_là	L
+
+#Contexte hydrologique :
+
+
+#Le ruisseau l’Argental s’écoule à 355 m en aval sud du site.
+
+12l0l0	Argental	L
+12l0l1	écoule_à_355_m_en_aval_sud_du_site	L
+
+#En amont sa qualité est bonne, les pollutions déclassantes étant les nitrates et matières phosphorées.
+
+13l0l0	nitrates	O
+13l1l0	nitrates	S
+
+#Les seuls usages de l’eau identifiés sont un captage destiné à l’alimentation en eau potable à 1,7 km au nord-est du site, et un usage récréatif de pêche dans le ruisseau l’Argental.
+
+14l0l0	un_captage	O
+14l0l1	destiné_à	R
+14l0l2	l__alimentation_en_eau_potable	A
+14l0l3	à_1_7_km_au_nord_est_du_site	L
+14l0l4	un_usage	O
+14l0l5	récréatif_de_pêche	A
+14l0l6	dans_le_ruisseau_l__Argental	L
+
+#Faune et flore :
+
+
+#La commune de LA VERSANNE recense 6 tourbières figurant à l’inventaire régional, 3 ZNIEFF de type 1 (tourbières) et une ZNIEFF de type 2 (zones humides du Haut Pilat).
+
+16l0l0	La_commune	O
+16l0l1	de_LA_VERSANNE	L
+16l0l2	3_ZNIEFF	O
+16l0l3	une_ZNIEFF	O
+
+#Le site Natura 2000 « Tourbières du Pilat et landes de Chaussitre » est reconnu au titre de la Directive « Habitats ».
+
+17l0l0	Le_site_Natura_2000	O
+17l0l1	Tourbières_du_Pilat	L
+17l0l2	____est_reconnu	N
+17l0l3	au_titre	R
+17l0l4	de_la_Directive_____Habitats	O
+
+#Le site TARDY n’est pas inclus dans ces périmètres.
+
+18l0l0	Le_site_TARDY	O
+18l0l1	inclus_dans	L
+18l0l2	ces_périmètres	O
+18l1l0	Le_site_TARDY	I
+
+#Les milieux eaux souterraines et superficielles du site sont considérés comme vulnérables et sensibles eu égard à leur utilisation.
+
+19l0l0	Les_milieux_eaux_souterraines	O
+
+#La visite du site et son historique ont conduit le prestataire à retenir 4 zones à présomption de pollutions :
+
+20l0l0	La_visite	N
+20l0l1	le_prestataire	O
+20l0l2	4_zones	O
+
+#- cuve enterrée
+
+21l1l0	__cuve_enterrée	D
+
+#- postes de distribution
+
+22l0l0	distribution	O
+
+#- séparateur à hydrocarbures
+
+23l1l0	hydrocarbures	S
+
+#- bouches de dépotage
+
+24l0l0	bouches_de_dépotage	O
+
+#Dans son rapport du 23 avril 2014, l’inspection indique que :
+
+25l0l0	23_avril_2014__	T
+
+#- le rapport du prestataire est ambigu sur la destination future du site : il est parfois fait référence à un usage identique de station-service, parfois à une activité scolaire, ce qui n’emporte pas les mêmes exigences en termes de décontamination.
+
+26l0l0	la_destination_future_du_site	O
+26l0l1	à_un_usage_identique	A
+26l0l2	à_une_activité_scolaire	A
+
+#Ce point devra être précisé.
+
+
+#- aucune exposition hors site n’est retenue du fait de l’absence de contamination avérée des eaux souterraines : en l’absence d’analyses spécifiques, cette conclusion paraît hâtive, d’autant plus que les milieux eaux souterraines et superficielles avaient été considérées comme vulnérables et sensibles.
+
+28l0l0	l__absence_de_contamination	O
+28l0l1	eaux_souterraines	O
+
+#- des contaminations significatives en hydrocarbures, xylènes et éthylbenzène apparaissent en P3, P4 et P5, qui nécessitent la mise en œuvre d’un plan de gestion.
+
+29l1l0	hydrocarbures	S
+29l1l1	xylènes	S
+29l1l2	éthylbenzène	S
+
+#En conséquence, l’inspection propose à l’avis du CODERST le projet de prescriptions visant à définir la qualité des eaux souterraines au droit du site, à établir, sur la base d’un bilan coûts/avantages argumenté, un plan de gestion adapté au traitement des pollutions qui seront constatées, notamment en faisant des propositions d’élimination ou de traitement des points chauds, et à procéder à l’inertage ou à l’élimination de la cuve d’hydrocarbures présente sur site.
+
+30l0l0	CODERST	O
+30l0l1	prescriptions_visant_à	R
+30l0l2	définir	N
+30l0l3	la_qualité_des_eaux_souterraines	O
+30l0l4	au_droit_du_site	L
+30l0l5	sur_la_base_d_	R
+30l0l6	un_plan_de_gestion	O
+30l0l7	pollutions	N
+30l0l8	traitement	N
+30l0l9	points_chauds	O
+30l0l10	l__inertage	N
+30l0l11	l__élimination	N
+30l0l12	la_cuve_d__hydrocarbures	O
+30l1l0	CODERST	I
+30l1l1	la_cuve_d__hydrocarbures	U
+
+#Ce plan de gestion sera adapté à l’usage futur du tènement.
+
+31l0l0	Ce_plan_de_gestion	O
+31l0l1	tènement	O
+
+#L’exploitant, ou l’aménageur du site, devra préciser l’usage futur finalement retenu, et démontrer la compatibilité des pollutions résiduelles avec cet usage.
+
+32l0l0	L__exploitant	O
+32l0l1	préciser_l__usage_futur	O
+32l0l2	cet_usage	O

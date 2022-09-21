@@ -1,0 +1,213 @@
+
+#33.0127
+#La société SERVY et Fils exploitait, sur la commune de CASTELNAU-DE-MEDOC (33) au 29 avenue Georges Mandel, une unité de sciage et de traitement de bois autorisée par arrêté préfectoral du 19/12/1991.
+
+0l0l0	La_société_SERVY	O
+0l0l1	et_Fils_exploitait	N
+0l0l2	sur_la_commune_de_CASTELNAU_DE_MEDOC___33___au_29_avenue_Georges_Mandel	L
+0l0l3	une_unité_de	O
+0l0l4	sciage_et_de_traitement_de_bois	A
+0l0l5	autorisée_par_arrêté_préfectoral	O
+0l0l6	du_19_12_1991__	T
+0l1l0	La_société_SERVY	I
+
+#La société a produit, en octobre 2005, un dossier de cessation d’activité.
+
+1l0l0	La_société	O
+1l0l1	a_produit	N
+1l0l2	en_octobre_2005__	T
+1l0l3	un_dossier	O
+1l0l4	cessation_d__activité	N
+1l1l0	La	I
+
+#L'analyse de ce document a conduit à demander à l'exploitant:
+
+2l0l0	l__exploitant	O
+
+#- de faire évacuer les produits résiduels du site, recensés à la date du 23 septembre 2005;
+
+3l0l0	de_faire_évacuer	N
+3l0l1	recensés	N
+3l0l2	à_la_date_du_23_septembre_2005	T
+3l1l0	les_produits_résiduels	U
+
+#- de mettre en sécurité le dit site en interdisant son accès, et en obturant les puits situé à proximité de l'emplacement principal de la scierie.
+
+4l0l0	de_mettre_en_sécurité	N
+4l0l1	le_dit_site	O
+4l0l2	obturant_les_puits	O
+4l0l3	situé_à_proximité_de_l__emplacement	L
+4l0l4	la_scierie	A
+
+#I-DIAGNOSTIC
+
+5l0l0	DIAGNOSTIC	N
+
+#Dans le cadre de l'action collective "diagnostic des scieries avec traitement des bois" lancée en 2003 par la DRIRE, l'arrêté du 10/09/2003 a également prescrit le diagnostic initial et l'évaluation simplifiée des risques (ESR) du site.
+
+6l0l0	Dans_le_cadre_de	R
+6l0l1	diagnostic	N
+6l0l2	scieries_avec_traitement_des_bois	A
+6l0l3	en_2003	T
+6l0l4	la_DRIRE	O
+6l0l5	10_09_2003	T
+6l0l6	a_également_prescrit	N
+6l0l7	le_diagnostic_initial	N
+6l0l8	l__évaluation_simplifiée_des_risques	N
+6l1l0	la_DRIRE	I
+
+#Les études remises le 26/05/2004 et 07/07/2005 (ESR) ont classé le site en 2 "à surveiller" pour les milieux "eaux souterraines et eaux superficielles pour d'autres usages que l’Adduction d'Eau Potable" et "sol par contact direct" et pour les usages du moment.
+
+7l0l0	Les_études_remises	N
+7l0l1	le_26_05_2004_et_07_07_2005	T
+7l0l2	classé	N
+7l0l3	le_site	O
+7l0l4	les_usages	N
+
+#Le diagnostic révèle la présence d'hydrocarbures au droit de la zone de stockage de fuel et de Pentachlorophénate de Sadium (PCPNa) au droit de plusieurs anciennes zones de trempage.
+
+8l0l0	Le_diagnostic_révèle	N
+8l0l1	la_présence_d__hydrocarbures	O
+8l0l2	au_droit_de	R
+8l0l3	la_zone_de_stockage_de_fuel	O
+8l0l4	au_droit_de	L
+8l0l5	plusieurs_anciennes_zones_de_trempage	O
+8l1l0	hydrocarbures	S
+8l1l1	fuel	U
+8l1l2	Pentachlorophénate_de_Sadium	S
+8l1l3	PCPNa	S
+
+#Il n'y a pas d'impact sur la nappe.
+
+9l0l0	la_nappe	O
+
+#II-TRAVAUX
+
+10l0l0	II___TRAVAUX	N
+10l1l0	TRAVAUX	I
+
+#La présence de taches d'hydrocarbures au niveau du stockage de fuel et de PCPNa au droit des anciennes zones de trempage nécessite l'excavation des terres polluées en cas de changement d'usage, notamment résidentiel, du site.
+
+11l0l0	d__hydrocarbures	O
+11l0l1	trempage	A
+11l0l2	nécessite	R
+11l0l3	l__excavation	N
+11l0l4	des_terres_polluées	O
+11l0l5	en_cas_de	R
+11l0l6	changement_d__usage	N
+11l1l0	hydrocarbures	S
+11l1l1	fuel	S
+11l1l2	PCPNa	S
+
+#Le PV de récolement dressé par l'inspecteur le 02/10/2006 conclut que :
+
+12l0l0	Le_PV_de_récolement_dressé	N
+12l0l1	l__inspecteur	O
+12l0l2	le_02_10_2006	T
+
+#- les travaux de mise en sécurité sont réalisés ;
+
+13l0l0	les_travaux_de_mise_en_sécurité	N
+13l0l1	sont_réalisés	N
+
+#- l'obturation du puits par une dalle béton est à faire ;
+
+14l0l0	l_	N
+14l0l1	obturation_du_puits	O
+14l0l2	une_dalle_béton	O
+14l0l3	est_à_faire	N
+
+#- l'enlèvement de quelques fûts restants ayant contenu des huiles usagées et des produits de traitement du bois est à effectuer ;
+
+15l0l0	l__enlèvement	N
+15l0l1	de_quelques_fûts	O
+15l0l2	huiles_usagées	O
+15l0l3	des_produits_de	O
+15l0l4	traitement_du_bois	A
+15l0l5	est_à_effectuer	N
+15l1l0	des_huiles_usagées	U
+
+#- les sources de pollution sont à enlever en cas d'un usage résidentiel.
+
+16l0l0	les_sources_de_pollution	O
+16l0l1	sont_à_enlever	N
+16l0l2	en_cas_d_	R
+16l0l3	un_usage_résidentiel	L
+
+#III-SURVEILLANCE DES EAUX SOUTERRAINES
+
+17l0l0	SURVEILLANCE_DES_EAUX_SOUTERRAINES	O
+17l1l0	SOUTERRAINES	I
+
+#Par arrêté du 10/09/2003, les prescriptions concernant la surveillance des eaux souterraines sont les suivantes :
+
+18l0l0	10_09_2003	T
+18l0l1	la_surveillance_des_eaux_souterraines	A
+
+#- mise en place de 3 piézomètres ;
+
+19l0l0	mise_en_place	N
+19l0l1	3_piézomètres	O
+
+#- les paramètres à analyser sont représentatifs des activités et des produits utilisés sur le site ;
+
+
+#- le niveau piézométrique de la nappe est relevé à chaque campagne ;
+
+21l0l0	est_relevé_à_chaque_campagne	N
+
+#- la fréquence des campagnes d'analyses est semestrielle.
+
+22l0l0	campagnes_d__analyses	N
+
+#Les analyses de la nappe en 2005 montrent l'absence d'impact sur ce milieu.
+
+23l0l0	Les_analyses	N
+23l0l1	la_nappe	O
+23l0l2	en_2005	T
+
+#IV-SOLDE
+
+24l1l0	SOLDE	I
+
+#Le 08/11/2005, l'inspection des installations classées estime qu'aucune action complémentaire de l'administration n'est à entreprendre.
+
+25l0l0	Le_08_11_2005	T
+25l0l1	l__inspection_des_installations_classées	O
+
+#Toutefois, la DREAL ignore si les sols impactés par les hydrocarbures et le PCPNa ont été enlevés ou non, et avec quels objectifs de dépollution.
+
+26l0l0	la_DREAL	O
+26l0l1	les_sols_impactés	O
+26l0l2	hydrocarbures	O
+26l0l3	le_PCPNa	O
+26l0l4	ont_été_enlevés	N
+26l0l5	avec_quels_objectifs	O
+26l0l6	dépollution	N
+26l1l0	la_DREAL	I
+26l1l1	hydrocarbures	S
+
+#V-CESSION
+
+27l0l0	CESSION	N
+
+#Par courrier du 20/08/2012, la Mairie de CASTELNAU-DE-MEDOC informe la DREAl que l'emprise de l'ancienne scierie SERVY a fait l'objet d'un aménagement important autorisé par trois permis de construire du 06/08/2007 : 25, 63 et 15 logements.
+
+28l0l0	20_08_2012	T
+28l0l1	la_Mairie	O
+28l0l2	de_CASTELNAU_DE_MEDOC	L
+28l0l3	informe	N
+28l0l4	la_DREAl	O
+28l0l5	l__ancienne_scierie_SERVY	O
+28l0l6	a_fait_l__objet_d_	R
+28l0l7	un_aménagement_important_autorisé_par	N
+28l0l8	trois_permis_de_construire	O
+28l0l9	du_06_08_2007	T
+28l1l0	la_Mairie_de_CASTELNAU_DE_MEDOC	I
+28l1l1	la_DREAl	I
+
+#A ce jour la totalité des logements est occupée, les abords sont aménagés ainsi que les aires de circulation et de stationnement.
+
+29l0l0	A_ce_jour	T
+29l0l1	les_abords	O
+29l0l2	sont_aménagés	N

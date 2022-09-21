@@ -1,0 +1,185 @@
+@prefix : <http://example.com/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:event_components a owl:Class.
+:labels a owl:Class.
+:when a owl:ObjectProperty .
+:status a owl:ObjectProperty .
+:locate a owl:ObjectProperty .
+:parallel a owl:ObjectProperty .
+:unknown a owl:ObjectProperty .
+:agent a owl:ObjectProperty .
+:pagent a owl:ObjectProperty .
+:target a owl:ObjectProperty .
+:indirect_target a owl:ObjectProperty .
+:ptarget a owl:ObjectProperty .
+:complement a owl:ObjectProperty .
+:passive_target a owl:ObjectProperty .
+:passive_agent a owl:ObjectProperty .
+:precise a owl:ObjectProperty .
+:pprecise a owl:ObjectProperty .
+:pollutant a owl:ObjectProperty .
+:event owl:subClassOf owl:Class.
+:N a :labels.
+:event rdfs:label :N.
+:object owl:subClassOf owl:Class.
+:O a :labels.
+:object rdfs:label :O.
+:time owl:subClassOf owl:Class.
+:T a :labels.
+:time rdfs:label :T.
+:location owl:subClassOf owl:Class.
+:L a :labels.
+:location rdfs:label :L.
+:industrial_activity owl:subClassOf owl:Class.
+:A a :labels.
+:industrial_activity rdfs:label :A.
+:relation owl:subClassOf owl:Class.
+:R a :labels.
+:relation rdfs:label :R.
+:institution owl:subClassOf owl:Class.
+:I a :labels.
+:institution rdfs:label :I.
+:pollutant_container owl:subClassOf owl:Class.
+:D a :labels.
+:pollutant_container rdfs:label :D.
+:pollutant owl:subClassOf owl:Class.
+:U a :labels.
+:pollutant rdfs:label :U.
+:chemical owl:subClassOf owl:Class.
+:S a :labels.
+:chemical rdfs:label :S.
+:0l0l0 a :relation.
+:mise owl:subClassOf :event.
+:0l0l1 a :mise.
+:0l0l2 a :object.
+:0l0l3 a :time.
+:exploiter owl:subClassOf :event.
+:0l0l4 a :exploiter.
+:0l0l5 a :location.
+:0l0l6 a :object.
+:découvrir owl:subClassOf :event.
+:0l0l7 a :découvrir.
+:0l0l1 :target :0l0l0.
+:0l0l2 :target :0l0l1.
+:0l0l4 :when :0l0l3.
+:0l0l6 :target :0l0l7.
+:1l0l0 a :object.
+:1l0l1 a :location.
+:1l0l2 a :object.
+:1l0l3 a :location.
+:1l0l1 ::locate :1l0l0.
+:1l0l1 ::locate :1l0l2.
+:2l0l0 a :location.
+:2l0l1 a :location.
+:3l0l0 a :object.
+:3l0l1 a :relation.
+:3l0l2 a :object.
+:3l0l3 a :location.
+:3l0l4 a :location.
+:3l0l5 a :location.
+:3l0l2 :target :3l0l1.
+:3l0l3 ::locate :3l0l2.
+:4l0l0 a :object.
+:4l0l1 a :location.
+:4l0l2 a :location.
+:4l0l3 a :object.
+:4l0l4 a :object.
+:4l0l5 a :location.
+:4l0l1 ::locate :4l0l0.
+:4l0l5 ::locate :4l0l4.
+:5l0l0 a :location.
+:diagnostic owl:subClassOf :event.
+:6l0l0 a :diagnostic.
+:investigation owl:subClassOf :event.
+:7l0l0 a :investigation.
+:7l0l1 a :object.
+:8l0l0 a :object.
+:métal owl:subClassOf :chemical.
+:9l1l0 a :métal.
+:cuivre owl:subClassOf :chemical.
+:9l1l1 a :cuivre.
+:zinc owl:subClassOf :chemical.
+:9l1l2 a :zinc.
+:plomb owl:subClassOf :chemical.
+:9l1l3 a :plomb.
+:cadmium owl:subClassOf :chemical.
+:9l1l4 a :cadmium.
+:hydrocarbure owl:subClassOf :chemical.
+:9l1l5 a :hydrocarbure.
+:10l1l0 a :hydrocarbure.
+:10l1l1 a :métal.
+:10l1l2 a :cadmium.
+:11l1l0 a :pollutant.
+:11l1l1 a :hydrocarbure.
+:11l1l2 a :métal.
+:hap owl:subClassOf :chemical.
+:11l1l3 a :hap.
+:pcb owl:subClassOf :chemical.
+:11l1l4 a :pcb.
+:12l1l0 a :cuivre.
+:12l1l1 a :zinc.
+:12l1l2 a :plomb.
+:14l1l0 a :pollutant.
+:sulfate owl:subClassOf :chemical.
+:14l1l1 a :sulfate.
+:antimoine owl:subClassOf :chemical.
+:14l1l2 a :antimoine.
+:15l0l0 a :object.
+:forer owl:subClassOf :event.
+:15l0l1 a :forer.
+:15l0l2 a :location.
+:hct owl:subClassOf :chemical.
+:15l1l0 a :hct.
+:cohv owl:subClassOf :chemical.
+:15l1l1 a :cohv.
+:15l1l2 a :hap.
+:mercure owl:subClassOf :chemical.
+:15l1l3 a :mercure.
+:nickel owl:subClassOf :chemical.
+:15l1l4 a :nickel.
+:dégazage owl:subClassOf :event.
+:16l0l0 a :dégazage.
+:mettre owl:subClassOf :event.
+:16l0l1 a :mettre.
+:16l1l0 a :pollutant.
+:17l0l0 a :investigation.
+:entreprendre owl:subClassOf :event.
+:17l0l1 a :entreprendre.
+:17l0l2 a :location.
+:17l0l1 :status :17l0l0.
+:18l0l0 a :object.
+:18l0l1 a :relation.
+:droit owl:subClassOf :event.
+:18l0l2 a :droit.
+:18l0l3 a :industrial_activity.
+:méthane owl:subClassOf :chemical.
+:18l1l0 a :méthane.
+:18l1l1 a :pollutant.
+:sulfure owl:subClassOf :chemical.
+:18l1l2 a :sulfure.
+:20l0l0 a :industrial_activity.
+:22l0l0 a :object.
+:23l0l0 a :object.
+:24l0l0 a :object.
+:24l0l1 a :location.
+:24l0l2 a :object.
+:24l0l1 ::locate :24l0l2.
+:forage owl:subClassOf :event.
+:25l0l0 a :forage.
+:25l0l1 a :object.
+:25l0l2 a :location.
+:25l0l1 :target :25l0l0.
+:poursuite owl:subClassOf :event.
+:26l0l0 a :poursuite.
+:26l0l1 a :industrial_activity.
+:26l0l2 a :object.
+:prise owl:subClassOf :event.
+:27l0l0 a :prise.
+:27l0l1 a :object.
+:27l0l2 a :industrial_activity.
+:27l0l1 ::target :27l0l0.
+:27l0l1 :target :27l0l0.
+:28l0l0 a :mise.

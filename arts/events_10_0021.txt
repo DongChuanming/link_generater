@@ -1,0 +1,130 @@
+
+#10.0021
+#Etablissement qui fabrique des sièges, canapés et fauteuils.
+
+0l0l0	Etablissement	O
+0l0l1	fabrique_des_sièges	A
+
+#Les activités exercées sont:
+
+
+#- le travail du bois et des métaux,
+
+2l0l0	travail_du_bois_et_des_métaux	A
+
+#- le traitement de surface : par dégraissage phosphatant (bain de 19000 litres),
+
+3l0l0	dégraissage_phosphatant	N
+3l1l0	phosphatant	S
+
+#- l'application de vernis ou peinture,
+
+4l0l0	l__application	N
+4l0l1	de_vernis_ou_peinture	O
+
+#- la production de mousse polyuréthane pour matelas
+
+5l0l0	la_production_de_mousse_polyuréthane	A
+5l1l0	mousse_polyuréthane	S
+5l1l1	pour_matelas	I
+
+#Un diagnostic initial et une évaluation simplifiée des risques ont été demandés par arrêté préfectoral en date du 14/05/1998 dans le cadre de la circulaire du 3 avril 1996.
+
+6l0l0	Un_diagnostic_initial_et_une_évaluation_simplifiée_des_risques	N
+6l0l1	ont_été_demandés	N
+6l0l2	par_arrêté_préfectoral	O
+6l0l3	en_date_du_14_05_1998	T
+6l0l4	3_avril_1996	T
+
+#Le diagnostic initial, phase A, a été fourni le 22/12/1998.
+
+7l0l0	Le_diagnostic_initial	N
+7l0l1	a_été_fourni	N
+7l0l2	le_22_12_1998__	T
+
+#Il signale que le milieu est peu sensible et relève 3 zones potentielles de pollution :
+
+8l0l0	3_zones_potentielles_de_pollution	O
+
+#1/la décharge où sont stockés, en vrac et à même le sol des fûts et bidons de déchets d'hydrocarbures et de peintures....
+
+9l0l0	bidons_de_déchets_d__hydrocarbures	O
+9l1l0	déchets_d__hydrocarbures	U
+
+#2/la zone de stockage des hydrocarbures non combustibles et l'atelier d'entretien mécanique
+
+10l0l0	entretien_mécanique	A
+10l1l0	hydrocarbures	S
+10l1l1	non_combustibles	U
+
+#3/la zone de stockage des produits dangereux : vernis, peintures, solvants....
+
+11l1l0	stockage_des_produits_dangereux	U
+11l1l1	vernis___peintures	U
+11l1l2	solvants	U
+
+#Les investigations complémentaires à mener dans le diagnostic initial phase B et l'évaluation simplifiée des risques devront être concentrées autour de ces 3 zones.
+
+12l0l0	Les_investigations_complémentaires	O
+12l0l1	le_diagnostic_initial	N
+12l0l2	l__évaluation_simplifiée_des_risques	N
+12l0l3	devront_être_concentrées	R
+12l0l4	autour	L
+12l0l5	3_zones	O
+
+#Compte tenu de la nature des produits, les paramètres à rechercher pour caractériser les zones polluées sont les hydrocarbures totaux, les hydrocarbures aromatiques monocycliques (benzène, toluène, xylènes), les phénols et les composés aromatiques polycycliques.
+
+13l0l0	zones_polluées	O
+13l1l0	des_produits	U
+13l1l1	hydrocarbures_totaux	S
+13l1l2	les_hydrocarbures_aromatiques_monocycliques	S
+13l1l3	benzène	S
+13l1l4	toluène	S
+13l1l5	xylènes	S
+13l1l6	les_phénols	S
+13l1l7	les_composés_aromatiques_polycycliques	S
+
+#L'évaluation simplifiée des risques a été fournie le 23 mars 2001, elle a fait l'objet d'une demande de compléments par courrier du 10 avril 2001.
+
+14l0l0	L_	O
+14l0l1	évaluation_simplifiée_des_risques	N
+14l0l2	a_été_fournie	N
+14l0l3	le_23_mars_2001__	T
+14l0l4	elle	O
+14l0l5	a_fait_l__objet_d_	R
+14l0l6	une_demande	N
+14l0l7	10_avril_2001	T
+
+#La réponse a été reçue le 4 mai 2001.
+
+15l0l0	a_été_reçue	N
+15l0l1	le_4_mai_2001	T
+
+#Elle a été examinée par l'inspection des installations classées qui a demandé des compléments et la mise en place d'une surveillance des eaux souterraines par courrier du 25 novembre 2002.
+
+16l0l0	Elle	O
+16l0l1	a_été_examinée	N
+16l0l2	l__inspection_des_installations_classées	O
+16l0l3	a_demandé	N
+16l0l4	la_mise_en_place_d_	N
+16l0l5	une_surveillance_des_eaux_souterraines	A
+16l0l6	25_novembre_2002	T
+
+#Un complément d'étude a été transmis par l'exploitant le 28 février 2003.
+
+17l0l0	Un_complément_d__étude	O
+17l0l1	a_été_transmis	N
+17l0l2	l__exploitant	O
+17l0l3	le_28_février_2003__	T
+
+#L'étude hydrogéologique transmise à l'inspection des installations classées présente quelques lacunes.
+
+18l0l0	L_	O
+18l0l1	étude_hydrogéologique	N
+
+#Des compléments relatifs aux propositions d'implantation de piézomètres vont être adressés à l'inspection des installations classées.
+
+
+#Rien de nouveau au 18/08/11 attente DDAE
+
+20l0l0	au_18_08_11_attente_DDAE	T

@@ -1,0 +1,431 @@
+
+#37.0017
+#La société SYNTHRON fabrique et stocke des produits chimiques dans son établissement situé sur le territoire de la commune de AUZOUER en TOURAINE et VILLEDOMER.
+
+0l0l0	La_société_SYNTHRON	O
+0l0l1	fabrique_et_stocke_des_produits_chimiques	A
+0l0l2	dans	L
+0l0l3	son_établissement	O
+0l0l4	situé_sur_le_territoire_de_la_commune_de_AUZOUER	L
+0l0l5	en_TOURAINE	L
+0l0l6	et_VILLEDOMER	L
+0l1l0	La_société_SYNTHRON_fabrique	I
+0l1l1	des_produits_chimiques	U
+
+#Le site emploie environ 150 personnes.
+
+1l0l0	Le_site	O
+
+#Compte tenu de ces activités et des installations classées exploitées, cet établissement est soumis au régime de l’autorisation avec servitudes et relève du seuil haut du classement SEVESO.
+
+2l0l0	des_installations_classées_exploitées	N
+2l0l1	cet_établissement	O
+2l0l2	est_soumis_au	N
+2l0l3	l__autorisation	O
+2l0l4	relève	R
+2l0l5	du_seuil_haut_du_classement_SEVESO	O
+2l1l0	SEVESO	I
+
+#Il bénéficie de l’arrêté préfectoral d’autorisation n° 15138 du 25 novembre 1998 modifié.
+
+3l0l0	Il	O
+3l0l1	bénéficie_de	N
+3l0l2	l__arrêté_préfectoral_d__autorisation	O
+3l0l3	25_novembre_1998_modifié	T
+
+#Il est en rive gauche de "la BRENNE" et dispose d'une autorisation de rejet après traitement.
+
+4l0l0	Il_est_en_rive_gauche_de___la_BRENNE	L
+4l0l1	une_autorisation	O
+
+#Pour son activité, le site dispose également d'une autorisation de prélèvement dans la nappe du cénomanien de 470000m3/an.
+
+5l0l0	son_activité	A
+5l0l1	le_site	O
+5l0l2	une_autorisation	O
+5l0l3	de_prélèvement	A
+5l0l4	dans_la_nappe	L
+5l0l5	470000m3	O
+5l0l6	__an	A
+
+#L'établissement présente un potentiel d'impact important en raison de la variété et des quantités de substances utilisées dans ses procédés de chimie fine en batch (environ 400 types de productions).
+
+6l0l0	L__établissement	O
+6l0l1	ses	A
+6l0l2	procédés_de_chimie_fine	O
+
+#De plus, les eaux superficielles sont immédiatement à proximité de ces activités puisque "La BRENNE" traverse le site.
+
+7l0l0	immédiatement_à_proximité_de	L
+7l0l1	ces_activités	O
+7l0l2	La_BRENNE	O
+7l0l3	le_site	L
+
+#Le sous-sol présente aussi une vulnérabilité du fait de la présence d'une formation superficielle alluviale.
+
+
+#1) Surveillance des eaux souterraines et de surface
+
+9l0l0	Surveillance_des_eaux	A
+
+#Un arrêté préfectoral complémentaire (APC) du 20/03/2006 prescrit la mise en place d'une surveillance semestrielle des eaux souterraines à partir d'une étude hydrogéologique.
+
+10l0l0	Un_arrêté_préfectoral_complémentaire	O
+10l0l1	20_03_2006	T
+10l0l2	prescrit_la_mise_en_place	N
+10l0l3	une_surveillance_semestrielle	A
+10l0l4	des_eaux_souterraines	A
+
+#L'étude remise le 08/11/2006 propose une surveillance sur 10 ouvrages (piézomètres et forages).
+
+11l0l0	L__étude_remise	N
+11l0l1	le_08_11_2006	T
+
+#Les résultats de la campagne d'octobre 2006 montre la présence de : chlorure de vinyle, tetrachloroéthylène, benzène, cis-dichloroéthylène, trichloréthylène, aluminium, arsenic, nickel, chrome.
+
+12l0l0	la_campagne_d_	N
+12l0l1	octobre_2006	T
+12l1l0	chlorure_de_vinyle	S
+12l1l1	tetrachloroéthylène	S
+12l1l2	benzène	S
+12l1l3	cis___dichloroéthylène	S
+12l1l4	trichloréthylène	S
+12l1l5	aluminium	S
+12l1l6	arsenic	S
+12l1l7	nickel	S
+12l1l8	chrome	S
+
+#Par APC du 20/05/2010, la surveillance des eaux souterraines a été renforcée par l'ajout de nouveaux points de prélèvement.
+
+13l0l0	20_05_2010	T
+13l0l1	la_surveillance_des_eaux_souterraines	A
+13l0l2	a_été_renforcée	N
+13l0l3	l__ajout	N
+13l0l4	de_nouveaux_points_de_prélèvement	O
+
+#Un arrêté préfectoral de mise en demeure en date du 04/03/2011 rappelle les prescriptions de l'article 10 (importance du contrôle périodique) de l'APC du 20/05/2010 concernant la surveillance des eaux souterraines.
+
+14l0l0	Un_arrêté_préfectoral_de_mise_en_demeure	O
+14l0l1	en_date_du_04_03_2011	T
+14l0l2	l__APC	O
+14l0l3	20_05_2010	T
+14l0l4	surveillance_des_eaux_souterraines	A
+
+#Les résultats d'analyse de la surveillance de décembre 2011 révèlent une augmentation sur certains ouvrages de la concentration en plusieurs polluants comme l'aluminium, le nickel, l'arsenic et des composés organo-halogénés volatils (chlorure de vinyle, tetrachloroéthylène, cis-dichloroéthylène, trichloréthylène, chlorobenzène).
+
+15l0l0	la_surveillance	N
+15l0l1	de_décembre_2011	T
+15l0l2	une_augmentation	N
+15l1l0	polluants	S
+15l1l1	l__aluminium	S
+15l1l2	le_nickel	S
+15l1l3	arsenic	S
+15l1l4	des_composés_organo___halogénés	S
+15l1l5	chlorure_de_vinyle	S
+15l1l6	tetrachloroéthylène	S
+15l1l7	cis___dichloroéthylène	S
+15l1l8	trichloréthylène	S
+15l1l9	chlorobenzène	S
+
+#Le rapport mentionne aussi une concentration anormale de toluène sur quelques ouvrages de surveillance.
+
+16l1l0	toluène	S
+
+#2) Evaluation des Risques Sanitaires
+
+17l0l0	Evaluation_des_Risques_Sanitaires	O
+17l1l0	Sanitaires	I
+
+#Une ERS (Evaluation des Risques Sanitaires) a été prescrite par APC du 15/11/2006.
+
+18l0l0	Une_ERS	O
+18l0l1	a_été_prescrite	N
+18l0l2	par_APC	O
+18l0l3	du_15_11_2006__	T
+18l1l0	Sanitaires	I
+
+#Une première version de cette étude a été présentée en novembre 2008, puis révisée en décembre 2009 suite aux remarques de l'Inspection des Installations Classée et de la DDASS (Directions Départementales des Affaires Sanitaires et Sociales).
+
+19l0l0	Une_première_version	O
+19l0l1	cette_étude_a_été_présentée	N
+19l0l2	en_novembre_2008__	T
+19l0l3	puis_révisée	O
+19l0l4	en_décembre_2009	T
+19l0l5	l__Inspection_des_Installations_Classée	O
+19l0l6	la_DDASS	O
+19l1l0	la_DDASS	I
+19l1l1	Départementales_des_Affaires_Sanitaires_et	I
+
+#Suite aux conclusions de l'ERS, un arrêté préfectoral (AP) en date du 29/04/2009 porte l'interdiction d'utiliser l'eau des puits et des forages domestiques sur le territoire des communes d'Auzouer en Touraine et de Villedomer.
+
+20l0l0	Suite_aux	R
+20l0l1	conclusions	O
+20l0l2	un_arrêté_préfectoral___AP	O
+20l0l3	en_date_du_29_04_2009	T
+20l0l4	porte_l__interdiction	N
+20l0l5	d__utiliser_l__eau_des_puits_et_des_forages_domestiques	A
+20l0l6	sur_le_territoire_des_communes_d__Auzouer_en_Touraine	L
+20l0l7	Villedomer	L
+
+#En 2010 un historique des produits a été intégré à l'ERS, faisant suite à deux campagnes de prélèvements en avril et mai 2010 dans le but de rechercher de façon exhaustive tous les polluants présents dans les eaux souterraines et de surface au droit du site (plus de 600 substances ont été cherchées dans les ouvrages, ainsi que dans la Brenne et dans une mare).
+
+21l0l0	En_2010	T
+21l0l1	un_historique_des_produits	O
+21l0l2	a_été_intégré	N
+21l0l3	faisant_suite_à	R
+21l0l4	deux_campagnes_de_prélèvements	N
+21l0l5	en_avril_et_mai_2010	T
+21l0l6	dans_la_Brenne	L
+21l1l0	les_polluants	U
+
+#L'ERS de la société SYNTHRON, version de janvier 2011 tenant compte des remarques formulées par la DDASS, a été transmise par l'exploitant le 1er mars 2011 aux services de l'Inspection.
+
+22l0l0	L_	O
+22l0l1	la_société_SYNTHRON	O
+22l0l2	de_janvier_2011	T
+22l0l3	la_DDASS	O
+22l0l4	a_été_transmise	N
+22l0l5	l__exploitant	O
+22l0l6	le_1er_mars_2011	T
+22l0l7	l__Inspection	O
+22l1l0	la_société_SYNTHRON	I
+22l1l1	la_DDASS	I
+
+#Il est recommandé de poursuivre la surveillance des eaux souterraines et de surface selon le nouveau plan établi suite aux conclusions de l'Interprétation de l'État des Milieux (IEM) version novembre 2010.
+
+23l0l0	la_surveillance_des_eaux_souterraines	A
+23l0l1	plan	O
+23l0l2	établi_suite_aux	R
+23l0l3	novembre_2010__	T
+
+#Suite à un rapport de l'Inspection des Installations Classées daté du 4 avril 2011, un APC a été pris le 03/05/2011 prescrivant la réalisation d'études complémentaires nécessaires à la mise à jour de l'ERS et préconisant le suivi d'une surveillance semestrielle des eaux souterraines et de surface.
+
+24l0l0	Suite_à	R
+24l0l1	un_rapport	N
+24l0l2	l__Inspection_des_Installations_Classées	O
+24l0l3	daté_du_4_avril_2011__	T
+24l0l4	un_APC	O
+24l0l5	a_été_pris	N
+24l0l6	le_03_05_2011	T
+24l0l7	prescrivant	R
+24l0l8	la_réalisation_d__études_complémentaires	N
+24l0l9	à_jour	N
+24l0l10	l__ERS	O
+24l0l11	préconisant_le_suivi_d_	R
+24l0l12	une_surveillance_semestrielle	A
+24l0l13	des_eaux_souterraines_et	A
+
+#La prochaine révision de l'ERS est attendue pour 2012 avec comme objectifs l'actualisation de l'évaluation quantitative des émissions des cuves de stockage, de l'ERS et de la mise en place d'actions permettant de diminuer le risque pour la santé humaine.
+
+25l0l0	La_prochaine_révision	N
+25l0l1	attendue_pour_2012	T
+25l0l2	l__actualisation	N
+25l0l3	cuves_de_stockage	O
+25l0l4	la_mise_en_place_d__actions	N
+25l1l0	cuves_de_stockage	D
+
+#L'interdiction d'utiliser l'eau des ouvrages domestiques a été prolongée successivement par les AP du 22/10/2010, du 28/04/2011, du 27/10/2011 et du 19/04/2012, et ce valable jusqu'au 31 octobre 2012.
+
+26l0l0	L__interdiction	N
+26l0l1	a_été_prolongée_successivement	N
+26l0l2	les_AP	O
+26l0l3	du_22_10_2010___du_28_04_2011	T
+26l0l4	27_10_2011_et_du_19_04_2012	T
+26l0l5	ce_valable_jusqu_	N
+26l0l6	au_31_octobre_2012__	T
+
+#Les conclusions de la nouvelle ERS détermineront le suivi ou non de cette interdiction.
+
+27l0l0	suivi	O
+
+#3) Interprétation de l'Etat des Milieux
+
+28l0l0	Milieux	O
+
+#Une IEM (Interprétation de l'Etat des Milieux) a été prescrite par APC en date du 22/06/2009, comprenant:
+
+29l0l0	Une_IEM	O
+29l0l1	a_été_prescrite	N
+29l0l2	par_APC	O
+29l0l3	en_date_du_22_06_2009	T
+
+#- une analyse historique du site
+
+30l0l0	site	O
+
+#- des investigations de terrain visant à acquérir des informations sur l'état des milieux susceptibles de poser problème et notamment sur les lieux d'utilisation des eaux souterraines
+
+31l0l0	des_investigations_de_terrain	N
+31l0l1	utilisation_des_eaux_souterraines	A
+
+#- une étude hydrogéologique de la nappe du Cénomanien
+
+32l0l0	étude_hydrogéologique	N
+
+#Le rapport de l'IEM réalisée a été communiqué au service de l'Inspection en décembre 2009.
+
+33l0l0	IEM_réalisée	O
+33l0l1	a_été_communiqué	N
+33l0l2	en_décembre_2009__	T
+
+#Suite à une sollicitation de la part de l'Inspection en février 2010 de l'avis technique du BRGM (Bureau de Recherches Géologiques et Minières) sur cette étude, plusieurs recommandations ont été communiquées à SYNTHRON.
+
+34l0l0	Suite	R
+34l0l1	à_une_sollicitation	N
+34l0l2	l__Inspection	O
+34l0l3	en_février_2010	T
+34l0l4	l__avis_technique_du_BRGM	O
+34l0l5	ont_été_communiquées	N
+34l0l6	SYNTHRON	O
+34l1l0	BRGM	I
+34l1l1	SYNTHRON	I
+
+#La société a transmis des compléments à l'IEM en décembre 2010 suite à l'arrêté de mise en demeure du 23/07/2010, mais de nombreuses insuffisances ont été relevées par rapport aux compléments attendus.
+
+35l0l0	La_société	O
+35l0l1	a_transmis	N
+35l0l2	l__IEM	O
+35l0l3	en_décembre_2010	T
+35l0l4	suite_à	R
+35l0l5	l__arrêté_de_mise_en_demeure	N
+35l0l6	du_23_07_2010	T
+35l1l0	La_société	I
+
+#Les principales conclusions de ce rapport mentionnaient notamment la mise en place d'investigations complémentaires comme un suivi piézométrique synchrone de la nappe alluviale et du Cénomanien et une localisation précise des deux zones de pollutions identifiées sur le site.
+
+36l0l0	la_mise_en_place_d__investigations	N
+36l0l1	un_suivi_piézométrique_synchrone	N
+36l0l2	la_nappe_alluviale	O
+36l0l3	Cénomanien	N
+36l0l4	une_localisation	O
+36l0l5	deux_zones_de_pollutions	O
+
+#Le BRGM a préconisé la réalisation d'une dizaine de piézairs ou l'implantation de 8 tranchées dans la partie nord de l'ancienne lagune du site.
+
+37l0l0	Le_BRGM	O
+37l0l1	réalisation_d_	N
+37l0l2	une_dizaine_de_piézairs	O
+37l0l3	l__implantation_de	N
+37l0l4	8_tranchées	O
+37l0l5	dans_la_partie_nord_de	L
+37l0l6	l__ancienne_lagune	O
+37l1l0	Le_BRGM	I
+
+#Cet établissement public propose également de nouvelles recommandations concernant l'IEM du site :
+
+
+#- Préciser l'existence de communication hydraulique entre la nappe alluviale de la Brenne et la nappe du Cénomanien.
+
+39l0l0	Brenne	L
+
+#- Evaluer le potentiel d'atténuation des solvants chlorés.
+
+40l1l0	solvants_chlorés	S
+
+#- Rechercher les fûts de stockage des produits chimiques susceptibles de contaminer les sols et les eaux.
+
+41l0l0	Rechercher	N
+41l0l1	les_fûts_de_stockage	O
+41l1l0	produits_chimiques	U
+
+#- Définir un plan de gestion du site.
+
+42l0l0	Définir_un_plan_de_gestion	N
+42l0l1	du_site	O
+
+#- Définir un programme de surveillance des eaux et des sédiments.
+
+43l0l0	Définir	N
+43l0l1	un_programme	O
+43l0l2	de_surveillance	A
+43l0l3	eaux	O
+
+#Un arrêté préfectoral de consignation de fond a été pris à l'encontre de la société SYNTHRON à la date du 04/03/2011 afin d'apporter des compléments au diagnostic de l'état des milieux.
+
+44l0l0	Un_arrêté_préfectoral_de_consignation_de_fond	O
+44l0l1	a_été_pris_à_l_	N
+44l0l2	la_société_SYNTHRON	O
+44l0l3	à_la_date_du_04_03_2011	T
+44l0l4	diagnostic	N
+44l1l0	la_société_SYNTHRON	I
+
+#L'APC en date du 03/05/2011 prescrit la réalisation d'études et de travaux complémentaires nécessaires à la rédaction d'une IEM actualisée encadrés par un tiers-expert.
+
+45l0l0	L_	O
+45l0l1	en_date_du_03_05_2011	T
+45l0l2	prescrit_la_réalisation_d__études	N
+45l1l0	L__APC	I
+
+#Un courrier du BRGM datant de décembre 2011 met en évidence la nécessité de "réaliser un renforcement de l'étude historique et une visite approfondie du site" dans le cadre de la réalisation d'une nouvelle version de l'IEM d'après l'APC du 03/05/2011, et dont le contenu technique serait conforme au guide méthodologique "diagnostic des sols" du 08 février 2007.
+
+46l0l0	BRGM	O
+46l0l1	datant_de_décembre_2011	T
+46l0l2	réaliser_un_renforcement	N
+46l0l3	une_visite_approfondie	N
+46l0l4	site__	O
+46l0l5	dans_le_cadre_de	R
+46l0l6	la_réalisation_d__une_nouvelle_version	N
+46l0l7	03_05_2011	T
+46l0l8	diagnostic_des_sols__	N
+46l0l9	du_08_février_2007__	T
+46l1l0	BRGM	I
+
+#Dans des courriers de décembre 2011, la société SYNTHRON détaille les travaux déjà réalisés dans le cadre de l'IEM et de la surveillance des eaux.
+
+47l0l0	Dans	R
+47l0l1	des_courriers	N
+47l0l2	de_décembre_2011__	T
+47l0l3	la_société_SYNTHRON	O
+47l0l4	détaille	R
+47l0l5	les_travaux_déjà_réalisés	N
+47l0l6	la_surveillance_des_eaux	A
+47l1l0	la_société_SYNTHRON	I
+
+#Ainsi le contrôle des forages a été effectué et une commande a été passée à un prestataire afin de les nettoyer.
+
+48l0l0	le_contrôle_des_forages	O
+48l0l1	a_été_effectué	N
+48l0l2	une_commande	O
+48l0l3	a_été_passée	N
+48l0l4	un_prestataire	O
+
+#Un registre relatif à l'entretien des ouvrages a également été mis en place, et il est prévu deux inspections par an lors de chaque campagne semestrielle de prélèvements.
+
+49l0l0	Un_registre	O
+49l0l1	relatif_à	R
+49l0l2	l__entretien	O
+49l0l3	des_ouvrages	O
+49l0l4	a_également_été_mis_en_place	N
+49l0l5	il_est_prévu	O
+49l0l6	deux_inspections	N
+49l0l7	par_an	T
+
+#Un suivi piézométrique synchrone des nappes sera réalisé lorsque l'IEM sera terminée.
+
+50l0l0	Un_suivi_piézométrique_synchrone_des_nappes	A
+50l0l1	sera_réalisé_lorsque	N
+50l0l2	l__IEM	O
+
+#En plus du contenu technique de l'IEM, une enquête mémorielle (interview des employés actuels et anciens) et un plan de superposition des différentes activités potentiellement polluantes actuelles et passées seront effectués.
+
+51l0l0	l__IEM	O
+51l0l1	une_enquête_mémorielle	N
+
+#La vérification quinquennal des ouvrages sera réalisée dans le cadre du complément à l'IEM.
+
+52l0l0	La_vérification_quinquennal	N
+52l0l1	ouvrages	O
+52l0l2	sera_réalisée_dans_le_cadre	N
+
+#La version complétée de l'IEM sera réalisée avant la fin 2012.
+
+53l0l0	La_version_complétée	O
+53l0l1	l__IEM	O
+53l0l2	sera_réalisée	N
+53l0l3	avant_la_fin_2012__	T
+
+#Le plan de surveillance des eaux souterraines sera révisé si besoin selon les conclusions de l'IEM version 2012.
+
+54l0l0	Le_plan_de_surveillance_des_eaux_souterraines	O
+54l0l1	sera_révisé	N
+54l0l2	2012__	T

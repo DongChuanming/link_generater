@@ -1,0 +1,557 @@
+
+#72.0039
+#L’usine BROSE AUTOMOTIVE est située au Nord-Est de la commune de la Suze sur Sarthe, sur la rive Est de la Sarthe.
+
+0l0l0	L__usine_BROSE_AUTOMOTIVE	O
+0l0l1	est	R
+0l0l2	située_au_Nord_Est_de_la_commune_de_la_Suze_sur_Sarthe	L
+0l0l3	sur_la_rive_Est_de_la_Sarthe	L
+0l1l0	BROSE_AUTOMOTIVE	I
+
+#L’usine se trouve en zone urbaine destinée à l’implantation d’activités de type industriel (voir plan cartographique 1 partie B).
+
+1l0l0	L__usine	O
+1l0l1	se_trouve_en_zone_urbaine	L
+1l0l2	destinée_à	R
+1l0l3	l__implantation	N
+1l0l4	d__activités_de_type_industriel	A
+
+#Le voisinage du site est constitué de :
+
+2l0l0	Le_voisinage	O
+
+#- la ville de la Suze sur Sarthe au Sud ;
+
+3l0l0	la	O
+3l0l1	ville_de_la_Suze_sur_Sarthe	L
+3l0l2	au_Sud	L
+3l1l0	Sarthe	I
+
+#- l’usine VALEO au Nord et à l’Ouest ;
+
+4l0l0	l__usine_VALEO	O
+4l0l1	au_Nord_et_à_l__Ouest	L
+4l1l0	VALEO	I
+
+#- l’usine ATLAN au Nord-Est ;
+
+5l0l0	l__usine_ATLAN	O
+5l0l1	au_Nord_Est	L
+
+#- des habitations à l’Est et au Sud ;
+
+6l0l0	des_habitations	O
+6l0l1	à_l__Est	L
+
+#- la rivière la Sarthe (à 50 m) et des prairies à l’Ouest.
+
+7l0l0	la_rivière_la_Sarthe___à_50_m	L
+7l0l1	prairies_à_l__Ouest	L
+7l1l0	Sarthe	I
+
+#On ne retrouve pas de puits au droit du site.
+
+
+#Les usages de l’eau en aval de l’établissement sont constitués essentiellement de pompage agricole, industriel et d’eau superficielle destinés à l’alimentation en eau de la ville de Sablé sur Sarthe à 22 km.
+
+9l0l0	Les_usages_de_l__eau	A
+9l0l1	en_aval_de	L
+9l0l2	l__établissement	O
+9l0l3	pompage_agricole	A
+9l0l4	destinés_à	R
+9l0l5	l__alimentation_en_eau	A
+9l0l6	de_la_ville_de_Sablé_sur_Sarthe	L
+9l0l7	à_22_km	L
+
+#Le site se situe dans un contexte vulnérable, en raison de la présence d’eaux souterraines de la nappe alluviale de la Sarthe à faible profondeur au droit du site, mais faiblement sensible en raison de la présence uniquement d’un captage privé en amont hydraulique du site.
+
+10l0l0	Le_site	O
+10l0l1	se_situe_dans_un_contexte	L
+10l0l2	de_la_Sarthe	L
+10l0l3	au_droit_du_site	L
+10l0l4	en_amont_hydraulique_du_site	L
+
+#En 1947, le site était occupé par la société SAMP spécialisée dans le travail du plastique.
+
+11l0l0	En_1947	T
+11l0l1	le_site	O
+11l0l2	était_occupé_par	R
+11l0l3	la_société_SAMP	O
+11l0l4	spécialisée_dans_le	R
+11l0l5	travail_du_plastique	A
+11l1l0	la_société_SAMP	I
+
+#Puis en 1975, ce fût la société SAF du FERODO, qui repris le site avec des activités automobiles et la prise en charge des équipements thermiques.
+
+12l0l0	en_1975	T
+12l0l1	ce_fût	N
+12l0l2	la_société_SAF	O
+12l0l3	FERODO	O
+12l0l4	le_site	O
+12l0l5	avec	R
+12l0l6	des_activités_automobiles	A
+12l0l7	la_prise_en_charge_des_équipements_thermiques	A
+12l1l0	la_société_SAF_du_FERODO	I
+
+#En 1980, FERODO devient VALEO.
+
+13l0l0	En_1980__	T
+13l0l1	FERODO	O
+13l0l2	VALEO	O
+13l1l0	FERODO_devient_VALEO	I
+
+#En juillet 1995, SIEMENS AUTOMOTIVE rachète 70 % de l’activité moteurs électriques de VALEO.
+
+14l0l0	En_juillet_1995__	T
+14l0l1	SIEMENS_AUTOMOTIVE	O
+14l0l2	rachète_70_____de	N
+14l0l3	l__activité_moteurs_électriques_de_VALEO	O
+14l1l0	SIEMENS_AUTOMOTIVE	I
+14l1l1	de_VALEO	I
+
+#L’usine 2  est séparée de VALEO (voir plan cartographique 2 partie B) et devient SIEMENS.
+
+15l0l0	L__usine_2	O
+15l0l1	__est_séparée_de	R
+15l0l2	VALEO	O
+15l0l3	et_devient_SIEMENS	O
+15l1l0	de_VALEO	I
+15l1l1	devient_SIEMENS	I
+
+#En avril 2001, SIEMENS devient SIEMENS VDO AUTOMOTIVE, puis CONTINENTAL AUTOMOTIVE en décembre 2007.
+
+16l0l0	En_avril_2001__	T
+16l0l1	SIEMENS_devient	R
+16l0l2	SIEMENS	O
+16l0l3	AUTOMOTIVE	O
+16l0l4	CONTINENTAL_AUTOMOTIVE	O
+16l0l5	en_décembre_2007__	T
+16l1l0	SIEMENS_devient_SIEMENS_VDO_AUTOMOTIVE	I
+16l1l1	CONTINENTAL_AUTOMOTIVE	I
+
+#Le 29 mai 2008, un récépissé de déclaration a pris acte de la reprise par la société CONTINENTAL AUTOMOTIVE des activités auparavant exercées par la société SIEMENS VDO AUTOMOTIVE, le changement d’exploitant ayant été acté par un récépissé de déclaration du 10 juin 2008.
+
+17l0l0	Le_29_mai_2008__	T
+17l0l1	un_récépissé	O
+17l0l2	déclaration	N
+17l0l3	a_pris_acte	N
+17l0l4	la_reprise	N
+17l0l5	la_société_CONTINENTAL_AUTOMOTIVE	O
+17l0l6	des_activités_auparavant_exercées	N
+17l0l7	la_société_SIEMENS	O
+17l0l8	VDO_AUTOMOTIVE	O
+17l0l9	le_changement_d__exploitant	O
+17l0l10	ayant_été_acté_par_un_récépissé	N
+17l0l11	déclaration	N
+17l0l12	du_10_juin_2008__	T
+17l1l0	la_société_CONTINENTAL_AUTOMOTIVE	I
+17l1l1	la_société_SIEMENS_VDO_AUTOMOTIVE	I
+
+#La société BROSE AUTOMOTIVE précise que l’arrêt effectif des activités de fabrication est planifié au 31 juillet 2015 ; un récépissé de notification de cessation d’activité ayant été délivré le 20 janvier 2015.
+
+18l0l0	La_société_BROSE_AUTOMOTIVE	O
+18l0l1	l__arrêt_effectif	N
+18l0l2	des_activités_de_fabrication	A
+18l0l3	est_planifié	R
+18l0l4	au_31_juillet_2015	T
+18l0l5	__un_récépissé	O
+18l0l6	de_notification_de_cessation_d__activité	N
+18l0l7	ayant_été_délivré	N
+18l0l8	le_20_janvier_2015__	T
+18l1l0	La_société_BROSE_AUTOMOTIVE	I
+
+#L’activité de cet établissement était l’assemblage de moteurs à balais et moteurs à commutation électronique pour chauffage et climatisation des véhicules et camions.
+
+19l0l0	L__activité	O
+19l0l1	cet_établissement	O
+19l0l2	l_	A
+19l0l3	assemblage_de_moteurs_à_balais	O
+19l0l4	climatisation_des_véhicules_et_camions	O
+
+#Le site comprenait :
+
+20l0l0	Le_site	O
+
+#- une zone de stockage de produits finis en partie Nord-est
+
+21l0l0	une_zone	O
+21l0l1	en_partie_Nord_est	L
+
+#- une zone de maintenance et des bureaux en partie Sud-Ouest
+
+22l0l0	une_zone_de_maintenance	O
+22l0l1	bureaux	O
+22l0l2	en_partie_Sud_Ouest	L
+
+#- des bureaux en bordure ouest
+
+23l0l0	en_bordure_ouest	L
+
+#des locaux de stockage (déchets, batteries, etc.), un réfectoire, des sanitaires et un transformateur électrique en bordure Est
+
+24l0l0	un_transformateur_électrique	O
+24l0l1	en_bordure_Est	L
+24l1l0	déchets	U
+
+#- une zone de fabrication et de stockage de cartons et un local compresseur en partie Nord-est des lignes de production, des zones d’assemblage ainsi que des zones de stockage en partie centrale.
+
+25l0l0	une_zone_de	O
+25l0l1	fabrication_et_de_stockage_de_cartons	A
+25l0l2	en_partie_Nord_est_des_lignes	L
+25l0l3	de_production	N
+
+#- des quais de chargements/déchargements, un parking, des voies de circulation et un poste de garde
+
+26l0l0	quais	O
+26l0l1	déchargements	A
+26l0l2	un_parking	O
+26l0l3	un_poste_de_garde	O
+
+#Les investigations réalisées du 8 au 12 septembre 2014 par un bureau d’étude ont mis en évidence :
+
+27l0l0	Les_investigations_réalisées	N
+27l0l1	du_8_au_12_septembre_2014	T
+27l0l2	un_bureau_d__étude	O
+
+#> sur les sols (voir plan cartographique 3 partie B) :
+
+
+#- la présence d’une unique teneur significative en Arsenic en partie Nord-Ouest du site, mais vraisemblablement en lien avec le bruit de fond géochimique ;
+
+29l0l0	Arsenic	O
+29l0l1	en_partie_Nord_Ouest_du_site	L
+29l1l0	Arsenic	S
+
+#- la présence ponctuelle d’une zone impactée par des hydrocarbures en partie Nord du bâtiment (sondages S10 et S12)
+
+30l0l0	une_zone_impactée	O
+30l0l1	hydrocarbures	O
+30l0l2	en_partie_Nord_du_bâtiment	L
+30l1l0	hydrocarbures	S
+
+#> sur les gaz du sol :
+
+
+#- absence de substances volatiles au droit du site
+
+
+#> eaux souterraines (voir plan cartographique 4 partie B) :
+
+
+#- la présence d’un impact significatif en solvants en aval et en aval hydraulique du bâtiment principal, cet impact s’étendant potentiellement hors site et/ou provenant de l’extérieur du site,
+
+34l0l0	aval_et_en_aval_hydraulique_du_bâtiment_principal	L
+34l0l1	cet_impact	O
+34l0l2	s_	R
+34l0l3	étendant_potentiellement_hors_site_et___ou_provenant_de_l__extérieur_du_site	L
+
+#- la présence d’un impact significatif en HAP (Hydrocarbure Aromatique Polycyclique) et notable en hydrocarbures en amont/latéral hydraulique du bâtiment principal, cet impact s’étendant potentiellement hors site et/ou provenant de l’extérieur du site
+
+35l0l0	en_amont___latéral_hydraulique_du_bâtiment_principal	L
+35l0l1	cet_impact	O
+35l0l2	s_	R
+35l0l3	__ou_provenant_de_l__extérieur_du_site	L
+35l1l0	HAP	S
+35l1l1	Hydrocarbure_Aromatique_Polycyclique	S
+35l1l2	hydrocarbures	S
+
+#- la présence d’un impact généralisé en Nickel dans les eaux souterraines présentes au droit du site.
+
+36l1l0	Nickel	S
+
+#Les recommandations du bureau d’étude sont préconisées dans le cadre de la cession du site à un repreneur pour un usage industriel :
+
+37l0l0	Les_recommandations	O
+37l0l1	d__étude	O
+37l0l2	le_cadre_de	R
+37l0l3	la_cession_du_site	N
+37l0l4	un_repreneur	O
+37l0l5	un_usage_industriel	A
+
+#- quelque soit l’usage futur et en cas de travaux d’excavation et/ou d’exportation de matériaux hors site : application des mesures d’hygiène et de sécurité adaptées pour la protection des travailleurs et l’acheminement après l’obtention d’une acceptation préalable de l’ensemble de matériaux devant être excavés vers un centre adapté ;
+
+38l0l0	en_cas_de_travaux	R
+38l0l1	d__excavation	N
+38l0l2	d__exportation_de_matériaux_hors_site	N
+38l0l3	et_l__acheminement	N
+38l0l4	après_l_	N
+38l0l5	obtention_d_	N
+38l0l6	une_acceptation	O
+
+#- dans le cadre du réaménagement du site pour un usage plus sensible de type résidentiel : réalisation d’un Plan de Gestion associé à une Analyse des Risques Résiduels afin d’assurer l’adéquation entre la qualité des milieux et l’usage futur ;
+
+39l0l0	dans_le_cadre	R
+39l0l1	du_réaménagement_du_site	N
+39l0l2	un_usage	O
+39l0l3	__réalisation_d_	N
+39l0l4	un_Plan_de_Gestion	O
+
+#- le suivi de l’évolution du site et de ses impacts dans le temps : surveillance du site dans le cadre d’un bilan quadriennal et la poursuite du suivi de la qualité des eaux souterraines à une fréquence annuelle pendant 4 ans.
+
+40l0l0	suivi_de_l__évolution_du_site	O
+40l0l1	ses_impacts	O
+40l0l2	dans_le_temps	T
+40l0l3	__surveillance	A
+40l0l4	du_site	O
+40l0l5	dans_le_cadre_d_	R
+40l0l6	bilan_quadriennal	T
+40l0l7	et_la_poursuite_du	O
+40l0l8	suivi_de_la_qualité_des_eaux_souterraines	A
+40l0l9	à_une_fréquence_annuelle	O
+40l0l10	pendant_4_ans	T
+
+#Le bilan environnemental joint à la déclaration de cessation d’activité mettant en évidence une pollution des sols et des eaux souterraines au droit du site, ne permet pas de réaffecter le site à tous les usages.
+
+41l0l0	Le_bilan_environnemental	O
+41l0l1	joint_à	R
+41l0l2	la_déclaration	N
+41l0l3	cessation_d__activité	N
+41l0l4	une_pollution_des_sols	N
+41l0l5	des_eaux_souterraines_au_droit_du_site	O
+41l0l6	le_site	O
+41l0l7	tous_les_usages	O
+
+#Suite aux préconisations du bureau d’études mandaté par la société BROSE AUTOMOTIVE, une première campagne de mesures de la qualité des eaux souterraines en date du 10 mars 2015 a été effectuée (voir plan cartographique 5 partie B).
+
+42l0l0	Suite_aux	R
+42l0l1	préconisations_du_bureau_d__études	O
+42l0l2	mandaté	N
+42l0l3	la_société_BROSE_AUTOMOTIVE	O
+42l0l4	une_première_campagne_de_mesures	N
+42l0l5	la_qualité_des_eaux_souterraines_en	O
+42l0l6	date_du_10_mars_2015	T
+42l0l7	a_été_effectuée	N
+42l1l0	la_société_BROSE_AUTOMOTIVE	I
+
+#Les analyses montrent :
+
+
+#- la présence d’ETM (Arsenic, Nickel et/ou Plomb) au droit des Pz1 (amont), Pz2 (amont/latéral), Pz3 (latéral) et Pz4 (aval) ;
+
+44l1l0	d__ETM	S
+44l1l1	Arsenic	S
+44l1l2	Nickel	S
+44l1l3	Plomb	S
+
+#- la présence de COHV (Trichloroéthylène, Tétrachloroéthylène, Dichloroéthylène, Trans et chlorure de vinyle) au droit des Pz3 et Pz4 ;
+
+45l1l0	COHV	S
+45l1l1	Trichloroéthylène	S
+45l1l2	Tétrachloroéthylène	S
+45l1l3	Dichloroéthylène___Trans_et_chlorure_de_vinyle	S
+
+#- la présence d’HAP au droit des Pz2 etPz3 ;
+
+46l1l0	la_présence_d_	U
+46l1l1	HAP	S
+
+#- des teneurs en hydrocarbures inférieures au seuil de quantification analytique.
+
+47l1l0	hydrocarbures	S
+
+#Par rapport aux résultats mis en évidence lors de la campagne de septembre 2014, les résultats de la campagne de mars 2015 sont plus élevés en COHV (notamment en Trichloroéthylène et Tétrachloroéthylène non quantifiés en septembre 2014) et en ETM (notamment en Arsenic et Plomb non quantifiés en septembre 2014), globalement du même ordre de grandeur en HAP et moins élevés en hydrocarbures.
+
+48l0l0	la_campagne	N
+48l0l1	de_septembre_2014__	T
+48l0l2	la_campagne	N
+48l0l3	de_mars_2015	T
+48l0l4	septembre_2014__	T
+48l1l0	COHV	S
+48l1l1	Trichloroéthylène	S
+48l1l2	Tétrachloroéthylène	S
+48l1l3	ETM	S
+48l1l4	Arsenic	S
+48l1l5	Plomb	S
+48l1l6	HAP	S
+48l1l7	hydrocarbures	S
+
+#Les résultats obtenus lors de cette campagne de mars 2015, confirment la présence d’un impact en solvants en aval et en latéral hydraulique du bâtiment principal et en HAP en amont/latéral et en latéral hydraulique du bâtiment principal, cet impact s’étendant potentiellement hors site et/ou provenant de l’extérieur du site.
+
+49l0l0	de_cette_campagne	N
+49l0l1	de_mars_2015__	T
+49l0l2	en_aval	L
+49l0l3	bâtiment_principal	L
+49l0l4	bâtiment_principal	O
+49l0l5	cet_impact	O
+49l0l6	s_	R
+49l0l7	étendant_potentiellement_hors_site_et___ou_provenant_de_l__extérieur_du_site	L
+49l1l0	solvants	S
+49l1l1	HAP	S
+
+#Ils confirment également la présence généralisée d’un impact en ETM (Arsenic, Nickel et Plomb) dans les eaux souterraines au droit du site.
+
+50l0l0	ETM	O
+50l0l1	au_droit_du_site	L
+50l1l0	ETM	S
+50l1l1	Arsenic	S
+50l1l2	Nickel	S
+50l1l3	Plomb	S
+
+#Au regard de ces résultats, le bureau d’étude propose de poursuivre la surveillance de la qualité des eaux souterraines à une fréquence semestrielle (périodes de hautes eaux et de basses eaux).
+
+51l0l0	le_bureau_d__étude	O
+51l0l1	la_surveillance	A
+51l0l2	la_qualité_des_eaux_souterraines	O
+51l0l3	périodes	T
+51l0l4	de_hautes_eaux	N
+
+#De ce fait, une nouvelle campagne d’analyses datant du 8 octobre 2015 a été réalisée (voir plan cartographique 6 partie B).
+
+52l0l0	une_nouvelle_campagne_d__analyses	N
+52l0l1	datant_du_8_octobre_2015	T
+52l0l2	a_été_réalisée	N
+
+#Les analyses montrent les mêmes anomalies au droit des piézomètres 1, 2, 3 et 4.
+
+
+#Cependant, comparé aux campagnes précédentes, les résultats montrent :
+
+
+#- pour l’ouvrage Pz1 (amont) une légère augmentation des concentrations en Arsenic, Nickel et Plomb, ainsi qu’en HAP ;
+
+55l1l0	Arsenic	S
+55l1l1	Nickel	S
+55l1l2	Plomb	S
+55l1l3	HAP	S
+
+#- pour l’ouvrage Pz2 (amont/latéral) une confirmation de la diminution de la concentration en hydrocarbures, une légère diminution des concentrations en Arsenic, Plomb et en HAP, mais une légère augmentation de la concentration en Nickel ;
+
+56l1l0	hydrocarbures	S
+56l1l1	Arsenic	S
+56l1l2	Plomb	S
+56l1l3	HAP	S
+56l1l4	Nickel	S
+
+#- pour l’ouvrage Pz3 (latéral), une légère diminution des concentrations en Arsenic, Nickel et Plomb, une légère augmentation des concentrations en HAP, une diminution des concentrations en Trichloroéthylène, Tétrachloroéthylène et Dichloroéthylène corrélée à une augmentation notable de la concentration en chlorure de vinyle (produit de dégradation des substances précitées).
+
+57l1l0	Arsenic	S
+57l1l1	Nickel	S
+57l1l2	Plomb	S
+57l1l3	HAP	S
+57l1l4	Trichloroéthylène	S
+57l1l5	Tétrachloroéthylène	S
+57l1l6	Dichloroéthylène	S
+57l1l7	chlorure_de_vinyle	S
+57l1l8	substances	U
+
+#- pour l’ouvrage Pz4 (aval hydraulique), une diminution notable des concentrations en Arsenic, Nickel et Plomb, la confirmation de la quasi-absence d’HAP, une diminution notable des concentrations en Trichloroéthylène, Tétrachloroéthylène et Dichloroéthylène corrélée à une augmentation notable de la concentration en chlorure de vinyle.
+
+58l0l0	une_diminution	N
+58l1l0	Arsenic	S
+58l1l1	Nickel	S
+58l1l2	Plomb	S
+58l1l3	HAP	S
+58l1l4	Trichloroéthylène	S
+58l1l5	Tétrachloroéthylène	S
+58l1l6	Dichloroéthylène	S
+58l1l7	chlorure_de_vinyle	S
+
+#Les résultats obtenus lors de cette campagne d’octobre 2015, confirment la présence d’un impact en solvants en aval et en latéral hydraulique du bâtiment principal (avec une tendance à la dégradation du Trichloroéthylène, Tétrachloroéthylène en Dichloroéthylène et en chlorure de vinyle) et en HAP en amont/latéral et en latéral hydraulique du bâtiment principal, cet impact s’étendant potentiellement hors site et/ou provenant de l’extérieur du site.
+
+59l0l0	de_cette_campagne_d_	N
+59l0l1	octobre_2015__	T
+59l0l2	en_aval_et_en_latéral_hydraulique_du_bâtiment_principal	L
+59l0l3	bâtiment_principal	L
+59l0l4	cet_impact	O
+59l0l5	s_	R
+59l0l6	hors_site_et___ou_provenant_de_l__extérieur_du_site	L
+59l1l0	solvants	S
+59l1l1	Trichloroéthylène	S
+59l1l2	Tétrachloroéthylène	S
+59l1l3	Dichloroéthylène	S
+59l1l4	chlorure_de_vinyle	S
+59l1l5	HAP	S
+
+#Ils confirment également la présence quasi-généralisée d’un impact en ETM (Arsenic, Nickel et Plomb) dans les eaux souterraines au droit où à proximité du bâtiment et l’absence d’impact en partie sud du site (Pz1).
+
+60l0l0	ETM	O
+60l0l1	au_droit_où_à_proximité_du_bâtiment	L
+60l0l2	en_partie_sud_du_site	L
+60l1l0	ETM	S
+60l1l1	Arsenic	S
+60l1l2	Nickel	S
+60l1l3	Plomb	S
+
+#C’est pourquoi un arrêté de prescriptions spéciales imposant la surveillance des eaux souterraines a été prescrit en date du 18 décembre 2015, pour un contrôle au moins 2 fois par an du niveau piézométrique de la nappe avec la réalisation de prélèvements pour analyses sur les 4 piézomètres créés (Pz1 à Pz4).
+
+61l0l0	un_arrêté_de_prescriptions_spéciales	O
+61l0l1	imposant	N
+61l0l2	la_surveillance_des_eaux_souterraines	A
+61l0l3	a_été_prescrit	N
+61l0l4	en_date_du_18_décembre_2015__	T
+61l0l5	un_contrôle_au_moins_2_fois_par_an	N
+61l0l6	niveau_piézométrique	N
+61l0l7	la_nappe	O
+61l0l8	la_réalisation_de_prélèvements	N
+61l0l9	4_piézomètres	O
+61l0l10	créés	N
+
+#Au terme d’une période de 4 ans, la société BROSE AUTOMOTIVE pourra demander une adaptation de la fréquence des mesures, suivant les résultats obtenus durant le suivi de la qualité des eaux souterraines.
+
+62l0l0	période_de_4_ans	T
+62l0l1	la_société_BROSE_AUTOMOTIVE	O
+62l0l2	le_suivi_de_la_qualité_des_eaux_souterraines	A
+62l1l0	la_société_BROSE_AUTOMOTIVE	I
+
+#La société BROSE AUTOMOTIVE a également prévu la mise en place d’une restriction d’usage entre parties (RUP), figurant dans l’arrêté préfectoral de prescriptions spéciales :
+
+63l0l0	La_société_BROSE_AUTOMOTIVE	O
+63l0l1	a_également_prévu	N
+63l0l2	la_mise_en_place_d__une_restriction	N
+63l1l0	La_société_BROSE_AUTOMOTIVE	I
+
+#- le site sera placé dans un état permettant d’accueillir des usages de type industriel ;
+
+64l0l0	le_site	O
+64l0l1	sera_placé_dans	N
+64l0l2	un_état	O
+64l0l3	permettant_d__accueillir	R
+64l0l4	des_usages_de_type_industriel	A
+
+#- compte tenu de la présence de polluants dans les sols, la réalisation de travaux n’est possible que sous la condition de mettre en œuvre un plan hygiène/sécurité pour la protection de la santé des travailleurs et des employés du site au cours des travaux ;
+
+65l0l0	la_réalisation_de_travaux	N
+65l1l0	polluants	U
+
+#- tout pompage, toute utilisation de l’eau de la nappe au droit du site sont interdits ;
+
+66l0l0	tout_pompage	N
+66l0l1	utilisation_de_l__eau	A
+
+#- tout projet d’intervention remettant en cause les conditions de confinement, tout projet de changements d’usage des zones, tout projet d’utilisation de la nappe au droit du site, par une quelconque personne physique ou morale, publique ou privée, nécessite la réalisation préalable, aux frais et sous la responsabilité de la personne à l’initiative du projet concerné, d’études techniques garantissant l’absence de risque pour la santé et l’environnement en fonction des travaux projetés.
+
+67l0l0	tout_projet_d__intervention	N
+67l0l1	la_nappe	O
+67l0l2	au_droit_du_site	L
+67l0l3	la_personne	O
+67l0l4	l__initiative	N
+67l0l5	du_projet	N
+67l0l6	d__études_techniques	N
+67l0l7	l__environnement	O
+67l0l8	des_travaux_projetés	N
+
+#La société BROSE AUTOMOTIVE ayant cessé son activité au 31 juillet 2015, un récépissé de déclaration a été délivré à la SAS SIA INDUSTRIE en janvier 2016 concernant le transfert d’une entreprise de fabrication d’équipements automobiles sur l’ancien site de BROSE AUTOMOTIVE.
+
+68l0l0	La_société_BROSE_AUTOMOTIVE	O
+68l0l1	ayant_cessé_son_activité	N
+68l0l2	au_31_juillet_2015__	T
+68l0l3	un_récépissé	O
+68l0l4	de_déclaration	N
+68l0l5	a_été_délivré	N
+68l0l6	la_SAS_SIA_INDUSTRIE	O
+68l0l7	en_janvier_2016	T
+68l0l8	concernant	R
+68l0l9	le_transfert_d_	N
+68l0l10	une	O
+68l0l11	entreprise_de_fabrication_d__équipements_automobiles	A
+68l0l12	sur_l__ancien_site	L
+68l0l13	BROSE_AUTOMOTIVE	O
+68l1l0	La_société_BROSE_AUTOMOTIVE	I
+68l1l1	la_SAS_SIA_INDUSTRIE	I
+68l1l2	BROSE_AUTOMOTIVE	I
+
+#Ce transfert aura lieu le 1er juillet 2016
+
+69l0l0	Ce_transfert	N
+69l0l1	aura_lieu	N
+69l0l2	le_1er_juillet_2016	T

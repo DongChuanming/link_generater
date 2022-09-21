@@ -1,0 +1,90 @@
+
+#76.0309
+#Ce site est le lieu d'exploitation d'un ancien atelier de réparation de matériel ferroviaire, construction de charpentes métalliques, construction de réservoir et citernes.
+
+0l0l0	Ce_site	O
+0l0l1	le_lieu_d__exploitation	O
+0l0l2	d_	R
+0l0l3	un_ancien_atelier_de_réparation_de_matériel_ferroviaire	O
+0l0l4	construction_de_charpentes_métalliques	A
+0l0l5	construction_de_réservoir_et_citernes	A
+
+#Ce site a été exploité a minima de 1949 à 1960.
+
+1l0l0	Ce_site	O
+1l0l1	a_été_exploité	N
+1l0l2	a_minima_de_1949_à_1960	T
+
+#Ce site est à l'état de friche.
+
+2l0l0	Ce_site	O
+
+#A l'ouest du site, les sols sont constitués de terrains naturels (sables) alors qu'à l'est, ces sols naturels sont recouverts de remblais sablo-argileux.
+
+3l0l0	A_l__ouest_du_site	L
+
+#Un diagnostic de l'état des sols a été réalisé en avril 2001 sur ce site appartenant à l'époque à la société RFF (Réseaux Ferrés de France).
+
+4l0l0	Un_diagnostic_de_l__état_des_sols	N
+4l0l1	a_été_réalisé	N
+4l0l2	en_avril_2001	T
+4l0l3	sur	L
+4l0l4	ce_site	O
+4l0l5	appartenant_à	R
+4l0l6	l__époque_à	R
+4l0l7	la_société_RFF	O
+4l0l8	Ferrés_de_France	O
+4l1l0	la_société_RFF	I
+
+#Ce diagnostic, déconnecté de l'aspect historique du site, a compris:
+
+5l0l0	Ce_diagnostic	N
+
+#- L'exécution de 80 sondages de 4 mètres de profondeur,
+
+6l0l0	L__exécution_de_80_sondages	N
+
+#- Le prélèvement et l'analyse de 80 échantillons de sols,
+
+7l0l0	Le_prélèvement	N
+7l0l1	l__analyse	N
+
+#- La réalisation de 3 piézomètres captant la nappe de la craie,
+
+8l0l0	La_réalisation	N
+
+#- Le prélèvement de 3 échantillons d'eau pour analyse.
+
+9l0l0	Le_prélèvement	N
+
+#Les sols renferment fréquemment des plastiques, ferrailles, verres, briques, ainsi que des niveaux de machefers ou des matériaux pulvérulents (jusqu'à 4 m).
+
+10l0l0	ferrailles	O
+10l1l0	plastiques	S
+10l1l1	verres	S
+10l1l2	briques	S
+
+#Il a été observé la présence de métaux dans les sols (arsenic, plomb et cuivre) sur la moitié des échantillons, et ponctuellement du chrome et du zinc.
+
+11l0l0	les_sols	O
+11l0l1	arsenic	O
+11l1l0	métaux	S
+11l1l1	arsenic	S
+11l1l2	plomb	S
+11l1l3	cuivre	S
+11l1l4	chrome	S
+11l1l5	zinc	S
+
+#On retrouve également ponctuellement des HCT, HAP et du 1,2 dichloropropane.
+
+12l1l0	des_HCT	S
+12l1l1	HAP	S
+12l1l2	du_1_2_dichloropropane	S
+
+#Les eaux souterraines sont marquées par la présence de chrome, cuivre, nickel et zinc à des concentrations faibles.
+
+13l0l0	Les_eaux_souterraines	O
+13l1l0	chrome	S
+13l1l1	cuivre	S
+13l1l2	nickel	S
+13l1l3	zinc	S

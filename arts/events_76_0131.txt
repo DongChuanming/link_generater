@@ -1,0 +1,111 @@
+
+#76.0131
+#Ancienne zone de stockage des déchets (déchets métalliques huileux, huiles usagées), d'une superficie d'environ 1300 m² et située en bordure d'une route (rue l'Epine Chevalier).
+
+0l0l0	Ancienne_zone	O
+0l0l1	métalliques_huileux	O
+0l0l2	située_en_bordure_d__une_route	L
+0l0l3	rue_l__Epine_Chevalier	L
+0l1l0	déchets_métalliques_huileux	U
+0l1l1	huiles_usagées	U
+
+#Pollution par des huiles de coupes et des huiles hydrauliques : implantation de bennes de stockages de déchets métalliques huileux et de cuves de stockage d'huile hydraulique usagée.
+
+1l0l0	Pollution	N
+1l0l1	des_huiles_de_coupes	O
+1l0l2	huiles_hydrauliques	O
+1l0l3	implantation_de_bennes	N
+1l0l4	métalliques_huileux	O
+1l0l5	de_cuves_de_stockage	O
+1l0l6	huile	O
+1l1l0	des_huiles_hydrauliques	U
+1l1l1	déchets_métalliques_huileux	U
+1l1l2	huile_hydraulique	U
+
+#Pollution par les eaux de ruissellement.
+
+2l0l0	Pollution_par	R
+2l0l1	les_eaux_de_ruissellement	N
+
+#Sols composés de limons argileux sous une surface bétonnée.
+
+3l0l0	Sols	O
+3l0l1	bétonnée	O
+
+#Nappe souterraine à 80 mètres de profondeur.
+
+
+#Risques et nuisances :
+
+5l0l0	Risques	R
+
+#- proximité d'une zone pavillonnaire (transfert possible des polluants).
+
+6l0l0	proximité_d__une_zone_pavillonnaire	L
+6l1l0	polluants	U
+
+#Zone contaminée non clôturée.
+
+7l0l0	Zone_contaminée	O
+
+#Volume contaminé inférieur à 25 m3.
+
+
+#Présence d'une nappe souterraine à usage AEP en aval hydraulique, mais siutée à 80 m de profondeur.
+
+9l0l0	en_aval_hydraulique	L
+
+#Actions menées :
+
+
+#- Arrêté Préfectoral du 3 mars 2000, article 3.7 :
+
+11l0l0	Préfectoral	O
+11l0l1	3_mars_2000__	T
+
+#diagnostic de l'état du sol et du sous-sol et Evaluation Simplifiée des Risques à réaliser après transfert de la zone de stockage des déchets.
+
+12l0l0	diagnostic	N
+12l0l1	l__état_du_sol	O
+12l0l2	Evaluation_Simplifiée_des_Risques	N
+12l0l3	transfert_de	N
+12l0l4	la_zone_de_stockage_des_déchets	O
+
+#Echéance fixée au 1er février 2001.
+
+13l0l0	Echéance_fixée	O
+13l0l1	au_1er_février_2001	T
+
+#Etude remise en juin 2001 :
+
+14l0l0	Etude_remise	N
+14l0l1	en_juin_2001	T
+
+#- Pas d'impact constaté
+
+
+#- Présence d'une zone contaminée (hydrocarbures totaux) sur 0,5 à 0,7 m de profondeur
+
+16l0l0	une_zone_contaminée	O
+16l1l0	hydrocarbures_totaux	S
+
+#- Teneurs en métaux et en COHV non significatives
+
+17l1l0	métaux	S
+17l1l1	COHV	S
+
+#- Site en classe 2 pour les eaux souterraines usage AEP et le milieu sol ou en classe 3 (banalisable) en cas d'excavation de la zone contaminée.
+
+18l0l0	excavation	N
+
+#Extension de la zone polluée à déterminer avant excavation et traitement des terres polluées.
+
+19l0l0	Extension	N
+19l0l1	de_la_zone_polluée	O
+19l0l2	déterminer_avant_excavation	N
+19l0l3	traitement	N
+19l0l4	des_terres_polluées	O
+
+#Du fait de la profondeur de la nappe aquifère (80m) la surveillance de la qualité des eaux souterraines n'est pas envisageable.
+
+20l0l0	surveillance_de_la_qualité_des_eaux_souterraines	A

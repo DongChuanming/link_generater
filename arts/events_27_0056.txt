@@ -1,0 +1,95 @@
+
+#27.0056
+#La société BRONZE ALU exerce sur son site une activité de fonderie de métaux et alliages non ferreux ainsi que du travail mécanique des métaux.
+
+0l0l0	La_société_BRONZE_ALU	O
+0l0l1	son_site	O
+0l0l2	une_activité_de_fonderie	A
+0l0l3	de_métaux_et_alliages	A
+0l0l4	travail_mécanique_des_métaux	A
+0l1l0	La_société_BRONZE_ALU	I
+
+#Le site, d'une superficie d'environ 13 ha, se situe au Nord-Ouest de la commune.
+
+1l0l0	Le_site	O
+1l0l1	se_situe_au_Nord_Ouest_de_la_commune	L
+
+#L'environnement immédiat du site est constitué de terres agricoles, de la voie départemenatme D 551 et d'un bois au dalà de cette dernière, d'un lotissement et d'une autre société.
+
+2l0l0	L__environnement_immédiat	O
+2l0l1	du_site	O
+2l0l2	terres_agricoles	O
+2l0l3	la_voie_départemenatme_D_551	L
+2l0l4	un_bois	O
+2l0l5	au_dalà_de_cette_dernière	L
+2l0l6	un_lotissement	O
+2l0l7	une_autre_société	O
+
+#L'exploitant a réalisé un diagnostic initial et une évaluation simplifiée des risques pour son site.
+
+3l0l0	L__exploitant	O
+3l0l1	a_réalisé	N
+3l0l2	un_diagnostic_initial	N
+3l0l3	une_évaluation_simplifiée_des_risques	N
+3l0l4	son_site	O
+
+#Pour ce faire, une analyse historique et une étude de vulnérabilité du milieu naturel ont été menés en 2003. 14 sondages et 5 prélèvements d'eaux présentes dans les puisards ont également été réalisés.
+
+4l0l0	une_analyse_historique	N
+4l0l1	une_étude_de_vulnérabilité_du_milieu_naturel	N
+4l0l2	ont_été_menés	N
+4l0l3	en_2003	T
+4l0l4	puisards_ont	L
+4l0l5	également_été_réalisés	N
+
+#Les résultats obtenus pour les sols  ont mis en évidence la présence de cuivre à des concentrations supérieures à la Valeur de Déinition de Source Sol au niveau de 3 sondages ainsi que la présence d'hydrocarbures totaux à des concentrations supérieures à la VDSS pour un sondage.
+
+5l1l0	de_cuivre	S
+5l1l1	d__hydrocarbures_totaux	S
+
+#Concernant les analyses sur les eaux pluviales infiltrées, des concentrations dépassant certaines Valeur de Constat d'Impact pour un usage sensible/non sensible sont dépassées pour les hydrocarbures totaux, l'aluminium, le manganèse, le nickel.
+
+6l0l0	des_concentrations_dépassant	O
+6l1l0	les_hydrocarbures_totaux	S
+6l1l1	l__aluminium	S
+6l1l2	manganèse	S
+6l1l3	le_nickel	S
+
+#Le rapport final de l'ESR de juin 2004 classé le site en classe 2 site à surveiller.
+
+7l0l0	Le_rapport_final	O
+7l0l1	juin_2004	T
+7l0l2	classé	N
+7l0l3	le_site	O
+7l1l0	l__ESR	I
+
+#Suite à une visite de l'inspection des installations classées, l'exploitant a été mis en demeure par arreté préfectoral du 11 juillet 2006 de respecter certains points de son arreté notamment en ce qui concerne la gestion de l'eau (comblement des puisards, traitement des eaux pluviales susceptible d'etre polluées,...) et de mettre en place une surveillance de la qualité des eaux souterraines au droit du site (article 65 de l'AM du 02/02/1998).
+
+8l0l0	Suite_à_une_visite	N
+8l0l1	l__inspection_des_installations_classées	O
+8l0l2	l__exploitant	O
+8l0l3	a_été_mis_en_demeure	N
+8l0l4	par_arreté_préfectoral	O
+8l0l5	11_juillet_2006	T
+8l0l6	comblement	N
+8l0l7	etre_polluées	O
+8l0l8	mettre_en_place_une	N
+8l0l9	surveillance_de_la_qualité_des_eaux_souterraines	A
+8l0l10	au_droit_du_site	L
+8l0l11	02_02_1998	T
+
+#L'exploitant a implanté sur son site 2 pièzomètres en juillet 2006.
+
+9l0l0	L__exploitant	O
+9l0l1	a_implanté	N
+9l0l2	sur	R
+9l0l3	son_site	O
+9l0l4	2_pièzomètres	O
+9l0l5	en_juillet_2006__	T
+
+#Une première campagne de mesure a été réalisée et a montré que l'ensemble des paramètres analysés (hydrocarbures totaux et métaux) présente des teneurs inférieures au seuil de détection ou la VCI pour un usage non sensible.
+
+10l0l0	Une_première_campagne_de_mesure	N
+10l0l1	a_été_réalisée	N
+10l1l0	hydrocarbures_totaux	S
+10l1l1	métaux	S

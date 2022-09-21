@@ -1,0 +1,255 @@
+
+#45.0103
+#Le site est un ancien dépôts d'engrais, situé le long de la gare, sur la commune d'ARTENAY (45), dans une zone rurale, en bordure de chemin de fer.
+
+0l0l0	Le_site	O
+0l0l1	un_ancien_dépôts_d__engrais	O
+0l0l2	situé_le_long_de_la_gare	L
+0l0l3	sur_la_commune_d__ARTENAY	L
+0l0l4	__45_____dans_une_zone_rurale	L
+0l0l5	en_bordure_de_chemin_de_fer	L
+
+#A l'ouest du site se trouve une zone résidentielle, à l'est une zone agricole, au nord une industrie sucrière et au sud une station d'épuration.
+
+1l0l0	A_l__ouest_du_site	L
+1l0l1	se_trouve	R
+1l0l2	une_zone_résidentielle	O
+1l0l3	l_	O
+1l0l4	est	N
+1l0l5	une_zone_agricole	O
+1l0l6	nord	T
+1l0l7	une_industrie	O
+1l0l8	sucrière	A
+1l0l9	une_station_d_	O
+
+#L'établissement est soumis à la réglementation des Installation Classée pour la Protection l'Environnement (ICPE) depuis le 11/08/2006.
+
+2l0l0	L__établissement	O
+2l0l1	est_soumis_à_la_réglementation	N
+2l0l2	des_Installation_Classée	O
+2l0l3	pour_la_Protection	N
+2l0l4	l__Environnement	O
+2l0l5	depuis_le_11_08_2006__	T
+
+#Il relève du régime de la déclaration du fait de ses activités de stockage d'engrais solides simple et composés à base de nitrate d'ammonium (rubrique 1331) ainsi que ses activités de stockage d'engrais liquide (rubrique 2175-2).
+
+3l0l0	Il	O
+3l0l1	relève	R
+3l0l2	la_déclaration	N
+3l0l3	du_fait_de	R
+3l0l4	ses_activités_de_stockage_d__engrais_solides	A
+3l0l5	nitrate_d__ammonium	O
+3l0l6	ses_activités_de_stockage_d__engrais_liquide	A
+3l1l0	engrais_solides_simple	U
+3l1l1	nitrate_d__ammonium	S
+3l1l2	engrais_liquide	U
+
+#Il n'est plus en activité depuis décembre 2012 (date de la cessation d'activité).
+
+4l0l0	Il	O
+4l0l1	n__est_plus_en_activité	N
+4l0l2	depuis_décembre_2012	T
+4l0l3	la_cessation_d__activité	A
+
+#L'ancien dépôts d'engrais d'Artenay, exploité auparavant par SOUFFLET AGRICULTURE est situé sur des parcelles appartenant à Réseau Ferré de France (RFF).
+
+5l0l0	L__ancien_dépôts_d__engrais	O
+5l0l1	Artenay	L
+5l0l2	exploité_auparavant	N
+5l0l3	SOUFFLET_AGRICULTURE	O
+5l0l4	est_situé_sur	R
+5l0l5	des_parcelles	O
+5l0l6	appartenant_à	R
+5l0l7	Réseau_Ferré_de_France	O
+5l0l8	RFF	O
+5l1l0	SOUFFLET_AGRICULTURE	I
+5l1l1	Réseau_Ferré_de_France___RFF	I
+
+#Le site comprend encore deux bâtiments (ancien bâtiment de stockage de 1 242 m² et ancien batiment "bascule" de 16 m²) et les rétentions des anciennes cuves aériennes d'engrais liquides.
+
+6l0l0	Le_site	O
+6l0l1	comprend_encore	R
+6l0l2	deux_bâtiments	O
+6l0l3	les_rétentions	O
+6l0l4	anciennes_cuves_aériennes_d__engrais_liquides	O
+6l1l0	anciennes_cuves_aériennes	D
+6l1l1	d__engrais_liquides	U
+
+#La première nappe qui serait rencontrée au droit du site (selon les informations de deux piézomètres se situant à 100 m et à 450 m du site) est celle contenue dans les Calcaires de Beauce.
+
+7l0l0	La_première_nappe	O
+7l0l1	au_droit_du_site	L
+7l0l2	à_450_m_du_site	L
+7l0l3	Beauce	L
+7l1l0	les_Calcaires	D
+
+#Elle se situe aux alentours de 13 m de profondeur sous le niveau de sous-sol au droit du site.
+
+8l0l0	Elle	O
+8l0l1	se_situe_aux_alentours_de_13	L
+8l0l2	au_droit_du_site	L
+
+#Selon les études menées par le bureau d'étude ARCADIS concernant la composition des sols, la nappe (de par sa profondeur et de la composition des sols) serait faiblement vulnérable.
+
+9l0l0	les_études_menées	N
+9l0l1	le_bureau_d__étude	O
+9l0l2	ARCADIS	O
+9l0l3	la_nappe	O
+9l1l0	ARCADIS	I
+
+#Le sens d'écoulement supposé de la nappe est orienté du nord vers le sud et, à moins de 800 m du site, plusieurs captages dont l'usage est inconnu sont situés en aval hydraulique.
+
+10l0l0	orienté_du_nord_vers_le_sud	N
+10l0l1	à_moins_de_800_m_du_site	L
+10l0l2	plusieurs_captages	O
+10l0l3	situés_en_aval_hydraulique	L
+
+#Dans le cadre du dossier de cessation d'activité déposé par la société SOUFFLET AGRICULTURE en décembre 2012, l'administration a demandé la mise en sécurité du site.
+
+11l0l0	Dans_le_cadre	R
+11l0l1	du_dossier_de_cessation_d__activité_déposé	N
+11l0l2	la_société_SOUFFLET_AGRICULTURE	O
+11l0l3	en_décembre_2012__	T
+11l0l4	l__administration	O
+11l0l5	a_demandé_la_mise_en_sécurité	N
+11l0l6	du_site	O
+11l1l0	la_société_SOUFFLET_AGRICULTURE	I
+
+#Les cuves d'engrais liquides et de fioul domestique ont été démantelées en janvier 2013.
+
+12l0l0	Les_cuves_d__engrais_liquides	O
+12l0l1	fioul_domestique	O
+12l0l2	ont_été_démantelées	N
+12l0l3	en_janvier_2013__	T
+12l1l0	Les_cuves_d_	D
+12l1l1	fioul_domestique	U
+
+#Les déchets et produits restants sur site ont été évacués, et l'accès au site restreint.
+
+13l0l0	Les_déchets	O
+13l0l1	ont_été_évacués	N
+
+#Le 30 juin 2015, le bureau d'étude ARCADIS a été mandaté par la société SOUFFLET AGRICULTURE afin de réaliser une Évaluation Quantitative des Risques Sanitaires (EQRS).
+
+14l0l0	Le_30_juin_2015__	T
+14l0l1	le_bureau_d__étude_ARCADIS	O
+14l0l2	a_été_mandaté	N
+14l0l3	par_la_société_SOUFFLET_AGRICULTURE	O
+14l0l4	réaliser_une_Évaluation_Quantitative	N
+14l1l0	ARCADIS	I
+14l1l1	la_société_SOUFFLET_AGRICULTURE	I
+14l1l2	Sanitaires	S
+
+#En effet, les investigations de sols réalisées en 2013 avaient mis en évidence :
+
+15l0l0	les_investigations_de_sols_réalisées	N
+15l0l1	en_2013	T
+
+#- un impact en hydrocarbures C10-C40 (1040 mg/kg) sur les sols situés entre 0,2 et 1 m de profondeur au droit de l'ancien local comprenant l'ancienne cuve de fioul domestique;
+
+16l0l0	un_impact	N
+16l0l1	ancienne_cuve_de_fioul_domestique	O
+16l1l0	hydrocarbures_C10_C40	S
+16l1l1	cuve_de	D
+16l1l2	fioul_domestique	U
+
+#- un impact en ammonium (concentration maximale de 140 mg/kg), nitrate (concentration maximale de 720 mg/kg), phosphore (concentration maximale de 720 mg/kg) et potassium (concentration maximale de 8 800 mg/kg) au niveau du bâtiment de stockage d'engrais solides;
+
+17l1l0	ammonium	S
+17l1l1	nitrate	S
+17l1l2	phosphore	S
+17l1l3	engrais_solides	U
+
+#- un impact en phosphore (1300 mg/kg) et potassium (7900 mg/kg) à proximité immédiate de l'ancien local de pompe à engrais;
+
+18l0l0	à_proximité_immédiate	L
+18l0l1	pompe_à_engrais	O
+18l1l0	phosphore	S
+
+#- la présence diffuse de métaux lourds dans les terrains de surface du site en concentrations qui restent de l'ordre du bruit de fond local.
+
+19l0l0	les_terrains	O
+19l1l0	métaux_lourds	S
+
+#L'EQRS a conclu, en prenant en compte ces résultats, que l'état du site est compatible du point de vue sanitaire avec son usage futur (usage industriel).
+
+20l0l0	son_usage_futur	A
+20l0l1	usage_industriel	A
+20l1l0	L__EQRS	I
+
+#Le bureau d'étude a néanmoins émis des recommandations :
+
+21l0l0	Le_bureau_d__étude	O
+21l0l1	a_néanmoins_émis	N
+
+#- le traitement des sols au droit de la cuve de fioul (teneur de 1040 mg/kg d'hydrocarbures C10-C40 entre 0,2 et 0,5 m de profondeur), conformément aux préconisations de la circulaire du 8 février 2007;
+
+22l0l0	le_traitement_des_sols	N
+22l0l1	au_droit_de_la_cuve	L
+22l0l2	de_fioul	O
+22l0l3	8_février_2007	T
+22l1l0	cuve_de	D
+22l1l1	fioul	U
+22l1l2	hydrocarbures	S
+
+#- la vérification du tracé, de la profondeur et de la nature des canalisations AEP existantes dans le cas où elles seraient destinées à être conservées dans le cadre des aménagements futurs, afin de s'assurer qu'elles ne passent pas dans des sols impactées.
+
+23l0l0	la_vérification	N
+23l0l1	la_nature_des_canalisations_AEP_existantes	O
+23l0l2	dans_le_cas_où	R
+23l0l3	elles_seraient_destinées_à_être_conservées	N
+23l0l4	dans_le_cadre	R
+23l0l5	des_aménagements_futurs	N
+
+#Les travaux d'excavation afin de retirer ces terres polluées se sont déroulés entre novembre 2015 et janvier 2016 en trois phases : terrassement initial, 1ère sur-excavation, 2ème sur-excavation.
+
+24l0l0	Les_travaux_d__excavation	N
+24l0l1	afin_de	R
+24l0l2	retirer	N
+24l0l3	ces_terres_polluées	O
+24l0l4	se_sont_déroulés	N
+24l0l5	entre_novembre_2015_et_janvier_2016	T
+24l0l6	terrassement_initial	N
+24l0l7	1ère_sur_excavation	N
+24l0l8	2ème_sur_excavation	N
+
+#Au total, 43 t de terres ont été excavées soit un volume de 23,7 m3.
+
+25l0l0	43_t_de_terres	O
+25l0l1	ont_été_excavées	N
+
+#À la fin des travaux de dépollution, sur la base des résultats d'analyses sur les prélèvements des flancs et fond de fouille (teneurs en hydrocarbures C10-C40 comprises entre 68 mg/kg et 171 mg/kg), SOUFFLET AGRICULTURE a pu engager le remblaiement de la fouille avec des matériaux d'apport extérieurs présentant des teneurs en hydrocarbures inférieures à 500 mg/kg.
+
+26l0l0	la_fin_des_travaux_de_dépollution	N
+26l0l1	SOUFFLET_AGRICULTURE	O
+26l0l2	a_pu_engager_le_remblaiement	N
+26l0l3	de_la_fouille	N
+26l0l4	avec_des_matériaux	O
+26l1l0	hydrocarbures	S
+26l1l1	SOUFFLET_AGRICULTURE	I
+26l1l2	hydrocarbures	S
+
+#À noter que les flancs sud et ouest n'ont pas pu être prélevés en raison de contraintes techniques, en l’occurrence la présence des fondations du bâtiment jusqu'au fond de fouille.
+
+
+#De plus, aucune canalisation AEP n'a été rencontrée.
+
+
+#Dans le cas où une éventuelle canalisation serait présente plus en profondeur au-delà de 0,7 m, elle ne serait de toute façon pas au contact de terres polluées au vu des résultats d'analyses en fond de fouille.
+
+29l0l0	au_delà	N
+29l0l1	ne_serait_de_toute_façon_pas_au_contact_de	N
+29l0l2	terres_polluées	O
+
+#Aucune étude concernant la nappe phréatique au droit du site n'a été menée afin de déterminer son état.
+
+30l0l0	Aucune_étude	N
+30l0l1	au_droit_du_site	L
+
+#Le dossier de cessation d'activité est actuellement en cours d'instruction par l'inspection des installations classées.
+
+31l0l0	Le_dossier_de	O
+31l0l1	cessation_d__activité	N
+31l0l2	actuellement_en_cours_d_	T
+31l0l3	instruction	N
+31l0l4	l__inspection_des_installations_classées	O

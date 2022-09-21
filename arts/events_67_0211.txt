@@ -1,0 +1,166 @@
+
+#67.0211
+#Lors de la réalisation des actions du Plan National Santé Environnement 2009-2013, un examen des situations environnementales liées au fait que des établissements accueillant des enfants et/ ou des adolescents se trouvent sur ou à proximité immédiate d’anciens sites industriels recensés dans la base de données BASIAS, a été mené en France.
+
+0l0l0	Lors	R
+0l0l1	de_la_réalisation_des_actions	N
+0l0l2	du_Plan_National_Santé_Environnement_2009___2013	T
+0l0l3	un_examen	N
+0l0l4	des_situations_environnementales	O
+0l0l5	des_établissements	O
+0l0l6	accueillant_des_enfants_et__ou_des_adolescents	A
+0l0l7	se_trouvent_sur_ou_à_proximité_immédiate	L
+
+#Cet examen avait pour but de s’assurer que l’usage de ces établissements sensibles était compatible avec leur emplacement au vu des antécédents industriels sur ou à proximité du site.
+
+1l0l0	Cet_examen	N
+1l0l1	l__usage	N
+1l0l2	ces_établissements_sensibles	O
+1l0l3	sur_ou_à_proximité_du_site	L
+
+#En effet les activités industrielles ou de services, recensées dans BASIAS concernent des activités ayant émis, ou potentiellement émis, une pollution lors de leur fonctionnement.
+
+2l0l0	activités_industrielles_ou_de_services	A
+
+#Il existe donc un risque de contamination au droit des sols où se trouvent ces établissements scolaires.
+
+3l0l0	contamination	O
+3l0l1	ces_établissements_scolaires	O
+
+#Des études du sol étaient donc indispensables pour vérifier que la localisation de ces sites ne mettait pas en danger la santé des personnes qui les fréquente.
+
+4l0l0	Des_études_du_sol	N
+4l0l1	la_localisation	O
+4l0l2	ces_sites	O
+
+#L'école élémentaire des Romains se trouvant à proximité immédiate d’anciens sites répertoriés dans BASIAS, notamment une ancienne brasserie qui possédait des cuves souterraines de fioul, a donc fait l’objet d’une étude.
+
+5l0l0	L__école_élémentaire	O
+5l0l1	se_trouvant_à_proximité_immédiate_d_	L
+5l0l2	anciens_sites	O
+5l0l3	répertoriés_dans	R
+5l0l4	BASIAS	O
+5l0l5	une_ancienne_brasserie	O
+5l0l6	possédait	R
+5l0l7	des_cuves_souterraines	O
+5l0l8	de_fioul	O
+5l0l9	fait_l__objet_d_	R
+5l0l10	une_étude	N
+5l1l0	fioul	S
+
+#La phase 1 du diagnostic mené sur le site a conclu à de potentielles expositions :
+
+6l0l0	La_phase_1	N
+6l0l1	de_potentielles_expositions	O
+
+#- par inhalation de substances volatiles issues des anciens sites BASIAS voisins, dans l’air intérieur des bâtiments,
+
+7l0l0	inhalation	N
+7l0l1	BASIAS_voisins	O
+7l1l0	substances_volatiles	U
+
+#- par ingestion, pour les enfants résidant dans les logements de fonction, de sols superficiels dont la qualité a pu être affectée par le dépôt de poussières issues de la cheminée de l’ancienne brasserie située à proximité de l’emplacement de l’école.
+
+8l0l0	ingestion	N
+8l0l1	les_enfants	O
+8l0l2	la_cheminée	O
+8l0l3	à_proximité_de_l__emplacement_de_l__école	L
+
+#Des investigations complémentaires, dites de phase 2, ont donc été menées sur les milieux
+
+9l0l0	Des_investigations_complémentaires	N
+9l0l1	dites	R
+9l0l2	de_phase_2	N
+9l0l3	les_milieux	O
+
+#- air (« air du sol, sous dalle des bâtiments » et « air du vide sanitaire ») au droit des deux bâtiments de l’école,
+
+10l0l0	au_droit_des	L
+10l0l1	deux_bâtiments	O
+10l0l2	l__école	O
+
+#- et sols pour la zone enherbée de l’arrière-cour et celle située derrière la salle de jeux.
+
+11l0l0	celle	O
+11l0l1	située_derrière_la_salle_de_jeux	L
+
+#Les substances recherchées étaient les substances associées aux anciennes activités recensées.
+
+12l0l0	activités_recensées	N
+
+#Les investigations ont montré que :
+
+
+#1/ concernant le milieu air, toutes les mesures des composés recherchés sont inférieures ou égales à la limite de quantification (un seul résultat atteint cette limite) dans l’air du vide sanitaire ou dans l’air du sol au droit du bâtiment principal et du bâtiment annexe.
+
+14l0l0	au_droit_du_bâtiment_principal	L
+
+#2/ concernant les sols superficiels :
+
+
+#- des hydrocarbures ont été mesurés dans les sols enherbés de l’établissement à des teneurs supérieures à celles mesurées dans des prélèvements réalisés à l’extérieur de l’école (deux échantillons témoins prélevés dans des parcs voisins).
+
+16l0l0	hydrocarbures	O
+16l0l1	ont_été_mesurés	N
+16l0l2	les_sols_enherbés	O
+16l1l0	hydrocarbures	S
+
+#Cependant, l’interprétation de ces résultats, en considérant un scénario d’ingestion de sol, indiquait que la qualité des sols était compatible avec l’usage des lieux pour ces composés ;
+
+17l0l0	ingestion	N
+17l0l1	la_qualité_des_sols	O
+17l1l0	ces_composés	S
+
+#- du plomb et du mercure ont été relevés dans les sols enherbés de l’établissement à des teneurs dix fois plus importantes que celles mesurées dans les prélèvements réalisés à l’extérieur (deux échantillons témoins prélevés dans des parcs voisins).
+
+18l0l0	les_sols_enherbés	O
+18l1l0	plomb	S
+18l1l1	mercure	S
+
+#La méthodologie établie au niveau national devant être respectée afin de pouvoir établir des comparaisons entre établissements, l’interprétation de ces résultats selon ses critères conduisait à considérer que la qualité de ces sols n’était pas compatible avec l’usage des lieux pour les enfants ayant accès à cette zone.
+
+19l0l0	La_méthodologie	O
+19l0l1	comparaisons_entre_établissements	O
+19l0l2	ces_sols	O
+19l0l3	n_	R
+
+#Toutefois cette interprétation s’appuie sur un scénario d’ingestion de terre, dit « porter bouche » qui ne s’applique qu’à des enfants d’école maternelle alors que l’établissement est un établissement élémentaire.
+
+20l0l0	terre	O
+20l0l1	que_l__établissement	O
+
+#Il avait cependant été retenu pour d’éventuels enfants en bas âge du personnel logé sur place.
+
+21l0l0	Il	O
+21l0l1	avait_cependant_été_retenu	N
+
+#Ces éléments ont donc conduit à ce résultat d’incompatibilité qui classait de façon sécuritaire l’établissement.
+
+
+#L’école élémentaire des Romains a donc été classée :
+
+23l0l0	L__école_élémentaire	O
+23l0l1	a_donc_été_classée	N
+
+#- en catégorie A pour l'air du sol : les sols de l’établissement ne posent pas de problème ;
+
+
+#- en catégorie C pour les sols de surface : la pollution découverte par les diagnostics nécessitait donc la mise en œuvre d’actions correctives au droit des sols de surface concernés.
+
+25l0l0	par_les_diagnostics	N
+25l0l1	nécessitait_donc_la_mise_en_œuvre_d__actions	N
+
+#Le maître d’ouvrage a fait réaliser les travaux qui ont consisté en l’excavation et l’évacuation de 417 m3 de terres superficielles.
+
+26l0l0	Le_maître_d__ouvrage	O
+26l0l1	a_fait_réaliser	N
+26l0l2	les_travaux	N
+26l0l3	l__excavation	N
+26l0l4	l__évacuation	N
+26l0l5	417_m3_de_terres_superficielles	A
+
+#Ces terrains ont été remplacés par des matériaux sains surmontés d’un enrobé.
+
+27l0l0	Ces_terrains	O
+27l0l1	ont_été_remplacés	N
+27l0l2	des_matériaux_sains	O

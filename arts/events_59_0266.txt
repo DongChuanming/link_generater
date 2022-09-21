@@ -1,0 +1,88 @@
+
+#59.0266
+#- Dépôt de produits pétroliers (essence - gazole - fuel)
+
+0l0l0	Dépôt_de_produits_pétroliers	O
+0l1l0	essence	S
+0l1l1	gazole	S
+0l1l2	fuel	S
+
+#- Etablissement SEVESO seuil haut (capacité équivalente totale du dépôt : 143 192 m3)
+
+1l0l0	Etablissement_SEVESO	O
+1l1l0	Etablissement_SEVESO	I
+
+#- Approvisionnement par pipe ou voie d'eau et distribution des hydrocarbures via un poste de chargement camions
+
+2l0l0	distribution_des	N
+2l0l1	hydrocarbures_via	O
+2l0l2	un_poste_de_chargement_camions	O
+2l1l0	hydrocarbures	S
+
+#- site en activité visé par la circulaire du 3 avril 1996 qui impose une étude des sols sur les sites en activité
+
+3l0l0	site_en_activité	O
+3l0l1	visé_par	R
+3l0l2	la_circulaire	O
+3l0l3	3_avril_1996	T
+3l0l4	impose_une_étude_des_sols	N
+3l0l5	les_sites_en_activité	N
+
+#- travaux :
+
+
+#confinement dans cuvettes de rétention dimensionnées conformément à l'arrêté ministériel du 02/02/1998 modifié
+
+5l0l0	l_	O
+5l0l1	02_02_1998_modifié	T
+
+#et pouvant en plus contenir le volume des eaux incendie (temporisation + extinction)
+
+6l1l0	eaux_incendie	U
+
+#étanchéité des cuvettes prescrite par arrêté préfectoral
+
+7l0l0	étanchéité	O
+
+#surfaces imperméabilisées : eaux de ruissellement collectées dans un bassin d'orage et traitées avant rejet
+
+8l0l0	un_bassin	O
+8l0l1	traitées_avant_rejet	N
+
+#Surveillance piézométrique semestrielle prescrite par arrêté préfectoral du 07 avril 1999.
+
+9l0l0	Surveillance_piézométrique_semestrielle	A
+9l0l1	arrêté_préfectoral	O
+9l0l2	du_07_avril_1999__	T
+
+#- diagnostic initial relativement conséquent reçu par l'inspection en juillet 2003 : des mesures conservatoires sont proposées (barrière hydraulique).
+
+10l0l0	__diagnostic_initial	N
+10l0l1	l__inspection	O
+10l0l2	en_juillet_2003	T
+
+#- ESR qui classe le site en 1 pour le milieu eaux souterraines : nécessité d'investigations approfondies.
+
+11l0l0	le_milieu_eaux_souterraines	O
+
+#- Travaux de traitement de la nappe par pompage/écrémage, en mars 2004.
+
+12l0l0	Travaux_de_traitement_de	N
+12l0l1	la_nappe	O
+12l0l2	pompage___écrémage	A
+12l0l3	en_mars_2004__	T
+
+#- Compte rendu de suivi de traitement: 29/10/2004.
+
+13l0l0	suivi_de_traitement	O
+13l0l1	__29_10_2004__	T
+
+#- Utilisation des eaux souterraines dans le secteur: uniquement industrielle.
+
+
+#- Site mis en sécurité vis à vis des tiers.
+
+
+#- Action de l'administration toujours en cours.
+
+16l0l0	l__administration	O

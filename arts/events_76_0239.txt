@@ -1,0 +1,795 @@
+
+#76.0239
+#Sur le site est implanté l'ancien établissement YARA dont l'activité principale était le stockage de produits azotés.
+
+0l0l0	YARA_dont_l__activité_principale_était	N
+
+#Ce site a été le lieu d'exploitation d'une entreprise de stockage de produits azotés de 1966 à 2008.
+
+1l0l0	Ce	L
+1l0l1	site_a_été	O
+1l0l2	le_lieu_d_	N
+1l0l3	exploitation_d__une_entreprise	O
+1l0l4	stockage_de_produits_azotés	A
+1l0l5	de_1966_à_2008__	A
+1l1l0	entreprise	I
+
+#L'entreprise a cessé définitivement ses activités sur ce site le 30 juin 2008.
+
+2l0l0	L__entreprise_a_cessé	O
+2l0l1	définitivement	N
+2l0l2	ses_activités_sur_ce_site_le_30_juin_2008__	O
+2l1l0	juin_2008__	U
+
+#L'entreprise relevait de la directive européenne SEVESO.
+
+3l0l0	L__entreprise	O
+3l0l1	relevait_de_la_directive_européenne	N
+3l0l2	SEVESO__	O
+
+#Le site YARA est imbriqué, pour partie, à l'intérieur du site SCO, spécialisé dans la fabrication d'engrais azotés.
+
+4l0l0	Le_site_YARA_est	O
+4l0l1	imbriqué__	R
+4l0l2	pour_partie___à_l__intérieur_du_site	O
+4l1l0	à_l__intérieur_du_site	I
+
+#Le site est constitué de 3 zones distinctes ( secteurs 9, 10 et 11), d'une surface totale de 160 000 m2.
+
+5l0l0	Le_site_est	O
+5l0l1	constitué_de_3	L
+5l0l2	distinctes___secteurs_9___10_et_11__	L
+5l0l3	totale_de_160_000_m2__	A
+5l1l0	Le_site_est_constitué	I
+5l1l1	11__	I
+
+#Le secteur 9 est une zone en friche n'ayant pas été exploitée par la société, à l’exception de l’extrême partie nord de la zone (stockage de solutions azotés avant leur déménagement sur le secteur 11).
+
+6l0l0	Le_secteur	O
+6l0l1	en_friche	O
+
+#Le secteur 10 est une zone de stockage vrac de sacs et de stockage en silos, constituée de bâtiments.
+
+7l0l0	Le_secteur_10	O
+7l0l1	est_une_zone_de_stockage	O
+7l0l2	vrac_de_sacs_et_de_stockage	N
+7l0l3	en_silos___constituée	O
+7l0l4	bâtiments__	L
+
+#Le secteur 11 est une zone de dépôt de produits liquides désormais en friche.
+
+8l0l0	friche__	N
+
+#Antérieurement, le site avait fait l'objet de 3 autres phases d'exploitation :
+
+9l0l0	Antérieurement	O
+9l0l1	avait_fait_l__objet_de_3_autres	O
+9l1l0	avait_fait_l__objet_de_3_autres	U
+
+#De 1916 à 1917, pour les secteurs 9 et 10, construction et exploitation d'une poudrerie,
+
+10l0l0	pour_les	O
+10l0l1	secteurs_9_et_10__	R
+10l0l2	construction_et_exploitation_d__une_poudrerie	N
+
+#De 1919 à 1959, pour les secteurs 9 et 10, exploitation d'une usine de production de matières colorantes (Période Khulman - Francolor).
+
+11l0l0	De_1919_à_1959	T
+11l0l1	exploitation	N
+11l0l2	d__une_usine_de_production_de_matières	O
+
+#De 1973 à 1986, pour le secteur 11, exploitation d'un dépôt pétrolier par la société ESSO.
+
+12l0l0	De_1973_à_1986	T
+12l0l1	exploitation_d__un	N
+12l0l2	dépôt_pétrolier	O
+12l0l3	par_la_société_ESSO__	A
+12l1l0	société_ESSO__	U
+
+#La nappe superficielle (10 m de profondeur) n'est pas protégée par des couches géologiques imperméables.
+
+13l0l0	La_nappe_superficielle	T
+13l0l1	profondeur___n__est	R
+13l0l2	pas_protégée_par_des	O
+13l0l3	couches_géologiques	O
+13l1l0	pas_protégée_par_des	D
+13l1l1	couches_géologiques	I
+
+#Cette même nappe est en communication avec la nappe de la craie.
+
+
+#Cette dernière est exploitée en aval hydraulique du site théorique par le forage AEP de la Chapelle Darblay.
+
+
+#es eaux superficielles dans les environs du site sont constitués par la Seine (à moins d'un kilomètre du site)
+
+16l0l0	superficielles_dans	N
+16l0l1	les_environs_du_site_sont_constitués_par	L
+16l0l2	Seine___à_moins	O
+
+#Risques et nuisances:
+
+
+#Pollution des sols: les études menées sur le site dans le cadre de la réalisation d'un plan de gestion ont permis de mettre en évidence la présence de zones de contamination des sols aux composés azotés, aux métaux lourds (As, Pb, Hg), aux HAP, aux BTEX et aux COV.
+
+
+#I -
+
+
+#Les études de sols menées sur l'ensemble du site ont permis d'identifier plusieurs zones polluées :
+
+
+#1) Secteur 9 :
+
+21l0l0	1___Secteur_9____	N
+
+#La « friche NORD » EST est impactée par des HCT, des HAP, des métaux lourds, des composés azotés et du sulfate.
+
+
+#Cette zone d'une surface de 4900 m2 sur 1 à 3 m de profondeur et d'un volume de 7400 m3 peut avoir un impact sur la nappe (a minima pour les métaux lourds selon les tests de lixiviation).
+
+23l0l0	Cette_zone_d__une	O
+23l0l1	surface	L
+23l0l2	de_4900_m2	N
+23l0l3	sur_1_à_3_m_de	O
+23l1l0	sur_1_à_3_m_de_profondeur_et_d__un_volume	S
+23l1l1	7400_m3_peut_avoir_un	S
+23l1l2	impact_sur_la	S
+
+#La « friche NORD » OUEST est impactée par des HCT et HAP.
+
+24l0l0	La_____friche	O
+
+#Cette zone d'une surface de 3000 m2 et dont l'extension verticale n'est pas connue peut avoir un impact sur la nappe (tests de lixiviation non réalisés- impact à priori faible compte tenu des concentrations).
+
+25l0l0	Cette_zone_d__une_surface	O
+25l0l1	de_3000_m2_et	N
+25l0l2	dont	R
+25l0l3	l__extension	O
+25l1l0	dont_l__extension	S
+
+#La « friche EST » est impactée par des HCT, des HAP, du benzène et du toluène.
+
+26l0l0	La_____friche	O
+
+#Cette zone d'une surface de 12000 m2 sur 1 à 3 m de profondeur peut avoir un impact sur la nappe.
+
+27l0l0	Cette_zone_d__une	O
+27l0l1	surface_de_12000	N
+27l0l2	sur	O
+27l1l0	12000_m2_sur	S
+27l1l1	à_3_m_de	S
+27l1l2	profondeur_peut_avoir_un_impact	S
+
+#Au SUD du secteur , une ancienne zone de carrière remblayée avec des déchets industriels est impactée par de l'azote ammoniacal, des sulfates, des HCT, des HAP et des métaux lourds.
+
+28l0l0	Au_SUD_du_secteur	O
+28l0l1	avec_des_déchets_industriels	N
+28l0l2	est	O
+
+#Cette zone d'une surface de 12000 m2 sur 1 à 3 m de profondeur peut avoir un impact sur la nappe (risque faible).
+
+29l0l0	Cette_zone_d__une	L
+29l0l1	surface_de_12000_m2_sur_1_à_3_m_de	O
+29l0l2	profondeur	O
+29l0l3	avoir_un_impact_sur_la_nappe	O
+29l0l4	__risque_faible	N
+29l1l0	avoir_un_impact_sur_la_nappe	U
+
+#L'évaluation quantitative des risques sanitaires montre en l'état des risques inacceptables pour la « friche NORD » EST (métaux) et la « Friche EST » (benzène et naphtalène).
+
+30l0l0	L__évaluation	O
+30l0l1	montre_en_l__état_des_risques	N
+30l0l2	inacceptables	O
+
+#Par ailleurs, une présence importante de composés azotés est présente dans le secteur « Friche NORD » EST et impacte la nappe.
+
+31l0l0	____EST_et_impacte	O
+
+#En l'absence d'EQRS (Évaluation quantitative des risques sanitaires) pour les composés azotés, aucun seuil de dépollution n'est proposé par l'exploitant.
+
+32l0l0	d__EQRS___Évaluation_quantitative_des_risques	O
+32l0l1	sanitaires	N
+32l0l2	__pour_les_composés_azotés___aucun	L
+32l0l3	seuil_de_dépollution	O
+32l1l0	quantitative_des_risques	S
+
+#Les traitements suivants sont néanmoins proposés pour ces composés (phytoremédiation, biologique in situ ou en tertre, lavage, mise en décharge, confinement).
+
+33l0l0	biologique	O
+33l0l1	décharge___confinement	O
+33l1l0	phytoremédiation___biologique	S
+
+#Les techniques de dépollution proposées nécessitent la réalisation préalable de test de faisabilité et d'éventuelles  phases de dimensionnement.
+
+
+#La « Friche NORD » EST,  impactée notamment par des composés azoté, devra faire l'objet de travaux de traitement pour ces composés.
+
+35l0l0	La_____Friche_NORD_____EST_____impactée	N
+
+#Si le traitement des métaux n'était pas réalisé, la zone pourra faire l'objet de travaux de confinement par imperméabilisation (suppression du vecteur de transfert).
+
+36l0l0	Si_le_traitement_des	O
+36l0l1	métaux_n__était	O
+36l0l2	travaux_de_confinement_par_imperméabilisation	N
+36l1l0	la_zone_pourra_faire	S
+
+#Pour la « Friche EST » polluée principalement par du benzène, le traitement de cette source a été évalué (bio-venting, traitement biologique en bio-tertre, traitement en bio-centre, désorption thermique).
+
+37l0l0	Pour_la_____Friche	N
+37l0l1	____polluée	O
+37l0l2	par_du	O
+37l0l3	benzène__	N
+37l0l4	le_traitement	R
+37l0l5	de_cette_source_a_été_évalué___bio_venting___traitement	N
+37l1l0	____polluée	S
+
+#L'exploitant met en avant les techniques de bio-venting pour  le benzène et le naphtalène et de traitement biologique sur place après excavation pour la partie hydrocarbure.
+
+38l0l0	exploitant_met_en	O
+38l0l1	pour___le_benzène_et	N
+38l0l2	le_naphtalène	O
+38l0l3	et_de_traitement	N
+38l1l0	bio_venting_pour	S
+
+#Ce traitement  devra être réalisé avant tout nouvel usage.
+
+39l0l0	Ce_traitement	O
+
+#Compte-tenu des risques identifiés pour les usagers potentiels et pour le milieu eau, ces deux secteurs (« friche NORD » EST et « Friche EST ») doivent faire l'objet d'un traitement.
+
+40l0l0	Compte_tenu	O
+40l0l1	des_risques_identifiés_pour_les_usagers_potentiels	N
+
+#2) Secteur 10 :
+
+
+#La zone d'une cuve de carburant est impactée par un point « chaud » en hydrocarbure et en HAP.
+
+
+#Cette zone d'une surface de 60 m2 pour 143 m3 ne présente pas de risque d'impact sur la nappe.
+
+43l0l0	Cette_zone	O
+43l0l1	une_surface_de_60_m2	O
+43l0l2	pour_143_m3_ne	N
+43l1l0	une	D
+43l1l1	surface_de_60_m2	U
+43l1l2	risque_d__impact_sur	S
+43l1l3	nappe	S
+
+#La partie silo Nord est impactée par des hydrocarbures, des composés azotés et des métaux.
+
+44l0l0	La_partie_silo	O
+
+#Cette zone, située sous un bâtiment, n'a pas pu faire l'objet d'un dimensionnement latéral précis (évaluée de 2100 à 7000 m2).  Les sources en HCT semblent maîtrisées, les prélèvements profonds ne présentant pas de concentration anomalique.
+
+45l0l0	Cette_zone___située	O
+45l0l1	sous_un_bâtiment	N
+45l1l0	a_pas_pu_faire_l__objet_d__un_dimensionnement_latéral	S
+
+#La pollution en composés azotés a été identifiée sur un sondage.
+
+46l0l0	La_pollution	O
+46l0l1	en_composés_azotés_a_été	L
+
+#Le dimensionnement vertical n'a pas été réalisé (pas d'investigation au delà de 2 m).
+
+47l0l0	vertical_n_	O
+47l0l1	a_pas_été_réalisé	N
+47l0l2	pas_d__investigation	N
+47l1l0	dimensionnement_vertical_n_	S
+
+#Un impact de la nappe par cette source ne peut donc pas être exclu.
+
+48l0l0	Un_impact_de_la_nappe_par_cette	N
+48l0l1	source_ne_peut_donc	N
+
+#La tour centrale est impactée  par des composés azotés, des HCT, des HAP et des BTEX.
+
+49l0l0	La_tour_centrale	N
+49l0l1	est	O
+
+#Cette zone d'une surface de 120 m2  pour 240 m3  présente un risque d'impact potentiel sur la nappe pour les composés azotés en l'absence de dimensionnement précis de la source ( notamment au delà de 2m de profondeur).
+
+50l0l0	Cette_zone_d__une	O
+50l0l1	surface_de_120	N
+50l1l0	pour_240_m3___présente_un_risque_d__impact	S
+50l1l1	potentiel	S
+
+#la partie SUD des silos est impactée par des HAP et des composés azotés.
+
+51l0l0	la_partie_SUD	O
+
+#Cette zone d'une surface de 7000 m2 présente un risque d'impact sur la nappe.
+
+52l0l0	Cette_zone_d_	O
+52l0l1	surface	O
+52l0l2	de_7000_m2	N
+52l0l3	présente_un	O
+52l1l0	présente_un_risque_d__impact_sur_la	S
+
+#En effet la source en composés azotés n'est pas dimensionnée verticalement (sondages jusqu'à 2 m en raison de la présence des bâtiments).
+
+53l0l0	En_effet_la	O
+
+#L'évaluation quantitative des risques sanitaires ne montre pas de problème particulier à l’exception de la tour centrale pour laquelle il ne peut pas être en l'état accepté une fréquentation plus importante de type bureau.
+
+54l0l0	centrale_pour_laquelle	O
+54l1l0	quantitative_des_risques	S
+
+#Cette évaluation est confirmée par les mesures dans l'air du sol (implantation de piézairs en 2012)
+
+
+#Compte-tenu des pollutions en présence, le maintien des infrastructures (dalles, bâtiments) concoure à la diminution du risque.
+
+56l0l0	infrastructures___dalles___bâtiments	O
+56l0l1	__concoure_à_la_diminution_du_risque__	T
+
+#En cas de destruction des bâtiments, le traitement des sources est à envisager.
+
+57l0l0	traitement_des_sources_est_à_envisager	O
+
+#Par ailleurs, plusieurs sources en produits azotés ont été identifiées sous les bâtiments sans que leur dimensionnement exact ne soit réalisé.
+
+58l0l0	ailleurs___plusieurs_sources_en	O
+
+#Si la présence des bâtiments contribue également à diminuer la lixiviation des polluants, elle n'assure pas de l'absence d'impacts sur la nappe.
+
+59l0l0	des_bâtiments_contribue_également_à	O
+59l0l1	diminuer_la_lixiviation	N
+59l0l2	des_polluants__	L
+59l1l0	contribue_également_à_diminuer	U
+
+#Le traitement de ces sources n'est pas envisagé ni évalué par l'exploitant.
+
+60l0l0	de_ces_sources	O
+60l0l1	exploitant__	N
+
+#Il convient donc d'évaluer les différentes techniques disponibles pour traiter ces sources au travers d'un bilan coût-avantage.
+
+61l0l0	d__évaluer	O
+61l0l1	les_différentes_techniques	R
+61l0l2	disponibles_pour_traiter	O
+
+#3) Secteur 11 :
+
+
+#La zone garage impactée par des HCT et des HAP (dont naphtalène).
+
+
+#Cette zone d'une surface de 25 m2 et d'un volume de 75 m3 se trouve entre 3 et 6m de profondeur et peut avoir un impact sur la nappe (tests de lixiviation non réalisés).  Cette pollution est historiquement attribuable à la société ESSO, cette dernière n'ayant pas mis en sécurité les cuves enterrées avant la vente des terrains à la société Yara.
+
+64l0l0	Cette_zone_d__une_surface	O
+64l0l1	25_m2_et	O
+64l0l2	un_volume	O
+64l1l0	m2_et	S
+64l1l1	volume	S
+64l1l2	75_m3_se_trouve	S
+
+#La zone de chargement impactée par des hydrocarbures aliphatiques et des HAP dont du naphtalène.
+
+65l0l0	La_zone_de_chargement	O
+
+#Cette zone d'une surface de 160 m2 et d'un volume de 160 m3 se trouve à moins d'1 m de profondeur et ne peut pas avoir d'impact sur la nappe (selon les tests de lixiviation).
+
+66l0l0	Cette_zone_d__une_surface_de_160	O
+66l1l0	un_volume_de_160_m3_se_trouve_à	U
+66l1l1	moins_d_1_m	S
+66l1l2	profondeur_et_ne	S
+
+#Cette pollution est historiquement attribuable à la société ESSO (Produits caractéristiques de son activité).
+
+67l0l0	Cette_pollution	O
+67l0l1	société_ESSO___Produits_caractéristiques	N
+
+#La zone de la cuve d'additifs impactée par des hydrocarbures aliphatiques.
+
+68l0l0	La_zone_de_la_cuve	O
+68l0l1	hydrocarbures_aliphatiques	O
+68l1l0	hydrocarbures_aliphatiques	I
+
+#Cette zone d'une surface de 200 m2 et d'un volume de 1500 m3 se trouve entre 2 m et 7m de profondeur.
+
+69l0l0	Cette_zone	O
+69l0l1	d__une_surface_de_200_m2_et_d_	O
+69l0l2	un	R
+69l0l3	volume_de_1500_m3_se_trouve	O
+69l1l0	surface_de_200	U
+69l1l1	volume_de_1500_m3_se_trouve_entre_2_m	U
+
+#Bien que les tests de lixiviation sur les HAP soient négatifs, compte-tenu de la profondeur de la zone polluée, il ne peut être exclu qu'il y ait un impact sur la nappe.
+
+70l0l0	Bien_que_les	O
+
+#Cette pollution est historiquement attribuable à la société ESSO , cette dernière n'ayant pas mis en sécurité les cuves enterrées avant la vente des terrains à la société Yara.
+
+71l0l0	historiquement	O
+71l0l1	attribuable	O
+71l0l2	mis_en_sécurité	O
+71l1l0	attribuable	S
+
+#Une zone d’épandage des eaux météoriques des cuvettes de rétention impactée par des nitrates, nitrites et de l'ammonium.
+
+72l0l0	cuvettes_de_rétention	O
+72l0l1	l__ammonium__	O
+72l1l0	cuvettes_de_rétention	I
+
+#Cette zone d'une surface de 5000 m2 et d'un volume de 20000 m3 se trouve sur 4 m de profondeur et a un impact sur la nappe (produits fortement solubles selon les tests de lixiviation).
+
+73l0l0	Cette_zone	O
+73l0l1	d__une	L
+73l0l2	surface	N
+73l0l3	volume_de_20000_m3_se_trouve	O
+73l0l4	sur_4_m_de_profondeur	N
+73l0l5	nappe___produits	O
+73l1l0	profondeur_et_a_un_impact_sur	S
+73l1l1	nappe___produits	S
+
+#Cette pollution est historiquement attribuable à la société Yara (Produits caractéristiques de son activité) du fait des activités non maîtrisées sur la zone (épandage des eaux météoriques des cuvettes de rétention).
+
+74l0l0	Cette_pollution	O
+74l0l1	société_Yara___Produits_caractéristiques	L
+74l0l2	de_son	N
+74l0l3	activité	R
+74l0l4	__du	O
+
+#La zone des bureaux est une zone polluée aux hydrocarbures à l'emplacement de l'ancienne cuve fuel des bureaux.
+
+75l0l0	La_zone_des_bureaux	O
+75l0l1	est_une_zone_polluée_aux	N
+75l0l2	hydrocarbures_à_l__emplacement	O
+75l1l0	hydrocarbures_à_l__emplacement	I
+
+#L'extension verticale de cette source n'est pas connue.
+
+76l0l0	L__extension	O
+76l0l1	cette_source	O
+76l1l0	est_pas_connue__	S
+
+#Il ne peut donc être exclu une pollution de la nappe par cette source.
+
+
+#Cette pollution est historiquement attribuable à la société ESSO.
+
+78l0l0	attribuable	O
+
+#La zone Est des rétentions et la zone des canalisations aériennes impactées par des nitrates, nitrites et de l'ammonium, des hydrocarbures des HAP dont du naphtalène.
+
+79l0l0	La_zone_Est_des_rétentions	O
+79l0l1	canalisations_aériennes_impactées	O
+79l1l0	canalisations_aériennes_impactées	I
+
+#Cette zone d'une surface de 2600 m2 et d'un volume de 6500 m3 se trouve sur une profondeur de 9 m et peut avoir un impact sur la nappe (nitrates et ammonium fortement solubles selon les tests de lixiviation).
+
+80l0l0	Cette_zone_d__une_surface_de	O
+80l0l1	2600_m2_et	O
+80l0l2	un_volume_de_6500_m3_se_trouve_sur_une	O
+80l0l3	profondeur_de	O
+80l1l0	profondeur_de_9_m_et	S
+80l1l1	peut_avoir	S
+80l1l2	impact_sur_la_nappe___nitrates_et_ammonium_fortement_solubles	S
+
+#Cette pollution est imputable à la société Yara pour les produits azotés du fait des activités non maîtrisées sur la zone (Il est notamment répertorié en annexe du plan de gestion un accident sur les canalisations pouvant expliquer cette pollution).
+
+81l0l0	Cette_pollution	O
+81l0l1	produits_azotés_du_fait_des_activités	L
+81l0l2	maîtrisées_sur_la	N
+81l0l3	zone	R
+81l0l4	__Il_est	O
+81l1l0	notamment_répertorié	S
+
+#Les pollutions identifiées en HCT et HAP sont elles historiquement attribuable à la société ESSO.
+
+82l0l0	Les_pollutions_identifiées	O
+82l0l1	HCT_et_HAP_sont_elles	O
+82l0l2	historiquement_attribuable	O
+82l1l0	HCT_et_HAP_sont_elles	I
+82l1l1	historiquement_attribuable	S
+
+#L'évaluation quantitative des risques sanitaires montrent trois zones incompatibles pour un usage industriel avec bâtiments : la zone de garage, la zone de chargement  et la zone de la cuve d'additifs.
+
+83l0l0	L__évaluation_quantitative	O
+83l0l1	incompatibles_pour_un_usage	O
+83l1l0	des_risques	S
+83l1l1	incompatibles_pour_un_usage	I
+
+#Compte-tenu du projet de reprise du site par un ferrailleur, cette pollution ne présente pas de risque sanitaire pour cet usage (absence de bâtiments).
+
+84l0l0	cette_pollution	O
+84l0l1	de_risque_sanitaire_pour	N
+84l0l2	bâtiments	O
+
+#Cependant, les sols pollués par les hydrocarbures (sauf la zone de chargement) sont susceptibles de polluer la nappe.
+
+85l0l0	les_sols	O
+85l0l1	pollués_par	N
+85l0l2	les_hydrocarbures	O
+85l0l3	__sauf_la	A
+85l0l4	zone_de_chargement	O
+
+#Les risques pour la nappe sont avérés notamment pour le secteur 11 avec une présence importante de nitrates et d'ammonium lixiviables dans les sols.
+
+86l0l0	pour_la_nappe_sont	O
+86l0l1	avec_une_présence	A
+86l0l2	importante_de_nitrates_et	R
+86l0l3	d__ammonium	O
+86l1l0	avérés_notamment_pour	S
+
+#Les sources qui y sont observées représentent un volume cumulé de 26500 m3 de sols impactés.
+
+87l0l0	sont_observées	O
+
+#Sur ce secteur, la présence de HAP et de HCT, n'est pas négligeable et doit a minima faire l'objet d'un suivi dans la nappe.
+
+88l0l0	Sur_ce_secteur	O
+88l0l1	et_doit_a_minima_faire_l__objet	O
+
+#Il faut noter, en dernier lieu, que le plan de gestion n'a pas retenu les risques liés à la présence de nitrates, nitrites et ammonium dans les sols en raison de l'absence de risques sanitaires pour les usagers du site.
+
+89l1l0	__que	S
+89l1l1	plan	S
+
+#De ce fait, les risques sur la ressource en eau n'ont pas été intégrés dans le bilan coûts-avantages.
+
+90l1l0	_	S
+
+#Les méthodes de traitement ou de confinement des sources en ammonium, nitrites et nitrates n'ont pas été évaluées, même si l'exploitant met en avant ce risque dans son plan de gestion.
+
+
+#Par ailleurs, si un bilan coûts-avantages a bien été réalisé, l'exploitant ne s'engage pas dans le plan de gestion sur des mesures de dépollution, estimant notamment que les pollutions aux hydrocarbures identifiées ne sont pas de son fait et ne l'engage pas en terme de responsabilités (principe du pollueur payeur).
+
+92l0l0	Par_ailleurs___si_un_bilan_coûts	O
+92l0l1	avantages_a_bien	N
+92l0l2	réalisé___l__exploitant	O
+92l1l0	réalisé___l__exploitant_ne_s__engage_pas	S
+
+#L'exploitant a réalisé, à son initiative une extraction partielle d'une source de pollution (zone bureau) sur le secteur.
+
+93l0l0	une_extraction_partielle	N
+93l0l1	source_de_pollution	N
+93l0l2	secteur__	N
+
+#La lecture des documents remis après travaux montre des concentrations encore importantes en hydrocarbures volatils (fractions C10 à C21) en fond de fouille.
+
+94l0l0	La_lecture_des	O
+94l0l1	documents	N
+94l0l2	remis_après_travaux	T
+94l0l3	montre_des_concentrations	N
+94l0l4	encore_importantes_en_hydrocarbures	O
+94l0l5	volatils___fractions	L
+
+#II -
+
+
+#Pollution des eaux souterraines
+
+
+#Les différentes études montrent une contamination de la nappe aux nitrates et à l'ammonium.
+
+97l0l0	Les_différentes_études_montrent_une_contamination_de_la_nappe_aux_nitrates_et_à_l__ammonium__	O
+
+#Le plan de gestion du site affirme que les pompages en P0 rabattraient les eaux souterraines vers lui.
+
+98l0l0	que_les_pompages_en	N
+98l0l1	rabattraient_les_eaux_souterraines	O
+98l1l0	rabattraient_les_eaux	S
+98l1l1	souterraines	S
+
+#Selon cette étude, selon les données disponibles à l'époque, il serait peu probable que les sites YARA et SCO impactent la qualité des eaux dans les autres captages proches, et en particulier dans les captages AEP de la Chapelle Darblay.
+
+99l0l0	Selon_cette_étude	O
+99l0l1	disponibles	O
+99l0l2	serait_peu_probable_que_les	O
+
+#Il est apparu cependant nécessaire à l'inspection des installations classées pour la protection de l'environnement de s'en assurer par un suivi ciblé et de vérifier par la même occasion l'écoulement actuel des eaux souterraines lorsque le forage P0 n'est pas en fonctionnement notamment.
+
+100l0l0	suivi_ciblé_et_de_vérifier_par_la	O
+100l0l1	écoulement_actuel_des_eaux_souterraines_lorsque	L
+100l1l0	protection_de_l__environnement	I
+
+#Une pollution de certains des forages AEP de la Chapelle en aval hydraulique proche du site par de l'ammonium et des nitrates a été observée et nos services en ont été informés en avril 2013.
+
+101l0l0	Une_pollution_de_certains_des_forages	O
+101l0l1	AEP_de_la_Chapelle_en_aval_hydraulique_proche	O
+101l0l2	du_site_par_de_l__ammonium_et_des_nitrates	O
+101l0l3	nos_services	A
+
+#La zone 11 du site YARA, elle-même polluée par de l'ammonium, des nitrates et nitrites et, selon le plan de gestion, située sur un dôme piézomètrique, est suspectée d'être au moins partiellement à l'origine de cette pollution.
+
+102l0l0	La_zone_11_du_site	O
+102l0l1	YARA___elle_même_polluée	O
+102l0l2	par_de_l__ammonium___des_nitrates_et_nitrites_et___selon	L
+102l0l3	le_plan_de	O
+102l0l4	située_sur	O
+102l0l5	un_dôme_piézomètrique	N
+102l0l6	suspectée_d__être_au	N
+102l0l7	moins_partiellement_à_l__origine_de_cette_pollution__	T
+102l1l0	plan_de_gestion	S
+102l1l1	située_sur	S
+
+#Des contrôles piézométriques sur site ont d'ailleurs montré que localement la nappe superficielle est impactée par ces polluants.
+
+103l0l0	Des_contrôles_piézométriques	O
+103l0l1	ailleurs_montré	O
+103l0l2	par_ces_polluants	L
+103l1l0	ailleurs_montré_que_localement	S
+103l1l1	la_nappe	S
+
+#Ces contrôles piézométriques ne mettaient pas en évidence de transferts de pollution pouvant impacter ces forages AEP.
+
+104l0l0	Ces_contrôles_piézométriques	N
+104l0l1	ces_forages	O
+104l1l0	AEP__	U
+
+#Toutefois, les analyses des ouvrages présents au droit du site ont bien montré des teneurs anormales en composés azotés.
+
+105l0l0	Toutefois___les_analyses_des_ouvrages	A
+105l0l1	composés_azotés	O
+
+#De plus, le réseau de piézomètres extérieurs permettant de contrôler la nappe avait été jugé insuffisant d’où la demande de son renforcement dans un arrêté préfectoral de mesures d'urgence du 04 avril 2013.
+
+106l1l0	insuffisant_d__où_la_demande	S
+
+#En effet, la présence apparente du dôme piézométrique au niveau de la zone 11 (zone de stockage de produits liquides au NORD-EST de cet établissement) et  la disposition des piézomètres contrôlés ne permettaient pas de s'assurer que les pollutions identifiées dans cette zone ne puisse avoir aucun impact sur les forages AEP de la Chapelle.
+
+107l0l0	__la_présence_apparente_du_dôme_piézométrique	O
+107l0l1	zone_11__	O
+107l0l2	zone_de_stockage	N
+107l0l3	liquides_au_NORD_EST_de_cet_établissement	N
+107l0l4	__et___la_disposition	O
+107l0l5	contrôlés_ne_permettaient_pas_de_s__assurer_que_les_pollutions_identifiées_dans_cette_zone_ne_puisse_avoir_aucun_impact_sur_les_forages_AEP_de_la_Chapelle__	T
+
+#Enfin, suite aux constats de pollution sur les forages AEP, un arrêté spécifique du 12 septembre 2013 a été pris à l'encontre de la société voisine SCO.
+
+108l0l0	arrêté_spécifique	O
+108l0l1	du_12_septembre_2013_a_été_pris_à_l_	O
+108l0l2	encontre_de_la	N
+108l0l3	société_voisine_SCO	L
+
+#Cet arrêté impose la réalisation d'un confinement hydraulique de la pollution présente sur le site SCO, en créant via des prélèvements sur la nappe de la craie un cône de rabattement.
+
+109l0l0	impose_la_réalisation_d__un	O
+109l0l1	confinement_hydraulique_de_la_pollution	O
+109l0l2	présente_sur_le_site_SCO	T
+109l0l3	__en_créant	N
+109l0l4	prélèvements_sur_la_nappe_de	O
+109l1l0	prélèvements_sur_la_nappe_de	I
+
+#Ce cône de rabattement est susceptible de contenir une partie des pollutions identifiées sur le secteur 11 du site YARA.
+
+110l0l0	Ce_cône_de	O
+110l0l1	rabattement_est_susceptible_de	N
+110l0l2	contenir_une_partie_des	N
+110l1l0	secteur	I
+
+#En 2013, les concentrations observées par les contrôles piézométriques trimestrielles réalisés par YARA donnent les résultats suivants :
+
+111l0l0	En_2013___les_concentrations	O
+111l0l1	donnent_les	L
+
+#Les nitrates et l'ammonium sont détectés dans les eaux de tous les piézomètres.
+
+112l0l0	Les_nitrates	T
+
+#Les concentrations observées sont supérieures à la limite de potabilité pour les nitrates (50mg/l) sur les piézomètres N3 (65,3 mg/l en décembre), PZ11(119 mg/l en décembre) et PZ13(191mg/l en décembre).
+
+113l0l0	Les_concentrations_observées	O
+113l0l1	sont_supérieures	N
+113l1l0	concentrations	S
+113l1l1	observées	S
+
+#Les concentrations observées sont supérieures à la limite de potabilité pour l'ammonium (0,1mg/l) sur les piézomètres N3 (0,84 mg/l en décembre), PZ11(52 mg/l en décembre), PZ12 (0,83 mg/l en décembre) et PZ13(68 mg/l en décembre).
+
+114l1l0	l__ammonium__	S
+
+#La valeur limite des eaux brutes pour les nitrates (100 mg/l) et l'ammonium (4 mg/l) est dépassée sur PZ11 et PZ13.
+
+115l0l0	l___est_dépassée	O
+115l1l0	l___est_dépassée	S
+
+#Il apparait également qu'au cours des campagnes de 2013 les concentrations en nitrates et ammonium augmentent sur le piézomètre PZ11, soit le piézomètre le plus proche des pompages sur le site SCO et baissent sur le piézomètre PZ13 (piézomètre directement en aval de la zone d'épandage des eaux météoriques pendant la période d'exploitation de YARA).
+
+116l0l0	campagnes_de	O
+116l0l1	nitrates_et_ammonium	N
+116l1l0	des_campagnes_de	S
+116l1l1	concentrations	S
+
+#Un dépassement important (3930 mg/l) des valeurs guides  pour les sulfates (200 mg/l pour les eaux brutes) est observé au niveau du piézomètre PZ9 (secteur 9) dans les prélèvements des mois de juin et décembre 2013, sans que l'exploitant ne rapproche cet impact d'une source identifiée.
+
+117l0l0	3930_mg	T
+117l0l1	__l___des_valeurs	N
+117l0l2	guides	T
+117l0l3	200_mg___l_pour	O
+117l0l4	prélèvements_des	A
+117l0l5	juin	O
+117l0l6	impact_d__une_source_identifiée__	L
+117l1l0	200_mg___l_pour_les_eaux_brutes	S
+117l1l1	mois_de_juin	I
+
+#L'évolution des produits azotés montre une mobilisation probable d'une partie des pollutions de nitrates et d'ammonium identifiées dans les sols du secteur 11 par les prélèvements d'eau dans la nappe de la craie chez SCO.
+
+118l0l0	par_les_prélèvements	N
+118l0l1	d__eau_dans_la_nappe_de_la_craie	T
+118l1l0	probable_d__une_partie	S
+118l1l1	les_sols	I
+
+#Toutefois la suffisance du cône de rabattement pour confiner l'ensemble des pollutions sur le secteur 11 n'est pas certaine.
+
+119l0l0	suffisance_du_cône_de	O
+119l0l1	rabattement_pour_confiner	N
+119l0l2	pas_certaine	O
+119l1l0	suffisance_du_cône_de	S
+119l1l1	secteur_11_n_	S
+119l1l2	pas_certaine	S
+
+#En effet, l'étude des hauteurs d'eau dans les piézomètres, malgré l'imperfection des données fournies, montre qu’apparemment une partie des eaux souterraines au NORD-EST du site se dirigeraient vers le site EUROPAC.
+
+120l0l0	hauteurs_d__eau_dans_les_piézomètres	O
+
+#Les données actuelles ne permettent ainsi toujours pas d'exclure la contribution des zones polluées du secteur 11 à la dégradation de la nappe impactant les forages de la Chapelle.
+
+121l0l0	dégradation	R
+121l0l1	de_la_nappe_impactant_les_forages	O
+121l0l2	de_la_Chapelle__	L
+
+#actions menées:
+
+122l0l0	actions_menées	O
+
+#La société Yara a remis en 2010 , suite au diagnostic de l'état des sols, un plan de gestion qui détermine des actions à mener sur le site.
+
+
+#L'étude de ces documents a mené l'inspection des installations classées à demander différents compléments à l'exploitant.
+
+124l0l0	L__étude_de_ces	O
+124l0l1	documents	N
+124l0l2	a_mené	T
+124l0l3	l__inspection_des_installations	N
+124l0l4	classées_à_demander_différents	O
+124l1l0	L__étude_de_ces_documents	I
+
+#Les derniers compléments ont été remis en avril 2013.
+
+
+#A cette période, un constat de pollution des eaux prélevées au niveau des forages de la Chapelle a été communiqué à l'administration, ce qui a motivé l'arrêté de mesure d'urgence du 04 avril 2013.
+
+126l0l0	A_cette_période___un_constat_de_pollution	N
+126l0l1	des_eaux_prélevées_au_niveau_des_forages_de_la_Chapelle_a_été_communiqué_à_l__administration___ce_qui_a_motivé_l__arrêté_de_mesure_d__urgence_du_04_avril_2013__	T
+
+#Le suivi des eaux imposé par cet arrêté a permis d'observer une pollution de la nappe par des composés azotés.
+
+127l0l0	Le_suivi_des_eaux	T
+127l0l1	imposé_par_cet_arrêté_a	O
+127l0l2	permis_d__observer	O
+127l0l3	une_pollution_de_la_nappe_par_des_composés	L
+127l0l4	azotés__	N
+
+#Suite aux constats de la persistance de la dégradation des eaux prélevées au niveau du forage de la Chapelle, un projet d'arrêté préfectoral complémentaire d'avril 2014 a été proposé à monsieur le préfet de Seine-Maritime.
+
+128l0l0	Suite_aux_constats_de_la	N
+128l0l1	persistance_de	O
+128l0l2	eaux_prélevées_au	N
+128l0l3	niveau	O
+128l1l0	forage_de_la_Chapelle	S
+
+#Cet arrêté demande d'une part un certain nombre de complètements à l'étude de sols notamment au niveau des dimensionnement des sources de sols identifiées.
+
+129l0l0	Cet_arrêté	R
+129l0l1	demande	N
+129l0l2	une_part_un_certain_nombre_de_complètements_à_l__étude	O
+129l0l3	de_sols_notamment_au_niveau_des	L
+129l0l4	dimensionnement	O
+129l0l5	des_sources_de_sols_identifiées__	O
+
+#D'autres part, le projet d'arrêté demande un traitement des sources identifiées et notamment de celles polluées par des nitrates et de l'ammonium.
+
+130l0l0	nitrates_et_de_l__ammonium__	O
+
+#Il demande en particulier l'étude d'un confinement hydraulique des eaux souterraines afin de protéger le captage de la Chapelle et son exécution sauf si l'exploitait pouvait prouver l'absence d'implications des sources de pollution identifiées dans la dégradation de la ressource  en eau.
+
+131l0l0	hydraulique_des_eaux_souterraines	O
+131l0l1	protéger_le_captage	O
+131l0l2	Chapelle_et	N
+131l0l3	exécution_sauf	O
+131l1l0	Chapelle_et	S
+131l1l1	exécution_sauf	S

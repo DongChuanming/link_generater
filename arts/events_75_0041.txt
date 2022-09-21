@@ -1,0 +1,279 @@
+
+#75.0041
+#TOTAL a construit et exploité une station-service dès 1972.
+
+0l0l0	TOTAL	O
+0l0l1	a_construit	N
+0l0l2	exploité	N
+0l0l3	une_station___service	O
+0l0l4	dès_1972	T
+0l1l0	TOTAL	I
+
+#Le dernier exploitant de la station-service est la société ENI FRANCE qui a exploité à partir de 2002 jusqu'en 2017, date de sa cessation d'activité.
+
+1l0l0	Le_dernier_exploitant	O
+1l0l1	la_station___service	O
+1l0l2	la_société_ENI_FRANCE	O
+1l0l3	a_exploité	N
+1l0l4	à_partir_de_2002_jusqu__en_2017__	T
+1l0l5	d__activité	N
+1l1l0	la_société_ENI_FRANCE	I
+
+#La station-service était sous l'enseigne AGIP et exploité par ENI FRANCE.
+
+2l0l0	La_station___service	O
+2l0l1	était_sous	R
+2l0l2	l__enseigne_AGIP	O
+2l0l3	ENI_FRANCE	O
+2l1l0	AGIP	I
+2l1l1	ENI_FRANCE	I
+
+#La station-service était composée de :
+
+3l0l0	La_station___service	O
+
+#- 4 cuves enterrées double enveloppe en fosses maçonnées (15, 15, 30 et 30 m3) de carburants (gazole et essence),
+
+4l0l0	4_cuves_enterrées	O
+4l0l1	essence	O
+4l1l0	4_cuves_enterrées	D
+4l1l1	carburants	U
+4l1l2	gazole	U
+
+#- 2 îlots de distribution de carburants,
+
+5l0l0	2_îlots_de_distribution_de_carburants	O
+5l1l0	carburants	U
+
+#- une zone de dépotage,
+
+6l0l0	zone_de_dépotage	O
+
+#- un séparateur d'hydrocarbures,
+
+7l1l0	d__hydrocarbures	S
+
+#- une boutique.
+
+
+#Les installations de stockage et de distribution de carburants étaient classées, à déclaration avec contrôle périodique, sous les rubriques 1435.2 et 4734.1.c de la nomenclature des installations classées.
+
+9l0l0	Les_installations	O
+9l0l1	de_stockage_et_de_distribution_de_carburants	A
+9l0l2	étaient_classées	N
+9l0l3	déclaration	N
+9l1l0	carburants	U
+
+#Le 30 juin 2017, l'exploitant a notifié la cessation d'activité.
+
+10l0l0	Le_30_juin_2017__	T
+10l0l1	l__exploitant	O
+10l0l2	a_notifié	N
+10l0l3	la_cessation_d__activité	N
+
+#Le site est localisé en zone urbaine sur une avenue avec une circulation dense.
+
+11l0l0	Le_site	O
+11l0l1	localisé_en_zone_urbaine_sur_une_avenue	L
+
+#La Seine est située à environ 20 m du site.
+
+12l0l0	La_Seine	O
+12l0l1	située_à_environ_20_m_du_site	L
+
+#La nappe des alluvions de la Seine est à environ 4 m de profondeur au droit du site.
+
+13l0l0	la_Seine	L
+13l0l1	au_droit_du_site	L
+
+#Un diagnostic de l'état des sols et des eaux souterraines, réalisé en juillet 2016, a mis en évidence des pollutions dans les sols en hydrocarbures de type essence et gazole, des impacts en hydrocarbures, hydrocarbures aromatiques polycycliques (HAP) et métaux dans les remblais et une pollution dans les eaux souterraines, avec présence de flottant sur un ouvrage et de BTEX (benzène, toluène, éthylbenzène et xylènes) et les additifs de l'essence (MTBE et ETBE) au droit des 2 autres ouvrages.
+
+14l0l0	Un_diagnostic	N
+14l0l1	l__état_des_sols_et_des_eaux_souterraines	O
+14l0l2	en_juillet_2016__	T
+14l0l3	des_pollutions	N
+14l0l4	les_remblais	N
+14l0l5	une_pollution	O
+14l0l6	les_eaux_souterraines	O
+14l0l7	au_droit_des_2_autres	L
+14l1l0	hydrocarbures	S
+14l1l1	essence	S
+14l1l2	gazole	S
+14l1l3	hydrocarbures	S
+14l1l4	hydrocarbures_aromatiques_polycycliques	S
+14l1l5	HAP	S
+14l1l6	métaux	S
+14l1l7	flottant	S
+14l1l8	BTEX	S
+14l1l9	benzène	S
+14l1l10	toluène	S
+14l1l11	éthylbenzène	S
+14l1l12	xylènes	S
+14l1l13	les_additifs	S
+14l1l14	de_l__essence	U
+14l1l15	MTBE	S
+14l1l16	ETBE	S
+
+#Un diagnostic complémentaire de l'état des milieux (sols, eaux souterraines et gaz du sol), réalisé en janvier 2017, a montré :
+
+15l0l0	Un_diagnostic_complémentaire	N
+15l0l1	en_janvier_2017__	T
+
+#- Une pollution des sols en hydrocarbures au droit d’une cuve de carburants, du séparateur d’hydrocarbures, des îlots de distribution et de la limite nord du site,
+
+16l0l0	Une_pollution_des_sols	N
+16l0l1	hydrocarbures	O
+16l0l2	au_droit_d__une	L
+16l0l3	cuve_de_carburants	O
+16l0l4	la	O
+16l0l5	limite_nord_du_site	L
+16l1l0	hydrocarbures	S
+16l1l1	une_cuve_de	D
+16l1l2	carburants	U
+16l1l3	hydrocarbures	S
+
+#- Un impact dans les eaux souterraines en hydrocarbures : des irisations au droit d’un ouvrage et des teneurs en hydrocarbures dissous et en ETBE au droit des 2 autres ouvrages.
+
+17l0l0	Un_impact	O
+17l1l0	hydrocarbures	S
+17l1l1	en_hydrocarbures	S
+17l1l2	en_ETBE	S
+
+#Le 4ème piézomètre implanté hors site présente des traces d’hydrocarbures et de BTEX,
+
+18l0l0	Le_4ème_piézomètre	O
+18l0l1	implanté_hors_site	N
+18l0l2	présente	R
+18l0l3	des_traces_d__hydrocarbures	O
+18l1l0	des_traces_d_	U
+18l1l1	hydrocarbures	S
+18l1l2	BTEX	S
+
+#- Un impact dans les gaz du sol sur l’ensemble du site.
+
+
+#Les travaux de démantèlement des installations pétrolières et de retrait ponctuel des sols impactés ont été menés de juillet à septembre 2017.
+
+20l0l0	Les_travaux_de_démantèlement	N
+20l0l1	des_installations_pétrolières	O
+20l0l2	de_retrait_ponctuel_des_sols_impactés	N
+20l0l3	ont_été_menés	N
+20l0l4	de_juillet_à_septembre_2017__	T
+
+#Les travaux de réhabilitation du site ont été réalisés entre le 8 janvier 2018 et le 18 mai 2018.
+
+21l0l0	Les_travaux_de_réhabilitation	N
+21l0l1	du_site	O
+21l0l2	ont_été_réalisés	N
+21l0l3	entre_le_8_janvier_2018_et_le_18_mai_2018__	T
+
+#Ainsi, 6 050 tonnes de terres polluées ont été excavées au droit de deux zones.
+
+22l0l0	6_050___tonnes_de_terres_polluées	O
+22l0l1	ont_été_excavées	N
+22l0l2	au_droit_de	L
+22l0l3	deux_zones	O
+
+#Un traitement complémentaire par oxydation chimique a été réalisé au niveau des fouilles et dans les eaux souterraines.
+
+23l0l0	Un_traitement_complémentaire	O
+23l0l1	oxydation_chimique	O
+23l0l2	a_été_réalisé	N
+23l0l3	au_niveau_des	R
+23l0l4	fouilles	O
+23l0l5	les_eaux_souterraines	O
+
+#D'après le bureau d'études de l'exploitant, les travaux réalisés ont permis un abattement de 96% de la pollution (en masse).
+
+24l0l0	le_bureau_d__études	O
+24l0l1	l__exploitant	O
+24l0l2	les_travaux_réalisés_ont_permis	N
+24l0l3	un_abattement	N
+
+#Des investigations complémentaires réalisées en novembre 2018 ont mis en évidence un impact résiduel :
+
+25l0l0	Des_investigations_complémentaires_réalisées	N
+25l0l1	en_novembre_2018	T
+25l0l2	ont_mis_en_évidence	R
+25l0l3	un_impact	O
+
+#• En hydrocarbures (maximum : 11 400 mg/kg) et en BTEX (maximum : 1 450 mg/kg) dans les sols à l’entrée du site et le long du trottoir de l’avenue Kennedy,
+
+26l0l0	sols_à_l__entrée_du_site	L
+26l0l1	le_long_du_trottoir_de_l__avenue_Kennedy	L
+26l1l0	hydrocarbures	S
+26l1l1	en_BTEX	S
+
+#• En hydrocarbures (maximum : 7071 mg/m³), BTEX (maximum : 496 mg/m³) et ETBE (maximum : 514 mg/m³) dans les gaz du sol sur les ouvrages localisés en bordure de l’avenue Kennedy.
+
+27l0l0	sur_les_ouvrages	O
+27l0l1	localisés	R
+27l0l2	en_bordure_de_l__avenue_Kennedy	L
+27l1l0	hydrocarbures	S
+27l1l1	__BTEX	S
+27l1l2	et_ETBE	S
+
+#S'agissant des eaux souterraines, des BTEX sont encore quantifiés sur les 3 ouvrages implantés sur le site, notamment en benzène (maximum : 35 µg/l) .
+
+28l0l0	quantifiés	N
+28l1l0	BTEX	S
+28l1l1	benzène	S
+
+#L’ouvrage hors site présente seulement des traces d’ETBE.
+
+29l0l0	ouvrage_hors_site	O
+29l1l0	d__ETBE	I
+
+#Un diagnostic de sol réalisé en mars 2019 à l’aide de 3 sondages positionnés en limite du site au droit de la piste cyclable de l’avenue Kennedy a mis en évidence un impact en hydrocarbures (maximum : 10 100 mg/kg), BTEX (maximum : 3 930 mg/kg), MTBE (maximum : 4,35 mg/kg) et ETBE (maximum : 1 890 mg/kg) entre 3 et 5 m de profondeur.
+
+30l0l0	Un_diagnostic	N
+30l0l1	sol_réalisé	N
+30l0l2	en_mars_2019	T
+30l0l3	positionnés_en_limite_du_site_au_droit_de_la_piste_cyclable	L
+30l0l4	l__avenue_Kennedy	L
+30l0l5	a_mis_en_évidence	R
+30l0l6	un_impact	O
+30l1l0	hydrocarbures	S
+30l1l1	__BTEX	S
+30l1l2	____MTBE	S
+30l1l3	__et_ETBE	S
+
+#Un sondage réalisé en janvier 2017 lors de l’installation du piézomètre PZ5 sur l’autre trottoir de l’avenue Kennedy avait présenté des valeurs en hydrocarbures C10-C40 proches des seuils de quantification et aucun autre composé n’avait été quantifié.
+
+31l0l0	Un_sondage	N
+31l0l1	réalisé	N
+31l0l2	en_janvier_2017	T
+31l0l3	lors_de	R
+31l0l4	l__installation	N
+31l0l5	l__avenue_Kennedy	L
+31l1l0	hydrocarbures_C10_C40	S
+
+#Le bureau d’études estime que la pollution rencontrée dans les sols au niveau de la piste cyclable de l’avenue Kennedy est délimitée vers le Sud au-delà de l’avenue Kennedy par le piézomètre PZ5.
+
+32l0l0	Le_bureau_d__études	O
+32l0l1	les_sols	O
+32l0l2	au_niveau_de	R
+32l0l3	la_piste_cyclable	O
+32l0l4	l__avenue_Kennedy	L
+32l0l5	délimitée_vers_le_Sud	L
+32l0l6	au_delà_de_l__avenue_Kennedy	L
+
+#Les résultats de l'Analyse des Risques Résiduels (ARR) de mai 2019 réalisée sur la base des concentrations maximales mesurées sur le site, des composés volatils présents dans les gaz du sol et notamment celles rencontrées dans les gaz du sol sur les ouvrages localisés en bordure de l’avenue Kennedy montrent la nécessité de mettre en œuvre des mesures de gestion complémentaires de la pollution.
+
+33l0l0	Les_résultats	O
+33l0l1	mai_2019	T
+33l0l2	les_ouvrages	O
+33l0l3	localisés_en_bordure_de_l__avenue_Kennedy	L
+33l1l0	composés	S
+
+#Au regard des impacts résiduels et notamment en limite du site et des conclusions de l'ARR, l’inspection des installations classées a proposé dans son rapport du 30 juillet 2019 de demander à l’exploitant de :
+
+34l0l0	l__inspection_des_installations_classées	O
+34l0l1	30_juillet_2019	T
+34l0l2	l__exploitant	O
+
+#• Revoir le bilan massique en tenant compte de l’ensemble de la pollution présente sur et hors site,
+
+
+#• Proposer des mesures de gestion complémentaires de la pollution.
+

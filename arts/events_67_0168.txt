@@ -1,0 +1,120 @@
+
+#67.0168
+#La société GAGGENAU produit des fours vapeur et des plaques de cuisson à  Lipsheim.
+
+0l0l0	La_société_GAGGENAU	O
+0l0l1	produit_des_fours_vapeur_et_des_plaques_de_cuisson	A
+0l0l2	à	R
+0l0l3	__Lipsheim	L
+0l1l0	La_société_GAGGENAU	I
+
+#Le fonctionnement des installations de travail mécanique des métaux et de traitement de surface est soumis au régime de l'autorisation.
+
+1l0l0	Le_fonctionnement_des_installations_de_travail_mécanique_des_métaux	A
+1l0l1	traitement_de_surface	A
+1l0l2	est_soumis_au	R
+1l0l3	régime_de	N
+1l0l4	l__autorisation	O
+
+#Il est réglementé par l'arrêté préfectoral du 27 novembre 2007 et l'arrêté ministériel du 30 juin 2006 relatif aux installations de traitement de surfaces.
+
+2l0l0	l__arrêté_préfectoral	O
+2l0l1	27_novembre_2007	T
+2l0l2	l__arrêté_ministériel	O
+2l0l3	du_30_juin_2006	T
+2l0l4	relatif	R
+2l0l5	aux_installations_de_traitement_de_surfaces	O
+
+#En 2008, la surveillance des eaux souterraines effectuée par l'exploitant a révélé la présence de trichloréthylène et de tétrachloroéthylène (ou perchloréthylène) dans le puits incendie situé à l'angle Nord-Est du site.
+
+3l0l0	En_2008__	T
+3l0l1	la_surveillance_des_eaux_souterraines	A
+3l0l2	l__exploitant	O
+3l0l3	a_révélé	N
+3l0l4	la_présence	O
+3l0l5	le_puits_incendie	O
+3l0l6	__situé_à_l__angle_Nord_Est_du_site	L
+3l1l0	trichloréthylène	S
+3l1l1	tétrachloroéthylène	S
+3l1l2	perchloréthylène	S
+
+#L'exploitant a transmis en novembre 2010 un diagnostic complémentaire du site et un plan de gestion de la pollution caractérisée lors du diagnostic.
+
+4l0l0	L__exploitant	O
+4l0l1	a_transmis	N
+4l0l2	en_novembre_2010	T
+4l0l3	un_diagnostic_complémentaire	N
+4l0l4	un_plan_de_gestion	O
+4l0l5	la_pollution_caractérisée_lors_du_diagnostic	N
+
+#Ce dernier met en évidence une origine de la contamination au droit de l'ancien atelier de dégraissage au perchloréthylène : de l'ordre de 10000 µg/l.
+
+5l0l0	une_origine	O
+5l0l1	la_contamination	O
+5l0l2	dégraissage_au_perchloréthylène	A
+5l1l0	perchloréthylène	S
+
+#Précisons que le perchloréthylène n'est plus utilisé sur le site depuis 1999 (remplacé par un produit lessiviel).
+
+6l0l0	n__est_plus_utilisé_sur_le_site	N
+6l0l1	depuis_1999	T
+6l0l2	un_produit_lessiviel	N
+6l1l0	perchloréthylène	S
+6l1l1	un_produit_lessiviel	U
+
+#Du 1,1,1 Trichloroéthane est également présent : de l'ordre de 1400 µg/l.
+
+7l1l0	Du_1_1_1_Trichloroéthane	S
+
+#Les produits de dégradation du perchloréthylène sont également identifiés (hormis le chlorure de vinyle), mais dans une moindre mesure.
+
+8l0l0	Les_produits_de_dégradation	N
+8l1l0	perchloréthylène	S
+8l1l1	chlorure_de_vinyle	S
+
+#Les concentrations pour la somme trichloréthylène et perchloréthylène observées en limite de site sont actuellement de l'ordre de la dizaine de µg/l au niveau de PZ 7, de la trentaine de µg/l au niveau de PZ 9, de la vingtaine de µg/l au niveau du puits incendie 272-6X-116.
+
+9l0l0	en_limite_de_site	L
+9l1l0	trichloréthylène	S
+9l1l1	perchloréthylène	S
+
+#Ponctuellement, du trichloréthane a pu être observé sur le piézomètre amont.
+
+10l1l0	trichloréthane	S
+
+#Une installation de dépollution a été mise en route en octobre 2011 (pompage des eaux souterraines en aval de l'ancien atelier puis traitement de ces dernières sur une tour de stripping et charbons actifs permettant d'obtenir des concentrations pour la somme perchloréthylène et trichloréthylène inférieures à 1 µg/l avant réinjection en nappe dans une tranchée drainante en amont du point de pompage).
+
+11l0l0	Une_installation_de_dépollution	N
+11l0l1	a_été_mise_en_route	N
+11l0l2	en_octobre_2011	T
+11l0l3	pompage	N
+11l0l4	des_eaux_souterraines	A
+11l0l5	en_aval_de_l__ancien_atelier	L
+11l0l6	une_tranchée	O
+11l0l7	drainante	N
+11l0l8	en_amont_du_point_de_pompage	A
+11l1l0	charbons_actifs	U
+11l1l1	perchloréthylène	S
+11l1l2	trichloréthylène	S
+
+#Par arrêté complémentaire du 3 janvier 2013, le préfet du Bas-Rhin a fixé les objectifs de dépollution et encadré le fonctionnement de l'installation de dépollution.
+
+12l0l0	Par_arrêté_complémentaire	O
+12l0l1	du_3_janvier_2013__	T
+12l0l2	le_préfet_du_Bas_Rhin	T
+12l0l3	a_fixé	N
+12l0l4	les_objectifs	O
+12l0l5	de_dépollution	N
+12l0l6	encadré_le_fonctionnement	N
+12l0l7	l__installation_de_dépollution	N
+12l1l0	le_préfet_du_Bas_Rhin	I
+
+#Par ailleurs, des propositions d'adaptation du réseau de surveillance de la nappe sont attendues de l'exploitant sous un délai d'un an ainsi que la réalisation d'une étude historique sous un délai de 6 mois.
+
+13l0l0	surveillance_de_la_nappe	A
+13l0l1	l__exploitant	O
+13l0l2	sous	R
+13l0l3	un_délai_d__un_an	T
+13l0l4	la_réalisation_d__une_étude_historique	N
+13l0l5	sous	R
+13l0l6	un_délai_de_6_mois	T

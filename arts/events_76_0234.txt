@@ -1,0 +1,90 @@
+
+#76.0234
+#Un accident est survenu le 30 juin 2010 rue des Colverts à Sandouville.
+
+0l0l0	Un_accident_est_survenu	N
+0l0l1	le_30_juin_2010	T
+0l0l2	rue	L
+0l0l3	des_Colverts	O
+0l0l4	à_Sandouville	L
+
+#Il s'agissait d'un déversement d'huile contenant des PCB lors du renversement d'un transformateur sur la voie publique puis vers le réseau d'égout.
+
+1l0l0	un_déversement	N
+1l0l1	d__huile	O
+1l0l2	du_renversement_d__un_transformateur	N
+1l0l3	sur_la_voie_publique	L
+1l0l4	puis	R
+1l0l5	vers_le_réseau_d__égout	L
+1l1l0	huile_contenant_des_PCB	S
+
+#La surface polluée a été estimée à 45 m².
+
+
+#La société TREDI à Saint-Vulbas, agréée pour l'élimination et la décontamination des déchets contenant du PCB, a été sollicitée pour réaliser les actions de dépollution.
+
+3l0l0	La_société_TREDI	O
+3l0l1	à_Saint_Vulbas	L
+3l0l2	agréée	R
+3l0l3	l__élimination_et_la_décontamination	N
+3l0l4	a_été_sollicitée	N
+3l0l5	réaliser_les_actions_de_dépollution	N
+3l1l0	La_société_TREDI	I
+3l1l1	PCB	S
+
+#La société SANE SERC a réalisé un hydrocurage des égouts (deux nettoyages avec pompage de l'eau) et 8 m3 d'émulsion ont été récupérés.
+
+4l0l0	La_société_SANE_SERC	O
+4l0l1	a_réalisé	N
+4l0l2	un_hydrocurage	N
+4l0l3	égouts	O
+4l0l4	deux_nettoyages	N
+4l0l5	avec_pompage_de	N
+4l0l6	l__eau	O
+4l0l7	8_m3_d__émulsion	A
+4l0l8	ont_été_récupérés	N
+4l1l0	La_société_SANE_SERC	I
+
+#La société TREDI a réalisé la vidange et la dépollution de l'hydrocureur.
+
+5l0l0	La_société_TREDI	O
+5l0l1	a_réalisé	N
+5l0l2	la_vidange	N
+5l0l3	la_dépollution	N
+5l0l4	l__hydrocureur	N
+5l1l0	La_société_TREDI	I
+
+#le bitume a été excavé suivant le périmètre qui avait été défini par la société TREDI.
+
+6l0l0	le_bitume	O
+6l0l1	a_été_excavé	N
+6l0l2	suivant	R
+6l0l3	le_périmètre	O
+6l0l4	avait_été_défini	N
+6l0l5	la_société_TREDI	O
+6l1l0	la_société_TREDI	I
+
+#La société TREDI a excavé les terres jusqu'à ce que les résultats d'analyses des sols des prélèvements en fond de fouille montrent l'absence de pollution en PCB (seuil limite d'excavation de 50 ppm).
+
+7l0l0	La_société_TREDI	O
+7l0l1	a_excavé	N
+7l0l2	les_terres	O
+7l1l0	La_société_TREDI	I
+7l1l1	PCB	S
+
+#L'excavation des terres a eu lieu, parfois jusqu'à 60 cm de profondeur.
+
+8l0l0	L__excavation	N
+8l0l1	des_terres	O
+8l0l2	a_eu_lieu	N
+
+#Tous les déchets contaminés ont été collectés par la société TREDI (la camionnette, les eaux polluées, les bitumes excavés, les bâches, le sable, etc.) et transportés sur le site TREDI à Saint-Vulbas.
+
+9l0l0	Tous_les_déchets_contaminés	O
+9l0l1	ont_été_collectés	N
+9l0l2	la_société_TREDI	O
+9l0l3	transportés	N
+9l0l4	sur_le_site_TREDI	O
+9l0l5	à_Saint_Vulbas	L
+9l1l0	la_société_TREDI	I
+9l1l1	le_site_TREDI	I

@@ -1,0 +1,168 @@
+
+#93.0077
+#La société BP a exploité sur le site une station service de 1970 à 2003, date à laquelle la société a cessé son activité.
+
+0l0l0	La_société_BP	O
+0l0l1	a_exploité	N
+0l0l2	le_site	O
+0l0l3	une_station_service	O
+0l0l4	de_1970_à_2003__	T
+0l0l5	date_à_laquelle	T
+0l0l6	la_société	O
+0l0l7	a_cessé	N
+0l0l8	son_activité	A
+0l1l0	La_société_BP	I
+
+#Le site est actuellement en friche.
+
+1l0l0	Le_site	O
+
+#Le site, d’une surface d’environ 1000 m², est situé dans une zone urbaine mixte d’habitations, de commerces et de sites industriels.
+
+2l0l0	Le_site	O
+2l0l1	est_situé_dans_une_zone_urbaine_mixte_d__habitations___de_commerces_et_de_sites_industriels	L
+
+#Une nappe se situe à 4 m de profondeur au droit du site.
+
+3l0l0	Une_nappe	O
+3l0l1	se_situe_à_4	L
+3l0l2	au_droit_du_site	L
+
+#Il n’y a pas de captage des eaux souterraines recensé en aval hydraulique du site.
+
+4l0l0	en_aval_hydraulique_du_site	L
+
+#Un diagnostic initial des sols est réalisé par le bureau d’études ATI Services en octobre 1998, celui-ci révèle une pollution aux hydrocarbures et aux BTEX (benzène, toluène, éthylbenzène, xylène) de l’air du sol sur la partie centrale du site (aire de distribution).
+
+5l0l0	Un_diagnostic_initial_des_sols	N
+5l0l1	est_réalisé	N
+5l0l2	le_bureau_d__études_ATI_Services	O
+5l0l3	en_octobre_1998__	T
+5l0l4	sur_la_partie_centrale_du_site	L
+5l1l0	hydrocarbures	S
+5l1l1	BTEX	S
+5l1l2	benzène	S
+5l1l3	toluène	S
+5l1l4	éthylbenzène	S
+5l1l5	xylène	S
+
+#En 2003, l’exploitant procède au démantèlement des cuves de stockage et du séparateur d’hydrocarbures.
+
+6l0l0	En_2003__	T
+6l0l1	l__exploitant	O
+6l0l2	procède_au	R
+6l0l3	démantèlement_des_cuves_de_stockage	N
+6l0l4	séparateur_d__hydrocarbures	O
+6l1l0	cuves_de_stockage	D
+6l1l1	hydrocarbures	S
+
+#Le 04/12/2003, un arrêté préfectoral de dépollution est notifié à la société BP.
+
+7l0l0	Le_04_12_2003	T
+7l0l1	un_arrêté_préfectoral_de_dépollution	N
+7l0l2	est_notifié	N
+7l0l3	la_société_BP	O
+7l1l0	la_société_BP	I
+
+#L’exploitant effectue alors un diagnostic complémentaire des eaux souterraines et des sols en 2003.
+
+8l0l0	L__exploitant	O
+8l0l1	effectue_alors_un_diagnostic_complémentaire	N
+8l0l2	en_2003	T
+
+#Ce dernier met en évidence une pollution de l’air du sol aux hydrocarbures et aux BTEX au Nord et au Nord-Ouest du site, ainsi qu’une contamination des eaux souterraines aux BTEX et aux HCT (hydrocarbures totaux) au Nord-Ouest du site.
+
+9l0l0	une_pollution	N
+9l0l1	au_Nord_et_au_Nord_Ouest_du_site	L
+9l0l2	une_contamination	O
+9l0l3	au_Nord_Ouest_du_site	L
+9l1l0	hydrocarbures	S
+9l1l1	BTEX	S
+9l1l2	BTEX	S
+9l1l3	HCT	S
+9l1l4	hydrocarbures_totaux	S
+
+#Entre 2004 et 2006, l’exploitant réalise des travaux de dépollution sur le site.
+
+10l0l0	Entre_2004_et_2006__	T
+10l0l1	l__exploitant	O
+10l0l2	réalise_des_travaux_de_dépollution	N
+10l0l3	sur_le_site	L
+
+#Ces derniers consistent en l’excavation des terres impactées au niveau des anciennes cuves de stockage et du séparateur à hydrocarbures, mais aussi en l’assainissement de l’air du sol (par un procédé de venting) et des eaux souterraines (par des procédés de décantation et de stripping).
+
+11l0l0	l__excavation	N
+11l0l1	des_terres_impactées	O
+11l0l2	séparateur_à_hydrocarbures	O
+11l0l3	l__assainissement	N
+11l0l4	des	N
+11l0l5	procédés_de_décantation	N
+11l1l0	cuves_de_stockage	D
+11l1l1	hydrocarbures	S
+
+#À la fin des travaux, une surveillance de la nappe de 2006 à 2007 est réalisée.
+
+12l0l0	la_fin_des_travaux	N
+12l0l1	une_surveillance	A
+12l0l2	de_la_nappe	O
+12l0l3	de_2006_à_2007	T
+12l0l4	est_réalisée	N
+
+#Ce suivi montre une teneur anormale en hydrocarbures et en benzène à l’Ouest du site (puits Pu3).
+
+13l0l0	Ce_suivi	N
+13l0l1	à_l__Ouest_du_site	L
+13l1l0	hydrocarbures	S
+13l1l1	benzène	S
+
+#Ces valeurs sont supérieures au seuil de dépollution prescrit par l’arrêté préfectoral du 04 décembre 2003.
+
+14l0l0	dépollution	N
+14l0l1	l__arrêté_préfectoral	O
+14l0l2	04_décembre_2003	T
+
+#Une ARR (analyse des risques résiduels) est alors réalisée en avril 2008.
+
+15l0l0	Une_ARR	N
+15l0l1	est_alors_réalisée	N
+15l0l2	en_avril_2008__	T
+
+#Cette dernière conclut à un risque acceptable pour un usage tertiaire du site.
+
+
+#Afin d’atteindre le seuil prescrit par l’arrêté préfectoral du 04/12/2003, l’exploitant réalise un écrémage de la phase surnageante de la nappe en 2009 et effectue un suivi de la nappe (de façon semestrielle jusqu’en 2014) qui se poursuit encore actuellement.
+
+17l0l0	l__arrêté_préfectoral	O
+17l0l1	04_12_2003	T
+17l0l2	l__exploitant	O
+17l0l3	réalise_un_écrémage	N
+17l0l4	la_phase_surnageante	N
+17l0l5	la_nappe	O
+17l0l6	en_2009	T
+17l0l7	un_suivi_de_la_nappe	A
+17l0l8	jusqu__en_2014__	T
+17l0l9	se_poursuit	O
+17l0l10	encore_actuellement__	T
+
+#Le dernier rapport de suivi de la nappe, daté du 06 juin 2014, conclut à une stabilisation des concentrations en hydrocarbures et en BTEX et recommande en conséquence de passer à un suivi annuel et de combler les ouvrages Pz8 et Pz10.
+
+18l0l0	Le_dernier_rapport_de_suivi	O
+18l0l1	la_nappe	O
+18l0l2	daté_du_06_juin_2014__	T
+18l0l3	une_stabilisation	N
+18l0l4	combler_les_ouvrages	N
+18l1l0	hydrocarbures	S
+18l1l1	BTEX	S
+
+#La présence d’hydrocarbures surnageants ayant été par ailleurs ponctuellement constatée au niveau de Pz3bis, le rapport susvisé recommande également de nettoyer le piézomètre en question, car ce constat pourrait être imputable à des traces résiduelles d’hydrocarbures présentes sur le tubage interne du piézomètre.
+
+19l0l0	ayant_été_par	N
+19l0l1	nettoyer	N
+19l0l2	le_piézomètre	O
+19l1l0	hydrocarbures_surnageants	U
+19l1l1	des_traces_résiduelles_d_	U
+19l1l2	hydrocarbures	S
+
+#La surveillance se poursuit.
+
+20l0l0	surveillance_se_poursuit__	T

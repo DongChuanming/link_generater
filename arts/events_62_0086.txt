@@ -1,0 +1,97 @@
+
+#62.0086
+#- Fabrication de résines phénoliques (environ 40 000 t/an).
+
+0l0l0	Fabrication_de_résines	A
+0l1l0	résines_phénoliques	U
+
+#- Etablissement soumis à autorisation pour le stockage de formol et de phénol.
+
+1l0l0	Etablissement	O
+1l0l1	soumis_à_autorisation	L
+1l1l0	formol	S
+1l1l1	phénol	S
+
+#- Présence d'un incinérateur pour les eaux phénolées.
+
+2l0l0	incinérateur	N
+2l0l1	eaux_phénolées	O
+2l1l0	eaux_phénolées	U
+
+#- Site en activité visé par la circulaire du 3 avril 1996 qui impose une étude des sols sur les sites en activité.
+
+3l0l0	Site_en_activité	O
+3l0l1	visé_par	R
+3l0l2	la_circulaire	O
+3l0l3	3_avril_1996	T
+3l0l4	impose_une_étude_des_sols	N
+3l0l5	les_sites_en_activité	O
+
+#- Analyses des eaux souterraines avec suivi pour s'assurer du non impact sur la nappe.
+
+4l0l0	eaux_souterraines	O
+
+#-23/09/1998: AP de demande d'étude des sols.
+
+5l0l0	_23_09_1998___AP	T
+5l0l1	de_demande_d__étude_des_sols	O
+
+#-Etablissement IPPC (Prévention et Réduction Intégrée de la Pollution) ayant fourni un bilan de fonctionnement en 2005.
+
+6l0l0	_Etablissement_IPPC	O
+6l0l1	ayant_fourni_un_bilan_de_fonctionnement	N
+6l0l2	en_2005__	T
+
+#- Réalisation d'un diagnostic de pollution des sols, le 01/07/2011.
+
+7l0l0	Réalisation_d__un_diagnostic_de_pollution_des_sols	N
+7l0l1	le_01_07_2011__	T
+
+#Il indique en conclusion: "présence, dans les remblais sur 1.3m de métaux, phénols, crésols, formols, PCB, d'hydrocarbures et HAP.
+
+8l0l0	remblais	N
+8l0l1	1_3	O
+8l1l0	métaux	S
+8l1l1	phénols	S
+8l1l2	formols	S
+8l1l3	PCB	S
+8l1l4	d__hydrocarbures	S
+8l1l5	HAP	S
+
+#Les concentrations mesurées sont toutefois faibles et probablement liées à la qualité intrinsèque des remblais".
+
+9l0l0	remblais	O
+
+#Il est recommandé soit d'excaver, soit de confiner ces remblais.
+
+10l0l0	excaver	N
+10l0l1	confiner_ces_remblais	N
+
+#- Projet de cessation partielle d'activité sur une parcelle en vue d’être cédée à la mairie de Brebières pour l'implantation d'un parking.
+
+11l0l0	Projet_de_cessation_partielle_d__activité	O
+11l0l1	sur	R
+11l0l2	une_parcelle	O
+11l0l3	en_vue_d_	R
+11l0l4	être_cédée	N
+11l0l5	la_mairie	O
+11l0l6	de_Brebières	L
+11l0l7	l_	O
+11l0l8	implantation_d_	R
+11l0l9	un_parking	O
+
+#- Implantation de trois piézomètres en décembre 2012, les analyses mettent en évidence des concentrations toutes inférieures à la limite de quantification du laboratoire.
+
+12l0l0	Implantation_de_trois_piézomètres	O
+12l0l1	en_décembre_2012__	T
+
+#- Les eaux souterraines sont utilisées pour un usage AEP (eau potable) et AEA (eau agricole).
+
+13l0l0	un_usage_AEP	N
+
+#- Site en sécurité vis à vis des tiers.
+
+
+#- Action de l'administration toujours en cours.
+
+15l0l0	l__administration	O

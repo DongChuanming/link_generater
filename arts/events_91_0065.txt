@@ -1,0 +1,391 @@
+
+#91.0065
+#Les établissements DEBONO ont exercé pendant plusieurs décennies une activité de fabrication de peintures sur ce site d'environ 2 hectares, placé en bordure de l'Orge.
+
+0l0l0	Les_établissements_DEBONO	O
+0l0l1	ont_exercé	R
+0l0l2	pendant_plusieurs_décennies	T
+0l0l3	une_activité_de_fabrication_de_peintures	A
+0l0l4	sur	L
+0l0l5	ce_site	O
+0l0l6	placé_en_bordure_de_l__Orge	L
+0l1l0	Les_établissements_DEBONO	I
+
+#Aujourd'hui cette société n'existe plus, et le site se décompose en trois partie distinctes sur lesquelles persistent 2 sociétés industrielles:
+
+1l0l0	cette_société	O
+1l0l1	le_site	O
+1l0l2	2_sociétés_industrielles	O
+
+#- OM GROUP (ex SA Rockwood, ex Laporte Electronics) : stockage de produits chimiques pour l'industrie du semi conducteur)
+
+2l0l0	Laporte_Electronics	O
+2l0l1	stockage_de_produits_chimiques_pour_l__industrie_du_semi_conducteur__	A
+2l1l0	__OM_GROUP	I
+2l1l1	SA_Rockwood	I
+2l1l2	Laporte_Electronics	I
+
+#- SHERWIN WILLIAMS (ex Becker Acroma (ex Vernis Jacquelin)) (fabrication de vernis pour l'ameublement).
+
+3l0l0	SHERWIN_WILLIAMS	O
+3l0l1	ex_Becker_Acroma	O
+3l0l2	Vernis_Jacquelin	O
+3l0l3	fabrication_de_vernis	A
+3l1l0	SHERWIN_WILLIAMS	I
+
+#Cette société est également une installation classée pour la protection de l'environnement soumise à autorisation.
+
+4l0l0	Cette_société	O
+4l0l1	une_installation_classée	N
+4l0l2	la_protection_de	A
+4l0l3	l__environnement	O
+4l0l4	soumise_à	R
+4l0l5	autorisation	N
+
+#La troisième partie est la propriété d'un particulier.
+
+
+#Le site exploité par la société SHERWIN WILLIAM représente une superficie totale d'environ 26 000 m² incluant six bâtiments.
+
+6l0l0	Le_site	O
+6l0l1	exploité	N
+6l0l2	la_société_SHERWIN_WILLIAM	O
+6l0l3	six_bâtiments	O
+6l1l0	la_société_SHERWIN_WILLIAM	I
+
+#Le site industriel SHERWIN-WILLIAMS est implanté en limite des territoires des communes de Saint-Chéron et de Sermaise.
+
+7l0l0	Le_site_industriel_SHERWIN___WILLIAMS	O
+7l0l1	est_implanté	R
+7l0l2	en_limite_des_territoires_des_communes_de_Saint_Chéron	L
+7l0l3	Sermaise	L
+7l1l0	Le_site_industriel_SHERWIN___WILLIAMS	I
+
+#L'établissement est situé à environ 500 m à l'ouest du bourg de Saint-Chéron.
+
+8l0l0	L__établissement	O
+8l0l1	est_situé_à_environ_500_m_à_l__ouest_du_bourg_de_Saint_Chéron	L
+
+#Le voisinage direct du site est à dominante rurale, composé majoritairement de terres agricoles et de zones boisées.
+
+9l0l0	Le_voisinage_direct	O
+9l0l1	terres_agricoles	O
+9l0l2	zones_boisées	O
+
+#Le site est bordé dans sa partie Sud par la rivière l'Orge.
+
+10l0l0	Le_site	O
+10l0l1	bordé_dans_sa_partie_Sud_par_la_rivière_l__Orge	L
+
+#La rivière l'Orge est en liaison directe avec la nappe alluviale sub-affleurante au droit du site.
+
+11l0l0	La_rivière_l__Orge	L
+11l0l1	en_liaison_directe_avec	R
+11l0l2	la_nappe	O
+11l0l3	au_droit_du_site	L
+
+#Outre des parcelles agricoles et forestières, l’environnement direct du site industriel est composé :
+
+12l0l0	site_industriel	O
+
+#- de la société OM Group implantée en rive droite de l’Orge, à environ 20 m au sud du site OM Group;
+
+13l0l0	la_société_OM_Group	O
+13l0l1	implantée_en_rive_droite_de_l__Orge	L
+13l0l2	à_environ_20_m_au_sud_du_site_OM_Group	L
+13l1l0	la_société_OM_Group	I
+13l1l1	OM_Group	I
+
+#- d'une habitation au lieu-dit « moulin de la Rachée » située à environ 100 m au Sud-Ouest du site ;
+
+14l0l0	une_habitation	O
+14l0l1	au_lieu___dit_____moulin_de_la_Rachée	L
+14l0l2	____située_à_environ_100_m_au_Sud_Ouest_du_site	L
+
+#- d'une habitation individuelle située à environ 150 m au Nord ;
+
+15l0l0	une_habitation_individuelle	O
+15l0l1	située_à_environ_150_m_au_Nord	L
+
+#- du centre de loisirs 'Le Prieuré", propriété de la mairie de Paray-Vieille-Poste.
+
+16l0l0	la_mairie	O
+16l0l1	de_Paray___Vieille___Poste	L
+
+#Ce centre est situé en rive droite de l'Orge, en aval hydrographique, à environ 140 m au sud-est du site.
+
+17l0l0	Ce_centre	O
+17l0l1	est_situé_en_rive_droite_de_l__Orge	L
+17l0l2	en_aval_hydrographique___à_environ_140_m_au_sud_est_du_site	L
+
+#D'après les investigations réalisés sur le site, deux nappes superficielles sont présentes au droit du site :
+
+18l0l0	au_droit_du_site	L
+
+#- la nappe alluviale de l'Orge, dont la profondeur est estimée environ à 3 m et qui présente un écoulement orienté vers la rivière c'est à dire vers le sud-est;
+
+19l0l0	l__Orge	L
+19l0l1	orienté_vers_la_rivière_c_	L
+19l0l2	vers_le_sud_est	L
+
+#- la nappe régionale de la Craie dont la profondeur est estimée environ à 10 m et qui présente un écoulement orienté vers l'est/nord-est ;
+
+20l0l0	orienté_vers_l__est___nord___est	L
+
+#Par arrêté préfectoral du 28 octobre 1998, la société Vernis Jacquelin s'est vu prescrire la réalisation d'un diagnostic de sol et une ESR (Evaluation Simplifiée des Risques).
+
+21l0l0	Par_arrêté_préfectoral_du	O
+21l0l1	28_octobre_1998__	T
+21l0l2	la_société_Vernis_Jacquelin	O
+21l0l3	s__est_vu_prescrire	N
+21l0l4	la_réalisation_d__un_diagnostic_de_sol	N
+21l0l5	une_ESR	O
+21l0l6	Evaluation_Simplifiée_des_Risques	N
+21l1l0	la_société_Vernis_Jacquelin	I
+
+#Selon ce diagnostic, sur le site exploité par la société Vernis Jacquelin, on distingue deux sources de pollution à base, essentiellement, de substances organo-halogénées volatiles (COHV), ou de benzène,toluène,xylène (BTEX)...
+
+22l0l0	diagnostic	N
+22l0l1	le_site	O
+22l0l2	exploité	N
+22l0l3	la_société_Vernis_Jacquelin	O
+22l0l4	deux_sources_de_pollution	O
+22l1l0	la_société_Vernis_Jacquelin	I
+22l1l1	substances_organo___halogénées_volatiles	U
+22l1l2	COHV	S
+22l1l3	benzène	S
+22l1l4	toluène	S
+22l1l5	xylène	S
+22l1l6	BTEX	S
+
+#(une première zone contaminée autour du piézomètre PZ3 (au milieu du site près du bâtiment C) et une seconde au droit de l'actuel bâtiment B).
+
+23l0l0	une_première_zone_contaminée_autour	O
+23l0l1	piézomètre_PZ3	O
+23l0l2	au_milieu_du_site_près_du_bâtiment_C	L
+23l0l3	une_seconde	O
+23l0l4	au_droit_de_l__actuel_bâtiment_B	L
+
+#On ne relève pas à l'époque d'impact au niveau sur site en aval ni au niveau des premiers puits de particuliers (à 300 m).
+
+24l0l0	au_niveau_des_premiers	L
+24l0l1	puits_de_particuliers	O
+24l0l2	à_300_m	L
+
+#L'impact sur la rivière Orge n'est pas établi à l'époque.
+
+25l0l0	L__impact	O
+25l0l1	sur_la_rivière_Orge	L
+25l0l2	l__époque	O
+
+#Les études,déposées début 2000, classent le site au niveau 2 : c'est-à-dire celui d'un site nécessitant la mise en place d'une surveillance des eaux souterraines.
+
+26l0l0	Les_études	N
+26l0l1	début_2000__	T
+26l0l2	classent	N
+26l0l3	le_site	O
+26l0l4	au	R
+26l0l5	niveau_2	O
+26l0l6	la_mise_en_place_d_	N
+26l0l7	une_surveillance_des_eaux_souterraines	A
+
+#Celle-ci a été prescrite par arrêté préfectoral du 12 février 2001.
+
+27l0l0	a_été_prescrite	N
+27l0l1	par_arrêté_préfectoral	O
+27l0l2	du_12_février_2001__	T
+
+#Le site est équipé d'un réseau de 3 piézomètres.
+
+28l0l0	Le_site	O
+
+#La fréquence d'analyses est semestrielle.
+
+
+#Depuis, l'exploitant réalise régulièrement un suivi des eaux souterraines.
+
+30l0l0	l__exploitant	O
+30l0l1	un_suivi_des_eaux_souterraines	A
+
+#La dernière campagne d'analyses sur les eaux souterraines a eu lieu du 3 au 5 février 2016 et a mis en évidence les éléments suivants.
+
+31l0l0	La_dernière_campagne_d__analyses	N
+31l0l1	a_eu_lieu	N
+31l0l2	du_3_au_5_février_2016	T
+
+#Concernant la nappe alluviale :
+
+
+#- la présence de tétrachloréthylène (PCE), trichloroéthylène (TCE) et de chlorure de vinyle à des concentrations supérieures à la norme de potabilité ainsi que la présence de cis-1,2-dichloroéthène et de tétrachlorométhane à des concentrations supérieures aux valeurs-guide de l'OMS au droit de PZ3 et PZ6 présents au centre du site ;
+
+33l1l0	tétrachloréthylène	S
+33l1l1	PCE	S
+33l1l2	trichloroéthylène	S
+33l1l3	TCE	S
+33l1l4	chlorure_de_vinyle	S
+33l1l5	cis_1_2_dichloroéthène	S
+33l1l6	tétrachlorométhane	S
+
+#- la présence de tétrachlorométhane à une concentration supérieure à la valeur-guide de l'OMS au droit de PZ4 situé en partie aval du site;
+
+34l0l0	situé_en_partie_aval_du_site	L
+34l1l0	tétrachlorométhane	S
+
+#- une diminution significative de la concentration en COHV au droit de PZ5 bien que la concentration en chlorure de vinyle reste supérieure à la norme de potabilité.
+
+35l1l0	COHV	S
+35l1l1	chlorure_de_vinyle	S
+
+#Il est prévu que le piézomètre soit nettoyé pour tout prélèvement ultérieur;
+
+36l0l0	le_piézomètre	O
+
+#- pas de concentration significative en COHV dans les piézomètres en amont du site (PZ1 et PZ2)
+
+37l0l0	en_amont_du_site	L
+37l1l0	COHV	S
+
+#- les BTEX n'ont pas été détectés;
+
+38l1l0	les_BTEX	S
+
+#- au droit de PZ1, PZ2, PZ4 et PZ5 les concentrations en manganèse sont supérieures à la norme de potabilité;
+
+39l1l0	manganèse	S
+
+#- au droit de PZ2 et PZ5, la concentration en fer a suivi une tendance oscillatoire avec des dépassements de la valeur de potabilité.
+
+40l0l0	fer	O
+40l0l1	a_suivi	N
+40l0l2	des_dépassements	N
+40l1l0	fer	S
+
+#Concernant la nappe de la craie :
+
+
+#- la présence de PCE et TCE à des concentrations supérieures à la norme de potabilité et de tétrachlorométhane à des concentrations supérieures à la valeur-guide de l'OMS dans tous les piézomètres dont PZ7 installé en amont du site et PZ10 installé en aval et avec une accumulation de PCE et TCE plus importante au droit de PZ9.
+
+42l0l0	amont_du_site	L
+42l1l0	PCE	S
+42l1l1	TCE	S
+42l1l2	tétrachlorométhane	S
+42l1l3	PCE	S
+42l1l4	TCE	S
+
+#- les BTEX n'ont pas été détectés;
+
+43l1l0	les_BTEX	S
+
+#- les concentrations en métaux sont restées inférieures aux seuils de détection dans tous les piézomètres.
+
+44l1l0	métaux	S
+
+#Afin d'évaluer le degré de contamination potentielle de la rivière de l'Orge à partir du panache de pollution identifié dans la nappe alluviale, depuis 2012, l'exploitant réalise une surveillance des eaux de surface et de sédiments (deux échantillons, un en amont du site et un en aval).
+
+45l0l0	Afin	R
+45l0l1	d__évaluer	N
+45l0l2	le_degré_de_contamination	O
+45l0l3	rivière_de_l__Orge	L
+45l0l4	depuis_2012__	T
+45l0l5	l__exploitant	O
+45l0l6	réalise_une	N
+45l0l7	surveillance_des_eaux_de_surface	A
+45l0l8	en_amont_du_site	L
+
+#Les derniers résultats de ce suivi sont les suivants :
+
+
+#- une augmentation des concentrations en COHV dissous dans l'eau de l'Orge entre le point d'échantillonnage amont et le point aval bien que les concentrations restent inférieures à la norme de potabilité et aux valeurs-guide de l'OMS;
+
+47l1l0	COHV	S
+
+#- pas de concentration significative en COHV dans les sédiments hormis le cis-1,2-dichloroéthène (0,47 mg/kg MS sur le point aval), aux points d'échantillonnage amont et aval;
+
+48l1l0	COHV	S
+48l1l1	le_cis_1_2_dichloroéthène	S
+
+#- des concentrations en PCB dans les sédiments comparables entre l'amont et l'aval;
+
+49l0l0	amont	L
+49l1l0	PCB	S
+49l1l1	sédiments	S
+
+#- les métaux lourds ont été détectés dans les sédiments avec des concentrations plus fortes en amont ou du même ordre de grandeur entre l'amont et l'aval.
+
+50l0l0	ont_été_détectés	N
+50l1l0	les_métaux_lourds	S
+
+#Enfin, plusieurs campagnes d'analyses des gaz des sols et de l'air ambiant dans le bâtiment administratif ont été menées depuis 2010.
+
+51l0l0	plusieurs_campagnes_d__analyses	N
+51l0l1	administratif	O
+51l0l2	ont_été_menées	N
+51l0l3	depuis_2010__	T
+
+#Les résultats de la dernière campagne d'août 2014 sont les suivants :
+
+52l0l0	la_dernière_campagne_d_	N
+52l0l1	août_2014	T
+
+#Concernant les gaz des sols :
+
+
+#- aucun des composés analysés n'a été détecté au droit des trois piézairs installés autour du bâtiment de production ;
+
+54l0l0	trois_piézairs	O
+54l0l1	installés_autour_du_bâtiment_de_production	L
+54l1l0	composés	S
+
+#- dans les autres piézairs, une seule famille de composés a été détectée : les COHV.
+
+55l0l0	a_été_détectée	N
+55l1l0	composés	S
+55l1l1	les_COHV	S
+
+#Le PCE a été mesuré dans 3 puits à des concentrations comprises entre 0,175 et 5,5 mg/m3;
+
+56l0l0	3_puits	O
+56l1l0	Le_PCE	S
+
+#- en A9 le 1,1,1-trichloroéthane a été détecté à une concentration de 0,12 mg/m3;
+
+57l0l0	a_été_détecté	N
+57l1l0	le_1_1_1_trichloroéthane	S
+
+#- une diminution des concentrations en hydrocarbures volatils et de toluène : en 2013 ces composés ont été détectés sous forme de trace tandis qu'ils n'ont pas été détectés en 2014.
+
+58l0l0	en_2013	T
+58l0l1	ont_été_détectés	N
+58l0l2	ont_pas_été_détectés	N
+58l0l3	en_2014__	T
+58l1l0	hydrocarbures_volatils	S
+58l1l1	toluène	S
+58l1l2	composés	S
+
+#Concernant l'air ambiant dans le bâtiment administratif C :
+
+59l0l0	le_bâtiment_administratif	O
+
+#- les seuls composés mesurés à des concentrations supérieures aux limites de quantification sont les composés aromatiques volatils avec des concentrations largement inférieures aux valeurs seuils pour l'air ambiant quand elles existent.
+
+60l1l0	composés_aromatiques_volatils	S
+
+#Suite à cette campagne d'analyses des gaz des sols et d'air ambiant, l'exploitant a fait réaliser en octobre 2015 une EQRS (Evaluation Quantitative des Risques Sanitaires).
+
+61l0l0	Suite	R
+61l0l1	à_cette_campagne_d__analyses	N
+61l0l2	l__exploitant	O
+61l0l3	a_fait_réaliser	N
+61l0l4	en_octobre_2015	T
+61l0l5	une_EQRS	N
+61l0l6	Evaluation_Quantitative	N
+61l1l0	Sanitaires	S
+
+#L'étude conclut que les résultats des calculs de risques pour les travailleurs actuels du site exposés à l'intérieur et à l'extérieur des bâtiments à l'inhalation des vapeurs émises depuis les sols et l'eau souterraines montrent des risques acceptables pour l'ensemble des substances analysées.
+
+62l0l0	les_travailleurs_actuels	O
+62l0l1	l__extérieur_des_bâtiments	N
+62l0l2	l__inhalation	N
+
+#L'état des milieux est compatible avec l'usage actuel.
+

@@ -1,0 +1,257 @@
+
+#76.0027
+#Une partie du site AREVA (anciennement ALSTHOM) est construite sur la partie sud d'une ancienne décharge.
+
+0l0l0	Une_partie_du_site_AREVA	O
+0l0l1	anciennement_ALSTHOM	O
+0l0l2	est_construite	N
+0l0l3	sur_la_partie_sud_d__une_ancienne_décharge	L
+0l1l0	AREVA	I
+0l1l1	ALSTHOM	I
+
+#Ce site a été rempli d'ordures ménagères apportées par la société RIMOR et provenant des villes de Rouen et Petit Quevilly, ainsi que de divers déchets industriels (carbures, produits sulfureux).
+
+1l0l0	Ce_site	O
+1l0l1	a_été_rempli	N
+1l0l2	la_société_RIMOR	O
+1l0l3	provenant_des_villes_de_Rouen_et_Petit_Quevilly	L
+1l1l0	ordures_ménagères	U
+1l1l1	la_société_RIMOR	I
+1l1l2	divers_déchets_industriels	U
+1l1l3	carbures	U
+1l1l4	produits_sulfureux	U
+
+#Les Unités U2,U4 et le parking ont été construits au droit de la décharge.
+
+2l0l0	Les_Unités	O
+2l0l1	le_parking	O
+2l0l2	ont_été_construits	N
+2l0l3	au_droit_de_la_décharge	L
+
+#L'unité U1, non concernée par la décharge, fait l'objet d'une fiche BASOL à part (76.0040).
+
+
+#Le début de l'exploitation de granulats est probablement antérieur à 1900.
+
+4l0l0	Le_début_de	N
+4l0l1	l__exploitation_de_granulats	A
+4l0l2	est_probablement_antérieur_à_1900	T
+
+#Cette zone de remblais était traversée autrefois du sud-ouest vers le nord-est par le prolongement de l'actuelle rue Rosa Bonheur.
+
+5l0l0	remblais	O
+5l0l1	était	R
+5l0l2	traversée	O
+5l0l3	autrefois	T
+5l0l4	du_sud_ouest_vers_le_nord_est_par_le_prolongement_de_l__actuelle_rue_Rosa_Bonheur	L
+
+#Par rapport à cette rue, deux zones de remblais distinctes peuvent être définies : une zone nord et une zone sud.
+
+6l0l0	deux_zones_de_remblais	O
+6l0l1	une_zone_nord	O
+
+#L'examen des photographies aériennes disponibles depuis 1947 (site de l'IGN) montre l'existence d'une décharge ayant eu les évolutions spatiales suivantes :
+
+7l0l0	depuis_1947	T
+7l0l1	l__IGN	O
+
+#- 1947 : la zone sud de la décharge est visible et ressemble à un étang (affleurement de la nappe).
+
+8l0l0	__1947	T
+8l0l1	la_zone_sud_de_la_décharge	O
+8l0l2	étang	L
+
+#Elle était connue à l'époque sous le nom de mare à DEVAUX, DEVAUX étant le propriétaire initial et l'exploitant de la carrière,
+
+9l0l0	à_l__époque	T
+9l0l1	DEVAUX	O
+9l0l2	DEVAUX	O
+9l0l3	le_propriétaire_initial	O
+9l0l4	l__exploitant	N
+9l0l5	la_carrière	O
+9l1l0	DEVAUX	I
+9l1l1	DEVAUX	I
+
+#- 1955 : la zone nord, précédemment agricole, est utilisée comme décharge,
+
+10l0l0	la_zone_nord	O
+10l0l1	est_utilisée	N
+10l0l2	comme_décharge	O
+
+#- 1970 : la partie sud possède une couverture végétale, alors que la partie nord n'en possède pas.
+
+11l0l0	la_partie_sud	O
+
+#L'ensemble de la zone est remblayée.
+
+12l0l0	la_zone	O
+12l0l1	est_remblayée	N
+
+#Les coupes géologiques réalisées lors des sondages géotechniques de 1972 (construction de l'unité U2) montrent que les alluvions tant au nord qu'au sud ont été extraites (8 m au nord et 10 m au sud).
+
+13l0l0	Les_coupes_géologiques	N
+13l0l1	des_sondages_géotechniques	N
+13l0l2	de_1972	T
+13l0l3	construction_de_l__unité	N
+13l0l4	au_nord_qu__au_sud	L
+13l0l5	ont_été_extraites	N
+
+#La zone sud de la décharge est composée :
+
+14l0l0	La_zone_sud	O
+
+#- Vers l'ouest par des débris divers (briques, graviers, craie, ferrailles, ordures ménagères, hydrocarbures...
+
+15l0l0	Vers_l__ouest	L
+15l1l0	des_débris_divers	U
+
+#- Vers l'est, d'argiles et de Silex.
+
+16l0l0	Vers_l__est	L
+
+#La zone nord de la décharge est surtout composée d'ordures ménagères récentes non compactées.
+
+17l0l0	La_zone_nord	O
+17l1l0	ordures_ménagères_récentes	U
+
+#On note également la présence de blocs de bétons de grandes tailles le long du dépôt Total et des dépôts de bois à l'est.
+
+18l0l0	la_présence_de_blocs_de_bétons	O
+18l0l1	grandes_tailles	O
+18l0l2	le_long_du_dépôt_Total	L
+18l0l3	bois	O
+18l0l4	à_l__est	L
+
+#En 1955, la société NOBEL a acheté à la société DEVAUX la carrière dite carrière Devaux et y a enfoui des déchets jusqu'en 1965.
+
+19l0l0	En_1955	T
+19l0l1	la_société_NOBEL	O
+19l0l2	a_acheté	N
+19l0l3	la	N
+19l0l4	société_DEVAUX	O
+19l0l5	la_carrière_dite_carrière_Devaux	O
+19l0l6	a_enfoui	N
+19l0l7	des_déchets	O
+19l0l8	jusqu_	T
+19l1l0	la_société_NOBEL	I
+19l1l1	société_DEVAUX	I
+
+#Selon Nobel, les déchets à caractère dangereux ont été stockés dans la grotte de Biessard (fiche 76.0003). les déchets stockés dans la carrière sont annoncés "neutres" par NOBEL.
+
+20l0l0	les_déchets_à_caractère_dangereux	O
+20l0l1	ont_été_stockés	N
+20l0l2	dans_la_grotte_de_Biessard	O
+20l0l3	la_carrière	O
+20l1l0	Nobel	I
+20l1l1	les_déchets	U
+20l1l2	NOBEL	I
+
+#Les société Rimor et Devaux n'existant plus, très peu d'informations sont disponibles sur l'exploitation des carrières.
+
+21l0l0	Les_société_Rimor	O
+21l1l0	Les_société_Rimor	I
+
+#De toute évidence, elles ont été utilisées pour le dépôt sauvage de produits industriels (présence d'hydrocarbures et de chaux).
+
+22l0l0	elles	O
+22l0l1	ont_été_utilisées_pour	R
+22l0l2	le_dépôt_sauvage_de_produits_industriels	N
+22l1l0	produits_industriels	U
+22l1l1	hydrocarbures	S
+
+#Actions menée :
+
+
+#A la suite d'un arrêté préfectoral du 9 octobre 1998, une étude historique et une ESR ont été réalisées (17 mai 1999), classant ce site en classe 2 : site à surveiller.
+
+24l0l0	A_la_suite_d_	R
+24l0l1	un_arrêté_préfectoral	O
+24l0l2	9_octobre_1998__	T
+24l0l3	une_étude_historique	N
+24l0l4	une_ESR_ont_été_réalisées	N
+24l0l5	__17_mai_1999	T
+24l0l6	classant	N
+24l0l7	ce_site	O
+
+#Dans le but d'éliminer tout risque d'accumulation de gaz sous les dalles (bâtiments U2 et U4), la société Alsthom a installé un système d'extraction sous dalle béton avec un rejet à l'atmosphère.
+
+25l0l0	Dans_le	R
+25l0l1	la_société_Alsthom	O
+25l0l2	a_installé	N
+25l0l3	un_système	O
+25l0l4	dalle_béton	O
+25l1l0	la_société_Alsthom	I
+
+#Les prescriptions complémentaires fixant le mode de surveillance (du méthane) ont été imposées par arrêté préfectoral du 02 juin 2000.
+
+26l0l0	Les_prescriptions_complémentaires	O
+26l0l1	ont_été_imposées	N
+26l0l2	par_arrêté_préfectoral	O
+26l0l3	du_02_juin_2000__	T
+26l1l0	méthane	S
+
+#Cet arrêté n'impose pas de suivi de la qualité des eaux souterraines.
+
+27l0l0	suivi_de_la_qualité_des_eaux_souterraines	A
+
+#L'inspection des installations classées a estimé que, compte tenu du traitement effectué au moment de la construction du parking et de l'usine, et donc de l'imperméabilisation de la zone, ce suivi n'était pas nécessaire.
+
+28l0l0	L__inspection_des_installations_classées	O
+28l0l1	au_moment_de	R
+28l0l2	la_construction_du_parking	N
+28l0l3	l__usine	O
+28l0l4	l__imperméabilisation	N
+28l0l5	la_zone	O
+28l0l6	ce_suivi_n_	O
+
+#De plus, l'analyse des eaux souterraines réalisée au moment de l'étude de sol ne montre pas de dépassements des limites de détection.
+
+29l0l0	au_moment_de	R
+29l0l1	l__étude	N
+
+#Les polluants recherchés étaient les suivants :
+
+
+#- métaux lourds,
+
+31l1l0	métaux_lourds	S
+
+#- BTEX,
+
+32l1l0	BTEX	I
+
+#- phénols et crésols,
+
+33l1l0	phénols	S
+
+#- HAP,
+
+34l1l0	HAP	S
+
+#- solvants chlorés,
+
+35l1l0	solvants_chlorés	S
+
+#- chlorobenzènes,
+
+36l1l0	chlorobenzènes	S
+
+#- PCB,
+
+37l1l0	PCB	S
+
+#- HCT,
+
+
+#- pesticides.
+
+39l1l0	pesticides	S
+
+#Les derniers résultats de contrôle du méthane montrent que les concentrations trouvées sont très éloignées des limites inférieures d'explosivité (LIE).
+
+
+#actions à mener ou envisagées :
+
+
+#Aucune action immédiate n'est prévue pour ce site.
+

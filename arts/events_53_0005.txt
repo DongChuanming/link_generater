@@ -1,0 +1,112 @@
+
+#53.0005
+#Fabrique de bouchons et de capsules en aluminium située dans un ancien site ardoisier de la commune de Saint Saturnin du Limet.
+
+0l0l0	Fabrique_de_bouchons	A
+0l0l1	aluminium	O
+0l0l2	située_dans_un	L
+0l0l3	ancien_site_ardoisier	O
+0l0l4	la_commune_de_Saint_Saturnin_du_Limet	L
+
+#Compte tenu de l'activité traitement de surface importante exercée sur ce site, des conditions de rejets antérieures des eaux traitées et des risques potentiels de pollution des sols, le groupe GFI (devenu LISI) a entrepris au niveau national une démarche volontaire d'études de sols dans le cadre de la circulaire du 3 avril 1996.
+
+1l0l0	l__activité_traitement	A
+1l0l1	risques_potentiels_de_pollution_des_sols	O
+1l0l2	le_groupe_GFI	O
+1l0l3	devenu	N
+1l0l4	LISI	O
+1l0l5	a_entrepris	N
+1l0l6	3_avril_1996	T
+1l1l0	le_groupe_GFI	I
+
+#Le calendrier retenu prévoit les échéances suivantes :
+
+2l0l0	Le_calendrier_retenu	O
+2l0l1	prévoit	R
+2l0l2	les_échéances	O
+
+#-31 décembre 2000 : analyse historique et recueil des données environnementales.
+
+3l0l0	_31_décembre_2000	T
+3l0l1	données_environnementales	O
+
+#-31 décembre 2001 : investigations complémentaires et E.
+
+4l0l0	_31_décembre_2001	T
+4l0l1	__investigations_complémentaires	O
+4l0l2	E_	O
+
+#.R.
+
+
+#Un arrêté préfectoral complémentaire a été pris le 21 juin 1999 en ce sens.
+
+6l0l0	Un_arrêté_préfectoral_complémentaire	O
+6l0l1	a_été_pris	N
+6l0l2	le_21_juin_1999	T
+
+#Selon la méthodologie du guide " gestion des sites (potentiellement) pollués 3 sources de pollutions ont été identifiées en juillet 2003:
+
+7l0l0	3_sources_de_pollutions	O
+7l0l1	ont_été_identifiées	N
+7l0l2	en_juillet_2003	T
+
+#- source 1: sols pollués par des hydrocarbures - ancien parc à fûts ;
+
+8l0l0	des_hydrocarbures	O
+8l0l1	ancien_parc_à_fûts	O
+8l1l0	hydrocarbures	S
+
+#- source 2: sols pollués par du cuivre - au niveau des anciens bassins tampons ;
+
+9l0l0	cuivre__	O
+9l0l1	au_niveau_des	R
+9l0l2	anciens_bassins_tampons	O
+9l1l0	du_cuivre	S
+
+#- source 3: dite fictive, composée de nitrates, d'aluminium et de manganèse présents dans les eaux superficielles.
+
+10l0l0	nitrates	O
+10l1l0	nitrates	S
+10l1l1	aluminium	S
+10l1l2	manganèse	S
+
+#Le contexte géologique et hydrogéologique (profondeur des eaux souterraines supérieure à 30 mètres, roches à perméabilité de fractures - shistes, ardoisiers - et présence de voies préférentielles de transfert dans d'anciennes galeries de mines) ne permet pas la mise en place d'un réseau piézométrique pour assurer un suivi correct de l'impact éventuel du site, selon l'avis de l'hydrogéologue.
+
+11l0l0	Le_contexte_géologique_et_hydrogéologique	N
+
+#Une surveillance des eaux superficielles est préconisée pour permettre la détection de toute pollution éventuelle venant du site et a été demandée à l'industriel.
+
+12l0l0	Une_surveillance_des_eaux_superficielles	A
+12l0l1	détection_de	A
+12l0l2	toute_pollution	O
+12l0l3	a_été_demandée	N
+12l0l4	l__industriel	O
+
+#La nécessité de cette surveillance et le traitement des zones polluées, en cas de travaux dans les zones repérées comme localement polluées, sont reprises dans un arrêté préfectoral du 24 août 2004 régissant l'ensemble du site.
+
+13l0l0	La_nécessité	N
+13l0l1	surveillance	A
+13l0l2	le_traitement	N
+13l0l3	zones_polluées	O
+13l0l4	en_cas_de	R
+13l0l5	travaux	N
+13l0l6	dans	L
+13l0l7	les_zones_repérées	O
+13l0l8	comme_localement_polluées	N
+13l0l9	un_arrêté_préfectoral	O
+13l0l10	24_août_2004	T
+
+#En outre, compte tenu des travaux programmés pour la construction d'une nouvelle station d'épuration sur une partie non encore utilisée du site, l'évaluation simplifiée des risques devra être remise à jour suite à l'abandon de l'ancienne station.
+
+14l0l0	des_travaux_programmés	N
+14l0l1	la_construction_d__une_nouvelle_station_d__épuration	N
+14l0l2	sur_une_partie	L
+14l0l3	non_encore_utilisée	N
+14l0l4	du_site	L
+14l0l5	l__évaluation_simplifiée	O
+14l0l6	des_risques	O
+14l0l7	devra_être_remise_à_jour	N
+14l0l8	suite_à	R
+14l0l9	l__abandon	N
+14l0l10	l__ancienne_station	O

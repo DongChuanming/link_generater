@@ -1,0 +1,167 @@
+
+#974.0039
+#La société EDF exploite un site de production d’électricité à « Port-Est » sur le territoire de la commune du Port.
+
+0l0l0	La_société_EDF	O
+0l0l1	exploite	N
+0l0l2	un_site	O
+0l0l3	de_production_d__électricité	A
+0l0l4	à_____Port_Est_____sur_le_territoire_de_la_commune_du_Port	L
+0l1l0	La_société_EDF	I
+
+#Ce site, autorisé en janvier 2001 pour l’exploitation d’une turbine à combustion de 42 MWe, a été modifié et intègre désormais une deuxième turbine à combustion de même puissance, un réservoir d’hydrocarbures de 2430 m3 et un système de 2 pompes et d’une centrifugeuse entre ce réservoir et les deux bâches de stockage journalier, de capacité unitaire de 250 m3.
+
+1l0l0	Ce_site	O
+1l0l1	autorisé	O
+1l0l2	en_janvier_2001	T
+1l0l3	l_	O
+1l0l4	exploitation_d__une_turbine_à_combustion	A
+1l0l5	42_MWe	N
+1l0l6	a_été_modifié	N
+1l0l7	intègre_désormais	N
+1l0l8	une_deuxième_turbine_à_combustion	O
+1l0l9	les_deux_bâches_de_stockage_journalier	O
+1l1l0	réservoir_d__hydrocarbures	S
+
+#Les nouvelles installations ont été autorisées par arrêté préfectoral du 02 mars 2009.
+
+2l0l0	Les_nouvelles_installations	O
+2l0l1	ont_été_autorisées	N
+2l0l2	par_arrêté_préfectoral	O
+2l0l3	du_02_mars_2009__	T
+
+#Lors d’un accident intervenu sur le site dans la nuit du 28 juillet 2009, environ 30 m3 de FOD s’est infiltré dans le sol au niveau des bâches de stockage journalier.
+
+3l0l0	Lors_d_	R
+3l0l1	un_accident	N
+3l0l2	le_site	O
+3l0l3	dans_la_nuit_du_28_juillet_2009__	T
+3l0l4	30_m3_de_FOD	O
+3l0l5	s_	R
+3l0l6	est_infiltré_dans	N
+3l0l7	le_sol	O
+3l0l8	au_niveau_des	R
+3l0l9	bâches_de_stockage_journalier	O
+3l1l0	FOD	S
+
+#Suite à cette pollution, l’exploitant s’est vu imposer des mesures de gestion des sols polluées et de surveillance des eaux souterraines par l’arrêté préfectoral complémentaire n°2010-673/SG/DRCTCV du 19 mars 2010.
+
+4l0l0	cette_pollution	N
+4l0l1	l__exploitant	O
+4l0l2	s__est_vu_imposer_des_mesures_de_gestion	N
+4l0l3	des_sols_polluées	O
+4l0l4	surveillance_des_eaux_souterraines	A
+4l0l5	l__arrêté_préfectoral	O
+4l0l6	__DRCTCV	O
+4l0l7	du_19_mars_2010__	T
+4l1l0	SG___DRCTCV	I
+
+#Une visite d'inspection a été réalisée le 11 octobre 2010 afin de vérifier le respect de cet arrêté.
+
+5l0l0	Une_visite_d__inspection_a_été_réalisée	N
+5l0l1	le_11_octobre_2010	T
+
+#Il est constaté qu'en plus des 14 piézomètres prévus par l’arrêté pour surveiller les eaux souterraines, l’exploitant a mis en place 2 piézomètres sur le site en amont hydraulique de la zone polluée et un piézomètre en aval hydraulique de la zone polluée à l’extérieur du site.
+
+6l0l0	surveiller_les_eaux_souterraines	A
+6l0l1	l__exploitant	O
+6l0l2	a_mis_en_place	N
+6l0l3	2_piézomètres	O
+6l0l4	le_site	O
+6l0l5	en_amont_hydraulique_de	L
+6l0l6	la_zone_polluée	O
+6l0l7	aval_hydraulique	N
+6l0l8	la_zone_polluée	O
+6l0l9	à_l__extérieur_du_site	L
+
+#L’exploitant prélève 2 fois par mois des échantillons d’eau dans les piézomètres pour contrôler dans les eaux souterraines les paramètres suivants : HAP (hydrocarbures aromatiques polycycliques), BTEX (benzène, toluène, éthylbenzène et xylène), hydrocarbures totaux, pH, température, oxygène dissous, conductivité et potentiel rédox.
+
+7l0l0	L__exploitant	O
+7l1l0	__HAP___hydrocarbures_aromatiques_polycycliques	S
+7l1l1	__BTEX___benzène___toluène___éthylbenzène_et_xylène	S
+7l1l2	__hydrocarbures_totaux	S
+7l1l3	pH	S
+7l1l4	__oxygène	S
+
+#L’exploitant réalise les analyses d’eau pour tous les piézomètres sauf ceux qui présentent une phase flottante d’hydrocarbures au moment du prélèvement.
+
+8l0l0	L__exploitant	O
+8l0l1	réalise_les	N
+8l0l2	analyses_d__eau	O
+8l1l0	flottante_d__hydrocarbures	U
+
+#Lorsqu’une phase flottante est constatée, il utilise un dispositif de pompage écrémage afin de récupérer les hydrocarbures non dissous.
+
+9l0l0	pompage	A
+9l0l1	écrémage	N
+9l1l0	hydrocarbures	S
+
+#L'exploitant transmet à l'inspection en décembre 2011 un plan de gestion (rapport ANTEA de septembre 2011).
+
+10l0l0	L__exploitant	O
+10l0l1	transmet	N
+10l0l2	l__inspection	O
+10l0l3	en_décembre_2011	T
+10l0l4	un_plan_de_gestion	O
+10l0l5	septembre_2011__	T
+
+#L'EQRS réalisée confirme la compatibilité de l'état du site avec son usage actuel (travailleurs en extérieur et dans les bureaux).
+
+
+#Dans le cadre du suivi et traitement mis en place, l'exploitant a étendu son réseau de surveillance des eaux souterraines à 20 piézomètres (PZ0 à PZ11 et C2 à C9) puis mis en place 4 puits de pompage /écrémage de ces mêmes eaux et réalise mensuellement les surveillances imposées par arrêté préfectoral du 19 mars 2010 susvisé.
+
+12l0l0	Dans_le_cadre	R
+12l0l1	du_suivi_et	A
+12l0l2	traitement_mis_en_place	N
+12l0l3	l__exploitant	O
+12l0l4	a_étendu	N
+12l0l5	son_réseau_de_surveillance_des_eaux_souterraines	A
+12l0l6	20_piézomètres	O
+12l0l7	mis_en_place	N
+12l0l8	4_puits_de_pompage	O
+12l0l9	_écrémage	N
+12l0l10	les_surveillances	A
+12l0l11	imposées_par	R
+12l0l12	arrêté_préfectoral	O
+12l0l13	19_mars_2010	T
+
+#En décembre 2014, l'exploitant transmet à l'inspection des installations classées le bilan quadriennal attendu et un test de l'épaisseur de flottants sur le toit de la nappe d'eaux souterraines.
+
+13l0l0	En_décembre_2014__	T
+13l0l1	l__exploitant	O
+13l0l2	transmet	N
+13l0l3	l__inspection_des_installations_classées	O
+13l0l4	le	R
+13l0l5	bilan_quadriennal	T
+13l0l6	attendu	O
+13l0l7	un_test	O
+
+#L'exploitant évalue la quantité récupérée de gasoil à 12 m3, celle sur le toit de la nappe à 0,5 m3 et dans l'aquifère non saturé environ 5 m3 sur l'ensemble des 27 m3 déversés.
+
+14l0l0	L__exploitant	O
+14l0l1	gasoil	O
+14l1l0	gasoil	U
+
+#La lentille de pollution est toujours restée fixée dans les limites du périmètre de l'établissement.
+
+15l0l0	La_lentille_de_pollution	O
+15l0l1	est_toujours_restée_fixée	N
+15l0l2	dans_les_limites_du_périmètre	L
+
+#Des suite de la visite réalisée sur le site le 27 novembre 2014, le préfet, sur proposition de l'inspection des installations classées, prend un arrêté n°2015-767 SG/DRCTCV du 05 mai 2015 prescrivant à l'exploitant l'évolution de la surveillance des eaux souterraines et du dispositif de dépollution au regard des résultats obtenus au bilan quadriennal et au test d'épaisseur de flottants présents au droit du site de Port-Est.
+
+16l0l0	Des_suite_de_la_visite_réalisée	N
+16l0l1	sur_le_site	L
+16l0l2	le_27_novembre_2014__	T
+16l0l3	le_préfet	O
+16l0l4	prend	N
+16l0l5	un_arrêté_n__2015___767_SG__	O
+16l0l6	DRCTCV	A
+16l0l7	du_05_mai_2015	T
+16l0l8	prescrivant	R
+16l0l9	l__exploitant	O
+16l0l10	surveillance_des_eaux_souterraines	A
+16l0l11	dépollution	N
+16l0l12	au_droit_du_site_de_Port_Est	L
+16l1l0	le_préfet	I
+16l1l1	DRCTCV	I

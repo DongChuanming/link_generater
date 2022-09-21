@@ -1,0 +1,229 @@
+
+#76.0394
+#L’exploitant a transmis le 29 avril 2019 son mémoire de cessation d’activité comprenant un diagnostic de l’état de pollution des sols (rapport ANTEA référencé n°A98033B en date du 26/4/2019).
+
+0l0l0	L__exploitant	O
+0l0l1	a_transmis	N
+0l0l2	le_29_avril_2019	T
+0l0l3	son_mémoire_de_cessation_d__activité	N
+0l0l4	un_diagnostic	N
+0l0l5	l__état_de_pollution_des_sols	N
+0l0l6	ANTEA	O
+0l0l7	en_date_du_26_4_2019	T
+0l1l0	ANTEA	I
+
+#Le site est construit et occupé depuis 1972 par l’exploitant pour l’exploitation d’activités comparables à celles dernièrement exercées par ESSITY (fabrication de papiers).
+
+1l0l0	Le_site	O
+1l0l1	est_construit_et_occupé	N
+1l0l2	depuis_1972	T
+1l0l3	l__exploitant	O
+1l0l4	l__exploitation	O
+1l0l5	d__activités_comparables	A
+1l0l6	ESSITY	O
+1l0l7	fabrication_de_papiers	A
+1l1l0	ESSITY	I
+
+#Le site  ESSITY s’étend aujourd’hui sur une surface de 96 000m²,  mais était à l’origine sur une emprise plus étendue avec des activités de gamme « table », activités cédées en 2016 à l’entreprise SODIPAN TABLE qui exerce toujours cette activité.
+
+2l0l0	Le_site___ESSITY	O
+2l0l1	s__étend_aujourd_hui_sur	N
+2l0l2	mais_était_à_l__origine_sur_une_emprise	N
+2l0l3	avec_des_activités_de_gamme_____table	A
+2l0l4	______activités	A
+2l0l5	cédées_en	T
+2l0l6	2016_à_l__entreprise_SODIPAN_TABLE	O
+2l1l0	__ESSITY	I
+2l1l1	entreprise_SODIPAN_TABLE	I
+
+#Des investigations de sols ont été réalisées au droit des zones susceptibles de constituer des sources potentielles de pollution à savoir : unité B (stockage de produits chimiques), hangar de matières premières, atelier de maintenance unité B, zones bacs à encres & impression, cuves à colle, cuves enterrées des eaux encrées, stockage produits (encres, huiles, etc.), local abritant les transformateurs électriques, atelier d’entretien des chariots, cuve de fioul alimentant les motopompes du sprinklage, zones déchets, abords du débourbeur déshuileur, etc.
+
+3l0l0	Des_investigations_de_sols	N
+3l0l1	ont_été_réalisées	N
+3l0l2	au_droit	L
+3l0l3	des_zones	O
+3l0l4	susceptibles	R
+3l0l5	__cuve_de_fioul_alimentant	O
+3l0l6	les_motopompes	O
+3l1l0	de_produits_chimiques	U
+3l1l1	de_matières_premières	U
+3l1l2	des_eaux_encrées	U
+3l1l3	__stockage_produits	U
+3l1l4	__encres___huiles	U
+3l1l5	__cuve_de	D
+3l1l6	fioul_alimentant_les	U
+
+#Les voies de transfert identifiées  par ANTEA sont :
+
+4l0l0	par_ANTEA	O
+4l1l0	par_ANTEA	I
+
+#- les gaz du sol pouvant être à l’origine de la migration de vapeurs de composés volatils vers la surface du site.
+
+5l0l0	la_migration	N
+5l0l1	vers_la_surface_du_site	L
+5l1l0	composés	U
+
+#La voie d’exposition potentielle est l’inhalation à l’intérieur des bâtiments par les usagers du site.
+
+6l0l0	l__inhalation	N
+6l0l1	à_l__intérieur_des_bâtiments	L
+6l0l2	usagers_du_site	A
+
+#- les eaux souterraines, bien que les eaux souterraines ne soient pas exploitées à des fins d’alimentation en eau potable au droit du site.
+
+
+#Le captage AEP le plus proche se trouve à plus de 5km du site.
+
+8l0l0	Le_captage_AEP_le_plus_proche	O
+8l0l1	se_trouve_à_plus_de_5_km_du_site	L
+
+#Concernant les cibles à protéger, le site est en activité industrielle et a vocation à le rester.
+
+9l0l0	le_site	O
+9l0l1	est_en_activité_industrielle	A
+9l0l2	a	R
+9l0l3	vocation_à	N
+
+#L’emprise est largement recouverte de revêtement de surface de type enrobés ou dalles, limitant les transferts de pollutions par les eaux météoriques et les contacts directs avec les sols.
+
+
+#Aussi, les voies d’exposition par ingestion et inhalation de poussières ne sont pas envisagées.
+
+11l0l0	inhalation	N
+
+#La seule voie à retenir concernant les usagers du site est l’inhalation de vapeurs à l’intérieur des bâtiments suite à la possible volatilisation des substances susceptibles d’être présentes dans les sols.
+
+12l0l0	La	O
+12l0l1	l__inhalation	N
+12l1l0	substances	S
+
+#Les investigations se sont donc restreintes à des analyses de sols. 20 sondages de sols ont été prélevés entre -0,6 et -7m de profondeur.
+
+13l0l0	Les_investigations	N
+13l0l1	se_sont_donc_restreintes	N
+13l0l2	20_sondages_de_sols	N
+13l0l3	ont_été_prélevés	N
+
+#Compte tenu de la nature des produits/activités mis en œuvre, le programme analytique sur sols bruts a été le suivant : HC volatils C5-C10, HC totaux C10-C40, HAP (16 HAP), composés aromatiques volatils (BTEX, composés organo-halogénés volatils (11 COHV), polychlorobiphényles ( 7 PCB), métaux (As, Cd, Cr, Cu, Hg, Pb, Ni, Zn).
+
+14l1l0	__HC_volatils	S
+14l1l1	__HC_totaux	S
+14l1l2	__HAP___16_HAP	S
+14l1l3	__composés_aromatiques_volatils	S
+14l1l4	__BTEX___composés_organo___halogénés_volatils	S
+14l1l5	__11	U
+14l1l6	COHV	S
+14l1l7	__polychlorobiphényles	S
+14l1l8	7_PCB	S
+14l1l9	__métaux___As___Cd___Cr___Cu___Hg___Pb___Ni___Zn	S
+
+#L’interprétation des résultats s’est faite :
+
+
+#- concernant les HC et les polluants organiques chimiques : par comparaison aux limites de quantification du laboratoire.
+
+16l1l0	les_HC	S
+16l1l1	polluants_organiques_chimiques	S
+
+#Ces substances n’étant pas présentes naturellement dans l’environnement, le constat de leur présence témoigne d’une contamination.
+
+17l0l0	le_constat_de_leur_présence	N
+
+#- concernant les métaux :  par comparaison au bruit de fond géochimique local et national (programme ASPITET – INRA 2000) + critères d’acceptation ISDI de l’arrêté du 12/12/2014.
+
+18l0l0	programme_ASPITET	O
+18l0l1	du_12_12_2014	T
+18l1l0	les_métaux	S
+
+#Résultats :
+
+
+#Les résultats font état :
+
+
+#- d’impacts en HC à proximité du local de stockage d’huiles (S10- 3 800mg/kg MS) et du stockage de ferrailles (S11- 540 mg/kg MS) ; les fractions observées sont peu volatiles et les impacts limités en surface
+
+21l0l0	à_proximité_du_local	L
+21l0l1	de_stockage_d__huiles	A
+21l0l2	stockage_de_ferrailles	A
+21l1l0	HC	S
+
+#- de concentrations en HAP jusqu’à 42 mg/kg MS (sondage S16b au droit d’une butte de terres au Sud du site, constituée lors des travaux de terrassement du terrain à la construction de l’usine) ;
+
+22l0l0	au_droit_d_	L
+22l0l1	une_butte_de_terres	N
+22l0l2	au_Sud_du_site	L
+22l0l3	lors	R
+22l0l4	des_travaux_de_terrassement	N
+22l0l5	du_terrain	N
+22l0l6	la_construction_de_l_	N
+22l0l7	usine	O
+22l1l0	HAP	S
+
+#- d’absence d’anomalies en BTEX, COHV, PCB à proximité des transformateurs ;
+
+23l0l0	à_proximité_des_transformateurs	L
+23l1l0	BTEX	S
+23l1l1	COHV	S
+23l1l2	PCB	S
+
+#- d’un bruit de fond en éléments traces métalliques dans la gamme des valeurs de sols à anomalies modérées.
+
+24l1l0	éléments_traces_métalliques	U
+
+#Mesures de gestion :
+
+25l0l0	Mesures	N
+
+#L’exploitant n’a pas présenté de calcul de risque sanitaire encouru au regard des impacts modérés identifiés, des aménagements existants et futurs sur le site, de l’usage futur et des cibles potentielles.
+
+26l0l0	L__exploitant	O
+26l0l1	aménagements_existants	N
+
+#L’inspection n’émet pas d’objection à l’absence de calcul de risque sanitaire.
+
+
+#Toutefois, il est demandé à ESSITY de  procéder à l’excavation et au traitement des terres où les impacts les plus concentrés ont été mis en évidence, a minima au droit des sondages S10 et S11, compte tenu des faibles volumes de terre mis en jeu.
+
+28l0l0	ESSITY	O
+28l0l1	de___procéder_à_l__excavation	N
+28l0l2	et_au_traitement	N
+28l0l3	des_terres_où	O
+28l0l4	les_impacts_les_plus_concentrés	N
+28l1l0	ESSITY	I
+
+#L’évacuation des terres contaminées s’effectuera vers des filières adaptées et dûment autorisés.
+
+29l0l0	L__évacuation	N
+29l0l1	terres_contaminées	O
+29l0l2	s__effectuera	N
+29l0l3	vers	O
+
+#Les justificatifs afférents à leur transfert et traitement seront adressés à l’inspection.
+
+30l0l0	Les_justificatifs	O
+
+#Le récolement du site ne pourra être prononcé qu’après réception de ces éléments.
+
+31l0l0	Le_récolement	N
+
+#Enfin, à l’occasion de la réalisation d’aménagements dans les bâtiments et sur le site, si des dalles devaient être démantelées et/ou des terres contaminées remaniées (y compris au niveau du merlon de terre au Sud du site), le repreneur engagera :
+
+32l0l0	l__occasion_de	R
+32l0l1	la_réalisation_d__aménagements	N
+32l0l2	démantelées	N
+32l0l3	des_terres_contaminées_remaniées	O
+32l0l4	au_Sud_du_site	L
+32l0l5	le_repreneur	O
+32l0l6	engagera	N
+
+#- des reconnaissances complémentaires pour circonscrire les impacts et purger les plus significatifs ;
+
+33l0l0	circonscrire	N
+33l0l1	les_impacts	O
+33l0l2	purger	N
+
+#- une évaluation sanitaire (EQRS et/ou ARR) afin de statuer sur la compatibilité sanitaire des projets conduits et la qualité des sols en place.
+
+34l0l0	une_évaluation_sanitaire	N

@@ -1,0 +1,210 @@
+
+#08.0006
+#Le site est localisé au Nord/Nord Est de Sedan, en bordure de la Meuse, au coeur d'un quartier d'habitations.
+
+0l0l0	Le_site	O
+0l0l1	localisé_au_Nord___Nord_Est_de_Sedan	L
+0l0l2	en_bordure_de_la_Meuse	L
+0l0l3	au_coeur_d__un_quartier_d__habitations	L
+
+#Sur une superficie de 9 600 m2, une usine à gaz a été exploitée depuis les années 1880 jusqu'à 1956.
+
+1l0l0	une_usine_à_gaz	O
+1l0l1	a_été_exploitée	N
+1l0l2	depuis_les_années_1880_jusqu__à_1956	T
+
+#Deux gazomètres sur trois ont été démontés peu après la fermeture de l'usine.
+
+2l0l0	Deux_gazomètres	O
+2l0l1	sur_trois	O
+2l0l2	ont_été_démontés	N
+2l0l3	peu	O
+2l0l4	après	T
+2l0l5	la_fermeture	N
+2l0l6	de	R
+2l0l7	l__usine	O
+
+#Les autres installations ont également étaient démolies.
+
+3l0l0	Les_autres_installations	O
+3l0l1	ont_également_étaient_démolies	N
+
+#Actuellement, le site est occupé par les bâtiments administratifs et les locaux d'activité d'EDF / GDF Services des Ardennes.
+
+4l0l0	le_site	O
+4l0l1	est_occupé_par	R
+4l0l2	les_bâtiments_administratifs	O
+4l0l3	les_locaux	O
+4l0l4	GDF	O
+4l0l5	Services_des_Ardennes	L
+4l1l0	EDF___GDF_Services_des_Ardennes	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+5l0l0	Gaz_de_France	O
+5l0l1	a_hiérarchisé	N
+5l0l2	ses_actions	O
+5l0l3	467_sites	O
+5l1l0	Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site, ...).
+
+6l0l0	hiérarchiser	N
+6l0l1	les_sites	O
+6l0l2	en_fonction_de	R
+6l0l3	leur_sensibilité	O
+6l0l4	vis_à_vis_de	R
+6l0l5	l__environnement	O
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+7l0l0	L__application	N
+7l0l1	cette_méthode	O
+7l0l2	a_abouti_à	R
+7l0l3	l__établissement	N
+7l0l4	5_classes_de_priorité	O
+7l0l5	les_engagements	O
+7l0l6	Gaz_de_France	O
+7l0l7	ont_fait_l__objet_d_	R
+7l0l8	un_protocole_d__accord	O
+7l0l9	relatif_à	R
+7l0l10	la_maîtrise	O
+7l0l11	suivi	O
+7l0l12	la_réhabilitation	N
+7l0l13	anciens_terrains_d__usines_à_gaz	O
+7l0l14	entre	R
+7l0l15	le_Ministère_de_l__Environnement	O
+7l0l16	Gaz_de_France	O
+7l0l17	signé	N
+7l0l18	le_25_avril_1996	T
+7l1l0	Gaz_de_France	I
+7l1l1	le_Ministère_de_l__Environnement	I
+7l1l2	Gaz_de_France	I
+
+#Le site de l'ancienne usine à gaz de Sedan est en classe 3 du protocole.
+
+8l0l0	Le_site	O
+8l0l1	Sedan	O
+
+#De ce fait, c'est un site dont la sensibilité vis à vis de l'homme, des eaux souterraines et superficielles est faible.
+
+
+#Ce site a fait l'objet d'un diagnostic environnemental dont les principaux objectifs sont, outre les recherches historiques et documentaires, la recherche des ouvrages enterrés, l'évaluation de l'impact du site sur les ressources locales en eaux (eaux souterraines et superficielles) et la caractérisation du sol superficiel pour évaluer les risques de contact direct et ceux liés à d'éventuelles émanations gazeuses et à caractériser le sol en profondeur.
+
+10l0l0	Ce_site	O
+10l0l1	a_fait_l__objet_d_	R
+10l0l2	un_diagnostic_environnemental	N
+
+#Ce diagnostic, effectué par un bureau d'études à la demande de Gaz de France, a mis en évidence la présence d'une cuve et d'une citerne contenant du goudron ainsi que des zones souillées par des goudrons et des matières épurantes.
+
+11l0l0	Ce_diagnostic	N
+11l0l1	effectué	N
+11l0l2	un_bureau_d__études	O
+11l0l3	à_la_demande_de	R
+11l0l4	Gaz_de_France	O
+11l0l5	a_mis_en_évidence	R
+11l0l6	la_présence	O
+11l0l7	goudron_ainsi_que_des_zones_souillées	O
+11l0l8	des_matières_épurantes	O
+11l1l0	Gaz_de_France	I
+11l1l1	une_cuve	D
+11l1l2	une_citerne	D
+11l1l3	goudron	U
+11l1l4	goudrons	U
+
+#Le contrôle de la nappe au moyen de 3 piézomètres a montré une contamination significative de l'eau souterraine en azote ammoniacale.
+
+12l0l0	Le_contrôle	N
+12l0l1	la_nappe	O
+12l1l0	azote_ammoniacale	S
+
+#En mars 1998, des travaux de vidange et de comblement de la cuve ont été réalisés en éliminant 335 tonnes de déchets et 100 tonnes de sol souillé.
+
+13l0l0	En_mars_1998__	T
+13l0l1	des_travaux_de_vidange	N
+13l0l2	de_comblement	N
+13l0l3	la_cuve	O
+13l0l4	ont_été_réalisés_en_éliminant	N
+13l0l5	335_tonnes	N
+13l0l6	100_tonnes_de_sol_souillé	O
+
+#En l'absence de projet de réaménagement, le site est compatible avec son usage actuel.
+
+14l0l0	le_site	O
+
+#Une évaluation simplifiée des risques a été réalisée en juillet 1998, conduisant à l'établissement de la classe 2 pour ce site.
+
+15l0l0	Une_évaluation_simplifiée_des_risques	N
+15l0l1	a_été_réalisée	N
+15l0l2	en_juillet_1998__	T
+15l0l3	conduisant_à	R
+15l0l4	l__établissement	N
+15l0l5	la_classe_2	O
+15l0l6	ce_site	O
+
+#Une surveillance des eaux souterraines a été mise en place.
+
+16l0l0	Une_surveillance_des_eaux_souterraines	A
+16l0l1	a_été_mise_en_place	N
+
+#Les premiers résultats d'analyses des eaux souterraines 2001 ont été adressés le 25 juillet 2002 à l'inspection des installations classées.
+
+17l0l0	Les_premiers_résultats_d__analyses	N
+17l0l1	2001	T
+17l0l2	ont_été_adressés	N
+17l0l3	le_25_juillet_2002	T
+
+#Au vu de ces résultats présentant une situation qui se dégrade, l'inspection des installations classées demande à GDF de poursuivre la surveillance et d'intégrer aux recherches d'autres paramètres.
+
+18l0l0	l__inspection_des_installations_classées	O
+18l0l1	la_surveillance	A
+18l0l2	d__intégrer_aux_recherches	N
+18l1l0	GDF	I
+
+#La surveillance des eaux souterraines montre en 2004 l'absence d'impact par les hydrocarbures aromatiques polycycliques.
+
+19l0l0	La_surveillance_des_eaux_souterraines	A
+19l0l1	en_2004	T
+19l1l0	les_hydrocarbures_aromatiques_polycycliques	S
+
+#Le suivi de ce paramètre est donc arrêté.
+
+20l0l0	Le_suivi	A
+
+#Gaz de France communique semestriellement les résultats d'analyses des eaux souterraines à l'inspection des installations classées.
+
+21l0l0	Gaz_de_France	O
+21l0l1	communique_semestriellement	T
+21l0l2	l__inspection_des_installations_classées	O
+21l1l0	Gaz_de_France	I
+
+#Suite à la réunion annuelle d'avril 2006, la surveillance sur les paramètres cyanures et ammonium est poursuivie.
+
+22l0l0	Suite	R
+22l0l1	à_la_réunion_annuelle	N
+22l0l2	d__avril_2006__	T
+22l0l3	la_surveillance	A
+22l0l4	les_paramètres_cyanures	O
+22l1l0	cyanures	S
+22l1l1	ammonium	S
+
+#La surveillance des eaux souterraines a été allégée en 2010 avec l'arrêt de la surveillance des cyanures compte tenu d'une stabilisation de la pollution observée depuis 2007 à des teneurs inférieures aux valeurs de référence.
+
+23l0l0	La_surveillance_des_eaux_souterraines	A
+23l0l1	a_été_allégée	N
+23l0l2	en_2010	T
+23l0l3	l__arrêt	N
+23l0l4	la_surveillance	A
+23l0l5	cyanures	O
+23l0l6	une_stabilisation_de_la_pollution	N
+23l0l7	depuis_2007	T
+23l1l0	cyanures	S
+
+#Le suivi des eaux souterraines est poursuivi sur le paramètre ammonium en 2015 globalement stable même si une faible tendance à la hausse est constatée.
+
+24l0l0	Le_suivi	A
+24l0l1	eaux_souterraines	O
+24l0l2	est_poursuivi_sur	R
+24l0l3	le_paramètre_ammonium	O
+24l0l4	en_2015	T
+24l1l0	ammonium	S

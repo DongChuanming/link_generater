@@ -1,0 +1,116 @@
+
+#67.0216
+#Au sein du site PRR se situe la zone de l'ancienne décharge dite "Banane".
+
+0l0l0	Au_sein_du_site_PRR	O
+0l0l1	se_situe	R
+0l0l2	la_zone	O
+0l1l0	PRR	I
+
+#Elle a accueilli des déchets variés.
+
+1l0l0	Elle_a_accueilli	O
+
+#L'origine des pollutions provient de l'enfouissement de déchets du génie civil type béton, réfractaire, enrobés, résidus de coke lors de nettoyage de viscoréductions, catalyseurs usés issus de l'activité de rafinage, résidus de soufre, matière plastique, grillage, ferraille, morceaux de mousse, et bois.
+
+2l0l0	L__origine_des_pollutions	O
+2l0l1	l__enfouissement	N
+2l0l2	déchets_du_génie_civil	O
+2l0l3	coke_lors_de_nettoyage_de_viscoréductions	O
+2l0l4	rafinage	A
+2l1l0	réfractaire	S
+2l1l1	coke	U
+2l1l2	soufre	S
+
+#A l'issue d'un diagnostic de reconnaissance de l’état du sous-sol, au droit du site en date du 20 mai 2011, des investigations complémentaires se sont révélées nécessaires.
+
+3l0l0	issue_d_	R
+3l0l1	un_diagnostic_de_reconnaissance_de_l_	N
+3l0l2	état_du_sous_sol	O
+3l0l3	au_droit_du_site	L
+3l0l4	en_date_du_20_mai_2011__	T
+3l0l5	des_investigations_complémentaires	O
+3l0l6	se_sont_révélées_nécessaires	N
+
+#L'objectif est de déceler un potentiel impact de la décharge sur la qualité des eaux souterraines.
+
+4l0l0	déceler_un_potentiel_impact	N
+
+#Suite à l'arrêté préfectoral du 9 février 2012, l'exploitant doit réaliser des investigations complémentaires.
+
+5l0l0	Suite	R
+5l0l1	à_l__arrêté_préfectoral	O
+5l0l2	9_février_2012__	T
+5l0l3	l__exploitant	O
+5l0l4	doit_réaliser_des_investigations_complémentaires	N
+
+#Elles concluent à une pollution des eaux souterraines.
+
+6l0l0	une_pollution_des_eaux_souterraines	O
+
+#Les polluants identifiés sont :
+
+
+#> Composés Organiques-Halogénés Volatils (COHV).
+
+8l1l0	Composés_Organiques	S
+8l1l1	__Halogénés_Volatils	S
+8l1l2	COHV	S
+
+#Les données sont inférieures à la limite de potabilité;
+
+
+#> Hydrocarbures C_5-C_40 et Hydrocarbures Aromatiques Polycycliques (HAP).
+
+10l1l0	Hydrocarbures_C_5_C_40	S
+10l1l1	Hydrocarbures_Aromatiques_Polycycliques	S
+10l1l2	HAP	S
+
+#Les valeurs sont faibles voire indétectables ;
+
+
+#> Pesticides.
+
+12l1l0	Pesticides	S
+
+#Les teneurs sont inférieures aux valeurs de référence.
+
+
+#> Métaux lourds (arsenic, baryum, chrome, mercure, nickel, plomb et zinc).
+
+14l0l0	arsenic	O
+14l1l0	Métaux_lourds	S
+14l1l1	arsenic	S
+14l1l2	baryum	S
+14l1l3	chrome	S
+14l1l4	mercure	S
+14l1l5	nickel	S
+14l1l6	plomb	S
+14l1l7	zinc	S
+
+#L'arsenic (45µg/litre) et le plomb (teneur maximale de 12µg/litre) présentent des teneurs notables.
+
+15l0l0	L__arsenic	O
+15l1l0	arsenic	S
+15l1l1	plomb	S
+
+#Cependant, ces valeurs demeurent inférieures aux critères de potabilisation définis par l'arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine.
+
+16l0l0	11_janvier_2007	T
+
+#> Sulfate.
+
+17l1l0	Sulfate	S
+
+#Il est relevé une teneur significative en sulfate, en aval proche (319 mg/litre).
+
+18l1l0	sulfate	S
+
+#L'impact de la décharge, sur les eaux souterraines, reste très limité.
+
+
+#Néanmoins, la société PRR maintient ce secteur sous surveillance.
+
+20l0l0	la_société_PRR	O
+20l0l1	maintient_ce_secteur_sous_surveillance	A
+20l1l0	la_société_PRR	I

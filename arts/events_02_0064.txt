@@ -1,0 +1,158 @@
+
+#02.0064
+#L'ancien dépôt pétrolier TOTAL a été construit au 19e siècle.
+
+0l0l0	L__ancien_dépôt_pétrolier_TOTAL	O
+0l0l1	a_été_construit	N
+0l0l2	au_19e_siècle__	T
+0l1l0	dépôt_pétrolier	D
+
+#Des produits pétroliers y ont été stockés : carburants, pétrole lampant (kerdane) et solvants (white spirit) jusqu'en 1960 puis essence ordinaire (SC / super carburant), FOD (fioul oil domestique) et gazole jusqu'en 1984.
+
+1l0l0	Des_produits_pétroliers	O
+1l0l1	ont	A
+1l0l2	été_stockés	N
+1l0l3	jusqu__en_1960	T
+1l0l4	jusqu__en_1984	T
+1l1l0	Des_produits_pétroliers	U
+1l1l1	carburants	U
+1l1l2	pétrole_lampant	U
+1l1l3	spirit	S
+1l1l4	essence_ordinaire	U
+1l1l5	SC	S
+1l1l6	super_carburant	S
+1l1l7	FOD	S
+1l1l8	fioul_oil_domestique	S
+1l1l9	gazole	S
+
+#L'activité de dépôt pétrolier a cessé en 1984.
+
+2l0l0	L__activité_de	A
+2l0l1	dépôt_pétrolier	O
+2l0l2	a_cessé	N
+2l0l3	en_1984__	T
+
+#La plupart des infrastructures et superstructures ont été démantelées entre 1983 et 1988.
+
+3l0l0	La_plupart_des_infrastructures	O
+3l0l1	superstructures	O
+3l0l2	ont_été_démantelées	N
+3l0l3	entre_1983_et_1988	T
+
+#Seuls les bâtiments ont subsisté.
+
+
+#Depuis 1994, le terrain est loué à une entreprise pour le stockage de véhicules industriels.
+
+5l0l0	Depuis_1994__	T
+5l0l1	le_terrain	O
+5l0l2	est_loué_à	N
+5l0l3	une_entreprise	O
+5l0l4	stockage_de_véhicules_industriels	O
+
+#Durant l'année 2007, un diagnostic approfondi et une étude détaillée des risques ont été menés.
+
+6l0l0	Durant	T
+6l0l1	l_	N
+6l0l2	année_2007__	T
+6l0l3	un_diagnostic_approfondi	N
+6l0l4	une_étude_détaillée_des_risques	N
+6l0l5	ont_été_menés	N
+
+#Suite aux conclusions de ces études, TOTAL RAFFINAGE MARKETING a mis en place un plan de gestion comprenant :
+
+7l0l0	Suite_aux	R
+7l0l1	ces_études	N
+7l0l2	MARKETING	O
+7l0l3	a_mis_en_place	N
+7l0l4	un_plan_de_gestion	O
+7l1l0	TOTAL_RAFFINAGE_MARKETING	I
+
+#- le traitement des sols impactés selon les seuils de l'étude
+
+8l0l0	sols_impactés	O
+
+#- l'institution de servitudes d'utilité publique
+
+9l0l0	l_	N
+9l0l1	institution_de_servitudes_d__utilité_publique	O
+
+#- le maintien, pour une durée de trois ans, du programme de surveillance semestrielle de la qualité de la nappe
+
+10l0l0	le_maintien	N
+10l0l1	pour_une_durée_de_trois_ans	T
+10l0l2	programme	O
+10l0l3	de_surveillance_semestrielle	A
+10l0l4	la_qualité_de_la_nappe	O
+
+#Les premiers résultats de surveillance mettent en évidence une pollution par les hydrocarbures et le benzène.
+
+11l0l0	surveillance	A
+11l1l0	hydrocarbures	S
+11l1l1	benzène	S
+
+#Les travaux de dépollution (bio-traitement) ont été effectués de mai 2008 à janvier 2009.
+
+12l0l0	Les_travaux_de_dépollution	N
+12l0l1	bio_traitement	N
+12l0l2	ont_été_effectués	N
+12l0l3	de_mai_2008_à_janvier_2009__	T
+
+#Une visite de récolement a eu lieu en décembre 2009.
+
+13l0l0	Une_visite_de_récolement	N
+13l0l1	a_eu_lieu	N
+13l0l2	en_décembre_2009__	T
+
+#Une fois ces travaux réalisés, la surveillance des eaux souterraines a montré une pollution par le benzène avec des teneurs supérieures à la valeur de référence mais en diminution comparativement à la campagne précédente, principalement en amont et au centre du site.
+
+14l0l0	ces_travaux_réalisés	N
+14l0l1	la_surveillance_des_eaux_souterraines	A
+14l0l2	en_amont_et_au_centre_du_site	L
+14l1l0	benzène	S
+
+#Cet impact peut être dû à la remobilisation des volatils suite aux travaux d'excavation et de remblaiement.
+
+15l0l0	la_remobilisation	N
+15l0l1	aux_travaux_d__excavation	N
+15l0l2	remblaiement	N
+
+#La pollution par les hydrocarbures a quant à elle été divisée par trois passant en dessous de la valeur de référence.
+
+16l0l0	hydrocarbures	O
+16l1l0	hydrocarbures	S
+
+#L'analyse des risques résiduels montre que les risques sanitaires liés aux concentrations résiduelles en polluants sont acceptables dans le cadre d'un nouvel usage industriel.
+
+17l0l0	cadre_d_	R
+17l0l1	un_nouvel_usage_industriel	N
+17l1l0	polluants	S
+
+#Compte tenu des concentrations résiduelles en polluants dans les eaux souterraines au droit du site, il convient de poursuivre la surveillance de la qualité de la nappe.
+
+18l0l0	au_droit_du_site	L
+18l0l1	la_surveillance_de_la_qualité_de_la_nappe	A
+18l1l0	polluants	S
+
+#Un arrêté préfectoral complémentaire en ce sens a été signé le 7 février 2011.
+
+19l0l0	Un_arrêté_préfectoral_complémentaire	O
+19l0l1	a_été_signé	N
+19l0l2	le_7_février_2011__	T
+
+#Les polluants à rechercher sont HCT et BTEX.
+
+20l1l0	polluants	S
+20l1l1	HCT	S
+20l1l2	BTEX	S
+
+#En outre, un arrêté préfectoral de servitudes d'utilité publique a été signé le 7 février 2011 en vue notamment de conserver l’usage industriel du site et d'interdire entre autres d’utiliser les eaux souterraines, de cultiver sur le site des plantes destinées à l’alimentation humaine ou animale ou encore de supprimer les piézomètres.
+
+21l0l0	un_arrêté_préfectoral_de_servitudes_d_	O
+21l0l1	utilité_publique	O
+21l0l2	a_été_signé	N
+21l0l3	le_7_février_2011	T
+21l0l4	conserver_l__usage_industriel_du_site	A
+21l0l5	interdire	N
+21l0l6	supprimer	N
+21l0l7	les_piézomètres	O

@@ -1,0 +1,179 @@
+
+#61.0088
+#La surface du site autorisé est de 11 313 m² y compris le bâtiment de 648 m².
+
+0l0l0	le_bâtiment	O
+
+#L’activité principale du site consiste dans le regroupement de déchets de métaux et d’alliages, de batteries électriques usagées, de véhicules et objets métalliques hors d’usage, etc…, en provenance des établissements industriels, des collectivités territoriales, des artisans, des agriculteurs et des particuliers.
+
+1l0l0	site	A
+1l0l1	le_regroupement	N
+1l0l2	véhicules_et_objets_métalliques_hors_d__usage	O
+1l0l3	établissements_industriels___des	O
+
+#S’agissant des VHU, avant d’être entreposés sur le site, ceux-ci sont préalablement dépollués à l’aide d’une station de dépollution.
+
+2l0l0	VHU	O
+2l0l1	avant	T
+2l0l2	d__être_entreposés	N
+2l0l3	préalablement_dépollués	N
+2l0l4	une_station_de_dépollution	O
+2l1l0	VHU	I
+
+#L'autorisation initiale date du 21/12/1988 mais une diversification des activités et une augmentation des flux de déchets ont été autorisées par un arrêté du 21/12/2015.
+
+3l0l0	L__autorisation_initiale	O
+3l0l1	date_du_21_12_1988	T
+3l0l2	une_diversification_des_activités	N
+3l0l3	une_augmentation	N
+3l0l4	des_flux_de_déchets	O
+3l0l5	ont_été_autorisées	N
+3l0l6	un_arrêté	O
+3l0l7	du_21_12_2015__	T
+
+#L’établissement comporte :
+
+
+#1)  Une installation de transit de déchets de métaux (quantité max pouvant transiter par le site : 16 000 t/an, hors déchets huileux d'usinage, moteurs gras et VHU) composée :
+
+5l0l0	__Une_installation_de_transit_de_déchets_de_métaux	O
+
+#• d'une aire imperméabilisée extérieure pour l’entreposage des métaux et d'alliages non souillés de 5100 m²,
+
+6l0l0	l__entreposage	A
+6l0l1	d__alliages	O
+
+#• d'un bâtiment couvert dédié au stockage des métaux "précieux" (cuivre, laiton) d'une superficie de 648 m² et abritant également un entreposage de batteries usagées en transit (max de 60 t.
+
+7l0l0	un_bâtiment	O
+7l0l1	au_stockage_des_métaux__	A
+7l0l2	et_abritant_également	R
+7l0l3	un_entreposage_de_batteries_usagées	A
+7l1l0	cuivre	S
+7l1l1	laiton	S
+7l1l2	de_batteries_usagées	U
+
+#Flux maximal annuel : 600 t),
+
+
+#• d'un stockage de moteurs gras (flux max annuel : 1000 t.
+
+9l1l0	moteurs_gras	U
+
+#Quantité max stockée sur le site dans deux fosses maçonnées : 60 t),
+
+
+#• d'un stockage de déchets huileux d'usinage selon un flux max annuel de 1000 t.
+
+11l0l0	déchets_huileux	O
+11l1l0	déchets_huileux	U
+
+#Max sur site : 1000 t dans 2 box dédiés (120 m²) ;
+
+12l0l0	1000_t	O
+
+#2) une installation d'entreposage et de dépollution de véhicules hors d'usage (VHU) sur le secteur imperméabilisé du site ;
+
+13l0l0	une	O
+13l0l1	installation_d__entreposage_et_de_dépollution	N
+13l0l2	sur_le_secteur_imperméabilisé	N
+
+#3) Une installation de transit de déchets non dangereux (1 800 t/an, 750 m3 sur le site dont papiers/cartons, déchets de bois, polymères, inertes, caoutchoucs techniques) ;
+
+14l0l0	Une_installation_de_transit_de_déchets_non_dangereux	O
+14l0l1	caoutchoucs_techniques	O
+14l1l0	déchets_non_dangereux	U
+14l1l1	caoutchoucs_techniques	U
+
+#4) une station de transit de DEEE (déchets électriques et électroniques).
+
+15l0l0	une_station_de_transit	O
+15l0l1	DEEE	O
+15l1l0	transit_de_DEEE	U
+15l1l1	déchets_électriques	U
+
+#Max : 60 m3.
+
+
+#Quantité max en transit : 80 t/an.
+
+
+#I A l'intérieur du site
+
+
+#Le chapitre 9.5 du nouvel arrêté d'autorisation a imposé la réalisation d'un diagnostic des sols sur la partie de la parcelle ZE 22 située au niveau de l'aire située à l'extrémité Nord-est du site avant la mise en place d'un revêtement étanche et au plus tard avant le 21/12/2017.
+
+19l0l0	Le_chapitre_9_5	O
+19l0l1	nouvel_arrêté_d__autorisation	N
+19l0l2	a_imposé	N
+19l0l3	la_réalisation_d__un_diagnostic_des_sols	N
+19l0l4	sur_la_partie	L
+19l0l5	de_la_parcelle_ZE_22	O
+19l0l6	située_au_niveau_de_l__aire	L
+19l0l7	située_à_l__extrémité_Nord_est_du_site	L
+19l0l8	avant	R
+19l0l9	la_mise_en_place_d__un_revêtement	N
+19l0l10	au_plus_tard	N
+19l0l11	avant_le_21_12_2017__	T
+
+#Le revêtement n'est mis en place que si les teneurs en hydrocarbures et en métaux sont compatibles avec un usage industriel et avec les usages des eaux souterraines en aval du site.
+
+20l0l0	Le_revêtement	O
+20l0l1	n__est_mis_en_place	N
+20l0l2	compatibles_avec	R
+20l0l3	un_usage_industriel	N
+20l0l4	les_usages_des_eaux_souterraines	A
+20l0l5	en_aval_du_site	L
+20l1l0	hydrocarbures	S
+20l1l1	métaux	S
+
+#II A l'extérieur du site
+
+21l0l0	site	O
+
+#Suite à un engorgement du dispositif de traitement des eaux pluviales du site, un terrain à environ 1 km en aval du site (parcelles ZD 20 et 80 et fossé de liaison entre le site et ces parcelles) ont été affectés par une pollution en hydrocarbures en avril 2011.
+
+22l0l0	Suite	R
+22l0l1	à_un_engorgement	N
+22l0l2	traitement_des_eaux_pluviales	A
+22l0l3	du_site	O
+22l0l4	un_terrain	O
+22l0l5	à_environ_1_km_en_aval_du_site	L
+22l0l6	ont_été_affectés_par_une_pollution	N
+22l0l7	hydrocarbures	O
+22l0l8	en_avril_2011__	T
+22l1l0	hydrocarbures	S
+
+#Des travaux de dépollution ont immédiatement été entrepris (enlèvement de 30 t environ de  terres polluées et de 20 t de boues hydrocarburées en avril 2011 et 35 t de terres légèrement polluées et 20 m3 d'eaux souillées supplémentaires en mai 2012).
+
+23l0l0	Des_travaux_de_dépollution	N
+23l0l1	ont_immédiatement_été_entrepris	N
+23l0l2	enlèvement	N
+23l0l3	30_t_environ_de___terres_polluées	O
+23l0l4	de_20_t_de_boues_hydrocarburées	O
+23l0l5	en_avril_2011	T
+23l0l6	supplémentaires_en_mai_2012	T
+23l1l0	de_boues_hydrocarburées	U
+
+#En conséquence, afin de pouvoir de se prononcer sur l'efficacité de ces travaux de dépollution, un arrêté complémentaire a été pris le 21/12/2015 afin de demander la réalisation :
+
+24l0l0	ces_travaux_de_dépollution	N
+24l0l1	un_arrêté_complémentaire	O
+24l0l2	a_été_pris	N
+24l0l3	le_21_12_2015	T
+24l0l4	demander_la_réalisation	N
+
+#- avant le 21/02/2017, de prélèvements de sol complémentaires au droit des parcelles ZD 20 et ZD 80 en vue de déterminer la teneur des sols en métaux,  hydrocarbures et HAP ainsi que sur les eaux souterraines, sauf si une étude hydrogéologique en démontre l'absence de nécessité, en amont et en aval du site au cours de deux campagnes de prélèvements (hautes et basses eaux) en vue de déterminer leur teneur en en métaux, hydrocarbures totaux, HAP, BTEX et COHV au moyen d'au moins 3 piézomètres ;
+
+25l0l0	avant_le_21_02_2017	T
+25l0l1	__de_prélèvements_de_sol_complémentaires	N
+25l0l2	au_droit_des_parcelles_ZD	L
+25l0l3	étude_hydrogéologique	N
+25l0l4	__en_amont_et_en_aval_du_site	L
+25l1l0	métaux	S
+25l1l1	__hydrocarbures_et_HAP	S
+25l1l2	en_métaux___hydrocarbures_totaux	S
+25l1l3	__HAP___BTEX_et_COHV	S
+
+#- selon les résultats obtenus lors de ces investigations, d'une interprétation de l'état des milieux (IEM).
+

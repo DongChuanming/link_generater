@@ -1,0 +1,154 @@
+
+#85.0018
+#Installation de tri, transit et regroupement de déchets dangereux et non dangereux (métaux), stockage et dépollution de véhicules hors d'usage
+
+0l0l0	Installation_de_tri	N
+0l0l1	transit_et_regroupement_de_déchets_dangereux	O
+0l0l2	stockage_et_dépollution	N
+0l1l0	déchets_dangereux	U
+
+#La société Guy Dauphin Environnement exploitait depuis 1975 une installation de tri, transit et regroupement de déchets dangereux, non dangereux et de démontage, dépollution de véhicules hors d’usage.
+
+1l0l0	La_société_Guy_Dauphin_Environnement	O
+1l0l1	exploitait	R
+1l0l2	depuis_1975	T
+1l0l3	une_installation_de_tri___transit	O
+1l0l4	regroupement_de_déchets_dangereux	N
+1l0l5	démontage	N
+1l0l6	dépollution	N
+1l0l7	véhicules	O
+1l1l0	La_société_Guy_Dauphin_Environnement	I
+1l1l1	déchets_dangereux	U
+
+#Dans le cadre de la mise à l’arrêt définitif des activités, l’exploitant a transmis un dossier de cessation d’activité comportant les mesures prises pour assurer la mise en sécurité du site, à savoir :
+
+2l0l0	Dans_le_cadre_de	R
+2l0l1	la_mise_à_l__arrêt_définitif_des_activités	N
+2l0l2	l__exploitant	O
+2l0l3	a_transmis	N
+2l0l4	un_dossier	O
+2l0l5	cessation_d__activité	N
+2l0l6	pour_assurer_la_mise_en_sécurité	N
+
+#- l’évacuation et l’élimination des produits dangereux et des déchets présents sur le site ;
+
+3l0l0	l__évacuation	N
+3l0l1	l__élimination_des_produits_dangereux	N
+3l1l0	des_produits_dangereux	U
+
+#l’interdiction ou limitations d’accès au site par maintien de l’intégralité de la clôture du site et du portail d’accès ;
+
+
+#- la suppression des risques d’incendie et d’explosion par évacuation rapide des déchets, nettoyage du débourbeur-deshuileur, coupure des lignes électriques et téléphoniques.
+
+5l0l0	nettoyage_du_débourbeur	N
+
+#- La surveillance des effets de l’installation sur son environnement : un premier diagnostic a été réalisé en novembre 2010.
+
+6l0l0	La_surveillance_des_effets	N
+6l0l1	l__installation	O
+6l0l2	__un_premier_diagnostic	N
+6l0l3	a_été_réalisé	N
+6l0l4	en_novembre_2010__	T
+
+#Celui-ci recommandait la réalisation d’investigations complémentaires et d’une évaluation quantitative des risques sanitaires (EQRS).
+
+7l0l0	investigations_complémentaires	N
+7l0l1	une_évaluation_quantitative_des_risques_sanitaires	N
+
+#Cette dernière réalisée en janvier 2013, indique qu’au regard des résultats de l’évaluation quantitative des risques sanitaires, aucune mesure corrective spécifique n’est préconisée.
+
+8l0l0	réalisée	N
+8l0l1	en_janvier_2013__	T
+
+#Cependant en cas de travaux en sous-sol, il est recommandé :
+
+9l0l0	cas_de	R
+9l0l1	travaux_en_sous_sol	N
+
+#- l’application de mesures d’hygiène et de sécurité adaptées pour la protection des travailleurs,
+
+10l0l0	l__application_de	N
+
+#- le tri et l’acheminement hors site des matériaux extraits vers des exutoires adaptés en fonction de la nature et du degré de leur contamination.
+
+11l0l0	l__acheminement_hors_site	N
+11l0l1	matériaux_extraits	O
+11l0l2	vers	R
+11l0l3	des_exutoires	O
+
+#Par ailleurs, un plan de gestion a été réalisé.
+
+12l0l0	un_plan_de_gestion	O
+12l0l1	a_été_réalisé	N
+
+#Dans le cadre de la gestion de la pollution résiduelle sur site, l’arrêté d’autorisation ne prévoyant pas l’état dans lequel le site doit être remis ni son usage futur, les dispositions de l’article R512-39-2 s’appliquent (remise en état après concertation).
+
+13l0l0	Dans_le_cadre_de	R
+13l0l1	la_gestion	N
+
+#En l’absence de justification sanitaire ou environnementale impérative, démontrée dans le cadre de l’étude (schéma conceptuel et Analyse des Risques Résiduels), les recommandations complémentaires et suivi environnemental sont « l’instauration de restrictions d’usage sur le site imposant :
+
+14l0l0	suivi_environnemental	O
+14l0l1	__l__instauration_de_restrictions	N
+14l0l2	d__usage	O
+
+#- un usage de type industriel uniquement ;
+
+15l0l0	un_usage	N
+
+#- la conservation des surfaces actuellement couvertes par du béton, de l’enrobé ou du bâti ;
+
+
+#l’interdiction des remaniements de terres / remblais susceptible d’occasionner une remise en surface pérenne de ces derniers ;
+
+17l0l0	l__interdiction_des_remaniements_de_terres	N
+17l0l1	remblais	O
+17l0l2	susceptible_d_	R
+17l0l3	occasionner_une_remise_en_surface_pérenne	N
+
+#- en cas de travaux et d’évacuation de matériaux hors site, leur orientation vers un centre adapté et la mise en œuvre de mesures adéquates de protection des travailleurs ;
+
+18l0l0	en_cas	R
+18l0l1	de_travaux	N
+18l0l2	d_	N
+18l0l3	évacuation_de_matériaux_hors_site	L
+18l0l4	leur	O
+18l0l5	orientation_vers	L
+18l0l6	un_centre	O
+18l0l7	la_mise_en_œuvre_de	N
+
+#- en cas de changement d’usage notamment pour un usage plus sensible, ou en cas de réaménagement du site, réalisation de nouvelles études selon la méthodologie nationale en matière de sites et sols pollués en vigueur à la date du changement d’usage.
+
+19l0l0	en_cas	R
+19l0l1	de_changement_d_	N
+19l0l2	usage	O
+19l0l3	un_usage	O
+19l0l4	en_cas	R
+19l0l5	de_réaménagement_du_site	N
+19l0l6	réalisation_de_nouvelles_études	N
+19l0l7	selon	R
+19l0l8	la_méthodologie	O
+19l0l9	sols_pollués	O
+19l0l10	la_date	T
+19l0l11	du_changement	N
+
+#Dans le cas présent, en raison d’une vente du site, le recours à une Servitude d’Utilité Publique ne semble pas adapté et il est recommandé la mise en œuvre de restrictions d’usage entre parties (RUP) avec publication à la conservation des hypothèques.
+
+20l0l0	en_raison_d_	R
+20l0l1	une_vente	N
+20l0l2	du_site	O
+
+#Sur la base du schéma conceptuel et des conclusions du plan de gestion, il n’est pas recommandé la mise en œuvre d’un suivi post-exploitation ».
+
+21l0l0	la_mise_en_œuvre_d__un_suivi_post_exploitation	N
+
+#Dans les conditions générales de vente des installations, des  restrictions d’usage entre parties (RUP) ont été reprises au titre des installations classées pour la protection de l’environnement.
+
+22l0l0	les_conditions_générales_de_vente_des_installations	O
+22l0l1	des___restrictions_d__usage	O
+22l0l2	__ont_été_reprises	N
+22l0l3	au_titre	R
+22l0l4	des_installations_classées_pour	L
+22l0l5	la_protection_de	A
+22l0l6	l__environnement	O

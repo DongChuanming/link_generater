@@ -1,0 +1,158 @@
+
+#47.0038
+#Scierie avec traitement du bois localisée sur la commune de Poussignac (47).
+
+0l0l0	Scierie_avec_traitement_du_bois	A
+0l0l1	localisée_sur_la_commune_de_Poussignac	L
+0l0l2	__47	L
+0l1l0	Scierie	I
+
+#Elle est exploité par la SARL Scierie BENETEAU.
+
+1l0l0	est_exploité	N
+1l0l1	la_SARL_Scierie_BENETEAU	O
+1l1l0	la_SARL_Scierie_BENETEAU	I
+
+#Cette installation a été autorisée par l'arrêté préfectoral du 8 octobre 1993.
+
+2l0l0	Cette_installation	O
+2l0l1	a_été_autorisée	N
+2l0l2	par_l__arrêté_préfectoral	O
+2l0l3	du_8_octobre_1993__	T
+
+#La SARL Scierie BENETEAU a repris les activités de la SARL PROCEDES en 2008 (récépissé de changement d'exploitant du 28/02/2008).
+
+3l0l0	La_SARL_Scierie_BENETEAU	O
+3l0l1	a_repris_les_activités	N
+3l0l2	la_SARL_PROCEDES	O
+3l0l3	en_2008	T
+3l0l4	récépissé	O
+3l0l5	changement_d__exploitant	N
+3l0l6	28_02_2008____	T
+3l1l0	La_SARL_Scierie_BENETEAU	I
+3l1l1	la_SARL_PROCEDES	I
+
+#1 - DIAGNOSTIC
+
+4l0l0	DIAGNOSTIC	N
+
+#L'arrêté préfectoral du 30 septembre 2003 prescrit le diagnostic initial et l'évaluation simplifiée des risques (ESR) du site.
+
+5l0l0	L__arrêté_préfectoral	O
+5l0l1	30_septembre_2003	T
+5l0l2	prescrit	R
+5l0l3	le_diagnostic_initial	N
+5l0l4	l__évaluation_simplifiée_des_risques	N
+5l0l5	du_site	O
+
+#L'ESR a été réalisée en 2 étapes en juin 2004 et avril 2005.
+
+6l0l0	a_été_réalisée_en	N
+6l0l1	2_étapes	O
+6l0l2	en_juin_2004_et_avril_2005__	T
+6l1l0	ESR	I
+
+#1-1- Diagnostic des sols
+
+7l0l0	sols	O
+
+#Des échantillons de sol présentent des concentrations en bore supérieures à celle d'un échantillon témoin pouvant illustrer le "bruit de fond".
+
+8l0l0	bore	O
+8l1l0	bore	S
+
+#Ces concentrations restent toutefois faibles.
+
+
+#1-2- Diagnostic des eaux souterraines
+
+
+#L'ESR note la présence de nappes discontinues et, le plus souvent, modestes.
+
+11l0l0	nappes	O
+11l1l0	ESR	I
+
+#Les nappes, lorsqu'elles existent, sont situées dans des lentilles sableuses très locales (faible extension).
+
+12l0l0	Les_nappes	O
+12l0l1	situées_dans_des_lentilles	L
+
+#Ce contexte conduit l'ESR à conclure que la mise en place de piézomètres n'est donc pas judicieuse au droit du site.
+
+13l0l0	la_mise_en_place_de_piézomètres	O
+13l1l0	l__ESR	I
+
+#Des analyses du puits voisin du site en eau au moment des études ont toutefois pu être réalisées.
+
+14l0l0	Des_analyses	N
+14l0l1	du_puits_voisin	O
+14l0l2	eau	O
+14l0l3	au	T
+14l0l4	moment_des	N
+14l0l5	études	O
+14l0l6	ont_toutefois_pu_être_réalisées	N
+
+#Elles ont mis en évidence la présence de bore à des concentrations très faibles.
+
+15l1l0	bore	S
+
+#La présence de bore peut être d'origine naturelle, sans exclure totalement la possibilité de l'infiltration dans le puits des eaux de ruissellement depuis le site.
+
+16l1l0	bore	S
+
+#1-3- Conclusion de l'ESR
+
+17l1l0	l__ESR	I
+
+#D'après l'ESR, le site est classé 2 "à surveiller" pour les sols.
+
+18l0l0	le_site	O
+18l1l0	l__ESR	I
+
+#2 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+19l0l0	SURVEILLANCE_DES_EAUX	A
+19l0l1	SOUTERRAINES	O
+19l1l0	EAUX_SOUTERRAINES	I
+
+#La SARL Scierie BENETEAU est soumise à l'application de l'article 65 a) de l'arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines par référence à la rubrique 2415 (traitement du bois) de la nomenclature des Installations Classées pour la Protection de l'Environnement.
+
+20l0l0	La_SARL_Scierie_BENETEAU	O
+20l0l1	est_soumise_à	R
+20l0l2	l_	O
+20l0l3	l__arrêté_ministériel	O
+20l0l4	2_février_1998	T
+20l0l5	la_surveillance_des_eaux_souterraines	A
+20l0l6	traitement_du_bois	A
+20l0l7	Installations_Classées_pour_la_Protection	O
+20l1l0	La_SARL_Scierie_BENETEAU	I
+
+#Par arrêté préfectoral du 30 septembre 2003, les prescriptions concernant la surveillance des eaux souterraines sont les suivantes :
+
+21l0l0	arrêté_préfectoral	O
+21l0l1	du_30_septembre_2003__	T
+21l0l2	les_prescriptions	O
+21l0l3	la_surveillance_des_eaux_souterraines	A
+
+#- mise en place de 3 piézomètres,
+
+22l0l0	mise_en_place	N
+22l0l1	3_piézomètres	O
+
+#- les paramètres à analyser sont représentatifs des activités et des produits utilisés sur le site,
+
+
+#- le niveau piézométrique de la nappe est relevé à chaque campagne,
+
+24l0l0	est_relevé_à_chaque_campagne	N
+
+#- la fréquence des campagnes d'analyses est semestrielle.
+
+25l0l0	campagnes_d__analyses	N
+
+#Toutefois, l'ESR (cf paragraphe 1, diagnostic) a mis en évidence qu'une telle surveillance n'était pas judicieuse.
+
+
+#Au 18/07/2016, aucune évolution n'est constatée.
+
+27l0l0	Au_18_07_2016	T

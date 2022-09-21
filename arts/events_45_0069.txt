@@ -1,0 +1,188 @@
+
+#45.0069
+#La société des Transports Pétroliers par Pipe-Line (TRAPIL), dont un des dépôts est situé sur le territoire de la commune de SEMOY, est spécialisée dans la conduite à distance d’installations de transfert et de stockage d’hydrocarbures.
+
+0l0l0	La_société_des_Transports_Pétroliers	O
+0l0l1	Pipe___Line	O
+0l0l2	situé_sur_le_territoire_de_la_commune_de_SEMOY__	L
+0l0l3	est_spécialisée_dans_la_conduite_à_distance_d__installations_de_transfert	N
+0l1l0	La_société_des_Transports_Pétroliers	I
+0l1l1	TRAPIL	I
+0l1l2	hydrocarbures	S
+
+#Sur le site de SEMOY ne sont présentes que les installations nécessaires à l’exploitation technique du dépôt dont la vocation est de recevoir, en vue de leur regroupement dans le dépôt, les contaminats issus de l’exploitation de l’antenne de TOURS des pipelines LE HAVRE-PARIS.
+
+1l0l0	Sur_le_site	L
+1l0l1	SEMOY	O
+1l0l2	les_installations_nécessaires	O
+1l0l3	à	R
+1l0l4	l__exploitation_technique	O
+1l0l5	dépôt	O
+1l0l6	recevoir	A
+1l0l7	regroupement	N
+1l0l8	dans_le_dépôt	L
+1l0l9	les_contaminats	O
+1l0l10	l__antenne_de_TOURS	O
+1l0l11	pipelines_LE_HAVRE___PARIS	A
+1l1l0	dépôt	D
+1l1l1	contaminats	U
+1l1l2	HAVRE___PARIS	I
+
+#Les contaminats, qui sont des produits pétroliers non conformes aux spécifications produits issus de mélange de différents carburants, sont stockés dans des bacs en vue de leur enlèvement par camions ou de leur réinjection à faible dose dans des produits
+
+2l0l0	des_bacs	O
+2l0l1	en_vue_de	R
+2l0l2	leur_enlèvement	N
+2l0l3	leur_réinjection	N
+2l0l4	des_produits	O
+2l1l0	contaminats	U
+2l1l1	des_produits_pétroliers	U
+2l1l2	carburants	U
+2l1l3	produits	U
+
+#purs.
+
+
+#Le dépôt de SEMOY comporte 4 bacs aériens de stockage de 576 m3 pouvant comporter des mélanges d’hydrocarbures (essence, fioul domestique, gazole) et 2 cuves enterrées de 10 m3 dans une fosse en béton.
+
+4l0l0	Le_dépôt	O
+4l0l1	de_SEMOY	O
+4l0l2	comporte	N
+4l0l3	4_bacs_aériens	O
+4l0l4	d__hydrocarbures	O
+4l0l5	2_cuves	O
+4l1l0	mélanges_d__hydrocarbures	U
+4l1l1	essence	S
+4l1l2	fioul_domestique	U
+4l1l3	gazole	S
+
+#A noter que par courrier en date du 17 décembre 2004, la société TRAPIL a pris la décision d’arrêter l’exploitation de deux bacs aériens de stockage.
+
+5l0l0	en_date_du_17_décembre_2004__	T
+5l0l1	la_société_TRAPIL	O
+5l0l2	a_pris_la_décision	N
+5l0l3	deux_bacs_aériens_de_stockage	O
+5l1l0	la_société_TRAPIL	I
+
+#Le dépôt est implanté dans la zone industrielle de Bois Poisson, à proximité immédiate du dépôt pétrolier classé Seveso Seuil Haut exploité par la société DEPOTS PETROLIERS D’ORLEANS.
+
+6l0l0	Le_dépôt	O
+6l0l1	est_implanté_dans_la_zone_industrielle_de_Bois_Poisson	L
+6l0l2	à_proximité_immédiate_du_dépôt_pétrolier_classé_Seveso	L
+6l0l3	exploité	N
+6l0l4	la_société_DEPOTS_PETROLIERS	O
+6l0l5	D__ORLEANS	L
+6l1l0	dépôt_pétrolier	D
+6l1l1	la_société_DEPOTS_PETROLIERS_D__ORLEANS	I
+
+#Les activités exercées par la société TRAPIL sur le site de SEMOY sont réglementées au travers de l'arrêté préfectoral d'autorisation du 17 janvier 2011.
+
+7l0l0	Les_activités_exercées	A
+7l0l1	la_société_TRAPIL	O
+7l0l2	SEMOY	O
+7l0l3	sont_réglementées	N
+7l0l4	d__autorisation	O
+7l0l5	17_janvier_2011__	T
+7l1l0	la_société_TRAPIL	I
+
+#Une surveillance semestrielle des eaux souterraines est imposée à la société TRAPIL de par son arrêté d'autorisation.
+
+8l0l0	Une_surveillance_semestrielle	A
+8l0l1	des_eaux_souterraines	A
+8l0l2	est_imposée	N
+8l0l3	la_société_TRAPIL	O
+8l1l0	la_société_TRAPIL	I
+
+#Dans ce cadre, il lui est imposée de suivre un certain nombre de paramètres représentatifs de son activité et notamment les composés organiques halogénés volatils (COHV), les hydrocarbures aromatiques polycycliques (HAP) figurant sur la liste US.
+
+9l1l0	composés_organiques_halogénés_volatils	S
+9l1l1	COHV	S
+9l1l2	hydrocarbures_aromatiques_polycycliques	S
+9l1l3	HAP	S
+
+#PA, les BTEX (Benzène, Toluène, Ethylbenzène et Xylène), les hydrocarbures totaux (HCT) pour les fractions C5 -C40...
+
+10l1l0	les_BTEX	S
+10l1l1	Benzène	S
+10l1l2	Toluène	S
+10l1l3	Ethylbenzène	S
+10l1l4	Xylène	S
+10l1l5	les_hydrocarbures_totaux	S
+10l1l6	HCT	S
+10l1l7	les_fractions_C5__C40	S
+
+#Lors d'une visite d'inspection réalisée en 2014, il a été constaté que les eaux souterraines en aval hydraulique du site présentaient un impact notable en HCT pour les fractions légères ainsi que pour certains HAP et notamment le paramètre naphtalène.
+
+11l0l0	une_visite	N
+11l0l1	en_2014__	T
+11l0l2	les_eaux_souterraines	O
+11l0l3	en_aval_hydraulique_du_site	L
+11l0l4	présentaient	N
+11l1l0	les_fractions_légères	S
+11l1l1	certains_HAP	S
+11l1l2	paramètre_naphtalène	S
+
+#Des investigations complémentaires ont été réalisées en avril 2014 par une société spécialisée :
+
+12l0l0	Des_investigations_complémentaires	N
+12l0l1	ont_été_réalisées_en	N
+12l0l2	avril_2014	T
+12l0l3	une_société	O
+
+#- des prélèvements d'échantillons de sol jusqu'à une profondeur d'environ 10 mètres (profondeur à laquelle se situe la nappe perchée);
+
+
+#- des prélèvements d'eaux souterraines au droit de la nappe perchée pour considérer l'impact sur cette dernière;
+
+14l0l0	la_nappe	O
+
+#- des prélèvements d'eaux souterraines au droit de la nappe profonde (des calcaires de Beauce à environ 20 mètres de profondeur) pour quantifier l'éventuelle migration de polluants depuis la nappe perchée vers cette nappe.
+
+15l0l0	au_droit_de_la_nappe_profonde	L
+15l0l1	Beauce_à_environ_20	L
+15l1l0	polluants	U
+
+#Les analyses sur les sols ont montré dans la limite des investigations réalisées que l'impact par hydrocarbures est localisé sur site (teneur en HCT C5-C40 max mesurée de 7500ppm, teneur en BTEX max mesurée de 710 mg/kgMS).
+
+16l0l0	Les_analyses_sur_les_sols	N
+16l0l1	localisé_sur_site	L
+16l1l0	hydrocarbures	S
+16l1l1	HCT_C5_C40	S
+16l1l2	BTEX	S
+
+#Les résultats sur les eaux souterraines mettent en évidence une contamination importante en hydrocarbures légers (concentration maximale mesurée de 88 000 µg/l) et en BTEX (concentration maximale mesurée de 130000µg/l en xylènes totaux) de la nappe perchée en cohérence avec les résultats obtenus dans les sols.
+
+17l0l0	les_eaux_souterraines	O
+17l0l1	une_contamination	O
+17l1l0	hydrocarbures_légers	S
+17l1l1	BTEX	S
+17l1l2	xylènes_totaux	S
+
+#La présence d'HCT dans la nappe profonde est avérée confirmant bien la présence de transferts verticaux d'un aquifère à l'autre, du fait de l'existence d'un fort gradient hydraulique entre ces deux nappes.
+
+18l1l0	HCT	S
+
+#Au regard de ces éléments, des recommandations à court terme ont été formulées:
+
+19l0l0	terme	O
+19l0l1	ont_été_formulées	N
+
+#- réalisation de deux campagnes synchrones sur l'ensemble du réseau piézométrique (nappe perchée et nappe profonde);
+
+20l0l0	réalisation_de_deux_campagnes_synchrones	N
+
+#- d'un suivi piézométrique fin via des sondes automatiques sur un cycle hydrogéologique complet.
+
+
+#De plus, des mesures de gestion demandées par l'inspection concernent dans un premier temps le traitement des terres polluées constituant la source principale d'alimentation de la pollution des aquifères.
+
+22l0l0	le_traitement	N
+22l0l1	terres_polluées	O
+
+#Un plan de gestion de la pollution des eaux souterraines est en cours d'élaboration et devra tenir compte des résultats des prochaines campagnes de surveillance.
+
+23l0l0	Un_plan_de_gestion	O
+23l0l1	la_pollution_des_eaux_souterraines	O
+23l0l2	en_cours_d_	T
+23l0l3	élaboration	O
+23l0l4	surveillance	A

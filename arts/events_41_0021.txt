@@ -1,0 +1,312 @@
+
+#41.0021
+#* L'exploitant
+
+0l0l0	L__exploitant	O
+
+#la société HPI Groupe KOYO a pour activité la conception, la fabrication et la distribution de pièces mécaniques et d'ensembles hydrauliques.
+
+1l0l0	la_société_HPI	O
+1l0l1	KOYO	O
+1l0l2	activité_la_conception___la_fabrication_et_la_distribution_de_pièces_mécaniques_et_d__ensembles_hydrauliques	A
+1l1l0	la_société_HPI_Groupe_KOYO	I
+
+#Cette société a été la dernière à exploiter les installations du site, jusqu'au 31/01/2001, date où elle a transféré ses activités sur un nouveau site à BLOIS.
+
+2l0l0	Cette_société	O
+2l0l1	a_été_la_dernière_à_exploiter	N
+2l0l2	les_installations_du_site	O
+2l0l3	jusqu__au_31_01_2001___date_où	R
+2l0l4	elle	O
+2l0l5	a_transféré	N
+2l0l6	ses_activités	N
+2l0l7	sur_un_nouveau_site	N
+2l0l8	à_BLOIS	L
+
+#* Le contexte
+
+
+#L'établissement est situé à l'Ouest de BLOIS, le long de la Route de Chateaurenault.
+
+4l0l0	L__établissement	O
+4l0l1	est_situé_à_l__Ouest_de_BLOIS	L
+4l0l2	le_long_de_la_Route_de_Chateaurenault	L
+
+#A l'origine des activités, c'est-à-dire vers 1949, la société DBA-AIR EQUIPEMENT exploitait un très grand site industriel composé de 4 usines dites A, B, C et D.
+
+5l0l0	A_l__origine	N
+5l0l1	activités	A
+5l0l2	vers_1949	T
+5l0l3	la_société_DBA___AIR_EQUIPEMENT	O
+5l0l4	exploitait	R
+5l0l5	un_très_grand_site_industriel	O
+5l0l6	composé_de	R
+5l0l7	4_usines	O
+5l1l0	la_société_DBA___AIR_EQUIPEMENT	I
+
+#Suite à des reprises successives du site, la société HPI est devenue exploitante du site composé des usines B et C.
+
+6l0l0	Suite	R
+6l0l1	à_des_reprises_successives	N
+6l0l2	du_site	O
+6l0l3	la_société_HPI	O
+6l0l4	est_devenue_exploitante	N
+6l0l5	du_site	O
+6l1l0	la_société_HPI	I
+
+#Le terrain correspondant couvre une surface de 14000m2.
+
+7l0l0	Le_terrain	O
+
+#Autour de cet établissement, se trouvent un autre site industriel, des habitations et des terrains en friche.
+
+8l0l0	cet_établissement	O
+8l0l1	se_trouvent	R
+8l0l2	un_autre_site_industriel	O
+8l0l3	des_habitations	O
+8l0l4	des_terrains_en_friche	O
+
+#La mise en place de piézomètres au droit du site, a permis d'établir que la première nappe d'eaux souterraines rencontrée est celle de la Craie.
+
+9l0l0	La_mise_en_place_de_piézomètres	O
+9l0l1	au_droit_du_site	L
+9l0l2	la_première_nappe	O
+
+#Le sens d'écoulement de la nappe s'effectue en direction de la Loire.
+
+10l0l0	en_direction_de_la_Loire	L
+
+#Un forage industriel y était également exploité.
+
+11l0l0	Un_forage_industriel	O
+11l0l1	était_également_exploité	N
+
+#*Risques et nuisances
+
+12l0l0	nuisances	O
+
+#Une étude de sols (diagnostic approfondi) et une Evaluation Détaillée des Risques pour la Santé humaine (EDR-S) ont été conduites sur l’ensemble du site d’HPI.
+
+13l0l0	Une_étude_de_sols	N
+13l0l1	diagnostic_approfondi	N
+13l0l2	une_Evaluation_Détaillée_des_Risques	N
+13l0l3	ont_été_conduites	N
+13l0l4	sur_l__ensemble_du_site_d__HPI	L
+
+#Les résultats des campagnes d’analyses des sols et des eaux du puits industriel indiquaient :
+
+14l0l0	campagnes_d__analyses	N
+14l0l1	eaux_du_puits_industriel	O
+
+#La présence de 3 sources distinctes des sols;
+
+
+#Source n° 1 (source primaire) ; sols pollués en cuivre aux abords de l’ancienne cuve de récupération d'huiles située en partie Nord-Est du site ;
+
+16l0l0	sols_pollués	O
+16l0l1	cuivre	O
+16l0l2	aux_abords_de	L
+16l0l3	l__ancienne_cuve_de_récupération_d__huiles	O
+16l0l4	située_en_partie_Nord_Est_du_site	L
+16l1l0	cuivre	S
+
+#Source n° 2 (source primaire) ; sols pollués en arsenic en partie Nord du site ainsi qu’au droit de l’ancienne cuve enterrée de carburants ;
+
+17l0l0	sols_pollués	O
+17l0l1	arsenic	O
+17l0l2	en_partie_Nord_du_site	L
+17l0l3	ainsi	O
+17l0l4	qu_	R
+17l0l5	au_droit_de_l__ancienne_cuve_enterrée_de_carburants	O
+17l1l0	arsenic	S
+17l1l1	cuve_enterrée	D
+17l1l2	carburants	U
+
+#Source n° 3 (source primaire) ; sols pollués en hydrocarbures totaux  au droit de l’ancienne cuve enterrée de carburants située en partie Sud-Est du site, de l’ancienne cuve de récupération d’huiles usagées, de l’ancienne zone de stockage de déchets, de l’ancien parc à huiles et du bâtiment C.
+
+18l0l0	__sols_pollués	O
+18l0l1	__au_droit_de	L
+18l0l2	l__ancienne_cuve_enterrée_de_carburants	O
+18l0l3	située_en_partie_Sud_Est_du_site	L
+18l0l4	d__huiles_usagées	O
+18l0l5	de_l__ancienne_zone_de_stockage_de_déchets	O
+18l0l6	de_l__ancien_parc_à_huiles	O
+18l1l0	hydrocarbures_totaux	S
+18l1l1	ancienne_cuve_enterrée	D
+18l1l2	de_carburants	U
+18l1l3	ancienne_cuve_de	D
+18l1l4	récupération_d__huiles_usagées	U
+
+#D'autre part, la présence de solvants chlorés (Cis 1,2 dichloroéthylène et trichloroéthylène) dans les eaux souterraines a permis de considérer l’existence de 2 « lentilles » de pollution au sein de la nappe présente au droit du site.
+
+19l0l0	la_nappe	O
+19l0l1	présente_au	R
+19l0l2	droit_du_site	L
+19l1l0	solvants_chlorés___Cis_1_2_dichloroéthylène	S
+19l1l1	trichloroéthylène	S
+
+#L’étude détaillée des risques sanitaires (EDR-S) a notamment montré que le site n'était pas compatible avec un usage futur de type résidentiel, sans mise en œuvre de mesures de gestion.
+
+20l0l0	le_site	O
+20l0l1	un_usage_futur_de_type_résidentiel	A
+20l0l2	mise_en_œuvre_de	N
+
+#* Actions engagées:
+
+
+#L'arrêté préfectoral du 25/05/05 a prescrit à l'ancien exploitant les mesures suivantes:
+
+22l0l0	L__arrêté_préfectoral	O
+22l0l1	25_05_05	T
+22l0l2	a_prescrit	N
+22l0l3	l__ancien_exploitant	O
+22l0l4	les_mesures	N
+
+#- élimination de tous les déchets encore présents sur le site (transformateurs au PCB, anciennes cuves d’hydrocarbures,…).
+
+23l0l0	élimination	N
+23l1l0	les_déchets	U
+23l1l1	transformateurs	S
+23l1l2	PCB	S
+23l1l3	cuves_d_	D
+23l1l4	hydrocarbures	S
+
+#- dégazage et neutralisation de l'ensemble des cuves présentes sur le site
+
+24l0l0	dégazage	N
+24l0l1	neutralisation	N
+24l0l2	l_	O
+24l1l0	cuves	D
+
+#- mise en place d’une surveillance périodique des eaux souterraines
+
+25l0l0	mise_en_place_d_	N
+25l0l1	une_surveillance_périodique_des_eaux_souterraines	A
+
+#- fourniture d'une étude technico-économique de dépollution et/ou de confinement s'appuyant sur les conclusions des études des risques sanitaires réalisées et tenant compte de l'usage prévu du site.
+
+26l0l0	fourniture_d__une_étude_technico	N
+26l0l1	dépollution	N
+
+#Les déchets ont été éliminés et la surveillance des eaux souterraines a été mise en place au cours de l'été 2005.
+
+27l0l0	ont_été_éliminés	N
+27l0l1	la_surveillance_des_eaux_souterraines	A
+27l0l2	a_été_mise_en_place	N
+27l0l3	au_cours_de_l__été_2005__	T
+
+#Cette surveillance confirme une contamination par des solvants chlorés (1,2 cis DCE et TCE principalement).
+
+28l0l0	Cette_surveillance	N
+28l0l1	une_contamination	O
+28l1l0	solvants_chlorés	S
+28l1l1	cis_DCE	I
+28l1l2	TCE	S
+
+#En 2007, la ville de Blois a mandaté un bureau d'étude pour évaluer les investigations environnementales nécessaires à l'élaboration de solutions de réhabilitation.
+
+29l0l0	En_2007__	T
+29l0l1	la_ville_de_Blois	O
+29l0l2	a_mandaté	N
+29l0l3	un_bureau_d__étude	O
+29l0l4	évaluer_les_investigations_environnementales	N
+29l0l5	nécessaires_à	R
+29l0l6	l__élaboration_de_solutions_de_réhabilitation	O
+
+#Cette étude a été réalisée sur la base d'une réhabilitation de type commercial et résidentiel.
+
+30l0l0	Cette_étude	O
+30l0l1	a_été_réalisée	N
+30l0l2	sur_la_base_d_	R
+30l0l3	une_réhabilitation	N
+
+#Au terme de cette évaluation, le bureau d'étude a recommandé de poursuivre les investigations environnementales afin de caractériser l'extension des pollutions et leurs impacts.
+
+31l0l0	cette_évaluation	N
+31l0l1	le_bureau_d__étude	O
+31l0l2	investigations_environnementales	N
+31l0l3	afin_de	R
+31l0l4	caractériser_l__extension_des_pollutions	N
+
+#Les investigations environnementales réalisées en 2008, ont mis en évidence 6 zones où les sols sont impactés par des hydrocarbures.
+
+32l0l0	Les_investigations_environnementales	N
+32l0l1	réalisées	N
+32l0l2	en_2008__	T
+32l0l3	6_zones	O
+32l0l4	hydrocarbures	O
+32l1l0	hydrocarbures	S
+
+#Une stratégie de réhabilitation a été élaborée en juillet 2009 puis validée par la ville de Blois, l'exploitant et le promoteur.
+
+33l0l0	Une_stratégie_de_réhabilitation	O
+33l0l1	a_été_élaborée	N
+33l0l2	en_juillet_2009	T
+33l0l3	validée_par	O
+33l0l4	la_ville_de_Blois	L
+33l0l5	l__exploitant	O
+
+#Sur la base des substances détectées, de leur comportement dans les milieux et de dispositions constructives, une analyse des risques résiduels (ARR) à été réalisée, pour un usage futur du site de type résidentiel avec jardins et parking.
+
+34l0l0	une_analyse_des_risques_résiduels	N
+34l0l1	à_été_réalisée	N
+34l0l2	un_usage_futur	N
+34l0l3	site_de_type_résidentiel	N
+34l0l4	parking	O
+
+#Les résultats de l'ARR ont conclu à l'absence de risque.
+
+
+#Les mesures de réhabilitation du site ont été prescrites à l'exploitant par arrêté préfectoral du 28 janvier 2010.
+
+36l0l0	Les_mesures_de_réhabilitation_du_site	O
+36l0l1	ont_été_prescrites	N
+36l0l2	l__exploitant	O
+36l0l3	par_arrêté_préfectoral	O
+36l0l4	28_janvier_2010__	T
+
+#Elles consistent notamment à :
+
+
+#-Excaver et évacuer les terres impactées;
+
+38l0l0	_Excaver	O
+38l0l1	évacuer	N
+38l0l2	les_terres_impactées	O
+
+#-Couvrir l'ensemble du site par des barrières physiques (terre végétale ou recouvrement bitumeux sur 0.10 m d'épaisseur minimale);
+
+39l0l0	_Couvrir_l_	O
+
+#-Remblayer par une couche de terre végétale sur une épaisseur de 0.50 m les parties non construites du projet;
+
+40l0l0	_Remblayer	O
+40l0l1	les_parties_non_construites_du_projet	O
+
+#-Pérenniser l'état environnemental du site par la mise en œuvre de restriction d'usage (interdiction de réaliser des potagers,des vergers, des puits  et d'utiliser l'eau de la nappe au droit du site).
+
+41l0l0	l__état_environnemental	N
+41l0l1	la_mise_en_œuvre_de_restriction	N
+41l0l2	interdiction	N
+
+#En complément, l'arrêté préfectoral a prescrit à l'exploitant de vérifier l'impact de la pollution du site sur ses environs immédiats et la poursuite de la surveillance des eaux souterraines.
+
+42l0l0	l__arrêté_préfectoral	O
+42l0l1	a_prescrit	N
+42l0l2	l__exploitant	O
+42l0l3	la_pollution	N
+42l0l4	site_sur_ses_environs_immédiats	O
+42l0l5	la	O
+42l0l6	poursuite_de_la_surveillance_des_eaux_souterraines	A
+
+#En 2010, 1500 tonnes de terres impactées ont été évacuées du site.
+
+43l0l0	En_2010__	T
+43l0l1	1500_tonnes_de_terres_impactées	O
+43l0l2	ont_été_évacuées	N
+
+#Les infrastructures du site ont été démolies et évacuées.
+
+44l0l0	Les_infrastructures_du_site	O
+44l0l1	ont_été_démolies	N
+44l0l2	évacuées	N

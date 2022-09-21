@@ -1,0 +1,458 @@
+
+#64.0103
+#Ancienne usine de découpe, d'emboutissage et de traitement de surface de métaux exploitée par la société THYSSENKRUPP SOFEDIT SUD OUEST, sise 2 rue du Parc National sur la commune d'Arudy (64).
+
+0l0l0	Ancienne_usine	O
+0l0l1	de_découpe___d__emboutissage_et_de_traitement_de_surface_de_métaux	A
+0l0l2	exploitée_par	R
+0l0l3	la_société_THYSSENKRUPP	O
+0l0l4	SOFEDIT_SUD_OUEST	O
+0l0l5	sise	R
+0l0l6	2_rue_du_Parc_National	L
+0l0l7	sur_la_commune_d__Arudy___64__	L
+0l1l0	la_société_THYSSENKRUPP_SOFEDIT_SUD_OUEST	I
+
+#Le process utilisé dans l'usine nécessite l'emploi de diverses substances potentiellement polluantes : huiles, graisses, dégraissants, lessives, acides, peintures et colles.
+
+1l1l0	huiles	S
+1l1l1	graisses	S
+1l1l2	acides	S
+
+#Le fonctionnement de cette usine était réglementé par l'arrêté préfectoral du 11 mai 1995 initialement délivré à la société LAPRADE Emboutissage (changement d'exploitant réalisé).
+
+2l0l0	Le_fonctionnement	A
+2l0l1	cette_usine	O
+2l0l2	était_réglementé	N
+2l0l3	l__arrêté_préfectoral	O
+2l0l4	11_mai_1995	T
+2l0l5	la_société_LAPRADE	O
+2l0l6	Emboutissage	A
+2l0l7	changement_d__exploitant_réalisé	N
+2l1l0	la_société_LAPRADE_Emboutissage	I
+
+#La cessation d'exploitation du site a fait l'objet d'un récépissé daté du 1 avril 2010.
+
+3l0l0	La_cessation_d__exploitation	N
+3l0l1	du_site	O
+3l0l2	a_fait_l__objet_d_	R
+3l0l3	un_récépissé	O
+3l0l4	daté_du_1_avril_2010__	T
+
+#Le site est localisé dans la vallée d'Ossau, entre les routes départementales D53 et D920, dans un environnement périurbain.
+
+4l0l0	Le_site	O
+4l0l1	localisé_dans_la_vallée_d__Ossau	L
+4l0l2	entre_les_routes_départementales_D53_et_D920	L
+4l0l3	dans_un_environnement_périurbain	L
+
+#Le gave d'Ossau est situé à environ 100 mètres et à moins de 50 mètres au Nord du site.
+
+5l0l0	Le	O
+5l0l1	gave_d__Ossau	L
+5l0l2	est_situé_à_environ_100_mètres_et_à_moins_de_50_mètres_au_Nord_du_site	L
+
+#La surface exploitée est de 15 555 m2 située sur les parcelles 36, 37, 38, 39 et 40 section AS de la commune d'Arudy.
+
+6l0l0	située_sur_les_parcelles	L
+6l0l1	la_commune_d__Arudy	L
+
+#Acquisition par la Communauté de Commune de la Vallée d'Ossau par acte notarié du 26/04/2012.
+
+7l0l0	Acquisition	N
+7l0l1	par	R
+7l0l2	la_Communauté_de_Commune	O
+7l0l3	la_Vallée_d__Ossau	L
+7l0l4	26_04_2012__	T
+7l1l0	la_Communauté_de_Commune_de_la_Vallée_d_	I
+
+#Par lettre du 30 juin 2009, la société THYSSENKRUPP SOFEDIT SUD OUEST a officiellement déclaré la cessation des activités du site.
+
+8l0l0	du_30_juin_2009__	T
+8l0l1	la_société_THYSSENKRUPP	O
+8l0l2	SOFEDIT_SUD_OUEST	O
+8l0l3	a_officiellement_déclaré	N
+8l0l4	la_cessation_des_activités	N
+8l0l5	du_site	O
+8l1l0	la_société_THYSSENKRUPP_SOFEDIT_SUD_OUEST	I
+
+#1 - DIAGNOSTIC
+
+9l0l0	DIAGNOSTIC	N
+
+#Dans le cadre d'un projet de cession du site, la société THYSSENKRUPP SOFEDIT SUD OUEST a mandaté la société SITA REMEDIATION pour la réalisation d'un diagnostic initial de pollution en août 2007.
+
+10l0l0	Dans_le_cadre_d_	R
+10l0l1	un_projet_de_cession	N
+10l0l2	la_société_THYSSENKRUPP	O
+10l0l3	SOFEDIT_SUD_OUEST	O
+10l0l4	a_mandaté	N
+10l0l5	la_société_SITA_REMEDIATION	O
+10l0l6	la_réalisation_d__un_diagnostic_initial_de_pollution	N
+10l0l7	en_août_2007__	T
+10l1l0	la_société_THYSSENKRUPP_SOFEDIT_SUD_OUEST	I
+10l1l1	la_société_SITA_REMEDIATION	I
+
+#Ce dernier a notamment permis de mettre en évidence l'existence d'une nappe d'eau souterraine, peu productive et hétérogène.
+
+
+#Elle présentait un impact limité sur le piézomètre PZ6 (aval latéral) par :
+
+
+#- du benzène à 1,2 µg/l inférieur à 10 µg/l (guide Organisation Mondiale de la Santé ou OMS) et légèrement supérieur à 1 µg/l (limite de qualité des eaux potables),
+
+13l1l0	benzène	S
+
+#- du trichloréthylène et du tétrachloréthylène à 14,2 µg/l supérieur à 10 µg/l (guide OMS).
+
+14l1l0	du_trichloréthylène	S
+14l1l1	tétrachloréthylène	S
+
+#Aucune pollution dans les eaux du Gave d'Ossau n'a été relevée.
+
+15l0l0	Aucune_pollution	O
+15l0l1	les_eaux	O
+15l0l2	du_Gave_d__Ossau	L
+
+#L'étude montre également :
+
+
+#- la présence de légères anomalies en hydrocarbures totaux au niveau de la zone d'assemblage (510 mg/kg) et de la zone de stockage des outils et des découpes (520 mg/kg),
+
+17l0l0	la_zone	O
+17l0l1	découpes	A
+17l1l0	hydrocarbures_totaux	S
+
+#- la présence d'une zone impactée par des huiles issues de compresseurs avec des teneurs en hydrocarbures totaux (HCT) de 26 000 mg/kg de matière sèche (MS), le volume de terres ainsi polluées étant estimé à 20 tonnes,
+
+18l0l0	une_zone_impactée	O
+18l0l1	par	R
+18l0l2	des_huiles	O
+18l0l3	compresseurs	A
+18l1l0	des_huiles_issues	U
+18l1l1	hydrocarbures_totaux	S
+18l1l2	HCT	S
+
+#Il convient de noter la présence de métaux dans les sols pour l'arsenic, le chrome, le cuivre, le mercure, le plomb et le zinc, en quantité très légèrement supérieure aux valeurs maximales observées dans les sols ordinaires.
+
+19l0l0	l__arsenic	O
+19l1l0	métaux	S
+19l1l1	arsenic	S
+19l1l2	le_chrome	S
+19l1l3	cuivre	S
+19l1l4	mercure	S
+19l1l5	plomb	S
+19l1l6	zinc	S
+
+#Elle est diffuse sur la moitié du site et est probablement liée au passé minier de la région.
+
+
+#Suite à ces résultats, des investigations complémentaires ont été menées en janvier 2008 et ont fait ressortir les points suivants :
+
+21l0l0	des_investigations_complémentaires	O
+21l0l1	ont_été_menées	N
+21l0l2	en_janvier_2008	T
+
+#- l'environnement du site est peu vulnérable (absence de puits privés notamment et absence de détection des composés recherchés dans les eaux du Gave d'Ossau),
+
+22l0l0	les_eaux_du_Gave_d__Ossau	L
+22l1l0	composés	S
+
+#- l'existence d'un risque sanitaire lié à la zone impactée par les huiles de compresseurs.
+
+23l0l0	la_zone_impactée	O
+23l0l1	huiles_de_compresseurs	O
+23l1l0	huiles_de_compresseurs	U
+
+#2 - TRAVAUX
+
+24l0l0	TRAVAUX	O
+24l1l0	TRAVAUX	I
+
+#le 18 février 2008, la réhabilitation de la zone polluée par des huiles de compresseurs a été opérée.
+
+25l0l0	le	N
+25l0l1	18_février_2008__	T
+25l0l2	la_réhabilitation	N
+25l0l3	la_zone_polluée_par	O
+25l0l4	des_huiles_de_compresseurs	O
+25l0l5	a_été_opérée	N
+25l1l0	des_huiles	U
+
+#Elle a consisté à excaver la zone polluée jusqu'à l'atteinte de teneurs résiduelles en hydrocarbures inférieures à 500 mg/kg (critère seuil de déchet inerte.
+
+26l0l0	excaver	N
+26l0l1	la_zone_polluée	O
+26l0l2	jusqu__à	R
+26l0l3	l__atteinte	N
+26l1l0	hydrocarbures	S
+
+#Au total, 12,78 tonnes de terres polluées pour un volume de 7 m3 ont ainsi été excavées au droit de la zone impactée pour être éliminées en classe 2 de Centre de Stockage des Déchets Ultimes PSI et réutilisées en terre de recouvrement.
+
+27l0l0	12_78_tonnes_de_terres_polluées	O
+27l0l1	ont_ainsi_été_excavées	N
+27l0l2	au_droit_de_la_zone_impactée	O
+27l0l3	pour	R
+27l0l4	être_éliminées	N
+27l1l0	Déchets_Ultimes	S
+27l1l1	PSI	I
+
+#Toutefois, les travaux d'excavation n'ont pas pu être menés à terme :
+
+28l0l0	les_travaux_d__excavation	N
+
+#- dans la partie sud de la zone polluée pour des raisons techniques (stabilité du bâtiment),
+
+29l0l0	dans_la_partie_sud_de	L
+29l0l1	la_zone_polluée	O
+
+#- dans la partie ouest de la zone polluée pour des raisons de sécurité (câble électrique de 20 000 V en limite).
+
+30l0l0	dans_la_partie_ouest_de	L
+30l0l1	la_zone_polluée	O
+
+#Après la dépollution, les résultats d'analyse indiquent des teneurs inférieures au seuil de dépollution (500 mg/kg) pour :
+
+31l0l0	Après	R
+31l0l1	la_dépollution	N
+31l0l2	des_teneurs	O
+
+#- les parois de la fouille au nord et à l'est,
+
+32l0l0	fouille_au_nord_et_à_l__est	O
+
+#- le fond de fouille.
+
+
+#Un horizon de sables argileux a limité la répartition verticale de la pollution.
+
+34l0l0	Un_horizon	O
+34l0l1	a_limité	N
+
+#Une teneur sur la paroi ouest de la fouille et en fond de fouille sud est supérieure au seuil de dépollution.
+
+35l0l0	dépollution	N
+
+#En effet, l'extension du panache de pollution se prolongeait au delà de la zone d'excavation, en direction de l'ouest et du sud.
+
+36l0l0	l__extension	N
+36l0l1	panache_de_pollution	O
+36l0l2	se_prolongeait	O
+36l0l3	au_delà_de_la_zone_d__excavation	N
+36l0l4	en_direction_de_l__ouest_et_du_sud	L
+
+#La zone de fouille a été remblayée immédiatement après l'excavation par des matériaux sains de type 0/30,5 mm.
+
+37l0l0	La_zone_de_fouille	O
+37l0l1	a_été_remblayée	N
+37l0l2	immédiatement	O
+37l0l3	après_l__excavation	N
+37l0l4	des_matériaux_sains_de	O
+
+#Le PV de récolement des travayux est dressé par l'inspecteur le 26 janvier 2011.
+
+38l0l0	Le_PV_de_récolement	N
+38l0l1	des_travayux	O
+38l0l2	est_dressé	N
+38l0l3	l__inspecteur	O
+38l0l4	le_26_janvier_2011__	T
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+39l0l0	SURVEILLANCE_DES_EAUX	A
+39l0l1	SOUTERRAINES	O
+39l1l0	SOUTERRAINES	I
+
+#Suite au mémoire de cessation d'activité réalisé par le Bureau VERITAS, d'un complément d'investigations, d'une Evaluation Quantitative des Risques Sanitaires (EQRS) et d'un plan de gestion effectués par Antea Group, un suivi de la qualité des eaux souterraines est préconisé.
+
+40l0l0	Suite_au	R
+40l0l1	mémoire_de	O
+40l0l2	cessation_d_	N
+40l0l3	activité	O
+40l0l4	réalisé	N
+40l0l5	le_Bureau_VERITAS	O
+40l0l6	un_complément_d__investigations	N
+40l0l7	une_Evaluation_Quantitative	N
+40l0l8	un_plan_de_gestion	O
+40l0l9	effectués	N
+40l0l10	Antea	O
+40l0l11	un	O
+40l0l12	suivi_de_la_qualité_des_eaux_souterraines	A
+40l1l0	le_Bureau_VERITAS	I
+40l1l1	Sanitaires	S
+40l1l2	Antea_Group	I
+
+#L'arrêté préfectoral du 21 novembre 2011 prescrit la surveillance semestrielles des eaux souterraines par le biais de 5 piézomètres installés sur le site pour les besoins du diagnostic.
+
+41l0l0	L__arrêté_préfectoral	O
+41l0l1	21_novembre_2011	T
+41l0l2	prescrit	R
+41l0l3	la_surveillance_semestrielles	A
+41l0l4	des_eaux_souterraines	A
+41l0l5	les	T
+41l0l6	besoins_du_diagnostic	N
+
+#Cette surveillance vise à :
+
+
+#- suivre l'évolution dans le temps des teneurs en Composés Organiques Halogénés Volatils (COHV) et BTEX (Benzène, Toluène, Éthylbenzène et Xylène) décelées dans les eaux souterraines lors des différents diagnostics effectués sur le site,
+
+43l1l0	Composés_Organiques_Halogénés_Volatils	S
+43l1l1	COHV	S
+43l1l2	BTEX	S
+43l1l3	Benzène	S
+43l1l4	Toluène	S
+43l1l5	Éthylbenzène	S
+43l1l6	Xylène	S
+
+#- s'assurer que les pollutions hydrocarburées résiduelles demeurant dans les sols du site après les travaux de réhabilitation (voir paragraphe 2 "Travaux") ne migrent pas vers les eaux souterraines.
+
+44l0l0	les_pollutions_hydrocarburées	O
+44l0l1	les_travaux_de_réhabilitation	N
+44l1l0	hydrocarburées_résiduelles	U
+
+#La surveillance des eaux souterraines suite à la cessation d'activité a été mise en place dès mai 2011.
+
+45l0l0	La_surveillance_des_eaux_souterraines	A
+45l0l1	suite_à	R
+45l0l2	la_cessation_d__activité	N
+45l0l3	a_été_mise_en_place	N
+45l0l4	dès_mai_2011__	T
+
+#Elle suit directement des campagnes antérieures de qualité des eaux souterraines réalisées chaque semestre depuis avril 2007 (excepté en 2009 où une seule campagne a été réalisée dans l'année).
+
+46l0l0	Elle_suit_directement_des_campagnes_antérieures_de_qualité_des_eaux_souterraines	O
+46l0l1	réalisées_chaque_semestre	N
+46l0l2	depuis_avril_2007	T
+46l0l3	en_2009	T
+46l0l4	l__année	R
+
+#Le rapport d'Antea Group de la surveillance des eaux souterraines informe de la conformité du programme avec l'arrêté préfectoral complémentaire n°2405-11-18 du 24 novembre 2011.
+
+47l0l0	surveillance_des_eaux_souterraines	A
+47l0l1	informe_de	R
+47l0l2	la_conformité	O
+47l0l3	du_programme	O
+47l0l4	l__arrêté_préfectoral	O
+47l0l5	__11___18	T
+47l0l6	du_24_novembre_2011__	T
+47l1l0	Antea	I
+
+#Le piézomètre PZ19, non retrouvé sur le site, a été remplacé par le piézomètre PZ17.
+
+48l0l0	a_été_remplacé_par	N
+48l0l1	le_piézomètre	O
+
+#Les Composés Aromatiques Volatils (CAV), dont les BTEX, ont été analysés à partir d'octobre 2011.
+
+49l0l0	ont_été_analysés	N
+49l0l1	partir_d__octobre_2011__	T
+49l1l0	Composés_Aromatiques_Volatils	S
+49l1l1	CAV	S
+49l1l2	les_BTEX	S
+
+#Les résultats de la surveillance sont donnés page 6 "Surveillance du site et restrictions d'usage".
+
+
+#4 - RESTRICTIONS D'USAGE
+
+51l0l0	USAGE	O
+51l1l0	USAGE	I
+
+#Dans ce contexte, et au regard de la méthodologie nationale en matière de gestion des sites et sols pollués, l'inspection des installations classées juge nécessaire que des servitudes d'utilité publique soient instituées sur ce site.
+
+52l0l0	sols_pollués	O
+52l0l1	l__inspection_des_installations_classées	O
+52l0l2	des_servitudes_d__utilité_publique	O
+52l0l3	soient_instituées	N
+52l0l4	sur_ce_site	L
+
+#Le but de cette démarche est :
+
+
+#- d’informer tout acquéreur ou utilisateur potentiel sur les risques résiduels,
+
+54l0l0	d__informer	N
+
+#- de pérenniser la conservation et la mise à disposition de l’information sans limite de temps,
+
+
+#- d’encadrer de précautions toute intervention future sur le site,
+
+56l0l0	d__encadrer	N
+
+#- de maintenir l'accessibilité aux piézomètres, en vue de permettre le suivi dans le temps de la qualité des eaux souterraines.
+
+57l0l0	le_suivi_dans_le_temps	A
+57l0l1	la_qualité_des_eaux_souterraines	A
+
+#L'arrêté préfectoral du 15 novembre 2011 a institué des servitudes d’utilité publique sur les parcelles 36 à 39 (appartenant à la société THYSSENKRUPP REAL ESTATE, Société au capital de 8 537 100 d’euros, dont le siège est situé 30 boulevard Bellerive 92 500 REUIL MALMAISON, immatriculée au Registre du Commerce et des Sociétés de Nanterre).
+
+58l0l0	L__arrêté_préfectoral	O
+58l0l1	du_15_novembre_2011	T
+58l0l2	a_institué	N
+58l0l3	des_servitudes_d_	O
+58l0l4	utilité_publique	O
+58l0l5	appartenant_à	R
+58l0l6	la_société_THYSSENKRUPP	O
+58l0l7	REAL_ESTATE	O
+58l0l8	situé_30_boulevard_Bellerive_92_500_REUIL_MALMAISON	L
+58l0l9	_	O
+58l0l10	immatriculée_au_Registre_du_Commerce_et	L
+58l1l0	la_société_THYSSENKRUPP_REAL_ESTATE	I
+
+#Ces servitudes sont les suivantes :
+
+
+#- Les terrains ont été excavés et confinés et placés dans un état tel qu’ils ne puissent accueillir qu'un usage de type industriel, artisanal ou des activités tertiaires.
+
+60l0l0	Les_terrains	O
+60l0l1	ont_été_excavés	N
+60l0l2	confinés	O
+60l0l3	un_usage	O
+60l0l4	activités_tertiaires	A
+
+#- Tout usage des terrains, autre que l’usage de type industriel, artisanal ou d'activités tertiaires, est interdit.
+
+61l0l0	Tout_usage	N
+61l0l1	des_terrains	O
+61l0l2	autre_que	R
+61l0l3	l__usage	O
+61l0l4	activités_tertiaires	A
+61l0l5	est_interdit	N
+
+#- La culture de végétaux consommables et notamment agricoles, potagères ou maraîchères est interdite.
+
+62l0l0	La_culture_de_végétaux	A
+
+#- Toute utilisation de l’eau des nappes superficielle et souterraines est interdite au droit du site.
+
+
+#Tout forage est interdit à l’exception des piézomètres de surveillance.
+
+
+#- Tout projet d’intervention remettant en cause les conditions de remise en état des terrains, tout projet de changement d’usage des terrains défini par les présentes servitudes, toute utilisation de la nappe superficielle, ainsi que tout projet de travaux de construction ou d’aménagement mettant en cause l’intégrité des sols, par une quelconque personne physique ou morale, publique ou privée, nécessitent la réalisation, au préalable, aux frais et sous la responsabilité de la personne à l’initiative du projet concerné, d’études techniques garantissant l’absence de risque pour la santé et l’environnement en fonction des travaux projetés, conformément à la méthodologie en vigueur.
+
+65l0l0	Tout_projet_d__intervention	N
+65l0l1	remise_en_état_des_terrains	O
+65l0l2	tout_projet_de_changement_d_	N
+65l0l3	les_présentes_servitudes	O
+65l0l4	tout_projet_de_travaux_de_construction	N
+65l0l5	d__aménagement	N
+65l0l6	la_réalisation	N
+65l0l7	sous_la_responsabilité	N
+65l0l8	de_la_personne	O
+65l0l9	l__initiative	N
+65l0l10	projet_concerné	O
+65l0l11	d__études_techniques	N
+65l0l12	des_travaux_projetés	N
+
+#Si nécessaire, la révision des présentes servitudes doit être menée.
+
+66l0l0	la_révision	N
+66l0l1	présentes_servitudes	O
+66l0l2	doit	R
+
+#Les permis de construire sont notamment subordonnés aux prescriptions techniques qui découlent de ce plan de remédiation
+
+67l0l0	Les_permis_de_construire	O
+67l0l1	remédiation	O

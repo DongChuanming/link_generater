@@ -1,0 +1,141 @@
+
+#36.0029
+#L'entreprise ZODIAC SEATS FRANCE (ex SICMA AERO SEAT) est spécialisé dans la fabrication de sièges d'avions, et exploite plusieurs site sur la commune d'Issoudun.
+
+0l0l0	L__entreprise_ZODIAC_SEATS_FRANCE	O
+0l0l1	SICMA_AERO_SEAT	O
+0l0l2	est_spécialisé_dans_la_fabrication_de_sièges_d__avions	A
+0l0l3	exploite	N
+0l0l4	plusieurs_site	O
+0l0l5	sur_la_commune_d__Issoudun	L
+0l1l0	ZODIAC_SEATS_FRANCE	I
+0l1l1	SICMA_AERO_SEAT	I
+
+#Le site principale implanté au 7, rue Lucien Coupet sur une superficie de de 13621 m² fonctionne depuis 1950 et était auparavant un occupé par un site militaire.
+
+1l0l0	Le_site_principale	O
+1l0l1	implanté_au	R
+1l0l2	7___rue_Lucien_Coupet	L
+1l0l3	fonctionne	N
+1l0l4	depuis_1950	T
+1l0l5	était_auparavant_un_occupé	N
+1l0l6	un_site_militaire	O
+
+#Les activités exercés sont:
+
+
+#- Travail et traitement thermique de métaux.
+
+3l0l0	Travail_et_traitement_thermique_de_métaux	A
+
+#- Fabrication de mousse polyuréthane.
+
+4l0l0	Fabrication_de_mousse_polyuréthane	A
+4l1l0	mousse_polyuréthane	I
+
+#- Application et cuisson de peinture.
+
+5l0l0	cuisson_de_peinture	A
+
+#- Découpage laser des métaux.
+
+6l0l0	Découpage_laser	N
+6l0l1	métaux	T
+
+#- Traitement de surface : activité qui a cessé en 2010.
+
+7l0l0	Traitement	A
+7l0l1	activité	O
+7l0l2	qui_a_cessé	N
+7l0l3	en_2010__	T
+
+#Les installations ont été démantelées et l'activité a été transférée à la société GMC à BUZANCAIS.
+
+8l0l0	Les_installations	O
+8l0l1	ont_été_démantelées	N
+8l0l2	l__activité	O
+8l0l3	a_été_transférée	N
+8l0l4	la_société_GMC	O
+8l0l5	à_BUZANCAIS	L
+8l1l0	la_société_GMC	I
+
+#Il est aussi noté la présence de transformateurs aux PCB et PCT, ainsi que la présence d'une station de détoxification sur le site.
+
+9l0l0	la_présence_d_	O
+9l0l1	une_station_de_détoxification	O
+9l1l0	PCB	S
+9l1l1	PCT	S
+
+#Par une lettre du 26 juin 2013, la société demande au préfet l'autorisation de regrouper les activité des différent site d'Issoudun, sur le seul et même site de La Limoise à Issoudun.
+
+10l0l0	Par	R
+10l0l1	une_lettre	N
+10l0l2	du_26_juin_2013__	T
+10l0l3	la_société	O
+10l0l4	préfet_l__autorisation	O
+10l0l5	de_regrouper	N
+10l0l6	les_activité	O
+10l0l7	différent_site	O
+10l0l8	d__Issoudun	L
+10l0l9	sur_le_seul_et_même_site_de_La_Limoise_à_Issoudun	L
+10l1l0	la_société	I
+
+#Dans le cadre de l'achat d'une partie site, la société a fait réaliser une étude des sols en 2007 par la société SOCOTEC INDUSTRIE, et l'a transmise à l'inspection des installations classé par lettre le 7 mars 2011.
+
+11l0l0	Dans_le_cadre_de	R
+11l0l1	l__achat	N
+11l0l2	d__une	L
+11l0l3	partie_site	O
+11l0l4	la_société	O
+11l0l5	a_fait_réaliser	N
+11l0l6	une_étude_des_sols	N
+11l0l7	en_2007	T
+11l0l8	la_société_SOCOTEC_INDUSTRIE	O
+11l0l9	l__a_transmise	N
+11l0l10	l__inspection_des_installations	O
+11l0l11	le_7_mars_2011__	T
+11l1l0	la_société_SOCOTEC_INDUSTRIE	I
+
+#Les zones étudiés sont:
+
+
+#- Zone de traitement de surface et stockage des produits.
+
+
+#- Zone de cabine de peinture, magasin, polissage, et atelier de soudure.
+
+14l0l0	polissage	A
+14l0l1	soudure	A
+
+#- Zone d'activité chaudronnerie, usinage, bureaux.
+
+15l0l0	Zone_d__activité_chaudronnerie	O
+15l0l1	usinage	A
+15l0l2	__bureaux	O
+
+#Par l'intermédiaire de 12 sondages, il a été relevé:
+
+
+#Présence dans les sols d'hydrocarbure issu des huiles de coupe, des solvants chlorées, ponctuellement de forte concentration de trichloréthylène ainsi que des métaux lourds: Arsenic, plomb, cuivre, cadmium, chrome, cuivre et zinc.
+
+17l1l0	hydrocarbure	S
+17l1l1	solvants_chlorées	U
+17l1l2	trichloréthylène	S
+17l1l3	métaux_lourds	S
+17l1l4	Arsenic	S
+17l1l5	plomb	S
+17l1l6	cuivre	S
+17l1l7	cadmium	S
+17l1l8	chrome	S
+17l1l9	cuivre	S
+17l1l10	zinc	S
+
+#L'inspection des installation classé estime que les résultats sont suffisant pour justifier des investigations complémentaires au niveau de la surveillance des eaux souterraines ainsi qu'une étude sur la compatibilité des sols avec l'usage industrielle actuelle.
+
+18l0l0	L__inspection_des_installation_classé	O
+18l0l1	investigations_complémentaires	N
+18l0l2	surveillance_des_eaux_souterraines	A
+18l0l3	l__usage_industrielle_actuelle	A
+
+#Les résultats de ces études n'ont toujours pas été transmises au service de l'inspection des installations classées.
+

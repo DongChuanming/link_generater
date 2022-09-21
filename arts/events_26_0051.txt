@@ -1,0 +1,204 @@
+
+#26.0051
+#Un diagnostic de pollution des sols a été réalisé en mai 2008 dans le cadre d'un futur transfert de l'activité de transformation de matières plastiques exercée par la société EROME SA sur un autre site.
+
+0l0l0	Un_diagnostic_de	N
+0l0l1	pollution_des_sols	O
+0l0l2	a_été_réalisé	N
+0l0l3	en_mai_2008	T
+0l0l4	dans_le_cadre_d_	R
+0l0l5	un_futur_transfert	N
+0l0l6	l__activité_de_transformation_de_matières_plastiques	A
+0l0l7	la_société_EROME_SA	O
+0l0l8	sur_un_autre_site	L
+0l1l0	la_société_EROME_SA	I
+
+#Le site actuel situé en plein centre de la commune d'EROME devrait, après transfert de l'activité industrielle, faire l'objet d'une réhabilitation en vue d'un changement d'usage.
+
+1l0l0	Le_site_actuel	O
+1l0l1	situé_en_plein_centre_de_la_commune_d__EROME	L
+1l0l2	après_transfert	N
+1l0l3	l__activité_industrielle	A
+1l0l4	l__objet_d_	R
+1l0l5	une_réhabilitation	N
+1l0l6	en_vue_d_	R
+1l0l7	un_changement_d__usage	N
+
+#Sols :
+
+
+#Le diagnostic réalisé montre que les activités exercées historiquement sur le site ont impacté les sols en différents endroits du site :
+
+3l0l0	Le_diagnostic_réalisé	N
+3l0l1	les_activités_exercées_historiquement	N
+3l0l2	le_site	O
+3l0l3	ont_impacté	N
+3l0l4	les_sols	O
+
+#- teneurs en éléments traces métalliques Hg, Pb, Cu au niveau de la zone remblayée
+
+4l0l0	remblayée	O
+4l1l0	traces_métalliques_Hg	S
+4l1l1	Pb	S
+4l1l2	Cu	S
+
+#- hydrocarbures totaux (> 500mg/kg) sur 4 zones
+
+5l1l0	hydrocarbures_totaux	S
+
+#- COHV sur 3 zones (trichloroéthylène) au niveau du parc déchets
+
+6l0l0	3_zones	O
+6l1l0	COHV	S
+6l1l1	trichloroéthylène	S
+
+#- HAP (> bruit de fond géochimique sur 1/3 du site)
+
+7l1l0	HAP	S
+
+#- PCB au niveau du local transformateurs (0,34 mg/kg)
+
+8l1l0	PCB	S
+
+#Au niveau de l'ancienne benne de déchets industriels spéciaux des teneurs élevées en trichloroéthylène (7 g/m3) ont été mises en évidence dans les gaz de sols.
+
+9l0l0	Au_niveau_de	R
+9l0l1	l__ancienne_benne_de_déchets_industriels_spéciaux	O
+9l0l2	ont_été_mises_en	N
+9l1l0	déchets_industriels_spéciaux	U
+9l1l1	trichloroéthylène	S
+
+#Eaux souterraines :
+
+
+#La nappe phréatique, présente à une profondeur de 13 m sous le niveau du site, est exploitée par un captage AEP situé à 1,3 km en aval hydrogéologique.
+
+11l0l0	est_exploitée	N
+11l0l1	un_captage_AEP	O
+11l0l2	situé_à_1_3_km_en_aval_hydrogéologique	N
+
+#Le contexte géologique local (remblais sablo-graveleux, argiles sableuses ou graves sableuses) la rend vulnérable à toute pollution.
+
+
+#Son usage est donc considéré sensible.
+
+13l0l0	Son_usage	O
+
+#Le résultat des analyses réalisées au niveau du puits en activité dans l'usine, n'a pas montré d'impact .
+
+14l0l0	Le_résultat	O
+14l0l1	des_analyses_réalisées	N
+14l0l2	au_niveau_du_puits	O
+14l0l3	en_activité	N
+14l0l4	l__usine	O
+
+#Toutefois le rapport mentionne que « ce résultat ne préjuge pas de la qualité des eaux en aval hydrogéologique des zones les plus contaminées car ce puits est au centre du site ».
+
+15l0l0	en_aval_hydrogéologique	N
+15l0l1	zones_les_plus_contaminées	N
+15l0l2	ce_puits	O
+15l0l3	est_au_centre_du_site	L
+
+#Le cabinet expert préconise l'implantation d'un pièzomètre en aval du site.
+
+16l0l0	Le_cabinet_expert	O
+16l0l1	préconise_l__implantation_d_	N
+16l0l2	en_aval_du_site	L
+
+#Conclusion du diagnostic approfondi du 12/05/2011 :
+
+17l0l0	diagnostic_approfondi	N
+17l0l1	12_05_2011	T
+
+#Le cabinet spécialisé insiste sur le fait que le dernier diagnostic approfondi a été réalisé de manière simplifiée afin de déterminer rapidement l'enveloppe financière relative aux mesures de dépollution à prévoir (540 k€  ± 30% en 1ère approche).
+
+18l0l0	le_dernier_diagnostic_approfondi	N
+18l0l1	a_été_réalisé_de	N
+18l0l2	l__enveloppe_financière	O
+18l0l3	relative	R
+18l0l4	aux_mesures_de_dépollution	N
+18l0l5	en_1ère_approche	N
+
+#Il recommande donc la réalisation d'un diagnostic approfondi complet afin de :
+
+19l0l0	réalisation_d__un_diagnostic_approfondi_complet	N
+
+#- diagnostiquer l'étendue des pollutions répertoriées et d'investiguer au niveau des zones encore non sondées (sols et gaz de sols),
+
+20l0l0	diagnostiquer_l__étendue_des_pollutions	N
+20l0l1	d__investiguer	N
+20l0l2	au_niveau_des	R
+20l0l3	zones_encore_non_sondées	N
+
+#- analyser l'impact sur la qualité de la nappe en aval du site après implantation d'un pièzomètre,
+
+21l0l0	analyser	N
+21l0l1	l__impact	O
+21l0l2	la_nappe	O
+21l0l3	en_aval_du_site	L
+21l0l4	après_implantation_d_	N
+
+#- vérifier le caractère inerte des remblais en zone sud-ouest pour laquelle aucune information ne permet de connaître l'activité historique exercée dans cette zone,
+
+22l0l0	remblais	O
+22l0l1	en_zone_sud_ouest	L
+22l0l2	activité_historique	A
+22l0l3	exercée_dans	R
+22l0l4	cette_zone	O
+
+#- envisager à partir du résultat de ces nouvelles investigations la réalisation d'une évaluation quantitative des risques sanitaires pour  vérifier la compatibilité avec l'usage sensible prévu pour le site, dès le déménagement futur des activités à l'été 2012.
+
+23l0l0	ces_nouvelles_investigations	N
+23l0l1	la_réalisation_d__une_évaluation_quantitative_des_risques_sanitaires	N
+23l0l2	avec_l_	A
+23l0l3	usage_sensible	O
+23l0l4	pour_le_site	O
+23l0l5	__dès	R
+23l0l6	le_déménagement_futur	N
+23l0l7	des_activités	O
+23l0l8	à_l__été_2012__	T
+
+#Enfin le cabinet préconise la réalisation d'un plan de gestion validé par une analyse des risques résiduels.
+
+24l0l0	la_réalisation_d_	N
+24l0l1	un_plan_de_gestion	O
+24l0l2	une_analyse	N
+
+#Avis de l'inspection des installations classées :
+
+
+#L'inspection des installations classées souscrit à l'ensemble des recommandations du cabinet.
+
+
+#En particulier, il conviendra de vérifier que l'analyse des risques résiduels valide le changement d'usage envisagé pour le site (programme immobilier de logement d'habitation).
+
+27l0l0	le_changement_d__usage	N
+27l0l1	le_site	O
+
+#Dans le cadre d'une reconversion du site qui ferait suite à un déménagement de la société EROME SA, l'EPORA a fait réaliser des sondages complémentaires aux mois de mai et juin 2012.
+
+28l0l0	Dans_le_cadre_d_	R
+28l0l1	une_reconversion	N
+28l0l2	ferait_suite_à	R
+28l0l3	un_déménagement	N
+28l0l4	la_société_EROME_SA	O
+28l0l5	l__EPORA	O
+28l0l6	a_fait_réaliser	N
+28l0l7	des_sondages_complémentaires	N
+28l0l8	aux_mois_de_mai_et_juin_2012__	T
+28l1l0	la_société_EROME_SA	I
+28l1l1	l__EPORA	I
+
+#Ces sondages ont confirmé la pollution du sol et précisé l'étendue des "points chauds" en particulier au niveau des zones de stockage des déchets (2,8 g/kg de trichloroéthylène dans la zone d'entreposage des bennes des déchets industriels spéciaux).
+
+29l0l0	Ces_sondages	N
+29l1l0	trichloroéthylène	S
+29l1l1	déchets_industriels_spéciaux	U
+
+#Eu égard à la fois au coût de dépollution et de démolition des bâtiments, l'hypothèse d'une acquisition à l'euro symbolique par EPORA semble devoir être privilégiée, sachant que la requalification ne pourrait raisonnablement concerner que la moitié du site.
+
+30l0l0	dépollution	N
+30l0l1	de_démolition_des_bâtiments	N
+30l0l2	une_acquisition	N
+30l0l3	EPORA	O
+30l0l4	la_requalification	N

@@ -1,0 +1,91 @@
+
+#26.0023
+#Site désormais occupé en totalité par la société HYDROCHEM, nouvel exploitant de l'établissement ayant les mêmes activités de traitement de surface que l'exploitant précédent.
+
+0l0l0	Site	O
+0l0l1	désormais_occupé_en	R
+0l0l2	totalité_par_la_société_HYDROCHEM	O
+0l0l3	nouvel_exploitant	N
+0l0l4	l__établissement	O
+0l0l5	ayant_les_mêmes_activités_de_traitement_de_surface	A
+0l0l6	l__exploitant	O
+0l1l0	la_société_HYDROCHEM	I
+
+#Les déchets abandonnés par l'exploitant précédent (société DERCAM TECHNOLOGIE) et non récupérés par le nouvel exploitant ont tous été pris en charge et évacués en centre de traitement sous le contrôle de l'ADEME.
+
+1l0l0	l__exploitant	O
+1l0l1	DERCAM_TECHNOLOGIE	O
+1l0l2	le_nouvel_exploitant	O
+1l0l3	ont_tous_été_pris_en_charge	N
+1l0l4	évacués_en_centre_de_traitement	N
+1l0l5	le	O
+1l0l6	contrôle_de	R
+1l0l7	l__ADEME	O
+1l1l0	société_DERCAM_TECHNOLOGIE	I
+
+#Pas de pollution du sol à priori mais nécessité d'évacuer des fûts des bidons,... de déchets liquides ou solides.
+
+
+#Juillet - août 1997:Limiter le risque d'intrusion de tiers par clôture et/ou gardiennage de l'établissement);
+
+3l0l0	Juillet___août_1997__	T
+3l0l1	Limiter	N
+3l0l2	clôture	O
+
+#Juillet 1997: Inventaire sommaire établi par l'inspecteur des installations classées, puis inventaire complet établi par SERPOL (société de dépollution);
+
+4l0l0	Juillet_1997	T
+4l0l1	Inventaire_sommaire	N
+4l0l2	établi_par	R
+4l0l3	l__inspecteur_des_installations_classées	O
+4l0l4	établi	R
+4l0l5	par_SERPOL	O
+4l0l6	société_de_dépollution	N
+4l1l0	SERPOL	I
+
+#Février 1998: Nouvel inventaire établi par DERCAM (ECULLY), suite à la récupération de produits pouvant encore être utilisés;
+
+5l0l0	Février_1998	T
+5l0l1	_	R
+5l0l2	Nouvel_inventaire_établi	N
+5l0l3	DERCAM	O
+5l0l4	ECULLY	O
+5l1l0	DERCAM	I
+
+#Juin 1998:Nouvel inventaire établi par SIRA (éliminateur de déchets);
+
+6l0l0	Juin_1998__	T
+6l0l1	Nouvel_inventaire_établi	N
+6l0l2	par_SIRA	O
+6l1l0	SIRA	I
+
+#Janvier 1999:Risque de pollution du sol et des eaux par constat d'huissier; Nécessité de reconditionner et mettre à l'abri certains des déchets et produits;
+
+7l0l0	Janvier_1999__	T
+7l0l1	Risque	R
+7l0l2	de_pollution	N
+7l0l3	sol	O
+7l0l4	des_eaux	O
+
+#Juillet 2000:Evacuation des déchets en centre autorisé par SIRA sous le contrôle de l'ADEME.
+
+8l0l0	Juillet_2000__	T
+8l0l1	Evacuation_des_déchets_en	N
+8l0l2	centre_autorisé_par_SIRA	O
+8l0l3	l__ADEME	O
+8l1l0	SIRA	I
+
+#2 novembre 2000: L'inspecteur des installations classées constate que le site est débarrassé des déchets et occupé par le nouvel exploitant, la société HYDROCHEM.
+
+9l0l0	2_novembre_2000__	T
+9l0l1	L__inspecteur_des_installations_classées	O
+9l0l2	le_site	O
+9l0l3	est_débarrassé	N
+9l0l4	occupé	N
+9l0l5	le_nouvel_exploitant	O
+9l0l6	la_société_HYDROCHEM	O
+9l1l0	des_déchets	D
+9l1l1	la_société_HYDROCHEM	I
+
+#En conclusion ce site est considéré comme traité et libre de toute restriction.
+

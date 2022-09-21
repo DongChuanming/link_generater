@@ -1,0 +1,345 @@
+
+#19.0029
+#La société FRANCE JOUETS s'est installée en 1957 au lieu-dit « Le Pont » sur la commune de Cornil (19150).
+
+0l0l0	La_société_FRANCE_JOUETS	O
+0l0l1	s__est_installée	N
+0l0l2	en_1957	T
+0l0l3	au_lieu___dit_______Le_Pont	L
+0l0l4	____sur_la_commune_de_Cornil___19150	L
+0l1l0	La_société_FRANCE_JOUETS	I
+
+#Elle occupe, sur une superficie d'environ 2 hectares, les parcelles n° 1-2-3-4 section AM et n°  397 section AE.
+
+
+#La surface occupée par les bâtiments est d’environ 8 000 m2.
+
+2l0l0	les_bâtiments	O
+
+#La société FRANCE JOUETS était spécialisée dans la fabrication de jouets en bois, métaux et plastiques.
+
+3l0l0	La_société_FRANCE_JOUETS	O
+3l0l1	était_spécialisée_dans	R
+3l0l2	la_fabrication_de_jouets_en_bois	A
+3l1l0	La_société_FRANCE_JOUETS	I
+
+#Elle a cessé définitivement ses activités fin juillet 2007.
+
+4l0l0	Elle	O
+4l0l1	a_cessé_définitivement	N
+4l0l2	ses_activités	O
+4l0l3	fin_juillet_2007__	T
+
+#Les premières mesures de mise en sécurité du site ont été réalisées et les justificatifs des actions engagées avec les bordereaux de suivis des déchets ont été transmis à l'inspection le 14 octobre 2007.
+
+5l0l0	Les_premières_mesures_de_mise_en_sécurité_du_site	O
+5l0l1	ont_été_réalisées	N
+5l0l2	les_justificatifs	O
+5l0l3	ont_été_transmis	N
+5l0l4	l__inspection	O
+5l0l5	le_14_octobre_2007__	T
+
+#1.
+
+
+#Investigations initiales :
+
+7l0l0	Investigations_initiales	N
+
+#Les investigations initiales, réalisées le 16 mai 2007 et le 5 juin 2007 par SOCOTEC Industries (rapport 227683A100A200 V2.1 du 25 juin 2007), ont consisté en la réalisation de 23 sondages qui ont permis l’identification :
+
+8l0l0	Les_investigations_initiales	N
+8l0l1	réalisées	N
+8l0l2	le_16_mai_2007	T
+8l0l3	et_le_5_juin_2007	T
+8l0l4	SOCOTEC_Industries	O
+8l0l5	25_juin_2007__	T
+8l0l6	la_réalisation_de_23_sondages	N
+8l1l0	SOCOTEC_Industries	I
+
+#- d’une contamination diffuse aux hydrocarbures totaux avec quelques pics au niveau de l’atelier plastique, de la cuve de fuel enterrée et d’un ancien dépôt de cendres,
+
+9l0l0	d__une_contamination_diffuse	N
+9l0l1	aux_hydrocarbures_totaux	O
+9l0l2	de_la_cuve_de_fuel_enterrée	O
+9l1l0	aux_hydrocarbures_totaux	S
+9l1l1	la_cuve	D
+9l1l2	de_fuel_enterrée	U
+9l1l3	ancien_dépôt_de	D
+9l1l4	cendres	U
+
+#- d’une contamination généralisée aux métaux lourds (dont du plomb, du baryum, du cuivre, de l’arsenic) et plus ponctuelle à l’aluminium,
+
+10l0l0	d__une_contamination_généralisée_aux_métaux_lourds	N
+10l0l1	ponctuelle_à_l__aluminium	O
+10l1l0	aux_métaux_lourds	S
+10l1l1	du_plomb	S
+10l1l2	du_baryum	S
+10l1l3	du_cuivre	S
+10l1l4	l__arsenic	S
+10l1l5	l__aluminium	S
+
+#- d’une contamination éparse aux hydrocarbures aromatiques polycycliques.
+
+11l1l0	hydrocarbures_aromatiques_polycycliques	S
+
+#SOCOTEC a alors préconisé la réalisation d’investigations complémentaires, mais ses propositions n’ont pas été suivies, car la gestion du site a « sommeillé » pendant plusieurs années suite au décès de l’exploitant, notamment du fait que les relations entre les héritiers qui habitaient pour la plupart hors du continent européen se sont tendues, décourageant les mandataires sociaux potentiels.
+
+12l0l0	SOCOTEC	O
+12l0l1	a_alors_préconisé_la_réalisation_d__investigations_complémentaires	N
+12l0l2	la_gestion_du_site	O
+12l0l3	a_____sommeillé	N
+12l0l4	____pendant_plusieurs_années	T
+12l0l5	suite_au_décès	N
+12l0l6	de___l__exploitant	O
+12l0l7	qui_habitaient	N
+12l0l8	pour_la_plupart_hors_du_continent_européen	A
+12l0l9	se___sont_tendues	N
+12l1l0	SOCOTEC	I
+
+#2.
+
+
+#Investigations complémentaires et préconisation de mesures de gestion :
+
+14l0l0	Investigations_complémentaires	O
+14l0l1	préconisation_de_mesures	N
+
+#a) Contexte :
+
+
+#La question de la gestion est revenue d’actualité lorsqu’une pollution de la rivière Corrèze est intervenue le 17 octobre 2011 suite à un acte de vandalisme ayant entraîné un  déversement d’huile.
+
+16l0l0	La	O
+16l0l1	la_gestion	O
+16l0l2	est_revenue	N
+16l0l3	une_pollution	N
+16l0l4	la_rivière_Corrèze	L
+16l0l5	est___intervenue	N
+16l0l6	le___17_octobre_2011	T
+16l0l7	suite	R
+16l0l8	à_un_acte_de_vandalisme	N
+16l0l9	entraîné_un___déversement	N
+16l0l10	d__huile	O
+16l1l0	un___déversement_d__huile	U
+
+#De ce fait, après avoir demandé la mise en œuvre d’une véritable gestion du site et (cf. les « Considérant » de l’arrêté) afin que les actionnaires et différents mandataires sociaux prennent leurs responsabilités, l’Inspection des Installations Classées a préconisé de mettre en demeure l’exploitant.
+
+17l0l0	après_avoir_demandé	R
+17l0l1	la_mise_en_œuvre_d__une_véritable_gestion	N
+17l0l2	du_site	O
+17l0l3	responsabilités___l__Inspection_des_Installations_Classées	O
+17l0l4	demeure_l__exploitant	O
+
+#Sur sa proposition, un arrêté préfectoral du 4 novembre 2013 a mis en demeure la société France Jouet, dont il convient de noter qu’elle n’est pas mise en liquidation judiciaire, de se conformer aux dispositions des articles R. 512-39-1 à R. 512-39-5 du code de l’environnement et dans cet objectif de :
+
+18l0l0	un___arrêté_préfectoral	O
+18l0l1	du_4_novembre_2013	T
+18l0l2	a_mis_en_demeure	N
+18l0l3	la_société_France_Jouet	O
+18l0l4	en_liquidation_judiciaire	N
+18l1l0	demeure_la_société_France_Jouet	I
+
+#- faire procéder à un diagnostic complémentaire des sols et des eaux souterraines,
+
+19l0l0	un_diagnostic_complémentaire	N
+
+#- définir un plan de gestion du site,
+
+20l0l0	définir	R
+20l0l1	un_plan_de_gestion	N
+20l0l2	du_site	O
+
+#- faire évacuer les déchets encore présents.
+
+21l0l0	faire_évacuer	N
+
+#En parallèle un accord entre les parties a pu être ensuite progressivement trouvé par leurs conseils, aboutissant à une désignation d’un administrateur provisoire par le Tribunal de Commerce de Brive-la-Gaillarde.
+
+22l0l0	a_pu_être_ensuite_progressivement	N
+22l0l1	une_désignation_d__un_administrateur_provisoire	N
+22l0l2	le_Tribunal_de_Commerce	O
+22l0l3	Brive_la_Gaillarde	L
+22l1l0	le_Tribunal_de_Commerce_de_Brive_la_Gaillarde	I
+
+#b) Évacuation des déchets :
+
+23l0l0	Évacuation	N
+
+#Finalement, c’est FHB le dernier administrateur en date qui a fait réaliser l’évacuation de l’ensemble des déchets présents à l’intérieur des bâtiments et sur le site.
+
+24l0l0	est_FHB	O
+24l0l1	a_fait_réaliser_l__évacuation	N
+24l1l0	FHB	I
+
+#c) Nature et conclusions des investigations complémentaires :
+
+
+#Les investigations ont été réalisées du 4 au 7 août 2015 par SOCOTEC Industries et le rapport définitif « Sites et Sols potentiellement pollués – Diagnostic complémentaire – référencé « D13KB/16/212» en date du 2 juin 2016 a été transmis à Monsieur Le Préfet (cf. document en lien au chapitre « Situation Technique » à la rubrique « Rapports sur la dépollution du site »).
+
+26l0l0	Les_investigations_ont_été_réalisées	N
+26l0l1	du_4_au_7_août_2015	T
+26l0l2	SOCOTEC_Industries	O
+26l0l3	le_rapport_définitif	O
+26l0l4	Sols_potentiellement_pollués	O
+26l0l5	Diagnostic_complémentaire	N
+26l0l6	en_date_du_2_juin_2016	T
+26l0l7	a_été_transmis	N
+26l0l8	sur_la_dépollution	N
+26l1l0	SOCOTEC_Industries	I
+26l1l1	Le_Préfet	I
+
+#Elles ont été constituées de 44 sondages de sols jusqu’à une profondeur de 3 m, par la pose d’un réseau de 4 piézomètres jusqu’à une profondeur de 6 m, et la pose de 4 piézairs.
+
+27l0l0	44_sondages_de_sols_jusqu_	O
+27l0l1	la_pose_d_	N
+27l0l2	la_pose	N
+
+#Il convient de noter que la parcelle n° 4, qui avait été clairement identifiée comme zone d'habitation lors du diagnostic de 2007, n'a pas été incluse dans le périmètre du diagnostic de 2016 et pour cette raison ne figure pas dans le tableau du parcellaire correspondant.
+
+28l0l0	avait_été_clairement_identifiée	N
+28l0l1	comme	R
+28l0l2	zone_d__habitation	O
+28l0l3	du_diagnostic	N
+28l0l4	de_2007__	T
+28l0l5	n__a_pas_été_incluse_dans_le_périmètre_du_diagnostic	N
+28l0l6	de_2016	T
+
+#Les investigations ont permis d’identifier : Une contamination généralisée à certains métaux lourds (arsenic et en cuivre) avec des concentrations supérieures aux fonds géochimiques pris comme références.
+
+29l0l0	Les_investigations	N
+29l0l1	certains_métaux_lourds	O
+29l1l0	métaux_lourds	S
+29l1l1	arsenic	S
+29l1l2	cuivre	S
+
+#Dans les sols, les traces de métaux peuvent parfois être relevées sur toute la hauteur de l’investigation.
+
+30l1l0	métaux	S
+
+#Une contamination ponctuelle aux autres types de contaminants (hydrocarbures, composés chlorés,….) liée aux activités réalisées.
+
+31l0l0	activités_réalisées__	A
+31l1l0	contaminants	U
+31l1l1	hydrocarbures	S
+31l1l2	composés_chlorés_	U
+
+#Les concentrations tendent à diminuer progressivement avec la profondeur d’investigation.
+
+
+#Pour les eaux souterraines, celles-ci présentent des dépassements vis-à-vis des seuils de potabilité pour une substance au droit des 4 ouvrages (teneur en aluminium à des concentrations variant de 0,22 mg/l à 1,04 mg/l pour une teneur de référence de 0,2 mg/l).
+
+33l0l0	aluminium	O
+33l1l0	aluminium	S
+
+#Seul un ouvrage PZ4 localisé en aval présente une contamination supplémentaire pour les paramètres hydrocarbures aromatiques (teneur entre 1,36 et 1,37 mg/l pour une teneur de référence de 1 mg/l.) L’ensemble des prélèvements de gaz des sols effectués présente des traces des différentes substances recherchées.
+
+34l0l0	ouvrage_PZ4	O
+34l0l1	localisé_en_aval	L
+34l0l2	une_contamination	O
+34l1l0	hydrocarbures_aromatiques	S
+
+#Les principales zones contaminées localisées dans les zones extérieures sont identifiées autour des sondages suivants :
+
+35l0l0	Les_principales_zones_contaminées	O
+35l0l1	les_zones_extérieures	O
+35l0l2	sont_identifiées	N
+35l0l3	autour	L
+35l0l4	des_sondages	N
+
+#- S23 (Sud-ouest de l’atelier mécanique),
+
+36l0l0	Sud_ouest	L
+
+#- S24 (Nord-ouest de l’atelier mécanique),
+
+37l0l0	Nord_ouest_de_l__atelier_mécanique	L
+
+#- S40/S41 (proche du transformateur),
+
+
+#- S43 (entre l’atelier mécanique et l’atelier au Nord).
+
+39l0l0	l_	O
+39l0l1	atelier_au_Nord	L
+
+#SOCOTEC recommande de procéder au traitement des principaux spots de contamination, soit par évacuation des terres, soit par traitement de celle-ci (in situ par exemple), ou par leur confinement (recouvrement par de l’enrobé ou de la terre propre recouvrant un géotextile par exemple).
+
+40l0l0	au_traitement	N
+40l0l1	principaux_spots_de_contamination	O
+40l0l2	terres	O
+40l1l0	SOCOTEC	I
+
+#Toutefois, comme d’une part l’analyse des risques conclut à la compatibilité du site pour les usages considérés (type industriel) et que d'autre part les zones impactées sont situées sous les voies de circulation, l’inspection des installations classées ne demande pas dans l’immédiat la mise en œuvre de mesures de gestion, d’autant que ces zones sont en quasi permanence inondées, et qu’il conviendrait de réaliser aussi et en même temps des travaux pour canaliser les écoulements d’eau pour assurer une gestion intégrée.
+
+41l0l0	analyse_des_risques	N
+41l0l1	les_usages_considérés	A
+41l0l2	les_zones_impactées	O
+41l0l3	sont_situées_sous_les_voies_de_circulation	L
+41l0l4	que_ces_zones	O
+41l0l5	permanence_inondées	O
+41l0l6	en_même_temps	T
+41l0l7	des_travaux	N
+41l0l8	pour_canaliser_les_écoulements	N
+41l0l9	d__eau	N
+
+#Il sera donc demandé au nouveau propriétaire, dans le cadre de la réalisation des travaux liés à la mise en place de la canalisation du « ruisseau » et de la réfection des voiries, de procéder à l’excavation des terres polluées, principalement au niveau du point S43 (impact en hydrocarbures à 20 000 mg/kg) et de les envoyer en traitement vers une installation autorisée au titre du code de l’environnement.
+
+42l0l0	nouveau_propriétaire	O
+42l0l1	dans_le_cadre_de	R
+42l0l2	la_réalisation	N
+42l0l3	des_travaux	N
+42l0l4	liés_à	R
+42l0l5	la_mise_en_place	N
+42l0l6	la_canalisation	O
+42l0l7	de_la_réfection_des_voiries	N
+42l0l8	procéder_à_l__excavation	N
+42l0l9	des___terres_polluées	O
+42l0l10	et_de_les_envoyer_en_traitement	N
+42l0l11	vers_une_installation_autorisée	O
+42l1l0	impact_en_hydrocarbures	S
+
+#Le recouvrement des voiries par un enrobé est également préconisé.
+
+43l0l0	un_enrobé	O
+
+#Les piézomètres ont été conservés.
+
+44l0l0	Les_piézomètres	O
+
+#3.
+
+
+#Restrictions ou conditions d’usage (cf.
+
+
+#Mesures d’urbanisme réalisées) :
+
+47l0l0	Mesures	N
+
+#Afin de conserver la mémoire de la pollution des sols et des mesures préconisées pour les futurs acquéreurs,les dispositions suivantes sont mises en œuvre :
+
+48l0l0	la_pollution_des_sols	O
+
+#a) Porter à la connaissance :
+
+
+#En premier, s’agissant d’une procédure rapide et facile à mettre en œuvre, l’Inspection des Installations Classées a proposé à Monsieur le Préfet de la Corrèze un porter à connaissance de Monsieur le Maire de Cornil en application des articles L.132-2 et R.132-1 du code de l’urbanisme.
+
+50l0l0	l__Inspection_des_Installations_Classées	O
+50l0l1	Monsieur_le_Préfet_de_la_Corrèze	O
+50l0l2	connaissance	N
+50l0l3	Monsieur_le_Maire	O
+50l0l4	de_Cornil	L
+50l1l0	le_Préfet	I
+50l1l1	de_la_Corrèze	I
+
+#Le courrier en ce sens du 29 juillet 2016 peut être consulté à la rubrique « Porter à connaissance risques, article L121-2 du code de l'urbanisme »
+
+51l0l0	29_juillet_2016	T
+
+#b) Secteurs d’information sur les sols :
+
+
+#En complément, et pour assurer une information plus complète, le présent site sera intégré au dispositif des « SIS » (secteurs d’information sur les sols) en application des articles L. 125-5, L.125-6, L. 556-1, L. 556-2, R. 125-26, R. 125-27 R. 125-41 à R. 125-47 du code de l’environnement.
+

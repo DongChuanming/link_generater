@@ -1,0 +1,422 @@
+
+#33.0222
+#Ancienne décharge de déchets ménagers et assimilés située accolée à la gare de triage d’HOURCADE dans une zone marécageuse.
+
+0l0l0	Ancienne_décharge_de_déchets	N
+0l0l1	accolée_à_la_gare_de_triage_d__HOURCADE	L
+0l0l2	dans_une_zone_marécageuse	L
+
+#La décharge a été exploitée sans autorisation par la commune de BÈGLES de 1960 à 1990.
+
+1l0l0	La_décharge	O
+1l0l1	a_été_exploitée_sans_autorisation	N
+1l0l2	la_commune	O
+1l0l3	de_BÈGLES	N
+1l0l4	de_1960_à_1990	T
+1l1l0	BÈGLES	I
+
+#Elle a reçu des ordures ménagères, des déchets inertes, des déchets verts et de voiries ainsi que des résidus de solvants, de peintures et des carcasses de véhicules.
+
+2l0l0	Elle	O
+2l0l1	a_reçu	N
+2l0l2	carcasses_de_véhicules	O
+2l1l0	des_déchets_inertes	U
+2l1l1	solvants	U
+
+#Les déchets ont été déposés dans des fosses existantes (ancienne gravière ou dépression naturelle).
+
+3l0l0	Les_déchets	O
+3l0l1	ont_été_déposés	N
+
+#Les dépôts forment une plate forme dont le niveau est de 1,5 à 3 mètres au dessus du terrain naturel.
+
+
+#I - MISE EN SÉCURITÉ
+
+5l1l0	SÉCURITÉ	I
+
+#Cette décharge est inscrite dans l'action nationale de résorption des décharges de déchets ménagers et assimilés, autorisées et non autorisées.
+
+6l0l0	Cette_décharge	O
+6l0l1	est_inscrite_dans	R
+6l0l2	l_	O
+6l0l3	résorption	N
+
+#II - DIAGNOSTIC
+
+7l0l0	DIAGNOSTIC	N
+
+#Par courrier du 13/07/2004, Monsieur le Préfet demande à la Mairie de BÈGLES de déposer un dossier de remise en état comprenant un diagnostic et une Évaluation Simplifiée des Risques (ESR) pour son ancienne décharge située au lieu-dit « Hourcade ».
+
+8l0l0	13_07_2004	T
+8l0l1	la_Mairie_de_BÈGLES	O
+8l0l2	de_déposer	N
+8l0l3	un_dossier	O
+8l0l4	de_remise_en_état	N
+8l0l5	comprenant	R
+8l0l6	un_diagnostic	N
+8l0l7	une_Évaluation_Simplifiée_des_Risques	N
+8l0l8	ESR	O
+8l0l9	son_ancienne_décharge	O
+8l0l10	située_au_lieu___dit_____Hourcade	L
+8l1l0	le_Préfet	I
+8l1l1	la_Mairie_de_BÈGLES	I
+
+#L'étude est transmise le 20/07/2005 et complétée le 03/10/2006.
+
+9l0l0	L__étude_est_transmise	N
+9l0l1	le_20_07_2005	T
+9l0l2	le_03_10_2006__	T
+
+#III - TRAVAUX
+
+
+#L'arrêté préfectoral du 16/08/2007 prescrit la remise en état suivante :
+
+11l0l0	L__arrêté_préfectoral	O
+11l0l1	16_08_2007	T
+11l0l2	prescrit	R
+11l0l3	la_remise_en_état	N
+
+#- reprofilage de la zone de dépôt en dôme de pente d’au moins 3 %,
+
+12l0l0	reprofilage	N
+12l0l1	la_zone_de_dépôt	O
+
+#- mise en place d'une couverture présentant une étanchéité pérenne dans le temps,
+
+13l0l0	mise_en_place_d__une_couverture	N
+13l0l1	une_étanchéité_pérenne_dans_le_temps	N
+
+#- mise en place d'un dispositif de captage de lixiviats durant la période de production de lixiviats,
+
+14l0l0	mise_en_place_d_	N
+14l0l1	un_dispositif_de_captage	O
+14l0l2	lixiviats	O
+14l0l3	durant	R
+14l0l4	la_période_de_production_de_lixiviats	A
+
+#- mise en place d'un dispositif adapté de biogaz,
+
+15l0l0	mise_en_place_d__un_dispositif	N
+
+#- réalisation de fossés périphériques ceinturant le dôme,
+
+16l0l0	réalisation_de_fossés_périphériques	O
+16l0l1	ceinturant_le_dôme	L
+
+#- recouvrement de terre végétale et engazonnement des zones de stockage,
+
+17l0l0	engazonnement	N
+
+#- mise en place d'un dispositif visant à éviter le lessivage des déchets par la nappe superficielle,
+
+18l0l0	mise_en_place_d__un_dispositif	N
+18l0l1	éviter_le_lessivage	N
+
+#- clôture du site.
+
+
+#Un délai de deux ans est donné pour la réalisation des travaux de remise en état du site.
+
+20l0l0	ans_est_donné	O
+20l0l1	la_réalisation_des_travaux_de_remise_en_état_du_site	N
+
+#Dans le délai de quatre ans à compter de la fin de travaux, le bilan environnemental de la décharge est transmis à la DREAL.
+
+21l0l0	Dans_le_délai_de_quatre_ans_à_compter	T
+21l0l1	de_la_fin_de_travaux	N
+21l0l2	le_bilan_environnemental	N
+21l0l3	la_décharge	O
+21l0l4	est_transmis	N
+21l0l5	la_DREAL	O
+21l1l0	la_DREAL	I
+
+#L'analyse des lixiviats de Mars 2012 montre une légère amélioration, sauf pour 7 des 16 HAP mesurés ( de 0,68 à 1,23 µg/l).
+
+22l0l0	lixiviats	O
+22l0l1	de_Mars_2012	T
+22l1l0	HAP	S
+
+#Dans son courrier du 26/06/2008, la Mairie de Bègles propose trois solutions pour l'élimination des lixiviats.
+
+23l0l0	26_06_2008	T
+23l0l1	la_Mairie_de_Bègles	L
+23l0l2	l__élimination	N
+23l0l3	lixiviats	O
+23l1l0	la_Mairie	I
+
+#Cette proposition, soumise à l'IIC, s'appuie sur l'étude préalable de la société BURGEAP.
+
+24l0l0	la_société_BURGEAP	O
+24l1l0	la_société_BURGEAP	I
+
+#Dossier de récolement  BURGEAP est remis le 11 septembre 2012.
+
+25l0l0	Dossier_de_récolement	N
+25l0l1	__BURGEAP	O
+25l0l2	est_remis	N
+25l0l3	le_11_septembre_2012__	T
+25l1l0	__BURGEAP	I
+
+#Le procès-verbal de récolement du 08/12/2014 dresse le constat suivant :
+
+26l0l0	Le_procès_verbal_de_récolement	N
+26l0l1	du_08_12_2014	T
+
+#- les travaux ont été réalisés en 2010,
+
+27l0l0	les_travaux_ont_été_réalisés	N
+27l0l1	en_2010__	T
+
+#- le site se présente sous un la forme d'un champ en léger dôme,
+
+28l0l0	le_site	O
+
+#- le site n'est pas clôturé.
+
+29l0l0	le_site	O
+
+#La volonté de la Mairie a été, au contraire, de laisser le champ libre aux promeneurs,
+
+30l0l0	La_volonté	O
+30l0l1	la_Mairie	O
+30l0l2	laisser_le_champ_libre	N
+30l1l0	la_Mairie	I
+
+#- les déchets ont été remodelés de façon à obtenir une pente minimale de 3%,
+
+31l0l0	les_déchets	O
+31l0l1	ont_été_remodelés	N
+31l1l0	les_déchets	U
+
+#- la zone Sud-Ouest où se trouve le puits de captage des lixiviats constitue visiblement une zone de rétention des eaux.
+
+32l0l0	la_zone_Sud_Ouest	O
+32l0l1	le_puits_de_captage_des_lixiviats	O
+32l0l2	constitue_visiblement	R
+32l0l3	une_zone_de_rétention_des_eaux	O
+
+#La pente de 3% n'est sans doute pas respectée,
+
+
+#- la technique de la pose d'une géomembrane surmontée d'un géotextile a été préférée à l'apport de matériaux argileux naturels pour des raisons de disposnibilité et de coûts,
+
+34l0l0	la_pose_d__une_géomembrane	O
+
+#- la coupe de principe de la couverture fournie en annexe du CCTP n'est donc pas conforme à la réalité et à l'observation de terrain,
+
+35l0l0	la_coupe_de_principe	O
+35l0l1	observation_de_terrain	N
+
+#- les fossés de collecte des eaux de ruissellement ne sont pas en continuité d'étanchéité avec la géomembrane,
+
+36l0l0	les_fossés_de_collecte_des_eaux_de_ruissellement	O
+
+#3 points de rejets des eaux de ruissellement ont été aménagés, au sud et au nord par busage directement dans l'Estey de Franc et à l'est directement dans l'Estey de Tartifume,
+
+37l0l0	3_points_de_rejets	O
+37l0l1	ont_été_aménagés	N
+37l0l2	au_sud_et_au_nord	N
+37l0l3	busage	O
+37l0l4	directement	R
+37l0l5	dans_l__Estey_de_Franc	L
+37l0l6	à_l__est	L
+37l0l7	directement	R
+37l0l8	dans_l__Estey_de_Tartifume	L
+37l1l0	Tartifume	I
+
+#- le pompage des lixiviats na pas été mis en œuvre étant donné que les niveaux ont baissé sans arrêt depuis - - la mise en place de la couverture,
+
+38l0l0	le_pompage	N
+38l0l1	lixiviats	O
+38l0l2	na_pas_été_mis_en	N
+38l0l3	la_mise_en_place_de_la_couverture	N
+
+#- les 6 évents de biogaz sont en place.
+
+
+#Ils ne produisent quasiment plus de biogaz,
+
+
+#- la transmission à l'inspection des derniers résultats d'analyses des lixiviats et des eaux superficielles remontent à 2012,
+
+41l0l0	la_transmission	N
+41l0l1	remontent_à_2012__	T
+
+#- les analyses de lixiviats discutées en séance montrent une faible charge légèrement organique,
+
+
+#- les analyses des eaux superficielles montrent l'absence d'impact,
+
+
+#- la publication des restrictions d'usages au service de la publicité foncière n' pas été effectuée.
+
+44l0l0	la_publication_des_restrictions_d__usages	O
+
+#Les demandes sont les suivantes :
+
+
+#- fournir le n° de la parcelle et le plan parcellaire,
+
+46l0l0	la_parcelle	O
+
+#- reprendre, par apport de matériaux, la pente de 3% dans la zone Sud-Ouest où se trouve le puits de captage des lixiviats,
+
+47l0l0	apport_de_matériaux	N
+47l0l1	dans_la_zone_Sud_Ouest	L
+47l0l2	le_puits_de	O
+47l0l3	captage_des_lixiviats	A
+
+#- démanteler les 6 évents de biogaz en assurant la continuité étanche de la couverture,
+
+48l0l0	démanteler	N
+48l1l0	biogaz	S
+
+#- reboucher le piézomètre situé dans la masse des déchets en amont du puits  de captage des lixiviats,
+
+49l0l0	reboucher	N
+49l0l1	le_piézomètre	O
+49l0l2	en_amont_du_puits___de	L
+49l0l3	captage_des_lixiviats	A
+
+#- mettre le puits  de captage des lixiviats en sécurité (inaccessibilité au public),
+
+50l0l0	le_puits___de_captage_des_lixiviats	O
+
+#- fournir les coupes transversales topographiques de la décharge en intégrant les fossés de collecte des eaux de ruissellement,
+
+
+#- fournir les résultats des test de pompage du biogaz qui ont été effectués au moment de leur mis en place,
+
+52l0l0	fournir	N
+52l0l1	les_résultats_des_test_de_pompage	O
+52l0l2	ont_été_effectués	N
+52l0l3	au_moment_de	R
+52l0l4	leur_mis_en_place	N
+52l1l0	biogaz	I
+
+#- justification  de l'absence de valorisation et/ou de destruction du biogaz,
+
+53l0l0	de_valorisation	N
+
+#- fournir la justification de l'absence de pompage des lixiviats dès la fin du chantier de 2010,
+
+54l0l0	pompage	A
+54l0l1	lixiviats	O
+54l0l2	dès	R
+54l0l3	la_fin_du_chantier_de_2010__	T
+
+#- transmettre les rapports de suivi de 2013 et 2014.
+
+55l0l0	transmettre	N
+55l0l1	les_rapports_de_suivi	O
+55l0l2	2013_et_2014__	T
+
+#Le rapport de la campagne de septembre 2014 devra être autoportant (résultats statistiques depuis 2010),
+
+56l0l0	Le_rapport_de_la_campagne	O
+56l0l1	septembre_2014	T
+56l0l2	depuis_2010__	T
+
+#- procéder dès que possible à la publication des restrictions d'usages au service de la publication foncière par acte notarié.
+
+57l0l0	dès_que_possible	T
+57l0l1	à_la_publication_des_restrictions_d__usages	O
+
+#Les compléments de travaux de réhabilitation ont été réalisés en 2015, le rapport BURGEAP est remis le 11 mars 2016.
+
+58l0l0	Les_compléments_de_travaux_de_réhabilitation	N
+58l0l1	ont_été_réalisés	N
+58l0l2	en_2015__	T
+58l0l3	le_rapport_BURGEAP	O
+58l0l4	est_remis	N
+58l0l5	le_11_mars_2016__	T
+58l1l0	BURGEAP	I
+
+#Les réponses ont été apportées aux demandes formulées par l'inspection, ci-dessus.
+
+
+#Le procès-verbal de récolement sur pièces est dressé le 21/11/2016.
+
+60l0l0	Le_procès_verbal_de_récolement_sur_pièces	O
+60l0l1	est_dressé	N
+60l0l2	le_21_11_2016__	T
+
+#La justification de la publication des restrictions d’usages au service de la publicité foncière reste à fournir.
+
+61l0l0	La_justification	O
+61l0l1	la_publication	N
+
+#le contrôle semestriel  des eaux superficielles est poursuivi.
+
+62l0l0	le_contrôle_semestriel___des_eaux_superficielles	A
+
+#IV - SURVEILLANCE DES EAUX SUPERFICIELLES
+
+63l0l0	SURVEILLANCE	A
+63l0l1	DES_EAUX_SUPERFICIELLES	O
+63l1l0	EAUX_SUPERFICIELLES	I
+
+#L'arrêté préfectoral du 16/08/2007 prescrit la surveillance semestrielle des eaux superficielles en amont et aval du site dans l'Estey de Franc.
+
+64l0l0	L__arrêté_préfectoral	O
+64l0l1	16_08_2007	T
+64l0l2	prescrit	R
+64l0l3	la_surveillance_semestrielle	A
+64l0l4	des_eaux_superficielles	A
+64l0l5	en_amont_et_aval_du_site	L
+64l0l6	dans_l__Estey_de_Franc	L
+
+#Les paramètres à analysés sont les suivants : pH, conductivité, DCO, ammonium, arsenic, nickel, plomb, zinc, cuivre, hydrocarbures, benzène, benzo(a)pyrène, benzo(a)anthracène.
+
+65l1l0	pH	S
+65l1l1	DCO	S
+65l1l2	ammonium	S
+65l1l3	arsenic	S
+65l1l4	nickel	S
+65l1l5	plomb	S
+65l1l6	zinc	S
+65l1l7	cuivre	S
+65l1l8	hydrocarbures	S
+65l1l9	benzène	S
+65l1l10	benzo_a_pyrène	S
+65l1l11	benzo_a_anthracène	S
+
+#Des analyses bactériologiques sont aussi demandées.
+
+
+#Cette surveillance est prescrite pour une durée de quatre ans.
+
+67l0l0	Cette_surveillance	O
+67l0l1	est_prescrite	N
+67l0l2	pour_une_durée_de_quatre_ans	T
+
+#V - RESTRICTIONS D'USAGE
+
+68l0l0	USAGE	O
+
+#Des restriction d'usage sont aussi proposées par la DRIRE en date du 01/06/2007 et sont prescrites dans l'arrêté du 16/08/2007.
+
+69l0l0	la_DRIRE	O
+69l0l1	en_date_du_01_06_2007	T
+69l0l2	sont_prescrites	N
+69l0l3	l_	O
+69l0l4	16_08_2007__	T
+69l1l0	la_DRIRE	I
+
+#Ces restrictions d'usage de la décharge réhabilitée devront être inscrites au registre des hypothèques selon une procédure d'institution de servitudes laissé au choix de l'exploitant.
+
+70l0l0	la_décharge_réhabilitée	O
+70l0l1	registre_des_hypothèques	O
+70l0l2	l__exploitant	O
+
+#Interdictions de constructions, de travaux de voiries, d'affouillements et de cultures (agricoles, potagères et de pâturage).
+
+71l0l0	Interdictions_de_constructions___de_travaux_de_voiries	N
+71l0l1	affouillements	N
+
+#La démarche de publication des restrictions d'usages au service de la publicité foncière est en cours le 11/03/2016.
+
+72l0l0	La_démarche_de_publication_des_restrictions_d__usages	O
+72l0l1	le_11_03_2016__	T

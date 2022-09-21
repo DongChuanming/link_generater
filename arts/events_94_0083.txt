@@ -1,0 +1,467 @@
+
+#94.0083
+#Il s'agit d'une station service anciennement exploité par BP.
+
+0l0l0	une_station_service	O
+0l0l1	anciennement	R
+0l0l2	exploité	N
+0l0l3	par_BP	O
+0l1l0	BP	I
+
+#Les installations étaient classées selon les rubriques R 1432-2-b [D] et R 1434-1-b [D].
+
+1l0l0	Les_installations	O
+1l0l1	étaient	R
+1l0l2	classées	O
+1l0l3	selon	R
+
+#BP a transmis une notification de cessation d'activité par courrier du 13/08/2010.
+
+2l0l0	BP	O
+2l0l1	a_transmis	N
+2l0l2	une_notification	N
+2l0l3	cessation_d__activité_par_courrier	N
+2l0l4	du_13_08_2010__	T
+
+#La date effective de la cessation des activités était le 15/09/2010.
+
+3l0l0	La_date_effective	N
+3l0l1	de_la_cessation	N
+3l0l2	des_activités	O
+3l0l3	était_le_15_09_2010__	T
+
+#La notification répondant aux dispositions de l’article R. 512-66-1 du code de l’environnement, un récépissé de cessation d’activité a été délivré à l’exploitant le 13/08/2012.
+
+4l0l0	La_notification	O
+4l0l1	un_récépissé	O
+4l0l2	cessation_d__activité	N
+4l0l3	a_été_délivré	N
+4l0l4	l__exploitant	O
+4l0l5	le_13_08_2012__	T
+
+#De plus, conformément à l’article R. 512-66-1-III du code de l’environnement, l’information a été portée à la connaissance de M. le Maire de Villejuif et des propriétaires.
+
+5l0l0	l__information_a_été_portée	N
+5l0l1	à_la_connaissance	N
+5l0l2	de_M__le_Maire	O
+5l0l3	de_Villejuif	L
+5l0l4	et_des_propriétaires	O
+5l1l0	le_Maire	I
+
+#La réhabilitation du site est prévue pour permettre un usage futur comparable à celui de la dernière période d’exploitation, à savoir industriel.
+
+6l0l0	La_réhabilitation	N
+6l0l1	du_site	O
+6l0l2	permettre_un_usage_futur	O
+6l0l3	d__exploitation	N
+
+#Le site est situé dans une zone pavillonnaire.
+
+7l0l0	Le_site	O
+7l0l1	est_situé_dans_une_zone_pavillonnaire	L
+
+#Le diagnostic initial du site, transmis le 10/08/2012, a mis en évidence un impact significatif des activités de la station service sur la qualité des sols, de l’air du sol et des eaux souterraines.
+
+8l0l0	Le_diagnostic_initial	N
+8l0l1	transmis	N
+8l0l2	le_10_08_2012	T
+8l0l3	a_mis_en_évidence	R
+8l0l4	un_impact_significatif	O
+8l0l5	des_activités	A
+8l0l6	la_station_service	O
+
+#Historiquement, deux incidents sont survenus sur le site : une fuite de SP95 sur la cuve n° 1 lors du dépotage en 2007, et un débordement de SP95 par un évent en 2010.
+
+9l0l0	deux_incidents	O
+9l0l1	sont_survenus	N
+9l0l2	__une_fuite_de_SP95	A
+9l0l3	du_dépotage	N
+9l0l4	en_2007	T
+9l0l5	et_un_débordement	N
+9l0l6	par_un_évent	O
+9l0l7	en_2010__	T
+9l1l0	de_SP95	U
+9l1l1	de_SP95	S
+
+#Les résultats d’analyses ont mis en évidence :
+
+
+#● Dans les sols :
+
+
+#- La présence d’une zone impactée par des hydrocarbures C5-C10 et/ou de l’éthylbenzène à proximité de l’aire de distribution VL, des manifolds et des cuves n°1 et n° 2.
+
+12l0l0	une_zone_impactée	O
+12l0l1	à_proximité_de_l__aire	L
+12l1l0	hydrocarbures_C5_C10	S
+12l1l1	éthylbenzène	S
+12l1l2	des_cuves	D
+
+#A cette zone impactée située à une profondeur entre 0,7 mètre et 5 mètres, sont associées des odeurs d’hydrocarbures d’intensité variable (faible à forte) ;
+
+13l0l0	A	R
+13l0l1	cette_zone_impactée	O
+13l1l0	des_odeurs_d__hydrocarbures	U
+
+#- L’absence de teneur notable pour les paramètres mesurés au droit de l’ensemble des autres sondages réalisés, y compris ceux présentant des odeurs légères à fortes d’hydrocarbures.
+
+14l1l0	hydrocarbures	S
+
+#● Dans les gaz du sol :
+
+
+#la présence de teneurs significatives en hydrocarbures C5-C12, benzène, toluène et xylène sur l’ensemble des échantillons analysés.
+
+16l1l0	hydrocarbures_C5_C12	S
+16l1l1	benzène	S
+16l1l2	toluène	S
+16l1l3	xylène	S
+
+#● Dans les eaux souterraines (la nappe est située à environ 3 mètres de profondeur) :
+
+
+#- La présence de teneurs significatives en hydrocarbures C5-C40 et en tétraéthyle de plomb au droit des ouvrages Pz2 (aval hydraulique de l’aire de distribution PL et du séparateur d’hydrocarbures et latéral hydraulique des cuves n°2 et n°4) et Pz3 (aval hydraulique de l’aire de distribution VL et de la cuve n°3), ainsi qu’en benzène, toluène, xylènes et tétraméthyle de plomb en Pz3 uniquement, associées à la présence d’une odeur suspecte (potentiellement due à la présence de BTEX) ;
+
+18l0l0	au_droit_des_ouvrages	L
+18l0l1	Pz2	O
+18l0l2	aval_hydraulique	L
+18l0l3	aval_hydraulique	O
+18l0l4	la_cuve_n__3	O
+18l1l0	hydrocarbures_C5_C40	S
+18l1l1	tétraéthyle_de_plomb	S
+18l1l2	d__hydrocarbures	S
+18l1l3	cuves	D
+18l1l4	cuve	D
+18l1l5	benzène	S
+18l1l6	toluène	S
+18l1l7	xylènes	S
+18l1l8	tétraméthyle_de_plomb	S
+18l1l9	BTEX	S
+
+#- L'absence de teneur notable au droit de Pz1 (amont hydraulique) pour l’ensemble des paramètres recherchés.
+
+
+#Par lettre du 31/01/2012, BP a transmis les documents suivants :
+
+20l0l0	31_01_2012	T
+20l0l1	a_transmis	N
+20l1l0	BP	I
+
+#● Les certificats de nettoyage et de dégazage des installations en date du 20/09/2010, le bordereau de suivi de déchets du 12/10/2010 pour l'élimination de déchets contenant des hydrocarbures et les attestations de ferraillage des cuves et des deux séparateurs à hydrocarbures du 03/11/2010 ;
+
+21l0l0	Les_certificats_de_nettoyage	O
+21l0l1	dégazage_des_installations	N
+21l0l2	en_date_du_20_09_2010	T
+21l0l3	le_bordereau_de_suivi_de_déchets	O
+21l0l4	12_10_2010	T
+21l0l5	l__élimination_de_déchets_contenant_des_hydrocarbures	A
+21l0l6	ferraillage	N
+21l0l7	03_11_2010	T
+21l1l0	hydrocarbures	S
+21l1l1	hydrocarbures	S
+
+#● Le rapport de suivi des travaux de démantèlement des installations : les travaux de démantèlement se sont déroulés du 12 au 15 octobre 2010.
+
+22l0l0	suivi_des_travaux_de	O
+22l0l1	démantèlement_des_installations	N
+22l0l2	les_travaux_de_démantèlement	N
+22l0l3	se_sont_déroulés	N
+22l0l4	du_12_au_15_octobre_2010__	T
+
+#Les excavations, réalisées sur une profondeur maximale de 5 mètres, ont permis l'évacuation de 390 tonnes de matériaux vers une installation autorisée.
+
+23l0l0	Les_excavations	N
+23l0l1	l__évacuation	N
+23l0l2	390_tonnes_de_matériaux	O
+23l0l3	vers	R
+23l0l4	une_installation_autorisée	O
+
+#Les analyses réalisées au fond et sur les parois de la fouille, ont mis en évidence la présence résiduelle d'hydrocarbures totaux (2000 et 570 mg/kg zone Ex6), de BTEX (3,6 mg/kg) et de triméthylbenzènes (5,2 mg/kg) au droit de la zone Ex2.
+
+24l0l0	au_droit_de_la_zone_Ex2__	O
+24l1l0	hydrocarbures_totaux	S
+24l1l1	BTEX	S
+24l1l2	triméthylbenzènes	S
+
+#● Le rapport des investigations complémentaires et le plan de gestion : Suite aux travaux de démantèlement, 13 piézairs (Pa1 à Pa13) ont été mis en place, ainsi que 3 piézomètres (Pz1bis à Pz3bis), en janvier et février 2011.
+
+25l0l0	Le_rapport_des_investigations_complémentaires	O
+25l0l1	le_plan_de_gestion	O
+25l0l2	Suite	R
+25l0l3	aux_travaux_de_démantèlement	N
+25l0l4	13_piézairs	O
+25l0l5	ont_été_mis_en_place	N
+25l0l6	3_piézomètres	O
+25l0l7	en_janvier_et_février_2011__	T
+
+#Les analyses réalisées sur les échantillons d'air du sol et d'eaux souterraines ont permis de mettre en évidence des teneurs importantes en hydrocarbures C5-C12, benzène et/ou toluène dans l'air du sol, et en benzène, toluène, éthylbenzène, xylènes, styrène et/ou triméthylbenzènes au droit des piézomètres Pz2bis et Pz3bis situés en aval hydraulique du site.
+
+26l0l0	Les_analyses_réalisées	N
+26l0l1	au_droit_des	L
+26l0l2	piézomètres_Pz2bis	O
+26l0l3	situés_en_aval_hydraulique_du_site	L
+26l1l0	hydrocarbures_C5_C12	S
+26l1l1	benzène	S
+26l1l2	toluène	S
+26l1l3	benzène	S
+26l1l4	toluène	S
+26l1l5	éthylbenzène	S
+26l1l6	xylènes	S
+26l1l7	styrène	S
+26l1l8	triméthylbenzènes	S
+
+#Les différentes options de traitement ont été abordées dans un bilan coût/avantage.
+
+27l0l0	Les_différentes_options_de_traitement	O
+27l0l1	ont_été_abordées	N
+
+#Le traitement retenu est un traitement par sparging/venting qui a été mis en place en février 2012.
+
+28l0l0	Le_traitement_retenu	O
+28l0l1	un_traitement_par_sparging	N
+28l0l2	venting_qui_a_été_mis_en_place	N
+28l0l3	en_février_2012__	T
+28l1l0	sparging	I
+
+#Par courrier du 15/09/2014, BP a transmis le rapport du 05/05/2014 relatif au traitement du sous-sol.
+
+29l0l0	15_09_2014	T
+29l0l1	BP	O
+29l0l2	a_transmis	N
+29l0l3	le_rapport_du	O
+29l0l4	05_05_2014	T
+29l0l5	relatif	R
+29l0l6	au_traitement	N
+29l0l7	sous_sol	O
+29l1l0	BP	I
+
+#Le traitement de la nappe et des gaz du sol a été réalisé en deux phases :
+
+30l0l0	Le_traitement	N
+30l0l1	la_nappe	O
+30l0l2	gaz_du_sol	O
+30l0l3	a_été_réalisé_en	N
+30l0l4	deux_phases	O
+
+#- Un traitement initial comprenant une injection d’air sous pression et une aspiration de l’air du sol suivie d’un passage sur charbon actif, pendant 9 mois ;
+
+31l0l0	Un_traitement_initial	N
+31l0l1	une_injection_d__air	N
+31l0l2	une_aspiration	N
+31l0l3	de_l__air_du_sol	L
+31l0l4	pendant_9_mois	T
+31l1l0	charbon_actif	U
+
+#- Un traitement complémentaire par oxydation chimique (injections ponctuelles de peroxyde d’hydrogène associé à un catalyseur ferreux) des eaux souterraines couplée à un dispositif allégé de venting, à partir de février 2013.
+
+32l0l0	Un_traitement_complémentaire_par_oxydation_chimique	N
+32l0l1	injections_ponctuelles	N
+32l0l2	partir_de_février_2013__	T
+32l1l0	peroxyde_d__hydrogène	S
+32l1l1	catalyseur_ferreux	S
+
+#Le traitement a permis une diminution des concentrations moyennes en polluants dans la nappe de :
+
+33l0l0	Le_traitement	N
+33l0l1	la_nappe	O
+33l1l0	polluants	S
+
+#- 92 % pour les hydrocarbures et de 64 % pour le benzène, dans le piézomètre PZ2bis ;
+
+34l1l0	pour_les_hydrocarbures	S
+34l1l1	pour_le_benzène	S
+
+#- 93 % pour les hydrocarbures et 91 % pour le benzène, dans le piézomètre PZ3bis.
+
+35l1l0	pour_les_hydrocarbures	S
+35l1l1	pour_le_benzène	S
+
+#Cependant, malgré une diminution significative des concentrations relevées au droit des piézomètres PZ2bis et PZ3bis, les teneurs résiduelles restent très élevées avec notamment :
+
+
+#- 75 510 µg/l en hydrocarbures;
+
+37l1l0	hydrocarbures	S
+
+#- 2900 µg/l en benzène;
+
+38l1l0	benzène	S
+
+#- 16 000 µg/l en toluène.
+
+39l1l0	toluène	S
+
+#Concernant les gaz du sol, l’ensemble des mesures réalisées au sein des puits de venting a permis de mettre en évidence une diminution significative des concentrations, ayant conduit à l’arrêt des opérations de venting à partir du 07/05/2013.
+
+40l0l0	mesures_réalisées	N
+40l0l1	au_sein_des	L
+40l0l2	puits_de_venting_a	N
+40l0l3	une_diminution_significative	N
+40l0l4	ayant_conduit_à	R
+40l0l5	l__arrêt_des_opérations_de_venting	N
+40l0l6	partir_du_07_05_2013__	T
+
+#Le bureau d’étude recommande :
+
+
+#- la réalisation d’une campagne de prélèvement d’air du sol en vue de réaliser une ARR (analyse des risques résiduels) afin de vérifier la compatibilité des milieux avec les usages envisagés au droit du site ;
+
+42l0l0	la_réalisation_d__une_campagne_de_prélèvement	N
+42l0l1	une_ARR	N
+42l0l2	au_droit_du_site	L
+
+#- la réalisation d’une IEM (Interprétation de l’état des milieux) avec la pose de piézomètres et de piézairs à l’extérieur du site ;
+
+43l0l0	la_réalisation_d_	N
+43l0l1	une_IEM	O
+43l0l2	la_pose_de_piézomètres	O
+43l0l3	à_l__extérieur_du_site	L
+
+#- la mise en place d’une surveillance des eaux souterraines et des gaz du sol ;
+
+44l0l0	la_mise_en_place_d_	N
+44l0l1	une_surveillance	A
+44l0l2	eaux_souterraines	O
+
+#- la mise en place de restrictions d’usages.
+
+45l0l0	la_mise_en_place_de	N
+45l0l1	restrictions_d__usages	O
+
+#Suite à l'étude du rapport relatif au traitement des gaz du sol et de la nappe, l'inspection, dans son rapport du 26/03/2015 a demandé à l’exploitant :
+
+46l0l0	26_03_2015	T
+
+#- d’étudier d’autres solutions de traitement afin de traiter les sources résiduelles de pollution encore présentes sur le site ;
+
+47l1l0	les_sources_résiduelles	U
+
+#- de mettre en place trimestriellement, une surveillance de la qualité des eaux souterraines et des gaz du sol;
+
+48l0l0	de_mettre_en_place	N
+48l0l1	une_surveillance	A
+48l0l2	la_qualité_des_eaux_souterraines	O
+
+#- de transmettre, dès leur réalisation, l’IEM et l’ARR, l'IEM devant permettre de connaître l'extension de la pollution à l'extérieur du site dans les eaux souterraines et les gaz des sols.
+
+49l0l0	de_transmettre	N
+49l0l1	dès_leur_réalisation	T
+
+#Les demandes ont été faites par courrier préfectoral du 17/04/2015.
+
+50l0l0	Les_demandes	O
+50l0l1	ont_été_faites	N
+50l0l2	17_04_2015__	T
+
+#L'IEM de 2015
+
+51l0l0	L__IEM	O
+51l0l1	de_2015	T
+
+#Par courrier du 29/10/2015, BP FRANCE a transmis une IEM, afin de vérifier la compatibilité des milieux avec les usages rencontrés à l’extérieur du site.
+
+52l0l0	du_29_10_2015	T
+52l0l1	BP_FRANCE	O
+52l0l2	a_transmis	N
+52l0l3	une_IEM	O
+52l1l0	BP_FRANCE	I
+
+#Des investigations complémentaires ont été réalisées avec la mise en place de 2 piézomètres et de 2 piézairs en dehors du site, en aval hydraulique, en avril et juin 2015.
+
+53l0l0	Des_investigations_complémentaires_ont_été_réalisées	N
+53l0l1	la_mise_en_place_de	N
+53l0l2	2_piézomètres	O
+53l0l3	2_piézairs	O
+53l0l4	en_dehors_du_site	L
+53l0l5	en_aval_hydraulique	L
+53l0l6	en_avril_et_juin_2015__	T
+
+#Les analyses des eaux de la nappe et des gaz du sol, au niveau des immeubles d’habitations n’ont pas mis en évidence de teneur notable en polluants (traces d’hydrocarbures C5-C40).
+
+54l0l0	Les_analyses	N
+54l0l1	la_nappe	O
+54l1l0	traces_d__hydrocarbures_C5_C40	S
+
+#Le rapport a permis de conclure qu’en l’absence d’impact, l’état des milieux permet la jouissance des usages constatés hors site (résidentiel collectif et espaces verts).
+
+55l0l0	la_jouissance	A
+55l0l1	des_usages_constatés_hors_site	O
+
+#Surveillance de la nappe : 2015-2016
+
+56l0l0	Surveillance	R
+56l0l1	de_la_nappe	O
+56l0l2	__2015___2016	T
+
+#Les teneurs résiduelles en polluants, dans la nappe, sont toujours très importantes :
+
+57l1l0	polluants	S
+
+#- 7748 µg/l en hydrocarbures
+
+58l1l0	hydrocarbures	S
+
+#- 1330 µg/l en benzène
+
+59l1l0	benzène	S
+
+#- 3810 µg/l en toluène
+
+60l1l0	toluène	S
+
+#- 3859 µg/l en xylènes
+
+61l1l0	xylènes	S
+
+#Dans son rapport du 13/09/2017, l'inspection a demandé à l'exploitant de poursuivre la surveillance de la qualité des eaux souterraines et des gaz du sol sur le site de façon trimestrielle, de réaliser un suivi de la qualité des eaux de la nappe et des gaz du sol, en dehors du site, au-moins semestriellement en période de hautes eaux et la seconde en période de basses eaux ;
+
+62l0l0	13_09_2017	T
+62l0l1	l__inspection	O
+62l0l2	l__exploitant	O
+62l0l3	la_surveillance	A
+62l0l4	la_qualité_des	O
+62l0l5	eaux_souterraines	A
+62l0l6	la_qualité_des_eaux_de_la_nappe	O
+62l0l7	en_dehors_du_site	L
+62l0l8	au___moins_semestriellement	T
+62l0l9	en_période	T
+62l0l10	de_hautes_eaux	O
+62l0l11	la_seconde_en_période_de_basses_eaux	O
+
+#Restrictions d'usage
+
+63l0l0	usage	O
+
+#Par ailleurs un dossier de proposition restrictions d'usage a été transmis par courrier du 29/10/2015 par BP pour la parcelle cadastrée AO180 de l’ancienne station-service.
+
+64l0l0	un_dossier_de_proposition_restrictions_d__usage	O
+64l0l1	a_été_transmis_par_courrier	N
+64l0l2	du_29_10_2015	T
+64l0l3	la_parcelle_cadastrée	O
+64l1l0	service	I
+
+#Or, il s’est avéré que les éléments fournis n’apparaissaient pas suffisants en l'absence des éléments suivants, demandés dans le rapport de l'inspection du 13/09/2017 :
+
+65l0l0	13_09_2017	T
+
+#- le nom du propriétaire de la parcelle (une demande doit être faite auprès du service de la publicité foncière de l’État via le formulaire CERFA n°3233) ;
+
+
+#- un plan parcellaire faisant ressortir la délimitation des zones où de la pollution résiduelle est restée en place ;
+
+67l0l0	la_délimitation_des_zones	O
+67l0l1	en_place	N
+67l1l0	pollution_résiduelle	U
+
+#- la mention claire les teneurs résiduelles maximales en polluants, ainsi que leur localisation ;
+
+68l1l0	polluants	U
+
+#- la prise en compte de la parcelle AO45 sur laquelle sont implantés les piézomètres encore impactés, le PZ2bis et le PZ3bis.
+
+69l0l0	la_prise_en_compte	N
+69l0l1	la_parcelle_AO45	O
+69l0l2	sont_implantés	N
+69l0l3	les_piézomètres	O
+69l0l4	encore_impactés	O
+69l0l5	le_PZ2bis	O

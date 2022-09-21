@@ -1,0 +1,80 @@
+
+#68.0094
+#Ancien site industriel, ancienne activité de travail mécanique des métaux et de traitement de surface.
+
+0l0l0	Ancien_site_industriel	O
+0l0l1	activité_de_travail_mécanique_des_métaux	A
+0l0l2	traitement_de_surface	A
+
+#Site repris par la société Schlienger, en liquidation judiciaire depuis le 8 novembre 2006.
+
+1l0l0	Site	O
+1l0l1	repris	N
+1l0l2	la_société_Schlienger	O
+1l0l3	en_liquidation_judiciaire	N
+1l0l4	depuis_le_8_novembre_2006__	T
+1l1l0	société_Schlienger	I
+
+#A cette date, l'activité avait déjà cessé sur le site.
+
+2l0l0	A_cette_date	T
+2l0l1	l__activité	O
+2l0l2	avait_déjà_cessé	N
+
+#Un rapport d'étude de sols a été transmis à la DRIRE par le bureau d'études Tredi Services le 17/05/2001.
+
+3l0l0	Un_rapport_d__étude_de_sols	O
+3l0l1	a_été_transmis	N
+3l0l2	la_DRIRE	O
+3l0l3	le_bureau_d__études_Tredi_Services	O
+3l0l4	le_17_05_2001	T
+3l1l0	la_DRIRE	I
+
+#Il montre une légére pollution par des métaux et par des substances organo-halogénés.
+
+4l1l0	métaux	S
+4l1l1	halogénés	U
+
+#Des analyses des eaux souterraines devront être effectuées en aval hydraulique du site, en période de hautes eaux ainsi qu'en période de basse eaux.
+
+5l0l0	Des_analyses_des_eaux_souterraines	A
+5l0l1	devront_être_effectuées	R
+5l0l2	en_aval_hydraulique_du_site	L
+5l0l3	en_période_de_hautes	T
+5l0l4	eaux	N
+
+#Le nombre et l'emplacement des points de prélèvement devront permettre de réaliser des échantillons représentatifs des eaux souterraines.
+
+
+#Les résultats devront être commentés.
+
+
+#Des analyses ont ete réalisées, le bureau d'étude conclut à l'absence d'impact significatif.
+
+8l0l0	Des_analyses_ont_ete_réalisées	N
+8l0l1	le_bureau_d__étude	O
+
+#es zones contaminées étant abritées des eaux météoriques, le risque de mobilisation des substances polluantes est faible.
+
+9l0l0	es_zones_contaminées	O
+9l0l1	eaux_météoriques	O
+9l0l2	mobilisation_des_substances_polluantes	O
+
+#Tant que l'usage du site n'est pas modifié, aucun traitement particulier n'est nécessaire
+
+10l0l0	Tant_que	R
+10l0l1	l__usage	N
+
+#Un diagnostic environnemental a été demandé au liquidateur de la société Schlienger.
+
+11l0l0	Un_diagnostic_environnemental	O
+11l0l1	a_été_demandé	N
+11l0l2	la_société_Schlienger	O
+11l1l0	la_société_Schlienger	I
+
+#Au 22 décembre 2010, ce diagnostic n'a toujours pas été transmis à l'administration.
+
+12l0l0	Au_22_décembre_2010__	T
+12l0l1	ce_diagnostic	O
+12l0l2	n_	R
+12l0l3	a_toujours_pas_été_transmis	N

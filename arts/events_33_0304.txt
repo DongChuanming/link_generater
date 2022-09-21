@@ -1,0 +1,315 @@
+
+#33.0304
+#Station service exploitée par la société MEDIAL UNICO à St Laurent de Médoc (33).
+
+0l0l0	Station_service	N
+0l0l1	MEDIAL_UNICO_à_St_Laurent	O
+
+#Cet établissement était précédemment exploité par la société AVIA.
+
+1l0l0	Cet_établissement	N
+1l0l1	était_précédemment	T
+1l0l2	exploité_par_la_société	O
+1l0l3	AVIA__	N
+
+#Il a été mis en liquidation judiciaire en septembre 1992.
+
+2l0l0	Il_a_été_mis_en	O
+2l0l1	liquidation	N
+2l0l2	judiciaire_en_septembre_1992	O
+2l0l3	_	L
+2l1l0	judiciaire_en_septembre_1992	I
+
+#En décembre 1992, AVIA a procédé au démantèlement des appareils de distribution tout en laissant sur le site les citernes inutilisées non neutralisées et non vidées.
+
+3l0l0	En_décembre_1992__	O
+3l0l1	AVIA_a	R
+3l0l2	procédé_au_démantèlement	N
+3l0l3	des	N
+3l0l4	appareils_de_distribution	O
+3l1l0	des_appareils_de_distribution	I
+
+#Les installations de stockage comprennent initialement : une cuve de 15 m3 affectée au sans plomb (répartie en compartiments de 9 m3 et 6 m3) et une cuve de 6 m3 affectée au gazole.
+
+4l0l0	Les	O
+4l0l1	installations_de_stockage_comprennent	N
+4l0l2	initialement	T
+
+#Outre les installations existantes, la société MEDIAL UNICO a procédé à l’ajout d’une citerne double enveloppe de 50 m3 divisée en trois compartiments : 10, 20 m3 (super) et 20 m3 (gazole).
+
+5l0l0	Outre_les_installations	T
+5l0l1	existantes___la_société	N
+5l0l2	MEDIAL_UNICO_a_procédé_à_l__ajout	O
+5l1l0	installations	I
+5l1l1	enveloppe_de_50_m3_divisée	D
+
+#Le nouvel exploitant a en outre procédé à l’installation de nouveaux appareils de distribution.
+
+6l0l0	nouveaux	O
+6l1l0	a_en_outre	D
+6l1l1	nouveaux	D
+6l1l2	distribution__	U
+
+#La société MEDIAL UNICO(SUPER U) a déposé le 11 mai 1993 un dossier de déclaration relatif à l’exploitation d’installations de distribution et de stockage de liquides inflammables ayant les caractéristiques suivantes :
+
+7l0l0	société_MEDIAL_UNICO_SUPER_U___a_déposé	O
+7l0l1	le_11_mai_1993_un_dossier	O
+7l0l2	de_déclaration	N
+7l1l0	déposé_le_11_mai_1993_un_dossier	I
+7l1l1	liquides_inflammables_ayant	S
+
+#-	capacité équivalente du stockage : 71 m3 ;
+
+8l0l0	_	O
+8l0l1	capacité_équivalente	O
+8l0l2	du_stockage___71	N
+8l0l3	m3	R
+8l0l4	_	N
+
+#-	capacité des installations de distribution : 18 m3/h
+
+9l0l0	_	O
+9l0l1	capacité_des_installations	O
+9l0l2	distribution	N
+9l0l3	__18_m3___h	T
+9l1l0	_	I
+9l1l1	capacité_des_installations_de	I
+
+#1 - CONTEXTE
+
+
+#A partir du 30 septembre 2008, la police municipale de Saint-Laurent-Médoc effectue une enquête de voisinage en raison de problème de pollution de puits autour de la station service.
+
+
+#Lors de cette enquête, il est constaté que le puits de la parcelle AC 640, jouxtant la station service dégage une très forte odeur d’hydrocarbures.
+
+
+#Le propriétaire du puits a acquis cette parcelle en janvier 2008 sans avoir pris connaissance de cette pollution.
+
+13l0l0	Le	R
+13l0l1	propriétaire_du_puits_a_acquis	T
+13l0l2	cette_parcelle_en	O
+13l0l3	janvier_2008_sans_avoir	L
+13l0l4	pris_connaissance	R
+13l0l5	de	N
+13l0l6	cette_pollution	O
+
+#Il est à noter qu’il n’utilise pas ce puits.
+
+14l0l0	noter_qu__il_n_	N
+14l0l1	_	O
+
+#Une inspection et les analyses menées par le Service de la police de l’eau concluent à une une forte pollution des eaux souterraines.
+
+15l0l0	Une_inspection_et_les	O
+15l0l1	analyses_menées_par_le_Service	N
+15l0l2	de_la_police	T
+15l0l3	de_l_	R
+15l0l4	eau_concluent_à_une_une_forte	N
+15l0l5	pollution_des_eaux	O
+
+#Le prélèvement dans le puits du 24 février 2009 par le Service de Police des Eaux donne les résultats suivants :
+
+
+#- Hydrocarbures totaux : 13 000 mg/l (présence flottant)
+
+17l0l0	__Hydrocarbures	N
+17l0l1	présence_flottant__	O
+
+#- Benzène : 1200 µg/l
+
+18l0l0	__Benzène___1200_µg___l	N
+
+#- Toluène : 50 µg/l
+
+19l1l0	Toluène___50_µg___l	S
+
+#- Ethylbenzène : 59 µg/l
+
+20l1l0	Ethylbenzène	S
+
+#- Xylènes : 220 µg/l
+
+21l1l0	Xylènes	S
+
+#2 - DIAGNOSTIC
+
+22l1l0	__DIAGNOSTIC	S
+
+#Le 3 avril 2009, l’inspection des installations classées procède à une inspection de la station service exploitée par la SA MEDIAL UNICO.
+
+23l1l0	Le_3_avril	S
+
+#La visite ne permet pas d’établir l’origine de cette pollution.
+
+24l0l0	visite_ne_permet_pas_d__établir_l__origine_de_cette_pollution__	N
+
+#Toutefois, et en raison de la présence de réservoirs enterrés à simple paroi sur le site (dont l’un est inutilisé), il est demandé à l’exploitant, par arrêté préfectoral complémentaire du 7 juillet 2009 de :
+
+25l0l0	Toutefois___et_en	T
+25l0l1	raison_de_la_présence_de_réservoirs_enterrés	O
+25l0l2	simple_paroi_sur_le_site	N
+25l0l3	__dont_l__un_est	O
+25l0l4	inutilisé_____il	N
+25l0l5	est_demandé_à_l__exploitant	O
+25l1l0	est_demandé_à_l__exploitant	I
+
+#- réaliser, sous un délai de deux mois, un diagnostic environnemental des sols et de la nappe au droit de ses installations,
+
+
+#- faire procéder par un organisme agréé au contrôle d’étanchéité des réservoirs enterrés simple enveloppe.
+
+27l0l0	organisme_agréé_au_contrôle_d_	O
+27l0l1	étanchéité	N
+
+#Le 15 juillet 2009, l'exploitant transmet les contrôles d’étanchéité des réservoirs enterrés simple enveloppe.
+
+28l0l0	juillet_2009___l__exploitant_transmet	T
+28l0l1	les_contrôles_d__étanchéité	N
+28l0l2	réservoirs_enterrés	O
+28l0l3	simple_enveloppe__	L
+
+#N'ayant pas intégralement répondu à l'arrêté du 07/07/2009, l'exploitant est mis en demeure de réaliser le diagnostic dans un délai d'un mois, par l'arrêté préfectoral du 18 novembre 2009.
+
+29l0l0	intégralement_répondu_à_l_	O
+29l0l1	arrêté_du_07_07_2009___l_	O
+29l0l2	exploitant_est	O
+29l0l3	mis_en_demeure	N
+
+#Un diagnostic des sols et des eaux souterraines est réalisé par la société AMDE en décembre 2009.
+
+30l0l0	Un_diagnostic_des	T
+30l0l1	sols_et_des_eaux	O
+30l0l2	souterraines_est_réalisé	N
+30l0l3	par_la_société	O
+30l0l4	AMDE_en_décembre	O
+
+#Ce diagnostic met en évidence des anomalies dans les sols en 3 points du site avec des concentrations en hydrocarbures totaux allant de 380 mg/kg à 3294 mg/kg.
+
+31l0l0	anomalies_dans	O
+31l0l1	les_sols_en_3	T
+31l0l2	points_du_site	O
+31l0l3	avec_des_concentrations_en_hydrocarbures	N
+31l0l4	totaux_allant_de_380_mg___kg	T
+31l0l5	3294_mg___kg__	O
+
+#Cet impact est observé dans les sols au niveau de la frange capillaire.
+
+32l0l0	Cet_impact_est	N
+32l0l1	la_frange	N
+32l0l2	capillaire__	O
+32l1l0	capillaire__	I
+
+#Concernant les eaux souterraines, l'impact hydrocarboné est observé à l'aval hydraulique avec des concentrations élevées en hydrocarbures totaux ( de 14 mg/l à 41 mg/l).
+
+33l0l0	Concernant_les	N
+33l1l0	concentrations_élevées	S
+
+#La présence d'une phase libre d'hydrocarbures (une dizaine de cm de flottant) sur le puits hors site en amont hydraulique immédiat est noté (ce puits a été installé comme puits de décompression lors de la mise en place du réservoir de carburant).
+
+34l0l0	libre_d__hydrocarbures	O
+
+#Ce puits est considéré comme non impacté au moins jusqu'en 2007, puisqu'il servait à remplir la réserve aérienne d'eau incendie sur une parcelle voisine.
+
+35l0l0	puisqu__il_servait_à_remplir	L
+35l1l0	jusqu__en	U
+35l1l1	sur_une_parcelle_voisine	S
+
+#Pour autant les hydrocarbures présents dans ce puits sont fortement dégradés et correspondent à une pollution ancienne.
+
+36l0l0	une_pollution_ancienne__	L
+36l1l0	présents_dans_ce	S
+
+#Les hydrocarbures ont pu s'accumuler dans les remblais d'accompagnement du réservoir n°3, puis être drainés jusqu'au puits.
+
+37l0l0	Les_hydrocarbures	O
+37l0l1	remblais_d__accompagnement	T
+37l0l2	du_réservoir	R
+37l0l3	n__3__	A
+
+#Au regard des investigations réalisées, l'origine des hydrocarbures type gazole identifiés dans le puits mitoyen est attribuable au secteur étudié (station service ou parcelle accueillant le puits).
+
+38l0l0	dans_le_puits_mitoyen_est_attribuable	N
+38l1l0	investigations_réalisées	S
+
+#Par ailleurs, ces hydrocarbures libres ont subi une certaine dégradation qui indique l'absence de perte actuelle (confirmé par les épreuves de juin 2009).
+
+39l0l0	Par_ailleurs___ces	O
+39l0l1	hydrocarbures	N
+39l0l2	certaine_dégradation_qui_indique_l_	L
+39l0l3	perte_actuelle__	N
+39l1l0	ailleurs___ces_hydrocarbures	S
+
+#Les eaux du puits ayant été utilisées pour le remplissage d'une réserve d'eau incendie jusqu'en 2007, il semble que les pertes soient postérieures à cette date.
+
+40l0l0	postérieures_à_cette	L
+40l1l0	remplissage_d__une_réserve	S
+40l1l1	eau_incendie	S
+
+#Sur proposition de la DREAL du 25/04/2013, l'arrêté préfectoral du 28 juin 2013 prescrit à l'exploitant :
+
+41l0l0	25_04_2013___l__arrêté	N
+41l1l0	de_la_DREAL_du_25_04_2013	S
+
+#- la suppression du transfert des hydrocarbures dans la nappe par pompage, écrémage et traitement des eaux du puits (délai 1 mois),
+
+42l0l0	__la_suppression	O
+42l0l1	du_transfert	N
+42l0l2	des_hydrocarbures	R
+42l0l3	dans_la	N
+42l0l4	nappe_par_pompage___écrémage_et	O
+42l0l5	traitement_des	T
+
+#- la réalisation de compléments de diagnostic afin d'identifier les sources de pollution (1 mois)
+
+43l0l0	compléments	O
+43l0l1	de_diagnostic	T
+43l0l2	afin_d__identifier	O
+43l0l3	les_sources_de	T
+43l0l4	pollution	N
+43l0l5	__1_mois__	O
+43l1l0	compléments	I
+
+#- la définition des solutions de dépollution adaptées,
+
+44l0l0	définition_des_solutions	N
+44l0l1	dépollution_adaptées	O
+44l1l0	dépollution_adaptées	S
+
+#- la surveillance de la nappe.
+
+45l0l0	la_surveillance_de_la_nappe__	N
+
+#L'arrêté du 23 février 2015 met l'exploitant en demeure d'exécuter sous 3 mois l'arrêté du 28 juin 2013.
+
+46l0l0	L__arrêté_du_23_février_2015_met_l__exploitant	N
+
+#Faute d'exécution de la mise en demeure, le 21 juin 2016, l'inspection propose au Préfet de prescrire une amende administrative.
+
+47l0l0	Faute_d__exécution_de_la_mise	A
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+48l0l0	3___SURVEILLANCE	O
+48l0l1	DES_EAUX	T
+48l0l2	SOUTERRAINES	O
+
+#L'arrêté du 28/06/2013 prescrit la surveillance trimestrielle de la nappe par les 3 piézomètres installés sur le site.
+
+49l0l0	28_06_2013_prescrit_la	O
+49l0l1	surveillance_trimestrielle_de_la	O
+49l0l2	nappe_par	R
+49l0l3	installés_sur_le_site__	O
+49l1l0	les_3_piézomètres	I
+
+#Les paramètres mesurés sont : BTEX, HCTX et coupe C10-C40.
+
+50l0l0	paramètres_mesurés_sont___BTEX___HCTX_et_coupe_C10_C40__	O
+50l1l0	sont___BTEX___HCTX_et_coupe_C10_C40__	I
+
+#Le niveau piézomètrique est relevé à chaque campagne.
+
+51l0l0	Le	O
+51l0l1	piézomètrique	T
+51l0l2	est_relevé	R
+51l0l3	à_chaque_campagne__	A

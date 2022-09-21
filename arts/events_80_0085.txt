@@ -1,0 +1,201 @@
+
+#80.0085
+#Le site est implanté dans le quartier “saint leu” entre deux bras de la Somme sur une superficie d’environ 6000 m², avec une entrée principale 3-5 rue de Mai à AMIENS.
+
+0l0l0	Le_site	O
+0l0l1	est_implanté_dans_le_quartier___saint_leu	L
+0l0l2	entre_deux_bras_de_la_Somme	L
+0l0l3	une_entrée	O
+0l0l4	rue_de_Mai	L
+0l0l5	AMIENS	O
+
+#L’activité de l’établissement est répartie en deux secteurs de production :
+
+1l0l0	deux_secteurs_de_production	O
+
+#- La teinture de pièces de velours ;
+
+2l0l0	La_teinture	A
+
+#- La teinture en plongée d’articles confectionnés.
+
+3l0l0	La_teinture_en_plongée	A
+
+#L’établissement dispose d’un arrêté préfectoral en date du 10 août 1993 autorisant l’exploitation d’un atelier de teinturerie.
+
+4l0l0	L__établissement	O
+4l0l1	dispose_d_	R
+4l0l2	un_arrêté_préfectoral	O
+4l0l3	en_date_du_10_août_1993	T
+4l0l4	autorisant_l_	N
+4l0l5	exploitation_d_	R
+4l0l6	un_atelier_de_teinturerie	A
+
+#Les rubriques de la nomenclature des installations classées concernées par les activités de la SCS Ets Germain Benoît – Benoît et Co sont:
+
+5l0l0	la_nomenclature_des_installations_classées_concernées	O
+5l0l1	les_activités_de	A
+5l0l2	la_SCS_Ets_Germain_Benoît	O
+5l1l0	la_SCS_Ets_Germain_Benoît	I
+
+#2330(ex 395)- volume :4,5 t/j	classement :A
+
+6l0l0	2330_ex	O
+
+#2925(ex 3.1)	classement : D
+
+7l0l0	2925_ex	O
+
+#2915(ex 120)- volume :600 l     classement : D
+
+8l0l0	2915_ex	O
+
+#2910(ex 153)- volume :8,5 MW	classement : D
+
+
+#1432(ex 253)- volume :160 m3 de fuel lourd et90 m3 de fuel domestique
+
+10l0l0	fuel_lourd	O
+10l0l1	fuel_domestique	A
+10l1l0	fuel_lourd	U
+10l1l1	fuel_domestique	U
+
+#classement : D
+
+
+#1180(ex 355)	classement : D
+
+
+#Le site est à l'arrêt depuis la liquidation judiciaire de l'exploitant. (03/02/2006)
+
+13l0l0	Le_site	O
+13l0l1	est_à_l__arrêt	N
+13l0l2	depuis	T
+13l0l3	la_liquidation_judiciaire	N
+13l0l4	l__exploitant	O
+13l0l5	__03_02_2006__	T
+
+#risques et nuisances : incendie / pollution / explosion
+
+14l0l0	explosion	N
+
+#AP d'urgence du 13 juin 2007 de mettre en sécurité le site conformément à l’article 34-1 du décret 77-1133 du 21 septembre 1977 :
+
+15l0l0	13_juin_2007	T
+15l0l1	de_mettre_en_sécurité	N
+15l0l2	le_site	O
+15l0l3	21_septembre_1977	T
+
+#- prévenir tout risque de déversement de déchets, boues ou eaux polluées dans l’environnement ou dans les réseaux d’eaux pluviales ou résiduaires, ainsi que tout risque d’incendie ou d’explosion ;
+
+16l0l0	boues_ou_eaux_polluées	O
+
+#- interdire ou limiter l’accès au site aux seules personnes autorisées
+
+
+#- pomper ou faire pomper tous les déchets liquides, boues, eaux polluées ou susceptibles de l’être présents dans les caniveaux et rétention et d’assurer ou faire assurer leur élimination dans des installations dûment autorisées à cet effet ;
+
+18l0l0	pomper	N
+18l0l1	faire_pomper	N
+18l0l2	d__assurer	N
+18l0l3	faire_assurer_leur_élimination	N
+18l0l4	des_installations	O
+18l1l0	les_déchets_liquides	U
+
+#- faire procéder au dégazage de l’ensemble des cuves présentes sur le site
+
+19l0l0	faire_procéder_au_dégazage	N
+19l1l0	cuves	D
+
+#- évacuer ou faire évacuer l’ensemble des produits dangereux et des déchets présents sur le site vers des centres de stockages ou d’élimination dûment autorisés à cet effet
+
+20l0l0	évacuer	N
+20l0l1	faire_évacuer	N
+20l0l2	l_	O
+20l0l3	des_centres_de_stockages	O
+20l0l4	effet	T
+20l1l0	des_produits_dangereux	U
+
+#- assurer le nettoyage des surfaces polluées, notamment curage des caniveaux, réseaux et rétentions souillés et nettoyage des surfaces souillées lors des opérations de démantèlement de chaudières ou autres machines.
+
+21l0l0	assurer_le_nettoyage	N
+21l0l1	surfaces_polluées	O
+21l0l2	curage	N
+21l0l3	des_caniveaux	O
+21l0l4	nettoyage	A
+21l0l5	surfaces_souillées	O
+21l0l6	des_opérations	N
+21l0l7	de_démantèlement_de_chaudières	L
+
+#En mars 2008, le préfet signe un arrêté de mise en demeure de respecter certaines dispositions de l'arrêté d'urgence du 13 juin 2007.
+
+22l0l0	En_mars_2008__	T
+22l0l1	le_préfet	O
+22l0l2	signe_un_arrêté_de_mise_en_demeure	N
+22l0l3	l__arrêté_d__urgence	N
+22l0l4	13_juin_2007__	T
+22l1l0	le_préfet	I
+
+#Suite à une visite du 11 mai 2009, des non-conformités sont encore relevées.
+
+23l0l0	Suite	R
+23l0l1	à_une_visite	N
+23l0l2	du_11_mai_2009__	T
+
+#Le préfet prend un arrêté de consignation en date du 26 octobre 2009 d'une somme de 20000 euros.
+
+24l0l0	Le_préfet	O
+24l0l1	prend_un	N
+24l0l2	arrêté_de_consignation	O
+24l0l3	en_date_du_26_octobre_2009	T
+24l0l4	20000_euros	O
+24l1l0	Le_préfet	I
+
+#La mise en sécurité du site est constatée le 30 septembre 2010.
+
+25l0l0	La_mise_en_sécurité	N
+25l0l1	du_site	O
+25l0l2	est_constatée	N
+25l0l3	le_30_septembre_2010__	T
+
+#En octobre 2007 un arrêté complémentaire a imposé l'élaboration d'un schéma conceptuel et d'un plan de gestion et la surveillance des eaux souterraines.
+
+26l0l0	En_octobre_2007	T
+26l0l1	un_arrêté_complémentaire	O
+26l0l2	a_imposé	N
+26l0l3	l__élaboration_d_	N
+26l0l4	un_schéma_conceptuel	O
+26l0l5	un_plan_de_gestion	O
+26l0l6	la_surveillance_des_eaux_souterraines	A
+
+#Un plan de gestion a été transmis en avril 2008 et a fait l'objet d'un complément en janvier 2009.
+
+27l0l0	Un_plan_de_gestion	O
+27l0l1	a_été_transmis	N
+27l0l2	en_avril_2008	T
+27l0l3	a	N
+27l0l4	fait_l__objet_d_	R
+27l0l5	un_complément	O
+27l0l6	en_janvier_2009__	T
+
+#Des compléments ont été demandés au liquidateur sur le comportement des polluants présents dans les sols, la surveillance des eaux souterraines et les propositions de restrictions d'usage.
+
+28l0l0	ont_été_demandés	N
+28l0l1	la_surveillance_des_eaux_souterraines	A
+
+#Les compléments transmis en 2016, 2017 et 2019 ont permis d'établir la compatibilité du site avec un usage industriel.
+
+29l0l0	Les_compléments	O
+29l0l1	transmis	N
+29l0l2	en_2016___2017_et_2019	T
+29l0l3	la_compatibilité	O
+29l0l4	du_site	O
+29l0l5	un_usage_industriel	A
+
+#Un dossier de demande de servitudes a été déposé par le propriétaire des terrains début 2020 pour un usage résidentiel.
+
+30l0l0	Un_dossier_de_demande_de_servitudes	O
+30l0l1	a_été_déposé	N
+30l0l2	le_propriétaire_des_terrains	O
+30l0l3	début_2020	T
+30l0l4	un_usage_résidentiel	A

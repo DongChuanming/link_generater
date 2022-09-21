@@ -1,0 +1,90 @@
+
+#13.0165
+#Dès le milieu du XIXème siècle cette zone de Septèmes-les-Vallons est fortement industrialisée.
+
+0l0l0	Dès_le_milieu_du_XIXème_siècle	T
+0l0l1	cette_zone	O
+0l0l2	de_Septèmes_les_Vallons	L
+0l0l3	est_fortement_industrialisée	N
+
+#Sont notamment présentes des fabriques de soude, d'acide sulfurique (dans des chambres à plomb), de plomb, d'engrais phosphatés, d'arsenite de soude et d'acide chlorhydrique notamment.
+
+1l0l0	des_fabriques	O
+1l0l1	engrais_phosphatés	O
+1l1l0	soude	S
+1l1l1	acide_sulfurique	S
+1l1l2	plomb	S
+1l1l3	plomb	S
+1l1l4	engrais_phosphatés	S
+1l1l5	d__arsenite	S
+1l1l6	soude	S
+1l1l7	acide_chlorhydrique	S
+
+#L'exploitation de ces usines s'est accompagnée du stockage de nombreux déchets (notamment scories de pyrites) dans les parcelles attenantes.
+
+2l0l0	L__exploitation	N
+2l0l1	ces_usines	O
+2l0l2	s_	R
+2l0l3	est_accompagnée	O
+2l0l4	du_stockage	N
+2l0l5	les_parcelles_attenantes	O
+
+#Les déchets sont principalement sous forme solide et sont assimilés à des sols pollués par des métaux lourds.
+
+3l1l0	métaux_lourds	S
+
+#L'étude de synthèse critique sur l'ensemble de la zone occupée historiquement par CEBTP (Rapport 252.2.065 de décembre 2002) a débouché, après analyse par l'inspection, sur la mise en place de servitudes (AP portant constitution de servitudes d'utilité publique sur l'ancien site de Septèmes-les-Vallons du 14/04/2008), qui accompagnent le maintient sur place de certains dépôts de déchets.
+
+4l0l0	L__étude	N
+4l0l1	CEBTP	O
+4l0l2	décembre_2002	T
+4l0l3	la_mise_en_place_de_servitudes	N
+4l0l4	Septèmes_les_Vallons_du_14_04_2008	T
+4l0l5	accompagnent_le_maintient_sur_place	N
+4l0l6	certains_dépôts_de_déchets	O
+4l1l0	CEBTP	I
+4l1l1	dépôts_de_déchets	D
+
+#Ces servitudes consistent à limiter l'usage du site: interdiction notamment pour les écoles, aires d'aménagement ou jeux pour enfants, aires de camping, activités de culture, activités liées à l’accueil des personnes sensibles.
+
+5l0l0	limiter_l__usage	N
+5l0l1	les_écoles	O
+5l0l2	activités_de_culture	O
+5l0l3	activités_liées_à	R
+5l0l4	l__accueil	N
+
+#Les parcelles concernées sont les suivantes:
+
+
+#-Section A6 : A 2091 à A 2094
+
+
+#-Section AR : AR 6 à AR 11
+
+
+#-Section AP : AP 15, AP 104, AP 148, AP 149
+
+
+#-Section AS : AS 7 à AS 12.
+
+
+#Cet arrêté ne prévoyant pas notamment l'information des locataires, un secteur d'information sur les sols sera proposé sur l'emprise des parcelles visées dans l'APSUP.
+
+11l0l0	parcelles_visées	O
+
+#Par ailleurs, les mesures réalisées par le CEBTP (cf rapport susvisé) révèlent des concentrations en plomb et en arsenic, supérieures à 300mg/kg pour le plomb (valeur pour laquelle le haut comité à la santé publique recommande la réalisation de plombémie chez les enfants) et à 37mg/kg pour l'arsenic (ancienne valeur de constat d'impact pour un usage sensible), sur une zone plus étendue.
+
+12l0l0	les_mesures_réalisées	N
+12l0l1	le_CEBTP	O
+12l0l2	l__arsenic	O
+12l1l0	le_CEBTP	I
+12l1l1	plomb	S
+12l1l2	arsenic	S
+12l1l3	le_plomb	S
+12l1l4	le_haut_comité	I
+12l1l5	arsenic	S
+
+#Les mesures réalisées ont été cartographiées (cf plans cartographiques).
+
+13l0l0	Les_mesures_réalisées	N
+13l0l1	ont_été_cartographiées	N

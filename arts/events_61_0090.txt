@@ -1,0 +1,180 @@
+
+#61.0090
+#La société SPIC exploite une unité d’application de fabrication de peinture industrielle depuis 1980 date de sa création sur la commune de Céton.
+
+0l0l0	La_société_SPIC	O
+0l0l1	exploite	N
+0l0l2	une_unité_d_	O
+0l0l3	application_de_fabrication_de_peinture_industrielle	A
+0l0l4	depuis_1980	T
+0l0l5	date_de_sa_création	O
+0l0l6	sur_la_commune_de_Céton	L
+0l1l0	La_société_SPIC	I
+
+#Elle fournit des milliers de pièces en aluminium/composite/plastique peintes après préparation et traitement.
+
+1l0l0	Elle	O
+1l0l1	aluminium	O
+
+#Ses principaux clients se trouvent dans les secteurs d’activité du médical, du militaire et de l’aéronautique.
+
+2l0l0	Ses_principaux_clients	O
+2l0l1	les_secteurs_d__activité_du_médical	A
+2l0l2	l__aéronautique	O
+
+#A l’occasion d’un changement de direction en 1990, l'entreprise, spécialisée dans le domaine du militaire, s’est diversifiée dans le domaine du médical.
+
+3l0l0	A_l__occasion_d_	R
+3l0l1	un_changement	N
+3l0l2	de_direction	O
+3l0l3	en_1990__	T
+3l0l4	l__entreprise	O
+3l0l5	spécialisée_dans_le_domaine_du_militaire	A
+3l0l6	s__est_diversifiée	N
+3l0l7	dans_le_domaine_du_médical	A
+
+#L’usine emploie une dizaine de  personnes, effectif qui serait porté à 20 prochainement.
+
+
+#L’établissement reçoit de petites pièces brutes à préparer et à peindre. 	Une fois réceptionnées, les pièces sont contrôlées puis stockées en attente de traitement.
+
+5l0l0	peindre	A
+5l0l1	Une_fois_réceptionnées	N
+5l0l2	contrôlées	N
+5l0l3	attente_de_traitement	T
+
+#En fonction de leur nature, les pièces peuvent l’objet de différentes opérations : masquage, mise en apprêts, ponçage, traitement de surface, traitement silicone, opérations de sablage et/ou métallisation et peinture.
+
+6l0l0	__mise_en_apprêts___ponçage	N
+6l0l1	__traitement_de_surface	O
+6l0l2	__traitement_silicone	O
+6l0l3	de_sablage	O
+6l0l4	ou_métallisation	A
+
+#L'installation de traitement de surface est composée d’un bain pour le dégraissage (ridoline), de deux bains pour le traitement acide (déoxidine SC56CF, déoxidine D4) et de trois bains comprenant une solution chromique pour le revêtement métallique utilisés alternativement selon la nature du métal des pièces à traiter ainsi que de l’état de surface escompté (bain d’alodine 1500, alodine 1200 et iridite), le volume total des bains étant de 4270 l).
+
+7l0l0	L__installation_de_traitement_de_surface	O
+7l0l1	dégraissage	O
+7l0l2	traitement_acide	O
+7l1l0	déoxidine_SC56CF	S
+7l1l1	déoxidine_D4__	S
+7l1l2	solution_chromique	S
+7l1l3	bain_d__alodine	U
+7l1l4	alodine	S
+7l1l5	iridite	S
+
+#Pollution des sols
+
+
+#Du fait du rejet des eaux de rinçage depuis de nombreuses années dans le puisard, le dossier de demande d’autorisation produit en 2007 préconisait la réalisation de prélèvements de sols pour déterminer l’existence ou non d’une pollution par le chrome VI notamment, et, si nécessaire, de mettre en place une surveillance des eaux souterraines.
+
+9l0l0	rejet_des_eaux_de_rinçage	A
+9l0l1	depuis_de_nombreuses_années	T
+9l0l2	en_2007	T
+9l0l3	préconisait_la_réalisation_de_prélèvements	N
+9l0l4	surveillance_des_eaux_souterraines	A
+9l1l0	le_chrome_VI	S
+
+#En effet, aucune mesure de concentration pour le chrome n’a été réalisées sur les eaux de rinçage rejetées dans un puisard avant la mise en en service de la station de détoxication (2006) et il n’était pas possible de se prononcer sur l’importance de la contamination du sol sans investigations complémentaires, contamination pouvant, elle-même, entraîner celles des eaux souterraines.
+
+10l0l0	les_eaux_de	O
+10l0l1	rinçage	A
+10l0l2	rejetées_dans_un_puisard_avant_la	L
+10l0l3	mise_en_en_service	N
+10l0l4	de_la_station_de_détoxication	O
+10l1l0	le_chrome	S
+10l1l1	détoxication	U
+
+#C’est pourquoi l’arrêté du 20/11/2009 imposait dans un délai de deux ans, la production d’une étude relative au contexte hydrogéologique du site ainsi qu'aux risques de pollution des sols qui devait intégrer des analyses réalisées sur les prélèvements effectués au niveau d’au moins trois sondages de sols à une profondeur minimale de 5 m réalisés en des emplacements pertinents notamment à proximité du puisard (paramètres à rechercher : Cr total, Cr 3+, Cr 6+ et par précaution sur les COHV en raison notamment de l'emploi d'installation de dégraissage au trichloréthylène jusque vers 2005), cette étude devant permettre d’évaluer la nécessité éventuelle de la mise en place d’une surveillance des eaux souterraines et d’en déterminer les modalités.
+
+11l0l0	20_11_2009	T
+11l0l1	imposait	N
+11l0l2	dans_un_délai_de_deux_ans	T
+11l0l3	la_production	N
+11l0l4	relative	R
+11l0l5	au_contexte_hydrogéologique	N
+11l0l6	réalisés_en	N
+11l0l7	des_emplacements_pertinents	O
+11l0l8	à_proximité_du_puisard	L
+11l0l9	paramètres	O
+11l0l10	dégraissage_au_trichloréthylène	A
+11l0l11	jusque_vers_2005	T
+11l0l12	d__évaluer_la_nécessité_éventuelle_de	O
+11l0l13	la_mise_en_place_d_	N
+11l0l14	surveillance_des_eaux_souterraines	A
+11l0l15	d__en_déterminer_les_modalités	O
+11l1l0	Cr_total	S
+11l1l1	Cr_3__	S
+11l1l2	Cr_6__	S
+11l1l3	COHV	S
+11l1l4	trichloréthylène	S
+
+#Cette étude n'a toujours pas été produite en raison des difficultés de l'entreprise.
+
+12l0l0	Cette_étude	O
+
+#D'autres paramètre sont également à rechercher et notamment, le zinc en raison de l'emploi d'une installation de métallisation à chaud dont les émissions généraient un dépôt de poussières de zinc sur le sol (il a toutefois été constaté, le 07/11/2006, que la zone herbeuse souillée au débouché du conduit d'évacuation des poussières avait été nettoyée) ainsi que les hydrocarbures, HAP, BTEX compte-tenu, notamment, des mauvaises conditions d'entreposage passées des pots de peintures au rebut (laissés ouverts bien qu'entreposés à l'air libre, sans rétention).
+
+13l0l0	l__emploi_d_	N
+13l0l1	une_installation_de	O
+13l0l2	métallisation	A
+13l0l3	le_07_11_2006	T
+13l0l4	la_zone_herbeuse_souillée	O
+13l0l5	avait_été_nettoyée	N
+13l1l0	le_zinc	S
+13l1l1	zinc	S
+13l1l2	les_hydrocarbures	S
+13l1l3	HAP	S
+13l1l4	BTEX	S
+
+#Suite à la reprise du site par M.
+
+14l0l0	Suite	R
+14l0l1	à_la_reprise	N
+14l0l2	du_site	O
+14l0l3	M_	O
+
+#Gilles CRAMPON, la suppression de l'emploi de chrome 6, est programmée dans le courant de l'année 2018 par suite de l'emploi de "Surtex" en remplacement de l'alodine.
+
+15l0l0	la_suppression	N
+15l0l1	l__emploi_de	A
+15l0l2	chrome_6	O
+15l0l3	est_programmée	O
+15l0l4	dans_le_courant_de_l__année_2018	T
+15l0l5	l__emploi	A
+15l1l0	Gilles_CRAMPON	I
+15l1l1	chrome_6	S
+15l1l2	Surtex__	S
+15l1l3	l__alodine	S
+
+#Il est également envisagé le déplacement de l'installation de traitement de surface associée à une extension des bâtiments.
+
+16l0l0	Il	O
+16l0l1	le_déplacement	N
+16l0l2	l__installation_de_traitement_de_surface	O
+16l0l3	associée	R
+16l0l4	à_une_extension_des_bâtiments	L
+
+#Perspectives
+
+
+#Il est nécessaire d'envisager :
+
+
+#- d'imposer la production de l'étude susmentionnée et, au vu de ses conclusions:
+
+19l0l0	d__imposer_la_production	N
+
+#. la mise en place d'une surveillance des eaux souterraines,
+
+20l0l0	la_mise_en_place_d__une	N
+20l0l1	surveillance_des_eaux_souterraines	A
+
+#. la production éventuelle d'un plan de gestion ;
+
+
+#- l'institution de servitudes afin de figer les usages du site au vu des conclusions du plan de gestion.
+
+22l0l0	l__institution	N
+22l0l1	figer_les_usages	N
+22l0l2	du_site	A

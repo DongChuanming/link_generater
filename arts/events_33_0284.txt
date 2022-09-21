@@ -1,0 +1,263 @@
+
+#33.0284
+#Ancienne décharge d’ordures ménagères et de déchets assimilés exploitée par la Mairie de Langoiran (33) sur sa commune.
+
+0l0l0	Ancienne_décharge	O
+0l0l1	exploitée	N
+0l0l2	par	R
+0l0l3	la_Mairie	O
+0l0l4	de_Langoiran___33___sur_sa_commune	L
+0l1l0	la_Mairie	I
+
+#La décharge a été exploitée sans autorisation avant 1987 et accueil encore en 2012 des déchets verts.
+
+1l0l0	La_décharge	O
+1l0l1	a_été_exploitée	N
+1l0l2	sans_autorisation	R
+1l0l3	avant_1987	T
+1l0l4	accueil_encore	N
+1l0l5	en_2012	T
+1l0l6	des_déchets_verts	O
+
+#Deux dépôts ont été répertoriés au lieu dit « Gourdin » :
+
+2l0l0	Deux_dépôts	O
+2l0l1	ont_été_répertoriés	N
+2l0l2	au_lieu_dit_____Gourdin	L
+
+#- Le dépôt « actuel » exploité avant 1987 : Ce site a accueilli principalement des déchets verts, des ferrailles en transit, des matériaux de démolition et des matériaux de curage des fossés de la commune.
+
+3l0l0	exploité_avant_1987	T
+3l0l1	__Ce_site	O
+3l0l2	a_accueilli_principalement	R
+3l0l3	des_déchets_verts	O
+3l0l4	et_des_matériaux	O
+3l0l5	de_curage	A
+3l0l6	de_la_commune	L
+3l1l0	dépôt	D
+
+#Les déchets verts étant régulièrement brulés par la commune, le site serait toujours exploité.
+
+4l0l0	la_commune	O
+4l0l1	le_site	O
+4l0l2	serait_toujours_exploité	N
+
+#Il a accueilli des ordures ménagères apportés par les particuliers jusqu'en 1994.
+
+5l0l0	les_particuliers	O
+5l0l1	jusqu__en_1994	T
+5l1l0	ordures_ménagères	U
+
+#Le volume de ce dépôt est estimé à 2800 m3.
+
+6l0l0	2800_m3__	O
+
+#- Le second dépôt plus ancien est actuellement recolonisé par la végétation.
+
+7l0l0	Le_second_dépôt_plus_ancien	O
+7l0l1	est_actuellement_recolonisé_par_la_végétation	N
+
+#Les déchets présents sur ce site sont des fûts métalliques rouillés, pots de peinture, pneus agricoles, bidons de produits phytosanitaires toxiques et encombrants, verrerie et plastiques.
+
+8l0l0	métalliques_rouillés	O
+8l0l1	pneus_agricoles	O
+8l0l2	bidons_de_produits_phytosanitaires_toxiques_et_encombrants	O
+8l1l0	fûts_métalliques_rouillés	U
+8l1l1	produits_phytosanitaires_toxiques	U
+8l1l2	plastiques	S
+
+#Le volume de ce dépôt est estimé à 6000 m3.
+
+9l0l0	6000_m3	O
+
+#Cette décharge est inscrite dans l'action nationale de résorption des décharges de déchets ménagers et assimilés, autorisées ou non autorisées, introduite par la circulaire du Ministère de l’Écologie et du Développement Durable du 23 février 2004.
+
+10l0l0	résorption	N
+10l0l1	Ministère_de_l__Écologie	O
+10l0l2	du_23_février_2004__	T
+
+#1 - MISE EN SÉCURITÉ
+
+11l0l0	SÉCURITÉ	N
+11l1l0	SÉCURITÉ	I
+
+#L'arrêté préfectoral du 25 octobre 2007 prévoit l'interdiction de déposer des déchets sur le site et d'installer une clôture autour du site par un grillage en matériaux résistants.
+
+12l0l0	L__arrêté_préfectoral	O
+12l0l1	25_octobre_2007	T
+12l0l2	prévoit	R
+12l0l3	l__interdiction	N
+12l0l4	le_site	O
+12l0l5	d__installer_une_clôture	N
+12l0l6	autour_du_site	L
+12l1l0	des_déchets	U
+
+#L'exploitant doit prendre les mesures nécessaires pour éviter les dépôts sauvages sur ou à proximité du site.
+
+13l0l0	L__exploitant	O
+13l0l1	doit	R
+13l0l2	prendre_les_mesures	N
+13l0l3	à_proximité_du_site	L
+13l1l0	les_dépôts_sauvages	U
+
+#Clôture mise en place ?
+
+14l0l0	Clôture_mise_en_place	N
+
+#Existe-t-il toujours des dépôts sauvages ?
+
+15l1l0	dépôts_sauvages	D
+
+#2 - DIAGNOSTIC
+
+16l0l0	DIAGNOSTIC	N
+
+#L'arrêté préfectoral de mise en demeure du 12 décembre 2005 prescrit de réaliser l’Évaluation Simplifiée des Risques (ESR)
+
+17l0l0	L__arrêté_préfectoral_de_mise_en_demeure	O
+17l0l1	12_décembre_2005	T
+17l0l2	prescrit_de	R
+17l0l3	réaliser_l__Évaluation_Simplifiée_des_Risques	N
+
+#L'étude est remise le 11 décembre 2006.
+
+18l0l0	L__étude	O
+18l0l1	est_remise	N
+18l0l2	le_11_décembre_2006__	T
+
+#L'ESR classe le site en catégorie 1 "nécessitant des investigations approfondies".
+
+19l0l0	investigations_approfondies	N
+19l1l0	L__ESR	I
+
+#ANTEA préconise le réaménagement du site par :
+
+20l0l0	ANTEA	O
+20l0l1	préconise_le_réaménagement	N
+20l0l2	du_site	O
+20l1l0	ANTEA	I
+
+#- un défrichement de la zone de l'ancienne décharge et un rassemblement des déchets dans un secteur limite en surface,
+
+21l0l0	un_défrichement	N
+21l0l1	la_zone	O
+21l0l2	l__ancienne_décharge	O
+21l0l3	un_rassemblement	N
+21l0l4	dans_un_secteur_limite_en_surface	L
+
+#- un contrôle de fond de fouille sur les sols de la zone de l'ancienne décharge après travaux,
+
+22l0l0	un_contrôle	N
+
+#- la mise en place de matériaux de faible perméabilité en surface des dépôt afin de limiter les infiltrations d'eaux pluviales et favoriser le ruissellement,
+
+23l0l0	la_mise_en_place_de_matériaux	N
+23l0l1	favoriser	A
+23l0l2	le_ruissellement	L
+
+#- un entretien (1 fois par an) de la surface de dépôt.
+
+24l0l0	un_entretien___1_fois	N
+24l0l1	la_surface_de_dépôt	O
+
+#3 - TRAVAUX
+
+
+#L'arrêté préfectoral du 25 octobre 2007 prescrit les travaux de réhabilitation suivante dans un délai d'un an :
+
+26l0l0	L__arrêté_préfectoral	O
+26l0l1	25_octobre_2007	T
+26l0l2	prescrit_les_travaux_de_réhabilitation	N
+26l0l3	dans_un_délai_d__un_an	T
+
+#- remodelage des dépôts afin d'établir des pentes supérieures à 3% et garantir la stabilité des talus,
+
+27l0l0	remodelage_des_dépôts	N
+27l0l1	garantir_la_stabilité	N
+27l0l2	des_talus	O
+
+#- mise en place d'une couverture peu perméable sur le sommet et les flancs des massif,
+
+28l0l0	mise_en_place_d_	N
+
+#- réalisation de fossés périphériques permettant de collecter et d'évacuer les eaux pluviales,
+
+29l0l0	réalisation_de_fossés_périphériques	O
+
+#- apport de terre végétales sur une épaisseur suffisante,
+
+
+#- ré-végétalisation de la zone,
+
+31l0l0	ré_végétalisation	N
+31l0l1	la_zone	O
+
+#- mise en place d'un traitement des biogaz.
+
+32l0l0	mise_en_place_d__un_traitement	N
+
+#4 - SURVEILLANCE DES EAUX SUPERFICIELLES
+
+33l0l0	SURVEILLANCE_DES_EAUX	A
+33l0l1	SUPERFICIELLES	O
+
+#L'arrêté préfectoral du 25 octobre 2007 prescrit la surveillance semestrielle des eaux de la rivière le Gourdin.
+
+34l0l0	L__arrêté_préfectoral	O
+34l0l1	25_octobre_2007	T
+34l0l2	prescrit	R
+34l0l3	la_surveillance_semestrielle	A
+34l0l4	des_eaux_de_la_rivière	A
+34l0l5	le_Gourdin	L
+
+#Les paramètres à analyser sont les suivants : Ammonium, DCO, HCTX, As, Cu, Cr, Ni, paramètres bactériologiques (Coliformes thermotolérants, Coliformes à 37°C, E.
+
+35l1l0	Ammonium	S
+35l1l1	DCO	S
+35l1l2	HCTX	S
+35l1l3	As	S
+35l1l4	Cu	S
+35l1l5	Cr	S
+35l1l6	Ni	S
+35l1l7	bactériologiques	S
+35l1l8	Coliformes_thermotolérants	S
+35l1l9	Coliformes	S
+35l1l10	E_	S
+
+#oli et Entérocoques intestinaux).
+
+36l1l0	Entérocoques_intestinaux	S
+
+#5 - RESTRICTIONS D'USAGES ET SERVITUDES
+
+37l0l0	SERVITUDES	O
+37l1l0	SERVITUDES	I
+
+#L'arrêté préfectoral du 25 octobre 2007 prescrit des restrictions d'usage de la décharge réhabilitée :
+
+38l0l0	L__arrêté_préfectoral	O
+38l0l1	25_octobre_2007	T
+38l0l2	prescrit_des_restrictions_d__usage	N
+38l0l3	la_décharge_réhabilitée	N
+
+#- Interdictions de constructions à usage d'habitation,
+
+39l0l0	Interdictions	N
+39l0l1	de_constructions_à	O
+39l0l2	usage_d__habitation	A
+
+#- de travaux de voiries, d'affouillements, de sondage, de forage,
+
+40l0l0	de_travaux_de_voiries	N
+40l0l1	affouillements	N
+40l0l2	sondage	N
+40l0l3	de_forage	N
+
+#- de cultures (agricoles, potagères et de pâturage).
+
+
+#Ces restrictions devront être inscrites au registre des hypothèques dans un délai d'un an selon une procédure d'institution de servitudes laissé au choix de l'exploitant.
+
+42l0l0	au_registre_des_hypothèques	O
+42l0l1	dans_un_délai_d__un_an	T
+42l0l2	l__exploitant	O

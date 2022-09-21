@@ -1,0 +1,96 @@
+
+#76.0231
+#Ancien site industriel fabriquant des moyeux et des roues libres dont la dernière activité connue était la fabrication d'accessoires de cycles et la sous-traitance industrielle, actuellement en friche.
+
+0l0l0	Ancien_site_industriel	O
+0l0l1	fabriquant_des_moyeux	A
+0l0l2	la_dernière_activité	O
+0l0l3	la_fabrication_d__accessoires_de_cycles	A
+0l0l4	la_sous_traitance_industrielle	A
+
+#L'absence d'entretien et les intrusions extérieures contribuent à la dégradation du site.
+
+
+#Par ailleurs, au sud du site, l'espace libéré par l'évacuation des déchets de MARS INDUSTRIE a été en partie réinvesti par la société QUALIVERRE qui y a notamment entreposé plusieurs bennes contenant des déchets de verre.
+
+2l0l0	au_sud_du_site	L
+2l0l1	l__évacuation	N
+2l0l2	MARS_INDUSTRIE	O
+2l0l3	a_été_en_partie_réinvesti	N
+2l0l4	la_société_QUALIVERRE	O
+2l0l5	entreposé	N
+2l1l0	MARS_INDUSTRIE	I
+2l1l1	la_société_QUALIVERRE	I
+2l1l2	des_déchets_de_verre	U
+
+#Des bris de verre jonchent le sol sur une bonne partie de la cour n°1 alors que cette dernière avait été nettoyée après l'évacuation des déchets de MARS INDUSTRIE.
+
+3l0l0	Des_bris	O
+3l0l1	la_cour_n__1	O
+3l0l2	cette_dernière	O
+3l0l3	avait_été_nettoyée	N
+3l0l4	après	R
+3l0l5	l__évacuation	N
+3l0l6	MARS_INDUSTRIE	O
+3l1l0	MARS_INDUSTRIE	I
+
+#Le site peut cependant toujours être considéré comme ayant été mis en sécurité au sens de l'article R512-74-II du code de l'environnement.
+
+4l0l0	Le_site	O
+4l0l1	ayant_été_mis_en_sécurité	N
+
+#En effet, les opérations de mise en sécurité menées notamment en mai et en juin 2008 ne sont pas remises en cause pour autant.
+
+5l0l0	les_opérations_de_mise_en_sécurité_menées_notamment	N
+5l0l1	en_mai_et_en_juin_2008	T
+5l0l2	ne_sont_pas	R
+
+#Le site est situé à proximité de deux plans d'eau, d'une rivière La Bresle et d'un forage AEP.
+
+6l0l0	Le_site	O
+6l0l1	est_situé_à_proximité_de	L
+6l0l2	deux_plans_d__eau	O
+6l0l3	d__une_rivière_La_Bresle	L
+6l0l4	d__un_forage_AEP	L
+
+#Le s'étend sur une superficie de 26 443 m² dont environ 8 200m² de surfaces bâties et 12 000m² de surface imperméabilisée.
+
+7l0l0	imperméabilisée	O
+
+#Risques et nuisances :
+
+
+#Les sols sont l'objet d'une pollution relativement généralisée aux métaux, aux cyanures, aux hydrocarbures et aux COHV (trichloréthylène et chlorure de vinyle notamment).
+
+9l1l0	métaux	S
+9l1l1	cyanures	S
+9l1l2	hydrocarbures	S
+9l1l3	COHV	S
+9l1l4	trichloréthylène	S
+9l1l5	chlorure	S
+9l1l6	vinyle	S
+
+#Les eaux souterraines au droit du site sont impactées pour la plupart des paramètres considérés (nickel, cyanures, trichloréthylène et chlorure de vinyle notamment).
+
+10l0l0	Les_eaux	O
+10l0l1	au_droit_du_site	L
+10l0l2	sont_impactées	N
+10l1l0	nickel	S
+10l1l1	cyanures	S
+10l1l2	trichloréthylène	S
+10l1l3	chlorure_de_vinyle	S
+
+#La concentration en chlorure de vinyle dans l'air intérieur des bâtiments du site pourrait également poser problème
+
+11l1l0	chlorure_de_vinyle	S
+
+#Actions menées :
+
+
+#Le site a fait l'objet d'une mise en sécurité en 2008 et d'une surveillance limitée des eaux souterraines.
+
+13l0l0	Le_site	O
+13l0l1	a_fait_l__objet_d_	R
+13l0l2	une_mise_en_sécurité	N
+13l0l3	en_2008	T
+13l0l4	d__une_surveillance_limitée_des_eaux_souterraines	A

@@ -1,0 +1,215 @@
+
+#63.0033
+#La société SCOF s'installe en 1974 aux lieu dit "les Vergers" à Saint Rémy-sur-Durolle pour y fabriquer des couverts et ustensiles de table de luxe.
+
+0l0l0	La_société_SCOF	O
+0l0l1	s__installe	N
+0l0l2	en_1974	T
+0l0l3	aux_lieu_dit___les_Vergers__	L
+0l0l4	à_Saint_Rémy_sur_Durolle	L
+0l0l5	fabriquer_des_couverts_et_ustensiles_de_table	A
+0l0l6	de_luxe	O
+0l1l0	La_société_SCOF	I
+
+#Obtenus par emboutissage, découpage et estampage, ces produits subissent ensuite un traitement de surface (dépôt d'une pellicule d'argent) et un polissage.
+
+1l0l0	emboutissage	N
+1l0l1	estampage	A
+1l0l2	un_traitement_de_surface	O
+1l0l3	un_polissage	N
+
+#L'effectif atteint jusqu'à 110 personnes, recrutées localement.
+
+
+#Situé à 1 km du bourg sur un terrain de 6500 m2, ce site est entouré de champs et de bois.
+
+3l0l0	Situé_à_1_km_du_bourg_sur_un_terrain_de_6500_m2	L
+3l0l1	__ce_site	O
+3l0l2	est_entouré_de_champs_et_de_bois	L
+
+#Seules deux maisons d'habitation sont proches de l'entrée de l'usine.
+
+4l0l0	deux_maisons_d__habitation	O
+4l0l1	sont_proches_de_l__entrée_de_l__usine	L
+
+#L'entreprise est mise en redressement judiciaire en juin 2001.
+
+5l0l0	L_	O
+5l0l1	entreprise_est_mise_en_redressement_judiciaire	N
+5l0l2	en_juin_2001	T
+
+#Un repreneur conserve une soixantaine d'emplois puis la liquidation de l'entreprise est prononcée en mai 2003.
+
+6l0l0	Un_repreneur	O
+6l0l1	soixantaine_d__emplois_puis	O
+6l0l2	la_liquidation_de	N
+6l0l3	l__entreprise	O
+6l0l4	en_mai_2003__	T
+
+#L'entreprise SCOF attire l'attention de l'administration en raison de ses pratiques : les eaux issues des machines de lavage et les bains usés de la chaîne de traitement sont déversés dans le réseau communal, parfois directement dans les champs en contrebas.
+
+7l0l0	L__entreprise_SCOF	O
+7l0l1	les_eaux_issues_des_machines_de_lavage	O
+7l0l2	les_bains_usés	O
+7l0l3	traitement	O
+7l0l4	sont_déversés	N
+7l0l5	dans_le_réseau_communal	L
+7l0l6	directement_dans_les_champs_en_contrebas	L
+7l1l0	bains_usés	U
+
+#Les boues pâteuses de polissage sont stockées en remblai sur un terrain de l'entreprise.
+
+8l0l0	Les	O
+8l0l1	polissage	A
+8l0l2	sont_stockées	N
+8l0l3	remblai_sur	R
+8l0l4	un_terrain	O
+8l0l5	l__entreprise	O
+
+#A la suite d'un procès verbal dressé par la DRIRE en 1989, un arrêté préfectoral contraint l'exploitant à faire procéder à l'enlèvement des bains de la chaîne de traitement de surface et des boues d'émoutture.
+
+9l0l0	A_la	R
+9l0l1	la_DRIRE	O
+9l0l2	en_1989	T
+9l0l3	un_arrêté_préfectoral	O
+9l0l4	contraint	N
+9l0l5	l__exploitant	O
+9l0l6	l__enlèvement	N
+9l0l7	la_chaîne_de_traitement	O
+9l0l8	émoutture	O
+9l1l0	la_DRIRE	I
+
+#Deux arrêtés préfectoraux de mise en demeure du 31/12/2003 prescrivent à l'exploitant, représenté par son liquidateur, l'un l'enlèvement des déchets et l'autre une étude des sols et une évaluation simplifiée des risques.
+
+10l0l0	Deux_arrêtés_préfectoraux_de_mise_en_demeure	O
+10l0l1	du_31_12_2003	T
+10l0l2	prescrivent	N
+10l0l3	l__exploitant	O
+10l0l4	l__un_l_	O
+10l0l5	enlèvement_des_déchets	N
+10l0l6	une_étude_des_sols	N
+10l0l7	une	O
+10l0l8	évaluation_simplifiée_des_risques	N
+
+#Entre mars 2005 et juin 2006, un diagnostic des sols et des eaux souterraines ainsi qu'une évaluation simplifiée des risques sont réalisés.
+
+11l0l0	Entre_mars_2005_et_juin_2006__	T
+11l0l1	un_diagnostic	N
+11l0l2	des_eaux_souterraines	O
+11l0l3	une_évaluation_simplifiée_des_risques	N
+11l0l4	sont_réalisés	N
+
+#Un réseau de 3 piézomètres est implanté en novembre 2005.
+
+12l0l0	3_piézomètres	O
+12l0l1	est_implanté	N
+12l0l2	en_novembre_2005__	T
+
+#Les sondages dans les sols montrent la présence anormale de métaux (arsenic, chrome, cuivre et nickel).
+
+13l0l0	Les_sondages_dans_les_sols	N
+13l1l0	métaux	S
+13l1l1	arsenic	S
+13l1l2	chrome	S
+13l1l3	cuivre	S
+13l1l4	nickel	S
+
+#Les prélèvements dans les eaux souterraines montrent :
+
+
+#- au droit du site et en latéral : un impact du site lié à la présence d'arsenic (As) et nickel (Ni) ;
+
+15l0l0	au_droit_du_site	L
+15l0l1	un_impact	N
+15l0l2	d__arsenic	O
+15l1l0	arsenic	S
+15l1l1	As	S
+15l1l2	nickel	S
+15l1l3	Ni	S
+
+#- en aval du site et en latéral : la présence d'arsenic, chrome, plomb, nickel et hydrocarbures à l'état de traces.
+
+16l0l0	en_aval_du_site	L
+16l0l1	d__arsenic	O
+16l1l0	arsenic	S
+16l1l1	chrome	S
+16l1l2	plomb	S
+16l1l3	nickel	S
+16l1l4	hydrocarbures	S
+
+#Des travaux d'évacuation de déchets et d'excavation de boues et de terres polluées sont menés du 13 au 15 décembre 2006.
+
+17l0l0	Des_travaux_d__évacuation	N
+17l0l1	de_déchets	N
+17l0l2	d__excavation	N
+17l0l3	de_boues	N
+17l0l4	et_de_terres_polluées	O
+17l0l5	sont_menés	N
+17l0l6	du_13_au_15_décembre_2006__	T
+
+#Une caractérisation préalable des boues avant travaux avait montré qu'elles contenaient notamment 67 g/kg de chrome et 19 g/kg de nickel.
+
+18l0l0	Une_caractérisation_préalable	O
+18l0l1	boues	O
+18l0l2	avant_travaux	N
+18l1l0	chrome	S
+18l1l1	nickel	S
+
+#Le rapport de travaux de la société VEOLIA du 23/01/2007 indique que :
+
+19l0l0	Le_rapport_de_travaux_de_la_société_VEOLIA	O
+19l0l1	du_23_01_2007	T
+19l1l0	société_VEOLIA	I
+
+#- 2,22 tonnes de déchets banals sont évacués
+
+20l0l0	2_22_tonnes_de_déchets_banals	O
+20l0l1	sont_évacués	N
+
+#- 187,74 tonnes de boues et terres polluées sont excavées et évacuées vers un centre de traitement.
+
+21l0l0	187_74_tonnes_de_boues	O
+21l0l1	terres_polluées	O
+21l0l2	sont_excavées	N
+21l0l3	évacuées_vers	R
+21l0l4	un_centre_de_traitement	O
+
+#Après excavation des terres, 4 prélèvements en fond de fouille sont réalisés.
+
+22l0l0	Après_excavation	N
+22l0l1	des_terres	N
+22l0l2	fond_de_fouille_sont_réalisés	N
+
+#Les résultats moyens de teneurs en métaux sont : As = 130 mg/kg ; Cr = 710 mg/kg ; Ni = 180 mg/kg.
+
+23l1l0	métaux	S
+23l1l1	As	S
+23l1l2	Cr	S
+23l1l3	Ni	S
+
+#Ces valeurs sont supérieurs aux "valeurs de constat d'impact en usage sensible" mais inférieures pour un usage non sensible pour Cr et Ni et légèrement supérieurs à la "valeur de constat d'impact en usage sensible" pour As, conformément à la méthodologie applicable en 2005.
+
+24l0l0	2005__	T
+24l1l0	Cr	S
+24l1l1	Ni	S
+24l1l2	As	S
+
+#Les zones excavées sont comblées et recouvertes de 130 m3 de terre végétale les 22 et 23/01/2007.
+
+25l0l0	Les_zones_excavées	N
+25l0l1	sont_comblées	N
+25l0l2	terre_végétale	O
+25l0l3	les_22_et_23_01_2007__	T
+
+#Par courrier en date du 26 mars 2007, l'inspection des installations classées atteste de la réalisation des travaux de réhabilitation.
+
+26l0l0	en_date_du_26_mars_2007__	T
+26l0l1	l__inspection_des_installations_classées	O
+26l0l2	la_réalisation_des_travaux_de_réhabilitation	N
+
+#En l'absence d'une nappe d'eaux souterraines permanente et réellement constituée, le suivi de la qualité des eaux souterraines au droit du site initialement envisagé est abandonné.
+
+27l0l0	le_suivi_de_la_qualité_des_eaux_souterraines	A
+27l0l1	au_droit_du_site_initialement	L
+27l0l2	envisagé	O
+27l0l3	est_abandonné	N

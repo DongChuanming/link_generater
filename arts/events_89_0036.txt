@@ -1,0 +1,174 @@
+
+#89.0036
+#La zone étudiée est localisée au niveau de la station service du supermarché ATAC à Seignelay.
+
+0l0l0	La_zone_étudiée	O
+0l0l1	localisée_au_niveau_de_la_station	L
+0l0l2	supermarché_ATAC	O
+0l0l3	Seignelay	L
+
+#D'après la carte géologique de Saint-Florentin, le supermarché ATAC est implanté au sein des formations de l'Albien.
+
+1l0l0	le_supermarché_ATAC	O
+1l0l1	est_implanté	N
+1l0l2	au_sein_des_formations	L
+
+#Ces formations correspondent a une alternance sables/argiles d'une épaisseur moyenne d'une centaine de mètres.
+
+
+#Au droit de l'ouvrage étudié, le niveau d'eau est observé à une profondeur de 2,8 mètres. 2 puits de captages d'alimentation en eau potable sont exploités et gérés par la commune de Seignelay et environ 2000 personnes sont desservies par ces captages.
+
+3l0l0	Au_droit_de_l__ouvrage_étudié	L
+3l0l1	2_puits_de_captages	O
+3l0l2	eau_potable	O
+3l0l3	sont_exploités	N
+3l0l4	gérés_par	R
+3l0l5	la_commune_de_Seignelay	L
+3l0l6	desservies	O
+3l0l7	ces_captages	O
+
+#En 2010, Schiver Carburants envisage le démantèlement de l'ancienne station service ainsi que la neutralisation/excavation d'une cuve de carburant de 50 m3 tri-compartimentée.
+
+4l0l0	En_2010__	T
+4l0l1	Schiver_Carburants	O
+4l0l2	envisage	R
+4l0l3	le_démantèlement	N
+4l0l4	l__ancienne_station_service	O
+4l0l5	la_neutralisation___excavation	N
+4l0l6	une_cuve_de_carburant	O
+4l1l0	Schiver_Carburants	U
+4l1l1	cuve_de	D
+4l1l2	carburant	U
+
+#Dans cet optique, la société SCHIEVER fait réaliser une diagnostic initial des sols en juillet 2010.
+
+5l0l0	la_société_SCHIEVER	O
+5l0l1	fait_réaliser	N
+5l0l2	une_diagnostic_initial_des_sols	N
+5l0l3	en_juillet_2010__	T
+5l1l0	la_société_SCHIEVER	I
+
+#Les investigations comportaient 7 sondages de sols sur les différentes installations du site.
+
+6l0l0	Les_investigations_comportaient	N
+6l0l1	7_sondages_de_sols	O
+
+#Les résultats d'analyses ont mis en évidence les éléments suivants:
+
+
+#- une pollution en BTEX (benzène, toluène, éthylbenzène et xylènes) au droit de la cuve
+
+8l0l0	au_droit_de_la_cuve	L
+8l1l0	BTEX	S
+8l1l1	benzène	S
+8l1l2	toluène	S
+8l1l3	éthylbenzène	S
+8l1l4	xylènes	S
+8l1l5	cuve	D
+
+#- une pollution en hydrocarbures totaux au droit de 2 sondages
+
+9l1l0	hydrocarbures	S
+
+#- une possible pollution des eaux souterraines au regard de la voie de transfert des polluants des sols vers la nappe.
+
+
+#En décembre  2010, un diagnostic complémentaire des sols est réalisé afin de:
+
+11l0l0	En_décembre___2010	T
+11l0l1	__un_diagnostic_complémentaire_des_sols	N
+11l0l2	est_réalisé	N
+
+#- mettre en évidence l'existence ou l'absence d'impact de la station-service sur la qualité des eaux souterraines
+
+12l0l0	qualité_des_eaux_souterraines	O
+
+#- mettre en évidence l'existence ou l'absence de transfert de polluant
+
+13l1l0	polluant	U
+
+#- affiner les volumes de matériaux impactés par l'exploitation de la station-service
+
+14l0l0	affiner_les_volumes_de_matériaux_impactés	O
+14l1l0	service	I
+
+#- évaluer les risques sanitaires pour les occupants du site.
+
+
+#Les investigations de ce diagnostic complémentaire comprenaient:
+
+16l0l0	Les_investigations	N
+
+#- 8 sondages au carottier descendu à une profondeur de 4 mètres
+
+17l0l0	8_sondages	N
+17l0l1	carottier	O
+
+#- 3 piézomètres descendus à 6.2 mètres
+
+18l0l0	6_2	O
+
+#- Des prélèvements des sols et des eaux souterraines.
+
+
+#Les résultats d'analyses complémentaires ont mis en évidence les éléments suivants:
+
+
+#- une pollution en BTEX (benzène, toluène, éthylbenzène et xylènes) avérée dans les sols
+
+21l0l0	une_pollution	O
+21l0l1	sols	A
+21l1l0	BTEX	S
+21l1l1	benzène	S
+21l1l2	toluène	S
+21l1l3	éthylbenzène	S
+21l1l4	xylènes	S
+
+#- une pollution en hydrocarbures totaux avérée dans les sols
+
+22l1l0	hydrocarbures_totaux	S
+
+#- un impact sur la qualité des eaux souterraines avec une présence de BTEX et en hydrocarbures totaux.
+
+23l1l0	BTEX	S
+23l1l1	hydrocarbures_totaux	S
+
+#En février 2011, la remise d'une analyse des risques résiduels révèle des risques sanitaires significatifs pour l'inhalation de l'air extérieur.
+
+24l0l0	En_février_2011__	T
+24l0l1	la_remise	N
+24l0l2	l_	N
+24l0l3	inhalation_de_l__air_extérieur	L
+
+#Le 30 juin 2011 : Reçu pour information que l'activité exercée par la société SCHIEVER CARBURANTS sur ce site à cessé début juin 2009.
+
+25l0l0	Le_30_juin_2011	T
+25l0l1	l__activité_exercée	A
+25l0l2	SCHIEVER_CARBURANTS	O
+25l0l3	à_cessé	N
+25l0l4	début_juin_2009__	T
+25l1l0	société_SCHIEVER_CARBURANTS	I
+
+#Les travaux conseillés par le bureau d'études TAWS France, à savoir l'excavation des sols les plus impactés à proximité de la cuve enterrée de carburant, seront mis en œuvre sous trois mois.
+
+26l0l0	Les_travaux	N
+26l0l1	conseillés	O
+26l0l2	le_bureau_d__études_TAWS_France	O
+26l0l3	l__excavation	N
+26l0l4	des_sols	N
+26l0l5	les_plus_impactés	O
+26l0l6	à_proximité_de_la_cuve_enterrée	L
+26l0l7	de_carburant	O
+26l0l8	seront_mis_en_œuvre	N
+26l0l9	sous_trois_mois	T
+26l1l0	TAWS_France	I
+26l1l1	cuve_enterrée	D
+26l1l2	de_carburant	U
+
+#En avril 2012: aucune campagne de suivi de la qualité des eaux souterraines n'a été réalisée depuis février 2011.
+
+27l0l0	En_avril_2012	T
+27l0l1	campagne_de	O
+27l0l2	suivi_de_la_qualité_des_eaux_souterraines	A
+27l0l3	a_été_réalisée	N
+27l0l4	depuis_février_2011__	T

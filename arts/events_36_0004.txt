@@ -1,0 +1,135 @@
+
+#36.0004
+#La rivière la Céphons a reçu les rejets bruts, solides et liquides, des mégisseries de Levroux, quasiment dès sa source, jusqu'en 1989.
+
+0l0l0	La_rivière_la_Céphons	L
+0l0l1	a_reçu	N
+0l0l2	mégisseries	O
+0l0l3	de_Levroux	L
+0l0l4	jusqu__en_1989	T
+
+#Elle présente une tendance naturelle à l'envasement dû à son faible débit.
+
+
+#4 nappes sont présentes dans la région :
+
+2l0l0	4_nappes	O
+
+#- la nappe de la craie du Turonien, non naturellement protégée et donc vulnérable aux pollutions, alimente quelques puits dans les fermes et quelques sources,
+
+3l0l0	pollutions	A
+
+#- la nappe des calcaires jurassiques, utilisée à Levroux pour l'alimentation en eau potable (AEP), très vulnérable aux pollutions de par la nature karstique du réseau,
+
+4l0l0	utilisée	N
+4l0l1	à_Levroux	L
+4l0l2	l__alimentation_en_eau_potable	A
+
+#- la nappe des calcaires lacustres, fortement drainée par la rivière le Nahon,
+
+5l0l0	la_rivière_le_Nahon	L
+
+#- la nappe du Cénomanien-Albien, peu sensible à une pollution du fait de sa profondeur, utilisée pour des captages communaux destinés à l'alimentation en eau potable (AEP).
+
+6l0l0	utilisée_pour	R
+6l0l1	des_captages_communaux	O
+6l0l2	destinés_à	R
+6l0l3	l__alimentation_en_eau_potable	A
+
+#De part les rejets que la Céphons a historiquement reçus, les sédiments constituant son fond ont été soupçonnés d'avoir piégés des métaux, notamment du chrome.
+
+7l0l0	la_Céphons	O
+7l0l1	a_historiquement_reçus	N
+7l0l2	son_fond	O
+7l0l3	ont_été_soupçonnés	R
+7l1l0	métaux	S
+7l1l1	du_chrome	S
+
+#Dans la réflexion globale de restauration de cette rivière, une étude de réhabilitation et un diagnostic de qualité du milieu ont été menés et remis en octobre 1994.
+
+8l0l0	restauration	N
+8l0l1	une_étude_de_réhabilitation	N
+8l0l2	un_diagnostic	N
+8l0l3	de_qualité_du_milieu	N
+8l0l4	ont_été_menés	N
+8l0l5	remis	N
+8l0l6	en_octobre_1994	T
+
+#Des teneurs importantes en chrome et en manganèse ont été retrouvées dans l'eau.
+
+9l0l0	Des_teneurs	O
+9l0l1	ont_été_retrouvées	N
+9l1l0	chrome	S
+9l1l1	manganèse	S
+
+#Le manganèse est utilisé par la station  d'épuration de Levroux.
+
+10l0l0	la_station	O
+10l0l1	de_Levroux	L
+10l1l0	Le_manganèse	S
+
+#Le chrome, compte tenu de l'arrêt des mégisseries de Levroux et donc de l'absence de rejet amont, provenait d'un relargage des sédiments superficiels.
+
+11l0l0	mégisseries	A
+11l0l1	Levroux	L
+11l0l2	de_rejet_amont	L
+11l0l3	provenait_d_	R
+11l0l4	un_relargage_des_sédiments	N
+11l1l0	Le_chrome	S
+
+#Un carottage pour analyser un échantillon de sédiments profonds a mis en valeur qu'aucun métal, sauf fer et manganèse, ne s'y trouve à des teneurs élevées.
+
+12l0l0	Un_carottage	N
+12l0l1	sédiments_profonds	N
+12l1l0	fer	S
+12l1l1	manganèse	S
+
+#Les teneurs en fer ont une origine naturelle.
+
+13l1l0	fer	S
+
+#L'étude a conclut que les sédiments superficiels fortement contaminés par le chrome ne pouvaient rester en place car ils entrainaient une dégradation de la vie aquatique.
+
+14l1l0	le_chrome	S
+
+#Les analyses faites dans le cadre des études en 1994 et 2002 ont montré que les éléments chromés restaient fixés aux sédiments à l'état chrome 3 de manière stable, la quasi absence de chrome libre dans l'eau à l'état chrome 6 ne justifiait pas une surveillance continue.
+
+15l0l0	Les_analyses_faites_dans_le_cadre_des_études	N
+15l0l1	en_1994_et_2002	T
+15l1l0	éléments_chromés	S
+15l1l1	chrome	S
+15l1l2	chrome	S
+
+#Dans le cadre du projet de curage de la Céphons à la confluence avec la rivière le Nahon suite à un envasement important, le Syndicat Intercommunal d'Assainissement des Vallées du Nahon et de la Céphons (SIAVNC) a souhaité engager une étude des sédiments de ces deux rivières.
+
+16l0l0	Dans_le_cadre	R
+16l0l1	du_projet_de_curage	N
+16l0l2	la_Céphons	O
+16l0l3	à_la_confluence_avec_la_rivière_le_Nahon	L
+16l0l4	suite_à	R
+16l0l5	un_envasement_important	N
+16l0l6	le_Syndicat_Intercommunal_d__Assainissement	O
+16l0l7	Vallées_du_Nahon_et_de_la_Céphons	L
+16l0l8	a_souhaité_engager_une_étude_des_sédiments	N
+16l0l9	ces_deux_rivières	O
+16l1l0	le_Syndicat	I
+
+#Cette étude a été remise le 28 novembre 2002.
+
+17l0l0	Cette_étude_a_été_remise	N
+17l0l1	le_28_novembre_2002	T
+
+#Les résultats montrent que le volume de sédiments à extraire était de 25 000 tonnes de matière sèche contenant 18 tonnes de chrome (60 000 m3 de sédiments à extraire).
+
+18l1l0	chrome	S
+
+#Les sédiments ont été curés en 2005 et ont été stockés sur site sous un complexe imperméabilisant.
+
+19l0l0	Les_sédiments	O
+19l0l1	ont_été_curés	N
+19l0l2	en_2005	T
+19l0l3	ont_été_stockés	N
+19l0l4	un_complexe_imperméabilisant	N
+
+#Aucune autre action n'est envisagée sur ce site.
+

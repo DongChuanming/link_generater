@@ -1,0 +1,143 @@
+
+#06.0014
+#Ancienne usine à gaz de Canne Maria à Cannes (06)
+
+0l0l0	Ancienne_usine	O
+0l0l1	Canne_Maria	O
+0l0l2	à_Cannes___06__	L
+
+#Le site de Cannes Maria a accueilli une usine fabriquant du gaz à partir de la distillation de la houille.
+
+1l0l0	Le_site	O
+1l0l1	Cannes_Maria	O
+1l0l2	a_accueilli	N
+1l0l3	une_usine	O
+1l0l4	fabriquant_du_gaz	A
+1l0l5	à_partir_de	R
+1l0l6	la_distillation_de_la_houille	A
+
+#Actuellement, il est utilisé pour les besoins des entreprises EDF et/ou Gaz de France et un projet de valorisation est à l'étude par la ville de Cannes.
+
+2l0l0	il	O
+2l0l1	est_utilisé	N
+2l0l2	les_besoins	O
+2l0l3	Gaz_de_France	O
+2l0l4	un_projet_de_valorisation	N
+2l0l5	est_à_l__étude_par	R
+2l0l6	la_ville	O
+2l0l7	de_Cannes	L
+2l1l0	des_entreprises_EDF	I
+2l1l1	Gaz_de_France	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+3l0l0	Gaz_de_France	O
+3l0l1	a_hiérarchisé	N
+3l0l2	ses_actions	O
+3l0l3	467_sites	O
+3l1l0	Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement  (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site...).
+
+4l0l0	hiérarchiser	N
+4l0l1	les_sites	O
+4l0l2	en_fonction_de	R
+4l0l3	leur_sensibilité	O
+4l0l4	vis_à_vis_de	R
+4l0l5	l__environnement	O
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+5l0l0	L__application	N
+5l0l1	cette_méthode	O
+5l0l2	a_abouti_à	R
+5l0l3	l__établissement	N
+5l0l4	5_classes_de_priorité	O
+5l0l5	les_engagements	O
+5l0l6	Gaz_de_France	O
+5l0l7	ont_fait_l__objet_d_	R
+5l0l8	un_protocole_d__accord	O
+5l0l9	relatif_à	R
+5l0l10	la_maîtrise	O
+5l0l11	suivi	O
+5l0l12	la_réhabilitation	N
+5l0l13	anciens_terrains_d__usines_à_gaz	O
+5l0l14	entre	R
+5l0l15	le_Ministère_de_l__Environnement	O
+5l0l16	Gaz_de_France	O
+5l0l17	signé	N
+5l0l18	le_25_avril_1996	T
+5l1l0	Gaz_de_France	I
+5l1l1	le_Ministère_de_l__Environnement	I
+5l1l2	Gaz_de_France	I
+
+#Le site de Cannes Maria est en classe 4 du protocole.
+
+6l0l0	Le_site_de_Cannes_Maria	O
+
+#De ce fait, c'est un site dont la sensibilité vis à vis de l'homme, des eaux souterraines et superficielles est très faible.
+
+
+#onformément aux engagements pris dans le protocole, Gaz de France a réalisé une étude historique, ainsi qu'un diagnostic initial et approfondi à l'été 2004, après libération du site.
+
+8l0l0	engagements	O
+8l0l1	pris_dans	R
+8l0l2	le_protocole	O
+8l0l3	Gaz_de_France	O
+8l0l4	a_réalisé	N
+8l0l5	une_étude_historique	N
+8l0l6	qu__un_diagnostic_initial	N
+8l0l7	à_l__été_2004__	T
+8l0l8	après	R
+8l0l9	libération_du_site	N
+8l1l0	Gaz_de_France	I
+
+#Une cuve à goudron a été identifiée, elle a été vidangée et entièrement excavée en décembre 2005.
+
+9l0l0	Une_cuve_à_goudron	O
+9l0l1	a_été_identifiée	N
+9l0l2	elle	O
+9l0l3	a_été_vidangée_et	N
+9l0l4	entièrement_excavée	N
+9l0l5	en_décembre_2005__	T
+9l1l0	goudron	U
+
+#Le rapport de travaux a été envoyé à la DRIRE le 23/01/2006.
+
+10l0l0	Le_rapport_de_travaux	O
+10l0l1	a_été_envoyé	N
+10l0l2	la_DRIRE	O
+10l0l3	le_23_01_2006__	T
+10l1l0	la_DRIRE	I
+
+#Le projet de valorisation pour usage sensible est à l'étude, en concertation avec la ville de Cannes.
+
+11l0l0	Le_projet_de_valorisation	O
+11l0l1	est_à_l__étude	N
+11l0l2	avec_la	O
+11l0l3	ville_de_Cannes	L
+
+#Le diagnostic approfondi et le schéma de réhabilitation ont été présentés le 23/11/2004 à la DRIRE.
+
+12l0l0	Le_diagnostic_approfondi	N
+12l0l1	le_schéma_de_réhabilitation	O
+12l0l2	ont_été_présentés	N
+12l0l3	le_23_11_2004	T
+12l0l4	la_DRIRE	O
+12l1l0	la_DRIRE	I
+
+#Un projet d'aménagement dit ZAC Maria a été concrétisé en 2011, 270 logements vont ainsi être créés, 50 % seront vendus dans le privé, 20 % seront des logements sociaux.
+
+13l0l0	Un_projet_d__aménagement_dit_ZAC_Maria	O
+13l0l1	a_été_concrétisé	N
+13l0l2	en_2011__	T
+13l0l3	270_logements	O
+13l0l4	vont_ainsi_être_créés	N
+
+#Ce site n'appelle plus d'actions de la part de l'administration et va basculer dans BASIAS.
+
+14l0l0	Ce_site	O
+14l0l1	n__appelle_plus	N
+14l0l2	va_basculer	N
+14l0l3	dans	R
+14l0l4	BASIAS	O

@@ -1,0 +1,135 @@
+
+#67.0199
+#La société DOW AGROSCIENCES située à Drusenheim est une entreprise créant des produits agropharmaceutiques.
+
+0l0l0	La_société_DOW_AGROSCIENCES	O
+0l0l1	située_à	R
+0l0l2	Drusenheim	O
+0l0l3	entreprise	O
+0l0l4	créant_des_produits_agropharmaceutiques	A
+0l1l0	La_société_DOW_AGROSCIENCES	I
+
+#Elle est actuellement encadrée par l'arrêté préfectoral (AP) du 9 juillet 2012 l'autorisant à étendre ses installations de formulation de produits agropharmaceutiques.
+
+1l0l0	Elle	O
+1l0l1	est_actuellement_encadrée	N
+1l0l2	l__arrêté_préfectoral	O
+1l0l3	9_juillet_2012	T
+1l0l4	l__autorisant_à_étendre	N
+1l0l5	ses_installations_de_formulation_de_produits_agropharmaceutiques	O
+
+#La société est autorisé à exploiter ses activités sur le site de Drusenheim depuis l'AP du 11 août 1992.
+
+2l0l0	La_société	O
+2l0l1	est_autorisé_à_exploiter	N
+2l0l2	ses_activités	A
+2l0l3	sur_le_site_de_Drusenheim	L
+2l0l4	depuis	T
+2l0l5	l_	O
+2l0l6	11_août_1992__	T
+
+#Les activités de la société nécessitent : l'emploi, le stockage, la préparation de substances toxiques dangereuses mais aussi le dépôt et l'emploi de liquides inflammables, la présence d'installations de combustion, de refroidissement, etc.
+
+3l0l0	Les_activités	A
+3l0l1	la_société	O
+3l0l2	le_stockage___la_préparation_de_substances_toxiques_dangereuses	A
+3l0l3	le_dépôt_et_l__emploi_de_liquides_inflammables	N
+3l1l0	substances_toxiques_dangereuses	U
+3l1l1	liquides_inflammables	U
+
+#Certaines activités exploitées par la société présentent un risque important pour la protection de l'environnement en cas de disfonctionnement.
+
+4l0l0	Certaines_activités	O
+4l0l1	exploitées	N
+4l0l2	la_société	O
+4l0l3	présentent	R
+4l0l4	un_risque	O
+4l0l5	l__environnement	O
+
+#Aujourd'hui DOW AGROSCIENCES est toujours en activité et soumise au régime de l'autorisation.
+
+5l0l0	DOW_AGROSCIENCES	O
+5l0l1	est_toujours_en_activité	N
+5l0l2	soumise_au_régime_de	R
+5l0l3	l__autorisation	O
+5l1l0	DOW_AGROSCIENCES	I
+
+#La surveillance de la qualité des eaux souterraines sur le site de DOW AGROSCIENCES est assurée aujourd'hui par un réseau de surveillance composé de 5 piézomètres cernant l'amont et l'aval du site.
+
+6l0l0	La_surveillance_de_la_qualité_des_eaux_souterraines	A
+6l0l1	sur_le_site	L
+6l0l2	DOW_AGROSCIENCES	O
+6l0l3	surveillance	A
+6l0l4	composé_de	R
+6l0l5	5_piézomètres	O
+6l0l6	cernant_l__amont_et_l__aval_du_site	L
+6l1l0	DOW_AGROSCIENCES	I
+
+#Ce réseau de surveillance est régulièrement examiner par l'exploitant afin de s'assurer que les contrôles sont assez fréquents, que les paramètres à analyser sont pertinents, que la fréquence des analyses est suffisante etc.
+
+7l0l0	Ce_réseau_de_surveillance	O
+7l0l1	l__exploitant	O
+7l0l2	les_contrôles	N
+
+#L'arrêté préfectoral du 9 juillet 2012 encadre actuellement la société.
+
+8l0l0	L__arrêté_préfectoral_du	O
+8l0l1	9_juillet_2012	T
+8l0l2	encadre_actuellement	R
+8l0l3	la_société	O
+
+#Il prescrit une surveillance annuelle de la qualité des eaux souterraines sur le site de Drusenheim.
+
+9l0l0	Il	O
+9l0l1	prescrit	R
+9l0l2	une_surveillance_annuelle_de_la_qualité_des_eaux_souterraines	A
+9l0l3	Drusenheim	O
+
+#Les paramètres à analyser lors des contrôles au droit des 5 piézomètres sont : température, pH, potentiel redox, conductivité, AOX (Halogène organique adsordable), COT (Carbone Organique Total), BTEX (benzène, toluène, éthylbenzène, xylène totaux), Hydrocarbures dissous, clopyralid acide, MCPA, Fluroxypyr acide, fluroxypyr meptyl, Haloxyfop R méthyl, Glyphosate, NDPA, Trifluraline, quinoxyfen, AMPA, Pyroxulame, Oxyfluorfène.
+
+10l0l0	des_contrôles	N
+10l1l0	pH	S
+10l1l1	AOX___Halogène_organique_adsordable	S
+10l1l2	COT	S
+10l1l3	Carbone_Organique_Total	S
+10l1l4	BTEX	S
+10l1l5	benzène	S
+10l1l6	toluène	S
+10l1l7	éthylbenzène	S
+10l1l8	xylène_totaux	S
+10l1l9	Hydrocarbures_dissous	S
+10l1l10	clopyralid_acide	S
+10l1l11	MCPA	S
+10l1l12	Fluroxypyr_acide	S
+10l1l13	fluroxypyr_meptyl___Haloxyfop_R_méthyl	S
+10l1l14	Glyphosate	S
+10l1l15	NDPA	S
+10l1l16	Trifluraline	S
+10l1l17	quinoxyfen	S
+10l1l18	AMPA	S
+10l1l19	Pyroxulame	S
+10l1l20	Oxyfluorfène	S
+
+#Les analyses de la qualité des eaux souterraines réalisées en 2012 montrent :
+
+11l0l0	Les_analyses	N
+11l0l1	la_qualité_des_eaux_souterraines	O
+11l0l2	en_2012	T
+
+#Des concentrations en carbone organique et en AOX supérieures aux normes de potabilité en vigueur sur trois des ouvrages de contrôle.
+
+12l1l0	carbone_organique	S
+12l1l1	AOX	S
+
+#On remarque également un dépassement de la valeur limite pour le paramètre Xylène.
+
+13l1l0	paramètre_Xylène	S
+
+#Les autres paramètres ne présentent pas de concentrations supérieures aux normes de potabilité.
+
+
+#L'exploitant est tenu de poursuivre la surveillance des eaux souterraines sur son site.
+
+15l0l0	L__exploitant	O
+15l0l1	est_tenu	N
+15l0l2	de_poursuivre_la_surveillance_des_eaux_souterraines	A

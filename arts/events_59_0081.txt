@@ -1,0 +1,44 @@
+
+#59.0081
+#- Zone de stockage de produits pétroliers.
+
+0l1l0	produits_pétroliers	U
+
+#- Site d'incident sur le site de la raffinerie BP-ELF de Dunkerque.
+
+1l0l0	la_raffinerie_BP___ELF	O
+1l0l1	de_Dunkerque	L
+1l1l0	raffinerie_BP___ELF_de_Dunkerque	I
+
+#- 350 m² pollués par des produits pétroliers (résidus de distillation atmosphérique).
+
+2l0l0	m²_pollués	O
+2l1l0	produits_pétroliers	S
+
+#- Etude diagnostic réalisée sur tout le site de l'accident (20 sondages).
+
+3l0l0	__Etude_diagnostic	N
+
+#- Environ 390 t de terres et produits traités ou éliminés.
+
+
+#- Site à conserver en mémoire.
+
+
+#- Surveillance de la nappe effectuée dans le cadre de l'arrêté d'autorisation du site.
+
+6l0l0	la_nappe	O
+6l0l1	effectuée_dans_le_cadre_de	R
+6l0l2	l_	O
+
+#- Nappe utilisée à des fins uniquement industrielle dans le secteur.
+
+7l0l0	utilisée	N
+7l0l1	à_des_fins_uniquement_industrielle	A
+
+#-Site en sécurité vis à vis des tiers.
+
+
+#- suivi de l'administration toujours en cours.
+
+9l0l0	l__administration	O

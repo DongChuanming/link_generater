@@ -1,0 +1,162 @@
+
+#34.0030
+#Ce site a accueilli une activité de traitement de surface des métaux depuis 1970.
+
+0l0l0	Ce_site	O
+0l0l1	a_accueilli	N
+0l0l2	une_activité_de_traitement_de_surface_des_métaux	A
+0l0l3	depuis_1970	T
+
+#Situé en zone d'habitat dispersé, il comprenait un atelier de 4 lignes de traitement (Zinc, Aluminium, phosphatation et cuivre-nickel-chrome-étain) disposant d'un volume total de bains de 108 m3.
+
+1l0l0	Situé_en_zone_d__habitat_dispersé	L
+1l0l1	un_atelier	O
+1l0l2	4_lignes_de_traitement	O
+1l1l0	Zinc	S
+1l1l1	Aluminium	S
+1l1l2	cuivre___nickel___chrome___étain	S
+
+#L'activité a cessé en 2001 suite à la mise en liquidation judiciaire de la société SOTRAITAL, exploitant du site depuis 1994.
+
+2l0l0	L__activité	O
+2l0l1	a_cessé	N
+2l0l2	en_2001	T
+2l0l3	suite_à	R
+2l0l4	la_mise_en_liquidation_judiciaire	N
+2l0l5	la_société_SOTRAITAL	O
+2l0l6	exploitant_du_site	A
+2l0l7	depuis_1994	T
+2l1l0	la_société_SOTRAITAL	I
+
+#Les travaux de remise en état réalisés par l'exploitant se sont limités à l'évacuation de 2 lignes de traitement.
+
+3l0l0	Les_travaux_de_remise_en_état_réalisés	N
+3l0l1	l__exploitant	O
+3l0l2	se_sont_limités	N
+3l0l3	l__évacuation	N
+3l0l4	2_lignes_de_traitement	O
+
+#Il restait une quantité importante de produits dangereux notamment des produits arséniés et des déchets de production (boues, produits chimiques de traitement, bains usés de traitement etc...)sur le site jusqu'à l'intervention de l'ADEME faite à la demande de la DRIRE.
+
+4l0l0	Il_restait_une_quantité_importante_de_produits_dangereux	O
+4l0l1	produits_arséniés	O
+4l0l2	l__intervention	N
+4l0l3	l__ADEME	O
+4l0l4	la_demande	N
+4l0l5	de	R
+4l0l6	la_DRIRE	O
+4l1l0	produits_dangereux	U
+4l1l1	des_produits_arséniés	U
+4l1l2	produits_chimiques	U
+4l1l3	bains_usés	U
+4l1l4	la_DRIRE	I
+
+#Un bâtiment secondaire abritant la station d'épuration de l'établissement est restée en place depuis l'arrêt de l'activité.
+
+5l0l0	Un_bâtiment_secondaire	O
+5l0l1	la_station_d__épuration	O
+5l0l2	est_restée_en_place	N
+5l0l3	depuis	T
+5l0l4	l__arrêt	N
+5l0l5	l__activité	A
+
+#Les actions menées à l'encontre de l'exploitant, la société SOTRAITAL, (prescriptions, mises en demeure et consignation de sommes nécessaires à la réalisation des travaux) n'ont pas abouti suite à la liquidation de l'entreprise.
+
+6l0l0	Les_actions_menées_à_l__encontre	N
+6l0l1	l__exploitant	O
+6l0l2	la_société_SOTRAITAL	O
+6l0l3	consignation	N
+6l0l4	la_réalisation_des_travaux	N
+6l0l5	ont_pas_abouti_suite_à	R
+6l0l6	la_liquidation	N
+6l0l7	l__entreprise	O
+6l1l0	la_société_SOTRAITAL	I
+
+#Ces actions ont alors été menées à l'encontre du propriétaire, la SCI La Pascale, sans résultats car la SCI a également été mise en liquidation judiciaire.
+
+7l0l0	Ces_actions	O
+7l0l1	ont_alors_été_menées	N
+7l0l2	à_l__encontre	N
+7l0l3	du_propriétaire	O
+7l0l4	la_SCI_La_Pascale	O
+7l0l5	a_également_été_mise_en_liquidation_judiciaire	N
+7l1l0	la_SCI_La_Pascale	I
+
+#Le liquidateur judiciaire (des 2 sociétés précitées), Me PERNAUD, a informé la DRIRE qu'il ne disposerait pas de fonds disponibles pour mettre le site en sécurité: le site étant maintenant déclaré en zone inondable, aucun projet de reprise ne peut être envisagé.
+
+8l0l0	Le_liquidateur_judiciaire	O
+8l0l1	a_informé	N
+8l0l2	la_DRIRE	O
+8l0l3	le_site	O
+8l0l4	étant_maintenant_déclaré_en_zone_inondable	N
+8l1l0	Me_PERNAUD	I
+8l1l1	la_DRIRE	I
+
+#Suite à un état des lieux réalisé le 22 septembre 2004, l'inspection des installations classées a demandé au préfet d'engager la procédure prévue par la circulaire du 7 juin 1996 applicable aux sites pollués dont les responsables sont défaillants.
+
+9l0l0	un_état_des_lieux_réalisé	N
+9l0l1	le_22_septembre_2004__	T
+9l0l2	l__inspection_des_installations_classées	O
+9l0l3	a_demandé	N
+9l0l4	au_préfet	O
+9l0l5	d__engager	N
+9l0l6	la_procédure	O
+9l0l7	7_juin_1996	T
+9l0l8	sites_pollués	O
+
+#Cette procédure permet, après avoir obtenu l'accord du ministère de l'écologie, de faire intervenir l'ADEME pour faire éliminer les déchets dangereux recensés sur le site.
+
+10l0l0	l__accord	O
+10l0l1	ministère_de_l__écologie	O
+10l0l2	faire_intervenir	N
+10l0l3	l__ADEME	O
+10l0l4	faire_éliminer	N
+10l0l5	les_déchets_dangereux_recensés	O
+10l0l6	le_site	O
+10l1l0	les_déchets_dangereux	U
+
+#Monsieur le Préfet a alors saisi le MEDD par courrier du 17 décembre 2004 qui a donné son accord, par courrier du 7 avril 2005, pour charger l'ADEME de la réalisation des travaux de mise en sécurité du site.
+
+11l0l0	Monsieur_le_Préfet	O
+11l0l1	a_alors_saisi	N
+11l0l2	le_MEDD	O
+11l0l3	17_décembre_2004	T
+11l0l4	a_donné	N
+11l0l5	son_accord	O
+11l0l6	par_courrier_du_7_avril_2005__	T
+11l0l7	charger	N
+11l0l8	l__ADEME	O
+11l0l9	la_réalisation_des_travaux_de_mise_en_sécurité	N
+11l1l0	le_Préfet	I
+11l1l1	le_MEDD	I
+
+#L'arrêté préfectoral n° 2005-1-1725 du 13 juillet 2005 a fixé les modalités des travaux de regroupement et d'évacuation des déchets à effectuer sur le site.
+
+12l0l0	L__arrêté_préfectoral_n__2005___1___1725	O
+12l0l1	du_13_juillet_2005	T
+12l0l2	a_fixé	N
+12l0l3	les_modalités	O
+12l0l4	des_travaux_de_regroupement	N
+12l0l5	d__évacuation_des_déchets	N
+
+#Ces travaux ont eu lieu en septembre et octobre 2006 et ont été réalisées par l'entreprise SERPOL (69).
+
+13l0l0	Ces_travaux_ont_eu_lieu	N
+13l0l1	en_septembre_et_octobre_2006	T
+13l0l2	ont_été_réalisées	N
+13l0l3	par_l__entreprise_SERPOL___69__	O
+13l1l0	SERPOL	I
+
+#Un Secteur d'information sur les sols (SIS) a été acté par arrêté préfectoral du 9 août 2018 sur les terrains concernés par la pollution.
+
+14l0l0	a_été_acté	N
+14l0l1	par_arrêté_préfectoral	O
+14l0l2	9_août_2018	T
+14l0l3	les_terrains_concernés	O
+14l0l4	par_la_pollution	N
+
+#Tout projet d'aménagement devra faire appel à un bureau d'études certifié dans le domaine des sites et sols pollués pour garantir la compatibilité du projet avec l'état du sol.
+
+15l0l0	Tout_projet_d_	N
+15l0l1	un_bureau_d__études	O
+15l0l2	sols_pollués	O

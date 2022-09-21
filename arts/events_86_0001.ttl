@@ -1,0 +1,155 @@
+@prefix : <http://example.com/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:event_components a owl:Class.
+:labels a owl:Class.
+:when a owl:ObjectProperty .
+:status a owl:ObjectProperty .
+:locate a owl:ObjectProperty .
+:parallel a owl:ObjectProperty .
+:unknown a owl:ObjectProperty .
+:agent a owl:ObjectProperty .
+:pagent a owl:ObjectProperty .
+:target a owl:ObjectProperty .
+:indirect_target a owl:ObjectProperty .
+:ptarget a owl:ObjectProperty .
+:complement a owl:ObjectProperty .
+:passive_target a owl:ObjectProperty .
+:passive_agent a owl:ObjectProperty .
+:precise a owl:ObjectProperty .
+:pprecise a owl:ObjectProperty .
+:pollutant a owl:ObjectProperty .
+:event owl:subClassOf owl:Class.
+:N a :labels.
+:event rdfs:label :N.
+:object owl:subClassOf owl:Class.
+:O a :labels.
+:object rdfs:label :O.
+:time owl:subClassOf owl:Class.
+:T a :labels.
+:time rdfs:label :T.
+:location owl:subClassOf owl:Class.
+:L a :labels.
+:location rdfs:label :L.
+:industrial_activity owl:subClassOf owl:Class.
+:A a :labels.
+:industrial_activity rdfs:label :A.
+:relation owl:subClassOf owl:Class.
+:R a :labels.
+:relation rdfs:label :R.
+:institution owl:subClassOf owl:Class.
+:I a :labels.
+:institution rdfs:label :I.
+:pollutant_container owl:subClassOf owl:Class.
+:D a :labels.
+:pollutant_container rdfs:label :D.
+:pollutant owl:subClassOf owl:Class.
+:U a :labels.
+:pollutant rdfs:label :U.
+:chemical owl:subClassOf owl:Class.
+:S a :labels.
+:chemical rdfs:label :S.
+:décharge owl:subClassOf :event.
+:0l0l0 a :décharge.
+:0l0l1 a :object.
+:cours owl:subClassOf :event.
+:0l0l2 a :cours.
+:0l0l3 a :object.
+:novembre owl:subClassOf :event.
+:0l0l4 a :novembre.
+:0l0l1 ::target :0l0l0.
+:0l0l1 :target :0l0l0.
+:0l0l2 :complement :0l0l0.
+:0l0l3 :unknown :0l0l4.
+:arrêté owl:subClassOf :event.
+:1l0l0 a :arrêté.
+:1l0l1 a :object.
+:2l0l0 a :object.
+:actuellement owl:subClassOf :event.
+:2l0l1 a :actuellement.
+:2l0l2 a :industrial_activity.
+:projet owl:subClassOf :event.
+:3l0l0 a :projet.
+:3l0l1 a :time.
+:3l0l0 :when :3l0l1.
+:3l0l0 :when :3l0l1.
+:4l0l0 a :décharge.
+:4l0l1 a :object.
+:4l0l2 a :time.
+:4l0l1 :complement :4l0l0.
+:5l0l0 a :object.
+:5l0l1 a :relation.
+:origine owl:subClassOf :event.
+:5l0l2 a :origine.
+:5l1l0 a :pollutant_container.
+:5l0l0 :overlap :5l1l0.
+:5l1l0 :unknown :5l0l1.
+:5l0l0 ::target :5l0l2.
+:6l0l0 a :time.
+:continue owl:subClassOf :event.
+:6l0l1 a :continue.
+:6l0l2 a :object.
+:condition owl:subClassOf :event.
+:6l0l3 a :condition.
+:6l0l4 a :relation.
+:_ owl:subClassOf :event.
+:6l0l5 a :_.
+:6l0l1 :when :6l0l0.
+:6l0l2 :unknown :6l0l3.
+:6l0l3 :unknown :6l0l1.
+:6l0l5 :unknown :6l0l1.
+:7l0l0 a :object.
+:8l0l0 a :industrial_activity.
+:accidentel owl:subClassOf :event.
+:8l0l1 a :accidentel.
+:8l0l2 a :relation.
+:observer owl:subClassOf :event.
+:8l0l3 a :observer.
+:8l0l2 :unknown :8l0l0.
+:10l0l0 a :relation.
+:étude owl:subClassOf :event.
+:10l0l1 a :étude.
+:11l0l0 a :time.
+:11l0l1 a :étude.
+:11l0l2 a :relation.
+:traiter owl:subClassOf :event.
+:11l0l3 a :traiter.
+:atténuation owl:subClassOf :event.
+:11l0l4 a :atténuation.
+:11l0l1 :when :11l0l0.
+:11l0l2 :when :11l0l0.
+:11l0l1 :when :11l0l0.
+:12l0l0 a :object.
+:avérer owl:subClassOf :event.
+:13l0l0 a :avérer.
+:14l0l0 a :object.
+:14l0l1 a :industrial_activity.
+:14l0l2 a :industrial_activity.
+:15l0l0 a :object.
+:15l0l1 a :time.
+:15l0l2 a :object.
+:16l0l0 a :object.
+:octobre owl:subClassOf :event.
+:16l0l1 a :octobre.
+:16l0l2 a :time.
+:servitude owl:subClassOf :event.
+:16l0l3 a :servitude.
+:16l1l0 a :institution.
+:16l0l0 :contain :16l1l0.
+:16l0l1 :complement :16l0l0.
+:16l0l1 :when :16l0l2.
+:16l0l3 :when :16l0l2.
+:16l0l3 :when :16l0l2.
+:17l0l0 a :time.
+:17l0l1 a :object.
+:cm owl:subClassOf :event.
+:17l0l2 a :cm.
+:mettre owl:subClassOf :event.
+:17l0l3 a :mettre.
+:17l0l4 a :industrial_activity.
+:17l0l1 :unknown :17l0l3.
+:17l0l2 :complement :17l0l1.
+:17l0l2 :unknown :17l0l3.
+:17l0l3 :complement :17l0l2.

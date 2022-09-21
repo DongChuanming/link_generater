@@ -1,0 +1,228 @@
+
+#31.0083
+#Le site est une station-service automatique en activité.
+
+0l0l0	Le_site	O
+
+#Les installations exploitées sont soumises à déclaration avec contrôle périodique.
+
+1l0l0	soumises_à_déclaration	N
+
+#Le dernier récépissé délivré le 27 juillet 2015 a acté le changement d'exploitant de la société ESSO SAF au bénéfice de la société CERTAS ENERGY FRANCE.
+
+2l0l0	Le_dernier_récépissé	O
+2l0l1	délivré	N
+2l0l2	le_27_juillet_2015	T
+2l0l3	a_acté_le_changement	N
+2l0l4	d__exploitant	O
+2l0l5	la_société_ESSO_SAF	O
+2l0l6	au_bénéfice_de	R
+2l0l7	la_société_CERTAS_ENERGY_FRANCE	O
+2l1l0	la_société_ESSO_SAF	I
+2l1l1	la_société_CERTAS_ENERGY_FRANCE	I
+
+#La station-service est en périphérie de la ville de Portet, elle se situe dans une zone commerciale et d'habitations individuelles.
+
+3l0l0	La_station___service	O
+3l0l1	est_en_périphérie_de_la_ville_de_Portet	L
+3l0l2	se_situe_dans_une_zone_commerciale	L
+
+#A l'est du site, se situent le ruisseau de la Saudrune à 400m et la Garonne à 1km.
+
+4l0l0	A_l__est_du_site	L
+4l0l1	se_situent_le_ruisseau_de_la_Saudrune	L
+4l0l2	à_400_m_et_la_Garonne	L
+
+#Deux puits privés à 60 et 270m en aval du site sont considérés comme vulnérables.
+
+5l0l0	Deux_puits_privés	O
+5l0l1	à_60_et_270_m_en_aval_du_site	L
+
+#Des captages AEP et à usage agricole sont relevés mais considérés comme non vulnérables.
+
+6l0l0	Des_captages	O
+6l0l1	AEP_et_à_usage_agricole	O
+6l0l2	sont_relevés	N
+
+#En février et mai 2012,  un diagnostic environnemental a été réalisé, en prévision d'un changement de propriétaire du site, afin de déterminer un éventuel impact des installations.
+
+7l0l0	En_février_et_mai_2012__	T
+7l0l1	__un_diagnostic_environnemental	N
+7l0l2	a_été_réalisé	N
+7l0l3	__en_prévision_d_	R
+7l0l4	un_changement_de_propriétaire	N
+7l0l5	du_site	O
+7l0l6	de_déterminer	R
+7l0l7	un_éventuel_impact	O
+
+#Le site disposait de 4 piézomètres et d’un piézair.
+
+8l0l0	Le_site	O
+8l0l1	disposait	N
+
+#Ce diagnostic a mis en évidence :
+
+
+#- concernant les sols :
+
+
+#La présence d’un impact ponctuel dans les sols à proximité d'une ancienne cuve dans la zone de battement de nappe d’eau souterraine, matérialisé par la présence de BTEX (20 mg/kg) et d’hydrocarbures volatils C6-C10 (59 mg/kg).
+
+11l0l0	La_présence_d__un_impact_ponctuel	N
+11l0l1	les_sols	O
+11l0l2	à_proximité_d__une_ancienne_cuve_dans_la_zone_de	L
+11l0l3	battement_de_nappe	N
+11l1l0	BTEX	S
+11l1l1	d__hydrocarbures_volatils	S
+11l1l2	C6_C10	S
+
+#- concernant les eaux souterraines :
+
+
+#La présence d’un impact de type essence au droit des piézomètres PZ2, PZ3 et PZ4 en BTEX(64 400 µg/l), hydrocarbures C10-C40 (1800 µg/l) et C6-C10 (240 000 µg/l), en MTBE (3 200 µg/l) et en ETBE (190 000 µg/l).
+
+13l1l0	BTEX_64	S
+13l1l1	hydrocarbures_C10_C40	S
+13l1l2	MTBE	S
+13l1l3	ETBE	S
+
+#- concernant les gaz de sol :
+
+14l1l0	gaz_de_sol	U
+
+#La présence d’hydrocarbures volatils C5-C12 (3 757 mg/m3), de BTEX (15,92 mg/m3) et d’huiles minérales C5-C16 (8 816 mg/m3) à proximité de la boutique.
+
+15l0l0	à_proximité_de_la_boutique	L
+15l1l0	hydrocarbures_volatils	S
+15l1l1	BTEX	S
+15l1l2	huiles_minérales	U
+15l1l3	C5_C16	S
+
+#Des tests d’épreuve des cuves et canalisations, réalisés en juillet 2012, ont révélé des anomalies sur les canalisations de remplissage d’essence SP 95-E10 et sur les canalisations d’aspiration d’essence SP 98.
+
+16l0l0	Des_tests_d__épreuve	N
+16l0l1	cuves_et_canalisations	O
+16l0l2	en_juillet_2012__	T
+16l0l3	ont_révélé	R
+16l0l4	des_anomalies	O
+16l0l5	les_canalisations_de_remplissage_d__essence_SP_95_E10	O
+16l0l6	aspiration_d__essence_SP	A
+16l1l0	essence_SP_95_E10	U
+16l1l1	essence_SP_98	S
+
+#Les canalisations en cause ont été remplacées.
+
+17l0l0	Les_canalisations_en_cause	O
+17l0l1	ont_été_remplacées	N
+
+#3 piézairs complémentaires ont été mis en place au droit du site ainsi que 4 piézomètres.
+
+18l0l0	3_piézairs_complémentaires	O
+18l0l1	ont_été_mis_en_place	N
+18l0l2	au_droit_du_site	L
+
+#En 2013, le site a donc disposé de 8 piézomètres et de 4 piézairs.
+
+19l0l0	En_2013__	T
+19l0l1	le_site	O
+
+#Une analyse des eaux souterraines a été réalisée en mai 2015 afin d’établir un « état zéro » de la qualité des eaux souterraines avant la mise en œuvre d'un procédé par biostimulation aérobie in-situ par injection de péroxyde de calcium (installation de 3 puits d’injection et de 2 piézomètres en aval des puits d’injection).
+
+20l0l0	Une_analyse	N
+20l0l1	eaux_souterraines	O
+20l0l2	a_été_réalisée	N
+20l0l3	en_mai_2015	T
+20l0l4	afin_d__établir	N
+20l0l5	un_____état_zéro	N
+20l0l6	de_la_qualité_des_eaux_souterraines	O
+20l0l7	avant	R
+20l0l8	la_mise_en_œuvre	N
+20l0l9	d__un_procédé	N
+20l0l10	biostimulation	A
+20l0l11	calcium___installation	N
+20l0l12	de_3_puits_d__injection	O
+20l0l13	piézomètres_en_aval_des_puits_d__injection	L
+20l1l0	de_péroxyde_de_calcium	S
+
+#Il a été constaté dans les eaux souterraines les teneurs maximales suivantes en  :
+
+
+#- BTEX de 25 070 μg/L (dont 1 330 en Benzène) en Pz5 ;
+
+22l1l0	BTEX	S
+22l1l1	Benzène	S
+
+#- hydrocarbures C5-C10 de 12 500 μg/L en Pz5 ;
+
+23l1l0	hydrocarbures_C5_C10	S
+23l1l1	Pz5	S
+
+#- MTBE de 625 μg/L en Pi 12 (puits injection 12) ;
+
+24l1l0	MTBE	S
+
+#- ETBE  de 27 300 μg/L en Pi 12.
+
+25l1l0	ETBE	S
+
+#Dans son rapport du 10 août 2015, l'inspection des installations classées a demandé à la société CERTAS ENERGY FRANCE, repreneur de l'exploitation de la station-service, à ce qu'elle s'engage à poursuivre le suivi du traitement par biostimulation à minima pendant 1 an ainsi que le suivi de la qualité des eaux souterraines et des gaz du sol et le pompage du flottant, pour réduire significativement les teneurs résiduelles.
+
+26l0l0	10_août_2015__	T
+26l0l1	l__inspection_des_installations_classées	O
+26l0l2	la_société_CERTAS_ENERGY_FRANCE	O
+26l0l3	la_station___service	O
+26l0l4	suivi_du_traitement_par_biostimulation	A
+26l0l5	pendant_1_an	T
+26l0l6	le_suivi_de_la_qualité_des_eaux_souterraines	A
+26l0l7	le_pompage_du_flottant	N
+26l1l0	la_société_CERTAS_ENERGY_FRANCE	I
+
+#Le suivi de la qualité des eaux souterraines et des gaz de sol est maintenu à une fréquence trimestrielle.
+
+27l0l0	Le_suivi	A
+27l0l1	la_qualité_des_eaux_souterraines	O
+
+#Les résultats des dernières analyses effectuées ont montré :
+
+
+#- pour les eaux souterraines : des ouvrages impactés en BTEX et hydrocarbures volatils notamment PZ4 et PZ5 implantés au plus près de la zone résiduelle source (en juillet 2018, teneurs maximales en BTEX de 19 910 µg/l et hydrocarbures C6-C10 de 26 000 µg/l) et dans une moindre mesure les ouvrages localisés en aval hydraulique du site (BTEX : 696 µg/l, hydrocarbures 1 400 µg/l).
+
+29l0l0	__des_ouvrages_impactés	N
+29l0l1	PZ5_implantés	T
+29l0l2	au_plus_près_de_la_zone	L
+29l0l3	__en_juillet_2018	T
+29l0l4	ouvrages_localisés_en_aval_hydraulique_du_site	L
+29l1l0	en_BTEX_et_hydrocarbures_volatils_notamment_PZ4	S
+29l1l1	en_BTEX	S
+29l1l2	et_hydrocarbures_C6_C10	S
+29l1l3	site___BTEX	S
+29l1l4	__l___hydrocarbures	S
+
+#En amont et en position latérale hydraulique du site les concentrations sont à l’état de traces.
+
+30l0l0	En_amont	L
+30l0l1	en_position_latérale_hydraulique_du_site	L
+30l0l2	les_concentrations	N
+
+#- pour les gaz du sol : une dégradation récente des milieux dans les piézairs localisés au droit de la station service (pour l’éthylbenzène, le toluène et les xylènes totaux).
+
+31l0l0	__une_dégradation_récente_des_milieux	N
+31l0l1	piézairs	O
+31l0l2	localisés_au_droit_de_la_station_service	L
+31l1l0	pour_l__éthylbenzène___le_toluène_et_les_xylènes_totaux	S
+
+#Aussi, l’exploitant a fait procéder à une mise à jour de l’interprétation de l’état des milieux pour vérifier la compatibilité de l’usage commercial voisin immédiat du site et de l’usage résidentiel, voisin plus éloigné du site (50 m de distance).
+
+32l0l0	l__exploitant	O
+32l0l1	a_fait_procéder	N
+32l0l2	à	R
+32l0l3	une_mise_à_jour	N
+32l0l4	l__interprétation_de_l__état_des_milieux	O
+32l0l5	l__usage_commercial_voisin_immédiat_du_site	O
+32l0l6	l_	O
+32l0l7	usage_résidentiel	A
+32l0l8	voisin_plus_éloigné_du_site___50_m_de_distance	L
+
+#Les concentrations estimées dans l’air intérieur des bâtiments respectent les valeurs réglementaires et les valeurs guides applicables au niveau national pour un usage résidentiel et donc commercial.
+
+33l0l0	un_usage_résidentiel	A

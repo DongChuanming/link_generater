@@ -1,0 +1,105 @@
+
+#74.0111
+#Le pipeline Méditerranée-Rhône est utilisé pour le transport d'hydrocarbures liquides depuis les installations de raffinage de l'étang de Berre et de Feysin et les installations portuaires de Lavéra et de Fos-sur-Mer jusqu'aux dépôts d'hydrocarbures de la vallée du Rhône, de la région Rhône-Alpes et de Genève.
+
+0l0l0	Le_pipeline	O
+0l0l1	Méditerranée___Rhône	A
+0l0l2	le_transport_d__hydrocarbures_liquides	A
+0l0l3	depuis_les_installations_de_raffinage_de_l__étang_de_Berre_et_de_Feysin_et_les_installations_portuaires_de_Lavéra	L
+0l0l4	Fos_sur_Mer	L
+0l0l5	dépôts_d__hydrocarbures	O
+0l0l6	de_la_vallée_du_Rhône___de_la_région	L
+0l0l7	Rhône___Alpes_et_de_Genève	A
+0l1l0	Rhône	S
+0l1l1	hydrocarbures	S
+0l1l2	Fos_sur_Mer	I
+0l1l3	hydrocarbures	S
+0l1l4	la_région_Rhône___Alpes	I
+
+#L'installation de Saint-Julien-en-Genvois relie Villette de Vienne à Vernier en Suisse.
+
+1l0l0	L__installation	N
+1l0l1	Saint_Julien_en_Genvois_relie_Villette_de_Vienne_à_Vernier_en_Suisse	L
+
+#Le site comporte notamment trois réservoirs de stockage de 1020 m3.
+
+2l0l0	Le_site	O
+2l0l1	comporte	R
+
+#SPMR bénéficie d'un arrêté préfectoral d'autorisation du 31 mars 1980 pour l'exploitation de ce dépôt d'hydrocarbures.
+
+3l0l0	SPMR	O
+3l0l1	bénéficie_d_	R
+3l0l2	un_arrêté_préfectoral_d__autorisation	O
+3l0l3	du_31_mars_1980	T
+3l0l4	l__exploitation	N
+3l0l5	ce_dépôt_d__hydrocarbures	O
+3l1l0	SPMR	I
+3l1l1	dépôt	D
+3l1l2	d__hydrocarbures	S
+
+#L'exploitant a déclaré la cessation définitive de ses activités classées au titre des installations classées pour la protection de l'environnement à compter du 1er septembre 2012.
+
+4l0l0	L__exploitant	O
+4l0l1	a_déclaré_la_cessation_définitive	N
+4l0l2	de_ses_activités_classées	O
+4l0l3	au_titre	R
+4l0l4	des_installations_classées_pour_la_protection_de_l__environnement	O
+4l0l5	à_compter_du_1er_septembre_2012__	T
+
+#Le site est contigü au dépôt d'hydrocarbures de Total de Saint-Julien-en Genevois, en cours de cessation d'activité également.
+
+5l0l0	Le_site	O
+5l0l1	est_contigü_au_dépôt_d__hydrocarbures	O
+5l0l2	Total	O
+5l0l3	de_Saint_Julien_en_Genevois	L
+5l0l4	en_cours	T
+5l0l5	de_cessation_d__activité	N
+5l1l0	hydrocarbures	S
+5l1l1	Total	I
+
+#Les installations de stockages ont été vidangées, dégazées, inertées et nettoyées et les produits résiduels éliminés.
+
+6l0l0	Les_installations_de_stockages	O
+6l0l1	ont_été_vidangées	N
+6l0l2	dégazées	N
+6l0l3	inertées_et_nettoyées	N
+6l0l4	résiduels_éliminés	N
+6l1l0	inertées	D
+6l1l1	les_produits_résiduels	U
+
+#Des investigations des sols et des eaux souterraines ont été menées au droit du site en mai 2012.
+
+7l0l0	Des_investigations	N
+7l0l1	ont_été_menées	N
+7l0l2	au_droit_du_site	L
+7l0l3	en_mai_2012__	T
+
+#De ces investigations, il ressort :
+
+
+#- l'absence d'impact par des BTEX et HAP sur l'ensemble des sondages,
+
+9l1l0	BTEX_et_HAP	S
+
+#- un impact localisé en hydrocarbures (1000 mg/kg) le long des canalisations enterrées dans l'enceinte de la rétention du dépôt,
+
+10l0l0	un_impact_localisé	N
+10l0l1	long_des_canalisations_enterrées_dans_l__enceinte_de_la_rétention	N
+10l1l0	hydrocarbures	S
+
+#- un léger impact à proximité des anciennes installations et du manifold principalement en profondeur (464 mg/kg),
+
+11l0l0	impact	O
+11l0l1	à_proximité_des_anciennes_installations	L
+
+#- l'absence d'impact sur les eaux souterraines (toutes les analyses sont bien inférieures à la valeur limite pour les eaux brutes destinées à la production d'eau potable).
+
+
+#Les terres polluées feront l'objet d'une excavation et d'une élimination en centre de traitement.
+
+13l0l0	Les_terres_polluées	O
+13l0l1	feront_l__objet_d_	R
+13l0l2	une_excavation	N
+13l0l3	d__une_élimination	N
+13l0l4	centre_de_traitement	N

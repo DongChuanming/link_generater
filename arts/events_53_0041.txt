@@ -1,0 +1,377 @@
+
+#53.0041
+#Le lycée général et technologique Douanier Rousseau est située de part et d’autre du boulevard Félix Grat au croisement avec la rue de Paris à Laval (en Mayenne - 53).
+
+0l0l0	Le_lycée_général_et_technologique_Douanier_Rousseau	O
+0l0l1	est_située	N
+0l0l2	boulevard_Félix_Grat	L
+0l0l3	au_croisement_avec	R
+0l0l4	la_rue_de_Paris	L
+0l0l5	à_Laval___en_Mayenne___53	L
+
+#L’entrée principale du lycée est située au 7, rue des Archives, au sud de la Gare SNCF et l’est du centre-ville.
+
+1l0l0	L_	O
+1l0l1	située_au_7___rue_des_Archives___au_sud_de_la_Gare_SNCF_et_l__est_du_centre___ville	L
+
+#En 2010, ce lycée s’étend sur une surface d’environ 24 180 m² qui comprend neuf bâtiments sur un à quatre niveaux :
+
+2l0l0	En_2010__	T
+2l0l1	ce_lycée	O
+2l0l2	neuf_bâtiments	O
+
+#- trois bâtiments, construits sur vide sanitaire accueillant des salles de classe et/ou des logements de fonction ;
+
+3l0l0	trois_bâtiments	O
+3l0l1	construits	N
+3l0l2	sur_vide_sanitaire	L
+
+#- un bâtiment construit sur un sous-sol, comportant un logement de fonction au 1er étage ;
+
+4l0l0	un_bâtiment	O
+4l0l1	construit_sur_un_sous_sol	N
+4l0l2	un_logement_de_fonction	O
+
+#- trois bâtiments construits sur un sous-sol semi enterré, accueillant respectivement des logements de fonction ; l’internat et des salles de classes en sous-sol ; le théâtre et l’atelier de maintenance ;
+
+5l0l0	trois_bâtiments	O
+5l0l1	construits_sur	N
+5l0l2	un_sous_sol	O
+5l0l3	l__atelier_de_maintenance	O
+
+#- deux bâtiments construits de plain-pied, accueillant respectivement un logement de fonction et une salle d’activité sportive ;
+
+6l0l0	deux_bâtiments	O
+6l0l1	construits_de_plain	N
+
+#- des espaces extérieurs constitués :
+
+
+#o d’une cour constituée d’enrobé en bon état et de sols végétalisés ;
+
+
+#o d’une cour de récréation ouest constituée d’enrobé en bon état et de sols végétalisés.
+
+9l0l0	une_cour_de_récréation_ouest	O
+
+#Ce lycée a fait l'objet d'investigations environnementales au titre de l'action "Établissements sensibles."
+
+10l0l0	Ce_lycée	O
+10l0l1	a_fait_l__objet	R
+10l0l2	d_	L
+10l0l3	investigations_environnementales	N
+
+#A l’issue de la phase 1 :
+
+
+#Les scénarios d’exposition potentielle suivants avaient été retenus :
+
+
+#• Ingestion de sols superficiels par les enfants des logements de fonction ;
+
+13l0l0	Ingestion_de_sols_superficiels	N
+
+#• Ingestion d’eau du robinet ;
+
+
+#• Inhalation d’air à l’intérieur des bâtiments.
+
+
+#A l’issue de la phase 2 :
+
+
+#Les investigations de phase 2 ont montré :
+
+17l0l0	Les_investigations	N
+
+#• que la qualité des sols superficiels ne pose pas de problème ;
+
+
+#• que l’eau du robinet respecte les critères de potabilité ;
+
+
+#• la présence de composés volatils dans l’air sous dalle, l’air du sous-sol et les gaz du sol.
+
+20l1l0	composés	U
+
+#A l’issue de la phase 3 :
+
+21l0l0	la_phase_3	O
+
+#AIR INTERIEUR
+
+
+#Du benzène a été détecté mais les concentrations sont de l’ordre de grandeur de celles rencontrées dans 90% des logements français.
+
+23l0l0	les_concentrations	O
+23l1l0	Du_benzène	S
+
+#Du trichloroéthylène (TCE) a été quantifié au rez-de-chaussée et à l’étage de la partie est du bâtiment B.
+
+24l0l0	a_été_quantifié	N
+24l0l1	la_partie_est_du_bâtiment_B_	L
+24l1l0	Du_trichloroéthylène	S
+24l1l1	TCE	S
+
+#Les concentrations en TCE quantifiées dans la partie est du bâtiment B sont supérieures à la valeur repère de 2 μg/m3 du HCSP.
+
+25l0l0	TCE_quantifiées	N
+25l0l1	dans_la_partie_est_du_bâtiment_B	L
+25l1l0	TCE	S
+
+#Le point de prélèvement réalisé au rez-de-chaussée présente une concentration en TCE plus de deux fois supérieure à la Valeur d’Action Rapide de 10 μg/m3 du HCSP.
+
+26l1l0	TCE	S
+
+#La qualité de l’air intérieur des logements de fonction ne pose pas de problème.
+
+
+#La salle de classe du bâtiment B, où les concentrations maximales en TCE sont mesurées ne dispose pas d’une VMC.
+
+28l0l0	ne	R
+28l0l1	dispose_pas_d_	N
+28l1l0	TCE	S
+
+#Les autres salles de classe de l’établissement ne sont pas non plus équipées de VMC.
+
+
+#En période estivale, les transferts des gaz du sol vers l’air intérieur sont moindres.
+
+30l0l0	En_période_estivale	T
+
+#En effet, en période hivernale, le chauffage des locaux majore le phénomène de convection qui provoque une aspiration des gaz du sol.
+
+31l0l0	en_période_hivernale	T
+
+#Les concentrations mesurées en période hivernale peuvent donc être supérieures à celles mesurées lors de cette campagne estivale.
+
+
+#Ainsi, les résultats des mesures effectuées dans la salle de classe du bâtiment B témoignent d’une qualité de l’air intérieur dégradée, quelle que soit la période de l’année.
+
+
+#Le lycée Douanier Rousseau de Laval a été classé en catégorie C à l'issue du diagnostic réalisé dans le cadre de l'opération nationale relative aux sites sensibles recevant du public.
+
+34l0l0	Le_lycée	O
+34l0l1	Douanier_Rousseau_de_Laval	O
+34l0l2	a_été_classé	N
+34l0l3	en_catégorie_C	O
+34l0l4	diagnostic_réalisé	N
+34l0l5	dans_le_cadre_de	R
+34l0l6	l__opération	N
+34l0l7	recevant_du_public	A
+
+#En effet ce diagnostic a permis d'identifier une importante nappe de pollution par des solvants chlorés et leurs produits de décomposition (présence de chlorure de vinyle...) qui impacte plusieurs salles de classes de l'établissement au sein du bâtiment B.
+
+35l0l0	ce_diagnostic_a_permis_d__identifier	N
+35l0l1	une_importante_nappe_de_pollution	O
+35l0l2	impacte	R
+35l0l3	sein_du_bâtiment_B_	L
+35l1l0	solvants_chlorés	S
+35l1l1	chlorure_de_vinyle	S
+
+#A l'issue des investigations, il était recommandé que le maître d’ouvrage procède à de nouveaux contrôles de la qualité de l’air dans les classes dont les concentrations en TCE dépassent les seuils du HCSP mais aussi dans les classes adjacentes.
+
+36l0l0	le_maître_d_	O
+36l0l1	de_nouveaux_contrôles	N
+36l0l2	la_qualité_de_l__air	O
+36l0l3	les_classes	O
+36l0l4	les_concentrations	O
+36l0l5	les_classes_adjacentes	O
+36l1l0	TCE	S
+
+#En cas d’anomalie détectée dans de nouvelles classes, les contrôles seront étendus aux autres salles.
+
+37l0l0	les_contrôles	O
+37l0l1	seront_étendus	N
+
+#L’origine de cette pollution ne peut pas être attribué à l’un des sites BASIAS ; des diagnostics doivent être mis en oeuvre pour localiser la ou les sources de pollution et leur(s) étendue(s) en tenant compte de la présence des habitations contiguës à l’établissement.
+
+38l0l0	L__origine	O
+38l0l1	sites_BASIAS	O
+38l0l2	des_diagnostics	N
+38l0l3	la_ou_les_sources_de_pollution	O
+38l0l4	habitations_contiguës	O
+38l0l5	à_l__établissement	L
+
+#Le conseil régional, maître d'ouvrage, a refait les analyses qui ont confirmé les résultats de phase 3.
+
+39l0l0	Le_conseil_régional	O
+39l0l1	a_refait_les_analyses	N
+39l0l2	phase_3__	O
+39l1l0	Le_conseil_régional	I
+
+#Le Conseil Régional, maître d'ouvrage de ce lycée public, a immédiatement engagé les travaux de protection des usagers de ces classes, essentiellement par l'amélioration de la ventilation des locaux (ventilation double flux dans les salles concernées).
+
+40l0l0	Le_Conseil_Régional	O
+40l0l1	maître_d__ouvrage	O
+40l0l2	ce_lycée_public	O
+40l0l3	a_immédiatement_engagé	N
+40l0l4	les_travaux_de_protection	N
+40l0l5	ces_classes	O
+40l0l6	l__amélioration_de_la_ventilation	N
+40l0l7	ventilation_double_flux	O
+40l1l0	Le_Conseil_Régional	I
+
+#Dans l’attente de la fin des travaux, une aération régulière des pièces a été effectuée.
+
+41l0l0	l__attente_de	R
+41l0l1	la_fin_des_travaux	N
+41l0l2	une_aération_régulière_des_pièces	O
+41l0l3	a_été_effectuée	N
+
+#Cette ventilation, en place depuis le premier semestre, a porté ses fruits : les mesures réalisées au mois de juin ont montré que les COV sont en deçà des VGAI et les parties prenantes du lycée sont rassurées.
+
+42l0l0	en_place	N
+42l0l1	depuis	T
+42l0l2	le_premier_semestre	N
+42l0l3	les_mesures_réalisées	N
+42l0l4	au_mois_de_juin	T
+42l0l5	les_parties_prenantes	O
+42l1l0	COV	U
+
+#Les diagnostics ont mis en évidence une langue de pollution qui s'étend au-delà des limites du lycée.
+
+43l0l0	Les_diagnostics	N
+43l0l1	une_langue	O
+43l0l2	de_pollution	O
+43l0l3	étend_au_delà_des_limites_du_lycée	L
+
+#Ainsi une pollution de même nature a été détectée dans l'air du sol de l'école privée Immaculée Conception, mitoyenne du lycée, en aval hydraulique de celui-ci.
+
+44l0l0	une_pollution	O
+44l0l1	a_été_détectée	N
+44l0l2	l__école_privée_Immaculée_Conception	O
+44l0l3	mitoyenne_du_lycée	L
+44l0l4	en_aval_hydraulique_de_celui_ci	L
+
+#Par ailleurs le gymnase en amont immédiat du bâtiment B est vraisemblablement lui aussi concerné.
+
+45l0l0	en_amont_immédiat_du_bâtiment_B	L
+
+#Ce gymnase est propriété de la ville de Laval.
+
+46l0l0	Ce_gymnase	O
+46l0l1	est_propriété_de	R
+46l0l2	la	O
+46l0l3	ville_de_Laval	L
+
+#De même des logements du quartier sont susceptibles d'être touchés par cette pollution.
+
+
+#Dès lors un traitement partiel au droit du lycée serait susceptible de déstabiliser et remobiliser la langue de pollution, dont aucun responsable solvable n'a été identifié.
+
+48l0l0	remobiliser	N
+48l0l1	la_langue_de_pollution	O
+
+#Dans ce contexte, il a été décidé par le préfet d'organiser la prise en charge de cette pollution par un interlocuteur unique et compétent afin de coordonner les investigations permettant de caractériser la pollution, d'en identifier – le cas échéant – le responsable, puis d'organiser au mieux la gestion des lieux selon la méthodologie définie dans la note du 8 février 2007.
+
+49l0l0	a_été_décidé	N
+49l0l1	le_préfet	O
+49l0l2	d__organiser_la_prise_en_charge	N
+49l0l3	cette_pollution	O
+49l0l4	coordonner_les_investigations	N
+49l0l5	la_note	O
+49l0l6	8_février_2007__	T
+49l1l0	le_préfet	I
+
+#Pour permettre cette prise en charge coordonnée, l'Ademe a été mobilisée.
+
+50l1l0	l__Ademe	I
+
+#L'Ademe a visité le site le 13 octobre 2014 et préparé un programme d'investigations pour établir l'origine de la pollution et, par la suite, envisager les moyens d'y remédier.
+
+51l0l0	L__Ademe	O
+51l0l1	a_visité	N
+51l0l2	le_site	O
+51l0l3	le_13_octobre_2014	T
+51l0l4	un_programme	O
+51l0l5	la_pollution	O
+
+#Il n'y a plus à  ce jour de dépassements dans les salles de classes des valeurs guides
+
+52l0l0	plus_à___ce_jour_de_dépassements	O
+
+#A l'issue de la phase 3 (réalisée en 2013) du diagnostic, de nombreuses tâches ont été réalisées :
+
+53l0l0	la_phase_3	O
+53l0l1	réalisée	N
+53l0l2	en_2013__	T
+53l0l3	diagnostic	N
+
+#-Une information aux parents et personnel et un communiqué de presse le 4/09/2013.
+
+54l0l0	_Une_information	N
+54l0l1	aux_parents	O
+54l0l2	un_communiqué_de_presse	N
+54l0l3	le_4_09_2013__	T
+
+#-le conseil régional a fait des travaux début 2014 pour mettre en place une ventilation double flux.
+
+55l0l0	_le_conseil_régional	O
+55l0l1	a_fait	N
+55l0l2	des_travaux	N
+55l0l3	début_2014	T
+55l0l4	mettre_en_place_une_ventilation_double_flux	N
+55l1l0	_le_conseil_régional	I
+
+#Les analyses réalisées ensuite en juin 2014  étaient toutes conformes (< 0.17) dans les différentes salles de classes.
+
+56l0l0	Les_analyses	O
+56l0l1	réalisées_ensuite	N
+56l0l2	en_juin_2014	T
+
+#Une deuxième campagne a été réalisée en février 2015  et les mesures allaient selon les classes de 0.7 à 7.1 µg/m3.
+
+57l0l0	Une_deuxième_campagne_a_été_réalisée	N
+57l0l1	en_février_2015	T
+
+#Des ajustements concernant les débits de renouvellement d’air ont donc été faits.
+
+58l0l0	ont_donc_été_faits	N
+
+#Les campagnes de février 2016 ont confirmé l’efficacité de ces mesures.  Les dernières campagnes réalisées en 2017 par le bureau d'étude ont montré des analyses conformes en dessous des valeurs repères du HCSP.
+
+59l0l0	Les_campagnes_de	N
+59l0l1	février_2016	T
+59l0l2	l__efficacité_de_ces_mesures	N
+59l0l3	__Les_dernières_campagnes	N
+59l0l4	réalisées	N
+59l0l5	en_2017	T
+59l0l6	par_le_bureau_d__étude	O
+59l1l0	du_HCSP	I
+
+#-Mi-2014 une étude a été confiée à l’Ademe pour rechercher la source de la pollution.
+
+60l0l0	_Mi_2014	T
+60l0l1	une_étude_a_été_confiée	N
+60l0l2	l__Ademe	O
+60l0l3	la_source_de_la_pollution	O
+
+#L’Ademe a confié les investigations à un bureau d'étude.
+
+61l0l0	L__Ademe	O
+61l0l1	a_confié_les_investigations	N
+61l0l2	un_bureau_d__étude	O
+
+#-Des investigations dans les sols, eaux souterraines et gaz des sols ont été réalisées par le bureau d'étude en juin 2017 : Les résultats ont montré que la source de la pollution n’est pas sous l’emprise du lycée mais à l’extérieur.
+
+62l0l0	_Des_investigations	N
+62l0l1	les_sols	O
+62l0l2	ont_été_réalisées	N
+62l0l3	le_bureau_d__étude	O
+62l0l4	en_juin_2017	T
+62l0l5	la_source_de_la_pollution	O
+62l0l6	sous_l__emprise_du_lycée	L
+62l0l7	à_l_	L
+
+#Il a été confirmé que les valeurs dans les salles de classes étaient conformes.
+
+
+#Il est prévu que le bureau d'étude poursuivrait ses investigations de recherche de la source pollution hors du site du lycée.
+
+64l0l0	Il_est_prévu	O
+64l0l1	le_bureau_d__étude	O
+64l0l2	poursuivrait	N
+64l0l3	ses_investigations_de_recherche	A
+64l0l4	la_source_pollution	O
+64l0l5	hors_du_site_du_lycée	L

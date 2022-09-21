@@ -1,0 +1,277 @@
+
+#83.0030
+#Station Service du Champ de Mars à TOULON (83)
+
+0l0l0	Station_Service_du_Champ_de_Mars_à_TOULON	O
+0l0l1	__83__	T
+0l1l0	TOULON___83__	I
+
+#La Station service TOTAL est implantée sur l'avenue Georges Clemenceau à Toulon.
+
+1l0l0	La_Station_service_TOTAL	O
+1l0l1	est_implantée_sur	R
+1l0l2	l__avenue_Georges_Clemenceau_à_Toulon	L
+1l1l0	La_Station_service_TOTAL	I
+
+#Son environnement immédiat est de type urbain.
+
+2l0l0	Son_environnement_immédiat	O
+
+#Le tunnel de Toulon Sud est situé au droit de la station service à une profondeur de l'ordre de 19m pour le toit de l'ouvrage.
+
+3l0l0	Le	O
+3l0l1	tunnel_de_Toulon_Sud	L
+3l0l2	est_situé_au_droit_de_la_station_service	L
+
+#La station service occupe une superficie de 600m².
+
+4l0l0	La_station	O
+
+#Le sol de la station service est entièrement recouvert d'un revêtement étanche, bitumineux ou bétonné.
+
+
+#Les installations du site sont composées de 4 ilots volucompteur de distribution, 3 séparateurs d'hydrocarbures, des aires de dépotage, lavage, lavage haute pression et une boutique ainsi que des cuves pour un volume total de 120 m3.
+
+6l0l0	Les_installations	O
+6l0l1	dépotage	O
+6l0l2	lavage	A
+6l0l3	lavage_haute	O
+6l1l0	hydrocarbures	S
+6l1l1	cuves	D
+
+#Le premier captage AEP est à 1,5km du site et un AEI pour l'Arsenal de Toulon est à 0,750m.
+
+7l0l0	Le_premier_captage_AEP	O
+7l0l1	est_à_1_5_km_du_site	L
+7l0l2	un_AEI	O
+7l0l3	l__Arsenal	O
+7l0l4	Toulon_est_à_0_750	L
+7l0l5	m_	N
+7l1l0	l__Arsenal_de_Toulon	I
+
+#Des investigations réalisées entre Février et Mai 2005 avaient montré des anomalies gazeuses au niveau des volucompteurs de distribution, du parc à cuve Est et de la sortie de la station service ainsi que la présence de gaz dans certains regards électriques proches des îlots volucompteurs.
+
+8l0l0	Des_investigations_réalisées	N
+8l0l1	entre_Février_et_Mai_2005	T
+8l0l2	volucompteurs_de_distribution	O
+8l0l3	îlots_volucompteurs	O
+
+#Pour les eaux souterraines, des phases flottantes pouvant atteindre 1m ont été observées au droit des piézomètres situés au niveau des places de parking.
+
+9l0l0	piézomètres	O
+9l0l1	situés_au_niveau_des_places_de_parking	L
+
+#Des polluants dans les sols sont identifiés : Benzène et Toluène, dans les eaux souterraines : Toluène, Xylènes totaux.
+
+10l0l0	Des_polluants	O
+10l1l0	Benzène	S
+10l1l1	Toluène	S
+10l1l2	Toluène	S
+10l1l3	Xylènes_totaux	S
+
+#Suite à ces constatation, TOTAL France avait décidé de mettre en place un système de récupération des gaz du sous-sol, composé d'un réseau de drains horizontaux afin de limiter l'accumulation de gaz sous la dalle béton de l'aire de distribution.
+
+11l0l0	Suite_à	R
+11l0l1	ces_constatation	O
+11l0l2	TOTAL_France	O
+11l0l3	avait_décidé	N
+11l0l4	mettre_en_place_un_système	N
+11l0l5	gaz_du_sous_sol	O
+11l1l0	TOTAL_France	I
+
+#Les objectifs de dépollution étaient de 200ppmV pour les hydrocarbures gazeux et l’absence de phase flottante sur le piézomètre PZ1.
+
+12l0l0	Les_objectifs	O
+12l0l1	de_dépollution	N
+12l1l0	hydrocarbures	S
+12l1l1	phase_flottante	U
+
+#Le traitement par Venting a débuté par la mise en place des drains le 26/10/2005.
+
+13l0l0	Le_traitement_par_Venting	N
+13l0l1	a_débuté	N
+13l0l2	la_mise_en_place_des_drains	N
+13l0l3	le_26_10_2005__	T
+13l1l0	Venting	I
+
+#Le conteneur de dépollution a été connecté le 7/03/2006 et le Venting s'effectuait par l'intermédiaire d'un extracteur d'air équipé d'un condensat.
+
+14l0l0	Le_conteneur_de_dépollution	O
+14l0l1	a_été_connecté	N
+14l0l2	le_7_03_2006	T
+14l0l3	le_Venting	N
+14l0l4	effectuait_par	R
+14l0l5	l_	O
+14l1l0	conteneur	D
+
+#De plus, à partir de Mars 2006, PZ1 a fait l'objet de campagnes d'écrémage successives (73L d'hydrocarbures récupérés).
+
+15l0l0	à_partir_de_Mars_2006__	T
+15l0l1	PZ1	O
+15l0l2	a_fait_l__objet	R
+15l0l3	de_campagnes_d_	N
+15l1l0	hydrocarbures	S
+
+#Cependant, les travaux de de modernisation de la distribution en Avril 2007 ont nécessité le retrait des drains, le traitement s'est arrêté et le rapport de fin de travaux a été édité le 25/04/2007.
+
+16l0l0	les_travaux_de_de_modernisation_de	N
+16l0l1	la_distribution	O
+16l0l2	en_Avril_2007	T
+16l0l3	ont_nécessité	N
+16l0l4	le_retrait_des_drains	N
+16l0l5	le_traitement	O
+16l0l6	s__est_arrêté	N
+16l0l7	le_rapport	O
+16l0l8	de_fin_de_travaux	O
+16l0l9	a_été_édité	N
+16l0l10	le_25_04_2007__	T
+
+#Un phase organique surnageante libre était toujours visible sur PZ1, les travaux d'écrémage se sont poursuivis.
+
+17l0l0	Un_phase	O
+17l0l1	les_travaux_d__écrémage	N
+17l0l2	se_sont_poursuivis	N
+
+#Lors des travaux d'avancement du tunnel, des égouttures présentant une forte odeur d'hydrocarbures ont été mises en évidence.
+
+18l0l0	Lors	T
+18l0l1	des_travaux_d__avancement	N
+18l0l2	du_tunnel	O
+18l0l3	des_égouttures	O
+18l0l4	hydrocarbures	O
+18l0l5	ont_été_mises_en	N
+18l1l0	hydrocarbures	S
+
+#Un diagnostic complémentaire de sols a donc été effectué le 23/04/2007.
+
+19l0l0	Un_diagnostic_complémentaire_de_sols	N
+19l0l1	a_donc_été_effectué	N
+19l0l2	le_23_04_2007__	T
+
+#Il a consisté en la réalisation de 11 sondages de sols et 9 sondages équipé en piézomètres, des mesures gazeuses ont également été effectuées.
+
+20l0l0	la_réalisation_de_11_sondages	N
+20l0l1	mesures_gazeuses	O
+20l0l2	ont_également_été_effectuées	N
+
+#Des anomalies gazeuses ont été mises en évidence.
+
+
+#Concernant les sols, des teneurs élevées en HCT et BTEX sont relevées.
+
+22l1l0	HCT	S
+22l1l1	BTEX	S
+
+#Pour les eaux souterraines, tous les paramètres analysés montre des dépassements de la VCI a usage sensible pour presque l'ensemble des piézomètres (HCT et BTEX).
+
+23l0l0	des_dépassements	N
+23l1l0	BTEX	S
+
+#En Décembre 2008, le dispositif de traitement de la nappe avait permis de récupérer 270L d'hydrocarbures depuis sont lancement en 2007.
+
+24l0l0	En_Décembre_2008__	T
+24l0l1	le_dispositif_de_traitement_de_la_nappe	O
+24l0l2	270L_d__hydrocarbures	O
+24l0l3	depuis_sont_lancement	N
+24l0l4	en_2007__	T
+24l1l0	hydrocarbures	S
+
+#Afin d'apporter une solutions pérenne de traitement sur le site, un plan de gestion a été rédigé le 06/04/2009.
+
+25l0l0	un_plan_de_gestion	O
+25l0l1	a_été_rédigé	N
+25l0l2	le_06_04_2009__	T
+
+#Il affirme que le sens d'écoulement des eaux semble être dirigé vers le Sud-Est du site.
+
+26l0l0	le_sens	O
+26l0l1	dirigé_vers_le_Sud_Est_du_site	L
+
+#Un schéma conceptuel a été établit, il définit les cibles comme étant les employés de la station service qui sont les plus exposés aux dégazage des substances polluantes depuis le sol et la nappe.
+
+27l0l0	Un_schéma_conceptuel	O
+27l0l1	a_été_établit	N
+27l0l2	plus_exposés_aux_dégazage	N
+27l0l3	des_substances_polluantes	O
+27l1l0	substances_polluantes	U
+
+#Le plan de gestion préconise une technique de traitement in-situ par pompage écrémage sur 8 piézomètres ainsi que la surveillance des eaux souterraines sur et hors site.
+
+28l0l0	Le_plan_de_gestion	O
+28l0l1	traitement_in___situ	N
+28l0l2	pompage_écrémage_sur	N
+28l0l3	8_piézomètres	O
+28l0l4	la_surveillance_des_eaux_souterraines	A
+28l0l5	sur_et_hors_site	A
+
+#En fixant les seuils de réhabilitation respectivement à 1, 5 et 5 mg/L en Benzène, BTEX et HCT, l'ARR prédictive montre l’absence d'impact et donc la compatibilité avec l'usage du site.
+
+29l0l0	En_fixant	N
+29l0l1	les_seuils	O
+29l1l0	Benzène	S
+29l1l1	BTEX	S
+29l1l2	HCT	S
+
+#Les travaux sont encadrés par l'AP du 20/03/2009.
+
+30l0l0	Les_travaux_sont	N
+30l0l1	encadrés_par	R
+30l0l2	l_	O
+30l0l3	20_03_2009__	T
+
+#De plus, la synthèse des travaux du tunnel de fin Avril 2009 démontre que les travaux ont dépassé la limite de l'emprise de la station et qu'aucune action environnementale par rapport au chantier n'est préconisée.
+
+31l0l0	des_travaux_du_tunnel_de	N
+31l0l1	fin_Avril_2009	T
+31l0l2	les_travaux	N
+31l0l3	ont_dépassé_la_limite_de	L
+31l0l4	l__emprise	O
+31l0l5	la_station	O
+31l0l6	aucune_action_environnementale	O
+
+#Les dernières campagnes de prélèvements ont indiqué une absence d'hydrocarbures en phase libre depuis 2011.
+
+32l0l0	Les_dernières_campagnes_de_prélèvements	N
+32l0l1	d__hydrocarbures_en_phase	O
+32l0l2	depuis_2011__	T
+32l1l0	hydrocarbures	S
+
+#Un dispositif de pompage-traitement a été mis en place le 4/04/16 au droit  de PZ1, PZ9, PZ11, PZ12, PZ15 et PZ16 a permis à ce jour de pomper 2070m3 d'hydrocarbures.
+
+33l0l0	Un_dispositif_de_pompage___traitement	O
+33l0l1	a_été_mis_en_place	N
+33l0l2	le_4_04_16	T
+33l0l3	permis_à_ce_jour	T
+33l0l4	de_pomper	N
+33l0l5	2070m3_d__hydrocarbures	O
+33l1l0	d__hydrocarbures	S
+
+#Par ailleurs, des dispositifs DPO ont également été mis en place au droit de PZ19, PZ20,PZ21, PZ23 et PZ24 dans le but de permettre des conditions favorables à la biodégradation des hydrocarbures.
+
+34l0l0	des_dispositifs_DPO	O
+34l0l1	ont_également_été_mis_en_place	N
+34l1l0	hydrocarbures	S
+
+#La dernière campagne datant de mars 2017 montre des dépassements des objectifs au droit de PZ12, PZ15, PZ19 et PZ23.
+
+35l0l0	La_dernière_campagne	N
+35l0l1	datant_de_mars_2017	T
+35l0l2	des_dépassements	N
+
+#L'ouvrage PZ19 étant le plus touché, un dispositif de pompage-traitement au droit de cet ouvrage est mis en place en juin 2017.
+
+36l0l0	un_dispositif_de_pompage___traitement	O
+36l0l1	au_droit_de_cet_ouvrage	L
+36l0l2	est_mis_en_place	N
+36l0l3	en_juin_2017__	T
+
+#Cependant, la tendance générale des teneurs en hydrocarbures et somme des BTEX est à la baisse.
+
+37l1l0	hydrocarbures	S
+37l1l1	BTEX	S
+
+#La surveillance de la nappe se poursuit.
+
+38l0l0	La_surveillance	A
+38l0l1	la_nappe	O
+38l0l2	se_poursuit	T

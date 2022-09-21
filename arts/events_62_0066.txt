@@ -1,0 +1,118 @@
+
+#62.0066
+#La Société HOLCIM est implanté en bordure de LUMBRES à proximité d'un secteur d'urbanisation dense à l'Est et d'une zone de type milieu campagnard au sud.
+
+0l0l0	La_Société_HOLCIM	O
+0l0l1	est_implanté_en_bordure_de_LUMBRES	L
+0l0l2	à_proximité_d__un_secteur_d__urbanisation_dense_à_l__Est	L
+0l0l3	une_zone	O
+0l1l0	La_Société_HOLCIM	I
+
+#Les premières habitations sont à environ 800 mètres de la cimenterie pratiquant  la co-incinération de Déchets Industriels Dangereux et Non Dangereux.
+
+1l0l0	Les_premières_habitations	O
+1l0l1	sont_à_environ_800_mètres_de_la	L
+1l0l2	cimenterie_pratiquant___la_co_incinération	N
+1l1l0	de_Déchets_Industriels_Dangereux	U
+
+#Le site se décompose en deux parties :
+
+
+#- l'usine : d'une superficie de 30ha
+
+3l0l0	30_ha	O
+
+#- la carrière : d'une superficie de 100ha
+
+4l0l0	ha	T
+
+#Le procédé cimentier utilisé à LUMBRES est le procédé par voie humide.
+
+5l0l0	LUMBRES	O
+
+#La capacité de traitement des deux fours (valorisation énergétique et matière) est de : 290 000 t/an.
+
+6l0l0	La_capacité_de_traitement	N
+6l0l1	deux_fours	O
+6l0l2	t__	O
+6l0l3	an__	T
+
+#Site en activité visé par:
+
+
+#- la circulaire du 3 avril 1996 qui impose une étude des sols sur les sites en activité.
+
+8l0l0	3_avril_1996	T
+8l0l1	impose_une_étude_des_sols	N
+8l0l2	les_sites_en_activité	O
+
+#Étude demandée par arrêté préfectoral en date du 11 septembre 1998.
+
+9l0l0	Étude_demandée	N
+9l0l1	par_arrêté_préfectoral	O
+9l0l2	en_date_du_11_septembre_1998__	T
+
+#Une seule source de pollution potentielle identifiée (zone ancien garage carrière)par des huiles et du gasoil (d'après étude des sols de septembre 2000).
+
+10l0l0	Une_seule_source_de_pollution	O
+10l0l1	zone_ancien_garage_carrière_par	O
+10l0l2	gasoil	O
+10l0l3	septembre_2000	T
+10l1l0	des_huiles	U
+10l1l1	gasoil	S
+
+#- l'Action "Plomb" : une étude plomb a ét demandée par arrêté préfectoral complémentaire en date du 27 mai 2005.
+
+11l0l0	une_étude_plomb_a_ét_demandée	N
+11l0l1	par_arrêté_préfectoral_complémentaire	O
+11l0l2	en_date_du_27_mai_2005__	T
+11l1l0	Plomb	S
+11l1l1	plomb	S
+
+#Il en résulte que les valeurs de concentration en Plomb et Cadmium mesurées dans les échantillons prélevés aux alentours de la Cimenterie HOLCIM à Lumbres sont :
+
+12l0l0	aux_alentours_de	L
+12l0l1	la_Cimenterie_HOLCIM	O
+12l0l2	à_Lumbres	L
+12l1l0	Plomb	S
+12l1l1	Cadmium	S
+12l1l2	la_Cimenterie_HOLCIM	I
+
+#- inférieures (ou très proches) pour le Plomb à la valeur de 100 mg/kg, 1er seuil d'intervention du guide INERIS pour l'orientation des actions à mettre en œuvre autour d'un site dont les sols sont potentiellement polluées par le Plomb,
+
+13l0l0	orientation_des_actions	O
+13l1l0	Plomb	S
+13l1l1	Plomb	S
+
+#- inférieures pour le Cadmium, à la VDSS du guide BRGM de gestion des sites et sols potentiellement pollués.
+
+14l0l0	Cadmium	O
+14l1l0	le_Cadmium	S
+14l1l1	BRGM	I
+
+#Aucune action complémentaire visant à la protection sanitaire des populations n'est donc à mettre en œuvre.
+
+15l0l0	Aucune_action_complémentaire	O
+15l0l1	visant_à	R
+
+#APC 31/10/2007
+
+16l0l0	31_10_2007	T
+
+#article 49: surveillance eaux souterraines
+
+
+#1 analyse par an / 3 piézomètres mini
+
+
+#-Établissement IPPC (Prévention et Réduction Intégrée de la Pollution) ayant fourni un bilan de fonctionnement en 2006.
+
+19l0l0	ayant_fourni_un_bilan_de_fonctionnement	N
+19l0l1	en_2006__	T
+
+#-Le site est mis en sécurité vis à vis des tiers.
+
+
+#-Action de l'administration toujours en cours.
+
+21l0l0	l__administration	O

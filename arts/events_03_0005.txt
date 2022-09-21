@@ -1,0 +1,164 @@
+
+#03.0005
+#Le terrain, situé dans le quartier industriel de Gozet dans l'agglomération de Montluçon, a accueilli une usine fabriquant du gaz par distillation de la houille jusqu'en 1956, puis par craquage de produits pétroliers.
+
+0l0l0	Le_terrain	O
+0l0l1	situé_dans_le_quartier_industriel_de_Gozet	L
+0l0l2	dans_l__agglomération_de_Montluçon	L
+0l0l3	a_accueilli	N
+0l0l4	une_usine	O
+0l0l5	fabriquant_du_gaz	A
+0l0l6	par_distillation_de_la_houille	A
+0l0l7	jusqu__en_1956	T
+0l0l8	craquage_de_produits_pétroliers	A
+0l1l0	produits_pétroliers	U
+
+#Ces installations ont été arrêtées vers de 1965 puis démantelées.
+
+1l0l0	Ces_installations	O
+1l0l1	ont_été_arrêtées	N
+1l0l2	vers_de_1965	T
+1l0l3	démantelées	N
+
+#Actuellement, le site est occupé par une agence EDF GDF Services (atelier de maintenance automobile, parc de matériels, magasin, parking).
+
+2l0l0	le_site	O
+2l0l1	est_occupé_par	R
+2l0l2	une_agence_EDF_GDF_Services	O
+2l0l3	maintenance_automobile	O
+2l1l0	une_agence_EDF_GDF_Services	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+3l0l0	Gaz_de_France	O
+3l0l1	a_hiérarchisé	N
+3l0l2	ses_actions	O
+3l0l3	467_sites	O
+3l1l0	Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site, ...).
+
+4l0l0	hiérarchiser	N
+4l0l1	les_sites	O
+4l0l2	en_fonction_de	R
+4l0l3	leur_sensibilité	O
+4l0l4	vis_à_vis_de	R
+4l0l5	l__environnement	O
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+5l0l0	L__application	N
+5l0l1	cette_méthode	O
+5l0l2	a_abouti_à	R
+5l0l3	l__établissement	N
+5l0l4	5_classes_de_priorité	O
+5l0l5	les_engagements	O
+5l0l6	Gaz_de_France	O
+5l0l7	ont_fait_l__objet_d_	R
+5l0l8	un_protocole_d__accord	O
+5l0l9	relatif_à	R
+5l0l10	la_maîtrise	O
+5l0l11	suivi	O
+5l0l12	la_réhabilitation	N
+5l0l13	anciens_terrains_d__usines_à_gaz	O
+5l0l14	entre	R
+5l0l15	le_Ministère_de_l__Environnement	O
+5l0l16	Gaz_de_France	O
+5l0l17	signé	N
+5l0l18	le_25_avril_1996	T
+5l1l0	Gaz_de_France	I
+5l1l1	le_Ministère_de_l__Environnement	I
+5l1l2	Gaz_de_France	I
+
+#Le site de l'ancienne usine à gaz de Montluçon est en classe 3 du protocole.   De ce fait, c'est un site dont la sensibilité vis à vis de l'homme, des eaux souterraines et superficielles est faible.
+
+6l0l0	Le_site	O
+6l0l1	l__ancienne_usine_à_gaz	O
+6l0l2	Montluçon_est_en	L
+
+#Conformément aux engagements pris dans le protocole, ce site a fait l'objet d'une étude historique (recherches bibliographiques, enquêtes,...) et d'investigations de terrain.
+
+7l0l0	Conformément_aux	R
+7l0l1	engagements	O
+7l0l2	pris_dans	R
+7l0l3	le_protocole	O
+7l0l4	ce_site	O
+7l0l5	a_fait_l__objet_d_	R
+7l0l6	une_étude_historique	N
+7l0l7	d__investigations_de_terrain	N
+
+#Le diagnostic environnemental, effectué par un bureau d'études à la demande de Gaz de France, a mis en évidence la présence de cuves enterrées contenant des goudrons et des eaux ammoniacales.
+
+8l0l0	Le_diagnostic_environnemental	N
+8l0l1	effectué_par	N
+8l0l2	un_bureau_d__études	O
+8l0l3	à_la_demande_de	R
+8l0l4	Gaz_de_France	O
+8l0l5	a_mis_en_évidence	R
+8l0l6	la_présence_de_cuves_enterrées	O
+8l0l7	goudrons	O
+8l0l8	des_eaux_ammoniacales	O
+8l1l0	Gaz_de_France	I
+8l1l1	de_cuves_enterrées	D
+8l1l2	eaux_ammoniacales	U
+
+#Les cuves ont été vidangées et leur contenu évacué vers des centres de traitement spécialisés.
+
+9l0l0	Les_cuves	O
+9l0l1	ont_été_vidangées	N
+9l0l2	leur_contenu	O
+9l0l3	évacué_vers	R
+9l0l4	des_centres_de_traitement_spécialisés	O
+
+#Les matériaux constituant les cuves (maçonneries) ont été nettoyés et remblayées avec des matériaux inertes.
+
+10l0l0	Les_matériaux	O
+10l0l1	cuves	O
+10l0l2	maçonneries	O
+10l0l3	ont_été_nettoyés	N
+10l0l4	remblayées_avec_des_matériaux_inertes	N
+
+#Les eaux de lavage ont été éliminées selon des filières agrées.
+
+11l0l0	Les_eaux_de_lavage	O
+11l0l1	ont_été_éliminées	N
+11l1l0	Les_eaux_de_lavage	U
+
+#L'évaluation de la qualité des eaux de la nappe au droit du site indique que celle-ci est faiblement impactée par la présence de substances liées aux anciennes activités gazières.
+
+12l0l0	la_qualité_des_eaux	O
+12l0l1	la_nappe	O
+12l0l2	au_droit_du_site	L
+12l0l3	impactée	N
+12l0l4	par	R
+12l0l5	la_présence_de_substances	O
+12l0l6	liées_aux_anciennes	L
+12l0l7	activités_gazières	A
+
+#Cependant, compte tenu de la présence d'une importante nappe alimentant l'agglomération de Montluçon, il a été demandé un suivi piézométrique.
+
+13l0l0	une_importante_nappe	O
+13l0l1	alimentant_l__agglomération_de_Montluçon	L
+13l0l2	il	O
+13l0l3	a_été_demandé	N
+13l0l4	un_suivi_piézométrique	A
+
+#A ce effet, GDF a fait implanté 3 piézomètres.
+
+14l0l0	GDF	O
+14l0l1	a_fait_implanté	N
+14l0l2	3_piézomètres	O
+14l1l0	GDF	I
+
+#Les analyses confirment la présence de cyanures et de HAP dans les eaux souterraines au droit du site.
+
+15l0l0	Les_analyses	N
+15l0l1	au_droit_du_site	L
+15l1l0	cyanures	S
+15l1l1	HAP	S
+
+#Conformément aux accords de fin de protocole, ce site a été traité et est compatible avec un usage de type industriel ou tertiaire.
+
+16l0l0	ce_site	O
+16l0l1	a_été_traité	N
+16l0l2	un_usage	N

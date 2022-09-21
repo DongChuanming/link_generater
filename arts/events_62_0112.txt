@@ -1,0 +1,156 @@
+
+#62.0112
+#Le site de l'ancienne usine à gaz est situé à l'Est de l'agglomération du Touquet-Paris-Plage.
+
+0l0l0	Le_site	O
+0l0l1	l__ancienne_usine_à_gaz	O
+0l0l2	est_situé_à_l__Est_de_l__agglomération_du_Touquet___Paris___Plage	L
+
+#Il a accueilli pendant 43 ans, entre 1907 et 1940, une usine fabriquant du gaz à partir de la distillation de la houille.
+
+1l0l0	Il	O
+1l0l1	a_accueilli	N
+1l0l2	pendant_43_ans	T
+1l0l3	entre_1907_et_1940	T
+1l0l4	une_usine	O
+1l0l5	fabriquant_du_gaz	A
+1l0l6	à_partir_de	R
+1l0l7	la_distillation_de_la_houille	A
+
+#Parallèlement, une usine électrique était en activité sur le site.
+
+2l0l0	une_usine_électrique	O
+2l0l1	était_en_activité	N
+
+#Les installations de l'usine à gaz ont été démantelées entre 1950 et 1980.
+
+3l0l0	Les_installations_de_l__usine_à_gaz	O
+3l0l1	ont_été_démantelées	N
+3l0l2	entre_1950_et_1980__	T
+
+#Actuellement, le terrain occupe une superficie de 5 050 m² dont 700 m² bâtis.
+
+4l0l0	le_terrain	O
+
+#Les surfaces bâties sont constituées de l'agence administrative et d'un garage Les surfaces non bâties sont recouvertes d'asphalte et aménagées en parking, ainsi que par des étendues plantées autour des bâtiments administratifs.
+
+5l0l0	l__agence_administrative	O
+5l0l1	asphalte	O
+5l0l2	aménagées_en	R
+5l0l3	parking	O
+5l0l4	des_étendues	O
+5l0l5	plantées	R
+5l0l6	autour_des_bâtiments_administratifs	L
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+6l0l0	Gaz_de_France	O
+6l0l1	a_hiérarchisé	N
+6l0l2	ses_actions	O
+6l0l3	467_sites	O
+6l1l0	Gaz_de_France	I
+
+#La méthodologie a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement.
+
+7l0l0	hiérarchiser	N
+7l0l1	les_sites	O
+7l0l2	en_fonction_de	R
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz, entre le Ministère de l'Environnement et Gaz de France, signé le 25 Avril 1996.
+
+8l0l0	L__application	N
+8l0l1	cette_méthode	O
+8l0l2	a_abouti_à	R
+8l0l3	l__établissement	N
+8l0l4	5_classes_de_priorité	O
+8l0l5	les_engagements	O
+8l0l6	Gaz_de_France	O
+8l0l7	ont_fait_l__objet_d_	R
+8l0l8	un_protocole_d__accord	O
+8l0l9	relatif_à	R
+8l0l10	la_maîtrise	O
+8l0l11	suivi	O
+8l0l12	la_réhabilitation	N
+8l0l13	anciens_terrains_d__usines_à_gaz	O
+8l0l14	entre	R
+8l0l15	le_Ministère_de_l__Environnement	O
+8l0l16	Gaz_de_France	O
+8l0l17	signé	N
+8l0l18	le_25_Avril_1996	T
+8l1l0	Gaz_de_France	I
+8l1l1	le_Ministère_de_l__Environnement	I
+8l1l2	Gaz_de_France	I
+
+#Le site de l'ancienne usine à gaz du Touquet-Paris-Plage est en classe 3 du protocole.
+
+9l0l0	Le_site	O
+9l0l1	l__ancienne_usine_à_gaz	O
+9l0l2	du_Touquet___Paris___Plage	L
+
+#De ce fait, c'est un site dont la sensibilité est faible vis à vis de l'homme, des eaux superficielles et souterraines.
+
+
+#Conformément aux engagements pris dans ce protocole, ce site a fait l'objet d'une étude historique avec localisation des cuves, effectuée par un bureau d'études, à la demande de Gaz de France.
+
+11l0l0	Conformément_aux	R
+11l0l1	engagements	O
+11l0l2	pris_dans	R
+11l0l3	ce_protocole	O
+11l0l4	ce_site	O
+11l0l5	a_fait_l__objet_d_	R
+11l0l6	une_étude_historique	N
+11l0l7	cuves	O
+11l0l8	effectuée_par	N
+11l0l9	un_bureau_d__études	O
+11l0l10	à_la_demande_de	R
+11l0l11	Gaz_de_France	O
+11l1l0	des_cuves	D
+11l1l1	Gaz_de_France	I
+
+#Il ressort de cette étude qu'il existait sur le site, des cuves à goudrons localisées à proximité de la salle des extracteurs et des condensateurs.
+
+12l0l0	des_cuves_à_goudrons	O
+12l0l1	localisées_à_proximité_de_la_salle	L
+12l0l2	extracteurs	A
+12l1l0	des_cuves	D
+12l1l1	goudrons	U
+
+#Les travaux de vidangage des cuves à goudron situées sur la parcelle Gaz de France c'est terminé le 2 mars 2006.
+
+13l0l0	Les_travaux_de_vidangage	N
+13l0l1	des_cuves_à_goudron	O
+13l0l2	situées_sur_la_parcelle_Gaz_de	L
+13l0l3	France	O
+13l0l4	c__est_terminé	N
+13l0l5	le_2_mars_2006__	T
+13l1l0	cuves	D
+13l1l1	Gaz_de_France	I
+
+#Une ancienne canalisation de gaz hors service a également été démantelée.
+
+14l0l0	Une_ancienne_canalisation_de_gaz_hors_service	O
+14l0l1	a_également_été_démantelée	N
+
+#L'ensemble de la zone des cuves a été fermé par des barrières.
+
+15l0l0	L_	O
+15l0l1	la_zone_des_cuves	O
+15l0l2	a_été_fermé_par	N
+15l0l3	des_barrières	O
+
+#Le bilan final des déchets traités est le suivant:
+
+
+#-157,7 tonnes de remblais imprégnés de goudron pâteux,
+
+17l0l0	_157_7_tonnes_de_remblais_imprégnés	O
+17l0l1	goudron_pâteux	O
+17l1l0	goudron_pâteux	U
+
+#-53,52 tonnes de remblais souillés,
+
+18l0l0	remblais_souillés	O
+
+#-1,4 tonnes d'eaux souillées
+
+19l0l0	eaux_souillées	O

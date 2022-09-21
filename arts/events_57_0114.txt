@@ -1,0 +1,116 @@
+
+#57.0114
+#L'usine est spécialisée dans la fabrication de rails pour chemins de fer, cette usine anciennement Usine Saint Jacques a été inaugurée le 2 janvier 1897.
+
+0l0l0	L__usine	O
+0l0l1	est_spécialisée_dans_la_fabrication_de_rails_pour_chemins_de_fer	A
+0l0l2	cette_usine	O
+0l0l3	anciennement	R
+0l0l4	Usine_Saint_Jacques	L
+0l0l5	a_été_inaugurée	N
+0l0l6	le_2_janvier_1897__	T
+
+#Elle a été dés le départ spécialisée dans le laminage de produits longs (poutrelles et rails), elle comportait en plus des trains de laminages d'importantes batteries de chaudières à vapeurs, un atelier de goudronnage de traverses de chemin de fer qui fût arrêté en 1980,des ateliers généraux et une wagonnerie démontée en 1999.
+
+1l0l0	Elle	O
+1l0l1	a_été_dés_le_départ	N
+1l0l2	spécialisée_dans	R
+1l0l3	le_laminage_de_produits_longs	A
+1l0l4	poutrelles_et_rails	O
+1l0l5	laminages	A
+1l0l6	un_atelier_de	O
+1l0l7	goudronnage_de_traverses_de_chemin_de_fer	A
+1l0l8	fût_arrêté	N
+1l0l9	en_1980_des	T
+1l0l10	ateliers_généraux	O
+1l0l11	une_wagonnerie	O
+1l0l12	démontée	N
+1l0l13	en_1999	T
+
+#'usine était alimentée jusqu'en 1962 par une acièrie Thomas démontée en 1969.
+
+2l0l0	__usine	O
+2l0l1	était_alimentée	N
+2l0l2	jusqu__en_1962	T
+2l0l3	une_acièrie_Thomas	O
+2l0l4	démontée	N
+2l0l5	en_1969	T
+
+#Ce site d'une superficie de 28 ha est situé sur la vallée de la Fensh, vallée fortement industrialisée (industrie sidérurgique) et urbanisée.
+
+3l0l0	Ce_site	O
+3l0l1	situé_sur_la_vallée_de_la_Fensh	L
+3l0l2	vallée_fortement	L
+3l0l3	industrialisée	N
+3l0l4	industrie_sidérurgique	A
+3l0l5	urbanisée	N
+
+#Cette usine est la plus en amont de la Fensch.
+
+4l0l0	Cette_usine	O
+4l0l1	plus_en_amont_de_la_Fensch	L
+
+#Une étude complète du site, étude historique, diagnostic initial et Évaluation Simplifiée des Risques (ESR) a été remise 16 février 2001 à l'Inspection des Installations Classées.
+
+5l0l0	Une_étude_complète_du_site	N
+5l0l1	diagnostic_initial	N
+5l0l2	Évaluation_Simplifiée_des_Risques	N
+5l0l3	ESR___a_été_remise	N
+5l0l4	16_février_2001	T
+
+#L'ESR classe le site en 2, site à surveiller, pour les eaux souterraines, pollution au droit de l'ancien atelier de goudronnage par des HAP (hydrocarbures aromatiques polycycliques) et au droit de l'ancienne aciérie par des HAP et de l'arsenic, le site est classé banalisable pour les sols.
+
+6l0l0	pollution	O
+6l0l1	au_droit_de	R
+6l0l2	l__ancien_atelier_de_goudronnage	O
+6l0l3	des_HAP	O
+6l0l4	au_droit_de	R
+6l0l5	l__ancienne_aciérie	O
+6l1l0	L__ESR	I
+6l1l1	des_HAP	S
+6l1l2	hydrocarbures_aromatiques_polycycliques	S
+6l1l3	des_HAP	S
+6l1l4	l__arsenic	S
+
+#La surveillance de la nappe par un dispositif de trois piézomètres a été prescrite par arrêté préfectoral du 9 octobre 2001 et sera semestrielle.
+
+7l0l0	La_surveillance	A
+7l0l1	la_nappe	O
+7l0l2	a_été_prescrite	N
+7l0l3	par_arrêté_préfectoral	O
+7l0l4	9_octobre_2001	T
+
+#Le compte rendu de résultats de contrôle de la qualité de la nappe d'octobre 2007 montre que comme lors des contrôles précédents, deux composés présentent des teneurs supérieures à leurs valeurs de gestion réglementaires:
+
+8l0l0	Le_compte_rendu_de_résultats_de_contrôle	N
+8l0l1	la_nappe_d_	N
+8l0l2	octobre_2007	T
+8l1l0	composés	S
+
+#- le fer, à l'amont (Pz5) et à l'aval hydraulique du site (Pz1 et Pz2),
+
+9l0l0	à_l__aval_hydraulique_du_site	L
+9l1l0	fer	S
+
+#- les sulfates, à l'amont (Pz5) et à l'aval hydraulique du site (Pz1).
+
+10l0l0	amont	L
+10l0l1	à_l__aval_hydraulique_du_site	L
+10l1l0	les_sulfates	S
+
+#Le contrôle de la qualité de la nappe réalisé en octobre 2007 montre une augmentation des concentrations en fer dans les eaux souterraines, en comparaison de celles mesurées lors du contrôle précédent de mai 2007.
+
+11l0l0	Le_contrôle	N
+11l0l1	la_qualité_de_la_nappe	O
+11l0l2	réalisé	N
+11l0l3	en_octobre_2007	T
+11l0l4	une_augmentation	N
+11l0l5	fer	O
+11l0l6	de_mai_2007__	T
+11l1l0	fer	S
+
+#Il est à noter que les concentrations les plus élevées de ces trois composés ont été mesurées à l'amont hydraulique du site, dans le piézomètre Pz5.
+
+12l0l0	les_concentrations	O
+12l0l1	ont_été_mesurées	N
+12l0l2	à_l__amont_hydraulique_du_site	L

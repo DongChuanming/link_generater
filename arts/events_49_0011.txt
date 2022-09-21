@@ -1,0 +1,225 @@
+
+#49.0011
+#Usine de transformation de l'aluminium exploitée sur le site de Montreuil Juigné par PECHINEY depuis 1929.
+
+0l0l0	Usine_de	O
+0l0l1	transformation_de_l_	A
+0l0l2	aluminium	O
+0l0l3	exploitée	N
+0l0l4	sur_le_site_de_Montreuil_Juigné	L
+0l0l5	PECHINEY	O
+0l0l6	depuis_1929__	T
+0l1l0	l__aluminium	S
+0l1l1	PECHINEY	I
+
+#Site totalement clos, en zone industrielle, à 300m du centre ville.
+
+1l0l0	Site	O
+1l0l1	en_zone_industrielle	L
+1l0l2	à_300_m_du_centre_ville	L
+
+#Une partie du site a été exploité par la société CEZUS pour la fabrication de produits à base de zirconium.
+
+2l0l0	Une_partie_du_site	O
+2l0l1	a_été_exploité	N
+2l0l2	par	R
+2l0l3	la_société_CEZUS	O
+2l0l4	la_fabrication_de_produits_à_base_de_zirconium	A
+2l1l0	la_société_CEZUS	I
+2l1l1	zirconium	S
+
+#Cette dernière activité a été arrêtée en 1998 et les terrains correspondants retournés à Péchiney.
+
+3l0l0	Cette_dernière_activité	O
+3l0l1	a_été_arrêtée	N
+3l0l2	en_1998	T
+3l0l3	les_terrains_correspondants	O
+3l0l4	retournés	N
+3l0l5	Péchiney	O
+3l1l0	Péchiney	I
+
+#Le site est doté d’une activité de fonderie d’aluminium et d’une activité de traitement de surface (décapage).
+
+4l0l0	Le_site	O
+4l0l1	une_activité_de_fonderie	A
+4l0l2	d__aluminium	A
+4l0l3	une_activité_de	O
+4l0l4	traitement_de_surface	A
+4l0l5	décapage	A
+
+#Site sélectionné dans le cadre de la circulaire du 3 avril 1996.
+
+5l0l0	3_avril_1996__	T
+
+#Pour mémoire, plusieurs investigations environnementales ont eu lieu sur le site de Montreuil-Juigné depuis 1999.
+
+6l0l0	plusieurs_investigations_environnementales	N
+6l0l1	ont_eu_lieu	N
+6l0l2	sur_le_site_de_Montreuil___Juigné	L
+6l0l3	depuis_1999	T
+
+#Elles ont révélé la présence de plusieurs contaminations dans les sols notamment par des solvants chlorés.
+
+7l0l0	plusieurs_contaminations	O
+7l1l0	chlorés	S
+
+#Ils ont été également mis en évidence dans les eaux souterraines.
+
+8l1l0	Ils	S
+
+#Un premier diagnostic a été réalisé par SOGREAH en 2001 (23 sondages) et un diagnostic approfondi par ANTEA en 2006 sur deux zones ciblées : l’ancienne fosse de dégraissage et la zone de dégraissage dans le bâtiment tréfilerie.
+
+9l0l0	Un_premier_diagnostic	N
+9l0l1	a_été_réalisé	N
+9l0l2	SOGREAH	O
+9l0l3	en_2001	T
+9l0l4	un_diagnostic_approfondi	N
+9l0l5	par_ANTEA	O
+9l0l6	en_2006	T
+9l0l7	deux_zones_ciblées	O
+9l0l8	ancienne_fosse_de_dégraissage	O
+9l0l9	et_la_zone_de_dégraissage	O
+9l0l10	dans_le_bâtiment_tréfilerie	L
+9l1l0	SOGREAH	I
+9l1l1	ANTEA	I
+
+#Les teneurs en trichloréthylène (utilisé entre 1929 et 2004) mises en évidence allaient jusqu’à 3,5 mg/kg de matière sèche au niveau de l’ancienne fosse de dégraissage et jusqu’à 2mg/kg au niveau de la zone tréfilerie.
+
+10l0l0	Les_teneurs	O
+10l0l1	entre_1929_et_2004	T
+10l0l2	ancienne_fosse_de_dégraissage	O
+10l0l3	zone_tréfilerie	O
+10l1l0	trichloréthylène	S
+
+#Plusieurs opérations de dépollution ont été réalisées sur l’emprise du site :
+
+11l0l0	Plusieurs_opérations_de_dépollution	N
+11l0l1	ont_été_réalisées	N
+
+#– en 2004 par « Séché Réalisations » au niveau de l’ancienne station d’épuration au sud-est du site (pompage des cuves d’hydrocarbures et trichloréthylène), zone de stockage de fûts et d’hydroxyde d’aluminium (56 tonnes de terres excavées polluées aux hydrocarbures à proximité de la STEP) ;
+
+12l0l0	__en_2004	T
+12l0l1	____Séché_Réalisations	O
+12l0l2	____au_niveau_de_l__ancienne_station_d__épuration_au_sud_est_du_site	L
+12l0l3	_	N
+12l0l4	pompage	N
+12l0l5	des_cuves_d__hydrocarbures	O
+12l0l6	hydroxyde_d__aluminium	O
+12l0l7	excavées_polluées_aux_hydrocarbures	O
+12l0l8	à_proximité_de_la_STEP	L
+12l1l0	____Séché	I
+12l1l1	des	D
+12l1l2	cuves_d__hydrocarbures_et_trichloréthylène	S
+12l1l3	et_d__hydroxyde_d__aluminium	S
+12l1l4	aux_hydrocarbures	S
+
+#– en février 2004 par « Séché Réalisations », au niveau de la zone appelée « atelier 3 » (activités tubes guides en zirconium dans l’emprise actuelle de Constellium Montreuil-Juigné) exploitée de 1967 à 1998 par CEZUS.
+
+13l0l0	__en_février_2004	T
+13l0l1	____Séché_Réalisations	O
+13l0l2	______au_niveau	R
+13l0l3	de_la	O
+13l0l4	zone_appelée	R
+13l0l5	____atelier	O
+13l0l6	guides_en_zirconium	O
+13l0l7	dans_l__emprise_actuelle_de_Constellium_Montreuil__	L
+13l0l8	Juigné___exploitée	N
+13l0l9	de_1967	T
+13l0l10	1998_par	O
+13l1l0	____Séché	I
+13l1l1	guides_en_zirconium	S
+13l1l2	actuelle_de_Constellium_Montreuil	I
+13l1l3	1998_par	I
+
+#Elle a fait l’objet d’une dépollution (pompage et nettoyage de la cuve de trichloréthylène 4, excavation de 937 tonnes de terre et traitement de 29 m³ d’eaux d’exhaure).
+
+14l0l0	Elle	O
+14l0l1	a_fait_l__objet_d_	R
+14l0l2	une_dépollution	N
+14l0l3	pompage	N
+14l0l4	nettoyage	N
+14l0l5	la_cuve_de_trichloréthylène	O
+14l0l6	excavation	N
+14l0l7	tonnes_de_terre	O
+14l0l8	traitement	N
+14l1l0	trichloréthylène	S
+
+#Il subsiste une pollution résiduelle sous voirie d’environ 11,3 mg/Kg au maximum de trichloréthylène.
+
+15l1l0	de_trichloréthylène	S
+
+#Un film de Terralène a été mis en place entre cette zone sous voirie et le remblaiement.
+
+16l0l0	Un_film	O
+16l0l1	Terralène	O
+16l0l2	a_été_mis_en_place	N
+16l0l3	entre_cette_zone	O
+16l0l4	le_remblaiement	N
+
+#L’activité de fabrication de tubes en Zirconium a été reprise par CEZUS puis par AREVA NP devenue Framatome, aujourd’hui, scindée du site de Constellium.
+
+17l0l0	L__activité_de_fabrication_de_tubes_en_Zirconium	A
+17l0l1	a_été_reprise	N
+17l0l2	CEZUS	O
+17l0l3	AREVA_NP	O
+17l0l4	devenue	N
+17l0l5	Framatome	O
+17l0l6	scindée	O
+17l0l7	du_site_de_Constellium	L
+17l1l0	Zirconium	S
+17l1l1	CEZUS	I
+17l1l2	AREVA_NP	I
+17l1l3	Framatome	I
+17l1l4	Constellium	I
+
+#– en 2007-2008, un traitement des sols et des eaux souterraines subsurface par injection d’oxydant a été réalisé par ANTEA au niveau de l’ancienne fosse de dégraissage.
+
+18l0l0	__en_2007___2008	T
+18l0l1	__un_traitement	N
+18l0l2	des_sols_et_des_eaux_souterraines	O
+18l0l3	par_injection_d__oxydant_a_été_réalisé	N
+18l0l4	par_ANTEA	O
+18l0l5	au_niveau_de_l_	R
+18l0l6	ancienne_fosse_de_dégraissage	N
+18l1l0	d__oxydant	S
+18l1l1	par_ANTEA	I
+
+#– début juillet 2009, un traitement des eaux pompées a été mis en place au droit du site (au puits n°11- atelier tréfilerie).
+
+19l0l0	__début_juillet_2009	T
+19l0l1	__un_traitement_des_eaux_pompées	O
+19l0l2	a_été_mis_en_place	N
+19l0l3	au_droit_du_site	L
+
+#Par ailleurs, compte-tenu des teneurs mesurées à l’extérieur du site dépassant la valeur de référence de 10 µg/L pour les eaux destinées à la consommation humaine sur un puits privé, l’exploitant verse une indemnité de compensation au propriétaire qui n’utilise plus son puits (branchement à l’eau potable).
+
+20l0l0	__l__exploitant	O
+20l0l1	verse	R
+20l0l2	une_indemnité	O
+
+#Une surveillance des eaux souterraines est effectuée à fréquence semestrielle (hautes eaux et basses eaux) depuis les années 2000 (tricholoréthylène, hydrocarbures totaux et chlorure de vinyle).
+
+21l0l0	Une_surveillance_des_eaux_souterraines	A
+21l0l1	est_effectuée	N
+21l0l2	depuis_les_années_2000	T
+21l1l0	tricholoréthylène	S
+21l1l1	hydrocarbures_totaux	S
+21l1l2	chlorure	S
+21l1l3	vinyle	S
+
+#Un traitement des eaux souterraines (charbon actif) est réalisé depuis 2009 sur p11 (tréfilerie) et depuis 2014 sur le site (barrière hydraulique au nord - nord/est).
+
+22l0l0	Un_traitement_des_eaux_souterraines	A
+22l0l1	est_réalisé	N
+22l0l2	depuis_2009	T
+22l0l3	depuis_2014	T
+22l0l4	nord___nord___est	O
+22l1l0	charbon_actif	U
+
+#Ce site étant IED, un rapport de base a été réalisé en 2017 dans le cadre du réexamen IED.
+
+23l0l0	Ce_site	O
+23l0l1	un_rapport_de_base	O
+23l0l2	a_été_réalisé	N
+23l0l3	en_2017	T
+23l0l4	réexamen_IED	N

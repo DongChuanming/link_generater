@@ -1,0 +1,324 @@
+
+#64.0130
+#Usine de négoce et de conditionnement de produits chimiques de base et de produits dérivés de la chimie exploitée depuis 1991 par la Société GACHES Chimie sur la commune de MOURENX.
+
+0l0l0	Usine	O
+0l0l1	de_négoce_et_de_conditionnement_de_produits_chimiques_de_base_et_de_produits_dérivés_de_la_chimie	A
+0l0l2	exploitée	N
+0l0l3	depuis_1991	T
+0l0l4	la_Société_GACHES_Chimie	O
+0l0l5	sur_la_commune_de_MOURENX	L
+0l1l0	la_Société_GACHES_Chimie	I
+
+#La société GACHES Spécialités est également implantée sur le site depuis 1995.
+
+1l0l0	La_société_GACHES_Spécialités	O
+1l0l1	est_également_implantée	N
+1l0l2	sur_le_site	L
+1l0l3	depuis_1995	T
+1l1l0	La_société_GACHES_Spécialités	I
+
+#Elle fait partie du groupe GACHES Chimie.
+
+2l0l0	Elle	O
+2l0l1	fait_partie_du	R
+2l0l2	groupe_GACHES_Chimie	O
+
+#Cette société dispose de 2 bâtiments de stockage et de vente aux entreprises et aux particuliers de produits pour piscines et  pressings.
+
+3l0l0	Cette_société	O
+3l0l1	dispose_de	R
+3l0l2	2_bâtiments_de_stockage	O
+3l0l3	vente_aux_entreprises_et_aux_particuliers_de_produits_pour_piscines_et___pressings	A
+
+#La société Gaches chimie a été autorisée à exploiter ses installations par arrêté préfectoral du 24 décembre 2010.
+
+4l0l0	La_société_Gaches_chimie	O
+4l0l1	a_été_autorisée_à_exploiter	N
+4l0l2	ses_installations	O
+4l0l3	arrêté_préfectoral_du	O
+4l0l4	24_décembre_2010__	T
+4l1l0	La_société_Gaches_chimie	I
+
+#Cet arrêté a été pris dans le cadre d'une régularisation.
+
+5l0l0	Cet_arrêté	O
+5l0l1	a_été_pris	N
+5l0l2	dans_le_cadre_d_	R
+5l0l3	une_régularisation	N
+
+#1 - DIAGNOSTIC
+
+6l0l0	DIAGNOSTIC	N
+
+#Dans le courant de l'été 2013, l'exploitant entreprend, avec le bureau d'études ARCADIS, la recherche de l'origine de l'impact de la nappe par du Perchloéthylène (PCE).
+
+7l0l0	Dans_le_courant_de_l__été_2013__	T
+7l0l1	l__exploitant	O
+7l0l2	entreprend	N
+7l0l3	le_bureau_d__études_ARCADIS	O
+7l0l4	la_recherche	N
+7l0l5	l__origine	O
+7l0l6	la_nappe	N
+7l0l7	Perchloéthylène	O
+7l1l0	ARCADIS	I
+7l1l1	Perchloéthylène	S
+7l1l2	PCE	S
+
+#Un nouveau piézomètre PZ4 est installé en septembre 2014, 5 sondages de sols sont réalisés.
+
+8l0l0	Un_nouveau_piézomètre_PZ4	O
+8l0l1	est_installé_en	N
+8l0l2	septembre_2014__	T
+8l0l3	5_sondages_de_sols	O
+8l0l4	sont_réalisés	N
+
+#Le 02/10/2014, l'inspection demande à l'exploitant de fournir, sous 6 mois, une étude de caractérisation de  l’état de contamination des sols et des eaux souterraines, l'interprétation de cet état et, si nécessaire, la proposition d'une solution de gestion adéquate.
+
+9l0l0	Le_02_10_2014	T
+9l0l1	l__exploitant	O
+9l0l2	sous_6_mois	T
+9l0l3	__l__état_de_contamination	O
+
+#Le rapport d'étude de la société Arcadis, daté du 29/04/2015  se limite à l'analyse des eaux souterraines :
+
+10l0l0	Le_rapport_d__étude	O
+10l0l1	la_société_Arcadis	O
+10l0l2	daté_du_29_04_2015	T
+10l0l3	__se_limite	R
+10l0l4	à_l__analyse	N
+10l0l5	des_eaux_souterraines	O
+10l1l0	la_société_Arcadis	I
+
+#- sens d'écoulement vers le nord/nord_ouest en direction du Gave de Pau,
+
+11l0l0	nord_ouest	O
+11l0l1	en_direction_du_Gave_de_Pau	L
+
+#- impact net en PCE au droit de PZ4 et plus à l'aval, en limite du site, en PZ3.
+
+12l0l0	au_droit_de	L
+12l0l1	PZ4	O
+12l0l2	plus	O
+12l0l3	à_l__aval	L
+12l0l4	en_limite_du_site	L
+12l0l5	en_PZ3	R
+12l0l6	_	O
+
+#Il y a donc bien une source identifiée dans ce secteur, bien que non délimitée exactement.
+
+13l0l0	une_source	O
+
+#Compte tenu de la présence de cet impact en limite aval de site, il est vraisemblable qu'il soit présent hors site.
+
+14l0l0	cet_impact	O
+14l0l1	en_limite_aval_de_site	L
+
+#Toutefois son extension à l'aval ne peut être appréhendé en l'état,
+
+15l0l0	l__aval	O
+
+#- les traces en PCE, dichloroéthane et chlorure de vinyle à l'aval placent l'ouvrage PZ3 dans le panache de pollution et PZ4 dans la source.
+
+16l1l0	PCE	S
+16l1l1	dichloroéthane	S
+16l1l2	chlorure_de_vinyle	S
+
+#On remarquera par ailleurs que la déchloration naturelle du PCE apparaît ici très faible car les conditions du milieu n'y sont pas favorables.
+
+17l0l0	déchloration_naturelle	N
+17l0l1	PCE	O
+17l1l0	PCE	I
+
+#Ce rapport ne répond pas à la demande de l'inspection du 02/10/2014 ci-dessus, il manque en effet :
+
+18l0l0	la_demande	O
+18l0l1	l__inspection_du_02_10_2014	T
+
+#- l'étude historique et documentaire du site afin de cibler toutes les éventuelles sources potentielles de pollution,
+
+19l0l0	cibler_toutes_les_éventuelles_sources_potentielles_de_pollution	O
+
+#- le schéma conceptuel complet : caractérisation et étendue du panache, caractérisation des éventuels effets sanitaires ou de l'éventuel impact sur le milieu (Gave de Pau notamment),
+
+20l0l0	Gave_de_Pau	L
+20l1l0	Gave_de_Pau	U
+
+#- la proposition de mesures de gestion,
+
+
+#La campagne d'analyse du 23/07/2015 sur les piézomètres sur site et les piézomètres et puits hors site, montrent un impact du PCE de 150µg/l à l'aval immédiat et 59 µg/l dans le puits à l'aval éloigné.
+
+22l0l0	La_campagne_d__analyse	N
+22l0l1	23_07_2015	T
+22l0l2	puits	O
+22l0l3	hors_site	L
+22l0l4	un_impact	N
+22l1l0	PCE	S
+
+#La campagne d'analyse du 23/09/2015 sur les piézomètres sur site confirme l'impact au droit des PZ3 et PZ4 (228 et 516 µg/l).
+
+23l0l0	La_campagne_d__analyse	N
+23l0l1	23_09_2015	T
+23l0l2	l__impact	O
+
+#L'arrêté du 07/01/206 prescrit  à l'échéance de 3 mois, le diagnostic approfondi du site, sols et nappe et la définition des mesures de gestion.
+
+24l0l0	07_01_206	T
+24l0l1	prescrit	N
+24l0l2	__à	T
+24l0l3	l__échéance	O
+24l0l4	de_3_mois	T
+24l0l5	__le_diagnostic_approfondi	N
+24l0l6	et_la_définition_des_mesures_de_gestion	O
+
+#L'étude réalisée en avril 2016  :
+
+25l0l0	étude_réalisée	N
+25l0l1	en_avril_2016	T
+
+#- montre l'absence d'impact dans la partie est du site,
+
+26l0l0	dans_la_partie_est_du_site	L
+
+#- confirme l'impact par le PCE au niveau de la zone de stockage de déchets de PCE en fûts,
+
+27l0l0	l__impact	O
+27l1l0	PCE	I
+27l1l1	déchets_de_PCE	I
+
+#- permet de délimiter la principale source de pollution au niveau du stockage de PCE et de la zone de dépotage.
+
+28l0l0	délimiter	N
+28l0l1	la_principale_source_de_pollution	O
+28l0l2	la_zone_de_dépotage	O
+28l1l0	stockage_de_PCE	I
+
+#L'analyse du piézair donne une concentration de 110 mg/m3. de PCE.
+
+29l1l0	PCE	S
+
+#Cette étude ne répond pas aux objectifs de l'arrêté du 07/01/2016 ci-dessus et doit être complétée par la caractérisation de la source et du panache et des produits de dégradation du PCE, ainsi que par l'élaboration du schéma conceptuel.
+
+30l0l0	07_01_2016	T
+30l0l1	panache	O
+30l0l2	l__élaboration	N
+30l0l3	du_schéma_conceptuel	O
+30l1l0	PCE	I
+
+#Les solutions de gestion devront être proposées.
+
+
+#2 - TRAVAUX
+
+32l0l0	TRAVAUX	N
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+33l0l0	SURVEILLANCE_DES_EAUX	A
+33l0l1	SOUTERRAINES	O
+33l1l0	EAUX_SOUTERRAINES	I
+
+#L'arrêté d'autorisation du 24/12/2010 prescrit la surveillance périodique suivante :
+
+34l0l0	L__arrêté_d__autorisation	O
+34l0l1	24_12_2010	T
+34l0l2	prescrit	R
+34l0l3	la_surveillance_périodique	A
+
+#1.
+
+
+#eux puits, au moins, sont implantés en aval et un puits servant de référence en amont du site de l'installation ; la définition du nombre de puits et de leur implantation est faite à partir des conclusions d'une étude relative au contexte hydrogéologique local réalisée par l’exploitant.
+
+36l0l0	eux_puits	O
+36l0l1	implantés_en_aval	L
+36l0l2	un_puits	O
+36l0l3	servant	R
+36l0l4	de_référence	O
+36l0l5	en_amont_du_site_de_l__installation	L
+
+#2.
+
+
+#eux fois par an, au moins, le niveau piézométrique est relevé et des prélèvements sont effectués dans la nappe.
+
+38l0l0	fois_par_an	T
+38l0l1	sont_effectués	N
+38l0l2	la_nappe	O
+
+#La fréquence des prélèvements est déterminée sur la base notamment de l'étude citée au point 1 ci-dessus.
+
+
+#3.
+
+
+#'eau prélevée fait l'objet de mesures des substances pertinentes susceptibles de caractériser une éventuelle pollution de la nappe compte tenu de l'activité de l'installation.
+
+41l0l0	fait_l__objet	R
+41l0l1	de_mesures	N
+41l0l2	une_éventuelle_pollution_de_la_nappe	N
+41l0l3	activité_de_l_	A
+
+#Les analyses porteront a minima sur les paramètres suivants : pH, température, concentration en chlore et ses dérivés, hydrocarbures totaux.
+
+42l1l0	chlore	S
+42l1l1	ses_dérivés	U
+42l1l2	hydrocarbures_totaux	S
+
+#Les résultats de mesures sont transmis à l'inspection des installations classées dans le mois qui suit.
+
+43l0l0	l__inspection_des_installations_classées	O
+43l0l1	dans	T
+43l0l2	le_mois	T
+
+#Les premiers résultats d'analyses seront transmis dans les six mois qui suivent la signature du présent arrêté d'autorisation.
+
+44l0l0	transmis	N
+44l0l1	dans_les_six_mois_qui_suivent_la_signature	T
+44l0l2	du_présent_arrêté_d__autorisation	O
+
+#Toute anomalie lui est signalée dans les meilleurs délais.
+
+45l0l0	est_signalée	N
+
+#Si ces résultats mettent en évidence une pollution des eaux souterraines, l'exploitant détermine par tous les moyens utiles si ses activités sont à l'origine ou non de la pollution constatée.
+
+46l0l0	eaux_souterraines	O
+46l0l1	l__exploitant	O
+
+#Il informe le préfet du résultat de ses investigations et, le cas échéant, des mesures prises ou envisagées.
+
+47l0l0	Il	O
+47l0l1	informe	N
+47l0l2	le_préfet	O
+47l0l3	des_mesures_prises	N
+47l1l0	le_préfet	I
+
+#L'arrêté préfectoral du 07/01/2016 renforce la surveillance périodique des eaux souterraines par le nombre de piézomètres, la fréquence trimestrielle et les paramètres suivants : pH, Température, O2, DDP, Potentiel rédox, DCO, COT, Nitrates, Nitrites, HCTX, Fer, Manganèse, As, Sulfates, Chlorures, COHV dont perchloréthylène et trichloréthylène.
+
+48l0l0	L__arrêté_préfectoral	O
+48l0l1	07_01_2016	T
+48l0l2	renforce	N
+48l0l3	la_surveillance_périodique_des_eaux_souterraines	A
+48l1l0	pH	S
+48l1l1	O2___DDP	S
+48l1l2	DCO	S
+48l1l3	COT	S
+48l1l4	Nitrates	S
+48l1l5	Nitrites	S
+48l1l6	HCTX	S
+48l1l7	Fer	S
+48l1l8	Manganèse	S
+48l1l9	As	S
+48l1l10	Sulfates	S
+48l1l11	Chlorures	S
+48l1l12	COHV	S
+48l1l13	perchloréthylène	S
+48l1l14	trichloréthylène	S
+
+#Les campagnes de 2015 montrent un impact sur site par le PCE, de 50 à 516 µg/l dans 2 piézos, mais aussi hors site de 14 à 150 µg/l.
+
+49l0l0	Les_campagnes_de	N
+49l0l1	2015	T
+49l1l0	le_PCE	I

@@ -1,0 +1,311 @@
+
+#54.0049
+#Ancien site industriel lié au textile : de 1775 à 1914 fabrique de draps pour l'armée de 1921 à 1958 usine textile (Ets GLORIEUX).
+
+0l0l0	Ancien_site	O
+0l0l1	industriel_lié_au_textile	A
+0l0l2	de_1775_à_1914	T
+0l0l3	fabrique_de_draps	A
+0l0l4	l__armée	O
+0l0l5	de_1921_à_1958	T
+0l0l6	Ets_GLORIEUX	O
+0l1l0	Ets_GLORIEUX	I
+
+#Depuis 1966, fabrication de sièges pour l'automobile.
+
+1l0l0	Depuis_1966	T
+1l0l1	__fabrication_de_sièges	A
+
+#En 2008, une partie des activités est arrêtée.
+
+2l0l0	En_2008__	T
+2l0l1	une_partie_des_activités	O
+2l0l2	est_arrêtée	N
+
+#FAURECIA SIEGES AUTOMOBILE reste exploitant d'une activité d'assemblage de sièges automobile au titre de la déclaration des installations classées pour la protection de l'environnement sur une partie du site jusqu'en 2010.
+
+3l0l0	FAURECIA_SIEGES_AUTOMOBILE	O
+3l0l1	reste_exploitant	N
+3l0l2	une_activité_d__assemblage_de_sièges_automobile	A
+3l0l3	au_titre_de	R
+3l0l4	la_déclaration	N
+3l0l5	des_installations_classées	O
+3l0l6	la_protection_de_l__environnement	O
+3l0l7	une_partie_du_site	O
+3l0l8	jusqu__en_2010__	T
+3l1l0	FAURECIA_SIEGES_AUTOMOBILE	I
+
+#En novembre 2010, la société FAURECIA informe l'inspection de sa cessation d'activité définitive à la date du 31 décembre 2010.
+
+4l0l0	En_novembre_2010__	T
+4l0l1	la_société_FAURECIA	O
+4l0l2	informe	N
+4l0l3	l__inspection	O
+4l0l4	sa_cessation_d__activité_définitive	N
+4l0l5	à_la_date_du_31_décembre_2010__	T
+4l1l0	la_société_FAURECIA	I
+
+#Le diagnostic initial, comprenant l'étape A (étude Historique) et l'étape B (étude des sols), ainsi que l'étude simplifiée des risques (ESR) ont été remis à l'inspection le 15 janvier 2001, conformément aux prescriptions de l'arrêté préfectoral du 3 novembre 1999.
+
+5l0l0	Le_diagnostic_initial	N
+5l0l1	l__étape_B	O
+5l0l2	l__étude_simplifiée_des_risques	N
+5l0l3	ont_été_remis	N
+5l0l4	l__inspection	O
+5l0l5	le_15_janvier_2001__	T
+5l0l6	l__arrêté_préfectoral	O
+5l0l7	3_novembre_1999__	T
+
+#Ces études ont mis en évidence plusieurs sources de pollutions historiques:
+
+6l0l0	plusieurs_sources_de_pollutions	O
+
+#- zone de l'ancienne activité textile;
+
+
+#- zone de l'ancienne fabrication de sièges;
+
+
+#- zone de l'ancienne station service;
+
+
+#- zone des transformateurs.
+
+
+#A l'issu de l'ESR, le site est classé 2 (à surveiller) vis à vis des eaux superficielles, La Crusnes, et des sols dans le cadre d'un usage non sensible.
+
+11l0l0	A_l__issu_de	R
+11l0l1	l_	N
+11l0l2	le_site	O
+11l0l3	est	R
+11l0l4	classé_2	O
+11l0l5	La_Crusnes	L
+11l0l6	sols	O
+11l0l7	dans_le_cadre_d_	R
+11l0l8	un_usage	O
+
+#Par arrêté préfectoral du 15 avril 2002, la surveillance des eaux de La Crusnes et des eaux souterraines est prescrite.
+
+12l0l0	Par_arrêté_préfectoral	O
+12l0l1	du_15_avril_2002__	T
+12l0l2	la_surveillance_des_eaux_de_La_Crusnes	O
+12l0l3	eaux_souterraines	A
+12l0l4	est_prescrite	N
+
+#Elle est réalisée au travers d'un réseau de 4 piézomètres ; les paramètres suivis sont pH, DCO, As, Cr, Cu, hydrocarbures totaux (HTC).
+
+13l1l0	pH	S
+13l1l1	DCO	S
+13l1l2	As	S
+13l1l3	Cr	S
+13l1l4	Cu	S
+13l1l5	hydrocarbures_totaux	S
+13l1l6	HTC	S
+
+#Le rapport d’analyses du 8 février 2006 révèle un problème de pollution par les hydrocarbures en amont du site.
+
+14l0l0	analyses_du_8_février_2006	T
+14l0l1	révèle	R
+14l0l2	un_problème_de_pollution	O
+14l0l3	hydrocarbures	O
+14l0l4	en_amont_du_site	L
+14l1l0	hydrocarbures	S
+
+#Le diagnostic complémentaire des sols remis fin décembre 2006 a permis de mettre en évidence :
+
+15l0l0	Le_diagnostic_complémentaire_des_sols_remis	N
+15l0l1	fin_décembre_2006	T
+
+#- la présence d'une nappe recoupée entre 2 et 4 m de profondeur au droit du site;
+
+16l0l0	au_droit_du_site	L
+
+#- des dépassements des valeurs de gestion couramment utilisées dans les sols en : arsenic, cuivre, nickel, plomb et naphtalène;
+
+17l0l0	des_valeurs_de_gestion	O
+17l0l1	les_sols	O
+17l0l2	arsenic	O
+17l1l0	arsenic	S
+17l1l1	cuivre	S
+17l1l2	nickel	S
+17l1l3	plomb	S
+17l1l4	naphtalène	S
+
+#- des dépassements des valeurs de gestion couramment utilisées  dans les eaux souterraines en chlorure de vinyle.
+
+18l0l0	des_valeurs_de_gestion	O
+18l1l0	en_chlorure_de_vinyle	S
+
+#Suite à la cessation partielle d'activité en 2008, l'inspection a constaté en mai 2008 que toutes les cuves ont été vidangées et les produits évacués.
+
+19l0l0	Suite_à	R
+19l0l1	la_cessation_partielle_d__activité	N
+19l0l2	en_2008__	T
+19l0l3	l__inspection	O
+19l0l4	a_constaté	N
+19l0l5	en_mai_2008	T
+19l0l6	ont_été_vidangées	N
+19l0l7	les	O
+19l0l8	produits_évacués	N
+
+#La proposition de mesures de gestion et analyse des risques résiduels d'avril 2008 a été remis à l'inspection.
+
+20l0l0	La_proposition_de_mesures_de_gestion	O
+20l0l1	analyse_des_risques	N
+20l0l2	avril_2008	T
+20l0l3	a	N
+
+#Dans le cadre de la cessation d'activité et en l'absence d'avis contraire de la commune de PIERREPONT, l'usage futur du site sera industriel.
+
+21l0l0	Dans_le_cadre_de	R
+21l0l1	la_cessation_d__activité	N
+21l0l2	la_commune	O
+21l0l3	PIERREPONT	O
+21l0l4	l__usage_futur_du_site	O
+21l0l5	sera_industriel	N
+
+#Le plan de gestion prévoyait initialement :
+
+22l0l0	Le_plan_de_gestion	O
+
+#1- au niveau de la zone de déchets qui abritait une fosse enterrée un traitement hors site : excavation des terres, analyses in situ et envoi des terres dépassant les seuils fixés en centre de stockage agréé avec remblai des zones traitées par des matériaux sains.
+
+23l0l0	niveau_de	R
+23l0l1	la_zone	O
+23l0l2	abritait_une_fosse_enterrée	O
+23l0l3	un_traitement_hors_site	N
+23l0l4	excavation_des_terres	N
+23l0l5	analyses	O
+23l0l6	in_situ	N
+23l0l7	envoi_des_terres	O
+23l0l8	remblai	N
+
+#2- au niveau d'une zone non couverte et impactée en métaux, travaux de confinement.
+
+24l0l0	au_niveau_d_	R
+24l0l1	une_zone_non_couverte	L
+24l0l2	métaux	O
+24l0l3	travaux_de_confinement	N
+
+#3- en ce qui concerne les eaux souterraines, traitement de la nappe afin de diminuer les teneurs en composés chlorés en mettant en place un traitement de la zone PZ2 par injection d’oxydant (permanganate).
+
+25l0l0	traitement	N
+25l0l1	la_nappe	O
+25l0l2	mettant_en_place_un_traitement	N
+25l0l3	injection_d__oxydant	N
+25l1l0	composés_chlorés	U
+25l1l1	d__oxydant	S
+25l1l2	permanganate	S
+
+#Le bureau d’études préconisait par ailleurs de poursuivre la surveillance de la qualité des eaux superficielles et souterraines et de réaliser un bilan quadriennal.
+
+26l0l0	Le_bureau_d__études	O
+26l0l1	la_surveillance_de_la_qualité_des_eaux_superficielles	A
+
+#Les analyses effectuées montrent que la qualité des eaux de la Crusnes est compatible avec les usages qui en sont faits, à savoir pêche et abreuvage en aval du site.
+
+27l0l0	Les_analyses_effectuées	N
+27l0l1	la_Crusnes	O
+27l0l2	pêche	A
+27l0l3	abreuvage	A
+27l0l4	en_aval_du_site	L
+
+#Le plan de gestion a été mis en œuvre en 2010-2011 :
+
+28l0l0	Le_plan_de_gestion	O
+28l0l1	a_été_mis_en_œuvre	N
+28l0l2	en_2010___2011	T
+
+#1- au niveau de la zone de déchets : les objectifs de dépollution ont été globalement atteints dans la "zone A".
+
+29l0l0	les_objectifs	O
+29l0l1	de_dépollution	N
+29l0l2	ont_été_globalement_atteints	N
+29l0l3	la___zone	O
+
+#Dans la "zone B", des indices visuels et organoleptiques de pollution ont amené à poursuivre l'excavation au-delà de ce qui avait été initialement prévu dans le plan de gestion jusqu'au toit de la nappe d'accompagnement de la Crusnes.
+
+30l0l0	Dans	R
+30l0l1	la___zone_B	O
+30l0l2	ont_amené_à_poursuivre_l__excavation	N
+30l0l3	au_delà_de	R
+30l0l4	ce_qui_avait_été_initialement_prévu	N
+30l0l5	la_nappe	O
+30l0l6	accompagnement_de_la_Crusnes	L
+
+#Les travaux d'excavation ont été arrêtés dès lors que les indices visuels et olfactifs se sont améliorés et que les tests réalisés in situ ont montré une diminution de la pollution.
+
+31l0l0	Les_travaux_d__excavation	N
+31l0l1	ont_été_arrêtés	N
+31l0l2	dès_lors	O
+31l0l3	réalisés_in_situ	N
+
+#Suite à ces constats, le plan de gestion a été adapté : la société prévoit le remplacement total des 1 300 tonnes de terres excavées par des terres propres et la mise en place d'une couche d'argile en fond de remblai afin de limiter le dégazage des composés les plus voltails et les transferts verticaux et horizontaux de polluants.
+
+32l0l0	le_plan_de_gestion	O
+32l0l1	a_été_adapté	N
+32l0l2	la_société	O
+32l0l3	prévoit	R
+32l0l4	le_remplacement_total	N
+32l0l5	tonnes_de_terres_excavées	N
+32l0l6	la_mise_en_place_d_	N
+32l0l7	fond_de_remblai	L
+32l0l8	dégazage	N
+32l1l0	polluants	S
+
+#L'analyse des risques résiduels démontre qu'à l'issue de ces travaux, l'état des milieux serait compatible avec un usage de type industriel.
+
+33l0l0	compatible_avec	R
+33l0l1	un_usage_de_type_industriel	A
+
+#2- Le plan de gestion initial a été révisé en juin 2009.
+
+34l0l0	Le_plan_de_gestion_initial	O
+34l0l1	a_été_révisé	N
+34l0l2	en_juin_2009__	T
+
+#L'exploitant envisage désormais, pour la zone non couverte impactée en métaux, uniquement des restrictions d'accès ; l'analyse des risques montrant que cette solution est acceptable pour un travailleur restant une heure par jour sur le site.
+
+35l0l0	L__exploitant	O
+35l0l1	envisage_désormais	T
+35l0l2	la_zone_non_couverte_impactée	O
+35l0l3	métaux	O
+
+#L'inspection a indiqué à l'exploitant que cette simple mesure de restriction d'usage par l'installation de barrières ne constitue pas une solution pérenne.
+
+36l0l0	L__inspection	O
+36l0l1	a	N
+36l0l2	l__exploitant	O
+36l0l3	cette_simple_mesure_de_restriction_d_	N
+36l0l4	usage	O
+36l0l5	l__installation_de_barrières	N
+
+#L'inspection a demandé à l'exploitant de réfléchir à d'autres mesures de gestion et de transmettre un bilan coûts-avantages.
+
+37l0l0	L__inspection	O
+37l0l1	a	N
+37l0l2	l__exploitant	O
+
+#3- Les opération d'oxydation in situ des composés chlorés présents dans la nappe ont débuté en novembre 2010.
+
+38l0l0	3_	O
+38l0l1	Les_opération_d__oxydation_in_situ	N
+38l0l2	ont_débuté	N
+38l0l3	en_novembre_2010__	T
+38l1l0	composés_chlorés	S
+
+#A la date de la dernière visite d'inspection, le 15 février 2011, des travaux de dépollution des eaux souterraines sont toujours en cours.
+
+39l0l0	A	T
+39l0l1	la	N
+39l0l2	date	T
+39l0l3	de_la_dernière_visite_d__inspection	N
+39l0l4	le_15_février_2011__	T
+39l0l5	des_travaux_de_dépollution	N
+39l0l6	eaux_souterraines	O
+39l0l7	toujours_en_cours	T
+
+#L'inspection est en attente de la transmission d'un bilan des travaux de dépollution des eaux souterraines.
+
+40l0l0	des_travaux_de_dépollution	N
+40l0l1	des_eaux_souterraines	A

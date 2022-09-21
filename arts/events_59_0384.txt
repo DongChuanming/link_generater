@@ -1,0 +1,161 @@
+
+#59.0384
+#La station-service se situe en zone sensible : milieu industriel et commerciale à densité de population forte.
+
+0l0l0	La_station___service	O
+0l0l1	se_situe_en_zone_sensible	L
+
+#Elle est placée en bordure de l'avenue de Villars à 2 voies  sens unique et à trafic important.
+
+1l0l0	Elle	O
+1l0l1	est_placée_en_bordure_de_l__avenue_de_Villars_à_2_voies___sens_unique	L
+
+#A proximité, se trouvent des habitations, une école et un lycée.
+
+2l0l0	A_proximité	L
+2l0l1	se_trouvent_des_habitations	L
+2l0l2	une_école	O
+
+#A proximité immédiate du site, coule l'Escaut.
+
+3l0l0	A_proximité_immédiate_du_site	L
+3l0l1	l__Escaut	L
+
+#L'étude des sols a permis de préciser la géologie et l'hydrogéologie du site :
+
+4l0l0	hydrogéologie	N
+
+#- la nature sablo-limoneuse de remblais sous le site
+
+5l0l0	le_site	O
+
+#- la formation géologique prédominante sur le site constituée d'alluvions recouvrant des limons et la craie grise glauconieuse du Turonien supérieur
+
+6l1l0	Turonien	S
+
+#- l'absence de nappe phréatique au droit du site jusqu'à une profondeur de 6 m
+
+
+#- la présence de 4 captages AEI et 2 puits à usage domestique à proximité du site : les aquifères captés sont celle de la craie pour les AEI (le plus proche se situe à 750 m du site) et celles des alluvions pour les puits (situés à 20 m au Nord du site).
+
+8l0l0	4_captages_AEI	O
+8l0l1	2	O
+8l0l2	puits_à_usage_domestique	A
+8l0l3	à_proximité_du_site	L
+8l0l4	situe_à_750_m_du_site	L
+8l0l5	situés_à_20_m_au_Nord_du_site	L
+
+#Cessation d'activité le 09/04/2001.
+
+9l0l0	Cessation_d__activité	N
+9l0l1	le_09_04_2001__	T
+
+#Diagnostic initial  :
+
+
+#- présence de pollution par les hydrocarbures (teneur supérieure à 1000 mg/kg), sous forme adsorbée, dans une zone localisée à côté de la cuve de GO ainsi dans les sables de remblais des cuves de GO et de SP95
+
+11l0l0	hydrocarbures	O
+11l0l1	adsorbée	N
+11l0l2	dans_une_zone	O
+11l0l3	localisée_à_côté_de_la_cuve_de_GO	L
+11l1l0	hydrocarbures	S
+11l1l1	cuve_de_GO	D
+11l1l2	cuves_de_GO	D
+11l1l3	SP95	I
+
+#- l'absence d'une pollution par les vapeurs d'hydrocarbures sur tous les sondages réalisés.
+
+12l0l0	les_sondages_réalisés	N
+12l1l0	vapeurs_d__hydrocarbures	U
+
+#Actions préconisées :
+
+
+#- enlèvement des cuves enterrées (6 cuves)
+
+14l0l0	enlèvement_des_cuves_enterrées	N
+14l1l0	cuves_enterrées	D
+
+#- contrôle de la qualité des terres en fond de fouille pour un tri sélectif des terres polluées jusqu'à une teneur inférieure à 100 mg/kg
+
+15l0l0	contrôle	N
+15l0l1	terres	O
+15l0l2	terres_polluées	O
+
+#- évacuation des terres polluées vers un centre de traitement
+
+16l0l0	évacuation_des_terres_polluées	N
+16l0l1	un_centre_de_traitement	O
+
+#Travaux réalisés :
+
+
+#- nettoyage et dégazage des cuves puis destruction (ferraillage) (juillet 2001)
+
+18l0l0	__nettoyage	N
+18l0l1	dégazage_des_cuves_puis_destruction	N
+18l0l2	ferraillage	N
+18l0l3	__juillet_2001	T
+18l1l0	cuves	D
+
+#- excavation des terres polluées dans la zone localisée près de la cuve de GO jusqu'à une profondeur de 3 m et retrait des sables de remblais des cuves de 20 m3 de GO et de 15 m3 de SP95
+
+19l0l0	excavation	N
+19l0l1	des_terres_polluées	O
+19l0l2	dans	L
+19l0l3	la_zone	O
+19l0l4	localisée_près_de_la_cuve_de_GO	L
+19l0l5	retrait_des_sables_de_remblais	N
+19l1l0	cuve	D
+19l1l1	de_GO	U
+19l1l2	cuves	D
+19l1l3	GO	I
+19l1l4	SP95	U
+
+#- 123,28 t de terres polluées extraites
+
+20l0l0	123_28_t_de_terres_polluées_extraites	O
+
+#- stockage provisoire sur bâche des terres polluées avant leur évacuation du site
+
+21l0l0	stockage_provisoire	N
+21l0l1	terres_polluées	O
+21l0l2	avant	R
+21l0l3	leur_évacuation_du_site	N
+
+#- traitement par biodégradation (BIONOR à Courrières)
+
+22l1l0	BIONOR	I
+
+#- contrôle des terres en fond de fouille
+
+23l0l0	contrôle_des_terres	O
+
+#- comblement des excavations par des terres saines extérieures au site
+
+24l0l0	comblement_des_excavations	N
+24l0l1	des_terres_saines	O
+24l0l2	extérieures_au_site	L
+
+#Permis de démolir demandé en mai 2002 pour un projet de réalisation d'un bâtiment commercial.
+
+25l0l0	Permis_de_démolir	N
+25l0l1	demandé	N
+25l0l2	en_mai_2002	T
+25l0l3	un_projet	O
+25l0l4	de_réalisation_d_	N
+25l0l5	un_bâtiment_commercial	O
+
+#Ce projet s'est concrétisé: utilisation actuelle: commerce de matériel orthopédique.
+
+26l0l0	Ce_projet	O
+26l0l1	s__est_concrétisé	N
+26l0l2	__utilisation	O
+26l0l3	commerce_de_matériel_orthopédique	A
+
+#Site mis en sécurité vis à vis des tiers.
+
+
+#Action de l’administration terminée.
+

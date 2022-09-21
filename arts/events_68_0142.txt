@@ -1,0 +1,341 @@
+
+#68.0142
+#L’entreprise est implantée sur le site depuis plus d' un siècle.
+
+0l0l0	L__entreprise	O
+0l0l1	est_implantée	N
+0l0l2	sur_le_site	L
+0l0l3	depuis_plus_d___un_siècle__	T
+
+#A l’époque l’entreprise a fabriqué des tanins pour l’industrie textile et le cuir, des produits d’entretien liquide (savons), des produits en poudre et des emballages métalliques.
+
+1l0l0	a_fabriqué	A
+1l0l1	le_cuir	O
+1l0l2	produits_d__entretien_liquide	O
+1l0l3	des_emballages_métalliques	O
+1l1l0	tanins	U
+1l1l1	savons	U
+
+#Pendant la seconde guerre mondiale l’activité s’est orientée vers la fabrication d’encres (encre de marquage).
+
+2l0l0	Pendant_la_seconde_guerre_mondiale	T
+2l0l1	l__activité	O
+2l0l2	s__est_orientée_vers	N
+2l0l3	la_fabrication_d__encres	A
+2l0l4	encre_de_marquage	A
+
+#Les dernières activités ont été des activités de :
+
+
+#négoce de produits d’entretien et d’emballage
+
+4l0l0	négoce_de_produits_d__entretien	O
+4l0l1	et_d__emballage	A
+
+#fabrication d’encre de marquage.
+
+5l0l0	fabrication_d__encre_de_marquage	A
+
+#Par ailleurs, en mai 2006: pollution des sols, par des hydrocarbures (débordement d’une cuve de FOD, lors d’une opération de remplissage de la cuve).
+
+6l0l0	en_mai_2006	T
+6l0l1	__pollution	N
+6l0l2	des_sols	O
+6l0l3	des_hydrocarbures	O
+6l0l4	débordement	N
+6l0l5	une_cuve_de_FOD	O
+6l0l6	opération	R
+6l0l7	de_remplissage_de_la_cuve	A
+6l1l0	hydrocarbures	S
+6l1l1	FOD	S
+
+#Les principales de campagnes d'affouillement et démolition ont eu lieu en:
+
+7l0l0	Les_principales_de	O
+7l0l1	campagnes_d__affouillement	N
+7l0l2	démolition_ont_eu_lieu	N
+7l0l3	en__	T
+
+#Juillet 2006 : 70 t de terres souillées en Hydrocarbures (centre de désorption thermique GRS VALTECH de St Pierre de Chandieu-69),
+
+8l0l0	Juillet_2006	T
+8l0l1	70_t_de_terres_souillées	O
+8l0l2	GRS_VALTECH	O
+8l0l3	St_Pierre_de_Chandieu_69	L
+8l1l0	Hydrocarbures	S
+8l1l1	GRS_VALTECH	I
+
+#Décembre 2008/Février2009: travaux démolition des bâtiments, et enlèvement des fondations.
+
+9l0l0	Décembre_2008___Février2009	T
+9l0l1	__travaux_démolition	N
+9l0l2	des_bâtiments	O
+9l0l3	enlèvement_des_fondations	N
+
+#Lors de cette opération, les terrains souillés d'hydrocarbures (localisés sous dalle comme signalé dans le rapport VEOLIA du 10 août 2006) ont été récupérés; ils ne représentaient que quelques m3; ils ont été éliminés en même temps que les terrains souillés de solvants chlorés excavés en Février et Mars 2009,
+
+10l0l0	cette_opération	N
+10l0l1	les_terrains_souillés	O
+10l0l2	VEOLIA	O
+10l0l3	10_août_2006	T
+10l0l4	ont_été_récupérés	N
+10l0l5	ont_été_éliminés	N
+10l0l6	les_terrains_souillés_de_solvants_chlorés_excavés	N
+10l0l7	en_Février_et_Mars_2009__	T
+10l1l0	hydrocarbures	S
+10l1l1	VEOLIA	I
+10l1l2	solvants_chlorés	U
+
+#26 Février au 3 Mars 2009: travaux d'affouillement: environ 500 tonnes excavées,
+
+11l0l0	26_Février_au_3_Mars_2009	T
+11l0l1	__travaux_d__affouillement	N
+11l0l2	500_tonnes_excavées	N
+
+#24 Mars 2009: travaux d'affouillement complémentaires: environ 95 tonnes de terres excavées.
+
+12l0l0	24_Mars_2009	T
+12l0l1	__travaux_d__affouillement	N
+
+#* L’exploitant a fait réaliser divers sondages d'investigations.
+
+13l0l0	L__exploitant	O
+13l0l1	a_fait_réaliser	N
+13l0l2	divers_sondages_d__investigations	N
+
+#pour les secteurs affectés par l'incident de mai 2006 (écoulement au sol de FOD), 2 zones ont été reconnues :
+
+14l0l0	les_secteurs	O
+14l0l1	affectés_par	R
+14l0l2	l__incident	N
+14l0l3	de_mai_2006	T
+14l0l4	2_zones	O
+14l0l5	ont_été_reconnues	N
+14l1l0	FOD	I
+
+#zone 2 : environ 20 m2, devant le hangar où était située la cuve de FOD,
+
+15l0l0	devant_le_hangar	O
+15l0l1	où_était_située_la_cuve_de_FOD	A
+15l1l0	la_cuve_de	D
+15l1l1	FOD	I
+
+#zone 1 : zone plus éloignée, située entre l'ancien atelier de production et le hangar où est située la cuve, et sur laquelle existaient 2 « regards » (vecteurs d’infiltration privilégiés).
+
+16l0l0	zone_1	O
+16l0l1	__située_entre_l__ancien_atelier_de_production_et_le_hangar	L
+16l1l0	située_la_cuve	D
+
+#Des travaux d’excavation et de tri (terres saines/terres polluées) ont été réalisés les 17 et 18 juillet 2006.
+
+17l0l0	Des_travaux_d__excavation	N
+17l0l1	terres_saines	O
+17l0l2	terres_polluées	O
+17l0l3	ont_été_réalisés	N
+17l0l4	les_17_et_18_juillet_2006__	T
+
+#Le tri s’est effectué sur la base d’observations organoleptiques et mesures de la teneur en COV (photoioniseur) :
+
+18l1l0	COV	S
+
+#zone 1 : excavation de 2,70 m sur 4,05 m et 2,50 m de profondeur; toutefois toutes les terres contaminées se trouvant à proximité immédiate et sous le bâtiment (côté Ouest de la zone 1) n’ont pas été excavées (stabilité du bâtiment).
+
+19l0l0	__excavation	N
+19l0l1	toutefois_toutes_les_terres_contaminées	O
+19l0l2	trouvant_à_proximité_immédiate_et_sous_le_bâtiment___côté_Ouest_de_la_zone_1	L
+19l0l3	__n__ont_pas_été_excavées	N
+
+#Des analyses ont été réalisées après excavation
+
+20l0l0	ont_été_réalisées_après_excavation	N
+
+#L’excavation a été remblayée en 2006, et notamment avec les terres « saines » résultant du tri « terres polluées/terres saines ».
+
+21l0l0	L__excavation	N
+21l0l1	a_été_remblayée	N
+21l0l2	en_2006__	T
+21l0l3	les_terres_____saines	O
+
+#zone 2 : surface excavée d’environ 17,5 m² : 1er pallier à 0,70 m de profondeur, 2ème pallier allant à 1,50 m de profondeur, et approfondissement ponctuel à 3,30 m.
+
+22l0l0	et_approfondissement_ponctuel	N
+
+#L’excavation a été remblayée en 2006, et notamment avec les terres « saines » résultant du tri « terres polluées/terres saines ».
+
+23l0l0	L__excavation	N
+23l0l1	a_été_remblayée	N
+23l0l2	en_2006__	T
+23l0l3	les_terres_____saines	O
+
+#Conclusions suite à la campagne de travaux de  juillet 2006 :
+
+24l0l0	suite_à	R
+24l0l1	la_campagne_de_travaux	N
+24l0l2	de___juillet_2006	T
+
+#les terres excavées (jusque 3,30 m) ont été éliminées (70 t) (centre de désorption thermique GRS VALTECH de St Pierre de Chandieu-69),
+
+25l0l0	les_terres_excavées	N
+25l0l1	ont_été_éliminées	N
+25l0l2	centre_de_désorption	N
+25l0l3	GRS_VALTECH	O
+25l0l4	St_Pierre_de_Chandieu_69	L
+25l1l0	GRS_VALTECH	I
+
+#il subsistait encore des terres contaminées en hydrocarbures sous le hangar et la dalle béton attenante à proximité de la zone intitulée « zone 2 ».
+
+26l0l0	des_terres_contaminées	O
+26l0l1	hydrocarbures	O
+26l0l2	le_hangar	O
+26l0l3	la_dalle_béton	O
+26l0l4	à_proximité_de_la_zone	L
+26l1l0	hydrocarbures	S
+
+#Compte tenu de l'usage futur retenu par l'exploitant, une Étude de risques sanitaires (Rapport Plume eci-R06-001 du 23 novembre 2006) a été réalisée.
+
+27l0l0	l__usage_futur_retenu	O
+27l0l1	l__exploitant	O
+27l0l2	une_Étude_de_risques_sanitaires	N
+27l0l3	23_novembre_2006	T
+27l0l4	a_été_réalisée	N
+
+#Elle est essentiellement basée sur l’aspect «pollution des sols par des COHV ».
+
+28l0l0	des_COHV	O
+28l1l0	COHV	S
+
+#Il n’est pas tenu compte de :
+
+
+#- la présence d’Hydrocarbures, de PCB et de métaux au niveau des sols (pollutions non générées par l'activité classée),
+
+30l1l0	Hydrocarbures	S
+30l1l1	PCB	S
+
+#- une éventuelle pollution des eaux souterraines.
+
+
+#Il y est plus particulièrement signalé que :
+
+
+#- aucune pollution de sols par des HAP et des Hydrocarbures (Nota : sauf pour ceux encore présents sous bâtiment et dalle béton à proximité de la zone intitulée « zone 2 »- écoulement de FOD mai 2006).
+
+33l0l0	aucune_pollution_de_sols	N
+33l0l1	des_HAP	O
+33l0l2	et_dalle_béton	O
+33l0l3	à_proximité_de_la_zone	L
+33l0l4	______écoulement_de_FOD_mai_2006	T
+33l1l0	des_HAP	S
+33l1l1	Hydrocarbures	S
+
+#- présence de métaux à relier à la présence de scories; peut être également liée aux activités du site (Chrome, Plomb),  voire à une présence naturelle (Arsenic).
+
+34l0l0	activités_du_site	A
+34l1l0	métaux	S
+34l1l1	Chrome	S
+34l1l2	Plomb	S
+34l1l3	__Arsenic	S
+
+#- pour les métaux (qui ne sont pas volatils); risque sanitaire par inhalation écarté.
+
+35l1l0	les_métaux	S
+
+#- pour les métaux; risque sanitaire par contact direct (contact cutané et ingestion de sols) écarté si les sols sont recouverts (zone bâtie, parking, espace vert).
+
+36l0l0	ingestion_de_sols	N
+36l1l0	les_métaux	S
+
+#- pour les PCB (qui ne sont pas volatils); risque sanitaire par inhalation écarté.
+
+37l1l0	les_PCB	S
+
+#- pour les PCB; risque sanitaire par contact direct (contact cutané et ingestion de sols) écarté, si les sols sont recouverts (zone bâtie, parking, espace vert) (la présence de PCB ne présente pas de risque sanitaire -  vu la concentration en PCB(<1mg/kg) les terres sont admissibles en déchets inertes).
+
+38l1l0	les_PCB	S
+38l1l1	PCB	S
+38l1l2	en_PCB_1mg	S
+
+#- pour les COHV (TCE-trichloroéthylène, CL-chloroforme, CCL4-tétrachlorure de carbone, PCE-tétrachloroéthylène,…)(produits volatils); risque sanitaire par inhalation pris en compte
+
+39l1l0	les_COHV	S
+39l1l1	TCE___trichloroéthylène	S
+39l1l2	CL___chloroforme	S
+39l1l3	CCL4_tétrachlorure_de_carbone	S
+39l1l4	PCE___tétrachloroéthylène_	S
+39l1l5	_produits_volatils____	S
+
+#- pour les COHV; risque sanitaire par contact direct (contact cutané et ingestion de sols) écarté si les sols sont recouverts (majeure partie des surfaces du site couverte soit par les immeubles (cas de la zone usine où le plus gros de la pollution COHV est identifiée), soit par des chaussées, soit des espaces verts).
+
+40l1l0	les_COHV	S
+40l1l1	COHV	S
+
+#Le site a fait l’objet d’une visite d’inspection le 26 août 2009.
+
+41l0l0	Le_site	O
+41l0l1	a_fait_l__objet_d_	R
+41l0l2	une_visite_d__inspection	N
+41l0l3	le_26_août_2009__	T
+
+#A l’occasion de cette visite il  a été constaté que :
+
+
+#le site était totalement débarrassé: les bâtiments ont été démolis, aucun matériaux de démolition ne subsiste sur le site, ni aucun déchets apparents,
+
+43l0l0	le_site	O
+43l0l1	était_totalement_débarrassé	N
+43l0l2	les_bâtiments	O
+43l0l3	ont_été_démolis	N
+43l0l4	aucun_matériaux_de_démolition	N
+
+#les 2 puits de contrôles sont visibles et accessibles,
+
+44l0l0	les_2_puits_de_contrôles	O
+
+#les terrains ont été aplanis, les excavations liées aux campagnes d'enlèvement de fondation et terres polluées ont été comblées; il subsiste juste une petite dépression de 0,50m à l'angle Nord-Est des terrains,
+
+45l0l0	les_terrains	O
+45l0l1	ont_été_aplanis	N
+45l0l2	les_excavations	N
+45l0l3	liées	R
+45l0l4	aux_campagnes	N
+45l0l5	d__enlèvement_de_fondation	N
+45l0l6	terres_polluées	O
+45l0l7	ont_été_comblées	N
+45l0l8	0_50_m	O
+45l0l9	à_l__angle_Nord_Est_des_terrains	L
+
+#le site est clôturé d'une clôture de chantier amovible.
+
+46l0l0	le_site	O
+46l0l1	une_clôture_de_chantier	O
+
+#Il est à considérer que dans le cadre de ces obligations de remise en état du site, la Sté BURKARD, en tant que dernier exploitant, a rempli ses obligations en ce qui la concerne.
+
+47l0l0	dans_le_cadre_de	R
+47l0l1	ces_obligations_de_remise_en_état_du_site	N
+47l0l2	la_Sté_BURKARD	O
+47l0l3	exploitant	O
+47l0l4	a_rempli_ses_obligations	N
+47l1l0	la_Sté_BURKARD	I
+
+#Toutefois, il paraît également nécessaire de :
+
+
+#poursuivre la surveillance de la qualité des eaux souterraines,
+
+49l0l0	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#fixer des dispositions permettant de garantir le bon état et le bon accès des ouvrages de contrôle de la qualité des eaux souterraines,
+
+50l0l0	fixer	R
+50l0l1	contrôle_de_la_qualité_des_eaux_souterraines	A
+
+#fixer des dispositions en cas d’arrêt d’utilisation de ces ouvrages, afin qu’ils soient neutralisés dans des conditions correctes, assurant la préservation du sous-sols et des eaux souterraines,
+
+51l0l0	fixer_des_dispositions	O
+51l0l1	en_cas_d_	R
+51l0l2	arrêt_d__utilisation	N
+51l0l3	ces_ouvrages	O
+51l0l4	neutralisés_dans_des_conditions_correctes	O
+51l0l5	sous_sols	O
+51l0l6	des_eaux_souterraines	O

@@ -1,0 +1,160 @@
+
+#03.0032
+#Le site est situé à un km du bourg, dans une zone agricole.
+
+0l0l0	Le_site	O
+0l0l1	est_situé_à_un_km_du_bourg___dans_une_zone_agricole	L
+
+#Une mine à ciel ouvert y a été exploitée à proximité, entre 1930 et 1991.
+
+1l0l0	Une_mine	O
+1l0l1	a_été_exploitée	N
+1l0l2	à_proximité	O
+1l0l3	entre_1930_et_1991	T
+
+#Plusieurs sociétés ont tour à tour exploité le filon, en dernier lieu le SA Nizerolles.
+
+2l0l0	Plusieurs_sociétés	O
+2l0l1	ont_tour_à_tour_exploité	N
+2l0l2	le_filon	O
+2l0l3	le_SA_Nizerolles	O
+2l1l0	le_SA_Nizerolles	I
+
+#En 1994, une déclaration d'abandon de travaux est déposée par cette société, la carrière est entièrement comblée en 1992 et le carreau de la mine, soit 5 ha est vendu à un agriculteur qui converti les bâtiments en maison d'habitation et hangars de stockage.
+
+3l0l0	En_1994__	T
+3l0l1	une_déclaration_d__abandon_de_travaux	O
+3l0l2	est_déposée	N
+3l0l3	cette_société	O
+3l0l4	la_carrière	O
+3l0l5	est_entièrement_comblée	N
+3l0l6	en_1992	T
+3l0l7	le_carreau_de_la_mine	O
+3l0l8	5_ha	O
+3l0l9	est_vendu_à	N
+3l0l10	un_agriculteur	O
+3l0l11	converti	N
+3l0l12	les_bâtiments	O
+3l0l13	en_maison	O
+3l0l14	hangars_de_stockage	O
+
+#Deux petits étangs de 5 000 et 8 000 m3 ayant servi de bassins de décantation ont été conservés, le sol de l'exploitation à été remblayé et nivellé avec des matériaux contenant du plomb.
+
+4l0l0	Deux_petits_étangs	O
+4l0l1	ayant	R
+4l0l2	servi	T
+4l0l3	de_bassins_de_décantation	A
+4l0l4	ont_été_conservés	N
+4l0l5	le_sol_de_l__exploitation	O
+4l0l6	à_été_remblayé	N
+4l0l7	nivellé	N
+4l0l8	avec_des_matériaux	O
+4l1l0	plomb	S
+
+#En juillet 2003, durant la période de la sècheresse, monsieur Giraud, l'actuel propriétaire du site, a entreposé à même le sol du maïs en tant qu'aliment de substitution pour son cheptel.
+
+5l0l0	En_juillet_2003__	T
+5l0l1	durant_la_période_de_la_sècheresse	T
+5l0l2	monsieur_Giraud	O
+5l0l3	l__actuel_propriétaire_du_site	O
+5l0l4	a_entreposé	N
+5l0l5	maïs	A
+
+#Très rapidement, dix vaches sont mortes après avoir ingurgité ce maïs.
+
+6l0l0	avoir_ingurgité	N
+6l0l1	ce_maïs	A
+
+#Les analyses effectuées sur les animaux morts ont mis en évidence une quantité importante de plomb, probablement à l'origine de cette soudaine mortalité.
+
+7l1l0	plomb	S
+
+#Les analyses réalisées après prélèvements à différentes hauteur dans les tas de maïs, confirment la présence de plomb activé en milieu acide, ce qui est le cas des grains de maïs.
+
+8l1l0	plomb_activé	S
+
+#Ce plomb était contenu dans les remblais répartis sur la plate forme aménagée sur l'ancien carreau de la mine et qui servait autrefois de zone de stockage du minerai.
+
+9l0l0	remblais	N
+9l0l1	la_plate_forme	O
+9l0l2	servait_autrefois_de	R
+9l0l3	zone_de_stockage_du_minerai	O
+
+#La DRIRE a proposé au préfet de l'Allier de mettre en demeure, par arrêté signé le 28 février 2005, la SA Nizerolles de faire réaliser un diagnostic des sols et une évaluation simplifiée des risques(ESR).
+
+10l0l0	La_DRIRE	O
+10l0l1	préfet_de_l__Allier	L
+10l0l2	le_28_février_2005__	T
+10l0l3	la_SA_Nizerolles	O
+10l0l4	faire_réaliser_un_diagnostic_des_sols	N
+10l0l5	une_évaluation_simplifiée_des_risques_ESR	N
+10l1l0	La_DRIRE	I
+10l1l1	préfet	I
+10l1l2	la_SA_Nizerolles	I
+
+#Les conclusions de l'étude confirment, au vue des nombreux sondages effectués, la contamination des sols par le plomb sur les cinquante premiers centimètres des sols, en particulier dans le jardin cultivé, les aires de jeux et le sol d'une stabulation nouvellement crée.
+
+11l0l0	la_contamination_des_sols	N
+11l0l1	dans_le_jardin_cultivé	L
+11l1l0	plomb	S
+
+#Il apparait que la présence de plomb constitue un risque important pour la santé de la famille vivant sur le site.
+
+12l1l0	plomb	S
+
+#Les analyses opérées dans les étangs et les eaux de surface confirment la présence de plomb.
+
+13l0l0	Les_analyses_opérées	N
+13l0l1	les_étangs	O
+13l0l2	les_eaux	O
+13l1l0	plomb	S
+
+#En revanche, il n'apparait pas qu'une nappe d'eaux souterraines soit présente sous le site.
+
+
+#Le déménagement de la famille concernée a été retenu, à cet effet l'agriculteur a fait l'acquisition d'autres terrains agricoles qui n'ont pas été concernés par l'extraction de fluorine.
+
+15l0l0	Le_déménagement	N
+15l0l1	la_famille_concernée	O
+15l0l2	a_été_retenu	N
+15l0l3	l__agriculteur	O
+15l0l4	a_fait_l__acquisition	N
+15l0l5	d__autres_terrains_agricoles	O
+15l0l6	n_	A
+15l0l7	ont_pas	N
+15l0l8	été_concernés	O
+15l0l9	l__extraction_de_fluorine	A
+15l1l0	fluorine	S
+
+#La société IMERYS, gestionnaire actuel du site, a indemnisé le relogement de la famille qui a définitivement quitté le site en juin 2008.
+
+16l0l0	La_société_IMERYS	O
+16l0l1	a_indemnisé	N
+16l0l2	le_relogement	N
+16l0l3	la_famille	O
+16l0l4	a_définitivement_quitté_le_site	N
+16l0l5	en_juin_2008__	T
+16l1l0	La_société_IMERYS	I
+
+#Les bâtiments ont été entièrement démolis, l'ancienne verse à stériles a été comblée, une ancienne galerie (poudrière) a été obstruée.
+
+17l0l0	Les_bâtiments	O
+17l0l1	ont_été_entièrement_démolis	N
+17l0l2	l__ancienne_verse_à_stériles	O
+17l0l3	a_été_comblée	N
+17l0l4	a_été_obstruée	N
+
+#Le site est maintenant clôturé et un arrêté préfectoral a instauré des servitudes d'utilité publique, en date du 3 juin 2009, afin de garder en mémoire l'impact des anciennes activités.
+
+18l0l0	Le_site	O
+18l0l1	est_maintenant_clôturé	N
+18l0l2	un_arrêté_préfectoral	O
+18l0l3	a_instauré	N
+18l0l4	des_servitudes_d_	O
+18l0l5	utilité_publique	O
+18l0l6	en_date_du_3_juin_2009__	T
+18l0l7	anciennes_activités	N
+
+#En l'absence d'eaux souterraines au droit du site, une surveillance des eaux souterraines n'est pas nécessaire.
+
+19l0l0	une_surveillance_des_eaux_souterraines	A

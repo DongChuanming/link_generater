@@ -1,0 +1,266 @@
+
+#41.0018
+#La société DEC a pour activité le traitement de surfaces à façon.
+
+0l0l0	La_société_DEC	O
+0l0l1	activité_le_traitement_de_surfaces_à_façon	A
+0l1l0	La_société_DEC	I
+
+#Elle pratique une large palette de traitements (zingage, nickelage, étamage, anodisation, phosphatation, décapage, chromage, argenture, dorure,...).
+
+1l0l0	étamage	A
+1l0l1	anodisation	N
+1l0l2	décapage	N
+1l0l3	chromage	N
+1l0l4	dorure	A
+
+#L'établissement est situé le long d'une rivière nommée la Grenne et il est bordé par le ruisseau du Parc et le bief de la Grenne.
+
+2l0l0	L__établissement	O
+2l0l1	est_situé_le_long_d__une_rivière_nommée_la_Grenne	L
+2l0l2	bordé_par_le_ruisseau_du_Parc	L
+2l0l3	le_bief	O
+2l0l4	de_la_Grenne	L
+2l1l0	la_Grenne	I
+
+#Les nappes sensibles au droit du site sont les nappes d'accompagnement de la Grenne et la nappe des sables du Perche qui sont en communication.
+
+3l0l0	Les_nappes	O
+3l0l1	Perche	T
+3l0l2	en_communication	N
+
+#Deux captages destinés à l'alimentation en eau potable sont situés à 175 et 200 mètres en amont du site.
+
+4l0l0	Deux_captages	O
+4l0l1	destinés_à	R
+4l0l2	l__alimentation_en_eau_potable	A
+4l0l3	sont_situés_à_175_et_200_mètres_en_amont_du_site	L
+
+#Unforge est situé à l'aval du site.
+
+5l0l0	Unforge	O
+5l0l1	situé_à_l__aval_du_site	L
+5l1l0	Unforge	I
+
+#Le site est implanté en zone d'activités à proximité d'habitations et d'autres industries.
+
+6l0l0	Le_site	O
+6l0l1	est	R
+6l0l2	implanté_en_zone	L
+6l0l3	d__activités	O
+6l0l4	à_proximité_d__habitations_et_d__autres_industries	L
+
+#Les chaînes de traitement de surfaces représentent un volume de bains de traitement de l'ordre de 290 m3.
+
+7l0l0	Les_chaînes_de_traitement_de_surfaces	O
+
+#L'exploitant dispose d'une station de détoxication avec rejet des effluents traités dans la Grenne.
+
+8l0l0	L__exploitant	O
+8l0l1	dispose_d_	R
+8l0l2	une_station	O
+8l0l3	traités	A
+8l0l4	dans_la_Grenne	L
+8l1l0	détoxication	U
+8l1l1	des_effluents	U
+
+#Un forage à usage industriel est également exploité sur le site.
+
+9l0l0	Un_forage	O
+9l0l1	à_usage_industriel	A
+9l0l2	est_également_exploité	N
+
+#Un diagnostic initial et une ESR (évaluation simplifiée des risques) ont été conduits sur l'ensemble du site.
+
+10l0l0	Un_diagnostic_initial	N
+10l0l1	une_ESR	O
+10l0l2	ont_été_conduits	N
+
+#Les résultats des campagnes d'analyse des sols indiquent:
+
+
+#-une zone contaminée par des polluants métalliques et des solvants chlorés (située au sud du site),
+
+12l0l0	_une_zone_contaminée	O
+12l0l1	située_au_sud_du_site	L
+12l1l0	des_polluants_métalliques	U
+12l1l1	solvants_chlorés	S
+
+#-une pollution superficielle par des cyanures à l'ouest du site,
+
+13l0l0	_une_pollution_superficielle	O
+13l0l1	cyanures	O
+13l0l2	à_l__ouest_du_site	L
+13l1l0	cyanures	S
+
+#-plusieurs points de contamination par des métaux (chrome notamment).
+
+14l0l0	_plusieurs_points_de_contamination	O
+14l1l0	métaux	S
+14l1l1	chrome_notamment	S
+
+#Les investigations conduites sur les eaux souterraines montrent qu'elles sont polluées par des composants métalliques et des solvants chlorés.
+
+15l0l0	Les_investigations_conduites	N
+15l0l1	les_eaux_souterraines	O
+15l0l2	polluées	O
+15l1l0	composants_métalliques	S
+15l1l1	chlorés	S
+
+#L'ESR a classé le site dans la catégorie 1, pour lequel des investigations supplémentaires et une EDR (évaluations détaillée des risques) sont nécessaires, en raison de la contamination des eaux souterraines.
+
+16l0l0	a_classé	N
+16l0l1	le_site	O
+16l0l2	dans	L
+16l0l3	la_catégorie_1	O
+16l0l4	évaluations_détaillée_des_risques	N
+16l1l0	L__ESR	I
+
+#L'arrêté préfectoral du 11 août 2004 a prescrit à DEC la réalisation d'un diagnostic approfondi et d'une EDR (Étude Détaillée des Risques), la mise en place d'une surveillance des eaux souterraines, l'information des usagers de la nappe souterraine pour en exclure l'usage direct ou indirect à des fins alimentaires.
+
+17l0l0	L__arrêté_préfectoral	O
+17l0l1	11_août_2004	T
+17l0l2	a_prescrit	N
+17l0l3	DEC	O
+17l0l4	la_réalisation_d__un_diagnostic_approfondi	N
+17l0l5	d__une_EDR	N
+17l0l6	la_mise_en_place_d_	N
+17l0l7	surveillance_des_eaux_souterraines	A
+17l0l8	usagers_de_la_nappe_souterraine	A
+17l0l9	usage_direct_ou_indirect_à_des_fins_alimentaires	A
+
+#Le maintien en fonctionnement permanent du forage industriel a été prescrit à l'exploitant car il sert de barrage hydraulique entre les puits AEP et les sources de pollution.
+
+18l0l0	Le_maintien_en_fonctionnement_permanent	N
+18l0l1	du_forage_industriel	O
+18l0l2	a_été_prescrit	N
+18l0l3	l__exploitant	O
+18l0l4	les_puits_AEP	O
+18l0l5	les_sources_de_pollution	O
+
+#Le diagnostic approfondi montre une contamination des eaux souterraines par des hydrocarbures, du chrome, du nickel, du plomb, des cyanures, du perchloroéthylène (PCE), du trichloroéthylène (TCE), du dichloroéthylène(DCE) et du chlorure de vinyle.
+
+19l0l0	Le_diagnostic_approfondi	N
+19l0l1	une_contamination	O
+19l1l0	souterraines	S
+19l1l1	des_hydrocarbures	S
+19l1l2	du_chrome	S
+19l1l3	nickel	S
+19l1l4	plomb	S
+19l1l5	cyanures	S
+19l1l6	du_perchloroéthylène	S
+19l1l7	PCE	S
+19l1l8	du_trichloroéthylène	S
+19l1l9	TCE	S
+19l1l10	du_dichloroéthylène_DCE	S
+19l1l11	du_chlorure	S
+19l1l12	vinyle	S
+
+#Des sources de pollution du sol par les solvants chlorés, le chrome, le nickel et le cadmium sont trouvées.
+
+20l0l0	Des_sources_de_pollution	O
+20l1l0	chlorés	S
+20l1l1	le_chrome	S
+20l1l2	le_nickel	S
+20l1l3	cadmium	S
+
+#Une étude détaillée des risques pour la ressource en eau a été produite en 2005.
+
+21l0l0	Une	O
+21l0l1	étude_détaillée_des_risques	N
+21l0l2	a_été_produite	N
+21l0l3	en_2005__	T
+
+#Elle conclut qu'aucun point d'observation, placé à l'extérieur du site, ne présente de concentrations en hydrocarbures totaux, métaux lourds, PCE et TCE supérieures aux limites de potabilité.
+
+22l0l0	l__extérieur_du_site	L
+22l1l0	hydrocarbures_totaux	S
+22l1l1	métaux_lourds	S
+22l1l2	PCE	S
+22l1l3	TCE	S
+
+#Le suivi périodique de la surveillance des eaux souterraines au droit du site montre des dépassements des valeurs données par l'arrêté de 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine pour les solvants chlorés.
+
+23l0l0	Le_suivi_périodique_de_la_surveillance_des_eaux_souterraines	A
+23l0l1	au_droit_du	L
+23l1l0	solvants_chlorés	S
+
+#Les teneurs en cyanures libres, cadmium, cuivre et chrome sont inférieures aux limites de détection sur plusieurs campagnes d'analyses.
+
+24l0l0	Les_teneurs	O
+24l1l0	cyanures	S
+24l1l1	cadmium	S
+24l1l2	cuivre	S
+24l1l3	chrome	S
+
+#Suite  à un incendie qui a eu lieu sur le site le 23/04/2006, un renforcement de la surveillance des eaux souterraines a été mis en place.
+
+25l0l0	Suite__	R
+25l0l1	à_un_incendie	N
+25l0l2	qui_a_eu_lieu	N
+25l0l3	sur_le_site	O
+25l0l4	le_23_04_2006	T
+25l0l5	__un_renforcement	N
+25l0l6	de_la_surveillance_des_eaux_souterraines	A
+25l0l7	a_été_mis_en_place	N
+
+#Les résultats de ces analyses supplémentaires montrent des teneurs en chrome, cuivre, cyanures inférieures aux valeurs de référence de l'arrêté précités.
+
+26l0l0	des_teneurs	O
+26l0l1	chrome	O
+26l1l0	chrome	S
+26l1l1	cuivre	S
+26l1l2	cyanures	S
+
+#Les teneurs en nickel ont baissé et sont devenues inférieures à la valeur de référence.
+
+27l0l0	sont_devenues_inférieures	N
+27l1l0	nickel	S
+
+#Le captage AEP situé en aval du site pouvant drainer les eaux polluées au droit du site, une dépollution des eaux souterraines est à l'étude.
+
+28l0l0	Le_captage_AEP	O
+28l0l1	situé_en_aval_du_site	L
+28l0l2	pouvant	R
+28l0l3	drainer	N
+28l0l4	les_eaux_polluées	O
+28l0l5	au_droit_du_site	L
+28l0l6	dépollution	N
+28l0l7	des_eaux_souterraines	A
+
+#Les études de conception du dispositif de confinement de la pollution de la nappe sont en cours.
+
+29l0l0	Les_études_de_conception	N
+29l0l1	du_dispositif_de_confinement	O
+29l0l2	la_nappe	O
+
+#Actuellement, la solution envisagée consiste à pomper les eaux puis à effectuer un stripping avec traitement des composés organo-chlorés sur charbon actif.
+
+30l0l0	pomper	N
+30l0l1	les_eaux	O
+30l0l2	effectuer_un_stripping_avec_traitement	N
+30l1l0	composés_organo___chlorés	S
+30l1l1	charbon_actif	U
+
+#Par le courrier de l'exploitant du 21 juillet 2010 adressé à la Mairie de Cormenon, il est mention du contexte de pollution des eaux souterraines en solvant chloré qui a conduite l'instauration d'un périmètre de sécurité de 125 mètres de rayon, sur la commune de Cormenon.
+
+31l0l0	l__exploitant	O
+31l0l1	21_juillet_2010	T
+31l0l2	la_Mairie	O
+31l0l3	de_Cormenon	L
+31l0l4	contexte_de_pollution	N
+31l0l5	des_eaux_souterraines	A
+31l0l6	a_conduite_l__instauration_d_	N
+31l0l7	un_périmètre_de_sécurité	O
+31l0l8	sur_la_commune_de_Cormenon	L
+31l1l0	solvant_chloré	S
+
+#Ce périmètre a pour but d'interdire l'utilisation d'eaux de captages pour des usages domestiques, alimentaires ainsi que pour l'arrosage des potagers et arbres fruitiers.
+
+32l0l0	Ce_périmètre	O
+32l0l1	a	R
+32l0l2	interdire	N
+32l0l3	l_	A
+32l0l4	utilisation_d__eaux_de_captages	O
+32l0l5	des_usages_domestiques	A
+32l0l6	l__arrosage_des_potagers_et_arbres_fruitiers	A

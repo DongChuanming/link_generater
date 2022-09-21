@@ -1,0 +1,201 @@
+
+#59.0178
+#- Exploitation d'un chantier de récupération et de stockage de vieilles ferrailles métaux et non ferreux, plastiques, pneumatiques.
+
+0l0l0	Exploitation	N
+0l0l1	d_	R
+0l0l2	un_chantier	O
+0l0l3	récupération_et_de_stockage_de_vieilles_ferrailles	A
+0l0l4	métaux	O
+
+#- En 2004, les activités du site de Ferrière-la-Grande sont déplacées à Jeumont.
+
+1l0l0	En_2004__	T
+1l0l1	les_activités_du_site_de_Ferrière_la_Grande	O
+1l0l2	sont_déplacées	N
+1l0l3	à_Jeumont	L
+
+#- Arrêté préfectoral du 01/03/1999 mettant e demeure la SARL VITRANT MANESSE de respecter les dispositions de l’arrêté préfectoral d'autorisation (20/12/1993) et en particulier de cesser toute activité  sur les parcelles AK23,45 et 103 à 111.
+
+2l0l0	Arrêté_préfectoral	O
+2l0l1	du_01_03_1999	T
+2l0l2	la_SARL_VITRANT_MANESSE	O
+2l0l3	l__arrêté_préfectoral_d__autorisation	O
+2l0l4	__20_12_1993	T
+2l0l5	cesser_toute_activité	N
+2l0l6	__sur_les_parcelles_AK23_45	L
+2l1l0	la_SARL_VITRANT_MANESSE	I
+
+#Ces parcelles doivent être remises en état.
+
+3l0l0	Ces_parcelles	O
+3l0l1	doivent_être_remises_en_état	N
+
+#- Arrêté préfectoral du 12/05/1999 imposant des prescriptions complémentaires, notamment les conditions de cessation d'activité et de remise en état du site en fin d'exploitation ainsi que la réalisation d'une étude des sols.
+
+4l0l0	Arrêté_préfectoral	O
+4l0l1	12_05_1999	T
+4l0l2	imposant	N
+4l0l3	des_prescriptions_complémentaires	O
+4l0l4	les_conditions	O
+4l0l5	cessation_d__activité	N
+4l0l6	de_remise_en_état_du_site	N
+4l0l7	en_fin_d__exploitation	N
+4l0l8	la_réalisation_d__une_étude_des_sols	N
+
+#- Diagnostic initial réalisé en 99.
+
+5l0l0	Diagnostic_initial_réalisé	N
+5l0l1	en_99__	T
+
+#Il conclut qu'une pollution est probable sur le site et recommande des analyses supplémentaires.
+
+
+#- Évaluation Simplifiée des Risques réalisée en 2000. 4 zones ont été testées. la parcelle K 26 est classée en zone 1 (pollution significative par plomb, zinc, fer, cuivre).
+
+7l0l0	Évaluation_Simplifiée_des_Risques	N
+7l0l1	réalisée	N
+7l0l2	en_2000__	T
+7l0l3	4_zones	O
+7l0l4	ont_été_testées	N
+7l0l5	classée_en_zone_1	N
+7l1l0	plomb	S
+7l1l1	zinc	S
+7l1l2	fer	S
+7l1l3	cuivre	S
+
+#Les parcelles 26, 45 et 108 sont également contaminées en surface par les mêmes métaux.
+
+8l0l0	Les_parcelles_26	O
+8l0l1	également_contaminées	O
+8l1l0	métaux	S
+
+#Le reste du site est classé en zone 2 (site à surveiller).
+
+9l0l0	zone_2	O
+
+#- EDR en juillet 01 : a porté uniquement sur la parcelle AK 26, seule à avoir une autorisation d'exercer.
+
+10l0l0	en_juillet_01__	T
+10l0l1	a_porté_uniquement_sur	R
+10l0l2	la_parcelle_AK_26	O
+10l0l3	avoir_une_autorisation	N
+
+#L'EDR confirme l'ESR : la parcelle est porteuse d'une nette contamination par des métaux lourds.
+
+11l0l0	la_parcelle	O
+11l0l1	est_porteuse_d_	R
+11l0l2	une_nette_contamination	O
+11l0l3	des_métaux_lourds	O
+11l1l0	l__ESR	I
+11l1l1	métaux_lourds	S
+
+#Il faut mettre en place la surveillance du site, et son nettoyage.
+
+12l0l0	mettre_en_place	N
+12l0l1	la_surveillance_du_site	O
+12l0l2	nettoyage	N
+
+#- Arrêté préfectoral du 01/04/2004 imposant des prescriptions complémentaires pour la dépollution, la remise en état et le suivi post exploitation s'appliquant aux parcelles AK23, 45 103 à 111.
+
+13l0l0	Arrêté_préfectoral	O
+13l0l1	du_01_04_2004	T
+13l0l2	imposant	N
+13l0l3	des_prescriptions_complémentaires	O
+13l0l4	la_dépollution	N
+13l0l5	la_remise_en_état	N
+13l0l6	le_suivi_post_exploitation	O
+13l0l7	s__appliquant	R
+
+#- L'étude de remise en état a été induite pour un usage sensible selon le projet de requalification du site proposé par la municipalité.
+
+14l0l0	L__étude	N
+14l0l1	de_remise_en_état	O
+14l0l2	a_été_induite	N
+14l0l3	un_usage_sensible	O
+14l0l4	le_projet_de_requalification	N
+14l0l5	la_municipalité	O
+
+#Il s'agit:
+
+
+#*de décaisser 8500m3 de terre.
+
+16l0l0	de_décaisser	N
+16l0l1	8500m3	O
+16l0l2	de_terre	N
+
+#*d'évacuer les déchets restants.
+
+17l0l0	d__évacuer	N
+
+#*de mettre en place un réseau piézométrique de suivi de la nappe souterraine.
+
+18l0l0	de_mettre_en_place	N
+18l0l1	la_nappe_souterraine	O
+
+#- Diagnostic de pollution des sols en 2007: teneurs significatives en métaux, HAP et PCB.
+
+19l0l0	Diagnostic_de_pollution_des_sols	N
+19l0l1	en_2007	T
+19l1l0	métaux	S
+19l1l1	HAP	S
+19l1l2	PCB	S
+
+#Il y est recommandé de réaliser des analyses complémentaires et des travaux de dépollution.
+
+20l0l0	Il	O
+20l0l1	réaliser_des	N
+20l0l2	analyses_complémentaires	O
+20l0l3	des_travaux_de_dépollution	N
+
+#- Le site a été racheté par l'EPF, le 13/12/2012.
+
+21l0l0	Le_site	O
+21l0l1	a_été_racheté	N
+21l0l2	l__EPF	O
+21l0l3	le_13_12_2012__	T
+21l1l0	l__EPF	I
+
+#- En janvier 2012, l'usage futur du site a été revu: l'exploitant remet le site en état pour un usage industriel selon l'accord pris avec la municipalité, l'EPF et la communauté d'agglo.
+
+22l0l0	En_janvier_2012__	T
+22l0l1	l__usage_futur_du_site	O
+22l0l2	a_été_revu	N
+22l0l3	l__exploitant	O
+22l0l4	le_site	O
+22l0l5	un_usage_industriel	A
+22l0l6	la_municipalité	O
+22l0l7	l__EPF	O
+22l0l8	la_communauté_d__agglo	L
+22l1l0	l__EPF	I
+
+#La municipalité et la CAMVS prennent en charge la requalification du site selon un projet de continuité de la trame verte.
+
+23l0l0	La_municipalité	O
+23l0l1	la_CAMVS	O
+23l0l2	prennent_en_charge	N
+23l0l3	la_requalification	N
+23l0l4	site	O
+23l0l5	selon	R
+23l0l6	un_projet	O
+23l1l0	la_CAMVS	I
+
+#- 16/01/2013: L'exploitant a remis au préfet un mémoire environnemental en ce sens.
+
+24l0l0	16_01_2013	T
+24l0l1	L__exploitant	O
+24l0l2	a_remis	N
+24l0l3	préfet	O
+24l0l4	un_mémoire_environnemental	N
+
+#- L'APC du 01/04/04 sera modifié et la surveillance piézométrique maintenue.
+
+25l0l0	L__APC	O
+25l0l1	01_04_04	T
+25l0l2	sera_modifié	N
+25l0l3	la_surveillance_piézométrique	A
+
+#- Action de l'administration toujours en cours.
+
+26l0l0	l__administration	O

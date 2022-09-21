@@ -1,0 +1,179 @@
+
+#40.0080
+#Scierie avec traitement du bois exploitée par les ETS MIREMONT sur la commune de Saint Yaguen (40).
+
+0l0l0	Scierie_avec_traitement_du_bois	A
+0l0l1	exploitée_par	R
+0l0l2	les_ETS_MIREMONT	O
+0l0l3	sur_la_commune_de_Saint_Yaguen___40__	L
+0l1l0	les_ETS_MIREMONT	I
+
+#L'établissement est spécialisé dans le sciage de grumes de pins maritimes.
+
+1l0l0	L__établissement	O
+1l0l1	est_spécialisé_dans	R
+1l0l2	le_sciage_de_grumes_de_pins_maritimes	A
+1l1l0	pins_maritimes	U
+
+#Les bois sciés, en fonction de leur destination, font l'objet d'un traitement par trempage dans une solution aqueuse:
+
+2l0l0	font_l__objet_d_	R
+2l0l1	un_traitement	N
+2l0l2	trempage	A
+
+#- soit fongicide (anti-bleu),
+
+3l1l0	fongicide	S
+3l1l1	anti_bleu	S
+
+#- soit fongicide - insecticide (classe 2).
+
+4l1l0	fongicide	S
+
+#Les installations sont autorisées par l'arrêté préfectoral du 11 décembre 1992.
+
+5l0l0	Les_installations	O
+5l0l1	sont_autorisées	N
+5l0l2	par_l__arrêté_préfectoral	O
+5l0l3	11_décembre_1992__	T
+
+#Le site est localisé à environ 1 km du ruisseau de Bez et à environ 800 m d'un autre ruisseau qui s'écoule vers la Midouze au Sud.
+
+6l0l0	Le_site	O
+6l0l1	localisé_à_environ_1_km_du_ruisseau_de_Bez	L
+6l0l2	et_à_environ_800_m_d__un_autre_ruisseau	L
+6l0l3	vers_la_Midouze_au_Sud	L
+
+#La nappe superficielle est contenue dans les terrasses alluviales et s'écoule vers le Sud-Ouest.
+
+7l0l0	écoule_vers_le_Sud_Ouest	L
+
+#La nappe sous-jacente est isolée par une épaisse couche d'argile (plus de 10 m).
+
+8l0l0	La_nappe_sous_jacente	O
+
+#1- DIAGNOSTIC
+
+9l0l0	DIAGNOSTIC	N
+
+#L'arrêté préfectoral du 28 mars 2003 prescrit un diagnostic initial et l'évaluation simplifiée des risques (ESR) du site.
+
+10l0l0	L__arrêté_préfectoral	O
+10l0l1	28_mars_2003	T
+10l0l2	prescrit	R
+10l0l3	un_diagnostic_initial	N
+10l0l4	l_	O
+10l0l5	évaluation_simplifiée_des_risques	N
+10l0l6	du_site	O
+
+#Le diagnostic et l'ESR ont été remis le 26 mai 2004 et le 7 juillet 2005.
+
+11l0l0	Le_diagnostic	O
+11l0l1	ont_été_remis	N
+11l0l2	le_26_mai_2004_et_le_7_juillet_2005__	T
+
+#Certaines substances ont été détectées dans les sols : carbendazime, cyperméthrine, tébuconazole et propiconazole.
+
+12l0l0	Certaines_substances	O
+12l0l1	ont_été_détectées	N
+12l0l2	les_sols	O
+12l1l0	carbendazime	S
+12l1l1	cyperméthrine	S
+12l1l2	tébuconazole	S
+12l1l3	propiconazole	S
+
+#Un seul sondage a permis de détecter des hydrocarbures pour une teneur inférieure à la Valeur de Constat d'Impact (VCI).
+
+13l0l0	hydrocarbures	O
+13l1l0	hydrocarbures	S
+
+#Toutefois, aucune substance n'a été quantifiée dans les piézomètres.
+
+
+#L'ESR classe le site en catégorie 2 "à surveiller" pour les milieux "eaux souterraines, autres usages que AEP", "sol par contact" et "eaux de surface, autres usages que AEP".
+
+15l1l0	ESR	I
+
+#Les recommandations de l'étape B sont :
+
+
+#- la mise en œuvre d'une surveillance semestrielle des eaux souterraines (en hautes et basses eaux),
+
+17l0l0	la_mise_en	N
+17l0l1	œuvre_d_	R
+17l0l2	une_surveillance_semestrielle	A
+17l0l3	eaux_souterraines	O
+
+#- l'amélioration des pratiques d'égouttage.
+
+
+#2- SURVEILLANCE DES EAUX SOUTERRAINES
+
+19l0l0	SURVEILLANCE_DES_EAUX	A
+19l0l1	SOUTERRAINES	O
+19l1l0	SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 a) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines par référence à la rubrique 2415 (traitement du bois) de la nomenclature des Installations Classées pour la Protection de l'Environnement.
+
+20l0l0	Ce_site	O
+20l0l1	est_soumis_à	R
+20l0l2	l_	O
+20l0l3	2_février_1998	T
+20l0l4	la_surveillance_des_eaux_souterraines	A
+20l0l5	traitement_du_bois	A
+20l0l6	Installations_Classées_pour_la_Protection	O
+
+#L'arrêté préfectoral du 28 mars 2003 prescrit la surveillance des eaux souterraines selon les modalités suivantes :
+
+21l0l0	L__arrêté_préfectoral	O
+21l0l1	28_mars_2003	T
+21l0l2	prescrit	N
+21l0l3	la_surveillance_des_eaux_souterraines	A
+
+#- la mise en place de 3 piézomètres,
+
+22l0l0	la_mise_en_place	N
+22l0l1	3_piézomètres	O
+
+#- les paramètres à analyser sont représentatifs des activités et des produits utilisés sur le site,
+
+
+#- le niveau piézométrique de la nappe est relevé à chaque campagne,
+
+24l0l0	est_relevé_à_chaque_campagne	N
+
+#- la fréquence des campagnes d'analyses est semestrielle.
+
+25l0l0	campagnes_d__analyses	N
+
+#Par courriers du 09 novembre 2007 et du 21 mars 2008, l'inspection des installations classées rappelle à l'exploitant ses obligations de surveillance.
+
+26l0l0	courriers_du_09_novembre_2007	T
+26l0l1	et_du_21_mars_2008__	T
+26l0l2	l__inspection_des_installations_classées	O
+26l0l3	l__exploitant	O
+26l0l4	ses_obligations	N
+26l0l5	de_surveillance	A
+
+#La surveillance a été réalisée à partir de trois piézomètres PZ1 à l'amont du site, ainsi que les PZ2 et PZ3.
+
+27l0l0	La_surveillance	A
+27l0l1	a_été_réalisée	N
+27l0l2	à_l__amont_du_site	L
+
+#Pour la campagne du 24 juin 2009, PZ1 est signalé comme ayant été arraché.
+
+28l0l0	la_campagne	N
+28l0l1	24_juin_2009__	T
+28l0l2	PZ1	O
+28l0l3	est_signalé	N
+28l0l4	ayant_été_arraché	N
+
+#Il a été remis en état pour la campagne du 9 mars 2010.
+
+29l0l0	Il	O
+29l0l1	a_été_remis_en_état_pour_la_campagne	N
+29l0l2	du_9_mars_2010__	T
+
+#Les résultats sont donnés page 6 "Surveillance du site et restrictions d'usage".
+

@@ -1,0 +1,218 @@
+
+#16.0010
+#La société CarnaudMetalbox possède à Barbezieux un terrain communément appelé "la butte" et faisant partie de la société Butimove.
+
+0l0l0	La_société_CarnaudMetalbox	O
+0l0l1	possède_à_Barbezieux	L
+0l0l2	un_terrain	O
+0l0l3	faisant_partie_de	R
+0l0l4	la_société_Butimove	O
+0l1l0	La_société_CarnaudMetalbox	I
+0l1l1	la_société_Butimove	I
+
+#Ce terrain est contigu au terrain de la société Danisco.
+
+1l0l0	Ce_terrain	O
+1l0l1	contigu_au_terrain	O
+1l0l2	la_société_Danisco	O
+1l1l0	la_société_Danisco	I
+
+#Cette butte a été constituée à l'occasion d'un nivellement de terrain effectué lors de la construction de l'usine pendant les années 70/80.
+
+2l0l0	Cette_butte	O
+2l0l1	a_été_constituée	N
+2l0l2	à_l__occasion_d_	R
+2l0l3	un_nivellement	N
+2l0l4	de_terrain	N
+2l0l5	effectué_lors_de	R
+2l0l6	la_construction_de	N
+2l0l7	l__usine	O
+2l0l8	pendant_les_années_70_80__	T
+
+#Des fûts ont été enfouis sous la terre au moment de la création de cette butte.
+
+3l0l0	Des_fûts	O
+3l0l1	ont_été_enfouis_sous	N
+3l0l2	la_terre	O
+3l0l3	au_moment_de	R
+3l0l4	la_création	N
+3l0l5	cette_butte	O
+
+#Ces fûts contenaient divers produits et déchets provenant d'un ancien incendie de l'usine (années 70).
+
+4l0l0	Ces_fûts_contenaient_divers_produits	O
+4l0l1	un	O
+4l0l2	ancien_incendie	N
+4l0l3	l__usine	L
+4l0l4	__années_70____	T
+
+#La société CarnaudMetalbox a acquis ce site en 1989.
+
+5l0l0	La_société_CarnaudMetalbox	O
+5l0l1	a_acquis	N
+5l0l2	ce_site	O
+5l0l3	en_1989__	T
+5l1l0	CarnaudMetalbox	I
+
+#Des suintements à flanc de butte ont été détectés en 1994.
+
+6l0l0	Des_suintements	O
+6l0l1	à_flanc_de_butte	L
+6l0l2	ont_été_détectés	N
+6l0l3	en_1994	T
+
+#ne pollution des eaux souterraines a été décelée en 1995.
+
+7l0l0	ne_pollution	O
+7l0l1	a_été_décelée	N
+7l0l2	en_1995	T
+
+#Plusieurs études ont été réalisées depuis 1995 afin de déterminer l'origine exacte de la pollution et de la traiter.
+
+8l0l0	Plusieurs_études_ont_été_réalisées	N
+8l0l1	depuis_1995	T
+8l0l2	l__origine_exacte	O
+8l0l3	traiter	N
+
+#La société CarnaudMetalbox a mené l'ensemble de ces travaux depuis 1995.
+
+9l0l0	La_société_CarnaudMetalbox	O
+9l0l1	a_mené	N
+9l0l2	l__ensemble_de_ces_travaux	O
+9l0l3	depuis_1995	T
+9l1l0	La_société_CarnaudMetalbox	I
+
+#Un arrêté préfectoral du 1er octobre 1997 a imposé à la société BUTIMOVE les travaux suivants :
+
+10l0l0	Un_arrêté_préfectoral	O
+10l0l1	du_1er_octobre_1997	T
+10l0l2	a_imposé	N
+10l0l3	la_société_BUTIMOVE	O
+10l0l4	les_travaux	N
+10l1l0	société_BUTIMOVE	I
+
+#- extraire les terres polluées de la butte, aux endroits présumés où des fûts étaient stockés,
+
+11l0l0	extraire	N
+11l0l1	les_terres_polluées	O
+11l0l2	aux_endroits	L
+11l0l3	étaient_stockés	A
+
+#- mettre en place un système de traitement des eaux souterraines par "stripping" (évaporation de solvants).
+
+12l0l0	mettre_en_place	N
+12l0l1	un_système_de_traitement_des_eaux_souterraines	O
+
+#Le système de traitement des eaux souterraines a été mis en place en décembre 1997 et a fonctionné depuis.
+
+13l0l0	Le_système_de_traitement_des_eaux_souterraines	O
+13l0l1	a_été_mis_en_place	N
+13l0l2	en_décembre_1997	T
+13l0l3	a_fonctionné	N
+13l0l4	depuis	T
+
+#Il consistait en 29 puits creusés en limite du site pour pomper les eaux souterraines.
+
+14l0l0	29_puits	O
+14l0l1	creusés	R
+14l0l2	en_limite_du_site	L
+14l0l3	pomper_les_eaux_souterraines	A
+
+#L'eau passait alors dans une unité de traitement qui éliminait les solvants par évaporation.
+
+15l0l0	L_	O
+15l0l1	une_unité_de_traitement	O
+
+#Ces 29 puits, écartés les uns des autres de quelques mètres, constituaient une sorte de barrière hydraulique empêchant la diffusion de la pollution.
+
+16l0l0	29_puits	O
+16l0l1	la_diffusion_de_la_pollution	A
+
+#En deux ans, 2500 litres d'eau ont ainsi été pompés, correspondant à seulement 20 litres de solvant.
+
+17l0l0	En_deux_ans	T
+17l0l1	2500_litres_d__eau	O
+17l0l2	ont_ainsi_été_pompés	N
+
+#La faible quantité d'eau s'explique par le fait qu'à l'endroit de la butte, l'eau ne circule que dans des failles du terrain, celui-ci étant de nature imperméable.
+
+18l0l0	dans_des_failles_du_terrain	O
+
+#Les opérations de pompage et évaporation des solvants ont été stoppées en janvier 2000.
+
+19l0l0	Les_opérations_de_pompage	N
+19l0l1	évaporation_des_solvants	A
+19l0l2	ont_été_stoppées	N
+19l0l3	en_janvier_2000__	T
+19l1l0	solvants	U
+
+#Après deux ans de pompage, et au vu des analyses effectuées périodiquement, il est apparu que le niveau de pollution en aval hydraulique chez les tiers restait à un niveau faible (les valeurs guides de l'OMS n'étant dépassées sur trois paramètres qu'à proximité immédiate du site), mais sans diminution notable.
+
+20l0l0	Après_deux_ans_de_pompage	N
+
+#Compte tenu de l'usage qui est fait de la nappe en aval (pas de prélèvement d'eau de boisson, les habitations ayant toutes été raccordées au réseau), la pollution résiduelle peut toutefois être tolérée.
+
+21l0l0	la_nappe	O
+21l0l1	en_aval	L
+21l0l2	les_habitations	O
+21l0l3	ayant_toutes_été	N
+21l0l4	raccordées_au_réseau	L
+
+#Un nouveau sondage effectué à la pelle mécanique dans une zone encore non explorée de la butte a mis en évidence la présence de quelques fûts.
+
+22l0l0	Un_nouveau_sondage	N
+22l0l1	effectué_à	R
+22l0l2	la_pelle_mécanique	O
+22l0l3	dans_une_zone_encore_non_explorée	N
+22l0l4	la_butte	N
+22l0l5	a_mis_en_évidence	R
+22l0l6	la_présence	O
+22l0l7	fûts	O
+
+#Afin d'être certain d'avoir détecté toutes les sources possibles de pollution, une campagne de recherche a été menée sur l'ensemble de la butte, par une méthode électromagnétique.
+
+23l0l0	toutes_les_sources_possibles_de_pollution	O
+23l0l1	une_campagne_de_recherche	N
+23l0l2	a_été_menée	N
+23l0l3	butte	L
+23l0l4	une_méthode_électromagnétique	O
+
+#Toutes les zones d'anomalie électromagnétique ont fait l'objet d'un sondage à la pelle mécanique.
+
+24l0l0	Toutes_les_zones	O
+24l0l1	ont_fait_l__objet_d_	R
+24l0l2	un_sondage	N
+
+#Seul l'endroit évoqué plus haut contient encore des fûts.
+
+25l0l0	fûts	O
+
+#Un nouvel arrêté en date du 25 août 2000 a imposé à l'exploitant l'extraction des ces fûts afin d'éliminer toute source de pollution.
+
+26l0l0	Un_nouvel_arrêté_en	N
+26l0l1	date_du_25_août_2000	T
+26l0l2	a_imposé	N
+26l0l3	l__exploitant	O
+26l0l4	l__extraction	N
+26l0l5	des_ces_fûts	O
+26l0l6	afin	R
+26l0l7	d__éliminer	N
+26l0l8	toute_source_de_pollution	O
+
+#Parallèlement à ces travaux un programme de surveillance des eaux souterraines a été mis en place.
+
+27l0l0	surveillance_des_eaux_souterraines	A
+27l0l1	a_été_mis_en_place	N
+
+#Les travaux imposés par l'arrêté du 25 aout 2000 ont été réalisés.
+
+28l0l0	Les_travaux_imposés	N
+28l0l1	l__arrêté	O
+28l0l2	25_aout_2000	T
+28l0l3	ont_été_réalisés	N
+
+#2009 - Demande d'un bilan de surveillance et de règles de restrictions d'usage.
+
+29l0l0	2009	T
+29l0l1	Demande	N
+29l0l2	de_règles_de_restrictions_d__usage	O

@@ -1,0 +1,331 @@
+
+#76.0115
+#Ce site de 9800 m2 est situé en centre-vile sur une zone mixte, industrielle et résidentielle.
+
+0l0l0	Ce_site	O
+0l0l1	situé_en_centre___vile	L
+0l0l2	sur_une_zone_mixte	L
+
+#La Seine est située à moins de 400 m du site, au sud.
+
+1l0l0	La_Seine	O
+1l0l1	est_située_à_moins_de_400_m_du_site	L
+1l0l2	au_sud	L
+
+#Les sols sont constitués d'alluvions anciennes et modernes jusqu'à 14 m puis de craies au delà.
+
+
+#On observe la nappe des alluvions puis la nappe de la craie vers 8m.
+
+3l0l0	vers	T
+3l0l1	8_m_	N
+
+#Les nappes ne sont pas protégées.
+
+
+#Le site a été occupé par la société Manopa (manufacture normande de papeterie ), spécialisée dans l'imprimerie et le traitement du papier, de 1920 à 1994, date à laquelle le site a été racheté par la société Herlitz pour le même type d'activités.
+
+5l0l0	Le_site	O
+5l0l1	a_été_occupé	N
+5l0l2	la_société_Manopa	O
+5l0l3	papeterie	A
+5l0l4	dans_l__imprimerie_et_le_traitement_du_papier	A
+5l0l5	de_1920_à_1994__	T
+5l0l6	date_à_laquelle	T
+5l0l7	le_site	O
+5l0l8	a_été_racheté	N
+5l0l9	par	R
+5l0l10	la_société_Herlitz	O
+5l1l0	la_société_Manopa	I
+5l1l1	la_société_Herlitz	I
+
+#Les activités de production ont continué jusqu'en 1996.
+
+6l0l0	Les_activités_de_production	A
+6l0l1	ont_continué	N
+6l0l2	jusqu__en_1996	T
+
+#Par la suite, le site a servi de zone de stockage et de préparation de fournitures en papeterie jusqu'à la fermeture définitive du site courant 2001.
+
+7l0l0	le_site	O
+7l0l1	a_servi_de	R
+7l0l2	zone	O
+7l0l3	préparation_de_fournitures_en_papeterie	A
+7l0l4	jusqu_	T
+7l0l5	à_la_fermeture_définitive_du_site	N
+7l0l6	courant_2001	T
+
+#Les installations étaient soumises à déclaration au titre des rubriques 81 bis et 355.
+
+8l0l0	Les_installations	O
+8l0l1	étaient_soumises_à_déclaration_au	N
+
+#Le site était précédemment occupé par une usine de tramway et une centrale électrique.
+
+9l0l0	Le_site	O
+9l0l1	était_précédemment_occupé_par	R
+9l0l2	une_usine_de_tramway	O
+9l0l3	une_centrale_électrique	O
+
+#Des visites du site les 11 aout 2006 et 24 octobre 2007 ont permis d'observer la destruction des bâtiments et le maintien des  infrastructures.
+
+10l0l0	Des_visites_du_site	N
+10l0l1	les_11_aout_2006_et_24_octobre_2007	T
+10l0l2	la_destruction_des_bâtiments	N
+10l0l3	le_maintien_des___infrastructures	N
+
+#La visite du site le 26 septembre 2011 a permis d'observer que le site a été réaménagé (Habitations)
+
+11l0l0	La_visite	N
+11l0l1	site	O
+11l0l2	le_26_septembre_2011	T
+11l0l3	le_site	O
+11l0l4	a_été_réaménagé	N
+
+#Risques susceptibles d'être rencontrés :
+
+
+#- pollution par encres, hydrocarbures, alcool, substances radioactives consécutives à l'activité MANOPA.
+
+13l0l0	encres	O
+13l0l1	hydrocarbures	O
+13l0l2	activité_MANOPA	O
+13l1l0	hydrocarbures	S
+
+#Quelques caractéristiques des activités passées :
+
+
+#- dépôt de 600 kg d'encres,
+
+15l0l0	600_kg_d__encres	O
+
+#- utilisation journalière de 45 kg d'encres,
+
+16l0l0	d__encres	O
+
+#- dépôt de 10 m3 de F.
+
+17l0l0	__dépôt	O
+
+#.D. dans cuve enterrée,
+
+18l0l0	_D_	O
+
+#- stockage de 0,7 m3 d'alcool,
+
+19l0l0	d__alcool	A
+
+#- utilisation de substances radioactives de 1972 à 1978.
+
+20l0l0	utilisation_de_substances_radioactives	N
+20l0l1	de_1972_à_1978__	T
+
+#Les anomalies visuelles qui ont pu être décelées sur le site lors de son exploitation sont :
+
+
+#•	une toiture en mauvais état, qui a notamment conduit à l'inondation du bâtiment le 4 juillet 2000,
+
+22l0l0	l__inondation	N
+22l0l1	du_bâtiment	L
+22l0l2	le_4_juillet_2000__	T
+
+#•	un ancien bac dans lequel auraient été déversés divers produits,
+
+23l0l0	un_ancien_bac	O
+
+#•	une dalle percée à divers endroits, imprégnée de tâches d'encres.
+
+24l0l0	imprégnée_de	R
+24l0l1	tâches_d__encres	A
+
+#Les stockages de liquides inflammables (y compris les anciens) ont été recensés.
+
+25l0l0	ont_été_recensés	N
+25l1l0	liquides_inflammables	U
+
+#Actions menées :
+
+
+#Le 5 juillet 2000, un constat de pollution des caniveaux d'évacuation des eaux pluviales des rues André Gantois et Paul Bert  par des produits colorants bleu-violet a mis en évidence la responsabilité de la société Herlitz.
+
+27l0l0	Le_5_juillet_2000__	T
+27l0l1	un_constat_de_pollution	N
+27l0l2	des_caniveaux	O
+27l0l3	rues_André_Gantois	L
+27l0l4	et_Paul_Bert	L
+27l0l5	par_des_produits_colorants	O
+27l0l6	violet_a_mis_en	N
+27l0l7	évidence_la_responsabilité_de_la_société_Herlitz	O
+27l1l0	des_produits_colorants_bleu	U
+27l1l1	de_la_société_Herlitz	I
+
+#Cette pollution était due à l'inondation des entrepôts sous plusieurs centimètres d'eau (inondation suite à des intempéries)  et à la remonté d'encres à travers les fissures des fondations du bâtiment.
+
+28l0l0	l__inondation	N
+28l0l1	entrepôts	O
+28l0l2	d__encres	O
+28l0l3	des_fondations	N
+28l0l4	du_bâtiment	O
+
+#A la suite de cet événement, deux arrêtés préfectoraux ont été signés.
+
+29l0l0	deux_arrêtés_préfectoraux	O
+29l0l1	ont_été_signés	N
+
+#Le premier arrêté du 28 décembre 2000, d'une part, prenait acte de la prise de possession par la société Herlitz du site Manopa , d'autre part, prescrivait la réalisation d'une évaluation simplifiée des risques.
+
+30l0l0	Le_premier_arrêté	O
+30l0l1	du_28_décembre_2000__	T
+30l0l2	acte	R
+30l0l3	de_la_prise_de_possession	N
+30l0l4	la_société_Herlitz	O
+30l0l5	site_Manopa	O
+30l0l6	prescrivait	R
+30l0l7	la_réalisation_d__une_évaluation_simplifiée_des_risques	N
+30l1l0	la_société_Herlitz	I
+30l1l1	Manopa	I
+
+#Le second arrêté préfectoral du 4 mars 2002, imposait la surveillance de la nappe par un réseau piézomètrique.
+
+31l0l0	Le_second_arrêté_préfectoral	O
+31l0l1	4_mars_2002__	T
+31l0l2	imposait	R
+31l0l3	la_surveillance_de	A
+31l0l4	la_nappe	O
+31l0l5	un_réseau_piézomètrique	O
+
+#Un seul contrôle des eaux a été réalisé dans le cadre de la réalisation de l’évaluation détaillée des risques.
+
+32l0l0	Un_seul_contrôle_des_eaux	O
+32l0l1	a_été_réalisé	N
+32l0l2	dans_le_cadre_de	R
+32l0l3	la_réalisation	N
+32l0l4	évaluation_détaillée_des_risques	N
+
+#Différentes études de sols ont été réalisées:
+
+33l0l0	Différentes_études_de_sols	N
+33l0l1	ont_été_réalisées	N
+
+#Tout d'abord la phase historique (Diagnostic initial phase A (ESR)) a été réalisée en juillet 2001, puis le diagnostic initial phase B (ESR) en octobre 2001.
+
+34l0l0	la_phase_historique	O
+34l0l1	Diagnostic_initial_phase_A	N
+34l0l2	a_été_réalisée	N
+34l0l3	en_juillet_2001__	T
+34l0l4	puis	O
+34l0l5	le_diagnostic_initial_phase_B	N
+34l0l6	en_octobre_2001	T
+
+#Les pollutions identifiées lors de cette phase (10 sondages) sont en premier lieu une pollution de remblais marqué par la présence de métaux lourds (As: concentration maximale de 24 mg/kg, Cu: concentration maximale de 244 mg/kg, Pb: concentration maximale de 1050 mg/kg) et de manière plus marginale, la présence de benzène, toluène, méthanol (en dessous des valeurs de définition des sources en vigueur à l'époque).
+
+35l0l0	cette_phase	N
+35l0l1	remblais	O
+35l1l0	métaux_lourds	S
+35l1l1	Cu	S
+35l1l2	Pb	S
+35l1l3	benzène	S
+35l1l4	toluène	S
+35l1l5	méthanol	S
+
+#La contamination en métaux lourds est localisée dans la partie ouest-nord-ouest du site.
+
+36l0l0	La_contamination	O
+36l0l1	métaux_lourds	O
+36l0l2	localisée_dans_la_partie_ouest_nord_ouest_du_site	L
+36l1l0	métaux_lourds	S
+
+#Une demande de permis de construire en juillet 2005 a donné lieu à un avis réservé de l'inspection des installations classées.  Les réserves concernaient les pollutions identifiées et la DRIRE invitait le demandeur (OPAC) soit à excaver les zones polluées soit à réaliser une évaluation détaillée des risques permettant de déterminer les contraintes de gestion du site.
+
+37l0l0	Une_demande	N
+37l0l1	de_permis_de_construire	N
+37l0l2	en_juillet_2005	T
+37l0l3	a_donné_lieu_à	R
+37l0l4	l__inspection_des_installations_classées	O
+37l0l5	concernaient_les_pollutions_identifiées	O
+37l0l6	et_la_DRIRE	O
+37l0l7	à_excaver	N
+37l0l8	les_zones_polluées	O
+37l0l9	à_réaliser_une_évaluation_détaillée_des_risques	N
+37l0l10	permettant_de	R
+37l0l11	déterminer_les_contraintes_de_gestion	N
+37l1l0	et_la_DRIRE	I
+
+#Une évaluation détaillée des risques a ainsi été réalisée le 29 mars 2007:
+
+38l0l0	Une_évaluation_détaillée_des_risques	N
+38l0l1	a_ainsi_été_réalisée	N
+38l0l2	le_29_mars_2007	T
+
+#Cette évaluation s'est basée sur les résultats des études de sol de l'ESR, sur 10 nouveaux sondages permettant d'observer l'extension des zones polluées.
+
+39l0l0	Cette_évaluation_s_	N
+39l0l1	l__extension	N
+39l0l2	zones_polluées	O
+
+#Au vu des dispositions constructives prévues dans le permis de construire, un niveau de risque inacceptable a été calculé pour les effets non cancérigènes  et cancérigènes lié à la présence de contact direct avec les pollutions métalliques au niveau des zones de jardins.
+
+40l0l0	a_été_calculé	N
+40l0l1	à_la_présence_de_contact_direct	O
+40l0l2	pollutions_métalliques	O
+40l0l3	au_niveau_des_zones_de_jardins	L
+40l1l0	cancérigènes	U
+
+#Par conséquent, il a été décidé de procéder à la suppression totale des contacts entre les cibles et les sources par excavation de 50 cm de remblais contaminés dans ces zones, les zones de jardins devant être remblayées avec de la terre végétale saine.
+
+41l0l0	la_suppression_totale	N
+41l0l1	excavation	N
+41l0l2	50_cm_de_remblais_contaminés_dans_ces_zones	O
+41l0l3	les_zones_de_jardins	O
+
+#La mise en place de ce scénario de réhabilitation conduisait à n'envisager que l'ingestion de fruits contaminé comme voie de transfert.
+
+42l0l0	La_mise_en_place	N
+42l0l1	ce_scénario_de_réhabilitation	O
+42l0l2	l_	N
+42l0l3	ingestion_de_fruits_contaminé	O
+42l1l0	fruits_contaminé	U
+
+#Des objectifs de réhabilitation en fond de fouille ont été calculés afin de rendre le risque acceptable (As: 15mg/Kg, Cu: 60mg/kg, Pb: 200 mg/kg)
+
+43l0l0	Des_objectifs	O
+43l0l1	fouille_ont_été_calculés	N
+43l1l0	Cu	S
+43l1l1	Pb	S
+
+#Compte tenu des contraintes d'aménagement du site (création de tranchées drainantes et des fondations...), c'est en tout 6000 m 3 de terres qui seront finalement excavées.
+
+44l0l0	création	N
+44l0l1	de_tranchées_drainantes	O
+44l0l2	des_fondations	N
+44l0l3	6000_m___3_de_terres_qui	O
+44l0l4	seront_finalement_excavées	N
+
+#Sur ce volume total, 1500 m3 ont pu être réemployés sur le site, 4500 m3 ont été réemployés dans des projets locaux (aménagements routiers) .
+
+45l0l0	le_site	O
+45l0l1	4500_m3	O
+45l0l2	ont_été_réemployés	N
+45l0l3	des_projets_locaux	O
+45l0l4	aménagements_routiers	N
+
+#Enfin, 100 m3 ont été éliminés en centre d'enfouissement technique.
+
+46l0l0	ont_été_éliminés	N
+
+#Actions à mener ou envisagées:
+
+
+#La dernière visite du site a permis de réaliser le PV de récolement des travaux de réhabilitation du site.
+
+48l0l0	La_dernière_visite	N
+48l0l1	le_PV	O
+48l0l2	de_récolement	N
+48l0l3	des_travaux_de_réhabilitation_du_site	N
+
+#Conformément aux conclusions de l'EDR, il conviendra par ailleurs de mettre en place des servitudes de manière à garder la mémoire des terres contaminées et éviter que des travaux ultérieurs ne viennent à ramener ces terres à la surface.
+
+49l0l0	mettre_en_place	N
+49l0l1	des_servitudes	O
+49l0l2	terres_contaminées	O
+49l0l3	des_travaux	N

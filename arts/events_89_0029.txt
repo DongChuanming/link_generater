@@ -1,0 +1,159 @@
+
+#89.0029
+#La station-service AVIA est implantée sur l'aire d'autoroute Maison-Dieu aménagée au bord de l'autoroute A6.
+
+0l0l0	La_station___service_AVIA	O
+0l0l1	est_implantée	N
+0l0l2	sur_l__aire_d__autoroute_Maison___Dieu_aménagée_au_bord_de_l__autoroute_A6__	L
+0l1l0	service_AVIA	I
+
+#La station-service relève du régime de déclaration avec contrôle périodique au titre de la législation relative aux installations classées pour la protection de l'environnement.
+
+1l0l0	La_station___service	O
+1l0l1	relève_du_régime_de_déclaration	N
+1l0l2	contrôle_périodique	O
+1l0l3	installations_classées_pour_la_protection_de	A
+1l0l4	l__environnement	O
+
+#L'activité de la station-service est orientée dans la distribution de carburants (véhicules légers et poids lourds) et de GPL.
+
+2l0l0	L__activité	A
+2l0l1	la_station___service	O
+2l0l2	est_orientée_dans	R
+2l0l3	la_distribution_de_carburants	A
+2l1l0	carburants	U
+2l1l1	GPL	U
+
+#Le site représente une superficie d'environ 3000 m2.
+
+
+#La station-service est entourée:
+
+
+#- au Nord, par des prés et la commune de Maison-Dieu
+
+5l0l0	au_Nord	L
+5l0l1	prés_et_la_commune_de_Maison___Dieu	L
+
+#- à l'Est, par des prés et des bois
+
+6l0l0	à_l__Est	L
+6l0l1	prés_et_des_bois	L
+
+#- au Sud, par l'autoroute A6 puis par l'aire de Chaponne
+
+7l0l0	au_Sud	L
+7l0l1	par_l__autoroute_A6	L
+7l0l2	l__aire	L
+
+#- à l'Ouest, par l'aire de repos et des prés.
+
+8l0l0	à_l__Ouest	L
+8l0l1	par_l__aire	L
+
+#la station service comporte plusieurs infrastructures, notamment:
+
+
+#- des bâtiments abritant la salle de vente
+
+
+#- deux auvents pour la distribution de carburant (poids lourds et véhicules légers)
+
+11l0l0	la_distribution_de_carburant	A
+11l1l0	carburant	U
+
+#- des cuves de stockage de carburant enterrées fonctionnelles
+
+12l0l0	carburant_enterrées	O
+12l1l0	des_cuves_de	D
+12l1l1	stockage_de_carburant_enterrées	U
+
+#- un ancien parc à cuves
+
+13l0l0	un_ancien_parc_à_cuves	O
+13l1l0	cuves	D
+
+#- une niche de dépotage
+
+
+#- une station d'épuration.
+
+15l0l0	une_station	O
+
+#La station-service est soumise à l'article 65 de l'arrêté ministériel du 2 février 1998.
+
+16l0l0	2_février_1998__	T
+
+#Celui-ci prescrit une surveillance des eaux souterraines pour certaines installations classées dont les installations de carburants routiers liquide ont une capacité supérieure à 40 m3/heure.
+
+17l0l0	prescrit	N
+17l0l1	une_surveillance_des_eaux_souterraines	A
+17l0l2	certaines_installations_classées	O
+17l1l0	carburants_routiers_liquide	U
+
+#Un diagnostic des sols avait été effectué en juillet 2000 par l'ancien propriétaire de la station-service (TOTALFINA ELF).
+
+18l0l0	Un_diagnostic_des_sols_avait_été_effectué	N
+18l0l1	en_juillet_2000	T
+18l0l2	par_l__ancien_propriétaire	O
+18l0l3	TOTALFINA_ELF	O
+18l1l0	service___TOTALFINA_ELF	I
+
+#Les investigations comprenaient 12 sondages dont 3 piézomètres.
+
+19l0l0	Les_investigations_comprenaient	N
+
+#Les analyses portaient uniquement en hydrocarbures totaux dans les sols et les eaux.
+
+20l0l0	Les_analyses	N
+20l0l1	hydrocarbures_totaux	O
+20l1l0	hydrocarbures_totaux	S
+
+#En juin 2005, l'inspection des installations classées demande à la société TD Autoroute:
+
+21l0l0	En_juin_2005__	T
+21l0l1	l__inspection_des_installations_classées	O
+21l0l2	demande	N
+21l0l3	société_TD_Autoroute	O
+21l1l0	société_TD_Autoroute	I
+
+#- de réaliser des prélèvements et analyses portant sur les hydrocarbures et les BTEX (benzène, toluènes, éthylbenzène et xylène)
+
+22l0l0	de_réaliser_des_prélèvements_et_analyses	N
+22l1l0	hydrocarbures	S
+22l1l1	les_BTEX	S
+22l1l2	benzène	S
+22l1l3	toluènes	S
+22l1l4	éthylbenzène	S
+22l1l5	xylène	S
+
+#- de réaliser une étude hydrogéologique.
+
+23l0l0	de_réaliser_une_étude_hydrogéologique	N
+
+#Les résultats révèlent des teneurs supérieures aux valeurs de références en BTEX et Hydrocarbures dans les sols et les eaux souterraines.
+
+24l1l0	BTEX	S
+24l1l1	Hydrocarbures	S
+
+#C'est dans ce cadre que la société TD Autoroute a réalisé un diagnostic de sols.
+
+25l0l0	la_société_TD_Autoroute	O
+25l0l1	a_réalisé	N
+25l0l2	un_diagnostic_de_sols	N
+25l1l0	la_société_TD_Autoroute	I
+
+#Les résultats révèlent:
+
+
+#- une contamination des eaux météoriques et souterraines en BTEX principalement
+
+27l0l0	une_contamination	N
+27l1l0	BTEX_principalement	S
+
+#- une contamination au droit de l'ancien parc à cuves où les terres n'ont pas été excavées.
+
+28l0l0	une_contamination	O
+28l0l1	au_droit	R
+28l0l2	les_terres	O
+28l0l3	n__ont_pas_été_excavées	N

@@ -1,0 +1,466 @@
+
+#31.0093
+#Le groupe scolaire Falguière est composé de
+
+
+#- l’école maternelle publique Falguière (n°0310244X) localisée 2 bis rue d’Artagnan à Toulouse (31).
+
+1l0l0	rue_d__Artagnan	L
+1l0l1	à_Toulouse___31__	L
+
+#Cette école accueille environ 150 enfants de 2 à 6 ans.
+
+2l0l0	Cette_école	O
+
+#- l'école élémentaire (0310916C), qui fait l’objet d’un diagnostic spécifique.
+
+3l0l0	l__objet_d_	R
+3l0l1	un_diagnostic_spécifique	N
+
+#Cette école élémentaire, localisée 2 rue d’Artagnan à Toulouse, accueille environ 237 enfants âgés de 6 à 11 ans.
+
+4l0l0	Cette_école_élémentaire	O
+4l0l1	localisée_2_rue_d__Artagnan	L
+4l0l2	à_Toulouse	L
+4l0l3	237_enfants	O
+
+#Le site du groupe scolaire, propriété de la ville de Toulouse, comprend :
+
+5l0l0	Le_site	O
+5l0l1	groupe_scolaire	O
+5l0l2	la_ville_de_Toulouse	O
+
+#Pour l’école maternelle, sur une surface d’environ 1500m²  :
+
+6l0l0	1500_m²	O
+
+#- deux bâtiments dont un avec un étage, sans sous-sol,
+
+7l0l0	deux_bâtiments	O
+
+#- une cour de récréation séparée de celle de l’école élémentaire, présentant des sols couverts,
+
+
+#- une cour intérieure séparée de la cour principale et sans vocation récréative (accès très occasionnel aux enfants); les sols y sont couverts excepté le pourtour des arbres,
+
+9l0l0	une_cour_intérieure	O
+9l0l1	la_cour_principale	O
+9l0l2	sans_vocation_récréative	A
+
+#- un jardin pédagogique séparé et fermé à clé, accessible aux enfants sur des temps scolaires définis.
+
+
+#Les travaux pédagogiques sont réalisés dans les terres en place ou bien dans des jardinières avec de la terre apportée (origine inconnue).
+
+11l0l0	Les_travaux_pédagogiques	O
+11l0l1	sont_réalisés_dans_les_terres_en_place	N
+
+#Les végétaux peuvent être consommés par les enfants.
+
+
+#Des observations ont été faites laissant suspecter la présence possible de vides sanitaires au droit de l’extrémité ouest du bâtiment ouest et à l’entrée de l’école.
+
+13l0l0	la_présence_possible	O
+13l0l1	droit_de_l__extrémité_ouest_du_bâtiment_ouest	L
+13l0l2	à_l__entrée_de_l__école	L
+13l1l0	vides_sanitaires	D
+
+#Pour l’école élémentaire, sur une surface d’environ 1800m² :
+
+14l0l0	1800_m²	O
+
+#- deux bâtiments avec un étage, présentant chacun un sous-sol partiel,
+
+15l0l0	deux_bâtiments	O
+
+#- une cour de récréation séparée de celle de l’école maternelle, présentant des sols recouverts par un enrobé et un préau ouvert,
+
+
+#- un jardin pédagogique séparé et fermé à clé et accessible aux enfants sur des temps scolaires définis.
+
+
+#Les travaux pédagogiques sont réalisés dans les terres en place ou bien dans des jardinières avec de la terre apportée (origine non connue).
+
+18l0l0	dans_les	L
+18l0l1	terres_en_place	N
+
+#Les végétaux peuvent être consommés par les enfants,
+
+
+#- un Centre de Loisirs Associé à l’Ecole (CLAE), n’accueillant que les enfants de l’école élémentaire.
+
+20l0l0	l__Ecole	O
+
+#L’école élémentaire ne comporte pas de logement de fonction.
+
+
+#Le sous-sol du bâtiment sud comporte la chaufferie gaz du groupe scolaire et celui du bâtiment est a mis en évidence des traces d’une ancienne chaufferie (fondation cuve et conduit de cheminée).
+
+22l0l0	bâtiment_sud	O
+22l0l1	comporte	R
+22l0l2	la_chaufferie	O
+22l0l3	une_ancienne_chaufferie	O
+22l0l4	fondation	N
+
+#Aucun puits n’a été observé au droit de l’école.
+
+23l0l0	au_droit_de_l__école	L
+
+#Résultats de l’étude historique et documentaire
+
+
+#L’élément qui a motivé l’intégration de ce groupe scolaire à la démarche de diagnostic est sa superposition supposée avec une ancienne fabrique de produits chimiques répertoriée dans la base de données BASIAS, référencée MPY3103193.
+
+25l0l0	ce_groupe_scolaire	O
+25l0l1	avec	R
+25l0l2	une_ancienne_fabrique_de_produits_chimiques	O
+25l1l0	produits_chimiques	U
+
+#Selon la mairie de Toulouse, la construction du groupe scolaire Falguière daterait de 1937 et aurait connu par la suite des extensions.
+
+26l0l0	mairie_de_Toulouse	L
+26l0l1	la_construction_du_groupe_scolaire_Falguière	O
+26l0l2	daterait_de_1937	T
+26l0l3	aurait_connu_par_la_suite_des_extensions	N
+
+#La nature des terrains et les activités exercées avant son implantation ne sont pas connus.
+
+27l0l0	La_nature_des_terrains	O
+27l0l1	les_activités_exercées	O
+27l0l2	avant	T
+27l0l3	son_implantation	N
+
+#L’étude historique et documentaire n’a pas confirmé la superposition de l’établissement avec le site BASIAS.
+
+28l0l0	superposition	N
+28l0l1	l__établissement	O
+28l0l2	le_site_BASIAS	O
+
+#En effet, les documents d’archives montrent que le site BASIAS est situé à plus de 3 km.
+
+29l0l0	le_site_BASIAS	O
+29l0l1	est_situé_à_plus_de_3_km	L
+
+#Néanmoins, d’autres sites BASIAS ont été recensés à proximité de l’établissement : une ancienne usine à gaz (MPY3111219), deux garages/dépôts de liquide inflammable/atelier de peinture (MPY3112209 et MPY3115244) et une chaudronnerie (MPY3110333).
+
+30l0l0	d__autres_sites_BASIAS	O
+30l0l1	ont_été_recensés	N
+30l0l2	à_proximité_de_l_	L
+30l0l3	une_ancienne_usine_à_gaz	O
+30l0l4	deux_garages	O
+30l0l5	chaudronnerie	A
+30l1l0	dépôts_de	D
+30l1l1	liquide_inflammable	U
+
+#Cette activité (MPY3110333) est localisée rue du Béarnais cependant aucune information n’a été retrouvée pour préciser sa localisation ; ainsi elle pourrait être superposée à l’établissement dans le cas le plus défavorable.
+
+31l0l0	Cette_activité	O
+31l0l1	localisée_rue_du_Béarnais	L
+
+#Résultats de l’étude géologique et hydrogéologique
+
+32l0l0	géologique_et_hydrogéologique	O
+
+#L’étude du contexte géologique et hydrogéologique indique que la nappe d’eau souterraine se trouve à environ 4 m de profondeur au droit du site.
+
+33l0l0	trouve_à_environ_4_m_de_profondeur_au_droit_du_site	L
+
+#L’écoulement naturel de cette nappe s’effectue vers la Garonne, soit en direction de l’ouest et n’est pas suspecté d’être perturbé au voisinage de l’établissement (pas de pompage recensé à proximité de l’établissement).
+
+34l0l0	vers_la_Garonne	L
+34l0l1	en_direction_de_l__ouest	L
+34l0l2	l__établissement	O
+34l0l3	à_proximité_de_l__établissement	L
+
+#Ainsi, les sites BASIAS MPY3112209 et MPY3115244 (garages) sont localisés en amont hydraulique de l’établissement et le site MPY3111219 (usine à gaz) en latéral hydraulique de l’école.
+
+35l0l0	les_sites_BASIAS_MPY3112209	O
+35l0l1	localisés_en_amont_hydraulique_de_l__établissement	L
+35l0l2	le_site	O
+35l0l3	en_latéral_hydraulique_de_l__école	L
+
+#Il convient de rappeler que l’ancienne chaudronnerie (MPY3110333) est potentiellement superposée à l’établissement scolaire.
+
+36l0l0	l__ancienne_chaudronnerie	O
+36l0l1	superposée_à_l__établissement_scolaire	L
+
+#Par circulaire du 4 mai 2010, le ministère en charge du développement durable a fixé les modalités de diagnostic des sols dans les lieux accueillant les enfants et les adolescents construits sur d’anciens sites d’activité industrielle ou de services ou à proximité.
+
+37l0l0	4_mai_2010__	T
+37l0l1	le_ministère_en_charge_du_développement_durable	O
+37l0l2	a_fixé	N
+37l0l3	les_modalités	O
+37l0l4	de_diagnostic	N
+37l0l5	des_sols	O
+37l0l6	dans	R
+37l0l7	les_lieux	O
+37l0l8	accueillant	N
+37l0l9	les_enfants	O
+37l0l10	services_ou	A
+37l0l11	à_proximité	L
+
+#Cette démarche s’est inscrite dans le cadre de l’action 19 du 2e plan national santé environnement 2009-2013 et de l’article 43 de la loi 2009 – 967 du 3 août 2009 de programmation relative à la mise en œuvre du Grenelle de l’environnement.
+
+38l0l0	Cette_démarche	O
+38l0l1	s__est_inscrite_dans	R
+38l0l2	le_cadre_de	R
+38l0l3	l_	O
+38l0l4	2e_plan_national_santé_environnement_2009___2013	O
+38l0l5	3_août_2009	T
+38l0l6	programmation_relative_à	R
+38l0l7	la_mise_en_œuvre_du_Grenelle	N
+38l0l8	de_l__environnement	O
+
+#Etude des influences potentielles de l’ancien site industriel sur le groupe scolaire scolaire
+
+39l0l0	Etude	N
+39l0l1	le_groupe_scolaire_scolaire	O
+
+#Pour l'école maternelle , s’agissant d’un établissement accueillant des enfants de 2 à 6 ans, avec jardin pédagogique, sans logement de fonction, quatre scénarios sont à considérer.
+
+
+#Les quatre scénarios d’exposition potentielle sont retenus :
+
+
+#- l’ingestion de sol par les enfants :
+
+42l0l0	l__ingestion	N
+
+#Du fait de la superposition potentielle de l’emprise de l’école avec un site BASIAS (MPY3110333), la proximité d’anciennes activités émettrices de poussières et de la présence de sols à nu accessibles aux enfants, le scénario d’exposition par ingestion de sols superficiels est retenu.
+
+43l0l0	la_superposition	N
+43l0l1	l__école	O
+43l0l2	un_site_BASIAS	O
+43l0l3	activités_émettrices	A
+43l0l4	ingestion_de_sols	N
+
+#- l'inhalation de l'air dans les bâtiments, air qui serait susceptible d'être dégradé par des pollutions éventuelles provenant des sites BASIAS :
+
+44l0l0	l__inhalation	N
+44l0l1	sites_BASIAS	O
+
+#La proximité, voire la superposition par rapport à l’établissement, d’anciens sites industriels ayant potentiellement mis en œuvre des polluants volatils, ne permet pas de conclure à l’absence d’influence de ces sites BASIAS sur la qualité de l'air à l'intérieur des bâtiments de l’école via un transfert de composés volatils dans les sols et/ou les eaux souterraines.
+
+45l0l0	La_proximité	O
+45l0l1	superposition_par_rapport_à_l__établissement	L
+45l0l2	sites_industriels	O
+45l0l3	ayant	N
+45l0l4	potentiellement_mis_en_œuvre_des_polluants	O
+45l0l5	ces_sites_BASIAS	O
+45l0l6	l__école	O
+45l1l0	des_polluants	U
+45l1l1	composés	U
+
+#- l’ingestion d’eau du robinet par les enfants :
+
+46l0l0	ingestion	N
+
+#Les réseaux d’eau potable peuvent traverser l’emprise des sites BASIAS retenus du fait de la superposition potentielle de l’établissement avec une ancienne chaudronnerie (BASIAS MPY3110333).
+
+47l0l0	BASIAS	O
+47l0l1	la_superposition	N
+47l0l2	chaudronnerie	A
+
+#La possibilité d’une dégradation de la qualité de l’eau du robinet est donc retenue.
+
+
+#- l’ingestion de légumes/fruits du jardin pédagogique :
+
+49l0l0	l__ingestion	N
+
+#Les terres en place sont susceptibles d’avoir été dégradées du fait de la superposition potentielle de l’école avec un ancien site industriel et de la présence d’anciennes activités émettrices de poussières dans l’environnement de l’établissement.
+
+50l0l0	Les_terres	O
+50l0l1	d__avoir_été_dégradées	N
+50l0l2	la_superposition	N
+50l0l3	l__école	O
+50l0l4	avec_un_ancien_site_industriel	L
+
+#Les produits issus de ce jardin étant potentiellement consommés, le scénario « ingestion de légumes/fruits » est donc retenu.
+
+51l0l0	ingestion	N
+
+#Dans un premier temps, des prélèvements et des analyses ont été réalisés pour contrôler la qualité des sols du jardin.
+
+52l0l0	des_analyses	N
+52l0l1	ont_été_réalisés	N
+52l0l2	contrôler	R
+52l0l3	la_qualité_des_sols_du_jardin	O
+
+#Pour l'école élémentaire, s'agissant d'une école accueillant des enfants de 7 à 11 ans, avec jardin pédagogique, sans logement de fonction, trois scénarios d’exposition sont à considérer.
+
+53l0l0	école_élémentaire	O
+53l0l1	une_école	O
+53l0l2	accueillant	R
+53l0l3	des_enfants	O
+
+#Les trois scénarios d’exposition potentielle sont retenus :
+
+
+#- l'inhalation de l'air dans les bâtiments,
+
+55l1l0	les_bâtiments	U
+
+#- l’ingestion d’eau du robinet par les enfants,
+
+56l0l0	l__ingestion	N
+
+#- L’ingestion de légumes/fruits cultivés dans le jardin pédagogique,
+
+57l0l0	L__ingestion	N
+57l0l1	de_légumes___fruits_cultivés	A
+
+#Le scénario d’exposition par ingestion de sol n’a pas été considéré du fait de l’âge des enfants fréquentant l’établissement (supérieur à 6 ans) pour lequel le porté main-bouche n’est pas pertinent.
+
+58l0l0	ingestion_de_sol	N
+
+#Compte tenu des informations collectées et de la configuration du site, le groupe scolaire a fait l’objet d’une campagne de diagnostic sur les milieux pertinents (phase 2) à l’issue de la phase 1.
+
+59l0l0	configuration_du_site	N
+59l0l1	le_groupe_scolaire	O
+59l0l2	a_fait_l__objet_d_	R
+59l0l3	une_campagne_de_diagnostic	N
+59l0l4	les_milieux_pertinents___phase	O
+59l0l5	issue_de	L
+59l0l6	la_phase_1__	T
+
+#Les milieux retenus sont :
+
+
+#- l’air du sol sous dalle,
+
+
+#- l’air de la cave,
+
+
+#- les sols superficiels et profonds du jardin pédagogique
+
+
+#- l’eau du robinet.
+
+
+#Les substances recherchées ont été les substances associées aux activités recensées pour les sites BASIAS retenus.
+
+65l0l0	les_sites_BASIAS	O
+65l1l0	substances	S
+
+#Les résultats ont été interprétés conformément au guide de gestion des résultats des diagnostics réalisés dans les lieux accueillant enfants et adolescents (BRGM, ADEME, INERIS, InVS) de juin 2011 et à la note ministérielle du 8 février 2007 définissant le cadre général de la politique nationale en matière de gestion des sites et sols pollués.
+
+66l0l0	ont_été_interprétés	N
+66l0l1	conformément_au	R
+66l0l2	diagnostics	N
+66l0l3	réalisés_dans	R
+66l0l4	les_lieux	O
+66l0l5	accueillant_enfants	N
+66l0l6	et_adolescents	A
+66l0l7	BRGM	O
+66l0l8	INERIS	O
+66l0l9	InVS	O
+66l0l10	de_juin_2011	T
+66l0l11	8_février_2007	T
+66l0l12	gestion_des_sites_et_sols_pollués	O
+66l1l0	BRGM	I
+66l1l1	INERIS	I
+66l1l2	InVS	I
+
+#Les investigations ont montré les éléments suivants :
+
+
+#- la présence de composés volatils dans l’air du sol à des concentrations mesurées inférieures aux bornes basses des intervalles de gestion.
+
+68l1l0	composés	U
+
+#Ainsi la qualité de l’air intérieur ne pose pas de problème ;
+
+
+#- l’eau du robinet au niveau du réfectoire respecte les critères de potabilité pour les paramètres analysés.
+
+
+#Ainsi la qualité de l’eau du robinet ne pose pas de problème ;
+
+
+#- des composés, dont le plomb, ont été quantifiés localement dans les sols superficiels au droit de l’établissement à des teneurs supérieures à celles mesurées dans les échantillons témoins et aux référentiels bibliographiques.
+
+72l0l0	ont_été_quantifiés	N
+72l0l1	au_droit_de_l__établissement	L
+72l1l0	composés	S
+72l1l1	le_plomb	S
+
+#Pour rappel, les végétaux produits dans le jardin pédagogique peuvent être consommés par les enfants.
+
+73l0l0	le_jardin_pédagogique	O
+73l0l1	peuvent_être_consommés	N
+
+#En vue de réduire l’exposition au plomb de la population française, les autorités sanitaires au niveau national mènent actuellement des travaux pour réévaluer l’ensemble des valeurs de gestion aujourd’hui en vigueur sur le plomb.
+
+74l0l0	les_autorités	O
+74l0l1	réévaluer	N
+74l0l2	l__ensemble_des_valeurs_de_gestion	O
+74l1l0	plomb	S
+74l1l1	plomb	S
+
+#Le Haut Conseil de la Santé Publique a dans son avis du 23 mai 2014 préconisé une politique de réduction des expositions au plomb au plus bas niveau possible et une politique de surveillance de la population.
+
+75l0l0	Le_Haut_Conseil_de_la_Santé_Publique	O
+75l0l1	23_mai_2014_préconisé	T
+75l0l2	une_politique_de_réduction_des_expositions_au_plomb	O
+75l0l3	surveillance_de_la_population	A
+75l1l0	Le_Haut_Conseil_de_la_Santé_Publique	I
+
+#Par lettre du 15/10/2015, le préfet de Haute-Garonne a recommandé au maître d'ouvrage du collège de réduire autant que possible l’exposition des personnes fréquentant l’établissement par des mesures environnementales.
+
+76l0l0	15_10_2015	T
+76l0l1	le_préfet_de_Haute_Garonne	O
+76l0l2	a_recommandé	N
+76l0l3	au_maître_d_	O
+76l0l4	ouvrage_du_collège	O
+76l0l5	des_mesures_environnementales	O
+76l1l0	le_préfet_de_Haute_Garonne	I
+
+#Ainsi :
+
+
+#- à titre conservatoire, il est recommandé de restreindre les accès aux espaces verts concernés par ces teneurs en plomb supérieures à 100 mg/kg avec des clôtures et/ou barrières,
+
+78l0l0	restreindre_les_accès	N
+78l0l1	aux_espaces_verts_concernés	O
+78l0l2	des_clôtures	O
+78l1l0	plomb	S
+
+#- puis il convient soit de recouvrir les sols végétalisés par un matériau synthétique, soit de remplacer les terres en place (sur 30 centimètres) par des terres d’apport dont la qualité sera contrôlée avec mise en place d’un grillage avertisseur.
+
+79l0l0	recouvrir_les_sols_végétalisés	N
+79l0l1	remplacer_les_terres_en_place	N
+
+#Pour tous les autres composés, la gestion des résultats, en considérant un scénario d’ingestion de sol indique que la qualité des sols est compatible avec l’usage actuel.
+
+80l1l0	autres_composés	S
+
+#Pour les sols, l'école maternelle et l'école élémentaire Falguière à Toulouse sont classées en catégorie B c'est à dire que "les aménagements et les usages actuels permettent de protéger les personnes des expositions aux pollutions, que les pollutions soient potentielles ou avérées.
+
+81l0l0	l__école_élémentaire_Falguière	O
+81l0l1	Toulouse	L
+81l0l2	les_aménagements	N
+
+#Des modalités de gestion de l'information doivent cependant être mises en place pour expliquer ce qui doit être fait si les aménagements ou les usages des lieux venaient à être modifiés".
+
+82l0l0	Des_modalités	O
+82l0l1	expliquer	N
+82l0l2	ce_qui_doit_être_fait	O
+82l0l3	si_les_aménagements	N
+82l0l4	les_usages_des_lieux	O
+82l0l5	venaient_à_être_modifiés	N
+
+#Ce classement permet de conserver la mémoire des résultats de ce diagnostic et engager les actions préconisées par lettre du 15/10/2015.
+
+83l0l0	ce_diagnostic	N
+83l0l1	engager	N
+83l0l2	15_10_2015__	T
+
+#Cet avis concerne la configuration actuelle de l’établissement et se base sur les connaissances techniques et scientifiques du moment, au regard de la méthodologie mise en œuvre dans le cadre de la démarche.
+
+84l0l0	se_base_sur	R
+84l0l1	les_connaissances_techniques	O
+84l0l2	mise_en_œuvre	N
+84l0l3	dans_le_cadre_de	R
+84l0l4	la_démarche	N

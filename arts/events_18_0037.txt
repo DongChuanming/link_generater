@@ -1,0 +1,260 @@
+
+#18.0037
+#L’établissement est situé dans la zone péri-urbaine de Bourges, à proximité de l’aéroport.
+
+0l0l0	L__établissement	O
+0l0l1	est_situé_dans_la_zone_péri_urbaine_de_Bourges	L
+0l0l2	à_proximité_de_l__aéroport	L
+
+#Le site est exploité depuis les années 1970 par la société MBDA (auparavant Aérospatiale missile)  et réalise essentiellement de l’usinage, du traitement et de l’assemblage de métaux et d’éléments en composites.
+
+1l0l0	Le_site	O
+1l0l1	est_exploité	N
+1l0l2	depuis_les_années_1970	T
+1l0l3	la_société_MBDA	O
+1l0l4	Aérospatiale_missile	A
+1l0l5	de_l__usinage___du_traitement_et_de_l__assemblage_de_métaux_et_d__éléments_en_composites	A
+1l1l0	la_société_MBDA	I
+
+#Les activités du site sont couvertes par un arrêté préfectoral du 27 octobre 1997, modifié et complété par un arrêté du 30 mars 2007, pour les activités de  travail et traitement des métaux, (notamment par des produits organo-halogénés), ainsi que pour l’application de peinture.
+
+2l0l0	Les_activités	N
+2l0l1	un_arrêté_préfectoral	O
+2l0l2	27_octobre_1997__	T
+2l0l3	un_arrêté	O
+2l0l4	du_30_mars_2007__	T
+2l0l5	les_activités_de___travail	A
+2l0l6	et_traitement_des_métaux	A
+2l0l7	pour_l__application_de_peinture	A
+2l1l0	des_produits	S
+
+#La situation administrative de l’établissement est régulière.
+
+
+#Dans le cadre de la mise en place en juillet 2003 d’une surveillance de la qualité des eaux souterraines s’écoulant à l’aplomb du site, il a été mis en évidence une pollution significative des eaux de la nappe des Calcaires de l’Oxfordien, située à une profondeur d’environ 20-30 mètres, par du chrome hexavalent et des composés organo-halogénés.
+
+4l0l0	Dans_le_cadre_de	R
+4l0l1	la_mise_en_place	N
+4l0l2	en_juillet_2003	T
+4l0l3	surveillance_de_la_qualité_des_eaux_souterraines	A
+4l0l4	écoulant_à_l__aplomb_du_site	L
+4l0l5	une_pollution_significative	N
+4l0l6	la_nappe	O
+4l1l0	chrome_hexavalent	S
+4l1l1	des_composés_organo___halogénés	S
+
+#Suite à la demande de l’inspection des installations classées, des diagnostics site et sol pollué ont été réalisés  durant l’année 2004 indiquant principalement que :
+
+5l0l0	Suite	R
+5l0l1	à_la_demande	N
+5l0l2	l__inspection_des_installations_classées	O
+5l0l3	des_diagnostics	N
+5l0l4	sol_pollué	O
+5l0l5	ont_été_réalisés	N
+5l0l6	__durant_l__année_2004	T
+
+#- on retrouve des captages privés et agricoles à 1.5 km en aval hydraulique du site, mais pas de captage d’eau potable à proximité,
+
+6l0l0	captages_privés	O
+6l0l1	à_1_5_km_en_aval_hydraulique_du_site	L
+6l0l2	pas_de_captage_d_	A
+
+#- le sous sol est perméable (remblais limoneux et/ou sablo-graveleux, surmontant un substratum calcaire argileux et localement karstique),
+
+
+#- des sources sols de pollution sont présentes sur le site mais en quantité et concentration limitées,
+
+8l0l0	des_sources_sols_de_pollution	O
+
+#- une nappe polluée en produits organo-halogéné et en chrome VI se trouve localisée au droit de l’établissement.
+
+9l0l0	une_nappe_polluée	O
+9l0l1	chrome_VI	O
+9l0l2	se_trouve	R
+9l0l3	localisée_au_droit_de_l__établissement	L
+9l1l0	produits_organo___halogéné	S
+9l1l1	chrome_VI	S
+
+#Des contrôles trimestriels sont réalisés depuis l’année 2003 afin d’étudier l’étendue de la nappe polluée  et son évolution au cours du temps.
+
+10l0l0	Des_contrôles_trimestriels	N
+10l0l1	sont_réalisés	N
+10l0l2	depuis_l__année_2003	T
+10l0l3	polluée	O
+
+#Ceux-ci mettent en évidence des teneurs importantes en produits organo-halogénés et en chrome dans la nappe localisée sous les bâtiments qui abritaient les anciennes installations de traitement de surface.
+
+11l0l0	chrome	O
+11l0l1	la_nappe	O
+11l0l2	localisée_sous_les_bâtiments	L
+11l0l3	abritaient	A
+11l0l4	les_anciennes_installations_de	O
+11l0l5	traitement_de_surface	A
+11l1l0	produits_organo___halogénés	S
+11l1l1	chrome	S
+
+#Cependant, les concentrations pour ces paramètres sont nettement plus faibles en limite d'emprise de l’établissement.
+
+12l0l0	ces_paramètres	O
+12l0l1	en_limite_d_	L
+
+#En effet un pompage important de la nappe par la société MBDA pour ses besoins industriels induit un cône de rabattement, favorisant la fixation de la pollution au centre du site.
+
+13l0l0	un_pompage	N
+13l0l1	la_nappe	O
+13l0l2	la_société_MBDA	O
+13l0l3	ses_besoins_industriels	A
+13l0l4	induit	R
+13l0l5	un_cône_de_rabattement	O
+13l0l6	favorisant_la_fixation_de	A
+13l0l7	la_pollution	O
+13l0l8	au_centre_du_site	L
+13l1l0	la_société_MBDA	I
+
+#Par courriers des 15 mars et 30 novembre 2005, l’inspection des installations classées a demandé à la société MBDA de réaliser :
+
+14l0l0	courriers_des_15_mars_et_30_novembre_2005__	T
+14l0l1	l__inspection_des_installations_classées	O
+14l0l2	a_demandé	N
+14l0l3	la_société_MBDA	O
+14l1l0	la_société_MBDA	I
+
+#- une étude technico-économique sur la dépollution du site,
+
+15l0l0	technico	N
+15l0l1	la_dépollution	N
+
+#- une étude technique permettant de garantir que la nappe polluée située au droit de l’établissement ne peut  pas sortir de l’emprise du cône de rabattement.
+
+16l0l0	la_nappe_polluée	O
+16l0l1	située_au_droit_de_l__établissement	L
+16l0l2	__pas_sortir_de	L
+16l0l3	de_rabattement	N
+
+#La réalisation de ces deux études dans un délai d'un an a été prescrite par un arrêté préfectoral complémentaire du 30 mars 2007.
+
+17l0l0	La_réalisation	N
+17l0l1	ces_deux_études	O
+17l0l2	dans_un_délai_d__un_an	T
+17l0l3	a_été_prescrite	N
+17l0l4	par_un_arrêté_préfectoral_complémentaire	O
+17l0l5	du_30_mars_2007__	T
+
+#Il impose également un contrôle trimestriel de la qualité des eaux souterraines et une restriction de l'usage des sols pollués dans l'emprise de l'établissement.
+
+18l0l0	un_contrôle_trimestriel_de_la_qualité_des_eaux_souterraines	A
+18l0l1	une_restriction	N
+18l0l2	sols_pollués	O
+
+#Le programme d'étude de faisabilité de dépollution du site a fait l'objet d'un avis par un hydrogéologue agréé désigné en juillet 2008 : il répond à l'objectif.
+
+19l0l0	Le_programme	O
+19l0l1	d__étude_de_faisabilité_de_dépollution	N
+19l0l2	site	O
+19l0l3	a_fait_l__objet_d_	R
+19l0l4	un	O
+19l0l5	hydrogéologue_agréé_désigné	N
+19l0l6	en_juillet_2008	T
+
+#Une acquisition de données est nécessaire pour prévoir le comportement de la nappe afin de piéger la pollution.
+
+20l0l0	la_nappe	O
+
+#Un piézomètre supplémentaire de surveillance de la nappe a été mis en place à l'extérieur du site industriel, fin 2008.
+
+21l0l0	Un_piézomètre	O
+21l0l1	nappe	A
+21l0l2	a_été_mis_en_place	N
+21l0l3	à_l__extérieur_du_site_industriel	L
+21l0l4	fin_2008__	T
+
+#Une extension du panache de pollution a été constaté à l'extérieur de l’établissement.
+
+22l0l0	Une_extension	N
+22l0l1	panache_de_pollution	O
+22l0l2	a_été_constaté	N
+22l0l3	à	L
+
+#En 2009, plusieurs actions ont été menées :
+
+23l0l0	En_2009__	T
+
+#- étude approfondie des écoulements d'eaux souterraines,
+
+
+#- étude des vitesses d'écoulement des eaux souterraines par méthodes électriques (transferts très lents),
+
+
+#- évaluation des risques sanitaires liés à la qualité de l'air ambiant sur le site (risque acceptable),
+
+
+#- recherche des usages externes des eaux souterraines de la nappe coulant au droit du site (absence d'usage en aval hydraulique),
+
+27l0l0	recherche_des_usages_externes_des_eaux_souterraines	A
+27l0l1	au_droit_du_site	L
+27l0l2	en_aval_hydraulique	L
+
+#- recherche de l'incidence de la pollution sur un captage d'eau potable sur une autre nappe (absence d'incidence),
+
+
+#- recensement et caractérisation des zones sources de pollution, mise en place de piézomètre supplémentaires à l'extérieur du site.
+
+29l0l0	recensement	N
+29l0l1	caractérisation_des_zones_sources_de_pollution	O
+29l0l2	mise_en_place	N
+29l0l3	à_l__extérieur_du_site	L
+
+#En 2010, une ancienne cuve de traitement avec solvants a été démantelée et des sondages de sol ont été effectués.
+
+30l0l0	En_2010__	T
+30l0l1	une_ancienne_cuve_de_traitement_avec_solvants	O
+30l0l2	a_été_démantelée	N
+30l0l3	des_sondages_de_sol	N
+30l0l4	ont_été_effectués	N
+30l1l0	solvants	S
+
+#Ils ont révélé une pollution par les solvants chlorés.
+
+31l1l0	solvants_chlorés	U
+
+#Divers essais en laboratoire de faisabilité d'un traitement par bio atténuation naturelle dynamisée, ont été réalisés sur des eaux polluées par le chrome VI et les solvants chlorés.
+
+32l0l0	ont_été_réalisés	N
+32l0l1	des_eaux	O
+32l0l2	polluées	N
+32l1l0	le_chrome_VI	S
+32l1l1	solvants_chlorés	S
+
+#Il a été conclu qu'un tel traitement est envisageable.
+
+
+#La définition de protocoles a été menée début 2011.
+
+34l0l0	La_définition_de_protocoles	O
+34l0l1	a_été_menée	N
+34l0l2	début_2011__	T
+
+#Elle a conclu à la nécessité de procéder à un premier essai pilote in situ de traitement du chrome, par injection de produit organique dans un puits à créer.
+
+35l0l0	premier_essai_pilote_in_situ	N
+35l0l1	traitement_du_chrome	A
+35l0l2	injection_de_produit_organique	N
+35l0l3	un_puits	O
+35l1l0	chrome	S
+
+#Au vu des résultats.
+
+
+#Cet essai pilote a été réalisé en 2011 et a permis d'établir les conditions de traitement de l'ensemble de la zone.
+
+37l0l0	Cet_essai_pilote	N
+37l0l1	a_été_réalisé	N
+37l0l2	en_2011	T
+37l0l3	d__établir	N
+37l0l4	les_conditions_de_traitement	O
+
+#Les démarches pour créer les puits d'injection nécessaires sont en cours.
+
+38l0l0	Les_démarches	O
+38l0l1	créer	N
+38l0l2	les_puits_d__injection_nécessaires	O

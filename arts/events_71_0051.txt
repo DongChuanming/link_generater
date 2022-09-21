@@ -1,0 +1,341 @@
+
+#71.0051
+#La société DELEK FRANCE exploite une station-service sur la commune de Sancé.
+
+0l0l0	La_société_DELEK_FRANCE	O
+0l0l1	exploite	N
+0l0l2	une_station___service	O
+0l0l3	sur_la_commune_de_Sancé	L
+0l1l0	La_société_DELEK_FRANCE	I
+
+#DELEK FRANCE a racheté la branche d'activité de station-service de BP FRANCE.
+
+1l0l0	DELEK_FRANCE	O
+1l0l1	a_racheté	N
+1l0l2	la_branche	O
+1l0l3	d__activité_de_station__	A
+1l0l4	BP_FRANCE	O
+1l1l0	DELEK_FRANCE	I
+1l1l1	BP_FRANCE	I
+
+#L'accord prévoit une licence d'utilisation exclusive de la marque et de l'enseigne BP.
+
+2l0l0	l__enseigne_BP	O
+
+#Cette station-service exploitée par DELEK FRANCE depuis octobre 2010 est soumise au régime de déclaration, au titre de la nomenclature des installations classées pour la protection de l'environnement.
+
+3l0l0	Cette_station___service	O
+3l0l1	exploitée_par	N
+3l0l2	DELEK_FRANCE	O
+3l0l3	depuis_octobre_2010	T
+3l0l4	est_soumise_au_régime_de_déclaration	N
+3l0l5	la_nomenclature_des_installations_classées	O
+3l0l6	pour_la_protection_de	A
+3l0l7	l__environnement	O
+3l1l0	DELEK_FRANCE	I
+
+#Le site à l'étude est localisé à environ 2.5 km au Nord du centre ville de Mâcon, dans une zone industrielle dense et à proximité immédiate d'un terrain de camping.
+
+4l0l0	Le_site	O
+4l0l1	localisé_à_environ_2_5_km_au_Nord_du_centre_ville_de_Mâcon	L
+4l0l2	dans_une_zone_industrielle_dense_et_à_proximité_immédiate_d__un	L
+4l0l3	terrain_de_camping	O
+
+#Il se situe à environ 500 m à l'Ouest de la Saône.
+
+5l0l0	Il_se_situe_à_environ_500_m_à_l__Ouest_de_la_Saône	L
+
+#Le site couvre une superficie d'environ 3000 m2.
+
+
+#Contexte hydrogéologique:
+
+
+#La nappe alluviale de la Saône est présente au droit du site à une profondeur d'environ 7,5 mètres.
+
+8l0l0	la_Saône	L
+8l0l1	au_droit_du_site	L
+
+#Il s'agit d'une nappe libre de productivité importante, principale source en eaux souterraines exploitée dans la région.
+
+9l0l0	exploitée_dans_la_région	A
+
+#Dans le secteur du site, les eaux s'écoulent vers le Nord-Est.
+
+10l0l0	Dans_le_secteur_du_site	L
+10l0l1	les_eaux	O
+10l0l2	écoulent_vers_le_Nord_Est	L
+
+#Il existe plusieurs captages d'eaux destinées à la consommation humaine dans un rayon de 5 km autour du site, la nappe captée étant celle sus-visée.
+
+11l0l0	plusieurs_captages	O
+11l0l1	dans_un_rayon_de_5_km_autour_du_site	L
+
+#Le site est notamment situé dans le périmètre de protection en amont hydraulique d'un champ de captage AEP au lieu-dit "les Varennes" localisé 300 mètres plus à l'Est, en bord de Saône.
+
+12l0l0	Le_site	O
+12l0l1	situé_dans_le_périmètre_de_protection_en_amont_hydraulique_d__un	L
+12l0l2	champ_de_captage_AEP	O
+12l0l3	au_lieu___dit___les_Varennes__	L
+12l0l4	localisé_300_mètres_plus_à_l__Est	L
+12l0l5	en_bord_de_Saône	L
+
+#D'autres puits ont par ailleurs été recensés pour des usages agricoles, domestiques et individuels.
+
+13l0l0	ont_par_ailleurs_été_recensés	N
+13l0l1	des_usages_agricoles	A
+
+#23 et 24 mars 2004: travaux de reconnaissance du sous-sol du site dans le cadre du diagnostic initial (étude relevant de l'ancienne réglementation en matière de sites et sols pollués). 11 sondages ont été effectués sur l'ensemble du site.
+
+14l0l0	23_et_24_mars_2004	T
+14l0l1	__travaux_de_reconnaissance	N
+14l0l2	du_sous_sol	O
+14l0l3	site	O
+14l0l4	dans_le_cadre_du	R
+14l0l5	diagnostic_initial	N
+14l0l6	sols_pollués	O
+14l0l7	11_sondages_ont_été_effectués	N
+
+#Les analyses réalisées ont conclut sur des teneurs très faibles en hydrocarbures totaux et BTEX (benzène, toluène, éthylbenzène et xylène).
+
+15l0l0	Les_analyses_réalisées	N
+15l1l0	hydrocarbures_totaux	S
+15l1l1	BTEX	S
+15l1l2	benzène	S
+15l1l3	toluène	S
+15l1l4	éthylbenzène	S
+15l1l5	xylène	S
+
+#18 au 20 octobre 2005: travaux complémentaires de reconnaissance du sous-sol. 18 sondages ont été réalisés à l'aide d'un carottier portatif sur l'ensemble du site de la station-service notamment aux abords des zones potentiellement à risques telles que les cuves enterrées, les aires de distribution de carburants, les aires de dépotage, les séparateurs d'hydrocarbures...
+
+16l0l0	18_au_20_octobre_2005	T
+16l0l1	__travaux_complémentaires_de_reconnaissance	N
+16l0l2	du_sous_sol	O
+16l0l3	18_sondages	N
+16l0l4	ont_été_réalisés	N
+16l0l5	aux_abords	L
+16l0l6	les_aires_de_distribution_de_carburants	O
+16l1l0	cuves_enterrées	D
+16l1l1	carburants	U
+16l1l2	hydrocarbures	S
+
+#Ces investigations de terrain et les résultats d'analyses avaient alors mis en évidence:
+
+17l0l0	Ces_investigations_de_terrain	N
+
+#- l'existence d'un impact ponctuel des activités de la station-service sur la qualité du sol au droit de deux zones distinctes à savoir :
+
+18l0l0	activités_de	A
+18l0l1	la_station___service	O
+18l0l2	deux_zones_distinctes	O
+
+#1) la zone de distribution et de dépotage en bordure Ouest impactée par les BTEX (benzène, toluène, éthylbenzène et xylène) ;
+
+19l0l0	la_zone_de_distribution	O
+19l0l1	dépotage	O
+19l0l2	en_bordure_Ouest_impactée_par	R
+19l0l3	les_BTEX	O
+19l1l0	BTEX	S
+19l1l1	benzène	S
+19l1l2	toluène	S
+19l1l3	éthylbenzène	S
+19l1l4	xylène	S
+
+#2) la zone de dépotage en partie Nord-Est impactée par les hydrocarbures totaux ;
+
+20l0l0	la_zone_de_dépotage	O
+20l0l1	en_partie_Nord_Est_impactée	N
+20l0l2	hydrocarbures_totaux	O
+20l1l0	hydrocarbures_totaux	S
+
+#- l'absence d'impact des activités de la station-service sur la qualité de l'air du sol.
+
+
+#Suite à ce diagnostic, une évaluation simplifiée des risques (ESR) avait classé le site en classe 2 ou "site à surveiller" conformément à l'ancienne réglementation en vigueur en matière de sites et sols pollués.
+
+22l0l0	Suite	R
+22l0l1	à_ce_diagnostic	N
+22l0l2	une_évaluation_simplifiée_des_risques	N
+22l0l3	avait_classé	N
+22l0l4	le_site	O
+22l0l5	sols_pollués	O
+
+#Les recommandations suivantes avaient alors été avancées par le bureau d'étude en charge de l'ESR:
+
+23l0l0	Les_recommandations	O
+23l0l1	le_bureau_d__étude	O
+23l1l0	l__ESR	I
+
+#- conservation des piézomètres existants ;
+
+
+#- mise en œuvre d'une surveillance trimestrielle de la qualité des eaux souterraines présente au droit du site pour les paramètres hydrocarbures totaux et BTEX.
+
+25l0l0	mise_en_œuvre_d_	N
+25l0l1	une_surveillance_trimestrielle	A
+25l0l2	la	O
+25l0l3	qualité_des_eaux_souterraines	A
+25l0l4	au_droit_du_site	L
+25l1l0	hydrocarbures_totaux	S
+25l1l1	BTEX	S
+
+#28 octobre 2005 : considérant que les cuves d'hydrocarbures étaient des cuves simple paroi et que la station-service est située dans les périmètres de protection des captages de la ville de Mâcon, il a été demandé à l'exploitant, par arrêté préfectoral, de transmettre un exposé des investigations réalisées pour s'assurer de l'absence de pollution dans les terrains et eaux souterraines au droit du site.
+
+26l0l0	28_octobre_2005	T
+26l0l1	les_cuves_d__hydrocarbures	O
+26l0l2	la_station___service	O
+26l0l3	est_située_dans_les_périmètres_de_protection_des_captages_de_la_ville_de_Mâcon	L
+26l0l4	a_été_demandé	N
+26l0l5	l__exploitant	O
+26l0l6	exposé_des_investigations_réalisées	O
+26l0l7	l__absence_de_pollution	O
+26l0l8	les_terrains_et_eaux_souterraines	O
+26l0l9	au_droit_du_site	L
+26l1l0	les_cuves_d_	D
+26l1l1	hydrocarbures	S
+
+#9 février 2006 : par arrêté préfectoral, la société BP France était tenue de faire réaliser une surveillance semestrielle des eaux souterraines au droit du site.
+
+27l0l0	9_février_2006	T
+27l0l1	par_arrêté_préfectoral	O
+27l0l2	la_société_BP_France	O
+27l0l3	était	N
+27l0l4	tenue_de_faire_réaliser	L
+27l0l5	une_surveillance_semestrielle	A
+27l0l6	des_eaux_souterraines	A
+27l0l7	au_droit_du_site	L
+27l1l0	la_société_BP_France	I
+
+#Les analyses devaient porter sur des substances pertinentes susceptibles de caractériser une éventuelle pollution (hydrocarbures totaux notamment).
+
+28l0l0	Les_analyses	N
+28l0l1	des_substances_pertinentes	O
+28l1l0	hydrocarbures_totaux	S
+
+#5 avril 2006 : par arrêté préfectoral, la société BP France était tenue de respecter les prescriptions suivantes:
+
+29l0l0	5_avril_2006	T
+29l0l1	par_arrêté_préfectoral	O
+29l0l2	la_société_BP_France	O
+29l0l3	était_tenue_de_respecter	N
+29l1l0	la_société_BP_France	I
+
+#- réaliser un diagnostic approfondi de la pollution ;
+
+30l0l0	réaliser_un_diagnostic_approfondi	N
+
+#- réaliser une étude détaillée des risques (EDR), en fonction des résultats du diagnostic sus-visé.
+
+
+#La campagne de surveillance de la qualité des eaux souterraine du 10 août 2006 a conclu à des teneurs en hydrocarbures totaux au sein de tous les ouvrages inférieures aux teneurs des campagnes de 2005.
+
+32l0l0	La_campagne_de_surveillance	N
+32l0l1	de_la_qualité_des_eaux_souterraine	A
+32l0l2	du_10_août_2006	T
+32l0l3	des_teneurs	O
+32l0l4	2005__	T
+32l1l0	hydrocarbures_totaux	S
+
+#Les recommandations au regard des résultats sus-visés portaient sur la poursuite des campagnes de surveillance afin d'étudier sur la durée l'évolution des teneurs en hydrocarbures.
+
+33l0l0	Les_recommandations	O
+33l0l1	la_poursuite	N
+33l0l2	des_campagnes_de_surveillance	N
+33l1l0	hydrocarbures	S
+
+#L'évaluation détaillée des risques n'était alors pas nécessaire.
+
+
+#6 campagnes de surveillance ont été réalisées de novembre 2005 à avril 2007.
+
+35l0l0	6_campagnes_de_surveillance	N
+35l0l1	ont_été_réalisées	N
+35l0l2	de_novembre_2005_à_avril_2007__	T
+
+#L'absence d'impact significatif des activités du site sur la qualité des eaux souterraines se confirmaient.
+
+36l0l0	la_qualité_des_eaux_souterraines	O
+36l0l1	se_confirmaient	N
+
+#En avril 2007, une fuite au niveau d'une canalisation d'aspiration a été détectée.
+
+37l0l0	En_avril_2007__	T
+37l0l1	une_fuite	O
+37l0l2	au_niveau_d_	R
+37l0l3	une_canalisation_d__aspiration	O
+37l0l4	a_été_détectée	N
+
+#Suite à cet incident, un diagnostic de la qualité du sous-sol a été réalisé.
+
+38l0l0	un_diagnostic	N
+38l0l1	la_qualité_du_sous_sol	O
+38l0l2	a_été_réalisé	N
+
+#Les investigations et analyses ont mis en évidence :
+
+39l0l0	Les_investigations	N
+
+#- pour les sols, l'existence d'une zone de souillure en hydrocarbures ;
+
+40l1l0	hydrocarbures	S
+
+#- pour l'air du sol, l'absence de concentration notable en hydrocarbures volatils au droit des zones de souillures.
+
+41l1l0	hydrocarbures	S
+
+#L'excavation et le traitement des matériaux souillés dans la zone reconnue avait été recommandée ainsi qu'une analyse des risques résiduels (ARR).
+
+42l0l0	L__excavation	N
+42l0l1	le_traitement	N
+42l0l2	matériaux_souillés	O
+42l0l3	dans	R
+42l0l4	la_zone_reconnue	O
+42l0l5	avait_été_recommandée	N
+
+#Les opérations de dépollution se sont déroulées du 15 au 24 octobre 2007.
+
+43l0l0	Les_opérations_de_dépollution	N
+43l0l1	se_sont_déroulées	N
+43l0l2	du_15_au_24_octobre_2007__	T
+
+#Au total, environ 238 tonnes de matériaux souillés ont été évacués vers un centre agréé afin d'y subir un traitement de désorption thermique.
+
+44l0l0	238_tonnes_de_matériaux_souillés	O
+44l0l1	ont_été_évacués_vers	N
+44l0l2	un_centre_agréé	O
+44l0l3	subir_un_traitement_de_désorption	N
+
+#Les résultats d'analyses obtenus à l'issue des campagnes de surveillance de la qualité des eaux souterraines effectuées les 15 et 24 octobre 2007, avant et après travaux de dépollution des sols, ont permis de mettre en évidence des teneurs très faibles d'hydrocarbures, ainsi que l'absence de BTEX au sein de l'ensemble des ouvrages de contrôle.
+
+45l0l0	des_campagnes_de_surveillance	N
+45l0l1	la_qualité_des_eaux_souterraines	O
+45l0l2	effectuées	N
+45l0l3	les_15_et_24_octobre_2007__	T
+45l0l4	avant_et_après_travaux_de_dépollution	N
+45l0l5	des_sols	N
+45l1l0	hydrocarbures	S
+45l1l1	BTEX	S
+
+#Depuis 2010, la surveillance semestrielle de la qualité des eaux souterraines via 4 piézomètres n'a plus mis en évidence de teneur notable en hydrocarbures ou BTEX.
+
+46l0l0	Depuis_2010__	T
+46l0l1	la_surveillance_semestrielle	A
+46l0l2	la_qualité_des_eaux_souterraines	O
+46l1l0	hydrocarbures	S
+46l1l1	BTEX	S
+
+#Compte tenu de la vulnérabilité des captages à proximité du site et comme recommandé, la surveillance de la qualité des eaux souterraines au droit du site est maintenue.
+
+47l0l0	captages	O
+47l0l1	à_proximité_du_site	L
+47l0l2	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+47l0l3	au_droit_du_site	L
+
+#Les campagnes de surveillance de la qualité des eaux souterraines ont été envoyées à l'inspection des installations classées conformément à l'arrêté préfectoral du 5 avril 2006.
+
+48l0l0	Les_campagnes_de_surveillance	N
+48l0l1	de_la_qualité_des_eaux_souterraines	A
+48l0l2	ont_été_envoyées	N
+48l0l3	l__inspection_des_installations_classées	O
+48l0l4	l__arrêté_préfectoral	O
+48l0l5	5_avril_2006__	T

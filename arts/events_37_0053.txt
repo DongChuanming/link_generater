@@ -1,0 +1,270 @@
+
+#37.0053
+#Le site, d’une superficie de 4800 m², est situé sur le territoire de la commune de Tours.
+
+0l0l0	Le_site	O
+0l0l1	est_situé_sur_le_territoire_de_la_commune_de_Tours	L
+
+#Le 1er aquifère au droit du site est constitué du calcaire lacustre de Touraine en relation hydraulique avec la nappe de la craie du séno turonien sous-jacente dont le sens d’écoulement est orienté vers l’ouest nord-ouest.
+
+1l0l0	Le_1er_aquifère	O
+1l0l1	Touraine	L
+1l0l2	orienté_vers_l__ouest_nord_ouest	L
+
+#Cet aquifère fait l’objet d’usages sensibles et est vulnérable à toute pollution potentielle de surface.
+
+2l0l0	Cet_aquifère	O
+2l0l1	fait_l__objet_d_	R
+2l0l2	usages_sensibles	O
+
+#De 1992 à 2008, le site a accueilli une activité de distribution de liquides inflammables contenant :
+
+3l0l0	De_1992_à_2008__	T
+3l0l1	le_site	O
+3l0l2	a_accueilli	N
+3l0l3	une_activité_de_distribution_de_liquides_inflammables	A
+3l1l0	liquides_inflammables	U
+
+#- 1 cuve enterrée de 30 m³ de SP95,
+
+4l1l0	1_cuve_enterrée	D
+4l1l1	SP95	U
+
+#- 1 cuve enterrée de 40 m³ de SP98,
+
+5l1l0	1_cuve_enterrée	D
+5l1l1	SP98	U
+
+#- 1 cuve enterrée de 60 m³ de Super carburant,
+
+6l0l0	Super_carburant	O
+6l1l0	1_cuve_enterrée	D
+6l1l1	Super_carburant	U
+
+#- 1 cuve enterrée de 70 m³ de gazole,
+
+7l1l0	1_cuve_enterrée	D
+7l1l1	gazole	U
+
+#- une installation de réfrigération.
+
+8l0l0	réfrigération	O
+
+#En septembre 1999, l’exploitant a demandé la possibilité d’ajouter :
+
+9l0l0	En_septembre_1999__	T
+9l0l1	l__exploitant	O
+
+#- un réservoir de 11 m³ de GPL
+
+10l1l0	un_réservoir_de	D
+10l1l1	GPL	U
+
+#- une installation de distribution de GPL
+
+11l1l0	GPL	U
+
+#En 2008, un changement d’exploitant est déclaré en faveur de la société AUCHAN CARBURANT TOURS.
+
+12l0l0	En_2008__	T
+12l0l1	un_changement	N
+12l0l2	d__exploitant	O
+12l0l3	est_déclaré_en_faveur	N
+12l0l4	la_société_AUCHAN_CARBURANT_TOURS	O
+12l1l0	la_société_AUCHAN_CARBURANT_TOURS	I
+
+#Lors de l’inspection du 08 mars 2011, il a été constaté que :
+
+13l0l0	Lors	T
+13l0l1	de_l__inspection	N
+13l0l2	du_08_mars_2011__	T
+
+#- le dispositif de coupure général n’était pas accessible 24h/24,
+
+
+#- le sol n'était pas étanche.
+
+
+#L’inspection du 23 juillet 2014 a conclu que l’étanchéité du sol constatée lors de la visite du 08 mars 2011 qui concernait le caniveau de drainage des eaux pluviales installé sur la plateforme de distribution des carburants a été refaite.
+
+16l0l0	L__inspection	O
+16l0l1	du_23_juillet_2014	T
+16l0l2	l__étanchéité	O
+16l0l3	de_la_visite	N
+16l0l4	du_08_mars_2011	T
+16l0l5	le_caniveau_de_drainage_des_eaux_pluviales	O
+16l0l6	installé_sur	R
+16l0l7	la_plateforme_de_distribution_des_carburants	O
+16l0l8	a_été_refaite	N
+16l1l0	carburants	U
+
+#Toutefois, il a été mis en évidence que le caniveau de drainage des eaux pluviales installé au droit de l’aire de dépotage des carburants était en mauvais état (plusieurs cassures ont été observées) et de fait pas étanche.
+
+17l0l0	le_caniveau_de_drainage_des_eaux_pluviales	O
+17l0l1	installé	N
+17l0l2	au_droit_de_l__aire	L
+17l0l3	carburants	A
+17l1l0	carburants	U
+
+#L'inspection a demandé à l'exploitant d'effectuer les réparations nécessaires.
+
+18l0l0	L__inspection	O
+18l0l1	a_demandé	N
+18l0l2	l__exploitant	O
+18l0l3	d__effectuer	N
+18l0l4	les_réparations_nécessaires	O
+
+#Des travaux de démantèlement se sont étalés du 15 décembre 2016 au 20 janvier 2017.
+
+19l0l0	Des_travaux_de_démantèlement	N
+19l0l1	se_sont_étalés	N
+19l0l2	du_15_décembre_2016_au_20_janvier_2017__	T
+
+#Les opérations suivantes ont été réalisées :
+
+20l0l0	ont_été_réalisées	N
+
+#- nettoyage, dégazage et inertage des 2 cuves de 100 m³,
+
+21l0l0	__nettoyage	N
+21l0l1	dégazage_et_inertage	N
+21l1l0	cuves	D
+
+#- dégazage et évacuation de la cuve GPL,
+
+22l0l0	dégazage	N
+22l0l1	évacuation_de_la_cuve_GPL	N
+22l1l0	la_cuve_GPL	U
+
+#- démantèlement et mis en rebus des volupcompteurs,
+
+23l0l0	démantèlement	N
+
+#- excavation et évacuation de 1287 tonnes de terres polluées et remblaiement des fouilles,
+
+24l0l0	__excavation	N
+24l0l1	évacuation	N
+24l0l2	1287_tonnes_de_terres_polluées	O
+24l0l3	remblaiement_des_fouilles	N
+
+#- contrôle des opérations de dépollution des sols par le biais de 28 prélèvements au bord et fonds de fouille.
+
+25l0l0	contrôle_des_opérations_de_dépollution	N
+
+#Le 7 février 2017, l’exploitant a transmis un dossier de cessation définitive de son activité.
+
+26l0l0	Le_7_février_2017__	T
+26l0l1	l__exploitant	O
+26l0l2	a_transmis	N
+26l0l3	un_dossier	O
+26l0l4	de_cessation_définitive_de	N
+26l0l5	son_activité	A
+
+#Une analyse des risques résiduels, datée du 18 avril 2017,et un diagnostic de pollution des sols daté du 10/11/2016 ont été remis par l’exploitant en août 2017.
+
+27l0l0	Une_analyse_des_risques_résiduels	O
+27l0l1	datée_du_18_avril_2017_et	T
+27l0l2	un_diagnostic_de_pollution	N
+27l0l3	sols	O
+27l0l4	daté	R
+27l0l5	du_10_11_2016	T
+27l0l6	ont_été_remis	N
+27l0l7	l__exploitant	O
+27l0l8	en_août_2017__	T
+
+#Le rapport de fin de travaux conclut :
+
+
+#- qu’un dossier de servitude doit être établi afin de garder la mémoire des pollutions résiduelles présentes et d’encadrer un éventuel changement d’usage,
+
+29l0l0	un_dossier_de_servitude	O
+29l0l1	doit_être_établi	N
+29l0l2	pollutions	N
+29l0l3	d__encadrer	R
+29l0l4	un_éventuel_changement_d__usage	N
+
+#- à la mise en place d’un réseau piézométrique afin d’évaluer l’impact éventuel de l’ancienne station sur la qualité des eaux de la nappe,
+
+30l0l0	la_mise_en_place_d_	N
+30l0l1	un_réseau_piézométrique	O
+30l0l2	qualité_des_eaux_de_la_nappe	O
+
+#- que des concentrations résiduelles ont été constatées en fond et bords des différentes excavations.
+
+31l0l0	excavations	N
+
+#Par courrier du 27 juillet 2017, l’inspection recommande à l’exploitant de mettre en place un réseau de suivi de la qualité des qualités des eaux souterraines sur site (à minima 1 piézomètre en amont et  2 en aval).
+
+32l0l0	27_juillet_2017__	T
+32l0l1	l__inspection	O
+32l0l2	l__exploitant	O
+32l0l3	mettre_en_place_un	N
+32l0l4	réseau_de_suivi_de_la_qualité_des_qualités_des_eaux_souterraines	O
+
+#Le suivi devra être réalisé pendant une période minimale de 2 ans à raison de 2 campagnes par an (période de basses et hautes eaux).
+
+33l0l0	Le_suivi_devra_être_réalisé	N
+33l0l1	pendant_une_période_minimale_de_2_ans	O
+33l0l2	2_campagnes	N
+33l0l3	période	T
+33l0l4	de_basses_et_hautes_eaux	O
+
+#Entre le 19 décembre 2017 et le 18 janvier 2018, trois piézomètres (Pz1 - Pz2 en aval et Pz3 en amont) de 18.80 à 20 m de profondeur ont été installés sur le site ainsi que 5 piézairs.
+
+34l0l0	Entre_le_19_décembre_2017_et_le_18_janvier_2018__	T
+34l0l1	ont_été_installés	N
+34l0l2	sur_le_site	L
+
+#Les résultats d’analyses de gaz de sol montrent des concentrations résiduelles en hydrocarbures et ses dérivés notamment au sud de la zone des anciennes cuves et des anciennes pistes de distribution.
+
+35l0l0	au_sud_de_la_zone_des_anciennes_cuves	L
+35l0l1	anciennes_pistes_de_distribution	O
+35l1l0	hydrocarbures	S
+
+#Les résultats d’analyses de la campagne de janvier 2018 montrent une dégradation de la nappe par les hydrocarbures et des additifs pétroliers (MTBE-ETBE).
+
+36l0l0	la_campagne	N
+36l0l1	de_janvier_2018	T
+36l0l2	une_dégradation	N
+36l0l3	la_nappe	O
+36l1l0	hydrocarbures	S
+36l1l1	pétroliers	S
+36l1l2	MTBE	S
+36l1l3	ETBE	S
+
+#Toutefois, les résultats d’analyses de la campagne de juin 2018 ne montrent aucune dégradation de la nappe pour les paramètres recherchés.
+
+37l0l0	la_campagne	N
+37l0l1	de_juin_2018	T
+
+#Par courrier du 27 juillet 2018, l’inspection des installations classées demande à l’exploitant de poursuivre la surveillance semestrielle de la qualité des eaux souterraines sur une période minimale de 2 ans.
+
+38l0l0	27_juillet_2018__	T
+38l0l1	l__inspection_des_installations_classées	O
+38l0l2	l__exploitant	O
+38l0l3	la_surveillance_semestrielle	A
+38l0l4	la_qualité_des_eaux_souterraines	A
+38l0l5	sur_une_période_minimale_de_2_ans	O
+
+#Par courrier du 06 juillet 2018, l’exploitant a transmis à la Préfecture une demande de permis de construire en vue de la construction d’un bâtiment d’activités commerciales sur le site de l’ancienne station-service.
+
+39l0l0	du_06_juillet_2018__	T
+39l0l1	l__exploitant	O
+39l0l2	a_transmis	N
+39l0l3	la_Préfecture	O
+39l0l4	une_demande_de_permis	N
+39l0l5	de_construire	N
+39l0l6	en_vue_de	R
+39l0l7	la_construction_d_	N
+39l0l8	un_bâtiment_d__activités_commerciales	O
+39l0l9	sur_le_site	L
+39l1l0	la_Préfecture	I
+
+#La déclaration de cessation d’activité n’étant pas actée, l’exploitant doit transmettre un dossier de restrictions d'usage.
+
+40l0l0	La_déclaration	N
+40l0l1	cessation	N
+40l0l2	d__activité	A
+40l0l3	l__exploitant	O
+40l0l4	doit_transmettre	N
+40l0l5	un_dossier_de_restrictions_d__usage	O

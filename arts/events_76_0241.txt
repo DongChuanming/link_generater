@@ -1,0 +1,271 @@
+
+#76.0241
+#Le site, d’une centaine d’hectares environ, est spécialisé dans l'usinage et l'assemblage de boîtes de vitesse et de moteurs depuis 1958.
+
+0l0l0	Le_site	O
+0l0l1	spécialisé_dans	R
+0l0l2	l__usinage_et_l__assemblage_de_boîtes_de_vitesse_et_de_moteurs	A
+0l0l3	depuis_1958	T
+
+#Les copeaux d’usinage, imprégnés d’huile de coupe entière ou aqueuse, sont temporairement stockés sur une dalle en béton du parc à copeaux représentant environ 0,8 hectare.
+
+1l0l0	usinage	A
+1l0l1	sont_temporairement_stockés	N
+
+#L’étanchéité de la dalle de béton s’est révélée défectueuse avec le temps, ce qui a engendré des infiltrations d’huile de coupe dans les sols sous-jacents.
+
+2l0l0	L__étanchéité	O
+2l0l1	la_dalle_de_béton	O
+2l0l2	s__est_révélée_défectueuse	N
+2l0l3	a_engendré	N
+2l0l4	infiltrations	N
+2l0l5	les_sols_sous_jacents	O
+
+#La région se présente sous la forme d’un plateau de craie creusé par la vallée de la Seine, dans laquelle se sont déposées des alluvions fluviatiles, toujours exploités à proximité du site.
+
+3l0l0	La_région	O
+3l0l1	la_vallée_de_la_Seine	L
+3l0l2	exploités	N
+3l0l3	à_proximité_du_site	L
+
+#Les aquifères des alluvions et de la craie ne sont pas séparées par un niveau imperméable (continuité hydraulique).
+
+4l0l0	Les_aquifères	O
+
+#Le niveau statique des eaux souterraines est localisé à environ 8/10 mètres de profondeur.
+
+5l0l0	eaux_souterraines	O
+5l0l1	localisé_à_environ	L
+5l0l2	8_10	T
+
+#Le premier aquifère n’est pas exploité intensivement.
+
+6l0l0	Le_premier_aquifère	O
+6l0l1	exploité_intensivement	N
+
+#L’aquifère de la craie fait l’objet de nombreux pompages.
+
+7l0l0	pompages	N
+
+#La Seine régit le comportement de la nappe phréatique qui se trouve fortement influencé par le marnage (de plusieurs mètres).
+
+8l0l0	La_Seine	O
+8l0l1	marnage	A
+
+#L’environnement proche du site est constitué par des habitations au niveau de la commune à l’est et au sud-est, par une zone d’activité industrielle (zone d’activité du Moulins) au sud-ouest et par le fleuve la Seine au nord.
+
+9l0l0	environnement_proche_du_site	O
+9l0l1	des_habitations	O
+9l0l2	au_niveau_de_la_commune_à_l__est_et_au_sud_est	L
+9l0l3	une_zone_d__activité_industrielle	O
+9l0l4	Moulins	O
+9l0l5	sud_ouest	L
+9l0l6	le_fleuve_la_Seine_au_nord	L
+
+#Par arrêté préfectoral du 19 mars 2004, le préfet a imposé à l'exploitant la réalisation d'une étude simplifiée des risques des sols au droit de la zone du parc à copeaux.
+
+10l0l0	arrêté_préfectoral	O
+10l0l1	du_19_mars_2004__	T
+10l0l2	le_préfet	O
+10l0l3	a_imposé	N
+10l0l4	à_l__exploitant	O
+10l0l5	la_réalisation_d__une_étude_simplifiée_des_risques	N
+10l0l6	sols	N
+10l0l7	au_droit_de_la	L
+10l0l8	zone_du_parc_à_copeaux	A
+10l1l0	le_préfet	I
+
+#Cette étude, remise le 21 novembre 2005, a mis en évidence un impact en hydrocarbures sur les eaux souterraines au droit du parc à copeaux.
+
+11l0l0	Cette_étude	N
+11l0l1	remise	N
+11l0l2	le_21_novembre_2005__	T
+11l0l3	a_mis_en_évidence	R
+11l0l4	un_impact	N
+11l0l5	hydrocarbures	O
+11l0l6	au_droit_du_parc_à_copeaux	A
+11l1l0	hydrocarbures	S
+
+#La présence d’une phase flottante de type huile de coupe entière a aussi été observée dans un piézomètre.
+
+12l0l0	a_aussi_été	N
+12l0l1	un_piézomètre	O
+12l1l0	phase_flottante	U
+12l1l1	type_huile_de_coupe	U
+
+#Cette étude a conclut à classifier le site en « catégorie II : site à surveiller ».
+
+13l0l0	classifier	N
+13l0l1	le_site	O
+
+#Par ailleurs, compte tenu des modélisations réalisées à l'occasion d’une étude hydrogéologique réalisée en 2002, et des pompages actuels du site de l'ordre de 3500 m3/j, il faut noter que la zone d’activité polluées du Moulin, voisine au site, est incluse dans la zone d’appel des forages du site.
+
+14l0l0	modélisations	O
+14l0l1	réalisées_à_l_	N
+14l0l2	occasion_d_	R
+14l0l3	une_étude_hydrogéologique	N
+14l0l4	réalisée	N
+14l0l5	en_2002__	T
+14l0l6	pompages_actuels	N
+14l0l7	du_site	O
+14l0l8	la_zone_d__activité_polluées	O
+14l0l9	voisine_au_site	L
+14l0l10	incluse_dans_la_zone	L
+14l0l11	d__appel_des_forages	N
+
+#De plus, à partir de 2006, les campagnes de mesure de la qualité des eaux souterraines du site montrent la présence de flottants au niveau du piézomètre jouxtant le parc à copeaux.
+
+15l0l0	à_partir_de_2006__	T
+15l0l1	les_campagnes_de_mesure	N
+15l0l2	la_qualité_des_eaux_souterraines	A
+15l1l0	flottants	U
+
+#Suite à des demandes de l'administration, l'exploitant a fait réalisé, courant 2007, une étude approfondie de pollution du sous-sol au droit du parc à copeaux.
+
+16l0l0	des_demandes	N
+16l0l1	l__administration	O
+16l0l2	l__exploitant	O
+16l0l3	a_fait_réalisé	N
+16l0l4	courant_2007__	T
+16l0l5	une_étude_approfondie_de_pollution	N
+16l0l6	sous_sol	N
+16l0l7	au_droit_du_parc	L
+16l0l8	à_copeaux	A
+
+#Il ressort que :
+
+
+#- la quasi-totalité des sols présents au droit du parc à copeaux est impactée par une
+
+18l0l0	copeaux	O
+18l0l1	est_impactée_par	N
+18l0l2	une	O
+
+#pollution hydrocarbure de type huile de coupe, depuis la surface jusqu’à la zone de
+
+19l0l0	la_zone	O
+19l1l0	hydrocarbure	S
+19l1l1	de_type_huile_de_coupe	U
+
+#battement de nappe, sur l’ensemble de l’étendue du parc.
+
+
+#- La teneur moyenne en hydrocarbures totaux (indice HCT C10-C40) est de 13 500
+
+21l1l0	hydrocarbures_totaux	S
+
+#mg/kg, avec une médiane à 9 800 mg/kg et un maximum de 130 000 mg/kg.
+
+
+#Les
+
+
+#fractions principales sont des hydrocarbures de longueur de chaine carbonée C21-C35
+
+24l1l0	des_hydrocarbures	S
+24l1l1	chaine_carbonée_C21_C35	U
+
+#(70 à 75% des HCT totaux) et dans une moindre mesures C16-C21 (environ 15 à 20 %
+
+25l1l0	HCT_totaux	S
+25l1l1	C16_C21	I
+
+#des HCT totaux).
+
+
+#- Les sols ne révèlent par contre pas ou peu de présence d’autres types de polluants
+
+27l0l0	ne_révèlent_par_contre_pas	N
+27l1l0	polluants	U
+
+#tels que solvants chlorés, composés aromatiques volatils (type BTEX), HAP ou
+
+28l1l0	solvants_chlorés	S
+28l1l1	composés_aromatiques_volatils	S
+28l1l2	type_BTEX	S
+28l1l3	HAP	S
+
+#métaux lourds.
+
+29l1l0	métaux_lourds	S
+
+#Lorsque ces composés sont détectés, ils le sont à teneurs non
+
+30l1l0	composés	S
+
+#significatives comparativement au niveau de pollution en hydrocarbures totaux.
+
+31l1l0	hydrocarbures_totaux	S
+
+#- Les eaux souterraines sont fortement impactées par des hydrocarbures majoritairement de type huile de coupe aqueuse au droit même du parc à copeaux du fait de
+
+32l0l0	fortement_impactées	N
+32l0l1	copeaux	O
+32l1l0	hydrocarbures	S
+32l1l1	type_huile_de_coupe_aqueuse	U
+
+#l’infiltration continue d’huile de coupe depuis la surface qui migre gravitairement et vient
+
+33l0l0	huile_de_coupe	O
+33l0l1	migre_gravitairement	N
+
+#s’accumuler sur la nappe dans un horizon lithologie peu perméable (craie altérée).
+
+34l0l0	la_nappe	O
+
+#Cette
+
+
+#lithologie peu perméable a également pour conséquence de limiter la migration de la
+
+36l1l0	la	I
+
+#pollution via les eaux souterraines.
+
+
+#Toutefois, le niveau de pollution semble diminuer rapidement en périphérie du parc.
+
+38l0l0	en_périphérie_du_parc	L
+
+#Le Préfet a imposé par voie d’arrêté préfectoral du 25 novembre 2009 de remettre un plan de gestion et d'effectuer la dépollution du parc à copeaux.
+
+39l0l0	Le_Préfet	O
+39l0l1	a_imposé	N
+39l0l2	par_voie_d_	R
+39l0l3	arrêté_préfectoral	O
+39l0l4	25_novembre_2009	T
+39l0l5	de_remettre	N
+39l0l6	un_plan_de_gestion	O
+39l0l7	d__effectuer_la_dépollution	N
+39l0l8	parc_à_copeaux	A
+39l1l0	Le_Préfet	I
+
+#Le plan de gestion a été remis par l'exploitant le 7 septembre 2009.
+
+40l0l0	Le_plan_de_gestion	O
+40l0l1	a_été_remis	N
+40l0l2	l__exploitant	O
+40l0l3	le_7_septembre_2009__	T
+
+#Le démarrage des travaux de dépollution est programmé pour la fin de l'été 2011.
+
+41l0l0	Le_démarrage_des_travaux_de_dépollution	N
+41l0l1	est_programmé	N
+41l0l2	pour_la_fin_de_l__été_2011__	T
+
+#Suite à la visite d'inspection du 6 ami 2011, l'inspection des installations classées a demandé à l'exploitant de fournir des compléments sur les essais de dépollution en pilote et la mise à jour du plan de gestion afin d'encadrer réglementairement la dépollution du parc à copeaux.
+
+42l0l0	Suite_à_la_visite_d__inspection	N
+42l0l1	du_6_ami_2011__	T
+42l0l2	l__inspection_des_installations_classées	O
+42l0l3	les_essais_de_dépollution	N
+42l0l4	en_pilote	O
+42l0l5	la_mise_à_jour	N
+42l0l6	du_plan_de_gestion	O
+42l0l7	afin_d__encadrer_réglementairement	R
+42l0l8	la_dépollution	N
+42l0l9	parc_à_copeaux	A
+
+#La mise en place de servitudes est également envisagée.
+
+43l0l0	La_mise_en_place_de_servitudes	O

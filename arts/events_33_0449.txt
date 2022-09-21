@@ -1,0 +1,85 @@
+
+#33.0449
+#La station-service exploitée depuis le 20/11/1995 a cessé son activité le 26/08/2013.
+
+0l0l0	La_station___service_exploitée	O
+0l0l1	depuis_le_20_11_1995	T
+0l0l2	a_cessé_son_activité	N
+0l0l3	le_26_08_2013__	T
+
+#1-DIAGNOSTIC
+
+1l0l0	1_DIAGNOSTIC	N
+
+#Un diagnostic a été réalisé par ECR Environnement en novembre 2012.
+
+2l0l0	Un_diagnostic	N
+2l0l1	a_été_réalisé	N
+2l0l2	ECR_Environnement	O
+2l0l3	en_novembre_2012__	T
+2l1l0	ECR_Environnement	I
+
+#Ce dernier n'a pas analysé les sols au droit des installations (cuves, appareils de distribution...).
+
+
+#Les résultats fournis ne permettent donc pas de s'assurer de l'absence de pollution dans les sols par rapport aux activités exercées.
+
+4l0l0	activités_exercées	A
+
+#2-TRAVAUX
+
+5l0l0	2_TRAVAUX	N
+
+#Les travaux de démantèlement de la station-service on été réalisés en 2013.
+
+6l0l0	Les_travaux_de_démantèlement	N
+6l0l1	la_station___service	O
+6l0l2	on_été_réalisés	N
+6l0l3	en_2013__	T
+6l1l0	service	I
+
+#Toutes les installations ont été retirées : cuves, appareils de distribution, canalisations....
+
+7l0l0	Toutes_les_installations_ont_été_retirées	N
+7l0l1	cuves___appareils_de_distribution	O
+7l1l0	cuves	D
+
+#3-EAUX SOUTERRAINES
+
+8l1l0	3_EAUX	S
+8l1l1	SOUTERRAINES	I
+
+#Une analyse succincte des eaux souterraines a été réalisée en 2012.
+
+9l0l0	Une_analyse_succincte	N
+9l0l1	a_été_réalisée	N
+9l0l2	en_2012__	T
+
+#Seuls 2 piézomètres ont été installés en aval et amont hydraulique et à proximité des installations.
+
+10l0l0	2_piézomètres	O
+10l0l1	ont_été_installés	N
+10l0l2	en_aval_et_amont_hydraulique_et_à_proximité_des_installations	L
+
+#4 - CONCLUSION
+
+
+#Suite à la demande de l'inspection du 08/09/2016, l'exploitant a réalisé un diagnostic des sols au droit des installations (cuves et plateforme de distribution) ainsi qu'un rapport de suivi des travaux de démantèlement.
+
+12l0l0	Suite_à	R
+12l0l1	la_demande	N
+12l0l2	l__inspection	O
+12l0l3	du_08_09_2016	T
+12l0l4	l__exploitant	O
+12l0l5	a_réalisé	N
+12l0l6	un_diagnostic_des_sols	N
+12l0l7	au_droit_des_installations	N
+12l0l8	cuves_et_plateforme_de_distribution	O
+12l0l9	ainsi	O
+12l0l10	qu_	R
+12l0l11	un_rapport	O
+12l0l12	suivi	O
+12l0l13	des_travaux_de_démantèlement	N
+
+#Au vu des résultats d'analyses, aucun impact n'a été constaté sur le sols et les eaux souterraines.
+

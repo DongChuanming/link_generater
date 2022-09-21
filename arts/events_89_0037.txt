@@ -1,0 +1,187 @@
+
+#89.0037
+#Le site  comprenait un garage et une station-service.
+
+0l0l0	Le_site	O
+0l0l1	__comprenait	R
+0l0l2	un_garage	O
+
+#es activités exercées de la SARL Wolck étaient le stockage, la distribution de carburants ainsi que dans l'entretien et la réparation de véhicules.
+
+1l0l0	es	O
+1l0l1	activités_exercées	A
+1l0l2	la_SARL_Wolck	O
+1l0l3	le_stockage___la_distribution_de_carburants	A
+1l0l4	l__entretien_et_la_réparation_de_véhicules	A
+1l1l0	la_SARL_Wolck	I
+1l1l1	carburants	U
+
+#De par la nature de ses activités, la société était soumise à déclaration conformément à la nomenclature des installations classées pour la protection de l'environnement.
+
+2l0l0	la_nature_de_ses_activités	A
+2l0l1	la_société	O
+2l0l2	était_soumise_à	R
+2l0l3	déclaration	N
+2l0l4	conformément_à	R
+2l0l5	la_nomenclature_des_installations_classées	O
+2l0l6	pour_la_protection_de	A
+2l0l7	l__environnement	O
+
+#Le site est entouré principalement:
+
+3l0l0	Le_site	O
+
+#- au Nord, par la route de Nanchèvre
+
+4l0l0	au_Nord	L
+4l0l1	par_la_route_de_Nanchèvre	L
+
+#- à l'Est par la départementale D957
+
+5l0l0	à_l__Est_par_la_départementale_D957	L
+5l1l0	D957	I
+
+#- au Sud, par le rue du Pont, puis par quelques habitations
+
+6l0l0	au_Sud	L
+6l0l1	par_le_rue_du_Pont	L
+6l0l2	quelques_habitations	O
+
+#- à l'Ouest, par la commune de Saint-Père et à environ 350 mètres par le cours d'eau "La Cure".
+
+7l0l0	à_l__Ouest___par_la_commune_de_Saint_Père_et_à_environ_350_mètres_par_le_cours_d__eau	L
+7l0l1	Cure	L
+
+#Avant la cessation des activités notifiée le 18 février 2011 de la SARL WOLCK, les infrastructures suivantes avaient été répertoriées:
+
+8l0l0	Avant	T
+8l0l1	la_cessation_des_activités_notifiée	N
+8l0l2	le_18_février_2011	T
+8l0l3	la_SARL_WOLCK	O
+8l0l4	les_infrastructures_suivantes	O
+8l0l5	avaient_été_répertoriées	N
+8l1l0	la_SARL_WOLCK	I
+
+#- une aire de lavage pour les véhicules
+
+
+#- 2 cuves enterrées
+
+10l1l0	2_cuves_enterrées	D
+
+#- 2 îlots de distributions de carburant
+
+11l1l0	carburant	U
+
+#- un garage fermé
+
+
+#- une cuve bi-compartimentée.
+
+13l1l0	une_cuve	D
+
+#Suite à la cessation d'activité notifiée le 18 février 2011 à M. le Préfet de l'Yonne, La SARL WOLCK a confié la fermeture technique et administrative à un cabinet de conseil.
+
+14l0l0	Suite_à	R
+14l0l1	la_cessation_d__activité_notifiée	N
+14l0l2	le_18_février_2011	T
+14l0l3	M__le_Préfet_de_l__Yonne	O
+14l0l4	La_SARL_WOLCK	O
+14l0l5	a_confié	N
+14l0l6	la_fermeture_technique_et_administrative	O
+14l0l7	un_cabinet_de_conseil	O
+14l1l0	le_Préfet	I
+14l1l1	La_SARL_WOLCK	I
+
+#Celui-ci a fait procéder à un diagnostic des sols en mars 2011.
+
+15l0l0	a_fait_procéder	N
+15l0l1	à	R
+15l0l2	un_diagnostic_des_sols	N
+15l0l3	en_mars_2011__	T
+
+#Le programme des investigations a consisté en la réalisation de 10 sondages carottés (positionnés en fonction des observations de terrain).
+
+16l0l0	Le_programme	O
+16l0l1	la_réalisation	N
+16l0l2	10_sondages_carottés	O
+
+#Les résultats analytiques sur les sols ont révélé:
+
+
+#- des valeurs en hydrocarbures totaux supérieures aux valeurs de références (bruit de fond géochimiques)dans les remblais et le sol naturel
+
+18l0l0	remblais_et_le_sol_naturel	L
+18l1l0	hydrocarbures_totaux	S
+
+#- des dépassements de la valeur de référence en BTEX ( benzène, toluène, éthylbenzène, xylènes) dans les remblais et le sol naturel
+
+19l0l0	remblais_et_le	L
+19l0l1	sol_naturel	N
+19l1l0	BTEX	S
+19l1l1	benzène	S
+19l1l2	toluène	S
+19l1l3	éthylbenzène	S
+19l1l4	xylènes	S
+
+#- une contamination des gaz du sol par des composés volatils de type "essence".
+
+20l0l0	une_contamination	N
+20l1l0	composés_volatils	S
+20l1l1	essence	U
+
+#Suite à ce diagnostic des sols, dans le cadre de la cessation d'activité, de la cession du site à la SCI "La sœur Cadette" et du probable changement d'usage du site, il avait été préconisé:
+
+21l0l0	Suite_à	R
+21l0l1	ce_diagnostic	N
+21l0l2	des_sols	O
+21l0l3	dans_le_cadre_de	R
+21l0l4	la_cessation	N
+21l0l5	d__activité	O
+21l0l6	la_cession_du_site	N
+21l0l7	la_SCI	O
+
+#- des travaux complets de dépollution
+
+22l0l0	des_travaux_complets_de_dépollution	N
+
+#-  la réalisation d'une analyse des risques résiduels visant à vérifier la compatibilité de l'état environnemental post-travaux du site avec l'usage futur retenu.
+
+23l0l0	__la_réalisation_d__une_analyse	N
+23l0l1	post_travaux_du_site	N
+23l0l2	avec_l__usage_futur_retenu	O
+
+#Les travaux de dépollution ont été réalisés du 17 au 24 août 2011.
+
+24l0l0	Les_travaux_de_dépollution	N
+24l0l1	ont_été_réalisés	N
+24l0l2	du_17_au_24_août_2011__	T
+
+#Environ 123 tonnes de terres ont été excavées, puis évacuées vers un biocentre agrée.
+
+25l0l0	tonnes_de_terres	O
+25l0l1	ont_été_excavées	N
+25l0l2	évacuées_vers	R
+25l0l3	un_biocentre_agrée	N
+
+#Les zones excavées ont été remblayées par des matériaux sains.
+
+26l0l0	Les_zones_excavées	N
+26l0l1	ont_été_remblayées	N
+26l0l2	par_des_matériaux_sains	O
+
+#La pollution résiduelle des sols est compatible avec l'usage futur du site (cession à la SCI "La sœur Cadette")
+
+27l0l0	cession	N
+
+#Le 30 mars 2012, M. le Préfet de l'Yonne donne récépissé à la SARL WOLCK de sa déclaration faisant part de sa cessation d'activité.
+
+28l0l0	Le_30_mars_2012__	T
+28l0l1	M__le_Préfet_de_l__Yonne	O
+28l0l2	donne_récépissé	N
+28l0l3	la_SARL_WOLCK	O
+28l0l4	sa_déclaration	N
+28l0l5	faisant_part_de	R
+28l0l6	sa_cessation_d__activité	N
+28l1l0	le_Préfet_de_l__Yonne	I
+28l1l1	la_SARL_WOLCK	I

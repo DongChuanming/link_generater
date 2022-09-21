@@ -1,0 +1,373 @@
+
+#73.0024
+#La décharge de Cascades-La Rochette est implantée au lieu-dit "Les Curtets" en rive droite du Gelon dans une zone marécageuse et agricole.
+
+0l0l0	La_décharge	O
+0l0l1	Cascades___La_Rochette	L
+0l0l2	implantée	T
+0l0l3	au_lieu___dit___Les_Curtets___en_rive_droite_du_Gelon	L
+0l0l4	dans_une_zone_marécageuse_et_agricole	L
+
+#La décharge est antérieure à 1948.
+
+1l0l0	La_décharge	O
+1l0l1	est_antérieure_à_1948__	T
+
+#Les déchets déposés dans la décharge sont constitués de fibres de bois, d'adjuvants (sulfite de sodium, soude, dioxyde de chlore et peroxyde d'hydrogène, alumin, antimousse), de déchets provenant de la chaudière (mâchefers de charbon, cendres de bois et de boues d'épuration), de boues d'épuration (du décanteur et ensuite de la station d'épuration), d'autres déchets (bidons en plastique souillés, ferrailles, débris de verres) et de déchets d'autres sociétés (reliquats de fosses d'épuration et silicate de soude).
+
+2l0l0	plastique_souillés	O
+2l1l0	Les_déchets_déposés	U
+2l1l1	fibres_de_bois	U
+2l1l2	sulfite	S
+2l1l3	sodium	S
+2l1l4	soude	S
+2l1l5	dioxyde_de_chlore	U
+2l1l6	peroxyde	S
+2l1l7	hydrogène	S
+2l1l8	alumin	S
+2l1l9	charbon	U
+2l1l10	cendres_de_bois	U
+2l1l11	plastique_souillés	U
+2l1l12	silicate_de_soude	S
+
+#Des fossés situés à l'est et à l'ouest de la décharge permettent d'évacuer une partie des eaux de ruissellement de la décharge vers le Gelon.
+
+3l0l0	Des_fossés	O
+3l0l1	situés_à_l__est_et_à_l__ouest_de_la_décharge	L
+3l0l2	évacuer_une_partie_des_eaux_de_ruissellement	O
+3l0l3	la_décharge	O
+3l0l4	vers_le_Gelon	L
+
+#La décharge a été fermée en 1998.
+
+4l0l0	La_décharge	O
+4l0l1	a_été_fermée	N
+4l0l2	en_1998__	T
+
+#Cet établissement relève des critères de la circulaire du 03/04/1996 relative aux études de sol.
+
+5l0l0	Cet_établissement	O
+5l0l1	03_04_1996	T
+5l0l2	aux_études_de_sol	N
+
+#Cette circulaire prévoit la réalisation de diagnostics initiaux et de l'évaluation simplifiée des risques sur les sites industriels en activité.
+
+6l0l0	Cette_circulaire	O
+6l0l1	prévoit	R
+6l0l2	la_réalisation_de_diagnostics_initiaux	N
+6l0l3	l__évaluation_simplifiée_des_risques	N
+6l0l4	les_sites_industriels_en_activité	O
+
+#L'objectif de ces études est de classer les sites, au regard de la pollution du sol et du sous–sol en trois groupes :
+
+
+#- Les sites "banalisables" pour l'usage déclaré (actuel ou prévu)
+
+8l0l0	l__usage_déclaré	N
+
+#- Les sites à surveiller
+
+
+#- Les sites nécessitant des investigations approfondies.
+
+10l0l0	investigations_approfondies	N
+
+#Une grille annexée à cette circulaire précise les secteurs d'activité prioritaires.
+
+
+#On y trouve en priorité 1, les installations liées au secteur du déchet, de la chimie (pétrochimie, pharmacie…), de la métallurgie, du textile, de la cristallerie, des dépôts d'hydrocarbures.
+
+12l0l0	les_installations	O
+12l0l1	liées_au	R
+12l0l2	secteur_du_déchet	A
+12l1l0	dépôts_d_	D
+12l1l1	hydrocarbures__	S
+
+#165 entreprises ont été proposées en Rhône-Alpes.
+
+13l0l0	en_Rhône___Alpes	L
+
+#Un diagnostic initial et une évaluation simplifiée des risques ont été prescrits en novembre 1998.
+
+14l0l0	Un_diagnostic_initial_et_une_évaluation_simplifiée_des_risques	N
+14l0l1	ont_été_prescrits	N
+14l0l2	en_novembre_1998__	T
+
+#Une première étape de ce diagnostic a permis de préciser la localisation des sources potentielles et la nature des substances susceptibles d'être présentes dans le sous-sol.
+
+15l0l0	Une_première_étape	O
+15l0l1	ce_diagnostic	N
+15l0l2	préciser_la_localisation_des_sources_potentielles	O
+15l0l3	la_nature_des_substances	O
+
+#Il s'agit de métaux (aluminium, arsenic, baryum, chrome, cuivre, fer, manganèse, magnésium, plomb, zinc), de minéraux (chlorures, sodium, sulfure) et d'hydrocarbures (provenant de la cuve à fioul d'un hangar de bulldozer).
+
+16l0l0	la_cuve_à_fioul	O
+16l0l1	bulldozer	N
+16l1l0	métaux	S
+16l1l1	aluminium	S
+16l1l2	arsenic	S
+16l1l3	baryum	S
+16l1l4	chrome	S
+16l1l5	cuivre	S
+16l1l6	fer	S
+16l1l7	manganèse	S
+16l1l8	magnésium	S
+16l1l9	plomb	S
+16l1l10	zinc	S
+16l1l11	minéraux	S
+16l1l12	chlorures	S
+16l1l13	sodium	S
+16l1l14	sulfure	S
+16l1l15	hydrocarbures	S
+16l1l16	fioul	U
+
+#Les vecteurs potentiels d'une éventuelle pollution sont les eaux souterraines (nappe alluviale), les eaux de ruissellement s'écoulant dans les fossés en direction du Gelon et l'air pour les substances volatiles ou pulvérulentes.
+
+17l0l0	en_direction_du_Gelon	L
+17l1l0	les_substances_volatiles	U
+
+#Une deuxième étape de ce diagnostic pour laquelle 12 excavations ont été réalisées a mis en évidence l'existence d'une source de pollution.
+
+18l0l0	Une_deuxième_étape	O
+18l0l1	ce_diagnostic	N
+18l0l2	12_excavations	N
+18l0l3	ont_été_réalisées	N
+18l0l4	a_mis_en_évidence	R
+18l0l5	l__existence_d__une_source_de_pollution	O
+
+#De façon plus précise, on peut zoner la source en fonction des substances mises en évidence lors des investigations de terrain.
+
+19l0l0	zoner_la_source	O
+19l0l1	investigations_de_terrain	N
+
+#Ainsi, les analyses ont montré la présence de cuivre et de baryum au droit de toutes les excavations réalisées, en surface comme en profondeur.
+
+20l0l0	au_droit_de	L
+20l0l1	toutes_les_excavations_réalisées	N
+20l1l0	cuivre	S
+20l1l1	baryum	S
+
+#Une seconde zone est constituée par les déchets amenés sur la décharge entre 1988 et 1998.
+
+21l0l0	Une_seconde_zone	O
+21l0l1	entre_1988_et_1998	T
+21l1l0	les_déchets	U
+
+#Les substances mises en évidence sont le zinc et le manganèse.
+
+22l1l0	le_zinc	S
+22l1l1	manganèse	S
+
+#Des concentrations en manganèse, ont été mesurées dans la nappe alluviale sous-jacente au site, avec un accroissement des valeurs en aval hydraulique de la décharge.
+
+23l0l0	ont_été_mesurées	N
+23l0l1	un_accroissement	N
+23l0l2	en_aval_hydraulique_de_la_décharge	L
+23l1l0	manganèse	S
+
+#Cette zone est également caractérisée par la présence de métaux lourds comme le fer, l'aluminium et le magnésium dont les teneurs respectives sont élevées.
+
+24l0l0	Cette_zone	O
+24l1l0	métaux_lourds	S
+24l1l1	fer	S
+24l1l2	aluminium	S
+24l1l3	magnésium	S
+
+#Toujours dans cette même zone des traces d'arsenic ont été détectées au droit d'une excavation à 0,1 mètre de profondeur.
+
+25l0l0	Toujours_dans_cette_même_zone	L
+25l0l1	d__arsenic	O
+25l0l2	ont_été_détectées	N
+25l0l3	au_droit_d_	R
+25l0l4	une_excavation	N
+25l0l5	à	R
+25l0l6	0_1_mètre_de_profondeur	N
+25l1l0	arsenic	S
+
+#Les analyses en arsenic effectuées dans la nappe alluviale ne permettent pas de conclure de façon certaine à un impact de site sur l'eau souterraine.
+
+26l0l0	Les_analyses	N
+26l0l1	arsenic	O
+26l1l0	arsenic	S
+
+#Un problème similaire existe pour le plomb, détecté en un seul point de la décharge.
+
+27l1l0	plomb	S
+
+#Dans la nappe alluviale, il a été mesuré en amont hydraulique du site.
+
+28l0l0	a_été_mesuré	N
+28l0l1	en_amont_hydraulique_du_site	L
+
+#Il n'est donc pas possible de conclure à un impact de la décharge sur la nappe alluviale concernant le plomb.
+
+29l0l0	un_impact	N
+29l1l0	plomb	S
+
+#L'évaluation simplifiée des risques a permis de catégoriser la décharge en classe 1, site demandant des investigations approfondies pour les voies d'exposition eaux-souterraines-usages AEP et non AEP vis-à-vis du manganèse, de l'arsenic et du plomb; ainsi que pour les eaux superficielles-usages non AEP vis de ces mêmes composés.
+
+30l0l0	L__évaluation_simplifiée_des_risques	N
+30l0l1	catégoriser	N
+30l0l2	la_décharge	O
+30l1l0	manganèse	S
+30l1l1	l__arsenic	S
+30l1l2	plomb	S
+
+#L'administration a proposé à Monsieur le Préfet de la Savoie d'une part un suivi des eaux superficielles et souterraines et d'autre part la réalisation d'une Etude Détaillée des Risques conformément au guide méthodologique version 0 de juin 2000.
+
+31l0l0	L__administration	O
+31l0l1	Monsieur_le_Préfet_de_la_Savoie	O
+31l0l2	un	N
+31l0l3	suivi_des_eaux_superficielles	A
+31l0l4	la_réalisation_d__une_Etude_Détaillée_des_Risques	N
+31l0l5	conformément_au	R
+31l0l6	guide_méthodologique	O
+31l0l7	juin_2000__	T
+31l1l0	le_Préfet_de_la_Savoie	I
+
+#L'étude détaillée des risques a été remise en juillet 2003.
+
+32l0l0	risques_a_été_remise	N
+32l0l1	en_juillet_2003__	T
+
+#L'évaluation détaillée des risques a été réalisée :
+
+33l0l0	évaluation_détaillée_des_risques	N
+33l0l1	a_été_réalisée	N
+
+#- pour quantifier les risques pour la santé humaine liés à la présence de HAP, métaux, phénols, HCT et nitrites dans les sols et eaux souterraines au droit du site et au niveau de l'habitation voisine,
+
+34l0l0	HAP	O
+34l0l1	au_droit_du_site	L
+34l0l2	au_niveau_de_l__habitation_voisine	L
+34l1l0	HAP	S
+34l1l1	métaux	S
+34l1l2	phénols___HCT	S
+34l1l3	nitrites	S
+
+#- pour identifier le risque de contamination des captages présents en aval du site.
+
+35l0l0	identifier	N
+35l0l1	le_risque_de_contamination	O
+35l0l2	en_aval_du_site	L
+
+#L'aménagement et l'usage pris en compte dans cette étude sont le site dans son état actuel, c'est à dire une décharge qui n'est plus en activité.
+
+36l0l0	L__aménagement	N
+36l0l1	l__usage_pris_en_compte	O
+36l0l2	le_site	O
+36l0l3	n__est_plus_en_activité	N
+
+#L'EDR pour les cibles sur le site met en évidence des risques inacceptables pour les voies liées aux sols de surface (ingestion de sols, contact cutané et inhalation de poussières).
+
+37l0l0	inhalation	N
+
+#Les métaux sont à l'origine du risque.
+
+38l0l0	Les_métaux	O
+38l0l1	sont_à_l__origine	N
+38l1l0	Les_métaux	S
+
+#L'EDR pour les cibles hors site met en évidence des risques acceptables pour les cibles résidant à proximité et ayant un jardin d'agrément (zones vertes).
+
+39l0l0	des_risques	O
+39l0l1	à_proximité_et_ayant_un_jardin_d_	L
+39l0l2	agrément	O
+
+#L'EDR ressources en eau fournit quant à elle les résultats suivants :
+
+
+#- Pour les eaux du Gelon : étant donné l'effet de dilution et les teneurs détectées sur le site pour chaque substance, les risques sont acceptables.
+
+41l0l0	eaux_du_Gelon	L
+41l0l1	dilution	O
+
+#Le site a en effet une influence négligeable sur la qualité des eaux superficielles du Gelon.
+
+42l0l0	Le_site	O
+
+#- Pour le captage AEA (à usage agricole) de Villard Léger : les risques sont acceptables.
+
+43l0l0	le_captage_AEA	O
+43l0l1	Villard_Léger	L
+
+#La contamination issue du site a un impact négligeable sur la qualité de l'eau.
+
+44l0l0	La_contamination	O
+
+#Un arrêté préfectoral en date du 8 août 2005 a imposé la remise de compléments à l'EDR, la mise en place d'une clôture et la surveillance de la nappe des eaux souterraines.
+
+45l0l0	Un_arrêté_préfectoral	O
+45l0l1	en_date_du_8_août_2005	T
+45l0l2	a_imposé	N
+45l0l3	la_remise_de_compléments	N
+45l0l4	la_mise_en_place_d__une_clôture	N
+45l0l5	la_surveillance_de_la_nappe_des_eaux_souterraines	A
+
+#Afin de pallier le risque inacceptable lié à l'ingestion de sols de surface sur le site, la mise en place d'une clôture autour du site est préconisée et a été imposée par arrêté préfectoral.
+
+46l0l0	l__ingestion_de_sols	N
+46l0l1	la_mise_en_place_d_	N
+46l0l2	une_clôture	O
+46l0l3	autour_du_site	L
+46l0l4	a_été_imposée	N
+46l0l5	par_arrêté_préfectoral	O
+
+#La présence de la clôture a été constatée lors de la dernière inspection en mai 2009.
+
+47l0l0	La_présence_de_la_clôture	O
+47l0l1	a_été_constatée_lors_de	N
+47l0l2	la_dernière_inspection	N
+47l0l3	en_mai_2009__	T
+
+#Des compléments à l'évaluation détaillée des risques demandé par arrêté préfectoral concernant notamment la nécessaire améliorations du système hydrogéologique local ont fournis par l'exploitant.
+
+48l0l0	Des_compléments	O
+48l0l1	évaluation_détaillée_des_risques	N
+48l0l2	arrêté_préfectoral	O
+48l0l3	ont_fournis	N
+48l0l4	l__exploitant	O
+
+#Une étude hydrogéologique affinée a été remise en décembre 2006.
+
+49l0l0	Une	O
+49l0l1	étude_hydrogéologique_affinée	N
+49l0l2	a_été_remise	N
+49l0l3	en_décembre_2006__	T
+
+#Cette étude met en évidence que les hypothèses de l'évaluation détaillée des risques sont pessimistes par rapport à la situation réelle (pas d'échange de la nappe superficielle vers la nappe profonde, faible vulnérabilité des cibles potentielles, drainance partielle de la nappe souterraine par le Gelon).
+
+50l0l0	drainance	N
+50l0l1	le_Gelon	L
+
+#Le caractère acceptable du risque est donc confirmée par cette étude.
+
+51l0l0	Le_caractère_acceptable	O
+
+#La surveillance des eaux souterraines est réalisée.
+
+52l0l0	La_surveillance_des_eaux_souterraines	A
+52l0l1	est_réalisée	N
+
+#Toutefois, les derniers résultats disponibles et transmis par l'exploitant correspondent à des prélèvements réalisés en septembre 2009.
+
+53l0l0	l__exploitant	O
+53l0l1	correspondent_à	R
+53l0l2	des_prélèvements_réalisés	N
+53l0l3	en_septembre_2009__	T
+
+#Les points de surveillance comportent des piézomètres en amont de la décharge, en val à l'extrémité de la décharge à proximité du Gelon et des piézomètres situés de l'autre côté du Gelon.
+
+54l0l0	piézomètres	O
+54l0l1	en_amont_de_la_décharge	L
+54l0l2	extrémité_de_la_décharge	L
+54l0l3	à_proximité_du_Gelon	L
+54l0l4	piézomètres	O
+54l0l5	situés_de_l__autre_côté_du_Gelon	L
+
+#Des analyses sont également réalisées sur les eaux du Gelon, en amont et en aval de la décharge.
+
+55l0l0	Des_analyses	A
+55l0l1	les_eaux_du_Gelon	L
+55l0l2	en_amont_et_en_aval_de_la_décharge	L

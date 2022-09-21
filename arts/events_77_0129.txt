@@ -1,0 +1,229 @@
+
+#77.0129
+#L’exploitation d’une première unité d’incinération d’ordures ménagères (UIOM) a été autorisée en 1974.
+
+0l0l0	L__exploitation_d_	N
+0l0l1	une_première_unité_d__incinération	N
+0l0l2	ordures_ménagères___UIOM	O
+0l0l3	a_été_autorisée	N
+0l0l4	en_1974	T
+
+#Cette exploitation a été accordée sous le régime de l’autorisation au SIGUAM de l’agglomération de Melun (Syndicat intercommunal pour l’assainissement et le traitement des déchets ménagers).
+
+1l0l0	Cette_exploitation	O
+1l0l1	a_été_accordée_sous_le_régime	N
+1l0l2	l__autorisation	O
+1l0l3	au_SIGUAM	O
+1l0l4	de_l__agglomération_de_Melun	L
+1l0l5	l__assainissement	N
+1l1l0	SIGUAM	I
+1l1l1	Syndicat	S
+1l1l2	déchets_ménagers	I
+
+#Après plusieurs actions coercitives à l’encontre de l’exploitant compte tenu des non-conformités relevées et des résultats d’analyse, une proposition de suspension d’activité a été rédigée à la suite de laquelle le SIGUAM a cessé l’activité de l’UIOM en juillet 2002.
+
+2l0l0	Après	R
+2l0l1	plusieurs_actions_coercitives	N
+2l0l2	l__exploitant	O
+2l0l3	une_proposition	O
+2l0l4	d__activité	O
+2l0l5	a_été_rédigée	N
+2l0l6	à_la_suite	R
+2l0l7	le_SIGUAM	O
+2l0l8	a_cessé_l__activité	N
+2l0l9	l__UIOM	O
+2l0l10	en_juillet_2002	T
+2l1l0	le_SIGUAM	I
+
+#En avril 2001, le Syndicat mixte de traitement des ordures ménagères (SMITOM) a été autorisé à exploiter une unité de valorisation énergétique (UVE) des ordures ménagères sur le même site.
+
+3l0l0	En_avril_2001__	T
+3l0l1	le_Syndicat_mixte_de_traitement_des_ordures_ménagères___SMITOM	O
+3l0l2	a_été_autorisé	N
+3l0l3	exploiter	N
+3l0l4	une_unité_de_valorisation_énergétique	O
+3l1l0	le_Syndicat_mixte	I
+3l1l1	ordures_ménagères	I
+3l1l2	SMITOM	I
+
+#Cette unité est en service depuis la fin de l’année 2003.
+
+4l0l0	Cette_unité	O
+4l0l1	est_en_service	N
+4l0l2	depuis_la_fin_de_l_	T
+4l0l3	année_2003__	T
+
+#Le site est entouré au nord et à l’est par des terrains agricoles, et au sud et à l’ouest par une zone industrielle.
+
+5l0l0	Le_site	O
+5l0l1	est_entouré_au_nord_et_à_l__est	L
+5l0l2	des_terrains_agricoles	O
+5l0l3	à_l__ouest	L
+5l0l4	une_zone_industrielle	O
+
+#Début 2001, l’exploitant (le SIGUAM) a été mis en demeure de respecter les valeurs de rejets limites autorisées par l’arrêté ministériel du 25 janvier 1991 (notamment pour les dioxines, le monoxyde de carbone, les poussières et d’acide chlorhydrique et fluorhydrique).
+
+6l0l0	Début_2001__	T
+6l0l1	l__exploitant	O
+6l0l2	le_SIGUAM	O
+6l0l3	a_été_mis_en_demeure	N
+6l0l4	25_janvier_1991	T
+6l1l0	le_SIGUAM	I
+6l1l1	dioxines	S
+6l1l2	monoxyde	S
+6l1l3	de_carbone	U
+6l1l4	acide_chlorhydrique	S
+6l1l5	fluorhydrique	S
+
+#A la fin de l’année 2002 lors de la fermeture du site du SIGUAM, les éléments connus étaient les suivants :
+
+7l0l0	A_la_fin_de_l__année_2002	T
+7l0l1	lors_de	R
+7l0l2	la_fermeture	N
+7l0l3	site_du_SIGUAM	O
+7l1l0	SIGUAM	I
+
+#Rejets atmosphériques : l’analyse de mai 2002 révèle un taux de rejet de dioxines et de furanes de 226ng/Nm3 très nettement supérieur au seuil de 0,1ng/Nm3 applicable aux nouvelles usines d’incinération d’ordures ménagères depuis 1998.
+
+8l0l0	l__analyse	N
+8l0l1	de_mai_2002	T
+8l0l2	depuis_1998	T
+8l1l0	dioxines	S
+8l1l1	furanes	S
+8l1l2	226ng	S
+
+#Pollution des sols : des prélèvements réalisés en avril 2002 ont révélé de fortes teneur en dioxines et furanes à quelques centaines de mètres de l’usine.
+
+9l0l0	Pollution_des_sols	N
+9l0l1	des_prélèvements_réalisés	N
+9l0l2	en_avril_2002	T
+9l0l3	à_quelques_centaines_de_mètres_de_l__usine	L
+9l1l0	dioxines	S
+9l1l1	furanes	S
+
+#Lait : Des analyses dans le lait d’un troupeau de vaches allaitantes situées à proximité de l’usine à Vaux le Pénil ont montré après l’exploitation des teneurs trois à six fois la teneur maximale en dioxines pour le lait destiné à la consommation.
+
+10l0l0	Des_analyses	N
+10l0l1	situées_à_proximité_de_l__usine	L
+10l0l2	à_Vaux_le_Pénil	L
+10l0l3	l__exploitation	N
+10l1l0	dioxines	S
+
+#Œufs de poule : Des analyses dans les œufs de poules ont montré un taux en dioxines environ quatre fois supérieur à la norme applicable de l’époque.
+
+11l1l0	dioxines	S
+
+#Suite à ces résultats, les mesures principales suivantes ont été prises :
+
+12l0l0	ont_été_prises	N
+
+#- Le troupeau de bovins contaminés a été abattu.
+
+13l0l0	Le_troupeau_de_bovins_contaminés	O
+13l0l1	a_été_abattu	N
+13l1l0	bovins	U
+
+#- Une surveillance renforcée a été prescrite dans le cadre de l’autorisation de la nouvelle usine par arrêté complémentaire en octobre 2003.
+
+14l0l0	Une_surveillance_renforcée	O
+14l0l1	a_été_prescrite	N
+14l0l2	dans_le_cadre_de	R
+14l0l3	l__autorisation	N
+14l0l4	la_nouvelle_usine	O
+14l0l5	par_arrêté_complémentaire	O
+14l0l6	en_octobre_2003	T
+
+#- Une recommandation a été donnée de ne pas consommer les œufs et la chair des poules élevées en plein air dans une zone de 4 km de rayon autour de l’UIOM.
+
+15l0l0	ne_pas_consommer	N
+15l0l1	dans_une_zone_de_4_km_de_rayon_autour_de_l_	L
+
+#Aujourd’hui, l'unité de valorisation énergétique (UVE) en activité depuis 2003 respecte les normes réglementaires d’émissions de dioxines fixées à 0,1ng/Nm3.
+
+16l0l0	l__unité_de_valorisation_énergétique	O
+16l0l1	UVE___en_activité	N
+16l0l2	depuis_2003	T
+16l0l3	respecte	R
+16l1l0	dioxines	S
+
+#Le SMITOM a mis en oeuvre, dès la construction de l'UVE, les mesures de surveillance de ses rejets atmosphériques par le système Coper Diox.
+
+17l0l0	Le_SMITOM	O
+17l0l1	a_mis_en_oeuvre	N
+17l0l2	dès_la	T
+17l0l3	construction	N
+17l0l4	l__UVE	O
+17l0l5	les_mesures_de_surveillance	A
+17l0l6	de_ses_rejets_atmosphériques	N
+17l0l7	le_système	O
+17l1l0	Le_SMITOM	I
+17l1l1	Diox	S
+
+#Les mesures de retombées dans l’environnement révèlent que les dépôts de dioxines constatés dans les végétaux aux différents points de prélèvements autour de l’usine sont très inférieurs au niveau d’intervention fixé par la Commission européenne.
+
+18l0l0	l__usine	O
+18l0l1	la_Commission	O
+18l1l0	dioxines	S
+
+#D’autre part les analyses des signatures des dioxines indiquent que l’apport de dioxines est majoritairement dû à d’autres sources d’émissions (feux de bois, circulation routière, etc…)
+
+19l1l0	dioxines	S
+19l1l1	dioxines	S
+
+#Pour assurer un meilleur suivi, un nouveau protocole de surveillance dans la biosphère a été élaboré au premier trimestre 2009.
+
+20l0l0	un_nouveau_protocole_de_surveillance	O
+20l0l1	la_biosphère	O
+20l0l2	a_été_élaboré	N
+20l0l3	au_premier_trimestre_2009__	T
+
+#Celui-ci a été repris par arrêté préfectoral du 19 juin 2009.
+
+21l0l0	a_été_repris	N
+21l0l1	par_arrêté_préfectoral	O
+21l0l2	du_19_juin_2009__	T
+
+#Ces éléments ont été présentés au CODERST ainsi qu’en commission locale d’information et de surveillance (CLIS).
+
+22l0l0	CODERST	O
+22l1l0	CODERST	I
+
+#Le site de l’ancien incinérateur fait partie des sites retenus au niveau national par l’ANSES et l’InVS pour l’étude nationale relative à l’imprégnation des populations par les dioxines.
+
+23l0l0	Le_site	O
+23l0l1	incinérateur	N
+23l0l2	fait_partie_des	R
+23l0l3	sites_retenus	O
+23l0l4	l__ANSES	O
+23l0l5	l__InVS	O
+23l0l6	l__imprégnation	N
+23l1l0	dioxines	S
+
+#Cette étude n'a pas mis en évidence de différence d'imprégnation par les dioxines et les PCB entre les riverains d'UIOM et les résidents non soumis à une source connue de dioxines.
+
+24l0l0	les_résidents	O
+24l1l0	les_dioxines	S
+24l1l1	les_PCB	S
+24l1l2	dioxines	S
+
+#En revanche, l'étude réalisée auprès des autoconsommateurs a montré l'influence de la consommation de produits locaux tels que les produits laitiers, les oeufs et les lipides animaux.
+
+25l0l0	consommation_de_produits_locaux	O
+
+#Les teneurs en dioxines et furanes mesurées aux abords du site depuis 2009 confirment la présence de dioxines dans les sols.
+
+26l0l0	Les_teneurs	O
+26l0l1	abords_du_site	L
+26l0l2	depuis_2009	T
+26l1l0	dioxines	S
+26l1l1	furanes	S
+26l1l2	dioxines	S
+
+#Le nouveau protocole de surveillance impose en particulier le contrôle régulier des teneurs en dioxines et furanes dans les sols et de suivre l’évolution de la décroissance lente de ces teneurs.
+
+27l0l0	surveillance	A
+27l0l1	impose	N
+27l0l2	le_contrôle_régulier	A
+27l0l3	teneurs	O
+27l1l0	dioxines	S
+27l1l1	furanes	S

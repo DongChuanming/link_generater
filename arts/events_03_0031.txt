@@ -1,0 +1,239 @@
+
+#03.0031
+#Le site, d'une superficie d'environ 3 hectares, se trouve dans le village de Tronçais sur la commune de Saint-Bonnet-Tronçais, en bordure de l'étang de Tronçais et au coeur de la forêt domaniale de Tronçais.
+
+0l0l0	Le_site	O
+0l0l1	se_trouve_dans_le_village_de_Tronçais	L
+0l0l2	sur_la_commune_de_Saint_Bonnet_Tronçais	L
+0l0l3	en_bordure_de_l__étang_de_Tronçais	L
+0l0l4	au_coeur_de_la_forêt_domaniale_de_Tronçais	L
+
+#Le site est bordé en limite Sud-Est par la rivière "La Sologne", ce ruisseau est alimentée par les eaux de l'étang de Tronçais et se jette quelques kilomètres plus loin dans la rivière "La Marmande".
+
+1l0l0	Le_site	O
+1l0l1	bordé_en_limite_Sud_Est_par_la_rivière___La_Sologne	L
+1l0l2	se_jette_quelques_kilomètres_plus_loin	L
+1l0l3	dans_la_rivière___La_Marmande	L
+
+#Au départ de l'étang de Tronçais, un bief, passant sous la route D978A, alimente l'usine avant de rejoindre la Sologne.
+
+2l0l0	Au_départ_de_l__étang_de_Tronçais	L
+2l0l1	un_bief	O
+2l0l2	passant_sous_la_route_D978A	L
+2l0l3	alimente	N
+2l0l4	l__usine	O
+2l0l5	avant_de_rejoindre_la_Sologne	L
+
+#Ce site comporte des bâtiments historiques de caractère, en plus ou moins bon état et des bâtiments industriels.
+
+3l0l0	Ce_site	O
+3l0l1	comporte	R
+3l0l2	des_bâtiments_historiques_de_caractère	O
+3l0l3	des_bâtiments_industriels	O
+
+#La nappe d'accompagnement de la Sologne est présente sous le site à environ un mètre sous la surface du sol.
+
+4l0l0	La_nappe	O
+4l0l1	accompagnement_de_la_Sologne	L
+
+#L'activité industrielle sur le site remonte à la fin du XVIIIème siècle, avec la construction des Forges de Tronçais en 1789.
+
+5l0l0	L__activité_industrielle	A
+5l0l1	sur_le_site	L
+5l0l2	remonte_à	T
+5l0l3	la_fin_du	L
+5l0l4	XVIIIème_siècle	T
+5l0l5	la_construction_des_Forges_de_Tronçais	A
+5l0l6	en_1789	T
+
+#Un haut fourneau pour la production d'acier fut utilisé jusqu'en 1864, puis l'activité s'orienta uniquement vers la transformation d'acier, jusqu'en 1932, date de la fermeture de l'usine.
+
+6l0l0	Un_haut_fourneau	O
+6l0l1	la_production_d__acier	A
+6l0l2	fut_utilisé	N
+6l0l3	jusqu__en_1864	T
+6l0l4	l__activité	O
+6l0l5	s__orienta	N
+6l0l6	uniquement_vers	R
+6l0l7	la_transformation_d__acier	A
+6l0l8	jusqu__en_1932	T
+6l0l9	l__usine	O
+
+#En 1952, un atelier de tranchage et une scierie s'installèrent.
+
+7l0l0	En_1952	T
+7l0l1	un_atelier_de_tranchage	O
+7l0l2	une	O
+7l0l3	scierie	A
+7l0l4	s__installèrent	N
+
+#En 1983, la société SEVE y produit du mobilier de bureau et travaille en sous-traitance pour la société Cabasse.
+
+8l0l0	En_1983	T
+8l0l1	la_société_SEVE	O
+8l0l2	produit_du_mobilier_de_bureau	A
+8l0l3	travaille_en_sous_traitance	N
+8l0l4	la_société_Cabasse	O
+8l1l0	la_société_SEVE	I
+8l1l1	la_société_Cabasse	I
+
+#En 1992, la société Cabasse reprend l'activité pour y produire des enceintes acoustiques haute gamme.
+
+9l0l0	En_1992	T
+9l0l1	la_société_Cabasse	O
+9l0l2	l__activité	O
+9l0l3	produire_des_enceintes_acoustiques_haute_gamme	A
+9l1l0	la_société_Cabasse	I
+
+#En 2001, la marque Cabasse est rachetée et devient la SA Cabasse Industrie.
+
+10l0l0	En_2001__	T
+10l0l1	la_marque_Cabasse	O
+10l0l2	est_rachetée	N
+10l0l3	devient	R
+10l0l4	la_SA_Cabasse_Industrie	O
+10l1l0	la_SA_Cabasse	I
+
+#Cette société est mise en redressement judiciaire en avril 2003 une procédure de liquidation judiciaire est engagée en juillet de cette même année.
+
+11l0l0	Cette_société	O
+11l0l1	est_mise_en_redressement_judiciaire	N
+11l0l2	en_avril_2003	T
+11l0l3	une_procédure_de_liquidation_judiciaire	O
+11l0l4	est_engagée	N
+11l0l5	en_juillet_de_cette_même_année__	T
+
+#Après la vente aux enchères du matériel, l'inspection des installations classées constate, lors d'une visite le 6/11/2003, la présence de quantités importantes de déchets et produits dangereux stockées dans des conditions présentant un risque pour l'environnement.
+
+12l0l0	Après	R
+12l0l1	la_vente_aux_enchères	N
+12l0l2	du_matériel	O
+12l0l3	l__inspection_des_installations_classées	O
+12l0l4	le_6_11_2003	T
+12l0l5	la_présence	O
+12l1l0	produits_dangereux	U
+
+#Aussi, un arrêté de mise en demeure d'évacuer les déchets présents sur le site, en date du 25/05/2004 a été notifié au mandataire liquidateur.
+
+13l0l0	un_arrêté_de_mise_en_demeure_d__évacuer	N
+13l0l1	en_date_du_25_05_2004	T
+13l0l2	a_été_notifié	N
+13l1l0	les_déchets	U
+
+#Consciente de l'enjeu environnemental et du potentiel économique et touristique du site, la Communauté de Communes du Pays de Tronçais (CCPT) a acquis le site en octobre 2011.
+
+14l0l0	Consciente	R
+14l0l1	de_l__enjeu_environnemental	N
+14l0l2	la_Communauté_de_Communes	O
+14l0l3	du_Pays_de_Tronçais	L
+14l0l4	__CCPT	O
+14l0l5	a_acquis	N
+14l0l6	le_site	O
+14l0l7	en_octobre_2011__	T
+14l1l0	la_Communauté_de_Communes	I
+14l1l1	Pays_de_Tronçais	I
+
+#La CCPT a fait réaliser par le bureau d'études CTE APAVE un diagnostic des sols en mars 2003.
+
+15l0l0	La_CCPT	O
+15l0l1	a_fait_réaliser	N
+15l0l2	par_le_bureau_d__études_CTE_APAVE	O
+15l0l3	un_diagnostic_des_sols	N
+15l0l4	en_mars_2003__	T
+15l1l0	La_CCPT	I
+15l1l1	CTE_APAVE	I
+
+#Les investigations ont permis de mettre à jour la présence de 7 cuves à fioul enterrées ainsi que des pollutions de sols de type métalliques (Cu, Fe, Mn, P, S, Cr, Mg, Ni, Ti, V) et hydrocarbures à différents endroits et notamment au droit d'une zone utilisée pour le brûlage de déchets.
+
+16l0l0	Les_investigations	N
+16l0l1	mettre_à_jour	N
+16l0l2	7_cuves_à_fioul_enterrées	O
+16l0l3	ainsi_que_des_pollutions_de_sols	O
+16l0l4	au_droit_d__une_zone_utilisée_pour_le	L
+16l0l5	brûlage_de_déchets	A
+16l1l0	7_cuves	D
+16l1l1	fioul	U
+16l1l2	métalliques	S
+16l1l3	Cu	S
+16l1l4	Fe	S
+16l1l5	Mn	S
+16l1l6	S	S
+16l1l7	Cr	S
+16l1l8	Mg	S
+16l1l9	Ni	S
+16l1l10	Ti	S
+16l1l11	V	S
+16l1l12	hydrocarbures	S
+
+#Un bilan environnemental réalisé en janvier 2008 par la société PERICHIMIE Environnement confirme également la présence de transformateurs contenant pour certains des PCB ainsi que des déchets et produits dangereux stockés en plusieurs endroits.
+
+17l0l0	Un_bilan_environnemental_réalisé	N
+17l0l1	en_janvier_2008	T
+17l0l2	la_société_PERICHIMIE_Environnement	O
+17l0l3	la_présence_de_transformateurs	O
+17l1l0	la_société_PERICHIMIE	I
+17l1l1	des_PCB	S
+17l1l2	des_déchets	U
+17l1l3	produits_dangereux	U
+
+#Entre mars et mai 2010, le liquidateur fait réaliser une mise en sécurité partielle; la société PERICHIMIE a procéder:
+
+18l0l0	Entre_mars_et_mai_2010__	T
+18l0l1	le_liquidateur	O
+18l0l2	fait_réaliser_une_mise_en_sécurité	N
+18l0l3	partielle	O
+18l0l4	la_société_PERICHIMIE	O
+18l1l0	la_société_PERICHIMIE	I
+
+#- à l'élimination des transformateurs électriques et à la décontamination des locaux;
+
+19l0l0	l__élimination_des_transformateurs	N
+19l0l1	électriques	O
+19l0l2	la_décontamination	N
+
+#- au regroupement des déchets et produits dangereux dans le bâtiment n°3, clos et couvert (environ 14 000kg);
+
+20l0l0	au_regroupement	N
+20l1l0	produits_dangereux	U
+
+#- à l'exportation et l'élimination des produits et déchets inflammables et réactifs (environ 9 600 kg).
+
+21l0l0	l__exportation	N
+21l0l1	l__élimination	N
+21l1l0	déchets_inflammables	U
+
+#En janvier 2012, la CCPT a fait procéder à l'évacuation des derniers déchets et produits dangereux regroupés dans le bâtiment n°3.
+
+22l0l0	En_janvier_2012__	T
+22l0l1	la_CCPT	O
+22l0l2	a_fait_procéder	N
+22l0l3	l__évacuation	N
+22l0l4	des_derniers_déchets_et_produits_dangereux_regroupés	O
+22l0l5	dans_le_bâtiment_n__3	L
+22l1l0	la_CCPT	I
+22l1l1	produits_dangereux	U
+
+#La mise en sécurité s'est poursuivi par l'évacuation de tous les déchets non dangereux, dispersés dans les bâtiments, en juin et juillet 2016.
+
+23l0l0	La_mise_en_sécurité	N
+23l0l1	l__évacuation	N
+23l0l2	dispersés_dans_les_bâtiments	N
+23l0l3	en_juin_et_juillet_2016__	T
+23l1l0	les_déchets_non_dangereux	U
+
+#Compte tenu de l'impact des anciennes activités des forges sur les sols au droit de certaines installations et du niveau de réhabilitation exigé par certains usages au regard des risques sanitaires potentiels, il sera, le cas échéant, nécessaire d'élaborer un plan de gestion des zones significativement impactées.
+
+24l0l0	forges	A
+24l0l1	les_sols	O
+24l0l2	au_droit_de	L
+24l0l3	certaines_installations	O
+24l0l4	un_plan_de_gestion	N
+24l0l5	zones_significativement_impactées	O
+
+#A cette fin, cet ancien site industriel a vocation à être intégré aux Secteurs d'Information des Sols (S.
+
+25l0l0	cet_ancien_site_industriel	O
+25l0l1	a_vocation	R
+
+#.S) prévu à l'article L.125-6 du code de l'environnement.
+

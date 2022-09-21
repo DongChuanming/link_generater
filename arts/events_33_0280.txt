@@ -1,0 +1,118 @@
+
+#33.0280
+#Centre de traitement de déchets exploité par l'UCTOM de Labrède-Podensac sur la commune de Virelade (33).
+
+0l0l0	Centre_de_traitement_de_déchets	O
+0l0l1	exploité_par	R
+0l0l2	l__UCTOM	O
+0l0l3	Labrède___Podensac_sur_la_commune_de_Virelade___33__	L
+0l1l0	l__UCTOM	I
+
+#Par arrêté du 20 novembre 1986 modifié par l'arrêté complémentaire du 1er octobre 1998, l'UCTOM de Labrède-Podensac est autorisée à exploiter un centre de traitement de déchets comprenant :
+
+1l0l0	20_novembre_1986	T
+1l0l1	l__arrêté_complémentaire	O
+1l0l2	du_1er_octobre_1998__	T
+1l0l3	l__UCTOM	O
+1l0l4	Labrède___Podensac	L
+1l0l5	est_autorisée_à_exploiter	N
+1l0l6	un_centre_de_traitement_de_déchets	N
+
+#- une unité de broyage et de compostage d'ordures ménagères
+
+2l0l0	une_unité	O
+2l0l1	broyage	A
+2l1l0	ordures_ménagères	I
+
+#- une déchetterie
+
+
+#- une unité de broyage et de compostage de déchets verts
+
+4l0l0	une_unité	O
+4l0l1	de_broyage_et_de_compostage_de_déchets_verts	A
+
+#- une alvéole d'enfouissement de déchets inertes
+
+5l1l0	déchets_inertes	D
+
+#- une alvéole d'enfouissement de déchets d'amiante-ciment.
+
+6l0l0	une_alvéole	O
+
+#L'arrêté du 14 février 2006, autorise l'UCTOM à exploiter sur son site une station de transit de déchets ménagers, en remplacement de l'installation de broyage-compostage d'ordures ménagères.
+
+7l0l0	L_	O
+7l0l1	14_février_2006__	T
+7l0l2	autorise	N
+7l0l3	l__UCTOM	O
+7l0l4	exploiter_sur	R
+7l0l5	son_site	O
+7l0l6	une_station_de_transit_de_déchets_ménagers	O
+7l0l7	en_remplacement_de	R
+7l0l8	l_	O
+7l0l9	installation_de_broyage___compostage	A
+
+#Par arrêté du 14 mars 2008, l'installation de transit de déchets ménagers est définitivement arrêtée.
+
+8l0l0	14_mars_2008__	T
+8l0l1	l__installation_de_transit_de_déchets_ménagers	O
+
+#Cette décharge est inscrite dans l'action nationale de résorption des décharges de déchets ménagers et assimilés, autorisées ou non autorisées, introduite par la circulaire du Ministère de l'Ecologie et du Développement Durable du 23 février 2004.
+
+9l0l0	résorption	N
+9l0l1	Ministère_de_l__Ecologie	O
+9l0l2	du_23_février_2004__	T
+9l1l0	Ministère_de_l__Ecologie	I
+
+#1 - DIAGNOSTIC
+
+10l0l0	DIAGNOSTIC	N
+
+#A l'initiative de l'exploitant, une Évaluation Simplifié des Risques (ESR) a été remise le 28 juillet 2003.
+
+11l0l0	A	R
+11l0l1	l__initiative	N
+11l0l2	de_l__exploitant	O
+11l0l3	une_Évaluation_Simplifié_des_Risques	N
+11l0l4	ESR___a_été_remise	N
+11l0l5	le_28_juillet_2003__	T
+
+#L'ESR classe le site en catégorie 2 "à surveiller".
+
+12l1l0	L__ESR	I
+
+#2 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+13l0l0	SURVEILLANCE_DES_EAUX	A
+13l0l1	SOUTERRAINES	O
+13l1l0	SOUTERRAINES	I
+
+#L'arrêté préfectoral du 14 février 2006 prescrit la surveillance semestrielle des eaux souterraines par la mise en place d'au moins 3 piézomètres dans lesquels les paramètres analysés sont les suivants : pH, conductivité, ammonium, azote global, Demande Chimique en Oxygène (DCO), Demande Biologique en Oxygène au bout de 5 jours (DBO5), plomb, fer et manganèse.
+
+14l0l0	L__arrêté_préfectoral	O
+14l0l1	14_février_2006	T
+14l0l2	prescrit	N
+14l0l3	la_surveillance_semestrielle	A
+14l0l4	des_eaux_souterraines	A
+14l1l0	ammonium	S
+14l1l1	Oxygène	S
+14l1l2	Oxygène	S
+14l1l3	plomb	S
+14l1l4	fer	S
+14l1l5	manganèse	S
+
+#Cette surveillance est effectuée par 3 piézomètres et le forage situé à l'amont hydraulique du site.
+
+15l0l0	Cette_surveillance	A
+15l0l1	est_effectuée	N
+15l0l2	le_forage	O
+15l0l3	situé_à_l__amont_hydraulique_du_site	L
+
+#Les HAP et le PCB ont été ajoutés par l'exploitant.
+
+16l0l0	Les_HAP	O
+16l0l1	ont_été_ajoutés	N
+16l0l2	l__exploitant	O
+16l1l0	Les_HAP	S
+16l1l1	PCB	S

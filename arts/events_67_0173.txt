@@ -1,0 +1,121 @@
+
+#67.0173
+#La société Bieber exploite à Drulingen 3 usines de fabrication de citernes, cuves et bacs en acier, ainsi que de remorques agricoles.
+
+0l0l0	La_société_Bieber	O
+0l0l1	exploite_à	R
+0l0l2	Drulingen_3_usines	O
+0l0l3	de_fabrication_de_citernes	A
+0l0l4	remorques_agricoles	O
+0l1l0	La_société_Bieber	I
+
+#L'usine I se situe au 40, rue du général Leclerc, l'usine II se situe au 1, rue de Bettwiller, et l'usine III se situe sur la route de Weyer.
+
+1l0l0	L__usine_I	O
+1l0l1	se_situe_au_40___rue_du_général_Leclerc	L
+1l0l2	l__usine_II	O
+1l0l3	se_situe_au	R
+1l0l4	1___rue_de_Bettwiller	L
+1l0l5	l__usine_III	O
+1l0l6	se_situe_sur_la_route_de_Weyer	L
+
+#La société BIEBER INDUSTRIES exploite le site situé 1, rue de Bettwiller depuis 1960. (Premier arrêté d'autorisation datant du 18/12/1964)
+
+2l0l0	La_société_BIEBER_INDUSTRIES	O
+2l0l1	exploite	N
+2l0l2	le_site	O
+2l0l3	situé	R
+2l0l4	1___rue_de_Bettwiller	L
+2l0l5	depuis_1960	T
+2l0l6	d__autorisation	O
+2l0l7	datant_du_18_12_1964__	T
+2l1l0	La_société_BIEBER_INDUSTRIES	I
+
+#Aujourd'hui, l'arrêté préfectoral du 07 mars 2007 autorise la société à exploiter une usine n°II de tolerie industrielle et agricole, dont les activités autorisées de décapage et galvanisation à chaud sont arrêtées, démontées.
+
+3l0l0	Aujourd_hui	T
+3l0l1	l__arrêté_préfectoral	O
+3l0l2	07_mars_2007	T
+3l0l3	autorise	N
+3l0l4	la_société	O
+3l0l5	exploiter	N
+3l0l6	une_usine_n__II_de_tolerie_industrielle_et_agricole	O
+3l0l7	les_activités_autorisées_de_décapage_et_galvanisation_à_chaud	A
+3l0l8	sont_arrêtées	N
+3l0l9	démontées	O
+
+#L'arrêté préfectoral du 9 mai 2006 a prescrit une surveillance de la qualité des eaux souterraines à partir de trois points de contrôle : un piézomètre amont (puits du centre de secours) et deux piézomètres en aval du site (Pz1 et Pz2).
+
+4l0l0	L__arrêté_préfectoral	O
+4l0l1	9_mai_2006	T
+4l0l2	a_prescrit	N
+4l0l3	une_surveillance_de_la_qualité_des_eaux_souterraines	A
+4l0l4	à_partir_de	R
+4l0l5	trois_points_de_contrôle	O
+4l0l6	piézomètre_amont	O
+4l0l7	en_aval_du_site	L
+
+#La fréquence bi-annuelle d'analyse de l'eau des piézomètres porte sur les paramètres suivants :
+
+5l0l0	les_paramètres	O
+
+#pH, conductivité, chlorures, ammonium, indice phénol, BTEX et 16 composés HAP (Hydrocarbures Aromatiques Polycicliques (liste EPA) dont le naphtalène.
+
+6l1l0	chlorures	S
+6l1l1	ammonium	S
+6l1l2	indice_phénol	S
+6l1l3	BTEX	S
+6l1l4	composés_HAP	S
+6l1l5	Hydrocarbures_Aromatiques_Polycicliques	S
+6l1l6	le_naphtalène	S
+
+#Les résultats de la surveillance montrent que, au droit du Pz1:
+
+
+#- la concentration en chlorures est proche de la limite autorisée par l'arrêté ministériel du 11/01/2007, cependant elle est sensiblement en baisse .
+
+8l0l0	11_01_2007	T
+8l1l0	chlorures	S
+
+#- la concentration en naphtalène y est élevée (plusieurs milligrammes par litre)
+
+9l0l0	naphtalène	O
+9l1l0	naphtalène	S
+
+#- les BTEX, en particulier benzène et xylène, les ions ammonium, le phénol y dépassent les valeurs de potabilité, soit en concentration stable soit en phase de lente régression.
+
+10l1l0	les_BTEX	S
+10l1l1	benzène	S
+10l1l2	xylène	S
+10l1l3	les_ions_ammonium	S
+10l1l4	le_phénol	S
+
+#L'origine de la pollution par les HAP et en particulier, le naphtalène, est connue grâce à un diagnostic approfondi réalisé par un bureau d'étude le 15 février 2007.
+
+11l0l0	L__origine_de_la_pollution_par_les_HAP	O
+11l0l1	un_diagnostic_approfondi	N
+11l0l2	réalisé_par	N
+11l0l3	un_bureau_d__étude	O
+11l0l4	le_15_février_2007__	T
+11l1l0	les_HAP	S
+11l1l1	le_naphtalène	S
+
+#Les prélèvements d'eau de la nappe pratiqués sur deux piézomètres situés à moins de 100m, 400 m et un forage (1020) à 500 m appartenant à BIEBER mais inutilisé, à l'aval hydraulique de la fosse de la cuve ainsi que les teneurs relevées dans les sondages de sols pratiqués en 2007, ont fait estimer son étendue horizontale à une dizaine de mètres.
+
+12l0l0	Les_prélèvements	N
+12l0l1	deux_piézomètres	O
+12l0l2	situés_à_moins_de_100_m	L
+12l0l3	m_appartenant_à	R
+12l0l4	BIEBER	O
+12l0l5	à_l__aval_hydraulique_de_la_fosse	L
+12l0l6	les_sondages_de_sols_pratiqués	N
+12l0l7	en_2007__	T
+12l1l0	BIEBER	I
+
+#C’est sur la base du diagnostic précité, que la surveillance de l'évolution de la contamination des eaux souterraines a été confirmée par arrêté préfectoral du 7 mars 2007.
+
+13l0l0	la_surveillance_de_l__évolution	N
+13l0l1	la_contamination_des_eaux_souterraines	O
+13l0l2	a_été_confirmée	N
+13l0l3	par_arrêté_préfectoral	O
+13l0l4	7_mars_2007__	T

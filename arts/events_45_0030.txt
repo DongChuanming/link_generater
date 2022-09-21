@@ -1,0 +1,302 @@
+
+#45.0030
+#L’activité principale de la société COMAP (ex AQUATIS) résidait dans la fabrication de raccords en cuivre pour la plomberie.
+
+0l0l0	L__activité_principale	O
+0l0l1	la_société_COMAP	O
+0l0l2	AQUATIS	O
+0l0l3	résidait_dans_la	R
+0l0l4	fabrication_de_raccords_en_cuivre	A
+0l0l5	la_plomberie	O
+0l1l0	la_société_COMAP	I
+
+#Le site existait depuis 1992 et occupait une superficie d’environ 18 600 m², dont 5 400 m² couverts.
+
+1l0l0	Le_site	O
+1l0l1	existait	N
+1l0l2	depuis_1992	T
+
+#La société COMAP a cessé toute activité de production dans son établissement fin décembre 2007.
+
+2l0l0	La_société_COMAP	O
+2l0l1	a_cessé	N
+2l0l2	toute_activité_de_production	A
+2l0l3	son_établissement	O
+2l0l4	fin_décembre_2007__	T
+2l1l0	société_COMAP	I
+
+#Elle a réalisé des investigations environnementales afin de connaître l’éventuel impact des activités exercées sur l’environnement.
+
+3l0l0	Elle	O
+3l0l1	a_réalisé	N
+3l0l2	des_investigations_environnementales	N
+3l0l3	l__environnement	O
+
+#La nappe des calcaires de Pithiviers est rencontrée au droit du site, et présente un sens d’écoulement global orienté vers le sud/sud-ouest.
+
+4l0l0	Pithiviers	O
+4l0l1	est_rencontrée	N
+4l0l2	au_droit_du_site	L
+4l0l3	orienté_vers_le_sud___sud___ouest	L
+
+#La société destine son site à la vente pour un usage futur de type industriel.
+
+5l0l0	La_société	O
+5l0l1	destine	N
+5l0l2	son_site	O
+5l0l3	à	R
+5l0l4	la_vente	O
+5l0l5	un_usage_futur_de_type_industriel	A
+
+#Dans le cadre de la cessation d’activité, l’industriel a effectué la mise en sécurité du site (interdiction ou limitation de l’accès, mise en œuvre de moyens pour supprimer les risques d’incendie et d’explosion).
+
+6l0l0	Dans_le_cadre_de	R
+6l0l1	la_cessation_d__activité	N
+6l0l2	l__industriel	O
+6l0l3	a_effectué	N
+6l0l4	la_mise_en_sécurité	N
+6l0l5	interdiction_ou_limitation_de_l__accès	N
+
+#Par ailleurs, les bâtiments ont été vidés des matières premières.
+
+7l0l0	les_bâtiments	O
+7l0l1	ont_été_vidés	N
+
+#Des prélèvements de sol ont été réalisés le 6 février 2008. 13 sondages de sol ont été réalisés, à des profondeurs variant de 0,90 à 3,10 mètres.
+
+8l0l0	Des_prélèvements_de_sol_ont_été_réalisés	N
+8l0l1	le_6_février_2008__	T
+8l0l2	13_sondages_de_sol	O
+8l0l3	ont_été_réalisés	N
+
+#Le programme analytique a porté sur les hydrocarbures totaux, les métaux lourds et les hydrocarbures aromatiques polycycliques.
+
+9l1l0	hydrocarbures_totaux	S
+9l1l1	les_métaux_lourds	S
+9l1l2	hydrocarbures_aromatiques_polycycliques	S
+
+#Les résultats des analyses réalisées ont été comparés aux teneurs observées dans les sols de l’échantillon réalisé hors influence du site (« blanc »).
+
+10l0l0	réalisé	N
+10l0l1	hors_influence_du_site	L
+
+#Les résultats les plus significatifs sont :
+
+
+#– l’impact du cuivre (concentration en cuivre variant de 64,7 à 1 580 mg/kg de matière sèche) au voisinage de l’ancien atelier de tribofinition (intérieur et extérieur du bâtiment)
+
+12l0l0	sèche___au_voisinage_de_l__ancien	L
+12l0l1	atelier_de_tribofinition	A
+12l1l0	du_cuivre	S
+12l1l1	en_cuivre	S
+
+#– la présence d’hydrocarbures totaux (concentration en HCT variant de 189 à 350 mg/kg MS) au voisinage de l’ancien atelier de tribofinition (intérieur et extérieur du bâtiment).
+
+13l0l0	MS___au_voisinage_de_l__ancien	L
+13l0l1	atelier_de_tribofinition	A
+13l1l0	d__hydrocarbures_totaux	S
+13l1l1	en_HCT	S
+
+#À noter que les produits mis en œuvre au sein de l’établissement étaient un produit pétrolier de dégraissage (METRYL GF300), des produits lessiviels, des décapants à base d’acide citrique, des huiles solubles et minérales.
+
+14l0l0	les_produits_mis_en_œuvre	O
+14l0l1	un_produit_pétrolier_de_dégraissage	O
+14l0l2	METRYL	O
+14l1l0	un_produit_pétrolier	U
+14l1l1	METRYL_GF300	I
+14l1l2	des_produits_lessiviels	U
+14l1l3	acide_citrique	S
+14l1l4	des_huiles	U
+
+#Par ailleurs, une station de détoxication permettait de traiter les eaux industrielles du site.
+
+15l0l0	une_station_de_détoxication	O
+15l0l1	traiter_les_eaux_industrielles_du_site	A
+15l1l0	détoxication	U
+15l1l1	eaux_industrielles	U
+
+#Les résultats des analyses réalisées au niveau d’un captage AEP (alimentation en eau potable) à proximité du site montrent :
+
+16l0l0	analyses	O
+16l0l1	réalisées	N
+16l0l2	au_niveau_d_	R
+16l0l3	un_captage_AEP	O
+16l0l4	à_proximité_du_site	L
+
+#– une concentration inhabituelle en hydrocarbures dissous (toutefois inférieure à la norme de qualité des eaux destinées à la consommation humaine) le 13/12/2007,
+
+17l0l0	__le_13_12_2007	T
+17l1l0	en_hydrocarbures	S
+
+#– des concentrations inhabituelles en Carbone organique total (toutefois conformes à la norme de qualité des eaux destinées à la consommation humaine) les 13/12/2007 et 27/03/2008.
+
+18l0l0	__les_13_12_2007_et_27_03_2008__	T
+18l1l0	en_Carbone_organique_total	S
+
+#Par arrêté préfectoral complémentaire du 24 novembre 2008, il a été demandé à l’exploitant de :
+
+19l0l0	Par_arrêté_préfectoral_complémentaire	O
+19l0l1	24_novembre_2008__	T
+19l0l2	l__exploitant	O
+
+#– mettre en place un réseau de surveillance et de contrôle de la qualité des eaux souterraines au droit du site.
+
+20l0l0	de_surveillance_et_de_contrôle_de_la_qualité_des_eaux_souterraines	A
+20l0l1	au_droit_du_site	L
+
+#Ce dispositif est constitué d’un puits de contrôle implanté en amont hydrogéologique des installations et de deux puits de contrôle implantés en aval des installations ;
+
+21l0l0	un_puits_de_contrôle	O
+21l0l1	implanté	R
+21l0l2	en_amont_hydrogéologique_des_installations	N
+21l0l3	deux_puits_de_contrôle_implantés	O
+21l0l4	en_aval_des_installations	L
+
+#– réaliser des analyses quantitatives et qualitatives portant sur les métaux lourds, les hydrocarbures totaux, les hydrocarbures aromatiques polycycliques et les composés organiques totaux à partir de prélèvements effectués sur les trois ouvrages ci-dessus en période de « basses eaux » et de « hautes eaux »,
+
+22l0l0	__réaliser_des_analyses_quantitatives	N
+22l0l1	dessus_en_période	N
+22l0l2	____basses_eaux	N
+22l1l0	les_métaux_lourds	S
+22l1l1	les_hydrocarbures_totaux	S
+22l1l2	__les_hydrocarbures_aromatiques_polycycliques	S
+22l1l3	les_composés_organiques_totaux	S
+
+#– réaliser un diagnostic de l’état des milieux
+
+23l0l0	__réaliser_un_diagnostic	N
+23l0l1	de_l__état_des_milieux	O
+
+#– réaliser un plan de gestion visant la maîtrise des sources de pollution et leurs impacts sanitaires,
+
+24l0l0	__réaliser	N
+24l0l1	un_plan_de_gestion	O
+24l0l2	visant	R
+24l0l3	la_maîtrise_des_sources_de_pollution	O
+
+#– consulter monsieur le maire de  La-Chapelle-Saint-Mesmin concernant l’usage futur retenu pour le site.
+
+25l0l0	__consulter	N
+25l0l1	monsieur_le_maire	O
+25l0l2	de___La___Chapelle___Saint___Mesmin	L
+25l0l3	concernant_l__usage_futur_retenu	O
+25l0l4	pour_le_site	O
+
+#COMAP a répondu à l’ensemble des prescriptions de cet arrêté.
+
+26l0l0	COMAP	O
+26l1l0	COMAP	I
+
+#Les résultats des mesures portant sur la qualité des eaux souterraines ont montré la présence de composés organiques volatils (COV) à des concentrations néanmoins inférieures aux valeurs limites de l’arrêté ministériel du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes destinées à la consommation humaine.
+
+27l0l0	eaux_souterraines	O
+27l0l1	11_janvier_2007	T
+27l1l0	composés_organiques_volatils	S
+27l1l1	COV	S
+
+#Conformément à l’arrêté préfectoral du 24 novembre 2008, l’exploitant réalise une surveillance des eaux souterraines 2 fois par an, au droit des 3 piézomètres définis et pour l’ensemble des paramètres demandés : hydrocarbures totaux, HAP, COHV, BTEX, indice phénols, composés phénoliques et Chlorophénols, PCB, métaux dissous et fluorures.
+
+28l0l0	Conformément_à	R
+28l0l1	l__arrêté_préfectoral	O
+28l0l2	24_novembre_2008__	T
+28l0l3	l__exploitant	O
+28l0l4	réalise	N
+28l0l5	une_surveillance_des_eaux_souterraines	A
+28l0l6	2_fois_par_an	T
+28l1l0	__hydrocarbures_totaux	S
+28l1l1	__HAP___COHV___BTEX___indice_phénols___composés_phénoliques_et_Chlorophénols___PCB___métaux	S
+28l1l2	et_fluorures	S
+
+#L’intérieur de l’atelier de tribofinition est recouvert d’une dalle béton prévenant tout risque d’exposition des personnels sur le site.
+
+29l0l0	L_	O
+29l0l1	tribofinition	A
+
+#Afin de prévenir le lessivage des sols par les eaux météoriques, l’imperméabilisation des sols (bordure ouest située à l’extérieur du bâtiment où se trouvait l’atelier de tribofinition) a été réalisée par mise en place d’une dalle en béton.
+
+30l0l0	Afin_de	R
+30l0l1	prévenir_le_lessivage	N
+30l0l2	l__imperméabilisation	N
+30l0l3	des_sols	O
+30l0l4	bordure_ouest	O
+30l0l5	située_à_l__extérieur_du_bâtiment	L
+30l0l6	se_trouvait_l__atelier_de_tribofinition	A
+30l0l7	a_été_réalisée	N
+30l0l8	par_mise_en_place_d_	N
+30l0l9	une_dalle_en_béton	O
+
+#Compte tenu de ces éléments, l’état des milieux apparaît compatible avec les usages qui en sont faits et l’usage futur envisagé pour le site sous réserve de maintenir le site en état.
+
+31l0l0	l__état_des_milieux	O
+31l0l1	l__usage_futur_envisagé	O
+
+#Dès lors, l’exploitant a déposé un dossier de demande d’institution de servitudes d’utilité publique, la surveillance de la qualité des eaux de la nappe au droit du site doit être maintenue et le prélèvement d’eau destinée à la consommation humaine interdit.
+
+32l0l0	l__exploitant	O
+32l0l1	a_déposé	N
+32l0l2	un_dossier	O
+32l0l3	servitudes_d__utilité_publique	O
+32l0l4	la_surveillance_de_la_qualité_des_eaux_de	A
+32l0l5	la_nappe	O
+32l0l6	au_droit_du_site	L
+32l0l7	doit	R
+32l0l8	le_prélèvement_d__eau_destinée_à_la_consommation_humaine	A
+
+#L’arrêté préfectoral instituant les servitudes d’utilité publique a été signé le 30 juin 2012.
+
+33l0l0	L__arrêté_préfectoral	O
+33l0l1	instituant	N
+33l0l2	les_servitudes_d__utilité_publique	O
+33l0l3	a_été_signé	N
+33l0l4	le_30_juin_2012__	T
+
+#Par courrier du 21 octobre 2016, l’exploitant a transmis à l’inspection des installations classées le bilan quadriennal du suivi des eaux souterraines réalisé de 2012 à 2016 par la société DEKRA, puis les résultats des analyses réalisées jusque mai 2018 par la société DEKRA.
+
+34l0l0	21_octobre_2016__	T
+34l0l1	l__exploitant	O
+34l0l2	a_transmis	N
+34l0l3	l__inspection_des_installations_classées	O
+34l0l4	le_bilan_quadriennal	N
+34l0l5	du_suivi_des_eaux_souterraines	A
+34l0l6	réalisé	N
+34l0l7	de_2012_à_2016	T
+34l0l8	la_société_DEKRA	O
+34l0l9	analyses	O
+34l0l10	réalisées	N
+34l0l11	jusque_mai_2018	T
+34l0l12	la_société_DEKRA	O
+34l1l0	la_société_DEKRA	I
+34l1l1	la_société_DEKRA	I
+
+#Compte-tenu des résultats d’analyse et des conclusions du bilan quadriennal du suivi des eaux souterraines au droit de l’ancien site COMAP AQUATIS de La-Chapelle-Saint-Mesmin, Monsieur le Préfet du Loiret, par courrier préfectoral du 2 novembre 2018, a acté la modification des modalités de surveillance de la qualité des eaux souterraines au droit du site COMAP (les paramètres analysés se limitent désormais aux COHV, chrome, cuivre, plomb et zinc, fluorures, PCB et hydrocarbures totaux) et demandé à l’exploitant de poursuivre la surveillance à raison d’une campagne en hautes eaux et d’une campagne en basses eaux par an, et de réaliser un nouveau bilan quadriennal en 2020 et nivellement des ouvrages.
+
+35l0l0	suivi_des_eaux_souterraines	A
+35l0l1	au_droit	L
+35l0l2	La___Chapelle___Saint___Mesmin	L
+35l0l3	Monsieur_le_Préfet_du_Loiret	O
+35l0l4	du_2_novembre_2018__	T
+35l0l5	a_acté	N
+35l0l6	la_modification	N
+35l0l7	des_modalités	O
+35l0l8	de_surveillance	N
+35l0l9	la_qualité_des_eaux_souterraines	O
+35l0l10	au_droit_du_site	L
+35l0l11	COMAP	O
+35l0l12	l__exploitant	O
+35l0l13	poursuivre_la_surveillance	N
+35l0l14	d__une_campagne_en_hautes_eaux	N
+35l0l15	d__une_campagne_en_basses_eaux	N
+35l0l16	par_an	T
+35l0l17	réaliser_un_nouveau_bilan_quadriennal	N
+35l0l18	en_2020	T
+35l0l19	nivellement_des_ouvrages	N
+35l1l0	COMAP_AQUATIS	I
+35l1l1	le_Préfet_du_Loiret	I
+35l1l2	COHV	S
+35l1l3	chrome	S
+35l1l4	cuivre	S
+35l1l5	plomb	S
+35l1l6	zinc	S
+35l1l7	fluorures	S
+35l1l8	PCB	S
+35l1l9	hydrocarbures_totaux	S

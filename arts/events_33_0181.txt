@@ -1,0 +1,182 @@
+
+#33.0181
+#Usine d'Incinération des Ordures Ménagères (UIOM) de la Communauté Urbaine de Bordeaux exploitée par SAS RIVE DROITE ENVIRONNEMENT sur la commune de Cenon (33).
+
+0l0l0	Usine_d__Incinération	A
+0l0l1	UIOM	O
+0l0l2	la_Communauté_Urbaine_de_Bordeaux	O
+0l0l3	exploitée	N
+0l0l4	RIVE_DROITE_ENVIRONNEMENT	O
+0l0l5	sur_la_commune_de_Cenon___33__	L
+0l1l0	Ordures_Ménagères	I
+0l1l1	la_Communauté_Urbaine	I
+0l1l2	SAS_RIVE_DROITE_ENVIRONNEMENT	I
+
+#L'UIOM comprend deux lignes d'incinération destinées au traitement :
+
+1l0l0	incinération	N
+1l0l1	au_traitement	N
+
+#- de déchets ménagers provenant de l'agglomération bordelaise, puis des Communautés de Communes la Médullienne et Médoc-Estuaire,
+
+2l0l0	l__agglomération_bordelaise	L
+2l0l1	Communautés_de_Communes	O
+2l0l2	la_Médullienne	L
+2l0l3	et_Médoc___Estuaire	L
+2l1l0	des_Communautés_de_Communes_la_Médullienne	I
+
+#- de boues de station d'épuration de l'agglomération,
+
+3l0l0	l__agglomération	O
+
+#et permettant une valorisation électrique et thermique grâce à un turboalternateur à vapeur et à deux échangeurs thermiques vapeur/eau surchauffés.
+
+
+#Le site est également autorisé à recevoir des déchets industriels banals assimilés aux déchets ménagers.
+
+5l0l0	Le_site	O
+5l0l1	est_également_autorisé	N
+
+#Cette installation a été autorisée par l'arrêté préfectoral du 7 décembre 1998 et était exploitée par SOCOGEST jusqu'en 2009.
+
+6l0l0	Cette_installation	O
+6l0l1	a_été_autorisée	N
+6l0l2	par_l__arrêté_préfectoral	O
+6l0l3	7_décembre_1998	T
+6l0l4	était_exploitée	N
+6l0l5	SOCOGEST	O
+6l0l6	jusqu__en_2009__	T
+6l1l0	SOCOGEST	I
+
+#Un premier changement d'exploitant a été fait au 30 janvier 2009 au nom de SOVAL SAS puis une déclaration de changement d'exploitant a été faite le 11 août 2009 au nom de RIVE DROITE ENVIRONNEMENT.
+
+7l0l0	Un_premier_changement_d__exploitant	O
+7l0l1	a_été_fait	N
+7l0l2	au_30_janvier_2009	T
+7l0l3	SOVAL_SAS	O
+7l0l4	une_déclaration_de_changement	N
+7l0l5	d__exploitant	O
+7l0l6	a_été_faite	N
+7l0l7	le_11_août_2009	T
+7l0l8	RIVE_DROITE_ENVIRONNEMENT	O
+7l1l0	SOVAL_SAS	I
+7l1l1	RIVE_DROITE_ENVIRONNEMENT	I
+
+#1 - DIAGNOSTIC
+
+8l0l0	DIAGNOSTIC	N
+
+#De par son activité et les émissions de plomb supérieures à 50 kg/an, ce site a été inscrit dans l'action nationale relative au diagnostic de l'état des sols potentiellement pollués par le plomb.
+
+9l0l0	ce_site	O
+9l0l1	a_été	N
+9l0l2	inscrit_dans	R
+9l0l3	l__action	N
+9l0l4	diagnostic	N
+9l1l0	plomb	S
+9l1l1	plomb	S
+
+#L'arrêté préfectoral du 16 décembre 2005 prescrit ce diagnostic.
+
+10l0l0	L__arrêté_préfectoral_du	O
+10l0l1	16_décembre_2005	T
+10l0l2	prescrit_ce_diagnostic	N
+
+#Le plan d'échantillonnage et le rapport ont été remis respectivement le 6 décembre 2005 et le 6 janvier 2006.
+
+11l0l0	Le_plan_d__échantillonnage	O
+11l0l1	le_rapport	O
+11l0l2	ont_été_remis_respectivement	N
+11l0l3	le_6_décembre_2005	T
+11l0l4	et_le_6_janvier_2006__	T
+
+#Le rapport conclut à l'absence d'impact du plomb sur les sols hors site.
+
+12l1l0	plomb	S
+
+#La concentration inférieure à 100 mg/kg conduit au classement du site en niveau 0* : "Aucune investigation complémentaire - Surveillance environnementale à mettre en place au besoin".
+
+13l0l0	investigation_complémentaire	N
+13l0l1	Surveillance_environnementale	N
+
+#L'arrêté préfectoral du 17 mars 2003 prescrit des mesures complémentaires relatives à l'étude de mise en conformité des installations.
+
+14l0l0	L__arrêté_préfectoral	O
+14l0l1	17_mars_2003	T
+14l0l2	prescrit	R
+14l0l3	des_mesures_complémentaires	O
+14l0l4	relatives_à	R
+14l0l5	l__étude_de_mise_en_conformité	N
+14l0l6	installations	N
+
+#* Pour mémoire, les niveaux ont été définis ainsi :
+
+
+#Niveau 0 : <100 mg/kg aucune investigation complémentaire - Surveillance Environnementale à mettre en place au besoin,
+
+
+#Niveau 2a : entre 100 et200 mg/kg Vérification de la représentativité des prélèvements puis diagnostic approfondi,
+
+
+#Niveau 2b : entre 200 et 550 mg/kg Évaluation Quantitative des Risques Sanitaires,
+
+
+#Niveau 3 : mesures de sécurité et d'hygiène, dépistage éventuel, remédiation
+
+19l0l0	remédiation	T
+
+#2 - SURVEILLANCE DES SOLS
+
+20l0l0	SURVEILLANCE_DES_SOLS	A
+20l1l0	SURVEILLANCE	S
+
+#L'arrêté préfectoral du 17 mars 2003 prescrit des mesures complémentaires relatives aux mesures de dioxines dans l'environnement.
+
+21l0l0	L__arrêté_préfectoral	O
+21l0l1	17_mars_2003	T
+21l0l2	prescrit	R
+21l0l3	des_mesures_complémentaires	O
+21l0l4	relatives_aux	R
+21l0l5	mesures	A
+21l1l0	dioxines	S
+
+#L'arrêté préfectoral du 1er juillet 2003 prescrit la mise en place d'un dispositif de surveillance des sols pour les métaux lourds, les dioxines et les furannes.
+
+22l0l0	L__arrêté_préfectoral	O
+22l0l1	du_1er_juillet_2003	T
+22l0l2	prescrit_la_mise_en_place_d_	N
+22l0l3	un_dispositif_de_surveillance_des_sols	O
+22l1l0	les_métaux_lourds	S
+22l1l1	les_dioxines	S
+22l1l2	furannes	S
+
+#L'arrêté préfectoral du 16 décembre 2005 complète cette surveillance pour le plomb.
+
+23l0l0	L__arrêté_préfectoral_du	O
+23l0l1	16_décembre_2005	T
+23l0l2	surveillance	A
+23l1l0	plomb	S
+
+#Par courrier du 27 décembre 2012, l'exploitant informe l'Inspection des Installations Classées que l'ensemble des mesures sur les métaux lourds, les dioxines et les furannes montre des résultats conformes et inférieurs aux seuils règlementaires ou préconisés nécessitant une surveillance plus approfondie.
+
+24l0l0	27_décembre_2012__	T
+24l0l1	l__exploitant	O
+24l0l2	informe	N
+24l0l3	l__Inspection_des_Installations_Classées	O
+24l1l0	métaux_lourds	S
+24l1l1	les_dioxines	S
+24l1l2	furannes	S
+
+#3 - CONCERTATION
+
+
+#L'arrêté préfectoral du 9 janvier 2002 créé la CLIS (Comité Local d'Information et de Surveillance) chargée d'assurer le suivi de l'usine d'incinération de Cenon.
+
+26l0l0	L__arrêté_préfectoral	O
+26l0l1	9_janvier_2002	T
+26l0l2	créé	N
+26l0l3	la_CLIS	O
+26l0l4	d__assurer	N
+26l0l5	le_suivi_de_l__usine_d__incinération	N
+26l0l6	de_Cenon	L
+26l1l0	la_CLIS	I

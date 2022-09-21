@@ -1,0 +1,292 @@
+
+#76.0353
+#Le secteur sud de l'usine est situé dans un secteur industriel en bordure Nord-Ouest de la commune de Grand Quevilly, à environ 2,5 km au Nord-Ouest du centre ville.
+
+0l0l0	Le_secteur_sud	O
+0l0l1	l__usine	O
+0l0l2	est_situé_dans_un_secteur_industriel	L
+0l0l3	en_bordure_Nord_Ouest_de_la_commune_de_Grand_Quevilly	L
+0l0l4	à_environ_2_5_km_au_Nord_Ouest_du_centre_ville	L
+
+#Ce secteur sud a une surface de 32 ha.
+
+1l0l0	Ce_secteur_sud	O
+
+#La zone impactée est circonscrite dans un périmètre d'environ 30 x 35 m.
+
+2l0l0	La_zone_impactée	O
+2l0l1	circonscrite	N
+2l0l2	dans_un_périmètre	L
+
+#De forme rectangulaire et situé à une altitude d'environ +5m NGF, celle-ci est limitée:
+
+3l0l0	situé_à_une_altitude_d__environ	L
+3l0l1	_5	O
+3l0l2	m_NGF	N
+
+#- à l'Ouest, par une voie de circulation interne séparée du boulevard Stalingrad par le mur d'enceinte du site de l'usine,
+
+4l0l0	boulevard_Stalingrad	L
+
+#- au Nord, par un bâtiment abritant un compresseur de gaz carbonique,
+
+5l0l0	au_Nord	L
+5l0l1	un_bâtiment	O
+5l0l2	compresseur_de_gaz_carbonique	A
+5l1l0	carbonique	U
+
+#- à l'Est, par une voie de circulation interne puis des installations de production de l'usine et un terrain découvert,
+
+6l0l0	à_l__Est	L
+6l0l1	production	A
+6l0l2	un_terrain_découvert	O
+
+#- au Sud, par des terrains découverts non-occupés et un bâtiment ayant accueilli par le passé un ancien réservoir aérien FOD.
+
+7l0l0	au_Sud	L
+7l0l1	des_terrains	O
+7l0l2	un_bâtiment	O
+7l0l3	ayant_accueilli	N
+7l0l4	par_le_passé	A
+7l0l5	un_ancien_réservoir_aérien_FOD	O
+7l1l0	FOD	I
+
+#Cette zone correspond à l'ancien atelier AGQ et est localisé à environ 300 m à l'Est de la Seine.
+
+8l0l0	Cette_zone	O
+8l0l1	correspond_à	R
+8l0l2	l__ancien_atelier_AGQ	O
+8l0l3	localisé_à_environ_300_m_à_l__Est_de_la_Seine	L
+
+#Dans le cadre de la cessation d'activité de l'ancien atelier AGQ (fabrication d'ammoniac) du secteur sud de l'usine, l'exploitant a sollicité un bureau d'étude pour la réalisation d'un diagnostic de l'état des sous-sol (investigations complémentaires) complétée par l'élaboration d'un schéma conceptuel et d'un plan de gestion (16 avril 2010).
+
+9l0l0	Dans_le_cadre_de	R
+9l0l1	la_cessation_d__activité	N
+9l0l2	l__ancien_atelier_AGQ	O
+9l0l3	fabrication_d__ammoniac	A
+9l0l4	secteur_sud_de_l__usine	L
+9l0l5	l__exploitant	O
+9l0l6	a_sollicité	N
+9l0l7	un_bureau_d__étude	O
+9l0l8	la_réalisation_d__un_diagnostic	N
+9l0l9	l__état_des_sous_sol	O
+9l0l10	investigations_complémentaires	N
+9l0l11	l__élaboration_d_	N
+9l0l12	un_schéma_conceptuel	O
+9l0l13	un_plan_de_gestion	O
+9l0l14	__16_avril_2010__	T
+9l1l0	ammoniac	S
+
+#Les résultats obtenus lors de cette étude ont permis de mettre en évidence et/ou confirmer les éléments suivants:
+
+
+#- concernant la qualité des sols/remblais, la présence:
+
+
+#~ généralisée et importante en certains éléments traces métalliques, principalement en arsenic et également en plomb, cadmium, cuivre, mercure et/ou zinc, au droit et en périphérie de l'ancien atelier AGQ jusqu'à au moins 4 mètres de profondeur;
+
+12l0l0	arsenic	O
+12l0l1	au_droit_et_en_périphérie_de_l__ancien_atelier_AGQ	L
+12l1l0	éléments_traces_métalliques	S
+12l1l1	arsenic	S
+12l1l2	plomb	S
+12l1l3	cadmium	S
+12l1l4	cuivre	S
+12l1l5	mercure	S
+12l1l6	zinc	S
+
+#~ d'hydrocarbures C10-C40, d'hydrocarbures aromatiques polycycliques (HAP) et de PCB en partie sud-est du site, au droit et en périphérie de l'ancien atelier AGQ, jusqu'à une profondeur maximale de 2 mètres;
+
+13l0l0	en_partie_sud_est_du_site	L
+13l0l1	au_droit_et_en_périphérie_de_l__ancien_atelier_AGQ	L
+13l1l0	hydrocarbures_C10_C40	S
+13l1l1	hydrocarbures_aromatiques_polycycliques	S
+13l1l2	HAP	S
+13l1l3	PCB	S
+13l1l4	AGQ	I
+
+#- concernant la qualité de l'air du sol, la présence de teneurs faibles voire inférieures aux seuils de quantification analytiques pour l'ensemble des paramètres recherchés (hydrocarbures C5-C12, COV, naphtalène et ammoniac) au droit de l'ancien atelier AGQ;
+
+14l0l0	au_droit_de_l__ancien	L
+14l0l1	atelier_AGQ	O
+14l1l0	hydrocarbures_C5_C12	S
+14l1l1	COV	S
+14l1l2	naphtalène	S
+14l1l3	ammoniac	S
+
+#- concernant la qualité des eaux souterraines et superficielles, la présence de teneurs significatives en certains éléments traces métalliques (arsenic et cadmium).
+
+15l1l0	éléments_traces_métalliques	S
+15l1l1	arsenic	S
+15l1l2	cadmium	S
+
+#Le plan de gestion propose deux solutions de gestion:
+
+
+#- le pompage et le traitement des eaux superficielles et souterraines pour assèchement de la zone par traitement sur site : réduction chimique et filtration;
+
+17l0l0	le	N
+17l0l1	pompage_et_le_traitement_des_eaux	A
+17l0l2	assèchement_de_la_zone_par_traitement	N
+17l0l3	filtration	N
+
+#- l'excavation et le traitement des sols reconnus impactés par traitement sur site : confinement associé à une servitude de restriction d'usage du sous-sol.
+
+18l0l0	l__excavation	N
+18l0l1	le_traitement	N
+18l0l2	sols_reconnus_impactés	O
+
+#Les études au laboratoire réalisées à partir d'échantillons de sols issus du site en juillet 2012, confirment la faisabilité d'un traitement par stabilisation-solidification des sols de la zone AGQ afin d'obtenir :
+
+19l0l0	Les_études_au_laboratoire	N
+19l0l1	en_juillet_2012__	T
+19l0l2	un_traitement_par_stabilisation___solidification	N
+19l0l3	la_zone_AGQ	O
+
+#- une prise mécanique assurant une stabilité des sols traités,
+
+
+#- une lixiviation résiduelle de l'ordre de 2 mg/kg MS.
+
+
+#Compte-tenu de la complexité technique d'excaver les terres à proximité des installations industrielles en service, le traitement de la source est envisagé par inertage in situ au moyen d'une formulation adaptée et de techniques de soil mixing.
+
+22l0l0	excaver	N
+22l0l1	les_terres	O
+22l0l2	à_proximité_des_installations_industrielles_en_service	L
+22l0l3	le_traitement	N
+22l0l4	la_source	O
+22l0l5	inertage_in_situ	N
+
+#Les conditions de mise en oeuvre en condition réelles amènent à confirmer la faisabilité d'une mise en oeuvre sous forme de soil mixing au moyen d'un outil de type multi tarières.
+
+23l0l0	Les_conditions	O
+23l0l1	de_mise_en_oeuvre_en_condition_réelles	N
+23l0l2	une_mise_en_oeuvre	N
+23l0l3	un_outil	O
+
+#Le traitement tel qu'envisagé permet d'obtenir une qualité de nappe arrivant en Seine conforme au seuil de 50 µg/L.
+
+24l0l0	nappe	O
+24l0l1	arrivant_en	R
+24l0l2	Seine	L
+
+#Le traitement envisagé n'a pas d'effet significatif sur les niveaux piézométriques du site.
+
+25l0l0	Le_traitement	O
+
+#L'inspection des installations classées a recommandé la réalisation d'un dossier technique détaillé, devant faire l'objet d'une tierce expertise et permettant de valider l'approche envisagée.
+
+26l0l0	L__inspection_des_installations_classées	O
+26l0l1	un_dossier_technique	O
+26l0l2	valider_l__approche_envisagée	O
+
+#Une tierce expertise du plan de gestion est réalisée en mars 2013.
+
+27l0l0	Une_tierce_expertise_du_plan_de_gestion	O
+27l0l1	est_réalisée	N
+27l0l2	en_mars_2013__	T
+
+#Elle a abouti notamment à la recommandation d'investigations complémentaires des sols et des eaux souterraines afin de dimensionner l'étendue exacte de la source de pollution et de mieux appréhender le fonctionnement hydrogéologique des aquifères concernées.
+
+28l0l0	étendue_exacte	O
+28l0l1	de_la_source_de_pollution	O
+28l0l2	hydrogéologique	N
+
+#Des investigations complémentaires sont menées en novembre 2013.
+
+29l0l0	Des_investigations_complémentaires	N
+29l0l1	en_novembre_2013__	T
+
+#Au vu des résultats obtenus, il est recommandé la réalisation d'un plan de gestion ainsi qu'un suivi de la qualité des eaux souterraines.
+
+30l0l0	d_	R
+30l0l1	un_plan_de_gestion	O
+30l0l2	un_suivi_de_la_qualité_des_eaux_souterraines	A
+
+#En février 2014, une mise à jour du plan de gestion a été réalisée par un bureau d'étude.
+
+31l0l0	En_février_2014__	T
+31l0l1	une_mise_à_jour	N
+31l0l2	plan_de_gestion	O
+31l0l3	a_été_réalisée	N
+31l0l4	un_bureau_d__étude	O
+
+#Au regard des résultats obtenus lors de cette étude (bilan coûts/avantages), l'option de gestion retenue consiste en une stabilisation in situ des terres impactées par de l'arsenic par "deep soil mixing", combinée à une couverture simple de la zone traitée ainsi qu'à la mise en place de restrictions d'usages (servitude d'utilité publique) et à un suivi environnemental des eaux souterraines (bilan quadriennal).
+
+32l0l0	cette_étude	N
+32l0l1	une_stabilisation_in_situ	N
+32l0l2	terres_impactées	O
+32l0l3	par_de	R
+32l0l4	l__arsenic	O
+32l0l5	la_zone_traitée	O
+32l0l6	la_mise_en_place_de_restrictions_d__usages	N
+32l0l7	un_suivi_environnemental	N
+32l0l8	des_eaux_souterraines	A
+32l1l0	arsenic	S
+32l1l1	soil_mixing	S
+
+#Une comparaison des teneurs résiduelles modélisées dans les eaux de la Seine après traitement avec les critères environnementaux de qualité des eaux de surface met en évidence qu'aucun impact mesurable dû à la pollution du site n'est attendu sur la qualité des eaux de la Seine.
+
+33l0l0	eaux_de	R
+33l0l1	la_Seine	L
+33l0l2	après_traitement	N
+33l0l3	eaux_de_la_Seine	L
+
+#Les travaux de traitement des sols pollués de la zone AGQ se sont déroulés de septembre 2013 à janvier 2014. la surface traitée est de 1 077 m².
+
+34l0l0	Les_travaux_de_traitement_des_sols_pollués	N
+34l0l1	la_zone_AGQ	O
+34l0l2	se_sont_déroulés	N
+34l0l3	de_septembre_2013_à_janvier_2014__	T
+
+#Le traitement a été réalisé sur une profondeur moyenne de 5,94 m.
+
+35l0l0	Le_traitement	O
+35l0l1	a_été_réalisé	N
+
+#Durant les travaux, l'ensemble de l'arsenic traitable a été traité. (97% de l'arsenic lixiviable) Les analyses réalisées sur les échantillons prélevés durant les travaux montrent que:
+
+36l0l0	Durant_les_travaux	N
+36l0l1	l__arsenic_traitable	O
+36l0l2	a_été_traité	N
+36l0l3	les_travaux	N
+36l1l0	arsenic	S
+36l1l1	arsenic	S
+
+#- l'arsenic lixiviable après traitement (0,3 mg/kg) est largement en dessous de la limite fixée (2 mg/kg),
+
+37l1l0	arsenic	S
+
+#- la perméabilité du sol après traitement est inférieur à 10-9 m/s.
+
+
+#En complément de l'importante stabilisation de l'arsenic et de la très faible perméabilité du sol après traitement, la zone AGQ a totalement été recouverte par une géomembrane.
+
+39l0l0	l__arsenic	O
+39l0l1	la_zone_AGQ	O
+39l0l2	a_totalement_été_recouverte_par	N
+39l0l3	une_géomembrane	N
+39l1l0	arsenic	S
+
+#Quatre piézomètres ont été implantés pour assurer le suivi de la qualité des eaux souterraines en périphérie de la zone AGQ.
+
+40l0l0	Quatre_piézomètres	O
+40l0l1	ont_été_implantés	N
+40l0l2	le_suivi_de_la_qualité_des_eaux_souterraines	A
+40l0l3	en_périphérie_de_la_zone_AGQ	L
+
+#Un suivi quadriennal a été réalisé avec fréquence semestrielle (à marée haute et marée basse), soit 8 campagnes comportant chacune deux prélèvements.
+
+41l0l0	suivi_quadriennal	O
+41l0l1	a_été_réalisé	N
+41l0l2	marée_haute	N
+41l0l3	8_campagnes	N
+
+#Les égouts pouvant contenir de l'arsenic ont été curés en septembre 2014.
+
+42l0l0	Les_égouts	O
+42l0l1	l__arsenic	O
+42l0l2	ont_été_curés	N
+42l0l3	en_septembre_2014__	T
+42l1l0	arsenic	S

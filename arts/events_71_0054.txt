@@ -1,0 +1,274 @@
+
+#71.0054
+#La société LAGARDE DISTRIBUTION exploite une station-service soumise à déclaration, au titre de la nomenclature des installations classées pour la protection de l'environnement, sur le territoire communal au nord de La Villeneuve en bordure de la Route Départementale 673 (ex-RN73).
+
+0l0l0	La_société_LAGARDE_DISTRIBUTION	O
+0l0l1	exploite	N
+0l0l2	une_station___service	O
+0l0l3	soumise_à	R
+0l0l4	déclaration	N
+0l0l5	la_nomenclature_des_installations_classées	O
+0l0l6	sur_le_territoire_communal_au_nord_de_La_Villeneuve_en_bordure_de_la_Route_Départementale_673___ex___RN73	L
+0l1l0	La_société_LAGARDE_DISTRIBUTION	I
+0l1l1	service	S
+
+#Cette station-service est implantée en zone essentiellement rurale, entourée par des surfaces agricoles et quelques habitations.
+
+1l0l0	Cette_station	O
+1l0l1	implantée_en_zone_essentiellement_rurale	L
+1l0l2	entourée_par_des_surfaces_agricoles	L
+
+#Le site assure la distribution de gasoil et de supercarburant sans plomb.
+
+2l0l0	Le_site	O
+2l0l1	assure	R
+2l0l2	la_distribution_de_gasoil	A
+2l0l3	supercarburant_sans_plomb	A
+2l1l0	gasoil	U
+2l1l1	supercarburant_sans_plomb	U
+
+#Auparavant, la société des pétroles SHELL a exploité la station jusqu'au 16 décembre 2004, date à laquelle la société Lagarde Distribution a demandé le transfert à son profit du récépissé concernant cette même exploitation de détails de carburants.
+
+3l0l0	la_société_des_pétroles_SHELL	O
+3l0l1	a_exploité	N
+3l0l2	la_station	O
+3l0l3	jusqu__au_16_décembre_2004___date	T
+3l0l4	la_société_Lagarde_Distribution	O
+3l0l5	a_demandé	N
+3l0l6	le_transfert	N
+3l0l7	du_récépissé	O
+3l0l8	concernant	R
+3l0l9	cette_même_exploitation_de_détails_de_carburants	O
+3l1l0	la_société_des_pétroles_SHELL	I
+3l1l1	la_société_Lagarde	I
+
+#Le site est à l'arrêt depuis le 19 juillet 2016.
+
+4l0l0	Le_site	O
+4l0l1	est_à_l__arrêt	N
+4l0l2	depuis_le_19_juillet_2016__	T
+
+#► CONTEXTE HYDROGÉOLOGIQUE
+
+5l0l0	HYDROGÉOLOGIQUE	O
+5l1l0	HYDROGÉOLOGIQUE	I
+
+#Lors d'investigations menées, une nappe a été recoupée au droit du site entre 1.4 m et 1.6 m de profondeur.
+
+6l0l0	a_été_recoupée	N
+6l0l1	au_droit_du_site	L
+
+#Plus généralement, les caractéristiques régionales permettent de distinguer l'aquifère principal constitué par les alluvions du Doubs, les alluvions de la Saône et les alluvions anciennes du Saint-Cosme.
+
+7l0l0	Doubs	L
+7l0l1	la_Saône	L
+7l0l2	alluvions_anciennes_du_Saint_Cosme	L
+
+#Aucun captage d'alimentation en eau potable ni puits individuel n'est recensé dans un rayon de 5 km autour du site.
+
+8l0l0	alimentation_en_eau_potable	A
+8l0l1	dans_un_rayon_de_5_km_autour_du_site	L
+
+#Un certain nombre d'ouvrage de pompages ont été relevés, toutefois compte-tenu de leur utilisation (irrigation pour l'agriculture) et de leur localisation (amont ou latéral hydraulique de la station service) ils ne constituent pas des captages vulnérables.
+
+9l0l0	d__ouvrage_de_pompages	O
+9l0l1	ont_été_relevés	N
+9l0l2	amont_ou_latéral_hydraulique_de_la_station_service	L
+
+#La rivière le Doubs s'écoule à environ 3,5 km au sud du site.
+
+10l0l0	à_environ_3_5_km_au_sud_du_site	L
+
+#On note également la présence de plans d'eau au voisinage du site : Etang Neuf 250 m à l'ouest, Etang Saint-Georges à 1 km au nord.
+
+11l0l0	de_plans_d__eau	O
+11l0l1	au_voisinage_du_site	L
+11l0l2	m_à_l__ouest	L
+11l0l3	Etang_Saint_Georges_à_1_km_au_nord	L
+11l1l0	Saint_Georges	I
+
+#► DIAGNOSTIC ENVIRONNEMENTAL DU SITE
+
+12l0l0	DIAGNOSTIC_ENVIRONNEMENTAL	N
+12l0l1	SITE	O
+12l1l0	ENVIRONNEMENTAL	I
+
+#En février et avril 2004, un premier diagnostic des sols et du sous-sol suivi d'un diagnostic complémentaire ont été réalisés, conduisant à la détection d'une pollution des eaux souterraines principalement.
+
+13l0l0	En_février_et_avril_2004__	T
+13l0l1	un_premier_diagnostic	N
+13l0l2	d_	R
+13l0l3	un_diagnostic_complémentaire	N
+13l0l4	ont_été_réalisés	N
+13l0l5	la_détection	N
+13l0l6	d_	R
+13l0l7	une_pollution_des_eaux_souterraines_principalement	O
+
+#Les investigations avaient consisté en la réalisation de 9 sondages au droit des sources potentielles de pollution avec 3 sondages développés jusqu'à 10 m pour un équipement en piézomètre.
+
+14l0l0	Les_investigations	N
+14l0l1	la_réalisation	N
+14l0l2	9_sondages	N
+14l0l3	au_droit_des_sources	L
+14l0l4	un_équipement_en_piézomètre	N
+
+#Les analyses de sol effectuées en laboratoire ont confirmé la contamination des sols par des huiles minérales (HCT, hydrocarbures totaux) et des BTEX (xylènes en l'occurrence) autour d'un îlot de pompe, d'un point de dépotage et d'une cuve enterrée.
+
+15l0l0	Les_analyses_de_sol	N
+15l0l1	la_contamination	O
+15l0l2	des_sols	N
+15l0l3	des_huiles_minérales	O
+15l1l0	des_huiles_minérales	S
+15l1l1	HCT	S
+15l1l2	hydrocarbures_totaux	S
+15l1l3	des_BTEX___xylènes	S
+15l1l4	cuve_enterrée	D
+
+#Les analyses de l'eau souterraine effectuées en laboratoire ont indiqué, quant à elles, une contamination en huile minérale et en benzène.
+
+16l0l0	Les_analyses	N
+16l0l1	une_contamination	O
+16l1l0	huile_minérale	U
+16l1l1	benzène	S
+
+#► TRAVAUX, SURVEILLANCE
+
+17l0l0	SURVEILLANCE	A
+
+#Considérant la nature de l'aquifère au droit du site et la nature des polluants identifiés, des travaux de dépollution ont été effectués.
+
+18l0l0	nature_des_polluants_identifiés	O
+18l0l1	des_travaux_de_dépollution	N
+18l0l2	ont_été_effectués	N
+
+#Les forages préalables à la dépollution se sont étalés sur plusieurs jours, du 4 au 16 novembre 2004, avec implantation de 7 piézomètres (Pz1-Pz7) en périphérie de la zone polluée.
+
+19l0l0	Les_forages	N
+19l0l1	la_dépollution	N
+19l0l2	se_sont_étalés_sur_plusieurs_jours	N
+19l0l3	du_4_au_16_novembre_2004__	T
+19l0l4	avec_implantation_de	R
+19l0l5	7_piézomètres	O
+19l0l6	en_périphérie_de_la	L
+19l0l7	zone_polluée	O
+
+#Le procédé choisi pour la dépollution au droit du site était la mise en dépression du sous-sol à partir d'aiguilles d'extraction implantées au cœur de l'auréole de pollution.
+
+20l0l0	Le_procédé	O
+20l0l1	la_dépollution	N
+20l0l2	au_droit_du_site	L
+20l0l3	la_mise_en_dépression	N
+20l0l4	du_sous_sol	O
+20l0l5	implantées	R
+20l0l6	au_cœur_de_l__auréole	L
+
+#Ce procédé également dénommé extraction double phase permet de traiter simultanément l'eau impactée et les vapeurs polluantes logées dans les interstices des sols.
+
+21l0l0	eau_impactée	O
+21l1l0	vapeurs_polluantes	U
+
+#L'eau de la nappe relevée ainsi que les vapeurs extraites étaient alors dirigées vers une unité de traitement.
+
+22l0l0	L_	O
+22l0l1	extraites	O
+22l0l2	étaient_alors_dirigées	N
+22l0l3	vers	R
+22l0l4	une_unité_de_traitement	O
+
+#Le 16 décembre 2004 a été transférée l'exploitation à la société LAGARDE DISTRIBUTION.
+
+23l0l0	Le_16_décembre_2004	T
+23l0l1	a_été_transférée	N
+23l0l2	l__exploitation	O
+23l0l3	à	R
+23l0l4	la	N
+23l0l5	société_LAGARDE	O
+23l0l6	DISTRIBUTION	A
+23l1l0	la_société_LAGARDE_DISTRIBUTION	I
+
+#Par la suite, conformément à l'acte de vente, les opérations de suivi environnemental et de réhabilitation restèrent du ressort de l'ancien exploitant, la société SHELL.
+
+24l0l0	l__acte_de_vente	N
+24l0l1	les_opérations_de_suivi_environnemental	N
+24l0l2	de_réhabilitation	O
+24l0l3	restèrent_du_ressort_de	R
+24l0l4	l__ancien_exploitant	O
+24l0l5	la_société_SHELL	O
+24l1l0	la_société_SHELL	I
+
+#8 mars 2005 : considérant que les niveaux de dépollution à atteindre devaient être examinés en fonction du contexte, et considérant que la réhabilitation des sols devait être réalisée par des méthodes adaptées au milieu rencontré, l'exploitant a été tenu par arrêté préfectoral de faire réaliser les études suivantes :
+
+25l0l0	8_mars_2005	T
+25l0l1	les_niveaux_de_dépollution	N
+25l0l2	la_réhabilitation	N
+25l0l3	l__exploitant	O
+25l0l4	a_été_tenu	N
+25l0l5	par	R
+25l0l6	arrêté_préfectoral	O
+25l0l7	de_faire_réaliser_les_études	N
+
+#- un diagnostic approfondi ;
+
+
+#- une évaluation détaillée des risques (EDR).
+
+
+#L'évaluation détaillée des risques devait conclure sur les suites à donner qui étaient soit de :
+
+
+#- prendre des dispositions visant à minimiser les risques d'exposition des hommes et de contamination de l'environnement ;
+
+
+#- surveiller le site qui ne devait pas présenter de risques inacceptables ;
+
+30l0l0	surveiller_le_site	O
+
+#ou :
+
+
+#- rendre le site à un usage banalisé.
+
+32l0l0	un_usage_banalisé	N
+
+#Le rapport de l'EDR réalisé le 22 mars 2006 a rendu les conclusions suivantes, compte-tenu des cibles déterminées par le schéma conceptuel et des hypothèses faites pour les calculs de risques (teneurs des polluants dans les eaux souterraines etc.) : aucun critère ou teneur en polluants n'engendrait de risques inacceptables pour la santé humaine, tant sur site que hors site via les eaux de la nappe.
+
+33l0l0	le_22_mars_2006	T
+33l1l0	polluants	S
+
+#Consécutivement à ces différents résultats, les travaux de dépollution par extraction double phase se sont poursuivis.
+
+34l0l0	les_travaux_de_dépollution	N
+34l0l1	extraction_double_phase	O
+34l0l2	se_sont_poursuivis	N
+
+#En octobre 2006, le suivi mensuel de la qualité des eaux souterraines jusqu'à juin 2006 indiquait une tendance à la diminution des teneurs en BTEX, tandis que les concentrations en hydrocarbures totaux fluctuaient encore fortement d'une campagne à l'autre.
+
+35l0l0	En_octobre_2006__	T
+35l0l1	la_qualité_des_eaux_souterraines	O
+35l0l2	jusqu__à_juin_2006	T
+35l0l3	teneurs	O
+35l1l0	BTEX	S
+35l1l1	hydrocarbures_totaux	S
+
+#Depuis lors, aucun autre rapport de surveillance des eaux souterraines n'a été transmis par l'ancien exploitant SHELL à l'inspection des installations classées.
+
+36l0l0	Depuis_lors	T
+36l0l1	aucun_autre_rapport_de	O
+36l0l2	surveillance_des_eaux_souterraines	A
+36l0l3	a_été_transmis	N
+36l0l4	l__ancien_exploitant_SHELL	O
+36l0l5	l__inspection_des_installations_classées	O
+36l1l0	SHELL	I
+
+#Le 14 février 2013, à la demande de l'exploitant la société LAGARDE, une nouvelle campagne d'analyses des eaux souterraines a été lancée sur ce site, via les sept piézomètres en place.
+
+37l0l0	Le_14_février_2013__	T
+37l0l1	à	R
+37l0l2	la_demande	N
+37l0l3	l__exploitant	O
+37l0l4	société_LAGARDE	O
+37l0l5	__une_nouvelle_campagne_d__analyses	N
+37l0l6	des_eaux_souterraines	O
+37l0l7	a_été_lancée	N
+37l0l8	sur_ce_site	L
+37l1l0	la_société_LAGARDE	I

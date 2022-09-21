@@ -1,0 +1,207 @@
+
+#42.0176
+#Selon l’étude historique réalisée en juillet 2010, en 1958, un bâtiment est construit en lieu et place de l’actuel bâtiment.
+
+0l0l0	en_juillet_2010__	T
+0l0l1	en_1958	T
+0l0l2	un_bâtiment	O
+0l0l3	est_construit	N
+0l0l4	en_lieu_et_place_de_l__actuel_bâtiment	L
+
+#L’usine à gaz EDF est en cours de construction sur la parcelle voisine au Sud.
+
+1l0l0	L__usine_à_gaz_EDF	O
+1l0l1	est_en_cours_de_construction	N
+1l0l2	sur_la_parcelle_voisine_au_Sud	L
+
+#En 1972, le site apparaît dans sa configuration actuelle (ensemble commercial et station-service).
+
+2l0l0	En_1972	T
+2l0l1	le_site	O
+2l0l2	apparaît_dans_sa_configuration	N
+
+#À partir de cette date, plusieurs enseignes vont se succéder dans l’exploitation du supermarché.
+
+3l0l0	l_	N
+3l0l1	exploitation_du_supermarché	A
+
+#Il existe une incertitude sur l’occupation de la parcelle avant 1972.
+
+4l0l0	avant_1972	T
+
+#Le site est implanté dans un contexte urbain mixte mêlant habitations individuelles avec garages (immédiatement au Nord) et activités industrielles et artisanales (agence EDF au Sud, bâtiments industriels et atelier municipal à l’Ouest).
+
+5l0l0	Le_site	O
+5l0l1	est_implanté_dans_un_contexte_urbain_mixte_mêlant_habitations_individuelles	L
+5l0l2	activités_industrielles_et_artisanales	A
+5l0l3	agence_EDF	O
+
+#L’ensemble commercial comprend les éléments suivants :
+
+
+#- À l’Ouest des parcelles, un bâtiment à usage de supermarché d’une surface d’environ 1 220 m²
+
+7l0l0	À_l__Ouest_des_parcelles	L
+7l0l1	un_bâtiment	O
+7l0l2	à_usage_de	R
+7l0l3	supermarché	A
+
+#- Au Nord, une station-service
+
+8l0l0	Au_Nord	L
+8l1l0	service	D
+
+#- Des zones de parking
+
+
+#Contexte géologique :
+
+
+#Le sous-sol du site est constitué des alluvions fluviatiles würmiennes des basses terrasses.
+
+
+#D’après les campagnes d’investigations environnementales précédemment réalisées au droit du site, la coupe lithologique type au droit du site est la suivante :
+
+12l0l0	les_campagnes_d__investigations	N
+12l0l1	environnementales	O
+12l0l2	au_droit_du_site	L
+12l0l3	au_droit_du_site	L
+
+#- De 0 à 0,8 m : Remblais graveleux
+
+
+#- De 0,8 à 3 - 4,5 m : Sable argileux brun clair à sombre humide
+
+
+#- De 3 - 4,5 à 6.5 m : Argile à argile sableuse brune à noire
+
+
+#- De 6,5 à 7,5 m : Sable argileux saturé en eau
+
+
+#- À partir de 8 m : Argile verte compacte
+
+
+#Contexte hydrogéologique :
+
+
+#Il a été mis en évidence la présence de la nappe d’accompagnement de la Loire au droit du site.
+
+19l0l0	la_nappe	O
+19l0l1	accompagnement_de_la_Loire	L
+19l0l2	au_droit_du_site	L
+
+#Celle-ci se stabilise entre 3,5 m et 4,5 m /TN au droit du site.
+
+20l0l0	se_stabilise	N
+20l0l1	au_droit_du_site	L
+
+#Le sens d’écoulement de cette dernière est orienté Ouest – Sud/Ouest.
+
+21l0l0	Le_sens	O
+21l0l1	orienté_Ouest___Sud___Ouest	L
+
+#Sur la base de ces informations, la ressource en eaux souterraines est considérée comme vulnérable mais non sensible (absence d’exploitation de la ressource en aval hydraulique).
+
+22l0l0	en_aval_hydraulique	L
+
+#Contexte hydrologique :
+
+23l0l0	Contexte_hydrologique	N
+
+#La Loire s’écoule du Sud au Nord à 300 m à l’Est du site, elle est la seule rivière positionnée en aval hydraulique au site et constitue l’exutoire des eaux souterraines découlant au droit du site.
+
+24l0l0	Sud_au_Nord_à_300_m_à_l__Est_du_site	L
+24l0l1	positionnée_en_aval_hydraulique_au_site	L
+24l0l2	l__exutoire	L
+24l0l3	au_droit_du_site	L
+
+#Sur cette base, la Loire est considérée comme vulnérable vis-à-vis d’une éventuelle pollution issue du site.
+
+25l0l0	la_Loire	O
+25l0l1	vis_à_vis_d_	R
+25l0l2	une_éventuelle_pollution	O
+
+#L’établissement exploité par la société SAS CASINO Carburants a fait l’objet d’un récépissé de déclaration en date du 24 mai 2011 pour la rubrique 1435.
+
+26l0l0	L__établissement	O
+26l0l1	exploité	N
+26l0l2	la_société_SAS_CASINO_Carburants	O
+26l0l3	a_fait_l__objet_d_	R
+26l0l4	un_récépissé	O
+26l0l5	de_déclaration	N
+26l0l6	en_date_du_24_mai_2011	T
+26l1l0	la_société_SAS_CASINO	I
+26l1l1	Carburants	S
+
+#Un courrier datant du 08 novembre 2013 atteste de la cessation d’activité de la station de distribution de carburant.
+
+27l0l0	Un_courrier	O
+27l0l1	datant_du_08_novembre_2013	T
+27l0l2	la_cessation_d__activité	N
+27l0l3	la_station_de_distribution_de_carburant	O
+27l1l0	carburant	U
+
+#La visite d’inspection du 09 septembre 2014 a permis de constater le démantèlement de l’ensemble des installations en surface du site et la présence des piézomètres.
+
+28l0l0	La_visite_d__inspection	N
+28l0l1	du_09_septembre_2014	T
+28l0l2	le_démantèlement_de	R
+28l0l3	l__ensemble_des_installations	O
+28l0l4	en_surface_du_site	L
+28l0l5	la_présence_des_piézomètres	O
+
+#La solution de gestion proposée semble adaptée à la nature et à l’ampleur de la pollution détectée.
+
+29l0l0	détectée	N
+
+#Il est recommandé néanmoins d’encadrer les travaux de dépollution par les mesures suivantes :
+
+30l0l0	encadrer	R
+30l0l1	les_travaux_de_dépollution	N
+
+#- la limitation d’accès au chantier du fait de sa localisation sur un parking ouvert au public,
+
+31l0l0	localisation_sur_un_parking_ouvert_au_public	L
+
+#- la caractérisation des terres excavées et la justification de leur destination,
+
+32l0l0	terres_excavées	N
+32l0l1	la_justification_de_leur_destination	O
+
+#- le contrôle du niveau résiduel de pollution des sols après excavation par des échantillonnages en fond de fouille,
+
+33l0l0	contrôle	N
+33l0l1	en_fond_de_fouille	L
+
+#- l’analyse des matériaux de remblais utilisés,
+
+34l0l0	remblais	O
+
+#- le suivi de la destination des eaux pompées,
+
+
+#- la surveillance trimestrielle des eaux souterraines en hydrocarbures totaux et BTEX (benzène, toluène, éthylbenzène et xylènes).
+
+36l0l0	la_surveillance_trimestrielle	A
+36l1l0	hydrocarbures_totaux	S
+36l1l1	BTEX	S
+36l1l2	benzène	S
+36l1l3	toluène	S
+36l1l4	éthylbenzène	S
+36l1l5	xylènes	S
+
+#L’inspection conclut, dans son rapport du 05 février 2015, que le dossier de gestion proposé par la société SAS Casino Carburants répond aux exigences de l’article L.512-21 du code de l’environnement et n’appelle plus d’observation de sa part.
+
+37l0l0	05_février_2015__	T
+37l0l1	le_dossier_de_gestion	O
+37l0l2	la_société_SAS_Casino_Carburants	O
+37l1l0	la_société_SAS_Casino	I
+37l1l1	Carburants	S
+
+#Il est proposé de soumettre à l’avis du CODERST le projet d’arrêté préfectoral spécial d’encadrement des travaux de dépollution.
+
+38l0l0	CODERST	O
+38l0l1	le_projet	O
+38l0l2	des_travaux_de_dépollution	N
+38l1l0	CODERST	I

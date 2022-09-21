@@ -1,0 +1,120 @@
+
+#57.0228
+#Suite à des dépôts de plaintes, en 2007 et en 2017, l'Inspection des Installations Classées a été sollicitée pour des pollutions (eaux de lixiviation) qui proviendraient d'une ancienne décharge ayant accueillie des ordures ménagères ainsi que des déchets d'exploitation.
+
+0l0l0	des_dépôts_de_plaintes	N
+0l0l1	en_2007_et_en_2017__	T
+0l0l2	l__Inspection_des_Installations_Classées	O
+0l0l3	a_été_sollicitée	N
+0l0l4	des_pollutions	O
+0l0l5	eaux_de_lixiviation	N
+0l0l6	une_ancienne_décharge	O
+0l0l7	ayant_accueillie	N
+0l1l0	ordures_ménagères	U
+
+#La plainte repose sur des faits constatés dès les années 2000 par un riverain du terrain incriminé suite à l'arrivée d'eaux blanchâtres sur une partie de son terrain et dans la cave de son habitation.
+
+1l0l0	des_faits_constatés	N
+1l0l1	dès_les_années_2000	T
+1l0l2	un	O
+1l0l3	riverain	N
+1l0l4	du_terrain_incriminé	O
+1l0l5	suite_à	R
+1l0l6	l__arrivée	N
+1l0l7	d__eaux_blanchâtres	O
+1l0l8	terrain	O
+1l0l9	dans_la_cave_de_son_habitation	L
+
+#Un diagnostic environnemental de la parcelle incriminée a été réalisée en 2008, par la mairie d'Hayange (étude intitulée "Diagnostic de pollution - étude documentaire et historique - Site d'un ancien chantier de récupération des matières solides en provenance des usines sidérurgiques", réalisée par le bureau d'études CSD Azur le 22 janvier 2008).
+
+2l0l0	Un_diagnostic_environnemental	N
+2l0l1	la_parcelle_incriminée	O
+2l0l2	a_été_réalisée	N
+2l0l3	en_2008__	T
+2l0l4	par	R
+2l0l5	la_mairie	O
+2l0l6	d__Hayange	L
+2l0l7	Diagnostic_de_pollution	N
+2l0l8	sidérurgiques	O
+2l0l9	le_bureau_d__études_CSD_Azur	O
+2l0l10	le_22_janvier_2008__	T
+2l1l0	matières_solides	U
+
+#Cette étude a consisté en une caractérisation des sols, des déchets et des eaux de percolation présents sur la parcelle incriminée.
+
+3l0l0	Cette_étude	N
+3l0l1	une_caractérisation	N
+3l0l2	la_parcelle_incriminée	O
+
+#Les investigations ont mis en évidence :
+
+
+#- composition du terrain : terre végétale sur 10 à 30 cm (présence ponctuelle de matériaux type chaux éteinte ou déblais de démolition), remblais hétérogènes contenant des déchets ménagers, des scories, des enrobés et des déchets de démolition entre 0,5 et 1 mètre de profondeur, chaux éteinte (présence ponctuelle de fûts vides dans la chaux) entre 0,70 et 4,5 mètres (sur des épaisseurs variables), 	terrain naturel constitué de limons argileux, puis de grès calcaire au-delà,
+
+5l0l0	fûts_vides	O
+
+#- analyses réalisées sur des prélèvements de sols de surface : présence de métaux, notamment de mercure et de plomb, dans des concentrations dépassant le cas des anomalies naturelles observées,
+
+6l1l0	métaux	S
+6l1l1	mercure	S
+6l1l2	plomb	S
+
+#- analyses sur les déchets de remblais : présence de teneurs en fluorures supérieures au seuil d’acceptation en centre de stockage de déchets inertes.
+
+7l0l0	remblais	N
+7l1l0	fluorures	S
+
+#- analyses sur les déchets de chaux : les déchets de chaux ont un pH de 12,7 ; ils sont donc considérés comme corrosifs au sens de la réglementation européenne et, à ce titre, constituent des déchets dangereux,
+
+8l1l0	les_déchets_de_chaux	U
+8l1l1	les_déchets_de_chaux	U
+8l1l2	des_déchets_dangereux	U
+
+#- analyses sur les eaux d’infiltration : contamination faible en sélénium, baryum, mercure et carbone organique total.
+
+9l1l0	sélénium	S
+9l1l1	baryum	S
+9l1l2	mercure	S
+9l1l3	carbone_organique_total	S
+
+#Selon toute vraisemblance, la situation géographique du site ne conduit pas à craindre la contamination de forages AEP.
+
+10l0l0	contamination	N
+10l0l1	forages_AEP	A
+
+#Cependant, le pH de ces eaux est compris entre 12 et 13.  A l’instar des déchets de chaux, les eaux s’infiltrant sur le site sont corrosives,
+
+11l0l0	ces_eaux	O
+11l1l0	des_déchets_de_chaux	U
+
+#Ces investigations mettent donc en évidence des traces de pollution des sols et des eaux de lixiviation au droit de la parcelle incriminée.
+
+12l0l0	Ces_investigations	N
+12l0l1	des_traces_de_pollution	O
+12l0l2	des_eaux_de_lixiviation	N
+12l0l3	au_droit_de_la_parcelle_incriminée	O
+
+#D'un point de vue administratif, aucune trace d'une activité ICPE n'a été retrouvée à ce jour.
+
+13l0l0	activité_ICPE	A
+13l0l1	à_ce_jour	T
+
+#La gestion des risques éventuels liés à ce terrain, à défaut d'être repris par une police administrative spécifique, relève des pouvoirs généraux de salubrité et santé publiques du maire.
+
+14l0l0	La_gestion_des_risques_éventuels	O
+14l0l1	ce_terrain	O
+14l0l2	à_défaut_d_	R
+
+#L'inspection des installations classées préconise, dans son rapport du 9 mars 2017, la réalisation d'un plan de gestion, conformément à la méthodologie nationale sur les sites et sols pollués, afin de s'assurer de la maîtrise des risques en fonction des usages.
+
+15l0l0	L__inspection_des_installations_classées	O
+15l0l1	9_mars_2017__	T
+15l0l2	la_réalisation_d_	N
+15l0l3	un_plan_de_gestion	O
+15l0l4	sols_pollués	O
+
+#De même, la limitation des expositions vis-à-vis des déchets et de eaux de percolation doit être étudiée.
+
+16l0l0	percolation	A
+16l0l1	doit	R
+16l1l0	déchets	U

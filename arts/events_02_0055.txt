@@ -1,0 +1,245 @@
+
+#02.0055
+#Usine spécialisée dans la fabrication de papier à partir de vieux papiers et de bois de feuillus, exploitée sur le site de Vénizel depuis 1924.
+
+0l0l0	Usine	O
+0l0l1	spécialisée	R
+0l0l2	dans_la_fabrication_de_papier	A
+0l0l3	papiers_et_de_bois_de_feuillus	A
+0l0l4	exploitée	N
+0l0l5	sur_le_site_de_Vénizel	L
+0l0l6	depuis_1924__	T
+
+#Site réglementé par l'arrêté préfectoral du 11/10/1989.
+
+1l0l0	Site_réglementé	O
+1l0l1	11_10_1989__	T
+
+#Arrêté de mise en demeure du 17 mai 2005, exigeant notamment la remise d'un dossier de demande de régularisation administrative (augmentation de production de l'ordre de 20%)
+
+2l0l0	Arrêté_de_mise_en_demeure	N
+2l0l1	du_17_mai_2005__	T
+2l0l2	la_remise_d_	N
+2l0l3	un_dossier_de_demande_de_régularisation_administrative	O
+
+#Dossier de régularisation + extension déposé en mai 2007 -
+
+3l0l0	Dossier_de_régularisation	N
+3l0l1	en_mai_2007	T
+
+#EP/EA du 12 sept au 15 octobre 2007.
+
+4l0l0	EP___EA	O
+4l0l1	du_12_sept_au_15_octobre_2007__	T
+
+#L'arrêté de régularisation a été signé le 18 juin 2009.
+
+5l0l0	L__arrêté_de_régularisation	O
+5l0l1	a_été_signé	N
+5l0l2	le_18_juin_2009__	T
+
+#Le site occupe 76 hectares (dont 20 pour les lagunes) en bordure de l'Aisne.
+
+6l0l0	Le_site	O
+6l0l1	les_lagunes	O
+6l0l2	en_bordure_de_l__Aisne	L
+6l1l0	les_lagunes	S
+
+#Incendie 18/06/2001: 5 transformateur contenant des pcb sont impactés
+
+7l0l0	Incendie	N
+7l0l1	18_06_2001	T
+7l0l2	5_transformateur	O
+7l1l0	transformateur_contenant_des_pcb	S
+
+#apc du 18/06/2001 prescrivant des travaux d'urgence / suspension d'activité du site / conditions d'élimination des déchets et eaux extinction
+
+8l0l0	apc	O
+8l0l1	18_06_2001	T
+8l0l2	prescrivant_des_travaux_d_	N
+8l0l3	urgence	O
+8l0l4	__suspension	N
+8l0l5	activité_du_site	A
+8l0l6	eaux	O
+8l0l7	extinction	N
+
+#Apc 4/07/2001: remise en service de quelques installations, les légumes et végétaux du voisinage doivent être éliminés
+
+9l0l0	Apc	O
+9l0l1	4_07_2001	T
+9l0l2	__remise_en_service	N
+9l0l3	de_quelques_installations	N
+9l0l4	les_légumes_et_végétaux_du_voisinage	O
+
+#Des mesures temporaires ont été prises pour interdire la consommation des végétaux aux abords immédiat du site.
+
+10l0l0	Des_mesures_temporaires	O
+10l0l1	ont_été_prises	N
+10l0l2	interdire	N
+10l0l3	la_consommation_des_végétaux	A
+10l0l4	aux_abords_immédiat_du_site	L
+
+#Ces mesures ont toutes été levées le 13/07/2001
+
+11l0l0	Ces_mesures	O
+11l0l1	ont_toutes_été_levées	N
+11l0l2	le_13_07_2001	T
+
+#Apc du 4/07/2002 imposant des prescriptions concernant la gestion des eaux d'extinction suite à l'incendie des transformateurs.
+
+12l0l0	Apc_du	O
+12l0l1	4_07_2002	T
+12l0l2	imposant	N
+12l0l3	des_prescriptions	O
+12l0l4	la_gestion_des_eaux_d__extinction	A
+12l0l5	suite_à	R
+12l0l6	l__incendie_des_transformateurs	N
+
+#Les eaux d'extinction ont été dirigées vers une gravière, puis après traitement et vérification de l'absence de PCB elles ont été rejetées dans l'Aisne.
+
+13l0l0	Les_eaux_d__extinction	O
+13l0l1	ont_été_dirigées	N
+13l0l2	vers_une_gravière	L
+13l0l3	ont_été_rejetées	N
+13l0l4	dans_l__Aisne	L
+13l1l0	PCB	S
+
+#Les transformateurs impactés sont toujours présents sur le site mais dans un batiment dont l'accès est inderdit.
+
+14l0l0	Les_transformateurs_impactés	O
+14l0l1	dans	L
+14l0l2	un_batiment	O
+
+#Les terres décapées sont également stockées sur le site sous une bâche en attente de leur prochaine élimination.
+
+
+#Etude du bureau d'études SEVEQUE - 2006 : surveillance de la qualité des aux souterraines: 9 piézo au droit du site, des lagunes et de la gravière 6(stockant la liqueur noire, déchet issu de la fabrication de la pate à papier mi chimique)
+
+16l0l0	Etude	N
+16l0l1	du_bureau_d__études_SEVEQUE	O
+16l0l2	__2006	T
+16l0l3	__surveillance_de	A
+16l0l4	la_qualité_des_aux_souterraines	O
+16l0l5	au_droit_du_site	L
+16l0l6	fabrication_de_la_pate_à_papier	A
+16l1l0	SEVEQUE	I
+16l1l1	liqueur_noire	U
+
+#Cette étude a mis en évidence que les installations de la société LA ROCHETTE VENIZEL à VENIZEL ont engendré une pollution de la nappe alluviale, au droit du site, des lagunes et de la gravière 6.
+
+17l0l0	Cette_étude	N
+17l0l1	les_installations	O
+17l0l2	la_société_LA_ROCHETTE_VENIZEL	O
+17l0l3	à	R
+17l0l4	VENIZEL	L
+17l0l5	ont_engendré_une_pollution	N
+17l0l6	la_nappe_alluviale	O
+17l0l7	au_droit_du_site	L
+17l1l0	la_société_LA_ROCHETTE_VENIZEL	I
+17l1l1	VENIZEL	I
+
+#Compte tenu de cela un projet d'arrêté a été présenté au coderst du 2 mai 2006, visant à imposer la surveillance de la qualité des eaux souterraines et la réalisation d'un diagnostic approfondi sur la globalité du site (site + lagunes + gravière).
+
+18l0l0	a_été_présenté	N
+18l0l1	coderst	O
+18l0l2	du_2_mai_2006__	T
+18l0l3	visant_à	R
+18l0l4	imposer	N
+18l0l5	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+18l0l6	la_réalisation_d__un_diagnostic_approfondi	N
+18l0l7	la	O
+18l0l8	globalité_du_site	L
+
+#Etude BURGEAP 2007 sur l'impact des lagunes - les lagunes semblent fuyardes, toutefois la société devrait arrêter leur utilisation en 2009.
+
+19l0l0	Etude_BURGEAP	O
+19l0l1	2007	T
+19l0l2	lagunes	O
+19l0l3	la_société	O
+19l0l4	devrait_arrêter	N
+19l0l5	leur_utilisation	O
+19l0l6	en_2009__	T
+19l1l0	Etude_BURGEAP	I
+19l1l1	lagunes	I
+19l1l2	lagunes	I
+19l1l3	la_société	I
+
+#L'étude conclut, aucun captage en position aval n’est susceptible d’être impacté par les eaux des lagunes et préconise la mise en place d'un piézo supplémentaire en aval.
+
+20l0l0	aucun_captage	O
+20l0l1	position_aval	O
+20l0l2	lagunes	L
+20l0l3	en_place_d_	N
+20l0l4	en_aval	L
+
+#L'arrêté d'autorisation à venir reprendra cette préconisation et demandera la réalisation d'études similaires au niveau du site.
+
+21l0l0	demandera_la_réalisation_d__études	N
+
+#L'arrêté du 18 juin 2009 impose :
+
+22l0l0	18_juin_2009	T
+22l0l1	impose	N
+
+#- la surveillance des eaux souterraines
+
+23l0l0	surveillance_des_eaux_souterraines	A
+
+#- une étude sur l'impact de la lagune
+
+24l1l0	la	U
+24l1l1	lagune	I
+
+#- l'évacuation des déchets résultants de l'incendie du local transformateur;
+
+25l0l0	l__évacuation	N
+25l0l1	l__incendie_du_local_transformateur	N
+
+#- le nettoyage de ce local
+
+26l0l0	le_nettoyage	N
+
+#- Pour l'ensemble du site la réalisation (ou la mise à jour) des documents relatifs à l'état de pollution du sol et des eaux souterraines (schéma conceptuel, plan de gestion...)
+
+27l0l0	la_mise_à_jour	N
+27l0l1	schéma_conceptuel	O
+
+#L'arrêt des lagunes de décantation de l’usine est effectif depuis le 11 juin 2010.
+
+28l0l0	L__arrêt_des_lagunes_de_décantation	N
+28l0l1	l__usine	O
+28l0l2	est_effectif	N
+28l0l3	depuis_le_11_juin_2010__	T
+
+#L'exploitant a transmis l'étude de l'impact des lagunes le 19/11/2010.
+
+29l0l0	L__exploitant	O
+29l0l1	a_transmis	N
+29l0l2	l__impact	N
+29l0l3	des_lagunes	O
+29l0l4	le_19_11_2010__	T
+
+#Cette étude conclut qu'en l’état, les risques présentés par les lagunes du site, qui ne sont plus utilisées comme dispositif de traitement des eaux usées, sont acceptables pour la population ou les écosystèmes avoisinants.
+
+30l0l0	les_risques	O
+30l0l1	les_lagunes	O
+30l0l2	ne_sont_plus_utilisées_comme_dispositif_de_traitement	N
+30l0l3	des_eaux_usées	A
+30l0l4	les_écosystèmes_avoisinants	O
+30l1l0	eaux_usées	U
+
+#La surveillance piezométrique permettra de suivre dans le temps l’impact des lagunes sur les eaux souterraines.
+
+31l0l0	La_surveillance_piezométrique	A
+
+#L'exploitant a transmis le 16/05/2012 une étude de pollution des sols qui concluent à la présence d'arsenic et de plomb.
+
+32l0l0	L__exploitant	O
+32l0l1	a_transmis	N
+32l0l2	le_16_05_2012	T
+32l0l3	une_étude_de_pollution	N
+32l0l4	des_sols	O
+32l0l5	qui_concluent	R
+32l0l6	d__arsenic	O
+32l1l0	arsenic	S
+32l1l1	plomb	S

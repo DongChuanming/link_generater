@@ -1,0 +1,190 @@
+
+#59.0123
+#- Site de l'industrie mécanique comprenant une ancienne décharge de DIB d'une superficie de 0,5 ha exploitée de 1950 jusqu'en 1994 par la société ANF.
+
+0l0l0	industrie_mécanique	A
+0l0l1	une_ancienne_décharge_de_DIB	O
+0l0l2	exploitée	N
+0l0l3	de_1950	T
+0l0l4	jusqu__en_1994	T
+0l0l5	la_société_ANF	O
+0l1l0	décharge_de_DIB	I
+0l1l1	la_société_ANF	I
+
+#- Site spécialisé dans la construction de matériel ferroviaire de la conception à la maintenance.
+
+1l0l0	Site	O
+1l0l1	spécialisé	R
+1l0l2	dans_la_construction_de	A
+1l0l3	matériel_ferroviaire	O
+1l0l4	conception_à_la_maintenance	A
+
+#Travail des métaux et application de peintures.
+
+2l0l0	Travail_des_métaux	A
+2l0l1	application_de_peintures	N
+
+#- Le 12/05/1998, envoi d'un courrier et d'un dossier de fermeture de la décharge interne à l'administration.
+
+3l0l0	Le_12_05_1998	T
+3l0l1	__envoi	N
+3l0l2	d_	R
+3l0l3	un_courrier	N
+3l0l4	un_dossier	O
+3l0l5	de_fermeture	N
+3l0l6	la_décharge	O
+
+#- Site en activité visé par la circulaire du 3 avril 1996 qui impose une étude des sols sur les sites en activité.
+
+4l0l0	Site_en_activité	O
+4l0l1	visé_par	R
+4l0l2	la_circulaire	O
+4l0l3	3_avril_1996	T
+4l0l4	impose_une_étude_des_sols	N
+4l0l5	les_sites_en_activité	O
+
+#- Arrêté préfectoral du 04/09/1998 imposant la réalisation de diagnostics initiaux et d'une évaluation détaillée des risques.
+
+5l0l0	Arrêté_préfectoral	O
+5l0l1	04_09_1998	T
+5l0l2	imposant_la_réalisation_de_diagnostics_initiaux	N
+5l0l3	une_évaluation_détaillée_des_risques	N
+
+#- Réalisation d'une étude de sols et d'une évaluation simplifiée des risques en décembre 1999.
+
+6l0l0	Réalisation_d__une_étude_de_sols	N
+6l0l1	une_évaluation_simplifiée_des_risques	N
+6l0l2	en_décembre_1999__	T
+
+#Quatre sources de pollution potentielle ont été identifiées:
+
+7l0l0	Quatre_sources_de_pollution	O
+7l0l1	ont_été_identifiées	N
+
+#*remblais de la division Nord
+
+
+#*stockage de produits chimiques
+
+9l0l0	stockage_de_produits_chimiques	O
+9l1l0	produits_chimiques	U
+
+#*PCB dans les transformateurs
+
+10l1l0	__PCB	S
+10l1l1	transformateurs	S
+
+#*ancienne décharge
+
+
+#Le site est en classe 2 (à surveiller) sauf pour l'ancienne décharge par manque de données.
+
+12l0l0	Le_site	O
+
+#- Réalisation d'une étude hydraulique et d'une évaluation simplifiée des risques spécifique à l'ancienne décharge en octobre 2001, la décharge est en classe 1 (à investiguer).
+
+13l0l0	Réalisation	N
+13l0l1	d_	L
+13l0l2	une_étude_hydraulique	N
+13l0l3	une_évaluation_simplifiée_des_risques	N
+13l0l4	décharge	O
+13l0l5	en_octobre_2001__	T
+13l0l6	la_décharge	O
+
+#- En mars 2002: élimination des transformateurs PCB.
+
+14l0l0	En_mars_2002	T
+14l0l1	__élimination_des_transformateurs	N
+14l1l0	PCB	S
+
+#- Réalisation d'investigations complémentaires en juin 2002.
+
+15l0l0	Réalisation_d__investigations_complémentaires	N
+15l0l1	en_juin_2002	T
+
+#- Arrêté préfectoral complémentaire du 04/07/2002 imposant la réalisation d'un diagnostic approfondi, d'une évaluation détaillée des risques, ainsi qu'une étude d'évaluation des montants que doivent couvrir les garanties financières, pour la partie ancienne décharge.
+
+16l0l0	Arrêté_préfectoral	O
+16l0l1	04_07_2002	T
+16l0l2	imposant_la_réalisation_d__un_diagnostic_approfondi	N
+16l0l3	une_évaluation_détaillée_des_risques	N
+16l0l4	une_étude_d__évaluation	N
+16l0l5	garanties_financières	O
+16l0l6	la_partie_ancienne_décharge	O
+
+#- Projet de réhabilitation de la décharge, en octobre 2003, mis à jour en août 2005: confinement avec couche de forme (10cm), couche de protection supplémentaire (10cm) ,une couverture végétale (30 cm) et la pose d'une clôture.
+
+17l0l0	Projet_de_réhabilitation	N
+17l0l1	la_décharge	O
+17l0l2	en_octobre_2003__	T
+17l0l3	mis_à_jour	N
+17l0l4	en_août_2005	T
+17l0l5	la_pose_d__une_clôture	N
+
+#- Réalisation d'une évaluation détaillée des risque pour la décharge en avril 2003, mise à jour en octobre 2003.
+
+18l0l0	Réalisation_d__une_évaluation_détaillée_des_risque	N
+18l0l1	la_décharge	O
+18l0l2	en_avril_2003__	T
+18l0l3	mise_à_jour	N
+18l0l4	en_octobre_2003__	T
+
+#Laquelle relève un impact sur les sols, la nappe des alluvions et sur la nappe de la craie au droit de la décharge.
+
+19l0l0	au_droit_de_la_décharge	L
+
+#La décharge est toujours en classe 1.
+
+
+#- Cessation des activités de traitement thermique et de traitement de surface en 2003.
+
+21l0l0	Cessation	N
+21l0l1	activités_de_traitement_thermique	O
+21l0l2	traitement_de_surface	A
+21l0l3	en_2003	T
+
+#- Réalisation d'un diagnostic des sols et des eaux souterraines au droit des anciens ateliers de traitement de surface et de traitement thermique en décembre 2003.
+
+22l0l0	Réalisation_d__un_diagnostic	N
+22l0l1	sols	O
+22l0l2	des_eaux_souterraines	O
+22l0l3	au_droit_des_anciens_ateliers_de	L
+22l0l4	traitement_de_surface	A
+22l0l5	traitement_thermique	O
+22l0l6	en_décembre_2003	T
+
+#Ce diagnostic relève une pollution des sols mais aucune pollution dans les eaux de la nappe alluviale.
+
+23l0l0	diagnostic	N
+
+#- Réalisation d'une caractérisation complémentaire de l'ancienne décharge en septembre 2004.
+
+24l0l0	Réalisation_d__une_caractérisation_complémentaire	N
+24l0l1	l__ancienne_décharge	O
+24l0l2	en_septembre_2004__	T
+
+#- La parcelle sur laquelle est implantée la décharge a été divisée: une parcelle décharge avec servitudes (en cours d'instruction) et une parcelle vendue.
+
+25l0l0	La_parcelle_sur_laquelle_est_implantée_la_décharge	O
+25l0l1	a_été_divisée	N
+25l0l2	une_parcelle_décharge	O
+25l0l3	une_parcelle_vendue	O
+
+#- Projet de servitudes appliquées à la décharge, dossier en date de janvier 2004, mis à jour en octobre 2011.
+
+26l0l0	Projet_de_servitudes	O
+26l0l1	en_date_de_janvier_2004__	T
+26l0l2	mis_à_jour	N
+26l0l3	en_octobre_2011__	T
+
+#- Les eaux de la nappe souterraines (craie) sont utilisées pour un usage AEP (Adduction d'Eau Potable).
+
+27l0l0	sont_utilisées_pour	R
+27l0l1	un_usage_AEP	A
+
+#- Site en sécurité vis à vis des tiers.
+
+
+#- Action de l'administration toujours en cours.
+
+29l0l0	l__administration	O

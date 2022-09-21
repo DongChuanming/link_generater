@@ -1,0 +1,146 @@
+
+#69.0385
+#La société Arcelor Mittal SOLUSTIL exploitait des activités de travail mécanique des métaux, traitement de surface et application de peinture pour la production de pièces de sous-ensemble.
+
+0l0l0	La_société_Arcelor_Mittal_SOLUSTIL	O
+0l0l1	exploitait	R
+0l0l2	des_activités_de_travail_mécanique_des_métaux	A
+0l0l3	traitement_de_surface	A
+0l0l4	application_de_peinture	A
+0l0l5	la_production_de_pièces_de_sous_ensemble	A
+0l1l0	La_société_Arcelor_Mittal_SOLUSTIL	I
+
+#Ce site aurait dû être soumis à autorisation au regard de la législation des Installations Classées pour la Protection de l’Environnement, notamment pour l’activité de traitement de surface.
+
+1l0l0	Ce_site_aurait_dû	O
+1l0l1	être_soumis_à_autorisation	N
+1l0l2	Installations_Classées_pour_la_Protection_de	A
+1l0l3	l__Environnement	O
+1l0l4	l__activité_de_traitement_de_surface	A
+
+#Cependant, l’exploitant n’a jamais fourni de demande d’autorisation d’exploiter.
+
+2l0l0	l__exploitant	O
+2l0l1	n__a_jamais_fourni_de_demande_d__autorisation	N
+
+#En vue d’une régularisation administrative,  AM Solustil a :
+
+3l0l0	régularisation_administrative	O
+3l1l0	__AM_Solustil	I
+
+#- notifié en janvier 2017 à la mairie et à la Direction Départementale de la Protection des Populations sa cessation d’activité ;
+
+4l0l0	notifié_en_janvier_2017	T
+4l0l1	la_mairie	O
+4l0l2	la_Direction_Départementale_de_la_Protection_des_Populations	O
+4l0l3	sa_cessation_d__activité	N
+4l1l0	la_Direction_Départementale_de_la_Protection_des_Populations	I
+
+#- transmis le mémoire de cessation d'activité sur la base des articles R512-39-1 à R12-39-3 du Code de l’Environnement.
+
+5l0l0	transmis_le_mémoire_de_cessation_d__activité	N
+
+#1 - Investigations de novembre 2016
+
+6l0l0	Investigations_de	N
+6l0l1	novembre_2016	T
+
+#Les investigations réalisées en novembre 2016 ont montré la présence dans les sols :
+
+7l0l0	Les_investigations_réalisées_en	N
+7l0l1	novembre_2016	T
+
+#- d’éléments-trace métalliques, notamment de nickel, de zinc, chrome, cadmium et mercure à des concentrations supérieures au fond géochimique naturel ;
+
+8l1l0	nickel	S
+8l1l1	zinc	S
+8l1l2	chrome	S
+8l1l3	cadmium	S
+8l1l4	mercure	S
+
+#- de traces de tétrachloroéthylène (0,07 mg/kg), de BTEX (0,48 mg/kg au maximum) et de HCT.
+
+9l1l0	tétrachloroéthylène	S
+9l1l1	BTEX	S
+9l1l2	HCT	S
+
+#Les analyses réalisées sur les eaux souterraines (4 piézomètres) révélaient quant à elles la présence d’éléments-trace métalliques, de TCE et de HAP à l’état de traces.
+
+10l0l0	Les_analyses_réalisées	N
+10l0l1	les_eaux_souterraines	O
+10l1l0	TCE	S
+10l1l1	HAP	S
+
+#Ces éléments ne mettaient pas en évidence de risque sanitaire ni de pollution significative liée à l’activité de l’ICPE exploitée par Solustil.
+
+11l0l0	l__activité_de_l__ICPE	A
+11l0l1	exploitée	N
+11l0l2	Solustil	O
+11l1l0	Solustil	S
+
+#Il apparaissait néanmoins que certaines zones n’avaient pas fait l’objet d’investigations, ce qui aconduit l’Inspection des installations classées à demander des compléments dans son rapport du 14 avril 2017.
+
+12l0l0	certaines_zones	O
+12l0l1	pas_fait_l__objet	R
+12l0l2	d__investigations	N
+12l0l3	l__Inspection_des_installations_classées	O
+12l0l4	14_avril_2017__	T
+
+#2 - Investigations réalisées en décembre 2017
+
+13l0l0	Investigations_réalisées	N
+13l0l1	en_décembre_2017	T
+
+#Solustil a transmis par voie électronique le 15 février 2018 un rapport de diagnostic environnemental de la qualité des sols réalisé par la société DEKRA (rapport 52571823 du 15 février 2018).
+
+14l0l0	a_transmis	N
+14l0l1	le_15_février_2018	T
+14l0l2	un_rapport_de_diagnostic_environnemental	N
+14l0l3	la_qualité_des_sols_réalisé	O
+14l0l4	la_société_DEKRA	O
+14l0l5	15_février_2018	T
+14l1l0	Solustil	I
+14l1l1	la_société_DEKRA	I
+
+#Ces investigations complémentaires ont consisté en la réalisation de 8 sondages, d’une profondeur maximale de 2 mètres, positionnés au niveau des sources potentielles de pollution du site.
+
+15l0l0	Ces_investigations_complémentaires	N
+15l0l1	la_réalisation	N
+15l0l2	de	R
+15l0l3	8_sondages	O
+15l0l4	positionnés	O
+15l0l5	au_niveau_des_sources	L
+15l0l6	potentielles_de_pollution_du_site	O
+
+#Ces analyses ont montré :
+
+
+#- la présence d’éléments traces métalliques, notamment de zinc (340 mg/kg au maximum) ;
+
+17l1l0	traces_métalliques	S
+17l1l1	zinc	S
+
+#- la présence de tétrachloroéthylène sur les sondages D3 (1,4 mg/kg) et D8 (6 mg/kg) ;
+
+18l1l0	tétrachloroéthylène	S
+
+#- la présence de toluène sur le sondage D3 (4 mg/kg).
+
+19l1l0	toluène	S
+
+#Les éléments transmis par Solustil concernant ses activités ne permettent cependant pas de relier les impacts en solvants à l'activité de Solustil et proviennent a priori d'activité industrielles exercées précédemment sur le site.
+
+20l0l0	Solustil	O
+20l0l1	ses_activités	A
+20l0l2	l__activité_de_Solustil	O
+20l0l3	d__activité_industrielles_exercées	A
+20l0l4	précédemment_sur	R
+20l0l5	le_site	L
+20l1l0	Solustil	S
+20l1l1	solvants	S
+20l1l2	Solustil	S
+
+#Enfin, la présence d'éléments traces métalliques, à des concentrations dépassant parfois le fond géochimique local, semble dû à la qualité des remblais présents sur le site et non à l'activité industrielle du site.
+
+21l0l0	remblais	N
+21l1l0	éléments_traces_métalliques	U

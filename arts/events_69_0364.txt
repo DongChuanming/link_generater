@@ -1,0 +1,303 @@
+
+#69.0364
+#La société IP3 exploitait un site de fabrication d'objets en plastique par extrusion, sis rue Grange Morin à Arnas (récépissé de déclaration du 26 mai 1989).
+
+0l0l0	La_société	O
+0l0l1	plastique	O
+0l0l2	Grange_Morin_à_Arnas___récépissé_de_déclaration_du_26_mai_1989	O
+0l1l0	La_société	I
+
+#Suite à la détérioration d'une partie des bâtiments dans un incendie en avril 2012, elle a décidé de cesser ses activités.
+
+1l0l0	Suite_à_la	O
+1l0l1	détérioration_d__une_partie	O
+1l0l2	des_bâtiments_dans_un_incendie_en	A
+1l0l3	avril_2012___elle	A
+1l0l4	décidé_de_cesser_ses_activités	L
+1l0l5	_	N
+1l1l0	Suite_à_la_détérioration	I
+
+#Le site est occupé par :
+
+2l0l0	Le_site	R
+2l0l1	est_occupé_par__	N
+
+#- des bâtiments : locaux de bureaux, divers ateliers, magasins de matières premières et produits finis, ateliers de maintenance ;
+
+3l0l0	__des_bâtiments	O
+
+#- des zones extérieures revêtues : parking en partie ouest, aires de circulation au nord et à l'est ;
+
+
+#- quelques zones non revêtues (espaces verts) à proximité des bureaux et en contrebas du site, au sud.
+
+
+#Les bâtiments en partie sud (magasin de produits finis, partie sud de l'atelier de production) ont été partiellement détruits par l’incendie survenu en 2012.
+
+6l0l0	produits_finis___partie_sud_de_l__atelier_de_production___ont_été	L
+
+#À ce jour, le terrain se présente dans la zone incendiée sous la forme d'une plate-forme bétonnée sans occupation.
+
+7l0l0	À_ce_jour___le	O
+7l0l1	terrain_se_présente	O
+7l0l2	bétonnée_sans_occupation__	N
+
+#Le tènement, implanté en zone industrielle, est délimité :
+
+8l0l0	Le_tènement	T
+8l0l1	__implanté	O
+8l0l2	en_zone	R
+8l0l3	industrielle___est_délimité	N
+
+#- au nord, par la société Sotradel puis par la rue du Nizerand et la société Lyonnaise d'Enrobés ;
+
+9l0l0	__au_nord___par	O
+9l0l1	la_société_Sotradel_puis_par_la	L
+
+#- à l'ouest, par la rue Grange Morin puis par la société National Adhesives ;
+
+10l0l0	à_l__ouest	L
+10l0l1	par_la_rue_Grange_Morin	O
+10l0l2	par_la_société_National	L
+10l0l3	Adhesives__	O
+10l1l0	par_la_rue_Grange_Morin	I
+10l1l1	National_Adhesives__	I
+
+#- au sud, par une maison d'habitation et par la société Autocar Planche ;
+
+11l0l0	au_sud___par	L
+11l0l1	une_maison_d__habitation	L
+11l0l2	la_société_Autocar_Planche__	A
+11l1l0	la_société_Autocar	I
+11l1l1	Planche__	S
+
+#- à l'est, par l'entreprise Rhône Nord Autocars (RNA) puis plus éloigné, l'autoroute A6.
+
+12l0l0	à_l__est	L
+12l0l1	par_l__entreprise	O
+12l0l2	Autocars___RNA___puis_plus	O
+12l1l0	Autocars___RNA___puis_plus_éloigné	I
+
+#Les établissements sensibles les plus proches répertoriés sont les suivants :
+
+13l0l0	Les	L
+13l0l1	établissements_sensibles_les_plus_proches	O
+13l0l2	suivants__	L
+13l1l0	établissements_sensibles_les_plus_proches	D
+
+#- la crèche l'Aquarelle, à environ 300 m au sud-est du site ;
+
+14l0l0	__la_crèche_l__Aquarelle___à_environ	O
+
+#- les Haltes Garderies et crèche collective « L’île aux enfants », à 400 m à l’ouest du site ;
+
+15l0l0	crèche_collective_____L__île_aux_enfants	L
+
+#- les écoles communautaires La Chartonnière, à environ 500 m à l’ouest du site.
+
+16l0l0	ouest_du_site__	L
+
+#Des sondages réalisés à proximité du site mettent en évidence une alternance de sables graveleux et de limon argileux jusqu’à 4 m de profondeur environ, puis des sables au-delà, avec des passes plus graveleuses.
+
+17l0l0	Des_sondages_réalisés_à	O
+17l0l1	proximité_du_site_mettent	O
+17l0l2	en_évidence_une_alternance	L
+
+#Un socle argileux est généralement recoupé vers 10 à 15 m de profondeur.
+
+18l0l0	Un_socle_argileux_est	N
+18l0l1	généralement_recoupé	L
+
+#Le Nizerand, ruisseau affluent de la Saône et traversant la zone industrielle d’Arnas, s’écoule d’ouest en est à environ 250 m au nord du site.
+
+
+#La Saône est située à environ 1,5 km à l’est du site, et s’écoule du nord vers le sud.
+
+20l0l0	La_Saône	O
+20l0l1	environ_1_5_km_à_l__est_du	L
+20l0l2	site___et_s__écoule_du_nord_vers_le_sud__	L
+
+#D’après des piézomètres situés à environ 100 m à l’ouest du site, la nappe d’eau est recoupée à une profondeur comprise entre 7 et 9 m.
+
+21l0l0	D__après	L
+21l0l1	des_piézomètres_situés_à_environ_100_m_à_l_	L
+21l0l2	site___la_nappe_d__eau_est	L
+
+#Le sens d’écoulement est supposé d’ouest en est, en lien direct avec la topographie du secteur et du contexte hydraulique (vers la Saône).
+
+22l0l0	supposé_d__ouest_en_est___en_lien_direct	L
+
+#Des captages AEP, situés à 1,5 km à l’est du site, sont positionnés en aval hydraulique par rapport au site.
+
+
+#Trois points d’eau, dont l’utilisation n’est pas connue, sont également recensés dans un rayon d’un km autour du site et positionnés en aval / latéral hydraulique par rapport au site.
+
+24l0l0	Trois_points_d__eau	O
+24l0l1	__dont_l__utilisation_n__est	L
+24l0l2	pas_connue___sont	N
+24l0l3	également_recensés_dans_un_rayon_d__un_km_autour	L
+
+#Le site est concerné par le contrat de milieux du Val de Saône, constituant la zone humide la plus étendue du bassin Rhône-Méditerranée.
+
+25l0l0	Le_site_est_concerné	O
+25l0l1	Saône___constituant_la_zone	N
+25l0l2	humide_la_plus_étendue_du_bassin_Rhône	L
+25l0l3	Méditerranée__	L
+
+#Le site a connu les accidents ou incidents suivants :
+
+26l0l0	Le_site	O
+26l0l1	a_connu_les_accidents	R
+26l0l2	ou_incidents	O
+26l0l3	suivants____	L
+
+#- Le 23 mai 1992 : incident au sein du local transformateur causant la fuite de PCB d’un transformateur dans le bac de rétention et des projections sur les murs.
+
+27l0l0	__Le_23_mai	O
+27l0l1	1992	N
+
+#Des teneurs de l’ordre de 100 ppm ont été détectées au droit de la cuvette de rétention.
+
+28l0l0	Des_teneurs_de	T
+28l0l1	l__ordre_de	N
+28l0l2	100_ppm_ont	R
+28l0l3	été_détectées_au_droit	N
+28l0l4	de_la_cuvette_de	N
+28l1l0	rétention	S
+
+#Des travaux de dépollution ont été entrepris : évacuation du transformateur et des fûts, nettoyage du sol et des murs, installation d’un mur coupe-feu, remplacement de l’ancien transformateur aux PCB par une installation sans PCB et confinement (recouvrement) des zones souillées.
+
+29l0l0	été_entrepris____	N
+29l0l1	évacuation_du_transformateur_et_des	O
+
+#- Le 8/9 avril 2012 : incendie (origine inconnue) détruisant le bâtiment de stockage de produits finis et le stockage de cartons à l’est du site ainsi qu’une partie des chaînes de production (partie sud).
+
+30l0l0	__Le_8_9_avril_2012_____incendie	N
+30l0l1	__origine_inconnue	N
+30l0l2	__détruisant_le_bâtiment_de	N
+30l0l3	stockage_de	O
+30l0l4	produits_finis	N
+30l0l5	de_cartons_à_l__est_du_site_ainsi	N
+30l0l6	une_partie_des	N
+30l0l7	chaînes_de_production___partie	O
+30l1l0	sud__	S
+
+#Le local transformateur n’est pas touché.
+
+31l0l0	Le_local_transformateur_n__est	N
+
+#Les eaux incendie, potentiellement contaminées, ont pu migrer vers les espaces verts avoisinants.
+
+
+#Les déchets des bâtiments incendiés ont été éliminés et les bords des bâtiments détruits ont été mis en sécurité (bardages métalliques pour fermer les bâtiments, système d'étais pour soutenir la partie toiture encore en place non détruite).
+
+33l0l0	Les_déchets_des_bâtiments	O
+33l0l1	éliminés_et_les_bords	N
+33l0l2	des_bâtiments_détruits_ont_été_mis	L
+33l1l0	Les_déchets_des_bâtiments	U
+
+#Les cuves d’huiles usagées et de solvants ont été enlevées.
+
+34l0l0	Les_cuves_d__huiles_usagées_et_de_solvants	O
+34l0l1	ont_été_enlevées	N
+34l0l2	_	O
+34l1l0	Les_cuves_d_	U
+
+#Par courrier du 24 mars 2014, l’exploitant a transmis à la préfecture un dossier de cessation d’activité comprenant une étude historique et documentaire, un diagnostic des milieux, un plan de gestion, une Analyse des Risques Résiduels et la description des mesures de mise en sécurité du site.
+
+35l0l0	Par_courrier_du_24	O
+35l0l1	exploitant_a_transmis_à_la_préfecture	N
+35l1l0	Par_courrier	D
+35l1l1	du_24_mars_2014	U
+35l1l2	exploitant	U
+
+#Des travaux de finalisation de la mise en sécurité doivent encore être réalisés :
+
+36l0l0	finalisation	T
+36l0l1	de_la_mise_en	O
+36l0l2	sécurité_doivent	N
+36l0l3	encore_être_réalisés	O
+36l0l4	___	N
+
+#- nettoyage des dalles grasses observées dans l’atelier de maintenance et du local de stockage des huiles usagées ;
+
+37l0l0	__nettoyage_des_dalles_grasses	O
+37l0l1	observées_dans_l_	N
+37l0l2	atelier_de	R
+37l0l3	maintenance_et_du_local	N
+
+#- élimination agréée des transformateurs.
+
+38l0l0	élimination	N
+
+#19 sondages ont été réalisés en janvier 2014 au droit des zones à risques identifiées et ont mis en évidence les contaminations suivantes :
+
+39l0l0	ont_été_réalisés_en_janvier_2014	O
+
+#- arsenic : 97 mg/kg MS ;
+
+40l0l0	__arsenic_____97_mg___kg_MS____	N
+
+#- cadmium:3,9 mg/kg MS ;
+
+41l1l0	cadmium_3_9	S
+
+#- cuivre : 51 mg/kg MS ;
+
+42l1l0	cuivre__	S
+
+#- mercure : 0,2 mg/kg MS ;
+
+43l1l0	mercure	S
+
+#- plomb : 340 mg/kg MS ;
+
+44l1l0	plomb____	S
+
+#- zinc : 380 mg/kg MS ;
+
+45l1l0	zinc__	S
+
+#- HCT : 1 139 mg/kg MS ;
+
+46l1l0	HCT__	S
+
+#- HAP : 1,2 mg/kg MS.
+
+47l1l0	HAP	S
+
+#Le diagnostic ayant mis en évidence des anomalies ponctuelles dans les sols, auxquelles les futurs usagers pourraient potentiellement être exposés (par inhalation), une analyse des risques sanitaires associés aux substances mises en évidence dans les sols a été menée, en considérant un usage industriel, similaire à la dernière période d’activité.
+
+48l1l0	Le_diagnostic	S
+
+#L’exposition des usagers (travailleurs adultes) a été considérées via l’inhalation de composés volatils et de poussière en extérieur, en considérant une personne postée en extérieur (hypothèse conservatoire).
+
+49l0l0	L__exposition	N
+49l0l1	considérées_via_l__inhalation	O
+
+#En regard d’un usage industriel similaire à la dernière période d’exploitation et des hypothèses prises en compte, l’analyse des risques sanitaires a conclu à un site ne présentant pas d’incompatibilité sanitaire.
+
+50l0l0	présentant_pas_d_	L
+50l1l0	hypothèses	U
+
+#Compte tenu du fait que des sols impactés seront laissés en place, le plan de gestion a préconisé des mesures complémentaires de type restrictions d’usage.
+
+51l0l0	Compte_tenu	R
+51l0l1	du_fait_que_des_sols_impactés	O
+51l0l2	le_plan_de_gestion	O
+
+#Par courriel du 11 juin 2014, l’inspection de l’environnement a demandé à l’exploitant :
+
+52l0l0	2014___l__inspection	O
+52l0l1	demandé___à_l__exploitant	O
+52l0l2	___	O
+
+#- la note de fin de travaux avec les documents justificatifs de la bonne élimination des déchets et transformateurs ;
+
+53l0l0	de_travaux_avec	T
+53l0l1	les_documents	O
+53l0l2	élimination_des_déchets	O
+
+#- le dossier pour la mise en place d’une SUP.
+
+54l0l0	le_dossier_pour_la_mise_en	O

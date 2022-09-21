@@ -1,0 +1,197 @@
+
+#59.0494
+#Le 22 juin 1998, l'entrepôt SOVINAL de BIERNE, exploité par la société SEED Logistique pour le stockage d'huiles végétales alimentaires, a été dévasté par un violent incendie.
+
+0l0l0	Le_22_juin_1998__	T
+0l0l1	l__entrepôt_SOVINAL	O
+0l0l2	BIERNE	O
+0l0l3	exploité	N
+0l0l4	par	R
+0l0l5	la_société_SEED_Logistique	O
+0l0l6	le_stockage_d__huiles_végétales_alimentaires	A
+0l0l7	a_été_dévasté_par	R
+0l0l8	un_violent_incendie	N
+0l1l0	SOVINAL	I
+0l1l1	la_société_SEED	I
+
+#A la suite de ce sinistre, un arrêté préfectoral a imposé la remise en état du site et notamment l’évacuation des déblais, gravats et résidus d’incendie souillés ainsi que la réalisation d’une étude des sols.
+
+1l0l0	A_la_suite_de	R
+1l0l1	ce_sinistre	N
+1l0l2	un_arrêté_préfectoral	O
+1l0l3	a_imposé	N
+1l0l4	la_remise_en_état_du_site	N
+1l0l5	l__évacuation	N
+1l0l6	déblais	N
+1l0l7	gravats	N
+1l0l8	la_réalisation_d_	R
+1l0l9	une_étude_des_sols	N
+
+#L’étude simplifiée des risques a conclu à un classement du site en classe 3 (site ne nécessitant pas d’autres investigations) pour un usage futur « industriel ».
+
+2l0l0	étude_simplifiée	O
+2l0l1	des_risques	N
+2l0l2	site	O
+2l0l3	en	R
+2l0l4	classe_3	O
+2l0l5	un_usage_futur	O
+
+#Le 25 juin 1999, il a été imposé par arrêté préfectoral à la société SEED Logistique, pour la remise en état du site de l'ancien entrepôt SOVINAL à BIERNE :
+
+3l0l0	Le_25_juin_1999__	T
+3l0l1	il	O
+3l0l2	a_été_imposé	N
+3l0l3	par_arrêté_préfectoral	O
+3l0l4	la_société_SEED_Logistique	O
+3l0l5	la_remise_en_état_du_site	N
+3l0l6	l__ancien_entrepôt_SOVINAL	O
+3l0l7	à	R
+3l0l8	BIERNE	O
+3l1l0	la_société_SEED_Logistique	I
+3l1l1	entrepôt_SOVINAL	I
+
+#-la démolition des structures des bâtiments,
+
+4l0l0	_la_démolition	N
+4l0l1	des_structures_des_bâtiments	O
+
+#-l'excavation de la dalle béton et des voies de circulation du site ceinturant les bâtiments sinistrés,
+
+5l0l0	_l__excavation	N
+5l0l1	la_dalle_béton	O
+5l0l2	ceinturant_les_bâtiments_sinistrés	L
+
+#-l'évacuation du site de tous les produits de démolition et leur élimination dans des filières dûment autorisées à cet effet,
+
+6l0l0	_l__évacuation_du_site	N
+6l0l1	les_produits_de_démolition	O
+
+#-l'envoi à l'Inspection des Installations Classées des bordereaux de suivi des déchets industriels
+
+7l0l0	_l__envoi	N
+7l0l1	l__Inspection_des_Installations_Classées	O
+7l0l2	bordereaux_de_suivi_des_déchets_industriels	O
+
+#-la réalisation d'une étude des sols conformément au guide national de gestion des sites (potentiellement) pollués du Ministère de l'Environnement étendue aux terrains extérieurs à l'emprise de l'entrepôt SOVINAL qui seraient affectés par la pollution en provenance du site
+
+8l0l0	_la_réalisation_d__une_étude_des_sols	N
+8l0l1	pollués	N
+8l0l2	Ministère	L
+8l0l3	de_l__Environnement	A
+8l0l4	étendue_aux	R
+8l0l5	terrains	O
+8l0l6	extérieurs_à_l__emprise_de	L
+8l0l7	l__entrepôt_SOVINAL	O
+8l0l8	affectés_par	R
+8l0l9	la_pollution	O
+8l1l0	entrepôt_SOVINAL	I
+
+#Travaux effectuées: les tas de matériaux ont été éliminés, le site nettoyé, la dalle béton lavée,aucune trace d’huile n’est plus visible, le watergang a été curé en totalité.
+
+9l0l0	Travaux_effectuées	N
+9l0l1	les_tas_de_matériaux	O
+9l0l2	ont_été_éliminés	N
+9l0l3	le_site_nettoyé	O
+9l0l4	la_dalle_béton	O
+9l0l5	lavée	A
+9l0l6	le_watergang	O
+9l0l7	a_été_curé_en	N
+
+#De l’étude des sols il ressort que:
+
+
+#- la totalité du site, y compris les bâtiments mitoyens de ceux de SEED Logistique est à usage industriel,
+
+11l0l0	les_bâtiments_mitoyens	O
+11l0l1	SEED_Logistique	O
+11l0l2	est_à_usage_industriel	A
+11l1l0	SEED	I
+
+#- le devenir de la zone n’a pas été précisé par les propriétaires actuels (SOVINAL et SCI de la Colme),
+
+12l0l0	le_devenir	O
+12l0l1	la_zone	O
+12l0l2	a_pas_été_précisé	N
+12l0l3	les_propriétaires_actuels	O
+12l0l4	la_Colme	O
+12l1l0	__SOVINAL	I
+12l1l1	SCI_de_la_Colme	I
+
+#- les substances et produits potentiellement polluants mis en jeu sur la partie du site exploitée par SEED Logistique sont de trois types :
+
+13l0l0	la_partie_du_site	O
+13l0l1	exploitée	N
+13l0l2	SEED_Logistique	O
+13l1l0	les_substances	U
+13l1l1	produits_potentiellement_polluants	U
+13l1l2	SEED_Logistique	I
+
+#- hydrocarbures (citerne à fuel),
+
+14l0l0	fuel	O
+14l1l0	hydrocarbures	S
+14l1l1	fuel	U
+
+#- huiles végétales alimentaires,
+
+15l1l0	huiles_végétales_alimentaires	U
+
+#- huile au pyralène (transformateur électrique).
+
+16l1l0	pyralène	S
+
+#Etant donné que l’incendie n’a pas atteint la citerne à fuel, le risque de pollution lié à la présence d’hydrocarbures n’a pas été retenu.
+
+17l0l0	citerne_à_fuel	O
+17l0l1	le_risque_de_pollution	O
+17l0l2	d__hydrocarbures	O
+17l0l3	n__a_pas	R
+17l1l0	fuel	U
+17l1l1	hydrocarbures	S
+
+#Un rapport de recherche de pollution par PCB conclut que sur les 5 échantillons, un seul présente une teneur en PCB supérieure à la VDSS.
+
+18l1l0	PCB	S
+18l1l1	PCB	S
+
+#Un rapport de recherche de présence d’huiles végétales dans les sols,  mentionne sur 8 sondages d’échantillons de sol (de 1,4 à 3 m) des teneurs en matières grasses du même ordre que le fond géochimique g/kg) En l’absence d’un quelconque risque, le bureau d'étude ne préconise aucune action de réhabilitation particulière.
+
+
+#L’Evaluation Simplifiée des Risques (ESR) menée sur le site en prenant en compte un usage futur industriel conclut à un classement en classe 3 (site ne nécessitant pas d’autres investigations pour les conditions d’usage et d’environnement pour lesquelles l’ESR a été réalisée).
+
+20l0l0	L__Evaluation_Simplifiée_des_Risques	N
+20l0l1	le_site	O
+20l0l2	un_usage_futur_industriel	O
+20l0l3	classe_3	O
+
+#éanmoins l'exploitant a décidé, compte tenu de la pollution du PCB limitée dans l’espace, d’enlever les terres souillés et de procéder à leur élimination en centre habilité. le remblaiement de la fouille a été effectué au moyen d’un matériau d’apport sain de type argile compacté après remise en place au fond de la fouille d’une partie des matériaux non contaminés excavés lors de la purge.
+
+21l0l0	l__exploitant	O
+21l0l1	a_décidé	N
+21l0l2	d__enlever	N
+21l0l3	les_terres_souillés	O
+21l0l4	de_procéder_à_leur_élimination	N
+21l0l5	centre_habilité	O
+21l0l6	le_remblaiement	N
+21l0l7	la_fouille	O
+21l0l8	a_été_effectué	N
+21l0l9	remise_en_place_au_fond_de_la_fouille	N
+21l0l10	excavés	N
+21l0l11	la_purge	N
+21l1l0	PCB	S
+
+#Monsieur Le Maire de BIERNE nous ayant indiqué que le nouveau propriétaire envisageait la réalisation de lotissements à cet endroit,la prise de servitudes d’utilité publique nous semble nécessaire, servitudes visant à conditionner un futur usage de ces terrains autre qu’industriel à la réalisation d’investigations ultérieures et si nécessaire d’autres opérations de dépollution.
+
+22l0l0	Monsieur_Le_Maire_de_BIERNE	O
+22l0l1	ayant_indiqué	N
+22l0l2	le_nouveau_propriétaire	O
+22l0l3	envisageait	R
+22l0l4	la_réalisation_de_lotissements	N
+22l0l5	à_cet_endroit	L
+22l0l6	__la	N
+22l0l7	prise_de_servitudes_d__utilité_publique	O
+22l0l8	conditionner_un_futur_usage	N
+22l0l9	ces_terrains	O
+22l0l10	la_réalisation_d__investigations	N
+22l0l11	ultérieures	O
+22l0l12	si_nécessaire_d__autres_opérations_de_dépollution	N

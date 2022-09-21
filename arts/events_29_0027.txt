@@ -1,0 +1,247 @@
+
+#29.0027
+#La société THOMSON CSF a été autorisée à exploiter une installations de traitement de surface par arrêté préfectoral du 2 décembre 1976.
+
+0l0l0	La_société_THOMSON	O
+0l0l1	exploiter_une_installations_de	N
+
+#La société Thomson CSF est devenue la société THALES SYSTEMES AEROPORTES.
+
+1l0l0	La_société_Thomson_CSF	O
+1l0l1	est_devenue_la_société_THALES	N
+1l0l2	SYSTEMES_AEROPORTES__	O
+1l1l0	La_société_Thomson_CSF	I
+
+#Depuis 2006, l'activité de traitement de surface est arrêtée et plus aucun stockage de déchets de cette activité n'est présente.
+
+2l0l0	Depuis_2006___l__activité	O
+2l0l1	de_traitement	N
+2l0l2	de_surface_est_arrêtée_et_plus_aucun	O
+2l1l0	Depuis_2006___l__activité	I
+2l1l1	traitement_de_surface_est_arrêtée_et_plus_aucun	I
+
+#Le site est inclus dans l'emprise d'un établissement qui regroupe deux entreprises spécialisées dans la conception et la fabrication de matériels de détection radar (domaines civil et militaire) : les sociétés THALES AEROPORTES SYSTEMES (TAS) et THALES UNDERWATER SYSTEMS (TUS).
+
+3l0l0	Le_site_est_inclus	T
+3l0l1	dans_l__emprise_d__un_établissement	O
+3l0l2	qui_regroupe	N
+3l0l3	deux_entreprises_spécialisées	O
+3l0l4	dans_la_conception	O
+
+#En bordure est de l'établissement, la Marine Nationale dispose d'un captage pour l'alimentation en eau potable (AEP) dit de "Questeria" (DUP du 9/4/2002), inutilisé depuis le 31 décembre 2002, dont le périmètre de protection rapproché englobe la totalité de l'établissement.
+
+4l0l0	En_bordure	O
+4l0l1	est_de_l__établissement__	R
+4l0l2	la_Marine_Nationale	O
+4l0l3	un_captage_pour_l_	O
+4l0l4	alimentation	R
+4l0l5	en_eau_potable___AEP___dit_de___Questeria_____DUP_du_9_4_2002_____inutilisé	A
+4l0l6	depuis_le	A
+4l0l7	31_décembre	L
+4l0l8	2002___dont	A
+4l0l9	le_périmètre_de	O
+4l0l10	protection_rapproché_englobe	O
+4l0l11	de_l__établissement	O
+4l1l0	le_périmètre_de_protection_rapproché_englobe	I
+4l1l1	totalité_de_l__établissement	I
+4l1l2	_	S
+
+#Ce captage a été définitivement abandonné et la DUP abrogée par arrêté préfectoral du 15 janvier 2008.
+
+5l0l0	Ce_captage_a_été_définitivement	L
+5l0l1	abandonné_et_la_DUP_abrogée	O
+5l0l2	par_arrêté	R
+5l0l3	préfectoral	O
+5l1l0	abandonné_et_la_DUP_abrogée	I
+
+#Un puits à usage agricole (irrigation de cultures hors sol) a été recensé à l'aval hydraulique du site.
+
+6l0l0	Un_puits_à	O
+6l0l1	usage_agricole___irrigation_de_cultures	N
+6l0l2	hors_sol__	N
+6l0l3	a_été_recensé_à_l__aval	O
+6l0l4	hydraulique_du_site__	T
+
+#Jusque dans les années 1997/1998, l'exploitant déversait en vrac des déchets toxiques dans des cuves en béton dont l'étanchéité s'est dégradée au fil du temps (ces cuves ont été remplacées par une plate-forme étanche).
+
+7l0l0	Jusque_dans_les_années	O
+7l0l1	1997_1998___l__exploitant_déversait	O
+7l0l2	en_vrac_des	N
+7l0l3	déchets_toxiques_dans_des_cuves	L
+
+#Des investigations environnementales menées en 2000/2001 ont mis en évidence une pollution des sols et des eaux souterraines par des solvants chlorés (notamment du trichloréthylène, PCE, 1,2 cis-DCE)) et des métaux lourds.
+
+8l0l0	Des_investigations_environnementales	T
+8l0l1	menées_en	O
+8l0l2	2000_2001_ont_mis_en_évidence_une_pollution	N
+8l0l3	des_sols_et_des_eaux	O
+8l0l4	notamment_du	O
+8l0l5	trichloréthylène	N
+8l1l0	mis_en_évidence_une_pollution	U
+
+#Par suite, une étude simplifiée des risques (ESR) a été réalisée en 2002, conduisant à répertorier le site en classe 1 pour les sols (nécessitant des investigations complémentaires) et en classe 2 pour les eaux souterraines (nécessitant une surveillance).
+
+9l0l0	Par_suite___une_étude_simplifiée_des_risques___ESR	N
+9l0l1	__a_été_réalisée	T
+9l0l2	conduisant_à_répertorier	N
+9l0l3	le_site	O
+9l1l0	nécessitant_des_investigations_complémentaires___et_en_classe_2_pour_les_eaux_souterraines___nécessitant	S
+
+#Du fait de la présence du captage AEP de la Marine Nationale, un diagnostic approfondi et une étude détaillée des risques (EDR) ont été réalisés en 2002/2003 :
+
+10l0l0	la_présence_du_captage_AEP_de_la_Marine	N
+10l0l1	Nationale___un	N
+10l0l2	diagnostic	T
+10l0l3	détaillée	O
+
+#- solvants chlorés dans les gaz des sols :
+
+11l0l0	les_gaz_des_sols	O
+11l0l1	_	O
+11l1l0	sols__	I
+
+#* faibles concentrations dans l'atelier de surfaces et de la station de détoxication ;
+
+12l1l0	faibles_concentrations	S
+
+#* fortes concentrations au niveau du dépôt de produits chimiques et du stockage des déchets.
+
+13l0l0	chimiques_et_du_stockage_des_déchets	O
+13l1l0	stockage_des_déchets	U
+
+#- solvants chlorés dans les sols : pollution au niveau du dépôt de produits chimiques et du stockage des déchets.
+
+14l1l0	au_niveau_du_dépôt_de_produits	U
+
+#- solvants chlorés dans les eaux souterraines :
+
+15l1l0	solvants_chlorés	S
+
+#* fortes concentrations au niveau du stockage des déchets, du dépôt de produits chimiques, de l'atelier de traitement de surface, notamment => la pollution migre le long des canalisations des eaux usées et vers l'aval ;
+
+16l1l0	fortes_concentrations	S
+
+#* forte concentrations en hydrocarbures à l'aval du site ;
+
+
+#* faibles concentrations en métaux lourds et en solvants aromatiques ;
+
+18l0l0	en_métaux_lourds	O
+18l0l1	et_en_solvants	L
+
+#* pollution des eaux du captage de "Questéria".
+
+19l1l0	captage_de___Questéria	S
+
+#- risques sanitaires
+
+20l0l0	__risques_sanitaires	O
+
+#* absence de risque pour le personnel du site (dans des conditions pénalisantes) ;
+
+21l1l0	de_risque_pour_le_personnel_du_site___dans_des_conditions_pénalisantes____	S
+
+#* absence de risque pour l'utilisation du puits agricole ;
+
+
+#* présence d'un risque cancérigène pour le personnel de la Marine Nationale en cas de consommation de l'eau du captage de "Questéria".
+
+
+#Des recommandations ont été faites :
+
+
+#- en cas d'utilisation des eaux du captage de "Questéria", un suivi régulier des concentrations en solvants chlorés seront indispensables avant toute distribution ;
+
+
+#- l'utilisateur du puits agricole doit être informé de la qualité de l'eau de son forage et réaliser un suivi des teneurs en solvants chlorés s'il l'utilise pour son habitation.
+
+26l0l0	l_	R
+26l0l1	utilisateur_du_puits_agricole_doit_être_informé_de_la	L
+26l0l2	qualité_de_l__eau_de	A
+26l1l0	des_teneurs	U
+
+#Les conditions de déroulement de l'opération de dépollution, y compris la surveillance de la qualité des eaux souterraines, sont prescrites par l'arrêté préfectoral complémentaire du 15 décembre 2005.
+
+27l0l0	de_déroulement_de_l_	O
+27l0l1	opération_de	R
+27l0l2	dépollution___y_compris_la	O
+27l0l3	par_l__arrêté_préfectoral_complémentaire	A
+27l1l0	sont_prescrites	S
+
+#De plus, à l'issue des opérations de dépollution, des restrictions d'usage pourront être instaurées, en fonction de la pollution résiduelle.
+
+28l0l0	De_plus___à_l__issue	O
+28l0l1	de_dépollution___des_restrictions	N
+28l0l2	usage_pourront_être_instaurées___en_fonction_de_la_pollution	A
+28l0l3	résiduelle	N
+
+#La dépollution des sols et des eaux souterraines a consisté en un procédé combiné de "venting" et de "sparging" sur un an en 2005.
+
+29l0l0	dépollution_des	R
+29l0l1	sols_et_des_eaux_souterraines	N
+29l0l2	consisté_en_un_procédé	O
+29l0l3	combiné_de___venting___et_de___sparging	N
+
+#Des analyses de l'eau ont été assurées pendant l'opération de dépollution afin d’apprécier chaque trimestre l'évolution de la situation pour les substances solvants chlorés (TCE, PCE et cis-DCE).
+
+30l0l0	Des_analyses_de	N
+30l0l1	eau_ont_été_assurées	O
+30l0l2	évolution_de_la_situation_pour_les_substances_solvants_chlorés___TCE___PCE_et_cis___DCE____	T
+
+#En novembre 2005 :
+
+31l0l0	En_novembre_2005	N
+31l0l1	_	O
+
+#- 54 kg de TCE ont été extraits/traités à partir de l'installation "station de détoxication" ;
+
+32l0l0	__54_kg_de_TCE_ont_été	T
+
+#- 435 kg de TCE ont été extraits/traités à partir de l'installation "parc à déchets".
+
+33l0l0	de_TCE	O
+33l0l1	ont_été_extraits	N
+33l0l2	__traités	N
+33l0l3	à_partir_de	R
+33l0l4	l__installation	N
+33l0l5	déchets____	N
+33l1l0	de_TCE	S
+
+#Une deuxième opération de dépollution a été engagée en novembre 2006 : injection (pendant une semaine) de permanganate de potassium, stimulant la dégradation du produit.
+
+34l0l0	deuxième	O
+34l0l1	opération_de	N
+34l0l2	dépollution	N
+34l0l3	a_été_engagée	R
+34l1l0	deuxième	I
+
+#L'action du permanganate continue et fait toujours décroître les teneurs en TCE.
+
+35l0l0	L__action_du_permanganate_continue_et	N
+35l0l1	fait_toujours	N
+35l0l2	décroître_les	T
+35l0l3	teneurs_en_TCE	N
+
+#Le suivi de la qualité des eaux souterraines, de mai 2001 à mars 2015, montre :
+
+36l0l0	Le_suivi_de	N
+36l0l1	souterraines___de_mai_2001_à_mars_2015	N
+36l1l0	la_qualité_des_eaux	S
+
+#- des teneurs en TCE qui décroissent lentement mais régulièrement ;
+
+37l0l0	__des_teneurs	N
+37l0l1	en_TCE_qui_décroissent_lentement	O
+37l0l2	mais_régulièrement__	T
+
+#- aucun impact en hydrocarbures ;
+
+38l1l0	en_hydrocarbures	S
+
+#- des concentrations en métaux presque toujours inférieures aux limites de détection; des traces de métaux sont détectées de façon aléatoires sur les piézomètres.
+
+
+#Un allègement de la surveillance des eaux souterraines (nombre de piézomètres et paramètres) est en cours d'analyse.
+
+40l1l0	surveillance	S
+40l1l1	cours_d_	S

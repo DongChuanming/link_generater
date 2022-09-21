@@ -1,0 +1,176 @@
+
+#93.0076
+#La société BP exploite sur le site une station service depuis 1970.
+
+0l0l0	La_société_BP	O
+0l0l1	exploite	N
+0l0l2	une_station_service	O
+0l0l3	depuis_1970	T
+0l1l0	La_société_BP	I
+
+#À partir de 1988, le GO remplace partiellement le super.
+
+1l0l0	1988	T
+
+#La station service est en libre service sous surveillance.
+
+
+#Le site, sis 171 avenue Paul Vaillant Couturier, se situe dans une zone pavillonnaire.
+
+3l0l0	Le_site	O
+3l0l1	sis_171_avenue_Paul_Vaillant_Couturier__	L
+3l0l2	se_situe_dans_une_zone_pavillonnaire	L
+
+#Cependant, le terrain se trouve également à proximité d’un garage au Nord-Ouest, d’un bâtiment désaffecté à l’Ouest et d’un ancien garage à l’Est.
+
+4l0l0	le_terrain	O
+4l0l1	se_trouve_également_à_proximité_d__un_garage_au_Nord_Ouest	L
+4l0l2	un_bâtiment_désaffecté	O
+4l0l3	à	R
+4l0l4	l__Ouest	O
+4l0l5	un_ancien_garage	O
+4l0l6	à_l__Est	L
+
+#Une nappe se situe à environ 2,7 m de profondeur au droit du site, son écoulement suit la direction du Sud-Est.
+
+5l0l0	se_situe_à_environ	L
+5l0l1	2_7	T
+5l0l2	écoulement	O
+5l0l3	suit	R
+5l0l4	la_direction_du_Sud_Est	L
+
+#À la suite d’une plainte du voisinage pour pollution visant l’exploitant, un arrêté préfectoral imposant la dépollution du site est pris le 22/08/1997.
+
+6l0l0	une_plainte_du_voisinage	O
+6l0l1	pollution_visant	N
+6l0l2	l__exploitant	O
+6l0l3	un_arrêté_préfectoral	O
+6l0l4	imposant_la_dépollution	N
+6l0l5	du_site	O
+6l0l6	est_pris	N
+6l0l7	le_22_08_1997__	T
+
+#Un diagnostic initial réalisé en mai 1999 révèle une pollution aux hydrocarbures volatils dans les sols et la présence d’hydrocarbures surnageants dans la nappe à l’Est du site.
+
+7l0l0	Un_diagnostic_initial_réalisé	N
+7l0l1	en_mai_1999	T
+7l0l2	révèle	R
+7l0l3	une_pollution	N
+7l0l4	hydrocarbures	O
+7l0l5	la_présence	O
+7l0l6	à_l__Est_du_site	L
+7l1l0	hydrocarbures_volatils	S
+7l1l1	hydrocarbures_surnageants	U
+
+#Entre septembre 1999 et février 2000, l’exploitant procède à la dépollution du site par venting et sparging.
+
+8l0l0	Entre_septembre_1999_et_février_2000__	T
+8l0l1	l__exploitant	O
+8l0l2	procède_à	R
+8l0l3	la_dépollution	N
+8l0l4	du_site	O
+8l0l5	venting	N
+8l0l6	sparging	N
+
+#Six piézomètres sont posés en août 2003 et février 2004.
+
+9l0l0	Six_piézomètres	O
+9l0l1	sont_posés	N
+9l0l2	en_août_2003_et_février_2004__	T
+
+#A défaut de pouvoir procéder à des investigations des eaux souterraines hors site (pas d’accord du propriétaire du puits voisin pour ce faire), quatre des piézomètres sont positionnés en limite de propriété, en latéral (NPz4 et NPz1) et aval (Pz1 et NPz5) hydraulique, les deux autres piézomètres (NPz2 et NPz3) étant implantés au centre du site, à proximité des cuves et de la zone de dépotage.
+
+10l0l0	à_des_investigations	N
+10l0l1	des_eaux_souterraines_hors_site	A
+10l0l2	piézomètres	O
+10l0l3	positionnés_en_limite_de_propriété	L
+10l0l4	implantés_au_centre_du_site	L
+10l0l5	à_proximité_des_cuves_et_de_la_zone_de_dépotage	N
+
+#La réalisation de campagnes de prélèvement dans ces ouvrages en mars 2004 met en évidence la présence de teneurs élevées en hydrocarbures totaux, HAP (hydrocarbures aromatiques polycycliques) et BTEX (benzène, toluène, éthylbenzène, xylène) dans la nappe, ainsi que la présence d’hydrocarbures volatils dans l’air des sols sur une grande partie du site (panache gazeux centré sur la station).
+
+11l0l0	La_réalisation_de_campagnes_de_prélèvement	N
+11l0l1	ces_ouvrages	O
+11l0l2	en_mars_2004	T
+11l1l0	hydrocarbures_totaux	S
+11l1l1	HAP	S
+11l1l2	hydrocarbures_aromatiques_polycycliques	S
+11l1l3	BTEX	S
+11l1l4	benzène	S
+11l1l5	toluène	S
+11l1l6	éthylbenzène	S
+11l1l7	xylène	S
+11l1l8	hydrocarbures_volatils	S
+
+#Il apparaît que cette pollution est nouvelle et distincte de celle mise en évidence en 1996 et traitée en 1999.
+
+12l0l0	en_1996	T
+12l0l1	traitée	N
+12l0l2	en_1999	T
+
+#Un nouvel état zéro de la pollution est réalisé en en août 2004.
+
+13l0l0	Un_nouvel_état_zéro_de_la_pollution	O
+13l0l1	est_réalisé	N
+13l0l2	en_en_août_2004__	T
+
+#Il met en avant que le panache de pollution est centré autour des piézomètres NPz1 et Pz1.
+
+
+#Une nouvelle campagne de dépollution a donc lieu d’octobre 2004 à février 2007.
+
+15l0l0	Une_nouvelle_campagne_de_dépollution	N
+15l0l1	a_donc_lieu	N
+15l0l2	d__octobre_2004_à_février_2007__	T
+
+#L’exploitant procède dans ce cadre à un traitement des eaux souterraines par extraction double phase.
+
+16l0l0	L__exploitant	O
+16l0l1	un_traitement_des_eaux_souterraines	N
+
+#Des analyses des gaz du sol sont alors notamment menées pour le suivi de l’efficacité du traitement.
+
+17l0l0	le_suivi_de_l_	A
+17l0l1	efficacité_du_traitement	O
+
+#En 2007, les travaux de dépollution de la nappe sont terminés.
+
+18l0l0	En_2007__	T
+18l0l1	les_travaux_de_dépollution	N
+18l0l2	la_nappe	O
+18l0l3	sont_terminés	N
+
+#Il apparaît que les impacts résiduels restent principalement centrés sur le site, au droit des piézomètres NPz2 et NPz3.
+
+19l0l0	les_impacts_résiduels	O
+19l0l1	restent_principalement_centrés	R
+19l0l2	sur_le_site	L
+
+#Une surveillance semestrielle des eaux souterraines est maintenue.
+
+20l0l0	Une_surveillance_semestrielle	A
+20l0l1	eaux_souterraines	O
+
+#Les campagnes de 2007 et 2008 confirment l’absence d’hydrocarbures surnageants au droit de l’ensemble des ouvrages.
+
+21l0l0	Les_campagnes	N
+21l0l1	de_2007_et_2008	T
+21l1l0	hydrocarbures_surnageants	U
+
+#L’inspection des installations classées a demandé en juillet 2014 à l’exploitant à être rendue destinataire des derniers rapports de surveillance.
+
+22l0l0	L__inspection_des_installations_classées	O
+22l0l1	a_demandé	N
+22l0l2	en_juillet_2014	T
+22l0l3	l__exploitant	O
+22l0l4	surveillance	A
+
+#A réception de ces rapports, l’inspection des installations classées se prononcera sur les aménagements éventuels à apporter au suivi du site (ajustement de la fréquence de contrôle des eaux souterraines, ajout de campagnes complémentaires de mesures des gaz du sol, etc.).
+
+23l0l0	A_réception_de	N
+23l0l1	l__inspection_des_installations_classées	O
+23l0l2	se_prononcera	R
+23l0l3	sur_les_aménagements_éventuels	O
+23l0l4	suivi_du_site	O
+23l0l5	la_fréquence_de_contrôle	O
+23l0l6	des_eaux_souterraines	A

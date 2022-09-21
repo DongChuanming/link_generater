@@ -1,0 +1,304 @@
+
+#26.0037
+#La station service BP située à Livron sur Drôme au bord de la RN 7 est exploitée par la EURL DE LAURIERE.
+
+0l0l0	La_station_service_BP	O
+0l0l1	située_à_Livron_sur_Drôme_au_bord_de_la_RN_7	L
+0l0l2	est_exploitée	N
+0l0l3	la_EURL_DE_LAURIERE	O
+0l1l0	la_EURL_DE_LAURIERE	I
+
+#Dans le cadre de ses activités, la station service assure l'installation de remplissage ou de distribution de liquide inflammable (débit environ 100 m3/h), de stockage en réservoir de liquides inflammables (160 m3) et atelier d'entretien de véhicules.
+
+1l0l0	Dans_le_cadre_de	R
+1l0l1	ses_activités	A
+1l0l2	la_station_service	O
+1l0l3	assure_l__installation_de_remplissage_ou_de_distribution_de_liquide_inflammable	A
+1l0l4	entretien_de_véhicules	A
+1l1l0	liquide_inflammable	U
+1l1l1	liquides_inflammables	U
+
+#Des appels d'air récurrents sur le pompe en libre service de "super 98" ainsi que des écarts significatifs dans les jaugeages mensuels ont permis de détecter fin mars 2001 une fuite sur le tuyau qui assure la liaison entre la cuve de "super 98" et la pompe libre service.
+
+2l0l0	Des_appels	N
+2l0l1	d__air_récurrents	A
+2l0l2	ont_permis_de_détecter	N
+2l0l3	fin_mars_2001	T
+2l0l4	le_tuyau	O
+
+#Dès que la fuite a été détectée l'exploitant a immédiatement :
+
+3l0l0	Dès_que	T
+3l0l1	la_fuite_a_été_détectée	N
+3l0l2	l__exploitant	O
+
+#- mis hors service la pompe concernée,
+
+4l0l0	mis_hors_service	N
+4l0l1	la_pompe_concernée	O
+
+#- fait remplacer le tuyau défectueux,
+
+5l0l0	fait_remplacer	N
+5l0l1	le_tuyau_défectueux	O
+
+#- ajusté le niveau d'eau dans le système de détection de fuite au niveau des cuves.
+
+6l0l0	détection_de_fuite	A
+
+#La quantité de super perdue pendant la période 2000 à fin mars 2001 n'est pas connue précisément selon les estimations de l'exploitant mais pourrait être de 8000 litres.
+
+7l0l0	pendant_la_période_2000_à_fin_mars_2001	T
+7l1l0	super	U
+
+#La zone au droit du passage du tuyau défectueux est étanchée.
+
+8l0l0	La_zone_au_droit	O
+8l0l1	étanchée	O
+
+#Les habitations les plus proches se situent à 50 mètres environ à l'ouest du site (lotissement).
+
+9l0l0	Les_habitations	O
+9l0l1	les_plus_proches	O
+9l0l2	se_situent_à_50_mètres_environ_à_l__ouest_du_site	L
+
+#L'inspecteur des installations classées a, par ailleurs, pris l'attache de la DDASS afin d'identifier les captages en eau potable susceptibles d'être contaminés par la pollution éventuelle.
+
+10l0l0	L__inspecteur_des_installations_classées	O
+10l0l1	pris_l__attache_de	R
+10l0l2	la_DDASS	O
+10l0l3	d__identifier	R
+10l0l4	les_captages	O
+10l0l5	contaminés	O
+10l0l6	par	R
+10l0l7	la_pollution	O
+10l1l0	la_DDASS	I
+
+#Il s'avère que la commune de Livron est alimentée par un forage unique situé à environ 570 mètres au nord-ouest de la station service.
+
+11l0l0	la_commune_de_Livron	L
+11l0l1	alimentée_par_un_forage_unique	O
+11l0l2	situé_à_environ_570_mètres_au_nord_ouest_de_la_station_service	L
+
+#La station est située en limite extérieure du périmètre de protection éloigné de ce captage.
+
+12l0l0	La_station	O
+12l0l1	est_située_en_limite_extérieure_du_périmètre_de_protection_éloigné_de_ce_captage	L
+
+#Par AP du 14 juin 2001, l'exploitant a été mis en demeure :
+
+13l0l0	14_juin_2001__	T
+13l0l1	l__exploitant	O
+13l0l2	a_été_mis_en	N
+
+#- d'estimer la quantité de carburant rejeté dans le milieu naturel
+
+14l1l0	carburant_rejeté	U
+
+#- de faire procéder à toutes les études nécessaires pour définir la zone touchée.
+
+15l0l0	de_faire_procéder	N
+15l0l1	définir	N
+15l0l2	la_zone_touchée	O
+
+#Suivant les résultats obtenus, il sera demandé de dépolluer le site.
+
+16l0l0	dépolluer	N
+16l0l1	le_site	O
+
+#Un diagnostic des sols et des eaux souterraines a été réalisé en août et septembre 2001 dans la zone de l'ancienne conduite fuyarde.
+
+17l0l0	Un_diagnostic	N
+17l0l1	sols_et_des_eaux_souterraines	O
+17l0l2	a_été_réalisé	N
+17l0l3	en_août_et_septembre_2001	T
+17l0l4	dans_la_zone	L
+17l0l5	conduite_fuyarde	O
+
+#Dans les sols, cette étude a mis en évidence :
+
+
+#- une contamination gazeuse par des hydrocarbures volatils à partir de 4 mètres de profondeur,
+
+19l1l0	hydrocarbures_volatils	S
+
+#- l'absence de contamination des sols par des hydrocarbures adsorbés.
+
+20l1l0	hydrocarbures	S
+
+#Au niveau des eaux souterraines :
+
+
+#- la présence d'hydrocarbures flottants au toit de la nappe dans le piézomètre situé au droit de la fuite fuyarde (PZ1).
+
+22l0l0	le_piézomètre	O
+22l0l1	situé_au_droit_de_la_fuite_fuyarde	L
+22l1l0	hydrocarbures	S
+
+#Le 03 octobre 2001, l'épaisseur de flottant était de 50 cm dans ce piézomètre.
+
+23l0l0	Le_03_octobre_2001__	T
+
+#Etant donné l'incertitude sur le sens d'écoulement de la nappe (2 études contradictoires), les travaux suivants ont été entrepris à l'issue du premier diagnostic :
+
+24l0l0	les_travaux_suivants_ont_été_entrepris	N
+24l0l1	à_l__issue_du	R
+24l0l2	premier_diagnostic	N
+
+#- mise en sécurité du site avec l'installation d'un système d'écrémage statique au droit de PZ1 dans le but de récupérer le flottant au droit de la zone polluée et stockage des hydrocarbures récupérés dans une transi-cuve ;
+
+25l0l0	mise_en_sécurité	N
+25l0l1	du_site	O
+25l0l2	l__installation_d_	N
+25l0l3	un_système	O
+25l0l4	au_droit_de_PZ1	L
+25l0l5	au_droit_de_la_zone_polluée	O
+25l0l6	hydrocarbures	O
+25l0l7	transi	N
+25l1l0	hydrocarbures	S
+
+#- réalisation de 4 piézomètres complémentaires quadrillant la station dans les quatre directions autour du piézomètre existant (PZ1) afin de déterminer l'étendue de la pollution et le sens d'écoulement de la nappe.
+
+26l0l0	4_piézomètres	O
+26l0l1	quatre_directions	O
+
+#Les analyses réalisées sur les eaux souterraines issues de ces piézomètres ont montré une contamination par les hydrocarbures dissous et par des composés aromatiques volatils (BTEX) (Benzène jusqu'à 5300 µg/l, Toluène juqu'à 1600 µg/l, Ethylène jusqu'à 3400 µg/l, xylène jusqu'à 16700 µg/l).
+
+27l0l0	Les_analyses_réalisées	N
+27l0l1	les_eaux_souterraines	O
+27l1l0	hydrocarbures	S
+27l1l1	des_composés_aromatiques_volatils	S
+27l1l2	BTEX	S
+27l1l3	Benzène	S
+27l1l4	Toluène	S
+27l1l5	Ethylène	S
+27l1l6	xylène	S
+
+#L'ensemble des résultats à ce jour montre que l'extension de la lentille présente en PZ 1 est circonscrite autour de cette zone.
+
+28l0l0	autour_de_cette_zone	L
+28l1l0	la_lentille	U
+
+#Il est très difficile au vu des éléments collectés de définir même approximativement la quantité de carburant qui a pu se déverser dans le sol au droit de la fuite, le système d'écrémage statique mis en place au droit de la fuite dans le seul piézomètre présentant du surnageant a permis de récupérer 200 litres d'hydrocarbures et d'émulsion.
+
+29l0l0	carburant	O
+29l0l1	se_déverser_dans_le_sol	N
+29l0l2	au_droit_de_la_fuite	L
+29l0l3	200_litres_d__hydrocarbures	O
+29l0l4	émulsion	O
+29l1l0	carburant	U
+29l1l1	surnageant	U
+29l1l2	hydrocarbures	S
+
+#Le suivi réalisé sur ce piézomètre montre une faible recharge en surnageant.
+
+30l1l0	surnageant	U
+
+#Sur les autres piézomètres, aucune trace de surnageant n'a été relevée, mais les concentrations en BTEX et hydrocarbures de l'eau témoignent d'une pollution de la nappe phréatique dans une zone qui semble circonscrite autour de la fuite (environ 20 mètres).
+
+31l0l0	une_pollution	N
+31l0l1	la_nappe	O
+31l0l2	une_zone	O
+31l0l3	qui_semble	R
+31l0l4	circonscrite	N
+31l0l5	autour_de_la_fuite	L
+31l1l0	surnageant	U
+31l1l1	BTEX	S
+31l1l2	hydrocarbures	S
+
+#Le suivi réalisé dans ces piézomètres montre de grandes variations dans le temps des différents paramètres concernés.
+
+
+#Les dernières analyses réalisées fin juillet 2002 font état d'une baisse significative des concentrations en BTEX et en hydrocarbures dissous dans les piézomètres 4 et 5 situés au sud de la conduite fuyarde et l'augmentation de ces mêmes paramètres dans les piézomètres 2 et 3 situés au nord et au nord-ouest.
+
+33l0l0	Les_dernières_analyses_réalisées	N
+33l0l1	fin_juillet_2002	T
+33l0l2	une_baisse_significative	N
+33l0l3	les_piézomètres	O
+33l0l4	situés_au_sud_de_la_conduite_fuyarde	L
+33l0l5	l__augmentation	N
+33l0l6	situés_au_nord_et_au_nord_ouest	L
+33l1l0	BTEX	S
+33l1l1	hydrocarbures	S
+
+#Toutes les analyses réalisées dans l'eau du puits au sud-ouest du site (à 50 mètres de la conduite fuyarde) témoignent de l'absence de pollution par les hydrocarbures.
+
+34l0l0	au_sud_ouest_du_site	L
+34l0l1	à_50_mètres_de_la_conduite_fuyarde	L
+34l0l2	l__absence_de_pollution	N
+34l1l0	hydrocarbures	S
+
+#Il parait nécessaire de vérifier si la zone polluée s'étend au delà des 20 mètres de la conduite en direction du captage de Couthiol.
+
+35l0l0	la_zone_polluée	O
+35l0l1	au_delà_des_20_mètres_de_la_conduite	N
+35l0l2	en_direction_du_captage_de_Couthiol	L
+
+#En conséquence, l'administration a proposé à Monsieur le Préfet de la Drôme de faire réaliser par l'exploitant deux analyses d'eau à deux mois d'intervalle dans des puits, à l'ouest et au nord-ouest de la conduite fuyarde au-delà des piézomètres actuels.
+
+36l0l0	Monsieur_le_Préfet_de_la_Drôme	O
+36l0l1	de_faire_réaliser	N
+36l0l2	par_l__exploitant	O
+36l0l3	deux_analyses_d__eau	O
+36l0l4	à_deux_mois_d_	R
+36l0l5	des_puits	O
+36l0l6	à_l__ouest_et_au_nord_ouest_de_la_conduite_fuyarde_au_delà	L
+36l0l7	des_piézomètres_actuels	N
+36l1l0	le_Préfet	I
+36l1l1	de_la_Drôme	I
+
+#A l'issue de cette étape deux suites pourront être envisagées :
+
+
+#- poursuite de la surveillance en cas d'absence de pollution à l'extérieur du site en direction du captage,
+
+38l0l0	la_surveillance	A
+38l0l1	en_cas_d_	R
+38l0l2	absence_de_pollution	O
+38l0l3	à_l__extérieur_du_site	L
+38l0l4	en_direction_du_captage	L
+
+#- réalisation d'une étude complémentaire des risques générés par cette pollution.
+
+39l0l0	réalisation_d__une_étude_complémentaire_des_risques	N
+39l0l1	cette_pollution	N
+
+#Les analyses réalisées en 2006 montrent une concentration toujours importante dans le piezo1 qui n'avait pas été révélée en 2005.
+
+40l0l0	Les_analyses_réalisées	N
+40l0l1	en_2006	T
+40l0l2	n_	A
+40l0l3	avait_pas_été_révélée	N
+40l0l4	en_2005__	T
+40l1l0	piezo1	S
+
+#En effet, Les concentrations en hydrocarbures lourds sont supérieures à 34 000 µg/l au niveau de PZ1.
+
+41l1l0	hydrocarbures_lourds	S
+
+#Un courrier de relance a été envoyé à l'exploitant pour demander des analyses sur PZ1, PZ6 et puits station.
+
+42l0l0	a_été_envoyé	N
+42l0l1	l__exploitant	O
+42l0l2	demander_des_analyses	N
+
+#Les dernières analyses réalisées en janvier 2008 donnent les résultats suivants :
+
+43l0l0	Les_dernières_analyses_réalisées	N
+43l0l1	en_janvier_2008	T
+
+#- Pour le PZ1 : les concentrations mesurées se situent en dessous des valeurs guides à l’exception de deux paramètres qui sont le benzène et l'ETBE qui présentent des valeurs respectives de 24 et 188 µg/l.
+
+44l1l0	le_PZ1	S
+44l1l1	le_benzène	S
+44l1l2	l__ETBE	S
+
+#- Pour le puits de la station: ce puits qui se situe quelques dizaines de mètres en aval de PZ1 ne présente pas d'anomalie.
+
+45l0l0	le_puits	O
+45l0l1	la_station	O
+45l0l2	ce_puits	O
+45l0l3	se_situe_quelques_dizaines_de_mètres_en_aval_de_PZ1	L
+
+#Aucune des substances recherchées n'a été détectée.
+

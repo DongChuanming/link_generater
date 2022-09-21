@@ -1,0 +1,247 @@
+
+#72.0048
+#L’établissement est implanté au Nord-Est de la ville de MONCE EN BELIN, au lieu-dit « Les Luères ».
+
+0l0l0	L__établissement	O
+0l0l1	est_implanté_au_Nord_Est_de_la_ville_de_MONCE_EN_BELIN	L
+0l0l2	au_lieu___dit_____Les_Luères	L
+
+#Le site, d'une superficie de 27 869 m², a abrité une activité d’imprimerie de 1967 à septembre 2013 avec des changements d’exploitant successifs :
+
+1l0l0	Le_site	O
+1l0l1	a_abrité	R
+1l0l2	une_activité_d__imprimerie	A
+1l0l3	de_1967_à_septembre_2013	T
+
+#- LE CARILLON de 1967 à 1993 ;
+
+2l0l0	LE_CARILLON	O
+2l0l1	de_1967_à_1993	T
+
+#- ROTOMAINE de 1993 à 2001 ;
+
+3l0l0	de_1993_à_2001	T
+
+#- ROTOSUD de 2001 à 2002 ;
+
+4l0l0	ROTOSUD	O
+4l0l1	de_2001_à_2002	T
+4l1l0	ROTOSUD	I
+
+#- IPS de 2002 à 2013.
+
+5l0l0	de_2002_à_2013__	T
+
+#L'établissement avait pour activité principale la mise en page et l’impression de presse gratuite hebdomadaire, de presse périodique et de support publicitaire.
+
+6l0l0	L__établissement	O
+6l0l1	avait_pour_activité_principale_la_mise_en_page_et_l__impression_de_presse_gratuite	A
+
+#Les activités industrielles ont cessé définitivement en septembre 2013 et l’activité administrative s’est terminée en janvier 2015.
+
+7l0l0	Les_activités_industrielles	O
+7l0l1	ont_cessé_définitivement	N
+7l0l2	en_septembre_2013	T
+7l0l3	l__activité_administrative	O
+7l0l4	s__est_terminée	N
+7l0l5	en_janvier_2015__	T
+
+#Suite à l’étude historique du site et à une visite de site, des diagnostics de pollution ont été réalisé en 2014 prenant en compte les sources potentielles de pollution des sols et les enjeux environnementaux :
+
+8l0l0	Suite_à	R
+8l0l1	l__étude_historique_du_site	N
+8l0l2	une_visite_de_site	N
+8l0l3	des_diagnostics	N
+8l0l4	de_pollution	N
+8l0l5	ont_été_réalisé	N
+8l0l6	en_2014	T
+8l0l7	et_les_enjeux_environnementaux	O
+
+#- diagnostic initial des sols en mars 2014 ;
+
+9l0l0	__diagnostic_initial_des_sols	N
+9l0l1	en_mars_2014	T
+
+#- diagnostic approfondi des milieux en juin 2014 ;
+
+10l0l0	diagnostic_approfondi_des_milieux	N
+10l0l1	en_juin_2014	T
+
+#- diagnostic de la qualité de l’air du bureau en août 2014.
+
+11l0l0	diagnostic	N
+11l0l1	la_qualité_de_l__air_du_bureau	O
+11l0l2	en_août_2014__	T
+
+#Des sondages de sols (12) ont mis en évidence :
+
+12l0l0	Des_sondages_de_sols	N
+
+#- des anomalies en hydrocarbures totaux sur les sondages S4 (100 mg/kg MS) au niveau de l’ancien local d’encres et S8 (170 mg/kg MS) au niveau d’un stockage d’encres sans rétention dans l’atelier rotative ;
+
+13l0l0	hydrocarbures_totaux	O
+13l0l1	encres	O
+13l1l0	hydrocarbures_totaux	S
+
+#- une anomalie en arsenic sur le sondage S11 (36 mg/kg MS) à proximité de la fosse enterrée de récupération d’eau industrielle usée.
+
+14l0l0	arsenic	O
+14l0l1	à_proximité_de_la	L
+14l0l2	fosse_enterrée	N
+14l0l3	récupération_d__eau_industrielle_usée	A
+14l1l0	arsenic	S
+
+#Des investigations complémentaires (sondages à différentes profondeurs au niveau de S4, S8 et S11) ont permis de définir l’extension des anomalies détectées et la mise en place de 2 piézomètres a permis de caractériser l’impact éventuel sur les eaux souterraines.
+
+15l0l0	Des_investigations_complémentaires	N
+15l0l1	la_mise_en_place	N
+15l0l2	l__impact	O
+
+#Par ailleurs, des mesures du sol et d’air ambiant dans les bureaux attenants au sondage S4 ont été réalisées pour vérifier l’absence d’impact par inhalation pour les usagers des bureaux.
+
+16l0l0	des_mesures	N
+16l0l1	ont_été_réalisées	N
+
+#Les analyses ont mis en évidence les conclusions suivantes :
+
+
+#- une extension horizontale et verticale des anomalies en hydrocarbures totaux dans les sols autour de S4 sous le hangar, d’environ 10 m² sur 2 m d’épaisseur, soit un volume de 20 m³ ;
+
+18l0l0	une_extension_horizontale	N
+18l0l1	autour_de_S4	L
+18l0l2	sous_le_hangar	L
+18l1l0	hydrocarbures_totaux	S
+
+#- une extension horizontale limitée des anomalies en hydrocarbures totaux dans les sols autour de S8 dans l’atelier, d’environ 6 m² sur 1 m d’épaisseur, soit un volume de 6 m³ ;
+
+19l0l0	une_extension_horizontale_limitée	N
+19l1l0	hydrocarbures_totaux	S
+
+#- une extension horizontale et verticale des anomalies en arsenic dans les sols autour de S11 en extérieur,  d’environ 16 m² sur 2 m d’épaisseur, soit un volume de 32 m³ ;
+
+20l0l0	une_extension_horizontale	N
+20l0l1	anomalies	O
+20l0l2	arsenic	O
+20l0l3	les_sols	O
+20l0l4	autour_de_S11_en_extérieur	L
+20l1l0	arsenic	S
+
+#- l’absence d’anomalies dans les eaux souterraines sur les 2 piézomètres prouvant la non migration des pollutions de sols et l’absence de transfert dans la nappe ;
+
+
+#- une acceptabilité des terres polluées HORS site en ISDI (installations de stockage de déchets inertes) puisque la teneur en hydrocarbures totaux est inférieure à 500 mg/kg MS, les sols présentent donc des teneurs inférieures aux valeurs de référence.
+
+22l0l0	acceptabilité	O
+22l0l1	terres_polluées	O
+22l0l2	HORS_site	O
+22l1l0	hydrocarbures_totaux	S
+
+#- l’absence de cibles au niveau de S8 et S11 et donc l’absence de mesures de gestion recommandées sur ces zones ;
+
+23l0l0	ces_zones	O
+
+#- l’absence d’anomalie mesurée dans les gaz du sol (air sous dalle) dans le bureau à proximité de la zone S4, en lien avec les polluants retrouvés dans les sols mais une teneur en benzène dans l’air intérieur du bureau (0,0595 mg/m³) sans lien avec la contamination des sols (absence de benzène dans l’air sous la dalle) mais inférieure à la valeur limite d’exposition professionnelle (3,25 mg/m³).
+
+24l0l0	à_proximité_de_la_zone_S4	L
+24l1l0	les_polluants	U
+24l1l1	benzène	S
+24l1l2	benzène	S
+
+#Ces conclusions prouvent que le site a été remis dans un état tel qu’il ne présente pas de risque pour un usage industriel.
+
+25l0l0	le_site	O
+25l0l1	a_été_remis_dans_un_état_tel	N
+25l0l2	un_usage_industriel	A
+
+#Perspectives :
+
+
+#Les éléments suivants, actuellement effectifs sur le site, ont été pris en compte pour la proposition des usages :
+
+27l0l0	ont_été_pris_en_compte	N
+27l0l1	la_proposition_des_usages	O
+
+#- absence de jardins potagers ou d’arbres fruitiers ;
+
+
+#- forage condamné interdisant l’usage de l’eau souterraine ;
+
+29l0l0	interdisant	N
+29l0l1	l__usage_de_l__eau_souterraine	A
+
+#- absence d’eau de surface ;
+
+
+#- recouvrement de l’ensemble des zones présentant des anomalies sur site :
+
+
+#enrobé sur la zone S4,
+
+32l0l0	enrobé	N
+32l0l1	sur_la_zone_S4	L
+
+#béton sur la zone S8,
+
+33l0l0	béton	O
+33l0l1	sur	L
+33l0l2	la_zone_S8	O
+
+#engazonnement sur la zone S11.
+
+34l0l0	engazonnement	N
+
+#Ces mesures devront être respectées quel que soit le futur usage projeté.
+
+35l0l0	le_futur_usage_projeté	O
+
+#Les conditions de compatibilité ont été définies en fonction des investigations menées par l’APAVE en 2014.
+
+36l0l0	Les_conditions_de_compatibilité	O
+36l0l1	ont_été_définies_en	N
+36l0l2	des_investigations_menées	N
+36l0l3	l__APAVE	O
+36l0l4	en_2014__	T
+36l1l0	l__APAVE	I
+
+#Si des découvertes ultérieures étaient réalisées lors d’éventuels travaux d’aménagement/terrassement d’une zone, de nouvelles analyses devraient être programmées et de nouvelles mesures de gestion (excavation de terres polluées, recouvrement..) seraient à définir pour vérifier la compatibilité entre l’état des milieux et le projet/usage.
+
+37l0l0	des_découvertes_ultérieures	O
+37l0l1	d__éventuels_travaux	N
+37l0l2	d__aménagement	N
+37l0l3	terrassement	N
+37l0l4	de_nouvelles_analyses	N
+37l0l5	devraient_être_programmées	T
+37l0l6	de_nouvelles_mesures_de_gestion	O
+37l0l7	excavation_de_terres_polluées	N
+
+#Les restrictions à inclure dans l’acte de vente sont résumées ci-après :
+
+
+#- La zone S4 doit rester une zone de passage avec conservation du recouvrement bitumé.
+
+39l0l0	La_zone_S4	O
+39l0l1	doit_rester	R
+39l0l2	une_zone_de_passage	O
+39l0l3	recouvrement_bitumé	O
+
+#En cas de travaux de terrassement sur cette zone, des mesures de sécurité en phase chantier devront être envisagées avec gestion des terres impactées et réception des travaux par une société spécialisée afin de s’assurer de la compatibilité entre l’état des sols résiduels et l’usage (analyses résiduelles des sols après terrassement, mise en place d’un recouvrement, autres mesures de gestion, conservation de la mémoire…).
+
+40l0l0	En_cas	R
+40l0l1	de_travaux_de_terrassement	N
+40l0l2	cette_zone	O
+40l0l3	en_phase_chantier	T
+40l0l4	gestion_des_terres_impactées_et_réception	O
+40l0l5	des_travaux	N
+40l0l6	une_société	O
+40l0l7	sols_après_terrassement	N
+40l0l8	en_place_d__un_recouvrement	N
+
+#- Au niveau de la zone S8, le recouvrement de type béton ou équivalent (bitume) doit être conservé.
+
+
+#- Au niveau de la zone S11, le recouvrement de type gazon ou autre (béton/bitume/graviers) doit être conservé.
+
+
+#Enfin, la teneur en benzène dans le bureau sera à confirmer et interpréter en fonction de la réglementation relative au Code du Travail.
+
+43l1l0	benzène	S

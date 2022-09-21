@@ -1,0 +1,98 @@
+
+#08.0024
+#IDEAL STANDARD FRANCE (ex PORCHER puis SANIFRANCE puis AMERICAN STANDARD) exploite à REVIN une usine comportant des ateliers de fonderie, d'émaillerie et de céramique.
+
+0l0l0	IDEAL_STANDARD_FRANCE	O
+0l0l1	PORCHER	O
+0l0l2	SANIFRANCE	O
+0l0l3	AMERICAN_STANDARD	O
+0l0l4	__exploite_à	R
+0l0l5	REVIN	O
+0l0l6	une_usine	O
+0l0l7	comportant	R
+0l0l8	des_ateliers_de_fonderie	A
+0l0l9	émaillerie	A
+0l0l10	céramique	A
+0l1l0	IDEAL_STANDARD_FRANCE	I
+0l1l1	PORCHER_puis_SANIFRANCE	I
+0l1l2	AMERICAN_STANDARD	I
+
+#L'établissement fabrique essentiellement des baignoires.
+
+1l0l0	fabrique_essentiellement_des_baignoires	A
+
+#Un diagnostic initial et une évaluation simplifiée des risques ont été demandés par arrêté préfectoral du 21/05/1999 dans le cadre de la circulaire du 3 avril 1996.
+
+2l0l0	Un_diagnostic_initial_et_une_évaluation_simplifiée_des_risques	N
+2l0l1	ont_été_demandés	N
+2l0l2	par_arrêté_préfectoral	O
+2l0l3	21_05_1999	T
+2l0l4	3_avril_1996	T
+
+#La société GESTER a été missionnée par l'exploitant et a remis le diagnostic initial à l'automne 1999.
+
+3l0l0	La_société_GESTER	O
+3l0l1	a_été_missionnée_par	N
+3l0l2	l__exploitant	O
+3l0l3	a_remis_le_diagnostic_initial	N
+3l0l4	à_l__automne_1999__	T
+3l1l0	La_société_GESTER	I
+
+#L'étude a porté sur l'ensemble de l'usine.
+
+
+#Des traces de pollution au chrome 6 et hydrocarbures ont été décelées dans les sols.
+
+5l0l0	Des_traces_de_pollution	O
+5l0l1	hydrocarbures	O
+5l0l2	ont_été_décelées	N
+5l1l0	chrome_6	S
+5l1l1	hydrocarbures	S
+
+#L'impact sur les eaux souterraines est faible.
+
+6l0l0	L__impact	O
+
+#L'évaluation simplifiée des risques remise en juillet 1999 à l'inspection des installations classées conclut que le site est en classe 3 (site banalisable), pour son usage actuel.
+
+7l0l0	L__évaluation_simplifiée_des_risques_remise	N
+7l0l1	en_juillet_1999	T
+7l0l2	l__inspection_des_installations_classées	O
+7l0l3	conclut	R
+7l0l4	le_site	O
+7l0l5	est_en	R
+7l0l6	classe_3	O
+7l0l7	son_usage_actuel	A
+
+#Deux cuves a priori fuyardes doivent toutefois être enlevées ou réparées et mises sur rétention.
+
+8l0l0	Deux_cuves_a_priori_fuyardes	O
+8l0l1	doivent_toutefois_être_enlevées	N
+8l0l2	réparées_et_mises_sur_rétention	N
+8l1l0	cuves	D
+
+#Les travaux correspondants ont été effectués.
+
+9l0l0	Les_travaux	N
+9l0l1	ont_été_effectués	N
+
+#L'exploitant a déposé une demande d'autorisation d'exploiter au titre de la législation des installations classées en octobre 2006.
+
+10l0l0	L__exploitant	O
+10l0l1	a_déposé	N
+10l0l2	une_demande_d__autorisation	N
+10l0l3	d__exploiter	O
+10l0l4	au_titre_de	R
+10l0l5	la_législation_des_installations_classées	O
+10l0l6	en_octobre_2006__	T
+
+#L'étude d'impact n'indique pas de problème particulier sur la qualité des eaux souterraines.
+
+11l0l0	qualité_des_eaux_souterraines	O
+
+#Par ailleurs, tous les produits dangereux sont sur rétention et les sol est entièrement recouvert d'enrobé ou de béton.
+
+12l0l0	tous_les_produits_dangereux	O
+12l0l1	les_sol	O
+12l0l2	est	R
+12l1l0	les_produits_dangereux	U

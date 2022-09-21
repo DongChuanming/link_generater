@@ -1,0 +1,213 @@
+
+#76.0299
+#Les établissements Ducastel ont exploité pendant environ 25 ans une société de vente, entretien et réparation de machines et outillage agricole sur ce site.
+
+0l0l0	Les_établissements_Ducastel	O
+0l0l1	ont_exploité	N
+0l0l2	pendant_environ_25_ans	T
+0l0l3	une_société_de_vente	O
+0l0l4	entretien	A
+0l0l5	réparation_de_machines_et_outillage_agricole	A
+0l0l6	ce_site	O
+0l1l0	Les_établissements_Ducastel	I
+
+#Cette exploitation, non régulièrement déclarée a cessé ses activités définitivement le 31 mai 1995.
+
+1l0l0	Cette_exploitation	O
+1l0l1	déclarée	N
+1l0l2	a_cessé_ses_activités_définitivement	N
+1l0l3	le_31_mai_1995__	T
+
+#Suite à sa cessation d'activité, l'exploitant n'a pas procédé à la remise en état du site.
+
+2l0l0	Suite_à	R
+2l0l1	sa_cessation_d__activité	N
+2l0l2	l__exploitant	O
+2l0l3	n__a_pas_procédé_à_la_remise_en_état_du_site	N
+
+#En effet, il a été constaté lors d'une inspection du site en 1996 la présence de réservoirs enterrés non mis en sécurité ainsi que de diverses installations (aire de lavage et de distribution).
+
+3l0l0	a_été_constaté_lors_d_	N
+3l0l1	une_inspection	N
+3l0l2	du_site	N
+3l0l3	en_1996	T
+3l0l4	lavage_et_de_distribution	A
+
+#De plus il avait été observé la présence de traces d'hydrocarbures sur les sols.
+
+4l1l0	hydrocarbures	S
+
+#Un arrêté préfectoral complémentaire du 4 mai 2004 a ainsi imposé la réalisation d'une étude de sols et la mise en sécurité des réservoirs enterrés.
+
+5l0l0	Un_arrêté_préfectoral_complémentaire	O
+5l0l1	du_4_mai_2004	T
+5l0l2	a_ainsi_imposé	N
+5l0l3	la_réalisation_d__une_étude_de_sols	N
+5l0l4	la_mise_en_sécurité	N
+5l0l5	réservoirs_enterrés	O
+
+#Un diagnostic initial a été réalisé en juin 2004 pour le compte de l'exploitant.
+
+6l0l0	Un_diagnostic_initial	N
+6l0l1	a_été_réalisé	N
+6l0l2	en_juin_2004	T
+6l0l3	pour_le_compte_de	R
+6l0l4	l__exploitant	O
+
+#Ce diagnostic n'est pas accompagné d'analyses dans les sols ce qui rend ses conclusions peu étayées.
+
+7l0l0	Ce_diagnostic	N
+
+#L'étude conclut d'ailleurs à la nécessité de réaliser des investigations dans les sols.
+
+8l0l0	réaliser_des_investigations	N
+8l0l1	les_sols	N
+
+#Aucune suite à cette analyse n'a été communiquée aux services administratifs.
+
+
+#Suites à mener:
+
+
+#Compte tenu de l'ancienneté de ce dossier, il convient de s'enquérir de l'usage actuel du site et des études et travaux éventuellement menés.
+
+11l0l0	s__enquérir_de	R
+11l0l1	l__usage_actuel	N
+11l0l2	du_site	O
+11l0l3	des_études_et_travaux	N
+
+#L'IIC a relancé l'exploitant sur les actions de dépollution du site suite à l'inspection du 21 février 2014.
+
+12l0l0	L__IIC	O
+12l0l1	a_relancé	N
+12l0l2	l__exploitant	O
+12l0l3	les_actions_de_dépollution	N
+12l0l4	site	O
+12l0l5	suite_à	R
+12l0l6	l__inspection	N
+12l0l7	21_février_2014__	T
+
+#L'EPFN a mandaté un bureau d'étude pour déterminer la présence éventuelle de pollutions sur le site (prestation LEVE) en novembre 2012.
+
+13l0l0	L__EPFN	O
+13l0l1	a_mandaté	N
+13l0l2	un_bureau_d__étude	O
+13l0l3	déterminer	N
+13l0l4	la_présence_éventuelle_de_pollutions	O
+13l0l5	le_site	O
+13l0l6	prestation_LEVE	N
+13l0l7	en_novembre_2012__	T
+13l1l0	L__EPFN	I
+
+#Cette étude a abouti à un diagnostic de pollution des sols basé sur des forages.
+
+14l0l0	un_diagnostic_de_pollution_des_sols	N
+14l0l1	basé_sur	R
+14l0l2	des_forages	N
+
+#Cette seconde phase a été réalisée par le même bureau d'étude.  Ce rapport met en évidence un certain nombre d’anomalies et d’impacts liés aux installations à l'exploitation passée du site.
+
+15l0l0	Cette_seconde_phase	O
+15l0l1	a_été_réalisée	N
+15l0l2	le_même_bureau_d__étude	O
+15l0l3	l__exploitation_passée_du_site	A
+
+#Les cuves enterrées ayant contenu des hydrocarbures sont toujours présentes sur le site.
+
+16l0l0	Les_cuves_enterrées	O
+16l0l1	ayant_contenu_des_hydrocarbures	O
+16l0l2	sont_toujours_présentes	N
+16l1l0	Les_cuves_enterrées	D
+16l1l1	hydrocarbures	S
+
+#Les sondages ont mis en évidence la présence d'hydrocarbures aux niveaux des sondages S12 et S17.
+
+17l0l0	d__hydrocarbures	O
+17l1l0	hydrocarbures	S
+
+#Les investigations du site sur les 17 sondages présentent les résultats suivants :
+
+18l0l0	Les_investigations	N
+
+#- quelques teneurs en cadmium, cuivre et zinc supérieures à la gamme de valeurs pour des sols ordinaires ;
+
+19l1l0	cadmium	S
+19l1l1	cuivre	S
+19l1l2	zinc	S
+
+#- présence de traces de BTEX au droit du sondage S12 entre 1 et 2 mètres de profondeur ;
+
+20l0l0	au_droit_du_sondage_S12	L
+20l1l0	BTEX	S
+
+#- présence d'un bruit de fond en HAP dans les remblais et de quelques traces dans le terrain naturel au droit d'installations enterrées ;
+
+21l0l0	remblais	N
+21l0l1	au_droit_d__installations_enterrées	L
+21l1l0	HAP	S
+
+#- deux impacts en hydrocarbures (HCT et HAP dont naphtalène) au droit des sondages S12 et S17 ;
+
+22l0l0	deux_impacts	O
+22l0l1	au_droit_des_sondages_S12	L
+22l1l0	hydrocarbures	S
+22l1l1	HCT	S
+22l1l2	HAP	S
+22l1l3	naphtalène	S
+
+#- compatibilité des sols avec les critères d'acceptation en ISDI, hormis pour les terres reconnues impactées en hydrocarbures (sondages S6, S12 et S17).
+
+23l0l0	les_terres	O
+23l0l1	reconnues_impactées	N
+23l1l0	hydrocarbures	S
+
+#Suite aux conclusions de ce rapport, les demandes a minima pour le site sont les suivantes:
+
+24l0l0	Suite_aux	R
+24l0l1	les_demandes	O
+24l0l2	le_site	O
+
+#– vidange, dégazage et enlèvement de toutes les cuves enterrées avec élimination de celles-ci en filière spécialisée.
+
+25l0l0	__vidange___dégazage_et_enlèvement	N
+25l0l1	de_toutes_les_cuves_enterrées_avec_élimination	N
+25l1l0	les_cuves_enterrées	D
+
+#A l'issue et avant remblaiement, identification du niveau de pollution présent en fond et en bord de fouille.
+
+26l0l0	remblaiement	N
+26l0l1	fond_et_en_bord_de_fouille	L
+
+#En fonction des résultats, enlèvement et élimination des terres polluées excavées.
+
+27l0l0	enlèvement	N
+27l0l1	élimination	N
+27l0l2	des_terres_polluées	O
+27l0l3	excavées	N
+
+#Ces démarches devront comprendre, l’élimination de toutes les installations à risques enterrées sur le site,
+
+28l0l0	l__élimination	N
+28l0l1	de_toutes_les_installations_à_risques_enterrées	O
+
+#– suppression de toutes les sources sols de pollution,
+
+29l0l0	__suppression_de	N
+29l0l1	toutes_les_sources_sols_de_pollution	O
+
+#– réalisation d’analyses complémentaires, mise à jour de l'analyse des risques résiduels et actualisation du plan de gestion en tenant compte de l'usage ou des usages futurs du site.
+
+30l0l0	l__analyse_des_risques_résiduels	O
+30l0l1	et_actualisation_du_plan_de_gestion	N
+30l0l2	en_tenant_compte_de	R
+30l0l3	l__usage	N
+30l0l4	des_usages_futurs_du_site	A
+
+#L’enlèvement de la cuve enterrée de 22,5 m3 de fioul et la dépollution des terres avoisinantes devra faire l’objet d’une attention particulière.
+
+31l0l0	L__enlèvement_de_la_cuve_enterrée	N
+31l0l1	la_dépollution	N
+31l0l2	des_terres_avoisinantes	O
+31l0l3	devra_faire_l__objet	R
+31l1l0	la_cuve_enterrée	D
+31l1l1	fioul	U

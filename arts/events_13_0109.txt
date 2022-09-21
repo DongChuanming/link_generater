@@ -1,0 +1,207 @@
+
+#13.0109
+#ARCELLOR MITTAL MEDITERRANEE (Ex SOLLAC, Ex Solmer) à FOS -13-
+
+0l0l0	ARCELLOR_MITTAL_MEDITERRANEE	O
+0l0l1	à	R
+0l0l2	FOS	O
+0l1l0	ARCELLOR_MITTAL_MEDITERRANEE	I
+0l1l1	SOLLAC	I
+0l1l2	Solmer	I
+
+#Ce site en activité est implanté à Fos sur une superficie de 900 ha depuis la création de la zone industrialo-portuaire et est entré en service en 1973.
+
+1l0l0	Ce_site	O
+1l0l1	en_activité	O
+1l0l2	est_implanté	N
+1l0l3	à	R
+1l0l4	Fos	O
+1l0l5	ha	T
+1l0l6	depuis_la_création	N
+1l0l7	la_zone	O
+1l0l8	industrialo___portuaire	A
+1l0l9	est_entré_en_service	N
+1l0l10	en_1973	T
+
+#Il s'agit de sidérurgie intégrée (port minéralier, parc matières premières (minerai de fer, charbon), agglomération, cokerie, hauts fourneaux, aciérie, laminoirs, stockages de déchets, de co-produits sidérurgiques et de produits finis).
+
+2l0l0	sidérurgie	A
+2l0l1	aciérie	N
+2l0l2	laminoirs	A
+2l1l0	charbon	U
+
+#La capacité de production : 2 hauts fourneaux fonctionnant est de 4.500.000 T/an.
+
+3l0l0	2_hauts_fourneaux	O
+3l0l1	4_500_000_T__	O
+3l0l2	an	T
+
+#AP d'autorisation global : 20 janvier 1999.
+
+4l0l0	AP	O
+4l0l1	d__autorisation_global	N
+4l0l2	__20_janvier_1999__	T
+
+#Le site est autorisé par les AP du 17/12/2001, 4/07/2006, 16/01/2008, 07/07/2009.
+
+5l0l0	Le_site	O
+5l0l1	est_autorisé_par	N
+5l0l2	les_AP	O
+5l0l3	17_12_2001	T
+5l0l4	4_07_2006	T
+5l0l5	16_01_2008	T
+5l0l6	07_07_2009__	T
+
+#En 2006 SOLLAC devient ARCELORMITTAL Méditerranée « Site de Fos-sur-mer ».
+
+6l0l0	En_2006	T
+6l0l1	SOLLAC	O
+6l0l2	devient	N
+6l0l3	ARCELORMITTAL_Méditerranée	O
+6l0l4	__Site_de_Fos_sur_mer	L
+6l1l0	SOLLAC_devient_ARCELORMITTAL_Méditerranée	I
+6l1l1	de_Fos_sur_mer	S
+
+#L'ESR a classé le Site en catégorie 1. 4 points sources ont été mis en évidence par des dépôts de déchets.
+
+7l0l0	a_classé	N
+7l0l1	le_Site	O
+7l0l2	catégorie_1__	O
+7l0l3	4_points_sources	O
+7l0l4	ont_été_mis_en_évidence_par	N
+7l0l5	des_dépôts_de_déchets	N
+7l1l0	ESR	I
+
+#SOLLAC ayant lancé un plan de résorption totale de ces sources, il n'a donc pas été nécessaire de prescrire une EDR.
+
+8l0l0	SOLLAC	O
+8l0l1	ayant_lancé_un_plan_de_résorption_totale	N
+8l0l2	ces_sources	O
+8l0l3	prescrire_une_EDR	N
+8l1l0	SOLLAC	I
+
+#Plus précisément, SOLLAC a mis en œuvre  un plan d'action concernant la mise en conformité de l'aire de stockage de déchets spéciaux, l'évacuation de fûts et bennes remplis d'hydrocarbures et le décapage des sols pollués.
+
+9l0l0	SOLLAC	O
+9l0l1	a_mis_en_œuvre	N
+9l0l2	__un_plan	N
+9l0l3	d__action	N
+9l0l4	concernant_la_mise_en_conformité	N
+9l0l5	de_l__aire_de_stockage_de_déchets_spéciaux	O
+9l0l6	__l__évacuation_de_fûts	N
+9l0l7	et_bennes	O
+9l0l8	remplis_d__hydrocarbures	O
+9l0l9	et_le_décapage_des_sols_pollués	N
+9l1l0	SOLLAC	I
+9l1l1	de_déchets_spéciaux	U
+9l1l2	et_bennes_remplis	U
+9l1l3	d__hydrocarbures	S
+
+#Ainsi:
+
+
+#* Les sols pollués au niveau de la cokerie (SP2) ont été excavés et traités;
+
+11l0l0	Les_sols_pollués	O
+11l0l1	au_niveau_de	R
+11l0l2	la_cokerie	O
+11l0l3	ont_été_excavés_et_traités	N
+
+#* La station de prétraitement de déchets huileux (SP5) a été réaménagée par création d'une aire étanche avec rétention pour bennes, conteneurs  et füts et implantation d'un séparateur d'hydrocarbures;
+
+12l0l0	La_station_de_prétraitement_de_déchets_huileux	O
+12l0l1	a_été_réaménagée	N
+12l0l2	création_d_	N
+12l0l3	une_aire	O
+12l0l4	et_implantation_d_	R
+12l0l5	un_séparateur	O
+12l1l0	déchets_huileux	U
+12l1l1	d__hydrocarbures	S
+
+#* Les sols pollués d'un ancien stockage de fûts (SP 10) ont été excavés et traités; les vieux füts ont été éliminés.
+
+13l0l0	Les_sols_pollués	O
+13l0l1	un_ancien_stockage_de_fûts	O
+13l0l2	ont_été_excavés	N
+13l0l3	et_traités	N
+13l0l4	__les_vieux_füts	O
+13l0l5	ont_été_éliminés	N
+
+#* Une ancienne lagune non étanche (SP 14 bis) contenant des boues anciennes de laminoirs, d’aciéries et surtout de lavages de gaz de haut fourneaux font l'objet d'investigations approfondies suite à celles menées par le LECES; des essais de valorisation de ces boues sont en cours.
+
+14l0l0	Une_ancienne_lagune	O
+14l0l1	laminoirs	O
+14l0l2	lavages_de_gaz_de_haut_fourneaux	A
+14l0l3	font_l__objet_d_	R
+14l0l4	investigations_approfondies	N
+14l0l5	des_essais_de_valorisation	N
+
+#Le 5/02/2008, un rejet de fioul lourd dans le milieu naturel (Darse Sud) a eu lieu sur le site à cause d'une ouverture inopinée d'une soupape sur le circuit hydrocarbures liquides.
+
+15l0l0	Le_5_02_2008	T
+15l0l1	un_rejet_de_fioul_lourd	O
+15l0l2	Darse_Sud	L
+15l0l3	a_eu_lieu	N
+15l0l4	sur_le_site	L
+15l0l5	à_cause_d_	R
+15l0l6	une_ouverture_inopinée	N
+15l0l7	hydrocarbures_liquides	O
+15l1l0	fioul_lourd	U
+15l1l1	hydrocarbures_liquides	U
+
+#Un AP de mesures d'urgence a été signé le 12/02/2008 afin d'encadrer le nettoyage des zones souillées et la réalisation d'études permettant de ne pas reproduire cet incident.
+
+16l0l0	Un_AP_de_mesures_d_	O
+16l0l1	a_été_signé	N
+16l0l2	le_12_02_2008	T
+16l0l3	d__encadrer	R
+16l0l4	le_nettoyage	N
+16l0l5	zones_souillées	O
+16l0l6	la_réalisation_d__études	N
+
+#Des opérations de pompage ont été effectuées ainsi que la mise en place de barrages flottants et d'un curage des canaux. 453 tonnes de matériaux souillés ont été éliminés.
+
+17l0l0	Des_opérations	N
+17l0l1	de_pompage	O
+17l0l2	ont_été_effectuées	N
+17l0l3	ainsi_que	R
+17l0l4	la_mise_en_place_de_barrages_flottants	N
+17l0l5	un_curage	N
+17l0l6	canaux	O
+17l0l7	453_tonnes_de_matériaux_souillés	O
+17l0l8	ont_été_éliminés	N
+
+#Le 18/11/2009, ARCELORMITTAL a été condamné à une amende de 55 000 € par le TC d'Aix en Provence.
+
+18l0l0	Le_18_11_2009	T
+18l0l1	__ARCELORMITTAL	O
+18l0l2	a_été_condamné_à_une_amende_de	N
+18l0l3	55_000__	O
+18l0l4	le_TC_d_	O
+18l0l5	Aix_en_Provence	L
+18l1l0	ARCELORMITTAL	I
+18l1l1	le_TC_d__Aix	I
+
+#L’exploitant a réalisé des travaux pour éviter que cet incident ne se reproduise.
+
+19l0l0	L__exploitant	O
+19l0l1	a_réalisé	N
+19l0l2	des_travaux_pour_éviter	N
+
+#Une surveillance des eaux souterraines est mise en place depuis de longues années.
+
+20l0l0	Une_surveillance_des_eaux_souterraines	A
+20l0l1	est_mise_en_place	N
+20l0l2	depuis_de_longues_années	T
+
+#Une analyse critique sur le réseau de surveillance en place a été remise en Mai 2010.
+
+21l0l0	le_réseau_de_surveillance_en_place	O
+21l0l1	a_été_remise	N
+21l0l2	en_Mai_2010__	T
+
+#Le réseau piézométrique sera actualisé courant 2012.
+
+22l0l0	Le_réseau_piézométrique	O
+22l0l1	sera_actualisé	N
+22l0l2	courant_2012__	T

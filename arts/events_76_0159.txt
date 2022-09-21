@@ -1,0 +1,96 @@
+
+#76.0159
+#La société MAPRAL était spécialisée dans la récupération du zinc sur des déchets métalliques et plus accessoirement d'autres métaux : aluminium, cuivre, laiton.
+
+0l0l0	La_société_MAPRAL	O
+0l0l1	était	R
+0l0l2	spécialisée_dans_la_récupération_du_zinc	A
+0l0l3	déchets_métalliques	O
+0l0l4	laiton	A
+0l1l0	La_société_MAPRAL	I
+0l1l1	zinc	S
+0l1l2	aluminium	S
+0l1l3	cuivre	S
+
+#La société disposait de deux sites : l'unité de traitement d'une superficie de 2560 m² avec un bâtiment de 930 m² et l'unité de stockage des produits finis qui comprenait une zone de 10 000 m² utilisée pour le stockage et un terrain attenant de 14 110 m² qui n'a jamais été occupé.
+
+1l0l0	La_société	O
+1l0l1	deux_sites	O
+1l0l2	l__unité_de_traitement	O
+1l0l3	l__unité_de_stockage	O
+1l0l4	un_terrain_attenant	O
+1l0l5	a_jamais_été_occupé	T
+
+#Le court d'eau le plus proche est le ruisseau de Ganzeville, affluent de la rivière de Valmont, distant de 4 km au nord-est du site.
+
+2l0l0	Le_court_d__eau	O
+2l0l1	Ganzeville	L
+2l0l2	la_rivière_de_Valmont	L
+2l0l3	distant_de_4_km_au_nord_est_du_site	L
+
+#La principale ressource en eau souterraine est constituée de la nappe de la craie à une profondeur de 60m.
+
+
+#Le sens d'écoulement général de la nappe de la craie est orienté nord/nord-ouest.
+
+4l0l0	Le_sens	O
+4l0l1	orienté_nord___nord___ouest	L
+
+#Risques et nuisances :
+
+
+#Les actions réalisées par l'exploitant permettent d'assurer  un état tel qu'il ne s'y manifeste aucun des dangers ou inconvénients mentionnés à l'article L511-1 du code de l'environnement.
+
+6l0l0	l__exploitant	O
+
+#Actions menées:
+
+
+#Une étude simplifié des risques a été menée suite à la cessation d'activité de la société MAPRAL.
+
+8l0l0	Une_étude_simplifié_des_risques	N
+8l0l1	a_été_menée	N
+8l0l2	suite_à	R
+8l0l3	la_cessation_d__activité	N
+8l0l4	la_société_MAPRAL	O
+8l1l0	la_société_MAPRAL	I
+
+#Les conclusions de l'ESR (Evaluation Simplifiée des Risques) remise le 26 novembre 2001, préconisent la poursuite des investigations et donc la réalisation de l'EDR (Evaluation Détaillée des Risques).
+
+9l0l0	Les_conclusions	O
+9l0l1	le_26_novembre_2001__	T
+9l0l2	préconisent	R
+9l0l3	la_poursuite_des_investigations	N
+9l0l4	la_réalisation	N
+
+#Les conclusions de l'EDR remise le 4 juillet 2002 aboutissent à l'absence de risques sanitaires non tolérables pour un usage future de type industriel.
+
+10l0l0	le_4_juillet_2002	T
+
+#Suite à ces études des travaux de traitement ont été menés sur le site.  Au total, 584 tonnes de terres souillées de métaux lourds (zinc, plomb et cadmium) ont été excavées et transportées vers un centre d'enfouissement technique de classe 1.
+
+11l0l0	ces_études	O
+11l0l1	des_travaux_de_traitement	N
+11l0l2	ont_été_menés	N
+11l0l3	de_terres_souillées	O
+11l0l4	__ont_été_excavées_et_transportées_vers	N
+11l0l5	un_centre	O
+11l1l0	de_métaux_lourds___zinc___plomb_et_cadmium	S
+
+#l'inspection des installations classées a effectué une visite du site le 11 aout 2010 et a constaté que :
+
+12l0l0	l__inspection_des_installations_classées	O
+12l0l1	a_effectué_une_visite	N
+12l0l2	site	O
+12l0l3	le_11_aout_2010	T
+
+#- les batiments étaient occupés par deux entreprises non ICPE qui restent à usage industriel.
+
+13l0l0	les_batiments	O
+13l0l1	étaient_occupés	N
+13l0l2	deux_entreprises_non_ICPE	O
+
+#- le site est entierement clos, le sol est recouvert de béton ou d'un revetement bitumineux
+
+14l0l0	le_site	O
+14l1l0	bitumineux	I

@@ -1,0 +1,64 @@
+
+#51.0001
+#Pollution de la nappe au droit d'un dépôt d'hydrocarbure dont l'origine remonte à plus de 20 ans et dont les causes sont inconnues (sans doute fuites accidentelles, faits de guerre, ...).
+
+0l0l0	nappe_au_droit	A
+0l0l1	dépôt_d_	A
+0l0l2	hydrocarbure_dont_l__origine_remonte	O
+0l0l3	à_plus_de_20_ans_et	N
+
+#L'exploitation du dépôt a été confiée par décret en Conseil d'Etat du 24 février 1995 à la société française DONGES-METZ.
+
+1l0l0	L__exploitation_du_dépôt	O
+1l0l1	a_été_confiée_par	L
+1l0l2	Etat_du_24	O
+1l0l3	février_1995_à_la_société	T
+1l0l4	française_DONGES	O
+1l1l0	confiée_par	D
+1l1l1	décret_en_Conseil	S
+
+#Toutefois, ce site sensible pour la défense nationale est placé sous le contrôle des services de l'inspection des installations classées de la Défense.
+
+2l0l0	Toutefois___ce_site	N
+2l0l1	sensible	O
+2l0l2	pour_la_défense	N
+2l0l3	nationale_est_placé_sous	O
+2l0l4	le_contrôle_des	T
+2l0l5	services_de_l__inspection_des_installations	O
+2l1l0	services_de_l__inspection_des_installations	I
+
+#Le traitement de la pollution des eaux souterraines consiste en un rabattement de nappe suivi d'une séparation des hydrocarbures par filtration.
+
+3l0l0	eaux_souterraines	A
+3l0l1	consiste	R
+3l0l2	en_un_rabattement_de_nappe_suivi_d_	L
+3l0l3	une_séparation_des_hydrocarbures_par_filtration__	O
+3l1l0	filtration__	I
+
+#Les travaux de dépollution sont réglementés par un arrêté ministériel du 12 septembre 1996, modifié le 12 octobre 2000.
+
+4l0l0	ministériel_du_12_septembre_1996	N
+4l1l0	2000__	S
+
+#L'inspection des installations classées de la DRIRE a proposé au préfet en 2001 de solliciter les services de l'inspection des installations classées de la Défense afin que ceux-ci communiquent les résultats d'analyses de la surveillance de la qualité des eaux souterraines.
+
+5l0l0	L__inspection_des_installations_classées_de	N
+5l0l1	en_2001_de_solliciter_les_services	T
+5l0l2	de_l__inspection_des_installations_classées_de_la_Défense_afin_que_ceux___ci_communiquent_les_résultats_d__analyses_de_la_surveillance_de_la_qualité_des_eaux_souterraines__	T
+
+#L'inspection des installations classées de la DRIRE est dans l'attente de la transmission de ces documents.
+
+6l0l0	L__inspection_des_installations_classées	O
+6l0l1	la_DRIRE	O
+6l0l2	est_dans_l_	N
+6l0l3	attente	O
+6l0l4	de_la_transmission	T
+6l0l5	ces	O
+6l1l0	la_DRIRE	I
+
+#Aucun résultat n'a été transmis à l'inspection des installations classées qui va proposer prochainement au préfet de relancer les services de l'inspection des installations classées de la Défense.
+
+7l0l0	Aucun_résultat_n__a_été_transmis_à_l__inspection_des	O
+7l0l1	installations_classées_qui_va_proposer	N
+7l0l2	prochainement_au	O
+7l1l0	inspection_des_installations	I

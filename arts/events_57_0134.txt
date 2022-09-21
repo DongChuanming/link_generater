@@ -1,0 +1,319 @@
+
+#57.0134
+#En mars 1964, une blanchisserie industrielle est construite au droit d'une ancienne carrière de sable.
+
+0l0l0	En_mars_1964	O
+0l0l1	__une	N
+0l0l2	blanchisserie_industrielle	O
+0l0l3	est_construite	T
+0l0l4	au_droit	T
+0l1l0	est_construite	I
+
+#Le site d'une superficie de 2 hectares comporte un bâtiment de 2000 m2.
+
+1l0l0	Le_site_d__une_superficie	N
+1l0l1	de_2_hectares	O
+1l0l2	comporte	T
+1l0l3	un_bâtiment	O
+1l1l0	un_bâtiment	I
+
+#Le linge était, pour partie, lavé par voie sèche au moyen de perchloroéthylène.
+
+2l0l0	Le_linge_était	O
+2l0l1	perchloroéthylène	T
+
+#A partir de 2000, le linge a été uniquement lavé par voie humide, c'est à dire eau et lessive.
+
+3l0l0	A_partir_de	T
+3l0l1	2000___le_linge_a_été_uniquement_lavé	O
+3l0l2	par_voie_humide	N
+3l0l3	__c__est_à_dire_eau_et_lessive__	L
+
+#Les eaux de process chargées en perchloroéthylène étaient occasionnellement rejetées dans l'étang, par débordement en cas de défaillance du système de relevage qui dirige les eaux vers le réseau d'assainissement communal.
+
+4l0l0	Les_eaux	O
+4l0l1	perchloroéthylène_étaient	O
+4l0l2	occasionnellement	O
+
+#La société RLD, dont les activités étaient soumises à autorisation (arrêté préfectoral du 27 juillet 1979 modifié par arrêté préfectoral du 22 novembre 2000 et par arrêté préfectoral du 3 juillet 2001), a cessé le fonctionnement de sa blanchisserie industrielle de LONGEVILLE-LES-SAINT-AVOLD le 22 juin 2006.
+
+5l1l0	autorisation___arrêté_préfectoral	S
+
+#A ce titre, elle doit remettre en état le site dans un état tel qu'il ne puisse porter atteinte aux intérêts mentionnés à l'article L.511-1 du Code de l'environnement et qu'il permette un usage futur de type industriel.
+
+6l0l0	A_ce_titre___elle	T
+6l0l1	doit_remettre	O
+6l0l2	en_état_le_site_dans	N
+6l0l3	un_état_tel_qu_	O
+
+#Les terrains d'emprise et les bâtiments où s’exerçaient les activités de la société RLD sont désormais propriété de la SCI JUNGFERLOCH.
+
+7l0l0	Les_terrains_d__emprise	O
+7l0l1	société_RLD_sont	R
+7l0l2	désormais	O
+7l0l3	propriété_de_la_SCI	L
+7l1l0	Les_terrains_d__emprise	U
+7l1l1	bâtiments_où_s__exerçaient	S
+
+#La société RLD dispose d'un bail lui permettant d'accéder à certains locaux du site pour l'entretien la maintenance et la surveillance du dispositif de venting qu'elle a mis en place pour la dépollution des sols sous-jacents.
+
+8l0l0	La_société_RLD	O
+8l0l1	dispose_d__un_bail_lui_permettant_d_	O
+8l0l2	accéder_à_certains	N
+8l0l3	entretien_la_maintenance	T
+8l0l4	et_la_surveillance_du	O
+8l0l5	dispositif_de_venting	T
+8l0l6	qu__elle_a_mis_en_place_pour	O
+8l0l7	la_dépollution	T
+8l0l8	des_sols_sous_jacents__	N
+8l1l0	La_société_RLD	I
+
+#Les bâtiments abritent plusieurs entreprises.
+
+9l0l0	bâtiments	O
+9l0l1	abritent_plusieurs	N
+9l0l2	entreprises__	O
+
+#Certains locaux sont ouverts au public.
+
+10l0l0	Certains_locaux_sont	O
+10l0l1	ouverts_au_public__	O
+
+#Suite au constat d’une pollution des sols et des eaux souterraines aux solvants chlorés, la société RLD s’est vue prescrire, par différents arrêtés préfectoraux :
+
+11l0l0	Suite_au_constat	O
+11l0l1	__la_société_RLD	O
+11l0l2	s__est_vue_prescrire___par_différents_arrêtés_préfectoraux	O
+11l1l0	Suite_au_constat	I
+
+#- des investigations complémentaires : une étude hydrogéologique par arrêté préfectoral n° 2006-AG/2-102 du 17 mars 2006 et des études sur le fonctionnement de la nappe perchée et sur l'extension de la pollution dans la nappe des Grès du Trias Inférieur (GTi) par arrêté préfectoral n°2013-DLP/BUP-320 du 21 novembre 2013 ;
+
+12l0l0	__des_investigations	O
+
+#-  la mise en place d'un dispositif complémentaire de traitement des sols et de la nappe perchée (par arrêté préfectoral n°2012-DLP/BUP-269 du 26 avril 2012) associé à un suivi de l'efficacité du dispositif de traitement ;
+
+13l0l0	____la_mise_en_place	O
+13l0l1	d__un_dispositif_complémentaire	N
+
+#-  la surveillance régulière de l'air ambiant des locaux, de la qualité des eaux de l'étang et des eaux souterraines (nappe perchée et nappe des Grès du Trias Inférieur (GTi)) ; le programme de suivi a été mis à jour par l'arrêté préfectoral n°2015-DLP/BUPE-288 du 18 septembre 2015.
+
+14l0l0	____la	R
+14l0l1	surveillance_régulière_de_l_	N
+14l0l2	air	O
+14l0l3	ambiant_des_locaux___de_la_qualité	A
+14l0l4	étang_et_des_eaux	O
+14l0l5	souterraines___nappe	N
+14l0l6	perchée_et_nappe_des_Grès_du_Trias_Inférieur	O
+14l1l0	de_l__étang	S
+14l1l1	et_des_eaux_souterraines	I
+
+#Pour rappel, la nappe des eaux souterraines située au droit du site constitue la principale ressource en eau du secteur.
+
+15l0l0	Pour_rappel___la_nappe_des_eaux_souterraines	N
+15l0l1	située_au_droit_du_site	N
+15l0l2	constitue_la_principale	O
+15l0l3	secteur__	T
+
+#Le site RLD se situe à environ 1,3 km d'un captage situé au Nord du site dans le champ captant du WINBORN.
+
+16l0l0	Le_site_RLD_se_situe_à_environ_1_3_km_d__un_captage_situé_au_Nord_du_site	N
+16l0l1	WINBORN__	O
+
+#Il existe également un captage AEP à FOLSCHVILLER à l'Est-Sud-Est du site à environ 1,5 km.
+
+17l0l0	Il_existe_également_un_captage	A
+17l0l1	Est_Sud_Est_du_site_à_environ	O
+
+#* DIAGNOSTIC INITIAL :
+
+
+#Les investigations diligentées dans ce cadre ont mis en évidence :
+
+19l0l0	Les	O
+19l0l1	investigations_diligentées_dans_ce_cadre_ont_mis_en_évidence__	L
+
+#- une contamination des sols du bâtiment par du perchloroéthylène (PCE) au droit des anciennes installations de nettoyage à sec et stockage PCE n°1 et n°2 ;
+
+20l0l0	des_sols_du	O
+20l0l1	bâtiment_par_du	L
+20l0l2	perchloroéthylène___PCE___au	L
+20l0l3	droit_des_anciennes_installations_de_nettoyage_à_sec_et_stockage_PCE_n__1_et_n__2__	L
+
+#- une contamination en composés organiques halogénés volatils (COHV) dans l’air des locaux au niveau bas du bâtiment ;
+
+21l0l0	une_contamination	N
+
+#- un impact en hydrocarbures et chlorure de vinyle sur les eaux de l’étang ;
+
+22l0l0	__un_impact_en_hydrocarbures_et_chlorure	N
+
+#- une forte contamination des eaux souterraines par du perchloroéthylène (en 2010, des teneurs comprises entre 45 et 110 000 µg/l en perchloroéthylène ont été mises en évidence).
+
+23l0l0	une_forte_contamination	N
+23l0l1	des_eaux_souterraines	O
+23l0l2	perchloroéthylène___en_2010___des_teneurs	L
+23l0l3	comprises_entre_45_et_110_000_µg___l_en_perchloroéthylène	A
+23l1l0	souterraines_par_du_perchloroéthylène	S
+
+#Des premières mesures d’urgence ont été mises en place en 2007.
+
+24l1l0	d__urgence_ont_été_mises_en	S
+24l1l1	place_en_2007__	S
+
+#Un plan de gestion a été remis en 2010 et le panel des mesures de gestion mises en place a été complété.
+
+25l1l0	gestion_a_été_remis	S
+25l1l1	2010_et_le_panel_des	S
+
+#* TRAITEMENT DES SOLS ET DE LA NAPPE PERCHEE
+
+
+#Une première installation dénommée "venting 1" a été en fonctionnement de novembre 2007 à juin 2008 puis de septembre 2009 à novembre 2013.
+
+27l0l0	Une_première_installation_dénommée	O
+27l0l1	__venting_1___a_été_en	N
+27l0l2	fonctionnement_de_novembre_2007_à_juin_2008_puis_de_septembre_2009_à_novembre_2013__	T
+
+#Elle était composée d'une quarantaine de puits de venting et d'une unité de traitement de l'air sur charbon actif.
+
+28l0l0	Elle_était_composée	O
+28l0l1	d__une	N
+28l0l2	quarantaine	T
+28l0l3	de_puits_de_venting_et_d__une	O
+28l0l4	unité_de_traitement	N
+28l0l5	de_l__air_sur	N
+
+#Le venting 1 aurait permis l'extraction, lors de la première phase, de 2400 kg de COHV et, lors de la seconde phase, de 1167 kg COHV.
+
+29l0l0	Le_venting_1_aurait	N
+29l1l0	l__extraction___lors_de_la_première_phase___de_2400_kg_de_COHV_et___lors_de_la_seconde_phase___de_1167_kg_COHV__	I
+
+#En octobre 2012, l'installation dénommée "venting 2" a été mise en place avec 6 nouveaux puits de venting auxquels ont été raccordés, en novembre 2013 lors de l'arrêt du venting 1, les 6 puits encore productifs du venting 1.
+
+30l0l0	En_octobre_2012___l__installation	O
+30l0l1	venting_2___a_été_mise_en_place	N
+30l0l2	avec_6_nouveaux_puits_de_venting	T
+30l0l3	auxquels_ont_été_raccordés___en_novembre_2013_lors_de_l__arrêt_du_venting_1___les_6_puits_encore_productifs_du_venting_1__	T
+
+#Cette installation a été complétée par une installation de pompage-stripping dans l'objectif de traiter les pollutions de la nappe perchée et d'améliorer les performances du venting en dénoyant une partie de la zone saturée des sols.
+
+31l0l0	complétée_par_une_installation_de	O
+31l0l1	pompage___stripping_dans_l_	O
+31l0l2	traiter_les_pollutions	O
+31l1l0	traiter_les_pollutions	U
+
+#Pour ce faire, 9 puits sont, en juillet 2017, équipés de pompes.
+
+32l0l0	__en_juillet_2017	N
+
+#Le suivi du traitement est effectué conformément aux prescriptions de l'arrêté préfectoral du 18 septembre 2015 (mesures PID au niveau des puits de venting, mesures de la concentration en COHV en sortie du dispositif de traitement dans l'air extrait (par prélèvement sur charbon actif) et dans l'eau pompée, suivi de la dépression).
+
+33l0l0	Le_suivi_du_traitement	T
+33l0l1	est_effectué_conformément_aux	O
+33l0l2	prescriptions_de_l_	N
+33l0l3	arrêté_préfectoral_du_18_septembre	O
+33l0l4	__mesures_PID_au_niveau	N
+33l0l5	des_puits_de_venting	T
+33l0l6	__mesures	N
+33l0l7	de_la_concentration	O
+33l0l8	en_COHV_en_sortie_du	N
+33l0l9	dispositif_de	N
+
+#Le bilan d'exploitation de l'année 4, transmis en 2017, met en évidence les points suivants :
+
+34l0l0	Le_bilan_d__exploitation	O
+34l0l1	de_l__année	N
+34l0l2	transmis_en_2017___met_en_évidence	O
+34l0l3	les_points	A
+
+#- pour l'unité de venting 2 : un bilan d'extraction de 1 408 kg de COHV dont 166 kg sur la dernière année.
+
+35l0l0	de_venting	O
+35l0l1	2	N
+35l0l2	un_bilan_d__extraction	T
+35l0l3	de_1_408_kg_de	N
+
+#- pour l'unité de pompage-stripping : un bilan d'extraction de 78 kg de COHV dont 15 kg sur la dernière année.
+
+36l0l0	__pour_l__unité_de_pompage	N
+36l0l1	COHV_dont_15_kg_sur_la_dernière	O
+36l0l2	année__	T
+
+#Le bureau d'études indique que, même si cette quantité ne représente que 5% des quantités globales de COHV extraits, le pompage/stripping permet d'optimiser le traitement par venting à forte dépression et de limiter le risque de transfert de polluants vers la nappe GTi sous-jacente.
+
+37l0l0	Le_bureau_d__études_indique	O
+37l0l1	que___même	T
+37l0l2	quantité_ne	T
+
+#* EXTENSION DE LA POLLUTION AFFECTANT LA NAPPE DES GRES DU TRIAS INFERIEUR
+
+38l0l0	TRIAS_INFERIEUR	O
+38l1l0	TRIAS_INFERIEUR	S
+
+#Parallèlement, des investigations complémentaires ont été demandées à la société RLD par arrêté préfectoral du 21 novembre 2013 afin :
+
+39l0l0	Parallèlement___des	O
+39l0l1	investigations	A
+39l0l2	par_arrêté_préfectoral	T
+39l1l0	demandées_à_la	S
+
+#- de préciser les relations entre nappe perchée et nappe profonde (nappe des Grès du Trias Inférieur appelée nappe GTI) ;
+
+40l0l0	__de_préciser_les_relations	O
+40l0l1	_	A
+40l1l0	appelée	S
+
+#- de préciser le rayon d'action des puits de pompage de la nappe perchée ;
+
+41l0l0	de_préciser	N
+41l0l1	le_rayon_d_	N
+41l0l2	action	A
+41l0l3	des_puits	R
+41l0l4	pompage_de_la_nappe_perchée__	O
+41l1l0	le_rayon_d__action_des	I
+41l1l1	pompage_de_la_nappe_perchée__	I
+
+#- de préciser les actions qu'elle compte mener compte tenu de la présence supposée de solvants chlorés en phase pure ;
+
+42l0l0	actions_qu__elle_compte_mener_compte	O
+42l0l1	tenu_de_la_présence	N
+42l0l2	supposée_de_solvants	O
+42l0l3	pure__	T
+42l1l0	supposée_de_solvants	I
+
+#- d'interpréter l'évolution de concentration en perchloréthylène (PCE) ;
+
+
+#- de fournir une stratégie d'investigations complémentaires.
+
+44l0l0	investigations	A
+44l0l1	complémentaires__	O
+
+#La société RLD a remis à l’Inspection des Installations Classées, par transmission du 21 avril 2017, le rapport « Investigations complémentaires de la nappe des Grès du Trias Inférieur à l’aval hydraulique du site », réalisé par la société AECOM, référencé OBR-RAP-17-01348A et daté du 13 avril 2017.
+
+45l1l0	du_21_avril_2017___le	U
+
+#Les éléments transmis par l'exploitant sont de nature à répondre à l'arrêté préfectoral.
+
+46l1l0	nature_à_répondre_à_l__arrêté	S
+
+#Seules des traces de COHV ont été mis en évidence un aval hydraulique du site.
+
+
+#* SURVEILLANCE DES MILIEUX
+
+48l0l0	__SURVEILLANCE_DES_MILIEUX	N
+48l1l0	__SURVEILLANCE	I
+
+#Conformément à son arrêté préfectoral, l'exploitant exerce une surveillance semestrielle de la qualité de la nappe GTi (8 ouvrages), de la  qualité de la nappe superficielle (8 ouvrages) et des eaux de l'étang ainsi qu'une surveillance trimestrielle de la qualité de l'air intérieur des bâtiments du site.
+
+49l0l0	préfectoral__	O
+
+#Il convient de noter, sur ce dernier point, que, lors des campagnes de 2017, du tétrachloroéthylène est détecté sur l’ensemble des points de prélèvements avec une concentration maximale mesurée de 11,5 µg/m3 en février 2017, très inférieure à la valeur repère air intérieur définie par le Haut Conseil de la Santé Publique en 2012 (250 µg/m3).
+
+50l0l0	lors_des_campagnes_de	O
+50l1l0	__sur	S
+
+#Les autres composés mesurés ne sont pas détectés.
+
+51l0l0	autres_composés_mesurés_ne_sont_pas_détectés__	O

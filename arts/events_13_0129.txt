@@ -1,0 +1,163 @@
+
+#13.0129
+#PECHINEY SOFTAL - Aubagne
+
+0l0l0	PECHINEY_SOFTAL	O
+0l0l1	Aubagne	L
+0l1l0	PECHINEY_SOFTAL	I
+
+#* Le site est situé en bordure immédiate de l'huveaune en rive droite et se trouve sur une plate forme remblayée d'une épaisseur de 2,5 à 3 m.
+
+1l0l0	Le_site	O
+1l0l1	est_situé_en_bordure_immédiate_de_l__huveaune	L
+1l0l2	en_rive_droite	L
+1l0l3	se_trouve_sur_une	L
+1l0l4	plate_forme_remblayée	O
+
+#* La société CEGEDUR (filiale du groupe PECHINEY) exploitait depuis 1975 en ZAC Saint Mitre à Aubagne,une usine de fabrication de profilés en aluminium.
+
+2l0l0	La_société_CEGEDUR	O
+2l0l1	groupe_PECHINEY	O
+2l0l2	exploitait	R
+2l0l3	depuis_1975	T
+2l0l4	en_ZAC_Saint_Mitre_à_Aubagne__	L
+2l0l5	une_usine_de	N
+2l0l6	fabrication_de_profilés_en_aluminium	A
+2l1l0	La_société_CEGEDUR	I
+2l1l1	groupe_PECHINEY	I
+
+#L'usine a été créée en 1974 sur un site vierge.
+
+3l0l0	L__usine	O
+3l0l1	a_été_créée	N
+3l0l2	en_1974	T
+3l0l3	sur_un_site_vierge	L
+
+#* Devenue société Pechiney Softal en 1989, l'établissement soumis à déclaration pour ses activités principales de travail mécanique des métaux et ateliers de cémentation/nitruration, a cessé ses activités le 31 juillet 2003.
+
+4l0l0	Devenue	N
+4l0l1	société_Pechiney_Softal	O
+4l0l2	en_1989	T
+4l0l3	l__établissement	O
+4l0l4	ses_activités_principales_de_travail_mécanique_des_métaux_et_ateliers_de_cémentation___nitruration	A
+4l0l5	a_cessé_ses_activités	N
+4l0l6	le_31_juillet_2003__	T
+4l1l0	Devenue_société_Pechiney_Softal	I
+
+#* Les travaux de remise en état du site ont consisté en :
+
+5l0l0	Les_travaux_de_remise_en_état_du_site	N
+
+#- la décontamination des sols de l'atelier de nitruration , purge du sol pollué avant remblaiement et évacuation de la dalle en béton contaminée en centre autorisé
+
+6l0l0	la_décontamination	N
+6l0l1	des_sols	N
+6l0l2	l__atelier_de_nitruration	O
+6l0l3	purge_du_sol_pollué	N
+6l0l4	avant_remblaiement	N
+6l0l5	évacuation	O
+6l0l6	la_dalle_en_béton_contaminée	O
+6l0l7	centre_autorisé	O
+
+#- l'extraction de la cuve à fioul et sondage du sol environnant avéré négatif
+
+7l0l0	l__extraction_de_la_cuve_à_fioul	N
+7l0l1	sondage_du_sol_environnant	O
+7l1l0	cuve	D
+
+#- concernant les déchets enfouis sous la plate forme: excavation des déchets d'hydroxydes d'aluminium et de sablage/grenaillage (élimination en centres autorisés)
+
+8l0l0	excavation	N
+8l0l1	aluminium	O
+8l0l2	sablage___grenaillage	A
+8l0l3	élimination	N
+8l1l0	déchets_d_	U
+8l1l1	hydroxydes	S
+8l1l2	d__aluminium	S
+
+#- des investigations sur la présence possible de fûts ayant contenu des déchets de cyanure dans la plate-forme mais, après terrassement de 7200 m3, aucun fût détecté dans la zone définie par un ex-employé.
+
+9l0l0	des_investigations	N
+9l0l1	cyanure	O
+9l0l2	terrassement	N
+9l0l3	la_zone	O
+9l1l0	des_déchets_de_cyanure	U
+
+#Le dossier de récolement des travaux a été adressé le 12/01/2005.
+
+10l0l0	Le_dossier	O
+10l0l1	récolement_des_travaux_a_été_adressé	N
+10l0l2	le_12_01_2005__	T
+
+#* Après un diagnostic environnemental, l'ESR réalisée en juin 2004 (après les travaux de remise en état), a abouti à un site banalisable pour les milieux eaux souterraines et superficielles (une couche d'argile protège la nappe), ainsi qu'à une cotation en classe 2 pour le milieu sol.
+
+11l0l0	un_diagnostic_environnemental	N
+11l0l1	ESR_réalisée	N
+11l0l2	en_juin_2004	T
+11l0l3	les_travaux_de_remise_en_état	N
+11l0l4	un_site_banalisable	O
+
+#En effet, les teneurs en chrome, cuivre et PCB sont supérieures aux VCI un usage sensible mais inférieures aux VCI pour une zone d'activités à vocation industrielle et commerciale.
+
+12l0l0	zone_d__activités_à_vocation_industrielle_et_commerciale	L
+12l1l0	chrome	S
+12l1l1	cuivre	S
+12l1l2	PCB	S
+
+#De l'aluminium est également retrouvé sur l'ensemble du site à des teneurs supérieures à 2000mg/kg.
+
+13l0l0	De_l__aluminium	O
+13l1l0	aluminium	S
+
+#* Un APC de cessation d'activité a été prescrit le 16/03/2005, afin d'imposer que la vocation du site reste une zone d'activités industrielles et commerciales, et de mettre en place un suivi piézo vis-à-vis des éléments chlore, cuivre et arochlors (PCB).
+
+14l0l0	Un_APC	O
+14l0l1	cessation_d__activité	N
+14l0l2	a_été_prescrit	N
+14l0l3	le_16_03_2005	T
+14l0l4	d__imposer	N
+14l0l5	la_vocation_du_site	O
+14l0l6	reste	N
+14l0l7	une_zone_d__activités_industrielles_et_commerciales	O
+14l0l8	mettre_en_place	N
+14l1l0	éléments_chlore	S
+14l1l1	cuivre	S
+14l1l2	arochlors	S
+14l1l3	PCB	S
+
+#Ainsi des servitudes de droit privé ont été prescrites pour permettre l'accès aux piézomètres par l'exploitant actuel après vente des terrains, et une servitude conventionnelle pour garantir un usage du site non sensible.
+
+15l0l0	des_servitudes	O
+15l0l1	ont_été_prescrites	N
+15l0l2	l__exploitant_actuel	O
+15l0l3	vente	N
+15l0l4	des_terrains	O
+
+#Le site a été transmis à son nouveau propriétaire le 23/12/2005, il s'agit de la Société d'AménageMEnt du Pays d'Aubagne (SAMEPA).
+
+16l0l0	Le_site	O
+16l0l1	a_été_transmis_à	N
+16l0l2	son_nouveau_propriétaire	O
+16l0l3	le_23_12_2005	T
+16l0l4	la_Société_d__AménageMEnt	O
+16l0l5	du_Pays_d_	L
+16l0l6	Aubagne___SAMEPA	L
+16l1l0	la_Société_d_	I
+16l1l1	SAMEPA	I
+
+#* Le suivi des eaux souterraines est basé sur trois piézomètres (un amont et deux en aval) avec une fréquence d'analyse semestrielle pour une durée de trois ans minimum.
+
+17l0l0	Le_suivi_des_eaux_souterraines	A
+17l0l1	une_durée_de_trois_ans_minimum	T
+
+#Six campagnes de prélèvements et d'analyses entre 2004 et 2008 ont été effectuées à fréquence annuelle sauf en 2006 (2 prélèvements).
+
+18l0l0	Six_campagnes_de_prélèvements_et_d__analyses	N
+18l0l1	entre_2004_et_2008	T
+18l0l2	ont_été_effectuées	N
+18l0l3	en_2006	T
+
+#En l'absence d'anomalie constatée, la surveillance a été arrêtée.
+
+19l0l0	la_surveillance	O
+19l0l1	a_été_arrêtée	N

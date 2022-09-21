@@ -1,0 +1,270 @@
+
+#18.0045
+#Le site est utilisé la première moitié du XXe siècle pour la construction et la réparation de moissonneuses en bois et tracteurs à vapeur.
+
+0l0l0	Le_site	O
+0l0l1	est_utilisé	N
+0l0l2	la_première_moitié_du_XXe_siècle	T
+0l0l3	la_construction_et_la_réparation_de_moissonneuses_en_bois	A
+
+#Du stockage de bois a également eu lieu sur le site.
+
+1l0l0	Du_stockage_de_bois	O
+1l0l1	a_également_eu_lieu	N
+
+#A compter de 1962 la Compagnie générale d'électricité (filiale d'ALSTOM) construit des palans électriques.
+
+2l0l0	A	R
+2l0l1	compter_de_1962	T
+2l0l2	la_Compagnie_générale_d__électricité	O
+2l0l3	ALSTOM	O
+2l0l4	__construit	N
+2l0l5	des_palans_électriques	O
+2l1l0	la_Compagnie_générale_d__électricité	I
+2l1l1	d__ALSTOM	I
+
+#CGE devient UNELEC en 1966 et fabrique des ponts roulants et des palans.
+
+3l0l0	CGE	O
+3l0l1	devient_UNELEC	O
+3l0l2	en_1966	T
+3l0l3	fabrique_des_ponts_roulants	A
+3l0l4	palans	O
+3l1l0	CGE_devient_UNELEC	I
+
+#UNELEC devient LFM (La Francaise de Manutention) en 1981, filiale de LEROY-SOMER et ALSTOM.
+
+4l0l0	UNELEC	O
+4l0l1	devient_LFM	O
+4l0l2	La_Francaise_de_Manutention	O
+4l0l3	en_1981	T
+4l0l4	LEROY___SOMER	O
+4l0l5	ALSTOM	O
+4l1l0	UNELEC	I
+4l1l1	LFM	I
+4l1l2	La_Francaise_de_Manutention	I
+4l1l3	LEROY___SOMER	I
+
+#L'entreprise Inter Cuir Europe a eu une activité d'apprêt et tannage des cuirs sur une partie du site (bâtiment 1) et a cessé son activité en 2006.
+
+5l0l0	L__entreprise_Inter_Cuir_Europe	O
+5l0l1	a_eu	R
+5l0l2	une_activité_d__apprêt_et_tannage_des_cuirs	A
+5l0l3	sur_une	L
+5l0l4	partie_du_site	O
+5l0l5	a_cessé	N
+5l0l6	son_activité	O
+5l0l7	en_2006__	T
+5l1l0	Cuir_Europe	I
+
+#L'activité du site a été complètement arrêtée en octobre 2009.
+
+6l0l0	L__activité_du_site	O
+6l0l1	a_été_complètement_arrêtée	N
+6l0l2	en_octobre_2009__	T
+
+#Dans le cadre de la location du bâtiment 1 à une entreprise de traitement du cuir, une évaluation de la qualité des sols de ce bâtiment a été réalisée en mars 2000.
+
+7l0l0	Dans_le_cadre_de	R
+7l0l1	la_location_du_bâtiment_1	N
+7l0l2	une_entreprise_de	O
+7l0l3	traitement_du_cuir	A
+7l0l4	une_évaluation	N
+7l0l5	la_qualité_des_sols	O
+7l0l6	ce_bâtiment	O
+7l0l7	a_été_réalisée	N
+7l0l8	en_mars_2000__	T
+
+#Cette étude n'a pas mis en évidence d'impact significatif des sols.
+
+
+#Des investigations (sols et eaux souterraines) ont été menées en septembre et novembre 2004.
+
+9l0l0	Des_investigations	N
+9l0l1	ont_été_menées	N
+9l0l2	en_septembre_et_novembre_2004__	T
+
+#Un panache de contamination des eaux souterraines par des solvants chlorés a ainsi été mis en évidence avec les concentrations maximales : 37 000 µg/l TCE (Trichloroéthylène) ; 8 100 µg/l 1,2-cisDCE (1,2-cisdichloroéthylène) ; 700 µg/l CV (Chlorure de Vinyle).
+
+10l0l0	Un_panache_de_contamination	N
+10l1l0	solvants_chlorés	S
+10l1l1	TCE	S
+10l1l2	Trichloroéthylène	S
+10l1l3	1_2_cisDCE	S
+10l1l4	1_2_cisdichloroéthylène	S
+10l1l5	CV___Chlorure_de_Vinyle	S
+
+#Aucune source sol de contamination n'a pu être clairement identifiée.
+
+
+#Un léger impact en aval hydraulique du site par du nickel a été noté.
+
+12l0l0	Un_léger_impact	O
+12l0l1	en_aval_hydraulique_du_site	L
+12l0l2	du_nickel_a_été	O
+12l1l0	nickel	S
+
+#Dans le cadre d'un projet de cession et de développement du site (création d'un centre commercial et de parkings), une étude détaillée des risques a été menée en juin 2005.
+
+13l0l0	Dans_le_cadre_d_	R
+13l0l1	un_projet_de_cession	N
+13l0l2	développement_du_site	N
+13l0l3	création_d_	N
+13l0l4	un_centre_commercial	O
+13l0l5	parkings	O
+13l0l6	une_étude_détaillée_des_risques	N
+13l0l7	a_été_menée	N
+13l0l8	en_juin_2005__	T
+
+#Elle a conclu à un potentiel de risque dans le cas de la poursuite de l'activité industrielle au droit de la zone de plus fortes concentrations de solvants chlorés dans la nappe.
+
+14l0l0	la_poursuite_de_l__activité_industrielle	A
+14l0l1	au_droit_de	L
+14l0l2	la_zone	O
+14l1l0	solvants_chlorés	S
+
+#Des mesures de la qualité de l'air ambiant le 24 novembre 2005 ont montré des concentrations en solvants chlorés nettement inférieures aux VME.
+
+15l0l0	Des_mesures	N
+15l0l1	de_la_qualité_de_l__air_ambiant	O
+15l0l2	le_24_novembre_2005	T
+15l1l0	solvants_chlorés	S
+
+#Début décembre 2005, des mesures complémentaires ont permis de définir pleinement le panache de composés organiques volatils (COHV) dans les eaux souterraines, en particulier au niveau du bâtiment 1.
+
+16l0l0	Début_décembre_2005__	T
+16l0l1	des_mesures_complémentaires	O
+16l0l2	au_niveau_du_bâtiment	L
+16l1l0	composés_organiques_volatils	U
+16l1l1	COHV	S
+
+#Un suivi de la qualité des eaux souterraines en juillet 2007 a montré que la contamination des eaux souterraines n'a pas évolué depuis 2005 (concentrations mesurées et extension du panache).
+
+17l0l0	Un_suivi	N
+17l0l1	la_qualité_des_eaux_souterraines	O
+17l0l2	en_juillet_2007	T
+17l0l3	la_contamination	O
+17l0l4	depuis_2005	T
+17l0l5	extension	N
+
+#En vue d'une cession potentielle du site à la ville de Vierzon, une étude complémentaire a été menée en octobre 2009 afin de permettre la réalisation d'une évaluation quantifiée du risque sanitaire (EQRS) et d'un plan de gestion des solvants (PGS).
+
+18l0l0	En_vue_d_	R
+18l0l1	une_cession_potentielle	O
+18l0l2	la	O
+18l0l3	ville_de_Vierzon	L
+18l0l4	une_étude_complémentaire	N
+18l0l5	a_été_menée	N
+18l0l6	en_octobre_2009	T
+18l0l7	la_réalisation_d__une_évaluation_quantifiée	N
+18l0l8	un	O
+18l0l9	plan_de_gestion	N
+18l1l0	la	I
+18l1l1	solvants	U
+
+#Les résultats montrent :
+
+
+#- échantillons de bétons et bitume des dalles des bâtiments : concentrations en polluants généralement basses.
+
+
+#- sondages sols complémentaires : dans les gammes du fond géochimique naturel.
+
+
+#Le plan de gestion du site a été finalisé en janvier 2011.
+
+22l0l0	Le_plan_de_gestion	O
+22l0l1	du_site	O
+22l0l2	a_été_finalisé	N
+22l0l3	en_janvier_2011__	T
+
+#Il se fonde sur les résultats d'une analyse des risques résiduels (ARR) prédictive qui démontrent que les mesures de gestion proposées sur le site LFM sont compatibles avec le projet de redéveloppement de la ville de Vierzon pour le site.
+
+23l0l0	les_mesures_de_gestion	N
+23l0l1	le_site_LFM	O
+23l0l2	compatibles_avec	R
+23l0l3	le_projet	O
+23l0l4	redéveloppement	N
+23l0l5	la	O
+23l0l6	ville_de_Vierzon	L
+
+#Ainsi, en plus de la déconstruction et de la démolition des bâtiments, le plan de gestion prévoit les mesures suivantes :
+
+24l0l0	la_déconstruction	N
+24l0l1	la_démolition_des_bâtiments	N
+24l0l2	le_plan_de_gestion	O
+24l0l3	prévoit	R
+
+#- réhabilitation de la zone source contaminée en solvants chlorés avec traitement sur site (extraction sous vide des vapeurs de COHV des terres excavées + traitement sur charbon actif des eaux souterraines rencontrées) ;
+
+25l0l0	__réhabilitation	N
+25l0l1	la_zone_source_contaminée	O
+25l0l2	extraction_sous_vide	A
+25l1l0	solvants_chlorés	S
+25l1l1	COHV	S
+25l1l2	charbon_actif	U
+
+#- traitement complémentaire de fond de fouille par mélange des sols avec du fer en excès ;
+
+26l0l0	traitement	A
+26l0l1	mélange_des_sols	N
+26l0l2	fer	O
+
+#- remblaiement de la fouille avec les sols traités, les matériaux de démolition en excès et les terres saines.
+
+27l0l0	remblaiement_de_la_fouille	N
+27l0l1	les_sols_traités	O
+27l0l2	les_matériaux_de_démolition	O
+27l0l3	les_terres_saines	A
+
+#Début août 2011, les travaux de démolition étant terminés, les actions de traitement ont démarré.
+
+28l0l0	Début_août_2011__	T
+28l0l1	les_travaux_de_démolition	N
+28l0l2	étant_terminés	N
+28l0l3	les_actions_de_traitement	N
+28l0l4	ont_démarré	N
+
+#L'arrêté du 11 août 2011 prescrit à la LFM la remise en état du site.
+
+29l0l0	L_	O
+29l0l1	11_août_2011	T
+29l0l2	prescrit	N
+29l0l3	la_LFM	O
+29l0l4	la_remise_en_état_du_site	N
+
+#La visite de l'inspection des installations classées du 23 février 2012 a permis de constater que celle-ci a été correctement effectuée et que les mesures réalisées finalisent le plan de gestion.
+
+30l0l0	La_visite	N
+30l0l1	l__inspection_des_installations_classées	O
+30l0l2	23_février_2012	T
+30l0l3	a_été_correctement_effectuée	N
+
+#Le courrier du 14 février 2012 informe de la libération tacite du site au profit du nouveau propriétaire : SEM-VIE, et cela après la fin de mise en œuvre du plan de gestion.
+
+31l0l0	Le_courrier	O
+31l0l1	du_14_février_2012	T
+31l0l2	la_libération_tacite	N
+31l0l3	du_site	O
+31l0l4	profit_du_nouveau_propriétaire	O
+31l0l5	SEM___VIE	O
+31l0l6	cela	N
+31l0l7	après_la_fin_de_mise_en_œuvre	T
+31l0l8	du_plan_de_gestion	O
+31l1l0	SEM___VIE	I
+
+#La cessation totale d'activité du site a été annoncée le 21 février 2012.
+
+32l0l0	La_cessation_totale_d__activité	N
+32l0l1	du_site	O
+32l0l2	a_été_annoncée	N
+32l0l3	le_21_février_2012__	T
+
+#Un arrêté préfectoral instituant des servitudes d'utilité publique a été notifié le 27 mars 2015 à l'exploitant.
+
+33l0l0	Un_arrêté_préfectoral	O
+33l0l1	instituant	N
+33l0l2	des_servitudes_d__utilité_publique	O
+33l0l3	a_été_notifié	N
+33l0l4	le_27_mars_2015	T
+33l0l5	l__exploitant	O

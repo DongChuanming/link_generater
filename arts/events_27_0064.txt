@@ -1,0 +1,145 @@
+
+#27.0064
+#Au cours de l'histoire du site, les activités n'ont que très peu évoluées et sont toujours restées liées à la fabrication d'outillage à main.
+
+0l0l0	les_activités	A
+0l0l1	sont_toujours_restées	N
+0l0l2	liées_à	R
+0l0l3	la_fabrication_d__outillage_à_main	A
+
+#Le site couvre une surface totale de 40 000m², dont 8892m² sont recouverts de bâtiments.
+
+1l0l0	Le_site	O
+
+#Les eaux superficielles dans les environs du site sont représentées par le ruisseau canalisé des Fontaines situé à environ 450m au Sud du site et par la rivière l'Eure qui est située à environ 500m au Sud-Est du site.
+
+2l0l0	Les_eaux	O
+2l0l1	les_environs	O
+2l0l2	le_ruisseau_canalisé	O
+2l0l3	Fontaines_situé_à_environ_450_m_au_Sud_du_site	L
+2l0l4	la_rivière_l__Eure	L
+2l0l5	située_à_environ_500_m_au_Sud_Est_du_site	L
+
+#La nappe est située à entre 3 et 4 mètres de profondeur.
+
+
+#Risques et nuisances :
+
+
+#Dans le cadre des travaux de traitement des sols, des gaz de sol et des eaux souterraines, les divers contrôles analytiques réalisés ont montré que :
+
+5l0l0	des_travaux_de_traitement	N
+
+#- Le traitement par venting des sols et des gaz de sol a permis d’atteindre les objectifs de dépollution fixés pour le CV dans les gaz de sol et pour le 1,2-DCA dans les sols à l’issu d’environ 9 mois de traitement ;
+
+6l0l0	Le_traitement_par_venting	N
+6l0l1	sols	N
+6l0l2	gaz_de_sol	O
+6l0l3	les_objectifs	O
+6l0l4	de_dépollution	N
+6l0l5	9_mois_de_traitement	T
+6l1l0	le_CV	S
+6l1l1	le_1_2_DCA	S
+
+#- Le traitement par stimulation de l’atténuation naturelle a permis d’atteindre l’objectif de dépollution fixé pour le TCE dans les eaux souterraines à l’issu d’environ 14 mois de traitement.
+
+7l0l0	Le_traitement_par_stimulation	N
+7l0l1	dépollution	N
+7l0l2	le_TCE	O
+7l0l3	environ_14_mois_de_traitement	T
+7l1l0	TCE	I
+
+#Ainsi, sur la base des conclusions du dossier de cessation d’activité et pour un usage industriel futur du site, les concentrations résiduelles mesurées en fin des travaux de traitement en 1,2-DCA dans le sol,en chlorure de vinyle dans les gaz de sol et en TCE dans les eaux souterraines ne présentent pas de risques sanitaires inacceptables pour les futurs employés du site.
+
+8l0l0	cessation_d__activité	N
+8l0l1	un_usage	N
+8l0l2	industriel_futur_du_site	A
+8l0l3	fin_des_travaux_de_traitement	N
+8l1l0	1_2_DCA	S
+8l1l1	chlorure_de_vinyle	S
+8l1l2	en_TCE	S
+
+#Travaux réalisés :
+
+
+#Les travaux de réhabilitation des sols et des gaz de sol impactés respectivement par le 1,2-DCA et le CV ont consisté en des travaux de venting.
+
+10l0l0	Les_travaux_de_réhabilitation_des_sols	N
+10l0l1	des_gaz_de_sol_impactés	O
+10l0l2	des_travaux_de_venting	N
+
+#Cette technique, en créant une circulation d’air dans la zone insaturée, a permis de volatiliser les composés volatils pour les traiter sur charbon actif avant rejet vers l’atmosphère.
+
+11l0l0	créant	N
+11l1l0	composés	U
+11l1l1	charbon_actif	U
+
+#Les travaux de réhabilitation des eaux souterraines par stimulation de l’atténuation naturelle ont été réalisés en injectant de la mélasse (sous-produit de la transformation de la canne à sucre) afin d’accélérer la déchloration réductrice des solvants chlorés.
+
+12l0l0	Les_travaux_de_réhabilitation	N
+12l0l1	des_eaux_souterraines_par_stimulation	O
+12l0l2	l__atténuation_naturelle	O
+12l0l3	ont_été_réalisés	N
+12l0l4	injectant	N
+12l0l5	transformation_de_la_canne_à_sucre	A
+12l0l6	déchloration_réductrice	N
+12l1l0	solvants_chlorés	S
+
+#Plan de gestion :
+
+
+#Au vu des résultats obtenus lors des différentes investigations réalisées sur le site et en tenant compte des travaux de réhabilitation réalisés, la société STRATEC a proposé de :
+
+14l0l0	des_travaux_de_réhabilitation	N
+14l0l1	la_société_STRATEC	O
+14l1l0	la_société_STRATEC	I
+
+#- Mettre en place un suivi biannuel quadriennal de la qualité des eaux souterraines au droit du site ;
+
+15l0l0	Mettre_en_place_un_suivi_biannuel_quadriennal	T
+15l0l1	la_qualité_des_eaux_souterraines	O
+15l0l2	au_droit_du_site	L
+
+#- Mettre en place un suivi biannuel quadriennal de la qualité de l’air ambiant du bâtiment principal du site ;
+
+16l0l0	Mettre_en_place_un_suivi_biannuel_quadriennal	T
+16l0l1	la_qualité_de_l__air_ambiant_du_bâtiment_principal_du_site	O
+
+#- Instaurer des servitudes d’utilité publiques afin de garantir dans le temps l’innocuité des risques pour les futurs employés du site ainsi que la possibilité d’accès et de maintenance du réseau piézométrique de suivi de la qualité des eaux souterraines.
+
+17l0l0	Instaurer	N
+17l0l1	des_servitudes_d__utilité_publiques	O
+17l0l2	maintenance	O
+17l0l3	réseau	O
+17l0l4	piézométrique_de_suivi_de_la_qualité_des_eaux_souterraines	A
+
+#Deux arrêtés préfectoraux en date du 23 décembre 2010 ont été pris : l'un instituant des servitudes d'utilité publique, l'autre imposant la surveillance des eaux souterraines et de l'air ambiant.
+
+18l0l0	Deux_arrêtés_préfectoraux	O
+18l0l1	en_date_du_23_décembre_2010	T
+18l0l2	ont_été_pris	N
+18l0l3	l_	O
+18l0l4	un_instituant	N
+18l0l5	des_servitudes_d__utilité_publique	O
+18l0l6	l__autre_imposant	N
+18l0l7	la_surveillance_des_eaux_souterraines	A
+
+#Le bilan quadriennal de suivi des eaux souterraines et de l'air ambiant a été transmis à l'inspection le 30 décembre 2014.
+
+19l0l0	Le_bilan_quadriennal	A
+19l0l1	de_suivi_des_eaux_souterraines	A
+19l0l2	a_été_transmis	N
+19l0l3	l__inspection	O
+19l0l4	le_30_décembre_2014__	T
+
+#Celui-ci a été complété et un nouvel arrêté préfectoral a été pris pour la poursuite de la surveillance dans les eaux souterraines (avec un allégement de quelques substances non détectées et les prélèvements dans 5 piézomètres au lieu de 8) et l'arrêt de la surveillance de l'air ambiant.
+
+20l0l0	a_été_complété	N
+20l0l1	un_nouvel_arrêté_préfectoral	O
+20l0l2	a_été_pris	N
+20l0l3	la_poursuite	N
+20l0l4	la_surveillance	A
+20l0l5	les_eaux_souterraines	O
+20l0l6	un_allégement	N
+20l0l7	l__arrêt	N
+20l0l8	de_la_surveillance_de_l__air_ambiant	A

@@ -1,0 +1,119 @@
+
+#72.0078
+#Ce site a accueilli en 1973, un dépôt de carburant, rangé dans la 3ème classe des Établissements dangereux, insalubres ou incommodes, par le décret du 28 octobre 1952.
+
+0l0l0	Ce_site	O
+0l0l1	a_accueilli	N
+0l0l2	en_1973	T
+0l0l3	un_dépôt_de_carburant	O
+0l0l4	28_octobre_1952	T
+0l1l0	dépôt_de	D
+0l1l1	carburant	U
+
+#Ce dépôt est constitué par un stockage de 50 000 litres de carburant répartis comme suit :
+
+1l0l0	Ce_dépôt	O
+1l0l1	litres_de_carburant	O
+1l1l0	carburant	U
+
+#-une citerne fuel domestique de 60 000 L, installée en surface dans un bac de rétention
+
+2l0l0	_une_citerne_fuel_domestique	O
+2l0l1	un_bac_de_rétention	O
+2l1l0	_une_citerne_fuel_domestique	S
+
+#-une citerne de 20 000 L avec 2 compartiments égaux, soit :
+
+
+#-10 000 L de super carburant
+
+4l0l0	super_carburant	O
+4l1l0	super_carburant	U
+
+#-10 000 L de gas oil
+
+5l1l0	gas_oil	I
+
+#enterrée suivant les normes.
+
+
+#L'établissement est implanté en zone industrielle et accueille une activité de serrurerie de bâtiments et charpente métallique et une activité d'application de peintures.
+
+7l0l0	L__établissement	O
+7l0l1	est_implanté_en_zone_industrielle	L
+7l0l2	accueille	R
+7l0l3	une_activité_de_serrurerie_de_bâtiments	A
+7l0l4	charpente_métallique	O
+7l0l5	une_activité_d__application_de_peintures	N
+
+#L'activité consiste en travail des métaux essentiellement des profilés et des tôles.
+
+8l0l0	travail_des_métaux	A
+8l0l1	tôles	A
+
+#Le matériel se compose principalement de cisailles, perceuses...
+
+9l0l0	cisailles	N
+9l0l1	perceuses	N
+
+#Un atelier d'application de peintures par pulvérisation est implanté dans l'usine.
+
+10l0l0	Un_atelier_d__application_de_peintures_par_pulvérisation	N
+10l0l1	est_implanté	N
+10l0l2	dans_l__usine	L
+
+#L'activité a cessé en 2001.
+
+11l0l0	L__activité	O
+11l0l1	a_cessé	N
+11l0l2	en_2001__	T
+
+#En 2001, le magasin d'électroménager SODIMEL a remplacé les établissements COSSON ; puis en avril 2010 par la société COCELEC, en janvier 2012 par FINDIS.
+
+12l0l0	En_2001__	T
+12l0l1	le_magasin_d__électroménager_SODIMEL	O
+12l0l2	a_remplacé	N
+12l0l3	les_établissements_COSSON	O
+12l0l4	en_avril_2010	T
+12l0l5	COCELEC	O
+12l0l6	en_janvier_2012	T
+12l0l7	FINDIS	O
+12l1l0	le_magasin_d__électroménager_SODIMEL	I
+12l1l1	les_établissements_COSSON	I
+12l1l2	la_société_COCELEC	I
+
+#En 2014, un nettoyage et dégazage d'une cuve compartimentée (SP 10 m3 et GO 15 m2) ont été réalisés, et les déchets eaux/boues hydrocarbures ont été détruits.
+
+13l0l0	En_2014__	T
+13l0l1	un_nettoyage	N
+13l0l2	dégazage	N
+13l0l3	une_cuve	O
+13l0l4	ont_été_réalisés	N
+13l0l5	les_déchets_eaux	O
+13l0l6	boues_hydrocarbures	O
+13l0l7	ont_été_détruits	N
+13l1l0	une_cuve_compartimentée	D
+13l1l1	hydrocarbures	S
+
+#En 2014, une visite d'inspection a constaté la reprise du site par M.
+
+14l0l0	En_2014__	T
+14l0l1	une_visite	N
+14l0l2	la_reprise_du_site	N
+14l0l3	M_	O
+
+#runo Lefevre.
+
+
+#Il n'existe pas d'information sur les conditions de remise en état du site, suite à la cessation des établissements COSSON.
+
+16l0l0	les_conditions_de_remise_en_état_du_site	O
+16l0l1	suite_à	R
+16l0l2	la_cessation	N
+16l0l3	des_établissements_COSSON	O
+
+#Aucun diagnostic montrant l'état des sols, ou travaux de dépollution ne sont connus.
+
+17l0l0	Aucun_diagnostic	N
+17l0l1	l__état_des_sols	O
+17l0l2	travaux_de_dépollution	N

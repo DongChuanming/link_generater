@@ -1,0 +1,194 @@
+
+#79.0006
+#L'usine de Melle voit le jour en 1872 sous la forme d'une sucrerie Cail.
+
+0l0l0	L__usine	O
+0l0l1	de_Melle	O
+0l0l2	voit_le_jour	N
+0l0l3	en_1872	T
+0l0l4	sous_la_forme_d_	R
+0l0l5	une_sucrerie_Cail	O
+
+#Elle se transforme en distillerie Charbonneaux, Lelarge et Cie, Chapuis, Ricard, Allenet et Cie puis distillerie des deux-Sèvres.
+
+1l0l0	Elle	O
+1l0l1	se_transforme	N
+1l0l2	en_distillerie	R
+1l0l3	Charbonneaux	O
+1l0l4	Chapuis	O
+1l0l5	distillerie_des_deux___Sèvres	O
+1l1l0	Chapuis	I
+1l1l1	Allenet	I
+
+#En 1950, le groupe Pechiney entre dans le capital.
+
+2l0l0	En_1950	T
+2l0l1	le_groupe_Pechiney	O
+2l0l2	entre	R
+2l0l3	dans_le_capital	N
+2l1l0	le_groupe_Pechiney	I
+
+#L'usine fusionne alors avec la société de produits chimique et de synthèse Bezon pour former les Usines de Melle, puis melle-Bezons, Rhône-Poulenc et actuellement Rhodia Opérations une usine de fabrication de produits chimiques et biochimiques (synthèse organique.
+
+3l0l0	L__usine	O
+3l0l1	fusionne	N
+3l0l2	la_société_de_produits_chimique_et_de_synthèse_Bezon	O
+3l0l3	les_Usines_de_Melle	O
+3l0l4	melle___Bezons	O
+3l0l5	usine_de_fabrication_de_produits_chimiques_et_biochimiques	A
+3l1l0	la_société_de_produits_chimique	I
+3l1l1	Melle	I
+3l1l2	Rhône___Poulenc	I
+3l1l3	Rhodia	I
+
+#En 2004, Rhodia vend ses activités ingrédients alimentaires de la partie alimentaire.
+
+4l0l0	En_2004__	T
+4l0l1	Rhodia	O
+4l0l2	vend	N
+4l0l3	ses_activités_ingrédients_alimentaires	O
+4l0l4	la_partie_alimentaire	O
+4l1l0	Rhodia	I
+
+#L'usine se transforme en plateforme industrielle avec deux exploitants : RHODIA et DANISCO.
+
+5l0l0	L__usine	O
+5l0l1	se_transforme_en_plateforme_industrielle	N
+5l0l2	deux_exploitants	O
+5l0l3	RHODIA	O
+5l0l4	DANISCO	O
+5l1l0	RHODIA	I
+5l1l1	DANISCO	I
+
+#Le site "Rhodia Opérations" est situé au Sud-Est du centre ville de Melle à moins d'un kilomètre.
+
+6l0l0	Le_site	O
+6l0l1	Rhodia_Opérations	N
+6l0l2	_	O
+6l0l3	est_situé_au_Sud_Est_du_centre_ville_de_Melle	L
+6l0l4	à_moins_d__un_kilomètre	L
+6l1l0	Rhodia	I
+
+#Il est implanté dans le cadran sud formé par les RD 948 (Limoges-Niort) et RD 950 (Poitiers-Saintes) et en bordure de la rivière dénommée "La Légère" au Sud.
+
+7l0l0	Il	O
+7l0l1	est	N
+7l0l2	implanté_dans_le_cadran_sud_formé_par_les_RD_948___Limoges___Niort	L
+7l0l3	Poitiers___Saintes	L
+7l0l4	en_bordure_de_la_rivière	L
+7l0l5	au_Sud	L
+
+#Ce site est classé SEVESO seuil haut compte tenu de l'emploi ou de stockage et de fabrication industrielle de substance très toxiques.
+
+8l0l0	Ce_site	O
+8l0l1	classé_SEVESO	O
+8l0l2	seuil_haut	O
+8l0l3	l__emploi_ou_de_stockage_et_de_fabrication_industrielle_de_substance_très_toxiques	N
+
+#Dans le cadre de la circulaire du 3 avril 1996, un arrêté préfectoral du 27/05/1998 fixait l'échéance du 31/03/2002 pour la remise d'un diagnostic initial.
+
+9l0l0	3_avril_1996__	T
+9l0l1	un_arrêté_préfectoral	O
+9l0l2	27_05_1998	T
+9l0l3	fixait_l__échéance	O
+9l0l4	du_31_03_2002	T
+9l0l5	la_remise_d__un_diagnostic_initial	N
+
+#a première partie de l'étude (étape A) a été transmise en avril 2002.
+
+10l0l0	a_été_transmise	N
+10l0l1	en_avril_2002	T
+
+#Elle a notamment mis en évidence la présence de 2 aquifères (infra et supratoarcien) ainsi que d'une nappe alluviale du ruisseau "la Légère".
+
+11l0l0	2_aquifères	O
+11l0l1	ruisseau___la_Légère__	L
+
+#Suite à cette étape A, le bureau d'études a recommandé de procéder à des investigations complémentaires, en matière notamment d'analyses sur les eaux et sur des prélèvements de sols.
+
+12l0l0	cette_étape_A	O
+12l0l1	le_bureau_d__études	O
+12l0l2	a	N
+12l0l3	des_investigations_complémentaires	N
+
+#Par ailleurs, la mise en place de piézomètres s'est avérée essentielle afin de réaliser une campagne de mesures dans les eaux souterraines, pour évaluer les impacts potentiels des activités passées et actuelles de RHODIA, au vu des substances potentiellement polluantes identifiées dans l'étape A.
+
+13l0l0	la_mise_en_place_de_piézomètres	O
+13l0l1	une_campagne_de_mesures	N
+13l0l2	les_eaux_souterraines	O
+13l0l3	les_impacts_potentiels	O
+13l0l4	activités_passées	O
+13l0l5	RHODIA	O
+13l1l0	RHODIA	I
+13l1l1	substances	S
+
+#L'étape B du diagnostic initial et l'évaluation simplifiée des risques (ESR) ont été transmises en août 2003.
+
+14l0l0	L_	O
+14l0l1	étape_B_du_diagnostic_initial	N
+14l0l2	l__évaluation_simplifiée_des_risques	N
+14l0l3	ont_été_transmises	N
+14l0l4	en_août_2003__	T
+
+#L'ESR propose de ranger le site en classe 2, c'est-à-dire nécessitant une surveillance environnementale.
+
+15l0l0	le_site	O
+15l0l1	une_surveillance_environnementale	A
+15l1l0	L__ESR	I
+
+#Un arrêté préfectoral en date du 4 novembre 2002 avait d'ores et déjà imposé à la société de mettre en place un dispositif de surveillance des eaux souterraines.
+
+16l0l0	Un_arrêté_préfectoral	O
+16l0l1	en_date_du_4_novembre_2002	T
+16l0l2	avait_d__ores_et_déjà_imposé	N
+16l0l3	la_société	O
+16l0l4	de_mettre_en_place_un	N
+16l0l5	dispositif_de_surveillance_des_eaux_souterraines	A
+
+#Les analyses réalisées mettent en évidence des variations notamment au niveau de la source de Fontegrive en aval (sels minéraux, AOX, fer, solvants, chlore), pour laquelle, en août 2003, une pollution d'origine non déterminée a été identifiée (enquête par l'inspection et investigations des services concernés).
+
+17l0l0	Les_analyses_réalisées	N
+17l0l1	au_niveau_de_la_source_de_Fontegrive_en_aval	L
+17l0l2	en_août_2003__	T
+17l0l3	une_pollution	O
+17l0l4	a_été_identifiée	N
+17l0l5	l_	O
+17l1l0	sels_minéraux	U
+17l1l1	AOX	S
+17l1l2	fer	S
+17l1l3	solvants	S
+17l1l4	chlore	S
+
+#Par suite, et sur proposition de l'inspection des installations classées, un arrêté du 23/03/2004 a renforcé le dispositif de surveillance existant depuis début 2003, avec 2 piézomètres complémentaires, réalisation d'analyses mensuelles désormais sur les 4 ouvrages de prélèvements et la source de Fontegrive et contrôles des réseaux d'égouts.
+
+18l0l0	l_	O
+18l0l1	un_arrêté_du	O
+18l0l2	23_03_2004	T
+18l0l3	a_renforcé_le_dispositif_de_surveillance_existant	N
+18l0l4	depuis_début_2003__	T
+18l0l5	2_piézomètres	O
+18l0l6	la_source_de	O
+18l0l7	Fontegrive	L
+
+#Suite a l'arrêté du 18 mars 2005, un nouveau piézomètre a été mis en place en aval de l'étang n°2.
+
+19l0l0	Suite_a	R
+19l0l1	l_	N
+19l0l2	18_mars_2005__	T
+19l0l3	un_nouveau_piézomètre	O
+19l0l4	a_été_mis_en_place	N
+19l0l5	en_aval_de_l__étang_n__2	O
+
+#Après 3 ans de surveillance sur l'ensemble des piézomètres, le programme de suivi a été réactualisé par un arrêté du 7/12/2006 qui a abrogé les précédents.
+
+20l0l0	Après_3_ans_de_surveillance	A
+20l0l1	le_programme_de_suivi	O
+20l0l2	a_été_réactualisé	N
+20l0l3	un_arrêté	O
+20l0l4	du_7_12_2006	T
+20l0l5	a_abrogé	N
+
+#Le suivi est assuré sur 5 piézomètres et la source de fontegrive.
+
+21l0l0	Le_suivi	A
+21l0l1	la_source	O

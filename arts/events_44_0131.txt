@@ -1,0 +1,89 @@
+
+#44.0131
+#Entre 1923 et 1977, le site était occupé par des habitations en bordure de la route de Clisson à Nantes.
+
+0l0l0	Entre_1923_et_1977	T
+0l0l1	le_site	O
+0l0l2	était_occupé_par	R
+0l0l3	des_habitations	O
+0l0l4	en_bordure_de_la_route_de_Clisson_à_Nantes	L
+
+#A partir de 1977 et jusqu'en 1993, le site est occupé par une station-service.
+
+1l0l0	A_partir_de_1977_et_jusqu__en_1993	T
+1l0l1	le_site	O
+1l0l2	est_occupé_par	N
+1l0l3	une_station___service	O
+1l1l0	station___service	D
+
+#Les réservoirs de liquides inflammables ont été neutralisés à la fin de l'activité.
+
+2l0l0	Les_réservoirs_de_liquides	O
+2l0l1	ont_été_neutralisés	N
+2l0l2	à_la_fin_de_l_	T
+2l0l3	activité	O
+2l1l0	liquides_inflammables	U
+
+#Depuis 1993, le site est occupé par un garage automobile.
+
+3l0l0	Depuis_1993	T
+3l0l1	le_site	O
+3l0l2	est_occupé	N
+3l0l3	un_garage_automobile	O
+
+#L'installation du garage s'est faite sur la base de l'ancienne station-service en utilisant une partie des infrastructures, mais également par un réaménagement (utilisation de l'ancien auvent pour le shoxroom) et un agrandissement (atelier).
+
+4l0l0	L__installation	N
+4l0l1	garage	O
+4l0l2	s__est_faite	N
+4l0l3	sur_la_base_de	R
+4l0l4	l_	O
+4l0l5	une_partie_des_infrastructures	O
+4l0l6	un_réaménagement	N
+4l0l7	l__ancien_auvent	O
+4l0l8	un_agrandissement	N
+
+#Le garage a exploité une cabine de peinture jusqu'en 2014.
+
+5l0l0	Le_garage	O
+5l0l1	a_exploité	N
+5l0l2	une_cabine_de_peinture	O
+5l0l3	jusqu__en_2014__	T
+
+#Une maison d'habitation est également présente sur le site est actuellement louée.
+
+6l0l0	Une_maison_d__habitation	O
+6l0l1	est_actuellement_louée	N
+
+#L'étude environnementale menée en mai 2015 a montré un impact sur les sols :
+
+7l0l0	L__étude_environnementale	N
+7l0l1	en_mai_2015	T
+7l0l2	un_impact	O
+
+#- une pollution aux hydrocarbures aux droits des anciennes cuves de stockage de liquides inflammables (44 400 et 2 940 mg/kg MS),
+
+8l0l0	une_pollution_aux_hydrocarbures	N
+8l1l0	hydrocarbures	S
+8l1l1	des_anciennes_cuves	D
+8l1l2	stockage_de_liquides_inflammables	U
+
+#- un impact en métaux (arsenic, baryum, cadmium, cuivre, mercure, plomb) au droit du séparateur à hydrocarbures, de la zone de stationnement des véhicules à réparer, de la zone de stockage des pièces et bidons vides.
+
+9l0l0	au_droit_du_séparateur	L
+9l0l1	à_hydrocarbures	O
+9l0l2	la_zone_de_stationnement_des_véhicules	O
+9l1l0	métaux	S
+9l1l1	arsenic	S
+9l1l2	baryum	S
+9l1l3	cadmium	S
+9l1l4	cuivre	S
+9l1l5	mercure	S
+9l1l6	plomb	S
+9l1l7	hydrocarbures	S
+9l1l8	bidons_vides	U
+
+#Les déchets ont été évacués.
+
+10l0l0	Les_déchets	O
+10l0l1	ont_été_évacués	N

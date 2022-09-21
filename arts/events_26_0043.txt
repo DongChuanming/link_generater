@@ -1,0 +1,308 @@
+
+#26.0043
+#Le site était utilisé de 1982 à 2002 pour la fabrication de systèmes de marquage industriel (imprimantes à jet d’encre spéciales, codeurs par contact, …) et la fabrication des encres correspondantes.
+
+0l0l0	Le_site	O
+0l0l1	était_utilisé	R
+0l0l2	de_1982_à_2002	T
+0l0l3	la_fabrication_de_systèmes_de_marquage	A
+0l0l4	fabrication_des_encres_correspondantes	A
+
+#Une évolution dans l’implantation de la production a conduit l’exploitant à supprimer des installations sur ce site.
+
+1l0l0	Une_évolution	N
+1l0l1	la_production	O
+1l0l2	a_conduit	N
+1l0l3	l__exploitant	O
+1l0l4	supprimer_des_installations	N
+1l0l5	ce_site	O
+
+#Le site Imaje1 n’accueille plus aucune activité de fabrication d’imprimantes ou consommables.
+
+2l0l0	Le_site_Imaje1	O
+2l0l1	accueille_plus	N
+2l0l2	aucune_activité_de_fabrication_d__imprimantes	A
+
+#Depuis la cessation d'activité, le site a été reconverti, toujours pour la société MARKEM-IMAJE, en agence commerciale et centre de formation, avec quelques activités de manipulations de consommables par le service Études Amont, l’atelier des techniciens et les 2 ateliers de formation.
+
+3l0l0	Depuis	T
+3l0l1	la_cessation_d__activité	N
+3l0l2	le_site	O
+3l0l3	a_été_reconverti	N
+3l0l4	la_société_MARKEM___IMAJE	O
+3l0l5	agence_commerciale	O
+3l0l6	centre_de_formation	O
+3l0l7	activités_de_manipulations_de_consommables	A
+3l0l8	Études_Amont	O
+3l0l9	2_ateliers_de_formation	O
+3l1l0	la_société_MARKEM___IMAJE	I
+
+#L’exploitant a effectué une déclaration de cessation de ses activités et a réalisé une Etude Simplifiée des Risques (ESR) selon le guide méthodologique élaboré par le ministère de l’écologie et du développement durable.
+
+4l0l0	L__exploitant	O
+4l0l1	a_effectué	N
+4l0l2	une_déclaration	N
+4l0l3	cessation_de_ses_activités	N
+4l0l4	a_réalisé_une_Etude_Simplifiée_des_Risques	N
+4l0l5	le_ministère_de_l__écologie	O
+
+#L’étude de cette ESR a soulevé un certain nombre de questions et demandes de compléments .
+
+5l0l0	cette_ESR	O
+
+#Ont été identifiées 3 sources de pollution : zone de l’ancien emplacement de la cuve enterrée contenant des déchets de la production des encres (source 1), zone de l’ancien atelier de production des encres (source 2), lentille d’eau polluée non associée à une origine particulière au droit du site (source 3).
+
+6l0l0	Ont_été_identifiées	N
+6l0l1	3_sources_de_pollution	O
+6l0l2	la_cuve_enterrée	O
+6l0l3	la_production_des_encres	A
+6l0l4	production_des_encres	A
+6l0l5	une_origine	O
+6l0l6	au_droit_du_site	L
+6l1l0	cuve_enterrée	D
+6l1l1	des_déchets	U
+
+#Les substances identifiées dans les sources-sol de pollution étant la méthyl-ethyl-cétone (MEK), le méthanol, l’éthanol et les phtalates ; dans la lentille d’eau, les hydrocarbures.
+
+7l1l0	méthyl___ethyl___cétone	S
+7l1l1	MEK	S
+7l1l2	le_méthanol	S
+7l1l3	l__éthanol	S
+7l1l4	phtalates	S
+7l1l5	les_hydrocarbures	S
+
+#Celle-ci a donc conduit l’inspection des installations classées à proposer à Monsieur le Préfet d’imposer la mise en place d’une surveillance des eaux souterraines (arrêté complémentaire du 19 février 2004).
+
+8l0l0	l__inspection_des_installations_classées	O
+8l0l1	Monsieur_le_Préfet	O
+8l0l2	d__imposer_la_mise_en_place_d__une	N
+8l0l3	surveillance_des_eaux_souterraines	A
+8l0l4	19_février_2004____	T
+8l1l0	le_Préfet	I
+
+#Elle consiste en une surveillance trimestrielle des paramètres : alcool, cétones, phtalates, hydrocarbures aromatiques polycycliques et totaux, métaux.
+
+9l0l0	une_surveillance_trimestrielle	A
+9l1l0	alcool	S
+9l1l1	cétones	S
+9l1l2	phtalates	S
+9l1l3	hydrocarbures_aromatiques_polycycliques_et_totaux	S
+9l1l4	métaux	S
+
+#Par envoi du 24 avril 2007, la société IMAJE a transmis une synthèse des analyses effectuées dans les eaux souterraines depuis 2003.
+
+10l0l0	envoi_du_24_avril_2007__	T
+10l0l1	la_société_IMAJE	O
+10l0l2	a_transmis	N
+10l0l3	les_eaux_souterraines	O
+10l0l4	depuis_2003	T
+10l1l0	la_société_IMAJE	I
+
+#En s’appuyant sur les résultats de ces analyses, cette société a demandé :
+
+11l0l0	cette_société	O
+
+#- une réduction de la fréquence d’analyse : semestrielle au lieu de trimestrielle ;
+
+
+#- la suppression du suivi de certains paramètres : alcools ; hydrocarbures légers, hydrocarbures lourds, cétones.
+
+13l1l0	alcools	U
+13l1l1	hydrocarbures	S
+13l1l2	hydrocarbures_lourds	S
+13l1l3	cétones	S
+
+#Le bilan transmis montrait :
+
+
+#- Sur les métaux lourds (plus utilisés dans l’établissement) : le cuivre, le nickel, le plomb et le zinc ont été détectés en concentrations allant de 3 à 20 µg/L ; le chrome a été détecté une seule fois en  octobre 2003, à une concentration de 8 µg/L.
+
+15l0l0	ont_été_détectés	N
+15l0l1	a_été_détecté	N
+15l0l2	une_seule_fois	N
+15l0l3	en___octobre_2003	T
+15l1l0	métaux_lourds	S
+15l1l1	cuivre	S
+15l1l2	le_nickel	S
+15l1l3	plomb	S
+15l1l4	zinc	S
+15l1l5	chrome	S
+
+#- Sur les alcools et les cétones : ils n’ont jamais été détectés.
+
+16l1l0	les_alcools	U
+16l1l1	cétones	S
+
+#- Sur les hydrocarbures légers : ils n’ont été détectés qu’en mai 2005, dans le puits (situé à l’amont hydrogéologique du site) et dans Pz4 (situé à l’aval), à des teneurs faibles (maximum 11 µg/l) et comparables.
+
+17l0l0	n__ont_été_détectés	N
+17l0l1	qu__en_mai_2005__	T
+17l0l2	le_puits	O
+17l0l3	situé_à_l__amont_hydrogéologique	N
+17l0l4	du_site	L
+17l1l0	hydrocarbures_légers	S
+
+#Ceci laisse supposer que ces polluants ne proviennent pas du site IMAJE 1 mais d’un établissement plus à l’amont.
+
+18l0l0	site_IMAJE	O
+18l0l1	un_établissement	O
+18l0l2	plus_à_l__amont	L
+18l1l0	ces_polluants	U
+
+#Ces polluants ne sont pas découverts lors des cinq campagnes suivantes.
+
+
+#- Sur les hydrocarbures lourds : ils n’ont été détectés qu’en décembre 2004, dans le puits (situé à l’amont hydrogéologique du site), mais pas dans Pz4.
+
+20l0l0	n__ont_été_détectés	N
+20l0l1	qu__en_décembre_2004__	T
+20l0l2	le_puits	O
+20l0l3	situé_à_l__amont_hydrogéologique	N
+20l0l4	du_site	L
+20l1l0	hydrocarbures_lourds	S
+
+#Ceci laisse supposer que ces polluants ne proviennent pas du site IMAJE 1.
+
+
+#- Sur les phtalates : l’éthylhexylphtalate a été détecté en septembre 2004 à la fois dans le puits et dans Pz4, à des teneurs comparables (6,5 et 5,7 µg/l).
+
+22l0l0	a_été_détecté	N
+22l0l1	en_septembre_2004	T
+22l1l0	les_phtalates	S
+22l1l1	l__éthylhexylphtalate	S
+
+#Ceci laisse supposer que ce polluant ne provient pas du site IMAJE 1.
+
+
+#Le Dibutylphtalate a été détecté à faible concentration (1,6 µg/l) dans Pz4 en janvier 2006.
+
+24l0l0	a_été_détecté_à	N
+24l0l1	en_janvier_2006__	T
+24l1l0	Le_Dibutylphtalate	S
+
+#- Sur les hydrocarbures aromatiques polycycliques (HAP) : ils ont été détectés en 2004 et 2006 à de très faibles concentrations (maxi : 0,05 µg/l).
+
+25l0l0	ont_été_détectés	N
+25l0l1	en_2004_et_2006	T
+25l1l0	hydrocarbures_aromatiques_polycycliques	S
+25l1l1	HAP	S
+
+#L’exploitant souligne qu’aucun lien avec l’activité d’IMAJE n’a pu être établi.
+
+26l0l0	L__exploitant	O
+26l0l1	l__activité_d__IMAJE	A
+
+#Sur la base de ce bilan, comme prévu par l’article 4 de l’arrêté préfectoral du 19 février 2004, un allègement du dispositif de surveillance a été accordé (fréquence semestrielle, maintien uniquement des paramètres : phtalates, HAP et métaux lourds) par courrier préfectoral du 3 juillet 2007.
+
+27l0l0	19_février_2004__	T
+27l0l1	un_allègement_du_dispositif_de_surveillance	N
+27l0l2	a_été_accordé	N
+27l0l3	du_3_juillet_2007__	T
+27l1l0	phtalates	S
+27l1l1	HAP	S
+27l1l2	métaux_lourds	S
+
+#L'exploitant a transmis un nouveau bilan par courrier du 10 mai 2010.
+
+28l0l0	L__exploitant	O
+28l0l1	a_transmis	N
+28l0l2	un_nouveau_bilan_par_courrier	N
+28l0l3	du_10_mai_2010__	T
+
+#Il sollicite le passage à une fréquence de surveillance annuelle.
+
+
+#Le bilan montre :
+
+
+#- sur les métaux lourds : deux paramètres ont été détectés dans des concentrations allant de 3 à 4 µg/L (Cuivre et Nickel).
+
+31l0l0	détectés	N
+31l1l0	les_métaux_lourds	S
+31l1l1	Cuivre	S
+31l1l2	Nickel	S
+
+#Aucun lien avec l’activité de MARKEM-IMAJE n’a pu être fait (substances non retrouvées en aval ou concentrations très faibles) ;
+
+32l0l0	MARKEM	O
+32l1l0	MARKEM___IMAJE	I
+
+#- sur les phtalates : un seul phtalate (bis2ethylexylphtalate) détecté en faible quantité (6,6 µg/L) uniquement en amont du site (mesure de décembre 2008) ;
+
+33l0l0	en_amont_du_site	L
+33l0l1	décembre_2008__	T
+33l1l0	les_phtalates	S
+33l1l1	phtalate	S
+33l1l2	bis2ethylexylphtalate	S
+
+#- sur les HAP : des HAP ont été retrouvés sur plusieurs mesures en amont-aval dans des concentrations équivalentes et proches de la limite de détection sans qu’un lien avec l’activité de Markem-Imaje n’ait pu être établi.
+
+34l0l0	des_HAP	O
+34l0l1	en_amont___aval	L
+34l1l0	les_HAP	S
+34l1l1	des_HAP	S
+
+#- concernant les points de mesures, l’exploitant précise que le point PZ3 est à sec depuis plusieurs années et ce qui rend impossible tout prélèvement.
+
+35l0l0	l__exploitant	O
+35l0l1	le_point_PZ3	O
+35l0l2	est_à_sec	N
+35l0l3	depuis_plusieurs_années	T
+
+#Par ailleurs, les analyses des eaux souterraines transmises pour l’année 2010 ont fait apparaître des traces de métaux lourds (chrome 1,1 µg/L, cuivre 1,2 µg/L, nickel 0,3 µg/L), mais dans les eaux amont du site, avec des concentrations aval inférieures (à noter que la précision des mesures réalisées jusqu’en 2010 ne permettait pas de quantifier des concentrations aussi faibles).
+
+36l0l0	les_analyses	N
+36l0l1	l__année_2010	T
+36l0l2	les_eaux_amont_du_site	L
+36l0l3	jusqu__en_2010	T
+36l1l0	métaux_lourds	S
+36l1l1	chrome	S
+36l1l2	cuivre_1_2	S
+36l1l3	nickel	S
+
+#Ces traces de métaux lourds se confirment en 2011 sur des valeurs un peu supérieures (17 µg/L et 19 µg/L), mais toujours de manière plus importante sur le puits amont que sur le PZ4 (aval).
+
+37l0l0	en_2011	T
+37l1l0	métaux_lourds	S
+
+#Les phtalates et HAP n’ont pas été détectés en 2010 et 2011.
+
+38l0l0	n__ont_pas_été_détectés	N
+38l0l1	en_2010_et_2011__	T
+38l1l0	Les_phtalates	S
+38l1l1	HAP	S
+
+#Par ailleurs, il n’est pas constaté sur l’ensemble des mesures réalisées de fluctuation saisonnière sur les résultats qui pourrait être liée aux mouvements de la nappe.
+
+39l0l0	mouvements	N
+
+#Compte-tenu de ces résultats (absence de phtalates et HAP détectés, présence de métaux à l’amont du site et absence d’influence visible des mouvements de nappe, situation du piezo 3), il est proposé au préfet d'accepter la demande de l'exploitant de passer à une surveillance annuelle sur les paramètres phtalates, HAP, métaux lourds sur les 2 forages (puits amont et PZ4).
+
+40l0l0	amont_du_site	L
+40l0l1	accepter	N
+40l0l2	la_demande	O
+40l0l3	l__exploitant	O
+40l0l4	une_surveillance_annuelle	A
+40l0l5	métaux_lourds	O
+40l0l6	les_2_forages	N
+40l1l0	phtalates	S
+40l1l1	HAP	S
+40l1l2	phtalates	S
+40l1l3	HAP	S
+40l1l4	métaux_lourds	S
+
+#Les données transmises sur l'année 2012 et 2013 montrent toujours des traces de métaux lourds dans les mêmes ordres de grandeurs qu'en 2010 (sauf une valeur de 20µg/L en chrome en octobre 2012, les valeurs reviennent à environ 1µg/L en 2013).
+
+41l0l0	l__année_2012_et_2013	T
+41l0l1	en_octobre_2012__	T
+41l1l0	métaux_lourds	S
+41l1l1	chrome	S
+
+#Deux mesures en 2014 ont été réalisées, avec des ordres de grandeurs toujours comparables et pas de différence significative entre le piezo amont et le piezo 4 (valeurs entre 1 et 6µg/L en cuivre, nickel et chrome)
+
+42l0l0	Deux_mesures	N
+42l0l1	en_2014	T
+42l0l2	ont_été_réalisées	N
+42l1l0	cuivre	S
+42l1l1	nickel	S
+42l1l2	chrome	S

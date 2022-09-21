@@ -1,0 +1,129 @@
+
+#63.0020
+#Le site de Thiers a accueilli une usine fabriquant du gaz à partir de la distillation de la houille sur une période approximative de 1865 à 1947.
+
+0l0l0	Le_site	O
+0l0l1	de_Thiers	O
+0l0l2	a_accueilli	N
+0l0l3	une_usine	O
+0l0l4	fabriquant_du_gaz	A
+0l0l5	à_partir_de	R
+0l0l6	la_distillation_de_la_houille	A
+0l0l7	sur_une_période_approximative_de_1865_à_1947	T
+
+#Actuellement, il est utilisé pour les besoins des entreprises EDF et  / ou Gaz de France.
+
+1l1l0	des_entreprises_EDF	I
+1l1l1	ou_Gaz_de_France	I
+
+#Contexte national :
+
+
+#En 1996, Gaz de France gère 467 sites d'anciennes usines à gaz répartis sur l'ensemble du territoire.
+
+3l0l0	En_1996__	T
+3l0l1	Gaz_de_France	O
+3l0l2	gère	R
+3l0l3	467_sites	O
+3l0l4	anciennes_usines_à_gaz	O
+3l1l0	Gaz_de_France	I
+
+#A partir de 1996, Gaz de France hiérarchise au niveau national les actions qu'il envisage de mettre en œuvre sur ces sites.
+
+4l0l0	A	R
+4l0l1	partir_de_1996__	T
+4l0l2	Gaz_de_France	O
+4l0l3	ces_sites	O
+4l1l0	Gaz_de_France	I
+
+#Cette hiérarchisation est fonction des sensibilités de chaque site (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site...) et conduit à l'établissement de 5 classes de priorité.
+
+5l0l0	5_classes_de_priorité	O
+
+#Le 25 avril 1996, un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz est signé entre le Ministère de l'Environnement et Gaz de France.
+
+6l0l0	Le_25_avril_1996__	T
+6l0l1	un_protocole_d__accord	O
+6l0l2	relatif_à	R
+6l0l3	la_maîtrise	O
+6l0l4	suivi	O
+6l0l5	la_réhabilitation	N
+6l0l6	anciens_terrains_d__usines_à_gaz	O
+6l0l7	est_signé	N
+6l0l8	entre	R
+6l0l9	le_Ministère_de_l__Environnement	O
+6l0l10	Gaz_de_France	O
+6l1l0	le_Ministère_de_l__Environnement	I
+6l1l1	Gaz_de_France	I
+
+#Site de Thiers :
+
+7l0l0	Thiers	O
+
+#Le site de Thiers est en classe 3 du protocole (sensibilité vis-à-vis de l'homme, des eaux souterraines et superficielles jugée faible).
+
+8l0l0	Le_site	O
+8l0l1	de_Thiers	O
+
+#Conformément aux engagements pris dans le protocole, Gaz de France réalise une étude historique.
+
+9l0l0	Conformément_aux	R
+9l0l1	engagements	O
+9l0l2	pris_dans	R
+9l0l3	le_protocole	O
+9l0l4	Gaz_de_France	T
+9l0l5	réalise_une_étude_historique	N
+9l1l0	Gaz_de_France	I
+
+#Une cuve à goudron est identifiée sur le site à proximité du bâtiment à usage de garage à l'est de la parcelle n° 78 (rapport de janvier 2004).
+
+10l0l0	Une_cuve_à_goudron	O
+10l0l1	est_identifiée	N
+10l0l2	le_site	O
+10l0l3	à_proximité_du_bâtiment_à_usage_de_garage_à_l__est_de_la_parcelle_n__78	L
+10l0l4	rapport	N
+10l0l5	de_janvier_2004	T
+10l1l0	Une_cuve	D
+
+#Du 3 au 7 mai 2004, des travaux de vidange de la cuve sont menées sur une profondeur comprise entre 2,2 m et 2,7 m.
+
+11l0l0	Du_3_au_7_mai_2004__	T
+11l0l1	des_travaux_de_vidange	N
+11l0l2	la_cuve	O
+11l0l3	sont	N
+11l0l4	menées_sur	R
+11l0l5	une_profondeur	O
+
+#Ils conduisent à l'extraction de 129 tonnes de remblais imprégnés de goudrons et 8 tonnes d'eaux souillées.
+
+12l0l0	l__extraction	N
+12l0l1	tonnes_de_remblais_imprégnés	O
+12l0l2	8	O
+
+#Ces déchets sont été éliminés en centre autorisé.
+
+13l0l0	Ces_déchets	O
+13l0l1	sont_été_éliminés	N
+
+#La cuve est remblayée par des matériaux sains (rapport de fin de travaux, Tauw Environnement, août 2004).
+
+14l0l0	La_cuve	O
+14l0l1	est_remblayée	N
+14l0l2	par_des_matériaux_sains	O
+14l0l3	fin_de_travaux	N
+14l0l4	Tauw_Environnement	O
+14l0l5	août_2004	T
+
+#Une canalisation d'eau pluviale (orientée nord-sud) est identifiée au droit de la cuve à goudrons.
+
+15l0l0	Une_canalisation	O
+15l0l1	est_identifiée	N
+15l0l2	au_droit_de_la_cuve	L
+15l0l3	à_goudrons	O
+
+#En cas de changement d'usage du site, des investigations complémentaires devront être effectuées.
+
+16l0l0	En_cas	R
+16l0l1	de_changement_d__usage	N
+16l0l2	des_investigations_complémentaires	O
+16l0l3	devront_être_effectuées	N

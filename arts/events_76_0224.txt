@@ -1,0 +1,108 @@
+
+#76.0224
+#Usine implantée depuis 1968, qui produit de l'ammoniac à partir de gaz naturel (initialement à partir de naphta), de l'urée (à partir d'ammoniac et de CO2), et d'alcali (ammoniac dilué).
+
+0l0l0	implantée_depuis	T
+
+#Site installé dans la zone industrielle où la nappe souterraine la plus proche est située seulement à environ 1 m sous la surface du sol.
+
+1l0l0	Site	O
+1l0l1	installé_dans	N
+1l0l2	la_zone_industrielle	T
+1l0l3	la_nappe_souterraine	O
+1l0l4	environ_1_m	O
+1l1l0	nappe_souterraine	S
+1l1l1	environ_1_m	S
+1l1l2	surface	S
+
+#Une seconde nappe souterraine est située environ à 30 m de profondeur.
+
+2l0l0	Une	O
+2l0l1	seconde	N
+2l0l2	nappe_souterraine_est_située_environ_à_30_m_de_profondeur	O
+
+#Les eaux superficielles proches sont : le grand Canal du havre à quelques mètres au sud, où sont rejetés les effluents de Yara, qui est en lien avec les bassins du Port et l'estuaire de la Seine.
+
+3l0l0	sont___le_grand_Canal_du	L
+
+#La fabrication de l'ammoniac nécessite l'utilisation dans l'unité de décarbonatation d'une solution de potasse contenant 40 tonnes d'arsenic (trioxyde et pentoxyde d'arsenic).
+
+4l0l0	La_fabrication	O
+4l0l1	nécessite_l_	O
+4l0l2	utilisation_dans_l_	L
+4l0l3	unité_de_décarbonatation	L
+4l0l4	contenant	O
+4l0l5	tonnes_d__arsenic___trioxyde_et_pentoxyde	L
+4l0l6	d__arsenic____	L
+4l1l0	solution_de_potasse	U
+
+#Cette solution qui assure la protection efficace des équipements contre la corrosion est régulièrement filtrée pour extraire le pentoxyde d'arsenic qu'elle contient, car seul le trioxyde d'arsenic est actif dans le processus d'absorption.
+
+5l0l0	Cette_solution_qui_assure_la_protection	O
+5l0l1	contre_la_corrosion_est	N
+5l0l2	pentoxyde_d__arsenic	O
+5l1l0	assure_la_protection	S
+5l1l1	pentoxyde_d__arsenic_qu__elle_contient___car_seul_le	S
+
+#Les effluents récupérés sont envoyés vers un bassin depuis lequel ils sont traités par évaporation, et les boues sont régulièrement éliminées en tant que déchets dangereux.
+
+6l0l0	depuis_lequel_ils_sont_traités_par	A
+6l0l1	en_tant_que	O
+6l1l0	régulièrement_éliminées_en_tant_que	S
+
+#En 2007, l'exploitant a déclaré la présence d'arsenic dans la nappe souterraine suite, selon lui, à un débordement du bassin survenu quelques années auparavant.
+
+7l1l0	En_2007___l__exploitant	U
+
+#En 2009, une pompe mise en place pour pomper depuis la nappe vers le bassin (et récupérer ainsi de l'arsenic) a par erreur pompé des eaux arseniées depuis le bassin vers la nappe.
+
+8l0l0	En_2009__	T
+8l0l1	une_pompe_mise	O
+8l0l2	en_place_pour	N
+8l0l3	depuis_la_nappe	O
+8l0l4	arsenic___a_par_erreur_pompé	N
+8l0l5	arseniées_depuis_le_bassin_vers	T
+8l1l0	depuis_la_nappe	S
+
+#Le site est en exploitation;
+
+9l0l0	Le_site	T
+9l0l1	est_en_exploitation	O
+9l0l2	_	N
+
+#La nappe souterraine qui a été contaminée par l'arsenic ne présente pas d'usage sensible (non utilisée pour l'eau potable).
+
+10l0l0	La_nappe	O
+10l0l1	souterraine_qui_a_été	N
+
+#Suite à la découverte de la pollution générée en 2009 (jusqu'à plus de 2000 mg/l dans le piézomètre Nord où a été injecté accidentellement l'arsenic), un arrêté de mesures d'urgence a été pris le 10 juillet 2009 pour demander un diagnostic et des travaux de dépollution.
+
+11l0l0	Suite_à_la_découverte	O
+11l0l1	la_pollution_générée	O
+11l0l2	en_2009___jusqu_	O
+11l0l3	à_plus_de_2000	R
+11l1l0	2009___jusqu_	S
+
+#2 réunions ont eu lieu sur site quant au choix de la technique de déppollution, les 13 janvier 2010 et 29 avril 2010.
+
+12l0l0	2_réunions	R
+12l0l1	ont_eu_lieu_sur_site_quant_au	N
+12l0l2	de_la_technique	T
+12l0l3	avril_2010__	N
+
+#Un traitement par pompage de la nappe dans 20 pointes filtrantes a débuté en juin 2010.
+
+13l0l0	Un_traitement	N
+13l0l1	par_pompage	N
+13l0l2	pointes_filtrantes_a_débuté_en	N
+13l0l3	juin_2010__	T
+
+#L'exploitant doit suivre l'évolution de la teneur en arsenic dans les eaux pompées et dans les piézomètres implantés dans la zone concernée (nord du site).
+
+14l0l0	L__exploitant_doit_suivre	N
+14l0l1	évolution	O
+14l0l2	dans_les_eaux	N
+14l0l3	pompées_et_dans_les_piézomètres_implantés_dans_la_zone_concernée___nord_du_site____	T
+
+#Le traitement devrait durer entre 80 et 160 jours.
+

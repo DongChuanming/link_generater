@@ -1,0 +1,393 @@
+
+#21.0049
+#Le site est un dépôt pétrolier constitué de 7 cuves cylindriques verticales, de capacité totale de 40122 m3 .
+
+0l0l0	Le_site	O
+0l0l1	dépôt_pétrolier	O
+0l1l0	dépôt_pétrolier	D
+0l1l1	7_cuves	D
+0l1l2	cylindriques	S
+
+#Le dépôt a été construit en 1972 dans la zone industrielle de LONGVIC en bordure du canal de Bourgogne.
+
+1l0l0	Le_dépôt	O
+1l0l1	a_été_construit	N
+1l0l2	en_1972	T
+1l0l3	dans_la_zone_industrielle_de_LONGVIC	L
+1l0l4	en_bordure_du_canal_de_Bourgogne	L
+
+#La nappe phréatique de Longvic située à 6 m de profondeur est vulnérable en raison des faibles couches argileuses de surface contrairement aux eaux souterraines profondes très bien protégées.
+
+2l0l0	Longvic_située_à	L
+2l0l1	6_m_de_profondeur	N
+
+#L'exploitation de la nappe de Longvic se limite aux besoins en eaux industrielles et agricoles.
+
+3l0l0	L__exploitation_de_la_nappe	A
+3l0l1	de_Longvic	O
+3l0l2	se_limite_aux	R
+3l0l3	besoins_en_eaux_industrielles_et_agricoles	A
+
+#Les eaux de la nappe sont "marquées" en raison des dysfonctionnements passés dans l'exploitation du dépôt et des déraillements de wagons citernes en 1979; ces derniers ayant conduit au déversement d'environ 130 m3 d'essence.
+
+4l0l0	Les_eaux	O
+4l0l1	exploitation_du_dépôt	O
+4l0l2	déraillements_de	N
+4l0l3	wagons_citernes	O
+4l0l4	en_1979	T
+4l0l5	déversement	N
+4l0l6	m3_d__essence	O
+4l1l0	essence	S
+
+#Des mesures périodiques de la qualité des eaux sont effectuées depuis 1992 dans les 4 piézomètres entourant le site.
+
+5l0l0	Des_mesures_périodiques	A
+5l0l1	la_qualité_des_eaux	O
+5l0l2	sont_effectuées	N
+5l0l3	depuis_1992	T
+
+#Les teneurs mesurées en hydrocarbures sont stables depuis 1994 et sont inférieures aux valeurs guides préconisées pour les eaux non sensibles par le ministère de l'aménagement du territoire et de l'environnement (guide BRGM version mars 2000).
+
+6l0l0	hydrocarbures	O
+6l0l1	depuis_1994	T
+6l0l2	guide_BRGM	O
+6l0l3	mars_2000	T
+6l1l0	hydrocarbures	S
+
+#Suite à l'évaluation simplifiée des risques réalisée en 2000, la surveillance des eaux a été renforcée selon les modalités suivantes:
+
+7l0l0	Suite_à	R
+7l0l1	évaluation_simplifiée_des_risques	N
+7l0l2	en_2000__	T
+7l0l3	la_surveillance_des_eaux	A
+7l0l4	a_été_renforcée	N
+
+#- fréquence semestrielle
+
+
+#- analyses complémentaires des BTEX (benzène, toluène, éthylbenzène, xylène) et MTBE (composé oxygéné de l'essence sans plomb), suivi sur 5 piézométres .
+
+9l1l0	BTEX	S
+9l1l1	benzène	S
+9l1l2	toluène	S
+9l1l3	éthylbenzène	S
+9l1l4	xylène	S
+9l1l5	MTBE	S
+9l1l6	composé_oxygéné	D
+9l1l7	essence_sans_plomb	U
+
+#A partir du 27 juillet 2005, ENTREPOT PETROLIER DE DIJON a constaté des écarts sur le stock du produit essence sans plomb 95.
+
+10l0l0	A	R
+10l0l1	partir_du_27_juillet_2005__	T
+10l0l2	ENTREPOT_PETROLIER_DE_DIJON	O
+10l0l3	a_constaté	N
+10l0l4	produit_essence_sans	O
+10l1l0	ENTREPOT_PETROLIER_DE_DIJON	I
+10l1l1	essence_sans	U
+10l1l2	plomb_95	I
+
+#Une fuite sur le fond d'un bac en était la cause. la fuite a été estimée à 56 m3.
+
+11l0l0	Une_fuite	N
+11l0l1	la_fuite_a	N
+
+#Les principaux enjeux concernaient le traitement des flottants pour qu’ils ne sortent pas du site.
+
+12l0l0	Les	O
+12l0l1	flottants	O
+
+#Le choix a été la mise en place de tranchées drainantes
+
+13l0l0	Le	O
+13l0l1	la_mise_en_place_de_tranchées_drainantes	N
+
+#Par ailleurs, compte tenu de la présence de polluants hors site, l'arrêté préfectoral du 8 décembre 2005 a prescrit:
+
+14l0l0	l__arrêté_préfectoral	O
+14l0l1	du_8_décembre_2005	T
+14l0l2	a_prescrit	N
+14l1l0	polluants	U
+
+#- la réalisation des premiers travaux (capture des flottants par tranchée drainante),
+
+15l0l0	la_réalisation_des_premiers_travaux	N
+15l0l1	capture_des_flottants	N
+15l0l2	tranchée_drainante	O
+15l1l0	flottants	U
+
+#- la réalisation d'une analyse détaillée des risques (EDR) et la délimitation de la pollution,
+
+16l0l0	la_réalisation_d__une_analyse_détaillée_des_risques	N
+16l0l1	la	O
+16l0l2	délimitation_de	L
+16l0l3	la_pollution	N
+
+#- la réalisation d'un programme de suivi à mener au droit du site.
+
+17l0l0	la_réalisation_d_	N
+17l0l1	un_programme	O
+
+#Le traitement a été effectué :
+
+18l0l0	Le_traitement_a_été_effectué	N
+
+#1. d’une part, par pompage sur tranchée drainante et puits et traitement de l’eau de la nappe  sur charbon actif, avec réinjection des eaux traitées en amont.
+
+19l0l0	pompage	N
+19l0l1	sur_tranchée_drainante	L
+19l0l2	traitement_de_l__eau	A
+19l0l3	avec_réinjection_des_eaux_traitées	A
+19l0l4	en_amont	L
+19l1l0	sur_charbon_actif	U
+
+#Plus de 100 000 m3 ont été pompés
+
+20l0l0	ont_été_pompés	N
+
+#Les rapports mensuels de suivi font figurer les courbes d’isoconcentrations en Benzène, Toluène, et Xylène du site.
+
+21l1l0	Benzène	S
+21l1l1	Toluène	S
+21l1l2	Xylène	S
+
+#En 2006 celles-ci montraient que la pollution dissoute sortait du site.
+
+22l0l0	En_2006	T
+22l0l1	sortait	R
+22l0l2	du_site	L
+
+#En 2007 les courbes d’isoconcentration du site se réduisent régulièrement au niveau de la zone de lagunage.
+
+23l0l0	En_2007	T
+23l0l1	réduisent_régulièrement	N
+23l0l2	au_niveau_de	R
+23l0l3	la_zone_de_lagunage	O
+
+#En  mars 2007 les enveloppes s’établissent à:
+
+24l0l0	En___mars_2007	T
+24l0l1	les_enveloppes	O
+24l0l2	s__établissent	N
+
+#- 1 µg/l en Toluène
+
+25l1l0	Toluène	S
+
+#- 10 µg/l en Xylène
+
+26l1l0	Xylène	S
+
+#- 0,5 µg/l en Benzène
+
+27l1l0	Benzène	S
+
+#La pollution de la nappe à l’intérieur du site a été résorbée.
+
+28l0l0	la_nappe_à_l_	O
+28l0l1	intérieur_du_site	L
+28l0l2	a_été_résorbée	N
+
+#2. d’autre part, par venting avec traitement des vapeurs récupérées sous le bac, par charbon actif et oxydation catalytique de décembre 2005 à janvier 2007.  Le redémarrage de l’installation en juin 2007 a conduit à une absence de concentration mesurable.
+
+29l0l0	venting	N
+29l0l1	de_décembre_2005_à_janvier_2007__	T
+29l0l2	__Le_redémarrage_de	N
+29l0l3	l__installation	O
+29l0l4	en_juin_2007	T
+29l1l0	charbon_actif	U
+
+#3.
+
+
+#Enfin, une barrière biologique avec injection d’H2O2 (peroxyde d'hydrogène) a été mise en place en limite de propriété.
+
+31l0l0	a_été_mise_en_place	N
+31l0l1	en_limite_de_propriété	L
+31l1l0	injection_d__H2O2	S
+31l1l1	peroxyde	S
+
+#Elle a sans doute permis d’atténuer l’impact de la pollution à l’extérieur du site et de réduire la durée de dégradation dans la nappe
+
+32l0l0	à_l__extérieur_du_site	L
+
+#L’arrêté du 8 décembre 2005 a été respecté, une EDR a été réalisée et d'autres études complémentaires également effectuées:
+
+33l0l0	L_	O
+33l0l1	8_décembre_2005	T
+33l0l2	a_été_respecté	N
+33l0l3	une_EDR_a_été_réalisée	N
+
+#- rapport du 28 avril 2006: diagnostic approfondi
+
+34l0l0	28_avril_2006	T
+34l0l1	diagnostic_approfondi	T
+
+#- rapport de mai 2006: mesures de composés organiques volatils
+
+35l0l0	de_mai_2006	T
+35l1l0	composés_organiques_volatils	S
+
+#- rapport du 2 mai 2005: évaluation détaillée des risques pour la ressource en eau
+
+36l0l0	2_mai_2005	T
+
+#- rapport du 3 mai 2006: évaluation détaillée des risques pour la santé humaine
+
+37l0l0	3_mai_2006	T
+
+#- rapport du 25 septembre 2006: diagnostic complémentaire approfondi
+
+38l0l0	25_septembre_2006	T
+
+#- rapport du 22 novembre 2006: mise à jour de la modélisation hydrodynamique et mise à jour de l'évaluation détaillée des risques pour la ressource en eau
+
+39l0l0	22_novembre_2006	T
+39l0l1	mise_à_jour	N
+39l0l2	la_modélisation_hydrodynamique	N
+39l0l3	mise_à_jour	N
+39l0l4	l__évaluation	O
+39l0l5	la_ressource_en_eau	O
+
+#Les résultats des travaux de dépollution ont été les suivants:
+
+40l0l0	Les_résultats	O
+40l0l1	des_travaux_de_dépollution	N
+
+#1.
+
+
+#Il n’y a plus de flottants à pomper au niveau de la nappe depuis mai 2006, et en 2007, les courbes d’isoconcentration en hydrocarbures du site se sont réduites régulièrement  et s’établissaient désormais sous les valeurs réglementaires
+
+42l0l0	Il	O
+42l0l1	n_	N
+42l0l2	depuis_mai_2006__	T
+42l0l3	et	N
+42l0l4	en_2007__	T
+42l0l5	se_sont_réduites	N
+42l0l6	et_s__établissaient	R
+42l0l7	désormais_sous	N
+42l1l0	hydrocarbures	S
+
+#.
+
+
+#2.
+
+
+#Le venting a également atteint ses limites et ses objectifs
+
+
+#3.
+
+
+#La modélisation relative à la pollution sortant du site prévoyait  une emprise de 12,5 ha.   Le suivi piézométrique effectué à l’extérieur du site tendait à montrer une atténuation plus rapide que prévue.
+
+47l0l0	La_modélisation	O
+47l0l1	relative_à	R
+47l0l2	la_pollution	O
+47l0l3	sortant_du_site	L
+47l0l4	prévoyait	R
+47l0l5	__une_emprise	O
+47l0l6	12_5_ha	O
+47l0l7	__Le_suivi_piézométrique	O
+47l0l8	effectué	N
+47l0l9	à_l__extérieur_du_site	L
+47l0l10	une_atténuation	O
+
+#Le suivi des piézomètres situés dans le sens d’écoulement est poursuivi.
+
+48l0l0	Le_suivi_des_piézomètres	O
+48l0l1	situés_dans	L
+
+#4.
+
+49l1l0	4__	D
+
+#Sur la base des résultats de surveillance et d'EDR, il a donc été proposé d’acter par arrêté préfectoral du 20 août 2007 l’arrêt des installations de dépollution sur site, mais de maintenir en l’attente de 2 campagnes d’analyses (juillet, octobre), la barrière biologique en limite de propriété en aval du dépôt pétrolier.
+
+50l0l0	acter	R
+50l0l1	par_arrêté_préfectoral	O
+50l0l2	20_août_2007	T
+50l0l3	l__arrêt_des_installations_de_dépollution_sur_site	N
+50l0l4	en_l_	L
+50l0l5	attente_de	R
+50l0l6	2_campagnes_d__analyses	N
+50l0l7	en_limite_de_propriété_en_aval_du_dépôt_pétrolier	L
+50l1l0	dépôt_pétrolier	D
+
+#Ce même arrêté a prescrit une surveillance des eaux souterraines avec un bilan trimestriel de l'évolution des opérations de dépollution et de surveillance des eaux souterraines.
+
+51l0l0	a_prescrit	N
+51l0l1	une_surveillance_des_eaux_souterraines	A
+51l0l2	opérations_de_dépollution	N
+51l0l3	surveillance_des_eaux_souterraines	A
+
+#31 mars 2008: considérant que la pollution résiduelle à l'aval immédiat du site est du niveau du seuil de détection du laboratoire, les dispositions de l'arrêté préfectoral du 20 août 2007 ont été annulées et remplacées par les suivantes:
+
+52l0l0	31_mars_2008	T
+52l0l1	l_	O
+52l0l2	aval_immédiat_du_site	L
+52l0l3	l__arrêté_préfectoral	O
+52l0l4	20_août_2007	T
+52l0l5	ont_été_annulées	N
+
+#- La surveillance des eaux souterraines est maintenue selon les modalités suivantes: analyse trimestrielle du niveau piézométrique, des HCT, des BTEX et du MTBE.
+
+53l0l0	La_surveillance	A
+53l0l1	eaux_souterraines	O
+53l1l0	HCT	S
+53l1l1	MTBE	S
+
+#Un bilan trimestriel accompagné des commentaires nécessaires a également été prescrit.
+
+54l0l0	Un_bilan_trimestriel	O
+54l0l1	a_également_été_prescrit	N
+
+#La campagne de mars 2012 concernant le suivi trimestriel de la qualité des eaux souterraines a indiqué:
+
+55l0l0	La_campagne	N
+55l0l1	de_mars_2012	T
+55l0l2	concernant	R
+55l0l3	le_suivi_trimestriel	A
+55l0l4	de_la_qualité_des_eaux_souterraines	A
+
+#- un écoulement de la nappe dirigé vers le sud/sud-Est, conforme à celui des campagnes précédentes
+
+56l0l0	la_nappe	O
+56l0l1	dirigé_vers_le_sud___sud___Est	L
+
+#- des teneurs en HCT et BTEX inférieures aux seuils de quantification du laboratoire chargé des analyses pour l'ensemble des ouvrages présents sur le site
+
+57l1l0	HCT	S
+57l1l1	BTEX	S
+
+#- une présence résiduelle d'éthylbenzène et de xylènes totaux pour un piézomètre situé à l'extérieur du site.
+
+58l0l0	un_piézomètre	O
+58l0l1	situé_à_l__extérieur_du_site	L
+58l1l0	éthylbenzène	S
+58l1l1	xylènes_totaux	S
+
+#mai 2014 : à la demande de l'Inspection des installations classées, l'exploitant a fait réaliser un bilan quadriennal de la surveillance des eaux souterraines du site.
+
+59l0l0	mai_2014__	T
+59l0l1	à_la_demande_de	R
+59l0l2	l__Inspection_des_installations_classées	O
+59l0l3	l__exploitant	O
+59l0l4	a_fait_réaliser	N
+59l0l5	un_bilan_quadriennal	T
+59l0l6	la_surveillance_des_eaux_souterraines	A
+59l0l7	du_site	A
+
+#Ce bilan conclut au maintien de la surveillance, à fréquence semestrielle et à l'arrêt de la surveillance au droit de trois piézomètres.
+
+60l0l0	la_surveillance	O
+60l0l1	l__arrêt	N
+60l0l2	la_surveillance	A
+
+#Par courrier, l'Inspection des installations classées modifie la surveillance en ce sens.
+
+61l0l0	l__Inspection_des_installations_classées	O
+61l0l1	modifie	N
+61l0l2	la_surveillance_en	A

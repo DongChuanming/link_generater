@@ -1,0 +1,230 @@
+
+#78.0024
+#Centrale de production d'électricité fonctionnant depuis 1956 (combustible : charbon puis fioul lourd).
+
+0l0l0	Centrale_de	O
+0l0l1	production_d__électricité	A
+0l0l2	fonctionnant_depuis_1956	T
+0l1l0	charbon	U
+0l1l1	fioul_lourd	S
+
+#Centrale fonctionnant au fioul lourd TTBTS (depuis le 1er janvier 2008).
+
+1l0l0	Centrale	O
+1l0l1	fonctionnant_au_fioul_lourd_TTBTS	O
+1l0l2	depuis_le_1er_janvier_2008____	T
+1l1l0	fioul	U
+1l1l1	lourd_TTBTS	I
+
+#Puissance : 4 tranches de 600 MWe chacune.
+
+2l0l0	4_tranches	O
+
+#Capacité du parc à fioul : 350 000 m3 (10 bacs).
+
+3l1l0	fioul	U
+
+#Le site occupe une superficie de 120 ha sur la rive droite de la Seine, à 5 km en amont de l'agglomération urbaine de Mantes-Limay et à 45 km à l'ouest de Paris.
+
+4l0l0	Le_site	O
+4l0l1	ha	T
+4l0l2	sur_la_rive_droite_de_la_Seine	L
+4l0l3	__à_5_km_en_amont_de_l__agglomération_urbaine_de_Mantes__	O
+4l0l4	Limay_et_à_45_km_à_l__ouest_de_Paris	L
+
+#Site sélectionné pour la réalisation d'un diagnostic initial et d'une évaluation simplifiée des risques (ESR) dans le cadre de la circulaire du 3 avril 1996.
+
+5l0l0	Site	O
+5l0l1	la_réalisation_d__un_diagnostic_initial	N
+5l0l2	une_évaluation_simplifiée_des_risques	N
+5l0l3	3_avril_1996__	T
+
+#Les études ont été prescrites par arrêté préfectoral du 12 avril 2000.
+
+6l0l0	Les_études_ont_été_prescrites	N
+6l0l1	par_arrêté_préfectoral	O
+6l0l2	du_12_avril_2000__	T
+
+#Elles ont été remises le 27 février 2003 et ont montré une pollution des sols et de la nappe au droit du site en métaux, en hydrocarbures et en PCB.
+
+7l0l0	Elles	O
+7l0l1	ont_été_remises	N
+7l0l2	le_27_février_2003	T
+7l0l3	une_pollution_des_sols	N
+7l0l4	au_droit_du_site	L
+7l1l0	métaux	S
+7l1l1	hydrocarbures	S
+7l1l2	PCB	S
+
+#L'ESR a conduit à classer le site en classe 1, c'est-à-dire parmi ceux nécessitant des investigations complémentaires.
+
+8l0l0	classer	N
+8l0l1	le_site	O
+
+#Par arrêté préfectoral du 13 août 2003, l'exploitant était tenu de réaliser un diagnostic approfondi et une évaluation détaillée des risques (EDR) relative à l'ensemble du Centre de Production Thermique (CPT).
+
+9l0l0	Par	R
+9l0l1	arrêté_préfectoral	O
+9l0l2	13_août_2003__	T
+9l0l3	l__exploitant	O
+9l0l4	était_tenu_de_réaliser	N
+9l0l5	un_diagnostic_approfondi	N
+9l0l6	une_évaluation_détaillée_des_risques	N
+9l0l7	Thermique	O
+9l1l0	Centre_de_Production_Thermique	I
+
+#Un diagnostic approfondi de sol et des investigations complémentaires pour la mise en œuvre de l'évaluation détaillée des risques du site ont été remis à l'inspection des installations classées le 10 août 2005.
+
+10l0l0	Un_diagnostic_approfondi	N
+10l0l1	des_investigations_complémentaires	N
+10l0l2	mise_en_œuvre_de	A
+10l0l3	l__évaluation_détaillée_des_risques	N
+10l0l4	site	O
+10l0l5	ont_été_remis	N
+10l0l6	l__inspection_des_installations_classées	O
+10l0l7	le_10_août_2005__	T
+
+#Pour la réalisation de ce diagnostic, un programme d'investigations comprenant la réalisation de 47 sondages a été mise en œuvre.
+
+11l0l0	la_réalisation_de_ce_diagnostic	N
+11l0l1	un_programme	O
+11l0l2	d__investigations	N
+11l0l3	comprenant	R
+11l0l4	la_réalisation	N
+11l0l5	47_sondages	O
+11l0l6	a_été_mise_en_œuvre	N
+
+#Une étude détaillée des risques pour la ressource en eau a été déposée le 22 novembre 2005.
+
+12l0l0	Une	O
+12l0l1	étude_détaillée_des_risques	N
+12l0l2	a_été_déposée	N
+12l0l3	le_22_novembre_2005__	T
+
+#L'analyse des résultats des prélèvements réalisés à l'aplomb du site en nappe et dans les sols a permis de sélectionner trois familles de composés.
+
+13l0l0	aplomb_du_site	L
+13l1l0	composés	D
+
+#Ceux-ci sont liés aux activités de la centrale et aux déchets qu'elle génère : les hydrocarbures lourds (chaînes carbonées > C16), les métaux présents dans les cendres des anciens parcs (arsenic, nickel et chrome), mercure et enfin les PCB.
+
+14l0l0	la_centrale	O
+14l1l0	hydrocarbures_lourds	U
+14l1l1	carbonées	U
+14l1l2	les_métaux	S
+14l1l3	arsenic	S
+14l1l4	nickel	S
+14l1l5	chrome	S
+14l1l6	mercure	S
+14l1l7	PCB	S
+
+#- en matière d'impact sur la nappe d'eau souterraine, les résultats obtenus montrent que le risque de contamination des forages d'alimentation en eau potable situés à environ 2 km en aval du fait des activités du CPT est extrêmement réduit.
+
+15l0l0	le_risque_de_contamination	O
+15l0l1	situés_à_environ_2_km_en_aval	L
+15l0l2	du_fait_des	R
+15l0l3	activités_du_CPT	A
+
+#Pour le forage des Noues (en sommeil), les concentrations simulées restent en deçà des normes de potabilité.
+
+16l0l0	le_forage	O
+16l0l1	Noues	L
+
+#- en matière d'impact sur la Seine, les concentrations dans la Seine en arsenic, nickel, chrome, mercure, PCB et hydrocarbures résultant des concentrations en nappe au droit du site sont négligeables et inférieures aux normes de potabilité.
+
+17l0l0	la_Seine	L
+17l0l1	la_Seine	L
+17l0l2	arsenic	O
+17l0l3	au_droit_du_site	L
+17l1l0	arsenic	S
+17l1l1	nickel	S
+17l1l2	chrome	S
+17l1l3	mercure	S
+17l1l4	PCB	S
+17l1l5	hydrocarbures	S
+
+#Par ailleurs, par arrêté préfectoral du 13 août 2003, il a été prescrit à EDF, la mise en œuvre d'une surveillance à fréquence mensuelle des eaux souterraines au droit du site sur 9 piézomètres sur les paramètres suivants : hydrocarbures totaux, métaux (aluminium, antimoine, arsenic, cadmium, chrome, cuivre, manganèse, mercure, nickel, plomb, sélénium, vanadium) et ammonium.
+
+18l0l0	arrêté_préfectoral	O
+18l0l1	13_août_2003__	T
+18l0l2	il_a_été_prescrit	N
+18l0l3	EDF	O
+18l0l4	la_mise_en_œuvre_d_	N
+18l0l5	une_surveillance	A
+18l0l6	eaux_souterraines	O
+18l0l7	au_droit_du_site	L
+18l1l0	hydrocarbures_totaux	S
+18l1l1	métaux	S
+18l1l2	aluminium	S
+18l1l3	antimoine	S
+18l1l4	arsenic	S
+18l1l5	cadmium	S
+18l1l6	chrome	S
+18l1l7	cuivre	S
+18l1l8	manganèse	S
+18l1l9	mercure	S
+18l1l10	nickel	S
+18l1l11	plomb	S
+18l1l12	sélénium	S
+18l1l13	vanadium	S
+18l1l14	ammonium	S
+
+#Il est à noter, par ailleurs, que par arrêté préfectoral en date du 5 novembre 1981, EDF a été autorisé à exploiter un parc à cendres de charbon et à mâchefers d'une capacité maximale de 195000 m3.
+
+19l0l0	arrêté_préfectoral	O
+19l0l1	en_date_du_5_novembre_1981	T
+19l0l2	a_été_autorisé	N
+19l0l3	exploiter	N
+19l0l4	un_parc_à_cendres_de_charbon_et_à_mâchefers	A
+19l1l0	charbon	U
+
+#L'article 11 de cet arrêté a prévu un contrôle de la qualité des eaux souterraines qui auraient pu être affectées par l'exploitation des parcs à cendres du centre de production thermique de Porcheville (3 piézomètres, périodicité mensuelle).
+
+20l0l0	cet_arrêté	O
+20l0l1	a	N
+20l0l2	prévu	R
+20l0l3	un_contrôle_de_la_qualité_des_eaux_souterraines	A
+20l0l4	affectées	N
+20l0l5	Porcheville	L
+
+#Les dépôts de cendres ont totalement été évacués du site fin 1989.
+
+21l0l0	ont_totalement_été_évacués	N
+21l0l1	site	O
+21l0l2	fin_1989__	T
+
+#L'arrêté préfectoral du 12 juillet 2012 a abrogé les arrêtés préfectoraux visés ci-dessus.
+
+22l0l0	L__arrêté_préfectoral	O
+22l0l1	12_juillet_2012	T
+22l0l2	a_abrogé	N
+22l0l3	les_arrêtés_préfectoraux	O
+
+#Cet arrêté prévoit le suivi sur 9 piézomètres des paramètres suivants : pH, niveau piézométrique, hydrocarbures totaux, métaux  (aluminium, antimoine, arsenic, cadmium, chrome, cuivre, manganèse, mercure, nickel, plomb, sélénium, vanadium) et ammonium.
+
+23l0l0	Cet_arrêté	O
+23l0l1	prévoit	R
+23l0l2	le_suivi_sur	A
+23l0l3	9_piézomètres	O
+23l1l0	hydrocarbures_totaux	S
+23l1l1	métaux	S
+23l1l2	__aluminium___antimoine___arsenic___cadmium___chrome___cuivre___manganèse___mercure___nickel___plomb___sélénium___vanadium	S
+23l1l3	et_ammonium	S
+
+#La fréquence des contrôles est trimestrielle.
+
+
+#Les dernières analyses d'eaux souterraines communiquées, réalisées le 11 mars 2014 révèlent, sur certains piézomètres, des concentrations en ammonium et en arsenic supérieures aux limites fixées dans l'arrêté du 17 décembre 2008 établissant les critères d'évaluation et les modalités de détermination de l'état des eaux souterraines.
+
+25l0l0	Les_dernières_analyses	N
+25l0l1	réalisées	N
+25l0l2	le_11_mars_2014	T
+25l0l3	des_concentrations	O
+25l0l4	ammonium	O
+25l0l5	arsenic	O
+25l0l6	17_décembre_2008	T
+25l1l0	ammonium	S
+25l1l1	arsenic	S
+
+#Les teneurs mesurées restent cependant peu élevées et stables dans le temps.
+

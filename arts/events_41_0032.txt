@@ -1,0 +1,206 @@
+
+#41.0032
+#Le site de 15 000 m2 est enclavé dans une zone d'habitat dense avec présence de puits de particuliers.
+
+0l0l0	Le_site	O
+0l0l1	enclavé_dans_une_zone_d__habitat	L
+
+#Il est séparé d'une zone naturelle vierge et de jardins "ouvriers" par une voie ferroviaire.
+
+1l0l0	séparé_d__une_zone_naturelle_vierge	L
+1l0l1	une_voie_ferroviaire	O
+
+#Le site a été occupé dès les années 30 par la société des engrenages Citroen (spécialisée dans le décapage puis la fabrication d'obus), la société BOSCH (fabrication d'allumages électriques), la société PALOMA (fabrication de vélomoteurs) et la société LAVALETTE (fabrication d'alternateurs).
+
+2l0l0	Le_site	O
+2l0l1	a_été_occupé	N
+2l0l2	dès_les_années_30	T
+2l0l3	la_société_des_engrenages_Citroen	O
+2l0l4	spécialisée	R
+2l0l5	dans_le_décapage	A
+2l0l6	puis_la_fabrication_d__obus	A
+2l0l7	la_société_BOSCH	O
+2l0l8	fabrication_d__allumages_électriques	A
+2l0l9	la_société_PALOMA	O
+2l0l10	la_société_LAVALETTE	O
+2l0l11	fabrication_d__alternateurs	A
+2l1l0	la_société_des_engrenages_Citroen	I
+2l1l1	la_société_BOSCH	I
+2l1l2	la_société_PALOMA	I
+2l1l3	la_société_LAVALETTE	I
+
+#En 1968, la société CAILLAU qui est spécialisée dans la fabrication de colliers de serrage, s'installe à Romorantin.
+
+3l0l0	En_1968	T
+3l0l1	la_société_CAILLAU	O
+3l0l2	spécialisée_dans_la_fabrication_de_colliers_de_serrage	A
+3l0l3	s__installe	N
+3l0l4	à_Romorantin	L
+3l1l0	la_société_CAILLAU	I
+
+#La nappe rencontrée au droit du site est la nappe des alluvions de la Sauldre.
+
+4l0l0	alluvions_de_la_Sauldre	L
+
+#Dans le cadre de sa démarche ISO14001, la société CAILLAU a initié un diagnostic des sols de son site.
+
+5l0l0	Dans_le_cadre_de	R
+5l0l1	sa_démarche	O
+5l0l2	la_société_CAILLAU	O
+5l0l3	a_initié	N
+5l0l4	un_diagnostic_des_sols	N
+5l0l5	son_site	O
+5l1l0	la_société_CAILLAU	I
+
+#Les investigations et études conduites par l'exploitant en 2005 et début 2006 ont mis en évidence 2 panaches de pollution des eaux souterraines principalement par les solvants chlorés et la nécessité :
+
+6l0l0	Les_investigations_et_études_conduites	N
+6l0l1	l__exploitant	O
+6l0l2	en_2005_et_début_2006	T
+6l0l3	2_panaches_de_pollution_des_eaux_souterraines	O
+6l1l0	les_solvants_chlorés	S
+
+#- de restrictions d'usage de l'eau, compte tenu de la présence de puits de particuliers dans l'environnement de l'usine ;
+
+
+#- d'assurer un confinement de la pollution présente au droit du site.
+
+8l0l0	confinement	N
+8l0l1	au_droit_du_site	L
+
+#------------------------------------------
+
+
+#Restrictions d'usage des eaux souterraines
+
+10l0l0	Restrictions	O
+
+#------------------------------------------
+
+
+#Ces restrictions [interdiction de l'utilisation de l'eau en provenance du sol et du sous-sol] ont été notifiées aux particuliers situés dans la zone d'influence potentielle de la pollution  par courrier du maire de romorantin du 2 octobre 2006.
+
+12l0l0	Ces_restrictions	N
+12l0l1	interdiction	N
+12l0l2	l__eau	O
+12l0l3	ont_été_notifiées	N
+12l0l4	aux_particuliers	O
+12l0l5	situés_dans_la	L
+12l0l6	zone_d_	O
+12l0l7	de_romorantin	O
+12l0l8	du_2_octobre_2006__	T
+
+#A titre de précaution compte tenu des résultats des compléments d'investigations sur la pollution des eaux souterraines hors site (2 puits seulement impactés sur les 7 investigués), ces restrictions d'usage ont fait l'objet d'un arrêté minicipal du 28 août 2007 sur un périmètre élargi.
+
+13l0l0	des_compléments_d__investigations	N
+13l0l1	la_pollution_des_eaux_souterraines	O
+13l0l2	hors_site	O
+13l0l3	investigués	N
+13l0l4	ces_restrictions_d_	N
+13l0l5	usage	O
+13l0l6	ont_fait_l__objet_d_	R
+13l0l7	un_arrêté_minicipal	O
+13l0l8	28_août_2007	T
+
+#Une information complémentaire a été assurée par publication d'un article dans la nouvelle république du 19 septembre 2007.
+
+14l0l0	la_nouvelle_république_du	N
+14l0l1	19_septembre_2007__	T
+
+#-----------------------------------------
+
+
+#Limitation de l'extension de la pollution
+
+16l1l0	pollution	U
+
+#-----------------------------------------
+
+
+#Deux barrières hydrauliques ont été mises en place pour assurer le confinement de la pollution.
+
+18l0l0	Deux_barrières_hydrauliques	O
+18l0l1	ont_été_mises_en_place	N
+
+#Les eaux pompées sont traitées avant rejet.
+
+19l0l0	sont_traitées_avant_rejet	N
+
+#---------------------------------------
+
+
+#Contrôle de la maitrise de la pollution
+
+21l0l0	Contrôle	R
+21l0l1	la_maitrise_de_la_pollution	O
+
+#---------------------------------------
+
+
+#La surveillance quadrimestrielle de la qualité des eaux souterraines est assurée sur plusieurs puits et plusieurs pîézomètres à l'aval des barrières hydrauliques pour s'assurer de leur efficacité.
+
+23l0l0	La_surveillance_quadrimestrielle	A
+23l0l1	la_qualité_des_eaux_souterraines	A
+23l0l2	à_l__aval_des_barrières_hydrauliques	L
+
+#La qualité des rejets de l'installation de traitement des eaux pompées est également surveillée.
+
+24l0l0	surveillée	N
+
+#Le confinement et la surveillance de la pollution sont encradées par un arrêté préfectoral du 9 juin 2008.
+
+25l0l0	Le_confinement	N
+25l0l1	la_surveillance_de_la_pollution	A
+25l0l2	un_arrêté_préfectoral	O
+25l0l3	du_9_juin_2008__	T
+
+#Un bilan annuel de l'évolution de la situation est présenté en sous-préfecture de l'arrondissement de Romorantin au Sous-Préfet, au maire et aux services concernés (ARS, DREAL, DDT).
+
+26l0l0	Un_bilan_annuel	N
+26l0l1	arrondissement_de_Romorantin	L
+26l0l2	maire	O
+26l1l0	Sous_Préfet	I
+26l1l1	ARS___DREAL	I
+26l1l2	DDT	I
+
+#Les bilans montrent que la situation est stabilisée.
+
+
+#------------
+
+
+#Perspectives
+
+
+#------------
+
+30l0l0	_	O
+
+#Une nouvelle implantation de l'usine CAILLAU en zone industrielle a été autorisée par arrêté préfectoral du 29 juillet 2010.
+
+31l0l0	Une_nouvelle_implantation	N
+31l0l1	l__usine_CAILLAU	O
+31l0l2	en	R
+31l0l3	zone_industrielle	O
+31l0l4	a_été_autorisée	N
+31l0l5	par_arrêté_préfectoral	O
+31l0l6	du_29_juillet_2010__	T
+31l1l0	CAILLAU	I
+
+#Le contexte économique a conduit à différer ce déménagement.
+
+32l0l0	a_conduit_à_différer	N
+32l0l1	ce_déménagement	N
+
+#Le traitement de la pollution pourra intervenir quand le site aura été libéré, la présence des équipements de production empêchant l'accès aux zones de pollution des sols.
+
+33l0l0	Le_traitement	N
+33l0l1	la_pollution	O
+33l0l2	pourra_intervenir	N
+33l0l3	quand	T
+33l0l4	le_site	O
+33l0l5	aura_été_libéré	N
+33l0l6	zones_de_pollution_des_sols	O
+
+#-----------------
+

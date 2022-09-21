@@ -1,0 +1,99 @@
+
+#59.0410
+#-Ancienne décharge contrôlée autorisée par arrêté préfectoral du 24 août 1967.
+
+0l0l0	_Ancienne_décharge_contrôlée	O
+0l0l1	autorisée_par	R
+0l0l2	arrêté_préfectoral_du	O
+0l0l3	24_août_1967__	T
+
+#-Exploitation arrêtée vers 1982 - 1983.
+
+1l0l0	_Exploitation_arrêtée	N
+1l0l1	vers_1982___1983__	T
+
+#-La décharge a été remodelée (tumulus), recouverte d'une couche de terre végétale et plantée d'arbres (bouleaux).
+
+2l0l0	_La_décharge	O
+2l0l1	a_été_remodelée	N
+
+#-L'ancienne décharge communale est implantée en zone rurale à moins de 50mètre d'un étang de pêche.
+
+3l0l0	_L__ancienne_décharge_communale	O
+3l0l1	est_implantée_en_zone_rurale_à_moins_de_50mètre_d__un_étang_de_pêche	L
+
+#-Le site occupe les parcelles 340, 341, 342 et 344.(6900m²)
+
+4l0l0	_Le_site	O
+
+#-La Ville de Montigny-en-Ostrevent veut urbaniser la zone (habitations) dans la cadre de la modification du PLU.
+
+5l0l0	_La_Ville	O
+5l0l1	de_Montigny_en_Ostrevent	L
+5l0l2	veut	R
+5l0l3	urbaniser	T
+5l0l4	la_zone	O
+5l0l5	habitations	O
+5l0l6	dans_la_cadre_de	R
+5l0l7	la_modification_du_PLU	N
+5l1l0	_La_Ville	I
+
+#-Une pollution au MVC a été découverte dans la nappe superficielle, au centre de la ville lors de travaux, sans que son origine ait pu en être déterminée.
+
+6l0l0	_Une_pollution	O
+6l0l1	MVC	O
+6l0l2	a_été_découverte	N
+6l0l3	dans	R
+6l0l4	la_nappe	O
+6l0l5	au_centre_de_la_ville_lors_de_travaux	L
+6l1l0	MVC	S
+
+#-3 piézomètres ont été installés et les analyses demandées par l'IIC réalisées.
+
+7l0l0	_3_piézomètres	O
+7l0l1	ont_été_installés	N
+7l0l2	l__IIC	O
+
+#Celles-ci révèlent des teneurs importantes en HAP, hydrocarbures totaux et Nickel, proches ou dépassant les VCI usage sensible, et même VCI usage non sensible pour certains paramètres.
+
+8l1l0	HAP	S
+8l1l1	hydrocarbures_totaux	S
+8l1l2	Nickel	S
+
+#-Des représentants de la mairie ont déclaré à l'IIC que l'exploitation de la décharge avait été confiée à la société Ordures Service pendant les 5 dernières années de son fonctionnement et que celle-ci avait pu y amener des déchets de type industriels, voire industriels spéciaux, notamment des déchets de la RNUR à Cuincy.
+
+9l0l0	la_mairie	O
+9l0l1	ont_déclaré	N
+9l0l2	l__exploitation	N
+9l0l3	la_décharge	O
+9l0l4	avait_été_confiée	N
+9l0l5	la_société_Ordures	O
+9l0l6	pendant_les_5_dernières_années	T
+9l0l7	de_son_fonctionnement	O
+9l0l8	RNUR_à_Cuincy	L
+9l1l0	la_société_Ordures_Service	I
+9l1l1	des_déchets	U
+9l1l2	des_déchets	U
+
+#-Un fossé drainant les eaux de surface et entourant la décharge vient alimenter un étang de pêche et de loisirs implanté à une cinquantaine de mètres de la décharge.
+
+10l0l0	_Un_fossé	O
+10l0l1	entourant_la_décharge	L
+10l0l2	vient_alimenter	R
+10l0l3	un_étang_de_pêche_et_de_loisirs	O
+10l0l4	implanté	R
+10l0l5	à_une_cinquantaine_de_mètres_de_la_décharge	L
+
+#-Plusieurs puits privés, alimentés par la nappe superficielle, sont implantés dans diverses habitations du centre-ville.
+
+11l0l0	_Plusieurs_puits_privés	O
+11l0l1	sont_implantés	N
+11l0l2	dans_diverses_habitations_du_centre___ville	L
+
+#Une étude diagnostic + ESR + surveillance des eaux de nappe à partir des 3 piézomètres existants ont été demandés à l'exploitant (rapport CDH + projet d'AP proposés au Préfet à la date du 17/03/2003)
+
+12l0l0	Une_étude_diagnostic	N
+12l0l1	surveillance_des_eaux_de_nappe	A
+12l0l2	ont_été_demandés	N
+12l0l3	l__exploitant	O
+12l0l4	la_date_du_17_03_2003	T

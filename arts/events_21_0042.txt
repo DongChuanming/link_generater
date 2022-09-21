@@ -1,0 +1,396 @@
+
+#21.0042
+#Historique :
+
+
+#1927:L'activité industrielle du site a démarré en 1927.
+
+1l0l0	1927__	T
+1l0l1	L__activité_industrielle_du_site	O
+1l0l2	a_démarré	N
+1l0l3	en_1927__	T
+
+#Auparavant, il était occupé par un commerce de vin.
+
+2l0l0	occupé_par	R
+2l0l1	un_commerce_de_vin	O
+
+#Cette activité industrielle a été initiée par l'entreprise Melin-Houguenague.
+
+3l0l0	Cette_activité_industrielle	A
+3l0l1	a_été_initiée_par	N
+3l0l2	l__entreprise_Melin	O
+3l0l3	__Houguenague	L
+3l1l0	Melin__	I
+
+#Les activités créées étaient les suivantes :
+
+4l0l0	Les_activités_créées	O
+
+#- traitement des goudrons de houille,
+
+5l0l0	traitement	N
+5l0l1	houille	A
+
+#- fabrication de goudron routier,
+
+6l0l0	fabrication	A
+6l0l1	de_goudron_routier	O
+6l1l0	goudron_routier	U
+
+#- commerce de carburant (essence, fuel),
+
+7l0l0	commerce_de_carburant	O
+7l1l0	carburant	U
+7l1l1	fuel	U
+
+#- commerce gaz liquéfié.
+
+
+#1956: Rachat du site par l'entreprise Albert Cochery.
+
+9l0l0	1956__	T
+9l0l1	Rachat	N
+9l0l2	du_site	O
+9l0l3	l__entreprise_Albert_Cochery	O
+
+#Arrêt du commerce de carburants.
+
+10l0l0	Arrêt	N
+10l0l1	du_commerce_de_carburants	A
+10l1l0	carburants	U
+
+#1963 – 1965: Démarrage de l'activité "produits spéciaux" : mastics de jointoyage, liants époxydiques pour revêtements de sol et polyuréthanne.
+
+11l0l0	1963___1965__	T
+11l0l1	Démarrage	N
+11l0l2	l__activité	O
+11l0l3	produits_spéciaux	O
+11l0l4	jointoyage	A
+11l0l5	polyuréthanne	O
+11l1l0	polyuréthanne	S
+
+#1970 – 1975: Arrêt de la distillation de goudrons.
+
+12l0l0	1970	T
+12l0l1	__1975	T
+12l0l2	__Arrêt	N
+12l0l3	la_distillation_de_goudrons	A
+12l0l4	_	T
+12l1l0	goudrons	U
+
+#Démarrage de l'activité liants routiers / émulsion de bitumes.
+
+13l0l0	Démarrage_de_l__activité_liants	A
+13l0l1	routiers	O
+13l0l2	émulsion_de_bitumes	A
+
+#Activité travaux publics.
+
+14l0l0	Activité_travaux_publics	O
+
+#Années 70: Modernisation de l'usine, sans arrêts de production.
+
+15l0l0	Années_70	T
+15l0l1	Modernisation	N
+15l0l2	l__usine	O
+15l0l3	sans_arrêts_de_production	A
+
+#1984: Déplacement de l'usine de fabrication d'émulsions.
+
+16l0l0	1984	T
+16l0l1	__Déplacement	N
+16l0l2	l__usine_de	O
+16l0l3	fabrication_d__émulsions	A
+
+#1991: Reconstruction de l'usine INTERDESCO / Résines.
+
+17l0l0	1991	T
+17l0l1	Reconstruction_de	N
+17l0l2	l__usine_INTERDESCO	O
+17l0l3	Résines	O
+17l1l0	INTERDESCO	I
+
+#Aujourd'hui, le site accueille VIALCO (fabrication d'émulsions routières) et INTERDESCO (fabrication de résines).
+
+18l0l0	le_site	O
+18l0l1	accueille	R
+18l0l2	VIALCO	O
+18l0l3	fabrication_d__émulsions	A
+18l0l4	routières	O
+18l0l5	INTERDESCO	O
+18l0l6	fabrication_de_résines	A
+18l1l0	VIALCO	I
+18l1l1	INTERDESCO	I
+
+#Ces 2 sociétés font partie du groupe EUROVIA MANAGEMENT détenteur du site objet de la présente description.
+
+19l0l0	Ces_2_sociétés	O
+19l0l1	font_partie_du_groupe	L
+19l0l2	EUROVIA_MANAGEMENT	O
+19l1l0	groupe_EUROVIA_MANAGEMENT	I
+
+#Le site est également riverain d'une voie SNCF.
+
+20l0l0	Le_site	O
+20l0l1	riverain_d__une_voie_SNCF	L
+
+#1 juin 1999: par arrêté préfectoral, la société VIALCO a été tenue de faire réaliser une étude diagnostic initial et une étude d'évaluation simplifiée des risques (ESR) conformément à l'ancien guide méthodologique national élaboré par le ministère de l'environnement.
+
+21l0l0	1_juin_1999__	T
+21l0l1	par_arrêté_préfectoral	O
+21l0l2	la_société_VIALCO	O
+21l0l3	a_été_tenue_de_faire_réaliser	N
+21l0l4	une_étude_diagnostic_initial	N
+21l0l5	une_étude_d__évaluation_simplifiée_des_risques	N
+21l0l6	le_ministère_de_l__environnement	O
+21l1l0	la_société_VIALCO	I
+
+#Etudes :
+
+
+#- diagnostic initial, phase A : 12 janvier 2000
+
+23l0l0	diagnostic_initial	N
+23l0l1	__12_janvier_2000	T
+
+#- diagnostic initial, phase B : 14 février 2001
+
+24l0l0	__diagnostic_initial	N
+24l0l1	__14_février_2001	T
+
+#- ESR : 15 février 2001
+
+25l0l0	15_février_2001	T
+25l1l0	ESR	I
+
+#- demande d'investigations complémentaires en aval hydraulique du site
+
+26l0l0	demande_d__investigations	N
+26l0l1	en_aval_hydraulique	L
+26l0l2	site	O
+
+#La caractérisation de la pollution a été réalisée au moyen de quarante quatre sondages.
+
+27l0l0	La_caractérisation_de_la_pollution	O
+27l0l1	a_été_réalisée	N
+27l0l2	quatre_sondages	N
+
+#Les prélèvements et analyses ont mis en évidence une pollution en hydrocarbures aromatiques polycycliques (HAP) au niveau des sols des zones de lagunage et de distillation ainsi qu'en hydrocarbures aromatiques volatils (BTEX) et en HAP dans la nappe phréatique superficielle (située entre 1.9 et 3.3 mètres de profondeur).
+
+28l0l0	Les_prélèvements	N
+28l0l1	une_pollution	N
+28l0l2	lagunage	A
+28l0l3	distillation	A
+28l1l0	hydrocarbures_aromatiques_polycycliques	S
+28l1l1	HAP	S
+28l1l2	hydrocarbures_aromatiques_volatils	S
+28l1l3	BTEX	S
+28l1l4	HAP	S
+
+#La pollution identifiée concernait essentiellement mais non exclusivement le niveau superficiel graveleux.
+
+
+#Le site a alors été classé en rang 1 à savoir site "site nécessitant une dépollution ou des investigations supplémentaires" pour l'ESR.
+
+30l0l0	Le_site	O
+30l0l1	a_alors_été_classé	N
+30l0l2	une_dépollution	N
+30l1l0	l__ESR	I
+
+#Du fait de la couverture progressive du site par des bâtiments et des zones de stockage sur rétention, la cible la plus vulnérable est constituée par les eaux souterraines situées à l'aval hydraulique immédiat du site, soit les puits privés.
+
+31l0l0	la_cible	O
+31l0l1	situées_à_l__aval_hydraulique_immédiat_du_site	L
+
+#D'autres études ont été nécessaires avant d'entreprendre des travaux de dépollution compte tenu de la proximité de la voie SNCF:
+
+32l0l0	ont_été_nécessaires	N
+32l0l1	avant_d_	R
+32l0l2	entreprendre_des_travaux_de_dépollution	N
+32l0l3	la_voie_SNCF	O
+
+#- accord SNCF en septembre 2001 pour l'installation de nouveaux piézomètres
+
+33l0l0	accord_SNCF	O
+33l0l1	en_septembre_2001	T
+33l0l2	l__installation_de_nouveaux	N
+33l0l3	piézomètres	O
+
+#- mise en place de piézomètres supplémentaires  en octobre 2001
+
+34l0l0	mise_en_place_de_piézomètres_supplémentaires	O
+34l0l1	__en_octobre_2001	T
+
+#- diagnostic complémentaire : décembre 2001
+
+35l0l0	__diagnostic_complémentaire	N
+35l0l1	__décembre_2001	T
+
+#- propositions de réhabilitation en décembre 2001 et mars 2002 (création d'une barrière hydraulique, rabattement et traitement de la nappe superficielle),
+
+36l0l0	réhabilitation	N
+36l0l1	en_décembre_2001_et_mars_2002	T
+36l0l2	création_d_	R
+36l0l3	une_barrière_hydraulique	O
+36l0l4	rabattement	N
+36l0l5	traitement_de_la_nappe	N
+
+#- demande de tierce expertise compte tenu de la proximité de la voie SNCF (avec la nécessité de garantir la stabilité des voies) et de la sensibilité du milieu récepteur (eaux traitées)
+
+37l0l0	la_voie_SNCF	O
+
+#- remise des conclusions de l'INERIS le 20 janvier 2003.
+
+38l0l0	l__INERIS	O
+38l0l1	le_20_janvier_2003__	T
+
+#Ces conclusions portaient sur les travaux de dépollution et de confinement programmés sur le site, à savoir l'excavation des terres polluées, le traitement des eaux polluées et la mise en place d'un confinement à l'aval du site via une barrière hydraulique.
+
+39l0l0	les_travaux_de_dépollution	N
+39l0l1	l__excavation	N
+39l0l2	des_terres_polluées	N
+39l0l3	le_traitement	N
+39l0l4	eaux_polluées	O
+39l0l5	la_mise_en_place_d__un_confinement	N
+39l0l6	à_l__aval_du_site	L
+
+#26 juin 2003: compte tenu des études précédentes et notamment du rapport de l'INERIS, il a été décidé par arrêté préfectoral d'imposer à la société EUROVIA MANAGEMENT (maison mère des sociétés VIALCO et INTERDESCO) la dépollution des sols visés par les études ci-dessus.
+
+40l0l0	26_juin_2003__	T
+40l0l1	a_été_décidé	N
+40l0l2	par	R
+40l0l3	arrêté_préfectoral	O
+40l0l4	d__imposer	N
+40l0l5	la_société_EUROVIA_MANAGEMENT	O
+40l0l6	VIALCO	O
+40l0l7	la_dépollution	N
+40l0l8	sols_visés	O
+40l0l9	les_études	N
+40l1l0	la_société_EUROVIA_MANAGEMENT	I
+40l1l1	des_sociétés_VIALCO_et_INTERDESCO	I
+
+#- la mise en place du confinement hydraulique devait se faire après accord des services compétents de la SNCF
+
+41l0l0	la_mise_en_place	N
+41l0l1	confinement_hydraulique	O
+41l0l2	devait	R
+41l0l3	se_faire_après_accord	N
+41l0l4	la_SNCF	O
+
+#- le dispositif de confinement devait se faire par extraction triple phase
+
+42l0l0	triple_phase	O
+
+#- une surveillance piézométrique et topographique a été prescrite
+
+43l0l0	une_surveillance_piézométrique_et_topographique	O
+43l0l1	a_été_prescrite	N
+
+#- un suivi de la qualité des eaux de la nappe a été prescrit
+
+44l0l0	un_suivi_de_la_qualité_des_eaux_de_la_nappe	A
+44l0l1	a_été_prescrit	N
+
+#Les eaux de la lagune et d'une cave ont été traitées in situ.
+
+45l0l0	Les_eaux	O
+45l0l1	la_lagune	O
+45l0l2	une_cave	O
+45l0l3	ont_été_traitées_in_situ	N
+45l1l0	la_lagune	I
+
+#Les terres souillées ont été excavées et en attente de traitement dans un biocentre extérieur.
+
+46l0l0	Les_terres_souillées	O
+46l0l1	ont_été_excavées_et_en_attente_de_traitement	N
+46l0l2	un_biocentre_extérieur	O
+
+#Interrogée sur la pérennité de la stabilité des voies, la SNCF a donné son accord à la réalisation de la barrière hydraulique et au final les travaux de dépollution, la surveillance de la qualité des eaux souterraines et le suivi piézométrique ont commencé en 2005.
+
+47l0l0	Interrogée	N
+47l0l1	la_stabilité_des_voies	O
+47l0l2	la_SNCF	O
+47l0l3	a_donné_son_accord	N
+47l0l4	la_réalisation_de	N
+47l0l5	la_barrière_hydraulique	O
+47l0l6	final	O
+47l0l7	les_travaux_de_dépollution	N
+47l0l8	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+47l0l9	le_suivi_piézométrique	A
+47l0l10	ont_commencé	N
+47l0l11	en_2005__	T
+47l1l0	la_SNCF	I
+
+#Au total 12 piézomètres étaient installés au droit du site et 25 aiguilles d'extraction (constituant la barrière hydraulique) ont été installées.
+
+48l0l0	12_piézomètres	O
+48l0l1	étaient_installés	N
+48l0l2	au_droit_du_site	L
+48l0l3	ont_été_installées	N
+
+#L'extraction triple phase est un procédé in situ permettant de récupérer les contaminants organiques (hydrocarbures, HAP, BTEX ...) sous forme: libre (flottant au dessus de l'eau), dissoute et gazeuse.
+
+49l0l0	triple_phase	O
+49l0l1	contaminants	N
+49l1l0	contaminants_organiques	U
+49l1l1	hydrocarbures	S
+49l1l2	HAP	S
+49l1l3	BTEX	S
+
+#Les différentes phases récupérées sont ensuite traitées (décanteur/déshuileur et charbon actif).
+
+50l0l0	déshuileur	N
+50l1l0	charbon_actif	U
+
+#Des campagnes trimestrielles de prélèvements d'eaux ont ensuite été réalisées afin de suivre l'évolution de la qualité des eaux souterraines depuis la mise en service de la barrière de confinement.
+
+51l0l0	Des_campagnes_trimestrielles	N
+51l0l1	d__eaux	O
+51l0l2	ont_ensuite_été_réalisées	N
+51l0l3	qualité_des_eaux_souterraines	O
+51l0l4	depuis	T
+51l0l5	la_mise_en_service	N
+51l0l6	de_la_barrière_de_confinement	O
+
+#Le rapport de suivi de janvier 2012 concernant les résultats de la barrière hydraulique quant à l'amélioration de la qualité des eaux a indiqué:
+
+52l0l0	Le_rapport_de_suivi	O
+52l0l1	de_janvier_2012	T
+52l0l2	la_barrière_hydraulique	O
+52l0l3	quant_à	R
+52l0l4	l__amélioration_de	N
+52l0l5	la_qualité_des_eaux	O
+
+#- A fin 2011, environ 95000 m3 d'eau de la nappe ont été pompés puis traités grâce au dispositif de confinement
+
+53l0l0	A_fin_2011__	T
+
+#- des arrivées de goudron purs étaient encore observées dans le décanteur de l'unité de traitement
+
+54l0l0	goudron_purs	O
+54l0l1	traitement	A
+54l1l0	goudron_purs	U
+
+#- les nettoyages et écrémage réguliers ont permis de récupérer environ 1620 litres de goudrons purs
+
+55l0l0	les_nettoyages	N
+55l0l1	écrémage	N
+55l0l2	1620_litres_de_goudrons_purs	O
+
+#- une diminution significative des teneurs au droit d'un piézomètre (PZ9) hors site et en aval hydraulique de la barrière
+
+56l0l0	une_diminution_significative	N
+56l0l1	en_aval_hydraulique_de_la_barrière	L
+
+#- les résultats du suivi des eaux souterraines sur les autres ouvrages n'ont pas permis de mettre en évidence de diminution significative des teneurs, ce phénomène étant lié à la présence de phase pure de goudrons très peu mobile dans les matériaux du site.
+
+57l0l0	suivi_des_eaux_souterraines	A
+57l1l0	phase_pure_de_goudrons	U
+
+#En tout état de cause, le Naphtalène, les hydrocarbures totaux et les BTEX sont encore détectés lors des analyses.
+
+58l0l0	détectés	N
+58l1l0	le_Naphtalène	S
+58l1l1	les_hydrocarbures_totaux	S
+58l1l2	les_BTEX	S

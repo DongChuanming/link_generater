@@ -1,0 +1,161 @@
+
+#68.0169
+#Les débuts de l’exploitation date de 1950, par la société France-Suisse.
+
+0l0l0	Les_débuts_de	N
+0l0l1	l__exploitation	O
+0l0l2	date_de_1950	T
+0l0l3	la_société_France___Suisse	O
+0l1l0	la_société_France___Suisse	I
+
+#La nouvelle sablière a repris l’activité en 1954.
+
+1l0l0	La_nouvelle_sablière	O
+1l0l1	a_repris_l__activité	N
+1l0l2	en_1954__	T
+
+#La gravière a cessé ses activités en 1977.
+
+2l0l0	La_gravière	O
+2l0l1	a_cessé_ses_activités	N
+2l0l2	en_1977__	T
+
+#Elle a fait l’objet de remblaiements jusqu’en 1988 par des matériaux de démolition et des déblais de fouilles.
+
+3l0l0	Elle	O
+3l0l1	a_fait_l__objet	R
+3l0l2	de_remblaiements	N
+3l0l3	jusqu__en_1988	T
+3l0l4	par_des_matériaux_de_démolition	N
+3l0l5	des_déblais_de_fouilles	N
+
+#En 1969, par constat de la Direction Départementale de l'Agriculture et de la Forêt (DDAF) du département 68:
+
+4l0l0	En_1969	T
+4l0l1	la_Direction_Départementale_de_l__Agriculture	O
+4l1l0	la_Direction_Départementale_de_l__Agriculture	I
+4l1l1	la_Forêt	U
+
+#- Les dépôts sur les côtés sont opposés au front de taille;
+
+5l0l0	opposés_au_front_de_taille	L
+
+#- La cadence des dépôts est de 45 camions par jour en moyenne;
+
+
+#- La capacité de stockage de l'époque est de 150 000 m3;
+
+7l0l0	m3	O
+
+#- Des déchets de démolition seraient déposés au droit du site.
+
+8l0l0	au_droit_du_site	L
+
+#Les éléments caractérisant ce site justifient une investigation de la qualité des eaux souterraines.
+
+9l0l0	la_qualité_des_eaux_souterraines	O
+
+#L'étude du BRGM/ANRED (1991) ne recense pas de déchets industriels chimiques au sein des déblais de démolition.
+
+10l0l0	BRGM___ANRED	O
+10l0l1	__1991	T
+10l0l2	déblais_de_démolition	N
+10l1l0	BRGM	I
+10l1l1	ANRED	I
+10l1l2	déchets_industriels_chimiques	U
+
+#En 1991, la majeure partie des terrains sont détenus par la société CIBA-BEIGY (basée à Huningue).
+
+11l0l0	En_1991	T
+11l0l1	la	N
+11l0l2	majeure_partie_des_terrains	O
+11l0l3	sont_détenus	N
+11l0l4	la_société_CIBA___BEIGY	O
+11l0l5	basée_à_Huningue	L
+11l1l0	la_société_CIBA	I
+11l1l1	BEIGY	I
+
+#La Nouvelle Sablière de Huningue est passée sous contrôle du groupe suisse HUPFER A.
+
+12l0l0	La_Nouvelle_Sablière	O
+12l0l1	de_Huningue	L
+12l0l2	est_passée_sous_contrôle	N
+12l0l3	du_groupe_suisse_HUPFER_A_	O
+12l1l0	La_Nouvelle_Sablière_de_Huningue	I
+12l1l1	groupe_suisse_HUPFER_A_	I
+
+#.
+
+
+#Étude du BRGM/ANRED (1993) :
+
+14l0l0	Étude	N
+14l0l1	du_BRGM	O
+14l1l0	BRGM___ANRED	I
+
+#Des prélèvements d'eau souterraine sont réalisés en mars 1991 (basses-eaux) et août 1991 (hautes-eaux).
+
+15l0l0	sont_réalisés	N
+15l0l1	en_mars_1991	T
+15l0l2	août_1991	T
+
+#Parmi un réseau de surveillance de neuf piézomètres, trois ont fait l'objet d'une analyse.
+
+16l0l0	Parmi	R
+16l0l1	un_réseau_de_surveillance	A
+16l0l2	neuf_piézomètres	O
+16l0l3	trois	O
+16l0l4	ont_fait_l__objet_d_	R
+
+#Deux piézomètres sur les trois ont mis en évidence des traces de hexachlorocyclohexane (HCH ou lindane).
+
+17l0l0	Deux_piézomètres	O
+17l1l0	hexachlorocyclohexane	S
+17l1l1	HCH	S
+17l1l2	lindane	S
+
+#A l'aval:
+
+18l0l0	l__aval	O
+
+#- les teneurs étaient plus importantes avec une moyenne de 0.2 µg/L en HCH ß;
+
+19l1l0	HCH	S
+
+#- valeurs particulièrement élevées en hautes-eaux de Demande Chimique en Oxygène (DCO) de 56 mg/l et en chlorures de 550 mg/L.
+
+20l1l0	Oxygène	S
+20l1l1	chlorures	S
+
+#>> Conclusion du rapport du BRGM/ANRED (1993): contamination importante en chlorure provenant probablement des remblais déposés dans le site la Nouvelle Sablière de Huningue.
+
+21l0l0	BRGM	O
+21l0l1	ANRED___1993__	T
+21l0l2	remblais_déposés	N
+21l0l3	dans_le_site_la_Nouvelle_Sablière_de_Huningue	L
+21l1l0	BRGM___ANRED	I
+21l1l1	chlorure	S
+
+#Il ne conclut pas à une contamination par les pesticides organochlorés (HCH) en provenance du site la Nouvelle Sablière de Huningue.
+
+22l0l0	une_contamination	O
+22l0l1	provenance_du_site_la_Nouvelle_Sablière_de_Huningue	L
+22l1l0	les_pesticides_organochlorés	S
+22l1l1	HCH	S
+22l1l2	la_Nouvelle_Sablière_de_Huningue	I
+
+#Rapport du BRGM (1998): deux piézomètres révèlent des traces de HCH ß à des teneurs voisines aux concentrations maximales autorisées (CMA).
+
+23l0l0	BRGM	O
+23l0l1	__1998__	T
+23l0l2	deux_piézomètres	O
+23l0l3	des_teneurs	O
+23l1l0	BRGM	I
+23l1l1	HCH	S
+
+#La présence potentielle de déchets industriels d'origine chimique n'a été confirmée ni par le réseau de surveillance des eaux souterraines ni par les témoignages recueillis.
+
+24l1l0	déchets_industriels	U
+
+#La nocivité potentielle est peu importante compte-tenu du contexte local.
+

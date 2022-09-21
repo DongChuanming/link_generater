@@ -1,0 +1,216 @@
+
+#14.0041
+#Installation de stockage de déchets inertes exploitée par la société ECO MINE.
+
+0l0l0	Installation_de_stockage_de_déchets_inertes	O
+0l0l1	la_société_ECO_MINE	O
+0l1l0	la_société_ECO_MINE	I
+
+#Elle bénéficie d'une autorisation communale datant du 13 décembre 2004 et d’une autorisation préfectorale du 1er octobre 2007.
+
+1l0l0	Elle	O
+1l0l1	une_autorisation_communale	O
+1l0l2	datant_du_13_décembre_2004	T
+1l0l3	d__une_autorisation_préfectorale	N
+1l0l4	du_1er_octobre_2007__	T
+
+#Elle cessé son activité en 2010.
+
+2l0l0	Elle_cessé	N
+2l0l1	son_activité	O
+2l0l2	en_2010__	T
+
+#Le site est exploité sur l’ancien carreau des mines de Soumont Saint Quentin.
+
+3l0l0	Le_site	O
+3l0l1	est_exploité	N
+3l0l2	sur_l__ancien_carreau_des_mines_de_Soumont_Saint_Quentin	L
+
+#L’exploitation permet la prise en charge de matériaux inertes par comblement de la fosse de l’ancienne voie ferrée.
+
+4l0l0	L__exploitation	O
+4l0l1	permet	R
+4l0l2	la_prise_en_charge	N
+4l0l3	de_matériaux_inertes	O
+4l0l4	comblement	N
+4l0l5	la_fosse	O
+4l0l6	l__ancienne_voie_ferrée	O
+
+#Le site occupe une surface de 17 ha dont 1800m2 allouée à la zone de dépôt.
+
+5l0l0	Le_site	O
+5l0l1	1800m2	O
+5l0l2	allouée_à	R
+5l0l3	la_zone_de_dépôt	O
+
+#En octobre 2008, une association de protection de l’environnement, l’ORREAT (Observatoire Régional de l’Ecologie, de l’Environnement et de l’Aménagement du Territoire) a fait état de plusieurs dépôts illégaux de déchets dénommés « résidus de broyage automobiles » (RBA).
+
+6l0l0	En_octobre_2008__	T
+6l0l1	une_association_de_protection_de_l__environnement	O
+6l0l2	l__ORREAT	O
+6l0l3	plusieurs	O
+6l0l4	dépôts_illégaux	N
+6l0l5	broyage_automobiles	O
+6l1l0	ORREAT	I
+6l1l1	dépôts_illégaux	D
+6l1l2	de_déchets	U
+
+#Les résidus de broyage automobile, ou RBA, sont des déchets constitués des matériaux récupérés à l’issue du broyage des véhicules hors d’usage dépollués après récupération de la fraction métallique.
+
+7l0l0	broyage_automobile	O
+7l0l1	broyage_des_véhicules_hors_d__usage_dépollués	N
+7l1l0	Les_résidus	S
+7l1l1	fraction_métallique	U
+
+#Ils sont constitués de plastiques, textiles, mousses, caoutchoucs, verres….
+
+
+#Selon le niveau de dépollution des véhicules broyés, ils peuvent contenir des hydrocarbures et des métaux comme le plomb, le cuivre ou le zinc.
+
+9l0l0	Selon_le_niveau_de_dépollution	N
+9l0l1	broyés	O
+9l1l0	hydrocarbures	S
+9l1l1	métaux	S
+9l1l2	plomb	S
+9l1l3	cuivre	S
+9l1l4	zinc	S
+
+#Après contrôle, ils peuvent suivre une filière d’élimination en centre de stockage de déchets non dangereux.
+
+10l0l0	Après_contrôle	N
+10l1l0	déchets_non_dangereux	U
+
+#La société Guy Dauphin Environnement (GDE) a reconnu sa responsabilité dans cette affaire, les RBA provenant de son établissement de Rocquancourt.
+
+11l0l0	La_société	O
+11l0l1	GDE	O
+11l0l2	a_reconnu	N
+11l0l3	sa_responsabilité	O
+11l0l4	cette_affaire	O
+11l0l5	les_RBA	O
+11l0l6	son_établissement	O
+11l0l7	Rocquancourt	L
+11l1l0	La_société_Guy_Dauphin_Environnement	I
+11l1l1	GDE	I
+
+#Environ 4 000 tonnes de RBA (10000 tonnes si l'on considère le mélange avec du remblai) ont été déposées de manière non réglementaire.
+
+12l0l0	4_000_tonnes_de_RBA	O
+12l0l1	ont_été_déposées	N
+
+#Un arrêté préfectoral du 18 juin 2009 a été pris à l'encontre de la société GDE, en vue de caractériser les déchets, élaborer un diagnostic environnemental et un plan d'action et de surveillance.
+
+13l0l0	Un_arrêté_préfectoral	O
+13l0l1	du_18_juin_2009	T
+13l0l2	a_été_pris_à_l_	N
+13l0l3	la_société_GDE	O
+13l0l4	les_déchets	O
+13l0l5	élaborer_un_diagnostic_environnemental	N
+13l0l6	un_plan_d__action	O
+13l0l7	surveillance	A
+13l1l0	la_société_GDE	I
+13l1l1	les_déchets	U
+
+#Les opérations et études prescrites sont soumises au contrôle de l'inspection  des installations classées, service de la DRIRE devenue DREAL depuis le 1er janvier 2010.
+
+14l0l0	Les_opérations_et_études_prescrites	O
+14l0l1	sont_soumises	R
+14l0l2	au_contrôle_de	L
+14l0l3	l__inspection___des_installations_classées	O
+14l0l4	de_la_DRIRE_devenue_DREAL	O
+14l0l5	depuis_le_1er_janvier_2010__	T
+14l1l0	de_la_DRIRE_devenue_DREAL	I
+
+#Elles sont réalisées au frais de la société GDE.
+
+15l0l0	frais_de	R
+15l0l1	la_société_GDE	O
+15l1l0	société_GDE	I
+
+#Les études initiales ont été remises par GDE en février 2010 ; elles ont donné lieu à plusieurs échanges avec la DREAL.
+
+16l0l0	Les_études_initiales	O
+16l0l1	ont_été_remises	N
+16l0l2	GDE	O
+16l0l3	en_février_2010	T
+16l0l4	la_DREAL	O
+16l1l0	GDE	I
+16l1l1	la_DREAL	I
+
+#1) Impact du dépôt sur l’environnement
+
+17l0l0	l__environnement	O
+
+#Les investigations ont permis de déterminer l’emprise des déchets et de les caractériser.
+
+18l0l0	Les_investigations	N
+18l0l1	déterminer	N
+18l0l2	l__emprise	O
+
+#Une expertise hydrogéologique du site a également été réalisée.
+
+19l0l0	Une_expertise_hydrogéologique	N
+19l0l1	site	O
+19l0l2	a_également_été_réalisée	N
+
+#Une surveillance des eaux souterraines est en place depuis juin 2009.
+
+20l0l0	Une_surveillance_des_eaux_souterraines	A
+20l0l1	est_en_place	N
+20l0l2	depuis_juin_2009__	T
+
+#Les résultats ne mettent pas en évidence d'impact significatif du dépôt sur les eaux souterraines.
+
+
+#2) Mesures de gestion des déchets
+
+
+#La société GDE a proposé différentes solutions de gestion des déchets en place en août 2011, au regard d’un bilan des coûts et avantages de chacune d’elles.
+
+23l0l0	La_société_GDE	O
+23l0l1	a_proposé_différentes_solutions	N
+23l0l2	en_août_2011__	T
+23l1l0	La_société_GDE	I
+
+#Un arrêté préfectoral du 2 août 2012 a ensuite prescrit à la société GDE le confinement des résidus de broyage sur site par la mise en place :
+
+24l0l0	Un_arrêté_préfectoral	O
+24l0l1	du_2_août_2012	T
+24l0l2	a_ensuite_prescrit	N
+24l0l3	la_société_GDE	O
+24l0l4	le_confinement	N
+24l0l5	broyage	N
+24l0l6	la_mise_en_place	N
+24l1l0	la_société_GDE	I
+
+#- d'une couverture étanche en partie supérieure empêchant toute infiltration d'eaux superficielles ;
+
+
+#- d'une paroi latérale étanche sur 10 mètres de profondeur empêchant toute infiltration d'eaux latérales.
+
+26l0l0	infiltration_d__eaux_latérales	A
+
+#Par ailleurs, l'exploitant a complété son réseau de piézomètres permettant d'assurer la surveillance des eaux souterraines.
+
+27l0l0	l__exploitant	O
+27l0l1	a_complété	N
+27l0l2	son	A
+27l0l3	réseau_de_piézomètres	O
+27l0l4	surveillance_des_eaux_souterraines	A
+
+#L’arrêté préfectoral prévoit également une clôture du site.
+
+28l0l0	L__arrêté_préfectoral	O
+28l0l1	prévoit_également	R
+28l0l2	une_clôture_du_site	O
+
+#Les travaux ont été engagés par la société GDE à l'automne 2012, un rapport de fin de travaux a été remis à l'inspection en mai 2013.
+
+29l0l0	Les_travaux_ont_été_engagés	N
+29l0l1	la_société_GDE	O
+29l0l2	à_l__automne_2012__	T
+29l0l3	un_rapport_de_fin_de_travaux	O
+29l0l4	a_été_remis	N
+29l0l5	l__inspection	N
+29l0l6	en_mai_2013__	T
+29l1l0	la_société_GDE	I

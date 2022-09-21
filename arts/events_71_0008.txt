@@ -1,0 +1,266 @@
+
+#71.0008
+#La société APERAM STAINLESS FRANCE exploite sur la commune de Gueugnon un établissement spécialisé dans l'acier inoxydable.
+
+0l0l0	La_société_APERAM_STAINLESS_FRANCE	O
+0l0l1	exploite	R
+0l0l2	sur_la_commune_de_Gueugnon	L
+0l0l3	un_établissement	O
+0l0l4	spécialisé_dans	R
+0l0l5	l__acier_inoxydable	O
+0l1l0	La_société_APERAM_STAINLESS_FRANCE	I
+
+#L'activité principale du site est le laminage à froid et le traitement de bobines d'acier inoxydable.
+
+1l0l0	site	A
+1l0l1	le_laminage_à_froid	A
+1l0l2	le_traitement_de_bobines_d__acier_inoxydable	A
+
+#L'établissement a été autorisé à exploiter par arrêté préfectoral du 17 juillet 2007 au nom d'UGINE & ALZ.
+
+2l0l0	L__établissement	O
+2l0l1	a_été_autorisé_à_exploiter	N
+2l0l2	par_arrêté_préfectoral	O
+2l0l3	17_juillet_2007	T
+2l0l4	au_nom_d_	R
+2l0l5	UGINE	O
+2l0l6	ALZ	O
+2l1l0	UGINE___ALZ	I
+
+#Par courrier du 14 mars 2011, l'exploitant a informé le Préfet du changement de dénomination sociale au profit d'APERAM STAINLESS FRANCE.
+
+3l0l0	14_mars_2011__	T
+3l0l1	l__exploitant	O
+3l0l2	a_informé	N
+3l0l3	le_Préfet	O
+3l0l4	du_changement_de_dénomination_sociale	N
+3l0l5	au_profit	N
+3l0l6	APERAM_STAINLESS_FRANCE	O
+3l1l0	d__APERAM_STAINLESS_FRANCE	I
+
+#Juridiquement, cette modification ne s'analyse pas comme un changement d'exploitant (Groupe ArcelorMittal Stainless France).
+
+4l0l0	d__exploitant	O
+4l0l1	Stainless	A
+4l1l0	Groupe_ArcelorMittal	I
+4l1l1	Stainless_France	I
+
+#Le site est soumis à autorisation avec servitudes ("Seveso seuil haut") au titre de la nomenclature des installations classées pour la protection de l'environnement.
+
+5l0l0	Le_site	O
+5l0l1	est_soumis_à_autorisation	N
+5l0l2	nomenclature_des_installations_classées	O
+5l0l3	pour_la_protection_de	A
+5l0l4	l__environnement	O
+5l1l0	Seveso	S
+
+#Le site s'étend sur une superficie de 37 hectares en rive droite de la rivière "l'Arroux", dans un contexte fortement urbanisé, à proximité d'établissements scolaires et de maisons individuelles.
+
+6l0l0	Le_site	O
+6l0l1	en_rive_droite_de_la_rivière___l__Arroux__	L
+6l0l2	dans_un_contexte_fortement_urbanisé	L
+6l0l3	à_proximité_d__établissements_scolaires	L
+6l0l4	maisons_individuelles	O
+
+#Contexte hydrogéologique :
+
+7l0l0	Contexte_hydrogéologique	N
+
+#Au droit du site, les terrains alluvionnaires sont le siège d'une nappe libre, peu profonde.
+
+
+#Cette nappe est en relation hydraulique avec la rivière de l'Arroux.
+
+9l0l0	la_rivière_de_l__Arroux	L
+
+#D'après les informations collectées auprès des services de l’État compétents, il n'existe pas de captage en eau potable à usage sensible implanté en aval du site.
+
+10l0l0	implanté_en_aval_du_site	L
+
+#Les eaux superficielles sont exploitées pour l'alimentation en eau potable de la ville de Gueugnon et pour l'alimentation en eau industrielle de l'usine.
+
+11l0l0	Les_eaux_superficielles	O
+11l0l1	sont_exploitées	N
+11l0l2	l__alimentation_en_eau_potable	A
+11l0l3	la_ville_de_Gueugnon	L
+11l0l4	l__alimentation_en_eau_industrielle	A
+11l0l5	l__usine	O
+
+#Les prises d'eau sont toutes deux en amont du site.
+
+12l0l0	en_amont_du_site	L
+
+#En aval du site, la seule activité répertoriée est la pêche.
+
+13l0l0	En_aval_du_site	L
+13l0l1	la_pêche	A
+
+#Par arrêté préfectoral du 1er septembre 1998, une étude de sol a été imposée en application de la circulaire du 3 avril 1996 relative aux études de sol.
+
+14l0l0	Par_arrêté_préfectoral	O
+14l0l1	du_1er_septembre_1998__	T
+14l0l2	une_étude_de_sol	O
+14l0l3	a_été_imposée	N
+14l0l4	3_avril_1996	T
+14l0l5	relative	R
+14l0l6	aux_études_de_sol	N
+
+#Une étude de sols (avril 1999) suivie d'une évaluation simplifiée des risques (ESR, février 2001) ont ainsi été menées sur ce ce site.
+
+15l0l0	Une_étude_de_sols	N
+15l0l1	__avril_1999	T
+15l0l2	une_évaluation_simplifiée_des_risques	N
+15l0l3	février_2001	T
+
+#Les conclusions de l'ESR classent le site en catégorie 1 (réglementation alors en vigueur) ou "site nécessitant des investigations supplémentaires".
+
+16l1l0	l__ESR	I
+
+#Une évaluation détaillée des risques était alors nécessaire notamment pour le parc Nord et l'ancien crassier (ancien stockage de déchets des hauts fourneaux).
+
+17l0l0	le_parc_Nord	O
+
+#L'ESR a mis en évidence plusieurs pollutions :
+
+18l1l0	L__ESR	I
+
+#- dans les sols, avec des teneurs en nickel et en hydrocarbures significatives ;
+
+19l1l0	nickel	S
+19l1l1	hydrocarbures	S
+
+#- dans les eaux, polluées en fer, aluminium et acides.
+
+20l0l0	fer	O
+20l1l0	fer	S
+20l1l1	aluminium	S
+20l1l2	acides	S
+
+#L'étude suggère une origine ancienne, voire historique, pour tout ou partie de ces pollutions ; le site a en effet hébergé une activité métallurgique dès la fin du XVIIIe siècle.
+
+21l0l0	ces_pollutions	N
+21l0l1	le_site	O
+21l0l2	a_en	N
+21l0l3	hébergé	L
+21l0l4	une_activité_métallurgique	A
+21l0l5	dès	T
+21l0l6	la_fin_du	L
+21l0l7	XVIIIe_siècle	T
+
+#Plusieurs actions ont été menées pour limiter l'impact de ces polluants sur le sol et les eaux souterraines :
+
+22l0l0	Plusieurs_actions	O
+22l0l1	ont_été_menées	N
+22l1l0	ces_polluants	U
+
+#- la récupération des hydrocarbures flottant sur la nappe par le biais de pompe oléophiles ;
+
+23l0l0	hydrocarbures	O
+23l1l0	hydrocarbures	S
+
+#- une surveillance de la qualité a été réalisée au niveau du parc Nord et de l'ancien crassier, par l'installation de 4 piézomètres.
+
+24l0l0	une_surveillance_de_la_qualité	A
+24l0l1	a_été_réalisée	N
+24l0l2	au_niveau_du_parc_Nord	L
+24l0l3	l__installation	N
+24l0l4	4_piézomètres	O
+
+#7 juillet 2007 : par arrêté préfectoral la société APERAM est tenue de réaliser un diagnostic approfondi des sols et une étude détaillée des risques Santé et Eaux (EDR-S et EDR-E).
+
+25l0l0	7_juillet_2007	T
+25l0l1	par_arrêté_préfectoral	O
+25l0l2	la_société_APERAM	O
+25l0l3	est_tenue_de_réaliser	N
+25l0l4	un_diagnostic_approfondi	N
+25l0l5	une_étude_détaillée_des_risques_Santé	N
+25l0l6	et_Eaux	O
+25l1l0	la_société_APERAM	I
+25l1l1	EDR___E	I
+
+#Ces études étaient destinées à pouvoir déterminer l'étendue de la pollution au droit de l'usine et si nécessaire, les seuils de dépollution à atteindre.
+
+26l0l0	Ces_études	N
+26l0l1	la_pollution	O
+26l0l2	au_droit_de_l__usine	L
+26l0l3	dépollution	N
+
+#Les investigations ont porté sur le milieu eaux et le milieu sols.
+
+27l0l0	Les_investigations	N
+
+#Pour chaque milieu des substances ont été retenues et une évaluation quantitative des risques sanitaires (EQRS) a été réalisée.
+
+28l0l0	chaque_milieu	O
+28l0l1	des_substances	O
+28l0l2	ont_été_retenues	N
+28l0l3	évaluation_quantitative_des_risques_sanitaires	N
+28l0l4	a_été_réalisée	N
+
+#Cette évaluation a pour but de définir si la substance retenue peut être nocive pour la santé humaine.
+
+
+#Ainsi le site a été découpé en 12 zones et les conclusions des investigations ont été les suivantes :
+
+30l0l0	le_site	O
+30l0l1	a_été_découpé_en	N
+30l0l2	12_zones	O
+
+#- pour les sols : l'arsenic, le chrome, le cuivre, le plomb et les hydrocarbures ont été retenus.
+
+31l0l0	l__arsenic	O
+31l1l0	arsenic	S
+31l1l1	chrome	S
+31l1l2	cuivre	S
+31l1l3	plomb	S
+31l1l4	hydrocarbures	S
+
+#L'EQRS n'a pas montré de risques significatifs et aucune action n'a été entreprise.
+
+
+#- pour les eaux : le nickel, le chrome, l'arsenic, des composés chlorés et les hydrocarbures ont été retenus.
+
+33l0l0	les_eaux	O
+33l1l0	le_nickel	S
+33l1l1	chrome	S
+33l1l2	arsenic	S
+33l1l3	des_composés_chlorés	S
+33l1l4	hydrocarbures	S
+
+#Une surveillance  et une décontamination de la nappe du flottant d'hydrocarbures ont été préconisées.
+
+34l0l0	Une_surveillance___et_une_décontamination	N
+34l0l1	de_la_nappe	O
+34l0l2	d__hydrocarbures	O
+34l0l3	ont_été_préconisées	N
+34l1l0	d__hydrocarbures	S
+
+#Au vu de ces paramètres, l'évaluation conclut à un niveau de risque acceptable compte-tenu de l'usage industriel du site, et de l'absence de captage de la nappe en aval.
+
+35l0l0	un_niveau_de_risque	O
+35l0l1	l__usage_industriel_du_site	A
+35l0l2	captage	N
+35l0l3	la_nappe	O
+35l0l4	en_aval	L
+
+#La décontamination de la nappe a été mise en place.
+
+36l0l0	La_décontamination	N
+36l0l1	la_nappe	O
+36l0l2	a_été_mise_en_place	N
+
+#Au total, 14 piézomètres ont été installés et la surveillance de la qualité des eaux souterraines est réalisée 4 fois par an.
+
+37l0l0	14_piézomètres	O
+37l0l1	ont_été_installés	N
+37l0l2	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+37l0l3	est_réalisée	N
+37l0l4	fois_par_an	T
+
+#Deux points de surveillance mensuelle de la qualité des eaux de l'Arroux (en amont et en aval du site) ont également été ajoutés.
+
+38l0l0	Deux_points_de_surveillance_mensuelle	A
+38l0l1	la_qualité_des_eaux_de	O
+38l0l2	l__Arroux	L
+38l0l3	en_amont_et_en_aval_du_site	L
+38l0l4	ont_également_été_ajoutés	N

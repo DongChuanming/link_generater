@@ -1,0 +1,620 @@
+
+#28.0012
+#Le site s’étend sur un terrain d’une superficie de 45 800 m² dont 14 400 m² couverts.
+
+0l0l0	Le_site	O
+0l0l1	un_terrain	O
+
+#Il est clos et gardienné.
+
+
+#L’entreprise, créée en 1962, est spécialisée dans la fabrication de segments moteur pour l’industrie automobile.
+
+2l0l0	L__entreprise	O
+2l0l1	créée	N
+2l0l2	en_1962	T
+2l0l3	est_spécialisée_dans_la_fabrication_de_segments_moteur_pour_l__industrie_automobile	A
+
+#Elle dispose notamment d’un atelier de chromage et d’une centrale de recyclage de pétrole issu d’un atelier de rectification.
+
+3l0l0	un_atelier_de	O
+3l0l1	chromage	A
+3l0l2	d__une_centrale_de_recyclage	A
+3l0l3	pétrole	O
+3l0l4	issu_d_	R
+3l0l5	un_atelier_de_rectification	O
+3l1l0	pétrole	U
+
+#L'entreprise fait l'objet d'un redressement judiciaire le 19 Juillet 2004 et il est décidé d'un plan de continuation de 5 ans le 22 novembre 2005.
+
+4l0l0	L__entreprise	O
+4l0l1	fait_l__objet	R
+4l0l2	d__un_redressement_judiciaire	N
+4l0l3	le_19_Juillet_2004	T
+4l0l4	il	O
+4l0l5	est_décidé	N
+4l0l6	d__un_plan_de_continuation_de_5_ans	N
+4l0l7	le_22_novembre_2005__	T
+
+#Un programme d'action est engagé sous la responsabilité de la société Arcadis, pour réaliser des travaux de dépollution pendant 7 ans avec une enveloppe de 3,5 millions d'euros.
+
+5l0l0	Un_programme_d__action	O
+5l0l1	est_engagé	N
+5l0l2	la_responsabilité	N
+5l0l3	la_société_Arcadis	O
+5l0l4	réaliser_des_travaux_de_dépollution	N
+5l0l5	pendant_7_ans	T
+5l0l6	3_5	O
+5l0l7	millions_d_	T
+5l0l8	euros	O
+5l1l0	la_société_Arcadis	I
+
+#Les sources de pollution identifiées sont constituées par :
+
+6l0l0	Les_sources_de_pollution	O
+
+#- une décharge brute interne liée à l’ancien système de gestion des déchets en vigueur dans l’entreprise ;
+
+
+#- plusieurs zones polluées résultat de déversements chroniques et accidentels de substances polluantes (chaîne de chromage, stockage de produits chimiques, station pétrole).
+
+8l0l0	plusieurs_zones_polluées	O
+8l0l1	déversements_chroniques	N
+8l0l2	substances_polluantes	N
+8l0l3	chromage	A
+8l1l0	substances_polluantes	U
+8l1l1	produits_chimiques	U
+
+#Les substances décelées dans l’eau souterraine sont constituées d’hydrocarbures (phases dissoute et flottante), de chrome hexavalent et de composés organohalogénés volatils (fortes concentrations en trichloroéthylène et chrome hexavalent).
+
+9l1l0	hydrocarbures	S
+9l1l1	chrome_hexavalent	S
+9l1l2	composés_organohalogénés_volatils	S
+9l1l3	trichloroéthylène	S
+9l1l4	chrome_hexavalent	S
+
+#La nappe est fortement polluée et la pollution a migré hors des limites d’emprise du site.
+
+10l0l0	la_pollution	O
+10l0l1	a_migré	N
+10l0l2	hors_des_limites_d__emprise_du_site	L
+
+#La réhabilitation des eaux souterraines a été prescrite par arrêté préfectoral n° 158 du 03 février 2000 : résorption de la lentille d’hydrocarbures surnageante, extraction des composés volatils par strippage, traitement final de déchromatation en station interne de détoxication.
+
+11l0l0	La_réhabilitation	N
+11l0l1	des_eaux_souterraines	O
+11l0l2	a_été_prescrite	N
+11l0l3	par_arrêté_préfectoral	O
+11l0l4	03_février_2000	T
+11l0l5	__résorption	N
+11l0l6	d__hydrocarbures	O
+11l0l7	strippage	N
+11l1l0	la_lentille_d__hydrocarbures_surnageante	U
+11l1l1	composés	U
+
+#La surveillance de la qualité des eaux de la nappe a également été prescrite à la fréquence trimestrielle sur les sept piézomètres forés.
+
+12l0l0	La_surveillance	A
+12l0l1	la_qualité_des_eaux	O
+12l0l2	la_nappe	O
+12l0l3	a	R
+12l0l4	également_été_prescrite	N
+
+#La décharge brute interne a été confinée sur site.
+
+13l0l0	La_décharge	O
+13l0l1	a_été_confinée	N
+13l1l0	décharge_brute_interne	U
+
+#L'installation de traitement, opérationnelle depuis novembre 2000, se compose :
+
+14l0l0	L__installation_de_traitement	O
+14l0l1	opérationnelle	N
+14l0l2	depuis_novembre_2000__	T
+
+#- d'un séparateur-coalesceur d'hydrocarbures en phase libre.
+
+15l1l0	coalesceur_d__hydrocarbures	S
+
+#-d'un strippeur pour l'extraction des composés volatils (composés organohalogénés et hydrocarbures dissous).
+
+16l0l0	l__extraction	A
+16l1l0	hydrocarbures	S
+
+#- d'un adsorbeur sur charbon actif.
+
+17l1l0	charbon_actif	U
+
+#- d'une déchromatation par procédé physico-chimique en station interne de détoxication.
+
+18l0l0	une_déchromatation	N
+18l0l1	détoxication	A
+
+#Elle est alimentée à partir de quatre puits d'exhaure répartis sur le site.
+
+
+#Les analyses de suivi effectuées confirment la bonne efficacité du système en place.
+
+
+#Le bilan massique calculé, arrêté au 30 juin 2005, fait état du traitement de 13 100 m3 d'eau souterraine, desquels ont été extraits :
+
+21l0l0	au_30_juin_2005__	T
+21l0l1	du_traitement	N
+
+#- 1100 l d'hydrocarbures liquides surnageant.
+
+22l1l0	hydrocarbures_liquides	U
+22l1l1	surnageant	U
+
+#- 607 kg de composés organohalogénés (stripping).
+
+23l1l0	composés_organohalogénés	U
+
+#- 170 kg d'hydrocarbures dissous (stripping).
+
+24l1l0	hydrocarbures	S
+
+#- 2513 kg de chrome hexavalent.
+
+25l1l0	chrome_hexavalent	S
+
+#Les effets observés du traitement sur la nappe à l'aplomb du site sont la suppression de la phase libre surnageante.
+
+26l0l0	la_nappe	O
+26l0l1	aplomb_du_site	L
+
+#La campagne analytique effectuée le 07 juin 2005 révèle une forte contamination des eaux souterraines à l'aplomb du site par les hydrocarbures totaux (0,64 mg/l), le chrome hexavalent ( environ 330 mg/l) et les composés organohalogénés (maxi : 2 g/l en trichloroéthylène).
+
+27l0l0	La_campagne_analytique	N
+27l0l1	effectuée	N
+27l0l2	le_07_juin_2005	T
+27l0l3	forte_contamination	O
+27l0l4	eaux_souterraines	O
+27l1l0	hydrocarbures_totaux	S
+27l1l1	le_chrome_hexavalent	S
+27l1l2	composés_organohalogénés	S
+27l1l3	trichloroéthylène	S
+
+#Dans le cadre de la mise à l'arrêt définitif des installations de production, survenue en février 2005, l'arrêté préfectoral complémentaire du 23 novembre 2005 a prescrit à la société PERFECT CIRCLE EUROPE (PCE)des mesures de remise en état du site qui consistent en :
+
+28l0l0	Dans_le_cadre_de	R
+28l0l1	la_mise_à_l__arrêt_définitif_des_installations_de_production	N
+28l0l2	en_février_2005__	T
+28l0l3	l__arrêté_préfectoral_complémentaire	O
+28l0l4	du_23_novembre_2005	T
+28l0l5	a_prescrit	N
+28l0l6	la_société_PERFECT_CIRCLE_EUROPE	O
+28l0l7	PCE_des_mesures_de_remise_en_état_du_site	N
+28l1l0	la_société_PERFECT_CIRCLE_EUROPE___PCE_des	I
+
+#-	l’élimination des terres confinées sur site, dans une installation appropriée ;
+
+29l0l0	l__élimination	N
+
+#-	l’excavation des sols jusqu’au toit de la craie au droit des zones sources identifiées sur la base des reconnaissances de sols effectuées précédemment puis l’élimination des terres excavées dans une installation appropriée ;
+
+30l0l0	l__excavation_des_sols	N
+30l0l1	reconnaissances_de_sols	N
+30l0l2	l__élimination_des_terres_excavées	N
+30l0l3	une_installation	O
+
+#-	l’extraction et le traitement des gaz du sol par venting au droit de la décharge interne et du secteur de mise en œuvre des composés chlorés ;
+
+31l0l0	l__extraction_et_le_traitement	A
+31l0l1	venting	N
+31l0l2	au_droit	L
+31l0l3	secteur_de_mise_en_œuvre_des_composés_chlorés	A
+31l1l0	composés_chlorés	U
+
+#-	la poursuite du pompage et du traitement physico-chimique des eaux souterraines et son optimisation par l’implantation de puits d’extraction complémentaires ;
+
+32l0l0	la_poursuite	N
+32l0l1	pompage_et_du_traitement_physico___chimique_des_eaux_souterraines	A
+32l0l2	l__implantation_de_puits	N
+
+#-	le traitement de la zone non saturée de l’aquifère et d’une partie de la nappe souterraine, par déchloration réductrice biologique des solvants chlorés (technologie ERD).
+
+33l0l0	le_traitement	N
+33l0l1	la_zone_non_saturée	O
+33l0l2	déchloration	N
+33l1l0	solvants_chlorés	S
+33l1l1	ERD	I
+
+#Cet arrêté préfectoral complémentaire :
+
+34l0l0	Cet_arrêté_préfectoral_complémentaire	O
+
+#-	fixe également le contenu du programme de suivi des travaux et les objectifs de réhabilitation en terme de concentrations résiduelles en chrome hexavalent et tricholoroéthylène dans la nappe de la craie,
+
+35l0l0	le_contenu	O
+35l0l1	du_programme	O
+35l0l2	suivi_des_travaux	O
+35l0l3	les_objectifs	O
+35l0l4	réhabilitation	N
+35l0l5	chrome_hexavalent	O
+35l1l0	chrome_hexavalent	S
+35l1l1	tricholoroéthylène	S
+
+#-	assigne à l’industriel des valeurs limites en terme d’émissions atmosphériques et du rejet dans le milieu naturel des eaux d’exhaure préalablement épurées
+
+36l0l0	assigne	N
+36l0l1	l__industriel_des_valeurs_limites	O
+36l0l2	exhaure	L
+36l0l3	épurées	N
+
+#-	redéfinit le contenu du suivi de la qualité des eaux souterraines et retient le principe d’instauration de servitudes d’utilité publique grevant l’usage du site.
+
+37l0l0	redéfinit	N
+37l0l1	le_contenu	O
+37l0l2	du_suivi_de_la_qualité_des_eaux_souterraines	A
+37l0l3	le_principe	O
+37l0l4	d_	N
+37l0l5	instauration_de_servitudes_d__utilité_publique	O
+
+#Compte tenu de l’ampleur des travaux à mener et de la cinétique du dispositif de traitement de la nappe, un délai de 7 ans a été imparti à l’industriel pour l’atteinte des objectifs de réhabilitation.
+
+38l0l0	l__ampleur_des_travaux	N
+38l0l1	dispositif_de_traitement	N
+38l0l2	la_nappe	O
+38l0l3	un_délai	O
+38l0l4	de_7_ans_a_été_imparti	N
+38l0l5	l__industriel	O
+38l0l6	l__atteinte	N
+38l0l7	des_objectifs	O
+38l0l8	réhabilitation	N
+
+#Le rapport d’inspection du 12 juin 2006 qui a fait suite à la visite d’inspection du 2 juin 2006 fait les constats suivants :
+
+39l0l0	Le_rapport_d__inspection	O
+39l0l1	12_juin_2006	T
+39l0l2	a	N
+39l0l3	fait_suite_à	R
+39l0l4	la_visite_d__inspection	N
+39l0l5	du_2_juin_2006	T
+
+#-	les matières premières et les déchets présents sur le site ont été éliminés ;
+
+40l0l0	ont_été_éliminés	N
+
+#-	le bâtiment de production ancien a été totalement démantelé, les chapes de béton demeurant néanmoins en place ;
+
+41l0l0	le_bâtiment_de_production_ancien	O
+41l0l1	a_été_totalement_démantelé	N
+41l0l2	les_chapes_de_béton	O
+41l0l3	demeurant_néanmoins_en_place	N
+
+#-	Sont maintenus sur le site la station de détoxication demeurant en fonction pour le traitement physico-chimique des eaux d’exhaure de la nappe de la craie, la centrale de compression d’air et les postes de transformation électrique, regroupés dans un local maçonné annexe ainsi que le bâtiment de production construit en 1998
+
+42l0l0	Sont_maintenus	N
+42l0l1	le_site	O
+42l0l2	la_station	O
+42l0l3	de_détoxication	N
+42l0l4	le_traitement_physico___chimique_des_eaux	A
+42l0l5	la_centrale_de_compression	O
+42l0l6	les_postes_de_transformation_électrique	O
+42l0l7	le_bâtiment_de_production	O
+42l0l8	construit	N
+42l0l9	en_1998	T
+42l1l0	détoxication	U
+
+#-	les phases d’élimination des terres souillées confinées d’une part, d’excavation et d’élimination des termes sources identifiés d’autre part, ont été menées à leur terme.
+
+43l0l0	les_phases	O
+43l0l1	élimination	N
+43l0l2	terres_souillées	O
+43l0l3	d__excavation	N
+43l0l4	d__élimination	N
+43l0l5	ont_été_menées_à_leur_terme	O
+
+#-	les excavations ont été comblées par apport de terres saines d’origine extérieure, aucune nouvelle intervention sur la matrice solide du sol n’est envisagée.
+
+44l0l0	les_excavations	N
+44l0l1	ont_été_comblées	N
+44l0l2	apport_de_terres_saines	N
+44l0l3	intervention	N
+
+#Le site a été vendu le 20 décembre 2006 à la société LV2R, filiale de la société Q.
+
+45l0l0	Le_site	O
+45l0l1	a_été_vendu	N
+45l0l2	le_20_décembre_2006	T
+45l0l3	à	N
+45l0l4	la_société_LV2R	O
+45l1l0	la_société_LV2R	I
+
+#.L sise à Vernouillet-sur-Havre.
+
+46l0l0	_L	O
+46l0l1	sise_à_Vernouillet_sur_Havre	L
+
+#Cette vente n’a pas remis en cause les opérations de réhabilitation.
+
+47l0l0	Cette_vente	N
+47l0l1	n__a_pas_remis_en_cause_les_opérations_de_réhabilitation	N
+
+#Le rapport du 29 juin 2009 de l’inspection des installations classées fait état d’un bilan positif des travaux et études menées par la société PCE par rapport aux prescriptions complémentaires du 23 novembre 2005.
+
+48l0l0	Le_rapport	O
+48l0l1	du_29_juin_2009	T
+48l0l2	l__inspection_des_installations_classées	O
+48l0l3	des_travaux_et_études_menées	N
+48l0l4	la_société_PCE	O
+48l0l5	aux_prescriptions_complémentaires	O
+48l0l6	du_23_novembre_2005__	T
+48l1l0	la_société_PCE	I
+
+#Le traitement des eaux souterraines a permis de diminuer considérablement les teneurs en solvants chlorés et en chrome.
+
+49l0l0	Le	N
+49l0l1	traitement_des_eaux_souterraines	O
+49l0l2	a_permis_de_diminuer	N
+49l1l0	solvants_chlorés	S
+49l1l1	chrome	S
+
+#Cependant le traitement par IRZ (In situ Réactive Zone) par injection de mélasse pour réduire la teneur en solvants chlorés et en Cr 6 a un effet de relargage de l’hydrocarbure flottant.
+
+50l0l0	traitement_par_IRZ	O
+50l0l1	injection	N
+50l0l2	relargage	N
+50l1l0	IRZ	I
+50l1l1	solvants_chlorés	S
+50l1l2	Cr_6	S
+50l1l3	hydrocarbure_flottant	U
+
+#L’écrémage de la lentille d’hydrocarbures flottant n’est donc pas finalisé et se poursuit.
+
+51l0l0	L__écrémage	N
+51l0l1	la_lentille	O
+51l1l0	la_lentille_d__hydrocarbures_flottant	U
+
+#Sur demande du service d’inspection des installations classées dans son courrier du 16 juillet 2009, la société PCE a réalisé une analyse des risques résiduels (ARR) concluant que les concentrations résiduelles en polluants mesurées sur le site sont compatibles avec l’usage actuel du site.
+
+52l0l0	Sur_demande	R
+52l0l1	du_service_d__inspection_des_installations_classées	O
+52l0l2	16_juillet_2009__	T
+52l0l3	la_société_PCE	O
+52l0l4	a_réalisé	N
+52l0l5	une_analyse_des_risques_résiduels	N
+52l1l0	la_société_PCE	I
+52l1l1	polluants	U
+
+#Des restrictions conventionnelles publiées à la Conservation des hypothèques interdisent tout usage de la nappe sauf pour les besoins de la surveillance de la qualité des eaux souterraines.
+
+53l0l0	interdisent	N
+53l0l1	la_nappe	A
+53l0l2	les_besoins_de_la_surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#Un projet de servitudes d’utilité publique a été déposé le 10 juillet 2006.
+
+54l0l0	Un_projet_de_servitudes_d__utilité_publique	O
+54l0l1	a_été_déposé	N
+54l0l2	le_10_juillet_2006__	T
+
+#Par courrier du 26 juin 2007 puis par courrier du 25 mars 2009, la société PCE a sollicité un délai d’un an supplémentaire.
+
+55l0l0	Par_courrier	N
+55l0l1	du_26_juin_2007	T
+55l0l2	25_mars_2009__	T
+55l0l3	la_société_PCE	O
+55l0l4	a_sollicité_un_délai_d__un_an	N
+55l1l0	la_société_PCE	I
+
+#Cette dernière demande est motivée par les résultats du rapport de PCE du 21 novembre 2008 relatif à l’état d’avancement du traitement des eaux souterraines au droit et en aval du site qui démontre l’efficacité des traitements en cours.
+
+56l0l0	21_novembre_2008	T
+56l0l1	avancement_du_traitement_des_eaux_souterraines	O
+56l0l2	au_droit_et_en_aval_du_site	L
+
+#La société PCE propose de poursuivre les mesures de surveillance qui pourraient la conduire, au terme d’un an, à remettre en cause la nécessité d’instituer les servitudes d’utilité publique.
+
+57l0l0	La_société_PCE	O
+57l0l1	poursuivre_les_mesures_de_surveillance	O
+57l0l2	d__un_an	T
+57l0l3	d__instituer	N
+57l0l4	les_servitudes_d__utilité_publique	O
+57l1l0	La_société_PCE	I
+
+#Par courrier du 02 novembre 2010, la société PCE a informé le Préfet d’Eure-et-Loir de son impossibilité d’atteindre les objectifs de dépollution de la nappe au niveau des hydrocarbures, fixés par l’arrêté préfectoral du 25 novembre 2005.
+
+58l0l0	du_02_novembre_2010__	T
+58l0l1	la_société_PCE	O
+58l0l2	a_informé	N
+58l0l3	le_Préfet_d__Eure_et_Loir	O
+58l0l4	son	O
+58l0l5	les_objectifs	O
+58l0l6	de_dépollution	N
+58l0l7	la_nappe	O
+58l0l8	au_niveau_des	R
+58l0l9	hydrocarbures	O
+58l0l10	25_novembre_2005__	T
+58l1l0	la_société_PCE	I
+58l1l1	le_Préfet	I
+58l1l2	hydrocarbures	S
+
+#Elle propose la modification de ces objectifs par :
+
+59l0l0	la_modification	N
+59l0l1	ces_objectifs	O
+
+#-	absence de réalimentation supérieure à 1 m en épaisseur apparente à l’équilibre au droit des ouvrages centraux pendant une période de deux mois consécutifs ;
+
+60l0l0	absence_de_réalimentation	N
+60l0l1	droit_des_ouvrages_centraux	L
+60l0l2	pendant_une_période_de_deux_mois	T
+
+#-	absence de réalimentation supérieure à 0.5 m en épaisseur apparente à l’équilibre au droit des ouvrages en aval de la lentille actuelle pendant une période de deux mois consécutifs ;
+
+61l0l0	absence_de_réalimentation	N
+61l0l1	droit_des_ouvrages_en_aval_de_la_lentille_actuelle	L
+61l0l2	pendant_une_période_de_deux_mois	T
+
+#-	infléchissement significatif de la courbe de collecte cumulée en hydrocarbure.
+
+62l0l0	infléchissement	N
+62l1l0	hydrocarbure	S
+
+#Cette proposition a été soumise au BRGM dont l’avis a été transcrit dans un rapport en janvier 2011.
+
+63l0l0	a_été_soumise	N
+63l0l1	au_BRGM	O
+63l0l2	a_été_transcrit	N
+63l0l3	en_janvier_2011__	T
+63l1l0	BRGM	I
+
+#Il ressort de ce rapport que les objectifs de dépollution de la nappe au niveau des hydrocarbures peuvent être modifiés selon la proposition de PCE sous réserve des points suivants :
+
+64l0l0	les_objectifs	O
+64l0l1	de_dépollution	N
+64l0l2	la_nappe	O
+64l0l3	au_niveau_des	R
+64l0l4	hydrocarbures	O
+64l1l0	hydrocarbures	S
+
+#-	ne pas limiter le constat de le constat de l’atteinte des objectifs à la seule valeur d’épaisseur apparente limite mais continuer à s’appuyer sur la typologie des courbes de récupération par puits ;
+
+
+#-	poursuivre une réflexion sur les meilleures possibilités technico-économiques d’amélioration de la situation et donc de récupération du flottant, notamment en exploitant le constat du meilleur rendement de récupération en flottant sous l’effet d’agents surfactants ;
+
+66l0l0	les_meilleures_possibilités_technico	O
+66l0l1	flottant	A
+66l1l0	agents_surfactants	U
+
+#-	assortir ce protocole de réception de travaux de dépollution par des restrictions d’usage avec un périmètre ( justifié par une étude hydrogéologique) autour du site au-delà duquel les pompages en nappe sont sans influence sur la mobilité du flottant présent au droit du site.
+
+67l0l0	assortir	N
+67l0l1	ce_protocole	O
+67l0l2	réception	O
+67l0l3	de_travaux_de_dépollution	N
+67l0l4	des_restrictions_d__usage	O
+67l0l5	avec_un_périmètre	O
+67l0l6	une_étude_hydrogéologique	N
+67l0l7	autour_du_site_au_delà	L
+67l0l8	pompages	A
+
+#Le 16 Mai 2012, a eu lieu une réunion entre PCE, ARCADIS et la DREAL pour aborder le sujet des résultats des travaux de réhabilitation et le suivi de la qualité des eaux souterraines.
+
+68l0l0	Le_16_Mai_2012__	T
+68l0l1	a_eu_lieu	N
+68l0l2	une_réunion_entre	N
+68l0l3	PCE	O
+68l0l4	ARCADIS	O
+68l0l5	la_DREAL	O
+68l0l6	aborder_le_sujet	N
+68l0l7	des_travaux_de_réhabilitation	N
+68l0l8	le_suivi_de_la_qualité_des_eaux_souterraines	A
+68l1l0	PCE	I
+68l1l1	ARCADIS	I
+68l1l2	la_DREAL	I
+
+#L'inspection des installations classées autorise la société ARCADIS d’arrêter l'écrémage manuelle sur une période de 3 mois afin de constater l’absence ou non de migration du panache de pollution.
+
+69l0l0	L__inspection_des_installations_classées	O
+69l0l1	autorise	N
+69l0l2	la_société_ARCADIS	O
+69l0l3	d__arrêter_l__écrémage	N
+69l0l4	une_période_de_3_mois	T
+69l0l5	panache_de_pollution	O
+69l1l0	la_société_ARCADIS	I
+
+#Dans le même temps, l'inspection émet un avis favorable à la demande de la société PCE, de reboucher 30 ouvrages non compris dans le panache de pollution.
+
+70l0l0	l__inspection	O
+70l0l1	émet	N
+70l0l2	un_avis_favorable	O
+70l0l3	la_demande	O
+70l0l4	la_société_PCE	O
+70l0l5	reboucher	N
+70l0l6	30_ouvrages	O
+70l1l0	la_société_PCE	I
+
+#Par un courrier du 4 Juin 2012, la société PCE propose de déposer un dossier de demande d'institution de servitudes d'utilité publique d'ici fin 2012, en intégrant les parcelles voisine du site, en raison de l’absence d’impacts de l'écrémage manuelle de la lentille d'hydrocarbure en dehors du site.
+
+71l0l0	4_Juin_2012__	T
+71l0l1	la_société_PCE	O
+71l0l2	d_	N
+71l0l3	institution_de_servitudes_d__utilité_publique	O
+71l0l4	ici_fin_2012__	T
+71l0l5	en	R
+71l0l6	intégrant	N
+71l0l7	les_parcelles_voisine_du_site	O
+71l0l8	la_lentille_d__hydrocarbure	O
+71l0l9	en_dehors_du_site	L
+71l1l0	la_société_PCE	I
+71l1l1	la_lentille_d__hydrocarbure	U
+
+#Des restrictions d'usages sont déjà instaurées au droit du site et ont été élaborées dans le cadre d'un contrat de vente.
+
+72l0l0	ont_été_élaborées	N
+
+#Par courrier du 8 août 2014, le préfet a indiqué à la société PCE, que les objectifs concernant le Chrome est acté, ainsi que l'objectif concernant les COHV pour la majorité des ouvrages de références.
+
+73l0l0	du_8_août_2014__	T
+73l0l1	le_préfet	O
+73l0l2	la_société_PCE	O
+73l0l3	les_objectifs	O
+73l0l4	acté	N
+73l0l5	ainsi_que_l__objectif	O
+73l1l0	le_préfet	I
+73l1l1	la_société_PCE	I
+
+#Les seuils de réhabilitation sont atteints et la lentille d’hydrocarbures au droit du site est stable.
+
+74l0l0	Les_seuils	O
+74l0l1	réhabilitation	O
+74l0l2	sont_atteints	N
+74l0l3	la_lentille_d__hydrocarbures	O
+74l0l4	au_droit_du_site	L
+
+#Les parcelles cadastrées section CH N° 302, 488, 526, 298 ont été vendues en 2015.
+
+75l0l0	Les_parcelles_cadastrées	O
+75l0l1	ont_été_vendues	N
+75l0l2	en_2015__	T
+
+#L’usage du site est limité à un usage industriel sans modification des bâtiments existants.
+
+76l0l0	L__usage	A
+76l0l1	du_site	O
+76l0l2	est_limité_à	R
+76l0l3	un_usage_industriel	O
+76l0l4	modification_des_bâtiments_existants	N
+
+#La société PCE a rédigé en janvier 2015 un bilan coût-avantage justifiant la demande d’arrêt des travaux de réhabilitation.
+
+77l0l0	La_société_PCE	O
+77l0l1	a_rédigé	N
+77l0l2	en_janvier_2015	T
+77l0l3	un_bilan_coût	N
+77l0l4	__avantage	O
+77l0l5	justifiant_la_demande	N
+77l0l6	d__arrêt_des_travaux_de_réhabilitation	N
+77l1l0	La_société_PCE	I
+
+#Malgré les travaux réalisés, estimés à un montant de 4M€, la présence d’une pollution résiduelle en hydrocarbure, COHV et Chlorure de Vinyl, est établie.
+
+78l0l0	les_travaux_réalisés	N
+78l0l1	4M_	O
+78l1l0	hydrocarbure	S
+78l1l1	COHV	S
+78l1l2	Chlorure_de_Vinyl	S
+
+#Le bilan met en évidence des délais très longs et un coût prohibitif pour diminuer la pollution restante.
+
+79l0l0	un_coût_prohibitif	O
+
+#Sur la base de ces conclusions le dossier d'institution des servitudes d'utilité publique est validé pour englober la zone de l’emprise du site jusqu'en limite de la RN12.
+
+80l0l0	institution_des_servitudes_d_	O
+80l0l1	utilité_publique	O
+80l0l2	est_validé	N
+80l0l3	englober_la_zone	O
+80l0l4	en_limite_de_la_RN12	L
+
+#Dans l’attente de la constitution du dossier par la société Arcadis, les restrictions antérieures prescrivant l’utilisation de l’eau souterraine uniquement pour la surveillance, restent en vigueur.
+
+81l0l0	la_société_Arcadis	O
+81l0l1	les_restrictions_antérieures	O
+81l0l2	prescrivant	N
+81l0l3	l__utilisation_de_l__eau_souterraine	A
+81l0l4	la_surveillance	A
+81l1l0	la_société_Arcadis	I

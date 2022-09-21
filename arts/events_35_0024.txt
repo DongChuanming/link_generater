@@ -1,0 +1,288 @@
+
+#35.0024
+#La société BAMAREC a été autorisée à exploiter une installation de façonnage et d'usinage de composants métalliques par arrêté préfectoral du 28 février 2006.
+
+0l0l0	La_société_BAMAREC	O
+0l0l1	a_été_autorisée_à_exploiter	N
+0l0l2	une	O
+0l0l3	installation_de_façonnage_et_d__usinage_de_composants_métalliques	A
+0l0l4	arrêté_préfectoral	O
+0l0l5	du_28_février_2006__	T
+0l1l0	La_société_BAMAREC	I
+
+#Cette installation existe toutefois depuis les années 1963.
+
+1l0l0	Cette_installation_existe_toutefois	N
+1l0l1	depuis_les_années_1963	T
+
+#Plusieurs sociétés se sont succédées dans l’exploitation de l'installation.
+
+2l0l0	Plusieurs_sociétés	O
+2l0l1	se_sont_succédées	N
+2l0l2	dans	R
+2l0l3	l__exploitation	N
+2l0l4	l__installation	O
+
+#Lors d'un rachat une analyse environnementale du site a été effectuée.
+
+3l0l0	Lors_d_	R
+3l0l1	un_rachat	N
+3l0l2	une_analyse_environnementale	N
+3l0l3	du_site	O
+3l0l4	a_été_effectuée	N
+
+#Des solvants (notamment trichloréthylène - TCE) ont été utilisés jusque fin 2001 environ.
+
+4l0l0	ont_été_utilisés	N
+4l0l1	jusque_fin_2001	T
+4l1l0	Des_solvants	U
+4l1l1	trichloréthylène	S
+4l1l2	TCE	S
+
+#Les bidons de TCE étaient stockés dans une chambre en métal sur rétention, à l'extérieur de l'usine.
+
+5l0l0	Les_bidons_de_TCE	O
+5l0l1	étaient_stockés_dans	R
+5l0l2	une_chambre	O
+5l0l3	métal_sur_rétention	O
+5l0l4	à_l__extérieur_de_l__usine	L
+5l1l0	bidons_de_TCE	I
+
+#Le TCE usagé était stocké dans une citerne hors sol de 5 000 litres environ, située à l'intérieur d'un abri bétonné extérieur à l'usine.
+
+6l0l0	Le_TCE_usagé	O
+6l0l1	était_stocké_dans	R
+6l0l2	une_citerne_hors_sol	O
+6l0l3	située_à_l__intérieur_d__un_abri_bétonné_extérieur_à_l__usine	L
+6l1l0	Le_TCE_usagé	I
+
+#Deux diagnostics environnementaux, réalisés au printemps 2001, mettent en évidence :
+
+7l0l0	Deux_diagnostics_environnementaux	N
+7l0l1	réalisés	N
+7l0l2	au_printemps_2001__	T
+
+#- eaux souterraines :
+
+
+#* des concentrations importantes en hydrocarbures haliphatiques - HAP (TCE et produits de dégradation) à l'aplomb de l'abri des citernes de stockages du TCE,
+
+9l0l0	hydrocarbures_haliphatiques	O
+9l0l1	à_l__aplomb_de_l__abri	L
+9l1l0	hydrocarbures_haliphatiques	S
+9l1l1	HAP	S
+9l1l2	TCE	S
+9l1l3	citernes	D
+9l1l4	TCE	S
+
+#* des concentrations importantes en hydrocarbures totaux (HCT) au droit des citernes aériennes de stockage,
+
+10l0l0	au_droit_des_citernes_aériennes_de_stockage	A
+10l1l0	hydrocarbures_totaux	S
+10l1l1	HCT	S
+
+#* des concentrations en HAP et HCT plus faibles en d'autres prélèvements, provenant soit de l'écoulement des eaux souterraines soit de zones ponctuellement polluées.
+
+11l0l0	zones_ponctuellement_polluées	O
+11l1l0	HAP	S
+11l1l1	HCT	S
+
+#- sol :
+
+
+#* une pollution en TCE au niveau du stockage des fûts vides de TCE,
+
+13l0l0	TCE	O
+13l0l1	TCE	O
+13l1l0	TCE	S
+13l1l1	fûts_vides_de_TCE	I
+
+#* une pollution en HCT à proximité des citernes aériennes de stockage, à proximité du point de remplissage des cuves de stockage interne des huiles d'usinage et de dégraissage et au point de sortie des huiles recyclées,
+
+14l0l0	HCT	O
+14l0l1	à_proximité_des_citernes_aériennes_de_stockage	L
+14l0l2	à_proximité_du_point_de	L
+14l0l3	remplissage_des_cuves_de_stockage	A
+14l0l4	dégraissage	A
+14l0l5	huiles_recyclées	O
+14l1l0	HCT	S
+14l1l1	huiles_d_	U
+14l1l2	huiles_recyclées	U
+
+#* des PCB, particulièrement à proximité du stockage des huiles.
+
+15l0l0	à_proximité_du	L
+15l0l1	stockage_des_huiles	A
+15l1l0	des_PCB	S
+
+#- gaz des sols : une concentration relativement constante de TCE sur l'ensemble du site, avec des valeurs plus élevées à l'intérieur des bâtiments.
+
+16l1l0	TCE	S
+
+#Les diagnostics concluent en une pollution de surface par du TCE et des huiles.
+
+17l0l0	Les_diagnostics	N
+17l0l1	une_pollution_de_surface	O
+17l0l2	TCE	O
+17l0l3	des_huiles	O
+17l1l0	TCE	S
+17l1l1	huiles	S
+
+#La zone source de pollution correspond à l'emplacement des cuves de stockage hors-sol du TCE.
+
+18l0l0	La_zone_source_de_pollution	O
+18l0l1	correspond_à	R
+18l0l2	l__emplacement	O
+18l0l3	des_cuves_de_stockage_hors_sol	O
+18l1l0	cuves_de_stockage	D
+18l1l1	TCE	I
+
+#D'autres sources potentielles de pollution et de moindre importance sont probablement présentes sur le site.
+
+
+#Les polluants migrent via les eaux souterraine, y compris à l'extérieur du site; bien que les concentrations les plus élevées se trouvent dans la zone source et diminuent en aval.
+
+20l0l0	à_l__extérieur_du_site	L
+20l0l1	trouvent_dans_la_zone_source	L
+20l0l2	en_aval	L
+20l1l0	Les_polluants	S
+
+#Suivant ces résultats, des mesures ont été mise en œuvre pour supprimer les sources primaires en 2003 :
+
+21l0l0	des_mesures	O
+21l0l1	ont_été_mise_en_œuvre	N
+21l0l2	en_2003	T
+21l1l0	les_sources_primaires	U
+
+#- arrêt de l'utilisation du TCE comme solvant et remplacement de l'unité de dégraissage de TCE,
+
+22l0l0	arrêt	N
+22l0l1	l__utilisation_du_TCE_comme_solvant_et_remplacement_de	A
+22l0l2	l__unité_de	O
+22l0l3	dégraissage	A
+22l0l4	TCE	O
+22l1l0	TCE	S
+22l1l1	TCE	S
+
+#- enlèvement des cuves de stockage hors-sol et des cuves de rétention, remplacés par de nouvelles cuves de stockage abritées et sur rétention.
+
+23l0l0	enlèvement	N
+23l0l1	des_cuves_de_stockage_hors_sol	O
+23l0l2	remplacés_par_de_nouvelles_cuves_de_stockage_abritées	O
+23l0l3	et_sur_rétention	A
+23l1l0	cuves	D
+23l1l1	des_cuves	D
+23l1l2	cuves_de_stockage	D
+
+#A la suite de ces résultats, une évaluation simplifiée des risques a été réalisée en décembre 2002.
+
+24l0l0	une_évaluation_simplifiée_des_risques	N
+24l0l1	a_été_réalisée	N
+24l0l2	en_décembre_2002	T
+
+#Elle classe le site en 2 pour le TCE, nécessitant un suivi des eaux souterraines.
+
+25l0l0	Elle	O
+25l0l1	classe	N
+25l0l2	le_site	O
+25l0l3	un_suivi_des_eaux_souterraines	A
+
+#Un arrêté préfectoral complémentaire du 28 février 2006 prescrit la réalisation de ce suivi.
+
+26l0l0	Un_arrêté_préfectoral_complémentaire	O
+26l0l1	28_février_2006	T
+26l0l2	prescrit_la_réalisation_de_ce_suivi	N
+
+#L'évolution des concentrations en polluants entre janvier 2001 et mars 2012 est la suivante :
+
+27l0l0	entre_janvier_2001_et_mars_2012	T
+27l1l0	polluants	U
+
+#- à proximité de l'ancienne source sol en COHV :
+
+28l0l0	à_proximité	L
+28l0l1	COHV	O
+28l1l0	COHV	S
+
+#* une tendance générale à la hausse pour les HC C5-C40 de 2001 à 2007 puis une stabilisation depuis 2007, à des teneurs supérieures à la valeur de référence,
+
+29l0l0	de_2001_à_2007	T
+29l0l1	depuis_2007__	T
+29l1l0	les_HC_C5_C40	I
+
+#* de fortes concentrations en COHV, supérieures aux valeurs de référence.
+
+30l1l0	COHV	S
+
+#La biodégradation des TCE est active.
+
+31l1l0	TCE	S
+
+#- en amont hydraulique :
+
+
+#* des concentrations en HCT et COHV, inférieures aux valeurs de référence.
+
+33l1l0	HCT	S
+33l1l1	COHV	S
+
+#Sporadiquement, du TCE et des HC C5-C40 ont été observés.
+
+34l1l0	TCE	I
+34l1l1	des_HC	I
+34l1l2	C5_C40	S
+
+#En mars 2012, les concentrations en TCE apparaissent de nouveau.
+
+35l0l0	En_mars_2012__	T
+35l0l1	les_concentrations	N
+35l1l0	TCE	S
+
+#- en latéral hydraulique :
+
+
+#* une tendance générale à la baisse des HC C5-C40 pour atteindre des concentrations inférieures aux valeurs de référence depuis 2008.
+
+37l0l0	depuis_2008__	T
+37l1l0	HC_C5_C40	S
+
+#* une tendance générale à la baisse pour les COHV.
+
+38l0l0	les_COHV	O
+
+#- au centre du site :
+
+39l0l0	centre_du_site	O
+
+#* des concentrations faibles pour les HC C5-C40,
+
+40l1l0	les_HC_C5_C40	S
+
+#* une tendance générale à la baisse pour les COHV, avec ponctuellement des pics supérieurs pour les TCE et TCA.
+
+41l1l0	COHV	I
+41l1l1	les_TCE	I
+41l1l2	TCA	S
+
+#- en aval hydraulique : des teneurs en HC C5-C40 et en COHV globalement inférieurs aux seuils de détection analytique.
+
+42l1l0	HC_C5_C40	S
+42l1l1	COHV	S
+
+#Ces ouvrages ne semblent pas impactés par la pollution.
+
+43l0l0	Ces_ouvrages	O
+
+#De faibles pics en COHV sont observés en 2012.
+
+44l0l0	observés	N
+44l0l1	en_2012__	T
+44l1l0	COHV	S
+
+#Depuis juin 2011, un traitement de la pollution des eaux souterraines par un procédé de venting a été mis en place.
+
+45l0l0	Depuis_juin_2011__	T
+45l0l1	un_traitement_de_la_pollution	N
+45l0l2	eaux_souterraines	O
+45l0l3	un_procédé_de_venting	N
+45l0l4	a_été_mis_en_place	N

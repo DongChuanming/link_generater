@@ -1,0 +1,413 @@
+
+#41.0016
+#Cette décharge a une superficie de l’ordre de 5 ha.
+
+
+#Elle semble avoir été exploitée à un rythme variable au cours des 30 dernières années (le diagnostic fait état d’apports de déchets en 1966).
+
+1l0l0	avoir_été_exploitée	N
+1l0l1	un_rythme	O
+1l0l2	au_cours_des_30_dernières_années	T
+1l0l3	en_1966	T
+
+#Le relevé topométrique conduit à évaluer le volume de déchets à environ 80000 m3.
+
+2l0l0	relevé_topométrique	N
+2l0l1	80000_m3__	O
+
+#Selon l’étude historique, cette décharge aurait admis des déblais et gravats, des ordures ménagères, des résidus de broyage automobile en quantité importante (30 à 40m3 par semaine),des solvants en provenance d’une imprimerie d’Eure et Loir (exploitant non identifié), en quantité apparemment faible.
+
+3l0l0	broyage_automobile	O
+3l0l1	une_imprimerie	O
+3l0l2	d__Eure_et_Loir	L
+3l1l0	des_ordures_ménagères	U
+
+#Exploitée sur un site de carrière, une certaine quantité de déchets se situe au moins une partie de l'année dans la nappe d'accompagnement du Loir.
+
+4l0l0	Exploitée_sur	R
+4l0l1	un_site_de_carrière	O
+4l0l2	de_l__année	T
+4l0l3	la_nappe	O
+4l0l4	accompagnement_du_Loir	L
+
+#Contexte hydrogéologique :
+
+5l0l0	Contexte_hydrogéologique	N
+
+#Le site d’enfouissement est situé dans un méandre du Loir à moins de 200 m de celui-ci.
+
+6l0l0	Le_site_d__enfouissement	O
+6l0l1	est_situé_dans_un_méandre_du_Loir_à_moins_de_200_m_de_celui_ci	L
+
+#Trois aquifères sont distingués au niveau du site :
+
+7l0l0	Trois_aquifères	O
+
+#- La nappe d’accompagnement du Loir (alluvions anciens)
+
+8l0l0	La_nappe	O
+8l0l1	accompagnement_du_Loir	L
+
+#- L’aquifère de la craie du Turonien
+
+9l1l0	Turonien	S
+
+#- L’aquifère des sables du Cénomanien (exploité pour l'alimentation en eau potable).
+
+10l0l0	Cénomanien	N
+10l0l1	exploité	N
+
+#Selon l’hydrogéologue du bureau d’étude mandaté, les deux aquifères superficiels sont en communication plus ou moins discontinue.
+
+11l0l0	deux_aquifères	O
+
+#L’examen des photographies aériennes du site indique que la nappe des alluvions a été affleurante à plusieurs étapes de l’exploitation de la carrière à l’origine de la cavité.
+
+12l0l0	alluvions_a_été_affleurante	N
+12l0l1	l__exploitation	N
+12l0l2	la_carrière	O
+
+#Compte tenu de la situation du site dans un méandre du Loir, le sens d’écoulement de la nappe des alluvions est globalement drainé par le Loir, mais peut faire l’objet de fluctuations, en fonction notamment du débit du Loir.
+
+13l0l0	dans_un_méandre_du_Loir	L
+13l0l1	le_Loir	L
+
+#L’aquifère du Cénomanien, bien protégé au niveau du site, ne semble pas concerné par un risque de pollution dont le site serait à l’origine.
+
+14l0l0	L__aquifère	O
+14l0l1	semble_pas_concerné_par	R
+14l0l2	un_risque_de_pollution	O
+14l0l3	le_site	O
+
+#Usages de l’eau :
+
+15l0l0	Usages	A
+
+#3 puits de particuliers sont recensés en aval hydraulique de l’ancienne décharge dans un rayon de 100 m.
+
+16l0l0	3_puits_de_particuliers	O
+16l0l1	en_aval_hydraulique	L
+
+#Un de ces puits n'est plus utilisé et les 2 autres ne sont plus utilisés pour un usage sensible.
+
+17l0l0	Un_de_ces_puits	O
+17l0l1	n__est_plus_utilisé	N
+17l0l2	les_2_autres	O
+17l0l3	ne_sont_plus_utilisés	N
+17l0l4	pour	R
+17l0l5	un_usage_sensible	N
+
+#La commune de MONTOIRE SUR LE LOIR a initié une démarche de remise en état du site.
+
+18l0l0	La_commune	O
+18l0l1	de_MONTOIRE_SUR_LE_LOIR	L
+18l0l2	a_initié	N
+18l0l3	une_démarche_de_remise_en_état_du_site	N
+18l1l0	La_commune_de_MONTOIRE_SUR_LE_LOIR	I
+
+#Les conclusions des études préalables ont été présentées à l'administration en février 2003.
+
+19l0l0	Les_conclusions	O
+19l0l1	ont_été_présentées	N
+19l0l2	l__administration	O
+19l0l3	en_février_2003__	T
+
+#Elles font état d'eaux souterraines très chargées en métaux, hydrocarbures et en charge organique, ainsi que de lixiviats chargés (notamment en fer).
+
+20l1l0	métaux	S
+20l1l1	hydrocarbures	S
+20l1l2	fer	S
+
+#Un arrêté préfectoral en date du 20/02/2003 a imposé l'information des populations et la clôture du site.
+
+21l0l0	Un_arrêté_préfectoral	O
+21l0l1	en_date_du_20_02_2003	T
+21l0l2	a_imposé	N
+21l0l3	l_	N
+21l0l4	information_des_populations	O
+21l0l5	la_clôture_du_site	O
+
+#Un arrêté municipal a interdit le puisage des eaux souterraines à des fins de consommations et d'usage domestique dans un rayon de 500 m de l'ancienne décharge.
+
+22l0l0	Un_arrêté_municipal	O
+22l0l1	a_interdit	N
+22l0l2	le_puisage_des_eaux_souterraines	A
+22l0l3	à_des_fins_de_consommations_et_d__usage_domestique	A
+22l0l4	dans_un_rayon_de_500_m_de_l__ancienne_décharge	L
+
+#Une surveillance semestrielle de la qualité des eaux souterraines est réalisée sur les piézomètres mis en place au niveau du site et à son aval immédiat ainsi que sur 3 puits de particuliers.
+
+23l0l0	Une_surveillance_semestrielle	A
+23l0l1	la_qualité_des_eaux_souterraines	A
+23l0l2	est_réalisée	N
+23l0l3	à_son_aval_immédiat	L
+23l0l4	3_puits_de_particuliers	O
+
+#Un puits est impacté par des teneurs en manganèse caractéristiques de l'impact de la décharge : ce puits est situé entre la décharge et le Loir, un autre situé en  latéral n'est pas impacté et le dernier situé en aval latéral est impacté par les nitrates et sulfates, pollution plutôt caractéristique d'une autre source que la décharge.
+
+24l0l0	Un_puits	O
+24l0l1	est_impacté_par	R
+24l0l2	des_teneurs	O
+24l0l3	ce_puits	O
+24l0l4	est_situé_entre_la_décharge_et_le_Loir	L
+24l0l5	un_autre	O
+24l0l6	situé_en	L
+24l0l7	dernier_situé_en_aval_latéral	L
+24l0l8	les_nitrates	O
+24l1l0	manganèse	S
+24l1l1	les_nitrates	S
+24l1l2	et_sulfates	S
+
+#Suite à l'arrêté préfectoral du 20 mai 2003 prescrivant une étude des risques, une évaluation simplifiée des risques a été réalisée et a conclu à un site en classe 1 c'est à dire devant faire l'objet d'investigations approfondies et le cas échéant d'une étude détaillée des risques.
+
+25l0l0	Suite_à	R
+25l0l1	l__arrêté_préfectoral	O
+25l0l2	20_mai_2003	T
+25l0l3	prescrivant_une_étude_des_risques	N
+25l0l4	une_évaluation_simplifiée_des_risques	N
+25l0l5	a_été_réalisée	N
+25l0l6	un_site_en_classe_1	O
+
+#Le 9 février 2006, l'inspection des installations classées a demandé une étude détaillée des risques sur la santé et les eaux souterraines.
+
+26l0l0	Le_9_février_2006__	T
+26l0l1	l__inspection_des_installations_classées	O
+26l0l2	a_demandé	N
+26l0l3	une_étude_détaillée_des_risques	N
+26l0l4	les_eaux_souterraines	O
+
+#Le préfet de Loir-et Cher en a rappelé la nécessité au Maire par courrier du 13 octobre 2006.
+
+27l0l0	Le_préfet_de_Loir	O
+27l0l1	__et_Cher	A
+27l0l2	en	R
+27l0l3	a_rappelé	N
+27l0l4	la_nécessité	O
+27l0l5	Maire	O
+27l0l6	du_13_octobre_2006__	T
+27l1l0	Le_préfet_de_Loir	I
+
+#Fin 2006, l'interdiction de puisage des eaux souterraines à des fins d'usages sensibles a été rappelée aux détenteurs des puits les plus proches situés à l'aval de la décharge, en même temps que leur sont communiqués les résultats des contrôles sur la qualité des eaux au niveau de leurs puits.
+
+28l0l0	Fin_2006__	T
+28l0l1	l__interdiction	N
+28l0l2	de_puisage_des_eaux_souterraines	A
+28l0l3	à_des_fins	T
+28l0l4	d__usages_sensibles	O
+28l0l5	a_été_rappelée	N
+28l0l6	aux_détenteurs_des_puits_les_plus_proches	O
+28l0l7	situés_à_l__aval_de_la_décharge	L
+28l0l8	sont_communiqués	N
+28l0l9	la_qualité_des_eaux	O
+
+#Les conclusions du diagnostic complémentaire et de l'évaluation des risques sanitaires, suivis de propositions de mesures de réhabilitation de l'ancienne décharge (rapport du 01/02/2008) ont été présentés lors d'une réunion datée du 30/05/2008.
+
+29l0l0	Les_conclusions_du_diagnostic_complémentaire	O
+29l0l1	évaluation_des_risques_sanitaires	N
+29l0l2	de_propositions_de_mesures_de_réhabilitation	O
+29l0l3	01_02_2008	T
+29l0l4	ont_été_présentés_lors_d_	N
+29l0l5	une_réunion	N
+29l0l6	du_30_05_2008__	T
+
+#Les constats de l'évaluation détaillée des risques sont les suivants :
+
+
+#- la présence dans les sols de déchets divers (environ 80000 m3) dans la partie ouest du site, et de déblais inertes (environ 35000 m3) dans la partie est;
+
+31l0l0	dans_la_partie_ouest_du_site	L
+31l1l0	déchets_divers	U
+
+#- des teneurs élevées en fer, manganèse, nickel, hydrocarbures, sulfates, nitrites et nitrates dans les eaux souterraines en aval du site;
+
+32l0l0	en_aval_du_site	L
+32l1l0	fer	S
+32l1l1	manganèse	S
+32l1l2	nickel	S
+32l1l3	hydrocarbures	S
+32l1l4	sulfates	S
+32l1l5	nitrites	S
+32l1l6	nitrates	S
+
+#- de faibles concentrations en benzène dans l'air au droit du site.
+
+33l0l0	au_droit_du_site	L
+33l1l0	benzène	S
+
+#Concernant les risques sanitaires, le rapport conclut à une acceptabilité des risques pour les usagers du site, mais à un risque de contamination par les eaux souterraines en aval hydraulique (non compatibilité avec un usage domestique).
+
+34l0l0	une_acceptabilité	N
+34l0l1	en_aval_hydraulique	L
+34l0l2	un_usage_domestique	A
+
+#Des solutions de réhabilitation du site ont été avancées :
+
+35l0l0	Des_solutions_de_réhabilitation	O
+
+#- combler avec 45000 m3 de matériaux inertes la partie de la décharge en dépression;
+
+
+#- mettre en place une couverture de matériaux peu perméables compactés et de terres végétales;
+
+
+#- niveler la décharge en dôme pour limiter la percolation des eaux à travers la masse des déchets et créer des fossés périphériques collectant les eaux de ruissellement sur le dôme;
+
+38l0l0	niveler	N
+38l0l1	la_décharge	O
+38l0l2	percolation	N
+38l0l3	des_eaux	O
+38l0l4	créer	N
+38l0l5	dôme	L
+38l1l0	des_déchets	U
+
+#- maintenir l'interdiction d'utilisation des eaux souterraines au droit et à l'aval du site;
+
+39l0l0	l__interdiction	N
+39l0l1	à_l__aval_du_site	L
+
+#- instituer des servitudes au droit du site pour les sols, et en aval pour les eaux souterraines;
+
+40l0l0	instituer	N
+40l0l1	des_servitudes	O
+40l0l2	les_sols	O
+40l0l3	en_aval	L
+40l0l4	les_eaux_souterraines	O
+
+#- clôturer l'intégralité du site;
+
+41l0l0	clôturer	N
+41l0l1	l_	O
+
+#- renforcer et maintenir le réseau de surveillance des eaux souterraines.
+
+42l0l0	maintenir	N
+42l0l1	le_réseau_de	O
+42l0l2	surveillance_des_eaux_souterraines	A
+
+#Il a également été décidé lors de cette réunion de la réalisation d'un arrêté préfectoral instaurant les modalités des travaux de réhabilitation et les servitudes inhérentes, ainsi que de la création d'un dossier d'institution de Servitudes d'Utilité Publique (SUP).
+
+43l0l0	Il_a	O
+43l0l1	cette_réunion	N
+43l0l2	la_réalisation	N
+43l0l3	d__un_arrêté_préfectoral	O
+43l0l4	instaurant	N
+43l0l5	les_modalités	O
+43l0l6	des_travaux_de_réhabilitation	N
+43l0l7	les_servitudes_inhérentes	O
+43l0l8	la_création_d_	N
+43l0l9	un_dossier	O
+
+#Un courrier du maire daté du 05/12/2008 apporte confirmation de l'acceptation de ces mesures.
+
+44l0l0	maire	O
+44l0l1	daté_du_05_12_2008	T
+44l0l2	l__acceptation	N
+44l0l3	ces_mesures	O
+
+#Un puits de particulier a été fermé en 2009, et l'habitation a été raccordée au réseau d'eau potable.
+
+45l0l0	Un_puits_de_particulier	O
+45l0l1	a_été_fermé	N
+45l0l2	en_2009__	T
+45l0l3	l__habitation	O
+45l0l4	a_été	N
+45l0l5	raccordée_au_réseau	L
+
+#Un projet d'arrêté préfectoral a été présenté au CODERST (Conseil Départemental de l'Environnement et des Risques Sanitaires et Technologiques) en juillet 2009, et un dossier de demande d'instauration de SUP a été déposé en décembre 2009.
+
+46l0l0	Un_projet	O
+46l0l1	d__arrêté_préfectoral	O
+46l0l2	a_été_présenté	N
+46l0l3	CODERST	O
+46l0l4	en_juillet_2009__	T
+46l0l5	un_dossier	O
+46l0l6	d__instauration_de_SUP_a_été_déposé	N
+46l0l7	en_décembre_2009__	T
+46l1l0	CODERST	I
+46l1l1	Conseil_Départemental_de_l__Environnement	I
+
+#L'arrêté préfectoral complémentaire daté du 28/09/2010 prescrit à la commune de Montoire-sur-Le-Loir des mesures de réhabilitation pour la remise en état de l'ancienne décharge.
+
+47l0l0	L__arrêté_préfectoral_complémentaire	O
+47l0l1	daté_du_28_09_2010	T
+47l0l2	prescrit_à	R
+47l0l3	la_commune	O
+47l0l4	de_Montoire___sur___Le___Loir	L
+47l0l5	des_mesures_de_réhabilitation	N
+47l0l6	la_remise_en_état	N
+47l0l7	l__ancienne_décharge	O
+
+#Il porte notamment sur:
+
+
+#- la réhabilitation du site pour un usage futur;
+
+49l0l0	la_réhabilitation	N
+49l0l1	du_site	O
+49l0l2	un_usage_futur	T
+
+#- la conservation en mémoire de l'état du site (maintenir les restrictions d'usage des eaux souterraines);
+
+50l0l0	maintenir_les_restrictions	N
+50l0l1	usage_des_eaux_souterraines	A
+
+#- la surveillance et l'entretien du site réhabilité;
+
+51l0l0	la_surveillance_et_l__entretien_du	A
+51l0l1	site_réhabilité	N
+
+#- le maintien d'une surveillance semestrielle des eaux souterraines et la mise en place d'un bilan quadriennal.
+
+52l0l0	le_maintien	N
+52l0l1	une_surveillance_semestrielle	A
+52l0l2	eaux_souterraines	O
+52l0l3	la_mise_en_place_d_	N
+52l0l4	un_bilan_quadriennal	T
+
+#Les travaux de réhabilitation ont eu lieu courant 2011, la réception des travaux est datée du 30/10/2011.
+
+53l0l0	Les_travaux_de_réhabilitation	N
+53l0l1	ont_eu_lieu	N
+53l0l2	courant_2011__	T
+53l0l3	la_réception_des_travaux	O
+53l0l4	est_datée_du_30_10_2011	T
+
+#Le site est clôturé sur toute sa longueur et des panneaux d'information sont à disposition du public.
+
+54l0l0	Le_site	O
+
+#Un réseau de fossés relie maintenant le dispositif de drainage aux bassins de rétention.
+
+55l0l0	Un_réseau_de_fossés	O
+55l0l1	maintenant	T
+55l0l2	le_dispositif_de_drainage	O
+
+#Des tontes bisannuelles sont effectuées à 0,20 m de hauteur de végétation afin d'éliminer les repousses d'arbres et d'arbustes tout en maintenant le couvert végétale.
+
+56l0l0	Des_tontes	N
+56l0l1	sont_effectuées	N
+56l0l2	à	R
+56l0l3	0_20_m_de_hauteur_de_végétation	O
+
+#Une remise en état du réseau piézométrique a été effectuée et les bassins de rétention sont en cours de revégétalisation.
+
+57l0l0	Une_remise_en_état	N
+57l0l1	réseau_piézométrique	O
+57l0l2	a_été_effectuée	N
+57l0l3	les_bassins_de_rétention	O
+57l0l4	en_cours	T
+57l0l5	de_revégétalisation	N
+
+#Un marché public de maîtrise d'œuvre en vue de l'extension et de la mise aux normes du réseau piézométrique est actuellement en cours.
+
+58l0l0	Un_marché_public_de_maîtrise_d__œuvre	O
+58l0l1	en_vue_de	R
+58l0l2	l__extension_et_de_la_mise_aux_normes	N
+58l0l3	réseau_piézométrique	O
+58l0l4	actuellement_en_cours	T
+
+#Le dossier d'instauration de SUP sera formalisé lorsque le réseau définitif de surveillance sera arrêté.
+
+59l0l0	Le_dossier_d__instauration_de_SUP	O
+59l0l1	sera_formalisé_lorsque	N
+59l0l2	le_réseau_définitif_de_surveillance	O

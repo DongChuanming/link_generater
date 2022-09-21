@@ -1,0 +1,66 @@
+
+#35.0003
+#La société AFC a été autorisée à exploiter une fonderie de fonte à graphite sphéroïdal par arrêté préfectoral modifié du 13 novembre 1998.
+
+0l0l0	La_société_AFC	O
+0l0l1	a_été_autorisée_à_exploiter	N
+0l0l2	une_fonderie	O
+0l0l3	de_fonte	A
+0l0l4	arrêté_préfectoral	O
+0l0l5	modifié	R
+0l0l6	du_13_novembre_1998__	T
+0l1l0	La_société_AFC	I
+
+#Le site est autorisé à être exploité depuis 1989.
+
+1l0l0	Le_site	O
+1l0l1	est_autorisé_à_être_exploité	N
+1l0l2	depuis_1989__	T
+
+#Une étude de sol et une ESR (évaluation simplifiée des risques) ont été menées en 2000 dans le cadre de la circulaire du 3 avril 1996 du Ministère de l'Environnement.
+
+2l0l0	Une_étude_de_sol	N
+2l0l1	ont_été_menées	N
+2l0l2	en_2000	T
+2l0l3	dans_le_cadre_de	R
+2l0l4	la_circulaire	O
+2l0l5	3_avril_1996	T
+2l0l6	Ministère_de_l__Environnement	O
+
+#L'ESR affecte ce site :
+
+3l1l0	L__ESR	I
+
+#- en classe 3 ("site banalisable") pour les sols, pour un usage industriel ;
+
+4l0l0	un_usage_industriel	N
+
+#- en classe 2 ("à surveiller") pour les eaux souterraines (usage industriel) : concentrations en phénols et hydrocarbures supérieures aux VCI -valeurs de constat d'impact- de ces polluants, et propose un programme de suivi en conséquence.
+
+5l1l0	phénols	S
+5l1l1	hydrocarbures	S
+5l1l2	polluants	U
+
+#A cet effet, l'arrêté préfectoral complémentaire du 9 avril 2003 prescrit la réalisation d'un prélèvement semestriel des eaux souterraines dans les trois piézomètres et dans le puits du site.
+
+6l0l0	l__arrêté_préfectoral_complémentaire	O
+6l0l1	9_avril_2003	T
+6l0l2	prescrit_la_réalisation	N
+6l0l3	d__un_prélèvement_semestriel_des_eaux_souterraines	A
+6l0l4	le_puits_du_site	O
+
+#Les mesures portent sur les paramètres suivants : hydrocarbures totaux, phénols totaux, métaux lourds.
+
+7l1l0	hydrocarbures_totaux	S
+7l1l1	phénols_totaux	S
+7l1l2	métaux_lourds	S
+
+#Depuis 2001, ils révèlent des teneurs en polluants conforment aux valeurs de l'arrêté ministériel du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine.
+
+8l0l0	Depuis_2001__	T
+8l0l1	11_janvier_2007	T
+
+#Les résultats entre 2009 et 2015 montrent des traces en quelques éléments traces métalliques, inférieures aux valeurs seuils.
+
+9l0l0	entre_2009_et_2015	T
+9l1l0	traces_métalliques	S

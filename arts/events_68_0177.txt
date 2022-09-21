@@ -1,0 +1,188 @@
+
+#68.0177
+#Il s'agit d'un ancien dépôt d'ordures ménagères dont les dates de mise en service et de cessation d'activité ne sont pas établies.
+
+0l0l0	un_ancien_dépôt_d_	O
+0l0l1	les_dates_de_mise_en_service	N
+0l0l2	cessation_d__activité	N
+0l1l0	dépôt_d__ordures	D
+
+#A partir de 1937, des excavations ont lieu au moins jusqu'en 1994 (déduction des cartographies).
+
+1l0l0	A	R
+1l0l1	partir_de_1937	T
+1l0l2	des_excavations	N
+1l0l3	ont_lieu	R
+1l0l4	au_moins_jusqu__en_1994	T
+1l0l5	cartographies	N
+
+#Le contenu des déchets n'était pas précisé, il y a trop peu d'informations.
+
+
+#La DDAF 68 répertorie ce site comme décharge d'ordures ménagères.
+
+3l0l0	La_DDAF	O
+3l0l1	ce_site	O
+3l1l0	La_DDAF_68	I
+3l1l1	décharge_d__ordures_ménagères	S
+
+#Un réseau de piézomètres est recensé grâce à la surveillance du site DURRENWAECHTER (Bourgfelden Nord).
+
+4l0l0	Un_réseau_de_piézomètres	O
+4l0l1	est_recensé	N
+4l0l2	grâce_à	R
+4l0l3	la_surveillance	A
+4l0l4	site_DURRENWAECHTER	O
+4l0l5	__Bourgfelden_Nord	L
+4l1l0	DURRENWAECHTER	I
+
+#La mise en place de deux piézomètres (à l'aval et à l'amont) date de 1992 et les contrôles sont réguliers depuis 1993.
+
+5l0l0	La_mise_en_place	N
+5l0l1	deux_piézomètres	O
+5l0l2	amont	O
+5l0l3	date_de_1992	T
+5l0l4	les_contrôles	O
+5l0l5	sont_réguliers	N
+5l0l6	depuis_1993	T
+
+#Des analyses, datant de 1993, révèlent les polluants suivants dans les eaux souterraines (sur les deux piézomètres aval et amont) :
+
+6l0l0	Des_analyses	N
+6l0l1	datant_de_1993	T
+6l1l0	les_polluants	U
+
+#- Concentrations notables en nitrates (40mg/L) et de sulfates (118/mg/L);
+
+7l0l0	nitrates	O
+7l1l0	nitrates	S
+7l1l1	sulfates	S
+
+#Des analyses, datant de 1994, révèlent les polluants suivants dans les eaux souterraines (sur les deux piézomètres aval et amont) :
+
+8l0l0	Des_analyses	N
+8l0l1	datant_de_1994__	T
+8l1l0	les_polluants	U
+
+#- Diminution des teneurs en NO3 (nitrates, inférieur à 10mg/L), en fer (inférieur à 0.1mg/L) et en aluminium (inférieur à 0.3mg/L).
+
+9l1l0	NO3	S
+9l1l1	nitrates	S
+9l1l2	fer	S
+9l1l3	aluminium	S
+
+#Des analyses, datant de 1995, ont mis en évidence les polluants suivants dans les eaux souterraines (sur les deux piézomètres aval et amont) :
+
+10l0l0	Des_analyses	N
+10l0l1	datant_de_1995__	T
+10l1l0	les_polluants	U
+
+#- Traces de pesticides comme des DDT (dichlorodiphényltrichloroéthane) et polychlorobiphényles (PCB) Avochlor 1260;
+
+11l1l0	Traces_de_pesticides_comme_des_DDT	S
+11l1l1	dichlorodiphényltrichloroéthane	S
+11l1l2	polychlorobiphényles	S
+11l1l3	PCB	S
+11l1l4	Avochlor_1260	S
+
+#- Faibles traces (comparables à la situation antérieure) de solvants chlorés (tétrachlorure de carbone, trichlorométhane, et tétrachloroéthylène)
+
+12l1l0	solvants_chlorés	U
+12l1l1	tétrachlorure_de_carbone	S
+12l1l2	trichlorométhane	S
+12l1l3	tétrachloroéthylène	S
+
+#- Pas de contamination détectée en lindane (hexachlorocyclohexane), agents de surface anioniques ou en phénols.
+
+13l1l0	lindane	S
+13l1l1	hexachlorocyclohexane	S
+13l1l2	phénols	S
+
+#Des analyses, datant de 1996, ont mis en évidence les polluants suivants dans les eaux souterraines (sur un piézomètre aval) :
+
+14l0l0	Des_analyses	N
+14l0l1	datant_de_1996__	T
+14l1l0	les_polluants	U
+
+#-HCH relevé à faible dose.
+
+15l1l0	_HCH	S
+
+#Des analyses, datant de 1997, ont mis en évidence les polluants suivants dans les eaux souterraines (sur les deux piézomètres aval et amont) :
+
+16l0l0	Des_analyses	N
+16l0l1	datant_de_1997__	T
+16l1l0	les_polluants	U
+
+#- Présence d'atrazine et de déséthylatrazine (mais avec des teneurs plus élevées en aval).
+
+17l0l0	en_aval	L
+17l1l0	Présence_d__atrazine	S
+17l1l1	déséthylatrazine	S
+
+#Des analyses, datant de 1998, n'ont pas mis en évidence une évolution significative de la qualité:
+
+18l0l0	Des_analyses	N
+18l0l1	datant_de_1998__	T
+
+#- Pas de détection de Hydrocarbures Aromatiques Polycycliques (HAP), pesticides chlorés, pesticides phosphorés, herbicides et composés organo-halogénés volatils;
+
+19l1l0	Hydrocarbures_Aromatiques_Polycycliques	S
+19l1l1	HAP	S
+19l1l2	pesticides_chlorés	S
+19l1l3	pesticides_phosphorés	S
+19l1l4	composés_organo___halogénés_volatils	S
+
+#- Traces de l'atrazine et déséthylatrazine.
+
+20l1l0	l__atrazine	S
+20l1l1	déséthylatrazine	S
+
+#Trichloroéthylène 1.1µg/L en amont et 2.6µg/L en aval.
+
+21l1l0	Trichloroéthylène	S
+
+#- Légère augmentation de la minéralisation, des teneurs en ammonium et nitrates (amont comme aval).
+
+22l0l0	Légère_augmentation	N
+22l0l1	la_minéralisation	N
+22l0l2	ammonium	O
+22l1l0	ammonium	S
+22l1l1	nitrates	S
+
+#Des analyses, datant de 1998, ont mis en évidence les polluants suivants dans les eaux souterraines (sur un piézomètre amont) :
+
+23l0l0	Des_analyses	N
+23l0l1	datant_de_1998__	T
+23l1l0	les_polluants	U
+
+#- Teneurs de 100 mg/L en hydrocarbures, proche du seuil de détection.
+
+24l1l0	hydrocarbures	S
+
+#La nocivité du dépôt est inconnue à ce jour , hormis quelques anomalies ponctuelles.
+
+25l0l0	à_ce_jour	T
+
+#Le risque est accru compte-tenu de la présence d'un captage AEP.
+
+
+#Ainsi, il est recommandé:
+
+
+#- De renforcer les analyses pratiquées au droit du captage AEP de Hésingue;
+
+28l0l0	renforcer	N
+28l0l1	les_analyses	O
+28l0l2	au_droit_du_captage_AEP_de_Hésingue	L
+
+#- De poursuivre les contrôles et la surveillance en amont et en aval du site DURRENWAECHTER;
+
+29l0l0	De	N
+29l0l1	poursuivre_les_contrôles	O
+29l0l2	la_surveillance	O
+29l0l3	en_amont_et_en_aval_du_site_DURRENWAECHTER	O
+29l1l0	DURRENWAECHTER	I
+
+#- De rechercher des informations sur l'historique du site.
+

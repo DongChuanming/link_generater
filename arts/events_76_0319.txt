@@ -1,0 +1,145 @@
+
+#76.0319
+#Construite à l'origine par Goodyear, puis rachetée en 2001, l'usine appartient aujourd'hui à OMNOVA Solutions, un fabricant américain de produits chimiques coté à la bourse de New York depuis le 1ier octobre 1999.
+
+0l0l0	Construite_à_l_	O
+0l0l1	origine_par	R
+0l0l2	Goodyear___puis_rachetée_en_2001	O
+0l0l3	aujourd_hui	O
+
+#Le groupe emploie près de 2300 salariés à travers le monde et possède 22 sites dans 7 pays différents.
+
+1l0l0	Le_groupe_emploie_près_de	N
+1l0l1	2300_salariés	O
+1l0l2	travers_le	N
+1l0l3	monde_et	T
+1l0l4	possède_22	O
+1l0l5	sites_dans_7_pays	R
+1l0l6	différents	T
+1l0l7	_	N
+1l1l0	2300_salariés	I
+1l1l1	différents__	I
+
+#Aujourd'hui, le site du Havre d'OMNOVA Solutions fabrique 3 gammes de produits:
+
+2l0l0	3_gammes	R
+2l0l1	de_produits	O
+
+#- des résines de spécialité,
+
+3l0l0	de_spécialité__	O
+
+#- des modifiants élastomériques,
+
+4l1l0	des_modifiants	D
+
+#- des Latex.
+
+5l1l0	des_Latex__	S
+
+#Ces produits sont de types semi-finis à destination d'industries utilisatrices.
+
+
+#L'usine occupe un terrain de 21,97 hectares dont environ 110 650 m² de surface construite.
+
+7l0l0	L__usine_occupe	O
+7l0l1	terrain_de_21_97	O
+7l0l2	hectares_dont_environ	R
+
+#Le siège social d'OMNOVA Solutions est situé à Villejust (91).
+
+8l0l0	Le_siège	O
+
+#L'usine d'OMNOVA est implantée sur la zone industrielle portuaire du Havre, sur la commune de Sandouville.
+
+9l0l0	L__usine_d__OMNOVA_est_implantée_sur	O
+9l0l1	la_zone_industrielle_portuaire	L
+9l1l0	est_implantée_sur	I
+
+#Le site est bordé par la route du canal de Tancarville et le canal de Tancarville au nord (à 50 m), la route de Noroit à l'ouest et l'usine RENAULT au sud /est.
+
+10l0l0	Le_site_est_bordé	O
+10l0l1	par_la_route_du	N
+10l0l2	canal_de_Tancarville_et_le_canal_de_Tancarville	L
+10l0l3	au_nord___à_50_m_____la_route_de_Noroit	L
+10l1l0	bordé_par	I
+
+#Dans le voisinage du site se trouvent également les sociétés TOTAL Fluide, LUBRIZOL, ERAMET et SEDIBEX.
+
+11l0l0	Dans_le	O
+11l0l1	voisinage_du_site_se_trouvent_également_les	O
+11l0l2	sociétés_TOTAL_Fluide___LUBRIZOL___ERAMET_et_SEDIBEX__	L
+11l1l0	trouvent_également_les_sociétés_TOTAL_Fluide___LUBRIZOL	I
+
+#Les premières habitations se situent à environ 150 m au nord ouest du site et à plus de 500 m des unités du site.
+
+12l0l0	Les_premières_habitations	L
+12l0l1	150_m_au_nord_ouest_du_site_et	O
+12l0l2	à_plus_de_500	O
+12l0l3	unités_du_site	O
+12l1l0	150_m_au_nord_ouest_du_site_et_à_plus_de_500_m_des_unités_du_site	I
+
+#Le site d'Omnova Solutions est décomposé en 7 zones fonctionnelles principales.
+
+13l0l0	Le_site_d__Omnova_Solutions	O
+13l0l1	est_décomposé_en_7_zones_fonctionnelles_principales	L
+13l0l2	_	L
+
+#Les procédés de fabrication des différentes unités du site utilisent comme matières premières des gaz inflammables liquéfiés (butadiène et isobutylène), ainsi que des liquides toxiques et/ou inflammables (acryonitrile, vinyl pyridine, styrène...) ou des solides (crésols).
+
+14l0l0	Les_procédés	O
+14l0l1	différentes_unités_du_site_utilisent	O
+14l1l0	procédés_de_fabrication	I
+
+#Ces produits sont principalement stockés dans l'unité des matières premières, appelée Tank Farm (cf. plans du site, contour en bleu).
+
+15l0l0	Ces_produits	N
+15l1l0	appelée_Tank_Farm___cf__plans_du	U
+15l1l1	bleu____	S
+
+#Le potentiel de danger peut être dû au dépotage, stockage et au transfert de l'acrylonitrile (liquide toxique et inflammable) vers le bâtiment Polymérisation; et au dépotage, stockage et utilisation des gaz combustibles liquéfiés (butadiène, isobutylène).
+
+16l0l0	acrylonitrile	R
+16l0l1	__liquide	O
+16l1l0	acrylonitrile___liquide	I
+
+#[Rapport au CODERST de juillet 2007 - 4.7 et 7.3 + Plans] Des fuites de paracrésol et de dicyclopentadiène (bacs entourés en rouge sur le plan) se sont produites avant juillet 2007, entraînant une pollution des sols du Tank Farm (zone entourée en bleue sur les plans).
+
+17l0l0	4_7	N
+17l0l1	et_7_3	O
+17l0l2	fuites_de_paracrésol	N
+17l0l3	sont	A
+17l0l4	produites_avant	N
+17l1l0	et_de_dicyclopentadiène___bacs_entourés_en_rouge	U
+17l1l1	le_plan___se_sont_produites_avant	I
+17l1l2	sols_du_Tank_Farm	U
+17l1l3	entourée_en_bleue_sur_les_plans	S
+
+#Suite à cette pollution, une faisabilité technique et économique de la dépollution des sols du Tank Farm a été conduite par l'exploitant.
+
+18l0l0	Suite_à_cette_pollution	O
+18l0l1	__une_faisabilité	T
+18l0l2	technique	O
+18l1l0	cette_pollution	I
+18l1l1	de_la_dépollution_des_sols_du_Tank_Farm	S
+
+#Cette dépollution nécessitait l'arrêt de la production.
+
+19l0l0	Cette	R
+19l0l1	dépollution_nécessitait	N
+19l0l2	l__arrêt_de_la_production	O
+
+#Or, la surveillance des eaux souterraines n'avait pas mis en évidence d'impact particulier.
+
+20l0l0	Or___la_surveillance_des_eaux	N
+20l0l1	n__avait_pas_mis	A
+
+#Les travaux de dépollution n'ont finalement pas été réalisés.
+
+21l0l0	travaux_de_dépollution_n__ont_finalement	A
+21l0l1	pas_été_réalisés	R
+
+#[APC de juillet 2007 - Aricle 3] Par contre, en cas de cessation définitive d'activité, une étude technico-économique visant à dépolluer le sol de la zone du parc des matières premières (Tank Farm) doit être remise.
+
+22l0l0	__APC_de_juillet_2007___Aricle	N
+22l0l1	3___Par_contre___en_cas_de_cessation	N

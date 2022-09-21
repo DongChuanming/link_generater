@@ -1,0 +1,462 @@
+
+#42.0070
+#Ce site industriel abritait de 1863 jusqu'en 1976 une fabrique de chapeaux ; il est aujourd'hui à l'abandon.
+
+0l0l0	Ce_site_industriel	O
+0l0l1	abritait	A
+0l0l2	de_1863_jusqu__en_1976	T
+0l0l3	une_fabrique_de_chapeaux	O
+0l0l4	aujourd_hui_à	R
+
+#L'activité était visée par la nomenclature des installations classées sous les rubriques 2310 à 2360 relatives aux textiles, cuirs, peaux.
+
+1l0l0	L__activité_était_visée	O
+1l0l1	la_nomenclature_des_installations_classées	O
+1l0l2	textiles	A
+1l0l3	cuirs	A
+
+#Les activités étaient réparties sur plusieurs usines et ateliers : l'usine principale, l'usine annexe, l'atelier d'entretien, un dépôt situé derrière l'usine principale.
+
+2l0l0	Les_activités	A
+2l0l1	l_	O
+2l0l2	usine_principale	L
+2l0l3	usine_annexe	O
+2l0l4	entretien	O
+2l0l5	dépôt	O
+2l0l6	situé_derrière_l__usine_principale	L
+
+#L'activité chapelière à Chazelles sur Lyon remonte au 16ème siècle, pour disparaître totalement en 1996; on comptait vers 1930 jusqu'à 28 usines occupant 2500 ouvriers.
+
+3l0l0	L__activité_chapelière	A
+3l0l1	à_Chazelles_sur_Lyon	L
+3l0l2	remonte_au_16ème_siècle	T
+3l0l3	disparaître_totalement	N
+3l0l4	en_1996	T
+3l0l5	vers_1930	T
+3l0l6	28_usines	O
+
+#La chapellerie était une activité potentiellement polluante ; les chapeaux étaient fabriqués à partie de poils de lapin, de paille ; le feutre était traité avec du nitrate de mercure, de l'acide sulfurique, de l'acide chlorhydrique ; les produits de teintures étaient également polluants ; il semble toutefois que, dans le cas présent, cette opération n'était pas réalisée sur place.
+
+4l0l0	les_produits_de_teintures	O
+4l1l0	nitrate	S
+4l1l1	acide_sulfurique	S
+4l1l2	acide_chlorhydrique	S
+
+#Dans le cadre d'une vente sur saisie immobilière, le site des anciens établissements Moretton, rue Claude Protière et rue Pasteur à Chazelles sur Lyon, a fait l'objet d'un diagnostic initial de la qualité des sols.
+
+5l0l0	Dans_le_cadre_d_	R
+5l0l1	une_vente_sur_saisie_immobilière	N
+5l0l2	le_site_des_anciens_établissements_Moretton	O
+5l0l3	rue_Claude_Protière	O
+5l0l4	rue_Pasteur_à_Chazelles_sur_Lyon__	L
+5l0l5	a_fait_l__objet_d_	R
+5l0l6	un_diagnostic_initial	N
+5l0l7	la_qualité_des_sols	O
+
+#Des investigations ont été menées sur les zones suivantes de l'usine : chaufferie, atelier mécanique, atelier de traitement du feutre (foulage), stockages, zones où des souillures ont été constatées,  dans et autour d'une cuve enterrée, dans un bassin souterrain rempli d'eau.
+
+6l0l0	Des_investigations	N
+6l0l1	ont_été_menées	N
+6l0l2	les_zones	O
+6l0l3	traitement_du_feutre	A
+6l0l4	foulage	A
+6l0l5	souillures	O
+6l0l6	dans_un	O
+6l0l7	bassin_souterrain_rempli	L
+6l1l0	feutre	U
+
+#13 sondages ont été réalisés jusqu'à une profondeur maximale de 2,8 m, générant 22 échantillons de sols.
+
+7l0l0	13_sondages	O
+7l0l1	ont_été_réalisés	N
+
+#Le contenu de la cuve enterrée, l'eau et les sédiments du bassin souterrain ont été prélevés.
+
+8l0l0	Le_contenu	O
+8l0l1	la_cuve_enterrée	O
+8l0l2	ont_été_prélevés	N
+
+#Les paramètres recherchés ont été :
+
+
+#- métaux lourds,
+
+10l1l0	métaux_lourds	S
+
+#- Hydrocarbures totaux
+
+11l1l0	Hydrocarbures_totaux	S
+
+#- Hydrocarbures aromatiques polycycliques (HAP)
+
+12l1l0	Hydrocarbures_aromatiques_polycycliques	S
+12l1l1	HAP	S
+
+#- Composés organo-halogénés
+
+13l1l0	Composés_organo___halogénés	S
+
+#Les investigations réalisées mettent en évidence :
+
+14l0l0	Les_investigations_réalisées	N
+
+#- La présence de métaux et de HAP en plusieurs points dans les sols :
+
+15l1l0	métaux	S
+15l1l1	HAP	S
+
+#- Atelier de foulage (S12) : 29 mg/kg de mercure, 150 mg/kg de cuivre, 65 mg/kg d'arsenic.
+
+16l0l0	foulage	O
+16l0l1	d__arsenic	O
+16l1l0	mercure	S
+16l1l1	cuivre	S
+16l1l2	arsenic	S
+
+#- Atelier de soufflage-batissage : 80 mg/kg de chrome,
+
+17l0l0	soufflage___batissage	A
+17l1l0	chrome	S
+
+#- Magasin de poils, quai de déchargement : 49 mg/kg d'arsenic, 320 mg/kg de plomb, 370 mg/kg de mercure, 39 mg/kg de HAP (somme de 10 HAP), 4,5 mg/kg de benzo(a)pyrène.
+
+18l0l0	déchargement	A
+18l0l1	d__arsenic	O
+18l1l0	arsenic	S
+18l1l1	plomb	S
+18l1l2	mercure	S
+18l1l3	HAP	S
+18l1l4	10_HAP	S
+18l1l5	benzo_a_pyrène	S
+
+#- La présence d'un résidu riche en métaux, hydrocarbures, solvants dans la cuve enterrée
+
+19l0l0	cuve_enterrée	L
+19l1l0	métaux	S
+19l1l1	hydrocarbures	S
+19l1l2	cuve_enterrée	D
+
+#- Une forte pollution métallique et organique des sédiments du bassin souterrain ; l'eau de ce bassin n'était pas sensiblement polluée.
+
+
+#- La présence de transformateurs électriques et de divers déchets (ordures ménagères..)
+
+
+#Un arrêté préfectoral du 10 mars 2004 impose au responsable du site une surveillance des eaux souterraines (2 fois par an sur mercure, cuivre, arsenic, chrome, plomb, HAP, benzo(a)pyrène, hydrocarbures PCB et PCT) ainsi que les dispositions requises lors de l'arrêt de l'exploitation d'une installation classée, c'est à dire la réalisation d'un diagnostic initial des sols et d'une évaluation simplifiée des risques (ESR) dans un délai d'un an.
+
+22l0l0	Un_arrêté_préfectoral	O
+22l0l1	10_mars_2004	T
+22l0l2	impose	N
+22l0l3	au_responsable_du_site	O
+22l0l4	une_surveillance_des_eaux_souterraines	A
+22l0l5	fois	O
+22l0l6	par_an	A
+22l0l7	lors_de	R
+22l0l8	l__arrêt_de_l__exploitation_d_	N
+22l0l9	une_installation_classée	O
+22l0l10	la_réalisation_d__un_diagnostic_initial_des_sols	N
+22l0l11	une_évaluation_simplifiée_des_risques	N
+22l0l12	dans_un_délai_d__un_an__	T
+22l1l0	mercure	S
+22l1l1	cuivre	S
+22l1l2	arsenic	S
+22l1l3	chrome	S
+22l1l4	plomb	S
+22l1l5	HAP	S
+22l1l6	benzo_a_pyrène	S
+22l1l7	hydrocarbures_PCB	S
+22l1l8	PCT	S
+
+#Cette évaluation a été réalisée par le bureau d'étude SOCOTEC.
+
+23l0l0	Cette_évaluation_a_été_réalisée	N
+23l0l1	le_bureau_d__étude_SOCOTEC	O
+23l1l0	SOCOTEC	I
+
+#Les investigations de terrain réalisées dans le cadre du diagnostic initial de la qualité des sols se sont déroulées les 06 et 09 avril 2001.
+
+24l0l0	Les_investigations_de_terrain_réalisées	N
+24l0l1	dans_le_cadre_du	R
+24l0l2	diagnostic_initial	N
+24l0l3	la_qualité_des_sols	O
+24l0l4	se_sont_déroulées	N
+24l0l5	les_06_et_09_avril_2001	T
+
+#Les travaux d'installation du réseau piézométrique ont été réalisés les 13 et 14 septembre 2004.
+
+25l0l0	Les_travaux_d__installation	N
+25l0l1	du_réseau_piézométrique	O
+25l0l2	ont_été_réalisés	N
+25l0l3	les_13_et_14_septembre_2004__	T
+
+#La surveillance des eaux souterraines est effectuée depuis fin 2004.
+
+26l0l0	La_surveillance_des_eaux_souterraines	A
+26l0l1	est_effectuée	N
+26l0l2	depuis_fin_2004__	T
+
+#L'étude à mis en évidence 5 sources potentielles de pollution au niveau du sol et des eaux souterraines qui sont le chrome, le cuivre, le mercure, le plomb et les hydrocarbures aromatiques polycycliques (HAP).
+
+27l0l0	5_sources_potentielles_de_pollution	O
+27l1l0	chrome	S
+27l1l1	le_cuivre	S
+27l1l2	mercure	S
+27l1l3	plomb	S
+27l1l4	hydrocarbures_aromatiques_polycycliques	S
+27l1l5	HAP	S
+
+#Concernant la pollution par le mercure, le site fait l'objet d'un classement 1 pour un usage résidentiel, lié au risque de contact direct entre les futurs usagers et les sols pollués.
+
+28l0l0	le_site	O
+28l0l1	un_usage_résidentiel	A
+28l0l2	les_sols_pollués	O
+28l1l0	mercure	S
+
+#Ceci signifie que le site nécessite des investigations complémentaires.
+
+
+#Pour les autres polluants, le site a obtenu une note finale de 2, ce qui signifie "site à surveiller".
+
+30l1l0	polluants	S
+
+#Comme il est préconisé dans l'ESR, des travaux de dépollution doivent être réalisés sur le site :
+
+31l0l0	des_travaux_de_dépollution	N
+31l0l1	doivent	R
+31l0l2	être_réalisés	N
+31l1l0	l__ESR	I
+
+#- l'évacuation des ordures ménagères présentes sur le site,
+
+32l0l0	l__évacuation	N
+
+#- un curage de la cuve enterrée,
+
+33l0l0	un_curage	N
+33l0l1	la	O
+33l0l2	cuve_enterrée	N
+33l1l0	cuve_enterrée	D
+
+#- un curage du bassin d'eaux souterraines doit être réalisé.
+
+34l0l0	un_curage	N
+34l0l1	du_bassin_d__eaux_souterraines	O
+34l0l2	doit_être_réalisé	N
+
+#L'ESR conclue que des investigations complémentaires doivent être réalisées, notamment compte tenu de la présence de mercure dans les sols.
+
+35l1l0	L__ESR	I
+35l1l1	mercure	S
+
+#Par conséquent, l'inspection des installations classées a proposé à Monsieur le Préfet de la Loire, d'imposer par Arrêté Préfectoral à la société Crédit Agricole Loire/Hte-Loire, propriétaire des tènements :
+
+36l0l0	l__inspection_des_installations_classées	O
+36l0l1	Monsieur_le_Préfet_de_la_Loire	O
+36l0l2	d__imposer	N
+36l0l3	Arrêté_Préfectoral	O
+36l0l4	la_société_Crédit_Agricole_Loire	O
+36l0l5	__Hte___Loire	L
+36l0l6	tènements	O
+36l1l0	le_Préfet	I
+36l1l1	de_la_Loire	I
+36l1l2	la_société_Crédit_Agricole_Loire___Hte___Loire	I
+
+#- de réaliser les travaux de dépollution,
+
+37l0l0	de_réaliser_les_travaux_de_dépollution	N
+
+#- la réalisation d'un diagnostic approfondi et une étude détaillée des risques (EDR)en prenant notamment en compte la zone de la centrale électrique,
+
+38l0l0	la_réalisation_d__un_diagnostic_approfondi	N
+38l0l1	une_étude_détaillée_des_risques	N
+38l0l2	la_centrale_électrique	O
+
+#- de renforcer les prescriptions de surveillance des eaux souterraines prévues dans l'Arrêté Préfectoral du 10 mars 2004.
+
+39l0l0	renforcer	N
+39l0l1	les_prescriptions_de_surveillance_des_eaux_souterraines	A
+39l0l2	10_mars_2004__	T
+
+#L'arrêté préfectoral a été pris le 07/09/2005.
+
+40l0l0	L__arrêté_préfectoral	O
+40l0l1	a_été_pris	N
+40l0l2	le_07_09_2005__	T
+
+#Une inspection du site réalisée le 26/03/2007 a permis de constater :
+
+41l0l0	Une_inspection_du_site_réalisée	N
+41l0l1	le_26_03_2007	T
+
+#- la réalisation de travaux de dépollution,
+
+42l0l0	la_réalisation_de_travaux_de_dépollution	N
+
+#- le curage partiel du bassin d'eau, en attente de la démolition des bâtiments,
+
+43l0l0	le_curage_partiel	N
+43l0l1	du_bassin_d__eau	O
+43l0l2	en_attente	R
+43l0l3	de_la_démolition_des_bâtiments	N
+
+#- la surveillance des eaux souterraines, montrant une pollution peu importante,
+
+44l0l0	la_surveillance_des_eaux_souterraines	A
+
+#- la réalisation du diagnostic approfondi et de l'EDR.
+
+45l0l0	la_réalisation_du_diagnostic_approfondi	N
+45l0l1	l_	N
+
+#A la suite de l'examen du Diagnostic approfondi du 26/06/2006, de l'évaluation détaillée des risques pour la santé humaine du 19/09/2006 et du plan de gestion présenté dans le rapport du bureau d'études en date du 29 juin 2010, des servitudes conventionnelles au profit de l'Etat ont été prises le 18 mars 2011 à la demande de l'inspection pour permettre la réhabilitation du site pour un usage d'établissement d'hébergement pour personnes âgées dépendantes (EHPAD) et permettre la conservation des ouvrages de surveillance des eaux souterraines.
+
+46l0l0	A_la_suite_de	R
+46l0l1	l__examen	N
+46l0l2	du_Diagnostic_approfondi	N
+46l0l3	26_06_2006	T
+46l0l4	l__évaluation_détaillée_des_risques	N
+46l0l5	19_09_2006	T
+46l0l6	du_plan_de_gestion	N
+46l0l7	bureau_d__études	O
+46l0l8	en_date_du_29_juin_2010__	T
+46l0l9	des_servitudes_conventionnelles	O
+46l0l10	au_profit_de	R
+46l0l11	l__Etat	O
+46l0l12	ont_été_prises	N
+46l0l13	le_18_mars_2011	T
+46l0l14	à_la_demande_de	R
+46l0l15	l__inspection	O
+46l0l16	la_réhabilitation_du_site	N
+46l0l17	un_usage_d__établissement_d__hébergement	A
+46l0l18	pour	R
+46l0l19	personnes_âgées_dépendantes	N
+46l0l20	__EHPAD	L
+46l0l21	permettre	R
+46l0l22	la_conservation_des_ouvrages_de_surveillance_des_eaux_souterraines	A
+
+#Il apparaît que le projet d'EHPAD nécessite des mesures de gestion simples limitant l'usage des terrains pour réduire les risques sanitaires liés à l'utilisation des anciennes parcelles exploitées par la chapellerie Moretton sur la commune de Chazelles-sur-Lyon.
+
+47l0l0	gestion_simples	O
+47l0l1	des_anciennes_parcelles	O
+47l0l2	exploitées	N
+47l0l3	la_chapellerie_Moretton	O
+47l0l4	sur_la_commune_de_Chazelles_sur_Lyon	L
+
+#Ces mesures de gestion simples ont pris la forme de restrictions d'usage conventionnelles au profit de l'État signées, le 18 mars 2011, entre l'État et le Crédit Agricole Loire / Haute Loire.
+
+48l0l0	Ces_mesures_de_gestion_simples	O
+48l0l1	ont_pris_la_forme_de	R
+48l0l2	restrictions_d__usage	O
+48l0l3	conventionnelles	N
+48l0l4	au_profit_de	R
+48l0l5	l__État	O
+48l0l6	le_18_mars_2011__	T
+48l0l7	entre	R
+48l0l8	l__État	O
+48l0l9	le_Crédit_Agricole_Loire	O
+48l0l10	__Haute_Loire	L
+48l1l0	le_Crédit_Agricole_Loire	I
+
+#L'État a l’obligation de porter à la connaissance des communes ou de leurs groupements les informations nécessaires à l'exercice de leurs compétences en matière d'urbanisme, et tout particulièrement les risques dont il a connaissance et qui doivent être pris en compte dans les décisions d’urbanisme.
+
+49l0l0	L__État	O
+49l0l1	la_connaissance	O
+49l0l2	communes	O
+49l0l3	leurs_groupements	O
+49l0l4	exercice_de_leurs_compétences	A
+49l0l5	matière_d__urbanisme	O
+49l0l6	les_risques	O
+
+#En conséquence, l'inspection, dans son rapport du 25 janvier 2013, propose à Madame la préfète de la Loire de porter à connaissance du maire de Chazelles-sur-Lyon les éléments à prendre en compte dans les règlements régissant l'occupation foncière des anciens tènements de la chapellerie Moretton sur la base de la convention de restrictions du 18 mars 2011.
+
+50l0l0	25_janvier_2013__	T
+50l0l1	Madame_la_préfète_de_la_Loire	O
+50l0l2	connaissance_du_maire	O
+50l0l3	de_Chazelles_sur_Lyon	L
+50l0l4	chapellerie_Moretton	O
+50l0l5	sur_la_base_de	R
+50l0l6	la_convention_de_restrictions	O
+50l0l7	18_mars_2011__	T
+50l1l0	la_préfète	I
+50l1l1	de_la_Loire	I
+
+#Par courrier du 12 février 2013, la DDPP a porté à connaissance du maire de Chazelles/Lyon les éléments à prendre en compte dans le règlement d'urbanisme.
+
+51l0l0	12_février_2013__	T
+51l0l1	la_DDPP	O
+51l0l2	a_porté_à_connaissance	N
+51l0l3	du_maire	O
+51l0l4	de_Chazelles___Lyon	L
+51l1l0	la_DDPP	I
+
+#Conformément à l’arrêté préfectoral du 7 septembre 2005, le Crédit Agricole Loire / Haute Loire, propriétaire du site, a réalisé la surveillance de la qualité des eaux souterraines présentes au droit du site.
+
+52l0l0	7_septembre_2005__	T
+52l0l1	le_Crédit_Agricole_Loire	O
+52l0l2	__Haute_Loire	L
+52l0l3	a_réalisé	N
+52l0l4	la_surveillance	N
+52l0l5	la_qualité_des_eaux_souterraines	O
+52l0l6	au_droit_du_site	L
+52l1l0	le_Crédit_Agricole_Loire	I
+
+#L’inspection a procédé à l’examen des rapports de surveillance de la qualité des eaux souterraines réalisés en septembre 2014 et avril 2015 par le bureau d’études Socotec.
+
+53l0l0	à	R
+53l0l1	l__examen	N
+53l0l2	des_rapports_de_surveillance_de_la_qualité_des_eaux_souterraines	O
+53l0l3	réalisés	N
+53l0l4	en_septembre_2014_et_avril_2015	T
+53l0l5	le_bureau_d__études_Socotec	O
+53l1l0	Socotec	I
+
+#Le Crédit Agricole Loire / Haute Loire a également demandé, par courrier du 29 juin 2015, à Monsieur le Préfet de la Loire de modifier l’arrêté préfectoral du 7 septembre 2005 en remplaçant la dénomination « exploitant » par « propriétaire ».
+
+54l0l0	Le_Crédit_Agricole_Loire	O
+54l0l1	par_courrier	N
+54l0l2	du_29_juin_2015__	T
+54l0l3	Monsieur_le_Préfet_de_la_Loire	O
+54l0l4	modifier	N
+54l0l5	l__arrêté_préfectoral	O
+54l0l6	7_septembre_2005	T
+54l0l7	la_dénomination	O
+54l0l8	__exploitant	O
+54l1l0	Le_Crédit_Agricole_Loire	I
+54l1l1	le_Préfet	I
+
+#Suite à l'examen de ces documents, l'inspection conclut, dans son rapport du 20 juillet 2015, que la surveillance des eaux souterraines imposée au Crédit Agricole Loire Haute-Loire, par l'arrêté préfectoral complémentaire du 7 septembre 2015, peut être suspendue (arrêt définitif) conformément à l'article 10 de ce même arrêté préfectoral.
+
+55l0l0	20_juillet_2015__	T
+55l0l1	la_surveillance_des_eaux_souterraines	A
+55l0l2	imposée	N
+55l0l3	Crédit_Agricole_Loire_Haute_Loire	O
+55l0l4	l_	O
+55l0l5	7_septembre_2015__	T
+55l1l0	Crédit_Agricole_Loire_Haute_Loire	I
+
+#En conséquence l'inspection a informé par courrier le Crédit Agricole Loire Haute-Loire sur la possibilité d'arrêter définitivement la surveillance des eaux souterraines.
+
+56l0l0	a_informé_par_courrier	N
+56l0l1	le_Crédit_Agricole_Loire_Haute_Loire	O
+56l0l2	surveillance_des_eaux_souterraines	A
+56l1l0	le_Crédit_Agricole_Loire_Haute_Loire	I
+
+#Le Crédit Agricole Loire Haute-Loire doit neutraliser selon les règles de l'art les ouvrages de contrôle des eaux souterraines dont la présence n’est plus nécessaire conformément au point VII de la convention de restriction d’usage du site signée le 18 mars 2011.
+
+57l0l0	Le_Crédit_Agricole_Loire_Haute_Loire	O
+57l0l1	doit_neutraliser_selon	R
+57l0l2	les_règles_de_l_	O
+57l0l3	les_ouvrages_de	O
+57l0l4	contrôle_des_eaux_souterraines	A
+57l0l5	la_convention_de_restriction_d__usage	O
+57l0l6	le_18_mars_2011__	T
+57l1l0	Le_Crédit_Agricole_Loire_Haute_Loire	I
+
+#Au vu de cette conclusion, la modification de l’arrêté préfectoral du 7 septembre 2005 demandée par le Crédit Agricole Loire Haute-Loire n'apparait pas nécessaire pour l'inspection.
+
+58l0l0	la_modification	N
+58l0l1	l__arrêté_préfectoral	O
+58l0l2	7_septembre_2005	T
+58l0l3	le_Crédit_Agricole_Loire_Haute_Loire	O
+58l0l4	n_	R
+58l1l0	le_Crédit_Agricole_Loire_Haute_Loire	I

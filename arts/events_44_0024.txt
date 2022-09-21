@@ -1,0 +1,402 @@
+
+#44.0024
+#Avant 1968, ce terrain était à usage agricole.
+
+0l0l0	Avant_1968	T
+0l0l1	ce_terrain	O
+0l0l2	était_à_usage_agricole	A
+
+#A partir de 1968 et jusqu’au 15 mai 2005, une activité de fonderie d’alliages légers et cuivreux a été exercée sur le site, successivement par la société Ribrac Gendron et Josse(RGJ) et à partir de 2000 par la société Facouest.
+
+1l0l0	A_partir_de_1968_et_jusqu__au_15_mai_2005__	T
+1l0l1	une_activité_de_fonderie	A
+1l0l2	d__alliages_légers_et_cuivreux	A
+1l0l3	a_été_exercée	N
+1l0l4	sur_le_site	L
+1l0l5	la_société	O
+1l0l6	Ribrac_Gendron	L
+1l0l7	à_partir	T
+1l0l8	de_2000	T
+1l0l9	la_société_Facouest	O
+1l1l0	la_société_Ribrac	I
+1l1l1	Josse_RGJ	I
+1l1l2	la_société_Facouest	I
+
+#Cette société a dû cesser totalement son activité sur ce site après sa mise en liquidation judiciaire au 1er mars 2006, sur décision du tribunal de commerce de Nantes.
+
+2l0l0	Cette_société	O
+2l0l1	a_dû_cesser_totalement_son_activité	N
+2l0l2	ce_site	O
+2l0l3	après	R
+2l0l4	sa_mise_en_liquidation_judiciaire	N
+2l0l5	au_1er_mars_2006__	T
+2l0l6	décision_du_tribunal_de_commerce	O
+2l1l0	commerce_de_Nantes	I
+
+#Aux termes de l’acte de vente signé du 22 décembre 2006, la SAS Financière de l’Atlantis devient propriétaire du site Facouest et s’engage à supporter tous les travaux de dépollution nécessaires sur ce site.
+
+3l0l0	l__acte_de_vente_signé	N
+3l0l1	du_22_décembre_2006__	T
+3l0l2	la_SAS_Financière_de	O
+3l0l3	l__Atlantis	N
+3l0l4	devient	R
+3l0l5	propriétaire_du_site	N
+3l0l6	Facouest	O
+3l0l7	supporter_tous	O
+3l0l8	les_travaux_de_dépollution_nécessaires	N
+3l0l9	sur_ce_site	L
+3l1l0	la_SAS_Financière_de_l__Atlantis	I
+
+#Risque de pollution des eaux par des phénols contenus dans les sables ; diagnostic de site réalisé en novembre 1998 suite à l'AP de mise en demeure du 13/1/1998.
+
+4l0l0	Risque_de_pollution_des_eaux	O
+4l0l1	__diagnostic_de_site_réalisé	N
+4l0l2	en_novembre_1998	T
+4l0l3	suite_à	R
+4l0l4	l_	O
+4l0l5	AP_de_mise_en_demeure	N
+4l0l6	du_13_1_1998	T
+4l1l0	phénols_contenus	S
+
+#Garanties financières fixées par arrêté préfectoral du 16 février 1998 pour assurer le suivi du site au plan environnemental.
+
+5l0l0	Garanties_financières_fixées_par_arrêté_préfectoral	O
+5l0l1	16_février_1998	T
+
+#Piézomètres de surveillance des eaux mis en place.
+
+6l0l0	surveillance_des_eaux	A
+6l0l1	mis_en_place	N
+
+#Surveillance se poursuit.
+
+7l0l0	Surveillance	A
+
+#L’arrêté préfectoral du 14 juin 2005 autorisait la société Facouest à exploiter notamment deux transformateurs au pyralène de volume respectif de 520 litres et 565 litres d’huiles constituées de PCB (polychlorobiphényles).
+
+8l0l0	L__arrêté_préfectoral	O
+8l0l1	14_juin_2005	T
+8l0l2	autorisait	N
+8l0l3	la_société_Facouest	O
+8l0l4	exploiter	N
+8l0l5	notamment_deux_transformateurs_au_pyralène	O
+8l1l0	la_société_Facouest	I
+8l1l1	pyralène	S
+8l1l2	PCB	S
+8l1l3	polychlorobiphényles	S
+
+#Il ressort des éléments recueillis dans une enquête de police que des déchets dangereux ont été abandonnés sur le site Facouest, dans les conditions contraires à une bonne protection de l’environnement, pour au moins un transformateur.
+
+9l0l0	une_enquête_de_police	N
+9l0l1	des_déchets_dangereux	O
+9l0l2	ont_été_abandonnés	N
+9l0l3	sur_le_site_Facouest	L
+9l0l4	un_transformateur	O
+9l1l0	des_déchets_dangereux	U
+
+#Pour l’autre transformateur, l’inspection des installations classées n’a pas connaissance de son élimination en bonne et due forme
+
+10l0l0	autre_transformateur	O
+10l0l1	a_pas_connaissance	N
+10l0l2	son	O
+10l0l3	élimination_en_bonne_et_due_forme	N
+
+#Nantes Métropole, par courrier du 2 mars 2007, confirme que ces déchets dangereux sont à l’origine d’une pollution des boues de la station d’épuration communale de Tougas aux PCB.
+
+11l0l0	Nantes_Métropole	O
+11l0l1	2_mars_2007__	T
+11l0l2	confirme	R
+11l0l3	ces_déchets_dangereux	O
+11l0l4	sont_à_l__origine	N
+11l0l5	d_	R
+11l0l6	une_pollution	N
+11l0l7	la_station_d__épuration_communale	O
+11l0l8	de_Tougas	L
+11l1l0	Nantes_Métropole	I
+11l1l1	ces_déchets_dangereux	U
+11l1l2	PCB	S
+
+#Environ 3 500 tonnes de boues sont contaminées par des PCB sur des lots prélevés du 20 décembre 2006 au 17 janvier 2007.
+
+12l0l0	500_tonnes_de_boues	O
+12l0l1	des_PCB	O
+12l0l2	des_lots_prélevés	N
+12l0l3	du_20_décembre_2006_au_17_janvier_2007__	T
+12l1l0	boues	U
+12l1l1	PCB	S
+
+#Ce constat provient de résultats d’analyses sur les boues et d’investigations réalisées sur le réseau d’eaux usées communal, démontrant notamment la présence de PCB dans le réseau d’eaux usées interne du site Facouest de même nature que ceux identifiés dans les boues.
+
+13l0l0	investigations	N
+13l0l1	réalisées_sur	R
+13l0l2	le_réseau_d__eaux_usées_communal	O
+13l0l3	Facouest	O
+13l1l0	PCB	S
+
+#Sur demande de l’inspection des installations classées, la SAS Financière de l’Atlantis s’est engagée à faire procéder à un diagnostic de pollution sur le site Facouest selon le courrier du 12 février 2007.
+
+14l0l0	Sur_demande_de	R
+14l0l1	l__inspection_des_installations_classées	O
+14l0l2	la_SAS_Financière_de	O
+14l0l3	l__Atlantis	O
+14l0l4	s__est_engagée_à_faire_procéder_à_un_diagnostic_de_pollution	N
+14l0l5	sur_le_site_Facouest	L
+14l0l6	le_courrier	O
+14l0l7	du_12___février_2007__	T
+14l1l0	la_SAS_Financière_de_l__Atlantis	I
+
+#Ce diagnostic a été remis le 10 décembre 2007 et confirme une pollution du sol du site Facouest au PCB et la présence de PCB dans le réseau interne d’eaux usées du site, liées vraisemblablement au démantèlement sauvage d’un transformateur contenant des PCB et à leur versement dans le réseau.
+
+15l0l0	Ce_diagnostic	N
+15l0l1	a_été_remis	N
+15l0l2	le_10_décembre_2007	T
+15l0l3	une_pollution	N
+15l0l4	site	O
+15l0l5	Facouest	L
+15l0l6	la_présence	O
+15l0l7	vraisemblablement_au	R
+15l0l8	démantèlement_sauvage_d__un_transformateur	N
+15l1l0	PCB	S
+15l1l1	PCB	S
+15l1l2	PCB	S
+
+#Selon ce diagnostic, le risque de transfert de PCB vers le réseau d’eaux usées communal est maîtrisé par l’obturation de la conduite effectuée le 6 février 2007 par la direction de l’assainissement de Nantes Métropole, une zone source résiduelle principale de PCB est identifiée dans une fosse maçonnée ayant accueilli antérieurement le transformateur en question.
+
+16l0l0	diagnostic	N
+16l0l1	l_	N
+16l0l2	obturation_de_la_conduite	L
+16l0l3	effectuée	N
+16l0l4	le_6_février_2007	T
+16l0l5	la_direction_de_l__assainissement	O
+16l0l6	Nantes_Métropole	O
+16l0l7	une_zone_source	O
+16l0l8	une_fosse_maçonnée	O
+16l0l9	ayant_accueilli_antérieurement	N
+16l0l10	le_transformateur_en_question	O
+16l1l0	PCB	S
+16l1l1	Nantes_Métropole	I
+16l1l2	PCB	S
+
+#Le mémoire de remise en état du site a été remis à l’inspection des installations classées le 19 mars 2009, par la SAS Financière de l’Atlantis.
+
+17l0l0	Le_mémoire_de_remise_en_état_du_site	O
+17l0l1	a_été_remis	N
+17l0l2	l__inspection_des_installations_classées	O
+17l0l3	le_19___mars_2009	T
+17l0l4	par_la_SAS_Financière_de_l__Atlantis	L
+17l1l0	par_la_SAS_Financière_de_l__Atlantis	I
+
+#En novembre 1998, une étude documentaire montre de faibles teneurs en phénols et en métaux dans les dépôts de sables du centre de stockage et préconise la pose de 2 piézomètres dans la partie sud de la parcelle DW 133.
+
+18l0l0	En_novembre_1998__	T
+18l0l1	une_étude_documentaire	N
+18l0l2	centre_de_stockage	O
+18l0l3	préconise_la_pose_de	N
+18l0l4	2_piézomètres	O
+18l0l5	dans_la_partie_sud_de_la_parcelle_DW	L
+18l1l0	phénols	S
+18l1l1	métaux	S
+
+#En décembre 1999, une étude simplifiée des risques conclue à un classement “ à banaliser ” du site.
+
+19l0l0	En_décembre_1999__	T
+19l0l1	une_étude_simplifiée_des_risques	N
+19l0l2	un	N
+19l0l3	classement	O
+19l0l4	à_banaliser	N
+
+#Sans circulation d’eau souterraine au droit du site, le suivi piézométrique a été abandonné.
+
+20l0l0	au_droit_du_site	L
+20l0l1	le_suivi_piézométrique	O
+20l0l2	a_été_abandonné	N
+
+#Ce centre étant également recouvert d’une épaisseur de terres végétales, il n’existe pas de risque de transfert au vu de l’usage actuel, et dans ces conditions, ce terrain ne nécessite pas de travaux de dépollution.
+
+21l0l0	Ce_centre	O
+21l0l1	ce_terrain	O
+21l0l2	ne_nécessite	R
+21l0l3	pas_de_travaux_de_dépollution	N
+
+#Aucun projet de construction n’est prévu sur ce terrain.
+
+22l0l0	Aucun_projet	O
+22l0l1	ce_terrain	O
+
+#Un diagnostic a été réalisé par l’APAVE le 21 décembre 2006 pour les bâtiments, signalant des matériaux contenant de l’amiante (colle des dalles de sol du bâtiment administratif et du local TGBT, le bardage, les conduits et la toiture en amiante ciment de l’atelier ainsi que la toiture d’un bâtiment) et indique que l’état de conservation de ces matériaux est bon.
+
+23l0l0	Un_diagnostic	N
+23l0l1	a_été_réalisé	N
+23l0l2	l__APAVE	O
+23l0l3	le_21_décembre_2006	T
+23l0l4	les_bâtiments	O
+23l0l5	l__amiante	O
+23l0l6	local_TGBT	O
+23l0l7	__le_bardage	O
+23l0l8	que_la_toiture	O
+23l0l9	de_ces_matériaux	O
+23l1l0	APAVE	I
+23l1l1	amiante	S
+23l1l2	local_TGBT	I
+
+#Lors des travaux de démolition et de dépollution du site, les déchets dangereux suivants ont été éliminés :
+
+24l0l0	Lors	R
+24l0l1	des_travaux_de_démolition	N
+24l0l2	de_dépollution	N
+24l0l3	site	N
+24l0l4	ont_été_éliminés	N
+24l1l0	les_déchets_dangereux	U
+
+#• matériaux de démolition contenant de l’amiante (fibro-ciment) (42 t),
+
+25l0l0	__matériaux_de_démolition	N
+25l0l1	l__amiante	O
+25l1l0	l__amiante	U
+25l1l1	fibro	S
+
+#• eau contaminée au PCB (5 t),
+
+26l1l0	PCB	S
+
+#• terre souillée au PCB (90 t).
+
+27l1l0	PCB	S
+
+#Suite aux pollutions constatées sur le site Facouest, un plan de gestion de la zone contaminée au PCB a été établi par le bureau d’études.
+
+28l0l0	Suite_aux	R
+28l0l1	pollutions	N
+28l0l2	le_site_Facouest	O
+28l0l3	un_plan_de_gestion	N
+28l0l4	la_zone_contaminée	O
+28l0l5	a_été_établi	N
+28l0l6	par_le_bureau_d__études	O
+28l1l0	PCB	S
+
+#La zone contaminée en PCB au niveau de l'ancien transformateur, à l'intérieur des bâtiments, un nettoyage du réseau d'eaux usées (hydrocurage) et une excavation des terres polluées au niveau de la fosse remblayée (sondages S2, S7 et S8) ont été réalisés, respectivement en décembre 2007 et mars 2008.
+
+29l0l0	La_zone_contaminée	O
+29l0l1	à_l__intérieur_des_bâtiments	L
+29l0l2	un_nettoyage	N
+29l0l3	eaux_usées	O
+29l0l4	hydrocurage	N
+29l0l5	une_excavation_des_terres_polluées	O
+29l0l6	au_niveau_de	R
+29l0l7	la_fosse_remblayée	O
+29l0l8	ont_été_réalisés	N
+29l0l9	en_décembre_2007_et_mars_2008__	T
+29l1l0	PCB	S
+
+#Ainsi, la principale source de pollution en PCB a été partiellement enlevée du site.
+
+30l0l0	la_principale_source_de_pollution	O
+30l0l1	a_été_partiellement_enlevée	N
+30l0l2	site	L
+30l1l0	PCB	S
+
+#Suite à la dépollution des zones contaminées, une analyse des risques résiduels a été menée en avril 2008 et concluait que la source principale de pollution par les PCB a été éliminée du site et que la source secondaire n'a pas d'incidence.
+
+31l0l0	Suite	R
+31l0l1	à_la_dépollution	N
+31l0l2	zones_contaminées	O
+31l0l3	une_analyse_des_risques_résiduels	N
+31l0l4	a_été_menée	N
+31l0l5	en_avril_2008	T
+31l0l6	la_source_principale_de_pollution	O
+31l0l7	a_été_éliminée	N
+31l0l8	du_site	L
+31l0l9	la_source_secondaire	O
+31l1l0	les_PCB	S
+
+#On peut donc conclure à l'absence de risque pour les cibles envisagées.
+
+
+#Une visite de récolement des travaux a eu lieu le 12 mars 2009 et a permis de constater la rénovation complète des bâtiments et des extérieurs.
+
+33l0l0	Une_visite_de_récolement	N
+33l0l1	des_travaux_a_eu_lieu	N
+33l0l2	le_12_mars_2009	T
+33l0l3	la_rénovation_complète_des_bâtiments	N
+33l0l4	des_extérieurs	O
+
+#Les bâtiments sont divisés en 2 parties : location de bureaux et location d’entrepôt de stockage.
+
+34l0l0	Les_bâtiments	O
+34l0l1	2_parties	O
+34l0l2	__location_de_bureaux	N
+
+#Le site ne fait apparaître de manière visuelle aucune trace de pollution.
+
+35l0l0	Le_site	O
+
+#La SAS Financière de l’Atlantis a procédé à la réhabilitation complète du site exploité antérieurement par la société Facouest.
+
+36l0l0	La_SAS_Financière_de_l_	O
+36l0l1	Atlantis	L
+36l0l2	a_procédé_à	R
+36l0l3	la_réhabilitation_complète	N
+36l0l4	site	O
+36l0l5	exploité_antérieurement	N
+36l0l6	la_société_Facouest	O
+36l1l0	La_SAS_Financière_de_l__Atlantis	I
+36l1l1	la_société_Facouest	I
+
+#Le site, à usage antérieur industriel, est considéré maintenant à usage tertiaire avec une zone de stockage.
+
+37l0l0	Le_site	O
+37l0l1	usage_antérieur_industriel	O
+37l0l2	est	O
+37l0l3	considéré_maintenant_à	R
+37l0l4	usage_tertiaire	O
+37l0l5	une_zone	O
+
+#Plusieurs entreprises de stockage non ICPE se partagent les bâtiments.
+
+38l0l0	Plusieurs_entreprises_de_stockage_non_ICPE	O
+38l0l1	se_partagent	N
+38l0l2	les_bâtiments	O
+38l1l0	stockage	D
+
+#L’analyse des risques résiduels concernant la présence de PCB, a conclu :
+
+39l1l0	PCB	S
+
+#• d’une part, aucune mesure particulière de dépollution complémentaire des sols n’est nécessaire,
+
+40l0l0	dépollution	N
+
+#• d’autre part, au vu de l’usage actuel et l’absence de voies de transfert, aucun risque particulier n'est à énoncer pour la santé des travailleurs et pour l’environnement.
+
+
+#L’inspection des installations classées propose de demander à la SAS Financière de l’Atlantis d’intégrer dans le (ou les) acte(s) notarié(s) du site, les conclusions du rapport du bureau d’études concernant notamment la présence d’un ancien centre de stockage de sables de fonderie (sud de la parcelle DW 133) et la présence de matériaux contenant de l’amiante.
+
+42l0l0	L__inspection_des_installations_classées	O
+42l0l1	la_SAS_Financière_de	O
+42l0l2	l__Atlantis	O
+42l0l3	les___acte_s___notarié_s	N
+42l0l4	_	R
+42l0l5	bureau_d__études	O
+42l0l6	un_ancien_centre_de_stockage_de_sables	O
+42l0l7	de_fonderie	O
+42l0l8	__sud_de_la_parcelle_DW_133	L
+42l0l9	la_présence_de_matériaux	O
+
+#En cas de travaux dans ces zones, il conviendra de prendre toutes les précautions d’usage pour la protection de l’environnement et de la santé.
+
+43l0l0	En_cas_de	R
+43l0l1	travaux	N
+43l0l2	dans	L
+43l0l3	ces_zones	O
+43l0l4	il_conviendra	O
+
+#Par courrier du 13/12/2010, la Préfecture notifie le PV de récolement à la SAS  Financière de l’Atlantis et abroge tous les AP pris pour le site.
+
+44l0l0	du_13_12_2010	T
+44l0l1	la_Préfecture	O
+44l0l2	notifie_le_PV_de_récolement	N
+44l0l3	la_SAS___Financière_de_l__Atlantis	O
+44l0l4	abroge	N
+44l0l5	pour_le_site	O
+44l1l0	la_Préfecture	I
+44l1l1	la_SAS___Financière_de_l__Atlantis	I

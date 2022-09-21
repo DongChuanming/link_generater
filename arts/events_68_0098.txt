@@ -1,0 +1,259 @@
+
+#68.0098
+#3 anciens dépôts de ferrailles exploités initialement par:
+
+0l0l0	3_anciens_dépôts_de_ferrailles	O
+0l1l0	dépôts	D
+
+#-sté EIDENSCHENCK
+
+1l0l0	_sté_EIDENSCHENCK	O
+1l1l0	_sté_EIDENSCHENCK	I
+
+#-sté HUBER REITER
+
+2l0l0	_sté_HUBER	O
+2l1l0	_sté_HUBER_REITER	I
+
+#-sté SOMETALOR.
+
+3l0l0	SOMETALOR	O
+3l1l0	_sté_SOMETALOR	I
+
+#puis changement d'exploitant des 3 sites au profit de la Sté MARX SPAENLIN SOMETALOR, puis changement d'exploitant à nouveau:
+
+4l0l0	changement_d__exploitant	O
+4l0l1	3_sites	O
+4l0l2	au_profit_de	R
+4l0l3	la_Sté_MARX	O
+4l0l4	SPAENLIN_SOMETALOR	O
+4l0l5	changement	N
+4l0l6	d__exploitant	O
+4l1l0	la_Sté_MARX_SPAENLIN_SOMETALOR	I
+
+#- SIVOM de l'agglomération mulhousienne
+
+5l0l0	agglomération_mulhousienne	L
+5l1l0	__SIVOM	I
+
+#- sté SOLOVER
+
+6l0l0	sté_SOLOVER	O
+6l1l0	sté_SOLOVER	I
+
+#- sté DIMEX et Accès industrie
+
+7l0l0	sté_DIMEX	O
+7l0l1	industrie	T
+7l1l0	sté_DIMEX	I
+
+#Le site est utilisé pour d'autres activités.
+
+8l0l0	Le_site	O
+
+#Site occupé depuis 1970 par les 3 ferrailleurs, et repris par MARX SPAENLIN SOMETALOR en 1993/1994.
+
+9l0l0	Site	O
+9l0l1	occupé	N
+9l0l2	depuis_1970	T
+9l0l3	les_3_ferrailleurs	O
+9l0l4	repris	N
+9l0l5	par_MARX_SPAENLIN_SOMETALOR	O
+9l0l6	en_1993_1994	T
+9l1l0	ferrailleurs	S
+9l1l1	MARX_SPAENLIN_SOMETALOR	I
+
+#Mise en évidence d'une pollution des terrains par des HC et métaux lourds, dans un diagnostic des sols réalisé dans le cadre de la cessation d'activité.
+
+10l0l0	une_pollution_des_terrains	O
+10l0l1	des_HC	O
+10l0l2	métaux_lourds	O
+10l0l3	un_diagnostic	N
+10l0l4	sols_réalisé	N
+10l0l5	dans_le_cadre_de	R
+10l0l6	la_cessation_d__activité	N
+10l1l0	des_HC	S
+10l1l1	métaux_lourds	S
+
+#Pas d'impact sur les eaux souterraines.
+
+
+#Des travaux de dépollution (enlèvement des terres polluées)ont été réalisés en 1995 et 1996.
+
+12l0l0	Des_travaux_de_dépollution	N
+12l0l1	enlèvement_des_terres_polluées_ont	N
+12l0l2	été_réalisés	N
+12l0l3	en_1995_et_1996	T
+
+#Actuellement le site est occupé par 3 industriels:
+
+13l0l0	Actuellement	T
+13l0l1	le_site	O
+13l0l2	est_occupé	N
+13l0l3	3_industriels	O
+
+#- SIVOM de l'agglomération mulhousienne ( centre de tri de dib et encombrants ménagers)
+
+14l0l0	SIVOM	O
+14l0l1	de_l__agglomération_mulhousienne	L
+14l1l0	SIVOM	I
+
+#- sté SOLOVER
+
+15l1l0	sté_SOLOVER	I
+
+#- sté DIMEX et Accès industrie
+
+16l0l0	sté_DIMEX	O
+16l1l0	sté_DIMEX	I
+
+#Historique:
+
+
+#Lors de la cessation d'activité déclarée par le dernier exploitant: la Sté MARX SPAENLIN SOMETALOR, un diagnostic des sols a été réalisé, et le mémoire a été remis en février 1995.
+
+18l0l0	Lors	R
+18l0l1	de_la_cessation_d__activité_déclarée	N
+18l0l2	le	O
+18l0l3	dernier_exploitant	N
+18l0l4	la_Sté_MARX	O
+18l0l5	SPAENLIN_SOMETALOR	O
+18l0l6	un_diagnostic_des_sols	N
+18l0l7	a_été_réalisé	N
+18l0l8	le_mémoire	O
+18l0l9	a_été_remis	N
+18l0l10	en_février_1995	T
+18l1l0	la_Sté_MARX_SPAENLIN_SOMETALOR	I
+
+#Il traduisait d'une certaine contamination des terrains, avec un potentiel de risque faible, et à la non nécessité d'actions correctives, sous réserve de l'instauration d'une surveillance de la qualité des eaux souterraines et de l'usage ultérieur uniquement industriel du site.
+
+19l0l0	une_certaine_contamination	N
+19l0l1	des_terrains	O
+19l0l2	surveillance_de_la_qualité_des_eaux_souterraines	A
+19l0l3	l__usage_ultérieur_uniquement_industriel_du_site	A
+
+#Un arrêté préfectoral ( prescriptions complémentaires) du 02/05/1995, impose:
+
+20l0l0	Un_arrêté_préfectoral	O
+20l0l1	prescriptions_complémentaires	O
+20l0l2	_	N
+20l0l3	du_02_05_1995	T
+20l0l4	impose	N
+
+#- ( art.2):une surveillance de la qualité des eaux souterraines,
+
+21l0l0	surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#- ( art.5):tous les matériaux extraits du site et résultant de travaux de décapage, fondation, etc ..devront préalablement à leur évacuation du site, faire l'objet d'une analyse à effectuer sur un ou plusieurs échantillons représentatifs en vue de déterminer la présence d'hydrocarbures et métaux lourds.
+
+22l0l0	de_travaux_de_décapage	N
+22l0l1	fondation	N
+22l0l2	devront_préalablement_à_leur_évacuation	N
+22l1l0	hydrocarbures	S
+22l1l1	métaux_lourds	S
+
+#Le propriétaire des terrains a confirmé par écrit le 09/03/1995 la vocation industrielle des terrains.
+
+23l0l0	Le_propriétaire_des_terrains	O
+23l0l1	a_confirmé_par_écrit	N
+23l0l2	le_09_03_1995	T
+23l0l3	la_vocation_industrielle_des_terrains	O
+
+#Une surveillance des eaux est imposée à la société Marx Spaenlin Sometalor par un autre arrêté préfectoral complémentaire n°950717 du 2 mai 1997, selon une fréquence semestrielle.
+
+24l0l0	Une_surveillance_des_eaux	A
+24l0l1	est_imposée	N
+24l0l2	la_société_Marx_Spaenlin	O
+24l0l3	un_autre_arrêté_préfectoral	O
+24l0l4	du_2_mai_1997__	T
+24l1l0	la_société_Marx_Spaenlin_Sometalor	I
+
+#Des travaux de dépollution et d'excavation ont été réalisés en 1998.
+
+25l0l0	Des_travaux_de_dépollution	N
+25l0l1	d__excavation	N
+25l0l2	ont_été_réalisés	N
+25l0l3	en_1998	T
+
+#Avant les travaux d'excavation, les dépassements des normes de qualité sur les eaux souterraines concernaient le chrome, plomb, fer, aluminium, nickel.
+
+26l0l0	Avant	T
+26l0l1	les_travaux_d__excavation	N
+26l0l2	les_dépassements	N
+26l0l3	des_normes	O
+26l0l4	les_eaux_souterraines	O
+26l1l0	chrome	S
+26l1l1	plomb	S
+26l1l2	fer	S
+26l1l3	aluminium	S
+26l1l4	nickel	S
+
+#Depuis 1999, l'exploitant poursuit la surveillance des eaux souterraines et il n'y a pas de dépassements observés des normes de référence relative aux eaux souterraines.
+
+27l0l0	Depuis_1999__	T
+27l0l1	l__exploitant	O
+27l0l2	poursuit	R
+27l0l3	la_surveillance_des_eaux_souterraines	A
+27l0l4	a_pas_de_dépassements	N
+
+#Un procès verbal de récolement a été dressé le 06/08/2001.
+
+28l0l0	Un_procès_verbal_de_récolement	O
+28l0l1	a_été_dressé	N
+28l0l2	le_06_08_2001	T
+
+#La Sté MARX SPAENLIN SOMETALOR a rappelé aux divers propriétaires des terrains de l'ancien site des ferrailleurs, par courrier du 24/08/01, les dispositions de l'article 5 ( voir ci-dessus) de son arrêté préfectoral de prescriptions complémentaires du 02/05/1995.
+
+29l0l0	La_Sté_MARX_SPAENLIN_SOMETALOR	O
+29l0l1	a_rappelé_aux	N
+29l0l2	divers_propriétaires_des_terrains	O
+29l0l3	ferrailleurs	O
+29l0l4	24_08_01	T
+29l0l5	prescriptions_complémentaires	O
+29l0l6	du_02_05_1995__	T
+29l1l0	La_Sté_MARX_SPAENLIN_SOMETALOR	I
+
+#Un mémoire de cessation d'activité a été rendu le 31 janvier 2005; ce mémoire conclut que :
+
+30l0l0	cessation_d__activité	N
+30l0l1	a_été_rendu	N
+30l0l2	le_31___janvier_2005	T
+
+#-les terrains présentent une certaine contamination,
+
+31l0l0	_les_terrains	O
+
+#-le potentiel de risque est faible,
+
+
+#-des actions correctives n’étaient pas nécessaires sous réserve d’instaurer une surveillance des eaux souterraines, et que le site reste à un usage industriel.
+
+33l0l0	sous_réserve_d_	R
+33l0l1	instaurer	N
+33l0l2	une_surveillance_des_eaux_souterraines	A
+33l0l3	le_site	O
+33l0l4	un_usage_industriel	A
+
+#La société Marx Spaenlin Sometalor n'exploite plus ce site actuellement.
+
+34l0l0	La_société_Marx_Spaenlin_Sometalor	O
+34l0l1	n__exploite_plus	N
+34l0l2	ce_site	O
+34l1l0	La_société_Marx	I
+34l1l1	Spaenlin_Sometalor	I
+
+#Celui-ci est occupé par les sociétés visées ci-dessus.
+
+
+#La surveillance est toujours effectuée en 2011 sur un piézomètre amont et deux piézomètres à l'aval hydraulique sur différents paramètres (pH, demande chimique en oxygène, carbone organique totaux, hydrocarbures totaux dissous, métaux lourds, HAP, BTEX, PCB, [...], sans détecter d'anomalies.
+
+36l0l0	La_surveillance	O
+36l0l1	est_toujours_effectuée	N
+36l0l2	en_2011	T
+36l1l0	oxygène	S
+36l1l1	carbone_organique_totaux	S
+36l1l2	hydrocarbures_totaux	S
+36l1l3	métaux_lourds	S
+36l1l4	HAP	S
+36l1l5	BTEX	S
+36l1l6	PCB	S

@@ -1,0 +1,268 @@
+
+#57.0211
+#Le site est un supermarché comprenant une station service sur le territoire de la commune de SAINT-AVOLD.
+
+0l0l0	Le_site	O
+0l0l1	un_supermarché	O
+0l0l2	comprenant	R
+0l0l3	une_station_service	O
+0l0l4	sur_le_territoire_de_la_commune_de_SAINT_AVOLD	L
+
+#La station service est soumise à déclaration depuis le 05 novembre 1980.
+
+1l0l0	La_station_service	O
+1l0l1	est_soumise_à_déclaration	N
+1l0l2	depuis_le_05_novembre_1980__	T
+
+#L'exploitant a fait part de sa cessation d'activité le 14 janvier 2009.
+
+2l0l0	L__exploitant	O
+2l0l1	a_fait_part_de_sa_cessation_d__activité	N
+2l0l2	le_14_janvier_2009__	T
+
+#Le diagnostic de sols fait en 2009 suite à la cessation d'activité a mis en évidence la présence de contaminations des sols en hydrocarbures, HAP, BTEX et métaux principalement à proximité de l'ancienne cuve de gasoil.
+
+3l0l0	Le_diagnostic_de_sols_fait	N
+3l0l1	en_2009	T
+3l0l2	suite_à	R
+3l0l3	la_cessation_d__activité	O
+3l0l4	a_mis_en_évidence	R
+3l0l5	la_présence_de_contaminations	O
+3l0l6	à_proximité_de_l__ancienne_cuve_de_gasoil	A
+3l1l0	hydrocarbures	S
+3l1l1	HAP	S
+3l1l2	BTEX	S
+3l1l3	métaux_principalement	S
+3l1l4	cuve_de_gasoil	U
+
+#Par ailleurs, au droit du site une contamination en COHV a été mise en évidence sans toutefois qu'elle ne puisse être attribuée aux activités de la station service.
+
+4l0l0	au_droit_du_site	L
+4l0l1	une_contamination	O
+4l0l2	a_été_mise_en	N
+4l0l3	activités_de_la_station_service	A
+4l1l0	COHV	S
+
+#Un forage implanté sur le parking de l'établissement commercial est actuellement utilisé comme ouvrage de fixation de la pollution (ancien forage AEP).
+
+5l0l0	Un_forage	O
+5l0l1	implanté_sur	R
+5l0l2	le_parking	O
+5l0l3	l__établissement_commercial	O
+5l0l4	est_actuellement_utilisé_comme	R
+5l0l5	ouvrage_de_fixation	O
+5l0l6	la_pollution	O
+5l0l7	forage_AEP	O
+5l1l0	AEP	I
+
+#Des travaux ont été prescrit à l'encontre du dernier exploitant par arrêté préfectoral du 13 juin 2013.
+
+6l0l0	Des_travaux_ont_été_prescrit	N
+6l0l1	du_dernier_exploitant	O
+6l0l2	arrêté_préfectoral	O
+6l0l3	13_juin_2013__	T
+
+#Ces travaux consistent à :
+
+
+#- excaver les terres polluées ;
+
+8l0l0	excaver_les_terres_polluées	N
+
+#- réaliser des analyses en bord et fond de fouille ;
+
+
+#- réaliser une analyse résiduelle des risques (ARR) après travaux d’excavation ;
+
+10l0l0	travaux_d__excavation	N
+
+#- remblayer la fouille avec des matériaux sains.
+
+11l0l0	remblayer	N
+11l0l1	la_fouille	O
+
+#Les travaux ont été menés en juin 2013.
+
+12l0l0	Les_travaux_ont_été_menés	N
+12l0l1	en_juin_2013__	T
+
+#Ils ont fait apparaître une extension de la pollution plus étendue que prévue initialement.
+
+
+#Aussi, des investigations complémentaires ont été demandées et prescrites à l'ancien exploitant pour déterminer l'extension de la pollution dans les sols et pour évaluer si la nappe d'eau souterraine présente à 7m de profondeur a été contaminée ou non.
+
+14l0l0	des_investigations_complémentaires	O
+14l0l1	ont_été_demandées	N
+14l0l2	prescrites	N
+14l0l3	à_l__ancien_exploitant	O
+14l0l4	l__extension_de_la_pollution	N
+14l0l5	7_m_de_profondeur	N
+14l0l6	a_été_contaminée	O
+
+#L'usage futur concerté avec la commune est un usage commercial.
+
+15l0l0	L_	O
+15l0l1	usage_futur_concerté	N
+15l0l2	la_commune	O
+
+#Dans le cadre de ce projet de reconversion, des travaux d'aménagement routiers ont été engagés en partie sur l'ancien parking de l'établissement.
+
+16l0l0	Dans_le_cadre_de	R
+16l0l1	ce_projet_de_reconversion	N
+16l0l2	des_travaux_d__aménagement_routiers_ont_été_engagés	N
+16l0l3	en_partie_sur	R
+16l0l4	l_	O
+
+#Lors des travaux d'excavation, les résultats d'analyses du prélèvement réalisé en fond de fouille font apparaître :
+
+17l0l0	Lors	R
+17l0l1	des_travaux_d__excavation	N
+
+#- la présence de plomb supérieur aux limites admisses (140 mg/kg au lieu de 20 mg/kg) ;
+
+18l1l0	plomb	S
+
+#- la présence d'éthylbenzène ;
+
+19l1l0	éthylbenzène	S
+
+#- la lixiviation du plomb.
+
+20l0l0	lixiviation	N
+20l1l0	plomb	S
+
+#De plus, les travaux réalisés ont fait apparaître la présence d'eau en fond de fouille pouvant correspondre à une nappe.
+
+21l0l0	les_travaux_réalisés_ont_fait_apparaître	N
+21l0l1	la_présence_d__eau	O
+21l0l2	en_fond_de_fouille	L
+
+#Une démarche complémentaire d’Interprétation de l’Etat des Milieux s’avérait donc nécessaire et le schéma conceptuel devait être mis à jour.
+
+22l0l0	le_schéma_conceptuel	O
+
+#L’arrêté préfectoral du 08 avril 2014 impose donc à la société CORA SAS dans son article 3 de remettre à l’inspection des installations classées un document :
+
+23l0l0	L__arrêté_préfectoral	O
+23l0l1	du_08_avril_2014	T
+23l0l2	impose	N
+23l0l3	la_société_CORA_SAS	O
+23l0l4	l__inspection_des_installations_classées	O
+23l1l0	la_société_CORA_SAS	I
+
+#- mentionnant l’extension de la pollution verticale et horizontale,
+
+
+#- comportant l’Interprétation de l’Etat des Milieux, notamment des eaux souterraines,
+
+
+#- comportant le schéma conceptuel à jour,
+
+26l0l0	le_schéma_conceptuel	O
+
+#- précisant les mesures de gestion de la pollution qui seront mises en œuvre et les délais.
+
+27l0l0	seront_mises_en_œuvre	N
+27l0l1	les_délais	O
+
+#L’exploitant a fait parvenir le rapport de fin de travaux et ces compléments en 2015.
+
+28l0l0	L__exploitant	O
+28l0l1	a_fait_parvenir	N
+28l0l2	le_rapport	O
+28l0l3	fin_de_travaux	N
+28l0l4	ces_compléments	O
+28l0l5	en_2015__	T
+
+#Dans ce document, il est précisé les éléments suivants :
+
+
+#- Une première intervention a eu lieu en décembre 2014.
+
+30l0l0	Une_première_intervention	N
+30l0l1	a_eu_lieu_en	N
+30l0l2	décembre_2014__	T
+
+#Lors de cette intervention, 220 m3  de terres ont été extraites, venant s’ajouter aux 150 m3 précédemment extraits en 2012.
+
+31l0l0	cette_intervention	N
+31l0l1	220_m3___de_terres	O
+31l0l2	ont_été_extraites	N
+31l0l3	150_m3	O
+31l0l4	précédemment_extraits	R
+31l0l5	en_2012__	T
+
+#Des terres polluées au BTEX, aux hydrocarbures ont été mises à jour lors de cette intervention de décembre 2014.
+
+32l0l0	Des_terres_polluées	O
+32l0l1	hydrocarbures	O
+32l0l2	ont_été_mises_à_jour_lors	N
+32l0l3	de_cette_intervention	N
+32l0l4	de_décembre_2014__	T
+32l1l0	BTEX	S
+32l1l1	hydrocarbures	S
+
+#A l’issue de celle-ci, des contrôles de bords et fonds de fouille ont été effectués et ont mis en évidence la présence importante d’hydrocarbures volatils et de benzène ainsi que de plomb.
+
+33l0l0	des_contrôles	N
+33l0l1	de_bords	O
+33l0l2	fonds_de_fouille	O
+33l0l3	ont_été_effectués	N
+33l1l0	hydrocarbures	S
+33l1l1	benzène	S
+33l1l2	plomb	S
+
+#- La mise en sécurité des terres excavées et de la fouille a été réalisée au moyen de barrières menottées et le tas de terre a été protégé par une bâche polyane.
+
+34l0l0	La_mise_en_sécurité	N
+34l0l1	des_terres_excavées	O
+34l0l2	la_fouille	N
+34l0l3	a_été_réalisée	N
+34l0l4	le_tas_de_terre	O
+34l0l5	a_été_protégé_par	N
+34l0l6	une_bâche_polyane	O
+
+#- Une nouvelle intervention a eu lieu les 02 et 03 mars 2015 et a permis d’extraire un volume complémentaire de terres impactées de 450 m3.
+
+35l0l0	Une_nouvelle_intervention	N
+35l0l1	a_eu_lieu	N
+35l0l2	les_02_et_03_mars_2015	T
+35l0l3	d__extraire	N
+35l0l4	un_volume_complémentaire_de_terres_impactées	O
+
+#De nouveaux prélèvements en bords et fond de fouille ont été réalisés et n’ont pas mis en évidence d’hydrocarbures volatils (C5-C10).
+
+36l0l0	ont_été_réalisés	N
+36l1l0	hydrocarbures	S
+
+#Des BTEX ont été détectés à l’état de traces seulement.
+
+37l0l0	ont_été_détectés	N
+37l1l0	Des_BTEX	S
+
+#- Lors de la réalisation de l’IEM, des piézairs avaient été mis en place au droit de la zone impactée afin d’évaluer le dégazage des sols et les calculs de risques sanitaires pour le scénario « inhalation d’air ambiant contaminé par un employé travaillant au sein d’un kiosque de station-service » en prenant en compte un local de 9 m² et une durée d’exposition de 8 h/j et 220 j/an avaient montré l’absence de risque sanitaire concernant l’inhalation d’hydrocarbures volatils et de BTEX.
+
+38l0l0	Lors_de	R
+38l0l1	la_réalisation	N
+38l0l2	l__IEM	N
+38l0l3	piézairs	O
+38l0l4	avaient_été_mis_en_place	N
+38l0l5	au_droit_de_la	L
+38l0l6	zone_impactée	O
+38l0l7	dégazage	N
+38l1l0	hydrocarbures_volatils	S
+38l1l1	BTEX	S
+
+#II en est conclu, les paramètres d’exposition étant comparables pour le projet de jardinerie envisagé, l’absence de risques sanitaires pour l’usage futur considéré.
+
+39l0l0	le_projet_de_jardinerie_envisagé	O
+
+#L’état actuel du site est compatible avec l’usage futur envisagé (à savoir un local commercial).
+
+
+#L'arrêté préfectoral du 27 octobre 2016 prescrit la poursuite de la surveillance des eaux souterraines.
+
+41l0l0	L__arrêté_préfectoral	O
+41l0l1	27_octobre_2016	T
+41l0l2	prescrit	R
+41l0l3	la_poursuite_de_la_surveillance_des_eaux_souterraines	A

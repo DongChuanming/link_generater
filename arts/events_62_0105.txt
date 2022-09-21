@@ -1,0 +1,141 @@
+
+#62.0105
+#Le site de Saint Pol sur Ternoise a accueilli une usine fabriquant du gaz à partir de la distillation de la houille de 1873 à 1970.
+
+0l0l0	Le_site	O
+
+#Actuellement, le site est utilisé pour les besoins des entreprises EDF et / ou GDF.
+
+1l0l0	Actuellement___le_site_est_utilisé	O
+1l0l1	pour_les	N
+1l0l2	besoins_des	O
+1l0l3	entreprises_EDF	A
+1l0l4	et___ou_GDF__	R
+1l1l0	Actuellement___le_site	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+2l0l0	hiérarchisé	O
+2l1l0	sites_d__anciennes_usines	I
+2l1l1	gaz	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement  (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site...).
+
+3l0l0	La_méthodologie	O
+3l0l1	retenue_a	N
+3l0l2	consisté_à_hiérarchiser_les_sites	O
+3l1l0	La_méthodologie	I
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+4l0l0	abouti_à_l__établissement_de	O
+4l0l1	5_classes_de	R
+4l0l2	priorité_pour_lesquelles	O
+4l0l3	les	R
+4l0l4	engagements_de_Gaz	O
+
+#Le site de Saint Pol sur Ternoise est en classe 3 du protocole.
+
+5l0l0	Le_site_de_Saint	N
+5l0l1	Pol_sur_Ternoise	O
+5l0l2	est_en_classe_3_du_protocole	N
+
+#De ce fait, c'est un site dont la sensibilité vis à vis de l'homme, des eaux souterraines et superficielles est faible.
+
+6l0l0	De_ce_fait	O
+6l0l1	__c__est_un_site_dont	O
+6l0l2	la_sensibilité	A
+6l1l0	__c__est_un_site_dont	I
+
+#Gaz de France entreprend la seconde phase définie par le protocole, à savoir les études environnementales des sites de classe 3, 4 et 5.
+
+
+#Gaz de France a donc mandaté la société EAT Environnement afin de reconstituer l'historique de ce site.
+
+8l0l0	Gaz_de_France	O
+8l0l1	a_donc_mandaté	R
+8l0l2	la_société_EAT	O
+8l0l3	Environnement_afin_de_reconstituer	O
+8l0l4	l__historique_de_ce_site__	N
+8l1l0	Gaz_de_France	I
+
+#Le rapport de septembre 2003 présente les résultats des recherches historiques sur le site, complétées par la reconnaissance d'éventuels stockages souterrains susceptibles de subsister sur le site (phase Investigations Protocole).
+
+9l0l0	Le_rapport_de	O
+9l0l1	septembre_2003	N
+9l0l2	présente_les_résultats_des_recherches	O
+9l0l3	complétées	O
+9l1l0	Le_rapport_de	I
+9l1l1	2003_présente_les_résultats_des_recherches	I
+
+#L'ensemble des données obtenues lors de l'étude historique des installations de l'ancienne usine à gaz a montré les résultats suivants:
+
+10l0l0	L__ensemble	O
+10l0l1	des_données_obtenues	T
+10l0l2	historique_des_installations_de	O
+10l0l3	l__ancienne	L
+10l0l4	montré_les_résultats	N
+
+#- 1 cuve à goudron au niveau des actuels garages présents sur le site;
+
+
+#- 1 ancien gazomètre au sud du site.
+
+12l0l0	1_ancien_gazomètre	O
+12l1l0	1_ancien	D
+
+#La reconnaissance des anciens ouvrages souterrains a été effectuée le 22 octobre 2002.
+
+13l0l0	des_anciens_ouvrages	L
+
+#Elle a consisté en la réalisation de 6 sondages à 3 mètres de profondeur.
+
+14l0l0	Elle_a_consisté_en_la_réalisation_de_6_sondages_à_3_mètres_de_profondeur	N
+14l0l1	_	T
+
+#Les sondages ont permis de retrouver l'ancienne cuve à goudron sous les garages actuels.
+
+15l0l0	permis_de_retrouver_l__ancienne	N
+15l0l1	cuve_à_goudron	O
+
+#Cette cuve est quasiment vide, exceptée une très légère couche de goudron en fond d'ouvrage (moins de 10 cm).
+
+16l0l0	Cette_cuve_est_quasiment	N
+16l0l1	exceptée_une_très_légère_couche	O
+16l0l2	goudron_en_fond_d__ouvrage	O
+
+#Des travaux de neutralisation et de remblaiement de l'ancienne cuve à goudron ne sont pas nécessaires.
+
+
+#Le sondage réalisé au niveau de l'ancien gazomètre a permis de retrouver la dalle de cet ouvrage et de constater l'absence de contamination du sous-sol.
+
+18l0l0	Le_sondage_réalisé_au_niveau_de	N
+18l0l1	ancien_gazomètre	N
+18l0l2	permis_de_retrouver_la_dalle	O
+18l1l0	retrouver_la_dalle	U
+
+#Par ailleurs, Gaz de France réalisera un diagnostic initial en préalable à toute opération de vente, cession ou réaménagement.
+
+19l0l0	Par_ailleurs___Gaz_de_France_réalisera	N
+19l0l1	ou_réaménagement__	N
+
+#Les conditions de réhabilitation définies en accord avec les services de l'Inspection des installations classées, seront adaptées à la classe de sensibilité du site et à sa destination future.
+
+20l0l0	conditions_de_réhabilitation	O
+20l0l1	définies_en_accord_avec_les	N
+20l0l2	services_de_l_	R
+20l0l3	Inspection_des_installations	N
+20l0l4	classées___seront_adaptées	N
+20l1l0	conditions_de_réhabilitation	I
+
+#Les eaux souterraines sont utilisées dans le secteur pour un usage AEP (Adduction d'Eau Potable).
+
+21l0l0	Les_eaux_souterraines_sont_utilisées	O
+21l0l1	Adduction_d__Eau_Potable____	O
+
+#Action de l'administration toujours en cours.
+
+22l0l0	Action_de_l__administration	O
+22l0l1	toujours	N
+22l0l2	en_cours	L
+22l0l3	_	R

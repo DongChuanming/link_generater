@@ -1,0 +1,382 @@
+
+#44.0141
+#Le groupe scolaire qui comprend l’école élémentaire René Descartes, l’école maternelle du Levant  et la maison de la petite enfance l’Ile aux Câlins.
+
+0l0l0	Le_groupe_scolaire	O
+0l0l1	et_la_maison	O
+0l0l2	l__Ile_aux_Câlins	L
+
+#L'établissement est situé ruelle du Levant, dans un quartier résidentiel peu dense au Nord du centre ville de Sucé sur Erdre (44).
+
+1l0l0	L__établissement	O
+1l0l1	est_situé_ruelle_du_Levant	L
+1l0l2	dans_un_quartier_résidentiel_peu_dense_au_Nord_du_centre_ville_de_Sucé_sur_Erdre___44__	L
+
+#L’école René Descartes reçoit des enfants âgés de 6 à 12 ans.
+
+
+#L’extrémité Sud-Est de l’école abrite également un centre de loisirs recevant des enfants de 3 à 12 ans le mercredi et durant les vacances scolaires.
+
+3l0l0	L_	O
+3l0l1	extrémité_Sud_Est_de_l__école	L
+3l0l2	abrite_également	R
+3l0l3	un_centre	O
+
+#L’école élémentaire s’étend sur une surface de 13 500 m² et comprend:
+
+4l0l0	école_élémentaire	O
+
+#- Un bâtiment (bâtiment A) construit sur vide sanitaire, réservé à l’enseignement.
+
+5l0l0	Un_bâtiment	O
+5l0l1	construit_sur_vide	N
+5l0l2	l__enseignement	A
+
+#Une partie du bâtiment présente un étage.
+
+6l0l0	Une_partie_du_bâtiment	O
+
+#L’extrémité Sud du bâtiment constitue une extension en préfabriqué accueillant le centre de loisirs ;
+
+7l0l0	L__extrémité_Sud_du_bâtiment	O
+7l0l1	constitue_une_extension	N
+7l0l2	centre_de_loisirs	A
+
+#- Un bâtiment (bâtiment B) occupé par le réfectoire, de plain-pied ;
+
+8l0l0	Un_bâtiment	O
+
+#- Deux cours de récréation recouvertes d’enrobé ;
+
+
+#- Un espace vert accessible aux enfants.
+
+
+#L’école élémentaire ne comprend ni jardin pédagogique, ni logement de fonction.
+
+
+#L'établissement est inclus dans la liste des établissements concernés par la démarche de diagnostic des "Établissements sensibles".
+
+12l0l0	la	A
+12l0l1	démarche_de_diagnostic	N
+
+#DIAGNOSTIC des sols sur les lieux accueillant des enfants et adolescents
+
+13l0l0	DIAGNOSTIC_des_sols	N
+
+#Les résultats ont été interprétés conformément au guide de gestion des résultats des diagnostics réalisés dans les lieux accueillant enfants et adolescents (BRGM,ADEME, INERIS, InVS) de juin 2011 et à la note ministérielle du 8 février 2007 définissant le cadre général de la politique nationale en matière de gestion des sites et sols pollués.
+
+14l0l0	ont_été_interprétés	N
+14l0l1	conformément_au	R
+14l0l2	diagnostics	N
+14l0l3	réalisés_dans	R
+14l0l4	les_lieux	O
+14l0l5	accueillant_enfants	N
+14l0l6	et_adolescents	A
+14l0l7	BRGM	O
+14l0l8	INERIS	O
+14l0l9	InVS	O
+14l0l10	de_juin_2011	T
+14l0l11	8_février_2007	T
+14l0l12	gestion_des_sites_et_sols_pollués	O
+14l1l0	BRGM	I
+14l1l1	INERIS	I
+14l1l2	InVS	I
+
+#PHASE 1
+
+
+#D’après les informations disponibles, cet établissement a été construit encontiguïté d’un site BASIAS (décharge d’ordures ménagères référencéen°PAL4401586).
+
+16l0l0	cet_établissement	O
+16l0l1	a_été_construit_encontiguïté	N
+16l0l2	d__un	L
+16l0l3	site_BASIAS	O
+16l1l0	décharge_d__ordures_ménagères	U
+
+#Le site BASIAS répertorié, référencé PAL4401586, était une décharge d’ordures ménagères entre 1956 et 1974.
+
+17l0l0	Le_site_BASIAS	O
+17l0l1	entre_1956_et_1974__	T
+17l1l0	une_décharge	D
+17l1l1	d__ordures	U
+
+#Il était localisé sur la même parcelle cadastrale que l’établissement scolaire mais en partie Nord-Est de la parcelle.
+
+18l0l0	localisé_sur_la_même_parcelle	L
+18l0l1	en_partie_Nord_Est_de_la_parcelle	L
+
+#Les matériaux présents sur le site BASIAS ont été évacués lors de la fermeture de la décharge et le site partiellement remblayé.
+
+19l0l0	Les_matériaux	O
+19l0l1	le_site_BASIAS	O
+19l0l2	ont_été_évacués	N
+19l0l3	lors	R
+19l0l4	de_la_fermeture	N
+19l0l5	la_décharge	O
+19l0l6	le_site	O
+19l0l7	partiellement_remblayé	N
+
+#Le terrain de l’ancien site BASIAS a été entièrement réaménagé en un parc de loisirs avec un terrain multisports et un skate-park ornés d’espaces verts.
+
+20l0l0	Le_terrain	O
+20l0l1	site_BASIAS	O
+20l0l2	a_été_entièrement_réaménagé_en	N
+20l0l3	un_parc_de_loisirs	O
+
+#Après la fermeture du site BASIAS et préalablement à la construction de l’école élémentaire, des remblais ont été importés au droit de l’école.
+
+21l0l0	Après_la	N
+21l0l1	fermeture_du_site_BASIAS	O
+21l0l2	et_préalablement_à	R
+21l0l3	la_construction_de	N
+21l0l4	l__école_élémentaire	O
+21l0l5	des_remblais	O
+21l0l6	ont_été_importés	N
+21l0l7	au_droit_de_l__école	L
+
+#L’origine de ces remblais n’étant pas connue, ceux-ci peuvent contenir des substances potentiellement polluantes.
+
+22l0l0	L__origine	O
+22l0l1	remblais	O
+
+#L’école René Descartes a été construite vers 1974.
+
+23l0l0	L__école_René_Descartes	O
+23l0l1	a_été_construite	N
+23l0l2	vers_1974__	T
+
+#Une extension a été réalisée en 1979.
+
+24l0l0	Une_extension	O
+24l0l1	a_été_réalisée	N
+24l0l2	en_1979__	T
+
+#Celle-ci est occupée par un centre de loisirs.
+
+25l0l0	un_centre	O
+
+#Le site BASIAS et l’établissement scolaire sont implantés en zone marécageuse, sur des terrains remblayés.
+
+26l0l0	Le_site_BASIAS	O
+26l0l1	l__établissement_scolaire	O
+26l0l2	sont_implantés_en_zone_marécageuse	N
+26l0l3	des_terrains_remblayés	O
+
+#Ces remblais recouvrent les schistes.
+
+
+#Les terrains sont de nature plutôt argileuse et riches en matière organique (capacité de rétention) et les eaux marécageuses sont stagnantes.
+
+28l0l0	Les_terrains	O
+28l0l1	les_eaux_marécageuses	O
+
+#La nappe d’eau est profonde et son sens d’écoulement n’a pu être déterminé.
+
+
+#S’agissant d’une école élémentaire avec un centre de loisirs, sans jardin pédagogique, trois scénarios d’exposition ont été considérés :
+
+30l0l0	une_école_élémentaire	O
+30l0l1	un_centre	O
+
+#- L’inhalation de l’air dans les bâtiments, air qui serait susceptible d’être dégradé par des pollutions éventuelles provenant du site BASIAS et des remblais : L’ancienne activité BASIAS identifiée au voisinage de l’école élémentaire et les remblais ont potentiellement fait appel à l’utilisation de substances volatiles.
+
+31l0l0	L__inhalation	N
+31l0l1	site_BASIAS	O
+31l0l2	remblais	O
+31l0l3	L__ancienne_activité_BASIAS	O
+31l0l4	au_voisinage_de_l__école_élémentaire	L
+31l0l5	les_remblais	N
+31l0l6	ont_potentiellement	R
+31l0l7	utilisation_de_substances	O
+31l1l0	substances_volatiles	U
+
+#Ainsi, une migration de ces composés via les gaz du sol et les eaux souterraines au droit de l’école est possible.
+
+32l0l0	au_droit_de_l__école	L
+32l1l0	ces_composés	U
+
+#- L’ingestion de sols par les enfants : Les espaces extérieurs de l’école élémentaire sont fréquentés par des enfants du centre aéré.
+
+33l0l0	ingestion_de_sols	N
+33l0l1	Les_espaces_extérieurs	O
+33l0l2	l__école_élémentaire	O
+33l0l3	sont_fréquentés	N
+33l0l4	centre_aéré	A
+
+#Ainsi, au vu de l’âge des enfants (3 à 6 ans) et de la présence de remblais qui contiennent potentiellement des substances polluantes, l’ingestion de sol a été retenue.
+
+34l0l0	remblais	N
+34l0l1	ingestion	N
+34l1l0	substances_polluantes	U
+
+#- L’ingestion d’eau potable par les enfants : Les réseaux d’eau potable traversent potentiellement des remblais qui contiennent potentiellement des substances polluantes.
+
+35l0l0	traversent_potentiellement_des_remblais	L
+
+#Ainsi, la possibilité d’une dégradation de la qualité de l’eau du robinet par transfert de polluants au travers des canalisations est retenue.
+
+36l1l0	polluants	U
+
+#PHASE 2
+
+
+#Les résultats des investigations indiquent que :
+
+
+#- les concentrations estimées dans l’air intérieur en certaines substances volatils, calculées sur la base des concentrations mesurées dans l’air du vide sanitaire du bâtiment, sont comprises entre la borne basse et la borne haute des intervalles de gestion et sont supérieures aux valeurs que l’on rencontre dans 90% des logements français.
+
+39l1l0	certaines_substances_volatils	S
+
+#Il est à noter que les composés volatiles retrouvés sur cet établissement sont identiques à ceux retrouvés dans les autres établissements du groupe scolaire.
+
+40l0l0	cet_établissement	O
+
+#Aucun des composés recherchés dans l’air du sol n’a été quantifié,
+
+41l1l0	composés	S
+
+#- Pour les sols de surface, les teneurs en certains composés s’écartent légèrement du bruit de fond géochimique local mais la gestion des résultats montre que la qualité des sols de surface ne pose pas de problème,
+
+42l1l0	composés	S
+
+#-Pour l’eau du robinet, les concentrations de l’ensemble des composés recherchés sont inférieures aux critères de potabilité.
+
+
+#La qualité de l’eau ne pose donc pas de problème.
+
+
+#Dans l'école maternelle du Levant, la présence d’hydrocarbures a été également mise en évidence dans l’air du sol sous le bâtiment de l’ETS.
+
+45l0l0	Dans	R
+45l0l1	l__école_maternelle	O
+45l0l2	le_bâtiment	O
+45l0l3	l__ETS	O
+45l1l0	hydrocarbures	S
+
+#PHASE 3
+
+
+#Conformément au programme défini lors de la phase 2, des investigations ont été menées sur les milieux « air intérieur », « air du sol sous dalle » et « air du vide sanitaire » du bâtiment de l’école.
+
+47l0l0	Conformément	R
+47l0l1	au_programme	O
+47l0l2	défini_lors_de	N
+47l0l3	la_phase_2	N
+47l0l4	des_investigations_ont_été_menées	N
+47l0l5	l__école	O
+
+#Les investigations de phase 3 indiquent :
+
+48l0l0	Les_investigations	N
+48l0l1	de_phase_3	O
+
+#- La présence de composés volatils dans les milieux précédant l’exposition « air du sol sous dalle » et « air du vide sanitaire » du bâtiment de l’école.
+
+49l0l0	bâtiment_de_l__école	L
+49l1l0	composés	U
+
+#Ces résultats sont cohérents avec ceux obtenus lors de la phase 2.
+
+
+#- Les résultats des mesures réalisées dans l’air intérieur, en particulier dans les salles de classes et la bibliothèque révèlent des concentrations en composés volatils supérieures aux bornes basses des intervalles de gestion et supérieures aux concentrations que l’on retrouve habituellement dans les logements français.
+
+51l1l0	composés	S
+
+#- Etant donné que les concentrations dans l’air intérieur, y compris à l’étage, sont plus élevées que les concentrations dans « l’air du sol » et « l’air du vide sanitaire » et que les plus fortes concentrations sont retrouvées dans l’aile nord (la plus éloignée du site BASIAS), l’origine de ces composés ne peut être exclusivement attribués au site BASIAS ou aux remblais.
+
+52l0l0	fortes_concentrations	O
+52l0l1	dans_l__aile_nord	L
+52l0l2	éloignée_du_site_BASIAS	L
+52l0l3	site_BASIAS	O
+52l0l4	remblais	N
+
+#Quantification d’hydrocarbures aliphatiques (C8-C10, C10-C12, C12-C16) et aromatiques (C8-C10) mais les concentrations mesurées < R1
+
+53l1l0	d__hydrocarbures_aliphatiques	S
+53l1l1	C8_C10	S
+53l1l2	C10_C12___C12_C16	S
+53l1l3	aromatiques	S
+53l1l4	C8_C10	S
+
+#Quantification de benzène à des concentrations > R1 mais < OQAI90 au RDC (prélèvements passifs)
+
+54l1l0	benzène	S
+
+#Quantification d’éthylbenzène et de xylènes à des concentrations > R2 et > OQAI90 au RDC (bibliothèque) pour les passifs
+
+55l0l0	les_passifs	O
+55l1l0	éthylbenzène	S
+55l1l1	xylènes	S
+
+#Quantification d’éthylbenzène à des concentrations > R1 et > OQAI90 au RDC (salle de classe) pour les passifs
+
+56l1l0	d__éthylbenzène	S
+
+#Quantification de BTEX sur l’échantillon témoin (passif) au 1er étage (avec éthylbenzène > R1 et > OQAI90)
+
+57l0l0	au_1er_étage	L
+57l1l0	BTEX	S
+57l1l1	éthylbenzène	S
+
+#Néanmoins, plusieurs points sont à noter :
+
+
+#- des BTEX sont présents sur les prélèvements passifs du témoin intérieur du 1er étage à des concentrations > R2 et > OQAI90
+
+59l0l0	des_BTEX	O
+59l1l0	des_BTEX	S
+
+#- les concentrations les plus élevées en BTEX sont observées dans l’air intérieur et non dans le milieu précédant l’exposition (air du sol et air du vide sanitaire),
+
+60l1l0	BTEX	S
+
+#- les plus fortes concentrations sont retrouvées dans l’aile nord-ouest du bâtiment, y compris à l’étage du bâtiment,
+
+61l0l0	les_plus_fortes_concentrations	O
+61l0l1	dans_l__aile_nord_ouest_du_bâtiment	L
+61l0l2	étage_du_bâtiment	L
+
+#Ainsi, les composés retrouvés dans l’air intérieur du bâtiment, bien que traceurs de l’ancien site BASIAS, ne peuvent être attribués exclusivement à l’ancien site BASIAS et aux remblais.
+
+62l0l0	BASIAS	O
+62l0l1	l__ancien_site_BASIAS	O
+62l0l2	remblais	O
+62l1l0	composés	S
+
+#Les recommandations sont les suivantes :
+
+
+#-une ventilation régulière du bâtiment y compris à l'étage
+
+64l0l0	étage	T
+
+#-une gestion en local par l’ARS et le maitre d’ouvrage est préconisée pour identifier l’origine des pollutions.
+
+65l0l0	_une_gestion	O
+65l0l1	l__ARS	O
+65l0l2	le_maitre_d__ouvrage	O
+65l0l3	est_préconisée	N
+65l0l4	identifier	N
+65l0l5	l__origine_des_pollutions	O
+
+#-le maintien du bon état des dalles et recouvrements du bâtiment.
+
+
+#A l'issue des investigations, le groupe scolaire Descartes/Levant/Ile aux Câlins à Sucé-sur-Erdre (44) a été classé en « catégorie B : les aménagements et les usages actuels permettent de protéger les personnes des expositions aux pollutions, que les pollutions soient potentielles ou avérées.
+
+67l0l0	l__issue_des_investigations	N
+67l0l1	le_groupe_scolaire_Descartes	O
+67l0l2	__Levant	L
+67l0l3	Ile_aux_Câlins	L
+67l0l4	à_Sucé_sur_Erdre___44__	L
+67l0l5	a_été_classé	N
+67l0l6	les_usages	O
+
+#Des modalités de gestion de l’information doivent cependant être mises en place pour expliquer ce qui doit être fait si les aménagements ou les usages des lieux venaient à être modifiés ».
+
+68l0l0	Des_modalités	O
+68l0l1	expliquer_ce_qui_doit_être_fait	O
+68l0l2	les_aménagements	N
+68l0l3	les_usages_des_lieux	O
+68l0l4	venaient_à_être_modifiés	N

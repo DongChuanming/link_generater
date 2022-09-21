@@ -1,0 +1,382 @@
+
+#94.0099
+#La station service a été déclarée le 12/06/1989 par la société MESA COMBUSTIBLES ET CARBURANTS pour la distribution et le stockage de carburants.
+
+0l0l0	La_station	O
+0l0l1	service_a_été_déclarée	T
+0l0l2	le_12_06_1989	O
+0l0l3	par_la	N
+0l0l4	société	O
+0l0l5	MESA_COMBUSTIBLES	O
+0l0l6	CARBURANTS	R
+0l0l7	pour_la_distribution	N
+0l0l8	et_le_stockage	O
+0l1l0	société_MESA	I
+
+#Plusieurs sociétés se sont succédées pour l’exploitation des installations.
+
+1l0l0	Plusieurs_sociétés	O
+1l0l1	se_sont_succédées	N
+1l0l2	pour_l_	T
+1l0l3	exploitation_des_installations	O
+1l1l0	exploitation_des_installations__	I
+
+#La société AS24 a repris le site en 1997.
+
+2l0l0	La_société_AS24_a_repris	O
+2l0l1	le_site_en_1997	N
+
+#Le site de 41 597 m², parcelle DK 46 appartenant la SNCF, est implanté dans la zone industrielle des Ardoines.
+
+3l0l0	Le_site_de_41_597	O
+3l0l1	m²___parcelle	N
+3l0l2	DK	O
+3l0l3	46_appartenant_la_SNCF___est_implanté_dans_la_zone_industrielle_des_Ardoines__	T
+3l1l0	Le_site_de_41_597	I
+
+#La station service comprenait 3 distributeurs de carburants alimentés par :
+
+4l0l0	La_station	O
+4l0l1	distributeurs_de_carburants	O
+4l0l2	alimentés	R
+4l0l3	par____	L
+
+#1 cuve de 40 m³ enterrée à double enveloppe de gasoil et de fioul domestique ;
+
+5l0l0	1_cuve_de_40_m³_enterrée	O
+5l0l1	à_double	R
+5l0l2	enveloppe_de_gasoil_et_de_fioul	O
+5l1l0	gasoil_et_de_fioul	U
+
+#1 cuve de 30 m³ enterrée à double enveloppe de gasoil ;
+
+6l1l0	gasoil	S
+
+#1 cuve de 15 m³ enterrée d’Adblue (mélange eau + urée).
+
+7l0l0	d__Adblue	O
+7l0l1	__mélange_eau___urée	A
+7l1l0	1_cuve	D
+7l1l1	eau___urée	S
+
+#Par courrier du 10/06/2014, l’exploitant a informé le préfet du Val-de-Marne de la cessation totale des activités de la station service.
+
+8l1l0	10_06_2014___l__exploitant	S
+8l1l1	informé	S
+
+#Le récépissé de la notification de cessation d’activité lui a été adressé le 28/11/2014.
+
+9l0l0	la_notification	T
+9l0l1	de_cessation	O
+9l0l2	d__activité	N
+9l0l3	lui_a_été_adressé	A
+9l0l4	le	L
+9l0l5	28_11_2014__	N
+9l1l0	activité_lui_a	I
+
+#Le diagnostic de pollution en date du 27/09/2010 a permis de mettre en évidence :
+
+10l0l0	Le_diagnostic	O
+10l0l1	de_pollution_en_date	O
+10l0l2	du_27_09_2010_a_permis	N
+10l0l3	mettre_en_évidence	N
+10l0l4	___	T
+
+#- des arrivées d’eaux souterraines entre 3,2 et 4,6 mètres de profondeur (nappe alluviale) ;
+
+11l0l0	__des_arrivées_d__eaux_souterraines	N
+11l0l1	entre_3_2_et_4_6	T
+
+#- la présence de plusieurs zones impactées par des hydrocarbures C10-C40 à proximité des réservoirs enterrés, du séparateur à hydrocarbures de l’aire de lavage voisine et sous la piste de distribution centrale ;
+
+
+#- la présence d’une zone impactée par des hydrocarbures C5-C40 et par des BTEX à proximité du réservoir enterré de gasoil et de fioul domestique.
+
+13l0l0	une_zone_impactée_par_des_hydrocarbures	O
+13l0l1	BTEX_à_proximité_du_réservoir_enterré	L
+13l1l0	hydrocarbures_C5_C40_et_par_des_BTEX	S
+13l1l1	fioul_domestique	S
+
+#Les travaux de dépollution ont été réalisés entre le 6 septembre et le 28 novembre 2014.
+
+14l0l0	dépollution_ont_été	O
+14l0l1	28_novembre	O
+14l0l2	2014__	L
+14l1l0	réalisés_entre_le_6_septembre	S
+14l1l1	28_novembre	S
+
+#Ils ont consisté au :
+
+15l0l0	Ils_ont_consisté_au____	N
+
+#- démantèlement des installations pétrolières ;
+
+
+#- retrait des enrobés contenant de l’amiante ;
+
+17l0l0	retrait_des_enrobés_contenant_de_l__amiante____	N
+
+#- retrait des terres impactées par des hydrocarbures, par excavation ;
+
+18l0l0	retrait_des_terres_impactées	N
+18l0l1	des_hydrocarbures	O
+
+#- comblement des fouilles.
+
+19l0l0	comblement	N
+19l0l1	des_fouilles__	O
+
+#Au total 2374,62 tonnes de terres impactées par des hydrocarbures ont été transportées vers un centre de traitement et 18,50 tonnes d’un mélange d’eau et d’hydrocarbures ainsi qu’une tonne de glycol ont également été éliminées.
+
+20l0l0	Au_total_2374_62_tonnes_de	N
+
+#Le site a été remis en état pour un usage identique à la dernière période d’exploitation, c’est-à-dire pour un usage industriel.
+
+21l0l0	remis_en_état_pour_un_usage_identique	O
+21l0l1	la_dernière_période	O
+21l0l2	d__exploitation	N
+21l0l3	__c__est	R
+21l0l4	__à___dire_pour_un_usage	O
+21l0l5	industriel	O
+21l1l0	la_dernière_période	S
+
+#L’analyse des risques résiduels (ARR) a donc été réalisée sur un scénario de type industriel ou commercial : inhalation de vapeurs de polluants par les employés d’un local commercial ou industriel.
+
+22l0l0	L__analyse	O
+22l0l1	des_risques_résiduels	N
+22l0l2	__ARR___a_donc_été	N
+22l0l3	réalisée_sur_un_scénario_de_type_industriel	N
+22l0l4	____inhalation_de_vapeurs	N
+
+#Les teneurs en polluants retenues sont les résultats des analyses des gaz du sol.
+
+23l0l0	les_résultats_des	N
+23l0l1	analyses_des_gaz	O
+
+#Les résultats ont mis en évidence un risque acceptable pour les futurs occupants du site.
+
+
+#Cependant, afin de limiter les voies d’exposition potentielle, le bureau d’étude a préconisé des mesures de gestion simples :
+
+
+#- le maintien d’un revêtement de surface sur le site ;
+
+
+#- l’interdiction de tout usage des eaux souterraines au droit du site sans vérification préalable de la compatibilité de cet usage avec leur qualité.
+
+27l0l0	l_	N
+27l0l1	interdiction_de_tout_usage_des_eaux_souterraines	O
+
+#- la mise en place de trois piézomètres afin de caractériser les eaux souterraines.
+
+28l0l0	la_mise_en_place_de	N
+28l0l1	trois_piézomètres_afin_de_caractériser	A
+28l0l2	les_eaux_souterraines	L
+
+#L’inspection des installations classées a demandé, à l’exploitant, la réalisation d’investigations complémentaires, par courriel du 30/01/2015.
+
+29l0l0	L__inspection_des	N
+29l0l1	installations_classées	O
+29l0l2	exploitant___la_réalisation	O
+
+#Par courrier du 02/04/2015, AS 24 a transmis un rapport de surveillance des milieux sols, air du sol et eaux souterraines daté du 02/04/2015.
+
+30l0l0	Par_courrier_du_02_04_2015___AS_24_a_transmis	O
+30l0l1	un_rapport	N
+30l0l2	de_surveillance	O
+30l0l3	des_milieux_sols___air_du_sol_et_eaux_souterraines_daté	N
+30l0l4	du_02_04_2015	O
+30l0l5	_	T
+
+#Les investigations complémentaires réalisées les 17, 18 et 23 février 2015 ont consisté en :
+
+31l0l0	investigations_complémentaires	T
+31l0l1	réalisées	N
+31l0l2	les_17___18_et_23_février	N
+31l1l0	complémentaires	I
+
+#- la réalisation d’un sondage complémentaire (SE1) à 5 mètres de profondeur pour évaluer l’extension de la pollution au Sud du site ;
+
+32l0l0	__la_réalisation_d__un_sondage_complémentaire	N
+32l0l1	__SE1__	N
+32l0l2	à_5_mètres_de_profondeur	T
+
+#- l’implantation de 3 piézomètres ;
+
+33l0l0	l__implantation_de	N
+33l0l1	3_piézomètres____	N
+
+#- la mise en place de 2 piézairs complémentaires
+
+34l0l0	la_mise_en_place_de	N
+34l0l1	piézairs_complémentaires	O
+
+#Des analyses ont été réalisées au niveau du nouveau sondage mais aussi sur les terres extraites du sol lors de l’implantation des piézairs et des piézomètres.
+
+35l1l0	réalisées_au_niveau_du_nouveau_sondage_mais_aussi_sur_les_terres_extraites_du_sol_lors_de_l__implantation_des_piézairs_et_des_piézomètres__	I
+
+#Les résultats d’analyses dans les échantillons de sol ont mis en évidence :
+
+36l0l0	Les_résultats	O
+36l0l1	d__analyses_dans	N
+36l0l2	les_échantillons	R
+36l0l3	de_sol_ont_mis	N
+36l0l4	___	N
+
+#- l’absence d’impact significatif en hydrocarbures (374 mg/kg au maximum) ;
+
+
+#- l’absence d’impact en BTEX (teneurs inférieurs à la limite de quantification) ;
+
+38l1l0	inférieurs_à_la	S
+
+#- l’absence d’impact en HAP (0,764 mg/kg au maximum pour la somme des HAP).
+
+39l1l0	HAP__	S
+
+#Les analyses réalisées dans les gaz du sol ont permis de mettre en évidence :
+
+40l1l0	dans	S
+40l1l1	évidence	S
+
+#- une diminution des concentrations en polluants dans le PZA1, par rapport aux analyses de décembre 2014     (5,1 µg/m³ en hydrocarbures et toluène et 4,9 µg/m³ en xylènes)
+
+
+#- un faible impact en polluants dans le PZA2 (environ 4 µg/m³ en hydrocarbures, toluène et xylènes)
+
+42l0l0	xylènes__	T
+42l1l0	PZA2___environ	U
+
+#- un impact significatif dans le piézair PZA3, notamment, en hydrocarbures C5-C8 (2959,5 à 4623,4 µg/m³), en benzène (92,5 µg/m³)
+
+43l1l0	hydrocarbures_C5_C8___2959_5_à_4623_4	S
+
+#Les analyses réalisées sur les eaux souterraines ne mettent en évidence aucun impact significatif.
+
+44l1l0	eaux_souterraines	S
+44l1l1	en_évidence_aucun_impact	S
+
+#Suite aux investigations complémentaires réalisées en février 2015, le bureau d’étude a recommandé :
+
+45l0l0	Suite_aux_investigations	N
+45l0l1	complémentaires_réalisées	O
+
+#- le maintien d’un revêtement de surface sur le site ;
+
+46l0l0	__le	R
+46l0l1	maintien_d__un_revêtement_de_surface_sur	N
+
+#- la réalisation d’une surveillance des milieux eaux souterraines et gaz du sol, semestriellement ;
+
+47l0l0	la_réalisation_d__une_surveillance_des	O
+
+#- la réalisation d’un dossier de restriction d’usage pour garder en mémoire la présence d’impacts résiduels dans les milieux.
+
+48l0l0	la_réalisation	N
+48l0l1	un_dossier_de	A
+48l0l2	restriction_d__usage	O
+48l0l3	présence_d__impacts_résiduels	T
+
+#Dans son courrier du 02/04/2015, AS24 propose de mettre en place les recommandations énoncées ci-dessus.
+
+49l0l0	Dans_son_courrier_du	R
+49l0l1	02_04_2015___AS24_propose	O
+
+#L’inspection des installations classées, dans son rapport du 23/12/2015, a demandé à l’exploitant de transmettre :
+
+50l0l0	installations	T
+50l1l0	classées	I
+
+#- les justificatifs d’élimination des distributeurs de carburants et des canalisations, afin de pouvoir acter la mise en sécurité du site ;
+
+51l0l0	__les_justificatifs_d__élimination_des_distributeurs	O
+51l0l1	carburants_et_des	T
+
+#- les nouveaux résultats d’analyses des eaux souterraines et des gaz du sol, réalisées dans le cadre de la surveillance semestrielle ;
+
+52l0l0	souterraines_et_des_gaz	O
+52l0l1	__réalisées_dans	O
+52l0l2	surveillance_semestrielle	N
+52l1l0	des_eaux_souterraines_et_des_gaz	U
+
+#- un bilan coûts / avantages justifiant la réalisation d’un dossier de restriction d’usage plutôt que la mise en œuvre d’un traitement complémentaire sur le site.
+
+53l0l0	restriction_d_	N
+53l0l1	usage_plutôt_que	R
+53l0l2	la_mise_en_œuvre_d__un_traitement	A
+
+#Par courrier du 15/02/2016, l’exploitant a transmis le rapport relatif à l’identification des options de gestion réalisé en février 2016, suite aux investigations complémentaires.
+
+54l0l0	Par_courrier_du	O
+54l0l1	exploitant_a_transmis_le	N
+54l0l2	rapport_relatif_à_l__identification	O
+54l0l3	des	R
+54l0l4	options_de_gestion_réalisé_en_février	N
+
+#L’option retenue par AS 24 est le maintien du recouvrement de surface par des matériaux sains avec une surveillance de la qualité des eaux souterraines et des gaz du sol semestrielle, et la réalisation d’un dossier de restriction d’usage.
+
+55l0l0	retenue_par_AS_24_est	T
+55l0l1	le_maintien_du	O
+55l0l2	recouvrement	N
+55l0l3	de	O
+55l0l4	surface_par	R
+55l0l5	des_matériaux_sains_avec_une_surveillance	O
+55l0l6	de_la_qualité	N
+55l0l7	des_eaux	T
+55l0l8	souterraines	R
+55l0l9	et_des_gaz_du_sol_semestrielle___et	N
+
+#Cette option a été jugée la plus favorable au regard des enjeux sanitaires, techniques et financiers.
+
+56l0l0	financiers__	A
+56l1l0	jugée_la	I
+
+#L’inspection des installations classées, dans son rapport du 03/05/2016 a pris note que AS24 :
+
+57l0l0	L__inspection	O
+
+#- à l’issue d’un bilan coûts/avantages a choisi de ne pas traiter les pollutions résiduelles présentes sur le site, mais de maintenir un recouvrement de surface avec des matériaux inertes avec une surveillance semestrielle des milieux et la constitution d’un dossier de restrictions d’usages ;
+
+58l0l0	__à_l__issue_d__un_bilan_coûts___avantages_a_choisi	O
+58l0l1	traiter_les_pollutions	T
+58l1l0	résiduelles_présentes	I
+
+#- va faire procéder au remplacement des piézomètres PZ2 et PZ3 et à la réfection du piézair PZA1 ;
+
+59l0l0	piézomètres_PZ2_et_PZ3_et	N
+59l0l1	à_la_réfection_du_piézair	O
+
+#- va poursuivre la surveillance semestrielle des milieux.
+
+60l0l0	va_poursuivre_la	N
+60l0l1	surveillance_semestrielle_des_milieux	N
+
+#Un dossier, proposant l'institution de servitudes d'utilité publique, a été transmis par AS24 par courrier du 04/07/2016.
+
+61l0l0	Un_dossier__	N
+61l0l1	proposant_l__institution_de_servitudes	A
+61l0l2	d__utilité	O
+
+#Il a été jugé recevable par l'inspection des installations classées, dans son rapport du 22/09/2016.
+
+62l0l0	Il_a_été_jugé	O
+62l0l1	par	N
+62l0l2	l__inspection_des_installations_classées___dans	O
+62l0l3	son_rapport_du	N
+62l1l0	22_09_2016	I
+
+#L'arrêté  préfectoral instituant des servitudes d'utilité publique a été signé le 24/07/2019.
+
+63l0l0	L_	O
+63l0l1	arrêté___préfectoral	N
+63l0l2	instituant_des_servitudes_d__utilité_publique	O
+63l0l3	24_07_2019__	T
+
+#Sauf élément nouveau, ce site n'appelle plus d'action de l'inspection des installations classées.
+
+64l0l0	Sauf_élément_nouveau__	O
+64l0l1	ce	R
+64l0l2	site_n_	N
+64l0l3	appelle_plus_d__action_de_l__inspection	O
+64l0l4	des	N
+64l0l5	installations_classées__	T

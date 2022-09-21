@@ -1,0 +1,397 @@
+
+#58.0017
+#La société ANVIS France (Ex WOCO) est spécialisée dans la fabrication de:
+
+0l0l0	La_société_ANVIS_France	O
+0l0l1	WOCO	O
+0l0l2	est_spécialisée_dans_la_fabrication_de__	A
+0l1l0	société_ANVIS_France	I
+0l1l1	WOCO	I
+
+#- pièces antivibratoires pour l'automobile
+
+
+#- pièces antivibratoires pour l'industrie et le ferroviaire
+
+2l0l0	l__industrie	O
+2l0l1	le_ferroviaire	O
+2l1l0	ferroviaire	I
+
+#- manchons compensateurs pour les canalisations
+
+3l0l0	manchons_compensateurs	O
+
+#- pièces élastomériques et de dissolution.
+
+4l0l0	dissolution	N
+
+#Historiquement, le site était exploité au début du siècle (avant 1939) par:
+
+5l0l0	le_site	O
+5l0l1	était_exploité	N
+5l0l2	au_début_du_siècle	T
+5l0l3	avant_1939	T
+
+#- une chapellerie et une centrale thermique en partie Est de l'usine actuelle
+
+6l0l0	chapellerie	O
+6l0l1	une_centrale_thermique	O
+6l0l2	en_partie_Est_de_l__usine_actuelle	L
+
+#- une mine de Kaolin sur la partie Ouest du site dès 1868 et jusqu'à 1963.
+
+7l0l0	Kaolin	O
+7l0l1	sur_la_partie_Ouest_du_site	L
+7l0l2	dès_1868_et_jusqu__à_1963	T
+7l1l0	Kaolin	S
+
+#A partir de 1939, le site a été exploité pat la société Kleber Colombes dont les activité étaient initialement localisées en lieu et place de la chapellerie.
+
+8l0l0	A_partir_de_1939	T
+8l0l1	le_site	O
+8l0l2	a_été_exploité	N
+8l0l3	la_société_Kleber_Colombes	O
+8l0l4	les_activité	O
+8l0l5	étaient_initialement_localisées	N
+8l0l6	en_lieu_et_place_de_la_chapellerie	L
+8l1l0	la_société_Kleber_Colombes	I
+
+#Le développement des activités dans les années 1960 et 1980 a entraîné l'agrandissement des bâtiments vers l'Ouest.
+
+9l0l0	Le_développement_des_activités	N
+9l0l1	dans_les_années_1960_et_1980	T
+9l0l2	a_entraîné	N
+9l0l3	l__agrandissement_des_bâtiments	N
+9l0l4	vers_l__Ouest	L
+
+#En 1982, le groupe Kleber est intégré au groupe Michelin ; l'usine de Decize prend alors le nom de Michelin AVS en 1999.
+
+10l0l0	En_1982	T
+10l0l1	le_groupe_Kleber	O
+10l0l2	est	N
+10l0l3	intégré_au	R
+10l0l4	groupe_Michelin	O
+10l0l5	l__usine	O
+10l0l6	Decize	O
+10l0l7	prend_alors_le_nom	N
+10l0l8	Michelin	O
+10l0l9	AVS	N
+10l0l10	en_1999	T
+10l1l0	le_groupe_Kleber	I
+10l1l1	groupe_Michelin	I
+10l1l2	Michelin_AVS	I
+
+#En 2000, une "joint venture" est réalisée avec le groupe WOCO.
+
+11l0l0	En_2000__	T
+11l0l1	une	O
+11l0l2	__joint_venture	N
+11l0l3	le_groupe_WOCO	O
+11l1l0	le_groupe_WOCO	I
+
+#Le site est dénommé WOCO Decize SAS dès 2004.
+
+12l0l0	Le_site	O
+12l0l1	est_dénommé	N
+12l0l2	WOCO_Decize	O
+12l0l3	dès_2004__	T
+12l1l0	WOCO_Decize	I
+
+#Depuis 2008, l'usine est exploitée par Anvis France Decize SAS.
+
+13l0l0	Depuis_2008__	T
+13l0l1	l__usine	O
+13l0l2	est_exploitée	N
+13l0l3	Anvis_France_Decize	O
+13l1l0	Anvis_France	I
+
+#Depuis 1994, le site Anvis France de Decize (ancien site Kleber, Michelin AVS, puis WOCO) a fait l'objet de plusieurs audits et diagnostics sur la pollution des sols, concernant l'usine des Caillots et un terrain annexe, dit "Hangar Brossard".
+
+14l0l0	Depuis_1994__	T
+14l0l1	le_site_Anvis_France	O
+14l0l2	Decize	O
+14l0l3	Kleber	O
+14l0l4	WOCO	O
+14l0l5	a_fait_l__objet_de	R
+14l0l6	plusieurs_audits	N
+14l0l7	diagnostics	N
+14l0l8	la_pollution_des_sols	O
+14l0l9	un_terrain_annexe	O
+14l0l10	dit	R
+14l1l0	le_site_Anvis_France	I
+14l1l1	Kleber___Michelin_AVS	I
+14l1l2	WOCO	I
+
+#Ces études, partiellement encadrées par les arrêtés préfectoraux du 1er décembre 2004 et du 2 juin 2006, ont mis en évidence l’existence de plusieurs zones de pollution du sol et du sous-sol, dues aux activités industrielles exercées sur ces terrains.
+
+15l0l0	Ces_études	N
+15l0l1	encadrées_par	R
+15l0l2	les_arrêtés_préfectoraux	O
+15l0l3	1er_décembre_2004_et_du_2_juin_2006__	T
+15l0l4	ont_mis_en_évidence	R
+15l0l5	l__existence	O
+15l0l6	plusieurs_zones_de_pollution	O
+15l0l7	aux_activités_industrielles_exercées_sur	R
+15l0l8	ces_terrains	O
+
+#Elles sont énumérées ci-après :
+
+
+#1994: audit environnemental interne
+
+17l0l0	1994	T
+17l0l1	__audit_environnemental_interne	N
+
+#1998: études de la qualité des sols au droit de l'ancienne zone de traitement de surface du site Kleber à Decize
+
+18l0l0	1998	T
+18l0l1	la_qualité_des_sols	O
+18l0l2	au_droit_de	L
+18l0l3	l__ancienne_zone_de_traitement_de	O
+18l0l4	Kleber	O
+18l0l5	Decize	O
+18l1l0	Kleber	I
+
+#2000: "phase II environnemental investigation"
+
+19l0l0	2000	T
+19l0l1	investigation	N
+
+#2001: "étude de reconnaissance détaillée et recommandations de travaux"
+
+20l0l0	2001	T
+
+#2003 et 2004: investigations lors des travaux de démantèlement du parc à citernes et campagnes de traitement de la nappe phréatique dans la zone Est du site
+
+21l0l0	2003	T
+21l0l1	et_2004	T
+21l0l2	__investigations_lors	N
+21l0l3	des_travaux_de_démantèlement	N
+21l0l4	parc_à_citernes	O
+21l0l5	campagnes_de_traitement_de	N
+21l0l6	dans_la_zone_Est_du_site	L
+21l1l0	citernes	D
+
+#2004: "reconnaissance détaillée de pollution par les solvants chlorés dans le sous-sol de la zone Ouest"
+
+22l0l0	2004	T
+22l0l1	reconnaissance	N
+22l0l2	la_zone_Ouest	O
+22l1l0	solvants_chlorés	U
+
+#2005: évaluation simplifiée des risques (ESR)
+
+23l0l0	2005	T
+23l0l1	évaluation_simplifiée_des_risques	N
+
+#2006: diagnostic approfondie, étude détaillée des risques (EDR)
+
+24l0l0	2006	T
+24l0l1	__diagnostic_approfondie	N
+
+#2009: plan de gestion pour la réhabilitation du site.
+
+25l0l0	2009	T
+25l0l1	plan_de_gestion	O
+25l0l2	la_réhabilitation	N
+25l0l3	site	O
+
+#L'audit environnemental de 1994, dont l'objectif était de rechercher des mesures préventives, a recensé 26 aires potentiellement contaminées (APC), réparties de manière générale à l'Ouest et à l'Est du site.
+
+26l0l0	L__audit_environnemental	N
+26l0l1	de_1994__	T
+26l0l2	26_aires_potentiellement_contaminées___APC	O
+26l0l3	à_l__Ouest_et_à_l__Est_du_site	L
+
+#En 2003/2004, un traitement de nappe a été réalisé au droit d'une zone située à l'Est du site et identifiée comme bien impactée par des fuites de polluants provenant de cuves de solvants chlorés.
+
+27l0l0	En_2003_2004	T
+27l0l1	un_traitement_de_nappe	N
+27l0l2	a_été_réalisé	N
+27l0l3	au_droit_d__une_zone_située_à_l__Est_du_site	L
+27l0l4	identifiée_comme	R
+27l0l5	bien_impactée	N
+27l0l6	par	O
+27l0l7	des_fuites_de_polluants	N
+27l0l8	cuves_de_solvants_chlorés	O
+27l1l0	polluants_provenant_de_cuves_de	D
+27l1l1	solvants_chlorés	U
+
+#La première étude complète du site a été réalisée sous la forme d'une évaluation simplifiée des risques (ESR) conformément à l'ancienne réglementation en vigueur en matière de site et sols pollués.
+
+28l0l0	La_première_étude_complète	N
+28l0l1	site	O
+28l0l2	a_été_réalisée	N
+28l0l3	sous_la_forme_d_	R
+28l0l4	une_évaluation_simplifiée_des_risques	N
+28l0l5	ESR	O
+
+#Au final 1es sources de pollution ont été correctement identifiées.
+
+29l0l0	1es_sources_de_pollution	O
+29l0l1	ont_été_correctement_identifiées	N
+
+#D'une manière générale, les études menées jusqu'à l'ESR, ont mis en évidence que la contamination des sols était généralement attribuable à des structures de stockage ou des zones d'utilisation industrielle de solvants chlorés.
+
+30l0l0	la_contamination	O
+30l0l1	structures_de_stockage	O
+30l0l2	des_zones	O
+30l0l3	d__utilisation_industrielle_de_solvants_chlorés	A
+30l1l0	solvants_chlorés	U
+
+#La contamination de la nappe était en revanche plus étendue et renfermait principalement des composés en solvants chlorés, hydrocarbures totaux, arsenic, plomb et nickel.
+
+31l0l0	La_contamination	O
+31l0l1	la_nappe	O
+31l1l0	composés_en_solvants_chlorés	S
+31l1l1	hydrocarbures_totaux	S
+31l1l2	arsenic	S
+31l1l3	plomb	S
+31l1l4	nickel	S
+
+#Le diagnostic approfondi réalisé en 2006 avait pour but de:
+
+32l0l0	Le_diagnostic_approfondi	N
+32l0l1	réalisé	N
+32l0l2	en_2006	T
+32l0l3	avait_pour	R
+
+#- définir au mieux l'étendue de la pollution dans les sols et dans la nappe
+
+
+#- vérifier les éventuels transferts à l'extérieur du site
+
+
+#- fournir les données nécessaires à l'établissement de l'EDR
+
+35l0l0	l__établissement	N
+
+#- fournir les données nécessaires à la définition des éventuels travaux de réhabilitation du site.
+
+36l0l0	éventuels_travaux_de_réhabilitation	N
+
+#Lors de ce diagnostic, il a été procédé à:
+
+37l0l0	ce_diagnostic	N
+
+#- environ 35 prélèvements d'eau de la nappe
+
+38l1l0	nappe	U
+
+#- une vingtaine de prélèvements d'eaux superficielles
+
+
+#- plus d'une trentaine de forage de reconnaissance des sols
+
+40l0l0	reconnaissance_des_sols	N
+
+#- la mise en place de 3 nouveaux piézomètres
+
+41l0l0	la_mise_en_place_de	N
+41l0l1	3_nouveaux_piézomètres	O
+
+#- la réalisation d'une centaine de prélèvements de sols
+
+
+#- plus de 3000 analyses en laboratoires portant sur divers polluants susceptibles d'être présents dans les sols et dans les eaux souterraines.
+
+43l1l0	polluants	S
+
+#Ces investigations ont mis en évidence plusieurs zones contaminées par des solvants chlorés aussi bien dans les sols que dans la nappe souterraine.
+
+44l0l0	Ces_investigations	N
+44l0l1	plusieurs_zones_contaminées	O
+44l1l0	solvants_chlorés	S
+
+#De même, des contaminations multiples liées à des fuites d'huile de presse ont été observées.
+
+45l0l0	des_contaminations	O
+45l0l1	huile_de_presse	O
+45l0l2	ont_été_observées	N
+
+#L'écoulement de la nappe, en direction du sud, a engendré un transfert de solvants chlorés à l'extérieur du site avec un dépassement des normes acceptables pour les eaux souterraines hors site.
+
+46l0l0	L__écoulement	N
+46l0l1	la_nappe	O
+46l0l2	en_direction_du_sud	L
+46l0l3	a_engendré	N
+46l0l4	à_l__extérieur_du_site	L
+46l0l5	un_dépassement_des_normes	N
+46l1l0	solvants_chlorés	S
+
+#Suite à ce diagnostic et à l'étude détaillée des risques, il a été recommandé la mise en œuvre des actions suivantes:
+
+47l0l0	ce_diagnostic	N
+47l0l1	la_mise_en_œuvre	N
+
+#- mise en place du suivi de la qualité des eaux de la nappe au droit du site.
+
+48l0l0	mise_en_place_du	N
+48l0l1	suivi_de	A
+48l0l2	la_qualité_des_eaux	O
+48l0l3	la_nappe	O
+48l0l4	au_droit_du_site	L
+
+#Les composés recherchés sont les solvants chlorés, les hydrocarbures totaux, les conpoés aromatiques volatils, les composés organo-halogénés volatils et les métaux lourds.
+
+49l1l0	solvants_chlorés	U
+49l1l1	hydrocarbures_totaux	S
+49l1l2	les_conpoés_aromatiques_volatils	S
+49l1l3	les_composés_organo___halogénés_volatils	S
+49l1l4	métaux_lourds	S
+
+#- réalisation du suivi semestriel de la qualité des eaux de l'Aron
+
+50l0l0	réalisation	N
+50l0l1	du_suivi_semestriel_de_la_qualité_des_eaux_de	A
+50l0l2	l__Aron	L
+
+#- mise en place d'un moyen de résorption des contaminations de la zone Est par mise en place de la tour de stripping.
+
+51l0l0	mise_en_place_d_	N
+51l0l1	un_moyen_de_résorption	N
+51l0l2	contaminations	N
+51l0l3	la_zone_Est	O
+51l0l4	mise_en_place	N
+51l0l5	la_tour_de_stripping	O
+
+#- réalisation d'un plan de gestion.
+
+52l0l0	réalisation_d_	R
+52l0l1	un_plan_de_gestion	O
+
+#En 2009, un descriptif détaillé des plans de gestion retenus pour les différentes zones (dont le Hangar Brossard) a été transmis à l'inspection des installations classées.
+
+53l0l0	En_2009__	T
+53l0l1	un_descriptif_détaillé_des_plans_de_gestion_retenus	O
+53l0l2	les_différentes_zones	O
+53l0l3	a_été_transmis	N
+53l0l4	l__inspection_des_installations_classées	O
+
+#Les travaux de dépollution ont commencé en juillet 2010 conformément au plan de gestion sus-visé.
+
+54l0l0	Les_travaux_de_dépollution	N
+54l0l1	ont_commencé	N
+54l0l2	en_juillet_2010	T
+54l0l3	conformément_au	R
+54l0l4	plan_de_gestion	O
+
+#Les résultats des campagnes de surveillance de la qualité des eaux souterraines ont été transmis à l'inspection des installations classées dès janvier 2006 conformément à l'arrêté préfectoral du
+
+55l0l0	Les_résultats_des_campagnes_de_surveillance_de_la_qualité_des_eaux_souterraines	A
+55l0l1	ont_été_transmis	N
+55l0l2	l__inspection_des_installations_classées	O
+55l0l3	dès_janvier_2006	T
+55l0l4	conformément_à	R
+55l0l5	l_	O
+
+#2 juin 2006.
+
+56l0l0	2_juin_2006__	T
+
+#Les campagnes de surveillance de la qualité des eaux de l'Aron ont été, quant à elles, transmises à échéance semestrielle telle que le prévoyait l'arrêté préfectoral sus-visé.
+
+57l0l0	Les_campagnes_de_surveillance	N
+57l0l1	la_qualité_des_eaux_de	O
+57l0l2	l__Aron	L
+57l0l3	ont_été___quant_à_elles___transmises	N

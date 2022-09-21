@@ -1,0 +1,124 @@
+
+#59.0289
+#Le site de Denain a accueilli une usine fabriquant du gaz à partir de la distillation de la houille de 1857 à 1968 (l'étude historique n'a pas permis de retrouver l'emplacement des éventuelles cuves à goudron sur des plans ; cependant, avec l'aide d'un ancien exploitant, les travaux de recherche des cuves ont abouti, puisqu'une cuve de 4 m de long, 3 m de large et 2,5 m de haut a été trouvée devant les bâtiments de l'aile est de l'agence ; aucune autre cuve n'a été repérée)
+
+0l0l0	Le_site	O
+0l0l1	Denain	O
+0l0l2	a_accueilli	N
+0l0l3	une_usine	O
+0l0l4	fabriquant_du_gaz	A
+0l0l5	à_partir_de	R
+0l0l6	la_distillation_de_la_houille	A
+0l0l7	de_1857_à_1968	T
+0l0l8	un_ancien_exploitant	O
+0l0l9	les_travaux_de_recherche	N
+0l0l10	cuves	O
+0l0l11	une_cuve	O
+0l0l12	2_5_m_de_haut	O
+0l0l13	a_été_trouvée	N
+0l0l14	devant_les_bâtiments_de_l__aile_est_de_l__agence	L
+0l1l0	éventuelles_cuves	D
+
+#Cette cuve a été vidée, nettoyée et remblayée par du sablon et du coulis de béton en janvier 2004.
+
+1l0l0	Cette_cuve	O
+1l0l1	a_été_vidée	N
+1l0l2	nettoyée	N
+1l0l3	remblayée_par	N
+1l0l4	du_sablon	O
+1l0l5	coulis_de_béton	N
+1l0l6	en_janvier_2004__	T
+
+#Actuellement, il est utilisé par EDF - Gaz Services Hainaut Cambrésis (bureaux, locaux techniques, maison individuelle, poste gaz, friche, parkings et voies de circulation).
+
+2l0l0	Gaz_Services_Hainaut_Cambrésis	O
+2l1l0	EDF	I
+2l1l1	Gaz_Services_Hainaut_Cambrésis	I
+2l1l2	bureaux	D
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+3l0l0	Gaz_de_France	O
+3l0l1	a_hiérarchisé	N
+3l0l2	ses_actions	O
+3l0l3	467_sites	O
+3l1l0	Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement  (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site...).
+
+4l0l0	hiérarchiser	N
+4l0l1	les_sites	O
+4l0l2	en_fonction_de	R
+4l0l3	leur_sensibilité	O
+4l0l4	vis_à_vis_de	R
+4l0l5	l__environnement	O
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+5l0l0	L__application	N
+5l0l1	cette_méthode	O
+5l0l2	a_abouti_à	R
+5l0l3	l__établissement	N
+5l0l4	5_classes_de_priorité	O
+5l0l5	les_engagements	O
+5l0l6	Gaz_de_France	O
+5l0l7	ont_fait_l__objet_d_	R
+5l0l8	un_protocole_d__accord	O
+5l0l9	relatif_à	R
+5l0l10	la_maîtrise	O
+5l0l11	suivi	O
+5l0l12	la_réhabilitation	N
+5l0l13	anciens_terrains_d__usines_à_gaz	O
+5l0l14	entre	R
+5l0l15	le_Ministère_de_l__Environnement	O
+5l0l16	Gaz_de_France	O
+5l0l17	signé	N
+5l0l18	le_25_avril_1996	T
+5l1l0	Gaz_de_France	I
+5l1l1	le_Ministère_de_l__Environnement	I
+5l1l2	Gaz_de_France	I
+
+#Le site de Denain est en classe 3 du protocole.
+
+6l0l0	Le_site_de_Denain	O
+
+#De ce fait, c'est un site dont la sensibilité vis à vis de l'homme, des eaux souterraines et superficielles est faible.
+
+
+#-Les différentes investigations réalisées ont permis de retrouver l'ancienne cuve à goudron.
+
+8l0l0	investigations_réalisées	N
+8l0l1	l__ancienne_cuve_à_goudron	O
+
+#Celle-ci contient un mélange d'eau, de remblais et de goudron.
+
+9l0l0	goudron	O
+
+#es travaux de vidange et élimination ont été réalisés entre le 12 et le 21 janvier 2004.
+
+10l0l0	es_travaux_de_vidange_et_élimination	N
+10l0l1	ont_été_réalisés	N
+10l0l2	entre_le_12_et_le_21_janvier_2004__	T
+
+#-4.42 tonnes d'eaux souillées ont été pompées et transportées vers le centre d'élimination.
+
+11l0l0	_4_42_tonnes_d__eaux_souillées	O
+11l0l1	ont_été_pompées	N
+11l0l2	et_transportées	N
+11l0l3	vers_le_centre_d_	L
+
+#11,34 tonnes de remblais souillés ont été excavés et évacués.
+
+12l0l0	11_34_tonnes_de_remblais_souillés	O
+12l0l1	ont_été_excavés	N
+12l0l2	évacués	N
+
+#La cuve a ensuite été remblayée par du sablon et du coulis de béton.
+
+13l0l0	La_cuve	O
+13l0l1	a_ensuite_été_remblayée	N
+13l0l2	du_sablon	O
+
+#Site basculable sur BASIAS.
+
+14l0l0	BASIAS	O

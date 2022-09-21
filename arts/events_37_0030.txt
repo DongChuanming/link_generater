@@ -1,0 +1,338 @@
+
+#37.0030
+#Le site de la société  «Pal Pack», d’une superficie d’environ 7 hectares, est situé sur la commune de Mazières de Touraine (37130), à l’adresse : le Vivier des Landes.
+
+0l0l0	Le_site	O
+0l0l1	la_société	O
+0l0l2	__est_situé_sur_la_commune_de_Mazières_de_Touraine___37130	L
+0l0l3	__à_l__adresse___le_Vivier_des_Landes	L
+0l1l0	__Pal_Pack	I
+
+#Il est composé des parcelles suivantes : K39, K40, K271, K272, K274, K275, K276, K277, K392, K393, K448, K558, K560 et K562.
+
+
+#Le propriétaire du terrain est la SCEA domaine de Coralie, appartenant à l’ancien gérant de la société Pal Pack.
+
+2l0l0	Le_propriétaire_du_terrain	O
+2l0l1	la_SCEA_domaine_de_Coralie	O
+2l0l2	appartenant_à	R
+2l0l3	l_	O
+2l0l4	la_société_Pal_Pack	O
+2l1l0	la_SCEA	I
+2l1l1	la_société_Pal_Pack	I
+
+#Depuis 2007, le site à été utilisé par la société Pal Pack pour son activité de négoce, tri, transit et regroupement des déchets.  Précédemment le site était occupé par une exploitation de volailles.
+
+3l0l0	Depuis_2007__	T
+3l0l1	le_site	O
+3l0l2	à_été_utilisé	N
+3l0l3	la_société_Pal_Pack	O
+3l0l4	son_activité_de_négoce	A
+3l0l5	transit_et_regroupement_des_déchets	O
+3l0l6	Précédemment	R
+3l0l7	le_site	O
+3l0l8	était_occupé_par	R
+3l0l9	une_exploitation	O
+3l0l10	de_volailles	A
+3l1l0	la_société_Pal_Pack	I
+
+#Le site est situé à environ 50 mètres d’un ruisseau alimentant le grand étang de Crémille.
+
+4l0l0	Le_site	O
+4l0l1	est_situé_à_environ_50_mètres_d__un_ruisseau_alimentant_le_grand_étang_de_Crémille	L
+
+#Les limites au nord du site sont voisines d’une habitation à 100 mètres et au sud de l’élevage du Vivier des Landes.
+
+5l0l0	Les_limites	O
+5l0l1	au_nord_du_site	L
+5l0l2	sont_voisines_d__une_habitation_à_100_mètres_et_au_sud_de_l__élevage	L
+5l0l3	Vivier	O
+5l0l4	des_Landes	L
+
+#Cette zone comprend une maison d’habitation, un puits et un étang de collecte des eaux pluviales.
+
+6l0l0	Cette_zone	O
+6l0l1	comprend_une_maison_d__habitation	O
+6l0l2	un_puits	O
+6l0l3	un_étang_de_collecte	O
+
+#L’étude hydrographique évalue la profondeur de la nappe à 10 mètres.
+
+
+#Cependant, selon le plan d’occupation des sols (POS), le site se situe en zone naturelle protégée et en zone de richesse naturelle à protéger.
+
+8l0l0	le_site	O
+8l0l1	se_situe_en_zone_naturelle_protégée	L
+
+#Ainsi le site n’est pas compatible avec le POS.
+
+
+#Au mois de juillet 2011, un riverain a adressé une  plainte à la DREAL Centre.
+
+10l0l0	Au_mois_de_juillet_2011__	T
+10l0l1	un_riverain	O
+10l0l2	a_adressé	N
+10l0l3	à_la_DREAL_Centre	O
+10l1l0	à_la_DREAL_Centre	I
+
+#Il fait état d’une pollution de son plan d’eau lié à un stockage de déchets et de graisse sur le terrain de la société Pal-Pack, et de nuisances olfactives.
+
+11l0l0	Il	O
+11l0l1	une_pollution	N
+11l0l2	son_plan_d__eau	O
+11l0l3	lié_à	R
+11l0l4	un_stockage_de_déchets	O
+11l0l5	graisse	O
+11l0l6	sur_le_terrain	N
+11l0l7	la_société_Pal___Pack	O
+11l1l0	la_société_Pal___Pack	I
+
+#Suite à la plainte, la DREAL centre a réalisé une inspection le 27 octobre 2011.
+
+12l0l0	la_DREAL_centre	O
+12l0l1	a_réalisé	N
+12l0l2	une_inspection	N
+12l0l3	le_27_octobre_2011__	T
+12l1l0	la_DREAL_centre	I
+
+#Des déchets non dangereux et susceptibles d'être dangereux sont éparpillés sur une superficie d’environ 3,5 hectares (Le site est un ancien élevage de volailles).
+
+13l0l0	Le_site	O
+13l0l1	un_ancien_élevage	O
+13l0l2	de_volailles	A
+13l1l0	Des_déchets_non_dangereux	U
+
+#Les conditions de stockage, absence totale de rétention notamment, présentent un risque de pollution des sols et des eaux.
+
+
+#Le sol est meuble et la végétation  recouvre une partie des déchets.
+
+
+#Les déchets recensés sont des contenants : fûts métalliques et plastiques, cuves, big-bags, ou des palettes de bois.
+
+16l1l0	Les_déchets	U
+16l1l1	des_contenants	D
+16l1l2	fûts_métalliques	S
+16l1l3	plastiques	S
+
+#De nombreuses cuves ou fûts sont remplis de liquide dont la nature est inconnue.
+
+
+#Un jugement de liquidation judiciaire de la société PAL PACK a été prononcé le 22 novembre 2011 par le tribunal de commerce de Tours.
+
+18l0l0	Un_jugement_de_liquidation_judiciaire	N
+18l0l1	la_société_PAL_PACK	O
+18l0l2	a_été_prononcé	N
+18l0l3	le_22_novembre_2011	T
+18l0l4	le_tribunal_de_commerce_de_Tours	O
+18l1l0	la_société_PAL_PACK	I
+
+#Au vu des conditions observées sur le site, des sanctions administratives ont été proposées par l'inspecteur des installations classées.
+
+19l0l0	des_sanctions_administratives	O
+19l0l1	ont_été	N
+19l0l2	l__inspecteur_des_installations_classées	O
+
+#La société Pal Pack, par le biais de son liquidateur judiciaire, a été mise en demeure d’évacuer les déchets stockés sur le site par l’arrêté du 30 janvier 2012.
+
+20l0l0	La_société_Pal_Pack	O
+20l0l1	a_été_mise_en_demeure_d__évacuer_les_déchets_stockés	N
+20l0l2	sur_le_site	L
+20l0l3	30_janvier_2012__	T
+20l1l0	La_société_Pal_Pack	I
+20l1l1	les_déchets	U
+
+#Le préfet a prescrit, par arrêté préfectoral n°19176 du 28 février 2012, un diagnostic de l’état des milieux.
+
+21l0l0	Le_préfet	O
+21l0l1	a_prescrit	N
+21l0l2	par_arrêté_préfectoral	O
+21l0l3	19176_du_28_février_2012__	T
+21l0l4	un_diagnostic	N
+21l0l5	l__état_des_milieux	O
+21l1l0	Le_préfet	I
+
+#La société C.
+
+22l0l0	La_société_C_	O
+
+#.E.
+
+
+#, pour le compte du mandataire judiciaire, a mandaté la société BUREAU VERITAS pour la réalisation de ce diagnostic.
+
+24l0l0	a_mandaté	N
+24l0l1	la_société_BUREAU_VERITAS	O
+24l0l2	la_réalisation_de_ce_diagnostic	N
+24l1l0	la_société_BUREAU_VERITAS	I
+
+#Celle-ci a rendu un rapport en date du 5 juillet 2012 qui révèle des teneurs en hydrocarbures et en mercure dans le sol et la présence de cadmium dans les eaux.
+
+25l0l0	a_rendu	N
+25l0l1	un_rapport	N
+25l0l2	en_date_du_5_juillet_2012	T
+25l0l3	la_présence_de_cadmium	O
+25l1l0	hydrocarbures	S
+25l1l1	mercure	S
+25l1l2	cadmium	S
+
+#Il a été constaté lors de la visite d'inspection du site du 6 août 2012 que les déchets n'ont pas été évacués.
+
+26l0l0	Il	O
+26l0l1	a_été_constaté	N
+26l0l2	lors	T
+26l0l3	de_la_visite	N
+26l0l4	d__inspection	N
+26l0l5	6_août_2012	T
+26l0l6	ont_pas_été_évacués	N
+26l1l0	les_déchets	U
+
+#Suite à ces constatations, un arrêté de consignation de fonds a été pris à l'encontre du mandataire judiciaire et correspondant au coût  du montant des opérations pour évacuer les déchets.
+
+27l0l0	un_arrêté_de_consignation_de_fonds	O
+27l0l1	a_été_pris	N
+27l0l2	du_mandataire_judiciaire	N
+27l0l3	pour_évacuer	N
+27l0l4	les_déchets	O
+
+#Le 20 août 2012, le mandataire judiciaire informe le préfet qu'il ne peut déférer à la demande de consignation.
+
+28l0l0	Le_20_août_2012__	T
+28l1l0	le_préfet	I
+
+#Le 5 septembre 2012, l'inspection des installations classées propose des investigations complémentaires suite à l'insuffisance du diagnostic pollution initial.
+
+29l0l0	Le_5_septembre_2012__	T
+29l0l1	l__inspection_des_installations_classées	O
+29l0l2	propose_des_investigations_complémentaires	O
+29l0l3	suite_à	R
+29l0l4	l__insuffisance_du_diagnostic_pollution_initial	N
+
+#Le responsable du site étant défaillant, l'inspection des installations classées formule une demande pour obtenir une intervention de l'Agence De l'Environnement et de la Maîtrise de l'Energie (ADEME) le 24 septembre 2012.
+
+30l0l0	Le_responsable_du_site	O
+30l0l1	l__inspection_des_installations_classées	O
+30l0l2	formule_une_demande	N
+30l0l3	obtenir_une_intervention	N
+30l0l4	l__Agence_De_l__Environnement	O
+30l0l5	l__Energie	O
+30l0l6	le_24_septembre_2012__	T
+
+#Les 22 octobre et 19 novembre 2012, l'inspection a réalisé deux visites conjointes avec l'ADEME pour que l'agence puisse dresser un état des lieux du site et proposer un scénario des opérations à mener.
+
+31l0l0	Les_22_octobre_et_19_novembre_2012__	T
+31l0l1	l__inspection	O
+31l0l2	a_réalisé_deux_visites_conjointes	N
+31l0l3	avec_l__ADEME	O
+31l0l4	un_état_des_lieux	N
+31l0l5	un_scénario_des_opérations	O
+
+#Le 28 février 2013, l'ADEME formule une estimation financière des opérations à mener pour mettre le site en sécurité et notamment évacuer les déchets.
+
+32l0l0	Le_28_février_2013__	T
+32l0l1	l__ADEME	O
+32l0l2	une_estimation_financière	O
+32l0l3	évacuer	N
+32l1l0	les_déchets	U
+
+#Le 3 juillet 2013, Monsieur le Préfet d'Indre-et-Loire saisit le Ministère de l'Ecologie pour obtenir l'accord pour une intervention de l'ADEME.
+
+33l0l0	Le_3_juillet_2013__	T
+33l0l1	Monsieur_le_Préfet_d_	O
+33l0l2	Indre_et_Loire_saisit	A
+33l0l3	le_Ministère_de_l__Ecologie	O
+33l0l4	l__accord	O
+33l0l5	une_intervention	O
+33l0l6	l__ADEME	O
+33l1l0	le_Préfet_d_	I
+33l1l1	le_Ministère_de_l__Ecologie	I
+33l1l2	l__ADEME	I
+
+#Le 3 février 2014, le Ministère de l'Ecologie valide la demande d'intervention de l'ADEME.
+
+34l0l0	Le_3_février_2014__	T
+34l0l1	le_Ministère_de_l__Ecologie_valide	O
+34l0l2	la_demande_d__intervention	N
+34l0l3	l__ADEME	O
+34l1l0	le_Ministère_de_l__Ecologie	I
+
+#Un arrêté de travaux d’exécution d'office et un arrêté d'occupation temporaire des sols sont pris le 9 septembre 2014 au profit de l'ADEME.
+
+35l0l0	Un_arrêté_de_travaux_d__exécution_d_	O
+35l0l1	un_arrêté_d__occupation_temporaire_des_sols	O
+35l0l2	sont_pris	N
+35l0l3	le_9_septembre_2014	T
+35l0l4	au_profit_de	R
+35l0l5	l__ADEME	O
+
+#Ces actes administratifs vont permettre à l'agence d'intervenir sur le site.
+
+36l0l0	Ces_actes_administratifs	O
+36l0l1	l__agence	O
+36l0l2	intervenir_sur	R
+36l0l3	le_site	O
+
+#Suite à la découverte de fûts enterrés, dans le cadre d'une opération judiciaire début décembre 2014, le Ministère de l'Ecologie donne son accord, par courrier du 12 février 2015, pour que l'inspection des installations classées propose à Monsieur le Préfet d'Indre-et-Loire de placer l'intervention de l'agence sous les modalités de l'urgence impérieuse.
+
+37l0l0	Suite_à	R
+37l0l1	la_découverte_de_fûts_enterrés	N
+37l0l2	dans_le_cadre_d_	R
+37l0l3	une_opération_judiciaire	N
+37l0l4	début_décembre_2014__	T
+37l0l5	le_Ministère_de_l__Ecologie	O
+37l0l6	donne_son_accord	N
+37l0l7	par_courrier	N
+37l0l8	12_février_2015__	T
+37l0l9	l__inspection_des_installations_classées	O
+37l0l10	Monsieur_le_Préfet_d__Indre_et_Loire	O
+37l0l11	les_modalités	O
+37l0l12	l__urgence_impérieuse	O
+37l1l0	le_Ministère_de_l__Ecologie	I
+37l1l1	le_Préfet	I
+
+#Le 17 mars 2015 est pris l'arrêté de travaux d’exécution de travaux d'office, en situation d'urgence impérieuse, au profit de l'ADEME.
+
+38l0l0	Le_17_mars_2015	T
+38l0l1	est_pris	N
+38l0l2	l__arrêté_de_travaux_d_	O
+38l0l3	exécution_de_travaux	N
+38l0l4	d__office	O
+38l0l5	en_situation_d__urgence_impérieuse	N
+38l0l6	l__ADEME	O
+
+#Les travaux d'évacuation des déchets et de mise en sécurité du site ont débuté début mai 2015.
+
+39l0l0	Les_travaux_d__évacuation	N
+39l0l1	des_déchets	N
+39l0l2	de_mise_en_sécurité	N
+39l0l3	du_site	O
+39l0l4	ont_débuté	N
+39l0l5	début_mai_2015__	T
+
+#L'ADEME est missionnée pour :
+
+40l0l0	L__ADEME	O
+40l0l1	est_missionnée	N
+
+#- Regroupement des conteneurs plastiques vides dispersés à l’extérieur des bâtiments (poubelles conteneurs) à l’abri d’un hangar sur le site.
+
+41l0l0	Regroupement	N
+41l0l1	à_l__extérieur_des_bâtiments	L
+41l1l0	conteneurs_plastiques_vides	U
+
+#- Evacuation et élimination des déchets dangereux et des déchets non dangereux conditionnés.
+
+42l0l0	Evacuation	N
+42l0l1	élimination	N
+42l0l2	déchets_dangereux	N
+42l1l0	des_déchets_non_dangereux	U
+
+#- Réalisation d’une étude géophysique.
+
+43l0l0	Réalisation_d__une_étude_géophysique	N
+
+#- Réalisation d’une interprétation de l’état des milieux, afin de déterminer si le site présente un risque pour la santé et l’environnement pour leurs usages actuels sur site et hors site.
+
+44l0l0	l__état_des_milieux	O
+44l0l1	si_le_site	O
+44l0l2	présente_un_risque	N

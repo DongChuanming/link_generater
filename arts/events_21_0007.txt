@@ -1,0 +1,163 @@
+
+#21.0007
+#La société AMCOR (ex ALCAN) exploite à DIJON une imprimerie sur une surface d'environ 44 000 m².
+
+0l0l0	exploite_à_DIJON	O
+
+#Les principaux ateliers et installations implantés sur le site sont :
+
+1l0l0	Les_principaux_ateliers_et	O
+1l0l1	installations_implantés_sur_le	O
+1l1l0	Les_principaux_ateliers_et	I
+
+#- l'atelier de fabrication des cylindres d'impression
+
+2l0l0	__l__atelier_de_fabrication_des_cylindres_d__impression	O
+
+#- l'atelier de préparation des encres
+
+3l0l0	préparation_des_encres	A
+
+#- les ateliers d'impression et de complexage
+
+4l0l0	de_complexage	O
+4l1l0	complexage	U
+
+#- l'atelier de découpe des opercules
+
+5l0l0	opercules	O
+
+#- des zones de stockage (matières premières, produits semi-finis et finis)
+
+6l0l0	matières_premières___produits_semi_finis_et_finis__	A
+
+#Sur la partie sud de l'établissement (10.000 m²) précédemment occupée par une menuiserie, une pollution des sols et de la nappe par des hydrocarbures a été mise en évidence fin 1992 à l'occasion de travaux.
+
+7l1l0	Sur_la_partie_sud_de_l__établissement	D
+
+#Cet établissement jouxte sur toute sa partie OUEST des installations de la SNCF (voies, ateliers et ancienne distribution de carburant pour locomotives).
+
+8l0l0	Cet	L
+8l0l1	établissement_jouxte	O
+8l0l2	OUEST_des_installations_de_la	R
+8l0l3	SNCF___voies__	O
+8l0l4	ateliers_et_ancienne_distribution	N
+8l0l5	carburant_pour_locomotives	O
+8l0l6	___	N
+8l1l0	carburant_pour_locomotives	S
+
+#Ce site est inscrit à l'inventaire des sols pollués depuis 1994.
+
+9l0l0	Ce_site_est_inscrit	O
+9l0l1	à_l__inventaire_des_sols	L
+9l0l2	pollués	N
+
+#En novembre 1992 la société ALCAN (ex PEFE) constatait lors de travaux ,la présence d'hydrocarbures dans la nappe .
+
+10l0l0	En_novembre	O
+10l0l1	1992_la_société_ALCAN___ex_PEFE___constatait	O
+10l0l2	lors_de_travaux	T
+
+#La caractérisation de la pollution a été faite par étapes de 1993 à 1999 suite à la demande de l'inspection des installations classées pour la protection de l'environnement.
+
+11l0l0	La_caractérisation	T
+11l0l1	de_la_pollution	O
+11l0l2	a_été_faite_par_étapes_de_1993_à_1999	N
+11l0l3	suite_à_la_demande	N
+11l0l4	de_l__inspection	O
+11l1l0	caractérisation_de_la_pollution	I
+11l1l1	été_faite	I
+11l1l2	demande_de_l__inspection	S
+
+#Elle a établi qu'une langue de pollution accompagne le déplacement de la nappe phréatique laquelle se déplace d'OUEST en EST vers la rivière "Ouche".
+
+12l0l0	Elle_a_établi_qu__une_langue_de_pollution	O
+12l0l1	accompagne	N
+12l0l2	le	O
+12l0l3	déplacement_de	T
+12l0l4	la_nappe_phréatique	N
+12l0l5	laquelle_se_déplace_d__OUEST_en_EST_vers_la_rivière	O
+
+#Cette pollution est constituée d'hydrocarbures anciens du type fioul ou gazole.
+
+13l0l0	est_constituée_d_	O
+13l0l1	hydrocarbures_anciens_du_type_fioul	N
+
+#L'origine de la pollution n'a pas été déterminée mais pourrait se situer à la limite de propriété de l'établissement ALCAN.
+
+14l1l0	été_déterminée_mais_pourrait	S
+14l1l1	situer	S
+14l1l2	limite	S
+
+#15 janvier 2001 : par arrêté préfectoral, la SNCF qui occupait lesdits terrains situés en amont a été tenue de réaliser une étude environnementale sur son site afin de contribuer à la détermination de l'origine et de la source de la pollution constatée .
+
+15l0l0	15_janvier_2001___par_arrêté	O
+15l0l1	préfectoral___la_SNCF	N
+15l0l2	lesdits_terrains_situés_en_amont_a	N
+15l0l3	été_tenue_de_réaliser_une_étude	O
+15l1l0	réaliser_une_étude	I
+
+#16 mai 2002 : par arrêté préfectoral, la société ALCAN (PEFE à cette date) s'est vue imposée la réalisation des exigences suivantes:
+
+16l0l0	16_mai_2002___par	T
+16l0l1	arrêté_préfectoral___la_société_ALCAN	O
+16l0l2	__PEFE_à_cette_date___s__est	O
+16l0l3	vue_imposée_la	L
+16l0l4	réalisation_des_exigences	N
+16l0l5	suivantes__	N
+16l1l0	société_ALCAN	I
+
+#- réalisation d'un suivi semestriel de la qualité des eaux souterraines sur au moins 4 piézomètres dont 2 en aval hydraulique de la zone polluée.
+
+17l0l0	__réalisation	T
+17l0l1	d__un_suivi_semestriel	O
+17l0l2	de_la_qualité_des	O
+17l0l3	sur_au_moins_4	N
+17l0l4	piézomètres_dont_2_en_aval_hydraulique	N
+17l1l0	de_la_qualité_des	I
+17l1l1	eaux_souterraines	I
+
+#Les analyses portaient a minima sur les hydrocarbures totaux, les BTEX (benzène, toluène, éthylbenzène et xylènes) et hydrocarbure aromatiques polycycliques (HAP) totaux .
+
+18l0l0	Les_analyses	N
+18l0l1	portaient_a_minima_sur_les_hydrocarbures_totaux___les_BTEX__	A
+18l0l2	éthylbenzène	O
+18l0l3	et_xylènes___et_hydrocarbure_aromatiques	O
+
+#- réalisation d'une évaluation simplifiée des risques (ESR) liée à la pollution observée au droit du site et, le cas échéant, la réalisation d'un diagnostic approfondi et d'une évaluation détaillée des risques (EDR).
+
+19l0l0	__réalisation	N
+19l1l0	simplifiée_des_risques___ESR__	S
+19l1l1	liée_à_la_pollution_observée_au_droit_du_site	S
+19l1l2	__le_cas_échéant___la_réalisation_d__un_diagnostic_approfondi_et_d__une	S
+
+#Les études, remises début 2003, classaient les sites (ALCAN et SNCF) en catégorie 2 ou "à surveiller" vis-à-vis des eaux souterraines, conformément à l'ancienne méthodologie nationale en matière de sites et sols pollués.
+
+20l0l0	Les_études___remises_début_2003___classaient_les_sites___ALCAN	N
+20l0l1	souterraines___conformément_à_l__ancienne_méthodologie	N
+20l0l2	nationale_en_matière_de_sites_et_sols	N
+
+#2009 : le site ALCAN devient AMCOR FLEXIBLES PACKAGING FRANCE
+
+21l0l0	2009___le_site_ALCAN	N
+21l0l1	devient_AMCOR	T
+21l0l2	FLEXIBLES_PACKAGING	O
+21l0l3	FRANCE	O
+21l1l0	FRANCE	I
+
+#Sur la base de l'ensemble des résultats obtenus, la qualité des eaux souterraines semble s'améliorer malgré de sporadiques artéfacts.
+
+22l0l0	Sur_la	T
+22l0l1	base_de_l_	O
+22l0l2	ensemble_des	R
+22l0l3	résultats_obtenus___la_qualité_des_eaux_souterraines_semble_s__améliorer_malgré_de_sporadiques_artéfacts__	O
+22l1l0	base_de_l__ensemble_des_résultats_obtenus___la_qualité_des_eaux_souterraines_semble_s__améliorer_malgré_de_sporadiques_artéfacts__	I
+
+#La campagne d'avril 2014 ne révèle aucune anomalie significative dans les eaux souterraines.
+
+23l0l0	anomalie_significative_dans_les_eaux_souterraines	O
+
+#L'inspection des installations classées demande à l'exploitant de réaliser un bilan quadriennal de la surveillance des eaux souterraines.
+
+24l0l0	L__inspection	N
+24l0l1	des_installations	T

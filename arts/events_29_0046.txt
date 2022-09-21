@@ -1,0 +1,89 @@
+
+#29.0046
+#La société COOPERATIVE DES AGRICULTEURS DE BRETAGNE (CAB) a été autorisée à exploiter un établissement spécialisé dans le stockage, le traitement et la transformation du lait par arrêté préfectoral du 20 août 1985.
+
+0l0l0	La_société_COOPERATIVE	O
+0l0l1	DES_AGRICULTEURS	O
+0l0l2	DE_BRETAGNE	O
+0l0l3	a_été_autorisée_à_exploiter	N
+0l0l4	un	O
+0l0l5	établissement_spécialisé_dans_le_stockage___le_traitement_et_la_transformation_du_lait	A
+0l0l6	arrêté_préfectoral	O
+0l0l7	20_août_1985	T
+0l1l0	La_société_COOPERATIVE_DES_AGRICULTEURS_DE_BRETAGNE___CAB	I
+
+#La société CAB est successivement devenue Coopagri Bretagne puis TRISKALIA.
+
+1l0l0	La_société_CAB	O
+1l0l1	est_successivement_devenue	N
+1l0l2	Coopagri_Bretagne	O
+1l0l3	TRISKALIA	O
+1l1l0	La_société_CAB	I
+1l1l1	devenue_Coopagri_Bretagne	I
+1l1l2	TRISKALIA	I
+
+#Le site est à l'arrêt depuis 2008.
+
+2l0l0	Le_site	O
+2l0l1	est_à_l__arrêt	N
+2l0l2	depuis_2008__	T
+
+#Des études ont été menées en 2010 dans le cadre de la cessation d’activité.
+
+3l0l0	Des_études_ont_été_menées	N
+3l0l1	en_2010	T
+3l0l2	dans_le_cadre_de	R
+3l0l3	la_cessation_d__activité	N
+
+#Elles mettent en évidence :
+
+
+#- la présence d’hydrocarbures dans 3 zones du site,
+
+5l1l0	la_présence_d_	U
+5l1l1	hydrocarbures	S
+
+#- que les eaux souterraines constituent une voie de transfert possible de la pollution vers l’extérieur du site, notamment vers les eaux superficielles (usage de pêche et d’ostréiculture dans le Belon).
+
+6l0l0	les_eaux_souterraines	O
+6l0l1	une_voie	O
+6l0l2	vers_l__extérieur_du_site	L
+6l0l3	pêche_et_d__ostréiculture_dans_le_Belon	L
+
+#Cependant, le débit des eaux superficielles étant important, le risque de propagation de la pollution est limité.
+
+
+#Les résultats des analyses des eaux souterraines mettent en évidence :
+
+
+#- l'absence d'hydrocarbures C10-C40 et d'hydrocarbures aromatiques volatils ,
+
+9l1l0	d__hydrocarbures_C10_C40	S
+9l1l1	d__hydrocarbures_aromatiques_volatils	S
+
+#- la présence d'ammonium et de sulfates à de faibles teneurs,
+
+10l0l0	d__ammonium	O
+10l1l0	ammonium	S
+10l1l1	sulfates	S
+
+#- un pH légèrement acide.
+
+
+#Par lettre du 22 octobre 2010 l'Inspection des Installations Classées (IIC) a demandé des investigations complémentaires afin de :
+
+12l0l0	du_22_octobre_2010	T
+12l0l1	l__Inspection_des_Installations_Classées	O
+12l0l2	a_demandé_des_investigations_complémentaires	N
+
+#- délimiter la zone impactée,
+
+13l0l0	délimiter_la_zone_impactée	O
+
+#- caractériser une éventuelle pollution liée au dépôt d'hydrocarbures présent à l'entrée du site,
+
+14l0l0	à_l__entrée_du_site	L
+14l1l0	hydrocarbures	S
+
+#- définir les éventuelles mesures à prendre.
+

@@ -1,0 +1,157 @@
+
+#34.0025
+#L'usine de Ceilhes et Rocozels a été exploitée depuis le début du 20 éme siécle.
+
+0l0l0	L__usine	O
+0l0l1	Ceilhes	O
+0l0l2	et_Rocozels	L
+0l0l3	a_été_exploitée	N
+0l0l4	depuis_le_début_du_20_éme_siécle__	T
+
+#Ses productions ont été organisées à partir du minerai plombo-zincifère arsénié exploité dans la mine de la Rabasse.
+
+1l0l0	Ses_productions	O
+1l0l1	ont_été_organisées	N
+1l1l0	minerai_plombo___zincifère_arsénié	S
+
+#Ainsi ont été produits sur le site: de l'H2SO4, des superphosphates, de l'acide arsénieux, du plomb de chasse,de l'arséniate de chaux, du zinc, de l'argent, du plomb...
+
+2l0l0	le_site	O
+2l1l0	l__H2SO4___des_superphosphates	S
+2l1l1	l__acide_arsénieux	S
+2l1l2	plomb	S
+2l1l3	l__arséniate	S
+2l1l4	de_chaux	U
+2l1l5	zinc	S
+2l1l6	l__argent	S
+2l1l7	plomb	S
+
+#La société Penarroya, dernier exploitant du site, a arrêté toutes activités sur le site en 1953.
+
+3l0l0	La_société_Penarroya	O
+3l0l1	exploitant	N
+3l0l2	du_site	O
+3l0l3	a_arrêté_toutes_activités	N
+3l0l4	sur	L
+3l0l5	le_site	O
+3l0l6	en_1953	T
+3l1l0	La_société_Penarroya	I
+
+#Le site de l'usine a été vendu à la compagnie BRL qui a réalisé le barrage d'Avéne dont la retenue d'eau recouvre parfois les terrains de l'ancienne usine.
+
+4l0l0	Le_site	O
+4l0l1	l__usine	O
+4l0l2	a_été_vendu_à	N
+4l0l3	la_compagnie_BRL	O
+4l0l4	a_réalisé	N
+4l0l5	le_barrage	O
+4l0l6	d__Avéne	L
+4l0l7	la_retenue	O
+4l0l8	les_terrains	O
+4l1l0	la_compagnie_BRL	I
+
+#La remise en état du site, réalisée entre 1959 et 1962, a consisté :
+
+5l0l0	La_remise_en_état	N
+5l0l1	du_site	O
+5l0l2	réalisée	N
+5l0l3	entre_1959_et_1962	T
+
+#- en l'évacuation de certains déchets vers l'usine Penarroya de l'Estaque, vers Salsigne, et vers des lieux non adaptés ( Moulin du Capitoul à Lodéve )
+
+6l0l0	l__évacuation	N
+6l0l1	l__usine_Penarroya	O
+6l0l2	de_l__Estaque	L
+6l0l3	vers_Salsigne	L
+6l0l4	vers	R
+6l0l5	des_lieux	O
+6l0l6	Moulin_du_Capitoul	O
+6l0l7	à_Lodéve	L
+6l1l0	Penarroya	I
+6l1l1	Capitoul	I
+
+#- en l'enfouissement de divers produits dans un cocon aménagé aprés avis du conseil départemental d'hygiène,
+
+7l0l0	l__enfouissement	N
+7l0l1	cocon	O
+7l0l2	aménagé	N
+7l0l3	aprés	R
+7l0l4	avis	N
+
+#- par le nivellement du site et l'enfouissement sur place des infrastructures et de résidus divers.
+
+8l0l0	le_nivellement_du_site	N
+8l0l1	l__enfouissement_sur_place	N
+8l0l2	infrastructures	O
+8l0l3	résidus_divers	O
+
+#Les terrains sont pollués par de l'arsenic, du plomb, du cadminum, du zinc....
+
+9l0l0	Les_terrains	O
+9l0l1	sont_pollués	N
+9l0l2	l__arsenic	O
+9l1l0	arsenic	S
+9l1l1	du_plomb	S
+9l1l2	cadminum	S
+9l1l3	zinc	S
+
+#Dans les eaux de la retenue d'Avéne seul l'arsenic est décélé - La moyenne des teneurs mesurées entre 1965 et 2000 s'éléve à 24.2 microgrammes/litre
+
+10l0l0	les_eaux	O
+10l0l1	la_retenue	O
+10l0l2	d__Avéne	L
+10l0l3	entre_1965_et_2000	T
+10l0l4	s__éléve	N
+10l1l0	arsenic	S
+
+#L'apport en AS dans les eaux résulte également d'autres sources.
+
+
+#Evacuation en novembre 2001 d'environ 300 tonnes de déchets
+
+12l0l0	Evacuation	N
+12l0l1	en_novembre_2001	T
+12l0l2	300_tonnes_de_déchets	O
+12l1l0	déchets	I
+
+#Réalisation d'une ESR (Evaluation simplifiée des risques) en octobre 2001 (site classe 1 - investigations approfondies): teneurs significatives du sol en As, Pb, Cd et métaux lourds, transfert possible dans les eaux de surface lié au marnage de la retenue.
+
+13l0l0	Réalisation_d__une_ESR	N
+13l0l1	Evaluation_simplifiée_des_risques	N
+13l0l2	en_octobre_2001	T
+13l0l3	marnage_de_la_retenue	L
+13l1l0	As	S
+13l1l1	Pb	S
+13l1l2	Cd	S
+13l1l3	métaux_lourds	S
+
+#Réalisation d'une EDR (Evaluation détaillée des risques) en mars 2003: concentrations dans l'eau inférieures aux VCI pour usage sensible (seuils de potabilité).
+
+14l0l0	Réalisation_d__une_EDR	N
+14l0l1	Evaluation_détaillée_des_risques	N
+14l0l2	en_mars_2003	T
+
+#Pas d'impact pour les autres métaux.
+
+15l1l0	métaux	S
+
+#Mise en place d'un programme de surveillance des eaux (arrêté du 8 janvier 2004): contrôle biannuel sur l'Orb (amont et aval): les résultats sont stables voire en légère baisse.
+
+16l0l0	Mise_en_place_d_	N
+16l0l1	un_programme_de_surveillance_des_eaux	O
+16l0l2	8_janvier_2004	T
+16l0l3	__contrôle_biannuel	A
+16l0l4	sur_l_	N
+16l0l5	Orb___amont_et_aval	L
+
+#Un affichage a été mis en place pour limiter l'accès au site et des servitudes destinées à geler l'usage des terrains concernés ont été prescrites par arrêté préfectoral du 1/10/2007.
+
+17l0l0	Un_affichage	O
+17l0l1	a_été_mis_en	N
+17l0l2	des_servitudes	O
+17l0l3	destinées_à	R
+17l0l4	geler_l_	N
+17l0l5	usage_des_terrains_concernés	O
+17l0l6	ont_été_prescrites	N
+17l0l7	par_arrêté_préfectoral	O
+17l0l8	du_1_10_2007__	T

@@ -1,0 +1,256 @@
+
+#02.0062
+#La société BSL Industrie (ex Bigner Schmid Laurent)était spécialisée dans la chaudronnerie inox notamment pour l'équipement des centrales nucléaires françaises.
+
+0l0l0	La_société_BSL_Industrie	O
+0l0l1	Laurent_était_spécialisée_dans_la_chaudronnerie_inox	A
+0l0l2	l__équipement_des_centrales_nucléaires_françaises	A
+0l1l0	La_société_BSL_Industrie	I
+0l1l1	Bigner_Schmid_Laurent_était	I
+
+#Le site occupe 5 ha sur les communes de Billy-sur-Aisne et Soissons.
+
+1l0l0	Le_site	O
+1l0l1	sur_les_communes_de_Billy_sur_Aisne_et_Soissons	L
+
+#Le site a été construit en 1995 et jusqu'à la cessation d'activité en 2002, la chaudronnerie a toujours été la principale activité exercée sur le site.
+
+2l0l0	Le_site	O
+2l0l1	a_été_construit	N
+2l0l2	en_1995	T
+2l0l3	jusqu__à	T
+2l0l4	la_cessation_d__activité	N
+2l0l5	en_2002__	T
+2l0l6	la_chaudronnerie	A
+2l0l7	a_toujours_été_la_principale	N
+2l0l8	activité_exercée_sur_le_site	A
+
+#Au sud du site BSL Industrie se trouve le site de la société SITINDUSTRIE Tubes & Pipes (anciennement BSL Tubes et raccords).
+
+3l0l0	Au_sud_du_site	L
+3l0l1	BSL_Industrie	O
+3l0l2	se_trouve	R
+3l0l3	le_site	O
+3l0l4	la_société_SITINDUSTRIE	O
+3l0l5	Tubes___Pipes	A
+3l0l6	anciennement	R
+3l0l7	BSL_Tubes_et_raccords	A
+3l1l0	la_société_SITINDUSTRIE_Tubes___Pipes	I
+3l1l1	BSL_Tubes	I
+
+#L'activité a été autorisée par arrêté préfectoral de 1955 (au nom de Bigner Schmid Laurent) par la suite en 1997 un changement d'exploitant a eu lieu au profit de la société BSL Industrie .
+
+4l0l0	L__activité	O
+4l0l1	a_été_autorisée	N
+4l0l2	par_arrêté_préfectoral	O
+4l0l3	Bigner_Schmid_Laurent___par_la_suite	O
+4l0l4	en_1997	T
+4l0l5	un_changement	N
+4l0l6	d__exploitant	O
+4l0l7	a_eu_lieu	N
+4l0l8	au_profit_de	R
+4l0l9	la_société_BSL_Industrie	O
+4l1l0	Bigner_Schmid	I
+4l1l1	la_société_BSL_Industrie	I
+
+#La société BSL industrie a connu des difficulté financières et la liquidation judiciaire a été prononcée en avril 2002.
+
+5l0l0	La_société_BSL_industrie	O
+5l0l1	a_connu_des_difficulté_financières	N
+5l0l2	la_liquidation_judiciaire	N
+5l0l3	a_été_prononcée	N
+5l0l4	en_avril_2002	T
+5l1l0	La_société_BSL_industrie	I
+
+#Depuis cette date le site est à l'arrêt.
+
+6l0l0	Depuis_cette_date	T
+6l0l1	le_site	O
+6l0l2	l__arrêt	O
+
+#La grande majorité des produits et déchets dangereux ainsi que la totalité des équipements de production ont quitté le site.
+
+7l0l0	La_grande_majorité_des_produits_et_déchets_dangereux	O
+7l0l1	des_équipements_de_production	O
+7l0l2	ont_quitté	N
+7l0l3	le_site	O
+7l1l0	déchets_dangereux	U
+
+#Toutefois il reste sur le site de nombreux déchets :
+
+
+#des gravats en grande quantité (issus d'actes de malveillance)
+
+9l0l0	malveillance	A
+
+#des déchets calcinés issus de l'incendie du bâtiment administratif
+
+10l0l0	l__incendie_du_bâtiment_administratif	N
+10l1l0	des_déchets_calcinés	U
+
+#des fûts souillés
+
+
+#En plusieurs endroits les fosses sont souillées et/ou remplies de déchets.
+
+12l0l0	souillées	O
+12l0l1	remplies	N
+
+#Plusieurs cuves enterrées n'ont pas fait l'objet des mesures nécessaires (vidange, dégazage, neutralisation).
+
+13l0l0	Plusieurs_cuves_enterrées	O
+13l0l1	n__ont_pas_fait_l_	R
+13l0l2	vidange	N
+13l0l3	dégazage	N
+13l0l4	neutralisation	N
+13l1l0	cuves_enterrées	D
+
+#Des diagnostics et analyses de sols ont été réalisés en 2003 et 2006 ils mettent en évidence la présence de métaux lourds (essentiellement dans des remblais de type mâchefers), de solvants chlorés, d'hydrocarbures totaux et de PCB.
+
+14l0l0	Des_diagnostics	N
+14l0l1	analyses_de_sols	N
+14l0l2	ont_été_réalisés	N
+14l0l3	en_2003_et_2006	T
+14l1l0	métaux_lourds	S
+14l1l1	solvants_chlorés	S
+14l1l2	hydrocarbures_totaux	S
+14l1l3	PCB	S
+
+#Divers travaux relatifs à la remise en état du site avaient été imposés à l'exploitant par l'arrêté préfectoral du 08 octobre 2008.
+
+15l0l0	Divers_travaux	O
+15l0l1	relatifs_à	R
+15l0l2	la_remise_en_état	N
+15l0l3	du_site	O
+15l0l4	avaient_été_imposés	N
+15l0l5	l__exploitant	O
+15l0l6	l__arrêté_préfectoral	O
+15l0l7	du_08_octobre_2008__	T
+
+#Lors d'une inspection en janvier 2010, l'inspection des installations classées a constaté que les prescriptions de cet arrêté n'étaient pas respectées.
+
+16l0l0	Lors	T
+16l0l1	d__une_inspection	N
+16l0l2	en_janvier_2010__	T
+16l0l3	l__inspection_des_installations_classées	O
+16l0l4	a_constaté	N
+
+#Une proposition d'arrêté de mise en demeure a été transmise à Monsieur le Préfet de l'Aisne.
+
+17l0l0	Une_proposition_d__arrêté_de_mise_en_demeure	O
+17l0l1	a_été_transmise	N
+17l0l2	Monsieur_le_Préfet_de_l__Aisne	O
+17l1l0	le_Préfet	I
+
+#L'arrêté a été signé le 09 mars 2010.
+
+18l0l0	L__arrêté	O
+18l0l1	a_été_signé	N
+18l0l2	le_09_mars_2010__	T
+
+#Une visite du site a ensuite eu lieu le 30 juin 2010.
+
+19l0l0	Une_visite	N
+19l0l1	site	O
+19l0l2	a_ensuite_eu_lieu	N
+19l0l3	le_30_juin_2010__	T
+
+#L'inspection des installations classées a constaté que les prescriptions de l'arrêté de mise en demeure du 09 mars 2010 n'étaient pas respectées.
+
+20l0l0	L__inspection_des_installations_classées	O
+20l0l1	a_constaté	N
+20l0l2	l__arrêté_de_mise_en_demeure	O
+20l0l3	09_mars_2010	T
+
+#Une proposition d'arrêté préfectoral de consignation a été transmise à Monsieur le Préfet de l'Aisne.
+
+21l0l0	Une_proposition_d__arrêté_préfectoral	O
+21l0l1	consignation	O
+21l0l2	a_été_transmise	N
+21l0l3	Monsieur_le_Préfet_de_l__Aisne	O
+21l1l0	le_Préfet	I
+
+#L'arrêté a été signé le 16 août 2010.
+
+22l0l0	L__arrêté	O
+22l0l1	a_été_signé_le	N
+22l0l2	16_août_2010__	T
+
+#Le liquidateur de la société ayant indiqué qu'il ne disposait pas de fonds pour solder cette consignation, l’acceptation d'admission en non-valeur a été signée en septembre 2011 par la DDFIP de l'Aisne.
+
+23l0l0	Le_liquidateur	O
+23l0l1	la_société	O
+23l0l2	ayant_indiqué	N
+23l0l3	l__acceptation	O
+23l0l4	d__admission_en_non_valeur	O
+23l0l5	a_été_signée	N
+23l0l6	en_septembre_2011	T
+23l0l7	la_DDFIP	O
+23l0l8	l__Aisne	O
+23l1l0	la_DDFIP	I
+
+#Les terrains de la société BSL Industrie ont été rachetés par la Communauté d'Agglomération du Soissonnais.
+
+24l0l0	Les_terrains	O
+24l0l1	la_société_BSL_Industrie	O
+24l0l2	ont_été_rachetés	N
+24l0l3	la_Communauté_d__Agglomération	O
+24l0l4	du_Soissonnais	L
+24l1l0	la_société_BSL_Industrie	I
+24l1l1	la_Communauté_d__Agglomération	I
+
+#Dans le cadre d’un projet de réaménagement de l’ancien site BSL INDUSTRIE et de la friche SNCF voisine, la CAS a transmis un plan de gestion daté du 30 septembre 2014 définissant les mesures de gestion des pollutions présentes sur le site afin d’assurer la compatibilité de l'état des parcelles concernées avec l'usage futur (industriel, commercial ou événementiel selon les secteurs) qui y est envisagé.
+
+25l0l0	Dans_le_cadre_d_	R
+25l0l1	un_projet_de_réaménagement	N
+25l0l2	l__ancien_site_BSL_INDUSTRIE	O
+25l0l3	la_friche_SNCF_voisine	O
+25l0l4	la_CAS	O
+25l0l5	a_transmis	N
+25l0l6	un_plan_de_gestion	O
+25l0l7	daté_du_30_septembre_2014	T
+25l0l8	définissant	R
+25l0l9	les_mesures_de	O
+25l0l10	gestion_des_pollutions	N
+25l0l11	usage_futur	O
+25l1l0	BSL_INDUSTRIE	I
+
+#Le plan de gestion montre que, sans travaux préalables de dépollution, les risques ne sont pas acceptables pour le projet d’aménagement étudié pour le site.
+
+26l0l0	Le_plan_de_gestion	O
+26l0l1	dépollution	N
+
+#Ainsi des mesures de réhabilitation ont été définies :
+
+27l0l0	Ainsi_des_mesures_de_réhabilitation	O
+27l0l1	ont_été_définies	N
+
+#-zones sources Z1, Z2-3-5 et Z6 (pollution au COHV) : traitement in-situ des sols par venting avec objectifs de dépollution à atteindre pour garantir l’acceptabilité des risques ;
+
+28l0l0	traitement_in___situ	N
+28l0l1	sols_par_venting	N
+28l0l2	dépollution	N
+28l1l0	COHV	S
+
+#-zone source Z4 (pollution aux HCT) : excavation et évacuation en biocentre hors site ou excavation et traitement par biotertre sur site ;
+
+29l0l0	_zone_source_Z4	O
+29l0l1	excavation	N
+29l0l2	évacuation_en	N
+29l0l3	biocentre	O
+29l0l4	hors_site	N
+29l0l5	excavation	N
+29l1l0	HCT	S
+
+#-bâtiments réhabilités : rabotage des bétons impactés et évacuation en filières autorisées hors site et mise en place d’une nouvelle dalle béton.
+
+30l0l0	_bâtiments_réhabilités	N
+30l0l1	rabotage_des_bétons	N
+30l0l2	impactés	O
+30l0l3	évacuation_en_filières_autorisées_hors_site	N
+30l0l4	et_mise_en_place_d__une_nouvelle_dalle_béton	N
+
+#D’autres mesures de gestion permettant de désactiver des voies de transfert ont été proposées.
+
+31l0l0	des_voies_de_transfert	O
+31l0l1	ont_été	N

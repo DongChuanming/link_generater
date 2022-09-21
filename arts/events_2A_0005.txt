@@ -1,0 +1,98 @@
+
+#2A.0005
+#Ancienne zone de stockage d'hydrocarbures initialement gérée par TOTAL puis par ESSO.
+
+0l0l0	Ancienne_zone_de_stockage_d__hydrocarbures	O
+0l0l1	TOTAL	O
+0l0l2	ESSO	O
+0l1l0	stockage	D
+0l1l1	d__hydrocarbures	S
+0l1l2	TOTAL	I
+0l1l3	ESSO	I
+
+#Actuellement, la CCI exploite un nouveau dépot (avec une reprise des activités en cours par BP).
+
+1l0l0	Actuellement	T
+1l0l1	la_CCI	O
+1l0l2	exploite	N
+1l0l3	un_nouveau_dépot	O
+1l0l4	une_reprise	N
+1l0l5	des_activités_en	A
+1l0l6	BP	O
+1l1l0	dépot	D
+
+#1.
+
+
+#La cessation d’activité :
+
+3l0l0	cessation_d__activité	N
+
+#- l’ensemble des installations du dépôt pétrolier ESSO est démantelé.
+
+4l0l0	l__ensemble_des_installations_du_dépôt_pétrolier_ESSO	O
+4l0l1	est_démantelé	N
+4l1l0	pétrolier_ESSO	I
+
+#- aucun déchet dangereux autre que les terres polluées traitées in situ n’était présent sur le site.
+
+5l0l0	terres_polluées	O
+5l1l0	aucun_déchet_dangereux	U
+
+#- le site est convenable clôturé.
+
+6l0l0	le_site	O
+6l0l1	est_convenable_clôturé	N
+
+#2.
+
+
+#Le traitement des terres polluées :
+
+8l0l0	Le_traitement_des_terres_polluées	O
+
+#- L’ensemble des terres polluées et traitées par biopile ont atteint des concentrations inférieures au seuil de réhabilitation
+
+9l0l0	L__ensemble_des_terres_polluées	O
+9l0l1	biopile	O
+9l0l2	ont_atteint	N
+9l0l3	des_concentrations	O
+9l0l4	réhabilitation	O
+
+#3.
+
+
+#Il a été également échangé les points suivants avec l’exploitant :
+
+11l0l0	l__exploitant	O
+
+#- lors de l’excavation des terres polluées sur les différentes zones, l’exploitant indique être descendu entre 2 et 3 mètres par endroit.
+
+12l0l0	de_l__excavation	N
+12l0l1	terres_polluées	O
+12l0l2	l__exploitant	O
+12l0l3	être_descendu	N
+
+#- le volume de terre excavé correspond quasiment aux estimations : 700 m3
+
+
+#- une zone a été plus excavée que les estimations, la zone de parc à déchets.
+
+14l0l0	une_zone	O
+14l0l1	a_été_plus_excavée	N
+14l0l2	les_estimations	O
+14l0l3	la_zone_de_parc_à_déchets	O
+
+#Ainsi la source de pollution a été supprimée mais des hydrocarbures sont toujours visibles sur la surveillance des eaux souterraines reprise par la CCI.
+
+15l0l0	la_source_de_pollution	O
+15l0l1	a_été_supprimée	N
+15l0l2	la_surveillance_des_eaux_souterraines	A
+15l0l3	la_CCI	O
+15l1l0	hydrocarbures	S
+15l1l1	la_CCI	I
+
+#Initialement cette surveillance est fondée sur 6 piézomètres mais une nouvelle proposition adaptée aux enjeux est attendue de la part de la CCI.
+
+16l0l0	surveillance	A
+16l1l0	la_CCI	I

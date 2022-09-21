@@ -1,0 +1,645 @@
+
+#72.0033
+#Le site étudié, d’une surface totale de 2900 m², est située sur la commune du Mans (voir plan cartographique 1 partie B).
+
+0l0l0	Le_site	O
+0l0l1	est_située_sur_la_commune_du_Mans	L
+
+#Le site est une ancienne station-service située dans une zone à usage mixte : commercial et résidentiel.
+
+1l0l0	Le_site	O
+1l0l1	une_ancienne_station___service	O
+1l0l2	située_dans_une_zone_à_usage_mixte	L
+
+#En effet, sa localisation se caractérise par des formes urbaines diversifiées autour de grandes voies d’accès et sous forme de quartiers composés en majorité d’habitats collectifs.
+
+
+#Les cours d’eau les plus proches identifiés dans un rayon de 5km autour du site sont :
+
+3l0l0	Les_cours_d__eau	O
+3l0l1	dans_un_rayon_de_5_km_autour_du_site	L
+
+#- la rivière l’Huisne, localisée à environ 700m au sud et à l’est du site, s’écoulant en direction du sud-ouest vers la rivière La Sarthe.
+
+4l0l0	la_rivière_l__Huisne	L
+4l0l1	localisée_à_environ_700_m_au_sud_et_à_l__est_du_site	L
+4l0l2	écoulant_en_direction_du_sud_ouest	N
+4l0l3	vers_la_rivière_La_Sarthe	L
+
+#- la rivière La Sarthe, s’écoulant en direction du Sud, est localisée à environ 2,8 km à l’Ouest du site.
+
+5l0l0	la_rivière_La_Sarthe	L
+5l0l1	écoulant_en_direction_du_Sud	L
+5l0l2	localisée_à_environ	L
+5l0l3	2_8	N
+5l0l4	km_à_l__Ouest_du_site	L
+5l1l0	Sarthe	I
+
+#Le sens théorique d’écoulement des eaux souterraines s’effectue du nord vers le sud.
+
+6l0l0	effectue_du_nord_vers_le_sud	L
+
+#Or, sur site, le sens d’écoulement est orienté vers le nord à nord-est.
+
+7l0l0	orienté_vers_le_nord_à_nord_est	L
+
+#Ceci est certainement lié à la proximité de l’aquifère des alluvions de l’Huisne.
+
+8l0l0	l__Huisne	L
+
+#À noter, que la prise d’eau AEP dans l’Huisne pour alimenter la ville du Mans est située en amont hydraulique.
+
+9l0l0	la_prise_d_	O
+9l0l1	l__Huisne_pour_alimenter_la_ville_du_Mans	L
+9l0l2	située_en_amont_hydraulique	L
+
+#De plus, 2 captages en activité de 50 m de profondeur captant l’aquifère et utilisés pour des usages alimentaires sont recensés à environ 4 km au sud-ouest du site.
+
+10l0l0	2_captages	O
+10l0l1	utilisés_pour	R
+10l0l2	des_usages_alimentaires	A
+10l0l3	sont_recensés	N
+10l0l4	à_environ_4_km_au_sud_ouest_du_site	L
+
+#Ces ouvrages ne sont pas situés en aval hydraulique immédiat du site.
+
+11l0l0	Ces_ouvrages	O
+11l0l1	situés_en_aval_hydraulique_immédiat_du_site	L
+
+#De plus, 11 points d’eau (puits, forage, source) sont recensés dans un rayon de 2 km autour du site.
+
+12l0l0	recensés_dans_un_rayon_de_2_km_autour_du_site	L
+
+#Le site était exploité depuis 1937 comme dépôt d’essence.
+
+13l0l0	Le_site	O
+13l0l1	était_exploité	N
+13l0l2	depuis_1937	T
+13l0l3	comme	R
+13l0l4	dépôt_d__essence	O
+13l1l0	dépôt	D
+13l1l1	d__essence	U
+
+#Entre 1937 et 1940, le site accueillait 3 citernes de 5 000 litres avant de connaître un arrêt d’activité entre 1940 et 1948.
+
+14l0l0	Entre_1937_et_1940	T
+14l0l1	le_site	O
+14l0l2	un_arrêt_d__activité	O
+14l0l3	entre_1940_et_1948	T
+
+#Après la reprise de l’activité de dépôt d’essence en 1948, le site est racheté en 1949 sous la franchise de la société des Pétroles Shell et l’activité de distribution de carburant débute.
+
+15l0l0	Après	R
+15l0l1	la_reprise	N
+15l0l2	de_l__activité_de_dépôt_d__essence	A
+15l0l3	en_1948	T
+15l0l4	le_site	O
+15l0l5	est_racheté	N
+15l0l6	en_1949	T
+15l0l7	la_franchise	O
+15l0l8	la_société_des_Pétroles_Shell	O
+15l0l9	l__activité_de_distribution_de_carburant	A
+15l0l10	débute	N
+15l1l0	la_société_des_Pétroles_Shell	I
+15l1l1	carburant	U
+
+#En 1949, la société des Pétroles Shell devient acquéreur du site.
+
+16l0l0	En_1949	T
+16l0l1	la_société_des_Pétroles_Shell	O
+16l0l2	devient_acquéreur	N
+16l0l3	du_site	O
+16l1l0	la_société_des_Pétroles_Shell	I
+
+#Avant la cessation de ses activités, le site comprenait (voir plan cartographique 2 partie B) :
+
+17l0l0	Avant_la_cessation_de	N
+17l0l1	ses_activités	A
+17l0l2	le_site	O
+
+#- 8 cuves enterrées,
+
+
+#- des pistes de distribution essence, gasoil et GPL,
+
+19l1l0	gasoil	U
+19l1l1	GPL	S
+
+#- une aire de lavage,
+
+20l0l0	lavage	A
+
+#- une zone de dépotage,
+
+21l0l0	zone_de_dépotage	O
+
+#- un séparateur d’hydrocarbures,
+
+22l1l0	d__hydrocarbures	S
+
+#- une boutique.
+
+
+#Le site a cessé son activité en 2005, avec un récépissé de déclaration de cessation d'activité effectué le 15 mars 2011.
+
+24l0l0	Le_site	O
+24l0l1	a_cessé_son_activité	N
+24l0l2	en_2005__	T
+24l0l3	un_récépissé	O
+24l0l4	de_déclaration	N
+24l0l5	cessation_d__activité	N
+24l0l6	effectué	N
+24l0l7	le_15_mars_2011__	T
+
+#A noter que le site a été vendu par la société des Pétroles Shell en 2011 à la société ADN IMMO, puis revendu à la société immobilière des Mousquetaires.
+
+25l0l0	le_site	O
+25l0l1	a_été_vendu	N
+25l0l2	la_société_des_Pétroles	A
+25l0l3	Shell	O
+25l0l4	en_2011	T
+25l0l5	la_société_ADN_IMMO	O
+25l0l6	revendu_à	N
+25l0l7	la_société_immobilière_des_Mousquetaires	O
+25l1l0	la_société_des_Pétroles_Shell	I
+25l1l1	la_société_ADN_IMMO	I
+25l1l2	la_société_immobilière_des_Mousquetaires	I
+
+#Différentes phases d’investigations ont été réalisées au droit du site entre 2000 et 2010.
+
+26l0l0	Différentes_phases_d__investigations	N
+26l0l1	ont_été_réalisées	N
+26l0l2	au_droit_du_site	L
+26l0l3	entre_2000_et_2010__	T
+
+#En effet, des fuites de carburants ont été découvertes en 2000 au droit du site.
+
+27l0l0	des_fuites_de_carburants	O
+27l0l1	ont_été_découvertes	N
+27l0l2	en_2000	T
+27l0l3	au_droit_du_site	L
+27l1l0	carburants	U
+
+#Par la suite, la situation environnementale du secteur d’étude a été évaluée entre 2000 et 2003.
+
+28l0l0	la_situation_environnementale	O
+28l0l1	secteur_d__étude	O
+28l0l2	a_été_évaluée	N
+28l0l3	entre_2000_et_2003	T
+
+#Ces investigations ont permis d’identifier une contamination des sols et la présence de produits flottants.
+
+29l0l0	Ces_investigations_ont_permis_d__identifier	N
+29l0l1	une_contamination	O
+29l0l2	sols	O
+29l1l0	produits_flottants	U
+
+#Un système d’écrémage et de récupération de la phase flottante a été mis en place entre 2003 et 2004 afin de contrôler les risques de migration et de transferts vers les eaux souterraines du produit surnageant.
+
+30l0l0	Un_système	O
+30l0l1	la_phase_flottante	O
+30l0l2	a_été_mis_en_place	N
+30l0l3	entre_2003_et_2004	T
+30l0l4	contrôler_les_risques_de_migration	N
+30l1l0	produit_surnageant	U
+
+#Un nouveau diagnostic environnemental a été réalisé en 2005 et 2006 au droit du site et des piézomètres ont été mis en place en 2007 au droit et en limite de la zone d’étude.
+
+31l0l0	Un_nouveau_diagnostic_environnemental	N
+31l0l1	a_été_réalisé	N
+31l0l2	en_2005_et_2006	T
+31l0l3	au_droit_du_site	L
+31l0l4	des_piézomètres	O
+31l0l5	ont_été_mis_en_place	N
+31l0l6	en_2007	T
+31l0l7	au_droit_et_en_limite_de_la_zone_d__étude	L
+
+#Ces différentes investigations ont permis de mettre en évidence des impacts en hydrocarbures non volatils et en BTEX dans les sols au niveau des infrastructures pétrolières (cuve et aire de distribution et zone de dépotage) et dans les eaux souterraines.
+
+32l0l0	Ces_différentes_investigations	N
+32l0l1	des_infrastructures_pétrolières	O
+32l1l0	hydrocarbures_non_volatils	S
+32l1l1	BTEX	S
+
+#Les teneurs maximales dans les eaux souterraines s’élevaient à 22 000 µg/l en Benzène et à 33 000 µg/l en hydrocarbures lourds en novembre 2009.
+
+33l0l0	en_novembre_2009__	T
+33l1l0	Benzène	S
+33l1l1	hydrocarbures_lourds	S
+
+#Ces études préalables ont permis de reconnaître une pollution des sols et des eaux souterraines.
+
+34l0l0	Ces_études_préalables	N
+34l0l1	reconnaître	R
+34l0l2	une_pollution	N
+
+#Cela a débouché sur un plan de gestion (en février 2010) qui prévoyait :
+
+35l0l0	Cela	O
+35l0l1	a_débouché_sur	R
+35l0l2	un_plan_de_gestion	O
+35l0l3	en_février_2010__	T
+
+#- le démantèlement des infrastructures (bâtiments, piste de distribution de carburants, enlèvement de 7 cuves enterrées, et d'une cuve aérienne de GPL, ...
+
+36l0l0	le_démantèlement_des_infrastructures__	N
+36l0l1	bâtiments	N
+36l0l2	carburants	O
+36l0l3	enlèvement_de	N
+36l0l4	7_cuves_enterrées	O
+36l0l5	une_cuve_aérienne_de_GPL	O
+36l1l0	carburants	U
+36l1l1	cuves_enterrées	D
+36l1l2	une_cuve	D
+36l1l3	aérienne_de_GPL	U
+
+#- l'excavation des sols saturés en hydrocarbures (retrait de la phase flottante) et l'élimination des déchets liquides et solides en filières agrées;
+
+37l0l0	l__excavation	N
+37l0l1	sols_saturés	O
+37l0l2	hydrocarbures	O
+37l0l3	l__élimination_des_déchets_liquides	N
+37l1l0	hydrocarbures	S
+37l1l1	déchets_liquides	U
+
+#- la mise en place de servitude de droit privé visant à interdire l'utilisation des eaux souterraines au droit du site pour tout autre usage que pour la surveillance des eaux souterraines;
+
+38l0l0	la_mise_en_place_de_servitude	N
+38l0l1	interdire	N
+38l0l2	l__utilisation_des_eaux_souterraines	A
+38l0l3	au_droit_du_site	L
+38l0l4	tout_autre_usage	O
+38l0l5	surveillance_des_eaux_souterraines	A
+
+#- la mise en place de servitudes de droit privé visant à interdire la modification de l'usage du site qui est prévu pour un usage industriel et commercial de plain-pied, correspondant à un usage du site comparable à celui de la dernière période d'exploitation de l'installation;
+
+39l0l0	la_mise_en_place_de	N
+39l0l1	servitudes	O
+39l0l2	interdire_la_modification	N
+39l0l3	l__usage_du_site	A
+39l0l4	un_usage_industriel_et_commercial_de_plain__	A
+39l0l5	l__installation	O
+
+#- la poursuite de la surveillance des eaux souterraines.
+
+40l0l0	la_poursuite_de	O
+40l0l1	la_surveillance_des_eaux_souterraines	A
+
+#Des travaux de réhabilitation ont été entrepris entre août 2010 et janvier 2011.
+
+41l0l0	Des_travaux_de_réhabilitation	N
+41l0l1	ont_été_entrepris	N
+41l0l2	entre_août_2010_et_janvier_2011__	T
+
+#Au cours du chantier, 6 075 tonnes de terres impactées ont été excavées et évacuée en bio-centre, et 2623 m³ d’eau souterraine ont été pompés et traités sur site.
+
+42l0l0	du_chantier	N
+42l0l1	075_tonnes_de_terres_impactées	O
+42l0l2	ont_été_excavées	N
+42l0l3	évacuée	O
+42l0l4	en_bio_centre	N
+42l0l5	2623_m³_d__eau_souterraine	O
+42l0l6	ont_été_pompés	N
+
+#Au regard des mesures effectuées en fond de fouille et dans les eaux souterraines, une analyse des risques résiduels a été réalisée en février 2011, qui a permis de conclure en la compatibilité du site avec l'usage futur alors considéré, à savoir : commerce et parking aérien.
+
+43l0l0	mesures_effectuées_en_fond_de_fouille	L
+43l0l1	une_analyse_des_risques_résiduels	N
+43l0l2	a_été_réalisée	N
+43l0l3	en_février_2011__	T
+
+#Des mesures étaient néanmoins envisagées par la société SHELL pour garantir ce bon usage (mise en place de servitudes de droit privé) et permettre un suivi et, le cas échéant, un traitement de la nappe phréatique.
+
+44l0l0	la_société_SHELL	O
+44l0l1	mise_en_place_de_servitudes	N
+44l0l2	un_traitement	N
+44l0l3	la_nappe_phréatique	O
+44l1l0	la_société_SHELL	I
+
+#En effet, il est indiqué dans les conclusions de cette analyse des risques résiduels qu’une surveillance de la qualité de la nappe sera réalisée selon une fréquence trimestrielle dans un premier temps, afin de confirmer la diminution des impacts identifiés dans les eaux souterraines et d'évaluer la nécessité d’installation d'une unité de traitement complémentaire des eaux souterraines.
+
+45l0l0	les_conclusions	O
+45l0l1	une_surveillance	A
+45l0l2	la_qualité_de_la_nappe	O
+45l0l3	sera_réalisée_selon	N
+45l0l4	dans_un	N
+45l0l5	les_eaux_souterraines	O
+45l0l6	d__installation	N
+45l0l7	une_unité_de_traitement_complémentaire	O
+
+#La conclusion générale du rapport mentionne que deux puits de pompage permanents de gros diamètre (80 cm) ont été installés sur le site afin de permettre un éventuel traitement ultérieur de la nappe.
+
+46l0l0	deux_puits_de_pompage	O
+46l0l1	ont_été_installés	N
+46l0l2	sur_le_site	L
+46l0l3	un_éventuel_traitement_ultérieur	O
+46l0l4	la_nappe	O
+
+#Le 03 mars 2011, l'exploitant a fait parvenir un rapport de fin de travaux de mise en sécurité et de dépollution réalisés en 2010 et 2011.
+
+47l0l0	Le_03_mars_2011__	T
+47l0l1	l__exploitant	O
+47l0l2	a_fait_parvenir	N
+47l0l3	un_rapport	O
+47l0l4	fin_de_travaux_de_mise_en_sécurité_et_de_dépollution	N
+47l0l5	réalisés	N
+47l0l6	en_2010_et_2011__	T
+
+#Une surveillance est maintenue à l'initiative de l'ancien exploitant, pour vérifier l'évolution de la qualité des eaux souterraines après les travaux d'élimination de la source de pollution.
+
+48l0l0	Une_surveillance	O
+48l0l1	est_maintenue	N
+48l0l2	à_l__initiative	N
+48l0l3	de_l__ancien_exploitant	O
+48l0l4	la_qualité_des_eaux_souterraines_après	O
+48l0l5	les_travaux_d__élimination_de_la_source_de_pollution	N
+
+#Cette surveillance des eaux souterraines a débuté en janvier 2011.
+
+49l0l0	Cette_surveillance_des_eaux_souterraines	A
+49l0l1	a_débuté	N
+49l0l2	en_janvier_2011__	T
+
+#Après 12 campagnes de mesures de suivi de la qualité des eaux souterraines post-dépollution, le réseau de surveillance comprenant 8 ouvrages (P2, P3, HPzl, HPzO, HPzR’, Psud, Pouest et Puits1), les résultats indiquent (voir plan cartographique 3 partie B) :
+
+50l0l0	Après	R
+50l0l1	12_campagnes	N
+50l0l2	de_mesures_de_suivi_de_la_qualité_des_eaux_souterraines	A
+50l0l3	post_dépollution	N
+50l0l4	surveillance	A
+50l0l5	comprenant	R
+50l0l6	8_ouvrages	O
+
+#- la persistance d’un impact résiduel dans les eaux souterraines principalement en composée de BTEX (notamment Benzène) et d’hydrocarbures volatils sur Pouest (aval hydraulique), HPzR’ (latéral hydraulique), le Puits 1 et HPzO ;
+
+51l0l0	Pouest___aval_hydraulique	L
+51l1l0	BTEX	S
+51l1l1	Benzène	S
+51l1l2	d__hydrocarbures_volatils	S
+
+#- la présence d’une phase flottante de faible épaisseur au droit de HPzO qui a été observée jusqu’en août 2013 (inclus).
+
+52l0l0	au_droit_de_HPzO	L
+52l0l1	a_été_observée	N
+52l0l2	jusqu__en_août_2013	T
+52l1l0	HPzO	I
+
+#L’absence de produit depuis les 2 dernières campagnes de l’année 2013 est indicatrice d’une amélioration de la qualité des eaux sur cet ouvrage ;
+
+53l0l0	L_	N
+53l0l1	absence_de_produit	O
+53l0l2	depuis_les	T
+53l0l3	2_dernières_campagnes_de_l_	N
+53l0l4	année_2013	T
+53l0l5	la_qualité_des_eaux	O
+
+#- une évolution parallèle ente les fluctuations du niveau de la nappe et les teneurs en polluants dissous depuis juin 2012.
+
+54l0l0	depuis_juin_2012__	T
+54l1l0	polluants	S
+
+#Cette tendance se traduit par une baisse des concentrations dans les périodes de basses eaux et inversement (sauf certaines exceptions pour Pouest).
+
+55l0l0	les_périodes_de_basses_eaux	O
+
+#- une tendance à la baisse des teneurs sur le puits 1 et HPzR’ observée depuis le début de l’année 2013, malgré de légères fluctuations ;
+
+56l0l0	depuis_le_début_de_l__année_2013__	T
+
+#- l’absence de contamination en bordures sud et est et à l’angle nord-ouest du site
+
+57l0l0	contamination	O
+57l0l1	en_bordures_sud	L
+57l0l2	à_l__angle_nord_ouest_du_site	L
+
+#L'inspection a constaté qu'au cours des campagnes de suivi des eaux post-dépollution, des dépassements des valeurs de référence de l’ARR de 2011 ont été enregistrés concernant les BTEX et le naphtalène à divers reprises, notamment au droit de POuest.
+
+58l0l0	des_campagnes	N
+58l0l1	de_suivi_des_eaux_post_dépollution	N
+58l0l2	naphtalène	O
+58l1l0	les_BTEX	S
+58l1l1	le_naphtalène	S
+
+#Par la suite, la Société des Pétroles SHELL propose des mesures à prendre, suite aux dernières investigations réalisées et concernant la destruction malencontreuse du réseau de piézomètres sur le site, lors des travaux de terrassement réalisés par l’actuel propriétaire la société immobilière des Mousquetaires (Intermarché), constatée le 18 mars 2015.
+
+59l0l0	la_Société_des_Pétroles_SHELL	O
+59l0l1	la_destruction_malencontreuse	N
+59l0l2	du_réseau_de_piézomètres	O
+59l0l3	des_travaux_de_terrassement_réalisés	N
+59l0l4	l__actuel_propriétaire_la_société_immobilière_des_Mousquetaires	O
+59l0l5	le_18_mars_2015__	T
+59l1l0	la_Société_des_Pétroles_SHELL	I
+59l1l1	la_société_immobilière_des_Mousquetaires	I
+
+#Ces travaux consistaient en la création de 2 voiries traversant l’ancienne station-service afin de faciliter l’accès routier vers l’intermarché (voir plan cartographique 7 partie B).
+
+60l0l0	Ces_travaux	N
+60l0l1	la_création_de	N
+60l0l2	2_voiries	O
+60l0l3	vers_l__intermarché	L
+
+#Les conclusions et propositions de la Société des Pétroles SHELL sont les suivantes :
+
+61l0l0	Les_conclusions	O
+61l0l1	la_Société	O
+61l0l2	Pétroles_SHELL	O
+61l1l0	la_Société_des_Pétroles_SHELL	I
+
+#> Concernant les pollutions résiduelles :
+
+
+#La Société des Pétroles SHELL a réalisé des investigations complémentaires (piézairs) et mis à jour en janvier 2014 son analyse des risques résiduels (ARR).
+
+63l0l0	La_Société_des_Pétroles_SHELL	O
+63l0l1	a_réalisé	N
+63l0l2	des_investigations_complémentaires	N
+63l0l3	mis_à_jour	N
+63l0l4	en_janvier_2014	T
+63l1l0	La_Société_des_Pétroles_SHELL	I
+
+#Ont été mis en évidence :
+
+
+#- un faible impact résiduel dans les sols ne pouvant constituer une source significative de pollution des eaux souterraines ;
+
+
+#- une très faible mobilité du panache de la pollution des eaux souterraines et donc une migration des polluants très limitée en aval du site (la contamination des eaux souterraines est considérée modérée sauf en un point où des teneurs élevées restent mesurées, l’absence de flottant est confirmée en 2014)
+
+66l0l0	en_aval_du_site	L
+66l1l0	polluants	S
+
+#- un processus de biodégradation et donc d’atténuation naturelle en cours dans les eaux souterraines.
+
+
+#L’analyse conclut que l’usage futur du site considéré est de type commercial/industriel impliquant un recouvrement en surface, l’absence d’usage des eaux souterraines sur site et un bâtiment de plain-pied » (i.e. sans sous-sol).
+
+68l0l0	l__usage_futur	O
+
+#Les résultats confirment l'acceptabilité des risques sur site liés aux impacts résiduels pour un usage industriel et commercial.
+
+69l0l0	un_usage_industriel	N
+
+#Ils indiquent également l’acceptabilité des risques hors site pour un usage d'habitation.
+
+70l0l0	l__acceptabilité	O
+70l0l1	un_usage_d__habitation	A
+
+#L'exploitant conclut alors, compte-tenu que le site est compatible avec un usage industriel et commercial conformément aux obligations de dernier exploitant et qu’il n’existe pas de risques sanitaires et environnementaux hors site, que la mise en œuvre d'un dispositif de traitement des eaux souterraines de dépollution n’est pas justifié.
+
+71l0l0	L__exploitant	O
+71l0l1	le_site	O
+71l0l2	un_usage_industriel_et_commercial	A
+71l0l3	conformément_aux_obligations_de_dernier_exploitant	O
+71l0l4	la_mise_en_œuvre	N
+71l0l5	un_dispositif_de_traitement_des_eaux_souterraines_de_dépollution	N
+
+#Il propose néanmoins le maintien de la surveillance des eaux souterraines (notamment où des teneurs élevées restent mesurées) et des servitudes de droit privé, ainsi qu’une adaptation du suivi : ne conserver qu’un réseau de 5 piézomètres au lieu de 10 et de réaliser une mesure de la qualité de l’eau semestrielle au lieu de trimestrielle.
+
+72l0l0	la_surveillance_des_eaux_souterraines	A
+72l0l1	de_réaliser_une_mesure	N
+72l0l2	de_la_qualité_de_l__eau_semestrielle	A
+
+#> Concernant la destruction du réseau de piézomètres :
+
+73l0l0	la_destruction	N
+73l0l1	du_réseau_de_piézomètres	O
+
+#L'inspection des installations classées demande notamment de justifier les possibilités de retrouver et de combler correctement les piézomètres (notamment les deux puits de pompage permanents de gros diamètre (80 cm)) et l'incidence possible sur la nappe sous-jacente, ainsi que d’indiquer les évolutions possibles (positionnement mieux protégé notamment) du fait de cet événement, concernant leur proposition de réseau de piézomètres.
+
+74l0l0	inspection_des_installations_classées	O
+74l0l1	les_possibilités	O
+74l0l2	combler	N
+
+#Un bureau d’étude mandaté par la société des Pétroles SHELL conclut que compte-tenu du projet de réaménagement par l’actuel propriétaire, les risques de transfert d’une pollution potentielle vers l’aquifère par les anciens ouvrages de surveillance sont jugés négligeables puisque seules les eaux de pluies seraient susceptibles d’atteindre l’aquifère.
+
+75l0l0	Un_bureau_d__étude	O
+75l0l1	mandaté	N
+75l0l2	la_société_des_Pétroles_SHELL	O
+75l0l3	du_projet_de_réaménagement	N
+75l0l4	l__actuel_propriétaire	O
+75l1l0	la_société_des_Pétroles_SHELL	I
+
+#Elle propose :
+
+
+#- de ne combler que les 2 ouvrages les plus importants de par leur taille, Puits1 et Puits2, selon les règles de l’art, les 8 autres piézomètres étant laissés en l’état faute de pouvoir techniquement les retrouver,
+
+77l0l0	ne_combler	N
+77l0l1	les_2_ouvrages	O
+77l0l2	les_8_autres_piézomètres	O
+
+#- de remettre en place 5 nouveaux piézomètres selon la localisation prévue initialement et en s’assurant de conserver l’étanchéité de l’aquifère (nappe semi-captive).
+
+78l0l0	de_remettre_en_place	N
+78l0l1	5_nouveaux_piézomètres	O
+78l0l2	la_localisation_prévue_initialement	O
+78l0l3	l__étanchéité	O
+
+#Il est proposé à l’exploitant, la possibilité de mettre en œuvre des mesures de sécurité supplémentaires pour limiter au maximum les risques associés aux impacts résiduels.
+
+79l0l0	l__exploitant	O
+79l0l1	la_possibilité	O
+79l0l2	de_mettre_en	N
+
+#Il pourrait s’agir d’implanter un vide sanitaire, de faire reposer le bâtiment sur une dalle béton de plus de 15 cm (épaisseur considérée dans le cadre de l’étude) ou de s’assurer qu’un système d’aération efficace du bâtiment soit mis en place.
+
+80l0l0	agir_d__implanter_un_vide_sanitaire	N
+80l0l1	faire_reposer	N
+80l0l2	le_bâtiment	O
+
+#Ces éléments pourront être portés à la connaissance du propriétaire actuel et ajoutés aux restrictions imposées avec les servitudes de droit privé dans l’acte de vente.
+
+81l0l0	du_propriétaire_actuel	O
+
+#À noter que ces mesures supplémentaires sont applicables sur un bâtiment et qu’actuellement sur ce site, le projet de réaménagement selon l’exploitant ne prévoit que la construction de deux voiries avec trottoirs, le reste de la surface étant en espaces verts.
+
+82l0l0	un_bâtiment	O
+82l0l1	le_projet_de_réaménagement	N
+82l0l2	l__exploitant	O
+82l0l3	ne	N
+82l0l4	prévoit_que	R
+82l0l5	la_construction_de	N
+82l0l6	deux_voiries	O
+
+#Les dalles béton qui constituaient un recouvrement de surface ont été retirées lors des travaux, il y a donc lieu de prendre toutes les précautions en cas de construction sur ce site d’un bâtiment occupé par du personnel et du public.
+
+83l0l0	Les_dalles_béton	O
+83l0l1	ont_été_retirées_lors_des_travaux	N
+83l0l2	construction	N
+83l0l3	sur_ce_site	L
+
+#Également, il n’est pas recommandé d’implanter des équipements ou installations considérés comme source de pollution potentielle des sols du fait de la présence de piézomètres non comblés.
+
+84l0l0	d__implanter	N
+84l0l1	des_équipements_ou_installations	O
+84l0l2	considérés_comme	R
+84l0l3	source_de_pollution_potentielle_des_sols	O
+
+#Ces éléments devront être portés à la connaissance du propriétaire actuel et ajoutés aux restrictions imposées avec les servitudes de droit privé dans l’acte de vente, qui doivent a minima contenir, un usage commercial/industriel de plain-pied sans sous-sol, un recouvrement de surface dans le cas de la présence d’un bâtiment et l’absence d’usage des eaux souterraines sur site.
+
+85l0l0	la_connaissance	N
+85l0l1	du_propriétaire_actuel	O
+85l0l2	un_bâtiment	O
+
+#A noter, que 5 piézomètres de remplacement ont été mis en place les 18 et 19 mai 2015 sous la supervision d’un bureau d’étude, situés à proximité des anciens ouvrages portant les mêmes noms (HPzOb, PSudb, POuestb, P4b et HPzRb).
+
+86l0l0	5_piézomètres	O
+86l0l1	remplacement	O
+86l0l2	ont_été_mis_en_place	N
+86l0l3	les_18_et_19_mai_2015	T
+86l0l4	la_supervision	O
+86l0l5	d_	N
+86l0l6	un_bureau_d__étude	O
+86l0l7	situés_à_proximité_des_anciens_ouvrages	L
+86l0l8	portant_les_mêmes_noms	N
+86l1l0	HPzOb	S
+
+#Des analyses sur les résidus de forage ont également été effectuées.
+
+87l0l0	les_résidus_de_forage	O
+87l0l1	ont_également_été_effectuées	N
+
+#Un impact en hydrocarbure et en BTEX a été constaté au niveau de POuestb avec respectivement des valeurs de 950 mg/kg MS et de 16 mg/kg MS, supérieures aux valeurs limites de quantification.
+
+88l0l0	Un_impact	O
+88l1l0	hydrocarbure	S
+88l1l1	BTEX	S
+
+#Au total, 1,22 tonne de résidus de forage ont été évacués et réceptionnés en biocentre.
+
+89l0l0	1_22_tonne_de_résidus_de_forage	O
+89l0l1	ont_été_évacués	N
+89l0l2	réceptionnés	O
+89l0l3	biocentre	O
+
+#Un suivi de la qualité des eaux souterraines a ensuite été réalisé en date du 2 juin 2015.
+
+90l0l0	Un_suivi_de	A
+90l0l1	la_qualité_des_eaux_souterraines	O
+90l0l2	a_ensuite_été_réalisé	N
+90l0l3	en_date_du_2_juin_2015__	T
+
+#Les résultats d’analyses confirment l’absence d’impact en bordure Sud du site et la présence d’impacts résiduels d’étendues limitées dans les eaux souterraines sur les pourtours Est, Ouest et localement Nord du site.
+
+91l0l0	en_bordure_Sud_du_site	L
+91l0l1	la	O
+91l0l2	les_eaux_souterraines	O
+91l0l3	sur_les_pourtours_Est___Ouest_et_localement_Nord_du_site	L
+
+#Les résultats des piézomètres présents sur les pourtours Nord et Est de la zone excavée sont, soit stables, soit en baisses par rapport aux suivis effectués lors des campagnes précédentes.
+
+92l0l0	la_zone_excavée	O
+
+#En revanche, les concentrations mesurées sont différentes sur les piézomètres historiquement plus impactés (POuest/POuestb) où les concentrations sont en diminution.
+
+93l0l0	les_piézomètres	O
+93l0l1	historiquement_plus_impactés	L
+
+#À l’inverse, une augmentation est observée sur le piézomètre hors site (P4/P4b) se trouvant à proximité immédiate et en aval de la zone historiquement la plus impactée (POuest).
+
+94l0l0	se_trouvant_à_proximité_immédiate_et_en_aval_de_la_zone_historiquement_la_plus_impactée	O
+
+#Ces résultats pourraient être expliqués par la perturbation des milieux créée lors des forages et de la mise en place des piézomètres.
+
+95l0l0	créée_lors_des_forages	N
+95l0l1	la_mise_en_place_des_piézomètres	N

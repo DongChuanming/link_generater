@@ -1,0 +1,229 @@
+
+#64.0120
+#Ancienne usine d'assemblage de matériel médical respiratoire exploitée par Covidien sur la commune de Pau (64).
+
+0l0l0	usine_d__assemblage	O
+0l0l1	de_matériel	T
+0l0l2	médical_respiratoire	N
+0l0l3	exploitée_par_Covidien_sur	O
+0l1l0	usine_d__assemblage	I
+
+#En 2006, Tyco Healthcare (devenu Covidien) acquière le site.
+
+1l0l0	En_2006___Tyco	O
+1l0l1	Healthcare___devenu_Covidien___acquière_le_site__	A
+
+#Plusieurs exploitants se sont succédés (Airox, BIO MS, MMS).
+
+2l0l0	Plusieurs	T
+2l0l1	exploitants_se	O
+2l0l2	Airox___BIO_MS	N
+2l0l3	__MMS__	O
+2l1l0	Plusieurs_exploitants_se	I
+2l1l1	succédés___Airox	I
+
+#Le site était soumis à l'application de l'arrêté préfectoral n°77/IC/211 du 27 octobre 1977 pour les anciennes activités de Matériel Médical Scientifique (MMS) et de Bio MS.
+
+3l0l0	Le_site_était_soumis_à_l_	O
+3l0l1	application_de_l_	N
+3l0l2	arrêté	O
+3l1l0	arrêté_préfectoral	I
+
+#La déclaration de cessation de ces activités n'ayant pas été réalisée, Covidien s'en est chargé (récépissé n°9625/10/17 du 4 mai 2010).
+
+4l0l0	La	O
+4l0l1	déclaration_de	R
+4l0l2	cessation_de_ces_activités_n__ayant_pas_été_réalisée	O
+4l0l3	Covidien_s__en_est_chargé	T
+4l0l4	récépissé_n__9625_10_17_du_4_mai_2010____	O
+4l1l0	___	I
+
+#Le cours d'eau le plus proche est localisé à 500 m à l'ouest du site et se jette dans l'Ousse des Bois.
+
+5l0l0	Le_cours_d__eau_le	N
+5l0l1	plus_proche_est_localisé_à_500	N
+5l0l2	m_à_l__ouest_du_site_et_se	N
+5l0l3	jette_dans_l_	O
+5l0l4	Ousse_des_Bois	N
+5l0l5	_	O
+5l1l0	jette_dans_l_	I
+
+#Le site est implanté au droit d'une formation généralement peu perméable mais qui peut renfermer localement une nappe dans des zones plus sableuses.
+
+6l0l0	Le_site_est_implanté	O
+6l0l1	une_formation_généralement_peu	L
+6l0l2	perméable_mais_qui_peut_renfermer	L
+
+#1 - MISE EN SÉCURITÉ
+
+7l0l0	1___MISE	O
+7l0l1	EN_SÉCURITÉ	L
+
+#La mise en sécurité suivante a été réalisée par l'exploitant :
+
+8l1l0	sécurité_suivante_a_été_réalisée_par_l__exploitant__	I
+
+#- évacuation ou élimination des produits dangereux,
+
+9l0l0	__évacuation_ou_élimination	N
+9l0l1	des_produits	N
+9l0l2	dangereux__	O
+
+#- interdictions ou limitations d'accès au site avec gardiennage.
+
+10l0l0	interdictions_ou_limitations_d__accès_au_site_avec	N
+10l1l0	d__accès_au_site_avec	U
+
+#2 - DIAGNOSTICS
+
+
+#Lors du rachat du site AIROX, le groupe Tyco Healthcare/Covidien a mandaté la société ERM afin de réaliser un diagnostic environnemental.
+
+12l0l0	Lors_du_rachat_du_site_AIROX___le_groupe_Tyco_Healthcare___Covidien_a_mandaté_la_société_ERM_afin_de_réaliser_un_diagnostic_environnemental__	O
+
+#Plusieurs études ont été remises :
+
+13l0l0	Plusieurs_études	N
+13l0l1	ont_été	O
+13l0l2	remises__	O
+13l1l0	été_remises	I
+13l1l1	_	I
+
+#- étape I en mai-juin 2006 (sondages de sol, échantillons de gaz de sol et implantation de 5 piézomètres, prélèvements d'échantillons d'eau dans la nappe),
+
+
+#- étape II en février 2008 (implantation d'un sixième piézomètre),
+
+15l0l0	II_en_février_2008	T
+15l0l1	implantation_d_	N
+
+#- étape III en décembre 2010-janvier 2011 (investigations complémentaires sur le sol) et analyses d'air ambiant des bâtiments.
+
+16l0l0	III_en_décembre	T
+16l0l1	2010_janvier_2011___investigations_complémentaires	O
+
+#- août-septembre 2011 nouvelles mesures d'air ambiant dans les bâtiments 5 et 2,
+
+17l0l0	septembre_2011_nouvelles_mesures	T
+
+#- nouvelles campagnes d'analyses d'air ambiant réalisées en octobre 2015 et février 2016.
+
+18l0l0	nouvelles_campagnes	T
+18l0l1	d__analyses_d__air_ambiant	N
+
+#2-1- IMPACTS SUR LE SITE
+
+19l0l0	__1__IMPACTS_SUR_LE_SITE	N
+
+#Les impacts constatés sur le site par les différentes études sont :
+
+
+#- la présence de COHV dans l'air ambiant, et BTEX et formaldéhyde,
+
+
+#- la présence de COHV dans les eaux souterraines en particulier au niveau de l'ancienne cuve de dégraissage, de l'ancienne station interne de traitement des effluents industriels et de l'ancien transformateur (et dépôts de produits chimiques au sud),
+
+22l1l0	la_présence_de	U
+22l1l1	COHV	S
+22l1l2	souterraines_en_particulier_au	S
+
+#- la présence dans les sols de manière ponctuelle et localisée sur le site de métaux (Zn et Cr), d'hydrocarbures, de formaldéhydes et de solvants chlorés.
+
+23l0l0	dans_les	O
+23l0l1	métaux___Zn_et_Cr_____d__hydrocarbures	O
+23l0l2	__de_formaldéhydes_et_de_solvants_chlorés__	O
+23l1l0	dans_les	S
+
+#L'arsenic a été détecté dans les sols.
+
+24l0l0	détecté_dans	O
+
+#Cette présence serait dû à un bruit de fond local plutôt qu'à des impacts des activités du site.
+
+25l0l0	Cette_présence	O
+25l0l1	serait_dû	N
+25l0l2	bruit_de	O
+25l1l0	Cette_présence	S
+
+#2-2- CONCLUSION
+
+
+#L’Évaluation Simplifiée des Risques en 2008 a classé le site en catégorie 2 "à surveiller".
+
+
+#Une surveillance des eaux souterraines a été ainsi jugée nécessaire.
+
+28l0l0	surveillance_des_eaux_souterraines	N
+28l0l1	a_été	T
+28l0l2	ainsi_jugée	N
+28l0l3	nécessaire	O
+
+#En 2011, l'Interprétation de l’État des Milieux conclut qu'aucun risque inacceptable hors-site n'a été identifié.
+
+29l0l0	En_2011___l__Interprétation_de_l__État_des	A
+29l0l1	Milieux_conclut_qu__aucun_risque	N
+
+#L'étude de 2011 recommande les points suivants :
+
+30l0l0	L__étude	T
+
+#- une surveillance des eaux souterraines pour les COHV,
+
+
+#- une restriction d'usage sur la nappe superficielle au droit du site.
+
+32l0l0	une_restriction_d__usage_sur_la_nappe_superficielle	A
+
+#De plus, elle propose d'instaurer des servitudes afin d'assurer la compatibilité du site avec les usages futurs.
+
+
+#La mise à jour de l'évaluation quantitative des risques sanitaires (EQRS) réalisée en 2011 conclut que les niveaux de risques pour les travailleurs exposés sont inférieurs aux seuils définis par la méthodologie française, tant vis-à-vis des effets à seuil que des effets sans seuil.
+
+34l0l0	évaluation_quantitative_des_risques	O
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+35l0l0	3___SURVEILLANCE_DES_EAUX_SOUTERRAINES	N
+
+#Le réseau piézométrique est constitué de :
+
+36l0l0	réseau_piézométrique_est_constitué_de__	O
+36l1l0	est_constitué_de__	I
+
+#- MW3 en amont hydraulique,
+
+
+#- MW2 et MW4 en aval,
+
+
+#- MW1, MW5 et MW6 à la limite aval hydraulique des activités du site.
+
+
+#4 - RESTRICTIONS D'USAGE
+
+40l0l0	RESTRICTIONS_D__USAGE	L
+
+#Un dossier de demande d'institution de Servitudes d'Utilité Publique (SUP) a été remis par courrier du 31 janvier 2012.
+
+41l0l0	demande_d__institution_de_Servitudes_d__Utilité_Publique___SUP___a_été_remis_par_courrier_du_31_janvier_2012__	O
+
+#5 - CESSION
+
+42l0l0	5___CESSION	O
+
+#Le Plan Local d'Urbanisme donne pour la parcelle un usage commercial, industriel et artisanal.
+
+43l0l0	Plan_Local_d__Urbanisme_donne_pour_la_parcelle_un_usage_commercial___industriel_et_artisanal__	N
+
+#Par courrier du 8 juin 2010, la Mairie confirme à l'exploitant qu'aucun changement de cet usage n'a été envisagé à ce moment.
+
+44l0l0	confirme_à_l_	O
+
+#Suite à la cession survenue le 26/01/2012, l'accès au site devra être maintenu afin de réaliser les campagnes de surveillance des eaux souterraines.
+
+45l0l0	cession_survenue	T
+45l0l1	le_26_01_2012	O
+45l0l2	accès_au_site_devra	O
+45l0l3	réaliser	O
+45l0l4	les_campagnes_de_surveillance	N
+45l1l0	le_26_01_2012	I

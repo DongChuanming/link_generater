@@ -1,0 +1,69 @@
+
+#54.0077
+#Le site de Neuves Maisons a accueilli a priori une usine fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	Le_site	O
+0l0l1	Neuves_Maisons	O
+0l0l2	a_accueilli	N
+0l0l3	a_priori	R
+0l0l4	une_usine	O
+0l0l5	fabriquant_du_gaz	A
+0l0l6	à_partir_de	R
+0l0l7	la_distillation_de_la_houille	A
+
+#Des investigations ont été menées en 2004, une cuve renfermant des goudrons a été découverte au droit d'un batiment.
+
+1l0l0	Des_investigations	N
+1l0l1	ont_été_menées	N
+1l0l2	en_2004__	T
+1l0l3	une_cuve	O
+1l0l4	renfermant	R
+1l0l5	des_goudrons	O
+1l0l6	a_été_découverte	N
+1l0l7	au_droit_d__un_batiment	L
+1l1l0	cuve	D
+
+#Techniquement il n'est pas possible d'extraire cette cuve.
+
+
+#Des mesures ont été effectuées dans l'air du batiments afin de rechercher d'éventuelles traces de benzène, toluène, ethylbenzène, xylène et naphtalène.
+
+3l0l0	Des_mesures_ont_été_effectuées	N
+3l0l1	batiments	O
+3l1l0	benzène	S
+3l1l1	toluène	S
+3l1l2	ethylbenzène	S
+3l1l3	xylène	S
+3l1l4	naphtalène	S
+
+#Aucun de ces produits n'a été détecté, toutes les concentrations sont inférieures aux seuils de détection (0.014 mg/m3).
+
+4l0l0	toutes_les_concentrations	O
+
+#Des analyses d'eaux souterraines réalisées en 2006 et 2008 ont montré l'absence de HAP, BTEX, cyanures libres et ammonium dans les eaux souterraines.
+
+5l0l0	Des_analyses	N
+5l0l1	en_2006_et_2008	T
+5l0l2	ammonium	O
+5l1l0	HAP	S
+5l1l1	BTEX	S
+5l1l2	cyanures_libres	S
+5l1l3	ammonium	S
+
+#Le site est désormais inoccupé.
+
+6l0l0	Le_site	O
+
+#GDF engagera un diagnostic approfondi.
+
+7l0l0	GDF	O
+7l0l1	engagera_un_diagnostic_approfondi	N
+7l1l0	GDF	I
+
+#Le cuve sera vidangée à l'issue des opérations de démolition des bâtiments.
+
+8l0l0	Le_cuve	O
+8l0l1	sera_vidangée	N
+8l0l2	à_l__issue	R
+8l0l3	des_opérations_de_démolition	N
+8l0l4	des_bâtiments	N

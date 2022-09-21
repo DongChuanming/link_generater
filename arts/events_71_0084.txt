@@ -1,0 +1,507 @@
+
+#71.0084
+#Les activités exercés sur le site concernent la gestion et l'exploitation du réseau de chauffage urbain.
+
+0l0l0	Les_activités_exercés	A
+0l0l1	le_site	O
+0l0l2	la	A
+0l0l3	gestion	O
+0l0l4	l_	O
+0l0l5	exploitation_du_réseau_de_chauffage_urbain	A
+
+#Les installations de la centrale thermique existent sur le site depuis les années 1920.
+
+1l0l0	Les_installations	O
+1l0l1	la_centrale_thermique	O
+1l0l2	existent_sur	R
+1l0l3	le_site	O
+1l0l4	depuis_les_années_1920	T
+
+#La production de charbon existe depuis le début du 20ème siècle, avec la société des Mines de Blanzy.
+
+2l0l0	La_production_de_charbon	A
+2l0l1	existe	R
+2l0l2	depuis_le_début_du_20ème_siècle	T
+2l0l3	la_société_des_Mines	O
+2l0l4	de_Blanzy	L
+2l1l0	charbon	U
+2l1l1	la_société_des_Mines	I
+
+#A partir de 1990, la société SOCCRAM reprend la centrale, et notamment l’exploitation mixte des générateurs à charbon et à gaz.
+
+3l0l0	A_partir_de_1990__	T
+3l0l1	la_société_SOCCRAM	O
+3l0l2	reprend	N
+3l0l3	la_centrale	O
+3l0l4	l__exploitation_mixte_des_générateurs_à_charbon_et_à_gaz	A
+3l1l0	la_société_SOCCRAM	I
+3l1l1	charbon	U
+
+#Le 5 avril 2005 , l'installation d’une chaudière au gaz naturel en remplacement des trois chaudières au charbon a été demandée.
+
+4l0l0	Le_5_avril_2005	T
+4l0l1	l__installation_d__une_chaudière	N
+4l0l2	trois_chaudières_au_charbon	O
+4l0l3	a_été_demandée	N
+4l1l0	charbon	U
+
+#La parcelle faisant l'objet de l'extension du site et devant recevoir les nouvelles installations a historiquement été utilisé dès 1920 à des fins de dépôt de résidus miniers.
+
+5l0l0	La_parcelle	O
+5l0l1	l__objet_de	R
+5l0l2	l_	N
+5l0l3	extension_du_site	L
+5l0l4	devant_recevoir	N
+5l0l5	les_nouvelles_installations	O
+5l0l6	a_historiquement_été_utilisé	N
+5l0l7	dès_1920	T
+5l0l8	des_fins	O
+5l0l9	de_dépôt_de_résidus_miniers	A
+
+#L’exploitation des chaudières à charbon a été arrêtée le 13 décembre 2005.
+
+6l0l0	L__exploitation_des_chaudières_à_charbon	O
+6l0l1	a_été_arrêtée	N
+6l0l2	le_13_décembre_2005__	T
+6l1l0	charbon	U
+
+#Un changement d'exploitant a été notifié le 17/01/2014 , au profit de MONCIA.
+
+7l0l0	Un_changement	N
+7l0l1	d__exploitant	O
+7l0l2	a_été_notifié	N
+7l0l3	le_17_01_2014	T
+7l0l4	au_profit	N
+7l0l5	de_MONCIA	O
+7l1l0	MONCIA	I
+
+#L’établissement est composé principalement des installations suivantes :
+
+
+#- un bâtiment de 966 m2 abritant notamment une chaudière fioul lourd utilisée en secours,
+
+9l0l0	un_bâtiment	O
+9l0l1	une_chaudière_fioul_lourd	O
+9l1l0	une_chaudière	D
+9l1l1	fioul_lourd	U
+
+#- une installation de cogénération ,
+
+
+#- une chaudière au gaz naturel d’une puissance de 21,4 MW en remplacement des chaudières au charbon,
+
+11l0l0	une_chaudière_au	O
+11l0l1	remplacement	O
+11l0l2	des_chaudières_au_charbon	A
+
+#- des cuves de stockage d'acide chlorhydrique, de soude et de sulfate d'alumine
+
+12l1l0	des_cuves_de	D
+12l1l1	stockage_d__acide	U
+12l1l2	chlorhydrique	S
+12l1l3	soude	S
+12l1l4	sulfate_d_	S
+12l1l5	alumine	I
+
+#- une cuve de fioul lourd de 360 m3,
+
+13l0l0	une_cuve_de_fioul_lourd	O
+13l1l0	une_cuve_de	D
+13l1l1	fioul_lourd	U
+
+#- un local abritant un groupe électrogène
+
+14l0l0	un_groupe_électrogène	O
+14l1l0	groupe_électrogène	S
+
+#Le site , d'une superficie de 1,8 Ha, est bordé par :
+
+15l0l0	Le_site	O
+15l0l1	bordé_par__	L
+
+#-A l’Est, la Bourbince puis du le Canal du Centre,
+
+16l0l0	_A_l__Est	L
+16l0l1	la_Bourbince	O
+16l0l2	puis	R
+16l0l3	du_le_Canal_du_Centre	L
+
+#-Au Nord , l’ancienne centrale thermique Lucy exploité par EON de Montceau-les-Mines,
+
+17l0l0	_Au_Nord	L
+17l0l1	l__ancienne_centrale_thermique_Lucy	O
+17l0l2	exploité	N
+17l0l3	EON	O
+17l0l4	de_Montceau_les_Mines	N
+17l1l0	EON	I
+
+#à l’arrêt depuis début 2014,
+
+18l0l0	à_l__arrêt	N
+18l0l1	depuis_début_2014__	T
+
+#- à l’Ouest , un terrain nu (ancienne friche industrielle qui a été déconstruite),
+
+19l0l0	l__Ouest	O
+19l0l1	a_été_déconstruite	N
+
+#-au Sud ,la route d’accès au site puis par une zone d’habitations et de commerce (hôtel restaurant
+
+20l0l0	_au_Sud	L
+20l0l1	la_route_d__accès_au_site	L
+20l0l2	puis_par	R
+20l0l3	une_zone_d__habitations	O
+20l0l4	commerce	A
+
+#de Lucy)..
+
+
+#Le site se trouve dans la zone du PLU et pour partie en zone inondable par la Bourbince.
+
+22l0l0	Le_site	O
+22l0l1	se_trouve_dans_la_zone_du_PLU	L
+22l0l2	en_zone_inondable_par_la_Bourbince	L
+
+#CONTEXTE GÉOLOGIQUE
+
+23l1l0	GÉOLOGIQUE	I
+
+#La coupe suivante a été mise en évidence :
+
+
+#De 0 m à 2m    : Enrobé
+
+
+#De 2m à 7m     : Schiste gréseux, gris clair, légèrement micacé avec quelques nodules carbonatés
+
+26l1l0	____Schiste	S
+26l1l1	nodules	S
+26l1l2	carbonatés	D
+
+#De 7m à 8m     : Niveau carbonaté
+
+27l0l0	Niveau_carbonaté	O
+27l1l0	Niveau_carbonaté	D
+
+#De 8m à 14m   : Grès fins gris clair à stratification floue
+
+28l0l0	8_m	O
+
+#De 14m à 18m : Alternance de schiste brun argileux à rayures satinée et de grès fins
+
+
+#CONTEXTE HYDROGÉOLOGIQUE
+
+30l1l0	HYDROGÉOLOGIQUE	I
+
+#Les terrains aquifères de la région sont principalement constitués par les alluvions de la Bourbince.
+
+31l0l0	Les_terrains_aquifères	O
+31l0l1	Bourbince	O
+
+#Les alluvions anciennes présentent un faible intérêt pour la ressource en eau en raison de leur faible production.
+
+
+#On note la présence d’une nappe, correspondant vraisemblablement à une stagnation temporaire d’eau pluviale au droit des argiles plus ou moins imperméables rencontrées entre 4 et 6 mètres de profondeur.
+
+33l0l0	une_stagnation_temporaire	N
+
+#Il est probable qu’une nappe alluviale soit également présente à l’est du site le long de la rivière.
+
+34l0l0	à_l__est_du_site	L
+34l0l1	le_long_de_la_rivière	L
+
+#La parcelle d’étude n’est pas localisée au sein d’un périmètre de protection de captage AEP.
+
+35l0l0	La_parcelle_d_	O
+35l0l1	localisée_au_sein_d__un_périmètre_de_protection_de_captage_AEP	L
+
+#CONTEXTE HYDROLOGIQUE
+
+36l1l0	HYDROLOGIQUE	I
+
+#Le territoire de Montceau-les-Mines est traversé par la rivière la Bourbince ainsi que le Canal du Centre.
+
+37l0l0	Le_territoire_de_Montceau_les_Mines	L
+37l0l1	traversé_par_la_rivière_la_Bourbince_ainsi_que_le_Canal_du_Centre	L
+
+#La communauté urbaine Le Creusot – Montceau est par ailleurs baignée par 25 lacs et étangs.
+
+38l0l0	La_communauté_urbaine_Le_Creusot	O
+38l0l1	Montceau	L
+38l0l2	25_lacs_et_étangs	O
+
+#La Bourbince est située à la limite Sud-est du site et le canal du Centre à 80 m au Sud-est.
+
+39l0l0	La_Bourbince	O
+39l0l1	est_située_à_la_limite_Sud_est_du_site_et_le_canal_du_Centre	L
+39l0l2	à_80_m_au_Sud_est	L
+
+#Les eaux superficielles de la Bourbince sont utilisées pour la pêche et la baignade.
+
+40l0l0	Les_eaux	O
+40l0l1	la_Bourbince	O
+40l0l2	sont_utilisées_pour	R
+40l0l3	la_pêche	A
+
+#Les ressources en eaux souterraines et superficielles sont peu sensibles
+
+
+#ÉTUDES ENVIRONNEMENTALES
+
+42l0l0	ÉTUDES_ENVIRONNEMENTALES	O
+
+#Dans le cadre de l'extension de l'installation , des sondages avaient été réalisés dans la zone d'extension.
+
+43l0l0	Dans_le_cadre_de	R
+43l0l1	l__extension	N
+43l0l2	l__installation	N
+43l0l3	des_sondages	N
+43l0l4	avaient_été_réalisés	N
+43l0l5	dans	R
+43l0l6	la_zone_d__extension	O
+
+#Les analyses avaient mis en évidence un impact en hydrocarbures totaux (HCT) , hydrocarbures aromatiques polycycliques (HAP) et BTEX.
+
+44l0l0	un_impact	O
+44l1l0	hydrocarbures_totaux	S
+44l1l1	HCT	S
+44l1l2	hydrocarbures_aromatiques_polycycliques	S
+44l1l3	HAP	S
+44l1l4	BTEX	S
+
+#L'excavation de terre polluées et leur traitement en site agrée étaient préconisés et l'exploitant s'engageait à financer cette dépollution.
+
+45l0l0	L__excavation	N
+45l0l1	de_terre_polluées	O
+45l0l2	site	O
+45l0l3	agrée	R
+45l0l4	étaient_préconisés	N
+45l0l5	l__exploitant	O
+45l0l6	s_	R
+45l0l7	engageait	N
+45l0l8	financer	O
+45l0l9	cette_dépollution	N
+
+#Les mesures de suppression et de réduction d’impacts relatives à la préservation des sols et des eaux retenues dans le cadre du projet peuvent être synthétisées dans les points suivants :
+
+46l0l0	Les_mesures_de_suppression	N
+46l0l1	d__impacts	O
+46l0l2	relatives_à	R
+46l0l3	la_préservation_des_sols	N
+46l0l4	des_eaux_retenues	O
+
+#- Imperméabilisation des voiries et des sols susceptibles de recevoir des produits dangereux ou
+
+47l0l0	Imperméabilisation	N
+47l0l1	des_sols	O
+47l0l2	susceptibles_de	R
+47l0l3	recevoir_des_produits_dangereux	O
+47l1l0	des_produits_dangereux	U
+
+#des effluents chargés,
+
+48l1l0	des_effluents_chargés	U
+
+#- Stockages de produits liquides aériens limités au strict minimum et dotés de rétentions
+
+49l1l0	produits_liquides	U
+
+#adaptées,
+
+
+#- Nouveaux stockages de liquides en réservoirs double-enveloppe enterrés avec détection de
+
+51l1l0	de_liquides	D
+
+#fuite et limiteurs de remplissages,
+
+
+#- Systèmes de collecte de types séparatifs permettant la maitrise des rejets d’effluents de
+
+
+#l’installation,
+
+54l0l0	l__installation	N
+
+#- Traitements adaptés des eaux de voiries et des eaux usées industrielles susceptibles d’être
+
+55l0l0	Traitements_adaptés	N
+55l0l1	eaux_usées_industrielles	A
+55l1l0	eaux_usées_industrielles	U
+
+#polluées,
+
+56l0l0	polluées	N
+
+#- Mise en place d’un réseau de trois piézomètres pour le suivi de la qualité des eaux souterraines
+
+57l0l0	Mise_en_place_d_	N
+57l0l1	trois_piézomètres	O
+57l0l2	le_suivi_de_la_qualité_des_eaux_souterraines	A
+
+#sur le site,
+
+
+#- Suivi quantitatif et qualitatif des effluents générés par l’installation.
+
+59l1l0	effluents	U
+
+#En janvier 2014, une mission de reconnaissance et un diagnostic de pollution du sous-sol dans la zone ont été réalisés.
+
+60l0l0	En_janvier_2014__	T
+60l0l1	une_mission_de_reconnaissance	N
+60l0l2	un_diagnostic_de_pollution	N
+60l0l3	sous_sol	O
+60l0l4	la_zone	O
+60l0l5	ont_été_réalisés	N
+
+#Cette première investigation a été complétée par une seconde série de sondages et d’analyses en juillet 2014, dans le cadre de la préparation d’un plan de gestion.
+
+61l0l0	Cette_première_investigation	N
+61l0l1	a_été_complétée	N
+61l0l2	une_seconde_série_de_sondages	N
+61l0l3	d__analyses	N
+61l0l4	en_juillet_2014__	T
+61l0l5	dans_le_cadre_de	R
+61l0l6	la	N
+61l0l7	préparation_d_	R
+61l0l8	un_plan_de_gestion	O
+
+#Au total, la reconnaissance a comporté :
+
+
+#- 15 sondages à la tarière de 5 à 10 m avec remontées de cuttings
+
+63l0l0	15_sondages_à	R
+63l0l1	la_tarière	O
+63l0l2	remontées	N
+63l0l3	cuttings	R
+
+#- 9 essais de pénétration dynamique lourde jusqu’à 12 mètres sous TN,
+
+
+#- 5 sondages destructifs profonds de 11 à 25 m en roto-percussion,
+
+65l0l0	5_sondages_destructifs_profonds	O
+65l0l1	roto___percussion	O
+
+#- 3 sondages destructifs courts de 8 à 10 m en roto-percussion,
+
+66l0l0	roto__	R
+66l0l1	percussion	A
+
+#- 19 essais pressiométriques,
+
+
+#- 6 puits au tractopelle,
+
+68l0l0	6_puits	O
+68l0l1	au_tractopelle	N
+
+#- 3 piézomètres d’environ 5 m de profondeur
+
+
+#Les premières investigations se sont déroulées le 23 janvier 2014 et ont consisté en la réalisation de 10 sondages.
+
+70l0l0	Les_premières_investigations	N
+70l0l1	se_sont_déroulées	N
+70l0l2	le_23_janvier_2014	T
+70l0l3	la_réalisation	N
+70l0l4	de	R
+70l0l5	10_sondages	N
+
+#Il a été mis en évidence :
+
+
+#- des anomalies pour l’arsenic, le cadmium, le cuivre, le mercure et le plomb
+
+72l0l0	l__arsenic	O
+72l1l0	l__arsenic	S
+72l1l1	le_cadmium	S
+72l1l2	cuivre	S
+72l1l3	mercure	S
+72l1l4	plomb	S
+
+#- des concentrations en hydrocarbures atteignant jusqu’à 1510 mg/kg de MS.
+
+73l1l0	hydrocarbures	S
+
+#La contamination aux hydrocarbures semble circonscrite à une surface d’environ 1360 m² et délimitée en profondeur
+
+74l0l0	circonscrite	N
+74l1l0	hydrocarbures	S
+
+#- des concentrations en HAP suivant la même tendance que les HCT, et atteignant jusqu’à 800 mg/kg de MS.
+
+75l1l0	HAP	S
+75l1l1	HCT	S
+
+#La contamination aux HAP semble circonscrite à deux zones, d’une surface totale d’environ 1860m², et délimitée en profondeur
+
+76l0l0	circonscrite	N
+76l0l1	à	R
+76l0l2	deux_zones	O
+76l0l3	délimitée_en	R
+76l0l4	profondeur	O
+76l1l0	HAP	S
+
+#- des concentrations en BTEX atteignent jusqu’à 39 mg/kg de MS
+
+77l1l0	BTEX	S
+
+#De nouvelles investigations se sont déroulées le 23 juillet 2014 et ont consisté en la réalisation de 6 sondages de sol à 5 mètres de profondeur implantés de manière à délimiter l’impact en substances organiques et au droit de la future cuve.
+
+78l0l0	De_nouvelles_investigations	N
+78l0l1	se_sont_déroulées	N
+78l0l2	le_23_juillet_2014	T
+78l0l3	la_réalisation_de_6_sondages_de_sol	N
+78l0l4	à	T
+78l0l5	5_mètres_de_profondeur	N
+78l0l6	implantés_de_manière_à	R
+78l0l7	délimiter	N
+78l0l8	au_droit_de_la_future_cuve	L
+
+#Elles ont mis en évidence :
+
+
+#- la présence d'hydrocarbures totaux (HCT) à des concentrations comprises entre 41 et 1280 mg/kg.
+
+80l1l0	hydrocarbures_totaux	S
+80l1l1	HCT	S
+
+#- la présence d'HAP dans les deux échantillons analysés à des teneurs de respectives 9,6 et 1,6 mg/kg.
+
+81l1l0	d__HAP	S
+
+#- la présence de BTEX dans tous les échantillons analysés à des teneurs comprises entre 0,52 et 44,4 mg/kg.
+
+82l1l0	BTEX	S
+
+#On observe une diminution des teneurs avec la profondeur.
+
+
+#Un plan de gestion et un bilan cout/avantage ont été réalisés.
+
+84l0l0	Un_plan_de_gestion	O
+84l0l1	un_bilan	N
+84l0l2	cout___avantage	O
+84l0l3	ont_été_réalisés	N
+
+#La mesure retenue consiste en la gestion des déblais induits par les aménagements.
+
+85l0l0	la_gestion	N
+85l0l1	déblais	O
+85l0l2	les_aménagements	N
+
+#Le projet d’aménagement est jugé compatible avec la qualité des sols au droit du site après gestion des déblais pollués par le projet d’aménagement.
+
+86l0l0	Le_projet	O
+86l0l1	gestion_des	N
+86l0l2	déblais_pollués	O
+86l0l3	le_projet	O
+
+#La nappe d’eau souterraine présente sur le site fera l’objet d’un suivi qualitatif par le biais d’un réseau de 3 piézomètres.
+
+87l0l0	fera_l__objet_d_	R
+87l0l1	un_suivi_qualitatif	N

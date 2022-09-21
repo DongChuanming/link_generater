@@ -1,0 +1,111 @@
+
+#87.0024
+#Par courrier du 08/09/1983 M.
+
+0l0l0	du_08_09_1983_M_	T
+
+#lain FAURE indique vouloir installer dans un bâtiment en location situé 84 avenue E.
+
+1l0l0	installer_dans	R
+1l0l1	un_bâtiment	O
+1l0l2	en_location	N
+1l0l3	situé	R
+1l0l4	84_avenue_E_	L
+
+#UBEN à LIMOGES un atelier de réparation de radiateurs.
+
+2l0l0	UBEN	O
+2l0l1	à	R
+2l0l2	LIMOGES	O
+2l0l3	un	R
+2l0l4	atelier_de_réparation_de_radiateurs	A
+2l1l0	UBEN	I
+
+#Il précise :
+
+
+#- que son établissement est bien distinct de la société PERET (avenue Baudin)
+
+4l0l0	son_établissement	O
+4l0l1	la_société_PERET	O
+4l0l2	avenue_Baudin	L
+4l1l0	la_société_PERET	I
+
+#- que l'activité se résume en un traitement acide puis une neutralisation avant soudage.
+
+5l0l0	traitement_acide	O
+5l0l1	une_neutralisation	N
+5l0l2	soudage	A
+
+#Les bains de traitement étant limités à 50L.
+
+
+#Ce site a été soumis à déclaration.
+
+7l0l0	Ce_site	O
+7l0l1	a_été_soumis_à_déclaration	N
+
+#L'Inspection des Installations Classées ne dispose ensuite d'aucun document relatif à cette activité ni à d'éventuelles plaintes de voisinages et/ou pollution.
+
+8l0l0	L__Inspection_des_Installations_Classées	O
+
+#Il n'apparait aujourd'hui plus trace de cette activité dans ce quartier résidentiel.
+
+9l0l0	cette_activité	O
+9l0l1	dans_ce_quartier_résidentiel	L
+
+#Cette fiche BASOL sera en conséquence versée dans la base de données BASIAS à titre informatif.
+
+
+#En l'état actuel des éléments connus de l'Inspection, et faute de disposer de plans précis, et afin de ne pas attribuer ce site à l'un des riverains sans disposer d'élément probant, le parcellaire n'est pas indiqué.
+
+11l0l0	attribuer	N
+11l0l1	ce_site	O
+11l0l2	le_parcellaire	O
+
+#Il n'est pas possible de procéder à une "description qualitative des risques et nuisances présentés par le site, des actions menées (études, travaux, surveillance) et de celles qui vont être menées", faute de documents.
+
+12l0l0	description_qualitative_des_risques	N
+12l0l1	des_actions_menées	N
+12l0l2	travaux	N
+12l0l3	surveillance	A
+
+#En revanche, sont rappelés à titre informatif, notamment par rapport aux activités des sociétés Faure et Peret (orthographié aussi Perret) les éléments issus des 2 fiches BASIAS de Limoges pertinentes pour ces deux exploitants avenue Ernest Ruben ou à proximité immédiate (recherche hypertexte sur extraction pdf par "Ernest Ruben", "Faure", "Perret", "Peret", "Fonderie", "Radiateur", en excluant les établissements d'activités sans rapport avec la fonderie et la fabrique de radiateurs, ainsi que les établissements Faure, Perret et Peret situés dans des quartiers éloignés de l'avenue Ernest Ruben) :
+
+13l0l0	à_proximité_immédiate	L
+13l0l1	les_établissements_d__activités	O
+13l0l2	fonderie_et_la_fabrique_de_radiateurs	A
+13l0l3	les_établissements_Faure___Perret	O
+13l0l4	Peret	O
+13l0l5	situés_dans_des_quartiers_éloignés_de_l__avenue_Ernest_Ruben__	L
+13l1l0	des_sociétés_Faure	I
+13l1l1	Peret	I
+13l1l2	__Faure	I
+13l1l3	Perret__	I
+13l1l4	__Fonderie_______Radiateur__	I
+13l1l5	Faure	I
+
+#- Fiche BASIAS Indice national LIM-I-87 00513, Indice départemental LIM8700513, Fonderie des Ets Faure et Cie, localisation et état d'activité inconnus, mais pouvant correspondre à la déclaration de M.
+
+14l0l0	Fonderie_des_Ets_Faure_et_Cie	O
+14l0l1	à	R
+14l0l2	la_déclaration	N
+14l0l3	M_	O
+14l1l0	Ets_Faure	I
+
+#Faure,
+
+
+#- Fiche BASIAS Indice national LIM-I-87 03711, Indice départemental LIM8703711, Fonderie des Ets Henri Perret situés au 80 avenue Ernest Ruben, exploités de 1961 au 28/10/1977, puis transférés aux établissements Crouzillat lesquels auraient continué l'exploitation jusqu'au 01/04/1979.
+
+16l0l0	Ets_Henri_Perret	O
+16l0l1	situés_au	R
+16l0l2	80_avenue_Ernest_Ruben	L
+16l0l3	exploités	N
+16l0l4	de_1961_au_28_10_1977	T
+16l0l5	transférés_aux_établissements	N
+16l0l6	Crouzillat	O
+16l0l7	l__exploitation	O
+16l0l8	jusqu__au_01_04_1979__	T
+16l1l0	Ets_Henri_Perret	I
+16l1l1	Crouzillat	I

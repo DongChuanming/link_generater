@@ -1,0 +1,673 @@
+
+#44.0112
+#L'activité principale résidait dans le nettoyage à sec et la blanchisserie industrielle.
+
+0l0l0	le_nettoyage_à_sec	N
+0l0l1	la_blanchisserie_industrielle	A
+
+#L'exploitation du site a démarré dans les années 1960 et plusieurs exploitants se sont succédés:
+
+1l0l0	L__exploitation	N
+1l0l1	du_site	O
+1l0l2	a_démarré	N
+1l0l3	dans_les_années_1960	T
+1l0l4	plusieurs_exploitants	O
+1l0l5	se_sont_succédés	N
+
+#- 1960: début de l'exploitation dus ite par la société BBA (Blanchisserie Bretagne Anjou) - récépissé de déclaration en 1961 pour la rubrique 91-1 (buanderie, laverie),
+
+2l0l0	__1960	T
+2l0l1	__début	N
+2l0l2	de	R
+2l0l3	l__exploitation_dus_ite	O
+2l0l4	la_société_BBA	O
+2l0l5	Blanchisserie_Bretagne_Anjou	O
+2l0l6	récépissé	O
+2l0l7	de_déclaration	N
+2l0l8	en_1961	T
+2l1l0	la_société_BBA	I
+2l1l1	Blanchisserie	I
+
+#- 1963: rachat de la société BBA par la société Clairette Rennes Nantes - récépissé de déclaration en 1967 pour la rubrique 153 bis (installation de combustion) et arrêté préfectoral d'autorisation du 29/01/1991 au titre de la rubrique 2340 (blanchisserie: capacité de lavage > 6 t/j),
+
+3l0l0	__1963	T
+3l0l1	__rachat	N
+3l0l2	la_société_BBA	O
+3l0l3	la_société_Clairette_Rennes_Nantes	O
+3l0l4	récépissé	O
+3l0l5	de_déclaration	N
+3l0l6	en_1967	T
+3l0l7	la_rubrique	O
+3l0l8	combustion	A
+3l0l9	et_arrêté_préfectoral_d__autorisation	O
+3l0l10	du_29_01_1991	T
+3l1l0	la_société_BBA	I
+3l1l1	la_société_Clairette_Rennes_Nantes	I
+
+#- 1992: la société GRENELLE SERVICE devient propriétaire du fonds de commerce,
+
+4l0l0	__1992__	T
+4l0l1	la_société_GRENELLE_SERVICE	O
+4l0l2	devient_propriétaire_du_fonds_de_commerce	N
+4l1l0	la_société_GRENELLE_SERVICE	I
+
+#- 1995: la société ELIS Les Lavandières reprend le fonds de commerce en location-gérance; la société GRENELLE SERVICE rest propriétaire du site - récépissé de changement d'exploitatn du 25/09/1995.
+
+5l0l0	la_société_ELIS	O
+5l0l1	Les_Lavandières	O
+5l0l2	reprend_le_fonds_de_commerce	N
+5l0l3	location___gérance	N
+5l0l4	__la_société_GRENELLE	O
+5l0l5	du_site	O
+5l0l6	récépissé	O
+5l0l7	changement_d__exploitatn	N
+5l0l8	25_09_1995__	T
+5l1l0	la_société_ELIS	I
+5l1l1	la_société_GRENELLE_SERVICE	I
+
+#La société Les Lavandières a déclaré sa cessation d'activtés le 3 novembre 1999.
+
+6l0l0	La_société_Les_Lavandières	O
+6l0l1	a_déclaré_sa_cessation_d_	N
+6l0l2	activtés	O
+6l0l3	le_3_novembre_1999__	T
+6l1l0	La_société_Les_Lavandières	I
+
+#Le site est localisé sur la commune de Rezé, au bord de la Sèvre Nantaise.
+
+7l0l0	Le_site	O
+7l0l1	localisé_sur_la_commune_de_Rezé	L
+7l0l2	au_bord_de_la_Sèvre_Nantaise	L
+
+#Il occupe une superficie de 4 500 m².
+
+
+#Le terrain est une friche industrielle sans bâtiment.
+
+9l0l0	Le_terrain	O
+9l0l1	une_friche_industrielle	O
+
+#La société Les Lavandières a transmis un mémoire de cessation d'activités en décembre 1999, complété en janvier 2000, comprenant les mesures prises et envisagés pour assurer la mise en sécurité du site.
+
+10l0l0	La_société_Les_Lavandières	O
+10l0l1	a_transmis	N
+10l0l2	un_mémoire_de	O
+10l0l3	cessation_d__activités	N
+10l0l4	en_décembre_1999__	T
+10l0l5	complété	O
+10l0l6	en_janvier_2000__	T
+10l0l7	assurer_la_mise_en_sécurité	N
+10l1l0	La_société_Les	I
+
+#Les travaux de remise en état du site ont consisté en :
+
+11l0l0	Les	N
+11l0l1	travaux_de_remise_en_état_du_site	O
+
+#- l'évacuation des machines de production, des chaudières et de l'installation de traitement des effluents vers d'autres usines du groupe ELIS,
+
+12l0l0	l__évacuation_des_machines_de_production	N
+12l0l1	l_	O
+12l0l2	ELIS	O
+12l1l0	effluents	U
+12l1l1	groupe_ELIS	I
+
+#- l'évacuation des déchets de nettoyage des canalisation, de la cuve de récupération des eaux de lavage, des bidons d'huiles usagées issues des vidanges,
+
+13l0l0	l__évacuation	N
+13l0l1	déchets_de_nettoyage	O
+13l0l2	des_canalisation	O
+13l0l3	la_cuve	O
+13l0l4	eaux_de_lavage	O
+13l0l5	vidanges	A
+13l1l0	huiles_usagées	U
+
+#- le nettoyage et le dégazement des deux cuves d'hydrocarbures : une cuve enterrée de 10 m3 et une cuve extérieure de 40 m3,
+
+14l0l0	le_nettoyage	N
+14l0l1	le_dégazement	N
+14l0l2	deux_cuves_d__hydrocarbures	O
+14l0l3	une_cuve	O
+14l0l4	une_cuve	O
+14l1l0	cuves_d_	D
+14l1l1	hydrocarbures	S
+14l1l2	cuve_enterrée	D
+14l1l3	cuve	D
+
+#- l'inertage de la cuve de 10 m3 par du béton,
+
+15l0l0	l__inertage	N
+15l0l1	du_béton	O
+
+#- le retrait des matières premières hors des bâtiments.
+
+16l0l0	des_bâtiments	O
+16l1l0	matières_premières	U
+
+#Des travaux complémentaires ont été réalisés en avril et mai 2000 :
+
+17l0l0	Des_travaux_complémentaires	O
+17l0l1	ont_été_réalisés	N
+17l0l2	en_avril_et_mai_2000	T
+
+#- le découpage de la cuve de 40 m3 et son évacuation,
+
+18l0l0	le_découpage	N
+18l0l1	la_cuve_de_40_m3	O
+
+#- le nettoyage de la rétention de la cuve : 52 tonnes de terres polluées et de sable de soutènement souillés par du fioul lourd ont été extraites et éliminées vers une filière spécialisée,
+
+19l0l0	le_nettoyage	N
+19l0l1	la_rétention	O
+19l0l2	la_cuve	O
+19l0l3	52_tonnes_de_terres_polluées	O
+19l0l4	ont_été_extraites	N
+19l0l5	éliminées	O
+19l0l6	vers	L
+19l0l7	une_filière	O
+19l1l0	cuve	D
+19l1l1	fioul_lourd	U
+
+#- le remblaiement de la fosse de la cuve par des terres propres,
+
+20l0l0	le_remblaiement_de_la_fosse_de	N
+20l0l1	la_cuve	O
+20l0l2	des_terres_propres	O
+
+#- le retrait des déchets restants sur le site.
+
+
+#Un permis de démolir a été délivré par les services de l'urbanisme de la commune de Rezé en 2001.
+
+22l0l0	Un_permis_de_démolir	N
+22l0l1	a_été_délivré_par	N
+22l0l2	les_services_de_l__urbanisme	O
+22l0l3	la_commune_de_Rezé	L
+22l0l4	en_2001	T
+
+#Les bâtiments industriels ont été démolis en 2002.
+
+23l0l0	Les_bâtiments_industriels	O
+23l0l1	ont_été_démolis	N
+23l0l2	en_2002	T
+
+#La cuve enterrée de 10 m3, qui était restée en place depuis 2000 en raison de son poids (inertage avec du béton) et de son maniement qui risquait de mettre en péril la structure du bâtiment a été évacuée après la démolition du bâtiment.
+
+24l0l0	La_cuve_enterrée	O
+24l0l1	était_restée_en_place	N
+24l0l2	depuis_2000	T
+24l0l3	maniement	A
+24l0l4	la_structure_du_bâtiment	O
+24l0l5	a_été_évacuée	N
+24l0l6	après	O
+24l0l7	la_démolition_du_bâtiment	N
+24l1l0	cuve_enterrée	D
+
+#La dalle et le mur de soutien de la cuve ont été démantelés en 2003 : 35 tonnes de béton ont été excavées, dont 33 tonnes de blocs de béton non pollués (après vérification par analyses) et 2 tonnes de béton très pollué au fioul qui ont été traitées par désorption thermique puis éliminées en centre agréé.
+
+25l0l0	La_dalle_et_le_mur_de_soutien_de_la_cuve	O
+25l0l1	ont_été_démantelés	N
+25l0l2	en_2003	T
+25l0l3	35_tonnes_de_béton	O
+25l0l4	ont_été_excavées	N
+25l0l5	ont_été_traitées_par_désorption	N
+25l0l6	centre_agréé	O
+25l1l0	fioul	S
+
+#Des investigations environnementales ont été effectuées en 2006-2007 puis en 2010-2012 dans le but de caractériser la qualité du sol et des eaux souterraines.
+
+26l0l0	Des_investigations_environnementales	N
+26l0l1	ont_été_effectuées	N
+26l0l2	en_2006___2007	T
+26l0l3	en_2010___2012	T
+26l0l4	sol_et_des_eaux_souterraines	O
+
+#L'usage futur envisagé est un usage de type industriel comparable à celui de la dernière période d'activité.
+
+27l0l0	L__usage	O
+27l0l1	un_usage	O
+
+#Les investigations de 2006-2007 ont compris la réalisation de :
+
+28l0l0	Les_investigations_de_2006	N
+28l0l1	__2007	T
+
+#- 12 sondages de sol (A1 à D3) à des profondeurs de 1.2 à 4.5 m,
+
+29l0l0	à_des_profondeurs_de	L
+29l0l1	1_2_à_4_5_m	N
+
+#- 3 piézomètres (Pz1, Pz2 et Pz3) à des profondeurs de 6 à 10 m;
+
+30l0l0	3_piézomètres	O
+
+#Les investigations de 2010-2012 ont compris la réalisation de :
+
+31l0l0	Les_investigations	N
+31l0l1	2010___2012	T
+
+#- 15 sondages de sol (Sd1 à Sd12, GSPz1, GSPz2 et GSPz3) d'une profondeur variant entre 0.9 et 5.3m,
+
+32l0l0	15_sondages_de_sol	O
+
+#- 4 échantillons ponctuels d'eaux souterraines au niveau des 4 sondages Sd6, Sd7, Sd12 et GSPZ2 (les 3 piézomètres Pz1, Pz2 et Pz3 n'étaient plus utilisables),
+
+33l0l0	eaux_souterraines	O
+33l0l1	au_niveau_des	R
+33l0l2	4_sondages_Sd6	O
+33l1l0	GSPZ2	I
+
+#- 8 piézairs (Pa1 à Pa8) à 1.5 m de profondeur.
+
+34l0l0	8_piézairs	O
+34l0l1	à	L
+34l0l2	1_5_m	N
+
+#Le programme analytique a porté sur les hydrocarbures totaux, les HAP, les BTEX et les COHV.
+
+35l1l0	hydrocarbures_totaux	S
+35l1l1	les_HAP	S
+35l1l2	les_BTEX	S
+35l1l3	COHV	S
+
+#Les résultats ont mis en évidence :
+
+
+#~ dans les sols :
+
+
+#- la présence en faibles concentrations d'hydrocarbures totaux, les valeurs maximales étant détectées au droit des deux cuves,
+
+38l0l0	au_droit_des_deux_cuves	L
+38l1l0	hydrocarbures_totaux	S
+38l1l1	cuves	D
+
+#- la présence à l'état de traces de HAP dans tous les sondages de 2006,
+
+39l0l0	les_sondages	N
+39l0l1	de_2006__	T
+39l1l0	HAP	S
+
+#- aucune trace de BTEX,
+
+40l1l0	BTEX	S
+
+#- la présence à l'état de traces de perchloroéthylène dans tous les sondages de 2006,
+
+41l0l0	2006__	T
+41l1l0	perchloroéthylène	S
+
+#- la présence de PCE en faibles concentrations au nord du site au niveau des sondages Sd2 et GSPz3 et en très faibles concentrations à l'ouest du site au niveau des sondages Sd5 et Sd7 (au droit des deux cuves et de l'atelier de nettoyage à sec).
+
+42l0l0	au_nord_du_site	L
+42l0l1	au_niveau_des_sondages_Sd2	L
+42l0l2	à_l__ouest_du_site	L
+42l0l3	au_niveau_des	R
+42l0l4	sondages	N
+42l0l5	au_droit_des_deux_cuves_et_de_l__atelier_de_nettoyage_à_sec	N
+42l1l0	PCE	S
+
+#~ dans les eaux souterraines :
+
+
+#- la présence d'hydrocarbures totaux au droit des 3 piézomètres (Pz1, Pz2 et Pz3) en concentrations nettement inférieures à la limite de qualité des eaux brutes,
+
+44l1l0	hydrocarbures_totaux	S
+
+#- la présence de HAP au droit de Pz2 en faibles concentrations,
+
+45l1l0	HAP	S
+
+#- aucune trace de BTEX,
+
+46l1l0	BTEX	S
+
+#- la présence de perchloroéthylène et de trichloroéthylène au droit des trois piézomètres Pz1, Pz2 et Pz3, les valeurs maximales étant détectées au niveau de Pz2 (au droit des deux cuves et de l'atelier de nettoyage à sec) et au droit des 4 sondages Sd6, Sd7, Sd12 et GSPZ2, en concentrations nettement inférieures que celles de 2006,
+
+47l0l0	au_droit_des_trois	L
+47l0l1	piézomètres_Pz1	O
+47l0l2	nettoyage	A
+47l0l3	à_sec	O
+47l0l4	au_droit_des	L
+47l0l5	4_sondages_Sd6	O
+47l0l6	2006__	T
+47l1l0	perchloroéthylène	S
+47l1l1	trichloroéthylène	S
+47l1l2	GSPZ2	S
+
+#- la présence de dichloroéthylène au droit de Pz1 en 2006-2007 et au droit des sondages Sd6 et GSPz2 avec des concentrations en nette diminution par rapport à 2006.
+
+48l0l0	en_2006___2007	T
+48l0l1	au_droit_des_sondages_Sd6	L
+48l0l2	à_2006__	T
+48l1l0	dichloroéthylène	S
+
+#~ dans les gaz du sol :
+
+
+#- la présence de PCE dans tous les piézairs: à l'état de traces au droit de Pa1, Pa2 et Pa3, en faibles concentrations au droit de Pa4, Pa5 et Pa6 (emplacement de l'atelier de nettoyage à sec) et en concentrations plus importantes au droit de Pa7 et Pa8.
+
+50l1l0	PCE	S
+
+#Les résultats ont mis en évidence une pollution au COHV et notamment en PCE et TCE dans les sols et les eaux souterraines.
+
+51l0l0	COHV	O
+51l1l0	COHV	S
+51l1l1	PCE	S
+51l1l2	TCE	S
+
+#Une évaluation quantitative des risques sanitaires a été réalisée en date du 15 septembre 2015 afin d'évaluer l'exposition des futurs usagers du site aux impacts détectés dans le sous-sol.
+
+52l0l0	Une_évaluation_quantitative_des_risques_sanitaires	N
+52l0l1	a_été_réalisée	N
+52l0l2	en_date_du_15_septembre_2015	T
+52l0l3	le_sous_sol	O
+
+#Il s'avère que la qualité environnementale du sous-sol est compatible avec un usage futur de type industriel.
+
+53l0l0	un_usage_futur	N
+
+#Cependant, l'exploitant a vendu le site à un promoteur immobilier dans le but de réaliser une opération immobilière.
+
+54l0l0	l__exploitant	O
+54l0l1	a_vendu	N
+54l0l2	le_site	O
+54l0l3	un_promoteur_immobilier	O
+54l0l4	dans_le_but_de	R
+54l0l5	réaliser_une_opération_immobilière	N
+
+#L'usage futur envisagé est donc un usage résidentiel et des travaux de réhabilitation du site sont envisagés pour rendre les terrains compatibles à un usage résidentiel.
+
+55l0l0	L__usage_futur_envisagé	O
+55l0l1	des_travaux_de_réhabilitation	N
+55l0l2	site	O
+55l0l3	les_terrains	O
+55l0l4	usage_résidentiel	A
+
+#Dans le cadre de ce projet d’aménagement, l’exploitant a mandaté un bureau d’étude pour réaliser un diagnostic approfondi de pollution et un plan de gestion.
+
+56l0l0	Dans_le_cadre_de	R
+56l0l1	ce_projet_d__aménagement	N
+56l0l2	l__exploitant	O
+56l0l3	a_mandaté	N
+56l0l4	un_bureau_d__étude	O
+56l0l5	réaliser_un_diagnostic_approfondi_de_pollution	N
+56l0l6	un	O
+56l0l7	plan_de_gestion	N
+
+#L’étude de la vulnérabilité a mis en évidence un environnement vulnérable et sensible à une pollution au droit du site ; plusieurs sources potentielles de pollution ont été détectées.
+
+57l0l0	au_droit_du_site	L
+57l0l1	plusieurs_sources_potentielles_de_pollution	O
+57l0l2	ont_été_détectées	N
+
+#Les investigations se sont déroulées du 26 au 28 octobre 2015 et ont mises en évidence :
+
+58l0l0	Les_investigations_se_sont_déroulées	N
+58l0l1	du_26_au_28_octobre_2015	T
+
+#- un impact généralisé des sols du site par des COHV (tétrachloroéthylène, trichloroéthylène et dichloroéthylène) avec la présence de 3 zones concentrées.
+
+59l0l0	un_impact_généralisé	N
+59l1l0	des_COHV	S
+59l1l1	tétrachloroéthylène	S
+59l1l2	trichloroéthylène	S
+59l1l3	dichloroéthylène	S
+
+#Plusieurs zones d’impact par des hydrocarbures ont également été constatées, ainsi qu’un impact ponctuel en HAP et la présence d’anomalies en métaux sur une majeure partie du site ;
+
+60l0l0	Plusieurs_zones	O
+60l0l1	qu_	R
+60l0l2	un_impact_ponctuel	N
+60l1l0	hydrocarbures	S
+60l1l1	HAP	S
+
+#- un impact des eaux souterraines par des COHV, des hydrocarbures et des HAP.
+
+61l0l0	un_impact	N
+61l1l0	des_COHV	S
+61l1l1	hydrocarbures	S
+61l1l2	HAP	S
+
+#L’impact en COHV correspond en majorité à du TCE associé à l’ancienne activité de la blanchisserie industrielle.
+
+62l0l0	L__impact	O
+62l0l1	du_TCE	O
+62l0l2	associé_à	R
+62l0l3	l_	O
+62l0l4	la	O
+62l0l5	blanchisserie_industrielle	A
+
+#Une zone très concentrée se trouve au centre ouest de la parcelle.
+
+63l0l0	Une_zone	O
+63l0l1	se_trouve_au_centre_ouest_de_la_parcelle	L
+
+#Le panache de pollution s’étendrait hors site vers le Nord-Ouest en direction de l’espace boisé voisin du site et vers le Nord-Est, jusqu’à la Sèvre Nantaise.
+
+64l0l0	Le_panache	N
+64l0l1	site_vers	O
+64l0l2	le_Nord_Ouest	O
+64l0l3	en_direction_de	R
+64l0l4	l__espace_boisé_voisin_du_site	L
+64l0l5	et_vers_le_Nord_Est	N
+64l0l6	jusqu_	R
+64l0l7	à_la_Sèvre_Nantaise	L
+
+#Néanmoins, la zone des eaux souterraines fortement impactées reste à l’intérieur de la parcelle ;
+
+65l0l0	la_zone_des_eaux_souterraines_fortement_impactées	O
+
+#- un impact généralisé de l’air du sol du site par des COHV (TCE).
+
+66l0l0	un_impact_généralisé	N
+66l0l1	des_COHV	O
+66l1l0	COHV	S
+66l1l1	TCE	S
+
+#Du chlorure de vinyle a été détecté dans un seul piézair à une teneur faible.
+
+67l0l0	a_été_détecté	N
+67l1l0	chlorure_de_vinyle	S
+
+#Cependant, cette répartition est susceptible d’évoluer dans le temps.
+
+
+#Une présence locale de chloroforme, d’hydrocarbures, de toluène et de xylènes a été détectée.
+
+69l0l0	a_été_détectée	N
+69l1l0	chloroforme	S
+69l1l1	d__hydrocarbures	S
+69l1l2	toluène	S
+69l1l3	xylènes	S
+
+#Le schéma conceptuel a mis en évidence des risques potentiels :
+
+
+#- pour les futurs usagers du site :
+
+
+#~ via l’inhalation d’air à l’intérieur des futurs bâtiments et dans l’air extérieur,
+
+72l0l0	l__inhalation	N
+
+#~ via l'ingestion et l'inhalation de poussières de sols,
+
+73l0l0	l__inhalation	N
+73l0l1	de_poussières_de_sols	O
+
+#~ via l'usage des eaux souterraines
+
+
+#~ via la consommation de fruits et légumes autoproduits,
+
+
+#~ via la consommation d'eau du réseau AEP.
+
+
+#- pour la population hors site :
+
+
+#~ via le contact direct (contact cutanés ingestion) avec les eaux superficielles lors des activités récréatives et halieutiques sur la Sèvre Nantaise.
+
+78l0l0	des_activités_récréatives_et_halieutiques	A
+78l0l1	sur_la_Sèvre_Nantaise	L
+
+#Des mesures de gestion permettant de désactiver certaines voies de transfert identifiées ci-dessus ont été proposées afin de limiter les risques pour les futurs usagers du site:
+
+79l0l0	ont_été_proposées	N
+
+#- le recouvrement de l'ensemble du site par une couverture de surface (enrobé, béton , terre végétale, pavement),
+
+
+#- l'interdiction de tout usage des eaux souterraines au droit du site,
+
+81l0l0	l__interdiction	N
+81l0l1	de_tout_usage_des_eaux_souterraines	O
+81l0l2	au_droit_du_site	L
+
+#- l'interdiction de réaliser des potagers et de cultiver des fruits et légumes au droit du site,
+
+82l0l0	l_	N
+82l0l1	interdiction_de_réaliser_des_potagers	O
+82l0l2	de_cultiver_des_fruits_et_légumes	A
+
+#- la mise en place de mesures adéquates pour éviter la diffusion de substances volatiles dans l'eau du réseau dans le cas d'installation de canalisation AEP au droit d'une zone polluée.
+
+83l0l0	la_mise_en_place_de	N
+83l0l1	le_cas_d_	R
+83l0l2	installation_de	N
+83l0l3	canalisation_AEP	A
+83l0l4	au_droit_d__une_zone_polluée	L
+
+#Seul le risque d'inhalation d'air à l'intérieur des futurs bâtiments (au nombre de 4 dans le projet d'aménagement) et dans l'air extérieur a été considéré lors de l'élaboration de l'EQRS.
+
+84l0l0	a_été_considéré_lors	N
+84l0l1	de	R
+84l0l2	l__élaboration	N
+84l0l3	l__EQRS	O
+
+#Cette évaluation a permis de mettre en évidence des risques inacceptables pour les futurs usagers du bâtiment C liés à la présence de trichloroéthylène.
+
+85l0l0	Cette_évaluation	N
+85l0l1	trichloroéthylène	A
+85l1l0	trichloroéthylène	S
+
+#Les objectifs du plan de gestion fixés sont donc :
+
+86l0l0	Les_objectifs_du_plan_de_gestion	O
+
+#- l'élimination ou à défaut l'atténuation des sources de pollution mises en évidence dans les sols,
+
+87l0l0	l__atténuation_des_sources_de_pollution	O
+
+#- l’atténuation de la source de pollution aux COHV dans les eaux souterraines,
+
+88l0l0	l__atténuation_de_la_source_de_pollution	O
+88l1l0	COHV	S
+
+#- la gestion des déblais lors des opérations de dépollution,
+
+89l0l0	la	A
+89l0l1	gestion_des_déblais	O
+89l0l2	des_opérations_de_dépollution	N
+
+#- l'obtention de risques acceptables pour l’ensemble du projet.
+
+
+#Concernant les sources de pollution dans les sols, des mesures de gestion ont été proposées au niveau de 4 zones polluées:
+
+91l0l0	les_sources_de_pollution	O
+91l0l1	4_zones_polluées	O
+
+#- les zones A et B impactées par des hydrocarbures,
+
+92l0l0	hydrocarbures	O
+92l1l0	hydrocarbures	S
+
+#- les zones 1 et 2 impactées par des COHV et des hydrocarbures,
+
+93l0l0	les_zones_1_et_2_impactées	O
+93l0l1	par	R
+93l0l2	des_COHV	O
+93l1l0	COHV	S
+93l1l1	hydrocarbures	S
+
+#- la zone 3 impactée uniquement par des COHV,
+
+94l0l0	la_zone_3_impactée	O
+94l0l1	des_COHV	O
+94l1l0	COHV	S
+
+#- la zone située au niveau des bâtiments de la blanchisserie où l'impact en COHV est diffus.
+
+95l0l0	la_zone	O
+95l0l1	située_au_niveau_des_bâtiments	L
+95l1l0	COHV	S
+
+#Les travaux de réhabilitation prévus sur le site, lesquels vont s'étaler sur une durée de 13 mois environ, sont donc les suivants:
+
+96l0l0	Les_travaux_de_réhabilitation	N
+96l0l1	s__étaler_sur_une_durée_de_13_mois	T
+
+#- pour les impacts concentrés en hydrocarbures des zones A et B, les terres polluées seront éliminées hors site et évacuées en centre de traitement agréé: quantité de terres polluées estimée = 520 tonnes),
+
+97l0l0	les_terres_polluées	O
+97l0l1	seront_éliminées_hors_site	N
+97l0l2	évacuées_en_centre_de_traitement_agréé	O
+97l0l3	terres_polluées	O
+97l1l0	hydrocarbures	S
+
+#- pour les impacts concentrés en solvants chlorés des zones 1, 2 et 3, les sols seront laissés en place et les polluants seront extraits par ventilation forcé puis fixés sur charbon actif (traitement in situ par venting): quantité de terres polluées estimée = 1 600 tonnes,
+
+98l0l0	les_polluants	O
+98l0l1	terres_polluées	O
+98l1l0	solvants_chlorés	S
+98l1l1	les_polluants	U
+98l1l2	charbon_actif	U
+
+#- pour les impacts diffus en solvants chlorés dans les sols, même traitement que pour les zones 1, 2 et 3: quantité de terres polluées estimée = 3 600 tonnes,
+
+99l0l0	terres_polluées	O
+99l1l0	solvants_chlorés	S
+
+#- pour les impacts concentrés en solvants chlorés dans les eaux souterraines, le traitement se fera par oxydation chimique in situ.
+
+100l0l0	oxydation_chimique_in_situ	N
+100l1l0	solvants_chlorés	S
+
+#Le montant des travaux de dépollution a été estimé à 485 000 euros HT.
+
+101l0l0	Le_montant_des	O
+101l0l1	travaux_de_dépollution	N
+101l0l2	a_été_estimé_à	N
+101l0l3	485_000_euros_HT	O
+
+#En outre, il a été préconisé de mettre en place une surveillance de la qualité des eaux souterraines pendant au moins deux ans avec une fréquence d'analyses trimestrielle.
+
+102l0l0	mettre_en_place_une_surveillance	N
+102l0l1	la_qualité_des_eaux_souterraines	O
+102l0l2	pendant_au_moins_deux_ans	T
+
+#A l’issue des travaux, une analyse du risque résiduel (ARR) devra être réalisée afin de vérifier la compatibilité de la qualité des sols avec l’usage du site, et des servitudes ou des restrictions d’usages devront être mises en place.
+
+103l0l0	A_l__issue	R
+103l0l1	des_travaux	N
+103l0l2	analyse_du_risque_résiduel	O
+103l0l3	devra_être_réalisée	N
+103l0l4	des_servitudes	O
+103l0l5	usages	O
+103l0l6	devront_être_mises_en_place	N
+
+#En application de l'article L. 556-1 du code de l'environnement, le maître d'ouvrage doit produire une attestation garantissant la réalisation de l'étude de sol et la prise en compte des préconisation de cette étude pour assurer la compatibilité entre l'état des sols et l'usage futur du site dans le projet de construction.
+
+104l0l0	le_maître_d__ouvrage	O
+104l0l1	doit_produire	N
+104l0l2	une_attestation	O
+104l0l3	garantissant_la_réalisation	N
+104l0l4	étude_de_sol	O
+
+#Cette attestation doit également mentionner s'il demeure une pollution résiduelle sur le terrain malgré la compatibilité avec le nouvel usage afin d'intégrer, le cas échéant, le dispositif relatif aux secteurs d'information sur les sols.
+
+105l0l0	la_compatibilité	O
+105l0l1	le_nouvel_usage	O

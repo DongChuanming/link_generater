@@ -1,0 +1,220 @@
+
+#37.0041
+#Le site, d'une superficie de 13 300 m2 , est situé sur le territoire de la commune de Sonzay (37).
+
+0l0l0	Le_site	O
+0l0l1	est_situé_sur_le_territoire_de_la_commune_de_Sonzay___37__	L
+
+#Il couvre un total de 31 parcelles et il est implanté dans un tissu urbain dense.
+
+1l0l0	implanté_dans_un_tissu_urbain_dense	L
+
+#L'établissement est soumis à la réglementation des Installation Classée pour la Protection l'Environnement (ICPE) depuis le 12/09/1983.
+
+2l0l0	L__établissement	O
+2l0l1	est_soumis_à_la_réglementation	N
+2l0l2	des_Installation_Classée	O
+2l0l3	pour_la_Protection	N
+2l0l4	l__Environnement	O
+2l0l5	depuis_le_12_09_1983__	T
+
+#Il relève du régime de la déclaration, du fait de la présence d'un atelier de travail mécanique des métaux, d'un dépôt d'oxygène liquéfié sur site et d'un transformateur au PCB.
+
+3l0l0	relève_du_régime_de	R
+3l0l1	la_déclaration	N
+3l0l2	travail_mécanique_des_métaux	A
+3l1l0	oxygène	S
+3l1l1	PCB	S
+
+#De plus, d'autres activités non classées ont eu lieu sur le site :
+
+4l0l0	ont_eu_lieu	N
+
+#- stockage de 1500L de gazole
+
+5l0l0	1500L	O
+5l0l1	de_gazole	A
+5l1l0	gazole	D
+
+#- installation de distribution de carburants
+
+6l0l0	distribution_de_carburants	A
+6l1l0	carburants	U
+
+#- stockage de 1950 kg de propane
+
+7l0l0	propane	A
+
+#- installation de compression d'air
+
+
+#Le site appartenant anciennement à la société BARDET a été racheté par la société Providenc'Immo le 15 octobre 2009.
+
+9l0l0	Le_site	O
+9l0l1	appartenant_anciennement_à	R
+9l0l2	la_société_BARDET	O
+9l0l3	a_été_racheté	N
+9l0l4	Providenc__Immo	O
+9l0l5	le_15_octobre_2009__	T
+9l1l0	la_société_BARDET	I
+
+#Dans le cadre de la cessation d'activité déposée par la société BARDET en mars 2006, l'administration a demandé la mise en sécurité du site.
+
+10l0l0	Dans_le_cadre_de	R
+10l0l1	la_cessation_d__activité_déposée	N
+10l0l2	la_société_BARDET	O
+10l0l3	en_mars_2006__	T
+10l0l4	l__administration	O
+10l0l5	a_demandé_la_mise_en_sécurité	N
+10l0l6	du_site	O
+10l1l0	la_société_BARDET	I
+
+#Des mesures ont été prise en 2008 afin de mettre en sécurité le site : dégazage des cuves, évacuation des déchets, dangereux ou non, ainsi que la résiliation de l'abonnement EDF.
+
+11l0l0	Des_mesures_ont_été_prise	N
+11l0l1	en_2008	T
+11l0l2	dégazage	N
+11l0l3	cuves	O
+11l0l4	évacuation_des_déchets	N
+11l0l5	la_résiliation	N
+
+#Le 7 mars 2011, le diagnostic de pollution des sols et l'analyse "coûts-bénéfices" a été réalisé par le bureau d'étude BURGEAP.
+
+12l0l0	Le_7_mars_2011__	T
+12l0l1	le_diagnostic_de_pollution_des_sols	N
+12l0l2	a_été_réalisé	N
+12l0l3	le_bureau_d__étude_BURGEAP	O
+12l1l0	BURGEAP	I
+
+#Ce diagnostic comprenait 27 sondages et a permis de mettre en évidence 3 zones impactées par des hydrocarbures.
+
+13l0l0	Ce_diagnostic	N
+13l0l1	3_zones_impactées	O
+13l0l2	par	R
+13l0l3	des_hydrocarbures	O
+13l1l0	hydrocarbures	S
+
+#Compte tenu de l'usage futur du site (zone pavillonnaire) et en considérant les aspects "coûts-bénéfices", la solution retenu pour le traitement de la pollution identifiée était la suivante :
+
+14l0l0	zone_pavillonnaire	O
+14l0l1	la_solution_retenu	O
+14l0l2	le_traitement	N
+14l0l3	la_pollution	O
+
+#- Zone précédemment occupée par une installation de grenaillage
+
+15l0l0	une_installation_de	O
+15l0l1	grenaillage	A
+
+#=> évacuation de la grenaille mélangée à des résidus métalliques et accumulée superficiellement sur 5cm d'épaisseur et sur 80m² et transfert dans un centre d'enfouissement dédié aux déchets dangereux.
+
+16l0l0	évacuation	N
+16l0l1	transfert_dans	R
+16l0l2	un_centre	O
+16l1l0	résidus_métalliques	U
+
+#=> excavation, sur une profondeur de 1m et sur 80m², des terres significativement polluées par des hydrocarbures.
+
+17l0l0	excavation	N
+17l0l1	polluées_par	R
+17l0l2	des_hydrocarbures	O
+17l1l0	hydrocarbures	S
+
+#- Seconde zone impactée par des hydrocarbures
+
+18l0l0	Seconde_zone_impactée	O
+18l1l0	hydrocarbures	S
+
+#=> excavation, sur une profondeur de 2m et sur 40m², des terres significativement polluées par des hydrocarbures.
+
+19l0l0	excavation	N
+19l0l1	polluées_par	R
+19l0l2	des_hydrocarbures	O
+19l1l0	hydrocarbures	S
+
+#- Troisième zone impactée par des hydrocarbures
+
+20l0l0	zone_impactée	O
+20l0l1	hydrocarbures	O
+20l1l0	hydrocarbures	S
+
+#=> excavation, sur une profondeur de 1.8m et sur 60m², des terres significativement polluées par des hydrocarbures.
+
+21l0l0	____excavation	N
+21l0l1	1_8	O
+21l0l2	polluées_par	R
+21l0l3	des_hydrocarbures	O
+21l1l0	hydrocarbures	S
+
+#Les terres excavées seraient transférées dans une fosse en pleine terre qui serait créée pour ce faire.
+
+22l0l0	seraient_transférées	N
+22l0l1	dans_une_fosse_en_pleine_terre	N
+22l0l2	serait_créée	N
+
+#Cette fosse serait positionnée sous une voie bitumée de circulation à créer sur ce même site et les terres impactées par des hydrocarbures seraient recouvertes par une géomembrane.
+
+23l0l0	Cette_fosse	O
+23l0l1	serait_positionnée	N
+23l0l2	sous	L
+23l0l3	une_voie_bitumée	O
+23l0l4	de_circulation	O
+23l0l5	les_terres_impactées	O
+23l0l6	hydrocarbures	O
+23l0l7	une_géomembrane	N
+23l1l0	hydrocarbures	S
+
+#Le 12 avril 2011, au vu de la solution de réhabilitation choisie, l'inspection de la DREAL a demandé à Providenc'Immo (nouveau propriétaire depuis le 15 octobre 2009) de réaliser une Analyse des Risques Résiduels (ARR) et de déposer un dossier de servitudes d'utilité publique au Préfet.
+
+24l0l0	Le_12_avril_2011__	T
+24l0l1	au_vu_de	R
+24l0l2	la_solution_de_réhabilitation	N
+24l0l3	l__inspection	O
+24l0l4	la_DREAL	O
+24l0l5	Providenc__Immo	O
+24l0l6	nouveau	N
+24l0l7	propriétaire	R
+24l0l8	depuis	T
+24l0l9	le	N
+24l0l10	15_octobre_2009__	T
+24l0l11	un_dossier_de_servitudes_d__utilité_publique	O
+
+#Le 16 juin 2011, la société Providenc'Immo s'est finalement engagée à excaver et transférer en biocentre l'intégralité des terres polluées.
+
+25l0l0	Le_16_juin_2011__	T
+25l0l1	la_société_Providenc__Immo	O
+25l0l2	s__est_finalement_engagée_à_excaver	N
+25l0l3	transférer_en	N
+25l0l4	biocentre_l__intégralité_des_terres_polluées	O
+25l1l0	la_société_Providenc_	I
+
+#Actuellement, les terres ont bien été excavées et transférées dans un biocentre.
+
+26l0l0	les_terres	O
+26l0l1	ont_bien_été_excavées_et_transférées	N
+26l0l2	dans	L
+26l0l3	un_biocentre	O
+
+#Une Analyse des Risques Résiduels (ARR) a été entreprise par le bureau d'études BURGEAP après les travaux d'excavation.
+
+27l0l0	Une_Analyse_des_Risques_Résiduels	O
+27l0l1	a_été_entreprise	N
+27l0l2	le_bureau_d__études_BURGEAP_après	O
+27l0l3	les_travaux_d__excavation	N
+27l1l0	BURGEAP	I
+
+#Cette analyse a mis en évidence l'existence d'une pollution résiduelle.
+
+
+#L'ARR montre néanmoins que l'état actuel des milieux et l'usage futur du site sont compatibles; les risques étant jugés "acceptables" pour les futurs occupants d'habitations de plain-pied, sur vide sanitaire ou sur niveau de sous-sol avec ou sans étage".
+
+29l0l0	l__état_actuel_des_milieux	O
+29l0l1	l__usage_futur_du_site	O
+29l0l2	sont_compatibles	N
+29l0l3	les_risques	O
+
+#En conséquence, le cessation d'activité a été enregistrée le 11 avril 2013.
+
+30l0l0	le_cessation_d__activité	N
+30l0l1	a_été_enregistrée	N
+30l0l2	le_11_avril_2013__	T

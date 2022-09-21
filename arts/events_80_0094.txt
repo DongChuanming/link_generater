@@ -1,0 +1,223 @@
+
+#80.0094
+#Le site accueillait une activité de manufacture de velours et de coton depuis 1856.
+
+0l0l0	Le_site	O
+0l0l1	accueillait	R
+0l0l2	une_activité_de_manufacture_de_velours_et_de_coton	A
+0l0l3	depuis_1856__	T
+
+#L’activité industrielle de production du site s’est achevée en octobre 2008.
+
+1l0l0	L__activité_industrielle_de_production	A
+1l0l1	du_site	O
+1l0l2	s__est_achevée	N
+1l0l3	en_octobre_2008__	T
+
+#Depuis, seule une activité de stockage de tissus et de négoce portée par une équipe d’une dizaine de personnes reste en activité et occupe environ la moitié des bâtiments du site.
+
+2l0l0	Depuis	T
+2l0l1	une_activité_de_stockage_de_tissus_et_de_négoce	A
+2l0l2	en_activité	T
+2l0l3	la_moitié_des_bâtiments	O
+2l0l4	du_site	O
+
+#Les dernières activités ensuite arrêtées concernaient principalement la coupe, la teinture, le blanchiment, le nettoyage et le séchage de textiles (principalement du coton et du velours).
+
+3l0l0	la_coupe___la_teinture	A
+3l0l1	le_blanchiment___le_nettoyage_et_le_séchage_de_textiles	A
+
+#Dans le cadre d’un audit environnemental simplifié de pollution potentielle du site Cosserat réalisé par la société CERDIS en Juin 2004, 10 sondages avaient été réalisés. on constaté sur certaines parties du site :
+
+4l0l0	Dans_le_cadre_d_	R
+4l0l1	un_audit_environnemental_simplifié_de_pollution	N
+4l0l2	Cosserat	O
+4l0l3	réalisé	N
+4l0l4	la_société_CERDIS	O
+4l0l5	en_Juin_2004__	T
+4l0l6	10_sondages	O
+4l0l7	avaient_été_réalisés	N
+4l1l0	la_société_CERDIS	I
+
+#- des teneurs en trichloréthylène supérieures à la valeur de constat d’impact pour un usage sensible, mais inférieures pour un usage industriel
+
+5l0l0	usage_industriel	A
+5l1l0	trichloréthylène	S
+
+#- des teneurs en hydrocarbures totaux supérieures à la valeur de constat d’impact pour un usage non sensible
+
+6l0l0	un_usage	O
+6l1l0	hydrocarbures_totaux	S
+
+#- des teneurs en benzo(a)pyrène, benzo(a)anthracène, indéno(1,2,3-cd)pyrène supérieures aux valeurs de constat d’impact pour un usage sensible mais inférieures pour un usage industriel
+
+7l0l0	usage_industriel	A
+7l1l0	benzo_a_pyrène	S
+7l1l1	benzo_a_anthracène	S
+7l1l2	indéno_1_2_3_cd_pyrène	S
+
+#Par transmission du 12 mai 2010, la société C&V COSSERAT a adressé un diagnostic de pollutions des sols et de surveillance des eaux souterraines pour son site situé sur la commune d’Amiens complétant l'étude de 2004. cet envoi fait suite à l’arrêté préfectoral complémentaire du 18/11/2009, imposant l’élaboration d’un schéma conceptuel, d’un plan de gestion et d’une surveillance des eaux souterraines.
+
+8l0l0	transmission_du_12_mai_2010__	T
+8l0l1	la_société_C_V_COSSERAT	O
+8l0l2	a_adressé	N
+8l0l3	un_diagnostic_de_pollutions	N
+8l0l4	surveillance_des_eaux_souterraines	A
+8l0l5	son_site	O
+8l0l6	situé_sur_la_commune_d__Amiens	L
+8l0l7	complétant	R
+8l0l8	l__étude_de_2004___cet_envoi	N
+8l0l9	fait_suite_à	R
+8l0l10	l__arrêté_préfectoral_complémentaire	O
+8l0l11	du_18_11_2009	T
+8l0l12	imposant_l__élaboration_d_	N
+8l0l13	un_schéma_conceptuel	O
+8l0l14	un_plan_de_gestion	O
+8l0l15	une	O
+8l0l16	surveillance_des_eaux_souterraines	A
+8l1l0	la_société_C_V_COSSERAT	I
+
+#L’analyse des échantillons d’eau en amont (PZ1) et en aval hydraulique (PZ2 et PZ3) a montré un impact
+
+9l0l0	en_aval_hydraulique	L
+
+#-	en COHV : tétrachloréthylène et chlorure de vinyle en aval hydraulique (PZ2).
+
+10l0l0	en_aval_hydraulique	L
+10l1l0	COHV	S
+10l1l1	tétrachloréthylène	S
+10l1l2	chlorure_de_vinyle	S
+10l1l3	PZ2	S
+
+#-	en HAP : phénantrène, fluoranthène, pyrène, benzo(a)antracène, chrysène, benzo(b)fluoranthène, benzo(k)fluoranthène et benzo(a)pyrène sont présents à des concentrations supérieures à la limite de qualité des eaux destinées à la consommation humaine .
+
+11l1l0	HAP	S
+11l1l1	phénantrène	S
+11l1l2	fluoranthène	S
+11l1l3	pyrène	S
+11l1l4	benzo_a_antracène	S
+11l1l5	chrysène	S
+11l1l6	benzo_b_fluoranthène	S
+11l1l7	benzo_k_fluoranthène	S
+11l1l8	benzo_a_pyrène	S
+
+#L’exploitant confirme qu’au regard des résultats d’analyses constatés en aval hydraulique, les anciennes activités du site COSSERAT ont vraisemblablement impacté localement les sols et les eaux souterraines.
+
+12l0l0	L__exploitant	O
+12l0l1	en_aval_hydraulique	L
+12l0l2	les_anciennes_activités	N
+12l0l3	site_COSSERAT	O
+12l0l4	ont_vraisemblablement_impacté	N
+12l0l5	les_eaux_souterraines	O
+12l1l0	COSSERAT	I
+
+#Les résultats des analyses des premiers horizons de sol aux points S1, S2 et S3 (emplacement des Piézomètres) ont montré que le cuivre, le zinc et le plomb sont présents à des concentrations supérieures aux fonds géochimiques sur les échantillons S2 et S3.
+
+13l1l0	cuivre	S
+13l1l1	zinc	S
+13l1l2	plomb	S
+
+#L’arrêté préfectoral du 18/11/2009 prescrivait
+
+14l0l0	L__arrêté_préfectoral	O
+14l0l1	18_11_2009	T
+14l0l2	prescrivait	N
+
+#-	L’établissement d’un schéma conceptuel et d’un plan de gestion au sens de l’annexe 2 de la circulaire du 8 février 2007 relative aux modalités de gestion et de réaménagement des sites pollués.
+
+15l0l0	L__établissement	N
+15l0l1	d_	N
+15l0l2	un_schéma_conceptuel	O
+15l0l3	un_plan_de_gestion	O
+15l0l4	8_février_2007	T
+15l0l5	réaménagement_des_sites_pollués	N
+
+#-	La mise en place d’une surveillance trimestrielles des eaux souterraines à partir de trois points de prélèvements sur les paramètres préalablement proposés pour avis à l’inspection.
+
+16l0l0	La_mise_en_place_d_	N
+16l0l1	une_surveillance_trimestrielles	A
+16l0l2	eaux_souterraines	O
+16l0l3	les_paramètres	O
+
+#L’exploitant nous a adressé uniquement les résultats de la première campagne de surveillance des eaux souterraines, et quelques sondages de sols réalisés au niveau des piézomètres.
+
+17l0l0	L__exploitant	O
+17l0l1	la_première_campagne_de	N
+17l0l2	surveillance_des_eaux_souterraines	A
+17l0l3	quelques_sondages_de_sols	N
+17l0l4	réalisés_au	R
+17l0l5	niveau	N
+
+#Les études antérieures (2004 et 2009) à ces résultats présentent des éléments justifiant la pollution du site sans être exhaustif.
+
+18l0l0	Les_études_antérieures	N
+18l0l1	__2004_et_2009__	T
+18l0l2	la_pollution	N
+
+#L’inspection observe que la connaissance des sources de pollution est insuffisante au stade des études actuelles :
+
+19l0l0	connaissance_des_sources_de_pollution	O
+
+#-	Celles-ci n’ont pas été déterminées par la réalisation suffisante de prélèvements de sols ; l’exploitant se contente de trois sondages au niveau des piézomètres pour un site très étendu.
+
+20l0l0	été_déterminées	N
+20l0l1	la_réalisation	N
+20l0l2	l__exploitant	O
+
+#-	Elles n’ont été ni caractérisées (paramètres) ni quantifiées (importance de la pollution)
+
+
+#Le schéma conceptuel exigé par arrêté n’est pas fourni.
+
+
+#La société Cosserat n’a pas répondu totalement aux prescriptions de l’arrêté préfectoral du18/11/2009.
+
+23l0l0	La_société_Cosserat	O
+23l0l1	l__arrêté_préfectoral	O
+23l0l2	du18_11_2009__	T
+23l1l0	La_société_Cosserat	I
+
+#L’inspection a donc adressé à la société Cosserat un courrier lui rappelant les prescriptions de l’arrêté préfectoral et les observations après analyse de l’étude de surveillance des eaux souterraines.
+
+24l0l0	la_société_Cosserat	O
+24l0l1	surveillance_des_eaux_souterraines	A
+24l1l0	la_société_Cosserat	I
+
+#Le site a été mis en liquidation judiciaire en 2012 et la liquidation a été clôturée le 12/09/2014.
+
+25l0l0	Le_site	O
+25l0l1	a_été_mis_en_liquidation_judiciaire	N
+25l0l2	en_2012	T
+25l0l3	la_liquidation	O
+25l0l4	a_été_clôturée	N
+25l0l5	le_12_09_2014__	T
+
+#Les propriétaires du site ont réalisé des études complémentaires (diagnostics complémentaires, schéma conceptuel, évaluation quantitative des risques sanitaires).
+
+26l0l0	Les_propriétaires_du_site	O
+26l0l1	ont_réalisé	N
+26l0l2	des_études_complémentaires	N
+26l0l3	diagnostics_complémentaires	N
+26l0l4	schéma_conceptuel	O
+
+#Les investigations réalisées ont mis en évidence :
+
+27l0l0	Les_investigations_réalisées	N
+
+#- des impacts en solvants chlorés dans les sols et les gaz du sol au droit de plusieurs zones du site,
+
+28l0l0	au_droit_de_plusieurs_zones_du_site	L
+28l1l0	solvants_chlorés	S
+
+#- des impacts en métaux sur l'ensemble du site;
+
+
+#- des impacts ponctuels en hydrocarbures sur l'ensemble du site avec quelques pollutions concentrées,
+
+30l0l0	des_impacts_ponctuels	N
+30l0l1	hydrocarbures	O
+30l1l0	hydrocarbures	S
+
+#- un impact ponctuel en PCB.
+
+31l1l0	PCB	S

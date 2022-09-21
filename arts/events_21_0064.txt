@@ -1,0 +1,127 @@
+
+#21.0064
+#L'arrêté préfectoral du 13 août 1969 autorisait la société SIMEL à fabriquer du matériel électrique.
+
+0l0l0	L__arrêté_préfectoral	O
+0l0l1	13_août_1969	T
+0l0l2	autorisait	R
+0l0l3	la_société_SIMEL	O
+0l0l4	fabriquer_du_matériel_électrique	A
+0l1l0	la_société_SIMEL	I
+
+#En avril 1999, le groupe américain TYCO rachète la société, qui se nomme dorénavant Tyco Electronics SIMEL.
+
+1l0l0	En_avril_1999__	T
+1l0l1	le_groupe_américain_TYCO	O
+1l0l2	rachète	N
+1l0l3	la_société	O
+1l0l4	se_nomme_dorénavant	N
+1l0l5	Tyco_Electronics_SIMEL	O
+1l1l0	le_groupe_américain_TYCO	I
+1l1l1	Tyco_Electronics_SIMEL	I
+
+#Elle se situe au nord de la zone artisanale, bordée à l'ouest par la route des étangs et la ligne de chemin de fer.
+
+2l0l0	Elle	O
+2l0l1	se_situe_au_nord_de_la_zone_artisanale	L
+2l0l2	bordée_à_l__ouest_par_la_route_des_étangs	L
+2l0l3	la_ligne_de_chemin_de_fer	O
+
+#Les activités principales du site sont des activités d'usinage, lavage et soudage de pièces de cuivre et d'aluminium, pour la fabrication de connecteurs électriques pour la SNCF, EDF...
+
+3l0l0	activités_d__usinage	A
+3l0l1	lavage	A
+3l0l2	soudage_de_pièces_de_cuivre_et_d__aluminium	A
+3l0l3	la_fabrication_de_connecteurs_électriques_pour	R
+3l0l4	la_SNCF	O
+3l1l0	la_SNCF	I
+3l1l1	EDF	S
+
+#Le site TYCO ELECTRONICS ne rejette pas d'eaux industrielles, celles-ci sont traitées sur le site par évopo-concentration afin d'être réutilisées.
+
+4l0l0	Le_site_TYCO_ELECTRONICS	O
+4l0l1	concentration	N
+4l0l2	afin_d_	R
+4l0l3	être_réutilisées	N
+4l1l0	Le_site_TYCO_ELECTRONICS	I
+
+#En 1998, l'exploitant a fait réaliser une étude de la pollution du sol et des eaux souterraines mettant en évidence une pollution au droit du site TYCO, probablement due à l'activité industrielle du site VIALCO situé en amont hydraulique.
+
+5l0l0	En_1998__	T
+5l0l1	l__exploitant	O
+5l0l2	a_fait_réaliser	N
+5l0l3	une_étude_de_la_pollution	N
+5l0l4	sol	O
+5l0l5	une_pollution	O
+5l0l6	au_droit_du_site_TYCO	O
+5l0l7	l__activité_industrielle_du_site_VIALCO	A
+5l0l8	situé_en_amont_hydraulique	L
+5l1l0	TYCO	I
+5l1l1	VIALCO	I
+
+#2001-2005: L'analyse des prélèvements des piézomètres montre une forte concentration en HCT, HAP et en BTEX.
+
+6l0l0	2001___2005	T
+6l1l0	HCT	S
+6l1l1	HAP	S
+6l1l2	BTEX	S
+
+#Ensuite, les concentrations ont tendance à baisser.
+
+
+#Cette baisse semble être due à la mise en place par la société VIALCO d'un dispositif de dépollution sur son site.
+
+8l0l0	la_mise_en_place	N
+8l0l1	la_société_VIALCO	O
+8l0l2	un_dispositif_de_dépollution	N
+8l0l3	sur_son_site	L
+8l1l0	la_société_VIALCO	I
+
+#2008: L'inspection des résultats d'analyses des prélèvements en hautes et basses eaux montre de fortes concentrations, supérieures à l'arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine, pour le HCT et le benzène.
+
+9l0l0	2008	T
+9l0l1	de_fortes_concentrations	O
+9l0l2	11_janvier_2007	T
+9l1l0	le_HCT	S
+9l1l1	le_benzène	S
+
+#Par l'arrêté préfectoral du 30 octobre 2009, l'exploitant TYCO ELECTRONICS est tenu de respecter et de réaliser les exigences suivantes:
+
+10l0l0	l__arrêté_préfectoral	O
+10l0l1	30_octobre_2009__	T
+10l0l2	l__exploitant	O
+10l0l3	TYCO_ELECTRONICS	O
+10l0l4	est_tenu	N
+10l0l5	réaliser_les_exigences	O
+10l1l0	TYCO_ELECTRONICS	I
+
+#- le suivi des eaux souterraines au moyen 4 piézomètres qui seront installés en amont et aval du site et du bassin.
+
+11l0l0	le_suivi_des_eaux_souterraines	A
+11l0l1	seront_installés	N
+11l0l2	en_amont_et_aval_du_site	L
+
+#- les campagnes de prélèvement auront lieu de manière semestrielle et porteront notamment sur le benzène et HCT.
+
+12l0l0	les_campagnes_de_prélèvement	N
+12l0l1	auront_lieu_de	N
+12l1l0	benzène	S
+12l1l1	HCT	S
+
+#Juin 2014: la campagne de prélèvement des eaux souterraines a révélé un impact en benzène et hydrocarbures au droit du site.
+
+13l0l0	Juin_2014__	T
+13l0l1	la_campagne_de_prélèvement	N
+13l0l2	des_eaux_souterraines	A
+13l0l3	a_révélé	N
+13l0l4	un_impact	O
+13l0l5	au_droit_du_site	L
+13l1l0	benzène	S
+13l1l1	hydrocarbures	S
+
+#Les concentrations sont plus importantes en amont du site.
+
+14l0l0	en_amont_du_site	L
+
+#Il est donc probable qu'il y ait une contamination hors-site.
+

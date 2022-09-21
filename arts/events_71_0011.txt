@@ -1,0 +1,551 @@
+
+#71.0011
+#L'activité principale du dépôt pétrolier dit "Raffinerie du Midi" était le stockage d'hydrocarbures et d'additifs.
+
+0l0l0	L__activité_principale_du_dépôt_pétrolier_dit	O
+0l0l1	__Raffinerie_du_Midi	L
+0l0l2	le_stockage_d__hydrocarbures_et_d__additifs	A
+0l1l0	dépôt_pétrolier	D
+0l1l1	Raffinerie	I
+0l1l2	hydrocarbures	S
+0l1l3	additifs	U
+
+#Les hydrocarbures arrivaient sur site par transport ferroviaire ou routier.
+
+1l0l0	Les_hydrocarbures	O
+1l0l1	transport_ferroviaire	O
+
+#Une fois les procédures administratives de déchargement terminées, les produits étaient transférés via une pompe sur rétention puis des canalisations aériennes, et stockés dans des cuves aériennes.
+
+2l0l0	déchargement	N
+2l0l1	les_produits	O
+2l0l2	étaient_transférés	N
+2l0l3	canalisations_aériennes	O
+2l0l4	cuves_aériennes	O
+
+#Le site est soumis à autorisation avec servitudes d'utilité publique (site classé Seveso) au titre de la nomenclature des installations classées pour la protection de l'environnement.
+
+3l0l0	Le_site	O
+3l0l1	est_soumis_à_autorisation	N
+3l0l2	site_classé_Seveso	O
+3l0l3	la_nomenclature_des_installations_classées_pour_la_protection_de_l__environnement	O
+3l1l0	Seveso	S
+
+#Le site était occupé par :
+
+4l0l0	Le_site	O
+
+#- 4 bâtiments (bureaux, magasin, local incendie et laboratoire) ;
+
+5l0l0	4_bâtiments	O
+5l1l0	bureaux	D
+
+#- des parkings extérieurs ;
+
+
+#- un bassin d'orage associé à un séparateur ;
+
+
+#- une pomperie ;
+
+
+#- une zone de chargement des camions-citernes ;
+
+9l0l0	une_zone_de_chargement	O
+9l1l0	citernes	U
+
+#- une zone de dépotage à proximité de la voie ferrée permettant la desserte du dépôt ;
+
+10l0l0	une_zone_de_dépotage	O
+10l0l1	à_proximité_de	L
+10l0l2	la_voie_ferrée	O
+10l0l3	permettant	R
+10l0l4	la_desserte_du_dépôt	A
+
+#- des zones de stockage d'hydrocarbures ou additifs en cuves aériennes, situées dans 4 cuvettes de rétention différentes.
+
+11l0l0	situées_dans	R
+11l0l1	4_cuvettes_de_rétention_différentes	O
+11l1l0	stockage_d_	U
+11l1l1	hydrocarbures	S
+11l1l2	additifs	U
+
+#► SITUATION GEOGRAPHIQUE
+
+12l1l0	GEOGRAPHIQUE	I
+
+#Le site représente une surface d'environ 40000 m² dans la Zone Industrielle Nord de l'agglomération de Chalon-sur-Saône.
+
+13l0l0	Le_site	O
+13l0l1	40000_m²	O
+13l0l2	dans_la_Zone_Industrielle_Nord_de_l__agglomération_de_Chalon_sur_Saône	L
+
+#Il est délimité :
+
+
+#- au Sud-Ouest, par la déviation du canal du Centre qui jouxte le site, puis par l'usine Philips Eclairage ;
+
+15l0l0	au_Sud_Ouest	L
+15l0l1	la_déviation_du_canal_du_Centre	L
+15l0l2	jouxte_le_site	L
+15l0l3	l__usine_Philips	O
+15l0l4	Eclairage	A
+15l1l0	Philips_Eclairage	I
+
+#- au Sud-Est, par le plateau agricole de Crissey en pente douce vers la plaine de la Saône ;
+
+16l0l0	au_Sud_Est	L
+16l0l1	le_plateau_agricole_de_Crissey_en_pente_douce_vers_la_plaine_de_la_Saône	L
+
+#- du Nord-Est jusqu'au Nord, par la zone industrielle de Chalon-sur-Saône (entreprises Kodak, Péchiney, Betz), puis par le village de Crissey.
+
+17l0l0	Nord_Est_jusqu__au_Nord	N
+17l0l1	par_la_zone_industrielle_de_Chalon_sur_Saône	L
+17l0l2	entreprises_Kodak	A
+17l0l3	Péchiney	O
+17l0l4	Betz	O
+17l0l5	par_le_village_de_Crissey	L
+17l1l0	Péchiney	I
+17l1l1	Betz	I
+
+#► CONTEXTE HYDROGRAPHIQUE
+
+18l1l0	HYDROGRAPHIQUE	I
+
+#Les eaux de surface à proximité du site sont principalement :
+
+
+#- le Canal du Centre ;
+
+20l0l0	le_Canal_du_Centre	O
+
+#- le ruisseau de Crissey qui s'écoule à 200 mètres du site - celui-ci est busé sur tout son cours dans la zone industrielle, et revient à l'air libre au niveau de la route départementale 5 ;
+
+21l0l0	Crissey	L
+21l0l1	à_200_mètres_du_site	L
+21l0l2	dans_la_zone_industrielle	L
+21l0l3	au_niveau_de_la_route_départementale_5	L
+
+#- la Saône s'écoulant à 2 kilomètres au Sud-Est du site.
+
+22l0l0	la_Saône	L
+22l0l1	écoulant_à_2_kilomètres_au_Sud_Est_du_site	L
+
+#► CONTEXTE HYDROGEOLOGIQUE
+
+23l0l0	HYDROGEOLOGIQUE	O
+23l1l0	CONTEXTE_HYDROGEOLOGIQUE	I
+
+#La raffinerie est implantée sur une terrasse alluviale de la Saône, en amont et dans le périmètre éloigné des champs captants AEP (alimentation en eau potable) de Chalon-Nord.
+
+24l0l0	La_raffinerie	O
+24l0l1	est_implantée	N
+24l0l2	sur_une_terrasse_alluviale_de_la_Saône	L
+24l0l3	en_amont_et_dans_le_périmètre_éloigné_des_champs_captants_AEP	L
+24l0l4	Chalon___Nord	L
+
+#On trouve au droit du site l'aquifère dit "de Saint-Cosme", peu épais et peu perméable, subdivisé en deux nappes "superficielle" et "profonde".
+
+25l0l0	au_droit_du_site	L
+
+#L'écoulement des eaux s'effectue respectivement vers le Sud-Ouest ou vers l'Est à Sud-Est.
+
+26l0l0	vers_le_Sud_Ouest	O
+26l0l1	Sud_Est	O
+
+#Des essais de pompage avaient été réalisés et concluaient à une vulnérabilité de l'aquifère tant superficiel que profond.
+
+27l0l0	Des_essais_de_pompage	N
+27l0l1	avaient_été_réalisés	N
+
+#► HISTORIQUE DU SITE
+
+
+#Le 8 novembre 2011, la société Raffinerie du Midi déclare la cessation totale de ses activités de stockage d'hydrocarbures.
+
+29l0l0	Le_8_novembre_2011__	T
+29l0l1	la_société_Raffinerie_du_Midi	O
+29l0l2	déclare	R
+29l0l3	la_cessation_totale	N
+29l0l4	ses_activités_de_stockage_d__hydrocarbures	A
+29l1l0	la_société_Raffinerie_du_Midi	I
+29l1l1	hydrocarbures	S
+
+#Dans le cadre de la cessation d'activité, l'usage futur proposé pour ce site est de type industriel, artisanal ou commercial.
+
+30l0l0	Dans_le_cadre_de	R
+30l0l1	la_cessation	N
+30l0l2	activité	N
+30l0l3	ce_site	O
+
+#Le 20 décembre 2011, M. le Préfet de Saône-et-Loire a délivré récépissé de cette déclaration de cessation d'activité.
+
+31l0l0	Le_20_décembre_2011__	T
+31l0l1	M__le_Préfet_de_Saône_et_Loire	O
+31l0l2	a_délivré_récépissé	O
+31l0l3	cette_déclaration	N
+31l0l4	cessation_d__activité	N
+31l1l0	le_Préfet	I
+
+#► ÉTUDES ENVIRONNEMENTALES DU SITE
+
+32l0l0	ÉTUDES_ENVIRONNEMENTALES	N
+32l0l1	DU_SITE	O
+32l1l0	ENVIRONNEMENTALES_DU_SITE	I
+
+#De 1979 à 1998, des incidents ont pu être mis en évidence, notamment des fuites de tuyauterie et des fuites en fond de bac.
+
+33l0l0	De_1979_à_1998__	T
+33l0l1	des_incidents	N
+33l0l2	en_fond_de_bac	L
+
+#Suite à ces incidents plusieurs diagnostics de sols ont été réalisés.
+
+34l0l0	ces_incidents	N
+34l0l1	plusieurs_diagnostics	N
+34l0l2	de_sols	N
+34l0l3	ont_été_réalisés	N
+
+#• Diagnostic préliminaire en 1996, évaluation simplifiée des risques en 1998
+
+35l0l0	__Diagnostic_préliminaire	N
+35l0l1	en_1996__	T
+35l0l2	évaluation_simplifiée_des_risques	N
+35l0l3	en_1998	T
+
+#Les résultats des investigations ont conclu à plusieurs sources de pollution des sols avérées ou potentielles par hydrocarbures totaux et BTEX (Benzène, Toluène, Ethylbenzène, Xylènes), causées par des fuites de supercarburant, fioul ou autres fluides hydrauliques.
+
+36l0l0	plusieurs_sources_de_pollution_des_sols	O
+36l0l1	causées_par	R
+36l0l2	des_fuites_de_supercarburant	N
+36l1l0	hydrocarbures_totaux	S
+36l1l1	BTEX	S
+36l1l2	Benzène	S
+36l1l3	Toluène	S
+36l1l4	Ethylbenzène	S
+36l1l5	Xylènes	S
+36l1l6	des_fuites_de_supercarburant	U
+36l1l7	fioul	S
+
+#• Diagnostic approfondi en 2002
+
+37l0l0	__Diagnostic_approfondi	N
+37l0l1	en_2002	T
+
+#L'objectif de ce diagnostic était de déterminer le sens d'écoulement de la nappe superficielle au droit du site, de contrôler la qualité des eaux souterraines et de préciser les zones sources de pollution (extension des zones et caractérisation des polluants).
+
+38l0l0	ce_diagnostic	N
+38l0l1	contrôler_la_qualité_des_eaux_souterraines	A
+38l0l2	préciser_les_zones_sources_de_pollution	O
+38l1l0	polluants	S
+
+#Les résultats des investigations ont confirmé la pollution avérée des sols mais également une pollution de la nappe superficielle au droit du site.
+
+39l0l0	investigations	N
+39l0l1	une_pollution	N
+39l0l2	au_droit_du_site	L
+
+#En effet, la pollution détectée dans les piézomètres (systèmes utilisés afin de réaliser des prélèvements d'eau de la nappe dans le but d'en analyser les composants et/ou mesurer le niveau d'eau) laissait suspecter la présence de produits purs (hydrocarbures flottants) ou d'une émulsion très concentrée.
+
+40l0l0	piézomètres	O
+40l0l1	une_émulsion	O
+40l1l0	produits_purs	S
+40l1l1	hydrocarbures	S
+
+#Des recommandations portant sur un traitement de la nappe par pompage et stripping suivi d'un post-traitement sur charbon actif avaient été proposées, afin de fixer la pollution et d'améliorer la qualité des eaux souterraines.
+
+41l0l0	un_traitement	N
+41l0l1	la_nappe	O
+41l0l2	pompage	N
+41l0l3	stripping	N
+41l0l4	la_qualité_des_eaux_souterraines	O
+41l1l0	charbon_actif	U
+
+#A partir de 2002, des campagnes de suivi de la qualité des eaux souterraines ont commencé à être réalisées, et à partir de 2005 le suivi se faisait de façon semestrielle.
+
+42l0l0	A_partir_de_2002__	T
+42l0l1	des_campagnes_de_suivi	N
+42l0l2	la_qualité_des_eaux_souterraines	O
+42l0l3	ont_commencé_à_être_réalisées	N
+42l0l4	à_partir_de_2005	T
+
+#En 2005, une étude complémentaire a été transmise à l'inspection des installations classées.
+
+43l0l0	En_2005__	T
+43l0l1	une_étude_complémentaire	O
+43l0l2	a_été_transmise	N
+
+#Les objectifs étaient :
+
+44l0l0	Les_objectifs	O
+
+#- de définir l'extension de la lentille de flottant (hydrocarbures purs dans la nappe superficielle) ;
+
+45l1l0	hydrocarbures	S
+
+#- de réaliser des tests de récupération des hydrocarbures ;
+
+46l0l0	hydrocarbures	O
+46l1l0	hydrocarbures	S
+
+#- de mettre en place un système de collecte des hydrocarbures.
+
+47l0l0	de_mettre_en_place	N
+47l0l1	un_système_de_collecte_des_hydrocarbures	O
+47l1l0	hydrocarbures	S
+
+#Les résultats des investigations de 2005 ont indiqué que :
+
+48l0l0	Les_résultats	O
+48l0l1	des_investigations	N
+48l0l2	de_2005	T
+
+#- la nappe superficielle est impactée par les hydrocarbures et les BTEX ;
+
+49l0l0	est_impactée	N
+49l1l0	hydrocarbures	S
+49l1l1	les_BTEX	S
+
+#- la nappe profonde présente des teneurs en hydrocarbures inférieures aux valeurs réglementaires de 2005, sans traces de BTEX ;
+
+50l1l0	hydrocarbures	S
+50l1l1	BTEX	S
+
+#- la lentille de pollution est confinée au droit du site et ne s'étend pas à l'extérieur ;
+
+51l0l0	la_lentille_de_pollution	O
+51l0l1	est_confinée	N
+51l0l2	au_droit_du_site	L
+51l1l0	la_lentille_de_pollution	U
+
+#- cette lentille pourrait être évacuée via des "bandes oléophiles" permettant l’écrémage du flottant.
+
+52l1l0	cette_lentille	U
+
+#En 2007, suite au démantèlement de cuves de stockage, un impact visuel et olfactif en hydrocarbures a été constaté. 8 sondages ont alors été réalisés et les conclusions ont indiqué que l'ensemble des échantillons de sondages sont pollués en hydrocarbures ; de plus, deux échantillons sont également impactés en composés aromatiques volatils (CAV).
+
+53l0l0	En_2007__	T
+53l0l1	suite_au	R
+53l0l2	démantèlement	N
+53l0l3	de_cuves_de_stockage	O
+53l0l4	un_impact_visuel	O
+53l0l5	hydrocarbures	O
+53l0l6	a_été_constaté	N
+53l0l7	sondages_ont_alors_été_réalisés	N
+53l1l0	cuves_de_stockage	D
+53l1l1	hydrocarbures	S
+53l1l2	hydrocarbures	S
+53l1l3	composés_aromatiques_volatils	S
+53l1l4	CAV	S
+
+#Dans le cadre de la cessation d'activité du site, l'exploitant a prévu la réalisation d'un diagnostic environnemental et d'un plan de gestion et de réhabilitation du site.
+
+54l0l0	Dans_le_cadre_de	R
+54l0l1	la_cessation_d__activité	N
+54l0l2	site	O
+54l0l3	l__exploitant	O
+54l0l4	a_prévu	N
+54l0l5	la_réalisation_d__un_diagnostic_environnemental	N
+54l0l6	un	O
+54l0l7	plan_de_gestion	N
+54l0l8	de_réhabilitation_du_site	N
+
+#Les campagnes de suivi de la qualité des eaux souterraines (nappe superficielle et nappe profonde) se sont poursuivies à raison de 2 campagnes par an.
+
+55l0l0	Les_campagnes_de	N
+55l0l1	suivi_de_la_qualité_des_eaux_souterraines	A
+55l0l2	se_sont_poursuivies	N
+55l0l3	an	T
+
+#• Diagnostics complémentaires en octobre et décembre 2013
+
+56l0l0	__Diagnostics_complémentaires	N
+56l0l1	en_octobre_et_décembre_2013	T
+
+#Une nouvelle étude de diagnostic environnemental en octobre 2013 a mis en évidence pour les sols :
+
+57l0l0	Une_nouvelle_étude_de_diagnostic_environnemental	N
+57l0l1	en_octobre_2013	T
+
+#- une contamination modérée par des hydrocarbures C10-C40, avec un point à teneur particulièrement élevée en surface au niveau d'une zone de dépotage de wagons citernes ;
+
+58l0l0	hydrocarbures	O
+58l0l1	une_zone_de_dépotage_de_wagons_citernes	O
+58l1l0	hydrocarbures_C10_C40	S
+
+#- des impacts ponctuels en hydrocarbures légers C5-C10 dûs à des fuites anciennes entre des cuvettes ;
+
+59l0l0	des_impacts_ponctuels	N
+59l0l1	dûs_à	R
+59l0l2	des_fuites_anciennes_entre	N
+59l0l3	des_cuvettes	O
+59l1l0	hydrocarbures_légers_C5_C10	S
+
+#- une localisation préférentielle des zones impactées en profondeur, sous des remblais d'au moins 2 mètres d'épaisseur, dans la zone de battement de la nappe superficielle du Saint-Cosme.
+
+60l0l0	zones_impactées	O
+60l0l1	dans_la_zone_de_battement_de_la_nappe_superficielle_du_Saint_Cosme	L
+
+#L'étude révèle par ailleurs une contamination significative de cette nappe par des hydrocarbures C5-C10 vers 3 à 4 mètres de profondeur, ainsi qu'une extension d'une panache de pollution des eaux souterraines en direction de l'aval hydraulique à partir de la zone des cuvettes 1 et 2.
+
+61l0l0	une_contamination_significative	N
+61l0l1	qu__une_extension	N
+61l0l2	en_direction_de_l__aval_hydraulique	L
+61l0l3	à_partir_de	R
+61l0l4	la_zone_des_cuvettes_1	L
+61l1l0	hydrocarbures_C5_C10	S
+
+#Toutefois l'aquifère profond du Saint-Cosme ne semble pas contaminé.
+
+62l1l0	Saint_Cosme	I
+
+#Les solutions alors proposées pour la réhabilitation du site visaient à une élimination des sources de pollution identifiées dans les sols ("spots" contaminés), et une dépollution des eaux de la nappe de Saint-Cosme supérieure avec confinement sur site des polluants.
+
+63l0l0	la_réhabilitation	N
+63l0l1	du_site	O
+63l0l2	une_élimination	N
+63l0l3	des_sources_de_pollution	O
+63l0l4	une_dépollution	N
+63l0l5	eaux_de_la_nappe_de_Saint_Cosme_supérieure	L
+63l1l0	Saint_Cosme	I
+63l1l1	polluants	S
+
+#Une seconde campagne de diagnostic en décembre 2013 est venue confirmer le fort impact identifié dans les sols de la zone de dépotage, le volume à traiter étant estimé à 600 m³.
+
+64l0l0	Une_seconde_campagne_de_diagnostic	N
+64l0l1	en_décembre_2013	T
+64l0l2	le_fort_impact	O
+64l0l3	dépotage	O
+
+#Par ailleurs les résultats d'analyses de la qualité des eaux souterraines ont mis en évidence :
+
+65l0l0	la_qualité_des_eaux_souterraines	O
+
+#- un fort impact en hydrocarbures légers C5-C10, associés à du benzène au centre du site ;
+
+66l1l0	hydrocarbures_légers_C5_C10	S
+66l1l1	benzène	S
+
+#- un fort impact en hydrocarbures dissous dans les ouvrages, 3 d'entre eux présentent même du flottant ;
+
+67l1l0	hydrocarbures	S
+
+#- l'absence d'impact dans les ouvrages hors du site, en aval hydraulique.
+
+68l0l0	les_ouvrages	O
+68l0l1	hors_du_site	L
+68l0l2	en_aval_hydraulique	L
+
+#► TRAVAUX DE DÉPOLLUTION
+
+69l0l0	TRAVAUX_DE	N
+69l0l1	DÉPOLLUTION	O
+
+#Les sols du site impactés par des hydrocarbures ne semblent pas avoir fait l'objet de travaux de dépollution.
+
+70l0l0	Les_sols_du_site_impactés_par	O
+70l0l1	hydrocarbures	O
+70l0l2	ne_semblent_pas	R
+70l0l3	avoir	N
+70l0l4	fait_l__objet	R
+70l0l5	de_travaux_de_dépollution	N
+70l1l0	hydrocarbures	S
+
+#Une tentative de traitement de la nappe souterraine avaient été entreprise en 2005 ; son résultat n'est pas connu.
+
+71l0l0	Une_tentative	O
+71l0l1	de_traitement	N
+71l0l2	la_nappe_souterraine	N
+71l0l3	avaient_été_entreprise	N
+71l0l4	en_2005	T
+
+#De nouveaux essais de dépollution des eaux souterraines ont été effectués dans le cadre du diagnostic complémentaire de décembre 2013 : ils se sont révélés peu concluants en raison de faibles perméabilités au sein de l'aquifère.
+
+72l0l0	De_nouveaux_essais_de_dépollution	N
+72l0l1	eaux_souterraines	A
+72l0l2	ont_été_effectués	N
+72l0l3	dans_le_cadre	R
+72l0l4	du_diagnostic_complémentaire	N
+72l0l5	de_décembre_2013	T
+72l0l6	perméabilités	O
+
+#En 2013, 2014 , une étude de faisabilité d'un projet de confinement hydraulique est réalisée.
+
+73l0l0	En_2013___2014	T
+73l0l1	un_projet_de_confinement_hydraulique	O
+73l0l2	est_réalisée	N
+
+#Cette solution de confinent hydraulique est rejetée et un pilote biologique sur spot dans les sols est retenue à la place.
+
+74l0l0	Cette_solution	O
+74l0l1	est_retenue	O
+
+#En été 2014 , ce traitement biologique par pilote des terres excavées est réalisé et 650m3 de sols sont traités.
+
+75l0l0	En_été_2014	T
+75l0l1	ce_traitement_biologique	N
+75l0l2	terres	O
+75l0l3	excavées_est_réalisé	N
+75l0l4	650m3_de_sols	O
+75l0l5	sont_traités	N
+
+#Le remblaiement a été effectué en mai 2015 , et les fonds de fouilles laissées ouvertes ne présentent qu'une baisse peu significative représentant la faiblesse du phénomène de biodégradation.
+
+76l0l0	Le_remblaiement	N
+76l0l1	a_été_effectué	N
+76l0l2	en_mai_2015	T
+
+#De juin à octobre 2015 , un traitement des eaux souterraines par Biosparging est tenté et 396kg d'HC sont spargés en 4 mois.
+
+77l0l0	De_juin_à_octobre_2015	T
+77l0l1	un_traitement	N
+77l0l2	eaux_souterraines	O
+77l0l3	4_mois	T
+77l1l0	Biosparging	I
+
+#Des biofiltres sont mis en places en mai 2016 et 161kg d'HC sont spargés en 8 mois à la sortie de ces derniers.
+
+78l0l0	Des_biofiltres	O
+78l0l1	sont_mis_en_places	N
+78l0l2	en_mai_2016	T
+78l0l3	en_8_mois	T
+78l0l4	la_sortie_de	N
+78l0l5	ces_derniers	O
+78l1l0	HC	S
+
+#Des casiers d'écrémage ont également été mis en place fin avril 2016.
+
+79l0l0	Des_casiers_d__écrémage	O
+79l0l1	ont_également_été_mis_en_place	N
+79l0l2	fin_avril_2016__	T
+
+#Le pilote a pris fin en janvier 2017.
+
+80l0l0	Le_pilote	O
+80l0l1	a_pris_fin	N
+80l0l2	en_janvier_2017__	T
+
+#Des campagnes de suivi sont réalisées de mars 2015 à mars 2017 à l'aide de piézomètre.
+
+81l0l0	Des_campagnes_de_suivi_sont_réalisées	N
+81l0l1	de_mars_2015_à_mars_2017	T
+
+#Les résultats d'analyses présentent des valeurs en HC en baisse depuis mars 2015 en aval (pz4) et des valeurs en hausse en latéral (pz8b) dans la nappe superficielle.
+
+82l0l0	depuis_mars_2015	T
+82l1l0	HC	S
+
+#Les nappes profondes ne présentent , quant à elle , pas d'impact.
+
+
+#Le nord , l'ouest et le sud ouvrent des possibilités d'aménagements générant peu de contraintes , la partie Est reste affectée d'une pollution diffuse.
+
+84l0l0	Le_nord	O
+84l0l1	le_sud	O
+84l0l2	ouvrent_des_possibilités	N
+84l0l3	la_partie_Est	O
+84l0l4	reste_affectée_d_	R
+
+#Une surveillance ainsi qu'une interdiction d'accès au site est maintenue.
+
+85l0l0	Une_surveillance	O

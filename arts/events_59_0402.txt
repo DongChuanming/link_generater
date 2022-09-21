@@ -1,0 +1,273 @@
+
+#59.0402
+#METALEUROP a exploité entre 1881 et 1999 une unité de réduction, d'affinage et de lingotage de zinc sur le site d'Escaudoeuvres.
+
+0l0l0	METALEUROP	O
+0l0l1	a_exploité	N
+0l0l2	entre_1881_et_1999	T
+0l0l3	une_unité	O
+0l0l4	de_réduction	A
+0l0l5	lingotage_de_zinc	A
+0l0l6	sur_le_site_d__Escaudoeuvres	L
+0l1l0	METALEUROP	I
+
+#METALEUROP devenu RECYLEX en 2007 a arrêté en 1999 cette activité.
+
+1l0l0	METALEUROP	O
+1l0l1	devenu	R
+1l0l2	RECYLEX	O
+1l0l3	en_2007	T
+1l0l4	a_arrêté	N
+1l0l5	en_1999	T
+1l0l6	cette_activité	O
+1l1l0	METALEUROP_devenu_RECYLEX	I
+
+#Depuis, le site d'Escaudoeuvres (qui emploie moins d'une dizaine de personnes)
+
+2l0l0	le_site	O
+2l0l1	Escaudoeuvres	L
+
+#ne réalise plus que les activités de cassage et de tri de batteries usagées.
+
+3l0l0	ne_réalise_plus	N
+3l0l1	les_activités_de_cassage_et_de_tri_de_batteries_usagées	A
+
+#L'usine possède l'autorisation pour recycler annuellement
+
+4l0l0	L__usine	O
+
+#6 millions de batteries correspondant à un tonnage de 63 000 tonnes.
+
+5l0l0	6_millions_de_batteries	O
+
+#Elle permet de fournir les fonderies de plomb.
+
+6l0l0	fonderies_de_plomb	A
+6l1l0	plomb	S
+
+#1/ Situation sanitaire et environnementale
+
+
+#Jusqu'en 1999 le site a été à l'origine de rejets notables de plomb (538 kg en 1996 d'après le recensement annuel de la DRIRE).
+
+8l0l0	Jusqu__en_1999	T
+8l0l1	le_site	O
+8l0l2	a_été_à_l__origine	N
+8l0l3	en_1996	T
+8l1l0	plomb	S
+8l1l1	la_DRIRE	I
+
+#Le site même s'étend sur 1,2 hectare, il est contaminé en plomb, arsenic, zinc et cadmium, avec des teneurs élevées de ces métaux.
+
+9l0l0	Le_site	O
+9l1l0	plomb	S
+9l1l1	arsenic	S
+9l1l2	zinc	S
+9l1l3	cadmium	S
+9l1l4	métaux	S
+
+#Pour les environs du site, une étude du risque sanitaire a été entreprise à l'issue de la demande d'autorisation d'exploiter consécutive à la diminution de l'activité.
+
+10l0l0	les_environs_du_site	O
+10l0l1	une_étude_du_risque_sanitaire	N
+10l0l2	a_été_entreprise	N
+10l0l3	à_l__issue_de	R
+10l0l4	la_demande_d__autorisation_d_	N
+10l0l5	exploiter	O
+10l0l6	consécutive_à	R
+10l0l7	la_diminution	N
+10l0l8	l__activité	A
+
+#Cette étude a été remise en mars 2001.
+
+11l0l0	Cette_étude_a_été_remise	N
+11l0l1	en_mars_2001	T
+
+#Celle-ci conclut que les risques liés à la présence de plomb restent dans des limites acceptables et que les modifications apportées aux installations du site conduiront à une forte réduction des émissions de plomb ce qui réduira progressivement l'exposition de la population avoisinante.
+
+12l0l0	les_modifications_apportées_aux_installations	N
+12l1l0	plomb	S
+12l1l1	plomb	S
+
+#L'alimentation à partir des légumes de jardins ouvriers entourant l'usine et présentant des teneurs en métaux lourds dans le sols apparaît cependant comme un facteur de risque d'exposition au plomb nécessitant une prise en compte.
+
+13l1l0	métaux_lourds	S
+13l1l1	plomb	S
+
+#Une action regroupant plusieurs services de l'état a débuté et suite à l'analyse des courbes d'isoconcentrations modélisées à partir d'une analyse des sols datant de 1996, une sélection de parcelles présentant des risques a fait l'objet  d'investigations.
+
+14l0l0	Une_action	N
+14l0l1	a_débuté	N
+14l0l2	datant_de_1996__	T
+14l0l3	une_sélection_de_parcelles	O
+14l0l4	a_fait_l__objet___d_	R
+14l0l5	investigations	N
+
+#Une analyse des teneurs en plomb dans les végétaux issus de ces parcelles a été réalisée par Metaleurop et par les services de la DGGCRF (Direction Générale de la Concurrence, de la Consommation et de la Répression des Fraudes).
+
+15l0l0	Une_analyse	N
+15l0l1	ces_parcelles	O
+15l0l2	a_été_réalisée	N
+15l0l3	Metaleurop	O
+15l0l4	les_services_de_la_DGGCRF	O
+15l1l0	plomb	S
+15l1l1	Metaleurop	I
+15l1l2	les_services_de_la_DGGCRF	I
+15l1l3	la_Concurrence	I
+
+#Les concentrations de références pour ces études sont de 100 ppm de plomb dans les sols.
+
+16l1l0	plomb	S
+
+#Ces analyses ont démontrées un risque.
+
+
+#Arrêté préfectoral du 27/05/2004 imposant des servitudes d'utilité sur des parcelles autour du site METALEUROP (interdiction de cultures, contraintes d'urbanisme).
+
+18l0l0	Arrêté_préfectoral	O
+18l0l1	27_05_2004	T
+18l0l2	imposant	N
+18l0l3	des_servitudes_d__utilité	O
+18l0l4	des_parcelles	O
+18l0l5	autour_du_site_METALEUROP	O
+18l0l6	interdiction_de_cultures	N
+18l1l0	METALEUROP	I
+
+#Une campagne de prélèvement d'échantillons de sol a eu lieu le 29/09/2006, révélant une pollution au plomb des sols du site et au alentour.
+
+19l0l0	Une_campagne_de_prélèvement	N
+19l0l1	a_eu_lieu	N
+19l0l2	le_29_09_2006	T
+19l0l3	une_pollution_au_plomb	O
+19l0l4	site	O
+19l0l5	et	R
+19l0l6	au_alentour	L
+19l1l0	plomb	S
+
+#2/ Restrictions d'usages
+
+20l0l0	usages	O
+
+#Des restrictions d'usage de certaines parcelles environnantes du site ont été imposées par voie d'arrêrté préfectoral du 27/05/04 suite à une procédure d'enquête publique qui s'est déroulée du 28 avril au 28 mai 2003.
+
+21l0l0	Des_restrictions_d__usage	O
+21l0l1	de_certaines_parcelles_environnantes	O
+21l0l2	du_site	O
+21l0l3	ont_été_imposées	N
+21l0l4	27_05_04	T
+21l0l5	suite_à	R
+21l0l6	une_procédure_d__enquête_publique	N
+21l0l7	s__est_déroulée	N
+21l0l8	du_28_avril_au_28_mai_2003__	T
+
+#3/ Situation administrative et AP en cours
+
+22l0l0	en_cours	T
+
+#La réduction de l'activité a conduit à la délivrance d'un nouvel arrêté préfectoral d'autorisation en date du 12 février 2003.
+
+23l0l0	La_réduction	N
+23l0l1	l__activité	O
+23l0l2	a_conduit_à_la_délivrance_d_	N
+23l0l3	un_nouvel_arrêté_préfectoral_d__autorisation	O
+23l0l4	en_date_du_12_février_2003__	T
+
+#Un arrêté préfectoral de mise en demeure du 01/07/03 et un arrêté préfectoral complémentaire du 22/08/03 ont été délivrés suite aux problèmes d'inondations récurrentes que rencontre l'usine en période de fortes pluies.
+
+24l0l0	Un_arrêté_préfectoral_de_mise_en_demeure	O
+24l0l1	du_01_07_03	T
+24l0l2	un_arrêté_préfectoral_complémentaire	O
+24l0l3	22_08_03	T
+24l0l4	ont_été_délivrés	N
+24l0l5	suite_aux	R
+24l0l6	problèmes_d__inondations_récurrentes	N
+24l0l7	période_de_fortes_pluies	T
+
+#La visite d'inspection du 29/06/04 a permis de constater la bonne réalisation des travaux visant à une meilleure gestion des eaux et la modification du process pour rendre compatibles les rejets liquides avec l'objectif de qualité de l'Escaut (en particulier, au niveau des sulfates) et éviter les inondations de la cour (qui conduisent à une dégradation de la qualité des eaux rejetées).
+
+25l0l0	La_visite_d__inspection	N
+25l0l1	29_06_04	T
+25l0l2	réalisation_des_travaux	N
+25l0l3	visant_à	R
+25l0l4	une_meilleure_gestion	N
+25l0l5	eaux	R
+25l0l6	la_modification	N
+25l0l7	l__Escaut	L
+25l0l8	inondations_de_la_cour	L
+25l1l0	sulfates	S
+
+#4/ Surveillance des eaux souterraines et résultats
+
+26l0l0	Surveillance_des_eaux_souterraines	A
+
+#Des études menées sur le site à partir de 1999 ont montré la  necessité d'une surveillance des eaux souterraines.
+
+27l0l0	Des_études_menées	N
+27l0l1	sur_le_site	L
+27l0l2	à_partir_de_1999	T
+27l0l3	la___necessité	O
+27l0l4	une_surveillance_des_eaux_souterraines	A
+
+#La surveillance est réalisée au moyen de deux piézomètres et d'un puits.
+
+28l0l0	La_surveillance	A
+28l0l1	est_réalisée	N
+28l0l2	un_puits	O
+
+#Les résultats ne montrent pas ou peu (pics ponctuels de pollution) de contamination de la nappe sous-jacente.
+
+29l0l0	contamination	O
+29l0l1	la_nappe_sous_jacente	O
+
+#Les nappes d'eau souterraines sont utilisées dans le secteur à des fins industrielles et potables.
+
+30l0l0	Les_nappes	O
+30l0l1	sont_utilisées	N
+30l0l2	des_fins_industrielles	N
+
+#Néanmoins, les captages d'eau potable sont située ne position latérale et en aval, ce qui évite tout risque visà vis de la pollution du site.
+
+31l0l0	captages	O
+31l0l1	située_ne_position_latérale_et_en_aval	L
+
+#5/ Actions prévues.
+
+
+#L'exploitant a programmé la réalisation de nouveaux travaux visant à la réfection de l'ensemble des sols de réception des électrolytes (zone de cassage des batteries).
+
+33l0l0	L__exploitant	O
+33l0l1	a_programmé	N
+33l0l2	la_réalisation_de_nouveaux_travaux	N
+33l0l3	visant_à	R
+33l0l4	la_réfection_de	N
+33l0l5	l__ensemble_des_sols_de_réception_des_électrolytes	O
+33l0l6	zone_de	O
+33l0l7	cassage_des_batteries	N
+
+#Le dossier d'enquête publique sur la mise en place de servitudes est parvenu à la DRIRE en août 2003; il a fait l'objet d'un rapport en cdh sur la proposition de servitude.
+
+34l0l0	Le_dossier_d__enquête_publique	O
+34l0l1	la_mise_en_place_de	N
+34l0l2	servitudes	O
+34l0l3	est_parvenu	N
+34l0l4	à	R
+34l0l5	la_DRIRE	O
+34l0l6	en_août_2003	T
+34l0l7	a_fait_l__objet_d_	R
+34l1l0	la_DRIRE	I
+
+#Le CdH du 20/01/2004 a accepté la proposition.
+
+35l0l0	Le_CdH	O
+35l0l1	20_01_2004	T
+35l0l2	a_accepté	N
+35l0l3	la_proposition	O
+35l1l0	Le_CdH	I
+
+#Site en sécurité vis à vis des tiers.
+
+
+#Action de l'administration toujours en cours.
+
+37l0l0	Action	O
+37l0l1	l__administration	O

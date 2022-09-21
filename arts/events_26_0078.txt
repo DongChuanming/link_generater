@@ -1,0 +1,59 @@
+
+#26.0078
+#Le site comprend une parcelle disposant d'un bâtiment.
+
+
+#L'exploitant actuel fait la même activité que l'exploitant défaillant (PNEU MAT X) : Vente et montage de pneumatiques
+
+1l0l0	L_	O
+1l0l1	exploitant	R
+1l0l2	actuel_fait_la_même	O
+
+#PNEU MAT X a été liquidé en 2011
+
+2l0l0	PNEU_MAT_X_a_été_liquidé	O
+2l0l1	en_2011	N
+
+#L'impécuniosité a été relevé pour ce site en 2012 et 2013 (en lien avec le liquidateur et la DDFIP).
+
+3l0l0	L__impécuniosité_a_été	N
+3l0l1	relevé_pour_ce_site_en_2012_et_2013___en_lien_avec_le_liquidateur_et_la_DDFIP____	T
+
+#Un incendie du tas de pneus historique s'est déclaré le 5 novembre 2013.
+
+4l0l0	de_pneus_historique	N
+4l0l1	s_	O
+4l0l2	est_déclaré_le_5	T
+
+#Le volume de pneumatiques touché par l’incendie est évalué à 400 m3 sur une surface au sol de 200 m².
+
+5l0l0	Le_volume_de	N
+5l0l1	pneumatiques_touché_par_l_	O
+5l0l2	incendie_est	N
+5l0l3	évalué_à_400_m3_sur_une_surface_au_sol_de_200_m²__	T
+
+#Un rapport de février 2014 montre que suite à l'incendie de pneumatiques un impact en dioxines et métaux (plomb, zinc) est relevé sur le site.
+
+6l0l0	Un_rapport_de_février_2014_montre	O
+6l0l1	suite_à_l__incendie	N
+6l1l0	de_février_2014	U
+
+#Un impact faible en HAP et BTEX est relevé.
+
+7l0l0	Un_impact	O
+7l0l1	faible_en_HAP_et_BTEX	T
+7l0l2	relevé__	R
+
+#Les études réalisées ont montré la présence de dioxines et dibenzofuranes à des teneurs de l’ordre de 42 ng/kgMS, ce qui correspond à la gamme de valeurs des teneurs moyennes en dioxine dans les zones industrielles.
+
+8l1l0	réalisées_ont_montré	S
+
+#Par arrêté préfectoral de travaux d'office n°2015196-0031 du 10 juillet 2015, Mr le préfet de la Drôme a chargé l'ADEME de l'évacuation et de l'élimination des pneus.
+
+9l0l0	Par_arrêté_préfectoral	N
+9l1l0	2015196___0031_du_10_juillet_2015	S
+
+#Les pneus ont été effectivement gérés par l'ADEME selon l'arrêté.
+
+10l0l0	Les_pneus_ont_été_effectivement_gérés	O
+10l0l1	arrêté__	T

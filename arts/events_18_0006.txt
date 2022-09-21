@@ -1,0 +1,416 @@
+
+#18.0006
+#Le terrain situé en périphérie Sud-Ouest du centre ville de Bourges, d'une superficie totale de 30 000 m2, a accueilli de 1840 à 1950 une usine fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	Le_terrain	O
+0l0l1	situé_en_périphérie_Sud_Ouest_du_centre_ville_de_Bourges	L
+0l0l2	a_accueilli	N
+0l0l3	de_1840_à_1950	T
+0l0l4	une_usine	O
+0l0l5	fabriquant_du_gaz	A
+0l0l6	à_partir_de	R
+0l0l7	la_distillation_de_la_houille	A
+
+#L'arrêt de la production de gaz de houille en 1950 est justifiée par l'arrivée du gaz naturel.
+
+1l0l0	L__arrêt_de	N
+1l0l1	la_production_de_gaz_de_houille	A
+1l0l2	en_1950	T
+1l0l3	est_justifiée	N
+1l0l4	l__arrivée	N
+1l0l5	gaz_naturel	O
+
+#Depuis 1982, date de construction des bâtiments de l'époque moderne, le terrain accueille le centre EDF / GDF Services Cher en Berry (bâtiments administratifs et techniques, poste de détente gaz).
+
+2l0l0	Depuis_1982	T
+2l0l1	construction	N
+2l0l2	des_bâtiments	O
+2l0l3	l__époque_moderne	O
+2l0l4	le_terrain	O
+2l0l5	accueille	R
+2l0l6	le_centre_EDF	O
+2l0l7	GDF_Services_Cher	O
+2l0l8	en_Berry	L
+2l0l9	bâtiments_administratifs_et_techniques	O
+2l1l0	le_centre_EDF	I
+2l1l1	GDF	I
+
+#Le 15 novembre 2002, EDF a été autorisé par arrêté interministériel à apporter ses biens immobiliers tertiaires à SOFILO, filiale qu'elle détient à 100%.
+
+3l0l0	Le_15_novembre_2002___EDF	T
+3l0l1	a_été_autorisé	N
+3l0l2	ses_biens_immobiliers_tertiaires	O
+3l0l3	SOFILO	O
+3l1l0	EDF	I
+3l1l1	SOFILO	I
+
+#L'usage tertiaire est conservé.
+
+
+#Le site est situé entre le canal de Berry et l'Auron.
+
+5l0l0	Le_site	O
+5l0l1	est_situé_entre_le_canal_de_Berry_et_l__Auron	L
+
+#Une nappe phréatique est présente au droit du site.
+
+
+#Elle est probablement en relation avec la nappe alluviale de l'Yèvre et de l'Auron, deux rivières dont la confluence s'effectue à 400 mètres du site.
+
+7l0l0	l__Yèvre_et_de_l__Auron	L
+7l0l1	la_confluence	N
+7l0l2	à_400_mètres_du_site	L
+
+#Le sens d'écoulement est globalement orienté du Sud vers le Nord.
+
+8l0l0	orienté_du_Sud_vers_le_Nord	L
+
+#Aucun captage d'alimentation en eau potable (AEP) n'a été recensé d'une part entre le site et le canal, d'autre part entre le site et l'Auron.
+
+9l0l0	Aucun_captage_d__alimentation_en_eau_potable	O
+9l0l1	le_canal	O
+9l0l2	le_site	O
+9l0l3	et_l__Auron	L
+
+#Le canal et l'Auron formant une barrière hydraulique, les risques de transmission de substances issues du site vers les captages recensés sur les rives opposées des cours d'eau sont négligeables.
+
+10l0l0	Le_canal	O
+10l0l1	l__Auron	L
+10l0l2	vers_les_captages	L
+10l0l3	sur_les_rives_opposées	L
+
+#En raison d'un projet de réaménagement interne pour les besoins d'EDF / GDF, ce site a fait l'objet en 1995 d'un diagnostic approfondi.
+
+11l0l0	En_raison_d_	R
+11l0l1	un_projet	O
+11l0l2	réaménagement_interne	N
+11l0l3	ce_site	O
+11l0l4	a_fait_l__objet	R
+11l0l5	en_1995	T
+11l0l6	d_	R
+11l0l7	un_diagnostic_approfondi	N
+11l1l0	GDF	I
+
+#L'ensemble de l'étude a consisté à effectuer des recherches historiques et documentaires, à rechercher les ouvrages enterrés, à évaluer l'impact du site sur les ressources locales en eaux  souterraines et superficielles, à caractériser le sol superficiel pour évaluer les risques de contact direct et ceux liés à d'éventuelles émanations gazeuses, et à caractériser le sol en profondeur.
+
+
+#De ce diagnostic, effectué par un bureau d'études à la demande de Gaz de France, il ressort qu'il existait sur le site des cuves enterrées contenant des sous-produits de l'activité gazière notamment:
+
+13l0l0	ce_diagnostic	N
+13l0l1	effectué	N
+13l0l2	un_bureau_d__études	O
+13l0l3	à_la_demande_de	R
+13l0l4	Gaz_de_France	O
+13l0l5	cuves_enterrées	O
+13l1l0	Gaz_de_France	I
+13l1l1	des_cuves_enterrées	D
+
+#- le gazomètre n°1 présentant des goudrons en fond d'ouvrage, à 4.8 mètres de profondeur,
+
+14l0l0	goudrons	O
+14l0l1	à	T
+14l0l2	4_8_mètres_de_profondeur	N
+
+#- le gazomètre n°2 présentant une phase liquide avec des teneurs notables en phénols et en composés organiques mono-aromatiques volatiles (BTEX)
+
+15l1l0	phénols	S
+15l1l1	composés_organiques_mono_aromatiques_volatiles	S
+15l1l2	BTEX	S
+
+#- le gazomètre n°3, où une phase liquide de 4 mètres de profondeur polluée par des hydrocarbures aromatiques polycycliques (HAP), du benzopyrène, des hydrocarbures, des cyanures et de l'ammonium, a été retrouvée,
+
+16l0l0	une_phase_liquide	O
+16l0l1	profondeur_polluée	O
+16l0l2	par	N
+16l1l0	hydrocarbures_aromatiques_polycycliques	S
+16l1l1	HAP	S
+16l1l2	du_benzopyrène	S
+16l1l3	des_hydrocarbures	S
+16l1l4	des_cyanures	S
+16l1l5	ammonium	S
+
+#- le gazomètre n°4 rempli de remblais argileux.
+
+17l0l0	le_gazomètre	O
+
+#Lors de travaux de soudures sur une canalisation de gaz en 1996, un regard à goudron a été mis à jour.
+
+18l0l0	Lors	R
+18l0l1	de_travaux_de_soudures	N
+18l0l2	une_canalisation_de_gaz	O
+18l0l3	en_1996__	T
+18l0l4	un_regard_à_goudron	O
+18l0l5	a_été_mis_à_jour	N
+
+#Cet ouvrage a été neutralisé avec du béton maigre la même année avec l'élimination de 9 tonnes de goudrons en centre d'incinération agréé.
+
+19l0l0	Cet_ouvrage	O
+19l0l1	a_été_neutralisé	N
+19l0l2	la_même_année	T
+19l0l3	l__élimination	N
+19l0l4	goudrons	O
+19l0l5	incinération_agréé	O
+
+#En 1997, la phase liquide de 120 m3 contenue dans le gazomètre n°2 a été traitée par la mise en œuvre d'un procédé de stripping pour extraire et récupérer sur charbon actif les BTEX, et d'une unité de traitement biologique pour dégrader les polluants organiques tels que le phénol.
+
+20l0l0	En_1997__	T
+20l0l1	la_phase_liquide	O
+20l0l2	a_été_traitée	N
+20l0l3	la_mise_en_œuvre	N
+20l0l4	une_unité_de_traitement_biologique	N
+20l1l0	charbon_actif	U
+20l1l1	BTEX	S
+20l1l2	les_polluants_organiques	U
+20l1l3	phénol	S
+
+#A l'issue des ces opérations, 37 tonnes goudrons liquides furent mis en évidence en fond d'ouvrage.
+
+21l0l0	A_l_	R
+21l0l1	issue_des_ces_opérations	N
+21l0l2	37_tonnes_goudrons_liquides	O
+21l0l3	furent_mis_en_évidence	N
+21l0l4	en_fond_d__ouvrage	L
+21l1l0	goudrons_liquides	U
+
+#Ils furent pompés et évacués en centre d'incinération agréé.
+
+22l0l0	furent_pompés	N
+22l0l1	et_évacués	N
+
+#Les eaux de la nappe ont été contrôlées régulièrement entre 1994 et 1997 au moyen de 4 piézomètres.
+
+23l0l0	Les_eaux	O
+23l0l1	ont_été_contrôlées	N
+23l0l2	entre_1994_et_1997	T
+
+#L'analyse des eaux souterraines a mis en évidence la présence de sous-produits issus de la manufacture gazière.
+
+24l0l0	la_présence	O
+24l0l1	la_manufacture_gazière	A
+
+#En l'absence d'un usage sensible des eaux souterraines et superficielles à proximité du site, les quantités mesurées ne présentaient pas de risque pour la santé humaine et l'environnement.
+
+25l0l0	à_proximité_du_site	L
+25l0l1	quantités_mesurées	O
+25l0l2	ne_présentaient_pas	R
+
+#Les analyses d'eau ont été arrêtées par l'exploitant en décembre 1997.
+
+26l0l0	Les_analyses_d__eau	O
+26l0l1	ont_été_arrêtées	N
+26l0l2	l__exploitant	O
+26l0l3	en_décembre_1997__	T
+
+#La surveillance de la qualité de l'eau souterraine demandée par la DRIRE à Gaz de France, a repris en janvier 2002.
+
+27l0l0	La_surveillance_de_la_qualité_de_l__eau_souterraine	A
+27l0l1	la_DRIRE	O
+27l0l2	Gaz_de_France	O
+27l0l3	a_repris	N
+27l0l4	en_janvier_2002	T
+27l1l0	la_DRIRE	I
+27l1l1	Gaz_de_France	I
+
+#Des concentrations en ammonium et en Benzène pouvant avoir un impact sur la santé humaine, quel que soit l'usage du site, ont été relevées.
+
+28l0l0	Des_concentrations	O
+28l0l1	ammonium	O
+28l0l2	ont_été_relevées	N
+28l1l0	ammonium	S
+28l1l1	Benzène	S
+
+#Suite à ces constats, une étude d'actualisation des données hydrogéologiques datée du 10 septembre 2003 a recherché les impacts potentiels de cette pollution.
+
+29l0l0	une_étude_d__actualisation	N
+29l0l1	des_données_hydrogéologiques	N
+29l0l2	datée_du_10_septembre_2003	T
+29l0l3	a_recherché_les_impacts_potentiels	N
+
+#Elle conclue sur une compatibilité de l'état du site avec les usages.
+
+
+#Le 11 septembre 2003, dans le cadre de la cession des biens immobiliers du terrain à SOFILO et pour analyser les raisons de la présence de polluants dans les eaux souterraines, une synthèse de l'état du site a été effectuée.
+
+31l0l0	Le_11_septembre_2003__	T
+31l0l1	dans_le_cadre_de	R
+31l0l2	la_cession_des_biens_immobiliers	N
+31l0l3	du_terrain	O
+31l0l4	SOFILO	O
+31l0l5	les_raisons_de_la_présence_de_polluants	O
+31l0l6	l__état_du_site	O
+31l0l7	a_été_effectuée	N
+31l1l0	SOFILO	I
+31l1l1	polluants	U
+
+#Les résultats montrent :
+
+
+#- La présence de souillures en sous-sol, principalement par des HAP, ponctuellement par des goudrons,
+
+33l0l0	des_HAP	O
+33l0l1	goudrons	O
+33l1l0	des_HAP	S
+
+#- une qualité des eaux souterraines médiocre au droit du site (notamment des teneurs ponctuellement importante en benzène) contrastée par rapport à celle constatée en aval où seule des teneurs en ammonium se sont révélées significatives.
+
+34l0l0	ammonium	O
+34l1l0	benzène	S
+34l1l1	ammonium	S
+
+#La synthèse des eaux souterraines de 2005 indique :
+
+
+#- des concentrations en benzopyrène inférieures au seuil de détection pour l'ensemble des piézomètres depuis le début du suivi,
+
+36l0l0	depuis_le_début_du_suivi	T
+36l1l0	benzopyrène	S
+
+#- Les concentration en HAP sont systématiquement inférieures à la concentration à partir de laquelle un impact est généré usuellement retenue, exception faite d'une mesure en octobre 2005,
+
+37l0l0	en_octobre_2005__	T
+37l1l0	HAP	S
+
+#- une pollution des eaux par de l'ammonium,
+
+38l0l0	une_pollution_des_eaux	N
+38l0l1	l__ammonium	O
+38l1l0	ammonium	S
+
+#- des concentrations faibles ou inférieures au seuil de détection pour les hydrocarbures,
+
+39l1l0	hydrocarbures	S
+
+#- Deux piézomètres sur les huit utilisés pour le suivi montrent un impact en benzène ponctuel en octobre 2002, octobre 2003 et sur les deux campagnes de 2005.
+
+40l0l0	un_impact	N
+40l0l1	en_octobre_2002___octobre_2003	T
+40l0l2	de_2005__	T
+40l1l0	benzène	S
+
+#Les autres piézomètres présentent des valeurs généralement inférieures au seuil de détection.
+
+
+#Suite aux résultats obtenus, l'analyse portant sur les hydrocarbures a été arrêtée à partir de la campagne d'avril 2006.
+
+42l0l0	hydrocarbures	O
+42l0l1	a_été_arrêtée	N
+42l0l2	à_partir	R
+42l0l3	de_la_campagne	N
+42l0l4	d__avril_2006__	T
+42l1l0	hydrocarbures	S
+
+#Des travaux de réhabilitation du site ont eu lieu du 19 mars 2007 au 30 septembre 2007.
+
+43l0l0	Des_travaux_de_réhabilitation	N
+43l0l1	du_site	O
+43l0l2	ont_eu_lieu	N
+43l0l3	du_19_mars_2007_au_30_septembre_2007__	T
+
+#Ils comprenaient notamment:
+
+
+#-  la vidange des gazomètres n°1 et n°3.
+
+45l0l0	__la_vidange	N
+45l0l1	des_gazomètres	O
+
+#Les eaux qu'ils contenaient ont été pompées et évacuées dans un centre de traitement agréé.
+
+46l0l0	Les_eaux	O
+46l0l1	ont_été_pompées	N
+46l0l2	évacuées	O
+46l0l3	dans_un_centre_de	L
+46l0l4	traitement_agréé	O
+
+#Une partie des matériaux contaminés près du gazomètre n°1 a été laissé en place pour ne pas miner les fondations d'un bâtiment.
+
+47l0l0	Une_partie_des_matériaux_contaminés	O
+47l0l1	près_du_gazomètre	L
+47l0l2	a_été_laissé_en_place	N
+47l0l3	miner_les_fondations_d__un_bâtiment	N
+
+#Ils ont été confinés dans un sarcophage de béton pour être éventuellement traités ultérieurement lors du démantèlement des hangars.
+
+48l0l0	ont_été_confinés	N
+48l0l1	du_démantèlement_des_hangars	N
+
+#- l'excavation des sols souillés par des HAP et des goudrons sous le parking principal du site et sous la voie de circulation et leur évacuation vers un centre de traitement par désorption thermique.
+
+49l0l0	l__excavation	N
+49l0l1	sols_souillés	O
+49l0l2	des_HAP	O
+49l0l3	des_goudrons_sous_le_parking_principal_du_site	O
+49l0l4	et_sous	R
+49l0l5	la_voie_de_circulation	O
+49l0l6	évacuation_vers	R
+49l0l7	un_centre_de_traitement	O
+49l0l8	désorption	N
+49l1l0	des_HAP	S
+
+#- le nettoyage d'un puisard et des matériaux qui l'entourait.
+
+50l0l0	le_nettoyage	N
+50l0l1	un_puisard	O
+50l0l2	des_matériaux	O
+
+#- l'excavation et l'évacuation vers un centre de traitement par désorption thermique de 82 m3 de sols contaminés aux goudrons situés entre les gazomètres n°1 et n°2.
+
+51l0l0	l__excavation	N
+51l0l1	l__évacuation_vers	N
+51l0l2	un_centre_de_traitement_par	O
+51l0l3	désorption	N
+51l0l4	goudrons	O
+51l0l5	situés_entre_les_gazomètres	L
+51l1l0	goudrons	U
+
+#- la vidange d'une cuve à goudrons retrouvée aux cours des excavation de sols pollués aux HAP.
+
+52l0l0	la_vidange	N
+52l0l1	une_cuve_à_goudrons_retrouvée	O
+52l0l2	aux_cours	R
+52l0l3	des_excavation_de_sols_pollués	N
+52l0l4	aux_HAP	O
+52l1l0	HAP	S
+
+#- la vidange et la neutralisation d'une cuve à essence découverte lors des travaux.
+
+53l0l0	la_vidange	N
+53l0l1	la_neutralisation	N
+53l0l2	une_cuve_à_essence_découverte_lors	O
+53l0l3	des_travaux	N
+53l1l0	une_cuve	D
+
+#Des travaux de remblaiement ont fait suite aux travaux de réhabilitation.
+
+54l0l0	Des_travaux_de_remblaiement	N
+54l0l1	ont_fait_suite_aux	R
+54l0l2	travaux_de_réhabilitation	N
+
+#Au total, 3830 tonnes de terre ont été excavées du site et traitée par désorption thermique, 214 tonnes d'eau ont été pompées et traitée par évapo-incinération.
+
+55l0l0	3830_tonnes_de_terre	O
+55l0l1	ont_été_excavées	N
+55l0l2	désorption	N
+55l0l3	évapo___incinération	N
+
+#Suite aux faibles concentrations en HAP relevée dans les eaux souterraines en aval du site et à leur forte baisse depuis les travaux de 2007, il a été décidé de ne plus suivre ce paramètre dans le suivi des eaux à partir de la campagne d'avril 2010.
+
+56l0l0	en_aval_du_site	L
+56l0l1	leur_forte_baisse	N
+56l0l2	depuis	T
+56l0l3	les_travaux	N
+56l0l4	de_2007__	T
+56l0l5	il_a_été_décidé	N
+56l0l6	ne_plus_suivre_ce_paramètre	N
+56l0l7	suivi_des_eaux	O
+56l0l8	à_partir_de	R
+56l0l9	la_campagne_d__avril_2010__	T
+56l1l0	HAP	S
+
+#Ce suivi est donc poursuivit uniquement sur les BTEX et l'ammonium.
+
+57l0l0	Ce_suivi	O
+57l0l1	est_donc_poursuivit	N
+57l0l2	l__ammonium	O
+57l1l0	les_BTEX	S
+57l1l1	l__ammonium	S

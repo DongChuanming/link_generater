@@ -1,0 +1,164 @@
+
+#21.0032
+#Le site industriel de Montbard s'étend sur 22 ha de part et d'autre de la voie ferrée (Paris-Dijon).
+
+0l0l0	Le_site_industriel_de_Montbard	O
+0l0l1	22_ha	O
+0l0l2	la_voie_ferrée___Paris___Dijon	L
+
+#Il s'est développé depuis plus d'un siècle autour de l'activité métallurgique du Groupe Vallourec (forge - fonderie - laminage - traitement de surface...).
+
+1l0l0	s__est_développé	N
+1l0l1	depuis_plus_d__un_siècle	T
+1l0l2	autour_de	R
+1l0l3	l__activité_métallurgique	A
+1l0l4	Vallourec	O
+1l0l5	fonderie	A
+1l0l6	laminage	A
+1l0l7	traitement_de_surface	A
+1l1l0	Groupe_Vallourec	I
+
+#Le site est aujourd'hui scindé en 6 entités industrielles différentes dont la Société VALINOX NUCLEAIRE (fabrique de tubes inox pour le nucléaire) qui occupe environ 3,5 ha à proximité de la rivière La Brenne et du Canal de Bourgogne au-delà duquel s'étend la Ville de Montbard.
+
+2l0l0	Le_site	O
+2l0l1	6_entités_industrielles_différentes	O
+2l0l2	la_Société_VALINOX_NUCLEAIRE	O
+2l0l3	fabrique_de_tubes_inox_pour_le_nucléaire	A
+2l0l4	3_5_ha	O
+2l0l5	à_proximité_de_la_rivière_La_Brenne_et_du_Canal_de_Bourgogne	L
+2l0l6	au_delà_duquel_s_	R
+2l0l7	étend_la_Ville_de_Montbard	L
+2l1l0	la_Société_VALINOX_NUCLEAIRE	I
+
+#Le site a été construit sur des remblais hétérogènes (mâchefers, scories,...) qui reposent sur des alluvions. 2 nappes sont présentes, l'une superficielle non exploitée qui draine les eaux de ruissellement, l'autre plus profonde constitue la nappe d'accompagnement de la rivière "La Brenne" utilisée pour l'alimentation en eau potable.
+
+3l0l0	Le_site	O
+3l0l1	a_été_construit_sur	N
+3l0l2	accompagnement_de_la_rivière___La_Brenne	L
+3l0l3	l__alimentation_en_eau_potable	A
+
+#Le seul captage AEP en aval hydraulique du site est à environ 4 km.
+
+4l0l0	Le_seul_captage_AEP	O
+4l0l1	en_aval_hydraulique_du_site	L
+4l0l2	est_à_environ_4_km__	L
+
+#Les investigations réalisées dans le cadre du diagnostic ESR n'ont pas mis en évidence dans les sols de poluants pouvant être imputables à une activité industrielle .
+
+5l0l0	Les_investigations_réalisées	N
+5l0l1	dans_le_cadre	R
+5l0l2	du_diagnostic	N
+
+#n revanche,comme sur les autres sites étudiés aux alentours ,des concentrations élevées ont été observées en fer, manganèse, baryum et arsenic ,lesquelles sont sans doute liées au contexte hydrogéologique et au fond géochimique des sols en place et non aux activités du site .
+
+6l0l0	hydrogéologique	N
+6l1l0	fer	S
+6l1l1	manganèse	S
+6l1l2	baryum	S
+6l1l3	arsenic	S
+
+#Ces observations confirment celles faites dans les ESR des sites voisins .
+
+
+#Les campagnes de mesures réalisées en 2000 puis 2002 dans les eaux souterraines ont confirmé le caractére ponctuel et limité de l'impact des métaux lourds (chrome et nickel) .
+
+8l0l0	Les_campagnes_de_mesures	N
+8l0l1	réalisées	N
+8l0l2	en_2000_puis_2002	T
+8l1l0	métaux_lourds	S
+8l1l1	chrome	S
+8l1l2	nickel	S
+
+#ucun impact par des hydrocarbures n'a été détecté dans les eaux tant superficielles que souterraines.
+
+9l0l0	ucun_impact	O
+9l0l1	les_eaux	O
+9l1l0	hydrocarbures	S
+
+#L'ESR conclut à un classement "site à surveiller" vis à vis des eaux souterraines, conformément à l'ancienne méthodologie nationale en matière de gestion des sols pollués.
+
+10l0l0	eaux_souterraines	O
+10l0l1	sols_pollués	O
+10l1l0	L__ESR	I
+
+#A la demande de l'administration, un programme global de surveillance des eaux souterraines a été établi afin de couvrir l'ensemble de la plateforme industrielle.
+
+11l0l0	A	R
+11l0l1	la_demande	N
+11l0l2	de	R
+11l0l3	l__administration	O
+11l0l4	un_programme	O
+11l0l5	global_de_surveillance_des_eaux_souterraines	A
+11l0l6	a_été_établi	N
+11l0l7	la_plateforme_industrielle	O
+
+#18 décembre 2002:  La Société VALINOX a été tenue de réaliser ou faire réaliser la surveillance de la qualité des eaux souterraines (4 piézomètres) compte tenu qu'elle se situe à l'aval immédiat des Sociétés VALTUBES et DMV STAINLESS.
+
+12l0l0	18_décembre_2002__	T
+12l0l1	__La_Société_VALINOX	O
+12l0l2	a_été_tenue_de_réaliser	N
+12l0l3	ou_faire_réaliser_la_surveillance	N
+12l0l4	de_la_qualité_des_eaux_souterraines	A
+12l0l5	__4_piézomètres	O
+12l0l6	elle_se_situe_à_l__aval_immédiat	L
+12l0l7	des_Sociétés_VALTUBES	O
+12l0l8	et_DMV_STAINLESS	O
+12l1l0	__La_Société_VALINOX	I
+12l1l1	immédiat_des_Sociétés_VALTUBES_et_DMV_STAINLESS	I
+
+#Cette surveillance est semestrielle et porte sur les paramètres hydrocarbures totaux, chrome total et nickel et solvants chlorés.
+
+13l0l0	Cette_surveillance	A
+13l1l0	hydrocarbures_totaux	S
+13l1l1	chrome_total	S
+13l1l2	nickel	S
+13l1l3	solvants_chlorés	S
+
+#En 2012, la qualité des eaux souterraines comportent plusieurs anomalies:
+
+14l0l0	En_2012__	T
+14l0l1	la_qualité_des_eaux_souterraines	O
+
+#- les teneurs en fluorures restent élevées et supérieures aux anciennes valeurs réglementaires (comparaison faite à titre indicatif)
+
+15l1l0	fluorures	S
+
+#- les teneurs en nickel ont augmenté en 2009, puis se sont stabilisées tout en restant supérieures aux valeurs réglementaires susvisées
+
+16l0l0	ont_augmenté	N
+16l0l1	en_2009__	T
+16l0l2	se_sont_stabilisées	N
+16l1l0	nickel	S
+
+#- les concentrations en HCT sont inférieures à la limite de détection du sous-traitant mais restent supérieures aux valeurs réglementaires
+
+17l1l0	HCT	S
+
+#- on note une évolution en dent de scie du paramètres chrome
+
+18l1l0	paramètres_chrome	S
+
+#La campagne d'analyse des eaux souterraines d'avril 2014 conclut :
+
+19l0l0	La_campagne_d__analyse	N
+19l0l1	avril_2014	T
+
+#"Le piézomètre Vtub2 présente des anomalies au niveau du nickel, et des fluorures au dessus des limites en usage non sensible et pour les HCT au dessus de la valeur de constat d'impact en usage sensible.
+
+20l0l0	les_HCT	O
+20l1l0	nickel	S
+20l1l1	fluorures	S
+20l1l2	les_HCT	S
+
+#Ce point de prélèvement devra être surveillé lors de la prochaine campagne.
+
+
+#Pour le piézomètre PZ9, le nickel devra être surveillé lors des prochaines campagnes car la teneur pour cette campagne hautes eaux est supérieure à la valeur de constat d'impact en usage sensible.
+
+22l0l0	surveillé	A
+22l0l1	cette_campagne_hautes_eaux	N
+22l1l0	nickel	S
+
+#En ce qui concerne les autres piézomètres, aucune anomalie n'a été détectée par rapport à la limite seuil en usage sensible."
+
+23l0l0	détectée	N

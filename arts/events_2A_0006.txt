@@ -1,0 +1,52 @@
+
+#2A.0006
+#Le site est une ancienne décharge exploitée sur la commune d'Ajaccio et exploitée sans barrière passive ou active.
+
+0l0l0	Le_site_est_une_ancienne_décharge_exploitée	N
+0l0l1	sur_la	R
+0l0l2	commune_d__Ajaccio	O
+0l1l0	d__Ajaccio	I
+
+#Le site est est composé de 3 installations: Saint Antoine 1, Saint Antoine 2 et Saint Antoine 3, chacun étant respectivement situé en aval de l'autre.
+
+1l0l0	Le_site	O
+1l0l1	est_composé_de_3	O
+1l0l2	installations__	N
+1l0l3	Saint_Antoine_1___Saint_Antoine	L
+1l0l4	2_et_Saint_Antoine	N
+
+#Seul Saint Antoine 1 présente un caractère polluant avéré car cela concernait en particulier le stockage des ordures ménagères.
+
+2l0l0	Seul_Saint	O
+2l0l1	ménagères__	L
+
+#L'installation de traitement des lixiviats est en fonctionnement.
+
+
+#Deux exutoires de lixiviats sont identifiés.
+
+4l0l0	Deux_exutoires_de_lixiviats_sont_identifiés	O
+
+#L'un est d'ores et déjà connecté, l'autre doit encore fait l'objet des travaux nécessaires.
+
+5l0l0	L__un_est_d_	O
+5l0l1	déjà_connecté	O
+5l0l2	__l__autre_doit	N
+
+#Une surveillance des eaux souterraines et superficielles est en cours.
+
+6l0l0	souterraines_et_superficielles	N
+6l0l1	est_en_cours	R
+6l0l2	_	N
+
+#La pollution des eaux souterraines est caractérisée à l'aide de 6 piézomètres.
+
+7l0l0	La_pollution_des_eaux_souterraines_est_caractérisée	A
+
+#Les polluants concernées sont principalement liés à la charge organique (DCO, COT et azote) et à la présence de matières en suspension (MES).
+
+8l0l0	Les_polluants_concernées_sont_principalement	O
+
+#Le raccordement du deuxième exutoire devrait améliorer la situation.
+
+9l1l0	améliorer_la_situation__	U

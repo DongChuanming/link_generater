@@ -1,0 +1,232 @@
+
+#63.0052
+#Le site, d’une superficie de 3721 m², est situé sur la commune de Clermont-Ferrand.
+
+0l0l0	Le_site	O
+0l0l1	est_situé_sur_la_commune_de_Clermont___Ferrand	L
+
+#Dans les années 1970, la station service est créée.
+
+1l0l0	Dans_les_années_1970__	T
+1l0l1	la_station_service	O
+1l0l2	est_créée	N
+
+#Le site est occupé par le magasin MAMMOUTH.
+
+2l0l0	Le_site	O
+2l0l1	est_occupé_par	R
+2l0l2	le_magasin_MAMMOUTH	O
+2l1l0	le_magasin_MAMMOUTH	I
+
+#Entre 1972 et 1974, des cuves sont installées en complément de celles existantes.
+
+3l0l0	Entre_1972_et_1974	T
+3l0l1	cuves	O
+3l0l2	sont_installées_en_complément_de	N
+
+#En 1999, un récépissé de déclaration est délivré à Auchan lors de la reprise de l’enseigne.
+
+4l0l0	En_1999__	T
+4l0l1	un_récépissé	O
+4l0l2	de_déclaration	O
+4l0l3	est_délivré	N
+4l0l4	Auchan	O
+4l0l5	lors_de	R
+4l0l6	la_reprise	N
+4l0l7	l__enseigne	O
+
+#Le 27 novembre 2006, la direction d’Auchan déclare sa cessation d’activité, ayant implanté une station plus moderne sur le boulevard Clémentel.
+
+5l0l0	Le_27_novembre_2006__	T
+5l0l1	la_direction	O
+5l0l2	d__Auchan	O
+5l0l3	déclare_sa_cessation_d_	N
+5l0l4	activité	O
+5l0l5	ayant_implanté	N
+5l0l6	une_station_plus_moderne	O
+5l0l7	sur_le_boulevard_Clémentel	L
+
+#Les terrains ayant accueilli la précédente station sont actuellement réutilisés en tant que parking.
+
+6l0l0	Les_terrains	O
+6l0l1	ayant_accueilli	N
+6l0l2	la_précédente_station	O
+6l0l3	sont_actuellement_réutilisés	N
+6l0l4	en	L
+6l0l5	tant_que	R
+6l0l6	parking	O
+
+#La station était alimentée par 4 cuves enterrées à simple enveloppe de 30 m² chacune, dans des fosses maçonnées emplies de sablon.
+
+7l0l0	La_station	O
+7l0l1	était_alimentée_par	R
+7l0l2	4_cuves	O
+7l0l3	enterrées	N
+
+#Une cuve enterrée de GPL a également été utilisée.
+
+8l0l0	Une_cuve	O
+8l1l0	GPL	U
+
+#Les bâtiments ont été entièrement démolis.
+
+9l0l0	Les_bâtiments	O
+9l0l1	ont_été_entièrement_démolis	N
+
+#Les cuves enterrées et le séparateur d’hydrocarbures ont été extraites des fosses.
+
+10l0l0	Les_cuves_enterrées	O
+10l0l1	le_séparateur	O
+10l0l2	d__hydrocarbures	O
+10l0l3	ont_été_extraites	N
+10l0l4	fosses	N
+10l1l0	Les_cuves_enterrées	D
+10l1l1	d__hydrocarbures	S
+
+#Les tuyauteries et volucompteurs ont été enlevés.
+
+11l0l0	Les_tuyauteries_et_volucompteurs	O
+11l0l1	ont_été_enlevés	N
+
+#Les fosses bétonnées ont été détruites.
+
+12l0l0	Les_fosses_bétonnées	O
+12l0l1	ont_été_détruites	N
+
+#En juin 2007, le chantier de suppression des cuves a lieu.
+
+13l0l0	En_juin_2007__	T
+13l0l1	le_chantier_de_suppression	N
+13l0l2	cuves	O
+13l0l3	a_lieu	N
+13l1l0	cuves	D
+
+#Chaque cuve étant installée dans des fosses maçonnées, sur un lit de sablons, le bureau d'étude contrôle les sablons restant dans la fosse maçonnée après enlèvement de la cuve associée.
+
+14l0l0	Chaque_cuve	O
+14l0l1	étant_installée_dans	N
+14l0l2	fosses_maçonnées	O
+14l0l3	le_bureau_d__étude	O
+14l0l4	contrôle	R
+14l0l5	les_sablons	O
+14l0l6	la_cuve_associée	O
+
+#En cas de contamination des sablons, le contrôle des terres situées sous la fosse après démolition et enlèvement de la fosse a lieu.
+
+15l0l0	contamination	N
+15l0l1	sablons	O
+15l0l2	le_contrôle_des_terres	A
+15l0l3	situées_sous_la_fosse	L
+15l0l4	démolition	N
+15l0l5	enlèvement	N
+15l0l6	la_fosse	O
+15l0l7	a_lieu	N
+
+#11 sondages sont réalisés.
+
+
+#Dans la cuve 4 est remarquée une pollution par hydrocarbures et légère contamination par BTEX et HAP localisée dans les sablons contenus dans la fosse.
+
+17l0l0	hydrocarbures	O
+17l1l0	hydrocarbures	S
+17l1l1	BTEX	S
+17l1l2	HAP	S
+
+#Au niveau de la zone de dépotage, une pollution par les hydrocarbures est remarquée.
+
+18l0l0	Au_niveau_de	R
+18l0l1	la_zone_de_dépotage	O
+18l0l2	une_pollution	O
+18l1l0	hydrocarbures	S
+
+#Des sondages et analyses complémentaires sont réalisés au droit du dépotage.
+
+19l0l0	Des_sondages	N
+19l0l1	analyses_complémentaires	O
+19l0l2	sont_réalisés	N
+19l0l3	au_droit_du_dépotage	O
+
+#Un sondage sur 1,5m de profondeur est réalisé : les terres extraites présentent une légère odeur d'hydrocarbures.
+
+20l0l0	Un_sondage_sur_1_5_m_de_profondeur_est_réalisé	N
+20l0l1	les_terres_extraites	O
+20l1l0	hydrocarbures	S
+
+#Le sondage précédent étant pollué par les hydrocarbures à 1,5 m de prof, il est décidé de poursuivre cette fouille en profondeur pour vérifier l'extension de la pollution.
+
+21l0l0	les_hydrocarbures	O
+21l0l1	1_5_m_de_prof	O
+21l0l2	il_est_décidé	O
+21l0l3	de_poursuivre_cette_fouille_en_profondeur	N
+21l1l0	hydrocarbures	S
+
+#Le sondage a été conduit jusqu'à 6,5 m.
+
+22l0l0	Le_sondage	O
+22l0l1	a_été_conduit	N
+
+#Une pollution est remarquée entre 4,5 et 6 m, mais les teneurs situées au-delà de 6m sont inférieures au seuil d'acceptation en installation de stockage de déchets inertes.
+
+
+#Cependant, les travaux de démantèlement de la station ont permis la suppression de la source primaire de pollution.
+
+24l0l0	les_travaux_de_démantèlement	N
+24l0l1	la_station	O
+24l0l2	ont_permis	N
+24l0l3	la_suppression_de_la_source	N
+
+#Un phénomène d'atténuation naturelle des hydrocarbures est à prévoir, compte tenu de la propriété naturelle de lente dégradation de ces molécules organiques dans le milieu sol.
+
+25l1l0	hydrocarbures	S
+
+#Le projet de parking est compatible avec la pollution résiduelle : compte tenu de l'imperméabilisation des sols, tout risques par contact direct pour l'Homme est supprimé.
+
+26l0l0	Le_projet	O
+26l0l1	imperméabilisation_des_sols	N
+
+#En août 2007, afin de vérifier que l'eau souterraine n'est pas impactée, 1 piézomètre à 12 m de profondeur est implanté à proximité du dépotage.
+
+27l0l0	En_août_2007__	T
+27l0l1	est_implanté	N
+27l0l2	à_proximité_du_dépotage	L
+
+#En février 2008, deux piézomètres (Pz) complémentaires sont implantés sur demande de la DRIRE.
+
+28l0l0	En_février_2008__	T
+28l0l1	deux_piézomètres	O
+28l0l2	sont_implantés	N
+28l0l3	demande	N
+28l0l4	la_DRIRE	O
+28l1l0	la_DRIRE	I
+
+#Les teneurs en hydrocarbures au droit du Pz 2 et Pz 3 sont inférieures à la concentration réglementaire, ce qui n'est pas le cas pour Pz 1, où une très forte concentration en hydrocarbures est relevée.
+
+29l1l0	hydrocarbures	S
+29l1l1	hydrocarbures	S
+
+#Les teneurs en BTEX et HAP sont très importantes au niveau de Pz2 et Pz3.
+
+30l1l0	BTEX	S
+30l1l1	HAP	S
+
+#Au regard des résultats d'analyse de sols, des caractéristiques hydrodynamiques de la nappe et des indices organoleptiques de pollution, la pollution de la nappe ne semble pas liée à l'activité du site.
+
+31l0l0	l__activité_du_site	A
+
+#La teneur en hydrocarbures dans la nappe excède les valeurs limites autorisées pour la production d'eau potable, mais le site n'est pas dans un périmètre de protection de captage.
+
+32l0l0	la_nappe	O
+32l0l1	excède	N
+32l0l2	production_d__eau_potable	A
+32l0l3	le_site	O
+32l0l4	n_	R
+32l0l5	est_pas_dans_un_périmètre_de_protection	L
+32l0l6	de_captage	N
+32l1l0	hydrocarbures	S
+
+#Du fait de sa faible productivité, la nappe ne peut pas avoir d'usage local pour arrosage.
+
+33l0l0	arrosage	A
+
+#Il y a donc absence de "cibles eau souterraine", donc il n'y a pas de risque pour le milieu.  Il n’y a pas lieu de mettre en place une surveillance.
+

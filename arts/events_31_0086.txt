@@ -1,0 +1,184 @@
+
+#31.0086
+#Le site est un ancien dépôt de bois, plastique sur lequel était également exercé l’activité de traitement de bois jusqu’en 2014.
+
+0l0l0	Le_site	O
+0l0l1	un_ancien_dépôt_de_bois	O
+0l0l2	était	A
+0l0l3	également_exercé	N
+0l0l4	l__activité_de_traitement_de_bois	A
+0l0l5	jusqu__en_2014__	T
+
+#Actuellement, l’activité de stockage de matériaux de construction, dont la quantité de bois est en dessous du seuil pour être soumis à la réglementation des installations classées, est exploitée sur le site par la société CHAUSSON MATERIAUX.
+
+1l0l0	l__activité_de_stockage_de_matériaux_de_construction	A
+1l0l1	est_exploitée	N
+1l0l2	la_société_CHAUSSON_MATERIAUX	O
+1l1l0	la_société_CHAUSSON_MATERIAUX	I
+
+#L’ancienne activité de traitement de bois était en particulier classée sous le régime de l’autorisation et a bénéficié d’un arrêté préfectoral d’autorisation en date du 11 avril 1990 complété le 27 juin 2008.
+
+2l0l0	L__ancienne_activité_de	O
+2l0l1	traitement_de_bois	A
+2l0l2	classée	O
+2l0l3	sous_le_régime_de	L
+2l0l4	l__autorisation	O
+2l0l5	a_bénéficié_d_	N
+2l0l6	un_arrêté_préfectoral_d__autorisation	O
+2l0l7	en_date_du_11_avril_1990	T
+2l0l8	le_27_juin_2008__	T
+
+#Par courrier du 14 mars 2013 la société WOLSELEY France Bois et Matériaux a notifié à monsieur le Préfet la cessation de cette activité.
+
+3l0l0	14_mars_2013	T
+3l0l1	la_société_WOLSELEY	O
+3l0l2	France_Bois_et_Matériaux	O
+3l0l3	a_notifié_à	N
+3l0l4	monsieur_le_Préfet	O
+3l0l5	la_cessation_de	N
+3l0l6	cette_activité	O
+3l1l0	la_société_WOLSELEY_France_Bois	I
+3l1l1	le_Préfet	I
+
+#Le site est localisé dans une zone d'activités à l'ouest/sud ouest du centre ville de St Alban.
+
+4l0l0	Le_site	O
+4l0l1	est_localisé_dans_une_zone_d__activités_à_l__ouest___sud_ouest_du_centre_ville_de_St_Alban	L
+
+#Il est bordé par des commerces et bâtiments d’entreprises et des habitations se situent au nord en amont hydraulique.
+
+5l0l0	bordé_par_des_commerces	L
+5l0l1	des_habitations	O
+5l0l2	se_situent_au_nord_en_amont_hydraulique	L
+
+#Le canal latéral de La Garonne se situe à environ 600m à l'ouest du site, en aval hydraulique.
+
+6l0l0	Le_canal_latéral	O
+6l0l1	La_Garonne	L
+6l0l2	se_situe_à_environ_600_m_à_l__ouest_du_site	L
+6l0l3	en_aval_hydraulique	L
+
+#Un captage des eaux superficielles vulnérable est recensé en aval hydraulique du site, son usage est considéré comme faiblement sensible (arrosage des espaces verts).
+
+7l0l0	Un_captage	O
+7l0l1	en_aval_hydraulique_du_site	L
+7l0l2	son_usage	O
+7l0l3	est_considéré	R
+7l0l4	arrosage_des_espaces_verts	A
+
+#Des captages des eaux souterraines vulnérables sont également recensés pour des usages industriels et agricoles.
+
+8l0l0	Des_captages	O
+8l0l1	des	O
+8l0l2	usages_industriels_et_agricoles	A
+
+#Dans le cadre de la cessation d’activité du traitement de bois, une étude environnementale a été réalisée en août 2013 et a mis en évidence :
+
+9l0l0	Dans_le_cadre_de	R
+9l0l1	la_cessation	N
+9l0l2	d__activité_du_traitement_de_bois	A
+9l0l3	une_étude_environnementale	N
+9l0l4	a_été_réalisée	N
+9l0l5	en_août_2013	T
+
+#- au niveau des sols :
+
+
+#un impact en tébuconazole (24 µg/kg), cyperméthrine (11 µg/kg), propiconazole (35 µg/kg), chlorophénols (15 000 µg/kg) et gamma HCH (510 µg/kg) au droit et à proximité de l’emplacement de l’ancien bac de traitement avec des teneurs essentiellement en surface hormis un impact significatif jusqu’à 3 mètres de profondeur détecté en un point proche de l’ancien bac ;
+
+11l0l0	au_droit_et_à_proximité_de_l_	L
+11l0l1	des_teneurs	O
+11l0l2	en_un_point_proche_de_l__ancien_bac	L
+11l1l0	tébuconazole	S
+11l1l1	cyperméthrine	S
+11l1l2	propiconazole	S
+11l1l3	chlorophénols	S
+11l1l4	HCH	S
+
+#un impact en hydrocarbures (510 mg/kg), zinc ( 2200 mg/kg), plomb (810 mg/kg) et cuivre (38 mg/kg) au droit de l’ancienne station de distribution de carburant et de l’aire de lavage à 3 mètres de profondeur.
+
+12l0l0	au_droit_de_l__ancienne_station_de	L
+12l0l1	distribution_de_carburant	A
+12l1l0	hydrocarbures	S
+12l1l1	zinc	S
+12l1l2	plomb	S
+12l1l3	cuivre	S
+12l1l4	carburant	U
+
+#- au niveau des eaux souterraines la présence de teneurs régulièrement supérieures aux limites de qualité en eau potable (0,1 μg/L par substances) mais inférieures aux limites de qualité en eaux brutes (2 μg/L par substances) pour les paramètres tébuconazole, cyperméthrine et propiconazole.
+
+13l1l0	tébuconazole	S
+13l1l1	cyperméthrine	S
+13l1l2	propiconazole	S
+
+#Le bac de traitement a été évacué et l’ancienne station-service a été démantelée.
+
+14l0l0	Le_bac_de_traitement	O
+14l0l1	a_été_évacué	N
+14l0l2	l__ancienne_station___service	O
+14l0l3	a_été_démantelée	N
+
+#Suite à ces investigations et à la demande de l’inspection des installations classées en août 2015, l’exploitant a communiqué un plan de gestion de dépollution des deux zones datant de mai 2014 qui justifie notamment les travaux suivants réalisés fin 2014 au niveau de l’ancienne station-service.
+
+15l0l0	Suite_à	R
+15l0l1	ces_investigations	N
+15l0l2	à_la_demande	N
+15l0l3	l__inspection_des_installations_classées	O
+15l0l4	en_août_2015__	T
+15l0l5	l__exploitant	O
+15l0l6	a_communiqué	N
+15l0l7	un_plan_de	O
+15l0l8	gestion_de_dépollution	N
+15l0l9	deux_zones	O
+15l0l10	datant_de_mai_2014	T
+15l0l11	les_travaux_suivants_réalisés	N
+15l0l12	fin_2014	T
+15l0l13	au_niveau_de	R
+15l0l14	l_	O
+
+#Un total de 56,14 tonnes de terres polluées présentes dans la fosse maçonnée ayant contenu les anciennes cuves de stockage de carburant a été excavé et évacué en filière agréée (biocentre) fin 2014.
+
+16l0l0	56_14_tonnes_de_terres_polluées	O
+16l0l1	la_fosse_maçonnée	O
+16l0l2	ayant_contenu	N
+16l0l3	les_anciennes_cuves_de_stockage_de_carburant	O
+16l0l4	a_été_excavé	N
+16l0l5	évacué_en_filière_agréée	O
+16l0l6	fin_2014__	T
+16l1l0	les_anciennes_cuves_de	D
+16l1l1	stockage_de_carburant	U
+
+#Par courrier datant du 27 novembre 2015, l’inspection des installations classées a demandé des investigations complémentaires au niveau de l’ancienne zone de traitement de bois.
+
+17l0l0	datant_du_27_novembre_2015__	T
+17l0l1	l__inspection_des_installations_classées	O
+17l0l2	a_demandé_des_investigations_complémentaires	N
+17l0l3	au_niveau_de	R
+17l0l4	l_	O
+17l0l5	traitement_de_bois	A
+
+#L'exploitant a fait réaliser en 2017 les investigations complémentaires demandées fin 2015.
+
+18l0l0	L__exploitant	O
+18l0l1	a_fait_réaliser	N
+18l0l2	en_2017	T
+18l0l3	les_investigations_complémentaires_demandées	N
+18l0l4	fin_2015__	T
+
+#L'étude conclut que l'analyse des risques sanitaires reste inchangée avec l'absence de risque pour les usagers du site et la population hors site.
+
+
+#L'usage considéré est un usage industriel/commercial.
+
+
+#L'étude mentionne qu'il est retenu de maintenir le recouvrement de surface au droit de l'impact résiduel.
+
+
+#La dernière analyse des eaux souterraines montre que les teneurs sont inférieures aux valeurs limites de la qualité des eaux brutes utilisées pour la production d'eau destinée à la consommation humaine (arrêté du 11 janvier 2007).
+
+22l0l0	eaux_souterraines	O
+22l0l1	11_janvier_2007__	T
+
+#L'état est stable notamment pour les piézomètres situés en aval proche des limites du site.
+
+23l0l0	piézomètres_situés_en_aval_proche_des_limites_du_site	L

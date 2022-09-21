@@ -1,0 +1,350 @@
+
+#73.0134
+#La société ENI FRANCE exploite une station-service (récépissé de déclaration du 3 juin 1991) située sur l'Aire de Val Gelon sur l'Autoroute 43 (A43), sur le territoire de la commune de Châteauneuf.
+
+0l0l0	La_société_ENI_FRANCE	O
+0l0l1	exploite	N
+0l0l2	une_station___service	O
+0l0l3	récépissé	O
+0l0l4	de_déclaration	N
+0l0l5	3_juin_1991	T
+0l0l6	située_sur_l__Aire_de_Val_Gelon	L
+0l0l7	sur_l__Autoroute_43___A43	L
+0l0l8	sur_le_territoire_de_la_commune_de_Châteauneuf	L
+0l1l0	La_société_ENI_FRANCE	I
+0l1l1	exploite_une_station___service	I
+
+#Cette zone n'est pas découpée en parcelles cadastrales.
+
+1l0l0	Cette_zone	O
+
+#La société TOTAL RAFFINAGE MARKETING a été remplacé en tant qu'exploitant de la station-service par ENI FRANCE (récépissé de déclaration de changement d'exploitant du 21 novembre 2012).
+
+2l0l0	La_société_TOTAL_RAFFINAGE_MARKETING	O
+2l0l1	a_été_remplacé_en	N
+2l0l2	tant_qu__exploitant	N
+2l0l3	la_station___service	O
+2l0l4	ENI_FRANCE	O
+2l0l5	__récépissé	N
+2l0l6	de_déclaration	N
+2l0l7	de_changement	N
+2l0l8	d__exploitant	O
+2l0l9	21_novembre_2012____	T
+2l1l0	La_société_TOTAL_RAFFINAGE_MARKETING	I
+2l1l1	ENI_FRANCE	I
+
+#La station-service comporte les infrastructures suivantes :
+
+
+#- 4 cuves de 60 m3 en pleine terre (SP95, SP98, GO) ;
+
+4l1l0	4_cuves	D
+4l1l1	SP95	S
+4l1l2	SP98	S
+4l1l3	GO	S
+
+#- 4 îlots distributeurs multi-produits ;
+
+
+#- 1 cuve de 5 m3 enfouie (FOD) ;
+
+6l1l0	1_cuve_de	D
+6l1l1	FOD	S
+
+#- 1 cuve de 3 m3 enfouie (HU).
+
+
+#Le site est composé de sables graveleux et de sables limono-graveleurs jusqu'à 7,5 m.
+
+8l0l0	Le_site	O
+
+#L'hydrologie du site est constituée de :
+
+
+#- l'Isère à environ 200 m au nord du site qui s'écoule en direction du sud-ouest ;
+
+10l0l0	à_environ_200_m_au_nord_du_site	L
+10l0l1	en_direction_du_sud_ouest	L
+
+#- 2 plans d'eau (anciennes gravières) à moins de 50 m au sud du site.
+
+11l0l0	2_plans_d__eau	O
+11l0l1	à_moins_de_50_m_au_sud_du_site	L
+
+#La nappe alluviale de l'Isère est recoupée vers 3,5 m de profondeur.
+
+12l0l0	l__Isère	L
+12l0l1	est_recoupée_vers_3_5_m_de_profondeur	N
+
+#Le sens d'écoulement général est supposé vers le nord-ouest en direction de l'Isère mais est variable du fait de la proximité de l'Isère : vers l'ouest/nord-ouest en juin 2010 et vers l'ouest/sud-ouest en octobre 2012.
+
+13l0l0	vers	T
+13l0l1	le_nord_ouest	O
+13l0l2	en_direction_de_l__Isère	L
+13l0l3	l__Isère	L
+13l0l4	vers_l__ouest___nord___ouest	N
+13l0l5	en_juin_2010	T
+13l0l6	et_vers	R
+13l0l7	l_	O
+13l0l8	ouest___sud___ouest	L
+13l0l9	en_octobre_2012__	T
+
+#Les zones naturelles protégées à proximité du site sont le parc naturel régionale des Bauges, la ZNIEFF de type 1 "Écosystème alluvial de l'Isère dans la vallée du Grésivaudan" et la ZNIEFF de type 2 "Zone fonctionnelle de la rivière Isère entre Cévins et Grenoble" à environ 200 m au nord.
+
+14l0l0	Les_zones_naturelles_protégées	O
+14l0l1	le_parc_naturel_régionale_des_Bauges	O
+14l0l2	la_ZNIEFF	O
+14l0l3	l__Isère	L
+14l0l4	dans_la_vallée_du_Grésivaudan__	L
+14l0l5	la_rivière_Isère_entre_Cévins_et_Grenoble___à_environ_200_m_au_nord__	L
+
+#Le diagnostic environnemental de juin 2010 qui a consisté en 18 sondages jusqu'à 3 m de profondeur et la pose de 3 piézomètres à 7 m a mis en évidence :
+
+15l0l0	Le_diagnostic_environnemental	N
+15l0l1	de_juin_2010	T
+15l0l2	la_pose_de	N
+15l0l3	3_piézomètres	O
+
+#- l'absence d'impact en BTEX ;
+
+16l1l0	BTEX	S
+
+#- l'absence d'impact en HAP à proximité de la cuve FOD ;
+
+17l0l0	à_proximité_de_la	L
+17l0l1	cuve_FOD	N
+17l1l0	HAP	S
+17l1l1	cuve_FOD	I
+
+#- un impact en HCT C10-C40 au droit des anciennes cuves et nouvelles cuves vers 3 m de profondeur avec des teneurs comprises entre 204 et 1 004 mg/kg MS ;
+
+18l0l0	un_impact	O
+18l0l1	au_droit_des_anciennes_cuves	L
+18l0l2	nouvelles_cuves_vers_3_m_de_profondeur	N
+18l1l0	HCT_C10_C40	S
+
+#- un impact ponctuel en HCT C5-C10 vers 3 m de profondeur à proximité du parc à cuves avec une teneur égale à 190 mg/kg MS ;
+
+19l0l0	un_impact_ponctuel	N
+19l0l1	vers_3_m_de_profondeur	L
+19l0l2	à_proximité_du_parc_à_cuves	L
+19l1l0	HCT_C5_C10	S
+
+#- l'absence d'impact dans les eaux souterraines en HCT C5-C10, C10-C40 et BTEX.
+
+20l0l0	les_eaux_souterraines	O
+20l1l0	BTEX	S
+
+#Le diagnostic environnemental complémentaire d'octobre 2012 qui a consisté en 5 sondages jusqu'à 4 m de profondeur et la pose de 2 piézomètres à 7 m a mis en évidence :
+
+21l0l0	Le_diagnostic_environnemental_complémentaire	N
+21l0l1	octobre_2012	T
+21l0l2	la_pose_de	N
+21l0l3	2_piézomètres	O
+
+#- un impact en HCT C10-C40 au droit des pistes PL entre 1,3 et 1,6 m de profondeur (3 240 mg/kg MS) et dans une moindre mesure dans la partie ouest de la piste de distribution VL entre 1,8 et 2,2 m de profondeur (424 mg/kg MS) ;
+
+22l0l0	un_impact	N
+22l0l1	dans_la_partie_ouest	L
+
+#- la présence de xylènes et d'éthylbenzène au droit de la piste VL ;
+
+23l0l0	au_droit_de_la_piste_VL	L
+23l1l0	xylènes	S
+23l1l1	éthylbenzène	S
+
+#- l'absence d'impact en HCT C5-C10 ;
+
+24l1l0	HCT_C5_C10	I
+
+#- l'absence d'impact dans les eaux souterraines en HCT C5-C10, C10-C40 et BTEX.
+
+25l0l0	les_eaux_souterraines	O
+25l1l0	BTEX	S
+
+#Une coupure d'électricité s'est produite sur la station-service le 27 novembre 2012, entrainant la mise en route du groupe électrogène situé à l'arrière boutique.
+
+26l0l0	Une_coupure_d__électricité_s__est_produite	N
+26l0l1	la_station___service	O
+26l0l2	le_27_novembre_2012__	T
+26l0l3	entrainant_la_mise_en_route	N
+26l0l4	du_groupe_électrogène	O
+
+#Une fuite a été découverte le 30 novembre 2012 dans le caniveau situé entre le groupe électrogène et le compresseur et dans le vide sanitaire du bâtiment.
+
+27l0l0	Une_fuite_a_été_découverte	N
+27l0l1	le_30_novembre_2012	T
+27l0l2	le_caniveau	O
+27l0l3	le_groupe_électrogène	O
+27l0l4	le_compresseur	O
+27l0l5	et_dans_le_vide_sanitaire_du_bâtiment	L
+
+#L'origine de cette fuite est un dysfonctionnement de la jauge du réservoir FOD du groupe électrogène qui a causé un refoulement de FOD dans le caniveau situé entre le groupe électrogène et le compresseur et qui part en direction de la boutique.
+
+28l0l0	L__origine	O
+28l0l1	la_jauge	O
+28l0l2	groupe_électrogène	O
+28l0l3	a_causé_un_refoulement	N
+28l0l4	FOD	O
+28l0l5	dans	L
+28l0l6	le_caniveau	O
+28l0l7	le_groupe_électrogène	O
+28l0l8	part_en_direction_de_la_boutique	L
+28l1l0	réservoir_FOD	I
+28l1l1	groupe_électrogène	S
+28l1l2	FOD	I
+28l1l3	groupe_électrogène	I
+
+#La quantité de fuel perdue est estimée à 900 L.
+
+29l1l0	fuel	U
+
+#Des mesures d'urgence ont alors été mises en œuvre par TOTAL RAFFINAGE MARKETING entre le 30 novembre et le 6 décembre 2012.
+
+30l0l0	Des_mesures_d__urgence	O
+30l0l1	ont_alors_été_mises_en_œuvre	N
+30l0l2	TOTAL_RAFFINAGE_MARKETING	O
+30l0l3	entre_le_30_novembre_et_le_6_décembre_2012__	T
+30l1l0	TOTAL_RAFFINAGE_MARKETING	I
+
+#Le rapport d'intervention de SERPOL du 12 décembre 2012 détaille les opérations mises en œuvre :
+
+31l0l0	SERPOL	O
+31l0l1	du_12_décembre_2012	T
+31l0l2	les_opérations_mises_en_œuvre	N
+31l1l0	SERPOL	I
+
+#- ventilation de l'air du bâtiment ;
+
+
+#- étanchéification du vide sanitaire ;
+
+33l0l0	étanchéification_du_vide_sanitaire	N
+
+#- pompage et nettoyage du caniveau et du vide sanitaire.
+
+34l0l0	pompage	O
+34l0l1	nettoyage	N
+34l0l2	caniveau	O
+
+#SERPOL est intervenu en urgence les 3 et 4 décembre 2012 pour faire l'état des lieux environnemental lié à cet incident :
+
+35l0l0	SERPOL	O
+35l0l1	est_intervenu_en_urgence	N
+35l0l2	les_3_et_4_décembre_2012	T
+35l0l3	l__état_des_lieux_environnemental	N
+35l1l0	SERPOL	I
+
+#- Les résultats d'analyses des 3 prélèvements d'air effectué dans la boutique ont mis en évidence la présence de BTEX et d'hydrocarbures C7-C12 à des teneurs inférieures aux VME.
+
+36l1l0	BTEX	S
+36l1l1	d__hydrocarbures_C7_C12	S
+
+#- Les résultats d'analyses des 3 prélèvements d'eau potable effectués dans la boutique au-dessus du sanitaire ont montré l'absence d'hydrocarbures C5-C10, C10-C40 et BTEX.
+
+37l0l0	au_dessus_du_sanitaire	L
+37l1l0	hydrocarbures_C5_C10	S
+37l1l1	C10_C40	S
+37l1l2	BTEX	S
+
+#- Les prélèvements de sol à la tarière manuelle ont montré une anomalie en hydrocarbures C10-C40 (1 110 mg/kg MS) à 40 cm de profondeur, dans les sols du regard ou débouche le caniveau.
+
+38l0l0	dans_les_sols_du_regard_ou_débouche_le_caniveau	L
+38l1l0	hydrocarbures_C10_C40	S
+
+#- Le contrôle de la qualité de la nappe dans le piézomètre existant le plus proche à l'aval de la zone de fuite (PZ3) indiquant l'absence d'anomalie (absence de flottant et d'odeurs d'hydrocarbures).
+
+39l0l0	Le_contrôle	N
+39l0l1	la_nappe	O
+39l0l2	le_piézomètre	O
+39l0l3	plus_proche_à_l__aval_de_la_zone_de_fuite	L
+39l1l0	hydrocarbures	S
+
+#Les investigations, menées par SERPOL le 18 et 19 décembre 2012, ont consisté en la réalisation de 10 sondages entre 1,5 et 4,5 m de profondeur, la mise en place de 2 piézomètres à 1,5 m dans les eaux de remblais, 1 piézomètre à 6 m dans la nappe alluviale de l'Isère et la réalisation d'une campagne de prélèvement d'air ambiant dans la boutique (4 point de prélèvement).
+
+40l0l0	Les_investigations	N
+40l0l1	SERPOL	O
+40l0l2	le_18_et_19_décembre_2012__	T
+40l0l3	la_réalisation	N
+40l0l4	1_5	O
+40l0l5	et_4_5_m_de	N
+40l0l6	la	O
+40l0l7	nappe_alluviale_de_l__Isère	L
+40l0l8	la_réalisation	N
+40l0l9	d_	R
+40l0l10	une_campagne	N
+40l1l0	SERPOL	I
+
+#La campagne de prélèvements d'eau souterraine a été réalisée le 26 décembre 2012 dans les 5 piézomètres existant ainsi que dans les 3 nouveaux.
+
+41l0l0	La_campagne_de_prélèvements	N
+41l0l1	a_été_réalisée	N
+41l0l2	le_26_décembre_2012	T
+
+#Le rapport "diagnostic des sols et des eaux souterraines", transmis à l'inspection des installations classées le 16 janvier 2013, synthétise les résultats :
+
+42l0l0	diagnostic	N
+42l0l1	l__inspection_des_installations_classées	O
+42l0l2	le_16_janvier_2013__	T
+
+#- Impact en hydrocarbures C10-C40 (type fuel) de 9 320 mg/kg MS et C5-C10 (241 mg/kg MS) dans les sols entre 0,2 et 1,5 m de profondeur au droit du sondage S4, situé à proximité immédiate du groupe électrogène et du caniveau.
+
+43l0l0	au_droit_du_sondage_S4___situé_à_proximité_immédiate_du_groupe_électrogène_et_du_caniveau	L
+43l1l0	hydrocarbures_C10_C40	S
+43l1l1	fuel	S
+43l1l2	C5_C10	S
+
+#Présence également de BTEX avec une teneur maximale de 42,1 mg/kg MS en xylènes.
+
+44l1l0	BTEX	S
+44l1l1	xylènes	S
+
+#La zone impactée est estimée à environ 90 m3.
+
+45l0l0	La_zone_impactée	O
+
+#- Présence d'hydrocarbures C10-C40 entre 0,2 et 1,5 m de profondeur à proximité du vide sanitaire (S6) avec une teneur de 247 mg/kg MS.
+
+46l0l0	1_5_m	O
+46l0l1	de_profondeur	L
+46l0l2	à_proximité_du_vide_sanitaire	L
+46l1l0	hydrocarbures_C10_C40	S
+
+#- Présence d'eaux d'accumulation de remblais de faible épaisseur et ponctuellement autour de la boutique.
+
+47l0l0	autour_de_la_boutique	L
+
+#- Présence de fuel dans les eaux de remblais (vers 1 m de profondeur) dans PZ7 (1,5 cm de flottant) situé à proximité immédiate de la zone de fuite.
+
+48l0l0	fuel	O
+48l0l1	les_eaux_de_remblais	L
+48l0l2	situé_à_proximité_immédiate_de_la_zone_de_fuite	L
+48l1l0	fuel	S
+
+#- Hydrocarbures C10-40 (57 µg/L) et xylènes (2,2 µg/L) détectés dans les eaux souterraines à de faibles concentrations.
+
+49l1l0	Hydrocarbures_C10___40	S
+49l1l1	xylènes	S
+
+#- Présence d'hydrocarbures C5-C12 et BTEX dans l'air ambiant de la boutique avec des teneurs inférieures aux VME et en légère diminution par rapport à la campagne précédente.
+
+50l1l0	hydrocarbures_C5_C12	S
+50l1l1	BTEX	S
+
+#En conclusion de son rapport, SERPOL recommande de poursuivre le suivi de la qualité des eaux souterraines et des "eaux de remblais".
+
+51l0l0	le_suivi_de_la_qualité_des_eaux_souterraines	A
+51l0l1	remblais	A
+51l1l0	SERPOL	I
+
+#Par courrier du 17 juin 2013, l'inspection des installations classées demande à TOTAL RAFFINAGE MARKETING et à ENI FRANCE la réalisation d'un plan de gestion.
+
+52l0l0	17_juin_2013__	T
+52l0l1	l__inspection_des_installations_classées	O
+52l0l2	demande	N
+52l0l3	TOTAL_RAFFINAGE_MARKETING	N
+52l0l4	et_à_ENI_FRANCE	O
+52l0l5	la_réalisation_d_	N
+52l0l6	un_plan_de_gestion	O
+52l1l0	TOTAL_RAFFINAGE_MARKETING	I
+52l1l1	ENI_FRANCE	I

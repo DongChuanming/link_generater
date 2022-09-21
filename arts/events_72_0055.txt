@@ -1,0 +1,299 @@
+
+#72.0055
+#Le site se situe sur la commune du MANS en zone d’activités industrielles.
+
+0l0l0	Le_site	O
+0l0l1	se_situe_sur_la_commune_du_MANS	L
+0l0l2	en_zone_d_	R
+0l0l3	activités_industrielles	A
+
+#La surface du site est de 35 000 m2 dont 10 300 m2 de bâtiments.
+
+1l0l0	bâtiments	O
+
+#Le site est bordé :
+
+2l0l0	Le_site	O
+
+#- au nord par un terrain vague, un restaurant et un bâtiment industriel,
+
+3l0l0	un_terrain_vague	O
+
+#- à l'est par une entreprise de transport routier puis par une gare ferroviaire pour le transport de fret,
+
+4l0l0	l__est	O
+4l0l1	une_entreprise_de_transport_routier	O
+4l0l2	une_gare_ferroviaire	O
+4l0l3	le_transport_de_fret	A
+
+#- au sud par des bâtiments et entrepôts industriels,
+
+5l0l0	sud	L
+
+#- à l'ouest par un concessionnaire poids-lourds, une station d'épuration puis la Sarthe.
+
+6l0l0	à_l__ouest	L
+6l0l1	un_concessionnaire	O
+6l0l2	une_station_d__épuration	O
+6l0l3	la_Sarthe	A
+
+#Le site est une ancienne parcelle agricole.
+
+7l0l0	Le_site	O
+
+#Entre 1950 et 1960, le site aurait été utilisé pour la construction d'un bâtiment appartenant à un complexe d'abattoir frigorifique.
+
+8l0l0	Entre_1950_et_1960	T
+8l0l1	le_site	O
+8l0l2	aurait_été_utilisé	N
+8l0l3	pour	R
+8l0l4	la_construction_d_	O
+8l0l5	un_bâtiment	O
+8l0l6	appartenant_à	R
+8l0l7	un_complexe	O
+8l0l8	abattoir_frigorifique	A
+
+#Ce bâtiment aurait été déconstruit dans les années 2000.
+
+9l0l0	Ce_bâtiment	O
+9l0l1	aurait_été_déconstruit	N
+9l0l2	dans_les_années_2000__	T
+
+#La partie ouest du site, puis l'ensemble du site, a été exploité par plusieurs sociétés à partir des années 1990 pour une activité de montage d'éléments en tôle destinés principalement à l'industrie automobile.
+
+10l0l0	La_partie_ouest_du_site	O
+10l0l1	l_	O
+10l0l2	a_été_exploité_par	N
+10l0l3	plusieurs_sociétés	O
+10l0l4	à_partir_des_années_1990	T
+10l0l5	une_activité_de_montage_d__éléments_en_tôle	A
+10l0l6	destinés_principalement_à_l__industrie_automobile	A
+
+#La société Démarais Structures a été autorisée par arrêté préfectoral du 2 août 1991 à exploiter sur le site un établissement de montage d’éléments destinés à l’industrie automobile, puis c'est au tour de la société ALTIA LE MANS autorisée à exploiter un établissement spécialisé dans la fabrication de cabines de tracteurs et de petits engins de TP en sous-traitance de grandes marques (CLAAS, MASSEY-FERGUSON..), d'occuper le site.
+
+11l0l0	La_société_Démarais_Structures	O
+11l0l1	a_été_autorisée_par	N
+11l0l2	arrêté_préfectoral	O
+11l0l3	2_août_1991	T
+11l0l4	le_site	O
+11l0l5	un_établissement_de	O
+11l0l6	montage_d__éléments_destinés_à_l__industrie_automobile	A
+11l0l7	c_	O
+11l0l8	est_au	R
+11l0l9	la_société_ALTIA_LE_MANS	O
+11l0l10	exploiter	N
+11l0l11	un_établissement_spécialisé_dans_la_fabrication_de_cabines_de_tracteurs	A
+11l0l12	et_de_petits_engins_de_TP	O
+11l0l13	sous_traitance_de	A
+11l0l14	grandes_marques	O
+11l0l15	MASSEY___FERGUSON	O
+11l0l16	le_site	O
+11l1l0	La_société_Démarais_Structures	I
+11l1l1	la_société_ALTIA_LE_MANS	I
+11l1l2	CLAAS___MASSEY___FERGUSON	I
+
+#La Société ALTIA LE MANS procédait au montage d'éléments en tôle destinés principalement à l'industrie automobile.
+
+12l0l0	La_Société_ALTIA	O
+12l0l1	LE	O
+12l0l2	MANS_procédait_au_montage_d__éléments_en_tôle	A
+12l0l3	destinés	R
+12l0l4	principalement_à_l__industrie_automobile	A
+12l1l0	La_Société_ALTIA_LE_MANS	I
+
+#Les opérations suivantes étaient exercées :
+
+
+#- dégraissage (1 cuve de 23 m3, 1 cuve de 67 m3 et 1 cuve de 59 m3), affinage (1 cuve de 40 m3) ;
+
+14l0l0	dégraissage	N
+
+#- phosphatation (1 cuve de 55 m3) ;
+
+15l0l0	phosphatation	N
+
+#- cataphorèse (1 cuve de 75 m3) ;
+
+16l1l0	cataphorèse	S
+
+#- application de peinture par pulvérisation et séchage de la peinture dans un tunnel comportant 1 cabine de peinture et 1 cabine de retouche ;
+
+17l0l0	application_de_peinture_par_pulvérisation	N
+17l0l1	séchage_de_la_peinture	A
+17l0l2	un_tunnel	O
+
+#- un sas de désolvatation et une étuve ;
+
+
+#- assemblage par vissage et finition par adjonction de pièces en plastique ou en caoutchouc.
+
+19l0l0	assemblage_par_vissage	N
+
+#La société ALTIA LE MANS a cessé son activité au 1er mars 2016 suite à une procédure de liquidation judiciaire.
+
+20l0l0	La_société_ALTIA_LE_MANS	O
+20l0l1	a_cessé_son_activité	N
+20l0l2	au_1er_mars_2016	T
+20l0l3	suite_à	R
+20l0l4	une_procédure_de_liquidation_judiciaire	N
+20l1l0	La_société_ALTIA_LE_MANS	I
+
+#Le site a été mis en sécurité.
+
+21l0l0	Le_site	O
+21l0l1	a_été_mis_en_sécurité	N
+
+#Les sources de pollution potentielles recensées sont liées aux anciennes activités pratiquées sur site et notamment :
+
+22l0l0	Les_sources_de_pollution	O
+22l0l1	activités_pratiquées	A
+
+#- une ligne de cataphorèse ;
+
+23l0l0	cataphorèse	O
+
+#- deux séparateurs à hydrocarbures ;
+
+24l1l0	hydrocarbures	S
+
+#- un local de transformateur électrique ;
+
+
+#- des fosses de rétention ;
+
+
+#- un parc de stockage pour déchets dangereux ;
+
+27l0l0	un_parc	O
+27l1l0	déchets_dangereux	U
+
+#- un bâtiment de stockage de peinture.
+
+
+#Les investigations réalisées les 20 et 21 décembre 2016 ont consisté en la réalisation de 32 sondages de sols de 1 à 4 m de profondeur (voir plan-cartographique-72.0055--1.pdf).
+
+29l0l0	Les_investigations_réalisées	N
+29l0l1	les_20_et_21_décembre_2016	T
+29l0l2	la_réalisation	N
+29l0l3	32_sondages_de_sols	N
+
+#Les investigations ont mis en évidence la présence d'anomalies en métaux identifiées au droit de plusieurs sondages situés dans la partie est du site.
+
+30l0l0	Les_investigations	N
+30l0l1	ont_mis_en_évidence	R
+30l0l2	la_présence_d__anomalies	O
+30l0l3	au_droit_de	R
+30l0l4	plusieurs_sondages	O
+30l0l5	situés_dans_la_partie_est_du_site	L
+
+#* les teneurs mesurées au droit du sondage S21 entre 0,2 et 1 m de profondeur sont :
+
+
+#- chrome (290 mg/kg) ;
+
+32l1l0	chrome	S
+
+#- nickel (150 mg/kg) ;
+
+33l1l0	nickel	S
+
+#- cuivre (2700 mg/kg) ;
+
+34l1l0	cuivre	S
+
+#- zinc (3500 mg/kg) ;
+
+35l1l0	zinc	S
+
+#- cadmium(61 mg/kg) ;
+
+36l1l0	cadmium_61	S
+
+#- mercure (1,4 mg/kg) ;
+
+37l1l0	mercure	S
+
+#- plomb (2600 mg/kg).
+
+38l1l0	plomb	S
+
+#* une forte teneur en mercure est également mesurée au droit du sondage S8 entre 1 et 2,3 m de profondeur (7,8 mg/kg) ;
+
+39l1l0	mercure	S
+
+#* la présence d'anomalies en hydrocarbures C10-C40 a été relevées dans la partie est du site et principalement au droit des sondages S3 entre 0,05 et 0,9m de profondeur (870 mg/kg), et S21 entre 0,2 et 1 m (1100 mg/kg).
+
+40l0l0	a_été_relevées	N
+40l0l1	dans_la_partie_est_du_site	L
+40l0l2	au_droit_des_sondages_S3	L
+40l1l0	hydrocarbures_C10_C40	S
+
+#Elle est à mettre en relation avec la mauvaise qualité des remblais ;
+
+41l0l0	remblais	O
+
+#* la présence de traces composés aromatiques volatils dont des BTEX (Benzene, Toluene, Ethylbenzene et Xylenes), des HAP (hydrocarbures aromatiques polycycliques) et de COHV (Composé organo-halogéné volatils), composés volatils à semi-volatils, au droit de plusieurs sondages répartis sur l'ensemble du site ;
+
+42l1l0	traces_composés	U
+42l1l1	aromatiques_volatils	S
+42l1l2	des_BTEX	S
+42l1l3	Benzene	S
+42l1l4	Toluene	S
+42l1l5	Ethylbenzene	S
+42l1l6	Xylenes	S
+42l1l7	des_HAP	S
+42l1l8	hydrocarbures_aromatiques_polycycliques	S
+42l1l9	COHV	S
+42l1l10	Composé_organo___halogéné_volatils	S
+42l1l11	composés	S
+
+#- l'absence de PCB (polychlorobiphényles) et de cyanures dans les échantillons analysés.
+
+43l1l0	PCB	S
+43l1l1	polychlorobiphényles	S
+43l1l2	cyanures	S
+
+#Les recommandations du bureau d'études sont les suivantes :
+
+44l0l0	bureau_d__études	O
+
+#- dans le cadre d'un projet d'aménagement, les couvertures (dalle béton et enrobés) situées dans la partie ouest devront être maintenues, afin d'empêcher toute lixiviation des composés vers la nappe ;
+
+45l0l0	dans_le_cadre_d_	R
+45l0l1	un_projet_d__aménagement	N
+45l0l2	situées_dans_la_partie_ouest	O
+45l0l3	devront_être_maintenues	N
+45l0l4	lixiviation	N
+45l0l5	vers_la_nappe	L
+
+#- en fonction des activités futures à proximité immédiate de l'ancien local de stockage de peinture (S8) et notamment la présence éventuelle de bureaux, la compatibilité sanitaire devra être vérifiée via la réalisation d'une Evaluation Quantitative des Risques Sanitaires (EQRS), du fait de la présence de mercure potentiellement volatil ;
+
+46l0l0	activités_futures	O
+46l0l1	à_proximité_immédiate_de	R
+46l0l2	l_	O
+46l0l3	stockage_de_peinture	A
+46l0l4	la_réalisation_d_	N
+46l1l0	stockage_de_peinture	U
+46l1l1	mercure	S
+
+#- au regard des anomalies identifiées en hydrocarbures et en métaux lourds, des caractéristiques des composés identifiés et de l'usage du site, le maintien des couvertures sur la partie est du site est recommandé, afin d'empêcher le contact des futurs travailleurs sur site avec les sols impactés.
+
+47l0l0	l__usage_du_site	A
+47l0l1	le_maintien	N
+47l0l2	des_couvertures	O
+47l0l3	sur_la_partie_est_du_site	L
+47l0l4	sols_impactés	O
+47l1l0	hydrocarbures	S
+47l1l1	métaux_lourds	S
+
+#En cas de projets d'aménagements sur les parcelles (avec ou sans changement d'usage), il conviendra de mener au préalable des investigations complémentaires pour s'assurer de la compatibilité des terrains avec l'usage envisagé.
+
+48l0l0	En_cas	R
+48l0l1	de_projets_d__aménagements	N
+48l0l2	les_parcelles	O
+48l0l3	sans_changement_d__usage	N
+48l0l4	il_conviendra	O
+48l0l5	de_mener_au_préalable	O
+48l0l6	des_investigations_complémentaires	N
+48l0l7	la_compatibilité	O
+48l0l8	des_terrains	O

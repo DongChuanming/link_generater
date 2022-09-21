@@ -1,0 +1,170 @@
+
+#83.0020
+#Ancienne usine à gaz de TOULON (83)
+
+0l0l0	Ancienne_usine	O
+0l0l1	TOULON___83__	O
+
+#Le terrain est situé au centre ville.
+
+1l0l0	Le_terrain	O
+1l0l1	est_situé_au_centre_ville	L
+
+#Il a une superficie d’environ 26000 m² et a accueilli de 1899 à 1965 une usine fabriquant du gaz à partir de la distillation de la houille.
+
+2l0l0	a_accueilli	N
+2l0l1	de_1899_à_1965	T
+2l0l2	une_usine	O
+2l0l3	fabriquant_du_gaz	A
+2l0l4	la_distillation_de_la_houille	A
+
+#Les installations de l’usine n’ont pas été démantelées.
+
+3l0l0	Les_installations	O
+3l0l1	l__usine	O
+3l0l2	n__ont_pas_été_démantelées	N
+
+#En effet de nouvelles constructions importantes ont été établies après l’arrêt de l’unité de production et les installations déjà existantes ont été réaménagées.
+
+4l0l0	de_nouvelles_constructions_importantes	O
+4l0l1	ont_été_établies	N
+4l0l2	après	R
+4l0l3	l__arrêt	N
+4l0l4	l__unité_de_production	O
+4l0l5	les_installations	O
+4l0l6	déjà_existantes	N
+4l0l7	ont_été_réaménagées	N
+
+#Actuellement, le site est occupé par EDF/GDF Services (agence).
+
+5l0l0	Actuellement	T
+5l0l1	le_site	O
+5l0l2	est_occupé	N
+5l1l0	EDF___GDF_Services	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d’anciennes usines à gaz qu’il gère, répartis sur l’ensemble du territoire.
+
+6l0l0	Gaz_de_France	O
+6l0l1	a_hiérarchisé	N
+6l0l2	ses_actions	O
+6l0l3	467_sites	O
+6l1l0	Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l’environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de la population sur le site..).
+
+7l0l0	hiérarchiser	N
+7l0l1	les_sites	O
+7l0l2	en_fonction_de	R
+
+#L’application de cette méthode a abouti à l’établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l’objet d’un protocole d’accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d’usine à gaz entre le Ministère de l’Environnement et Gaz de France signé le 25 avril 1996.
+
+8l0l0	L__application	N
+8l0l1	cette_méthode	O
+8l0l2	a_abouti_à	R
+8l0l3	l__établissement	N
+8l0l4	5_classes_de_priorité	O
+8l0l5	les_engagements	O
+8l0l6	Gaz_de_France	O
+8l0l7	ont_fait_l__objet_d_	R
+8l0l8	un_protocole_d__accord	O
+8l0l9	relatif_à	R
+8l0l10	la_maîtrise	O
+8l0l11	suivi	O
+8l0l12	la_réhabilitation	N
+8l0l13	anciens_terrains_d__usine_à_gaz	O
+8l0l14	entre	R
+8l0l15	le_Ministère_de_l__Environnement	O
+8l0l16	Gaz_de_France	O
+8l0l17	signé	N
+8l0l18	le_25_avril_1996	T
+8l1l0	Gaz_de_France	I
+8l1l1	le_Ministère_de_l__Environnement	I
+8l1l2	Gaz_de_France	I
+
+#Sur le site de l’ancienne usine à gaz de Toulon , en classe 4 du protocole, ont été réalisés un diagnostic initial suivi d’un diagnostic approfondi, en 1995 et 1996.
+
+9l0l0	l__ancienne_usine_à_gaz	O
+9l0l1	Toulon	L
+9l0l2	ont_été_réalisés	N
+9l0l3	un_diagnostic_initial	N
+9l0l4	un_diagnostic_approfondi	N
+9l0l5	en_1995_et_1996	T
+
+#L’ensemble des études a consisté à effectuer des recherches historiques et documentaires, à rechercher des ouvrages enterrés, à évaluer l’impact du site sur les ressources locales en eau (eaux souterraines et superficielles), à caractériser le sol superficiel pour évaluer les risques de contact direct et ceux liés à d’éventuelles émanations gazeuses et à caractériser le sol en profondeur.
+
+
+#Ces diagnostics, effectués par un bureau d’études à la demande de Gaz de France, ont mis en évidence la présence de deux cuves renfermant encore des résidus goudronneux liquides et pâteux, et de plusieurs zones de terres souillées par du goudron et par du solvant « naphta ».
+
+11l0l0	Ces_diagnostics	N
+11l0l1	effectués	N
+11l0l2	un_bureau_d__études	O
+11l0l3	à_la_demande_de	R
+11l0l4	Gaz_de_France	O
+11l0l5	la_présence	O
+11l0l6	deux_cuves	O
+11l0l7	renfermant	R
+11l0l8	terres_souillées	O
+11l1l0	Gaz_de_France	I
+11l1l1	deux_cuves	D
+11l1l2	des_résidus_goudronneux_liquides	U
+11l1l3	goudron	U
+11l1l4	solvant	S
+11l1l5	naphta	S
+
+#Le volume total contenu dans les deux cuves est d’environ 900m³ et environ 7000m³ de terres souillées.
+
+12l0l0	900_m³	O
+12l0l1	7000_m³_de_terres_souillées	O
+12l1l0	cuves	D
+
+#Les travaux de vidange des cuves ont été réalisés au premier semestre 2002.
+
+13l0l0	Les_travaux_de_vidange_des_cuves_ont_été_réalisés	N
+13l0l1	au_premier_semestre_2002	T
+
+#Le rapport parcellaire et le rapport de vidange de cuve ont été envoyés à la DRIRE le 14/04/2004.
+
+14l0l0	Le_rapport_parcellaire	O
+14l0l1	vidange_de_cuve_ont_été_envoyés	N
+14l0l2	la_DRIRE	O
+14l0l3	le_14_04_2004__	T
+14l1l0	cuve	D
+14l1l1	la_DRIRE	I
+
+#Un complément de diagnostic a été réalisé dans le cadre de la vente d'une partie du site d'EDF à sa filiale SOFILO.
+
+15l0l0	Un_complément_de_diagnostic	O
+15l0l1	a_été_réalisé	N
+15l0l2	dans_le_cadre_de	R
+15l0l3	la_vente_d_	N
+15l0l4	une_partie_du_site	O
+15l0l5	sa_filiale_SOFILO	O
+15l1l0	SOFILO	I
+
+#Le rapport finalisé le 22/12/2005, a conclu que le terrain était compatible avec son usage actuel d'agence EDF.
+
+16l0l0	Le_rapport	O
+16l0l1	finalisé	N
+16l0l2	le_22_12_2005	T
+16l0l3	le_terrain	O
+16l0l4	était_compatible_avec	R
+16l0l5	son_usage_actuel	O
+16l0l6	agence_EDF	O
+16l1l0	agence_EDF	I
+
+#Il n’existe pas de nappe sur le site et la surface est totalement recouverte d’enrobé.
+
+
+#Le site ne présente donc aucun risque en l’état actuel de son utilisation.
+
+
+#Il n'y a donc pas de suivi piézo.
+
+
+#Ce site ne demande plus d'actions de la part de l'administration et va basculer dans BASIAS
+
+20l0l0	Ce_site	O
+20l0l1	ne_demande_plus	N
+20l0l2	va_basculer	N
+20l0l3	dans	R
+20l0l4	BASIAS	O

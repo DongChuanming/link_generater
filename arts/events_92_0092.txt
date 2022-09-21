@@ -1,0 +1,197 @@
+
+#92.0092
+#Le site accueillait une station service soumise à déclaration au titre de la législation des installations classées.
+
+0l0l0	Le_site	O
+0l0l1	accueillait	R
+0l0l2	une_station_service_soumise	O
+0l0l3	à_déclaration	N
+
+#La cessation d'activité a été déclarée le 02/10/2009 et fut effective le 21/12/2009.
+
+1l0l0	La_cessation_d__activité	N
+1l0l1	a_été_déclarée	N
+1l0l2	le_02_10_2009	T
+1l0l3	fut_effective	N
+1l0l4	le_21_12_2009__	T
+
+#D'une superficie d'environ 550 m2, le site est entouré d'immeubles d'habitation.
+
+2l0l0	le_site	O
+2l0l1	est_entouré_d__immeubles	L
+2l0l2	habitation	A
+
+#Le site a fait l'objet d'une étude historique des activités en juillet 2009 et d'une évaluation de la qualité du sous-sol datée d'avril 2010.
+
+3l0l0	Le_site	O
+3l0l1	a_fait_l__objet_d_	R
+3l0l2	une_étude_historique	N
+3l0l3	des_activités	N
+3l0l4	en_juillet_2009	T
+3l0l5	d__une_évaluation	N
+3l0l6	la_qualité_du_sous_sol	O
+3l0l7	d__avril_2010__	T
+
+#Ainsi, des sondages de sols et la mise en place d'une surveillance de la qualité des eaux souterraines au droit du site ont permis d'obtenir un premier diagnostic du site.
+
+4l0l0	des_sondages_de_sols	N
+4l0l1	la_mise_en_place_d__une	N
+4l0l2	surveillance_de_la_qualité_des_eaux_souterraines	A
+4l0l3	au_droit_du_site	O
+4l0l4	ont_permis_d__obtenir_un_premier_diagnostic	N
+
+#Les résultats de ce diagnostic mettent en évidence :
+
+
+#- des teneurs anormales en benzène et xylène dans les gaz du sol sur certains sondages de sols,
+
+6l1l0	benzène	S
+6l1l1	xylène	S
+
+#- des teneurs anormales en hydrocarbures dans certains sondages des sols,
+
+7l0l0	hydrocarbures	O
+7l1l0	hydrocarbures	S
+
+#- des traces de métaux lourds (plomb, mercure) sur certains sondages des sols,
+
+8l1l0	métaux_lourds	S
+8l1l1	plomb	S
+8l1l2	mercure	S
+
+#- des teneurs remarquables en benzène, xylène et hydrocarbures dans les eaux souterraines au droit du site.
+
+9l0l0	au_droit_du_site	L
+9l1l0	benzène	S
+9l1l1	xylène	S
+9l1l2	hydrocarbures	S
+
+#Un arrêté préfectoral complémentaire du 22 décembre 2012 impose à l'exploitant :
+
+10l0l0	Un_arrêté_préfectoral_complémentaire	O
+10l0l1	du_22_décembre_2012	T
+10l0l2	impose	N
+10l0l3	l__exploitant	O
+
+#- la surveillance de la qualité des eaux souterraines,
+
+11l0l0	surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#- l'élaboration d'un plan de gestion proposant les travaux nécessaires pour rendre le site compatible avec un usage de type non sensible.
+
+12l0l0	l_	N
+12l0l1	élaboration_d_	R
+12l0l2	un_plan_de_gestion	O
+
+#Le rapport de suivi du démantèlement de la station service et des travaux de dépollution transmis par l'exploitant le 10 juillet 2013 ainsi que la campagne de prélèvement de gaz du sol d'octobre 2013 montrent que les terres pollués au droit des anciennes cuves d'hydrocarbures ont été excavées et les résultats d'analyses réalisées sur les prélèvements en fond de fouille confirment l'élimination de la pollution.
+
+13l0l0	Le_rapport_de_suivi	O
+13l0l1	du_démantèlement_de_la_station_service	N
+13l0l2	des_travaux_de_dépollution_transmis	N
+13l0l3	l__exploitant	O
+13l0l4	le_10_juillet_2013	T
+13l0l5	la_campagne	N
+13l0l6	de_prélèvement_de_gaz_du_sol	O
+13l0l7	d__octobre_2013	T
+13l0l8	les_terres_pollués	O
+13l0l9	anciennes_cuves_d__hydrocarbures	O
+13l0l10	ont_été_excavées	N
+13l0l11	l__élimination	N
+13l0l12	la_pollution	O
+13l1l0	cuves_d_	D
+13l1l1	hydrocarbures	S
+
+#En revanche, en front de fouille, le long de murs, pour des raisons techniques, une pollution résiduelle en hydrocarbures totaux et en BTEX (benzène, toluène, éthylbenzène, xylène) a été maintenue sur place en limite de propriété du site.
+
+14l0l0	en_front_de_fouille	L
+14l0l1	le_long_de_murs	L
+14l0l2	une_pollution_résiduelle	O
+14l0l3	a_été_maintenue_sur_place	N
+14l0l4	en_limite_de_propriété_du_site	L
+14l1l0	hydrocarbures_totaux	S
+14l1l1	BTEX	S
+14l1l2	benzène	S
+14l1l3	toluène	S
+14l1l4	éthylbenzène	S
+14l1l5	xylène	S
+
+#L'Inspection des installations classées a donc proposé à Monsieur le Préfet, dans un rapport d'avril 2014, de demander à l'exploitant de démontrer que cette pollution résiduelle ne peut être éliminée et qu'elle est compatible avec l'usage futur du site (de type d'activités) et les usages présents autour du site (immeubles d'habitation).
+
+15l0l0	L__Inspection_des_installations_classées	O
+15l0l1	Monsieur_le_Préfet	O
+15l0l2	un_rapport	N
+15l0l3	d__avril_2014__	T
+15l0l4	l__exploitant	O
+15l0l5	autour_du_site	L
+15l1l0	le_Préfet	I
+
+#En mars 2016, il a été acté l’arrêt de la surveillance des eaux souterraines, suite à l’absence d’impact constaté dans les eaux souterraines depuis juillet 2013.
+
+16l0l0	En_mars_2016__	T
+16l0l1	a_été_acté	N
+16l0l2	l__arrêt_de_la_surveillance	N
+16l0l3	eaux_souterraines	O
+16l0l4	depuis_juillet_2013__	T
+
+#L’exploitant a réalisé des opérations de dépollution par venting du 31/03/2015 au 21/08/2015.
+
+17l0l0	L__exploitant	O
+17l0l1	a_réalisé	N
+17l0l2	des_opérations_de_dépollution	N
+17l0l3	par_venting	N
+17l0l4	du_31_03_2015_au_21_08_2015__	T
+
+#Trois campagnes de mesure des gaz du sol ont été réalisées après l'arrêt du traitement, en septembre 2015, novembre 2015, et février 2016.
+
+18l0l0	Trois_campagnes_de_mesure_des_gaz_du_sol	O
+18l0l1	ont_été_réalisées_après_l__arrêt	N
+18l0l2	du_traitement	N
+18l0l3	en_septembre_2015___novembre_2015___et_février_2016__	T
+
+#Elles ont permis de constater et confirmer que la traitement a permis un abattement des teneurs en polluants de plus de 95%, les teneurs étant stabilisées nettement en deçà des objectifs de dépollution.
+
+19l0l0	dépollution	N
+19l1l0	polluants	U
+
+#Des mesures d'air ambiant ont également été réalisées dans le sous-sol d'un local voisin.
+
+20l0l0	Des_mesures_d_	A
+20l0l1	air_ambiant	O
+20l0l2	ont_également_été_réalisées	N
+20l0l3	dans	L
+20l0l4	le_sous_sol	O
+20l0l5	d__un_local_voisin	L
+
+#Lors de la dernière campagne de mesure (février 2016), il n'y avait plus de benzène détectable ( < 2 µg/m3 ).
+
+21l0l0	Lors	T
+21l0l1	de_la_dernière_campagne_de_mesure	N
+21l0l2	février_2016__	T
+21l1l0	benzène	S
+
+#L'Inspection des installations classées a proposé à Monsieur le Préfet, en juin 2016, d'acter que le site a été remis dans un état compatible avec l'usage futur du site et les usages présents autour du site (immeubles d'habitation).
+
+22l0l0	L__Inspection_des_installations_classées	O
+22l0l1	Monsieur_le_Préfet	O
+22l0l2	en_juin_2016__	T
+22l0l3	d_	N
+22l0l4	acter	R
+22l0l5	le_site	O
+22l0l6	a_été_remis_dans_un_état_compatible	N
+22l0l7	avec	R
+22l0l8	l_	A
+22l0l9	usage_futur_du_site	O
+22l0l10	autour_du_site	L
+22l1l0	le_Préfet	I
+
+#Il a également été proposé d'acter l'arrêt de la surveillance de la nappe.
+
+23l0l0	acter_l__arrêt	N
+23l0l1	la_surveillance_de_la_nappe	A
+
+#Sauf éléments nouveaux, ce site ne nécessite plus d'action de l'inspection des installations classées.
+
+24l0l0	ce_site	O
+24l0l1	ne_nécessite_plus	N
+24l0l2	action	O
+24l0l3	l__inspection_des_installations_classées	O

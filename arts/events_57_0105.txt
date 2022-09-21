@@ -1,0 +1,223 @@
+
+#57.0105
+#Bassin à boues du haut
+
+
+#Ce bassin a servi au stockage des boues de hauts fourneaux essentiellement, boues principalement contaminées par des métaux.
+
+1l0l0	Ce_bassin	O
+1l0l1	a_servi_au	R
+1l0l2	stockage	A
+1l1l0	métaux	S
+
+#Il n’est cependant pas exclu qu’ils aient reçu des boues d’aciéries, qui peuvent contenir des hydrocarbures par exemple.
+
+2l0l0	aient_reçu	N
+2l1l0	hydrocarbures	S
+
+#Aujourd'hui, ce bassins à boues est revégétalisé (de façon naturelle, sans action a priori de l'Homme).
+
+3l0l0	ce_bassins_à_boues	O
+3l0l1	est_revégétalisé	N
+
+#Ce bassin fait partie d'un complexe sidérurgique plus vaste comprenant toutes les activités d’une usine intégrée avec les mines, la cokerie, les hauts-fourneaux, les laminoirs et les activités de parachèvement (voir fiches BASOL spécifiques).
+
+4l0l0	Ce_bassin	O
+4l0l1	fait_partie_d__un	L
+4l0l2	complexe_sidérurgique	O
+4l0l3	laminoirs	A
+4l0l4	les_activités_de_parachèvement	A
+
+#L’usine était localisée sur les communes de Villerupt, Audun Le Tiche et Russange.
+
+5l0l0	L__usine	O
+5l0l1	était	R
+5l0l2	localisée_sur_les_communes_de_Villerupt___Audun_Le_Tiche	L
+5l0l3	Russange	L
+
+#L’usine de Micheville a été construite en 1872.
+
+6l0l0	L__usine	O
+6l0l1	de_Micheville	L
+6l0l2	a_été_construite	N
+6l0l3	en_1872__	T
+
+#Les différents ateliers ont été disposés sur plusieurs plates-formes en escalier séparées par des murs de soutènement.
+
+7l0l0	Les_différents_ateliers	O
+7l0l1	ont_été_disposés	N
+7l0l2	des_murs_de_soutènement	O
+
+#L’année 1974 a marqué l’arrêt de l’usine à l’exception des agglomérations.
+
+8l0l0	L_	N
+8l0l1	année_1974	T
+8l0l2	a_marqué_l__arrêt	N
+8l0l3	l__usine	O
+8l0l4	des_agglomérations	O
+
+#Certaines installations de production d’acier ont toutefois continué à fonctionner (four électrique, blooming, train de 700 et ateliers de parachèvement) avec la création de la Société des Laminoirs de Villerupt jusqu’en 1985.
+
+9l0l0	Certaines_installations_de_production_d__acier	O
+9l0l1	ont_toutefois_continué_à_fonctionner	N
+9l0l2	parachèvement	O
+9l0l3	la_création_de	R
+9l0l4	la_Société_des	O
+9l0l5	Laminoirs_de_Villerupt	L
+9l0l6	jusqu__en_1985	T
+9l1l0	la_Société_des_Laminoirs	I
+
+#En 1986, l’EPML acquiert les terrains.
+
+10l0l0	En_1986	T
+10l0l1	l__EPML	O
+10l0l2	acquiert	N
+10l0l3	les_terrains	O
+10l1l0	l__EPML	I
+
+#L’usine a cessé ses activités en 1985 et le site a été définitivement fermé en 1986.
+
+11l0l0	L__usine	O
+11l0l1	a_cessé_ses_activités	N
+11l0l2	en_1985	T
+11l0l3	le_site	O
+11l0l4	a_été_définitivement_fermé	N
+11l0l5	en_1986__	T
+
+#En 2007, quelques bâtiments industriels subsistent et sont occupés par des entreprises aux activités diverses.
+
+12l0l0	En_2007__	T
+12l0l1	quelques_bâtiments_industriels	O
+12l0l2	sont_occupés	N
+12l0l3	des_entreprises	O
+
+#En 1991, les sondages carottés réalisés jusqu’à une profondeur de 10 mètres dans l’ancien bassin à boues ont révélé en surface une charge minérale assez importante (oxydes de fer, chaux, zinc, plomb et alumine), qui diminue en profondeur, sauf pour le fer et l’alumine.
+
+13l0l0	En_1991	T
+13l0l1	les_sondages_carottés	N
+13l1l0	zinc	S
+13l1l1	plomb	S
+13l1l2	alumine	S
+13l1l3	fer	S
+
+#En 2008, le représentant de l'ancien et dernier exploitant a procédé à la caractérisation des boues en surface du bassin à boues du haut dans le but de vérifier sur ce site l’absence de substances volatiles susceptibles d’être véhiculées par la voie inhalation.
+
+14l0l0	En_2008__	T
+14l0l1	le_représentant	O
+14l0l2	l_	O
+14l0l3	exploitant	O
+14l0l4	a_procédé	N
+14l0l5	à	R
+14l0l6	la_caractérisation	N
+14l0l7	boues_du_haut	O
+14l1l0	substances_volatiles	U
+
+#Lors de ces investigations, seuls les PCB, les BTEX, les COHV, les 16 HAP et les hydrocarbures totaux ont été dosés.et la présence de métaux n’a pas été recherchée.
+
+15l0l0	ces_investigations	N
+15l0l1	ont_été_dosés_et	N
+15l1l0	les_PCB	S
+15l1l1	BTEX	S
+15l1l2	les_COHV	S
+15l1l3	les_16_HAP	S
+15l1l4	hydrocarbures_totaux	S
+15l1l5	métaux	S
+
+#Les analyses ont mis en évidence :
+
+
+#- la présence de naphtalène et d’hydrocarbures de type C10-C16
+
+17l1l0	naphtalène	S
+17l1l1	d__hydrocarbures_de_type_C10_C16	S
+
+#- l’absence de détection de BTEX, PCB,  et COHV à des concentrations notables.
+
+18l1l0	BTEX	S
+18l1l1	PCB	S
+18l1l2	et_COHV	S
+
+#L’arrêté préfectoral du 20 août 2014 prescrit notamment à la société ARCELORMITTAL France d'évaluer l’impact éventuel du bassin à boues « du Haut » sur les eaux souterraines et notamment de procéder à un test de lixiviation des déchets stockés dans le bassin « du Haut ».
+
+19l0l0	L__arrêté_préfectoral	O
+19l0l1	20_août_2014	T
+19l0l2	prescrit	N
+19l0l3	la_société_ARCELORMITTAL_France	O
+19l0l4	l__impact_éventuel	O
+19l0l5	lixiviation	N
+19l0l6	le_bassin__	O
+19l0l7	du_Haut	N
+19l1l0	la_société_ARCELORMITTAL_France	I
+
+#Pour répondre à cette precription, ARCELORMITTAL France a remis les études suivantes :
+
+20l0l0	ARCELORMITTAL_France	O
+20l0l1	a_remis	N
+20l1l0	ARCELORMITTAL_France	I
+
+#- « Etude de l’impact potentiel de l’ancien bassin à boues du Haut sur les eaux souterraines », réalisé par ANTEA en octobre 2014
+
+21l0l0	boues_du_Haut	O
+21l0l1	réalisé	N
+21l0l2	ANTEA	O
+21l0l3	en_octobre_2014	T
+21l1l0	ANTEA	I
+
+#- « Bassin à boues de Micheville - Etude complémentaire », réalisé par le bureau d'études LECES en mars 2015 et référencé RC25778
+
+22l0l0	Bassin_à_boues	O
+22l0l1	de_Micheville	L
+22l0l2	Etude_complémentaire	O
+22l0l3	réalisé_par	N
+22l0l4	le_bureau_d__études_LECES	O
+22l0l5	en_mars_2015	T
+22l0l6	référencé	N
+22l1l0	LECES	I
+
+#Les investigations complémentaires menées en 2015 ont consisté en des prélèvements de boues en cinq points répartis sur l'emprise du bassin « du Haut », jusqu'à 10 mètres de profondeur.
+
+23l0l0	Les_investigations_complémentaires	N
+23l0l1	en_2015	T
+23l0l2	cinq_points	O
+
+#Les analyses sur brut ont montré que les boues présentent des teneurs élevées en métaux (principalement en zinc et en plomb à des teneurs respectivement de l'ordre 40-50 000 mg/kg MS et de  9-10 000 mg/kg MS) ; ces fortes teneurs sont caractéristiques des boues de hauts-fourneaux.
+
+24l0l0	fortes_teneurs	O
+24l1l0	métaux	S
+24l1l1	zinc	S
+24l1l2	plomb	S
+
+#On note également des teneurs significatives en hydrocarbures totaux C10-C40 (concentration de l'ordre de 1000 mg/kg MS) ainsi que la détection de traces de HAP et de phénols.
+
+25l1l0	hydrocarbures_totaux	S
+25l1l1	C10_C40	S
+25l1l2	HAP	S
+25l1l3	phénols	S
+
+#Les cyanures totaux sont présents, à des teneurs relativement faibles, de l'ordre d'une dizaine de mg/kg MS.
+
+26l1l0	Les_cyanures_totaux	S
+
+#Les analyses effectuées sur l'éluat après test de lixiviation montrent la présence, dans des concentrations relativement faibles, de plomb et de zinc (concentration maximale respective de 48µg/l et de 170µg/l) ainsi que de cyanures totaux (concentration maximale de 25µg/l) et la présence, à l'état de traces, d'HAP(16).
+
+27l1l0	plomb	S
+27l1l1	zinc	S
+27l1l2	cyanures_totaux	S
+27l1l3	HAP_16	S
+
+#L'étude conclut au caractère peu lixiviable des boues.
+
+
+#A ce jour, les bassins n’ont pas fait l’objet d’une couverture.
+
+29l0l0	A_ce_jour	T
+29l0l1	les_bassins	O
+29l0l2	n__ont_pas_fait_l__objet_d_	R
+29l0l3	une_couverture	N
+
+#L'examen des mesures de gestion, sur la base d'un bilan coût-avantages, a été demandé à l'ancien exploitant.
+
+30l0l0	examen_des_mesures_de_gestion	O
+30l0l1	a_été_demandé	N
+30l0l2	l_	O
+30l0l3	ancien_exploitant	O

@@ -1,0 +1,151 @@
+
+#18.0001
+#Atelier industriel de transformations chimiques (fabrication de sels minéraux fins).
+
+0l0l0	Atelier_industriel_de_transformations_chimiques	O
+0l0l1	fabrication_de_sels_minéraux_fins	A
+0l1l0	sels	U
+
+#La pollution des sols est liée aux pratiques industrielles passées, ainsi qu'aux anciennes conditions de stockage de produits chimiques et de résidus, en particulier: stockage de charbons actifs, de piles, de solutions cuivriques et traitement par lagunage des effluents industriels.
+
+1l0l0	pratiques_industrielles_passées	O
+1l0l1	traitement	A
+1l0l2	par_lagunage_des_effluents_industriels	L
+1l1l0	produits_chimiques	U
+1l1l1	charbons_actifs	U
+1l1l2	piles	U
+1l1l3	solutions_cuivriques	U
+
+#A la demande de l'administration, les recherches de pollution ont débuté en 1994 par des analyses de sols.
+
+2l0l0	A_la_demande_de	R
+2l0l1	l__administration	O
+2l0l2	les_recherches_de_pollution	O
+2l0l3	ont_débuté	N
+2l0l4	en_1994	T
+2l0l5	des_analyses	N
+2l0l6	de_sols	N
+
+#Une deuxième campagne d'analyses a été réalisée en 1995.
+
+3l0l0	Une_deuxième_campagne_d__analyses	N
+3l0l1	a_été_réalisée	N
+3l0l2	en_1995	T
+
+#A chaque fois, une contamination des terrains par le cuivre et le zinc a été mise en évidence.
+
+4l0l0	une_contamination	O
+4l0l1	des_terrains	O
+4l1l0	le_cuivre	S
+4l1l1	zinc	S
+
+#Depuis 1995, un traitement en place des terres polluées est effectué sur un secteur du site.
+
+5l0l0	Depuis_1995__	T
+5l0l1	un_traitement_en	N
+5l0l2	terres_polluées	O
+5l0l3	est_effectué_sur	N
+5l0l4	un_secteur_du_site	O
+
+#A d'autres endroits, les terres ont été excavées et éliminées en centre spécialisé.
+
+6l0l0	les_terres	O
+6l0l1	ont_été_excavées	N
+6l0l2	éliminées_en_centre_spécialisé	O
+
+#En 1998, l'exploitant a procédé a un nouveau contrôle de la teneur en cuivre et en zinc des sols qui confime la présence de foyers de pollution.
+
+7l0l0	En_1998__	T
+7l0l1	l__exploitant	O
+7l0l2	a_procédé_a_un_nouveau_contrôle_de	N
+7l0l3	confime_la_présence_de_foyers_de_pollution	O
+7l1l0	cuivre	S
+7l1l1	zinc	S
+
+#Une nappe superficielle, en lien avec la nappe alluviale du Cher, s'écoule à l'aplomb du site.
+
+8l0l0	Cher	L
+8l0l1	à_l__aplomb_du_site	L
+
+#A la demande de l'administration, des contrôles ponctuels de la qualité des eaux souterraines ont été réalisés.
+
+9l0l0	A	R
+9l0l1	la_demande	N
+9l0l2	l__administration	O
+9l0l3	des_contrôles_ponctuels	N
+9l0l4	la_qualité_des_eaux_souterraines	O
+9l0l5	ont_été_réalisés	N
+
+#Ceux-ci n'ont pas fait apparaître de contamination notable.
+
+
+#L'arrêté préfectoral du 19 mars 1999, portant mise à jour de la situation administrative du site, a imposé à l'exploitant la réalisation d'un bilan global de la qualité des sols pour vérifier l'efficacité des actions menées, ainsi que le contrôle semestriel des eaux de la nappe.
+
+11l0l0	L__arrêté_préfectoral	O
+11l0l1	19_mars_1999__	T
+11l0l2	a_imposé	N
+11l0l3	l__exploitant	O
+11l0l4	la_réalisation_d_	N
+11l0l5	le_contrôle_semestriel_des_eaux_de_la_nappe	A
+
+#Un diagnostic complet du site, avec des investigations de terrain, ainsi qu'une évaluation simplifiée des risques (ESR) ont été réalisés durant le 1er semestre 2000.
+
+12l0l0	Un_diagnostic_complet_du_site	N
+12l0l1	des_investigations_de_terrain	N
+12l0l2	une_évaluation_simplifiée_des_risques	N
+12l0l3	ESR___ont_été_réalisés	N
+12l0l4	durant_le_1er_semestre_2000__	T
+
+#Il en résulte que les sols sont ponctuellement pollués par des métaux lourds et que la nappe superficielle est également contaminée à l'aplomb du site, mais ne l'est plus en aval.
+
+13l0l0	ponctuellement_pollués	O
+13l0l1	des_métaux_lourds	O
+13l0l2	aplomb_du_site	L
+13l0l3	en_aval	L
+13l1l0	des_métaux_lourds	S
+
+#Au vu des conclusions de l’étude simplifiée des risques et en l’absence actuelle d’impact sur les eaux de la nappe en aval immédiat et éloigné, l’inspection des installations classées a accepté que les terres polluées, à l’exception des lagunes soient maintenues en place.
+
+14l0l0	étude_simplifiée_des_risques	N
+14l0l1	en_aval_immédiat_et_éloigné	L
+14l0l2	l__inspection_des_installations_classées	O
+14l0l3	a_accepté	N
+14l0l4	les_terres_polluées	O
+14l0l5	lagunes	O
+14l0l6	soient_maintenues_en_place	N
+
+#Les contrôles semestriels prévus par l’arrêté de 1999 ont été conservés et étendus aux paramètres sulfates et chrome.
+
+15l0l0	Les_contrôles_semestriels	O
+15l0l1	prévus_par	R
+15l0l2	l_	O
+15l0l3	1999	T
+15l0l4	ont_été_conservés	N
+15l1l0	sulfates	S
+15l1l1	chrome	S
+
+#En outre, tous les trois ans, un contrôle de l’évolution d’autres paramètres (cobalt, plomb, nickel, mercure, arsenic) sera effectué en période de hautes eaux et en période de basses eaux.
+
+16l0l0	tous_les_trois_ans	T
+16l0l1	un_contrôle	N
+16l0l2	sera_effectué_en	R
+16l0l3	période_de_hautes_eaux	O
+16l0l4	en_période_de_basses_eaux	O
+16l1l0	cobalt	S
+16l1l1	plomb	S
+16l1l2	nickel	S
+16l1l3	mercure	S
+16l1l4	arsenic	S
+
+#Ces dispositions ont été formalisées par un arrêté préfectoral en date du 3 octobre 2002.
+
+17l0l0	ont_été_formalisées	N
+17l0l1	un_arrêté_préfectoral	O
+17l0l2	en_date_du_3_octobre_2002	T
+
+#L'évacuation des boues des lagunes a eu lieu en 2007 et 2008.
+
+18l0l0	L__évacuation	N
+18l0l1	lagunes	N
+18l0l2	a_eu_lieu	N
+18l0l3	en_2007_et_2008__	T

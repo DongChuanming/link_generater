@@ -1,0 +1,107 @@
+
+#76.0302
+#Ce site a été le lieu d'exploitation d'un établissement de stockage de ferrailles diverses en gare de Martin-Eglise.
+
+0l0l0	Ce_site	O
+0l0l1	a_été	R
+0l0l2	le_lieu_d__exploitation	O
+0l0l3	d_	R
+0l0l4	un_établissement_de_stockage_de_ferrailles_diverses	O
+0l0l5	en_gare_de_Martin___Eglise	L
+
+#Cette société a cessé son activité sur le site en 1994.
+
+1l0l0	Cette_société	O
+1l0l1	a_cessé_son_activité	N
+1l0l2	sur_le_site	A
+1l0l3	en_1994__	T
+
+#Le site a été réhabilité en zone d'habitat collectif.
+
+2l0l0	Le_site	O
+2l0l1	a_été_réhabilité	N
+2l0l2	en	R
+2l0l3	zone_d__habitat_collectif	L
+
+#Suite à la cessation d'activité sur ce site, un arrêté préfectoral complémentaire du 22 juillet 1994 a imposé la réalisation d'une étude de sols, dans la mesure ou un projet à caractère résidentiel existait sur le site.
+
+3l0l0	Suite	R
+3l0l1	à_la_cessation_d__activité	N
+3l0l2	sur	L
+3l0l3	ce_site	O
+3l0l4	un_arrêté_préfectoral_complémentaire	O
+3l0l5	du_22_juillet_1994	T
+3l0l6	a_imposé_la_réalisation_d__une_étude_de_sols	N
+3l0l7	un_projet	O
+
+#Une étude sommaire et restrictive, réalisée en novembre 2004, a consisté à analyser sur 4 échantillons de sols le plomb et les hydrocarbures totaux.
+
+4l0l0	Une_étude_sommaire	N
+4l0l1	en_novembre_2004__	T
+4l1l0	plomb	S
+4l1l1	hydrocarbures_totaux	S
+
+#Pour une telle activité, on aurait pu a minima analyser les PCB, HAP et BTEX.
+
+5l1l0	PCB	S
+5l1l1	HAP	S
+5l1l2	BTEX	S
+
+#Les résultats des investigations ont conduit à mettre en évidence trois zones affectées par la pollution en hydrocarbures (jusqu'à 6852 mg/kg) et en plomb (jusqu'à 3465 mg/kg).
+
+6l0l0	trois_zones_affectées	O
+6l0l1	par	R
+6l0l2	la_pollution	N
+6l1l0	hydrocarbures	S
+6l1l1	plomb	S
+
+#Des travaux ont ainsi été engagés par la SRM (rapport de remise en état du 14 avril 1997).
+
+7l0l0	Des_travaux_ont_ainsi_été_engagés	N
+7l0l1	la_SRM	O
+7l0l2	remise_en_état	O
+7l0l3	14_avril_1997	T
+7l1l0	la_SRM	I
+
+#Ils se sont déroulé en 2 phases:
+
+8l0l0	2_phases	O
+
+#- Évacuation des terres souillées au niveau de la zone de stockage des ferrailles et à l'emplacement de la cuve à fioul (231 tonnes) en juin 1996 et mars 1997.
+
+9l0l0	Évacuation	N
+9l0l1	des_terres_souillées	O
+9l0l2	au_niveau_de	R
+9l0l3	la_zone_de_stockage_des_ferrailles	O
+9l0l4	la_cuve_à_fioul	O
+9l0l5	en_juin_1996_et_mars_1997__	T
+9l1l0	fioul	S
+
+#- Évacuation de pollutions résiduelles au niveau de la cuve à fioul et en bordure du socle de la cisaille (80 tonnes)
+
+10l0l0	Évacuation_de_pollutions	N
+10l0l1	en_bordure_du_socle_de_la_cisaille	A
+10l1l0	fioul	U
+
+#Les analyses de fond de fouille ont permis de montrer des teneurs pour les hydrocarbures totaux et le plomb respectivement inférieur à 31 mg/kg et 55 mg/kg.
+
+11l1l0	hydrocarbures_totaux	S
+11l1l1	le_plomb	S
+
+#Les terres excavées ont été enlevées et emmenées sur le site de Rouxmesnil Bouteilles avant leur élimination définitive.
+
+12l0l0	Les_terres_excavées	N
+12l0l1	ont_été_enlevées	N
+12l0l2	emmenées	N
+12l0l3	sur	L
+12l0l4	le_site	O
+12l0l5	de_Rouxmesnil_Bouteilles	L
+12l0l6	élimination_définitive	O
+
+#Le site a été considéré à l'époque comme banalisable et a finalement été réhabilité en zone résidentielle.
+
+13l0l0	Le_site	O
+13l0l1	a_été_considéré_à_l_	N
+13l0l2	époque	T
+13l0l3	a_finalement_été_réhabilité	N
+13l0l4	en_zone_résidentielle	L

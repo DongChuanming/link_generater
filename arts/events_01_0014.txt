@@ -1,0 +1,268 @@
+
+#01.0014
+#Il s'agit d'une usine de fabrication de pièces et de visseries en acier inoxydable.
+
+0l0l0	une_usine	O
+0l0l1	de_fabrication_de_pièces_et_de_visseries_en_acier_inoxydable	A
+
+#Suite à la construction en 2007 d'une nouvelle usine ZI de l'Ousson à Belley, le site des Ecassaz a progressivement cessé son activité.
+
+1l0l0	Suite	R
+1l0l1	à_la_construction	N
+1l0l2	en_2007	T
+1l0l3	d_	L
+1l0l4	une_nouvelle_usine	O
+1l0l5	ZI_de_l_	R
+1l0l6	Ousson_à_Belley	L
+1l0l7	le_site	O
+1l0l8	Ecassaz	O
+1l0l9	a_progressivement_cessé	N
+1l0l10	son_activité	N
+
+#A ce jour seuls sont encore stockés sur place des machines en attente de vente ainsi que des lots d'acier/vis.
+
+2l0l0	A_ce_jour	T
+2l0l1	des_machines	O
+
+#L'usine disposait de trois ateliers : décapage (traitement de surface), tréfilage-étirage, visserie.
+
+3l0l0	L__usine	O
+3l0l1	disposait_de	R
+3l0l2	trois_ateliers	O
+3l0l3	décapage	A
+3l0l4	traitement_de_surface	A
+3l0l5	tréfilage	A
+3l0l6	étirage	A
+3l0l7	visserie	A
+
+#La superficie de l'entreprise est de 32 952 m² dont 20 900 m² non couverts (parkings, zones de dépotage/stockage et chemins d'accès).
+
+
+#Le site se situe sur une ancienne zone marécageuse qui a été remblayée.
+
+5l0l0	Le_site	O
+5l0l1	se_situe_sur_une	L
+5l0l2	ancienne_zone_marécageuse	O
+5l0l3	a_été_remblayée	N
+
+#En bordure de la route, existait une décharge d'ordures ménagères (a priori) sauvage dont l'exploitation aurait cessé entre 1965 et 1970.
+
+6l0l0	En_bordure_de_la_route	L
+6l0l1	une_décharge	O
+6l0l2	l_	A
+6l0l3	exploitation_aurait_cessé	N
+6l0l4	entre_1965_et_1970	T
+
+#Sur le site ont donc été exercées pendant de nombreuses années les activités de décapage des métaux  et de dégraissage (solvants chlorés).
+
+7l0l0	Sur_le_site	L
+7l0l1	ont_donc_été_exercées	N
+7l0l2	pendant_de_nombreuses_années	T
+7l0l3	les_activités_de_décapage	A
+7l0l4	des_métaux	A
+7l0l5	de_dégraissage	N
+7l1l0	__solvants_chlorés	U
+
+#Par ailleurs, le 8 mai 1992 une pollution du ruisseau "le Pontet" imputable à la Société UGIVIS a été constatée par la Brigade territoriale de Gendarmerie de Belley (pollution par hydrocarbures).
+
+8l0l0	le_8___mai___1992	T
+8l0l1	une_pollution	N
+8l0l2	du_ruisseau___le_Pontet	L
+8l0l3	__imputable	R
+8l0l4	à_la_Société_UGIVIS	O
+8l0l5	a_été_constatée	N
+8l0l6	par_la_Brigade_territoriale	O
+8l0l7	de_Gendarmerie_de_Belley	O
+8l0l8	__pollution	N
+8l1l0	imputable_à_la_Société_UGIVIS	I
+8l1l1	par_la_Brigade_territoriale_de_Gendarmerie_de_Belley	I
+8l1l2	par_hydrocarbures	S
+
+#Une étude de sols réalisée en en 2000 avait mis en exergue des zones polluées aux hydrocarbures sur le site.
+
+9l0l0	Une_étude_de_sols	N
+9l0l1	réalisée_en	N
+9l0l2	en_2000	T
+9l0l3	avait_mis_en_exergue	R
+9l0l4	des_zones_polluées	O
+9l0l5	hydrocarbures	O
+9l1l0	hydrocarbures	S
+
+#Le suivi de la qualité des eaux souterraines entre 2001 et 2008 via 3 piézomètres avait également montré une pollution modérée de la nappe aux hydrocarbures, ainsi que, ponctuellement, la présence de COHV et de HAP.
+
+10l0l0	Le_suivi_de	N
+10l0l1	la_qualité_des_eaux_souterraines	O
+10l0l2	entre_2001_et_2008	T
+10l0l3	une_pollution_modérée	N
+10l0l4	la_présence_de_COHV	O
+10l1l0	hydrocarbures	S
+10l1l1	COHV	S
+10l1l2	HAP	S
+
+#Par courrier en date du 09 février 2011, l'exploitant a transmis à l'inspection des installations classées un diagnostic de l'état des sols et des eaux souterraines dans le cadre de la procédure de cessation d'activité du site.
+
+11l0l0	en_date_du_09_février_2011__	T
+11l0l1	l__exploitant	O
+11l0l2	a_transmis	N
+11l0l3	l__inspection_des_installations_classées	O
+11l0l4	un_diagnostic	N
+11l0l5	l__état_des_sols_et_des_eaux_souterraines	O
+11l0l6	dans_le_cadre_de	R
+11l0l7	la_procédure	O
+11l0l8	cessation_d__activité	N
+
+#Il ressort des analyses réalisées sur les terres les éléments suivants :
+
+12l0l0	les_terres	O
+
+#-présence d'hydrocarbures à des concentrations importantes en plusieurs points
+
+13l1l0	hydrocarbures	S
+
+#-présence de trichloréthylène à des concentrations importantes en plusieurs points
+
+14l1l0	trichloréthylène	S
+
+#-présence de BTEX à des concentrations modérées sur plusieurs sondages
+
+15l1l0	BTEX	S
+
+#-présence de PCB à des concentrations modérées
+
+16l1l0	PCB	S
+
+#-anomalies en métaux lourds constatées sur plusieurs sondages
+
+17l1l0	métaux_lourds	S
+
+#-présence de HAP à des concentrations faibles sur quelques sondages
+
+18l1l0	HAP	S
+
+#-présence de fragments de tôles au droit de l'ancienne station d'épuration ; l'hypothèse retenue est celle d'anciens fûts de boues acides enterrés (bondérite)
+
+19l0l0	tôles	O
+19l0l1	au_droit_de_l__ancienne_station_d_	L
+19l0l2	boues_acides_enterrés	O
+19l1l0	boues_acides	U
+19l1l1	bondérite	S
+
+#La qualité des eaux souterraines a été évaluée via 4 piézomètres (3 piézomètres existants PZ1 à PZ3 et 1 piézomètre PZ4  foré à proximité de l'atelier de frappe).
+
+20l0l0	4_piézomètres	O
+20l0l1	foré_à_proximité_de_l__atelier_de_frappe	A
+
+#La nappe est rencontrée à environ -2 m.
+
+21l0l0	rencontrée_à	N
+
+#Il ressort des analyses réalisées sur les eaux souterraines (campagnes de juin et octobre 2010) les éléments suivants :
+
+22l0l0	des_analyses_réalisées	N
+22l0l1	les_eaux_souterraines	O
+22l0l2	__campagnes	N
+22l0l3	de_juin_et_octobre_2010__	T
+
+#-présence de trichloréthylène à des concentrations importantes au droit de PZ4
+
+23l1l0	trichloréthylène	S
+
+#-présence de produits de dégradation du trichloréthylène au droit de PZ3 et PZ4 (chlorure de vinyle notamment)
+
+24l1l0	trichloréthylène	S
+24l1l1	chlorure_de_vinyle_notamment	S
+
+#Les teneurs en Hydrocarbures, HAP, indice phénols sont inférieurs aux seuils de quantification du laboratoire ayant effectué les analyses.
+
+25l1l0	Hydrocarbures	S
+25l1l1	HAP	S
+25l1l2	indice_phénols	S
+
+#Compte de ces éléments, il a été imposé à l'exploitant par arrêté préfectoral complémentaire du 13 juillet 2011
+
+26l0l0	a_été_imposé	N
+26l0l1	l__exploitant	O
+26l0l2	13_juillet_2011	T
+
+#-le traitement des sources primaires de pollution identifiées
+
+27l0l0	traitement_des_sources_primaires_de_pollution_identifiées	O
+
+#-la remise d'une IEM et d'un plan de gestion du site tel qu'ils sont définis dans la circulaire ministérielle du 08 février 2007.
+
+28l0l0	_la_remise	N
+28l0l1	une_IEM	O
+28l0l2	un_plan_de_gestion_du_site	O
+28l0l3	08_février_2007__	T
+
+#-le suivi de la qualité des eaux souterraines  durant une période de 4 ans.
+
+29l0l0	_le_suivi_de_la_qualité_des_eaux_souterraines	A
+29l0l1	__durant_une_période_de_4_ans	T
+
+#A l'issue de l'instruction des documents remis par l'exploitant, un arrêté préfectoral de travaux a été pris le 30 novembre 2012, afin de fixer les objectifs de réhabilitation à respecter.
+
+30l0l0	l__exploitant	O
+30l0l1	un_arrêté_préfectoral_de_travaux	N
+30l0l2	a_été_pris	N
+30l0l3	le_30_novembre_2012__	T
+30l0l4	afin_de	R
+30l0l5	fixer	N
+30l0l6	les_objectifs_de_réhabilitation	O
+
+#Cet arrêté prévoit plusieurs tranches de travaux ainsi que les échéances de réalisation associées.
+
+31l0l0	Cet_arrêté	O
+31l0l1	prévoit	R
+31l0l2	plusieurs_tranches_de_travaux	O
+
+#Au 1er juillet 2018, la situation est la suivante :
+
+32l0l0	Au_1er_juillet_2018__	T
+
+#-Les sources primaires de pollution ont été traitées
+
+33l0l0	_Les_sources_primaires_de_pollution	O
+33l0l1	ont_été_traitées	N
+
+#-Les travaux de traitement des zones polluées aux solvants chlorés sont terminés.
+
+34l0l0	_Les_travaux_de_traitement	N
+34l0l1	zones_polluées	O
+34l0l2	terminés	N
+34l1l0	chlorés	U
+
+#Des mesures d'air ambiant seront menées dans le bâtiment concerné pour vérifier que les teneurs résiduelles en trichloréthylène n'induisent pas un dégazage susceptible de conduire à des risques sanitaires inacceptables pour les futurs usagers du site
+
+35l0l0	Des_mesures	N
+35l1l0	trichloréthylène	S
+
+#-Les travaux de traitement de la zone des anciennes cuves d'huile, polluées aux hydrocarbures, sont terminés
+
+36l0l0	_Les_travaux_de_traitement	N
+36l0l1	la_zone	O
+36l0l2	terminés	N
+36l1l0	huile	S
+36l1l1	hydrocarbures	S
+
+#-Les dalles bétons polluées aux hydrocarbures (huiles) ont été fraisées
+
+37l0l0	_Les_dalles_bétons_polluées	O
+37l0l1	hydrocarbures	O
+37l0l2	ont_été_fraisées	N
+37l1l0	hydrocarbures	S
+
+#Le suivi des eaux souterraines, étendu à de nouveaux ouvrages depuis 2017 (puits de pompage ayant permis le rabattement de la nappe pendant les trauvaux de dépollution), a mis en évidence des concentrations importantes en solvants chlorés à l'aval immédiat de l'une des zones dépolluées.
+
+38l0l0	Le	N
+38l0l1	suivi_des_eaux_souterraines	A
+38l0l2	étendu_à	R
+38l0l3	de_nouveaux_ouvrages	O
+38l0l4	depuis_2017	T
+38l0l5	ayant_permis_le_rabattement_de_la_nappe	N
+38l0l6	pendant	T
+38l0l7	les_trauvaux	N
+38l0l8	de_dépollution	N
+38l0l9	à_l__aval_immédiat_de_l__une	L
+38l0l10	des_zones_dépolluées	O
+38l1l0	solvants_chlorés	S

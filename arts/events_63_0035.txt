@@ -1,0 +1,151 @@
+
+#63.0035
+#Le site de 3,4 ha est situé à l'entrée et au Sud-Ouest de Gerzat, dans une zone initialement vouée aux activités industrielles ou artisanales.
+
+0l0l0	Le_site	O
+0l0l1	situé_à_l__entrée_et_au_Sud_Ouest_de_Gerzat	L
+0l0l2	dans_une_zone_initialement_vouée	L
+0l0l3	aux_activités_industrielles_ou_artisanales	A
+
+#Il est bordé au Nord par une zone pavillonnaire, à l'Est par la route de Clermont-Ferrand et quelques petites entreprises, au Sud par une entreprise de ferronnerie et un dépôt pétrolier.
+
+1l0l0	bordé_au_Nord_par_une_zone_pavillonnaire	L
+1l0l1	l__Est_par_la_route_de_Clermont___Ferrand	L
+1l0l2	Sud	O
+1l0l3	une_entreprise_de_ferronnerie	O
+1l0l4	un_dépôt_pétrolier	O
+1l1l0	dépôt_pétrolier	D
+
+#A l'Ouest se situe la gare de triage, un embranchement SNCF reliait le dépôt de gaz BP.
+
+2l0l0	Ouest_se_situe	L
+2l0l1	la_gare_de_triage	O
+2l0l2	un_embranchement_SNCF	O
+2l0l3	reliait_le_dépôt_de_gaz_BP	A
+2l1l0	BP	I
+
+#Le dépot de gaz BP a été exploité de 1964 à 2004.
+
+3l0l0	Le_dépot_de_gaz_BP	O
+3l0l1	a_été_exploité	N
+3l0l2	de_1964_à_2004__	T
+
+#Une activité de remplissage de bouteilles de gaz a été exercée jusqu'en 1995.
+
+4l0l0	Une_activité_de_remplissage_de_bouteilles_de_gaz	O
+4l0l1	a_été_exercée	N
+4l0l2	jusqu__en_1995	T
+
+#Trois sphères (une de 300m3 et deux de 1000m3)ont été utilisées.
+
+5l0l0	Trois_sphères	O
+5l0l1	1000m3_ont	O
+5l0l2	été_utilisées	N
+
+#La proximité des zones d'habitations, la densité de population environnante ont sonné le glas de ce dépôt classé SEVESO.
+
+6l0l0	La_proximité_des_zones_d__habitations	O
+6l0l1	population_environnante	O
+6l0l2	ont_sonné_le_glas	N
+6l0l3	ce_dépôt_classé_SEVESO	O
+6l1l0	SEVESO	I
+
+#La société BP a procédé, au titre de sa cessation d'activité à une étude des sols en 2004.
+
+7l0l0	La_société_BP	O
+7l0l1	a_procédé	N
+7l0l2	au_titre_de	R
+7l0l3	sa_cessation_d__activité	N
+7l0l4	à	R
+7l0l5	une_étude_des_sols	N
+7l0l6	en_2004__	T
+7l1l0	La_société_BP	I
+
+#Les résultats de cette étude ont mis en évidence la présence de trois zones polluées aux hydrocarbures, dont deux par des stockages enterrés de fuel et par des canalisations enterrées défectueuses, entre 1 et 4 mètres de profondeur.
+
+8l0l0	trois_zones_polluées	O
+8l0l1	des_canalisations_enterrées	O
+8l1l0	hydrocarbures	S
+8l1l1	fuel	S
+
+#Les sols sont, sur l'ensemble du site, chargés en métaux(arsenic, aluminium, nickel et plomb)provenant de remblais dont l'origine n'est pas connue.
+
+9l0l0	métaux_arsenic	O
+9l0l1	remblais	N
+9l1l0	métaux_arsenic	S
+9l1l1	aluminium	S
+9l1l2	nickel	S
+9l1l3	plomb_provenant	S
+
+#Une nappe active dont le toit est à 3m circule sous le site, elle n'est pas à usage sensible.
+
+10l0l0	sous_le_site	L
+
+#Une rivière la Tiretaine, affluent de l'Allier coule à 100m du site.
+
+11l0l0	Une_rivière	O
+11l0l1	à_100_m_du_site	L
+
+#Les analyses réalisées à partir de 4 piézomètres implantés sur le site indiquent un impact significatif des hydrocarbures sur la qualité des eaux.
+
+12l0l0	Les_analyses	N
+12l0l1	la_qualité_des_eaux	O
+12l1l0	hydrocarbures	S
+
+#Après le démantèlement des infrastructures et des bâtiments, des travaux de dépollution conséquents ont été engagés.
+
+13l0l0	Après	R
+13l0l1	le_démantèlement_des_infrastructures	N
+13l0l2	des_bâtiments	O
+13l0l3	des_travaux_de_dépollution_conséquents	N
+13l0l4	ont_été_engagés	N
+
+#Les deux cuves enterrées d'hydrocarbures ont été évacuées ainsi que les canalisations en ciment-amiante.
+
+14l0l0	Les_deux_cuves_enterrées_d__hydrocarbures	O
+14l0l1	ont_été_évacuées	N
+14l0l2	ainsi_que_les_canalisations	O
+14l1l0	cuves_enterrées_d_	D
+14l1l1	hydrocarbures	S
+
+#Les terres souillées aux hydrocarbures ont été excavées et éliminées en filière agréé.
+
+15l0l0	Les_terres	O
+15l0l1	hydrocarbures	O
+15l0l2	ont_été_excavées	N
+15l0l3	éliminées_en_filière_agréé	O
+15l1l0	hydrocarbures	S
+
+#Compte tenu de la présence de remblais chargés en métaux et d'une pollution résiduelle aux hydrocarbures, un arrêté de servitudes d'utilité publique a été signé le 19 juillet 2007.
+
+16l0l0	remblais	N
+16l0l1	un_arrêté_de_servitudes_d__utilité_publique	O
+16l0l2	a_été_signé	N
+16l0l3	le_19_juillet_2007__	T
+16l1l0	hydrocarbures	S
+
+#Un arrêté du 18 octobre 2007 a prescrit une surveillance de la qualité des eaux de la nappe.
+
+17l0l0	Un_arrêté_du	O
+17l0l1	18_octobre_2007	T
+17l0l2	a_prescrit	N
+17l0l3	une_surveillance_de_la_qualité_des_eaux_de_la_nappe	A
+
+#Les résultats des analyses indiquent un impact faible des anciennes activités sur la qualité des eaux souterraines.
+
+
+#Depuis 2008, les résultats obtenus pour les hydrocarbures sont inférieurs aux seuils de quantification pour l'ensemble des ouvrages.
+
+19l0l0	Depuis_2008__	T
+19l0l1	hydrocarbures	O
+19l1l0	hydrocarbures	S
+
+#Sur demande de BP FRANCE, un arrêté de suspension du suivi de la qualité des eaux souterraines portant le n°13/01149 a été signé le 3 juin 2013.
+
+20l0l0	Sur_demande	N
+20l0l1	BP_FRANCE	O
+20l0l2	un_arrêté_de_suspension_du	O
+20l0l3	suivi_de_la_qualité_des_eaux_souterraines	A
+20l0l4	a_été_signé	N
+20l0l5	le_3_juin_2013__	T
+20l1l0	BP_FRANCE	I

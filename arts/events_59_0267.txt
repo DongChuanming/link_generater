@@ -1,0 +1,69 @@
+
+#59.0267
+#- Activité: transit, regroupement et prétraitement de déchets industriels.
+
+0l0l0	transit	O
+0l0l1	regroupement	N
+0l0l2	prétraitement_de_déchets_industriels	N
+0l1l0	déchets_industriels	U
+
+#- Sa vocation est la valorisation énergétique (fabrication de combustibles de substitution).
+
+1l0l0	fabrication_de_combustibles_de_substitution	A
+1l1l0	combustibles_de_substitution	U
+
+#Les matières premières sont des déchets liquides ou solides en provenance principalement de la construction automobile, de l'industrie chimique, la pétrochimie...
+
+2l0l0	la_construction_automobile	A
+2l0l1	la_pétrochimie	A
+2l1l0	des_déchets_liquides	U
+
+#- Site en activité visé par la circulaire du 3 avril 1996 qui impose une étude des sols sur les sites en activité.
+
+3l0l0	Site_en_activité	O
+3l0l1	visé_par	R
+3l0l2	la_circulaire	O
+3l0l3	3_avril_1996	T
+3l0l4	impose_une_étude_des_sols	N
+3l0l5	les_sites_en_activité	O
+
+#- Réalisation d'une étude de sol phase A et d'une évaluation simplifiée des risques en décembre 1999, le site est en classe 3 (banalisable) pour les eaux souterraines et le sol et en classe 2 (à surveiller) pour les eaux de surface.
+
+4l0l0	Réalisation_d__une_étude_de_sol	N
+4l0l1	d__une_évaluation_simplifiée_des_risques	N
+4l0l2	en_décembre_1999__	T
+4l0l3	le_site	O
+
+#- Arrêté préfectoral du 13/02/2006 imposant des prescriptions complémentaires pour la poursuite d'exploitation du site, notamment la mise en place d'un réseau piézométrique pour surveiller la qualité des nappes d'eau souterraines.
+
+5l0l0	Arrêté_préfectoral	O
+5l0l1	13_02_2006	T
+5l0l2	imposant	N
+5l0l3	des_prescriptions_complémentaires	O
+5l0l4	la_poursuite_d__exploitation	N
+5l0l5	la_mise_en_place_d_	N
+5l0l6	un_réseau_piézométrique	O
+5l0l7	surveiller_la_qualité_des_nappes_d__eau_souterraines	A
+
+#- Surveillance piézométrique mise en place sur un puit en amont et deux piézomètres en aval, détection de traces de métaux liés à la nature du sol.
+
+6l0l0	piézométrique	O
+6l0l1	mise_en_place	N
+
+#- Les eaux souterraines sont utilisées dans le secteur à des fins AEP (eau potable).
+
+7l0l0	Les_eaux_souterraines	O
+7l0l1	sont_utilisées	N
+7l0l2	des_fins_AEP	O
+
+#Néanmoins, le captage AEP le plus proche se trouve à environ 3km du site, ce qui limite le risque pour les populations utilisatrices.
+
+8l0l0	le_captage_AEP_le_plus_proche	O
+8l0l1	se_trouve_à_environ_3_km_du_site	L
+
+#- Site en sécurité vis à vis des tiers.
+
+
+#- Action de l'administration toujours en cours.
+
+10l0l0	l__administration	O

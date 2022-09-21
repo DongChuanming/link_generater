@@ -1,0 +1,236 @@
+
+#27.0040
+#Le site a une existence de plus de soixante ans.
+
+0l0l0	Le_site	O
+0l0l1	soixante_ans	O
+
+#L'origine des activités industrielles (essentiellement la cuivrerie) se situe en effet entre les deux guerres.
+
+1l0l0	activités_industrielles	A
+1l0l1	cuivrerie	A
+1l0l2	se_situe_en	L
+1l0l3	entre_les_deux_guerres__	T
+
+#La société Fonderie de Vernon utilise quant à elle officiellement le site depuis le 31 juillet 1992, date de l'arrêté préfectoral d'autorisation.
+
+2l0l0	La_société_Fonderie	O
+2l0l1	Vernon	L
+2l0l2	utilise_quant_à_elle_officiellement	N
+2l0l3	le_site	O
+2l0l4	depuis_le_31_juillet_1992	T
+2l1l0	La_société_Fonderie_de_Vernon	I
+
+#La cessation d'activité est intervenue le 29 décembre 1999, à la suite d'un placement en liquidation judiciaire.
+
+3l0l0	La_cessation_d__activité	N
+3l0l1	est_intervenue	N
+3l0l2	le_29_décembre_1999__	T
+3l0l3	à_la_suite_d_	R
+3l0l4	un_placement_en_liquidation_judiciaire	N
+
+#Le site est implantée en bordure de la Seine.
+
+4l0l0	Le_site	O
+4l0l1	est_implantée	R
+4l0l2	en_bordure_de_la_Seine	L
+
+#Il s'agit acutellement d'une friche industrielle.
+
+5l0l0	une_friche_industrielle	O
+
+#A ce jour, il n'y a pas de projet de réutilisation du site clairement défini.
+
+6l0l0	A_ce_jour	T
+
+#Le liquidateur a fait procéder à l'enlèvement d'un certain volume de déchets et à l'élaboration d'un diagnostic sur l'état du site par la société ANTEA avec une Evaluation Simplifiée des Risques (ESR) en 2002 et une étude des sols.
+
+7l0l0	Le_liquidateur	O
+7l0l1	a_fait_procéder	N
+7l0l2	à	L
+7l0l3	l__enlèvement	N
+7l0l4	l__élaboration_d__un_diagnostic	N
+7l0l5	l__état_du_site	N
+7l0l6	la_société_ANTEA	O
+7l0l7	avec	R
+7l0l8	une_Evaluation_Simplifiée_des_Risques	N
+7l0l9	en_2002	T
+7l0l10	une_étude_des_sols	N
+7l1l0	la_société_ANTEA	I
+
+#Dans le cadre de cette étude des prélèvements et analyses de sols ont été réalisés et trois piézomètres installés pour contrôler la qualité de la nappe d'eau souterraine.
+
+8l0l0	Dans_le_cadre_de	R
+8l0l1	cette_étude_des_prélèvements_et_analyses_de_sols	N
+8l0l2	ont_été_réalisés	N
+8l0l3	trois_piézomètres	O
+8l0l4	contrôler_la_qualité_de	A
+8l0l5	la_nappe_d__eau_souterraine	O
+
+#Elles mettent en évidence la présence d'hydrocarbures, de composés organo-halogénés et de métaux dans les sols (arsenic et cuivre).
+
+9l0l0	les_sols	O
+9l0l1	arsenic	O
+9l1l0	hydrocarbures	S
+9l1l1	composés_organo___halogénés	S
+9l1l2	métaux	S
+9l1l3	arsenic	S
+9l1l4	cuivre	S
+
+#Pour ce qui concerne les eaux souterraines, aucune valeur supérieure aux seuils d'usage non sensible n'a été détectée.
+
+
+#A la suite de ces constats, la mise en place de restrictions d'usage est demandée par arrêté préfectoral du 09 mars 2005.
+
+11l0l0	ces_constats	N
+11l0l1	la_mise_en_place_de	N
+11l0l2	restrictions_d__usage	O
+11l0l3	est_demandée	R
+11l0l4	par_arrêté_préfectoral	O
+11l0l5	09_mars_2005__	T
+
+#La nature de ces servitudes est annexée à l'arrêté préfectoral et interdisent  l’utilisation du terrain pour des usages sensibles (cultures de plantes, fruits, habitation, crèches, écoles, aires de loisirs).
+
+12l0l0	La_nature	O
+12l0l1	interdisent___l__utilisation	N
+12l0l2	du_terrain	O
+12l0l3	pour_des_usages_sensibles	O
+
+#Dans le cas d’une utilisation non sensible (industrielle, artisanale ou tertiaire) une réhabilitation des parcelles concernées est demandée, les objectifs étant fixés selon l’usage futur du site en fonction du projet qui sera défini.
+
+13l0l0	cas_d_	R
+13l0l1	une_utilisation	O
+13l0l2	une_réhabilitation	N
+13l0l3	parcelles_concernées	O
+13l0l4	les_objectifs	O
+
+#L'arrêté préfectoral impose au liquidateur judiciaire d’assurer une surveillance de la qualité des eaux souterraines par 3 piézomètres pendant au moins 3 ans et portant sur les teneurs en arsenic, plomb, hydrocarbures totaux et aromatiques volatils et composés organo-halogénés.
+
+14l0l0	L__arrêté_préfectoral	O
+14l0l1	impose	N
+14l0l2	une_surveillance_de_la_qualité_des_eaux_souterraines	A
+14l0l3	3_piézomètres	O
+14l0l4	pendant_au_moins_3_ans	T
+14l1l0	arsenic	S
+14l1l1	plomb	S
+14l1l2	hydrocarbures_totaux	S
+14l1l3	aromatiques_volatils	S
+14l1l4	composés	S
+
+#La situation financière de la société Fonderie de Vernon ne permet pas au liquidateur judiciaire de satisfaire aux prescriptions de l'arrêté susvisé.
+
+15l0l0	La_situation_financière	N
+15l0l1	la_société_Fonderie	O
+15l0l2	de_Vernon	O
+15l1l0	la_société_Fonderie	I
+15l1l1	de_Vernon	I
+
+#L'exploitant étant défaillant, l'intervention de l'ADEME est sollicitée et des arrêtés de travaux d'office et d'occupation temporaire des lieux sont pris les 11 décembre 2007 (clôture) et 14 mars 2008 (élimination des déchets) afin de permettre son intervention.
+
+16l0l0	L__exploitant	O
+16l0l1	l__ADEME	O
+16l0l2	des_arrêtés_de_travaux_d_	N
+16l0l3	d__occupation_temporaire_des_lieux_sont_pris	N
+16l0l4	les_11_décembre_2007	T
+16l0l5	clôture__	O
+16l0l6	et_14_mars_2008	T
+
+#L'ADEME procède ainsi à la mise en sécurité du site en évacuant les déchets et en posant une clôture.
+
+17l0l0	L__ADEME	O
+17l0l1	la_mise_en_sécurité	N
+17l0l2	évacuant	N
+17l0l3	en_posant_une_clôture	N
+17l1l0	les_déchets	U
+
+#La vente des terrains de la fonderie à la société FONCAR (activité de commerce de gros de bois et de matériaux de construction) s'effectue en septembre 2008.
+
+18l0l0	La_vente_des_terrains	N
+18l0l1	la_fonderie	O
+18l0l2	la_société_FONCAR	O
+18l0l3	activité_de_commerce_de_gros_de_bois_et_de_matériaux_de_construction	A
+18l0l4	s__effectue	N
+18l0l5	en_septembre_2008__	T
+18l1l0	la_société_FONCAR	I
+
+#La mise en sécurité du site est poursuivie par cette société qui démolit alors l'ensemble des bâtiments industriels, ces derniers présentant notamment des risques d'effondrement.
+
+19l0l0	La_mise_en_sécurité	N
+19l0l1	du_site	O
+19l0l2	est_poursuivie	N
+19l0l3	cette_société	O
+19l0l4	démolit_alors	N
+19l0l5	l__ensemble_des_bâtiments_industriels	O
+
+#Un projet de reconversion du site pour un usage commercial fait l'objet d'une demande de Certificat d'Urbanisme (CU) en janvier 2010.
+
+20l0l0	Un_projet_de_reconversion_du_site	O
+20l0l1	un_usage	N
+20l0l2	commercial	A
+20l0l3	fait_l__objet_d_	R
+20l0l4	une_demande_de_Certificat_d__Urbanisme	N
+20l0l5	en_janvier_2010__	T
+
+#Cette demande reçoit toutefois un avis défavorable de la part de l'inspection des installations classées au vu des dispositions de l'arrêté préfectoral du 9 mars 2005 qui interdit les établissements recevant du public.
+
+21l0l0	Cette_demande	O
+21l0l1	l__inspection_des_installations_classées	O
+21l0l2	l__arrêté_préfectoral	O
+21l0l3	9_mars_2005	T
+21l0l4	interdit	N
+21l0l5	les_établissements_recevant_du_public	A
+
+#Le dernier propriétaire connu est la société FONCAR.
+
+22l0l0	Le_dernier_propriétaire	O
+22l0l1	la	N
+22l0l2	société_FONCAR	O
+22l1l0	la_société_FONCAR	I
+
+#Toutefois le site intéresse la commune de VERNON compte tenu de sa position stratégique (le site est situé en bordure de Seine et en entrée de ville).
+
+23l0l0	le_site_intéresse	O
+23l0l1	la_commune_de_VERNON	L
+23l0l2	le_site	O
+23l0l3	est_situé_en_bordure_de_Seine_et_en_entrée_de_ville	L
+
+#Toutefois, il subsisterait un désaccord sur le prix des terrains (la société FONCAR en demanderait 1,67 M€ HT alors que la ville les estime à 465 000 €).
+
+24l0l0	des_terrains	O
+24l0l1	la_société_FONCAR	O
+24l0l2	M__HT	O
+24l0l3	la_ville	O
+24l1l0	la_société_FONCAR	I
+24l1l1	la_ville	I
+
+#La connaissance de ce site reste à ce jour sommaire.
+
+25l0l0	La_connaissance	O
+25l0l1	ce_site	O
+
+#L'inspection des installations classées insiste d'ailleurs, dans son rapport rédigé à l'issue de sa visite d'inspection effectuée le 6 octobre 2008, sur la nécessité de procéder à des investigations complémentaires préalablement à tout nouvel usage du site.
+
+26l0l0	L__inspection_des_installations_classées	O
+26l0l1	l__issue_de_sa_visite	N
+26l0l2	le_6_octobre_2008__	T
+26l0l3	la_nécessité	O
+26l0l4	de_procéder_à_des_investigations_complémentaires	N
+26l0l5	préalablement_à	R
+26l0l6	tout_nouvel	N
+26l0l7	usage_du_site	A
+
+#L'EPFN aurait été mandaté par la commune afin de préparer un projet de reconversion des terrains de la Fonderie mais aussi de ceux de l'ancienne papeterie (pour un total de 5 ha).
+
+27l0l0	L__EPFN	O
+27l0l1	aurait_été_mandaté	N
+27l0l2	par	R
+27l0l3	la_commune	O
+27l0l4	afin	R
+27l0l5	de	N
+27l0l6	préparer	R
+27l0l7	un_projet_de_reconversion	N
+27l0l8	des_terrains_de_la_Fonderie	O
+27l1l0	L__EPFN	I
+
+#Des études seraient prévues dans ce cadre.
+

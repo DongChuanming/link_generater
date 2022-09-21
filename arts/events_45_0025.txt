@@ -1,0 +1,663 @@
+
+#45.0025
+#La société ALIZOL était spécialisée dans la formulation, la fabrication et le conditionnement de produits chimiques (lessives, nettoyants ménagers), de produits techniques (peintures, lubrifiants), de produits phytosanitaires et cosmétiques.
+
+0l0l0	La_société_ALIZOL	O
+0l0l1	était_spécialisée_dans	R
+0l0l2	la_formulation___la_fabrication_et_le_conditionnement_de_produits_chimiques	A
+0l0l3	peintures	A
+0l1l0	La_société_ALIZOL	I
+0l1l1	produits_chimiques	U
+
+#Le site était notamment composé de plusieurs cuves de stockage de produits liquides, de deux lagunes contenant des eaux industrielles polluées, d'une lagune de stockage d'eaux pluviales, d'un bassin "Petit Bois" destiné au stockage d'eaux pluviales et à la récupération des eaux d'incendie.
+
+1l0l0	Le_site	O
+1l0l1	deux_lagunes	O
+1l0l2	contenant	R
+1l0l3	des_eaux_industrielles_polluées	A
+1l0l4	une_lagune	O
+1l0l5	récupération_des_eaux_d__incendie	A
+1l1l0	cuves_de_stockage	D
+1l1l1	de_produits_liquides	U
+1l1l2	des_eaux_industrielles_polluées	U
+1l1l3	des_eaux_d__incendie	U
+
+#Le contexte géologique est constitué de formations sablo-argileuses à galets de silex d'âge oligo-miocène reposant sur la craie à silex seno-turnonienne.
+
+2l0l0	Le_contexte_géologique	O
+
+#Le niveau statique de la nappe de craie se situe vers 150 mètres NGF.
+
+3l0l0	se_situe_vers_150_mètres_NGF	L
+
+#A proximité du site, il est à noter la présence d'un étang, l'Etang de la Maladrerie, du canal de Briare et de la rivière La Trézée.
+
+4l0l0	A_proximité_du_site	L
+4l0l1	un_étang	O
+4l0l2	l__Etang	R
+4l0l3	canal_de_Briare	L
+4l0l4	la_rivière_La_Trézée	L
+4l1l0	la_Maladrerie	I
+
+#Deux captages d'alimentation en eau potable sont situés dans un rayon de deux kilomètres autour du site.
+
+5l0l0	Deux_captages	O
+5l0l1	eau_potable	O
+5l0l2	sont_situés_dans_un_rayon_de_deux_kilomètres_autour_du_site	L
+
+#Le site n'est plus exploité depuis le 11 juillet 2003.
+
+6l0l0	Le_site	O
+6l0l1	n__est_plus_exploité	N
+6l0l2	depuis_le_11_juillet_2003__	T
+
+#L'évaluation simplifiée des risques réalisée en juin 2003 avait conduit à classer le site en classe 2 (site à surveiller).
+
+7l0l0	évaluation_simplifiée_des_risques	N
+7l0l1	en_juin_2003	T
+7l0l2	avait_conduit_à	R
+7l0l3	classer	N
+7l0l4	le_site	O
+7l0l5	en	R
+7l0l6	classe_2	O
+
+#Les conclusions de cette étude avaient montré la présence:
+
+
+#* dans les sols, d'une zone polluée par des métaux sur une superficie d'environ 2000 m2 et sur une profondeur d'environ 1 m;
+
+9l0l0	une_zone_polluée	O
+9l1l0	des_métaux	S
+
+#* dans les eaux souterraines :
+
+
+#- d'Hydrocarbures Totaux (HCT) en amont du site et au niveau de l'exutoire de l'Étang de la Maladrerie à des concentrations dépassant la valeur seuil de l'arrêté ministériel du 11/01/2007 relatif à la qualité des eaux de consommation;
+
+11l0l0	en_amont_du_site	L
+11l0l1	et	R
+11l0l2	au_niveau_de_l__exutoire_de_l_	L
+11l0l3	Étang_de_la_Maladrerie	L
+11l0l4	11_01_2007	T
+11l1l0	d__Hydrocarbures_Totaux	S
+11l1l1	HCT	S
+
+#- d'aluminium et de manganèse à des teneurs supérieurs aux seuils de l'arrêté précité;
+
+12l0l0	des_teneurs_supérieurs	O
+12l1l0	aluminium	S
+12l1l1	manganèse	S
+
+#- d'azote total, de bore, de chrome, de cuivre, de baryum, de nickel, d'orthophosphates et de zinc.
+
+13l1l0	d__azote_total	S
+13l1l1	bore	S
+13l1l2	chrome	S
+13l1l3	cuivre	S
+13l1l4	baryum	S
+13l1l5	nickel	S
+13l1l6	d__orthophosphates	S
+13l1l7	zinc	S
+
+#La mise en sécurité du site a été imposée au liquidateur judiciaire par arrêté préfectoral complémentaire du 17/09/03.
+
+14l0l0	La_mise_en_sécurité	N
+14l0l1	du_site	O
+14l0l2	a_été_imposée	N
+14l0l3	par_arrêté_préfectoral_complémentaire	O
+14l0l4	17_09_03__	T
+
+#e liquidateur a été mis en demeure par arrêté préfectoral du 26/03/04 de prendre d'urgence les dispositions utiles afin d'assurer la sécurité du site : pompage des effluents contenus dans toutes les lagunes du site y compris le bassin "Petit Bois", élimination de tous les produits susvisés sous quinze jours.
+
+15l0l0	e_liquidateur_a_été_mis_en_demeure	N
+15l0l1	par_arrêté_préfectoral	O
+15l0l2	26_03_04	T
+15l0l3	pompage	N
+15l0l4	effluents	O
+15l0l5	élimination	N
+15l1l0	effluents	S
+15l1l1	les_produits	U
+
+#Le liquidateur a aussi été mis en demeure par arrêté préfectoral du 02/04/04 de procéder à la réhabilitation d'une zone polluée par des métaux et à la surveillance semestrielle de la qualité des eaux de la nappe au droit du site à l'aide de trois piézomètres existants sous un mois.
+
+16l0l0	Le_liquidateur	O
+16l0l1	a_aussi_été_mis_en	N
+16l0l2	arrêté_préfectoral	O
+16l0l3	du_02_04_04	T
+16l0l4	la_réhabilitation_d_	N
+16l0l5	une_zone_polluée_par_des_métaux	O
+16l0l6	la_surveillance_semestrielle	A
+16l0l7	la_qualité_des_eaux_de_la_nappe	O
+16l0l8	au_droit_du_site	L
+
+#L'arrêté préfectoral du 28/05/04 a engagé une procédure de consignation à l'encontre du liquidateur pour un montant de 184 680 € visant à la mise en sécurité du site (mesures d'urgence).
+
+17l0l0	L__arrêté_préfectoral	O
+17l0l1	28_05_04	T
+17l0l2	a_engagé_une_procédure	N
+17l0l3	680__	O
+17l0l4	visant_à	R
+17l0l5	la_mise_en_sécurité	N
+
+#Le 20/07/04, le trésorier payeur général a précisé qu'aucun recouvrement n'était constaté.
+
+18l0l0	Le_20_07_04	T
+18l0l1	le_trésorier_payeur_général	O
+18l0l2	a_précisé	N
+
+#Par rapport du 22/09/04, l'ensemble des procédures réglementaires ayant été menées à leur terme, il est proposé à M.le préfet du LOIRET de solliciter l'autorisation du ministère de l'écologie et du développement durable de mettre en œuvre la procédure de travaux à réaliser par l'ADEME (Agence de l'Environnement et de la Maîtrise de l'Énergie).
+
+19l0l0	22_09_04	T
+19l0l1	l__ensemble_des_procédures_réglementaires	O
+19l0l2	ayant_été_menées	N
+19l0l3	M_le_préfet_du_LOIRET	O
+19l0l4	autorisation_du_ministère_de_l__écologie	O
+19l0l5	du_développement_durable	O
+19l0l6	de_mettre_en_œuvre	N
+19l0l7	la_procédure	O
+19l0l8	de_travaux	N
+19l0l9	l__ADEME	O
+19l0l10	Agence_de_l__Environnement_et_de_la_Maîtrise_de_l__Énergie	O
+19l1l0	M_le_préfet_du_LOIRET	I
+
+#Dans un premier temps, il y a lieu de prendre les mesures d'urgence afin d'assurer la sécurité du site et d'éviter une pollution du milieu naturel.
+
+20l0l0	d__urgence	O
+20l0l1	une_pollution_du_milieu_naturel	N
+
+#Deux arrêtés préfectoraux en date du 25/08/05 ont été pris :
+
+21l0l0	Deux_arrêtés_préfectoraux	O
+21l0l1	en_date_du_25_08_05	T
+21l0l2	ont_été_pris	N
+
+#- l'un relatif à l'occupation temporaire du site ALIZOL au profit de l'ADEME et de ses sous-traitants,
+
+22l0l0	l__occupation_temporaire	N
+22l0l1	site	N
+22l0l2	ALIZOL	O
+22l0l3	au_profit_de	R
+22l0l4	l__ADEME	O
+22l0l5	ses_sous_traitants	O
+22l1l0	ALIZOL	I
+22l1l1	l__ADEME	I
+
+#- l'autre chargeant l'ADEME de travaux d'office (vidange des lagunes et bacs de rétention, curage des réseaux, élimination des déchets…).
+
+23l0l0	chargeant	N
+23l0l1	l__ADEME	O
+23l0l2	vidange_des_lagunes	N
+23l0l3	curage_des_réseaux	N
+23l0l4	élimination_des_déchets	N
+
+#S'agissant d'un site complexe sur lequel sont présentes des quantités importantes de boues et d'effluent à traiter, l'ADEME a produit une note technique relative aux éventuelles conditions de rejet dans le milieu naturel des effluents provenant des traitements à mettre en place dans le cadre de l'élimination des déchets présents sur le site.
+
+24l0l0	l__ADEME	O
+24l0l1	a_produit	N
+24l0l2	une_note_technique	O
+24l0l3	relative	R
+24l0l4	aux_éventuelles_conditions	O
+24l0l5	le_cadre_de	R
+24l0l6	l__élimination	N
+24l1l0	effluent	U
+24l1l1	effluents	S
+
+#A l'occasion d'une visite de surveillance effectuée le 06/06/07, il a été constaté que le site avait connu des dégradations importantes associés à des actes de vandalisme.
+
+25l0l0	A_l__occasion_d_	R
+25l0l1	une_visite_de_surveillance	N
+25l0l2	effectuée	N
+25l0l3	le_06_06_07	T
+25l0l4	le_site	O
+25l0l5	avait_connu	N
+25l0l6	des_dégradations	N
+25l0l7	des_actes_de_vandalisme	N
+
+#Ainsi les déchets jusqu'alors stockés en emballages dans des bâtiments clos, étaient désormais répandus aux sols exposés aux eaux météoriques (les toitures des bâtiments ont été dégradées).
+
+26l0l0	emballages	O
+26l0l1	dans_des_bâtiments_clos	L
+26l0l2	exposés_aux_eaux_météoriques	L
+26l0l3	les_toitures	O
+26l0l4	des_bâtiments	O
+26l0l5	ont_été_dégradées	N
+26l1l0	les_déchets	U
+
+#Il a été proposé à M.le Préfet du Loiret, de demander aux forces de l'ordre de mettre en place une surveillance adaptée de ce site, dans l'attente de sa mise en sécurité.
+
+27l0l0	M_le_Préfet_du_Loiret	O
+27l0l1	mettre_en_place_une_surveillance_adaptée	N
+27l0l2	ce_site	O
+27l0l3	attente	T
+27l0l4	de_sa_mise_en_sécurité	N
+27l1l0	M_le_Préfet_du_Loiret	I
+
+#Par courrier du 12/06/07 le ministère a donné son accord pour la mise en œuvre de cette procédure qui permettra à l'ADEME d'engager un financement complémentaire aux 390k€ déjà prévus dans le cadre de l'arrêté du 25/08/2005 précité.
+
+28l0l0	du_12_06_07	T
+28l0l1	le_ministère	O
+28l0l2	a_donné_son_accord	N
+28l0l3	la_mise_en_œuvre_de	N
+28l0l4	cette_procédure	O
+28l0l5	un_financement	O
+28l0l6	390k_	O
+28l0l7	l_	O
+28l0l8	25_08_2005	T
+
+#Le 19/06/07, étaient publiés 2 arrêtés d'occupation des sols et de travaux, l'arrêté de travaux prévoyant :
+
+29l0l0	Le_19_06_07	T
+29l0l1	publiés	N
+29l0l2	2_arrêtés_d__occupation_des_sols_et	O
+29l0l3	de_travaux	N
+
+#- la collecte, le conditionnement et l'élimination hors site, des produits et déchets présents dans les bâtiments dénommés "stockage des produits chimiques" et "atelier peinture" ainsi que ceux disséminés à l'extérieur des bâtiments (hors contenu des lagunes, bassin petit bois et réseaux d'eaux pluviales) susceptibles d'entraîner une pollution des eaux;
+
+30l0l0	la_collecte	N
+30l0l1	l__élimination_hors_site	N
+30l0l2	stockage_des_produits	N
+30l1l0	produits_chimiques__	U
+
+#- l'élimination des résidus présents sur le sol de la zone dénommée "zone de stockage de déchet spécifiques";
+
+31l0l0	l__élimination	N
+
+#- l'élimination hors site, du contenu des cuvettes de rétention remplies d'eaux chargées en polluants situées à l'extérieur des bâtiments, ainsi que le contenu de la cuve située dans le bâtiment dénommé "local peinture" à proximité de la cuve de DITHANE;
+
+32l0l0	l__élimination_hors_site	N
+32l0l1	à_l__extérieur_des_bâtiments	L
+32l0l2	ainsi_que_le_contenu	O
+32l0l3	la_cuve	O
+32l0l4	située_dans_le_bâtiment	L
+32l0l5	à_proximité_de_la_cuve_de	L
+32l0l6	DITHANE	O
+32l1l0	polluants	U
+32l1l1	DITHANE	S
+
+#- l'élimination hors site, des résidus d'incinération de l'ancienne installation d'évapo-concentration située à l'extérieur des bâtiments.
+
+33l0l0	l__élimination_hors_site	N
+33l0l1	incinération	N
+33l0l2	l__ancienne_installation	O
+33l0l3	concentration	A
+33l0l4	située_à_l__extérieur_des_bâtiments	L
+33l1l0	des_résidus	U
+
+#Le 9 juillet 2007, le site a été vendu par adjudication amiable à la société « Les Entrepôts du Centre », qui envisage l'exploitation d'un silo de stockage de céréales dans l'un des bâtiments  de l'ancien site ALIZOL (récépissé de déclaration délivré le 15/06/2010.
+
+34l0l0	Le_9_juillet_2007__	T
+34l0l1	le_site	O
+34l0l2	a_été_vendu_par_adjudication_amiable	N
+34l0l3	la_société	O
+34l0l4	Entrepôts_du_Centre	O
+34l0l5	envisage_l__exploitation	A
+34l0l6	d__un_silo_de_stockage_de_céréales	O
+34l0l7	dans_l__un_des_bâtiments	O
+34l0l8	site_ALIZOL___récépissé	O
+34l0l9	de_déclaration	N
+34l0l10	délivré	N
+34l0l11	le_15_06_2010__	T
+34l1l0	la_société_____Les_Entrepôts	I
+34l1l1	site_ALIZOL	I
+
+#D'après l'exploitant ces activités n'ont jamais été exploitées à ce jour.
+
+35l0l0	l__exploitant	O
+35l0l1	ces_activités	O
+35l0l2	n__ont_jamais_été_exploitées	N
+35l0l3	à_ce_jour	T
+
+#Ainsi, la déclaration cesse de produire effet puisque l’installation n’a pas été mise en service dans le délai de trois ans).
+
+36l0l0	la_déclaration	O
+36l0l1	cesse_de_produire_effet	N
+36l0l2	l__installation	O
+36l0l3	n__a_pas_été_mise_en_service	N
+36l0l4	dans_le_délai_de_trois_ans____	T
+
+#Un rapport de l'ADEME daté de septembre 2007, montre la présence d'Hydrocarbures Aromatiques Polycycliques (HAP) dans les effluents du « Petit Bois » et de métaux dans les boues de ce bassin.
+
+37l0l0	l__ADEME	O
+37l0l1	daté_de_septembre_2007__	T
+37l0l2	de_métaux	O
+37l1l0	Hydrocarbures_Aromatiques_Polycycliques	S
+37l1l1	HAP	S
+37l1l2	effluents	S
+
+#Ces effluents et ces boues, facilement mobilisables, risquent de déborder et de se déverser dans la rigole du Canal de Briare entrainant de nouvelles mortalités de poissons (de fortes précipitations avec déversement dans le milieu naturel ont entrainé une mortalité de poissons au cours des mois de mai et juin 2007).
+
+38l0l0	déborder	N
+38l0l1	se_déverser	N
+38l0l2	dans_la_rigole_du_Canal_de_Briare	L
+38l0l3	entrainant	R
+38l0l4	de_fortes_précipitations	N
+38l0l5	cours_des_mois_de_mai_et_juin_2007__	T
+38l1l0	effluents	S
+38l1l1	ces_boues	U
+
+#Le 03/08/07, une visite Inspection des Installations Classées - ADEME a été réalisée visant à constater la réalisation des travaux prévus par l'arrêté du 19/06/2007.
+
+39l0l0	Le_03_08_07	T
+39l0l1	__une_visite_Inspection_des_Installations	N
+39l0l2	Classées	O
+39l0l3	ADEME	O
+39l0l4	a_été_réalisée	N
+39l0l5	visant	R
+39l0l6	à_constater_la_réalisation_des_travaux	N
+39l0l7	19_06_2007	T
+
+#Le 08/08/07, une visite ADEME a montré qu'il y avait encore des risques dus à la pollution du réseau d'eau pluviales.
+
+40l0l0	Le_08_08_07	T
+40l0l1	une_visite	N
+40l0l2	ADEME	O
+40l0l3	risques_dus_à	R
+40l0l4	la_pollution	N
+
+#Le 14/08/07, le Ministère de l'Environnement autorisait le préfet à prendre un arrêté complémentaire pour le curage des réseaux de collecte.
+
+41l0l0	Le_14_08_07	T
+41l0l1	le_Ministère_de_l__Environnement	O
+41l0l2	autorisait_le_préfet	O
+41l0l3	prendre	N
+41l0l4	un_arrêté_complémentaire	O
+41l0l5	le_curage	N
+41l1l0	le_Ministère_de_l__Environnement	I
+41l1l1	le_préfet	I
+
+#Le 21/08/07, était publié un arrêté complémentaire à l'arrêté du 19/06/2007, arrêté préfectoral de travaux prévoyant le curage et le nettoyage des réseaux de collecte du site.
+
+42l0l0	Le_21_08_07	T
+42l0l1	un_arrêté_complémentaire	O
+42l0l2	19_06_2007	T
+42l0l3	arrêté_préfectoral_de_travaux	N
+42l0l4	prévoyant	R
+42l0l5	le_curage	N
+42l0l6	le_nettoyage	N
+42l0l7	des_réseaux_de_collecte	O
+42l0l8	du_site	O
+
+#Le 28/08/07, une visite DRIRE - ADEME a été réalisée visant à constater la réalisation des travaux prévus par l'arrêté d'urgence.
+
+43l0l0	Le_28_08_07	T
+43l0l1	__une_visite	N
+43l0l2	DRIRE	O
+43l0l3	ADEME	O
+43l0l4	a_été_réalisée	N
+43l0l5	visant_à_constater	R
+43l0l6	la_réalisation_des_travaux	N
+43l1l0	DRIRE	I
+
+#Le 09/11/07, une visite DRIRE-ADEME a été réalisée visant à constater la réalisation des travaux prévus par l'arrêté préfectoral complémentaire du 21 août 2007.
+
+44l0l0	Le_09_11_07	T
+44l0l1	__une_visite	N
+44l0l2	DRIRE___ADEME	O
+44l0l3	a_été_réalisée	N
+44l0l4	la_réalisation_des_travaux	N
+44l0l5	l__arrêté_préfectoral	O
+44l0l6	21_août_2007__	T
+44l1l0	DRIRE___ADEME	I
+
+#650 m³ d’eaux pluviales ont été pompés dans les réseaux, traités par charbon actif et rejetés dans la rigole du Canal de Briare.
+
+45l0l0	650_m³_d_	O
+45l0l1	ont_été_pompés	N
+45l0l2	charbon_actif	O
+45l0l3	rejetés_dans_la_rigole_du_Canal_de_Briare	L
+45l1l0	charbon_actif	U
+
+#Environ 50 m³ d’eaux industrielles ont été pompés dans les réseaux et envoyés en destruction à la SARP. 120 tonnes de boues récupérées dans les réseaux ont aussi été envoyées à la SARP.
+
+46l0l0	Environ_50_m³_d__eaux_industrielles	O
+46l0l1	ont_été_pompés	N
+46l0l2	les_réseaux	O
+46l0l3	envoyés_en_destruction	N
+46l0l4	la_SARP	O
+46l0l5	les_réseaux	O
+46l0l6	ont_aussi_été_envoyées	N
+46l0l7	la_SARP	O
+46l1l0	eaux_industrielles	U
+46l1l1	la_SARP	I
+46l1l2	la_SARP	I
+
+#Il reste environ 50 m³ d’eaux industrielles dans les réseaux et le contenu total des lagunes qui n’ont pas pu être traités lors de ces travaux.
+
+47l0l0	lagunes	O
+47l0l1	ces_travaux	N
+
+#Une saisine complémentaire du Ministère de l'Environnement a été effectuée le 27/11/2007.
+
+48l0l0	Une_saisine	N
+48l0l1	complémentaire	O
+48l0l2	Ministère_de_l__Environnement	O
+48l0l3	a_été_effectuée	N
+48l0l4	le_27_11_2007__	T
+48l1l0	du_Ministère_de_l__Environnement	I
+
+#Par courrier du 16/01/08, l’ADEME a précisé à monsieur le préfet du Loiret que la Commission Nationale des Aides Sites et Sols Pollués, dans sa séance du 19 décembre 2007, a délibéré favorablement (578.000 € TTC).
+
+49l0l0	16_01_08	T
+49l0l1	l__ADEME	O
+49l0l2	a_précisé	N
+49l0l3	monsieur_le_préfet_du_Loiret	O
+49l0l4	la_Commission_Nationale_des_Aides_Sites	O
+49l0l5	Sols_Pollués	O
+49l0l6	du_19_décembre_2007__	T
+49l0l7	a_délibéré	N
+49l0l8	578_000__	O
+49l1l0	l__ADEME	I
+49l1l1	le_préfet_du_Loiret	I
+49l1l2	la_Commission_Nationale	I
+
+#Un rapport et un projet d’arrêté préfectoral complémentaire en ce sens ont été proposé au préfet le 28/01/08.
+
+50l0l0	Un_rapport	O
+50l0l1	un_projet	O
+50l0l2	d__arrêté_préfectoral_complémentaire	O
+50l0l3	ont_été_proposé_au_préfet	N
+50l0l4	le_28_01_08__	T
+50l1l0	préfet	I
+
+#Les arrêtés portant occupation des sols et de travaux d’office ont été signé le 7 février 2008 (vidange des lagunes et du « Petit Bois »,
+
+51l0l0	Les_arrêtés_portant_occupation_des_sols	O
+51l0l1	de_travaux_d__office_ont_été_signé	N
+51l0l2	le_7_février_2008	T
+51l0l3	vidange	N
+51l0l4	lagunes	N
+
+#la vidange des eaux industrielles encore présentes dans le réseau eaux industrielles, le nettoyage du réseau eaux industrielles).
+
+52l0l0	la_vidange	N
+52l0l1	des_eaux_industrielles	O
+52l0l2	eaux_industrielles	O
+52l0l3	le_nettoyage	N
+52l0l4	réseau_eaux_industrielles____	O
+52l1l0	eaux_industrielles	U
+
+#Les travaux menés entre août et décembre 2008 font état de :
+
+53l0l0	Les_travaux_menés	N
+53l0l1	entre_août_et_décembre_2008	T
+
+#- 1215 m3 d'effluents liquides traités;
+
+54l1l0	effluents_liquides	U
+
+#- 1929,24 T de boues liquides et 1700 T de boues déshydratées provenant du « Petit Bois » évacuées;
+
+55l0l0	1929_24	T
+55l0l1	1700_T	O
+55l0l2	____évacuées	O
+55l1l0	boues_liquides	U
+55l1l1	boues	U
+
+#- 165,36 T de boues liquides évacuées suite à la vidange des 4 cuves verticales;
+
+56l0l0	165_36_T_de_boues_liquides_évacuées	O
+56l0l1	suite_à	R
+56l0l2	la_vidange	N
+56l0l3	4	O
+56l0l4	cuves_verticales	N
+56l1l0	boues_liquides	U
+
+#- l'utilisation d'environ 40 m3 d'eaux pour le curage et le nettoyage du réseau d'eaux industrielles.
+
+57l0l0	le_curage	N
+57l0l1	le_nettoyage	N
+57l0l2	du_réseau_d__eaux_industrielles	A
+
+#Les coûts de ces travaux sont estimés à 1 118 110,88 € TTC.
+
+
+#La totalité des boues n'a pu être extraite lors de ces opérations (avec la présence de 1000 m3 d'effluents liquides et de 500 T de boues à déshydrater).
+
+59l0l0	ces_opérations	N
+59l1l0	effluents_liquides	U
+
+#Les coûts estimés sont de 780 000 €.
+
+60l0l0	___	O
+
+#L'arrêté préfectoral daté du 25/06/2010, complémentaire à l'arrêté préfectoral du 07/02/2008, et portant occupation temporaire des sols, prescrit alors:
+
+61l0l0	L__arrêté_préfectoral	O
+61l0l1	daté_du_25_06_2010	T
+61l0l2	l__arrêté_préfectoral	O
+61l0l3	07_02_2008	T
+61l0l4	portant_occupation_temporaire	N
+61l0l5	des_sols	N
+
+#- l'évacuation des boues déshydratées stockées sur le site;
+
+62l0l0	l__évacuation	N
+62l0l1	boues_déshydratées	O
+
+#- le pompage des effluents liquides contenus dans le « Petit Bois » en vue de leur évacuation à l'extérieur du site.
+
+63l0l0	le_pompage	N
+63l0l1	effluents_liquides	O
+63l0l2	____en_vue	R
+63l0l3	de_leur_évacuation	A
+63l0l4	à_l__extérieur_du_site	L
+63l1l0	effluents_liquides	U
+
+#Le rapport de l'Inspection des Installations Classées faisant état de l'avancement des travaux d'office, et daté du 23/02/2011, précise  que les travaux prescrits par l'arrêté préfectoral du 25/06/2010 avaient été réalisés par l'ADEME.
+
+64l0l0	l__Inspection_des_Installations_Classées	O
+64l0l1	l__avancement_des_travaux_d__office	N
+64l0l2	daté_du_23_02_2011	T
+64l0l3	que_les_travaux_prescrits	N
+64l0l4	par_l__arrêté_préfectoral	O
+64l0l5	du_25_06_2010	T
+64l0l6	avaient_été_réalisés_par	N
+64l0l7	l__ADEME	O
+
+#En conclusion de son compte-rendu, l'ADEME mentionne :
+
+
+#- que les opérations de mise en sécurité du site sont terminées;
+
+66l0l0	les_opérations_de_mise_en_sécurité	N
+66l0l1	du_site	O
+66l0l2	sont_terminées	N
+
+#- que le site ne présente plus de risque de pollution accidentelle;
+
+
+#- que les lagunes ont été vidangées et nettoyées;
+
+68l0l0	les_lagunes	O
+68l0l1	ont_été_vidangées	N
+68l0l2	nettoyées	N
+
+#- que les bâtiments ont été vidés de leur contenu mais aucune remise en état du site n'a eu lieu;
+
+69l0l0	les_bâtiments	O
+69l0l1	ont_été_vidés	N
+69l0l2	aucune_remise_en_état	N
+69l0l3	a_eu_lieu	N
+
+#- qu'étant donné l'historique de l'exploitation de ce site, il semble nécessaire de vérifier la compatibilité des milieux avec les usages envisagés;
+
+70l0l0	ce_site	O
+70l0l1	les_usages_envisagés	O
+
+#- qu'étant donné les nombreux déversements accidentels ayant eu lieu sur le site, et que le sol aux abords des lagunes ait pu recevoir des effluents industriels, il est recommandé de réaliser une étude hydrogéologique et une caractérisation de la qualité de la nappe en amont et en aval du site.
+
+71l0l0	déversements_accidentels	N
+71l0l1	ayant_eu_lieu	N
+71l0l2	aux_abords_des_lagunes	L
+71l0l3	ait_pu_recevoir	N
+71l0l4	des	O
+71l0l5	effluents_industriels	L
+71l0l6	une_étude_hydrogéologique	N
+71l0l7	la_qualité_de_la_nappe	O
+71l0l8	en_amont_et_en_aval_du_site	L
+71l1l0	effluents_industriels	U
+
+#Au-cours de ces traitements, près de 3897 tonnes de déchets ont été évacués, dont 643 m3 d'effluents liquides, 1086 T de boues liquides et 2168 T de boues déshydratées.
+
+72l0l0	ces_traitements	N
+72l0l1	3897_tonnes_de_déchets	O
+72l0l2	ont_été_évacués	N
+72l1l0	effluents_liquides	U
+
+#Un arrêté préfectoral daté du 03/08/2010, impose à la société « Les Entrepôts du Centre »  les prescriptions suivantes:
+
+73l0l0	Un_arrêté_préfectoral	O
+73l0l1	daté_du_03_08_2010	T
+73l0l2	impose	N
+73l0l3	la_société	O
+73l1l0	la_société	I
+
+#- la réalisation d'une étude justifiant de l'absence de risque alimentaire pour le stockage des céréales;
+
+74l0l0	le_stockage_des_céréales	A
+
+#- un schéma conceptuel;
+
+
+#- un plan de gestion de la pollution;
+
+
+#- la mise en œuvre de servitudes dans l'hypothèse où la conclusion de l'analyse des risques résiduels implique une limitation de l'usage des sols;
+
+77l0l0	la_mise_en_œuvre	N
+
+#- la surveillance de la qualité des eaux souterraines au droit du site.
+
+78l0l0	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+78l0l1	au_droit_du_site	L
+
+#Lors d'une visite du site le 08/12/2010, il avait été constaté que des effluents liquides étaient encore présents dans le bassin « Petit Bois ». 3 prélèvements pour analyses ont été effectués en février 2011.
+
+79l0l0	d__une_visite	N
+79l0l1	site	O
+79l0l2	le_08_12_2010	T
+79l0l3	des_effluents_liquides	O
+79l0l4	dans_le_bassin___Petit_Bois	L
+79l0l5	analyses	O
+79l0l6	ont_été_effectués	N
+79l0l7	en_février_2011__	T
+79l1l0	des_effluents_liquides	U
+
+#Les résultats de ces analyses, comparés aux résultats d'analyses avant curage du « Petit Bois », montrent que les effluents restants sont de bonne qualité.
+
+80l0l0	curage	N
+80l0l1	du___Petit_Bois	L
+80l0l2	effluents	O
+80l1l0	les_effluents	U
+
+#Ils présentent une faible teneur en métaux, une absence de HAP et une teneur très faible en détergents.
+
+81l0l0	détergents	N
+81l1l0	métaux	S
+81l1l1	HAP	S
+81l1l2	détergents	U
+
+#La surveillance des eaux souterraines n'a pas été mise en œuvre et aucune investigation n'a été menée.
+
+82l0l0	La_surveillance_des_eaux_souterraines	A
+82l0l1	n__a_pas_été_mise_en_œuvre	N

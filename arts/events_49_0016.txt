@@ -1,0 +1,163 @@
+
+#49.0016
+#Usine de fabrication de matériels militaires (postes émetteurs récepteurs) exploitée depuis 1936.
+
+0l0l0	Usine_de_fabrication_de_matériels_militaires	O
+0l0l1	exploitée	N
+0l0l2	depuis_1936__	T
+
+#Le site est également occupés par les installations de l'usine CIREA (fabrication de circuits imprimés) et de l'usine MECAFI (traitement de surface, peinture et tolerie), propriétés de SELATH et précédemment exploitées par THOMSON CSF devenue THALES COMMUNICATIONS.
+
+1l0l0	Le_site	O
+1l0l1	les_installations	O
+1l0l2	l__usine_CIREA	O
+1l0l3	fabrication_de_circuits_imprimés	A
+1l0l4	l__usine_MECAFI	O
+1l0l5	traitement_de_surface	A
+1l0l6	peinture_et_tolerie	A
+1l0l7	SELATH	O
+1l0l8	exploitées	N
+1l0l9	THOMSON_CSF	O
+1l0l10	THALES_COMMUNICATIONS	O
+1l1l0	CIREA	I
+1l1l1	MECAFI	I
+1l1l2	SELATH	I
+1l1l3	THOMSON_CSF_devenue_THALES_COMMUNICATIONS	I
+
+#Site totalement clos, en zone industrielle, à proximité d'habitations.
+
+2l0l0	Site	O
+2l0l1	en_zone_industrielle	L
+2l0l2	à_proximité_d__habitations	L
+
+#L'exploitant a réalisé un diagnostic pour l'ensemble du site CIREA et MECAFI.
+
+3l0l0	L__exploitant	O
+3l0l1	a_réalisé	N
+3l0l2	un_diagnostic	N
+3l0l3	l_	O
+3l0l4	ensemble_du_site_CIREA	O
+3l0l5	MECAFI	O
+3l1l0	CIREA	I
+3l1l1	MECAFI	I
+
+#Les polluants potentiels sont les métaux et les solvants.
+
+4l1l0	métaux	S
+
+#Le diagnostic réalisé en 1998 a mis en évidence une pollution des eaux souterraines par le trichloréthylène et ses composés de dégradation (chlorure de vinyle) avec deux sources distinctes dont une chez MECAFI.
+
+5l0l0	Le_diagnostic	N
+5l0l1	réalisé	N
+5l0l2	en_1998	T
+5l0l3	a_mis_en_évidence	R
+5l0l4	une_pollution_des_eaux_souterraines	N
+5l0l5	deux_sources_distinctes	O
+5l0l6	MECAFI	O
+5l1l0	le_trichloréthylène	S
+5l1l1	ses_composés_de_dégradation	U
+5l1l2	chlorure_de_vinyle	S
+5l1l3	MECAFI	I
+
+#Une évaluation simplifiée des risques (ESR), réalisée en aout 2001, a conduit à considérer le site MECAFI en classe 2 (à surveiller) et le site exploité par THALES COMMUNICATION en classe 1 (investigations complémentaires et travaux éventuels).
+
+6l0l0	Une_évaluation_simplifiée_des_risques	N
+6l0l1	réalisée	N
+6l0l2	en_aout_2001__	T
+6l0l3	a_conduit_à_considérer	N
+6l0l4	le_site_MECAFI	O
+6l0l5	classe_2	O
+6l0l6	le_site	O
+6l0l7	exploité	N
+6l0l8	THALES_COMMUNICATION	O
+6l1l0	le_site_MECAFI	I
+6l1l1	THALES_COMMUNICATION	I
+
+#L'arrêté préfectoral du 16/07/2002, sur proposition de la l'inspection des installations classées, a imposé à THALES COMMUNICATIONS la réalisation d'un diagnostic approfondi et une évaluation détaillée des risques, avec propositions de traitement d'ici le 16/08/2002, ainsi que la mise en place d'une surveillance de la nappe phréatique.
+
+7l0l0	L__arrêté_préfectoral	O
+7l0l1	16_07_2002	T
+7l0l2	l__inspection_des_installations_classées	O
+7l0l3	a_imposé	N
+7l0l4	THALES_COMMUNICATIONS	O
+7l0l5	la_réalisation_d__un_diagnostic_approfondi	N
+7l0l6	une_évaluation_détaillée_des_risques	N
+7l0l7	d_	R
+7l0l8	ici_le_16_08_2002	T
+7l0l9	la_mise_en_place_d__une_surveillance	N
+7l0l10	la_nappe_phréatique	O
+7l1l0	THALES_COMMUNICATIONS	I
+
+#Selon l'EDR (étude détaillée des risques), complétée le 25 juillet 2003, le site ne présenterait pas de risques pour la santé des populations riveraines.
+
+8l0l0	complétée	N
+8l0l1	le_25_juillet_2003__	T
+8l0l2	le_site	O
+8l0l3	populations_riveraines	O
+
+#Un traitement de la pollution, par extraction double phase de la nappe et des gaz des sols, a démarré en janvier 2005.
+
+9l0l0	Un_traitement_de_la_pollution	N
+9l0l1	extraction	N
+9l0l2	a_démarré	N
+9l0l3	en_janvier_2005__	T
+
+#L'objectif était l'atténuation significative des concentrations de polluants.
+
+10l0l0	l__atténuation_significative	O
+10l1l0	polluants	U
+
+#Cette extraction est effectuée par une pompe à vide, dans le sous-sol du bâtiment C, sur un réseau de 4 lignes de 5 puits chacune.
+
+11l0l0	une_pompe_à_vide	O
+
+#L'eau et les gaz sont épurés par filtration sur charbon actif avant analyse et rejet.
+
+12l0l0	charbon_actif	O
+12l1l0	charbon_actif	U
+
+#Ce traitement n'ayant pas permis d'obtenir des résultats suffisamment concluants, un traitement complémentaire par injection de permanganate de sodium a été mis en œuvre entre 2006 et 2009.
+
+13l0l0	Ce_traitement	N
+13l0l1	un_traitement	N
+13l0l2	injection	N
+13l0l3	permanganate	O
+13l0l4	a_été_mis_en_œuvre	N
+13l0l5	entre_2006_et_2009__	T
+13l1l0	permanganate_de_sodium	S
+
+#La surveillance des eaux souterraines a été réalisé trimestriellement jusqu'en 2011 par THALES, puis semestriellement sur une dizaine de piézomètres, dont 3 (Pz1, Pz2 et Pz3) au droit des installations de la société ELVIA PCB - Site CIREA.
+
+14l0l0	La_surveillance_des_eaux_souterraines	A
+14l0l1	a_été_réalisé_trimestriellement	N
+14l0l2	jusqu__en_2011	T
+14l0l3	THALES	O
+14l0l4	semestriellement	T
+14l0l5	sur	N
+14l0l6	une_dizaine_de_piézomètres	O
+14l0l7	la_société	O
+14l0l8	ELVIA	N
+14l0l9	CIREA	O
+14l1l0	THALES	I
+14l1l1	la_société_ELVIA_PCB	I
+14l1l2	Site_CIREA	I
+
+#En 2014, THALES indiquait par courrier à ELVIA PCB ne plus pouvoir se substituer pour le contrôle de la qualité des eaux souterraines pour ces 3 piézomètres.
+
+15l0l0	En_2014__	T
+15l0l1	THALES	O
+15l0l2	indiquait_par_courrier	N
+15l0l3	ELVIA_PCB	O
+15l0l4	le_contrôle_de_la_qualité_des_eaux_souterraines	A
+15l1l0	THALES	I
+15l1l1	ELVIA_PCB	I
+
+#En 2018, l'exploitant n'a pas repris a sa charge la surveillance au droit des ces 3 piézomètres.
+
+16l0l0	En_2018__	T
+16l0l1	l__exploitant	O
+16l0l2	n__a_pas_repris	N
+16l0l3	sa_charge	O
+16l0l4	la_surveillance	A
+16l0l5	au_droit_des	L
+16l0l6	ces_3_piézomètres	O

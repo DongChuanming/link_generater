@@ -1,0 +1,281 @@
+
+#44.0148
+#Le site concerne une portion de la parcelle n°1286 section AP pour une superficie de 4 500 m².
+
+0l0l0	Le_site	O
+0l0l1	une_portion_de_la_parcelle	O
+
+#Il s’agit d’une station-service au sein d’un centre commercial situé sur la commune de Basse-Goulaine (voir plan-cartographique-44.0148--1).
+
+1l0l0	une_station___service	O
+1l0l1	au_sein_d__un_centre_commercial_situé_sur_la_commune_de_Basse_Goulaine	L
+
+#Le site était occupé par des parcelles agricoles avant l’arrivée du centre commercial et de la station-service en 1987.
+
+2l0l0	Le_site	O
+2l0l1	était_occupé_par	R
+2l0l2	des_parcelles_agricoles	O
+2l0l3	avant	T
+2l0l4	l__arrivée_du_centre	L
+2l0l5	en_1987	T
+
+#La station-service est dotée de 4 réservoirs enfouis, d’une cuve aérienne, de 5 pistes de distribution pour les véhicules légers et d’une piste pour les véhicules lourds (voir plan-cartographique-44.0148--2).
+
+3l0l0	4_réservoirs_enfouis	O
+3l0l1	5_pistes_de_distribution	O
+3l0l2	une_piste	O
+3l0l3	véhicules_lourds	O
+
+#Une aire de lavage est installée dans les années 2000.
+
+4l0l0	Une_aire_de_lavage	O
+4l0l1	est_installée	N
+4l0l2	dans_les_années_2000__	T
+
+#Le terrain est situé sur une formation de Micaschistes albitiques à deux micas.
+
+5l0l0	Le_terrain	O
+5l0l1	est_situé_sur_une_formation	N
+
+#Compte tenu du nombre relativement élevé de forages recensés autour du site et malgré l’incertitude sur l’usage de certains de ces forages, on peut considérer les eaux souterraines comme sensibles vis-à-vis d’une éventuelle contamination issue du terrain d’étude.
+
+6l0l0	autour_du_site	L
+6l0l1	ces_forages	O
+6l0l2	vis_à_vis_d_	R
+6l0l3	une_éventuelle_contamination	O
+
+#Aucun cours d’eau n’est présent au droit ou en bordure du site d’étude mais des étangs sont recensés à plus de 250 m à l’ouest.
+
+7l0l0	Aucun_cours_d__eau	O
+7l0l1	en_bordure_du_site_d_	L
+7l0l2	recensés_à_plus_de_250_m_à_l__ouest	L
+
+#Les possibilités de transfert sont considérées comme négligeables.
+
+
+#Les sols du site sont recouverts de dalles béton au droit de la station de lavage et des pistes de distribution de carburants et recouverts d’enrobés au droit des zones de voiries.
+
+9l0l0	Les_sols	O
+9l0l1	dalles_béton	O
+9l0l2	au_droit_de_la_station_de_lavage	A
+9l0l3	distribution_de_carburants	A
+9l0l4	d__enrobés	N
+9l0l5	au_droit_des	R
+9l0l6	zones_de_voiries	O
+9l1l0	carburants	U
+
+#Le site d’étude n’est pas localisé dans des zones protégées telles que les ZNIEFF, ZICO, ZPS ou PNR, …. la zone Natura 2000 la plus proche est à 3500 m au nord du site (Marais de Goulaine).
+
+10l0l0	Le_site	O
+10l0l1	localisé_dans	L
+10l0l2	des_zones_protégées	O
+10l0l3	les_ZNIEFF	O
+10l0l4	zone_Natura_2000_la	O
+10l0l5	proche_est	O
+10l0l6	à_3500_m_au_nord_du_site___Marais_de_Goulaine____	L
+10l1l0	PNR	I
+
+#On considère donc que les espaces naturels sont modérément vulnérables vis-à-vis d’une potentielle pollution des sols.
+
+11l0l0	vis_à_vis_d_	R
+11l0l1	une_potentielle_pollution_des_sols	O
+
+#Un réseau AEP (Alimentation en Eau Potable) est présent en bordure du site.
+
+12l0l0	Un_réseau_AEP	O
+12l0l1	en_bordure_du_site	L
+
+#Un diagnostic du site est mené en mars 2017. 23 sondages sont effectués aux abords de l’aire de lavage, des pistes de distribution de carburants, des cuves enterrées de stockage de carburants, de la zone de déchargement de carburant, du séparateur d’hydrocarbures et du débourbeur-dessableur (voir plan-cartographique-44.0148--3).
+
+13l0l0	Un_diagnostic_du_site_est_mené	N
+13l0l1	en_mars_2017__	T
+13l0l2	23_sondages	O
+13l0l3	sont_effectués	N
+13l0l4	aux_abords_de_l__aire	L
+13l0l5	pistes_de_distribution_de_carburants	O
+13l0l6	cuves_enterrées_de_stockage_de_carburants	O
+13l0l7	déchargement_de_carburant	A
+13l1l0	carburants	U
+13l1l1	cuves_enterrées	D
+13l1l2	carburants	U
+13l1l3	carburant	U
+13l1l4	hydrocarbures	S
+
+#Les résultats ne montrent pas de contamination significative des sols pour les paramètres HCT et HAP aux abords de l’aire de lavage et séparateur d’hydrocarbures et du débourbeur-dessableur.
+
+14l1l0	paramètres_HCT	S
+14l1l1	HAP	S
+14l1l2	hydrocarbures	S
+
+#Il n’est pas observé de contamination significative des sols pour les paramètres HCT, HAP, HV, BTEX et plomb aux abords des cuves de stockage de carburant enterrées et des pistes de distribution de carburant.
+
+15l0l0	abords_des_cuves	L
+15l0l1	de_stockage_de_carburant_enterrées	O
+15l0l2	distribution_de_carburant	A
+15l1l0	les_paramètres_HCT	S
+15l1l1	HAP	S
+15l1l2	HV	S
+15l1l3	BTEX	S
+15l1l4	plomb	S
+15l1l5	carburant_enterrées	U
+15l1l6	carburant	U
+
+#Aux abords de la zone de dépotage de carburant, les résultats d’analyses ont mis en évidence un pic de concentration pour les paramètres HCT (C10-C40), HV (C5-C10), BTEX et HAP sur les horizons médians au droit de 2 sondages (S17 et S18) avec un gradient de concentration décroissant en profondeur.
+
+16l0l0	Aux_abords_de_la_zone_de_dépotage_de_carburant	O
+16l0l1	médians_au_droit_de_2_sondages___S17	L
+16l1l0	carburant	S
+16l1l1	les_paramètres_HCT	S
+16l1l2	C10_C40	S
+16l1l3	HV	S
+16l1l4	C5_C10__	S
+16l1l5	BTEX	S
+16l1l6	HAP	S
+
+#Pas de teneur excessive en plomb.
+
+17l1l0	plomb	S
+
+#Des investigations supplémentaires sont menées en septembre 2017 et ont permis la constitution de 25 échantillons composites de sols prélevés.
+
+18l0l0	Des_investigations_supplémentaires	N
+18l0l1	en_septembre_2017	T
+
+#Les résultats d’analyse des sols en place montrent :
+
+
+#- des teneurs résiduelles en HCT et HV au sud de la cuve de gasoil inertée,
+
+20l0l0	au_sud_de_la_cuve_de_gasoil	L
+20l0l1	inertée	O
+20l1l0	HCT	S
+20l1l1	HV	S
+20l1l2	gasoil_inertée	U
+
+#- une légère problématique en BTEX sous la cuve double compartimentée de 60 m3,
+
+21l0l0	la_cuve	O
+21l1l0	BTEX	S
+21l1l1	cuve_double	D
+
+#- une contamination prononcée en composés pétroliers aux abords de la zone de dépotage,
+
+22l0l0	dépotage	O
+22l1l0	composés_pétroliers	D
+
+#- de légères contaminations en composés pétroliers sur les sols en parois et fond de fouille et aux abords des autres stockages enterrés,
+
+23l0l0	aux_abords_des_autres_stockages_enterrés	L
+
+#- des teneurs en HCT et BTEX assez fréquemment incompatibles avec une élimination des potentiels déblais en ISDI.
+
+24l1l0	HCT	S
+24l1l1	BTEX	S
+24l1l2	ISDI	I
+
+#Des investigations complémentaires sont effectuées dans la zone de dépotage. 12 sondages sont effectués, ils ont permis de dimensionner la zone contaminée et ses limites.
+
+25l0l0	Des_investigations_complémentaires_sont_effectuées	N
+25l0l1	dans	L
+25l0l2	la_zone_de_dépotage	O
+25l0l3	12_sondages_sont_effectués	N
+25l0l4	la_zone_contaminée	O
+25l0l5	ses_limites	O
+
+#Les résultats montrent une extension de la zone de contamination en HCT et HV vers l’est et le sud-est et une absence de contamination vers le nord, l’ouest et le sud.
+
+26l0l0	une_extension	N
+26l0l1	la_zone_de_contamination	O
+26l0l2	vers_l__est_et_le_sud_est	L
+26l0l3	contamination	O
+26l0l4	vers_le_nord___l__ouest_et_le_sud	L
+26l1l0	HCT_et_HV	S
+
+#6 prélèvements complémentaires sont effectués sur les sols en parois et fond de fouille au droit des abords de la zone de dépotage terrassée.
+
+27l0l0	6_prélèvements_complémentaires	O
+27l0l1	au_droit_des_abords_de_la_zone_de_dépotage_terrassée	L
+
+#Les résultats montrent qu’il subsiste des terres contaminées avec des teneurs non négligeables assez élevées en HCT et HV et assimilables a des contaminations concentrées au-delà de 2 mètres de profondeur.
+
+28l0l0	terres_contaminées	O
+28l0l1	au_delà_de_2_mètres_de_profondeur	L
+28l1l0	HCT	S
+28l1l1	HV	S
+
+#Les composés volatils identifiés sur ces échantillons sont non négligeables également.
+
+
+#Le terrassement des terres contaminées inertes s’est déroulé mi-septembre 2017.
+
+30l0l0	Le_terrassement	N
+30l0l1	des_terres_contaminées_inertes	O
+30l0l2	s__est_déroulé	N
+30l0l3	mi_septembre_2017__	T
+
+#Environ 420 tonnes de terres polluées par des hydrocarbures ont été excavées et envoyées dans un bio-centre.
+
+31l0l0	420_tonnes_de_terres_polluées	O
+31l0l1	hydrocarbures	O
+31l0l2	ont_été_excavées_et_envoyées_dans	N
+31l0l3	un_bio_centre	O
+31l1l0	hydrocarbures	S
+
+#Une pollution résiduelle demeure néanmoins dans les sols (concentration maximale sur un échantillon : 2320 mg/kg MS en hydrocarbures totaux) et les eaux souterraines (518 µg/l en hydrocarbures volatils et 18,6 µg/l en BTEX).
+
+32l1l0	en_hydrocarbures_totaux	S
+32l1l1	en_hydrocarbures_volatils	S
+32l1l2	en_BTEX	S
+
+#L’analyse des risques résiduels produite par l’exploitant conclut à l’absence de risque sanitaire pour les usages prévus (restaurant d’une enseigne de fast food).
+
+33l0l0	l__exploitant	O
+33l0l1	les_usages_prévus	O
+
+#Un rapport d’analyses des eaux souterraines est rédigé en mars 2018.
+
+34l0l0	est_rédigé	N
+34l0l1	en_mars_2018__	T
+
+#3 piézomètres sont implantés sur le terrain afin d’évaluer la qualité des eaux souterraines et confirmer le sens d'écoulement (voir plan-cartographique-44.0148--4).
+
+35l0l0	3_piézomètres	O
+35l0l1	sont_implantés	N
+35l0l2	la_qualité_des_eaux_souterraines	O
+
+#L’impact dans les eaux souterraines est limité aux abords immédiats de la zone de dépotage.
+
+36l0l0	est_limité	O
+36l0l1	aux_abords_immédiats_de_la_zone_de_dépotage	O
+
+#Les résultats sur le piézomètre PZ1 mettent en évidence des contaminations significatives des eaux souterraines en hydrocarbures volatils, benzène et naphtalène à proximité immédiate de l’ancienne zone de dépotage de carburants.
+
+37l0l0	des_contaminations	N
+37l0l1	à_proximité_immédiate_de_l_	L
+37l0l2	dépotage_de_carburants	O
+37l1l0	hydrocarbures_volatils	S
+37l1l1	benzène	S
+37l1l2	naphtalène	S
+37l1l3	carburants	U
+
+#Aucune contamination sur les piézos PZ2 et PZ3 n’a été mise en évidence.
+
+38l0l0	Aucune_contamination	O
+
+#L’installation de dépotage a donc eu un impact sur les milieux eaux souterraines.
+
+39l0l0	L__installation_de_dépotage	O
+39l0l1	a_donc_eu_un_impact	N
+
+#L’usage futur du site est un usage commercial.
+
+
+#La station-service a été démolie pour restructurer le centre commercial et construire un restaurant de type fast-food.
+
+41l0l0	La_station___service	O
+41l0l1	a_été_démolie	N
+41l0l2	pour	R
+41l0l3	restructurer	N
+41l0l4	le_centre_commercial	O
+41l0l5	construire	N
+41l0l6	un	O

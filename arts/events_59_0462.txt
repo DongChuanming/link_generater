@@ -1,0 +1,105 @@
+
+#59.0462
+#La société AKERS est spécialisée dans la production de cylindres de laminoirs.
+
+0l0l0	La_société_AKERS	O
+0l0l1	est_spécialisée_dans_la_production_de_cylindres_de_laminoirs	A
+0l1l0	La_société_AKERS	I
+
+#Pour cela, elle disposait jusqu'en 2005 de diverses installations : :
+
+1l0l0	elle_disposait	O
+1l0l1	jusqu__en_2005	T
+
+#- fonderie de fonte et d'acier,
+
+2l0l0	fonderie_de_fonte	A
+2l0l1	et_d__acier	A
+
+#- nombreuses unités de traitement thermique,
+
+
+#- traitement mécanique (usinage, fraisage,...).
+
+4l0l0	fraisage	A
+
+#En 2005, l'activité fonderie a cessé sur le site de Berlaimont.
+
+5l0l0	En_2005__	T
+5l0l1	l__activité_fonderie	A
+5l0l2	a_cessé	N
+5l0l3	sur_le_site_de_Berlaimont	L
+
+#Dans le cadre de la cessation d'activité partielle, la société AKERS a produit un mémoire de cessation d'activité conforme aux dispositions de l'article 34-1 du décret du 21/09/77.
+
+6l0l0	Dans_le_cadre_de	R
+6l0l1	la_cessation_d__activité_partielle	N
+6l0l2	la_société_AKERS	O
+6l0l3	a_produit	N
+6l0l4	un_mémoire_de_cessation_d_	N
+6l0l5	activité	O
+6l0l6	21_09_77__	T
+6l1l0	la_société_AKERS	I
+
+#Le secteur fonderie, objet du mémoire de cessation partielle d'activité, comportait plusieurs bâtiments, unités de stockage des matières premières (ferrailles, sable de fonderie) et des installations annexes, telles que unités de traitement des fumées, tours aéro-réfrigérantes, préparation des sables.
+
+7l0l0	Le_secteur_fonderie	O
+7l0l1	ferrailles	O
+7l0l2	sable_de_fonderie	O
+7l0l3	des_installations_annexes	O
+7l0l4	traitement_des_fumées	A
+7l0l5	préparation_des_sables	A
+7l1l0	matières_premières	U
+
+#Le site existe depuis un siècle et a toujours été occupé par des activités sidérurgiques (groupe USINOR) ou de fonderie.
+
+8l0l0	Le_site	O
+8l0l1	existe	N
+8l0l2	depuis_un_siècle	T
+8l0l3	a_toujours_été_occupé	N
+8l0l4	des_activités_sidérurgiques	A
+8l0l5	USINOR	O
+8l0l6	fonderie	A
+8l1l0	groupe_USINOR	I
+
+#Le sol de l'usine est constitué de remblais sidérurgiques sur une épaisseur moyenne de 1,5 m.
+
+9l0l0	remblais_sidérurgiques	O
+
+#Dans le cadre du mémoire de cessation d'activité, l'exploitant a procédé à un diagnostic initial (phases A et B) et une Evaluation Simplifiée des Risques poue la partie de l'usine occupée par le secteur fonderie.
+
+10l0l0	Dans_le_cadre_du	R
+10l0l1	cessation_d__activité	N
+10l0l2	l__exploitant	O
+10l0l3	a_procédé	N
+10l0l4	à	R
+10l0l5	un_diagnostic_initial	N
+10l0l6	une_Evaluation_Simplifiée_des_Risques	N
+10l0l7	la	O
+10l0l8	partie_de_l__usine	L
+10l0l9	secteur_fonderie	A
+
+#Le site est classé en 2 pour les milieux eaux souterraines et sols, l'impact sur les eaux de surface étant considéré comme négligeable au regard de la qualité du cours d'eau considéré (ruisseau des Arbreux).
+
+11l0l0	Le_site	O
+11l0l1	classé_en_2	O
+11l0l2	Arbreux	L
+
+#L'exploitant met en place une surveillance de la qualité des eaux souterraines et l'enlèvement de la couche superficielle des terres autour de l'installation de filtration des fumées, contaminée par des métaux, ainsi que des restrictions d'usage pour le bâtiment maintenance dans lequel est implantée une fosse maçonnée, sous dalle béton, contenant des boues fortement contaminées par des métaux (chrome, molybdène, nickel).
+
+12l0l0	L__exploitant	O
+12l0l1	met_en_place	N
+12l0l2	une_surveillance_de_la_qualité_des_eaux_souterraines	A
+12l0l3	l__enlèvement	N
+12l0l4	l__installation_de	O
+12l0l5	filtration	A
+12l0l6	métaux	O
+12l0l7	le_bâtiment_maintenance	O
+12l0l8	une_fosse_maçonnée	O
+12l0l9	dalle_béton	O
+12l0l10	des_métaux	O
+12l1l0	des_métaux	S
+12l1l1	des_métaux	S
+12l1l2	chrome	S
+12l1l3	molybdène	S
+12l1l4	nickel	S

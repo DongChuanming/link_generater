@@ -1,0 +1,101 @@
+
+#63.0019
+#Le site comprend un terrain situé dans le sud de l'agglomération, qui a accueilli depuis le 19 ème siècle jusqu'en 1951, une usine fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	Le_site_comprend_un_terrain_situé_dans_le_sud	O
+0l0l1	agglomération__	O
+0l0l2	qui_a_accueilli_depuis_le_19_ème_siècle	O
+0l0l3	fabriquant_du_gaz	N
+0l1l0	agglomération__	I
+
+#En 1954 les installations de l'usine sont, en grande majorité, détruites.
+
+1l0l0	En_1954	O
+1l0l1	les_installations_de	O
+1l0l2	l__usine_sont___en_grande_majorité__	L
+1l0l3	détruites__	N
+
+#Actuellement, le terrain d'une superficie de 8 980 m2, est occupé par l'agence
+
+2l0l0	Actuellement	T
+2l0l1	__le_terrain_d__une_superficie	O
+2l0l2	de_8_980_m2___est_occupé	N
+
+#EDF GDF Services (bâtiments administratifs et techniques), construit après 1954.
+
+3l0l0	Services___bâtiments	O
+3l0l1	techniques_____construit_après_1954__	O
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gazqu'il gère, répartis sur l'ensemble du territoire.
+
+4l0l0	Gaz_de_France_a	O
+4l0l1	hiérarchisé_ses_actions_sur_les	O
+4l0l2	anciennes_usines_à_gazqu__il_gère___répartis_sur_l__ensemble_du_territoire__	T
+4l1l0	Gaz_de_France_a_hiérarchisé	I
+
+#La méthodologie a consisté à hiérarchiser les sites en fonction de leur sensibilité vis-à-vis de l'environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site).
+
+5l0l0	La_méthodologie	O
+5l0l1	a_consisté	N
+5l0l2	à_hiérarchiser	O
+5l0l3	sites_en_fonction	O
+5l1l0	La_méthodologie	I
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquels les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+6l0l0	méthode_a_abouti_à_l__établissement	O
+6l0l1	de_5	R
+6l0l2	classes_de_priorité	O
+6l0l3	pour_lesquels	R
+6l0l4	les_engagements_de	O
+
+#Le site de l'ancienne usine à gaz de Riom est en classe 3 du protocole
+
+7l0l0	Le_site_de_l__ancienne	N
+7l0l1	usine_à_gaz	O
+7l0l2	de_Riom_est	R
+7l0l3	en_classe_3_du_protocole	N
+
+#De ce fait, c'est un site dont la sensibilité vis-à-vis de l'homme, des eaux souterraines et superficielles est faible.
+
+8l0l0	De_ce_fait	O
+8l0l1	sensibilité	L
+
+#Conformément aux engagements du protocole, ce site à fait l'objet d'une étude historique avec localisation des cuves (recherches bibliographiques, enquêtes...) effectuée par un bureau d'étude, à la demande de Gaz de France.
+
+
+#De cette étude, il ressort qu'il peut exister sur le terrain une cuve enterrée pour le stockage des goudrons et des eaux ammoniacales.
+
+10l0l0	sur_le	O
+10l0l1	terrain_une_cuve	R
+10l0l2	enterrée_pour_le_stockage	N
+10l1l0	des_eaux_ammoniacales	D
+
+#Cette cuve a été vidangée.
+
+
+#La présence d'une nappe proche et de puits fermiers a conduit GdF à mettre en place 3 piézomètres.
+
+12l0l0	La_présence	O
+12l0l1	d__une_nappe_proche	N
+
+#Les résultats des analyses effectués dans les eaux de la nappe indiquent seulement la présence de cyanures à l'état de traces.
+
+13l0l0	effectués_dans_les_eaux	O
+13l0l1	de_la_nappe	N
+13l0l2	indiquent_seulement	N
+13l1l0	nappe_indiquent	I
+
+#Des travaux de dépollution ont été menés en mars et avril 2004, le rapport de fin de travaux fait état de 713 tonnes de terres souillées éliminées.
+
+14l0l0	mars_et_avril	O
+14l0l1	état_de_713	O
+14l1l0	état_de_713_tonnes	S
+
+#Par suite de la vente des terrains le 23/04/2008, à la SNC RIOM AMABLE FAUCON, des immeubles d'habitation ont été construits sur le site.
+
+15l0l0	Par_suite_de_la_vente_des_terrains	N
+15l0l1	le_23_04_2008	N
+15l0l2	__à_la_SNC_RIOM_AMABLE	T
+15l0l3	__des_immeubles	N
+15l0l4	ont_été_construits_sur_le_site__	O

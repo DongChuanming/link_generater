@@ -1,0 +1,329 @@
+
+#71.0010
+#Les sociétés BIOXAL (ex-CHEMOXAL) et AZELIS PEROXIDES (ex-EUROPEROXYDES, anciennement S.
+
+0l0l0	Les_sociétés_BIOXAL	O
+0l1l0	Les_sociétés_BIOXAL	I
+0l1l1	ex_CHEMOXAL	I
+0l1l2	AZELIS_PEROXIDES	I
+0l1l3	ex_EUROPEROXYDES	I
+
+#.P.
+
+
+#.) relèvent de la circulaire du 3 Avril 1996 et font toutes deux l'objet d'un classement Seveso II seuil haut, en raison du stockage de quantités importantes de peroxydes organiques.
+
+2l0l0	la_circulaire	O
+2l0l1	3_Avril_1996	T
+2l1l0	peroxydes_organiques	U
+
+#L'établissement BIOXAL se consacre à la production de désinfectants et peroxydes à usage médical ou industriel ; les installations comportent deux ateliers de production, deux laboratoires, et des cuves de peroxyde d'hydrogène d'un volume total de 150 m3.
+
+3l0l0	L__établissement_BIOXAL	O
+3l0l1	se_consacre_à	R
+3l0l2	la_production_de_désinfectants	A
+3l0l3	usage_médical_ou_industriel	A
+3l0l4	les_installations	N
+3l0l5	deux_ateliers_de_production	O
+3l0l6	des_cuves_de_peroxyde	O
+3l1l0	BIOXAL	I
+3l1l1	désinfectants	U
+3l1l2	peroxydes	U
+3l1l3	peroxyde_d__hydrogène	S
+
+#La société voisine AZELIS PEROXIDES a pour activité le stockage de peroxydes organiques ; le site comprend 17 cellules de capacités allant de 2,5 tonnes à 18 tonnes, dont certaines réfrigérées.
+
+4l0l0	La_société_voisine	O
+4l0l1	AZELIS_PEROXIDES	O
+4l0l2	activité_le_stockage_de_peroxydes_organiques	A
+4l0l3	le_site	O
+4l0l4	réfrigérées	A
+4l1l0	La_société_voisine_AZELIS_PEROXIDES	I
+4l1l1	peroxydes_organiques	U
+
+#Du point de vue administratif, l'activité de BIOXAL est réglementée par l'arrêté préfectoral du 10 décembre 1999, après transfert à son profit de l'autorisation délivrée à CHEMOXAL le 19 janvier 1981 d'exploiter une installation de fabrication de produits chimiques.
+
+5l0l0	l__activité	A
+5l0l1	BIOXAL	O
+5l0l2	est_réglementée	N
+5l0l3	l__arrêté_préfectoral	O
+5l0l4	10_décembre_1999__	T
+5l0l5	après	R
+5l0l6	transfert	N
+5l0l7	l__autorisation	O
+5l0l8	CHEMOXAL	O
+5l0l9	le_19_janvier_1981	T
+5l0l10	d__exploiter	N
+5l0l11	une_installation_de_fabrication_de_produits_chimiques	O
+5l1l0	BIOXAL	I
+5l1l1	CHEMOXAL	I
+
+#Un nouvel arrêté préfectoral en date du 11 juillet 2013 est venu refondre l'ensemble des prescriptions applicables à l'établissement.
+
+6l0l0	Un_nouvel_arrêté_préfectoral	O
+6l0l1	en_date_du_11_juillet_2013	T
+6l0l2	est_venu_refondre	N
+6l0l3	l__ensemble_des_prescriptions_applicables	O
+
+#L'activité de stockage et distribution de produits chimiques d'AZELIS PEROXIDES est quant à elle réglementée par l'arrêté préfectoral du 8 avril 2009, suite au transfert de l'autorisation précédemment délivrée à EUROPEROXYDES le 26 décembre 2000.
+
+7l0l0	L__activité_de_stockage_et_distribution_de_produits_chimiques	A
+7l0l1	AZELIS	O
+7l0l2	est_quant_à_elle_réglementée	N
+7l0l3	l__arrêté_préfectoral	O
+7l0l4	du_8_avril_2009__	T
+7l0l5	suite_au	R
+7l0l6	transfert	N
+7l0l7	l__autorisation	O
+7l0l8	EUROPEROXYDES	O
+7l0l9	le_26_décembre_2000__	T
+7l1l0	produits_chimiques	U
+7l1l1	AZELIS_PEROXIDES	I
+7l1l2	EUROPEROXYDES	I
+
+#► CONTEXTE DU SITE
+
+
+#Les établissements mitoyens de BIOXAL et AZELIS PEROXIDES sont implantés route des Varennes en zone industrielle de Chalon Sud "secteur A", où ils occupent environ 8,5 hectares au total.
+
+9l0l0	Les_établissements_mitoyens	O
+9l0l1	BIOXAL	O
+9l0l2	AZELIS_PEROXIDES	O
+9l0l3	implantés	T
+9l0l4	route_des_Varennes_en_zone_industrielle_de_Chalon_Sud___secteur_A__	L
+9l1l0	BIOXAL	I
+9l1l1	AZELIS_PEROXIDES	I
+
+#Le site est bordé à l'ouest par les industries ALEM et TECHNIC FRANCE, au sud par une zone naturelle boisée, au nord par une voie ferrée et des industries légères, et à l'est par les habitations de la Cité des Varennes.
+
+10l0l0	Le_site	O
+10l0l1	bordé_à_l__ouest_par	L
+10l0l2	les_industries_ALEM	O
+10l0l3	TECHNIC_FRANCE	O
+10l0l4	une_zone_naturelle_boisée	A
+10l0l5	une_voie_ferrée	O
+10l0l6	des_industries	O
+10l0l7	légères	A
+10l0l8	les_habitations	O
+10l0l9	Varennes	L
+10l1l0	les_industries_ALEM	I
+10l1l1	TECHNIC_FRANCE	I
+
+#Les installations reposent sur des remblais issus notamment d'une centrale électrique qui se trouvait à proximité du site.
+
+11l0l0	Les_installations	O
+11l0l1	reposent_sur	R
+11l0l2	des_remblais	O
+11l0l3	une_centrale_électrique	O
+11l0l4	se_trouvait_à_proximité_du_site	L
+
+#Le sous-sol naturel à cet endroit est constitué d'alluvions récentes qui hébergent à faible profondeur (2 à 4 mètres sous le niveau du sol) la nappe de la Saône, rivière qui s'écoule 200 mètres à l'ouest du site.
+
+12l0l0	la_Saône	L
+12l0l1	mètres_à_l__ouest_du_site	L
+
+#► HISTORIQUE DU SITE
+
+
+#L'ensemble des établissements présents dans cette zone n'en formaient historiquement qu'un seul, au sein du groupe Air Liquide :
+
+14l0l0	formaient_historiquement_qu_	N
+14l0l1	au_sein_du	L
+14l0l2	groupe_Air_Liquide	O
+14l1l0	groupe_Air_Liquide	I
+
+#- ALEM ;
+
+15l1l0	ALEM	I
+
+#- TECHNIC FRANCE ;
+
+16l0l0	TECHNIC_FRANCE	O
+16l1l0	TECHNIC_FRANCE	I
+
+#- BIOXAL, ex-CHEMOXAL ;
+
+17l1l0	BIOXAL	I
+17l1l1	ex_CHEMOXAL	I
+
+#- AZELIS PEROXIDES, ex-EUROPEROXYDES, ex-S.
+
+18l0l0	AZELIS_PEROXIDES	O
+18l1l0	__AZELIS	I
+18l1l1	PEROXIDES	S
+18l1l2	ex_EUROPEROXYDES	I
+18l1l3	S_	S
+
+#.P.
+
+
+#. (Société Chalonnaise de Peroxydes Organiques).
+
+20l1l0	Peroxydes_Organiques	S
+
+#Toutes ces sociétés restent interconnectées pour les besoins de leurs activités - à savoir la fabrication, purification, distribution ou le stockage de produits peroxydés.
+
+21l0l0	la_fabrication___purification	A
+21l0l1	distribution_ou_le_stockage_de_produits_peroxydés	A
+21l1l0	produits_peroxydés	U
+
+#L'usine du site BIOXAL s'est développée à partir de 1932 autour des deux axes suivants :
+
+22l0l0	L__usine	O
+22l0l1	site_BIOXAL	O
+22l0l2	s__est_développée	N
+22l0l3	à_partir_de_1932	T
+22l0l4	autour	R
+22l0l5	des_deux_axes	O
+22l1l0	BIOXAL	I
+
+#- électrolyse (fabrication des persulfates de sodium et d'ammonium, acide de Caro, amino-alcools) ;
+
+23l1l0	persulfates_de_sodium	S
+23l1l1	d__ammonium	S
+23l1l2	acide	S
+23l1l3	de_Caro	I
+23l1l4	alcools	U
+
+#- chimie du peroxyde d'hydrogène avec notamment fabrication de dérivés peroxydés minéraux (perborate, percarbonate, peroxyde de magnésium...), de dérivés peroxydés organiques (chez SCPO), d'huiles de soja peroxydé, etc.
+
+24l1l0	peroxyde_d__hydrogène	S
+24l1l1	dérivés_peroxydés_minéraux	S
+24l1l2	perborate	S
+24l1l3	percarbonate	S
+24l1l4	peroxyde_de_magnésium	S
+24l1l5	dérivés_peroxydés_organiques	S
+24l1l6	SCPO	I
+24l1l7	soja_peroxydé	S
+
+#La Société Chalonnaise de Peroxydes Organiques (S.
+
+25l0l0	La_Société_Chalonnaise_de_Peroxydes	O
+25l1l0	La_Société_Chalonnaise_de_Peroxydes_Organiques	S
+
+#.P.
+
+
+#) est devenue EUROPEROXYDES le 12 décembre 2007 puis AZELIS PEROXIDES en novembre 2010.
+
+27l0l0	est_devenue	N
+27l0l1	EUROPEROXYDES	O
+27l0l2	le_12_décembre_2007	T
+27l0l3	AZELIS_PEROXIDES	O
+27l0l4	en_novembre_2010__	T
+27l1l0	devenue_EUROPEROXYDES	I
+27l1l1	AZELIS_PEROXIDES	I
+
+#Elle n'exerce plus qu'une activité de stockage et distribution de peroxydes organiques, la fabrication de ces produits ayant été stoppée en 1997.
+
+28l0l0	Elle	O
+28l0l1	n__exerce_plus_qu_	N
+28l0l2	une_activité_de_stockage_et_distribution_de_peroxydes	A
+28l0l3	la_fabrication_de_ces_produits	A
+28l0l4	ayant_été_stoppée	N
+28l0l5	en_1997__	T
+28l1l0	peroxydes_organiques	U
+
+#► ÉTUDES ENVIRONNEMENTALES
+
+29l0l0	ÉTUDES_ENVIRONNEMENTALES	O
+
+#Par arrêté préfectoral du 1er septembre 1998, une étude simplifiée des risques (ESR) a été prescrite à l'exploitant.
+
+30l0l0	Par_arrêté_préfectoral	O
+30l0l1	du_1er_septembre_1998__	T
+30l0l2	une_étude_simplifiée_des_risques	N
+30l0l3	ESR___a_été_prescrite	N
+30l0l4	l__exploitant	O
+
+#Celle-ci a conclu à un site à surveiller (classement en catégorie 2) conformément à l'ancienne réglementation en vigueur.
+
+31l0l0	surveiller	A
+
+#Les préconisations afférentes sont les suivantes :
+
+
+#- mise en place d'un suivi semestriel de la qualité de l'eau de la nappe souterraine au moyen de 4 piézomètres (PZ1, PZ2, PZ3 et PZ4) ;
+
+33l0l0	mise_en_place_d_	N
+33l0l1	un_suivi_semestriel_de_la_qualité_de_l__eau_de	A
+33l0l2	la_nappe_souterraine	O
+
+#- analyses portant sur les paramètres AOX (halogène organique adsorbable), arsenic, aluminium, bore, chloroforme, crésols, tétrachlorures de carbone, magnésium, manganèse, fer, hydrocarbures totaux et zinc ;
+
+34l1l0	AOX___halogène_organique_adsorbable	S
+34l1l1	arsenic	S
+34l1l2	aluminium	S
+34l1l3	bore	S
+34l1l4	chloroforme	S
+34l1l5	tétrachlorures_de_carbone	S
+34l1l6	magnésium	S
+34l1l7	manganèse	S
+34l1l8	fer	S
+34l1l9	hydrocarbures_totaux	S
+34l1l10	zinc	S
+
+#- confirmation d'une contamination par hydrocarbures, le cas échéant délimitation de la zone contaminée et proposition de suites à apporter.
+
+35l0l0	hydrocarbures	O
+35l0l1	délimitation_de_la	L
+35l0l2	zone_contaminée	O
+35l1l0	hydrocarbures	S
+
+#Ces préconisations ont été reprises dans un projet d'arrêté préfectoral qui a reçu un avis favorable au Conseil Départemental d'Hygiène du 13 décembre 2001 et a été acté par arrêté préfectoral du 11 janvier 2002.
+
+36l0l0	ont_été_reprises	N
+36l0l1	dans	R
+36l0l2	un_projet	O
+36l0l3	Conseil_Départemental_d__Hygiène	O
+36l0l4	13_décembre_2001	T
+36l0l5	a_été_acté	N
+36l0l6	par_arrêté_préfectoral	O
+36l0l7	11_janvier_2002	T
+36l1l0	Conseil_Départemental_d__Hygiène	I
+
+#Le complément d'étude demandé n'a pas confirmé la présence d'hydrocarbures dans la zone concernée.
+
+37l0l0	n__a_pas_confirmé	R
+37l0l1	la_présence_d__hydrocarbures	O
+37l0l2	la_zone_concernée	O
+37l1l0	hydrocarbures	S
+
+#► SURVEILLANCE
+
+38l0l0	SURVEILLANCE	O
+
+#Le suivi des eaux souterraines sur la période 2007-2012 a mis en évidence principalement :
+
+39l0l0	Le_suivi	N
+39l0l1	des_eaux_souterraines	A
+39l0l2	sur_la_période_2007___2012	T
+
+#- la présence de manganèse et de bore ;
+
+40l1l0	manganèse	S
+40l1l1	bore	S
+
+#- l'absence d'hydrocarbures durant cette période ;
+
+41l1l0	hydrocarbures	S
+
+#- l'absence du zinc, métal qui avait été détecté lors de la précédente période (2002-2007) ;
+
+42l0l0	avait_été_détecté_lors_de	N
+42l0l1	__2002___2007	T
+42l1l0	zinc	S
+42l1l1	métal	S
+
+#- des traces d'AOX sur deux piézomètres (PZ1 et PZ4) ;
+
+43l1l0	des_traces_d__AOX	U
+
+#- la disparition de l'arsenic, sauf dans l'ouvrage PZ4.
+
+44l0l0	l__arsenic	O
+44l1l0	arsenic	S
+
+#En décembre 2013, la synthèse des résultats de surveillance n'indique pas d'évolution défavorable pour les paramètres analysés.
+
+45l0l0	En_décembre_2013__	T

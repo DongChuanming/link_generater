@@ -1,0 +1,214 @@
+
+#57.0064
+#L'usine SARREGUEMINES BÂTIMENT CARRELAGE est située sur le territoire de la commune de Sarreguemines.
+
+0l0l0	L__usine_SARREGUEMINES	O
+0l0l1	BÂTIMENT_CARRELAGE	O
+0l0l2	est	N
+0l0l3	située_sur_le_territoire_de_la_commune_de_Sarreguemines	L
+0l1l0	SARREGUEMINES_BÂTIMENT_CARRELAGE	I
+
+#L'histoire de la faïencerie à Sarreguemines remonte à 1790 avec la construction de l'usine (usine n°1).
+
+1l0l0	faïencerie_à_Sarreguemines	O
+1l0l1	remonte_à_1790	T
+1l0l2	la_construction_de	N
+1l0l3	l__usine	O
+
+#Au cours du temps, et pour faire face à la demande, d'autres usines ont été édifiées.
+
+2l0l0	d__autres_usines	O
+2l0l1	ont_été_édifiées	N
+
+#L'usine faisant l'objet de cette fiche est l'usine n°4, construite au début des années 1870, elle était destinée essentiellement à la fabrication de vaisselle en faïence.
+
+3l0l0	L__usine	O
+3l0l1	l__usine_n__4	O
+3l0l2	construite	N
+3l0l3	au_début_des_années_1870	T
+3l0l4	était_destinée_essentiellement_à_la_fabrication_de_vaisselle_en_faïence	A
+
+#Les matières premières utilisées étaient principalement de l'argile, des feldspaths et des oxydes métalliques.
+
+4l1l0	feldspaths	S
+
+#Depuis le début des années 1980, la production de vaisselle a été arrêtée et l'usine s'est spécialisée dans la fabrication de carreaux muraux et de sol en faïence.
+
+5l0l0	Depuis_le_début_des_années_1980__	T
+5l0l1	la_production_de_vaisselle	A
+5l0l2	a_été_arrêtée	N
+5l0l3	l__usine	O
+5l0l4	s__est_spécialisée	N
+5l0l5	dans_la_fabrication_de_carreaux_muraux	A
+
+#La société « Les Céramiques de Sarreguemines » a repris uniquement l’activité carrelage de l’ancienne société Sarreguemines Bâtiment et non l’ancienne décharge industrielle.
+
+6l0l0	La_société___Les_Céramiques	O
+6l0l1	de_Sarreguemines	O
+6l0l2	a_repris_uniquement	N
+6l0l3	l__activité_carrelage	A
+6l0l4	l__ancienne_société_Sarreguemines	O
+6l0l5	décharge_industrielle	O
+6l1l0	La_société	I
+6l1l1	Les_Céramiques	I
+6l1l2	société_Sarreguemines	I
+
+#La société Sarreguemines Bâtiment est le dernier exploitant de la décharge et il lui appartient de remettre en état le site et de réaliser l’étude des sols comme il lui a été prescrit par les arrêtés préfectoraux des 4 juillet 1991 et 31 mai 2000.
+
+7l0l0	La_société_Sarreguemines_Bâtiment	O
+7l0l1	le_dernier_exploitant	O
+7l0l2	la_décharge	O
+7l0l3	il	O
+7l0l4	lui_appartient	R
+7l0l5	de_remettre_en_état_le_site	N
+7l0l6	de_réaliser_l__étude_des_sols	N
+7l0l7	a_été_prescrit	N
+7l0l8	les_arrêtés_préfectoraux	O
+7l0l9	des_4_juillet_1991_et_31_mai_2000__	T
+7l1l0	La_société_Sarreguemines	I
+
+#Évaluation simplifiée des risques demandée : phase A par arrêté préfectoral du 28/12/1998 et phase B par arrêté préfectoral du 31/05/2000, Phase B et ESR remises à l'inspection des installations classées le 07/10/2002.
+
+8l0l0	Évaluation_simplifiée_des_risques	N
+8l0l1	arrêté_préfectoral	O
+8l0l2	28_12_1998	T
+8l0l3	arrêté_préfectoral	O
+8l0l4	31_05_2000	T
+8l0l5	l__inspection_des_installations_classées	O
+8l0l6	le_07_10_2002	T
+
+#L'étape A du diagnostic initial de cette usine a permis d'identifier plusieurs sources potentielles de pollutions liées aux activités passées de l'usine.
+
+9l0l0	du_diagnostic_initial	N
+9l0l1	cette_usine	O
+9l0l2	a_permis_d_	R
+9l0l3	identifier	N
+9l0l4	plusieurs_sources_potentielles_de_pollutions	O
+9l0l5	liées_aux	R
+9l0l6	activités_passées	A
+9l0l7	l__usine	O
+
+#Ces sources sont l'ancien hangar à locomotives avec une pollution suspectée par des hydrocarbures, la centrale électrique pour une pollution par des PCB et des hydrocarbures et l'atelier de décoration de la vaisselle avec la présence de métaux et de solvants.
+
+10l0l0	l__ancien_hangar_à_locomotives	O
+10l0l1	une_pollution	O
+10l0l2	hydrocarbures___la_centrale_électrique	O
+10l0l3	décoration_de_la_vaisselle	A
+10l1l0	hydrocarbures	S
+10l1l1	des_PCB	S
+10l1l2	hydrocarbures	S
+10l1l3	métaux	S
+10l1l4	solvants	S
+
+#Des sondages et analyses de sols ont été réalisés pour chacune de ces zones identifiées, aucune trace significative de pollution n'a été détectée pour les secteurs de l'ancien hangar à locomotives et celui de la centrale électrique.
+
+11l0l0	Des_sondages	N
+11l0l1	ont_été_réalisés	N
+11l0l2	ces_zones	O
+11l0l3	identifiées	N
+11l0l4	les_secteurs	O
+11l0l5	hangar_à_locomotives	O
+11l0l6	la_centrale_électrique	O
+
+#Par contre en comparant les valeurs mesurées aux Valeurs de Définition de Source-Sol (VDSS), les sols (remblais essentiellement) au niveau de l'ancien atelier de décoration de la vaisselle doivent être considérés comme une source de pollution contaminée par de l'arsenic, du chrome, du nickel et du plomb.
+
+12l0l0	décoration_de_la_vaisselle	A
+12l0l1	source_de_pollution_contaminée	O
+12l0l2	l__arsenic	O
+12l1l0	arsenic	S
+12l1l1	chrome	S
+12l1l2	du_nickel	S
+12l1l3	plomb	S
+
+#Une Evaluation Simplifiée des Risques a été réalisée pour chacun de ces polluants en considérant comme milieux de transferts possibles des polluants vers l'homme, le sol et les eaux superficielles de la Sarre qui peuvent être atteintes par ruissellement direct et infiltrations via la nappe alluviale.
+
+13l0l0	Une_Evaluation_Simplifiée_des_Risques	N
+13l0l1	a_été_réalisée	N
+13l0l2	ces_polluants	O
+13l0l3	Sarre	L
+13l1l0	polluants	U
+13l1l1	polluants	S
+
+#Le classement de ce site vis à vis des eaux superficielles de la Sarre est 3, banalisable, concernant le sol le classement est 2, à surveiller, les polluants justifiant cette note sont le chrome et le cuivre, les autres substances citées ont été classées 3.
+
+14l0l0	ce_site	O
+14l0l1	Sarre	L
+14l0l2	les_polluants	O
+14l1l0	chrome	S
+14l1l1	cuivre	S
+
+#Du fait d'un possible transfert de polluants du site depuis les eaux souterraines vers la Sarre, un contrôle annuel de la qualité des eaux de la nappe alluviale au travers des deux piézomètres déjà implantés sur le site a été prescrit par arrêté préfectoral du 17 février 2003.
+
+15l0l0	depuis_les_eaux_souterraines	A
+15l0l1	vers_la_Sarre	L
+15l0l2	un_contrôle_annuel	N
+15l0l3	la_qualité_des_eaux_de_la_nappe_alluviale	O
+15l0l4	a_été_prescrit	N
+15l0l5	arrêté_préfectoral	O
+15l0l6	du_17_février_2003__	T
+
+#Les paramètres analysés sont le cuivre, le plomb, le chrome et le manganèse dissous dans les eaux souterraines.
+
+16l1l0	cuivre	S
+16l1l1	le_plomb	S
+16l1l2	chrome	S
+16l1l3	manganèse	S
+
+#Des travaux de confinement de la zone du dépôt de vaisselle cassée à également été demandé mais aucun justificatif de fin de travaux n'a été fournis jusqu'à présent.
+
+17l0l0	Des_travaux_de_confinement	N
+17l0l1	à_également_été_demandé	N
+17l0l2	fin_de_travaux	N
+
+#Par courrier du 31 janvier 2007, il est rappelé que la société « Les Céramiques de Sarreguemines » a repris uniquement l’activité carrelage de l’ancienne Société Sarreguemines Bâtiment et non l’ancienne décharge industrielle.
+
+18l0l0	du_31_janvier_2007__	T
+18l0l1	la_société___Les_Céramiques	O
+18l0l2	de	R
+18l0l3	Sarreguemines	O
+18l0l4	a_repris_uniquement	N
+18l0l5	l__activité_carrelage	A
+18l0l6	l__ancienne_Société_Sarreguemines	O
+18l1l0	la_société	I
+18l1l1	Les_Céramiques	I
+18l1l2	ancienne_Société_Sarreguemines	I
+
+#Il appartient donc à la Société Sarreguemines Bâtiment de remettre le site en état et de réaliser l’étude des sols sur le secteur de la décharge industrielle comme prescrit par les AP du 4 juillet 1992 et 31 mai 2000.
+
+19l0l0	Il	O
+19l0l1	la_Société_Sarreguemines_Bâtiment	O
+19l0l2	le_site	O
+19l0l3	de_réaliser_l__étude_des_sols	N
+19l0l4	la_décharge_industrielle	O
+19l0l5	les_AP	O
+19l0l6	4_juillet_1992_et	T
+19l0l7	31_mai_2000__	T
+19l1l0	la_Société_Sarreguemines	I
+
+#La mise en sécurité du site a été demandée par arrêté préfectoral du 9 mars 2010.
+
+20l0l0	La_mise_en_sécurité	N
+20l0l1	du_site	O
+20l0l2	a_été_demandée	N
+20l0l3	par_arrêté_préfectoral	O
+20l0l4	9_mars_2010__	T
+
+#La visite du 17 mai 2010 a permis de constater que les dispositions de ce dernier arrêté étaient respectées.
+
+21l0l0	La_visite	N
+21l0l1	du_17_mai_2010	T
+
+#Des restrictions d'usages restent à mettre en place.
+
+22l0l0	Des_restrictions_d__usages	O
+
+#Le site se situant au coeur de la ville, l'EPFL prévoit de racheter le site afin de le réhabiliter.
+
+23l0l0	Le_site	O
+23l0l1	se_situant_au_coeur_de_la_ville	L
+23l0l2	l__EPFL	O
+23l0l3	prévoit	R
+23l0l4	de_racheter	N
+23l0l5	le_site	O
+23l0l6	afin_de	R
+23l0l7	le_réhabiliter	N

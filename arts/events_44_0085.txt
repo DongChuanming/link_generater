@@ -1,0 +1,421 @@
+
+#44.0085
+#Le site étudié a une superficie d’environ 15 000 m² et est localisé entre la rue Paul Nizan, l’avenue Babin
+
+0l0l0	Le_site	O
+0l0l1	localisé_entre_la_rue_Paul_Nizan___l__avenue_Babin	L
+
+#Chevaye et le boulevard Gustave Roch, sur la commune de Nantes.
+
+1l0l0	Chevaye	O
+1l0l1	et	R
+1l0l2	le_boulevard_Gustave_Roch	L
+1l0l3	sur_la_commune_de_Nantes	L
+
+#Ce site est actuellement occupé par les activités suivantes:
+
+2l0l0	Ce_site	O
+
+#- un square ;
+
+
+#- un groupe scolaire (maternelle et primaire) ainsi que des locaux du SEVE (service espaces verts de la ville de Nantes) et une conciergerie ;
+
+4l0l0	un_groupe_scolaire	O
+4l0l1	des_locaux	O
+4l0l2	SEVE	O
+4l0l3	service_espaces_verts	O
+4l1l0	SEVE	I
+
+#- une crèche associative;
+
+
+#- une église ;
+
+
+#- une parcelle située sur le  boulevard Babin Chevaye (avec projet de construction).
+
+7l0l0	une_parcelle	O
+7l0l1	située_sur	R
+7l0l2	le___boulevard_Babin_Chevaye	L
+7l0l3	avec_projet_de_construction	O
+
+#Retour sur l'historique de cette zone:
+
+
+#En 1869, une raffinerie de sucre Etienne & Say était implantée sur le site.
+
+9l0l0	En_1869	T
+9l0l1	une_raffinerie_de_sucre_Etienne	O
+9l0l2	__Say	O
+9l0l3	était_implantée	N
+9l0l4	sur_le_site	L
+9l1l0	sucre	U
+9l1l1	Etienne___Say	I
+
+#En 1900 l’Établissement Ridel et Lanfrancki s'est implanté sur le site pour la fabrication d’acide sulfurique et de superphosphates minéraux et le dépôt d’engrais.
+
+10l0l0	En_1900	T
+10l0l1	l__Établissement_Ridel	O
+10l0l2	Lanfrancki	O
+10l0l3	s__est_implanté	N
+10l0l4	sur	R
+10l0l5	le_site	O
+10l0l6	la_fabrication_d__acide_sulfurique	N
+10l0l7	le_dépôt_d__engrais	O
+10l1l0	acide_sulfurique	S
+10l1l1	superphosphates_minéraux	S
+
+#Il est probable que l’activité de raffinerie de sucre se soit poursuivie à cette époque également.
+
+11l0l0	l__activité_de_raffinerie_de_sucre	A
+11l0l1	se_soit_poursuivie	N
+11l0l2	à_cette_époque	T
+
+#En 1912, la Scierie mécanique et Atelier de construction métallique de l’ouest (Etablissement LESCOP et Cie) a pris place sur le site.
+
+12l0l0	En_1912	T
+12l0l1	la_Scierie_mécanique_et_Atelier_de_construction_métallique	O
+12l0l2	de_l__ouest	L
+12l0l3	a_pris_place	N
+12l0l4	sur_le_site	L
+12l1l0	la_Scierie_mécanique	I
+
+#De 1932 à 1942 :
+
+13l0l0	De_1932_à_1942__	T
+
+#- la partie Est (actuel école primaire) a été occupée par la société Loudous (vente de matériel industriel d’occasion) ;
+
+14l0l0	la_partie_Est	O
+14l0l1	école_primaire	O
+14l0l2	a_été_occupée_par	N
+14l0l3	la_société_Loudous	O
+14l0l4	vente_de_matériel_industriel_d_	A
+14l1l0	la_société_Loudous	I
+
+#- le centre du site (actuel crèche, groupe scolaire et une partie du square Gustave Roch) a été exploité par la société Citroën Transport.
+
+15l0l0	le_centre_du_site	O
+15l0l1	a_été_exploité	N
+15l0l2	la_société_Citroën_Transport	O
+15l1l0	la_société_Citroën	I
+
+#Plusieurs activités potentiellement polluantes ont été mises en évidence sur ce site (dépôt d’hydrocarbures, transformateur, station de lavage, fosses d’usage inconnu etc.).
+
+16l0l0	Plusieurs_activités_potentiellement_polluantes	O
+16l0l1	ont_été_mises_en_évidence	N
+16l0l2	sur_ce_site	L
+16l0l3	lavage	A
+16l1l0	dépôt_d_	D
+16l1l1	hydrocarbures	S
+
+#Entre 1937 et 1975, l’est du site (une partie du groupe scolaire, le square Gustave Roch et la parcelle de la crèche) a été exploité par les société Montfort et Cie pour le stockage de produits chimique divers.
+
+17l0l0	Entre_1937_et_1975	T
+17l0l1	l__est_du_site	O
+17l0l2	une_partie_du_groupe_scolaire	O
+17l0l3	Gustave_Roch	N
+17l0l4	la_crèche	O
+17l0l5	a_été_exploité	N
+17l0l6	les_société_Montfort	O
+17l0l7	et_Cie	O
+17l0l8	le_stockage_de_produits_chimique_divers	A
+17l1l0	les_société_Montfort	I
+
+#A priori le stockage s’effectuait en fûts ou cuves et l’ensemble du site n’était pas sur rétention.
+
+18l0l0	l_	O
+
+#A partir de 1942-1943 et jusqu'en 1950 : la parcelle où est implantée l’église aurait été exploitée par la Coopérative Pharmaceutique Française de Melun (ancien nom de Cooper) pour notamment le dépôt de liquides inflammables (éther sulfurique, collodion, benzine, sulfure de carbone).
+
+19l0l0	A	R
+19l0l1	partir_de	N
+19l0l2	1942___1943	T
+19l0l3	jusqu__en_1950	T
+19l0l4	la_parcelle_où_est_implantée	O
+19l0l5	aurait_été_exploitée	N
+19l0l6	la_Coopérative_Pharmaceutique_Française_de_Melun	O
+19l0l7	le_dépôt_de_liquides_inflammables	A
+19l1l0	la_Coopérative_Pharmaceutique	I
+19l1l1	Française_de_Melun	I
+19l1l2	Cooper	I
+19l1l3	liquides_inflammables	U
+19l1l4	éther_sulfurique	S
+19l1l5	collodion	S
+19l1l6	benzine	S
+19l1l7	sulfure	S
+19l1l8	carbone	U
+
+#La construction des bâtiments correspondant au groupe scolaire a débuté en 1957.
+
+20l0l0	La_construction_des_bâtiments	O
+20l0l1	correspondant_au	R
+20l0l2	groupe_scolaire	O
+20l0l3	a_débuté	N
+20l0l4	en_1957	T
+
+#Le square a été aménagé entre 1985 et 1987.
+
+21l0l0	Le_square	O
+21l0l1	a_été_aménagé	N
+21l0l2	entre_1985_et_1987__	T
+
+#A noter que le site a fait l’objet de nombreux bombardements durant la seconde Guerre Mondiale qui ont détruit un grand nombre de bâtiments.
+
+22l0l0	a_fait_l__objet	R
+22l0l1	de_nombreux_bombardements	N
+22l0l2	durant_la_seconde_Guerre_Mondiale	T
+
+#Les dégâts des bombardements ont pu entrainer le déversement de produits et la contamination du sous-sol.
+
+23l0l0	bombardements	O
+23l0l1	ont_pu_entrainer	N
+23l0l2	déversement_de_produits	N
+23l0l3	la_contamination	O
+
+#Dans le cadre du projet du projet de réaménagement du square Gustave Roch, des diagnostics réalisés en octobre et novembre 2013 puis en mars 2014 au droit du square et au nord-ouest de celui-ci, ont mis en évidence une pollution aux solvants chlorés (tétrachloroéthylène et trichloréthylène) dans les sols et les gaz de sol.
+
+24l0l0	Dans_le_cadre_du	R
+24l0l1	projet	O
+24l0l2	réaménagement	N
+24l0l3	du_square_Gustave_Roch	L
+24l0l4	des_diagnostics_réalisés	N
+24l0l5	en_octobre_et_novembre_2013	T
+24l0l6	en_mars_2014	T
+24l0l7	au_droit_du_square_et_au_nord_ouest_de_celui_ci	L
+24l0l8	une_pollution	O
+24l1l0	solvants_chlorés	U
+24l1l1	tétrachloroéthylène	S
+24l1l2	trichloréthylène	S
+
+#Le square étant voisin de plusieurs établissements sensibles (groupe scolaire et crèche à moins de 50 mètres
+
+25l0l0	Le_square	O
+25l0l1	étant_voisin_de	L
+25l0l2	plusieurs_établissements_sensibles	O
+25l0l3	à_moins_de_50_mètres	L
+
+#à l’ouest), la cellule opérationnelle de prévention des risques de Nantes Métropole a fait réaliser en parallèle des prélèvements d'air intérieur au sein des salles de classes du groupe scolaire et de la crèche.
+
+26l0l0	l__ouest	L
+26l0l1	la_cellule_opérationnelle_de_prévention_des_risques	O
+26l0l2	Nantes_Métropole	O
+26l0l3	a_fait_réaliser	N
+26l0l4	en_parallèle	R
+26l0l5	des_prélèvements	N
+26l1l0	Nantes_Métropole	I
+
+#Ces prélèvements ont notamment révélé la présence de solvants chlorés (trichloroéthylène et tétrachloroéthylène) en concentrations nécessitant des actions rapides dans certains locaux de l'école maternelle (avec une recommandation d'un retour à des valeurs basses sous 6 mois).
+
+27l1l0	solvants_chlorés	U
+27l1l1	trichloroéthylène	S
+27l1l2	tétrachloroéthylène	S
+
+#Au vu de ces résultats, la ville de Nantes a décidé très rapidement de la mise en oeuvre d'un certain nombre de mesures dans les locaux concernés:
+
+28l0l0	la_ville_de_Nantes	O
+28l0l1	a_décidé_très_rapidement	N
+28l0l2	la_mise_en_oeuvre	N
+28l0l3	les_locaux_concernés	O
+28l1l0	la_ville_de_Nantes	I
+
+#- vérification et reprise des dispositifs de ventilation dans les salles de classe de l'école élémentaire et dans le réfectoire de l'école élémentaire,
+
+29l0l0	vérification_et_reprise_des_dispositifs_de_ventilation	O
+
+#- colmatage des fissures ou trous constatées au niveau des dalles
+
+30l0l0	colmatage	N
+
+#- changement du revêtement de sols dans la classe 1 de l'école maternelle
+
+31l0l0	changement	N
+31l0l1	du_revêtement_de_sols	O
+
+#- réalisation de travaux importants sur le chauffage de la maternelle (dès l'été 2014).
+
+32l0l0	réalisation_de_travaux_importants	N
+32l0l1	sur_le_chauffage	L
+32l0l2	la_maternelle	O
+32l0l3	dès_l_	N
+32l0l4	été_2014__	T
+
+#Un bureau d'étude a en parallèle été sollicité pour la réalisation d’un diagnostic complémentaire de la qualité du milieu au droit du square Gustave Roch (qui doit être réaménagé), de l'école et des parcelles avoisinantes.
+
+33l0l0	Un_bureau_d__étude	O
+33l0l1	a_en_parallèle_été_sollicité	N
+33l0l2	la_réalisation_d__un_diagnostic_complémentaire	N
+33l0l3	la_qualité_du_milieu	O
+33l0l4	au_droit_du_square_Gustave_Roch	L
+33l0l5	réaménagé	N
+
+#Ce diagnostic approfondi réalisé en mai 2014  portait sur les sols, les gaz du sol et les eaux souterraines au droit du square et des parcelles avoisinantes (groupe scolaire, crèche et église Sainte-Madeleine).
+
+34l0l0	Ce_diagnostic_approfondi	N
+34l0l1	réalisé	N
+34l0l2	en_mai_2014	T
+34l0l3	et_les_eaux_souterraines	O
+34l0l4	au_droit_du_square_et_des_parcelles_avoisinantes	L
+
+#De plus, il est prévu sur une parcelle située à moins de 50 m au nord-est du square  l’aménagement de logements avec sous-sol (parcelle 219).  Sur cette parcelle, le porteur de projet sur cette parcelle aurait mené ses propres investigations.
+
+35l0l0	il_est_prévu	O
+35l0l1	sur_une_parcelle_située_à_moins_de_50_m_au_nord_est_du_square	L
+35l0l2	__l__aménagement_de_logements_avec_sous_sol	O
+35l0l3	Sur_cette_parcelle	O
+35l0l4	__le_porteur_de_projet	O
+
+#La campagne de mai 2014 a notamment mis en évidence une pollution diffuse aux solvants chlorés dans les sols, gaz du sol et eaux souterraines au droit du site Gustave Roch élargi.
+
+36l0l0	La_campagne_de	N
+36l0l1	mai_2014	T
+36l0l2	une_pollution_diffuse	N
+36l0l3	au_droit_du_site_Gustave_Roch_élargi	L
+36l1l0	chlorés	S
+
+#A l'issue de ce diagnostic, la possibilité de l'existence de sources de pollution complémentaires n'étant pas exclue notamment au niveau du groupe scolaire, la ville a donné son accord à la SAMOA pour réaliser une étude complémentaire (sondages complémentaires pour vérifier l'absence de sources supplémentaires à proximité de l'école, ainsi que piézomètres  et piézairs complémentaires pour délimiter l'étendue des panaches en solvants chlorés).
+
+37l0l0	ce_diagnostic	N
+37l0l1	l__existence_de_sources_de_pollution_complémentaires	O
+37l0l2	au_niveau_du_groupe_scolaire	L
+37l0l3	la_ville	O
+37l0l4	a_donné_son_accord	N
+37l0l5	la_SAMOA	O
+37l0l6	réaliser_une_étude_complémentaire	N
+37l0l7	à_proximité_de_l__école	L
+37l1l0	la_SAMOA	I
+37l1l1	en_solvants_chlorés	U
+
+#Ce diagnostic confirme au droit de cette zone la présence de remblais de mauvaise qualité, parfois composés de scories et mâchefers plus particulièrement autour du bâtiment de l'école élémentaire.
+
+38l0l0	Ce_diagnostic	N
+38l0l1	au_droit_de_cette_zone	L
+38l0l2	autour_du_bâtiment_de_l__école_élémentaire	L
+
+#Le niveau des eaux souterraines est compris entre 3.6 et 5.9m de profondeur.
+
+
+#A l'issue de ces diagnostics, 5 zones sources (en solvants chlorées) sont identifiées dans les sols confirmées par les concentrations dans les gaz du sol (avec une surface totale des zones sources comprise entre 1520 et 2860 m²):
+
+40l0l0	ces_diagnostics	N
+40l0l1	5_zones_sources	O
+40l0l2	les_sols	O
+40l1l0	solvants_chlorées	S
+
+#- zone 1 : nord est du square (surface entre 480 et 850 m²)
+
+41l0l0	zone_1	O
+41l0l1	__nord_est_du_square	L
+
+#- zone 2 : nord est du bâtiment de l'école élémentaire (surface entre 750 et 1200 m²)
+
+42l0l0	zone_2	O
+42l0l1	__nord_est_du_bâtiment	L
+42l0l2	1200_m²__	O
+
+#- zone 3 : nord est de l'école élémentaire (surface entre 200 et 580 m²)
+
+43l0l0	zone_3	O
+43l0l1	__nord_est_de_l__école	L
+43l0l2	580_m²__	O
+
+#- zone 4 : sud ouest du square (surface entre 90 et 230 m² avec incertitude sur limite ouest)
+
+44l0l0	zone_4	O
+44l0l1	__sud_ouest_du_square	L
+44l0l2	limite_ouest	O
+
+#- zone 5 : zone ponctuelle au nord de l'école maternelle
+
+45l0l0	zone_ponctuelle	O
+45l0l1	au_nord_de_l__école_maternelle	L
+
+#Le risque de contamination des eaux souterraines à l'extérieur du site est jugé faible.
+
+
+#Au vu des ces résultats montrant la présence de 5 zones sources, va être réalisé un plan de gestion afin d'étudier les différentes possibilités liées à la prise en compte de ces sources de pollution (avec plusieurs scénarios allant du maintien en place des sources de pollution jusqu'à l'étude des modalités de traitement de ces sources de pollutions).
+
+47l0l0	5_zones_sources	O
+47l0l1	va_être_réalisé	N
+47l0l2	un_plan_de_gestion	O
+47l0l3	liées_à	R
+47l0l4	la_prise	N
+47l0l5	ces_sources_de_pollution	O
+
+#Cette étude devrait être disponible fin novembre 2014.
+
+48l0l0	fin_novembre_2014__	T
+
+#La 4ème campagne de mesures de la qualité de l'air intérieur du groupe scolaire réalisée au mois de septembre 2014 montre une très nette amélioration des résultats :
+
+49l0l0	La_4ème_campagne_de_mesures	N
+49l0l1	la_qualité_de_l__air_intérieur	O
+49l0l2	au_mois_de_septembre_2014	T
+
+#-les résultats des concentrations en TCE (tétrachloroéthylène) dans les classes sont en très très nette amélioration par rapport aux campagnes de mesure précédentes : pour le tétrachloroéthylène, toutes les concentrations sont de dessous  de la borne R1 utilisée comme référence dans l'action ets sensible (avec seuil  R1à 250 µg/m3 et des mesures ne dépassant pas 63µg/m3), indiquant une situation satisfaisante et démontrant l'efficacité à court terme des travaux entrepris par la collectivité,
+
+50l0l0	par_la_collectivité	O
+50l1l0	TCE	S
+50l1l1	tétrachloroéthylène	S
+50l1l2	le_tétrachloroéthylène	S
+
+#- pour le TCE toutes les mesures dans les classes sont inférieures à la limite de détection (<4.8µg/m3),
+
+51l1l0	le_TCE	I
+
+#- par contre dans le réfectoire, la concentration en TCE reste élevée puisque dépassant la borne R2 de l'action ets sensible (seuil à 10 µg/m3 avec concentration mesurée à 10.4  µg/m3 contre 28.8 µg/m3 à la 1ère campagne).
+
+52l1l0	TCE	S
+
+#La ville de Nantes devra réfléchir aux dispositifs complémentaires à mettre en oeuvre pour diminuer ces concentrations dans cette partie de l'établissement.
+
+53l0l0	La_ville_de_Nantes	O
+53l0l1	devra_réfléchir	R
+53l0l2	aux_dispositifs_complémentaires	O
+53l1l0	La_ville_de_Nantes	I
+
+#La ville de Nantes prévoit par ailleurs d'étancher les autres classes de l'école maternelle durant les vacances d'automne et de poursuivre les mesures de suivi de l'air intérieur.
+
+54l0l0	La_ville_de_Nantes	O
+54l0l1	prévoit	R
+54l0l2	d__étancher	O
+54l0l3	durant_les_vacances_d__automne	T
+54l0l4	de_poursuivre	N
+54l0l5	les_mesures_de_suivi_de_l__air_intérieur	A
+54l1l0	La_ville_de_Nantes	I
+
+#Il a été demandé par l'ARS :
+
+55l0l0	a_été_demandé	N
+55l0l1	l__ARS	O
+
+#- de mettre en place un plan de surveillance de la qualité de l’air intérieur des salles de classes du groupe scolaire pendant une durée de 4 ans comprenant 2 campagnes de mesures annuelles du TCE (en et hors période de chauffe),
+
+56l0l0	de_mettre_en_place_un_plan_de_surveillance	N
+56l0l1	de_la_qualité_de_l__air	A
+56l0l2	groupe_scolaire	O
+56l0l3	pendant_une_durée_de_4_ans	T
+56l0l4	comprenant	R
+56l0l5	2_campagnes_de_mesures_annuelles	N
+56l0l6	TCE	O
+56l0l7	hors_période_de_chauffe	A
+
+#- d’engager en fonction de ces résultats, de nouveaux programmes de travaux (ventilation, mise en suppression des salles),
+
+57l0l0	d__engager_en_fonction	N
+57l0l1	de_nouveaux_programmes_de_travaux	N
+57l0l2	ventilation	N
+57l0l3	mise_en_suppression_des_salles	A
+
+#- de concevoir un nouveau projet d’aménagement du square qui tienne compte des caractéristiques des pollutions en place.
+
+58l0l0	de_concevoir_un_nouveau_projet_d__aménagement	N
+
+#Le réaménagement du square n'a pas été prévu dans les années à venir.
+
+59l0l0	Le_réaménagement	N
+59l0l1	n_	O
+59l0l2	a_pas	R
+59l0l3	été_prévu	N
+59l0l4	dans_les_années_à_venir	T

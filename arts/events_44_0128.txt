@@ -1,0 +1,93 @@
+
+#44.0128
+#L'exploitation de la station service a débuté en 1963.
+
+0l0l0	L__exploitation	N
+0l0l1	la_station_service	O
+0l0l2	a_débuté	N
+0l0l3	en_1963__	T
+
+#Cette station comportait:
+
+
+#- jusqu'en 1972: un dépôt souterrain de 6000 l de supercarburant et 4000 l de carburant auto (essence), en réservoir compartimenté,
+
+2l0l0	jusqu__en_1972	T
+2l0l1	6000_l_de_supercarburant	O
+2l0l2	4000_l_de_carburant_auto	O
+2l1l0	un_dépôt_souterrain	D
+2l1l1	supercarburant	U
+2l1l2	carburant_auto	U
+2l1l3	essence	U
+
+#- à partir de juin 1972: une nouvelle cuve de 10 000 l de supercarburant a été ajoutée,
+
+3l0l0	partir_de_juin_1972	T
+3l0l1	une_nouvelle_cuve_de_10_000_l_de_supercarburant	O
+3l0l2	a_été_ajoutée	N
+3l1l0	supercarburant	U
+
+#- 5 volucompteurs.
+
+
+#Les activités ont cessé en 1981.
+
+5l0l0	Les_activités	O
+5l0l1	ont_cessé	N
+5l0l2	en_1981__	T
+
+#A noté que deux maisons d'habitation sont présentes sur le périmètre de l'installation depuis 1950.
+
+6l0l0	deux_maisons_d__habitation	O
+6l0l1	sont_présentes	N
+6l0l2	sur_le_périmètre_de	L
+6l0l3	l__installation	O
+6l0l4	depuis_1950	T
+
+#Dans le cadre du dossier de déclaration de cessation des activités, des investigations de sols ont été menées.
+
+7l0l0	Dans_le_cadre	R
+7l0l1	du_dossier	O
+7l0l2	de_déclaration	N
+7l0l3	cessation_des_activités	N
+7l0l4	des_investigations_de_sols	N
+7l0l5	ont_été_menées	N
+
+#Les résultats des analyses ont montré un impact sur les sols :
+
+
+#– en hydrocarbures au droit de deux anciens volucompteurs (Cmax = 816 mg/kg MS),
+
+9l1l0	en_hydrocarbures	S
+
+#– en hydrocarbures au droit des deux cuves enterrées (C < 500 mg/kg MS),
+
+10l1l0	en_hydrocarbures	S
+10l1l1	deux_cuves_enterrées	D
+
+#– en HAP (hydrocarbures polycycliques aromatiques) au droit des anciens volucompteurs et des deux cuves enterrées (Cmax  = 3,6 mg/kg MS),
+
+11l0l0	des_deux_cuves_enterrées	O
+11l1l0	en_HAP___hydrocarbures_polycycliques_aromatiques	S
+11l1l1	deux_cuves_enterrées	D
+
+#– en plomb au droit des anciens volucompteurs (C = 22 mg/kg MS).
+
+12l1l0	en_plomb	S
+
+#Les investigations ont également portées sur l'analyse des enjeux sanitaires.
+
+13l0l0	Les_investigations	N
+13l0l1	l__analyse	N
+
+#L'étude montre que les enjeux sanitaires sont inférieurs aux limites d'acceptabilité définies par la circulaire du 8 février 2007 relative aux sites et sols pollués, ce qui permet de conclure que le site est compatible avec l’usage futur défini.
+
+14l0l0	8_février_2007	T
+14l0l1	le_site	O
+
+#Compte tenu de la présence de pollutions résiduelles, de l’absence d’investigation des eaux souterraines, des cibles et des voies d’expositions considérés, il a été demandé à l'exploitant de mettre en place des restrictions d’usage.
+
+15l0l0	il	O
+15l0l1	a_été_demandé	N
+15l0l2	l__exploitant	O
+15l0l3	de_mettre_en_place_des_restrictions_d__usage	N

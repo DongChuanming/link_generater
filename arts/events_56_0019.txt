@@ -1,0 +1,137 @@
+
+#56.0019
+#Le SIVOM de la région d'Auray-Belz-Quiberon a été autorisé à exploiter un centre de stockage de matériaux inertes par arrêté préfectoral du 25 novembre 1986, dans l'ancienne carrière de Mané Justice.
+
+0l0l0	Le_SIVOM	O
+0l0l1	la	O
+0l0l2	région_d__Auray	L
+0l0l3	Belz___Quiberon	L
+0l0l4	a_été_autorisé_à_exploiter	N
+0l0l5	un_centre	O
+0l0l6	de_stockage_de_matériaux_inertes	O
+0l0l7	arrêté_préfectoral	O
+0l0l8	25_novembre_1986	T
+0l0l9	l_	O
+0l0l10	ancienne_carrière	N
+0l0l11	Mané_Justice	O
+0l1l0	Le_SIVOM	I
+
+#Le SIVOM a cessé l'exploitation du centre de stockage en 2008.
+
+1l0l0	Le_SIVOM	O
+1l0l1	a_cessé_l__exploitation	N
+1l0l2	du_centre_de_stockage	O
+1l0l3	en_2008__	T
+1l1l0	Le_SIVOM	I
+
+#Le centre de stockage se situe à proximité de la déchetterie de la commune et d'une plateforme de transit de déchets verts.
+
+2l0l0	Le_centre_de_stockage	O
+2l0l1	se_situe_à_proximité_de_la_déchetterie_de_la_commune	L
+2l0l2	une_plateforme_de_transit_de_déchets_verts	O
+
+#Dans le cadre de la cessation d'activité du centre de stockage, un arrêté préfectoral complémentaire du 26 mai 2008 prescrit la mise en œuvre de la démarche de diagnostic et de gestion des sites et sols pollués.
+
+3l0l0	Dans_le_cadre_de	R
+3l0l1	la_cessation_d__activité	N
+3l0l2	centre_de_stockage	O
+3l0l3	un_arrêté_préfectoral_complémentaire	O
+3l0l4	du_26_mai_2008	T
+3l0l5	prescrit_la_mise_en_œuvre_de_la_démarche_de_diagnostic	N
+3l0l6	gestion_des_sites_et_sols_pollués	N
+
+#A cet effet, trois études ont été menées :
+
+
+#- un diagnostic initiale de pollution,
+
+5l0l0	un_diagnostic_initiale_de_pollution	N
+
+#- un diagnostic complémentaire associé à une interprétation de l'état des milieux (IEM),
+
+6l0l0	un_diagnostic_complémentaire	N
+
+#- un plan de gestion.
+
+
+#Les analyses réalisées sur les prélèvements attestent d'une source de pollution constituée des déchets déposés (fraction soluble élevée, teneurs anormales en chrome, cuivre, plomb, baryum), ainsi que la présence de lixiviats en fond de décharge (carbone organique et sulfates), qui constituent une source potentiellement transférable vers les eaux souterraines et superficielles.
+
+8l0l0	une_source_de_pollution	O
+8l1l0	des_déchets_déposés	U
+8l1l1	chrome	S
+8l1l2	cuivre	S
+8l1l3	plomb	S
+8l1l4	baryum	S
+8l1l5	carbone_organique	U
+8l1l6	sulfates	S
+
+#L'IEM conclut en l'impact vraisemblable sur les eaux du ru et sur les eaux du puits privé le plus proche par le carbone organique et les sulfates.
+
+9l1l0	carbone_organique	S
+9l1l1	sulfates	S
+
+#Le risque sanitaire lié aux sulfates est limité au regard des concentrations relevées.
+
+10l1l0	sulfates	S
+
+#La présence de carbone organique peut contribuer au développement microbien.
+
+11l1l0	carbone_organique	U
+
+#Dans le cadre du plan de gestion, des mesures de biogaz ont été réalisées et attestent de l'absence de méthane, d'hydrogène sulfuré ou d'ammoniac sur le site (gaz provenant de la dégradation des déchets ménagers).
+
+12l0l0	Dans_le_cadre	R
+12l0l1	ont_été_réalisées	N
+12l1l0	méthane	S
+12l1l1	hydrogène_sulfuré	S
+12l1l2	ammoniac	S
+
+#Les modalités de réhabilitation comprennent un reprofilage en dôme des matériaux enfouis avec la mise en place d'une couche argileuse imperméable.
+
+13l0l0	Les_modalités	O
+13l0l1	réhabilitation	N
+13l0l2	comprennent	R
+13l0l3	un_reprofilage	N
+13l0l4	matériaux_enfouis	N
+13l0l5	la_mise_en_place_d_	N
+
+#Une revégétalisation du site finalisera la remise en état du site
+
+14l0l0	Une_revégétalisation	N
+14l0l1	du_site	O
+14l0l2	finalisera	R
+14l0l3	la_remise_en_état_du_site	N
+
+#Les recommandations suivantes doivent être mises en œuvre par l'exploitant :
+
+15l0l0	l__exploitant	O
+
+#- réaliser des analyses annuelles des eaux des puits des abords du site, notamment pour les paramètres physico-chimiques et bactériologiques à cause de la présence de carbone organique dans le puits voisin ;
+
+16l0l0	réaliser_des_analyses_annuelles	N
+16l1l0	carbone_organique	U
+
+#- instaurer des restrictions sur l'usage des eaux du ru en interdisant l'abreuvage du bétail, du fait de la présence de carbone organique et de sulfates ;
+
+17l0l0	l__usage_des_eaux_du_ru	A
+17l0l1	interdisant	N
+17l0l2	l__abreuvage_du_bétail	A
+17l1l0	carbone_organique	U
+17l1l1	sulfates	S
+
+#- instaurer des restrictions concernant l'interdiction de réaliser de nouveaux puits dans les abords du site et réaliser une information des riverains présents dans un rayon de 500 mètres autour du site ;
+
+18l0l0	instaurer_des_restrictions	N
+18l0l1	l__interdiction_de_réaliser_de_nouveaux_puits	O
+18l0l2	dans_les_abords_du_site	L
+18l0l3	réaliser	O
+18l0l4	une_information	A
+18l0l5	des_riverains	O
+18l0l6	présents_dans_un_rayon_de_500_mètres_autour_du_site	L
+
+#- instaurer des restrictions sur l'excavation des terres au droit du site, du fait du maintien des déchets en place, et sur le maintien de la couverture imperméable.
+
+19l0l0	l__excavation	N
+19l0l1	des_terres	N
+19l0l2	au_droit_du_site	L
+19l0l3	le_maintien	N

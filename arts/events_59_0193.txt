@@ -1,0 +1,153 @@
+
+#59.0193
+#Cette usine chimique est implantée sur une parcelle de l'ancienne raffinerie BP France Courchelettes.
+
+0l0l0	Cette_usine_chimique	O
+0l0l1	est_implantée	N
+0l0l2	sur_une_parcelle_de	L
+0l0l3	l__ancienne_raffinerie_BP_France_Courchelettes	O
+
+#SIPC a été créée en 1981 pour la reprise des activités de la société PROCHIM.
+
+1l0l0	SIPC	O
+1l0l1	a_été_créée	N
+1l0l2	en_1981	T
+1l0l3	la_reprise	N
+1l0l4	des_activités_de	A
+1l0l5	la_société_PROCHIM	O
+1l1l0	SIPC	I
+1l1l1	la_société_PROCHIM	I
+
+#Elle fabrique des produits de traitement destinés à l'agriculture : mélanges de substances pour la réalisation de produits phytosanitaires.
+
+2l0l0	Elle_fabrique_des_produits_de_traitement	O
+2l0l1	destinés_à	R
+2l0l2	l__agriculture	O
+2l0l3	mélanges_de_substances	O
+
+#Ces produits sont des désherbants, des herbicides et des fongicides (destruction de micro-organismes).
+
+3l0l0	désherbants	N
+3l0l1	destruction	N
+3l0l2	de_micro_organismes	A
+3l1l0	désherbants	S
+3l1l1	herbicides	S
+3l1l2	fongicides	S
+
+#Des biocides pour le traitement industriel de l'eau et des antimousses sont également fabriqués.
+
+4l0l0	Des_biocides	O
+4l0l1	le_traitement_industriel_de_l__eau	A
+4l0l2	antimousses	A
+
+#Site en activité.
+
+5l0l0	Site_en_activité	O
+
+#Site en activité visé par la circulaire du 3 avril 1996 qui impose une étude des sols sur les sites en activité.
+
+6l0l0	Site_en_activité	O
+6l0l1	visé_par	R
+6l0l2	la_circulaire	O
+6l0l3	3_avril_1996	T
+6l0l4	impose_une_étude_des_sols	N
+6l0l5	les_sites_en_activité	O
+
+#Arrêté préfectoral du 04/09/1998 imposant la réalisation de diagnostics initiaux et d'une évaluation détaillée des risques.
+
+7l0l0	Arrêté_préfectoral	O
+7l0l1	04_09_1998	T
+7l0l2	imposant_la_réalisation_de_diagnostics_initiaux	N
+7l0l3	une_évaluation_détaillée_des_risques	N
+
+#ESR réalisée à la date du 25/06/1999.
+
+8l0l0	réalisée_à_la	N
+8l0l1	date_du_25_06_1999__	T
+
+#Etude diagnostic de sous sol rapport d'intervention, réalisé à la date du 18/12/2000.
+
+9l0l0	Etude_diagnostic	N
+9l0l1	réalisé	N
+9l0l2	à_la_date_du_18_12_2000__	T
+
+#Arrêté préfectoral du 17/04/2001 imposant la réalisation d'une étude de sol phase B et d'une ESR.
+
+10l0l0	Arrêté_préfectoral	O
+10l0l1	17_04_2001	T
+10l0l2	imposant_la_réalisation_d__une_étude_de_sol	N
+10l0l3	phase_B	O
+10l0l4	d__une_ESR	O
+
+#Une zone de pollution au mercure liée aux anciennes activités de PROCHIM a été identifiée.
+
+11l0l0	Une_zone_de_pollution_au_mercure	O
+11l0l1	liée_aux	R
+11l0l2	anciennes_activités_de_PROCHIM	O
+11l0l3	a_été_identifiée	N
+11l1l0	mercure	S
+11l1l1	PROCHIM	I
+
+#Pollution historique en deux parties sur le site:
+
+12l0l0	Pollution_historique	O
+
+#*pollution liée à l'activité raffinerie
+
+13l0l0	activité_raffinerie	O
+
+#*pollution liée à la SIPC et Prochim
+
+14l1l0	__pollution	I
+14l1l1	la_SIPC	I
+14l1l2	Prochim	S
+
+#Une surveillance des eaux souterraines est mise en place :cette surveillance est imposée par arrêté préfectoral complémentaire du 22/01/2004.
+
+15l0l0	Une_surveillance_des_eaux_souterraines	A
+15l0l1	est_mise_en_place	N
+15l0l2	cette_surveillance	O
+15l0l3	est_imposée	N
+15l0l4	par_arrêté_préfectoral_complémentaire	O
+15l0l5	du_22_01_2004__	T
+
+#Arrêté préfectoral du 03/05/2005 imposant à la SIPC des prescriptions complémentaires pour la poursuite d'exploitation de son établissement, notamment un traitement par confinement des zones polluées par le mercure et le plomb.
+
+16l0l0	Arrêté_préfectoral	O
+16l0l1	03_05_2005	T
+16l0l2	imposant	N
+16l0l3	la_SIPC	O
+16l0l4	des_prescriptions_complémentaires	O
+16l0l5	la_poursuite_d__exploitation	N
+16l0l6	son_établissement	O
+16l0l7	un_traitement_par_confinement	N
+16l0l8	zones_polluées	O
+16l1l0	la_SIPC	I
+16l1l1	mercure	S
+16l1l2	plomb	S
+
+#Travaux en 2005-2006: dégazage, nettoyage et démontage des anciennes cuves d'hydrocarbures, confinement de la zone polluée.
+
+17l0l0	Travaux	N
+17l0l1	en_2005___2006	T
+17l0l2	__dégazage	N
+17l0l3	nettoyage	N
+17l0l4	démontage_des_anciennes_cuves	N
+17l0l5	d__hydrocarbures	O
+17l0l6	confinement	N
+17l0l7	la_zone_polluée	O
+17l1l0	des_anciennes_cuves_d_	D
+17l1l1	hydrocarbures	S
+
+#Les nappes d'eau souterraines sont utilisées dans le secteur pour un usage AEP (potable) et AEI (industrielle).
+
+18l0l0	un_usage_AEP	A
+
+#Site en sécurité vis à vis des tiers.
+
+19l0l0	Site	O
+
+#Action de l'administration toujours en cours.
+
+20l0l0	Action	O
+20l0l1	l__administration	O

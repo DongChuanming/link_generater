@@ -1,0 +1,65 @@
+
+#66.0012
+#Usine d'incinération d'ordures ménagères dont l'activité a été autorisée en 1989 et a cessé fin 2002.
+
+0l0l0	ordures_ménagères	N
+0l0l1	dont_l__activité_a_été_autorisée_en_1989	T
+0l0l2	et_a_cessé_fin_2002	N
+
+#L'usine se situe en zone rurale proche de la rivière Agly.
+
+1l0l0	L__usine	O
+1l0l1	se_situe_en_zone	A
+1l0l2	rurale_proche_de_la	O
+1l0l3	rivière_Agly__	O
+
+#L'ESR de juin 2003 de GAEA Environnement a été actualisée par Antéa en 2004.
+
+2l0l0	L__ESR_de	O
+2l0l1	juin_2003_de_GAEA_Environnement_a_été_actualisée	L
+
+#Le site est de classe 2, la surveillance des eaux de l'Agly est préconisée.
+
+3l0l0	est_de_classe	T
+3l0l1	2___la_surveillance_des	O
+3l0l2	eaux_de_l__Agly	N
+3l0l3	préconisée	O
+3l0l4	_	T
+3l1l0	préconisée	I
+
+#La DRIRE a proposé un arrêté demandant une analyse annuelle des eaux de l'Agly en amont et en aval du site.
+
+4l0l0	La_DRIRE	O
+4l0l1	arrêté_demandant_une_analyse_annuelle	L
+4l0l2	des_eaux_de_l_	N
+
+#Le suivi post-exploitation sera effectué par le Sydetom66 qui se substitue à l'exploitant de l'usine.
+
+5l0l0	Le_suivi	O
+5l0l1	post_exploitation	O
+5l0l2	effectué_par_le_Sydetom66_qui_se_substitue	A
+5l0l3	à_l__exploitant_de_l__usine	L
+5l1l0	Le_suivi	I
+
+#L'arrêté préfectoral du 24 mai 2005 impose une analyse annuelle des eaux de l'Agly à la suite d'un épisode pluvieux.
+
+6l0l0	L__arrêté_préfectoral_du_24	O
+6l0l1	mai_2005_impose	N
+6l0l2	analyse_annuelle	O
+6l0l3	Agly_à_la_suite	O
+6l1l0	analyse_annuelle	I
+
+#Les paramètres à analyser sont MES, DBO5, DCO, COT, hydrocarbures totaux, sulfates, métaux lourds (As, Cd,Cr6, Hg et Pb).
+
+7l0l0	Les_paramètres_à_analyser	O
+7l0l1	sont_MES__	T
+7l0l2	DBO5__	N
+7l0l3	DCO___COT___hydrocarbures_totaux___sulfates	L
+7l0l4	__métaux	R
+7l0l5	lourds___As___Cd___Cr6___Hg	N
+
+#Il a été constaté le 6 novembre 2007 que le site a été remis en état conformément à l'ESR.
+
+8l1l0	2007_que_le_site	S
+8l1l1	été_remis_en_état_conformément	S
+8l1l2	à_l__ESR	S

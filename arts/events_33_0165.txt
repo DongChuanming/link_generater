@@ -1,0 +1,565 @@
+
+#33.0165
+#Le site est dédié au stockage de carburant aviation pour le ravitaillement des avions de l'aéroport de Mérignac.
+
+0l0l0	Le_site	O
+0l0l1	est_dédié_au	R
+0l0l2	stockage_de_carburant_aviation	O
+0l0l3	ravitaillement_des_avions	O
+0l0l4	l__aéroport	O
+0l0l5	de_Mérignac	L
+0l1l0	carburant	U
+
+#Le site est délimité par le poste de Gendarmerie des Transports Aériens (GTA) au Nord, des pistes de l’aéroport au Nord-Ouest, des dépôts d’hydrocarbures de TOTAL France au Sud-Ouest et Nord-Est et des voies d’accès à l’aéroport et les parkings au Sud-Est.
+
+1l0l0	Le_site	O
+1l0l1	est_délimité_par	R
+1l0l2	le_poste_de_Gendarmerie_des	O
+1l0l3	Transports_Aériens	N
+1l0l4	aéroport_au_Nord_Ouest	L
+1l0l5	dépôts_d__hydrocarbures	O
+1l0l6	TOTAL_France	O
+1l0l7	au_Sud_Ouest_et_Nord_Est	L
+1l0l8	accès_à_l__aéroport_et_les_parkings_au_Sud_Est	L
+1l1l0	dépôts_d_	D
+1l1l1	hydrocarbures	S
+1l1l2	de_TOTAL_France	I
+
+#Le site clôturé et l'accès se fait via la GTA, sous réserve d’une autorisation.
+
+2l0l0	Le_site_clôturé	O
+2l0l1	l__accès	N
+2l0l2	sous_réserve_d_	R
+2l0l3	une_autorisation	N
+2l1l0	la_GTA	I
+
+#Les formations géologiques présentes au droit du site sont :
+
+
+#- alluvions de la Garonne (0-3),
+
+4l0l0	Garonne	L
+
+#- sables du Pléistocène (3-15 mètres minimum de profondeur),
+
+
+#- alternance de sables et de bancs calcaires du Miocène,
+
+
+#- calcaires oligocènes (à partir de 75 m de profondeur).
+
+
+#Le réseau hydrographique se compose :
+
+
+#- du ruisseau de Magudas à 1400 mètres au Nord/Nord-Ouest,
+
+9l0l0	Magudas	O
+9l0l1	à_1400_mètres_au_Nord___Nord___Ouest	L
+
+#- du « Réseau hydrographique des jalles de St Médard et d’Eysines », inscrit comme site d’importance communautaire à 5 km au Nord-Ouest.
+
+10l0l0	jalles_de_St_Médard_et_d__Eysines	L
+10l0l1	à_5_km_au_Nord_Ouest	L
+
+#L' hydrogéologie locale se caractérise par :
+
+11l0l0	L___hydrogéologie	O
+
+#- le système aquifère des sables et graviers du Plio-Quaternaire, en relation avec le réseau hydrographique, écoulement régional vers le Sud-Ouest (potentiellement vulnérable),
+
+12l0l0	écoulement_régional_vers_le_Sud_Ouest	L
+
+#- la nappe des calcaires gréseux du Miocène, écoulement régional vers le Nord-Est.
+
+13l0l0	vers_le_Nord_Est	L
+
+#Probablement non vulnérable car probablement protégée par des argiles,
+
+
+#- la nappe des calcaires de l’Oligocène, écoulement régional vers le Nord-Est.
+
+15l0l0	vers_le_Nord_Est	L
+
+#Probablement non vulnérable
+
+
+#Un seul enjeu environnemental est à remarquer pour les eaux souterraines.
+
+
+#C'est un Captage d'Alimentation en Eau Potable (AEP) à 100 mètres au Nord-Est captant la nappe de l’Oligocène non vulnérable à 110 mètres de profondeur.
+
+18l0l0	à_100_mètres_au_Nord_Est	L
+18l0l1	captant	N
+
+#Aucun forage non AEP potentiellement vulnérable se situe au droit du site.
+
+19l0l0	Aucun_forage_non_AEP	O
+19l0l1	se_situe_au_droit_du_site	L
+
+#Aucun enjeu environnemental n’est recensé dans les eaux de surface.
+
+
+#1 - DIAGNOSTIC
+
+21l0l0	DIAGNOSTIC	N
+
+#C'est lors d'un dépotage de camion qu'il a été observé la présence d'une forte irisation au niveau d'un regard.
+
+22l0l0	C__est	N
+22l0l1	lors_d__un_dépotage_de_camion	L
+
+#Rétrospectivement, l'exploitant a pu déterminer que les différences de comptabilité en terme de volume qu'il observait sur ses cuves était lié à cette fuite, qui serait apparue vers Novembre 2007.
+
+23l0l0	l__exploitant	O
+23l0l1	a_pu_déterminer	N
+23l0l2	serait_apparue	N
+23l0l3	vers_Novembre_2007__	T
+
+#Il estime à moins de 10 m3 la quantité d'hydrocarbures s'étant répandus dans le sol.
+
+24l0l0	hydrocarbures	O
+24l0l1	s__étant_répandus	N
+24l1l0	hydrocarbures_s_	S
+
+#Suite à cette découverte, l'exploitation de la canalisation impactée a été immédiatement stoppée et des tests ont été effectués régulièrement sur la seconde canalisation encore en service.
+
+25l0l0	cette_découverte	N
+25l0l1	l__exploitation	N
+25l0l2	la_canalisation_impactée	O
+25l0l3	a_été_immédiatement_stoppée	N
+25l0l4	des_tests	O
+25l0l5	ont_été_effectués	N
+25l0l6	la_seconde_canalisation	O
+
+#Ces tests consistaient en la mise en pression hydrostatique de la canalisation pendant une durée minimale de vingt minutes à quatre bar et demi.
+
+26l0l0	la_mise_en_pression_hydrostatique	N
+26l0l1	la_canalisation	O
+
+#La fiche de suivi de ces opérations montre qu'elles ont été effectuées tous les quinze jours jusqu'au remplacement de la canalisation fuyarde le 03/04/2009.
+
+27l0l0	ces_opérations	N
+27l0l1	qu__elles_ont_été_effectuées	N
+27l0l2	tous_les_quinze_jours	N
+27l0l3	jusqu_	T
+27l0l4	au_remplacement_de	L
+27l0l5	la_canalisation_fuyarde	O
+27l0l6	le_03_04_2009__	T
+
+#Aucune fuite n'a été observée pendant les tests.
+
+
+#Concernant la pollution, l'exploitant a indiqué que plusieurs piézomètres avaient été mis en place afin de pomper les hydrocarbures présents dans la nappe.
+
+29l0l0	l__exploitant	O
+29l0l1	plusieurs_piézomètres	O
+29l0l2	avaient_été_mis_en_place	N
+29l0l3	hydrocarbures	O
+29l1l0	hydrocarbures	S
+
+#Un écrémage a lieu une fois par semaine.
+
+
+#Le volume d'hydrocarbures extrait avoisinerait, selon l'exploitant et au jour de l'inspection du 28/04/2009, de 18 mètres cube.
+
+31l0l0	l__exploitant	O
+31l0l1	au_jour_de_l__inspection	N
+31l0l2	28_04_2009	T
+31l1l0	hydrocarbures	S
+
+#Suite à cette fuite d’hydrocarbures (Jet A) constatée en Décembre 2007, le diagnostic du site a été réalisé en Juillet et Août 2008.
+
+32l0l0	cette_fuite_d__hydrocarbures	N
+32l0l1	en_Décembre_2007__	T
+32l0l2	le_diagnostic	N
+32l0l3	site	O
+32l0l4	a_été_réalisé	N
+32l0l5	en_Juillet_et_Août_2008__	T
+32l1l0	hydrocarbures	S
+32l1l1	Jet_A	I
+
+#Les investigations de terrain ont consisté à réaliser :
+
+33l0l0	Les_investigations_de_terrain	N
+
+#- dix-neuf sondages sol entre un mètres cinquante et trois mètres de profondeur,
+
+
+#- trois piézomètres forés entre dix et quinze mètres de profondeur en limite de site (Pz1 à Pz3),
+
+35l0l0	en_limite_de_site	L
+
+#- un piézomètre gaz à deux mètres de profondeur à proximité de la canalisation endommagée.
+
+36l0l0	à_proximité_de_la_canalisation_endommagée	L
+
+#Au bilan, les analyses en laboratoire agréé et les mesures sur site mettent en évidence :
+
+
+#- la présence de galets et graviers dans une matrice sablo-limoneuse jusqu’à trois mètres de profondeur environ puis la présence de sables limoneux et de sables jusqu’à quinze mètres de profondeur (maximum investigué).
+
+
+#Ces terrains correspondent aux alluvions de la Garonne puis aux sables du Pléistocène inférieur,
+
+39l0l0	Ces_terrains	O
+39l0l1	correspondent_aux	R
+39l0l2	alluvions_de_la_Garonne	L
+
+#- la présence d’une nappe superficielle dont le niveau statique s’établit vers deux mètres quatre-vingt de profondeur,
+
+40l0l0	s__établit	N
+
+#- un sens d’écoulement local de la nappe superficielle dirigé vers le Sud au 05/08/2008.
+
+41l0l0	dirigé_vers_le_Sud	L
+41l0l1	au_05_08_2008__	T
+
+#Ainsi, les ouvrages Pz1 et Pz3 sont placés en aval-latéral hydraulique, Pz2 en aval hydraulique du site.
+
+42l0l0	les_ouvrages_Pz1	O
+42l0l1	sont_placés	N
+42l0l2	en_aval___latéral_hydraulique	L
+42l0l3	en_aval_hydraulique_du_site	L
+
+#Dans les sols :
+
+
+#- la présence de composés volatils dans l’air interstitiel des sols sur l'ensemble du site hormis sur les sondages les plus éloignés des infrastructures pétrolières situés au Sud-Ouest (S1 et Pz1),
+
+44l0l0	les_sondages	N
+44l0l1	les_plus_éloignés_des_infrastructures_pétrolières_situés_au_Sud_Ouest	L
+44l1l0	composés	U
+
+#- à proximité de la canalisation endommagée, des anomalies en hydrocarbures C10-C40 adsorbés sont mises en évidence sur trois sondages (S17, S18 et S19),
+
+45l0l0	à_proximité_de_la_canalisation_endommagée	L
+45l1l0	hydrocarbures_C10_C40_adsorbés	S
+
+#- à proximité de l’aire de chargement, des anomalies en hydrocarbures C10-C40 adsorbés (S15 et S16) et de légères anomalies sur la somme des 16 HAP (S16) sont mises en évidence,
+
+46l0l0	à_proximité_de_l__aire	L
+46l1l0	hydrocarbures_C10_C40_adsorbés	S
+46l1l1	16_HAP	S
+
+#- à proximité de la zone de stockage des déchets, des anomalies en hydrocarbures C10-C40 adsorbés (S10, S11, S21, S22), en xylènes totaux adsorbés (S11, S12 et S22), en éthylbenzène adsorbés (S22) ainsi que de légères anomalies sur la somme des 16 HAP (S11 et S22) sont mises en évidence,
+
+47l0l0	à_proximité_de_la_zone	L
+47l1l0	hydrocarbures_C10_C40_adsorbés	S
+47l1l1	S10	S
+47l1l2	xylènes_totaux_adsorbés	S
+47l1l3	éthylbenzène_adsorbés	S
+47l1l4	S22	S
+47l1l5	16_HAP	S
+
+#- à proximité de la seconde canalisation (S20), des anomalies en hydrocarbures C10-C40 adsorbés, en xylènes totaux adsorbés, en cuivre adsorbé ainsi qu’une légère anomalie sur la somme des 16 HAP sont mises en évidence,
+
+48l0l0	à_proximité_de_la	L
+48l0l1	seconde_canalisation	O
+48l1l0	hydrocarbures_C10_C40	S
+48l1l1	xylènes_totaux_adsorbés	S
+48l1l2	cuivre_adsorbé	S
+48l1l3	HAP	S
+
+#- sur Pz3, des anomalies en hydrocarbures C10-C40 adsorbés, en xylènes totaux et en éthylbenzène adsorbés, ainsi qu’une légère anomalie sur la somme des 16 HAP sont mises en évidence.
+
+49l1l0	hydrocarbures_C10_C40_adsorbés	S
+49l1l1	xylènes_totaux	S
+49l1l2	éthylbenzène_adsorbés	S
+49l1l3	HAP	S
+
+#Dans les eaux :
+
+50l0l0	les_eaux	O
+
+#- une phase d’hydrocarbures libres sur Pz3 (33 cm) et sur Pz2 (3 mm), situés respectivement en latéral et en aval hydraulique, correspondant à du kérosène peu dégradé,
+
+51l0l0	en_latéral_et_en_aval_hydraulique	L
+51l0l1	kérosène	O
+51l1l0	hydrocarbures	S
+51l1l1	kérosène	S
+
+#- une concentration en HAP (6) supérieure à la limite de qualité des eaux brutes pour la production d’eau destinée à la consommation humaine sur Pz1 (aval hydraulique),
+
+52l0l0	la_production_d__eau_destinée_à_la_consommation_humaine	A
+52l1l0	HAP	S
+
+#- l’absence d’impact en hydrocarbures C5-C40 et BTEX dissous au regard des valeurs de qualité sur Pz1 (aval hydraulique).
+
+53l1l0	hydrocarbures_C5_C40	S
+53l1l1	BTEX	S
+
+#Dans les gaz :
+
+
+#- la présence significative d’alcanes volatils, de BTEX volatils et d’hydrocarbures TPH volatils dans les sols.
+
+55l1l0	alcanes_volatils	S
+55l1l1	BTEX_volatils	S
+55l1l2	d__hydrocarbures_TPH	S
+
+#Recommandations :
+
+
+#- pose d’un piézomètre supplémentaire en amont hydraulique du site afin d’affiner la détermination du sens d’écoulement de la nappe souterraine au droit du site,
+
+57l0l0	pose_d__un_piézomètre_supplémentaire	O
+57l0l1	en_amont_hydraulique_du_site	L
+57l0l2	d__affiner	R
+57l0l3	la_détermination	N
+57l0l4	au_droit_du_site	L
+
+#- pose de piézomètres complémentaires en gros diamètre pour cerner l’extension des hydrocarbures flottants sur la nappe et mettre en place un système de récupération de ces hydrocarbures,
+
+58l0l0	pose_de_piézomètres_complémentaires	O
+58l1l0	hydrocarbures	S
+58l1l1	hydrocarbures	S
+
+#- pose de piézairs complémentaires pour cerner l’extension des hydrocarbures volatils dans les sols et l’utilisation de tubes charbon actif double couche pour éviter la saturation des échantillons,
+
+59l0l0	pose_de_piézairs	N
+59l0l1	complémentaires	O
+59l0l2	l__utilisation_de_tubes_charbon_actif	N
+59l1l0	hydrocarbures_volatils	S
+59l1l1	charbon_actif	U
+
+#- réalisation d’une campagne de mesure d’air ambiant dans les bureaux du dépôt,
+
+60l0l0	réalisation_d__une_campagne_de_mesure	N
+60l0l1	du_dépôt	O
+
+#- réalisation d’une nouvelle campagne de prélèvement d’eau et de prélèvement de gaz afin de valider les résultats obtenus lors de ce diagnostic.
+
+61l0l0	réalisation_d_	R
+61l0l1	une_nouvelle_campagne_de_prélèvement	N
+61l0l2	ce_diagnostic	N
+
+#Les investigations complémentaires ont été réalisées du 24/03/2009 au 03/04/2009 pour la pose des puits et le 06/04/2009 pour les prélèvements d’eau et de produit pur.
+
+62l0l0	Les_investigations_complémentaires	N
+62l0l1	ont_été_réalisées	N
+62l0l2	du_24_03_2009_au_03_04_2009	T
+62l0l3	la_pose	N
+62l0l4	des_puits	O
+62l0l5	et	R
+62l0l6	le_06_04_2009	T
+62l0l7	les_prélèvements_d__eau	N
+
+#Au total, neuf puits de sept mètres de profondeur et un puits de un mètres cinquante de profondeur sont venus compléter le réseau de surveillance mis en place en Août 2008, lors du diagnostic initial des sols, des eaux souterraines et des gaz du sol.
+
+63l0l0	un_puits	O
+63l0l1	sont_venus_compléter	N
+63l0l2	le_réseau_de_surveillance	O
+63l0l3	mis_en_place	N
+63l0l4	en_Août_2008__	T
+63l0l5	lors_du	R
+63l0l6	diagnostic_initial	N
+
+#Ces investigations ont mis en évidence :
+
+64l0l0	Ces_investigations	N
+
+#- le caractère hétérogène des terrains au droit du site,
+
+65l0l0	des_terrains	O
+65l0l1	au_droit_du_site	L
+
+#- des sens d’écoulement orientés vers le Sud et vers le Nord-Est,
+
+66l0l0	orientés_vers_le_Sud_et_vers_le_Nord_Est	L
+
+#- la présence d’une phase libre dans sept ouvrages (Pz2, Pz3, Pz5, Pz8, Pz10, Pz11 et Pz12),
+
+
+#- des caractéristiques hydrodynamiques hétérogènes de l’aquifère.
+
+
+#Les résultats d’analyses en laboratoire ont mis en évidence dans les eaux souterraines :
+
+69l0l0	les_eaux_souterraines	O
+
+#- des teneurs en hydrocarbures C5-C40 de l’ordre de la limite de qualité des eaux brutes pour la production d’eau destinée à la consommation humaine sur Pz6 situé au droit du site (450 µg/l en hydrocarbures C5-C10 et 810 µg/l en hydrocarbures C10-C40),
+
+70l0l0	la_production_d__eau_destinée_à_la_consommation_humaine	A
+70l0l1	situé_au_droit_du_site	L
+70l1l0	hydrocarbures	S
+70l1l1	hydrocarbures	S
+70l1l2	hydrocarbures	S
+
+#- des impacts en benzène sur Pz6 (11 µg/l) et, dans une moindre mesure, sur Pz9 (4,3 µg/l),
+
+71l0l0	des_impacts	O
+71l1l0	benzène	S
+71l1l1	Pz6	S
+
+#- l’absence d’impact en hydrocarbures, BTEX et HAP dissous dans les autres ouvrages.
+
+72l1l0	hydrocarbures	S
+72l1l1	BTEX	S
+72l1l2	HAP	S
+
+#Les résultats d’analyses en laboratoire ont mis en évidence sur le produit pur (Pz2, Pz3, Pz8, Pz10, Pz11 et Pz12) :
+
+73l1l0	Pz2	S
+73l1l1	Pz8	S
+73l1l2	Pz12	S
+
+#- empreintes chromatographiques similaires,
+
+
+#- empreintes chromatographiques similaires à l’étalon du kérosène du laboratoire.
+
+75l0l0	kérosène	O
+75l1l0	kérosène	S
+
+#2 - TRAVAUX
+
+76l0l0	TRAVAUX	O
+76l1l0	TRAVAUX	I
+
+#L'exploitant a indiqué que la nouvelle tuyauterie était maintenant aérienne.
+
+77l0l0	L__exploitant	O
+77l0l1	a_indiqué	N
+77l0l2	la_nouvelle_tuyauterie	O
+77l0l3	maintenant_aérienne	N
+
+#Placée dans un caniveau bétonné en-dessous d'une grille, il permet le passage des camions.
+
+78l0l0	un_caniveau_bétonné	O
+78l0l1	permet	N
+78l0l2	le_passage_des_camions	O
+
+#Ce point là a été vérifié lors de la visite des installations le 28/04/2009.
+
+79l0l0	a_été_vérifié_lors_de_la_visite	N
+79l0l1	installations	O
+79l0l2	le_28_04_2009__	T
+
+#Le caniveau bétonné permet de recueillir les égouttures éventuelles.
+
+80l0l0	Le_caniveau_bétonné	O
+80l0l1	égouttures	O
+
+#Il est pourvu d'un point bas et d'un regard.
+
+
+#Toutefois, ce dernier est situé en amont du regard (dans le sens d'écoulement de la majorité du liquide) et dirige les effluents vers le décanteur.
+
+82l0l0	situé_en_amont_du_regard	L
+82l0l1	dirige	N
+82l0l2	les_effluents	O
+82l0l3	vers_le_décanteur	N
+82l1l0	les_effluents	U
+
+#Concernant les suites données par l'exploitant à l'incident survenu fin 2007 - début 2008, l'inspection a mis en évidence que des mesures ont été prises par l'exploitant pour :
+
+83l0l0	l__exploitant	O
+83l0l1	l__incident	N
+83l0l2	survenu	N
+83l0l3	fin_2007___début_2008__	T
+83l0l4	ont_été_prises	N
+83l0l5	l__exploitant	O
+
+#- s'assurer que la seconde tuyauterie, similaire à celle sur laquelle l'incident s'est produit, n'était pas fuyarde,
+
+84l0l0	la_seconde_tuyauterie	O
+
+#- éviter que cet incident ne se reproduise,
+
+
+#- dépolluer les zones impactées.
+
+86l0l0	dépolluer	N
+86l0l1	les_zones_impactées	O
+
+#Concernant le pompage des hydrocarbures présents dans la nappe, des tests d’épuisement de la phase libre d’hydrocarbures ont été effectués en Octobre et Novembre 2008.
+
+87l0l0	le_pompage	A
+87l0l1	hydrocarbures	O
+87l0l2	des_tests_d__épuisement	N
+87l0l3	phase_libre_d__hydrocarbures	O
+87l0l4	ont_été_effectués	N
+87l0l5	en_Octobre_et_Novembre_2008__	T
+87l1l0	hydrocarbures	S
+87l1l1	hydrocarbures	S
+
+#En Mai 2009, les opérations d’écrémage sont réalisées hebdomadairement sur le site.
+
+88l0l0	En_Mai_2009__	T
+88l0l1	les_opérations_d__écrémage	N
+88l0l2	sont_réalisées_hebdomadairement	N
+
+#Une proposition de dépollution du site est en cours d’élaboration.
+
+89l0l0	Une_proposition_de_dépollution	N
+
+#Le suivi environnemental de la réalisation d’une tranchée pour la pose d’une nouvelle canalisation reliant les cuves aux postes de chargement a été réalisé par SERPOL en Mars 2009. 943 tonnes de terres polluées ont été excavées en Juin 2011.
+
+90l0l0	Le_suivi_environnemental	N
+90l0l1	la_réalisation_d_	N
+90l0l2	une_tranchée	O
+90l0l3	la_pose_d__une_nouvelle_canalisation	N
+90l0l4	cuves_aux_postes_de_chargement	O
+90l0l5	a_été_réalisé	N
+90l0l6	SERPOL	O
+90l0l7	en_Mars_2009__	T
+90l0l8	943_tonnes_de_terres_polluées	O
+90l0l9	ont_été_excavées	N
+90l0l10	en_Juin_2011__	T
+90l1l0	SERPOL	I
+
+#L'écrémage d'hydrocarbures flottants s'est poursuivi permettant de récupérer 6,1 m3 de produit (depuis Avril 2009, soit 65 % à 75 % du volume perdu).
+
+91l0l0	L__écrémage	N
+91l0l1	hydrocarbures_flottants	O
+91l0l2	s__est_poursuivi	N
+91l0l3	6_1_m3_de_produit	O
+91l0l4	depuis_Avril_2009__	T
+91l1l0	hydrocarbures_flottants	U
+
+#Les derniers résultats montrent que l'écrémage a atteint ses limites de performance, pas ou peu d'amélioration observée.
+
+92l0l0	écrémage	O
+92l0l1	a_atteint_ses_limites	N
+
+#Il est donc prévu le démantèlement de l'installation de pompage écrémage, avec la réalisation ponctuelle d'écrémages manuels jusqu'à fin 2012.
+
+93l0l0	le_démantèlement	N
+93l0l1	l__installation_de_pompage_écrémage	N
+93l0l2	la_réalisation_ponctuelle_d__écrémages_manuels	N
+93l0l3	jusqu__à_fin_2012__	T
+
+#Le suivi de la qualité des eaux souterraines est maintenu.
+
+94l0l0	Le_suivi_de	A
+94l0l1	la_qualité_des_eaux_souterraines	O
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+95l0l0	SURVEILLANCE_DES_EAUX	A
+95l0l1	SOUTERRAINES	O
+95l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65-a. de l’arrêté ministériel du 02/02/1998 modifié relatif à la surveillance des eaux souterraines par référence à la rubrique 1434 (Installation de remplissage ou de distribution de liquides inflammables) de la nomenclature des Installations Classées pour la Protection de l'Environnement.
+
+96l0l0	Ce_site	O
+96l0l1	est_soumis_à	R
+96l0l2	l_	O
+96l0l3	02_02_1998	T
+96l0l4	surveillance_des_eaux_souterraines	A
+96l0l5	remplissage_ou_de_distribution_de_liquides_inflammables	A
+96l0l6	la_nomenclature_des_Installations_Classées	O
+96l0l7	pour_la	N
+96l0l8	Protection_de_l_	A
+96l1l0	liquides_inflammables	U
+
+#La campagne du 04/05/2010 montre une diminution des HCTX dissous en PZ1 (672 µg/l) et la persistance de flottants en PZ6.
+
+97l0l0	La_campagne_du_04_05_2010	T
+97l1l0	HCTX	S
+97l1l1	flottants	U
+97l1l2	PZ6	S
+
+#Les piézomètres PZ4, PZ7 et PZ9 ne sont pas impactés.
+

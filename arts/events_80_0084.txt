@@ -1,0 +1,98 @@
+
+#80.0084
+#Superficie approximative :  32 300 m2, au sein de la zone industrielle
+
+0l0l0	__au_sein_de_la_zone_industrielle	L
+
+#ACTIVITÉ :  ……………………………
+
+1l0l0	ACTIVITÉ	N
+
+#* Présente : Conception et fabrication de matériel de freinage ferroviaire
+
+2l0l0	Conception_et_fabrication_de_matériel_de_freinage_ferroviaire	A
+
+#* Passée(s) : Idem, depuis 1966 sous les dénominations Société des régleurs de frein jusqu’en 1976, SAB jusqu’en 1987, puis SAB Nife jusqu’en 1990, puis SAB WABCO jusqu’en 2004.
+
+3l0l0	depuis_1966	T
+3l0l1	les	O
+3l0l2	dénominations	R
+3l0l3	jusqu__en_1976	T
+3l0l4	jusqu__en_1987	T
+3l0l5	jusqu__en_1990__	T
+3l0l6	SAB_WABCO	O
+3l0l7	jusqu__en_2004__	T
+3l1l0	SAB	I
+3l1l1	SAB_Nife	I
+3l1l2	SAB_WABCO	I
+
+#L'activité de traitement de surface a été arrêtée en septembre 2007.
+
+4l0l0	L__activité_de_traitement_de_surface	O
+4l0l1	a_été_arrêtée	N
+4l0l2	en_septembre_2007__	T
+
+#Depuis l'arrêté préfectoral du 8 août 2002, une surveillance des eaux souterraines est en place sur le site de FAIVELEY à Amiens.
+
+5l0l0	Depuis	T
+5l0l1	l__arrêté_préfectoral	O
+5l0l2	8_août_2002__	T
+5l0l3	une_surveillance_des_eaux_souterraines	A
+5l0l4	est_en_place	N
+5l0l5	sur	L
+5l0l6	le_site_de_FAIVELEY	O
+5l0l7	à_Amiens	L
+5l1l0	FAIVELEY	I
+
+#Les résultats de la campagne de surveillance de février 2004 ont mis en évidence :
+
+6l0l0	la_campagne_de_surveillance	N
+6l0l1	de_février_2004	T
+
+#- une forte augmentation de la pollution entre 2002 et 2004 pour tous les paramètres sauf le chlorure de vinyle qui diminue légèrement.
+
+7l0l0	une_forte_augmentation	N
+7l0l1	de_la_pollution	N
+7l0l2	entre_2002_et_2004	T
+7l1l0	le_chlorure_de_vinyle	S
+
+#On constate notamment la présence d'hydrocarbures purs.
+
+8l1l0	hydrocarbures	S
+
+#- la présence de nouveaux polluants (non recherchés auparavant) : 1,1-dichloroéthylène (74 µg/l pour une valeur de constat d'impact pour un usage sensible = 30 µg/l) et dichlorométhane (55 mg/l pour une valeur de constat d'impact = 20 µg/l).
+
+9l1l0	nouveaux_polluants	U
+9l1l1	1_1_dichloroéthylène	S
+9l1l2	dichlorométhane	S
+
+#Une évaluation simplifiée des risques de pollution a été finalisée en août 2005 concluant à la nécessité de procéder à une surveillance de la qualité des eaux souterraines.
+
+10l0l0	Une_évaluation_simplifiée_des_risques_de_pollution	O
+10l0l1	a_été_finalisée	N
+10l0l2	en_août_2005	T
+10l0l3	surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#Dans le cadre de la circulaire du 17 août 2005 relative aux anciens sites industriels d’exploitation ou de transformation d’amiante, une visite du site a été réalisée le 28 février 2007.
+
+11l0l0	Dans_le_cadre_de	R
+11l0l1	la_circulaire	O
+11l0l2	17_août_2005	T
+11l0l3	exploitation_ou_de_transformation_d__amiante	O
+11l0l4	une_visite	N
+11l0l5	du_site_a_été_réalisée	N
+11l0l6	le_28_février_2007__	T
+
+#Elle n'a mis en évidence la présence d'aucun dépôt d'amiante ou produits amiantés.
+
+12l1l0	produits_amiantés	U
+
+#Une visite réalisée le 4 décembre 2008 a permis de constater l'arrêt et le démantèlement des installations de traitement de surface soumises à autorisation.
+
+13l0l0	Une_visite_réalisée	N
+13l0l1	le_4_décembre_2008	T
+13l0l2	l__arrêt	N
+13l0l3	le	O
+13l0l4	démantèlement	N
+13l0l5	des_installations_de_traitement_de_surface	O
+13l0l6	soumises_à_autorisation	L

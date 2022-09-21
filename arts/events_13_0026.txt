@@ -1,0 +1,214 @@
+
+#13.0026
+#RIO TINTO – ALCAN (Ex Aluminium – Pechiney)  à Gardanne - 13-
+
+0l0l0	RIO_TINTO	O
+0l0l1	ALCAN	O
+0l0l2	Aluminium	O
+0l0l3	Pechiney	O
+0l0l4	__à_Gardanne___13_	L
+0l1l0	RIO_TINTO	I
+0l1l1	ALCAN	I
+0l1l2	Aluminium	S
+0l1l3	Pechiney	I
+
+#Cette usine de fabrication d'alumine à partir de Bauxite est implantée à Gardanne depuis plus de cent ans sur une superficie de 40 hectares.
+
+1l0l0	Cette_usine	O
+1l0l1	de_fabrication_d__alumine	A
+1l0l2	Bauxite	O
+1l0l3	est_implantée	N
+1l0l4	à_Gardanne_depuis_plus	L
+1l0l5	de_cent_ans	T
+1l0l6	sur_une_superficie_de_40_hectares	L
+1l1l0	alumine	U
+
+#Elle a été reprise par le groupe canadien ALCAN puis par RIO TINTO.
+
+2l0l0	Elle	O
+2l0l1	a_été_reprise	N
+2l0l2	le_groupe_canadien_ALCAN	O
+2l0l3	RIO_TINTO	O
+2l1l0	le_groupe_canadien_ALCAN	I
+2l1l1	RIO_TINTO	I
+
+#Le procédé Bayer mis en œuvre, utilise de la soude.
+
+3l0l0	la_soude	O
+3l1l0	Bayer	I
+3l1l1	la_soude	U
+
+#La capacité de production est de 700 000 tonnes/an ; elle est sous forme d'alumine spécifique dite technique selon les usages notamment dans le domaine des matériaux et céramiques. (A.
+
+4l0l0	tonnes__	O
+4l0l1	an	T
+4l0l2	le_domaine_des	R
+4l0l3	matériaux_et_céramiques	A
+4l1l0	alumine_spécifique	U
+
+#d'autorisation de 1977).
+
+5l0l0	autorisation	N
+5l0l1	de_1977	T
+
+#Présence de puits privés dans un rayon de 500m autour du site.
+
+6l0l0	Présence_de_puits_privés	O
+6l0l1	dans_un_rayon_de_500_m_autour_du_site	L
+
+#Les risques potentiels proviennent principalement des activités liées à l'utilisation de soude pour les procédés de fabrication (cycle Bayer) et à un moindre degré, à la présence de stockage de fioul lourd pour une utilisation en chaufferie.
+
+7l0l0	Les_risques_potentiels	O
+7l0l1	l__utilisation_de_soude	A
+7l0l2	une_utilisation_en_chaufferie	A
+7l1l0	soude	U
+7l1l1	fioul_lourd	U
+
+#Des dispositions préventives de la pollution du sous-sol existent (mise en rétention des stockages notamment).
+
+
+#Les  résultats de l'ESR, remis au printemps 2002, ont mis en évidence 3 zones susceptibles de pollution a savoir:
+
+9l0l0	remis_au_printemps_2002	T
+9l0l1	évidence_3_zones_susceptibles_de_pollution	O
+
+#Les secteurs B et C, marqués par des produits bitumineux et des hydrocarbures non aromatiques, les équipements à l'origine de ces pollutions ont été enlevés.
+
+10l0l0	Les_secteurs_B	O
+10l0l1	les_équipements	O
+10l0l2	ces_pollutions	O
+10l0l3	ont_été_enlevés	N
+10l1l0	produits_bitumineux	S
+10l1l1	hydrocarbures_non_aromatiques	S
+
+#Les terres polluées ont été excavées, éliminées et remblayées par des matériaux sains.
+
+11l0l0	Les_terres_polluées	O
+11l0l1	ont_été_excavées	N
+11l0l2	éliminées	O
+11l0l3	remblayées	O
+11l0l4	des_matériaux_sains	O
+
+#Le secteur A, marqué par de la soude (anciennes parties de l'usine d'avant 1955), suite à des compléments demandés, le drainage de l'aval hydraulique a été abandonné, son efficacité n'étant pas certaine.
+
+12l0l0	Le_secteur_A	O
+12l0l1	avant_1955	T
+12l0l2	suite_à	R
+12l0l3	des	N
+12l0l4	le_drainage	O
+12l0l5	aval_hydraulique	O
+12l0l6	a_été_abandonné	N
+
+#Des travaux concernant la mise en place de dalle béton et de cuvettes de rétention ont été réalisés et ont permis de réduire les impacts sur la nappe tels qu'ils avaient été envisagés en 2002.
+
+13l0l0	Des_travaux	N
+13l0l1	la_mise_en_place_de_dalle_béton	N
+13l0l2	cuvettes_de_rétention	O
+13l0l3	ont_été_réalisés	N
+13l0l4	ont_permis_de_réduire	N
+13l0l5	les_impacts	O
+13l0l6	sur	R
+13l0l7	la_nappe	O
+13l0l8	avaient_été_envisagés	N
+13l0l9	en_2002	T
+
+#Les analyses d'eau souterraines montrent une contamination de la nappe en aval du site par la soude.
+
+14l0l0	une_contamination	O
+14l0l1	la_nappe	O
+14l0l2	en_aval_du_site	L
+14l1l0	soude	S
+
+#Une mise à jour de l'ESR matérialisée par une Interprétation de l’État des Milieux (IEM) a été rédigée en 2008.
+
+15l0l0	Une_mise_à_jour	N
+15l0l1	l_	O
+15l0l2	a_été_rédigée	N
+15l0l3	en_2008__	T
+
+#Les eaux de ruissellement , éventuelles eaux de rejet et eaux vannes sont collectées et recyclées dans le circuit des eaux industrielles.
+
+16l0l0	le	O
+16l0l1	circuit_des_eaux_industrielles	A
+16l1l0	Les_eaux_de_ruissellement	U
+16l1l1	eaux_industrielles	U
+
+#Ce qui entraine un risque faible de pollution majeure des eaux superficielles environnantes.
+
+
+#Par ailleurs, les travaux de 2002 provoquent une faible probabilité d'infiltrations de polluants dans les sols.
+
+18l0l0	les_travaux_de_2002	T
+
+#En revanche, dans le cadre d'un épisode pluvieux important ou d'un accident, le réseau hydrographique est très sensible.
+
+
+#Dans le cadre de cet IEM des mesures de la qualité de la nappe ont été effectuées et confirment les valeurs du suivi analytique de la nappe : pollution en Soude et Aluminium.
+
+20l0l0	Dans_le_cadre_de	R
+20l0l1	cet_IEM	N
+20l0l2	des_mesures	N
+20l0l3	la_nappe	O
+20l0l4	ont_été_effectuées	N
+20l0l5	la_nappe	O
+20l0l6	Soude	O
+20l0l7	Aluminium	O
+20l1l0	Soude	S
+20l1l1	Aluminium	S
+
+#Les investigations réalisées hors site demontrent la présence notable d'Aluminium dans les eaux de l'étang de Fontvenelle (5 fois la concentration en amont) mais absence de soude.
+
+21l0l0	Les_investigations_réalisées_hors_site	N
+21l0l1	Aluminium	O
+21l0l2	les_eaux	O
+21l0l3	de_l__étang_de_Fontvenelle	L
+21l1l0	Aluminium	S
+21l1l1	soude	S
+
+#La pollution des sols est donc limitée au site mais il existe des relations entre l'impact des eaux de l'étang de Fontvenelle et l'activité du site.
+
+22l0l0	Fontvenelle	L
+22l0l1	l__activité_du_site	A
+
+#Le site a fait l'objet de l'AP du 19/03/2010 dit « RSDE » Recherche de Substances Dangereuses dans l'Eau.
+
+23l0l0	Le_site	O
+23l0l1	a_fait_l__objet_de	R
+23l0l2	l__AP	N
+23l0l3	du_19_03_2010	T
+
+#Le but est d'améliorer la suivi de la surveillance des rejets du site.
+
+24l0l0	la_surveillance_des_rejets_du_site	A
+
+#Ainsi, 9 paramètres sont désormais suivis (Naphtalène, Fluoranthène, Nonylphénol, Cd, Cr, Cu, Pb, Zn et As).
+
+25l0l0	9_paramètres	O
+25l1l0	Naphtalène	S
+25l1l1	Fluoranthène	S
+25l1l2	Nonylphénol	S
+25l1l3	Cd	S
+25l1l4	Cr	S
+25l1l5	Cu	S
+25l1l6	Pb	S
+25l1l7	Zn	S
+25l1l8	As	S
+
+#Une surveillance de la nappe est réalisée par l'industriel depuis fin 2001, au moyen de 4 puits.
+
+26l0l0	Une_surveillance_de_la_nappe	A
+26l0l1	est_réalisée	N
+26l0l2	l__industriel	O
+26l0l3	depuis_fin_2001__	T
+
+#Pas d'anomalies notables.
+
+
+#L'usine est confrontée a deux grands enjeux dans les années à venir : le devenir de la canalisations du rejet à la mer et la valorisation de la bauxaline.
+
+28l0l0	L__usine	O
+28l0l1	deux_grands_enjeux	O
+28l0l2	dans_les_années_à_venir	T
+28l0l3	rejet_à_la_mer	L
+28l0l4	la_valorisation_de_la_bauxaline	A
+28l1l0	la_bauxaline	U

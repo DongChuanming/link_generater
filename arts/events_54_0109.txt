@@ -1,0 +1,139 @@
+
+#54.0109
+#La société Pneumatiques Kléber exerçait à Toul des activités de fabrication de pneumatiques.
+
+0l0l0	La_société_Pneumatiques_Kléber	O
+0l0l1	exerçait	A
+0l0l2	à_Toul	L
+0l0l3	des_activités_de_fabrication_de_pneumatiques	A
+0l1l0	La_société_Pneumatiques_Kléber	I
+
+#Elle est soumise à autorisation au titre de la législation des installations classées pour la protection de l'environnement par l'arrêté préfectoral 17002 du 17 juin 1996 modifiés par les arrêtés préfectoraux 2004/007 du 29 mars 2004 et 2004/436 du 1er septembre 2004.
+
+1l0l0	Elle	O
+1l0l1	est_soumise_à_autorisation	N
+1l0l2	la_législation_des_installations_classées	O
+1l0l3	pour_la_protection_de	A
+1l0l4	l__environnement	O
+1l0l5	l__arrêté_préfectoral_17002	O
+1l0l6	du_17_juin_1996	T
+1l0l7	les_arrêtés_préfectoraux	O
+1l0l8	29_mars_2004	T
+1l0l9	du_1er_septembre_2004__	T
+
+#La cessation d'activité a été notifiée au préfet de Meurthe-et-Moselle le 19/09/2008.
+
+2l0l0	La_cessation_d__activité	N
+2l0l1	a_été_notifiée	N
+2l0l2	au_préfet_de_Meurthe_et_Moselle	O
+2l0l3	le_19_09_2008__	T
+2l1l0	préfet_de_Meurthe_et_Moselle	I
+
+#Ce courrier informait de la mise à l'arrêt définitif des installations classées de cette usine au 31/12/2008.
+
+3l0l0	Ce_courrier	O
+3l0l1	informait	R
+3l0l2	de_la_mise_à_l__arrêt_définitif	N
+3l0l3	des_installations_classées	O
+3l0l4	cette_usine	O
+3l0l5	au_31_12_2008__	T
+
+#Le mémoire de cessation d'activité a été remis en juin 2009.
+
+4l0l0	Le_mémoire_de	O
+4l0l1	cessation_d__activité	N
+4l0l2	a_été_remis	N
+4l0l3	en_juin_2009__	T
+
+#L'usage futur retenu est un usage industriel.
+
+
+#Des pollutions aux hydrocarbures et aux métaux ont été mises en évidence sur le site.
+
+6l0l0	Des_pollutions	O
+6l0l1	métaux	O
+6l0l2	ont_été_mises_en_évidence	N
+6l0l3	le_site	O
+6l1l0	hydrocarbures	S
+6l1l1	métaux	S
+
+#Des composés organiques halogénés volatils (COHV), hydrocarbures aromatiques polycycliques (HAP) et FAP ont été mesurés dans les gaz du sol.
+
+7l0l0	ont_été_mesurés	N
+7l1l0	composés_organiques_halogénés_volatils	S
+7l1l1	COHV	S
+7l1l2	hydrocarbures_aromatiques_polycycliques	S
+7l1l3	HAP	S
+7l1l4	FAP	S
+
+#3 sources de pollution ont été mises en évidence:
+
+8l0l0	3_sources_de_pollution	O
+
+#- le volucompteur de la cuve enterrée de fioul domestique (hydrocarbures),
+
+9l1l0	la_cuve_enterrée	D
+9l1l1	fioul_domestique	U
+9l1l2	hydrocarbures	S
+
+#- le groupe électrogène (hydrocarbures)
+
+10l1l0	hydrocarbures	S
+
+#- l'ancien bâtiment militaire (hydrocarbures et métaux lourds)
+
+11l0l0	l__ancien_bâtiment_militaire	O
+11l0l1	métaux_lourds	O
+11l1l0	hydrocarbures	S
+11l1l1	métaux_lourds	U
+
+#Des travaux de dépollution (excavation notamment) ont été mis en œuvre au niveau de l'ancien bâtiment militaire et de la zone du volucompteur notamment.
+
+12l0l0	Des_travaux_de_dépollution___excavation	N
+12l0l1	ont_été_mis_en_œuvre	N
+12l0l2	au_niveau_de	R
+12l0l3	l__ancien_bâtiment_militaire	O
+12l0l4	la_zone_du_volucompteur	O
+
+#Les fouilles ont été remblayées à l'aide de matériaux sains excavés complétés par des matériaux d'apport sains de type 0/40mm.
+
+13l0l0	Les_fouilles	O
+13l0l1	ont_été_remblayées	N
+13l0l2	l__aide_de_matériaux_sains_excavés	O
+
+#L'analyse des risques résiduels (ARR) réalisée conclut sur la compatibilité de l'usage industriel et commercial avec l'état environnemental du site, sous réserve des hypothèses prises en compte.
+
+
+#Les teneurs en hydrocarbures des terres stockées sur le site après démantèlement des cuves de fioul sont inférieures aux critères d'acceptation.
+
+15l0l0	démantèlement	N
+15l0l1	des_cuves_de_fioul	A
+15l1l0	hydrocarbures	S
+15l1l1	cuves_de	D
+15l1l2	fioul	U
+
+#Une surveillance des eaux souterraines a été mise en place en 2009.
+
+16l0l0	Une_surveillance_des_eaux_souterraines	A
+16l0l1	a_été_mise_en_place	N
+16l0l2	en_2009__	T
+
+#Les teneurs en COHV mesurées dans les eaux souterraines sont les suivantes : 29 µg/l en mars 2012 passant à 2.8 µg/l en septembre 2013, notamment en chlorure de vinyle (pour une valeur de référence de 0.5 µg/l).
+
+17l0l0	Les_teneurs	O
+17l0l1	en_mars_2012	T
+17l0l2	en_septembre_2013__	T
+17l1l0	COHV	S
+17l1l1	chlorure_de_vinyle	S
+
+#Il est confirmé qu'il n'existe pas de source de pollution en COHV alimentant la nappe.
+
+18l0l0	de_source_de_pollution	O
+18l1l0	COHV	S
+
+#Compte tenu de la présence de pollutions résiduelles dans les sols (en particulier hydrocarbures totaux et hydrocarbures aromatiques polycycliques), des servitudes d'utilité publiques ont été instaurées.
+
+19l0l0	des_servitudes_d__utilité_publiques	O
+19l0l1	ont_été_instaurées	N
+19l1l0	hydrocarbures_totaux	S
+19l1l1	hydrocarbures_aromatiques_polycycliques	S

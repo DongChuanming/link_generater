@@ -1,0 +1,322 @@
+
+#33.0272
+#Ancienne usine spécialisée dans la production (montage et test) de cartes électroniques exploitée par IBM France puis, en dernier lieu par SOLECTRON, sur la commune de Canejan (33).
+
+0l0l0	Ancienne_usine	O
+0l0l1	spécialisée_dans_la_production___montage_et_test	A
+0l0l2	cartes_électroniques	O
+0l0l3	exploitée_par	R
+0l0l4	IBM_France	O
+0l0l5	SOLECTRON	O
+0l0l6	sur_la_commune_de_Canejan___33__	L
+0l1l0	IBM_France	I
+0l1l1	SOLECTRON	I
+
+#Les installations étaient autorisées par l'arrêté préfectoral du 28 septembre 1992 modifié par l'arrêté du 11 janvier 2007.
+
+1l0l0	Les_installations	O
+1l0l1	étaient_autorisées	N
+1l0l2	l__arrêté_préfectoral	O
+1l0l3	28_septembre_1992	T
+1l0l4	11_janvier_2007__	T
+
+#Le 09 juin 2008, l'exploitant déclare la cessation définitive d'activité de l'usine à compter d'octobre 2008.
+
+2l0l0	Le_09_juin_2008__	T
+2l0l1	l__exploitant_déclare	O
+2l0l2	la_cessation_définitive_d__activité	N
+2l0l3	l__usine	O
+2l0l4	à_compter_d__octobre_2008__	T
+
+#1 - DIAGNOSTIC
+
+3l0l0	DIAGNOSTIC	N
+
+#Le mémoire de cessation d'activité remis le 1er/09/2009 comporte un diagnostic des sols et de la nappe fait état d'une pollution des sols par des hydrocarbures au niveau du poste de transformation électrique.
+
+4l0l0	Le_mémoire_de	O
+4l0l1	cessation_d__activité_remis	N
+4l0l2	le_1er_09_2009	T
+4l0l3	comporte	R
+4l0l4	un_diagnostic	N
+4l0l5	la_nappe	O
+4l0l6	fait_état	R
+4l0l7	d__une_pollution	N
+4l0l8	sols_par_des_hydrocarbures	O
+4l0l9	au_niveau_du	R
+4l0l10	poste_de_transformation_électrique	O
+4l1l0	hydrocarbures	S
+
+#Un impact par les métaux est observé dans le réceptacle des eaux pluviales du site avant rejet dans l'eau Bourde.
+
+5l0l0	Un_impact	O
+5l1l0	les_métaux	S
+
+#On note également un léger impact sur les eaux souterraines.
+
+
+#2 - TRAVAUX
+
+7l0l0	TRAVAUX	N
+7l1l0	TRAVAUX	I
+
+#L'arrêté préfectoral du 10/03/2010 prescrit les travaux de remise en état suivant :
+
+8l0l0	L__arrêté_préfectoral	O
+8l0l1	10_03_2010	T
+8l0l2	prescrit	R
+8l0l3	les_travaux_de_remise_en_état	N
+
+#- dépollution de la zone du poste de transformation électrique suite à un déversement accidentel passé,
+
+9l0l0	dépollution	N
+9l0l1	la_zone_du_poste_de_transformation_électrique	O
+9l0l2	un_déversement_accidentel	N
+
+#- étude du sens d'écoulement de la nappe et choix d'implantation des piézomètres,
+
+
+#- abandon dans les règles de l'art des piézomètres non utilisés,
+
+11l0l0	abandon_dans	N
+11l0l1	les_règles_de_l__art	O
+11l0l2	piézomètres	O
+
+#- surveillance périodique des eaux souterraines.
+
+12l0l0	surveillance_périodique_des_eaux_souterraines	A
+
+#Suite à la visite du 11/01/2011, l'inspection dresse le procès-verbal de récolement le 02/09/2011 avec les constats suivants :
+
+13l0l0	Suite	R
+13l0l1	à_la_visite	N
+13l0l2	du_11_01_2011	T
+13l0l3	l__inspection	O
+13l0l4	dresse	R
+13l0l5	le_procès_verbal_de_récolement	N
+13l0l6	le_02_09_2011	T
+
+#- installations classées démantelées, équipements évacués,
+
+14l0l0	démantelées	N
+14l0l1	équipements_évacués	N
+
+#- élimination des déchets,
+
+15l0l0	élimination	N
+
+#- remises des études prescrites, diagnostics et nappe,
+
+16l0l0	remises_des_études_prescrites	O
+16l0l1	diagnostics	N
+16l0l2	nappe	O
+
+#- élimination de 5 m3 de terres souillées par les hydrocarbures et élimination par incinération à la SIAP 33 Bassens,
+
+17l0l0	élimination	N
+17l0l1	5_m3_de_terres_souillées	O
+17l0l2	élimination_par_incinération	N
+17l0l3	la_SIAP_33_Bassens	O
+17l1l0	hydrocarbures	S
+17l1l1	la_SIAP	I
+
+#- choix d'implantation des piézomètres en fonction du sens d'écoulement de la nappe,
+
+
+#- non justification de l'abandon des piézomètres inutilisés dans les règles de l'art (destruction ou perte),
+
+19l0l0	l__abandon	N
+19l0l1	piézomètres	O
+19l0l2	les_règles_de_l__art	O
+19l0l3	destruction	N
+
+#- l'état des sols est compatible avec l'usage de type industriel affecté.
+
+20l0l0	l__usage_de_type_industriel_affecté	A
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+21l0l0	SURVEILLANCE_DES_EAUX	A
+21l0l1	SOUTERRAINES	O
+21l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site était soumis à l’application de l’article 65 b) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines parce qu'il présente un risque notable de pollution des eaux souterraines, de par ses activités actuelles (et/ou passées) et/ou de par la sensibilité ou la vulnérabilité des eaux souterraines.
+
+22l0l0	Ce_site	O
+22l0l1	était_soumis_à	R
+22l0l2	l_	O
+22l0l3	2_février_1998	T
+22l0l4	surveillance_des_eaux_souterraines	A
+
+#L'arrêté préfectoral du 28 septembre 1992 prescrit la surveillance des eaux souterraines par 4 piézomètres dans lesquels on mesure les paramètres pH, bicarbonates, chlorures, hydrocarbures, Cd, Cr total, Cu, Fe total, Hg, PB, Zn, organo-chloré (HBC, HCH, Lindane, Heptaclor, Aldrin).
+
+23l0l0	L__arrêté_préfectoral	O
+23l0l1	28_septembre_1992	T
+23l0l2	prescrit	N
+23l0l3	la_surveillance_des_eaux_souterraines	A
+23l1l0	pH	S
+23l1l1	bicarbonates	S
+23l1l2	chlorures	S
+23l1l3	hydrocarbures	S
+23l1l4	Cd	S
+23l1l5	Cr_total	S
+23l1l6	Cu	S
+23l1l7	Fe_total	S
+23l1l8	Hg	S
+23l1l9	PB	S
+23l1l10	Zn	S
+23l1l11	organo___chloré	S
+23l1l12	HBC	S
+23l1l13	HCH	S
+23l1l14	Lindane	S
+23l1l15	Heptaclor	S
+23l1l16	Aldrin	S
+
+#Suite au mémoire de cessation d'activité remis le 1er/09/2009, la DRIRE propose le 12/10/2009 de formaliser la surveillance périodique des eaux souterraines selon les disposition suivantes :
+
+24l0l0	Suite_au	R
+24l0l1	mémoire_de	O
+24l0l2	cessation_d__activité_remis	N
+24l0l3	le_1er_09_2009	T
+24l0l4	la_DRIRE	O
+24l0l5	propose	R
+24l0l6	le_12_10_2009	T
+24l0l7	formaliser	N
+24l0l8	la_surveillance_périodique_des_eaux_souterraines	A
+24l1l0	la_DRIRE	I
+
+#- nivellement des piézomètres existants,
+
+25l0l0	nivellement_des_piézomètres	O
+
+#- détermination du sens d'écoulement de le nappe,
+
+
+#- maintien de 3 piézomètres pour la surveillance,
+
+27l0l0	la_surveillance	A
+
+#- convention avec les propriétaires concernés,
+
+28l0l0	les_propriétaires_concernés	O
+
+#- fréquence semestrielles de prélèvements,
+
+
+#- analyses de HAP (naphtalène, acénaphtalène, fluorène), As, Cr, Ni, Pb et Ni.
+
+30l1l0	HAP	S
+30l1l1	naphtalène	S
+30l1l2	acénaphtalène___fluorène	S
+30l1l3	As	S
+30l1l4	Cr	S
+30l1l5	Ni	S
+30l1l6	Pb	S
+30l1l7	Ni	S
+
+#- bouchage des piézomètres non utilisés dans les règles de l'art,
+
+31l0l0	bouchage	N
+31l0l1	des_piézomètres	O
+31l0l2	les_règles_de_l__art	O
+
+#- information des acquéreurs.
+
+32l0l0	information	N
+32l0l1	des_acquéreurs	O
+
+#Le rapport BURGEAP de décembre 2010 fait état de la condamnation des piézomètres 4bis, 9, 11, 11bis, et 13bis et la création d'un nouveau PZ9.
+
+33l0l0	Le_rapport_BURGEAP	O
+33l0l1	de_décembre_2010	T
+33l0l2	la_condamnation_des_piézomètres	O
+33l0l3	la_création_d__un_nouveau_PZ9	N
+33l1l0	BURGEAP	I
+33l1l1	PZ9	S
+
+#Les piézomètres 3, 5, 6, 7, 8 et 15 n'ont pas été retrouvés.
+
+34l0l0	Les_piézomètres	O
+
+#4 - RESTRICTIONS D'USAGES
+
+35l0l0	USAGES	O
+
+#L'impact sur le réceptacle des eaux pluviales est limité dans son importance et dans l'emprise spatiale.
+
+
+#Les terrains sont destinés à un usage de type industriel ou commercial.
+
+37l0l0	Les_terrains	O
+37l0l1	sont_destinés_à	R
+37l0l2	un_usage	O
+
+#En cas de changement d'usage, un diagnostic complémentaire et une dépollution éventuelle serait à mener sur les zones d'épandage, la zone de rejet de la station d'épuration et la zone de rejet des eaux pluviales.
+
+38l0l0	En_cas	R
+38l0l1	de_changement_d__usage	O
+38l0l2	un_diagnostic_complémentaire	N
+38l0l3	une_dépollution_éventuelle	O
+38l0l4	serait_à_mener	N
+38l0l5	la_zone_de_rejet	O
+38l0l6	la_station_d_	O
+38l0l7	la_zone_de_rejet	O
+
+#Le 12/10/2009, la DRIRE propose à l'ancien exploitant de mettre en place une servitude conventionnelle au profit de l'état sur ces terrains.
+
+39l0l0	Le_12_10_2009	T
+39l0l1	la_DRIRE	O
+39l0l2	l__ancien_exploitant	O
+39l0l3	de_mettre_en_place	N
+39l0l4	une_servitude_conventionnelle	O
+39l0l5	au_profit	R
+39l0l6	ces_terrains	O
+39l1l0	la_DRIRE	I
+
+#Une analyse juridique approfondie montre que la démarche ne peut aboutir, pour des questions de droit : ce projet est donc abandonné.
+
+40l0l0	la_démarche	O
+40l0l1	ce_projet	O
+
+#5 - CESSION
+
+41l0l0	CESSION	N
+
+#Les terrains ont été vendus à la SCI Paola par acte notarié du.......
+
+42l0l0	Les_terrains	O
+42l0l1	ont_été_vendus_à	N
+42l0l2	la_SCI_Paola	O
+42l1l0	la_SCI_Paola	I
+
+#Les restrictions d'usages visées au point 4 y figurent.
+
+
+#6 - RÉCOLEMENT
+
+
+#Le 2 septembre 2011, la préfecture de la Gironde transmet à l'exploitant, au maire et au nouveau propriétaire des terrains le procès verbal de récolement des travaux dressé par l'inspection des installations classées suite à l'inspection du 11 janvier 2011, en notifiant à l'exploitant le fait que le suivi de la qualité des eaux souterraines se poursuit, et au maire et au propriétaire le fait qu'un changement d'usage, pour un usage autre qu'industriel ou commercial, devra s'accompagner d'analyses complémentaires et éventuellement de travaux de dépollution sur les zones d'épandage et de rejet des eaux visées dans l'arrêté du 10 mars 2010.
+
+45l0l0	Le_2_septembre_2011__	T
+45l0l1	la_préfecture_de_la_Gironde	O
+45l0l2	l__exploitant	O
+45l0l3	maire_et_au_nouveau_propriétaire_des_terrains	O
+45l0l4	le_procès_verbal_de_récolement	N
+45l0l5	des_travaux_dressé	N
+45l0l6	par_l__inspection_des_installations_classées	O
+45l0l7	suite_à	R
+45l0l8	l_	O
+45l0l9	inspection	R
+45l0l10	11_janvier_2011__	T
+45l0l11	l__exploitant	O
+45l0l12	le	O
+45l0l13	suivi_de_la_qualité_des_eaux_souterraines	A
+45l0l14	maire_et_au_propriétaire	O
+45l0l15	un_changement_d__usage	N
+45l0l16	un_usage_autre_qu__industriel_ou_commercial	A
+45l0l17	s__accompagner	O
+45l0l18	d__analyses_complémentaires	O
+45l0l19	de_travaux_de_dépollution	N
+45l0l20	sur_les_zones_d__épandage_et_de_rejet_des_eaux_visées_dans_l__arrêté	L
+45l0l21	10_mars_2010__	T
+45l1l0	la_préfecture_de_la_Gironde	I

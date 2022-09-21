@@ -1,0 +1,246 @@
+
+#35.0023
+#La station service a été autorisée à fonctionner dès avril 1970 (premier récépissé de déclaration) puis par arrêté préfectoral du 30 mars 1977.
+
+0l0l0	La_station_service	O
+0l0l1	a_été_autorisée_à_fonctionner	N
+0l0l2	dès_avril_1970	T
+0l0l3	premier_récépissé_de_déclaration	N
+0l0l4	par_arrêté_préfectoral	O
+0l0l5	30_mars_1977__	T
+
+#Cet arrêté a été complété par un deuxième arrêté du 12 décembre 1980, pour l'extension de l'activité.
+
+1l0l0	Cet_arrêté	O
+1l0l1	a_été_complété	N
+1l0l2	un_deuxième_arrêté	O
+1l0l3	du_12_décembre_1980__	T
+1l0l4	l__extension	N
+1l0l5	l__activité	O
+
+#L'installation comportait :
+
+
+#- deux réservoirs enterrés, double enveloppe, de 60 000 l chacun de supercarburant auto,
+
+3l0l0	réservoirs_enterrés	O
+3l0l1	supercarburant_auto	O
+3l1l0	supercarburant_auto	U
+
+#- un réservoir enterré, simple paroi, de 30 000 l de supercarburant auto,
+
+4l0l0	l_de_supercarburant_auto	A
+4l1l0	un_réservoir_enterré	D
+4l1l1	supercarburant_auto	U
+
+#- un réservoir enterré, simple paroi, de 30 000 litres (18 000 l de super et 12 000 l de carburant auto),
+
+5l0l0	l_de_carburant_auto	O
+5l1l0	un_réservoir_enterré	D
+5l1l1	super	U
+5l1l2	carburant_auto	U
+
+#- deux réservoirs enterrés, simple paroi, de 15 000 l chacun de gas oil.
+
+6l1l0	gas_oil	U
+
+#La société des Pétroles SHELL a exploité cette station jusqu’en juin 2007.
+
+7l0l0	La_société_des_Pétroles_SHELL	O
+7l0l1	a_exploité	N
+7l0l2	cette_station	O
+7l0l3	jusqu__en_juin_2007__	T
+7l1l0	La_société_des_Pétroles_SHELL	I
+
+#Le dossier de cessation d'activité comporte un diagnostic de pollution des sols (avril 2007) qui met en évidence deux sources-sol de pollution et une migration vers les eaux souterraines :
+
+8l0l0	Le_dossier	O
+8l0l1	cessation_d__activité	N
+8l0l2	comporte	R
+8l0l3	un_diagnostic_de_pollution_des_sols__	N
+8l0l4	avril_2007__	T
+8l0l5	deux_sources___sol_de_pollution	O
+
+#- une source sol de type diésel qui atteint la zone saturée,
+
+9l1l0	diésel	S
+
+#- une source sol de BTEX (benzène, toluène, éthylène, xylène) et hydrocarbures volatils qui atteint la zone saturée avec migration via les eaux souterraines,
+
+10l0l0	atteint_la_zone_saturée	O
+10l1l0	BTEX	S
+10l1l1	benzène	S
+10l1l2	toluène	S
+10l1l3	éthylène	S
+10l1l4	xylène	S
+10l1l5	hydrocarbures_volatils	S
+
+#- un impact des eaux souterraines par les hydrocarbures totaux (HCT) et les BTEX, susceptibles de migrer vers le ruisseau du Pont Lagot (pratique de la pêche) et vers les captages privés.
+
+11l0l0	un_impact	N
+11l0l1	eaux_souterraines	O
+11l0l2	migrer	N
+11l0l3	vers_le_ruisseau_du_Pont_Lagot	L
+11l0l4	vers_les_captages	L
+11l1l0	hydrocarbures_totaux	S
+11l1l1	HCT	S
+11l1l2	les_BTEX	S
+
+#Un rapport complémentaire de diagnostic environnemental réalisé en 2008 montre une baisse significative en polluants dans les eaux souterraines.
+
+12l0l0	Un_rapport_complémentaire	O
+12l0l1	de_diagnostic_environnemental	N
+12l0l2	réalisé	N
+12l0l3	en_2008	T
+
+#Il permet de vérifier la limitation de l'extension horizontale du panache de pollution mais pas pour le benzène et les HCT.
+
+13l1l0	le_benzène	S
+13l1l1	les_HCT	S
+
+#Ce rapport n’établit pas avec certitude que les polluants détectés n’ont pas d’impact sur la santé du voisinage par inhalation.
+
+14l1l0	les_polluants	U
+
+#Des mesures ont donc été faites en décembre 2009 sur les eaux de surface, en aval de l'ancienne station service.
+
+15l0l0	Des_mesures_ont_donc_été_faites	N
+15l0l1	en_décembre_2009	T
+15l0l2	en_aval_de_l_	L
+
+#Les paramètres analysés sont les HCT (C5-C40), les HAP, les MTBE, les BTEX.
+
+16l1l0	les_HCT	S
+16l1l1	C5_C40__	S
+16l1l2	les_HAP	S
+16l1l3	les_MTBE	S
+16l1l4	BTEX	S
+
+#Seul du naphtalène a été détecté, en faibles concentrations,n'engendrant pas d'impact significatif sur le milieu.
+
+17l0l0	naphtalène	O
+17l0l1	a_été_détecté	N
+17l1l0	du_naphtalène	S
+
+#Il est retrouvé aussi bien en amont qu'en aval de l'ancienne station service; ce qui induit une origine non imputable à l'ancienne station service.
+
+18l0l0	en_amont	L
+18l0l1	en_aval_de_l__ancienne_station_service	L
+
+#Une campagne de mesures des eaux souterraines a été réalisée en mars 2009 et met en évidence de fortes teneurs en HCT, BTEX et HAP pour le piézomètre S12 (plan-cartographique-35.0023--3.pdf) et dans une moindre concentration, voire inférieures aux limites de quantification, dans les autres piézomètres.
+
+19l0l0	Une_campagne_de_mesures	N
+19l0l1	eaux_souterraines	O
+19l0l2	a_été_réalisée	N
+19l0l3	en_mars_2009	T
+19l1l0	HCT	S
+19l1l1	BTEX	S
+19l1l2	HAP	S
+
+#Au vu de ces résultats, des travaux de dépollution ont été réalisé en avril 2009, permettant de traiter les sources sols à l'origine de l'impact des eaux souterraines :
+
+20l0l0	des_travaux_de_dépollution	N
+20l0l1	ont_été_réalisé	N
+20l0l2	en_avril_2009__	T
+20l0l3	permettant	R
+20l0l4	de_traiter	N
+20l0l5	les_sources_sols	O
+
+#- curage et évacuation de 2 545 tonnes de sols impactés par des hydrocarbures,
+
+21l0l0	curage	N
+21l0l1	évacuation	N
+21l0l2	2_545_tonnes_de_sols_impactés	O
+21l0l3	hydrocarbures	O
+21l1l0	hydrocarbures	S
+
+#- concassage et évacuation de 28 tonnes de bétons impactés par des hydrocarbures.
+
+22l0l0	concassage	N
+22l0l1	évacuation	N
+22l0l2	28_tonnes_de_bétons_impactés	O
+22l0l3	hydrocarbures	O
+
+#Le site de l'ancienne station service se situe au  niveau du "barreau du Pont Lagot", déviation mise en place au niveau de la rocade de Rennes pour assurer  la continuité de la liaison Paris-Brest.
+
+23l0l0	Le_site	O
+23l0l1	l__ancienne_station_service	O
+23l0l2	se_situe_au___niveau_du___barreau_du_Pont_Lagot	L
+23l0l3	__déviation	O
+23l0l4	mise_en_place	N
+23l0l5	au_niveau_de_la_rocade_de_Rennes	L
+23l0l6	assurer__	O
+23l0l7	la_continuité_de_la_liaison_Paris___Brest	A
+
+#Ainsi, de 2009 à 2012, cette zone a subit de nombreux travaux de voiries et de remaniement des terres.
+
+24l0l0	de_2009_à_2012__	T
+24l0l1	cette_zone	O
+24l0l2	a_subit_de_nombreux_travaux_de_voiries	N
+24l0l3	de_remaniement_des_terres	N
+
+#La surveillance des eaux souterraines étaient assurées en fonction de travaux et des piézomètres remblayés puis recréés.
+
+25l0l0	La_surveillance_des_eaux_souterraines	A
+25l0l1	recréés	N
+
+#La situation hydraulique n'étant pas stabilisée jusque la fin des travaux, les résultats du suivi piézométrique est donné à titre d'information.
+
+26l0l0	La_situation_hydraulique	O
+26l0l1	étant_pas_stabilisée	N
+26l0l2	jusque	T
+26l0l3	la_fin_des_travaux	N
+26l0l4	suivi_piézométrique	A
+
+#Ils confirment la contamination des eaux souterraines par les HCT (C6-C10 et C10-C40), les BTEX, les HAP et le MTBE.
+
+27l0l0	la_contamination	O
+27l0l1	les_HCT	O
+27l1l0	les_HCT	S
+27l1l1	C6_C10	S
+27l1l2	les_BTEX	S
+27l1l3	les_HAP	S
+27l1l4	MTBE	S
+
+#Cependant, les concentrations sont comparables aux précédentes, voire légèrement inférieures.
+
+
+#Les travaux étant dorénavant terminée, les eaux souterraines ont pu se stabiliser en 2012.
+
+29l0l0	Les_travaux	N
+29l0l1	étant_dorénavant_terminée	N
+29l0l2	les_eaux_souterraines	O
+29l0l3	ont_pu_se_stabiliser	N
+29l0l4	en_2012__	T
+
+#Un arrêté préfectoral prescrivant la surveillance des eaux souterraines à partir d'un réseau piézométrique stabilisé, complétée d'un bilan quadriennal doit être pris.
+
+30l0l0	Un_arrêté_préfectoral	O
+30l0l1	prescrivant	R
+30l0l2	la_surveillance_des_eaux_souterraines	A
+
+#Le suivi des eaux est toutefois assuré pour les paramètres HCT (C6-C10 et C10-C40), BTEX, HAP, MTBE (méthyl-tertio-buthyl-étehr).
+
+31l0l0	Le_suivi_des_eaux	A
+31l1l0	HCT	S
+31l1l1	BTEX	S
+31l1l2	HAP	S
+31l1l3	MTBE	S
+31l1l4	méthyl___tertio___buthyl___étehr	S
+
+#Les résultats de juin 2014 mettent en évidence :
+
+32l0l0	juin_2014	T
+
+#- une tendance à la baisse pour les hydrocarbures C5-C10 et les BTEX,
+
+33l1l0	les_hydrocarbures_C5_C10	S
+33l1l1	les_BTEX	S
+
+#- une augmentation en MTBE,
+
+34l1l0	MTBE	I
+
+#- l'absence de HAP.
+
+35l1l0	HAP	S

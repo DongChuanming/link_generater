@@ -1,0 +1,662 @@
+
+#45.0026
+#Cet établissement, spécialisé dans le décapage de peinture par pyrolyse (le thermolaquage) n’est plus exploité depuis l’arrêté préfectoral de fermeture du 1er juin 2004.
+
+0l0l0	Cet_établissement	O
+0l0l1	spécialisé_dans	R
+0l0l2	le_décapage_de_peinture_par_pyrolyse	A
+0l0l3	le_thermolaquage	A
+0l0l4	n__est_plus_exploité	N
+0l0l5	depuis	T
+0l0l6	l__arrêté_préfectoral_de_fermeture	O
+0l0l7	du_1er_juin_2004__	T
+
+#L’établissement est situé en zone urbaine de CHATEAUNEUF SUR LOIRE.
+
+1l0l0	L__établissement	O
+1l0l1	est_situé_en_zone_urbaine_de_CHATEAUNEUF_SUR_LOIRE	L
+1l1l0	CHATEAUNEUF_SUR_LOIRE	I
+
+#Le 9 juin 2004, le tribunal de commerce d’ORLEANS a prononcé la liquidation judiciaire de cette société.
+
+2l0l0	Le_9_juin_2004__	T
+2l0l1	le_tribunal_de_commerce_d__ORLEANS	O
+2l0l2	a_prononcé_la_liquidation_judiciaire	N
+2l0l3	cette_société	O
+2l1l0	le_tribunal_de_commerce_d__ORLEANS	I
+
+#Le site comprend des zones de stockage de produits solides et liquides, des ateliers de production (cuves de traitement de surface, installations de peinture, four à pyrolyse…) ainsi qu’une station de détoxication des effluents liquides.
+
+3l0l0	Le_site	O
+3l0l1	comprend	R
+3l0l2	des_zones	O
+3l0l3	pyrolyse	A
+3l0l4	une_station_de_détoxication_des	O
+3l1l0	produits_solides	U
+3l1l1	détoxication_des_effluents_liquides__	U
+
+#Le 16 juillet 2004, bien qu’étant à l’arrêt, un incendie s’est déclaré dans une partie de l’usine où étaient encore stockés des produits chimiques.
+
+4l0l0	Le_16_juillet_2004__	T
+4l0l1	un_incendie_s__est_déclaré	N
+4l0l2	dans_une_partie_de_l__usine	L
+4l0l3	étaient	A
+4l0l4	encore_stockés	N
+4l0l5	des_produits_chimiques	O
+4l1l0	des_produits_chimiques	U
+
+#L’incendie a pris dans le local du four à pyrolyse et sous l’effet du rayonnement thermique plusieurs bidons en plastique contenant des produits chimiques (NOVASTRIP) avaient fondu.
+
+5l0l0	L__incendie	N
+5l0l1	a_pris	O
+5l0l2	dans_le_local	L
+5l0l3	four_à_pyrolyse	A
+5l0l4	bidons	O
+5l1l0	des_produits_chimiques___NOVASTRIP	U
+
+#Les produits et l’eau d’extinction ont été dirigés vers une fosse étanche servant à la récupération des bains usés avant traitement par la station de détoxication de l’usine.
+
+6l0l0	Les	O
+6l0l1	l__eau_d__extinction	O
+6l0l2	ont_été_dirigés	N
+6l0l3	vers	R
+6l0l4	une_fosse_étanche	O
+6l0l5	servant_à	R
+6l0l6	la	N
+6l0l7	bains_usés	O
+6l0l8	la_station_de_détoxication	O
+6l0l9	l__usine	O
+6l1l0	Les_produits	U
+6l1l1	bains_usés	U
+
+#Sont présents à l’intérieur des bâtiments :
+
+
+#- des cuves remplies de bains usés de décapage (quantité environ 30m3) ;
+
+8l0l0	cuves_remplies	O
+8l0l1	de_bains_usés_de_décapage	O
+
+#- des big-bags contenant des déchets de peinture sous forme de poudre époxy usagée (12 big bags) ;
+
+9l0l0	big___bags	O
+9l1l0	des_déchets_de_peinture	U
+9l1l1	poudre_époxy	S
+
+#- plusieurs bidons de lessive de soude à 30% (6x25l) ;
+
+10l0l0	plusieurs_bidons_de_lessive_de_soude	O
+10l1l0	lessive_de_soude	U
+
+#- des bidons de NOVASTRIP 99B, produit toxique et facilement inflammable ;
+
+11l1l0	des_bidons	D
+11l1l1	de_NOVASTRIP	I
+11l1l2	99B	U
+11l1l3	produit_toxique	U
+11l1l4	inflammable	U
+
+#- des bidons de produits de décapage SYSTOSTRIP, produit toxique, facilement inflammable et corrosif (6x25l) ;
+
+12l0l0	des_bidons_de_produits_de_décapage_SYSTOSTRIP	O
+12l1l0	SYSTOSTRIP	I
+12l1l1	produit_toxique	U
+12l1l2	inflammable	U
+
+#- des cuves remplies de produits de traitement (acide sulfurique, bisulfite, lessive de soude, etc..) utilisées pour le fonctionnement de la station de détoxication;
+
+13l0l0	des_cuves	O
+13l0l1	remplies	R
+13l0l2	de_produits_de_traitement	O
+13l0l3	la_station_de_détoxication	A
+13l1l0	des_cuves_remplies	D
+13l1l1	acide_sulfurique	S
+13l1l2	bisulfite	S
+13l1l3	soude	S
+13l1l4	détoxication	U
+
+#Sont présents à l’extérieur des bâtiments :
+
+
+#- des fûts vides métalliques ;
+
+15l0l0	fûts_vides_métalliques	O
+
+#- des fûts vides en plastique (environ une vingtaine de palettes) ;
+
+
+#- des palettes en bois (environ 50m3) et des déchets de bois ;
+
+17l0l0	déchets_de_bois	A
+17l1l0	déchets_de_bois	U
+
+#- des structures métalliques de rangement ;
+
+18l0l0	des_structures_métalliques	O
+
+#- 2 bennes de déchets industriels banals (cartons, plastique, bois, etc…)
+
+19l0l0	2_bennes_de_déchets_industriels_banals	O
+19l1l0	déchets_industriels_banals	U
+19l1l1	cartons	U
+
+#Des prélèvements de sol et des analyses d'eaux souterraines ont été réalisés en 2001 dans le cadre de l'étude de sols datée de janvier 2002.
+
+20l0l0	ont_été_réalisés	N
+20l0l1	en_2001	T
+20l0l2	dans_le_cadre_de	R
+20l0l3	l__étude_de_sols	N
+20l0l4	datée_de_janvier_2002	T
+
+#Dix sondages de sol ont été effectués.
+
+21l0l0	Dix_sondages_de_sol	N
+21l0l1	ont_été_effectués	N
+
+#Les résultats indiquent la présence de plusieurs pollutions :
+
+
+#- de chrome total dans les sols au droit de tous les sondages et plus particulièrement au niveau de deux d'entre eux;
+
+23l0l0	chrome_total	O
+23l0l1	au_niveau_de_deux_d_	L
+23l1l0	chrome_total	S
+
+#- de fer deux fois plus importante sur deux sondages que sur l'ensemble des autres;
+
+
+#- d'aluminium quatre à cinq fois plus importante sur deux sondages que sur l'ensemble des autres,
+
+25l0l0	aluminium	O
+25l1l0	d__aluminium	S
+
+#- de benzène dans un sondage.
+
+26l1l0	benzène	S
+
+#Les analyses effectuées à travers trois piézomètres mettent en évidence :
+
+
+#- la présence d'aluminium à une concentration de 650 μg/L sur un des ouvrages (pour valeur de référence 200 μg/L pour les eaux destinées à la consommation humaine telle que définie dans l'arrêté du 11/01/2007);
+
+28l0l0	aluminium	O
+28l0l1	11_01_2007	T
+28l1l0	aluminium	S
+
+#- la présence de 1,2 dichloroéthane sur ce même piézomètre à une concentration de 2200 μg/L (avec 3 μg/L comme valeur seuil d'après l'arrêté précité).
+
+29l1l0	1_2_dichloroéthane	S
+
+#Suite à l’incendie du 16 juillet 2004, l’arrêté préfectoral complémentaire du 22 juillet 2004 a imposé au mandataire judiciaire en charge de la liquidation de la société PROTIME, la mise en sécurité du site dans la mesure où il existe un stockage de matières premières et de déchets industriels de différentes natures à l’intérieur mais aussi à l’extérieur des bâtiments.
+
+30l0l0	Suite_à	R
+30l0l1	l__incendie	N
+30l0l2	du_16_juillet_2004__	T
+30l0l3	l__arrêté_préfectoral_complémentaire	O
+30l0l4	22_juillet_2004	T
+30l0l5	a_imposé	N
+30l0l6	la_liquidation	N
+30l0l7	la_société_PROTIME	O
+30l0l8	la_mise_en_sécurité	N
+30l0l9	à_l__extérieur_des_bâtiments	L
+30l1l0	la_société_PROTIME	I
+30l1l1	déchets_industriels	U
+
+#Par arrêté du 22 juillet 2004 (réhabilitation du site) le mandataire judiciaire a été mis en demeure de transmettre un dossier contenant le plan à jour des terrains d’emprise de l’installation ainsi qu’un mémoire sur l’état du site.
+
+31l0l0	du_22_juillet_2004	T
+31l0l1	réhabilitation	N
+31l0l2	site___le_mandataire_judiciaire	O
+31l0l3	a_été_mis_en_demeure_de_transmettre	N
+31l0l4	un_dossier	O
+31l0l5	le_plan_à_jour_des_terrains	O
+
+#Par arrêté du 4 août 2004 (modifiant l’arrêté préfectoral de mise en demeure du 22 juillet 2004), un délai supplémentaire de trois mois à compter de la date de notification de l’arrêté a été accordé au mandataire afin de procéder à la réhabilitation du site.
+
+32l0l0	4_août_2004	T
+32l0l1	modifiant	N
+32l0l2	l__arrêté_préfectoral_de_mise_en_demeure	O
+32l0l3	22_juillet_2004	T
+32l0l4	compter_de_la_date_de_notification	T
+32l0l5	l__arrêté	N
+32l0l6	a_été_accordé	N
+32l0l7	mandataire	O
+32l0l8	afin	R
+32l0l9	la_réhabilitation_du_site	N
+
+#Par courrier du 24 septembre 2004, Monsieur le maire de la commune de CHATEAUNEUF SUR LOIRE informait les services de la préfecture du LOIRET que l’obturation des réseaux n’avait toujours pas été réalisée alors que la SAUR, gestionnaire des réseaux de la ville, avait transmis au mandataire le devis correspondant à ces travaux.
+
+33l0l0	24_septembre_2004__	T
+33l0l1	Monsieur_le_maire	O
+33l0l2	la_commune	O
+33l0l3	de_CHATEAUNEUF	O
+33l0l4	SUR_LOIRE	L
+33l0l5	informait	N
+33l0l6	la_préfecture_du_LOIRET	O
+33l0l7	l__obturation_des_réseaux	O
+33l0l8	n__avait_toujours_pas_été_réalisée	N
+33l0l9	la_SAUR	O
+33l0l10	avait_transmis	N
+33l0l11	ces_travaux	N
+33l1l0	CHATEAUNEUF_SUR_LOIRE	I
+33l1l1	les_services_de_la_préfecture_du_LOIRET	I
+33l1l2	la_SAUR	I
+
+#Le 28 septembre 2004, l’inspecteur des installations classées a procédé à un nouveau contrôle du site.
+
+34l0l0	Le_28_septembre_2004__	T
+34l0l1	l__inspecteur_des_installations_classées	O
+34l0l2	a_procédé	N
+34l0l3	à_un_nouveau_contrôle	N
+34l0l4	site	O
+
+#Il a constaté que les prescriptions de l’article 2 de l’arrêté préfectoral complémentaire du 22 juillet 2004 (mise en sécurité du site) n’étaient toujours pas respectées.
+
+35l0l0	22_juillet_2004	T
+35l0l1	mise_en_sécurité	N
+
+#Par ailleurs, il a constaté que l’état du site se détériorait (vitres cassées, clôtures abîmées,…).
+
+36l0l0	détériorait	N
+
+#Par arrêté du 22 octobre 2004 le liquidateur judiciaire a été mis en demeure de respecter les prescriptions de l’article 2 de l’arrêté préfectoral complémentaire du 22 juillet 2004 (mise en sécurité du site).
+
+37l0l0	22_octobre_2004	T
+37l0l1	le_liquidateur_judiciaire	O
+37l0l2	a_été_mis_en	N
+37l0l3	l__arrêté_préfectoral_complémentaire	O
+37l0l4	du_22_juillet_2004	T
+37l0l5	mise_en_sécurité	N
+
+#Le 22 novembre 2004, l'inspecteur des installations classées a procédé à un nouveau contrôle du site.
+
+38l0l0	Le_22_novembre_2004__	T
+38l0l1	l__inspecteur_des_installations_classées	O
+38l0l2	a_procédé	N
+38l0l3	à_un_nouveau_contrôle	N
+38l0l4	site	O
+
+#Il a constaté que les prescriptions de l'article 1er de l'arrêté préfectoral de mise en demeure du 22 octobre 2004 (mise en sécurité du site) n'étaient toujours pas respectées.
+
+39l0l0	l__arrêté_préfectoral_de_mise_en_demeure	O
+39l0l1	du_22_octobre_2004	T
+39l0l2	mise_en_sécurité	N
+
+#Par ailleurs, aucun dossier de remise en état du site n’a été transmis aux services de la préfecture du LOIRET.
+
+40l0l0	remise_en_état	N
+40l0l1	a_été_transmis	N
+40l0l2	la_préfecture_du_LOIRET	O
+40l1l0	la_préfecture_du_LOIRET	I
+
+#Les prescriptions de l’article 1er de l’arrêté préfectoral de mise en demeure du 22 juillet 2004 (modifié le 4 août 2004) n’ont pas été respectées.
+
+41l0l0	l__arrêté_préfectoral_de_mise_en_demeure	O
+41l0l1	du_22_juillet_2004	T
+41l0l2	modifié_le_4_août_2004	T
+
+#Les arrêtés préfectoraux des 7 février 2005 engagent deux procédures de consignation à l’encontre du liquidateur judiciaire pour des montants de 92 520 € visant les travaux nécessaires à la mise en sécurité du site et 13 500 € visant la réalisation du mémoire sur l’état du site.
+
+42l0l0	Les_arrêtés_préfectoraux	O
+42l0l1	7_février_2005	T
+42l0l2	engagent	N
+42l0l3	deux_procédures_de_consignation	O
+42l0l4	des_montants	O
+42l0l5	520__	O
+42l0l6	visant	R
+42l0l7	les_travaux_nécessaires_à_la_mise_en	N
+42l0l8	sécurité_du_site	O
+
+#Le 8 juillet 2005, la police municipale de CHATEAUNEUF SUR LOIRE  a procédé à une visite du site.
+
+43l0l0	Le_8_juillet_2005__	T
+43l0l1	la_police_municipale_de_CHATEAUNEUF	O
+43l0l2	SUR_LOIRE	L
+43l0l3	__a_procédé_à_une_visite	N
+43l0l4	du_site	O
+43l1l0	la_police_municipale_de_CHATEAUNEUF_SUR_LOIRE	I
+
+#Lors de cette visite, elle a constaté que :
+
+
+#- les locaux étaient grands ouverts,
+
+45l0l0	les_locaux	O
+
+#- la clôture du site était très endommagée,
+
+46l0l0	la_clôture_du_site	O
+46l0l1	très_endommagée	O
+
+#- de nombreux produits chimiques étaient répandus par terre,
+
+47l1l0	nombreux_produits_chimiques	U
+
+#- des bidons remplis de produits chimiques tels que l’acide nitrique, l’acide sulfurique, la soude, chlorure de méthylène… étaient présents,
+
+48l0l0	des_bidons_remplis_de_produits_chimiques	O
+48l1l0	des_bidons_remplis_de_produits_chimiques	U
+48l1l1	acide_nitrique	S
+48l1l2	acide_sulfurique	S
+48l1l3	soude	S
+48l1l4	chlorure	S
+48l1l5	de_méthylène	S
+
+#- une fosse était remplie de liquides indéterminés,
+
+49l1l0	liquides_indéterminés	U
+
+#- l’usine est située à moins de 20 mètres des habitations,
+
+50l0l0	l__usine	O
+50l0l1	est_située_à_moins_de_20_mètres_des_habitations	L
+
+#- des enfants du quartier s’étaient déjà introduits dans l’établissement.
+
+51l0l0	s__étaient_déjà_introduits	N
+51l0l1	dans_l__établissement	L
+
+#Par courrier du 11 juillet 2005, Monsieur le maire de CHATEAUNEUF SUR LOIRE  a demandé au mandataire de bien vouloir procéder à la fermeture du site.
+
+52l0l0	11_juillet_2005__	T
+52l0l1	Monsieur_le_maire_de_CHATEAUNEUF	O
+52l0l2	SUR_LOIRE	L
+52l0l3	__a_demandé	N
+52l0l4	la_fermeture_du_site	O
+52l1l0	le_maire_de_CHATEAUNEUF_SUR_LOIRE	I
+
+#Lors de l’entretien téléphonique du 2 août 2005, le tribunal de commerce d’ORLEANS a précisé à l’inspecteur des installations classées que la procédure de liquidation judiciaire de la société PROTIME n’était toujours pas clôturée.
+
+53l0l0	l__entretien_téléphonique	N
+53l0l1	du_2_août_2005__	T
+53l0l2	le_tribunal_de_commerce_d__ORLEANS	O
+53l0l3	a_précisé	N
+53l0l4	l__inspecteur_des_installations_classées	O
+53l0l5	la_procédure_de_liquidation_judiciaire	N
+53l0l6	la_société_PROTIME	O
+53l0l7	n__était	R
+53l0l8	toujours_pas_clôturée	N
+53l1l0	le_tribunal_de_commerce_d__ORLEANS	I
+53l1l1	la_société_PROTIME	I
+
+#Les actions à réaliser, et concernant en premiers lieux les aménagements afin d’assurer la sécurité du site, n'ont toujours pas été mis en place.
+
+54l0l0	Les_actions	N
+54l0l1	n__ont_toujours_pas	R
+54l0l2	été_mis_en_place	N
+
+#Compte tenu que :
+
+
+#- la zone urbaine se situe à moins de 20 m de l’établissement,
+
+56l0l0	la_zone_urbaine	O
+56l0l1	se_situe_à_moins_de_20_m_de_l__établissement	L
+
+#- des enfants se sont déjà introduits dans l’usine,
+
+57l0l0	introduits	N
+
+#- les cuves de la station de détoxication sont remplies de produits de traitement,
+
+58l0l0	les_cuves	O
+58l0l1	la_station_de_détoxication	O
+58l0l2	sont_remplies	N
+58l0l3	de_produits_de_traitement	O
+58l1l0	détoxication	U
+
+#- des produits dangereux sont présents sur le site,
+
+59l1l0	des_produits_dangereux	U
+
+#- la dégradation du site s’accentue (visite de l’inspecteur des installations classées du 22 novembre 2004),
+
+60l0l0	la_dégradation_du_site	O
+60l0l1	s__accentue	N
+60l0l2	l__inspecteur_des_installations_classées	O
+60l0l3	du_22_novembre_2004	T
+
+#Il a été proposé de solliciter l’autorisation du Ministère de l’Ecologie et du Développement Durable de mettre en œuvre la procédure de travaux d’office à réaliser par l’ADEME (Agence de l'Environnement et de la Maitrise de l'Énergie) prévue à la circulaire ministérielle du 7 juin 1996 sans attendre que les procédures réglementaires puissent être menées à leur terme (la liquidation judiciaire n’est pas clôturée).
+
+61l0l0	l__autorisation_du_Ministère_de_l__Ecologie_et_du_Développement_Durable	O
+61l0l1	de_mettre_en_œuvre	N
+61l0l2	la_procédure_de_travaux_d_	O
+61l0l3	l__ADEME	O
+61l0l4	7_juin_1996	T
+61l1l0	l__ADEME	I
+
+#Une visite conjointe Inspection des Installations Classées - ADEME du site a été effectuée le 5 septembre 2006.
+
+62l0l0	Une_visite_conjointe	N
+62l0l1	Inspection_des_Installations_Classées	O
+62l0l2	ADEME	O
+62l0l3	site	O
+62l0l4	a_été_effectuée	N
+62l0l5	le_5_septembre_2006__	T
+
+#Au plan financier, l’opération a été estimée à 325 000 € .
+
+63l0l0	l__opération	N
+63l0l1	a_été_estimée_à	N
+63l0l2	325_000__	O
+
+#Ces travaux portent sur :
+
+
+# Diagnostic solidité des bâtiments
+
+65l0l0	Diagnostic_solidité_des_bâtiments	O
+
+# Diagnostic amiante des calorifugeages présents sur le sol de l’atelier principal.
+
+66l0l0	Diagnostic_amiante	O
+66l0l1	calorifugeages	O
+
+# Élimination des déchets (environ 65 tonnes).
+
+67l0l0	Élimination	N
+
+# Cuves souterraines à vider, nettoyer et inerter
+
+68l0l0	nettoyer	N
+68l0l1	inerter	N
+
+# Nettoyage superficiel des sols des ateliers.
+
+69l0l0	Nettoyage_superficiel	N
+
+# Les caniveaux de collecte des effluents qui quadrillent les divers ateliers : à localiser, curer, nettoyer, obstruer selon besoin (empêcher les rejets de nettoyage dans le réseau communal).
+
+70l0l0	Les_caniveaux_de_collecte	O
+70l0l1	curer	A
+70l0l2	nettoyer	A
+70l1l0	effluents	U
+
+# Les dossiers, archives et cartons … : à éliminer pour risque d’incendie.
+
+
+#Le Ministère de l'Écologie et du Développement Durable a donné son accord, le 12 octobre 2006, pour charger l'ADEME de la réalisation de ces travaux de mise en sécurité du site.
+
+72l0l0	Le_Ministère_de_l__Écologie_et_du_Développement_Durable	O
+72l0l1	a_donné	N
+72l0l2	son_accord	O
+72l0l3	le_12_octobre_2006__	T
+72l0l4	charger	N
+72l0l5	l__ADEME	O
+72l0l6	la_réalisation_de_ces_travaux_de_mise_en_sécurité	N
+72l1l0	Le_Ministère_de_l_	I
+
+#Deux arrêtés ont été pris le 31/05/2007 par Monsieur le Préfet du Loiret:
+
+73l0l0	Deux_arrêtés	O
+73l0l1	ont_été_pris_le	N
+73l0l2	31_05_2007	T
+73l0l3	Monsieur_le_Préfet_du_Loiret	O
+73l1l0	le_Préfet_du_Loiret	I
+
+#─ arrêté de travaux d'office à réaliser par l'ADEME, maître d'ouvrage de l'opération ;
+
+74l0l0	__arrêté_de_travaux_d__office	O
+74l0l1	l__ADEME	O
+74l0l2	l__opération	N
+74l1l0	l__ADEME	I
+
+#─ arrêté d'occupation temporaire du site au profit de l'ADEME.
+
+75l0l0	arrêté_d__occupation_temporaire_du_site	O
+75l0l1	au_profit_de	R
+75l0l2	l__ADEME	O
+
+#La consultation des entreprise, la réception des offres, et le passage en commission des marchés publics ont été réalisés.
+
+76l0l0	La_consultation	N
+76l0l1	des_entreprise	O
+76l0l2	la_réception_des_offres	O
+76l0l3	marchés_publics	O
+76l0l4	ont_été_réalisés	N
+
+#Les travaux confiés par l'ADEME ont été réalisés du 10 mars au 11 avril 2008 et ont constitué en :
+
+77l0l0	Les_travaux_confiés	N
+77l0l1	l__ADEME	O
+77l0l2	ont_été_réalisés	N
+77l0l3	du_10_mars_au_11_avril_2008	T
+
+#- l'élimination du transformateur électrique, des déchets et produits en cubitainers, big-bags, fûts, sacs et vrac, calorifugeage...;
+
+78l0l0	l__élimination	N
+78l0l1	du_transformateur_électrique	O
+78l0l2	calorifugeage	O
+78l1l0	des_déchets	U
+
+#- la vidange et le nettoyage des cuves de l'ancienne station de détoxication contenant les produits et les boues de traitement;
+
+79l0l0	la_vidange	N
+79l0l1	le_nettoyage	N
+79l0l2	cuves	O
+79l0l3	l__ancienne_station_de_détoxication	O
+79l1l0	détoxication	U
+79l1l1	les_produits	U
+
+#- la vidange, le nettoyage et l'inertage des deux cuves enterrées de FOD (fioul domestique) et des trois fosses en béton en amont de la station de détoxication, à l'extérieur des bâtiments;
+
+80l0l0	la_vidange	N
+80l0l1	le_nettoyage	N
+80l0l2	l__inertage	O
+80l0l3	deux_cuves_enterrées	O
+80l0l4	béton	O
+80l0l5	en_amont_de_la	L
+80l0l6	station_de_détoxication	A
+80l0l7	à_l__extérieur_des_bâtiments	L
+80l1l0	FOD	I
+80l1l1	détoxication	U
+
+#- le nettoyage des sols des bâtiments, l'élimination des dossiers, archives, cartons et palettes;
+
+81l0l0	le_nettoyage	N
+81l0l1	bâtiments	O
+81l0l2	l__élimination	N
+
+#- le curage, le nettoyage et l'obstruction selon besoin, des caniveaux de collecte des effluents qui quadrillent les ateliers.
+
+82l0l0	le_curage	N
+82l0l1	le_nettoyage	N
+82l0l2	l__obstruction	O
+82l0l3	caniveaux_de_collecte	O
+82l1l0	effluents	U
+
+#La réalisation de ces travaux a été constatée par l'inspection des installations classées le 21 mai 2008 et relatée par le rapport de l'ADEME daté de janvier 2009.
+
+83l0l0	La_réalisation_de_ces_travaux_a_été_constatée	N
+83l0l1	l__inspection_des_installations_classées	O
+83l0l2	le_21_mai_2008	T
+83l0l3	l__ADEME	O
+83l0l4	daté_de_janvier_2009__	T
+
+#De nouvelles analyses de la qualité des sols et de la nappe ont été réalisées en avril 2010 dans le cadre d'un projet de réhabilitation du site par la société LE SINOPLE, consistant en la création de pavillons habités, à travers 20 sondages dont 3 équipés en piézomètres.
+
+84l0l0	De_nouvelles_analyses	N
+84l0l1	la_qualité_des_sols	O
+84l0l2	ont_été_réalisées	N
+84l0l3	en_avril_2010	T
+84l0l4	dans_le_cadre_d_	R
+84l0l5	un_projet_de_réhabilitation	N
+84l0l6	du_site	L
+84l0l7	la_société_LE_SINOPLE	O
+84l0l8	la_création_de_pavillons_habités	N
+84l1l0	la_société_LE_SINOPLE	I
+
+#Les résultats montrent :
+
+
+#- la présence dans les sols d'aluminium à des concentrations variant de 2200 mg/kg à 11000 mg/kg sur 19 sondages;
+
+86l0l0	aluminium	O
+86l1l0	aluminium	S
+
+#- la présence dans les sols d'hydrocarbures à une concentration de 7200 mg/kg sur un sondage;
+
+87l0l0	d__hydrocarbures	O
+87l1l0	hydrocarbures	S
+
+#- la présence dans les eaux souterraines de solvants halogénés (du tétrachloroéthylène dans deux ouvrages à des concentrations de 3,2 μg/L et 18,1 μg/L, et du 1,1,1 trichloroéthane dans un ouvrage à une concentration de 0,0064 μg/L).
+
+88l1l0	solvants_halogénés	S
+88l1l1	du_tétrachloroéthylène	S
+88l1l2	trichloroéthane	S
+
+#Les conclusions du diagnostic environnemental du sous-sol ainsi que de l’Évaluation Quantitative des Risques Sanitaires (EQRS) attestent, dans un rapport daté de juin 2010, de la compatibilité du site avec les aménagements prévus si les recommandations suivantes sont suivies:
+
+89l0l0	Les_conclusions	O
+89l0l1	du_diagnostic_environnemental	N
+89l0l2	un_rapport	N
+89l0l3	daté_de_juin_2010__	T
+89l0l4	les_aménagements	N
+
+#- excavation des terres impactées par le benzène, les hydrocarbures et les solvants halogénés si les parcelles concernées sont utilisées;
+
+90l0l0	excavation	N
+90l0l1	des_terres	O
+90l0l2	impactées	O
+90l1l0	benzène	S
+90l1l1	hydrocarbures	S
+90l1l2	les	U
+90l1l3	solvants_halogénés	S
+
+#- imperméabilisation ou recouvrement des sols par 30 cm de terre végétale (car présence d'aluminium);
+
+91l0l0	imperméabilisation	N
+91l0l1	recouvrement_des_sols	N
+91l1l0	présence_d__aluminium	U
+
+#- placement des logements sur vide sanitaire.
+
+
+#Le sol et le sous-sol du site sont encore pollués et il convient alors de garder la mémoire de ces pollutions.
+
+93l0l0	encore_pollués	O
+93l0l1	ces_pollutions	N
+
+#Pour cela, des servitudes d'utilité publique (SUP) ont été instituées par arrêté préfectoral du 13/02/2012 sur l'emprise du site et sont annexées au plan local d'urbanisme de la commune.
+
+94l0l0	des_servitudes_d__utilité_publique___SUP	O
+94l0l1	ont_été_instituées	N
+94l0l2	par_arrêté_préfectoral	O
+94l0l3	13_02_2012	T
+94l0l4	annexées_au	R
+94l0l5	plan_local_d__urbanisme	O
+94l0l6	la_commune	O
+
+#Ces servitudes reprennent les recommandations de l'EQRS.
+
+95l0l0	Ces_servitudes	O
+
+#Une requête au près du tribunal administratif d’Orléans, pour annuler l'arrêté de mise en place de SUP, est en cours de jugement d'appel (1er jugement rejeté le 7 février 2013).
+
+96l0l0	Une_requête	O
+96l0l1	du_tribunal_administratif	O
+96l0l2	annuler	N
+96l0l3	l__arrêté	N
+96l0l4	mise_en_place	N
+96l0l5	le_7_février_2013__	T
+96l1l0	tribunal_administratif_d__Orléans	I

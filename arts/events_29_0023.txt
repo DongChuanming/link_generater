@@ -1,0 +1,219 @@
+
+#29.0023
+#Le site a été le siège de deux établissements :
+
+0l0l0	Le_site_a_été_le_siège_de_deux_établissements	O
+0l0l1	_	N
+
+#- entreposage d'hydrocarbures (fuel, GO), exploité par la Société SOFIQUEM ;
+
+1l0l0	_	O
+1l0l1	entreposage_d_	R
+1l0l2	hydrocarbures___fuel___GO____	O
+
+#- transit de déchets (huiles usagées), exploité par la Société ROLLAND SA.
+
+2l0l0	transit_de_déchets___huiles_usagées	O
+2l0l1	Société_ROLLAND_SA__	O
+2l1l0	déchets___huiles_usagées__	S
+2l1l1	__exploité	I
+2l1l2	Société_ROLLAND_SA__	I
+
+#Ces deux exploitations ont été autorisées à fonctionner par l'arrêté d'autorisation du 15 novembre 1994.
+
+3l0l0	Ces_deux_exploitations	O
+3l0l1	fonctionner_par_l__arrêté	O
+3l1l0	exploitations_ont_été_autorisées	U
+3l1l1	fonctionner_par_l__arrêté_d__autorisation	I
+
+#La société SOFIQUEM a changé de nom en 2005 (SAS Société des COMBUSTIBLES DE L'OUEST) puis en janvier 2014 : SAS COMPAGNIE PETROLIERE DE L'OUEST (CPO).
+
+4l0l0	La_société_SOFIQUEM_a	O
+4l0l1	changé_de_nom_en_2005___SAS_Société_des	N
+4l0l2	COMBUSTIBLES_DE_L__OUEST___puis	O
+4l0l3	en_janvier_2014___SAS_COMPAGNIE_PETROLIERE_DE_L__OUEST___CPO____	T
+
+#Le terrain présente une forte pente orientée nord-sud.
+
+5l0l0	Le_terrain_présente	O
+5l0l1	une_forte_pente	N
+5l0l2	orientée	T
+5l1l0	Le_terrain_présente	I
+5l1l1	orientée_nord_sud__	I
+
+#Il est situé sur le bassin versant du ruisseau de la Villeneuve, affluent de la Penfeld sur lequel existe un usage récréatif à 1,5 km à l'aval.
+
+6l0l0	Il_est_situé	O
+6l0l1	sur_le	R
+6l0l2	bassin_versant_du_ruisseau_de_la_Villeneuve	L
+
+#Le site renferme 3 réservoirs enterrés de 100 m3, un réservoir aérien de 150 m3, une installation de chargement de véhicules routiers, une station de distribution de carburant, une fosse de lavage des véhicules, deux séparateurs d'hydrocarbures.
+
+7l0l0	site_renferme_3_réservoirs_enterrés_de_100_m3___un_réservoir	L
+7l0l1	aérien_de_150_m3___une_installation	L
+7l0l2	de_chargement_de_véhicules	A
+7l0l3	routiers___une	L
+
+#Fin 2002 la Société SOFIQUEM a initié la procédure de cessation d'activités pour ce qui concerne la partie du site relevant de sa responsabilité (parcelles BS 129).
+
+8l0l0	Fin_2002	O
+8l0l1	procédure_de_cessation	O
+8l0l2	pour_ce_qui_concerne_la_partie_du_site_relevant_de_sa_responsabilité	O
+8l0l3	__parcelles_BS_129____	O
+
+#Les installations pétrolières exploitées par la société Sofiquem ont été démantelée d'octobre à décembre 2003.
+
+9l0l0	Les	T
+9l0l1	installations_pétrolières	O
+9l0l2	exploitées	N
+9l0l3	par_la	O
+9l0l4	société_Sofiquem_ont_été_démantelée	N
+9l0l5	octobre_à_décembre_2003	O
+9l1l0	installations_pétrolières	I
+
+#Le site a été remis en état pour un usage de parking (recouvrement d'enrobé).
+
+10l0l0	Le_site_a_été_remis_en_état_pour_un_usage_de_parking	O
+10l0l1	__recouvrement_d_	O
+10l0l2	enrobé____	N
+10l1l0	parking___recouvrement_d__enrobé	I
+
+#Une étude de sols a permis de localiser deux zones de pollution par les hydrocarbures :
+
+11l0l0	Une_étude	O
+11l0l1	de_sols_a_permis	N
+11l0l2	localiser	O
+11l0l3	deux_zones	L
+11l0l4	de_pollution_par_les_hydrocarbures	N
+
+#- une zone principale au droit d'un puits perdu, exutoire des eaux pluviales recueillies sur le site pendant de nombreuses années ;
+
+12l0l0	__une_zone_principale	N
+12l0l1	au_droit	R
+12l0l2	d__un_puits_perdu___exutoire_des_eaux_pluviales_recueillies	O
+12l1l0	pluviales_recueillies	S
+
+#- une zone secondaire à la sortie d'un séparateur d'hydrocarbures implanté durant les dernières années d'exploitation sur le réseau des eaux pluviales ;
+
+13l0l0	une_zone_secondaire	O
+13l0l1	à_la_sortie_d__un_séparateur	L
+13l0l2	dernières	L
+13l0l3	années_d__exploitation_sur_le_réseau	T
+
+#- il s'agit d'une pollution ancienne étant donné l'état de dégradation des hydrocarbures présents.
+
+14l0l0	il_s__agit_d__une_pollution	O
+14l0l1	ancienne_étant	L
+14l0l2	donné_l__état_de_dégradation	O
+14l0l3	des	R
+14l0l4	hydrocarbures_présents__	N
+14l1l0	état_de_dégradation	S
+
+#La pollution est limitée au site.
+
+
+#Toutefois, un examen de la nappe phréatique a mis en évidence une pollution de celle-ci, en amont hydraulique, du fait vraisemblablement d'un rabattement de nappe lié à un captage industriel.
+
+
+#De nouvelles investigations sont en cours en vue de mieux cerner les limites de la contamination de la nappe.
+
+17l0l0	nouvelles_investigations	N
+17l0l1	sont_en_cours_en	O
+17l0l2	vue_de_mieux_cerner	R
+17l0l3	les_limites	N
+17l0l4	contamination_de_la_nappe__	L
+
+#L'ESR associée conduit à un classement 2 (site nécessitant une surveillance) pour les eaux souterraines et pour les sols en cas de contact à l'occasion de travaux.
+
+18l0l0	L__ESR_associée_conduit_à_un_classement	N
+18l0l1	surveillance___pour_les_eaux_souterraines_et	O
+
+#L'arrêté préfectoral du 11 mars 2004 encadre les travaux de réhabilitation :
+
+
+#- démantèlement des installations, nettoyage, évacuation des terres souillées en surface ;
+
+20l0l0	__démantèlement_des	O
+20l0l1	installations__	T
+20l0l2	nettoyage___évacuation_des_terres_souillées	N
+
+#- décontamination in situ du sol et des eaux souterraines ;
+
+21l0l0	décontamination_in_situ_du_sol_et_des_eaux	N
+21l0l1	souterraines__	N
+
+#- programme de surveillance, notamment des eaux souterraines.
+
+22l0l0	programme_de_surveillance	N
+22l0l1	__notamment	O
+
+#Les travaux de réhabilitation du site ont été réalisés entre janvier 2004 et juillet 2005 :
+
+23l0l0	réhabilitation	A
+
+#- traitement biologique in situ des sols et de la nappe phréatique ;
+
+24l0l0	__traitement_biologique_in_situ	N
+24l0l1	des_sols	O
+24l0l2	et_de_la_nappe	N
+24l0l3	phréatique__	T
+
+#- pompage de la nappe phréatique suivie d'une séparation de phases (3 séparateurs d'hydrocarbures en série).
+
+25l0l0	pompage_de_la_nappe_phréatique	N
+
+#A l'été 2005, le traitement "in situ" a atteint ses limites et a été arrêté.
+
+26l0l0	l__été_2005	A
+26l0l1	__le_traitement___in	O
+26l0l2	situ___a	R
+26l0l3	atteint	N
+
+#Une pollution résiduelle dans les sols est donc laissée en place (hydrocarbures C10-C40 non volatils) : principale lentille de pollution en limite de propriété, à cheval sur les parcelles BS 129, 130 et 241.
+
+27l0l0	Une_pollution	T
+27l0l1	résiduelle_dans	N
+27l0l2	sols_est_donc_laissée_en	N
+27l0l3	place___hydrocarbures	N
+
+#Il a été mis en évidence l'absence de risque significatif pour les usagers du site (usage industriel) par inhalation d'air intérieur et extérieur.
+
+28l0l0	Il_a_été_mis_en_évidence_l__absence	O
+28l0l1	d__air_intérieur_et	O
+28l0l2	extérieur__	L
+28l1l0	usagers_du_site___usage_industriel___par	S
+
+#Les risques potentiels envisagés sont liés à la présence des eaux souterraines en profondeur, de trois captages en aval-latéral hydraulique et aux activités dans l'étang situé en aval hydraulique.
+
+29l0l0	profondeur___de_trois	A
+29l0l1	captages_en_aval___latéral	N
+
+#A cet effet, l'arrêté préfectoral complémentaire du 8 mars 2007 prescrit la surveillance semestrielle des eaux souterraines (hydrocarbures C10-C40) et la nécessité d'une mise en œuvre de restrictions d'usage (des sols et des eaux souterraines -impropres à tous usages- sur les parcelles BS 129, 130 et 241).
+
+30l0l0	souterraines___hydrocarbures	L
+30l0l1	C10_C40___et_la_nécessité	R
+30l0l2	d_	O
+30l0l3	une_mise_en_œuvre_de_restrictions	L
+
+#Le bilan de la surveillance des eaux, de juin 2006 à juin 2015 met en évidence des teneurs en hydrocarbures C10-C40 fluctuant dans le temps, avec des pics forts, au niveau du piézomètre situé au droit de l'ancienne zone de traitement.
+
+31l0l0	la_surveillance_des_eaux___de_juin_2006_à	O
+31l0l1	juin_2015_met_en	T
+31l0l2	évidence	N
+31l0l3	des_teneurs_en_hydrocarbures	A
+31l0l4	C10_C40_fluctuant_dans	A
+31l0l5	forts___au_niveau_du	O
+31l0l6	piézomètre_situé_au_droit_de_l__ancienne_zone	N
+31l1l0	le_temps___avec_des	S
+
+#L'absence de teneurs significatives dans les deux autres piézomètres.
+
+32l0l0	L__absence	N
+32l0l1	de_teneurs_significatives	O
+32l0l2	dans_les_deux_autres_piézomètres	T
+
+#Les valeurs de 2017 confirment cette tendance.
+
+
+#L'exploitant a remis à l'inspection un dossier d'institution de SUP simplifiées.
+

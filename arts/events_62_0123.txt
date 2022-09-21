@@ -1,0 +1,158 @@
+
+#62.0123
+#Activité: production de câbles de fibres optiques sous-marins.
+
+0l0l0	Activité___production_de_câbles_de_fibres_optiques_sous_marins	A
+
+#La société Alcatel Cable France a étendu son site en rachetant une parcelle limitrophe appartenant à la société Umicore France et d'une superficie de 39000m².
+
+1l0l0	La_société_Alcatel_Cable_France	O
+1l0l1	a_étendu	N
+1l0l2	son_site	O
+1l0l3	en	R
+1l0l4	rachetant	N
+1l0l5	une_parcelle_limitrophe	O
+1l0l6	appartenant_à	R
+1l0l7	la_société_Umicore_France	O
+1l0l8	m²__	O
+1l1l0	La_société_Alcatel_Cable_France	I
+1l1l1	la_société_Umicore_France	I
+
+#Cette parcelle appartenait autrefois à la société calaisienne de pates à papier.
+
+2l0l0	Cette_parcelle	O
+2l0l1	appartenait_autrefois_à	R
+2l0l2	la_société_calaisienne	O
+2l0l3	pates_à_papier	O
+
+#Elle est située en zone portuaire.
+
+3l0l0	située_en_zone_portuaire	L
+
+#On remarque la présence d'une nappe souterraine non exploitée à une profondeur de 3,5 à 4,5 mètres.
+
+
+#Un canal jouxte le site à l'est.
+
+5l0l0	Un_canal	O
+5l0l1	jouxte_le_site	L
+
+#Les activités industrielles se sont succédées depuis 1905 :
+
+6l0l0	Les_activités_industrielles	A
+6l0l1	se_sont_succédées	N
+6l0l2	depuis_1905	T
+
+#- fabrication de pate à papiers
+
+7l0l0	fabrication_de_pate	A
+7l0l1	à_papiers	O
+
+#- grillage de minerais de zinc
+
+8l1l0	zinc	U
+
+#Une pollution des sols a été mise en évidence (Plomb, cuivre et hydrocarbures...) ainsi que de la nappe (Fer, Manganèse, Nickel...).
+
+9l0l0	Une_pollution_des_sols	O
+9l0l1	a_été_mise_en	N
+9l0l2	la_nappe	O
+9l0l3	Nickel	O
+9l1l0	Plomb	S
+9l1l1	cuivre	S
+9l1l2	hydrocarbures	S
+9l1l3	Fer	S
+9l1l4	Manganèse	S
+9l1l5	Nickel	S
+
+#Une évaluation des risques a été réalisée en août 1999 et le site figure alors en classe 1 pour l'une des sources identifiées (Zone polluée par des hydrocarbures).
+
+10l0l0	Une_évaluation_des_risques	N
+10l0l1	a_été_réalisée	N
+10l0l2	en_août_1999	T
+10l0l3	le_site	O
+10l0l4	figure_alors_en	N
+10l0l5	classe_1	O
+10l0l6	Zone_polluée	O
+10l0l7	hydrocarbures	O
+10l1l0	hydrocarbures	S
+
+#Le confinement de cette source a conduit au déclassement du site en classe 2.
+
+11l0l0	Le	N
+11l0l1	confinement_de_cette_source	O
+11l0l2	a_conduit_au_déclassement	N
+11l0l3	du_site	O
+11l0l4	en	R
+11l0l5	classe_2__	O
+
+#Une surveillance de la nappe a donc été imposée par arrêté préfectoral en date du 05/03/03.
+
+12l0l0	Une_surveillance_de_la_nappe	A
+12l0l1	a_donc_été_imposée	N
+12l0l2	par_arrêté_préfectoral	O
+12l0l3	en_date_du_05_03_03	T
+
+#La zone polluée par les hydrocarbures est en traitement : 18000 m² de surface ont été confinés et le reste du terrain est à ce jour en friche.
+
+13l0l0	La_zone_polluée	O
+13l0l1	hydrocarbures	O
+13l0l2	est_en_traitement	N
+13l0l3	18000_m²_de_surface	O
+13l0l4	ont_été_confinés	N
+13l0l5	le_reste_du_terrain	O
+13l0l6	est	N
+13l0l7	à_ce_jour_en_friche	T
+13l1l0	hydrocarbures	S
+
+#Arrêté préfectoral du 09/06/2006 imposant des prescriptions complémentaires (surveillance piézométrique).
+
+14l0l0	Arrêté_préfectoral	O
+14l0l1	09_06_2006	T
+14l0l2	imposant_des	N
+14l0l3	prescriptions_complémentaires	O
+14l0l4	surveillance_piézométrique	O
+
+#Réalisation d'un plan de gestion de l'ancienne parcelle UMICORE: 24/04/2009.
+
+15l0l0	Réalisation_d__un_plan_de_gestion	N
+15l0l1	l__ancienne_parcelle_UMICORE	O
+15l0l2	24_04_2009__	T
+
+#Parcelle UMICORE: entre 2001 et 2004: traitement par bioventing, sparging et écremage des sols et eaux souterraines contaminées par les hydrocarbures.
+
+16l0l0	entre_2001_et_2004	T
+16l0l1	__traitement_par	N
+16l0l2	bioventing	N
+16l0l3	sparging	N
+16l0l4	écremage	N
+16l0l5	sols_et_eaux_souterraines_contaminées	O
+16l0l6	hydrocarbures	O
+16l1l0	hydrocarbures	S
+
+#Couverture par de l'asphalte au niveau de l'actuel parking et dans le parc à touret.
+
+17l0l0	Couverture_par_de_l__asphalte	O
+17l0l1	au_niveau_de	R
+17l0l2	l_	O
+17l0l3	dans_le_parc_à_touret	L
+
+#Travaux de comblement d'un forage industriel en novembre 2010.
+
+18l0l0	Travaux_de_comblement_d_	N
+18l0l1	un_forage_industriel	O
+18l0l2	en_novembre_2010__	T
+
+#Utilisation des nappes d'eau souterraines à des fins industrielles et de puits privés.
+
+19l0l0	Utilisation	A
+19l0l1	des_fins_industrielles	N
+
+#Aucune AEP recensé dans les environs du site.
+
+20l0l0	dans_les_environs_du_site	L
+
+#Action de l'administration toujours en cours sur ce site.
+
+21l0l0	Action	O
+21l0l1	l__administration	O

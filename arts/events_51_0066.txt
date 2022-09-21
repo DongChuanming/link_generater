@@ -1,0 +1,232 @@
+
+#51.0066
+#Le site de la friche Harmel est un site ayant accueilli une activité industrielle par le passé (activité de teinturerie, de préparation de fibres textiles et filatures, peignage et pelotonnage)
+
+0l0l0	Le_site	O
+0l0l1	la_friche_Harmel	O
+0l0l2	un_site	O
+0l0l3	ayant_accueilli	N
+0l0l4	une_activité_industrielle	A
+0l0l5	par_le_passé	T
+0l0l6	activité_de_teinturerie	A
+0l0l7	préparation_de_fibres_textiles	A
+0l0l8	filatures	A
+0l0l9	peignage_et_pelotonnage	A
+
+#Le site serait aujourd'hui pour partie la propriété de la communauté de Communes de la Vallée de la Suippe et du Foyer Rémois qui envisagerait la construction de logements sur une partie du site pour son propre compte ainsi qu'une maison médicalisée pour le compte de la mairie de Warmeriville.
+
+1l0l0	Le_site	O
+1l0l1	serait	N
+1l0l2	aujourd_hui	R
+1l0l3	la_communauté_de_Communes	O
+1l0l4	de_la_Vallée_de_la_Suippe	L
+1l0l5	envisagerait_la_construction_de_logements_sur	R
+1l0l6	une_partie_du_site	O
+1l0l7	son_propre_compte	N
+1l0l8	une_maison_médicalisée	O
+1l0l9	la_mairie	O
+1l0l10	de_Warmeriville	L
+1l1l0	la_communauté_de_Communes	I
+
+#Un premier diagnostic réalisé sur le site en 2006 sur lequel les observations suivantes ont été formulées :
+
+2l0l0	Un_premier_diagnostic_réalisé	N
+2l0l1	sur_le_site	L
+2l0l2	en_2006	T
+2l0l3	été_formulées	N
+
+#-En regard de l'historique d'exploitation (présence de mâchefers indiquant probablement l'exploitation d'installations de charbon) et des produits qui auraient pu être utilisés sur le site (solvants notamment), il s'avère que les prélèvements au droit du site sont insuffisants pour caractériser une éventuelle pollution au droit du site générée par les activités exercées.
+
+3l0l0	l__exploitation_d__installations_de_charbon	A
+3l0l1	une_éventuelle_pollution	O
+3l0l2	au_droit_du_site	L
+3l0l3	les_activités_exercées	A
+3l1l0	charbon	U
+3l1l1	solvants	S
+
+#En effet :
+
+
+#au niveau des sols : les choix des localisations des prélèvements et des paramètres recherchés n'ont pas été justifiés et ne s'appuient pas sur l'historique d'exploitation des installations (en prenant en compte les éventuels incidents/accidents qui ont pu se produire) ou des produits utilisés.
+
+5l0l0	localisations	O
+5l0l1	paramètres_recherchés	O
+
+#L'absence d'hydrocarbures détectés dans les premières analyses réalisées sur le site et de la présence d'une dalle au niveau des bâtiments et de la localisation du site, l'inspection des installations classées estime que les pollutions présentes sur le site ont pu être lixiviées, ce phénomène ayant pu être accéléré par la présence de la Suippe et du bras de décharge de cette dernière.
+
+6l0l0	le_site	O
+6l0l1	la	N
+6l0l2	localisation_du_site	L
+6l0l3	les_pollutions	O
+6l0l4	présentes_sur	R
+6l0l5	le_site	O
+6l0l6	ont_pu_être_lixiviées	N
+6l0l7	la_Suippe	L
+6l0l8	du_bras_de_décharge	O
+6l1l0	hydrocarbures	S
+
+#Les différentes analyses des sols permettent d'aboutir à de premières conclusions :
+
+
+#-les terrains rencontrés directement dès la surface sont représentés par des remblais reconnus sur des épaisseurs variant entre 0,15 m et 1,10 m,
+
+
+#-ces remblais sont constitués principalement d'une matrice limoneuse […] contenant divers débris : 	briques, blocs calcaires, blocs béton, carrelages, ficelles, verre, bois ardoise, charbon...
+
+9l1l0	charbon__	U
+
+#localement il est observé la présence de mâchefers et de ballast  au sein des remblais,
+
+10l0l0	ballast	O
+10l0l1	remblais	L
+10l1l0	mâchefers	S
+
+#-il existe un impact anthropique au sein des remblais du site en éléments traces (cuivre, plomb, zinc) particulièrement localisé dans les remblais contenant des mâchefers et des ballasts.
+
+11l0l0	remblais	N
+11l0l1	ballasts	O
+11l1l0	traces	S
+11l1l1	cuivre	S
+11l1l2	plomb	S
+11l1l3	zinc	S
+
+#De plus au droit des 	point des sondages P1 à P3, les concentrations en plomb se situent dans les gammes pouvant nécessiter 	la réalisation d'une étude de risques sanitaires,
+
+12l1l0	plomb	S
+
+#-la présence d'hydrocarbures de type HAP et HCT est relevée dans les échantillons représentatifs des remblais ne contenant pas de mâchefers ni de ballast à des concentrations inférieures aux valeurs seuils 	de l'arrêté ministériel du 15 mars 2006 relatif notamment aux types de déchets admissibles dans les 	installations de stockage de déchets inertes.,
+
+13l0l0	remblais	N
+13l0l1	ballast	O
+13l0l2	15_mars_2006	T
+13l1l0	hydrocarbures	S
+13l1l1	HAP	S
+13l1l2	HCT	S
+
+#-la présence d'hydrocarbures de type HAP et HCT est relevée dans les échantillons représentatifs des remblais contenant des mâchefers et/ou des ballasts à des concentrations supérieures aux valeurs seuils 	de l'arrêté ministériel du 15 mars 2006 (donc non admissibles en centre de stockage de déchets inertes).
+
+14l0l0	remblais	N
+14l0l1	ballasts	O
+14l0l2	15_mars_2006	T
+14l1l0	hydrocarbures	S
+14l1l1	HAP	S
+14l1l2	HCT	S
+
+#La contamination en HAP pourrait être attribuée à la présence de ballast,
+
+15l0l0	ballast	O
+15l1l0	HAP	S
+
+#-l'absence de COHV dans tous les échantillons de remblais testés,
+
+16l0l0	remblais_testés	N
+16l1l0	COHV	S
+
+#-la présence de PCB dans certains échantillons de remblais testés à des teneurs inférieures aux seuils de l'arrêté du 15 mars 2006 précité,
+
+17l0l0	remblais_testés	N
+17l0l1	15_mars_2006	T
+17l1l0	PCB	S
+
+#-aucun des différents types de remblais rencontrés sur le site (remblais de type démolition, remblais 	contenant des mâchefers et/ou des ballasts) n'est admissible en centre de stockage de déchets inertes en raison des valeurs en HAP et des valeurs en fraction soluble et sulfates sur lixiviats.
+
+18l1l0	HAP	S
+18l1l1	sulfates	S
+
+#Dans le cadre des investigations sur les eaux souterraines, il est apparu que le toit de la nappe de la craie est rencontré au droit du site dès 1,40 mètre de profondeur.
+
+19l0l0	Dans_le_cadre_des	R
+19l0l1	investigations	N
+19l0l2	les_eaux_souterraines	O
+19l0l3	au_droit_du_site	L
+19l0l4	dès_1_40	T
+
+#Les paramètres suivants ont été recherchés : HCT – HAP – BTEX (Benzène, Toluène, Ethylbenzène et Xylènes) – COHV – 8 métaux (arsenic, cadmium, chrome, cuivre, mercure, nickel, plomb et zinc).
+
+20l0l0	Les_paramètres	O
+20l0l1	ont_été_recherchés	N
+20l1l0	HCT	S
+20l1l1	HAP	S
+20l1l2	BTEX	S
+20l1l3	Benzène	S
+20l1l4	Toluène	S
+20l1l5	Ethylbenzène	S
+20l1l6	Xylènes	S
+20l1l7	COHV	S
+20l1l8	8_métaux	S
+20l1l9	arsenic	S
+20l1l10	cadmium	S
+20l1l11	chrome	S
+20l1l12	cuivre	S
+20l1l13	mercure	S
+20l1l14	nickel	S
+20l1l15	plomb	S
+20l1l16	zinc	S
+
+#De la même façon que pour les sols, si ces paramètres sont en adéquation avec les demandes minimales faites par monsieur le sous-préfet, aucune justification de leur suffisance n'est apportée.
+
+21l0l0	ces_paramètres	O
+21l0l1	sous_préfet	O
+21l1l0	le_sous_préfet	S
+
+#Les résultats d'analyse font apparaître :
+
+
+#-l'absence d'éléments traces métalliques hormis la présence ponctuelle d'arsenic en PZ2 à une 	concentration inférieure à la valeur seuil des eaux brutes, non significative d'un impact anthropique,
+
+23l0l0	d__arsenic	O
+23l1l0	éléments_traces_métalliques	U
+23l1l1	arsenic_en_PZ2	S
+
+#-l'absence d'hydrocarbures (HCT, BTEX et HAP),
+
+24l1l0	absence_d__hydrocarbures	S
+24l1l1	HCT	S
+24l1l2	BTEX_et_HAP	S
+
+#-la présence d'un impact anthropique en COHV au droit des trois ouvrages.
+
+
+#Il est relevé la présence de 	trichloréthylène (TCE), uniquement, dont les concentrations varient entre 0,48 µg/l en PZ3 (amont) et 0,38 	µg/l  à 0,20 µg/l en PZ2 et PZ1 (aval) .
+
+26l1l0	trichloréthylène	S
+26l1l1	TCE	S
+
+#Concernant la présence de COHV dans les eaux souterraines l'inspection des installations classées note qu'il est constaté une décroissance des concentrations relevées entre les positions d'amont et d'aval hydraulique présumées et que le diagnostic conclut que « des incertitudes demeurent sur l'origine de cet impact ».
+
+27l0l0	COHV	O
+27l1l0	COHV	S
+
+#Néanmoins l'inspection des installations classées rappelle que :
+
+
+#-le sens d'écoulement de la nappe a été déterminé sur la base de relevés ponctuels au niveau des trois 	piézomètres.
+
+29l0l0	a_été_déterminé	N
+
+#La définition de ce sens d'écoulement mérite donc d'être plus clairement caractérisé,
+
+
+#le trichloréthylène est un produit qui a pu être utilisé dans le cadre des anciennes activités du site (teinturerie notamment).
+
+31l0l0	a_pu_être_utilisé	N
+31l0l1	dans_le_cadre	R
+31l0l2	des_anciennes	L
+31l0l3	activités_du_site	A
+31l0l4	teinturerie	A
+31l1l0	trichloréthylène	S
+31l1l1	produit	S
+
+#Les conditions d'exploitation de ce produit et de gestion des déchets à l'époque de l'exploitation ne sont pas connues,
+
+32l0l0	Les	O
+32l0l1	déchets	O
+32l0l2	à_l_	T
+32l0l3	époque_de_l_	T
+32l0l4	exploitation	O
+
+#dans des conditions habituelles de température, conductivité, pH et aérobie des eaux souterraines, le trichloréthylène a tendance, au cours du temps, à se transformer en chlorure de vinyle (le chlorure de vinyle bien que soluble dans l’eau s’évapore facilement depuis la surface de l’eau).
+
+33l1l0	le_trichloréthylène	S
+33l1l1	chlorure_de_vinyle	S
+33l1l2	le_chlorure_de_vinyle	S

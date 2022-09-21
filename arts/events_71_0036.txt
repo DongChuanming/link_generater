@@ -1,0 +1,239 @@
+
+#71.0036
+#La société SARP CENTRE EST exploite sur la commune de Le Creusot un centre de transit de déchets industriels provenant d'installations classées pour la protection de l'environnement (ICPE).
+
+0l0l0	La_société_SARP_CENTRE_EST	O
+0l0l1	exploite	R
+0l0l2	sur_la_commune_de_Le_Creusot	L
+0l0l3	un_centre	O
+0l0l4	transit_de_déchets_industriels	O
+0l0l5	l__environnement___ICPE	O
+0l1l0	La_société_SARP_CENTRE_EST	I
+0l1l1	déchets_industriels	U
+
+#Cette activité est pratiquée sur ce site depuis les années 1990.
+
+1l0l0	Cette_activité	O
+1l0l1	est_pratiquée	N
+1l0l2	depuis_les_années_1990	T
+
+#Le site abrite également:
+
+
+#- une aire de lavage des véhicules
+
+
+#- un stockage de gas-oil et de fioul destiné au ravitaillement des engins et au chauffage.
+
+4l0l0	un_stockage_de	O
+4l0l1	gas___oil	A
+4l0l2	fioul	O
+4l0l3	destiné_au	R
+4l0l4	ravitaillement_des_engins	O
+4l0l5	au_chauffage	A
+4l1l0	fioul	U
+
+#L'environnement immédiat du site présente:
+
+5l0l0	L__environnement_immédiat	O
+
+#- au Nord, des bois puis un réservoir d'eau
+
+6l0l0	au_Nord	L
+6l0l1	bois	L
+
+#- au sud, une entreprise de travaux publics
+
+7l0l0	au_sud	L
+7l0l1	une_entreprise_de_travaux_publics	O
+
+#- à l'Ouest, des bâtiments de la douane
+
+8l0l0	l__Ouest	O
+8l0l1	la_douane	O
+8l1l0	douane	U
+
+#- àl4est, des bois puis une fonderie.
+
+9l0l0	àl4est	O
+9l0l1	bois	O
+9l0l2	fonderie	A
+
+#L'activité principale de l'entreprise est le pompage et le nettoyage en secteur industriel ainsi que sur les réseaux publics d'assainissement.
+
+10l0l0	l__entreprise	O
+10l0l1	le_pompage_et_le_nettoyage	A
+10l0l2	en_secteur_industriel	N
+10l0l3	ainsi_que_sur	R
+10l0l4	les_réseaux_publics_d__assainissement	O
+
+#Les prestations en milieu industriel génèrent des Déchets Industriels Dangereux qui sont regroupés sur le site du Creusot.
+
+11l0l0	Les_prestations_en_milieu_industriel	A
+11l0l1	sur_le_site_du_Creusot	L
+11l1l0	Déchets_Industriels_Dangereux	U
+
+#Lors d'une visite de l'inspecteur des installations classées, effectuée le 10 novembre 2009, il a été constaté que les prescriptions de l'arrêté préfectoral relatives au nettoyage des citernes ayant transporté des déchets dangereux n'étaient pas respectées.
+
+12l0l0	d__une_visite	N
+12l0l1	l__inspecteur_des_installations_classées	O
+12l0l2	le_10_novembre_2009__	T
+12l0l3	l__arrêté_préfectoral	O
+12l0l4	relatives_au	R
+12l0l5	nettoyage	N
+12l0l6	citernes	O
+12l0l7	ayant_transporté_des_déchets_dangereux	N
+12l1l0	des_déchets_dangereux	U
+
+#En effet, les eaux de lavage des citernes étaient directement envoyées dans le milieu naturel par l'intermédiaire d'un drain d'épandage au lieu d'être récupérées et stockées avec les déchets transportés.
+
+13l0l0	les_eaux_de_lavage	A
+13l0l1	citernes	O
+13l0l2	étaient_directement_envoyées_dans_le_milieu_naturel	N
+13l0l3	épandage	N
+13l0l4	au_lieu_d__être	R
+13l1l0	lavage_des_citernes	U
+13l1l1	les_déchets	U
+
+#11 janvier 2010: par arrêté préfectoral, la société SARP Centre est est tenue de réaliser une évaluation de la pollution générée par l'épandage des eaux de nettoyage des citernes.
+
+14l0l0	11_janvier_2010__	T
+14l0l1	par	R
+14l0l2	arrêté_préfectoral	O
+14l0l3	la_société_SARP_Centre	O
+14l0l4	est_est_tenue	R
+14l0l5	de_réaliser_une_évaluation	N
+14l0l6	la_pollution	N
+14l0l7	l__épandage	N
+14l0l8	des_eaux_de_nettoyage	A
+14l0l9	citernes	O
+14l1l0	la_société_SARP_Centre	I
+
+#Cette évaluation doit être conforme à la circulaire du 8 février 2007 relative à la gestion des sols pollués.
+
+15l0l0	8_février_2007	T
+15l0l1	sols_pollués	A
+
+#En mai 2010, des investigations de sols sont réalisés au droit du site.
+
+16l0l0	En_mai_2010__	T
+16l0l1	des_investigations_de_sols	N
+16l0l2	sont_réalisés	N
+16l0l3	au_droit_du_site	L
+
+#Au total  8 sondages carottier ont été effectués et ont permis de mettre en évidence les pollutions suivantes:
+
+17l0l0	carottier_ont_été_effectués	N
+
+#- forte pollution aux hydrocarbures totaux (HCT)
+
+18l1l0	hydrocarbures_totaux	S
+18l1l1	HCT	S
+
+#- faible pollution en hydrocarbures aromatiques monocycliques (BTEX)
+
+19l1l0	hydrocarbures_aromatiques_monocycliques	S
+19l1l1	BTEX	S
+
+#- forte pollution en métaux, notamment en zinc, cuivre, nickel, et chrome.
+
+20l1l0	métaux	S
+20l1l1	zinc	S
+20l1l2	cuivre	S
+20l1l3	nickel	S
+20l1l4	chrome	S
+
+#En décembre 2010, l'exploitant informe l'inspection des installations classées qu'il envisage la mise en place de piézomètres afin de surveiller l'évolution de la qualité des eaux souterraines.
+
+21l0l0	En_décembre_2010__	T
+21l0l1	l__exploitant	O
+21l0l2	informe	N
+21l0l3	l__inspection_des_installations_classées	O
+21l0l4	il_envisage	O
+21l0l5	la_mise_en_place_de_piézomètres	O
+21l0l6	surveiller_l__évolution_de_la_qualité_des_eaux_souterraines	A
+
+#Aucune disposition concernant la suppression de la pollution des sols n'est alors proposée.
+
+22l0l0	la_suppression_de	N
+22l0l1	la_pollution_des_sols	O
+
+#17 mars 2011: par arrêté préfectoral, la société SARP Centre Est est tenue de procéder à la suppression de la totalité des sources de pollution du site et transmet un rapport de fin de travaux à l'inspection des installations classées.
+
+23l0l0	17_mars_2011__	T
+23l0l1	par_arrêté_préfectoral	O
+23l0l2	la_société_SARP_Centre_Est	O
+23l0l3	est_tenue	R
+23l0l4	de_procéder_à_la_suppression	N
+23l0l5	de_la_totalité_des_sources_de_pollution_du_site	O
+23l0l6	un_rapport	O
+23l0l7	fin_de_travaux	N
+23l0l8	l__inspection_des_installations_classées	O
+23l1l0	la_société_SARP_Centre_Est	I
+
+#De plus, l'exploitant est tenue de procéder à la surveillance de la qualité des eaux de la nappe souterraines à l'aide de 3 piézomètres. les modalités de la surveillance sont les suivantes:
+
+24l0l0	l__exploitant	O
+24l0l1	est_tenue	N
+24l0l2	à	R
+24l0l3	la_surveillance	N
+24l0l4	la_qualité_des_eaux	O
+24l0l5	de_la_nappe_souterraines	A
+
+#- 1 campagne de surveillance annuelle portant sur les substances que sont le chrome, le cuivre, le nickel, le zinc, les hydrocarbures totaux.
+
+25l0l0	surveillance_annuelle	T
+25l1l0	les_substances	U
+25l1l1	le_chrome	S
+25l1l2	le_cuivre	S
+25l1l3	nickel	S
+25l1l4	zinc	S
+25l1l5	les_hydrocarbures_totaux	S
+
+#La surveillance peut être arrêtée au regard des résultats obtenus.
+
+26l0l0	La_surveillance	O
+
+#Le 6 septembre 2011, la société SARP Centre Est a envoyé le rapport de fin de travaux concernant l'excavation des sources de pollution.
+
+27l0l0	Le_6_septembre_2011__	T
+27l0l1	la_société_SARP_Centre_Est	O
+27l0l2	a_envoyé	N
+27l0l3	le_rapport	O
+27l0l4	fin_de_travaux	N
+27l0l5	l__excavation	N
+27l0l6	des_sources_de_pollution	N
+27l1l0	la_société_SARP	I
+
+#Les travaux réalisés ont été les suivants:
+
+28l0l0	Les_travaux_réalisés	N
+
+#- curage sélectif des spots montrant des teneurs significatives en hydrocarbures,
+
+29l0l0	curage_sélectif	N
+29l0l1	des_spots	O
+29l1l0	hydrocarbures	S
+
+#- élimination en filière agrées des terres polluées,
+
+30l0l0	élimination	N
+30l0l1	terres_polluées	O
+
+#- réalisation d'analyses en bords et fonds de fouille
+
+
+#- remblaiement des fouilles (avec des matériaux sain) et remise en état à l'identique de la zone de travaux.
+
+32l0l0	remblaiement_des_fouilles	N
+32l0l1	des_matériaux_sain	O
+32l0l2	remise_en_état	N
+32l0l3	la_zone_de_travaux	O
+
+#Au total, 184.36 tonnes de matériaux pollués ont été évacués et pris en charge par l'installation de stockage de déchet dangereux de Drambon (Côte d'Or).
+
+33l0l0	184_36_tonnes_de_matériaux_pollués	O
+33l0l1	ont_été_évacués	N
+33l0l2	pris_en_charge	N
+33l0l3	l__installation_de_stockage_de_déchet_dangereux	O
+33l0l4	de_Drambon___Côte_d__Or	L

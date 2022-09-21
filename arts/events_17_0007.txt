@@ -1,0 +1,418 @@
+
+#17.0007
+#Anciens établissements SIMCA, exploités successivement par Christler, Talbot et Peugeot jusqu'en 1991, puis la société TRIAXE Industries a repris, dans ces locaux, l'activité d'équipementier automobile (amortisseurs).
+
+0l0l0	Anciens_établissements_SIMCA	O
+0l0l1	exploités_successivement	N
+0l0l2	Christler	O
+0l0l3	Talbot	O
+0l0l4	jusqu__en_1991	T
+0l0l5	la_société_TRIAXE_Industries	O
+0l0l6	a_repris	N
+0l0l7	dans_ces_locaux	L
+0l0l8	l__activité_d__équipementier_automobile	A
+0l0l9	amortisseurs	A
+0l1l0	SIMCA	I
+0l1l1	Christler___Talbot	I
+0l1l2	la_société_TRIAXE_Industries	I
+
+#la liquidation a été prise en charge par Maître Curret-Guguen qui a commandité une étude de confinement des terres polluées.
+
+1l0l0	la_liquidation_a_été_prise_en_charge	N
+1l0l1	Maître_Curret	O
+1l0l2	a_commandité	N
+1l0l3	une_étude_de	N
+1l0l4	confinement_des_terres_polluées	O
+1l1l0	Maître_Curret___Guguen	I
+
+#Le site a été cédé à la communauté d'agglomération de La Rochelle qui, par délibération du 21 juin 2002 s'est engagée à prendre à sa charge les travaux de dépollution en vue de l'usage ultérieur du site.
+
+2l0l0	Le_site	O
+2l0l1	a_été_cédé	N
+2l0l2	à	R
+2l0l3	la_communauté_d__agglomération	O
+2l0l4	de_La_Rochelle	L
+2l0l5	21_juin_2002	T
+2l0l6	s__est_engagée	N
+2l0l7	prendre_à_sa_charge	N
+2l0l8	les_travaux_de_dépollution	N
+2l0l9	en_vue_de	R
+2l0l10	l__usage_ultérieur	N
+2l0l11	du_site	A
+2l1l0	la_communauté_d__agglomération_de_La_Rochelle	I
+
+#L'arrêté préfectoral du 23 mai 2003 prend acte de cet engagement et fixe les prescriptions relatives à la dépollution du site et à la surveillance des eaux souterraines.
+
+3l0l0	L__arrêté_préfectoral	O
+3l0l1	du_23_mai_2003	T
+3l0l2	fixe	N
+3l0l3	les_prescriptions	O
+3l0l4	relatives_à	R
+3l0l5	la_dépollution	N
+3l0l6	site	O
+3l0l7	la	O
+3l0l8	surveillance_des_eaux_souterraines	A
+
+#TRIAXE Industries a été mise en liquidation judiciaire en 1996, laissant sur place des déchets et des terres polluées autour de l'usine.
+
+4l0l0	TRIAXE_Industries	O
+4l0l1	a_été_mise_en_liquidation_judiciaire	N
+4l0l2	en_1996__	T
+4l0l3	place	N
+4l0l4	des_déchets	O
+4l0l5	des_terres_polluées_autour	O
+4l0l6	l__usine	O
+4l1l0	TRIAXE_Industries	I
+
+#Un arrêté du 1er août 1997 a mis en demeure l'exploitant de déclarer sa cessation d'activité, d'évacuer et de faire traiter les déchets laissés sur place et de fournir une étude de sols.
+
+5l0l0	Un_arrêté	O
+5l0l1	du_1er_août_1997	T
+5l0l2	a_mis_en_demeure	N
+5l0l3	l__exploitant	O
+5l0l4	déclarer_sa_cessation_d__activité	N
+5l0l5	d__évacuer	N
+5l0l6	faire_traiter	N
+5l0l7	place	N
+5l0l8	une_étude_de_sols	O
+5l1l0	les_déchets	U
+
+#Les déchets ont été évacués et l'étude de sols a permis de caractériser une zone polluée par des hydrocarbures : il s'agit de l'emplacement des anciens réservoirs de fioul, de l'aire d'exercices incendie, et du terrain de séchage des boues de décantation.
+
+6l0l0	Les_déchets	O
+6l0l1	ont_été_évacués	N
+6l0l2	l__étude_de_sols	N
+6l0l3	caractériser	N
+6l0l4	une_zone_polluée	O
+6l0l5	par	N
+6l0l6	hydrocarbures	O
+6l0l7	réservoirs_de_fioul	O
+6l0l8	terrain_de_séchage_des_boues_de_décantation	O
+6l1l0	hydrocarbures	S
+6l1l1	fioul	S
+
+#Un arrêté en date du 12 mai 2000 impose au liquidateur judiciaire le traitement des sols pollués par confinement (dans un sarcophage) et l'implantation de piézomètres pour suivre l'impact de cette pollution sur la nappe.
+
+7l0l0	Un_arrêté	O
+7l0l1	en_date_du_12_mai_2000	T
+7l0l2	impose	N
+7l0l3	le_traitement_des_sols_pollués	N
+7l0l4	sarcophage	N
+7l0l5	l__implantation_de_piézomètres	O
+
+#Une étude sur la qualité des eaux souterraines a été réalisée en juillet 2001.
+
+8l0l0	Une_étude	N
+8l0l1	la_qualité_des_eaux_souterraines	O
+8l0l2	a_été_réalisée	N
+8l0l3	en_juillet_2001	T
+
+#Cette étude propose une campagne de pompage des eaux souterraines avec écrémage, suivie d'un contrôle périodique de la qualité de ces eaux.
+
+9l0l0	une_campagne_de_pompage	N
+9l0l1	eaux_souterraines	O
+9l0l2	écrémage	N
+9l0l3	un	N
+9l0l4	contrôle_périodique_de_la_qualité_de_ces_eaux	A
+
+#La Communauté d'agglomération de La Rochelle, souhaitant acquérir le site, a demandé au mandataire de justice de renoncer à la solution du sarcophage et en a informé le préfet.
+
+10l0l0	La_Communauté	O
+10l0l1	d__agglomération_de_La_Rochelle	L
+10l0l2	souhaitant	R
+10l0l3	acquérir	N
+10l0l4	le_site	O
+10l0l5	renoncer_à_la	N
+10l0l6	a_informé	N
+10l0l7	le_préfet	O
+10l1l0	La_Communauté_d__agglomération_de_La_Rochelle	I
+10l1l1	le_préfet	I
+
+#Des négociations ont alors été engagées entre le mandataire de justice, qui gère le site, et la Communauté d'agglomération afin de faire évacuer les terres polluées et traiter la pollution de la nappe.
+
+11l0l0	Des_négociations_ont_alors_été_engagées	N
+11l0l1	le_mandataire_de_justice	O
+11l0l2	la_Communauté_d__agglomération	O
+11l0l3	afin	R
+11l0l4	de_faire_évacuer	N
+11l0l5	les_terres_polluées	O
+11l0l6	traiter_la_pollution	N
+11l0l7	la_nappe	O
+11l1l0	la_Communauté	I
+
+#L'inspection a confirmé à la Communauté d'agglomération de La Rochelle (CDA), au cours du premier trimestre 2002, qu'elle devait s'engager, officiellement et par un acte écrit, sur les mesures de dépollution qu'elle entendait prendre à sa charge dans le cadre de l'acquisition de ce terrain, en substitution des mesures préalablement imposées par le préfet.
+
+12l0l0	L__inspection	O
+12l0l1	la_Communauté_d__agglomération	O
+12l0l2	de_La_Rochelle	L
+12l0l3	au_cours_du_premier_trimestre_2002__	T
+12l0l4	un_acte_écrit	N
+12l0l5	les_mesures_de_dépollution	N
+12l0l6	sa_charge	N
+12l0l7	dans_le_cadre_de	R
+12l0l8	l__acquisition	N
+12l0l9	ce_terrain	O
+12l0l10	des_mesures	N
+12l0l11	le_préfet	O
+12l1l0	la_Communauté_d__agglomération_de_La_Rochelle	I
+12l1l1	le_préfet	I
+
+#Elle a confirmé également la nécessité de la définition et de la mise en oeuvre d'une surveillance des eaux souterraines.
+
+13l0l0	la_mise_en_oeuvre_d_	N
+13l0l1	une_surveillance_des_eaux_souterraines	A
+
+#Par suite, la CDA a transmis à la DRIRE une délibération du Conseil communautaire du 21/06/02, dans laquelle il est prévu que la CDA, en sa qualité de futur propriétaire, prendra à sa charge les travaux de dépollution.
+
+14l0l0	la_CDA	O
+14l0l1	a_transmis	N
+14l0l2	la_DRIRE	O
+14l0l3	21_06_02	T
+14l0l4	la_CDA	O
+14l0l5	prendra_à	R
+14l0l6	sa_charge	O
+14l0l7	les_travaux_de_dépollution	N
+14l1l0	la_CDA	I
+14l1l1	la_DRIRE	I
+14l1l2	la_CDA	I
+
+#En conséquence, l'inspection a proposé au préfet, après accord de la CDA sur ces mêmes propositions, de prescrire à la collectivité le traitement des terres et des boues polluées, le traitement de la nappe par pompage et écrémage des hydrocarbures surnageants et la mise en oeuvre d'une surveillance semestrielle de la qualité des eaux souterraines.
+
+15l0l0	prescrire	N
+15l0l1	la_collectivité	O
+15l0l2	le_traitement	N
+15l0l3	boues_polluées	O
+15l0l4	le_traitement_de_la_nappe	N
+15l0l5	écrémage	N
+15l0l6	la_mise_en_oeuvre_d_	N
+15l0l7	une_surveillance_semestrielle	A
+15l0l8	de_la_qualité_des_eaux_souterraines	A
+15l1l0	hydrocarbures_surnageants	U
+
+#Ces prescriptions ont été imposées à la collectivité par arrêté préfectoral du 23 mai 2003.
+
+16l0l0	Ces_prescriptions	O
+16l0l1	ont_été_imposées	N
+16l0l2	la_collectivité	O
+16l0l3	arrêté_préfectoral	O
+16l0l4	du_23_mai_2003__	T
+
+#La mise en oeuvre de ces obligations a, de plus, été rappelée à la CDA par l'inspection, par courrier du 26 mars 2004.
+
+17l0l0	La_mise_en_oeuvre	N
+17l0l1	a___de_plus___été_rappelée	N
+17l0l2	26_mars_2004__	T
+
+#A cette occasion, il a, en particulier, été insisté sur la nécessité de la surveillance piézométrique et de la définition et justification des objectifs de réhabilitation.
+
+18l0l0	la_surveillance_piézométrique	A
+18l0l1	justification_des_objectifs_de_réhabilitation	O
+
+#En réponse, la CDA a fait parvenir les BSDI de terres polluées et de boues chromiques, le rapport d'écrémage de la nappe et l'EDRS du site réalisée par HPC Envirotec.
+
+19l0l0	la_CDA	O
+19l0l1	a_fait_parvenir	N
+19l0l2	les_BSDI_de_terres_polluées	O
+19l0l3	boues_chromiques	O
+19l0l4	la_nappe	O
+19l0l5	HPC_Envirotec	O
+19l1l0	la_CDA	I
+19l1l1	boues_chromiques	D
+19l1l2	HPC_Envirotec	I
+
+#Cette étude permettra de définir les paramètres de suivi de la nappe, le type d'usage ultérieur admissible du site et les servitudes à mettre en place.
+
+20l0l0	les_paramètres	O
+20l0l1	la_nappe	O
+20l0l2	le_type_d__usage_ultérieur	O
+
+#En 2005, ont été réalisés par la CDA un diagnostic approfondi en matière d'étude de sols et une Etude Détaillée des Risques .
+
+21l0l0	En_2005__	T
+21l0l1	ont_été_réalisés	N
+21l0l2	la_CDA	O
+21l0l3	un_diagnostic_approfondi	N
+21l0l4	en_matière_d__étude_de_sols	N
+21l0l5	une_Etude_Détaillée_des_Risques	N
+
+#Des travaux de dépollution ont eu lieu sur le site entre octobre 2005 et octobre 2006.
+
+22l0l0	Des_travaux_de_dépollution	N
+22l0l1	ont_eu_lieu	N
+22l0l2	entre_octobre_2005_et_octobre_2006__	T
+
+#Ils ont consisté en l'excavation, le tri et le traitement en centres agréés de déchets et de remblais souillés au sein des anciennes zones et installations localisées dans les parties Sud et Ouest du site (anciennes lagunes et fosses bétonnées, ancienne aire à feux et ancien fossé d'évacuation des eaux pluviales).
+
+23l0l0	l__excavation	N
+23l0l1	le_tri	N
+23l0l2	centres_agréés	O
+23l0l3	remblais_souillés	O
+23l0l4	au_sein_des	R
+23l0l5	anciennes_zones	O
+23l0l6	et_installations	O
+23l0l7	localisées_dans_les_parties_Sud_et_Ouest_du_site	L
+23l0l8	ancienne_aire_à_feux	O
+23l0l9	ancien_fossé	O
+23l1l0	fosses_bétonnées	D
+
+#Un rapport de fin de travaux, daté du 14 novembre 2006, a relaté les différentes phases d'éxécution de ce chantier de dépollution.
+
+24l0l0	Un_rapport	O
+24l0l1	fin_de_travaux	N
+24l0l2	daté_du_14_novembre_2006__	T
+24l0l3	éxécution	N
+24l0l4	ce_chantier_de_dépollution	N
+
+#L'évaluation de la qualité des sols demeurés en place à l'issue des travaux d'excavation a permis de mettre en évidence l'absence de dépassement des objectifs de dépollution.
+
+25l0l0	L__évaluation	N
+25l0l1	la_qualité_des_sols_demeurés	O
+25l0l2	en_place	N
+25l0l3	l__issue_des_travaux_d__excavation	N
+25l0l4	dépassement_des_objectifs_de_dépollution	N
+
+#Une visite de l'inspection des installations classées en date du 31 octobre 2006 a permis de constater la réalisation des travaux.
+
+26l0l0	Une_visite	N
+26l0l1	l__inspection_des_installations_classées	O
+26l0l2	en_date_du_31_octobre_2006	T
+26l0l3	la_réalisation_des_travaux	N
+
+#Suite à cette inspection, un arrêté préfectoral du 05 février 2007 a imposé à la communauté d'Agglomération de La Rochelle le maintien d'une surveillance piézométrique semestrielle sur le site afin de surveiller l'évolution de la qualité des eaux souterraines.
+
+27l0l0	cette_inspection	N
+27l0l1	un_arrêté_préfectoral	O
+27l0l2	05_février_2007	T
+27l0l3	a_imposé	N
+27l0l4	la_communauté_d__Agglomération	O
+27l0l5	de_La_Rochelle	L
+27l0l6	le_maintien_d_	N
+27l0l7	une_surveillance_piézométrique_semestrielle	A
+27l0l8	la_qualité_des_eaux_souterraines	O
+27l1l0	la_communauté_d__Agglomération_de_La_Rochelle	I
+
+#En 2009 des travaux d'évacuation de terres polluées par des PCB, ainsi que le démantèlement de l'aire de stockage ont été effectué.
+
+28l0l0	En_2009	T
+28l0l1	des_travaux_d_	N
+28l0l2	évacuation_de_terres_polluées	N
+28l0l3	par	O
+28l0l4	des_PCB	O
+28l0l5	ainsi_que	R
+28l0l6	le_démantèlement_de	N
+28l0l7	l__aire_de_stockage	O
+28l0l8	ont_été_effectué	N
+28l1l0	des_PCB	S
+
+#Sous cette zone, les sols ont présenté une pollution en PCB.
+
+29l0l0	Sous	R
+29l0l1	cette_zone	O
+29l0l2	les_sols	O
+29l1l0	PCB	S
+
+#En 2010, ont été constatées l'extension de la zone impactée par les PCB et l'augmentation des teneurs vers l'extérieur de l'ancienne emprise de l'aire de stockage.
+
+30l0l0	En_2010__	T
+30l0l1	ont_été_constatées	N
+30l0l2	l__extension	N
+30l0l3	la_zone_impactée	O
+30l0l4	l__augmentation_des_teneurs	N
+30l0l5	vers_l__extérieur_de_l_	L
+30l1l0	PCB	S
+
+#Il semble qu'il y ait une autre source de contamination.
+
+31l0l0	contamination	O
+
+#Les dernières teneurs en PCB montrent des teneurs supérieures au CMA (Concentration Maximale Admissible) et des matériaux non acceptables en ISDI (Installation de Stockage de Déchets Inertes).
+
+32l1l0	PCB	S
+32l1l1	Déchets_Inertes	U
+
+#Au regard de ces constats la poursuite des opérations d'excavation et d'évacuation des matériaux au droit des zones présentant un impact résiduel détaillées et le contrôle de la qualité des matériaux restant en place à l'issue de ces travaux sont recommandées.
+
+33l0l0	ces_constats	N
+33l0l1	la_poursuite	N
+33l0l2	des_opérations_d__excavation	N
+33l0l3	d__évacuation_des_matériaux	O
+33l0l4	au_droit_des_zones	L
+33l0l5	le_contrôle	O
+33l0l6	place	N
+33l0l7	à_l__issue_de	R
+33l0l8	ces_travaux	N
+
+#En Janvier 2011, le rapport d'études "Assistance pour analyse de documents et avis technique" fourni pour la communauté d'agglomération de la Rochelle pour le site "Les Quatre Chevaliers à Périgny" a permis une analyse synthétique des études réalisées ainsi que des études et préconisations devant être réalisées telle qu'une ARR.
+
+34l0l0	En_Janvier_2011__	T
+34l0l1	le_rapport_d__études	O
+34l0l2	la_communauté_d__agglomération	O
+34l0l3	de_la_Rochelle	L
+34l0l4	le_site	O
+34l0l5	__Les_Quatre_Chevaliers_à_Périgny__	L
+34l0l6	études_réalisées	N
+34l0l7	une_ARR	O
+34l1l0	la_communauté_d__agglomération_de_la_Rochelle	I
+
+#En octobre 2011, le rapport d'études "assistance technique à la gestion des matériaux impactés par des PCB :  rapport final" " a réalisé une évaluation quantitative des risques sanitaires.
+
+35l0l0	En_octobre_2011__	T
+35l0l1	le_rapport_d__études	O
+35l0l2	assistance_technique	O
+35l0l3	matériaux_impactés	O
+35l0l4	__a_réalisé_une_évaluation_quantitative	N
+35l1l0	PCB	S
+
+#Les conclusions et les recommandations de ce rapports sont les suivantes :
+
+
+#- 940,52T de matériaux impactés par des PCB ont ainsi été évacués hors site en centre de traitement agréé
+
+37l0l0	940_52_T_de_matériaux_impactés	O
+37l0l1	ont_ainsi_été_évacués_hors_site	N
+37l0l2	centre_de_traitement_agréé	O
+37l1l0	PCB	S
+
+#-réalisation d'une EQRS spécifique à l’angle sud du site présentant un impact résiduel, en considérant un scénario de type tertiaire et une hypothèse de recouvrement de l'ensemble de la zone,
+
+38l0l0	_réalisation_d_	N
+38l0l1	une_EQRS	O
+38l0l2	spécifique	R
+38l0l3	à_l__angle_sud_du_site	L
+38l0l4	impact_résiduel	O
+
+#-mise en place de restriction d'usage visant à garantir l'absence de risque sanitaire pour les futurs usagers( en prenant compte les hypothèse de l'EQRS : en se basant sur un scénario de type tertiaire, absence de sous-sol, de recouvrement et absence d'usage des eaux souterraines :  il y a une absence de risques cancérigène et systémiques) et à assurer une gestion des matériaux impactés au cours des opérations de réaménagement.
+
+39l0l0	_mise_en_place_de	N
+39l0l1	restriction_d__usage	O
+39l0l2	à_assurer_une_gestion	N
+39l0l3	des_matériaux_impactés	O
+39l0l4	au	R
+39l0l5	cours_des_opérations_de_réaménagement	N
+39l1l0	cancérigène	U
+
+#-contrôler l'extension limitée de l'impact des PCB
+
+40l0l0	_contrôler	O
+40l1l0	PCB	S
+
+#-conserver les piézomètres
+
+41l0l0	les_piézomètres	O
+
+#-réaliser une campagne de la qualité des eaux souterraines afin le cas échéant de modifier les piézo intégrés à la surveillance et les paramètres analysés
+
+42l0l0	_réaliser_une_campagne	N
+42l0l1	la_qualité_des_eaux_souterraines	O
+
+#Des restrictions d'usage conventionnelles au profit de l'Etat (RUCPE) sont en cours d'élaboration afin de restreindre notamment l'usage futur de ces parcelles  en référence aux études des risques sanitaires déjà menées: le site ne pouvant être utilisé que pour des usages ou activités non sensibles, et les activités commerciales étant conditionnées à une nouvelle étude détaillée des risques sanitaires.
+
+43l0l0	Des_restrictions_d__usage	O
+43l0l1	conventionnelles	N
+43l0l2	au_profit_de	R
+43l0l3	l__Etat	O
+43l0l4	restreindre_notamment_l__usage_futur	N
+43l0l5	ces_parcelles	O
+43l0l6	être_utilisé_que_pour	R
+43l0l7	des_usages_ou_activités_non_sensibles	O
+43l0l8	et_les_activités_commerciales	O

@@ -1,0 +1,201 @@
+
+#36.0007
+#La station service, avenue d'Argenton, est implantée dans l'agglomération de CHATEAUROUX.
+
+0l0l0	La_station_service	O
+0l0l1	avenue_d__Argenton	L
+0l0l2	est_implantée	N
+0l0l3	dans_l__agglomération_de_CHATEAUROUX	L
+
+#Elle est bordée, au Nord et à l'est par un centre commercial et au sud par un magasin de pièces détachés.
+
+1l0l0	Elle	O
+1l0l1	est_bordée___au_Nord_et_à_l__est_par_un_centre	L
+1l0l2	sud	L
+1l0l3	un_magasin_de_pièces_détachés	O
+
+#Le site assurait la distribution de carburants (gasoil, carburant sans plomb 95, 97 et 98)à l'aide de plusieurs pompes associées à des cuves de stockage enterrées.
+
+2l0l0	Le_site	O
+2l0l1	assurait_la_distribution_de_carburants	A
+2l1l0	carburants	U
+2l1l1	gasoil	S
+2l1l2	carburant_sans_plomb	U
+2l1l3	cuves_de	D
+2l1l4	stockage_enterrées	D
+
+#epuis l'incident, la station a été arrêtée.
+
+3l0l0	la_station	O
+3l0l1	a_été_arrêtée	N
+
+#Du point de vue géologique, la station est située sur un massif calcaire, surmonté d'une zone composée de graviers calcaires, d'argiles de décalcification et de limons présentant une faible perméabilité de l'aquifère sous-jacent(de l'ordre de 2,4 10-6 m/s, soit 75 m par an).
+
+4l0l0	la_station	O
+4l0l1	est_située_sur_un_massif	L
+4l0l2	calcaire	O
+4l0l3	décalcification	N
+
+#Toutefois, il convient de relever des variations importantes du niveau de la nappe.
+
+
+#Cette dernière est située à environ 5.5 mètres de profondeur.
+
+6l0l0	située_à_environ	L
+6l0l1	5_5	T
+
+#Deux systèmes aquifères sont présents sur le site:
+
+7l0l0	Deux_systèmes_aquifères	O
+
+#- les calcaires de Dogger
+
+
+#- les calcaire de l'aquifère supérieur auxquels se rattachent les 2 captages de la Demoiselle à l'ouest de Châteauroux et celui de Coing-Céré au nord.
+
+9l0l0	les_2_captages	O
+9l0l1	Demoiselle_à_l__ouest_de_Châteauroux	L
+9l0l2	Coing___Céré_au_nord	L
+
+#Un écoulement d'hydrocarbures a eu lieu sur le site, provoqué par la fuite d'une canalisation détectée le 15 novembre 1999 (entre 2800 et 8000 litres de carburant sans plomb 97).
+
+10l0l0	d__hydrocarbures	O
+10l0l1	a_eu_lieu	N
+10l0l2	provoqué_par	R
+10l0l3	la_fuite	N
+10l0l4	une_canalisation_détectée	O
+10l0l5	le_15_novembre_1999	T
+10l0l6	8000_litres_de_carburant_sans_plomb_97	O
+10l1l0	hydrocarbures	S
+10l1l1	carburant_sans	U
+10l1l2	plomb_97	I
+
+#Des études équivalentes à un diagnostic initial site et sols pollués et à une évaluation simplifiée des risques, ont immédiatement été menées sur le site. 10 piézomètres ont été installés afin d'évaluer et traiter la pollution.
+
+11l0l0	Des_études	N
+11l0l1	un_diagnostic_initial_site	N
+11l0l2	sols_pollués	O
+11l0l3	une_évaluation_simplifiée_des_risques	N
+11l0l4	ont_immédiatement_été_menées	N
+11l0l5	10_piézomètres	O
+11l0l6	ont_été_installés	N
+11l0l7	traiter_la_pollution	N
+
+#Elles ont été suivies en décembre 1999 d'un traitement de la pollution du sol et de la nappe phréatique :
+
+12l0l0	Elles	O
+12l0l1	ont_été_suivies	N
+12l0l2	en_décembre_1999	T
+12l0l3	d__un_traitement	N
+12l0l4	la_pollution	N
+12l0l5	sol	O
+
+#- En décembre 1999 : mise en dépression des terrains pour mettre en sécurité le site en aspirant les vapeurs et récupération de la phase flottante présente au toit de la nappe par pompage écrémage sur 5 piézomètres.
+
+13l0l0	En_décembre_1999	T
+13l0l1	__mise_en_dépression_des_terrains	N
+13l0l2	pompage_écrémage	N
+
+#- fin 2000 mise en place d'un écrémage passif.
+
+14l0l0	fin_2000	T
+14l0l1	mise_en_place_d__un_écrémage	N
+
+#1040 litres de carburant sont récupérés.
+
+15l0l0	1040_litres_de_carburant	O
+15l0l1	sont_récupérés	N
+15l1l0	carburant	U
+
+#En 2000, le démantèlement des installations de distribution a été engagé par la société ELF ANTAR.
+
+16l0l0	En_2000__	T
+16l0l1	le_démantèlement	N
+16l0l2	des_installations_de_distribution	O
+16l0l3	a_été_engagé	N
+16l0l4	la_société_ELF_ANTAR	O
+16l1l0	la_société_ELF_ANTAR	I
+
+#Les opérations de dépollution et de surveillance à l'aide des piézomètres sont encadrées par l'arrêté préfectoral du 15 février 2001.
+
+17l0l0	Les_opérations_de_dépollution	N
+17l0l1	surveillance	A
+17l0l2	sont_encadrées	N
+17l0l3	l__arrêté_préfectoral	O
+17l0l4	15_février_2001	T
+
+#Le traitement de la pollution est difficile en raison de la très faible perméabilité de la zone polluée.
+
+18l0l0	la_pollution	O
+18l0l1	zone_polluée	O
+
+#La pollution reste localisée.
+
+
+#Les résultats de la surveillance d'aout 2004 montrent :
+
+20l0l0	la_surveillance_d_	N
+20l0l1	aout_2004	T
+
+#- des concentrations importantes en hydrocarbures totaux,
+
+21l1l0	hydrocarbures_totaux	S
+
+#- la présence de BTEX (Benzène, Toluène, Ethylbenzène, Xylène qui sont des solvants aromatiques),
+
+22l1l0	la_présence_de	U
+22l1l1	BTEX	S
+22l1l2	Benzène	S
+22l1l3	Toluène	S
+22l1l4	Ethylbenzène	S
+22l1l5	Xylène	S
+22l1l6	des_solvants_aromatiques	S
+
+#- la présence de chlorobenzène,
+
+23l1l0	chlorobenzène	S
+
+#- l'absence de composés organo-halogénés volatils,
+
+24l1l0	composés_organo__	S
+24l1l1	halogénés	U
+
+#- la présence de plomb sur un piézomètre (44 µg/L).
+
+25l1l0	plomb	S
+
+#Les écrémeurs passifs qui avaient été retirés ont été remis le 29 juin 2004 au niveau des piézomètres et forage prévus par l'arrêté préfectoral.
+
+26l0l0	Les_écrémeurs_passifs	O
+26l0l1	avaient_été_retirés	N
+26l0l2	ont_été_remis	N
+26l0l3	le_29_juin_2004	T
+26l0l4	au_niveau_des	R
+26l0l5	piézomètres	O
+
+#Ces écrémeurs ont permis de collecter un faible volume (0,28 litres en trois mois), mais confirment la présence d'une phase surnageante sur plusieurs ouvrages.
+
+27l0l0	Ces_écrémeurs	O
+27l1l0	surnageante	U
+
+#En 2004, une évaluation détaillée des risques a été réalisée sur deux usages : usage actuel et usage ultérieur (type résidentiel individuel ou collectif).
+
+28l0l0	En_2004__	T
+28l0l1	une_évaluation_détaillée_des_risques	N
+28l0l2	a_été_réalisée	N
+28l0l3	deux_usages	O
+
+#L'étude a été complétée afin de prendre en compte le paramètre plomb.
+
+29l0l0	L__étude_a_été_complétée	N
+29l1l0	plomb	S
+
+#L'usage est compatible avec un usage résidentiel (collectif ou individuel) avec parking souterrain, cave ou vide sanitaire et jardin potager.
+
+30l0l0	L__usage	O
+30l0l1	un_usage_résidentiel	A
+
+#Cependant, l'usage des eaux souterraines doit être réglementé.
+
+31l0l0	l__usage_des_eaux_souterraines	A
+31l0l1	doit_être_réglementé	L

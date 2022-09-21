@@ -1,0 +1,358 @@
+
+#91.0101
+#L'établissement est une station-service en libre-service sous surveillance.
+
+0l0l0	service_en_libre___service_sous_surveillance	O
+
+#Elle est établie sur l'aire de Limours-Briis sous Forge sur l'autoroute A10, sens province-Paris sur une parcelle de 47ha.
+
+1l0l0	Elle	O
+
+#La station-service fournit à ses clients du SP95-E10, du SP98, du GO, du GO+, de l'ADblue ainsi que du GPL.
+
+2l0l0	La	O
+2l0l1	station___service	N
+2l0l2	fournit_à_ses_clients_du_SP95_E10___du_SP98___du_GO___du_GO____de_l__ADblue_ainsi_que_du	L
+
+#Elle dispose de pistes pour les véhicules légers ainsi que des pistes pour les poids lourds.
+
+3l1l0	légers_ainsi	I
+3l1l1	que_des_pistes_pour_les	S
+3l1l2	poids_lourds	I
+
+#L’environnement immédiat du relais est composé de parcelles agricoles.
+
+4l0l0	parcelles_agricoles	O
+
+#L’étude historique et documentaire du site (rapport IDDEA IC120328 du 28/01/2013) précise que :
+
+5l0l0	L__étude_historique_et_documentaire	O
+5l0l1	rapport_IDDEA_IC120328_du_28_01_2013	O
+
+#- Le cours d’eau le plus proche est le ruisseau « la Gironde » à 1,7km au sud-est et s’écoule vers le sud-est.
+
+6l0l0	sud_est_et_s__écoule	T
+
+#- Au droit du site, la nappe qu’il est possible de rencontrer est la nappe des Sables de Fontainebleau qui se situerait à environ 50m de profondeur.
+
+7l0l0	Au_droit_du_site	O
+7l0l1	est_possible_de_rencontrer	L
+7l0l2	est_la_nappe_des_Sables	L
+7l0l3	Fontainebleau_qui	L
+
+#Cette nappe est surmontée par des niveaux argileux peu perméables, elle est donc peu vulnérable à une pollution issue du site.
+
+8l0l0	Cette_nappe_est_surmontée	L
+8l0l1	vulnérable_à_une	L
+8l0l2	issue_du_site__	L
+
+#- Aucun captage d’alimentation en eau potable n’est référencé dans un périmètre de 1km autour du site, y compris en aval hydraulique.
+
+9l0l0	d__alimentation	O
+9l0l1	de_1_km_autour_du_site___y_compris_en_aval_hydraulique	L
+
+#- Il y a deux puits ou captages exploités dans un rayon d’1,5km autour du site, ces puits ou captages sont situés en amont hydraulique du site.
+
+10l0l0	d_1_5_km_autour_du_site___ces_puits_ou_captages_sont	L
+10l0l1	amont_hydraulique_du	L
+
+#- Aucune zone Natura 2000 n’est recensée aux alentours du site, la ZNIEFF la plus proche est située à 2,3km au sud-ouest du site (Anciennes mines de lignite d’Arjuzanx).
+
+11l0l0	Aucune_zone_Natura_2000_n_	O
+11l0l1	est_recensée	N
+11l0l2	aux_alentours_du_site___la_ZNIEFF_la	L
+11l0l3	plus_proche	O
+11l0l4	km_au_sud_ouest_du_site___Anciennes_mines	L
+
+#Suite à la mise à jour administrative du site de juillet 2015, le site relève désormais du régime de déclaration avec contrôle périodique.
+
+12l0l0	Suite_à_la_mise_à_jour_administrative	O
+12l0l1	site_de_juillet_2015___le	L
+12l0l2	site_relève_désormais_du	O
+12l0l3	régime_de_déclaration_avec_contrôle	L
+12l0l4	_	A
+
+#Par courrier du 31 août 2015, l'exploitant présentait le projet de rénovation de ses installations.
+
+13l0l0	Par	R
+13l0l1	courrier_du_31_août_2015___l__exploitant	N
+13l0l2	présentait_le_projet	T
+13l0l3	de	O
+13l0l4	rénovation_de_ses	R
+13l0l5	installations__	N
+
+#Suite à ce projet, les installations sur le site seront constituées par:
+
+14l0l0	projet___les_installations	T
+14l0l1	sur_le	O
+14l0l2	site_seront	N
+14l0l3	constituées_par__	N
+
+#- 8 cuves enterrées double-enveloppe de liquides inflammables,
+
+15l0l0	cuves_enterrées	N
+15l0l1	double_enveloppe	O
+15l0l2	de_liquides	O
+
+#- les installations de distribution pour les liquides inflammables,
+
+16l0l0	les_installations	O
+16l1l0	les_installations	D
+16l1l1	distribution_pour_les_liquides_inflammables	U
+
+#- 1 cuve de GPL
+
+
+#- un distributeur double-face pour le GPL.
+
+18l1l0	un_distributeur_double_face_pour_le_GPL__	I
+
+#L’étude historique et documentaire du site (rapport IDDEA IC120328 du 28/01/2013) trace les pollutions identifiées ainsi que les actions menées visant à traiter ces dernières :
+
+19l1l0	documentaire_du_site	U
+
+#- des pertes de supercarburant sont constatées en 1978,
+
+20l1l0	1978__	I
+
+#- en 2006, de l’essence est détectée au niveau des volucompteurs d'un ilôt de distribution véhicule léger, du manifold et dans les fossés d’écoulement des eaux pluviales et avait pour origine une fuite du mesureur sur les volucompteurs.
+
+21l0l0	essence_est_détectée	O
+21l0l1	au_niveau_des	N
+21l0l2	volucompteurs	T
+21l1l0	essence_est_détectée	U
+
+#Un premier diagnostic de sol a été réalisé en juillet 2006 par SITA REMEDIATION et mettait en évidence la présence de teneurs significatives en hydrocarbures totaux au droit des volucompteurs sans que la zone d’extension de la pollution à l’Ouest et à l’Est n’ait pu être délimitée.
+
+22l0l0	Un_premier	T
+22l0l1	diagnostic	O
+22l0l2	de_sol_a_été	N
+22l0l3	réalisé_en_juillet_2006	L
+22l0l4	teneurs_significatives_en_hydrocarbures_totaux_au	L
+22l1l0	diagnostic	S
+
+#A l’occasion de travaux liés à la mise en place d’une cuve d’AdBlue, quelques 11 tonnes de terres souillées ont été évacuées du site.
+
+23l0l0	A_l__occasion_de_travaux	N
+23l0l1	liés_à_la_mise_en_place	N
+23l0l2	d__une_cuve_d_	T
+23l0l3	AdBlue___quelques_11	O
+23l0l4	souillées_ont_été_évacuées_du_site__	O
+23l1l0	AdBlue___quelques_11	I
+
+#Un diagnostic de sol complémentaire a été réalisé au niveau de la fouille et a mis en évidence une contamination par des hydrocarbures dégradés et correspondant à une pollution historique de gazole.
+
+24l0l0	Un_diagnostic	R
+24l0l1	de_sol	N
+24l0l2	complémentaire	R
+24l0l3	a_été_réalisé	N
+24l0l4	au_niveau_de	O
+24l0l5	mis_en_évidence_une_contamination	O
+24l0l6	par_des_hydrocarbures	N
+24l1l0	au_niveau_de_la_fouille	U
+
+#En 2007, un suivi d’écrémage de la phase pur du produit a été réalisé au niveau de la fouille.
+
+25l0l0	En_2007___un_suivi_d__écrémage_de_la_phase	O
+25l0l1	pur_du_produit	N
+
+#Cette fouille a été remblayée lors des travaux de modernisation de 2010-2011.
+
+26l0l0	Cette	T
+26l0l1	fouille_a_été_remblayée	A
+26l0l2	modernisation_de	N
+26l0l3	2010___2011__	L
+
+#Un réseau de drainage raccordé à un puisard a été installé au niveau de cette zone, à 2 mètres de profondeur afin de faciliter la mise en œuvre d’un nouvel ouvrage de contrôle.
+
+27l0l0	Un_réseau_de	O
+27l0l1	drainage_raccordé	N
+27l0l2	à_un	T
+27l0l3	puisard_a_été_installé_au_niveau	N
+27l0l4	de_cette_zone	T
+
+#- en juillet 2009, un diagnostic de sol a été réalisé par SITA REMEDIATION suite à une suspicion de fuite de carburants au niveau des conduites de distribution de carburants longeant le devant des pistes VL et PL.
+
+28l0l0	__en_juillet_2009___un_diagnostic	O
+28l0l1	de_sol_a_été	O
+28l0l2	réalisé_par_SITA	N
+28l0l3	REMEDIATION_suite_à	O
+28l0l4	une_suspicion_de_fuite_de	O
+28l0l5	carburants_au_niveau	R
+28l0l6	des_conduites	N
+28l0l7	de_distribution_de_carburants	O
+
+#Il met en évidence un impact en hydrocarbures et BTEX sur les sols localisés à proximité des îlots de distribution VL.
+
+29l0l0	Il_met_en_évidence	T
+29l0l1	un_impact_en_hydrocarbures_et_BTEX	N
+29l0l2	sur_les_sols_localisés	O
+29l0l3	à	R
+29l0l4	proximité_des_îlots_de_distribution_VL__	O
+29l1l0	sur_les_sols_localisés	I
+29l1l1	distribution_VL__	U
+
+#Il met également en exergue une phase pure hydrocarbonée fortement dégradé ainsi qu’un apport récent de produit pur au droit des ouvrages S1 et PZ14.
+
+30l0l0	hydrocarbonée_fortement	O
+30l0l1	dégradé_ainsi_qu__un_apport_récent_de_produit_pur	L
+30l1l0	une_phase_pure_hydrocarbonée	S
+
+#- en avril 2010, SITA REMEDIATION a effectué un diagnostic de sols de la zone bassin d’orage, diagnostic qui met en évidence l’absence d’impact significatif par des hydrocarbures C5-C40.
+
+31l0l0	REMEDIATION_a_effectué_un_diagnostic	O
+31l0l1	orage___diagnostic_qui_met_en_évidence	N
+31l0l2	l__absence_d__impact	L
+31l1l0	effectué_un	S
+31l1l1	diagnostic	D
+
+#- entre septembre 2010 et mai 2011, SITA REMEDIATION a réalisé le suivi environnemental des travaux de modernisation des infrastructures et la gestion des terres polluées associées (limités aux travaux de terrassement prévus).
+
+32l0l0	entre_septembre_2010	T
+32l0l1	et_mai_2011	O
+32l0l2	__SITA	N
+32l0l3	REMEDIATION_a_réalisé_le	N
+32l0l4	suivi_environnemental	O
+32l1l0	septembre_2010_et_mai_2011	I
+32l1l1	polluées_associées___limités	S
+
+#Un terrassement supplémentaire voué à la réalisation d’une fouille de récupération des hydrocarbures en phase libre a été entrepris au droit de la piste n°3 VL .
+
+33l0l0	Un_terrassement_supplémentaire_voué_à	T
+33l0l1	la_réalisation	O
+33l0l2	d__une	N
+33l0l3	fouille_de_récupération_des	N
+33l0l4	hydrocarbures_en_phase_libre	N
+33l0l5	a_été_entrepris_au_droit	O
+33l0l6	de_la_piste_n__3_VL____	O
+33l1l0	voué_à_la_réalisation	I
+
+#Quelques 2436 tonnes de terres polluées ont été évacuées mais les terrassements effectués n’ont pas permis d’excaver l’ensemble des matériaux identifiés pollués.
+
+34l0l0	Quelques_2436_tonnes	N
+34l0l1	polluées	R
+34l0l2	ont_été_évacuées_mais_les_terrassements_effectués_n__ont_pas_permis	O
+34l0l3	d__excaver	N
+34l0l4	l__ensemble_des	N
+34l0l5	matériaux_identifiés_pollués	L
+34l1l0	effectués_n__ont_pas_permis	S
+
+#Plusieurs sources de pollution résiduelle en hydrocarbures C10-C40 et BTEX ont été identifiées au droit des pistes PL (du centre vers l’Ouest), l’ensemble des pistes VL, le séparateur et la cuve n°4.
+
+35l0l0	Plusieurs_sources_de_pollution_résiduelle	O
+35l0l1	en_hydrocarbures_C10_C40_et_BTEX_ont_été_identifiées	N
+
+#Les limites physiques verticalement et latéralement n’ont pas pu être délimitées.
+
+36l0l0	Les_limites_physiques_verticalement	O
+36l0l1	délimitées__	N
+36l1l0	latéralement_n__ont_pas_pu_être_délimitées	S
+
+#- entre septembre 2011 et avril 2012 le réseau de surveillance de la qualité des eaux souterraines a été complété par deux piézomètres.
+
+37l0l0	__entre_septembre_2011	O
+
+#Depuis avril 2012 (début du suivi de la qualité des eaux par les piézomètres), les teneurs en hydrocarbures et en benzène dissous présentent une tendance à la baisse au droit du PZ15 (implanté au droit de la zone où une phase surnageant a été observée en 2006), cette zone ne semble plus alimentée en produit pur.
+
+38l0l0	Depuis_avril_2012___début_du_suivi_de	T
+38l0l1	la_qualité_des_eaux_par_les	A
+38l0l2	piézomètres_____les_teneurs_en_hydrocarbures	A
+38l0l3	et_en	N
+
+#Il en est de même au niveau du manifold et du puisard.
+
+39l0l0	Il_en_est_de_même_au	T
+39l0l1	niveau	N
+39l0l2	du_manifold_et_du_puisard__	A
+
+#Le diagnostic de l’état de pollution des sols et des eaux (rapport IDDEA IC120341 du 25/03/2013) est mené sur plusieurs sondages sur site, 14 des 39 sondages réalisés détectent des anomalies en hydrocarbures et/ou en benzène.
+
+
+#Au travers du schéma conceptuel réalisé dans ce document, le bureau d’études indique que la seule voie d’exposition possible serait via une inhalation de vapeurs et préconise des prélèvements de gaz des sols et d’air ambiant.
+
+41l0l0	Au_travers_du	N
+41l0l1	schéma_conceptuel_réalisé_dans_ce_document	O
+41l0l2	indique_que_la_seule	T
+41l1l0	prélèvements_de_gaz_des_sols	S
+41l1l1	ambiant	S
+
+#Il indique notamment que dans la mesure où les nappes impactées sont perchées et sans continuité hydraulique avec les habitations en aval hydraulique, seule la poursuite du suivi de la qualité des eaux souterraines est préconisée.
+
+42l0l0	notamment_que_dans_la	O
+42l0l1	impactées_sont_perchées	O
+42l0l2	hydraulique	N
+42l0l3	_	N
+
+#Le schéma conceptuel identifie toutefois une voie de transfert de la pollution vers le bassin d’orage du site.
+
+43l0l0	une_voie_de_transfert	O
+
+#Le rapport de prélèvements d’air ambiant (rapport IDDEA IC130118 du 22/07/2013) conclut qu’aucune action immédiate de protection des salariés liée à une remontée de vapeurs, en milieu confiné n’est préconisée.
+
+44l0l0	Le_rapport_de_prélèvements	O
+44l0l1	du_22_07_2013	O
+44l0l2	__conclut_qu_	O
+
+#Ce rapport s’appuie sur la réalisation de 3 prélèvements d’air intérieur (dans la boutique et les deux kiosques) et d’un prélèvement d’air ambiant extérieur.
+
+45l0l0	intérieur___dans_la	T
+
+#Le rapport de suivi de la qualité des eaux souterraines du 22/05/2015  formule des recommandations uniquement dans le cadre de travaux et/ou de modifications des usages des zones identifiées comme polluées.
+
+46l0l0	qualité_des_eaux	N
+46l0l1	le_cadre_de_travaux_et__	N
+
+#Il précise qu’il n’y aurait pas de risque de migration d’une pollution identifiée au droit de Pz15 (zone 2) en dehors des limites du site par une nappe dans les horizons de surface.
+
+47l0l0	Il_précise_qu_	O
+47l0l1	il_n__y_aurait_pas_de_risque_de_migration_d_	A
+47l0l2	une_pollution	T
+47l0l3	identifiée_au_droit_de_Pz15__	O
+47l0l4	zone_2___en_dehors_des_limites_du_site	N
+47l0l5	par	L
+47l0l6	une_nappe_dans_les_horizons_de	N
+47l0l7	surface__	O
+
+#Aucun travaux n’est donc préconisé par ces différentes études pour le site dans son utilisation actuelle.
+
+48l0l0	son_utilisation	L
+48l0l1	actuelle	O
+48l0l2	_	L
+
+#Le 26 mars 2016, du gasoil est refoulé par la bouche de dépotage lors du remplissage de la cuve 10.2.
+
+49l0l0	du_remplissage	O
+
+#La société TOKHEIM isole la cuve, ferme la vanne du manifold et condamne la bouche de dépotage.
+
+50l0l0	La_société_TOKHEIM	T
+50l0l1	isole	A
+50l0l2	la_cuve___ferme	N
+50l0l3	la_vanne_du	O
+50l0l4	manifold_et	O
+50l0l5	condamne_la_bouche_de_dépotage	O
+50l1l0	TOKHEIM_isole	S
+
+#Un dégagement de gasoil se produit alors par l'évent du réservoir.
+
+51l0l0	Un_dégagement_de	O
+51l0l1	gasoil_se_produit	O
+51l0l2	alors	N
+51l0l3	par_l__évent_du_réservoir	O
+51l0l4	_	N
+51l1l0	Un_dégagement_de_gasoil	I
+51l1l1	se_produit	D
+
+#L'exploitant doit transmettre le rapport d'accident prévu par l'article R.512-69 du code de l'environnement.
+
+52l0l0	doit_transmettre	O
+52l1l0	transmettre	U
+
+#Il doit également préciser l'impact de ce sinistre sur les documents de suivi de la pollution à savoir le diagnostic des sols, le suivi de la qualité des eaux souterraines, le schéma conceptuel et le plan de gestion.
+
+53l0l0	Il_doit_également	O
+53l0l1	préciser_l__impact	N
+53l0l2	de_ce_sinistre_sur	O
+
+#Ces demandes seront précisées au travers d'un prochain arrêté préfectoral.
+

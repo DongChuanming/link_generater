@@ -1,0 +1,414 @@
+
+#42.0207
+#Le site de la société SAM Outillage a été exploité par « Les Forges Stéphanoises » à partir de 1906.
+
+0l0l0	Le_site	O
+0l0l1	la_société_SAM_Outillage	O
+0l0l2	a_été_exploité	N
+0l0l3	Les_Forges_Stéphanoises	O
+0l0l4	____à_partir_de_1906	T
+0l1l0	la_société_SAM_Outillage	I
+0l1l1	__Les_Forges	I
+
+#L’entreprise effectuait des trempes et des traitements des métaux par produits chimiques.
+
+1l0l0	L__entreprise	O
+1l0l1	effectuait_des_trempes	A
+1l0l2	des_traitements	N
+1l0l3	métaux	O
+1l0l4	produits_chimiques	O
+
+#La cour était utilisée pour stocker de l’acier.
+
+2l0l0	La_cour	O
+2l0l1	était_utilisée_pour	R
+2l0l2	stocker_de	A
+2l0l3	l__acier	O
+
+#Une activité de galvanoplastie était exercée dans un troisième bâtiment comprenant une cuve de décantation de 3 m de profondeur ainsi que des bains de chromage/nickelage.
+
+3l0l0	Une_activité_de_galvanoplastie	A
+3l0l1	était_exercée_dans	R
+3l0l2	un_troisième_bâtiment	O
+3l0l3	des_bains_de_chromage___nickelage	A
+
+#La société SAM Outillage, spécialisée dans la fabrication d’outils à main (clés, douilles, pinces…), est autorisée à exploiter, par arrêté préfectoral en date du 24 janvier 1995, des activités de traitement électrolytique des métaux, emploi de matières abrasives, travail mécanique des métaux, atelier de charge d'accumulateurs, installations de compression, trempe et recuit des métaux, transformateur aux PCB et entrepôt couvert.
+
+4l0l0	La_société_SAM_Outillage	O
+4l0l1	dans_la_fabrication_d__outils_à_main	A
+4l0l2	est_autorisée_à_exploiter___par	N
+4l0l3	arrêté_préfectoral_en	O
+4l0l4	date_du_24_janvier_1995___des	T
+4l0l5	activités_de_traitement_électrolytique_des_métaux__	A
+4l0l6	emploi_de_matières_abrasives	A
+4l0l7	recuit_des_métaux___transformateur	A
+4l0l8	entrepôt_couvert__	O
+4l1l0	La_société_SAM_Outillage	I
+4l1l1	PCB_et	S
+
+#Le site d’exploitation, situé dans une zone urbaine, est bordé :
+
+5l0l0	Le_site_d__exploitation	O
+5l0l1	situé_dans_une_zone_urbaine	L
+5l0l2	bordé	L
+
+#à l’ouest : par le boulevard Thiers puis des entreprises,
+
+6l0l0	__par_le_boulevard_Thiers	L
+
+#au nord et nord-ouest : diverses entreprises dont le bâtiment SAM Outillage en activité,
+
+7l0l0	au_nord	L
+7l0l1	et_nord_ouest	O
+7l0l2	dont_le_bâtiment_SAM_Outillage	O
+7l1l0	dont_le_bâtiment_SAM_Outillage	I
+
+#à l’est : la rue des Aciéries ainsi que l’allée de la logistique puis le Zénith,
+
+8l0l0	__la_rue_des_Aciéries	L
+8l0l1	de_la_logistique	O
+8l0l2	puis_le_Zénith	O
+
+#au sud : la rue Barrouin puis des entreprises.
+
+9l0l0	au_sud	O
+9l0l1	__la_rue_Barrouin	L
+
+#Le secteur de Saint-Etienne appartient au bassin houiller.
+
+10l0l0	Le_secteur	O
+10l0l1	de_Saint_Etienne	L
+10l0l2	appartient_au	R
+10l0l3	bassin_houiller	A
+
+#Les terrains sédimentaires de l’ère Primaire (Paléozoïque) et plus précisément les sédiments du Carbonifère supérieur (Stéphanien) et la base du Permien (Autunien) reposent sur un socle métamorphique.
+
+11l0l0	Les_terrains	O
+11l0l1	la_base	O
+
+#D’après la carte géologique de Saint-Etienne, le secteur se situe au sein des formations du Stéphanien moyen, correspondant à la série du Treuil (assise de Saint-Etienne).
+
+12l0l0	le_secteur	O
+12l0l1	se_situe_au_sein_des_formations	N
+12l0l2	assise_de_Saint_Etienne	L
+
+#Celle-ci est composée de sédiments fins schisto-gréseux sur une puissance de 1 100 m et inclut 16 couches de houille (40 m de charbon au total).
+
+13l1l0	charbon	U
+
+#Des niveaux de remblais issus de l’exploitation des charbons sont présents en surface.
+
+14l0l0	Des_niveaux_de_remblais	O
+
+#Leur épaisseur peut être très variable.
+
+
+#En limite ouest de la zone d’étude (zone Manufacture), la carte géologique mentionne la présence des alluvions du cours d’eau du FURAN (alluvions sablo-graveleuses, souvent limoneuses).
+
+16l0l0	En_limite_ouest_de_la_zone	L
+16l0l1	zone_Manufacture	O
+16l0l2	la_carte_géologique	O
+16l0l3	eau_du_FURAN	L
+
+#Le FURAN est canalisé, et s’écoule du sud vers le nord.
+
+17l0l0	Le_FURAN	O
+17l0l1	canalisé	O
+17l0l2	du_sud_vers_le_nord	L
+17l1l0	FURAN	I
+
+#D’après le rapport du BRGM (1976), « la tranche superficielle du sous-sol stéphanois est lithologiquement très hétérogène, de par l’existence de remblais superficiels et profonds (galeries), de vides francs et l’alternance de terrains variés ».
+
+18l0l0	le_rapport_du_BRGM	O
+18l0l1	__1976	T
+18l1l0	BRGM	I
+
+#D’après des études disponibles, on distingue plusieurs ensembles aquifères :
+
+
+#- Une nappe d’accompagnement peu profonde identifiée au sein des alluvions du Furan à l’ouest du secteur Manufacture, avec un écoulement orienté vers le nord-ouest, en direction de la rivière.
+
+20l0l0	au_sein_des_alluvions_du_Furan_à_l__ouest_du_secteur_Manufacture	L
+20l0l1	un	N
+20l0l2	écoulement_orienté_vers_le_nord_ouest	L
+20l0l3	en_direction_de	R
+20l0l4	la_rivière	L
+
+#Le niveau de la nappe évoluerait entre 492 et 495 m NGF (l’altitude des terrains étant de 500 m NGF environ).
+
+
+#- Un niveau d’eau circulant à l’interface entre les remblais et le substratum schisteux (vers 4 à 5 m de profondeur) est identifié sur la partie centrale du secteur Manufacture (terrains ANNINO).
+
+22l0l0	est_identifié	N
+22l0l1	sur_la_partie_centrale_du_secteur_Manufacture	L
+22l1l0	ANNINO	I
+
+#Ces eaux sont rencontrées autour de 494 m NGF.
+
+23l0l0	Ces_eaux	O
+23l0l1	sont_rencontrées_autour	N
+
+#Les ouvrages implantés dans ces eaux sont très peu productifs (aquifère fragmentaire peu épais et très hétérogène de type lenticulaire).
+
+24l0l0	Les_ouvrages	O
+24l0l1	implantés	N
+
+#Leur écoulement est conditionné par la topographie.
+
+
+#- Un aquifère plus profond est rencontré entre 8 et 15 m de profondeur dit « nappe minière du Villier Supérieur », avec un écoulement orienté vers le nord/nord-ouest.
+
+26l0l0	Un_aquifère	O
+26l0l1	Villier_Supérieur	L
+26l0l2	écoulement_orienté_vers_le_nord___nord___ouest	L
+
+#Cet aquifère correspond à l’ennoiement des anciennes galeries de mine et est donc extrêmement hétérogène, les eaux étant confinées aux galeries et aux zones de fractures à proximité.
+
+27l0l0	Cet_aquifère	O
+27l0l1	ennoiement	N
+27l0l2	anciennes_galeries_de_mine	O
+
+#Le niveau des eaux évoluerait entre 485 et 487 m NGF.
+
+
+#Le niveau de ces eaux est régulé, à l’échelle du secteur Manufacture-Plaine Achille, par un pompage réalisé au Puits Villier (ancien Puits de Mine) et un drainage réalisé sous le Palais des Spectacles.
+
+29l0l0	Le_niveau	O
+29l0l1	ces_eaux	O
+29l0l2	est_régulé	N
+29l0l3	Plaine_Achille	L
+29l0l4	un_pompage	N
+29l0l5	réalisé_au	R
+29l0l6	Puits_Villier	O
+29l0l7	un_drainage_réalisé	O
+29l0l8	sous_le_Palais_des_Spectacles	A
+
+#Ces pompages permettent de maintenir la zone Plaine Achille hors d’eau en cas de remontée du niveau d’eau lors de périodes pluviales.
+
+30l0l0	Ces_pompages	N
+30l0l1	la_zone_Plaine_Achille	O
+30l0l2	hors_d_	R
+30l0l3	eau	O
+30l0l4	en_cas_de	R
+30l0l5	remontée	N
+30l0l6	du_niveau_d__eau	O
+30l0l7	lors	T
+
+#D’après la base de données InfoTerre, aucun captage pour l’eau industrielle n’a été recensé sur le secteur d’étude.
+
+
+#Aucun puits de particulier n’y a été déclaré.
+
+32l0l0	a_été_déclaré	N
+
+#Aucun captage AEP n’exploite ces différents aquifères au droit ou en aval.
+
+
+#L’agglomération de Saint-Etienne est exclusivement alimentée en eau potable par trois barrages (eau superficielle) : les barrages de Lavalette (situé en Haute-Loire à 60 km au sud de Saint-Etienne), du gouffre d’Enfer et du Pas du Riot (situés en amont du Furan à quelques kilomètres au sud-est de Saint-Etienne).
+
+34l0l0	L_	O
+34l0l1	agglomération_de_Saint_Etienne	L
+34l0l2	exclusivement_alimentée_en_eau_potable	A
+34l0l3	trois_barrages	O
+34l0l4	les_barrages	O
+34l0l5	Lavalette	O
+34l0l6	__situé_en_Haute_Loire_à_60_km_au_sud_de_Saint_Etienne	L
+34l0l7	Pas_du_Riot	L
+34l0l8	situés_en_amont_du_Furan_à_quelques_kilomètres_au_sud_est_de_Saint_Etienne	L
+
+#La société SAM Outillage souhaite procéder à la réhabilitation d’une partie de son site représentant une superficie totale d’environ 8669 m².
+
+35l0l0	La_société_SAM_Outillage	O
+35l0l1	souhaite_procéder_à	R
+35l0l2	la_réhabilitation_d_	N
+35l0l3	une_partie_de_son_site	O
+35l1l0	La_société_SAM_Outillage	I
+
+#Elle comprenait, avant démolition en août 2018, deux bâtiments : l’un de 808 m² et l’autre de 4821 m².
+
+36l0l0	Elle	O
+36l0l1	comprenait	R
+36l0l2	démolition	N
+36l0l3	en_août_2018__	T
+36l0l4	deux_bâtiments	O
+
+#Le projet d’aménagement consiste à la création d’une zone d'activités et de loisirs, à l'angle des rues Barrouin et des Aciéries à Saint-Étienne.
+
+37l0l0	aménagement	N
+37l0l1	consiste_à	R
+37l0l2	la_création_d_	N
+37l0l3	une_zone_d__activités_et_de_loisirs	A
+37l0l4	à_l__angle_des_rues_Barrouin_et_des_Aciéries	L
+37l0l5	à_Saint_Étienne	L
+
+#Le projet offrira 6000 m² de locaux destinés à un usage commercial et de loisirs avec environ 2000 m² de parking ponctués de quelques espaces verts.
+
+38l0l0	Le_projet	O
+38l0l1	6000___m²_de_locaux	O
+38l0l2	destinés	R
+38l0l3	à_un_usage_commercial_et_de_loisirs	A
+38l0l4	environ_2000___m²_de_parking	O
+
+#Le projet prévoit une démolition partielle du dallage et la démolition du mur situés au nord du site ainsi que celui contigu à la rue des aciéries (démolition partielle).
+
+39l0l0	Le_projet	O
+39l0l1	prévoit	R
+39l0l2	une_démolition_partielle_du_dallage	O
+39l0l3	la_démolition_du_mur	N
+39l0l4	situés_au_nord_du_site	L
+39l0l5	ainsi_que_celui	O
+39l0l6	contigu_à_la_rue_des_aciéries	L
+39l0l7	démolition_partielle	N
+
+#La société SAM Outillage a transmis à l’inspection, le 23 août 2018, un rapport d’investigations des milieux du 22 août 2018 et, le 4 septembre 2018, un rapport du 28 juin 2018 relatif à la caractérisation du béton et des dallages.
+
+40l0l0	La_société_SAM_Outillage	O
+40l0l1	a_transmis	N
+40l0l2	l__inspection	O
+40l0l3	le_23_août_2018__	T
+40l0l4	un_rapport_d__investigations	N
+40l0l5	des_milieux	O
+40l0l6	22_août_2018	T
+40l0l7	le_4_septembre_2018__	T
+40l0l8	un_rapport	O
+40l0l9	28_juin_2018	T
+40l0l10	dallages	O
+40l1l0	La_société_SAM_Outillage	I
+
+#Les deux ayant été réalisés par le bureau d’études VERITAS.
+
+41l0l0	Les_deux	O
+41l0l1	ayant_été_réalisés	N
+41l0l2	le_bureau_d__études_VERITAS	O
+41l1l0	VERITAS	I
+
+#Suite à l’examen de ces documents, l’inspection, dans son rapport du 11 septembre 2018, rappelle que le cabinet d’architecte Busquet est en charge de l’opération de réhabilitation d’une partie du site de la société SAM Outillage.
+
+42l0l0	Suite_à	R
+42l0l1	l__examen	N
+42l0l2	11_septembre_2018__	T
+42l0l3	le_cabinet_d__architecte_Busquet	O
+42l0l4	est_en_charge_de	R
+42l0l5	l__opération_de_réhabilitation_d_	N
+42l0l6	une_partie_du_site	O
+42l0l7	la_société_SAM_Outillage	O
+42l1l0	la_société_SAM_Outillage	I
+
+#Le projet a pour ambition la création d’un espace commercial et de loisirs.
+
+43l0l0	Le_projet	O
+43l0l1	a	R
+43l0l2	pour_ambition	N
+43l0l3	création_d_	N
+43l0l4	un_espace_commercial	O
+43l0l5	loisirs	A
+
+#Dans le cadre de cette opération, les tènements occupant environ 1 hectare au sein du site de la société  SAM Outillage doivent être réhabilités.
+
+44l0l0	Dans_le_cadre_de	R
+44l0l1	cette_opération	N
+44l0l2	les_tènements	O
+44l0l3	hectare	O
+44l0l4	au_sein_du_site	L
+44l0l5	la_société___SAM_Outillage	O
+44l0l6	doivent	R
+44l0l7	être_réhabilités	N
+44l1l0	la_société___SAM_Outillage	I
+
+#Les résultats de l’analyse des risques résiduels réalisée à partir des concentrations mesurées dans les  sols à l’intérieur du futur bâtiment pour les composés « majorants » en terme de risques sanitaires ([naphtalène] = 0,39 mg/kg et concentration maximale admissible en TCE (seuils de coupure et de dépollution fixés à 2 mg/kg)) ont mis en évidence des niveaux de risques sanitaires considérés comme acceptables pour l’ensemble des cibles considérées (les salariés présents dans les bâtiments) au vu des seuils définis par les autorités.
+
+45l0l0	et_de_dépollution	N
+45l1l0	les_composés	S
+45l1l1	sanitaires_____naphtalène	S
+
+#L’ARR doit cependant être mise à jour en prenant en compte les remarques formulées par l’inspection dans son rapport.
+
+
+#Après mise à jour de l’ARR, le site à l’étude, avec les teneurs résiduelles en polluants (COHV, métaux, HAP, CAV, HCT et PCB …) conservés sur site à la suite des travaux de dépollution, doit être compatible d’un point de vue sanitaire avec l’aménagement projeté pour l’ensemble des cibles étudiées.
+
+47l0l0	Après_mise_à_jour	N
+47l0l1	l__ARR	N
+47l0l2	le_site	O
+47l0l3	suite_des_travaux_de_dépollution___doit	N
+47l1l0	polluants	S
+47l1l1	COHV	S
+47l1l2	métaux	S
+47l1l3	HAP	S
+47l1l4	CAV	S
+47l1l5	HCT	S
+47l1l6	PCB	S
+
+#La société SAM Outillage doit mettre en œuvre, dans les meilleurs délais,  la surveillance des eaux souterraines et les travaux de dépollution prévus dans le plan de gestion mis à jour en prenant en compte les demandes formulées par l’inspection dans son rapport.
+
+48l0l0	La_société_SAM_Outillage	O
+48l0l1	doit	R
+48l0l2	mettre_en_œuvre	N
+48l0l3	dans_les_meilleurs_délais	T
+48l0l4	__la	N
+48l0l5	surveillance_des_eaux_souterraines	A
+48l0l6	et_les_travaux_de_dépollution	N
+48l0l7	prévus_dans	R
+48l0l8	le_plan_de_gestion	O
+48l1l0	La_société_SAM_Outillage	I
+
+#Par ailleurs, des mesures de la qualité de l’air ambiant devront être réalisées par la société SAM Outillage conformément à la demande de l’inspection dans son rapport afin de s’assurer du respect de la valeur repère en TCE définie par le Haut Conseil de la Santé Publique.
+
+49l0l0	des_mesures	N
+49l0l1	la_qualité_de_l__air_ambiant	O
+49l0l2	devront	R
+49l0l3	être_réalisées	N
+49l0l4	la_société_SAM_Outillage	O
+49l0l5	conformément_à	R
+49l0l6	la_demande	N
+49l1l0	la_société_SAM_Outillage	I
+49l1l1	le_Haut_Conseil_de_la_Santé_Publique	I
+
+#Enfin des servitudes d’utilité publique devront également être mises en place sur le site afin d’assurer de manière pérenne la connaissance des mesures de gestion à mettre en œuvre sur le site pour assurer la compatibilité de l’état du site avec son usage.
+
+50l0l0	des_servitudes_d__utilité_publique	O
+50l0l1	le_site	O
+50l0l2	connaissance_des_mesures_de_gestion	O
+
+#Afin d’assurer la compatibilité du site avec le projet d’aménagement « SAM Center », la société SAM Outillage a mis en œuvre les travaux de dépollution fixés dans le plan de gestion en prenant en compte les remarques formulées par l’inspection dans son rapport du 11 septembre 2018.
+
+51l0l0	Afin	R
+51l0l1	le_projet	O
+51l0l2	____la_société_SAM_Outillage	O
+51l0l3	a_mis_en_œuvre	N
+51l0l4	les_travaux_de_dépollution	N
+51l0l5	fixés_dans	R
+51l0l6	le_plan_de_gestion	O
+51l0l7	du_11_septembre_2018__	T
+51l1l0	__SAM_Center	I
+51l1l1	____la_société_SAM_Outillage	I
+
+#Suite à différentes visites sur site et à l’étude du rapport d’investigation des milieux du 25 janvier 2019, l’inspection, dans son rapport du 11 février 2019, indique que la société SAM Outillage doit :
+
+52l0l0	l__étude	N
+52l0l1	du_rapport_d__investigation_des_milieux	O
+52l0l2	25_janvier_2019__	T
+52l0l3	11_février_2019__	T
+52l0l4	la_société_SAM_Outillage	O
+52l1l0	la_société_SAM_Outillage	I
+
+#- fournir un rapport de récolement de fin de travaux,
+
+53l0l0	un_rapport	O
+53l0l1	récolement	N
+53l0l2	fin_de_travaux	N
+
+#- réaliser, dans les bâtiments construits, des mesures de la qualité de l’air ambiant afin de s’assurer du respect de la valeur repère en TCE définie par le Haut Conseil de la Santé Publique,
+
+54l0l0	les_bâtiments_construits	N
+54l0l1	des_mesures	N
+54l0l2	la_qualité_de_l__air_ambiant	O
+54l1l0	le_Haut_Conseil_de_la_Santé_Publique	I
+
+#- récapituler dans un dossier l’ensemble des éléments permettant l’institution de servitudes d’utilité publique,
+
+
+#- mettre en œuvre la surveillance des eaux souterraines pendant une durée d’au moins 4 ans.
+
+56l0l0	mettre_en_œuvre	N
+56l0l1	la_surveillance_des_eaux_souterraines	A
+56l0l2	pendant_une_durée_d__au_moins_4_ans__	T

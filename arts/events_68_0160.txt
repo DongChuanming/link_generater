@@ -1,0 +1,123 @@
+
+#68.0160
+#La société Foltzer bénéficiait d'une autorisation, par arrêté préfectoral, d'exploitation de graviers depuis le 9 juillet 1979 pour une durée de 10 ans.
+
+0l0l0	La_société_Foltzer	N
+0l0l1	bénéficiait_d__une_autorisation	O
+
+#En 1989 l'autorisation de poursuite et d'extension de l'exploitation de graviers n'a pas été renouvelée.
+
+1l0l0	En_1989_l__autorisation	O
+1l0l1	de	N
+1l0l2	poursuite	R
+1l0l3	et_d__extension	O
+1l0l4	exploitation_de_graviers	O
+1l1l0	En_1989_l__autorisation	I
+
+#Seul le dépôt de remblais pour la remise en état du site est autorisé, et devait se faire exclusivement avec des déblais inertes non susceptibles de porter atteinte à la qualité des eaux souterraines.
+
+2l0l0	Seul_le	T
+2l0l1	dépôt_de_remblais	N
+2l0l2	pour_la_remise_en	O
+2l0l3	état_du_site_est_autorisé___et_devait_se_faire	A
+2l0l4	exclusivement_avec	N
+
+#Une note de la  direction départementale de l' Agriculture (DDA) en 1969 signale le risque pour la nappe phréatique du remblaiement de la carrière (35 à 40 camions par jours de matériaux de remblaiement).
+
+3l0l0	note_de_la___direction	N
+3l0l1	départementale_de_l___Agriculture	N
+
+#Ces matériaux ne contiennent pas que des matières inertes (il a été observé dans la décharge, des déversements de fûts ayant contenu des produits cyanurés).
+
+4l0l0	matériaux_ne_contiennent_pas_que_des_matières_inertes___il_a	O
+4l0l1	été_observé	T
+4l0l2	dans	R
+4l0l3	la_décharge	O
+4l0l4	fûts_ayant_contenu	N
+4l0l5	des_produits	O
+4l1l0	matériaux_ne_contiennent_pas_que_des_matières_inertes	I
+4l1l1	il_a	I
+
+#En juin 1970  des suspicions d'incinération de déchets dans la carrière a donné lieu à des échanges de courriers entre la sous-préfecture et la mairie.
+
+5l0l0	En_juin_1970___des	O
+5l0l1	échanges_de_courriers_entre	N
+5l0l2	la_sous_préfecture_et_la_mairie__	A
+5l1l0	incinération_de_déchets_dans	U
+5l1l1	sous_préfecture_et_la_mairie__	S
+
+#La sous-préfecture souhaitait savoir si le directeur de la SODEC, entreprise qui ramasse et transporte des déchets industriels dans la carrière FOLTZER, a régularisé sa situation au regard de la réglementation sur les établissements classés.  Requête à laquelle la mairie a répondu par l'affirmative en précisant que suite à leur intervention et depuis le mois de septembre 1969 plus aucun transport de déchets n'avait été toléré de la part du directeur de SODEC.
+
+6l0l0	La_sous_préfecture	T
+6l0l1	souhaitait_savoir	N
+6l0l2	si_le_directeur	A
+6l0l3	SODEC__	O
+6l0l4	entreprise_qui	R
+6l0l5	ramasse_et_transporte	N
+6l0l6	industriels	O
+6l0l7	carrière_FOLTZER	O
+6l1l0	industriels_dans_la	I
+
+#Cependant il n'est établi au rapport entre ces courriers et les observations faites par la DDA dans sa note de 1969.
+
+7l0l0	Cependant_il_n__est_établi	O
+7l0l1	entre_ces_courriers	O
+7l0l2	et_les_observations	O
+7l0l3	faites_par_la_DDA_dans_sa_note_de_1969__	N
+7l1l0	entre_ces_courriers_et_les_observations	I
+7l1l1	note_de_1969__	U
+
+#Le rapport du 24/04/85 concernant le projet de stockage de 6000 m3 de boues et de 20.000 m3 de graviers provenant du bassin n°2 du port de Bâle dans la partie de la carrière conclut que les boues ne sont pas totalement inertes et ne doivent pas être déchargées dans cette carrière en une telle quantité.
+
+8l0l0	de_graviers	O
+8l1l0	de_graviers	I
+
+#Néanmoins, aucune suite n'est connue de la décision prise après cette conclusion du rapport.
+
+9l0l0	Néanmoins	O
+9l0l1	aucune_suite	T
+9l0l2	connue_de_la_décision_prise	N
+9l0l3	après_cette_conclusion_du_rapport__	O
+
+#Il a été constaté le déversement dans la gravière FOLTZER de plusieurs chargements de restes de production de plastique, après que ceux ci aient été refoulés de la grande Sablière de Saint-Louis.
+
+10l0l0	gravière	O
+10l0l1	FOLTZER_de	R
+10l0l2	plusieurs_chargements	O
+
+#Le site contient très probablement des déchets non identifiés qui justifieraient une caractérisation.
+
+11l0l0	très_probablement	N
+11l0l1	des_déchets_non_identifiés_qui_justifieraient	O
+11l0l2	caractérisation__	A
+11l1l0	non_identifiés	I
+
+#La présence de remblais au contact de la nappe phréatique et la proximité en amont du captage d'alimentation en eau potable de Hésingue amènent à proposer un contrôle de la qualité des eaux souterraines en ce point et sur les piézomètres réalisés sur le site.
+
+12l0l0	La_présence	O
+12l0l1	captage_d__alimentation	O
+
+#Une étude du BRGM de 2008 sur des dépôts de déchets conclut que 60% des substances polluant la nappe en aval de cette gravière n'ont pas été identifiées.
+
+13l0l0	substances	L
+13l0l1	polluant_la_nappe_en_aval_de_cette_gravière	A
+13l0l2	ont_pas_été	L
+
+#les substances identifiées sont :
+
+14l0l0	les_substances_identifiées	T
+14l1l0	substances_identifiées	I
+14l1l1	sont__	U
+
+#- cyanure ;
+
+
+#- hydrocarbures ;
+
+16l1l0	hydrocarbures	S
+
+#- substances aromatiques ;
+
+
+#- pesticides chlorés.
+

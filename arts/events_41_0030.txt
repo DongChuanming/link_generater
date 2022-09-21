@@ -1,0 +1,249 @@
+
+#41.0030
+#Le site d'une superficie de 3000 m2 est situé en ville (quartier Blois Vienne) en zone inondable par crue de la Loire dans une zone à vocation d'habitat dense.
+
+0l0l0	Le_site	O
+0l0l1	3000_m2	O
+0l0l2	est_situé_en_ville___quartier_Blois_Vienne	L
+0l0l3	en_zone_inondable_par_crue_de_la_Loire	L
+0l0l4	dans_une_zone_à_vocation_d__habitat_dense	L
+
+#a nappe alluviale est située à quelques mètres sous le terrain naturel.
+
+
+#L'activité pratiquée sur le site était la récupération des métaux divers depuis les années 1950.
+
+2l0l0	le_site	O
+2l0l1	la_récupération_des	A
+2l0l2	métaux_divers	O
+2l0l3	depuis_les_années_1950	T
+
+#Sur le site étaient stockés des ferrailles en mélanges, des déchets encombrants divers (réfrigérateur, machine à laver) ainsi que des Véhicules Hors d'Usages (VHU)...
+
+3l0l0	le_site	O
+3l0l1	étaient_stockés	N
+3l0l2	des_ferrailles	O
+3l1l0	des_déchets	D
+3l1l1	encombrants_divers	U
+3l1l2	Véhicules	S
+
+#Ces éléments étaient démantelés sur place.
+
+4l0l0	Ces_éléments	O
+4l0l1	étaient_démantelés	N
+
+#Cette installation classée soumise à autorisation était en situation irrégulière.
+
+5l0l0	Cette_installation_classée	O
+5l0l1	soumise_à_autorisation	L
+
+#Une demande d'autorisation de l'exploitant a abouti à un arrêté de refus.
+
+6l0l0	Une_demande_d_	N
+6l0l1	autorisation	O
+6l0l2	l__exploitant	O
+6l0l3	a_abouti_à	R
+6l0l4	un_arrêté_de_refus	O
+
+#Par arrêté du 23 août 2004, M. le préfet de Loir-et-Cher prononçait la fermeture du site et mettait en demeure M.
+
+7l0l0	du_23_août_2004__	T
+7l0l1	M__le_préfet_de_Loir_et_Cher	O
+7l0l2	prononçait	N
+7l0l3	la_fermeture_du_site	O
+7l0l4	M_	O
+7l1l0	le_préfet_de_Loir_et_Cher	I
+
+#DUMAS de remettre le site en état.
+
+8l0l0	le_site_en_état	O
+
+#Le 2 octobre 2005, M.
+
+9l0l0	Le	O
+9l0l1	2_octobre_2005___M_	T
+
+#DUMAS communiquait les justificatifs d’enlèvement des déchets.
+
+10l0l0	DUMAS	O
+10l0l1	communiquait	N
+10l0l2	les_justificatifs	O
+10l1l0	DUMAS	I
+
+#En 2006, il transmettait à l’inspection des installations classées un rapport de juillet 2006 relatif à la pollution des sols, effectué par le bureau d'étude SOCOTEC, comprenant un diagnostic de pollution des sols et des eaux ainsi qu’un évaluation simplifiée des risques.
+
+11l0l0	En_2006__	T
+11l0l1	il_transmettait	N
+11l0l2	l__inspection_des_installations_classées	O
+11l0l3	un_rapport	N
+11l0l4	de_juillet_2006	T
+11l0l5	relatif_à	R
+11l0l6	la_pollution_des_sols	O
+11l0l7	effectué	N
+11l0l8	le_bureau_d__étude_SOCOTEC	O
+11l0l9	un_diagnostic_de_pollution	N
+11l0l10	sols_et_des_eaux	O
+11l0l11	un	O
+11l0l12	évaluation_simplifiée_des_risques	N
+11l1l0	SOCOTEC	I
+
+#En 2008, ces études étaient complétées par un diagnostic approfondi.
+
+12l0l0	En_2008__	T
+12l0l1	ces_études_étaient_complétées	N
+12l0l2	un_diagnostic_approfondi	N
+
+#LES SOLS
+
+13l0l0	LES_SOLS	O
+
+#10 sondages de sols ont été réalisés mettant en évidence des pollutions marquées en métaux, plus ponctuelles et faibles en hydrocarbures et PCB.
+
+14l0l0	10_sondages_de_sols	N
+14l0l1	ont_été_réalisés	N
+14l0l2	des_pollutions_marquées	N
+14l0l3	métaux	O
+14l1l0	métaux	S
+14l1l1	hydrocarbures	S
+14l1l2	PCB	S
+
+#Ces contaminations sont majoritairement identifiées sur la première couche de sol (de 0 à 1 mètre de profondeur).
+
+15l0l0	Ces_contaminations	O
+
+#On note la présence de débris de métaux en mélange dans les couches supérieures du sol, qui contient des déchets répondant à la typologie Déchets Toxiques en Quantités Dispersées.
+
+16l1l0	débris_de_métaux	U
+16l1l1	Toxiques	S
+
+#LES EAUX SOUTERRAINES
+
+17l0l0	SOUTERRAINES	O
+17l1l0	LES_EAUX_SOUTERRAINES	I
+
+#2 puits sont présents sur le site dans chacune des zones concernées.
+
+18l0l0	2_puits	O
+
+#Des traces de métaux, arsenic et cuivre principalement, sont détectés dans les eaux souterraines au niveau de ces 2 ouvrages.
+
+19l0l0	arsenic	O
+19l0l1	détectés	N
+19l0l2	ces_2_ouvrages	O
+19l1l0	métaux	S
+19l1l1	arsenic	S
+19l1l2	cuivre_principalement	S
+
+#La contamination des eaux par les métaux reste inférieure aux valeurs de potabilité d'après l'arrêté ministériel du 11 janvier 2007.
+
+20l0l0	La_contamination	O
+20l0l1	les_métaux	O
+20l0l2	11_janvier_2007__	T
+20l1l0	métaux	U
+
+#L’évaluation simplifiée des risques a classé le site en tant que site à surveiller au niveau des eaux souterraines.
+
+21l0l0	évaluation_simplifiée_des_risques	N
+21l0l1	a_classé	N
+21l0l2	le_site	O
+
+#Par arrêté du 27 décembre 2006, le Préfet de Loir et Cher a prescrit la mise en place d'une surveillance semestrielle de la qualité des eaux souterraines et la réalisation d'une étude technico-économique de réhabilitation.
+
+22l0l0	27_décembre_2006__	T
+22l0l1	le_Préfet_de_Loir_et_Cher	O
+22l0l2	a_prescrit	N
+22l0l3	la_mise_en_place_d_	N
+22l0l4	une_surveillance_semestrielle	A
+22l0l5	la_qualité_des_eaux_souterraines	O
+22l0l6	la_réalisation_d__une_étude	N
+22l0l7	technico___économique_de_réhabilitation	O
+22l1l0	le_Préfet	I
+
+#La surveillance des eaux souterraines est en place depuis août 2007 et est assurée sur un puits et 2 piézomètres.
+
+23l0l0	La_surveillance_des_eaux_souterraines	A
+23l0l1	est_en_place	N
+23l0l2	depuis_août_2007	T
+23l0l3	est_assurée_sur	N
+23l0l4	un_puits	O
+
+#Elle montre la présence de métaux et d'hydrocarbures.
+
+24l1l0	métaux	S
+24l1l1	hydrocarbures	S
+
+#DEVENIR DU SITE ET PLAN DE GESTION
+
+
+#Des logements sociaux sans sous-sol et avec des garages en rez de chaussée sont projetés sur le site.
+
+26l0l0	Des_logements_sociaux	O
+26l0l1	des_garages	O
+26l0l2	projetés	N
+26l0l3	le_site	O
+
+#Un premier plan de gestion de la pollution des sols tenant compte de ce projet a été proposé en décembre 2009.
+
+27l0l0	Un_premier_plan_de_gestion_de_la_pollution_des_sols	O
+27l0l1	ce_projet	O
+27l0l2	a_été_proposé	N
+27l0l3	en_décembre_2009__	T
+
+#Le projet d'aménagement a connu des évolutions en 2010 et 2011.
+
+28l0l0	Le_projet_d__aménagement	O
+28l0l1	a_connu	N
+28l0l2	des_évolutions	N
+28l0l3	en_2010_et_2011__	T
+
+#Le plan de gestion définitif détaillé est en cours d'élaboration pour  en tenir compte.
+
+29l0l0	Le_plan_de_gestion	O
+29l0l1	d__élaboration	O
+
+#Les principes retenus pour le plan de gestion sont inchangés :
+
+30l0l0	Les_principes_retenus	O
+30l0l1	le_plan_de_gestion	O
+
+#- excavation des terres faiblement contaminées pour suppression des 2 zones polluées en hydrocarbures et PCB ;
+
+31l0l0	__excavation	N
+31l0l1	des_terres_faiblement	N
+31l0l2	contaminées	O
+31l0l3	suppression	N
+31l0l4	2_zones_polluées	O
+31l1l0	hydrocarbures	S
+31l1l1	PCB	S
+
+#- enlèvement des déchets métalliques en surface du terrain ;
+
+32l0l0	enlèvement	N
+32l0l1	des_déchets_métalliques	O
+32l0l2	du_terrain	O
+
+#- excavation des terres sur 25 cm de profondeur sur l'ensemble du terrain et excavation plus importante au niveau des zones polluées en mercure, plomb et cadmium ;
+
+33l0l0	excavation_des_terres	N
+33l0l1	excavation	N
+33l0l2	plus_importante	O
+33l0l3	au_niveau_des	R
+33l0l4	zones_polluées	O
+33l1l0	mercure	S
+33l1l1	plomb	S
+33l1l2	cadmium	S
+
+#- imperméabilisation des surfaces ou apports de terres saines sur géotextile en recouvrement de surface ;
+
+34l0l0	imperméabilisation	N
+34l0l1	apports_de_terres_saines	N
+
+#- mise en place de servitudes pour assurer la pérennité de l'accès aux piézomètres et des mesures de gestion susmentionnées.
+
+35l0l0	mise_en_place_de_servitudes	O
+
+#La mise en oeuvre du plan de gestion fera l'objet d'un rapport d'exécution.
+
+36l0l0	La_mise_en_oeuvre	N
+36l0l1	du_plan_de_gestion	O
+36l0l2	fera_l__objet_d_	R

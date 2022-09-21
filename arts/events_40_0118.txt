@@ -1,0 +1,368 @@
+
+#40.0118
+#Ancienne scierie avec traitement des bois exploitée par la société NEURISSE, filiale de la société LAMARQUE SOGY BOIS, sur la commune de Rion des Landes (40).
+
+0l0l0	Ancienne_scierie	N
+0l0l1	avec_traitement_des_bois	A
+0l0l2	exploitée_par	R
+0l0l3	la_société_NEURISSE	O
+0l0l4	la_société_LAMARQUE	O
+0l0l5	sur_la_commune_de_Rion_des_Landes	L
+0l0l6	__40__	L
+0l1l0	la_société_NEURISSE	I
+0l1l1	la_société_LAMARQUE_SOGY_BOIS	I
+
+#L'activité cesse définitivement en 2003. la société NEURISSE est placée en liquidation judiciaire dont la procédure sera clôturée le 25 janvier 2006.
+
+1l0l0	L_	O
+1l0l1	activité_cesse_définitivement	N
+1l0l2	en_2003	T
+1l0l3	__la_société_NEURISSE	O
+1l0l4	est_placée_en_liquidation_judiciaire	N
+1l0l5	dont_la_procédure	O
+1l0l6	sera_clôturée	N
+1l0l7	le_25_janvier_2006__	T
+1l1l0	la_société_NEURISSE	I
+
+#La SCI GUYAMIER a acheté les terrains le 21 janvier 2005.
+
+2l0l0	La_SCI_GUYAMIER	O
+2l0l1	a_acheté	N
+2l0l2	les_terrains	O
+2l0l3	le_21_janvier_2005__	T
+2l1l0	La_SCI_GUYAMIER	I
+
+#1 - MISE EN SECURITE
+
+3l1l0	SECURITE	I
+
+#L'arrêté du 17 mars 2006 met l'exploitant en demeure d'effectuer les travaux de vidange, dégazage et neutralisation des cuves d'hydrocarbures.
+
+4l0l0	L_	O
+4l0l1	17_mars_2006	T
+4l0l2	l__exploitant	O
+4l0l3	d__effectuer_les_travaux_de_vidange	N
+4l0l4	dégazage	N
+4l0l5	neutralisation_des_cuves	N
+4l0l6	d__hydrocarbures	O
+4l1l0	cuves_d_	D
+4l1l1	hydrocarbures	S
+
+#Le 16 juin 2006 un certificat de dégazage et de neutralisation est produit qui permet la levée de la mise en demeure (lettre préfectorale du 31 juillet 2006).
+
+5l0l0	Le_16_juin_2006	T
+5l0l1	un_certificat_de_dégazage	O
+5l0l2	et_de_neutralisation	N
+5l0l3	permet_la_levée	N
+5l0l4	lettre_préfectorale	O
+5l0l5	du_31_juillet_2006	T
+
+#2- DIAGNOSTIC
+
+6l0l0	DIAGNOSTIC	N
+
+#Dans le cadre de l'action collective "diagnostic des scieries avec traitement des bois" lancée en 2003 par la DRIRE, l'arrêté du 28 mars 2003 prescrit le diagnostic initial et l'évaluation simplifiée des risques (ESR) du site.
+
+7l0l0	Dans_le_cadre_de	R
+7l0l1	diagnostic	N
+7l0l2	scieries_avec_traitement_des_bois	A
+7l0l3	en_2003	T
+7l0l4	la_DRIRE	O
+7l0l5	28_mars_2003	T
+7l0l6	prescrit	R
+7l0l7	le_diagnostic_initial	N
+7l0l8	l__évaluation_simplifiée_des_risques	N
+7l1l0	la_DRIRE	I
+
+#Le diagnostic révèle la présence d'une source de pollution des sols par des hydrocarbures.
+
+8l0l0	Le_diagnostic_révèle	N
+8l0l1	la_présence_d__une_source_de_pollution_des_sols	O
+8l0l2	des_hydrocarbures	O
+8l1l0	hydrocarbures	S
+
+#L'évaluation simplifiée des risques, remise en mai 2004, classe toutefois le site en 2 "à surveiller" pour l'usage du moment.
+
+9l0l0	évaluation_simplifiée_des_risques	N
+9l0l1	en_mai_2004__	T
+9l0l2	classe_toutefois	N
+
+#Une analyse des sols a été réalisée le 8 octobre 2007 en parallèle au suivi des eaux souterraines par Tereo.
+
+10l0l0	Une_analyse_des_sols_a_été_réalisée	N
+10l0l1	le_8_octobre_2007	T
+10l0l2	en_parallèle_au_suivi_des_eaux_souterraines	A
+10l0l3	Tereo	O
+10l1l0	Tereo	I
+
+#La source de pollution identifiée en 2003 présente encore une concentration assez élevée d'hydrocarbures.
+
+11l0l0	La_source_de_pollution_identifiée	O
+11l0l1	en_2003	T
+11l0l2	d__hydrocarbures	O
+11l1l0	hydrocarbures	S
+
+#Elle a néanmoins subi une forte diminution : 28000 mg/kg MS en 2003, 4600 en 2004 et 50 mg/kg MS en 2007.
+
+12l0l0	en_2007__	T
+
+#En 2004, la DRIRE préconisait l'enlèvement des terres polluées présentant au moins 1000 mg/kg MS de HCT.
+
+13l0l0	En_2004__	T
+13l0l1	la_DRIRE	O
+13l0l2	préconisait	N
+13l0l3	l__enlèvement_des_terres_polluées	O
+13l1l0	la_DRIRE	I
+13l1l1	HCT	S
+
+#Cette mesure n'a jamais été mise en place.
+
+
+#La diminution de la concentration en HCT entre 2003 et 2007 peut s'expliquer par " une biodégradation de ces composés par la faune bactérienne présente dans le sol, par une volatilisation et un lessivage" (rapport TEREO).
+
+15l0l0	entre_2003_et_2007	T
+15l0l1	un_lessivage	N
+15l1l0	HCT	S
+15l1l1	composés	S
+
+#Depuis 2007, la DRIRE indique qu'une dépollution d'un poste de stockage et de distribution d'hydrocarbures est une action basique de remise en état d'un site comme celui-ci.
+
+16l0l0	Depuis_2007__	T
+16l0l1	la_DRIRE	O
+16l0l2	une_dépollution_d_	N
+16l0l3	un_poste_de	O
+16l0l4	stockage_et_de_distribution_d__hydrocarbures	O
+16l0l5	est_une_action_basique_de_remise_en_état_d_	N
+16l0l6	un_site	O
+16l1l0	la_DRIRE	I
+16l1l1	hydrocarbures	S
+
+#La DRIRE propose au préfet le 16/12/2008 une mise en demeure de la société sous 3 mois de dépolluer les sols impactés.
+
+17l0l0	La_DRIRE	O
+17l0l1	préfet	O
+17l0l2	le_16_12_2008	T
+17l0l3	une_mise_en	N
+17l0l4	la_société	O
+17l0l5	sous_3_mois	T
+17l0l6	dépolluer_les_sols_impactés	N
+17l1l0	La_DRIRE	I
+
+#3 - TRAVAUX
+
+
+#Les 18/10/2004 et 08/09/2006, la DRIRE demande à l'exploitant de réaliser les travaux et études suivants :
+
+19l0l0	Les_18_10_2004_et_08_09_2006	T
+19l0l1	la_DRIRE	O
+19l0l2	l__exploitant	O
+19l0l3	de_réaliser_les_travaux_et_études	N
+19l1l0	la_DRIRE	I
+
+#- traiter la pollution du sol par les hydrocarbures,
+
+20l0l0	hydrocarbures	O
+20l1l0	hydrocarbures	S
+
+#- poursuivre la surveillance de l’eau souterraine,
+
+21l0l0	la_surveillance_de_l__eau_souterraine	A
+
+#- préciser la sensibilité des eaux souterraines alentours,
+
+
+#- préciser le sens d’écoulement de la nappe.
+
+
+#Le 21/02/2007, l'acquéreur des terrains, la SCI GUYAMIER, adresse à la DRIRE une lettre destinée à lever ces lacunes.
+
+24l0l0	Le_21_02_2007	T
+24l0l1	l__acquéreur_des_terrains	O
+24l0l2	la_SCI_GUYAMIER	O
+24l0l3	la_DRIRE	O
+24l1l0	la_SCI_GUYAMIER	I
+24l1l1	la_DRIRE	I
+
+#Le 13/04/2007, la DRIRE constate que des anomalies subsistent et propose de mettre le liquidateur en demeure de remettre le site en état.
+
+25l0l0	Le_13_04_2007	T
+25l0l1	la_DRIRE	O
+25l1l0	la_DRIRE	I
+
+#Le 27/07/2007, le Préfet donne acte à la SCI GUYAMIER de sa décision de faire remettre le site en état.
+
+26l0l0	Le_27_07_2007	T
+26l0l1	le_Préfet	O
+26l0l2	donne_acte	N
+26l0l3	la_SCI_GUYAMIER	O
+26l0l4	sa_décision	N
+26l0l5	de_faire_remettre	N
+26l0l6	le_site_en_état	O
+26l1l0	le_Préfet	I
+26l1l1	la_SCI_GUYAMIER	I
+
+#La société LAMARQUE SOGY BOIS, dont la société Neurisse était filiale, est invitée à s'associer à la SCI.
+
+27l0l0	La_société_LAMARQUE_SOGY_BOIS	O
+27l0l1	société_Neurisse	O
+27l0l2	s__associer_à_la_SCI	N
+27l1l0	La_société_LAMARQUE_SOGY_BOIS	I
+27l1l1	la_société_Neurisse	I
+
+#Fin 2008, la DRIRE constate que la situation n'a pas évolué.
+
+28l0l0	Fin_2008__	T
+28l0l1	la_DRIRE	O
+28l1l0	la_DRIRE	I
+
+#Le 16/12/2008, elle propose au Préfet de mettre la société LAMARQUE SOGY BOIS en demeure, sous 3 mois, de dépolluer  les sols impactés par des hydrocarbures et de surveiller la qualité des eaux souterraines.
+
+29l0l0	Le_16_12_2008	T
+29l0l1	la_société_LAMARQUE_SOGY	O
+29l0l2	sous_3_mois	T
+29l0l3	dépolluer___les_sols_impactés_par	N
+29l0l4	des_hydrocarbures	O
+29l0l5	de_surveiller_la_qualité_des_eaux_souterraines	A
+29l1l0	Préfet	I
+29l1l1	la_société_LAMARQUE_SOGY_BOIS	I
+29l1l2	des_hydrocarbures	S
+
+#4 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+30l0l0	SURVEILLANCE_DES_EAUX	A
+30l0l1	SOUTERRAINES	O
+30l1l0	SURVEILLANCE	S
+30l1l1	EAUX_SOUTERRAINES	I
+
+#L'arrêté préfectoral du 28/03/2003 prescrit la surveillance semestrielle des eaux souterraines par 3 piézomètres dans lesquels on mesure les paramètres représentatif de l'activité.
+
+31l0l0	L__arrêté_préfectoral	O
+31l0l1	28_03_2003	T
+31l0l2	prescrit	N
+31l0l3	la_surveillance_semestrielle	A
+31l0l4	des_eaux_souterraines	A
+
+#Le niveau piézomètrique est relevé à chaque campagne.
+
+32l0l0	Le_niveau	O
+
+#La campagne d'août 2004 montre que la situation est satisfaisante.
+
+33l0l0	La_campagne_d_	N
+33l0l1	août_2004	T
+
+#La campagne d'octobre 2007 réalisée à partir des 3 puits utilisés, ne montre pas d'impact sur la nappe par les hydrocarbures (< 50 ug/l).
+
+34l0l0	La_campagne_d_	N
+34l0l1	octobre_2007	T
+34l1l0	hydrocarbures	S
+
+#La campagne du 17 février 2009 confirme cette situation, mais aucun des 3 puits utilisés n'est  à l'aval hydraulique des terres polluées constatées en 2003 et 2004.
+
+35l0l0	La_campagne	N
+35l0l1	17_février_2009	T
+35l0l2	__à_l__aval_hydraulique_des	L
+35l0l3	terres_polluées_constatées	N
+35l0l4	en_2003_et_2004__	T
+
+#En effet, le sens d'écoulement de la nappe a complétement changé par rapport à octobre 2007 (vers l'Ouest au lieu du Sud-Est) et les puits situés en aval lors des premières analyses ne le sont plus en 2009.
+
+36l0l0	a_complétement_changé	N
+36l0l1	à_octobre_2007	T
+36l0l2	vers_l__Ouest_au_lieu_du_Sud_Est	L
+36l0l3	les_puits	O
+36l0l4	situés_en_aval_lors_des	L
+36l0l5	premières_analyses	N
+36l0l6	ne_le_sont_plus	N
+36l0l7	en_2009__	T
+
+#Aucune justification de ce phénomène n'est apportée.
+
+
+#5 - CESSATION D'ACTIVITE
+
+38l0l0	CESSATION_D_	N
+38l0l1	ACTIVITE	O
+
+#La cessation d'activité a eu lieu en 2003.
+
+39l0l0	La_cessation_d__activité	N
+39l0l1	a_eu_lieu	N
+39l0l2	en_2003__	T
+
+#La mise en sécurité a été faite par la neutralisation et le dégazage de l'ensemble des cuves.
+
+40l0l0	La_mise_en_sécurité_a_été_faite	N
+40l0l1	la_neutralisation	N
+40l0l2	le_dégazage	N
+40l0l3	l_	O
+40l0l4	cuves	O
+40l1l0	cuves	D
+
+#L'excavation des terres qui a été demandée à plusieurs reprises n'a jamais été effectuée.
+
+41l0l0	L__excavation_des_terres	N
+41l0l1	a_été_demandée_à_plusieurs	N
+41l0l2	reprises	O
+41l0l3	n__a_jamais_été_effectuée	N
+
+#On voit néanmoins que la teneur en hydrocarbures dans la zone polluée a baissé considérablement depuis l'arrêt de l'activité et la valeur obtenue lors des dernières analyses de 2007 est très faible (50 mg/kg de MS).
+
+42l0l0	la_zone_polluée	O
+42l0l1	a_baissé_considérablement	N
+42l0l2	depuis	T
+42l0l3	l__arrêt	N
+42l0l4	l__activité	O
+42l0l5	de_2007	T
+42l1l0	hydrocarbures	S
+
+#En 2005 la société GUYAMIER a racheté la parcelle et y a implanté la société GUYAMIER Transports.
+
+43l0l0	En_2005	T
+43l0l1	la_société_GUYAMIER	O
+43l0l2	a_racheté	N
+43l0l3	la_parcelle	O
+43l0l4	a_implanté	N
+43l0l5	la_société_GUYAMIER_Transports	O
+43l1l0	la_société_GUYAMIER	I
+43l1l1	la_société_GUYAMIER	I
+
+#Le site comprend notamment des locaux et une plate-forme de stationnement pour poids lourds.
+
+44l0l0	Le_site	O
+
+#Compte tenu de l'ancienneté de la pollution du site et de la faible teneur en hydrocarbures détectée dans le sol lors des dernières analyses de 2007, il parait peu probable aujourd'hui d'affirmer qu'une pollution aux HCT provient de l'ancienne activité et non de l'activité actuelle.
+
+45l0l0	des_dernières_analyses	N
+45l0l1	de_2007__	T
+45l0l2	l__activité_actuelle	N
+45l1l0	hydrocarbures	S
+45l1l1	HCT	S
+
+#'usage industriel du site n'ayant pas changé, la clôture de la cessation d'activité est considérée comme actée.
+
+46l0l0	__usage_industriel_du_site	O
+46l0l1	n__ayant_pas_changé	N
+46l0l2	la_clôture_de_la_cessation_d__activité	N
+46l0l3	est	O
+46l0l4	considérée_comme	R
+46l0l5	actée	N
+
+#Tout changement d'usage futur fera l'objet d'investigations complémentaires dans le sol au niveau de l'ancienne zone de distribution de carburant.
+
+47l0l0	Tout_changement	N
+47l0l1	usage_futur	O
+47l0l2	fera_l__objet_d_	R
+47l0l3	investigations	N
+47l0l4	le_sol	O
+47l0l5	au_niveau_de	R
+47l0l6	l_	O
+47l0l7	distribution_de_carburant	A
+47l1l0	carburant	U
+
+#La localisation de la zone de pollution et les sondages réalisés sont identifiés dans les plans n°4 et n°5.
+
+48l0l0	La_localisation	O
+48l0l1	la_zone_de_pollution	O
+48l0l2	les_sondages_réalisés	N
+48l0l3	sont_identifiés	N

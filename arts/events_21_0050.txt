@@ -1,0 +1,261 @@
+
+#21.0050
+#La société PPG (Ex-SIGMAKALON) est propriétaire de l'usine de production et de stockage de peintures et de vernis à Genlis.
+
+0l0l0	propriétaire_de_l__usine_de_production	N
+0l0l1	et_de_stockage	N
+0l0l2	de_peintures_et_de_vernis_à_Genlis__	L
+
+#L'activité industrielle du site a commencé en 1963 et est soumise à un arrêté préfectoral d'autorisation en date du 6 février 1996.
+
+1l0l0	L__activité_industrielle_du_site	O
+1l0l1	a_commencé_en_1963	N
+1l0l2	et	O
+1l0l3	est_soumise_à_un_arrêté_préfectoral_d__autorisation_en_date_du	A
+1l0l4	6_février	L
+1l1l0	L__activité_industrielle_du_site	I
+
+#Contexte géologique et hydrogéologique :
+
+2l0l0	Contexte_géologique_et_hydrogéologique__	N
+
+#Le site est situé à 500 m au Sud de la rivière "Tille" et à 700 m au Nord de la rivière "Norge".
+
+
+#La perméabilité des terrains est relativement élevée et une nappe d'eau souterraine s'établit à environ 1.5 m de profondeur au droit du site, drainée par la Norge.
+
+4l0l0	La	O
+4l0l1	perméabilité_des_terrains_est_relativement_élevée_et_une_nappe_d__eau_souterraine_s_	L
+
+#Un captage d'alimentation en eau potable (AEP) est à 2.8 km au Nord-Ouest du site (soit en amont) et 2 captages industriels sont situés à 1.3 km au Nord et 0.3 km au Sud-Ouest.
+
+5l0l0	en	R
+5l0l1	amont___et_2_captages_industriels_sont_situés_à_1_3_km	L
+5l0l2	au_Nord_et	O
+5l0l3	0_3_km_au_Sud_Ouest	L
+
+#Ce dernier est en position vulnérable.
+
+6l0l0	Ce_dernier	O
+
+#31 captages à usages agricoles sont situés dans un rayon de 5 km autour du site.
+
+
+#Aucun ne semble vulnérable.
+
+8l0l0	Aucun_ne	O
+8l0l1	semble_vulnérable__	O
+
+#Une enquête de proximité, sur 126 foyers, a permis de recenser 16 puits privés en aval du site et 10 habitations avec sous-sol, dont 7 avec puits (6 de ces puits sont en position vulnérable).
+
+
+#Différentes investigations et études ont été réalisées sur le site sur la période 1998-2006, aussi bien au niveau des sols qu'au niveau des eaux souterraines dont le suivi a été assurée sur cette période.
+
+10l0l0	Différentes_investigations	A
+10l0l1	le_site_sur_la_période	O
+10l0l2	1998___2006	L
+10l0l3	aussi_bien_au_niveau	O
+
+#10 novembre 2006 : par arrêté préfectoral, un diagnostic approfondi et une étude détaillée des risques (EDR) ont été imposés à l'exploitant.
+
+11l0l0	10_novembre_2006___par_arrêté_préfectoral___un_diagnostic	N
+11l0l1	une_étude_détaillée_des	T
+
+#Ces études étaient de rigueur en matière de gestion de sites et sols pollués dans l'ancienne méthodologie nationale.
+
+12l0l0	Ces_études_étaient	T
+12l0l1	de_rigueur_en_matière_de	O
+12l0l2	gestion_de_sites_et_sols	N
+12l0l3	pollués_dans_l__ancienne_méthodologie	N
+12l0l4	nationale__	N
+
+#30 avril 2007 : rapport du diagnostic approfondi.
+
+13l0l0	approfondi__	O
+
+#22 juin 2007: rapport de l'évaluation détaillée des risques.
+
+14l0l0	22_juin_2007__	T
+14l0l1	l__évaluation_détaillée	N
+
+#16 janvier 2008 : complément à l'évaluation détaillée des risques et proposition de traitement de dépollution de la nappe.
+
+15l0l0	16_janvier_2008	T
+
+#Constatations et conclusions des différentes études réalisées :
+
+16l0l0	Constatations	T
+16l0l1	et_conclusions	O
+16l0l2	réalisées__	O
+
+#les principaux composés retrouvés sur le site sont les HCT (hydrocarbures totaux), le toluène, l'éthylbenzène et les xylènes (TEX) ainsi que les alkylbenzènes, les COHV (composés organo-halogénés volatils) et les HAP (hydrocarbures aromatiques polycycliques).
+
+
+#Ponctuellement, des composés des familles suivantes ont été retrouvés : métaux, PCB, phtalates, chlorobenzènes, chlorophénols, pesticides azotés, composés aminés.
+
+18l1l0	Ponctuellement___des_composés	U
+18l1l1	suivantes_ont_été_retrouvés___métaux__	S
+18l1l2	PCB___phtalates___chlorobenzènes___chlorophénols	S
+18l1l3	pesticides_azotés___composés_aminés__	S
+
+#L'ensemble des investigations a mis en évidence un impact sur la qualité des sols et des eaux souterraines au niveau des zones suivantes :
+
+19l1l0	investigations	S
+19l1l1	des_sols_et_des_eaux_souterraines_au_niveau_des_zones_suivantes__	S
+
+#- zone des anciennes cuves entre les bâtiments atelier et bâtiment chaufferie-local de charge (zone D) ;
+
+20l0l0	anciennes_cuves_entre	N
+20l0l1	les_bâtiments	R
+20l0l2	atelier_et_bâtiment	O
+20l0l3	local_de_charge___zone_D____	O
+
+#- zone des anciennes cuves entre le bâtiment chaufferie-local de charge et le bâtiment B02 (zone A) ;
+
+21l0l0	le_bâtiment_chaufferie	O
+21l1l0	anciennes_cuves	D
+
+#- zone des cuves au niveau du bâtiment B04 (zone B) ;
+
+22l0l0	bâtiment_B04___zone_B____	O
+22l1l0	cuves_au_niveau_du	D
+
+#- zone de l'aire de lavage (zone E) et le centre du bâtiment de fabrication (zone H) ;
+
+
+#- zone des locaux vernis à chaud - vernis à froid et atelier (zone F) ;
+
+24l0l0	vernis_à_froid	O
+
+#- zone de la fosse du parc à déchets (zone I).
+
+
+#En aval de chacune des zones, un impact des eaux souterraines est constaté.
+
+
+#Du produit pur a été retrouvé au niveau de différents ouvrages et à différentes époques.
+
+
+#Au total 3 grandes zones ont été identifiées comme fortement contaminées :
+
+28l0l0	Au_total_3_grandes	O
+28l0l1	zones_ont_été	N
+
+#- zone A : présence d'hydrocarbures flottants
+
+29l0l0	présence_d_	O
+29l0l1	hydrocarbures_flottants	N
+
+#- zone B : présence d'une ancienne fosse de déchets
+
+30l1l0	une_ancienne_fosse_de_déchets	U
+
+#- zone C : présence d'une ancienne zone de stockages enterrés et présence d'hydrocarbures flottants.
+
+31l0l0	une_ancienne_zone_de_stockages_enterrés_et_présence_d__hydrocarbures_flottants__	O
+31l1l0	stockages_enterrés_et_présence_d__hydrocarbures_flottants__	U
+
+#2 avril 2008 : par arrêté préfectoral, la société PPG a été imposée de procéder aux actions suivantes :
+
+32l0l0	arrêté_préfectoral___la_société_PPG_a_été_imposée	O
+32l1l0	procéder_aux_actions_suivantes	S
+
+#- dépollution de la nappe: le principe de dépollution retenu visait à traiter ou confiner la nappe sur site pour limiter l'impact hors site (système de type pompage multi-points avec traitement des eaux et gaz sur charbon actif ;
+
+33l0l0	__dépollution	T
+33l0l1	de_la_nappe___le_principe	O
+33l0l2	de_dépollution	O
+33l0l3	retenu_visait_à_traiter	N
+33l1l0	de_dépollution	I
+
+#- récupération des produits (pompage des hydrocarbures flottants et élimination éliminés en tant que déchets industriels conformément à la réglementation en vigueur) ;
+
+34l0l0	récupération	N
+34l0l1	des_produits	O
+34l0l2	__pompage_des_hydrocarbures	N
+34l0l3	et_élimination	N
+
+#- surveillance mensuelle des eaux souterraines sur l'ensemble des piézomètres au droit du site et au niveau de 3 puits privés hors site (HCT, BTEX, Naphtalène, composés organo-halogénés volatils (COHV), phtalate et phénols) ;
+
+35l0l0	eaux	N
+35l0l1	souterraines_sur_l__ensemble_des	O
+35l0l2	piézomètres_au_droit_du	N
+35l1l0	souterraines_sur_l_	S
+35l1l1	ensemble_des	U
+
+#- un bilan trimestriel de l'évolution des opérations de dépollution et de la surveillance des eaux devait être transmis à l'inspection des installations classées.
+
+36l0l0	un_bilan_trimestriel_de_l__évolution_des_opérations	A
+36l0l1	devait_être	R
+36l0l2	transmis	O
+36l0l3	à_l__inspection	N
+36l1l0	des_installations_classées__	S
+
+#En décembre 2009, l'inspection des installations classées a modifié l'arrêté préfectoral du 2 avril 2008 : la fréquence des campagnes de surveillance est devenue bimestrielle au droit des 19 piézomètres présents sur le site ainsi que de 2 puits hors site (Puits Bernardin 1 et Puits Bernardin 2).
+
+37l0l0	inspection_des_installations_classées_a_modifié	N
+37l0l1	arrêté_préfectoral_du_2	O
+37l0l2	avril_2008	R
+37l0l3	des_campagnes_de_surveillance_est_devenue	O
+
+#La campagne de février 2012 constituait la 13ème campagne bimestrielle faisant suite aux prescriptions de modification des modalités de suivi.
+
+38l0l0	La_campagne_de_février	T
+38l0l1	2012_constituait_la_13ème_campagne	O
+38l0l2	bimestrielle	N
+38l0l3	faisant_suite_aux	O
+38l0l4	prescriptions_de	T
+38l0l5	modification	O
+38l0l6	des_modalités_de_suivi__	N
+
+#Elle a été réalisée les 9 et 10 février 2012.
+
+39l0l0	Elle_a_été_réalisée	N
+39l0l1	les_9_et_10	T
+39l0l2	février_2012__	R
+
+#En février 2012, le sens d'écoulement des eaux souterraines au droit du site est orienté vers le sud, conformément aux études antérieures.
+
+40l0l0	En	O
+40l0l1	février_2012___le	N
+40l0l2	sens_d__écoulement_des_eaux_souterraines_au_droit_du_site_est_orienté_vers_le_sud___conformément_aux_études_antérieures__	T
+
+#Au droit du site, les constatations étaient les suivantes :
+
+41l0l0	Au_droit_du_site__	T
+41l0l1	les_constatations	O
+
+#- absence de phase flottante ;
+
+
+#- des traces de toluène, mais inférieures aux valeurs guide de l'OMS pour l'eau potable ;
+
+43l1l0	de_toluène___mais	U
+
+#- une teneur en hydrocarbures supérieure aux valeurs réglementaires française au droit d'un piézomètre (sur site) ;
+
+44l1l0	hydrocarbures	S
+
+#- des teneurs inférieures aux seuils de quantification du laboratoire pour les puits hors site.
+
+45l1l0	inférieures_aux	S
+
+#15 novembre 2013 : à la demande de l'inspection des installations classées, un bilan quadriennal de la surveillance des eaux souterraines du site a été réalisé.
+
+46l0l0	un_bilan	O
+46l0l1	quadriennal	L
+
+#Ce bilan indique notamment une diminution générale des teneurs de l'ensemble des paramètres mesurés.
+
+47l0l0	Ce_bilan_indique	T
+47l0l1	notamment_une	R
+47l0l2	diminution_générale_des_teneurs_de_l__ensemble	O
+47l0l3	des_paramètres_mesurés	N
+47l0l4	_	A
+
+#Il recommande une adaptation de la surveillance de la qualité des eaux souterraines.
+
+
+#En octobre 2014, l'inspection des installations classées modifie la surveillance : les campagnes sont désormais trimestrielles, sur 16 piézomètres et 4 puits, et les paramètres analysés sont les hydrocarbures, BTEX et Naphtalène.
+
+49l0l0	des_installations_classées_modifie_la_surveillance	A

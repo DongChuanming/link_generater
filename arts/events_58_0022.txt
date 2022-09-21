@@ -1,0 +1,275 @@
+
+#58.0022
+#La société SLIC CORVOL avait pour activité principale la fabrication de caoutchouc ainsi que l'extrusion, la découpe et le surmoulage de joints et durites en caoutchouc pour l'industrie automobile.
+
+0l0l0	La_société_SLIC_CORVOL	O
+0l0l1	avait	R
+0l0l2	la_fabrication_de_caoutchouc	A
+0l0l3	l__extrusion___la_découpe	A
+0l0l4	surmoulage_de_joints_et_durites	A
+0l0l5	l__industrie_automobile	O
+0l1l0	La_société_SLIC_CORVOL	I
+
+#L'ensemble du site industriel de Corvol-l'Orgueilleux était répertorié en tant qu'installation classée pour la protection de l'environnement sous le régime de l'autorisation.
+
+1l0l0	L__ensemble_du_site_industriel	O
+1l0l1	Corvol___l__Orgueilleux	L
+1l0l2	était_répertorié_en_tant	R
+1l0l3	qu__installation_classée_pour_la_protection_de	N
+1l0l4	l__environnement	O
+1l0l5	sous_le_régime_de	R
+1l0l6	l__autorisation	O
+
+#Pour rappel, la société SLIC CORVOL a été mise en liquidation judiciaire en novembre 2007.
+
+2l0l0	la_société_SLIC_CORVOL	O
+2l0l1	a_été_mise_en_liquidation_judiciaire	N
+2l0l2	en_novembre_2007__	T
+2l1l0	la_société_SLIC_CORVOL	I
+
+#Le tribunal de commerce de Nevers a ensuite arrêté un plan de cession au profit de la société BORFLEX CORVOL ; le site a donc été séparé en deux parties, l'activité industrielle a été cédée à la société BORFLEX CORVOL et, l'autre partie, restant la propriété de la SLIC CORVOL.
+
+3l0l0	Le_tribunal	O
+3l0l1	Nevers	O
+3l0l2	a_ensuite_arrêté	N
+3l0l3	un_plan_de_cession	N
+3l0l4	la_société_BORFLEX_CORVOL	O
+3l0l5	le_site	O
+3l0l6	a_donc_été_séparé_en	N
+3l0l7	deux_parties	O
+3l0l8	l__activité_industrielle	O
+3l0l9	a_été_cédée	N
+3l0l10	la_société_BORFLEX_CORVOL	O
+3l0l11	la_propriété_de	R
+3l0l12	la_SLIC_CORVOL	O
+3l1l0	Le_tribunal_de_commerce_de_Nevers	I
+3l1l1	la_société_BORFLEX_CORVOL	I
+3l1l2	la_société_BORFLEX_CORVOL	I
+3l1l3	la_SLIC_CORVOL	I
+
+#Le site peut être présenté selon 3 secteurs distincts:
+
+4l0l0	Le_site	O
+
+#- le secteur nord comprenait l'entrée du site et les deux maison individuelles qui ont fait l'objet d'un plan de cession depuis 2010
+
+5l0l0	le_secteur_nord	O
+5l0l1	comprenait	R
+5l0l2	l__entrée_du_site	L
+5l0l3	les_deux_maison_individuelles	O
+5l0l4	ont_fait_l__objet_d_	R
+5l0l5	un_plan_de_cession	N
+5l0l6	depuis_2010	T
+
+#- le secteur central comprenait la "cour ronde", un local de stockages et le bassin de décantation
+
+6l0l0	la___cour_ronde	O
+6l0l1	le_bassin_de_décantation	O
+
+#- le secteur sud comprenait l'ancien parking de véhicules légers et la zone de stockage de fioul et d'huiles.
+
+7l0l0	le_secteur_sud	O
+7l0l1	véhicules_légers	O
+7l0l2	la_zone	O
+7l0l3	de_stockage_de_fioul	A
+7l1l0	fioul	U
+
+#Le site est traversé et bordé en limite sud par le Sauzey qui s'écoule vers l'Est.
+
+8l0l0	Le_site	O
+8l0l1	est_traversé	L
+8l0l2	bordé_en_limite_sud_par_le_Sauzey	L
+8l0l3	vers	T
+8l0l4	l__Est	L
+
+#Des jardins privés et des aires de jeux sont recensés en bordure du Sauzay et directement en aval hydraulique du site.
+
+9l0l0	Des_jardins_privés	O
+9l0l1	recensés	R
+9l0l2	en_bordure_du_Sauzay	L
+9l0l3	directement_en_aval_hydraulique_du_site	L
+
+#L'occupation des sols est donc sensible et le Sauzay constitue une voie de transfert privilégiée qui rend ce secteur fortement vulnérable vis-à-vis d'une pollution depuis le site.
+
+10l0l0	le_Sauzay	O
+10l0l1	vis_à_vis_d_	R
+10l0l2	une_pollution_depuis_le_site	L
+
+#Contexte hydrogéologique:
+
+
+#- le site est implanté au droit de la nappe alluvial du Sauzay dont le niveau d'eau est proche de la surface.
+
+12l0l0	le_site	O
+12l0l1	est_implanté_au_droit_de	R
+12l0l2	la_nappe	O
+12l0l3	alluvial	N
+12l0l4	du_Sauzay	L
+
+#- 2 captages d'alimentation en eau potables sont recensés.
+
+
+#État de pollution des sols:
+
+
+#Une première campagne de reconnaissance de la qualité des sols a été réalisée en septembre 2001 ; 5 sondages de sol ont été réalisés au droit de différentes zones identifiées comme polluées.
+
+15l0l0	Une_première_campagne_de_reconnaissance	N
+15l0l1	de_la_qualité_des_sols	O
+15l0l2	a_été_réalisée	N
+15l0l3	en_septembre_2001	T
+15l0l4	5	O
+15l0l5	sondages_de_sol	N
+15l0l6	ont_été_réalisés	N
+15l0l7	au_droit_de_différentes_zones_identifiées_comme_polluées	L
+
+#Suite à la mise en liquidation judiciaire, un mémoire de cessation d'activité a été établi en février 2011 par un bureau d'études sur les parcelles restantes ; 8 sondages de sol ont été effectués autour de la zone de stockage de fioul lourd, d'huiles usagées et de solvants.
+
+16l0l0	Suite_à	R
+16l0l1	la_mise_en_liquidation_judiciaire	N
+16l0l2	un_mémoire_de	O
+16l0l3	cessation_d__activité	N
+16l0l4	a_été_établi	N
+16l0l5	en_février_2011	T
+16l0l6	un_bureau_d__études	O
+16l0l7	les_parcelles_restantes	O
+16l0l8	8_sondages_de_sol	O
+16l0l9	ont_été_effectués	N
+16l0l10	autour_de	R
+16l0l11	la_zone_de_stockage_de_fioul_lourd	O
+16l0l12	solvants	A
+16l1l0	fioul_lourd	U
+16l1l1	huiles_usagées	U
+16l1l2	solvants	U
+
+#A la lecture des résultats, les observations étaient les suivantes:
+
+
+#- les sols présentaient une importante pollution par les hydrocarbures. les teneurs les plus élevées s'échelonnaient entre 900 et 4700 mg/kg sur plusieurs sondages
+
+18l0l0	hydrocarbures	O
+18l1l0	hydrocarbures	S
+
+#- les hydrocarbures aromatiques polycycliques (HAP) étaient globalement à l'état de traces sur la majeure partie des échantillons.
+
+19l1l0	hydrocarbures_aromatiques_polycycliques	S
+19l1l1	HAP	S
+
+#De plus fortes teneurs étaient toutefois relevées en surface des de plusieurs sondages
+
+
+#- des solvants organo-chlorés aliphatiques (COHV) étaient systématiquement détectés dans les sols.
+
+21l0l0	détectés	N
+21l1l0	des_solvants_organo___chlorés_aliphatiques	S
+21l1l1	COHV	S
+
+#État de pollution des eaux souterraines:
+
+
+#Afin d'évaluer l'impact des activités du site sur les eaux souterraines, un réseau piézométrique a été implanté au sein de la nappe alluviale du Sauzay en janvier 2011.
+
+23l0l0	les_eaux_souterraines	O
+23l0l1	un_réseau_piézométrique	O
+23l0l2	a_été_implanté	N
+23l0l3	au_sein_de_la_nappe_alluviale_du_Sauzay	L
+23l0l4	en_janvier_2011__	T
+
+#Le réseau comprend trois ouvrages:
+
+
+#- piézomètres 1: ce piézomètres est positionné en amont hydraulique des sources potentielles de pollution identifiées à proximité de la "cour ronde"
+
+25l0l0	ce_piézomètres	O
+25l0l1	est	N
+25l0l2	positionné_en_amont_hydraulique	L
+25l0l3	des_sources_potentielles_de_pollution	O
+25l0l4	à_proximité_de_la	L
+25l0l5	__cour_ronde	A
+
+#- piézomètre 2: ce piézomètre est positionné en aval hydraulique de la zone de stockage et à proximité du bassin de décantation
+
+26l0l0	positionné_en_aval_hydraulique_de_la_zone_de_stockage	L
+26l0l1	et	R
+26l0l2	à_proximité_du_bassin_de	L
+26l0l3	décantation	A
+
+#- piézomètres 3: ce piézomètre est positionné en bordure du Sauzay et en aval hydraulique de la zone de stockage de fioul lourd, d'huiles usagées et de solvants.
+
+27l0l0	positionné_en_bordure_du_Sauzay	L
+27l0l1	en_aval_hydraulique_de_la_zone_de	L
+27l0l2	stockage_de_fioul_lourd	O
+27l1l0	fioul_lourd	U
+27l1l1	huiles_usagées	U
+27l1l2	solvants	U
+
+#A la lecture des résultats, les observations étaient les suivantes:
+
+
+#- les teneurs en hydrocarbures totaux et en solvants aromatiques (BTEX) étaient systématiquement inférieures aux seuils de détection du laboratoire
+
+29l1l0	hydrocarbures_totaux	S
+29l1l1	solvants_aromatiques	S
+29l1l2	BTEX	S
+
+#- les teneurs en solvants organo-chlorés de la famille des chloroéthène étaient fortes.
+
+30l1l0	solvants_organo___chlorés	S
+30l1l1	chloroéthène	S
+
+#Enfin des investigations ont été effectuées sur les eaux superficielles.
+
+31l0l0	investigations_ont_été_effectuées	N
+
+#La reconnaissance ne démontrait aucune pollution manifeste des sédiments du Sauzay.
+
+32l0l0	La_reconnaissance	N
+32l0l1	Sauzay	L
+
+#Cependant, les boues contenues dans le bassin de décantation étaient chargées en hydrocarbures et en chloroéthène.
+
+33l0l0	décantation	N
+33l0l1	étaient_chargées	N
+33l1l0	hydrocarbures	S
+33l1l1	chloroéthène	S
+
+#Dans le mémoire de cessation d'activité transmis à la préfecture de la Nièvre le 25 mars 2011, l'usage futur proposé pour le site est un usage équivalent de type industriel (non sensible).
+
+34l0l0	cessation_d__activité	N
+34l0l1	la_préfecture_de_la_Nièvre	O
+34l0l2	le_25_mars_2011__	T
+34l0l3	l__usage	O
+34l0l4	le_site	O
+34l0l5	un_usage_équivalent	O
+
+#Il a été préconisé plusieurs travaux de dépollution propres à chaque zone contaminée:
+
+35l0l0	plusieurs	O
+35l0l1	travaux_de_dépollution	N
+35l0l2	zone_contaminée	O
+
+#- excavation des sols pollués aux HCT,
+
+36l0l0	excavation	N
+36l0l1	des_sols_pollués	O
+36l0l2	aux_HCT	L
+
+#- curage de la lagune,
+
+37l0l0	curage	N
+37l0l1	la_lagune	O
+37l1l0	la_lagune	I
+
+#- nettoyage du bassin de décantation,
+
+38l0l0	nettoyage	N
+38l0l1	du_bassin_de_décantation	N
+
+#- confinement pour l'aire de stationnement.
+
+
+#Des recommandations et restrictions d'usage ont également été proposées dans le plan de gestion joint au mémoire de cessation d'activité.
+
+40l0l0	Des_recommandations_et_restrictions_d__usage	O
+40l0l1	le_plan_de_gestion	O
+40l0l2	cessation_d__activité	N

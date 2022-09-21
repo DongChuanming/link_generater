@@ -1,0 +1,339 @@
+
+#59.0223
+#- Site de l'industrie chimique (fabrication de détergents sous forme liquide et poudre) qui s'étendait initialement sur des parcelles rive droite et rive gauche de la Tortue.
+
+0l0l0	l__industrie_chimique	O
+0l0l1	fabrication_de_détergents	A
+0l0l2	s__étendait_initialement_sur	N
+0l0l3	des_parcelles	O
+0l0l4	rive_droite_et_rive_gauche_de_la_Tortue	L
+0l1l0	détergents	U
+
+#- Site en activité depuis 1911 jusqu'en 1995
+
+1l0l0	Site	O
+1l0l1	en_activité_depuis_1911_jusqu__en_1995	T
+
+#- les terrains rive gauche de la Tortue ont été cédés après remise en état mais une surveillance des nappes est maintenue.
+
+2l0l0	les_terrains	O
+2l0l1	rive_gauche_de_la_Tortue	L
+2l0l2	ont_été_cédés	N
+2l0l3	après_remise_en_état	N
+2l0l4	surveillance_des_nappes	A
+
+#Le dernier exploitant est UNILEVER France (à la suite d'une fusion-absorption, il s'agit désormais de la société TOPAZE appartenant au groupe UNILEVER France)
+
+3l0l0	Le_dernier_exploitant	O
+3l0l1	UNILEVER_France	O
+3l0l2	la_suite_d_	R
+3l0l3	une_fusion___absorption	N
+3l0l4	la_société_TOPAZE	O
+3l0l5	UNILEVER_France	O
+3l1l0	UNILEVER_France	I
+3l1l1	la_société_TOPAZE_appartenant	I
+3l1l2	groupe_UNILEVER_France	I
+
+#- le site situé rive droite de la TORTUE a été repris par différents exploitants (BILLORE, COVENTRY) et fait l'objet d'une fiche BASOL spécifique.
+
+4l0l0	le_site	O
+4l0l1	situé_rive_droite_de_la_TORTUE	L
+4l0l2	a_été_repris	N
+4l1l0	la_TORTUE	I
+4l1l1	BILLORE___COVENTRY	I
+
+#La présente fiche BASOL ne vise que le site exploité Rive Gauche de la TORTUE, pour lequel le dernier exploitant est la société TOPAZE (appartenant au groupe UNILEVER France).
+
+5l0l0	le_site	O
+5l0l1	exploité_Rive_Gauche_de_la_TORTUE	L
+5l0l2	la_société_TOPAZE	O
+5l0l3	UNILEVER_France	O
+5l1l0	BASOL	I
+5l1l1	la_société_TOPAZE	I
+5l1l2	groupe_UNILEVER_France	I
+
+#Propriétaires du site:
+
+
+#Selon les informations communiquées par le dernier exploitant lors de l'inspection du 15/11/2010, les propriétaires du site sont désormais le Port de Lille et la société Batilease.
+
+7l0l0	le_dernier_exploitant	O
+7l0l1	lors_de_l__inspection	N
+7l0l2	du_15_11_2010	T
+7l0l3	les_propriétaires_du_site	O
+7l0l4	désormais	R
+7l0l5	le_Port_de_Lille	O
+7l0l6	la_société_Batilease	O
+7l1l0	le_Port_de_Lille	I
+7l1l1	la_société_Batilease	I
+
+#- site en activité visé par la circulaire du 3 avril 1996 qui impose une étude des sols sur les sites en activité
+
+8l0l0	site_en_activité	O
+8l0l1	visé_par	R
+8l0l2	la_circulaire	O
+8l0l3	3_avril_1996	T
+8l0l4	impose_une_étude_des_sols	N
+8l0l5	les_sites_en_activité	O
+
+#- Mars 96 : remise du rapport de remise en état de la partie du site qui a été revendue
+
+9l0l0	Mars_96	T
+9l0l1	__remise	N
+9l0l2	du_rapport_de	O
+9l0l3	remise_en_état	N
+9l0l4	la_partie_du_site	O
+9l0l5	a_été_revendue	N
+
+#- Arrêté du 27 septembre 1996 demande la surveillance  des eaux souterraines sur cette partie de site.
+
+10l0l0	27_septembre_1996	T
+10l0l1	demande_la_surveillance___des_eaux_souterraines	A
+10l0l2	sur_cette_partie_de_site	O
+
+#- Arrêté du 04 septembre 1998 imposant une étude de sols phase A documentaire et une évaluation simplifiée des risques sur l'ensemble du site (application de la circulaire du 03/04/96)
+
+11l0l0	04_septembre_1998	T
+11l0l1	imposant_une_étude_de	N
+11l0l2	sols_phase	O
+11l0l3	une_évaluation_simplifiée_des_risques	N
+11l0l4	03_04_96	T
+
+#- remise du rapport le 23 septembre 1999 qui préconise la recherche d'un forage et des sondages pour des prélèvements d'échantillons de sols et la réalisation d'un maillage du site par l'adjonction de 3 nouveaux piezomètres de manière à mieux connaître l'hydrogéologie du site.
+
+12l0l0	rapport	N
+12l0l1	le_23_septembre_1999	T
+12l0l2	la_recherche_d__un_forage	N
+12l0l3	des_sondages	N
+12l0l4	la_réalisation_d__un	N
+12l0l5	maillage_du_site	L
+12l0l6	l__adjonction	N
+12l0l7	3_nouveaux_piezomètres	O
+12l0l8	hydrogéologie	N
+
+#- phase B de l'etude de sols et l'évaluation simplifiée des risques (ESR)demandées par arrêtés du 09/11/01 sur l'ensemble des terrains de part et d'autre de la Tortue. 2 arrêtés ont donc été signés (visant respectivement SA LEVER (ex-Unilever France)et SA BILORE France (repris ensuite par COVENTRY).
+
+13l0l0	l__etude_de_sols	N
+13l0l1	l__évaluation_simplifiée_des_risques	N
+13l0l2	ESR_demandées_par	R
+13l0l3	arrêtés	O
+13l0l4	du_09_11_01	T
+13l0l5	des_terrains	O
+13l0l6	autre_de_la_Tortue	L
+13l0l7	2_arrêtés	O
+13l0l8	ont_donc_été_signés	N
+13l0l9	ex_Unilever_France_et	O
+13l0l10	BILORE_France	O
+13l0l11	COVENTRY	O
+13l1l0	SA_LEVER	I
+13l1l1	ex_Unilever_France_et	I
+13l1l2	SA_BILORE_France	I
+13l1l3	COVENTRY	I
+
+#- Remise des études ANTEA en 2002 qui révèlent la nécessité de réaliser un diagnostic approfondi et une étude détaillée des risques
+
+14l0l0	études_ANTEA	O
+14l0l1	en_2002	T
+14l0l2	un_diagnostic_approfondi	N
+14l0l3	risques	N
+14l1l0	ANTEA	I
+
+#- arrêté préfectoral du 14/05/2004 impose à la SA Lever Faberger, pour le site Rive Gauche de la Tortue, un diagnositic approfondi et une étude détaillée des risques.
+
+15l0l0	arrêté_préfectoral	O
+15l0l1	14_05_2004	T
+15l0l2	impose	N
+15l0l3	la_SA_Lever_Faberger	O
+15l0l4	Rive_Gauche_de_la_Tortue	L
+15l0l5	un_diagnositic_approfondi	N
+15l0l6	une_étude_détaillée_des_risques	N
+15l1l0	la_SA_Lever	I
+
+#- Etude détaillée des risques (EDR)réalisée par ANTEA transmise en août 2005.
+
+16l0l0	EDR_réalisée_par	N
+16l0l1	ANTEA	O
+16l0l2	transmise	N
+16l0l3	en_août_2005__	T
+16l1l0	ANTEA	I
+
+#L'usage retenu est un usage industriel.
+
+
+#Principales conclusions de l'EDR:
+
+
+#1.
+
+
+#La nappe des alluvions est impactée par une pollution dissoute en chlorures, sodium, bore, arsenic et détergents anioniques.
+
+20l0l0	alluvions_est_impactée	N
+20l0l1	par	R
+20l0l2	une_pollution	O
+20l1l0	chlorures	S
+20l1l1	sodium	S
+20l1l2	bore	S
+20l1l3	arsenic	S
+20l1l4	détergents_anioniques	S
+
+#Les concentrations des quatre premiers éléments engendrent un risque considéré comme tolérable.
+
+
+#Pour les détergents anioniques, les valeurs de potabilisation sont dépassées sur une zone limitée, de 50 à 60 m de diamètre.
+
+22l0l0	diamètre	O
+22l1l0	les_détergents	U
+22l1l1	anioniques	S
+
+#Cependant l’hydrogéologie complexe du milieu impose de poursuivre la surveillance piézométrique.
+
+23l0l0	milieu	O
+23l0l1	impose_de	R
+23l0l2	poursuivre	O
+23l0l3	la_surveillance_piézométrique	A
+
+#Du fait des possibilités d’échanges avec la nappe alluviale et de l’évolution imprévisible des polluants, la même conclusion est valable pour la nappe de la craie.
+
+24l1l0	polluants	S
+
+#La surveillance piézométrique de la nappe des alluvions et de la nappe de la craie doit donc être maintenue.
+
+25l0l0	La_surveillance_piézométrique	A
+
+#Il ressort de l'étude la nécessité d'établir un dispositif d’alerte en cas de constat d’impact sur la nappe de la craie, celle-ci servant d’alimentation au captage d’alimentation en eau potable  d’Emmerin.
+
+26l0l0	alerte	O
+26l0l1	en_cas_de	R
+26l0l2	constat_d__impact	O
+26l0l3	sur	R
+26l0l4	la_nappe	O
+26l0l5	la_craie	O
+26l0l6	servant_d__alimentation_au_captage_d_	L
+26l0l7	alimentation_en_eau_potable___d_	A
+26l0l8	Emmerin	L
+
+#A cet effet, les résultats de la surveillance piézométrique seront dûment analysés et commentés et tout dépassement anormal devra être signalé par l'exploitant.
+
+27l0l0	surveillance_piézométrique	O
+27l0l1	l__exploitant	O
+
+#2.
+
+
+#Pour le milieu sol, la pollution par les hydrocarbures est limitée à deux secteurs de faible surface et à des teneurs maximales relativement peu élevées : 700 mg/kg pour les hydrocarbures totaux, 80 mg/kg pour les hydrocarbures aromatiques polycycliques.
+
+29l0l0	hydrocarbures	O
+29l0l1	est_limitée	N
+29l1l0	hydrocarbures	S
+29l1l1	les_hydrocarbures_totaux	S
+29l1l2	les_hydrocarbures_aromatiques_polycycliques	S
+
+#Des spots de pollution métallique sont également recensés.
+
+
+#L’évaluation détaillée des risques conclut à la compatibilité de ces pollutions résiduelles avec l’usage industriel qu’il est prévu d’affecter aux terrains, sous réserve de certaines mesures de précaution détaillées au point 3 ci-après.
+
+31l0l0	évaluation_détaillée_des_risques	N
+31l0l1	ces_pollutions	O
+31l0l2	l__usage_industriel	A
+31l0l3	terrains	O
+
+#3.
+
+
+#L’évaluation détaillée des risques (EDR)identifie des mesures de précaution qu’il convient de pérenniser sous forme de servitude opposable aux tiers.
+
+33l0l0	évaluation_détaillée_des_risques	N
+33l0l1	EDR_identifie	N
+33l0l2	des_mesures_de_précaution	O
+
+#Ainsi :
+
+
+#- il est nécessaire de fixer qu’en l’état du sol, l’usage d’habitation est à proscrire, et que seuls les usages de type industriels ou comparables (commerce, bureaux), à l’exclusion de tout type d’établissement recevant du public, sont envisageables ;
+
+35l0l0	l__usage_d__habitation	A
+35l0l1	est_à	N
+35l0l2	proscrire	A
+35l0l3	les_usages	O
+
+#- les usages précités ne sont possibles que sous certaines réserves : maintien en état de la clôture du site (ou surveillance de l’accès), recouvrement des terrains par un enrobé ou tout matériau imperméable aux poussières, qui devra être maintenu en état, et pour les zones d’espace vert, recouvrement par au moins 30 cm de terre végétale, dont l’intégrité devra également être garantie (interdiction des fouilles, grillage indicateur…) ;
+
+
+#- en cas de travaux, des précautions spécifiées dans l’évaluation détaillée des risques sont à prendre ;
+
+
+#Unilever France a la responsabilité de rendre ces dispositions opposables aux tiers, par exemple par le moyen de restrictions d’usage conventionnelles établies devant notaire et publiées au conservatoire des hypothèques afin de garantir leur pérennité.
+
+38l0l0	Unilever	O
+38l1l0	Unilever_France	I
+
+#- l'arrêté préfectoral du 16/04/08 impose une surveillance semestrielle au niveau de la nappe alluviale et de la nappe de la craie pour les paramètres suivants: pH, conductivité, détergents anioniques, bore, nickel, sodium, chlirures et sulfates.
+
+39l0l0	l__arrêté_préfectoral	O
+39l0l1	16_04_08	T
+39l0l2	impose	N
+39l0l3	une_surveillance_semestrielle	A
+39l1l0	détergents_anioniques	S
+39l1l1	bore	S
+39l1l2	nickel	S
+39l1l3	sodium	S
+39l1l4	chlirures	S
+39l1l5	sulfates	S
+
+#Un bilan de la surveillance doit être réalisé tous les deux ans.
+
+40l0l0	la_surveillance	O
+40l0l1	doit_être_réalisé	N
+40l0l2	tous_les_deux_ans	T
+
+#Cette surveillance porte sur les parcelles au droit de la rive gauche de la Tortue (AM 296, 298 et 299)
+
+41l0l0	Cette_surveillance	A
+41l0l1	porte_sur	R
+41l0l2	les_parcelles	O
+41l0l3	au_droit_de_la_rive_gauche_de_la_Tortue	L
+
+#- Le rapport de la DREAL du 03/03/09 a permis de dresser un procès verbal de récolement des travaux prévus dans le cadre de la cessation d'activité d'Unilever mais il ne pourra être considéré complet qu'une fois l'ensemble des conventions permettant d'acter les restrictions d'usages signé.
+
+42l0l0	la_DREAL	O
+42l0l1	03_03_09	T
+42l0l2	un_procès_verbal	O
+42l0l3	de_récolement	N
+42l0l4	des_travaux	N
+42l0l5	prévus_dans_le_cadre_de	R
+42l0l6	la_cessation	N
+42l0l7	d__activité	A
+42l0l8	Unilever	O
+42l1l0	la_DREAL	I
+42l1l1	Unilever	I
+
+#Selon les informations communiquées par le représentant d'UNILEVER le 15/11/2010, seule la convention avec le Port de Lille est signée à ce jour.
+
+43l0l0	le_représentant	O
+43l0l1	UNILEVER	O
+43l0l2	le_15_11_2010	T
+43l0l3	la_convention_avec	O
+43l0l4	le_Port_de_Lille	O
+43l0l5	à_ce_jour	T
+43l1l0	d__UNILEVER	I
+43l1l1	le_Port	I
+
+#- La campagne d'analyse des eaux souterraines d’août 2013 montre une augmentation des détergents anioniques , bore et sodium sur le piézomètres pz2c situé en bordure du site au sud, vers le champ captant pour l’alimentation en eau potable d'Emmerin.
+
+44l0l0	La_campagne_d__analyse	N
+44l0l1	eaux_souterraines	N
+44l0l2	d__août_2013	T
+44l0l3	détergents	N
+44l0l4	le_piézomètres_pz2c	O
+44l0l5	situé_en_bordure_du_site_au_sud	L
+44l0l6	vers_le_champ_captant	L
+44l0l7	l__alimentation_en_eau	A
+44l0l8	Emmerin	L
+44l1l0	détergents_anioniques	S
+44l1l1	bore	S
+44l1l2	sodium	S
+
+#- Action toujours en cours sur ce site.
+

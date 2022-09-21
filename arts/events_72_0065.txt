@@ -1,0 +1,409 @@
+
+#72.0065
+#Le site, d'une superficie de 25128m2, est situé en bordure de la RN138 dans la ZA de la Pitoisière, à environ 1,5 km à l'Ouest du centre de Maresché (72) et à environ 2 km au Sud de Beaumont-sur-Sarthe (72).
+
+0l0l0	Le_site	O
+0l0l1	est_situé_en_bordure_de_la_RN138_dans_la_ZA_de_la_Pitoisière	L
+0l0l2	__à_environ_1_5_km_à_l__Ouest_du_centre_de_Maresché	L
+0l0l3	__72___et_à_environ_2_km_au_Sud_de_Beaumont_sur_Sarthe___72____	L
+
+#L'environnement immédiat du site est représenté par :
+
+1l0l0	L__environnement_immédiat	O
+
+#-au Sud, des parcelles cultivées puis une zone boisée,
+
+2l0l0	_au_Sud	L
+2l0l1	des_parcelles_cultivées	O
+2l0l2	une_zone_boisée	O
+
+#-à l'Ouest, la départementale N138 puis des parcelles cultivées et une maison individuelle,
+
+3l0l0	_à_l__Ouest___la_départementale_N138	L
+3l0l1	des_parcelles_cultivées	O
+3l0l2	une_maison_individuelle	O
+
+#-au Nord, une parcelle enherbée avec une maison abandonnée, et sur laquelle est implanté le puits n°2, point de prélèvements des eaux souterraines situé hors site, et où exerce la société d'expertise-comptabilité CER France.
+
+4l0l0	_au_Nord___une_parcelle_enherbée	L
+4l0l1	une_maison_abandonnée	O
+4l0l2	est_implanté	N
+4l0l3	le_puits_n__2	O
+4l0l4	où	R
+4l0l5	exerce	A
+4l0l6	la_société_d__expertise	O
+4l0l7	comptabilité_CER_France	O
+
+#-au Nord-Est, le Garage Automobile du Centre, les Établissements DOUILLET, un concessionnaire d'engins agricoles,
+
+5l0l0	_au_Nord_Est	L
+5l0l1	le	O
+5l0l2	Garage_Automobile_du_Centre	L
+5l0l3	les_Établissements_DOUILLET	O
+5l0l4	un_concessionnaire	O
+5l0l5	engins_agricoles	O
+5l1l0	le_Garage_Automobile_du_Centre	I
+5l1l1	les_Établissements_DOUILLET	I
+
+#-à l'Est, la société d'ébénisterie/menuiserie Rémy et des parcelles cultivées.
+
+6l0l0	_à_l__Est	L
+6l0l1	la_société	O
+6l0l2	ébénisterie___menuiserie	A
+6l0l3	des_parcelles_cultivées	O
+6l1l0	la_société_d__ébénisterie	I
+
+#Un ruisseau s'écoule à 1,2km au Sud-Ouest du site puis la Sarthe à 1,5 km à l'Ouest.
+
+7l0l0	à_1_2_km_au_Sud_Ouest_du_site	L
+7l0l1	la_Sarthe_à_1_5_km_à_l__Ouest	L
+
+#Une nappe est présente et semble s'écouler du Nord-Est vers le Sud-Ouest.
+
+8l0l0	écouler_du_Nord_Est_vers_le_Sud_Ouest	L
+
+#Le site n'est inclus dans aucun périmètre de protection de captage d'eaux souterraines à usage AEP  (Alimentation en Eau Potable).
+
+9l0l0	Le_site	O
+9l0l1	inclus_dans_aucun_périmètre_de_protection	L
+9l0l2	usage_AEP	A
+
+#Trois captages pour l'AEP sont recensés à proximité, dans un rayon de 5 km.
+
+10l0l0	Trois_captages	O
+10l0l1	à_proximité___dans_un_rayon_de_5_km	L
+
+#Anciennement dédié à un usage agricole, le site a commencé à être exploité par la société LE MANS CHARPENTE étant régi par l'arrêté préfectoral n°05-0025 du 01/01/2005.
+
+11l0l0	Anciennement	R
+11l0l1	dédié_à_un_usage_agricole	A
+11l0l2	le_site	O
+11l0l3	a_commencé_à_être_exploité	N
+11l0l4	la_société_LE_MANS_CHARPENTE	O
+11l0l5	étant_régi_par	R
+11l0l6	l_	O
+11l0l7	du_01_01_2005	T
+11l1l0	la_société_LE_MANS_CHARPENTE	I
+
+#Puis, des entreprises se sont également développées à l'Est du site.
+
+12l0l0	des_entreprises	O
+12l0l1	se_sont_également_développées	N
+12l0l2	à_l__Est_du_site	L
+
+#LE MANS CHARPENTE exploitait une usine de fabrication de structures et de charpentes en bois destinées à la construction.
+
+13l0l0	LE_MANS_CHARPENTE	O
+13l0l1	exploitait	R
+13l0l2	une_usine	O
+13l0l3	de_fabrication_de_structures_et_de_charpentes_en_bois_destinées_à_la_construction	A
+13l1l0	LE_MANS_CHARPENTE	I
+
+#Les activités étaient soumises à autorisation sous les rubriques 2410.1 et 2415.1 au titre de la nomenclature ICPE.
+
+14l0l0	Les_activités	O
+14l0l1	étaient_soumises_à_autorisation	N
+
+#Le 23/10/2014, le Mans Charpente est devenu Charpentes Françaises SAS.
+
+15l0l0	Le_23_10_2014	T
+15l0l1	le_Mans_Charpente	O
+15l0l2	est	N
+15l0l3	devenu	R
+15l0l4	Charpentes_Françaises_SAS	O
+15l1l0	le_Mans_Charpente	I
+
+#Les sources potentielles de pollution sont les suivantes :
+
+
+#-l'ancienne installation de traitement du bois : zone de traitement, d'égouttage et de séchage du bois, stockage de produits de traitement purs et de bois traités.
+
+17l0l0	ancienne_installation_de_traitement_du_bois	O
+17l0l1	égouttage_et_de_séchage_du_bois	A
+17l0l2	stockage_de_produits_de_traitement	O
+17l0l3	bois_traités	O
+
+#-le réservoir aérien de GNR de 1,5 m3 (Gazole Non Routier)
+
+18l1l0	GNR	S
+18l1l1	Gazole	I
+18l1l2	Non_Routier	U
+
+#-les remblais
+
+19l0l0	remblais	A
+
+#-les anciennes activités agricoles
+
+20l0l0	activités_agricoles	A
+
+#La localisation de ces sources est précisée sur les plans cartographiques joints à la fiche.
+
+21l0l0	La_localisation	O
+21l0l1	ces_sources	O
+
+#Les principaux polluants liés à ces sources potentielles de pollution sont les suivants :
+
+
+#-les produits de traitement de bois mis en oeuvre sur site (propiconazole, tébuconazole, perméthrine, cyperméthrine, IPBC, solvants...)
+
+23l0l0	produits_de_traitement_de_bois	O
+23l1l0	_les_produits	U
+23l1l1	propiconazole	S
+23l1l2	tébuconazole	S
+23l1l3	perméthrine	S
+23l1l4	cyperméthrine	S
+23l1l5	IPBC	S
+23l1l6	solvants	S
+
+#-des hydrocarbures C5 à C40 et des HAP, associés au stockage de carburants,
+
+24l0l0	des_HAP	O
+24l0l1	associés_au	R
+24l0l2	stockage_de_carburants	A
+24l1l0	hydrocarbures_C5	S
+24l1l1	des_HAP	S
+24l1l2	carburants	U
+
+#-des pesticides à usage agricole (pesticides organochlorés, organophosphorés, organoazotés,...)
+
+25l1l0	_des_pesticides	S
+25l1l1	pesticides_organochlorés	S
+25l1l2	organophosphorés	S
+25l1l3	organoazotés	S
+
+#L'activité de traitement du bois est arrêtée depuis les 21 décembre 2015.
+
+26l0l0	L__activité_de_traitement_du_bois	A
+26l0l1	est_arrêtée	N
+26l0l2	depuis_les_21_décembre_2015__	T
+
+#La notification de la cessation d'activité date du 13 juillet 2016.
+
+27l0l0	La_notification_de_la_cessation_d__activité	N
+27l0l1	date_du_13_juillet_2016__	T
+
+#Lors de l'arrêt de l'activité de traitement de bois du 21/12/2015, les déchets ou produits dangereux ont été gérés :
+
+28l0l0	Lors	R
+28l0l1	de_l__arrêt	N
+28l0l2	l__activité_de_traitement_de_bois	A
+28l0l3	du_21_12_2015	T
+28l0l4	les_déchets_ou_produits_dangereux	O
+28l0l5	ont_été_gérés	N
+28l1l0	produits_dangereux	U
+
+#-le bac de traitement a été vidangé le 22/02/2016.
+
+29l0l0	_le_bac_de_traitement	O
+29l0l1	a_été_vidangé	N
+29l0l2	le_22_02_2016__	T
+
+#Les produits récupérés ont été envoyés vers un centre de traitement adapté.
+
+30l0l0	ont_été_envoyés_vers	N
+30l0l1	un_centre	O
+
+#-les installations de traitement de bois (bac de traitement et cubitainers neufs contenant les produits de traitement) sont toutes démantelées et transférées sur le site Charpentes françaises de Vars (16)
+
+31l0l0	_les_installations_de_traitement_de_bois	O
+31l0l1	bac_de_traitement	O
+31l0l2	cubitainers	O
+31l0l3	sont_toutes_démantelées	N
+31l0l4	et_transférées	N
+31l0l5	sur_le_site	L
+31l0l6	Charpentes_françaises_de_Vars	O
+31l0l7	__16__	L
+31l1l0	le_site_Charpentes_françaises_de_Vars___16__	I
+
+#- le réservoir aérien de GNR (1,5 m3) est toujours présent.
+
+32l0l0	le_réservoir_aérien_de_GNR	O
+32l1l0	le_réservoir	D
+32l1l1	aérien_de_GNR	U
+
+#Un diagnostic de l'état des milieux a été réalisé en octobre 2015.
+
+33l0l0	Un_diagnostic	N
+33l0l1	l__état_des_milieux	O
+33l0l2	a_été_réalisé	N
+33l0l3	en_octobre_2015__	T
+
+#CARACTERISTIQUES DES EAUX SOUTERRAINES
+
+34l0l0	EAUX_SOUTERRAINES	O
+34l1l0	SOUTERRAINES	I
+
+#Les résultats des campagnes de surveillance des eaux souterraines T/P/C (Tébuconazole, Propiconazole, Cyperméthrine) et cuivre mettent en évidence :
+
+35l0l0	des_campagnes_de_surveillance	N
+35l0l1	eaux_souterraines_T	O
+35l1l0	T___P___C	I
+35l1l1	Tébuconazole	S
+35l1l2	Propiconazole	S
+35l1l3	Cyperméthrine	S
+
+#-dans le piézomètre Pz1,  des teneurs inférieures aux limites de quantification du laboratoire pour l'ensemble des campagnes réalisées
+
+
+#-dans le piézomètre Pz2, la présence ponctuelle de teneurs en tébuconazole et propiconazole supérieures à la NQE (Norme de qualité Environnementale mais restant inférieures à la valeur limite de qualité pour les eaux brutes,
+
+37l0l0	teneurs	O
+37l1l0	tébuconazole	S
+37l1l1	propiconazole	S
+
+#-des teneurs inférieures aux limites de quantification pour les autres paramètres et les autres campagnes réalisées.
+
+
+#Les résultats d'analyse d'octobre 2015 montrent :
+
+39l0l0	d__octobre_2015	T
+
+#- sur site, des faibles teneurs en alkylbenzènes (n-propylbenzène, 1,3,5 et  1,2,4-triméthylbenzène) légèrement supérieures à la limite de quantification du laboratoire et des traces en toluène, éthylbenzène, xylènes et en métaux (baryum et molybdène) restant inférieures aux valeurs de référence et proches de la limite de quantification du laboratoire.
+
+40l1l0	alkylbenzènes	S
+40l1l1	n___propylbenzène	S
+40l1l2	__1_2_4_triméthylbenzène	S
+40l1l3	en_toluène___éthylbenzène___xylènes	S
+40l1l4	en_métaux___baryum_et_molybdène	S
+
+#- hors site, une trace en fluoranthène au droit du puits 2 restant proche de la limite de quantification du laboratoire
+
+41l0l0	hors_site	L
+41l0l1	au_droit_du_puits	L
+41l1l0	fluoranthène	S
+
+#-des teneurs inférieures aux limites de quantification du laboratoire pour les autres paramètres analysés en Pz1,Pz2 et au droit du puits 2, notamment en T/P/C.
+
+42l0l0	au_droit_du_puits_2	L
+42l1l0	T___P	S
+
+#CARACTÉRISTIQUES DES SOLS
+
+43l1l0	SOLS	I
+
+#Les investigations réalisées sur le site ont été réalisées sur les supports suivants :
+
+44l0l0	Les_investigations_réalisées	N
+44l0l1	sur_le_site	L
+44l0l2	ont_été_réalisées	N
+
+#-de 0,0 à ,0,2 m : revêtement de surface constitué d'enrobé, de béton ou de terre végétale,
+
+
+#-de 0,1/0,2 à 0,3/1 m : remblais graveleux,
+
+
+#-de 0,3/ à 5 m : argile limoneuse brune à grise avec passage sableux entre 2 et 5 m ponctuellement en S6.
+
+
+#Les résultats d'analyse mettent en évidence :
+
+
+#-un impact modéré en T/P/C (Tébuconazole, Propiconazole, Cyperméthrine) dans les sols superficiels du fossé en limite Est du site au droit des sondages S7 et S8, respectivement en amont et en aval de la zone de traitement de bois
+
+49l0l0	_un	N
+49l0l1	impact	O
+49l0l2	fossé	O
+49l0l3	en_limite_Est_du_site	L
+49l0l4	au_droit_des_sondages_S7	L
+49l0l5	en_amont_et_en_aval_de_la_zone_de	L
+49l0l6	traitement_de_bois	A
+49l1l0	T___P___C	S
+49l1l1	Tébuconazole	S
+49l1l2	Propiconazole	S
+49l1l3	Cyperméthrine	S
+49l1l4	bois	I
+
+#-des teneurs plus faibles entre 0 et 1 m de profondeur au droit des zones de stockage extérieures en S9 et S10 à proximité de la zone de traitement de bois en S2,S3 et S6,
+
+50l0l0	au_droit_des_zones_de_stockage_extérieures	L
+50l0l1	à_proximité_de	L
+50l0l2	la_zone_de_traitement_de_bois	O
+
+#-des teneurs inférieures aux limites de quantification du laboratoire pour l'IPBC (3-iodo-2-propynylbutylcarbamate)
+
+51l1l0	l__IPBC___3_iodo_2_propynylbutylcarbamate	S
+
+#-les teneurs en CP (chlorophénols), en POC (pesticides organochlorés) inférieures aux limites de quantification du laboratoier
+
+52l1l0	CP	S
+52l1l1	chlorophénols	S
+52l1l2	POC	S
+52l1l3	pesticides_organochlorés	S
+
+#-des teneurs en hydrocarbures C5 à C40 faibles ou inférieures aux limites de quantification du laboratoire.
+
+53l1l0	hydrocarbures	S
+
+#La qualité des terres respecte le caractère d'admissibilité en installation de stockage de déchets inertes (ISDI) pour le paramètre hydrocarbures C10-C40 fixé à 500 mg/kg MS
+
+54l1l0	hydrocarbures_C10_C40	S
+
+#-les teneurs en BTEX (Benzène, Toluène, Ethylbenzène et Xylènes), COHV (composés organiques halogénés volatils et HAP (Hydrocarbures aromatiques polycycliques) proches ou inférieures aux limites de quantification du laboratoire.
+
+55l1l0	BTEX	S
+55l1l1	Benzène	S
+55l1l2	Toluène	S
+55l1l3	Ethylbenzène	S
+55l1l4	Xylènes	S
+55l1l5	COHV	S
+55l1l6	composés_organiques_halogénés_volatils	S
+55l1l7	HAP	S
+55l1l8	Hydrocarbures_aromatiques_polycycliques	S
+
+#Le critère d'admissibilité en ISDI est respecté, au regard des seuils fixés respectivement, pour le BTEX à 6 mg/kd MS et pour les HAP à 50 mg/kg.
+
+56l1l0	le_BTEX	S
+56l1l1	les_HAP	S
+
+#-des teneurs en ETM (Eléments Traces Métalliques), non significatives d'un impact.
+
+57l1l0	ETM	S
+57l1l1	Eléments_Traces_Métalliques	S
+
+#CONDITIONS D'USAGE DES TERRAINS
+
+58l0l0	TERRAINS	O
+
+#Le schéma conceptuel, réalisé sur la base d'un usage industriel, a mis en évidence l'absence de risque pour les usagers du site et la population hors site.
+
+59l0l0	Le_schéma_conceptuel	O
+59l0l1	réalisé	N
+59l0l2	sur_la_base_d_	R
+59l0l3	un_usage_industriel	O
+59l0l4	les_usagers_du_site	O
+
+#On note l'absence de recouvrement de surface sur la zone impactée.
+
+60l0l0	zone_impactée	O
+
+#Aucune EQRS (évaluation quantitative des risques sanitaires) n'a été réalisée.
+
+
+#Au regard des analyses, aucune action n'est envisagée sur les sols dans le cadre de la cessation d'activité du site.
+
+62l0l0	les_sols	O
+62l0l1	dans_le_cadre_de	R
+62l0l2	la_cessation_d__activité	N
+62l0l3	du_site	A
+
+#Il est cependant proposé de confirmer la bonne qualité des eaux souterraines au droit du site après l'arrêt du bac lors des deux dernières campagnes de surveillance pour les paramètres T/P/C et Pz2 puis de cesser la surveillance et de neutraliser les deux piézomètres du site (Pz1 et Pz2).
+
+63l0l0	confirmer_la_bonne_qualité_des_eaux_souterraines	O
+63l0l1	au_droit_du_site	L
+63l0l2	après	R
+63l0l3	l__arrêt	N
+63l0l4	du_bac	O
+63l0l5	lors_des_deux	T
+63l0l6	dernières_campagnes_de_surveillance	N
+63l0l7	cesser_la_surveillance	N
+63l0l8	neutraliser	N
+
+#En cas de changement d'usage ou de nouveaux projets d'aménagement, il sera nécessaire de s'assurer de la compatibilité des terrains avec l'usage envisagé, en réalisant des investigations complémentaires, le cas échéant.
+
+64l0l0	En_cas	R
+64l0l1	de_changement_d__usage	N
+64l0l2	de_nouveaux_projets_d__aménagement	N
+64l0l3	la_compatibilité	O
+64l0l4	réalisant_des_investigations_complémentaires	N

@@ -1,0 +1,172 @@
+
+#68.0185
+#Ancienne décharge ayant accueilli gravats et déchets de démolition (bitumes, ciments), déchets verts et ordures ménagères, carcasses de voiture.
+
+0l0l0	Ancienne_décharge	O
+0l0l1	ayant_accueilli	N
+0l0l2	gravats	O
+0l0l3	bitumes	O
+
+#Des déblais industriels d'origine chimique et métallique sont suspectés mais non confirmées.
+
+1l0l0	Des_déblais_industriels	O
+
+#La date de début d'activité est estimée à 1958.
+
+2l0l0	début_d__activité	N
+2l0l1	à_1958__	T
+
+#La cessation d'activité a été constatée en 1990.
+
+3l0l0	La_cessation_d__activité	N
+3l0l1	a_été_constatée	N
+3l0l2	en_1990__	T
+
+#En 1999, le dépôt se présente comme une plateforme végétalisée d'une dizaine de mètres de haut et nivelée.
+
+4l0l0	En_1999__	T
+4l0l1	le_dépôt	O
+4l0l2	se_présente	N
+4l0l3	une_plateforme_végétalisée	N
+4l0l4	nivelée	N
+
+#Elle servait au stockage de déchets verts, pierres, buses et matériaux divers appartenant à l'hôtel Jenny.
+
+5l0l0	Elle_servait_au_stockage_de_déchets_verts	O
+5l0l1	pierres	O
+5l0l2	buses	O
+
+#Le site a été exploité par Monsieur François Koehl ayant un hôtel restaurant dit Jenny.
+
+6l0l0	Le_site	O
+6l0l1	a_été_exploité	N
+6l0l2	Monsieur_François_Koehl	O
+6l0l3	ayant	R
+6l0l4	un_hôtel_restaurant	O
+6l0l5	dit_Jenny	L
+
+#Des produits en provenance de Suisse, essentiellement, ont été déversés.
+
+7l0l0	Des_produits	O
+7l0l1	ont_été_déversés	N
+7l1l0	Suisse	S
+
+#En 1960: rapport du SGAL décrivait les déchets comme étant chimique, métallique avec une grande variétés tous venant d'entreprises de construction métallique.
+
+8l0l0	En_1960	T
+8l0l1	entreprises_de_construction_métallique	O
+8l1l0	SGAL	I
+8l1l1	les_déchets	U
+
+#En 1966, des déblais de démolition en provenance de Suisse sont déversés.
+
+9l0l0	En_1966	T
+9l0l1	des_déblais_de_démolition	O
+9l0l2	en_provenance_de_Suisse	O
+9l0l3	sont_déversés	N
+
+#En 1969, il devient un dépôt communal à vocation de stockage de carcasses de voitures.
+
+10l0l0	En_1969	T
+10l0l1	il	O
+10l0l2	devient	R
+10l0l3	un_dépôt_communal	O
+10l0l4	vocation_de	R
+10l0l5	stockage_de	A
+10l0l6	carcasses_de_voitures	O
+10l1l0	dépôt	D
+
+#En 1972, les propriétaires demandent l'autorisation de poursuivre le dépôt.
+
+11l0l0	En_1972	T
+11l0l1	les_propriétaires	O
+11l0l2	demandent_l__autorisation	N
+11l0l3	poursuivre_le_dépôt	O
+
+#En 1990, le programme de résorption des décharges brutes conclut pour le site à des nuisances visuelles, pollution des eaux superficielles, fermeture différée sans suivi d'impact.
+
+12l0l0	En_1990__	T
+12l0l1	le_programme	O
+12l0l2	de_résorption	N
+12l0l3	décharges_brutes	O
+12l0l4	fermeture_différée	N
+12l1l0	décharges_brutes	D
+
+#Analyses ont été effectuées le 19/04/1990 avec :
+
+13l0l0	Analyses	O
+13l0l1	ont_été_effectuées	N
+13l0l2	le_19_04_1990	T
+
+#- Teneurs élevées en Carbone Organique Total (COT) avec 2.76 mg/L;
+
+14l1l0	Carbone_Organique_Total	S
+14l1l1	COT	S
+
+#- Présence de métaux tels que : fer, aluminium, manganèse, cuivre, zinc, chrome et plomb à des concentrations comprises entre 4 µg/L et 230 µg/L.
+
+15l1l0	métaux	S
+15l1l1	fer	S
+15l1l2	aluminium	S
+15l1l3	manganèse	S
+15l1l4	cuivre	S
+15l1l5	zinc	S
+15l1l6	chrome	S
+15l1l7	plomb	S
+
+#Cependant, la localisation des prélèvements n'est pas définie.
+
+16l0l0	la_localisation	O
+
+#Compte-tenu de la proximité immédiate du dépôt avec le Lertzbach (eaux superficielles), on peut déduire que ces échantillons proviennent du cours d'eau.
+
+17l0l0	avec_le_Lertzbach	L
+17l1l0	Lertzbach	S
+
+#D'après une étude (ANTEA, 2001) aucun déchet des entreprises SANDOZ, CIBA, GEIGY n'a été déposé.
+
+18l0l0	ANTEA	O
+18l0l1	entreprises_SANDOZ	O
+18l0l2	GEIGY	O
+18l1l0	ANTEA	S
+18l1l1	entreprises_SANDOZ	I
+18l1l2	CIBA	I
+18l1l3	GEIGY	I
+
+#Des analyses du 28/03/2001 ont été effectuées à partir des eaux souterraines (étude ANTEA, 2001):
+
+19l0l0	Des_analyses	N
+19l0l1	28_03_2001	T
+19l0l2	ont_été_effectuées	N
+19l0l3	ANTEA	O
+
+#- Aucune anomalie n'a été détectée à l'aval immédiat de la décharge;
+
+20l0l0	détectée	N
+20l0l1	à_l__aval_immédiat_de_la_décharge	L
+
+#- Absence de composés organiques (inférieur aux seuils de détection);
+
+21l1l0	composés_organiques	U
+
+#- Les concentrations en manganèse sont élevées, 2 mg/L.
+
+22l1l0	manganèse	S
+
+#La nocivité potentielle du dépôt est importante compte-tenu de la présence suspectée (mais non confirmée étude ANTEA, 2001) de déchets de l'industrie chimique et métallique.
+
+23l0l0	chimique_et_métallique	A
+
+#Les formations sont vulnérables et les risques non négligeables car de fortes intempéries peuvent entraîner un lessivage des sols (dépôt) arrivant dans la rivière Lertzbach.
+
+24l0l0	de_fortes_intempéries	N
+24l0l1	lessivage	N
+24l0l2	arrivant_dans_la_rivière_Lertzbach	L
+
+#Aucun suivi d'impact n'est assuré.
+
+
+#Il est recommandé un suivi d'impact sur les eaux superficielles et les eaux souterraines (avec mise en place d'un piézomètre en aval du site).
+
+26l0l0	suivi_d__impact	O
+26l0l1	en_aval_du_site	L

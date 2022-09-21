@@ -1,0 +1,176 @@
+
+#76.0287
+#Dans le cadre de la mise en œuvre du projet de chaufferie biomasse devant être exploitée à Maromme, une zone de décharge et une pollution des sols associée ont été découvertes.
+
+0l0l0	Dans_le_cadre_de	R
+0l0l1	la_mise_en_œuvre	N
+0l0l2	du_projet_de_chaufferie_biomasse	O
+0l0l3	devant	T
+0l0l4	être_exploitée	N
+0l0l5	à_Maromme	L
+0l0l6	une_zone_de_décharge	O
+0l0l7	ont_été_découvertes	N
+
+#La chaufferie est localisée sur une ancienne carrière de craie, côte de la Valette, à Maromme (76).
+
+1l0l0	La_chaufferie	O
+1l0l1	localisée_sur_une_ancienne	L
+1l0l2	carrière_de_craie	O
+1l0l3	__côte_de_la_Valette___à_Maromme___76__	L
+
+#Elle est située à une altitude de 58 m sur les plateaux crayeux en rive droite de la Seine.
+
+2l0l0	située_à_une_altitude_de_58	L
+2l0l1	crayeux_en_rive_droite_de_la_Seine	L
+
+#En contrebas se trouve la vallée de la rivière du Cailly (située à 600 m à l'est du site), affluent de la Seine.
+
+3l0l0	En_contrebas	O
+3l0l1	se_trouve	R
+3l0l2	la_vallée_de	O
+3l0l3	la_rivière_du_Cailly	L
+3l0l4	située_à_600_m_à_l__est_du_site	L
+3l0l5	affluent_de_la_Seine	L
+
+#6 captages AEP sont localisés à environ 1 km du site , en aval hydraulique (le site est séparé de ces ouvrages par la rivière du Cailly).
+
+4l0l0	6_captages_AEP	O
+4l0l1	localisés_à_environ_1_km_du_site	L
+4l0l2	en_aval_hydraulique	L
+4l0l3	le_site	O
+4l0l4	ces	O
+4l0l5	ouvrages_par_la_rivière_du_Cailly	L
+
+#Les eaux souterraines sont présentes à 45 m de profondeur au droit du site.
+
+5l0l0	au_droit_du_site	L
+
+#Diagnostic :
+
+6l0l0	Diagnostic	N
+
+#Les investigations menées ont mis en évidence des terrains constitués par un mélange de déchets divers (brique, déchets plastiques, verres, ferrailles, morceaux de tissus...) et de limons jusqu'à des profondeurs pouvant atteindre 12 mètres.
+
+7l0l0	Les_investigations_menées	N
+7l0l1	des_terrains	O
+
+#Ces terrains non naturels reposent sur la formation crayeuse du cétacé.
+
+8l0l0	Ces_terrains	O
+
+#Ils présentent essentiellement des anomalies en métaux (cuivre, zinc, plomb, cadmium, ...) et en hydrocarbures distribuées de la façon suivante :
+
+9l1l0	métaux	S
+9l1l1	cuivre	S
+9l1l2	zinc	S
+9l1l3	plomb	S
+9l1l4	cadmium	S
+9l1l5	hydrocarbures	S
+
+#- en surface (0m - 2/3m), anomalies ponctuelle en hydrocarbures et générales en métaux (ponctuelle en cadmium),
+
+10l1l0	hydrocarbures	S
+10l1l1	métaux	S
+10l1l2	cadmium	S
+
+#- dans les déchets (2/3m - 12m), anomalies générales en hydrocarbures et en métaux, anomalie ponctuelle en HAP et PCB,
+
+11l1l0	les_déchets	U
+11l1l1	hydrocarbures	S
+11l1l2	métaux	S
+11l1l3	HAP	S
+11l1l4	PCB	S
+
+#- dans les terrains crayeux sous-jacents, persistance d'anomalies ponctuellement en cuivre, zinc et plomb.
+
+12l1l0	cuivre	S
+12l1l1	zinc	S
+12l1l2	plomb	S
+
+#Concernant les critères d'acceptation en installations de stockage de déchets inertes, tous les terrains analysés présentent au moins un dépassement de critère.
+
+
+#Les dépassements concernent de manière quasi-générale le carbone organique sur brut, les sulfates, la fraction soluble sur lixiviat et ponctuellement l'antimoine sur lixiviat.
+
+14l1l0	carbone_organique	U
+14l1l1	sulfates	S
+14l1l2	antimoine	S
+
+#A l'aval hydraulique, il n'a par ailleurs pas été mis en évidence d'impact majeur sur la qualité des eaux souterraines (3 piézomètres ont été forés à l'aval du site) : présence uniquement de traces en HCT, COHV, HAP, mercure et nickel.
+
+15l0l0	aval_hydraulique	O
+15l0l1	ont_été_forés	N
+15l0l2	à_l__aval_du_site	L
+15l1l0	HCT	S
+15l1l1	COHV	S
+15l1l2	HAP	S
+15l1l3	mercure	S
+15l1l4	nickel	S
+
+#Un risque potentiel de dégazage de biogaz lié à la présence de déchets a en outre été mis en évidence.
+
+16l0l0	dégazage	N
+16l0l1	a_en_outre_été_mis_en	N
+16l1l0	la_présence_de_déchets	U
+
+#Aussi, des investigations complémentaires sur les biogaz ont été entreprises afin de valider l’absence de ces gaz pouvant potentiellement être issus de la fermentation des macrodéchets présents au droit du site.
+
+17l0l0	des_investigations_complémentaires	N
+17l0l1	ont_été_entreprises	N
+17l0l2	au_droit_du_site	L
+
+#Les résultats d’analyses réalisés sur trois ouvrages implantés au droit du futur projet de la chaufferie mettent notamment en évidence l’absence de méthane, de monoxyde de carbone et de sulfure d’hydrogène mesurés dans les gaz du sol.
+
+18l0l0	trois_ouvrages	O
+18l0l1	implantés	R
+18l0l2	au_droit_du_futur_projet	N
+18l0l3	chaufferie	A
+18l1l0	méthane	S
+18l1l1	monoxyde_de_carbone	U
+18l1l2	sulfure_d__hydrogène	S
+
+#Mesures de gestion préconisées :
+
+
+#Compte tenu du bilan coûts avantages, le confinement des sols en surface et la gestion des eaux de pluie sont les mesures de gestion privilégiées par le plan de gestion.
+
+20l0l0	la_gestion_des_eaux_de_pluie	A
+
+#Le plan de gestion préconise notamment :
+
+
+#- l'isolement des canalisations AEP vis à vis des terres en place,
+
+22l0l0	canalisations_AEP	O
+
+#le recouvrement des zones hors bâtiment par un revêtement étanche,
+
+23l0l0	zones_hors_bâtiment	O
+
+#la mise en place d'une géomembrane d'avertissement au-dessus de la zone déchet,
+
+24l0l0	la_mise_en_place_d__une_géomembrane	O
+24l0l1	au_dessus_de	L
+24l0l2	la_zone_déchet	O
+
+#- le forage d'un piézomètre supplémentaire en amont du site,
+
+25l0l0	le_forage	N
+25l0l1	d__un_piézomètre_supplémentaire	O
+25l0l2	en_amont_du_site	L
+
+#- la poursuite du suivi de la qualité des eaux souterraines de façon semestrielle, ce suivi étant révisable au bout d'un an,
+
+26l0l0	la_poursuite	N
+26l0l1	du_suivi_de	A
+26l0l2	la_qualité_des_eaux_souterraines	O
+
+#- la prise d'une servitude de restrictions d'usage limitant notamment l'usage du site à des activités industrielles.
+
+27l0l0	la_prise_d__une	N
+27l0l1	servitude_de_restrictions_d_	O
+27l0l2	des_activités_industrielles	A
+
+#Par ailleurs, l'absence de risque sanitaire inacceptable a été validée pour les hypothèses d'aménagement considérées dans le plan de gestion, à savoir en particulier une dalle de béton d'une épaisseur de 25 cm au minimum au niveau de la chaufferie et un taux de renouvellement de l'air intérieur de 2 par heure au minimum (mise en place d'une ventilation).
+
+28l0l0	mise_en_place_d__une_ventilation	N

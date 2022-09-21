@@ -1,0 +1,171 @@
+
+#27.0083
+#Le site se trouve dans la ZI Les Genêtais de la commune d'Alizay.
+
+0l0l0	Le_site	O
+0l0l1	se_trouve_dans_la_ZI_Les_Genêtais	L
+0l0l2	de_la_commune_d__Alizay	L
+
+#Il est entouré par deux entreprises : la société Kapa (ex-magasin L de la société Alizol) à l'est et la société Ouest Isol à l'ouest.
+
+1l0l0	deux_entreprises	O
+1l0l1	la_société_Kapa	O
+1l0l2	la_société_Alizol	O
+1l0l3	à_l__est	L
+1l0l4	la_société_Ouest_Isol	O
+1l1l0	la_société_Kapa	I
+1l1l1	la_société_Alizol	I
+1l1l2	la_société_Ouest_Isol	I
+
+#Au sud, une voie ferrée de FRET longe le site et la route D508 est contigüe au parking au nord-est du site.
+
+2l0l0	Au_sud	L
+2l0l1	une_voie_ferrée_de_FRET	O
+2l0l2	longe_le_site	L
+2l0l3	la_route	O
+2l0l4	D508_est_contigüe_au_parking_au_nord_est_du_site	L
+2l1l0	FRET	I
+
+#La magasin L a été vendu en 2006, ce dernier devenant une ICPE distincte d'Alizol (ex-nom d'Azeo avant changement d'actionnaires en 2008).
+
+3l0l0	La_magasin_L	O
+3l0l1	a_été_vendu	N
+3l0l2	en_2006__	T
+3l0l3	ce_dernier	O
+3l0l4	devenant	R
+3l0l5	une_ICPE	O
+3l0l6	Alizol	O
+3l0l7	Azeo	O
+3l0l8	avant	T
+3l0l9	changement	N
+3l0l10	en_2008__	T
+3l1l0	Azeo	I
+
+#A partir de 1968 jusqu'en 2012, le site a accueilli une activité de production d'aérosols, de détergents et de cosmétiques.
+
+4l0l0	A_partir_de_1968_jusqu__en_2012__	T
+4l0l1	le_site	O
+4l0l2	a_accueilli	N
+4l0l3	une_activité_de_production_d__aérosols___de_détergents	A
+
+#Le site était classé Seveso seuil haut notamment pour ses activités de stockages de GPL et de liquides inflammables (solvants).
+
+5l0l0	Le_site	O
+5l0l1	était	R
+5l0l2	classé_Seveso	O
+5l0l3	ses_activités_de_stockages_de_GPL_et_de_liquides_inflammables	A
+5l1l0	GPL	S
+5l1l1	liquides_inflammables	U
+
+#Actuellement, l'ensemble des bâtiments du site est toujours présent.
+
+6l0l0	l__ensemble_des_bâtiments_du_site	O
+
+#Les cuves du parc de stockage des GPL et des LI,situé à l'ouest du site, ont été évacuées du site en 2012.
+
+7l0l0	Les_cuves_du_parc_de_stockage	O
+7l0l1	situé_à_l__ouest_du_site	L
+7l0l2	ont_été_évacuées	N
+7l0l3	site	O
+7l0l4	en_2012__	T
+7l1l0	Les_cuves	D
+7l1l1	stockage_des_GPL	U
+7l1l2	des_LI	U
+
+#Aucune activité n'est présente sur le site.
+
+
+#Suite à la mise en liquidation judiciaire de la société AZEO en janvier 2012, diverses actions d'élimination des produits et déchets présents sur le site ont été menées en 2012 et notamment :
+
+9l0l0	Suite_à	R
+9l0l1	la_mise_en_liquidation_judiciaire	N
+9l0l2	la_société_AZEO	O
+9l0l3	en_janvier_2012__	T
+9l0l4	diverses_actions_d__élimination	N
+9l0l5	ont_été_menées	N
+9l0l6	en_2012	T
+9l1l0	la_société_AZEO	I
+
+#- vidange, nettoyage et évacuation des cuves GPL et LI
+
+10l0l0	vidange___nettoyage	N
+10l0l1	évacuation_des_cuves_GPL	N
+10l1l0	cuves_GPL_et	D
+10l1l1	LI	U
+
+#- évacuation des produits finis du magasin expéditions
+
+11l0l0	évacuation	N
+
+#Plusieurs visites ont été réalisées par l'inspection des installations classées en 2012 et 2013 afin de suivre l'ensemble de ces travaux de vidange, d'élimination ou de regroupement de produits/déchets sur le site.
+
+12l0l0	Plusieurs_visites_ont_été_réalisées	N
+12l0l1	l__inspection_des_installations_classées	O
+12l0l2	en_2012_et_2013	T
+12l0l3	ces_travaux_de_vidange	N
+12l0l4	d__élimination	N
+12l0l5	de_regroupement_de_produits__	N
+12l0l6	déchets	O
+
+#Un 1er bilan de ces actions entreprises a été transmis à la DREAL en février 2013.
+
+13l0l0	Un_1er_bilan	N
+13l0l1	a_été_transmis	N
+13l0l2	la_DREAL	O
+13l0l3	en_février_2013__	T
+13l1l0	la_DREAL	I
+
+#Par la suite, d'autres actions ont pu être menées par la liquidatrice dont le bilan s'établit comme suit au 23 mars 2015:
+
+14l0l0	ont_pu_être_menées	N
+14l0l1	la_liquidatrice	O
+14l0l2	au_23_mars_2015	T
+
+#- 29,8 tonnes de GPL ont été éliminées
+
+15l0l0	éliminées	O
+15l1l0	tonnes_de_GPL	U
+
+#- 108 tonnes de liquides inflammables (alcool, heptane …) ont été éliminées
+
+16l0l0	ont_été_éliminées	N
+16l1l0	tonnes_de_liquides_inflammables	U
+16l1l1	alcool	S
+16l1l2	heptane	S
+
+#- 74 tonnes d’eaux résiduaires chargées issues de la STEP ont été éliminées
+
+17l0l0	ont_été_éliminées	N
+17l1l0	résiduaires_chargées	U
+
+#- 210 tonnes de résidus cosmétiques liquides, et de produits chimiques (acides, bases) ont été éliminées.
+
+18l0l0	cosmétiques_liquides	O
+18l0l1	ont_été_éliminées	N
+18l1l0	résidus_cosmétiques_liquides	U
+18l1l1	produits_chimiques	U
+
+#Toutefois, environ 500 tonnes de déchets dangereux/inflammables sont encore présents, les cuves de l'ancienne STEP sont remplies ainsi que les anciennes cuves à fioul.
+
+19l0l0	500_tonnes_de_déchets_dangereux	O
+19l0l1	les_cuves	O
+19l0l2	STEP	O
+19l0l3	sont_remplies	N
+19l0l4	les_anciennes_cuves_à_fioul	O
+19l1l0	déchets_dangereux___inflammables	U
+19l1l1	fioul	S
+
+#Des arrêtés préfectoraux de mise en demeure et de consignation ont été pris à l’encontre de la liquidatrice judiciaire sans résultat du fait de l’impécuniosité de la liquidation attestée par un courrier en date du 13 septembre 2016.
+
+20l0l0	Des_arrêtés_préfectoraux	O
+20l0l1	consignation	O
+20l0l2	ont_été_pris_à_l__encontre	N
+20l0l3	la_liquidatrice_judiciaire	O
+20l0l4	un_courrier	N
+20l0l5	en_date_du_13_septembre_2016__	T
+
+#De fait, l'inspection propose qu'une intervention de l'ADEME permette de finaliser la mise en sécurité du site.
+
+21l0l0	l__ADEME	O
+21l0l1	finaliser	O
+21l0l2	la_mise_en_sécurité	N

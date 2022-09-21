@@ -1,0 +1,111 @@
+
+#01.0125
+#La société SOREAL (ex-MOULIN GUENARD) a été autorisée par un arrêté préfectoral du 16 octobre 2000 à exploiter à St-Jean/Veyle une unité de fabrication d’aliments pour animaux, relevant du régime de l’autorisation au titre de la rubrique 2260 de la nomenclature des installations classées.
+
+0l0l0	La_société_SOREAL	O
+0l0l1	ex_MOULIN_GUENARD	O
+0l0l2	a_été_autorisée_par	N
+0l0l3	un_arrêté_préfectoral	O
+0l0l4	du_16_octobre_2000	T
+0l0l5	à_exploiter	N
+0l0l6	à_St___Jean___Veyle	L
+0l0l7	une_unité	O
+0l0l8	de_fabrication_d__aliments_pour_animaux	A
+0l1l0	La_société_SOREAL	I
+0l1l1	ex_MOULIN_GUENARD	I
+
+#L'exploitant a notifié la cessation d'activité du site auprès de monsieur le préfet, par courrier du 18 novembre 2014.
+
+1l0l0	L__exploitant	O
+1l0l1	a_notifié_la_cessation_d__activité	N
+1l0l2	du_site	O
+1l0l3	du_18_novembre_2014__	T
+1l1l0	le_préfet	I
+
+#Un récépissé de déclaration de cessation d'activité lui a été délivré le 17 décembre 2014.
+
+2l0l0	Un_récépissé	O
+2l0l1	déclaration	N
+2l0l2	cessation_d__activité	N
+2l0l3	lui	O
+2l0l4	a_été_délivré	N
+2l0l5	le_17_décembre_2014__	T
+
+#Dans le cadre de la procédure de cessation d’activité, l’exploitant a remis le 25 février 2016 un diagnostic de l’état des sols au droit du site, complété le 13 juillet 2016, ainsi que les justificatifs de mise en sécurité et d’évacuation des déchets dangereux.
+
+3l0l0	Dans_le_cadre_de	R
+3l0l1	la_procédure	N
+3l0l2	cessation_d__activité	N
+3l0l3	l__exploitant	O
+3l0l4	a_remis	N
+3l0l5	le_25_février_2016	T
+3l0l6	un_diagnostic	N
+3l0l7	l__état_des_sols	N
+3l0l8	au_droit_du_site	L
+3l0l9	le_13_juillet_2016__	T
+3l0l10	les_justificatifs	O
+3l0l11	de_mise_en_sécurité	N
+3l0l12	évacuation_des_déchets_dangereux	N
+3l1l0	déchets_dangereux	U
+
+#Il ressort des analyses réalisées sur les terres les éléments suivants :
+
+4l0l0	les_terres	O
+
+#-Présence d'hydrocarbures C10-C40 à des concentrations modérées sur deux sondage, au droit du transformateur électrique (240 mg/kg) et du groupe électrogène (1500 mg/kg), dans la tranche de sols [0-1 m].
+
+5l0l0	au_droit_du_transformateur_électrique	L
+5l0l1	dans_la_tranche	L
+5l1l0	hydrocarbures_C10_C40	S
+
+#A titre de comparaison, le seuil d’acceptation en ISDI est fixé à 500 mg/kg.
+
+6l1l0	ISDI	S
+
+#-Présence de HAP à des concentrations faibles sur un sondage, au droit du groupe électrogène (1.5 mg/kg).
+
+7l0l0	au_droit_du_groupe_électrogène	L
+7l1l0	HAP	S
+
+#A titre de comparaison, le seuil d’acceptation en ISDI est fixé à 50 mg/kg.
+
+8l1l0	ISDI	S
+
+#-Absence de BTEX, COHV, PCB
+
+9l1l0	_Absence_de_BTEX	S
+9l1l1	COHV	S
+9l1l2	PCB	S
+
+#-Absence d’anomalies en métaux lourds
+
+10l0l0	métaux_lourds	O
+10l1l0	métaux_lourds	S
+
+#Les terres polluées étant situées sous des dalles bétons, et les installations ayant été rachetées pour un usage de type industriel, l’exploitant n’a pas réalisé de travaux de dépollution au regard des contraintes techniques que cela aurait engendré.
+
+11l0l0	Les_terres_polluées	O
+11l0l1	étant_situées_sous_des	L
+11l0l2	dalles_bétons	O
+11l0l3	les_installations	O
+11l0l4	ayant_été_rachetées	N
+11l0l5	pour	N
+11l0l6	un_usage_de_type_industriel	A
+11l0l7	l__exploitant	O
+11l0l8	n__a_pas_réalisé	N
+11l0l9	de_travaux_de_dépollution	N
+
+#En l’absence de voie de transfert pertinente de la pollution, l’état du site est compatible avec un usage futur de type industriel.
+
+12l0l0	compatible_avec	R
+12l0l1	un_usage_futur_de_type_industriel	A
+
+#Des précautions particulières devront cependant être observées en cas de travaux de démolition du bâtiment sous lequel se trouvent les terres polluées aux hydrocarbures (évacuation des terres via une filière de traitement adaptée notamment).
+
+13l0l0	de_travaux_de_démolition	N
+13l0l1	du_bâtiment	N
+13l0l2	sous_lequel_se_trouvent	L
+13l0l3	les_terres_polluées	O
+13l0l4	hydrocarbures	O
+13l0l5	évacuation_des_terres_via_une_filière_de_traitement	O
+13l1l0	hydrocarbures	S

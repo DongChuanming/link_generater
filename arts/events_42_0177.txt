@@ -1,0 +1,537 @@
+
+#42.0177
+#Les éléments relatifs à l’historique du site mettent en évidence :
+
+
+#- une activité agricole jusque dans les années 1983 à 1985,
+
+1l0l0	une_activité_agricole	N
+1l0l1	jusque_dans_les_années_1983_à_1985	T
+
+#- un début d’activité entre 1983 et 1985 : centre commercial, station-service, centre
+
+2l0l0	un_début_d__activité	N
+2l0l1	entre_1983_et_1985	T
+2l0l2	centre_commercial	O
+2l0l3	centre	O
+
+#automobile,
+
+
+#- la présence du centre de réparation automobile entre 1983 ou 1985 jusqu'en 2000.
+
+4l0l0	la	N
+4l0l1	présence_du_centre_de_réparation_automobile	O
+4l0l2	entre_1983_ou_1985_jusqu__en_2000__	T
+
+#- la poursuite de l’activité de station service et du centre commercial AUCHAN.
+
+5l0l0	la_poursuite	N
+5l0l1	de_l__activité	A
+5l0l2	du_centre_commercial_AUCHAN	O
+
+#Son environnement immédiat est constitué par :
+
+6l0l0	Son_environnement_immédiat	O
+
+#- au nord : un lycée agricole avec une zone commerciale puis une zone agricole,
+
+7l0l0	au_nord	L
+7l0l1	un_lycée_agricole	O
+7l0l2	une_zone_commerciale	O
+7l0l3	une_zone_agricole	O
+
+#- à l’ouest : le parking du centre commercial Auchan puis une zone agricole,
+
+8l0l0	à_l__ouest	L
+8l0l1	le_parking_du_centre_commercial_Auchan	O
+8l0l2	une_zone_agricole	O
+
+#- à l’est : une zone agricole puis des habitations individuelles avec jardins,
+
+9l0l0	à_l__est	L
+9l0l1	une_zone_agricole	O
+9l0l2	des_habitations	O
+
+#- au sud : le parking et le centre commercial Auchan.
+
+
+#L’installation de distribution de carburant AUCHAN est soumise à autorisation et réglementée par l’arrêté préfectoral du 5 novembre 1996 modifié par l’arrêté complémentaire du 9 janvier 2003
+
+11l0l0	L__installation_de_distribution_de_carburant_AUCHAN	O
+11l0l1	est_soumise_à_autorisation	N
+11l0l2	réglementée	N
+11l0l3	l__arrêté_préfectoral	O
+11l0l4	5_novembre_1996	T
+11l0l5	l__arrêté_complémentaire	O
+11l0l6	9_janvier_2003	T
+11l1l0	carburant_AUCHAN	I
+
+#Contexte géologique :
+
+
+#- enrobé puis remblais (sables et graviers) ou terre végétale sur 1 mètre,
+
+13l0l0	remblais	N
+
+#- argiles plus ou moins sableuse avec présence de schistes en feuillets ou compacts (jusqu'à 9 mètres).
+
+
+#Contexte hydrogéologique :
+
+15l0l0	Contexte_hydrogéologique	N
+
+#- écoulements souterrains complexes et hétérogènes,
+
+
+#- sens d'écoulement orienté globalement vers le Sud-Est, et vulnérable vis-à-vis d’une
+
+17l0l0	orienté_globalement_vers_le_Sud_Est	L
+17l0l1	vulnérable	O
+17l0l2	vis_à_vis	R
+17l0l3	d__une	L
+
+#pollution sur site,
+
+
+#- présence d'eaux souterraines de manière ponctuelle vers 5 mètres au droit du site,
+
+19l0l0	au_droit_du_site	L
+
+#- les eaux souterraines non exploitées à proximité du site d'étude.
+
+20l0l0	à_proximité_du_site_d__étude	L
+
+#Contexte hydrologique :
+
+
+#- la présence d'un captage AEA (Alimentation d'Eau Agricole) d'eau superficielle à 500 m au
+
+22l0l0	un_captage_AEA	O
+22l0l1	à_500_m_au	L
+
+#sud-est du site, considéré comme non vulnérable,
+
+23l0l0	sud_est_du_site	L
+
+#- la présence de la rivière Le Furan (cours d'eau non pérenne) à 640 m à l’est du site
+
+24l0l0	la_rivière_Le_Furan	L
+24l0l1	à_640_m_à_l__est_du_site	L
+24l1l0	Furan	I
+
+#(position aval hydraulique), considérée comme faiblement vulnérable vis-à-vis d’une
+
+25l0l0	position_aval_hydraulique	O
+
+#éventuelle pollution issue du site.
+
+
+#En 2012, le service sécurité a signalé au pied du totem d’annonce des prix du carburant, une tâche noire à même le sol.
+
+27l0l0	En_2012__	T
+27l0l1	le_service_sécurité	O
+27l0l2	a_signalé	N
+27l0l3	au_pied_du_totem	O
+27l0l4	carburant	O
+
+#La société SOCOTEC a été missionnée pour les premiers prélèvements et analyses des échantillons de sol afin de déterminer la nature de la matière.
+
+28l0l0	La_société_SOCOTEC	O
+28l0l1	a_été_missionnée	N
+28l0l2	les_premiers_prélèvements_et_analyses	N
+28l1l0	La_société_SOCOTEC	I
+
+#En décembre 2012 les analyses ont confirmé la présence d’hydrocarbures.
+
+29l0l0	En_décembre_2012	T
+29l0l1	d__hydrocarbures	O
+29l1l0	hydrocarbures	S
+
+#La société SITA REMEDIATION a effectué des sondages pour déterminer la source et la nature de cette pollution.
+
+30l0l0	La_société_SITA_REMEDIATION	O
+30l0l1	a_effectué	N
+30l0l2	des_sondages	N
+30l0l3	la_source	O
+30l0l4	cette_pollution	N
+30l1l0	La_société_SITA_REMEDIATION	I
+
+#En février et mars 2013 l’exploitant a recherché l’origine de la pollution.
+
+31l0l0	En_février_et_mars_2013	T
+31l0l1	l__exploitant	O
+31l0l2	a_recherché	N
+31l0l3	l__origine_de_la_pollution	O
+
+#Le rapport d’intervention a confirmé la détérioration de tuyauteries de dépotage, du circuit d’alimentation de la cuve de 80m3 de gasoil (compartiment 2 et 3) ainsi que d’une tuyauterie pour le super 98.
+
+32l0l0	la_détérioration	N
+32l0l1	de_tuyauteries_de_dépotage	O
+32l0l2	80m3_de_gasoil	A
+32l0l3	une_tuyauterie	O
+32l1l0	gasoil	U
+32l1l1	super_98	U
+
+#En avril et mai 2013, la cuve de 80m3 a été changée.
+
+33l0l0	En_avril_et_mai_2013__	T
+33l0l1	la_cuve	O
+33l0l2	80m3	O
+33l0l3	a_été_changée	N
+
+#Les tuyauteries ont été remplacées.
+
+34l0l0	Les_tuyauteries	O
+34l0l1	ont_été_remplacées	N
+
+#En mai et juin 2013, plus de 400 tonnes de terres polluées ont été évacuées et traitées en filière adaptée.
+
+35l0l0	En_mai_et_juin_2013__	T
+35l0l1	400_tonnes_de_terres_polluées	O
+35l0l2	ont_été_évacuées_et_traitées_en_filière_adaptée	N
+
+#L’excavation des terres impactées a été limitée par les contraintes techniques ( présence de réseau et voirie), un résiduel de contamination persiste sur l’ensemble des parois et fonds de fouille.
+
+36l0l0	L__excavation	N
+36l0l1	des_terres_impactées	O
+36l0l2	a_été_limitée	N
+
+#En juillet 2013 l’exploitant a fait réaliser un diagnostic complémentaire avec caractérisation des sols, des eaux souterraines et de l’air ambiant.
+
+37l0l0	En_juillet_2013	T
+37l0l1	l__exploitant	O
+37l0l2	a_fait_réaliser	N
+37l0l3	un_diagnostic_complémentaire	N
+
+#La DREAL est informée de cette pollution en juillet 2013.
+
+38l0l0	La_DREAL	O
+38l0l1	est_informée_de_cette_pollution	N
+38l0l2	en_juillet_2013__	T
+38l1l0	La_DREAL	I
+
+#En novembre 2013, l’exploitant a proposé un plan de gestion.
+
+39l0l0	En_novembre_2013__	T
+39l0l1	l__exploitant	O
+39l0l2	a_proposé	N
+39l0l3	un_plan_de_gestion	O
+
+#Suite à une analyse du projet par l’inspection et suite à une réunion d’information tenue avec l’exploitant, des compléments d’investigation ont été demandés, comme la création de piézomètres supplémentaires permettant de suivre la qualité des eaux souterraines en limites de propriétés.
+
+40l0l0	Suite_à	R
+40l0l1	une_analyse	N
+40l0l2	projet	O
+40l0l3	l__inspection	O
+40l0l4	une_réunion	N
+40l0l5	l__exploitant	O
+40l0l6	ont_été_demandés	N
+40l0l7	la_création_de_piézomètres	O
+40l0l8	la_qualité_des_eaux_souterraines	O
+
+#Dans son rapport du 29 janvier 2015, l’inspection indique que sur la zone 1 (station et parking), à ce jour, un maillage de sondages a été réalisé, qui a fait apparaître des zones de pollution par les hydrocarbures et des zones moins impactées.
+
+41l0l0	29_janvier_2015__	T
+41l0l1	la_zone_1	O
+41l0l2	à_ce_jour	T
+41l0l3	un_maillage_de_sondages_a_été_réalisé	N
+41l0l4	a_fait_apparaître	R
+41l0l5	des_zones_de_pollution	O
+41l0l6	des_zones	O
+41l1l0	hydrocarbures	S
+
+#On constate une pollution par des hydrocarbures de type gasoil et essence au droit des canalisations de dépotage et qui s’étend  jusqu’au parking sud de la station.
+
+42l0l0	hydrocarbures	O
+42l0l1	essence	O
+42l0l2	au_droit_des_canalisations_de_dépotage	O
+42l0l3	jusqu__au_parking_sud_de_la_station	L
+42l1l0	hydrocarbures	S
+42l1l1	gasoil	S
+
+#Pour la zone 2 (talus), on constate une pollution qui s’étend en aval de la station et retrouvée sous forme de suintement au droit du talus avec des hydrocarbures de type gasoil et essence.
+
+43l0l0	la_zone_2	O
+43l0l1	s_	N
+43l0l2	étend_en_aval_de_la_station	L
+43l0l3	suintement	N
+43l0l4	au_droit_du_talus	L
+43l1l0	hydrocarbures	S
+43l1l1	gasoil	S
+43l1l2	essence	S
+
+#Suite à une étude coût avantage, et dans la volonté de poursuivre l’activité de station services, l’exploitant a adressé, à l’inspection, un plan de gestion proposant :
+
+44l0l0	Suite_à	R
+44l0l1	une_étude	N
+44l0l2	coût_avantage	O
+44l0l3	la_volonté	O
+44l0l4	poursuivre_l__activité_de_station_services	A
+44l0l5	l__exploitant	O
+44l0l6	a_adressé	N
+44l0l7	un_plan_de_gestion	O
+
+#Pour la zone 1 (parking et station) :
+
+
+#La surface de la zone 1 est de l’ordre de 1500m² sur un horizon de 3 à 8 m de profondeur.
+
+
+#Le volume des terres polluées encore en place peut être estimé à 7000 m3.
+
+47l0l0	Le_volume_des_terres_polluées	O
+
+#L’objectif de traitement est la réduction de la pollution en phase libre, dissoute ou adsorbée dans les sols afin d’améliorer la qualité du milieu et de limiter la migration de la pollution en aval (talus et contrebas).
+
+48l0l0	la_pollution	O
+48l0l1	qualité_du_milieu	O
+
+#Afin de réduire la pollution adsorbée au niveau des sols, l’exploitant recommande la mise en place d’un traitement des sols par Venting/Bioventing.
+
+49l0l0	l__exploitant	O
+49l0l1	recommande_la_mise_en_place_d__un_traitement_des_sols	N
+49l0l2	Venting	N
+
+#Des puits d’extraction pourront être mis en place depuis la surface dans la zone non saturée (environ 6 m de profondeur).
+
+50l0l0	Des_puits_d_	O
+50l0l1	la_zone_non_saturée	O
+
+#Les gaz extraits seront collectés et traités via une unité de surface.
+
+51l0l0	une_unité_de_surface	O
+
+#La mise en dépression de la zone non saturée permettra un apport d’oxygène qui contribuera à la biodégradation des polluants adsorbés.
+
+52l0l0	La_mise_en_dépression	N
+52l0l1	la_zone_non_saturée	O
+52l1l0	polluants	S
+
+#Le suivi du traitement sera réalisé sur les gaz du sol.
+
+53l0l0	Le_suivi_du_traitement	O
+
+#Concernant les eaux souterraines, un traitement par pompage/écrémage pourra être réalisé via des puits forés dans la zone saturée.
+
+54l0l0	pompage	A
+54l0l1	écrémage	A
+54l0l2	pourra_être_réalisé	N
+54l0l3	forés	A
+54l0l4	dans_la_zone_saturée	L
+
+#Des pompes pneumatiques seront utilisées pour collecter les hydrocarbures libres et dissous dans les eaux souterraines.
+
+55l1l0	hydrocarbures	S
+
+#Les eaux pompées seront analysées et traitées par une unité de surface.
+
+56l0l0	une_unité_de	O
+
+#Ces deux traitements sont indissociables, en effet, en période de hautes eaux, et en l’absence de pompage, les hydrocarbures libres pourraient venir impacter la zone non saturée.
+
+57l0l0	en_période	T
+57l0l1	de_hautes_eaux	N
+57l0l2	venir_impacter_la_zone_non_saturée	L
+57l1l0	hydrocarbures	S
+
+#Pour la zone 2 (talus) :
+
+
+#La zone de résurgence des hydrocarbures a été clôturée afin d’en interdire l’accès.
+
+59l0l0	La_zone_de_résurgence	N
+59l0l1	hydrocarbures	O
+59l0l2	a_été_clôturée	N
+59l0l3	afin_d_	R
+59l0l4	en_interdire_l__accès	N
+59l1l0	hydrocarbures	S
+
+#Les sols de surface impactés seront curés à l’issue des travaux et du remblai sain sera mis en œuvre.
+
+60l0l0	Les_sols_de_surface_impactés	O
+60l0l1	seront_curés_à_l__issue_des_travaux	N
+60l0l2	remblai_sain	O
+60l0l3	sera_mis_en_œuvre	N
+
+#Afin de réduire la pollution des sols et des eaux souterraines mais aussi de sécuriser l’aval du site au niveau du talus et en contrebas, SITA Remediation propose la mise en place d’une barrière hydraulique par pompage.
+
+61l0l0	sécuriser	N
+61l0l1	l__aval	O
+61l0l2	du_site	L
+61l0l3	au_niveau_du	R
+61l0l4	talus	O
+61l0l5	en_contrebas	L
+61l0l6	SITA	O
+61l0l7	Remediation_propose_la_mise_en_place_d_	N
+61l0l8	une_barrière_hydraulique	O
+61l0l9	pompage	A
+61l1l0	SITA	I
+
+#Cette dernière permettra de capter l’ensemble des écoulements transitant par cette section (pollution libre ou dissoute).
+
+
+#Ces écoulements seront traités dans une unité de traitement placée au niveau de la station service.
+
+63l0l0	une_unité_de_traitement	O
+
+#Les eaux seront ensuite réinjectées afin d’accélérer la migration des polluants.
+
+64l0l0	Les_eaux	O
+64l1l0	polluants	S
+
+#Sur l’ensemble du site l’exploitant envisage un abattement de la pollution de l’ordre de 60 à 70 % au niveau des sols.
+
+65l0l0	l__exploitant	O
+65l0l1	la_pollution	O
+
+#Au niveau des eaux, une suppression de la phase libre est également visée.
+
+66l0l0	la_phase_libre	O
+
+#L’inspection conclut dans son rapport que le principe de gestion d’un site pollué en activité est de parvenir à maintenir la pollution dans les limites de l’installation tout en s’assurant que la pollution ne compromet pas l’usage industriel du site.
+
+67l0l0	site_pollué	O
+67l0l1	l__installation	O
+67l0l2	la_pollution	O
+
+#Les études menées par la société AUCHAN démontrent l’absence d’impact sanitaire pour les employés du site (personnel du poste de caisse).
+
+68l0l0	Les_études_menées	N
+68l0l1	la_société_AUCHAN	O
+68l1l0	la_société_AUCHAN	I
+
+#L’installation de la barrière hydraulique de pompage devrait permettre de confiner la pollution à l’intérieur du site.
+
+69l0l0	L__installation	N
+69l0l1	la_barrière_hydraulique_de_pompage	O
+69l0l2	confiner_la_pollution	N
+
+#Le traitement de la zone 1 (parking et station) par venting/bioventing  permettra de traiter les hydrocarbures volatils.
+
+70l0l0	Le_traitement	N
+70l0l1	la_zone	O
+70l0l2	venting	N
+70l1l0	les_hydrocarbures	S
+
+#La majorité des hydrocarbures détectés dans les sols sont des hydrocarbures légers considérés comme volatils, (inférieur à C-16 C-21).
+
+71l1l0	hydrocarbures	S
+71l1l1	hydrocarbures	S
+
+#L’installation de traitement des gaz extraits sera réglementée afin d’éviter un transfert de la pollution vers le milieu atmosphérique.
+
+72l0l0	L__installation_de_traitement	O
+72l0l1	sera_réglementée	O
+
+#Les rejets seront réglementés conformément à l’article 27 de l’arrêté du 2 février 1998 relatif aux prélèvements et à la consommation d'eau ainsi qu'aux émissions de toute nature des installations classées pour la protection de l'environnement soumises à autorisation.
+
+73l0l0	réglementés	O
+73l0l1	conformément_à	R
+73l0l2	l_	O
+73l0l3	2_février_1998	T
+73l0l4	installations_classées	O
+73l0l5	la_protection_de_l__environnement	A
+
+#Le pompage écrémage de cette même zone permettra d’éliminer la pollution surnageant.
+
+74l0l0	Le_pompage	A
+74l0l1	écrémage	N
+74l1l0	pollution_surnageant	U
+
+#Un pompage un peu plus bas, permettra le traitement de la partie dissoute.
+
+75l0l0	Un_pompage	O
+75l0l1	le_traitement	N
+75l0l2	la_partie_dissoute	O
+
+#On ne devrait pas retrouver d’hydrocarbures sur le plancher étanche de la nappe dans la mesure où les produits polluants ont une densité inférieure à celle de l’eau.
+
+76l1l0	hydrocarbures	S
+76l1l1	les_produits_polluants	U
+
+#La solution de traitement proposée par l’exploitant semble donc appropriée.
+
+77l0l0	l__exploitant	O
+
+#Les teneurs résiduelles visées sont les suivantes :
+
+78l0l0	Les_teneurs	O
+
+#- Concentration  maximale admise après dépollution à 2000mg/kg en C10-C40.
+
+79l1l0	en_C10_C40	S
+
+#- Concentration maximale admise après dépollution 10mg/kg en BTEX.
+
+80l1l0	BTEX	S
+
+#L’exploitant a prévu de traiter la zone 2 (talus) par le pompage de la nappe, traitement de ces eaux et réinjection dans le sol.
+
+81l0l0	L__exploitant	O
+81l0l1	a_prévu	N
+81l0l2	traiter	N
+81l0l3	la_zone_2	O
+81l0l4	le_pompage	N
+81l0l5	de	R
+81l0l6	la_nappe	A
+81l0l7	traitement	N
+81l0l8	ces_eaux	O
+81l0l9	réinjection_dans_le_sol	N
+
+#Cette partie du site est constituée de remblais et ne comporte pas à proprement parler de nappe.
+
+82l0l0	Cette_partie_du_site	O
+82l0l1	remblais	N
+
+#La zone étant revêtue sur la grande majorité de sa surface, les eaux d’infiltration sont réduites.
+
+83l0l0	La_zone	O
+
+#La réinjection de ces eaux une fois traitées permettra d’accélérer la migration de la pollution jusque vers les zones de pompages.
+
+84l0l0	La_réinjection	N
+84l0l1	ces_eaux	O
+84l0l2	d__accélérer_la_migration	N
+84l0l3	la_pollution	O
+84l0l4	jusque	R
+84l0l5	vers_les_zones_de_pompages	A
+
+#La concentration en hydrocarbures de cette eau réinjectée sera réglementée et suivie de façon mensuelle.
+
+85l0l0	eau	O
+85l0l1	réinjectée_sera_réglementée	N
+85l1l0	hydrocarbures	S
+
+#Le curage des terres et le remplacement par des remblais sains, permettra de se prémunir des envols et des contacts.
+
+86l0l0	Le_curage_des_terres	N
+86l0l1	le_remplacement_par_des	N
+86l0l2	remblais_sains	O
+86l0l3	envols	N
+
+#L’ensemble des justificatifs de traitement de ces terres sera communiqué à l’inspection.
+
+87l0l0	L__ensemble_des_justificatifs_de_traitement	N
+87l0l1	ces_terres	O
+
+#Les teneurs résiduelles suivantes sont visées :
+
+
+#- Concentration  maximale admise après dépollution à 500mg/kg en C10-C40.
+
+89l1l0	en_C10_C40	S
+
+#- Concentration maximale admise après dépollution 6mg/kg en BTEX.
+
+90l0l0	dépollution	N
+90l0l1	6mg	O
+90l1l0	BTEX	S
+
+#Compte tenu de la pollution des sols et des eaux souterraines au droit du site de la station service AUCHAN à VILLARS un ap de surveillance des eaux et de travaux a été proposé.
+
+91l0l0	au_droit_du_site	L
+91l0l1	la_station_service_AUCHAN	O
+91l0l2	à_VILLARS	L
+91l0l3	un_ap_de_surveillance_des_eaux	O
+91l0l4	travaux_a_été_proposé	N

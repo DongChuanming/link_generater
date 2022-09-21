@@ -1,0 +1,130 @@
+
+#54.0035
+#Le crassier du pylône a été créé en 1929, date à partir de laquelle un téléphérique montait les coproduits autour du pylône central du crassier.
+
+0l0l0	pylône	O
+0l0l1	a_été_créé	N
+0l0l2	en_1929	T
+0l0l3	date_à_partir	T
+0l0l4	montait	N
+0l0l5	les_coproduits	O
+0l0l6	autour_du_pylône	L
+
+#Entre 1929 et 1965, 8 millions de tonnes de coproduits, principalement des laitiers de Hauts-fourneaux, en provenance de l'usine de Senelle à Herserange ont été déposés sur ce site.
+
+1l0l0	Entre_1929_et_1965	T
+1l0l1	8_millions_de_tonnes_de_coproduits	O
+1l0l2	l__usine	O
+1l0l3	Senelle_à_Herserange	L
+1l0l4	ont_été_déposés	N
+1l0l5	sur_ce_site	L
+
+#Le dépôt représentait un cône de 280 mètres de diamètre à la base et d'une hauteur de 120 mètres.
+
+
+#En 1979, les crassier est vendu à la société Lorraine Métaux et a été totalement exploité jusqu'en 1991.
+
+3l0l0	En_1979	T
+3l0l1	les_crassier	O
+3l0l2	est_vendu	N
+3l0l3	la_société_Lorraine_Métaux	O
+3l0l4	a_été_totalement_exploité	N
+3l0l5	jusqu_	T
+3l1l0	société_Lorraine_Métaux	I
+
+#L'ayant droit de l'ancien et dernier exploitant est ARCELORMITTAL FRANCE.
+
+4l0l0	L__ayant_droit	O
+4l0l1	exploitant	O
+4l0l2	ARCELORMITTAL_FRANCE	O
+4l1l0	ARCELORMITTAL_FRANCE	I
+
+#Une Evaluation simplifiée des risques a été remise à la DRIRE le 28 janvier 2003, le Classement du site est 2, à surveiller pour les milieux sol et eaux superficielles.
+
+5l0l0	Une_Evaluation_simplifiée_des_risques	N
+5l0l1	a_été_remise	N
+5l0l2	la_DRIRE	O
+5l0l3	le_28_janvier_2003__	T
+5l1l0	la_DRIRE	I
+
+#Il n'y pas d'impact du site vis-à-vis des eaux souterraines.
+
+6l0l0	vis_à_vis_des	R
+6l0l1	eaux_souterraines	O
+
+#Les laitiers de hauts-fourneaux déposés étaient riches en chaux, silice, alumine, magnésie et soufre, les teneurs en métaux étaient inférieures au Valeurs de Définition de Source-Sol, VDSS.
+
+7l1l0	silice	S
+7l1l1	magnésie	S
+7l1l2	soufre	S
+7l1l3	métaux	S
+
+#Par contre les poussières de hauts-fourneaux et les décombres qui étaient également déposés, en faible quantité, sur le crassier contenaient du plomb et du chrome.
+
+8l1l0	plomb	S
+8l1l1	chrome	S
+
+#Ce qui explique le classement final du site.
+
+
+#La surveillance des eaux doit être poursuivie.
+
+10l0l0	La_surveillance_des_eaux	A
+10l0l1	doit_être_poursuivie	T
+
+#Lors de la visite d'inspection de l'état d'avancement du 27 octobre 2005, il est constaté que le crassier a été totalement exploité.
+
+11l0l0	Lors_de	R
+11l0l1	la_visite_d__inspection	N
+11l0l2	l__état_d__avancement	O
+11l0l3	27_octobre_2005__	T
+11l0l4	le_crassier	O
+11l0l5	a_été_totalement_exploité	N
+
+#L'analyse des risques résiduels préconisée par l'ESR de février 2001 n'est pas à réaliser dans la mesure où en 2001, le bureau d'étude n'avait pas pris en compte le recouvrement du bassin par de la terre végétale, réalisée en 1985.
+
+12l0l0	L__analyse	N
+12l0l1	des_risques_résiduels	O
+12l0l2	février_2001	T
+12l0l3	en_2001__	T
+12l0l4	réalisée	N
+12l0l5	en_1985	T
+
+#Des analyses de sol ont été réalisées en 2007 afin de caractériser l'état de pollution résiduelle du crassier.
+
+13l0l0	Des_analyses_de_sol	N
+13l0l1	ont_été_réalisées	N
+13l0l2	en_2007	T
+13l0l3	crassier	O
+
+#Une concentration ponctuelle en plomb a été relevée (1000 mg/kg).
+
+14l0l0	a_été_relevée	N
+14l1l0	plomb	S
+
+#Dans le cadre du projet golf la plate forme que constitue aujourd'hui ce crassier sera donc recouverte de remblais sains.
+
+15l0l0	recouverte_de_remblais_sains	N
+
+#Suite à la visite d'inspection de septembre 2010, le représentant de l'ancien exploitant doit transmettre à l'inspection l'ensemble des documents et études nécessaires à l'instauration des restrictions d'usage, ainsi que leur contenu.
+
+16l0l0	Suite_à	R
+16l0l1	la_visite	N
+16l0l2	d__inspection	N
+16l0l3	septembre_2010__	T
+16l0l4	le	O
+16l0l5	exploitant	O
+16l0l6	doit_transmettre	N
+16l0l7	l__inspection	O
+16l0l8	l__instauration	N
+16l0l9	des_restrictions_d__usage	O
+
+#Une réflexion est actuellement menée par le représentant de l'ancien et dernier exploitant pour mettre en place une surveillance global des sites sidérurgiques implantés dans les vallées de la Côte-Rouge, de la Moulaine et de la Chiers.
+
+17l0l0	le	O
+17l0l1	exploitant	O
+17l0l2	mettre_en_place_une_surveillance_global	N
+17l0l3	sites_sidérurgiques	O
+17l0l4	implantés	R
+17l0l5	dans_les_vallées_de_la_Côte_Rouge	L
+17l0l6	Chiers	L

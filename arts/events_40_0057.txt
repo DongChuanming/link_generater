@@ -1,0 +1,357 @@
+
+#40.0057
+#Installation collective de dégazage de véhicules et de traitement d’eaux chargées en hydrocarbures (séparation de phases, exploitée par la Sté DACQUOISE ASSAINISSEMENT ET DEGAZAGE sur zone industrielle n° 1 de Dax (40).
+
+0l0l0	Installation_collective	O
+0l0l1	dégazage_de_véhicules	O
+0l0l2	traitement_d__eaux_chargées	A
+0l0l3	exploitée	N
+0l0l4	la_Sté_DACQUOISE	O
+0l0l5	ASSAINISSEMENT_ET_DEGAZAGE	O
+0l0l6	sur_zone_industrielle_n__1_de_Dax___40__	L
+0l1l0	hydrocarbures	S
+0l1l1	la_Sté_DACQUOISE_ASSAINISSEMENT_ET_DEGAZAGE	I
+
+#L’établissement est situé en zone industrielle et artisanale.
+
+1l0l0	L__établissement	O
+1l0l1	est_situé_en_zone_industrielle_et_artisanale	A
+
+#Ses voisins les plus proches sont un carrossier auto (au Nord) et un fabricant de cuisines (à l’Ouest).
+
+2l0l0	Ses_voisins	O
+2l0l1	un_carrossier_auto	O
+2l0l2	fabricant_de_cuisines	O
+
+#Les installations sont autorisées par l’arrêté préfectoral du 1er février 1993.
+
+3l0l0	Les_installations	O
+3l0l1	sont_autorisées	N
+3l0l2	par_l__arrêté_préfectoral	O
+3l0l3	du_1er_février_1993__	T
+
+#En juin 2013, le dirigeant de la société a déclaré qu'il avait cessé définitivement l'exploitation, suite au rejet accidentel de mars 2013.
+
+4l0l0	En_juin_2013__	T
+4l0l1	le_dirigeant_de_la_société	O
+4l0l2	a_déclaré	N
+4l0l3	avait_cessé_définitivement	N
+4l0l4	l__exploitation	O
+4l0l5	suite_au	R
+4l0l6	rejet_accidentel	N
+4l0l7	de_mars_2013__	T
+
+#1 - MISE EN SECURITE
+
+5l1l0	SECURITE	I
+
+#Le mardi 2 novembre 2010, à 08h45, la DREAL est contactée par téléphone par le carrossier voisin de l’établissement de la SOCIETE DACQUOISE D’ASSAINISSEMENT ET DE DEGAZAGE qui déclare que, dans le week-end du 30 octobre au 1er novembre 2010, une cuve a explosé et a projeté des hydrocarbures sur son terrain et sur la voirie.
+
+6l0l0	Le_mardi_2_novembre_2010__	T
+6l0l1	à_08h45	T
+6l0l2	la_DREAL	O
+6l0l3	est_contactée	N
+6l0l4	le_carrossier_voisin	O
+6l0l5	l__établissement	O
+6l0l6	la_SOCIETE_DACQUOISE	O
+6l0l7	dans_le_week	T
+6l0l8	__end_du_30_octobre_au_1er_novembre_2010__	T
+6l0l9	une_cuve	O
+6l0l10	a_explosé	N
+6l0l11	a_projeté	N
+6l0l12	des_hydrocarbures	O
+6l0l13	son_terrain	O
+6l0l14	la_voirie	O
+6l1l0	la_DREAL	I
+6l1l1	la_SOCIETE_DACQUOISE_D__ASSAINISSEMENT_ET_DE_DEGAZAGE	I
+6l1l2	hydrocarbures	S
+
+#Vers 09h00, la SOCIETE DACQUOISE D’ASSAINISSEMENT ET DE DEGAZAGE fournit les indications complémentaires suivantes :
+
+7l0l0	Vers_09h00	T
+7l0l1	la_SOCIETE	O
+7l0l2	DEGAZAGE	N
+7l1l0	la_SOCIETE_DACQUOISE_D__ASSAINISSEMENT	I
+7l1l1	DEGAZAGE	I
+
+#· cause de l’accident : canne chauffante laissée en fonctionnement vendredi soir, au moment du départ du personnel de l’établissement alors qu’elle aurait dû être arrêtée,
+
+8l0l0	canne_chauffante	O
+8l0l1	laissée_en_fonctionnement	N
+8l0l2	vendredi_soir	T
+8l0l3	au_moment	T
+8l0l4	du_départ_du_personnel	N
+8l0l5	l__établissement	O
+8l0l6	elle_aurait_dû_être	O
+
+#· avant l’accident, environ 10 m3 de mélange Eau + Hydrocarbures, dans la cuve,
+
+9l1l0	Eau___Hydrocarbures	U
+9l1l1	la_cuve	D
+
+#· montée en température excessive, portant la phase aqueuse à l’ébullition, puis éjection de la phase hydrocarbures à l’extérieur de la cuve, par le trou d’homme,
+
+10l0l0	ébullition	N
+10l0l1	éjection	N
+10l0l2	la_phase_hydrocarbures	O
+10l0l3	à_l__extérieur_de_la_cuve	L
+10l1l0	phase_aqueuse	U
+10l1l1	hydrocarbures	S
+
+#· retombées d’hydrocarbures sur le site et sur les terrains bordant le site (dans un périmètre de 50 m autour de la cuve),
+
+11l0l0	d__hydrocarbures	O
+11l0l1	les_terrains	O
+11l0l2	bordant_le_site	L
+11l0l3	dans_un_périmètre_de_50_m_autour_de_la_cuve	L
+11l1l0	retombées_d_	U
+11l1l1	hydrocarbures	S
+
+#· date de l’événement non connue (samedi, dimanche ou lundi),
+
+
+#· la moitié du contenu initial est dans la cuve après l’accident,
+
+13l1l0	cuve	D
+
+#· annonce que la SOCIETE DACQUOISE D’ASSAINISSEMENT ET DE DEGAZAGE va mener les opérations de nettoyage et récupérer les hydrocarbures.
+
+14l0l0	la_SOCIETE_DACQUOISE	O
+14l0l1	DEGAZAGE	N
+14l0l2	va_mener_les_opérations	N
+14l0l3	de_nettoyage	N
+14l0l4	récupérer	N
+14l0l5	les_hydrocarbures	O
+14l1l0	la_SOCIETE_DACQUOISE_D__ASSAINISSEMENT_ET_DE_DEGAZAGE	I
+14l1l1	hydrocarbures	S
+
+#La surchauffe d'un mélange eau-hydrocarbures ayant créé une phase vapeur entre l'eau et l'huile a provoqué la surpression interne du réacteur de traitement et la projection, selon l'exploitant, de 2,5 à 3,8 m3 d'hydrocarbures  par le trou d'homme.
+
+15l0l0	La_surchauffe	N
+15l0l1	hydrocarbures	O
+15l0l2	ayant_créé	N
+15l0l3	a_provoqué	N
+15l0l4	surpression_interne_du_réacteur_de_traitement	O
+15l1l0	hydrocarbures	S
+15l1l1	hydrocarbures	S
+
+#L’accident n’a pas eu de conséquence sur les personnes.
+
+
+#Cet accident a entraîné la pollution des sols sur une surface d'environ 200 à 300 m2 et une profondeur de 10 cm et d'un fossé longeant la voie publique sur une longueur de 10 mètres.
+
+17l0l0	Cet_accident	N
+17l0l1	a_entraîné_la_pollution	N
+17l0l2	un_fossé	O
+17l0l3	longeant_la_voie_publique	L
+
+#Il est possible que des eaux pluviales aient été souillées par des hydrocarbures, non constaté lors de la visite d'inspection du 02/11/2010.
+
+18l0l0	été_souillées	O
+18l0l1	de_la_visite	N
+18l0l2	du_02_11_2010__	T
+18l1l0	hydrocarbures	S
+
+#Le liquide du fossé a été pompé.
+
+19l0l0	Le_liquide_du_fossé	O
+19l0l1	a_été_pompé	N
+
+#Les aires bétonnées et bituminées ont été nettoyées.
+
+20l0l0	Les_aires_bétonnées	O
+20l0l1	bituminées	O
+20l0l2	ont_été_nettoyées	N
+
+#Les eaux souillées ont été récupérées.
+
+21l0l0	Les_eaux_souillées	O
+21l0l1	ont_été_récupérées	N
+
+#Le 02/11/2010, les terrains polluées ont été décapés sur le site, sur la voie publique et chez le voisin.
+
+22l0l0	Le_02_11_2010	T
+22l0l1	les_terrains_polluées	O
+22l0l2	ont_été_décapés	N
+22l0l3	chez_le_voisin	L
+
+#L’accident montre que l’analyse des risques réalisée par la SOCIETE DACQUOISE D’ASSAINISSEMENT ET DE DEGAZAGE est insuffisante.
+
+23l0l0	analyse_des_risques_réalisée	N
+23l0l1	la_SOCIETE_DACQUOISE	O
+23l0l2	DE_DEGAZAGE	O
+23l1l0	la_SOCIETE_DACQUOISE_D__ASSAINISSEMENT_ET_DE_DEGAZAGE	I
+
+#Ce scénario d’accident n’avait pas été considéré.
+
+
+#Suite à l'arrêt des activités, l'obligation de mettre en oeuvre la procédure ICPE de cessation d'activité a été rappelée à l'exploitant par lettre préfectorale, en octobre 2013.
+
+25l0l0	Suite_à	R
+25l0l1	l__arrêt_des_activités	N
+25l0l2	l__obligation_de_mettre_en_oeuvre	N
+25l0l3	la_procédure_ICPE	O
+25l0l4	cessation_d__activité	N
+25l0l5	a_été_rappelée	N
+25l0l6	l__exploitant	O
+25l0l7	lettre_préfectorale	O
+25l0l8	en_octobre_2013__	T
+
+#3 - TRAVAUX
+
+26l1l0	TRAVAUX	I
+
+#Suite à l'accident du 1er/11/2010, le 2 novembre 2010, l’exploitant a entamé la remise en état (nettoyage des secteurs souillés par des hydrocarbures).
+
+27l0l0	Suite_à	R
+27l0l1	l__accident	N
+27l0l2	du_1er_11_2010	T
+27l0l3	le_2_novembre_2010__	T
+27l0l4	l__exploitant	O
+27l0l5	a_entamé	N
+27l0l6	la_remise_en_état	N
+27l0l7	nettoyage	N
+27l0l8	secteurs	O
+27l0l9	souillés_par	N
+27l0l10	des_hydrocarbures	O
+27l1l0	hydrocarbures	S
+
+#L'arrêté de mesures d'urgences du 26/11/2010 prescrit sous quinzaine, la décontamination et le nettoyage des secteurs et des matériels touchés par la projection d’hydrocarbures.
+
+28l0l0	arrêté_de_mesures_d__urgences	O
+28l0l1	26_11_2010	T
+28l0l2	prescrit	N
+28l0l3	sous_quinzaine	R
+28l0l4	la_décontamination	N
+28l0l5	le_nettoyage	N
+28l0l6	secteurs_et_des_matériels_touchés_par	O
+28l0l7	la	A
+28l0l8	projection_d__hydrocarbures	O
+28l1l0	hydrocarbures	S
+
+#Les justificatifs des travaux et d'élimination des déchets ainsi que l’état des terrains et des matériels nettoyés doivent t être adressés sous 1 mois.
+
+29l0l0	Les_justificatifs	O
+29l0l1	des_travaux	N
+29l0l2	élimination	N
+29l0l3	des_déchets	O
+29l0l4	l__état_des_terrains	O
+29l0l5	des_matériels_nettoyés	O
+29l0l6	doivent	N
+
+#Le 28/02/2011 : transmission 4 bordereaux de suivi de terres polluées décapées (soit au total 99,78 tonnes), expédiées le même et stockées en décharge de classe 2 à la décharge DRIMM (Séché) de Montech (82).
+
+30l0l0	Le_28_02_2011	T
+30l0l1	__transmission	N
+30l0l2	4_bordereaux	O
+30l0l3	de_suivi_de_terres_polluées_décapées	O
+30l0l4	expédiées_le_même_et_stockées_en_décharge	N
+30l0l5	classe_2	O
+30l0l6	la_décharge_DRIMM	O
+30l0l7	Montech___82	L
+30l1l0	décharge_DRIMM	I
+30l1l1	Séché	I
+
+#Il reste à fournir :
+
+
+#- état caractérisant l'état des terrains (et matériels) nettoyés.
+
+
+#Une analyse du sol laissé en place, sous le décapage, répondrait à la prescription.
+
+33l0l0	Une_analyse_du_sol_laissé_en_place	N
+33l0l1	le_décapage	N
+
+#- justification de l'autorisation de l'installation DRIMM destinataire (adressée à UT 40).
+
+34l0l0	l__autorisation	N
+34l0l1	l__installation_DRIMM	O
+
+#- certificat d'acceptation préalable.
+
+
+#Les analyses libératoires de sols vont, selon l'exploitant être réalisées à compter du 04/04/2011.
+
+36l0l0	Les_analyses_libératoires	N
+36l0l1	de_sols_vont	N
+36l0l2	l__exploitant	O
+36l0l3	être_réalisées	N
+36l0l4	à_compter_du_04_04_2011__	T
+
+#Cette campagne réalisée le 1er/06/2011 fait état d'une concentration résiduelle en hydrocarbures totaux de 28mg/kg.
+
+37l0l0	Cette_campagne_réalisée	N
+37l0l1	le_1er_06_2011	T
+37l1l0	hydrocarbures_totaux	S
+
+#3 - EAUX SOUTERRAINES
+
+38l1l0	SOUTERRAINES	I
+
+#Le site de la Sté DACQUOISE ASSAINISSEMENT ET DEGAZAGE à Dax est soumis à l’application de l’article 65 a) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines par référence à la rubrique 1434 (distribution de carburants routiers liquides) de la nomenclature des Installations classées pour la Protection de l'Environnement.
+
+39l0l0	Le_site	O
+39l0l1	la_Sté_DACQUOISE	O
+39l0l2	DEGAZAGE	O
+39l0l3	à_Dax	L
+39l0l4	est_soumis_à	R
+39l0l5	l_	O
+39l0l6	2_février_1998	T
+39l0l7	distribution_de_carburants_routiers_liquides	A
+39l1l0	la_Sté_DACQUOISE_ASSAINISSEMENT_ET_DEGAZAGE	I
+39l1l1	carburants_routiers_liquides	U
+
+#L'arrêté préfectoral du 3 décembre 2002 prescrit la surveillance des eaux souterraines selon les dispositions suivantes :
+
+40l0l0	L__arrêté_préfectoral	O
+40l0l1	3_décembre_2002	T
+40l0l2	prescrit	N
+40l0l3	la_surveillance_des_eaux_souterraines	A
+
+#- mise en place d'un piézomètre,
+
+41l0l0	mise_en_place_d_	N
+41l0l1	un_piézomètre	O
+
+#- les paramètres à analyser sont représentatifs des activités et des produits utilisés sur le site
+
+
+#- le niveau piézométrique de la nappe est relevé à chaque campagne
+
+
+#- la fréquence des campagnes d'analyses est annuelle.
+
+44l0l0	campagnes_d__analyses	N
+
+#Voir résultats page 6.
+
+
+#4 - CHANGEMENT D4EXPLOITANT
+
+46l0l0	CHANGEMENT_D4EXPLOITANT	O
+
+#Début 2014, un repreneur potentiel s'est manifesté, pour réactiver l'activité ICPE (société Aude Assainissement, qui possède un établissement à Carcassonne).
+
+47l0l0	Début_2014__	T
+47l0l1	un_repreneur_potentiel	O
+47l0l2	s__est_manifesté	N
+47l0l3	réactiver	N
+47l0l4	l__activité_ICPE	O
+47l0l5	société_Aude_Assainissement	O
+
+#En juin 2014, ce repreneur confirme la reprise de l'activité et déclare avoir confié au cabinet d'études GERARD VOISIN la mise en conformité de différents pans de la réglementation ICPE non respectés (dont l'autosurveillance et les garanties financières.
+
+48l0l0	En_juin_2014__	T
+48l0l1	ce_repreneur	O
+48l0l2	la_reprise	N
+48l0l3	l__activité	O
+48l0l4	déclare_avoir_confié	N
+48l0l5	cabinet_d__études_GERARD_VOISIN	O
+48l0l6	la_mise_en_conformité	N
+48l0l7	différents_pans	O
+48l0l8	la_réglementation_ICPE	N
+48l1l0	GERARD_VOISIN	I
+
+#Il précise qu'il travaillerait sous le seuil IED 3510.
+

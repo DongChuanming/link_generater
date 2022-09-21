@@ -1,0 +1,151 @@
+@prefix : <http://example.com/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:event_components a owl:Class.
+:labels a owl:Class.
+:when a owl:ObjectProperty .
+:status a owl:ObjectProperty .
+:locate a owl:ObjectProperty .
+:parallel a owl:ObjectProperty .
+:unknown a owl:ObjectProperty .
+:agent a owl:ObjectProperty .
+:pagent a owl:ObjectProperty .
+:target a owl:ObjectProperty .
+:indirect_target a owl:ObjectProperty .
+:ptarget a owl:ObjectProperty .
+:complement a owl:ObjectProperty .
+:passive_target a owl:ObjectProperty .
+:passive_agent a owl:ObjectProperty .
+:precise a owl:ObjectProperty .
+:pprecise a owl:ObjectProperty .
+:pollutant a owl:ObjectProperty .
+:event owl:subClassOf owl:Class.
+:N a :labels.
+:event rdfs:label :N.
+:object owl:subClassOf owl:Class.
+:O a :labels.
+:object rdfs:label :O.
+:time owl:subClassOf owl:Class.
+:T a :labels.
+:time rdfs:label :T.
+:location owl:subClassOf owl:Class.
+:L a :labels.
+:location rdfs:label :L.
+:industrial_activity owl:subClassOf owl:Class.
+:A a :labels.
+:industrial_activity rdfs:label :A.
+:relation owl:subClassOf owl:Class.
+:R a :labels.
+:relation rdfs:label :R.
+:institution owl:subClassOf owl:Class.
+:I a :labels.
+:institution rdfs:label :I.
+:pollutant_container owl:subClassOf owl:Class.
+:D a :labels.
+:pollutant_container rdfs:label :D.
+:pollutant owl:subClassOf owl:Class.
+:U a :labels.
+:pollutant rdfs:label :U.
+:chemical owl:subClassOf owl:Class.
+:S a :labels.
+:chemical rdfs:label :S.
+:0l0l0 a :location.
+:1l0l0 a :time.
+:1l0l1 a :object.
+:1l0l2 a :object.
+:1l0l3 a :industrial_activity.
+:1l1l0 a :institution.
+:1l0l0 :overlap :1l1l0.
+:1l0l1 :overlap :1l1l0.
+:1l0l2 :complement :1l0l1.
+:2l0l0 a :object.
+:2l0l1 a :object.
+:2l0l2 a :location.
+:2l0l2 ::locate :2l0l1.
+:3l0l0 a :location.
+:débuter owl:subClassOf :event.
+:3l0l1 a :débuter.
+:4l0l0 a :object.
+:4l0l1 a :location.
+:5l0l0 a :industrial_activity.
+:5l0l1 a :débuter.
+:5l0l2 a :time.
+:5l0l1 :when :5l0l2.
+:5l0l1 :when :5l0l2.
+:6l0l0 a :object.
+:6l1l0 a :institution.
+:6l0l0 :overlap :6l1l0.
+:7l0l0 a :industrial_activity.
+:7l0l1 a :time.
+:8l0l0 a :object.
+:8l0l1 a :industrial_activity.
+:8l0l2 a :industrial_activity.
+:8l1l0 a :pollutant.
+:8l1l0 :unknown :8l0l0.
+:8l1l0 :unknown :8l0l1.
+:8l0l2 :contain :8l1l0.
+:réaliser owl:subClassOf :chemical.
+:9l1l0 a :réaliser.
+:10l0l0 a :object.
+:prélever owl:subClassOf :event.
+:10l0l1 a :prélever.
+:10l0l2 a :time.
+:10l0l0 :unknown :10l0l1.
+:10l0l0 ::target :10l0l1.
+:10l0l1 :when :10l0l2.
+:exploitation owl:subClassOf :event.
+:11l0l0 a :exploitation.
+:11l0l1 a :object.
+:11l0l1 ::target :11l0l0.
+:11l0l1 :target :11l0l0.
+:12l0l0 a :object.
+:12l0l1 a :object.
+:inférieur owl:subClassOf :event.
+:13l0l0 a :inférieur.
+:13l0l1 a :object.
+:13l0l1 ::target :13l0l0.
+:13l0l1 :unknown :13l0l0.
+:sur owl:subClassOf :chemical.
+:14l1l0 a :sur.
+:eau owl:subClassOf :chemical.
+:17l1l0 a :eau.
+:investigation owl:subClassOf :chemical.
+:19l1l0 a :investigation.
+:demande owl:subClassOf :event.
+:21l0l0 a :demande.
+:21l0l1 a :object.
+:21l0l1 :target :21l0l0.
+:22l0l0 a :object.
+:étude owl:subClassOf :chemical.
+:22l1l0 a :étude.
+:22l0l0 :overlap :22l1l0.
+:remise owl:subClassOf :event.
+:24l0l0 a :remise.
+:24l0l1 a :relation.
+:24l0l2 a :étude.
+:concerner owl:subClassOf :event.
+:24l0l3 a :concerner.
+:24l0l4 a :time.
+:traitement owl:subClassOf :chemical.
+:24l1l0 a :traitement.
+:24l0l3 :when :24l0l4.
+:25l0l0 a :relation.
+:25l0l1 a :object.
+:25l0l2 a :time.
+:17_10_2012 owl:subClassOf :event.
+:25l0l3 a :17_10_2012.
+:25l0l4 a :object.
+:25l0l5 a :étude.
+:25l1l0 a :institution.
+:25l1l0 :unknown :25l0l0.
+:25l0l1 :indirect_target :25l0l0.
+:25l0l3 :when :25l0l2.
+:25l0l3 :complement :25l0l1.
+:25l0l4 :contain :25l1l0.
+:25l0l5 :complement :25l0l4.
+:26l0l0 a :time.
+:de owl:subClassOf :event.
+:26l0l1 a :de.
+:27l0l0 a :object.

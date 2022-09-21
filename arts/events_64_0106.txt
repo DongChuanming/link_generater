@@ -1,0 +1,129 @@
+
+#64.0106
+#La société SNET projette d'exploiter sur la commne d'Os-Marsillon une centrale de production d’électricité constituée de tranches de puissance unitaire de 400 MW, soit au total 800 MW, à partir de la combustion de gaz naturel en utilisant la technologie du « cycle combiné gaz ».
+
+0l0l0	La_société_SNET	O
+0l0l1	projette	R
+0l0l2	d_	N
+0l0l3	exploiter	R
+0l0l4	sur_la_commne_d__Os___Marsillon	L
+0l0l5	une	O
+0l0l6	centrale_de_production_d__électricité	A
+0l0l7	la_combustion_de_gaz_naturel	A
+0l1l0	La_société_SNET	I
+
+#Pour ce faire, elle dispose d'un arrêté préfectoral d'autorisation délivré le 27 juillet 2010.
+
+1l0l0	un_arrêté_préfectoral_d__autorisation	O
+1l0l1	délivré	R
+1l0l2	le_27_juillet_2010__	T
+
+#L’alimentation en gaz naturel sera assurée via un raccordement sur le réseau de transport existant exploité par la société TIGF.
+
+2l0l0	L__alimentation_en	N
+2l0l1	gaz_naturel	O
+2l0l2	un	N
+2l0l3	raccordement_sur_le_réseau_de_transport_existant	L
+2l0l4	exploité	N
+2l0l5	la_société_TIGF	O
+2l1l0	la_société_TIGF	I
+
+#Le site est situé sur la commune de Os-Marsillon entre les plates-formes industrielles de Lacq, au Nord-Ouest et de Mourenx au Sud-Est.
+
+3l0l0	Le_site	O
+3l0l1	est_situé_sur_la_commune_de_Os___Marsillon_entre_les_plates___formes_industrielles_de_Lacq	L
+3l0l2	__au_Nord_Ouest	L
+3l0l3	Mourenx_au_Sud_Est	L
+
+#Le Gave de Pau est situé au Nord-Est du site et la RD 33 au Sud-Ouest à 200 m.
+
+4l0l0	Le	O
+4l0l1	Gave_de_Pau	L
+4l0l2	est_situé_au_Nord_Est_du_site_et_la_RD_33_au_Sud_Ouest_à_200_m_	L
+4l1l0	Le_Gave	I
+4l1l1	de_Pau	I
+
+#La surface totale des terrains sur lesquels sera implantée la centrale est de 14,7 ha.
+
+5l0l0	terrains_sur_lesquels	O
+5l0l1	sera_implantée	N
+5l0l2	la_centrale	O
+5l0l3	14_7_ha	O
+
+#Ces terrains sont actuellement vierges de toute construction et destinés à un usage agricole.
+
+6l0l0	Ces_terrains	O
+6l0l1	sont_actuellement	N
+6l0l2	vierges_de_toute_construction	L
+6l0l3	destinés	T
+6l0l4	à_un_usage_agricole	A
+
+#Une partie des terrains est une zone non aedificandi de 100 m de large en raison de la présence de deux canalisations de transport de gaz chimiques (hydrogène sulfuré et méthylmercaptan) entre les plates-formes industrielles de Lacq et Mourenx.
+
+7l0l0	Une_partie_des_terrains	O
+7l0l1	une_zone_non_aedificandi	O
+7l0l2	deux_canalisations_de	O
+7l0l3	transport_de_gaz_chimiques	N
+7l0l4	entre_les_plates___formes_industrielles_de_Lacq_et_Mourenx	L
+7l1l0	gaz_chimiques	U
+7l1l1	hydrogène_sulfuré	S
+7l1l2	méthylmercaptan	S
+
+#L'arrêté préfectoral du 27 juillet 2010 autorisant les activités du site impose à l'exploitant une surveillance de la qualité des eaux souterraines.
+
+8l0l0	L__arrêté_préfectoral	O
+8l0l1	27_juillet_2010	T
+8l0l2	autorisant	R
+8l0l3	les_activités	N
+8l0l4	site	O
+8l0l5	impose	N
+8l0l6	l__exploitant	O
+8l0l7	une_surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#Pour ce faire :
+
+
+#1- 2 puits, au moins, doivent être implantés en aval du site de l'installation ; la définition de leur nombre et de leur implantation doit être faite à partir des conclusions d'une étude relative au contexte hydrogéologique local.
+
+10l0l0	2_puits	O
+10l0l1	doivent_être_implantés_en_aval_du_site_de_l__installation	L
+
+#2- 2 fois par an, au moins, le niveau piézométrique doit être relevé et des prélèvements effectués dans la nappe.
+
+11l0l0	2_fois_par_an	T
+11l0l1	la_nappe	N
+
+#La fréquence des prélèvements doit notamment être basée sur l'étude hydrogéologique sus évoquée.
+
+
+#3- L'eau prélevée doit faire l'objet de mesures des substances pertinentes susceptibles de caractériser une éventuelle pollution de la nappe compte tenu de l'activité de l'installation.
+
+13l0l0	l__objet	R
+13l0l1	de_mesures	N
+
+#Les résultats de mesures seront transmis à l'inspection des installations classées dans le mois qui suit.
+
+14l0l0	l__inspection_des_installations_classées	O
+14l0l1	dans	T
+14l0l2	le	N
+14l0l3	mois_qui_suit	T
+
+#Toute anomalie lui sera signalée dans les meilleurs délais.
+
+
+#Si ces résultats mettent en évidence une pollution des eaux souterraines, l'exploitant :
+
+16l0l0	une_pollution_des_eaux_souterraines	O
+16l0l1	l__exploitant	O
+
+#- détermine par tous les moyens utiles si ses activités sont à l'origine ou non de la pollution constatée,
+
+17l0l0	ses_activités	O
+17l0l1	sont_à_l__origine	R
+
+#- informe le préfet du résultat de ses investigations et, le cas échéant, des mesures prises ou envisagées.
+
+18l0l0	informe	N
+18l0l1	le_préfet	O
+18l0l2	des_mesures_prises	N
+18l1l0	le_préfet	I

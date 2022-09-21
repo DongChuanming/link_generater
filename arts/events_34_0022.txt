@@ -1,0 +1,101 @@
+
+#34.0022
+#il s'agit d'une ancienne station service dont l'activité a cessé à l'été 2001.
+
+0l0l0	une_ancienne_station_service	O
+0l0l1	l__activité	O
+0l0l2	a_cessé	N
+0l0l3	à_l__été_2001__	T
+
+#sa mise en service date des années 1970.
+
+1l0l0	sa_mise_en_service	N
+1l0l1	date_des_années_1970__	T
+
+#l'exploitant (SA AMARDEN) n'a aucune trace de récépissé de déclaration sur cette installation.
+
+2l0l0	l__exploitant	O
+2l0l1	SA_AMARDEN	O
+2l0l2	récépissé	O
+2l0l3	de_déclaration	N
+2l0l4	cette_installation	N
+2l1l0	SA_AMARDEN	I
+
+#cette station service comprenait :
+
+
+#- une cuve enterrée à simple paroi de 55 m3 d'essence sans plomb,
+
+4l0l0	une_cuve_enterrée	O
+4l0l1	d__essence_sans_plomb	A
+4l1l0	une_cuve_enterrée	D
+4l1l1	essence_sans_plomb	U
+
+#- une cuve enterrée à double paroi de 60 m3 réparti en un compartiement de 15 m3 de super carburant et un compartiment de 45 m3 de gazole,
+
+5l0l0	une_cuve_enterrée	O
+5l0l1	gazole	A
+5l1l0	une_cuve_enterrée	D
+5l1l1	super_carburant	U
+5l1l2	gazole	S
+
+#- trois volucompteurs (gazole, super, sans plomb) munis de 2 pompes de distribution chacun.
+
+6l1l0	gazole	S
+6l1l1	plomb	S
+
+#une pollution notable par les hydrocarbures a été produite par les installations.
+
+7l0l0	hydrocarbures	O
+7l0l1	a_été_produite	N
+7l0l2	les_installations	O
+7l1l0	hydrocarbures	S
+
+#le sol présente des concentrations en hydrocarbures et autres éléments supérieures aux valeurs guides pour le constat d'impacts (VCI) sur des sites à usage non sensible.
+
+8l0l0	hydrocarbures	O
+8l1l0	hydrocarbures	S
+
+#les impacts sur l'environnement sont limités compte tenu des caractéristiques géologiques du site (pollution d'une lentille d'eau souterraine sans extension latérale importante)mais une phase surnageante s'est formée qui constitue une source de pollution secondaire.
+
+9l0l0	s__est_formée	N
+9l1l0	une_phase_surnageante	U
+
+#la dépollution du site est menée avec plusieurs objectifs :
+
+10l0l0	la_dépollution	N
+
+#- mise en sécurité du site (réalisée),
+
+11l0l0	réalisée	N
+
+#- enlèvement de la phase d'hydrocarbures surnageante (réalisée),
+
+12l0l0	enlèvement	N
+12l0l1	la_phase_d__hydrocarbures	O
+12l0l2	réalisée	N
+12l1l0	la_phase_d__hydrocarbures_surnageante	U
+
+#- traitement par strippage de la pollution dissoute (arrêté),
+
+13l0l0	strippage	N
+13l1l0	pollution_dissoute	U
+
+#- mise en place de la surveillance de la qualité des eaux pendant les travaux,
+
+14l0l0	mise_en_place_de	N
+14l0l1	la_surveillance_de_la_qualité_des_eaux	A
+14l0l2	pendant_les_travaux	N
+
+#- réaffectation du site à un usage compatible avec la présence de la pollution du sol: extension du parking du magasin.
+
+15l0l0	réaffectation	N
+15l0l1	du_site	O
+15l0l2	un_usage	O
+15l0l3	extension	N
+15l0l4	parking_du_magasin	O
+
+#Les travaux de dépollution sont terminés.
+
+16l0l0	Les_travaux_de_dépollution	N
+16l0l1	sont_terminés	N

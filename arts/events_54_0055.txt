@@ -1,0 +1,187 @@
+
+#54.0055
+#Deux sites évoqués dans la présente fiche :
+
+
+#1. décharge interne de l'usine
+
+
+#Surface de 17,9 ha.
+
+
+#Les premiers dépôts de déchets et co-produits sidérurgiques sur ce secteur remontent au début du 20 ème siècle.
+
+3l0l0	Les_premiers_dépôts_de_déchets	O
+3l0l1	sidérurgiques	O
+3l0l2	sur_ce_secteur	L
+3l0l3	remontent_au_début_du_20_ème_siècle__	T
+
+#Au cours du temps la décharge industrielle s'est développée vers le sud.
+
+4l0l0	la_décharge_industrielle	O
+4l0l1	s__est_développée_vers	N
+4l0l2	le_sud	L
+
+#Selon une étude remise à la DRIRE le 20 novembre 1992 les produits générés par l'usine et déposés en décharge sont:
+
+5l0l0	une_étude_remise	N
+5l0l1	la_DRIRE	O
+5l0l2	le_20_novembre_1992	T
+5l0l3	déposés_en_décharge	N
+5l1l0	la_DRIRE	I
+
+#-sables de fonderies, nayaux cassés et sables de noyaux,
+
+6l0l0	_sables_de_fonderies	O
+6l0l1	noyaux	O
+
+#-poussières de grenaillage,
+
+7l0l0	grenaillage	O
+
+#-déchets de cimentation des bassins de décantation,
+
+8l0l0	décantation	N
+8l1l0	_déchets	U
+
+#-laitiers déferraillés,
+
+
+#-déchets d'ebarbage,de meulage, de tronçonnage,
+
+10l0l0	ebarbage	O
+10l0l1	meulage	A
+10l0l2	tronçonnage	N
+10l1l0	_déchets_d_	U
+
+#-gravats,réfractaires
+
+
+#-déchets banaux, balayures,
+
+
+#-poussières de chaux, de traitement au magnésium.
+
+13l1l0	magnésium	S
+
+#2. ancienne fonderie
+
+14l0l0	fonderie	A
+
+#1.
+
+
+#DECHARGE INTERNE DE L'USINE
+
+16l0l0	DECHARGE_INTERNE	N
+16l0l1	USINE	O
+16l1l0	USINE	I
+
+#Le niveau de la crue trentenale de la Moselle inonde le pied du crassier.
+
+17l0l0	Le_niveau	O
+17l0l1	Moselle_inonde	N
+17l0l2	le_pied_du_crassier	L
+
+#L'Evaluation simplifiée des risques réalisée pour l'ensemble du site de l'usine de Pont à Mousson (usine, bassins et décharge interne) a été remise à la DRIRE le 20 février 2003.
+
+18l0l0	Evaluation_simplifiée_des_risques_réalisée	N
+18l0l1	Pont_à_Mousson	L
+18l0l2	a_été_remise	N
+18l0l3	la_DRIRE	O
+18l0l4	le_20_février_2003__	T
+18l1l0	la_DRIRE	I
+
+#Ce crassier a  une incidence sur la qualité des eaux souterraines, compatible avec les usages limités en aval et la qualité passable au droit du site.
+
+19l0l0	avec_les	A
+19l0l1	usages_limités_en_aval	L
+
+#Cette étude classe le site en 2 c'est à dire, site à surveiller pour son impact sur les eaux souterraines.
+
+20l0l0	le_site	O
+20l0l1	les_eaux_souterraines	O
+
+#Il n'y a pas de captage d'alimentation en eau potable en aval du crassier.
+
+21l0l0	captage	O
+21l0l1	eau_potable	O
+21l0l2	en_aval_du_crassier	L
+
+#les polluants identifiés sont les HAP, Chrome, cuivre, nickel et plomb.
+
+22l0l0	les_HAP	O
+22l1l0	polluants	U
+22l1l1	les_HAP	S
+22l1l2	Chrome	S
+22l1l3	cuivre	S
+22l1l4	nickel	S
+22l1l5	plomb	S
+
+#La surveillance de la nappe est réalisée au travers de 3 piézomètres 2 fois par an.
+
+23l0l0	La_surveillance_de_la_nappe	A
+23l0l1	est_réalisée	N
+23l0l2	piézomètres	O
+23l0l3	fois_par_an	T
+
+#2.
+
+
+#ANCIENNE FONDERIE
+
+25l0l0	ANCIENNE_FONDERIE	O
+25l1l0	ANCIENNE_FONDERIE	I
+
+#Arrêt de l'activité de goudronnage en 2010
+
+26l0l0	Arrêt_de	N
+26l0l1	l__activité_de_goudronnage	O
+26l0l2	en_2010	T
+
+#Le réseau de surveillance de la qualité des eaux souterraines mis en place dans ce cadre a mis en évidence :
+
+27l0l0	Le_réseau_de_surveillance	A
+27l0l1	la_qualité_des_eaux_souterraines	O
+27l0l2	mis_en_place	N
+
+#- une pollution des eaux souterraines par les HAP liée aux activités de goudronnage.
+
+28l0l0	les_HAP	O
+28l0l1	liée_aux	R
+28l0l2	activités_de_goudronnage	A
+28l1l0	HAP	S
+
+#Des travaux de dépollution ont été réalisés en 2011 sur ce secteur afin de remettre le site en état avec un usage industriel.
+
+29l0l0	Des_travaux_de_dépollution	N
+29l0l1	ont_été_réalisés	N
+29l0l2	en_2011	T
+29l0l3	ce_secteur	O
+29l0l4	un_usage_industriel	A
+
+#- une pollution en hydrocarbures non liée à l'activité de fonderie mais liée à une ancienne machine de démontage de pièces de voirie.
+
+30l0l0	hydrocarbures	O
+30l0l1	l__activité_de_fonderie	A
+30l0l2	une_ancienne_machine_de_démontage_de_pièces_de_voirie	O
+30l1l0	hydrocarbures	S
+
+#Cette installation a fait l'objet de plusieurs mesures afin d'empecher les fuites d'huiles.
+
+31l0l0	Cette_installation	O
+31l0l1	a_fait_l__objet_de	R
+31l0l2	fuites_d__huiles	A
+
+#L'exploitant envisage le traitement de la nappe par pompage-écrémage.
+
+32l0l0	L__exploitant	O
+32l0l1	envisage	R
+32l0l2	le_traitement_de_la_nappe	N
+32l0l3	pompage___écrémage	N
+
+#Les mesures de dépollution et la surveillance des eaux souterraines seront encadrées par arrêté préfectoral.
+
+33l0l0	Les_mesures_de_dépollution	N
+33l0l1	la_surveillance_des_eaux_souterraines	A
+33l0l2	seront_encadrées	N

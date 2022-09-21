@@ -1,0 +1,238 @@
+
+#84.0019
+#Société des engrais MANON-MICHUT -84-
+
+0l0l0	Société_des_engrais	O
+0l0l1	MANON___MICHUT	O
+0l1l0	Société_des_engrais_MANON___MICHUT	I
+
+#Le site industriel de la SOCIETE DES ENGRAIS MANON MICHUT (SODEMM) est divisé en deux parties.
+
+1l0l0	Le_site_industriel	O
+1l0l1	la_SOCIETE_DES_ENGRAIS_MANON_MICHUT	O
+1l0l2	SODEMM	O
+1l0l3	deux_parties	O
+1l1l0	la_SOCIETE_DES_ENGRAIS_MANON_MICHUT	I
+1l1l1	SODEMM	I
+
+#La partie production, dénomée « les Eyssariades, exploitée depuis 1890, est située au Nord-Oeust, à environ deux kilomètres du centre ville de la commune de Robion et la partie stockage/déchargement, dénomée « La Gare », est situé à proximité de l'ancienne gare.
+
+2l0l0	La_partie_production	O
+2l0l1	les	O
+2l0l2	Eyssariades	L
+2l0l3	__exploitée	N
+2l0l4	depuis_1890	T
+2l0l5	est_située_au_Nord_Oeust	L
+2l0l6	__à_environ_deux_kilomètres_du_centre_ville_de_la_commune_de_Robion	L
+2l0l7	et_la_partie_stockage	O
+2l0l8	__déchargement	A
+2l0l9	est_situé_à_proximité_de_l__ancienne_gare	L
+2l1l0	__les_Eyssariades	I
+
+#Le site de production occupe une surface de 10 000 m² dont 7 000 m² de bâti (bureau, unité de production, atelier mécanique, atelier d'ensachage et plusieurs zones de stockage).
+
+3l0l0	Le_site_de_production	O
+
+#La partie stockage/déchargement occupe une surface de 1 800 m² avec un bâti de 630 m² composé d'un hangar et de silos, le long de l'ancienne voie ferrée.
+
+4l0l0	La_partie_stockage__	O
+4l0l1	déchargement	A
+4l0l2	un_hangar	O
+4l0l3	le_long_de_l__ancienne_voie_ferrée	L
+
+#Cette société fait l'objet d'un AP d'autorisation, daté de 1905.
+
+5l0l0	Cette_société	O
+5l0l1	fait_l__objet_d_	R
+5l0l2	un_AP_d__autorisation	O
+5l0l3	daté_de_1905	T
+
+#En 2005, l'exploitant a cessé ses activités sur ce site sans respecter la procédure prévue par la législation.
+
+6l0l0	En_2005__	T
+6l0l1	l__exploitant	O
+6l0l2	a_cessé_ses_activités	N
+6l0l3	sur	L
+6l0l4	ce_site	O
+
+#L'AP de mise en demeure du 18/03/2005 impose à SODEMM de déposer un dossier de cessation d'activités conforme aux dispositions règlementaires.
+
+7l0l0	L__AP_de_mise_en_demeure	O
+7l0l1	18_03_2005	T
+7l0l2	impose	N
+7l0l3	SODEMM	O
+7l0l4	un_dossier	O
+7l0l5	cessation_d__activités	N
+7l1l0	SODEMM	I
+
+#Suite à un AP du 17/02/2005 un diagnostic initial a été réalisé.
+
+8l0l0	Suite	R
+8l0l1	à	N
+8l0l2	un_AP	O
+8l0l3	17_02_2005	T
+8l0l4	un_diagnostic_initial	N
+8l0l5	a_été_réalisé	N
+
+#Certaines zones présentent des teneurs en polluants supérieures aux VCI à usage sensible et non sensible, nécessitant donc un nettoyage : aire de stockage des ferrailles, ancien stockage de matières premières à proximité du bassin de rétention des eaux de pluie, cuve aérienne d'hydrocarbures sur le site de la gare.
+
+9l0l0	Certaines_zones	O
+9l0l1	un_nettoyage	O
+9l0l2	ferrailles	O
+9l0l3	à_proximité_du_bassin	L
+9l1l0	cuve_aérienne_d__hydrocarbures	U
+
+#Concernant les eaux souterraines, les teneurs en nickel et ammonium sont supérieures aux VCI "usage sensible".
+
+10l0l0	nickel_et_ammonium	O
+10l1l0	nickel	S
+10l1l1	ammonium	S
+
+#Concernant les eaux superficielles, certaines concentrations en métaux et autres composés inorganiques sont supérieures aux VCI "usage non sensible".
+
+11l1l0	métaux	S
+11l1l1	composés_inorganiques	S
+
+#Le projet de réhabilitation, réalisé à la suite d'un APC daté du 07/09/2005, prévoit des habitations sur le site de la gare dit à usage sensible, en revanche, plusieurs possibilités de réutilisation des terrains sont envisagées pour le site de production (parking, commerces...) qui sera à usage non sensible.
+
+12l0l0	Le_projet	O
+12l0l1	de_réhabilitation	N
+12l0l2	réalisé_à_la	N
+12l0l3	suite_d_	R
+12l0l4	un_APC	N
+12l0l5	07_09_2005	T
+12l0l6	habitations	O
+12l0l7	sur_le_site	L
+12l0l8	la_gare	O
+12l0l9	dit	R
+12l0l10	à_usage_sensible	L
+12l0l11	réutilisation	N
+12l0l12	des_terrains	O
+12l0l13	le_site_de_production	O
+
+#Les travaux de réhabilitation du site, sont prescrits par APC du 19 juin 2006 et consistent à :
+
+13l0l0	Les_travaux_de_réhabilitation	N
+13l0l1	du_site	O
+13l0l2	sont_prescrits	N
+13l0l3	19_juin_2006	T
+
+#* Sur le site de la gare : enlever la cuve de fuel, excaver les terres polluées (20 t) et remblayer avec une couche de terre saine, enlever les déchets et sécuriser le site.
+
+14l0l0	la_gare	O
+14l0l1	__enlever	N
+14l0l2	la_cuve_de_fuel	O
+14l0l3	excaver	N
+14l0l4	les_terres_polluées	O
+14l0l5	remblayer_avec	N
+14l0l6	une_couche_de_terre_saine	O
+14l0l7	enlever	N
+14l0l8	les_déchets	O
+14l0l9	sécuriser	N
+14l0l10	le_site	O
+14l1l0	la_cuve_de	D
+14l1l1	fuel	U
+14l1l2	les_déchets	U
+
+#* Sur le site de production : enlever les matières premières (709 t) et les produits finis (409 t), déposer les outils industriels, procéder à un "décroûtage" sur toute la surface des sols (50 cm) et nettoyer les charpentes des bâtiments, excaver les terres polluées (110 t) et remblayer avec de la terre saine, en sécurisant le site (clôtures).
+
+15l0l0	le_site_de_production	O
+15l0l1	enlever	N
+15l0l2	les_matières	O
+15l0l3	déposer_les_outils_industriels	N
+15l0l4	un___décroûtage	N
+15l0l5	nettoyer	N
+15l0l6	les_charpentes_des_bâtiments	O
+15l0l7	excaver	N
+15l0l8	les_terres_polluées	O
+15l0l9	remblayer	N
+15l0l10	avec_de_la_terre_saine	O
+15l0l11	sécurisant_le_site	N
+15l0l12	clôtures	O
+
+#Le dossier de demande d'institution de servitude d'utilité publique est prescrit par l'APC du 19 juin 2006.
+
+16l0l0	Le_dossier_de_demande_d__institution_de_servitude_d__utilité_publique	O
+16l0l1	est_prescrit	N
+16l0l2	l__APC	O
+16l0l3	du_19_juin_2006__	T
+
+#La SODEMM a été liquidée en 2006-2007, le liquidateur judiciaire a été mis en demeure, de respecter sous 3 mois, les dispositions de l'AP du 19/06/2006.
+
+17l0l0	La_SODEMM	O
+17l0l1	a_été_liquidée	N
+17l0l2	en_2006___2007	T
+17l0l3	__le_liquidateur_judiciaire	O
+17l0l4	a_été_mis_en	N
+17l0l5	sous_3_mois	T
+17l0l6	19_06_2006	T
+17l1l0	La_SODEMM	I
+
+#Une consignation de 60 000€ a été décidée par l'AP du 17/03/2009 mais elle n'a pas été versée.
+
+18l0l0	Une_consignation	O
+18l0l1	60_000__	O
+18l0l2	a_été_décidée_par	N
+18l0l3	l__AP	O
+18l0l4	17_03_2009	T
+
+#Les contacts avec le liquidateur et Monsieur MICHUT à la fin de l'année 2009 laissaient penser que des travaux complémentaire seraient réalisés prochainement.
+
+19l0l0	Les_contacts_avec	N
+19l0l1	le_liquidateur	O
+19l0l2	Monsieur_MICHUT	O
+19l0l3	à_la_fin_de_l__année_2009	T
+19l0l4	que_des_travaux_complémentaire	O
+19l0l5	seraient_réalisés	N
+19l0l6	prochainement	T
+19l1l0	MICHUT	I
+
+#Néanmoins, la liquidation judiciaire ne pourrait pas supporter le coût d'une remise en état totale.
+
+20l0l0	la_liquidation_judiciaire	N
+20l0l1	remise_en_état_totale	N
+
+#Ainsi, par circulaire du 31/05/2010, la Direction Générale de la Prévention des Risques (DGPR) informe la préfecture du Vaucluse que le site de la SODEMM a été retenu pour les aides de l'ADEME.
+
+21l0l0	du_31_05_2010	T
+21l0l1	la_Direction_Générale_de_la_Prévention_des_Risques	O
+21l0l2	informe	N
+21l0l3	la_préfecture_du_Vaucluse	O
+21l0l4	le_site	O
+21l0l5	la_SODEMM	O
+21l0l6	a_été_retenu	N
+21l0l7	les_aides	O
+21l0l8	l__ADEME	O
+21l1l0	la_Direction_Générale_de_la_Prévention_des_Risques	I
+21l1l1	la_préfecture_du_Vaucluse	I
+21l1l2	la_SODEMM	I
+
+#Une visite du site a été effectué le 2/09/2011, le site de production n'a pu être visité car celui-ci est entièrement clos mais les bâtiments sont très abimés et certaines toitures sont en partie écroulées.
+
+22l0l0	Une_visite	N
+22l0l1	site	O
+22l0l2	a_été_effectué	N
+22l0l3	le_2_09_2011	T
+22l0l4	le_site_de_production	O
+22l0l5	les_bâtiments	O
+22l0l6	abimés	O
+
+#Le site de la Gare est visité régulièrement comme en témoignent les nombreux tags sur les murs des bâtiments.
+
+23l0l0	Le_site	O
+
+#Un dépôt jaunâtre apparaissant comme de l'engrais est présent sur le site.
+
+
+#Par conséquent, la réhabilitation des deux sites est incomplète.
+
+25l0l0	la_réhabilitation	N
+25l0l1	deux_sites	O
+
+#Il a été demandé au liquidateur judiciaire de ce rapprocher de l'ADEME afin de constituer un dossier de demande d'aide pour la réhabilitation des sites et de réaliser une synthèse de l'ensemble des actions déjà effectuées accompagnées des justificatifs.
+
+26l0l0	Il	O
+26l0l1	a_été	N
+26l0l2	ce_rapprocher	N
+26l0l3	l__ADEME	O
+26l0l4	la_réhabilitation	N

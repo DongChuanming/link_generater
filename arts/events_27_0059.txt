@@ -1,0 +1,119 @@
+
+#27.0059
+#Le site se trouve sur un plateau à 10km en rive gauche de l'Eure.
+
+0l0l0	Le_site	O
+0l0l1	se_trouve_sur_un_plateau_à_10_km_en_rive_gauche_de_l__Eure	L
+
+#Le site est exploité depuis 1971 pour le stockage de pièces liées à l'industrie automobile (SOFRASTOCK est une filiale du groupe RENAULT).
+
+1l0l0	Le_site	O
+1l0l1	est_exploité	N
+1l0l2	depuis_1971	T
+1l0l3	le_stockage_de_pièces_liées_à_l__industrie_automobile	A
+1l0l4	SOFRASTOCK	O
+1l0l5	RENAULT	O
+1l1l0	SOFRASTOCK	I
+1l1l1	groupe_RENAULT	I
+
+#Auparavant il était utilisé comme site militaire.
+
+2l0l0	était_utilisé	O
+2l0l1	comme	R
+2l0l2	site_militaire	O
+
+#Sur le site, la société SOFRASTOCK a stocké des fûts et des cuves de produits contenant entre autres des peintures et des solvants chlorés.
+
+3l0l0	la_société_SOFRASTOCK	O
+3l0l1	a_stocké	N
+3l0l2	des_fûts	O
+3l0l3	des_cuves_de_produits	O
+3l1l0	la_société_SOFRASTOCK	I
+3l1l1	des_cuves	D
+3l1l2	des_peintures	U
+3l1l3	solvants_chlorés	U
+
+#Au niveau du site la géologie est la suivante : 0-2 m : limon, 2-15 m : argile à silex, au-delà de 15 m : craie blanche à silex.
+
+
+#La nappe de la craie est la seule nappe présente.
+
+
+#Elle est située à environ 12/14 m de profondeur.
+
+6l0l0	située_à_environ_12_14	L
+
+#Sur une zone localisée du site (emplacement d'anciens stockages de fûts de solvants chlorés), a été mise en évidence une pollution de la nappe par des solvants chlorés (TCE, PCE, TCA) : dépassement des valeurs de potabilité.
+
+7l0l0	Sur_une_zone_localisée_du_site	L
+7l0l1	stockages_de_fûts_de_solvants_chlorés	A
+7l0l2	a_été_mise_en_évidence	N
+7l0l3	une_pollution	N
+7l0l4	la_nappe	N
+7l1l0	solvants_chlorés	U
+7l1l1	solvants_chlorés	S
+7l1l2	TCE	S
+7l1l3	PCE	S
+7l1l4	TCA	S
+
+#L'air du sol a été analysé (à 1.5 m et à 3 m de profondeur) et a montré la présence de composés chlorés.
+
+8l0l0	a_été_analysé	N
+8l0l1	à_1_5	T
+8l1l0	composés_chlorés	U
+
+#Les analyses de sols effectuées n'ont pas montré la présence de sources de pollution de sol.
+
+9l0l0	Les_analyses_de_sols_effectuées	N
+9l0l1	la_présence_de_sources_de_pollution_de_sol	O
+
+#- Une surveillance de la qualité de la nappe est en place depuis 2002.
+
+10l0l0	Une_surveillance	A
+10l0l1	la_qualité_de_la_nappe	A
+10l0l2	est_en_place	N
+10l0l3	depuis_2002	T
+
+#Les résultats montrent que les concentrations en PCE et TCE ont diminué depuis 2002 mais restent stable depuis mars 2005.
+
+11l0l0	depuis_2002	T
+11l0l1	depuis_mars_2005__	T
+11l1l0	PCE	S
+11l1l1	TCE	S
+
+#- Les dernières investigations, analyses et études ont été effectuées fin 2006 début 2007 dans le cadre d'un arrêté préfectoral du 14 juin 2006 et suite à une proposition de l'inspection des installations classées.
+
+12l0l0	Les_dernières_investigations	N
+12l0l1	études	O
+12l0l2	ont_été_effectuées	N
+12l0l3	fin_2006	T
+12l0l4	début_2007	T
+12l0l5	dans_le_cadre_d_	R
+12l0l6	un_arrêté_préfectoral	O
+12l0l7	14_juin_2006	T
+12l0l8	suite_à	R
+12l0l9	une	O
+12l0l10	l__inspection_des_installations_classées	O
+
+#- Une évaluation des risques pour les employés du site a été effectuée et ne montre pas de dépassement des seuils sanitaires.
+
+13l0l0	Une_évaluation_des_risques	N
+13l0l1	site	O
+13l0l2	a_été_effectuée	N
+
+#- Une analyse des cibles au niveau de l'eau souterraine a été effectuée.
+
+14l0l0	a_été_effectuée	N
+
+#Les captages AEP les plus proches et en aval hydraulique (supposé) sont situés à 1.9 km.
+
+15l0l0	Les_captages_AEP	O
+15l0l1	les_plus_proches_et	O
+15l0l2	en_aval_hydraulique	L
+15l0l3	situés_à_1_9_km	L
+
+#Compte tenu du milieu concerné (craie fracturée), l'acquisition de données complémentaires est en cours afin de mieux évaluer le risque généré par la pollution des eaux souterraines.
+
+16l0l0	l__acquisition_de_données_complémentaires	N
+16l0l1	est_en_cours	O
+16l0l2	la_pollution_des_eaux_souterraines	A

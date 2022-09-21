@@ -1,0 +1,110 @@
+
+#29.0004
+#La société Groupement Pétrolier du Finistère (GPF) a été autorisée à exploiter un dépôt aérien d'hydrocarbures par arrêté préfectoral du 28 septembre 1995.
+
+0l0l0	La_société_Groupement_Pétrolier	O
+0l0l1	a_été_autorisée_à_exploiter	N
+0l0l2	un_dépôt_aérien_d__hydrocarbures	O
+0l0l3	arrêté_préfectoral_du	O
+0l0l4	28_septembre_1995__	T
+0l1l0	La_société_Groupement_Pétrolier_du_Finistère	I
+0l1l1	GPF	S
+0l1l2	hydrocarbures	S
+
+#Cependant, le dépôt est implanté depuis les années 1960.
+
+1l0l0	le_dépôt	O
+1l0l1	est_implanté	N
+1l0l2	depuis_les_années_1960	T
+
+#La société Stockbrest a repris l'exploitation du site en 2002.
+
+2l0l0	La_société_Stockbrest	O
+2l0l1	a_repris_l__exploitation	N
+2l0l2	du_site	O
+2l0l3	en_2002	T
+2l1l0	La_société_Stockbrest	I
+
+#Le site relève de la directive SEVESO II (classement AS).
+
+3l0l0	Le_site	O
+3l0l1	relève_de	R
+3l0l2	la_directive_SEVESO	O
+3l1l0	SEVESO_II	I
+
+#Fin avril 1996, suite à un transfert de propriété, des travaux de dépollution des sols (dues à une pollution par des hydrocarbures) ont été entrepris avec la mise en place d’un important puits de pompage.
+
+4l0l0	Fin_avril_1996__	T
+4l0l1	suite_à	R
+4l0l2	un_transfert_de_propriété	N
+4l0l3	des_travaux_de_dépollution	N
+4l0l4	des_sols	O
+4l0l5	dues	R
+4l0l6	à_une_pollution	N
+4l0l7	par	R
+4l0l8	des_hydrocarbures	O
+4l0l9	ont_été_entrepris	N
+4l0l10	avec	R
+4l0l11	la_mise_en_place_d_	N
+4l0l12	un_important_puits_de_pompage	O
+4l1l0	hydrocarbures	S
+
+#La géologie particulière du site a conduit à l’échec de cette technique ; qui a été remplacée par l’usage de pointes filtrantes.
+
+5l0l0	cette_technique	O
+5l0l1	a_été_remplacée	N
+
+#Le pompage mené en phase double (air/eau) a été complété par différents traitements afin de récupérer les hydrocarbures, d’épurer les gaz recueillis et d’éliminer les déchets.
+
+6l0l0	Le_pompage_mené	N
+6l1l0	hydrocarbures	S
+6l1l1	les_déchets	U
+
+#Les contraintes particulières du milieu (zone remblayée sur la mer) limitent l'efficacité technique du procédé.
+
+7l0l0	Les_contraintes_particulières	O
+7l0l1	zone_remblayée	O
+
+#Ainsi, différents essais ont été réalisés jusqu’en janvier 1999.
+
+8l0l0	différents_essais_ont_été_réalisés	N
+8l0l1	jusqu__en_janvier_1999	T
+
+#En conclusion des différents essais et études effectuées, il apparaît que :
+
+
+#- la pollution en phase libre est nettement plus réduite qu’initialement et cantonnée essentiellement dans une zone insaturée où elle est piégée,
+
+10l0l0	cantonnée_essentiellement_dans	R
+10l0l1	une_zone_insaturée	O
+
+#- il y a absence de mobilité du produit libre résiduel entre deux ouvrages d’extraction et à l’échelle du site,
+
+
+#- l’extraction de la phase libre résiduelle s'avère impossible par des traitements in situ.
+
+12l0l0	des_traitements_in_situ	N
+
+#La réhabilitation du site ne pourra donc s’effectuer, après cessation d’activité, que par excavation et pompage en fouilles des produits résiduels avec traitement des terres.
+
+13l0l0	La_réhabilitation	N
+13l0l1	d__activité	N
+13l0l2	excavation	N
+13l0l3	pompage	N
+13l0l4	traitement_des_terres	O
+
+#L'arrêté préfectoral du 4 octobre 2012, prescrit la surveillance semestrielle des eaux souterraines à partir d'un réseau constitué de trois piézomètres, afin de s'assurer de la non migration de la pollution en dehors du site.
+
+14l0l0	L__arrêté_préfectoral	O
+14l0l1	4_octobre_2012__	T
+14l0l2	prescrit	N
+14l0l3	la_surveillance_semestrielle	A
+14l0l4	des_eaux_souterraines	A
+
+#Les analyses des eaux souterraines montrent une nette amélioration des concentrations en hydrocarbures pour 2 piézomètres.
+
+15l1l0	hydrocarbures	S
+
+#Les concentrations en hydrocarbures sont fluctuantes et importantes sur un des piézomètres.
+
+16l1l0	hydrocarbures	S

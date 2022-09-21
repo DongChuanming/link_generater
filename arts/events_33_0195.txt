@@ -1,0 +1,205 @@
+
+#33.0195
+#Ancienne staion service exploitée en dernier lieu par ELAN sur la commune de Pessac (33).
+
+0l0l0	Ancienne_staion_service	O
+0l0l1	exploitée_en_dernier_lieu	N
+0l0l2	ELAN	O
+0l0l3	sur_la_commune_de_Pessac___33__	L
+0l1l0	ELAN	I
+
+#Cette station service a cessé son activité le 9 octobre 2002.
+
+1l0l0	Cette_station_service	O
+1l0l1	a_cessé_son_activité	N
+1l0l2	le_9_octobre_2002	T
+
+#Le site a été réhabilité par la construction de surfaces commerciales.
+
+2l0l0	Le_site	O
+2l0l1	a_été_réhabilité	N
+2l0l2	la_construction_de	N
+2l0l3	surfaces_commerciales	O
+
+#1 - MISE EN SÉCURITÉ
+
+3l0l0	SÉCURITÉ	N
+3l1l0	SÉCURITÉ	I
+
+#Les cuves, canalisations, etc. ont été enlevées.
+
+4l0l0	Les_cuves___canalisations	O
+4l0l1	ont_été_enlevées	N
+
+#2 - DIAGNOSTIC
+
+5l0l0	DIAGNOSTIC	N
+
+#Le diagnostic du site a été réalisé le 20 mars 2002 sur l'initiative de l'exploitant.
+
+6l0l0	Le_diagnostic_du_site_a_été_réalisé	N
+6l0l1	le_20_mars_2002	T
+6l0l2	l__initiative	N
+6l0l3	l__exploitant	O
+
+#Il conclut à une pollution de la nappe et des sols au droit de la cuve de SP 95.
+
+7l0l0	la_nappe	O
+7l0l1	au_droit_de_la	L
+7l0l2	cuve_de_SP_95	O
+7l1l0	SP_95	U
+
+#Il préconise une excavation des terres polluées et un suivi des eaux souterraines des Hydrocarbures Totaux (HCT).
+
+8l0l0	une_excavation	N
+8l0l1	terres_polluées	O
+8l0l2	un_suivi_des_eaux_souterraines	A
+8l1l0	Hydrocarbures_Totaux	S
+8l1l1	HCT	S
+
+#3 - TRAVAUX
+
+
+#L'arrêté préfectoral du 26 avril 2006 encadre les travaux de dépollution par venting des gaz des sols et strippage de la nappe.
+
+10l0l0	L__arrêté_préfectoral	O
+10l0l1	26_avril_2006	T
+10l0l2	encadre	R
+10l0l3	les_travaux_de_dépollution	N
+10l0l4	par_venting	N
+10l0l5	strippage	N
+10l0l6	la_nappe	N
+
+#Les objectifs de dépollution sont : concentration résiduelle en HCT dans les terres inférieure à 1500 mg/kg et concentrations en benzène inférieures à 2 mg/l dans la nappe pendant 5 semaines consécutives.
+
+11l0l0	dépollution	N
+11l1l0	HCT	S
+11l1l1	benzène	S
+
+#130 m3 de terres ont fait l'objet d'une extraction et d'un tri sélectif et 110 tonnes de terres souillées ont été extraites puis traitées.
+
+12l0l0	130_m3_de_terres	O
+12l0l1	ont_fait_l__objet_d_	R
+12l0l2	une_extraction	N
+12l0l3	110_tonnes_de_terres_souillées	O
+12l0l4	ont_été_extraites	N
+12l0l5	puis_traitées	N
+
+#Dès septembre 2006, les teneurs résiduelles en HCT dans les sols sont de l'ordre de 20 mg/kg, soit très inférieures aux prescriptions de l'arrêté préfectoral.
+
+13l0l0	Dès_septembre_2006__	T
+13l1l0	HCT	S
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+14l0l0	SURVEILLANCE_DES_EAUX	A
+14l0l1	SOUTERRAINES	O
+
+#L'arrêté préfectoral du 26 avril 2006 prescrit la surveillance des eaux souterraines selon les modalités suivantes :
+
+15l0l0	L__arrêté_préfectoral	O
+15l0l1	26_avril_2006	T
+15l0l2	prescrit	N
+15l0l3	la_surveillance_des_eaux_souterraines	A
+
+#- la mise en place de 3 piézomètres,
+
+16l0l0	la_mise_en_place	N
+16l0l1	3_piézomètres	O
+
+#- à une fréquence semestrielle,
+
+
+#- pour les paramètres suivants : HCT, Benzène, Toluène, Éthylbenzène, Xylène (BTEX) et Hydrocarbures Aromatiques Polycycliques (HAP),
+
+18l1l0	HCT	S
+18l1l1	Benzène	S
+18l1l2	Toluène	S
+18l1l3	Éthylbenzène	S
+18l1l4	Xylène	S
+18l1l5	BTEX	S
+18l1l6	Hydrocarbures_Aromatiques_Polycycliques	S
+18l1l7	HAP	S
+
+#- avec le relevé du niveau piézométrique à chaque campagne.
+
+19l0l0	niveau_piézométrique	O
+
+#Les résultats sont donnés page 6 "Surveillance du site et restrictions d'usage".
+
+
+#Le 20 février 2009, la DRIRE propose de suspendre la surveillance périodique de la nappe.
+
+21l0l0	Le_20_février_2009__	T
+21l0l1	la_DRIRE	O
+21l0l2	la_surveillance_périodique_de_la_nappe	A
+21l1l0	la_DRIRE	I
+
+#L'arrêté préfectoral du 17 avril 2009 suspend cette surveillance.
+
+22l0l0	L__arrêté_préfectoral	O
+22l0l1	17_avril_2009	T
+22l0l2	suspend_cette_surveillance	A
+
+#Elle pourrait à nouveau être mise en place en cas de résurgence d’impact et sur rapport de l’inspecteur des Installations Classées.
+
+23l0l0	être_mise_en_place_en_cas_de_résurgence	N
+23l0l1	l__inspecteur_des_Installations_Classées	O
+
+#Les piézomètres Pz1, Pz2 et Pz3 doivent être, soit conservés en l’état, capuchonnés et cadenassés, soit rebouchés dans les règles de l’art pour les besoins d’aménagement du site susvisé.
+
+24l0l0	rebouchés_dans	N
+24l0l1	les_règles_de_l__art	O
+24l0l2	les_besoins_d__aménagement	N
+
+#Un rapport de bouchage doit être transmis à l’inspection des installations classées.
+
+
+#4 - CESSION
+
+26l0l0	CESSION	N
+
+#Des surfaces commerciales ont été construites sur le site.
+
+27l0l0	Des_surfaces_commerciales	O
+27l0l1	ont_été_construites	N
+
+#L'arrêté préfectoral du 17 avril 2009 prévoit que, préalablement à tout acte de cession des terrains, le propriétaire doit informer l’acquéreur de la pollution des sols et de la nappe ainsi que des résultats du suivi analytique des eaux souterraines.
+
+28l0l0	arrêté_préfectoral	O
+28l0l1	17_avril_2009	T
+28l0l2	à_tout_acte_de_cession	N
+28l0l3	des_terrains	O
+28l0l4	le_propriétaire	O
+28l0l5	doit_informer	N
+28l0l6	l__acquéreur	O
+28l0l7	suivi_analytique_des_eaux_souterraines	A
+
+#A cet effet, l’ensemble des études réalisées dans le cadre de l’arrêté préfectoral du 24 avril 2006 doit être remise à l’acquéreur.
+
+29l0l0	l__ensemble_des_études	O
+29l0l1	réalisées	N
+29l0l2	dans_le_cadre_de	R
+29l0l3	l__arrêté_préfectoral	O
+29l0l4	24_avril_2006	T
+29l0l5	doit_être_remise	N
+
+#5 - SOLDE
+
+30l1l0	SOLDE	I
+
+#Le 17 avril 2009, la DRIRE estime qu’une action complémentaire de l'Inspection des Installations Classées sur ce site n’est pas nécessaire.
+
+31l0l0	Le_17_avril_2009__	T
+31l0l1	la_DRIRE	O
+31l0l2	une_action_complémentaire	O
+31l0l3	l__Inspection_des_Installations_Classées	O
+31l1l0	la_DRIRE	I
+
+#La DRIRE propose de basculer ce site dans la Base de données des Anciens Sites Industriels et Activités de Service (BASIAS).
+
+32l0l0	La_DRIRE	O
+32l0l1	la_Base_de_données	O
+32l0l2	Activités_de_Service	A
+32l0l3	BASIAS	O
+32l1l0	La_DRIRE	I

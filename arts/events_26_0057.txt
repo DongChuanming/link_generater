@@ -1,0 +1,422 @@
+
+#26.0057
+#Le Lycée du Valentin de Bourg-Lès-Valence est suspecté d'être à l'origine d'une contamination des eaux souterraines mises en évidence sur une carrière située à proximité (ancienne carrière GIRARD).
+
+0l0l0	Le_Lycée	O
+0l0l1	du_Valentin	O
+0l0l2	de_Bourg_Lès_Valence	L
+0l0l3	l_	O
+0l0l4	origine_d_	R
+0l0l5	une_contamination	N
+0l0l6	eaux_souterraines	O
+0l0l7	mises_en_évidence_sur	N
+0l0l8	une_carrière	O
+0l0l9	située_à_proximité___ancienne_carrière_GIRARD	L
+0l1l0	ancienne_carrière_GIRARD	I
+
+#En effet, un terrain dénommé « La Carrière du Geai » se situe immédiatement à l’ouest du lycée agricole du Valentin, à Bourg Lès Valence.
+
+1l0l0	un_terrain	O
+1l0l1	__La_Carrière_du_Geai	O
+1l0l2	____se_situe_immédiatement_à_l__ouest_du_lycée_agricole_du_Valentin	L
+1l0l3	__à_Bourg_Lès_Valence	L
+
+#Ce terrain fait l’objet d’un projet immobilier (construction de 120 logements).
+
+2l0l0	Ce_terrain	O
+2l0l1	fait_l__objet_d_	R
+2l0l2	un_projet_immobilier	N
+2l0l3	construction_de_120_logements	N
+
+#Dans cette perspective, la société GEOPLUS a réalisé pour ce site en juillet 2004 une étude intitulée « Diagnostic Environnemental - Evaluation Simplifiée des Risques ».
+
+3l0l0	la_société_GEOPLUS	O
+3l0l1	a_réalisé	N
+3l0l2	ce_site	O
+3l0l3	en_juillet_2004	T
+3l0l4	une_étude	N
+3l0l5	__Diagnostic_Environnemental	N
+3l0l6	____Evaluation_Simplifiée_des_Risques	N
+3l1l0	la_société_GEOPLUS	I
+
+#Cette étude montre l’existence de plusieurs zones polluées dans le site ; elle fait notamment état du fait que, pour ce qui concerne la pollution découverte, relative aux hydrocarbures, la source de pollution n’est pas située dans le site étudié.
+
+4l0l0	plusieurs_zones_polluées	O
+4l0l1	__la_source_de_pollution	O
+4l1l0	aux_hydrocarbures	S
+
+#Une seconde étude a été réalisée en juillet 2005 par la société NORISKO Environnement, elle précise notamment que :
+
+5l0l0	Une_seconde_étude_a_été_réalisée_en	N
+5l0l1	juillet_2005	T
+5l0l2	la_société_NORISKO_Environnement	O
+5l1l0	la_société_NORISKO	I
+
+#- «  Les sols présents au toit de la nappe, dans la zone saturée, sont noirs et irisés… »
+
+
+#- « La problématique majeure du site concerne la contamination de la nappe par les hydrocarbures observée dans le quart nord-est du terrain… »
+
+7l0l0	la_contamination	N
+7l0l1	de_la_nappe	O
+7l0l2	les_hydrocarbures	O
+7l0l3	observée_dans_le_quart_nord_est_du_terrain	L
+7l1l0	les_hydrocarbures	S
+
+#Le lycée agricole du Valentin a exploité jusqu’en 2005 plusieurs chaudières fonctionnant exclusivement au fioul domestique.
+
+8l0l0	Le_lycée_agricole	O
+8l0l1	a_exploité	N
+8l0l2	jusqu__en_2005	T
+8l0l3	plusieurs_chaudières	O
+8l0l4	fioul_domestique	A
+8l1l0	fioul	U
+
+#Elles sont démantelées à ce jour.
+
+9l0l0	démantelées	N
+9l0l1	à_ce_jour	T
+
+#Le fioul domestique nécessaire au fonctionnement des chaudières était stocké dans 3 cuves enterrées, simple enveloppe, de 25 m3 de capacité unitaire.
+
+10l0l0	Le_fioul_domestique	O
+10l0l1	au_fonctionnement_des_chaudières	A
+10l0l2	était_stocké_dans	R
+10l0l3	3_cuves_enterrées	O
+10l1l0	fioul_domestique	U
+
+#Ces 3 cuves ont été nettoyées et neutralisées par la société SAVAC en 2005.
+
+11l0l0	Ces_3_cuves	O
+11l0l1	ont_été_nettoyées	N
+11l0l2	neutralisées_par	N
+11l0l3	la_société_SAVAC	O
+11l0l4	en_2005__	T
+11l1l0	cuves	D
+11l1l1	la_société_SAVAC	I
+
+#Usage des eaux, vulnérabilité :
+
+
+#Les prélèvements considérés en position vulnérable compte-tenu de leur position en aval hydraulique et de leur proximité par rapport au site sont :
+
+13l0l0	Les_prélèvements_considérés	O
+13l0l1	en_aval_hydraulique	L
+13l0l2	proximité_par_rapport_au_site	L
+
+#* Pour l'alimentation en eau potable : le captage du Puits des couleurs, situé à 1,1 km au sud du site, sur la commune de Valence,
+
+14l0l0	__le_captage	O
+14l0l1	__situé_à_1_1_km_au_sud_du_site	L
+14l0l2	__sur_la_commune_de_Valence	L
+
+#* Pour l'irrigation : la prise d'eau superficielle de la rivière Tourtelle à 0,6 km au nord et le puits (eau souterraine) Le Valentin à 0,6 km au sud,
+
+15l0l0	l__irrigation	A
+15l0l1	__la_prise	O
+15l0l2	de_la_rivière_Tourtelle	L
+15l0l3	à_0_6_km_au_nord	L
+15l0l4	et_le_puits	O
+15l0l5	Valentin_à_0_6_km_au_sud	L
+
+#* Pour l'industrie, le refroidissement et la climatisation : la station de pompage en nappe de l'usine SPIT à 0,48 km au sud-ouest et le forage en nappe de CHEDDITE France à 0,815 km au sud-ouest du lycée.
+
+16l0l0	l__industrie	A
+16l0l1	le_refroidissement_et_la_climatisation	A
+16l0l2	__la_station_de_pompage	O
+16l0l3	en_nappe	N
+16l0l4	de_l__usine_SPIT	O
+16l0l5	à_0_48_km_au_sud_ouest	L
+16l0l6	et_le_forage_en	N
+16l0l7	de_CHEDDITE_France	O
+16l0l8	à_0_815_km_au_sud_ouest_du_lycée	L
+16l1l0	de_CHEDDITE_France	I
+
+#Lors de sa visite des lieux effectuée le 31 août 2005, l’inspecteur des installations classées a recueilli les informations suivantes : le fond des regards surmontant les trous d’homme de deux des 3 cuves de stockage de fioul domestique était gorgé de fioul.
+
+17l0l0	sa_visite_des_lieux_effectuée	N
+17l0l1	le_31_août_2005__	T
+17l0l2	l__inspecteur_des_installations_classées	O
+17l0l3	__le_fond_des_regards_surmontant	O
+17l0l4	des_3_cuves_de_stockage_de_fioul_domestique	O
+17l0l5	était	R
+17l0l6	gorgé_de_fioul	O
+17l1l0	3_cuves	D
+17l1l1	de_fioul_domestique	U
+17l1l2	de_fioul	S
+
+#Le point bas de l’ancienne chaufferie était équipé d’une pompe de relevage dirigeant les effluents dans un puits perdu extérieur, situé devant la chaufferie.
+
+18l0l0	Le_point_bas	O
+18l0l1	chaufferie	O
+18l0l2	était	R
+18l0l3	une_pompe_de_relevage	O
+18l0l4	dirigeant	N
+18l0l5	les_effluents	O
+18l0l6	un_puits_perdu_extérieur	O
+18l0l7	situé_devant_la_chaufferie	L
+18l1l0	les_effluents	U
+
+#Dans le cadre de cette découverte, la société SOCOTEC Industries a été mandatée pour réaliser un diagnostic de pollution des sols (rapport du 28 juillet 2006), portant sur des prélèvements et analyses de sols et d’eaux souterraines effectués dans l’emprise du lycée du Valentin.
+
+19l0l0	Dans_le_cadre_de	R
+19l0l1	cette_découverte	N
+19l0l2	la_société_SOCOTEC_Industries	O
+19l0l3	a_été_mandatée	N
+19l0l4	réaliser_un_diagnostic_de_pollution	N
+19l0l5	des_sols	N
+19l0l6	rapport	N
+19l0l7	28_juillet_2006	T
+19l0l8	dans_l__emprise_du_lycée_du_Valentin	L
+19l1l0	la_société_SOCOTEC_Industries	I
+
+#L'étude historique a mentionné les infrastructures suivantes qui seraient à l'origine de la contamination des eaux souterraines : une ancienne cuve enterrée de fuel, une chaufferie, un puits perdu ayant récolté des écoulements de fuel lors d'un incident survenu au niveau de la chaufferie dans les années 1990 (ces équipements sont concentrés dans la mêmem zone).
+
+20l0l0	les_infrastructures	O
+20l0l1	à_l__origine_de	R
+20l0l2	la_contamination	O
+20l0l3	eaux_souterraines	O
+20l0l4	__une_ancienne_cuve_enterrée	O
+20l0l5	de_fuel	N
+20l0l6	une_chaufferie	O
+20l0l7	des_écoulements	R
+20l0l8	de_fuel	O
+20l0l9	lors_d_	R
+20l0l10	un_incident_survenu	N
+20l0l11	au_niveau_de_la_chaufferie	O
+20l0l12	dans_les_années_1990	T
+20l0l13	__ces_équipements	O
+20l0l14	sont_concentrés	N
+20l0l15	dans_la_mêmem_zone	L
+20l1l0	de_fuel	U
+20l1l1	de_fuel	U
+
+#Les principales actions suivantes ont été menées les 10, 11 et 12 juillet 2006 :
+
+21l0l0	Les_principales_actions	O
+21l0l1	suivantes_ont_été_menées	N
+21l0l2	les_10___11_et_12_juillet_2006	T
+
+#- 5 sondages à proximité des cuves enterrées de fioul domestique ;
+
+22l0l0	5_sondages	N
+22l0l1	à_proximité_des_cuves_enterrées_de_fioul_domestique	L
+22l1l0	cuves_enterrées	D
+22l1l1	fioul_domestique	U
+
+#- 3 piézomètres : à proximité de la chaufferie et du puisard (PZ7), au nord du site (PZ1), au sud du site (PZ2).
+
+23l0l0	__à_proximité_de_la_chaufferie	L
+23l0l1	__au_nord_du_site__	L
+23l0l2	__au_sud_du_site	L
+23l0l3	_	O
+
+#- 25 échantillons de sol prélevés et analysés au niveau des sondages.
+
+
+#- prélèvements et analyses des eaux souterraines dans les piézomètres.
+
+
+#Les principaux résultats sont les suivants :
+
+
+#- le nivellement relatif des piézomètres conduisent à un sens d’écoulement de la nappe vers le nord ;
+
+27l0l0	un_sens	O
+27l0l1	vers_le_nord	L
+
+#- des indices de présence d’hydrocarbures sont mis en évidence dans le sol entre 10,5 m et 11,5 m, et dans les eaux, au droit du piézomètre PZ7 ;
+
+28l0l0	les_eaux	O
+28l0l1	au_droit_du_piézomètre_PZ7	L
+28l1l0	hydrocarbures	S
+
+#- les analyses des sols prélevés (portant sur les hydrocarbures totaux, BTEX, HAP) ne montrent pas de dépassement des seuils de l'époque (VDSS - valeur de définition de source sol et VCI usage sensible - valeur de constat d’impact usage sensible) ;
+
+29l0l0	les_analyses_des_sols_prélevés	N
+29l1l0	hydrocarbures_totaux	S
+29l1l1	BTEX	S
+29l1l2	HAP	S
+
+#- pour les eaux, les mêmes paramètres cités ci-dessus sont analysés, les concentrations en BTEX et en HAP sont relativement faibles, par contre les teneurs en hydrocarbures totaux sont élevées (au droit de PZ1, 1,5 mg/L et de PZ7, 5,7 mg/L).
+
+30l1l0	BTEX	S
+30l1l1	HAP	S
+30l1l2	hydrocarbures_totaux	S
+
+#Conclusion et recommandations de SOCOTEC Industries :
+
+31l0l0	SOCOTEC_Industries	O
+31l1l0	SOCOTEC_Industries	I
+
+#« Le sens d’écoulement des eaux souterraines, vers le nord, n’est pas cohérent avec l’écoulement général orienté du nord vers le sud ; il est toutefois possible que la dépression topographique et la présence de nombreux bassins dans celle-ci influence fortement et de façon très locale le niveau des eaux souterraines, créant ainsi un dôme piézométrique au niveau de cette dépression.
+
+32l0l0	__vers_le_nord	L
+32l0l1	général_orienté_du_nord_vers_le_sud	N
+
+#Les investigations menées mettent en évidence une contamination des eaux souterraines par les hydrocarbures totaux au niveau de la zone des cuves du lycée (PZ7), ainsi qu’au nord du site (PZ1).
+
+33l0l0	Les_investigations_menées	N
+33l0l1	une_contamination	N
+33l0l2	eaux_souterraines	O
+33l0l3	hydrocarbures_totaux	O
+33l0l4	au_niveau_de	R
+33l0l5	la_zone_des_cuves_du_lycée	O
+33l0l6	au_nord_du_site	L
+33l1l0	hydrocarbures_totaux	S
+33l1l1	cuves	D
+
+#Il n’a toutefois pas été mis en évidence de contamination des sols au droit des sondages réalisés autour des cuves. »
+
+34l0l0	contamination	O
+34l0l1	droit_des_sondages_réalisés_autour_des_cuves	L
+
+#SOCOTEC Industries a recommandé :
+
+35l0l0	SOCOTEC_Industries	O
+35l1l0	SOCOTEC_Industries	I
+
+#- de réaliser un nouveau piézomètre au nord-est de PZ1 et PZ7, hors de la dépression topographique, afin de vérifier le sens d’écoulement des eaux souterraines et de faire niveler les piézomètres par un géomètre expert ;
+
+36l0l0	de_réaliser	N
+36l0l1	un_nouveau_piézomètre_au	O
+36l0l2	nord_est_de_PZ1	L
+36l0l3	hors_de_la	L
+36l0l4	dépression_topographique	N
+36l0l5	et_de_faire_niveler	N
+36l0l6	les_piézomètres	N
+36l0l7	par_un_géomètre_expert	O
+
+#- de réaliser une nouvelle campagne de prélèvements d’eau au droit des piézomètres afin de suivre l’évolution de la qualité de la nappe.
+
+37l0l0	de_réaliser_une_nouvelle_campagne_de_prélèvements	N
+
+#Suite à ces investigations, l'inspection (dans son rapport du 16 octobre 2006) a demandé des investigations complémentaires pour :
+
+38l0l0	16_octobre_2006	T
+38l0l1	a_demandé_des_investigations_complémentaires	N
+
+#- déterminer l’absence ou l’existence d’un lien entre la pollution d’hydrocarbures constatée dans l’ancienne carrière de l’entreprise GIRARD et celle constatée au niveau des anciennes installations du lycée ;
+
+39l0l0	la_pollution	N
+39l0l1	l__entreprise_GIRARD	O
+39l0l2	au_niveau_des_anciennes_installations_du_lycée	L
+39l1l0	hydrocarbures	S
+39l1l1	GIRARD	I
+
+#- lever toute incertitude sur les caractéristiques des eaux souterraines, en particulier, son sens d’écoulement au droit des terrains du lycée et à l’aval hydrogéologique ;
+
+40l0l0	droit_des_terrains_du_lycée	L
+40l0l1	à_l__aval_hydrogéologique	L
+
+#- mener les actions de dépollution nécessaires et suffisantes pour que les eaux souterraines recouvrent tous usages potentiels (irrigation, puits privés, etc…) dans l’emprise des terrains du lycée et dans la zone à l’aval hydrogéologique éventuellement impactée par la pollution découverte dans le lycée ;
+
+41l0l0	mener_les_actions_de_dépollution	N
+41l0l1	dans_l__emprise_des_terrains_du	O
+41l0l2	dans_la	L
+41l0l3	zone_à_l_	O
+41l0l4	impactée_par	R
+41l0l5	lycée____	L
+
+#- exercer une surveillance adaptée de la pollution découverte.
+
+42l0l0	exercer_une_surveillance_adaptée	N
+
+#Un arrêté préfectoral, en date du 31 janvier 2007, a été pris pour prescrire des investigations complémentaires et un suivi des eaux souterraines.
+
+43l0l0	Un_arrêté_préfectoral	O
+43l0l1	en_date_du_31_janvier_2007__	T
+43l0l2	a_été_pris	N
+43l0l3	prescrire_des_investigations_complémentaires	N
+43l0l4	un_suivi_des_eaux_souterraines	A
+
+#Des investigations complémentaires ont été réalisées en octobre 2008 (rapport SOCOTEC Industries du 4 décembre 2008) :
+
+44l0l0	Des_investigations_complémentaires	N
+44l0l1	ont_été_réalisées	N
+44l0l2	en_octobre_2008	T
+44l0l3	SOCOTEC_Industries	O
+44l0l4	du_4_décembre_2008	T
+44l1l0	rapport_SOCOTEC_Industries	I
+
+#- 4 piézomètres ont été forés : PZ8 à PZ11 ;
+
+45l0l0	ont_été_forés	N
+
+#- des prélèvements d'eaux souterraines ont été réalisés ;
+
+46l0l0	ont_été_réalisés	N
+
+#- des prélèvements d'eaux superficielles ont été réalisés le 21 octobre au niveau des bassins présents en contrebas, où se déverse une résurgence d'eaux souterraines provenant du lycée (1 prélèvement en amont et un en aval de cette résurgence).
+
+47l0l0	superficielles_ont_été_réalisés	N
+47l0l1	le_21_octobre	T
+47l0l2	au_niveau	R
+47l0l3	des_bassins	O
+47l0l4	en_contrebas	L
+47l0l5	déverse_une_résurgence	O
+
+#Les résultats mettent en évidence :
+
+
+#- un sens d'écoulement dirigé vers un point bas situé au sud-ouest du lycée.
+
+49l0l0	vers_un_point_bas_situé_au_sud_ouest_du_lycée	L
+
+#- une faible concentration en HCT dans les sols au droit de PZ9 (26 mg/kg entre 9,8 et 11,3 m)
+
+50l1l0	HCT	S
+
+#- l'absence d'HCT, HAP, CAV dans les sols sur les autres ouvrages au niveau de la zone de battement de la nappe.
+
+51l0l0	battement_de_la_nappe	A
+51l1l0	HCT	S
+51l1l1	HAP	S
+51l1l2	CAV	S
+
+#- la présence d'hydrocarbures dans les eaux souterraines au droit de PZ9 (2 mg/L).
+
+52l1l0	hydrocarbures	S
+
+#Suite à ces investigations, et dans le cadre de l'arrêté du 31 janvier 2007, un suivi de la qualité des eaux souterraines a été réalisé.
+
+53l0l0	Suite_à	R
+53l0l1	ces_investigations	N
+53l0l2	dans_le_cadre_de	R
+53l0l3	31_janvier_2007__	T
+53l0l4	un_suivi_de	A
+53l0l5	la_qualité_des_eaux_souterraines	O
+53l0l6	a_été_réalisé	N
+
+#Le rapport de SOCOTEC Industries du 14 septembre 2009 montre que le suivi des eaux souterraines a fait l'objet de 10 campagnes de mesures entre octobre 2008 et août 2009 sur 4 piézomètres PZ1, PZ7, PZ9 et PZ11.
+
+54l0l0	SOCOTEC_Industries	O
+54l0l1	14_septembre_2009	T
+54l0l2	le_suivi_des_eaux_souterraines	A
+54l0l3	a_fait_l__objet_de	R
+54l0l4	10_campagnes_de_mesures	N
+54l0l5	entre_octobre_2008_et_août_2009	T
+54l1l0	SOCOTEC_Industries	I
+
+#Les dernières valeurs mesurées montrent toujours la présence d'hydrocarbures dans la nappe (à des concentrations inférieures au seuil de 1 mg/L).
+
+55l1l0	hydrocarbures	S
+
+#L'arrêté préfectoral du 31 janvier 2007 prévoyait, après une année de mesures mensuelles de passer à une fréquence trimestrielle de surveillance.
+
+56l0l0	L__arrêté_préfectoral	O
+56l0l1	du_31_janvier_2007	T
+56l0l2	après	R
+56l0l3	une_année	T
+56l0l4	surveillance	A
+
+#Cette surveillance n'a a priori pas été mise en place.
+
+57l0l0	Cette_surveillance	A
+
+#L'inspection des installations classées a rappelé dans son courrier du 27 avril 2012 les prescriptions prévues par l'arrêté du 31 janvier 2007 applicables en matière de surveillance de la qualité des eaux souterraines.
+
+58l0l0	L__inspection_des_installations_classées	O
+58l0l1	27_avril_2012	T
+58l0l2	31_janvier_2007	T
+58l0l3	surveillance_de_la_qualité_des_eaux_souterraines	A

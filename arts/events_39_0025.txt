@@ -1,0 +1,135 @@
+
+#39.0025
+#Le site est une parcelle qui ne comporte pas de bâtiments.
+
+0l0l0	Le_site	O
+
+#Elle n'a pas d'usage particulier et est occasionnellement occupée à des fins de stockage (bois, matériaux de déconstruction en quantité limitée).
+
+1l0l0	occupée_à	R
+1l0l1	des_fins	O
+1l0l2	de	R
+1l0l3	stockage	A
+
+#Le site présente une pollution des sols aux PCB après déversement accidentel du diélectrique contenu dans 2 transformateurs.
+
+2l0l0	Le_site	O
+2l0l1	présente	R
+2l0l2	une_pollution_des_sols	O
+2l0l3	déversement_accidentel	N
+2l0l4	2_transformateurs	O
+2l1l0	PCB	S
+2l1l1	diélectrique	U
+
+#Les transformateurs avaient été déposés par la CdC du Comté de GRIMONT, de manière transitoire, sur la parcelle concernée avant d'être pris en charge par une association (CENEMAT).
+
+3l0l0	Les_transformateurs	O
+3l0l1	avaient_été_déposés	N
+3l0l2	la	O
+3l0l3	CdC_du_Comté_de_GRIMONT	L
+3l0l4	sur	L
+3l0l5	la_parcelle_concernée	O
+3l0l6	avant_d_	R
+3l0l7	être_pris_en_charge	N
+3l0l8	une_association	O
+3l1l0	la_CdC_du_Comté_de_GRIMONT	I
+3l1l1	CENEMAT	I
+
+#Le but recherché était la vente de la ferraille afin de constituer un don destiné à la recherche sur les maladies génétiques rares.
+
+4l0l0	vente	A
+4l0l1	la_ferraille	O
+4l0l2	afin	R
+4l0l3	don	T
+4l0l4	destiné_à_la	R
+4l0l5	recherche_sur_les_maladies_génétiques_rares	A
+
+#01/12/2009 : déversement accidentel du diélectrique de 2 transformateurs contenant des PCB (environ 200 ppm).
+
+5l0l0	01_12_2009	T
+5l0l1	__déversement_accidentel	N
+5l0l2	2_transformateurs	O
+5l1l0	des_PCB	S
+
+#Les transformateurs sont évacués le jour même par une entreprise spécialisée.
+
+6l0l0	Les_transformateurs	O
+6l0l1	sont_évacués	N
+6l0l2	le_jour_même	T
+6l0l3	une_entreprise	O
+
+#17/01/2011 : Prise d'un arrêté préfectoral à l'encontre de la société CENEMAT, au titre de la législation des installations classées, portant prescriptions à "l'exploitant" de procéder à un diagnostic des sols et à la mise en œuvre d'actions curatives.
+
+7l0l0	17_01_2011	T
+7l0l1	__Prise_d_	N
+7l0l2	un_arrêté_préfectoral	O
+7l0l3	la_société_CENEMAT	O
+7l0l4	au_titre_de	R
+7l0l5	la_législation_des_installations_classées	O
+7l0l6	portant_prescriptions	N
+7l0l7	l__exploitant	O
+7l0l8	de_procéder_à_un_diagnostic	N
+7l0l9	sols	O
+7l0l10	la_mise_en_œuvre_d__actions_curatives	N
+7l1l0	la_société_CENEMAT	I
+
+#21/03/2011 : Requête introductive d'instance de l'association CENEMAT à l'encontre de l'arrêté préfectoral du 17 janvier 2011.
+
+8l0l0	21_03_2011	T
+8l0l1	Requête_introductive	N
+8l0l2	l__association_CENEMAT	O
+8l0l3	l__arrêté_préfectoral	O
+8l0l4	17_janvier_2011__	T
+8l1l0	CENEMAT	I
+
+#29/09/2011 : Prise d'un arrêté préfectoral à l'encontre de la Communauté de Communes du Comté de GRIMONT, en tant que propriétaire du site, au titre de la réglementation sur les déchets, rapportant les prescriptions prises à l'encontre de l'association CENEMAT.
+
+9l0l0	29_09_2011	T
+9l0l1	__Prise_d_	N
+9l0l2	un_arrêté_préfectoral	O
+9l0l3	l__encontre_de_la_Communauté	O
+9l0l4	de_Communes	O
+9l0l5	du_Comté_de_GRIMONT	L
+9l0l6	en_tant_que	R
+9l0l7	propriétaire_du_site	O
+9l0l8	l__association_CENEMAT	O
+9l1l0	la_Communauté_de_Communes_du	I
+9l1l1	Comté_de_GRIMONT	I
+9l1l2	les_déchets	U
+9l1l3	CENEMAT	I
+
+#16/12/2011 : Réalisation d'un diagnostic par la société TAUW France présentant l'étude historique et documentaire se rapportant au site.
+
+10l0l0	16_12_2011	T
+10l0l1	Réalisation_d__un_diagnostic	N
+10l0l2	la_société_TAUW_France	O
+10l1l0	la_société_TAUW	I
+
+#18/01/2012 : Réalisation d'un diagnostic complémentaire afin de permettre de définir les mesures de gestion appropriées au site.
+
+11l0l0	18_01_2012	T
+11l0l1	__Réalisation_d__un_diagnostic_complémentaire	N
+11l0l2	définir_les_mesures_de_gestion	O
+
+#28/09/2012 : Réalisation de travaux de dépollution comportant l'excavation de terres polluées (319 tonnes par biocentre et désorption thermique) et le traitement par incinération d'eaux polluées et de charbon actif et remblaiement par des matériaux sains.
+
+12l0l0	28_09_2012	T
+12l0l1	__Réalisation_de_travaux_de_dépollution	N
+12l0l2	comportant	R
+12l0l3	l__excavation	N
+12l0l4	de_terres_polluées	O
+12l0l5	désorption	N
+12l0l6	le_traitement_par	N
+12l0l7	incinération_d_	A
+12l0l8	eaux_polluées	O
+12l0l9	remblaiement_par_des_matériaux_sains	N
+12l1l0	charbon_actif	U
+
+#21/12/2012 : Remise du mémoire de fin de travaux.
+
+13l0l0	21_12_2012	T
+13l0l1	__Remise	N
+
+#Pas d'analyse de risques résiduels nécessaire (coupure des voies de transfert) ni de surveillance proposée.
+
+14l0l0	des_voies_de_transfert	O

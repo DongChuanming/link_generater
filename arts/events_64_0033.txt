@@ -1,0 +1,517 @@
+
+#64.0033
+#Usine chimique de fabrication de produits de base pour la cosmétique exploitée par la société CHIMEX sur la commune de Mourenx (64).
+
+0l0l0	Usine_chimique_de_fabrication_de_produits_de_base	O
+0l0l1	la_cosmétique	A
+0l0l2	exploitée_par	R
+0l0l3	la_société_CHIMEX	O
+0l0l4	sur_la_commune_de_Mourenx___64__	L
+0l1l0	la_société_CHIMEX	I
+
+#L'usine CHIMEX, construite en 1977 sur la plate-forme SOBEGI, exploite deux unités de production.
+
+1l0l0	L__usine_CHIMEX	O
+1l0l1	construite	N
+1l0l2	en_1977	T
+1l0l3	forme_SOBEGI	O
+1l0l4	exploite	N
+1l0l5	deux_unités_de_production	A
+1l1l0	CHIMEX	I
+1l1l1	SOBEGI	I
+
+#Filiale du groupe L’OREAL, la société CHIMEX fabrique sur le site entre 5000 et 6000 tonnes de produits de base notamment pour la cosmétique dont la gamme se compose d’environ 50 références.
+
+2l0l0	Filiale_du	R
+2l0l1	groupe_L__OREAL	O
+2l0l2	la_société_CHIMEX	O
+2l0l3	le_site	O
+2l0l4	5000_et_6000_tonnes_de_produits_de_base	O
+2l0l5	la_cosmétique	A
+2l1l0	groupe_L__OREAL	I
+2l1l1	la_société_CHIMEX	I
+2l1l2	la_cosmétique	U
+
+#Le site comprend deux unités de production UP1 et UP2 et plusieurs zones ou bâtiments de stockage :
+
+3l0l0	Le_site	O
+3l0l1	comprend	N
+3l0l2	deux_unités_de_production	O
+
+#- l’unité UP1 est notamment destinée à la fabrication de produits tensio-actifs et produits de base pour crèmes et produits capillaires.
+
+4l0l0	à_la_fabrication_de_produits_tensio	A
+4l0l1	crèmes	A
+4l1l0	tensio	U
+
+#- l’unité UP2 est destinée à la fabrication de polymères, de spécialités et colorants utilisés notamment dans l’industrie de la cosmétique.
+
+5l0l0	à_la_fabrication_de_polymères	A
+5l0l1	l__industrie_de_la_cosmétique	A
+5l1l0	polymères	U
+5l1l1	colorants	U
+5l1l2	la_cosmétique	U
+
+#Les installations sont autorisées par l'arrêté préfectoral du 8 avril 1977.
+
+6l0l0	Les_installations	O
+6l0l1	sont_autorisées	N
+6l0l2	par_l__arrêté_préfectoral	O
+6l0l3	du_8_avril_1977__	T
+
+#Le site est implanté au droit d'une nappe superficielle qui s'écoule vers le nord-ouest.
+
+7l0l0	Le_site	O
+7l0l1	est_implanté_au_droit_d__une_nappe	L
+7l0l2	vers_le_nord_ouest	L
+
+#1 - DIAGNOSTIC
+
+8l0l0	DIAGNOSTIC	N
+
+#1-1- DIAGNOSTIC INITIAL
+
+9l0l0	DIAGNOSTIC_INITIAL	N
+9l1l0	INITIAL	I
+
+#A la fin de l'année 1996, les analyses de l'eau de nappe réalisées périodiquement par la société CHIMEX révèlent la présence de monochlorobenzène.
+
+10l0l0	A_la_fin_de_l__année_1996__	T
+10l0l1	les_analyses	N
+10l0l2	l__eau_de_nappe	A
+10l0l3	réalisées_périodiquement	N
+10l0l4	la_société_CHIMEX	O
+10l0l5	révèlent	R
+10l0l6	la_présence	O
+10l1l0	la_société_CHIMEX	I
+10l1l1	monochlorobenzène	S
+
+#Une étude des sols et de la nappe est réalisée dans le cadre de l'arrêté préfectoral du 16 janvier 1997.
+
+11l0l0	Une_étude_des_sols	N
+11l0l1	est_réalisée	N
+11l0l2	dans_le_cadre_de	R
+11l0l3	l__arrêté_préfectoral	O
+11l0l4	16_janvier_1997__	T
+
+#L'arrêté préfectoral du 20 octobre 1997 prescrit le diagnostic initial et l'évaluation simplifiée des risques (ESR) du site.
+
+12l0l0	L__arrêté_préfectoral	O
+12l0l1	20_octobre_1997	T
+12l0l2	prescrit	R
+12l0l3	le_diagnostic_initial	N
+12l0l4	l__évaluation_simplifiée_des_risques	N
+12l0l5	du_site	O
+
+#Les études ont été remises en septembre 1999 et janvier 2000.
+
+13l0l0	Les_études	O
+13l0l1	ont_été_remises	N
+13l0l2	en_septembre_1999_et_janvier_2000__	T
+
+#Elles concluent sur:
+
+
+#- l'impact sur les sols et la nappe par le monochlorobenzène (MCB),
+
+15l1l0	monochlorobenzène	S
+15l1l1	MCB	S
+
+#- l'absence de source de contamination en MCB et toluène dans les sols au droit des zones affectés par les déversements accidentels de 1992 et 1996 (voir 4 - ACCIDENTS).
+
+16l0l0	l__absence_de_source_de_contamination	O
+16l0l1	des_zones	O
+16l0l2	affectés_par	R
+16l0l3	les_déversements_accidentels	N
+16l0l4	de_1992_et_1996	T
+16l1l0	MCB	S
+16l1l1	toluène	S
+
+#Toutefois, l'ESR classe le site en 2 "à surveiller" pour l'usage du moment.
+
+17l1l0	l__ESR	I
+
+#Le risque est estimé acceptable et aucuns travaux de dépollution du sol et de la nappe ne sont nécessaires pour le moment.
+
+18l0l0	Le_risque	O
+18l0l1	travaux_de_dépollution	N
+18l0l2	sol	O
+18l0l3	la_nappe	O
+18l0l4	pour_le_moment	T
+
+#Le coût global des diverses études menées de 1997 à 1999 s'élève à 450 000 francs.
+
+19l0l0	de_1997_à_1999	T
+19l0l1	s__élève_à	N
+
+#1-2- AUDIT DES SOLS DE LA ZONE DE POMPERIE DU STOCKAGE
+
+20l0l0	AUDIT	N
+20l0l1	SOLS	O
+20l0l2	LA_ZONE	O
+20l1l0	LA_ZONE_DE_POMPERIE_DU_STOCKAGE	I
+
+#Au printemps 2001, CHIMEX constate une pollution superficielle des sols par des produits noirs et demande un audit des sols de la zone.
+
+21l0l0	Au_printemps_2001__	T
+21l0l1	CHIMEX	O
+21l0l2	demande_un_audit_des_sols	N
+21l0l3	la_zone	O
+21l1l0	CHIMEX	I
+21l1l1	produits_noirs	U
+
+#Les sondages réalisés sur la zone confirment la présence de la pollution à des teneurs significatives et principalement dans les niveaux argileux de la zone non saturée.
+
+22l0l0	Les_sondages_réalisés	N
+22l0l1	la_zone	O
+22l0l2	des_teneurs	O
+22l0l3	saturée	O
+
+#L'audit conclut sur l'absence de risques à l'extérieur du site, car la valeur de constat d'impact n'est pas dépassée dans les eaux souterraines.
+
+23l0l0	l__absence_de_risques	O
+23l0l1	à_l__extérieur_du_site	L
+
+#1-3- DIAGNOSTIC SUITE A UNE POLLUTION PAR LE FER ET L'ARSENIC
+
+24l0l0	DIAGNOSTIC	N
+24l0l1	SUITE_A	R
+24l0l2	UNE_POLLUTION	N
+24l0l3	FER	O
+24l0l4	L__ARSENIC	O
+24l1l0	LE_FER	S
+24l1l1	L__ARSENIC	S
+
+#Depuis 2001, une pollution par du fer et de l'arsenic a été mise en évidence :
+
+25l0l0	Depuis_2001__	T
+25l0l1	une_pollution	O
+25l0l2	fer	O
+25l0l3	l__arsenic	O
+25l0l4	a_été_mise_en_évidence	N
+25l1l0	fer	S
+25l1l1	arsenic	S
+
+#- au niveau d'une résurgence située en rive droite de la rivière Baïse,
+
+26l0l0	au_niveau_d_	R
+26l0l1	une	O
+26l0l2	résurgence_située_en_rive_droite_de_la_rivière_Baïse	L
+
+#- et au droit de plusieurs puits de particuliers proches, sur la commune d'Os Marsillon.
+
+27l0l0	au_droit_de	L
+27l0l1	plusieurs_puits_de_particuliers_proches	O
+27l0l2	sur_la_commune_d__Os_Marsillon	L
+
+#Cette pollution se situe moins d'un kilomètre en aval de la plateforme industrielle de SOBEGI.
+
+28l0l0	Cette_pollution	O
+28l0l1	se_situe_moins_d__un_kilomètre_en_aval_de_la_plateforme_industrielle_de_SOBEGI	O
+28l1l0	SOBEGI	I
+
+#A partir de 2009, afin de déterminer si cette pollution pouvait être liée à ses installations, Chimex a  mandaté différents experts.
+
+29l0l0	A	R
+29l0l1	partir_de_2009__	T
+29l0l2	ses_installations	O
+29l0l3	Chimex	O
+29l0l4	a___mandaté	N
+29l0l5	différents_experts	O
+29l1l0	Chimex	I
+
+#Les études rendues ont contribué à mieux comprendre le mécanisme de la pollution observée au niveau de la Baïse, sans toutefois en déterminer la (ou les) origine(s) exacte(s).
+
+30l0l0	Les_études_rendues	N
+30l0l1	au_niveau_de_la_Baïse	L
+
+#Ainsi, la pollution de la Baïse par des métaux (Fe, Mn, As) est liée au potentiel d'oxydo-réduction (corrélé à la quantité d'oxygène) très bas dans les eaux souterraines au droit du site.
+
+31l0l0	la_Baïse	L
+31l0l1	des_métaux	O
+31l1l0	des_métaux	S
+31l1l1	Fe	S
+31l1l2	Mn	S
+31l1l3	As	S
+
+#Les métaux naturellement présents dans le milieu aquifère sont dissous dans la nappe et, au niveau de la résurgence de la Baïse,  précipitent au contact de l'air.
+
+32l0l0	résurgence_de_la_Baïse	L
+32l1l0	Les_métaux	S
+
+#Ces perturbations de la nappe proviennent d'une pollution organique dont la biodégradation induit une diminution d'oxygène.
+
+33l0l0	la_nappe	O
+33l1l0	pollution_organique	U
+
+#Ces études ainsi que celles menées par d'autres industriels de la plate-forme montrent :
+
+
+#- que les activités de la plateforme SOBEGI ont un impact sur la qualité des eaux souterraines,
+
+35l0l0	la_plateforme_SOBEGI	O
+35l1l0	la_plateforme_SOBEGI	I
+
+#- qu'un lien, au moins partiel, existe avec la pollution de la Baïse.
+
+36l0l0	la_pollution	O
+36l0l1	de_la_Baïse	L
+
+#Pour autant, les contributions individuelles de chaque établissement ne sont pas déterminées.
+
+
+#Suite à un projet d'arrêté préfectoral, CHIMEX a transmis un courrier à l'administration dans lequel sont indiqués les faits suivants :
+
+38l0l0	un_projet	O
+38l0l1	d__arrêté_préfectoral	O
+38l0l2	CHIMEX	O
+38l0l3	a_transmis	N
+38l1l0	CHIMEX	I
+
+#- Il précise que les études qu'il a fournies concluent que les activités de Chimex n'ont pas contribué à la contamination des milieux.
+
+39l0l0	concluent	R
+39l0l1	les_activités_de_Chimex	O
+39l0l2	la_contamination_des_milieux	N
+39l1l0	Chimex	I
+
+#L'inspection des installations classées a pris en compte cette remarque en précisant que la plateforme SOBEGI avait un impact sur la qualité des eaux souterraines mais que les contributions individuelles de chaque établissement n'étaient pas déterminées.
+
+40l0l0	L__inspection_des_installations_classées	O
+40l0l1	a_pris	N
+40l0l2	la_plateforme_SOBEGI	O
+40l0l3	avait_un_impact	N
+40l0l4	sur	R
+40l0l5	la_qualité_des_eaux_souterraines	O
+40l1l0	la_plateforme_SOBEGI	I
+
+#Néanmoins, si l'inspection des installations classées reconnaît qu'aucun lien n'est établi entre les installations de Chimex et la pollution actuelle des eaux souterraines, elle n'en conclut pas pour autant qu'il n'en existe pas, et elle souhaite identifier par une approche individuelle de chaque site, l'origine de la pollution affectant les eaux souterraines.
+
+41l0l0	l__inspection_des_installations_classées	O
+41l0l1	les_installations_de_Chimex	O
+41l0l2	eaux_souterraines	L
+41l1l0	Chimex	I
+
+#- Par ailleurs l'exploitant rappelle une des conclusions de ses études selon laquelle la pollution proviendrait de l'amont de la plateforme SOBEGI et exprime le souhait que soient menées des investigations futures en ce sens, conformément aux préconisations d'un de ses experts.
+
+42l0l0	l__exploitant	O
+42l0l1	la_pollution	O
+42l0l2	proviendrait_de_l__amont_de	L
+42l0l3	la_plateforme_SOBEGI	O
+42l0l4	le_souhait	O
+42l1l0	plateforme_SOBEGI	I
+
+#L'inspection des installations classées a pris en compte cette hypothèse et a souhaité renforcer les contrôles à l'amont de la plateforme.
+
+43l0l0	L__inspection_des_installations_classées	O
+43l0l1	a_pris_en_compte	N
+43l0l2	a_souhaité	R
+43l0l3	renforcer	N
+43l0l4	les_contrôles	A
+43l0l5	à_l__amont_de	L
+43l0l6	la_plateforme	O
+
+#A cette fin, des analyses sur des piézomètres supplémentaires, à l'amont de la plateforme, sont réalisées depuis octobre 2010.
+
+44l0l0	à_l__amont_de_la_plateforme	L
+44l0l1	sont_réalisées	N
+44l0l2	depuis_octobre_2010__	T
+
+#Ces analyses n'ont pas mis en évidence de perturbation massive en amont.
+
+45l0l0	amont	L
+
+#1-4- CARACTÉRISATION DE L’ÉTAT DE CONTAMINATION DES MILIEUX
+
+46l0l0	CONTAMINATION	N
+46l0l1	MILIEUX	O
+
+#Les arrêtés préfectoraux du 23 juillet 2012 complémentaires prescrivent à 7 des 10 établissements de la plateforme (y compris à l'établissement CHIMEX) une étude de caractérisation de l'état de contamination des milieux.
+
+47l0l0	Les_arrêtés_préfectoraux	O
+47l0l1	du_23_juillet_2012	T
+47l0l2	complémentaires	O
+47l0l3	prescrivent	N
+47l0l4	7	O
+47l0l5	10_établissements	O
+47l0l6	la_plateforme	O
+47l0l7	l__établissement_CHIMEX	O
+47l0l8	une_étude_de_caractérisation	N
+47l0l9	l__état_de_contamination_des_milieux	O
+47l1l0	CHIMEX	I
+
+#Chimex a remis son étude le 14 février 2013.
+
+48l0l0	Chimex	O
+48l0l1	a_remis	N
+48l0l2	son_étude	O
+48l0l3	le	N
+48l0l4	14_février_2013__	T
+48l1l0	Chimex	I
+
+#Celle-ci est en cours d'instruction.
+
+49l0l0	en_cours_d_	T
+49l0l1	instruction	N
+
+#2 - TRAVAUX
+
+50l1l0	TRAVAUX	I
+
+#A l'issue du diagnostic de 1997, la société CHIMEX entreprend d'importants travaux préventifs de réfection et d'aménagement des installations pour un montant de 30 millions de francs :
+
+51l0l0	du_diagnostic	N
+51l0l1	de_1997__	T
+51l0l2	la_société_CHIMEX	O
+51l0l3	entreprend_d__importants_travaux_préventifs	N
+51l0l4	réfection_et_d__aménagement	N
+51l0l5	30_millions_de_francs	O
+51l1l0	la_société_CHIMEX	I
+
+#- rétentions en double confinement et détection d'étanchéité,
+
+52l0l0	détection_d__étanchéité	A
+
+#- reconstruction des réseaux fluides et utilitaires en aérien,
+
+53l0l0	reconstruction	N
+53l0l1	des_réseaux_fluides	O
+
+#- mise en place de nouveaux matériels de traitement des effluents résiduaires
+
+54l0l0	mise_en_place	N
+54l0l1	de_nouveaux_matériels_de_traitement	O
+54l1l0	effluents_résiduaires	U
+
+#- ...
+
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+56l0l0	SURVEILLANCE_DES_EAUX	A
+56l0l1	SOUTERRAINES	O
+56l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 a) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines par référence aux rubriques 1131 (Fabrication, emploi ou stockage de substance et préparations toxiques, dès lors que les produits sont liquides ou solides) et 1174 (Fabrication de composés organohalogénés, oranophosphorés ou organostanniques) de la nomenclature des Installations Classées pour la Protection de l'Environnement.
+
+57l0l0	Ce_site	O
+57l0l1	est_soumis_à	R
+57l0l2	l_	O
+57l0l3	l__arrêté_ministériel	O
+57l0l4	du_2_février_1998	T
+57l0l5	surveillance_des_eaux_souterraines	A
+57l0l6	Installations_Classées	O
+57l0l7	pour_la_Protection_de_l__Environnement	N
+57l1l0	préparations_toxiques	U
+57l1l1	composés_organohalogénés	S
+57l1l2	oranophosphorés	S
+
+#3-1- SUIVI TRIMESTRIEL
+
+
+#L'arrêté préfectoral du 5 juin 2001 qui prescrit une surveillance semestrielle piézomètrique à CHIMEX est modifié par l'arrêté préfectoral du 8 juin 2004.
+
+59l0l0	L__arrêté_préfectoral	O
+59l0l1	5_juin_2001	T
+59l0l2	prescrit	N
+59l0l3	une_surveillance_semestrielle_piézomètrique	A
+59l0l4	CHIMEX	O
+59l0l5	est_modifié	N
+59l0l6	l__arrêté_préfectoral	O
+59l0l7	du_8_juin_2004__	T
+59l1l0	CHIMEX	I
+
+#Ce dernier arrêté prescrit le suivi trimestriel des eaux souterraines selon les modalités suivantes :
+
+60l0l0	le_suivi_trimestriel	A
+60l0l1	des_eaux_souterraines	O
+60l0l2	selon	R
+60l0l3	les_modalités	O
+
+#- la fréquence trimestrielle des analyses,
+
+
+#- l'utilisation de 4 piézomètres (C1,C3,C4,C5),
+
+
+#- les paramètres à analyser représentatifs des substances utilisées actuellement et par le passé (soit Demande Chimique en oxygène (DCO), azote kjeldhal, monochlorobenzène, acétate d'éthyle, acétone, butanol, éthanol, heptane, méthanol, propanol, toluène, 1-6 dichlorohexane, acide acétique, acétate de vinyle, acide glycolique, dichlorobenzène, diéthylène glycol, éthylène glycol, glycérol, méthyl-éthyl-cétone, Teryl-Butyl-Méthyl-Ether (TBME)).
+
+63l1l0	substances	S
+63l1l1	oxygène	S
+63l1l2	azote_kjeldhal	S
+63l1l3	monochlorobenzène	S
+63l1l4	acétate_d__éthyle	S
+63l1l5	acétone	S
+63l1l6	butanol	S
+63l1l7	éthanol	S
+63l1l8	heptane	S
+63l1l9	méthanol	S
+63l1l10	propanol	S
+63l1l11	toluène___1___6_dichlorohexane	S
+63l1l12	acide_acétique	S
+63l1l13	acétate_de_vinyle	S
+63l1l14	acide_glycolique	S
+63l1l15	dichlorobenzène	S
+63l1l16	diéthylène_glycol	S
+63l1l17	éthylène_glycol	S
+63l1l18	glycérol	S
+63l1l19	méthyl___éthyl___cétone	S
+63l1l20	Teryl___Butyl___Méthyl___Ether	S
+63l1l21	TBME	S
+
+#Les piézomètres C1 et C3 sont situés respectivement en amont et en amont latéral du site de Chimex.
+
+64l0l0	situés_respectivement_en_amont_et_en_amont_latéral_du_site_de_Chimex	L
+
+#Les piézomètres C4 et C5 sont situés en aval hydraulique du site de Chimex.
+
+65l0l0	sont_situés_en_aval_hydraulique_du_site_de_Chimex	L
+
+#Les résultats de la surveillance sont donnés page 6 "Surveillance du site et restrictions d'usage".
+
+
+#3-2- SUIVI COORDONNÉ
+
+
+#En plus de l'étude de caractérisation de l'état de contamination des milieux (cf paragraphe 1-3), les arrêtés préfectoraux complémentaires du 23 juillet 2012 prescrivent une surveillance coordonnée à CHIMEX et à 6 autres établissements de la plateforme.
+
+68l0l0	l__état_de_contamination	O
+68l0l1	les_arrêtés_préfectoraux_complémentaires	O
+68l0l2	du_23_juillet_2012	T
+68l0l3	prescrivent	R
+68l0l4	une_surveillance	A
+68l0l5	CHIMEX	O
+68l0l6	à_6_autres_établissements	O
+68l0l7	la_plateforme	O
+68l1l0	CHIMEX	I
+
+#4 - ACCIDENTS
+
+69l1l0	ACCIDENTS	I
+
+#Deux accidents sont survenus par le passé sur le site :
+
+70l0l0	Deux_accidents	O
+70l0l1	sont_survenus	N
+
+#- en 1992, une fuite de Toluène dans la zone de dépotage de la zone de stockage UP2,
+
+71l0l0	en_1992	T
+71l0l1	une_fuite	N
+71l1l0	Toluène	S
+
+#- en 1996, une fuite d'eaux usées pouvant contenir des traces de solvants dans la canalisation de transfert des eaux usées entre l'UP2 et la cuve de collecte de l'UP2.
+
+72l0l0	en_1996__	T
+72l0l1	une_fuite_d__eaux_usées	O
+72l0l2	la_canalisation	O
+72l0l3	UP2	O
+72l0l4	la_cuve_de_collecte	O
+
+#L'ESR de 2000 n'a pas relevé de source de contamination en MCB et Toluène dans les sols au droit des zones où les accidents sont survenus.
+
+73l0l0	de_source_de_contamination	O
+73l0l1	des_zones	O
+73l0l2	où_les_accidents_sont_survenus	N
+73l1l0	MCB	S
+73l1l1	Toluène	S

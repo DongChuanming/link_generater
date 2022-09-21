@@ -1,0 +1,232 @@
+
+#17.0052
+#La société PICOTY ATLANTIQUE SERVICES a exploité un dépôt de fioul domestique situé rue de la Brousse – zone de Bel Air à Grézac.
+
+0l0l0	La_société_PICOTY_ATLANTIQUE_SERVICES	O
+0l0l1	a_exploité	N
+0l0l2	un_dépôt_de_fioul_domestique	O
+0l0l3	situé	R
+0l0l4	rue_de_la_Brousse___zone_de_Bel_Air_à_Grézac	L
+0l1l0	La_société_PICOTY_ATLANTIQUE_SERVICES	I
+0l1l1	fioul	U
+
+#Cette activité relève du régime de la déclaration et l’exploitant dispose des actes administratifs suivants :
+
+1l0l0	Cette_activité	O
+1l0l1	relève_du_régime_de	R
+1l0l2	la_déclaration	N
+1l0l3	l__exploitant	O
+
+#- preuve de dépôt n°2016/0055 du 24 février 2016 relative à la déclaration du bénéfice des droits acquis pour les rubriques 1434-1b (installation de remplissage ou de distribution de liquides inflammables) et 4734-2c (stockage de fioul domestique et de gasoil non routier),
+
+2l0l0	24_février_2016	T
+2l0l1	relative_à	R
+2l0l2	la_déclaration	N
+2l0l3	remplissage_ou_de_distribution_de_liquides_inflammables	A
+2l1l0	liquides_inflammables	U
+2l1l1	fioul	U
+2l1l2	gasoil	S
+2l1l3	non_routier	U
+
+#- preuve de dépôt n°2017/0238 du 2 février 2017 relative au changement d’exploitant.
+
+3l0l0	du_2_février_2017	T
+3l0l1	au_changement_d_	N
+3l0l2	exploitant	O
+
+#Le site comportait :
+
+4l0l0	Le_site	O
+
+#- une cuve aérienne de fioul domestique de 30 m³ remplie d’eau,
+
+5l0l0	une_cuve_aérienne_de_fioul_domestique	O
+5l0l1	remplie_d__eau	A
+5l1l0	une_cuve	D
+5l1l1	fioul	U
+
+#- une cuve aérienne de 80 m³ de fioul domestique placée sur rétention,
+
+6l0l0	une_cuve_aérienne	O
+6l0l1	sur_rétention	L
+6l1l0	une_cuve	D
+6l1l1	fioul	U
+
+#- une cuve aérienne de 40 m³ de gasoil non routier placée sur rétention.
+
+7l0l0	une_cuve_aérienne	O
+7l0l1	gasoil_non_routier_placée_sur_rétention	A
+7l1l0	une_cuve	D
+7l1l1	gasoil_non_routier	U
+
+#La société PICOTY ATLANTIQUE SERVICES a transmis le 29 novembre 2017 en Préfecture un dossier de cessation d’activité comprenant un rapport relatif aux opérations de démolition et de dépollution, les résultats des analyses de sol et l’analyse des risques résiduels.
+
+8l0l0	La_société_PICOTY_ATLANTIQUE_SERVICES	O
+8l0l1	a_transmis	N
+8l0l2	le_29_novembre_2017	T
+8l0l3	en_Préfecture	T
+8l0l4	un_dossier	O
+8l0l5	cessation_d__activité	N
+8l0l6	un_rapport	O
+8l0l7	relatif	R
+8l0l8	aux_opérations_de_démolition	N
+8l0l9	et_de_dépollution	N
+8l0l10	les_résultats_des_analyses_de_sol	O
+8l1l0	La_société_PICOTY_ATLANTIQUE_SERVICES	I
+
+#Le diagnostic de pollution des sols a été mené par la société EGEH Rincent Eau et Environnement (rapport n°2017437V1 – novembre 2017) et se base sur des investigations réalisées sur site au mois d’octobre 2017.
+
+9l0l0	Le_diagnostic_de_pollution_des_sols	N
+9l0l1	a_été_mené	N
+9l0l2	la_société_EGEH	O
+9l0l3	novembre_2017__	T
+9l0l4	se_base_sur	R
+9l0l5	des_investigations_réalisées_sur_site	N
+9l0l6	au	T
+9l0l7	mois_d_	R
+9l0l8	octobre_2017__	T
+9l1l0	la_société_EGEH_Rincent	I
+
+#Une première phase d’excavation des terres et de prélèvements a eu lieu dans la semaine du 5 au 12 octobre 2017.
+
+10l0l0	Une_première_phase	O
+10l0l1	d__excavation	N
+10l0l2	des_terres	N
+10l0l3	de_prélèvements_a_eu_lieu	N
+10l0l4	dans_la_semaine_du_5_au_12_octobre_2017__	T
+
+#Les échantillons P1 à P13 ont été prélevés.
+
+11l0l0	ont_été_prélevés	N
+
+#Une seconde phase d’excavation et de prélèvements a eu lieu le 19 octobre 2017.
+
+12l0l0	Une_seconde_phase_d__excavation	N
+12l0l1	de_prélèvements	N
+12l0l2	a_eu_lieu	N
+12l0l3	le_19_octobre_2017__	T
+
+#A cette occasion, 8 échantillons supplémentaires dénommés P14 à P21 ont été prélevés et envoyés en analyse.
+
+13l0l0	8_échantillons_supplémentaires	O
+13l0l1	ont_été_prélevés	N
+13l0l2	envoyés_en_analyse	N
+
+#Les échantillons de sol P1 à P13 ont fait l’objet d’analyses sur les paramètres suivants : hydrocarbures volatils C5-C10, hydrocarbures C10-C40, BTEX (benzène, toluène, éthylbenzène, ortho-xylène, para et méta-xylènes, xylènes) et HAP.
+
+14l1l0	__hydrocarbures	S
+14l1l1	__hydrocarbures	S
+14l1l2	__BTEX___benzène___toluène___éthylbenzène	S
+14l1l3	ortho___xylène	S
+14l1l4	para_et_méta_xylènes___xylènes	S
+14l1l5	et_HAP	S
+
+#Les échantillons de sol P14 à P21 ont fait l’objet d’analyses sur les hydrocarbures C10-C40.
+
+15l0l0	fait_l__objet_d_	R
+15l0l1	analyses	N
+15l1l0	hydrocarbures_C10_C40	S
+
+#Les résultats d’analyses montrent des valeurs inférieures aux limites de quantification pour les hydrocarbures C5-C10.
+
+16l1l0	les_hydrocarbures_C5_C10	S
+
+#Ceci peut s’expliquer facilement par le type de liquides inflammables stockés qui ne contient que très peu d’hydrocarbures volatils de type C5-C10.
+
+17l1l0	liquides_inflammables	U
+17l1l1	hydrocarbures	S
+
+#Les teneurs en BTEX et en HAP des terres prélevées sont très faibles voire pour les BTEX inférieures à la limite de quantification du laboratoire.
+
+18l1l0	BTEX	S
+18l1l1	HAP	S
+18l1l2	les_BTEX	S
+
+#Les résultats d’analyses du laboratoire permettent de confirmer la présence d’impacts en hydrocarbures C10-C40 au droit des deux fosses d’excavation et de la zone de rétention.
+
+19l0l0	au_droit_des	L
+19l0l1	deux_fosses_d__excavation	N
+19l0l2	la_zone_de_rétention	O
+19l1l0	hydrocarbures_C10_C40	S
+
+#Au niveau de la zone d’excavation nord, les teneurs en hydrocarbures totaux C10-C40 s’échelonnent de 840 mg/kg de MS1 au point P6 à 4400 mg/kg de MS au point P9.
+
+20l0l0	excavation_nord	N
+20l1l0	hydrocarbures_totaux_C10_C40	S
+
+#Les points P15, P16 et P17 présentent des teneurs en hydrocarbures totaux C10-C40 aux alentours de 2100 mg/kg de MS.
+
+21l1l0	hydrocarbures_totaux_C10_C40	S
+
+#Au niveau de la zone d’excavation sud, seul le point P1 présente des teneurs importantes en hydrocarbures totaux C10-C40 de 1700 mg/kg de MS contre 20 à 50 mg/kg pour les 4 autres points de prélèvements.
+
+22l0l0	excavation_sud	N
+22l1l0	hydrocarbures_totaux	S
+22l1l1	C10_C40	S
+
+#Sur la zone de rétention, les points de prélèvements P18, P19 et P20 sont les plus fortement impactés en hydrocarbures C10-C40 : respectivement 8900, 300 et 1200 mg/kg de MS.
+
+23l0l0	la_zone_de_rétention	O
+23l1l0	hydrocarbures_C10_C40	S
+
+#Les analyses de sols ayant mises en évidence la présence d’hydrocarbures dans les sols, les terres ont été excavées et traitées à l’extérieur du site.
+
+24l0l0	Les_analyses_de_sols	N
+24l0l1	ayant_mises_en_évidence	R
+24l0l2	la_présence_d__hydrocarbures	O
+24l0l3	les_terres	O
+24l0l4	ont_été_excavées	N
+24l0l5	traitées	O
+24l0l6	à_l__extérieur_du_site	L
+24l1l0	hydrocarbures	S
+
+#Au final, ce sont 238 tonnes de terres qui ont été excavées et envoyées vers le biocentre situé à Saint Jean d’Illac (33).
+
+25l0l0	tonnes_de_terres	O
+25l0l1	qui_ont_été_excavées	N
+25l0l2	envoyées_vers	R
+25l0l3	le_biocentre	O
+25l0l4	situé_à_Saint_Jean_d__Illac___33__	L
+
+#Les bordereaux de suivi des déchets sont joints au dossier.
+
+
+#Le dossier comporte également une analyse des risques résiduels afin de vérifier la compatibilité du site d’un point de vue sanitaire avec l’usage futur de type industriel (fréquentation de 8h/j sur une période de 220 jours par an).
+
+27l0l0	analyse	N
+27l0l1	des_risques_résiduels	O
+27l0l2	l__usage_futur	A
+27l0l3	8h	O
+
+#Les voies d’exposition par inhalation de polluant sous forme gazeuse issu du sol, inhalation de polluant adsorbé sur les poussières du sol et ingestion directe de sol et/u de poussières ont été retenues.
+
+28l0l0	Les_voies	O
+28l0l1	inhalation	N
+28l0l2	ingestion_directe	N
+28l1l0	polluant	S
+
+#Trois scenarii ont été étudiés :
+
+29l0l0	Trois_scenarii	O
+29l0l1	ont_été_étudiés	N
+
+#- présence durant 8h dans le bâtiment (pollution au moins égale au point P6),
+
+30l0l0	durant_8h	T
+30l0l1	dans	L
+30l0l2	le_bâtiment	O
+
+#- présence durant 8h en extérieur au droit de la zone présentant la plus forte pollution résiduelle,
+
+31l0l0	durant_8h	T
+31l0l1	en_extérieur_au_droit_de	L
+31l0l2	la_zone	O
+31l0l3	présentant	N
+31l0l4	la_plus_forte_pollution	O
+
+#- présence durant 4h en extérieur et 4h dans le bâtiment.
+
+32l0l0	4h	O
+
+#L’analyse des risques résiduels montre que le risque est acceptable pour chaque scenario envisagé.
+

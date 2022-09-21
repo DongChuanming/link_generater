@@ -1,0 +1,629 @@
+
+#72.0041
+#Le site se situe sur la commune d'Arnage près de l’aérodrome du Mans et occupe une superficie d’environ 6,25 ha.
+
+0l0l0	Le_site	O
+0l0l1	se_situe_sur_la_commune_d__Arnage_près_de_l__aérodrome_du_Mans	L
+0l0l2	6_25_ha	O
+
+#Il est entouré (voir plan cartographique 1 partie B) :
+
+
+#- au nord et au sud, par deux autres sites industriels ;
+
+2l0l0	deux_autres_sites_industriels	O
+
+#- à l’Est, par une route nationale longeant le site ;
+
+3l0l0	à_l__Est	L
+3l0l1	par_une_route_nationale_longeant_le_site	L
+
+#- à l’Ouest, une ligne de chemin de fer, et de l’autre côté de cette voie de chemin de fer, à environ 250 mètres en direction du sud-ouest, sont implantés des maisons individuelles.
+
+4l0l0	à_l__Ouest	L
+4l0l1	une_ligne_de_chemin_de_fer	O
+4l0l2	et	O
+4l0l3	de_l__autre_côté_de	R
+4l0l4	cette_voie_de_chemin_de_fer	O
+4l0l5	à_environ_250_mètres_en_direction_du_sud_ouest	L
+4l0l6	__sont_implantés	R
+4l0l7	des_maisons_individuelles	O
+
+#Le cours d'eau le plus proche est la rivière Sarthe se situant à environ 1 km à l'Ouest.
+
+5l0l0	Le_cours_d__eau	O
+5l0l1	la_rivière_Sarthe_se_situant_à_environ_1_km_à_l__Ouest	L
+5l1l0	Sarthe	I
+
+#L’aquifère alluvial peu profond est sous-jacent au site de 2,7 à 5 mètres en dessous du niveau naturel du terrain.
+
+
+#L'écoulement des eaux souterraines se fait vers le Sud-ouest, et le puits le plus proche se situe à 250 mètres au Nord du site, en amont hydraulique.
+
+7l0l0	fait_vers_le_Sud_ouest	L
+7l0l1	le_puits_le_plus_proche	O
+7l0l2	se_situe_à_250_mètres_au_Nord_du_site	L
+7l0l3	en_amont_hydraulique	L
+
+#Aucun captage AEP (Alimentation en Eau Potable) n’a été décelé sur le site.
+
+8l0l0	Aucun_captage_AEP	O
+8l0l1	a_été_décelé	N
+
+#Le site a été utilisé entre 1936 et 1939 par un fabricant aéronautique, a été occupé durant la seconde guerre mondiale, a été à nouveau utilisé pour la fabrication aéronautique entre 1944 et 1946, puis dédié à la fabrication de pompes.
+
+9l0l0	Le_site	O
+9l0l1	a_été_utilisé	N
+9l0l2	entre_1936_et_1939	T
+9l0l3	un_fabricant_aéronautique	O
+9l0l4	a_été_occupé	N
+9l0l5	durant_la_seconde_guerre_mondiale	T
+9l0l6	a_été_à_nouveau_utilisé	N
+9l0l7	pour	R
+9l0l8	la_fabrication_aéronautique	A
+9l0l9	entre_1944_et_1946	T
+9l0l10	dédié_à	R
+9l0l11	la_fabrication_de_pompes	A
+
+#Un changement d'exploitant, au profit de la société FLOWSERVE POMPES a eu lieu en date du 10 décembre 2003.
+
+10l0l0	Un_changement	N
+10l0l1	d__exploitant	O
+10l0l2	au_profit_de	R
+10l0l3	la_société_FLOWSERVE_POMPES	O
+10l0l4	a_eu_lieu	N
+10l0l5	en_date_du_10_décembre_2003	T
+10l1l0	la_société_FLOWSERVE_POMPES	I
+
+#Le site est occupé, pour plus de la moitié par (voir plan cartographique 2 partie B):
+
+11l0l0	Le_site	O
+
+#- un atelier de fabrication de pompes ;
+
+12l0l0	un	O
+12l0l1	atelier_de_fabrication_de_pompes	A
+
+#- quelques hangars et ateliers annexes ;
+
+13l0l0	hangars_et_ateliers_annexes	O
+
+#- des bâtiments administratifs et ;
+
+
+#- des zones de stockages sur dallage.
+
+15l0l0	dallage	N
+
+#Un diagnostic initial a été effectué le 10 mars 2000 avec 7 échantillons de sols.
+
+16l0l0	Un_diagnostic_initial	N
+16l0l1	a_été_effectué	N
+16l0l2	le_10_mars_2000	T
+
+#Cette étude a permis de constater des concentrations d’antimoine, de cuivre, de plomb, de nickel de zinc et de HCT (Hydrocarbures totaux) dans les sols au-dessus des valeurs d’intervention suivant la méthodologie sites et sols pollués de l'époque.
+
+17l1l0	antimoine	S
+17l1l1	cuivre	S
+17l1l2	plomb	S
+17l1l3	nickel	S
+17l1l4	zinc	S
+17l1l5	HCT	S
+17l1l6	Hydrocarbures_totaux	S
+
+#Des concentrations de cadmium, de chrome et de mercure ont été détectées dans des sols au-dessus des valeurs cibles.
+
+18l0l0	Des_concentrations	O
+18l0l1	ont_été_détectées	N
+18l0l2	des_sols	O
+18l1l0	cadmium	S
+18l1l1	chrome	S
+18l1l2	mercure	S
+
+#De nouvelles investigations de terrain visant à définir l’état de qualité du sous-sol et des eaux souterraines ont été effectuées en 2 temps :
+
+19l0l0	De_nouvelles_investigations_de_terrain	N
+19l0l1	visant_à	R
+19l0l2	définir	N
+19l0l3	l__état_de_qualité	O
+19l0l4	ont_été_effectuées	N
+
+#- durant le mois d’août 2001, un bureau d’étude a réalisé 6 forages (S2, S3, S5, S7, S22 et S23) et 6 piézomètres (PZ1, PZ4, PZ6, PZ12, PZ18 et PZ24) (voir plan cartographique 3 partie B).
+
+20l0l0	durant_le_mois_d_	T
+20l0l1	août_2001__	T
+20l0l2	un_bureau_d__étude	O
+20l0l3	a_réalisé	N
+20l0l4	6_forages	N
+20l0l5	6_piézomètres	O
+20l1l0	PZ24	S
+
+#- durant le mois de décembre 2001, 7 tranchées ont été réalisées et un piézomètre supplémentaire (PZ25) a été implanté (en amont hydraulique)(voir plan cartographique 4 et 5 partie B).
+
+21l0l0	durant_le_mois_de_décembre_2001__	T
+21l0l1	7_tranchées	O
+21l0l2	ont_été_réalisées	N
+21l0l3	un_piézomètre_supplémentaire	O
+21l0l4	a_été_implanté	N
+21l0l5	en_amont_hydraulique_voir	L
+21l1l0	PZ25	I
+
+#Les résultats ont mis en évidence (voir plan cartographique 6 partie B) :
+
+
+#- la présence d’une zone source n°3, au droit des terrains en friche, n’a pas été confirmées par ces investigations ;
+
+23l0l0	une_zone_source_n__3	O
+23l0l1	au_droit_des_terrains_en_friche	L
+23l0l2	a_pas_été_confirmées	N
+23l0l3	ces_investigations	N
+
+#- l’existence d’une zone source n°1 en hydrocarbures totaux, BTEX et métaux sous forme absorbée dans les sols au droit de la zone de la route surélevées.
+
+24l0l0	une_zone	O
+24l0l1	au_droit_de_la_zone_de	L
+24l0l2	la_route_surélevées	O
+24l1l0	hydrocarbures_totaux	S
+24l1l1	BTEX	S
+24l1l2	métaux	S
+
+#Pour les BTEX et les métaux, aucun impact significatif n’a été constaté sur la qualité de la nappe, au droit ou en aval de la route.
+
+25l0l0	au_droit_ou_en_aval_de_la_route	L
+25l1l0	les_BTEX	S
+25l1l1	les_métaux	S
+
+#Concernant les hydrocarbures totaux dissous, un impact inférieur à la valeur seuil a été observé en Pz1 (angle nord du site) et Pz4 (à proximité de l’aire de lavage et de l’ancienne cuve enterrée).
+
+26l0l0	à_proximité_de_l__aire_de_lavage	L
+26l1l0	hydrocarbures_totaux_dissous	S
+
+#- l’existence de 2 sources en Trichloroéthylène, la première sous forme gazeuse au droit de l’aire de lavage (zone source n°2), la seconde sous forme gazeuse et sous forme absorbée dans les sols, au niveau des parkings situés dans l’angle nord-ouest du site (zone source n°4).
+
+27l0l0	2_sources	O
+27l0l1	au_droit_de_l__aire	L
+27l0l2	lavage	A
+27l0l3	zone_source_n__2	O
+27l0l4	les_sols	O
+27l0l5	au_niveau_des	R
+27l0l6	parkings	O
+27l0l7	situés_dans_l__angle_nord_ouest_du_site	L
+27l1l0	Trichloroéthylène	S
+
+#Un impact a été mis en évidence sur les eaux souterraines en Trichloroéthylène et/ou ses produits de biodégradation (Dichloroéthylène et chlorure de vinyle) en PZ4, PZ6 et PZ18.
+
+28l0l0	Un_impact	O
+28l0l1	a_été_mis_en	N
+28l1l0	Trichloroéthylène	S
+28l1l1	Dichloroéthylène	S
+28l1l2	chlorure_de_vinyle	S
+28l1l3	PZ4___PZ6	S
+28l1l4	PZ18	S
+
+#Des travaux ont été réalisés du 3 au 13 décembre 2001, sur les bordures de la route implantée à la limite Est de la propriété du site FLOWSERVE POMPES (voir plan cartographique 7 partie B).
+
+29l0l0	Des_travaux_ont_été_réalisés	N
+29l0l1	du_3_au_13_décembre_2001__	T
+29l0l2	sur_les_bordures_de_la_route_implantée_à_la_limite_Est_de_la_propriété_du_site	L
+29l0l3	FLOWSERVE_POMPES	O
+29l1l0	FLOWSERVE_POMPES	I
+
+#Ils ont permis l’évacuation de :
+
+
+#- 171,2 tonnes de terres mélangées à des copeaux métalliques ou souillées par des hydrocarbures ;
+
+31l0l0	copeaux_métalliques	O
+31l1l0	copeaux_métalliques	U
+31l1l1	hydrocarbures	S
+
+#- 13,3 tonnes de déblais type béton ou bitume.
+
+32l0l0	13_3_tonnes_de_déblais	O
+
+#Les déchets ont été pris en charge par des entreprises autorisées.
+
+33l0l0	Les_déchets	O
+33l0l1	ont_été_pris_en_charge	N
+33l0l2	des_entreprises_autorisées	O
+
+#Une fois l’ensemble des travaux d’excavations et d’évacuation effectués, les bordures Est et Ouest de la route ont été entièrement remises en forme.
+
+34l0l0	des_travaux_d__excavations	N
+34l0l1	d__évacuation	O
+34l0l2	effectués	N
+34l0l3	les_bordures_Est_et_Ouest_de_la_route	O
+34l0l4	ont_été_entièrement_remises_en_forme	N
+
+#LES SOURCES DE POLLUTION
+
+35l0l0	SOURCES_DE_POLLUTION	O
+35l1l0	SOURCES	I
+35l1l1	POLLUTION	I
+
+#La présence de composés polluants dans le sol et les eaux souterraines a été détectée, notamment des métaux, des hydrocarbures, des composés organiques aromatiques et des solvants chlorés.
+
+36l0l0	a_été_détectée	N
+36l1l0	composés_polluants	U
+36l1l1	métaux	S
+36l1l2	hydrocarbures	S
+36l1l3	des_composés_organiques_aromatiques	S
+36l1l4	solvants_chlorés	S
+
+#Le secteur ayant fait l’objet du diagnostic de pollution se trouve derrière les installations, au niveau d’une chaussée aménagée en surélévation par des matériaux de remblai dont l’épaisseur varie de 3,5 à 5 mètres.
+
+37l0l0	Le_secteur	O
+37l0l1	ayant_fait	N
+37l0l2	l__objet	R
+37l0l3	du_diagnostic_de_pollution	N
+37l0l4	se_trouve_derrière_les_installations	L
+37l0l5	au_niveau_d__une_chaussée	L
+37l0l6	aménagée_en_surélévation	N
+37l0l7	remblai	A
+
+#L’ÉTUDE DÉTAILLÉE DES RISQUES
+
+38l0l0	RISQUES	O
+38l1l0	RISQUES	I
+
+#L’Étude Détaillée des Risques (EDR) réalisée en 2003 (après travaux) s’est basée sur les investigations suivantes :
+
+39l0l0	L__Étude_Détaillée_des_Risques	N
+39l0l1	réalisée	N
+39l0l2	en_2003	T
+
+#- 7 piézomètres (PZ 4,6,12 ,18,24,25 et 26) pour analyser la qualité des eaux souterraines
+
+40l0l0	analyser_la_qualité_des_eaux_souterraines	O
+
+#- 7 carottages (BH 1 à BH7) jusqu’à 3 m de profondeur pour les analyses de sols
+
+41l0l0	les_analyses_de_sols	A
+
+#- 7 tranchées (F1 à F7) ont été creusées à la pelle mécanique au droit de la chaussée surélevée pour les analyses de la zone remblayée (78 échantillons analysés)
+
+42l0l0	7_tranchées	O
+42l0l1	ont_été_creusées	N
+42l0l2	la_pelle_mécanique	O
+42l0l3	au_droit_de_la_chaussée_surélevée	N
+42l0l4	les_analyses	A
+42l0l5	la_zone_remblayée	O
+
+#- 10 sondages (S1 à S10) de surface pour la recherche d’amiante et métaux lourds
+
+43l0l0	10_sondages	N
+43l0l1	la_recherche_d__amiante	O
+43l0l2	métaux_lourds	O
+43l1l0	métaux_lourds	U
+
+#- 4 analyses de gaz du sol (A2, A3, PZ4 et PZ6)
+
+
+#Les résultats analytiques ont été comparés aux valeurs guide en vigueur :
+
+
+#- la VDSS (Valeur de Définition de Source Sol) représentant la valeur guide permettant de définir l'existence d'une source de pollution ;
+
+46l1l0	VDSS	S
+
+#- la VCI (Valeur de Constat d'Impact) représentant la valeur guide permettant de constater l'existence d'un impact potentiel d'une source de pollution en fonction de l'usage d'un site (usage sensible ou non sensible).
+
+
+#Dans ce cadre, les substances suivantes ont été identifiées comme des substances potentiellement préoccupantes sur le site d’Arnage :
+
+48l0l0	les	O
+48l0l1	substances_suivantes_ont_été_identifiées	N
+48l0l2	Arnage	L
+48l1l0	substances	S
+48l1l1	substances	S
+
+#- Dans le sol : arsenic, baryum, cadmium, chrome, cuivre, plomb, nickel, zinc
+
+49l0l0	__arsenic	O
+49l1l0	__arsenic___baryum___cadmium___chrome___cuivre___plomb___nickel___zinc	S
+
+#- Dans les eaux souterraines : Trichloroéthylène, Dichloroéthylène, chlorure de vinyle
+
+50l1l0	__Trichloroéthylène___Dichloroéthylène___chlorure_de_vinyle	S
+
+#- Dans les gaz du sol : Trichloroéthylène
+
+51l1l0	__Trichloroéthylène	S
+
+#ANALYSES DES SOLS
+
+52l0l0	ANALYSES_DES_SOLS	N
+
+#Les résultats montrent des valeurs supérieures à la VDSS dans les carottages (valeurs exprimées en mg par kg de matière sèche) pour l’antimoine (= 670 mg/kg MS), le chrome (= 220 mg/kg MS), le cuivre (de 190 à 15 000 mg/kg MS), le plomb (de 310 à 2 600 mg/kg MS), le nickel (= 260 mg/kg MS), le zinc (= 4 900 mg/kg MS), les hydrocarbures (= 7 910 mg/kg MS), et des COHV dont le Dichloropropane (= 3,3 mg/kg MS) et le Trichloroéthylène (= 9,4 mg/kg MS).
+
+53l1l0	pour_l__antimoine	S
+53l1l1	__le_chrome	S
+53l1l2	__le_cuivre	S
+53l1l3	__le_plomb	S
+53l1l4	__le_nickel	S
+53l1l5	__le_zinc	S
+53l1l6	__les_hydrocarbures	S
+53l1l7	des_COHV_dont_le_Dichloropropane	S
+53l1l8	et_le_Trichloroéthylène	S
+
+#Dans les tranchées, on retrouve de l’arsenic (= 163 mg/kg MS), du baryum (= 598 mg/kg MS), du cadmium (= 137 mg/kg MS), du chrome (= 6 020 mg/kg MS), du cuivre (= 85 300 mg/kg MS), du plomb (= 31 400 mg/kg MS), du nickel (= 2 480mg/kg MS) et du zinc (= 31 100mg/kg MS).
+
+54l0l0	les_tranchées	O
+54l0l1	l__arsenic	O
+54l1l0	l__arsenic	S
+54l1l1	baryum	S
+54l1l2	cadmium	S
+54l1l3	chrome	S
+54l1l4	cuivre	S
+54l1l5	plomb	S
+54l1l6	nickel	S
+54l1l7	zinc	S
+
+#Dans les sondages, on retrouve de l’arsenic (= 20 mg/kg MS), du chrome (= 96 mg/kg MS), du cuivre (de 129 à 717 mg/kg MS) et du (= nickel 136 mg/kg MS).
+
+55l0l0	l__arsenic	O
+55l1l0	l__arsenic	S
+55l1l1	chrome	S
+55l1l2	cuivre	S
+
+#ANALYSES DES EAUX SOUTERRAINES
+
+56l0l0	EAUX_SOUTERRAINES	O
+56l1l0	SOUTERRAINES	I
+
+#Les résultats montrent des valeurs supérieures à la VCI pour un usage non sensible (exprimées en µg/l) au niveau du PZ4 pour le Dichloroéthylène (= 360 µg/l) et Trichloréthylène (= 240 µg/l), ainsi qu’au niveau du PZ26 pour le Trichloroéthylène (= 120 µg/l).
+
+57l1l0	PZ4	S
+57l1l1	le_Dichloroéthylène	S
+57l1l2	Trichloréthylène	S
+57l1l3	PZ26	S
+57l1l4	le_Trichloroéthylène	S
+
+#L’analyse faite courant 2000 en PZ18 montrait une concentration en chlorure de vinyle de 42 µg/l supérieure à la VCI de 2,5 µg/l.
+
+58l0l0	courant_2000	T
+58l1l0	chlorure_de_vinyle	S
+
+#En 2005, elle est redescendue à 0,18 µg/l.
+
+59l0l0	En_2005__	T
+
+#ANALYSE DES GAZ DU SOL
+
+60l0l0	ANALYSE	N
+60l1l0	GAZ_DU_SOL	I
+
+#Les 4 échantillons de gaz du sol ont permis de détecter la présence d’hydrocarbures en A2, A3 et PZ4 et de Trichloroéthylène en A2, A3 et PZ6.
+
+61l0l0	Trichloroéthylène	O
+61l1l0	d__hydrocarbures	S
+61l1l1	Trichloroéthylène	S
+
+#ANALYSE DES RISQUES
+
+62l0l0	ANALYSE_DES_RISQUES	N
+
+#La première zone de préoccupation potentielle a été identifiée au niveau de la chaussée surélevée en raison de la qualité des matériaux de remblai utilisés.
+
+63l0l0	La_première_zone_de_préoccupation	O
+63l0l1	a_été_identifiée	N
+63l0l2	au_niveau_de	R
+63l0l3	la_chaussée_surélevée	N
+63l0l4	remblai	A
+
+#La seconde zone concerne la contamination des eaux souterraines par des composés organiques volatils.
+
+64l0l0	la_contamination	N
+64l1l0	composés_organiques_volatils	S
+
+#Les voies d’exposition suivantes ont été examinées :
+
+65l0l0	ont_été_examinées	N
+
+#- Ingestion des sols contaminés
+
+66l0l0	Ingestion_des_sols_contaminés	N
+
+#- Inhalation des poussières contaminées et des vapeurs émises
+
+
+#- Contact cutané
+
+
+#- Dépôts atmosphériques dans les zones riveraines
+
+69l0l0	les_zones_riveraines	O
+
+#- Mobilisation des substances polluantes par les eaux superficielles
+
+70l0l0	Mobilisation_des_substances_polluantes	O
+70l1l0	substances_polluantes	U
+
+#- Migration des substances vers les eaux souterraines puis migration à l’extérieur du site
+
+71l0l0	migration	N
+71l0l1	à_l__extérieur_du_site	L
+
+#- Contact cutané et ingestion des substances présentes dans les eaux souterraines.
+
+72l0l0	ingestion	N
+
+#Dans le cadre de l’évaluation détaillée des risques, les cibles potentielles prises en compte incluent le personnel de l’entreprise et les intervenants extérieurs, les installations riveraines et les propriétés résidentielles proches du site.
+
+73l0l0	les_cibles_potentielles	O
+73l0l1	l__entreprise	O
+73l0l2	les_intervenants_extérieurs	O
+73l0l3	les_installations_riveraines	O
+73l0l4	propriétés_résidentielles_proches_du_site	L
+
+#L’Étude Détaillée des Risques (EDR) montre que les risques significatifs potentiels pour la santé sont considérés comme étant bas au regard des voies d’exposition et des cibles potentielles décrites précédemment.
+
+
+#En particulier, les teneurs en composés organiques chlorés dans les eaux souterraines sont telles qu’il n’y a pas de danger pour la santé humaine au niveau du récepteur potentiel le plus proche, à savoir, l’habitation située directement en aval du site à une distance d’environ 330 mètres.
+
+75l0l0	l__habitation_située_directement_en_aval_du_site	L
+75l0l1	à_une_distance_d__environ_330_mètres	L
+75l1l0	composés_organiques_chlorés	S
+
+#De même, la base nautique de la Gemmerie qui se trouve plus éloignée (environ 900 mètres) ne sera pas impactée.
+
+76l0l0	la_base_nautique	O
+76l0l1	la_Gemmerie	O
+76l0l2	ne_sera_pas_impactée	N
+
+#Une modélisation des concentrations admissibles en limite du site permettant de respecter les valeurs limites de qualité des eaux potables au niveau du premier récepteur a conduit aux valeurs maximales suivantes : trichloroéthylène 2700 µg/l, dichloroéthylène 13 000 µg/l et chlorure de vinyle 130 µg/l.
+
+77l0l0	Une_modélisation	N
+77l1l0	__trichloroéthylène	S
+77l1l1	__dichloroéthylène	S
+77l1l2	et_chlorure_de_vinyle	S
+
+#Le risque d’impact sur les eaux souterraines, lié aux concentrations importantes en métaux dans les sols de la chaussée, est par ailleurs considéré comme négligeable en raison de la faible solubilité des métaux.
+
+78l1l0	métaux	S
+78l1l1	métaux	S
+
+#Néanmoins, l’étude préconise de prévenir les envols de poussières, celles-ci pouvant contenir des particules de nickel et être inhalées par les utilisateurs actuels de la zone.
+
+79l0l0	envols	N
+79l0l1	la_zone	O
+79l1l0	nickel	S
+
+#Les recommandations suivantes sont proposées par le bureau d'étude :
+
+80l0l0	le_bureau_d__étude	O
+
+#- Couvrir les zones non asphaltées des chaussées par des végétaux pour réduire les envols de poussières.
+
+81l0l0	Couvrir	N
+81l0l1	les_zones_non_asphaltées	O
+
+#Cette mesure maintiendrait par ailleurs l’intégrité de la chaussée surélevée en réduisant le potentiel d’érosion des versants exposés de la route.
+
+82l0l0	versants_exposés	N
+
+#- Effectuer une surveillance semestrielle, et pour une période initiale de 2 ans, des eaux souterraines au droit du site dans un certain nombre de piézomètres choisis pour leurs emplacements stratégiques (PZ4, PZ6, PZ18 et PZ26).
+
+83l0l0	Effectuer	N
+83l0l1	une_surveillance_semestrielle	A
+83l0l2	pour_une_période_initiale_de	N
+83l0l3	2_ans	T
+83l0l4	au_droit_du_site	L
+83l0l5	nombre_de_piézomètres	O
+
+#A la fin de cette période de 2 ans, la périodicité des échantillonnages sera réévaluée au regard des résultats analytiques.
+
+84l0l0	A_la_fin_de_cette_période_de_2_ans	T
+84l0l1	la_périodicité	O
+84l0l2	des_échantillonnages_sera_réévaluée	N
+
+#Les paramètres analysés incluront les composés organiques volatils, les métaux et les hydrocarbures totaux.
+
+85l1l0	composés_organiques_volatils	S
+85l1l1	les_métaux	S
+85l1l2	hydrocarbures_totaux	S
+
+#A titre de mesure de précaution, il est recommandé qu’en cas de travaux risquant d’altérer la chaussée surélevée, les entreprises concernées soient informées des dangers et des risques identifiés et prennent des mesures de protection appropriées (limitation des émissions de poussières, port de masque, contrôles …).
+
+86l0l0	qu__en_cas	R
+86l0l1	de_travaux_risquant	N
+86l0l2	altérer_la_chaussée_surélevée	N
+86l0l3	les_entreprises	O
+86l0l4	informées	N
+
+#L’étude a donc montré l’existence de 3 zones pour lesquelles les composés polluants dans les sols dépassent la VDSS  :
+
+87l0l0	3_zones	O
+87l1l0	les_composés_polluants	U
+
+#- 2 zones au droit des piézomètres PZ4 et PZ6 : sols pollués par le Trichloroéthylène ;
+
+88l0l0	2_zones	O
+88l1l0	le_Trichloroéthylène	S
+
+#- la zone de remblai de la chaussée surélevée : sols pollués par les métaux lourds et en partie par les hydrocarbures.
+
+89l0l0	la_zone_de_remblai	O
+89l0l1	la_chaussée_surélevée	N
+89l1l0	les_métaux_lourds	S
+89l1l1	les_hydrocarbures	S
+
+#La migration des substances polluantes reste limitée, seul le Trichloroéthylène est détecté dans la nappe souterraine dans le piézomètre PZ26 en aval hydraulique, à une teneur supérieure à la VCI.
+
+90l0l0	en_aval_hydraulique	L
+90l1l0	substances_polluantes	U
+90l1l1	le_Trichloroéthylène	S
+
+#En l’état actuel, il n’est pas établi d’impact vis-à-vis de l’extérieur à l’établissement.
+
+91l0l0	impact	O
+91l0l1	vis_à_vis_de	R
+91l0l2	l_	O
+
+#Dans ces conditions, et considérant l’usage industriel du terrain, l’inspection des installations classées a proposé de retenir les conclusions de l’EDR qui préconise en particulier une surveillance semestrielle de la qualité des eaux souterraines sortant des limites de propriété de l’établissement.
+
+92l0l0	terrain	O
+92l0l1	l__inspection_des_installations_classées	O
+92l0l2	une_surveillance_semestrielle	A
+92l0l3	de_la_qualité_des_eaux_souterraines	A
+92l0l4	sortant_des_limites	L
+
+#Par arrêté préfectoral du 9 mai 2007, il a été prescrit à la société FLOWSERVE POMPES la surveillance de la qualité des eaux souterraines au droit du site.
+
+93l0l0	Par_arrêté_préfectoral	O
+93l0l1	du_9_mai_2007__	T
+93l0l2	il_a_été_prescrit	N
+93l0l3	la_société_FLOWSERVE	O
+93l0l4	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+93l0l5	au_droit_du_site	L
+93l1l0	la_société_FLOWSERVE_POMPES	I
+
+#Des contrôles périodiques sont effectués deux fois par an, au moins, le niveau piézométrique est relevé et des prélèvements sont effectués dans la nappe.
+
+94l0l0	Des_contrôles_périodiques	N
+94l0l1	sont_effectués	N
+94l0l2	deux_fois_par_an	T
+94l0l3	sont_effectués	N
+
+#L’eau prélevée dans les piézomètres PZ4, PZ6, PZ18 et PZ26 fait l’objet de mesures des substances ci-après, susceptibles de caractériser une éventuelle pollution de la nappe compte tenu de l’activité actuelle ou passée de l’installation.
+
+95l0l0	l__objet_de	R
+95l0l1	mesures	N
+
+#- Métaux : antimoine, arsenic, baryum, cadmium, chrome, cuivre, plomb, nickel, zinc
+
+96l0l0	arsenic	O
+96l1l0	Métaux	S
+96l1l1	antimoine	S
+96l1l2	arsenic	S
+96l1l3	baryum	S
+96l1l4	cadmium	S
+96l1l5	chrome	S
+96l1l6	cuivre	S
+96l1l7	plomb	S
+96l1l8	nickel	S
+96l1l9	zinc	S
+
+#- Composés organiques : Trichloroéthylène, Dichloroéthylène, chlorure de vinyle
+
+97l1l0	Composés_organiques	S
+97l1l1	Trichloroéthylène	S
+97l1l2	Dichloroéthylène	S
+97l1l3	chlorure_de_vinyle	S
+
+#- Hydrocarbures totaux
+
+98l1l0	Hydrocarbures_totaux	S
+
+#Au vu des résultats, la société FLOWSERVE POMPES pourra présenter une demande argumentée d’adaptation de la fréquence des mesures.
+
+99l0l0	FLOWSERVE	O
+99l1l0	la_société_FLOWSERVE_POMPES	I
+
+#Si les résultats mettent en évidence une aggravation de la qualité des eaux souterraines en aval du site (PZ18 et PZ26), l’exploitant déterminera par tous les moyens utiles si l’établissement sera à l’origine ou non de cette aggravation.
+
+100l0l0	aggravation	N
+100l0l1	la_qualité_des_eaux_souterraines	O
+100l0l2	en_aval_du_site	L
+100l0l3	l__exploitant	O
+100l0l4	déterminera	N

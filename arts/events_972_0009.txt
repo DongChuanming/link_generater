@@ -1,0 +1,104 @@
+
+#972.0009
+#La société TOTAL Caraïbes exploite actuellement une station-service "Lazaret" sur la commune de DUCOS.
+
+
+#Elle appartenait à la société ELF depuis sa création en 1979.
+
+1l0l0	Elle_appartenait_à_la_société	O
+1l0l1	ELF_depuis_sa_création	T
+1l0l2	en_1979__	O
+1l1l0	Elle_appartenait_à_la_société	I
+
+#TOTAL Caraïbes a acquis le site en avril 2001 (rachat d'ELF par TOTAL).
+
+2l0l0	TOTAL	O
+2l0l1	Caraïbes_a	R
+2l0l2	acquis_le_site_en	O
+2l0l3	avril_2001___rachat	T
+2l0l4	d__ELF_par_TOTAL____	T
+2l1l0	acquis_le_site_en	I
+
+#En décembre 2003: plainte de riverains quant à la présence d'hydrocarbures dans les caniveaux d'évacuation des eaux pluviales proches de la station.
+
+3l0l0	En_décembre_2003	O
+3l0l1	__plainte	N
+3l0l2	de	O
+3l0l3	riverains_quant	T
+3l0l4	à_la_présence	N
+3l0l5	hydrocarbures	O
+3l1l0	En_décembre_2003	I
+3l1l1	présence	I
+3l1l2	hydrocarbures	S
+
+#Le test d'épreuve des cuves et canalisations suspectées ont montré la présence d'une fuite sur une des cuves de 30m3 et sur sa canalisation de dépotage.
+
+4l0l0	Le_test_d__épreuve	T
+4l0l1	cuves_et_canalisations	O
+4l0l2	d__une_fuite_sur	O
+4l0l3	canalisation_de_dépotage	L
+4l1l0	montré_la_présence	S
+
+#La cuve a été condamnée et depuis TOTAL a réalisé des travaux de rénovation de la station suite à ces évènements: installation de deux nouvelles cuves doubles parois.
+
+5l0l0	depuis_TOTAL_a_réalisé_des_travaux	O
+5l0l1	station_suite	N
+5l0l2	installation_de_deux_nouvelles_cuves_doubles	O
+
+#Le premier diagnostic approfondi de la qualité des sols et de la nappe, réalisé en février 2004, a mis en évidence une pollution du sol au droit de la station (mais pas de pollution de la nappe), aux HCT, BTEX, ETBE.
+
+6l0l0	Le_premier	O
+6l0l1	diagnostic	N
+6l0l2	approfondi_de_la	T
+6l0l3	qualité	N
+6l0l4	des_sols_et_de_la_nappe___réalisé	N
+6l0l5	en_février	O
+6l0l6	2004	R
+6l0l7	__a_mis_en_évidence	N
+6l0l8	une_pollution_du	N
+6l0l9	sol_au_droit_de_la_station___mais	O
+6l1l0	la_station	D
+
+#Deux sources ont été évoquées dans ce rapport: la cuve fuyarde d'une part, et probablement des accidents de dépotage sur une des cuves de sans plomb d'autre part.
+
+7l0l0	Deux_sources_ont_été_évoquées_dans	N
+7l0l1	rapport___la_cuve_fuyarde	O
+7l0l2	d__une	O
+7l0l3	part___et	N
+7l0l4	probablement_des_accidents	T
+7l0l5	dépotage_sur_une_des	N
+7l0l6	cuves_de_sans_plomb_d__autre	L
+
+#TOTAL a fait réaliser des travaux de venting de traitement de gaz des sols, avec charbons actifs, entre juillet et octobre 2004.
+
+8l0l0	traitement_de_gaz	O
+8l0l1	actifs___entre_juillet_et_octobre	N
+8l0l2	2004__	O
+8l1l0	traitement	D
+
+#Les résultats obtenus en fin de campagne ont montré que la pollution a été traitée.
+
+9l0l0	Les	O
+9l0l1	résultats_obtenus	N
+9l0l2	en_fin_de_campagne	N
+9l0l3	ont_montré_que_la_pollution_a_été	O
+9l1l0	Les_résultats	I
+9l1l1	traitée__	U
+
+#En aout 2013 a été effectué un diagnostic des sols à l’aplomb de la zone ayant fait l’objet d’une dépollution par venting en 2005.
+
+10l0l0	zone_ayant_fait_l_	N
+
+#Celui-ci met en évidence un impact en hydrocarbures sur les sols et un impact en composés volatils de type BTEX.
+
+11l0l0	Celui___ci_met	T
+11l0l1	en_évidence_un_impact_en	N
+11l0l2	hydrocarbures	O
+11l0l3	sur_les_sols_et_un	L
+11l0l4	impact_en_composés	R
+11l0l5	volatils_de_type_BTEX	N
+11l0l6	_	N
+
+#Un suivi régulier de la qualité des sols sera poursuivi.
+
+12l1l0	sols_sera_poursuivi	S

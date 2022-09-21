@@ -1,0 +1,247 @@
+
+#71.0088
+#Le site , d’une superficie totale de 8 492 m², se trouve dans une zone industrielle.
+
+0l0l0	une_zone_industrielle	O
+
+#En 1991 , la société SOREVID y est autorisé à exploiter une station de transit de déchets.
+
+1l0l0	En_1991	O
+1l0l1	exploiter_une_station_de_transit_de_déchets	L
+
+#En 1996 , cette société est autorisé à stocker des déchets ménagers spéciaux.
+
+2l0l0	En_1996	T
+2l0l1	cette_société_est	O
+2l0l2	autorisé_à_stocker_des_déchets	N
+2l0l3	ménagers_spéciaux__	O
+2l1l0	cette_société_est_autorisé	I
+2l1l1	spéciaux__	U
+
+#Un changement d'exploitant au profit de SARP Centre Est a lieu le 6 novembre 2001.
+
+3l0l0	Un	T
+3l0l1	changement_d__exploitant	O
+
+#Les activités pratiquées sont le transit et le regroupement de déchets dangereux et non dangereux dont :
+
+4l0l0	Les_activités_pratiquées_sont	O
+4l0l1	le_transit	N
+4l0l2	et_le_regroupement_de	N
+4l0l3	déchets_dangereux	T
+4l1l0	transit_et_le_regroupement	I
+
+#- des déchets collectés en « vrac » : déchets hydrocarburés regroupés en cuves
+
+5l0l0	vrac_____déchets	O
+5l0l1	hydrocarburés_regroupés_en_cuves	N
+5l1l0	regroupés_en_cuves	U
+
+#aériennes de stockage,
+
+6l1l0	aériennes_de	D
+
+#- des déchets collectés en « conditionnés » et regroupés en bennes,
+
+7l0l0	__des_déchets	O
+
+#- des déchets collectés en « conditionnés » (containers, fûts et petits conditionnements) dénommés DTQD et dont seul le transit logistique est réalisé.
+
+8l1l0	des_déchets	U
+
+#Le site est composé de :
+
+9l1l0	Le_site_est_composé	U
+
+#- un bâtiment (50m2) servant de bureaux et locaux sociaux
+
+10l0l0	__un_bâtiment	O
+
+#- deux bâtiment (392 et 260m2) destinée au transit et regroupement de déchets dangereux boueux ;
+
+11l0l0	deux_bâtiment	O
+
+#- un bâtiment (260m2) destinées au transit et regroupement de déchets liquides et boueux
+
+12l0l0	un_bâtiment___260m2	O
+12l0l1	destinées_au_transit_et	A
+12l0l2	regroupement_de_déchets_liquides	N
+12l0l3	et_boueux	A
+12l1l0	déchets_liquides_et_boueux	U
+
+#- une fosse de binotage avec 2 bennes de 6 m3 semi-enterrées destinées au transit et regroupement de déchets dangereux boueux.
+
+13l0l0	une_fosse_de	O
+13l0l1	binotage_avec_2_bennes_de_6_m3	O
+13l0l2	semi_enterrées	N
+13l0l3	destinées_au_transit_et_regroupement_de_déchets_dangereux_boueux__	A
+13l1l0	destinées_au_transit	U
+
+#CONTEXTE GÉOLOGIQUE
+
+14l0l0	CONTEXTE_GÉOLOGIQUE	O
+
+#Le sous-sol est composé d'une formation sédimentaire correspondant à des alluvions modernes (lit majeur de la Saône).
+
+
+#Les sédiments récents de la Saône comportent 4 à 8 m d'argiles et de limons fins, reposant sur 6 à 8 m de graviers et de sables.
+
+16l0l0	et_de_sables	L
+
+#Ces deux ensembles peuvent localement être séparés par des niveaux tourbeux.
+
+17l0l0	peuvent_localement	L
+
+#CONTEXTE HYDROGÉOLOGIQUE
+
+
+#Dans le secteur de Mâcon, la nappe alluviale de la Saône est caractérisée par les éléments suivants :
+
+19l1l0	de_Mâcon___la_nappe_alluviale_de_la_Saône_est_caractérisée_par_les_éléments_suivants__	I
+
+#- l’aquifère alluvionnaire sablo-argileux grossier d’une puissance de 3 à 13 m est surmonté par un recouvrement argilo-limoneux, parfois légèrement sableux, d’une épaisseur de 3 à 10 m ;
+
+20l0l0	aquifère_alluvionnaire	L
+20l0l1	grossier	L
+
+#- la nappe est globalement captive et mise en charge par le recouvrement argilolimoneux;
+
+21l0l0	argilolimoneux__	O
+
+#- les relations entre la Saône et la nappe se font à la faveur de l’entaille de la Saône dans les limons de débordement qui recouvrent l’aquifère.
+
+22l0l0	nappe_se_font_à_la	N
+22l0l1	faveur_de_l__entaille_de_la_Saône_dans	N
+
+#Les échanges entre la nappe et la rivière sont préférentiellement concentrés au niveau de la base du lit mineur de la Saône avec un transfert vertical plutôt que des échanges latéraux et horizontaux au droit des berges.
+
+23l0l0	nappe_et	L
+23l0l1	concentrés_au_niveau	L
+
+#Le site ne se trouve pas dans l’emprise d’un captage AEP.
+
+
+#Les captages les plus proches se trouvent à plus de 20km.
+
+25l0l0	Les_captages	O
+25l0l1	les_plus_proches_se_trouvent_à_plus_de_20_km	O
+
+#Le site se situe en zone inondable dû à la proximité de la rivière la Saône (à moins de 300 m du site) et se trouve à proximité de ZNIEFF (limites à moins de 200 m du site)
+
+26l0l0	Le_site_se_situe_en_zone_inondable	O
+26l0l1	dû_à_la_proximité_de_la	L
+
+#Un diagnostic de pollution a été réalisé en décembre 2000 par la société EGEH, à la demande de la société SOREVID.
+
+27l0l0	Un_diagnostic	O
+27l0l1	de	L
+27l0l2	pollution_a_été	O
+27l0l3	réalisé_en_décembre_2000_par_la_société	L
+27l0l4	EGEH___à_la_demande_de_la	L
+27l0l5	société_SOREVID__	L
+
+#L’intervention a eu lieu le 1er décembre 2000 et a consisté en la réalisation de 6 forages à la tarière mécanique jusqu’à la profondeur maximale de 7,50 m.
+
+28l0l0	L__intervention_a_eu_lieu_le	N
+28l0l1	1er_décembre	N
+28l0l2	2000_et_a_consisté	T
+28l0l3	la_réalisation	O
+28l0l4	de_6_forages_à_la	R
+28l0l5	tarière_mécanique	O
+28l1l0	la_réalisation	I
+28l1l1	tarière_mécanique	I
+
+#Il a permis de montrer de très faibles teneurs en polluants dans les sols (hydrocarbures totaux, métaux lourds et PCB) toutes inférieures aux valeurs de constat d’impact.
+
+29l0l0	Il_a_permis_de_montrer_de	N
+29l0l1	très_faibles_teneurs	T
+29l0l2	dans_les_sols___hydrocarbures	N
+
+#Le piézomètre Pz3 a été installé sur le site le 1er décembre 2000.
+
+30l0l0	_	O
+
+#Les piézomètres PZ1 et PZ2 ont été installés entre 1991 et 2000.
+
+31l0l0	Les_piézomètres_PZ1	O
+31l0l1	et_PZ2_ont_été	N
+31l0l2	installés	L
+31l0l3	entre_1991_et_2000__	T
+
+#Selon l’arrêté préfectoral d’autorisation du 2 juin 2009, le suivi de la qualité des eaux souterraines doit être réalisé semestriellement à l'aide des 3 piézomètres.
+
+32l0l0	préfectoral_d__autorisation	N
+32l0l1	du_2_juin_2009___le_suivi_de_la_qualité_des_eaux_souterraines_doit_être_réalisé_semestriellement_à_l__aide_des_3_piézomètres__	T
+
+#Le suivi des eaux souterraines depuis 2011 a mis en évidence une teneur élevée en HCT au droit du piézomètre aval en 2012.
+
+33l0l0	suivi_des_eaux_souterraines_depuis_2011_a	O
+33l0l1	mis_en_évidence	T
+33l0l2	une_teneur_élevée_en_HCT_au_droit_du_piézomètre	A
+33l0l3	aval	R
+33l0l4	en_2012__	N
+
+#Depuis cette date, les teneurs en HCT sont toujours quantifiées mais dans des proportions relativement faibles.
+
+34l0l0	Depuis_cette_date___les_teneurs	A
+34l0l1	en_HCT_sont_toujours	T
+34l0l2	faibles	O
+34l0l3	_	T
+34l1l0	proportions	S
+
+#Un rapport de base IED a été réalisé en novembre 2015 et indique que :
+
+35l0l0	Un_rapport_de_base	T
+35l0l1	novembre_2015_et_indique_que	N
+35l1l0	réalisé_en	S
+
+#Le 29 septembre 2015 , des investigations sur les sols ont été réalisés et ont consisté en la réalisation de 9 sondages.
+
+36l0l0	des_investigations	N
+36l0l1	sur_les_sols	T
+
+#Les résultats ont mis en évidence :
+
+37l0l0	Les_résultats_ont_mis	T
+37l0l1	en_évidence__	N
+
+#- une teneur élevée en HCT à proximité de la fosse binotage
+
+
+#- des anomalies en métaux (Cuivre , Aluminium)
+
+39l0l0	__Cuivre___Aluminium__	L
+39l1l0	métaux	S
+
+#- une teneur en cyanures quantifiée mais dans une proportion faible
+
+40l1l0	cyanures_quantifiée_mais_dans	S
+
+#Des analyses des eaux souterraines ont été réalisées le 13 octobre 2015.
+
+41l1l0	des_eaux_souterraines	S
+
+#Elles ont mis en évidence :
+
+42l0l0	Elles_ont_mis	N
+
+#- une teneur élevée en aluminium au droit du piézomètre PZ3 et supérieure à la valeur de l’OMS,
+
+
+#- des teneurs relativement élevées en manganèse et supérieures à la valeur de l’OMS au droit des piézomètres PZ1 et PZ2,
+
+44l0l0	relativement_élevées	O
+44l1l0	relativement_élevées	S
+
+#- une teneur élevée en plomb au droit du piézomètre PZ3 et supérieures à la valeur de l’OMS,
+
+45l1l0	piézomètre	S
+
+#- des teneurs élevées en fer au droit des piézomètres PZ2 et PZ3
+
+46l1l0	en_fer	S
+
+#Le piézomètre PZ3 se trouvant en amont hydraulique , une partie des polluants retrouvés dans les eaux souterraine ne semble pas être imputable aux activités exercées sur le site.
+
+47l0l0	trouvant	O
+47l1l0	trouvant	S

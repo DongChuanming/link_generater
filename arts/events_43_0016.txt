@@ -1,0 +1,233 @@
+
+#43.0016
+#Le site de 1650 m2 est accessible par l'avenue Foch (RN 88) et occupe les parcelles 337 et 338, section AV.
+
+0l0l0	Le_site	O
+0l0l1	est_accessible_par_l__avenue_Foch___RN_88	L
+
+#La parcelle 337 est intégralement occupée par des bâtiments (bureaux, hangar de stockage de produits) alors que la parcelle 338 est principalement constituée par une aire de parking ou de stockage extérieur, recouverte de bitume.
+
+1l0l0	La_parcelle_337	O
+1l0l1	des_bâtiments	O
+1l0l2	une_aire_de_parking	O
+1l1l0	bureaux	D
+
+#Le site est bordé:
+
+2l0l0	Le_site	O
+
+#- au Nord, par un fossé recueillant les eaux superficielles et ensuite des habitations collectives et individuelles;
+
+3l0l0	au_Nord	L
+3l0l1	un_fossé	O
+
+#- à l'Est, par des habitations et un espace boisé;
+
+4l0l0	à_l__Est	L
+
+#- au Sud, par des habitations, le lycée de la Roche Arnaud et la clinique Bonsecours;
+
+5l0l0	au_Sud	L
+5l0l1	des_habitations	O
+5l0l2	le_lycée	O
+5l0l3	de_la_Roche_Arnaud	O
+5l0l4	la_clinique_Bonsecours	O
+
+#- à l'Ouest, par des habitations.
+
+6l0l0	l__Ouest	O
+6l0l1	habitations	L
+
+#La rivière DOLAISON circule à 200 m à l'Ouest.
+
+7l0l0	La_rivière_DOLAISON	O
+7l0l1	circule_à_200_m_à_l__Ouest	L
+
+#Le sous-sol est constitué de remblai sur environ 20 cm, viennent ensuite des marnes et des colluvions sablo-argileux sur 40 à 60 cm, puis on trouve jusqu'à 3 m, une couche d'argile, humide en partie supérieure et plus sèche en profondeur.
+
+
+#Aucune nappe aquifère n'est présente au droit du site.
+
+
+#Ce site a été utilisé depuis le début des années 1960 pour stocker et commercialiser des produits chimiques.
+
+10l0l0	Ce_site	O
+10l0l1	a_été_utilisé	N
+10l0l2	depuis_le_début_des_années_1960	T
+10l0l3	pour_stocker_et_commercialiser_des_produits_chimiques	A
+10l1l0	produits_chimiques	U
+
+#Un récépissé de déclaration du 28/11/1979 visant la rubrique 133/1 de la nomenclature des installations classées pour la protection de l'environnement a été établi au nom de M.
+
+11l0l0	Un_récépissé	O
+11l0l1	de_déclaration	N
+11l0l2	28_11_1979	T
+11l0l3	la_nomenclature_des_installations_classées_pour_la_protection_de_l__environnement	O
+11l0l4	a_été_établi	N
+11l0l5	au_nom_de	R
+11l0l6	M_	O
+
+#ierre BOREL.
+
+
+#Un changement d'exploitant est déclaré en avril 1996, au nom du groupe VAISSIERE-FAVRE.
+
+13l0l0	Un_changement_d__exploitant	O
+13l0l1	est_déclaré	N
+13l0l2	en_avril_1996__	T
+13l0l3	VAISSIERE___FAVRE	O
+13l1l0	groupe_VAISSIERE___FAVRE	I
+
+#UNIVAR reprend l'activité en janvier 2003 et déclare sa cessation d'activité le 1er octobre 2009.
+
+14l0l0	UNIVAR_reprend	R
+14l0l1	l__activité	O
+14l0l2	en_janvier_2003	T
+14l0l3	et_déclare_sa_cessation_d__activité	N
+14l0l4	le_1er_octobre_2009__	T
+14l1l0	UNIVAR	I
+
+#Dans le cadre d'un audit environnemental d'acquisition, réalisé en juillet 2000 par WCI, une pollution des sols aux Composés Organiques Halogénés Volatils (COHV) a été mise en évidence.
+
+15l0l0	Dans_le_cadre_d_	R
+15l0l1	un_audit_environnemental	N
+15l0l2	réalisé	N
+15l0l3	en_juillet_2000	T
+15l0l4	WCI	O
+15l0l5	une_pollution_des_sols	N
+15l0l6	a_été_mise_en_évidence	N
+15l1l0	WCI	I
+15l1l1	Composés_Organiques_Halogénés_Volatils	S
+15l1l2	COHV	S
+
+#Suite à la cessation d'activité, la société URS, sur demande d'UNIVAR a rendu, en mai 2009, un rapport sur des investigations complémentaires sur les sols.
+
+16l0l0	Suite	R
+16l0l1	à_la_cessation	N
+16l0l2	d__activité	O
+16l0l3	la_société_URS	O
+16l0l4	a_rendu	N
+16l0l5	en_mai_2009__	T
+16l0l6	un_rapport	N
+16l0l7	des_investigations_complémentaires	N
+16l0l8	les_sols	N
+16l1l0	la_société_URS	I
+16l1l1	UNIVAR	I
+
+#Les diagnostics sols ont été réalisés sur 2 zones présentant un risque de pollution:
+
+17l0l0	Les_diagnostics_sols	N
+17l0l1	ont_été_réalisés	N
+17l0l2	2_zones	O
+17l0l3	présentant_un_risque_de_pollution	N
+
+#- au niveau de l'ancienne cuve aérienne de Tétrachloroéthylène (PCE);
+
+18l0l0	au_niveau_de	R
+18l0l1	l__ancienne_cuve_aérienne	O
+18l1l0	Tétrachloroéthylène	S
+18l1l1	PCE	S
+
+#- au niveau du quai de déchargement.
+
+19l0l0	déchargement	A
+
+#La pollution aux COHV, initialement détectée a été confirmée.
+
+20l0l0	La_pollution_aux_COHV	O
+20l0l1	initialement_détectée_a	N
+20l1l0	COHV	S
+
+#En février 2010, l'administration demande à UNIVAR de mettre le site en sécurité (enlèvements des produits dangereux, des déchets, interdiction d'accès et surveillance des effets) et de définir l'usage futur du site.
+
+21l0l0	En_février_2010__	T
+21l0l1	l__administration	O
+21l0l2	demande	N
+21l0l3	UNIVAR	O
+21l0l4	le_site	O
+21l0l5	enlèvements_des_produits_dangereux	N
+21l0l6	interdiction_d_	N
+21l0l7	de_définir_l__usage_futur_du_site	O
+21l1l0	UNIVAR	I
+21l1l1	des_produits_dangereux	U
+
+#En réponse, UNIVAR fournit à l'inspection:
+
+22l1l0	UNIVAR	I
+
+#- un dossier répondant aux exigences de mise en sécurité;
+
+
+#- un rapport des investigations complémentaires du sous-sol sous le bâtiment, daté de novembre 2009.
+
+24l0l0	un_rapport_des_investigations_complémentaires	O
+24l0l1	du_sous_sol	O
+24l0l2	sous	R
+24l0l3	le_bâtiment	O
+24l0l4	daté_de_novembre_2009__	T
+
+#Ce rapport révèle des concentrations modérées en métaux et relativement faibles en hydrocarbures et en Composés Organiques Volatils.
+
+25l1l0	métaux	S
+25l1l1	hydrocarbures	S
+25l1l2	Composés_Organiques_Volatils	S
+
+#A la demande de l'administration, UNIVAR a fournit en octobre 2011 une Evaluation Quantitative des Risques Sanitaires (EQRS) qui conclut à la compatibilité du site pour un usage de type industriel.
+
+26l0l0	A	R
+26l0l1	la_demande	N
+26l0l2	de_l__administration	O
+26l0l3	UNIVAR	O
+26l0l4	a_fournit	N
+26l0l5	en_octobre_2011	T
+26l0l6	une_Evaluation_Quantitative	N
+26l0l7	des_Risques_Sanitaires	N
+26l0l8	la_compatibilité	O
+26l0l9	un_usage_de_type_industriel	A
+26l1l0	UNIVAR	I
+26l1l1	Sanitaires	S
+
+#Par courrier du 01/12/2011, la préfecture de la Haute-Loire prend acte de la cessation d'activité de la société UNIVAR sur ce site.
+
+27l0l0	du_01_12_2011	T
+27l0l1	la_préfecture_de_la_Haute_Loire	O
+27l0l2	prend_acte	N
+27l0l3	la_cessation_d__activité	N
+27l0l4	la_société_UNIVAR	O
+27l0l5	ce_site	O
+27l1l0	la_préfecture_de_la_Haute_Loire	I
+27l1l1	la_société_UNIVAR	I
+
+#UNIVAR, dans un courrier du 13/12/2011 informe, la municipalité du Puy en Velay, des restrictions limitant l'usage futur du site à un usage industriel.
+
+28l0l0	UNIVAR	O
+28l0l1	un_courrier	O
+28l0l2	13_12_2011_informe	T
+28l0l3	la_municipalité	O
+28l0l4	du_Puy_en_Velay	L
+28l0l5	des_restrictions	N
+28l0l6	limitant_l__usage_futur	T
+28l0l7	un	O
+28l0l8	usage_industriel	A
+28l1l0	UNIVAR	I
+
+#En raison de l'absence de circulation d'eaux souterraines au droit du site, aucun suivi n'a été prescrit.
+
+29l0l0	au_droit_du_site	L
+29l0l1	suivi_n_	O
+29l0l2	a_été_prescrit	N
+
+#En revanche, les services de l'état ont demandé à la société UNIVAR de déposer un dossier d'instauration de servitudes d'utilité publique.
+
+30l0l0	la_société_UNIVAR	O
+30l0l1	de_déposer	N
+30l0l2	un_dossier	O
+30l0l3	d_	N
+30l0l4	instauration_de_servitudes_d__utilité_publique	O
+30l1l0	la_société_UNIVAR	I
+
+#Un projet d'arrêté a été rédigé et est en cours de consultation, avant passage en CoDERST.
+
+31l0l0	Un_projet	O
+31l0l1	a_été_rédigé	N
+31l1l0	CoDERST	I

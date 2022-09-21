@@ -1,0 +1,179 @@
+
+#71.0095
+#Le site accueille une station-services.
+
+0l0l0	Le_site	O
+0l0l1	accueille	R
+0l0l2	une_station___services	O
+0l1l0	services	S
+
+#Le site est localisé dans la vallée de la Saône , en rive droite de la rivière.
+
+1l0l0	Le_site	O
+1l0l1	localisé_dans_la_vallée_de_la_Saône	L
+1l0l2	en_rive_droite_de_la_rivière	L
+
+#Il est entouré par :
+
+
+#- Au nord , la rue de Saône , le supermarché Simply Market et des zones résidentielles
+
+3l0l0	Au_nord	L
+3l0l1	la_rue_de_Saône	L
+3l0l2	des_zones_résidentielles	O
+
+#- Au sud , des logements , un parking et la D975
+
+4l0l0	Au_sud	L
+4l0l1	la_D975	L
+
+#- A l'ouest , des habitations et des magasins
+
+5l0l0	ouest	L
+5l0l1	habitations	L
+5l0l2	magasins	O
+
+#- A l'est , des magasins de ventes suivi du Quai de Saône.
+
+6l0l0	A_l__est	L
+6l0l1	Quai_de_Saône	L
+
+#CONTEXTE ENVIRONNEMENTAL
+
+7l1l0	ENVIRONNEMENTAL	I
+
+#La géologie du secteur est caractérisée par :
+
+
+#- des remblais liés à l'aménagement du site pouvant atteindre quelques mètres d'épaisseur
+
+9l0l0	remblais	O
+9l0l1	liés_à	R
+9l0l2	l__aménagement	N
+
+#- des horizons d'argiles sableuses sur une dizaine de mètres , suivi par des argiles et graviers.
+
+
+#- le substratum calcaire du Jurassique
+
+11l1l0	Jurassique	D
+
+#Les aquifères présents dans le secteur sont :
+
+12l0l0	Les_aquifères	O
+
+#- La nappe des alluvions de la Saône , d'une épaisseur de quelques mètres de profondeur
+
+13l0l0	la_Saône	L
+
+#- Une nappe principalement contenus dans des sables sur une épaisseur variable
+
+
+#- Une nappe vers une 30ène de mètres de profondeur.
+
+15l0l0	Une_nappe	O
+15l0l1	vers_une_30ène	L
+
+#La Saône s'écoule à environ 100m du site.
+
+16l0l0	La_Saône	L
+16l0l1	à_environ_100_m_du_site	L
+
+#Des investigations de terrains menées en 2013 et 2014 font apparaître :
+
+17l0l0	Des_investigations_de_terrains_menées	N
+17l0l1	en_2013_et_2014	T
+
+#Des contaminations dans les sols :
+
+
+#- Présence d'hydrocarbures et BTEX  au niveau du parc à cuves (nord-ouest de la piste de distribution)
+
+19l0l0	d__hydrocarbures	O
+19l0l1	__nord_ouest_de_la_piste_de_distribution	L
+19l1l0	Présence_d__hydrocarbures	S
+19l1l1	BTEX	S
+19l1l2	à_cuves	D
+
+#- Présence d'hydrocarbures dans le terrain naturel , au niveau de la cuve au sud de la piste de distribution , sur le parking et dans les remblais.
+
+20l0l0	le_terrain_naturel	O
+20l0l1	au_niveau_de_la_cuve_au_sud_de_la_piste_de_distribution	L
+20l0l2	le_parking	L
+20l0l3	remblais	N
+20l1l0	hydrocarbures	S
+
+#Des contaminations dans les eaux souterraines :
+
+
+#- Présence de benzène en concentration supérieure à la valeur "eau potable"
+
+22l1l0	benzène	S
+
+#- Présence d'hydrocarbures
+
+23l1l0	hydrocarbures	S
+
+#En août 2015 , de nouvelles investigations ont été menées.
+
+24l0l0	En_août_2015	T
+24l0l1	de_nouvelles_investigations	N
+24l0l2	ont_été_menées	N
+
+#Pour les sols , 5 sondages carrotés ont été réalisés.
+
+25l0l0	5_sondages_carrotés	O
+25l0l1	ont_été_réalisés	N
+
+#Les résultats ont mis en évidence :
+
+
+#- Des contaminations en hydrocarbures au niveau des cuves , dans le terrain naturel
+
+27l0l0	hydrocarbures	O
+27l0l1	le_terrain_naturel	O
+27l1l0	hydrocarbures	S
+
+#- Des contaminations dues à un mélange gazole/essence
+
+28l0l0	essence	O
+28l1l0	gazole	U
+28l1l1	essence	U
+
+#Pour les eaux , des prélèvements venant des 3 piézomètres installés ont été analysés.
+
+29l0l0	piézomètres_installés	O
+29l0l1	ont_été_analysés	N
+
+#Les résultats indiquent :
+
+
+#- La présence d'hydrocarbures
+
+31l1l0	hydrocarbures	S
+
+#- La présence de MTBE
+
+32l1l0	MTBE	I
+
+#- La présence de BTEX
+
+33l1l0	BTEX	I
+
+#Le plan de gestion préconise une excavation partielle des zones sources avec excavation jusqu'à 1m sous le terrain naturel (soit 5m sous la base des structures).
+
+34l0l0	Le_plan_de_gestion	O
+34l0l1	une_excavation_partielle	N
+34l0l2	zones_sources	O
+34l0l3	excavation	N
+34l0l4	sous_le_terrain_naturel	N
+34l0l5	base_des_structures	N
+
+#L'analyse des risques résiduels (ARR) prédictive conclue à un risque acceptable à la suite des travaux.
+
+
+#Il est recommandé , après les travaux de réhabilitation , de procéder à un suivi semestriel des eaux avec remise d'un bilan quadriennal.
+
+36l0l0	les_travaux_de_réhabilitation	N
+36l0l1	un_suivi_semestriel_des_eaux	A
+36l0l2	quadriennal	T

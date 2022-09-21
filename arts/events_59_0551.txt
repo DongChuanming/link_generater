@@ -1,0 +1,569 @@
+
+#59.0551
+#Le site est une ancienne station-service soumise à déclaration pour le stockage et la distribution de liquides inflammables (récépissé de déclaration du 24 janvier 1963).
+
+0l0l0	Le_site	O
+0l0l1	une_ancienne_station___service	O
+0l0l2	soumise_à	R
+0l0l3	déclaration	N
+0l0l4	le_stockage_et_la_distribution_de_liquides_inflammables	A
+0l0l5	récépissé	O
+0l0l6	de_déclaration	N
+0l0l7	du_24_janvier_1963____	T
+0l1l0	liquides_inflammables	U
+
+#La station-service était implantée en zone urbaine, en rez-de-chaussée d'un immeuble d'habitation, immeuble disposant de caves pour les résidents, et entourée :
+
+1l0l0	La_station___service	O
+1l0l1	était	R
+1l0l2	implantée_en_zone_urbaine	L
+1l0l3	en_rez_de_chaussée_d__un_immeuble_d__habitation	L
+
+#- au nord, par le Boulevard Carnot puis des immeubles résidentiels ;
+
+2l0l0	au_nord	L
+2l0l1	par_le_Boulevard_Carnot	L
+
+#- à l'ouest, par la Rue des canonniers puis des immeubles résidentiels ;
+
+3l0l0	à_l__ouest	L
+3l0l1	par_la_Rue_des_canonniers	L
+
+#- à l'est, par la Rue militaire puis un parc et au-delà la gare Lille-Europe ;
+
+4l0l0	à_l__est	L
+4l0l1	par_la_Rue_militaire_puis_un_parc	L
+4l0l2	au_delà_la_gare_Lille___Europe	L
+
+#- au sud, par les immeubles résidentiels.
+
+
+#Elle disposait de deux cuves enterrées simple-enveloppe en fosse maçonnée de 15 m³ pour le stockage de gazole et de sans plomb 95.
+
+6l0l0	Elle	O
+6l0l1	disposait_de_deux_cuves	N
+6l0l2	le_stockage_de_gazole	A
+6l1l0	cuves_enterrées	D
+6l1l1	gazole	U
+6l1l2	sans	U
+6l1l3	plomb_95	I
+
+#Ces cuves sont séparées des caves d'un côté et du parking de l'autre par un simple mur.
+
+
+#La distribution se faisait grâce à deux pistes avec 4 volucompteurs (2 et 3 en SP95 et 1 et 4 en gasoil).
+
+8l1l0	SP95	S
+8l1l1	gasoil	S
+
+#Une cuve aérienne simple-enveloppe d'huiles usagées de 1,5 m³ était également présente dans le sous-sol de la station-service.
+
+9l0l0	Une_cuve_aérienne	O
+9l0l1	huiles_usagées	O
+9l0l2	la_station___service	O
+9l1l0	huiles_usagées	U
+
+#Le site était équipé d'une aire de dépotage au niveau du premier îlot de distribution, et d'un séparateur d'hydrocarbure.
+
+10l0l0	Le_site	O
+10l0l1	était_équipé_d_	R
+10l0l2	une_aire	O
+10l0l3	dépotage	O
+10l0l4	distribution	A
+10l1l0	hydrocarbure	U
+
+#Une aire de lavage avec bac de décantation était également présente ainsi qu'un atelier mécanique avec un compresseur.
+
+11l0l0	Une_aire_de_lavage	A
+11l0l1	un_atelier_mécanique	O
+
+#Il existait également un magasin.
+
+
+#D'un point de vue géologique, le site est implanté sur une zone où l'on trouve successivement  :
+
+13l0l0	le_site	O
+13l0l1	est_implanté_sur	N
+13l0l2	une_zone	O
+
+#- des terres argileuses sur 1,3 m de profondeur ;
+
+
+#- des argiles entre 1,3 et 9 m de profondeur ;
+
+
+#- des sables légèrement argileux entre 9 et 13 m de profondeur ;
+
+
+#- de la craie à partir de 13 m de profondeur.
+
+
+#Sur un sondage à 150 m au Nord du site, la nappe de la craie a été recoupée à 14,5m.
+
+18l0l0	Sur_un_sondage_à_150_m_au_Nord_du_site	L
+18l0l1	a_été_recoupée	N
+
+#Sur le site, les sondages ont montré les éléments suivants  :
+
+
+#- revêtement de 0,2 m de béton ;
+
+
+#- remblais divers jusqu'à 2,5 m par rapport au niveau de la rue ;
+
+21l0l0	remblais	N
+
+#- limons marron avec parfois nodules de craie ;
+
+
+#- limons sableux verts à partir de 5 m dont la base n'a pas été recoupée.
+
+
+#D'un point de vue hydrogéologique, trois nappes sont présentes :
+
+
+#- la nappe alluviale de la Deûle, peu susceptible d'être recoupée au droit du site (fin du dépôt des alluvions), ne serait pas vulnérable vis-à-vis d'une pollution venant du site ;
+
+25l0l0	la_Deûle	L
+25l0l1	au_droit_du_site	L
+25l0l2	fin_du_dépôt_des_alluvions	N
+25l0l3	vis_à_vis_d_	R
+25l0l4	une_pollution	N
+25l0l5	venant_du_site	L
+
+#- la nappe de la craie, peu vulnérable car protégée par une épaisseur d'environ 9 m de couche  d'argile ;
+
+
+#- la nappe des calcaires carbonifères, captive, non vulnérable car protégée par les aquifères supérieurs (à environ 100 m de profondeur).
+
+
+#Dans un rayon de 5 km autour du site, plusieurs captages ont été identifiés  :
+
+28l0l0	Dans_un_rayon_de_5_km_autour_du_site	L
+28l0l1	plusieurs_captages	O
+28l0l2	ont_été_identifiés	N
+
+#- 2 captages pour l’alimentation en eau agricole, non vulnérables du fait de leur position hydraulique ou de leur éloignement par rapport au site ;
+
+29l0l0	2_captages	O
+29l0l1	l__alimentation_en_eau_agricole	A
+29l0l2	par_rapport_au_site	L
+
+#- 11 captages d'eau potable dans la nappe de la craie, non vulnérables car situés à plus d'1 km du site et sur la rive opposée de la Deûle ;
+
+30l0l0	situés_à_plus_d_1___km_du_site	L
+30l0l1	et	R
+30l0l2	sur_la_rive_opposée_de_la_Deûle	L
+
+#- de nombreux captages (>50) d'eau industrielle dans la nappe de la craie ou du calcaire carbonifère, non vulnérables, du fait de leur éloignement et de leur position amont ou latéral hydraulique par rapport au site ;
+
+
+#- deux captages d'eau industriels dans la nappe de la craie se trouvent en position latérale hydraulique par rapport au site mais sont faiblement vulnérables du fait de leur proximité (70 m) ;
+
+32l0l0	craie_se_trouvent_en_position_latérale_hydraulique_par_rapport_au_site	L
+
+#- des potentiels puits privés.
+
+
+#Les cours d'eau les plus proches du site sont  :
+
+
+#- le canal de la Deûle à 1,5 km à l'Ouest du site ;
+
+35l0l0	le_canal_de	O
+35l0l1	la_Deûle_à_1_5_km_à_l__Ouest_du_site	L
+
+#- le canal de la Marque à environ 3 km au nord du site, qui rejoint le canal de la Deûle.
+
+36l0l0	le_canal_de_la_Marque	O
+36l0l1	à_environ_3_km_au_nord_du_site	L
+36l0l2	rejoint_le_canal_de_la_Deûle	L
+
+#Ils ne sont pas vulnérables.
+
+
+#Mise en sécurité
+
+38l0l0	Mise_en_sécurité	N
+
+#Les deux cuves de carburant ont été inertées et la cuve d'huiles usagées a été enlevée ainsi que les tuyauteries et le séparateur d'hydrocarbures.
+
+39l0l0	Les_deux_cuves_de_carburant	O
+39l0l1	ont_été_inertées	O
+39l0l2	la_cuve_d__huiles_usagées	O
+39l0l3	a_été_enlevée	N
+39l0l4	ainsi_que_les_tuyauteries	O
+39l0l5	le_séparateur_d__hydrocarbures	O
+39l1l0	cuves	D
+39l1l1	de_carburant	U
+39l1l2	inertées	D
+39l1l3	la_cuve	D
+39l1l4	d__huiles_usagées	U
+39l1l5	hydrocarbures	S
+
+#Les certificats de nettoyage, dégazage et ferraillage ont été fournis.
+
+40l0l0	Les_certificats_de_nettoyage	O
+40l0l1	dégazage	N
+40l0l2	ferraillage	O
+40l0l3	ont_été_fournis	N
+
+#Les îlots de distribution, les volucompteurs et l'aire de dépotage ont été enlevés.
+
+41l0l0	Les_îlots_de_distribution	O
+41l0l1	les_volucompteurs	O
+41l0l2	l__aire_de_dépotage	O
+41l0l3	ont_été_enlevés	N
+
+#Le kiosque et l'ancienne aire de lavage restent en place.
+
+42l0l0	l__ancienne_aire_de_lavage	A
+
+#La mise en sécurité du site a été réalisée.
+
+43l0l0	La_mise_en_sécurité	N
+43l0l1	du_site	O
+43l0l2	a_été_réalisée	N
+
+#Diagnostic environnemental
+
+44l0l0	Diagnostic_environnemental	O
+
+#Des prélèvements ont été réalisés dans les sols en septembre 2010 aux endroits suivants  :
+
+45l0l0	Des_prélèvements_ont_été_réalisés	N
+45l0l1	dans_les_sols	N
+45l0l2	en_septembre_2010	T
+45l0l3	aux_endroits_suivants____	L
+
+#- séparateur d'hydrocarbures,
+
+46l1l0	d__hydrocarbures	S
+
+#- aire de distribution centrale et aire de dépotage,
+
+
+#- cuve d'huiles usagées ;
+
+48l1l0	cuve_d_	D
+48l1l1	huiles_usagées	U
+
+#- compresseur ;
+
+
+#- cuves n°1 et 2 ;
+
+
+#Aucune nappe n'ayant été rencontrée jusqu'à une profondeur de 7 m, aucun piézomètre n'a été installé.
+
+51l0l0	a_été_installé	N
+
+#Les gaz du sol ont été analysés ainsi que l'eau potable dans le kiosque.
+
+52l0l0	ont_été_analysés	N
+
+#Les prélèvements (gaz, eau, sol) ont été analysés pour rechercher les hydrocarbures, les métaux, les HAP et les BTEX.
+
+53l0l0	été_analysés	N
+53l1l0	hydrocarbures	S
+53l1l1	métaux	S
+53l1l2	les_HAP	S
+53l1l3	BTEX	S
+
+#Les résultats sont les suivants  :
+
+
+#- des traces d'hydrocarbures gazeux à proximité des volucompteurs ;
+
+55l1l0	des_traces_d__hydrocarbures_gazeux	U
+
+#- des teneurs modérées d'hydrocarbures ont été identifiées au niveau de l'aire de distribution,
+
+56l0l0	hydrocarbures	O
+56l0l1	ont_été_identifiées	N
+56l1l0	hydrocarbures	S
+
+#- la présence de HAP en teneurs faibles à proximité de la cuve d'huiles usagées et en traces à proximité du compresseur ;
+
+57l0l0	à_proximité_de	L
+57l0l1	la_cuve	O
+57l0l2	à_proximité_du_compresseur	L
+57l1l0	HAP	S
+57l1l1	la_cuve_d__huiles_usagées	U
+
+#- la présence de métaux en teneurs significatives à proximité de la cuve d'huiles usagées et en teneurs supérieures à la gamme couramment rencontrée à proximité du compresseur.
+
+58l0l0	proximité_du_compresseur	L
+58l1l0	huiles_usagées	U
+
+#Travaux effectués
+
+
+#L'exploitant a décidé de traiter les sols atteints dans le cadre du démantèlement des équipements.
+
+60l0l0	L__exploitant	O
+60l0l1	a_décidé	N
+60l0l2	de_traiter	N
+60l0l3	les_sols_atteints	O
+60l0l4	dans_le_cadre	R
+60l0l5	du_démantèlement_des_équipements	N
+
+#Le rapport «  Suivi environnemental de travaux de démantèlement et gestion de terres polluées – 07/04/2011 – N°D1 10 015 0 V1 » fait état des travaux et de leur résultat.
+
+61l0l0	Le_rapport	O
+61l0l1	__Suivi_environnemental_de_travaux_de_démantèlement	N
+61l0l2	et_gestion	N
+61l0l3	de_terres_polluées	O
+61l0l4	__07_04_2011	T
+
+#Les terres polluées (4,6 tonnes) ont été stockées en big bag sur le site avant d'être envoyées vers des centres de traitement adaptés.
+
+62l0l0	Les_terres_polluées	O
+62l0l1	ont_été_stockées	N
+62l0l2	d__être_envoyées_vers	N
+62l0l3	des_centres_de_traitement_adaptés	O
+
+#Les bordereaux de suivi de déchet ont été fournis.
+
+63l0l0	ont_été_fournis	N
+
+#Les zones excavées ont été comblées avec du béton maigre.
+
+64l0l0	Les_zones	O
+64l0l1	excavées_ont_été_comblées	N
+64l0l2	du_béton	O
+
+#Des prélèvements en fond de fouille ont été réalisés.
+
+65l0l0	Des_prélèvements_en_fond_de_fouille	N
+65l0l1	ont_été_réalisés	N
+
+#Ils permettent de quantifier les pollutions résiduelles présentes :
+
+
+#- traces d'hydrocarbure au droit d'une paroi du séparateur d'hydrocarbures (10,2 mg/kg MS) ;
+
+67l0l0	hydrocarbure	O
+67l1l0	traces_d__hydrocarbure	S
+67l1l1	hydrocarbures	S
+
+#- traces d'hydrocarbure sur une paroi de fouille au niveau de la distribution de carburants (14 mg/kg MS) ;
+
+68l0l0	d__hydrocarbure	O
+68l0l1	au_niveau_de	R
+68l0l2	la_distribution	L
+68l0l3	de_carburants	O
+68l1l0	hydrocarbure	S
+68l1l1	carburants	U
+
+#- hydrocarbures sur une autre paroi de fouille de la distribution de carburants et au niveau du fond de fouille (300 mg/kg MS) ;
+
+69l0l0	hydrocarbures	O
+69l0l1	sur_une_autre	L
+69l0l2	paroi_de_fouille	O
+69l0l3	distribution_de_carburants	A
+69l0l4	au_niveau_du_fond_de_fouille	L
+69l1l0	hydrocarbures	S
+69l1l1	carburants	U
+
+#- pollution résiduelle en hydrocarbures au niveau des sables de canalisation (1332 mg/kg MS) ;
+
+70l1l0	hydrocarbures	S
+
+#Des prélèvements complémentaires ont été réalisés en avril 2011 au niveau de l'ancienne cuve d'huiles usagées et dans l'air ambiant à différents endroits  :
+
+71l0l0	Des_prélèvements_complémentaires_ont_été_réalisés	N
+71l0l1	en_avril_2011	T
+71l0l2	au_niveau_de	R
+71l0l3	l_	O
+71l0l4	huiles_usagées	O
+71l1l0	cuve	D
+71l1l1	d__huiles_usagées	U
+
+#- sol sous la dalle ;
+
+
+#- air extérieur ;
+
+
+#- air dans une cave sous les tuyauteries restées en place ;
+
+74l0l0	une_cave	O
+74l0l1	les_tuyauteries	O
+
+#- air dans le couloir au-dessus des tuyauteries restées en place ;
+
+75l0l0	air	O
+75l0l1	dans	L
+75l0l2	le_couloir	O
+75l0l3	au_dessus_des_tuyauteries_restées	L
+75l0l4	en_place	N
+
+#- air dans une cave au niveau de la dalle impactée en éthylène glycol ;
+
+76l0l0	une_cave	O
+76l0l1	dalle_impactée	O
+76l1l0	éthylène_glycol	S
+
+#- air dans la cave qui abritait l'ancienne cuve d'huiles usagées.
+
+77l0l0	la_cave	O
+77l0l1	huiles_usagées	O
+77l1l0	cuve_d_	D
+77l1l1	huiles	U
+
+#Les résultats montrent  :
+
+
+#- aucun impact sous la dalle de la cave en BTEX et HAP ;
+
+79l0l0	la_dalle_de_la_cave	O
+79l1l0	BTEX	S
+79l1l1	HAP	S
+
+#- un impact très faible en hydrocarbures juste sous la dalle (13,4 mg/kg MS) et aucun impact à une profondeur de 2 m ;
+
+80l0l0	hydrocarbures	O
+80l1l0	hydrocarbures	S
+
+#- des teneurs dans l'air des caves communes en hydrocarbures, toluène (inférieur à la valeur guide OMS) et éthylbenzène ;
+
+81l1l0	hydrocarbures	S
+81l1l1	toluène	S
+81l1l2	éthylbenzène	S
+
+#- des teneurs dans l'air de la cave d'huiles usagées en hydrocarbures et toluène (inférieur à la valeur guide OMS) ;
+
+82l1l0	cave_d__huiles_usagées	U
+82l1l1	hydrocarbures	S
+82l1l2	toluène	S
+
+#- des teneurs dans l'air du rez-de-chaussée en hydrocarbures et en toluène (inférieur à la valeur guide OMS) ;
+
+83l1l0	hydrocarbures	S
+83l1l1	toluène	S
+
+#- des teneurs dans l'air extérieur en hydrocarbures ;
+
+84l1l0	hydrocarbures	S
+
+#- une concentration de 0,405 mg/m³ d'éthylène glycol dans la cave.
+
+85l1l0	éthylène_glycol	S
+
+#Une dernière mesure des HAP dans l'air de la cave a été réalisée en mars 2012.
+
+86l0l0	Une_dernière_mesure	N
+86l0l1	HAP	O
+86l0l2	a_été_réalisée	N
+86l0l3	en_mars_2012__	T
+86l1l0	HAP	S
+
+#Elle fait apparaître une teneur très faible en naphtalène (2,9.10-5 mg/m3) et inférieure à la valeur AFFSET (0,01 mg/m3).
+
+87l0l0	naphtalène	O
+87l1l0	naphtalène	S
+87l1l1	AFFSET	I
+
+#Compatibilité avec l'usage
+
+
+#L'exploitant a sollicité la remise en état du site pour un usage équivalent à la dernière période d'utilisation, à savoir un usage commercial dans l'ancienne boutique et un usage de parking au niveau de l'ancienne station-service.
+
+89l0l0	L__exploitant	O
+89l0l1	a_sollicité_la_remise_en_état_du_site	N
+89l0l2	un_usage	O
+89l0l3	la_dernière_période_d__utilisation	N
+89l0l4	un_usage_commercial	N
+89l0l5	un_usage_de_parking	O
+89l0l6	au_niveau_de_l__ancienne_station___service	L
+
+#Il est à noter qu'un usage résidentiel existe à proximité immédiate du site (au-dessus de l'ancienne station-service).
+
+90l0l0	un_usage_résidentiel	O
+90l0l1	existe	R
+90l0l2	à_proximité_immédiate_du_site	L
+90l0l3	au_dessus_de_l__ancienne_station___service	L
+
+#Dans le rapport « investigations complémentaires et analyse des risques résiduels après travaux », l'exploitant a choisi de vérifier la compatibilité avec l'usage d'habitation.
+
+91l0l0	__investigations_complémentaires	O
+91l0l1	et_analyse	N
+91l0l2	des_risques_résiduels_après_travaux	O
+91l0l3	____l__exploitant	O
+91l0l4	a_choisi	N
+91l0l5	avec_l__usage_d__habitation	A
+
+#Il précise les produits retenus et les valeurs utilisées pour l'analyse des risques résiduels.
+
+
+#Les produits retenus sont le toluène, l'éthylbenzène, l'éthylène glycol et les coupes d'hydrocarbures détectées.
+
+93l0l0	hydrocarbures_détectées	O
+93l1l0	le_toluène	S
+93l1l1	l__éthylbenzène	S
+93l1l2	éthylène_glycol	S
+93l1l3	les_coupes_d_	U
+93l1l4	hydrocarbures	S
+
+#Les métaux ont été écartés car ils sont confinés sous la cave et ne sont pas lixiviables.
+
+94l0l0	Les_métaux	O
+94l0l1	ont_été_écartés	N
+94l1l0	Les_métaux	S
+
+#Les valeurs retenues sont le maximum mesuré dans les différents lieux.
+
+
+#L'exploitant justifie les valeurs toxicologiques de références pour chaque substance, identifiées conformément à la circulaire du 30 mai 2006.
+
+96l0l0	L__exploitant	O
+96l0l1	30_mai_2006__	T
+
+#Il justifie également les valeurs de référence utilisées pour définir les cibles potentielles (habitants de l'immeuble avec une répartition entre l'appartement et la cave).
+
+
+#Les résultats montrent des valeurs acceptables pour l'usage d'habitation au-dessus de l'ancienne station-service, pour les adultes et les enfants.
+
+98l0l0	l__usage_d__habitation	O
+98l0l1	au_dessus_de_l_	L
+
+#Précautions à prendre et mémoire
+
+
+#Dans le rapport « Investigations complémentaires et analyse des risques résiduels après travaux » de juillet 2011, il est proposé comme précautions  :
+
+100l0l0	__Investigations_complémentaires	N
+100l0l1	et_analyse	N
+100l0l2	des_risques_résiduels	O
+100l0l3	de_juillet_2011	T
+
+#- la gestion, en cas de travaux de démantèlement de l'immeuble, selon les règles de l'art des caniveaux et sables impactés en hydrocarbures ainsi que les sols impactés en métaux au droit de la cave ayant abrité l'ancienne cuve HU (pollution confinée et difficilement excavable) ;
+
+101l0l0	la_gestion	N
+101l0l1	en_cas	R
+101l0l2	de_travaux_de_démantèlement	N
+101l0l3	l__immeuble	N
+101l0l4	caniveaux	O
+101l0l5	sables_impactés	O
+101l0l6	hydrocarbures	O
+101l0l7	ainsi_que_les_sols_impactés	O
+101l0l8	métaux	O
+101l0l9	au_droit_de_la_cave	L
+101l0l10	ayant_abrité	A
+101l0l11	ancienne_cuve_HU	O
+101l1l0	hydrocarbures	S
+101l1l1	cuve_HU	I
+
+#- en cas de découverte de terres polluées non identifiées, lors d'éventuels travaux de terrassement, des travaux d'aménagement et de tout travaux souterrains, la bonne gestion de ces terres avec un contrôle par un bureau d'études spécialisé en environnement et l'évacuation vers une filière adaptée.
+
+102l0l0	en_cas_de	R
+102l0l1	découverte	N
+102l0l2	de_terres_polluées	O
+102l0l3	lors	T
+102l0l4	d__éventuels_travaux_de_terrassement	N
+102l0l5	des_travaux_d__aménagement	N
+102l0l6	ces_terres	O
+102l0l7	un_contrôle_par	N
+102l0l8	un_bureau_d__études	O
+102l0l9	l__évacuation	O

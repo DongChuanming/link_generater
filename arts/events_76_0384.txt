@@ -1,0 +1,94 @@
+
+#76.0384
+#L’ancienne station service était installée au sein d’un petit ensemble commercial (Carrefour Contact, cabinet vétérinaire, salon de coiffure) sise 12 rue des Canadiens à Envermeu.
+
+0l0l0	L__ancienne_station_service	O
+0l0l1	était_installée	N
+0l0l2	au_sein_d__un_petit	L
+0l0l3	cabinet_vétérinaire	O
+0l0l4	sise	R
+0l0l5	12_rue_des_Canadiens_à_Envermeu	L
+
+#Elle disposait notamment de deux îlots de distribution et d’une cuve enterrée compartimentée double paroi pour le stockage de gasoil (50 m³) et d’essence SP (20 m³ et 10 m³).
+
+1l0l0	deux_îlots_de_distribution	O
+1l0l1	une_cuve_enterrée	O
+1l0l2	le_stockage_de_gasoil	A
+1l0l3	et_d__essence_SP	A
+1l1l0	cuve_enterrée	D
+1l1l1	gasoil	U
+1l1l2	d__essence_SP	U
+
+#La cessation des activités est effective depuis le 13/11/2018.
+
+2l0l0	La_cessation_des_activités	N
+2l0l1	est_effective	N
+2l0l2	depuis_le_13_11_2018__	T
+
+#A la mise à l'arrêté des installations, la cuve compartimentée de 80 m3 a été nettoyée, dégazée et inertée au sable.
+
+3l0l0	A	T
+3l0l1	la_mise_à_l__arrêté_des_installations	N
+3l0l2	la_cuve	O
+3l0l3	a_été_nettoyée	N
+3l0l4	dégazée	N
+3l0l5	inertée_au_sable	N
+3l1l0	la_cuve	D
+
+#Des analyses de sols ont été conduites le 4 septembre 2018 au moyen de sept sondages localisés au droit de l’emplacement du séparateur hydrocarbure (entre 0,5 et 3 m de profondeur), des distributeurs (entre 0,5 et 2 m de profondeur), de la zone de dépotage (entre 1 et 2 m de profondeur) et des cuves enterrées (entre 0,05 et 5 m de profondeur) pour les paramètres HCT, HAP, BTEX et métaux.
+
+4l0l0	Des_analyses_de_sols_ont_été_conduites	N
+4l0l1	le_4_septembre_2018	T
+4l0l2	localisés_au_droit_de_l_	L
+4l0l3	séparateur_hydrocarbure	O
+4l0l4	des_cuves	N
+4l0l5	enterrées	O
+4l1l0	hydrocarbure	S
+4l1l1	des_cuves_enterrées	D
+4l1l2	HCT	S
+4l1l3	HAP	S
+4l1l4	BTEX	S
+4l1l5	métaux	S
+
+#L’étude précise qu’aucun indice organoleptique n’a été révélé lors des investigations.
+
+
+#Les analyses montrent :
+
+
+#- l’absence d’hydrocarbures et BTEX pour l’ensemble des échantillons analysés (concentrations inférieures au seuil de détection du laboratoire) ;
+
+7l1l0	hydrocarbures	S
+7l1l1	BTEX	S
+
+#- la présence d’HAP au droit des cuves enterrées (concentration somme des 16 HAP comprise entre 1,2 et 2,7 mg/kg MS entre 0 et 4 m de profondeur) ;
+
+8l0l0	au_droit_des_cuves_enterrées	L
+8l1l0	d__HAP	S
+8l1l1	16_HAP	S
+
+#- la présence de cuivre, de mercure et de plomb dans des concentrations de l’ordre « d’anomalies naturelles modérées » selon la gamme ASPITET au droit des cuves enterrées.
+
+9l0l0	selon_la_gamme_ASPITET	O
+9l0l1	au_droit_des_cuves_enterrées	L
+9l1l0	cuivre	S
+9l1l1	mercure	S
+9l1l2	plomb	S
+9l1l3	gamme_ASPITET	I
+9l1l4	des_cuves_enterrées	D
+
+#Aucune mesure de gestion et de réhabilitation n’a été mise en place sur le site.
+
+10l0l0	réhabilitation	N
+10l0l1	a_été_mise_en_place	N
+
+#Au vu de ces éléments, la mise en sécurité et la compatibilité du site avec un usage de type industriel ont été constatées par rapport de l'inspection des installations classées du 12/03/2019.
+
+11l0l0	la_mise_en_sécurité	N
+11l0l1	la_compatibilité	O
+11l0l2	du_site	O
+11l0l3	un_usage	O
+11l0l4	de_type_industriel	A
+11l0l5	ont_été_constatées	N
+11l0l6	l__inspection_des_installations_classées	O
+11l0l7	12_03_2019	T

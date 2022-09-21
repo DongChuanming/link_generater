@@ -1,0 +1,117 @@
+
+#73.0052
+#Le site est un stockage de ferrailles et de véhicules hors d'usage non autorisé au lieu-dit "Francois-Horteur" ayant conduit à une procédure de consignation engagée par arrêté préfectoral du 26 novembre 1998 à l'encontre de l'entreprise MILLERET DEPANNAGE, qui a occupé le site pendant une dizaine d'années.
+
+0l0l0	Le_site	O
+0l0l1	ferrailles	O
+0l0l2	véhicules_hors_d__usage_non_autorisé	O
+0l0l3	au_lieu___dit___Francois__	L
+0l0l4	Horteur__	N
+0l0l5	ayant_conduit_à	R
+0l0l6	une_procédure	O
+0l0l7	arrêté_préfectoral	O
+0l0l8	26_novembre_1998	T
+0l0l9	l__entreprise_MILLERET_DEPANNAGE	O
+0l0l10	a_occupé_le_site	N
+0l0l11	pendant_une_dizaine_d__années	T
+0l1l0	MILLERET_DEPANNAGE	I
+
+#Le site est implanté sur les alluvions fluvatiles récentes de l'Arc.
+
+1l0l0	Le_site	O
+1l0l1	est_implanté_sur_les_alluvions_fluvatiles_récentes_de_l__Arc	L
+
+#Le site est situé à 1 km en amont d'un étang de baignade (le lac Bleu).
+
+2l0l0	Le_site	O
+2l0l1	est_situé_à_1_km_en_amont_d__un_étang_de_baignade	L
+
+#La nappe alluviale d'accompagnement des eaux de l'Arc est vulnérable car proche du niveau du sol.
+
+3l0l0	accompagnement_des_eaux_de_l__Arc	L
+
+#Elle se rencontre à une profondeur de 1,5 m environ.
+
+
+#L'alimentation en eau potable de la commune de Saint-Rémy-de-Maurienne se fait à partir de 4 captages situés entre 2 et 4 km en aval du site.
+
+5l0l0	L__alimentation_en_eau_potable	A
+5l0l1	la_commune_de_Saint_Rémy_de_Maurienne	L
+5l0l2	à_partir_de	R
+5l0l3	4_captages	O
+5l0l4	situés_entre_2_et_4_km_en_aval_du_site	L
+
+#Les épaves du site ont été évacuées.
+
+6l0l0	Les_épaves	O
+6l0l1	site	O
+6l0l2	ont_été_évacuées	N
+
+#La commune de Saint-Rémy-de-Maurienne, souhaitant céder le site à l’entreprise BTP PICOLLET, a fait réaliser par ANTEA une étude de sol transmise à l'inspection des installations classées par courrier du 4 janvier 2001.
+
+7l0l0	La_commune	O
+7l0l1	de_Saint_Rémy_de_Maurienne	L
+7l0l2	souhaitant_céder	N
+7l0l3	le_site	O
+7l0l4	l__entreprise_BTP_PICOLLET	O
+7l0l5	a_fait_réaliser	N
+7l0l6	par_ANTEA	O
+7l0l7	une_étude_de_sol	N
+7l0l8	l__inspection_des_installations_classées	O
+7l0l9	4_janvier_2001	T
+7l1l0	BTP_PICOLLET	I
+7l1l1	ANTEA	I
+
+#Cette étude indique que les parcelles 1745, 1746, 1747 et 1748 ont en partie été remblayées par des matériaux propres sur une profondeur de 1,50 m environ. 8 sondages réalisés (4 pour les HCT et 4 pour les métaux) à la pelle mécanique de 1,10 à 1,70 m de profondeur ont mis en évidence les contaminations suivantes :
+
+8l0l0	les_parcelles	O
+8l0l1	1745___1746___1747_et_1748	T
+8l0l2	ont_en_partie_été_remblayées	N
+8l0l3	1_50	O
+8l0l4	8_sondages_réalisés	N
+8l0l5	les_contaminations	O
+8l1l0	les_HCT	S
+8l1l1	les_métaux	S
+
+#- plomb : 66 mg/kg MS sur PM6 ;
+
+9l1l0	plomb	S
+
+#- zinc : 970 mg/kg MS sur PM6 ;
+
+10l1l0	zinc	S
+
+#- cadmium : 0,8 mg/kg MS sur PM6 ;
+
+11l1l0	cadmium	S
+
+#- cuivre : 830 mg/kg MS sur PM6.
+
+12l1l0	cuivre	S
+
+#Cette étude ayant été jugée insuffisante, une Évaluation Simplifiée des Risques (ESR) a été demandée par l'inspection des installations classées dans son courrier du 10 octobre 2001.
+
+13l0l0	Cette_étude_ayant_été_jugée	N
+13l0l1	une_Évaluation_Simplifiée_des_Risques	N
+13l0l2	ESR___a_été_demandée	N
+13l0l3	l__inspection_des_installations_classées	O
+13l0l4	10_octobre_2001	T
+
+#L'ESR a abouti à un classement II (site à surveiller).
+
+14l1l0	L__ESR	I
+
+#Par arrêté du 15 mai 2002, une surveillance semestrielle de la qualité des eaux du lac Bleu utilisées pour la baignade a été prescrite à la commune de Saint-Rémy-de-Maurienne sur les paramètres suivants : chrome, zinc, cuivre et HCT.  Cette surveillance exercée périodiquement n'a pas montré d'anomalies particulières.
+
+15l0l0	du_15_mai_2002__	T
+15l0l1	une_surveillance_semestrielle	A
+15l0l2	la	O
+15l0l3	qualité_des_eaux_du_lac_Bleu_utilisées_pour_la_baignade	A
+15l0l4	a_été_prescrite	N
+15l0l5	la_commune	O
+15l0l6	de_Saint_Rémy_de_Maurienne	L
+15l0l7	les_paramètres	O
+15l1l0	chrome	S
+15l1l1	zinc	S
+15l1l2	cuivre	S
+15l1l3	HCT	S

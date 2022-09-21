@@ -1,0 +1,264 @@
+
+#73.0093
+#Par appel téléphonique en date du 18 avril 2005, vers 9h30, Chambéry Métropole a informé la DRIRE de l'existence d'une pollution, par des huiles, du réseau d’eaux pluviales au niveau de la société SATM située avenue de la Houille Blanche à Chambéry, dans le périmètre de protection rapproché du puits des Iles.
+
+0l0l0	Par_appel_téléphonique	N
+0l0l1	en_date_du_18_avril_2005__	T
+0l0l2	vers_9h30	T
+0l0l3	__Chambéry_Métropole	O
+0l0l4	a_informé	N
+0l0l5	la_DRIRE	O
+0l0l6	l__existence	O
+0l0l7	d_	R
+0l0l8	une_pollution	N
+0l0l9	au_niveau_de	R
+0l0l10	la_société_SATM	O
+0l0l11	située	R
+0l0l12	avenue_de_la_Houille_Blanche	L
+0l0l13	dans_le_périmètre_de_protection_rapproché_du_puits_des_Iles	L
+0l1l0	la_DRIRE	I
+0l1l1	des_huiles	U
+0l1l2	la_société_SATM	I
+
+#La société SATM bénéficie d’un récépissé de déclaration du 15 octobre 2001 pour ses installations de stockage et de distribution de carburant (rubriques 1432.2b et 1434.1b de la nomenclature des installations classées pour la protection de l’environnement) et d’un récépissé de déclaration du 19 septembre 2002 pour l’exploitation d’un dépôt de gaz combustibles liquéfiés (rubrique 1412.2b de la nomenclature).
+
+1l0l0	La_société_SATM	O
+1l0l1	un_récépissé	O
+1l0l2	de_déclaration	N
+1l0l3	15_octobre_2001	T
+1l0l4	ses_installations_de_stockage_et_de_distribution_de_carburant	A
+1l0l5	d__un_récépissé	O
+1l0l6	de_déclaration	N
+1l0l7	du_19_septembre_2002	T
+1l0l8	l__exploitation_d__un_dépôt	N
+1l0l9	liquéfiés	A
+1l1l0	La_société_SATM	I
+1l1l1	carburant	U
+1l1l2	combustibles	U
+
+#Elle exploite par ailleurs sur le même site un atelier de réparation de poids lourds d’une surface inférieure à 2000 m² qui ne relève donc pas de la nomenclature sur les installations classées pour la protection de l’environnement, et une aire de lavage de poids lourds (intérieur et extérieur).
+
+2l0l0	Elle	O
+2l0l1	exploite	R
+2l0l2	sur_le_même_site	L
+2l0l3	atelier_de_réparation_de_poids_lourds	A
+2l0l4	une_aire_de_lavage_de_poids_lourds	O
+
+#Après avoir constaté une pollution des sols et du réseau d’eaux pluviales occasionnée par le débordement d'une cuve enterrée de stockage des huiles de vidanges issues de l'atelier de réparation de poids lourds de SATM, un arrêté préfectoral pris en urgence le 21 avril 2005 a imposé à l'exploitant :
+
+3l0l0	Après	R
+3l0l1	avoir_constaté_une_pollution	N
+3l0l2	le_débordement	N
+3l0l3	une_cuve_enterrée	O
+3l0l4	huiles_de_vidanges	A
+3l0l5	l__atelier_de_réparation_de_poids	A
+3l0l6	lourds_de_SATM	O
+3l0l7	un_arrêté_préfectoral	O
+3l0l8	pris_en_urgence	N
+3l0l9	le_21_avril_2005	T
+3l0l10	a_imposé	N
+3l0l11	l__exploitant	O
+3l1l0	huiles_de	U
+3l1l1	SATM	I
+
+#- de prévoir la dépose des cuves à l'origine de la pollution et leur élimination ;
+
+4l0l0	de_prévoir_la_dépose	N
+4l0l1	des_cuves	O
+4l0l2	la_pollution	O
+4l0l3	élimination	O
+4l1l0	des_cuves	D
+
+#- de mettre en place des rétentions sous tous les fûts de liquides (notamment des huiles) susceptibles d'occasionner des pollutions du réseau d'eaux pluviales ;
+
+5l0l0	de_mettre_en_place	N
+5l0l1	des_rétentions	O
+5l0l2	occasionner_des_pollutions	N
+5l1l0	liquides	U
+5l1l1	des_huiles	U
+
+#- de faire procéder par un organisme tiers, dont le choix sera soumis à l'approbation de l'inspecteur des installations classées, à une délimitation de la zone polluée et à une caractérisation des terres polluées en vue de leur évacuation sous huit jours dans des installations prévues à cet effet ;
+
+6l0l0	de_faire_procéder_par	N
+6l0l1	un	O
+6l0l2	approbation_de_l__inspecteur_des_installations_classées	O
+6l0l3	à_une_délimitation	N
+6l0l4	la_zone_polluée	O
+6l0l5	une_caractérisation_des_terres_polluées	O
+6l0l6	en_vue_de	R
+6l0l7	leur_évacuation	N
+6l0l8	sous_huit_jours	T
+
+#- de faire procéder à des analyses de sols en fond de fouilles après évacuation des terres souillées ;
+
+7l0l0	de_faire_procéder_à_des_analyses_de_sols	N
+7l0l1	en_fond_de_fouilles	L
+7l0l2	terres_souillées	O
+
+#- de maintenir en état, dans un délai suffisant, y compris après évacuation des terres, un dispositif empêchant toute atteinte du réseau d'eaux pluviales par des huiles (y compris les huiles infiltrées dans les sols) ;
+
+8l0l0	de_maintenir_en_état	N
+8l0l1	dans_un_délai	T
+8l0l2	évacuation	N
+8l0l3	des_terres	O
+8l1l0	des_huiles	U
+8l1l1	les_huiles	U
+
+#- d’analyser la qualité des eaux souterraines et notamment leur teneur en hydrocarbures et HAP en aval hydraulique du site au droit du captage d'alimentation en eau potable du puits des Iles (situé à quelques centaines de mètres en aval hydraulique) ;
+
+9l0l0	d__analyser	N
+9l0l1	la_qualité_des_eaux_souterraines	O
+9l0l2	en_aval_hydraulique_du_site	L
+9l0l3	au_droit_du_captage_d_	L
+9l0l4	alimentation_en_eau_potable	A
+9l0l5	Iles	L
+9l0l6	situé_à_quelques_centaines_de_mètres_en_aval_hydraulique	L
+9l1l0	hydrocarbures	S
+9l1l1	HAP	S
+9l1l2	Iles	S
+
+#- de transmettre à l'inspecteur des installations classées les justificatifs correspondants, dès réception ;
+
+10l0l0	l__inspecteur_des_installations_classées	O
+10l0l1	les_justificatifs	O
+
+#- de mettre en place sans délai un dispositif alternatif provisoire ou définitif de collecte et stockage des huiles de vidange, après avis de l'inspecteur des installations classées ;
+
+11l0l0	de_mettre_en_place_sans_délai	N
+11l0l1	un_dispositif_alternatif	O
+11l0l2	huiles_de_vidange	A
+11l0l3	l__inspecteur_des_installations_classées	O
+11l1l0	huiles_de_vidange	U
+
+#Une visite du site a eu lieu le 31 mai 2005 ; elle a permis notamment de constater :
+
+12l0l0	Une_visite	N
+12l0l1	site	O
+12l0l2	a_eu_lieu_le	N
+12l0l3	31_mai_2005	T
+
+#- le décaissement (8 x 10 m² sur 2 m de profondeur) de la zone polluée et l'évacuation des 3 cuves ;
+
+13l0l0	le_décaissement	N
+13l0l1	la_zone_polluée	O
+13l0l2	l__évacuation	N
+13l0l3	3_cuves	O
+13l1l0	3_cuves	D
+
+#- une forte odeur d'hydrocarbures au voisinage de l'excavation ;
+
+14l0l0	d__hydrocarbures	O
+14l0l1	au_voisinage_de_l__excavation	N
+14l1l0	une_forte_odeur_d__hydrocarbures	U
+
+#- l'évacuation des terres polluées (40 t) pour destruction chez TREDI à Salaise ;
+
+15l0l0	l__évacuation	N
+15l0l1	des_terres_polluées	O
+15l0l2	destruction_chez_TREDI	O
+15l0l3	Salaise	L
+15l1l0	TREDI	I
+
+#- le maintien des tapis absorbants fond de fouille pour récupérer les huiles suintant des parois ; ces tapis absorbants sont récupérés régulièrement en cas de besoin par SCAVI en vue d'être détruits ;
+
+16l1l0	huiles_suintant	U
+
+#- la réalisation des prélèvements de sols :
+
+17l0l0	la_réalisation	N
+
+#. 2 carottages dans l'atelier, à quelques mètres du lieu de la pollution,
+
+18l0l0	2_carottages	N
+18l0l1	dans_l__atelier	L
+18l0l2	à_quelques_mètres_du_lieu_de_la_pollution	L
+
+#. 4 carottages dans la fouille, au niveau des parois (les cuves étaient placées sur un radier en béton laissé en place).
+
+19l0l0	4_carottages	N
+19l0l1	dans_la_fouille	L
+19l0l2	béton	O
+
+#- La mise en service pour le stockage des huiles de vidange d'une cuve spéciale aérienne de 1300 litres avec rétention.
+
+20l0l0	La_mise_en_service	N
+20l0l1	le_stockage_des_huiles_de_vidange	A
+20l0l2	une_cuve_spéciale_aérienne	O
+20l1l0	des_huiles	U
+
+#- La mise sur rétention de tous les fûts de 200 litres.
+
+
+#Les résultats du diagnostic de sol ont été transmis à la DRIRE le 8 juin 2005.
+
+22l0l0	Les_résultats	O
+22l0l1	du_diagnostic_de_sol	N
+22l0l2	ont_été_transmis	N
+22l0l3	la_DRIRE	O
+22l0l4	le_8_juin_2005__	T
+22l1l0	la_DRIRE	I
+
+#Ils ont mis en évidence une forte teneur en hydrocarbures à proximité immédiate de la cuve fuyarde (4 prélèvements de paroi avec des valeurs comprises entre la VCI usage sensible et la VCI usage non sensible) mais aucune pollution sous les bâtiments attenants (2 carottages).
+
+23l0l0	hydrocarbures	O
+23l0l1	à_proximité_immédiate_de_la_cuve_fuyarde	L
+23l1l0	hydrocarbures	S
+
+#Les résultats d'analyses hebdomadaires du puits des Iles ne mettent pas en évidence de pollution par les HAP ou les hydrocarbures.
+
+24l0l0	les_HAP	O
+24l1l0	Iles	S
+24l1l1	les_HAP	S
+24l1l2	hydrocarbures	S
+
+#Un arrêté préfectoral du 29 juin 2006 a imposé à l'exploitant un suivi trimestriel des teneurs en HCT et HAP des eaux souterraines afin de vérifier l'absence d'incidence de la pollution accidentelle révélée au niveau de son site sur la ressource en eau.
+
+25l0l0	Un_arrêté_préfectoral	O
+25l0l1	du_29_juin_2006	T
+25l0l2	a_imposé	N
+25l0l3	l__exploitant	O
+25l0l4	un_suivi_trimestriel	A
+25l0l5	teneurs	O
+25l0l6	HCT	O
+25l0l7	HAP	O
+25l1l0	HCT	S
+25l1l1	HAP	S
+
+#Depuis, au 12 janvier 2009, aucun résultat d'analyse des eaux souterraines ne dépasse les valeurs limites fixées pour les eaux brutes utilisées pour la production d'eau potable (décret du 20 décembre 2001).
+
+26l0l0	Depuis	T
+26l0l1	au_12_janvier_2009__	T
+26l0l2	20_décembre_2001	T
+
+#Au regard de ces résultats, et sur la base de l'avis d'hydrogéoloque agréé pour le département de la Savoie, l'exploitant a sollicité l'arrêt de la surveillance de la nappe (dossier SAGE environnement de "demande d'arrêt de suivi hydrogéologique" de décembre 2008).
+
+27l0l0	sur_la_base_de	R
+27l0l1	le_département_de_la_Savoie	O
+27l0l2	l__exploitant	O
+27l0l3	a_sollicité_l__arrêt_de_la_surveillance	N
+27l0l4	de_la_nappe	A
+27l0l5	hydrogéologique	N
+27l0l6	décembre_2008____	T
+
+#En effet, selon l'hydrogéologue agréé, "toutes les conditions sont réunies pour considérer que le suivi de la nappe captive par la société SATM n'a plus d'utilité ni de nécessité.
+
+28l0l0	le_suivi_de_la_nappe_captive	A
+28l0l1	la_société_SATM	O
+28l1l0	la_société_SATM	I
+
+#Ce sont les remblais qui ont été contaminés.
+
+29l0l0	Ce_sont_les_remblais	O
+29l0l1	ont_été_contaminés	N
+
+#Ils n'ont pas de relations géométriques et hydrogéologiques avec la nappe captive." (rapport du 5 décembre 2008).
+
+30l0l0	5_décembre_2008__	T
+
+#Compte tenu de ces éléments, il apparaît que la surveillance des eaux souterraines peut être levée.
+
+31l0l0	la_surveillance_des_eaux_souterraines	A
+
+#Depuis ces derniers éléments, il n'y a pas eu d'évolution notable pour ce site.
+
+32l0l0	ce_site	O

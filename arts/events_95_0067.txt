@@ -1,0 +1,160 @@
+
+#95.0067
+#La Société a été créée en 1931 et avait pour activité le recyclage de produits textiles pour valorisation dans l'industrie automobile.
+
+0l0l0	La_Société	O
+0l0l1	a_été_créée	N
+0l0l2	en_1931	T
+0l0l3	activité_le_recyclage_de_produits_textiles	A
+0l0l4	valorisation_dans_l__industrie_automobile	A
+0l1l0	La	I
+
+#Elle bénéficiait d'un arrêté préfectoral d'autorisation d'exploiter du 20 avril 1999 pour le stockage de matières plastiques, de fibres PVC, et l'emploi de ces matières plastiques.
+
+1l0l0	Elle_bénéficiait	N
+1l0l1	d_	R
+1l0l2	un	N
+1l0l3	arrêté_préfectoral	O
+1l0l4	d__autorisation_d__exploiter	O
+1l0l5	du_20_avril_1999	T
+1l0l6	le_stockage_de_matières_plastiques	A
+1l0l7	l__emploi_de_ces_matières_plastiques	A
+1l1l0	fibres_PVC	U
+
+#Le site est bordé :
+
+2l0l0	Le_site	O
+
+#- au nord, par une voie ferrée ;
+
+3l0l0	au_nord	L
+3l0l1	une_voie_ferrée	O
+
+#- au sud, par l'Oise ;
+
+4l0l0	au_sud	L
+4l0l1	par_l__Oise	L
+
+#- à l'ouest et au nord-est, par une zone industrielle ;
+
+5l0l0	à_l__ouest_et_au_nord_est	L
+5l0l1	une_zone_industrielle	O
+
+#- au sud-est par des habitations et des jardins.
+
+6l0l0	au_sud_est	L
+6l0l1	par_des_habitations_et_des_jardins	L
+
+#L'exploitant a informé la Préfecture du Val d'Oise de l'arrêt de son activité le 26 août 2005 sur la commune de PERSAN.
+
+7l0l0	L__exploitant	O
+7l0l1	a_informé	N
+7l0l2	la_Préfecture_du_Val_d__Oise	O
+7l0l3	l__arrêt_de_son_activité	N
+7l0l4	le_26_août_2005	T
+7l0l5	sur_la_commune_de_PERSAN	L
+7l1l0	la_Préfecture_du_Val	I
+
+#Des analyses de sols et d'eau de nappe ont alors été fournies dans le cadre du mémoire de cessation d'activité.
+
+8l0l0	Des_analyses	N
+8l0l1	ont_alors_été_fournies	N
+8l0l2	dans_le_cadre_du	R
+8l0l3	mémoire	O
+8l0l4	cessation_d__activité	N
+
+#10 sondages de sols ont été réalisés en 2005 et ont montré :
+
+9l0l0	10_sondages_de_sols	N
+9l0l1	ont_été_réalisés	N
+9l0l2	en_2005	T
+
+#- au niveau du sondage S4 (cuve de stockage de déchets liquides et fioul), à 0.5 m de profondeur, un dépassement des Valeurs de Définition de Source Sol (VDSS) sans dépasser les Valeur de Constat d'Impact (VCI) sol à usage sensible pour l'arsenic, le cuivre et le nickel.
+
+10l0l0	au_niveau_du_sondage_S4	L
+10l0l1	à_0_5_m_de_profondeur	N
+10l0l2	un_dépassement	N
+10l0l3	Valeurs_de_Définition_de_Source_Sol	O
+10l0l4	arsenic	O
+10l1l0	déchets_liquides	U
+10l1l1	fioul	S
+10l1l2	arsenic	S
+10l1l3	cuivre	S
+10l1l4	nickel	S
+
+#Ces pollutions proviendraient des remblais apportés sur le site car elles ne peuvent pas être dues à l'activité de BORGERS ;
+
+11l0l0	Ces_pollutions	N
+11l0l1	remblais	N
+11l0l2	apportés	N
+11l0l3	l__activité	A
+11l0l4	de_BORGERS	O
+11l1l0	BORGERS	I
+
+#- au niveau du sondage S3 (machineries de fabrication des non tissés), une pollution en chlorure de vinyle à une teneur de 0.18 mg/kg MS (VCI usage sensible = 0.02 mg/kg MS).
+
+12l0l0	machineries_de_fabrication_des_non_tissés	A
+12l0l1	une_pollution	O
+12l1l0	chlorure_de_vinyle	S
+
+#Une nappe d'eau souterraine étant présente à 3/4 m de profondeur sous le site, des analyses ont été faites et ont montré :
+
+13l0l0	des_analyses	N
+13l0l1	ont_été_faites	N
+
+#- au droit des piézomètres Pz1 et Pz2, une concentration en trichloroéthylène et tétrachloroéthylène supérieure à la VCI usage non sensible de l'eau, Pz1 étant à la limite du site et devant représenter l'amont, mais étant implanté dans une zone incendiée en 1999 (bâtiment de stockage des produits finis) - et Pz2 représentant l'aval.
+
+14l0l0	la_limite_du_site	L
+14l0l1	étant_implanté	N
+14l0l2	dans_une_zone_incendiée	L
+14l0l3	en_1999	T
+14l0l4	bâtiment_de_stockage_des_produits_finis	O
+14l0l5	aval	L
+14l1l0	trichloroéthylène	S
+14l1l1	tétrachloroéthylène	S
+
+#La nappe d'eau souterraine n'est pas utilisée pour l'alimentation en eau potable.
+
+15l0l0	l__alimentation_en_eau_potable	A
+
+#Une étude simplifiée des risques de 2006 a classé le site en classe 2 (site à surveiller par la mise en place d'un dispositif de surveillance).
+
+16l0l0	Une_étude_simplifiée_des_risques	N
+16l0l1	de_2006	T
+16l0l2	a_classé	N
+16l0l3	le_site	O
+16l0l4	en	R
+16l0l5	classe_2	O
+16l0l6	la_mise_en_place_d_	N
+
+#Un arrêté préfectoral complémentaire a été pris en date du 23 avril 2007 et demande :
+
+17l0l0	Un_arrêté_préfectoral_complémentaire	O
+17l0l1	a_été_pris	N
+17l0l2	en_date_du_23_avril_2007	T
+
+#- la mise en place d'un piézomètre amont représentatif de la qualité de la nappe d'eau souterraine ;
+
+18l0l0	la_mise_en_place_d__un_piézomètre_amont	O
+
+#- une campagne de mesure semestrielle sur le réseau piézométrique, avec des analyses en arsenic, cuivre, nickel, chlorure de vinyle, tri et tétrachloroéthylène
+
+19l0l0	une_campagne_de_mesure_semestrielle	N
+19l1l0	arsenic	S
+19l1l1	cuivre	S
+19l1l2	nickel	S
+19l1l3	chlorure	S
+19l1l4	vinyle___tri	S
+19l1l5	tétrachloroéthylène	S
+
+#L'analyse de la nappe réalisée en décembre 2012 montre qu'aucun polluant n'a été détecté au dessus des seuils du laboratoire (comme lors des campagnes de novembre 2010 et juillet 2011).
+
+20l0l0	L__analyse_de_la_nappe	N
+20l0l1	en_décembre_2012	T
+20l0l2	des_campagnes_de	N
+20l0l3	novembre_2010_et_juillet_2011__	T
+
+#Au vu de ces résultats, ce site n'appelle plus d'action de la part de l'inspection des installations classées.
+
+21l0l0	ce_site	O
+21l0l1	n__appelle_plus	N

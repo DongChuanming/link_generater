@@ -1,0 +1,77 @@
+
+#57.0051
+#Ancienne unité sidérurgique arrêtée qui étaient de nature à être soumise à autorisation au titre de la législation sur les Installations Classées pour la Protection de l'Environnement (ICPE).
+
+0l0l0	Ancienne_unité_sidérurgique	N
+0l0l1	étaient_de_nature_à_être_soumise_à_autorisation	N
+0l0l2	la_législation_sur_les_Installations_Classées	O
+0l0l3	pour_la_Protection	N
+0l1l0	sidérurgique	I
+
+#Son dernier exploitant est la société SOGEPASS à laquelle la société ARCELORMITTAL France est venue aux droits.
+
+1l0l0	la_société_SOGEPASS	O
+1l0l1	la_société_ARCELORMITTAL_France	O
+1l0l2	est_venue_aux_droits	N
+1l1l0	la_société_SOGEPASS	I
+1l1l1	la_société_ARCELORMITTAL_France	I
+
+#Les études réalisées sur la « fonderie » ont mis en évidence une contamination diffuse des sols en métaux lourds notamment (As, Cr, Cu, Pb, Zn) et des contaminations ponctuelles en hydrocarbures.
+
+2l0l0	Les_études_réalisées	N
+2l0l1	la___fonderie	O
+2l0l2	une_contamination_diffuse	N
+2l0l3	des_contaminations	O
+2l0l4	ponctuelles	N
+2l1l0	métaux_lourds_notamment	S
+2l1l1	As	S
+2l1l2	Cr	S
+2l1l3	Cu	S
+2l1l4	Pb	S
+2l1l5	Zn	S
+2l1l6	hydrocarbures	S
+
+#Les paramètres analysés dans les sols étaient les hydrocarbures totaux, les métaux et l’indice phénol.
+
+3l1l0	hydrocarbures_totaux	S
+3l1l1	les_métaux	S
+
+#Aucune analyse de la qualité des eaux souterraines et superficielles n’a été effectuée car il a été considéré que les risques pour l’homme vis-à-vis de ces milieux étaient faibles « en l’absence d’usage sensible dans le périmètre d’influence possible du site. »
+
+4l0l0	la_qualité_des_eaux_souterraines	O
+4l0l1	vis_à_vis_de	R
+4l0l2	ces_milieux	O
+
+#L’évaluation simplifiée des risques (ESR) réalisée n’a pris en compte que le transfert possible des polluants vers l’homme par contact direct (milieu sol).
+
+5l0l0	L__évaluation_simplifiée_des_risques	N
+5l1l0	polluants	S
+
+#Le site a été classé comme nécessitant une surveillance pour ce milieu, pour un usage industriel (avec moins de 50 personnes).
+
+6l0l0	Le_site	O
+6l0l1	a_été_classé	N
+6l0l2	comme_nécessitant	R
+6l0l3	une_surveillance	O
+6l0l4	ce_milieu	O
+6l0l5	un_usage_industriel	N
+
+#Il était alors recommandé de :
+
+
+#- éliminer les sols pollués par les hydrocarbures ;
+
+8l0l0	éliminer_les_sols_pollués	N
+8l0l1	hydrocarbures	O
+8l1l0	hydrocarbures	S
+
+#- prendre des précautions lors d’éventuels travaux de terrassement afin d’éviter que les sols pollués ne soient remis en surface et donc en contact avec l’homme ;
+
+9l0l0	d__éventuels_travaux_de_terrassement	N
+9l0l1	sols_pollués	O
+
+#- s’assurer que des personnes non averties ne puissent accéder au site, notamment dans les secteurs qui ne seraient pas revêtus.
+
+10l0l0	accéder_au_site	L
+10l0l1	dans_les_secteurs	L
+10l0l2	qui_ne_seraient_pas_revêtus	A

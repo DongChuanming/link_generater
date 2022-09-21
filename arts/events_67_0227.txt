@@ -1,0 +1,91 @@
+
+#67.0227
+#Forages de 1892 de l'ancienne concession de Pechelbronn, première mine de pétrole en France.
+
+0l0l0	Forages	N
+0l0l1	de_1892	O
+0l0l2	l__ancienne_concession	O
+0l0l3	de_Pechelbronn	O
+0l0l4	première_mine_de_pétrole	O
+
+#Ce forage n'est plus en activité mais le gisement ayant tendance à se remettre en pression depuis l'arrêt de l'exploitation, il est devenu artésien.
+
+1l0l0	Ce_forage	O
+1l0l1	n__est_plus_en_activité	N
+1l0l2	le_gisement	O
+1l0l3	ayant_tendance_à	R
+1l0l4	se_remettre_en_pression	N
+1l0l5	depuis	T
+1l0l6	l__arrêt	N
+1l0l7	l__exploitation	N
+1l0l8	est_devenu_artésien	N
+
+#Site suivi par l'Etat avec maîtrise d'ouvrage déléguée au BRGM.
+
+2l0l0	Site	O
+2l0l1	l__Etat	O
+2l0l2	ouvrage_déléguée_au_BRGM	O
+2l1l0	BRGM	I
+
+#Site suivi par l'Etat avec maîtrise d'ouvrage délégué au BRGM.
+
+3l0l0	Site	O
+3l0l1	l__Etat	O
+3l0l2	ouvrage_délégué_au_BRGM	O
+3l1l0	BRGM	I
+
+#Les anciens forages de la concession de Pechelbronn sont souvent mal rebouchés et peuvent laisser échapper du pétrole brut, de l'eau, du méthane et parfois certains polluants.
+
+4l0l0	Les	O
+4l0l1	anciens_forages	N
+4l0l2	la_concession	O
+4l0l3	de_Pechelbronn	O
+4l0l4	pétrole_brut	O
+4l1l0	pétrole_brut	U
+4l1l1	polluants	S
+
+#Cet ancien forage a fait l'objet d'une mise en sécurité de 2001 à 2003.
+
+5l0l0	Cet_ancien_forage	O
+5l0l1	a_fait_l__objet_d_	R
+5l0l2	une_mise_en_sécurité	N
+5l0l3	de_2001_à_2003	T
+
+#L'équipement standard posé est constitué :
+
+
+#- d'une semelle de béton mise autour de la tête de forage,
+
+7l0l0	une_semelle_de_béton	O
+7l0l1	mise	N
+7l0l2	autour_de_la	L
+7l0l3	tête_de_forage	N
+
+#- d'une virole en béton installée sur la semelle constituant ainsi un piège à pétrole,
+
+8l0l0	piège_à_pétrole	O
+
+#- d'un siphon permettant l'évacuation de l'eau en excès.
+
+
+#Des mesures périodiques (non cycliques) du niveau dans l'ouvrage sont réalisés afin d'éviter tout débordement.
+
+10l0l0	Des_mesures_périodiques	N
+10l0l1	sont_réalisés	N
+
+#Des prélèvements de pétrole sont réalisés chaque automne : composés organiques halogénés volatils, phtalates, chlorobenzènes et PCB sont recherchés.
+
+11l0l0	pétrole	O
+11l0l1	automne	T
+11l1l0	composés_organiques_halogénés_volatils	S
+11l1l1	phtalates	S
+11l1l2	chlorobenzènes	S
+11l1l3	PCB	S
+
+#Pour des raisons de sécurité, la mise en place d'un couvercle scellé équipé d'un évent, d'un bossage pour des éventuels prélèvements de gaz et d'une trappe de visite cadenassé a été réalisé en 2010.
+
+12l0l0	la_mise_en_place_d_	N
+12l0l1	un_couvercle	O
+12l0l2	une_trappe_de_visite	O
+12l0l3	a_été_réalisé	N
+12l0l4	en_2010__	T

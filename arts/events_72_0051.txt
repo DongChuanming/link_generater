@@ -1,0 +1,265 @@
+
+#72.0051
+#Le site a été exploité comme terre agricole, puis pour un usage industriel à partir de 1961 par la société SOURIAU et Compagnie et à partir de 1989 par la société FCI (FRAMATOME CONNECTORS INTERNATIONAL).
+
+0l0l0	Le_site	O
+0l0l1	a_été_exploité	N
+0l0l2	comme	R
+0l0l3	terre_agricole	O
+0l0l4	un_usage_industriel	A
+0l0l5	à_partir_de_1961	T
+0l0l6	la_société_SOURIAU_et_Compagnie	O
+0l0l7	à_partir_de_1989	T
+0l0l8	la_société_FCI	O
+0l0l9	FRAMATOME_CONNECTORS_INTERNATIONAL	O
+0l1l0	la_société_SOURIAU	I
+0l1l1	la_société_FCI___FRAMATOME	I
+0l1l2	CONNECTORS_INTERNATIONAL	I
+
+#L'usine FRAMATOME est implantée sur un terrain de 50 000 m2, dont 16 000m2 couvert.
+
+1l0l0	L__usine_FRAMATOME	O
+1l0l1	est_implantée_sur	N
+1l0l2	un_terrain	O
+1l1l0	FRAMATOME	I
+
+#L'établissement est à l'époque spécialisé dans la fabrication de composants pour la branche électronique.
+
+2l0l0	L__établissement	O
+2l0l1	à_l__époque	T
+2l0l2	spécialisé_dans_la_fabrication_de_composants_pour_la_branche_électronique	A
+
+#Le voisinage immédiat de l'établissement est composé :
+
+3l0l0	Le_voisinage_immédiat	O
+
+#- au sud de logements collectifs,
+
+4l0l0	au_sud_de_logements_collectifs	L
+
+#- au nord et à l'est de maisons privées avec jardin,
+
+5l0l0	au_nord	L
+5l0l1	à_l__est_de_maisons_privées_avec_jardin	L
+
+#- à l'ouest de jardins potagers et d'une voie ferrée.
+
+6l0l0	à_l__ouest_de_jardins_potagers_et_d__une_voie_ferrée	L
+
+#Au droit du site une nappe d'eaux souterraines s'écoule vers le Sud-Est a une profondeur d'environ 1,5-3,0 m/sol.
+
+7l0l0	Au_droit_du_site	L
+7l0l1	vers_le_Sud_Est	L
+
+#Les produits fabriqués sur le site contiennent :
+
+
+#- des contacts métalliques obtenus par découpe de feuillards de cuivre, et protégés par des revêtements d'or et d'étain, appliqués dans les ateliers de traitement de surfaces,
+
+9l0l0	les_ateliers_de	O
+9l0l1	traitement_de_surfaces	A
+9l1l0	cuivre	S
+9l1l1	étain	S
+
+#- des supports isolants en matières plastiques injectées.
+
+
+#Les activités concernées sont soumises à déclaration sous la rubrique de nomenclature des ICPE (installations classées pour la protection de l'environnement) :
+
+11l0l0	Les_activités_concernées	O
+11l0l1	sont_soumises_à_déclaration	N
+11l0l2	ICPE	O
+11l0l3	classées_pour_la_protection_de	A
+11l0l4	l__environnement	O
+
+#-n°2560.2 (travail mécanique des métaux et alliages),
+
+12l0l0	travail_mécanique_des_métaux_et_alliages	A
+
+#-n°2920.2.b (installation de réfrigération ou compression),
+
+13l0l0	réfrigération_ou_compression	A
+
+#-n°2565.2.b (traitement des métaux et matières plastiques).
+
+14l0l0	traitement	N
+14l0l1	des_métaux	O
+
+#La cessation d'activité est notifiée au préfet par l'exploitant le 31 juillet 2009.
+
+15l0l0	La_cessation_d__activité	N
+15l0l1	est_notifiée	N
+15l0l2	au_préfet	O
+15l0l3	l__exploitant	O
+15l0l4	le_31_juillet_2009__	T
+
+#Les mesures prévues par l'exploitant pour la mise en sécurité du site ont été :
+
+16l0l0	Les_mesures_prévues	O
+16l0l1	l__exploitant	O
+16l0l2	la_mise_en_sécurité	N
+
+#- l'évacuation des produits dangereux et des déchets présents sur le site,
+
+17l0l0	l__évacuation_des_produits_dangereux	N
+17l1l0	des_produits_dangereux	U
+
+#- l'interdiction et la limitation d'accès au site (maintien du gardiennage jusqu'à la cession du site),
+
+18l0l0	gardiennage	O
+18l0l1	jusqu_	R
+18l0l2	à	T
+18l0l3	la_cession	N
+18l0l4	du_site	O
+
+#- la suppression des risques d'incendie et d'explosion : produits chimiques évacués,
+
+19l1l0	produits_chimiques	U
+
+#- la surveillance des effets de l'installation sur l'environnement (maintien de la surveillance annuelle de la nappe).
+
+20l0l0	la_surveillance_des_effets_de	A
+20l0l1	l__installation	N
+20l0l2	l__environnement	O
+20l0l3	la_surveillance_annuelle_de_la_nappe	A
+
+#Des investigations ont été réalisées en juin 2010.
+
+21l0l0	Des_investigations_ont_été_réalisées	N
+21l0l1	en_juin_2010__	T
+
+#Elles mettent en évidence les sources de pollutions suivantes :
+
+22l0l0	les_sources_de_pollutions	O
+
+#- SOL : 3 zones sources de pollution, limitées en taille, aux hydrocarbures totaux (HTC), PCE (Perchloroethylene) et
+
+23l0l0	3_zones_sources_de_pollution	O
+23l1l0	hydrocarbures_totaux	S
+23l1l1	HTC	S
+23l1l2	PCE___Perchloroethylene	S
+
+#COHV (Composés Organiques Halogénés Volatils),
+
+24l0l0	COHV	O
+24l1l0	COHV	S
+24l1l1	Composés_Organiques_Halogénés_Volatils	S
+
+#-EAUX Souterraines : 2 panaches distincts en PCE et TCE (trichloroéthylène) avec un faible impact en limite du site,
+
+25l0l0	en_limite_du_site	L
+25l1l0	PCE	S
+25l1l1	TCE	S
+25l1l2	trichloroéthylène	S
+
+#-GAZ SOL : impact en relation avec les panaches de polluant mis en évidence dans les eaux souterraines.
+
+26l1l0	_GAZ_SOL	I
+
+#La localisation de la pollution est précisée sur les plans cartographiques associés à la fiche.
+
+27l0l0	La_localisation	O
+
+#L'EQRS (Évaluation quantitative des risques sanitaires) estime le scénario d'inhalation de l'air ambiant comme un risque acceptable pour les résidents de la partie nord, des travailleurs du bâtiment principal et du voisinage immédiat.
+
+28l0l0	les_résidents	O
+28l0l1	de_la_partie_nord	L
+
+#La mise en œuvre du plan de gestion de la pollution débute en juin 2010.
+
+29l0l0	La_mise_en_œuvre	N
+29l0l1	du_plan_de_gestion_de_la_pollution	O
+29l0l2	débute_en_juin_2010__	T
+
+#Les principaux objectifs sont :
+
+
+#- d'éliminer les sources de pollution identifiées dans les sols,
+
+31l0l0	d__éliminer	N
+31l0l1	les_sources_de_pollution	O
+31l1l0	les_sources_de_pollution	U
+
+#- d'assurer la stabilisation et de permettre l'amélioration de la qualité des eaux souterraines.
+
+32l0l0	la_qualité_des_eaux_souterraines	O
+
+#Des travaux de dépollution ont été réalisés sur les sols.
+
+33l0l0	Des_travaux_de_dépollution	N
+33l0l1	ont_été_réalisés	N
+33l0l2	les_sols	O
+
+#Ils consistaient en l'élimination partielle de la masse de contaminants au droit de chacune des zones sources.
+
+34l0l0	l__élimination_partielle	N
+34l0l1	masse_de_contaminants	O
+34l1l0	contaminants	U
+
+#Soit par désorption thermique in-situ avec récupération des vapeurs et en complément par excavations dans les zones où les polluants apparaissaient en surface ou soit par oxydation chimique.
+
+35l0l0	désorption_thermique_in___situ	N
+35l0l1	excavations	N
+35l0l2	dans_les_zones	L
+35l0l3	oxydation_chimique	N
+35l1l0	polluants_apparaissaient	U
+
+#297,94 tonnes de terres impactées ont été évacuées et traitées en bio-centre et 326,3 tonnes de terres inertes ont été excavées puis expédié vers une installation de stockage de déchets inertes.
+
+36l0l0	297_94	O
+36l0l1	terres_impactées	O
+36l0l2	ont_été_évacuées	N
+36l0l3	326_3_tonnes_de_terres_inertes	O
+36l0l4	ont_été_excavées_puis_expédié_vers	N
+36l0l5	une_installation_de_stockage_de_déchets_inertes	O
+
+#Ces travaux se sont terminés en décembre 2013.
+
+37l0l0	Ces_travaux_se_sont_terminés	N
+37l0l1	en_décembre_2013__	T
+
+#Un suivi des eaux souterraines et des gaz de sol a été mis en place.
+
+38l0l0	Un_suivi_des_eaux_souterraines	A
+38l0l1	a_été_mis_en_place	N
+
+#De plus, une modélisation de l'écoulement des eaux souterraines et du transfert de polluants a été réalisée afin d'élaborer une stratégie de remédiation.
+
+39l0l0	une_modélisation	N
+39l0l1	transfert_de_polluants	O
+39l0l2	a_été_réalisée	N
+39l1l0	polluants	S
+
+#L'étude à conclut à la nécessité de la poursuite de la surveillance de la qualité des eaux souterraines.
+
+40l0l0	la_nécessité	O
+40l0l1	la_poursuite_de	O
+40l0l2	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#Le 24 septembre 2014 le préfet acte la remise en état du site pour un usage industriel.
+
+41l0l0	Le_24_septembre_2014	T
+41l0l1	le_préfet	O
+41l0l2	acte	R
+41l0l3	la_remise_en_état_du_site	O
+41l0l4	un_usage_industriel	A
+41l1l0	le_préfet	I
+
+#En cas de changement d'usage, de nouvelles investigations sont jugées nécessaires pour s'assurer de la compatibilité entre l'état du sol et les usages projetés.
+
+42l0l0	En_cas	R
+42l0l1	de_changement_d_	N
+42l0l2	usage	O
+42l0l3	de_nouvelles_investigations_sont_jugées_nécessaires	N
+42l0l4	usages_projetés	O
+
+#Des restrictions d'usage ont été mis en œuvre.
+
+43l0l0	ont_été_mis_en_œuvre	N
+
+#Une Servitude d’utilité publique (SUP) a été actée le 12/10/17.
+
+44l0l0	Une	N
+44l0l1	Servitude_d__utilité_publique	O
+44l0l2	a_été_actée	N
+44l0l3	le_12_10_17__	T

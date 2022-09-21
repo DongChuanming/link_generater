@@ -1,0 +1,148 @@
+
+#85.0046
+#Le site est une ancienne décharge exploitée entre 1979-1998.
+
+0l0l0	Le_site	O
+0l0l1	une_ancienne_décharge	O
+0l0l2	exploitée	N
+0l0l3	entre_1979___1998__	T
+
+#La surface du site est de 4 ha.
+
+
+#L'activité à été autorisée par arrêté préfectoral du 13/06/1979 au SIVOM (Syndicat intercommunal à vocation multiples) puis exploitée par la communauté de communes de 1995 à 1998.
+
+2l0l0	L__activité	O
+2l0l1	à_été_autorisée	N
+2l0l2	par_arrêté_préfectoral	O
+2l0l3	du_13_06_1979	T
+2l0l4	au_SIVOM	O
+2l0l5	Syndicat_intercommunal_à_vocation_multiples___puis_exploitée	N
+2l0l6	la_communauté_de_communes	O
+2l0l7	de_1995_à_1998__	T
+
+#Les types de déchets identifiés en mélanges pour ce site sont : ordures ménagères et des déchets de travaux publics (bidons souillés, verres, papiers, cartons).
+
+3l1l0	ordures_ménagères	D
+3l1l1	bidons_souillés	U
+
+#Le volume du massif de déchet a pu être estimé à 80 000 m³.
+
+
+#D'après le dossier de cessation, aucune pratique de brûlage à été n'a été identifiée sur le site.
+
+5l0l0	aucune_pratique_de_brûlage	A
+5l0l1	à_été	R
+5l0l2	été_identifiée	N
+
+#Le site est à l’arrêt depuis 1998 mais si la cessation est effective depuis 1998, elle n’a jamais été officiellement actée.
+
+6l0l0	Le_site	O
+6l0l1	est_à_l__arrêt	N
+6l0l2	depuis_1998	T
+6l0l3	la_cessation	O
+6l0l4	est_effective	N
+6l0l5	depuis_1998__	T
+6l0l6	n__a_jamais_été_officiellement_actée	N
+
+#En 1999, après arrêt du site, un diagnostic du site à été réalisé sur l’ancienne décharge.
+
+7l0l0	En_1999__	T
+7l0l1	après_arrêt_du_site	O
+7l0l2	un_diagnostic	N
+7l0l3	site	O
+7l0l4	à_été_réalisé	N
+
+#Ce diagnostic a mis en évidence:
+
+
+#Lixiviats
+
+
+#La décharge ne possède pas de réseau de collecte des lixiviats.
+
+
+#Il n’y a pas de cheminée-puisard implantées au sein de la masse des déchets.
+
+11l0l0	de_cheminée___puisard	O
+11l0l1	implantées	R
+11l0l2	au_sein	L
+
+#Biogaz
+
+12l1l0	Biogaz	S
+
+#La décharge ne possède pas de réseau de collecte du biogaz et il n’y a pas de cheminée de dégazage.
+
+
+#Une prise de mesures à été faite et aucune émission significative n’a été décelée sur le site.
+
+14l0l0	Une_prise_de_mesures	N
+14l0l1	à_été_faite	N
+
+#Eaux de surfaces :
+
+
+#Deux prélèvements ont été effectués et ont mis en évidence une qualité de l’eau globalement moyenne en aval du site.
+
+16l0l0	ont_été_effectués	N
+16l0l1	en_aval_du_site	L
+
+#L’impact de la décharge reste limité à un rejet hors norme en azote kjeldahl.
+
+
+#Eaux souterraines :
+
+
+#Un prélèvement à été effectué dans le piézomètre et a mis en évidence une qualité de l’eau mauvaise.
+
+19l0l0	Un_prélèvement_à_été_effectué	N
+19l0l1	dans	R
+19l0l2	le_piézomètre	O
+19l0l3	l__eau_mauvaise	O
+
+#Les paramètres déclassants sont l’azote kjeldahl, les nitrates, les chlorures et la DCO.
+
+20l1l0	l__azote_kjeldahl	S
+20l1l1	les_nitrates	S
+20l1l2	chlorures	S
+20l1l3	DCO	S
+
+#Les concentrations mesurées pour ces paramètres indiquent une contamination par les lixiviats
+
+21l0l0	une_contamination	O
+21l0l1	lixiviats	O
+
+#Après arrêt, le site n’a pas été réhabilité mais mis en sécurité par le gestionnaire du site.
+
+22l0l0	Après_arrêt	N
+22l0l1	le_site	O
+22l0l2	n__a_pas_été_réhabilité	N
+22l0l3	mis_en_sécurité	N
+22l0l4	le_gestionnaire	O
+
+#En 2014, il ne reste qu’une petite surface à l’extrême nord qui laisse apparaître quelques résidus métalliques.
+
+23l0l0	En_2014__	T
+23l0l1	résidus_métalliques	O
+
+#Ainsi pour sécuriser de manière optimale, la communauté de commune a clôturé le site, a procédé à une évacuation des déchets grossiers et un renforcement de la couverture de cette surface par des couches superposées d’argiles et de terres végétales.
+
+24l0l0	la_communauté_de_commune	O
+24l0l1	a_clôturé	N
+24l0l2	le_site	O
+24l0l3	une_évacuation	N
+24l0l4	un_renforcement_de_la_couverture	N
+24l1l0	la_communauté_de_commune	I
+
+#Cette situation justifie que notamment en cas de changements d'usage ou de travaux occasionnant des déblais de terres à évacuer hors sites, des investigations puissent être réalisées pour s'assurer de la compatibilité des usages envisagés avec l'état des terrains considérés.
+
+25l0l0	en_cas	R
+25l0l1	de_changements_d__usage	N
+25l0l2	de_travaux	N
+25l0l3	évacuer_hors_sites	N
+25l0l4	investigations_puissent_être_réalisées	N
+
+#Il est proposé que le site intègre le dispositif des secteurs d'informations sur les sols (SIS).
+
+26l0l0	le_site	O

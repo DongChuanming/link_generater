@@ -1,0 +1,352 @@
+
+#33.0175
+#Installation de stockage de ferrailles exploitée par la société RIC Environnement filiale de ONYX AQUITAINE sur la commune de Bègles (33).
+
+0l0l0	Installation_de_stockage_de_ferrailles	O
+0l0l1	exploitée_par	R
+0l0l2	la_société_RIC_Environnement	O
+0l0l3	ONYX_AQUITAINE	O
+0l0l4	sur_la_commune_de_Bègles___33__	L
+0l1l0	stockage_de	D
+0l1l1	ferrailles	S
+0l1l2	la_société_RIC_Environnement	I
+0l1l3	ONYX_AQUITAINE	I
+
+#La déclaration de changement d’exploitant a été faite par ONYX AQUITAINE au profit de RIC Environnement le 04/11/2010.
+
+1l0l0	La_déclaration	N
+1l0l1	changement	N
+1l0l2	d__exploitant	O
+1l0l3	a_été_faite	N
+1l0l4	ONYX_AQUITAINE	O
+1l0l5	au_profit_de	R
+1l0l6	RIC_Environnement	O
+1l0l7	le_04_11_2010__	T
+1l1l0	ONYX_AQUITAINE	I
+1l1l1	RIC_Environnement	I
+
+#Cette installation est autorisée par l'arrêté préfectoral du 29/08/1980 délivré à la société SOBOREC.
+
+2l0l0	Cette_installation	O
+2l0l1	est	N
+2l0l2	autorisée_par	R
+2l0l3	l__arrêté_préfectoral	O
+2l0l4	29_08_1980	T
+2l0l5	délivré	N
+2l0l6	la	N
+2l0l7	société_SOBOREC	O
+2l1l0	société_SOBOREC	I
+
+#Cette installation est agréée par l'arrêté du 09/05/2011 pour la démolition de Véhicules Hors d'Usage (VHU).
+
+3l0l0	Cette_installation	O
+3l0l1	est	N
+3l0l2	agréée_par	R
+3l0l3	l__arrêté	O
+3l0l4	09_05_2011	T
+3l0l5	la_démolition	N
+
+#1 - DIAGNOSTIC
+
+4l0l0	DIAGNOSTIC	N
+
+#L'arrêté préfectoral du 20/02/2003 prescrit le diagnostic initial et l'Évaluation Simplifiée des Risques du site (ESR).
+
+5l0l0	L__arrêté_préfectoral	O
+5l0l1	20_02_2003	T
+5l0l2	prescrit_le_diagnostic_initial	N
+5l0l3	l__Évaluation_Simplifiée_des_Risques	N
+5l0l4	site	O
+
+#L'étude remise le 20/10/2003 classe le site en catégorie 2 (site à surveiller).
+
+6l0l0	L__étude_remise	N
+6l0l1	le_20_10_2003	T
+6l0l2	classe	N
+6l0l3	le_site	O
+6l0l4	en	R
+6l0l5	catégorie_2	O
+
+#Cependant, certains critères conduisant à ce classement paraissant sous évalués, une nouvelle cotation du site a été réalisée.
+
+7l0l0	une_nouvelle_cotation	N
+7l0l1	a_été_réalisée	N
+
+#Cette dernière a abouti à un classement du site en catégorie 1 (nécessitant des investigations approfondies).
+
+8l0l0	site	O
+8l0l1	en	R
+8l0l2	catégorie_1	O
+
+#L'arrêté préfectoral du 02/02/2004 prescrit le diagnostic approfondi du site.
+
+9l0l0	L__arrêté_préfectoral	O
+9l0l1	02_02_2004	T
+9l0l2	prescrit	O
+9l0l3	le_diagnostic_approfondi	N
+9l0l4	site	O
+
+#Ce diagnostic, remis e 29/04/2004 montre :
+
+10l0l0	Ce_diagnostic	N
+10l0l1	29_04_2004	T
+
+#- Pour les sols :
+
+
+#. des teneurs en hydrocarbures inférieures aux Valeurs de Constat d'Impact (VCI) en vigueur à l'époque,
+
+12l1l0	hydrocarbures	S
+
+#. des teneurs en métaux lourds significatives d'un impact de la zone des ferrailles sur les sols,
+
+13l0l0	la_zone_des_ferrailles	O
+13l1l0	métaux_lourds	S
+
+#. l'absence d'impact par les HAP,
+
+14l1l0	HAP	S
+
+#. la présence de PCB confirmant l'incidence de l'activité du site sur le milieu.
+
+15l1l0	PCB	S
+
+#- Pour les eaux :
+
+
+#. des teneurs importantes en hydrocarbures sur un piézomètre du site et dans les eaux superficielles du fossé,
+
+17l0l0	hydrocarbures	O
+17l1l0	hydrocarbures	S
+
+#. des teneurs en arsenic, nickel et plomb supérieures à la VCI usage sensible de l'époque dans la nappe superficielle,
+
+18l0l0	arsenic	O
+18l1l0	arsenic	S
+18l1l1	nickel	S
+18l1l2	plomb	S
+
+#. des teneurs en HAP (notamment en benzo(a)pyrène) dans les piézomètres du site supérieures à la VCI usage non sensible de l'époque,
+
+19l0l0	teneurs_en_HAP	O
+19l1l0	HAP	S
+19l1l1	benzo_a_pyrène	S
+
+#. l'absence de teneurs notables en PCB.
+
+20l1l0	PCB	S
+
+#- Sur les sédiments du fossé :
+
+
+#. absence de contamination par les hydrocarbures,
+
+22l0l0	les_hydrocarbures	O
+22l1l0	hydrocarbures	S
+
+#. des teneurs en cadmium, plomb et cuivre supérieures à la VCI usage sensible de l'époque,
+
+23l1l0	cadmium	S
+23l1l1	plomb	S
+23l1l2	cuivre	S
+
+#. des teneurs en PCB supérieures à la VCI usage sensible.
+
+24l1l0	PCB	S
+
+#Il est par ailleurs à noter que :
+
+
+#- les teneurs maximales en arsenic ont été constatées sur un point de prélèvement amont,
+
+26l0l0	arsenic	O
+26l0l1	ont_été_constatées	N
+26l0l2	un_point_de_prélèvement_amont	O
+26l1l0	arsenic	S
+
+#- les analyses complémentaires ont permis de préciser qu'il n'y a pas réellement de nappe dans l'horizon des remblais et qu'il s'agit probablement d'eaux météorites s'accumulant à la base de cette horizon.
+
+27l0l0	remblais	L
+27l0l1	eaux_météorites	O
+27l0l2	s_	R
+27l0l3	accumulant	N
+27l0l4	à_la_base_de_cette_horizon	L
+27l1l0	météorites_s_	U
+
+#En conclusion du diagnostic approfondi, est préconisé :
+
+
+#- de suivre la qualité des eaux de la nappe superficielle en période de basses et hautes eaux,
+
+29l0l0	suivre_la_qualité_des_eaux	O
+29l0l1	en_période_de_basses	T
+
+#- d'analyser annuellement la qualité des sédiments et des eaux superficielles en trois points (amont, rejet et aval).
+
+
+#2 - TRAVAUX
+
+
+#Afin de stopper la pollution, l'exploitant a confiné les surfaces de son site par la mise en place d'une dalle bétonnée et mis en place deux séparateurs d'hydrocarbures pour traiter les rejets aqueux du site.
+
+32l0l0	Afin_de	R
+32l0l1	stopper_la_pollution	N
+32l0l2	l__exploitant	O
+32l0l3	a_confiné	N
+32l0l4	son_site	O
+32l0l5	la_mise_en_place_d__une_dalle_bétonnée	N
+32l0l6	mis_en_place	N
+32l0l7	deux_séparateurs	O
+32l0l8	aqueux	O
+32l1l0	hydrocarbures	S
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+33l0l0	SURVEILLANCE_DES_EAUX	A
+33l0l1	SOUTERRAINES	O
+33l1l0	EAUX_SOUTERRAINES	I
+
+#Par arrêté du 02/02/2004, les prescriptions concernant la surveillance des eaux souterraines sont les suivantes :
+
+34l0l0	02_02_2004	T
+34l0l1	la_surveillance_des_eaux_souterraines	A
+
+#- mise en place de trois piézomètres
+
+35l0l0	mise_en_place	N
+35l0l1	de_trois_piézomètres	O
+
+#- les paramètres à analyser sont : HCTX, métaux lourds et HAP
+
+36l1l0	HCTX	S
+36l1l1	métaux_lourds	S
+36l1l2	HAP	S
+
+#- le niveau piézométrique de la nappe est relevé à chaque campagne
+
+37l0l0	chaque_campagne	N
+
+#- la fréquence des campagnes d'analyses est semestrielle.
+
+38l0l0	campagnes_d__analyses	N
+
+#Suite au diagnostic approfondi, l'arrêté complémentaire du 15/10/2004 a renforcé le suivi de la qualité :
+
+39l0l0	Suite_au	R
+39l0l1	diagnostic_approfondi	N
+39l0l2	l__arrêté_complémentaire	O
+39l0l3	15_10_2004	T
+39l0l4	a_renforcé	N
+39l0l5	le_suivi_de_la_qualité	A
+
+#- de la nappe située au dessus des argiles de Palus,
+
+40l0l0	la_nappe	O
+40l0l1	située_au_dessus_des_argiles_de_Palus	L
+
+#- des eaux et des sédiments du ruisseau longeant le site.
+
+41l0l0	ruisseau	O
+41l0l1	longeant_le_site	L
+
+#Depuis, il a été constaté que la nappe phréatique susvisée n’était pas pérenne au droit du site et que les analyses de cette nappe n’étaient pas exploitables en période de basses eaux.
+
+42l0l0	Depuis	T
+42l0l1	au_droit_du_site	L
+42l0l2	les_analyses	O
+
+#Deux ouvrages complémentaires, plus profonds et captant l’eau sous les argiles de Palus, ont donc été réalisés à l’initiative de l’exploitant.
+
+43l0l0	Deux_ouvrages_complémentaires	O
+43l0l1	captant	A
+43l0l2	l__eau	O
+43l0l3	argiles_de_Palus	A
+43l0l4	ont_donc_été_réalisés	N
+43l0l5	l__initiative	N
+43l0l6	de_l__exploitant	O
+
+#Les analyses de cette nappe n’ont pas révélé d’impact notable lié aux activités du site.
+
+44l0l0	Les_analyses	N
+44l0l1	activités_du_site	A
+
+#Cependant une légère incidence au niveau des HAP a été constatée.
+
+45l1l0	HAP	S
+
+#Compte tenu de ces éléments, le programme de suivi des eaux souterraines a été modifié par arrêté complémentaire du 09/10/2006 en prescrivant :
+
+46l0l0	le_programme_de_suivi_des_eaux_souterraines	O
+46l0l1	a_été_modifié	N
+46l0l2	09_10_2006	T
+46l0l3	prescrivant	N
+
+#- la réalisation d’une analyse des eaux de la nappe localisée au dessus des argiles de Palus uniquement en période de hautes eaux ;
+
+47l0l0	la_réalisation_d__une_analyse_des_eaux	N
+47l0l1	la_nappe	O
+47l0l2	localisée_au_dessus_des_argiles_de_Palus	L
+47l0l3	en_période	T
+47l0l4	de_hautes_eaux	N
+
+#- la réalisation d’analyses des eaux de la nappe située au dessous des argiles de Palus en période de basses et hautes eaux, afin de suivre l’évolution de l’impact notamment au niveau des HAP.
+
+48l0l0	la_réalisation_d__analyses	N
+48l0l1	eaux	N
+48l0l2	la_nappe	O
+48l0l3	située_au_dessous_des	L
+48l0l4	argiles_de_Palus_en_période_de_basses_et_hautes_eaux	N
+48l1l0	HAP	S
+
+#Les campagnes du deuxième semestre 2007 et de 2008 montrent une évolution stable des paramètres analysés.
+
+49l0l0	Les_campagnes	O
+49l0l1	deuxième_semestre_2007_et_de_2008	T
+
+#Un impact en HAP apparaît notamment au niveau du piézomètre PZ3 pour les analyses de 2008.
+
+50l0l0	Un_impact	O
+50l0l1	les_analyses_de_2008__	T
+50l1l0	HAP	S
+
+#Aucune analyse n'a été effectuée sur le PZ3 pendant la campagne du 19/10/2007.
+
+51l0l0	le_PZ3	O
+51l0l1	pendant_la_campagne_du_19_10_2007__	T
+
+#Les deux campagnes d'analyses réalisées en 2009 (Mai et Décembre) montrent notamment un impact en métaux, PCB et hydrocarbures dans les eaux souterraines superficielles ainsi que dans les eaux de surface (notamment en aval hydraulique du site).
+
+52l0l0	Les_deux_campagnes_d__analyses	N
+52l0l1	en_2009	T
+52l0l2	__Mai_et_Décembre	T
+52l0l3	les_eaux	O
+52l0l4	en_aval_hydraulique_du_site	L
+52l1l0	métaux	S
+52l1l1	PCB	S
+52l1l2	hydrocarbures	S
+
+#L'arrêté du 09/05/2011 prescrit la surveillance semestrielle des eaux souterraines dans cinq piézomètres et des eaux de surface en trois points du fossé, en période de hautes et basses eaux.
+
+53l0l0	09_05_2011_prescrit	T
+53l0l1	la_surveillance_semestrielle	A
+53l0l2	des_eaux_souterraines	A
+53l0l3	en_période	T
+53l0l4	de_hautes_et_basses_eaux	O
+
+#Les paramètres mesurés sont : hydrocarbures totaux, métaux lourds, hydrocarbures aromatiques polycycliques et PCB.
+
+54l1l0	hydrocarbures_totaux	S
+54l1l1	métaux_lourds	S
+54l1l2	hydrocarbures_aromatiques_polycycliques	S
+54l1l3	PCB	S
+
+#Voir résultats page 6.
+
+
+#4 - RESTRICTIONS D'USAGES DE LA NAPPE
+
+56l1l0	LA_NAPPE	I
+
+#AP municipal proposé le 15/10/2004.
+
+57l0l0	le_15_10_2004__	T

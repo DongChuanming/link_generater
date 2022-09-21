@@ -1,0 +1,206 @@
+
+#83.0027
+#Station service BRUNO à Saint Tropez (83)
+
+0l0l0	Station_service_BRUNO	O
+0l0l1	à_Saint_Tropez___83__	L
+0l1l0	Station_service_BRUNO	I
+0l1l1	Saint_Tropez	I
+
+#La station service se situe sur la commune de SAINT TROPEZ sur la RN98.
+
+1l0l0	La_station_service	O
+1l0l1	se_situe_sur_la_commune_de_SAINT_TROPEZ	L
+1l0l2	sur_la_RN98	L
+1l1l0	SAINT_TROPEZ	I
+
+#L'environnement immédiat de la station est un parking public et la plage à une centaine de mètres au Nord et dans les autres directions des lotissements constitués de logements individuels et collectifs avec jardins privatifs.
+
+2l0l0	L__environnement_immédiat	O
+2l0l1	la_station	O
+2l0l2	la_plage	O
+2l0l3	à_une_centaine_de_mètres_au_Nord_et_dans_les_autres_directions	L
+2l0l4	lotissements	N
+2l0l5	constitués	R
+2l0l6	de_logements_individuels	L
+
+#La station service a fait l'objet d'un récépissé de déclaration du 09/06/1994.
+
+3l0l0	La_station_service	O
+3l0l1	a_fait_l__objet_d_	R
+3l0l2	un_récépissé	O
+3l0l3	de_déclaration	N
+3l0l4	du_09_06_1994__	T
+3l1l0	La_station_service	I
+
+#Le récépissé de cessation d'activité a été délivré le 15/01/2010.
+
+4l0l0	Le_récépissé	O
+4l0l1	cessation_d__activité	N
+4l0l2	a_été_délivré	N
+4l0l3	le_15_01_2010__	T
+
+#La parcelle de la station service a été vendu à la société FIMAD.
+
+5l0l0	La_parcelle_de_la_station_service	O
+5l0l1	a_été_vendu_à	N
+5l0l2	la_société_FIMAD	O
+5l1l0	la_société_FIMAD	I
+
+#Le site a été reconverti en usage commercial consistant en la vente de vins et de produits régionaux.
+
+6l0l0	Le_site	O
+6l0l1	a_été_reconverti_en_usage_commercial	N
+6l0l2	la_vente_de_vins_et_de_produits_régionaux	A
+
+#Un diagnostic environnemental a été effectué en Mai 2006.
+
+7l0l0	Un_diagnostic_environnemental	N
+7l0l1	a_été_effectué	N
+7l0l2	en_Mai_2006__	T
+
+#Les résultats montrent pour les sols une pollution aux HCT et Xylènes totaux autours des cuves 1 et 2.
+
+8l1l0	HCT	S
+8l1l1	Xylènes_totaux	S
+
+#Pour les eaux souterraines, des teneurs élevées en BTEX et HCT ont également été retrouvées sur 1 piézomètre avec la présence d'une phase flottante.
+
+9l1l0	BTEX	S
+9l1l1	HCT	S
+9l1l2	une_phase_flottante	U
+
+#Une excavation des terres polluées est préconisée tout comme un traitement de la nappe et son suivi.
+
+10l0l0	Une_excavation	N
+10l0l1	terres_polluées	O
+10l0l2	est_préconisée	N
+10l0l3	un_traitement	N
+10l0l4	la_nappe	O
+
+#Les travaux d'installation du système de traitement de la nappe ont commencé le 20/03/2007 et se sont achevés le 30/05/2007.
+
+11l0l0	Les_travaux_d__installation_du_système_de_traitement	N
+11l0l1	la_nappe	O
+11l0l2	ont_commencé	N
+11l0l3	le_20_03_2007	T
+11l0l4	se_sont_achevés	N
+11l0l5	le_30_05_2007__	T
+
+#Ils ont consisté en la réalisation de 3 puits de pompage et la mise en place de l'unité de traitement.
+
+12l0l0	la_réalisation_de	N
+12l0l1	3_puits_de_pompage	O
+12l0l2	la_mise_en_place	N
+12l0l3	l__unité_de_traitement	O
+
+#Les installations ont été démantelées avec notamment la dégazage, le nettoyage et l'évacuation de 2 cuves enterrées, l'une de 40m3 et l'autre de 10m3.
+
+13l0l0	Les_installations	O
+13l0l1	ont_été_démantelées	N
+13l0l2	la_dégazage	N
+13l0l3	le_nettoyage	N
+13l0l4	évacuation_de	N
+13l0l5	2_cuves_enterrées	O
+13l1l0	cuves_enterrées	D
+
+#La quantité d'effluents éliminés a été de 2,5 tonnes (valorisation énergétique en cimenterie).
+
+14l0l0	cimenterie	O
+
+#Les 2 cuves ont été férraillées.
+
+15l0l0	Les_2_cuves	O
+15l0l1	ont_été_férraillées	N
+
+#Puis les terres polluées ont été excavées et les eaux de fond fouilles pompées.
+
+16l0l0	les_terres_polluées	O
+16l0l1	ont_été_excavées	N
+16l0l2	les_eaux_de_fond	O
+16l0l3	fouilles_pompées	N
+
+#Le traitement de ces eaux s'est effectué par passage sur un séparateur hydrocarbures et filtration sur charbon actif avant un rejet vers le réseau communal.
+
+17l0l0	Le_traitement_de	N
+17l0l1	ces_eaux	O
+17l0l2	s__est_effectué	N
+17l0l3	charbon_actif	O
+17l0l4	avant	R
+17l0l5	un_rejet_vers_le_réseau_communal	L
+17l1l0	hydrocarbures	S
+17l1l1	charbon_actif	U
+
+#Ainsi, 301,22 tonnes de terres polluées ont été éliminées en biocentre.
+
+18l0l0	301_22_tonnes_de_terres_polluées	O
+18l0l1	ont_été_éliminées	N
+
+#Les fronts de fouilles présentent des teneurs en hydrocarbures assez élevées mais l'excavation n'a pu se dérouler du fait des limites techniques de sécurité vis-à-vis de la proximité des bâtiments et de la RN98.
+
+19l0l0	Les_fronts	O
+19l0l1	l__excavation	N
+19l0l2	vis_à_vis_de	R
+19l0l3	la_proximité_des_bâtiments_et_de_la_RN98	L
+19l1l0	hydrocarbures	S
+
+#Les fouilles ont été remblayées avec des matériaux sains.
+
+20l0l0	Les_fouilles	O
+20l0l1	ont_été_remblayées	N
+20l0l2	matériaux_sains	O
+
+#Un schéma conceptuel et une ARR ont été remis le 11/09/2008.
+
+21l0l0	Un_schéma_conceptuel	O
+21l0l1	ont_été_remis	N
+21l0l2	le_11_09_2008__	T
+
+#Les résultats montrent que la qualité des sols , de l'eau souterraine, et de l'air ambiant seront compatibles avec une utilisation de commerce en rez de chaussée du bâtiment et un usage résidentiel pour les étages supérieurs si l'usage des eaux souterraines est interdit, si aucun jardin potager n'est établit et si les canalisations d'eau potable sont isolées des terres en place par du matériel sain.
+
+22l0l0	une_utilisation_de_commerce	A
+22l0l1	en_rez_de_chaussée_du_bâtiment	L
+22l0l2	un_usage_résidentiel	N
+22l0l3	l__usage_des_eaux_souterraines	A
+22l0l4	matériel_sain	O
+
+#En date du 09/02/2010, seule la concentration en Xylènes totaux est supérieur à la concentration d'entrée de l'ARR, absence de phase libre sur et hors site, absence d'impact hors site.
+
+23l0l0	En_date_du_09_02_2010	T
+23l0l1	hors_site	L
+23l1l0	Xylènes_totaux	S
+
+#Lors de la campagne de septembre 2015, il a pu être constaté la présence de légères traces visuelles d'hydrocarbures (irisations) au droit de 2 piézomètres (PZ2 et PZ3) situés en aval hydraulique mais aucun impact au droit des 3 piézomètres (PZ1, PZA, PZB) situés en amont hydraulique.
+
+24l0l0	Lors	T
+24l0l1	de_la_campagne	N
+24l0l2	de_septembre_2015__	T
+24l0l3	au_droit_de	L
+24l0l4	2_piézomètres	O
+24l0l5	situés_en_aval_hydraulique	L
+24l0l6	3_piézomètres	O
+24l0l7	situés_en_amont_hydraulique	L
+24l1l0	hydrocarbures	S
+24l1l1	PZB	I
+
+#Les résultats d'analyses de ces campagnes montrent la présence de teneurs résiduelles en hydrocarbures totaux au droit de PZ2 et PZ3.
+
+25l1l0	hydrocarbures_totaux	S
+
+#Toutefois, l'ensemble des teneurs mesurées restent inférieures aux valeurs d'entrées prises en compte lors de l'ARR de novembre 2010.
+
+26l0l0	novembre_2010__	T
+
+#La campagne de mars 2017 indique que les irisations d'hydrocarbures Totaux sont toujours présentes au droit de PZ2 et de PZ3 ainsi que la présence de teneurs résiduelles seules en benzène (PZA).
+
+27l0l0	La_campagne_de	N
+27l0l1	mars_2017	T
+27l1l0	hydrocarbures_Totaux	S
+27l1l1	benzène	S
+27l1l2	PZA	S
+
+#La surveillance de la nappe se poursuit.
+
+28l0l0	La_surveillance	A
+28l0l1	la_nappe	O
+28l0l2	se_poursuit	T

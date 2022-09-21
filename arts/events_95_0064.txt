@@ -1,0 +1,279 @@
+
+#95.0064
+#Le site se situe en bordure de l'Oise, dans la zone industrielle d'Epluches.
+
+0l0l0	Le_site	O
+0l0l1	se_situe_en_bordure_de_l__Oise	L
+0l0l2	dans_la_zone_industrielle_d__Epluches	L
+
+#Il est loué depuis 1981 par la Compagnie Générale des Insecticides, fabriquant d'insecticides.
+
+1l0l0	Il	O
+1l0l1	est_loué	N
+1l0l2	depuis_1981	T
+1l0l3	la_Compagnie_Générale_des_Insecticides	N
+1l0l4	fabriquant	A
+1l1l0	la_Compagnie_Générale_des_Insecticides	I
+
+#A l'occasion d'une évaluation simplifiée des risques (ESR) réalisée en 2006 par l'exploitant actuel à la demande de la DRIRE, il a été constaté que le sous-sol du site était pollué par d'anciens dépôts de déchets et d'anciennes activités industrielles.
+
+2l0l0	A_l__occasion_d_	R
+2l0l1	une_évaluation_simplifiée_des_risques	N
+2l0l2	réalisée	N
+2l0l3	en_2006	T
+2l0l4	l__exploitant_actuel	O
+2l0l5	à_la_demande_de	R
+2l0l6	la_DRIRE	O
+2l0l7	le_sous_sol	O
+2l0l8	pollué	O
+2l1l0	la_DRIRE	I
+2l1l1	dépôts_de_déchets	U
+
+#Le site, et certains sites voisins, sont notamment pollués par des terres bleues issues de l'ancienne activité d'épuration des terres bleues (ferrocyanures ferriques, déchets d'usines à gaz à très forte teneur en cyanures) et des boues noires.
+
+3l0l0	Le_site	O
+3l0l1	pollués	N
+3l0l2	des_terres_bleues	O
+3l0l3	activité_d__épuration	A
+3l0l4	terres_bleues	O
+3l0l5	ferrocyanures_ferriques	O
+3l1l0	ferrocyanures_ferriques	S
+3l1l1	cyanures	S
+
+#Les terres bleues et les boues noires se situent entre les profondeurs de 20 cm et 2,5 m.
+
+
+#Les terres bleurs auraient été déposées vers 1910, auraient ensuite servi de remblai lors de la création de la zone industrielle dans les années 1970.
+
+5l0l0	Les_terres_bleurs	O
+5l0l1	auraient_été_déposées	N
+5l0l2	vers_1910	T
+5l0l3	auraient_ensuite_servi_de_remblai	N
+5l0l4	lors_de	R
+5l0l5	la_création_de	N
+5l0l6	la_zone_industrielle	O
+5l0l7	dans_les_années_1970	T
+
+#Les sociétés Camille Arnourd et Couleur Ten Horn, qui ont exploité des activités industrielles (fabrique de vernis gras, de produits chimiques, de pigments, épuration des terres bleues, distillation du soufre) sur le site entre 1869 et 1980, ont également contribué à la pollution du site.
+
+6l0l0	Les_sociétés_Camille_Arnourd_et_Couleur	O
+6l0l1	ont_exploité	N
+6l0l2	des_activités_industrielles	A
+6l0l3	fabrique_de_vernis_gras	A
+6l0l4	terres_bleues	O
+6l0l5	distillation_du_soufre	A
+6l0l6	sur	L
+6l0l7	le_site	O
+6l0l8	entre_1869_et_1980__	T
+6l0l9	la_pollution_du_site	O
+6l1l0	Les_sociétés_Camille_Arnourd	I
+6l1l1	Couleur_Ten_Horn	I
+6l1l2	soufre	S
+
+#Ces sociétés n'existent plus.
+
+7l0l0	Ces_sociétés	O
+
+#Le sol du site est partout recouvert par au moins 20 cm de terre végétale non polluée ou des dalles béton.
+
+
+#Le site n'est fréquenté que par les salariés de la Compagnie Générale des Insecticides.
+
+9l0l0	Le_site	O
+9l0l1	n_	N
+9l0l2	est_fréquenté	O
+9l0l3	la_Compagnie_Générale_des_Insecticides	A
+9l1l0	la_Compagnie_Générale_des_Insecticides	I
+
+#Des analyses d'échantillons de sol au droit du site ont montré une contamination en cyanures totaux, cyanures libres, en plomb, et en HAP.
+
+10l0l0	Des_analyses	N
+10l0l1	au_droit_du_site	L
+10l1l0	cyanures_totaux	S
+10l1l1	cyanures	S
+10l1l2	plomb	S
+10l1l3	HAP	S
+
+#Les eaux souterraines de la nappe superficielle au droit du site sont également contaminées notamment par des cyanures et du plomb.
+
+11l0l0	Les_eaux	O
+11l0l1	contaminées	O
+11l1l0	des_cyanures	S
+11l1l1	plomb	S
+
+#Il n'y a pas de captage d'eau potable dans un rayon d'1 km autour du site.
+
+12l0l0	d_1_km_autour_du_site	L
+
+#Un arrêté préfectoral complémentaire de juin 2008 a imposé à l'exploitant une surveillance de la qualité des eaux souterraines.
+
+13l0l0	Un_arrêté_préfectoral_complémentaire	O
+13l0l1	de_juin_2008	T
+13l0l2	a_imposé	N
+13l0l3	l__exploitant	O
+13l0l4	une_surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#La surveillance de la qualité des eaux de la nappe superficielle est réalisée à partir de 3 piézomètres sur le site (1 en amont, et 2 en aval) et par des analyses 2 fois par an sur les paramètres HAP, métaux toxiques, cyanures totaux et cyanures libres.
+
+14l0l0	La_surveillance	A
+14l0l1	la_qualité_des_eaux_de_la_nappe	O
+14l1l0	HAP	S
+14l1l1	métaux_toxiques	S
+14l1l2	cyanures_totaux	S
+14l1l3	cyanures_libres	S
+
+#Le bilan de cette surveillance devra être adressé par l'exploitant tous les 4 ans a compter de la mise en application de l'arrêté complémentaire.
+
+15l0l0	surveillance	A
+15l0l1	devra_être_adressé	N
+15l0l2	l__exploitant	O
+15l0l3	tous_les_4_ans_a_compter	T
+15l0l4	de	N
+15l0l5	la_mise_en_application	T
+15l0l6	l__arrêté_complémentaire	O
+
+#Le réseau de surveillance des eaux souterraines constitué de 3 piézomètres dont 1 en amont (Pz1) et 2 en aval (Pz2 et Pz3) présents sur le site a été mis en place en 2008.
+
+16l0l0	Le_réseau_de	O
+16l0l1	surveillance_des_eaux_souterraines	A
+16l0l2	3_piézomètres	O
+16l0l3	a_été_mis_en_place	N
+16l0l4	en_2008__	T
+
+#La première campagne d'analyse des eaux souterraines suite à la mise en place de ce réseau a été réalisée en septembre 2008.
+
+17l0l0	La_première_campagne_d__analyse	N
+17l0l1	eaux_souterraines	O
+17l0l2	suite_à	R
+17l0l3	la_mise_en_place	N
+17l0l4	ce_réseau	O
+17l0l5	a_été_réalisée	N
+17l0l6	en_septembre_2008__	T
+
+#Les analyses ont porté sur les métaux toxiques (As, Cd, Cr, Cu, Hg, Pb, Ni, Zn), les hydrocarbures aromatiques polycycliques et les cyanures.
+
+18l0l0	Les_analyses	N
+18l1l0	métaux_toxiques	U
+18l1l1	As	S
+18l1l2	Cd	S
+18l1l3	Cr	S
+18l1l4	Cu	S
+18l1l5	Hg	S
+18l1l6	Pb	S
+18l1l7	Ni	S
+18l1l8	Zn	S
+18l1l9	hydrocarbures_aromatiques_polycycliques	S
+18l1l10	cyanures	S
+
+#Les résultats ont montré que :
+
+
+#- pour l'ensemble des métaux toxiques et des hydrocarbures aromatiques polycycliques, les résultats sont inférieurs aux valeurs définies dans l'arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine.
+
+20l0l0	11_janvier_2007	T
+20l1l0	métaux_toxiques	S
+20l1l1	hydrocarbures_aromatiques_polycycliques	S
+
+#- pour les cyanures, ils ne sont pas détectés au niveau du Pz1 et sont à l'état de trace au Pz2.
+
+21l1l0	les_cyanures	S
+21l1l1	ils	S
+
+#Un dépassement en cyanures totaux est constaté au niveau du Pz3 (concentration mesurée : 0.36 mg/l - Valeur de référence : 0.05 mg/l) La valeur en cyanures libres reste inférieure à la valeur limite.
+
+22l0l0	Un_dépassement	N
+22l1l0	cyanures_totaux	S
+22l1l1	cyanures	S
+
+#La campagne d'analyse des eaux souterraines effectuée en février 2009 a montré que pour l'ensemble des paramètres mesurés, les concentrations restent inférieures aux valeurs seuils réglementaires excepté pour les cyanures.
+
+23l0l0	La_campagne_d__analyse	N
+23l0l1	en_février_2009	T
+23l1l0	les_cyanures	S
+
+#Ils ne sont pas détectés au niveau du Pz1.  Les concentrations mesurées en cyanures totaux au niveaux des Pz2 et Pz3 étaient supérieures aux valeurs de référence et supérieures à celles mesurées lors de la précédente campagne.
+
+24l1l0	en_cyanures_totaux	S
+
+#En revanche, les concentrations mesurées pour les cyanures libres étaient constantes voir plus faibles que celles mesurées lors de la précédente campagne.
+
+25l1l0	les_cyanures_libres	S
+
+#La campagne d'analyse des eaux souterraines effectuée en juillet 2009 a montré que pour l'ensemble des paramètres mesurés, les concentrations restent inférieures aux valeurs seuils réglementaires.
+
+26l0l0	La_campagne_d__analyse	N
+26l0l1	en_juillet_2009	T
+
+#Les concentrations mesurées en cyanures libres et cyanures totaux au niveaux des Pz2 et Pz3 ont diminué de façon significative par rappport à la campagne précédente.
+
+27l0l0	cyanures	O
+27l1l0	cyanures_libres	S
+27l1l1	cyanures_totaux	S
+
+#Les campagnes d'analyse des eaux souterraines effectuées en 2010 et 2011 ont montré des concentrations en cyanures totaux supérieures aux valeurs seuils données par l'annexe 3 du SDAGE Seine Normandie 2010-2015 au niveau des piézomètres Pz2 et Pz3.
+
+28l0l0	Les_campagnes_d__analyse	N
+28l0l1	eaux_souterraines	O
+28l0l2	effectuées	N
+28l0l3	en_2010_et_2011	T
+28l0l4	cyanures	O
+28l0l5	SDAGE_Seine_Normandie_2010___2015	T
+28l1l0	cyanures_totaux	S
+28l1l1	SDAGE_Seine	I
+
+#Les concentrations restent toutefois inférieures à celles mesurées lors de la campagne de février 2009.
+
+29l0l0	la_campagne	N
+29l0l1	de_février_2009__	T
+
+#Les concentrations en cyanures libres restent inférieures aux valeurs seuils données par l'annexe 3 du SDAGE Seine Normandie 2010-2015.
+
+30l0l0	SDAGE_Seine_Normandie	R
+30l0l1	2010___2015	T
+30l1l0	cyanures_libres	S
+
+#Les campagnes d'analyse des eaux souterraines effectuées en 2012 ont montré des concentrations en cyanures totaux supérieures aux valeurs seuils données par l'annexe 3 du SDAGE Seine Normandie 2010-2015 au niveau des piézomètres Pz2 et Pz3.
+
+31l0l0	Les_campagnes_d__analyse	N
+31l0l1	eaux_souterraines	O
+31l0l2	effectuées	N
+31l0l3	en_2012	T
+31l0l4	cyanures_totaux	O
+31l0l5	SDAGE_Seine_Normandie	R
+31l0l6	2010___2015	T
+31l1l0	cyanures_totaux	S
+31l1l1	SDAGE_Seine_Normandie	I
+
+#Les concentrations restent toutefois inférieures à celles mesurées lors de la campagne de février 2009.
+
+32l0l0	la_campagne	N
+32l0l1	de_février_2009__	T
+
+#Les concentrations en cyanures libres restent inférieures aux valeurs seuils données par l'annexe 3 du SDAGE Seine Normandie 2010-2015, excepté lors du prélèvement effectué en août 2012 au niveau du Pz2 (concentration mesurée : 0.054 mg/l - Valeur de référence : 0.05 mg/l).
+
+33l0l0	SDAGE_Seine_Normandie	L
+33l0l1	2010___2015	T
+33l0l2	du_prélèvement_effectué	N
+33l0l3	en_août_2012	T
+33l1l0	cyanures	S
+
+#Pour les autres paramètres, les concentrations mesurées sont inférieures aux valeurs de référence du SDAGE.
+
+
+#En application des prescriptions techniques relatives à la surveillance de la qualité des eaux souterraines imposées à la société COMPAGNIE GENERALE DES INSECTICIDES, le bilan quadriennal 2008-2012 a été transmis.
+
+35l0l0	En_application_des	R
+35l0l1	prescriptions_techniques	O
+35l0l2	relatives_à	R
+35l0l3	la	N
+35l0l4	surveillance_de_la_qualité_des_eaux_souterraines	A
+35l0l5	la_société_COMPAGNIE_GENERALE_DES_INSECTICIDES	O
+35l0l6	bilan_quadriennal	N
+35l0l7	2008___2012	T
+35l0l8	a_été_transmis	N
+35l1l0	la_société_COMPAGNIE_GENERALE_DES_INSECTICIDES	I
+
+#Il ne montre pas d'évolution caractéristique au fil du temps de la concentration en cyanures (libres et totaux).
+
+36l0l0	cyanures	O
+36l1l0	cyanures	S

@@ -1,0 +1,247 @@
+
+#92.0074
+#Le site était occupé par un garage, situé 16 avenue Henri Barbusse à Clamart, comprenant des activités de distribution de carburants.
+
+0l0l0	Le_site_était	O
+0l0l1	occupé_par_un_garage	R
+0l0l2	__situé_16_avenue_Henri_Barbusse	A
+0l0l3	à_Clamart	O
+0l0l4	__comprenant_des_activités	A
+
+#Il a été exploité successivement entre 1981 et 2007 (date d'arrêt des activités) par plusieurs sociétés.
+
+1l0l0	Il_a_été_exploité_successivement_entre_1981_et	N
+1l0l1	2007___date	T
+1l0l2	d__arrêt_des_activités___par_plusieurs_sociétés	N
+1l0l3	_	T
+
+#Le dernier exploitant était la société ARNOLD ET LEROY.
+
+2l0l0	Le_dernier	O
+2l0l1	exploitant	R
+2l0l2	était_la	O
+2l0l3	société_ARNOLD_ET_LEROY__	L
+
+#Le site comprenait :
+
+3l0l0	Le	O
+3l0l1	site_comprenait__	N
+
+#- 2 cuves de 7,5m3 chacune (de gas-oil et d'essence) installées dans les années 1960 dans la même fosse maçonnée ("fosse A") ;
+
+4l0l0	__2_cuves_de_7_5m3_chacune	O
+4l0l1	gas___oil_et_d__essence___installées	O
+4l1l0	gas___oil_et_d__essence___installées	I
+
+#- 1 cuve de 15m3 de super dans une autre fosse maçonnée ("fosse B") installée dans les années 1980 et 1 réservoir de 1000 litres d'huiles usagées.
+
+5l0l0	__1_cuve	O
+
+#Des infiltrations d’hydrocarbures ont eu lieu dans la cave d'un riverain à partir de décembre 2007 et ont été à l'origine de plaintes en préfecture.
+
+6l0l0	Des_infiltrations	O
+6l0l1	dans_la_cave_d__un	N
+6l0l2	riverain_à_partir_de	T
+6l0l3	décembre_2007_et	O
+6l1l0	Des_infiltrations	D
+6l1l1	eu_lieu_dans	S
+
+#La mairie de Clamart a signalé en Préfecture, en mars 2008, des infiltrations d'hydrocarbures dans le sous-sol de la propriété d'un riverain du site ARNOLD ET LEROY.
+
+7l0l0	La_mairie	O
+7l0l1	signalé_en	O
+7l0l2	Préfecture	N
+7l0l3	infiltrations	N
+7l0l4	d__hydrocarbures	T
+7l1l0	La_mairie	D
+7l1l1	Clamart_a_signalé	U
+7l1l2	propriété_d__un_riverain	U
+
+#Les analyses d’air intérieur réalisées par le Laboratoire Central de la Préfecture de Police (rapport de mai 2008) ont confirmé la présence d'une pollution très importante, composée d'hydrocarbures caractéristiques du gazole ou de fioul domestique, dans le sous-sol de ce riverain.
+
+8l0l0	Les_analyses_d__air	N
+8l0l1	intérieur_réalisées	O
+8l0l2	par_le	N
+8l0l3	Laboratoire_Central_de_la	L
+8l0l4	Préfecture_de_Police___rapport	T
+8l0l5	de_mai_2008___ont_confirmé	N
+8l1l0	intérieur_réalisées	S
+
+#Le rapport concluait qu'il s'agissait vraisemblablement d'une contamination due à l'activité du garage voisin, dont l'activité avait cessé au deuxième semestre 2007.
+
+9l0l0	Le_rapport	O
+9l0l1	concluait	L
+9l0l2	qu__il_s_	N
+9l0l3	vraisemblablement	T
+9l0l4	d__une_contamination	N
+9l0l5	due_à_l__activité	O
+9l0l6	garage_voisin	O
+9l0l7	__dont_l__activité_avait_cessé	O
+9l0l8	au_deuxième_semestre	O
+9l1l0	contamination_due_à_l__activité	S
+9l1l1	deuxième_semestre	I
+
+#Suite à l'absence de déclaration de succession en Préfecture du dernier exploitant du garage, à savoir la société ARNOLD ET LEROY, le représentant légal de la société ARNOLD ET LEROY a été mis en demeure, par arrêté préfectoral du 23 février 2009, de faire une déclaration de succession, sous 3 semaines, conformément à l'article R.512-68 du code de l'environnement.
+
+10l0l0	Suite_à_l__absence	N
+10l0l1	la_société_ARNOLD	T
+10l0l2	LEROY___le_représentant_légal_de_la	O
+10l0l3	succession__	L
+10l1l0	mis_en_demeure__	S
+10l1l1	préfectoral_du_23_février_2009___de_faire	S
+
+#En l'absence de réponse de la société ARNOLD ET LEROY, le propriétaire des terrains a pris à sa charge les travaux de mise en sécurité du site : les 2 cuves de 7,5 m3 ont été extraites en mars 2009.
+
+11l0l0	propriétaire_des_terrains	O
+11l0l1	pris_à_sa_charge_les_travaux_de	O
+11l0l2	en_sécurité_du_site___les_2	N
+11l0l3	cuves_de_7_5_m3_ont_été_extraites_en_mars_2009__	T
+
+#Ces 2, situées dans la "fosse A" étaient fuyardes (mis en évidence lors des travaux d'extraction) et le sable des fosses était fortement impacté (constat lors de l'extraction).
+
+12l0l0	Ces_2__	R
+12l0l1	situées_dans_la___fosse_A___étaient_fuyardes	N
+12l0l2	évidence_lors_des_travaux_d_	N
+12l0l3	extraction	A
+12l0l4	sable_des_fosses_était_fortement	O
+12l0l5	impacté___constat	O
+12l0l6	lors_de_l__extraction	O
+12l0l7	_	O
+12l1l0	sable_des_fosses_était_fortement	I
+12l1l1	lors_de_l__extraction____	I
+
+#La cuve de 15 m3 de super a été extraite mais le sable de la fosse ne présentait pas de traces de pollution.
+
+13l0l0	été_extraite_mais_le_sable_de	O
+13l0l1	la_fosse_ne_présentait_pas_de	O
+13l0l2	traces_de_pollution	O
+13l0l3	_	N
+13l1l0	été_extraite_mais_le_sable_de	I
+
+#Deux piézomètres (1 piézomètre amont PZ1 et 1 piézomètre aval PZ2) ont également été implantés à la charge du propriétaire.
+
+14l0l0	Deux	O
+14l0l1	piézomètres__	L
+14l0l2	1_piézomètre	O
+14l0l3	également_été_implantés_à	N
+14l0l4	propriétaire	O
+14l0l5	_	N
+
+#La nappe est située vers 5 m de profondeur.
+
+15l0l0	La_nappe	O
+15l0l1	située_vers	O
+15l0l2	5_m_de_profondeur	N
+15l1l0	La_nappe	D
+15l1l1	située_vers	U
+
+#Le prélèvement, réalisé en juin 2011 par un bureau d'études dans le piézomètre PZ2 (sur le parking de la rue des Truilles), a mis en évidence une épaisseur de flottant de 40 cm environ.
+
+16l0l0	Le_prélèvement___réalisé	O
+16l0l1	piézomètre_PZ2___sur_le_parking	N
+16l0l2	de_la_rue	R
+16l0l3	des_Truilles_____a	O
+
+#Des traces de BTEX (benzène, toluène, éthylbenzène et xylènes) ont été relevées dans ce piézomètre.
+
+17l0l0	Des_traces	O
+17l0l1	de_BTEX___benzène	L
+
+#Ces résultats mettraient en évidence une pollution provenant d'un mélange type essence/gasoil.
+
+18l0l0	Ces_résultats	N
+18l0l1	mettraient	N
+18l0l2	en_évidence	T
+18l0l3	une_pollution_provenant	O
+18l0l4	d__un_mélange_type	N
+18l0l5	essence___gasoil__	L
+
+#La cuve de chauffage (FOD) de l'immeuble 16 Avenue Henri BARBUSSE a fait l'objet d'une stratification par le propriétaire.
+
+19l0l0	BARBUSSE_a_fait_l__objet_d_	N
+19l0l1	une	R
+19l0l2	stratification	N
+19l1l0	chauffage___FOD___de_l__immeuble_16_Avenue_Henri_BARBUSSE	S
+
+#L'EURL ARNOLD ET LEROY a été radiée du tribunal de commerce (sans mise en liquidation judiciaire) le 17/09/2008.
+
+
+#Néanmoins, l'EURL ARNOLD ET LEROY a fait l'objet d'une nouvelle ré-immatriculation, le 9 juin 2011, au Tribunal du greffe de Paris, suite à une action juridique de l'avocat du propriétaire.
+
+21l0l0	Néanmoins___l__EURL_ARNOLD	O
+21l0l1	l__objet_d__une_nouvelle	L
+21l0l2	ré_immatriculation___le_9_juin_2011___au	N
+21l0l3	Tribunal_du_greffe	O
+21l1l0	ARNOLD	I
+
+#Une nouvelle mise en liquidation a été ouverte à partir du 30 juin 2011.
+
+22l0l0	Une_nouvelle_mise_en	O
+22l0l1	liquidation_a_été_ouverte_à_partir_du_30	N
+22l0l2	juin_2011__	N
+22l1l0	Une_nouvelle_mise_en_liquidation	I
+
+#L'arrêté préfectoral du 15 décembre 2011 a mis en demeure le liquidateur, en sa qualité de représentant de l'exploitant, de respecter, dans un délai de 2 mois, l'article R.512-66-III du code l'environnement en plaçant son site dans un état tel qu'il ne puisse porter atteinte aux intérêts visé à l'article L.511-1 du code de l'environnement.
+
+23l0l0	préfectoral_du_15_décembre	O
+23l0l1	2011_a_mis_en	R
+23l0l2	demeure_le_liquidateur___en_sa_qualité	N
+23l0l3	de_représentant	T
+23l0l4	de_l__exploitant___de_respecter	O
+23l0l5	__dans	R
+23l0l6	un_délai_de_2_mois___l_	N
+23l0l7	article_R_512___66_III_du_code	O
+23l1l0	préfectoral_du_15_décembre	I
+
+#Il lui était notamment demander de réaliser les travaux nécessaires permettant de couper les voies de transfert de la pollution.
+
+24l0l0	Il_lui_était_notamment_demander_de_réaliser_les	N
+24l0l1	travaux_nécessaires_permettant_de_couper_les_voies_de_transfert_de_la_pollution__	T
+
+#L'arrêté complémentaire du 29 février 2012 a prescrit au liquidateur différents compléments sur les travaux de dépollution.
+
+25l0l0	L__arrêté_complémentaire	O
+25l0l1	du_29_février_2012	T
+25l0l2	a_prescrit_au	N
+25l0l3	liquidateur	O
+
+#Suite au non-respect de ces arrêtés préfectoraux, un arrêté préfectoral du 10 août 2012 portant consignation des sommes nécessaires à l'élaboration d'un diagnostic de pollution sur site et hors site et de réalisation de travaux de dépollution a été notifié au liquidateur judiciaire de la société ARNOLD ET LEROY.
+
+26l0l0	Suite	O
+26l0l1	arrêtés_préfectoraux___un_arrêté	N
+26l0l2	2012_portant_consignation_des	N
+26l0l3	sommes_nécessaires	O
+
+#Le liquidateur a confirmé en septembre 2012 l’impécuniosité de la liquidation.
+
+27l0l0	Le_liquidateur_a_confirmé	O
+27l0l1	en_septembre_2012	T
+27l0l2	l__impécuniosité	N
+
+#Les travaux prescrits n'ont donc pas été réalisés.
+
+28l0l0	n__ont_donc_pas_été	O
+
+#Compte tenu de la défaillance des responsables et de l’impact hors site de la pollution, un arrêté préfectoral du 18 avril 2013 prescrivant la réalisation de travaux d'office a chargé l'ADEME d’effectuer des investigations au droit du site 16 Avenue Henri Barbusse à Clamart et hors site afin de vérifier la compatibilité entre la qualité des milieux et les usages sur site et hors site.
+
+29l0l0	Compte_tenu_de_la	O
+29l0l1	défaillance	R
+29l0l2	des_responsables	T
+
+#L’ADEME a mandaté un bureau d’études pour réaliser ces investigations.
+
+30l0l0	L__ADEME_a_mandaté_un_bureau	N
+
+#L'intervention de l'ADEME est en cours : de premières investigations ont été réalisées fin 2014 au droit de l'ancien site Arnold et Leroy et au niveau de certaines parcelles hors site.
+
+31l0l0	fin_2014_au_droit_de_l_	O
+31l0l1	ancien_site_Arnold	T
+31l0l2	et	R
+31l0l3	Leroy_et_au_niveau_de_certaines_parcelles	N
+31l0l4	hors_site__	N
+
+#De nouvelles investigations ont été réalisées au cours du premier semestre 2016.
+
+32l0l0	De_nouvelles	O
+32l0l1	investigations_ont_été	O
+32l0l2	cours_du_premier_semestre	N

@@ -1,0 +1,70 @@
+
+#13.0160
+#Le site est occupé par une ancienne gare et ses installations au moins depuis 1935.
+
+0l0l0	Le_site	O
+0l0l1	est_occupé	N
+0l0l2	par_une_ancienne_gare	O
+0l0l3	ses_installations	O
+0l0l4	au_moins	L
+0l0l5	depuis_1935	T
+
+#Le bâtiment accueillant l’ancienne gare a été démoli vers la fin des années 80.
+
+1l0l0	Le_bâtiment	O
+1l0l1	accueillant_l__ancienne_gare_a_été_démoli	N
+1l0l2	vers_la_fin_des_années_80__	T
+
+#En 1972, la société Toulon Récupération s’implante sur le site pour une activité de récupération de métaux (réception, tri des déchets métalliques et expédition des matériaux triés) et casse automobile.
+
+2l0l0	En_1972	T
+2l0l1	la_société_Toulon_Récupération	O
+2l0l2	s__implante	N
+2l0l3	sur_le_site	L
+2l0l4	une_activité_de_récupération_de_métaux	A
+2l0l5	réception	A
+2l0l6	tri_des_déchets_métalliques	O
+2l0l7	expédition_des_matériaux_triés	O
+2l0l8	casse_automobile	O
+2l1l0	la_société_Toulon_Récupération	I
+
+#En 1991 : la société MIDIFER reprend l’activité en location-gérance avec une activité de réception et stockage de déchets métalliques potentiellement dangereux.
+
+3l0l0	En_1991	T
+3l0l1	la_société_MIDIFER	O
+3l0l2	l__activité	O
+3l0l3	en_location___gérance	N
+3l0l4	une_activité_de_réception_et_stockage_de_déchets_métalliques_potentiellement_dangereux	A
+3l1l0	la_société_MIDIFER	I
+
+#La société était soumise à la règlementation ICPE.
+
+4l0l0	La_société	O
+4l0l1	était_soumise_à	R
+4l0l2	la_règlementation	O
+
+#En 1996, le tribunal de commerce de Salon prononce le redressement judiciaire de la société MIDIFER.
+
+5l0l0	En_1996__	T
+5l0l1	le_tribunal_de_commerce_de_Salon	O
+5l0l2	prononce	R
+5l0l3	le_redressement_judiciaire	N
+5l0l4	la_société_MIDIFER	O
+5l1l0	le_tribunal_de_commerce_de_Salon	I
+5l1l1	la_société_MIDIFER	I
+
+#La présence de déchets de démolition, pneus et plastiques est constatée sur site en 2016 par un bureau d'étude.
+
+6l0l0	démolition	N
+6l0l1	plastiques	O
+6l0l2	est_constatée	N
+6l0l3	en_2016	T
+6l0l4	un_bureau_d__étude	O
+6l1l0	plastiques	S
+
+#Des prélèvements et analyses réalisés en 2016 montrent la présence d’hydrocarbures totaux C10-C40 sur tous les échantillons avec des concentrations comprises entre 160 et 5 600 mg/kg MS.
+
+7l0l0	Des_prélèvements	N
+7l0l1	en_2016	T
+7l1l0	d__hydrocarbures_totaux	S
+7l1l1	C10_C40	S

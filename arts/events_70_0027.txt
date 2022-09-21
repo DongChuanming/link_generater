@@ -1,0 +1,288 @@
+
+#70.0027
+#Le terrain est propriété de la Compagnie des Chemins de Fer de l'Est de 1855 à 1937, date de concession à la SNCF.
+
+0l0l0	Le_terrain	O
+0l0l1	est_propriété_de	R
+0l0l2	la_Compagnie_des_Chemins_de_Fer_de_l__Est	O
+0l0l3	de_1855_à_1937	T
+0l0l4	__date_de_concession	O
+0l0l5	la_SNCF	O
+0l1l0	la_Compagnie_des_Chemins_de_Fer	I
+
+#Un document non daté, utilisant un fond de plan antérieur à 1940, montre la présence de 3 réservoirs à goudron circulaires et d'une chaufferie.
+
+1l0l0	antérieur_à_1940	T
+1l0l1	la_présence	O
+1l0l2	goudron_circulaires	O
+1l0l3	une_chaufferie	O
+1l1l0	goudron	U
+
+#L'usine a goudron exploitée sur le site est autorisée par décision ministérielle du 18 août 1952.
+
+2l0l0	L__usine	O
+2l0l1	a_goudron_exploitée	N
+2l0l2	est_autorisée_par	R
+2l0l3	décision	O
+2l0l4	18_août_1952	T
+
+#En  1969, le site est mis à la disposition du Service des Ponts et Chaussée (DDE70).
+
+3l0l0	En___1969	T
+3l0l1	__le_site	O
+3l0l2	est_mis_à_la_disposition	N
+3l0l3	du_Service_des_Ponts_et_Chaussée	O
+3l0l4	__DDE70	O
+3l1l0	du_Service_des_Ponts_et_Chaussée	I
+3l1l1	__DDE70	I
+
+#A cette époque, l'usine comprend 4 citernes à goudron enterrées, une installation de réchauffage du goudron, une citerne à mazout enterrée de 5 m3 et une installation de dépotage du goudron qui arrive par wagon-citernes.
+
+4l0l0	A_cette_époque	T
+4l0l1	goudron_enterrées	O
+4l0l2	une_installation_de	O
+4l0l3	réchauffage_du_goudron	A
+4l0l4	une_citerne_à_mazout	O
+4l0l5	une_installation	O
+4l0l6	dépotage_du	A
+4l0l7	goudron	O
+4l1l0	goudron	U
+4l1l1	mazout	S
+4l1l2	goudron	U
+
+#L'activité du site cesse au début des années 1980.
+
+5l0l0	L__activité_du_site_cesse	N
+5l0l1	au_début_des_années_1980__	T
+
+#La gestion du site est transférée du domaine public ferroviaire au domaine public fluvial en 1986.
+
+6l0l0	La_gestion_du_site	O
+6l0l1	est_transférée	N
+6l0l2	du_domaine_public_ferroviaire	O
+6l0l3	en_1986	T
+
+#A cette époque, le site ne comporte plus aucun bâtiment ni construction hors sol.
+
+7l0l0	A_cette_époque	T
+7l0l1	le_site	O
+7l0l2	construction_hors_sol	N
+
+#Un branchement de voie ferrée qui dessert les silos de céréales exploités plus loin a été construit en partie sur l'emprise des cuves enterrées.
+
+8l0l0	Un_branchement_de_voie_ferrée	O
+8l0l1	silos_de_céréales	A
+8l0l2	exploités	N
+8l0l3	plus_loin	L
+8l0l4	a_été_construit_en	N
+8l0l5	partie	O
+8l0l6	cuves_enterrées	O
+
+#Le site est localisé à proximité immédiate de la darse de Gray, en rive droite de la Saône.
+
+9l0l0	Le_site	O
+9l0l1	localisé_à_proximité_immédiate_de_la_darse_de_Gray	L
+9l0l2	en_rive_droite_de_la_Saône	L
+
+#La nappe des alluvions de la Saône transite au droit du site, vers 4 m de profondeur, sous le niveau argilo-limoneux superficiel, qui diminue la vulnérabilité de la nappe à des pollutions superficielles.
+
+10l0l0	la_Saône_transite	L
+10l0l1	au_droit_du_site	L
+
+#Le captage d'eau potable de la ville de Gray est situé en amont hydrogéologique du site et n'est donc pas menacé par une éventuelle pollution originaire de celui-ci.
+
+11l0l0	la_ville_de_Gray	L
+11l0l1	est_situé_en_amont_hydrogéologique_du_site	L
+
+#En 2003, suite à la création d'une rampe d'accès pompier à la darse, qui passe au droit du site, une coulée d'hydrocarbures est observée, en provenance d'une des anciennes cuves, abimée par les travaux d'aménagement.
+
+12l0l0	En_2003__	T
+12l0l1	suite_à	R
+12l0l2	la_création_d__une_rampe	N
+12l0l3	la_darse	O
+12l0l4	passe_au_droit_du_site	L
+12l0l5	d__hydrocarbures	O
+12l0l6	en_provenance_d_	R
+12l0l7	une_des_anciennes_cuves	O
+12l1l0	hydrocarbures	S
+12l1l1	cuves	D
+
+#En 2006, de nouveaux suintements d'hydrocarbures sont observés.
+
+13l0l0	En_2006__	T
+13l0l1	suintements	N
+13l0l2	d__hydrocarbures	O
+13l1l0	suintements	S
+13l1l1	hydrocarbures	S
+
+#Voies Navigables de France mandate donc une société spécialisée pour réaliser des travaux de dépollution.
+
+14l0l0	Voies_Navigables_de_France	O
+14l0l1	mandate_donc	N
+14l0l2	une_société	O
+14l0l3	réaliser_des_travaux_de_dépollution	N
+14l1l0	Voies_Navigables	I
+14l1l1	de_France	I
+
+#Les travaux d'excavation des terres sont réalisés en octobre 2006, accompagnés de sondages au niveau des cuves afin de déterminer leur état.
+
+15l0l0	Les_travaux_d__excavation	N
+15l0l1	des_terres	N
+15l0l2	sont_réalisés	N
+15l0l3	en_octobre_2006___accompagnés	T
+15l0l4	de_sondages	N
+15l0l5	au_niveau_des	R
+15l0l6	cuves	O
+
+#Une des cuves est remplie d'hydrocarbures en phase pure.
+
+16l0l0	cuves	O
+16l0l1	remplie	T
+16l0l2	d__hydrocarbures_en_phase_pure	O
+16l1l0	remplie_d__hydrocarbures	S
+
+#Trois sont remplies de matériaux saturés d'eau présentant des traces d'hydrocarbures et la dernière est remblayée par des matériaux saturés en hydrocarbures.
+
+17l0l0	la_dernière	O
+17l0l1	est	N
+17l0l2	remblayée_par_des_matériaux	O
+17l1l0	hydrocarbures	S
+17l1l1	hydrocarbures	S
+
+#Les cuves semblent cependant avoir conservé leur étanchéité de fond (toitures abimées par les travaux et les sondages).
+
+18l0l0	étanchéité	O
+18l0l1	toitures	O
+18l0l2	abimées	R
+18l0l3	les_sondages	N
+18l1l0	cuves	D
+
+#Les matériaux souillés excavés sont stockés sur site, sous des bâches, en attendant leur traitement.
+
+19l0l0	Les_matériaux_souillés	O
+19l0l1	sont_stockés	N
+19l0l2	attendant_leur_traitement	T
+
+#En 2010, sur demande de l'inspection, la DDT70 mandate le CETE de Lyon pour la réalisation d'un diagnostic de pollution du site, dans le but de déterminer l'étendue de la pollution aux hydrocarbures observée suite à l'excavation des terrains en 2006 et d'évaluer les risques sanitaires en fonction des usages futurs potentiels du site.
+
+20l0l0	En_2010__	T
+20l0l1	sur_demande	N
+20l0l2	l__inspection	O
+20l0l3	la_DDT70	O
+20l0l4	mandate	N
+20l0l5	le_CETE	O
+20l0l6	Lyon	L
+20l0l7	la_réalisation_d__un_diagnostic_de_pollution	N
+20l0l8	site	O
+20l0l9	l__excavation	N
+20l0l10	des_terrains	N
+20l0l11	en_2006	T
+20l1l0	la_DDT70	I
+20l1l1	le_CETE_de_Lyon	I
+20l1l2	hydrocarbures	S
+
+#L'étude, remise en septembre 2010 conclut à :
+
+21l0l0	en_septembre_2010	T
+
+#- la présence des matériaux contaminés déjà observés en 2006 dans les cuves,
+
+22l0l0	observés	N
+22l0l1	en_2006	T
+22l0l2	les_cuves	O
+22l1l0	cuves	D
+
+#- la présence des terres polluées excavées en 2006 et non enlevées du site, stockées sous des bâches dégradées,
+
+23l0l0	des_terres_polluées	O
+23l0l1	excavées	N
+23l0l2	en_2006	T
+23l0l3	enlevées	N
+23l0l4	stockées_sous_des_bâches	N
+23l0l5	dégradées	O
+
+#- la pollution aux hydrocarbures du remblai de l'ancienne rampe d'accès à la darse,
+
+24l0l0	hydrocarbures	O
+24l0l1	remblai	O
+24l0l2	darse	O
+24l1l0	hydrocarbures	S
+
+#- la pollution aux hydrocarbures du remblai appuyé sur le côté Sud des cuves 1 et 2 (voir plan).
+
+25l0l0	hydrocarbures	O
+25l0l1	remblai	O
+25l0l2	appuyé_sur_le_côté_Sud	L
+25l1l0	hydrocarbures	S
+
+#Le niveau argileux gris rencontré en fond des sondages (entre 2 et 3 m) semble constituer une barrière à la migration des pollutions plus en profondeur.
+
+
+#Les volumes de matériaux à excaver sont estimés à 1500 m3 + 160 m3 d'eaux souillées et 80 m3 de goudron pur.
+
+27l0l0	Les_volumes_de_matériaux_à_excaver	N
+27l0l1	1500_m3	O
+27l1l0	goudron	U
+
+#En juillet 2011, le CETE apporte quelques compléments à son diagnostic à la demande de l'inspection, notamment sur le bilan coût-avantage des travaux à réaliser.
+
+28l0l0	En_juillet_2011__	T
+28l0l1	le_CETE	O
+28l0l2	la_demande	N
+28l1l0	le_CETE	I
+
+#Le 3 avril 2013, une réunion sur site est organisée avec l'inspection et la DDT, afin de faire le point sur l'état du site et les démarches à engager pour assurer sa mise en sécurité.
+
+29l0l0	Le_3_avril_2013__	T
+29l0l1	une_réunion	N
+29l0l2	est_organisée	N
+29l0l3	avec_l__inspection	O
+29l0l4	la_DDT	O
+29l1l0	la_DDT	I
+
+#Il ressort de cette réunion, la nécessité d'engager les actions suivantes :
+
+30l0l0	d__engager_les_actions	N
+
+#- dans un premier temps, mise en sécurité du site en vidant les cuves pleines de goudron ou de matériaux contaminés, qui représentent une source de pollution non maîtrisée,
+
+31l0l0	vidant	N
+31l0l1	matériaux_contaminés	O
+31l1l0	les_cuves	D
+31l1l1	goudron	U
+
+#- l'évacuation des matériaux excavés en 2006 et stockés sur site depuis,
+
+32l0l0	l__évacuation_des_matériaux_excavés	N
+32l0l1	en_2006	T
+32l0l2	stockés_sur_site	N
+32l0l3	depuis	T
+
+#- dans un second temps, la réalisation de compléments aux études remises, afin d'être en mesure de définir les mesures de gestion adaptées pour le site (vérification de l'état des sols au droit des stockages de terres et en-dessous de la barrière argileuse afin de déterminer l'étendue exacte des pollutions, caractérisation des sédiments de la darse et des eaux souterraines, détermination de l'usage futur du site en concertation avec le propriétaire et la commune, la révision du plan de gestion remis en 2010).
+
+33l0l0	la_réalisation_de_compléments_aux_études_remises	N
+33l0l1	définir_les_mesures_de_gestion	O
+33l0l2	l__étendue_exacte_des_pollutions	O
+33l0l3	sédiments	O
+33l0l4	la_darse	O
+33l0l5	détermination_de_l__usage_futur_du_site	O
+33l0l6	le_propriétaire	O
+33l0l7	la_commune	O
+33l0l8	la_révision	N
+33l0l9	du_plan_de_gestion_remis	N
+33l0l10	en_2010__	T
+
+#La DDT a réalisé une demande de crédits auprès du ministère de l'écologie en octobre 2014 pour permettre la réalisation des travaux de mise en sécurité.
+
+34l0l0	La_DDT	O
+34l0l1	a_réalisé	N
+34l0l2	une_demande	N
+34l0l3	de_crédits	O
+34l0l4	auprès	R
+34l0l5	du_ministère_de_l__écologie	O
+34l0l6	en_octobre_2014	T
+34l0l7	la_réalisation_des_travaux_de_mise_en_sécurité	N
+34l1l0	La_DDT	I
+
+#Cette demande est en cours de traitement.
+

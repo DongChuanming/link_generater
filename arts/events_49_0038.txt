@@ -1,0 +1,560 @@
+
+#49.0038
+#I/ Activité/situation administrative
+
+0l0l0	administrative	O
+
+#L’établissement a été autorisé, sous la raison sociale S.
+
+1l0l0	L__établissement	O
+1l0l1	a_été_autorisé	N
+1l0l2	sous	R
+1l0l3	la_raison	N
+
+#.I.
+
+
+#VULCAIN, par arrêté préfectoral du 29 juillet 1988, à exercer des activités de décapage de métaux (soumises au régime de l’autorisation), ainsi que des activités de sablage, métallisation, application de peintures et dépôt de produits de traitement de bois (soumises à déclaration).
+
+3l0l0	VULCAIN	O
+3l0l1	arrêté_préfectoral	O
+3l0l2	29_juillet_1988	T
+3l0l3	à_exercer	N
+3l0l4	des_activités_de_décapage	A
+3l0l5	de_métaux	A
+3l0l6	des_activités_de_sablage	A
+3l0l7	métallisation	N
+3l0l8	application_de_peintures	A
+3l0l9	dépôt_de_produits_de	O
+3l0l10	traitement_de_bois	A
+
+#Un récépissé de transfert d’exploitation a été délivré en date du 10 mai 1993 au profit du Groupe LG, dont le siège social était situé à Beaucouzé.
+
+4l0l0	Un_récépissé	O
+4l0l1	transfert	N
+4l0l2	d__exploitation	O
+4l0l3	a_été_délivré	N
+4l0l4	en_date_du_10_mai_1993	T
+4l0l5	au_profit	N
+4l0l6	du_Groupe_LG	O
+4l0l7	social_était	A
+4l0l8	situé_à_Beaucouzé	L
+4l1l0	Groupe_LG	I
+
+#Le groupe LG a été racheté en 2002 par le groupe SAMSIC.
+
+5l0l0	Le_groupe_LG	O
+5l0l1	a_été_racheté	N
+5l0l2	en_2002	T
+5l0l3	groupe_SAMSIC	O
+5l1l0	Le_groupe_LG	I
+5l1l1	SAMSIC	I
+
+#Le nouvel exploitant n’a toutefois pas déclaré le changement d’exploitant.
+
+6l0l0	Le_nouvel_exploitant	O
+6l0l1	n__a_toutefois_pas_déclaré	N
+6l0l2	le_changement	N
+6l0l3	d__exploitant	O
+
+#La société SAMSIC, qui exploitait l’établissement de sablage, décapage de métaux et métallisation, a notifié, par courrier du 29 mars 2012, la mise à l’arrêt définitif des installations exploitées sur ce site.
+
+7l0l0	La_société_SAMSIC	O
+7l0l1	exploitait	R
+7l0l2	l__établissement_de_sablage	A
+7l0l3	décapage_de_métaux_et_métallisation	A
+7l0l4	a_notifié	N
+7l0l5	par_courrier_du_29_mars_2012__	T
+7l0l6	la_mise_à_l__arrêt_définitif	N
+7l0l7	des_installations_exploitées	O
+7l0l8	sur	R
+7l0l9	ce_site	O
+7l1l0	La_société_SAMSIC	I
+
+#L’exploitant a transmis en date du 11 février 2013 un mémoire de cessation d’activité ainsi qu’un plan de gestion.
+
+8l0l0	L__exploitant	O
+8l0l1	a_transmis	N
+8l0l2	en_date_du_11_février_2013	T
+8l0l3	un_mémoire_de	O
+8l0l4	cessation_d__activité	N
+8l0l5	un_plan_de_gestion	O
+
+#II/ Environnement du site
+
+
+#L’établissement est implanté sur une parcelle, incluse dans la zone UY du PLU de la ville CHOLET, réservée à l’implantation d’activités industrielles, artisanales ou commerciales et de dépôts qui ne seraient pas admis ou pas souhaitables dans les autres zones.
+
+10l0l0	L__établissement	O
+10l0l1	est_implanté_sur	N
+10l0l2	une_parcelle	O
+10l0l3	incluse_dans_la_zone_UY	O
+10l0l4	la_ville_CHOLET	L
+10l0l5	à_l__implantation_d__activités_industrielles___artisanales_ou_commerciales_et_de_dépôts	A
+
+#Selon les informations bibliographiques, la nappe du primaire est présente à 2/3 m de profondeur, avec un sens d’écoulement théorique de la nappe vers le nord-ouest.
+
+11l0l0	vers_le_nord_ouest	L
+
+#En juillet 2012, trois piézomètres ont été implantés sur le site.
+
+12l0l0	En_juillet_2012__	T
+12l0l1	trois_piézomètres	O
+12l0l2	ont_été_implantés	N
+
+#Les investigations sur les eaux souterraines réalisées en juillet 2012 sur ces ouvrages ont confirmé ce sens d’écoulement (vers le nord-ouest) et la profondeur de la nappe (entre 1,7 m et 2,5 m) .
+
+13l0l0	Les_investigations	N
+13l0l1	sur_les_eaux_souterraines	O
+13l0l2	en_juillet_2012	T
+13l0l3	ces_ouvrages	O
+13l0l4	vers_le_nord_ouest	L
+
+#Toutefois, lors d’une deuxième campagne de surveillance des eaux souterraines réalisée en décembre 2014, il est apparu que le sens d’écoulement était orienté en direction du nord-est (la nature argileuse des matériaux utilisés pour le remblayage de la zone ayant fait l’objet d’une excavation sur le site en avril 2014 est susceptible d’influencer localement le sens d’écoulement des eaux souterraines).
+
+14l0l0	une_deuxième_campagne_de	N
+14l0l1	surveillance_des_eaux_souterraines	A
+14l0l2	en_décembre_2014__	T
+14l0l3	était_orienté	O
+14l0l4	en	L
+14l0l5	direction_du_nord_est	N
+14l0l6	le_remblayage	N
+14l0l7	la_zone	O
+14l0l8	ayant_fait_l_	N
+14l0l9	en_avril_2014	T
+
+#Selon la banque de données du sous-sol, le premier puits (alimentation en eau agricole) est situé à 750 m au nord-ouest du site (aval hydraulique si on considère un sens d’écoulement vers le nord-ouest, latéral hydraulique si on considère un sens d’écoulement vers le nord-est).
+
+15l0l0	le_premier_puits	O
+15l0l1	alimentation_en_eau_agricole	A
+15l0l2	est_situé_à_750_m_au_nord_ouest_du_site	L
+15l0l3	aval_hydraulique	L
+15l0l4	vers_le_nord_est	L
+
+#Par courrier du 11 février 2013, l’exploitant a transmis à l’inspection des installations classées un mémoire de cessation d’activité incluant un diagnostic environnemental, ainsi qu’un plan de gestion pour la réhabilitation du site.
+
+16l0l0	11_février_2013__	T
+16l0l1	l__exploitant	O
+16l0l2	a_transmis	N
+16l0l3	l__inspection_des_installations_classées	O
+16l0l4	un_mémoire_de_cessation_d__activité	N
+16l0l5	un_diagnostic_environnemental	N
+16l0l6	ainsi_qu__un_plan_de_gestion	O
+16l0l7	la_réhabilitation_du_site	N
+
+#I/ MISE EN SÉCURITÉ
+
+17l0l0	SÉCURITÉ	N
+
+#Le mémoire de cessation d’activité présente les mesures prises afin d’assurer la mise en sécurité des installations.
+
+18l0l0	cessation_d_	N
+18l0l1	activité	O
+18l0l2	d__assurer_la_mise_en_sécurité	N
+
+#Ces mesures ont été complétées à la suite de la visite de l’inspection des installations classées en date du 30/09/2014 :
+
+19l0l0	Ces_mesures	O
+19l0l1	ont_été_complétées	N
+19l0l2	à_la_suite_de	R
+19l0l3	la_visite	N
+19l0l4	l__inspection_des_installations_classées	O
+19l0l5	en_date_du_30_09_2014	T
+
+#- Les déchets (boues de peintures, emballages souillés, acides usagés, eau de lavage de la fosse et des bacs anti-corrosion) et produits dangereux (bains d’acide chlorhydrique et de chlorure de méthylène) ont été évacués du site entre mai et juillet 2012, en vue de leur valorisation ou de leur élimination ;
+
+20l0l0	anti_corrosion	O
+20l0l1	ont_été_évacués_du_site	N
+20l0l2	entre_mai_et_juillet_2012__	T
+20l0l3	en_vue	R
+20l0l4	de_leur_valorisation_ou_de	O
+20l0l5	leur_élimination	N
+20l1l0	Les_déchets	U
+20l1l1	boues_de_peintures	U
+20l1l2	emballages_souillés	U
+20l1l3	acides_usagés	U
+20l1l4	produits_dangereux	U
+20l1l5	bains_d__acide	U
+20l1l6	chlorhydrique	S
+20l1l7	chlorure_de_méthylène	S
+
+#- Le four à pyrolyse a été démonté;
+
+21l0l0	Le_four_à_pyrolyse	O
+21l0l1	a_été_démonté	N
+
+#- Le site a été entièrement clôturé ;
+
+22l0l0	Le_site	O
+22l0l1	a_été_entièrement_clôturé	N
+
+#- en ce qui concerne la surveillance des effets de l’installation sur son environnement des investigations sur les sols, l’air du sol et les eaux souterraines ont été réalisées en juillet 2012 afin d’établir le diagnostic environnemental du site ;
+
+23l0l0	la_surveillance_des_effets	A
+23l0l1	l__installation	N
+23l0l2	des_investigations	N
+23l0l3	ont_été_réalisées	N
+23l0l4	en_juillet_2012	T
+23l0l5	afin_d__établir	N
+23l0l6	le_diagnostic_environnemental	N
+
+#- les piézomètres sont convenablement protégés ;
+
+
+#- les utilités ont été maintenues sur le site (eau et électricité) pour les besoins d’intervention sur le site dans le cadre de la réhabilitation.
+
+25l0l0	les_utilités	O
+25l0l1	ont_été_maintenues	N
+25l0l2	électricité	O
+25l0l3	cadre_de	R
+25l0l4	la_réhabilitation	N
+
+#Le mémoire de cessation d’activité précise que l’usage futur retenu est de type industriel, conforme au Plan Local d’Urbanisme de la ville de Cholet.
+
+26l0l0	Le_mémoire_de	O
+26l0l1	cessation_d__activité	N
+26l0l2	l__usage_futur_retenu	O
+26l0l3	la_ville_de_Cholet	L
+
+#Le maintien en place du bâtiment n’est pas confirmé et dépendra des volontés du futur acquéreur.
+
+27l0l0	Le_maintien_en_place_du_bâtiment	O
+
+#II/ État des milieux
+
+
+#Le plan de gestion transmis par l’exploitant présente la nature et les résultats des investigations réalisées en juillet 2012 sur les milieux sols, air du sol et eaux souterraines au droit du site.
+
+29l0l0	Le_plan_de_gestion	O
+29l0l1	l__exploitant	O
+29l0l2	des_investigations_réalisées	N
+29l0l3	en_juillet_2012	T
+29l0l4	milieux_sols	O
+29l0l5	au_droit_du_site	L
+
+#Des prélèvements d’eau ont été réalisés le 30 juillet 2012, dans trois piézomètres implantés sur le site.
+
+30l0l0	Des_prélèvements_d__eau_ont_été_réalisés	N
+30l0l1	le_30_juillet_2012__	T
+
+#Dix sondages de sols ont été réalisés sur le site au droit des zones identifiées à risque au vu des installations exploitées, et en particulier au droit des anciennes installations de décapage (trois sondages) et de l’ancienne cuve de FOD (Fuel Domestique) (un sondage).
+
+31l0l0	Dix_sondages_de_sols	O
+31l0l1	ont_été_réalisés	N
+31l0l2	sur_le_site	L
+31l0l3	au_droit	R
+31l0l4	des_zones	O
+31l0l5	des_installations_exploitées	N
+31l0l6	au_droit_des_anciennes_installations_de_décapage	N
+31l1l0	cuve_de	D
+31l1l1	FOD	I
+31l1l2	Fuel_Domestique	S
+
+#Des mesures d’air du sol ont également été réalisées : mesures semi-quantitatives réalisées au PID pour chaque sondage de sol, et prélèvements d’air du sol au droit de 4 des 10 sondages de sols, sélectionnés en fonction des constats organoleptiques de terrains.
+
+
+#Ces investigations ont mis en évidence :
+
+33l0l0	Ces_investigations	N
+
+#- une zone impactée en hydrocarbures, localisée au droit de l’ancienne cuve de FOD (1 800 mg/kg de MS en hydrocarbures de fractions C10-C40 entre 3 et 3,6 m de profondeur, 1 900 mg/m3 d’hydrocarbures C5-C12 dans les gaz du sol) ;
+
+34l0l0	une_zone_impactée	O
+34l0l1	hydrocarbures	O
+34l0l2	localisée_au_droit_de	L
+34l1l0	hydrocarbures	S
+34l1l1	FOD	I
+34l1l2	hydrocarbures	S
+34l1l3	hydrocarbures	S
+
+#- une zone impactée par des solvants chlorés (trichloroéthylène dans les sols, dichlorométhane dans les gaz des sols) au droit des cuves de traitement de surface et de l’aire de lavage ;
+
+35l0l0	une_zone_impactée	O
+35l0l1	au_droit_des_cuves_de	L
+35l0l2	traitement_de_surface	A
+35l1l0	solvants_chlorés	U
+35l1l1	trichloroéthylène	S
+35l1l2	dichlorométhane	S
+
+#- la présence de solvants chlorés (dichlorométhane à 0,85 µg/l) au droit du piézomètre Pz1 situé en amont/latéral hydraulique du site (pour un écoulement vers le nord-ouest), à proximité des installations de traitement de surface ;
+
+36l0l0	au_droit_du	L
+36l0l1	piézomètre_Pz1	O
+36l0l2	situé_en_amont___latéral_hydraulique_du_site	L
+36l0l3	écoulement_vers_le_nord_ouest	L
+36l0l4	à_proximité_des_installations_de_traitement	L
+36l0l5	de_surface	A
+36l1l0	solvants_chlorés	U
+36l1l1	dichlorométhane	S
+
+#- la présence quasi-généralisée de teneurs significatives en éléments traces métalliques dans les sols (plomb, chrome, cuivre, nickel et zinc) et de teneurs en arsenic, plomb, chrome et nickel légèrement supérieures aux valeurs de références dans les eaux souterraines au droit du piézomètre Pz3 situé en aval hydraulique (pour un écoulement vers le nord-ouest).
+
+37l0l0	situé_en_aval_hydraulique	L
+37l0l1	écoulement_vers_le_nord_ouest	L
+37l1l0	traces_métalliques	S
+37l1l1	plomb	S
+37l1l2	chrome	S
+37l1l3	cuivre	S
+37l1l4	nickel	S
+37l1l5	zinc	S
+37l1l6	arsenic	S
+37l1l7	plomb	S
+37l1l8	chrome	S
+37l1l9	nickel	S
+
+#III/ Plan de gestion et analyse des risques résiduels prédictive
+
+38l0l0	III_	O
+
+#Le plan de gestion proposé présente deux options de gestion du site, associées à un bilan coûts-avantages.
+
+39l0l0	Le_plan_de_gestion	O
+
+#La première option, non privilégiée compte tenu du bilan coûts-avantages défavorable, consiste à retirer l’ensemble des sources de pollution, par excavation des sols sur l’ensemble du site et sur 3 m de profondeur.
+
+40l0l0	La_première_option	O
+40l0l1	retirer	N
+40l0l2	l__ensemble_des_sources_de_pollution	O
+40l0l3	excavation_des_sols	N
+
+#La seconde option, recommandée, consiste à éliminer les sources concentrées de pollution :
+
+41l0l0	éliminer_les_sources_concentrées	N
+41l1l0	concentrées_de_pollution	U
+
+#- excavation des terres impactées en hydrocarbures au droit de l’ancienne cuve de FOD ;
+
+42l0l0	__excavation	N
+42l0l1	des_terres_impactées	O
+42l0l2	hydrocarbures	O
+42l0l3	au_droit_de_l_	L
+42l1l0	hydrocarbures	S
+42l1l1	FOD	I
+
+#- pour la zone des cuves de traitement de surface : traitement par venting de l’air des sols et stripping des eaux souterraines, ou bien par désorption thermique des terres polluées en cas de maintien en place du bâtiment ; excavation et criblage sous tente en cas de destruction du bâtiment.
+
+43l0l0	cuves_de_traitement	O
+43l0l1	__traitement_par_venting	N
+43l0l2	et_stripping	N
+43l0l3	des_eaux_souterraines	A
+43l0l4	par_désorption	N
+43l0l5	des_terres_polluées	O
+43l0l6	en_cas_de	R
+43l0l7	maintien_en_place	N
+43l0l8	____excavation_et_criblage_sous_tente	N
+43l0l9	en_cas	R
+43l0l10	de_destruction_du_bâtiment	N
+43l1l0	cuves	D
+
+#Le recouvrement de l’ensemble du site pour exclure tout contact direct avec les sols en place et l’absence d’usage des eaux souterraines sont par ailleurs préconisés.
+
+44l0l0	Le_recouvrement	A
+44l0l1	l__absence_d__usage_des_eaux_souterraines	A
+
+#Une analyse des risques résiduels (ARR) prédictive basée sur la mise en œuvre de la seconde option de gestion (en considérant un abattement de 90 % des concentrations maximales en polluants au droit de la zone des cuves de traitement de surface) et sur la base d’un usage industriel du site a été réalisée.
+
+45l0l0	Une_analyse	N
+45l0l1	des_risques_résiduels	O
+45l0l2	la_base_d_	R
+45l0l3	un_usage_industriel_du_site	A
+45l0l4	a_été_réalisée	N
+45l1l0	en_polluants	U
+45l1l1	des_cuves	D
+
+#Elle conduit à des valeurs d'indice de risque et d'excès de risque individuel inférieures aux valeurs de référence (respectivement 1 et 10-5) et conclut donc à l’absence de risque sanitaire inacceptable.
+
+
+#Enfin, le plan de gestion propose :
+
+
+#- la mise en place de restrictions d’usage (via une servitude d’utilité publique), afin notamment de garantir les hypothèses prises en compte dans l’ARR (absence d’usage des eaux souterraines, recouvrement total du site, …) ;
+
+48l0l0	la_mise_en_place_de_restrictions	N
+48l0l1	d__usage	O
+48l0l2	une_servitude	O
+
+#- la mise en place d’une surveillance environnementale.
+
+49l0l0	la_mise_en_place_d__une_surveillance_environnementale	N
+
+#IV/ Mise en œuvre du plan de gestion
+
+50l0l0	Mise_en_œuvre	N
+50l0l1	du_plan_de_gestion	O
+
+#Le mémoire de cessation d’activité indique que l’option de gestion retenue par l’exploitant est la seconde option, avec traitement in situ de la zone impactée en solvants chlorés par venting/stripping.
+
+51l0l0	cessation_d__activité	N
+51l0l1	l__option_de_gestion_retenue	O
+51l0l2	l__exploitant	O
+51l0l3	la_seconde_option	O
+51l0l4	traitement_in_situ	N
+51l0l5	la_zone_impactée	O
+51l0l6	venting	N
+51l0l7	stripping	N
+51l1l0	solvants_chlorés	U
+
+#Le mémoire précise que le recouvrement de l’ensemble du site sera garanti ainsi que l’absence d’usage des eaux souterraines.
+
+52l0l0	l_	O
+52l0l1	absence	N
+52l0l2	d__usage_des_eaux_souterraines	A
+
+#L’exploitant a informé l’inspection des installations classées en septembre 2014 de la fin des travaux de dépollution, par la transmission d’un rapport de fin de chantier.
+
+53l0l0	L__exploitant	O
+53l0l1	a_informé	N
+53l0l2	l__inspection_des_installations_classées	O
+53l0l3	en_septembre_2014	T
+53l0l4	la_fin_des_travaux_de_dépollution	N
+53l0l5	la_transmission	N
+53l0l6	d_	R
+53l0l7	un_rapport	O
+53l0l8	fin_de_chantier	N
+
+#Le rapport décrit les travaux de dépollution qui ont débuté en avril 2014 :
+
+54l0l0	les_travaux_de_dépollution	N
+54l0l1	ont_débuté	N
+54l0l2	en_avril_2014	T
+
+#> la zone impactée en hydrocarbures a fait l’objet d’une excavation. 544 tonnes de terres polluées ont été évacuées. 8 prélèvements de bords et fonds de fouille ont été réalisés par l’entreprise réalisant les travaux.
+
+55l0l0	la_zone_impactée	O
+55l0l1	hydrocarbures	O
+55l0l2	a_fait_l__objet_d_	R
+55l0l3	une_excavation	N
+55l0l4	544_tonnes_de_terres_polluées	O
+55l0l5	ont_été_évacuées	N
+55l0l6	8_prélèvements_de_bords	O
+55l0l7	fonds_de_fouille	O
+55l0l8	ont_été_réalisés	N
+55l0l9	par_l__entreprise	O
+55l0l10	réalisant_les_travaux	N
+55l1l0	hydrocarbures	S
+
+#Les analyses n’ont pas mis en évidence d’impact en hydrocarbures dans les échantillons de terre prélevés.
+
+56l1l0	hydrocarbures	S
+
+#La fouille a été remblayée avec des matériaux sains.
+
+57l0l0	La_fouille	O
+57l0l1	a_été_remblayée	N
+57l0l2	matériaux_sains	O
+
+#> pour le traitement de la zone impactée en solvants chlorés, 15 puits de forage ont été installés ainsi qu’un réseau d’aspiration des gaz des sols et des eaux souterraines.
+
+58l0l0	le_traitement	N
+58l0l1	la_zone_impactée	O
+58l0l2	15_puits_de_forage	O
+58l0l3	ont_été_installés	N
+58l0l4	un_réseau	O
+58l0l5	eaux_souterraines	O
+58l1l0	solvants_chlorés	S
+
+#Les gaz de sols ont été traités sur une unité double de venting de 2x1080 m3/heure.
+
+59l0l0	Les_gaz_de_sols	O
+59l0l1	ont_été_traités	N
+59l0l2	une_unité	O
+59l0l3	double_de_venting	N
+59l1l0	gaz_de_sols	U
+
+#Le traitement des eaux souterraines a été réalisé par extraction multiphase et par stripping.
+
+60l0l0	Le_traitement_des_eaux_souterraines	O
+60l0l1	a_été_réalisé	N
+60l0l2	extraction_multiphase	N
+60l0l3	stripping	N
+
+#es unités de traitement des gaz des sols et des eaux souterraines ont été arrêtées fin août 2014, après que les analyses aient démontrées l’atteinte des objectifs de dépollution fixés (abattement de 90 % des concentrations maximales en polluants mises en évidence lors du diagnostic initial).
+
+61l0l0	es_unités_de_traitement	O
+61l0l1	ont_été_arrêtées	N
+61l0l2	fin_août_2014__	T
+61l0l3	dépollution	N
+61l0l4	fixés	O
+61l1l0	en_polluants	U
+
+#Un contrôle de la qualité des sols et des eaux souterraines après travaux a été réalisé en décembre 2014, par un bureau d’études indépendant du prestataire ayant réalisé les travaux :
+
+62l0l0	Un_contrôle	N
+62l0l1	la_qualité_des_sols_et_des_eaux_souterraines_après_travaux	O
+62l0l2	a_été_réalisé	N
+62l0l3	en_décembre_2014__	T
+62l0l4	un_bureau_d__études	O
+62l0l5	prestataire	O
+62l0l6	ayant_réalisé_les_travaux	N
+
+#- au droit de la zone associée à la cuve FOD (zone ayant fait l’objet d’une excavation), 2 sondages de sols à une profondeur de 5m et un piézair temporaire ont été réalisés ;
+
+63l0l0	au_droit_de	R
+63l0l1	la_zone	O
+63l0l2	la_cuve_FOD	O
+63l0l3	zone	O
+63l0l4	ayant_fait_l_	N
+63l0l5	une_excavation	N
+63l0l6	2_sondages_de_sols	N
+63l0l7	5_m	N
+63l0l8	un_piézair_temporaire	O
+63l0l9	ont_été_réalisés	N
+63l1l0	cuve_FOD	I
+
+#- au droit de l’ancien atelier de traitement de surface (zone ayant fait l’objet d’un traitement sur les gaz des sols et les eaux souterraines), 3 piézairs temporaires ont été mis en place.
+
+64l0l0	au_droit_de_l__ancien_atelier_de	L
+64l0l1	traitement_de_surface	A
+64l0l2	zone	O
+64l0l3	ayant_fait_l__objet_d_	R
+64l0l4	un_traitement	N
+64l0l5	3_piézairs_temporaires	O
+64l0l6	ont_été_mis_en_place	N
+
+#Ces investigations de contrôle ont mis en évidence :
+
+65l0l0	Ces_investigations_de_contrôle	N
+
+#- un impact résiduel en hydrocarbures dans les sols (1090 mg/kg) entre 3,4 et 3,6 m au niveau de la zone d’excavation, avec une extension verticale limitée (par d’impact au-delà de 4 m de profondeur) ;
+
+66l0l0	excavation	N
+66l1l0	hydrocarbures	S
+
+#- une teneur importante en dichlorométhane dans les sols de la zone traitement de surface (43,3 mg/kg) entre 0,1 et 0,8 m de profondeur et la présence, à des teneurs moindres, d’autres composés chlorés (tétrachloroéthylène, trichloroéthylène, …) ;
+
+67l1l0	dichlorométhane	S
+67l1l1	composés_chlorés	U
+67l1l2	tétrachloroéthylène	S
+67l1l3	trichloroéthylène	S
+
+#- un impact résiduel important en COHV et en hydrocarbures aromatiques, notamment au droit du piézair Pa4 (dichlorométhane 200 mg/m3, trichloroéthylène 19,3 mg/m3), impact s’étendant de la partie centrale de l’ancien atelier à sa partie nord-est (extensions nord-ouest et sud-ouest indéterminées) ;
+
+68l0l0	étendant_de_la_partie_centrale	L
+68l0l1	partie_nord_est	O
+68l0l2	extensions_nord_ouest	L
+68l1l0	COHV	S
+68l1l1	hydrocarbures	S
+68l1l2	dichlorométhane	S
+68l1l3	trichloroéthylène	S
+
+#- dans les eaux souterraines, la présence d’une teneur en chrome au droit de Pz2 supérieure à la limite de potabilisation et de potabilité, et des teneurs quasi-généralisées en arsenic, plomb et nickel supérieures à la limite de potabilité.
+
+69l1l0	chrome	S
+69l1l1	arsenic	S
+69l1l2	plomb	S
+69l1l3	nickel	S
+
+#Au vu du constat d’impact résiduel important en COHV au droit de l’ancien atelier de traitement de surface, le traitement par venting a été remis en place en décembre 2015.
+
+70l0l0	au_droit_de_l__ancien_atelier	L
+70l0l1	de_traitement_de_surface	O
+70l0l2	le_traitement_par_venting	N
+70l0l3	a_été_remis_en_place	N
+70l0l4	en_décembre_2015__	T
+70l1l0	COHV	S
+
+#De nouvelle analyses seront réalisées courant 2016 pour s’assurer de l’efficacité du traitement.
+
+71l0l0	De_nouvelle_analyses	N
+71l0l1	seront_réalisées	N
+71l0l2	courant_2016	T

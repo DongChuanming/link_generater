@@ -1,0 +1,175 @@
+
+#76.0214
+#Plusieurs activités et propriétaires se sont succédés sur l'ensemble du site industriel de 1880 à nos jours :
+
+0l0l0	Plusieurs_activités_et_propriétaires	O
+0l0l1	se_sont_succédés	N
+0l0l2	de_1880_à_nos_jours	T
+
+#- 1880 – 1920 : AVICE et Cie, activité de filature et tissage de cotons.
+
+1l0l0	1880___1920	T
+1l0l1	_	N
+1l0l2	AVICE_et_Cie	O
+1l0l3	activité_de_filature_et_tissage_de_cotons	A
+1l1l0	AVICE	I
+
+#Construction des bâtiments vers 1880;
+
+2l0l0	Construction	N
+2l0l1	des_bâtiments	O
+2l0l2	vers_1880__	T
+
+#- 1920 – 1977 : Albert MASUREL et Cie, rachat du site pour la même activité.
+
+3l0l0	1977	T
+3l0l1	_	N
+3l0l2	__Albert_MASUREL	O
+3l0l3	et_Cie	O
+3l0l4	__rachat	N
+3l0l5	du_site	O
+3l1l0	__Albert_MASUREL	I
+
+#L'activité de tissage est soumise à déclaration.
+
+4l0l0	L__activité_de_tissage	A
+4l0l1	est_soumise_à_déclaration	N
+
+#Par ailleurs, des plans indiquent la présence de cuves enterrées d'essence, qui n'auraient pas été détectées;
+
+5l0l0	cuves_enterrées_d__essence	O
+5l1l0	cuves_enterrées	D
+5l1l1	d__essence	U
+
+#- Année 1990 : ABSIRE-SEVREY, activité de tannerie (par tannage végétal), spécialisée dans la fabrication de trépointes pour chaussures.
+
+6l0l0	Année_1990	T
+6l0l1	ABSIRE___SEVREY	O
+6l0l2	activité_de_tannerie	A
+6l0l3	spécialisée_dans_la_fabrication_de_trépointes_pour_chaussures	A
+
+#Les activités, notamment, de travail d'élastomère, d'application à froid de peintures et de séchage de peintures sont soumises à déclaration.
+
+7l0l0	Les_activités	A
+7l0l1	travail_d__élastomère	A
+7l0l2	d__application_à_froid_de_peintures_et_de_séchage_de_peintures	A
+7l0l3	sont_soumises_à_déclaration	N
+
+#- 2008 : Le site a été démoli par l'EPF Normandie en 2007 et est aujourd'hui en friche.
+
+8l0l0	__2008	T
+8l0l1	Le_site	O
+8l0l2	a_été_démoli	N
+8l0l3	l__EPF_Normandie	O
+8l0l4	en_2007	T
+8l0l5	est_aujourd_hui_en_friche	N
+8l1l0	l__EPF_Normandie	I
+
+#Le dernier exploitant recensé est la société ABSYRE-SEVREY.
+
+9l0l0	Le	O
+9l0l1	la_société_ABSYRE___SEVREY	O
+9l1l0	la_société_ABSYRE___SEVREY	I
+
+#Cette dernière a été liquidée.
+
+10l0l0	a_été_liquidée	N
+
+#Le site est considéré comme orphelin.
+
+
+#Les diagnostics réalisés ont mis en évidence :
+
+12l0l0	Les_diagnostics_réalisés	N
+
+#- dans les sols : la présence de BTEX, de métaux, de COHV et d'HCT.
+
+13l1l0	BTEX	S
+13l1l1	métaux	S
+13l1l2	COHV	S
+13l1l3	d__HCT	S
+
+#- dans les eaux souterraines : la présence de mercure, de BTEX et de COHV.
+
+14l1l0	mercure	S
+14l1l1	de_BTEX	S
+14l1l2	COHV	S
+
+#- dans l'air du sol : la présence de BTEX, de COHV (trichloroéthylène et 1,1,1 – trichloroéthane) et d'hydrocarbures volatils.
+
+15l1l0	BTEX	S
+15l1l1	COHV	S
+15l1l2	trichloroéthylène	S
+15l1l3	1_1_1___trichloroéthane	S
+15l1l4	d__hydrocarbures_volatils	S
+
+#Un état statique de la nappe a été réalisé montrant un sens d'écoulement de la nappe superficielle d'ouest en est.
+
+16l0l0	Un_état_statique	N
+16l0l1	la_nappe	O
+16l0l2	a_été_réalisé	N
+
+#Cependant, ce dernier point est à prendre avec précaution étant donné l'absence de prise en compte des phénomènes de marnage (effet des marées).
+
+17l0l0	marnage	A
+
+#Dans ces conditions, (absence de définition claire de l'amont et de l'aval), les conclusions quant au caractère extérieur ou pas d'une partie de la pollution ne peuvent être prises.
+
+18l0l0	aval	O
+
+#Il est à noter que les exutoires des eaux usées de l'association rouennaise pour la réadaptation à l'enfance déficiente (ARRED) et des ateliers protégés des papillons blancs de l'agglomération rouennaise (APP BAR) se trouvent exactement à l'ouest du site et pourraient être à l'origine d'une partie de la pollution observée.
+
+19l0l0	les_exutoires	O
+19l0l1	l__association_rouennaise	O
+19l0l2	des_ateliers_protégés	O
+19l0l3	agglomération_rouennaise	L
+19l0l4	se_trouvent_exactement_à_l__ouest_du_site	L
+
+#Afin de clarifier ce point et afin de suivre l'évolution de la nappe, il convient donc d'installer un réseau de piézomètres et d'effectuer le relevé de niveau statique du niveau de la nappe en fonction de l'évolution des marées.
+
+20l0l0	effectuer_le_relevé_de_niveau	N
+20l0l1	la_nappe	O
+
+#Nous proposons cependant de noter la cessation de fait définitive des activités.
+
+21l0l0	cessation_de_fait_définitive	N
+21l0l1	activités	A
+
+#Plan de gestion et analyse de risque résiduaire
+
+22l1l0	résiduaire	U
+
+#L'ARR a été réalisée afin d'évaluer la compatibilité de l'état du site avec les usages projetés.
+
+23l0l0	L__ARR_a_été_réalisée	N
+23l0l1	la_compatibilité	O
+23l0l2	usages_projetés	O
+
+#Des niveaux de risques acceptables ont été définis, en considérant d'une part les hypothèses constructives retenues pour les résidents adultes et enfants habitant les logements collectifs et individuels, et en considérant les prescriptions suivantes :
+
+24l0l0	Des_niveaux_de_risques	O
+24l0l1	ont_été_définis	N
+
+#- Mise en place d'un grillage avertisseur entre les terres impactées et les terres saines.
+
+25l0l0	Mise_en_place_d__un_grillage	N
+25l0l1	avertisseur	O
+25l0l2	les_terres_impactées	O
+25l0l3	les_terres_saines	O
+
+#- Absence de cultures potagères sauf en cas de recouvrement de 50 cm de terre saine.
+
+
+#- Absence de plantation d'arbres fruitiers.
+
+27l0l0	Absence	N
+27l0l1	de_plantation_d__arbres_fruitiers	O
+
+#- Interdiction de mise en place de puits dans la nappe des alluvions.
+
+28l0l0	Interdiction_de_mise_en_place_de_puits	N
+
+#L'inspection des installations classées souscrit à ce plan de gestion.
+
+29l0l0	L__inspection_des_installations_classées	O
+29l0l1	ce_plan_de_gestion	O

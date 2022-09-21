@@ -1,0 +1,473 @@
+
+#44.0108
+#L'activité de la société CHELET BOIS résidait dans le négoce de bois et matériaux.
+
+0l0l0	L__activité	O
+0l0l1	la_société_CHELET_BOIS	O
+0l0l2	résidait_dans	R
+0l0l3	le_négoce_de_bois_et_matériaux	A
+0l1l0	la_société_CHELET_BOIS	I
+
+#Une installation de traitement de bois et une scierie étaient exploitées.
+
+1l0l0	Une_installation_de	O
+1l0l1	traitement_de_bois	A
+1l0l2	une	O
+1l0l3	scierie	A
+1l0l4	étaient_exploitées	N
+
+#Le site a accueilli :
+
+2l0l0	Le_site	O
+
+#depuis les années 1875 et jusqu'en 2006, la société CHELET BOIS,
+
+3l0l0	depuis_les_années_1875_et_jusqu__en_2006__	T
+3l0l1	la_société_CHELET_BOIS	O
+3l1l0	la_société_CHELET_BOIS	I
+
+#entre 1968 et 1996, une activité de dépôt de distribution de fioul ordinaire domestique exercée par la société SPCA.
+
+4l0l0	entre_1968_et_1996__	T
+4l0l1	une_activité_de_dépôt_de_distribution_de_fioul_ordinaire_domestique	A
+4l0l2	société_SPCA	O
+4l1l0	fioul_ordinaire	U
+4l1l1	société_SPCA	I
+
+#Selon les informations transmises par le directeur de la société CHELET BOIS, l'établissement relevait du régime de l'autorisation pour l'activité de traitement du bois (Vbac de traitement = 10 m3).
+
+5l0l0	le_directeur_de_la_société_CHELET_BOIS	O
+5l0l1	l__établissement	O
+5l0l2	relevait	R
+5l0l3	du_régime	T
+5l0l4	l__activité_de_traitement_du_bois	A
+5l1l0	le_directeur_de_la_société_CHELET_BOIS	I
+
+#L'exploitant ne disposait d'aucune autorisation préfectorale.
+
+6l0l0	L__exploitant	O
+6l0l1	autorisation_préfectorale	O
+
+#Le mémoire de réhabilitation du site indique que l'usage futur est à vocation résidentielle (ensemble immobilier de onze bâtiments de logements collectifs, avec sous-sol commun enterré, parkings aériens et couverts, espaces verts collectifs et jardins privatifs).
+
+7l0l0	Le_mémoire_de_réhabilitation	N
+7l0l1	du_site	O
+7l0l2	l__usage_futur	O
+7l0l3	est_à_vocation_résidentielle	L
+
+#Le nouveau propriétaire du site est le groupe PICHET.
+
+8l0l0	Le_nouveau_propriétaire	O
+8l1l0	le_groupe_PICHET	I
+
+#ANALYSES DE LA QUALITE DES MILIEUX
+
+9l0l0	MILIEUX	O
+
+#--> analyse des sols
+
+
+#Les sondages et analyses réalisés en novembre 2012 dans les sols ont montré :
+
+11l0l0	Les_sondages	N
+11l0l1	analyses	O
+11l0l2	réalisés	N
+11l0l3	en_novembre_2012	T
+11l0l4	les_sols	N
+
+#- un léger impact par des pesticides dans les remblais superficiels de la zone de traitement du bois,
+
+12l0l0	remblais	A
+12l0l1	traitement_du_bois	A
+12l1l0	pesticides	S
+
+#- de légers enrichissements en cuivre et métaux.
+
+13l0l0	enrichissements	N
+13l1l0	cuivre	S
+13l1l1	métaux	S
+
+#Les remblais les plus impactés en métaux sont situés dans la zone de l'ancien bac de traitement du bois,
+
+14l0l0	Les_remblais_les_plus_impactés	O
+14l0l1	métaux	O
+14l0l2	situés_dans_la_zone	L
+14l0l3	traitement_du_bois	A
+
+#- la présence d'une source de pollution au droit d'une ancienne cuve de stockage enterrée (nord-est du site).
+
+15l0l0	une_source_de_pollution	O
+15l0l1	au_droit_d_	L
+15l0l2	une_ancienne_cuve_de_stockage_enterrée	O
+15l0l3	__nord_est_du_site	L
+15l1l0	cuve_de_stockage_enterrée	D
+
+#La zone a fait l'objet de travaux de dépollution en juin 2012.
+
+16l0l0	La_zone	O
+16l0l1	a_fait_l__objet	R
+16l0l2	de_travaux_de_dépollution	N
+16l0l3	en_juin_2012__	T
+
+#Toutefois, des sols pollués résiduels sont encore présents,
+
+
+#- de légers impacts en hydrocarbures :
+
+
+#▪ au droit de l'ancien appentis de stockage des bidons et fûts d'huile,
+
+19l0l0	l__ancien_appentis	O
+19l0l1	bidons	O
+19l0l2	et_fûts_d__huile	A
+
+#▪ à proximité de la fosse technique de l'ancienne scie à ruban,
+
+20l0l0	à_proximité_de	L
+20l0l1	la_fosse_technique	O
+
+#▪ à l'angle nord-est de la zone polluée résiduelle,
+
+21l0l0	à_l__angle_nord_est_de_la_zone_polluée	L
+
+#▪ au droit de la zone dépolluée.
+
+22l0l0	zone_dépolluée	O
+
+#--> analyse des eaux souterraines
+
+
+#Les investigations réalisées sur les eaux souterraines ont montré :
+
+24l0l0	Les_investigations_réalisées	N
+
+#- l'absence de pollution par des hydrocarbures volatils et des hydrocarbures C10-C40 au droit du site,
+
+25l0l0	au_droit_du_site	L
+25l1l0	hydrocarbures_volatils	S
+25l1l1	des_hydrocarbures_C10_C40	S
+
+#- la présence de bore et de chrome au droit de l'ancienne cuve de traitement du bois,
+
+26l0l0	chrome	O
+26l0l1	au_droit_de_l__ancienne_cuve_de	L
+26l0l2	traitement_du_bois	A
+26l1l0	bore	S
+26l1l1	chrome	S
+
+#- des traces de benzène et de toluène sur 3 piézomètres,
+
+27l1l0	benzène	S
+27l1l1	toluène	S
+
+#- un léger impact par du benzène sur le piézomètre situé au droit de l'ancienne cuve de traitement du bois,
+
+28l0l0	un_léger_impact	N
+28l0l1	le_piézomètre	O
+28l0l2	situé_au_droit_de_l__ancienne	L
+28l0l3	cuve_de	O
+28l0l4	traitement_du_bois	A
+28l1l0	benzène	S
+
+#- des traces en hydrocarbures aromatiques polycycliques,
+
+29l1l0	hydrocarbures_aromatiques_polycycliques	S
+
+#- des teneurs en pesticides au droit piézomètre situé au droit de l'ancienne cuve de traitement du bois (10 fois supérieure à la limite de qualité pour les eaux brutes).
+
+30l0l0	piézomètre	O
+30l0l1	situé_au_droit_de_l__ancienne_cuve_de_traitement	L
+30l0l2	du_bois	A
+
+#TRAVAUX DE DEPOLLUTION DU SITE
+
+31l0l0	TRAVAUX_DE_DEPOLLUTION	N
+31l0l1	SITE	O
+
+#En juin 2012, la société SOCOTEC a réalisé les travaux suivants :
+
+32l0l0	En_juin_2012__	T
+32l0l1	la_société_SOCOTEC	O
+32l0l2	a_réalisé_les_travaux	N
+32l1l0	la_société_SOCOTEC	I
+
+#- excavation et élimination d'une partie des terres contaminées par des hydrocarbures au nord-est du site,
+
+33l0l0	__excavation	N
+33l0l1	élimination	N
+33l0l2	d__une_partie_des_terres_contaminées	O
+33l0l3	au_nord_est_du_site	L
+33l1l0	hydrocarbures	S
+
+#- traitement d'appoint des « eaux d'infiltration » rencontrées au droit de la zone excavée, par le biais d'un traitement chimique avec injection d'un produit oxydant,
+
+34l0l0	rencontrées_au_droit_de_la_zone_excavée	L
+34l0l1	biais	R
+34l0l2	d__un_traitement_chimique	N
+34l0l3	avec_injection	N
+34l0l4	d__un_produit	O
+
+#- remblaiement de la zone excavée,
+
+35l0l0	remblaiement_de	N
+35l0l1	la_zone_excavée	N
+
+#- réalisation de prélèvements de sols en parois et fonds de fouille.
+
+36l0l0	réalisation_de_prélèvements_de_sols	N
+
+#Au total, environ 213 tonnes de terres polluées par des hydrocarbures ont été excavées et évacuées en biocentre.
+
+37l0l0	213_tonnes_de_terres_polluées	O
+37l0l1	hydrocarbures	O
+37l0l2	ont_été_excavées	N
+37l0l3	évacuées_en	R
+37l0l4	biocentre	O
+37l1l0	hydrocarbures	S
+
+#Les prélèvements réalisés en paroi nord de la fouille ont montré une teneur en hydrocarbures de 1100 mg/kg MS.
+
+38l0l0	Les_prélèvements_réalisés	N
+38l0l1	en_paroi_nord_de_la_fouille	L
+38l1l0	hydrocarbures	S
+
+#En considérant un aménagement de la zone impactée résiduelle en futurs espaces verts collectifs et d'un chemin piétonnier, SOCOTEC a réalisé une analyse des risques résiduels (ARR) afin de statuer sur la compatibilité entre la qualité des terres résiduelles et les futurs usages prévus.
+
+39l0l0	En_considérant	N
+39l0l1	un_aménagement	N
+39l0l2	la_zone_impactée_résiduelle	O
+39l0l3	en	R
+39l0l4	futurs_espaces_verts_collectifs	O
+39l0l5	SOCOTEC	O
+39l0l6	a_réalisé	N
+39l0l7	une_analyse_des_risques_résiduels	N
+39l0l8	les_futurs_usages_prévus	O
+39l1l0	SOCOTEC	I
+
+#Au droit de la zone de contamination résiduelle aux hydrocarbures, les niveaux de risques calculés, liés à la présence de polluants dans les sols pour les cibles considérées, sont inférieurs aux seuils de risques jugés inacceptables définis par les circulaires du 8 février 2007 relatives à la prévention de la pollution des sols et à la gestion des sols pollués.
+
+40l0l0	Au_droit_de	L
+40l0l1	la_zone	O
+40l0l2	8_février_2007	T
+40l0l3	la_gestion_des_sols_pollués	N
+40l1l0	hydrocarbures	S
+40l1l1	polluants	S
+
+#Le site est donc compatible avec l'usage sensible projeté.
+
+
+#Les travaux ont été complétés en janvier 2013 par :
+
+42l0l0	Les_travaux_ont_été_complétés	N
+42l0l1	en_janvier_2013	T
+
+#- une excavation des sols impactés par les hydrocarbures avec évacuation de ces matériaux,
+
+43l0l0	une_excavation	N
+43l0l1	sols_impactés_par	N
+43l0l2	les_hydrocarbures	O
+43l0l3	évacuation	N
+43l0l4	ces_matériaux	O
+43l1l0	hydrocarbures	S
+
+#- un décapage des remblais superficiels noirs enrichis en métaux et impactés par des pesticides, identifiés dans la zone de l'ancien bac de traitement du bois avec excavation de ces matériaux,
+
+44l0l0	un_décapage	N
+44l0l1	remblais_superficiels	O
+44l0l2	métaux	O
+44l0l3	impactés	N
+44l0l4	dans_la_zone	L
+44l0l5	traitement_du_bois	A
+44l0l6	avec_excavation	N
+44l0l7	ces_matériaux	O
+
+#De plus, les eaux souterraines légèrement polluées ont été traitées lors des travaux de dépollution et de terrassement (pompage en fouille, passage dans un décanteur/déshuileur et dans un filtre à charbon actif avant rejet dans le réseau d'eaux usées si les résultats des analyses le permettent).
+
+45l0l0	polluées	O
+45l0l1	ont_été_traitées	N
+45l0l2	des_travaux_de_dépollution	N
+45l0l3	de_terrassement	N
+45l0l4	pompage_en_fouille	N
+45l1l0	charbon_actif	U
+
+#Au total, en complément des actions menées en 2012, environ 80 tonnes de terres polluées ont été excavées et envoyées en biocentre.
+
+46l0l0	complément	T
+46l0l1	des_actions_menées	N
+46l0l2	en_2012__	T
+46l0l3	80_tonnes_de_terres_polluées	O
+46l0l4	ont_été_excavées	N
+46l0l5	envoyées_en	R
+46l0l6	biocentre	O
+
+#Seule une pollution résiduelle située au nord-est du site n’avait pu faire l’objet de travaux de réaménagement compte tenu de la présence d’un local destinés à la vente des futurs logements.
+
+47l0l0	une_pollution_résiduelle	O
+47l0l1	située_au_nord_est_du_site	L
+47l0l2	n__avait_pu	N
+47l0l3	faire_l__objet	R
+47l0l4	de_travaux_de_réaménagement	N
+47l0l5	un_local	O
+47l0l6	destinés_à	R
+47l0l7	la_vente_des_futurs_logements	N
+
+#Un récépissé de bonne fin de remise en état pour le site, excepté pour la zone nord-est de 80 m2 située au nord-est du site, a été délivré à la société CHELET BOIS.
+
+48l0l0	Un_récépissé	O
+48l0l1	le_site	O
+48l0l2	la	O
+48l0l3	zone_nord_est_de_80_m2_située_au_nord_est_du_site	L
+48l0l4	a_été_délivré	N
+48l0l5	la_société_CHELET_BOIS	O
+48l1l0	la_société_CHELET_BOIS	I
+
+#QUALITE RESIDUELLE DES MILIEUX
+
+49l0l0	MILIEUX	O
+49l1l0	QUALITE_RESIDUELLE_DES_MILIEUX	I
+
+#--> qualité résiduelle des sols
+
+
+#Les analyses réalisées en fond de fouille sur la zone nord-est (zone impactée par des hydrocarbures) ont révélé des teneurs en hydrocarbures comprises entre 720 et 1300 mg/kg.
+
+51l0l0	Les_analyses_réalisées_en_fond_de_fouille	N
+51l0l1	sur_la_zone_nord_est	L
+51l0l2	zone	O
+51l0l3	impactée_par	N
+51l0l4	hydrocarbures	O
+51l1l0	hydrocarbures	S
+51l1l1	hydrocarbures	S
+
+#De plus, des traces d'hydrocarbures aromatiques polycycliques (HAP) ont été notées avec des concentrations comprises entre 2 et 3,1 mg/kg.
+
+52l1l0	traces_d__hydrocarbures_aromatiques_polycycliques	S
+52l1l1	HAP	S
+
+#Les travaux de dépollution de la zone nord-est n'ont pu être achevés compte tenu de la présence du local destiné à la vente des logements à proximité immédiate de la zone polluée.
+
+53l0l0	Les_travaux_de_dépollution	N
+53l0l1	la_zone_nord_est	O
+53l0l2	du_local	O
+53l0l3	logements	O
+53l0l4	à_proximité_immédiate_de_la_zone_polluée	L
+
+#La société CHELET BOIS s'est engagée à procéder à l'élimination totale des sols pollués résiduels dès la démobilisation du local, prévue au second semestre 2014.
+
+54l0l0	La_société_CHELET_BOIS	O
+54l0l1	s__est_engagée	N
+54l0l2	l__élimination_totale_des_sols_pollués_résiduels	N
+54l0l3	dès_la_démobilisation	N
+54l0l4	du_local	O
+54l0l5	au_second_semestre_2014__	T
+54l1l0	La_société_CHELET_BOIS	I
+
+#Pour rappel, cette zone sera aménagée en espaces verts collectifs et voie piétonne.
+
+55l0l0	cette_zone	O
+55l0l1	sera_aménagée	N
+
+#Concernant la fouille sud (zone impactée par des pesticides), les analyses réalisées en fond de fouille montrent la présence de pesticides à l'état de trace :
+
+56l0l0	fouille_sud	O
+56l0l1	zone_impactée	O
+56l0l2	par	N
+56l0l3	des_pesticides	O
+56l1l0	pesticides	S
+
+#concentrations comprises entre 11 et 15 µg/kg pour la cyperméthrine,
+
+57l1l0	cyperméthrine	I
+
+#concentrations comprises entre 44 et 50 µg/kg pour le propiconazole.
+
+58l1l0	le_propiconazole	S
+
+#--> qualité résiduelle des eaux souterraines
+
+
+#Pour les eaux souterraines traitées, les résultats d'analyses en sortie de l'unité de traitement montrent :
+
+
+#des concentrations en métaux, benzène, hydrocarbures totaux et HAP inférieures aux limites et références qualité des eaux de consommation,
+
+61l1l0	métaux	S
+61l1l1	benzène	S
+61l1l2	hydrocarbures_totaux	S
+61l1l3	HAP	S
+
+#des traces de pentachlorophénol uniquement, de l'ordre du dixième de µg/l,
+
+62l1l0	pentachlorophénol	S
+
+#des teneurs en pesticides azotés comprises entre 0,01 et 1,7 µg/l, valeurs inférieures aux seuils de qualité des eaux brutes destinées à la potabilisation.
+
+63l1l0	pesticides_azotés	S
+
+#Les eaux souterraines ont fait l'objet de prélèvements et analyses une fois les travaux de dépollution réalisés.
+
+64l0l0	Les_eaux_souterraines	O
+64l0l1	ont_fait_l__objet	R
+64l0l2	analyses_une_fois	O
+64l0l3	les_travaux_de_dépollution_réalisés	N
+
+#Les résultats montrent d'infimes traces de pyrène (0,07 µg/l) dans un piézomètre en limite nord du site et de faibles traces d'orthoxylène (0,16 µg/l) dans le puits nord.
+
+65l0l0	en_limite_nord_du_site	L
+65l1l0	pyrène	S
+65l1l1	orthoxylène	S
+
+#TRAVAUX REALISES SUR LA ZONE NORD-EST
+
+66l0l0	TRAVAUX_REALISES	N
+66l0l1	SUR	R
+66l0l2	LA_ZONE_NORD_EST	O
+66l1l0	REALISES_SUR_LA_ZONE_NORD_EST	I
+
+#Par arrêté préfectoral du 6 juin 2013 , il a été imposé à l’exploitant la réalisation des travaux suivants avant la fin du second semestre 2014 :
+
+67l0l0	arrêté_préfectoral	O
+67l0l1	du_6_juin_2013	T
+67l0l2	a_été_imposé	N
+67l0l3	à_l__exploitant	O
+67l0l4	la_réalisation_des_travaux_suivants	N
+67l0l5	avant_la_fin_du_second_semestre_2014	T
+
+#- excavation des sols impactés par les hydrocarbures avec évacuation de ces matériaux dans des filières adaptées,
+
+68l0l0	excavation_des_sols_impactés	N
+68l0l1	par	R
+68l0l2	les_hydrocarbures	O
+68l0l3	évacuation_de_ces_matériaux	O
+68l1l0	hydrocarbures	S
+
+#- réalisation de prélèvements et analyses en fond de fouille et de parois.
+
+69l0l0	réalisation_de_prélèvements_et_analyses	N
+69l0l1	en_fond_de_fouille	L
+
+#Par courrier du 11 août 2014, l’exploitant a transmis à l’inspection des installations classées le rapport de dépollution du site suite aux travaux effectués sur la zone nord-est.
+
+70l0l0	11_août_2014__	T
+70l0l1	l__exploitant	O
+70l0l2	a_transmis	N
+70l0l3	l__inspection_des_installations_classées	O
+70l0l4	le_rapport_de_dépollution	N
+70l0l5	site	O
+70l0l6	suite	R
+70l0l7	aux_travaux_effectués	N
+70l0l8	sur_la_zone_nord_est	L
+
+#Le rapport fourni conclut à l’absence de risque sanitaire, mais propose toutefois, compte tenu de la pollution résiduelle, l’instauration de restrictions d’usages.
+
+71l0l0	l__instauration_de	N
+71l0l1	restrictions_d__usages	O
+
+#Par courrier du 24 mars 2015, l'exploitant a transmis des restrictions d'usages à travers une RUP (Restriction d'usage entre deux parties) concernant les eaux souterraines de la nappe superficielle : toute exploitation et utilisation de la nappe d'eau superficielle pour l'alimentation humaine, l'usage récréatif, l'irrigation ou l'arrosage, est interdite, sauf études et analyses préalables au frais du requérant.
+
+72l0l0	24_mars_2015__	T
+72l0l1	l__exploitant	O
+72l0l2	a_transmis	N
+72l0l3	des_restrictions_d__usages	O
+72l0l4	exploitation	N
+72l0l5	et_utilisation_de_la_nappe_d_	A

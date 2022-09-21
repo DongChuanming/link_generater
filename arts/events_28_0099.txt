@@ -1,0 +1,221 @@
+
+#28.0099
+#Le site de la société  ISOBOX est implanté 5 rue Notre Dame de la Ronde, sur la commune de Dreux.
+
+0l0l0	Le_site	O
+0l0l1	la_société___ISOBOX	O
+0l0l2	est_implanté	R
+0l0l3	5_rue_Notre_Dame_de_la_Ronde	L
+0l0l4	__sur_la_commune_de_Dreux	L
+0l1l0	la_société___ISOBOX	I
+
+#Il se situe dans la zone industrielle Nord, au nord de la RN 12 séparant le ville de Dreux de la zone industrielle.
+
+1l0l0	Il	O
+1l0l1	se_situe_dans_la_zone_industrielle_Nord	L
+1l0l2	au_nord_de_la_RN_12_séparant_le_ville_de_Dreux_de_la_zone_industrielle	L
+
+#Le site occupe la parcelle cadastrale n°320 de la section CE pour une superficie de 19 544m².
+
+2l0l0	Le_site	O
+2l0l1	occupe	R
+2l0l2	la_parcelle_cadastrale	O
+
+#La société est spécialisée dans l’expansion de billes de polystyrène expansible contenant du pentane et le moulage de pièces en plastique alvéolaire.
+
+3l0l0	La_société	O
+3l0l1	l__expansion_de_billes_de_polystyrène	A
+3l0l2	le_moulage_de_pièces_en_plastique_alvéolaire	A
+3l1l0	polystyrène	S
+3l1l1	pentane	S
+3l1l2	plastique_alvéolaire	I
+
+#L’usine créée en 1987 est réglementée par l’arrêté préfectoral d’autorisation n°545 du 16 aout 1999 autorisant la société SERAIC à exploiter une usine de production d’emballages en polystyrène expansé, l’arrêté préfectoral complémentaire du 20 avril 2006 pour le stockage de polystyrène expansé dans des silos amovibles au profit de la société ISOBOX TECHNOLOGIES et un récépissé d’antériorité du 20 novembre 2006 pour l’exploitation d'une installation de refroidissement par dispersion d’eau dans un flux d’air.
+
+4l0l0	L__usine	O
+4l0l1	créée	N
+4l0l2	en_1987	T
+4l0l3	est_réglementée	N
+4l0l4	l__arrêté_préfectoral_d__autorisation	O
+4l0l5	16_aout_1999	T
+4l0l6	autorisant	N
+4l0l7	la_société_SERAIC	O
+4l0l8	exploiter	N
+4l0l9	une	O
+4l0l10	usine_de_production_d__emballages_en_polystyrène	A
+4l0l11	l__arrêté_préfectoral_complémentaire	O
+4l0l12	du_20_avril_2006	T
+4l0l13	le_stockage_de_polystyrène_expansé	A
+4l0l14	la_société_ISOBOX_TECHNOLOGIES	O
+4l0l15	un_récépissé	O
+4l0l16	d__antériorité	O
+4l0l17	20_novembre_2006	T
+4l0l18	l_	N
+4l0l19	exploitation_d__une_installation_de_refroidissement_par_dispersion_d__eau_dans_un_flux_d__air	A
+4l1l0	la_société_SERAIC	I
+4l1l1	polystyrène_expansé	I
+4l1l2	polystyrène_expansé	S
+4l1l3	la_société_ISOBOX_TECHNOLOGIES	I
+
+#La société SERAIC a été rachetée par la société ISOBOX TECHNOLOGIES et la fusion des deux entités juridiques est intervenue le 1er janvier 2001.
+
+5l0l0	La_société_SERAIC	O
+5l0l1	a_été_rachetée	N
+5l0l2	la_société_ISOBOX_TECHNOLOGIES	O
+5l0l3	la_fusion	N
+5l0l4	deux_entités_juridiques	O
+5l0l5	est_intervenue	N
+5l0l6	le_1er_janvier_2001	T
+5l1l0	La_société_SERAIC	I
+5l1l1	la_société_ISOBOX_TECHNOLOGIES	I
+
+#Par un courrier du 18/02/2009, l’exploitant a déclaré à Monsieur de Préfet d’Eure-et-Loir l’arrêt technique temporaire de ses installations.
+
+6l0l0	Par	R
+6l0l1	un_courrier	N
+6l0l2	du_18_02_2009	T
+6l0l3	l__exploitant	O
+6l0l4	a_déclaré	N
+6l0l5	Monsieur_de_Préfet_d__Eure_et_Loir	O
+6l0l6	l__arrêt_technique_temporaire	N
+6l0l7	ses_installations	O
+
+#Par un dossier du 26 mai 2011, la société ISOBOX TECHNOLOGIES a déclaré la cessation totale de son activité.
+
+7l0l0	Par	R
+7l0l1	un_dossier	O
+7l0l2	26_mai_2011__	T
+7l0l3	la_société_ISOBOX_TECHNOLOGIES	O
+7l0l4	a_déclaré	N
+7l0l5	la_cessation_totale_de_son_activité	N
+7l1l0	la_société_ISOBOX_TECHNOLOGIES	I
+
+#Le diagnostic de pollution des sols réalisé par SOCOTEC en avril 2011 conclut sur les constats suivants :
+
+8l0l0	Le_diagnostic_de_pollution_des_sols_réalisé	N
+8l0l1	SOCOTEC	O
+8l0l2	en_avril_2011	T
+8l1l0	SOCOTEC	I
+
+#- quelques légers impacts en hydrocarbures totaux et hydrocarbures aromatiques et polycyclique
+
+9l1l0	hydrocarbures_totaux	S
+9l1l1	hydrocarbures_aromatiques_et_polycyclique	S
+
+#- teneurs homogènes et faibles sur les échantillons analysés en HCT et HAP, ainsi que ceux analysés en éléments traces métalliques
+
+10l1l0	HCT_et_HAP	S
+10l1l1	traces_métalliques	S
+
+#- absence de détection de solvants aromatiques volatils, de composés organo-halogénés volatils et de cyanures totaux
+
+11l1l0	solvants_aromatiques_volatils	S
+11l1l1	composés_organo___halogénés_volatils	S
+11l1l2	cyanures_totaux	S
+
+#Dans l’historique du site, il apparaît que dans l’audit environnemental réalisé en février 1999 par le bureau d’études ANETAME INGENIERIE, une teneur de 1612 mg/kg de MS en hydrocarbures totaux a été mise en évidence dans l’angle Ouest du site à proximité du stockage d’huiles.
+
+12l0l0	l__audit_environnemental	N
+12l0l1	réalisé	N
+12l0l2	en_février_1999	T
+12l0l3	le_bureau_d__études_ANETAME_INGENIERIE	O
+12l0l4	dans_l__angle_Ouest_du_site	L
+12l0l5	à_proximité_du_stockage_d__huiles	L
+12l1l0	ANETAME_INGENIERIE	I
+12l1l1	hydrocarbures_totaux	S
+
+#Le dossier de cessation d’activité en date du 26 mai 2011 indique que les travaux de démantèlement des installations ont été réalisés et dresse la situation de l’état des sols.
+
+13l0l0	Le_dossier	O
+13l0l1	cessation_d__activité	N
+13l0l2	en_date_du_26_mai_2011	T
+13l0l3	les_travaux_de_démantèlement_des_installations	N
+13l0l4	ont_été_réalisés	N
+13l0l5	dresse	N
+13l0l6	la_situation_de_l__état_des_sols	O
+
+#Il reste les dernières installations devant faire l’objet d’une prochaine évacuation.
+
+14l0l0	Il_reste_les_dernières_installations	O
+14l0l1	devant	T
+14l0l2	faire_l__objet_d_	R
+
+#Une chaudière au gaz de ville destinée au chauffage des locaux, le transformateur électrique ainsi que le séparateur d’hydrocarbures sont restés en l’état sur le site.
+
+15l0l0	Une_chaudière	O
+15l0l1	le_transformateur_électrique	O
+15l0l2	sont_restés_en_l_	N
+15l0l3	le_site	O
+15l1l0	hydrocarbures	S
+
+#La situation présentée dans le dossier fait état de la présence d’hydrocarbures totaux et de HAP dans 2 zones du site : l’ancienne zone de stockage des huiles en partie Ouest dans un angle de l’enceinte du site, l’ancienne cuve à fioul aérienne évacuée en 2002 en partie Sud-Ouest.
+
+16l0l0	2_zones_du_site	O
+16l0l1	__l__ancienne_zone_de_stockage_des_huiles	O
+16l0l2	en_partie_Ouest_dans_un_angle_de_l__enceinte_du_site	L
+16l0l3	fioul_aérienne	O
+16l0l4	évacuée	N
+16l0l5	en_2002	T
+16l0l6	en_partie_Sud_Ouest	L
+16l1l0	hydrocarbures_totaux	S
+16l1l1	HAP	S
+16l1l2	de_stockage_des_huiles	U
+16l1l3	à_fioul	U
+
+#Selon les conclusions du dossier, ces pollutions constatées n’ont pas d’incidence sur les eaux souterraines.
+
+
+#L’étude réalisée le 27 avril 2011 par SOCOTEC indique que l’usage industriel du site reste compatible avec l’état des sols, elle ne recommande pas de travaux d’excavation ou de traitement de ces terres impactées et prévoit de les laisser en place.
+
+18l0l0	L__étude_réalisée	N
+18l0l1	le_27_avril_2011	T
+18l0l2	SOCOTEC	O
+18l0l3	l__usage_industriel	A
+18l0l4	site_reste	O
+18l0l5	compatible_avec	R
+18l0l6	l_	O
+18l0l7	de_travaux_d__excavation	N
+18l0l8	de_traitement	N
+18l0l9	ces_terres_impactées	O
+18l0l10	prévoit_de	R
+18l0l11	les_laisser_en_place	N
+18l1l0	SOCOTEC	I
+
+#Les constats de la visite d’inspection du site du 26 octobre 2016 en présence de M.
+
+19l0l0	la_visite	N
+19l0l1	d__inspection	N
+19l0l2	26_octobre_2016	T
+19l0l3	M_	O
+
+#ROSIER responsable d’exploitation de l’entrepôt actuellement utilisé par la société DELAUNAY sont les suivants :
+
+20l0l0	exploitation	N
+20l0l1	l__entrepôt	O
+20l0l2	la_société_DELAUNAY	O
+20l1l0	la_société_DELAUNAY	I
+
+#- les sols de surface ne montrent aucune trace de pollution au droit des zones identifiées comme polluées.
+
+
+#- les installations d’ISOBOX TECHNOLOGIES ont été démantelées, hormis les installations qui ont été maintenues sur le site mentionnées précédemment
+
+22l0l0	les_installations	O
+22l0l1	ISOBOX_TECHNOLOGIES	O
+22l0l2	ont_été_démantelées	N
+22l0l3	les_installations	O
+22l0l4	ont_été_maintenues	N
+22l1l0	d__ISOBOX_TECHNOLOGIES	I
+
+#- le site n’est pas entièrement cloturé, notamment en partie Est du site
+
+23l0l0	le_site	O
+23l0l1	en_partie_Est_du_site	L
+
+#- la présence de PCB dans l’huile diélectrique du transformateur présent sur le site, référencé FRANCE TRANSFO n°176254-01 datant de 1991.
+
+24l0l0	référencé	N
+24l0l1	FRANCE_TRANSFO	O
+24l1l0	PCB	S
+24l1l1	huile_diélectrique	I
+24l1l2	TRANSFO	I

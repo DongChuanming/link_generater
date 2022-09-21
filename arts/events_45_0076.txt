@@ -1,0 +1,342 @@
+
+#45.0076
+#Le site de la société FAMAR FRANCE est implanté 1 avenue du Champ de Mars sur la commune d'Orléans.
+
+0l0l0	Le_site	O
+0l0l1	la_société_FAMAR_FRANCE	O
+0l0l2	est_implanté	R
+0l0l3	1_avenue_du_Champ_de_Mars_sur_la_commune_d__Orléans	L
+0l1l0	la_société_FAMAR_FRANCE	I
+
+#D'une superficie de 38 488 m2, il occupe les parcelles 37 à 45, 47 à 52, 148 et 149 de la section cadastrale CY.
+
+
+#La société FAMAR FRANCE a repris en 2001, le site précédemment exploité par la société NOVARTIS.
+
+2l0l0	La_société_FAMAR_FRANCE	O
+2l0l1	a_repris	N
+2l0l2	en_2001__	T
+2l0l3	le_site	O
+2l0l4	précédemment_exploité	N
+2l0l5	NOVARTIS	O
+2l1l0	La_société_FAMAR_FRANCE	I
+2l1l1	société_NOVARTIS	I
+
+#Un récépissé de changement d'exploitant a été notifié le 9 avril 2001.
+
+3l0l0	Un_récépissé	O
+3l0l1	changement_d__exploitant	O
+3l0l2	a_été_notifié	N
+3l0l3	le_9_avril_2001	T
+
+#Ses activités étaient réglementées par l'arrêté préfectoral d'autorisation du 24 août 2004 et par les arrêtés préfectoraux complémentaires des 20 mars et 25 juillet 2007 et 27 octobre 2009.
+
+4l0l0	Ses_activités	A
+4l0l1	étaient_réglementées	N
+4l0l2	l__arrêté_préfectoral_d__autorisation	O
+4l0l3	24_août_2004	T
+4l0l4	les_arrêtés_préfectoraux_complémentaires	O
+4l0l5	des_20_mars_et_25_juillet_2007_et_27_octobre_2009__	T
+
+#Par courrier du 22 novembre 2012, le directeur la société FAMAR FRANCE informe de la cessation d'activité de son site au cours du premier semestre 2013, celle-ci a été actée par récépissé préfectoral du 26 décembre 2013.
+
+5l0l0	du_22_novembre_2012__	T
+5l0l1	le_directeur	O
+5l0l2	la_société_FAMAR_FRANCE	O
+5l0l3	informe	R
+5l0l4	de_la_cessation_d__activité	N
+5l0l5	son_site	O
+5l0l6	au_cours_du_premier_semestre_2013__	T
+5l0l7	a_été	N
+5l0l8	actée_par	R
+5l0l9	récépissé	N
+5l0l10	préfectoral	O
+5l0l11	26_décembre_2013__	T
+5l1l0	le_directeur_la_société_FAMAR_FRANCE	I
+
+#Suite à cette cessation, le site a été réhabilité pour un usage de type industriel.
+
+6l0l0	Suite	R
+6l0l1	à_cette_cessation	N
+6l0l2	le_site	O
+6l0l3	a_été_réhabilité	N
+6l0l4	un_usage	O
+6l0l5	de_type_industriel	A
+
+#Cet établissement était spécialisé dans la fabrication, le stockage et la distribution pour le marché européen et mondial de médicament (comprimés effervescents, sachets, sirops et systèmes transdermiques "patchs").
+
+7l0l0	Cet_établissement	O
+7l0l1	était_spécialisé	R
+7l0l2	dans_la_fabrication___le_stockage_et_la_distribution_pour_le_marché_européen	A
+7l1l0	transdermiques	S
+
+#La première nappe au droit du site est la nappe alluviale, elle est en lien direct avec la Loire et la nappe des calcaires de Beauce sous-jacente.
+
+8l0l0	La_première_nappe	O
+8l0l1	au_droit_du_site	L
+8l0l2	lien_direct_avec_la_Loire	L
+8l0l3	Beauce_sous_jacente	L
+
+#Elle s'écoule au droit du site vers le nord-ouest.
+
+9l0l0	au_droit_du_site_vers_le_nord_ouest	L
+
+#Le site se trouve à proximité immédiate de la Loire, situé à 50m au nord et se trouve dans une zone potentiellement inondable.
+
+10l0l0	Le_site	O
+10l0l1	se_trouve_à_proximité_immédiate_de_la_Loire	L
+10l0l2	situé_à_50_m_au_nord	L
+10l0l3	se_trouve_dans_une_zone_potentiellement_inondable	L
+
+#Le site est implanté dans un tissu urbain dense.
+
+11l0l0	Le_site	O
+11l0l1	est_implanté_dans_un_tissu_urbain_dense	L
+
+#Les investigations menées ont consisté en la réalisation de nombreux sondages de sols, de prélèvements de gaz du sol et de quatre piézomètres.
+
+12l0l0	Les_investigations_menées	N
+12l0l1	la_réalisation_de_nombreux_sondages_de_sols	N
+
+#Les résultats de ces investigations ont mis en évidence :
+
+
+#*Dans les sols :
+
+
+#- la présence d’hydrocarbures aromatiques polycycliques (HAP) avec des concentrations variant de 0.16 à 0.25 mg/kg jusqu’à une profondeur de 4m;
+
+15l0l0	4_m	L
+15l1l0	hydrocarbures_aromatiques_polycycliques	S
+15l1l1	HAP	S
+
+#- la présence d'hydrocarbure totaux (HCT) à une concentration maximale de 27 mg/kg, au droit de la cuve de neutralisation;
+
+16l0l0	au_droit_de_la_cuve_de_neutralisation	A
+16l1l0	hydrocarbure_totaux	S
+16l1l1	HCT	S
+
+#- la présence de cuivre à une concentration maximale de 20 mg/kg et de plomb à une concentration maximale de 440 mg/kg à proximité des six cuves de fuel.
+
+17l0l0	fuel	O
+17l1l0	cuivre	S
+17l1l1	plomb	S
+17l1l2	cuves_de	D
+17l1l3	fuel	U
+
+#*Dans les gaz du sol :
+
+
+#- la présence d'HCT volatils à une concentration maximale de 6.87 mg/m3 à proximité des six cuves de fuel.
+
+19l0l0	six_cuves_de_fuel	O
+19l1l0	HCT	S
+19l1l1	cuves_de	D
+19l1l2	fuel	U
+
+#*Dans les eaux souterraines :
+
+
+#- la présence de HAP dans des concentrations variant de 0.14 à 0.45 µg/L;
+
+21l1l0	HAP	S
+
+#- la présence de composés organiques halogénés volatils (COVH) avec des concentrations de 0.8 µg/L en chlorure de vinyle dépassant la valeur de 0.5µg/L de l’arrêté ministériel (AM) du 11 janvier 2007 relatif aux limites de références de qualité des eaux brutes et eaux destinées à consommation humaine et avec une concentration de 1.3 µg/L en trichloréthylène (TCE);
+
+22l0l0	11_janvier_2007	T
+22l1l0	composés_organiques_halogénés	S
+22l1l1	COVH	S
+22l1l2	chlorure_de_vinyle	S
+22l1l3	trichloréthylène	S
+22l1l4	TCE	S
+
+#- la présence de métaux avec des concentrations en plomb variant de 100 à 190 µg/L, dépassant le seuil de 50 µg/L de l’AM du 11 janvier 2007 sus-visé, avec des concentrations en nickel variant de 10 à 140 µg/L, dépassant la valeur de potabilité de 70 µg/L fixée par l’Organisation Mondiale de la Santé (OMS) et avec des concentration en chrome variant de 5 à 88 µg/L, dépassant la valeur seuil de 50 µg/L de l’AM du 11 janvier 2007 sus-visé et des concentration en cadmium de l'ordre de 3 µg/L.
+
+23l0l0	11_janvier_2007	T
+23l0l1	11_janvier_2007	T
+23l0l2	cadmium	O
+23l1l0	métaux	S
+23l1l1	plomb	S
+23l1l2	nickel	S
+23l1l3	chrome	S
+23l1l4	cadmium	S
+
+#Par le contrôle du site le 6 septembre 2013, l’inspection des installations classées a établi les constats suivants :
+
+24l0l0	le_contrôle	N
+24l0l1	site	O
+24l0l2	le_6_septembre_2013__	T
+24l0l3	l__inspection_des_installations_classées	O
+24l0l4	a_établi	N
+24l0l5	les_constats	N
+
+#- le site est clôturé et la rehausse en fils barbelés est présente en 5 points de la clôture,
+
+25l0l0	le_site	O
+25l0l1	est_clôturé	N
+25l0l2	la_rehausse	O
+25l0l3	la_clôture	O
+
+#- présence de 4 piézomètres,
+
+
+#- les 4 cuves ayant contenu du fuel lourd et les 2 cuves ayant contenu du fuel léger ont été vidangées, dégazées et leurs viroles ont été découpées,
+
+27l0l0	les_4_cuves_ayant_contenu_du_fuel_lourd	O
+27l0l1	les_2_cuves	O
+27l0l2	ayant_contenu_du_fuel_léger	A
+27l0l3	ont_été_vidangées	N
+27l0l4	dégazées	N
+27l0l5	leurs_viroles	O
+27l0l6	ont_été_découpées	N
+27l1l0	les_4_cuves	D
+27l1l1	fuel_lourd	S
+27l1l2	les_2_cuves	D
+27l1l3	fuel_léger	U
+
+#- les 6 cuves ayant contenu des matières premières (2 cuves de glycérine, 2 cuves de polypropylène glycol et 2 cuves de sorbitol) ont été vidangées, dégazées et leurs trous d'homme sur le dôme et en extrémités ont été démontés,
+
+28l0l0	les_6_cuves_ayant_contenu	O
+28l0l1	2_cuves_de_sorbitol	O
+28l0l2	ont_été_vidangées	N
+28l0l3	dégazées	N
+28l0l4	et_leurs_trous	O
+28l0l5	extrémités	O
+28l0l6	ont_été_démontés	N
+28l1l0	les_6_cuves	D
+28l1l1	des_matières_premières	U
+28l1l2	__2_cuves_de	D
+28l1l3	glycérine	U
+28l1l4	cuves	D
+28l1l5	de_polypropylène_glycol	S
+28l1l6	cuves_de	D
+28l1l7	sorbitol	S
+
+#- les 2 cuves ayant contenus de l'acide et les 2 cuves ayant contenu des bases ont été évacuées du site,
+
+29l0l0	les_2_cuves_ayant_contenus	O
+29l0l1	l__acide	O
+29l0l2	les_2_cuves	O
+29l0l3	ont_été_évacuées	N
+29l0l4	du_site	L
+29l1l0	les_2_cuves	D
+29l1l1	acide	S
+29l1l2	les_2_cuves	D
+
+#- les 3 tours aéroréfrigérantes ont été vidangées,
+
+30l0l0	les_3_tours_aéroréfrigérantes	O
+30l0l1	ont_été_vidangées	N
+30l1l0	les_3_tours_aéroréfrigérantes	D
+
+#- la chaudière fonctionnant au gaz a été condamnée, l'arrivée de gaz a été coupée et le réseau a été purgé,
+
+31l0l0	a_été_condamnée	N
+31l0l1	l__arrivée_de_gaz	O
+31l0l2	a_été_coupée	N
+31l0l3	a_été_purgé	N
+
+#- les 4 cuves ayant contenu de l'alcool ont été vidangées, dégazées et leurs enveloppes partiellement découpées,
+
+32l0l0	les_4_cuves	O
+32l0l1	ayant_contenu_de_l__alcool	A
+32l0l2	ont_été_vidangées	N
+32l0l3	dégazées	N
+32l0l4	leurs_enveloppes	O
+32l1l0	les_4_cuves	D
+32l1l1	alcool	S
+
+#- le maintien en l'état des bâtiments, des revêtements de sol (enrobé) et des espaces verts.
+
+33l0l0	espaces_verts	N
+
+#L’inspection du site a permis de vérifier que l'exploitant a réalisé l'ensemble des mesure permettant de s'assurer de la compatibilité environnementale du site avec l'usage pour lequel il a été réhabilité, à savoir un usage industriel.
+
+34l0l0	L__inspection	N
+34l0l1	l__exploitant	O
+34l0l2	a_réalisé	N
+34l0l3	l__usage	O
+34l0l4	a_été_réhabilité	N
+34l0l5	un_usage_industriel	A
+
+#L’arrêté préfectoral complémentaire du 19 février 2014 impose à la société FAMAR France la surveillance semestrielle de la qualité des eaux souterraines au droit de son site.
+
+35l0l0	L__arrêté_préfectoral_complémentaire	O
+35l0l1	19_février_2014	T
+35l0l2	impose	N
+35l0l3	la_société_FAMAR_France	O
+35l0l4	la_surveillance_semestrielle	A
+35l0l5	la_qualité_des_eaux_souterraines	A
+35l0l6	au_droit_de_son_site	L
+35l1l0	la_société_FAMAR_France	I
+
+#Le dispositif de surveillance est constitué de 4 ouvrages (PZ11 Sud, PZ32 Sud, PZ11 Nord, PZ32 Nord).
+
+36l0l0	surveillance	A
+36l1l0	PZ32_Sud	I
+36l1l1	PZ32_Nord	I
+
+#Les polluants analysés sont les HCT, les COVH, les HAP et les métaux.
+
+37l1l0	les_HCT	S
+37l1l1	les_COVH	S
+37l1l2	les_HAP	S
+37l1l3	métaux	S
+
+#Afin de pérenniser la mémoire des pollutions sur le site, des servitudes d'utilité publique (SUP) ont été mises en place par l'arrêté préfectoral du 04 novembre 2014 sur toutes les parcelles du sites.
+
+38l0l0	Afin	R
+38l0l1	pollutions	N
+38l0l2	des_servitudes_d__utilité_publique	O
+38l0l3	ont_été_mises_en_place	N
+38l0l4	par_l__arrêté_préfectoral	O
+38l0l5	04_novembre_2014	T
+
+#L'arrêté préfectoral d'institution de SUP au droit du site prescrit que :
+
+39l0l0	L__arrêté_préfectoral	O
+
+#- l'implantation de nouvelles canalisations d'eau potable ou modification des canalisations existantes doit intégrer la mise en œuvre de matériaux garantissant l'absence de perméation notamment aux gaz ou disposées dans un apport de remblais suffisant pour garantir cette absence de perméation;
+
+40l0l0	l__implantation_de_nouvelles_canalisations	N
+40l0l1	modification_des_canalisations_existantes	N
+40l0l2	doit	R
+40l0l3	intégrer_la_mise_en	N
+40l0l4	œuvre_de_matériaux	O
+40l0l5	remblais	O
+
+#- les couvertures présentes (dalles béton des bâtiments, revêtements de sol (enrobé), espaces verts) doivent être maintenues en l'état ou remplacées par des protections équivalentes;
+
+41l0l0	remplacées	N
+41l0l1	des_protections	O
+
+#- tous les travaux d’excavation sont interdits sans étude préalable définissant le cas échéant la gestion des terres excavées polluées et des éventuels remblais et précisant les mesures à prendre pour assurer la protection des travailleurs amenés à travailler sur le site;
+
+42l0l0	tous_les_travaux_d__excavation	N
+42l0l1	sont_interdits	N
+42l0l2	remblais	O
+
+#- toute plantation d’arbres fruitiers et de légumes est interdite sur le site;
+
+43l0l0	toute_plantation_d__arbres	N
+43l0l1	fruitiers_et_de_légumes	A
+43l0l2	est_interdite	R
+
+#- dans les locaux postés en niveau -1 ou 0 si pas de niveau -1 en-dessous, le taux de renouvellement d'air doit être au minimum celui indiqué dans les dispositions constructives citées dans le rapport A68608/A d'ANTEA fourni par le pétitionnaire.
+
+44l0l0	postés_en	L
+44l1l0	ANTEA	I
+
+#La ventilation doit être entretenue régulièrement de façon à ce qu'elle soit pérenne.
+
+45l0l0	La_ventilation	O
+45l0l1	doit	R
+45l0l2	être_entretenue_régulièrement	O
+
+#Les locaux sans présence humaine permanente, comme les locaux techniques, peuvent être dispensés de ces mesures;
+
+46l0l0	ces_mesures	O
+
+#- l'usage des eaux souterraines est interdit.
+
+47l0l0	l__usage_des_eaux_souterraines	A

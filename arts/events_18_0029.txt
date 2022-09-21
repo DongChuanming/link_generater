@@ -1,0 +1,189 @@
+
+#18.0029
+#Le site a accueilli un dépôt de pièces détachées automobiles, de déchets métalliques divers et de véhicules hors d’usage.
+
+0l0l0	Le_site	O
+0l0l1	a_accueilli	N
+0l0l2	un_dépôt_de_pièces_détachées_automobiles	O
+0l0l3	déchets_métalliques	O
+0l1l0	dépôt	D
+0l1l1	déchets_métalliques	U
+
+#L'activité de récupération de véhicules hors d'usage était exercée sans l'autorisation administrative requise.
+
+1l0l0	L__activité_de_récupération	A
+1l0l1	de_véhicules_hors_d__usage	O
+1l0l2	était_exercée_sans	R
+1l0l3	l__autorisation_administrative	O
+
+#Le site est situé en zone industrielle des distraits.
+
+2l0l0	Le_site	O
+2l0l1	est_situé_en_zone_industrielle	L
+
+#La société exploitante a été mise en liquidation judiciaire immédiate le 22 Juin 2001.
+
+3l0l0	La_société_exploitante	O
+3l0l1	a_été_mise_en_liquidation_judiciaire_immédiate	N
+3l0l2	le_22_Juin_2001__	T
+
+#L’activité sur le site a alors cessé.
+
+4l0l0	L__activité_sur_le_site	O
+4l0l1	a_alors_cessé	N
+
+#La clôture de la liquidation judiciaire pour insuffisance d'actif a été prononcée par le tribunal de commerce de Bourges le 21 septembre 2010.
+
+5l0l0	La_clôture_de_la_liquidation_judiciaire	N
+5l0l1	d__actif	O
+5l0l2	a_été_prononcée_par	N
+5l0l3	le_tribunal_de_commerce	O
+5l0l4	Bourges_le_21_septembre_2010__	T
+
+#Actuellement, le site est une friche industrielle.
+
+6l0l0	le_site	O
+
+#2 nappes sont présentes au droit du site :
+
+
+#- la nappe des alluvions, peu profonde et vulnérable aux pollutions, est en relation avec les cours d'eau superficiels,
+
+
+#- la nappe de l'Oxfordien Supérieur, très utilisée dans le cadre de captages pour l'alimentation en eau potable (AEP).
+
+
+#Suite aux constats faits lors d’une visite d’inspection du site en Décembre 2000, des présomptions de pollution des sols ont été formulées par l’inspection des installations classées.
+
+10l0l0	Suite	R
+10l0l1	aux_constats_faits_lors_d_	N
+10l0l2	une_visite	N
+10l0l3	d__inspection_du_site	L
+10l0l4	en_Décembre_2000__	T
+10l0l5	des_présomptions_de_pollution_des_sols	O
+10l0l6	ont_été_formulées	N
+10l0l7	l__inspection_des_installations_classées	O
+
+#La réalisation d’un diagnostic initial et d’une évaluation simplifiée des risques (ESR) a été demandée par l’Administration afin d’évaluer le niveau de pollution réel des sols et des eaux souterraines.
+
+11l0l0	La_réalisation_d__un_diagnostic_initial	N
+11l0l1	d__une_évaluation_simplifiée_des_risques	N
+11l0l2	ESR___a_été_demandée	N
+11l0l3	l__Administration	O
+11l0l4	le_niveau_de_pollution_réel	O
+
+#La liquidation judiciaire de la société est prononcée le 22 juin 2001 par le tribunal de Commerce de Bourges.
+
+12l0l0	La_liquidation_judiciaire_de	N
+12l0l1	la_société	O
+12l0l2	est_prononcée	N
+12l0l3	le_22_juin_2001	T
+12l0l4	par_le_tribunal_de_Commerce	O
+12l1l0	le_tribunal_de_Commerce_de_Bourges	I
+
+#L’exploitant puis le mandataire-liquidateur n’ayant pas donné suite dans le délai prévu, une consignation de fonds a été prescrite le 4 Janvier 2002 à l’encontre du mandataire-liquidateur pour réaliser les études demandées.
+
+13l0l0	L__exploitant	O
+13l0l1	le_mandataire___liquidateur	O
+13l0l2	une_consignation_de_fonds	O
+13l0l3	a_été_prescrite	N
+13l0l4	le_4_Janvier_2002	T
+13l0l5	réaliser_les_études_demandées	N
+
+#Cette consignation n'a pu être réalisée en raison d'une insuffisance d'actifs.
+
+14l0l0	a_pu_être_réalisée	N
+
+#L'arrêté préfectoral du 9 juillet 2002 a mis en demeure le mandataire de justice de mettre le site en sécurité, notamment en évacuant ou éliminant les déchets présents sur le site.
+
+15l0l0	L__arrêté_préfectoral	O
+15l0l1	9_juillet_2002	T
+15l0l2	a_mis_en_demeure	N
+15l0l3	le_mandataire	O
+15l0l4	évacuant	N
+15l0l5	éliminant	N
+15l1l0	les_déchets	U
+
+#Dans le cadre d'une possible reprise du site, l'acheteur potentiel, KR EXPANSION, a fait réaliser un diagnostic des sols, remis en février 2005.
+
+16l0l0	Dans_le_cadre_d_	R
+16l0l1	une_possible_reprise_du_site	N
+16l0l2	l__acheteur_potentiel	O
+16l0l3	KR_EXPANSION	O
+16l0l4	a_fait_réaliser	N
+16l0l5	un_diagnostic_des_sols	N
+16l0l6	en_février_2005__	T
+16l1l0	KR_EXPANSION	I
+
+#Aucune source de pollution en hydrocarbures totaux, en hydrocarbures aromatiques polycycliques (HAP) ou en métaux lourds n'a été trouvée au niveau des sondages des sols.
+
+17l0l0	Aucune_source_de_pollution	O
+17l0l1	au_niveau_des_sondages_des_sols	L
+17l1l0	hydrocarbures_totaux	S
+17l1l1	hydrocarbures_aromatiques_polycycliques	S
+17l1l2	HAP	S
+17l1l3	métaux_lourds	S
+
+#Une pollution de surface est présente sur la quasi-totalité du site en raison de différents dépôts de bidons d'huiles, d'hydrocarbures, d'acides (batteries) et de divers matériaux à risques sanitaires tels que le plomb et l'amiante.
+
+18l0l0	Une_pollution	O
+18l0l1	d__huiles	O
+18l1l0	hydrocarbures	S
+18l1l1	plomb	S
+
+#La mise en place de piézomètres pour la surveillance des eaux souterraines n'a pas encore été engagée.
+
+19l0l0	La_mise_en_place_de_piézomètres	O
+19l0l1	la_surveillance_des_eaux_souterraines	A
+19l0l2	n__a_pas	R
+19l0l3	encore_été	T
+
+#Le tribunal de commerce de Bourges a prononcé la clôture de la liquidation judiciaire le 21 septembre 2010 pour insuffisance d'actif.
+
+20l0l0	Le_tribunal_de_commerce_de_Bourges	O
+20l0l1	a_prononcé_la_clôture_de_la_liquidation_judiciaire	N
+20l0l2	le_21_septembre_2010	T
+20l0l3	d__actif	O
+20l1l0	Le_tribunal_de_commerce_de_Bourges	I
+
+#La visite de l'inspection des installations classées du 20 mars 2012 a donné lieu aux constats suivants:
+
+21l0l0	La_visite	N
+21l0l1	de_l__inspection_des_installations_classées	O
+21l0l2	20_mars_2012	T
+
+#- absence de panneaux d'interdiction d'accès au public,
+
+
+#- absence ou dégradation de la clôture du site, (des trace de présence sur le site ont été remarquées)
+
+23l0l0	la_clôture_du_site	O
+
+#- vétusté des 2 bâtiments
+
+24l0l0	2_bâtiments	O
+
+#Ainsi dans son rapport, l'inspecteur des installations classées propose, compte tenu de la présence de pollution potentielle et de l'absence d'exploitant (site à responsabilité défaillante), l'institution de Servitudes d'Utilité Publiques (SUP).
+
+25l0l0	d__exploitant	O
+
+#Un arrêté préfectoral instituant les SUP a été signé le 5 août 2013, pour restreindre l'usage des terrains et la réalisation de travaux.
+
+26l0l0	Un_arrêté_préfectoral	O
+26l0l1	instituant	R
+26l0l2	les_SUP	O
+26l0l3	a_été_signé	N
+26l0l4	le_5_août_2013__	T
+26l0l5	restreindre_l_	N
+26l0l6	usage_des_terrains	O
+26l0l7	la_réalisation_de_travaux	N
+
+#Il prévoit que toute construction, implantation ou projet d’aménagement doit avoir fait l’objet d’études préalables.
+
+27l0l0	construction	N
+27l0l1	aménagement	O
+27l0l2	doit_avoir_fait_l__objet_d_	R
+27l0l3	études_préalables	N
+
+#Celles-ci caractérisent l’état de pollution du site et permettent de démontrer la compatibilité du projet avec l’état du site en matières environnementale, de sécurité et de santé des occupants.
+

@@ -1,0 +1,80 @@
+
+#72.0069
+#Le site a accueilli une installation de stockage, de dépollution et de démontage de VHU (véhicule hors d’usage), de manière illégale.
+
+0l0l0	Le_site	O
+0l0l1	a_accueilli	N
+0l0l2	une_installation_de_stockage	O
+0l0l3	dépollution	N
+0l0l4	démontage_de_VHU	N
+0l1l0	VHU	I
+0l1l1	véhicule	S
+
+#Cette activité est source de pollution avérée car aucune disposition particulière n’a été prise par l’exploitant.
+
+1l0l0	Cette_activité	O
+1l0l1	de_pollution	O
+1l0l2	l__exploitant	O
+
+#Lors d'une visite de l'inspection des installations classées du 3 février 2018, il a été constaté sur une surface non imperméabilisée d’environ 500m2 la présence d’une trentaine de véhicules, des épaves et des pièces non dépolluées, considérées comme des déchets dangereux.
+
+2l0l0	une_visite	N
+2l0l1	l__inspection_des_installations_classées	O
+2l0l2	du_3_février_2018__	T
+2l0l3	il_a_été_constaté	N
+2l0l4	sur_une_surface_non_imperméabilisée	N
+2l0l5	trentaine_de_véhicules	O
+2l0l6	des_épaves	O
+2l1l0	des_pièces_non_dépolluées	U
+2l1l1	des_déchets_dangereux	U
+
+#Des traces de pollution sont visibles sur le site, des traces d’huile sont notamment relevées.  Un fût de 200 litres vide est disposé à l’extérieur, il était utilisé pour la collecte des huiles récupérées, aujourd’hui stockées dans un bidon de 60 L à l’intérieur du hangar sans rétention.
+
+3l0l0	Des_traces_de_pollution	O
+3l0l1	il_était	A
+3l0l2	utilisé_pour	R
+3l0l3	la_collecte	A
+3l0l4	des_huiles_récupérées	A
+3l0l5	aujourd_hui_stockées	N
+3l1l0	des_traces_d__huile	U
+3l1l1	collecte_des_huiles_récupérées	U
+
+#L’état des véhicules, couverts de mousse pour certains, et l'état des bâches couvrant certains véhicules laissent apparaître une activité de démontage ou de remise en état peu soutenue.
+
+4l0l0	activité_de_démontage_ou	A
+4l0l1	de_remise_en_état	O
+
+#L’exploitant est mis en demeure de régulariser sa situation soit :
+
+5l0l0	L__exploitant	O
+5l0l1	régulariser	N
+
+#-en déposant un dossier de demande d’enregistrement et d’agrément en préfecture.
+
+6l0l0	déposant_un_dossier_de_demande	N
+6l0l1	d__agrément	O
+
+#-en cessant ses activités et en procédant à la remise en état
+
+7l0l0	cessant	N
+7l0l1	ses_activités	A
+7l0l2	procédant_à	R
+7l0l3	la_remise_en_état	O
+
+#Aucun diagnostic de sol ou travaux de remise en état n'ont été effectués.
+
+8l0l0	Aucun_diagnostic_de_sol	N
+8l0l1	travaux_de_remise_en_état	N
+8l0l2	ont_été_effectués	N
+
+#Cependant le constat visuel réalisé lors de l'inspection met en évidence un impact du sol.
+
+9l0l0	un_impact_du_sol	O
+
+#En cas de projets d'investigations sur les parcelles (avec ou sans changement d'usage), compte tenu de la pollution avérée des sols, il convient de mener au préalable des investigations complémentaires pour s'assurer de la compatibilité des terrains avec l'usage envisagé.
+
+10l0l0	En_cas	R
+10l0l1	de_projets_d__investigations	N
+10l0l2	les_parcelles	O
+10l0l3	sans_changement_d__usage	N
+10l0l4	des_investigations_complémentaires	N

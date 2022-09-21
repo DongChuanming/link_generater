@@ -1,0 +1,245 @@
+
+#76.0193
+#La société EXXONMOBIL est intégrée à la raffinerie ESSO sur la zone industrielle de Port-Jérôme sur la commune de Notre-Dame de Gravenchon.
+
+0l0l0	La_société_EXXONMOBIL	O
+0l0l1	est	N
+0l0l2	intégrée_à	R
+0l0l3	la_raffinerie_ESSO	O
+0l0l4	sur_la_zone_industrielle_de_Port_Jérôme_sur_la_commune_de_Notre_Dame_de_Gravenchon	L
+0l1l0	La_société_EXXONMOBIL	I
+0l1l1	la_raffinerie_ESSO	I
+0l1l2	Port_Jérôme	I
+
+#Elle a fusionné juridiquement avec SOCABU et EMCP en 2008 pour former EMCF.
+
+1l0l0	Elle	O
+1l0l1	a_fusionné_juridiquement	N
+1l0l2	SOCABU	O
+1l0l3	EMCP	O
+1l0l4	en_2008	T
+1l0l5	former	N
+1l0l6	EMCF	O
+1l1l0	SOCABU	I
+1l1l1	EMCP	I
+1l1l2	EMCF	I
+
+#Cette fiche BASOL reprend donc l'ensemble des éléments portants sur les différentes unités à partir de 2008.
+
+2l0l0	partir_de_2008__	T
+
+#Pour obtenir des données antérieures à la date de la fusion, il est possible de consulter les fiches BASOL relatives à la branche EMCF ELASTOMERES (ex SOCABU): fiche BASOL n° 76.0194 et à la branche polymères (ex EMCP): fiche BASOL n° 76.0037.
+
+3l0l0	données_antérieures_à_la	N
+3l0l1	date_de	R
+3l0l2	la_fusion	N
+3l0l3	BASOL	O
+3l0l4	relatives_à	R
+3l0l5	la_branche_EMCF_ELASTOMERES	O
+3l1l0	EMCF_ELASTOMERES	I
+3l1l1	SOCABU	I
+3l1l2	polymères	I
+3l1l3	EMCP	I
+
+#Le site est implanté dans la vallée de la Seine à  une trentainede kilomètres de l'embouchure de l'estuaire de la Seine dans la Manche.
+
+4l0l0	Le_site	O
+4l0l1	est_implanté_dans_la_vallée_de_la_Seine	L
+4l0l2	à___une_trentainede_kilomètres_de_l__embouchure_de_l__estuaire_de_la_Seine	L
+4l0l3	dans_la_Manche	L
+
+#Il est bordé :
+
+
+#à l'ouest par la Seine avec en rive gauche les communes de Quillebeuf-sur-Seine et Saint Aubin -sur-Quillebeuf ;
+
+6l0l0	à_l__ouest_par_la_Seine	L
+6l0l1	en_rive_gauche_les_communes_de_Quillebeuf_sur_Seine_et_Saint_Aubin__sur___Quillebeuf	L
+
+#au nord par la commune de Lillebonne ;
+
+7l0l0	au_nord_par_la_commune_de_Lillebonne	L
+
+#à l'est par la départementale D81 prolongé par la D428 qui sépare l'agglomération de Notre-Dame-de-Gavenchon de la zone industrielle de Port Jérôme.
+
+8l0l0	à_l__est	L
+8l0l1	la_départementale_D81	O
+8l0l2	sépare_l__agglomération_de_Notre_Dame_de_Gavenchon_de_la_zone_industrielle_de_Port_Jérôme	L
+
+#au sud par le marais de Petiville qui est une Zone Naturelle d'Intérêt Faunistique et Floristique (ZNIEFF).
+
+9l0l0	au_sud_par_le_marais_de_Petiville	L
+9l0l1	une_Zone_Naturelle_d__Intérêt_Faunistique	O
+
+#Site pétrochimique fabriquant de l'éthylène, propylène et butadiène au sein de son vapocraqueur, des résines, des alkylats...
+
+10l0l0	Site_pétrochimique	O
+10l0l1	fabriquant	N
+10l0l2	son_vapocraqueur	O
+10l1l0	éthylène	S
+10l1l1	propylène	S
+10l1l2	butadiène	S
+10l1l3	alkylats	S
+
+#Il dispose également d'un parc de stockage de liquides inflammables.
+
+11l1l0	stockage_de_liquides_inflammables	U
+
+#L'implantation du groupe EXXONMOBIL (raffinage et chimie) à Notre-Dame-de-Gravenchon est ancienne puisque la raffinerie Esso a été mise en service en 1933 et que le premier vapocraqueur a été mis en service en 1959.
+
+12l0l0	L__implantation	N
+12l0l1	EXXONMOBIL	O
+12l0l2	raffinage_et_chimie	A
+12l0l3	à_Notre_Dame_de_Gravenchon	L
+12l0l4	la_raffinerie_Esso	O
+12l0l5	a_été_mise_en_service	N
+12l0l6	en_1933	T
+12l0l7	le_premier_vapocraqueur	O
+12l0l8	a_été_mis_en_service	N
+12l0l9	en_1959__	T
+12l1l0	groupe_EXXONMOBIL	I
+12l1l1	raffinerie_Esso	I
+
+#Depuis 1997, EMCF effectue des analyses de la qualité des eaux souterraines via 8 piézomètres.
+
+13l0l0	Depuis_1997__	T
+13l0l1	EMCF	O
+13l0l2	effectue_des_analyses	N
+13l0l3	la_qualité_des_eaux_souterraines	O
+13l1l0	EMCF	I
+
+#Ces analyses sont réalisées de façon semestrielles dans le but de rechercher 22 substances dont notamment : les hydrocarbures totaux (HCT), les hydrocarbures aromatiques polycycliques (HAP), le naphtalène, le benzène, le toluène, le fluorène et le xylène.
+
+14l0l0	Ces_analyses	N
+14l1l0	les_hydrocarbures_totaux	S
+14l1l1	HCT	S
+14l1l2	les_hydrocarbures_aromatiques_polycycliques	S
+14l1l3	HAP	S
+14l1l4	le_naphtalène	S
+14l1l5	benzène	S
+14l1l6	toluène	S
+14l1l7	fluorène	S
+14l1l8	xylène	S
+
+#Les résultats obtenus lors des campagnes de surveillance sont comparés aux Valeurs de Constat d' Impact (VCI) pour un usage sensible et non sensible.
+
+15l0l0	des_campagnes_de_surveillance	N
+
+#Les analyses réalisées sur la période de février 1997 à octobre 2005 ont mis en évidence une grande variabilité ne conduisant pas toutefois à prendre des mesures particulières.
+
+16l0l0	Les_analyses_réalisées	N
+16l0l1	sur_la_période_de_février_1997_à_octobre_2005	T
+
+#Les résultats ont montrés :
+
+
+#la présence d'une nappe flottante d' HCT sur les piézomètres PZ19E et PZ25S depuis 1997 ainsi qu'une phase flottante sur le prélèvements d'octobre 2003 pour le PZ13N;
+
+18l0l0	depuis_1997	T
+18l0l1	une	O
+18l0l2	phase_flottante	N
+18l0l3	sur_le_prélèvements	L
+18l0l4	d__octobre_2003	T
+18l1l0	HCT	S
+
+#des valeurs en HCT supérieures à la VCI usage non sensible (1000 µg/l) sur le PZ19S depuis 1997 et jusqu'en fin 2004 ainsi que sur le PZ13N en décembre 1997, février 2000, février 2002 et juin 2003;
+
+19l0l0	depuis_1997	T
+19l0l1	jusqu__en_fin_2004	T
+19l0l2	en_décembre_1997___février_2000___février_2002	T
+19l1l0	HCT	S
+
+#des valeurs de la somme des HAP supérieures à la VCI usage non sensible (1µg/l) sur le piézomètre PZ19S en janvier 2002 et 2003;
+
+20l0l0	en_janvier_2002_et_2003	T
+20l1l0	HAP	S
+
+#des teneurs en benzène supérieures à la VCI à usage non sensible (5µg/l) sur le piézomètre PZ19S depuis février 1997, les teneurs sont également supérieures sur le piézomètre PZ22W en 1997 et sur les prélèvements de novembre 1999 et février 2000 depuis la teneur reste inférieure à la VCI pour l'ouvrage PZ22W;
+
+21l0l0	depuis_février_1997__	T
+21l0l1	en_1997	T
+21l0l2	de_novembre_1999_et_février_2000	T
+21l1l0	benzène	S
+
+#des teneurs en éthylbenzène supérieures à la VCI à usage non sensible (1500µg/l) sur le piézomètre PZ19S;
+
+22l1l0	éthylbenzène	S
+
+#des teneurs en xylène totaux supérieures à la VCI à usage non sensible (2500 µg/l) sur le piézomètre PZ19S de février 1997 à début 1999.
+
+23l0l0	de_février_1997_à_début_1999__	T
+23l1l0	xylène_totaux	S
+
+#Le nouvel arrêté préfectoral en date du 3 septembre 2009 concernant la surveillance des eaux souterraines et la réalisation d'un schéma conceptuel pour 2011 remplace celui émis en 2007.
+
+24l0l0	Le_nouvel_arrêté_préfectoral	O
+24l0l1	en_date_du_3_septembre_2009	T
+24l0l2	concernant	R
+24l0l3	la_surveillance_des_eaux_souterraines	A
+24l0l4	réalisation_d_	N
+24l0l5	un_schéma_conceptuel	O
+24l0l6	pour_2011	T
+24l0l7	en_2007__	T
+
+#La campagne de prélèvements effectuées au mois d'octobre 2009 sur les eaux souterraines a mis en évidence une persistance de la présence de produit surnageant sur les deux ouvrages PZ19E et PZ25E avec cependant une tendance à la stabilisation de la ré-alimentation depuis juillet 2008 ainsi que la présence d'une forte teneur en benzène au droit du piézomètre PZ19S (2900 µg/l au lieu de 5 µg/l).
+
+25l0l0	La_campagne_de_prélèvements_effectuées_au_mois_d_	N
+25l0l1	octobre_2009	T
+25l0l2	les_eaux_souterraines	O
+25l0l3	a_mis_en	R
+25l0l4	les_deux_ouvrages_PZ19E	O
+25l0l5	la_ré_alimentation	N
+25l0l6	depuis_juillet_2008	T
+25l1l0	produit_surnageant	U
+25l1l1	PZ25E	I
+25l1l2	benzène	S
+
+#La campagne de surveillance de juin 2010 a prouvée une persistance de la présence de produit surnageant sur les ouvrages PZ19E et PZ25S et la présence d' une forte contamination en benzène au droit du piézomètre PZ19S (13 000 µg/l au lieu de 5.
+
+26l0l0	La_campagne_de_surveillance	N
+26l0l1	de_juin_2010	T
+26l0l2	la_présence_d___une_forte_contamination	O
+26l1l0	produit_surnageant	U
+26l1l1	benzène	S
+
+#Selon la courbe d'évolution des teneurs en benzène, les teneurs ont diminuées jusqu'à atteindre 0,001 µg/l en janvier 2007 mais depuis la teneur en benzène présente dans l'ouvrage a tendance à augmenter jusqu'à atteindre sa valeur actuelle qui dépasse de façon très importante la VCI pour un usage non sensible.
+
+27l0l0	teneurs	O
+27l0l1	ont_diminuées	N
+27l0l2	en_janvier_2007	T
+27l1l0	benzène	S
+27l1l1	benzène	S
+
+#La présence de ces hydrocarbures n'est pas jugée critique pour les usages «eau industrielle» des unités du site.
+
+28l0l0	les_usages___eau_industrielle	A
+28l1l0	hydrocarbures	S
+
+#En effet, les forages de prélèvements d'eau industrielle du site sont situés en amont par rapport à l'emplacement de ces piézomètres.
+
+29l0l0	les_forages_de_prélèvements	O
+29l0l1	d__eau_industrielle	A
+29l0l2	situés_en_amont_par_rapport_à_l__emplacement	O
+
+#Par ailleurs, la nappe n'est pas utilisée pour une alimentation en eau potable.
+
+30l0l0	une_alimentation_en_eau_potable	A
+
+#Cependant, il est tout de même important de surveiller l'évolution des teneurs des polluants présents dans les piézomètres présentant une pollution : PZ13N; PZ19E; PZ19S; PZ22W et PZ25S.
+
+31l1l0	polluants	S
+31l1l1	PZ13N	S
+31l1l2	PZ19E	S
+31l1l3	PZ19S	S
+31l1l4	PZ22W	S
+31l1l5	PZ25S_	S
+
+#La question d'une surveillance des eaux souterraines globalisée sur les sites d' ESSO et d' EMCF est en cours.
+
+32l0l0	La_question	O
+32l0l1	surveillance_des_eaux_souterraines	A
+32l0l2	les_sites	O
+32l0l3	d___ESSO_et_d__	L
+32l0l4	EMCF	O
+32l1l0	ESSO	I
+32l1l1	EMCF	I

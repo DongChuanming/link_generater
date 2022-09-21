@@ -1,0 +1,240 @@
+
+#08.0005
+#Le site de MORY à Sedan a été utilisé dans les années 1930 en dépôt de charbon, puis en 1960 en dépôt pétrolier, puis en 1970 en dépôt de biens d'équipement.
+
+0l0l0	Le_site_de_MORY	O
+0l0l1	à_Sedan	O
+0l0l2	a_été_utilisé	N
+0l0l3	dans_les_années_1930	T
+0l0l4	en	R
+0l0l5	dépôt_de_charbon	O
+0l0l6	en_1960	T
+0l0l7	en	R
+0l0l8	dépôt_pétrolier	O
+0l0l9	en_1970	T
+0l0l10	en	R
+0l0l11	dépôt_de_biens_d__équipement	O
+0l1l0	MORY	I
+0l1l1	dépôt	D
+0l1l2	charbon	U
+0l1l3	dépôt_pétrolier	D
+0l1l4	dépôt	D
+
+#Un dépôt d'hydrocarbures en activité autorisé par arrêté préfectoral du 20 juin 1986 est maintenant présent sur le site :
+
+1l0l0	Un_dépôt_d__hydrocarbures	O
+1l0l1	en_activité	N
+1l0l2	autorisé_par	R
+1l0l3	arrêté_préfectoral	O
+1l0l4	20_juin_1986	T
+1l0l5	est_maintenant_présent	N
+1l1l0	dépôt_d_	D
+1l1l1	hydrocarbures	S
+
+#- pour le fioul domestique, un réservoir de 1630 m3 et un de 1020 m3,
+
+2l1l0	fioul_domestique	U
+2l1l1	un_réservoir_de	D
+
+#- pour le gazole, un réservoir de 540 m3.
+
+3l0l0	gazole	O
+3l1l0	le_gazole	U
+
+#Un accident a eu lieu le 02/04/1994 conduisant à un déversement d'hydrocarbure (fuite de fioul domestique suite à une fissure sur une conduite).
+
+4l0l0	Un_accident	N
+4l0l1	a_eu_lieu	N
+4l0l2	le_02_04_1994	T
+4l0l3	conduisant_à	R
+4l0l4	un_déversement_d__hydrocarbure	N
+4l0l5	fuite_de_fioul_domestique	A
+4l0l6	une_conduite	O
+4l1l0	hydrocarbure	U
+4l1l1	fioul_domestique	U
+
+#Il existe 4 piézomètres pour la surveillance des eaux souterraines.
+
+5l0l0	la_surveillance_des_eaux_souterraines	A
+
+#Cette surveillance est imposée dans l'arrêté du 20 juin 1986.
+
+6l0l0	20_juin_1986__	T
+
+#Un réseau de surveillance des eaux souterraines composé de 6 piézomètres (4 pour la nappe superficielle et 2 pour la nappe sous-jacente)est imposé dans l'arrête complémentaire du 16 juin 2009.
+
+7l0l0	Un_réseau_de	O
+7l0l1	surveillance_des_eaux_souterraines	A
+7l0l2	composé_de	R
+7l0l3	6_piézomètres	O
+7l0l4	imposé	N
+7l0l5	l__arrête_complémentaire	O
+7l0l6	du_16_juin_2009__	T
+
+#Immédiatement après l'accident, un barrage flottant a été mis en place sur le cours d'eau pour pomper et récupérer les hydrocarbures.
+
+8l0l0	Immédiatement_après	R
+8l0l1	l__accident	N
+8l0l2	un_barrage_flottant	O
+8l0l3	a_été_mis_en_place	N
+8l0l4	pomper	A
+8l0l5	les_hydrocarbures	O
+8l1l0	hydrocarbures	S
+
+#Des travaux de dépollution ont ensuite été réalisés sur les terres polluées (traitement biologique sur site et ventilation forcée).
+
+9l0l0	Des_travaux_de_dépollution	N
+9l0l1	ont_ensuite_été_réalisés	N
+9l0l2	les_terres_polluées	O
+9l0l3	traitement_biologique	N
+
+#Une évaluation simplifiée des risques a été demandée par arrêté préfectoral en date du 2 février 1999.
+
+10l0l0	Une_évaluation_simplifiée_des_risques	N
+10l0l1	a_été_demandée	N
+10l0l2	par_arrêté_préfectoral	O
+10l0l3	en_date_du_2_février_1999__	T
+
+#Cette demande a donné lieu à un rapport établi par le bureau d'études CECA ATO Ingénierie-Environnement (bureau mandaté par MORY combustibles).
+
+11l0l0	Cette_demande	N
+11l0l1	un_rapport_établi	N
+11l0l2	par_le_bureau_d__études_CECA	O
+11l0l3	Ingénierie	N
+11l0l4	__Environnement	O
+11l0l5	MORY_combustibles	O
+11l1l0	CECA_ATO	I
+11l1l1	MORY	I
+11l1l2	combustibles	U
+
+#Elle classe le site dans les sites à surveiller (classe 2).
+
+
+#Ce rapport a été transmis à l'inspection des installations classées le 31/01/2000.
+
+13l0l0	Ce_rapport	O
+13l0l1	a_été_transmis	N
+13l0l2	l__inspection_des_installations_classées	O
+13l0l3	le_31_01_2000__	T
+
+#Par lettre du 27/08/02, l'inspection des installations classées a relancé l'exploitant pour obtenir les résultats de la surveillance des eaux souterraines.
+
+14l0l0	27_08_02	T
+14l0l1	l__inspection_des_installations_classées	O
+14l0l2	a_relancé	N
+14l0l3	l__exploitant	O
+14l0l4	surveillance_des_eaux_souterraines	A
+
+#L'exploitant a fait parvenir à l'inspection des installations classées un bilan de sa surveillance, le 4 septembre 2002.
+
+15l0l0	L__exploitant	O
+15l0l1	a_fait_parvenir	N
+15l0l2	l__inspection_des_installations_classées	O
+15l0l3	un_bilan	N
+15l0l4	sa_surveillance	A
+15l0l5	le_4_septembre_2002	T
+
+#En Mars et avril 2005, des investigations des sols ont été réalisées, les résultats d'analyses ont permis d'identifier l'existence d'une zone impactée par les hydrocarbures.
+
+16l0l0	En_Mars_et_avril_2005__	T
+16l0l1	des_investigations_des_sols	N
+16l0l2	ont_été_réalisées	N
+16l0l3	identifier_l__existence_d_	O
+16l0l4	une_zone_impactée	O
+16l0l5	par	R
+16l0l6	les_hydrocarbures	O
+16l1l0	hydrocarbures	S
+
+#Cette zone est localisée à proximité des bacs aériens et se caractérise par une teneur maximale en hydrocarbures de 20 000 mg/kg.
+
+17l0l0	Cette_zone	O
+17l0l1	localisée_à_proximité_des_bacs_aériens	L
+17l1l0	hydrocarbures	S
+
+#Le mémoire de cessation d'activité du site a été transmis le 25/06/2007 à la préfecture des Ardennes.
+
+18l0l0	Le_mémoire_de	O
+18l0l1	cessation_d__activité	N
+18l0l2	du_site	O
+18l0l3	a_été_transmis	N
+18l0l4	le_25_06_2007	T
+18l0l5	la_préfecture_des_Ardennes	O
+18l1l0	la_préfecture_des_Ardennes	I
+
+#LE 29 févier 2009, l'inspection des installations classées réalise une visite d'inspection sur le site de MORY.
+
+19l0l0	LE_29_févier_2009__	T
+19l0l1	l__inspection_des_installations_classées	O
+19l0l2	réalise_une_visite_d__inspection	N
+19l0l3	sur_le_site_de_MORY	L
+19l1l0	MORY	I
+
+#Un procès verbal de récolement a été notifié le 6 mai 2009.
+
+20l0l0	Un_procès_verbal_de_récolement	O
+20l0l1	a_été_notifié	N
+20l0l2	le_6_mai_2009__	T
+
+#Celui-ci acte les travaux de remise en état du site de l'ancien dépôt hydrocarbures de DMS.
+
+21l0l0	acte_les_travaux_de_remise_en_état_du_site	N
+21l0l1	l__ancien_dépôt_hydrocarbures	O
+21l0l2	DMS	O
+21l1l0	hydrocarbures	S
+
+#A la suite de cela, un arrêté préfectoral complémentaire est notifié le 16 juin 2009.
+
+22l0l0	un_arrêté_préfectoral_complémentaire	O
+22l0l1	est_notifié	N
+22l0l2	le_16_juin_2009__	T
+
+#Cet acte a pour objet d''ajouter des prescriptions réglementaires relatives à la surveillance de la qualité de la nappe.
+
+23l0l0	d_ajouter	N
+23l0l1	des_prescriptions_réglementaires	O
+23l0l2	relatives_à	R
+23l0l3	la_surveillance_de_la_qualité_de_la_nappe	A
+
+#Un arrêté préfectoral instituant des servitudes d'utilité publique est notifié le 1er juin 2011.
+
+24l0l0	Un_arrêté_préfectoral	O
+24l0l1	instituant	N
+24l0l2	des_servitudes_d__utilité_publique	O
+24l0l3	est_notifié	N
+24l0l4	le_1er_juin_2011__	T
+
+#La zone de confinement (parcelle 209 de la section AV de la commune de Sedan) est soumise aux servitudes d'utilité publique suivantes :
+
+25l0l0	La_zone_de_confinement	O
+25l0l1	de_la_commune_de_Sedan	L
+25l0l2	est_soumise_aux_servitudes	L
+
+#- limitation de l'usage du sol et du sous-sol afin de ne pas altérer la couverture ;
+
+
+#- interdiction d'implanter des constructions ou des ouvrages non liés au suivi et à la surveillance des effets sur l'environnement ;
+
+27l0l0	interdiction_d__implanter	N
+27l0l1	des_constructions	O
+27l0l2	des_ouvrages	O
+27l0l3	non_liés_au_suivi_et_à_la_surveillance_des_effets_sur	A
+27l0l4	l__environnement	O
+
+#- interdiction d'aménagement des terrains de camping ou de stationnement de caravanes ;
+
+28l0l0	interdiction_d__aménagement	N
+28l0l1	des_terrains_de_camping	O
+
+#- la clôture sur le pourtour du site, le portail, les bassins de confinement et du panneau réglementaire à l'entrée du site, qui délimitent l'application des servitudes d'utilité publique, doivent être maintenue tant que les moyens de surveillance de la pollution seront en place ;
+
+29l0l0	la_clôture	O
+29l0l1	sur_le_pourtour_du_site	L
+29l0l2	les_bassins_de	O
+29l0l3	confinement	A
+29l0l4	délimitent_l_	N
+29l0l5	les_moyens_de_surveillance_de_la_pollution	O
+29l0l6	seront_en_place	N
+
+#- protections du matériel lié à la surveillance des eaux souterraines.
+
+30l0l0	surveillance_des_eaux_souterraines	A

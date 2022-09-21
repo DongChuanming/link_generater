@@ -1,0 +1,105 @@
+
+#73.0149
+#Le centre de transit de l'Isle traite et stocke les laitiers juste après leur formation puis utilisation dans l'aciérie Ugitech contigüe.
+
+0l0l0	Le_centre_de_transit	O
+0l0l1	l__Isle	L
+0l0l2	stocke	N
+0l0l3	les_laitiers	O
+0l0l4	juste_après_leur_formation	T
+0l0l5	l__aciérie	O
+0l0l6	Ugitech_contigüe	L
+
+#Les laitiers restent en place un an sur le site pour obtenir des matériaux "maturés".
+
+1l0l0	le_site	O
+
+#Le site comporte également une zone de stockage de matériaux.
+
+2l0l0	Le_site	O
+2l0l1	comporte	R
+
+#Le site est sur la commune d'Ugine en rive gauche de l'Arly et en face du site de production d'Ugitech.
+
+3l0l0	Le_site	O
+3l0l1	est_sur_la_commune_d__Ugine_en_rive_gauche_de_l__Arly	L
+3l0l2	et	R
+3l0l3	en_face_du_site_de_production_d__Ugitech	O
+
+#Au sud, se trouve le village de l'Isle et en partie basse du site, se trouve la zone de confluence entre l'Arly et la Chaise.
+
+4l0l0	Au_sud	L
+4l0l1	se_trouve_le_village_de_l__Isle	L
+4l0l2	se_trouve	R
+4l0l3	la_zone_de_confluence	O
+4l0l4	Arly_et_la_Chaise	L
+
+#A noter la présence de l'ancien centre de stockage de déchets de Montgombert au nord du site (voir fiche Basol correspondante).
+
+5l0l0	l__ancien_centre_de_stockage_de_déchets	O
+5l0l1	Montgombert_au_nord_du_site	L
+5l1l0	stockage_de_déchets	U
+
+#La superficie du site est de 8 ha dont 3 en exploitation pour le traitement des laitiers.
+
+6l0l0	3_en_exploitation	O
+6l0l1	le_traitement	A
+
+#Une étude de la qualité des sols du site de l'Isle a été réalisée en 1999.
+
+7l0l0	Une_étude_de	N
+7l0l1	la_qualité_des_sols	O
+7l0l2	site_de_l__Isle	L
+7l0l3	a_été_réalisée	N
+7l0l4	en_1999	T
+
+#Le site a été classé comme site à surveiller pour les milieux air, sols par contact et eaux souterraines.
+
+8l0l0	Le_site	O
+8l0l1	a_été_classé	N
+
+#Une étude d'interprétation de l'état des milieux a ensuite été réalisée en 2008 par Ugitech.
+
+9l0l0	Une_étude_d_	N
+9l0l1	interprétation_de_l__état_des_milieux	O
+9l0l2	a_ensuite_été_réalisée	N
+9l0l3	en_2008	T
+9l0l4	Ugitech	O
+9l1l0	Ugitech	I
+
+#Le toit de la nappe se situe à une profondeur variant entre 6 à 17 m de  profondeur avec un écoulement du nord au sud.
+
+10l0l0	la_nappe	O
+
+#Au droit du site, le cours d'eau n'est pas en relation avec la nappe mais l'Arly peut parfois alimenter la nappe.
+
+11l0l0	Au_droit_du_site	L
+11l0l1	nappe	A
+11l0l2	Arly	L
+11l0l3	parfois	T
+11l0l4	alimenter_la_nappe	A
+
+#Plusieurs piézomètres sont positionnés sur l'ensemble des sites d'Ugitech.
+
+12l0l0	Plusieurs_piézomètres	O
+12l0l1	sont_positionnés	N
+12l0l2	Ugitech	O
+
+#Un suivi des eaux superficielles de l'Arly et de La Chaise est réalisé par Ugitech.
+
+13l0l0	Un_suivi_des_eaux_superficielles	A
+13l0l1	de_l__Arly_et_de_La_Chaise	L
+13l0l2	est_réalisé	N
+13l0l3	Ugitech	O
+
+#La nappe souterraine n'est pas utilisée pour un usage sensible en aval hydraulique du site.
+
+14l0l0	un_usage_sensible	O
+14l0l1	en_aval_hydraulique_du_site	L
+
+#Au droit du site, seul le chrome et le fluor sont présents en des teneurs supérieures aux valeurs de référence (en moyenne sur 10 ans, 66 microgrammes /l au regard de la valeur de référence de 50 microgrammes / l pour le chrome et 1900 microgrammes /l au lieu de 1500 microgrammes /l pour le fluor).
+
+15l1l0	le_chrome	S
+15l1l1	fluor	S
+15l1l2	le_chrome	S
+15l1l3	le_fluor	S

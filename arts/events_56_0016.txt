@@ -1,0 +1,218 @@
+
+#56.0016
+#La société HABITAT ET LOISIRS a été autorisée à exploiter une installation de traitement de bois par arrêté préfectoral du 21 juin 1990.
+
+0l0l0	La_société_HABITAT	O
+0l0l1	ET_LOISIRS	O
+0l0l2	a_été_autorisée_à_exploiter	N
+0l0l3	une_installation_de	O
+0l0l4	traitement_de_bois	A
+0l0l5	arrêté_préfectoral	O
+0l0l6	du_21_juin_1990	T
+0l1l0	La_société_HABITAT_ET_LOISIRS	I
+
+#L'installation est située à l'intérieur d'un bâtiment, placé au-dessus d'une rétention.
+
+1l0l0	située_à_l__intérieur_d__un_bâtiment	L
+1l0l1	au_dessus_d__une_rétention	L
+
+#Le produit utilisé contient du cuivre, du chrome et de l'arsenic.
+
+2l0l0	Le_produit	O
+2l0l1	l__arsenic	O
+2l1l0	cuivre	S
+2l1l1	du_chrome	S
+2l1l2	arsenic	S
+
+#En 2003, le produit de traitement à base de cuivre, chrome et arsenic a été remplacé par un produit à base de cuivre et d'acide borique.
+
+3l0l0	En_2003__	T
+3l0l1	le_produit_de_traitement	O
+3l0l2	a_été_remplacé_par	N
+3l0l3	un_produit	O
+3l1l0	cuivre	S
+3l1l1	chrome	S
+3l1l2	arsenic	S
+3l1l3	cuivre	S
+3l1l4	acide_borique	S
+
+#L'activité a été placée en redressement judiciaire en 2017.
+
+4l0l0	L__activité	O
+4l0l1	a_été_placée_en_redressement_judiciaire	N
+4l0l2	en_2017__	T
+
+#Dans le cadre de l'article 65 l'arrêté ministériel du 2 février 1998, l'installation est soumise à une surveillance semestrielle des eaux souterraines.
+
+5l0l0	2_février_1998__	T
+5l0l1	l__installation	O
+5l0l2	est_soumise_à	R
+5l0l3	une_surveillance_semestrielle	A
+5l0l4	des_eaux_souterraines	A
+
+#Les paramètres recherchés sont le cuivre total, l'arsenic, le chrome VI, le bore (depuis novembre 2003).
+
+6l0l0	l__arsenic	O
+6l0l1	depuis_novembre_2003	T
+6l1l0	le_cuivre_total	S
+6l1l1	l__arsenic	S
+6l1l2	chrome_VI	S
+6l1l3	bore	S
+
+#En avril 2005, la présence de chrome dans les eaux souterraines a été mise en évidence.
+
+7l0l0	En_avril_2005__	T
+7l0l1	a_été_mise_en	N
+7l1l0	chrome	S
+
+#Au vu des résultats d'analyses des eaux souterraines un arrêté préfectoral complémentaire du 14 avril 2006 prescrit la réalisation d'un diagnostic initial complété d'une évaluation simplifiée des risques, afin de définir l'origine de la pollution et son impact sur les eaux souterraines.
+
+8l0l0	eaux_souterraines	O
+8l0l1	un_arrêté_préfectoral_complémentaire	O
+8l0l2	14_avril_2006	T
+8l0l3	prescrit_la_réalisation_d__un_diagnostic_initial	N
+8l0l4	complété_d_	R
+8l0l5	une_évaluation_simplifiée_des_risques	N
+8l0l6	l__origine_de_la_pollution	O
+8l0l7	son_impact	O
+
+#Le diagnostic a mis en évidence :
+
+
+#- un impact sur les eaux souterraines par le chrome VI et le bore,
+
+10l1l0	le_chrome_VI	S
+10l1l1	bore	S
+
+#- un impact dans un puits privé par le chrome VI,
+
+11l0l0	un_puits	O
+11l1l0	chrome_VI	S
+
+#- un impact sur les sols du site par l'arsenic, le chrome VI et le cuivre.
+
+12l0l0	l__arsenic	O
+12l1l0	l__arsenic	S
+12l1l1	le_chrome_VI	S
+12l1l2	cuivre	S
+
+#Un arrêté préfectoral d'urgence a été pris le 26 avril 2006 prescrivant la réalisation d'un état des lieux permettant d'établir un constat de pollution des différents milieux et de proposer un échéancier de travaux pour traiter la pollution.
+
+13l0l0	Un_arrêté_préfectoral_d__urgence	O
+13l0l1	a_été_pris	N
+13l0l2	le_26_avril_2006	T
+13l0l3	prescrivant	R
+13l0l4	la_réalisation	N
+13l0l5	d__un_état_des_lieux	N
+13l0l6	établir_un_constat_de_pollution	N
+
+#Depuis 2003 :
+
+14l0l0	Depuis_2003	T
+
+#- les concentrations en chrome VI fluctuent, avec un pic en 2006,
+
+15l0l0	un_pic	N
+15l0l1	en_2006__	T
+15l1l0	chrome_VI	S
+
+#- les concentrations en bore diminuent faiblement.
+
+16l1l0	bore	S
+
+#D'après les résultats, il est recommandé de poursuivre la surveillance trimestrielle des eaux, de réaliser un plan de gestion et de poursuivre les réflexions sur la maîtrise des sources de pollution constituées par la dalle et les remblais sous-jacents de l'ancien séchoir.
+
+17l0l0	poursuivre	O
+17l0l1	la_surveillance_trimestrielle	A
+17l0l2	des_eaux	O
+17l0l3	un_plan_de_gestion	O
+17l0l4	maîtrise_des_sources_de_pollution	O
+17l0l5	remblais_sous_jacents	N
+
+#La visite d'inspection du 24 juin 2008 a permis de constater :
+
+18l0l0	La_visite_d__inspection	N
+18l0l1	24_juin_2008	T
+
+#- la création de l’alvéole devant recevoir les gravats et les terres polluées,
+
+19l0l0	la_création	N
+19l0l1	l__alvéole	O
+19l0l2	les_terres_polluées	O
+
+#- le démontage de l’ancien bâtiment du séchoir et sa réinstallation sur le nouveau séchoir,
+
+20l0l0	le_démontage	N
+20l0l1	l__ancien_bâtiment	O
+20l0l2	sa_réinstallation	N
+20l0l3	sur	R
+20l0l4	le_nouveau_séchoir	N
+
+#- l'étanchéification de la dalle par la pose d’une bâche,
+
+21l0l0	l__étanchéification	N
+21l0l1	la_pose_d__une_bâche	N
+
+#- la création d'une fosse maçonnée pour récupérer les eaux pluviales de la zone de stockage du bois.
+
+22l0l0	la_création_d_	N
+22l0l1	une_fosse	O
+22l0l2	la	O
+22l0l3	zone_de_stockage_du_bois	A
+
+#- que les produits de traitement du bois n'étaient pas stockés sur une rétention étanche et à l’abri de la pluie.
+
+23l0l0	les_produits_de_traitement	O
+23l0l1	bois	O
+23l0l2	n__étaient_pas_stockés_sur	R
+23l0l3	une_rétention	O
+
+#La dépollution du site devait être poursuivie.
+
+24l0l0	La_dépollution	N
+24l0l1	site_devait_être_poursuivie	O
+
+#Techniquement et financièrement, dépolluer le site paraît compliqué pour l’entreprise.
+
+25l0l0	dépolluer	N
+25l0l1	le_site	O
+25l0l2	paraît_compliqué	O
+25l0l3	l__entreprise	O
+
+#Aucune solution définitive pour gérer la pollution du site n'a été identifiée.
+
+26l0l0	Aucune_solution_définitive	O
+26l0l1	gérer_la_pollution	N
+26l0l2	été_identifiée	N
+
+#Le suivi des eaux souterraines montrent, depuis le début du suivi jusque 2015 :
+
+27l0l0	Le_suivi_des_eaux_souterraines	A
+27l0l1	depuis_le_début_du_suivi_jusque_2015	T
+
+#- l'existence d'un cycle annuel des concentrations en chrome VI suivant les variations saisonnières,
+
+28l1l0	chrome_VI	S
+
+#- l'impact au chrome VI en aval de l'autoclave et à l'extérieur du site,
+
+29l0l0	en_aval_de_l__autoclave	L
+29l0l1	à_l__extérieur_du_site	L
+29l1l0	chrome_VI	S
+
+#- l'impact au bore principalement en aval de l'ancien séchoir,
+
+30l0l0	en_aval_de_l__ancien_séchoir	L
+30l1l0	bore	S
+
+#- des variations pour le bore.
+
+31l1l0	bore	S
+
+#Suite à la visite des 13 octobre 2017 et 10 avril 2018, l'inspection a demandé à l'exploitant de dérouler la démarche nationale sites et sols pollués.
+
+32l0l0	Suite_à	R
+32l0l1	la_visite	N
+32l0l2	des_13_octobre_2017_et_10_avril_2018__	T
+32l0l3	l__inspection	O
+32l0l4	la_démarche_nationale_sites_et_sols_pollués	O

@@ -1,0 +1,82 @@
+
+#38.0126
+#Atelier de traitement de surface en liquidation judiciaire.
+
+0l0l0	Atelier_de_traitement_de_surface	O
+0l0l1	liquidation_judiciaire	N
+
+#L'activité est arrêtée mais la présence de bains usés et de déchets est constatée.
+
+1l0l0	L__activité	O
+1l0l1	bains_usés	O
+1l1l0	bains_usés	U
+
+#L'intervention de l'ADEME a été sollicitée et accordée.
+
+2l0l0	L__intervention	N
+2l0l1	l__ADEME	O
+2l0l2	a_été_sollicitée	N
+
+#La présence de bains usés et de déchets fait courir un risque de pollution des sols et des eaux souterraines mais également un risque pour les personnes pouvant entrer sur le site.
+
+3l1l0	bains_usés	U
+
+#L'inspection des installations classées a proposé au préfet d'imposer à l'exploitant, représenté par le liquidateur judiciaire (AP du 06/09/2005) :
+
+4l0l0	L__inspection_des_installations_classées	O
+4l0l1	d__imposer	N
+4l0l2	l__exploitant	O
+4l0l3	06_09_2005	T
+
+#- la fourniture d'une déclaration de cessation d'activité, dans les formes prévues par l'article 34-1 du décret 77-1133 du 21 septembre 1977 modifié, et comportant un diagnostic initial de la pollution des sols et une évaluation simplifié des risques (ESR) ;
+
+5l0l0	la_fourniture_d__une_déclaration	N
+5l0l1	cessation_d__activité	N
+5l0l2	21_septembre_1977	T
+5l0l3	un_diagnostic_initial	N
+5l0l4	la_pollution_des_sols	O
+5l0l5	évaluation_simplifié_des_risques	N
+
+#- la mise en place d'une surveillance des eaux souterraines.
+
+6l0l0	la_mise_en_place_d_	N
+6l0l1	une_surveillance_des_eaux_souterraines	A
+
+#Il a été également proposé le 07/07/2006 par l'inspection au préfet l'évacuation des déchets et la fermeture du site par AP d'urgence :
+
+7l0l0	le_07_07_2006	T
+7l0l1	l__inspection_au_préfet	O
+7l0l2	l__évacuation_des_déchets	N
+7l0l3	la_fermeture_du_site	N
+
+#- AP d'urgence le 11/10/2007,
+
+8l0l0	le_11_10_2007	T
+
+#- APMD le 18/07/2008 à l'encontre du liquidateur afin de respecter l'AP du 06/09/05,
+
+9l0l0	APMD_le_18_07_2008	T
+9l0l1	l_	O
+9l0l2	encontre	R
+9l0l3	du_liquidateur	O
+9l0l4	06_09_05	T
+9l1l0	APMD	I
+
+#- APMD le 27/08/2008 à l'encontre du liquidateur afin de respecter l'AP d'urgence,
+
+10l0l0	APMD_le_27_08_2008	T
+10l0l1	du_liquidateur	O
+10l1l0	APMD	I
+
+#- AP de consignation le 28/01/2009 à l'encontre du liquidateur.
+
+11l0l0	consignation	O
+11l0l1	le_28_01_2009	T
+
+#Le 28/07/2009 proposition d'AP de travaux d'office et d'occupation temporaire des terrains pour intervention ADEME.
+
+12l0l0	Le_28_07_2009	T
+12l0l1	travaux_d__office	N
+12l0l2	d__occupation_temporaire	N
+12l0l3	des_terrains	O
+12l0l4	intervention_ADEME	O

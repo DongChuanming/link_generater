@@ -1,0 +1,227 @@
+
+#05.0007
+#Ancien incinérateur d'ordures ménagères implanté au lieu-dit Malefosse, à Briançon -05-
+
+0l0l0	Ancien_incinérateur	N
+0l0l1	ordures_ménagères	O
+0l0l2	implanté	R
+0l0l3	au_lieu___dit_Malefosse___à_Briançon	L
+0l0l4	_05_	O
+0l1l0	ordures_ménagères	D
+
+#* Le site est divisé en 2 zones : l'usine d'incinération proprement dite et une zone de stockage de mâchefers (cubature estimée : 45000 à 55000 m3) implantée en lieu sensible au niveau de la confluence entre le torrent de Malefosse et la Durance.
+
+1l0l0	Le_site	O
+1l0l1	2_zones	O
+1l0l2	incinération	A
+1l0l3	une_zone	O
+1l0l4	en_lieu_sensible_au_niveau_de_la_confluence_entre_le_torrent_de_Malefosse_et_la_Durance	L
+1l1l0	stockage_de_mâchefers	U
+
+#* L'UIOM a fonctionné de 1974 à 1997.
+
+2l0l0	L__UIOM	O
+2l0l1	a_fonctionné	N
+2l0l2	de_1974_à_1997__	T
+2l1l0	L__UIOM	I
+
+#Durant cette période, 200000t de déchets ménagers ont été incinérées (capacité du four : 2t/h), générant environ 50000t de mâchefers déposés en stock, sur les terrains mentionnés ci-dessus.
+
+3l0l0	Durant_cette_période	T
+3l0l1	200000_t_de_déchets_ménagers	O
+3l0l2	ont_été_incinérées	N
+3l0l3	50000_t	O
+
+#* La ville de Briançon a été autorisée à exploiter l'UIOM par l'AP du 28/03/1973.
+
+4l0l0	La_ville_de_Briançon	O
+4l0l1	a_été_autorisée_à_exploiter	N
+4l0l2	l__UIOM	O
+4l0l3	l__AP	O
+4l0l4	28_03_1973__	T
+4l1l0	La_ville_de_Briançon	I
+
+#ar la suite , la CCB ( communauté de communes Briançonnais ) s'est substitué à l'ancien exploitant ( la ville) par convention  du 17 fevrie 1998
+
+5l0l0	la_CCB	O
+5l0l1	communauté_de_communes_Briançonnais	L
+5l0l2	__s__est_substitué	N
+5l0l3	l__ancien_exploitant	O
+5l0l4	la_ville	O
+5l0l5	du_17_fevrie_1998	T
+5l1l0	la_CCB	I
+5l1l1	communauté_de_communes_Briançonnais	I
+5l1l2	la_ville	I
+
+#L'installation a cessé ses activités le 31/12/1997 et a été démantelée en 2000.
+
+6l0l0	L__installation	O
+6l0l1	a_cessé_ses_activités	N
+6l0l2	le_31_12_1997	T
+6l0l3	a_été_démantelée	N
+6l0l4	en_2000__	T
+
+#* La Communauté de Communes du Briançonnais ayant comme compétence le traitement des ordures ménagères, a signé une convention le 17/02/1998 avec la Ville de Briançon pour se substituer à l'ancien exploitant pour sa réhabilitation.
+
+7l0l0	La_Communauté_de_Communes	O
+7l0l1	du_Briançonnais	L
+7l0l2	compétence_le_traitement_des_ordures_ménagères	O
+7l0l3	a_signé	N
+7l0l4	une_convention	N
+7l0l5	le_17_02_1998	T
+7l0l6	avec	O
+7l0l7	la_Ville_de_Briançon	O
+7l0l8	l__ancien_exploitant	O
+7l0l9	sa_réhabilitation	N
+7l1l0	__La_Communauté_de_Communes_du_Briançonnais	I
+
+#En 2003, elle a donc entrepris le processus de réhabilitation du site, en faisant réaliser un diagnostic du site (équivalent à une ESR).
+
+8l0l0	En_2003__	T
+8l0l1	elle	O
+8l0l2	a_donc_entrepris	N
+8l0l3	le_processus_de_réhabilitation	N
+8l0l4	faisant_réaliser	N
+8l0l5	un_diagnostic	N
+8l0l6	site	O
+
+#* Celui-ci a révélé une petite zone de pollution due aux métaux lourds, située à proximité de la zone de refroidissement des mâchefers (classés "catégorie V" donc valorisables).
+
+9l0l0	révélé	N
+9l0l1	une_petite_zone_de_pollution	O
+9l0l2	située_à_proximité_de_la_zone_de_refroidissement_des_mâchefers	A
+9l1l0	métaux_lourds	S
+
+#De plus, les sols sont localement contaminés, à l'aval de l'usine, par des dioxines issues des fumées de combustion (panache de dispersion de 500 à 700m).
+
+10l0l0	contaminés	O
+10l0l1	à_l__aval_de_l__usine	L
+10l1l0	dioxines	S
+
+#Les bétons sont également contaminés superficiellement par dioxines et furanes (de l'ordre de 30 à 50 pg/g et jusqu'à 785 pg/g au niveau de la cheminée), de même que la couche de poussière présente dans les bâtiments d'exploitation (le dépoussiérage a eu lieu en automne 2004 à titre préventif).
+
+11l0l0	Les_bétons	O
+11l0l1	contaminés	O
+11l0l2	le_dépoussiérage	N
+11l0l3	a_eu_lieu	N
+11l0l4	en_automne_2004	T
+11l1l0	dioxines	S
+11l1l1	furanes	S
+
+#* En 1993, une digue de protection a été créée pour protéger le stock de mâchefers du risque de crue.
+
+12l0l0	En_1993	T
+12l0l1	une_digue_de_protection	O
+12l0l2	a_été_créée	N
+
+#Elle permet également la limitation des transferts de lixiviats vers la Durance.
+
+13l0l0	lixiviats	A
+13l0l1	vers_la_Durance	L
+
+#Concernant les eaux souterraines et superficielles, il n'y a aucune contamination détectée.
+
+
+#En revanche, les pentes du stock de mâchefers et les emprises des torrents sont telles que la stabilité à long terme du dépôt doit être renforcée.
+
+15l0l0	les_emprises	O
+15l0l1	stabilité_à_long_terme	N
+15l0l2	dépôt	O
+15l0l3	doit_être_renforcée	O
+15l1l0	mâchefers	S
+
+#* Suite au diagnostic de site établi en 2003, une étude des propositions de réhabilitation a été faite par le BET ARCADIS en février 2004 :
+
+16l0l0	au_diagnostic_de_site_établi	N
+16l0l1	en_2003__	T
+16l0l2	une_étude	N
+16l0l3	des_propositions_de_réhabilitation	O
+16l0l4	a_été_faite	N
+16l0l5	le_BET_ARCADIS	O
+16l0l6	en_février_2004	T
+16l1l0	le_BET_ARCADIS	I
+
+#- concernant le stock de mâchefers, un confinement par une couche de matériaux de faible perméabilité et formant un dôme pour favoriser l'écoulement des eaux de ruissellement, est prévu (avec un enrochement de la base) et la digue actuelle est détruite pour élargissement du lit de la Durance.
+
+17l0l0	favoriser_l__écoulement_des_eaux_de_ruissellement	A
+17l0l1	enrochement	N
+17l0l2	la_digue_actuelle	O
+17l0l3	est_détruite	N
+17l0l4	élargissement	N
+17l0l5	du_lit_de_la_Durance__	L
+17l1l0	mâchefers	S
+
+#- des aménagements hydrauliques seraient effectués en raison du risque de crue lié aux laves torrentielles dans le torrent de Malefosse : un enrochement des berges est notamment prévu
+
+18l0l0	des_aménagements_hydrauliques	O
+18l0l1	effectués_en	N
+18l0l2	le_torrent_de_Malefosse	L
+18l0l3	un_enrochement	N
+18l0l4	prévu	T
+
+#- concernant l'usine, le nettoyage et démantèlement du four puis, le sablage ou le décroûtage des bétons ont été effectués courant 2007(stockage des déchets en classe 1), ainsi que le démantèlement des structures (stockage des parties métalliques et autres en CET de classe 3).
+
+19l0l0	le_nettoyage	N
+19l0l1	démantèlement_du_four	N
+19l0l2	le_sablage	N
+19l0l3	décroûtage_des_bétons	N
+19l0l4	ont_été_effectués	N
+19l0l5	courant_2007_stockage	T
+19l0l6	le_démantèlement_des_structures	N
+19l0l7	stockage_des_parties_métalliques	N
+
+#- dépollution des terrains les plus pollués : excavation d’environ 200 tonnes de terres polluées au plomb.
+
+20l0l0	dépollution	N
+20l0l1	des_terrains_les_plus_pollués	O
+20l0l2	____excavation	N
+20l0l3	environ_200_tonnes_de_terres_polluées	O
+20l1l0	au_plomb	S
+
+#* Par lettre du 18/06/2004, la DRIRE a demandé des investigations complémentaires pour diagnostiquer l'impact résiduel de l'usine sur le milieu environnant en dioxines et métaux lourds.
+
+21l0l0	18_06_2004	T
+21l0l1	la_DRIRE	O
+21l0l2	a_demandé_des_investigations_complémentaires	N
+21l0l3	diagnostiquer_l_	N
+21l0l4	milieu_environnant	O
+21l1l0	la_DRIRE	I
+21l1l1	dioxines	S
+21l1l2	métaux_lourds	S
+
+#Elles ont concernés différents milieux (sols, eaux) ainsi que des cibles alimentaires  (potagers, poussières de combles, herbes et lait) pour acquérir une vision globale d'une éventuelle contamination sur une zone géographique étendue autour de l'incinérateur.
+
+22l0l0	une_zone_géographique_étendue_autour_de_l__incinérateur	L
+
+#* Les résultats rendus février 2006, ont montré une contamination significative des sols, en dioxines à proximité immédiate de l'UIOM mais aucun impact résiduel n'a été observé sur les matrices tels que l'herbe, les légumes ou le lait, ni dans les combles.
+
+23l0l0	février_2006__	T
+23l0l1	une_contamination_significative	N
+23l0l2	à_proximité_immédiate_de_l__UIOM	L
+23l0l3	dans_les_combles	L
+23l1l0	dioxines	S
+
+#* un projet de réhabilitaion a pu être acté et devrait être réalisé en 2018 ( projet d'APC en 2017):
+
+24l0l0	un_projet_de_réhabilitaion	N
+24l0l1	a_pu_être_acté	N
+24l0l2	devrait_être_réalisé	N
+24l0l3	en_2018	T
+24l0l4	en_2017__	T
+
+#1/ protections hydrauliques immédiates du cours d'eau par un enrochement bétonnés sur une longueur de 190 ml et de 5 à 8 mètres de hauteur recouvrant le confinement précité, et la pose de sabots en blocs.
+
+25l0l0	un_enrochement	N
+25l0l1	la_pose	N
+
+#2/  couverture du stock constituée d’une membrane d’un grammage de 300g/m² soudée implantée sur le talus et le dôme du stock de mâchefers et protection terre en surface
+
+26l0l0	m²_soudée_implantée_sur	R
+26l0l1	le_talus	O
+
+#* Il n'y a pas de suivi piézo car aucune contamination des eaux souterraines n'a été détectée lors d'un forage d'un piezomètre à - 15 m.
+
+27l0l0	aucune_contamination	O
+27l0l1	détectée_lors	N
+27l0l2	d_	R
+27l0l3	un_forage	N

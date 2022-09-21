@@ -1,0 +1,168 @@
+
+#89.0027
+#Le site de la société Lambert Location est localisé en haut d'une côte, sur la route de Hollard, à près de 800 mètres du village de la Chapelle-sur-Oreuse.
+
+0l0l0	Le_site	O
+0l0l1	la_société_Lambert_Location	O
+0l0l2	localisé_en_haut_d__une_côte	L
+0l0l3	sur_la_route_de_Hollard	L
+0l0l4	à_près_de_800_mètres_du_village_de_la_Chapelle_sur_Oreuse	L
+0l1l0	la_société_Lambert	I
+
+#Les parcelles voisines font l'objet d'un usage:
+
+1l0l0	Les_parcelles_voisines	O
+1l0l1	font_l__objet_d_	R
+1l0l2	un_usage	O
+
+#- agricole au Nord
+
+2l0l0	Nord	T
+
+#- forestier au Sud et à l'Ouest
+
+3l0l0	au_Sud_et_à_l__Ouest	L
+
+#- industriel, avec l'exploitation d'un centre d'enfouissement à l'Est.
+
+4l0l0	l_	O
+4l0l1	exploitation_d_	R
+4l0l2	un_centre_d__enfouissement	O
+4l0l3	à_l__Est	L
+
+#Contexte hydrogéologique:
+
+
+#l'aquifère portant une nappe phréatique se situerait à 33 m de profondeur au droit du site.
+
+6l0l0	situerait_à_33_m_de_profondeur_au_droit_du_site	L
+
+#Un captage d'alimentation en eau potable est recensé à près de 1 kilomètre à l'aval du site.
+
+7l0l0	Un_captage	O
+7l0l1	à_près_de_1_kilomètre_à_l__aval_du_site	L
+
+#Il apparaît que la succession des activités sur le site ait été la suivante:
+
+8l0l0	le_site	O
+8l0l1	ait_été_la	N
+
+#- bergerie des années 1970à 1989 environ, à la date de l'acquisition du site par Monsieur Lambert
+
+9l0l0	bergerie	O
+9l0l1	des_années_1970à_1989_environ	T
+9l0l2	la_date_de	R
+9l0l3	l__acquisition_du_site	N
+9l0l4	Monsieur_Lambert	O
+
+#- stockage de bus en transit pour l'exportation de 1989 à 2008.
+
+10l0l0	stockage_de_bus	O
+10l0l1	de_1989_à_2008__	T
+
+#Une plainte a été déposée par un habitant de la Chapelle-sur-Oreuse auprès du Directeur des Affaires Sanitaires et Sociales en date du 18 mars 2008.
+
+11l0l0	Une_plainte_a_été_déposée	N
+11l0l1	un	O
+11l0l2	habitant_de_la_Chapelle_sur_Oreuse	L
+11l0l3	du_Directeur_des_Affaires_Sanitaires_et_Sociales	O
+11l0l4	en_date_du_18_mars_2008__	T
+
+#Saisie de cette plainte l'inspection des installations classées a réalisé une inspection sur le site de la société en date du 27 mars 2008.
+
+12l0l0	Saisie	N
+12l0l1	l__inspection_des_installations_classées	O
+12l0l2	a_réalisé	N
+12l0l3	une_inspection	N
+12l0l4	sur_le_site_de	L
+12l0l5	la_société	O
+12l0l6	en_date_du_27_mars_2008__	T
+
+#La visite révèle que les produits liquides susceptibles de porter une pollution des eaux ou des sols ont été observés hors rétention.
+
+13l0l0	La_visite	N
+13l0l1	les_produits_liquides	O
+13l0l2	ont_été_observés	N
+13l0l3	hors_rétention	A
+13l1l0	produits_liquides	U
+
+#L'exploitant brûle des déchets sur le site alors que l'arrêté ministériel du 2 février 1998 modifié précise que "tout brûlage à l'air libre est interdit"   De plus, le site est soumis à autorisation au titre de la rubrique "Stockage et activités de récupération de déchets de métaux et d'alliages de résidus métalliques, d'objets en métal et carcasses de véhicules hors d'usage" (nomenclature des installations classées).
+
+14l0l0	2_février_1998	T
+14l0l1	brûlage_à_l_	N
+14l0l2	plus___le_site	O
+14l0l3	est_soumis_à_autorisation	N
+14l0l4	de_déchets_de_métaux	O
+14l0l5	d__alliages_de_résidus_métalliques	O
+14l0l6	et_carcasses	O
+
+#2 juillet 2008: par arrêté préfectoral, l'exploitant est tenu de respecter les mesures suivantes:
+
+15l0l0	2_juillet_2008	T
+15l0l1	l__exploitant	O
+15l0l2	est_tenu	N
+
+#- procéder à la régularisation administrative de son site en déposant un dossier de demande d'autorisation d'exploiter
+
+16l0l0	procéder_à	R
+16l0l1	la_régularisation_administrative	N
+16l0l2	son_site	O
+16l0l3	déposant	N
+16l0l4	un_dossier	N
+16l0l5	demande_d__autorisation	N
+16l0l6	d__exploiter	O
+
+#- de cesser tout brûlage de déchets à l'air libre
+
+17l0l0	de_cesser_tout_brûlage	N
+17l0l1	de_déchets_à_l__air_libre	N
+
+#- de faire réaliser une étude des sols et de la pollution des eaux
+
+18l0l0	de_faire_réaliser_une_étude_des_sols	N
+18l0l1	la_pollution_des_eaux	O
+
+#En juin 2010, l'inspection des installations classées reçoit l'étude susvisée. 11 fouilles de reconnaissance ont été réalisées sur l'ensemble du site.
+
+19l0l0	En_juin_2010__	T
+19l0l1	l__inspection_des_installations_classées	O
+19l0l2	reçoit	R
+19l0l3	l__étude	N
+19l0l4	11_fouilles_de_reconnaissance	O
+19l0l5	ont_été_réalisées	N
+
+#Les investigations ont permis de distinguer 2 faciès:
+
+20l0l0	2_faciès	O
+
+#- les remblais, constitués de graviers issus de démolition et de mâchefers sur une épaisseur de 20 cm environ
+
+21l0l0	démolition	N
+
+#- le terrain naturel, constitué d'argile marron reposant sur du calcaire massif.
+
+
+#Le diagnostic a été complété par la détection de la présence éventuelle de composés volatils dans l'air des sols au moyen d'un analyseur portable (photo-ioniseur).
+
+23l0l0	Le_diagnostic	N
+23l0l1	a_été_complété	N
+23l1l0	composés	U
+
+#Le résultat des analyses des échantillons montre:
+
+
+#-une pollution en plomb, cuivre, zinc, mercure et cadmium au droit du site (pollution diffuse pour les remblais)
+
+25l0l0	au_droit_du_site	L
+25l0l1	remblais	N
+25l1l0	plomb	S
+25l1l1	cuivre	S
+25l1l2	zinc	S
+25l1l3	mercure	S
+25l1l4	cadmium	S
+
+#- des traces d'hydrocarbures totaux et d'hydrocarbures aromatiques au droit du site.
+
+26l0l0	au_droit_du_site	L
+26l1l0	hydrocarbures_totaux	S
+26l1l1	hydrocarbures_aromatiques	S

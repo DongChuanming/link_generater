@@ -1,0 +1,126 @@
+
+#12.0025
+#Poste électrique comportant des transformateurs.
+
+0l0l0	Poste_électrique	O
+0l0l1	comportant	R
+0l0l2	des_transformateurs	O
+
+#Site entièrement clôturé.
+
+1l0l0	Site_entièrement_clôturé	O
+
+#Le transformateur avait fait l'objet d'une déclaration en préfecture en juin 2001 et une mise à jour en juin 2005.
+
+2l0l0	Le_transformateur	O
+2l0l1	avait_fait_l__objet_d_	R
+2l0l2	une_déclaration_en_préfecture	N
+2l0l3	en_juin_2001	T
+2l0l4	une_mise_à_jour	N
+2l0l5	en_juin_2005__	T
+
+#Dans le cadre du plan d'élimination des PCB, la société Infralog Languedoc-Roussillon, établissement de la branche Infrastructure SNCF, a procédé à la destruction et/ou décontamination de ses appareils concernés sur le département de l'Aveyron.
+
+3l0l0	Dans_le_cadre	R
+3l0l1	la_société_Infralog_Languedoc___Roussillon	O
+3l0l2	la_branche	A
+3l0l3	Infrastructure_SNCF	O
+3l0l4	a_procédé_à_la_destruction_et___ou_décontamination	N
+3l0l5	ses_appareils_concernés	O
+3l0l6	sur_le_département_de_l__Aveyron	L
+3l1l0	PCB	S
+3l1l1	la_société_Infralog	I
+
+#Une fuite d'huile contenant des PCB (670 ppm), suite à la déconnexion de l'appareil pour préparer son évacuation a été constatée.
+
+4l0l0	Une_fuite	R
+4l0l1	d__huile	O
+4l0l2	suite_à	R
+4l0l3	la_déconnexion	N
+4l0l4	évacuation_a_été_constatée	N
+4l1l0	Une_fuite_d__huile	U
+4l1l1	des_PCB	S
+
+#Le transformateur a été vidangé et enlevé le 07/04/2010.
+
+5l0l0	Le_transformateur	O
+5l0l1	a_été_vidangé	N
+5l0l2	enlevé	N
+5l0l3	le_07_04_2010__	T
+
+#Auparavant, la mise en place d'une bâche permettant la récupération du produit suintant et l'utilisation de produits absorbants a été nécessaire.
+
+6l0l0	la_mise_en_place_d__une_bâche	N
+6l0l1	l_	N
+6l0l2	utilisation_de_produits_absorbants	O
+6l0l3	a_été_nécessaire	N
+6l1l0	produit_suintant	U
+
+#Lors de la réalisation de ces travaux, une pollution accidentelle est survenue.
+
+7l0l0	Lors_de	R
+7l0l1	la_réalisation_de_ces_travaux	N
+7l0l2	une_pollution_accidentelle_est_survenue	N
+
+#Cet incident a conduit à l'excavation et à l'évacuation de 27,28 tonnes de terres polluées.
+
+8l0l0	Cet_incident	N
+8l0l1	a_conduit_à	R
+8l0l2	l__excavation	N
+8l0l3	l__évacuation	N
+8l0l4	27_28_tonnes_de_terres_polluées	O
+
+#Le 10/06/2010, les terres souillées ont été éliminées et évacuées en installation de stockage de déchets dangereux.
+
+9l0l0	Le_10_06_2010	T
+9l0l1	les_terres_souillées	O
+9l0l2	ont_été_éliminées	N
+9l0l3	évacuées_en_installation_de_stockage_de_déchets_dangereux	N
+
+#Des prélèvements ainsi que des analyses ont été réalisés sur le sol en place, en fond et bord de fouille.
+
+10l0l0	des_analyses	O
+10l0l1	ont_été_réalisés	N
+10l0l2	fond	O
+10l0l3	bord_de_fouille	L
+
+#Les teneurs résiduelles en hydrocarbures totaux et PCB étaient du même ordre de grandeur que le critère d'acceptation des déchets inertes et les parois correspondaient aux limites techniques d'excavation, ainsi l'inspection des installations classées a recommandé :
+
+11l0l0	excavation	N
+11l1l0	hydrocarbures_totaux	S
+11l1l1	PCB	S
+
+#- l'obligation d'information et de protection des travailleurs pour tous travaux d'affouillement au droit de la zone concernée;
+
+12l0l0	tous_travaux_d__affouillement	N
+12l0l1	au_droit_de	L
+12l0l2	la_zone_concernée	O
+
+#- l'obligation de caractérisation des matériaux éventuellement extraits au droit de la zone concernée (tout matériaux souillé étant évacué vers une filière adaptée);
+
+13l0l0	matériaux	O
+13l0l1	la_zone_concernée	O
+
+#- l'obligation de traitement de la contamination résiduelle avant tout travaux de construction enterrée, quelque soit l'usage futur de la construction.
+
+14l0l0	l__obligation_de_traitement	N
+14l0l1	la_contamination	O
+14l0l2	tout_travaux_de_construction	N
+14l0l3	enterrée	O
+14l0l4	l_	A
+14l0l5	usage_futur_de_la_construction	O
+
+#L'exploitant a transmis le rapport de fin de travaux.
+
+15l0l0	L__exploitant	O
+15l0l1	a_transmis	N
+15l0l2	le_rapport	O
+15l0l3	fin_de_travaux	N
+
+#Le dossier de cessation d'activité a été transmis à l'inspection des installations classées de la DREAL Midi-Pyrénées.
+
+16l0l0	Le_dossier_de_cessation_d__activité	O
+16l0l1	a_été_transmis	N
+16l0l2	l__inspection_des_installations_classées	O
+16l0l3	la_DREAL_Midi___Pyrénées	O
+16l1l0	la_DREAL_Midi	I

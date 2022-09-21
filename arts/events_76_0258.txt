@@ -1,0 +1,54 @@
+
+#76.0258
+#Les activités pratiquées à ce jour ont fortement diminué, soit 15 à 20 lavages d'échangeurs par an au lieu des 300 effectués annuellement dans le passé.
+
+0l0l0	à_ce_jour	T
+0l0l1	ont_fortement_diminué	N
+0l0l2	20_lavages	N
+
+#Cette activité de lavage d'échangeurs s'effectue dorénavant dans l'atelier maintenance du bloc 7 de la société EXXON MOBIL, à Notre Dame de Gravenchon.
+
+1l0l0	Cette_activité_de_lavage_d__échangeurs	A
+1l0l1	s__effectue_dorénavant_dans	R
+1l0l2	l__atelier_maintenance	O
+1l0l3	la_société_EXXON_MOBIL	O
+1l0l4	à_Notre_Dame_de_Gravenchon	L
+1l1l0	la_société_EXXON_MOBIL	I
+
+#Cette activité s'effectue lorsqu'elle a lieu sur le site de Saint Vigor, dans la partie sud-est de l'aire de lavage dont le sol est en bon état.
+
+2l0l0	sur_le_site_de_Saint_Vigor	L
+2l0l1	dans_la_partie_sud_est_de_l_	L
+2l0l2	aire_de_lavage	N
+
+#De plus, des bacs sont positionnés afin de récupérer les boues d'hydrocarbures issues des lavages à haute pression des échangeurs.
+
+3l0l0	sont_positionnés	N
+3l0l1	boues_d__hydrocarbures	O
+3l0l2	lavages_à_haute_pression	N
+3l0l3	échangeurs	O
+3l1l0	les_boues_d__hydrocarbures	U
+
+#Ces boues sont ensuite aspirées par un hydrocureur puis traitées chez SEDIBEX.
+
+4l0l0	un_hydrocureur	N
+4l0l1	traitées	N
+4l0l2	SEDIBEX	O
+4l1l0	SEDIBEX	I
+
+#Un diagnostic a été effectué le 07  avril 2009.
+
+5l0l0	Un_diagnostic_a_été_effectué	N
+5l0l1	le_07___avril_2009__	T
+
+#Il résulte des analyses pratiquées que :
+
+
+#Les teneurs en métaux et métalloïdes dans les sols sont inférieures aux valeurs de références à l'exception de deux concentrations en mercure qui excédent légèrement les limites de référence.
+
+7l1l0	métaux	S
+7l1l1	métalloïdes	S
+7l1l2	mercure	S
+
+#Les analyses des eaux souterraines donnent des résultats avec des teneurs inférieures à la limite de quantification.
+

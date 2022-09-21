@@ -1,0 +1,73 @@
+
+#974.0042
+#L’installation à l'origine de la pollution des sols est une station-service dont l’exploitant est la société ENGEN REUNION.
+
+0l0l0	origine_de_la_pollution	O
+0l0l1	sols_est_une_station___service_dont_l__exploitant	O
+0l0l2	société_ENGEN_REUNION__	N
+
+#Elle se situe sur Saint Gilles les Bains au Lotissement Les sables Blonds, sur le territoire de la commune de Saint-Paul.
+
+
+#La station-service, ENGEN LAGON, est classée sous le régime de la déclaration et contrôle périodique pour les rubriques 1432 et 1435 de la nomenclature des installations classées pour l’environnement.
+
+2l0l0	régime_de_la_déclaration	O
+2l0l1	périodique_pour_les_rubriques_1432	O
+2l1l0	périodique_pour_les_rubriques_1432	I
+
+#Un récépissé de déclaration, en date du 4 octobre 2007 et du 6 octobre 2011, a été adressé à l’exploitant suite à ses déclarations du 17 septembre 2007 et du 8 avril 2011 concernant des modifications de stockage et de distribution d’hydrocarbures ainsi qu’un changement d’exploitant.
+
+3l0l0	Un	O
+3l0l1	récépissé_de_déclaration___en_date_du	L
+3l0l2	4_octobre_2007_et_du_6_octobre_2011	L
+3l0l3	a_été_adressé_à_l__exploitant_suite_à_ses_déclarations	L
+3l1l0	déclaration___en_date_du	I
+
+#L'exploitant déclare le 14 novembre 2014 un incident, qui s’est produit du 22 au 29 octobre 2014 sur ces installations, impliquant une pollution des sols par le déversement d'environ 3 m3 de gazole.
+
+4l0l0	L__exploitant_déclare	O
+4l0l1	le_14_novembre	O
+4l0l2	est_produit_du_22_au	N
+4l0l3	29_octobre_2014_sur_ces	A
+4l1l0	L__exploitant_déclare_le_14_novembre	I
+
+#Il complète cette déclaration par la transmission d'un rapport d’incident en date du 17 décembre 2014.
+
+5l0l0	Il_complète	O
+5l0l1	cette_déclaration	N
+5l0l2	par_la_transmission_d__un_rapport_d__incident	T
+5l0l3	en_date_du_17	N
+5l0l4	décembre_2014	O
+5l0l5	_	R
+
+#L'incident aurait pour causes : une défaillance du système de distribution de carburant vers les cuves et de l'absence de réaction des opérateurs malgré le déclenchement d'alarmes.
+
+6l0l0	L__incident	O
+6l0l1	aurait_pour	N
+6l0l2	causes___une_défaillance	T
+6l0l3	du_système	N
+6l0l4	de_distribution	N
+6l0l5	de_carburant_vers_les	T
+6l0l6	cuves_et_de_l__absence	N
+6l0l7	de_réaction_des	R
+6l0l8	opérateurs_malgré_le	O
+6l0l9	déclenchement_d_	N
+
+#L'exploitant indique que 60 tonnes de terres polluées ont été excavées pour traitement, qu'une partie des terres polluées n'est pas accessible du fait de la proximité des fondations supportant le auvent, qu'il a été observé des flottants dans la nappe au niveau du premier piézomètre (n°1) du site, que 2 puisards ont été créés pour d'éventuelles opérations de pompage et d'écrémage et que des essais de pompage ont été réalisés afin de proposer des mesures de traitement de la nappe.
+
+7l0l0	tonnes_de_terres_polluées	N
+7l0l1	ont_été_excavées_pour	N
+7l0l2	traitement___qu__une_partie_des_terres_polluées_n__est_pas_accessible_du_fait_de_la_proximité_des_fondations_supportant_le_auvent___qu__il_a_été_observé_des_flottants_dans_la_nappe_au_niveau_du_premier_piézomètre___n__1___du_site___que_2_puisards_ont_été_créés_pour_d__éventuelles_opérations_de_pompage_et_d__écrémage_et_que_des_essais_de_pompage_ont_été_réalisés_afin_de_proposer_des_mesures_de_traitement_de_la_nappe__	T
+
+#La pollution de la nappe est observée en limite de site (piézomètre n°2) ce qui impose la réalisation d'une étude d'interprétation de l'état des milieux et la mise en œuvre de mesures adaptées.
+
+8l0l0	piézomètre_n__2___ce_qui_impose_la_réalisation	A
+8l0l1	et_la_mise_en_œuvre_de_mesures	N
+8l1l0	impose_la_réalisation_d__une	D
+
+#Il est d'ailleurs constaté la présence d'une zone naturelle, la réserve marine, à 400 mètres en aval hydraulique de la pollution.
+
+9l0l0	constaté_la_présence_d__une_zone_naturelle	O
+9l0l1	__la	N
+9l0l2	réserve_marine___à_400_mètres	N
+9l0l3	en_aval_hydraulique_de_la_pollution	O

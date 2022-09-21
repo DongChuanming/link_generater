@@ -1,0 +1,329 @@
+
+#69.0369
+#Implanté sur la commune de Villeurbanne, le site hébergeait un tènement industriel spécialisé dans le domaine de l’ennoblissement du textile (Établissements Vuillod).
+
+0l0l0	Implanté	R
+0l0l1	sur_la_commune_de_Villeurbanne	L
+0l0l2	le_site	O
+0l0l3	hébergeait	R
+0l0l4	un_tènement_industriel	O
+0l0l5	spécialisé_dans_le_domaine_de	R
+0l0l6	l__ennoblissement_du_textile	A
+
+#Depuis 1964, une partie du site a accueillie une station-service.
+
+1l0l0	Depuis_1964	T
+1l0l1	une_partie_du_site	O
+1l0l2	a_accueillie	N
+1l0l3	une_station___service	O
+
+#En date du 18/10/2002, la station-service, nommée STATION du TOTEM, est autorisée à exploiter sous le régime de la déclaration.
+
+2l0l0	En_date_du_18_10_2002	T
+2l0l1	la_station___service	O
+2l0l2	nommée_STATION	O
+2l0l3	TOTEM	O
+2l0l4	est_autorisée_à_exploiter_sous	N
+2l0l5	la_déclaration	N
+2l1l0	la_station___service	I
+2l1l1	nommée_STATION_du_TOTEM	I
+
+#La station a été reprise par la société KILERDJIAN AUTOMOBILES le 12/06/2009.
+
+3l0l0	La_station	O
+3l0l1	a_été_reprise	N
+3l0l2	la_société_KILERDJIAN_AUTOMOBILES	O
+3l0l3	le_12_06_2009__	T
+3l1l0	la_société_KILERDJIAN_AUTOMOBILES	I
+
+#Également, suite à la modification de la nomenclature en 2010, il a été accusé réception du bénéfice de l’antériorité de la station service au titre de la rubrique 1435 sous le régime déclaratif le 06/10/2010.
+
+4l0l0	suite_à	R
+4l0l1	la_modification	N
+4l0l2	de	R
+4l0l3	la_nomenclature	O
+4l0l4	en_2010__	T
+4l0l5	il	O
+4l0l6	a_été_accusé_réception	N
+4l0l7	antériorité	O
+4l0l8	le_régime_déclaratif	N
+4l0l9	le_06_10_2010__	T
+
+#Le tènement est constitué de :
+
+
+#• un bâtiment comportant le magasin de la station-essence ainsi que les locaux du garage
+
+6l0l0	un_bâtiment	O
+6l0l1	les_locaux_du_garage	O
+6l1l0	essence	S
+
+#automobile (accueil et deux ateliers de réparation et maintenance des véhicules) ;
+
+7l0l0	deux_ateliers_de_réparation	O
+7l0l1	maintenance_des_véhicules	A
+
+#• une zone de stationnement des véhicules devant le garage, à l’extrémité est du site ;
+
+8l0l0	une_zone	O
+8l0l1	le_garage	O
+8l0l2	à_l__extrémité_est_du_site	L
+
+#• un poste de transformateur EDF accolé au garage, à l’est du site ;
+
+9l0l0	un_poste_de_transformateur_EDF	O
+9l0l1	accolé_au	L
+9l0l2	garage	O
+9l0l3	à_l__est_du_site	L
+9l1l0	transformateur_EDF	I
+
+#• une zone de stockage des huiles usagées (issues des vidanges des véhicules) en extérieur à
+
+10l0l0	une_zone	O
+10l0l1	vidanges	R
+10l0l2	des_véhicules	O
+10l1l0	huiles_usagées	U
+
+#proximité du transformateur EDF, à l’est du site ;
+
+11l0l0	proximité_du_transformateur_EDF	O
+11l0l1	à_l__est_du_site	L
+11l1l0	EDF	I
+
+#• les installations de la station-essence, composées des postes de distribution de carburants
+
+12l0l0	la_station___essence	O
+12l0l1	postes_de_distribution_de_carburants	O
+12l1l0	carburants	U
+
+#(sous couvert) et des cuves de stockage (3 cuves : N°1= réservoir en fosse maçonnée simple enveloppe SP95 ; N°2= réservoir 30 m3 simple enveloppe en fosse maçonnée avec 2 compartiments SP98 18 m3 et GO 12m3, N°3 =réservoir 20 m3 de GO double enveloppe) ;
+
+13l1l0	des_cuves_de_stockage	D
+13l1l1	cuves	D
+13l1l2	enveloppe_SP95	S
+13l1l3	compartiments_SP98	S
+13l1l4	et	S
+13l1l5	de_GO_double_enveloppe	D
+
+#• une station de lavage des véhicules ;
+
+14l0l0	une_station_de_lavage_des_véhicules	O
+
+#• une zone de stockage de bouteilles de gaz (en extérieur, sous clés) ;
+
+15l1l0	bouteilles_de_gaz	U
+
+#• des zones de stationnement pour les clients de la station-service.
+
+
+#Le site est entouré :
+
+17l0l0	Le_site	O
+
+#• au nord par un espace vert, des parkings aériens, un immeuble d’habitat collectif puis la rue
+
+18l0l0	des_parkings_aériens	O
+18l0l1	un_immeuble	O
+18l0l2	rue	L
+
+#Louis Becker,
+
+
+#• à l’est par des parkings aériens, un immeuble d’habitat collectif puis la rue Hippolyte Kahn,
+
+20l0l0	à_l__est	L
+20l0l1	aériens	O
+20l0l2	un_immeuble	O
+20l0l3	la_rue_Hippolyte_Kahn	L
+
+#• au sud par la rue du 4 août 1789,
+
+21l0l0	sud	T
+21l0l1	par_la_rue_du	L
+21l0l2	4_août_1789	T
+
+#• à l’ouest par des parkings aériens, un immeuble d’habitat collectif puis le cours de la
+
+22l0l0	aériens	O
+22l0l1	un_immeuble	O
+22l0l2	le_cours_de_la	L
+
+#République.
+
+
+#La nappe des alluvions modernes du Rhône est présente à environ -6 m de profondeur par rapport au terrain naturel avec un sens d’écoulement orienté généralement vers le nord-ouest.
+
+24l0l0	vers_le_nord_ouest	N
+
+#Le captage AEP le plus proche Crépieux Charmy, situé à 4 km en latéral hydraulique n’est pas susceptible d’être influencé par le site. 5 autres captages industriels et pour la géothermie sont présents à l’aval du site ils peuvent être vulnérables vis-à-vis d’un éventuel impact issu du site.
+
+25l0l0	Le_captage_AEP	O
+25l0l1	Crépieux_Charmy	L
+25l0l2	situé_à_4_km_en_latéral_hydraulique	L
+25l0l3	influencé_par	R
+25l0l4	le_site	O
+25l0l5	5_autres_captages	O
+25l0l6	à_l__aval_du_site	L
+25l0l7	vis_à_vis_d_	R
+25l0l8	un_éventuel_impact	O
+
+#L’exploitant a informé de sa cessation d’activité le 16 avril 2013.
+
+26l0l0	L__exploitant	O
+26l0l1	a_informé_de_sa_cessation_d__activité	N
+26l0l2	le_16_avril_2013__	T
+
+#Il a transmis un mémoire de cessation d’activité le 13 mai 2013.
+
+27l0l0	Il	O
+27l0l1	a_transmis	N
+27l0l2	un_mémoire_de	O
+27l0l3	cessation_d__activité	N
+27l0l4	le_13_mai_2013__	T
+
+#Le préfet du Rhône a délivré le 5 juin 2013 le récépissé de cessation correspondant.
+
+28l0l0	Le_préfet_du_Rhône	O
+28l0l1	a_délivré	N
+28l0l2	le_5_juin_2013	T
+28l0l3	le_récépissé	O
+28l1l0	Le_préfet_du_Rhône	I
+
+#Un projet immobilier est prévu sur cette parcelle.
+
+29l0l0	Un_projet_immobilier	O
+29l0l1	est_prévu_sur	R
+29l0l2	cette_parcelle	O
+
+#En décembre 2010, des investigations (10 sondages) dans le sol ont été réalisées.
+
+30l0l0	En_décembre_2010__	T
+30l0l1	des_investigations___10_sondages	N
+30l0l2	ont_été_réalisées	N
+
+#Les résultats d’analyse de sols indiquent :
+
+
+#- L’absence d’indice hydrocarbures pour l’ensemble des échantillons ou à l’état de traces, à l’exception du sondage S8 (1400 mg/kg à 1-1,5 m et 1500 mg/kg mesuré entre 2,5-3m) correspondant à des fractions lourdes C21-C35 majoritairement.
+
+32l1l0	hydrocarbures	S
+32l1l1	lourdes_C21_C35	S
+
+#Cette valeur est supérieure au seuil d’acceptation en ISDI.
+
+
+#Les autres composés recherchés ne sont pas détectés ou à l’état de traces.
+
+34l1l0	composés	S
+
+#- Pour le sondage S7, les paramètres fluorures et arsenic dépassent très légèrement le seuil d’acceptation en ISDI lors du test de lixiviation toutefois cela reste dans le domaine des incertitudes du laboratoire.
+
+35l0l0	lixiviation	O
+35l1l0	fluorures	S
+35l1l1	arsenic	S
+
+#Des traces de HAP sont détectées mais à des seuils très inférieurs au seuil d’acceptation fixé.
+
+36l1l0	traces_de_HAP	S
+
+#Trois piézomètres ont été posés en décembre 2011 à une profondeur de 10 m respectivement  1 en amont et 2 en aval suivant le sens d’écoulement présumé de la nappe.
+
+37l0l0	Trois_piézomètres	O
+37l0l1	ont_été_posés	N
+37l0l2	en_décembre_2011	T
+
+#La campagne d’analyses s’est déroulée le 14 décembre 2011.
+
+38l0l0	La_campagne_d__analyses	N
+38l0l1	s__est_déroulée	N
+38l0l2	le_14_décembre_2011__	T
+
+#Celle-ci a permis de définir un sens d’écoulement orienté en direction de l’Ouest.
+
+39l0l0	en_direction_de_l__Ouest	L
+
+#Les paramètres mesurés correspondent aux indices hydrocarbures et à leurs fractions (C10-C40), aux composés aliphatiques et aromatiques (C6-C40), BTEX et HAP.
+
+40l1l0	indices_hydrocarbures	S
+40l1l1	composés_aliphatiques	S
+40l1l2	aromatiques	S
+40l1l3	BTEX	S
+40l1l4	HAP	S
+
+#Pour l’ensemble des 3 piézomètres, aucun paramètre n’est détecté, à l’exception de traces d’hydrocarbures (fraction aromatique C35-C40) en PZ2 (0,11 mg/l).
+
+41l1l0	hydrocarbures	S
+41l1l1	C35_C40	S
+
+#Cette valeur est toutefois inférieure au seuil de 1 mg/l défini par l’arrêté du 11 janvier 2007 (valeur seuil eau potable).
+
+42l0l0	11_janvier_2007	T
+
+#Suite à la transmission du mémoire de cessation d’activité en avril 2013, le préfet du Rhône a délivré un récépissé de cessation en date du 5 juin 2013.
+
+43l0l0	Suite_à	R
+43l0l1	la_transmission	N
+43l0l2	cessation_d__activité	N
+43l0l3	en_avril_2013__	T
+43l0l4	le_préfet_du_Rhône	O
+43l0l5	a_délivré	N
+43l0l6	un_récépissé	O
+43l0l7	de_cessation	N
+43l0l8	en_date_du_5_juin_2013__	T
+43l1l0	le_préfet_du_Rhône	I
+
+#Le rapport de l’inspection du 28 janvier 2014 avait pour but de formuler un avis sur le mémoire de cessation d’activité et d’émettre des conditions sur l’usage futur du site.
+
+44l0l0	Le_rapport	N
+44l0l1	l__inspection	O
+44l0l2	28_janvier_2014	T
+44l0l3	cessation_d__activité	N
+44l0l4	d__émettre_des_conditions	O
+44l0l5	l__usage_futur_du_site	A
+
+#Il conclut :
+
+
+#- à la réalisation d'investigations en fonds et flancs des excavations notamment spot S8, 3 cuves d'hydrocarbures + cuve d'huile enterrée, 2 décanteurs / séparateurs et, investigations complémentaires au droit du transformateur et de la zone attenante de stockage d'huile lors de leur démantèlement
+
+46l0l0	la_réalisation_d__investigations	N
+46l0l1	en_fonds	O
+46l0l2	excavations	N
+46l0l3	3_cuves_d__hydrocarbures	O
+46l0l4	au_droit_du_transformateur	L
+46l0l5	la_zone_attenante	O
+46l0l6	de_stockage_d__huile	O
+46l0l7	lors	R
+46l0l8	de_leur_démantèlement	N
+46l1l0	3_cuves_d_	D
+46l1l1	hydrocarbures	S
+46l1l2	__cuve	D
+46l1l3	d__huile	U
+46l1l4	2_décanteurs	D
+46l1l5	stockage_d__huile	U
+
+#- à la réalisation d'une campagne de surveillance des eaux à l'issue du démantèlement.
+
+47l0l0	la_réalisation_d__une_campagne_de_surveillance	N
+47l0l1	des_eaux	O
+47l0l2	à_l__issue	R
+47l0l3	du_démantèlement	N
+
+#Ces mesures (sols + eau) devront permettre de connaître les teneurs résiduelles de polluants et, si nécessaire, il sera vérifié la compatibilité des sols avec le nouvel usage
+
+48l0l0	Ces_mesures	N
+48l0l1	le_nouvel_usage	O
+48l1l0	polluants	S
+
+#- au comblement des piézomètres dans les règles de l'art
+
+49l0l0	au_comblement	N
+49l0l1	des_piézomètres	O
+49l0l2	dans	R
+49l0l3	les_règles_de_l__art	O
+
+#- à la communication du certificat de traitement du transformateur
+
+50l0l0	la_communication	N
+50l0l1	du_certificat_de_traitement	O
+50l0l2	transformateur	O

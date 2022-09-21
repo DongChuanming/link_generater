@@ -1,0 +1,94 @@
+
+#01.0123
+#La société OROSOLV, spécialisée dans la distribution de produits chimiques (solvants, acides...), a exploité jusqu’en 2015 un établissement à Bellignat, précédemment exploité par la société WOLFF depuis les années 1970.
+
+0l0l0	La_société_OROSOLV	O
+0l0l1	spécialisée_dans_la_distribution_de_produits_chimiques___solvants	N
+0l0l2	__acides	O
+0l0l3	_____	R
+0l0l4	a_exploité	N
+0l0l5	jusqu__en_2015	T
+0l0l6	un_établissement	O
+0l0l7	à_Bellignat	L
+0l0l8	précédemment_exploité	N
+0l0l9	la_société_WOLFF	O
+0l0l10	depuis_les_années_1970	T
+0l1l0	La_société_OROSOLV	I
+0l1l1	produits_chimiques	U
+0l1l2	solvants	U
+0l1l3	acides	S
+0l1l4	la_société_WOLFF	I
+
+#Suite au déménagement de l’établissement vers un autre site, l’exploitant a fait réaliser un diagnostic de l’état des sols dans le cadre de la procédure de cessation d’activité au titre de la réglementation des installations classées.
+
+1l0l0	Suite	R
+1l0l1	au_déménagement	N
+1l0l2	l__établissement	N
+1l0l3	vers_un_autre_site	L
+1l0l4	l__exploitant	O
+1l0l5	a_fait_réaliser	N
+1l0l6	un_diagnostic	N
+1l0l7	l__état_des_sols	O
+1l0l8	dans_le_cadre_de	R
+1l0l9	la_procédure	O
+1l0l10	d__activité	O
+1l0l11	au_titre_de	R
+1l0l12	la_réglementation_des_installations_classées	O
+
+#Ce diagnostic a mis en évidence :
+
+
+#une pollution modérée en hydrocarbures, BTEX et solvants chlorés dans les sols
+
+3l1l0	hydrocarbures	S
+3l1l1	BTEX	S
+3l1l2	solvants_chlorés	S
+
+#une pollution ponctuellement importante hydrocarbures, BTEX et solvants chlorés dans les eaux souterraines.
+
+4l1l0	hydrocarbures	S
+4l1l1	BTEX	S
+4l1l2	solvants_chlorés	S
+
+#Cette pollution ne semble pas avoir migré hors site.
+
+5l0l0	Cette_pollution	O
+5l0l1	avoir_migré	N
+
+#Au 01/07/2019, la situation du site est la suivante :
+
+6l0l0	Au_01_07_2019	T
+
+#-les installations ont été mises en sécurité (cuves démantelées, déchets évacués)
+
+7l0l0	_les_installations	O
+7l0l1	ont_été_mises_en_sécurité	N
+7l0l2	cuves_démantelées	N
+
+#-des travaux d'excavation des terres polluées et de dépollution la nappe ont été effectués
+
+8l0l0	_des_travaux_d__excavation	N
+8l0l1	terres_polluées	O
+8l0l2	dépollution	N
+8l0l3	la_nappe	N
+8l0l4	ont_été_effectués	N
+
+#Les analyses d'eaux souterraines post-travaux de dépollution mettent ponctuellement en évidence des teneurs élevées en solvants polaires (cétones) ; les analyses de gaz du sol ne mettent en revanche pas évidence de phénomène de dégazage.
+
+9l0l0	Les_analyses	N
+9l0l1	post_travaux_de_dépollution	N
+9l1l0	solvants_polaires	S
+9l1l1	cétones	S
+
+#Le site a été remis dans un état compatible avec un usage futur de type industriel.
+
+10l0l0	Le_site	O
+10l0l1	a_été_remis_dans	N
+10l0l2	un_état	O
+10l0l3	compatible_avec	R
+10l0l4	un_usage_futur	A
+
+#La visite de constat de fins de travaux a été réalisée le 28 mars 2019.
+
+11l0l0	La_visite_de_constat_de_fins_de_travaux_a_été_réalisée	N
+11l0l1	le_28_mars_2019__	T

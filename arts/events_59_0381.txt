@@ -1,0 +1,87 @@
+
+#59.0381
+#Activité jusqu'au milieu des années 1980: ancien garage poids lourds, stockage...
+
+0l0l0	jusqu__au_milieu_des_années_1980	T
+0l0l1	ancien_garage_poids_lourds	O
+0l0l2	stockage	A
+
+#Remblaiement sauvage du site avec des remblais pollués.
+
+1l0l0	Remblaiement_sauvage_du_site	N
+1l0l1	des_remblais_pollués	O
+
+#Le site se situe au nord de la commune de Famars et est longé, sur son flan est, par la route reliant la ZAC d'Aulnoy au centre de famars.
+
+2l0l0	Le_site	O
+2l0l1	se_situe_au_nord_de_la_commune_de_Famars	L
+2l0l2	longé___sur_son_flan_est	L
+2l0l3	la_route_reliant_la_ZAC_d__Aulnoy	L
+2l0l4	au_centre_de_famars	L
+
+#La superficie du terrain est de 1,14 ha.
+
+
+#- Les remblais pourraient être des scories ou des déchets sidérurgiques qui auraient amenés sur le site à partir de 1968 pour le nivellement des terrains et la construction du bâtiment.
+
+4l0l0	sidérurgiques	A
+4l0l1	auraient_amenés	N
+4l0l2	sur_le_site	L
+4l0l3	à_partir_de_1968	T
+4l0l4	le_nivellement	N
+4l0l5	des_terrains	N
+4l0l6	la_construction	N
+4l0l7	du_bâtiment	O
+4l1l0	des_déchets_sidérurgiques	U
+
+#- L'existence de stockage de fuel ou de gazole, d'huiles usagées ainsi que la présence de séparateur d'hydrocarbures sur le site complètent la recherche de pollution par les hydrocarbures.
+
+5l0l0	hydrocarbures	O
+5l1l0	fuel	S
+5l1l1	gazole	S
+5l1l2	hydrocarbures	S
+5l1l3	hydrocarbures	S
+
+#- Réalisation d'un diagnostic initial et d'une Évaluation Simplifiée des Risques en mai 2002, révélant une pollution des sols au chrome, cuivre et plomb engendrée par des remblais contenant des sables de chaudronnerie.
+
+6l0l0	Réalisation_d__un_diagnostic_initial	N
+6l0l1	d__une_Évaluation_Simplifiée_des_Risques	N
+6l0l2	en_mai_2002__	T
+6l0l3	révélant_une_pollution_des_sols	N
+6l0l4	chrome	O
+6l0l5	remblais	N
+6l0l6	chaudronnerie	A
+6l1l0	chrome	S
+6l1l1	cuivre	S
+6l1l2	plomb	S
+
+#La première nappe rencontrée est à 12m, et est bien protégée.
+
+7l0l0	La_première_nappe	O
+7l0l1	à_12_m	L
+
+#Classement du site: EAU: classe 3: banalisable, SOL: classe 2: à surveiller.
+
+8l1l0	SOL	S
+
+#- Activité actuelle: commerce.
+
+9l0l0	commerce	A
+
+#Les sols impactés par les métaux sont confinés sous le parking, le magasin est sur la zone non impactée par la pollution.
+
+10l0l0	Les_sols_impactés	O
+10l0l1	par	R
+10l0l2	les_métaux	O
+10l0l3	sont_confinés	N
+10l0l4	sous_le_parking	L
+10l0l5	le_magasin	O
+10l0l6	est_sur_la_zone_non_impactée_par	L
+10l0l7	la_pollution	N
+
+#- Aucune utilisation ds eaux souterraines connue de l'administration dans le secteur.
+
+
+#- Action de l'administration terminée.
+
+12l0l0	l__administration	O

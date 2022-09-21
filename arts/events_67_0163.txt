@@ -1,0 +1,103 @@
+
+#67.0163
+#L'arrêté préfectoral (AP) du 22 octobre 1998 autorise la société BRASSERIES KRONENBOURG à exploiter une brasserie et à augmenter la capacité de production de cidre sur leur site à OBERNAI.
+
+0l0l0	L__arrêté_préfectoral	O
+0l0l1	22_octobre_1998	T
+0l0l2	autorise	N
+0l0l3	la_société_BRASSERIES_KRONENBOURG	O
+0l0l4	exploiter	N
+0l0l5	une_brasserie	O
+0l0l6	augmenter_la_capacité	N
+0l0l7	de_production_de_cidre	A
+0l0l8	sur	L
+0l0l9	leur_site	O
+0l0l10	à_OBERNAI	L
+0l1l0	la_société_BRASSERIES_KRONENBOURG	I
+
+#Cet acte administratif est complété par les AP du : 14/06/2002, 05/11/2004, 17/03/2005, 03/10/2005.
+
+1l0l0	Cet_acte_administratif	O
+1l0l1	est_complété	O
+1l0l2	les_AP	O
+1l0l3	__14_06_2002	T
+1l0l4	05_11_2004	T
+1l0l5	17_03_2005	T
+1l0l6	03_10_2005	T
+
+#Le site est actuellement soumis à autorisation et ses activités sont encadrées par l'AP principal en date du 06/10/2006 et un AP complémentaire du 22/06/2010.
+
+2l0l0	Le_site	O
+2l0l1	est_actuellement_soumis_à_autorisation	N
+2l0l2	ses_activités	A
+2l0l3	sont_encadrées	N
+2l0l4	par_l_	O
+2l0l5	en_date_du_06_10_2006	T
+2l0l6	un_AP_complémentaire	O
+2l0l7	du_22_06_2010__	T
+
+#L'arrêté préfectoral du 16/10/2006, poursuit l'auto-surveillance mise en place en 1998,la surveillance de la qualité des eaux souterraines.
+
+3l0l0	L__arrêté_préfectoral	O
+3l0l1	16_10_2006	T
+3l0l2	l__auto_surveillance	A
+3l0l3	mise_en_place	N
+3l0l4	en_1998_la	T
+3l0l5	surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#Deux piézomètres (P2 et P3) situés en aval de l'établissement permettront de réaliser cette surveillance.
+
+4l0l0	Deux_piézomètres	O
+4l0l1	situés_en_aval_de_l__établissement	L
+4l0l2	surveillance	A
+
+#Les paramètres à analyser sont :
+
+
+#Le pH, la conductivité, les nitrates, l'azote ammoniacale, les hydrocarbures totaux et la demande chimique en oxygène (DCO) à une fréquence semestrielle.
+
+6l1l0	nitrates	S
+6l1l1	l__azote_ammoniacale	S
+6l1l2	hydrocarbures_totaux	S
+6l1l3	oxygène	S
+6l1l4	DCO	S
+
+#Les résultats de l'analyse réalisée le 27/04/2010 montrent que l'ensemble des paramètres analysés respecte les critères de qualité définis au droit des deux piézomètres.
+
+7l0l0	le_27_04_2010	T
+
+#On peut toutefois noter la présence de nitrates et l'absence de matières oxydables, d'ammonium et d'hydrocarbures contrairement à la précédente campagne réalisée en 2009.
+
+8l0l0	nitrates	O
+8l0l1	précédente_campagne_réalisée	N
+8l0l2	en_2009__	T
+8l1l0	nitrates	S
+8l1l1	ammonium	S
+8l1l2	hydrocarbures	S
+
+#Les activités du site nécessitent également l'emploi et le stockage d'ammoniac, de chlorofuorocarbures, d'hydrocarbures halogénés, de liquides inflammables, d'acide chloridrique, de substances radioactives, de soude/potasse etc..
+
+9l0l0	Les_activités	A
+9l0l1	le_stockage	N
+9l0l2	ammoniac	O
+9l1l0	ammoniac	S
+9l1l1	chlorofuorocarbures	S
+9l1l2	d__hydrocarbures_halogénés	S
+9l1l3	liquides_inflammables	U
+9l1l4	acide_chloridrique	S
+9l1l5	substances	S
+9l1l6	soude	S
+
+#Le risque de pollution potentielle des sols et de la nappe est donc présent.
+
+10l0l0	Le_risque_de_pollution	O
+
+#Le site est maintenu sous surveillance.
+
+11l0l0	Le_site	O
+
+#la surveillance sera révisée en 2015.
+
+12l0l0	la_surveillance	O
+12l0l1	sera_révisée	N
+12l0l2	en_2015__	T

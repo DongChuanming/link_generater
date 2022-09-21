@@ -1,0 +1,122 @@
+
+#68.0141
+#l'activité principale est le traitement thermique de pièces métalliques par recuit et trempe.
+
+0l0l0	le_traitement_thermique_de_pièces_métalliques	A
+0l0l1	recuit_et_trempe	A
+
+#Le site est soumis à déclaration pour cette activité, ainsi que pour le traitement de surface (dégraissage), le stockage de liquides inflammables et le refroidissement par dispersion (tour aéroréfrigérante).
+
+1l0l0	Le_site	O
+1l0l1	est_soumis_à	R
+1l0l2	déclaration	N
+1l0l3	le_traitement_de_surface	A
+1l0l4	dégraissage	A
+1l0l5	le_stockage_de_liquides_inflammables	A
+1l0l6	le_refroidissement_par_dispersion	A
+1l0l7	tour_aéroréfrigérante	A
+1l1l0	liquides_inflammables	U
+
+#Le site comporte un bâtiment dans lequel se déroulent les activités.
+
+2l0l0	Le_site	O
+2l0l1	comporte	R
+2l0l2	un_bâtiment	O
+
+#Suite à la mise en évidence d'une pollution de la nappe par des composés organohalogénés volatils en 2004 au droit d'un site industriel en aval hydrogéologique du site Bodycote, une recherche des sources de pollution a été effectuée.
+
+3l0l0	Suite_à	R
+3l0l1	la_mise_en_évidence_d__une_pollution	N
+3l0l2	la_nappe	O
+3l0l3	en_2004	T
+3l0l4	au_droit_d__un_site_industriel_en_aval_hydrogéologique	N
+3l0l5	du_site_Bodycote	L
+3l0l6	une_recherche	N
+3l0l7	des_sources_de_pollution	O
+3l0l8	a_été_effectuée	N
+3l1l0	composés_organohalogénés	S
+
+#En juillet 2007, l'inspection a demandé par courrier du préfet à l'exploitant Bodycote, qui utilise ou a utilisé les composés retrouvés dans la nappe, de réaliser une étude historique, une étude hydrogéologique et de mettre en place une surveillance des eaux souterraines au droit de son site.
+
+4l0l0	En_juillet_2007__	T
+4l0l1	l__inspection	O
+4l0l2	l__exploitant_Bodycote	O
+4l0l3	réaliser_une_étude_historique	N
+4l0l4	une_étude_hydrogéologique	N
+4l0l5	surveillance_des_eaux_souterraines	A
+4l0l6	au_droit_de_son_site	L
+4l1l0	Bodycote	I
+4l1l1	les_composés	U
+
+#La première campagne de surveillance a été réalisée en janvier 2008 et a mis en évidence l'origine de la pollution sur le site Bodycote.
+
+5l0l0	La_première_campagne_de_surveillance	N
+5l0l1	a_été_réalisée	N
+5l0l2	en_janvier_2008	T
+5l0l3	a_mis_en_évidence	R
+5l0l4	l__origine	O
+5l0l5	la_pollution	O
+5l0l6	le_site_Bodycote	O
+
+#Les concentrations en tétrachloroéthylène et trichloroéthylène sont supérieures à la norme de qualité eaux potables.
+
+6l1l0	tétrachloroéthylène	S
+6l1l1	trichloroéthylène	S
+
+#Une surveillance semestrielle de la nappe et une étude (schéma conceptuel et IEM) ont été prescrites par arrêté de prescriptions spéciales du 20 février 2009.
+
+7l0l0	Une_surveillance_semestrielle	A
+7l0l1	la_nappe	O
+7l0l2	une_étude	O
+7l0l3	schéma_conceptuel	O
+7l0l4	ont_été_prescrites	N
+7l0l5	par_arrêté_de_prescriptions_spéciales	O
+7l0l6	du_20_février_2009__	T
+
+#Le schéma conceptuel et l'interprétation de l'état des milieux (IEM) ont été remis en septembre 2009.
+
+8l0l0	Le_schéma_conceptuel	O
+8l0l1	état_des_milieux	O
+8l0l2	ont_été_remis	N
+8l0l3	en_septembre_2009__	T
+
+#Les premières conclusions semblent localiser deux sources de pollution, dont en bordure du site voisin (Stockmeier Uréthanes France).
+
+9l0l0	localiser_deux_sources_de_pollution	O
+9l0l1	en_bordure_du_site_voisin	L
+9l0l2	Stockmeier_Uréthanes	O
+9l0l3	France	T
+9l1l0	Stockmeier_Uréthanes	S
+9l1l1	France	I
+
+#La campagne de surveillance de juin 2009 indique des concentrations en baisse.
+
+10l0l0	La_campagne_de_surveillance	N
+10l0l1	de_juin_2009	T
+
+#Plus de données doivent être accumulées sur cette pollution pour la caractériser précisément.
+
+
+#Les études et documents suivants ont été remis:
+
+12l0l0	Les_études	O
+
+#- conception du réseau de contrôle: rapport AntéaGroup n°A 49696/B de Décembre 2009,
+
+13l0l0	réseau_de_contrôle	O
+13l0l1	Décembre_2009__	T
+13l1l0	AntéaGroup	I
+
+#- conception d'un réseau de contrôle ,schéma conceptuel et IEM: rapport AntéaGroup n°A49696/d de Novembre 2010,
+
+14l0l0	un_réseau_de_contrôle	O
+14l0l1	schéma_conceptuel	O
+14l0l2	Novembre_2010__	T
+14l1l0	AntéaGroup	I
+
+#- Diagnostic de sols, recherche source de COHV, IEM: rapport AntéaGroup n°A68520/A d'Octobre 2012
+
+15l0l0	Diagnostic_de_sols	N
+15l0l1	d__Octobre_2012	T
+15l1l0	COHV	S
+15l1l1	AntéaGroup	I

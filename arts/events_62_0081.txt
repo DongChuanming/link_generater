@@ -1,0 +1,134 @@
+
+#62.0081
+#- Site de l'industrie chimique, dépôt intermédiaire et atelier d'explosifs (production de dynamites et de nitrate fioul).
+
+0l0l0	industrie_chimique	O
+0l0l1	production_de_dynamites	N
+0l0l2	nitrate_fioul	O
+0l1l0	nitrate_fioul	U
+
+#- L'établissement se trouve en bordure du canal de la Deûle, dans une zone peu urbanisée.
+
+1l0l0	L__établissement	O
+1l0l1	se_trouve_en_bordure_du_canal_de_la_Deûle	L
+1l0l2	dans_une_zone_peu_urbanisée	L
+
+#- Cessation d'activité fin 2006.
+
+2l0l0	Cessation_d__activité	N
+2l0l1	fin_2006__	T
+
+#- Site en activité visé par la circulaire du 3 avril 1996 qui impose une étude des sols sur les sites en activité.
+
+3l0l0	Site_en_activité	O
+3l0l1	visé_par	R
+3l0l2	la_circulaire	O
+3l0l3	3_avril_1996	T
+3l0l4	impose_une_étude_des_sols	N
+3l0l5	les_sites_en_activité	O
+
+#Investigations complémentaires faites dans le cadre de la cessation partielle d'activité.
+
+4l0l0	Investigations_complémentaires	O
+4l0l1	faites_dans_le_cadre_de	R
+4l0l2	la_cessation	N
+4l0l3	partielle_d__activité	A
+
+#- Des piézomètres de surveillance des eaux souterraines ont été mis en place dans ce cadre.
+
+5l0l0	surveillance_des_eaux_souterraines	A
+5l0l1	ont_été_mis_en_place	N
+
+#- Dossier de cessation d'activité en date du 15/12/2006.
+
+6l0l0	cessation_d__activité	N
+6l0l1	en_date_du_15_12_2006__	T
+
+#- Dossier diagnostic et dimensionnement de pollution en date de décembre 2005.
+
+7l0l0	Dossier_diagnostic	N
+7l0l1	dimensionnement_de_pollution	O
+7l0l2	en_date_de_décembre_2005__	T
+
+#Le site est en classe 1 (à investiguer).
+
+8l0l0	Le_site	O
+
+#- Sol pollué au nitrotoluène et dinitrotoluène, qui résulte des activités de fabrication d'explosifs qui étaient pratiquées sur le site sur 2 zones identifiées.
+
+9l0l0	des_activités_de_fabrication_d__explosifs	A
+9l0l1	étaient	A
+9l1l0	nitrotoluène	S
+9l1l1	dinitrotoluène	S
+
+#- Sol impacté ponctuellement par le plomb dont la présence est liée à la qualité intrinsèque des matériaux utilisés en remblais, et par les hydrocarbures, lesquels sont dus à une fuite de canalisation.
+
+10l0l0	impacté_ponctuellement	N
+10l0l1	fuite_de_canalisation	L
+10l1l0	le_plomb	S
+10l1l1	hydrocarbures	S
+
+#- Rapport d'intervention de Tauw Environnement sur le site de Nitrochimie en date du 14/10/2008.
+
+11l0l0	Rapport_d__intervention	N
+11l0l1	Tauw_Environnement	O
+11l0l2	Nitrochimie	O
+11l0l3	en_date_du_14_10_2008__	T
+11l1l0	Nitrochimie	I
+
+#Il conclut qu'il est nécessaire de dépolluer le site et propose des mesures de remédiation.
+
+12l0l0	dépolluer	N
+12l0l1	le_site	O
+
+#- Travaux de dépollution en septembre 2010: excavation de terres polluées et évacuation en centre d'enfouissement technique.
+
+13l0l0	Travaux_de_dépollution	N
+13l0l1	en_septembre_2010	T
+13l0l2	__excavation	N
+13l0l3	de	N
+13l0l4	terres_polluées	O
+13l0l5	évacuation_en_centre_d__enfouissement_technique	N
+
+#- Rapport de Suivi des travaux de dépollution des sols, en date du 18/02/2011, transmis à l'administration.
+
+14l0l0	Suivi	O
+14l0l1	des_travaux_de_dépollution	N
+14l0l2	sols	O
+14l0l3	en_date_du_18_02_2011	T
+
+#- Réalisation d'un mémoire de mise en sécurité et plan de gestion dans le cadre de la cessation d'activité en date du 13/12/2012.
+
+15l0l0	Réalisation_d__un_mémoire_de_mise_en_sécurité	N
+15l0l1	gestion	O
+15l0l2	dans_le_cadre_de	R
+15l0l3	la_cessation_d__activité	N
+15l0l4	en_date_du_13_12_2012__	T
+
+#Il conclut que la pollution au DNT a été traitée, la pollution aux hydrocarbures ne présente pas de risques sous réserve d'un usage industriel, et la pollution au plomb ne présente pas de risque non plus, sous réserve d'un maintien du confinement.
+
+16l0l0	DNT	O
+16l0l1	a_été_traitée	N
+16l0l2	un_usage_industriel	A
+16l1l0	DNT	S
+16l1l1	hydrocarbures	S
+16l1l2	plomb	S
+
+#- Tout les transformateurs au pyralène ont été évacués.
+
+17l0l0	Tout_les_transformateurs_au_pyralène	O
+17l0l1	ont_été_évacués	N
+17l1l0	pyralène	S
+
+#- Les eaux souterraines sont utilisées dans le secteur pour un usage industriel et d'eau potable.
+
+18l0l0	Les_eaux_souterraines	O
+18l0l1	sont_utilisées	N
+18l0l2	un_usage_industriel	A
+
+#- Site mis en sécurité vis-à-vis des tiers.
+
+
+#- Action de l'administration toujours en cours.
+
+20l0l0	l__administration	O

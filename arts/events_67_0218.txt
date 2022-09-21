@@ -1,0 +1,42 @@
+
+#67.0218
+#Forage de l'ancienne concession de Pechelbronn, première mine de pétrole en France.
+
+0l0l0	Forage	N
+0l0l1	l__ancienne_concession	O
+0l0l2	de_Pechelbronn	O
+0l0l3	première_mine_de_pétrole	O
+
+#Ce forage n'est plus en activité mais le gisement ayant tendance à se remettre en pression depuis l'arrêt de l'exploitation, il devient artésien.
+
+1l0l0	Ce_forage	O
+1l0l1	n__est_plus_en_activité	N
+1l0l2	le_gisement	O
+1l0l3	ayant_tendance_à	R
+1l0l4	se_remettre_en_pression	N
+1l0l5	depuis	T
+1l0l6	l__arrêt	N
+1l0l7	l__exploitation	N
+
+#Site suivi par l'Etat avec maîtrise d'ouvrage délégué au BRGM.
+
+2l0l0	Site	O
+2l0l1	l__Etat	O
+2l0l2	ouvrage_délégué_au_BRGM	O
+2l1l0	BRGM	I
+
+#Les anciens forages de la concession de Pechelbronn sont souvent mal rebouchés et peuvent laisser échapper du pétrole brut, de l'eau, du méthane et parfois certains polluants.
+
+3l0l0	Les	O
+3l0l1	anciens_forages	N
+3l0l2	la_concession	O
+3l0l3	de_Pechelbronn	O
+3l0l4	pétrole_brut	O
+3l1l0	pétrole_brut	U
+3l1l1	polluants	S
+
+#Dossier de transfert et mise en sécurité du site en cours de réalisation.
+
+4l0l0	Dossier_de_transfert	N
+4l0l1	mise_en_sécurité_du_site	O
+4l0l2	en_cours_de_réalisation	T

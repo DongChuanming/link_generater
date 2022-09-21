@@ -1,0 +1,83 @@
+
+#63.0010
+#Usine de chimie fine fabriquant des principes actifs à usage pharmaceutique.
+
+0l0l0	Usine_de_chimie_fine	O
+0l0l1	fabriquant_des_principes_actifs_à_usage_pharmaceutique	A
+0l1l0	principes_actifs	U
+
+#Elle se trouve dans la vallée de la Dore, à la périphérie du bourg de Vertolaye.
+
+1l0l0	Elle_se_trouve_dans_la_vallée_de_la_Dore	L
+1l0l1	à_la_périphérie_du_bourg_de_Vertolaye	L
+1l1l0	la_Dore	I
+
+#L'usine est située en bordure du ruisseau Vertolaye et très proche de la nappe de la Dore.
+
+2l0l0	L__usine	O
+2l0l1	est_située_en_bordure_du_ruisseau_Vertolaye	L
+2l0l2	très_proche_de_la_nappe_de_la_Dore	L
+
+#A l'aval, un puits de particulier est implanté dans cette nappe.
+
+3l0l0	A_l__aval	L
+3l0l1	un_puits_de_particulier	O
+3l0l2	est_implanté	N
+3l0l3	dans	R
+3l0l4	cette_nappe	N
+
+#L'ensemble du site de production est sur rétention.
+
+
+#Cette usine appartient au groupe AVENTIS PHARMA.
+
+5l0l0	Cette_usine	O
+5l0l1	appartient_au	R
+5l0l2	PHARMA	T
+5l1l0	AVENTIS_PHARMA	I
+
+#L'ancienneté de l'activité, les substances utilisées ou produites et la sensibilité du milieu ont conduit à prescrire une évaluation simplifiée des risques par arrêté préfectoral du 23 mars 1998.
+
+6l0l0	l__activité	O
+6l0l1	ont_conduit_à_prescrire_une_évaluation_simplifiée_des_risques	N
+6l0l2	arrêté_préfectoral	O
+6l0l3	du_23_mars_1998__	T
+6l1l0	substances	S
+
+#Le fonctionnement de cette activité et des épandages accidentels sont à l'origine de teneurs anormales de chrome, mercure, solvants ponctuellement dans le sol et dans la nappe à l'aval.
+
+7l0l0	épandages_accidentels	N
+7l0l1	aval	L
+7l1l0	chrome	S
+7l1l1	mercure	S
+7l1l2	solvants_ponctuellement	S
+
+#Cette évaluation simplifiée des risques conclut à la nécessité de surveiller la nappe aquifère à l'aide de trois piézométres qui ont déja été installés.
+
+8l0l0	Cette_évaluation_simplifiée	O
+8l0l1	surveiller	A
+8l0l2	la_nappe_aquifère	O
+8l0l3	trois_piézométres	O
+8l0l4	ont_déja_été_installés	N
+
+#Ce suivi traduit une stabilité des teneurs trouvées.
+
+
+#Il convenait de formaliser cette surveillance par arrêté préfectoral.
+
+10l0l0	surveillance	A
+
+#Cet arrêté a été signé le 24/07/2003.
+
+11l0l0	Cet_arrêté	O
+11l0l1	a_été_signé	N
+11l0l2	le_24_07_2003__	T
+
+#Les résultats des analyses indiquent une évolution favorable des concentrations.
+
+
+#Site visé par l'article 65 relatif à l'arrêté du 02/02/1998 relatif au controle des eaux souterraines.
+
+13l0l0	Site_visé	O
+13l0l1	02_02_1998	T
+13l0l2	controle_des_eaux_souterraines	A

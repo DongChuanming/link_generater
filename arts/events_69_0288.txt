@@ -1,0 +1,135 @@
+
+#69.0288
+#Le site est situé au 19 rue Jacquard sur la commune de Chassieu (69).
+
+0l0l0	Le_site	O
+0l0l1	est_situé	R
+0l0l2	au_19_rue_Jacquard	L
+0l0l3	sur_la_commune_de_Chassieu___69__	L
+
+#La superficie du site est d'environ 4000 m².
+
+
+#La société DIAMIX est une filiale du groupe PEDERSEN.
+
+2l0l0	La_société_DIAMIX	O
+2l0l1	PEDERSEN	O
+2l1l0	La_société_DIAMIX	I
+2l1l1	PEDERSEN	I
+
+#Elle est spécialisé depuis 1981 dans la fabrication d'outillages diamantés de polissage, dressage et meules (usinage des pièces et traitement de surface).
+
+3l0l0	Elle	O
+3l0l1	est_spécialisé	N
+3l0l2	depuis_1981	T
+3l0l3	dans_la_fabrication_d__outillages_diamantés	A
+3l0l4	polissage	A
+3l0l5	usinage_des_pièces_et_traitement_de_surface	A
+
+#Le site comprend :
+
+
+#- une zone de livraison de matières premières ;
+
+
+#- une zone d'entreposage de produits chimiques usagés ;
+
+6l1l0	produits_chimiques	U
+
+#- une zone d'affutage ;
+
+7l0l0	affutage	O
+
+#- une zone de fabrication de meules et rodoirs CBN et diamant ;
+
+8l0l0	fabrication_de_meules	A
+8l0l1	rodoirs_CBN	O
+
+#- une zone de traitement de surface.
+
+
+#La société exploitait sans autorisation requise.
+
+10l0l0	La_société	O
+10l0l1	exploitait	N
+10l0l2	sans_autorisation	O
+
+#Suite à une visite d'inspection courante de l'inspection des installations classées le 20/09/2010, il est proposé au Préfet d'imposer l'exploitant d'établir un dossier de cessation d'activité.
+
+11l0l0	Suite_à	R
+11l0l1	une_visite	N
+11l0l2	d__inspection_courante	L
+11l0l3	l__inspection_des_installations_classées	O
+11l0l4	le_20_09_2010	T
+11l0l5	Préfet	L
+11l0l6	d__imposer	N
+11l0l7	l__exploitant	O
+11l0l8	d__établir	N
+11l0l9	un_dossier	O
+11l0l10	cessation_d__activité	N
+
+#Des sanctions administratives ont été prises à l'encontre de la société DIAMIX le 13/10/2010.
+
+12l0l0	Des_sanctions_administratives	O
+12l0l1	ont_été_prises	N
+12l0l2	la_société_DIAMIX	O
+12l0l3	le_13_10_2010__	T
+12l1l0	la_société_DIAMIX	I
+
+#Un audit environnemental ainsi qu'un diagnostic des sols ont été transmis à l'administration le 13/12/2010.
+
+13l0l0	Un_audit_environnemental	N
+13l0l1	un_diagnostic_des_sols	N
+13l0l2	ont_été_transmis	N
+13l0l3	l__administration	O
+13l0l4	le_13_12_2010__	T
+
+#Les résultats montrent un impact au cuivre à 45 mg/kg dans les sols.
+
+14l1l0	cuivre	S
+
+#De même, l'évaluation quantitative des risques sanitaires réalisée à partir de la grille IEM (interprétation de l'état des milieux) montre une compatibilité du site pour un usage industriel et résidentiel.
+
+15l0l0	évaluation_quantitative_des_risques	N
+15l0l1	un_usage_industriel_et_résidentiel	A
+
+#Le rapport de l'inspection datant du 04/01/2011 propose au Préfet d'imposer l'exploitant :
+
+16l0l0	datant_du_04_01_2011	T
+16l0l1	d__imposer	N
+16l0l2	l__exploitant	O
+16l1l0	Préfet	S
+
+#- de préciser le devenir des eaux pluviales de voirie ;
+
+17l0l0	préciser_le_devenir	O
+
+#- en cas d'infiltration de celles-ci, d'effectuer des sondages de sols au niveau des puits ;
+
+18l0l0	en_cas_d_	R
+18l0l1	d__effectuer_des_sondages_de_sols	N
+
+#- d'indiquer conformément à l'arrêté préfectoral du 13/10/2010, les mesures prises concernant l'évacuation ou l'élimination des produits dangereux et des déchets présents sur le site, les interdictions ou limitation d'accès au site, la suppression des risques d'incendie et d'explosion.
+
+19l0l0	d__indiquer	N
+19l0l1	conformément_à	R
+19l0l2	l__arrêté_préfectoral	O
+19l0l3	13_10_2010	T
+19l0l4	les_mesures_prises	N
+19l0l5	l__élimination_des_produits_dangereux	N
+19l0l6	les_interdictions	O
+
+#Un rapport d'investigations complémentaires des sols a été remis le 05/01/2012 à l'administration.
+
+20l0l0	Un_rapport_d__investigations_complémentaires_des_sols	O
+20l0l1	a_été_remis	N
+20l0l2	le_05_01_2012	T
+20l0l3	l__administration	O
+
+#Les résultats ne montrent aucun impact sur les sols.
+
+
+#Le bureau d'étude préconise cependant, la réalisation d'une étude historique et documentaire ainsi qu'un schéma conceptuel.
+
+22l0l0	Le_bureau_d__étude	O
+22l0l1	un_schéma_conceptuel	O

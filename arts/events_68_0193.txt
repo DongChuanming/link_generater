@@ -1,0 +1,70 @@
+
+#68.0193
+#Il s'agit d'une ancienne décharge exploitée entre 1975 et 1994 par la commune.
+
+0l0l0	une_ancienne_décharge	O
+0l0l1	exploitée	N
+0l0l2	entre_1975_et_1994	T
+0l0l3	la_commune	O
+
+#Un Arrêté Préfectoral n°44733 du 11/12/1975 autorise la commune à exploiter une décharge au lieu-dit Mittelbuehl.
+
+1l0l0	Un_Arrêté_Préfectoral	O
+1l0l1	11_12_1975	T
+1l0l2	autorise	N
+1l0l3	la_commune	O
+1l0l4	exploiter	N
+1l0l5	une_décharge	O
+1l0l6	au_lieu___dit_Mittelbuehl	L
+
+#Un Arrêté Municipal du 17 février 1994 arrête la fermeture du site.
+
+2l0l0	Un_Arrêté_Municipal	O
+2l0l1	17_février_1994	T
+2l0l2	arrête_la_fermeture	N
+2l0l3	du_site	O
+
+#Le type de déchets enfouis:
+
+
+#- Gravats;
+
+
+#- Encombrants;
+
+5l1l0	Encombrants	S
+
+#- Déchets verts;
+
+6l1l0	Déchets_verts	U
+
+#- Ordures ménagères;
+
+7l1l0	Ordures_ménagères	U
+
+#- Carcasse de voiture.
+
+
+#Une quantité importante de déchets divers (carcasse de voiture, ordures ménagères, déchets verts...) reste visible.
+
+9l0l0	carcasse_de_voiture	O
+
+#Un projet de nettoyage doit être mis œuvre pour accéder au pied de talus et enlever les déchets encore visibles.
+
+10l0l0	Un_projet_de_nettoyage	O
+10l0l1	accéder_au_pied_de_talus	O
+10l0l2	enlever	N
+10l0l3	les_déchets	O
+10l1l0	les_déchets	U
+
+#Ce site se situe dans le Parc naturel du Ballon des Vosges.
+
+11l0l0	Ce_site	O
+11l0l1	se_situe_dans_le_Parc_naturel_du_Ballon_des_Vosges	L
+11l1l0	du_Ballon_des_Vosges	I
+
+#Etude hydrogéologique en juillet 2000 intitulé "Pour la résorption de la décharge brute".
+
+12l0l0	Etude_hydrogéologique	N
+12l0l1	en_juillet_2000	T
+12l0l2	la_résorption	N

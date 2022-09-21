@@ -1,0 +1,274 @@
+
+#54.0129
+#La STUL a exercé, à partir de 1963, une activité de transformation de l'acier et a cessé ses activités le 28 février 2005.
+
+0l0l0	La_STUL	O
+0l0l1	a_exercé	N
+0l0l2	à_partir_de_1963	T
+0l0l3	une_activité_de_transformation_de_l__acier	A
+0l0l4	a_cessé_ses_activités	N
+0l0l5	le_28_février_2005__	T
+0l1l0	La_STUL	I
+
+#Elle fonctionnait sous couvert des arrêtés préfectoraux n°14-811 du 19/04/1988 et n°14-811 bis du 27/11/1989.
+
+1l0l0	19_04_1988	T
+1l0l1	27_11_1989__	T
+
+#L'usine sidérurgique a été construite sur un crassier (stockage de laitiers et de crasses de hauts-fourneaux de l'usine de Senelle voisine) qui constitue une plate-forme de 8 mètres d'épaisseur.
+
+2l0l0	L__usine_sidérurgique	O
+2l0l1	a_été	N
+2l0l2	construite_sur_un_crassier	L
+2l0l3	Senelle_voisine	L
+
+#Le site est traversé par la Moulaine canalisée en souterrain, sous le crassier.
+
+3l0l0	Le_site	O
+3l0l1	est_traversé_par_la_Moulaine_canalisée	O
+3l0l2	en_souterrain	N
+
+#Les équipements industriels présents sur le site au moment de la cessation d'activité sont :
+
+4l0l0	Les_équipements_industriels	O
+4l0l1	moment_de	R
+4l0l2	la_cessation	N
+4l0l3	d__activité	N
+
+#- un four fonctionnant au gaz naturel,
+
+
+#- une ligne de laminage,
+
+6l0l0	laminage	A
+
+#- une ligne de parachèvement,
+
+7l0l0	une_ligne_de_parachèvement	O
+
+#- une station de traitement des eaux de procédés dont un hydrocyclone ancré dans les alluvions de la Moulaine,
+
+8l0l0	une_station_de_traitement_des_eaux_de_procédés	O
+8l0l1	hydrocyclone	O
+8l0l2	ancré_dans_les_alluvions_de_la_Moulaine	L
+
+#- des halles de stockage des blooms et des produits finis.
+
+
+#La société ARCELORMITTAL FRANCE agit pour le compte du dernier exploitant dans la procédure de cessation d'activité.
+
+10l0l0	La_société_ARCELORMITTAL_FRANCE	O
+10l0l1	agit_pour_le_compte	N
+10l0l2	du_dernier_exploitant	O
+10l0l3	la_procédure	O
+10l0l4	cessation_d__activité	N
+10l1l0	La_société_ARCELORMITTAL_FRANCE	I
+
+#La STUL lui a en effet confié un mandat de gestion pour l'immobilier.
+
+11l0l0	La_STUL	O
+11l0l1	a_en	N
+11l0l2	effet_confié	N
+11l0l3	un_mandat	O
+11l0l4	gestion	O
+11l0l5	l__immobilier	O
+11l1l0	La_STUL	I
+
+#Le site est actuellement mis en sécurité :
+
+12l0l0	Le_site	O
+
+#- clôture et gardiennage 24/24h,
+
+
+#- coupure des alimentations haute-tension du site,
+
+14l0l0	coupure_des_alimentations_haute_tension	N
+
+#- élimination de l'essentiel des déchets et produits chimiques présents sur le site,
+
+15l0l0	élimination	N
+15l1l0	produits_chimiques	U
+
+#- évacuation des transformateurs contenant des huiles contaminées aux PCB.
+
+16l0l0	évacuation_des_transformateurs	N
+16l0l1	huiles_contaminées	O
+16l1l0	PCB	S
+
+#Dans le cadre de la procédure de cessation d’activité, le représentant de l’ancien exploitant a transmis à l’inspection des installations classées différentes études :
+
+17l0l0	Dans_le_cadre_de	R
+17l0l1	la_procédure	O
+17l0l2	cessation_d__activité	N
+17l0l3	l__ancien_exploitant	O
+17l0l4	a_transmis	N
+17l0l5	l__inspection_des_installations_classées	O
+
+#-	un dossier de cessation d’activité (AREF, juin 2007),
+
+18l0l0	cessation_d__activité	N
+18l0l1	juin_2007__	T
+18l1l0	AREF	I
+
+#-	une étude historique du site (EAT, référencée C593/01, décembre 2005),
+
+19l0l0	une_étude_historique_du_site	N
+19l0l1	__décembre_2005	T
+
+#-	un diagnostic initial des sols (SOGREAH, référencé 1 35 2029 rév. 2, janvier 2007),
+
+20l0l0	un_diagnostic_initial_des_sols	N
+20l0l1	janvier_2007__	T
+20l1l0	SOGREAH	I
+
+#-	une étude détaillée des risques – îlot Sud-Ouest – scénario type résidentiel sensible (SOGREAH, octobre 2007).
+
+21l0l0	des_risques	O
+21l0l1	Sud_Ouest	L
+21l0l2	octobre_2007__	T
+21l1l0	SOGREAH	I
+
+#Le diagnostic initial des sols de 2007 a mis en évidence une pollution généralisée des sols en métaux lourds, notamment en chrome, cuivre, plomb et zinc.
+
+22l0l0	Le_diagnostic_initial_des_sols	N
+22l0l1	de_2007	T
+22l0l2	une_pollution_généralisée_des_sols	N
+22l0l3	métaux_lourds	O
+22l1l0	métaux_lourds	S
+22l1l1	chrome	S
+22l1l2	cuivre	S
+22l1l3	plomb	S
+22l1l4	zinc	S
+
+#Des spots de pollution en HAP ont également été détectés sur plusieurs sondages.
+
+23l0l0	Des_spots_de_pollution_en_HAP	O
+23l0l1	ont_également_été_détectés	N
+23l1l0	HAP	S
+
+#Ce diagnostic initial ne donne qu'une information partielle de l'état de contamination des sols du site en raison de la présence de nombreuses infrastructures de surface.
+
+24l0l0	Ce_diagnostic_initial	N
+24l0l1	l__état_de_contamination	O
+
+#Une partie de l'outillage et l'ensemble des bâtiments ont été démantelé entre 2010 et 2017 :
+
+25l0l0	Une_partie_de_l__outillage	O
+25l0l1	l__ensemble_des_bâtiments	O
+25l0l2	ont_été_démantelé	N
+25l0l3	entre_2010_et_2017	T
+
+#- Les opérations de démolition se sont arrêtées au niveau 0, les dalles ont été laissée en place.
+
+26l0l0	Les_opérations_de_démolition	N
+26l0l1	se_sont_arrêtées	N
+26l0l2	au_niveau_0	N
+26l0l3	les_dalles	O
+26l0l4	ont_été_laissée_en_place	N
+
+#- Les fosses et les caves ont été curées et remblayées au moyen des matériaux de démolition concassés.
+
+27l0l0	Les_fosses	O
+27l0l1	ont_été_curées	N
+27l0l2	et_remblayées	N
+27l1l0	les_caves	D
+
+#- Des drains verticaux filtrant ont été installés dans les fosses.
+
+28l0l0	Des_drains	O
+28l0l1	ont_été_installés	N
+28l0l2	dans_les_fosses	L
+28l1l0	filtrant	S
+
+#- L'hydrocyclone n'a pas été remblayé, une dalle béton a été réalisé à la place et un trou d'homme a été créé.
+
+29l0l0	L__hydrocyclone	O
+29l0l1	n__a_pas_été_remblayé	N
+29l0l2	une_dalle_béton	O
+29l0l3	a_été_réalisé	N
+29l0l4	à_la_place	N
+29l0l5	un_trou_d__homme	O
+29l0l6	a_été_créé	N
+
+#Les déchets et produits dangereux ont été éliminés.
+
+30l0l0	Les_déchets_et_produits_dangereux	O
+30l0l1	ont_été_éliminés	N
+
+#Suite au démantèlement du site, l'exploitant poursuivra les investigations afin de déterminer l'état de contamination des sols, notamment au niveau des cuves, fosses, caves et autres réseaux oléo-hydrauliques présents sur l'ensemble du site.
+
+31l0l0	démantèlement_du_site	N
+31l0l1	l__exploitant	O
+31l0l2	poursuivra_les_investigations	N
+31l0l3	l__état_de_contamination	O
+31l1l0	cuves	D
+31l1l1	caves	D
+
+#Le site ne dispose pas de son propre réseau de surveillance.
+
+
+#L’impact du site sur l’environnement (eaux souterraines et superficielles) est surveillé au moyen des points de contrôle présents sur les anciens sites sidérurgiques contigus (COS-SIH (fiche BASOL n°54.0017) en amont  et usine de Senelle à HERSERANGE (fiche BASOL n°54.0009) en aval).
+
+33l0l0	des_points_de_contrôle	O
+33l0l1	sites_sidérurgiques	N
+33l0l2	contigus	O
+33l0l3	et_usine_de_Senelle_à_HERSERANGE	L
+33l1l0	COS	I
+33l1l1	de_Senelle	I
+
+#Le piézomètre PzHsr-3 (ancien PZ2 du COS-SIH) est représentatif de l’impact sur les eaux souterraines des sites implantés en amont de la STUL.
+
+34l0l0	des_sites	O
+34l0l1	implantés	R
+34l0l2	en_amont_de_la_STUL	L
+34l1l0	PzHsr_3	S
+
+#Le piézomètre PzHsr-4 est représentatif de l’aval immédiat de la STUL (ancien PZ1 de l’usine de Senelle).                      Les résultats de surveillance disponibles ne révèlent pas d’impact significatif de la STUL sur les eaux souterraines, à l’exception des observations suivantes :
+
+35l0l0	l__aval_immédiat_de	L
+35l0l1	la_STUL	O
+35l0l2	Senelle	L
+35l0l3	d__impact	O
+35l1l0	PzHsr_4	S
+
+#-	Les cyanures ont été détectés en 2007 et 2009 en aval de la STUL alors qu’ils ne sont pas détectés en amont.
+
+36l0l0	cyanures	O
+36l0l1	ont_été_détectés	N
+36l0l2	en_2007_et_2009	T
+36l0l3	en_aval_de	L
+36l0l4	la_STUL	A
+36l1l0	Les_cyanures	S
+
+#Les teneurs mesurées (14 et 33 µg/l) ne dépassent toutefois pas la valeur de référence (50 µg/l).
+
+
+#-	Du chrome a été mis en évidence tant en amont (20 µg/l en 2011) qu’en aval (6,5 et 11 µg/l en 2011 et 2012) de la STUL, dans des teneurs toutefois inférieures à la valeur de référence (50 µg/l).
+
+38l0l0	en_2011__	T
+38l0l1	2011_et_2012__	T
+38l0l2	des_teneurs	O
+38l1l0	Du_chrome	S
+
+#-	La teneur en DCO mesurée en 2009 a dépassé la valeur de référence (68 mg/l pour 30 mg/l) en aval de la STUL.
+
+39l0l0	en_2009	T
+39l0l1	a_dépassé	N
+39l0l2	aval_de_la_STUL	L
+39l1l0	DCO	S
+
+#Ce paramètre n’est pas suivi sur le piézomètre implanté en amont de la STUL.
+
+40l0l0	piézomètre_implanté	O
+40l0l1	en_amont_de_la_STUL	L
+
+#Une réflexion est actuellement menée par le représentant de l'ancien et dernier exploitant pour mettre en place une surveillance global des sites sidérurgiques implantés dans les vallées de la Côte-Rouge, de la Moulaine et de la Chiers.
+
+41l0l0	le	O
+41l0l1	exploitant	O
+41l0l2	mettre_en_place_une_surveillance_global	N
+41l0l3	sites_sidérurgiques	O
+41l0l4	implantés	R
+41l0l5	dans_les_vallées_de_la_Côte_Rouge	L
+41l0l6	Chiers	L

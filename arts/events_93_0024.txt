@@ -1,0 +1,100 @@
+
+#93.0024
+#Ancien fort militaire de 1847 à 1969 ayant hébergé le service des essences de l'armée et un laboratoire de recherches chimique et radiologique entre 1952 et 1969.
+
+0l0l0	Ancien_fort_militaire	O
+0l0l1	de_1847_à_1969	T
+0l0l2	ayant_hébergé	N
+0l0l3	le_service_des_essences	A
+0l0l4	un_laboratoire_de_recherches_chimique_et_radiologique	O
+0l0l5	entre_1952_et_1969__	T
+
+#Depuis 1969, il héberge diverses activités (casse, ateliers de mécanique, fourrière, jardins familiaux, cirque...).
+
+1l0l0	Depuis_1969	T
+1l0l1	casse	O
+
+#L'AFTRP a repris le site en 1973.
+
+2l0l0	L__AFTRP	O
+2l0l1	a_repris	N
+2l0l2	le_site	O
+2l0l3	en_1973__	T
+2l1l0	L__AFTRP	I
+
+#Site ayant fait l'objet d'une pollution radiologique et par hydrocarbures.
+
+3l0l0	Site	O
+3l0l1	ayant_fait_l__objet_d_	R
+3l0l2	une_pollution_radiologique	O
+3l0l3	hydrocarbures	O
+3l1l0	hydrocarbures	S
+
+#L'AFTRP s'est occupée en priorité de la pollution radiologique.
+
+4l0l0	L__AFTRP	O
+4l0l1	s__est_occupée	N
+4l0l2	en_priorité_de	R
+4l0l3	la_pollution_radiologique	O
+4l1l0	L__AFTRP	I
+
+#Il existe une pollution radiologique résiduelle; les principaux radioéléments en cause sont le radium 226 et le cesium 137.
+
+5l1l0	radium_226	S
+5l1l1	cesium_137	S
+
+#Certaines zones ont été assainies; d'autres investigations se poursuivent.
+
+6l0l0	Certaines_zones	O
+6l0l1	ont_été_assainies	N
+6l0l2	d__autres_investigations	N
+
+#Les valeurs de débit de dose définies par la DGS (Direction Générale de la Santé) sont respectées et le site ne présente pas de risque radiologique.
+
+7l0l0	la_DGS	O
+7l0l1	le_site	O
+
+#Cependant certains points présentant une activité massique supérieure à la valeur correspondant à l'objectif de décontamination, fixé par l'arrêté préfectoral du 05/06/1997, leur traitement sera nécessaire en cas de travaux d'excavation des terres contaminées.
+
+8l0l0	l__arrêté_préfectoral	O
+8l0l1	05_06_1997	T
+8l0l2	leur_traitement_sera_nécessaire	N
+8l0l3	en_cas_de	R
+8l0l4	travaux_d__excavation	N
+8l0l5	des_terres_contaminées	N
+
+#Le chantier actuel est sous contrôle radiologique constant.
+
+9l0l0	Le_chantier_actuel	O
+9l0l1	contrôle_radiologique	O
+
+#Les déchets radioactifs ont été enlevés.
+
+10l0l0	Les_déchets_radioactifs	O
+10l0l1	ont_été_enlevés	N
+
+#Dans le cadre du diagnostic de pollution de sol, 5 piézomètres ont été installés sur les 25 ha du site, mais leur suivi n'est pas effectué régulièrement.
+
+11l0l0	Dans_le_cadre_du	R
+11l0l1	diagnostic	N
+11l0l2	5_piézomètres	O
+11l0l3	ont_été_installés	N
+11l0l4	sur_les_25_ha_du_site	L
+
+#La pollution par hydrocarbures est évaluée à 10 000 m3 de terres polluées.
+
+12l0l0	hydrocarbures	O
+12l0l1	terres_polluées	O
+12l1l0	hydrocarbures	S
+
+#la connaissance de la pollution des sols et des eaux souterraines – radiologie et autres – n’est que partielle, tant horizontalement qu’en profondeur.
+
+13l0l0	la_pollution_des_sols	O
+
+#D’autres études doivent être poursuivies afin que cette connaissance, la plus exhaustive possible, soit utilisée en vue d’une dépollution intégrale du site.
+
+14l0l0	dépollution_intégrale	N
+
+#Sauf élément nouveau  il n'y a plus d'action de l'inspection des installations classés.
+
+15l0l0	d__action_de_l__inspection_des_installations_classés	O

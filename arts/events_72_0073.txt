@@ -1,0 +1,335 @@
+
+#72.0073
+#Le site, situé au 428 avenue Georges Durand au Mans, correspond aux parcelles cadastrales n°301, 303, 304, 305 et 306 de la section IY pour une superficie de 32 805 m2.
+
+0l0l0	Le_site	O
+0l0l1	situé_au_428_avenue_Georges_Durand_au_Mans	L
+0l0l2	aux_parcelles_cadastrales	O
+
+#La société WESTINGHOUSE à partir de 1962 exploite une usine de montage de semi-conducteurs et de groupes redresseurs, puis en 1967 un dépôt de gaz combustible (hydrogène).
+
+1l0l0	La_société_WESTINGHOUSE	O
+1l0l1	à_partir_de_1962	T
+1l0l2	exploite	R
+1l0l3	une_usine_de_montage_de_semi_conducteurs	A
+1l0l4	redresseurs	O
+1l0l5	en_1967	T
+1l0l6	un_dépôt_de_gaz_combustible	O
+1l1l0	La_société_WESTINGHOUSE	I
+1l1l1	gaz_combustible	U
+1l1l2	hydrogène	U
+
+#En 2005, un changement d'exploitant a lieu avec la société SGTE Power.
+
+2l0l0	En_2005__	T
+2l0l1	un_changement_d_	N
+2l0l2	exploitant	O
+2l0l3	a_lieu	N
+2l0l4	la_société_SGTE_Power	O
+2l1l0	la_société_SGTE_Power	I
+
+#Une grande partie de la zone autorisée en 1962 (environ 13 ha) est aujourd'hui occupée par des habitations et par une zone artisanale.
+
+3l0l0	Une_grande_partie_de_la_zone_autorisée	O
+3l0l1	en_1962	T
+3l0l2	est_aujourd_hui_occupée_par	R
+3l0l3	des_habitations	O
+3l0l4	une_zone_artisanale	O
+
+#Le bâtiment principale restant est occupé par la société SGTE Power, titulaire de l'autorisation, et par la société Powerex Europe Manufacturing & Assembly qui a repris une partie des activités WESTINGHOUSE.
+
+4l0l0	Le_bâtiment	O
+4l0l1	la_société_SGTE_Power	O
+4l0l2	la_société_Powerex_Europe	O
+4l0l3	Manufacturing___Assembly	A
+4l0l4	a_repris	N
+4l0l5	une_partie_des_activités_WESTINGHOUSE	O
+4l1l0	la_société_SGTE_Power	I
+4l1l1	la_société_Powerex_Europe_Manufacturing	I
+4l1l2	WESTINGHOUSE	I
+
+#La société Powerex est locataire des locaux appartenant à SGTE Power.
+
+5l0l0	La_société_Powerex	O
+5l0l1	est_locataire	N
+5l0l2	des_locaux	O
+5l0l3	appartenant_à	R
+5l0l4	SGTE_Power	O
+5l1l0	La_société_Powerex	I
+5l1l1	SGTE_Power	I
+
+#La société SGTE quitte le site le 1er août 2010 pour s'installer dans la zone industrielle Sud du Mans.
+
+6l0l0	La_société_SGTE	O
+6l0l1	quitte	N
+6l0l2	le_site	O
+6l0l3	le_1er_août_2010	T
+6l0l4	s__installer	N
+6l0l5	dans_la_zone_industrielle_Sud_du_Mans	L
+6l1l0	La_société_SGTE	I
+
+#En avril 2011, une notification de mise à l'arrêt définitif du site SGTE Power est reçue en préfecture.
+
+7l0l0	En_avril_2011__	T
+7l0l1	une_notification	O
+7l0l2	l__arrêt_définitif	N
+7l0l3	site_SGTE_Power	O
+7l0l4	est_reçue	N
+7l0l5	en_préfecture	O
+7l1l0	SGTE_Power	I
+
+#Le site a été mis en sécurité :
+
+8l0l0	Le_site	O
+8l0l1	a_été_mis_en_sécurité	N
+
+#-verrouillage de toutes les portes,
+
+
+#-clôture du site avec portail d'entrée,
+
+10l0l0	_clôture_du_site	O
+
+#-les produits et déchets dangereux ont été éliminés.
+
+11l0l0	ont_été_éliminés	N
+11l1l0	_les_produits_et_déchets_dangereux	U
+
+#Depuis, une partie du site a été vendue à la société BELCO (parcelle 301,303,305,306).
+
+12l0l0	Depuis	T
+12l0l1	une_partie_du_site	O
+12l0l2	a_été_vendue_à	N
+12l0l3	la_société_BELCO	O
+12l1l0	la_société_BELCO	I
+
+#L'autre partie, propriété de SGTE Power, étant destinée à la vente pour réalisation immobilière, Parcelle 304.
+
+13l0l0	L__autre_partie	O
+13l0l1	SGTE_Power	O
+13l0l2	étant_destinée_à	R
+13l0l3	la_vente	N
+13l0l4	réalisation_immobilière	N
+13l1l0	SGTE_Power	I
+
+#Les zones concernées par les investigations sont l’ancienne aire de stockage de batterie et l’emplacement des cuves de stockage de fioul enterrées, sur la parcelle cadastrale n°304 de la section IY, pour une superficie d’environ 550 m².
+
+14l0l0	Les_zones_concernées	O
+14l0l1	l__ancienne_aire	O
+14l0l2	de_stockage_de_batterie	O
+14l0l3	l__emplacement_des_cuves_de_stockage_de_fioul_enterrées	O
+14l0l4	sur_la_parcelle_cadastrale	L
+14l1l0	cuves	D
+14l1l1	fioul	U
+
+#Un diagnostic sur l’état des sols du site avait été réalisé en 2005 .
+
+15l0l0	Un_diagnostic	N
+15l0l1	l__état_des_sols	N
+15l0l2	du_site	O
+15l0l3	avait_été_réalisé	N
+15l0l4	en_2005	T
+
+#Il en est ressorti la présence d’une contamination concentrée en Hydrocarbures Totaux (HCT), Hydrocarbures Aromatiques Polycycliques (HAP) et en BTEX (Benzène, Toluène, Ethylbenzène et Xylène) au droit et abords de l’ancienne aire de stockage de batterie et des cuves de stockage de fioul enterrées, à l’extrémité est du terrain.
+
+16l0l0	au_droit_et_abords_de_l_	L
+16l0l1	ancienne_aire_de_stockage_de_batterie	O
+16l0l2	cuves_de_stockage_de_fioul_enterrées	O
+16l0l3	à_l__extrémité_est_du_terrain	L
+16l1l0	Hydrocarbures_Totaux	S
+16l1l1	HCT	S
+16l1l2	Hydrocarbures_Aromatiques_Polycycliques	S
+16l1l3	HAP	S
+16l1l4	BTEX	S
+16l1l5	Benzène	S
+16l1l6	Toluène	S
+16l1l7	Ethylbenzène	S
+16l1l8	Xylène	S
+16l1l9	des_cuves_de_stockage	D
+16l1l10	fioul	U
+
+#Par ailleurs, des teneurs en arsenic de l’ordre de 25 mg/kgMS avaient été relevées lors du diagnostic initial.
+
+17l0l0	des_teneurs	O
+17l0l1	arsenic	O
+17l0l2	avaient_été_relevées	N
+17l0l3	lors	R
+17l0l4	du_diagnostic_initial	N
+17l1l0	arsenic	S
+
+#Il a été effectué 12 sondages les 6 et 7 juillet 2016 aux abords des points de sondage au droit desquels la contamination avait été identifiée en 2005, c’est-à-dire les points de sondage S5 à S9.
+
+18l0l0	Il	O
+18l0l1	a_été_effectué	N
+18l0l2	12_sondages	N
+18l0l3	les_6_et_7_juillet_2016	T
+18l0l4	aux_abords_des	L
+18l0l5	points_de_sondage	N
+18l0l6	la_contamination	O
+18l0l7	avait_été_identifiée	N
+18l0l8	en_2005__	T
+
+#Les analyses des sols ont porté sur les paramètres suivants  :
+
+19l0l0	Les_analyses	N
+
+#- Hydrocarbures totaux (fractions C10-C40) : HCT ;
+
+20l1l0	Hydrocarbures_totaux	S
+20l1l1	fractions_C10_C40__	S
+20l1l2	HCT	S
+
+#- Hydrocarbures aromatiques polycycliques (16 congénères) : HAP ;
+
+21l1l0	Hydrocarbures_aromatiques_polycycliques___16	S
+21l1l1	HAP	S
+
+#- Benzène, Toluène, Ethylbenzène et Xylène : BTEX ;
+
+22l1l0	Benzène	S
+22l1l1	Toluène	S
+22l1l2	Ethylbenzène	S
+22l1l3	Xylène	S
+22l1l4	BTEX	S
+
+#- Polychlorobiphényles : PCB.
+
+23l1l0	Polychlorobiphényles	S
+23l1l1	PCB	S
+
+#La localisation des sondages est précisée sur le plan-cartographique-72.0073--2.jpg
+
+24l0l0	La_localisation_des_sondages	O
+24l0l1	est_précisée	N
+
+#On détecte des teneurs en HAP cohérentes avec les teneurs habituellement rencontrées dans les sols urbains, à l’exception des teneurs détectées sur les échantillons C1/3, C4/3, C9/2 et C9/3.
+
+25l0l0	HAP	O
+25l1l0	HAP	S
+
+#Seul l’échantillon C4/3 présente une teneur fortement supérieure aux teneurs moyennes habituelles, de l’ordre de 35 mg/kgMS.
+
+
+#Les teneurs en BTEX inférieures aux limites de quantification des méthodes d’analyse, à l’exception des teneurs détectées sur les échantillons C1/3, C1/4, C3/1, et C12/3.
+
+27l1l0	BTEX	S
+
+#Seul l’échantillon C4/3 présente une teneur fortement supérieure aux limites de quantification, de l’ordre de 6 mg/kgMS.
+
+
+#Les observations de terrain constatées lors de la réalisation du sondage C3 sont confirmée par une teneurs en PCB détectée en surface (C3/1) de 422 mg/kgMS.
+
+29l0l0	la_réalisation	N
+29l1l0	PCB	S
+
+#Sur l’horizon inférieur (échantillon C3/2 : 2,80 m – 4,30 m), la teneur détectée n’est plus que de l’ordre de 6,5 mg/kgMS.
+
+
+#La campagne d’investigations sur les sols a permis de définir l’étendue des contaminations concentrées identifiées en HCT, HAP et BTEX lors des investigations initiales et d'identifier une contamination en PCB non répertoriée initialement.
+
+31l0l0	La_campagne_d__investigations	N
+31l0l1	les_sols	N
+31l0l2	des_investigations_initiales	N
+31l0l3	identifier_une_contamination	O
+31l1l0	HCT	S
+31l1l1	HAP	S
+31l1l2	BTEX	S
+31l1l3	PCB	S
+
+#La campagne d’investigations sur les eaux souterraines a permis de mettre en évidence un impact significatif sur les eaux souterraines au droit de la zone d’étude en HCT, HAP et BTEX.
+
+32l0l0	La_campagne_d__investigations	N
+32l0l1	les_eaux_souterraines	O
+32l0l2	un_impact	O
+32l0l3	au_droit_de_la_zone_d_	L
+32l1l0	HCT	S
+32l1l1	HAP	S
+32l1l2	BTEX	S
+
+#Bien qu’un doute subsiste sur le sens d’écoulement de la nappe, on peut supposer que la nappe s’écoule vers l’extérieur du site, à l’ouest.
+
+33l0l0	écoule_vers_l__extérieur_du_site	L
+33l0l1	à_l__ouest	L
+
+#Les recommandations du bureau d'étude étaient les suivantes :
+
+34l0l0	Les_recommandations	O
+34l0l1	bureau_d__étude	O
+
+#- surveillance de la qualité des eaux souterraines,
+
+35l0l0	surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#- gestion des contaminations éventuelles : bilan coûts/avantages, plan de gestion, analyse des enjeux sanitaires,
+
+
+#- l'utilisation fortement déconseillée des eaux souterraines au droit du site et à proximité en aval hydraulique du site,
+
+37l0l0	au_droit_du_site	L
+37l0l1	à_proximité_en_aval_hydraulique_du_site	L
+
+#- conservation de la mémoire sur la localisation de la pollution.
+
+38l0l0	la_localisation_de_la_pollution	O
+
+#Des travaux de remise en état ont été effectués sur la partie Est du site correspondant à la parcelle.
+
+39l0l0	Des_travaux_de_remise_en_état	N
+39l0l1	ont_été_effectués	N
+39l0l2	sur_la_partie_Est_du_site	L
+39l0l3	la_parcelle	O
+
+#Les terres de la partie Est du site, impactées en hydrocarbures, ont été excavées et évacuées en filière adaptée.  Des cuves et bétons imprégnés d’hydrocarbures ont également été évacués.
+
+40l0l0	Les_terres_de_la_partie_Est_du_site	O
+40l0l1	impactées	O
+40l0l2	hydrocarbures	O
+40l0l3	ont_été_excavées	N
+40l0l4	évacuées	O
+40l0l5	en_filière_adaptée	N
+40l0l6	__Des_cuves	O
+40l0l7	bétons_imprégnés_d__hydrocarbures	O
+40l0l8	ont_également_été_évacués	N
+40l1l0	hydrocarbures	S
+40l1l1	d__hydrocarbures	S
+
+#Le chantier a ensuite été remblayé.
+
+41l0l0	Le_chantier	O
+41l0l1	a_ensuite_été_remblayé	N
+
+#Le bâtiment situé sur la partie ouest du site a été démoli après avoir subi une phase de désamiantage.
+
+42l0l0	Le_bâtiment	O
+42l0l1	situé_sur_la_partie_ouest_du_site	L
+42l0l2	a_été_démoli	N
+42l0l3	après_avoir	R
+42l0l4	subi_une_phase_de_désamiantage	N
+
+#Des compléments au mémoire de réhabilitation sont attendus prochainement notamment pour :
+
+
+#- préciser les restrictions d'usage sur la partie Est du site pour laquelle une pollution résiduelle va perdurer
+
+44l0l0	préciser_les_restrictions_d__usage	O
+44l0l1	sur_la_partie_Est_du_site	L
+44l0l2	va_perdurer	N
+
+#- démontrer la compatibilité du reste de la parcelle avec un usage résidentiel
+
+45l0l0	la_compatibilité	O
+45l0l1	un_usage_résidentiel	A
+
+#- proposer une surveillance environnementale sur site et hors site
+
+46l0l0	surveillance_environnementale	N
+
+#En cas de projets d'aménagements sur les parcelles (avec ou sans changement d'usage), il conviendra de mener au préalable des études complémentaires pour s'assurer de la compatibilité des terrains avec l'usage envisagé.
+
+47l0l0	En_cas	R
+47l0l1	de_projets_d__aménagements	N
+47l0l2	les_parcelles	O
+47l0l3	sans_changement_d__usage	N
+47l0l4	des_études_complémentaires	N
+47l0l5	la_compatibilité	O
+47l0l6	des_terrains	O

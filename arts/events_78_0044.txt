@@ -1,0 +1,128 @@
+
+#78.0044
+#Le terrain situé au Sud-Est de la ville de Triel-sur-Seine a accueilli de 1881 à 1905 des installations d’une usine fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	Le_terrain	O
+0l0l1	situé_au_Sud_Est_de_la_ville_de_Triel_sur_Seine	L
+0l0l2	a_accueilli	N
+0l0l3	de_1881_à_1905	T
+0l0l4	des_installations	O
+0l0l5	une_usine	O
+0l0l6	fabriquant_du_gaz	A
+0l0l7	à_partir_de	R
+0l0l8	la_distillation_de_la_houille	A
+
+#En 1905, le site devient une station gazométrique.
+
+1l0l0	En_1905	T
+1l0l1	le_site	O
+1l0l2	devient	R
+1l0l3	une_station_gazométrique	O
+
+#Seules deux parcelles sont encore occupées par des activités d'EDF ou GDF, le reste est devenu une zone pavillonnaire / artisanale.
+
+2l0l0	deux_parcelles	O
+2l0l1	sont_encore_occupées	N
+2l0l2	activités	A
+2l0l3	le_reste	O
+2l0l4	est_devenu	N
+2l0l5	une_zone_pavillonnaire	O
+2l0l6	__artisanale	A
+2l1l0	d__EDF	I
+2l1l1	GDF	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d’anciennes usines à gaz qu’il gère répartis sur l’ensemble du territoire.
+
+3l0l0	Gaz_de_France	O
+3l0l1	a_hiérarchisé	N
+3l0l2	ses_actions	O
+3l0l3	467_sites	O
+3l1l0	Gaz_de_France	I
+
+#La méthodologie a consisté à hiérarchiser les sites en fonction de leur sensibilité vis-à-vis de l’environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site,...).
+
+4l0l0	hiérarchiser	N
+4l0l1	les_sites	O
+4l0l2	en_fonction_de	R
+4l0l3	leur_sensibilité	O
+4l0l4	vis_à_vis_de	R
+4l0l5	l__environnement	O
+
+#L’application de cette méthode a abouti à l’établissement de cinq classes de priorité pour lesquelles les engagements de Gaz de France ont fait l’objet d’un protocole d’accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d’usines à gaz entre le Ministère de l’Environnement et Gaz de France signé le 25 avril 1996.
+
+5l0l0	L__application	N
+5l0l1	cette_méthode	O
+5l0l2	a_abouti_à	R
+5l0l3	l__établissement	N
+5l0l4	cinq_classes_de_priorité	O
+5l0l5	les_engagements	O
+5l0l6	Gaz_de_France	O
+5l0l7	ont_fait_l__objet_d_	R
+5l0l8	un_protocole_d__accord	O
+5l0l9	relatif_à	R
+5l0l10	la_maîtrise	O
+5l0l11	suivi	O
+5l0l12	la_réhabilitation	N
+5l0l13	anciens_terrains_d__usines_à_gaz	O
+5l0l14	entre	R
+5l0l15	le_Ministère_de_l__Environnement	O
+5l0l16	Gaz_de_France	O
+5l0l17	signé	N
+5l0l18	le_25_avril_1996	T
+5l1l0	Gaz_de_France	I
+5l1l1	le_Ministère_de_l__Environnement	I
+5l1l2	Gaz_de_France	I
+
+#Le site de Triel-sur-Seine est en classe 3 du protocole.
+
+6l0l0	Le_site	O
+6l0l1	Triel_sur_Seine	L
+6l1l0	Triel_sur_Seine	I
+
+#De ce fait, c’est un site dont la sensibilité vis-à-vis de l’homme, des eaux souterraines et superficielles est faible.
+
+
+#Conformément aux engagements du protocole, ce site a fait l’objet, sur les deux parcelles dont la propriété est encore à GDF ou à EDF, d’une étude historique avec localisation des cuves (recherches bibliographiques, enquêtes) effectuée par un bureau d’études à la demande de Gaz de France.
+
+8l0l0	ce_site	O
+8l0l1	a_fait_l__objet	R
+8l0l2	sur	L
+8l0l3	les_deux_parcelles	O
+8l0l4	GDF	O
+8l0l5	EDF	O
+8l0l6	une_étude_historique	N
+8l0l7	cuves	O
+8l0l8	un_bureau_d__études	O
+8l0l9	à_la_demande_de	R
+8l0l10	Gaz_de_France	O
+8l1l0	GDF	I
+8l1l1	des_cuves	D
+8l1l2	Gaz_de_France	I
+
+#Ces deux zones ne présentent pas d'anomalies au regard des conclusions des études menées.
+
+
+#L'étude historique a permis de montrer l'absence d'anciens ouvrages enterrés de stockage ou de structures liés au fonctionnement de l'ancienne usine à gaz de TRIEL sur SEINE.
+
+10l0l0	structures	O
+10l0l1	liés_au	R
+10l0l2	fonctionnement	A
+10l0l3	l__ancienne_usine_à_gaz	O
+10l0l4	de_TRIEL	O
+10l0l5	sur_SEINE	L
+
+#Le rapport parcellaire a été adressé à la DRIRE le 21 mai 2002.
+
+11l0l0	Le_rapport_parcellaire	O
+11l0l1	a_été_adressé	N
+11l0l2	la_DRIRE	O
+11l0l3	le_21_mai_2002	T
+11l1l0	la_DRIRE	I
+
+#Le dossier relatif à ce site est clos tant qu'une cession ou un changement d'usage n'est pas envisagé.
+
+12l0l0	est_clos	N
+12l0l1	tant_qu_	R
+12l0l2	une_cession	N
+12l0l3	un_changement_d__usage	N
+12l0l4	n__est_pas_envisagé	R

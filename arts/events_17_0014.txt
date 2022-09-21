@@ -1,0 +1,161 @@
+
+#17.0014
+#Usine de fabrication de produits chimiques pour l'industrie pharmaceutique.
+
+0l0l0	Usine_de	O
+0l0l1	fabrication_de_produits_chimiques	A
+0l0l2	l__industrie_pharmaceutique	A
+
+#Son activité englobe également la recherche et le développement de procédés chimiques.
+
+1l0l0	Son_activité	A
+1l0l1	englobe_également	R
+1l0l2	la_recherche_et_le_développement_de_procédés_chimiques	A
+
+#Dans le cadre de la circulaire du 3 avril 1996, un diagnostic initial a été prescrit à l'exploitant de cette unité, à titre préventif (arrêté préfectoral du 2 avril 1998).
+
+2l0l0	Dans_le_cadre_de	R
+2l0l1	la	O
+2l0l2	3_avril_1996__	T
+2l0l3	un_diagnostic_initial	N
+2l0l4	a_été_prescrit	N
+2l0l5	l__exploitant	O
+2l0l6	cette_unité	O
+2l0l7	arrêté_préfectoral	O
+2l0l8	2_avril_1998____	T
+
+#La société a transmis une partie de la phase A de son étude de sols en mars 2000.
+
+3l0l0	La_société	O
+3l0l1	a_transmis	N
+3l0l2	une_partie_de_la_phase_A	O
+3l0l3	son_étude_de_sols	N
+3l0l4	en_mars_2000__	T
+
+#Il s'agissait d'un recensement des activités, notamment celles exercées par le passé, et de leur localisation.
+
+4l0l0	leur_localisation	O
+
+#L'inspection a alors demandé à l'exploitant, par courrier en date du 11 mai 2000, de compléter la phase A par une étude détaillée de l'hydrogéologie (sens d'écoulement de la nappe, qualité, usage) du site et de réaliser la phase B.
+
+5l0l0	L_	O
+5l0l1	l__exploitant	O
+5l0l2	en_date_du_11_mai_2000__	T
+5l0l3	de_compléter	N
+5l0l4	la_phase_A	O
+5l0l5	l__hydrogéologie	N
+5l0l6	réaliser	N
+5l0l7	la_phase_B_	O
+
+#Devant une dérive trop importante des délais, l'inspection a relancé l'exploitant en mars 2002, puis en octobre 2002 en lui indiquant qu'il s'exposait, en l'absence de réponse immédiate, à des sanctions.
+
+6l0l0	l__inspection	O
+6l0l1	a_relancé	N
+6l0l2	l__exploitant	O
+6l0l3	en_mars_2002__	T
+6l0l4	en_octobre_2002	T
+
+#A la suite de ces injonctions, l'étape B de l'étude de sols et l'évaluation simplifiée des risques ont été transmises, en rangeant notamment le site en classe 2, c'est-à-dire nécessitant une surveillance environnementale.
+
+7l0l0	A_la_suite_de	R
+7l0l1	ces_injonctions	O
+7l0l2	évaluation_simplifiée_des_risques	N
+7l0l3	ont_été_transmises	N
+7l0l4	rangeant	N
+7l0l5	notamment_le_site	O
+7l0l6	une_surveillance_environnementale	N
+
+#De fait, un arrêté préfectoral complémentaire, en date du 14 février 2003, a imposé à la société la mise en place d'un programme de surveillance des eaux souterraines.
+
+8l0l0	un_arrêté_préfectoral_complémentaire	O
+8l0l1	en_date_du_14_février_2003__	T
+8l0l2	a_imposé	N
+8l0l3	la_société	O
+8l0l4	la_mise_en_place_d_	N
+8l0l5	un_programme_de_surveillance	A
+8l0l6	des_eaux_souterraines	A
+
+#Par ailleurs, des compléments à l'étude de sols ont été sollicités par l'inspection par courrier du 6 mai 2003, afin de préciser en particulier le contexte hydrogéologique du site et la connaissance des impacts éventuels.
+
+9l0l0	ont_été_sollicités	N
+9l0l1	l__inspection	O
+9l0l2	6_mai_2003__	T
+9l0l3	le_contexte_hydrogéologique	N
+9l0l4	la_connaissance_des_impacts	O
+
+#Suite aux dernières campagnes de surveillance réalisées en juillet 2003, SITA REMEDIATION a constaté la présence de concentrations non négligeables de MTBE.
+
+10l0l0	Suite_aux	R
+10l0l1	dernières_campagnes_de_surveillance	N
+10l0l2	en_juillet_2003__	T
+10l0l3	SITA_REMEDIATION	O
+10l0l4	a_constaté	N
+10l0l5	la_présence	O
+10l1l0	SITA_REMEDIATION	I
+10l1l1	MTBE	S
+
+#Afin de stopper tout éventuel rejet additionnel, la société SIMAFEX a aussitôt lancé une recherche de la source de contamination.
+
+11l0l0	la_société_SIMAFEX	O
+11l0l1	a_aussitôt_lancé	N
+11l0l2	une_recherche	N
+11l0l3	la_source_de_contamination	O
+11l1l0	la_société_SIMAFEX	I
+
+#La principale cause de la présence de MTBE dans les eaux souterraines a été identifiée.
+
+12l0l0	La_principale_cause_de_la_présence_de_MTBE	O
+12l0l1	a_été_identifiée	N
+12l1l0	MTBE	S
+
+#Elle est liée à un débordement accidentel qui a eu lieu en octobre 2001, avec épandage par la soupape hors de la rétention lors du remplissage de la cuve N°2.
+
+13l0l0	un_débordement_accidentel	N
+13l0l1	a_eu_lieu	N
+13l0l2	en_octobre_2001__	T
+13l0l3	épandage	N
+13l0l4	par_la	O
+13l0l5	soupape_hors_de_la_rétention	A
+13l0l6	du_remplissage_de	A
+13l0l7	la_cuve_N___2	O
+
+#Un arrêté complémentaire en date du 17 octobre 2003 a prescrit à l'exploitant :
+
+14l0l0	Un_arrêté_complémentaire	O
+14l0l1	en_date_du_17_octobre_2003	T
+14l0l2	a_prescrit	N
+14l0l3	l__exploitant	O
+
+#- une étude sur l'historique du site
+
+
+#- une étude hydrogéologique
+
+
+#- une demande à l'exploitant de modifier les critères d'analyses des eaux souterraines.
+
+17l0l0	l__exploitant	O
+17l0l1	modifier	N
+17l0l2	les_critères	O
+
+#Ces études ont été remises à l'inspection et un nouveau programme de surveillance a été mis en place.
+
+18l0l0	Ces_études	O
+18l0l1	ont_été_remises	N
+18l0l2	l__inspection	O
+18l0l3	un_nouveau_programme_de_surveillance	O
+18l0l4	a_été_mis_en_place	N
+
+#Plusieurs arrêtés préfectoraux complémentaires ont été pris par la suite.
+
+19l0l0	Plusieurs_arrêtés_préfectoraux_complémentaires	O
+19l0l1	ont_été_pris	N
+
+#Le dernier date du 02/03/2016 et fixe les dernières modalités de surveillance (des rejets atmosphériques (air), des eaux résiduaires, eaux pluviales, eaux des lagunes, eaux souterraines, sédiments, etc.).
+
+20l0l0	Le_dernier	O
+20l0l1	date_du_02_03_2016	T
+20l0l2	fixe	R
+20l0l3	les_dernières_modalités	O
+20l0l4	surveillance	A
+20l1l0	sédiments	S

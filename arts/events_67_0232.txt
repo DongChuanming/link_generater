@@ -1,0 +1,79 @@
+
+#67.0232
+#Forages de 1951 de l'ancienne concession de Pechelbronn, première mine de pétrole en France.
+
+0l0l0	Forages_de_1951	T
+0l0l1	l__ancienne_concession	O
+0l0l2	de_Pechelbronn	O
+0l0l3	première_mine	N
+0l0l4	de_pétrole_en_France	A
+
+#Ce forage n'est plus en activité mais le gisement ayant tendance à se remettre en pression depuis l'arrêt de l'exploitation, il est devenu artésien.
+
+1l0l0	Ce_forage	O
+1l0l1	n__est_plus_en_activité	N
+1l0l2	le_gisement	O
+1l0l3	ayant_tendance_à	R
+1l0l4	se_remettre_en_pression	N
+1l0l5	depuis	T
+1l0l6	l__arrêt	N
+1l0l7	l__exploitation	N
+1l0l8	est_devenu_artésien	N
+
+#Site suivi par l'Etat avec maîtrise d'ouvrage déléguée au BRGM.
+
+2l0l0	Site	O
+2l0l1	l__Etat	O
+2l0l2	ouvrage_déléguée_au_BRGM	O
+2l1l0	BRGM	I
+
+#Les anciens forages de la concession de Pechelbronn sont souvent mal rebouchés et peuvent laisser échapper du pétrole brut, de l'eau, du méthane et parfois certains polluants.
+
+3l0l0	Les_anciens_forages	N
+3l0l1	la_concession	O
+3l0l2	de_Pechelbronn	O
+3l0l3	pétrole_brut	O
+3l1l0	pétrole_brut	U
+3l1l1	polluants	S
+
+#Cet ancien forage a fait l'objet d'une mise en sécurité en 2001.
+
+4l0l0	Cet_ancien_forage	O
+4l0l1	a_fait_l__objet_d_	R
+4l0l2	une_mise_en_sécurité	N
+4l0l3	en_2001	T
+
+#L'équipement standard posé est constitué :
+
+
+#- d’une semelle en béton mise autour de la tête de forage,
+
+6l0l0	la_tête_de_forage	O
+
+#- d’une virole en béton installée sur la semelle constituant ainsi un piège à pétrole,
+
+7l0l0	piège_à_pétrole	O
+
+#- d'un siphon permettant l’évacuation de l’eau en excès
+
+
+#La virole en béton a été remplacée en 2006 par une virole en acier inoxydable.
+
+9l0l0	La_virole_en_béton	O
+9l0l1	a_été_remplacée	N
+9l0l2	en_2006	T
+9l0l3	une_virole	O
+9l0l4	acier_inoxydable	O
+
+#Des mesures périodiques (non cycliques) du niveau dans l'ouvrage sont réalisées afin d'éviter tout débordement.
+
+10l0l0	Des_mesures_périodiques	N
+10l0l1	sont_réalisées	N
+
+#Des prélèvements de pétrole sont réalisés chaque automne : composés organiques halogénés volatils, phtalates, chlorobenzènes et PCB sont recherché
+
+11l0l0	automne	T
+11l1l0	composés_organiques_halogénés	S
+11l1l1	phtalates	S
+11l1l2	chlorobenzènes	S
+11l1l3	PCB	S

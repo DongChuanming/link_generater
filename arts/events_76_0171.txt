@@ -1,0 +1,249 @@
+
+#76.0171
+#L'établissement est situé sur la commune de Montville au confluent de la rivière de Clères et du Cailly entre les 2 bras de rivière et ensuite de part et d'autres du bras commun sur une longueur d'environ 70 m.
+
+0l0l0	L_	R
+0l0l1	établissement_est_situé	N
+
+#Actuellement exploité pour le stockage et la distribution de divers produits chimiques (site classé AS et SEVESO II seuil Haut), le site se compose de 3 zones  : zone A au sud , zone B au Nord-Ouest de zone A et zone C au Nord-Est de zone A.
+
+1l0l0	divers_produits_chimiques	N
+
+#Depuis la reconstruction du site, la zone C n'est plus exploitée.
+
+2l0l0	Depuis_la_reconstruction	O
+2l0l1	du_site___la_zone_C_n__est_plus	L
+2l0l2	exploitée__	L
+
+#La coupe géologique au droit du site est la suivante :
+
+3l0l0	La_coupe_géologique_au_droit	N
+3l0l1	du_site_est_la_suivante__	A
+
+#- de 0 à 7 mètres de profondeur : remblais, alluvions modernes avec tourbes, alluvions anciennes,
+
+4l0l0	__de_0_à_7_mètres_de_profondeur	N
+4l0l1	_	O
+4l0l2	remblais__	O
+4l0l3	alluvions_modernes_avec	N
+
+#- à partir de 7 mètres : craie du Turonien.
+
+5l0l0	__à_partir_de_7_mètres	O
+5l0l1	__craie_du_Turonien	L
+
+#La nappe superficielle se trouve à 1,5 m de profondeur et la nappe de la craie du Turonien à 8 m de profondeur.
+
+
+#Cette dernière est exploitée pour l'alimentation en eau potable par 3 captages AEP :
+
+7l1l0	pour	S
+
+#- les 2 captages AEP dits "des Anglais" situés à 500 m au Nord Est du site,
+
+
+#- le captage AEP des Sondres situé à 100 m à l'Est du site (en latéral hydraulique).
+
+9l0l0	des_Sondres_situé	N
+9l0l1	100_m_à_l__Est_du_site___en_latéral	A
+9l0l2	hydraulique____	O
+
+#Selon un rapport préliminaire d'un hydrogéologue agréé, le cône d'appel du forage des Sondres (le plus proche) ne recoupe pas la nappe sous la zone polluée.
+
+10l0l0	Selon_un_rapport_préliminaire	O
+10l0l1	hydrogéologue_agréé___le_cône_d__appel	L
+
+#L'exploitant assure le suivi de la qualité des eaux pompées aux captages des Sondres et des Anglais.
+
+11l0l0	L__exploitant_assure	O
+11l0l1	suivi_de_la_qualité_des_eaux_pompées	L
+11l0l2	aux_captages_des_Sondres	L
+
+#Dans le cadre de la reconstruction du site, l'exploitant a réalisé en juin 2002 un diagnostic de pollution des sols et de la première nappe qui a mis en évidence la présence d’une pollution du sol et de la nappe souterraine par des substances chlorées, des hydrocarbures et des métaux lourds.
+
+12l0l0	réalisé_en_juin	O
+12l0l1	diagnostic_de	L
+12l0l2	mis_en_évidence	O
+
+#Un piézomètre à la craie a été implanté en zone C afin de prélever et analyser l'eau de cette nappe.
+
+13l0l0	Un_piézomètre	O
+13l0l1	à_la_craie_a_été_implanté	A
+13l0l2	en_zone_C_afin	O
+13l0l3	de_prélever	A
+13l0l4	et_analyser_l__eau_de_cette_nappe__	L
+
+#L'analyse a révélé la présence de solvants chlorés et d'hydrocarbures.
+
+14l0l0	L__analyse_a_révélé	R
+14l0l1	la_présence_de_solvants	N
+14l0l2	chlorés_et_d_	O
+14l0l3	hydrocarbures	N
+14l0l4	_	T
+
+#Compte tenu de la proximité des 3 captages AEP, l'inspection des installations classées a proposé à monsieur le préfet de prendre un arrêté préfectoral de mesures d'urgence demandant à l'exploitant de réaliser les actions suivantes :
+
+15l0l0	Compte_tenu_de	O
+15l0l1	proximité_des_3_captages	N
+15l0l2	AEP__	L
+15l0l3	classées_a	O
+
+#1) réaliser une campagne d’analyse sur les trois captages et les piézomètres du site.
+
+16l1l0	analyse_sur_les_trois_captages	U
+16l1l1	et_les_piézomètres	S
+
+#2) assurer une surveillance périodique de la qualité des eaux pompées aux captages AEP et de la nappe au droit du site.
+
+17l0l0	périodique_de_la	O
+17l0l1	qualité_des_eaux_pompées_aux_captages_AEP_et	O
+17l0l2	au_droit_du_site__	O
+17l1l0	du_site__	I
+
+#3) réaliser une Evaluation Détaillée des Risques pour définir les objectifs et la nature des travaux de dépollution à entreprendre.
+
+18l0l0	réaliser_une_Evaluation_Détaillée	N
+
+#L'exploitant a remis un diagnostic approfondi et une évaluation détaillée des risques en avril 2004.
+
+19l0l0	exploitant_a_remis_un_diagnostic_approfondi_et_une_évaluation	A
+19l0l1	2004__	L
+
+#Par arrêté préfectoral du 8 février 2008, le Préfet a notamment imposé la gestion de l'ancienne zone de stockage de solvants chlorés.
+
+20l0l0	préfectoral_du_8_février_2008___le_Préfet	N
+20l0l1	notamment_imposé_la_gestion	O
+20l0l2	ancienne_zone_de_stockage_de_solvants_chlorés	N
+
+#Ces dispositions ont abouti au dépôt en septembre 2008 d'un plan de gestion.
+
+21l0l0	Ces_dispositions	O
+21l0l1	ont	N
+21l0l2	abouti_au_dépôt_en_septembre	N
+21l0l3	2008_d__un_plan_de_gestion__	N
+
+#La caractérisation de la zone source a été réalisée en novembre 2011.
+
+22l0l0	La_caractérisation_de_la	O
+22l0l1	zone_source_a_été	T
+22l0l2	réalisée	O
+22l0l3	en_novembre_2011__	N
+22l1l0	réalisée	I
+
+#Diverses solutions de traitement ont été étudiées en laboratoire ou in-situ entre 2009 et 2014.
+
+23l0l0	Diverses_solutions	O
+23l0l1	de_traitement_ont	N
+23l0l2	été_étudiées_en	T
+23l0l3	laboratoire_ou_in___situ	O
+
+#Le chantier de dépollution proprement dit a débuté à l'automne 2014.
+
+24l0l0	Le_chantier_de_dépollution	N
+24l0l1	proprement	O
+24l0l2	dit_a_débuté	N
+24l0l3	à_l__automne_2014__	T
+
+#Dès les travaux préparatoires du chantier, une pollution encore inconnue (lindane, sulfates, pesticides) a été mise à jour, stoppant ainsi les travaux.
+
+25l0l0	Dès_les_travaux_préparatoires_du	O
+25l0l1	chantier___une_pollution	N
+25l0l2	__lindane___sulfates___pesticides___a_été_mise_à_jour___stoppant_ainsi_les_travaux__	T
+
+#Du fait de la découverte de ces nouveaux polluants, l'inspection a demandé la remise d'un nouveau plan de gestion suite à se visite du 20 février 2015.
+
+26l0l0	Du_fait_de_la_découverte_de	N
+26l0l1	ces_nouveaux_polluants__	N
+26l0l2	l__inspection_a_demandé_la_remise_d__un_nouveau_plan_de_gestion_suite_à_se_visite_du_20_février_2015__	T
+
+#6 lots de terres ont été excavés et stockés sur site sur une aire aménagée.
+
+27l0l0	6_lots	T
+27l0l1	de_terres_ont_été_excavés_et_stockés_sur	N
+27l0l2	site_sur_une_aire	O
+
+#Une partie a été évacuée.
+
+28l0l0	partie_a_été_évacuée	N
+
+#Le nouveau plan de gestion présenté en juillet 2016 a fait l'objet de plusieurs échanges et modifications avant d'être considéré comme acceptable.
+
+29l0l0	Le_nouveau_plan	O
+29l0l1	de_gestion_présenté	N
+29l0l2	fait	O
+29l0l3	l__objet_de_plusieurs	N
+
+#L’inspection a proposé dans son projet d’arrêté de mise à jour des prescriptions techniques, la reprise des travaux avec traitement in situ et/ou évacuation en traitement extérieur des terres polluées.
+
+30l0l0	L__inspection	O
+30l0l1	a_proposé	N
+
+#Par arrêté préfectoral du 16 janvier 2017, il est demandé à l'exploitant reprendre les travaux de dépollution stoppés en 2014 conformément aux éléments transmis par l’exploitant le 28 février 2014, complétés et modifiés par le plan de gestion transmis le 18 juillet 2016 et par le projet de traitement par « encapsulage » transmis par l'exploitant le 17 novembre 2016 et prenant en compte les préconisations de l’hydrogéologue agréé du 23 avril 2014.
+
+31l0l0	Par_arrêté_préfectoral_du	O
+31l0l1	16_janvier	N
+31l0l2	2017___il_est	T
+31l0l3	demandé_à_l__exploitant	R
+31l0l4	travaux_de_dépollution_stoppés	R
+
+#Le suivi de la qualité de la nappe souterraine au droit du site (nappe des alluvions, nappe de la Craie) doit démontrer l’efficacité des opérations de dépollution réalisées.
+
+32l0l0	nappe_des_alluvions___nappe_de_la	O
+32l0l1	Craie___doit_démontrer	N
+32l0l2	efficacité_des_opérations	N
+32l0l3	de_dépollution_réalisées__	N
+
+#Les opérations consistent à :
+
+33l0l0	Les_opérations_consistent	O
+33l0l1	à__	T
+
+#- retirer 94% de la masse de la pollution estimée en solvants chlorés  par l'excavation d'environ 1440 m3 de terres sur une zone de 690 m² et jusqu'au respect des seuils imposés en bords et fond de fouille
+
+34l0l0	__retirer_94___de_la_masse_de_la_pollution	A
+34l0l1	estimée_en_solvants_chlorés	L
+34l0l2	et_jusqu__au_respect_des_seuils_imposés	N
+
+#- confiner la pollution en pesticides organo-chlorés
+
+
+#- Les terres excavées sont stockées sur une aire étanche puis encapsulées sur site.
+
+36l0l0	encapsulées_sur_site__	N
+36l1l0	étanche_puis_encapsulées	S
+
+#- Une vérification analytique des bords et fonds de fouilles est réalisée avant les opérations de remblaiement et réaménagement.
+
+37l1l0	analytique_des_bords	S
+37l1l1	fonds_de_fouilles_est_réalisée_avant_les_opérations_de_remblaiement_et_réaménagement__	S
+
+#Les travaux de dépollution sont suivi par un bureau d'étude qui s'assure que le chapitre 8.8 de l'arrêté préfectoral du 16 janvier 2017 est bien appliqué.
+
+
+#Ils ont débuté fin mars 2017, et ont été stoppés fin avril 2017 dans l'attente de résultats d'analyses.
+
+39l0l0	ont_été	O
+39l0l1	stoppés_fin_avril_2017	O
+39l0l2	dans_l__attente	N
+39l0l3	de	T
+39l0l4	résultats_d__analyses__	N
+
+#L'exploitant a excavé un volume d'environ 2000 m3.
+
+40l0l0	L__exploitant_a_excavé_un	N
+40l0l1	volume	N
+40l0l2	d__environ	R
+40l0l3	2000_m3__	O
+
+#Les 30 cm de terre végétale prévue pour le recouvrement final sera remplacé par 30 cm de béton concassé, et compacté, en accord avec l'inspection.
+
+41l0l0	30_cm_de_terre	N
+41l0l1	végétale_prévue	T
+41l0l2	pour_le_recouvrement	N
+41l0l3	final	T
+
+#Deux piézomètres ont été implantés pour la surveillance de eaux souterraines dans la nappe des alluvions
+
+42l0l0	Deux_piézomètres	O
+42l0l1	ont_été	N
+42l0l2	surveillance_de_eaux_souterraines_dans_la_nappe_des_alluvions	O

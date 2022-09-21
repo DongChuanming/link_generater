@@ -1,0 +1,228 @@
+
+#59.0274
+#La société Vieux-Condé-Estampage est implantée en limite du centre ville dans des bâtiments d'une grande vétusté.
+
+0l0l0	La_société_Vieux_Condé_Estampage	O
+0l0l1	est_implantée	N
+0l0l2	en_limite_du_centre_ville_dans	L
+0l0l3	des_bâtiments	O
+0l1l0	La_société_Vieux_Condé_Estampage	I
+
+#L'activité principale de cette société, placée en liquidation judiciaire était le forgeage de pièces destinées au secteur ferroviaire, au secteur automobile (notamment, pièces de direction pour les poids lourds, au secteur de la métallurgie...).
+
+1l0l0	L__activité_principale	O
+1l0l1	cette_société	O
+1l0l2	placée_en_liquidation_judiciaire	N
+1l0l3	le_forgeage_de_pièces_destinées_au_secteur_ferroviaire	A
+1l0l4	au_secteur_automobile	O
+1l0l5	secteur_de_la_métallurgie	A
+
+#Le 22 mars 2005, l'inspection a constaté:
+
+2l0l0	Le_22_mars_2005__	T
+2l0l1	l__inspection	O
+2l0l2	a_constaté	N
+
+#- la vétusté particulièrement avancée des locaux et de l’outil de production.
+
+3l0l0	production	A
+
+#- des stocks de déchets dangereux (notamment : environ 4 tonnes sels de cyanures auparavant utilisés dans des activités de traitement thermique par cémentation).
+
+4l0l0	des_activités_de_traitement_thermique_par_cémentation	A
+4l1l0	déchets_dangereux	U
+4l1l1	sels_de_cyanures	S
+
+#la DRIRE a donc demandé à l’exploitant (par lettre du 11 avril 2005) de mettre en place un plan d’actions afin de résorber ce passif.
+
+5l0l0	la_DRIRE	O
+5l0l1	a_donc_demandé	N
+5l0l2	l__exploitant	O
+5l0l3	11_avril_2005	T
+5l0l4	mettre_en_place	N
+5l0l5	un_plan_d__actions	O
+5l1l0	la_DRIRE	I
+
+#Par jugement en date du 25 avril 2005, le tribunal de commerce a prononcé la liquidation judiciaire de la société.
+
+6l0l0	en_date_du_25_avril_2005__	T
+6l0l1	le_tribunal_de_commerce	O
+6l0l2	a_prononcé_la_liquidation_judiciaire	N
+6l0l3	la_société	O
+6l1l0	le_tribunal_de_commerce	I
+
+#la DRIRE a immédiatement engagé des actions envers le liquidateur judiciaire qui représente la société Vieux-Condé-Estampage afin d’une part que le site soit mis en sécurité et d’autre part que les  déchets dangereux soient évacués dans des filières de traitement adaptées.
+
+7l0l0	la_DRIRE	O
+7l0l1	a_immédiatement_engagé	N
+7l0l2	des_actions_envers	N
+7l0l3	le_liquidateur_judiciaire	O
+7l0l4	la_société_Vieux_Condé_Estampage	O
+7l0l5	le_site	O
+7l0l6	dans_des_filières_de_traitement_adaptées	O
+7l1l0	la_DRIRE	I
+7l1l1	la_société_Vieux_Condé_Estampage	I
+7l1l2	les___déchets_dangereux	U
+
+#la société est mis en demeure par arrêté du 18 mai 2005, d’évacuer sous 3 jours ces déchets.
+
+8l0l0	la_société	O
+8l0l1	18_mai_2005__	T
+8l0l2	d__évacuer	N
+8l0l3	sous_3_jours	T
+8l0l4	ces_déchets	O
+
+#Les déchets n’ayant toujours pas été éliminés, une procédure de consignation à l’encontre de la société Vieux-Condé-Estampage est engagée.
+
+9l0l0	la_société_Vieux_Condé_Estampage	O
+9l1l0	la_société_Vieux_Condé_Estampage	I
+
+#Le 9 juin 2005, le liquidateur judiciaire a adressé à la DRIRE un état certifié des comptes de la société Vieux-Condé-Estampage qui nous a amenés à constater qu’il n’était pas en mesure de faire face à ses obligations.
+
+10l0l0	Le_9_juin_2005__	T
+10l0l1	le_liquidateur_judiciaire	O
+10l0l2	a_adressé	N
+10l0l3	la_DRIRE	O
+10l0l4	un_état_certifié	N
+10l0l5	la_société_Vieux_Condé_Estampage	O
+10l1l0	la_DRIRE	I
+10l1l1	la_société_Vieux_Condé_Estampage	I
+
+#Par télécopie du 10 juin 2005, la préfecture du Nord a sollicité auprès du Ministère de l’Ecologie et du Développement Durable l’autorisation de pouvoir intervenir en urgence sur ce site.
+
+11l0l0	Par	N
+11l0l1	télécopie_du_10_juin_2005__	T
+11l0l2	la_préfecture_du_Nord	O
+11l0l3	a_sollicité	N
+11l0l4	du_Ministère_de_l__Ecologie	O
+11l0l5	pouvoir_intervenir_en_urgence	N
+11l0l6	ce_site	O
+11l1l0	la_préfecture_du_Nord	I
+
+#Considérant que la situation rencontrée relevait effectivement de la catégorie des situations « d’urgence impérieuse », le Ministère a donné son accord par télécopie du 15 juin 2005.
+
+12l0l0	la_situation_rencontrée	O
+12l0l1	relevait_effectivement	R
+12l0l2	de_la_catégorie_des_situations___d__urgence_impérieuse	O
+12l0l3	le_Ministère	O
+12l0l4	a_donné_son_accord_par	N
+12l0l5	télécopie_du_15_juin_2005__	T
+
+#Le 21 juin, une visite du site a été menée par l’ADEME en présence de la DREAL.
+
+13l0l0	Le_21_juin	T
+13l0l1	__une_visite	N
+13l0l2	site	O
+13l0l3	a_été_menée	N
+13l0l4	l__ADEME	O
+13l0l5	la_DREAL	O
+13l1l0	l__ADEME	I
+13l1l1	la_DREAL	I
+
+#Puis, le 23 juin 2005, Monsieur le Préfet du Nord a pris l’arrêté préfectoral d’intervention d’urgence.
+
+14l0l0	le_23_juin_2005__	T
+14l0l1	Monsieur_le_Préfet_du_Nord	O
+14l0l2	a_pris	N
+14l0l3	l__arrêté_préfectoral_d_	O
+14l0l4	intervention	N
+14l1l0	le_Préfet_du_Nord	I
+
+#Par cet arrêté, l’ADEME a été mandaté pour intervenir.
+
+15l0l0	l__ADEME	O
+15l0l1	a_été_mandaté	N
+15l0l2	intervenir	N
+15l1l0	l__ADEME	I
+
+#L’ADEME a consulté des entreprises spécialisées puis a passé le marché afin de :
+
+16l0l0	L__ADEME	O
+16l0l1	a_consulté	N
+16l0l2	des_entreprises_spécialisées	O
+16l0l3	a_passé_le_marché	N
+16l1l0	L__ADEME	I
+
+#- mettre en sécurité le puits présent sur le site ;
+
+17l0l0	mettre_en_sécurité	N
+17l0l1	le_puits	O
+
+#- éliminer les sels de cyanures encore présents au sein de la société.
+
+18l0l0	cyanures	O
+18l0l1	la_société	O
+18l1l0	les_sels_de	U
+18l1l1	cyanures	S
+
+#RESULTAT
+
+
+#Les 10 et 11 août 2005, les sels de cyanures ont été reconditionnés de manière adaptée afin de pouvoir être transportés puis éliminés dans une entreprise dûment autorisée.
+
+20l0l0	Les_10_et_11_août_2005__	T
+20l0l1	les_sels_de_cyanures	O
+20l0l2	ont_été_reconditionnés	N
+20l0l3	une_entreprise	O
+20l1l0	sels	S
+20l1l1	de	U
+20l1l2	cyanures	S
+
+#Parallèlement, un bloc de béton a été déposé au-dessus de l’accès au puits.
+
+21l0l0	un_bloc_de_béton	O
+21l0l1	a_été_déposé	N
+21l0l2	au_dessus_de_l__accès_au_puits	L
+
+#Arrêté préfectoral du 7/10/2005 imposant des mesures d'urgence visant la mise en sécurité du site.
+
+22l0l0	Arrêté_préfectoral	O
+22l0l1	7_10_2005	T
+22l0l2	imposant	N
+22l0l3	des_mesures_d__urgence	O
+22l0l4	visant	R
+22l0l5	la_mise_en_sécurité	N
+
+#Réalisation d'une étude de sols, en date du 19/06/2006.
+
+23l0l0	Réalisation	N
+23l0l1	une_étude_de_sols	N
+23l0l2	en_date_du_19_06_2006__	T
+
+#Présence de nombreux déchets sur le site.
+
+
+#Prise d'un arrêté de mise en péril pris par le maire en date du 01/03/2006.
+
+25l0l0	Prise_d_	R
+25l0l1	un_arrêté_de_mise_en_péril_pris	N
+25l0l2	le_maire	O
+25l0l3	en_date_du_01_03_2006__	T
+25l1l0	le_maire	I
+
+#L'EPF souhaite acquérir le site (en 2008) en vue de démolir les bâtiments et de revaloriser le site.
+
+26l0l0	L__EPF	O
+26l0l1	souhaite	R
+26l0l2	acquérir	N
+26l0l3	le_site	O
+26l0l4	en_2008__	T
+26l0l5	démolir_les_bâtiments	N
+26l0l6	revaloriser	N
+26l0l7	le_site	N
+26l1l0	L__EPF	I
+
+#Les eaux de la nappe souterraine sont utilisées à des fins d'eau potable, industrielle, agricole et de puits privés.
+
+27l0l0	Les_eaux	O
+27l0l1	sont_utilisées_à_des_fins	N
+
+#Néanmoins, le captage AEP le plus proche se trouve à 4km du site, ce qui minore les risques pour les populations utilisatrices.
+
+28l0l0	le_captage_AEP_le_plus_proche	O
+28l0l1	se_trouve_à_4_km_du_site	L
+
+#Action de l'administration toujours en cours.
+
+29l0l0	Action	O
+29l0l1	l__administration	O

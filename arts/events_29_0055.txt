@@ -1,0 +1,118 @@
+
+#29.0055
+#Le SICOM du Sud-Est Finistère a été autorisé à exploiter un incinérateur d'ordures ménagères par arrêté préfectoral modifié du 27 avril 1987.
+
+0l0l0	Le_SICOM	O
+0l0l1	du_Sud_Est_Finistère	O
+0l0l2	a_été_autorisé	N
+0l0l3	exploiter_un_incinérateur	N
+0l0l4	arrêté_préfectoral_modifié	O
+0l0l5	du_27_avril_1987__	T
+0l1l0	Le_SICOM_du_Sud_Est_Finistère	I
+
+#L'arrêté préfectoral impose le suivi de la qualité des eaux souterraines.
+
+1l0l0	L__arrêté_préfectoral	O
+1l0l1	impose	R
+1l0l2	le_suivi_de_la_qualité_des_eaux_souterraines	A
+
+#Le SITOM est devenu Société VALCOR Valorisation Cornouailles en septembre 2008.
+
+2l0l0	Le_SITOM	O
+2l0l1	est_devenu	N
+2l0l2	Société_VALCOR	O
+2l0l3	Valorisation_Cornouailles	L
+2l0l4	en_septembre_2008__	T
+2l1l0	Le_SITOM	I
+2l1l1	devenu_Société_VALCOR_Valorisation_Cornouailles	I
+
+#Suite à la surveillance des eaux souterraine, l'arrêté préfectoral complémentaire du 15 janvier 2009 impose la réalisation d'un diagnostic des sols, en vue de rechercher l'origine de la contamination des eaux souterraines (par le sodium, les chlorures et les sulfates).
+
+3l0l0	Suite_à	R
+3l0l1	la_surveillance_des_eaux_souterraine	A
+3l0l2	l__arrêté_préfectoral_complémentaire	O
+3l0l3	15_janvier_2009	T
+3l0l4	impose_la_réalisation_d__un_diagnostic	N
+3l0l5	sols	O
+3l0l6	rechercher	R
+3l0l7	l__origine	O
+3l0l8	la_contamination	O
+3l0l9	eaux_souterraines	O
+3l1l0	le_sodium	S
+3l1l1	chlorures	S
+3l1l2	sulfates	S
+
+#Les diagnostics environnementaux de juin 2009 et janvier 2010 mettent en évidence une pollution générale des eaux (sels dissous) due :
+
+4l0l0	Les_diagnostics_environnementaux	N
+4l0l1	de_juin_2009_et_janvier_2010	T
+4l0l2	une_pollution_générale_des_eaux	N
+4l0l3	sels_dissous	O
+4l1l0	sels	U
+
+#- à la mauvaise étanchéité de la plateforme de maturation des mâchefers ;
+
+5l0l0	la_plateforme_de_maturation	O
+5l0l1	mâchefers	O
+
+#- à des dysfonctionnement hydrauliques dans la zone de mâchefers ;
+
+6l0l0	la_zone_de_mâchefers	O
+
+#- l'infiltration accidentelle, dans un puits d'infiltration, d'eaux chargées.
+
+7l0l0	l__infiltration_accidentelle	N
+
+#L'arrêté préfectoral complémentaire du 3 juin 2010 impose un plan d'action visant à supprimer la source de pollution (reprises d'étanchéité et renfort de la surveillance des eaux par la pose de 5 piézomètres supplémentaires et l'augmentation de la fréquence qui devient trimestrielle).
+
+8l0l0	L__arrêté_préfectoral_complémentaire	O
+8l0l1	3_juin_2010	T
+8l0l2	impose	N
+8l0l3	un_plan_d__action	O
+8l0l4	supprimer_la_source_de_pollution	N
+8l0l5	reprises	N
+8l0l6	d__étanchéité	O
+8l0l7	renfort	N
+8l0l8	surveillance_des_eaux	A
+8l0l9	la_pose_de	N
+8l0l10	5_piézomètres	O
+8l0l11	l__augmentation	N
+
+#Le plan d'action a consisté en un curage des canalisations et des débourbeurs, en la reprise de l'étanchéité de la zone de traitement des mâchefers et des canalisations, en la reprise de l'étanchéité des débourbeurs puis d'une phase d'observation via le suivi trimestriel des eaux souterraines.
+
+9l0l0	un_curage	N
+9l0l1	débourbeurs	O
+9l0l2	la_reprise_de	N
+9l0l3	l__étanchéité	O
+9l0l4	la_zone_de_traitement_des_mâchefers	O
+9l0l5	des_canalisations	O
+9l0l6	l__étanchéité_des_débourbeurs	O
+9l0l7	le_suivi_trimestriel	A
+9l0l8	des_eaux_souterraines	O
+
+#Le suivi de la qualité des eaux souterraines met en évidence une pollution significative pour les chlorures et le sodium, ainsi que la conductivité, qui suit les évolutions de ces deux paramètres.
+
+10l0l0	Le_suivi_de	A
+10l0l1	la_qualité_des_eaux_souterraines	O
+10l1l0	les_chlorures	S
+10l1l1	sodium	S
+
+#Les concentrations en polluants varient dans le temps, suivant les niveaux d'eau et l’écoulement de la nappe.
+
+
+#Le pH a une tendance acide.  Malgré les actions correctives entreprises par VALCOR, la présence de polluants dans les eaux souterraines est due à la présence d'une pollution résiduelle sous la couche étanchéifiée de mâchefers.
+
+12l1l0	par_VALCOR	I
+12l1l1	de_polluants	S
+
+#L'évolution de ces concentrations est à suivre dans le temps, notamment pour s'assurer que les polluants restent au niveau du site.
+
+13l1l0	les_polluants	U
+
+#D’après les résultats du réseau piézométrique, la charge polluante reste cantonnée au site, avec une niveau de pollution important au droit de la plateforme de confinement des mâchefers.
+
+14l0l0	charge_polluante	O
+14l0l1	cantonnée_au_site	L
+14l0l2	une_niveau_de_pollution	O
+14l0l3	au_droit_de_la_plateforme_de_confinement	L
+14l1l0	mâchefers	S

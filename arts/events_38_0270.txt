@@ -1,0 +1,240 @@
+
+#38.0270
+#Le site est situé au lieu-dit La Currière en Chartreuse, sur la commune de Saint-Laurent du Pont (38).
+
+0l0l0	Le_site	O
+0l0l1	est_situé_au_lieu___dit_La_Currière_en_Chartreuse	L
+0l0l2	sur_la_commune_de_Saint_Laurent_du_Pont___38	L
+
+#Le site est occupé par le MONASTERE DES SOEURS DE BETHLEEM et bénéficie d'un récépissé de déclaration du 07/05/1987 pour l'emploi de matériel contenant plus de 30 L de PCB.
+
+1l0l0	Le_site	O
+1l0l1	est_occupé	N
+1l0l2	le_MONASTERE_DES_SOEURS_DE_BETHLEEM	O
+1l0l3	bénéficie	O
+1l0l4	d_	L
+1l0l5	un_récépissé	O
+1l0l6	de_déclaration	N
+1l0l7	du_07_05_1987	T
+1l0l8	l__emploi_de_matériel	A
+1l1l0	le_MONASTERE_DES_SOEURS_DE_BETHLEEM	I
+1l1l1	PCB	S
+
+#Le 13/06/1988, la DREAL a été prévenue par la société TREDI de Saint Vulbas, qu'un incident avait eu lieu sur un transformateur au PCB au monastère.
+
+2l0l0	Le_13_06_1988	T
+2l0l1	la_DREAL	O
+2l0l2	a_été_prévenue	N
+2l0l3	la_société_TREDI	O
+2l0l4	Saint_Vulbas	L
+2l0l5	un_incident	N
+2l0l6	avait_eu_lieu	N
+2l0l7	sur	R
+2l0l8	un_transformateur	O
+2l1l0	la_DREAL	I
+2l1l1	la_société_TREDI	I
+2l1l2	PCB	S
+
+#Une visite d'inspection a été effectuée le jour-même par la DREAL.
+
+3l0l0	Une_visite_d__inspection_a_été_effectuée	N
+3l0l1	le	T
+3l0l2	jour___même	R
+3l0l3	la_DREAL	O
+3l1l0	la_DREAL	I
+
+#Il en ressort :
+
+
+#- qu'un transformateur contenant 250 kg de PCB avait été entreposé sur une dalle béton à proximité du local électrique dans un premier temps ;
+
+5l0l0	un_transformateur	O
+5l0l1	avait_été_entreposé	N
+5l0l2	une_dalle_béton	O
+5l0l3	à_proximité_du_local_électrique	L
+5l0l4	dans	T
+5l0l5	un_premier	N
+5l0l6	temps	O
+5l1l0	PCB	S
+
+#- ce transformateur avait été ensuite mis en décharge sauvage sur le site ;
+
+6l0l0	ce_transformateur	O
+6l0l1	avait_été_ensuite_mis_en_décharge_sauvage	N
+
+#- le transformateur a perdu au cours de cette manipulation, la totalité du liquide qu'il contenait ;
+
+7l0l0	cours_de	R
+7l0l1	cette_manipulation	N
+
+#- le liquide s'est vraisemblablement répandu sur et dans les terrains mais a pu aussi couler ver le Guiers.
+
+8l0l0	le_liquide	O
+8l0l1	s__est_vraisemblablement	N
+8l0l2	les_terrains	O
+8l0l3	a_pu_aussi_couler	N
+8l0l4	ver_le_Guiers	L
+
+#Le rapport de l'inspection des installations classées du 04/06/1988 propose au Préfet d'imposer l'élimination du transformateur et la dépollution du site, et la réalisations d'analyses de PCB dans les sédiments, les mousses aquatiques et la macrofaune.
+
+9l0l0	l__inspection_des_installations_classées	O
+9l0l1	04_06_1988	T
+9l0l2	Préfet	O
+9l0l3	d__imposer	N
+9l0l4	l__élimination_du_transformateur	N
+9l0l5	la_dépollution	N
+9l0l6	du_site	O
+9l0l7	la_réalisations_d__analyses	N
+9l1l0	PCB	S
+
+#Par courrier du 17/06/1988, la Préfecture a indiqué au monastère qu'il doit prendre les dispositions nécessaires pour supprimer les risques de pollution crées à savoir :
+
+10l0l0	17_06_1988	T
+10l0l1	la_Préfecture	O
+10l0l2	monastère	O
+10l0l3	supprimer_les_risques_de_pollution_crées	N
+10l1l0	la_Préfecture	I
+
+#- d'organiser le stockage des matériaux souillés avant élimination dans un centre agrée ;
+
+11l0l0	d__organiser_le_stockage	N
+11l1l0	matériaux_souillés	U
+
+#- de procéder à des analyses environnementales du site et prendre des mesures de gestion si nécessaires.
+
+12l0l0	des_analyses_environnementales	N
+12l0l1	site	O
+
+#Le 14/06/1988, le transformateur est évacué du site par la société SEPROL.
+
+13l0l0	Le_14_06_1988	T
+13l0l1	le_transformateur	O
+13l0l2	est_évacué_du_site	N
+13l0l3	la	N
+13l0l4	société_SEPROL	O
+13l1l0	la_société_SEPROL	I
+
+#Une première phase de reconnaissance est établit le 15/06/1988 afin d'élaborer le plan d’échantillonnage et la prise des échantillons en divers points.
+
+14l0l0	Une_première_phase_de_reconnaissance	O
+14l0l1	est_établit	N
+14l0l2	le_15_06_1988	T
+
+#e 16/06/1988, la première série d'analyses est destinée à reconnaitre l'extension de l'auréole de contamination (sondage n°1 à 9).
+
+15l0l0	16_06_1988	T
+15l0l1	la_première_série	N
+15l0l2	reconnaitre_l__extension	N
+15l0l3	l__auréole	O
+15l0l4	contamination	O
+
+#En parallèle, la société SERPOL décide d'ouvrir des fouilles et une tranchée en contrebas de la décharge pour vérifier que l'extension de la pollution n'a pas atteint l'aval de la décharge. 9 sondages sont réalisés dans les 3 fouilles, dans le chemin menant à la décharge, dans les remblais de la décharge.
+
+16l0l0	la_société_SERPOL	O
+16l0l1	décide_d__ouvrir_des_fouilles	N
+16l0l2	une_tranchée	O
+16l0l3	en_contrebas_de_la_décharge	L
+16l0l4	atteint_l__aval_de_la_décharge	L
+16l0l5	9_sondages_sont_réalisés_dans	N
+16l0l6	les_3_fouilles	N
+16l0l7	dans_le_chemin_menant_à_la_décharge	L
+16l0l8	les_remblais	N
+16l0l9	de_la_décharge	L
+16l1l0	la_société_SERPOL	I
+
+#Les résultats montrent :
+
+
+#- que les prélèvements effectués dans les fouilles sous la décharge sont négatifs aux diverses profondeurs ;
+
+
+#- que les prélèvements réalisés sur les remblais de la décharge, le chemin d'accès et la dalle béton sont positifs.
+
+19l0l0	les_prélèvements_réalisés	N
+19l0l1	les_remblais	N
+19l0l2	la_dalle_béton	O
+
+#Au vu des résultats, la société SERPOL propose le décaissement de la zone décharge, le chemin d'accès à la décharge et une zone à proximité de la dalle.
+
+20l0l0	la_société_SERPOL	O
+20l0l1	propose_le_décaissement	N
+20l0l2	la_zone_décharge	O
+20l0l3	le_chemin_d_	O
+20l0l4	une_zone	O
+20l0l5	à_proximité_de_la_dalle	L
+20l1l0	la_société_SERPOL	I
+
+#Le 17/06/1988, une deuxième série d'analyse est réalisée en plusieurs points devant le monastère pour vérifier que la pollution est concentrée uniquement autour de la décharge.
+
+21l0l0	Le_17_06_1988	T
+21l0l1	une_deuxième_série_d__analyse	N
+21l0l2	est_réalisée_en	N
+21l0l3	devant_le_monastère	L
+21l0l4	la_pollution	O
+21l0l5	est_concentrée_uniquement	R
+21l0l6	autour_de_la_décharge	L
+
+#D'autres prélèvements sont faits au fur et à mesure de l'avancement des travaux.
+
+22l0l0	l__avancement_des_travaux	N
+
+#Les travaux continuent tant que les résultats d'analyses sont positifs.
+
+
+#Les terres excavées sont mises en fûts au fur et à mesure de l'avancement des travaux (excavation jusqu'à 1,5 m au droit de la décharge et 1,2 m au niveau de la dalle de stockage).
+
+24l0l0	Les_terres_excavées	N
+24l0l1	sont_mises_en_fûts	N
+24l0l2	l__avancement_des_travaux	N
+24l0l3	excavation	N
+
+#Des prélèvements sont effectués en fin de chantier pour vérifier que la pollution n'est plus présente :
+
+25l0l0	fin_de_chantier	N
+
+#- au niveau de la décharge, les résultats sont négatifs ;
+
+
+#- au niveau du chemin d'accès (sondages n°37 à 39), les résultats sont négatifs ;
+
+
+#- au niveau de la dalle de stockage (sondages n°43 et 44): une deuxième intervention a été effectuée pour ôter le reste de pollution (du 04/07/1988 au 06/07/1988) ;
+
+28l0l0	une_deuxième_intervention	N
+28l0l1	a_été_effectuée	N
+28l0l2	ôter	N
+28l0l3	le_reste_de_pollution	O
+28l0l4	du_04_07_1988_au_06_07_1988	T
+
+#- des analyses d'eau ont été effectuées au droit des sources de Currière et de la Fourvoirie et aucun impact n'a été avéré.
+
+29l0l0	des_analyses_d__eau	O
+29l0l1	ont_été_effectuées	N
+29l0l2	au_droit_des_sources_de_Currière_et_de_la_Fourvoirie	L
+
+#Au total, le centre TREDI de Saint-Vulbas a réceptionné :
+
+30l0l0	le_centre_TREDI	O
+30l0l1	Saint_Vulbas	L
+30l0l2	a_réceptionné	N
+30l1l0	le_centre_TREDI	I
+
+#- 206 fûts ont été remplis de terres impactées, soit environ 40,14 tonnes les 13/12/1988 et 14/12/1988 ;
+
+31l0l0	206_fûts_ont_été_remplis	N
+31l0l1	terres_impactées	O
+31l0l2	les_13_12_1988_et_14_12_1988	T
+
+#- un transformateur de 560 kg ;
+
+
+#- 580 kg de masses métalliques diverses souillées au PCB le 05/07/1988.
+
+33l0l0	580_kg_de_masses_métalliques	O
+33l0l1	le_05_07_1988__	T
+33l1l0	PCB	S
+
+#Le rapport de synthèse des opérations de décontamination a été transmis à l'administration à la fin des travaux.
+
+34l0l0	Le_rapport_de_synthèse_des_opérations_de_décontamination	O
+34l0l1	a_été_transmis	N

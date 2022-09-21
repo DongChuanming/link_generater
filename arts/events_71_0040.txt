@@ -1,0 +1,421 @@
+
+#71.0040
+#La société FPT POWERTRAIN TECHNOLOGIE a été autorisée par arrêté préfectoral du 14 janvier 2008 à poursuivre l'exploitation d'une unité de fabrication de moteurs diesels pour poids lourds.
+
+0l0l0	La_société_FPT_POWERTRAIN_TECHNOLOGIE	O
+0l0l1	a_été_autorisée_par	N
+0l0l2	arrêté_préfectoral	O
+0l0l3	du_14_janvier_2008	T
+0l0l4	poursuivre_l_	O
+0l0l5	exploitation_d_	R
+0l0l6	une_unité_de_fabrication_de_moteurs_diesels	O
+0l1l0	La_société_FPT_POWERTRAIN_TECHNOLOGIE	I
+
+#Avant ce changement d'exploitant acté en 2006 (récépissé) et autorisé en 2008 (arrêté susvisé), c'est la société IVECO qui était autorisée à exploiter cette même unité de fabrication.
+
+1l0l0	Avant	T
+1l0l1	ce_changement	N
+1l0l2	d__exploitant	O
+1l0l3	acté	R
+1l0l4	en_2006	T
+1l0l5	récépissé	N
+1l0l6	autorisé	O
+1l0l7	en_2008	T
+1l0l8	c__est	N
+1l0l9	la_société_IVECO	O
+1l0l10	était_autorisée_à_exploiter	N
+1l0l11	cette	O
+1l0l12	même_unité	N
+1l0l13	de_fabrication	A
+1l1l0	la_société_IVECO	I
+
+#Les problématiques de pollution des sols et des eaux souterraines au droit du site ont été mises en évidence suite à des études réalisées par la société IVECO.
+
+2l0l0	Les_problématiques_de_pollution	O
+2l0l1	au_droit_du_site	L
+2l0l2	ont_été_mises_en_évidence	N
+2l0l3	suite_à	R
+2l0l4	des_études_réalisées	N
+2l0l5	la_société_IVECO	O
+2l1l0	la_société_IVECO	I
+
+#Contexte du site :
+
+
+#L'usine FPT POWERTRAIN (ex-IVECO) est implantée à la sortie ouest de la ville de Bourbon-Lancy, dans une zone industrielle à proximité d'habitations.
+
+4l0l0	L__usine_FPT_POWERTRAIN	O
+4l0l1	ex_IVECO	O
+4l0l2	est_implantée	N
+4l0l3	à_la_sortie_ouest_de_la_ville_de_Bourbon___Lancy	L
+4l0l4	dans_une_zone_industrielle	L
+4l0l5	à_proximité_d__habitations	L
+4l1l0	FPT_POWERTRAIN	I
+4l1l1	ex_IVECO	I
+
+#La Loire s'écoule à 1 km à l'ouest du site ; un plan d'eau (étang des Solins) existe à environ 500 mètres au sud.
+
+5l0l0	La_Loire	L
+5l0l1	à_1_km_à_l__ouest_du_site	L
+5l0l2	un_plan_d__eau	O
+5l0l3	à_environ_500_mètres_au_sud	L
+
+#Deux nappes aquifères superposées, vulnérables aux pollutions, ont été mises en évidence dans les argiles sableuses au droit du site : une "nappe haute" s'écoulant vers l'Ouest en direction de la Loire, surmontant une "nappe basse" où les eaux s'écoulent plutôt vers le Sud-Est.
+
+6l0l0	Deux_nappes_aquifères	O
+6l0l1	au_droit_du_site	L
+6l0l2	écoulant_vers_l__Ouest_en_direction_de_la_Loire	L
+6l0l3	plutôt_vers_le_Sud_Est	L
+
+#Si les eaux souterraines ne sont pas exploitées au droit du site, plusieurs captages à usage sensible (puits privés servant à l'arrosage de jardins) existent en aval hydraulique.
+
+7l0l0	plusieurs_captages	O
+7l0l1	en_aval_hydraulique	L
+
+#Historique des études réalisées:
+
+8l0l0	études_réalisées	O
+
+#Une évaluation simplifiée des risques (ESR) a été réalisée en 1999 (ancienne réglementation en vigueur).
+
+9l0l0	Une_évaluation_simplifiée_des_risques	N
+9l0l1	a_été_réalisée	N
+9l0l2	en_1999	T
+
+#Celle-ci a consisté en la pose de 3 piézomètres ainsi que le prélèvement et l'analyse d'échantillons de sols au droit de ces ouvrages.
+
+10l0l0	la_pose_de	N
+10l0l1	3_piézomètres	O
+10l0l2	le_prélèvement	N
+10l0l3	l__analyse	N
+10l0l4	au_droit_de_ces_ouvrages	L
+
+#l en ressortait la présence:
+
+
+#- de métaux (baryum, Chrome et arsenic) et de solvants chlorés dans les sols
+
+12l1l0	métaux	S
+12l1l1	baryum___Chrome	S
+12l1l2	arsenic	S
+12l1l3	solvants_chlorés	U
+
+#- de métaux (aluminium et manganèse) et également de solvants chlorés dans les eaux de la nappe.
+
+13l1l0	métaux	S
+13l1l1	aluminium	S
+13l1l2	manganèse	S
+13l1l3	solvants_chlorés	U
+
+#Ces conclusions ont abouti à un classement du site en deuxième catégorie c'est à dire "site à surveiller" conformément à l'ancienne réglementation en vigueur.
+
+
+#Un suivi piézométrique a ainsi été réalisé avec la pose de 6 piézomètres au total (3 jusqu'en 2004 et 6 en 2004).
+
+15l0l0	Un_suivi_piézométrique	A
+15l0l1	a_ainsi_été_réalisé	N
+15l0l2	la_pose	N
+15l0l3	6_piézomètres	O
+15l0l4	jusqu__en_2004	T
+15l0l5	6	O
+15l0l6	en_2004	T
+
+#Les différentes campagnes de surveillances ont alors permis de mettre en évidence les éléments suivants :
+
+16l0l0	surveillances	A
+
+#- les eaux souterraines ont été impactées par les composés organo-halogénés volatils (COHV) ;
+
+17l0l0	les_eaux_souterraines	O
+17l0l1	ont_été_impactées	N
+17l1l0	composés_organo___halogénés_volatils	S
+17l1l1	COHV	S
+
+#- les concentrations les plus fortes ont été celles mesurées au droit du site ;
+
+18l0l0	au_droit_du_site	L
+
+#- les eaux souterraines ont été impactées par les hydrocarbures ;
+
+19l0l0	les_eaux_souterraines	O
+19l0l1	ont_été_impactées	N
+19l0l2	par	R
+19l0l3	les_hydrocarbures	O
+19l1l0	hydrocarbures	S
+
+#- une phase flottante d'huile soluble de quelques millimètres d'épaisseur a été observée au droit d'un piézomètre (cette phase semblait avoir une extension limitée puisque les piézomètres situés à proximité ne présentaient pas de flottant).
+
+20l0l0	a_été_observée	N
+20l0l1	au_droit_d__un_piézomètre	L
+20l1l0	une_phase_flottante	U
+
+#Suite à tous ces résultats, l'arrêté préfectoral du 12 mai 2005 a prescrit à la société IVECO de réaliser un diagnostic approfondi et une étude détaillée des risques conformément au guide méthodologique de juin 2000 (anciens outils réglementaires en matière de sites et sols pollués).
+
+21l0l0	l__arrêté_préfectoral	O
+21l0l1	12_mai_2005	T
+21l0l2	a_prescrit	N
+21l0l3	la_société_IVECO	O
+21l0l4	de_réaliser_un_diagnostic_approfondi	N
+21l0l5	une_étude_détaillée_des_risques	N
+21l0l6	conformément_au	R
+21l0l7	guide_méthodologique	O
+21l0l8	de_juin_2000	T
+21l1l0	la_société_IVECO	I
+
+#Le diagnostic approfondi a consisté en :
+
+22l0l0	Le_diagnostic_approfondi	N
+
+#- une étude documentaire complémentaire.
+
+
+#Elle a permis de montrer la présence de puits privés exploités à proximité du site, l'absence de captage en eau potable et la présence de 3 puits d'alimentation en eau industrielle exploités par la société IVECO ;
+
+24l0l0	exploités	O
+24l0l1	à_proximité_du_site	L
+24l0l2	3_puits_d_	O
+24l0l3	alimentation_en_eau_industrielle	A
+24l0l4	la_société_IVECO	O
+24l1l0	la_société_IVECO	I
+
+#- des investigations de terrain et analyses complémentaires au niveau des sols. 19 sondages en extérieur et 30 sondages dans les différents bâtiments ont été réalisés.
+
+25l0l0	des_investigations_de_terrain	N
+25l0l1	analyses_complémentaires	O
+25l0l2	19_sondages_en_extérieur	N
+25l0l3	30_sondages	N
+25l0l4	ont_été_réalisés	N
+
+#Un impact significatif au droit de la principale zone de production a été constaté.
+
+26l0l0	Un_impact	O
+26l0l1	la_principale_zone_de_production	O
+26l0l2	a_été_constaté	N
+
+#Les polluants en teneurs supérieures aux seuils réglementaires sont des composés organo-halogénés volatils (COHV) et les hydrocarbures.
+
+27l1l0	Les_polluants	U
+27l1l1	composés_organo___halogénés_volatils	S
+27l1l2	COHV	S
+27l1l3	hydrocarbures	S
+
+#De fortes anomalies en arsenic, baryum, nickel, cuivre, chrome ont également été mis en évidence pour un sondage ;
+
+28l0l0	arsenic	O
+28l1l0	arsenic	S
+28l1l1	baryum	S
+28l1l2	nickel	S
+28l1l3	cuivre	S
+28l1l4	chrome	S
+
+#- des analyses effectuées au droit des piézomètres sur site. celles-ci ont montré un impact principal sur les eaux souterraines au droit des zones de production et au droit d'une potentielle zone de stockage de solvants chlorés.
+
+29l0l0	des_analyses_effectuées	N
+29l0l1	au_droit	L
+29l0l2	un_impact	O
+29l0l3	au_droit_des_zones_de_production	L
+29l0l4	au_droit_d_	R
+29l0l5	une_potentielle_zone	O
+29l1l0	solvants_chlorés	U
+
+#Trois puits privés ont également fait l'objet de prélèvements et d'analyses.
+
+30l0l0	Trois_puits	O
+30l0l1	d__analyses	N
+
+#L'évaluation détaillée des risques (EDR) s'est déroulée en 2 phases :
+
+31l0l0	L__évaluation_détaillée_des_risques	N
+31l0l1	2_phases	O
+
+#- risques pour les ressources en eaux.
+
+
+#Les résultats de cette étude indiquent que les puits d'alimentation en eau industrielle et les puits privés sont susceptibles d'être impactés par la pollution issue du site ;
+
+33l0l0	les	O
+33l0l1	puits_d__alimentation_en_eau_industrielle	A
+33l0l2	les_puits_privés	O
+33l0l3	sont_susceptibles_d__être_impactés	N
+33l0l4	par_la_pollution_issue_du_site	L
+
+#- risques pour la santé.
+
+
+#Les conclusions indiquent que des investigations supplémentaires sont nécessaires notamment pour les puits privés.
+
+35l0l0	Les_conclusions	O
+35l0l1	investigations_supplémentaires	O
+
+#Les conclusions générales des deux études susvisées étaient les suivantes:
+
+
+#- la poursuite du suivi piézométrique semestriel ;
+
+37l0l0	la_poursuite	N
+37l0l1	du_suivi_piézométrique_semestriel	A
+
+#- la réalisation de campagnes de suivi au niveau des ouvrages extérieurs au site à savoir 3 puits appartenant à des particuliers.
+
+38l0l0	la_réalisation_de_campagnes_de_suivi	N
+38l0l1	au_niveau	R
+38l0l2	des_ouvrages_extérieurs_au_site	L
+
+#Arrêté préfectoral d'autorisation du 14 janvier 2008 : suite au changement d'exploitant au profit de la société POWERTRAIN, l'arrêté d'autorisation impose au nouvel exploitant une surveillance des eaux souterraines semestrielles pour les COHV, les BTEX (Benzène, toluène, éthylbenzène et xylène), les hydrocarbures totaux, les hydrocarbures aromatiques polycyliques, les métaux et les cyanures totaux.
+
+39l0l0	Arrêté_préfectoral	O
+39l0l1	d__autorisation	O
+39l0l2	14_janvier_2008	T
+39l0l3	suite	R
+39l0l4	au_changement	N
+39l0l5	d__exploitant	O
+39l0l6	au_profit	N
+39l0l7	la_société_POWERTRAIN	O
+39l0l8	autorisation_impose	N
+39l0l9	exploitant	O
+39l0l10	une_surveillance_des_eaux_souterraines_semestrielles	A
+39l1l0	la_société_POWERTRAIN	I
+39l1l1	les_COHV	S
+39l1l2	les_BTEX	S
+39l1l3	Benzène	S
+39l1l4	toluène	S
+39l1l5	éthylbenzène	S
+39l1l6	xylène	S
+39l1l7	les_hydrocarbures_totaux	S
+39l1l8	les_hydrocarbures_aromatiques_polycyliques	S
+39l1l9	les_métaux	S
+39l1l10	les_cyanures_totaux	S
+
+#Cette surveillance doit se réaliser sur un réseau de 8 piézomètres installés sur site et de 3 puits voisins appartenant à des particuliers.
+
+40l0l0	Cette_surveillance	A
+40l0l1	3_puits_voisins	O
+
+#Travaux effectués et surveillance :
+
+
+#En novembre 2008, l'inspection des installations classées reçoit le compte-rendu de la campagne de suivi des eaux souterraines de novembre 2008.
+
+42l0l0	En_novembre_2008__	T
+42l0l1	l__inspection_des_installations_classées	O
+42l0l2	reçoit	R
+42l0l3	le_compte_rendu	O
+42l0l4	la_campagne	N
+42l0l5	de_suivi_des_eaux_souterraines	A
+42l0l6	de_novembre_2008__	T
+
+#Il est indiqué qu'un traitement des eaux souterraines a été initié depuis mars 2008 par l'intermédiaire de 3 puits de pompage.
+
+43l0l0	un_traitement_des_eaux_souterraines	O
+43l0l1	a_été_initié	N
+43l0l2	depuis_mars_2008	T
+43l0l3	3_puits_de_pompage	O
+
+#Ce traitement (séparateur d'hydrocarbures puis stripping) a permis de traiter près de 5000 m3 d'eaux souillées en novembre 2008.
+
+44l0l0	Ce_traitement	N
+44l0l1	stripping	N
+44l0l2	traiter	N
+44l0l3	5000_m3_d__eaux_souillées	O
+44l0l4	en_novembre_2008__	T
+44l1l0	hydrocarbures	S
+
+#Le dispositif de traitement a été progressivement mis à l'arrêt, d'abord en août 2009 (pour l'unité de pompage extérieure) puis octobre 2010 (pour l'unité de pompage intérieure) après que l'essentiel des produits flottants ait été pompé et traité.
+
+45l0l0	Le_dispositif_de_traitement	O
+45l0l1	a_été_progressivement_mis	N
+45l0l2	d__abord	N
+45l0l3	en_août_2009	T
+45l0l4	l__unité_de_pompage_extérieure	O
+45l0l5	octobre_2010	T
+45l0l6	l__essentiel_des_produits_flottants	O
+45l0l7	ait_été_pompé	N
+
+#Durant les opérations et jusqu'en 2011, un suivi de la qualité des eaux souterraines sur quatre piézomètres (2, 5-7) a prouvé l'efficacité des opérations de dépollution : il est alors observé une atténuation de la concentration des polluants et de fait une amélioration sensible de la qualité des eaux souterraines.
+
+46l0l0	Durant_les_opérations	N
+46l0l1	jusqu__en_2011__	T
+46l0l2	un_suivi_de_la_qualité_des_eaux_souterraines	A
+46l0l3	quatre_piézomètres	O
+46l0l4	dépollution	N
+46l0l5	la_qualité_des_eaux_souterraines	O
+46l1l0	polluants	U
+
+#Dans le même temps, l'exploitant a entrepris de 2009 à 2010 des travaux d'amélioration du fonctionnement de son unité de traitement des eaux.
+
+47l0l0	l__exploitant	O
+47l0l1	a_entrepris	N
+47l0l2	de_2009_à_2010	T
+47l0l3	des_travaux_d__amélioration_du_fonctionnement	N
+47l0l4	son_unité_de_traitement_des_eaux	O
+
+#6 février 2013 : conformément à l'arrêté préfectoral du 14 janvier 2008, un bilan du suivi quadriennal a été transmis à l'Inspection.
+
+48l0l0	6_février_2013	T
+48l0l1	14_janvier_2008__	T
+48l0l2	un_bilan	N
+48l0l3	suivi_quadriennal	N
+48l0l4	a_été_transmis	N
+
+#Le document fait état pour la période 2008-2011 d'une situation très contrastée de la qualité des eaux souterraines, en fonction des substances en présence :
+
+49l0l0	pour_la_période_2008___2011	T
+
+#- fluctuations cycliques, saisonnières, ou stabilisation des concentrations en polluants dans les 2 nappes au droit des piézomètres et dans les puits privés hors-site : métaux et métalloïdes, certains HAP, COHV ;
+
+50l0l0	les	O
+50l0l1	puits_privés_hors_site	L
+50l1l0	métaux_et_métalloïdes	S
+50l1l1	certains_HAP	S
+50l1l2	COHV	S
+
+#- augmentation sur l'ensemble de la période pour quelques HAP, ainsi que pour les composés issus de la dégradation naturelle des polluants ;
+
+51l0l0	la_dégradation_naturelle_des_polluants	N
+51l1l0	quelques_HAP	S
+51l1l1	les_composés	S
+51l1l2	polluants	U
+
+#- tendance globale à une baisse des concentrations moyennes annuelles pour des métalloïdes (dans la nappe basse), les cyanures (plus détectables) ainsi que pour les BTEX et hydrocarbures C10-C40 - ceci à relier aux travaux de traitement engagés en 2009-2010.
+
+52l0l0	une_baisse	N
+52l0l1	aux_travaux_de_traitement	N
+52l0l2	engagés	N
+52l0l3	en_2009___2010__	T
+52l1l0	métalloïdes	S
+52l1l1	cyanures	S
+52l1l2	les_BTEX	S
+52l1l3	hydrocarbures_C10_C40	S
+
+#A l'occasion de certaines campagnes de mesures, des polluants tels que le plomb et l'arsenic ont vu leur concentration au droit du site dépasser occasionnellement une valeur maximale admissible (CMA) pour des usages sensibles (p.ex. l'arrosage de jardins).
+
+53l0l0	A_l__occasion_de	R
+53l0l1	certaines_campagnes_de_mesures	N
+53l0l2	des_polluants	O
+53l0l3	au_droit_du_site	L
+53l0l4	l__arrosage_de_jardins	A
+53l1l0	des_polluants	U
+53l1l1	plomb	S
+53l1l2	arsenic	S
+
+#Ce bilan quadriennal conclut à la nécessité de poursuivre le suivi semestriel de la qualité des eaux souterraines au droit du site pour ce qui est des hydrocarbures (HCT, HAP), BTEX, COHV, métaux et métalloïdes.
+
+54l0l0	le_suivi_semestriel	A
+54l0l1	la_qualité_des_eaux_souterraines	O
+54l0l2	au_droit_du_site	L
+54l1l0	hydrocarbures	S
+54l1l1	HCT	S
+54l1l2	HAP	S
+54l1l3	BTEX	S
+54l1l4	COHV	S
+54l1l5	métaux	S
+54l1l6	métalloïdes	S
+
+#La surveillance d'une possible extension de la pollution hors site (puits privés) est également recommandée pour les HAP, COHV, métaux et métalloïdes.
+
+55l0l0	La_surveillance	A
+55l0l1	les_HAP	O
+55l1l0	les_HAP	S
+55l1l1	COHV	S
+55l1l2	métaux	S
+55l1l3	métalloïdes	S

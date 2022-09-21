@@ -1,0 +1,198 @@
+
+#73.0025
+#Deux lagunes de 270 et 300 m², exploitées pendant 10 ans (1981 à 1991) pour le déversement d'eaux de lavage de pièces mécanique : travail mécanique des métaux par frappe à froid, générateur de rejets aqueux fortement chargés en hydrocarbures.
+
+0l0l0	Deux_lagunes	O
+0l0l1	exploitées	N
+0l0l2	pendant_10_ans___1981	T
+0l0l3	à_1991	T
+0l0l4	le_déversement	N
+0l0l5	d__eaux_de_lavage_de_pièces_mécanique	A
+0l0l6	travail_mécanique_des_métaux	A
+0l1l0	hydrocarbures	S
+
+#Le site est situé en zone naturelle, à l'écart des habitations.
+
+1l0l0	Le_site	O
+1l0l1	est_situé_en_zone_naturelle	L
+1l0l2	à_l__écart_des_habitations	L
+
+#Le nom de la société responsable du site (PTB) a été modifié en 2004, et est devenu ACUMENT La Bridoire.
+
+2l0l0	Le_nom	O
+2l0l1	la_société_responsable_du_site	O
+2l0l2	a_été_modifié	N
+2l0l3	en_2004__	T
+2l0l4	est_devenu	N
+2l0l5	ACUMENT	O
+2l0l6	La_Bridoire	L
+2l1l0	PTB	I
+2l1l1	ACUMENT	I
+
+#Un changement d'exploitant est intervenu en 2010.
+
+3l0l0	Un_changement_d__exploitant	O
+3l0l1	est_intervenu	N
+3l0l2	en_2010__	T
+
+#Le nouvel exploitant est la société AGRATI France Fastening Systems.
+
+4l0l0	Le_nouvel_exploitant	O
+4l0l1	la_société_AGRATI	O
+4l0l2	Fastening_Systems	O
+4l1l0	la_société_AGRATI_France_Fastening_Systems	I
+
+#Risques potentiels : pollution des eaux et des sols par les hydrocarbures et les métaux, risque de noyade.
+
+5l0l0	métaux	O
+5l1l0	hydrocarbures	S
+5l1l1	métaux	S
+
+#Conformément à la circulaire du 03/04/1996 il a été demandé à l'exploitant par arrêté préfectoral du 09/05/1998 de réaliser une étude de sols.
+
+6l0l0	03_04_1996	T
+6l0l1	il_a_été_demandé	N
+6l0l2	l__exploitant	O
+6l0l3	par	R
+6l0l4	arrêté_préfectoral	O
+6l0l5	du_09_05_1998	T
+6l0l6	de_réaliser_une_étude_de_sols	N
+
+#Cette circulaire prévoit la réalisation de diagnostics initiaux et de l'évaluation simplifiée des risques (ESR) sur les sites industriels en activité.
+
+7l0l0	Cette_circulaire	O
+7l0l1	prévoit	R
+7l0l2	la_réalisation_de_diagnostics_initiaux	N
+7l0l3	l__évaluation_simplifiée_des_risques	N
+7l0l4	les_sites_industriels	O
+7l0l5	en_activité	N
+
+#L'objectif de ces études est de classer les sites, au regard de la pollution du sol et du sous–sol en trois groupes :
+
+
+#- les sites "banalisables" pour l'usage déclaré (actuel ou prévu),
+
+9l0l0	l__usage_déclaré	N
+
+#- les sites à surveiller,
+
+
+#- les sites nécessitant des investigations approfondies.
+
+11l0l0	investigations_approfondies	N
+
+#Une grille annexée à cette circulaire précise les secteurs d'activité prioritaires.
+
+
+#On y trouve en priorité 1, les installations liées au secteur du déchet, de la chimie (pétrochimie, pharmacie…), de la métallurgie, du textile, de la cristallerie, des dépôts d'hydrocarbures. 165 entreprises ont été proposées en Rhône-Alpes.
+
+13l0l0	les_installations	O
+13l0l1	liées_au	R
+13l0l2	secteur_du_déchet	A
+13l0l3	la_chimie	O
+13l0l4	pétrochimie	A
+13l0l5	métallurgie___du	A
+13l0l6	cristallerie___des	O
+13l0l7	dépôts_d__hydrocarbures___165	O
+13l0l8	Rhône___Alpes__	L
+13l1l0	dépôts_d_	D
+13l1l1	hydrocarbures___165	S
+
+#Les conclusions des analyses effectuées pour la réalisation de l'étude font ressortir les points suivants :
+
+
+#- les eaux de lagune sont chargées en hydrocarbures (180 mg/L) et en zinc (13 mg/L) ;
+
+15l1l0	hydrocarbures	S
+15l1l1	zinc	S
+
+#- les boues des lagunes sont chargées en hydrocarbures et en métaux lourds (chrome, cuivre, zinc, nickel, arsenic) ;
+
+16l0l0	métaux_lourds	O
+16l1l0	hydrocarbures	S
+16l1l1	métaux_lourds	S
+16l1l2	chrome	S
+16l1l3	cuivre	S
+16l1l4	zinc	S
+16l1l5	nickel	S
+16l1l6	arsenic	S
+
+#- les sols du terrain à proximité des lagunes ne sont pas contaminés ;
+
+17l0l0	les_sols_du_terrain	O
+17l0l1	à_proximité_des_lagunes	L
+
+#- les eaux souterraines montrent des traces de pollution en métaux (nickel 110 µg/L).
+
+18l1l0	métaux	S
+18l1l1	nickel	S
+
+#L'ESR conduit à classer le site en "site à surveiller" classe 2.
+
+19l1l0	L__ESR	I
+
+#L'étude de sol menée sur le sol du site des lagunes de la société PTB confirme l'existence d'une pollution en hydrocarbures et métaux lourds relativement bien circonscrite à ces lagunes.
+
+20l0l0	L__étude_de_sol	N
+20l0l1	lagunes	O
+20l0l2	la_société_PTB	O
+20l0l3	l__existence	O
+20l0l4	ces_lagunes	O
+20l1l0	la_société_PTB	I
+20l1l1	hydrocarbures	S
+20l1l2	métaux_lourds	S
+
+#Cependant, ce constat provient des données recueillies sur une seule mesure.
+
+
+#La surveillance des eaux souterraines (piézomètre amont et piézomètre aval, analyses trimestrielles sur notamment hydrocarbures totaux, chrome, cuivre, nickel, zinc, arsenic) a été imposée, ainsi que la mise en sécurité du site pour interdire tout accès à des personnes non averties et non autorisées et la mise en place de restrictions d'usage.
+
+22l0l0	La_surveillance_des_eaux_souterraines	A
+22l0l1	a_été_imposée	N
+22l0l2	la_mise_en_sécurité	N
+22l0l3	interdire_tout_accès	N
+22l0l4	la_mise_en_place_de_restrictions	N
+22l1l0	hydrocarbures_totaux	S
+22l1l1	chrome	S
+22l1l2	cuivre	S
+22l1l3	nickel	S
+22l1l4	zinc	S
+22l1l5	arsenic	S
+
+#La mise en place de restrictions d'usage conventionnelles au profit de l'état a été réalisée le 8 octobre 2009.
+
+23l0l0	La_mise_en_place_de	N
+23l0l1	restrictions_d__usage	O
+23l0l2	conventionnelles	N
+23l0l3	au_profit_de	R
+23l0l4	l__état	O
+23l0l5	a_été_réalisée	N
+23l0l6	le_8_octobre_2009__	T
+
+#La dernière surveillance des eaux souterraines réalisée (campagne de décembre 2012), montre que la situation reste stable.
+
+24l0l0	La_dernière_surveillance	N
+24l0l1	des_eaux_souterraines	A
+24l0l2	campagne_de_décembre_2012__	T
+
+#Les valeurs mesurées restent inférieures aux seuils de détection.
+
+
+#Aucun des métaux analysés n'a été détecté dans les eaux souterraines lors de la campagne 2012 (nickel, arsenic, cuivre, mercure, plomb).
+
+26l0l0	métaux_analysés	N
+26l0l1	la_campagne_2012	O
+26l1l0	nickel	S
+26l1l1	arsenic	S
+26l1l2	cuivre	S
+26l1l3	mercure	S
+26l1l4	plomb	S
+
+#Les résultats analytiques obtenus lors de la campagne de 2012 confirment l'absence d'Hydrocarbures totaux (C10-C40) dans les eaux souterraines au droit des 3 piézomètres depuis le début du suivi en avril 2003.
+
+27l0l0	de_la_campagne	N
+27l0l1	de_2012	T
+27l0l2	depuis_le_début_du_suivi	T
+27l0l3	en_avril_2003__	T
+27l1l0	Hydrocarbures_totaux	S
+27l1l1	C10_C40__	S

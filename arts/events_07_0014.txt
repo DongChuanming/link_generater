@@ -1,0 +1,294 @@
+
+#07.0014
+#TRIGANO INDUSTRIES, dont l'activité principale consistait en la fabrication de matériels de camping (armatures métalliques) a cessé le fonctionnement de son ancien établissement de TOURNON-SUR-RHONE au mois d'août 2000.
+
+0l0l0	TRIGANO_INDUSTRIES	O
+0l0l1	la_fabrication_de_matériels_de_camping	A
+0l0l2	armatures_métalliques	O
+0l0l3	a_cessé_le_fonctionnement	N
+0l0l4	son_ancien_établissement	O
+0l0l5	de_TOURNON_SUR_RHONE	L
+0l0l6	au_mois_d__août_2000__	T
+0l1l0	TRIGANO_INDUSTRIES	I
+
+#Le site industriel a été occupé à plusieurs reprises :
+
+1l0l0	Le_site_industriel	O
+1l0l1	a_été_occupé	N
+
+#- par les Tanneries GAY de 1917 à 1958,
+
+2l0l0	les_Tanneries_GAY	O
+2l0l1	de_1917_à_1958	T
+2l1l0	les_Tanneries_GAY	I
+
+#- par une entreprise de traitement de surface métallique de 1958 à 1971,
+
+3l0l0	une_entreprise_de_traitement_de_surface_métallique	O
+3l0l1	de_1958_à_1971	T
+
+#- par TRIGANO INDUSTRIE, à partir de 1971 jusqu'en août 2000.
+
+4l0l0	TRIGANO_INDUSTRIE	O
+4l0l1	à_partir_de_1971_jusqu__en_août_2000__	T
+4l1l0	TRIGANO_INDUSTRIE	I
+
+#Pour rappel, ce dernier établissement utilisait, dans le cadre de ses activités les matériels et produits suivants :
+
+5l0l0	ce_dernier_établissement	O
+5l0l1	utilisait	R
+5l0l2	dans_le_cadre_de	R
+5l0l3	ses_activités	A
+
+#- des installations de découpage et d'emboutissage de métaux,
+
+6l0l0	installations_de_découpage_et_d__emboutissage_de_métaux	A
+
+#- une chaîne de traitement de surface (zingage et passivation chromique),
+
+7l0l0	passivation	N
+
+#- une station de détoxication pour traiter les effluents industriels,
+
+8l0l0	une_station	O
+8l1l0	détoxication	U
+8l1l1	les_effluents_industriels	U
+
+#- une chaîne de peinture par poudrage électrostatique,
+
+9l0l0	poudrage	A
+
+#- des produits chimiques (dégraissants chimiques, acide sulfurique, acide chlorhydrique, chlorure de zinc, lessive de soude, trichloréthylène, huiles de coupe et du fuel-oil domestique).
+
+10l1l0	des_produits_chimiques	U
+10l1l1	dégraissants	S
+10l1l2	chimiques	U
+10l1l3	acide_sulfurique	S
+10l1l4	acide_chlorhydrique	S
+10l1l5	chlorure	S
+10l1l6	zinc	S
+10l1l7	lessive	S
+10l1l8	de_soude	U
+10l1l9	trichloréthylène	S
+10l1l10	fuel	S
+
+#L'industriel a remis à l'administration le mémoire d'abandon du site de TOURNON le 5 décembre 2000.
+
+11l0l0	L__industriel	O
+11l0l1	a_remis	N
+11l0l2	l__administration	O
+11l0l3	le_mémoire_d__abandon_du_site_de_TOURNON	N
+11l0l4	le_5_décembre_2000__	T
+
+#Les déchets industriels spéciaux ont été évacués vers un centre de traitement agréé.
+
+12l0l0	Les_déchets_industriels_spéciaux	O
+12l0l1	ont_été_évacués_vers	N
+12l0l2	un_centre_de_traitement_agréé	O
+12l1l0	Les_déchets_industriels_spéciaux	U
+
+#Les cuves de fuel ont toutes été vidangées, dégazées et neutralisées ou évacuées par des entreprises spécialisées, seule une cuve de 5 000 litres doit être neutralisée prochainement, au sable et non à l'eau, comme cela a été fait.
+
+13l0l0	Les_cuves_de_fuel	O
+13l0l1	ont_toutes_été_vidangées	N
+13l0l2	dégazées	N
+13l0l3	neutralisées	N
+13l0l4	évacuées_par_des_entreprises	O
+13l0l5	être_neutralisée	N
+13l0l6	cela_a_été_fait	N
+13l1l0	Les_cuves_de	D
+13l1l1	fuel	S
+13l1l2	une_cuve	D
+
+#Le diagnostic initial du site remis le 05/12/2000 à l'administration et effectué à l'aide de sondages dans le sous-sol, a permis de relever une faible pollution par les produits suivants : hydrocarbures (fuel-oil), cadmium, chrome, arsenic, nickel, zinc, trichloéthylène, tétrachloréthylène.
+
+14l0l0	Le_diagnostic_initial_du_site_remis	N
+14l0l1	le_05_12_2000	T
+14l1l0	hydrocarbures	S
+14l1l1	fuel___oil	S
+14l1l2	cadmium	S
+14l1l3	chrome	S
+14l1l4	arsenic	S
+14l1l5	nickel	S
+14l1l6	zinc	S
+14l1l7	trichloéthylène	S
+14l1l8	tétrachloréthylène	S
+
+#Certains de ces composés polluants ont atteint la nappe sous-jacente (nappe d'accompagnement du Rhône).
+
+15l0l0	ont_atteint	N
+15l0l1	la_nappe_sous_jacente	O
+15l0l2	accompagnement_du_Rhône	L
+15l1l0	ces_composés_polluants	U
+
+#L'impact des hydrocarbures est le plus significatif.
+
+16l1l0	hydrocarbures	S
+
+#Les concentrations relevées restent néanmoins peu élevées et inférieures aux valeurs de constat d'impact (usage non sensible), telles qu'elles sont définies dans le guide méthodologique de gestion des sites "potentiellement" pollués du Ministère de l'Environnement.
+
+
+#Cependant, les sondages ont été effectués alors que la chaîne de traitement de surface n'avait pas été complètement démontée.
+
+18l0l0	les_sondages_ont_été_effectués	N
+18l0l1	la_chaîne_de_traitement_de_surface	O
+18l0l2	n_	L
+18l0l3	avait_pas_été_complètement_démontée	N
+
+#L'Etude Simplifiée des Risques (ESR) remise à l'administration le 6/02/2001 conclut à un site classe 1 pour le milieu eaux souterraines et pour les sources  tétrachloroéthylène et tétrachlorométhane.
+
+19l0l0	L__Etude_Simplifiée_des_Risques	N
+19l0l1	l__administration	O
+19l0l2	le_6_02_2001	T
+19l0l3	un_site_classe_1	O
+19l0l4	le_milieu_eaux_souterraines	O
+19l1l0	sources___tétrachloroéthylène_et_tétrachlorométhane	S
+
+#Un arrêté préfectoral du 30/07/2002 prévoit la réalisation d'un diagnostic approfondi et d'une étude détaillée des risques (EDR) selon le guide méthodologique du Ministère de Environnement.
+
+20l0l0	Un_arrêté_préfectoral	O
+20l0l1	du_30_07_2002	T
+20l0l2	prévoit_la_réalisation_d__un_diagnostic_approfondi	N
+20l0l3	une_étude_détaillée_des_risques	N
+20l0l4	Ministère_de_Environnement	O
+
+#Ces documents doivent être réalisés avant le 30/01/2003.
+
+21l0l0	Ces_documents	O
+21l0l1	doivent_être_réalisés	N
+21l0l2	avant_le_30_01_2003	T
+
+#Par ailleurs, il a été imposé une surveillance semestrielle de la nappe sous-jacente, les substances analysées portent sur le pH, les hydrocarbures totaux, les organo-halogénés volatils (notamment trichloréthylène, tétrachloroéthylène et chlorure de vinyle), les métaux (cadmium, chrome, nickel et zinc).
+
+22l0l0	il	O
+22l0l1	a_été_imposé	N
+22l0l2	une_surveillance_semestrielle	A
+22l0l3	la_nappe_sous_jacente	O
+22l1l0	hydrocarbures_totaux	S
+22l1l1	les_organo___halogénés_volatils	S
+22l1l2	trichloréthylène	S
+22l1l3	tétrachloroéthylène	S
+22l1l4	chlorure_de_vinyle	S
+22l1l5	les_métaux	S
+22l1l6	cadmium	S
+22l1l7	chrome	S
+22l1l8	nickel	S
+22l1l9	zinc	S
+
+#L'Evaluation Détaillée des Risques complète a été remise par l'exploitant à l'inspection (Privas) ainsi qu'une proposition de tierce expertise (INERIS) le 29 avril 2004.
+
+23l0l0	Evaluation_Détaillée_des_Risques_complète	N
+23l0l1	a_été_remise	N
+23l0l2	l__exploitant	O
+23l0l3	Privas___ainsi_qu__une_proposition_de_tierce_expertise	O
+23l0l4	INERIS	O
+23l0l5	le_29_avril_2004__	T
+
+#Elle montre qu'au sud-est du site les excès de risques individuels générés par les composés détectés en aval du site, sont inacceptables pour les habitants.
+
+24l0l0	au_sud_est_du_site	L
+24l0l1	en_aval_du_site	L
+24l1l0	composés	S
+
+#A la lecture des conclusions de l'EDR, et sans attendre la remise par l'exploitant de propositions de réhabilitation et des résultats de la tierce expertise, l'inspection a proposé au Préfet de l'Ardèche, le 14 mai 2004, de restreindre les usages des eaux souterraines en aval hydraulique du site de TRIGANO, ainsi que le maintien et le renfort de la surveillance des eaux souterraines sur d'autres points de mesure dont l'emplacement et la fréquence de prélèvements ont été définis par le bureau d'étude.
+
+25l0l0	sans_attendre	R
+25l0l1	la_remise	N
+25l0l2	l__exploitant	O
+25l0l3	réhabilitation	N
+25l0l4	Préfet_de_l__Ardèche	O
+25l0l5	le_14_mai_2004__	T
+25l0l6	restreindre	N
+25l0l7	les_usages_des_eaux_souterraines	A
+25l0l8	en_aval_hydraulique_du_site	L
+25l0l9	TRIGANO	O
+25l0l10	le_maintien	O
+25l0l11	le	O
+25l0l12	renfort	N
+25l0l13	la	O
+25l0l14	surveillance_des_eaux_souterraines	A
+25l0l15	sur	R
+25l0l16	d__autres_points_de_mesure	O
+25l0l17	ont_été_définis	N
+25l0l18	le_bureau_d__étude	O
+25l1l0	TRIGANO	I
+
+#L'AP n°2005-3-7 du 3 janvier 2005 prescrivant à TRIGANO la surveillance des eaux souterraines et les études et travaux nécessaires pour délimiter, extraire et éliminer les terres polluées autour du sondage S8 a fait l'objet d'un recours de l'exploitant.
+
+26l0l0	L__AP	O
+26l0l1	2005___3___7	T
+26l0l2	du_3_janvier_2005	T
+26l0l3	prescrivant	N
+26l0l4	à_TRIGANO	O
+26l0l5	la_surveillance_des_eaux_souterraines	A
+26l0l6	les_études_et_travaux	N
+26l0l7	délimiter	N
+26l0l8	extraire	N
+26l0l9	éliminer	N
+26l0l10	les_terres_polluées_autour	O
+26l0l11	du_sondage_S8	O
+26l0l12	a_fait_l__objet_d_	R
+26l1l0	TRIGANO	I
+
+#Le tribunal administratif de Lyon (jugement du 26 avril 2007) a décidé que l'article 1 dudit APC, pour ce qui concerne les travaux et études nécessaires pour délimiter, extraire et éliminer les terres polluées autour du sondage S8, est annulé.
+
+27l0l0	Le_tribunal_administratif	O
+27l0l1	de_Lyon	L
+27l0l2	26_avril_2007__	T
+27l0l3	a_décidé	N
+27l0l4	les_travaux	N
+27l0l5	délimiter	N
+27l0l6	extraire	N
+27l0l7	éliminer	N
+27l0l8	les_terres_polluées	O
+27l0l9	autour_du_sondage_S8	L
+27l1l0	Le_tribunal_administratif_de_Lyon	I
+
+#Le préfet a saisi le bureau du contentieux du ministère en charge de l'écologie, à la demande de la DRIRE.
+
+28l0l0	Le_préfet	O
+28l0l1	a_saisi	N
+28l0l2	le_bureau_du_contentieux_du_ministère_en_charge_de_l__écologie	O
+28l0l3	à_la_demande_de	R
+28l0l4	la_DRIRE	O
+28l1l0	Le_préfet	I
+28l1l1	ministère_en_charge_de_l__écologie	I
+28l1l2	la_DRIRE	I
+
+#Ce dernier a fait appel du jugement le 4/07/2007.
+
+29l0l0	a_fait_appel_du_jugement	N
+29l0l1	le_4_07_2007__	T
+
+#Par arrêté du 16 mars 2009, le préfet a modifié l'arrêté du 3 janvier 2005 pour imposer le traitement du point S8 à hauteur d'un usage industriel avec la remise d'un dossier comprenant les éléments nécessaires pour mettre en œuvre les restrictions d'usages idoines.
+
+30l0l0	Par	R
+30l0l1	arrêté	O
+30l0l2	du_16_mars_2009__	T
+30l0l3	le_préfet	O
+30l0l4	a_modifié_l__arrêté	N
+30l0l5	3_janvier_2005	T
+30l0l6	imposer_le_traitement	N
+30l0l7	un_usage_industriel	A
+30l0l8	la_remise	N
+30l0l9	d_	R
+30l1l0	le_préfet	I
+
+#Cet arrêté a été revisé dans son ensemble par l'arrêté n°2012321-003 du 16 novembre 2012.
+
+31l0l0	Cet_arrêté	O
+31l0l1	a_été_revisé	N
+31l0l2	l_	O
+31l0l3	16_novembre_2012__	T
+
+#Un dossier de mise à jour de l'EDR a été remis par l'exploitant en janvier 2013.
+
+32l0l0	Un_dossier_de	O
+32l0l1	mise_à_jour	N
+32l0l2	a_été_remis	N
+32l0l3	l__exploitant	O
+32l0l4	en_janvier_2013__	T
+
+#Il est actuellement à l'étude de l'inspection.
+
+33l0l0	l__inspection	O

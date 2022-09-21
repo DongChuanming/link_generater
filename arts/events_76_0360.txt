@@ -1,0 +1,302 @@
+
+#76.0360
+#Le site est limité au Nord-Ouest par la voie ferrée reliant Paris au Tréport, au Sud-Est par le chemin de la verrerie et au sud, et au Nord par des terrains agricoles.
+
+0l0l0	Le_site	O
+0l0l1	limité_au_Nord_Ouest_par_la_voie_ferrée_reliant_Paris_au_Tréport	L
+0l0l2	Sud_Est	N
+0l0l3	le_chemin_de_la_verrerie	L
+0l0l4	au_sud	L
+0l0l5	Nord	T
+0l0l6	des_terrains_agricoles	O
+
+#Le site est entouré de terres agricoles et de quelques habitations.
+
+1l0l0	entouré_de	L
+1l0l1	terres_agricoles	O
+1l0l2	quelques_habitations	O
+
+#Il a une superficie de 52 510 m².
+
+
+#L'activité principale est la fabrication et la commercialisation de tubes en verre étiré à usage pharmaceutique, paramédical et cosmétique, et des tubes à prélèvement sanguin.
+
+3l0l0	L_	O
+3l0l1	la_fabrication_et_la_commercialisation_de_tubes_en_verre_étiré	A
+3l1l0	tubes	U
+
+#La pollution concerne la zone 1 où se faisait le stockage des cuves aériennes d'hydrocarbures (fioul lourd et léger, FOD) et la zone 2 de stockage de ferrailles, situé derrière l'atelier mécanique.
+
+4l0l0	la_zone_1	O
+4l0l1	se_faisait_le_stockage	A
+4l0l2	la_zone_2_de_stockage_de_ferrailles	O
+4l0l3	situé_derrière_l__atelier_mécanique	L
+4l1l0	cuves	D
+4l1l1	aériennes_d__hydrocarbures	U
+4l1l2	fioul_lourd	S
+4l1l3	FOD	S
+
+#En 1977, en complément du fioul et de l'électricité, du gaz combustible liquéfié est stocké.
+
+5l0l0	En_1977	T
+5l0l1	l__électricité	O
+5l1l0	fioul	S
+
+#En 1988, il est mis en place une installation permettant l'utilisation du gaz pour le chauffage des fours.
+
+6l0l0	En_1988	T
+6l0l1	est_mis_en_place	N
+6l0l2	une_installation	O
+6l0l3	permettant	R
+6l0l4	l__utilisation_du_gaz	A
+6l0l5	le_chauffage_des_fours	A
+
+#Cette même année, l'alimentation en fioul est abandonnée au profit du gaz naturel.
+
+7l0l0	Cette_même_année	T
+7l0l1	l_	A
+7l0l2	alimentation_en_fioul	O
+7l0l3	est_abandonnée_au_profit	N
+7l0l4	gaz_naturel	O
+7l1l0	fioul	U
+
+#En 2017, seule la cuve de 200 m3 est utilisée comme réserve d'eau.
+
+8l0l0	En_2017__	T
+8l0l1	est_utilisée	N
+8l0l2	comme	R
+8l0l3	réserve_d__eau	A
+
+#Un forage au droit du site est créé en 1957.
+
+9l0l0	Un_forage	O
+9l0l1	au_droit_du_site	L
+9l0l2	est_créé_en_1957	T
+
+#Un captage d'eau potable est situé au lieu-dit "Le Petit Bailly" sur la commune d'Aumale à 600 m à l'ouest du site.
+
+10l0l0	Un_captage	O
+10l0l1	situé_au_lieu___dit___Le_Petit_Bailly	L
+10l0l2	__sur_la_commune_d__Aumale_à_600_m_à_l__ouest_du_site	L
+
+#Le site se situe à environ à 300 m de la Bresle et à 150 m du ruisseau le Menillet, affluent de la Bresle.
+
+11l0l0	Le_site	O
+11l0l1	se_situe_à_environ_à_300_m_de_la_Bresle	L
+11l0l2	à_150_m_du_ruisseau_le_Menillet___affluent_de_la_Bresle	L
+
+#Deux nappes sont présentes au droit du site: une nappe perchée au niveau des argiles peu productive et une nappe principale captive en charge sous les argiles, sans lien hydraulique entre elles.
+
+12l0l0	Deux_nappes	O
+12l0l1	au_droit_du_site	L
+
+#Le site est soumis à un fort aléa d'inondation par remontée de nappe.
+
+13l0l0	Le_site	O
+13l0l1	est_soumis_à	R
+13l0l2	un_fort_aléa	N
+13l0l3	remontée_de_nappe	N
+
+#Des investigations ont été réalisées du 8 au 15 décembre 2010 (21 sondages de sol).
+
+14l0l0	Des_investigations_ont_été_réalisées	N
+14l0l1	du_8_au_15_décembre_2010	T
+
+#Elles ont mis en évidence:
+
+
+#- zone n°1: au droit de cinq sondages, un impact en hydrocarbures C10-C40
+
+16l0l0	un_impact	O
+16l1l0	hydrocarbures	S
+
+#- zone n°2: une concentration en éléments traces métalliques (cadmium, cuivre, plomb, zinc)
+
+17l1l0	traces_métalliques	S
+17l1l1	cadmium	S
+17l1l2	cuivre	S
+17l1l3	plomb	S
+17l1l4	zinc	S
+
+#Concernant les eaux souterraines, quatre piézomètres sont en place.
+
+
+#Les analyses ont mis en évidence:
+
+
+#- dans la nappe perchée superficielle (Pz 2 bis) des teneurs soutenues en hydrocarbures totaux et la présence de traces de HAP;
+
+20l1l0	hydrocarbures_totaux	S
+20l1l1	HAP	S
+
+#- dans les eaux souterraines de la nappe de la craie en charge sous la couche argileuse (Pz 2), des teneurs en hydrocarbures totaux plus réduites ainsi que des traces de HAP.
+
+21l1l0	hydrocarbures_totaux	S
+21l1l1	HAP	S
+
+#Des investigations ont été effectuées en septembre 2016 (14 sondages) et en janvier 2017 (9 sondages sur la zone 1).
+
+22l0l0	Des_investigations_ont_été_effectuées	N
+22l0l1	en_septembre_2016	T
+22l0l2	en_janvier_2017	T
+
+#Un piézair a été mis en place à proximité des sondages SC2 et S9, et un piézair à proximité du sondage SC5, ainsi que sept piézomètres provisoires.
+
+23l0l0	Un_piézair	O
+23l0l1	a_été_mis_en_place	N
+23l0l2	à_proximité_des_sondages_SC2	L
+23l0l3	un_piézair	O
+23l0l4	à_proximité_du	L
+23l0l5	sondage_SC5	O
+
+#Les résultats d'analyses en hydrocarbures totaux au droit des sondages réalisés dans le secteur des anciens stockages d'hydrocarbures (zone 1) mettent en évidence les points notables suivants:
+
+24l0l0	hydrocarbures_totaux	O
+24l0l1	au_droit_des_sondages_réalisés_dans_le_secteur_des_anciens_stockages	L
+24l0l2	d__hydrocarbures	O
+24l1l0	hydrocarbures_totaux	S
+24l1l1	hydrocarbures	S
+
+#- Au niveau de l'ancienne canalisation et zone de dépotage au sud du secteur (SC15 et SC7), un impact en hydrocarbures dans les sols non saturés à partir de 1 m de profondeur pour SC15 correspondant à la profondeur de l'ancienne canalisation située à proximité, et dès la surface pour SC7 situé en contrebas de la zone de dépotage.
+
+25l0l0	Au_niveau_de	R
+25l0l1	l__ancienne_canalisation	O
+25l0l2	zone_de_dépotage	O
+25l0l3	au_sud_du_secteur___SC15	L
+25l0l4	en_contrebas_de_la_zone_de_dépotage	L
+25l1l0	hydrocarbures	S
+
+#- Les résultats montrent qu'au niveau de l'ancienne zone de stockage, des impacts ponctuels en hydrocarbure sont identifiés dans les sols en zone non saturée en lien probable avec des débordements ou des fuites localisées principalement dans la partie Nord-Ouest de la zone.
+
+26l0l0	impacts_ponctuels	N
+26l0l1	saturée	O
+26l0l2	dans_la_partie_Nord_Ouest_de_la_zone	L
+26l1l0	hydrocarbure	S
+
+#La surface concernée est estimée à environ 45 m².
+
+
+#Plus au sud, la configuration de l'impact laisse supposer un transfert d'hydrocarbures via les eaux souterraines depuis l'amont hydraulique au niveau de l'ancienne zone de dépotage.
+
+28l0l0	Plus_au_sud	L
+28l0l1	un_transfert	N
+28l0l2	d__hydrocarbures	O
+28l0l3	l__amont_hydraulique	L
+28l0l4	au_niveau_de	R
+28l0l5	l_	O
+28l0l6	dépotage	N
+28l1l0	hydrocarbures	S
+
+#Les analyses en métaux mettent en évidence des dépassements du bruit de fond local pour le plomb, le cadmium et le zinc uniquement dans les remblais présents entre 0 et 1 mètre de profondeur.
+
+29l0l0	les_remblais	N
+29l0l1	présents_entre_0_et_1_mètre_de_profondeur	N
+29l1l0	le_plomb	S
+29l1l1	le_cadmium	S
+29l1l2	zinc	S
+
+#Les valeurs mesurées restent inférieures aux valeurs de l'ASPITET pour des sols présentant des anomalies modérées.
+
+30l1l0	ASPITET	I
+
+#Les résultats des investigations au niveau du parc à ferrailles mettent en évidence pour les métaux lourds au niveau des sondages SC12 et SC13, des teneurs supérieures aux valeurs de référence de l'INRA pour les sols ordinaires pour les composés cadmium, cuivre, zinc et plomb dans les remblais de surface entre 0 et 1 mètre de profondeur.
+
+31l0l0	investigations	N
+31l0l1	au_niveau_du	R
+31l0l2	parc_à_ferrailles	O
+31l0l3	métaux_lourds	O
+31l0l4	les_remblais	N
+31l1l0	métaux_lourds	S
+31l1l1	composés_cadmium	S
+31l1l2	cuivre	S
+31l1l3	zinc	S
+31l1l4	plomb	S
+
+#Ces teneurs semblent plus associées à une anomalie locale dans les remblais de la zone qu'à un impact dans les sols en lien avec l'activité du site.
+
+32l0l0	Ces_teneurs	O
+32l0l1	remblais	N
+32l0l2	un_impact	N
+32l0l3	l__activité_du_site	A
+
+#Elle ne représente pas une source potentielle susceptible d'impacter les eaux souterraines au niveau du site.
+
+
+#Les résultats analytiques obtenus sur les eaux souterraines de la nappe de la craie mettent en évidence:
+
+
+#- pour Pz 2, la quantification d'hydrocarbures totaux, d'HAP et de traces d'orthoxylènes.
+
+35l0l0	la_quantification	N
+35l1l0	hydrocarbures_totaux	S
+35l1l1	d__HAP	S
+35l1l2	traces_d__orthoxylènes	S
+
+#Les teneurs pour l'ensemble des paramètres restent inférieures aux valeurs de références pour la potabilisation des eaux brutes.
+
+36l0l0	potabilisation_des_eaux_brutes	A
+
+#- pour Pz 4, des teneurs inférieures à la limite de quantification du laboratoire pour l'ensemble des paramètres.
+
+37l1l0	Pz	S
+
+#Les résultats analytiques et les relevés in situ ont mis en évidence un impact marqué en hydrocarbures dans la nappe perchée circulant sur les argiles.
+
+38l0l0	les_relevés_in_situ	N
+38l0l1	hydrocarbures	O
+38l0l2	argiles	A
+38l1l0	hydrocarbures	S
+
+#Cet impact est caractérisé par la présence de phases flottantes présentant des épaisseurs hétérogènes sur la zone avec notamment, en février 2017, la détection de 51 cm sur Pz2 bis et 18 cm sur SC18.
+
+39l0l0	en_février_2017__	T
+39l0l1	la_détection	N
+39l1l0	phases_flottantes	U
+
+#Dans l'air du sol, au droit des deux piézairs, on observe la présence d'hydrocarbures, de toluène, éthylbenzène et xylène.
+
+40l1l0	hydrocarbures	S
+40l1l1	toluène	S
+40l1l2	éthylbenzène	S
+40l1l3	xylène	S
+
+#Un schéma conceptuel, un plan de gestion et un bilan coût/avantage ont été réalisés en mai 2017.
+
+41l0l0	Un_schéma_conceptuel	O
+41l0l1	un_plan_de_gestion	O
+41l0l2	un_bilan	N
+41l0l3	coût___avantage	O
+41l0l4	ont_été_réalisés	N
+41l0l5	en_mai_2017__	T
+
+#La solution de traitement retenue sur la base du bilan coût/avantage est la suivante:
+
+
+#- excavation et évacuation hors site des sols impactés;
+
+43l0l0	excavation	N
+43l0l1	évacuation_hors_site	N
+43l0l2	des_sols_impactés	N
+
+#- écrémage de la phase libre et injection d'oxydants directement dans la nappe des argiles mise à jour au droit de la zone terrassée;
+
+44l0l0	écrémage	N
+44l0l1	la_phase_libre	O
+44l0l2	injection_d__oxydants	N
+44l0l3	directement_dans	R
+44l0l4	la	O
+44l0l5	nappe_des_argiles	A
+44l0l6	au_droit_de_la_zone_terrassée	L
+
+#- mise en place d'un réseau piézométrique de contrôle pour le suivi de l'évolution et mise en œuvre d'une purge active de la phase.
+
+45l0l0	mise_en_place_d_	N
+45l0l1	le_suivi_de	A
+45l0l2	l__évolution	O
+45l0l3	mise_en_œuvre_d__une_purge_active	N
+45l0l4	la_phase	O
+
+#L'analyse prédictive des risques résiduels réalisée sur la base des hypothèses retenues et des données actuelles, et en prenant en compte l'enlèvement des zones sources tel que préconisé dans le plan de gestion, a mis en évidence la compatibilité de la qualité des teneurs résiduelles dans les sols et les eaux souterraines avec l'usage envisagé de type industriel.
+
+46l0l0	L__analyse_prédictive	N
+46l0l1	zones_sources	O

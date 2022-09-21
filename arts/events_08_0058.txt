@@ -1,0 +1,177 @@
+
+#08.0058
+#L'usine de colles est crée en 1808, l'activité principale du site est à l'époque la fabrication de colle à base aqueuse et de solvants.
+
+0l0l0	L__usine_de_colles	O
+0l0l1	est_crée_en_1808___l_	N
+0l0l2	activité	R
+0l0l3	principale_du_site	N
+
+#La production de colle s'arrête à la fin des années 1940, puis le site est occupé par deux entreprises : SACOR (fabrique de sacs en papier) et CEP (Compagnie des Emballages Pratiques).
+
+1l0l0	La_production_de	A
+1l0l1	colle_s_	N
+1l0l2	arrête_à	T
+1l0l3	la_fin_des_années_1940___puis_le_site	O
+1l0l4	est_occupé	T
+1l0l5	par_deux_entreprises_____SACOR	A
+
+#En 1963, Beiersdorf France (TESA) reprend l'ensemble pour fabriquer de la colle à timbres poste et le cède plus tard à SOPAL.
+
+2l0l0	En_1963___Beiersdorf_France	A
+2l0l1	__TESA	N
+2l0l2	__reprend_l__ensemble	T
+2l0l3	fabriquer	O
+2l0l4	de_la_colle	N
+2l0l5	timbres_poste_et_le_cède	O
+2l0l6	plus_tard_à_SOPAL__	A
+2l1l0	Beiersdorf_France	U
+2l1l1	cède_plus	I
+
+#SOPAL devenue GASCOGNE en 2007 stoppe toute production en 2009.
+
+3l0l0	SOPAL	T
+3l0l1	devenue_GASCOGNE_en_2007	O
+3l0l2	stoppe_toute	N
+3l0l3	production	O
+3l0l4	2009__	A
+3l1l0	devenue_GASCOGNE_en_2007_stoppe	I
+
+#Le site est depuis inoccupé.
+
+4l0l0	Le_site	O
+4l0l1	inoccupé__	T
+4l1l0	Le_site	I
+4l1l1	depuis_inoccupé	I
+
+#Le site est en partie localisé dans une zone de Périmètre de Protection du Risque Inondation (PPRI).
+
+5l0l0	Le_site	O
+
+#La contamination présente dans les sols sont :
+
+6l0l0	La_contamination	O
+6l0l1	présente_dans_les_sols_sont____	L
+
+#- Solvants chlorés au niveau de l'ancienne zone de lavage des encres
+
+7l0l0	__Solvants_chlorés	O
+
+#- Métaux lourds au niveau de la zone de maintenance
+
+8l0l0	lourds_au	O
+8l0l1	niveau_de_la	R
+8l0l2	zone_de_maintenance	O
+8l1l0	Métaux_lourds_au_niveau	U
+
+#- Hydrocarbures totaux au niveau de la zone de l'ancienne cuve de fioul.
+
+9l0l0	la_zone_de_l__ancienne_cuve_de_fioul__	T
+9l1l0	Hydrocarbures	U
+
+#La société GASCOGNE a procédé à :
+
+10l0l0	La_société_GASCOGNE_a	O
+10l0l1	procédé_à____	R
+10l1l0	La_société_GASCOGNE_a_procédé	S
+
+#- La notification de la cessation d'activité de son site de GIVET à la préfecture des Ardennes.
+
+11l0l0	__La_notification_de	O
+11l0l1	la_cessation	N
+11l1l0	La_notification_de	I
+
+#- Une proposition d'usage futur à la mairie de GIVET (en cours en Mars 2010).
+
+12l0l0	Une_proposition	N
+12l0l1	usage_futur_à_la_mairie_de	N
+12l0l2	GIVET___en_cours_en	O
+12l0l3	Mars_2010____	O
+12l1l0	Mars_2010____	I
+
+#- La réalisation d'un mémoire de cessation.
+
+13l0l0	La_réalisation_d__un_mémoire_de	O
+13l0l1	cessation__	L
+
+#- La suppression ou la neutralisation de ses stockages de porduits dangereux.
+
+
+#- Au démantèlement et au traitement de l'ensemble de son parc machines et des équipements annexes (en cours en Mars 2010).
+
+15l0l0	Au_démantèlement_et_au_traitement_de	N
+15l0l1	ensemble_de_son	O
+
+#- A la vidange, au nettoyage et au dégazage des cuves d'alcool.
+
+16l0l0	A_la_vidange___au_nettoyage_et_au_dégazage	N
+16l0l1	des_cuves_d__alcool__	O
+
+#- Au démantèlement et à l'élimination de son transformateur au PCB (en cours en Mars 2010).
+
+17l0l0	Au_démantèlement_et_à_l_	N
+17l0l1	élimination_de	N
+17l0l2	son_transformateur	A
+17l1l0	transformateur	U
+
+#- Au démantèlement des cuves de colles et des malaxeurs (en cours en Mars 2010).
+
+18l0l0	démantèlement	N
+18l0l1	cuves_de_colles	N
+18l0l2	des_malaxeurs___en_cours	O
+18l0l3	Mars_2010____	T
+18l1l0	cours_en	S
+
+#- La valorisation des produits finis et des matières premières.
+
+19l0l0	valorisation	N
+19l0l1	des_produits_finis	O
+19l0l2	matières	N
+19l0l3	premières__	T
+
+#- L'élimination des déchets finis et des matières premières.
+
+
+#- L'élimination des déchets banaux présents sur le site (en cours en Mars 2010).
+
+
+#- Au nettoyage de la globalité du site (en cours en Mars 2010).
+
+22l0l0	Au_nettoyage_de	N
+22l0l1	2010____	T
+
+#- La mise en sécurité de son réseau gaz.
+
+23l0l0	La_mise_en_sécurité	N
+23l0l1	de_son_réseau_gaz	O
+
+#- La mise en sécurité de son réseau électrique.
+
+
+#- La mise en sécurité de son réseau eau potable.
+
+
+#- Au nettoyage de son réseau d'assainissement et notamment de la fosse de décantation.
+
+26l0l0	Au_nettoyage_de_son	N
+
+#- La réalisation d'une étude relative à la pollution des sols.
+
+27l0l0	La_réalisation	N
+27l0l1	d__une_étude_relative_à_la_pollution	O
+
+#- La réalisation de mesures dans le domaine des eaux souterraines.
+
+28l0l0	La_réalisation_de_mesures	N
+28l0l1	dans_le_domaine	R
+28l0l2	des_eaux_souterraines	O
+
+#- La réalisation d'un repérage de l'amiante.
+
+29l0l0	La_réalisation_d__un_repérage	N
+
+#Le 6 juillet 2011, un projet de reconversion du site est réalisé.
+
+30l0l0	Le_6_juillet_2011___un	R
+30l0l1	projet_de	N
+30l0l2	reconversion	O

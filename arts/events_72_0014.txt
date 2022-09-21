@@ -1,0 +1,121 @@
+
+#72.0014
+#Une activité de vente de vêtements "Usine Center" s'est implanté en 1987 sur le site, puis le terrain est resté plusieurs années en friche.
+
+0l0l0	Une_activité_de_vente_de_vêtements	A
+0l0l1	Usine_Center	O
+0l0l2	s__est_implanté	N
+0l0l3	en_1987	T
+0l0l4	le_terrain	O
+0l0l5	est_resté	N
+0l0l6	plusieurs_années	T
+
+#Le local dans lequel se trouvait le transformateur à l'origine de la pollution est inclus dans un vaste bâtiment abandonné depuis plusieurs années et anciennement appelé 'Usines Center'.
+
+1l0l0	Le_local	O
+1l0l1	le_transformateur	O
+1l0l2	la_pollution	O
+1l0l3	est	R
+1l0l4	inclus_dans_un_vaste_bâtiment_abandonné	L
+1l0l5	depuis_plusieurs_années	T
+1l0l6	anciennement_appelé	R
+1l0l7	Usines_Center	N
+
+#Ce bâtiment est situé dans l'agglomération Mancelle à proximité d'une zone d'habitations.
+
+2l0l0	Ce_bâtiment	O
+2l0l1	est_situé_dans_l__agglomération_Mancelle	L
+2l0l2	à_proximité_d__une_zone_d__habitations	L
+
+#Le liquide encore contenu dans le transformateur a été vidangé dans la cuvette de rétention, suite à l'intervention probable d'un squatter.
+
+3l0l0	Le_liquide	O
+3l0l1	le_transformateur	O
+3l0l2	a_été_vidangé	N
+3l0l3	dans_la_cuvette	L
+3l0l4	de_rétention	O
+3l0l5	suite_à	R
+3l0l6	l__intervention	N
+
+#Une partie du diélectrique s'est répandue sur le sol puis a rejoint une fosse contenant des gaines électriques et s'est propagée le long  des gaines enterrées.
+
+4l0l0	a_rejoint	N
+4l0l1	une_fosse	O
+4l0l2	s__est_propagée	N
+4l0l3	le_long___des_gaines_enterrées	L
+4l1l0	diélectrique	U
+
+#Une première étude a été réalisée en octobre 1998 par un organisme spécialisé qui a conclu à la présence de PCB dans tous les échantillons prélevés.
+
+5l0l0	Une_première_étude	N
+5l0l1	a_été_réalisée	N
+5l0l2	en_octobre_1998	T
+5l0l3	un_organisme	O
+5l1l0	PCB	S
+
+#Une étude complémentaire visant à qualifier l'étendue de la zone polluée et à définir les moyens à mettre en œuvre pour la réhabilitation du site est en cours.
+
+6l0l0	Une_étude_complémentaire	O
+6l0l1	visant_à	R
+6l0l2	qualifier	N
+6l0l3	zone_polluée	O
+6l0l4	la_réhabilitation	N
+6l0l5	du_site	O
+6l0l6	est_en_cours	N
+
+#Une procédure de consignation a été engagée par arrêté préfectoral du 15 janvier 1999.
+
+7l0l0	a_été_engagée	N
+7l0l1	par_arrêté_préfectoral	O
+7l0l2	du_15_janvier_1999__	T
+
+#Cette procédure de consignation n'a pas abouti à la date du 12 septembre 2002.
+
+8l0l0	Cette_procédure	O
+8l0l1	la_date_du_12_septembre_2002	T
+
+#L'étude complémentaire présentée en avril 1999 a permis de délimiter plus précisément la zone contaminée.
+
+9l0l0	L__étude_complémentaire	O
+9l0l1	en_avril_1999	T
+9l0l2	délimiter	O
+9l0l3	zone_contaminée	O
+
+#Elle correspond à un volume de 75 m3 de sable qui doit être éliminé dans un CET de classe 1.
+
+10l0l0	un_CET	O
+
+#Par ailleurs, les matériaux contaminés dans le local dont la concentration en PCB est supérieure à 50 mg/kg doivent au préalable être décontaminés par une entreprise agréée.
+
+11l0l0	les_matériaux_contaminés	O
+11l0l1	doivent_au_préalable_être_décontaminés	N
+11l0l2	par_une_entreprise_agréée	O
+11l1l0	PCB	S
+
+#L'étude mentionne que la nature du sol permet d'éviter la migration des polluants.
+
+12l1l0	polluants	S
+
+#La préfecture a demandé au propriétaire des lieux de confirmer qu'il a bien procédé à la remise en état de la zone contaminée par les PCB au cours du mois de mars 2000, en communiquant tous les documents portant sur la nature des travaux de dépollution entrepris sur le site et attestant leur bonne exécution.
+
+13l0l0	La_préfecture	O
+13l0l1	a_demandé	N
+13l0l2	au_propriétaire_des_lieux	O
+13l0l3	a_bien_procédé_à_la_remise_en_état_de_la_zone_contaminée_par	N
+13l0l4	les_PCB	N
+13l0l5	au_cours_du_mois_de_mars_2000__	T
+13l0l6	des_travaux_de_dépollution	N
+13l0l7	entrepris_sur_le_site	N
+13l1l0	La_préfecture	I
+13l1l1	PCB	S
+
+#Puis, en 2003, l'activité a repris sur le site (vente d'automobiles, grande surface de bricolage, supermarché discount puis une coopérative d'achats pour les artisans du bâtiment).
+
+14l0l0	en_2003__	T
+14l0l1	l__activité	N
+14l0l2	a_repris	N
+14l0l3	le_site	O
+14l0l4	vente_d_	A
+14l0l5	automobiles	O
+14l0l6	discount	A
+14l0l7	les_artisans_du_bâtiment	O

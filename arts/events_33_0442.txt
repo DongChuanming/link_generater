@@ -1,0 +1,175 @@
+
+#33.0442
+#Ancien garage avec station-service exploités de 1965 à 1977 par M.
+
+0l0l0	Ancien_garage	O
+0l0l1	exploités	N
+0l0l2	de_1965_à_1977	T
+0l0l3	par	N
+0l0l4	M_	O
+
+#Louis GARRIGUEZ, 3 avenue de Bordeaux à Lège Cap Ferret.
+
+1l0l0	Louis_GARRIGUEZ	O
+1l0l1	3_avenue_de_Bordeaux_à_Lège_Cap_Ferret	L
+1l1l0	GARRIGUEZ	I
+1l1l1	Lège_Cap_Ferret	I
+
+#Les installations ont fait l'objet :
+
+2l0l0	Les_installations	O
+2l0l1	ont_fait_l__objet	R
+
+#- du récépissé de déclaration n°2703 du 1 septembre 1950 donné à M LAVAUD
+
+3l0l0	récépissé	O
+3l0l1	1_septembre_1950	T
+3l0l2	donné_à_M	N
+3l0l3	LAVAUD	T
+
+#- du récépissé de déclaration du 2 novembre 1965 pour la rubrique 255 D2 donné à M GARRIGUEZ
+
+4l0l0	du_récépissé	O
+4l0l1	2_novembre_1965	T
+4l0l2	donné	N
+4l0l3	M_GARRIGUEZ	O
+4l1l0	M_GARRIGUEZ	I
+
+#- du récépissé de déclaration n°7690 du 25 mars 1966 pour la rubrique 281 donné à M GARRIGUEZ
+
+5l0l0	du_récépissé	O
+5l0l1	25_mars_1966	T
+5l0l2	donné	N
+5l0l3	M_GARRIGUEZ	O
+5l1l0	M_GARRIGUEZ	I
+
+#- du récépissé de déclaration n°8.486 du 16 avril 1968 pour la rubrique 254 D1 donné à M GARRIGUEZ.
+
+6l0l0	du_récépissé	O
+6l0l1	16_avril_1968	T
+6l0l2	donné	N
+6l0l3	M_GARRIGUEZ	O
+6l1l0	M_GARRIGUEZ	I
+
+#Le terrain a par la suite fait l'objet d'une division parcellaire:
+
+7l0l0	Le_terrain	O
+7l0l1	a_par_la_suite	N
+7l0l2	fait_l__objet_d_	R
+7l0l3	une_division_parcellaire	O
+
+#- Le lot n°1 a été vendu à M DOS SANTOS le 3 juin 2010.
+
+8l0l0	Le_lot	O
+8l0l1	a_été_vendu_à	N
+8l0l2	M_DOS_SANTOS	O
+8l0l3	le_3_juin_2010__	T
+8l1l0	DOS_SANTOS	I
+
+#- Le lot n°2 a été conservé par Mme GARRIGUEZ, puis vendu à la société LINGUE et la société ACAJOU le 16 juillet 2014.
+
+9l0l0	Le_lot	O
+9l0l1	a_été_conservé	N
+9l0l2	Mme_GARRIGUEZ	O
+9l0l3	vendu_à	N
+9l0l4	la_société_LINGUE	O
+9l0l5	la_société_ACAJOU	N
+9l0l6	le_16_juillet_2014__	T
+9l1l0	Mme_GARRIGUEZ	I
+9l1l1	la_société_LINGUE	I
+9l1l2	la_société_ACAJOU	I
+
+#1- DIAGNOSTIC
+
+10l0l0	DIAGNOSTIC	N
+
+#Un diagnostic de pollution a été réalisé en mars 2014 par le bureau d'études DEKRA.
+
+11l0l0	Un_diagnostic_de_pollution	N
+11l0l1	a_été_réalisé	N
+11l0l2	en_mars_2014	T
+11l0l3	le_bureau_d__études_DEKRA	O
+11l1l0	DEKRA	I
+
+#Les conclusions du bureau d'étude montrent que les activités exercées sur le site n'ont pas impacté les sols.
+
+12l0l0	bureau_d__étude	O
+12l0l1	les_activités_exercées	N
+12l0l2	sur	R
+12l0l3	le_site	O
+12l0l4	n__ont_pas_impacté	N
+
+#2 - TRAVAUX
+
+13l0l0	TRAVAUX	O
+13l1l0	TRAVAUX	I
+
+#La mise en sécurité du site et le retrait du matériel ont eu lieu entre 2004 et 2014.
+
+14l0l0	La_mise_en_sécurité	N
+14l0l1	du_site	O
+14l0l2	le_retrait	N
+14l0l3	du_matériel	O
+14l0l4	ont_eu_lieu	N
+14l0l5	entre_2004_et_2014__	T
+
+#Les travaux ont consisté en :
+
+
+#- démolition des ouvrages des surface,
+
+16l0l0	démolition_des_ouvrages	N
+
+#- évacuation de la cuve aérienne de 30 000 litres,
+
+17l0l0	évacuation	N
+17l0l1	la_cuve_aérienne	O
+
+#- dégazage et inertage des cuves enterrées.
+
+18l0l0	dégazage_et_inertage_des_cuves_enterrées	N
+18l1l0	cuves_enterrées	D
+
+#3 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+19l0l0	SURVEILLANCE_DES_EAUX	A
+19l0l1	SOUTERRAINES	O
+19l1l0	SOUTERRAINES	I
+
+#En raison de l'absence de pollution dans les sols, le bureau d'étude n'a pas réalisé de diagnostic des eaux souterraines.
+
+20l0l0	le_bureau_d__étude	O
+20l0l1	n__a_pas_réalisé_de_diagnostic	N
+20l0l2	des_eaux_souterraines	A
+
+#4 - SOLDE
+
+
+#l'inspection de l'environnement dresse procès-verbal de récolement le 17 juin 2014.
+
+22l0l0	récolement	N
+22l0l1	le_17_juin_2014__	T
+
+#Au titre du principe de précaution, l'usage de la nappe au droit du site devra être interdit.
+
+23l0l0	l__usage_de	A
+23l0l1	la_nappe	O
+23l0l2	au_droit_du_site	O
+23l0l3	devra_être_interdit	N
+
+#Le 08/08/2014, la DREAL estime qu’une action complémentaire de l'Inspection des Installations Classées sur ce site n’est pas nécessaire.
+
+24l0l0	Le_08_08_2014	T
+24l0l1	la_DREAL	O
+24l0l2	une_action_complémentaire	O
+24l0l3	l__Inspection_des_Installations_Classées	O
+24l0l4	ce_site	O
+24l1l0	la_DREAL	I
+
+#La DREAL propose de basculer ce site dans la Base de données des Anciens Sites Industriels et Activités de Service (BASIAS).
+
+25l0l0	La_DREAL	O
+25l0l1	la_Base_de_données	O
+25l0l2	Industriels_et_Activités_de_Service	A
+25l0l3	BASIAS	O
+25l1l0	La_DREAL	I

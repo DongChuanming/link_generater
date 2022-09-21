@@ -1,0 +1,593 @@
+
+#01.0065
+#Les établissements BLANC exploitent depuis 1972 une station de distribution de carburants à Port, en bordure de la route nationale 844, à environ 300 m au sud-ouest du lac de Nantua.
+
+0l0l0	Les_établissements_BLANC	O
+0l0l1	exploitent	N
+0l0l2	depuis_1972	T
+0l0l3	une_station	O
+0l0l4	de_distribution_de_carburants	A
+0l0l5	à_Port	L
+0l0l6	en_bordure_de_la_route_nationale_844	L
+0l0l7	à_environ_300_m_au_sud_ouest_du_lac_de_Nantua	L
+0l1l0	Les_établissements_BLANC	I
+0l1l1	carburants	U
+
+#Ce site est soumis à déclaration au titre des installations classées.
+
+1l0l0	Ce_site	O
+1l0l1	est_soumis_à_déclaration	N
+1l0l2	au_titre	R
+
+#Il a fait l'objet de plusieurs récépissés de déclaration en 1972, 1975 et 1985 pour le stockage et la distribution de liquides inflammables.
+
+2l0l0	Il	O
+2l0l1	a_fait_l__objet_de	R
+2l0l2	plusieurs_récépissés	O
+2l0l3	déclaration	N
+2l0l4	en_1972	T
+2l0l5	1985	T
+2l0l6	le_stockage_et_la_distribution_de_liquides_inflammables	A
+2l1l0	liquides_inflammables	U
+
+#Un récépissé a également été délivré le 16 août 1995 à la société des pétroles SHELL, qui déclarait des modifications apportées aux installations en les situant par erreur sur le territoire de la commune de Montréal la Cluse.
+
+3l0l0	Un_récépissé	O
+3l0l1	a_également_été_délivré	N
+3l0l2	le_16_août_1995	T
+3l0l3	la_société_des_pétroles_SHELL	O
+3l0l4	les_situant_par_erreur	R
+3l0l5	sur_le_territoire_de_la_commune_de_Montréal_la_Cluse	L
+3l1l0	la_société_des_pétroles_SHELL	I
+
+#Les installations comportent :
+
+
+#- 1 réservoir de 20 m3 d’essence sans plomb 95 (SP95),
+
+5l0l0	d__essence_sans_plomb_95	O
+5l1l0	essence_sans	U
+5l1l1	plomb_95	I
+5l1l2	SP95	S
+
+#- 1 réservoir compartimenté de 30 m3 d’essence sans plomb 98 (SP98) et 20 m3 de supercarburant,
+
+6l0l0	d__essence_sans	A
+6l0l1	20_m3_de_supercarburant	O
+6l1l0	essence_sans	U
+6l1l1	plomb_98	I
+6l1l2	SP98	S
+6l1l3	supercarburant	U
+
+#- 1 réservoir compartimenté de gazole (20 m3 + 30 m3),
+
+7l1l0	1_réservoir	D
+7l1l1	gazole	U
+
+#- 2 îlots de distribution.
+
+
+#A ce jour, le site n'est plus exploité, les cuves ont été nettoyées, dégazées et neutralisées à l’eau et l'accès est interdit au public.
+
+9l0l0	A_ce_jour	T
+9l0l1	le_site	O
+9l0l2	n__est_plus_exploité	N
+9l0l3	les_cuves	O
+9l0l4	ont_été_nettoyées	N
+9l0l5	dégazées	N
+9l0l6	neutralisées_à_l__eau	N
+9l0l7	l__accès	N
+9l0l8	est	O
+9l0l9	interdit_au	R
+9l0l10	public	N
+
+#Usage de l'eau :
+
+
+#Plusieurs puits à usage domestique (arrosage privé) ont été recensés lors d'une enquête de voisinage réalisée en février 2006, dans un rayon de 250 m autour du site ; l'usage des eaux souterraines est donc considéré comme sensible.
+
+11l0l0	Plusieurs_puits	O
+11l0l1	à_usage_domestique	A
+11l0l2	ont_été_recensés_lors	N
+11l0l3	d_	R
+11l0l4	une_enquête_de_voisinage_réalisée	N
+11l0l5	en_février_2006__	T
+11l0l6	dans_un_rayon_de_250_m_autour_du_site	L
+11l0l7	l__usage_des_eaux_souterraines	A
+
+#Un diagnostic des sols a été réalisé en novembre 2001 par la société ATE GEOCLEAN.
+
+12l0l0	Un_diagnostic_des_sols	N
+12l0l1	a_été_réalisé	N
+12l0l2	en_novembre_2001	T
+12l0l3	la	N
+12l0l4	société_ATE_GEOCLEAN	O
+12l1l0	la_société_ATE_GEOCLEAN	I
+
+#Les analyses réalisées à partir de 8 sondages dont 3 équipés en piézomètres, ont révélé :
+
+
+#- de faibles concentrations en hydrocarbures totaux dans les sols (concentration maximale de 420 mg/kg) ;
+
+14l1l0	hydrocarbures_totaux	S
+
+#- la présence d'hydrocarbures gazeux dans l'air du sol sur la quasi-totalité de l'emprise de la station ;
+
+15l1l0	hydrocarbures_gazeux	U
+
+#- une contamination de la nappe superficielle qui se trouve à une profondeur d'environ 2 à 3 m sous le site, par des hydrocarbures (teneur maximale de 44 mg/l) et des BTEX avec notamment des teneurs en benzène très importantes (jusqu'à 9 mg/l).
+
+16l0l0	une_contamination	N
+16l0l1	la_nappe	O
+16l1l0	des_hydrocarbures	S
+16l1l1	des_BTEX	S
+16l1l2	benzène	S
+
+#Des coupes pétrolières légères (essence) et des composés plus lourds (type gazole) ont été mis en évidence.
+
+17l0l0	Des_coupes_pétrolières	O
+17l1l0	Des_coupes_pétrolières	S
+17l1l1	essence	S
+17l1l2	composés	S
+17l1l3	gazole	S
+
+#La cuve d’essence de SP95 (qui contenait du gazole jusqu’en 1995), le réservoir compartimenté de SP98 et de supercarburant ainsi que les canalisations enterrées ont été considérés comme susceptibles d’être à l’origine de la pollution.
+
+18l0l0	La_cuve_d__essence_de_SP95	O
+18l0l1	gazole	A
+18l0l2	jusqu__en_1995	T
+18l0l3	les_canalisations_enterrées	O
+18l0l4	ont_été_considérés	N
+18l1l0	La_cuve_d_	D
+18l1l1	essence_de_SP95	U
+18l1l2	gazole	S
+18l1l3	SP98	S
+18l1l4	supercarburant	S
+
+#Des travaux ont été engagés en février 2003.
+
+19l0l0	Des_travaux_ont_été_engagés	N
+19l0l1	en_février_2003	T
+
+#Ils ont consisté à traiter la zone saturée par pompage à partir d'un réseau de piézomètres et envoi des eaux dans une installation comportant un séparateur à hydrocarbures (traitement des coupes pétrolières lourdes) et une unité de stripping  (traitement des coupes légères).
+
+20l0l0	traiter	N
+20l0l1	la_zone_saturée	O
+20l0l2	pompage	N
+20l0l3	envoi_des_eaux	O
+20l0l4	une_installation	O
+20l0l5	traitement	O
+20l0l6	coupes_pétrolières_lourdes	O
+20l0l7	une_unité_de	O
+20l0l8	stripping	N
+20l1l0	hydrocarbures	S
+
+#Les analyses réalisées en février 2005, après deux années de traitement ont montré des teneurs en hydrocarbures totaux en nette diminution.
+
+21l0l0	Les_analyses_réalisées	N
+21l0l1	en_février_2005__	T
+21l0l2	après	R
+21l0l3	deux_années	T
+21l0l4	de_traitement	N
+21l1l0	hydrocarbures_totaux	S
+
+#La teneur maximale relevée s’élève à 1,7 mg/l.
+
+
+#Les teneurs en BTEX étaient également en baisse mais toujours supérieures aux VCI sur plusieurs piézomètres, notamment pour le toluène (valeur maximale relevée de 8,35 mg/l), l'éthylbenzène (2,20 mg/l) et les xylènes (8,61 mg/l).
+
+23l0l0	Les_teneurs	O
+23l1l0	BTEX	S
+23l1l1	le_toluène	S
+23l1l2	l__éthylbenzène	S
+23l1l3	les_xylènes	S
+
+#Un nouveau diagnostic des sols a été réalisé en novembre 2004.
+
+24l0l0	Un_nouveau_diagnostic_des_sols	N
+24l0l1	a_été_réalisé	N
+24l0l2	en_novembre_2004__	T
+
+#Treize sondages de 3 à 4 m de profondeur ont été réalisés, à proximité des sources potentielles de pollution.
+
+25l0l0	Treize_sondages	O
+25l0l1	ont_été_réalisés	N
+25l0l2	à_proximité_des_sources	L
+
+#Les analyses réalisées sur les sols ont montré :
+
+
+#- une teneur en hydrocarbures totaux maximale relevée de 1261 mg/kg, à proximité de la cuve de SP95 ;
+
+27l0l0	à_proximité_de_la_cuve	L
+27l0l1	de_SP95	A
+27l1l0	hydrocarbures_totaux	S
+27l1l1	SP95	U
+
+#- des teneurs en BTEX inférieures aux VDSS, à l’exception d’un sondage proche du réservoir de SP95 pour lequel des teneurs en toluène (51,68 mg/kg), éthylbenzène (64,60 mg/kg) et xylène (254,1 mg/kg) supérieures aux VCI usage sensible sont mises en évidence.
+
+28l0l0	proche_du_réservoir_de_SP95	L
+28l1l0	BTEX	S
+28l1l1	SP95	S
+28l1l2	toluène	S
+28l1l3	éthylbenzène	S
+28l1l4	xylène	S
+
+#Une évaluation détaillée des risques (EDR) pour la santé humaine a été réalisée par LISEC en mars 2005.
+
+29l0l0	Une_évaluation_détaillée_des_risques	N
+29l0l1	a_été_réalisée	N
+29l0l2	LISEC	O
+29l0l3	en_mars_2005__	T
+
+#Des prélèvements et analyses ont été réalisés le 8 mars 2005, après un arrêt du dispositif de traitement pendant 15 jours.
+
+30l0l0	Des_prélèvements_et_analyses_ont_été_réalisés	N
+30l0l1	le_8_mars_2005__	T
+30l0l2	après	R
+30l0l3	un_arrêt_du_dispositif_de_traitement	N
+30l0l4	pendant_15_jours	T
+
+#Les teneurs en hydrocarbures totaux relevées dans les eaux de 6 piézomètres sur 7 étaient supérieures à 1 mg/l.
+
+31l0l0	les_eaux	O
+31l1l0	hydrocarbures_totaux	S
+
+#Les teneurs résiduelles en BTEX étaient également supérieures aux VCI.
+
+32l1l0	BTEX	S
+
+#Une teneur ponctuelle en benzo (a) pyrène supérieure à la VCI pour un usage sensible a été mise en évidence sur un piézomètre.
+
+33l0l0	usage_sensible	O
+33l0l1	a_été_mise_en	N
+33l0l2	un_piézomètre	O
+33l1l0	benzo	S
+33l1l1	a___pyrène	S
+
+#Dans ses conclusions le bureau d'études indique que le risque sanitaire lié à l'inhalation de BTEX par remontée gazeuse est acceptable pour un employé qui travaillerait 8 heures par jour sur le site, à l’extérieur de la boutique.
+
+34l0l0	inhalation	N
+34l1l0	BTEX	S
+
+#Le risque est par contre inacceptable pour une exposition de 8 heures par jour à l’intérieur de la boutique, du fait des émanations gazeuses de benzène, toluène et xylène.
+
+35l0l0	une_exposition_de_8_heures	N
+35l1l0	benzène	S
+35l1l1	toluène	S
+35l1l2	xylène	S
+
+#Le bureau d’étude indique que la seule façon de réduire le risque et de le rendre acceptable est de faire baisser les concentrations en polluants.
+
+36l1l0	polluants	U
+
+#Les concentrations résiduelles, à partir desquelles le risque pourrait être considéré comme acceptable ont été calculées et seraient les suivantes :
+
+37l0l0	ont_été_calculées	N
+
+#- benzène : 1 mg/l,
+
+38l1l0	benzène	S
+
+#- toluène : 14,6 mg/l,
+
+39l1l0	toluène	S
+
+#- xylènes : 13,75 mg/l.
+
+40l1l0	xylènes	S
+
+#Un diagnostic complémentaire destiné à délimiter l’extension de la pollution des sols et des eaux dans l’environnement du réservoir SP95 a été réalisée par la société Haskoning France en octobre 2005.
+
+41l0l0	Un_diagnostic_complémentaire	N
+41l0l1	destiné_à_délimiter	N
+41l0l2	l__extension_de_la_pollution_des_sols	N
+41l0l3	a_été_réalisée	N
+41l0l4	la_société_Haskoning_France	O
+41l0l5	en_octobre_2005__	T
+41l1l0	SP95	I
+41l1l1	la_société_Haskoning_France	I
+
+#Dix nouveaux sondages répartis sur l’ensemble du site ont été réalisés.
+
+42l0l0	Dix_nouveaux_sondages	O
+42l0l1	ont_été_réalisés	N
+
+#Huit d’entre eux ont été équipés de tubes piézométriques.
+
+
+#Les analyses des sols confirment les résultats obtenus en novembre 2004 :
+
+44l0l0	Les_analyses	N
+44l0l1	en_novembre_2004	T
+
+#- faibles teneurs en hydrocarbures totaux dans les sols.
+
+45l1l0	hydrocarbures_totaux	S
+
+#La valeur maximale relevée est de 540 mg/kg, à proximité de la cuve de SP95, à une profondeur d’environ 3 m ;
+
+46l0l0	à_proximité_de_la_cuve_de_SP95	A
+46l0l1	à_une_profondeur_d__environ_3	L
+46l1l0	SP95	S
+
+#- teneurs en BTEX inférieures aux VDSS, à l’exception d’un sondage proche du réservoir de SP95 qui présente des teneurs en toluène (210 mg/kg), éthylbenzène (140 mg/kg) et xylène (530 mg/kg) supérieures aux VCI usage sensible.
+
+47l0l0	proche_du_réservoir_de_SP95	A
+47l1l0	BTEX	S
+47l1l1	SP95	S
+47l1l2	toluène	S
+47l1l3	éthylbenzène	S
+47l1l4	xylène	S
+
+#L’étude indique que "la contamination des sols par des produits de type essence dans l’environnement du réservoir de SP95 est correctement délimitée.
+
+48l0l0	la_contamination	O
+48l0l1	des_produits_de_type_essence	O
+48l1l0	produits_de_type_essence	U
+48l1l1	SP95	S
+
+#Elle affecte une tranche de terrain de 1,50 m d’épaisseur dans un périmètre de 4 à 10 m au sud et à l’est du réservoir."
+
+49l0l0	une_tranche_de_terrain	O
+49l0l1	4_à_10_m_au_sud_et_à_l__est_du_réservoir	L
+
+#Les analyses des eaux souterraines montrent des teneurs supérieures aux VCI US :
+
+50l0l0	Les_analyses	N
+
+#- une concentration en hydrocarbures totaux de 110 µg/l dans un piézomètre à proximité de la cuve de SP95.
+
+51l0l0	à_proximité_de_la_cuve	L
+51l0l1	de_SP95	A
+51l1l0	hydrocarbures_totaux	S
+51l1l1	SP95	U
+
+#L'analyse chromatographique indique qu'il s'agit de produits de type essence.
+
+52l1l0	produits_de_type_essence	U
+
+#- une concentration en benzène de 6,1 µg/l dans le même piézomètre et une teneur de 1,6 µg/l dans un piézomètre situé au nord-est du réservoir.
+
+53l0l0	un_piézomètre	O
+53l0l1	situé_au_nord_est_du_réservoir	L
+53l1l0	benzène	S
+
+#Les teneurs mesurées  en toluène, éthylbenzène et xylènes sont toutes inférieures aux VCI US.
+
+54l1l0	en_toluène___éthylbenzène_et_xylènes	S
+
+#Ces mesures semblent indiquer une nette amélioration de la qualité des eaux.
+
+55l0l0	la_qualité_des_eaux	O
+
+#En conclusion, Haskoning France indique que malgré le pompage des eaux réalisé pendant trois ans, il subsiste une contamination des eaux par des produits de type essence.
+
+56l0l0	Haskoning_France	O
+56l0l1	pompage_des_eaux	A
+56l0l2	réalisé	N
+56l0l3	pendant_trois_ans	T
+56l0l4	une_contamination_des_eaux	O
+56l0l5	essence	O
+56l1l0	Haskoning	I
+56l1l1	produits_de_type_essence	U
+
+#Le panache de contamination est délimité par les sondages réalisés, vers le sud, l'ouest et le nord mais pas vers le nord-est, en limite de site où une teneur en benzène supérieure à la VCI US est encore mesurée.
+
+57l0l0	Le_panache_de_contamination	O
+57l0l1	délimité_par	R
+57l0l2	les_sondages_réalisés	N
+57l0l3	vers_le_sud___l__ouest_et_le_nord_mais_pas_vers_le_nord_est	L
+57l0l4	en_limite_de_site	L
+57l1l0	benzène	S
+
+#Le bureau d'étude préconise d'évacuer le réservoir de SP95 et d'extraire les sols pollués dans l'environnement et sous ce réservoir.
+
+58l0l0	Le_bureau_d__étude	O
+58l0l1	préconise_d__évacuer	N
+58l0l2	réservoir_de_SP95	O
+58l0l3	d__extraire	N
+58l0l4	les_sols_pollués	O
+58l1l0	SP95	S
+
+#Le 1er décembre 2005, la société Shell nous a indiqué que la cuve de SP95 avait été retirée ainsi que les sables de la fosse maçonnée.
+
+59l0l0	Le_1er_décembre_2005__	T
+59l0l1	la_société_Shell	O
+59l0l2	a_indiqué	N
+59l0l3	que_la_cuve_de_SP95	O
+59l0l4	avait_été_retirée	N
+59l0l5	ainsi_que_les_sables	N
+59l0l6	la_fosse_maçonnée	O
+59l1l0	la_société_Shell	I
+59l1l1	la_cuve_de	D
+59l1l2	SP95	U
+
+#Compte tenu de ces éléments, l'inspection a proposé au préfet d'imposer à la société des pétroles SHELL la mise en œuvre des mesures suivantes : ,
+
+60l0l0	d__imposer	N
+60l0l1	la_société_des_pétroles_SHELL	O
+60l0l2	la_mise_en_œuvre_des_mesures	N
+60l1l0	la_société_des_pétroles_SHELL	I
+
+#- mise en sécurité du site : l'accès à la station service doit être interdit au public.
+
+61l0l0	l__accès	N
+61l0l1	la_station_service	O
+61l0l2	doit_être_interdit_au	R
+61l0l3	public	N
+
+#Sa remise en service ne pourra être autorisée qu'au vu d'une nouvelle évaluation détaillée des risques résiduels indiquant qu'il n'existe pas de risque sanitaire ;
+
+62l0l0	Sa_remise_en_service	N
+62l0l1	une_nouvelle_évaluation_détaillée	N
+62l0l2	des_risques_résiduels	O
+
+#- suppression des points chauds de pollution par excavation des sols présentant des teneurs en BTEX supérieures aux VDSS ;
+
+63l0l0	suppression	N
+63l0l1	des_points_chauds_de_pollution	O
+63l0l2	excavation	N
+63l1l0	BTEX_supérieures	S
+63l1l1	VDSS	S
+
+#- recherche de toutes les cibles éventuelles à proximité du site (puits privés susceptibles d'être utilisés notamment) ;
+
+64l0l0	les_cibles_éventuelles	O
+64l0l1	à_proximité_du_site	L
+
+#- mise en place d'une surveillance des eaux souterraines au droit du site et en aval du site afin de cerner l'étendue de la pollution ;
+
+65l0l0	mise_en_place_d_	N
+65l0l1	une_surveillance_des_eaux_souterraines	A
+65l0l2	au_droit_du_site	L
+65l0l3	en_aval_du_site	L
+65l0l4	afin_de	R
+65l0l5	cerner_l__étendue_de_la_pollution	N
+
+#- réalisation d'une EDR résiduelle pour la santé humaine dès que les travaux de dépollution auront été achevés.
+
+66l0l0	les_travaux_de_dépollution_auront_été_achevés	N
+
+#Une EDR pour les ressources en eau devra également être réalisée si des cibles ont été mises en évidence.
+
+
+#Ces prescriptions ont été imposées à l'exploitant par un arrêté du 3 mars 2006.
+
+68l0l0	Ces_prescriptions	O
+68l0l1	ont_été_imposées	N
+68l0l2	l__exploitant	O
+68l0l3	3_mars_2006__	T
+
+#Depuis l'arrêté, la station-services est à l'arrêt (définitif), l'accès est interdit au public et les excavations techniquement réalisables de terres contaminées ont été réalisées.
+
+69l0l0	Depuis	T
+69l0l1	l__arrêté	O
+69l0l2	la_station___services	O
+69l0l3	est_à_l__arrêt___définitif	N
+69l0l4	l__accès	O
+69l0l5	est_interdit_au_public	N
+69l0l6	les_excavations_techniquement_réalisables	N
+69l0l7	terres_contaminées	O
+69l0l8	ont_été_réalisées	N
+
+#Les travaux de dépollution ont cependant été limités par la présence à faible profondeur d'une nappe très productive.
+
+70l0l0	Les_travaux_de_dépollution	N
+70l0l1	ont_cependant_été_limités	N
+
+#L'évaluation des risques résiduels transmise en juillet 2006 indique cependant une absence de risque sanitaire (au regard des scénarios étudiés ; celui d'ingestion d'eaux des puits n'a pas été étudié).
+
+71l0l0	évaluation_des_risques_résiduels	O
+71l0l1	transmise	N
+71l0l2	en_juillet_2006	T
+
+#Un dispositif de pompage écrémage de la nappe a été remis en place et la surveillance des eaux est réalisée.
+
+72l0l0	Un_dispositif_de_pompage	O
+72l0l1	écrémage_de_la_nappe	N
+72l0l2	a_été_remis_en_place	N
+72l0l3	la_surveillance_des_eaux	A
+72l0l4	est_réalisée	N
+
+#Les résultats de la surveillance montrent que lorsque le dispositif de pompage est arrêté, des concentrations en hydrocarbures et en BTEX sont remobilisées.
+
+73l0l0	lorsque	T
+73l0l1	le_dispositif_de_pompage	O
+73l1l0	hydrocarbures	S
+73l1l1	BTEX	S
+
+#Des teneurs importantes en hydrocarbures (25 mg/l) et en benzène (640 µg/l) ont ainsi été mesurées en septembre 2007 aux abords immédiat de l'ancienne cuve de SP95.
+
+74l0l0	Des_teneurs	O
+74l0l1	ont_ainsi_été_mesurées	N
+74l0l2	en_septembre_2007	T
+74l0l3	aux_abords_immédiat_de_l__ancienne	L
+74l0l4	cuve_de_SP95	O
+74l1l0	hydrocarbures	S
+74l1l1	benzène	S
+74l1l2	cuve_de	D
+74l1l3	SP95	S
+
+#Les installations de traitement sont fonctionnelles depuis le 28 août 2008.
+
+75l0l0	Les_installations_de_traitement	O
+75l0l1	sont_fonctionnelles	N
+75l0l2	depuis_le_28_août_2008__	T
+
+#L’examen des deux dernières campagnes de mesures dans les eaux souterraines (décembre 2012 et mars 2013) indique que les teneurs en polluants mesurées dans les eaux souterraines sont globalement en baisse, mais que des pics de pollution, notamment en benzène sont régulièrement mis en évidence.
+
+76l0l0	L__examen	N
+76l0l1	des_deux_dernières_campagnes_de_mesures	N
+76l0l2	les_eaux_souterraines	O
+76l0l3	__décembre_2012_et_mars_2013__	T
+76l1l0	benzène	S
+
+#L’inspecteur des installations classées, dans son courrier du 21 juin 2013 à l’exploitant, confirme « que la poursuite du traitement qui permet de confiner la pollution sur le site, et le maintien de la surveillance restent nécessaires. »
+
+77l0l0	L__inspecteur_des_installations_classées	O
+77l0l1	21_juin_2013	T
+77l0l2	l__exploitant	O
+77l0l3	que_la_poursuite_du_traitement	N
+77l0l4	de_confiner_la_pollution	N
+77l0l5	et_le_maintien	O
+77l0l6	de_la_surveillance_restent_nécessaires	O
+
+#Il précise, que « bien que d’importants travaux de dépollution aient été réalisés, une pollution résiduelle des sols par des hydrocarbures et des BTEX subsiste en limite des zones excavées. »
+
+78l0l0	que_d__importants_travaux_de_dépollution	N
+78l0l1	aient_été_réalisés	N
+78l0l2	__une_pollution_résiduelle	O
+78l0l3	subsiste_en_limite_des_zones_excavées	N
+78l1l0	des_hydrocarbures_et_des_BTEX	S
+
+#Il a par ailleurs constaté le 28 mai 2013 que « le garage automobile qui était exploité à proximité immédiate de l’ancienne station-services était définitivement fermé.
+
+79l0l0	Il	O
+79l0l1	a_par_ailleurs_constaté	N
+79l0l2	le_28_mai_2013	T
+79l0l3	__le_garage_automobile	O
+79l0l4	qui_était_exploité	N
+79l0l5	à_proximité_immédiate_de_l__ancienne_station___services	L
+79l0l6	était_définitivement_fermé	N
+
+#Il est nécessaire de garder la mémoire de la pollution résiduelle toujours en place, en mettant en place des servitudes d’utilité publique simplifiées, conformément aux dispositions des articles L.515-12 et R.515-31-1 du code de l’environnement. »
+
+80l0l0	la_pollution_résiduelle	O
+80l0l1	place	N
+80l0l2	mettant_en_place	N
+80l0l3	des_servitudes_d__utilité_publique_simplifiées	O
+
+#Il demande donc à l’exploitant de réaliser un dossier conforme aux dispositions de l’article R.515-31-3 permettant de lancer la procédure de mise en place des servitudes, et le transmettre à M. le préfet.
+
+81l0l0	l__exploitant	O
+81l0l1	lancer_la_procédure_de_mise_en_place	N
+81l1l0	le_préfet	I
+
+#Le dossier doit comporter  :
+
+
+#- Une notice de présentation ;
+
+
+#- Un plan faisant ressortir le périmètre concerné ainsi que les aires correspondant à chaque catégorie de servitudes ;
+
+84l0l0	le_périmètre_concerné	O
+84l0l1	les_aires	O
+
+#- Un plan parcellaire des terrains et bâtiments indiquant leurs usages actuels et envisagés ;
+
+85l0l0	bâtiments	O
+85l0l1	indiquant	R
+85l0l2	leurs_usages_actuels_et_envisagés	O
+
+#- L’énoncé des règles envisagées dans la totalité du périmètre ou dans certaines de ses parties (dont notamment l’interdiction de l’utilisation des eaux souterraines sur le site, l’obligation de maintenir en bon état les piézomètres de contrôle, le maintien d’un accès au site pour réaliser les prélèvements d’eau souterraine prescrits par arrêté préfectoral, la nécessité de réaliser des études et travaux avant un éventuel changement d’usage afin de prévenir une exposition dangereuse…).
+
+86l0l0	des_règles	O
+86l0l1	l__interdiction	N
+86l0l2	l__utilisation_des_eaux_souterraines	A
+86l0l3	la_nécessité	O
+86l0l4	de	R
+86l0l5	réaliser_des_études_et_travaux	N
+86l0l6	avant	R
+86l0l7	un_éventuel_changement_d__usage	N

@@ -1,0 +1,328 @@
+
+#45.0112
+#Le site est situé sur le territoire de la commune de Courtenay.
+
+0l0l0	Le_site	O
+0l0l1	est_situé_sur_le_territoire_de_la_commune_de_Courtenay	L
+
+#Il a accueilli de 1968 à 2018, des activités de prestation de services pour les industriels (cosmétique, nutrition, santé, chimie) soumises à autorisation au titre de la législation des Installations Classées pour la Protection de l’Environnement et réparties en 5 pôles d’activité :
+
+1l0l0	Il	O
+1l0l1	a_accueilli	N
+1l0l2	de_1968_à_2018__	T
+1l0l3	des_activités_de_prestation_de_services	A
+1l0l4	cosmétique	A
+1l0l5	nutrition	A
+1l0l6	autorisation	N
+
+#- formulation et fabrication à façon de produits chimiques,
+
+2l0l0	formulation_et_fabrication_à_façon_de_produits_chimiques	A
+
+#- conditionnement de produits chimiques,
+
+3l0l0	conditionnement_de	A
+3l0l1	produits_chimiques	O
+
+#- stockage de produits chimiques,
+
+4l1l0	produits_chimiques	U
+
+#- préparation de commande,
+
+
+#- valorisation d’emballages industriels.
+
+
+#Le site était constitué :
+
+7l0l0	Le_site	O
+
+#– d’un « bâtiment chimie » présentant une surface de 2 444 m² et d’un parc inflammable abrite un stockage de produits inflammables en fûts et containers ;
+
+8l0l0	____bâtiment_chimie	O
+8l0l1	un_parc_inflammable	N
+8l0l2	abrite_un_stockage_de_produits_inflammables_en_fûts_et_containers	A
+8l1l0	stockage_de_produits_inflammables	U
+
+#– d’une zone avec une activité de conditionnement ;
+
+9l0l0	d__une_zone	O
+9l0l1	avec_une_activité_de_conditionnement	A
+
+#– d’une zone avec une activité de fabrication.
+
+10l0l0	d__une_zone	O
+10l0l1	avec_une_activité_de_fabrication	A
+
+#La société ECOLOGISTIQUE a vendu son site industriel de Courtenay (exploité par ses soins de 1996 à 2013) à la société CHIMIREC le 31 décembre 2013.
+
+11l0l0	La_société_ECOLOGISTIQUE	O
+11l0l1	a_vendu	N
+11l0l2	son_site_industriel	O
+11l0l3	de_Courtenay	L
+11l0l4	exploité_par	R
+11l0l5	ses_soins	O
+11l0l6	de_1996_à_2013__	T
+11l0l7	la_société_CHIMIREC	O
+11l0l8	le_31_décembre_2013__	T
+11l1l0	société_ECOLOGISTIQUE	I
+11l1l1	la_société_CHIMIREC	I
+
+#Elle a continué d’exercer des activités de mélange et de conditionnement de produits chimiques relevant de la déclaration avec contrôle périodique dans le bâtiment chimie et le parc inflammable jusqu’à fin avril 2014 dans le cadre d’une convention d’occupation signée avec l’exploitant actuel du site industriel (appelé ECO-LOGISTIQUE Réemploi), sous le nom d’AVENIR DETERGENCE.
+
+12l0l0	Elle	O
+12l0l1	a_continué	N
+12l0l2	d_	A
+12l0l3	exercer	N
+12l0l4	des_activités_de_mélange_et_de_conditionnement_de_produits_chimiques	A
+12l0l5	relevant_de	R
+12l0l6	la_déclaration	N
+12l0l7	le_bâtiment_chimie	O
+12l0l8	parc_inflammable	O
+12l0l9	jusqu__à_fin_avril_2014	T
+12l0l10	dans_le_cadre_d_	R
+12l0l11	une_convention_d_	O
+12l0l12	l__exploitant_actuel_du_site_industriel	O
+12l0l13	ECO_LOGISTIQUE_Réemploi	A
+12l0l14	AVENIR_DETERGENCE	O
+12l1l0	produits_chimiques	U
+12l1l1	parc_inflammable	U
+12l1l2	appelé_ECO_LOGISTIQUE_Réemploi	I
+12l1l3	d__AVENIR_DETERGENCE	I
+
+#L’aquifère le plus proche de la surface au droit du site est l’aquifère de la craie.
+
+13l0l0	L__aquifère	O
+13l0l1	au_droit_du_site	L
+
+#La nappe est rencontrée au droit du site à une profondeur de 21,5 m.
+
+14l0l0	rencontrée_au_droit_du_site	L
+
+#Le site est à proximité immédiate de la rivière La Cléry, dans laquelle l’usine a rejeté une partie de ses eaux usées après traitement de 1996 à 2011.
+
+15l0l0	Le_site	O
+15l0l1	à_proximité_immédiate_de_la_rivière_La_Cléry	L
+15l0l2	l__usine	O
+15l0l3	a_rejeté	N
+15l0l4	une_partie_de_ses_eaux_usées_après_traitement	O
+15l0l5	de_1996_à_2011__	T
+15l1l0	eaux_usées	U
+
+#En août 2014, la société AVENIR DETERGENCE a transmis un dossier relatif à la cessation définitive de ses activités intervenue le 24 avril 2014 et a précisé que l’usage futur du bâtiment chimie était un usage de type industriel.
+
+16l0l0	En_août_2014__	T
+16l0l1	la_société_AVENIR_DETERGENCE	O
+16l0l2	a_transmis	N
+16l0l3	un_dossier	O
+16l0l4	relatif_à	R
+16l0l5	la_cessation_définitive_de_ses_activités	N
+16l0l6	le_24_avril_2014	T
+16l0l7	a_précisé	N
+16l0l8	que_l__usage_futur_du_bâtiment_chimie	O
+16l0l9	était	R
+16l0l10	un_usage	O
+16l1l0	la_société_AVENIR_DETERGENCE	I
+
+#Les investigations menées ont consisté en la réalisation de 19 sondages de sol et de 5 prélèvements de gaz du sol.
+
+17l0l0	Les_investigations_menées	N
+17l0l1	la_réalisation	N
+17l0l2	19_sondages_de_sol	N
+
+#Les résultats de ces investigations ont mis en évidence :
+
+
+#– dans les sols :
+
+
+#* la présence HCT (hydrocarbures totaux) C10-C40 avec une concentration maximale de 3500 mg/kg;
+
+20l1l0	HCT	S
+20l1l1	hydrocarbures_totaux	S
+20l1l2	C10_C40	S
+
+#* la présence de HCT C5-C10 avec une concentration maximale de 8,25 mg/kg;
+
+21l1l0	HCT_C5_C10	S
+
+#* la présence HAP (hydrocarbures aromatiques polycycliques) avec une concentration maximale de 5,6 mg/kg;
+
+22l1l0	présence_HAP	S
+22l1l1	hydrocarbures_aromatiques_polycycliques	S
+
+#* la présence de plomb avec une concentration maximale de 140 mg/kg;
+
+23l1l0	plomb	S
+
+#* la présence de mercure avec une concentration maximale de 5,8 mg/kg ;
+
+24l1l0	mercure	S
+
+#* la présence de COHV (composés organo-halogénes volatils) avec une concentration maximale de 130 mg/kg dont une concentration en trichloroéthylène de 0,7 mg/kg.
+
+25l1l0	COHV	S
+25l1l1	composés_organo___halogénes_volatils	S
+25l1l2	trichloroéthylène	S
+
+#– dans les gaz du sol :;
+
+
+#* la présence HCT C5-C12 avec une concentration maximale de 198 mg/m3;
+
+27l1l0	HCT_C5_C12	S
+
+#* la présence HAP avec une concentration maximale de 0,012 mg/m3;
+
+28l1l0	HAP	S
+
+#* la présence de COHV avec une concentration maximale de 3746 mg/m3 dont une concentration maximale en trichloroéthylène;
+
+29l1l0	COHV	S
+29l1l1	en_trichloroéthylène	S
+
+#* la présence de composés aromatiques volatils avec une concentration maximale de 1,9 mg/m3.
+
+30l1l0	composés_aromatiques_volatils	S
+
+#7 sondages supplémentaires ont ensuite été effectués pour définir le périmètre des zones polluées à excaver.
+
+31l0l0	7_sondages_supplémentaires	O
+31l0l1	ont_ensuite_été_effectués	N
+31l0l2	le_périmètre_des_zones_polluées	O
+
+#Ces sondages ont mis en évidence des concentrations élevées à très élevées en COHV sur 2 échantillons (concentration max: dichlorométhane de 228 mg/kg, concentration en trichloroéthylène de 3,71 mg/kg et concentration en tétrachloroéthylène de 47,6 mgkg).
+
+32l1l0	COHV	S
+32l1l1	dichlorométhane	S
+32l1l2	trichloroéthylène	S
+32l1l3	tétrachloroéthylène	S
+
+#Compte tenu des résultats obtenus, des travaux de dépollution des zones polluées ont été engagés.
+
+33l0l0	des_travaux_de_dépollution	N
+33l0l1	zones_polluées	O
+33l0l2	ont_été_engagés	N
+
+#1748 tonnes de terres excavées ont été envoyées en traitement dans des filières adaptées.
+
+34l0l0	1748_tonnes_de_terres_excavées	N
+34l0l1	ont_été_envoyées_en_traitement	N
+
+#Après excavations des terres, 22 prélèvements ont été effectués en fond de fouille et en parois de fouille.
+
+35l0l0	Après_excavations_des_terres	N
+35l0l1	22_prélèvements_ont_été_effectués	N
+35l0l2	en	L
+35l0l3	fond_de_fouille	N
+
+#Les résultats de l'analyse des échantillons prélevés ont mis en évidence :
+
+
+#– des concentrations en dichlorométhane en fond (6,38 mg/kg) et parois de fouille (8,06 mg/kg);
+
+37l1l0	en_dichlorométhane	S
+
+#– des concentrations en tétrachloroéthylène en fond (3,07 mg/kg) et parois de fouille (8,28 mg/kg);
+
+38l1l0	en_tétrachloroéthylène	S
+
+#– une concentration en trichloroéthylène en parois de fouille (0,4 kg/mg);
+
+39l1l0	en_trichloroéthylène	S
+
+#– des concentrations en HCT C10-C40 en fond (2000 mg/kg) et parois de fouille (7130 mg/kg).
+
+40l1l0	en_HCT_C10_C40	S
+
+#Au vu des résultats, de nouveaux travaux d’excavation ont été effectués en fond et en parois de fouille.
+
+41l0l0	de_nouveaux_travaux_d__excavation	N
+41l0l1	ont_été_effectués	N
+41l0l2	fond	O
+
+#Après excavation, 5 nouveaux prélèvements de sol ont été réalisés.
+
+42l0l0	Après_excavation	N
+42l0l1	5_nouveaux_prélèvements_de_sol	O
+42l0l2	ont_été_réalisés	N
+
+#Les résultats de ces analyses ont mis évidence :
+
+
+#– une teneur en dichlorométhane en parois de fouille de concentration maximale de 0,62 mg/kg pour un seul prélèvement ;
+
+44l1l0	en_dichlorométhane	S
+
+#– une teneur en tétrachloroéthylène en parois de fouille de concentration maximale de 0,14 mg/kg pour un seul prélèvelement;
+
+45l1l0	en_tétrachloroéthylène	S
+
+#- une teneur en trichloroéthylène inférieur à 0,05 mg/kg
+
+46l1l0	trichloroéthylène	S
+
+#– une teneur en HCT C10-C40 en parois de fouille de concentration maximale de 76 mg/kg.
+
+47l1l0	en_HCT_C10_C40	S
+
+#À la suite de ces résultats, la zone excavée a été remblayée avec des matériaux inertes et du ciment.
+
+48l0l0	la_zone_excavée	O
+48l0l1	a_été_remblayée	N
+48l0l2	du_ciment	O
+
+#À l’issue des travaux de dépollutions réalisés, une analyse des risques résiduels a été effectuée en mai 2017, sur la base des concentrations résiduelles mesurées dans les sols et les gaz du sol.
+
+49l0l0	des_travaux_de_dépollutions_réalisés	N
+49l0l1	analyse_des_risques_résiduels	O
+49l0l2	a_été_effectuée	N
+49l0l3	en_mai_2017__	T
+
+#Cette analyse avait conclu à l’absence de risque pour les salariés pour un usage industriel du « bâtiment chimie ».
+
+50l0l0	Cette_analyse	N
+50l0l1	un_usage_industriel_du_____bâtiment_chimie	A
+
+#Au vu de ce constat, l’inspection des installations classées a demandé à l’exploitant de s’assurer que les concentrations dans l’air ambiant soient inférieures à la VGAI (Valeurs Guides de qualité d’Air Intérieur) pour le paramètre trichloroéthylène.
+
+51l0l0	l__inspection_des_installations_classées	O
+51l0l1	l__exploitant	O
+51l1l0	paramètre_trichloroéthylène	S
+
+#La modélisation réalisée par l’exploitant permet de conclure à une qualité de l’air ambiant compatible pour l’usage le plus sensible (habitat) et a fortiori pour l’usage industriel.
+
+52l0l0	modélisation	O
+52l0l1	réalisée	N
+52l0l2	l__exploitant	O
+52l0l3	l__usage_industriel	A
+
+#Le 3 juillet 2019, un arrêté préfectoral instituant des servitudes d’utilité publique pour le bâtiment chimie a été signé par Monsieur le Préfet du Loiret.
+
+53l0l0	Le_3_juillet_2019__	T
+53l0l1	un_arrêté_préfectoral	O
+53l0l2	instituant	N
+53l0l3	des_servitudes_d__utilité_publique	O
+53l0l4	le_bâtiment_chimie	O
+53l0l5	a_été_signé	N
+53l0l6	Monsieur_le_Préfet_du_Loiret	L
+53l1l0	le_Préfet_du_Loiret	I
+
+#Ces restrictions d’usage portent notamment sur :
+
+
+#– l’utilisation du sous-sol,
+
+
+#– l’utilisation de la nappe,
+
+
+#– l’utilisation du sol,
+
+
+#– l’utilisation des eaux superficielles,
+
+
+#- les caractéristiques du « bâtiment chimie ».
+

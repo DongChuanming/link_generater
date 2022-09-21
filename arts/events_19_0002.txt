@@ -1,0 +1,163 @@
+
+#19.0002
+#Un dépôt de résidus solides issus de la fabrication de panneaux de particules bois (écorces, panneaux d'agglomérés) de 120 000 m3 (16 000 m2) est présent en bordure de la rivière Sarsonne.
+
+0l0l0	Un_dépôt	O
+0l0l1	résidus_solides	O
+0l0l2	issus_de	R
+0l0l3	la_fabrication_de_panneaux_de_particules_bois	A
+0l0l4	est_présent	N
+0l0l5	en_bordure_de_la_rivière_Sarsonne	L
+0l1l0	résidus_solides	U
+
+#Le stockage est confiné par une couverture étanche (40 cm d'altérite argilo-sableuse) et les lixiviats sont récupérés par un dispositif de drainage mis en place entre le dépôt et la Sarsonne.
+
+1l0l0	lixiviats	O
+1l0l1	un_dispositif_de_drainage	O
+1l0l2	la_Sarsonne	L
+
+#De 1973 à 1992, des déchets constitués d'écorces de bois, de sciures, de chutes de panneaux de particules et de résidus d'ébarbage de panneaux mélaminés sont stockés sur le site de production de l'usine.
+
+2l0l0	De_1973_à_1992	T
+2l0l1	ébarbage_de_panneaux_mélaminés	A
+2l0l2	sont_stockés	N
+2l0l3	sur_le_site_de_production_de	L
+2l0l4	l__usine	O
+
+#En 1992, ce stockage non autorisé est découvert par la DRIRE dans le cadre d'une procédure de régularisation de l'usine.
+
+3l0l0	En_1992	T
+3l0l1	ce_stockage_non_autorisé	O
+3l0l2	est_découvert	N
+3l0l3	la_DRIRE	O
+3l0l4	dans_le_cadre_d_	R
+3l0l5	une_procédure_de_régularisation	N
+3l0l6	l__usine	O
+3l1l0	la_DRIRE	I
+
+#En 1994, l'exploitant fait réaliser par le BRGM  une étude de l'impact de la décharge sur la qualité des eaux de surface et souterraines.
+
+4l0l0	En_1994__	T
+4l0l1	l__exploitant	O
+4l0l2	fait_réaliser	N
+4l0l3	le_BRGM	O
+4l0l4	__une_étude	N
+4l0l5	de_l__impact	N
+4l0l6	sur_la_qualité_des_eaux_de	O
+4l1l0	le_BRGM	I
+
+#Cette étude conclut à un risque de pollution faible pour les eaux souterraines.
+
+
+#Pour les eaux superficielles le BRGM préconise :
+
+6l1l0	BRGM	I
+
+#- la mise en place d'une couverture sur la décharge,
+
+7l0l0	la_mise_en_place_d_	N
+
+#- la collecte des eaux de ruissellement avant percolation au travers de la décharge,
+
+
+#- la récupération et le traitement des lixiviats.
+
+9l0l0	le_traitement	N
+9l0l1	lixiviats	N
+
+#Un arrêté préfectoral, signé le 21 février 1996, reprend les dispositions techniques préconisées par le BRGM et les complète par une surveillance annuelle de la qualité des lixiviats et des eaux.
+
+10l0l0	Un_arrêté_préfectoral	O
+10l0l1	le_21_février_1996__	T
+10l0l2	le_BRGM	O
+10l0l3	une_surveillance_annuelle	A
+10l0l4	la_qualité_des_lixiviats	O
+10l1l0	le_BRGM	I
+
+#En 1997, avec l'accord de la municipalité d'Ussel, le réseau de récupération des lixiviats de la décharge est raccordé  au réseau d'assainissement de la ville pour traitement dans la station d'épuration communale.
+
+11l0l0	En_1997__	T
+11l0l1	l_	O
+11l0l2	accord_de	R
+11l0l3	la_municipalité	O
+11l0l4	d__Ussel	O
+11l0l5	le_réseau	O
+11l0l6	la_décharge	O
+11l0l7	est_raccordé___au_réseau_d__assainissement	N
+11l0l8	de_la_ville	O
+11l0l9	dans_la_station_d__épuration_communale	O
+
+#L'ensemble des travaux prescrits par l'arrêté préfectoral est achevé en juin 1997.
+
+12l0l0	L__ensemble_des_travaux_prescrits	O
+12l0l1	l__arrêté_préfectoral	O
+12l0l2	est_achevé	N
+12l0l3	en_juin_1997__	T
+
+#Des prélèvements piézomètriques sont réalisés deux fois par an, correspondant aux périodes de basses et hautes eaux, dans le but de surveiller la qualité des eaux souterraines.
+
+13l0l0	fois_par_an	T
+13l0l1	surveiller_la_qualité_des_eaux_souterraines	A
+
+#Depuis la mise en place de cette surveillance en 1998, l'évolution des paramètres mesurés est la suivante :
+
+14l0l0	Depuis_la_mise_en_place_de_cette_surveillance	N
+14l0l1	en_1998__	T
+
+#- nette baisse de la teneur en nitrates et en phénols dont la concentration est très inférieure à la valeur de référence ;
+
+15l0l0	nitrates	O
+15l1l0	nitrates	S
+15l1l1	phénols	S
+
+#- les concentrations en demande chimique en oxygène (DCO) et azote kjeldahl (NK) fluctuent et dépassent régulièrement les valeurs de référence.
+
+16l1l0	oxygène	S
+16l1l1	DCO	S
+16l1l2	azote	S
+16l1l3	NK	S
+
+#Suite à des modifications d'exploitation, un arrêté préfectoral réglementant le fonctionnement de l'usine a été signé par le Préfet le 4 juin 2009.
+
+17l0l0	Suite	R
+17l0l1	à_des_modifications	N
+17l0l2	d__exploitation	O
+17l0l3	un_arrêté_préfectoral_réglementant	O
+17l0l4	le_fonctionnement	N
+17l0l5	l__usine	O
+17l0l6	a_été_signé	N
+17l0l7	le_Préfet	O
+17l0l8	le_4_juin_2009__	T
+17l1l0	le_Préfet	I
+
+#La surveillance semestrielle de la qualité des eaux souterraines et de la rivière Sarsonne a été reprise dans cet arrêté.
+
+18l0l0	La_surveillance_semestrielle	A
+18l0l1	la_qualité	O
+18l0l2	des_eaux_souterraines	A
+18l0l3	la_rivière_Sarsonne	O
+18l0l4	a_été_reprise	N
+18l0l5	cet_arrêté	N
+
+#Une inspection du site a été réalisée par la DREAL le 4 juin 2013 au cours de laquelle la thématique "sites et sols pollués" a été abordée.
+
+19l0l0	Une_inspection_du_site_a_été_réalisée	N
+19l0l1	la_DREAL	O
+19l0l2	le_4_juin_2013	T
+19l0l3	la_thématique	O
+19l0l4	a_été_abordée	N
+19l1l0	la_DREAL	I
+
+#Dans ce cadre, il a été demandé à la société POLYREY de fournir pour le début de l'année 2014 un bilan quadriennal de la surveillance environnementale effectuée sur le site.
+
+20l0l0	a_été_demandé	N
+20l0l1	la_société_POLYREY	O
+20l0l2	fournir	N
+20l0l3	pour_le_début_de_l__année_2014	T
+20l0l4	bilan_quadriennal	N
+20l0l5	la_surveillance_environnementale	N
+20l1l0	la_société_POLYREY	I
+
+#L'objet de cette étude sera notamment d'analyser et d'exploiter les résultats de cette surveillance environnementale pour l'adapter, le cas échéant, aux évolutions constatées.
+
+21l0l0	cette_surveillance_environnementale	N

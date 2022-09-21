@@ -1,0 +1,253 @@
+
+#68.0134
+#site de la PUPA (Propreté Urbaine) de la CAMSA Communaute d'Agglomération Mulhouse- Sud Alsace.
+
+0l0l0	site_de_la_PUPA	O
+0l0l1	la_CAMSA_Communaute	O
+0l0l2	d__Agglomération_Mulhouse__Sud_Alsace	L
+0l1l0	la_PUPA	I
+0l1l1	CAMSA_Communaute	I
+
+#Devenu depuis le 23 mars 2010 la M2A (Mulhouse Alsace Agglomération)
+
+1l0l0	Devenu	R
+1l0l1	depuis_le_23_mars_2010	T
+1l0l2	la_M2A	O
+1l1l0	la_M2A	I
+
+#Le site relève du régime déclaratif pour:
+
+2l0l0	Le_site	O
+
+#- stockage de liquides inflammables (réservoirs de carburants)
+
+3l1l0	stockage_de_liquides_inflammables	U
+3l1l1	carburants	U
+
+#- distribution de carburants
+
+4l0l0	distribution_de_carburants	N
+4l1l0	carburants	U
+
+#Depuis le 27 mai 2015 la DREAL  a réceptionné la proposition d'institution de servitudes d'utilité publique du site de la PUPA.
+
+5l0l0	Depuis_le_27_mai_2015	T
+5l0l1	la_DREAL	O
+5l0l2	__a_réceptionné	N
+5l0l3	la_proposition_d__institution_de_servitudes_d__utilité_publique	O
+5l0l4	de_la_PUPA	O
+5l1l0	la_DREAL	I
+5l1l1	de_la_PUPA	I
+
+#Pollution des sols mises en évidence concernant une fuite sur un réservoir d'essence, enterré.(8000 L)
+
+6l0l0	une_fuite	N
+6l0l1	sur	R
+6l0l2	un_réservoir_d__essence	O
+6l1l0	essence	S
+
+#Impact sur les sols et les eaux souterraines.
+
+
+#l'APS du 6 octobre 2005, impose à l'exploitant:
+
+8l0l0	6_octobre_2005__	T
+8l0l1	impose	N
+8l0l2	l__exploitant	O
+
+#- une étude de caractérisation de la pollution ( étendue,...)
+
+9l0l0	la_pollution	O
+
+#-la définition d'un réseau de surveillance nappe
+
+10l1l0	nappe	I
+
+#- la définition de solutions de traitement ( sol et nappe).
+
+11l0l0	la_définition_de_solutions_de_traitement	O
+
+#Diagnostic pollution Août 2005 remis.
+
+12l0l0	Diagnostic_pollution	O
+12l0l1	Août_2005	T
+
+#Il confirme pollution sol et nappe.
+
+13l0l0	Il_confirme_pollution_sol	O
+
+#L'APS du 6 juillet 2007 impose poursuite de la surveillance de la qualité des eaux souterraines, amélioration du réseau de surveillance, remise au préfet d'une étude de caractérisation de la pollution.
+
+14l0l0	L__APS	N
+14l0l1	du_6_juillet_2007	T
+14l0l2	impose_poursuite	N
+14l0l3	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+14l0l4	amélioration_du_réseau_de_surveillance	N
+14l0l5	préfet	O
+14l0l6	une_étude_de_caractérisation	N
+
+#Les opérations de dépollution ont constitué en:
+
+15l0l0	Les_opérations_de_dépollution	N
+
+#- un pompage /écrémage des eaux souterraines au droit du lieu d'accident.
+
+16l0l0	pompage__écrémage_des_eaux_souterraines	A
+16l0l1	au_droit_du_lieu	L
+
+#Les eaux de pompage, traitées, étaient rejetées au réseau communal avec accord du propriétaire du réseau et du gestionnaire.
+
+17l0l0	Les_eaux_de_pompage	O
+17l0l1	étaient_rejetées	N
+17l0l2	réseau_communal	O
+
+#Compte tenu de la diminution trés importante du "surnageant" les opérations de pompage ont été arrêtées début 2007.
+
+18l0l0	les_opérations_de_pompage	N
+18l0l1	ont_été_arrêtées	N
+18l0l2	début_2007__	T
+18l1l0	surnageant	U
+
+#- un venting forcé des sols.
+
+19l0l0	un_venting_forcé	N
+
+#Une unité de traitement des gaz de sol a été installée sur le site.
+
+20l0l0	Une_unité_de_traitement	O
+20l0l1	a_été_installée	N
+
+#Les opération de dépollution de gaz de sol ont commencé mi 2007.
+
+21l0l0	Les_opération_de_dépollution	N
+21l0l1	de_gaz_de_sol	N
+21l0l2	ont_commencé	N
+21l0l3	mi_2007__	T
+
+#lles sont actuellement en cours.
+
+
+#Par ailleurs le réseau de surveillance de la qualité des eaux souterraines est composé de 5 ouvrages.
+
+23l0l0	surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#La surveillance est assurée semestriellement: recherche HC et BTEX.
+
+24l0l0	La_surveillance	A
+24l1l0	BTEX	S
+
+#lors des derniers contrôles de août 2007
+
+25l0l0	des_derniers_contrôles	N
+25l0l1	août_2007	T
+
+#- aucun ouvrage n'a détecté d'HC
+
+26l1l0	HC	S
+
+#- seul l'ouvrage de proximité à détecté du benzène (5,8 µg/)
+
+27l1l0	benzène	S
+
+#- au vue des contrôles le bureau d'étude estime que la pollution est limitée géographiquement: elle sort des limites de l'établissement mais un tracé à la concentration "Benzène 0,5 µg/l" n'atteint pas le trottoir de l'autre côté du Bd Roosevelt (étude de caractérisation de la pollution remise au préfet début septembre 2007).
+
+28l0l0	limitée_géographiquement	N
+28l0l1	sort_des_limites_de_l_	L
+28l0l2	côté_du_Bd_Roosevelt	L
+28l0l3	étude_de_caractérisation	N
+28l0l4	préfet	O
+28l0l5	début_septembre_2007__	T
+28l1l0	Benzène	S
+
+#Des opérations de dépollution ont eu lieu:
+
+29l0l0	Des_opérations_de_dépollution	N
+29l0l1	ont_eu_lieu	N
+
+#- opération de venting,
+
+30l0l0	opération_de_venting	N
+
+#- pompage hydraulique.
+
+31l0l0	pompage_hydraulique	O
+
+#La surveillance continue à être assurée pour les HC et BTEX.
+
+32l0l0	La_surveillance	O
+32l1l0	HC	S
+32l1l1	BTEX	S
+
+#S'agissant du dernier contrôle réalisé (Novembre 2008):
+
+33l0l0	du_dernier_contrôle_réalisé	N
+33l0l1	__Novembre_2008__	T
+
+#- très légère trace d'HC en aval-latéral (PZ3): 0,10 mg/l
+
+34l1l0	d__HC	S
+
+#- présence de benzène en aval-immédiat(PZ1:1.8µg/l) et aval-proche (PZ5:1.3µg/l)
+
+35l1l0	benzène	S
+
+#présence de xylènes en aval-immédiat(PZ1:16µg/l) et aval-proche (PZ5:17µg/l)
+
+36l0l0	aval	O
+36l1l0	xylènes	S
+
+#La diminution des BTEX confirme, même si la teneur en Benzène est encore légèrement supérieure à la valeur guide de potabilité (1µg/l).
+
+37l1l0	Benzène	S
+
+#Par dépôt du 1er décembre 2010 la M2A informe de la cessation d'activité du site PUPA à Mulhouse.
+
+38l0l0	Par_dépôt	O
+38l0l1	du_1er_décembre_2010	T
+38l0l2	la_M2A	O
+38l0l3	informe	R
+38l0l4	de_la_cessation_d__activité	N
+38l0l5	site_PUPA	O
+38l0l6	à_Mulhouse	L
+38l1l0	la_M2A	I
+38l1l1	PUPA	I
+
+#L'examen du dossier amène la rédaction d'un nouvel arrêté portant prescription spéciale, en vue de :
+
+39l0l0	rédaction_d_	R
+39l0l1	un_nouvel_arrêté_portant_prescription_spéciale	O
+
+#-mettre le site en sécurité par le nettoyage et démantèlement des installations de distributions de carburants.
+
+40l0l0	le_nettoyage	N
+40l0l1	démantèlement_des_installations_de_distributions	N
+40l0l2	de_carburants	A
+40l1l0	carburants	U
+
+#-Continuer à suivre la pollution des eaux souterraines au droit du site
+
+41l0l0	suivre_la_pollution_des_eaux_souterraines	O
+41l0l1	au_droit_du_site	L
+
+#-Compléter le réseau de surveillance en vu d'identifier une éventuelle pollution à l'aval de l'ancien atelier poids lourd, de la cuve de récupération des huiles usagées et de l'ancien tas de sel de déneigement zone comme identifiées à risques dans le mémoire de cessation d'activités (risque allant de faible pour le tas de sel, à significatif pour la récupération des huiles).
+
+42l0l0	_Compléter	N
+42l0l1	le_réseau_de_surveillance	O
+42l0l2	en_vu_d_	R
+42l0l3	identifier	R
+42l0l4	une_éventuelle_pollution	O
+42l0l5	à	R
+42l0l6	l__aval	O
+42l0l7	poids_lourd	O
+42l0l8	la_cuve_de	O
+42l0l9	récupération_des_huiles_usagées	A
+42l0l10	déneigement	N
+42l0l11	identifiées_à_risques	N
+42l0l12	cessation_d__activités	N
+42l0l13	huiles	A
+42l1l0	des_huiles_usagées	U
+
+#-proposer des mesures de gestion des sols pollués, pour les zones à risques modérés et significatifs
+
+43l0l0	sols_pollués	O
+43l0l1	les_zones_à_risques_modérés	O

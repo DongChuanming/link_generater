@@ -1,0 +1,79 @@
+
+#13.0168
+#La société UNIVAR a été autorisée notamment pour l'exploitation des rubriques 1185-2 (chlorofluorocarbure, halons et autres carbures et hydrocarbures halogénés) avec un stockage de chlorure de méthylène à hauteur de 21000L, 1432-2-a (stockage en réservoirs manufacturés de liquides inflammables) et 1434-1a et 1434-2 (installation de remplissage ou de distribution de).
+
+0l0l0	La_société_UNIVAR	O
+0l0l1	a_été_autorisée	N
+0l0l2	l__exploitation	N
+0l0l3	remplissage_ou_de_distribution	A
+0l1l0	La_société_UNIVAR	I
+0l1l1	chlorofluorocarbure	S
+0l1l2	halons	S
+0l1l3	autres_carbures	S
+0l1l4	hydrocarbures_halogénés	S
+0l1l5	chlorure_de_méthylène	S
+0l1l6	liquides_inflammables	U
+
+#Des installations soumises à déclaration étaient également exploitées, notamment le stockage de diméthyl formamide (<10tonnes).
+
+1l0l0	Des_installations_soumises	O
+1l0l1	à_déclaration	N
+1l0l2	étaient_également_exploitées	N
+1l0l3	le_stockage_de	A
+1l0l4	diméthyl_formamide	O
+1l1l0	diméthyl_formamide	I
+
+#Le site a fait l'objet d'études environnementales entre 1996 et 2014 qui ont permis d'identifier la présence d'une contamination des sols par des solvants chlorés, solvants monoaromatiques et hydrocarbures volatils, ainsi qu'une faible contamination des eaux souterraines par des solvants chlorés et monoaromatiques.
+
+2l0l0	Le_site	O
+2l0l1	a_fait_l__objet_d_	R
+2l0l2	études_environnementales	N
+2l0l3	entre_1996_et_2014	T
+2l0l4	d__identifier	N
+2l0l5	la_présence	O
+2l1l0	des_solvants_chlorés	S
+2l1l1	solvants_monoaromatiques	S
+2l1l2	hydrocarbures_volatils	S
+2l1l3	solvants_chlorés	S
+2l1l4	monoaromatiques	S
+
+#L'exploitant a notifié sa cessation d'activité par courrier du 6/12/2016.
+
+3l0l0	L__exploitant	O
+3l0l1	a_notifié_sa_cessation_d__activité	N
+3l0l2	6_12_2016__	T
+
+#L'inspection de l'environnement a constaté la mise en sécurité au titre du code de l'environnement le 14/03/2017.
+
+4l0l0	L__inspection_de_l__environnement	O
+4l0l1	a_constaté	N
+4l0l2	la_mise_en_sécurité	N
+4l0l3	au_titre	R
+4l0l4	du_code_de_l__environnement	O
+4l0l5	le_14_03_2017__	T
+
+#L'exploitant a ensuite mis à jour les connaissances du sol et des eaux souterraines, et réalisé une interprétation de l'état des milieux afin de vérifier la compatibilité de l'état des milieux avec l'usage futur prévu (industriel).
+
+5l0l0	L__exploitant	O
+5l0l1	a_ensuite_mis_à_jour	N
+5l0l2	réalisé_une_interprétation	N
+5l0l3	l__état_des_milieux	O
+
+#Ces investigations ont confirmé la présence de solvants aromatiques, de solvants chlorés et d'hydrocarbures dans les sols, les gaz du sol et les eaux souterraines.
+
+6l0l0	Ces_investigations	N
+6l1l0	solvants_aromatiques	S
+6l1l1	solvants_chlorés	U
+6l1l2	hydrocarbures	S
+
+#L'étude d'interprétation de l'état des milieux a conclu à la compatibilité de l'état du site avec l'usage industriel envisagé.
+
+7l0l0	l__état_des_milieux	O
+7l0l1	la_compatibilité	O
+7l0l2	l__usage_industriel_envisagé	A
+
+#Un arrêté préfectoral impose la surveillance des eaux souterraines.
+
+8l0l0	Un_arrêté_préfectoral	O
+8l0l1	impose	N
+8l0l2	la_surveillance_des_eaux_souterraines	A

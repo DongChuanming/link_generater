@@ -1,0 +1,193 @@
+
+#43.0011
+#Ce site constitue une des unités de production des Ets Bardon.
+
+0l0l0	Ce_site	O
+0l0l1	une_des_unités_de_production	O
+0l0l2	Ets_Bardon	O
+0l1l0	Ets_Bardon	I
+
+#Il était dédié à la fabrication des pièces pour les cycles et exploitait, notamment, des bains de traitement de surface.
+
+1l0l0	Il	O
+1l0l1	était_dédié_à	R
+1l0l2	la_fabrication_des_pièces_pour	R
+1l0l3	les_cycles	O
+1l0l4	exploitait	R
+1l0l5	traitement_de_surface	A
+
+#Le site a été mis en liquidation le 21 janvier 2000, il n'y a plus aucune activité et est réduit à l'état de friche industrielle.
+
+2l0l0	Le_site	O
+2l0l1	a_été_mis_en_liquidation	N
+2l0l2	le_21_janvier_2000__	T
+2l0l3	a_plus_aucune_activité	N
+2l0l4	est_réduit_à_l__état_de_friche_industrielle	N
+
+#Ce site est implanté au coeur de l'agglomération, il est entouré de maisons, de jardins potagers et jouxte une école privée.
+
+3l0l0	Ce_site	O
+3l0l1	est_implanté_au_coeur_de_l__agglomération	L
+3l0l2	entouré_de_maisons	L
+3l0l3	jouxte	R
+3l0l4	une_école_privée	O
+
+#Le site est clos et a été mis en sécurité par l'intermédiaire de l'ADEME (évacuation de déchets, mise en sécurité des fosses, etc).
+
+4l0l0	Le_site	O
+4l0l1	a_été_mis_en_sécurité	N
+4l0l2	l__ADEME	O
+4l0l3	évacuation_de_déchets	N
+4l0l4	fosses	O
+
+#Ce site fait l'objet d'une proposition de rachat par la commune de St Maurice de Lignon, qui souhaiterait utiliser cet espace pour dynamiser son centre ville.
+
+5l0l0	Ce_site	O
+5l0l1	fait_l__objet_d_	R
+5l0l2	une_proposition	O
+5l0l3	de_rachat	N
+5l0l4	par	R
+5l0l5	la_commune	O
+5l0l6	de_St_Maurice_de_Lignon	L
+5l0l7	utiliser	N
+5l0l8	cet_espace	O
+5l0l9	dynamiser	N
+5l0l10	son_centre_ville	L
+
+#D'un point de vue hydrogéologique, des nappes perchées ou intermittentes circulent sous le site.
+
+6l0l0	sous_le_site	L
+
+#A la suite de la mise en liquidation des Ets BARDON, en janvier 2000, un diagnostic initial des sols et des eaux souterraines réalisé en deux phases, a mis en évidence un impact des activités de traitement de surfaces au droit et en aval hydraulique du site.
+
+7l0l0	A_la_suite_de	R
+7l0l1	la_mise_en_liquidation	N
+7l0l2	des_Ets_BARDON	O
+7l0l3	en_janvier_2000__	T
+7l0l4	un_diagnostic_initial	N
+7l0l5	deux_phases	O
+7l0l6	a_mis_en_évidence	R
+7l0l7	un_impact	O
+7l0l8	activités_de_traitement_de_surfaces	O
+7l0l9	au_droit_et_en_aval_hydraulique_du_site	L
+7l1l0	Ets_BARDON	I
+
+#Une évaluation simplifiée des risques sanitaires de février 2002 confirme cet impact et recommande de mettre en place un suivi de la qualité des eaux souterraines au droit du site et en aval hydraulique hors site.
+
+8l0l0	Une_évaluation_simplifiée_des_risques_sanitaires	N
+8l0l1	de_février_2002	T
+8l0l2	cet_impact	O
+8l0l3	en_place_un	N
+8l0l4	suivi_de_la_qualité_des_eaux_souterraines	A
+8l0l5	au_droit_du_site	L
+8l0l6	en_aval_hydraulique_hors_site	L
+
+#Trois piézomètres ont été installés, ils permettent avec un puits de particulier situé face à l'entrée de l'usine, de suivre l'évolution de la pollution.
+
+9l0l0	Trois_piézomètres	O
+9l0l1	ont_été_installés	N
+9l0l2	un_puits_de_particulier	O
+9l0l3	situé_face_à_l__entrée_de_l__usine	L
+
+#Sur recommandation de l'inspection des installations classées, la municipalité de St Maurice de Lignon a interdit l'usage de l'eau des puits se situant en aval hydraulique de l'usine des cycles.
+
+10l0l0	l__inspection_des_installations_classées	O
+10l0l1	la_municipalité	O
+10l0l2	de_St_Maurice_de_Lignon	L
+10l0l3	a_interdit	N
+10l0l4	l__usage_de_l__eau	A
+10l0l5	des_puits	O
+10l0l6	se_situant_en_aval_hydraulique_de_l__usine_des_cycles	L
+
+#Par ailleurs, des stocks de déchets industriels (une cinquantaine de fûts, des palettes de soude et sels de baryum.....) sont présents sur le site.
+
+11l1l0	déchets_industriels	U
+11l1l1	soude	S
+11l1l2	sels	S
+11l1l3	de_baryum	U
+
+#Par arrêté de mise en demeure du 13/01/2004, le préfet de la Haute-Loire demande au liquidateur d'évacuer les déchets présents sur le site et de mettre le site en sécurité.
+
+12l0l0	arrêté_de_mise_en_demeure	O
+12l0l1	13_01_2004	T
+12l0l2	le_préfet_de_la_Haute_Loire	T
+12l0l3	demande	N
+12l0l4	d__évacuer	N
+12l0l5	les_déchets	O
+12l0l6	le_site	O
+12l1l0	le_préfet_de_la_Haute_Loire	I
+12l1l1	les_déchets	U
+
+#Face au non respect de cet arrêté, deux arrêtés portant consignation de sommes seront pris le 24/04/2004, un pour l'évacuation et le traitement des déchets, l'autre pour procéder à la mise en sécurité du site.
+
+13l0l0	deux_arrêtés	O
+13l0l1	portant_consignation_de_sommes_seront_pris	N
+13l0l2	le_24_04_2004	T
+13l0l3	l__évacuation	N
+13l0l4	le_traitement_des_déchets	N
+13l0l5	l__autre	O
+13l0l6	pour_procéder_à	R
+13l0l7	la_mise_en_sécurité	N
+
+#La liquidation ne disposant pas des fonds disponibles les travaux ne seront pas exécutés.
+
+14l0l0	les_travaux_ne_seront_pas_exécutés	N
+
+#Par acte signé le 21 février 2007, des restrictions d'usage vont être mises en place afin de garder la mémoire des anciennes activités et leur impact sur les sols et les eaux souterraines.
+
+15l0l0	signé	N
+15l0l1	le_21_février_2007__	T
+15l0l2	des_restrictions_d__usage	O
+15l0l3	vont_être_mises_en_place	N
+15l0l4	anciennes_activités	N
+15l0l5	les_eaux_souterraines	O
+
+#Une demande de prise en charge au titre des fonds ADEME a été adressée au ministère de l'Ecologie en mars 2006, pour l'évacuation des déchets.
+
+16l0l0	Une_demande_de_prise_en_charge	O
+16l0l1	fonds_ADEME	O
+16l0l2	a_été_adressée	N
+16l0l3	ministère_de_l__Ecologie	O
+16l0l4	en_mars_2006__	T
+16l0l5	l__évacuation_des_déchets	N
+
+#En date du 11 avril 2007, un arrêté préfectoral de travaux d'office et un arrêté préfectoral d'occupation temporaire des sols ont été pris par le Préfet de la Haute-Loire.
+
+17l0l0	En_date_du_11_avril_2007__	T
+17l0l1	un_arrêté_préfectoral_de_travaux_d_	O
+17l0l2	un_arrêté_préfectoral_d__occupation_temporaire_des_sols	O
+17l0l3	ont_été_pris	N
+17l0l4	le_Préfet_de_la_Haute_Loire	A
+17l1l0	le_Préfet	I
+17l1l1	de_la_Haute_Loire	I
+
+#Les travaux d'évacuation et de traitement des déchets et de mise en sécurité du site ont été mis en oeuvre entre avril et juin 2010.
+
+18l0l0	Les_travaux_d__évacuation	N
+18l0l1	traitement_des_déchets	N
+18l0l2	de_mise_en_sécurité	N
+18l0l3	du_site	O
+18l0l4	ont_été_mis_en_oeuvre	N
+18l0l5	entre_avril_et_juin_2010__	T
+
+#En décembre 2011, un rapport intitulé "Etat des lieux environnemental et proposition de solutions de gestion" fait la synthèse des investigations précédentes et fait état de recommandations.
+
+19l0l0	En_décembre_2011__	T
+19l0l1	Etat_des_lieux_environnemental	N
+
+#Le site ne présente plus aucun danger vis à vis de personnes qui pénètreraient sur le site et les risques environnementaux liés à un incendie ont été supprimés.
+
+20l0l0	Le_site	O
+20l0l1	les_risques_environnementaux	O
+20l0l2	incendie_ont_été_supprimés	N
+
+#En revanche, ce site présente potentiellement une pollution des sols et des eaux souterraines.
+
+21l0l0	ce_site	O
+
+#Aussi, tout projet de réhabilitation nécessitera de mener préalablement des investigations, une évaluation des risques sanitaires et la mise en oeuvre, le cas échéant, d'un plan de gestion de la pollution.
+
+22l0l0	tout_projet_de_réhabilitation	N
+22l0l1	des_investigations	N
+22l0l2	une_évaluation_des_risques_sanitaires	N
+22l0l3	la_mise_en_oeuvre	N

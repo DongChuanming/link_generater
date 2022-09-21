@@ -1,0 +1,387 @@
+
+#73.0152
+#La décharge dite du "rocher blanc" est située en rive droite du Doron de Bozel, à cheval sur les communes de Bozel et de Villard-du-Planay.
+
+0l0l0	La_décharge	O
+0l0l1	dite	R
+0l0l2	est_située_en_rive_droite_du_Doron_de_Bozel	L
+0l0l3	à_cheval_sur_les_communes_de_Bozel_et_de_Villard_du_Planay	L
+0l1l0	Bozel	I
+
+#La zone de dépôt se développe en contrebas de la route départementale 915 sur environ 350 mètres de long.
+
+1l0l0	La_zone_de_dépôt	O
+1l0l1	se_développe_en_contrebas_de_la_route_départementale_915	L
+
+#D'après l'étude historique réalisée en 1999, il semblerait que ce dépôt ait été utilisé, de 1900 à 1955 environ, pour le stockage de déchets de l'usine de Villard-du-Planay, située 1 km en amont (voir fiche BASOL dédiée) : cendres, scories, réfractaires de fours, fumées de silice, laitiers, et mâchefers issus de l'activité thermique ; boues de culots de distillation des résidus des réacteurs chimiques à mercure.
+
+2l0l0	en_1999__	T
+2l0l1	ce_dépôt	O
+2l0l2	ait_été_utilisé	N
+2l0l3	de_1900_à_1955	T
+2l0l4	le_stockage_de_déchets	N
+2l0l5	l_	O
+2l0l6	usine_de_Villard_du_Planay	L
+2l0l7	située_1_km_en_amont	L
+2l0l8	culots_de	O
+2l0l9	distillation_des_résidus	A
+2l0l10	des_réacteurs	N
+2l0l11	chimiques_à_mercure	O
+2l1l0	fumées_de_silice	U
+2l1l1	mercure	S
+
+#Le déversement des matériaux a été fait de la route jusqu'au Doron de Bozel, situé à une vingtaine de mètres en contrebas.
+
+3l0l0	Le_déversement	N
+3l0l1	des_matériaux	O
+3l0l2	a_été_fait	N
+3l0l3	la_route_jusqu_	O
+3l0l4	au_Doron_de_Bozel	L
+3l0l5	situé_à_une_vingtaine_de_mètres_en_contrebas	L
+3l1l0	Bozel	I
+
+#Le volume de déchets déposés est estimé à 30 000 m3.
+
+
+#Le responsable actuel du site est la société Péchiney Bâtiment (responsabilité transférée en 2005 de Péchiney Electrométallurgie - PEM à Péchiney Bâtiment).
+
+5l0l0	Le_responsable_actuel_du_site	O
+5l0l1	la_société_Péchiney_Bâtiment	O
+5l0l2	responsabilité	O
+5l0l3	transférée	N
+5l0l4	en_2005	T
+5l0l5	Electrométallurgie	A
+5l0l6	Péchiney_Bâtiment	O
+5l1l0	la_société_Péchiney_Bâtiment	I
+5l1l1	Péchiney_Electrométallurgie	I
+5l1l2	PEM	I
+5l1l3	Péchiney_Bâtiment	I
+
+#L’action de l’administration sur ce site est lié d’une part aux études d’impact menées dans le cadre du projet de création d’un plan d’eau à Bozel, à l’aval de l’ancienne décharge (interrogations sur l’ancien dépôt de déchets, dit "Blanc de Bozel") et d’autre part aux interrogations concernant l’origine de la pollution en arsenic et mercure relevée dans le Doron de Bozel depuis 1993.
+
+6l0l0	aux_études_d_	N
+6l0l1	impact	O
+6l0l2	menées_dans_le_cadre	R
+6l0l3	du_projet_de_création_d_	N
+6l0l4	un_plan_d__eau	O
+6l0l5	Bozel	L
+6l0l6	à_l__aval_de_l_	L
+6l0l7	dit	R
+6l0l8	arsenic	O
+6l0l9	le_Doron_de	L
+6l0l10	Bozel	R
+6l0l11	depuis_1993	T
+6l1l0	__Blanc_de_Bozel	I
+6l1l1	arsenic	S
+6l1l2	mercure	S
+6l1l3	Bozel	I
+
+#ETUDES
+
+7l0l0	ETUDES	O
+
+#Par arrêté du 12/10/98 (corrigé le 9/11/98), il a été prescrit à la société Péchiney Electrométallurgie (PEM), concernant l’établissement et les dépôts de déchets anciennement exploités par la société Nobel Bozel, sur le Planay / Villard du Planay :
+
+8l0l0	du_12_10_98	T
+8l0l1	__corrigé	O
+8l0l2	le_9_11_98	T
+8l0l3	a_été_prescrit	N
+8l0l4	la_société_Péchiney	O
+8l0l5	Electrométallurgie	A
+8l0l6	__PEM	O
+8l0l7	les_dépôts_de_déchets	O
+8l0l8	anciennement	R
+8l0l9	exploités	N
+8l0l10	la_société_Nobel_Bozel	O
+8l0l11	sur_le_Planay___Villard_du_Planay	L
+8l1l0	la_société_Péchiney_Electrométallurgie	I
+8l1l1	PEM	I
+8l1l2	dépôts	D
+8l1l3	de_déchets	U
+8l1l4	la_société_Nobel_Bozel	I
+
+#° la réalisation d’un diagnostic initial (comprenant une analyse historique du site et des analyses de sols) et une évaluation simplifiée des risques (ESR) ;
+
+9l0l0	la_réalisation_d__un_diagnostic_initial	N
+9l0l1	une_évaluation_simplifiée_des_risques	N
+
+#° la mise en place d’un réseau de contrôle de la qualité des eaux souterraines au droit du site du Villard du Planay.
+
+10l0l0	la_mise_en_place_d_	N
+10l0l1	un_réseau_de_contrôle	O
+10l0l2	la_qualité_des_eaux_souterraines	O
+10l0l3	au_droit_du_site_du_Villard_du_Planay	L
+
+#L’étude historique et bibliographique du site (ANTEA – juin 99 – A16762) a été transmise par courrier du 29/07/99.
+
+11l0l0	L__étude_historique	N
+11l0l1	site___ANTEA	O
+11l0l2	__juin_99	T
+11l0l3	a_été_transmise	N
+11l0l4	par_courrier	N
+11l0l5	du_29_07_99__	T
+11l1l0	ANTEA	I
+
+#Plusieurs ESR ont ensuite été réalisés pour les anciens sites liés à l’activité de l’usine du Villard.
+
+12l0l0	Plusieurs_ESR	O
+12l0l1	ont_ensuite_été_réalisés	N
+12l0l2	les_anciens_sites	O
+12l0l3	liés_à	R
+12l0l4	l__activité	A
+12l0l5	l_	O
+12l0l6	usine_du_Villard	L
+
+#L’ancienne décharge de Rocher Blanc a fait l’objet d’une ESR dédiée (ANTEA – décembre 2001 – A 25503/A), transmise par courriers PEM du 21/01/02 et 26/02/02 (indice final du document : B).
+
+13l0l0	L__ancienne_décharge	O
+13l0l1	Blanc	L
+13l0l2	a_fait_l__objet_d_	R
+13l0l3	une_ESR	O
+13l0l4	décembre_2001	T
+13l0l5	courriers_PEM	O
+13l0l6	du_21_01_02_et_26_02_02	T
+13l1l0	ANTEA	I
+
+#L’ESR a retenu le classement suivant : classe 1 (investigations à mener).
+
+14l1l0	L__ESR	I
+
+#Les études ont mis en évidence que les apports en mercure dans le milieu provenaient principalement de la décharge de Rocher Blanc (apports irréguliers au gré de l’érosion des talus).
+
+15l0l0	le_milieu	O
+15l0l1	provenaient_principalement_de	R
+15l0l2	la_décharge	O
+15l0l3	de_Rocher_Blanc	L
+15l1l0	mercure	S
+15l1l1	la_décharge	U
+
+#TRAVAUX
+
+16l0l0	TRAVAUX	N
+
+#PEM a ensuite transmis à la DRIRE les éléments suivants :
+
+17l0l0	PEM	O
+17l0l1	a_ensuite_transmis	N
+17l0l2	la_DRIRE	O
+17l1l0	PEM	I
+17l1l1	la_DRIRE	I
+
+#° Etude détaillée des risques (EDR ; ANTEA – juillet 02 – A 26418/B ;  courrier du 26/09/02)
+
+18l0l0	Etude_détaillée_des_risques	N
+18l0l1	ANTEA	O
+18l0l2	juillet_02	T
+18l0l3	du_26_09_02	T
+18l1l0	EDR	I
+18l1l1	ANTEA	I
+
+#° note d’ANTEA en réponse aux observations de la DRIRE (courrier  PEM du 4/06/03)
+
+19l0l0	d__ANTEA	O
+19l0l1	la_DRIRE	O
+19l0l2	du_4_06_03__	T
+19l1l0	__note_d__ANTEA	I
+19l1l1	la_DRIRE	I
+19l1l2	__PEM	I
+
+#° "appréciation de l’importance des écoulements au sein du dépôt de Rocher Blanc" (ANTEA – mars 2004 – 33591/A ; courrier PEM du 29/03/04)
+
+20l0l0	écoulements	O
+20l0l1	ANTEA	O
+20l0l2	__mars_2004	T
+20l0l3	29_03_04	T
+20l1l0	__ANTEA	I
+20l1l1	PEM	I
+
+#° "définition des travaux de protection hydraulique et de stabilisation au droit du dépôt de Rocher Blanc" (ANTEA ; 2 versions remises en novembre 2004 et juin 2005, amendées suites aux observations de la DRIRE, pour aboutir à la version finale datée de juillet 2005 et référencée 35368/C).
+
+21l0l0	définition	N
+21l0l1	des_travaux_de_protection_hydraulique	O
+21l0l2	stabilisation	N
+21l0l3	au_droit_du_dépôt_de_Rocher_Blanc__	L
+21l0l4	ANTEA	O
+21l0l5	en_novembre_2004	T
+21l0l6	et_juin_2005__	T
+21l0l7	la_version	O
+21l0l8	juillet_2005	T
+21l1l0	Rocher_Blanc_____ANTEA	I
+21l1l1	la_DRIRE	I
+
+#Contenu des travaux :
+
+
+#° enrochement maçonné sur 350 ml et à 1,5 m du niveau de la crue centennale du Doron, pour prévenir les glissements volumineux ;
+
+23l0l0	enrochement	N
+23l0l1	à_1_5_m_du_niveau_de_la_crue_centennale_du_Doron	N
+
+#° déchargement de la crête des talus et déplacement des matériaux à l’amont ;
+
+24l0l0	déchargement	N
+24l0l1	de_la_crête_des_talus	O
+24l0l2	déplacement	N
+24l0l3	des_matériaux	O
+24l0l4	à_l__amont	L
+
+#° pose de grillage plaqués pour prévenir les glissements ;
+
+25l0l0	pose_de_grillage	N
+
+#° végétalisation des buttes et des surfaces ;
+
+
+#° création de fossés de descente des eaux de ruissellement depuis les plate-formes jusqu’au Doron ;
+
+27l0l0	création	N
+27l0l1	de_fossés	O
+
+#° mise en place d’une glissière de sécurité le long de la RD et d’un portail pour interdire l’accès à la décharge.
+
+28l0l0	mise_en_place_d_	N
+28l0l1	une_glissière_de_sécurité	O
+28l0l2	le_long_de_la_RD	L
+28l0l3	un_portail	O
+28l0l4	interdire_l__accès	N
+28l0l5	la_décharge	O
+
+#Ces travaux ont tout d’abord fait l’objet d’une autorisation au titre de la loi pêche par courrier DDAF du 22/09/05, assortie de prescriptions relatives à la protection du milieu aquatique.
+
+29l0l0	Ces_travaux_ont_tout_d_	N
+29l0l1	abord_fait_l__objet_d_	R
+29l0l2	une_autorisation	N
+29l0l3	au_titre_de	R
+29l0l4	la_loi_pêche	O
+29l0l5	DDAF	O
+29l0l6	du_22_09_05	T
+29l0l7	de_prescriptions_relatives_à	R
+29l0l8	la_protection_du_milieu_aquatique	O
+29l1l0	courrier_DDAF	I
+
+#Sur proposition de l’inspection (rapport du 12/10/05), les travaux ont ensuite été prescrits à Péchiney Electrométallurgie par arrêté préfectoral du 5/12/05.
+
+30l0l0	12_10_05	T
+30l0l1	____les_travaux_ont_ensuite_été_prescrits	N
+30l0l2	Péchiney_Electrométallurgie	O
+30l0l3	arrêté_préfectoral	O
+30l0l4	5_12_05	T
+30l1l0	Péchiney_Electrométallurgie	I
+
+#Les travaux devaient être réalisés conformément au rapport ANTEA de juillet 2005, et selon les prescriptions fixées par l’arrêté (reprenant notamment les prescriptions de la DDAF du 22/09/05).
+
+31l0l0	Les_travaux_devaient_être_réalisés	N
+31l0l1	conformément_au	R
+31l0l2	rapport_ANTEA	O
+31l0l3	de_juillet_2005__	T
+31l0l4	et_selon	R
+31l0l5	les_prescriptions	O
+31l0l6	la_DDAF	O
+31l0l7	22_09_05	T
+31l1l0	ANTEA	I
+31l1l1	la_DDAF	I
+
+#Les travaux ont été menés entre fin septembre et fin décembre en 2005 et sur la même période l’année suivante.
+
+32l0l0	Les_travaux_ont_été_menés	N
+32l0l1	entre_fin_septembre_et_fin_décembre_en_2005	T
+32l0l2	et_sur_la_même_période	N
+32l0l3	l__année_suivante	T
+
+#Le dossier de récolement des travaux (ANTEA – août 2007 – 47397/A) a été transmis par courrier Péchiney Bâtiment du 17/09/07.
+
+33l0l0	Le_dossier_de_récolement	N
+33l0l1	des_travaux	N
+33l0l2	__ANTEA	O
+33l0l3	août_2007	T
+33l0l4	a_été_transmis	N
+33l0l5	17_09_07__	T
+33l1l0	ANTEA	I
+33l1l1	Péchiney	I
+
+#SERVITUDES D’UTILITE PUBLIQUE
+
+34l0l0	SERVITUDES	O
+34l1l0	SERVITUDES	I
+34l1l1	UTILITE_PUBLIQUE	I
+
+#Un dossier officiel de demande de SUP (ANTEA – juillet 2005 – 37316/B) a été transmis par courrier PEM du 11/07/05.
+
+35l0l0	Un_dossier_officiel_de_demande	N
+35l0l1	ANTEA	O
+35l0l2	juillet_2005	T
+35l0l3	a_été_transmis	N
+35l0l4	par	R
+35l0l5	courrier_PEM	O
+35l0l6	11_07_05__	T
+35l1l0	ANTEA	I
+35l1l1	courrier_PEM	I
+
+#A l’issue de la procédure prévue par le code de l’environnement, les servitudes suivantes ont été fixées par arrêté préfectoral du 9/03/06 :
+
+36l0l0	les_servitudes	O
+36l0l1	ont_été_fixées	N
+36l0l2	par_arrêté_préfectoral	O
+36l0l3	du_9_03_06	T
+
+#° interdiction de modifier les aménagements réalisés sur le site pour stabiliser le dépôt et éviter l'envol des poussières.
+
+37l0l0	interdiction_de_modifier	N
+37l0l1	les_aménagements	O
+37l0l2	réalisés	N
+37l0l3	envol	N
+
+#° Interdiction de tous travaux sur le site (hormis les stricts travaux de maintenance du site en l’état).
+
+38l0l0	Interdiction_de_tous_travaux	N
+38l0l1	le_site	O
+38l0l2	stricts_travaux_de_maintenance	N
+
+#° Interdiction de tout usage du sol.
+
+39l0l0	Interdiction_de	N
+39l0l1	tout_usage_du_sol	A
+
+#SURVEILLANCE
+
+
+#L’arrêté du 5/12/05 a prescrit à PEM les mesures suivantes concernant l’ancienne décharge :
+
+41l0l0	L__arrêté_du	O
+41l0l1	5_12_05	T
+41l0l2	a_prescrit	N
+41l0l3	PEM	O
+41l0l4	les_mesures	N
+41l1l0	PEM	I
+
+#° eaux souterraines : au moins 3 piézomètres (1 amont, 2 aval) ; 2 mesures par an sur les paramètres suivants : pH, DCO, Hg, As, Cu, Ni, Cr (total et hexavalent), Pb, Ba, Cd.
+
+42l1l0	pH	S
+42l1l1	DCO	S
+42l1l2	Hg	S
+42l1l3	As	S
+42l1l4	Cu	S
+42l1l5	Ni	S
+42l1l6	Cr	S
+42l1l7	hexavalent	S
+42l1l8	Pb	S
+42l1l9	Ba	S
+42l1l10	Cd	S
+
+#° eaux superficielles : 1 point amont et 1 point aval ; 2 mesures par an sur les mêmes paramètres que l’eau souterraine.
+
+
+#° contrôle et surveillance de l’état de la décharge (stabilité...) et des ouvrages réalisés (enrochements, réseau collecte des eaux pluviales, portail, végétation...).
+
+44l0l0	contrôle	N
+44l0l1	ouvrages_réalisés	N
+44l0l2	enrochements	N
+
+#Les résultats de surveillance sont transmis régulièrement par Péchiney Bâtiment.
+
+45l0l0	Péchiney_Bâtiment	O
+45l1l0	Péchiney_Bâtiment	I
+
+#Ils ne font pas apparaître d’impact de l’ancienne décharge réhabilitée.
+
+46l0l0	l__ancienne_décharge_réhabilitée	O

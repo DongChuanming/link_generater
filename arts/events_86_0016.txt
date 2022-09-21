@@ -1,0 +1,271 @@
+
+#86.0016
+#L'établissement créé en 1948 regroupe 130 viticulteurs sur 350 hectares.
+
+0l0l0	L__établissement	O
+0l0l1	créé	N
+0l0l2	en_1948	T
+0l0l3	130_viticulteurs	O
+
+#Il est implanté sur une parcelle de 13 000 m² dans l'agglomération de Neuville de Poitou.
+
+1l0l0	Il	O
+1l0l1	est_implanté_sur	N
+1l0l2	une_parcelle_de_13_000_m²	O
+1l0l3	dans_l__agglomération_de_Neuville_de_Poitou	L
+
+#La Cave du Haut Poitou a exploité une installation de production, de  préparation et de conditionnement de vin, activité soumise à la réglementation relative aux installations classées.
+
+2l0l0	La_Cave_du_Haut_Poitou	O
+2l0l1	a_exploité	N
+2l0l2	une_installation	O
+2l0l3	de_production___de___préparation_et_de_conditionnement_de_vin	A
+2l0l4	__activité_soumise_à_la_réglementation_relative_aux_installations_classées	A
+2l1l0	La_Cave	I
+
+#La société a déposé une demande d'autorisation d'exploiter ses installations sur un site nouveau en 2007.
+
+3l0l0	La_société	O
+3l0l1	a_déposé_une_demande_d_	N
+3l0l2	autorisation	O
+3l0l3	d__exploiter_ses_installations_sur_un_site_nouveau	N
+3l0l4	en_2007__	T
+
+#Toutefois, le projet a été abandonné quelques mois plus tard.
+
+4l0l0	le_projet	O
+4l0l1	a_été_abandonné	N
+4l0l2	quelques_mois_plus_tard	T
+
+#La société a donc été mise en demeure de régulariser la situation administrative de l’établissement au regard de la législation des installations classées pour la protection de l’environnement par arrêté préfectoral n° 2008-D2/B3-367 en date du 21 octobre 2008.
+
+5l0l0	La_société	O
+5l0l1	a_donc_été_mise_en_demeure_de_régulariser	N
+5l0l2	la_situation_administrative	O
+5l0l3	l__établissement	O
+5l0l4	au_regard_de	R
+5l0l5	la_législation_des_installations_classées	O
+5l0l6	pour_la_protection_de_l__environnement	O
+5l0l7	arrêté_préfectoral	O
+5l0l8	en_date_du_21_octobre_2008__	T
+5l1l0	La	I
+
+#La société disposait d'un récépissé de déclaration n°2000-99 du 7 août 2000 sous la rubrique n°1412 de la nomenclature relative aux installations classées pour le stockage de gaz inflammables liquéfiés et d'un récépissé de déclaration n°2011-107 du 30 décembre 2011 sous la rubrique n°2251 de la nomenclature relative aux installations classées pour la préparation et le conditionnement de vins.
+
+6l0l0	La_société	O
+6l0l1	un_récépissé	O
+6l0l2	de_déclaration	N
+6l0l3	7_août_2000	T
+6l0l4	stockage_de_gaz_inflammables_liquéfiés	A
+6l0l5	d__un_récépissé	O
+6l0l6	de_déclaration	N
+6l0l7	du_30_décembre_2011	T
+6l0l8	la_préparation_et_le_conditionnement_de_vins	A
+6l1l0	gaz_inflammables	U
+
+#Suite à la liquidation de l'entreprise, la société AMPELIDAE a acquis la propriété et souhaité la vendre.
+
+7l0l0	Suite_à	R
+7l0l1	la_liquidation_de	N
+7l0l2	l__entreprise	O
+7l0l3	la_société_AMPELIDAE	O
+7l0l4	a_acquis	N
+7l0l5	la_propriété	O
+7l0l6	souhaité_la_vendre	N
+7l1l0	la_société_AMPELIDAE	I
+
+#Un pré diagnostic initial de pollution a été réalisé en novembre 2010 sur l'initiative de la coopérative dans le cadre d'un projet de cession foncière.
+
+8l0l0	Un_pré_diagnostic_initial_de_pollution	O
+8l0l1	a_été_réalisé	N
+8l0l2	en_novembre_2010	T
+8l0l3	l_	N
+8l0l4	initiative_de	R
+8l0l5	la_coopérative	O
+8l0l6	dans_le_cadre_d_	R
+8l0l7	un_projet	O
+8l0l8	de_cession_foncière	N
+
+#Cette étude a montré une pollution au PCB.
+
+9l1l0	PCB	S
+
+#La profondeur de la pollution reste inconnue et les informations recueillies au cours de cette campagne d'investigations ne permettent pas de quantifier de façon précise le volume de terre polluée.
+
+10l0l0	cette_campagne_d__investigations	N
+10l0l1	terre_polluée	O
+
+#Il apparaît nécessaire de réaliser des études plus approfondies ainsi que de nouvelles investigations dans les eaux souterraines.
+
+11l0l0	investigations	N
+11l0l1	les_eaux_souterraines	O
+
+#En l'absence de projet défini et d'usage prévus, seules des préconisations sanitaires simples peuvent être avancées sur des opérations de dépollution du site :
+
+12l0l0	des_opérations_de_dépollution	N
+12l0l1	du_site	L
+
+#-suppression de la source
+
+13l0l0	la_source	O
+
+#-suppression des voies de transfert
+
+14l0l0	_suppression	N
+
+#-traitement sur site des sols impactés par des hydrocarbures et les PCB
+
+15l0l0	_traitement_sur_site	N
+15l0l1	des_sols_impactés	N
+15l0l2	hydrocarbures	O
+15l1l0	hydrocarbures	S
+15l1l1	les_PCB	S
+
+#Un arrêté du 8 février 2012 impose à l'exploitant de réaliser et de transmettre au service de l'inspection des installations classées une étude sols complémentaire à l'étude "pré diagnostic initial de pollution".
+
+16l0l0	Un_arrêté	O
+16l0l1	du_8_février_2012	T
+16l0l2	impose	N
+16l0l3	l__exploitant	O
+16l0l4	de_réaliser	N
+16l0l5	de_transmettre	N
+16l0l6	service_de_l__inspection_des_installations_classées	O
+16l0l7	une_étude	N
+16l0l8	sols_complémentaire	O
+
+#Cette arrêté demande aussi d'effectuer deux campagnes de prélèvements et d'analyses d'eau.
+
+17l0l0	Cette_arrêté	O
+17l0l1	d__effectuer_deux_campagnes_de_prélèvements	N
+
+#Les paramètres à analyser sont : hydrocarbures totaux, métaux (arsenic, baryum, chrome, cuivre, plomb, nickel, mercure, molybdène, vanadium et zinc), PCB, phénols, COVH, Trichloréthylène et Tétrachloréthylène.
+
+18l1l0	hydrocarbures_totaux	S
+18l1l1	métaux	S
+18l1l2	arsenic	S
+18l1l3	baryum	S
+18l1l4	chrome	S
+18l1l5	cuivre	S
+18l1l6	plomb	S
+18l1l7	nickel	S
+18l1l8	mercure	S
+18l1l9	molybdène	S
+18l1l10	vanadium	S
+18l1l11	zinc	S
+18l1l12	PCB	S
+18l1l13	phénols	S
+18l1l14	COVH	S
+18l1l15	Trichloréthylène	S
+18l1l16	Tétrachloréthylène	S
+
+#Le dossier de cessation a été fourni en novembre 2015 par Ampelidae, en décembre 2015 par un document du bureau d'études VALEEN qui vient conforter le courrier du 24/11/2015 d'AMPELIDAE au Maire indiquant que le site permet un usage futur du site comparable à celui réalisé aujourd'hui.
+
+19l0l0	Le_dossier_de_cessation	O
+19l0l1	a_été_fourni	N
+19l0l2	en_novembre_2015	T
+19l0l3	en_décembre_2015	T
+19l0l4	un_document_du_bureau_d__études_VALEEN	O
+19l0l5	24_11_2015	T
+19l0l6	d__AMPELIDAE	O
+19l0l7	le_site	O
+19l0l8	permet	R
+19l0l9	un_usage_futur_du_site	O
+19l1l0	Ampelidae	I
+19l1l1	VALEEN	I
+19l1l2	AMPELIDAE	I
+
+#De plus le diagnostic de sols réalisé indique la présences de traces de PCB, faiblement lixiviable (càd 60 fois inférieur à la valeur seuil établi par l'arrêté du 12 décembre 2014 relatif aux installations de stockage de déchets inertes).
+
+20l0l0	le_diagnostic_de_sols_réalisé	N
+20l0l1	12_décembre_2014	T
+20l1l0	PCB	S
+
+#Il n'a pas été nécessaire de réaliser une Analyse des Risques Résiduels
+
+21l0l0	Il_n_	O
+
+#En effet, le bureau d'études indique :
+
+
+#"Ainsi, au regard des données acquises, la qualité des sols mise en évidence apparait compatible pour un usage futur du site comparable à celui dont il a été jusqu’à maintenant le siège : activité industrielle et/ou commerciale.
+
+23l0l0	la_qualité_des_sols	O
+23l0l1	un_usage_futur	N
+23l0l2	du_site	O
+23l0l3	activité_industrielle_et___ou_commerciale	A
+
+#Toutefois, il conviendra dans le cadre du réaménagement du site de suivre les recommandations suivantes
+
+24l0l0	réaménagement	N
+
+#-         éliminer dans les règles de l’art de tous les bidons et fûts identifiés sur site (lors de la visite du 17/07/2015) ; (cela a été fait le 24/11/2015 selon éléments fournis par Ampelidae)
+
+25l0l0	__éliminer_dans_les_règles	N
+25l0l1	sur_site___lors_de	N
+25l0l2	la_visite_du	T
+25l0l3	17_07_2015_______cela	N
+25l0l4	a_été_fait_le_24_11_2015	T
+25l1l0	fournis	I
+
+#-         contrôler la qualité des sols directement présent au droit des transformateurs électriques après leur démantèlement (ces transformateurs étaient en service au cour de la mission de VALEEN)
+
+26l0l0	_	N
+26l0l1	contrôler_la_qualité	O
+26l0l2	transformateurs_électriques	O
+26l0l3	après_leur_démantèlement___ces_transformateurs	O
+26l0l4	étaient_en	N
+26l0l5	mission	O
+26l1l0	mission	I
+
+#-         maintenir sur site les « terres de filtration » et des marcs de raisins occupant la partie nord du site.
+
+27l0l0	occupant_la_partie_nord	L
+
+#En effet, les terres de filtration ne sont conventionnellement pas acceptées en installation de stockage des déchets inertes puisqu’une fraction est valorisable.
+
+28l0l0	les_terres_de	O
+28l0l1	filtration	A
+
+#En cas d’excavation, il conviendra de s’assurer en autre de l’absence de ferrocyanure et de s’approcher d’un collecteur habilité ;
+
+29l0l0	excavation	N
+29l0l1	ferrocyanure	O
+29l1l0	ferrocyanure	S
+
+#-         porter une attention particulière lors de la démolition du local de stockage de nombreux bidons où la dalle est apparue souillée  avec notamment la réalisation d’un contrôle de la qualité du béton."
+
+30l0l0	particulière_lors_de_la_démolition	N
+30l0l1	où_la_dalle_est_apparue	N
+30l0l2	notamment_la_réalisation_d__un	N
+30l0l3	qualité	T
+
+#Actuellement, aucun travaux de dépollutions n'ont été réalisé  et ne semble envisagés
+
+31l0l0	aucun_travaux_de_dépollutions	N
+31l0l1	n__ont_été_réalisé	N
+31l0l2	semble_envisagés	T
+
+#Les éléments fournis répondent à l'article R512-66-1 du code de l'environnement et cela vient donc clore la procédure de cessation d'activité de cette ICPE.
+
+32l0l0	clore_la_procédure	N
+32l0l1	cessation_d__activité	N
+32l0l2	cette_ICPE	N
+
+#Il a été rappelé à Ampelidae par courrier du 12 janvier 2016 qu'il doit informer l'acquéreur qu'en cas de démantèlement des transformateurs ou de démolition du local de stockage, il conviendra de respecter les préconisations du "diagnostic initial de la qualité des sols" daté du 07/09/2015 et les recommandations de Valeen du 07/12/2015.
+
+33l0l0	du_12_janvier_2016	T
+33l0l1	informer	N
+33l0l2	l__acquéreur	O
+33l0l3	démantèlement_des_transformateurs	N
+33l0l4	démolition_du_local_de_stockage	N
+33l0l5	diagnostic_initial	N
+33l0l6	la_qualité_des_sols__	O
+33l0l7	daté_du_07_09_2015	T
+33l0l8	07_12_2015	T
+33l1l0	Ampelidae	I
+33l1l1	Valeen	I
+
+#La cessation d'activité a été finalisé au niveau préfectoral.
+
+34l0l0	La_cessation_d__activité	N
+34l0l1	a_été_finalisé	N

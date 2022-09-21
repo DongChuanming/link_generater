@@ -1,0 +1,92 @@
+
+#34.0046
+#Il s'agit d'une ancienne école maternelle (devenue collège) située avenue Georges Clémenceau, dans le centre-ville de Montpellier.
+
+0l0l0	Il_s__agit_d__une_ancienne	N
+0l1l0	Clémenceau___dans_le_centre__	S
+
+#Dans le cadre du 2ème Plan National Santé Environnement (PNSE) couvrant la période 2009-2013, une démarche de diagnostic des sols a été réalisée sur les écoles situées a proximité d'anciennes activités industrielles.
+
+1l0l0	cadre_du_2ème_Plan_National_Santé	O
+1l0l1	Environnement___PNSE	O
+1l0l2	__couvrant_la_période_2009___2013___une	L
+1l0l3	démarche_de_diagnostic_des_sols_a_été	L
+
+#Au vu des informations historiques disponibles, l'emprise de l'école n'a jamais accueilli d'activité industrielle.
+
+2l0l0	Au_vu_des	R
+2l0l1	informations_historiques_disponibles___l__emprise	O
+2l0l2	l__école_n__a_jamais_accueilli_d_	T
+2l0l3	activité_industrielle__	N
+
+#En revanche, plusieurs activités industrielles ont exercé leur activité au voisinage de l'établissement:
+
+3l0l0	ont_exercé	O
+3l0l1	leur_activité	O
+3l0l2	au_voisinage_de_l_	N
+3l0l3	établissement__	A
+
+#- une ancienne fonderie à partir de 1867 jusqu'à une date non déterminée;
+
+4l0l0	ancienne_fonderie_à_partir_de_1867_jusqu__à_une	O
+4l0l1	date_non	N
+4l0l2	déterminée__	O
+
+#- un ancien site de fabrication et distribution d'électricité, de gaz, de vapeur et d'air conditionné de 1870 jusqu'à une date non déterminée;
+
+5l0l0	un_ancien_site_de	O
+5l0l1	fabrication_et_distribution	T
+
+#- un ancien site de réparation de motocycles puis activité de fabrication et/ou stockage de peintures, vernis, encres et mastics ou solvants (1968-date inconnue) ;
+
+6l0l0	un_ancien_site_de	O
+6l0l1	réparation_de_motocycles_puis_activité_de_fabrication	A
+
+#- un ancien dépôt de liquides inflammables (1957-date inconnue) ;
+
+7l0l0	un_ancien_dépôt_de_liquides_inflammables__	O
+7l0l1	1957_date_inconnue____	A
+
+#- un garage (1975 - toujours en activité).
+
+8l0l0	un_garage___1975___toujours_en_activité	N
+8l1l0	__1975__	D
+8l1l1	toujours_en_activité____	U
+
+#Dans ce contexte, une campagne de diagnostic sur les milieux a été menée (mesures dans l'eau du robinet, de l'air sous dalle, des sols superficiels de la cour de l'école et en bordure d'un logement de fonction).
+
+9l0l0	Dans_ce_contexte	O
+
+#Les sols accessibles par les enfants se limitent aux pourtours des arbres et aux jardinières latérales.
+
+10l0l0	accessibles_par_les_enfants_se_limitent	N
+10l0l1	aux_pourtours	O
+10l0l2	des_arbres	N
+
+#Seule une analyse a montré un dépassement de la valeur recommandée par le Haut Conseil de la Santé publique (note de juin 2014 : 300 mg/kg de Pb): 470 mg/kg; tous les autres résultats sont inférieurs (240; 210; 120; 61; 130 mg/kg de Pb) à la valeur de référence.
+
+
+#L'exposition des enfants est par ailleurs très limitée car l'essentiel de la cour de l'école est revêtu (exceptés les pourtours d'arbres) empêchant tout contact des enfants avec le sol.
+
+12l0l0	est_par_ailleurs	N
+12l0l1	exceptés_les_pourtours	T
+12l1l0	essentiel_de_la_cour_de_l__école_est	I
+12l1l1	arbres__	S
+
+#De plus, l'exposition par ingestion de sol n'est retenue que pour les enfants de moins de 6 ans dont le comportement (porter main-bouche) peut conduire à une ingestion de 100 mg de sol par jour.
+
+
+#Or depuis la rentrée de septembre 2013, l'école n'accueille que des collégiens, cette voie d'exposition n'est donc plus retenue.
+
+14l0l0	septembre_2013___l__école	A
+14l0l1	des_collégiens	O
+14l0l2	__cette_voie_d_	A
+
+#Dans la mesure où des analyses de sol n'ont pas été réalisées sous le revêtement de l'école, le ministère chargé de l'environnement recommande de garder la mémoire de la présence potentielle de plomb sous ce revêtement; tel est l'objet de cette fiche BASOL.
+
+15l0l0	Dans_la_mesure_où_des_analyses_de_sol_n_	T
+15l0l1	ont_pas_été	O
+15l0l2	réalisées_sous	N
+15l0l3	le_revêtement_de	O
+15l0l4	l__école___le_ministère	O
+15l0l5	chargé_de_l__environnement	N

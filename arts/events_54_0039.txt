@@ -1,0 +1,239 @@
+
+#54.0039
+#Le site a accueilli une mine de fer exploitée jusqu'en 1962, des lavoirs à minerai, une forge exploitée depuis le 16 ème siècle et au 19 ème siècle un Haut-fourneau a été construit et exploité jusqu'en 1939.
+
+0l0l0	Le_site	O
+0l0l1	a_accueilli	N
+0l0l2	une_mine_de_fer	O
+0l0l3	exploitée	N
+0l0l4	jusqu__en_1962	T
+0l0l5	lavoirs_à_minerai	A
+0l0l6	une_forge	O
+0l0l7	exploitée	N
+0l0l8	depuis_le_16_ème_siècle	T
+0l0l9	au_19_ème_siècle	T
+0l0l10	un_Haut_fourneau	O
+0l0l11	a_été_construit	N
+0l0l12	exploité_jusqu_	R
+0l0l13	en_1939	T
+
+#Au début du 20 éme siècle le site comprenait un carreau de mine, une briquerie, un concasseur à minerai,un haut-fourneau, une remise à locomotives,une centrale électrique et à vapeur, une poudrière et des batiments annexes.
+
+1l0l0	Au_début_du_20_éme_siècle	T
+1l0l1	le_site	O
+1l0l2	carreau_de_mine	O
+1l0l3	concasseur_à_minerai	A
+1l0l4	une_remise_à_locomotives	O
+1l0l5	une_centrale_électrique	O
+
+#Ces installations appartenaient à la société LORRAINE-ESCAUT puis à USINOR.
+
+2l0l0	Ces_installations	O
+2l0l1	appartenaient	N
+2l0l2	à	R
+2l0l3	la_société_LORRAINE___ESCAUT	O
+2l0l4	USINOR	O
+2l1l0	la_société_LORRAINE___ESCAUT	I
+2l1l1	USINOR	I
+
+#L'ayant droit de l'ancien et dernier exploitant est ARCELORMITTAL FRANCE.
+
+3l0l0	L__ayant_droit	O
+3l0l1	exploitant	O
+3l0l2	ARCELORMITTAL_FRANCE	O
+3l1l0	ARCELORMITTAL_FRANCE	I
+
+#Les superstructures en béton ont été démolies, mais les parties enterrées, telles que les murs de soutènement, les remblais et la plate-forme, ont été laissées sur place.
+
+4l0l0	Les_superstructures	O
+4l0l1	béton	O
+4l0l2	ont_été_démolies	N
+4l0l3	les_parties_enterrées	O
+4l0l4	murs_de_soutènement	O
+4l0l5	remblais	N
+4l0l6	ont_été_laissées	N
+
+#Evaluation Simplifiée des Risques remise à la DRIRE le 15 mars 2002, site classé 2, à surveiller, pour son impact sur les eaux souterraines et classé 1 , nécessitant des investigations complémentaires , au niveau du sol pour une zone limitée (présence de HAP et d'arsenic).
+
+5l0l0	Evaluation_Simplifiée_des_Risques_remise	N
+5l0l1	la_DRIRE	O
+5l0l2	le_15_mars_2002__	T
+5l0l3	site_classé_2	O
+5l0l4	surveiller	A
+5l1l0	la_DRIRE	I
+5l1l1	HAP	S
+5l1l2	arsenic	S
+
+#La surveillance des eaux souterraines est prescrite par arrêté préfectoral du 18 novembre 2002.
+
+6l0l0	La_surveillance_des_eaux_souterraines	A
+6l0l1	est_prescrite	N
+6l0l2	par_arrêté_préfectoral	O
+6l0l3	18_novembre_2002	T
+
+#Cet arrêté impose également le traitement de la zone polluée par des HAP.
+
+7l0l0	impose_également	R
+7l0l1	le_traitement	N
+7l0l2	la_zone_polluée	O
+7l0l3	des_HAP	O
+7l1l0	HAP	S
+
+#Par courrier du 16 janvier 2007, ARCELOR MITTAL FRANCE, ayant droit de l'ancien exploitant, fournit un extrait de l'état de connaissance du fond géochimique lorrain à l'inspection des installations classées.
+
+8l0l0	16_janvier_2007__	T
+8l0l1	ARCELOR_MITTAL_FRANCE	O
+8l0l2	fond_géochimique	O
+8l1l0	ARCELOR_MITTAL_FRANCE	I
+
+#Les teneurs en As mesurées sur la friche en 2000 sont du même ordre que celles du fond géochimique de la région.
+
+9l0l0	Les_teneurs	O
+9l0l1	la_friche	O
+9l0l2	en_2000	T
+9l1l0	As	S
+
+#Courant 2003, 1680 tonnes de terre polluées par des HAP ont été évacuées pour être traiter par désorption thermique hors du site (la zone correspondait à un batiment dédié à des activités de recherche d'enrichissement de minerai).
+
+10l0l0	Courant_2003__	T
+10l0l1	1680_tonnes_de_terre_polluées	O
+10l0l2	des_HAP	O
+10l0l3	ont_été_évacuées	N
+10l0l4	pour_être_traiter_par_désorption_thermique_hors_du_site	L
+10l0l5	la_zone	O
+10l0l6	un_batiment	O
+10l0l7	dédié_à	R
+10l0l8	des_activités_de_recherche_d__enrichissement_de_minerai	A
+10l1l0	des_HAP	S
+
+#Le traitement a été réalisé par Deep Green sur le site d'Homécourt.
+
+11l0l0	Le_traitement	O
+11l0l1	a_été_réalisé	N
+11l0l2	Deep_Green	O
+11l0l3	sur_le_site_d__Homécourt	L
+11l1l0	Deep_Green	I
+
+#La terre dépolluée est restée sur ce site au niveau de la zone M.
+
+12l0l0	La	O
+12l0l1	terre_dépolluée	N
+12l0l2	est_restée_sur	N
+12l0l3	ce_site	O
+12l0l4	au_niveau_de	R
+12l0l5	la_zone_M_	O
+
+#Suite à la visite du 27 octobre 2005, il s'avère que BI n'est plus propriétaire (l'ensemble de la friche a été cédé à la CCAL en novembre 2003).
+
+13l0l0	Suite	R
+13l0l1	à_la_visite	N
+13l0l2	du_27_octobre_2005__	T
+13l0l3	BI	O
+13l0l4	n__est_plus_propriétaire	N
+13l0l5	l__ensemble_de_la_friche	O
+13l0l6	a_été_cédé	N
+13l0l7	la_CCAL	O
+13l0l8	en_novembre_2003	T
+13l1l0	la_CCAL	I
+
+#La zone recherche a été excavée (afin d'éliminer les HAP) et remblayée par des matériaux suite à la pose d'une canalisation par la CCAL.
+
+14l0l0	La_zone_recherche	O
+14l0l1	a_été_excavée	N
+14l0l2	remblayée	N
+14l0l3	par	N
+14l0l4	des_matériaux	O
+14l0l5	suite_à	R
+14l0l6	la_pose_d_	N
+14l0l7	une_canalisation	O
+14l0l8	la_CCAL	O
+14l1l0	HAP	S
+14l1l1	la_CCAL	I
+
+#Des prélèvements ont été réalisés pour vérifier l'innocuité de ces matériaux.
+
+15l0l0	Des_prélèvements_ont_été_réalisés	N
+
+#Le 15 mars 2006, il est demandé à l'exploitant des détails sur les travaux et l'analyse de la poche d'HAP et le bilan global des travaux post ESR et bilan état des sols.
+
+16l0l0	Le_15_mars_2006__	T
+16l0l1	l__exploitant	O
+16l0l2	les_travaux	N
+16l0l3	l__analyse	N
+16l0l4	la_poche_d__HAP	O
+16l0l5	bilan_global_des_travaux	N
+
+#Par courrier du 2 mars 2007, il est prouvé par les analyses confiées au LCDI que les matériaux utilisés ne comportent pas de substances analysées supérieures aux VDSS.
+
+17l0l0	du_2_mars_2007__	T
+17l0l1	LCDI	O
+17l1l0	LCDI	I
+17l1l1	VDSS	S
+
+#Suite à la visite du 29 mars 2007, l'emplacement des anciens transformateurs de  la centrale de pompage d'eau est mis en évidence.
+
+18l0l0	Suite_à_la_visite	N
+18l0l1	du_29_mars_2007__	T
+18l0l2	l__emplacement_des_anciens_transformateurs	O
+18l0l3	__la_centrale_de	O
+18l0l4	pompage_d__eau	A
+
+#Les transformateurs ont été évacués, les documents relatifs à la destruction sont demandés, ainsi que des précisions sur la présence ou non de PCB.
+
+19l0l0	Les_transformateurs	O
+19l0l1	ont_été_évacués	N
+19l1l0	PCB	S
+
+#Dès réception de ces documents, un rapport sera fait au préfet indiquant que tous les travaux demandés par AP ont été réalisés et que le site est mis en sécurité.
+
+20l0l0	Dès_réception	N
+20l0l1	les_travaux_demandés	N
+20l0l2	AP	O
+20l0l3	ont_été_réalisés	N
+20l0l4	le_site	O
+20l0l5	est_mis_en_sécurité	N
+20l1l0	préfet	I
+
+#Le suivi des eaux souterraines montre un pic de HAP depuis un cycle hydrogéologique consécutif très probablement aux travaux réalisés.
+
+21l0l0	Le_suivi_des_eaux_souterraines	A
+21l0l1	HAP	O
+21l0l2	depuis	T
+21l0l3	un_cycle_hydrogéologique	N
+21l0l4	aux_travaux_réalisés	N
+21l1l0	HAP	S
+
+#Ceci reste à vérifier au travers des analyses suivantes.
+
+
+#Les prélèvements et les analyses des eaux de la nappe phréatique, réalisés en décembre 2007 montrent essentiellement la persistance d'une anomalie en HAP au niveau du piézomètre PZ2 localisé à l'aval du site.
+
+23l0l0	Les_prélèvements_et_les_analyses_des_eaux	N
+23l0l1	réalisés	N
+23l0l2	en_décembre_2007	T
+23l0l3	HAP	O
+23l0l4	au_niveau_du	R
+23l0l5	localisé_à_l__aval_du_site	L
+23l1l0	HAP	S
+
+#La teneur observée en décembre 2007 est supérieure à la limite de qualité des eaux douces superficielles utilisées ou destinées à être utilisées pour la production d'eau destinée à la consommation humaine.
+
+24l0l0	en_décembre_2007	T
+24l0l1	supérieure_à	R
+24l0l2	la_limite	O
+24l0l3	destinées	N
+24l0l4	à_être_utilisées_pour_la_production_d__eau_destinée_à_la_consommation_humaine	A
+
+#Elle reste cependant dans la fourchette basse des teneurs enregistrées sur ce point de contrôle depuis 2004.
+
+25l0l0	depuis_2004__	T
+
+#L'exploitant a déposé un dossier de demande d'instauration de servitudes d'utilité publique, en cours d'instruction.
+
+26l0l0	L__exploitant	O
+26l0l1	a_déposé	N
+26l0l2	un_dossier	O
+26l0l3	demande	T
+26l0l4	d_	N
+26l0l5	instauration_de_servitudes_d__utilité_publique	O
+26l0l6	en_cours_d__instruction	T

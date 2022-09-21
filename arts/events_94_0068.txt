@@ -1,0 +1,223 @@
+
+#94.0068
+#La société METAL COULEUR SYSTEMES est spécialisée dans le traitement de profilés d'aluminium.
+
+0l0l0	La_société_METAL_COULEUR_SYSTEMES	O
+0l0l1	est_spécialisée_dans_le_traitement_de_profilés_d__aluminium	A
+0l1l0	La_société_METAL_COULEUR_SYSTEMES	I
+
+#Elle est autorisée par l'arrêté préfectoral du 18/10/1988 pour des activités de traitement de surface (chromatation, dégraissages alcalins) et l'application de peintures (liquide et poudres Epoxy).
+
+1l0l0	Elle	O
+1l0l1	est_autorisée	N
+1l0l2	par_l__arrêté_préfectoral	O
+1l0l3	18_10_1988	T
+1l0l4	des_activités_de_traitement_de_surface	A
+1l0l5	chromatation	A
+1l0l6	dégraissages_alcalins	O
+1l0l7	l__application_de_peintures	A
+1l1l0	Epoxy	S
+
+#L'établissement est situé en zone industrielle, dans le Port de Bonneuil-sur-Marne.
+
+2l0l0	L__établissement	O
+2l0l1	est_situé_en_zone_industrielle	L
+2l0l2	dans_le_Port_de_Bonneuil_sur_Marne	L
+
+#Le site est entouré, au nord et à l'ouest de terrains sur lesquels des installations classées ont été exploitées et des travaux de dépollution ont déjà été effectués.
+
+3l0l0	Le_site	O
+3l0l1	est_entouré___au_nord_et_à_l__ouest	L
+3l0l2	de_terrains	O
+3l0l3	des_installations_classées	O
+3l0l4	ont_été_exploitées	N
+3l0l5	des_travaux_de_dépollution	N
+3l0l6	ont_déjà_été_effectués	N
+
+#La nappe s'écoule vers le sud-est.
+
+4l0l0	écoule_vers_le_sud_est	N
+
+#Une partie des solvants chlorés présents dans la nappe pourrait provenir des terrains mitoyens.
+
+5l0l0	des_terrains_mitoyens	O
+5l1l0	solvants_chlorés	U
+
+#La société METAL COULEUR SYSTEMES est toujours en activité.
+
+6l0l0	La_société_METAL_COULEUR_SYSTEMES	O
+6l1l0	La_société_METAL_COULEUR_SYSTEMES	I
+
+#*  Diagnostic
+
+
+#Un diagnostic de sol réalisé en décembre 2009, à la demande du propriétaire des terrains, a mis en évidence la présence de solvants chlorés dans la nappe alluviale et les sols.
+
+8l0l0	Un_diagnostic_de_sol_réalisé	N
+8l0l1	en_décembre_2009__	T
+8l0l2	à_la_demande	R
+8l0l3	du_propriétaire_des_terrains	O
+8l0l4	a_mis_en_évidence	R
+8l0l5	la_présence	O
+8l1l0	solvants_chlorés	U
+
+#De nouvelles analyses des eaux de la nappe ont été réalisées en juin 2010, juin 2011 et décembre 2011, par l'exploitant.
+
+9l0l0	De_nouvelles_analyses	N
+9l0l1	des_eaux_de_la_nappe	O
+9l0l2	ont_été_réalisées	N
+9l0l3	en_juin_2010___juin_2011_et_décembre_2011__	T
+9l0l4	l__exploitant	O
+
+#Elles ont permis de mettre en évidence la présence d'une pollution, en amont du site avec du chlorure de vinyle, mais aussi sur le site avec du trichloroéthylène et du tétrachloroéthylène.
+
+10l0l0	pollution	O
+10l0l1	en_amont_du_site	L
+10l1l0	chlorure_de_vinyle	S
+10l1l1	du_trichloroéthylène	S
+10l1l2	du_tétrachloroéthylène	S
+
+#Des analyses des gaz du sol et de l'air ambiant intérieur des bâtiments au droit du site n'ont pas mis en évidence d'impact de la nappe par dégazage.
+
+11l0l0	Des_analyses	N
+11l0l1	au_droit_du_site	L
+11l0l2	dégazage	N
+
+#* Plan de gestion
+
+
+#Par lettre du 21/02/2012, l'exploitant a transmis un plan de gestion.
+
+13l0l0	21_02_2012	T
+13l0l1	l__exploitant	O
+13l0l2	a_transmis	N
+13l0l3	un_plan_de_gestion	O
+
+#Il en est ressorti que les principales sources de pollution étaient situées sous les bâtiments encore en exploitation.
+
+14l0l0	les_principales_sources_de_pollution	O
+14l0l1	situées_sous_les_bâtiments	L
+14l0l2	encore_en_exploitation	N
+
+#Cependant, plusieurs mesures de gestion été prévues :
+
+
+#- Surveillance de la qualité de la nappe à une fréquence semestrielle portant sur les COHV.
+
+16l0l0	la_qualité_de_la_nappe	O
+16l1l0	COHV	S
+
+#- Etude de sol complémentaire.
+
+
+#- Excavation des terres polluées en solvants (15 mg/kg de trichloréthylène) présentes dans une zone accessible.
+
+18l0l0	Excavation	N
+18l0l1	des_terres_polluées	O
+18l0l2	une_zone_accessible	O
+18l1l0	solvants	S
+18l1l1	trichloréthylène	S
+
+#*  Investigations complémentaires
+
+19l0l0	__Investigations	N
+19l0l1	complémentaires	O
+
+#Les excavations de terres prévues n'ont pas été réalisées (pollution peu importante), mais une intervention au niveau d'anciens réservoirs de solvants enterrés a de nouveau été recommandée par le bureau d'étude.
+
+20l0l0	Les_excavations_de	N
+20l0l1	terres_prévues	O
+20l0l2	n__ont_pas_été_réalisées	N
+20l0l3	une_intervention	N
+20l0l4	au_niveau	N
+20l0l5	solvants_enterrés	O
+20l0l6	a_de_nouveau_été_recommandée	N
+20l0l7	le_bureau_d__étude	O
+20l1l0	solvants	U
+
+#Des investigations complémentaires ont été réalisées du 19 au 22 août 2013.
+
+21l0l0	Des_investigations_complémentaires	O
+21l0l1	ont_été_réalisées	N
+21l0l2	du_19_au_22_août_2013__	T
+
+#Les analyses, effectuées sur les 11 sondages réalisés à 3 profondeurs différentes ont permis de mettre en évidence que les impacts en métaux et en solvants chlorés n'étaient présents que sur la partie superficielle des sols (entre 0 et 1 mètre).
+
+22l0l0	réalisés_à	R
+22l0l1	3_profondeurs_différentes	O
+22l1l0	métaux	S
+22l1l1	solvants_chlorés	S
+
+#Par ailleurs, aucun ancien réservoir n’a été détecté sous le préau.
+
+
+#*  Surveillance des milieux
+
+24l0l0	__Surveillance	A
+24l0l1	des_milieux	O
+
+#L'arrêté préfectoral prescrivant la surveillance semestrielle des eaux souterraines a été signé le 12/07/2012.
+
+25l0l0	L__arrêté_préfectoral	O
+25l0l1	prescrivant	R
+25l0l2	la_surveillance_semestrielle	A
+25l0l3	des_eaux_souterraines	A
+25l0l4	a_été_signé	N
+25l0l5	le_12_07_2012__	T
+
+#Les résultats de juin 2012 ont mis en évidence une augmentation des concentrations en perchloroéthylène et en chlorure de vinyle en amont du site.
+
+26l0l0	Les_résultats	O
+26l0l1	de_juin_2012	T
+26l0l2	en_amont_du_site	L
+26l1l0	perchloroéthylène	S
+26l1l1	chlorure_de_vinyle	S
+
+#Les prélèvements d'air ambiant n'ont pas mis en évidence de présence de solvants dans les bâtiments.
+
+
+#Les résultats de la surveillance en décembre 2014 ont montré une diminution des concentrations en PCE mais une augmentation des concentrations en chlorure de vinyle sur le PZ1.
+
+28l0l0	la_surveillance	N
+28l0l1	en_décembre_2014	T
+28l1l0	PCE	S
+28l1l1	chlorure_de_vinyle	S
+28l1l2	le_PZ1	I
+
+#Le piézomètre PZ1, présentant les teneurs les plus élevées, est situé en amont hydraulique, en limite de l’ancien site exploité par BERGERAT MONNOYEUR, avec des teneurs significatives en chlorure de vinyle : 1630 µg/l en juin 2014 et 638 µg/l en décembre 2014.
+
+29l0l0	Le_piézomètre_PZ1	O
+29l0l1	est_situé_en_amont_hydraulique	L
+29l0l2	en_limite_de_l__ancien_site	L
+29l0l3	exploité	N
+29l0l4	par_BERGERAT_MONNOYEUR	O
+29l0l5	des_teneurs	O
+29l0l6	en_juin_2014	T
+29l0l7	en_décembre_2014__	T
+29l1l0	BERGERAT_MONNOYEUR	I
+29l1l1	chlorure_de_vinyle	S
+
+#Le site BERGERAT MONNOYEUR est également suivi par l'inspection des installations classées (cf fiche BASOL n°94.0065).
+
+30l0l0	Le_site_BERGERAT_MONNOYEUR	O
+30l0l1	l__inspection_des_installations_classées	O
+30l1l0	Le_site_BERGERAT_MONNOYEUR	I
+
+#Le suivi de la qualité des eaux de la nappe est toujours réalisé semestriellement.
+
+31l0l0	Le_suivi_de	A
+31l0l1	la_qualité_des_eaux_de_la_nappe	O
+
+#Les résultats des analyses réalisées en 2016 et 2017 ont confirmé l'augmentation des concentrations des produits de dégradation du PCE et du TCE.
+
+32l0l0	analyses_réalisées	N
+32l0l1	en_2016_et_2017	T
+32l0l2	l__augmentation	N
+32l1l0	PCE	S
+32l1l1	TCE	S
+
+#Le piézomètre le plus impacté reste le PZ1, implanté en amont hydraulique du site.
+
+33l0l0	Le_piézomètre_le_plus_impacté	O
+33l0l1	implanté_en_amont_hydraulique_du_site	L
+33l1l0	PZ1	I

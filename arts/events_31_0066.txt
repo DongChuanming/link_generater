@@ -1,0 +1,180 @@
+
+#31.0066
+#La station-service TOTAL est localisée en bordure de la rocade Ouest de Toulouse dans la direction Sud-Nord (rocade intérieure) au niveau de l'Avenue du Groupe Morhange.
+
+0l0l0	La_station___service_TOTAL	O
+0l0l1	localisée_en_bordure_de_la_rocade_Ouest_de_Toulouse	L
+0l0l2	dans_la_direction_Sud_Nord___rocade_intérieure	L
+0l0l3	au_niveau_de_l__Avenue_du_Groupe_Morhange	L
+0l1l0	service_TOTAL	I
+
+#Son environnement proche est constitué par :
+
+1l0l0	Son_environnement_proche	O
+
+#- le Château de Purpan au Nord,
+
+2l0l0	le_Château_de_Purpan_au_Nord	L
+2l1l0	le_Château_de_Purpan	I
+
+#- l'Ecole Supérieure d'Agriculture de Purpan à l'Ouest,
+
+3l0l0	l__Ecole_Supérieure_d__Agriculture	O
+3l0l1	de_Purpan_à_l__Ouest	L
+3l1l0	Supérieure_d__Agriculture	I
+
+#- les jardins du Barry et le Zénith de Toulouse au Sud et à l'Est,
+
+4l0l0	jardins_du_Barry_et_le_Zénith_de_Toulouse	L
+4l0l1	au_Sud_et_à_l__Est	L
+
+#- le fleuve Garonne à environ 1,2km au nord-est du site,
+
+5l0l0	le_fleuve_Garonne	L
+5l0l1	à_environ_1_2_km_au_nord_est_du_site	L
+
+#- la rivière Le Touch à environ 1,7km à l'ouest du site.
+
+6l0l0	la_rivière_Le_Touch	L
+6l0l1	à_environ_1_7_km_à_l__ouest_du_site	L
+
+#Elle est équipée d'une installation de stockage de carburants de 21,6 m3 équivalents et d'une installation de stockage de GPL de 11,7 m3 .
+
+7l0l0	une_installation_de_stockage_de_carburants	O
+7l0l1	une_installation_de_stockage	O
+7l1l0	carburants	U
+7l1l1	stockage_de_GPL	U
+
+#La station-service "RELAIS ROCADE PURPAN" fait l'objet d'un récépissé de déclaration du 14 avril 2011 abrogeant les précédents récépissés.
+
+8l0l0	La_station__	O
+8l0l1	un_récépissé	O
+8l0l2	de_déclaration	N
+8l0l3	du_14_avril_2011	T
+8l0l4	abrogeant	N
+8l0l5	les_précédents_récépissés	O
+8l1l0	La_station___service	I
+8l1l1	RELAIS_ROCADE_PURPAN	I
+
+#Le 19 mars 2009, la Société TOTAL RAFFINAGE MARKETING a informé l'inspection des installation classées d'une pollution accidentelle provoquée par une fuite de gazole EXCELLIUM entre une cuve et le manifold de la station service.
+
+9l0l0	Le_19_mars_2009__	T
+9l0l1	la_Société_TOTAL	O
+9l0l2	RAFFINAGE_MARKETING	A
+9l0l3	a_informé	N
+9l0l4	l__inspection_des_installation_classées	O
+9l0l5	une_pollution_accidentelle	N
+9l0l6	provoquée_par_une	R
+9l0l7	fuite_de	N
+9l0l8	gazole_EXCELLIUM	O
+9l0l9	entre_une_cuve_et	L
+9l0l10	le_manifold	O
+9l1l0	la_Société_TOTAL_RAFFINAGE_MARKETING	I
+9l1l1	gazole_EXCELLIUM	I
+9l1l2	une_cuve	D
+
+#Le volume de la fuite serait d'environ 3 000L.
+
+
+#L'activité de la station se poursuit.
+
+11l0l0	L_	A
+11l0l1	la_station	O
+
+#En avril 2009, l'exploitant a transmis un premier diagnostic environnemental, basé sur des analyses de la qualité des eaux souterraines qui conclut :
+
+12l0l0	En_avril_2009__	T
+12l0l1	l__exploitant	O
+12l0l2	a_transmis	N
+12l0l3	un_premier_diagnostic_environnemental	N
+
+#- qu'une première pollution a eu lieu en 1998 (fuite de SP 98) qui a donné lieu à des travaux de dépollution entre 1998 et 2003 : travaux de pompage de la phase libre d'hydrocarbures et mise en place d'un suivi de la qualité des eaux souterraines à partir de mars 2003;
+
+13l0l0	une_première_pollution	O
+13l0l1	a_eu_lieu	N
+13l0l2	en_1998	T
+13l0l3	lieu_à	R
+13l0l4	des_travaux_de_dépollution	N
+13l0l5	entre_1998_et_2003	T
+13l0l6	travaux_de_pompage	N
+13l0l7	la_phase_libre_d__hydrocarbures	O
+13l0l8	mise_en_place_d__un	N
+13l0l9	suivi_de_la_qualité_des_eaux_souterraines	A
+13l0l10	partir_de_mars_2003	T
+13l1l0	SP_98	U
+13l1l1	hydrocarbures	S
+
+#- que les analyses des eaux souterraines effectuées en mars 2009 suite à la pollution accidentelle  montrent un impact très significatif en hydrocarbures et BTEX au niveau du piézomètre PZ4 (respectivement 39430µg/L et 256 µg/L pour des valeurs de référence de respectivement 1000µg/L et 1 µg/L ) et à un impact significatif en hydrocarbures au niveau d'autres piézomètres situés en aval hydraulique (PZ1,PZ6,PZ9,PZ15,PZ16).
+
+14l0l0	les_analyses_des_eaux_souterraines_effectuées	N
+14l0l1	en_mars_2009	T
+14l0l2	suite_à	R
+14l0l3	la_pollution_accidentelle	N
+14l0l4	montrent_un_impact	O
+14l0l5	piézomètres_situés_en_aval_hydraulique	L
+14l1l0	en_hydrocarbures_et_BTEX	S
+14l1l1	en_hydrocarbures	S
+
+#Des travaux de dépollution ont été réalisés par l'exploitant :
+
+15l0l0	Des_travaux_de_dépollution	N
+15l0l1	ont_été_réalisés	N
+15l0l2	l__exploitant	O
+
+#- de mars à octobre 2009 : pompage et écrémage de la phase libre d'hydrocarbures des eaux souterraines (119 litres de produit pur ont été récupérés), ceci afin de limiter les risques d'étalement de la pollution vers l'extérieur du site;
+
+16l0l0	de_mars_à_octobre_2009	T
+16l0l1	__pompage	N
+16l0l2	écrémage	N
+16l0l3	la_phase_libre_d__hydrocarbures	O
+16l0l4	vers_l__extérieur_du_site	L
+16l1l0	hydrocarbures	S
+
+#- de novembre 2009 à mai 2010 : excavation et évacuation  des terres polluées, terrassements et tris des terres extraites, soit au total 2300 tonnes.
+
+17l0l0	de_novembre_2009	T
+17l0l1	à_mai_2010	T
+17l0l2	__excavation	N
+17l0l3	évacuation___des_terres_polluées	O
+17l0l4	__terrassements	N
+17l0l5	des_terres_extraites	N
+
+#Les terres polluées ont été transférées auprès du Biocentre Occitanis à Graulhet (81);
+
+18l0l0	Les_terres_polluées	O
+18l0l1	ont_été_transférées	N
+18l0l2	auprès	R
+18l0l3	du_Biocentre_Occitanis	O
+18l0l4	Graulhet___81	L
+18l1l0	Biocentre_Occitanis	I
+
+#Dans le cadre de ces travaux, un dispositif de drainage et de pompage a été mis en place.
+
+19l0l0	Dans_le_cadre_de	R
+19l0l1	ces_travaux	N
+19l0l2	un_dispositif_de_drainage_et_de_pompage	O
+19l0l3	a_été_mis_en_place	N
+
+#Les derniers résultats d'analyses des eaux souterraines de janvier 2018 montrent :
+
+20l0l0	de_janvier_2018	T
+
+#- pour le benzène : une absence de détection depuis 2016 ou des teneurs proches du seuil de quantification,
+
+21l0l0	depuis_2016	T
+21l1l0	le_benzène	S
+
+#- pour les hydrocarbures : un impact sur 3 piézomètres avec des variations importantes des teneurs surtout sur la période 2012-2015.
+
+22l0l0	la_période_2012___2015	T
+22l1l0	hydrocarbures	S
+
+#Sur la campagne de janvier 2018, les valeurs sont comprises entre 1 470 et 10 000 µg/l pour une valeur de référence de 1 000 µg/l.
+
+23l0l0	campagne_de_janvier_2018__	T
+
+#Le puits impacté présent sur le terrain de la station service n'est plus utilisé.
+
+24l0l0	Le_puits_impacté	O
+24l0l1	la_station_service	O
+24l0l2	n__est_plus_utilisé	N

@@ -1,0 +1,234 @@
+
+#10.0023
+#La société CHROMETAL-GIDER SA, qui est implantée au sein de la zone industrielle La Marque, sur la commune de CHAVANGES, est spécialisée dans la fabrique d'articles funéraires et réalise le traitement de pièces pour le compte de la société Fonderie du Der.
+
+0l0l0	La_société_CHROMETAL	O
+0l0l1	__GIDER_SA	O
+0l0l2	implantée	N
+0l0l3	au_sein_de_la_zone_industrielle_La_Marque	L
+0l0l4	sur_la_commune_de_CHAVANGES__	L
+0l0l5	est_spécialisée_dans_la_fabrique_d__articles_funéraires	A
+0l0l6	réalise_le_traitement_de_pièces	A
+0l0l7	la_société_Fonderie_du_Der	O
+0l1l0	La_société_CHROMETAL___GIDER_SA	I
+0l1l1	la_société_Fonderie_du_Der	I
+
+#Les installations de traitement de surfaces de la société constituent le principal enjeu environnemental du site.
+
+1l0l0	Les_installations_de_traitement_de_surfaces	O
+1l0l1	la_société	O
+
+#Le site est inscrit dans la base de données BASOL :
+
+2l0l0	Le_site	O
+
+#- en application de la circulaire du 03/04/1996,
+
+3l0l0	03_04_1996	T
+
+#- et également en application de l'article 65 de l'arrêté ministériel du 02/02/1998.
+
+4l0l0	02_02_1998	T
+
+#Traitement de surface d'un volume total de cuve de 49 m3, qui effectue des dépôts électrolytiques de métaux (Ni, Cr, Cu).
+
+5l0l0	Traitement	N
+5l0l1	métaux	O
+5l1l0	cuve	D
+5l1l1	métaux	S
+5l1l2	Ni	S
+5l1l3	Cr	S
+5l1l4	Cu	S
+
+#Il s'agit d'une installation soumise à autorisation au titre de la réglementation des installations classées pour la protection de l'environnement.
+
+6l0l0	une_installation_soumise_à_autorisation	N
+6l0l1	au_titre_de	R
+6l0l2	la_réglementation_des_installations_classées_pour_la_protection_de_l__environnement	O
+
+#La société a été autorisée à exploiter par l'arrêté préfectoral n° 82-4281 du 6 octobre 1982, complété en 1998 et 2002 par des arrêtés préfectoraux complémentaires.
+
+7l0l0	La_société	O
+7l0l1	a_été_autorisée_à_exploiter	N
+7l0l2	l__arrêté_préfectoral	O
+7l0l3	6_octobre_1982	T
+7l0l4	en_1998_et_2002	T
+7l1l0	La_société	I
+
+#L'arrêté préfectoral complémentaire du 20 janvier 2009 est venu, ensuite, compléter et mettre à jour ces prescriptions.
+
+8l0l0	L__arrêté_préfectoral_complémentaire	O
+8l0l1	20_janvier_2009	T
+8l0l2	est_venu	N
+8l0l3	compléter	N
+8l0l4	mettre_à_jour	N
+8l0l5	ces_prescriptions	N
+
+#Le diagnostic initial et l'évaluation simplifiée des risques ont été demandés par arrêté préfectoral en date du 14/05/1998.
+
+9l0l0	Le_diagnostic_initial_et_l__évaluation_simplifiée_des_risques	N
+9l0l1	ont_été_demandés	N
+9l0l2	par	R
+9l0l3	arrêté_préfectoral	O
+9l0l4	en_date_du_14_05_1998__	T
+
+#N'ayant toujours pas reçu ces études le 3 mai 1999, l'inspection des installations classées a dressé procès-verbal et a proposé un arrêté préfectoral de mise en demeure qui a été signé le 14 mai 1999.
+
+10l0l0	N__ayant_toujours_pas_reçu_ces_études	N
+10l0l1	le_3_mai_1999__	T
+10l0l2	l__inspection_des_installations_classées	O
+10l0l3	a_dressé_procès_verbal	N
+10l0l4	a_proposé	N
+10l0l5	un_arrêté_préfectoral	O
+10l0l6	a_été_signé	N
+10l0l7	le_14_mai_1999__	T
+
+#Le diagnostic initial réalisé par le cabinet LISEC a été reçu le 21/07/1999.
+
+11l0l0	Le_diagnostic_initial_réalisé	N
+11l0l1	le_cabinet_LISEC	O
+11l0l2	a_été_reçu	N
+11l0l3	le_21_07_1999__	T
+11l1l0	le_cabinet_LISEC	I
+
+#Celui-ci fait état de plusieurs zones potentiellement polluées au droit du stockage des boues, du stockage des fûts, de la cuve de fioul, ainsi qu'au niveau du point de rejet dans le ruisseau de drainage.
+
+12l0l0	plusieurs_zones_potentiellement_polluées	O
+12l0l1	cuve_de_fioul	O
+12l0l2	qu__au_niveau_du_point_de_rejet_dans	R
+12l0l3	le_ruisseau_de_drainage	O
+12l1l0	cuve_de_fioul	U
+
+#Par courrier du 08/11/1999, des investigations complémentaires (prélèvements, analyses) ont été demandées par l'inspection des installations classées.
+
+13l0l0	du_08_11_1999	T
+13l0l1	__des_investigations_complémentaires	N
+13l0l2	prélèvements	N
+13l0l3	analyses___ont_été_demandées	N
+13l0l4	l__inspection_des_installations_classées	O
+
+#La phase B du diagnostic initial et l'évaluation simplifiée des risques ont fait l'objet d'une commande par l'industriel auprès du bureau d'études, suite à la demande formulée par l'inspection des installations classées le 01/03/2000.
+
+14l0l0	La_phase_B_du_diagnostic_initial	N
+14l0l1	l__évaluation_simplifiée_des_risques	N
+14l0l2	ont_fait_l__objet_d_	R
+14l0l3	une_commande	N
+14l0l4	l__industriel	O
+14l0l5	du_bureau_d__études	O
+14l0l6	suite_à	R
+14l0l7	la_demande_formulée	N
+14l0l8	l__inspection_des_installations_classées	O
+14l0l9	le_01_03_2000__	T
+
+#La phase B du diagnostic initial et l'évaluation simplifiée des risques ont été remises dans le courant du 1er trimestre 2001.
+
+15l0l0	La_phase_B	O
+15l0l1	du_diagnostic_initial	N
+15l0l2	l__évaluation_simplifiée_des_risques	N
+15l0l3	ont_été_remises	N
+15l0l4	dans_le_courant_du_1er_trimestre_2001	T
+
+#Un complément a été demandé par courrier du 22/03/2001.
+
+16l0l0	Un_complément	O
+16l0l1	a_été_demandé_par_courrier	N
+16l0l2	du_22_03_2001	T
+
+#Une réponse, reçue le 22/04/2001, a été examinée et a fait l'objet d'un courrier en date du 19/06/2001 indiquant les observations de l'inspection des installations classées sur les compléments fournis.
+
+17l0l0	reçue	N
+17l0l1	le_22_04_2001	T
+17l0l2	a_été_examinée	N
+17l0l3	en_date_du_19_06_2001	T
+
+#Le site est classé en classe 2, site à surveiller.
+
+18l0l0	Le_site	O
+
+#Suite à une visite, le 22/05/2001, l'inspection des installations classées a constaté des conditions d'exploitation des installations non satisfaisantes et pouvant conduire à une pollution de la nappe.
+
+19l0l0	Suite	R
+19l0l1	à_une_visite	N
+19l0l2	le_22_05_2001	T
+19l0l3	l__inspection_des_installations_classées	O
+19l0l4	a_constaté	N
+19l0l5	des_conditions	O
+19l0l6	une_pollution_de_la_nappe	L
+
+#L'inspection a alors proposé un arrêté préfectoral imposant notamment l'analyse des sédiments du ruisseau.
+
+20l0l0	un_arrêté_préfectoral	O
+20l0l1	imposant	N
+20l0l2	l__analyse	N
+20l0l3	sédiments	O
+
+#Cet arrêté a été signé le 29/10/2001.
+
+21l0l0	Cet_arrêté	O
+21l0l1	a_été_signé	N
+21l0l2	le_29_10_2001	T
+
+#Par arrêté du 05/09/2001, l'exploitant a en outre été mis en demeure de réaliser la surveillance des eaux souterraines.
+
+22l0l0	05_09_2001	T
+22l0l1	l__exploitant	O
+22l0l2	a_en_outre_été_mis_en_demeure	N
+22l0l3	surveillance_des_eaux_souterraines	A
+
+#Par courrier du 04/03/2002, un bureau d'étude a adressé une proposition portant sur les compléments à apporter à l'étude de sols et analyses des sédiments du ruisseau.
+
+23l0l0	04_03_2002	T
+23l0l1	un_bureau_d__étude	O
+23l0l2	a_adressé	N
+23l0l3	une_proposition	O
+23l0l4	sédiments	N
+
+#Par courrier du 24/11/2003, l'inspection des installations classées a demandé à l'exploitant de prendre connaissance des propositions faites par le bureau d'études, de vérifier qu'elles répondent complètement aux demandes formulées et de les faire réaliser dans les plus brefs délais.
+
+24l0l0	24_11_2003	T
+24l0l1	l__inspection_des_installations_classées	O
+24l0l2	le_bureau_d__études	O
+
+#Les résultats d'analyses et compléments demandés relatifs à la qualité des sédiments du ruisseau ont été reçus en mars 2005.
+
+25l0l0	Les_résultats	O
+25l0l1	ont_été_reçus	N
+25l0l2	en_mars_2005__	T
+
+#L'ESR réalisée classe le ruisseau en catégorie 1.
+
+
+#L'exploitant n'a encore lancé aucune        action suite à ces résultats.
+
+27l0l0	L__exploitant	O
+27l0l1	n__a_encore_lancé	N
+
+#Les résultats des analyses des eaux souterraines ont été transmis pour juillet 2001, décembre 2001, janvier 2003 (résultats donnés avec réserve étant donné que les échantillons ont été fournis au laboratoire un mois après prélèvement) et octobre 2004.
+
+28l0l0	Les_résultats_des_analyses_des_eaux_souterraines	O
+28l0l1	ont_été_transmis	N
+28l0l2	pour_juillet_2001___décembre_2001___janvier_2003	T
+28l0l3	mois	T
+28l0l4	après_prélèvement	N
+28l0l5	octobre_2004__	T
+
+#Depuis 2004, aucun résultat n'a été fourni par l'exploitant.
+
+29l0l0	Depuis_2004__	T
+29l0l1	l__exploitant	O
+
+#Ce dernier justifie cela par des difficultés d'accès au point de prélèvement.
+
+
+#Il a été relancé sur le sujet suite à la dernière visite d'inspection et certains résultats ont été communiqués en 2007.
+
+31l0l0	a_été_relancé	N
+31l0l1	sur	R
+31l0l2	le_sujet	O
+31l0l3	suite_à	R
+31l0l4	la_dernière_visite_d__inspection	N
+31l0l5	ont_été_communiqués	N
+31l0l6	en_2007__	T
+
+#Résultats 2009, pas d'impact réel.
+

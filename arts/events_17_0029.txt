@@ -1,0 +1,165 @@
+
+#17.0029
+#L’établissement ALSTOM d'Aytré fait partie de la division « ALSTOM Transport » dont les activités concernent les matériels de transports, de signalisation et d’automatismes ferroviaires.
+
+0l0l0	L__établissement	N
+0l0l1	Aytré_fait_partie_de_la	O
+0l0l2	division___ALSTOM	N
+0l0l3	Transport	R
+0l0l4	__dont_les	N
+0l0l5	activités	O
+0l0l6	concernent_les_matériels_de_transports	A
+0l0l7	ferroviaires__	O
+
+#Sur le site d’Aytré, ALSTOM fabrique des matériels roulants ferroviaires, essentiellement de 2 types :
+
+1l0l0	Sur_le_site_d__Aytré___ALSTOM	O
+1l0l1	fabrique	L
+1l0l2	des_matériels	R
+1l0l3	roulants_ferroviaires__	O
+1l0l4	essentiellement_de_2_types__	A
+1l1l0	Aytré___ALSTOM_fabrique	I
+1l1l1	ferroviaires___essentiellement	I
+
+#- Voitures de TGV- LGV: production principale du site
+
+2l0l0	Voitures_de_TGV__LGV	L
+2l0l1	_	O
+2l0l2	production	A
+2l0l3	principale_du_site	O
+2l1l0	LGV___production	I
+
+#- Tramways (Citadis)
+
+3l1l0	Tramways___Citadis__	I
+
+#Le site d’Aytré regroupe différents savoir-faire liés à la construction de matériels ferroviaires.
+
+
+#Les installations intéressant la réglementation sur les ICPE et générant des potentiels de nuisances et de dangers vis à vis du voisinage et du milieu environnant, sont essentiellement composées des activités de traitement de surfaces, de l’application de peinture et dans une moindre mesure les installations connexes du type chaufferie, installations de compression ou de réfrigération.
+
+5l0l0	Les_installations	O
+5l0l1	sur_les	R
+5l0l2	ICPE_et_générant_des_potentiels_de_nuisances	O
+
+#Suite à l'installation d'un réseau de piézomètres, la surveillance des eaux souterraines mise en place par l'exploitant a permis de détecter une pollution localisée de la nappe superficielle par des hydrocarbures.
+
+6l0l0	Suite_à_l__installation_d__un_réseau_de_piézomètres	O
+6l0l1	surveillance	O
+6l0l2	des_eaux	N
+6l0l3	souterraines_mise_en_place	O
+6l0l4	une_pollution_localisée	O
+6l0l5	hydrocarbures__	A
+
+#Des cuves de stockages de fuel enterrées, qui ont été démantelées depuis de nombreuses années, seraient à l'origine de cette pollution qui était localisée sur 2 zones limitées de l'usine (autour de MW4 et MW8).
+
+7l0l0	Des_cuves	R
+7l0l1	de_stockages_de	N
+7l0l2	fuel_enterrées___qui_ont_été	O
+7l0l3	démantelées_depuis_de_nombreuses_années	A
+7l0l4	__seraient	N
+7l0l5	à_l__origine_de_cette	O
+7l0l6	pollution_qui_était	N
+7l0l7	localisée_sur_2_zones_limitées	N
+7l0l8	et_MW8____	O
+7l1l0	et_MW8____	S
+
+#L'objectif pour l'exploitant a donc été d'éviter la migration de ces hydrocarbures à l'extérieur du site et de récupérer le maximum d'hydrocarbures.
+
+8l0l0	L__objectif_pour_l__exploitant_a_donc_été	O
+8l0l1	éviter_la_migration	N
+8l0l2	de_ces	N
+8l0l3	hydrocarbures_à_l__extérieur	T
+8l0l4	récupérer_le_maximum_d_	O
+8l0l5	hydrocarbures__	R
+8l1l0	L__objectif	D
+8l1l1	pour_l__exploitant_a_donc_été	U
+
+#Un dispositif d'écrémage de la nappe avec la réalisation d'un réseau de piézomètres complémentaires a donc été installé sur le site dès 2005 permettant de récupérer la phase flottante.
+
+9l0l0	Un_dispositif	O
+9l0l1	écrémage_de_la	O
+9l0l2	réseau_de_piézomètres	O
+9l0l3	complémentaires_a_donc	L
+9l0l4	dès_2005_permettant	O
+9l1l0	de_piézomètres	S
+
+#L'épaisseur de la phase flottante dans les piézomètres a atteint jusqu'à 2m au moment des premiers pompages (avec rabattement de la nappe).
+
+10l0l0	L__épaisseur_de	O
+10l0l1	les_piézomètres_a	N
+10l0l2	atteint_jusqu__à_2_m_au_moment_des_premiers	O
+10l0l3	pompages___avec_rabattement	N
+10l0l4	de_la	L
+10l0l5	nappe____	T
+
+#Dans un premier temps, l'écrémage de la nappe était effectué chaque semaine, puis toutes les 2 semaines depuis l'automne 2008 jusqu'en avril 2009.
+
+11l0l0	était_effectué	O
+11l0l1	chaque	N
+11l0l2	puis_toutes	T
+11l0l3	les_2_semaines_depuis	N
+11l0l4	automne_2008	N
+11l0l5	jusqu__en_avril	L
+
+#es volumes de polluants recueillis ont diminué au fur et à mesure et les surnageants récupérés au départ très concentrés sont devenus de plus en plus dilués (émulsion).
+
+12l0l0	polluants_recueillis	N
+12l0l1	ont_diminué	O
+12l0l2	au_fur_et_à_mesure	N
+12l0l3	surnageants_récupérés_au_départ	T
+12l0l4	très_concentrés_sont	T
+12l0l5	devenus_de_plus_en_plus_dilués___émulsion____	T
+
+#Grâce à ce dispositif, ce sont plus de 1 200 litres de flottants en hydrocarbures qui ont été récupérés.
+
+13l0l0	hydrocarbures_qui	O
+13l0l1	ont_été_récupérés__	N
+13l1l0	dispositif___ce	U
+13l1l1	hydrocarbures_qui	U
+
+#Le niveau de surnageants a été réduit très sensiblement (niveau résiduel <10 cm sur les 2 zones).
+
+14l0l0	résiduel___10_cm	O
+14l0l1	les_2_zones____	N
+14l1l0	résiduel___10_cm	S
+
+#Ce dispositif de traitement assez onéreux (coût évalué à 50 k€ par an) a été suspendu en raison de sa moindre efficacité et grâce au niveau de pollution résiduelle obtenue (seuls 3 piézomètres sur les 15 surveillés présentent dorénavant des concentrations supérieures à 2 et inférieures à 12 mg/l).
+
+15l0l0	Ce_dispositif_de_traitement	O
+15l0l1	assez_onéreux	N
+15l1l0	dispositif_de_traitement	U
+
+#Des dispositifs de traitements complémentaires sont en cours d'évaluation (avec bilans coûts/avantages),sachant que dans un premier temps, la surveillance piézomètrique sera maintenue pour suivre l'évolution de la qualité de la nappe notamment en aval hydraulique.
+
+16l0l0	Des_dispositifs_de_traitements	O
+16l0l1	évaluation___avec	N
+
+#Dès 2006, un recensement des puits situés en aval hydraulique du site a été effectué par l'exploitant et 8 échantillons d'eau souterraine prélevés dans ces ouvrages ont permis de vérifier que les teneurs en hydrocarbures étaient inférieures à la limite de quantification du laboratoire.
+
+17l0l0	Dès_2006___un_recensement_des_puits_situés_en_aval_hydraulique	O
+17l0l1	eau_souterraine	T
+17l0l2	prélevés	O
+17l0l3	dans_ces_ouvrages_ont_permis_de	O
+17l0l4	limite_de_quantification	L
+
+#A noter que la surveillance de la nappe autour du site d'Alstom a permis de détecter une pollution en amont hydraulique du site provenant a priori d'anciennes activités de fabrication de peintures réalisées  dans cette zone d'activités avec la présence de COHV (notamment chlorure vinyle: 35 microgrammes/l).
+
+18l0l0	A_noter_que	T
+18l0l1	la_surveillance_de_la	N
+18l0l2	nappe_autour_du_site_d__Alstom_a_permis	L
+18l0l3	de_détecter_une	N
+18l0l4	pollution_en_amont	O
+18l0l5	anciennes_activités	O
+18l1l0	réalisées___dans_cette_zone	S
+
+#Suite à la campagne d'octobre 2010 (basse eaux), un écrémage a été réalisé ,sur une partie du site, dans le courant de l'hiver par ALSTROM.
+
+19l0l0	campagne_d__octobre	A
+19l0l1	2010__	O
+19l0l2	basse_eaux_____un	L
+19l0l3	écrémage_a	O
+19l0l4	été_réalisé	R
+19l0l5	__sur_une_partie_du_site	O
+19l0l6	__dans_le_courant_de_l__hiver_par	L
+19l1l0	écrémage_a	I

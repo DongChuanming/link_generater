@@ -1,0 +1,321 @@
+
+#18.0017
+#Le site, d'une superficie de 12 400 mètres, est situé sur le territoire de la commune de Chârost.
+
+0l0l0	Le_site	O
+0l0l1	est_situé_sur_le_territoire_de_la_commune_de_Chârost	L
+
+#En premier lieu, il a été exploité pour le stockage de charbon et d'hydrocarbures.
+
+1l0l0	a_été_exploité	N
+1l0l1	le_stockage_de_charbon	A
+1l1l0	charbon	U
+1l1l1	hydrocarbures	S
+
+#La société PRECITUBE s'y est installée en 1963.
+
+2l0l0	La_société_PRECITUBE	O
+2l0l1	s__y_est_installée	N
+2l0l2	en_1963__	T
+2l1l0	La_société_PRECITUBE	I
+
+#Depuis, l'activité principale exercée est la fabrication de tubes métalliques de précision.
+
+3l0l0	Depuis	T
+3l0l1	l__activité_principale_exercée	A
+3l0l2	la_fabrication_de_tubes_métalliques_de_précision	A
+
+#Une extension des bâtiments a été effectuée en 1980.
+
+4l0l0	Une_extension_des_bâtiments	O
+4l0l1	a_été_effectuée	N
+4l0l2	en_1980	T
+
+#Les activités de la société PRECITUBE ont été reprises par le groupe SANDVIK en 1996.
+
+5l0l0	Les_activités_de	A
+5l0l1	la_société_PRECITUBE	O
+5l0l2	ont_été_reprises	N
+5l0l3	le_groupe_SANDVIK	O
+5l0l4	en_1996	T
+5l1l0	la_société_PRECITUBE	I
+5l1l1	groupe_SANDVIK	I
+
+#L'Arnon s'écoule à 300 mètre à l'est du site.
+
+6l0l0	L__Arnon	L
+6l0l1	à_300_mètre_à_l__est_du_site	L
+
+#Une nappe, la nappe de l'Oxfordien, est présente au droit du site vers 16 mètres de profondeur.
+
+7l0l0	Une_nappe	O
+7l0l1	au_droit_du_site	L
+
+#Elle est vulnérable à une pollution provenant du site.
+
+
+#Elle s'écoule selon deux directions privilégiées : est-sud-est et nord-ouest.
+
+9l0l0	deux_directions_privilégiées	O
+9l0l1	est_sud_est	O
+9l0l2	nord_ouest	L
+
+#Deux captages destinés à l'alimentation en eau potable (AEP) sont recensés à environ 1 kilomètre au nord-est de l'usine.
+
+10l0l0	Deux_captages	O
+10l0l1	destinés_à	R
+10l0l2	l__alimentation_en_eau_potable	A
+10l0l3	recensés	N
+10l0l4	à_environ_1_kilomètre_au_nord_est_de_l__usine	L
+
+#Dans le cadre du rachat de PRECITUBE par SANDVIK, des investigations au niveau du sous-sol ont été réalisées entre 1995 et 1998. 3 piézomètres, dont deux à l'extérieur du site, ont été mis en place.
+
+11l0l0	Dans_le_cadre	R
+11l0l1	du_rachat	N
+11l0l2	PRECITUBE	O
+11l0l3	SANDVIK	O
+11l0l4	__des_investigations	N
+11l0l5	au	L
+11l0l6	niveau_du_sous_sol	N
+11l0l7	ont_été_réalisées	N
+11l0l8	entre_1995_et_1998	T
+11l0l9	3_piézomètres	O
+11l0l10	deux	O
+11l0l11	à_l__extérieur_du_site	L
+11l0l12	ont_été_mis_en_place	N
+11l1l0	PRECITUBE	I
+11l1l1	SANDVIK	I
+
+#Les résultats des analyses ont mis en évidence :
+
+
+#- la présence de solvants chlorés et d'hydrocarbures dans les sols.
+
+13l1l0	solvants_chlorés	U
+13l1l1	hydrocarbures	S
+
+#- une contamination de la nappe s'écoulant à l'aplomb du site par des hydrocarbures et des composés organo-halogénés volatils (COHV),
+
+14l0l0	une_contamination	N
+14l0l1	la_nappe	O
+14l0l2	aplomb_du_site	L
+14l1l0	hydrocarbures	S
+14l1l1	composés_organo___halogénés_volatils	S
+14l1l2	COHV	S
+
+#- l'absence d'impact de cette pollution sur l'alimentation en eau potable de la commune.
+
+15l0l0	cette_pollution	O
+15l0l1	la_commune	O
+
+#Deux sources principales de pollution ont été trouvées :
+
+16l0l0	Deux_sources_principales_de_pollution	O
+16l0l1	ont_été_trouvées	N
+
+#- la zone de la cuve de décantation et du puits d'infiltration pour le trichloroéthylène,
+
+17l0l0	la_zone	O
+17l0l1	cuve_de_décantation	O
+17l1l0	la_cuve_de_décantation	U
+17l1l1	trichloroéthylène	S
+
+#- la zone de l'ancienne cuve de stockage de fuel pour les hydrocarbures.
+
+18l0l0	la_zone	O
+18l0l1	hydrocarbures	O
+18l1l0	cuve_de	D
+18l1l1	stockage_de_fuel	U
+18l1l2	hydrocarbures	S
+
+#Un écrémage de la nappe a été mis en place en 1997.
+
+19l0l0	Un	O
+19l0l1	écrémage	N
+19l0l2	la_nappe	O
+19l0l3	a_été_mis_en_place	N
+19l0l4	en_1997	T
+
+#En 1998, l'industriel a proposé des techniques de traitement.
+
+20l0l0	En_1998__	T
+20l0l1	l__industriel	O
+20l0l2	a_proposé	N
+20l0l3	des_techniques_de_traitement	O
+
+#Les objectifs de dépollution, ainsi que la réalisation d'un contrôle semestriel de la qualité des eaux souterraines, ont été imposés par arrêté préfectoral du 9 janvier 2001.
+
+21l0l0	Les_objectifs	O
+21l0l1	de_dépollution	N
+21l0l2	la_réalisation_d_	R
+21l0l3	un_contrôle_semestriel_de_la_qualité_des_eaux_souterraines	A
+21l0l4	ont_été_imposés	N
+21l0l5	par_arrêté_préfectoral	O
+21l0l6	9_janvier_2001	T
+
+#Des travaux de décontamination des eaux et des sols ont été engagés début 1999 par stripping et par venting, l'écrémage des hydrocarbures flottants dans les piézomètres est poursuivi.
+
+22l0l0	Des_travaux_de_décontamination	N
+22l0l1	eaux_et_des_sols	O
+22l0l2	ont_été_engagés	N
+22l0l3	début_1999	T
+22l0l4	stripping	N
+22l0l5	venting	N
+22l0l6	l__écrémage	N
+22l0l7	hydrocarbures	O
+22l0l8	les_piézomètres	O
+22l1l0	hydrocarbures	S
+
+#La pollution des eaux et des sols a baissé régulièrement entre 1999 et 2004. 2556 kg de COHV ont été extraits, 409 litres d'hydrocarbures flottants ont été récupéré.
+
+23l0l0	La	N
+23l0l1	pollution_des_eaux_et_des_sols	O
+23l0l2	a_baissé_régulièrement	N
+23l0l3	entre_1999_et_2004__	T
+23l0l4	2556_kg_de_COHV	O
+23l0l5	ont_été_extraits	N
+23l1l0	COHV	S
+23l1l1	hydrocarbures	S
+
+#Les teneurs en COHV ont diminué de 70 à 99 % selon les points de mesure.
+
+24l1l0	COHV	S
+
+#Il s’est avéré que depuis août 2001, les objectifs de depollution des eaux sur le piézomètre en aval du site ont été atteints, hormis une anomalie en juillet 2003 en trichloréthylène.
+
+25l0l0	depuis_août_2001__	T
+25l0l1	les_objectifs	O
+25l0l2	depollution	N
+25l0l3	des_eaux	O
+25l0l4	le_piézomètre	O
+25l0l5	en_aval_du_site	L
+25l0l6	ont_été_atteints	N
+25l0l7	une_anomalie	O
+25l0l8	en_juillet_2003	T
+25l1l0	trichloréthylène	S
+
+#En revanche les valeurs sont dépassées sur certains piézomètres à l'intérieur du site pour les hydrocarbures totaux et le trichloroéthylène.
+
+26l1l0	hydrocarbures_totaux	S
+26l1l1	le_trichloroéthylène	S
+
+#Par ailleurs le traitement a atteint ses limites d'efficacité en 2004 et a donc été démantelé.
+
+27l0l0	a_atteint	N
+27l0l1	ses_limites_d__efficacité	O
+27l0l2	en_2004	T
+27l0l3	a_donc_été_démantelé	N
+
+#Suite à ce traitement, une évaluation simplifiée des risques a été menée sur le site et rendue en mars 2006.
+
+28l0l0	Suite	R
+28l0l1	à_ce_traitement	N
+28l0l2	une_évaluation_simplifiée_des_risques	N
+28l0l3	a_été_menée	N
+28l0l4	le_site	O
+28l0l5	en_mars_2006__	T
+
+#Elle concluait à la nécessité de poursuivre le suivi des eaux souterraines.
+
+29l0l0	le_suivi_des_eaux_souterraines	A
+
+#Après l'arrêt du traitement, les teneurs en hydrocarbures dans les eaux souterraines ont augmenté jusqu'à fin 2007.
+
+30l0l0	Après_l__arrêt	N
+30l0l1	traitement	A
+30l0l2	les_teneurs	O
+30l0l3	hydrocarbures	O
+30l0l4	les_eaux_souterraines	O
+30l0l5	ont_augmenté	N
+30l0l6	jusqu__à_fin_2007__	T
+30l1l0	hydrocarbures	S
+
+#Les teneurs en tétrachloroéthylène ont diminué entre 2006 et 2008.
+
+31l0l0	ont_diminué	N
+31l0l1	entre_2006_et_2008__	T
+31l1l0	tétrachloroéthylène	S
+
+#Les concentrations en dichloroéthylène se sont stabilisées à partir de 2006 à une valeur supérieure à la valeur guide définie par l'OMS pour l'eau potable.
+
+32l0l0	se_sont_stabilisées	N
+32l0l1	à_partir_de_2006	T
+32l1l0	dichloroéthylène	S
+
+#Pour le chlorure de vinyle, les valeurs demeurent au dessus de la concentration limite définie dans l'arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine.
+
+33l0l0	au_dessus_de_la	L
+33l0l1	11_janvier_2007	T
+33l1l0	le_chlorure_de_vinyle	S
+
+#L'arrêté de janvier 2001 est abrogé par l'arrêté du 5 mars 2008 qui encadre la surveillance des eaux souterraines.
+
+34l0l0	L__arrêté_de	O
+34l0l1	janvier_2001	T
+34l0l2	l__arrêté	O
+34l0l3	5_mars_2008	T
+34l0l4	encadre	R
+34l0l5	la_surveillance_des_eaux_souterraines	A
+
+#En octobre 2008, une interprétation de l'état des milieux, exigée par l'arrêté préfectoral complémentaire n°2008.1.162 du 5 mars 2008, a été réalisée.
+
+35l0l0	En_octobre_2008__	T
+35l0l1	une_interprétation_de_l__état_des_milieux	O
+35l0l2	l__arrêté_préfectoral	O
+35l0l3	5_mars_2008__	T
+35l0l4	a_été_réalisée	N
+
+#Elle préconise la mise en place de 4 nouveaux piézomètres et la mesure de paramètres chimiques supplémentaires lors des analyses des eaux souterraines.
+
+36l0l0	4_nouveaux_piézomètres	O
+36l0l1	la_mesure_de_paramètres_chimiques	A
+36l0l2	des_analyses_des_eaux_souterraines	A
+
+#Les piézomètres ont été réalisés en 2009.
+
+37l0l0	Les_piézomètres	O
+37l0l1	ont_été_réalisés	N
+37l0l2	en_2009__	T
+
+#Une étude, sur les risques sanitaires encourus par les riverains vis à vis des composés volatils mis en évidence dans les eaux souterraines, a été remise en novembre 2010.
+
+38l0l0	Une_étude	N
+38l0l1	a_été_remise	N
+38l0l2	en_novembre_2010__	T
+
+#Les prélèvements montrent de très faibles concentrations en composés volatils, induisant des niveaux de risques pour les riverains acceptables.
+
+39l1l0	composés_volatils	S
+
+#L'étude conclue que les impacts liés à l'activité du site sont compatibles avec les usages existants en aval hydrogéologique du site.
+
+40l0l0	les_impacts	O
+40l0l1	activité_du_site	A
+40l0l2	en_aval_hydrogéologique	N
+40l0l3	du_site	L
+
+#Les concentrations en solvants chlorés et en hydrocarbures dans les eaux souterraines sont stables.
+
+41l1l0	solvants_chlorés	S
+41l1l1	hydrocarbures	S
+
+#Le suivis de la qualité des eaux souterraines se poursuit.
+
+42l0l0	Le_suivis_de_la_qualité_des_eaux_souterraines	A
+
+#Le 6 juillet 2012, a été signé par le préfet un l'APC n° 2012-DDCSPP-134, relatif à la surveillance pérenne des rejets de substances dangereuses dans le milieu aquatique.
+
+43l0l0	Le_6_juillet_2012__	T
+43l0l1	a_été_signé	N
+43l0l2	le_préfet	O
+43l0l3	un	N
+43l0l4	l__APC	O
+43l0l5	la_surveillance_pérenne	A
+43l0l6	rejets_de_substances_dangereuses	N
+43l1l0	le_préfet	I
+43l1l1	substances_dangereuses	U
+
+#Il est notamment question de mesure sur les concentration en Chrome, Nickel et leurs composé avec une fréquence trimestriel.
+
+44l1l0	Chrome	S
+44l1l1	Nickel	S

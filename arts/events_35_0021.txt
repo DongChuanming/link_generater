@@ -1,0 +1,265 @@
+
+#35.0021
+#La SARL Blanchet a été autorisée à exploiter une station service par arrêté préfectoral du 18 octobre 1991.
+
+0l0l0	La_SARL_Blanchet	O
+0l0l1	a_été_autorisée_à_exploiter	N
+0l0l2	une_station_service	O
+0l0l3	arrêté_préfectoral_du	O
+0l0l4	18_octobre_1991	T
+0l1l0	La_SARL_Blanchet	I
+
+#L'installation comporte :
+
+
+#- 3 réservoirs de 100 m3, simple enveloppe en fosse maçonnée,
+
+
+#- 1 réservoir de 50 m3, simple enveloppe enfoui,
+
+
+#- 2 réservoirs de 80 m3, double enveloppe enfouis.
+
+
+#Les produits distribués sont du gasoil, de super, de carburant auto et de GPL.
+
+5l0l0	carburant_auto	O
+5l1l0	gasoil	S
+5l1l1	super	S
+5l1l2	carburant_auto	U
+5l1l3	GPL	S
+
+#Un arrêté ministériel du 3 août 2001, applicable à la station service, prescrit la mise en place d'une surveillance des eaux souterraines en aval des installations à partir de piézomètres installés sur la base d'une étude hydrogéologique.
+
+6l0l0	Un_arrêté_ministériel	O
+6l0l1	du_3_août_2001__	T
+6l0l2	prescrit_la_mise_en_place_d_	N
+6l0l3	une_surveillance_des_eaux_souterraines	A
+6l0l4	en_aval_des_installations	L
+
+#L'arrêté préfectoral d'enregistrement du 6 septembre 2013 autorise la société TOTAL à exploiter la station service.
+
+7l0l0	L__arrêté_préfectoral_d__enregistrement	O
+7l0l1	6_septembre_2013	T
+7l0l2	autorise	N
+7l0l3	la_société_TOTAL	O
+7l0l4	exploiter	N
+7l0l5	la_station_service	O
+7l1l0	la_société_TOTAL	I
+
+#Depuis 2015, la station service relève du régime de la déclaration.
+
+8l0l0	Depuis_2015__	T
+8l0l1	la_station_service	O
+8l0l2	relève	R
+8l0l3	du_régime_de	A
+8l0l4	la_déclaration	N
+
+#Les investigations menées dans la cadre de l'étude hydrogéologique portent sur :
+
+9l0l0	Les_investigations_menées	N
+9l0l1	dans_la_cadre_de	R
+9l0l2	hydrogéologique	N
+
+#- les hydrocarbures totaux (HCT), les BTEX (benzène, toluène, éthylène, xylène) et la coupe pétrolière pour les sols,
+
+10l0l0	la_coupe_pétrolière	O
+10l1l0	les_hydrocarbures_totaux	S
+10l1l1	HCT	S
+10l1l2	les_BTEX	S
+10l1l3	benzène	S
+10l1l4	toluène	S
+10l1l5	éthylène	S
+10l1l6	xylène	S
+10l1l7	coupe_pétrolière	U
+
+#- les hydrocarbures totaux et les BTEX pour les eaux souterraines.
+
+11l1l0	les_hydrocarbures_totaux	S
+11l1l1	les_BTEX	S
+
+#Les investigations permettent de conclure en un faible impact de la station service sur les sols (présence d'hydrocarbures totaux dans 11 sondages) et un faible impact sur les eaux souterraines (présence d'hydrocarbures totaux dans un piézomètre).
+
+12l0l0	Les_investigations	N
+12l0l1	un_faible_impact	N
+12l0l2	la_station_service	O
+12l1l0	hydrocarbures_totaux	S
+12l1l1	hydrocarbures_totaux	S
+
+#Dans le cadre de l'arrêté ministériel du 3 août 2001, une campagne semestrielle des eaux souterraines est mise en place.
+
+13l0l0	Dans_le_cadre_de	R
+13l0l1	l__arrêté_ministériel	O
+13l0l2	3_août_2001__	T
+13l0l3	une_campagne_semestrielle	N
+13l0l4	eaux_souterraines	O
+13l0l5	est_mise_en_place	N
+
+#Les niveaux des eaux souterraines fluctuent en fonction de la saison : le niveau augmente en période de hautes eaux et il baisse en période de basses eaux.
+
+14l0l0	en_période	T
+14l0l1	de_hautes_eaux	O
+14l0l2	en_période	T
+14l0l3	de_basses_eaux	O
+
+#A partir d'avril 2005, la méthode d'analyse des HCT a changé; ce paramètre est exprimé en indice hydrocarbures (C10-C40).
+
+15l0l0	A_partir_d__avril_2005__	T
+15l1l0	HCT	S
+15l1l1	hydrocarbures	S
+15l1l2	C10_C40	S
+
+#A partir de novembre 2005, l'indice hydrocarbures (C5-C10) est également analysé.
+
+16l0l0	A	R
+16l0l1	partir_de_novembre_2005__	T
+16l1l0	hydrocarbures	S
+
+#Les différentes campagnes menées de mars 2003 à mars 2011 mettent en évidence :
+
+17l0l0	de_mars_2003_à_mars_2011	T
+
+#- la présence d'indices organoleptiques de type odeur d'hydrocarbures et quelques irisations dans le piézomètre 2 (amont) ;
+
+18l1l0	odeur_d_	U
+18l1l1	hydrocarbures	S
+
+#- des teneurs en HCT qui fluctuent (de 60 µg/l à 900 µg/l) de façon inconstantes dans le temps mais qui restent inférieures aux valeurs limites de qualité des eaux brutes utilisées pour la consommation humaine ;
+
+19l1l0	HCT	S
+
+#- une fluctuation des BTEX (pic en 2009, avec des concentrations en benzène supérieures à la valeur limites de qualité des eaux brutes utilisées pour la consommation humaine).
+
+20l0l0	en_2009__	T
+20l1l0	BTEX	S
+20l1l1	benzène	S
+
+#Le bilan quadriennal remis en janvier 2013 ne met pas en évidence d'impact de la station sur les eaux souterraines.
+
+21l0l0	Le_bilan_quadriennal	O
+21l0l1	remis	N
+21l0l2	en_janvier_2013	T
+
+#A cet effet, le suivi des eaux sera allégé à une fois par an pendant 4 ans.
+
+22l0l0	le_suivi_des_eaux	O
+22l0l1	sera_allégé	N
+22l0l2	fois_par_an	T
+22l0l3	pendant_4_ans	T
+
+#Un nouveau bilan quadriennal sera fournit.
+
+
+#Dans le cadre de la reprise d'activité en 2013 par la société TOTAL, l'ensemble de la station service va être réaménagée.
+
+24l0l0	Dans_le_cadre_de	R
+24l0l1	la_reprise_d__activité	N
+24l0l2	en_2013	T
+24l0l3	la_société_TOTAL	O
+24l0l4	l__ensemble_de_la_station_service	O
+24l0l5	va_être_réaménagée	N
+24l1l0	la_société_TOTAL	I
+
+#En raison des travaux de rénovation complète de la station, la campagne de surveillance des eaux souterraines n'a pas été réalisée en 2013.
+
+25l0l0	En_raison	R
+25l0l1	des_travaux_de_rénovation_complète	N
+25l0l2	la_station	O
+25l0l3	la_campagne_de_surveillance	N
+25l0l4	des_eaux_souterraines	A
+25l0l5	n__a_pas_été_réalisée	N
+25l0l6	en_2013__	T
+
+#Les travaux de modernisation de la station service, de septembre 2013 à janvier 2014, ont conduit à l'évacuation de plusieurs centaines de tonnes de terres polluées par des hydrocarbures ainsi que près de 60 tonnes de bétons impactés par des hydrocarbures.
+
+26l0l0	Les_travaux_de	N
+26l0l1	modernisation_de_la_station_service	O
+26l0l2	de_septembre_2013_à_janvier_2014__	T
+26l0l3	ont_conduit_à_l__évacuation	N
+26l0l4	centaines_de_tonnes_de_terres_polluées	O
+26l0l5	par	R
+26l0l6	des_hydrocarbures	O
+26l0l7	60_tonnes_de_bétons_impactés	O
+26l0l8	par	R
+26l0l9	des_hydrocarbures	O
+26l1l0	hydrocarbures	S
+26l1l1	hydrocarbures	S
+
+#A l'issue de ces travaux, des pollutions résiduelles sont restées en place : terres impactées par des hydrocarbures C5-C40 (essentiellement C10-C40) et en BTEX, non délimitées verticalement et horizontalement.
+
+27l0l0	ces_travaux	N
+27l0l1	des_pollutions_résiduelles	O
+27l0l2	sont_restées_en_place	N
+27l0l3	terres_impactées	O
+27l1l0	hydrocarbures_C5_C40	S
+27l1l1	C10_C40__	S
+27l1l2	BTEX	S
+
+#Le schéma conceptuel réalisé à la suite des travaux, pour un usage station service, démontre l'absence de risque pour les usagers du site et les population hors site.
+
+28l0l0	Le_schéma_conceptuel	O
+28l0l1	réalisé	N
+28l0l2	à_la_suite	R
+28l0l3	des_travaux	N
+28l0l4	un_usage_station_service	O
+28l0l5	les_usagers_du_site	O
+
+#3 nouveaux piézomètres ont été réalisés et la campagne de mars 2014 met en évidence :
+
+29l0l0	3_nouveaux_piézomètres	O
+29l0l1	ont_été_réalisés	N
+29l0l2	la_campagne	N
+29l0l3	de_mars_2014	T
+
+#- l'absence de phase organique libre à la surface des eaux souterraines,
+
+
+#- un impact par des hydrocarbures C5-C40 et des BTEX en aval hydraulique.
+
+31l0l0	un_impact	O
+31l0l1	en_aval_hydraulique	L
+31l1l0	des_hydrocarbures_C5_C40	S
+31l1l1	des_BTEX	S
+
+#Cet impact peut être du à la remobilisation des polluants dans les eaux lors des travaux,
+
+32l0l0	la_remobilisation	N
+32l0l1	des_travaux	N
+
+#- l'absence d'impact en latéral hydraulique.
+
+
+#Le suivi des eaux souterraines est donc maintenu.
+
+34l0l0	Le_suivi_des_eaux_souterraines	A
+
+#Les résultats de la surveillance des eaux souterraines d'avril 2016 mettent en évidence:
+
+35l0l0	surveillance_des_eaux_souterraines	A
+35l0l1	avril_2016	T
+
+#- l'absence de phase organique libre à la surface des eaux souterraines,
+
+
+#- au niveau du piézomètre aval : un impact en hydrocarbures C5-C40, en benzène, en éthylbenzène, en xylène
+
+37l0l0	aval	L
+37l0l1	un_impact	N
+37l1l0	hydrocarbures_C5_C40	S
+37l1l1	benzène	S
+37l1l2	éthylbenzène	S
+37l1l3	xylène	S
+
+#- au niveau des piézomètre en amont et latéral : des traces en hydrocarbures C5-C40.
+
+38l1l0	hydrocarbures_C5_C40	S
+
+#Le schéma conceptuel réalisé sur la base d'un usage de station-service a mis en évidence l'absence de risques pour les usagers du site et la population hors site.
+
+39l0l0	Le_schéma_conceptuel	O
+39l0l1	réalisé	N
+39l0l2	sur_la_base_d_	R
+39l0l3	un_usage_de_station___service	A
+39l0l4	a_mis_en_évidence	R
+39l0l5	l__absence_de_risques_pour	R
+39l0l6	les_usagers_du_site	O

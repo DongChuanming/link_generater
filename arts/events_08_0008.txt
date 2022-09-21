@@ -1,0 +1,325 @@
+
+#08.0008
+#La société Métal Blanc est une unité de deuxième fusion de plomb et d'affinage.
+
+0l0l0	La_société_Métal	O
+0l0l1	une_unité	O
+0l1l0	La_société_Métal_Blanc	I
+
+#Une pollution des sols autour de l'usine par du plomb a été relevée sur une profondeur de 10 cm.
+
+1l0l0	Une_pollution_des_sols	O
+1l0l1	autour_de_l__usine	L
+1l0l2	a_été_relevée	N
+1l1l0	plomb	S
+
+#Les teneurs en plomb au sol sont comprises entre 212 et 945 mg/kg de matières sèches.
+
+2l1l0	plomb	S
+
+#Le cours d'eau, La Murée, situé en aval du site contient des sédiments fortement chargés en plomb, cadmium et arsenic.
+
+3l0l0	Le_cours_d__eau	O
+3l0l1	La_Murée	L
+3l0l2	situé_en_aval_du_site	L
+3l1l0	plomb	S
+3l1l1	cadmium	S
+3l1l2	arsenic	S
+
+#Le site comporte également une zone de remblais présentant des teneurs importantes en métaux lourds dont le plomb.
+
+4l0l0	Le_site	O
+4l0l1	comporte	R
+4l0l2	une_zone_de_remblais	N
+4l1l0	métaux_lourds	S
+4l1l1	plomb	S
+
+#Le site figure dans la base de données BASOL en application de la circulaire d'avril 1996 et il est également soumis à l'application de l'article 65 du 2 février 1998 concernant la surveillance de la qualité des eaux souterraines.
+
+5l0l0	Le_site	O
+5l0l1	avril_1996	T
+5l0l2	soumis_à	R
+5l0l3	l_	O
+5l0l4	surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#Un décapage sur une épaisseur de 10 cm des sols, identifiées dans le cadre d'un diagnostic approfondi réalisé par ANTEA et contenant plus de 500 mg de plomb par kg de matières sèches, a été effectué dans les jardins attenant à des habitations en mai 2000.
+
+6l0l0	Un_décapage	N
+6l0l1	identifiées	O
+6l0l2	dans_le_cadre_d_	R
+6l0l3	un_diagnostic_approfondi	N
+6l0l4	réalisé	N
+6l0l5	ANTEA	O
+6l0l6	a_été_effectué	N
+6l0l7	dans_les_jardins_attenant_à_des_habitations	L
+6l0l8	en_mai_2000__	T
+6l1l0	ANTEA	I
+6l1l1	plomb	S
+
+#L'étude sur les sédiments de la Murée effectuée par ANTEA en collaboration avec les professeurs PROST de l'Institut National de Recherche Agronomique (INRA) et HAGUENOER du laboratoire de toxicologie de la faculté de médecine de Lille, spécialiste des toxicités au plomb, a conclu qu'il n'était pas souhaitable de procéder à l'enlèvement de ces sédiments pour deux raisons essentielles:
+
+7l0l0	sédiments	O
+7l0l1	la_Murée	O
+7l0l2	effectuée	N
+7l0l3	ANTEA	O
+7l0l4	l__Institut_National_de_Recherche_Agronomique___INRA	O
+7l0l5	ces_sédiments	O
+7l1l0	ANTEA	I
+7l1l1	les_professeurs_PROST	I
+7l1l2	National_de_Recherche_Agronomique	I
+7l1l3	HAGUENOER	I
+7l1l4	plomb	S
+
+#- risque de remobilisation des métaux contenus dans les sédiments au contact de l'air,
+
+8l0l0	remobilisation	N
+8l0l1	métaux	O
+8l1l0	métaux	S
+
+#- source pérenne de pollution au plomb en amont du site METAL BLANC, non encore identifiée à ce jour.
+
+9l0l0	source_pérenne_de_pollution_au_plomb	O
+9l0l1	en_amont_du_site	L
+9l0l2	METAL_BLANC	O
+9l0l3	encore_identifiée	N
+9l0l4	à_ce_jour	T
+9l1l0	plomb	S
+9l1l1	METAL_BLANC	I
+
+#Une étude sur le confinement des remblais a été remise à l'inspection des installations classées en septembre 2000.
+
+10l0l0	remblais	O
+10l0l1	a_été_remise	N
+10l0l2	en_septembre_2000__	T
+
+#Le confinement des remblais a été entrepris en août 2001.
+
+11l0l0	Le_confinement_des_remblais	O
+11l0l1	a_été_entrepris	N
+11l0l2	en_août_2001	T
+
+#Lors de la visite d'inspection du 23 avril 2002, il a été constaté que les travaux de confinement n'étaient pas complétement terminés (couverture non réalisée).
+
+12l0l0	Lors	T
+12l0l1	de_la_visite_d__inspection	N
+12l0l2	23_avril_2002__	T
+12l0l3	les_travaux_de_confinement	N
+12l0l4	pas_complétement_terminés	N
+
+#Une évaluation détaillée des risques sanitaires sur la population locale, réalisée par ANTEA et remise à l'inspection des installations classées en septembre 2000, démontre que les mesures prises en matière de décontamination des sols sont adaptées aux risques et diminuent très sensiblement la probabilité d'occurence de plombémie.
+
+13l0l0	Une_évaluation_détaillée_des_risques_sanitaires	N
+13l0l1	ANTEA	O
+13l0l2	l__inspection_des_installations_classées	O
+13l0l3	en_septembre_2000__	T
+13l0l4	décontamination	N
+13l0l5	sols	O
+13l1l0	ANTEA	I
+13l1l1	plombémie	S
+
+#Une diminution importante en 1999 et 2000 des retombées de poussières et par conséquent de plomb, dans l'environnement, a été constatée au niveau du préleveur automatique installé dans le centre de Bourg-Fidèle et des 4 jauges de sédimentation présentes dans la périphérie du site, suite au traitement des émissions canalisées.
+
+14l0l0	Une_diminution_importante	N
+14l0l1	en_1999_et_2000	T
+14l0l2	dans_le_centre_de_Bourg_Fidèle	L
+14l0l3	4_jauges_de_sédimentation	O
+14l0l4	dans_la_périphérie_du_site	L
+14l0l5	au	N
+14l0l6	traitement_des_émissions_canalisées	O
+14l1l0	plomb	S
+
+#En 2001, plusieurs anomalies de fonctionnement ont entraîné une augmentation sensible des rejets atmosphèriques.
+
+15l0l0	En_2001__	T
+15l0l1	une_augmentation_sensible	N
+15l0l2	rejets_atmosphèriques	N
+
+#Les travaux d'assainissement des ateliers prévus en 2000 et 2001 ont été réalisés.
+
+16l0l0	Les_travaux_d__assainissement	N
+16l0l1	des_ateliers	O
+16l0l2	en_2000_et_2001	T
+16l0l3	ont_été_réalisés	N
+
+#Les premières mesures effectuées après ces travaux n'ont pas permis de constater une amélioration sensible des rejets diffus dans les ateliers.
+
+17l0l0	Les_premières_mesures	N
+17l0l1	effectuées_après_ces_travaux	N
+
+#Le capteur installé dans l'environnement de l'usine a été déplacé au début de l'année 2001 et implanté à proximité de l'établissement sous les vents dominants.
+
+18l0l0	Le_capteur	O
+18l0l1	installé	N
+18l0l2	dans_l__environnement_de_l__usine	L
+18l0l3	a_été_déplacé	N
+18l0l4	au_début_de_l__année_2001	T
+18l0l5	et	R
+18l0l6	implanté	N
+18l0l7	à_proximité_de_l__établissement_sous_les_vents_dominants	L
+
+#Il est donc difficile de comparer les résultats enregistrés en 2001 avec ceux des années précédentes.
+
+19l0l0	en_2001	T
+
+#La nappe d'accompagnement de la Murée située sous les remblais est aussi polluée par les métaux lourds, mais n'est pas en liaison avec la nappe d'alimentation des puits et forages du village de Bourg-Fidèle.
+
+20l0l0	La_nappe_d__accompagnement	O
+20l0l1	de_la_Murée_située_sous_les_remblais	L
+20l0l2	est_aussi_polluée	N
+20l0l3	la_nappe	O
+20l0l4	forages	A
+20l0l5	du_village_de_Bourg_Fidèle	L
+20l1l0	métaux_lourds	S
+
+#Sur proposition de l'inspection des installations classées, le préfet a prescrit par arrêté complémentaire du 19 décembre 2002 la consolidation de la couverture finale des remblais comportant des déchets dangereux.
+
+21l0l0	l__inspection_des_installations_classées	O
+21l0l1	le_préfet	O
+21l0l2	a_prescrit	N
+21l0l3	par_arrêté_complémentaire	O
+21l0l4	du_19_décembre_2002	T
+21l0l5	la_consolidation	N
+21l0l6	la_couverture_finale	O
+21l0l7	remblais	N
+21l1l0	le_préfet	I
+21l1l1	des_déchets_dangereux	U
+
+#Les travaux correspondants devront être exécutés avant le 31 décembre 2006.
+
+22l0l0	Les_travaux_correspondants	O
+22l0l1	exécutés	N
+22l0l2	avant_le_31_décembre_2006__	T
+
+#Par ailleurs, ce même arrêté préfectoral modifie la surveillance des eaux superficielles en prescrivant la réalisation de prélèvements hebdomadaires dans la Murée.
+
+23l0l0	ce_même_arrêté_préfectoral	O
+23l0l1	modifie	N
+23l0l2	la_surveillance_des_eaux_superficielles	A
+23l0l3	en_prescrivant	R
+23l0l4	la_réalisation_de_prélèvements_hebdomadaires	A
+23l0l5	dans_la_Murée	L
+
+#Une visite du site a eu lieu le 26 novembre 2003.
+
+24l0l0	Une_visite	N
+24l0l1	site	O
+24l0l2	a_eu_lieu	N
+24l0l3	le_26_novembre_2003	T
+
+#A la date du 8 décembre 2003, les résultats de la surveillance de la qualité des eaux souterraines pour les trois premiers trimestres ont bien été communiqués par l'exploitant.
+
+25l0l0	A_la_date_du_8_décembre_2003__	T
+25l0l1	les_résultats_de_la_surveillance_de_la_qualité_des_eaux_souterraines	A
+25l0l2	pour_les_trois_premiers_trimestres	T
+25l0l3	ont_bien_été_communiqués	N
+25l0l4	l__exploitant	O
+
+#Le 30 mars 2004, le bilan des mesures 2003 des retombées atmosphériques, réalisées au niveau du préleveur automatique a été communiqué à l'inspection des installations classées.
+
+26l0l0	Le_30_mars_2004__	T
+26l0l1	le_bilan_des_mesures_2003	T
+26l0l2	préleveur_automatique	O
+26l0l3	a_été_communiqué	N
+26l0l4	l__inspection_des_installations_classées	O
+
+#Les résultats mettent en évidence une amélioration par rapport à 2002.
+
+27l0l0	2002	T
+
+#Les résultats de la surveillance de la qualité des eaux souterraines relatifs aux trois premiers trimestres 2004 ont été transmis à l'inspection des installations classées en octobre.
+
+28l0l0	Les_résultats_de	O
+28l0l1	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+28l0l2	relatifs	R
+28l0l3	aux_trois_premiers_trimestres_2004	T
+28l0l4	ont_été_transmis	N
+28l0l5	l__inspection_des_installations_classées	O
+28l0l6	en_octobre__	T
+
+#Les résultats pour l'année 2003 ont tous été transmis à l'inspection.
+
+29l0l0	l_	N
+29l0l1	année_2003	T
+29l0l2	ont_tous_été_transmis	N
+
+#L'exploitant a sollicité l'avis de l'inspection sur deux propositions de confinement des remblais au mois de juillet 2004.
+
+30l0l0	L__exploitant	O
+30l0l1	l__inspection	O
+30l0l2	deux_propositions_de_confinement	O
+30l0l3	remblais	O
+30l0l4	au_mois_de_juillet_2004__	T
+
+#Le dossier communiqué a été examiné : des compléments ont été demandés par courrier en date du 17 août 2004.
+
+31l0l0	a_été_examiné	N
+31l0l1	des_compléments	O
+31l0l2	ont_été_demandés	N
+31l0l3	par_courrier	N
+31l0l4	en_date_du_17_août_2004__	T
+
+#Par transmission en date du 30 novembre reçue le 16 décembre 2004, la société chargée de l'élaboration du dossier technique de confinement des remblais a transmis certains éléments de réponse à l'inspection des installations classées.
+
+32l0l0	Par_transmission	N
+32l0l1	en_date_du_30_novembre_reçue	T
+32l0l2	le_16_décembre_2004__	T
+32l0l3	la_société	O
+32l0l4	remblais	O
+32l0l5	a_transmis	N
+32l0l6	certains_éléments_de_réponse	O
+32l0l7	l__inspection_des_installations_classées	O
+
+#Ce sujet a pu d'ailleurs être également discuté lors de la visite d'inspection du 14 décembre 2004.
+
+33l0l0	la_visite	N
+33l0l1	14_décembre_2004__	T
+
+#Cependant, les éléments fournis nécessitent de nouveau des compléments.
+
+
+#L'inspection a donc fait part à la société METAL BLANC de ses remarques le 17 janvier 2005.
+
+35l0l0	la_société_METAL_BLANC	O
+35l0l1	le_17_janvier_2005__	T
+35l1l0	la_société_METAL_BLANC	I
+
+#La société a complété sa proposition fin mai 2005.
+
+36l0l0	La_société	O
+36l0l1	a_complété	N
+36l0l2	sa_proposition	O
+36l0l3	fin_mai_2005__	T
+
+#Suite à l'examen de ces nouveaux éléments, l'inspection des installations classées a donné un avis favorable, début avril 2005, à la mise en place du confinement des remblais.
+
+37l0l0	Suite_à	R
+37l0l1	l__examen	N
+37l0l2	l__inspection_des_installations_classées	O
+37l0l3	a_donné	N
+37l0l4	un_avis_favorable	O
+37l0l5	début_avril_2005__	T
+37l0l6	la_mise_en_place_du_confinement	N
+37l0l7	remblais	N
+
+#L'exploitant a remis le 03/01/06 le dossier de récolement de la société ATG ayant réalisée sur site l'étanchéité par géosynthétiques.
+
+38l0l0	L__exploitant	O
+38l0l1	a_remis	N
+38l0l2	le_03_01_06	T
+38l0l3	le_dossier_de_récolement	N
+38l0l4	la_société_ATG	O
+38l0l5	ayant_réalisée_sur_site	N
+38l0l6	l__étanchéité_par_géosynthétiques	N
+38l1l0	la_société_ATG	I
+
+#Le rapport d'inspection finale des travaux, et les résultats des contrôles opérés après les travaux de pose sont conformes.
+
+39l0l0	Le_rapport_d__inspection_finale	O
+39l0l1	les_résultats_des_contrôles	O
+39l0l2	les_travaux_de_pose	N
+
+#La visite d'inspection des installations classées le 31/05/06 a permis également de constater la présence de la couverture végétale.
+
+40l0l0	La_visite	N
+40l0l1	d__inspection_des_installations_classées	O
+40l0l2	le_31_05_06	T

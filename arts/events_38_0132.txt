@@ -1,0 +1,71 @@
+
+#38.0132
+#Zone industrielle sur laquelle était exercée une activité de stockage d'engrais depuis 1968 :
+
+0l0l0	Zone_industrielle	O
+0l0l1	était_exercée_une_activité_de_stockage_d__engrais	A
+0l0l2	depuis_1968	T
+
+#- de 1860 à 1968 : haut fourneaux,
+
+1l0l0	haut_fourneaux	O
+
+#- de 1968 à 1988 : fabrication d'engrais (et stockage sur la parcelle concernée),
+
+2l0l0	de_1968_à_1988	T
+2l0l1	__fabrication_d__engrais	A
+2l0l2	stockage_sur_la_parcelle_concernée	O
+2l1l0	engrais	S
+
+#- depuis 1988 : stockage d'engrais.
+
+3l0l0	depuis_1988	T
+3l0l1	__stockage_d__engrais	N
+
+#Un diagnostic de sols a été fait par l'ancien propriétaire des terrains (grande paroisse).
+
+4l0l0	Un_diagnostic_de_sols	N
+4l0l1	a_été_fait	N
+4l0l2	l__ancien_propriétaire_des_terrains	O
+
+#Ce diagnostic a mis en évidence la présence de cuivre, cobalt, arsenic, plomb, chrome, btex, hap, cohv dans les terrains.
+
+5l0l0	Ce_diagnostic	N
+5l0l1	a_mis_en_évidence	R
+5l0l2	la_présence	O
+5l0l3	les_terrains	O
+5l1l0	cuivre	S
+5l1l1	cobalt	S
+5l1l2	arsenic	S
+5l1l3	plomb	S
+5l1l4	chrome	S
+5l1l5	btex	S
+5l1l6	hap	S
+5l1l7	cohv	S
+
+#Il n'y a pas d'impact avéré sur les eaux souterraines.
+
+
+#Le site est entièrement imperméabilisé par des enrobés ou du béton.
+
+7l0l0	Le_site	O
+7l0l1	imperméabilisé	N
+7l0l2	des_enrobés	N
+
+#L'inspection a proposé le 22/02/2005 un APC imposant une surveillance des eaux souterraines et une ESR au dernier exploitant (Cérégrain).
+
+8l0l0	L__inspection	O
+8l0l1	a_proposé	N
+8l0l2	le_22_02_2005	T
+8l0l3	un_APC	O
+8l0l4	imposant	R
+8l0l5	une_surveillance_des_eaux_souterraines	A
+8l0l6	une_ESR	O
+8l0l7	exploitant	O
+8l0l8	Cérégrain	O
+8l1l0	Cérégrain	I
+
+#Cet AP a été attaqué au TA.
+
+9l0l0	Cet_AP	O
+9l0l1	a_été_attaqué	N

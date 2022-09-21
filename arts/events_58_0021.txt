@@ -1,0 +1,251 @@
+
+#58.0021
+#L'ancienne décharge de la commune de La Machine a été exploitée comme décharge brute à partir des années 50.
+
+0l0l0	L__ancienne_décharge	O
+0l0l1	la_commune	O
+0l0l2	de_La_Machine	L
+0l0l3	a_été_exploitée	N
+0l0l4	comme	R
+0l0l5	décharge_brute	O
+0l0l6	à_partir_des_années_50__	T
+
+#En 1997, elle a fait l'objet d'une autorisation d'exploitation au titre de la réglementation en matière d'installations classées pour la protection de l'environnement.
+
+1l0l0	En_1997__	T
+1l0l1	elle	O
+1l0l2	a_fait_l__objet_d_	R
+1l0l3	une_autorisation_d__exploitation	O
+1l0l4	au_titre_de	R
+1l0l5	la_réglementation	O
+1l0l6	classées_pour_la_protection_de_l__environnement	O
+
+#Suite à l'annulation de l'arrêté préfectoral d'autorisation d'exploiter par le Tribunal Administratif de Dijon, la décharge a été fermée en juin 1999.
+
+2l0l0	Suite_à	R
+2l0l1	l__annulation	N
+2l0l2	l__arrêté_préfectoral	O
+2l0l3	d__autorisation	O
+2l0l4	d__exploiter	N
+2l0l5	le_Tribunal_Administratif	O
+2l0l6	Dijon	O
+2l0l7	la_décharge	O
+2l0l8	a_été_fermée	N
+2l0l9	en_juin_1999__	T
+2l1l0	le_Tribunal_Administratif_de_Dijon	I
+
+#Le site s'étend sur une dizaine d'hectares dont seulement quatre ont été consacrés au stockage de déchets ménagers, le reste ayant été maintenu en zone boisée.
+
+3l0l0	Le_site	O
+3l0l1	quatre_ont_été	O
+3l0l2	consacrés_au	R
+3l0l3	stockage_de_déchets_ménagers	A
+3l0l4	ayant_été	N
+3l0l5	maintenu_en	R
+3l0l6	zone_boisée	O
+
+#Une scierie se trouve à moins d'un kilomètre vers le Sud-Ouest, et les installations des anciennes activités minières se trouvent à un peu plus de 250 mètres au Sud.
+
+4l0l0	scierie	A
+4l0l1	se_trouve_à_moins_d__un_kilomètre_vers_le_Sud_Ouest	L
+4l0l2	les_installations	O
+4l0l3	anciennes_activités_minières	O
+4l0l4	se_trouvent_à_un_peu_plus_de_250_mètres_au_Sud	L
+
+#Les ouvrages suivants liés à l'exploitation minière sont présents au droit du site, sous le massif de déchets:
+
+5l0l0	Les_ouvrages	O
+5l0l1	exploitation_minière	O
+5l0l2	au_droit_du_site	L
+
+#- puits Baudras 1: d'une profondeur supposée de 140 mètres, non visible, remblayé et situé sous la décharge
+
+6l0l0	remblayé	O
+6l0l1	et	R
+6l0l2	situé_sous_la_décharge	L
+
+#- puits Boudras 2: d'une profondeur inconnue, non visible, remblayé et situé sous la décharge.
+
+7l0l0	remblayé	O
+7l0l1	situé_sous_la_décharge	L
+
+#L'arrêt de l'exploitation minière a eu pour conséquence le remplissage des vides souterrains par les eaux.
+
+8l0l0	L_	N
+8l0l1	arrêt_de_l__exploitation_minière	O
+8l0l2	a_eu_pour_conséquence	N
+8l0l3	le_remplissage	N
+8l0l4	vides_souterrains	O
+8l0l5	les_eaux	O
+
+#La nappe des anciens travaux ainsi formée a trouvé plusieurs exutoires dans les environs du site.
+
+9l0l0	La_nappe	O
+9l0l1	a_trouvé	N
+9l0l2	plusieurs_exutoires	O
+9l0l3	dans_les_environs_du_site	L
+
+#Le contexte hydrogéologique local est ainsi caractérisé par la présence des nappes suivantes:
+
+10l0l0	Le_contexte_hydrogéologique	N
+
+#- une nappe superficielle qui se développe dans les formations supérieures de la roche mère qui est fissurée
+
+11l0l0	les_formations_supérieures	O
+
+#- la nappe des lixiviats qui se développe dans le massif des déchets
+
+12l0l0	se_développe	N
+12l0l1	déchets	O
+12l1l0	déchets	U
+
+#- la nappe minière qui se développe au sein des vides résultants des anciens travaux miniers.
+
+13l0l0	travaux_miniers	N
+
+#Compte tenu des caractéristiques hydrogéologiques du site, il apparaît que des transferts de pollution sont possibles aussi bien aux abords immédiats du site qu'en des points plus éloignés, via les travaux miniers.
+
+14l0l0	aux_abords_immédiats_du_site	L
+14l0l1	en_des_points_plus_éloignés	L
+14l0l2	les_travaux_miniers	N
+
+#Compte tenu de l'absence de contrôle à l'entrée de la décharge, aucun élément relatif au flux et à la nature des déchets n'est disponible.
+
+
+#Les déchets autorisés par l'arrêté préfectoral du 14 octobre 1974 mentionnent les éléments suivants:
+
+16l0l0	Les_déchets_autorisés	O
+16l0l1	l__arrêté_préfectoral	O
+16l0l2	14_octobre_1974	T
+
+#- ordures ménagères
+
+17l1l0	ordures_ménagères	I
+
+#- déblais et gravats
+
+
+#- cendres et mâchefers refroidis
+
+
+#- déchets industriels et commerciaux solides
+
+20l1l0	déchets_industriels	U
+20l1l1	commerciaux_solides	U
+
+#- boues non toxiques en provenance des stations d'épuration.
+
+21l1l0	boues_non_toxiques	U
+
+#Les déchets ont été stockés dans différents casiers créés au fur et à mesure de l'avancement de l'exploitation:
+
+22l0l0	Les_déchets	O
+22l0l1	ont_été_stockés	N
+22l0l2	créés	O
+22l0l3	au_fur_et_à_mesure_de	R
+22l0l4	l__avancement	N
+22l0l5	de_l__exploitation	A
+22l1l0	Les_déchets	U
+
+#- de 1974 à 1995: les déchets étaient simplement déversés puis régalés,
+
+23l0l0	de_1974_à_1995	T
+23l0l1	les_déchets	O
+23l0l2	étaient_simplement_déversés	N
+
+#- à partir de 1995: les déchets étaient compactés par un compacteur à pied de mouton.
+
+24l0l0	partir	T
+24l0l1	de_1995	T
+24l0l2	compactés_par_un_compacteur	O
+24l1l0	les_déchets	U
+
+#Une campagne de fouille à la pelle mécanique a été menée sur le site en 2001 afin de préciser les caractéristiques de confinement des déchets (épaisseur de couverture, présence de lixiviats et de biogaz, stabilité des terrains...).
+
+25l0l0	Une_campagne_de_fouille	N
+25l0l1	à_la_pelle_mécanique	O
+25l0l2	a_été_menée	N
+25l0l3	sur_le_site	L
+25l0l4	en_2001	T
+
+#Les sondages réalisés ont montré:
+
+
+#- une certaine homogénéité des déchets avec majoritairement des ordures ménagères
+
+27l1l0	des_ordures_ménagères	U
+
+#- une faible épaisseur de couverture
+
+
+#la présence de lixiviats au sein du massif de déchets
+
+29l0l0	la_présence_de_lixiviats	O
+
+#- un massif stable de déchets sans risque d'instabilité majeur.
+
+
+#En mars 2007, une deuxième campagne de fouilles a été effectuée faisant ressortir des conclusions similaires.
+
+31l0l0	En_mars_2007__	T
+31l0l1	une_deuxième_campagne_de_fouilles	N
+31l0l2	a_été_effectuée	N
+
+#Le 21 décembre 2010, par arrêté préfectoral, le syndicat intercommunal d'ordures ménagères de La Machine est mise en demeure de déposer un dossier de réhabilitation définitif pour le site de la décharge de La Machine.
+
+32l0l0	Le_21_décembre_2010__	T
+32l0l1	par	R
+32l0l2	arrêté_préfectoral	O
+32l0l3	le_syndicat_intercommunal	O
+32l0l4	La_Machine	O
+32l0l5	est_mise_en	N
+32l0l6	un_dossier_de_réhabilitation_définitif	O
+32l0l7	le_site	O
+32l0l8	la_décharge	O
+32l0l9	La_Machine	O
+32l1l0	le_syndicat_intercommunal_d__ordures_ménagères_de_La_Machine	I
+
+#Ce dossier devait a minima prendre en compte les enjeux environnementaux suivants:
+
+
+#- limiter la production de lixiviats et les traiter en réduisant, autant que possible, les apports d'eaux dans le massif de déchets.
+
+34l0l0	lixiviats	A
+
+#- définir le choix d'un système de traitement des lixiviats
+
+35l0l0	définir	N
+35l0l1	le_choix_d__un_système_de_traitement	O
+35l0l2	lixiviats	O
+
+#- finaliser un suivi de la qualité des eaux superficielles
+
+36l0l0	finaliser	O
+36l0l1	un_suivi_de_la_qualité_des_eaux_superficielles	A
+
+#- finaliser un suivi de la qualité des eaux de la nappe superficielle (a minima 4 piézomètres)
+
+37l0l0	finaliser	O
+37l0l1	un_suivi_de	A
+37l0l2	la_qualité_des_eaux	O
+
+#- limiter les impacts sur l'air (formation de biogaz)
+
+
+#- améliorer l'impact visuel du site (végétalisation).
+
+
+#Dernièrement, un bureau d'études a été mandaté par le SIOM de La Machine dans le cadre d'études complémentaires (pose de piézométres) en vue de la réhabilitation de la décharge.
+
+40l0l0	Dernièrement	T
+40l0l1	un_bureau_d__études	O
+40l0l2	a_été_mandaté	N
+40l0l3	par	R
+40l0l4	le_SIOM	O
+40l0l5	La_Machine	O
+40l0l6	cadre_d__études_complémentaires	N
+40l0l7	pose_de_piézométres	O
+40l0l8	en_vue_de	R
+40l0l9	la_réhabilitation	N
+40l0l10	la_décharge	O
+40l1l0	le_SIOM	I

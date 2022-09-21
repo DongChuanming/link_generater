@@ -1,0 +1,211 @@
+
+#63.0011
+#Stockage d'hydrocarbures et de gaz,ce dépôt existe depuis plus de 50 ans.
+
+0l0l0	gaz___ce_dépôt	O
+0l0l1	existe	N
+0l0l2	depuis_plus_de_50_ans__	T
+0l1l0	hydrocarbures	S
+
+#Il est situé en zone industrielle à coté d'une gare de triage et d'autres activités industrielles.
+
+1l0l0	situé_en_zone_industrielle	O
+1l0l1	à_coté_d__une_gare_de	L
+1l0l2	triage	O
+1l0l3	d_	O
+1l0l4	autres_activités_industrielles	A
+
+#Un petit ruisseau,la Tiretaine ,dont les eaux sont de qualité médiocre,longe le site.
+
+2l0l0	Un_petit_ruisseau	O
+2l0l1	le_site	O
+2l1l0	la_Tiretaine	I
+
+#Un autre ruisseau,le Bedat,coule à environ 500 métres du dépôt.
+
+3l0l0	Un_autre_ruisseau	O
+3l0l1	le_Bedat	O
+3l0l2	coule_à_environ_500_métres_du_dépôt	L
+
+#La nappe aquifére sous jacente est peu profonde.
+
+
+#Trois captages à usage industriel sont situés à 1 km en aval hydraulique.
+
+5l0l0	Trois_captages	O
+5l0l1	usage_industriel	A
+5l0l2	situés_à_1_km_en_aval_hydraulique	L
+
+#Un bassin d'orage est présent à 90m en aval avec usage en zone récréative.
+
+6l0l0	Un_bassin	O
+6l0l1	à_90_m_en_aval	L
+6l0l2	usage_en	R
+6l0l3	zone_récréative	N
+
+#Aucune remontée de nappe ne semble avoir été observée par Clermont Auvergne Métropole.
+
+7l0l0	Clermont_Auvergne_Métropole	O
+
+#Il n'existe aucun captage d'eau potable dans un rayon de 5 km autour du site.
+
+8l0l0	5_km_autour_du_site	L
+
+#Ce site est toujours en activité.
+
+9l0l0	Ce_site	O
+9l0l1	est_toujours_en_activité	N
+
+#Une évaluation simplifiée des risques a été prescrite à l'exploitant par arrêté préfectoral du 23 mars 1998.
+
+10l0l0	Une	O
+10l0l1	évaluation_simplifiée_des_risques	N
+10l0l2	a_été_prescrite	N
+10l0l3	l__exploitant	O
+10l0l4	23_mars_1998__	T
+
+#Le diagnostic initial a été réalisé.
+
+11l0l0	Le_diagnostic_initial	N
+11l0l1	a_été_réalisé	N
+
+#Le sol est ponctuellement pollué par des hydrocarbures.
+
+12l0l0	des_hydrocarbures	O
+12l1l0	hydrocarbures	S
+
+#Les résultats de l'évaluation simplifiée des risques montrent qu'il existe deux sources de pollution potentielles dont l'une concerne l'embranchement ferroviaire.
+
+13l0l0	évaluation_simplifiée_des_risques	N
+13l0l1	deux_sources_de_pollution_potentielles	O
+13l0l2	embranchement_ferroviaire	L
+
+#Des analyses de l'eau de la nappe effectuées en mars 2002, à partir de trois piézomètres implantés sur le site, démontrent que les seuils sont dépassés.
+
+14l0l0	Des_analyses	N
+14l0l1	en_mars_2002__	T
+
+#Des travaux d'étanchéité de l'aire de dépotage, au niveau du terminal ferroviaire, ont été réalisés par la confection d'une dalle béton.
+
+15l0l0	Des_travaux_d__étanchéité	N
+15l0l1	l__aire	O
+15l0l2	dépotage	O
+15l0l3	au_niveau_du_terminal_ferroviaire	L
+15l0l4	ont_été_réalisés	N
+15l0l5	la_confection_d_	N
+15l0l6	une_dalle_béton	O
+
+#Le nouvel exploitant a souhaité réactiver le dépôt utilisé jusqu'à présent en tant que dépôt SAGESS uniquement.
+
+16l0l0	Le_nouvel_exploitant	O
+16l0l1	a_souhaité_réactiver	N
+16l0l2	le_dépôt	O
+16l0l3	utilisé_jusqu_	N
+16l0l4	dépôt_SAGESS	O
+
+#La pose d'un piézomètre(amont) en dehors du site a été réalisée en avril 2003, des analyses ont été effectuées en juin.
+
+17l0l0	La_pose_d__un_piézomètre_amont	O
+17l0l1	__en_dehors_du_site	L
+17l0l2	a_été_réalisée	N
+17l0l3	en_avril_2003__	T
+17l0l4	des_analyses	O
+17l0l5	ont_été_effectuées	N
+17l0l6	en_juin	T
+
+#Les résultats évoluent favorablement, un arrêté de suivi a prescrit une surveillance semestrielle effectuée à partir de 6 piézomètres implantés sur le site.
+
+18l0l0	un_arrêté_de_suivi	O
+18l0l1	a_prescrit	N
+18l0l2	une_surveillance_semestrielle	A
+18l0l3	6_piézomètres	O
+
+#Un piézomètre a été réimplanté(PZ1bis) en mars 2006, les analyses réalisées en avril 2006 indiquent la présence d'une phase organique flottante, des mesures correctives ont été demandées, cette situation étant confirmée avec les résultats des analyses de juin 2007.
+
+19l0l0	Un_piézomètre	O
+19l0l1	a_été_réimplanté_PZ1bis	N
+19l0l2	en_mars_2006__	T
+19l0l3	les_analyses	O
+19l0l4	réalisées_en	N
+19l0l5	avril_2006	T
+19l0l6	juin_2007__	T
+19l1l0	une_phase_organique_flottante	U
+
+#Une unité de pompage a été installée afin de récupérer les hydrocarbures des sols.
+
+20l0l0	Une_unité_de_pompage	O
+20l0l1	a_été_installée	N
+20l0l2	les_hydrocarbures_des_sols	O
+20l1l0	hydrocarbures	S
+
+#Cette unité a été arrêtée en janvier 2009 en raison de la faiblesse des quantités récupérées à cette dernière date.
+
+21l0l0	Cette_unité	O
+21l0l1	a_été_arrêtée	N
+21l0l2	en_janvier_2009	T
+21l0l3	à_cette_dernière_date	T
+
+#Elle a permis une réduction sensible de la pollution, 330 kg de produit, assimilable à un additif de carburant, ont été récupérés.
+
+22l0l0	330_kg_de_produit	O
+22l1l0	produit	U
+22l1l1	un_additif_de_carburant	U
+
+#Lors de chaque analyse semestrielle, la présence d'hydrocarbures surnageants est constaté au niveau du piézomètre PZ3, situé au Sud de l'embranchement ferroviaire, en partie centrale du site.
+
+23l0l0	au_niveau_du	L
+23l0l1	piézomètre_PZ3__	O
+23l0l2	situé_au_Sud_de_l__embranchement_ferroviaire	L
+23l0l3	en_partie_centrale_du_site	L
+23l1l0	hydrocarbures_surnageants	U
+
+#Un écrémeur passif a été installé dans ce piézomètre en septembre 2013.
+
+24l0l0	Un_écrémeur_passif	O
+24l0l1	a_été_installé	N
+24l0l2	dans_ce_piézomètre	O
+24l0l3	en_septembre_2013__	T
+
+#Les autres piézomètres indiquent de façon moins marquée la présence d'hydrocarbures.
+
+25l1l0	hydrocarbures	S
+
+#Néanmoins à l'échelle du suivi, il est constaté une migration de la pollution à l'aval du site, vers les piézomètres PZ1bis et PZ7.
+
+26l0l0	une_migration	N
+26l0l1	la_pollution	O
+26l0l2	à_l__aval_du_site	L
+26l0l3	vers_les_piézomètres	L
+26l1l0	PZ7__	D
+
+#Ainsi lors des campagnes d'analyse 2016, la teneur en hydrocarbures mesurée est en augmentation au niveau de ces 2 piezomètres, bien qu'elle reste encore bien inférieure à l'impact observé en PZ3 (partie centrale du site).
+
+27l0l0	lors	T
+27l0l1	des_campagnes_d__analyse	N
+27l0l2	2016__	T
+27l0l3	hydrocarbures_mesurée	O
+27l0l4	est_en_augmentation	N
+27l1l0	hydrocarbures	S
+
+#Mais le panache de pollution, en de faibles concentrations, est désormais susceptible de migrer hors du site.
+
+28l0l0	migrer	N
+28l0l1	hors_du_site	L
+
+#Aussi une nouvelle interprétation de l'état des milieux (IEM) a été demandé à l'exploitant.
+
+29l0l0	une_nouvelle_interprétation_de_l__état_des_milieux	O
+29l0l1	a_été_demandé	N
+29l0l2	l__exploitant	O
+
+#Celle ci a été réalisée par Suez Remediation au premier trimestre 2017.
+
+30l0l0	a_été_réalisée	N
+30l0l1	Suez_Remediation	O
+30l0l2	au_premier_trimestre_2017__	T
+30l1l0	Suez_Remediation	I
+
+#Le rapport, transmis en mars 2017 à l'inspection, conclut qu'au regard de l'évaluation qualitative effectuée (schéma conceptuel) aucun risque sanitaire n'est présent sur et hors site.
+
+31l0l0	transmis	N
+31l0l1	en_mars_2017	T

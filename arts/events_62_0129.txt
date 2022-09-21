@@ -1,0 +1,224 @@
+
+#62.0129
+#Le site de COMILOG de 39 ha, implanté au niveau du port de boulogne sur mer, est divisé en deux secteurs, l'usine 2 (HF5 et HF6) et l'usine 3 (HF7), et fabriquait du ferromanganèse avec une capacité totale de production portée à 378 000 t/an.
+
+0l0l0	Le_site	O
+0l0l1	COMILOG	O
+0l0l2	implanté	R
+0l0l3	au_niveau_du_port_de_boulogne_sur_mer	L
+0l0l4	deux_secteurs	O
+0l0l5	fabriquait_du_ferromanganèse	A
+0l1l0	COMILOG	I
+0l1l1	ferromanganèse	S
+
+#En effet, en 2000, COMILOG a effectué un investissement de 180 MF pour le doublement de capacité de son haut fourneau n°7 (passage de 350 t/j à 700 t/j) et la mise en place d'installations de traitement des effluents (mise en place d'une épuration sèche).
+
+1l0l0	en_2000___COMILOG	T
+1l0l1	a_effectué	N
+1l0l2	un_investissement	N
+1l0l3	180_MF	O
+1l0l4	le_doublement_de_capacité	N
+1l0l5	son_haut_fourneau	O
+1l0l6	passage	N
+1l0l7	la_mise_en_place	N
+1l0l8	d__installations_de_traitement_des_effluents	N
+1l0l9	mise_en_place_d__une_épuration	N
+1l1l0	COMILOG	I
+1l1l1	effluents	U
+
+#Le 16.12.2003, la société COMILOG a annoncé la cessation d'activité partielle de son usine.
+
+2l0l0	Le_16_12_2003__	T
+2l0l1	la_société_COMILOG	O
+2l0l2	a_annoncé	N
+2l0l3	la_cessation_d__activité_partielle	N
+2l0l4	son_usine	O
+2l1l0	la_société_COMILOG	I
+
+#Le site comportait également des centrales de fabrication d’électricité, des stockages de fuel lourd pour les chaudières et divers activités liées à la sidérurgie.
+
+3l0l0	Le_site	O
+3l0l1	comportait_également	R
+3l0l2	des_centrales_de_fabrication_d_	A
+3l0l3	électricité	O
+3l0l4	activités	A
+3l0l5	liées_à	R
+3l0l6	la_sidérurgie	A
+3l1l0	fuel_lourd	U
+
+#-16/12/2003 annonce de la cessation d'activité du site.
+
+4l0l0	_16_12_2003	T
+4l0l1	annonce_de	R
+4l0l2	la_cessation_d__activité	N
+4l0l3	site	O
+4l0l4	_	T
+
+#-Afin d’encadrer sur le plan réglementaire cette cessation d’activité, M le Préfet du Pas-de-Calais a, par arrêté complémentaire du 20.02.2004, imposé à l’exploitant de respecter les dispositions suivantes, avec des délais associés :
+
+5l0l0	cessation_d__activité	N
+5l0l1	M_le_Préfet_du_Pas_de_Calais	O
+5l0l2	20_02_2004	T
+5l0l3	l__exploitant	O
+5l1l0	le_Préfet_du_Pas_de_Calais	I
+
+#* les points relatifs à la mise en sécurité du site (l’exploitant devant avoir pris en compte et étudié, avant toute opération de démantèlement, l’ensemble des risques),
+
+6l0l0	l__exploitant	O
+6l0l1	avant	T
+6l0l2	toute_opération_de_démantèlement	N
+
+#* la remise d’un plan de démantèlement des superstructures et infrastructures,
+
+7l0l0	la_remise	N
+7l0l1	d__un_plan_de	O
+7l0l2	démantèlement	N
+7l0l3	superstructures	O
+7l0l4	infrastructures	O
+
+#* la mise en place d’un réseau de surveillance des eaux souterraines,
+
+8l0l0	la_mise_en_place_d__un	N
+8l0l1	réseau_de_surveillance_des_eaux_souterraines	A
+
+#* la réalisation de l’étude de sols.
+
+9l0l0	la_réalisation	N
+9l0l1	l__étude_de_sols	N
+
+#L’exploitant  a remis les études réalisées sur son site et notamment :
+
+10l0l0	L__exploitant	O
+10l0l1	__a_remis	N
+10l0l2	les_études_réalisées	N
+
+#- Etude historique et documentaire du site, rapport d’étape A du 13 avril 2004, projet n°52863-002-412,
+
+11l0l0	du_13_avril_2004__	T
+11l0l1	projet	O
+
+#- Rapport étape B et Evaluation Simplifiée des Risques, dossier n°52863-002-412 du 30 juin 2004 version 1 réalisé par URS,
+
+12l0l0	Evaluation_Simplifiée_des_Risques	N
+12l0l1	du_30_juin_2004	T
+12l1l0	URS	I
+
+#- Mémoire de démantèlement DOS V1 indice A en date du 29.06.2004.
+
+13l0l0	démantèlement_DOS_V1	N
+13l0l1	date_du_29_06_2004__	T
+
+#-Mémoire de cessation d'activité, le 30/06/2004.
+
+14l0l0	cessation_d__activité	N
+14l0l1	le_30_06_2004__	T
+
+#- L’étude SGS affaire n°14 DFI 230255 de juin 2004 intitulé « compte rendu des opérations de prélèvements et d’analyses d’eaux dans la rade du port de Boulogne sur mer »,
+
+15l0l0	étude_SGS	O
+15l0l1	de_juin_2004	T
+15l0l2	des_opérations_de_prélèvements	N
+15l0l3	et_d__analyses_d__eaux_dans_la	A
+15l0l4	rade_du_port_de_Boulogne_sur_mer	L
+
+#-Evacuation de produits restants sur le site, courant 2004.
+
+16l0l0	_Evacuation	N
+16l0l1	courant_2004__	T
+
+#- Informations complémentaires - Courrier CF du 23 juillet 2004,
+
+17l0l0	23_juillet_2004__	T
+
+#- Informations complémentaires - Courrier CF du 18 août 2004.
+
+18l0l0	18_août_2004__	T
+
+#M le Préfet du Pas-de-Calais a, par arrêté complémentaire du 08.11.2004,imposé le démantèlement de ses installations et le traitement des zones polluées,
+
+19l0l0	M_le_Préfet_du_Pas_de_Calais	T
+19l0l1	du_08_11_2004_imposé	T
+19l0l2	le_démantèlement_de_ses_installations	N
+19l0l3	le_traitement	N
+19l0l4	zones_polluées	O
+19l1l0	le_Préfet_du_Pas_de_Calais	I
+
+#situé Quai Amiral Huguet à BOULOGNE SUR MER, ainsi que l'autosurveillance des eaux souterraines.
+
+20l0l0	Quai_Amiral_Huguet_à_BOULOGNE	L
+20l0l1	SUR_MER	L
+20l0l2	l__autosurveillance_des_eaux_souterraines	A
+20l1l0	BOULOGNE_SUR_MER	I
+
+#l'exploitant a remis un dossier de demande d'institution de servitudes.
+
+21l0l0	l__exploitant	O
+21l0l1	a_remis	N
+21l0l2	un_dossier	O
+21l0l3	demande_d__institution_de_servitudes	O
+
+#le 12.07.2005.
+
+22l0l0	le_12_07_2005__	T
+
+#l'enquête publique prescrite par arrêté préfectoral du 18.04.2006 pour une durée de 1 mois, a eu lieu du 09.05.2006 au 09.06.2006.
+
+23l0l0	l__enquête_publique_prescrite	N
+23l0l1	par_arrêté_préfectoral	O
+23l0l2	du_18_04_2006_pour_une_durée_de_1_mois	T
+23l0l3	a_eu_lieu	N
+23l0l4	du_09_05_2006_au_09_06_2006__	T
+
+#-Réalisation d'une étude de la teneur en plomb et cadmium autour de l'usine COMILOG en septembre 2006 par Tauw Environnement, qui a montré la présence en quelques point d'un dépassement du gond pédochimique naturel en plomb, mais n'ayant pas d'impact observable sur la qualité des sols environnants.
+
+24l0l0	_Réalisation	N
+24l0l1	d_	R
+24l0l2	une_étude	N
+24l0l3	autour_de_l_	L
+24l0l4	usine_COMILOG	O
+24l0l5	en_septembre_2006	T
+24l0l6	par_Tauw_Environnement	O
+24l1l0	plomb	S
+24l1l1	cadmium	S
+24l1l2	COMILOG	I
+24l1l3	plomb	S
+
+#-Démantèlement et dépollution (excavation et évacuation des terres polluées)en 2007.
+
+25l0l0	_Démantèlement	N
+25l0l1	dépollution___excavation	N
+25l0l2	évacuation_des_terres_polluées_en	N
+25l0l3	2007__	T
+
+#M le Préfet du Pas-de-Calais a, par arrêté du 13.08.2007, institué les servitudes d''utilité publique relatives à L’intégrité, le maintien et le libre accès aux piézomètres, l’usage des sols, les Ouvrages conservés,  les Forages, les Fouilles, les Ouvrages et Fondations.
+
+26l0l0	M_le_Préfet_du_Pas_de_Calais	A
+26l0l1	du_13_08_2007	T
+26l0l2	institué	N
+26l0l3	les_servitudes_d_utilité_publique	O
+26l0l4	libre_accès_aux	N
+26l0l5	piézomètres	O
+26l0l6	les_Forages	N
+26l0l7	les_Ouvrages	O
+26l1l0	le_Préfet_du_Pas_de_Calais	I
+
+#La nappe souterraine est utilisée a des fins d'adduction en eau potable et industrielle.
+
+27l0l0	est_utilisée_a_des_fins	N
+27l0l1	d__adduction_en_eau_potable_et_industrielle	A
+
+#Néanmoins, le captage AEP du secteur se trouve en amont du site, n'étant pas impacté par la pollution du site.
+
+28l0l0	captage_AEP	O
+28l0l1	secteur	O
+28l0l2	se_trouve_en_amont_du_site	L
+28l0l3	n__étant_pas_impacté_par	R
+
+#-Site mis en sécurité vis à vis des tiers et remis en état pour un usage industriel.
+
+29l0l0	remis_en_état	N
+29l0l1	un_usage_industriel	N
+
+#-Action de l'administration toujours en cours (surveillance piézométrique).
+
+30l0l0	l__administration	O

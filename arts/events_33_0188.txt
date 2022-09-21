@@ -1,0 +1,375 @@
+
+#33.0188
+#Station service de l'hypermarché CARREFOUR sur la commune de Mérignac (33).
+
+0l0l0	Station_service	O
+0l0l1	l__hypermarché_CARREFOUR	O
+0l0l2	sur_la_commune_de_Mérignac___33__	L
+0l1l0	CARREFOUR	I
+
+#L'exploitation est autorisée à exploiter ses installations par l'arrêté préfectoral n°13 299 du 26/09/1991.
+
+1l0l0	L__exploitation	O
+1l0l1	est_autorisée_à_exploiter	N
+1l0l2	ses_installations	O
+1l0l3	l__arrêté_préfectoral	O
+1l0l4	26_09_1991__	T
+
+#1 - DIAGNOSTIC :
+
+2l0l0	DIAGNOSTIC	N
+
+#Le 14/04/2006, l'exploitant informe la DRIRE d'une pollution intervenue en 2002.
+
+3l0l0	Le_14_04_2006	T
+3l0l1	l__exploitant	O
+3l0l2	informe	N
+3l0l3	la_DRIRE	O
+3l0l4	d__une_pollution	N
+3l0l5	intervenue	N
+3l0l6	en_2002	T
+3l1l0	la_DRIRE	I
+
+#Deux documents sont transmis :
+
+
+#- du 09/02/04 sur le suivi des piézomètres installés sur le site,
+
+5l0l0	09_02_04	T
+5l0l1	le_suivi_des_piézomètres	A
+
+#- du 07/07/06 sur la proposition technique du bureau d'études pour la réhabilitation du site.
+
+6l0l0	07_07_06	T
+6l0l1	la_proposition_technique_du_bureau_d__études	O
+6l0l2	la_réhabilitation	N
+6l0l3	site	O
+
+#Par courrier en date du 19/06/2006, l'exploitant précise que l'origine de la pollution n'est pas connue avec précision.
+
+7l0l0	en_date_du_19_06_2006	T
+7l0l1	l__exploitant	O
+
+#Les installations actuelles ont subi un contrôle d'étanchéité qui a confirmé l'intégrité des cuves.
+
+8l0l0	Les_installations_actuelles	O
+8l0l1	ont_subi_un_contrôle	N
+8l0l2	d__étanchéité	O
+8l0l3	l__intégrité_des_cuves	O
+8l1l0	cuves	D
+
+#Il pourrait cependant s'agir d'une pollution ancienne.
+
+
+#La DRIRE propose le 17/01/2007 de faire dépolluer les sols et la nappe.
+
+10l0l0	La_DRIRE	O
+10l0l1	propose	N
+10l0l2	le_17_01_2007	T
+10l0l3	de_faire_dépolluer	N
+10l0l4	les_sols	O
+10l0l5	la_nappe	O
+10l1l0	La_DRIRE	I
+
+#2 - TRAVAUX :
+
+
+#L'arrêté préfectoral du 26/03/2007 prescrit les travaux de dépollution des sols et de la nappe suivants:
+
+12l0l0	L__arrêté_préfectoral	O
+12l0l1	26_03_2007	T
+12l0l2	prescrit	R
+12l0l3	les_travaux_de_dépollution	N
+12l0l4	la_nappe	O
+
+#- mise en sécurité du site,
+
+13l0l0	mise_en_sécurité	N
+13l0l1	du_site	O
+
+#- traitement des vapeurs d'hydrocarbures du sol, des flottants et de de la nappe.
+
+14l0l0	d__hydrocarbures	O
+14l1l0	vapeurs_d_	U
+14l1l1	hydrocarbures	S
+
+#L'arrêt du traitement sera décidé (avec accord de l'inspecteur des installations classées) lorsque les analyses montreront de façon durable pendant une durée minimale de cinq semaines consécutives l'absence de phase flottante, des concentrations pérennes en hydrocarbures dissous dans la nappe au droit du site inférieures à 1 mg/l, des teneurs en volatils inférieurs à 300 ppm Volume, des concentrations en benzène inférieures à 100 µg/l dans la nappe en limite de propriété.
+
+15l0l0	L__arrêt_du_traitement_sera_décidé	N
+15l0l1	durable_pendant_une_durée_minimale_de_cinq_semaines	T
+15l0l2	au_droit_du_site	L
+15l1l0	hydrocarbures	S
+15l1l1	benzène	S
+
+#L'unité de réhabilitation a été fonctionnelle de Juillet 2006 à Juillet 2008.
+
+16l0l0	L__unité_de_réhabilitation	O
+16l0l1	a_été_fonctionnelle	N
+16l0l2	de_Juillet_2006_à_Juillet_2008__	T
+
+#Le traitement ne permet plus de faire évoluer significativement les concentrations déjà obtenues.
+
+
+#Selon le rapport de Mars 2009 transmis par l'exploitant, en l'absence d'une nouvelle réalimentation, les phénomènes de diffusion, dispersion, dilution et d'atténuation naturelle doivent entraîner une amélioration de la qualité des eaux dans le temps.
+
+18l0l0	le_rapport	O
+18l0l1	de_Mars_2009	T
+18l0l2	l__exploitant	O
+18l0l3	une_nouvelle_réalimentation	N
+18l0l4	dilution	N
+
+#Le rapport de suivi de Mars 2009 montre que le traitement a permis de :
+
+19l0l0	Mars_2009	T
+19l0l1	le_traitement	N
+
+#- réduire le taux de vapeurs dans l'air du sol en dessous du seuil de 300 ppmV sauf en RS2,
+
+
+#- éliminer la faible plume de flottant sur les ouvrages, seules quelques irisations apparaissant sur un nombre limité d'ouvrages,
+
+
+#- circonscrire le panache de dissous encore supérieur au seuil au droit des installations.
+
+
+#Compte tenu de la présence d’hydrocarbures adsorbés dans les sols, le procédé mis en place ne permet pas d'améliorer les concentrations,
+
+23l0l0	le_procédé	O
+23l0l1	mis_en_place	N
+23l1l0	hydrocarbures	S
+
+#- rabaisser les concentrations en hydrocarbures dissous à un niveau résiduel suffisamment faible pour limiter leur transfert aux abords du site.
+
+24l0l0	aux_abords_du_site	L
+24l1l0	hydrocarbures	S
+
+#Les piézomètres périphériques permettent de constater l'absence de traces significatives supérieures aux seuils hydrocarbures et benzène.
+
+25l1l0	hydrocarbures	S
+25l1l1	benzène	S
+
+#Seul PZ5 permet de mesurer un impact récurrent.
+
+26l1l0	PZ5	I
+
+#Le dernier rapport de suivi de la qualité de la nappe transmis par l'exploitant est daté du 26/01/2011.
+
+27l0l0	Le_dernier_rapport_de_suivi_de_la_qualité_de_la_nappe	O
+27l0l1	l__exploitant	O
+27l0l2	daté_du_26_01_2011__	T
+
+#Aucun rapport de suivi n'a été transmis à l'inspection des installations classées depuis cette date.
+
+28l0l0	l__inspection_des_installations_classées	O
+28l0l1	depuis_cette_date	T
+
+#En outre, l'exploitant n'a pas répondu aux demandes formulées par l'inspection des installations classées du 08/03/2011.
+
+29l0l0	l__exploitant	O
+29l0l1	l__inspection_des_installations_classées	O
+29l0l2	du_08_03_2011__	T
+
+#Lors de la visite d'inspection du 16/02/2012, l'exploitant a présenté et remis les rapports de suivi de la qualité de la nappe réalisés les 18/05/2011 et 02/11/2011.
+
+30l0l0	Lors_de_la_visite_d__inspection	N
+30l0l1	16_02_2012	T
+30l0l2	l__exploitant	O
+30l0l3	a_présenté	N
+30l0l4	remis	N
+30l0l5	les_rapports_de_suivi_de_la_qualité_de_la_nappe	O
+30l0l6	réalisés	N
+30l0l7	les_18_05_2011_et_02_11_2011	T
+
+#Ces documents montrent que la pollution demeure très localisée au niveau de l'aire de dépotage et confirment l'absence de contamination hors du site.
+
+31l0l0	la_pollution	O
+31l0l1	demeure_très_localisée	N
+31l0l2	au_niveau_de	R
+31l0l3	l__aire	O
+31l0l4	l_	N
+31l0l5	absence_de_contamination	O
+
+#Toutefois, pour la zone impactée, il est observé une augmentation conséquente des concentrations mesurées en hydrocarbures totaux et volatils entre Mai et Novembre.
+
+32l0l0	la_zone_impactée	O
+32l0l1	une_augmentation_conséquente	N
+32l0l2	entre_Mai_et_Novembre	T
+32l1l0	hydrocarbures_totaux	S
+
+#L'article 3 de l'arrêté préfectoral du 26/09/1991 prescrit un suivi en autosurveillance des rejets aqueux du site.
+
+33l0l0	l__arrêté_préfectoral	O
+33l0l1	26_09_1991	T
+33l0l2	prescrit	N
+33l0l3	un_suivi_en_autosurveillance_des_rejets_aqueux	N
+33l0l4	du_site	O
+
+#Les données présentées lors de l'inspection du 16/02/2011 sont les suivantes :
+
+34l0l0	16_02_2011	T
+
+#DBO5 : 100 mg/l – DCO : 120 mg/l – MEST : 30 mg/l – Hydrocarbures : 20 mg/l
+
+35l1l0	DBO5	S
+35l1l1	DCO	S
+35l1l2	MEST	S
+35l1l3	Hydrocarbures	S
+
+#3- SURVEILLANCE DES EAUX SOUTERRAINES :
+
+36l0l0	SURVEILLANCE	A
+36l0l1	DES_EAUX_SOUTERRAINES	O
+36l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65-a. de l’arrêté ministériel du 02/02/1998 modifié relatif à la surveillance des eaux souterraines par référence à la rubriques 1434 (installation de remplissage ou de distribution de liquides inflammables) de la nomenclature des Installations Classées pour la Protection de l'Environnement.
+
+37l0l0	Ce_site	O
+37l0l1	est_soumis_à	R
+37l0l2	l_	O
+37l0l3	02_02_1998	T
+37l0l4	surveillance_des_eaux_souterraines	A
+37l0l5	la_rubriques	O
+37l0l6	remplissage_ou_de_distribution_de_liquides_inflammables	A
+37l0l7	Installations_Classées	O
+37l0l8	pour_la	N
+37l0l9	Protection_de_l_	A
+37l1l0	liquides_inflammables	U
+
+#Elle est prescrite par l'arrêté préfectoral du 26/03/2007.
+
+38l0l0	l__arrêté_préfectoral	O
+38l0l1	26_03_2007__	T
+
+#Deux campagnes annuelles de prélèvements doivent être réalisées, les analyses portent sur les hydrocarbures totaux et les BTEX.
+
+39l0l0	Deux_campagnes_annuelles	N
+39l1l0	hydrocarbures_totaux	S
+39l1l1	BTEX	S
+
+#Huit piézomètres sont présents sur le site.
+
+40l0l0	Huit_piézomètres	O
+
+#Sept font l'objet d'un suivi.
+
+
+#Les analyses réalisées au 16/06/2006 montrent que les concentrations en hydrocarbures et en BTEX au droit des piézomètres et des puits sont dans une dynamique générale de diminution.
+
+42l0l0	Les_analyses_réalisées	N
+42l0l1	au_16_06_2006	T
+42l1l0	hydrocarbures	S
+42l1l1	BTEX	S
+
+#Cependant lors du suivi de Juillet 2007, on observe une augmentation importante de la teneur en vapeurs d’hydrocarbures au droit de l’ouvrage RS8 et un retour des irisations au droit de certains ouvrages (notamment sur RS2, RS12, RS14, RS13).
+
+43l0l0	lors	T
+43l0l1	du_suivi	N
+43l0l2	de_Juillet_2007__	T
+43l0l3	une_augmentation_importante_de	N
+43l0l4	un_retour	N
+43l0l5	irisations	O
+43l1l0	vapeurs_d__hydrocarbures	U
+
+#Le rapport de suivi de Mars 2010 fait état de :
+
+44l0l0	Le_rapport_de_suivi_de	O
+44l0l1	Mars_2010	T
+
+#- l'absence d'impact en Hydrocarbures totaux et aromatiques au droit des ouvrages situés en périphérie du site, à l'exception de Pz5 (exclu du système de réhabilitation) qui présente des teneurs en BTEX dans les eaux.
+
+45l0l0	ouvrages_situés_en_périphérie_du_site	L
+45l1l0	Hydrocarbures_totaux	S
+45l1l1	BTEX	S
+
+#Sa concentration en HCT est inférieure à la valeur guide,
+
+46l1l0	HCT	S
+
+#- la persistance d'un panache en HCT et BTEX au niveau des installations,
+
+47l1l0	HCT	S
+47l1l1	BTEX	S
+
+#- l'absence de réalimentation de la pollution liée à l'activité de la station-service.
+
+48l0l0	réalimentation	N
+48l0l1	la_pollution	O
+
+#Le rapport de suivi de Janvier 2011 fait état de :
+
+49l0l0	Le_rapport_de_suivi_de	O
+49l0l1	Janvier_2011	T
+
+#- diminutions conséquentes en HCT sur l'ensemble des ouvrages : inférieures à 0,5 µg/l à l'exception de RS12 situé au niveau es appareils de distribution (1,1 µg/l),
+
+50l1l0	HCT	S
+
+#- des traces significatives en BTEX au droit des ouvrages RS2, RS5, RS13, RS15, PZ4 et PZ5,
+
+51l0l0	BTEX	O
+51l0l1	au_droit_des_ouvrages	L
+51l1l0	BTEX	S
+
+#- une concentration significative en benzène en PZA,
+
+52l1l0	benzène	S
+52l1l1	PZA	I
+
+#- des traces non significatives ou absentes en BETX en RS6, PZ2 et PZ3 et PZ4 (aval du site) et RS9 (site) et PZ1 (amont).
+
+53l0l0	BETX	O
+53l1l0	BETX	S
+
+#Ces données permettent de conclure à l'absence d'impact en HCT et aromatiques au droit des ouvrages situés autour du site et au maintien du panache d'hydrocarbures totaux dissous et BTEX au niveau des installations.
+
+54l0l0	des_ouvrages	O
+54l0l1	situés_autour_du_site	L
+54l0l2	maintien	N
+54l1l0	HCT	S
+54l1l1	hydrocarbures_totaux_dissous	S
+54l1l2	BTEX	S
+
+#Le 08/03/2010, l'inspection demande à ce que l'exploitant justifie les conditions d'arrêt du système de traitement de la nappe, notamment l'observation des concentrations pérennes en hydrocarbures dissous dans la nappe au droit du site inférieures à 1 mg/l, des teneurs en volatils inférieurs à 300 ppm Volume, des concentrations en benzène inférieures à 100 µg/l dans la nappe en limite de propriété.
+
+55l0l0	Le_08_03_2010	T
+55l0l1	l__inspection	O
+55l0l2	l__exploitant	O
+55l0l3	traitement	N
+55l0l4	la_nappe	O
+55l0l5	au_droit_du_site	L
+55l1l0	hydrocarbures	S
+55l1l1	benzène	S
+
+#Les rapports de suivi de Mars 2010 et Janvier 2011 soulignent de très fortes diminutions des concentrations en hydrocarbures totaux sur l'ensemble des ouvrages et l'absence d'impact hors du site.
+
+56l0l0	Les_rapports_de_suivi	O
+56l0l1	de_Mars_2010_et_Janvier_2011	T
+56l0l2	de_très_fortes_diminutions	N
+56l0l3	hydrocarbures_totaux	O
+56l1l0	hydrocarbures_totaux	S
+
+#Ils confirment toutefois la présence persistante d'un panache de pollution au droit des installations en BTEX.
+
+57l0l0	panache_de_pollution	O
+57l0l1	au_droit_des_installations	L
+57l0l2	en_BTEX	R
+57l1l0	BTEX	S
+
+#Aussi, il a été demandé à l'exploitant, par lettre du 08/03/2011, de justifier précisément les conditions d'arrêt du système de traitement de la nappe en se référant aux objectifs de dépollution inscrits dans l'article 2.3 de l'arrêté préfectoral complémentaire du 26/03/2007.
+
+58l0l0	l__exploitant	O
+58l0l1	du_08_03_2011	T
+58l0l2	les_conditions	O
+58l0l3	d__arrêt_du_système_de_traitement	N
+58l0l4	la_nappe	O
+58l0l5	dépollution	N
+58l0l6	inscrits	R
+58l0l7	26_03_2007	T
+
+#Si les limites de performance du traitement par extraction triple phase s'avéraient effectivement atteintes, l'exploitant était invité, sur la base d'un bilan coûts/avantages, à proposer des mesures de dépollution complémentaires.
+
+59l0l0	les_limites	O
+59l0l1	extraction_triple_phase	O
+59l0l2	s__avéraient_effectivement_atteintes	N
+59l0l3	l__exploitant	O
+59l0l4	dépollution	N

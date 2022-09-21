@@ -1,0 +1,438 @@
+
+#44.0081
+#La laiterie de la société COLARENA a débuté son activité sur le site de Fresnay en Retz en 1896.
+
+0l0l0	La_laiterie	O
+0l0l1	la_société_COLARENA	O
+0l0l2	a_débuté_son_activité	N
+0l0l3	sur_le_site_de_Fresnay_en_Retz	L
+0l0l4	en_1896	T
+0l1l0	la_société_COLARENA	I
+
+#Les activités consistaient en la réception, le stockage, la transformation du lait et des produits issus du lait.
+
+1l0l0	la_réception	A
+1l0l1	le_stockage___la_transformation_du_lait	A
+
+#Les activités de la société étaient réglementées par les arrêtés préfectoraux des 5 avril 1976 et 9 mai 1985.
+
+2l0l0	Les_activités	A
+2l0l1	la_société	O
+2l0l2	étaient_réglementées	N
+2l0l3	les_arrêtés_préfectoraux	O
+2l0l4	des_5_avril_1976_et_9_mai_1985__	T
+
+#L'activité laiterie s'est achevée en 1989.
+
+3l0l0	L__activité_laiterie	A
+3l0l1	s__est_achevée	N
+3l0l2	en_1989__	T
+
+#Depuis 1999, la société était autorisée à stocker des céréales sur le site par récépissé de déclaration du 8 avril 1999.
+
+4l0l0	Depuis_1999__	T
+4l0l1	la_société	O
+4l0l2	était_autorisée_à_stocker	N
+4l0l3	des_céréales	O
+4l0l4	récépissé	O
+4l0l5	de_déclaration	N
+4l0l6	du_8_avril_1999__	T
+
+#A noter qu'une activité d'extraction de protéines issues de poils de cochons a été réalisée pendant 6 mois autour des années 1989-1990.
+
+5l0l0	activité_d__extraction_de_protéines_issues_de_poils_de_cochons	A
+5l0l1	a_été_réalisée	N
+5l0l2	pendant_6_mois	T
+5l0l3	autour_des_années_1989___1990__	T
+
+#A ce titre, ont été installées des citernes de 100000 l servant à stocker des poils de cochons avec de l'acide.
+
+6l0l0	ont_été_installées	N
+6l0l1	poils_de_cochons	A
+6l0l2	l__acide	O
+6l1l0	des_citernes	D
+
+#La surface total des terrains est de 34 563 m2.
+
+
+#L'emprise des bâtiments est de l'ordre de 8 500 m2.
+
+
+#Le site est composé de:
+
+
+#- quatre bâtiments dont un local transformateur,
+
+10l0l0	quatre_bâtiments	O
+10l0l1	un_local_transformateur	O
+
+#- un château d'eau,
+
+
+#- deux stations-services,
+
+12l1l0	services	S
+
+#- quatre cuves enterrées de gasoil ou essence,
+
+13l0l0	gasoil	A
+13l0l1	ou_essence	A
+13l1l0	gasoil	U
+
+#- quatre cuves aériennes de fuel lourd ou fuel léger,
+
+14l1l0	fuel_lourd	U
+14l1l1	fuel	S
+
+#- trois citernes de stockage de poils de cochons,
+
+15l0l0	cochons	A
+15l1l0	trois_citernes	D
+
+#- une station d'épuration,
+
+16l0l0	une_station	O
+
+#- une fosse de réception de céréales,
+
+17l0l0	une_fosse	O
+17l0l1	de_réception_de_céréales	A
+
+#- une zone de stationnement de camion,
+
+
+#- des zones de stockage de déchets.
+
+
+#La activités liées à la laiterie ont cessé en 1989.
+
+20l0l0	La_activités_liées	O
+20l0l1	la_laiterie	O
+20l0l2	ont_cessé	N
+20l0l3	en_1989__	T
+
+#L'exploitant a déclaré cette cessation le 25 novembre 2011.
+
+21l0l0	L__exploitant	O
+21l0l1	a_déclaré_cette_cessation	N
+21l0l2	le_25_novembre_2011__	T
+
+#Un diagnostic initial de la qualité des sols et des eaux souterraines a été réalisé en septembre 2010: 34 sondages de sols ont été effectués.
+
+22l0l0	Un_diagnostic_initial	N
+22l0l1	la_qualité_des_sols_et_des_eaux_souterraines	O
+22l0l2	a_été_réalisé	N
+22l0l3	en_septembre_2010	T
+22l0l4	34_sondages_de_sols	N
+22l0l5	ont_été_effectués	N
+
+#Les résultats obtenus ont montré:
+
+
+#- dans les sols:
+
+
+#un impact en hydrocarbures totaux de type "huiles" au droit d'une ancienne zone de stockage de déchets (ouest du site) et au sud des ateliers,
+
+25l0l0	au_droit_d__une_ancienne_zone	L
+25l0l1	ouest_du_site	L
+25l0l2	et	R
+25l0l3	au_sud_des_ateliers	L
+25l1l0	hydrocarbures_totaux	S
+25l1l1	huiles__	U
+
+#un impact en PCB au droit de l'ancien local transformateur (sud du site),
+
+26l0l0	au_droit_de_l__ancien_local_transformateur___sud_du_site	L
+26l1l0	PCB	S
+
+#- dans les eaux souterraines: un impact en hydrocarbures, HAP, arsenic et nickel.
+
+27l1l0	hydrocarbures	S
+27l1l1	HAP	S
+27l1l2	arsenic	S
+27l1l3	nickel	S
+
+#Des investigations complémentaires dans les sols ont été réalisées en janvier 2013: 14 points de prélèvements répartis aux abords des deux zones polluées identifiées en 2010 et 2 sondages au droit de la zone de stockage ouest et du local transformateur.
+
+28l0l0	Des_investigations_complémentaires_dans_les_sols_ont_été_réalisées	N
+28l0l1	en_janvier_2013	T
+28l0l2	aux_abords_des	L
+28l0l3	deux_zones_polluées_identifiées	O
+28l0l4	en_2010	T
+28l0l5	2	O
+28l0l6	sondages_au_droit_de_la_zone_de_stockage_ouest	L
+28l0l7	transformateur	O
+
+#Les résultats ont montré:
+
+
+#- un impact en hydrocarbures au droit de la zone de stockage aérien de déchets.
+
+30l0l0	un_impact	O
+30l0l1	hydrocarbures	O
+30l0l2	au_droit_de	L
+30l0l3	la_zone_de_stockage_aérien	O
+30l1l0	hydrocarbures	S
+
+#L'extension de la pollution semble limitée avec une zone contaminée estimée à 36 m2 sur une profondeur d'un mètre,
+
+31l0l0	L__extension	N
+31l0l1	de_la_pollution	O
+31l0l2	zone_contaminée	O
+
+#- un impact en PCB. la zone contaminée a été estimée à 25 m2.
+
+32l0l0	un_impact	O
+32l0l1	la_zone_contaminée	O
+32l1l0	PCB	S
+
+#Les teneurs mesurées lors des investigations complémentaires de 2012 étant inférieures à la limite de quantification, l'exploitant a proposé de laisser les terres impactées au PCB sur place.
+
+33l0l0	des_investigations_complémentaires	N
+33l0l1	de_2012	T
+33l0l2	l__exploitant	O
+33l0l3	a_proposé_de_laisser	N
+33l0l4	les_terres_impactées	O
+33l1l0	PCB	S
+
+#Les résultats des mesures portant sur la qualité des eaux souterraines au droit du site ont montré:
+
+34l0l0	au_droit_du_site	L
+
+#- une forte diminution des teneurs en hydrocarbures et HAP.
+
+35l1l0	hydrocarbures	S
+35l1l1	HAP	S
+
+#Toutefois, les teneurs de certains HAP sont supérieures aux seuils fixés à l’annexe I de l’arrêté ministériel du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine en amont hydraulique,
+
+36l0l0	11_janvier_2007	T
+36l0l1	en_amont_hydraulique	L
+36l1l0	HAP	S
+
+#- l’absence d’impact en BTEX,
+
+37l1l0	BTEX	S
+
+#- une hausse des teneurs en arsenic et nickel en aval hydraulique.
+
+38l0l0	arsenic	O
+38l0l1	nickel	O
+38l0l2	en_aval_hydraulique	L
+38l1l0	arsenic	S
+38l1l1	nickel	S
+
+#Les travaux suivants ont été réalisés:
+
+39l0l0	ont_été_réalisés	N
+
+#- évacuation des cuves aériennes d'essence ou de fuel,
+
+40l0l0	évacuation	N
+40l0l1	cuves_aériennes	O
+40l0l2	d__essence	O
+40l1l0	cuves	D
+40l1l1	aériennes_d__essence	U
+40l1l2	fuel	U
+
+#- mise en sécurité des installations de distribution et de stockage d'hydrocarbures par nettoyage, pompage et extraction ou inertage,
+
+41l0l0	mise_en_sécurité	N
+41l0l1	des_installations_de_distribution_et_de_stockage_d__hydrocarbures	O
+41l0l2	nettoyage	N
+41l0l3	pompage	A
+41l0l4	inertage	N
+41l1l0	hydrocarbures	S
+
+#- inertage de la cuve enterrée des huiles de vidange,
+
+42l0l0	inertage	N
+42l0l1	la_cuve_enterrée	O
+42l0l2	huiles_de_vidange	O
+42l1l0	la_cuve_enterrée	D
+42l1l1	des_huiles_de_vidange	U
+
+#- excavation des terres impactés de l'ancienne zone de stockage des déchets (112 t de terres excavées),
+
+43l0l0	__excavation	N
+43l0l1	des_terres_impactés	O
+
+#- pompage et élimination des boues de la station d'épuration présentes au fond des bassins (231 t).
+
+44l0l0	pompage	A
+44l0l1	élimination	N
+44l0l2	la_station_d__épuration	O
+
+#Des prélèvements au niveau du fond et parois de fouille ont été effectués au niveau de la zone de stockage des déchets, de la zone de stockage des carburants et de la zone de distribution de gasoil.
+
+45l0l0	Des_prélèvements	N
+45l0l1	au_niveau	O
+45l0l2	ont_été_effectués	N
+45l0l3	au_niveau_de	R
+45l0l4	la_zone	O
+45l0l5	la_zone_de_stockage_des_carburants	O
+45l0l6	la	O
+45l0l7	zone_de_distribution_de_gasoil	A
+45l1l0	carburants	U
+45l1l1	gasoil	S
+
+#Les résultats montrent une concentration en hydrocarbures inférieure à 500 mg/kg MS.
+
+46l1l0	hydrocarbures	S
+
+#L'exploitant a proposé:
+
+47l0l0	L__exploitant	O
+
+#- le suivi de la qualité des eaux souterraines pendant un an,
+
+48l0l0	le_suivi_de_la_qualité_des_eaux_souterraines	A
+48l0l1	pendant_un_an	T
+
+#- la mise en place de servitude (restant à mettre en place).
+
+49l0l0	la_mise_en	N
+49l0l1	place_de_servitude	O
+
+#Par arrêté préfectoral du 2 février 2015, il a été imposé à l’exploitant la surveillance des eaux souterraines au droit de son établissement pendant une période de deux ans.
+
+50l0l0	arrêté_préfectoral	O
+50l0l1	du_2_février_2015__	T
+50l0l2	il	O
+50l0l3	a_été_imposé	N
+50l0l4	à_l__exploitant	O
+50l0l5	la_surveillance_des_eaux_souterraines	A
+50l0l6	au_droit_de_son_établissement	L
+50l0l7	pendant_une_période_de_deux_ans__	T
+
+#Ce suivi des eaux souterraines a pris fin en 2017.
+
+51l0l0	Ce_suivi_des_eaux_souterraines	O
+51l0l1	a_pris_fin	N
+51l0l2	en_2017__	T
+
+#Les résultats montrent, d’une manière générale, une diminution des teneurs en HAP, éléments traces métalliques et hydrocarbures totaux.
+
+52l0l0	HAP	O
+52l1l0	HAP	S
+52l1l1	éléments_traces_métalliques	S
+52l1l2	hydrocarbures_totaux	S
+
+#Toutefois, les teneurs en benzo(a)pyrène restent supérieures à la valeur de référence pour un usage sensible des eaux.
+
+53l1l0	benzo_a_pyrène	S
+
+#Dans le cadre de la cessation définitive des activités du site, de nouvelles investigations des sols ont été menées en juin 2018. 30 points de sondage ont été réalisés sur la base d’un maillage systématique aléatoire avec des mailles de l’ordre de 1000 m2.
+
+54l0l0	Dans_le_cadre_de	R
+54l0l1	la_cessation_définitive	N
+54l0l2	activités_du_site	A
+54l0l3	de_nouvelles_investigations_des_sols	N
+54l0l4	ont_été_menées	N
+54l0l5	en_juin_2018__	T
+54l0l6	30_points_de_sondage	O
+54l0l7	ont_été_réalisés	N
+54l0l8	sur_la_base_d_	R
+
+#Les résultats de ces prélèvements ont montré :
+
+
+#• des zones de contamination des sols aux HAP (> 5 mg/kg MS) au droit :
+
+56l0l0	des_zones_de_contamination	O
+56l0l1	HAP	O
+56l1l0	HAP	S
+
+#• de l’ancien stockage de fuel en cuve aérienne de 25 000 l et de l’ancienne cuve enterrée d’essence de 1100 l (M3) ;
+
+57l0l0	l__ancien_stockage_de_fuel	O
+57l0l1	de_l__ancienne_cuve_enterrée	O
+57l1l0	fuel	U
+57l1l1	ancienne_cuve_enterrée	D
+57l1l2	d__essence	S
+
+#• de l’entrée de l’ancien bâtiment « réfectoire » (M8) ;
+
+
+#• d’une ancienne fosse souterraine suspectée aux abords d’un bâtiment de stockage (M25) ;
+
+59l0l0	une_ancienne_fosse_souterraine	O
+59l0l1	aux_abords_d__un_bâtiment_de_stockage	L
+
+#• des contaminations ponctuelles en benzo(a) pyrène (> LQ) au droit des trois points susvisés (M3, M8, M25) et au droit de l’ancienne zone de stationnement des véhicules de la laiterie (M9) ;
+
+60l0l0	contaminations_ponctuelles	N
+60l0l1	au_droit_de_l_	L
+60l0l2	la_laiterie	O
+60l1l0	benzo_a___pyrène	S
+
+#• une zone de contamination des sols aux hydrocarbures totaux (> 500 mg/kg MS) au droit de l’entrée de l’ancien bâtiment « réfectoire » (M8) ;
+
+61l0l0	une_zone_de_contamination	O
+61l1l0	hydrocarbures_totaux	S
+
+#• des impacts en hydrocarbures sur la quasi-totalité du site (< 500 mg/kg MS) ;
+
+62l1l0	hydrocarbures	S
+
+#• des teneurs en éléments traces métalliques supérieures aux gammes de valeurs couramment observées dans les sols agricoles en France et locaux.
+
+63l1l0	éléments_traces_métalliques	S
+
+#D’une manière plus ponctuelle, il est constaté :
+
+
+#• des teneurs significativement élevées au droit de l’entrée de l’ancien bâtiment « réfectoire » (M8) pour les paramètres cadmium, mercure, arsenic, cuivre et plomb ;
+
+65l0l0	des_teneurs	O
+65l1l0	pour_les_paramètres_cadmium___mercure___arsenic___cuivre_et_plomb	S
+
+#• des teneurs significativement élevées au droit de l’ancienne zone de stationnement des véhicules de la laiterie (M10) pour les paramètres cadmium et arsenic ;
+
+66l0l0	des_teneurs	O
+66l0l1	la_laiterie	O
+66l1l0	cadmium	S
+66l1l1	arsenic	S
+
+#• des teneurs significativement élevées au droit du réservoir extérieur aux abords de l’ancien atelier de mécanique/réparation (M11) pour le paramètre cadmium ;
+
+67l0l0	au_droit_du	L
+67l0l1	réservoir_extérieur	O
+67l0l2	mécanique___réparation	A
+67l0l3	cadmium	O
+67l1l0	cadmium	S
+
+#• des teneurs significativement élevées au droit d’un ancien bâtiment de stockage (M18) pour les paramètres cuivre et nickel ;
+
+68l0l0	des_teneurs	O
+68l1l0	cuivre	S
+68l1l1	nickel	S
+
+#• des teneurs significativement élevées au droit de l’ancienne chaufferie (M23) pour le paramètre mercure ;
+
+69l1l0	mercure	S
+
+#• des teneurs significativement élevées au droit d’une ancienne fosse souterraine suspectée aux abords d’un bâtiment de stockage (M25) pour les paramètres cuivre, plomb et zinc.
+
+70l0l0	des_teneurs	O
+70l0l1	une_ancienne_fosse_souterraine	O
+70l0l2	aux_abords_d__un_bâtiment_de_stockage	L
+70l1l0	cuivre	S
+70l1l1	plomb	S
+70l1l2	zinc	S
+
+#L’exploitant ne propose aucun travaux de dépollution.
+
+71l0l0	L__exploitant	O
+71l0l1	travaux_de_dépollution	N
+
+#L'inspection des installations classées (IIC) demande à l'exploitant par courrier du 11/02/2019 de traiter les pollutions concentrées, de réaliser un plan de gestion et une analyse des risques ainsi que de constituer un dossier de demande d'institution des servitudes d'utilité publique.
+
+72l0l0	L__inspection_des_installations_classées	O
+72l0l1	l__exploitant	O
+72l0l2	11_02_2019	T
+72l0l3	de_traiter_les_pollutions	N
+72l0l4	concentrées	O
+72l0l5	réaliser_un_plan_de_gestion	N
+72l0l6	une_analyse_des_risques	N

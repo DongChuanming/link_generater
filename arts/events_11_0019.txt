@@ -1,0 +1,199 @@
+
+#11.0019
+#La société SOFT formule et conditionne des produits phytosanitaires (fongicides, herbicides, insecticides, etc.) à partir de matières actives qui ne sont pas fabriquées sur le site.
+
+0l0l0	La_société_SOFT	O
+0l0l1	formule_et_conditionne	A
+0l0l2	des_produits_phytosanitaires	O
+0l1l0	La_société_SOFT	I
+0l1l1	fongicides	S
+
+#L'établissement comporte, sur une superficie d'environ 4 700 m2, des bureaux, un petit laboratoire d'analyse, des bâtiments d'entreposage d'emballages vides, de matières premières, et de produits phytosanitaires finis, et des bâtiments dotés d'équipements de mélange et de conditionnement (poudres et liquides).
+
+1l0l0	des_bâtiments	O
+1l0l1	d__entreposage	A
+1l0l2	emballages_vides	O
+1l0l3	produits_phytosanitaires_finis	A
+1l0l4	des_bâtiments	O
+1l0l5	poudres_et_liquides	O
+
+#En extérieur se trouvent également des stockages de matières premières et des bassins de collecte d'eaux pluviales.
+
+2l0l0	des_bassins_de_collecte	O
+
+#Le site est situé le long du ruisseau des Coussouls (cours d'eau connu sous différentes orthographes sans aucun usage, se jetant dans le Canalet raccordé au port de la ville ; la pêche est pratiquée dans le Canalet).
+
+3l0l0	Le_site	O
+3l0l1	situé_le_long_du_ruisseau_des_Coussouls	L
+3l0l2	jetant_dans_le_Canalet_raccordé_au_port_de_la_ville	L
+3l0l3	dans_le_Canalet	L
+
+#En rive droite se trouvent le bâtiment des emballages neufs vides et les réserves d'eau de lutte contre l'incendie, en rive gauche le restant des installations de l'exploitation.
+
+4l0l0	En_rive_droite	L
+4l0l1	trouvent	N
+4l0l2	le_bâtiment	O
+4l0l3	les_réserves_d__eau	O
+4l0l4	l__exploitation	O
+4l1l0	emballages_neufs_vides	U
+
+#De profonds changements de l'activité ont eu lieu en 2012 aboutissant à relever uniquement du régime de la déclaration le 6 novembre 2012, principalement pour le stockage de produits très toxiques pour les organismes aquatiques (rubrique 1172).
+
+5l0l0	De_profonds_changements	N
+5l0l1	l__activité	O
+5l0l2	ont_eu_lieu	N
+5l0l3	en_2012	T
+5l0l4	la_déclaration	N
+5l0l5	le_6_novembre_2012__	T
+5l0l6	le	A
+5l0l7	stockage_de_produits_très_toxiques	O
+
+#L'activité s'est encore reduite en 2015 pour se limiter à une partie des bâtiments : récépissé de déclaration du 5/02/2015.
+
+6l0l0	L__activité_s__est_encore_reduite	N
+6l0l1	en_2015	T
+6l0l2	se_limiter_à	R
+6l0l3	une_partie_des_bâtiments	O
+6l0l4	récépissé	O
+6l0l5	de_déclaration	N
+6l0l6	du_5_02_2015__	T
+
+#Suite au constat d'un écoulement accidentel de chlorpyrifos éthyl dans le ruisseau des Coussouls le 10 décembre 2004, les investigations ont mis en évidence des épandages de ce produit en plusieurs points du site, et des pratiques pouvant être à l'origine d'épandage d'autres pesticides.
+
+7l0l0	Suite_au_constat_d_	R
+7l0l1	un_écoulement_accidentel	N
+7l0l2	chlorpyrifos	O
+7l0l3	dans_le_ruisseau_des_Coussouls	L
+7l0l4	le_10_décembre_2004__	T
+7l0l5	les_investigations	N
+7l0l6	des_épandages_de_ce_produit	N
+7l0l7	épandage	N
+7l1l0	chlorpyrifos_éthyl	S
+
+#En conséquence, en complément des dispositions mises en oeuvre pour remédier à la pollution clairement identifiée au chlorpyrifos-éthyl (demantèlement de la cuve et de sa rétention, excavation et évacuation des terres souillées sous et autour de la rétention, mise en place d'un revêtement étanche sur la zone excavée, curage du Coussouls et évacuation des boues, traitement à l'eau de javel de la nappe au droit de la zone excavée, surveillance des teneurs rémanentes de chlorpyrifos dans la nappe), la société SOFT a été tenue de réaliser une étude de sols et une évaluation simplifiée des risques de son site par arrêté préfectoral n°2005-11-3378 du 18 novembre 2005.
+
+8l0l0	demantèlement	N
+8l0l1	la_cuve	O
+8l0l2	sa_rétention	O
+8l0l3	excavation	N
+8l0l4	évacuation	O
+8l0l5	la_rétention	O
+8l0l6	mise_en_place_d__un_revêtement	N
+8l0l7	curage	N
+8l0l8	Coussouls	O
+8l0l9	évacuation_des_boues	N
+8l0l10	traitement	N
+8l0l11	à_l__eau_de_javel	A
+8l0l12	la_nappe	O
+8l0l13	au_droit_de_la_zone	L
+8l0l14	excavée	O
+8l0l15	la_société_SOFT	O
+8l0l16	a_été_tenue_de_réaliser	N
+8l0l17	une_étude_de_sols	N
+8l0l18	une_évaluation_simplifiée_des_risques	N
+8l0l19	son_site	N
+8l0l20	arrêté_préfectoral	O
+8l0l21	n__2005___11___3378_du_18_novembre_2005__	T
+8l1l0	chlorpyrifos___éthyl	S
+8l1l1	chlorpyrifos	S
+8l1l2	la_société_SOFT	I
+
+#L'évaluation simplifiée des risques a aboutit à la nécessité d'investigations complémentaires par sondages carottés des sols sur 0-3 m.
+
+9l0l0	évaluation_simplifiée_des_risques	N
+9l0l1	a_aboutit_à	R
+9l0l2	la_nécessité	O
+
+#L'établissement est toujours en fonctionnement ; il a été décidé de réaliser dans un premier temps quelques sondages représentatifs en des endroits particuliers sans destruction ou atteinte aux installations et notamment aux rétentions du site.
+
+10l0l0	L__établissement	O
+10l0l1	est_toujours_en_fonctionnement	N
+10l0l2	il	O
+10l0l3	a_été_décidé	N
+10l0l4	de_réaliser_dans_un_premier	N
+10l0l5	destruction_ou	N
+10l0l6	atteinte_aux	R
+10l0l7	installations	N
+10l0l8	aux_rétentions_du_site	L
+
+#Les molécules recherchées étaient toutes celles déjà utilisées sur le site par la société SOFT, complétées par celles détectées par la Parc Naturel Régional de la Narbonnaise au cours de campagnes de diagnostic de la qualité des eaux du Coussouls en 2005 et 2007.
+
+11l0l0	la_société_SOFT	O
+11l0l1	celles_détectées	N
+11l0l2	la_Parc_Naturel_Régional_de_la_Narbonnaise	O
+11l0l3	de_campagnes_de_diagnostic	N
+11l0l4	la_qualité_des_eaux	O
+11l0l5	Coussouls	N
+11l0l6	en_2005_et_2007__	T
+11l1l0	la_société_SOFT	I
+11l1l1	la_Parc_Naturel_Régional_de_la_Narbonnaise	I
+
+#La campagne de carottages effectuée le 14 octobre 2009 a révélé des spots de contamination de divers pesticides sur la quasi-totalité des sondages.
+
+12l0l0	La_campagne_de	N
+12l0l1	carottages	O
+12l0l2	effectuée	N
+12l0l3	le_14_octobre_2009	T
+12l0l4	a_révélé	N
+12l0l5	des_spots	O
+12l0l6	de_contamination	O
+12l1l0	pesticides	S
+
+#Leur excavation ne peut pas être envisagée sans une meilleure connaissance de leurs étendues et des volumes concernés.
+
+13l0l0	Leur_excavation	N
+
+#Même si leur présence est compatible avec la poursuite de l'activité industrielle actuelle du site, des investigations complémentaires sont nécessaires pour apprécier selon les battements de la nappe, les risques de transfert dans la nappe et surtout dans le cours d'eau des Coussouls alimenté partiellement par cette nappe.
+
+14l0l0	la_poursuite_de	N
+14l0l1	l__activité_industrielle_actuelle_du_site	A
+14l0l2	le_cours_d__eau_des_Coussouls_alimenté_partiellement_par_cette_nappe	L
+
+#Ces investigations complémentaires ont été menées après de fortes précipitations au cours du mois d'octobre 2010.
+
+15l0l0	Ces_investigations_complémentaires	O
+15l0l1	ont_été_menées	N
+15l0l2	après	R
+15l0l3	de_fortes_précipitations	N
+15l0l4	au_cours_du_mois_d__octobre_2010__	T
+
+#Elles ont mis en évidence :
+
+
+#- une réaction rapide de la nappe suite aux précipitations avec un retour des niveaux piézométriques et du Coussouls au bout de 8 jours ;
+
+17l0l0	une_réaction	N
+17l0l1	la_nappe	O
+17l0l2	suite_aux	R
+17l0l3	précipitations	N
+17l0l4	un_retour	N
+17l0l5	Coussouls	L
+
+#- quelques apports en pesticides à l'état de trace (inférieure au microgramme par litre) dans le Coussouls 8 jours après un épisode pluvieux conséquent.
+
+18l0l0	Coussouls	L
+18l0l1	8_jours	T
+18l0l2	après_un_épisode_pluvieux	N
+
+#- une diminution voire une absence des teneurs dans le milieu naturel au bout de 15 jours.
+
+
+#En conséquence, l'impact apparaît faible sur le milieu naturel par phénomène de relargage lors de pluies conséquentes.
+
+20l0l0	relargage	N
+
+#Après nettoyage du site dans le cadre d'une cessation partielle d'activités en 2014, des analyses ont été menées sur les bassins de rétention des eaux pluviales du site.
+
+21l0l0	Après_nettoyage	N
+21l0l1	site	O
+21l0l2	dans_le_cadre_d_	R
+21l0l3	une_cessation_partielle_d__activités	N
+21l0l4	en_2014__	T
+21l0l5	des_analyses_ont_été_menées	N
+21l0l6	les_bassins_de_rétention	O
+21l0l7	du_site	O
+
+#Les résultats ont montré une compatibilité de ces eaux avec le milieu superficiel du ruisseau des Coussouls.
+
+22l0l0	ces_eaux	O
+22l0l1	Coussouls	L

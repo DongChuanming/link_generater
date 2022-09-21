@@ -1,0 +1,173 @@
+
+#72.0023
+#L'entreprise, implantée depuis 1938, fabrique de la boulonnerie pour l'automobile et l'aviation.
+
+0l0l0	L__entreprise	O
+0l0l1	implantée	N
+0l0l2	depuis_1938	T
+0l0l3	fabrique_de_la_boulonnerie	A
+0l0l4	l__automobile	O
+0l0l5	l__aviation	O
+
+#Elle comporte des ateliers de travail mécanique des métaux et de traitement de surface mettant en oeuvre en particulier du cadmium et du chrome VI; Cet établissement dispose d'une installation de détoxication et de traitement des effluents industriels avant rejet au milieu naturel.
+
+1l0l0	comporte	R
+1l0l1	des_ateliers_de_travail_mécanique_des_métaux	O
+1l0l2	traitement_de_surface	A
+1l0l3	Cet_établissement	O
+1l0l4	dispose_d_	R
+1l0l5	une_installation	O
+1l0l6	effluents_industriels	O
+1l0l7	avant_rejet_au_milieu_naturel	L
+1l1l0	cadmium	S
+1l1l1	chrome_VI	S
+1l1l2	effluents_industriels	U
+
+#Depuis 1998, la chaîne mettant en oeuvre du cadmium n'a plus aucun rejet dans le milieu naturel. la station d'épuration communale est située à proximité immédiate de l'usine et la canalisation des eaux usées communales qui passait sous les ateliers a été supprimée en 2005.
+
+2l0l0	Depuis_1998__	T
+2l0l1	la_station_d__épuration_communale	O
+2l0l2	située_à_proximité_immédiate_de_l__usine	L
+2l0l3	la_canalisation_des_eaux_usées_communales	O
+2l0l4	ateliers	O
+2l0l5	a_été_supprimée	N
+2l0l6	en_2005__	T
+2l1l0	cadmium	S
+
+#La DDASS a signalé à la DRIRE en début d'année 2000 la présence de cadmium dans les boues de la station communale à une teneur supérieure à 20 mg /kg, les rendant impropres à l'épandage.
+
+3l0l0	La_DDASS	O
+3l0l1	a_signalé	N
+3l0l2	la_DRIRE	O
+3l0l3	en_début_d_	N
+3l0l4	année_2000	T
+3l0l5	la_station_communale	O
+3l1l0	La_DDASS	I
+3l1l1	la_DRIRE	I
+3l1l2	cadmium	S
+
+#Or les rejets industriels ont toujours eu lieu dans le milieu naturel sans passage par la station communale.
+
+4l0l0	rejets_industriels	O
+4l0l1	ont_toujours_eu_lieu_dans	N
+4l0l2	la_station_communale	O
+
+#En outre, depuis 1998 l'atelier utilisant du cadmium est en rejet zéro.
+
+5l0l0	depuis_1998	T
+5l0l1	l_	O
+5l0l2	est_en_rejet_zéro	N
+5l1l0	cadmium	S
+
+#Dans un premier temps l'exploitant a actualisé les plans des réseaux d'évacuation des eaux et recherché les éventuels raccordements parasites au réseau communal.
+
+6l0l0	l__exploitant	O
+6l0l1	a_actualisé	N
+6l0l2	les_plans	N
+6l0l3	recherché	R
+6l0l4	les_éventuels_raccordements_parasites_au_réseau_communal	O
+
+#Ces recherches ont été vaines et les réseaux se sont révélés indépendants.
+
+7l0l0	les_réseaux	O
+7l0l1	se_sont_révélés_indépendants	N
+
+#Le réseau communal comportait une canalisation qui transitait sous les ateliers.
+
+8l0l0	Le_réseau_communal	O
+8l0l1	comportait	R
+8l0l2	une_canalisation	O
+8l0l3	sous_les_ateliers	L
+
+#Ainsi, a-t-il été envisagé la possibilité d'un transfert de pollution des sols par les eaux souterraines vers cette canalisation.
+
+9l0l0	transfert_de_pollution	N
+9l0l1	les_eaux_souterraines	O
+9l0l2	vers	L
+9l0l3	cette_canalisation	O
+
+#L'arrêté préfectoral du 03/04/2001 a imposé à l'exploitant de réaliser un examen approfondi en vue de la recherche d'une pollution de sol et de mener les études de migration de celle-ci.
+
+10l0l0	L__arrêté_préfectoral	O
+10l0l1	03_04_2001	T
+10l0l2	a_imposé	N
+10l0l3	l__exploitant	O
+10l0l4	de_réaliser_un_examen_approfondi	N
+10l0l5	en_vue_de	R
+10l0l6	la_recherche_d__une_pollution_de_sol	N
+10l0l7	de_mener_les_études_de_migration	N
+
+#Les documents remis à la DRIRE le 26 juillet 2001 ont permis d'établir que le sol est pollué par des métaux au voisinage de la canalisation communale, notamment par du cadmium à des concentrations dépassant les valeurs de constat d'impact.
+
+11l0l0	Les_documents_remis	N
+11l0l1	la_DRIRE	O
+11l0l2	le_26_juillet_2001	T
+11l0l3	le_sol_est_pollué	O
+11l0l4	par	R
+11l0l5	des_métaux	O
+11l0l6	au_voisinage_de	L
+11l0l7	la_canalisation_communale	O
+11l0l8	cadmium	O
+11l1l0	DRIRE	I
+11l1l1	métaux	S
+11l1l2	du_cadmium	S
+
+#La pollution serait dûe à une ancienne pratique de stockage au sol de boues de détoxication, en séchage naturel avant enlèvement,durant la période 1975-1974.
+
+12l0l0	durant_la_période_1975___1974__	T
+12l1l0	boues_de_détoxication	U
+
+#Il a été demandé à l'exploitant par arrêté préfectoral en date du 02/10/2001 de proposer des solutions en vue de stopper la migration des polluants à l'extérieur du site et de mettre en place un suivi sur la nappe phréatique.
+
+13l0l0	Il_a_été_demandé	N
+13l0l1	l__exploitant	O
+13l0l2	arrêté_préfectoral	O
+13l0l3	en_date_du_02_10_2001	T
+13l0l4	à_l__extérieur_du_site	L
+13l0l5	la_nappe_phréatique	O
+13l1l0	polluants	S
+
+#La canalisation communale a été totalement supprimée en 2005 suite aux modifications réalisées sur la station communale.
+
+14l0l0	La_canalisation_communale	O
+14l0l1	a_été_totalement_supprimée	N
+14l0l2	en_2005	T
+14l0l3	suite_aux	R
+14l0l4	modifications	O
+14l0l5	réalisées_sur	R
+14l0l6	la_station_communale	O
+
+#Une surveillance semestrielle des eaux souterraines et tous les deux ans pour les sédiments a été imposée par un arrêté préfectoral du 16 décembre 2004 modifié le 21 mai 2005.
+
+15l0l0	Une_surveillance_semestrielle	A
+15l0l1	eaux_souterraines	O
+15l0l2	tous_les_deux_ans	T
+15l0l3	sédiments	O
+15l0l4	a_été_imposée	N
+15l0l5	par_un_arrêté_préfectoral	O
+15l0l6	du_16_décembre_2004	T
+15l0l7	le_21_mai_2005__	T
+15l1l0	sédiments	S
+
+#Parallèlement, une pollution de la nappe par des produits chlorés a été identifiée et des études ont été demandée par arrêté du 03 avril 2001.
+
+16l0l0	une_pollution_de	O
+16l0l1	la_nappe	O
+16l0l2	des_produits_chlorés	O
+16l0l3	a_été_identifiée	N
+16l0l4	des_études_ont_été_demandée	N
+16l0l5	03_avril_2001	T
+16l1l0	produits_chlorés	U
+
+#Une surveillance des eaux souterraines et des eaux de surfaces a été réalisée par l'exploitant, puis les modalités en ont été actées par l'arrêté complémentaire du 21/05/2007, modifiant l'arrêté du 16/12/2004.
+
+17l0l0	Une_surveillance_des_eaux_souterraines_et_des_eaux_de_surfaces	A
+17l0l1	a_été_réalisée	N
+17l0l2	l__exploitant	O
+17l0l3	les_modalités	O
+17l0l4	ont_été_actées	N
+17l0l5	l__arrêté_complémentaire	O
+17l0l6	21_05_2007	T
+17l0l7	modifiant	N
+17l0l8	l_	O
+17l0l9	16_12_2004	T

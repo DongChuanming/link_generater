@@ -1,0 +1,214 @@
+
+#56.0004
+#La MANUFACTURE DES PNEUMATIQUES MICHELIN a été autorisée à exploiter une installation de fabrication de renforts métalliques (pour les pneumatiques) par arrêté préfectoral du 26 octobre 2004.
+
+0l0l0	La_MANUFACTURE	N
+0l0l1	été_autorisée_à_exploiter	O
+0l0l2	fabrication_de_renforts	O
+
+#Cependant, l'activité existe depuis 1962.
+
+1l0l0	Cependant___l__activité_existe_depuis_1962	O
+1l0l1	_	N
+1l1l0	Cependant___l__activité_existe_depuis_1962	I
+
+#Depuis l'origine, les traitements mécanique, thermique, chimique et l'assemblage des fils d'acier entrant dans la composition des pneumatiques sont réalisés dans les ateliers de l'usine.
+
+2l0l0	origine___les	O
+2l0l1	traitements_mécanique	T
+
+#Depuis 1985, une décharge interne de boues d’hydroxydes métalliques existe sur le site.
+
+3l0l0	Depuis_1985___une	N
+3l0l1	décharge_interne_de_boues_d__hydroxydes	N
+3l0l2	existe_sur_le_site__	A
+
+#Une partie du site a fait l'objet d'une cession (voir fiche 56.0029).
+
+4l0l0	Une_partie_du	T
+4l1l0	une_cession___voir_fiche_56_0029____	U
+
+#Plusieurs zones potentiellement génératrice d'une pollution ont été identifiées :
+
+5l0l0	Plusieurs_zones	O
+5l0l1	potentiellement_génératrice	N
+
+#- anciennes zones de stockage d'huile ou de traitement d'eaux huileuses (au niveau du bâtiment actuel),
+
+6l0l0	__anciennes_zones	O
+6l0l1	huileuses___au_niveau_du	N
+
+#- local autrefois dédié à la distillation de solvants chlorés (au niveau du bâtiment actuel),
+
+7l0l0	local_autrefois	O
+7l0l1	de_solvants_chlorés___au_niveau	A
+7l0l2	du_bâtiment_actuel____	L
+
+#- anciennes zone de stockage de boues d'hydroxydes métalliques (en extérieur),
+
+8l0l0	__anciennes	O
+8l0l1	zone_de_stockage	R
+8l0l2	de_boues_d__hydroxydes_métalliques	A
+8l0l3	__en_extérieur____	L
+8l1l0	hydroxydes_métalliques	U
+
+#- aire dédiée au stockage de fioul (en extérieur),
+
+9l0l0	aire_dédiée_au_stockage	O
+9l1l0	stockage_de_fioul___en	U
+9l1l1	extérieur____	U
+
+#- aire de brûlage de déchets (en extérieur).
+
+10l0l0	aire	O
+10l0l1	de_brûlage	R
+10l0l2	de_déchets___en_extérieur	A
+10l1l0	__en_extérieur	U
+
+#Les polluants susceptibles d'être présents sont les hydrocarbures totaux (HCT), les Hydrocarbures aromatiques polycycliques (HAP), les BTEX (Benzène, Toluène, Éthylbenzène et Xylènes), les composés organiques halogénés volatils (COHV), les polychlorobiphényles (PCB) et les métaux (Al, As, Cd, Cr, Cu, Hg, Mo, Ni, Pb, Zn).
+
+11l0l0	polluants_susceptibles	A
+
+#Le diagnostic environnemental de 2013 conclut à l’existence de plusieurs sources de pollution :
+
+12l1l0	Le_diagnostic	U
+12l1l1	l__existence_de_plusieurs	S
+12l1l2	sources_de_pollution__	S
+
+#- dans les sols :
+
+13l0l0	__dans_les_sols__	N
+
+#* hydrocarbures C10-C40 sur 5 zones,
+
+
+#* COHV -notamment tétrachoroéthylène (ancienne distillerie et ancienne zone de brûlage des déchets),
+
+15l1l0	COHV__notamment_tétrachoroéthylène	S
+
+#* métaux (ancienne zone de brûlage des déchets).
+
+16l1l0	__métaux	I
+16l1l1	__ancienne_zone_de_brûlage_des_déchets	S
+
+#- dans les gaz de sol :
+
+
+#* présence en COVH au droit de l’ancienne distillerie.
+
+18l1l0	présence_en_COVH_au	U
+
+#* présence de BTEX.
+
+19l0l0	présence_de_BTEX	O
+19l0l1	_	L
+
+#- dans les eaux souterraines :
+
+20l1l0	eaux_souterraines	I
+
+#* métaux (arsenic, fer, nickel, plomb),
+
+
+#* COHV en aval du site (tétrachloroéthylène-PCE et trichloroéthèlène-TCE).
+
+22l1l0	__COHV_en	U
+22l1l1	aval_du_site___tétrachloroéthylène	S
+
+#Le chlorure de vinyle n'a pas été détecté, mais le milieu n’est pas favorable à une dégradation des COHV.
+
+23l0l0	Le	O
+23l0l1	chlorure_de_vinyle	L
+23l1l0	Le_chlorure	S
+23l1l1	n__a_pas_été_détecté___mais_le_milieu_n__est_pas_favorable	S
+
+#L'étendue spatiale de cette pollution doit être plus précisément définie,
+
+24l0l0	être_plus_précisément	O
+24l1l0	L__étendue_spatiale_de	S
+
+#* L'étude a montré qu'il y a un transfert vers la nappe des polluants COHV, BTEX et métaux contenus dans les sols au droit des zones polluées identifiées (ancienne distillerie et ancienne zone de brûlage notamment - hors de la parcelle à vendre).
+
+
+#Les analyses réalisées en novembre 2011 montrent qu'en limite Sud du site les teneurs en TCE et PCE restent supérieures aux valeurs standards de référence.
+
+26l0l0	novembre_2011	N
+26l0l1	supérieures_aux	L
+26l0l2	valeurs_standards_de_référence	O
+26l1l0	limite_Sud_du_site_les_teneurs_en	S
+
+#Une atténuation naturelle dans le temps est globalement constatée entre 2009 et 2011.
+
+27l0l0	Une_atténuation_naturelle	N
+27l0l1	dans_le_temps	T
+27l0l2	globalement_constatée_entre	L
+
+#Un suivi de l'évolution de ces composés dans les eaux souterraines est donc nécessaire, notamment pour connaître l'évolution en profondeur des COHV (composés plus denses que l'eau) mais aussi pour détecter d'éventuels relargages des polluants dans la nappe au gré de ses battements saisonniers.
+
+28l0l0	est_donc_nécessaire___notamment_pour_connaître_l__évolution_en_profondeur_des_COHV___composés_plus_denses_que_l__eau___mais_aussi_pour_détecter_d__éventuels_relargages_des_polluants_dans_la_nappe_au_gré_de_ses_battements_saisonniers__	T
+
+#Un arrêté préfectoral complémentaire de surveillance des eaux a été pris en ce sens le 15 mai 2015.
+
+
+#Compte-tenu de la localisation de polluants dans les gaz de sol par rapport aux sources sols identifiées (situées en aval), il n'est pas exclu la présence d'autres sources de pollution situées dans la zone industrielle du Prat, en dehors du site de la société Manufacture Française des Pneumatiques MICHELIN.
+
+30l0l0	Compte_tenu_de_la_localisation_de_polluants_dans_les_gaz_de_sol_par	O
+30l0l1	rapport_aux	N
+30l0l2	sources_sols_identifiées___situées_en_aval_____il_n__est_pas_exclu_la_présence_d__autres_sources_de_pollution_situées_dans_la_zone_industrielle_du_Prat___en_dehors_du_site_de_la_société_Manufacture_Française_des_Pneumatiques_MICHELIN__	T
+
+#La gestion des pollutions a fait l'objet d'un plan de gestion global en 2013 ; les conclusions n'ont  pas été communiquées à l'inspection.
+
+31l0l0	été_communiquées	L
+31l1l0	objet_d__un	U
+31l1l1	gestion_global	U
+
+#Les zones concernées par la pollution des sols peuvent faire l’objet de travaux de dépollution.
+
+32l0l0	Les_zones_concernées_par_la	O
+32l0l1	pollution_des	R
+32l0l2	sols_peuvent_faire_l__objet	O
+32l0l3	de_travaux	T
+32l0l4	de_dépollution	O
+
+#Cependant, vu que trois d’entre elles se situent sous un bâtiment, seule l’ancienne aire de brûlage des déchets pourrait être réhabilitée.
+
+33l0l0	Cependant___vu_que_trois	O
+33l0l1	d__entre_elles_se_situent	O
+33l0l2	sous_un_bâtiment___seule	R
+33l0l3	l__ancienne_aire_de_brûlage	N
+
+#Toutefois, l’état des milieux est actuellement compatible avec l’usage qui en est fait (travailleurs).
+
+34l0l0	actuellement_compatible_avec	L
+34l0l1	qui_en_est_fait___travailleurs____	O
+
+#PARTIE CONCERNANT LA DECHARGE
+
+
+#La décharge ne semble pas poser de problèmes particuliers.
+
+36l0l0	pas_poser_de_problèmes_particuliers__	O
+
+#Les boues ont atteint un pourcentage de siccité important.
+
+
+#L'arrêté préfectoral d'autorisation du 26 octobre 2004 prescrit la surveillance semestrielle des eaux souterraines afin de suivre l'éventuel impact de la décharge.
+
+38l0l0	L__arrêté	O
+38l0l1	préfectoral	N
+
+#Les paramètres suivis sont le zinc, le cuivre, le fer, les cyanures, les nitrites et les hydrocarbures.
+
+39l0l0	Les_paramètres_suivis_sont_le_zinc___le	O
+39l0l1	cuivre___le_fer___les	T
+39l0l2	cyanures	R
+39l0l3	__les_nitrites_et_les_hydrocarbures	A
+39l0l4	_	A
+
+#Cet arrêté est complété par celui du 19 mai 2015 (paramètres BTEX, COHV, HAP, HCT, ions ammonium, cyanures totaux, nitrites, DCO).
+
+40l1l0	celui_du	S
+40l1l1	mai_2015	S
+40l1l2	paramètres_BTEX___COHV	S
+40l1l3	HAP___HCT__	S
+40l1l4	ammonium___cyanures	S

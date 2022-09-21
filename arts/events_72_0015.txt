@@ -1,0 +1,68 @@
+
+#72.0015
+#Le site est implanté dans la zone industrielle sud du Mans, l'usine occupe une superficie de 132 ha dont 41 ha couverts.
+
+0l0l0	Le_site	O
+0l0l1	est_implanté_dans_la_zone_industrielle_sud_du_Mans	L
+
+#Usine de fabrication d'éléments de transmission pour l'automobile.
+
+1l0l0	Usine_de_fabrication_d__éléments_de_transmission	A
+
+#Elle comprend :
+
+
+#-Des ateliers
+
+
+#-Une chaufferie et un stockage de fuel
+
+4l0l0	un_stockage_de_fuel	O
+4l1l0	fuel	U
+
+#-Une station d'épuration des eaux
+
+5l0l0	_Une_station	O
+
+#Un arrêté préfectoral du 28/09/1998 impose la réalisation d'une étude de sol selon la méthodologie du guide BRGM en application de la circulaire du 03 avril1996.
+
+6l0l0	Un_arrêté_préfectoral	O
+6l0l1	28_09_1998	T
+6l0l2	impose_la_réalisation_d__une_étude_de_sol	N
+6l0l3	guide_BRGM	O
+6l0l4	03_avril1996	T
+6l1l0	BRGM	I
+
+#* L'étape A (étude historique de vulnérabilité, et investigations de terrain) a été réalisée le 05/10/1999.
+
+7l0l0	investigations_de_terrain	N
+7l0l1	a_été_réalisée	N
+7l0l2	le_05_10_1999__	T
+
+#* L'étape B (diagnostic initial) a été présentée le 06/04/2000, aucune mesure d'urgence ne s'impose.
+
+8l0l0	L__étape_B	O
+8l0l1	diagnostic_initial	N
+8l0l2	a_été_présentée	N
+8l0l3	le_06_04_2000	T
+
+#Compte tenu des éléments recueillis lors des premières étapes, il a été décidé de poursuivre.
+
+
+#L'étape C (évaluation simplifiée des risques) a été établie en date du 23/10/2000.
+
+10l0l0	L__étape_C	O
+10l0l1	évaluation_simplifiée_des_risques	N
+10l0l2	a_été_établie	N
+10l0l3	en_date_du_23_10_2000__	T
+
+#Elle conclut en proposant un suivi sur 18 piézomètres répartis sur l'ensemble du site par les entreprises en activité sur place: ACI = AutoChassis International et CLAAS Tractors.
+
+11l0l0	18_piézomètres	O
+11l0l1	les_entreprises	O
+11l0l2	ACI	O
+11l0l3	AutoChassis_International	O
+11l0l4	CLAAS	O
+11l0l5	Tractors	R
+11l1l0	ACI___AutoChassis_International	I
+11l1l1	CLAAS_Tractors	I

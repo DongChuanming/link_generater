@@ -1,0 +1,111 @@
+
+#54.0070
+#La société ELECTRICITE DE FRANCE (EDF) implantée sur la commune de BLENOD-LES-PONT-A-MOUSSON est soumise a autorisation au titre de la législation des installations classées pour la protection de l'environnement par l'arrêté préfectoral du 2 avril 2010.
+
+0l0l0	La_société_ELECTRICITE	O
+0l0l1	DE_FRANCE	O
+0l0l2	implantée_sur_la_commune_de_BLENOD___LES___PONT___A___MOUSSON	L
+0l0l3	est_soumise_a_autorisation	N
+0l0l4	au_titre_de	R
+0l0l5	la_législation_des_installations_classées_pour_la_protection_de_l__environnement	O
+0l0l6	l__arrêté_préfectoral	O
+0l0l7	du_2_avril_2010__	T
+0l1l0	La_société_ELECTRICITE_DE_FRANCE___EDF	I
+
+#La centrale thermique est constituée de 4 tranches d'une puissance unitaire de 250 MWe.
+
+1l0l0	4_tranches	O
+1l0l1	MWe	O
+
+#Les quatre tranches fonctionnent au charbon mais elles peuvent brûler également du fuel au démarrage, en marche à faible régime et en cas de problème d'alimentation en charbon.
+
+2l0l0	charbon	O
+2l0l1	fuel_au_démarrage	O
+2l1l0	charbon	U
+2l1l1	fuel	S
+2l1l2	charbon	U
+
+#La mise en service des quatre tranches s'est échelonnée de 1963 à 1969.
+
+3l0l0	La_mise_en_service	N
+3l0l1	quatre_tranches	O
+3l0l2	s__est_échelonnée	N
+3l0l3	de_1963_à_1969__	T
+
+#La centrale dispose d'un terril interne de stockage et de transit des cendres limité à 300 000 tonnes, ensuite les cendres et suies sont dirigées vers le terril des Halembois sur la commune d'Atton (dossier 540071).
+
+4l0l0	La_centrale	O
+4l0l1	transit	A
+4l0l2	tonnes	O
+4l0l3	sont_dirigées	N
+4l0l4	vers_le_terril_des_Halembois	L
+4l0l5	sur_la_commune_d__Atton	L
+
+#La centrale est implantée dans une boucle alluviale de la Moselle sur un terrain de 95 ha.
+
+5l0l0	La_centrale	O
+5l0l1	est_implantée_dans_une_boucle_alluviale_de_la_Moselle	L
+5l0l2	sur_un_terrain_de_95_ha	L
+
+#Les conditions d'exploitations passées ou présentes, de l'installation ont pu entraîner des pollutions du sol par dépôts, déversements, infiltrations ou retombées de substances polluantes.
+
+6l0l0	Les_conditions_d__exploitations	O
+6l0l1	ont_pu_entraîner	N
+6l0l2	des_pollutions_du_sol	N
+6l0l3	déversements	N
+6l0l4	infiltrations	N
+6l0l5	retombées_de_substances_polluantes	O
+6l1l0	substances_polluantes	U
+
+#Une étude historique des activités et ou des incidents susceptibles d'avoir engendrés des contaminations du sol et une étude des sols ont été demandées par arrêté préfectoral du 08 mars 2001.
+
+7l0l0	Une_étude_historique_des_activités	N
+7l0l1	des_incidents	N
+7l0l2	avoir_engendrés_des_contaminations	N
+7l0l3	une_étude_des_sols	N
+7l0l4	ont_été_demandées	N
+7l0l5	par_arrêté_préfectoral	O
+7l0l6	du_08_mars_2001	T
+
+#Une Evaluation simplifiée des Risques (ESR) a été réalisée et remise à l'inspection le 15/11/2001.
+
+8l0l0	Une_Evaluation_simplifiée_des_Risques	N
+8l0l1	ESR___a_été_réalisée	N
+8l0l2	l_	O
+8l0l3	inspection	N
+8l0l4	le_15_11_2001__	T
+
+#L'ESR classe le site en deux secteurs présentant des concentrations en polluants dans les sols supérieures aux VDSS ( Valeur de Définition de Source-Sol) :
+
+9l0l0	deux_secteurs	O
+9l1l0	L__ESR	I
+9l1l1	polluants	S
+
+#- le stockage interne des cendres (Cr, Pb et As) ;
+
+10l1l0	cendres	S
+10l1l1	Cr	S
+10l1l2	Pb	S
+10l1l3	As	S
+
+#- la pomperie de fuel lourd (Hydrocarbures Totaux).
+
+11l1l0	fuel_lourd	S
+11l1l1	Hydrocarbures_Totaux	S
+
+#Les conclusions de L'ESR préconisent la mise en place d'une surveillance des eaux souterraines sur les paramètres suivants ( Cr, Pb,As, Cu, HC totaux), le réseau de piézomètres existe déjà depuis 1992, des analyses trimestrielles sont réalisées par l'exploitant mais un arrêté préfectoral du 15 avril 2002 prescrit cette surveillance par rapport aux conclusions de L'ESR.
+
+12l0l0	la_mise_en_place_d_	N
+12l0l1	une_surveillance_des_eaux_souterraines	A
+12l0l2	les_paramètres	O
+12l0l3	depuis_1992	T
+12l0l4	l__exploitant	O
+12l0l5	un_arrêté_préfectoral	O
+12l0l6	du_15_avril_2002	T
+12l0l7	prescrit	N
+12l0l8	cette_surveillance	O
+12l1l0	Cr	S
+12l1l1	Pb	S
+12l1l2	As	S
+12l1l3	Cu	S
+12l1l4	HC_totaux	S

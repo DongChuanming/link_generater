@@ -1,0 +1,134 @@
+
+#03.0042
+#Le site a une superficie de 35 700 m2 et seulement 8 100 m2 ont été exploités en installation classée (rubrique 286).
+
+0l0l0	Le_site	R
+0l0l1	35_700_m2_et	O
+
+#Le site se trouve en zone industrielle, il est bordé:
+
+1l0l0	Le_site	O
+
+#- au Nord, par des bâtiments industriels;
+
+2l0l0	__au_Nord	O
+2l0l1	__par_des_bâtiments_industriels	L
+
+#- à l'Est, par des voies SNCF et des bâtiments industriels;
+
+3l0l0	à_l__Est	L
+3l0l1	des_voies_SNCF_et_des_bâtiments	O
+
+#- au Sud, par la rue des Epoux Contoux
+
+4l0l0	au_Sud__	L
+4l0l1	la_rue_des_Epoux	O
+4l0l2	Contoux	O
+
+#- à l'Ouest, par des industries (minoteries).
+
+5l0l0	à_l__Ouest	L
+5l0l1	__par_des_industries___minoteries____	L
+
+#A l'origine, le site a été utilisé par la SNCF pour des activités ferroviaires.
+
+6l0l0	origine	L
+6l0l1	site_a_été_utilisé_par_la_SNCF	A
+
+#A partir de 1968,la société LAUTARD, soumise à autorisation par arrêté du 18/01/1984, y a exercé une activité de récupération et de revente de métaux ferreux et non ferreux.
+
+7l0l0	1968_la	O
+7l0l1	société_LAUTARD	N
+7l0l2	__soumise	O
+7l0l3	autorisation_par_arrêté_du_18_01_1984	A
+7l1l0	soumise	I
+
+#La société LAUTARD a cessé son activité en 2002 et a été rachetée par le groupe DERICHEBOURG Environnement.
+
+8l0l0	La_société_LAUTARD	T
+8l0l1	a_cessé_son_activité	O
+8l0l2	2002_et_a_été_rachetée	N
+8l0l3	par_le_groupe_DERICHEBOURG	T
+8l0l4	Environnement__	A
+8l1l0	LAUTARD_a_cessé_son_activité	I
+
+#Un changement d'exploitant, au profit de la société PURFER, a été opéré le 18/11/2008.
+
+9l0l0	Un_changement_d_	O
+9l0l1	exploitant	N
+9l0l2	__au_profit	O
+9l0l3	de_la_société	T
+9l0l4	PURFER___a_été	N
+9l0l5	opéré_le_18_11_2008__	O
+9l1l0	Un_changement_d__exploitant	I
+9l1l1	opéré_le_18_11_2008__	I
+
+#Cette dernière n'a jamais exercé d'activité sur ce site et a notifié au préfet de l'Allier sa cessation d'activité  le 23/02/2010.
+
+10l0l0	Cette_dernière	N
+10l0l1	n__a_jamais_exercé	O
+10l0l2	d__activité	R
+10l0l3	sur_ce_site_et_a	O
+10l0l4	notifié_au	N
+10l0l5	préfet_de_l__Allier_sa_cessation_d__activité___le_23_02_2010__	T
+10l1l0	activité_sur_ce_site_et_a	I
+
+#Le terrain est nu, quelques arbustes sont présents mais la société PURFER a une obligation d'entretien et de débroussaillage.
+
+11l0l0	Le_terrain	O
+11l0l1	nu___quelques_arbustes_sont_présents	A
+11l0l2	mais	O
+11l0l3	société	N
+11l0l4	PURFER_a_une_obligation	O
+11l0l5	d__entretien_et_de_débroussaillage	N
+11l0l6	_	T
+
+#A partir de février 2010, la société PURFER a réalisé des travaux de mise en sécurité, retrait de tous les déchets présents sur le site, élimination du transformateur électrique, démolition des bâtiments, mise en place d'une clôture et d'un portail pour en interdire l'accès.
+
+12l0l0	A_partir_de	O
+12l0l1	travaux_de_mise_en	O
+12l0l2	sécurité___retrait_de_tous_les_déchets_présents_sur_le	N
+12l1l0	travaux_de_mise_en	I
+
+#Une étude de sols effectuée par la Sté TAUW conclue à l'absence de risques sanitaires.
+
+13l0l0	Une_étude_de_sols_effectuée	T
+13l0l1	par_la_Sté_TAUW	O
+13l0l2	conclue_à_l_	N
+13l0l3	absence_de_risques_sanitaires	N
+13l0l4	_	N
+13l1l0	effectuée_par_la_Sté_TAUW_conclue	I
+
+#Sur les recommandations  du bureau d'étude TAUW, l'exploitant a fait réalisé, par la société SAFEGE, une étude hydrogéologique en juillet 2010, qui a permis l'implantation de 3 piézomètres au droit de la zone exploitée pour le stockage des déchets, afin de vérifier la qualité des eaux souterraines et d'en suivre l'évolution.
+
+14l0l0	Sur_les_recommandations___du	N
+14l0l1	bureau_d__étude	O
+14l1l0	bureau_d__étude	I
+
+#Le suivi de la qualité des eaux de la nappe sous-jacente a été prescrit par l'arrêté préfectoral 3048/13 du 20/11/2013.
+
+15l0l0	Le	R
+15l0l1	suivi_de_la_qualité_des	O
+15l0l2	eaux_de_la_nappe_sous_jacente_a_été	O
+15l0l3	prescrit_par_l__arrêté	N
+15l0l4	préfectoral_3048_13	O
+15l0l5	du_20_11_2013__	N
+15l1l0	sous_jacente	I
+15l1l1	préfectoral_3048_13	I
+
+#Un rapport et un procès verbal de récolement ont été rédigés par l'inspection des installations classées le 08/01/2013.
+
+16l0l0	Un_rapport	A
+16l0l1	et_un_procès_verbal	O
+16l0l2	récolement_ont_été_rédigés	O
+16l0l3	par_l__inspection	N
+16l0l4	des_installations	O
+16l0l5	classées_le_08_01_2013__	T
+
+#Les résultats de la dernière campagne d'analyse des eaux souterraines d'octobre 2013 montrent un impact très faible aux HAP, plomb et Nickel.
+
+17l0l0	Les_résultats	O
+17l0l1	de_la_dernière_campagne_d__analyse	N
+17l0l2	des_eaux	N
+17l0l3	souterraines_d__octobre_2013_montrent_un_impact	O
+17l0l4	très_faible_aux_HAP___plomb_et_Nickel__	T

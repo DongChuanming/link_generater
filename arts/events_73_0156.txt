@@ -1,0 +1,229 @@
+
+#73.0156
+#A l’entrée du site un panneau, relativement récent, comporte les informations suivantes : "Commune d’Aime (logo)– Commune de Longefoy – Zone de stockage – Matériaux de démolition – Inertes – Bois – Ferraille – Déblais de terrassement – Déchets verts – Ouverture le samedi de 8h30 à 11h30 – Dépôt interdit en dehors des heures de gardiennage sous peine d’amende".
+
+0l0l0	A_l__entrée_du_site_un	O
+0l0l1	panneau___relativement	N
+0l0l2	récent__	O
+0l0l3	comporte_les_informations	O
+0l0l4	logo__Commune_de_Longefoy___Zone_de	A
+0l0l5	_	N
+0l0l6	Matériaux_de	R
+0l0l7	démolition__	O
+0l0l8	Inertes___Bois___Ferraille	O
+
+#Ce panneau confirme le caractère officiel de la décharge, instituée par la mairie d’Aime et la mairie associée de Longefoy.
+
+1l0l0	la_mairie_associée	L
+1l0l1	Longefoy__	L
+
+#Le site n’est ni clôturé ni muni d’un dispositif quelconque pour en empêcher l’accès.
+
+2l0l0	Le_site_n__est	O
+2l0l1	dispositif_quelconque	O
+2l0l2	pour_en_empêcher	R
+2l0l3	l__accès__	O
+2l1l0	dispositif_quelconque	D
+2l1l1	empêcher	I
+
+#Contrairement à ce qu’indique le panneau d’entrée, la décharge est donc constamment ouverte, et sans gardiennage.
+
+3l0l0	Contrairement	O
+
+#Nonobstant son caractère officiel, ceci confirme le caractère "sauvage" de la décharge : les dépôts de déchets ne sont pas contrôlés.
+
+4l0l0	dépôts	R
+4l0l1	de_déchets_ne	O
+
+#Le site est composé d’une plate-forme d’environ 900 m2 et d’une "verse à déchets" sur un linéaire d’environ 60 m (les déchets sont versés dans la pente du talus depuis la plate-forme).
+
+5l1l0	linéaire_d__environ_60_m__	U
+
+#La plate-forme accueillait un tas d’environ 30 m3 de déchets métalliques et de déchets d’équipements électriques et électroniques (DEEE, déchets dangereux pour certains), notamment des appareils électroménagers de froid.
+
+6l0l0	La_plate	O
+6l0l1	accueillait_un_tas_d__environ	O
+6l0l2	déchets_dangereux	O
+6l0l3	certains_____notamment	O
+
+#Des traces de brûlage de déchets étaient visibles par ailleurs, confirmant les termes de la plainte.
+
+7l0l0	Des_traces_de	O
+7l0l1	brûlage_de_déchets	R
+7l0l2	ailleurs___confirmant	O
+
+#Le sol de la plate-forme ne dispose d’aucun revêtement.
+
+8l0l0	Le_sol_de_la_plate___forme_ne_dispose	O
+
+#Sur la verse, différents types de déchets, très principalement non dangereux, ont été constatés  : bois, sciure ; gravats, terre ; déchets végétaux, bottes de foin, fruits ; déchets métalliques ; déchets plastiques...
+
+
+#Quelques déchets dangereux ont également été observés au milieu des tas : tube cathodique, fûts métalliques et plastiques.
+
+10l0l0	Quelques_déchets	L
+
+#Ils correspondent globalement aux déchets autorisés sur le site par la mairie (cf. panneau).
+
+11l0l0	mairie___cf__panneau	O
+11l1l0	correspondent_globalement	U
+11l1l1	mairie___cf__panneau	U
+
+#La superficie recouverte par les déchets apparaît de l’ordre de 1000 m2.
+
+12l0l0	m2__	O
+
+#Le volume total de déchets présent est en revanche difficile à estimer, du fait de la pente et de l’impossibilité de connaître la hauteur des déchets déposés depuis l’ouverture de la décharge.
+
+13l1l0	présent_est_en_revanche	U
+
+#Un ruisseau (ruisseau des Rottes sur la carte IGN) s’écoule en contrebas de la verse, à quelques dizaines de mètres des derniers déchets visibles.
+
+
+#Le site se trouve à la sortie du village, en bordure de la forêt.
+
+15l0l0	Le_site_se_trouve	O
+15l0l1	sortie_du_village	L
+15l0l2	__en_bordure	O
+15l0l3	forêt__	L
+
+#Des habitations sont toutefois situées à environ 150 m au nord-est.
+
+16l0l0	Des	O
+16l0l1	habitations_sont_toutefois_situées	L
+16l0l2	à_environ_150_m_au_nord_est	L
+
+#Le courrier de plainte reçu le 10/10/14 mentionne par ailleurs le projet de construction d’un lotissement à 100 m du site, à l’est.
+
+17l0l0	Le_courrier_de	O
+17l0l1	plainte_reçu_le	N
+17l0l2	10_10_14_mentionne_par_ailleurs_le_projet	L
+
+#Cette décharge, soumise à autorisation au titre de la législation sur les installations classées (rubrique 2760-2 de la nomenclature ; autorisation sans seuil), est exploitée par la mairie d’Aime sur le site de Longefoy sans l’autorisation requise.
+
+18l0l0	autorisation	T
+18l0l1	législation_sur_les	O
+18l0l2	installations_classées___rubrique	N
+18l0l3	2760___2_de_la	L
+18l0l4	nomenclature	L
+
+#Les déchets sont déposés dans le milieu naturel sans aucune précaution.
+
+19l0l0	Les_déchets_sont	O
+
+#Cette décharge officielle mais non contrôlée est ainsi susceptible de polluer le sol, les eaux (superficielles et souterraines) et l’air (dégagement de biogaz issu de la fermentation des déchets).
+
+20l1l0	Cette_décharge	U
+
+#Par ailleurs, le brûlage de déchets mené en parallèle sur le site émet des substances nocives dans l’air et est également susceptible de polluer le sol au droit de la zone de brûlage (cendres) et dans le voisinage (par retombées atmosphériques).
+
+21l1l0	cendres___et_dans_le	U
+
+#Cette installation n’est par ailleurs absolument pas conforme à la réglementation applicable aux installations de stockage de déchets non dangereux (arrêté ministériel du 9/09/97).
+
+22l0l0	installation_n__est	N
+22l0l1	ministériel_du_9_09_97	A
+
+#En particulier, il est évident que les dispositions constructives exigées par l’arrêté (barrière passive constituée par un terrain de très faible perméabilité, barrière active constituée par une géomembrane, récupération des eaux de ruissellement et des lixiviats, couverture régulière des déchets...) ne sont pas respectées.
+
+23l0l0	En_particulier___il_est	O
+23l0l1	passive_constituée_par_un_terrain_de_très_faible_perméabilité	O
+23l0l2	active_constituée_par_une_géomembrane___récupération_des_eaux_de_ruissellement_et_des_lixiviats___couverture_régulière_des_déchets_____ne_sont_pas_respectées__	T
+23l1l0	terrain_de_très_faible_perméabilité	U
+
+#L’exigence d’une barrière passive notamment compromet d’ailleurs sérieusement la possibilité technique de régulariser ce site.
+
+
+#Au vu des constats, l'inspection des ICPE propose dans un rapport du 20 novembre 2014:
+
+
+#- un arrêté préfectoral de mise en demeure
+
+26l1l0	demeure	S
+
+#- un arrêté préfectoral de suspension et mesures conservatoires dans l'attente de la régularisation de la situation administrative
+
+27l0l0	un_arrêté_préfectoral	O
+
+#Par un courrier du 12 décembre 2014, le maire d'Aime informe qu'il a fait cesser les activités de stockage sur ce site et qu'il transmettra sous un mois, le dossier de cessation d'activité.
+
+28l0l0	Par_un_courrier_du_12_décembre	O
+28l0l1	maire_d__Aime_informe_qu__il	O
+28l0l2	cesser_les_activités_de_stockage	O
+28l0l3	sur_ce_site_et_qu__il_transmettra_sous_un_mois___le_dossier_de_cessation_d__activité__	O
+
+#L'arrêté préfectoral portant mise en demeure a été pris le 30 janvier 2015 et l'arrêté préfectoral de suspension d'activité a été pris le 2 février 2015.
+
+29l0l0	L__arrêté_préfectoral	N
+29l0l1	portant_mise	T
+29l0l2	en_demeure	O
+29l0l3	a_été	L
+29l0l4	janvier	O
+29l0l5	2015_et_l_	N
+29l0l6	arrêté_préfectoral_de_suspension	A
+29l0l7	d_	O
+29l0l8	2_février_2015	T
+29l0l9	_	O
+
+#Les mesures de mise en sécurité du site ont été transmises par l'exploitant en date du 26 février 2015.
+
+30l0l0	Les_mesures_de_mise_en_sécurité_du_site_ont_été	O
+30l0l1	transmises	N
+30l0l2	par_l__exploitant	T
+30l0l3	en_date_du_26_février_2015__	O
+
+#La visite de l'inspection effectuée le 22 mai 2015 a permis de constater que les moyens mis en place n'étaient pas suffisants.
+
+31l0l0	La_visite_de_l__inspection_effectuée	N
+31l0l1	le	O
+31l0l2	22_mai_2015_a_permis	N
+31l0l3	constater_que	O
+31l0l4	les_moyens_mis_en_place_n__étaient_pas_suffisants__	T
+
+#Il a été demandé à l'exploitant de faire évacuer les nouveaux déchets de plateforme et de renforcer les dispositifs d'interdiction d'accès.
+
+32l0l0	Il_a_été_demandé	N
+32l0l1	à_l__exploitant	O
+32l0l2	de_faire	N
+32l0l3	évacuer_les	T
+
+#Par ailleurs, l'exploitant devait fournir un plan de gestion suite au diagnostic environnemental, pour définir la réhabilitation du site.
+
+33l0l0	exploitant	O
+33l0l1	devait_fournir_un	N
+33l0l2	plan_de_gestion_suite_au_diagnostic	O
+33l0l3	environnemental	N
+33l0l4	__pour_définir_la	O
+33l1l0	gestion_suite_au_diagnostic_environnemental	U
+
+#La mairie d'Aime a choisi le confinement de la zone comme solution de réhabilitation comme précisé dans son courrier du 14 avril 2016.
+
+34l0l0	Aime_a_choisi_le	O
+34l0l1	confinement_de_la	R
+34l0l2	zone_comme_solution	O
+34l0l3	de_réhabilitation_comme_précisé_dans	N
+34l0l4	son_courrier_du_14_avril_2016__	N
+
+#Les travaux de réhabilitation de la décharge de longefoy ont débuté en août 2016 et la réception des travaux a eu lieu en mai 2017.
+
+35l0l0	Les_travaux	O
+35l0l1	de	L
+35l0l2	réhabilitation_de_la_décharge_de_longefoy	O
+35l0l3	en_août_2016_et_la	N
+35l0l4	mai_2017__	T
+35l1l0	Les_travaux	I
+
+#La visite de l'inspection effectuée le 8 septembre 2017 avait pour objectif de constater que les travaux de réhabilitation avait été effectué selon le plan de gestion établi.
+
+36l0l0	La_visite_de_l__inspection_effectuée	N
+36l0l1	le_8_septembre_2017	O
+36l0l2	avait_pour	N
+36l0l3	objectif_de	T
+36l0l4	constater_que_les_travaux_de_réhabilitation	N
+36l0l5	avait_été_effectué_selon_le_plan_de_gestion_établi__	T
+
+#Ceux-ci étaient conformes au plan de gestion.
+
+37l0l0	Ceux___ci	N
+37l0l1	étaient_conformes	O
+37l0l2	gestion__	T

@@ -1,0 +1,156 @@
+
+#32.0009
+#Ancienne usine de production de liants routier (ICPE).
+
+0l0l0	Ancienne_usine_de_production_de_liants_routier___ICPE	O
+0l1l0	liants_routier	U
+
+#Début de l'exploitation du site en 1941, arrêt de l'activité en 2006.
+
+1l0l0	Début_de_l__exploitation	N
+1l0l1	du_site	O
+1l0l2	en_1941	T
+1l0l3	l__activité	O
+1l0l4	en_2006__	T
+
+#Les installations de production et stockage ont été démantelées, les déchets évacués, le site mis en sécurité (clôture).
+
+2l0l0	Les_installations_de_production_et_stockage	O
+2l0l1	ont_été_démantelées	N
+2l0l2	les	O
+2l0l3	déchets_évacués	N
+2l0l4	le_site	O
+2l0l5	mis_en_sécurité	N
+2l0l6	__clôture	O
+2l1l0	les_déchets	U
+
+#La société a déclaré la cessation d'activité en 2008 et a procédé à la réhabilitation du site pour un usage futur commercial ou tertiaire en 2014.
+
+3l0l0	La_société	O
+3l0l1	a_déclaré	N
+3l0l2	la_cessation_d__activité	N
+3l0l3	en_2008	T
+3l0l4	a_procédé_à	R
+3l0l5	la_réhabilitation_du_site	N
+3l0l6	un_usage_futur_commercial_ou_tertiaire	O
+3l0l7	en_2014__	T
+3l1l0	La	I
+
+#Les travaux se sont achevés en 2016 et le procès verbal de constatation de la fin des travaux est en cours de réalisation par l'inspection.
+
+4l0l0	Les_travaux_se_sont_achevés	N
+4l0l1	en_2016	T
+4l0l2	le_procès_verbal_de_constatation_de_la_fin_des_travaux	O
+4l0l3	est_en_cours_de_réalisation	N
+4l0l4	l__inspection	O
+
+#L'exploitant a produit un mémoire de cessation d'activité en octobre 2008, complété le 04 février 2009.
+
+5l0l0	L__exploitant	O
+5l0l1	a_produit	N
+5l0l2	un_mémoire_de_cessation_d__activité	N
+5l0l3	en_octobre_2008__	T
+5l0l4	complété	N
+5l0l5	le_04_février_2009__	T
+
+#Le diagnostic des sols a mis en évidence une pollution des sols par des hydrocarbures (max 3600 mg/kg) identifiée sur deux zones distinctes : une sur 110 m2 sur 1 m de profondeur, une de 150 m2, liées à des évènements accidentels ainsi qu'une pollution très ponctuelle par métaux.
+
+6l0l0	Le_diagnostic_des_sols	N
+6l0l1	une_pollution_des_sols	N
+6l0l2	hydrocarbures	O
+6l0l3	deux_zones	O
+6l0l4	évènements_accidentels	N
+6l0l5	une_pollution	O
+6l1l0	hydrocarbures	S
+6l1l1	métaux	S
+
+#Au vu de ces éléments, l'inspection a demandé à l'exploitant par courrier du 04 juin 2013, des éléments d'appréciation complémentaires permettant de répondre aux dispositions fixées aux articles R.512-39-2 et 3 du code de l'environnement, notamment :
+
+7l0l0	l__inspection	O
+7l0l1	a_demandé	N
+7l0l2	l__exploitant	O
+7l0l3	04_juin_2013__	T
+7l0l4	des_éléments_d__appréciation_complémentaires	O
+
+#la méthode d'extraction des terres polluées,
+
+8l0l0	terres_polluées	O
+
+#les analyses réalisées,
+
+
+#le moyens de traitement des terres impactées (biologiques ou autres...),
+
+10l0l0	le_moyens_de_traitement	O
+10l0l1	terres_impactées	O
+
+#le lieu de stockage (in-situ ou autres filières...),
+
+
+#la confirmation de l'usage futur du site,
+
+
+#le suivi de la surveillance des eaux souterraines,
+
+13l0l0	surveillance_des_eaux_souterraines	A
+
+#l’échéancier des étapes suivantes,
+
+
+#l'avis du maire d'Auch sur l'usage futur du site.
+
+15l0l0	Auch	L
+15l0l1	l__usage_futur_du_site	A
+
+#L'exploitant a transmis les éléments demandés mais a débuté les travaux de réhabilitation sans attendre l’avis de l’inspection au printemps 2014.
+
+16l0l0	L__exploitant	O
+16l0l1	a_transmis	N
+16l0l2	a_débuté_les_travaux_de_réhabilitation	N
+16l0l3	sans_attendre_l__avis	N
+16l0l4	l__inspection	O
+16l0l5	au_printemps_2014__	T
+
+#Un plan de gestion des travaux de dépollution lui a été demandé et ce document est parvenu à l'inspection le 10 juillet 2014.
+
+17l0l0	Un_plan_de_gestion	O
+17l0l1	des_travaux_de_dépollution	N
+17l0l2	lui	O
+17l0l3	a_été_demandé	N
+17l0l4	ce_document	O
+17l0l5	le_10_juillet_2014__	T
+
+#Il prévoit:
+
+
+#-  l'excavation et le traitement sur site en biotertre des terres impactées par les hydrocarbures avec une valeur objectif de 500 mg/kg.
+
+19l0l0	__l__excavation_et_le_traitement_sur_site	N
+19l0l1	des_terres	O
+19l0l2	impactées_par	N
+19l0l3	les_hydrocarbures	O
+19l1l0	les_hydrocarbures	S
+
+#- l'excavation et le traitement hors site en ISDND des deux zones présentant une pollution en hydrocarbures et en métaux (ancien poste de distribution et ancien transformateur).
+
+20l0l0	l__excavation	N
+20l0l1	le_traitement_hors_site	N
+20l0l2	en_ISDND	N
+20l0l3	deux_zones	O
+20l0l4	présentant_une_pollution	N
+20l1l0	hydrocarbures	S
+
+#Les travaux de réhabilitation se sont achevés en 2016 et le rapport de fin de travaux est en cours d'examen par l'inspection.
+
+21l0l0	Les_travaux_de_réhabilitation	N
+21l0l1	se_sont_achevés	N
+21l0l2	en_2016	T
+21l0l3	le_rapport_de_fin_de_travaux	O
+21l0l4	en_cours_d_	T
+21l0l5	examen	N
+
+#En fonction des résultats de ces travaux de réhabilitation, l'inspection pourra demander ou pas la mise en place de servitudes.
+
+22l0l0	ces_travaux_de_réhabilitation	N
+22l0l1	l__inspection	O
+22l0l2	la_mise_en_place_de_servitudes	O

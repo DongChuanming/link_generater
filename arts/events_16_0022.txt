@@ -1,0 +1,274 @@
+
+#16.0022
+#Le site, d'une superficie de 19 003 m²,  a été acheté en 1943.
+
+0l0l0	Le_site	O
+0l0l1	__a_été_acheté	N
+0l0l2	en_1943	T
+
+#Il était scindé en deux secteurs : l'un à l'est, d'environ 8 000 m², destiné au stockage de chaux jusqu'en 1997, l'autre étant dévolu à l'exploitation proprement dite.
+
+1l0l0	Il	O
+1l0l1	était_scindé_en	R
+1l0l2	deux_secteurs	O
+1l0l3	un	O
+1l0l4	à_l__est	L
+1l0l5	destiné	R
+1l0l6	au_stockage_de_chaux	A
+1l0l7	jusqu__en_1997__	T
+1l0l8	l__autre	O
+1l0l9	étant_dévolu_à	R
+1l0l10	l__exploitation	O
+
+#Plusieurs activités se sont succédé, notamment :
+
+
+#- la production d'acétylène jusqu'en 1995,
+
+3l0l0	la_production_d__acétylène	A
+3l0l1	jusqu__en_1995__	T
+3l1l0	acétylène	S
+
+#- la production d'oxygène de 1948 à 1999,
+
+4l0l0	la_production_d__oxygène	A
+4l0l1	de_1948_à_1999__	T
+4l1l0	oxygène	U
+
+#- la distribution de GPL de 1961 à 2001.
+
+5l0l0	la_distribution_de_GPL	A
+5l0l1	de_1961_à_2001	T
+5l1l0	GPL	U
+
+#Différents gaz ont été stockés sur site : ammoniac, propane, azote, oxygène, acétylène dissous et hydrogène.
+
+6l0l0	ont_été_stockés	N
+6l1l0	ammoniac	S
+6l1l1	propane	S
+6l1l2	azote	S
+6l1l3	oxygène	S
+6l1l4	acétylène	S
+6l1l5	hydrogène	S
+
+#Deux cuves d'acétone et deux cuves de gazole étaient également présentes.
+
+7l0l0	Deux_cuves	O
+7l0l1	deux	O
+7l1l0	gazole	S
+
+#Le milieu "eaux souterraines" présente une vulnérabilité moyenne à forte vis à vis d'éventuelles pollutions du fait de la nature des formations géologiques de recouvrement hétérogènes (alluvions perméables avec passages argileux) et de la faible profondeur de la nappe superficielle (inférieure à 2 m).
+
+
+#La cessation d'activité a été notifiée le 15 mai 2005 à la Préfecture de Charente.
+
+9l0l0	La_cessation_d__activité	N
+9l0l1	a_été_notifiée	N
+9l0l2	le_15_mai_2005	T
+9l0l3	la_Préfecture_de_Charente	O
+9l1l0	la_Préfecture_de_Charente	I
+
+#Un mémoire de cessation d'activité a été produit le 2 mai 2006.
+
+10l0l0	Un_mémoire_de	O
+10l0l1	cessation_d__activité	N
+10l0l2	a_été_produit	N
+10l0l3	le_2_mai_2006__	T
+
+#Intégrant un diagnostic initial et une évaluation simplifiée des risques.
+
+11l0l0	un_diagnostic_initial	N
+11l0l1	une_évaluation_simplifiée_des_risques	N
+
+#Les cuves enterrées d'acétone ainsi que les cuves d'hydrocarbures ont été évacuées en juin 2005.
+
+12l0l0	Les_cuves_enterrées	O
+12l0l1	acétone	O
+12l0l2	les_cuves_d__hydrocarbures	O
+12l0l3	ont_été_évacuées	N
+12l0l4	en_juin_2005__	T
+12l1l0	Les_cuves_enterrées	D
+12l1l1	les_cuves_d_	D
+12l1l2	hydrocarbures	S
+
+#Les investigations de sols ont consisté en la réalisation d'une quarantaine de sondages et en l'analyse d'une quinzaine d'échantillons.
+
+13l0l0	Les_investigations_de_sols	N
+13l0l1	la_réalisation	N
+13l0l2	quarantaine	O
+13l0l3	de_sondages	N
+13l0l4	l__analyse	N
+
+#Les analyses ont porté sur le pH et les teneurs en hydrocarbures totaux, BTEX, HAP, métaux et cétones.
+
+14l0l0	Les_analyses	N
+14l1l0	hydrocarbures_totaux	S
+14l1l1	BTEX	S
+14l1l2	HAP	S
+14l1l3	métaux	S
+14l1l4	cétones	S
+
+#Quelques résultats d'analyses ont montré de faibles concentrations d'hydrocarbures et des concentrations significatives en aluminium et manganèse, celles-ci ne constituant pas cependant une source de pollution au sens de la méthodologie nationale de gestion des sites et sols pollués.
+
+15l1l0	hydrocarbures	S
+15l1l1	aluminium	S
+15l1l2	manganèse	S
+
+#Les eaux souterraines ont bénéficié du même programme analytique que celui des sols.
+
+16l0l0	ont_bénéficié_du_même_programme	N
+
+#Cinq piézomètres étaient présents sur site (2 en amont et 3 en aval).
+
+17l0l0	Cinq_piézomètres	O
+
+#Les analyses des prélèvements effectués en novembre 2005, ont permis de détecter la présence de composés en aluminium et manganèse, en aval du site.
+
+18l0l0	Les_analyses	N
+18l0l1	effectués	N
+18l0l2	en_novembre_2005__	T
+18l0l3	la_présence	O
+18l0l4	en_aval_du_site	L
+18l1l0	aluminium	S
+18l1l1	manganèse	S
+
+#Par courrier préfectoral du 9 juin 2006, il a notamment été demandé à l'exploitant de poursuivre la surveillance des eaux souterraines au droit du site, d'effectuer une campagne de sondages complémentaires et de mener une recherche spécifique relative à la présence potentielle de bouteilles d'acétylène enterrées.
+
+19l0l0	9_juin_2006__	T
+19l0l1	il	O
+19l0l2	l__exploitant	O
+19l0l3	poursuivre	O
+19l0l4	la_surveillance_des_eaux_souterraines	A
+19l0l5	au_droit_du_site	O
+19l0l6	d__effectuer_une_campagne_de_sondages_complémentaires	N
+19l1l0	bouteilles_d__acétylène	U
+
+#Le mémoire de cessation du mai 2006 a ainsi été complété par un rapport daté du 12 janvier 2007 présentant les investigations complémentaires menées dans les sols et les eaux souterraines.
+
+20l0l0	Le_mémoire_de_cessation_du	O
+20l0l1	mai_2006	T
+20l0l2	a_ainsi_été_complété	N
+20l0l3	un_rapport	N
+20l0l4	daté_du_12_janvier_2007	T
+
+#Les analyses des prélèvements effectués dans les piézomètres lors de la campagne d'août 2006 montrent dans un piézomètre une concentration en manganèse supérieure à la référence de qualité dans les eaux destinées à la consommation humaine.
+
+21l0l0	Les_analyses	N
+21l0l1	les_piézomètres	O
+21l0l2	lors_de_la_campagne_d_	N
+21l0l3	août_2006	T
+21l1l0	manganèse	S
+
+#Néanmoins, cette concentration peut être considérée comme étant du domaine du bruit de fond de la nappe, une présence de manganèse en concentration notable étant détectée dans deux points de prélèvement dans la base nautique située à proximité.
+
+22l0l0	détectée	N
+22l0l1	la_base_nautique	O
+22l0l2	située_à_proximité	L
+22l1l0	manganèse	S
+
+#En outre, aucun composé de manganèse n'a jamais été utilisé sur site.
+
+23l0l0	a_jamais_été_utilisé	N
+23l1l0	manganèse	S
+
+#Les douze sondages complémentaires effectués en août 2006 ont permis de détecter une anomalie de concentration en hydrocarbures au niveau d'un sondage à 1.5 m de profondeur.
+
+24l0l0	Les	N
+24l0l1	douze_sondages_complémentaires	O
+24l0l2	effectués	N
+24l0l3	en_août_2006	T
+24l0l4	ont_permis_de	R
+24l0l5	détecter	N
+24l0l6	hydrocarbures	O
+24l0l7	au_niveau_d_	R
+24l0l8	un_sondage	N
+24l0l9	à_1_5_m_de_profondeur	L
+24l1l0	hydrocarbures	S
+
+#Toutefois, cette anomalie ne constitue pas une source de pollution au sens de la méthodologie nationale de gestion des sites et sols pollués.
+
+25l0l0	une_source_de_pollution	O
+
+#En outre, les investigations de sols complémentaires par auscultation électromagnétique d'août 2006 ont abouti à l'excavation et l'élimination en novembre 2006 d'un peu plus de 1 700 bouteilles de gaz ayant contenu de l'acétylène ou d'autres gaz comprimés.
+
+26l0l0	les_investigations_de_sols_complémentaires	N
+26l0l1	auscultation_électromagnétique_d_	N
+26l0l2	août_2006	T
+26l0l3	ont_abouti_à	R
+26l0l4	l__excavation	N
+26l0l5	l__élimination	N
+26l0l6	en_novembre_2006	T
+26l0l7	700_bouteilles_de_gaz	O
+26l1l0	acétylène	S
+
+#Tous les bâtiments ont été démolis au cours de l'année 2011.
+
+27l0l0	Tous_les_bâtiments	O
+27l0l1	ont_été_démolis	N
+27l0l2	au_cours_de_l_	T
+27l0l3	année_2011__	T
+
+#Les déchets contenant de l'amiante ont fait l'objet d'une gestion conforme à la réglementation.
+
+28l0l0	l__amiante	O
+28l0l1	ont_fait_l__objet_d_	R
+
+#Une visite de site menée le 11 février 2013 a permis de constater une mise en sécurité partielle du site (absence de clôture sur quelques dizaines de mètres) et la présence des 5 piézomètres non rebouchés.
+
+29l0l0	Une_visite_de_site_menée	N
+29l0l1	le_11_février_2013	T
+29l0l2	une_mise_en	N
+29l0l3	sécurité_partielle	O
+29l0l4	5_piézomètres	O
+
+#Suite à cette visite, l'inspection demandait de remédier à ces écarts et également à ce que l'exploitant propose des restrictions d'usages.
+
+30l0l0	Suite_à	R
+30l0l1	cette_visite	N
+30l0l2	l__inspection	O
+
+#Les travaux de prolongement de la clôture existante ainsi que le comblement des piézomètres conformément aux règles de l'art ont été effectués au cours du second semestre 2013.
+
+31l0l0	Les_travaux_de_prolongement_de_la_clôture_existante	N
+31l0l1	le_comblement_des_piézomètres	N
+31l0l2	conformément_aux	R
+31l0l3	règles_de_l__art	O
+31l0l4	ont_été_effectués	N
+31l0l5	au_cours_du_second_semestre_2013__	T
+
+#Suite à ces travaux, l'inspecteur de l'environnement conclut dans son rapport du 23 décembre 2013 que l'exploitant a rempli ses obligations en matière de cessation d'activité et que le site a bénéficié d'une remise en état telle qu'il puisse accueillir un usage industriel et tertiaire.
+
+32l0l0	ces_travaux	N
+32l0l1	23_décembre_2013	T
+32l0l2	l__exploitant	O
+32l0l3	a_rempli	N
+32l0l4	cessation_d__activité	N
+32l0l5	le_site	O
+32l0l6	a_bénéficié_d__une_remise_en_état	N
+32l0l7	telle_qu_	R
+32l0l8	accueillir_un_usage_industriel_et_tertiaire	A
+
+#Le Préfet a délivré un récépissé daté du 5 février 2014 afin d'acter la cessation d'activité.
+
+33l0l0	Le_Préfet	O
+33l0l1	a_délivré	N
+33l0l2	un_récépissé	O
+33l0l3	daté_du_5_février_2014	T
+33l0l4	afin	R
+33l0l5	d__acter_la_cessation_d__activité	N
+33l1l0	Le_Préfet	I
+
+#Etant donné le passé industriel du site, des Restrictions d'Usage entre Parties (RUP) seront établies avec le futur acquéreur pour encadrer d'éventuels travaux d'excavation et indiquer que le terrain a bénéficié d'une remise en état telle qu'il puisse accueillir un usage industriel et tertiaire.
+
+34l0l0	Restrictions_d__Usage	O
+34l0l1	le_futur_acquéreur	O
+34l0l2	encadrer_d__éventuels_travaux_d__excavation	N
+34l0l3	le_terrain	O
+34l0l4	a_bénéficié_d__une_remise_en_état_telle	N
+34l0l5	accueillir_un_usage_industriel_et_tertiaire	A
+
+#Une copie de l'acte de vente sera transmise à l'inspection des installations classées.
+
+35l0l0	Une_copie	O
+35l0l1	l__acte_de_vente	N
+35l0l2	l__inspection_des_installations_classées	O

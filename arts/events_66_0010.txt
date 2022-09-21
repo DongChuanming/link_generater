@@ -1,0 +1,51 @@
+
+#66.0010
+#Usine d'incinération d'ordures ménagères, autorisée le 25 juin 1980, fermée le 30 juin 2002.
+
+0l0l0	Usine_d__incinération	N
+0l0l1	autorisée	O
+0l0l2	le_25_juin_1980__	T
+0l0l3	fermée	N
+0l0l4	le_30_juin_2002__	T
+
+#Située en périphérie de Saint Feliu d'Avall à proximité d'une distillerie.
+
+1l0l0	Située	O
+1l0l1	en_périphérie_de_Saint_Feliu_d__Avall	L
+1l0l2	à_proximité_d__une_distillerie	L
+
+#ESR de juin 2003 de BEHC Environnement.
+
+2l0l0	juin_2003	T
+2l0l1	BEHC_Environnement	O
+2l1l0	ESR	I
+
+#Analyse des PCDD et PCDF dans des prélèvements de sol par CARSO le 26/02/2002, résultats négatifs.
+
+3l0l0	PCDD	O
+3l0l1	CARSO	O
+3l0l2	le_26_02_2002	T
+3l1l0	PCDD	S
+3l1l1	PCDF	S
+
+#Une première analyse du piezomêtre PZ1 indique une concentration de 762 microgramme/litre de plomb.
+
+4l0l0	Une_première_analyse	N
+4l1l0	piezomêtre_PZ1	S
+4l1l1	plomb	S
+
+#ne nouvelle analyse est demandée pour confirmation, l'absence de plomb dans le sol de l'UIOM ne permet pas de conclure sur l'origine de la pollution des eaux souterraines.
+
+5l0l0	la_pollution_des_eaux_souterraines	O
+5l1l0	plomb	S
+
+#Une seconde analyse du piezomêtre PZ1 effectuée le 21/10/2003 donne des valeurs en dessous des valeurs de constat d'impact pour le plomb et le mercure.
+
+6l0l0	effectuée	N
+6l0l1	le_21_10_2003	T
+6l1l0	plomb	S
+6l1l1	mercure	S
+
+#En l'absence de pollution du sol et des eaux souterraines il y a lieu de considérer le site comme banalisable.
+
+7l0l0	le_site	O

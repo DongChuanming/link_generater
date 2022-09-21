@@ -1,0 +1,238 @@
+
+#21.0039
+#Le Groupe SEB exploite deux usines de fabrication d'autocuiseurs sur la Commune de Selongey.
+
+0l0l0	Le_Groupe_SEB	O
+0l0l1	exploite	N
+0l0l2	deux_usines	O
+0l0l3	de_fabrication_d__autocuiseurs	A
+0l0l4	sur_la_Commune_de_Selongey	L
+0l1l0	Le_Groupe_SEB	I
+
+#Les activités de l'usine du Bourg ont démarré en 1857 et la fabrication de la cocotte minute en 1955.
+
+1l0l0	Les_activités	A
+1l0l1	l__usine_du_Bourg	O
+1l0l2	ont_démarré	N
+1l0l3	en_1857	T
+1l0l4	la_fabrication_de_la_cocotte_minute	A
+1l0l5	en_1955	T
+
+#Il apparaît qu'avant 1976, les déchets générés par l'usine (tels que les boues de polissage) ainsi qu'une partie des effluents liquides issues des lignes de dégraissage ont été déposés dans plusieurs sites, le plus important étant le site de la décharge de la Gare.
+
+2l0l0	avant_1976	T
+2l0l1	l__usine	O
+2l0l2	boues_de_polissage	O
+2l0l3	dégraissage	A
+2l0l4	ont_été_déposés	N
+2l0l5	plusieurs_sites	O
+2l0l6	le_site	O
+2l0l7	la_décharge	O
+2l0l8	de_la_Gare	L
+2l1l0	les_déchets	U
+2l1l1	des_effluents_liquides	U
+
+#La décharge de la Gare, qui n'est plus exploitée depuis 1976, est située au sud-est de Selongey, entre la Départementale 27 et la rivière La Venelle, à environ 500 m de la gare.
+
+3l0l0	La_décharge_de_la_Gare	O
+3l0l1	n__est_plus_exploitée	N
+3l0l2	depuis_1976	T
+3l0l3	est_située_au_sud_est_de_Selongey	L
+3l0l4	entre_la_Départementale_27_et_la_rivière_La_Venelle	L
+3l0l5	à_environ_500_m_de_la_gare	L
+
+#Elle s'étend sur 300 m de long et une cinquantaine de mètres de large.
+
+
+#D'un point de vue hydrogéologique, le sous-sol est le siège d'un aquifère karstique s'écoulant, soit vers la Tille, soit vers la Bèze.
+
+5l0l0	le_siège	O
+5l0l1	vers_la_Tille	L
+5l0l2	vers_la_Bèze	L
+
+#Une évaluation simplifiée des risques (ESR) a été réalisée en décembre 2001, conformément à l'ancienne méthodologie nationale en matière de gestion de sites et sols pollués.
+
+6l0l0	Une_évaluation_simplifiée_des_risques	N
+6l0l1	a_été_réalisée	N
+6l0l2	en_décembre_2001__	T
+6l0l3	gestion_de_sites_et_sols_pollués	O
+
+#3 sources de pollution au sens de l'ESR ont été identifiées, ainsi qu'un impact sur les eaux souterraines pour le dichloroéthylène et un impact sur les sols à l'extérieur du site pour le nickel et le chrome.
+
+7l0l0	3_sources_de_pollution	O
+7l0l1	ont_été_identifiées	N
+7l0l2	qu__un_impact	O
+7l0l3	les_eaux_souterraines	O
+7l0l4	un	O
+7l0l5	impact_sur	R
+7l0l6	les_sols	O
+7l1l0	le_dichloroéthylène	S
+7l1l1	le_nickel	S
+7l1l2	chrome	S
+
+#La notation qui résulte de l'étude a conduit au classement du site, en classe 1 (site nécessitant des investigations supplémentaires) pour les sols par contact direct, et en classe 2 (site à surveiller) pour les eaux souterraines et superficielles.
+
+8l0l0	a_conduit_au_classement	N
+8l0l1	du_site	O
+8l0l2	en_classe_2	O
+
+#Il s'agit d'un site nécessitant des investigations approfondies.
+
+9l0l0	des_investigations_approfondies	N
+
+#Compte tenu de ce classement, il a notamment été demandé à l'exploitant :
+
+10l0l0	l__exploitant	O
+
+#- d'effectuer le suivi de la qualité des eaux souterraines tel que préconisé dans l'ESR, à savoir : prélèvement et analyses semestrielles a minima des paramètres suivants : HCT, COHV et métaux dans les piézomètres PZ1, PZ2 et PZ3,
+
+11l0l0	d__effectuer_le	N
+11l0l1	suivi_de_la_qualité_des_eaux_souterraines	A
+11l1l0	HCT	S
+11l1l1	COHV	S
+
+#- d'effectuer les travaux préconisés dans l'ESR permettant de limiter les risques d'exposition : travaux d'extraction des terrains souillés (forte concentration en hydrocarbures dans les anciennes fosses), mise en place d'une clôture autour du site et pose d'une couverture,
+
+12l0l0	d__effectuer_les_travaux	N
+12l0l1	travaux_d__extraction	N
+12l0l2	terrains_souillés	O
+12l0l3	mise_en_place_d_	N
+12l0l4	une_clôture	O
+12l0l5	autour_du_site	L
+12l0l6	pose_d__une_couverture	N
+12l1l0	hydrocarbures	S
+
+#- de réaliser une étude détaillée des risques (EDR) selon le guide méthodologique établi par le ministère, afin d'évaluer l'impact potentiel sur les eaux (Alimentation en Eau Potable et autres usages) des différentes sources de pollution constatées et d'en déduire les éventuelles mesures à mettre en œuvre (surveillance renforcée, dépollution, servitudes, restriction d'usage...).
+
+13l0l0	de_réaliser_une_étude_détaillée_des_risques	N
+13l0l1	différentes_sources_de_pollution	O
+13l0l2	dépollution	N
+
+#Cette EDR a conclu que le risque sanitaire est acceptable.
+
+
+#Le site a été totalement dépollué et remis en état.
+
+15l0l0	Le_site	O
+15l0l1	a_été_totalement_dépollué	N
+15l0l2	remis_en_état	N
+
+#Par ailleurs il a été mis en sécurité (clôture).
+
+16l0l0	a_été_mis_en_sécurité	N
+16l0l1	clôture	O
+
+#De plus les eaux souterraines font l'objet d'un suivi semestriel.
+
+
+#Des Servitudes Conventionnelles au Profit de l'Etat (SCPE) ont été signées le 2 mai 2005.
+
+18l0l0	Des	N
+18l0l1	Servitudes_Conventionnelles	O
+18l0l2	au_Profit_de	R
+18l0l3	l__Etat	O
+18l0l4	ont_été_signées	N
+18l0l5	le_2_mai_2005__	T
+18l1l0	SCPE	I
+
+#Conformément à l'arrêté du 20 mars 2002, l'inspection a reçu les les suivis de la décharge réhabilitée.
+
+19l0l0	20_mars_2002__	T
+19l0l1	l__inspection	O
+19l0l2	a_reçu	N
+19l0l3	les_les_suivis	N
+19l0l4	la_décharge_réhabilitée	O
+
+#Les derniers résultats indiquent la stabilité de la teneur en eau volumique des boues et mettent en évidence l'efficacité de la couverture en géo-membrane.
+
+
+#Les résultats des relevés topographique indiquent également la stabilité du massif.
+
+21l0l0	relevés_topographique	O
+21l0l1	stabilité	N
+
+#L'arrêté préfectoral complémentaire du 16 juin 2003 vise à réaliser des travaux d'aménagement par l'exploitant:
+
+22l0l0	L__arrêté_préfectoral_complémentaire	O
+22l0l1	16_juin_2003	T
+22l0l2	vise_à	R
+22l0l3	réaliser_des_travaux_d__aménagement	N
+22l0l4	l__exploitant	O
+
+#- travaux de décaissement des fosses identifiées afin d'évacuer et traiter les terres imprégnées d'hydrocarbures et de métaux et mise en place d'une couverture étanche supprimant les infiltrations et favorisant les écoulements surfaciques.
+
+23l0l0	travaux_de_décaissement	N
+23l0l1	fosses_identifiées	O
+23l0l2	afin	R
+23l0l3	d__évacuer	N
+23l0l4	traiter	N
+23l0l5	métaux	O
+23l0l6	mise_en_place_d__une_couverture_étanche	N
+23l1l0	hydrocarbures	S
+
+#- travaux d'aménagement interdisant de manière claire l'accès au site.
+
+
+#Cet arrêté instaure aussi de nouvelles mesures pour la surveillance de la nappe souterraine:
+
+25l0l0	la_surveillance_de_la_nappe_souterraine	A
+
+#- un relevé du niveau piézométrique des eaux et la réalisation semestrielle (une analyse en période de basses eaux et une analyse en période de hautes eaux) d'échantillons représentatifs d'eaux pour analyse en laboratoire.
+
+26l0l0	eaux	O
+26l0l1	la_réalisation_semestrielle	N
+26l0l2	une_analyse_en_période	N
+26l0l3	de_basses_eaux	O
+26l0l4	une_analyse_en_période_de_hautes_eaux	N
+
+#Cette surveillance comprend 3 points de prélèvements (3 piézomètres).
+
+
+#Les paramètres à analyser sont les métaux, les hydrocarbures totaux et les solvants chlorés.
+
+28l1l0	métaux	S
+28l1l1	hydrocarbures_totaux	S
+28l1l2	solvants_chlorés	U
+
+#Conformément à l'arrêté du 20 mars 2002, les derniers résultats 2011 de la décharge indiquent la stabilité de la teneur en eau volumique des boues et mettent en évidence l'efficacité de la couverture en géo-membrane.
+
+29l0l0	20_mars_2002__	T
+29l0l1	les_derniers_résultats_2011	N
+29l0l2	la_décharge	O
+29l0l3	géo_membrane	N
+
+#Les résultats des relevés topographique indiquent également la stabilité du massif.
+
+30l0l0	relevés_topographique	O
+30l0l1	stabilité	N
+
+#Bilan quadriennal de la qualité des eaux souterraines 2010-2013:
+
+31l0l0	Bilan_quadriennal	N
+31l0l1	la_qualité_des_eaux_souterraines_2010___2013	O
+
+#- depuis plus de 4 ans, absence de métaux, PCB et hydrocarbures totaux - mises à part des concentrations naturelles (baryum)ou de très rares traces proches des limites de quantification analytique
+
+32l0l0	depuis_plus_de_4_ans	T
+32l1l0	métaux	S
+32l1l1	PCB	S
+32l1l2	hydrocarbures_totaux	S
+32l1l3	baryum_ou	S
+
+#Recommandation d'un arrêt du suivi de ces éléments.
+
+33l0l0	suivi	O
+
+#- teneurs en hydrocarbures halogénés volatils représentées essentiellement par du tétrachloroéthène ont une tendance générale à la baisse, mais sont toujours présents en aval de la décharge.
+
+34l0l0	en_aval_de_la_décharge	L
+34l1l0	hydrocarbures_halogénés_volatils	S
+34l1l1	du_tétrachloroéthène	S
+
+#Recommandation du suivi de la surveillance des hydrocarbures halogénés volatils à la fréquence biannuelle.
+
+35l0l0	la_surveillance	A
+35l0l1	hydrocarbures_halogénés	O
+35l0l2	la_fréquence	O
+35l0l3	biannuelle	T
+35l1l0	hydrocarbures_halogénés_volatils	S

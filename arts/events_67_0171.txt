@@ -1,0 +1,118 @@
+
+#67.0171
+#L'arrêté préfectoral (AP) du 31 août 2004 autorise la société TEREOS SYRAL SAS à exploiter ses installations de production et de transformation de glucose.
+
+0l0l0	L__arrêté_préfectoral	O
+0l0l1	31_août_2004	T
+0l0l2	autorise	N
+0l0l3	la_société_TEREOS_SYRAL	O
+0l0l4	exploiter_ses_installations_de_production_et_de_transformation_de_glucose	A
+0l1l0	la_société_TEREOS_SYRAL	I
+0l1l1	glucose	U
+
+#Il est complété par les AP du 16 octobre 2007, du 25 février 2009 et du 23 janvier 2012.
+
+1l0l0	les_AP	O
+1l0l1	16_octobre_2007__	T
+1l0l2	25_février_2009_et_du_23_janvier_2012__	T
+
+#Aujourd'hui les activités de la société sont encadrées par l'AP du 10 juillet 2012 qui autorise l'extension des installations de fabrications et qui actualise les prescriptions d'exploitations des installations existantes.
+
+2l0l0	Aujourd_hui	T
+2l0l1	les_activités_de	A
+2l0l2	la_société	O
+2l0l3	sont_encadrées	N
+2l0l4	par	R
+2l0l5	l_	O
+2l0l6	10_juillet_2012	T
+2l0l7	qui_autorise	N
+2l0l8	l__extension_des_installations_de_fabrications	N
+2l0l9	actualise	N
+2l0l10	les_prescriptions_d__exploitations	N
+2l0l11	des_installations_existantes	N
+
+#La société est soumise au régime de l'autorisation.
+
+3l0l0	l__autorisation	O
+
+#L'AP du 10 juillet 2012 autorise l'exploitant à prélever l'eau utilisée à des fins industrielles dans la nappe au moyen de trois puits.
+
+4l0l0	L__AP	O
+4l0l1	10_juillet_2012	T
+4l0l2	autorise	N
+4l0l3	l__exploitant	O
+4l0l4	l_	O
+4l0l5	eau_utilisée_à_des_fins_industrielles	A
+4l0l6	la_nappe	O
+4l0l7	trois_puits	O
+
+#Il prescrit également la mise en place d'une surveillance semestrielle de la qualité des eaux souterraines.
+
+5l0l0	la_mise_en_place_d_	N
+5l0l1	une_surveillance_semestrielle	A
+5l0l2	la_qualité	O
+5l0l3	des_eaux_souterraines	A
+
+#Le site dispose d'un réseau de surveillance composé d'un piézomètre amont et de 4 piézomètres avals.
+
+6l0l0	Le_site	O
+6l0l1	piézomètres_avals	O
+
+#Les paramètres analysés sont :
+
+
+#le pH, la conductivité, la demande chimique en oxygène (DCO), la dureté, les chlorures, les sulfates, les nitrates, les phosphates, l'ammonium, et les hydrocarbures totaux.
+
+8l1l0	pH	S
+8l1l1	oxygène	S
+8l1l2	les_chlorures	S
+8l1l3	sulfates	S
+8l1l4	les_nitrates	S
+8l1l5	phosphates	S
+8l1l6	ammonium	S
+8l1l7	hydrocarbures_totaux	S
+
+#Les résultats de l'analyse effectuée le 21/10/2009 montrent des teneurs supérieures au seuil de quantification pour les paramètres suivants :
+
+9l0l0	le_21_10_2009	T
+9l0l1	des_teneurs_supérieures	O
+
+#Ammonium, avec une concentration de 3,2mg/L pour une limite fixée à 0.5 mg/L au droit du Pz4.
+
+10l1l0	Ammonium	S
+
+#Manganèse total, avec une concentration de 78.1ug/L au droit du Pz3 et 618.0ug/L au droit du Pz4, pour une limite fixée à 50.0 ug/L.
+
+11l1l0	Manganèse_total	S
+
+#Phosphates, avec une concentration de 0.069 mg/L au droit du Pz3 et 0.202 mg/l au droit du Pz4, pour une limite fixée à 0.05 mg/L.
+
+12l1l0	Phosphates	S
+12l1l1	Pz3	S
+12l1l2	Pz4	S
+
+#Les autres paramètres ne montrent pas de dépassement des seuils de quantifications.
+
+
+#Les activités de la société nécessitent le stockage et la manipulation de produits tels que : l'hydrogène, combustibles, acide chlorhydrique, lessives de soude, substances radioactives, hydrocarbures etc...
+
+14l0l0	Les_activités	A
+14l0l1	la_société	O
+14l0l2	nécessitent	R
+14l0l3	le_stockage_et_la_manipulation_de_produits	A
+14l1l0	hydrogène	S
+14l1l1	combustibles	U
+14l1l2	acide_chlorhydrique	S
+14l1l3	lessives	S
+14l1l4	de_soude	U
+14l1l5	hydrocarbures	S
+
+#Le risque de fuites et d'écoulements est présent.
+
+
+#L'exploitant est tenu de poursuivre la surveillance de la qualité de ses eaux souterraines.
+
+16l0l0	L__exploitant	O
+16l0l1	est_tenu_de	R
+16l0l2	poursuivre	O
+16l0l3	la_surveillance_de_la_qualité_de_ses_eaux_souterraines	A

@@ -1,0 +1,171 @@
+
+#62.0109
+#le terrain situé en zone résidentielle, d'une superficie de 7200 m2, a accueilli
+
+0l0l0	le_terrain	O
+0l0l1	situé_en_zone_résidentielle	L
+0l0l2	a_accueilli	N
+
+#de 1843 à 1931 une usine fabriquant du gaz à partir de la distillation de la houille.
+
+1l0l0	de_1843_à_1931	T
+1l0l1	une_usine	O
+1l0l2	fabriquant_du_gaz	A
+1l0l3	à_partir_de	R
+1l0l4	la_distillation_de_la_houille	A
+
+#Les installations de l'usine ont été démolies dans les années 60 et 70.
+
+2l0l0	Les_installations_de_l__usine	O
+2l0l1	ont_été_démolies	N
+2l0l2	dans_les_années_60_et_70__	T
+
+#L'usine
+
+
+#n'a jamais été exploitée par Gaz de France.
+
+4l0l0	n__a_jamais_été_exploitée	N
+4l0l1	Gaz_de_France	O
+4l1l0	Gaz_de_France	I
+
+#Actuellement le terrain comprend les anciens bâtiments administratifs du centre
+
+5l0l0	Actuellement	T
+5l0l1	le_terrain	O
+5l0l2	comprend	R
+5l0l3	les_anciens_bâtiments_administratifs_du_centre	O
+
+#EDF GDF.
+
+6l1l0	EDF_GDF	I
+
+#Ces locaux ne sont plus utilisés aujourd'hui.
+
+7l0l0	Ces_locaux	O
+7l0l1	ne_sont_plus_utilisés	N
+7l0l2	aujourd_hui	T
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à
+
+8l0l0	Gaz_de_France	O
+8l0l1	a_hiérarchisé	N
+8l0l2	ses_actions	O
+8l0l3	467_sites	O
+8l1l0	Gaz_de_France	I
+
+#gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+
+#La méthodologie a consisté à hiérarchiser les sites en fonction de leur
+
+10l0l0	hiérarchiser	N
+10l0l1	les_sites	O
+
+#sensibilité vis-à-vis de l'environnement (usage du site, vulnérabilité des eaux
+
+11l0l0	sensibilité_vis_à_vis_de	R
+11l0l1	l__environnement	O
+
+#souterraines et superficielles, présence et type de population sur le site).
+
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de
+
+13l0l0	L__application	N
+13l0l1	cette_méthode	O
+13l0l2	a_abouti_à	R
+13l0l3	l__établissement	N
+
+#priorité pour lesquelles les engagements de Gaz de France ont fait l'objet
+
+14l0l0	les_engagements	O
+14l0l1	Gaz_de_France	O
+14l0l2	ont_fait_l__objet	R
+14l1l0	Gaz_de_France	I
+
+#d'un protocole d'accord relatif à la maitrise et au suivi de la réhabilitation
+
+15l0l0	un_protocole_d__accord	O
+15l0l1	relatif_à	R
+15l0l2	la_maitrise	O
+15l0l3	suivi	O
+15l0l4	la_réhabilitation	N
+
+#des anciens terrains d'usines à gaz entre le ministère de l'Environnement et
+
+16l0l0	des_anciens_terrains_d__usines_à_gaz	O
+16l0l1	entre	R
+16l0l2	le_ministère_de_l__Environnement	O
+16l1l0	le_ministère_de_l__Environnement	I
+
+#Gaz de France signé le 25 avril 1996.
+
+17l0l0	Gaz_de_France	O
+17l0l1	signé	N
+17l0l2	le_25_avril_1996__	T
+17l1l0	Gaz_de_France	I
+
+#Sur le site de l'ancienne usine à gaz de saint-omer en classe 3 du protocole ont été réalisés un audit environnemental suivi d'un diagnostic approfondi en raison d'un projet de cession du site.
+
+18l0l0	Sur_le_site	L
+18l0l1	l__ancienne_usine_à_gaz	O
+18l0l2	saint_omer	O
+18l0l3	ont_été_réalisés	N
+18l0l4	un_audit_environnemental	N
+18l0l5	suivi_d_	R
+18l0l6	un_diagnostic_approfondi	N
+18l0l7	un_projet	O
+18l0l8	de_cession	N
+
+#L'ensemble des études a consisté à effectuer des recherches historiques et documentaires, à rechercher des ouvrages enterrés, à évaluer l'impact du site sur les ressources locales en eaux (eaux souterraines et superficielles) à caractériser le sol superficiel pour évaluer les risques de contact direct et ceux liés à d'éventuelles émanations gazeuses et à caractériser le sol en profondeur.
+
+
+#Ces diagnostics effectués par un bureau d'étude à la demande de Gaz de France
+
+20l0l0	Ces_diagnostics_effectués_par	N
+20l0l1	un_bureau_d__étude	O
+20l0l2	à_la_demande_de	R
+20l0l3	Gaz_de_France	O
+20l1l0	Gaz_de_France	I
+
+#a mis en évidence l'existence de deux cuves à goudrons enterrées sur le site.
+
+21l0l0	a_mis_en	N
+21l0l1	deux_cuves_à_goudrons_enterrées	O
+21l1l0	deux_cuves	D
+
+#Ces cuves ont été vidangées et remblayées en 01/2004.
+
+22l0l0	Ces_cuves	O
+22l0l1	ont_été_vidangées	N
+22l0l2	remblayées	N
+22l0l3	en_01_2004__	T
+
+#Des prélèvements de sol suivis d'analyses chimiques ont montré la présence de
+
+
+#composés liés à la production de gaz manufacturé.
+
+24l0l0	la_production_de_gaz_manufacturé	A
+
+#Les analyses d'eaux effectués sur la nappe phréatique ont également mis en évidence la présence de quelques uns de ces composés dans la partie nord-est du site.
+
+25l0l0	Les_analyses	N
+25l0l1	la_présence	O
+25l0l2	dans_la_partie_nord_est_du_site	L
+
+#Les études actuellement en cours s'inscrivent dans le cadre d'un projet de cession du site.
+
+26l0l0	Les_études	O
+26l0l1	actuellement_en_cours	O
+26l0l2	s__inscrivent_dans	R
+26l0l3	le_cadre_d_	R
+26l0l4	un_projet	O
+26l0l5	de_cession	N
+
+#La surveillance des eaux souterraines sera poursuivie en aval du site.
+
+27l0l0	La_surveillance_des_eaux_souterraines	A
+27l0l1	sera_poursuivie	O
+27l0l2	en_aval_du_site	L

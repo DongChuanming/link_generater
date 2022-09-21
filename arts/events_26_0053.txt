@@ -1,0 +1,148 @@
+
+#26.0053
+#Le site est d'une surface modeste et comprend un bâtiment principal.
+
+0l0l0	Le_site	O
+0l0l1	un_bâtiment_principal	O
+
+#Ce site est exploité par la société DROMENSEIGNE depuis 2004.
+
+1l0l0	Ce_site	O
+1l0l1	est_exploité	N
+1l0l2	la	N
+1l0l3	société_DROMENSEIGNE	O
+1l0l4	depuis_2004__	T
+1l1l0	la_société_DROMENSEIGNE	I
+
+#La société DROMENSEIGNE est amenée à collecter des néons contenant du mercure auprès de ses clients, certains sont recyclés, d'autres sont stockés pour envoi en centre de traitement autorisé.
+
+2l0l0	La_société_DROMENSEIGNE	O
+2l0l1	est_amenée_à_collecter	N
+2l0l2	des_néons	O
+2l1l0	La_société_DROMENSEIGNE	I
+2l1l1	néons	U
+2l1l2	mercure	S
+
+#Cette activité de collecte de néons est classable sous la rubrique 2718.2 de la nomenclature des installations classées.
+
+3l0l0	Cette_activité_de_collecte_de_néons	A
+3l1l0	néons	U
+
+#Le seuil d'autorisation d'une tonne n'étant pas dépassé, c'est le régime de la déclaration avec contrôle périodique qui est applicable.
+
+4l0l0	la_déclaration	N
+
+#Le site se trouve à l'intérieur du périmètre de protection éloigné du captage AEP de THABOR.
+
+5l0l0	Le_site	O
+5l0l1	se_trouve_à_l__intérieur_du_périmètre_de_protection_éloigné_du_captage_AEP_de_THABOR	L
+
+#les différents déchets générés dans le cadre des activités exercées (essentiellement : dépose d'enseignes lumineuses dont des néons comprenant du mercure, du diluant de nettoyage d'un atelier de peinture en cabine) sont stockés en extérieur, à l'arrière du bâtiment, dans l'attente d'être éliminés par un prestataire.
+
+6l0l0	dans_le_cadre	R
+6l0l1	des_activités_exercées	A
+6l0l2	__dépose	N
+6l0l3	__sont_stockés	N
+6l0l4	en_extérieur___à_l__arrière_du_bâtiment	L
+6l0l5	l__attente_d_	L
+6l0l6	être_éliminés	N
+6l0l7	par_un_prestataire	O
+6l1l0	dont_des_néons	U
+6l1l1	du_mercure	S
+6l1l2	du_diluant	S
+
+#Les eaux pluviales de ruissellement sur la zone des déchets entreposés s'écoulent dans un puits d'infiltration situé dans le terrain de l'exploitant.
+
+7l0l0	Les_eaux	O
+7l0l1	un_puits	O
+7l0l2	situé_dans_le_terrain	L
+7l0l3	l__exploitant	O
+
+#Une analyse effectuée sur la terre prélevée le 1er mars 2012 dans le fond du puits d'infiltration montre une concentration en mercure de 8,12 mg/kg de matière sèche.
+
+8l0l0	Une_analyse_effectuée_sur_la_terre_prélevée	N
+8l0l1	le_1er_mars_2012	T
+8l1l0	mercure	S
+
+#Un arrêté préfectoral d'urgence n°2012338-0009 du 3 décembre 2012 impose à la société DROMENSEIGNE les prescriptions suivantes, visant à établir un état des lieux et à déterminer l'impact potentiel des rejets polluants effectués :
+
+9l0l0	Un_arrêté_préfectoral_d__urgence	O
+9l0l1	3_décembre_2012	T
+9l0l2	impose	N
+9l0l3	la_société_DROMENSEIGNE	O
+9l0l4	un_état_des_lieux	N
+9l1l0	la_société_DROMENSEIGNE	I
+
+#------------------------------------------------------------------
+
+
+#2.2 Impact potentiel - État des lieux et diagnostic
+
+11l0l0	diagnostic	N
+
+#Dans les plus brefs délais et au plus tard sous trois mois à compter de la notification du présent arrêté,  afin d’identifier l’impact éventuel de la pollution constatée sur les milieux, l'exploitant fait procéder à une étude à présenter à l'inspection des installations classées.
+
+12l0l0	les	O
+12l0l1	plus_brefs_délais_et_au_plus_tard_sous_trois_mois_à_compter_de_la_notification	N
+12l0l2	du_présent_arrêté	N
+12l0l3	__l__exploitant	O
+
+#Cette étude doit permettre d’élaborer un diagnostic et un bilan de l’état des milieux (...), de déterminer l'extension de la pollution dans les milieux de transfert et d'exposition, et de comprendre les mécanismes de transfert des polluants vers et dans ces milieux.
+
+13l0l0	élaborer_un_diagnostic	N
+13l0l1	les_milieux	O
+13l1l0	polluants	S
+
+#Sont notamment recensés les captages d'eaux souterraines (caractéristiques et usages) situés dans un rayon cohérent avec l'importance de l'étendue de la pollution et les caractéristiques de la nappe.
+
+14l0l0	captages	O
+14l0l1	situés_dans_un_rayon_cohérent	L
+
+#Cette étude doit s'appuyer sur une étude hydrogéologique (sens écoulement nappe, profondeur, carte des courbes isopièzes...).
+
+
+#Un dispositif de surveillance pertinent des eaux souterraines (a minima un ouvrage amont et deux ouvrages en aval) devra être mis en place.
+
+16l0l0	Un_dispositif_de_surveillance_pertinent	O
+16l0l1	eaux_souterraines	O
+
+#Les forages nécessaires devront être réalisés dans les règles de l'art conformément aux recommandations du fascicule AFNOR -FD-X 31-614 d’octobre 1999.
+
+17l0l0	Les_forages	N
+17l0l1	nécessaires	O
+17l0l2	devront	R
+17l0l3	être_réalisés	N
+17l0l4	octobre_1999	T
+
+#La conception de ces piézomètres et leur profondeur devra permettre d'intercepter une fraction significative de la zone saturée, en fonction de l’hydrogéologie et de la nature des polluants.
+
+18l0l0	zone_saturée	O
+18l1l0	polluants	U
+
+#Le prélèvement, l'échantillonnage et le conditionnement des échantillons d'eau suivent les recommandations du fascicule AFNOR FD-X-31.615 de décembre 2000.
+
+19l0l0	Le_prélèvement	N
+19l0l1	l__échantillonnage	O
+19l0l2	décembre_2000__	T
+
+#Dans un premier temps, au moins une campagne de mesures dans les eaux souterraines sera réalisée.
+
+
+#Les résultats des mesures effectuées seront comparés à l’état initial de l’environnement, aux milieux naturels voisins et à des valeurs de gestion réglementaires pour les voies et les scénarios d’exposition pertinents identifiés dans le schéma conceptuel.
+
+21l0l0	pour_les_voies	O
+21l0l1	dans_le_schéma_conceptuel	O
+
+#---------------------------------------------------------
+
+
+#La société DROMENSEIGNE a pris du retard, elle a confié à la société SOCOTEC la réalisation de l'étude demandée
+
+23l0l0	La_société_DROMENSEIGNE	O
+23l0l1	a_pris	N
+23l0l2	elle	O
+23l0l3	a_confié	N
+23l0l4	la_société_SOCOTEC	O
+23l0l5	la_réalisation_de_l__étude	N
+23l1l0	La_société_DROMENSEIGNE	I
+23l1l1	la_société_SOCOTEC	I

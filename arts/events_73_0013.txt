@@ -1,0 +1,381 @@
+
+#73.0013
+#Il s’agit de l'ancienne décharge interne de l'usine Péchiney de Venthon (voir fiche spécifique n°73.0029), située sur la rive gauche de l'Arly, dans le prolongement de l'usine, au sud (commune d'Albertville).
+
+0l0l0	l__ancienne_décharge	O
+0l0l1	l__usine_Péchiney	O
+0l0l2	Venthon	O
+0l0l3	située_sur_la_rive_gauche_de_l__Arly	L
+0l0l4	dans_le_prolongement_de_l__usine	L
+0l0l5	au_sud___commune_d__Albertville	L
+0l1l0	Péchiney	I
+
+#Elle couvre 2,5 hectares.
+
+
+#Elle a été exploitée entre 1981 et 1997.
+
+2l0l0	Elle	O
+2l0l1	a_été_exploitée	N
+2l0l2	entre_1981_et_1997__	T
+
+#D’après les études historiques menées par Aluminium Péchiney en 1998 elle aurait reçu environ 50 000 tonnes de déchets : 32 000 tonnes de brasques (caractéristiques de l'activité d'électrolyse), déchets industriels banals, boues de décantation, déchets de démolition, réfractaires....
+
+3l0l0	Aluminium_Péchiney	O
+3l0l1	en_1998	T
+3l0l2	elle	O
+3l0l3	aurait_reçu	N
+3l0l4	50_000_tonnes_de_déchets	O
+3l0l5	activité_d__électrolyse	A
+3l0l6	boues_de_décantation	O
+3l1l0	Aluminium_Péchiney	I
+
+#La hauteur du dépôt a pu atteindre 5 m.
+
+4l0l0	La_hauteur_du_dépôt	O
+4l0l1	a_pu_atteindre	N
+
+#En prévision de la séparation entre les sociétés Aluminium Péchiney et Cézus d'une part, et de la cessation progressive des activités menées par Péchiney sur le site d'autre part, des prescriptions complémentaires ont été prises à l'encontre de cette dernière par arrêté préfectoral du 26/04/94 :
+
+5l0l0	En_prévision_de	R
+5l0l1	la_séparation	N
+5l0l2	les_sociétés_Aluminium_Péchiney	O
+5l0l3	Cézus	O
+5l0l4	la_cessation_progressive_des_activités	N
+5l0l5	Péchiney	O
+5l0l6	des_prescriptions_complémentaires	O
+5l0l7	ont_été_prises	N
+5l0l8	arrêté_préfectoral	O
+5l0l9	du_26_04_94	T
+5l1l0	les_sociétés_Aluminium_Péchiney	I
+5l1l1	Cézus	I
+5l1l2	Péchiney	I
+
+#- réalisation d'une "étude de site" (historique, géologique, hydrogéologique, reconnaissance du sol et du sous-sol...)
+
+
+#- réalisation d'une étude du réaménagement de la décharge
+
+7l0l0	réalisation_d__une_étude_du_réaménagement	N
+7l0l1	la_décharge	O
+
+#- surveillance de la qualité des eaux souterraines
+
+8l0l0	surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#- surveillance de la pollution atmosphérique par le fluor
+
+9l1l0	fluor	S
+
+#- conditions de remise en état du site.
+
+10l0l0	remise_en_état	N
+10l0l1	du_site	O
+
+#Les éléments ont été transmis entre 1995 et 1998.
+
+11l0l0	Les_éléments	O
+11l0l1	ont_été_transmis	N
+11l0l2	entre_1995_et_1998	T
+
+#Par courrier du 31/08/99 Aluminium Péchiney a fait part de la cessation de l’’exploitation de la décharge au 31/12/97.
+
+12l0l0	31_08_99	T
+12l0l1	Aluminium_Péchiney	O
+12l0l2	a_fait_part	N
+12l0l3	de	R
+12l0l4	la_cessation_de_l_exploitation	N
+12l0l5	la_décharge	O
+12l0l6	au_31_12_97__	T
+12l1l0	Aluminium_Péchiney	I
+
+#La réalisation d'un diagnostic initial et d'une évaluation simplifiée des risques (ESR, selon les formes prévues par la circulaire du 3/04/96) a ensuite été prescrite par arrêté du 26/11/98.
+
+13l0l0	La_réalisation_d__un_diagnostic_initial	N
+13l0l1	d__une_évaluation_simplifiée_des_risques	N
+13l0l2	3_04_96	T
+13l0l3	a_ensuite_été_prescrite	N
+13l0l4	26_11_98__	T
+
+#Les documents ont été transmis à l'administration en juillet 2000 puis en septembre 2001.
+
+14l0l0	Les_documents	O
+14l0l1	ont_été_transmis	N
+14l0l2	l__administration	O
+14l0l3	en_juillet_2000	T
+14l0l4	en_septembre_2001	T
+
+#Le diagnostic a mis en évidence la présence de déchets hétérogènes composés des substances et éléments caractéristiques des activités de l’usine, et notamment de la production d’aluminium : fluorures, cyanures libres, HAP, PCB, aluminium, bore et titane.
+
+15l0l0	Le_diagnostic	N
+15l0l1	activités_de_l__usine	A
+15l0l2	la_production_d_	A
+15l0l3	aluminium	O
+15l1l0	la_présence_de_déchets	U
+15l1l1	fluorures	S
+15l1l2	cyanures_libres	S
+15l1l3	HAP	S
+15l1l4	PCB	S
+15l1l5	aluminium	S
+15l1l6	bore	S
+15l1l7	titane	S
+
+#Un impact a également été décelé dans les eaux souterraines à l’aval de la décharge (soit à l’aval global du site de Venthon) sur les paramètres fluorures et cyanures totaux ; de l’aluminium et du sodium ont également été détectés, ainsi que du fer et du plomb  (ces deux derniers éléments étant attribués au bruit de fond géochimique local).
+
+16l0l0	Un_impact	O
+16l0l1	a_également_été_décelé	N
+16l0l2	les_eaux_souterraines	O
+16l0l3	à_l__aval_de_la_décharge	L
+16l0l4	à_l__aval_global_du_site_de_Venthon	L
+16l1l0	fluorures	S
+16l1l1	cyanures_totaux	S
+16l1l2	l__aluminium	S
+16l1l3	sodium	S
+16l1l4	fer	S
+16l1l5	plomb	S
+
+#L’ESR a abouti à une classe 2 "site à surveiller" pour la décharge comme pour l’ancienne usine, pour les milieux eaux souterraines (usage AEP et AEI) et eaux superficielles (usage de loisirs), pour les HAP et les PCB.
+
+17l1l0	HAP	S
+17l1l1	PCB	S
+
+#Le milieu sol a été noté en classe 3 "banalisable".
+
+18l0l0	a_été_noté	N
+
+#L’ESR a recommandé la poursuite de la surveillance de la qualité des eaux de la nappe et de l’Arly.
+
+19l0l0	la_poursuite	O
+19l0l1	de_la_surveillance	A
+19l0l2	la_qualité_des_eaux	O
+19l0l3	la_nappe	O
+19l0l4	l__Arly	L
+19l1l0	L__ESR	I
+
+#Entre temps, Aluminium Péchiney a été autorisée, par arrêté préfectoral du 22/02/01, pris au titre de la loi sur l’eau, à réaliser des travaux de protection de la décharge vis à vis des crues centennales de l’Arly : enrochements des talus de la décharge sur 250 m, enrochement des berges de l’Arly sur 180 m.
+
+20l0l0	Aluminium_Péchiney	O
+20l0l1	a_été_autorisée	N
+20l0l2	arrêté_préfectoral	O
+20l0l3	du_22_02_01	T
+20l0l4	réaliser_des_travaux_de_protection	N
+20l0l5	la_décharge	O
+20l0l6	vis	R
+20l0l7	à_vis_des_crues_centennales	A
+20l0l8	de_l__Arly	L
+20l0l9	enrochements_des_talus	N
+20l0l10	la_décharge	O
+20l0l11	250_m	O
+20l0l12	enrochement	N
+20l0l13	des_berges_de_l__Arly	L
+20l1l0	Aluminium_Péchiney	I
+
+#Un arrêté préfectoral du 11/07/02 a prescrit à l'exploitant la transmission d'une étude relative à la réhabilitation de l'ancienne décharge.
+
+21l0l0	Un_arrêté_préfectoral	O
+21l0l1	11_07_02	T
+21l0l2	a_prescrit	N
+21l0l3	l__exploitant	O
+21l0l4	la_transmission	N
+21l0l5	d__une_étude	N
+21l0l6	relative_à	R
+21l0l7	la_réhabilitation	N
+21l0l8	ancienne_décharge	O
+
+#Par courrier du 23/10/03, Aluminium Péchiney a transmis une étude proposant la mise en œuvre d’une  "barrière capillaire", visant à limiter très fortement les infiltrations d’eau pluviale dans la décharge. (N.
+
+22l0l0	du_23_10_03	T
+22l0l1	Aluminium_Péchiney	O
+22l0l2	a_transmis	N
+22l0l3	une_étude	O
+22l0l4	proposant	R
+22l0l5	la_mise_en_œuvre_d_	N
+22l1l0	Aluminium_Péchiney	I
+
+#. : Une telle solution avait été mise en œuvre sur d’autres sites et notamment, en Savoie, sur l’ancienne décharge Péchiney de Plateau Robert, à Saint-Marcel.
+
+23l0l0	Une_telle_solution	O
+23l0l1	avait_été_mise_en_œuvre	N
+23l0l2	en_Savoie	L
+23l0l3	Péchiney	O
+23l0l4	de_Plateau_Robert	L
+23l0l5	à_Saint_Marcel	L
+23l1l0	Péchiney	I
+
+#Cette solution technique a fait l’objet d’une expertise favorable de l’INERIS dans son rapport du 30/11/00).
+
+24l0l0	Cette_solution_technique	O
+24l0l1	a_fait_l__objet_d_	R
+24l0l2	une_expertise_favorable	N
+24l0l3	l__INERIS	O
+24l0l4	30_11_00	T
+
+#Par courrier du 20/04/04, l’exploitant a également transmis un rapport complémentaire (INGEOS, juillet 2004) concernant l’incidence du projet de réaménagement sur la cotation établie par l’ESR en 2001.
+
+25l0l0	20_04_04	T
+25l0l1	l__exploitant	O
+25l0l2	a_également_transmis	N
+25l0l3	un_rapport_complémentaire	O
+25l0l4	INGEOS	O
+25l0l5	juillet_2004	T
+25l0l6	l__incidence	N
+25l0l7	du_projet_de_réaménagement	N
+25l0l8	en_2001	T
+25l1l0	INGEOS	I
+25l1l1	l__ESR	I
+
+#L’étude INGEOS a mis en évidence que, contrairement aux sols situés dans la partie"usine", les fluorures présents dans la décharge sont partiellement sous forme soluble (NaF, issu des brasques, qui contiennent aussi du fluor sous forme d’AlF3, insoluble ; des boues insolubles de CaF2 ont également été mises dans la décharge).
+
+26l0l0	étude_INGEOS	O
+26l0l1	situés_dans_la_partie_usine__	L
+26l1l0	INGEOS	I
+26l1l1	fluorures	S
+26l1l2	soluble___NaF	S
+26l1l3	fluor	S
+26l1l4	d__AlF3___insoluble	S
+26l1l5	des_boues_insolubles	U
+26l1l6	CaF2	S
+
+#Elle a ainsi justifié que les fluorures devaient être pris en compte dans la cotation de l’ESR de la décharge, et a finalement retenu une cotation de 1 "site nécessitant des investigations profondes" pour les milieux eaux souterraines (usage AEP et AEI) et les sols, et, par suite, en classement global.
+
+27l0l0	a_finalement_retenu	N
+27l1l0	les_fluorures	S
+
+#INGEOS a par conséquent étudié les phénomènes de lixiviation des fluorures, notamment en cas de remontée de la nappe alluviale dans le massif de déchets lors des crues de l’Arly.
+
+28l0l0	INGEOS	O
+28l0l1	a_par_conséquent_étudié	N
+28l0l2	lixiviation	N
+28l0l3	en_cas	R
+28l0l4	de_remontée	N
+28l0l5	le_massif_de_déchets	O
+28l0l6	lors_des_crues	R
+28l0l7	de_l__Arly	L
+28l1l0	INGEOS	I
+28l1l1	fluorures	S
+
+#Le bureau d’études a démontré que le risque sanitaire afférent était tout à fait négligeable.
+
+29l0l0	Le_bureau_d__études	O
+
+#Enfin, INGEOS a justifié qu’après réhabilitation, selon les principes de la barrière capillaire, la décharge passerait de la note 1 à la note 2, les transferts de polluants étant considérablement réduits.
+
+30l0l0	INGEOS	O
+30l1l0	INGEOS	I
+30l1l1	polluants	U
+
+#La réhabilitation de la décharge selon les conditions prévues par INGEOS a été prescrite à l’exploitant par arrêté préfectoral du 31/03/05.
+
+31l0l0	La_réhabilitation	N
+31l0l1	la_décharge	O
+31l0l2	selon	R
+31l0l3	les_conditions	O
+31l0l4	INGEOS	O
+31l0l5	a_été_prescrite	N
+31l0l6	l__exploitant	O
+31l0l7	arrêté_préfectoral	O
+31l0l8	du_31_03_05__	T
+31l1l0	INGEOS	I
+
+#Une visite sur site menée le 23/08/06 a permis de constater la réalisation effective des travaux.
+
+32l0l0	Une_visite_sur_site	N
+32l0l1	le_23_08_06	T
+32l0l2	la_réalisation_effective_des_travaux	N
+
+#Dans son rapport du même jour, l’inspecteur demandait à l’exploitant la transmission sous 1 mois d’un compte rendu général des travaux permettant de vérifier le respect du cahier des charges de la barrière capillaire.
+
+33l0l0	l__exploitant	O
+33l0l1	la_transmission	N
+33l0l2	sous_1_mois	T
+33l0l3	d__un_compte_rendu_général_des_travaux	O
+33l0l4	le_respect_du_cahier_des_charges	O
+
+#L'arrêté du 11/07/02 prescrivait également une surveillance de la qualité des eaux souterraines et superficielles à Aluminium Péchiney.
+
+34l0l0	L_	O
+34l0l1	11_07_02_prescrivait	N
+34l0l2	également	R
+34l0l3	une_surveillance_de_la_qualité_des_eaux_souterraines_et_superficielles	A
+34l0l4	Aluminium_Péchiney	O
+34l1l0	Aluminium_Péchiney	I
+
+#Les mesures ont permis de montrer une décroissance progressive des concentrations en fluor.
+
+35l1l0	fluor	S
+
+#Au 21/05/14, plus aucun impact n'est décelé à l'aval de la décharge sur les paramètres mesurés (fluorures, cyanures libres, métaux, hydrocarbures, HAP...), ni sur les eaux superficielles (Arly).
+
+36l0l0	Au_21_05_14	T
+36l0l1	l__aval_de_la_décharge	L
+36l1l0	fluorures	S
+36l1l1	cyanures	S
+36l1l2	métaux	S
+36l1l3	hydrocarbures	S
+36l1l4	HAP	S
+
+#Le captage d’eau potable situé dans la plaine de Conflans a fait l’objet d'analyses en juillet 2000, avril 2001 et août 2003 ; des concentrations en fluor de l’ordre de 0.1 mg/l ont été mesurées, pour un seul de potabilité fixé à 1.5 mg/l.
+
+37l0l0	Le_captage	O
+37l0l1	situé_dans_la_plaine_de_Conflans	L
+37l0l2	a_fait_l__objet_d_	R
+37l0l3	analyses	N
+37l0l4	en_juillet_2000___avril_2001_et_août_2003	T
+37l0l5	été_mesurées	N
+37l1l0	fluor	S
+
+#L'arrêté du 11/07/02 prévoyait enfin la mise en place de dispositions visant à restreindre l’usage futur du site, interdisant en particulier :
+
+38l0l0	L_	O
+38l0l1	11_07_02	T
+38l0l2	restreindre_l__usage_futur_du_site	A
+
+#- toute modification de l’état du sol et du sous-sol, notamment par des travaux de terrassement,
+
+39l0l0	des_travaux_de_terrassement	N
+
+#- l’utilisation des eaux souterraines au droit du site ;
+
+
+#- toute construction ;
+
+
+#- l’accès au site à toute personne non-habilitée ;
+
+
+#et précisant que de telles restrictions pourraient être levées si une nouvelle étude en démontrait la faisabilité dans des conditions sanitaires acceptables.
+
+
+#L'arrêté invitait ainsi l'exploitant à demander l'institution de servitudes conventionnelles au profit de l'état (SCPE), afin de garantir dans le temps le maintien d'un usage du site compatible avec la protection de l'environnement et de la santé.
+
+44l0l0	l__exploitant	O
+44l0l1	demander_l_	N
+44l0l2	institution_de_servitudes_conventionnelles	O
+44l0l3	au_profit_de	R
+44l0l4	l_	O
+44l0l5	dans_le_temps	O
+44l0l6	site	O
+44l0l7	compatible_avec	R
+
+#Une proposition de servitudes a été transmise par l'exploitant en juillet 2003.
+
+45l0l0	Une_proposition_de_servitudes	O
+45l0l1	a_été_transmise	N
+45l0l2	l__exploitant	O
+45l0l3	en_juillet_2003__	T
+
+#Une nouvelle échéance pour la mise en place de ces restrictions d’usage a été fixée par l’arrêté du 31/03/05.
+
+46l0l0	Une_nouvelle_échéance	O
+46l0l1	la_mise_en_place	N
+46l0l2	ces_restrictions_d__usage	O
+46l0l3	a_été_fixée	N
+46l0l4	l__arrêté	N
+46l0l5	du_31_03_05__	T
+
+#Cependant, malgré de nombreux échanges entre l'administration et l'exploitant jusqu'en 2008, ce projet n'a pas abouti.
+
+47l0l0	l__administration	O
+47l0l1	l__exploitant	O
+47l0l2	jusqu__en_2008__	T
+47l0l3	ce_projet	O

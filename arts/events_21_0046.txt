@@ -1,0 +1,224 @@
+
+#21.0046
+#Le site de la Société BTB accueillait jusqu'en 2001 une activité de blanchisserie pour une capacité d'environ 1600 kg et de nettoyage à sec pour une capacité d'environ 50 kg avec local de linge et vêtements de travail.
+
+0l0l0	Le_site	O
+0l0l1	la_Société_BTB	O
+0l0l2	accueillait	R
+0l0l3	jusqu__en_2001	T
+0l0l4	une_activité_de_blanchisserie	A
+0l0l5	nettoyage_à_sec	N
+0l1l0	la_Société_BTB	I
+
+#Le site était implanté dans un quartier résidentiel, bordé par des habitations, des commerces et le groupe scolaire d'York.
+
+1l0l0	Le_site	O
+1l0l1	était	R
+1l0l2	implanté_dans_un_quartier_résidentiel	L
+1l0l3	bordé_par_des_habitations	L
+
+#hydrogéologie:
+
+2l0l0	hydrogéologie	N
+
+#Un premier niveau humide est rencontrée vers une profondeur de 7/9 mètres sans toutefois donner beaucoup d'eau.
+
+3l0l0	Un_premier_niveau_humide	O
+3l0l1	est_rencontrée_vers	N
+
+#La première nappe souterraine franche a été identifiée entre 12 et 14 mètres de profondeur, juste en-dessous d'un niveau argileux compact.
+
+4l0l0	La_première_nappe	O
+4l0l1	a_été_identifiée	N
+4l0l2	en_dessous_d_	L
+
+#Dans le cadre de la vente du site au Foyer Dijonnais, BTB a réalisé une étude de sol en décembre 2001.
+
+5l0l0	Dans_le_cadre_de	R
+5l0l1	la_vente	N
+5l0l2	du_site	O
+5l0l3	au_Foyer_Dijonnais	L
+5l0l4	BTB	O
+5l0l5	a_réalisé	N
+5l0l6	une_étude_de_sol	N
+5l0l7	en_décembre_2001	T
+5l1l0	BTB	I
+
+#Une série de prélèvements et d'analyses a été effectuée au droit des zones suivantes :
+
+6l0l0	Une_série_de_prélèvements	N
+6l0l1	d__analyses	N
+6l0l2	a_été_effectuée	N
+6l0l3	au_droit_des_zones	L
+
+#Transformateur: PCB/HCT
+
+7l1l0	PCB___HCT	S
+
+#Cuve fioul domestique de 2 000 litres: Hydrocarbures et Solvants chlorés
+
+8l0l0	Hydrocarbures	O
+8l1l0	fioul	U
+8l1l1	Hydrocarbures	S
+8l1l2	Solvants	S
+8l1l3	chlorés	U
+
+#Cuve fioul lourd de 100 000 litres: Hydrocarbures et Solvants chlorés
+
+9l0l0	Cuve_fioul_lourd	O
+9l1l0	Cuve	S
+9l1l1	fioul_lourd	U
+9l1l2	Hydrocarbures	S
+9l1l3	Solvants_chlorés	S
+
+#Cuve à gasoil du quai de chargement: Hydrocarbures et Solvants chlorés
+
+10l0l0	Hydrocarbures	O
+10l1l0	gasoil	U
+10l1l1	Hydrocarbures	S
+10l1l2	Solvants	S
+10l1l3	chlorés	U
+
+#Puits perdu: Hydrocarbures et Solvants chlorés
+
+11l1l0	Hydrocarbures	S
+11l1l1	Solvants_chlorés	S
+
+#Cuve à fioul léger de 2 000 litres: Hydrocarbures et Solvants chlorés
+
+12l1l0	fioul	U
+12l1l1	Hydrocarbures	S
+12l1l2	Solvants_chlorés	S
+
+#Les prélèvements et analyses ont montré que les sols dans les secteurs investigués ne présentaient pas de contamination vis-à-vis des paramètres analysés (hydrocarbures totaux, solvants chlorés, hydrocarbures aliphatiques aromatiques, BTEX).
+
+13l0l0	les_sols	O
+13l0l1	investigués	N
+13l0l2	présentaient_pas_de_contamination	O
+13l1l0	hydrocarbures_totaux	S
+13l1l1	solvants_chlorés	S
+13l1l2	hydrocarbures_aliphatiques_aromatiques	S
+13l1l3	BTEX	S
+
+#Toutefois, étant donné que les solvants chlorés sont très volatils et plus denses que l'eau, il est possible que l'on ne détecte pas leur présence dans les sols mais qu'ils soient présents en quantité importante dans les eaux.
+
+14l1l0	les_solvants_chlorés	S
+
+#Compte tenu de l'utilisation future du site (construction de maisons d'habitations), le Foyer Dijonnais a fait réaliser une étude de la qualité des eaux souterraines.
+
+15l0l0	construction_de_maisons_d__habitations	A
+15l0l1	le_Foyer_Dijonnais	O
+15l0l2	a_fait_réaliser	N
+15l0l3	une_étude	N
+15l0l4	la_qualité_des_eaux_souterraines	O
+
+#Cette étude a conclu à la présence d'une pollution des eaux souterraines par du tétrachloroéthylène (les concentrations étaient de 10 à 80 fois supérieures aux valeurs réglementaires).
+
+16l0l0	une_pollution	O
+16l0l1	eaux_souterraines	O
+16l1l0	tétrachloroéthylène	S
+
+#19 février 2003: par arrêté préfectoral, la société INITIAL BTB a été tenue de procéder aux prescriptions suivantes:
+
+17l0l0	19_février_2003__	T
+17l0l1	par_arrêté_préfectoral	O
+17l0l2	la_société_INITIAL_BTB	O
+17l0l3	a_été_tenue_de_procéder_aux_prescriptions	N
+17l1l0	la_société_INITIAL_BTB	I
+
+#- délimitation de l'étendue de la pollution dans la nappe et les sols
+
+18l0l0	les_sols	A
+
+#- mise en place d'une surveillance adaptée de la qualité des eaux souterraines
+
+19l0l0	mise_en_place_d__une_surveillance_adaptée	N
+19l0l1	la_qualité_des_eaux_souterraines	O
+
+#- l'évaluation des risques potentiels pour les populations et l'environnement.
+
+
+#La Société BTB a alors réalisé une Etude Simplifiée des Risques (ESR) et une Etude Détaillée des Risques (EDR) conformément à l'ancienne méthodologie nationale en matière de sites et sols pollués .
+
+21l0l0	La_Société_BTB	O
+21l0l1	a_alors_réalisé	N
+21l0l2	une_Etude_Simplifiée_des_Risques	N
+21l0l3	une_Etude_Détaillée_des_Risques	N
+21l1l0	La_Société_BTB	I
+
+#L'EDR a conclut qu'une zone limitée de sols légèrement pollués par du tétrachloroéthylène à l'emplacement du nettoyage à sec ainsi que la contamination de la nappe souterraine n'engendre pas de risque pour la santé humaine.
+
+22l0l0	une_zone_limitée	O
+22l0l1	à_l__emplacement_du_nettoyage_à_sec	N
+22l0l2	la_contamination	O
+22l1l0	tétrachloroéthylène	S
+
+#Des travaux de dépollution ont été réalisés en août 2004 avec au préalable des investigations pour délimiter les zones contaminées au tétrachloroéthylène.
+
+23l0l0	Des_travaux_de_dépollution	N
+23l0l1	ont_été_réalisés	N
+23l0l2	en_août_2004	T
+23l0l3	avec_au_préalable	O
+23l0l4	des_investigations	N
+23l0l5	zones_contaminées	O
+23l1l0	tétrachloroéthylène	S
+
+#Le volume total de sol à excaver était estimé à 300 m3.
+
+24l0l0	Le_volume_total_de_sol_à_excaver	N
+
+#Les sols souillés ont ensuite été acheminés en centre de désorption thermique.
+
+25l0l0	Les_sols_souillés	O
+25l0l1	ont_ensuite_été_acheminés_en	R
+25l0l2	centre_de_désorption	N
+
+#La société BTB était tenue de suivre la qualité des eaux souterraines (solvants chloré) selon une périodicité semestrielle conformément à l'arrêté préfectoral sus-visé.
+
+26l0l0	La_société_BTB	O
+26l0l1	était_tenue_de	R
+26l0l2	suivre_la_qualité_des_eaux_souterraines	O
+26l1l0	La_société_BTB	I
+26l1l1	solvants_chloré	U
+
+#Les résultats des analyses transmis à l'inspection des installations classées ont montré une légère amélioration de la qualité des eaux souterraines.
+
+27l0l0	la_qualité_des_eaux_souterraines	O
+
+#14 novembre 2006: un nouvel arrêté préfectoral  relatif à la surveillance définitive et après réhabilitation du site des eaux souterraines a été pris.
+
+28l0l0	14_novembre_2006__	T
+28l0l1	un_nouvel_arrêté_préfectoral	O
+28l0l2	__relatif	R
+28l0l3	à_la_surveillance_définitive_et	O
+28l0l4	après_réhabilitation	N
+28l0l5	du_site	O
+28l0l6	des_eaux_souterraines	A
+28l0l7	a_été_pris	N
+
+#Une analyse des eaux devait être réalisée chaque semestre au droit des 3 piézomètres présents sur le site.
+
+29l0l0	Une_analyse_des_eaux	O
+29l0l1	devait_être_réalisée	N
+29l0l2	chaque_semestre	T
+
+#Les analyses portent sur des solvants halogénés dont le tétrachloroéthylène.
+
+30l1l0	solvants_halogénés	S
+30l1l1	le_tétrachloroéthylène	S
+
+#La campagne de mai 2014 indique la présence de solvants chlorés à des concentrations importantes au niveau du réseau piézométrique.
+
+31l0l0	La_campagne_de	N
+31l0l1	mai_2014	T
+31l0l2	la_présence	O
+31l1l0	solvants_chlorés	U
+
+#En outre, les concentrations relevées étaient très supérieures aux imites de qualité des eaux destinés à la consommation humaine (arrêté du 11 janvier 2007 relatif aux limites et référence de qualité des eaux brutes et des eaux destinés à la consommation humaine).
+
+32l0l0	11_janvier_2007	T
+
+#Le suivi de la qualité des eaux souterraines est maintenu.
+
+33l0l0	Le_suivi_de	A
+33l0l1	la_qualité_des_eaux_souterraines	O

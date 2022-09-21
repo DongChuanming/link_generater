@@ -1,0 +1,121 @@
+
+#59.0435
+#Fonderie de bronze en activité.
+
+0l0l0	Fonderie	N
+
+#Site industriel qui abritait jusqu'en 1902 une distillerie de genièvre, puis une filature de 1907 à 1940.
+
+1l0l0	Site_industriel	O
+1l0l1	abritait_jusqu__en_1902_une_distillerie_de_genièvre	A
+1l0l2	filature	A
+1l0l3	de_1907_à_1940	T
+
+#Une activité d'usinage des métaux démarre sur ce site en 1951.
+
+2l0l0	Une_activité_d__usinage_des_métaux	A
+2l0l1	démarre	R
+2l0l2	sur_ce_site	L
+2l0l3	en_1951	T
+
+#Cette activité d'usinage est poursuivie par JEAN VANYWAEDE qui rachète le site en 1962 et crée une fonderie de bronze, mettant en oeuvre différents alliages.
+
+3l0l0	Cette_activité_d__usinage	A
+3l0l1	poursuivie_par_JEAN_VANYWAEDE	O
+3l0l2	rachète	N
+3l0l3	le_site	O
+3l0l4	en_1962	T
+3l0l5	crée	N
+3l0l6	une_fonderie	O
+3l0l7	de_bronze	A
+3l0l8	alliages	A
+3l1l0	JEAN_VANYWAEDE	I
+
+#Etude des sols réalisée en 1995.
+
+4l0l0	réalisée	N
+4l0l1	en_1995__	T
+
+#Diagnostic complet avec investigations du terrain :
+
+5l0l0	Diagnostic	O
+5l0l1	investigations	N
+5l0l2	du_terrain	O
+
+#- Prélèvement de sols et analyses
+
+6l0l0	analyses	O
+
+#- Création de 4 piézomètres et analyses des eaux souterraines
+
+7l0l0	Création_de	N
+7l0l1	4_piézomètres	O
+7l0l2	analyses	N
+7l0l3	eaux_souterraines	O
+
+#Arrêté préfectoral du 15/01/2003 prescrivant la réalisation d'une étude d'impact environnemental.
+
+8l0l0	Arrêté_préfectoral	O
+8l0l1	du_15_01_2003	T
+8l0l2	prescrivant_la_réalisation_d_	N
+8l0l3	une_étude_d__impact_environnemental	O
+
+#ESR réalisée en 2003 : classement du site en 2.
+
+9l0l0	réalisée_en_2003	T
+
+#Un projet d'arrêté préfectoral complémentaire est proposé à Monsieur le Préfet pour prescrire la surveillance des eaux souterraines en application de l'article 65 de l'arrêté ministériel du 2 février 1998 modifié (AP signé le 3 mars 2004).
+
+10l0l0	Un_projet	O
+10l0l1	Monsieur_le_Préfet	O
+10l0l2	prescrire	N
+10l0l3	la_surveillance_des_eaux_souterraines	A
+10l0l4	2_février_1998	T
+10l0l5	le_3_mars_2004	T
+10l1l0	le_Préfet	I
+
+#Surveillance sur 3 piézomètres (1 en amont - 2 en aval) 2 fois/an portant sur les paramètres HCT, plomb, nickel, zinc et cuivre.
+
+11l0l0	3_piézomètres	O
+11l0l1	fois___an	T
+11l0l2	les_paramètres_HCT	O
+11l1l0	HCT	S
+11l1l1	plomb	S
+11l1l2	nickel	S
+11l1l3	zinc	S
+11l1l4	cuivre	S
+
+#Arrêté préfectoral du 20/10/2005 imposant la réalisation d'une étude de pollution plomb et cadmium autour du site.
+
+12l0l0	Arrêté_préfectoral	O
+12l0l1	20_10_2005	T
+12l0l2	imposant_la_réalisation_d__une_étude_de_pollution	N
+12l0l3	cadmium_autour_du_site	O
+12l1l0	cadmium	S
+
+#-Diagnostic de l'état des sols (pb et cadm) autour de l'usine réalisé le 03/12/2007.
+
+13l0l0	_Diagnostic	N
+13l0l1	l__état_des_sols	O
+13l0l2	autour_de_l__usine	L
+13l0l3	réalisé	N
+13l0l4	le_03_12_2007__	T
+
+#Ce diagnostic révèle qu'il n'y a pas de pollution au plomb et cadmium autour du site.
+
+14l0l0	Ce_diagnostic	N
+14l0l1	cadmium	O
+14l0l2	autour_du_site	L
+14l1l0	plomb	S
+14l1l1	cadmium	S
+
+#Aucune utilisation connue des eaux souterraines.
+
+
+#Site en sécurité vis à vis des tiers.
+
+
+#Action de l’administration toujours en cours.
+
+17l0l0	Action	O
+17l0l1	l__administration	O

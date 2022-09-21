@@ -1,0 +1,140 @@
+
+#26.0039
+#En vu du démantèlement du four auto incinérateur d'ordures ménagères situé quartier Chapiat sur la commune de Die, la communauté des communes du Diois, a demandé la réalisation d'un diagnostic initial et une évaluation simplifiée des risques  selon le guide méthodologique (version du 02 mars 2000)élaboré par le Ministère de l'Environnement et le BRGM en matière des sites (potentiellement) pollués.
+
+0l0l0	En_vu_du	R
+0l0l1	démantèlement_du_four_auto_incinérateur	A
+0l0l2	situé_quartier_Chapiat_sur_la_commune_de_Die	L
+0l0l3	la_communauté	O
+0l0l4	des_communes	O
+0l0l5	du_Diois	L
+0l0l6	a_demandé	N
+0l0l7	la_réalisation_d__un_diagnostic_initial	N
+0l0l8	une_évaluation_simplifiée_des_risques	N
+0l0l9	du_02_mars_2000_élaboré	T
+0l0l10	par_le_Ministère_de_l__Environnement	O
+0l0l11	et_le_BRGM	O
+0l0l12	potentiellement___pollués	N
+0l1l0	la_communauté_des_communes_du_Diois	I
+0l1l1	par_le_Ministère_de_l__Environnement	I
+0l1l2	et_le_BRGM	I
+
+#Le site est implanté sur la commune de Die au lieu dit "Chapelet et Ruinel" dans une zone naturelle non équipée qu'il convient de protéger mais où les ouvrages techniques nécessaires au fonctionnement des services publics sont autorisés.
+
+1l0l0	Le_site	O
+1l0l1	est_implanté_sur_la_commune_de_Die_au_lieu_dit___Chapelet_et_Ruinel	L
+1l0l2	_	O
+1l0l3	dans_une_zone_naturelle_non	R
+1l0l4	équipée	O
+1l0l5	les_ouvrages_techniques	O
+
+#L'accès se fait par la voie forestière de Chapiat.
+
+2l0l0	L__accès	N
+2l0l1	se_fait_par_la_voie_forestière_de_Chapiat	L
+
+#Le procédé de traitement du four incinérateur utilisé était l'incinération par auto-combustion.
+
+3l0l0	Le_procédé_de_traitement	O
+3l0l1	l__incinération	N
+
+#Il en résultait :
+
+
+#- un stockage des ordures ménagères dans l'incinérateur pendant quelques heures
+
+5l0l0	un_stockage	N
+5l0l1	quelques_heures	T
+5l1l0	ordures_ménagères	U
+
+#- des gaz de combustion
+
+6l1l0	des_gaz_de_combustion	U
+
+#- du stockage des cendres et mâchefers
+
+7l1l0	mâchefers	U
+
+#- de l'accès au four par des personnes privées du fait que le périmètre du site n'est pas entièrement clôturé.
+
+8l0l0	l__accès_au_four	A
+8l0l1	le_périmètre_du_site	O
+
+#Cependant, aucun accident n'est survenu.
+
+
+#L'étude simplifiée des Risques a été transmise à l'administration et conclut a un classement 2 (c'est-à-dire site à surveiller)pour le sol et les eaux souterraines et les eaux de surface.  Les résultats apportent les observations suivantes :
+
+10l0l0	L__étude_simplifiée_des_Risques	N
+10l0l1	a_été_transmise	N
+
+#- les dangers liés au stockage des ordures ménagères pendant quelques heures dans l'incinérateur et aux gaz de combustion n'ont plus lieu d'être, étant donné que le four n'existe plus.
+
+11l0l0	plus_lieu_d_	N
+11l1l0	ordures_ménagères	U
+
+#- il reste les dangers liés au stockage des cendres et mâchefers, enfouis en vrac sur le site même et ce durant toute la période d'activité du four.
+
+12l0l0	four	A
+12l1l0	cendres	S
+
+#Les produits polluants potentiellement présents sont les suivants :
+
+13l1l0	produits_polluants	U
+
+#- polluants métalliques (chrome, cadmium, plomb) minéraux et organiques.
+
+14l1l0	polluants_métalliques	S
+14l1l1	chrome	S
+14l1l2	cadmium	S
+14l1l3	plomb	S
+
+#- la réalisation d'une seule mesure des eaux de puits d'une propriété voisine est insuffisante pour conclure sur l'impact.
+
+15l0l0	la_réalisation_d__une_seule_mesure	N
+15l0l1	eaux_de_puits	O
+15l0l2	une_propriété_voisine	O
+
+#Il a été aussi constaté une pollution par les eaux d'infiltration absorbées par la végétation.
+
+
+#Il paraît nécessaire de sécuriser le site et confiner la source.
+
+17l0l0	Il_paraît_nécessaire	O
+17l0l1	sécuriser	N
+17l0l2	le_site	O
+17l0l3	confiner	N
+17l0l4	la_source	O
+
+#Monsieur le Préfet de la Drôme a imposé, par arrêté préfectoral du 7 mai 2003, la remise en état du site, notamment en mettant en place une couverture peu perméable (10-9 m/s) sur la zone de dépôt de cendres et mâchefers.
+
+18l0l0	Monsieur_le_Préfet_de_la_Drôme	O
+18l0l1	a_imposé	N
+18l0l2	arrêté_préfectoral	O
+18l0l3	7_mai_2003__	T
+18l0l4	la_remise_en_état_du_site	N
+18l0l5	mettant_en_place_une_couverture	N
+18l1l0	le_Préfet	I
+18l1l1	de_la_Drôme	I
+18l1l2	dépôt_de_cendres	U
+
+#Une surveillance des eaux superficielles est également imposée sur 5 ans au moins.
+
+19l0l0	Une_surveillance	A
+19l0l1	eaux_superficielles	O
+19l0l2	5_ans_au_moins	T
+
+#La surveillance a été arrêtée en 2008, aucune pollution n'ayant été détectée.
+
+20l0l0	La_surveillance	O
+20l0l1	a_été_arrêtée	N
+20l0l2	en_2008__	T
+20l0l3	détectée	N
+
+#Le dossier a été clôturé en 2015 par la mise en place d'une SUP.
+
+21l0l0	Le_dossier	O
+21l0l1	a_été_clôturé	N
+21l0l2	en_2015	T
+21l0l3	la_mise_en_place_d_	N
+21l0l4	une_SUP	O

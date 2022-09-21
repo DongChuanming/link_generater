@@ -1,0 +1,303 @@
+
+#01.0074
+#La société TOTAL France a exploité sur le territoire de la commune de Viriat (340, route de Paris – RN 75) une station service jusqu’en 1992.
+
+0l0l0	La_société_TOTAL_France	O
+0l0l1	a_exploité	N
+0l0l2	sur_le_territoire_de_la_commune_de_Viriat	L
+0l0l3	__340___route_de_Paris___RN_75__	L
+0l0l4	une_station_service	O
+0l0l5	jusqu__en_1992	T
+0l1l0	La_société_TOTAL_France	I
+
+#Ce site relevait de la déclaration pour des activités de dépôt-vente de carburants (récépissé de déclaration en date du 3 septembre 1962).
+
+1l0l0	Ce_site	O
+1l0l1	relevait_de	R
+1l0l2	la_déclaration	N
+1l0l3	des_activités_de_dépôt___vente_de_carburants	A
+1l0l4	récépissé	O
+1l0l5	de_déclaration	N
+1l0l6	en_date_du_3_septembre_1962____	T
+1l1l0	carburants	U
+
+#Dans le cadre de la régularisation administrative de la situation de cet établissement, l’ancien exploitant a fait part à monsieur le préfet de l’Ain de la cessation d’activité du site, par courrier en date du 6 septembre 2005.
+
+2l0l0	Dans_le_cadre_de	R
+2l0l1	la_régularisation_administrative	N
+2l0l2	cet_établissement	O
+2l0l3	l__ancien_exploitant	O
+2l0l4	a_fait_part	N
+2l0l5	monsieur_le_préfet_de_l__Ain	O
+2l0l6	la_cessation_d__activité	N
+2l0l7	du_site	O
+2l0l8	en_date_du_6_septembre_2005__	T
+2l1l0	le_préfet	I
+
+#Selon les plans du site, la station comportait notamment :
+
+3l0l0	la_station	O
+
+#- 1 cuve de 20 m3 de gas-oil (GO), simple compartiment, double enveloppe, en pleine terre,
+
+4l1l0	1_cuve	D
+4l1l1	gas___oil	U
+
+#- 1 cuve de 15 m3 de gas-oil (GO), simple compartiment, simple enveloppe, en pleine terre,
+
+5l1l0	1_cuve	D
+5l1l1	gas___oil	U
+
+#- 1 cuve de 15 m3 d’essence (SCA), simple compartiment, simple enveloppe, en fosse maçonnée,
+
+6l0l0	fosse_maçonnée	O
+6l1l0	1_cuve	D
+6l1l1	d__essence	U
+6l1l2	SCA	I
+
+#- 1 cuve de 15 m3 d’essence (CA), simple compartiment, simple enveloppe, en fosse maçonnée,
+
+7l0l0	fosse_maçonnée	O
+7l1l0	1_cuve	D
+7l1l1	d__essence	U
+
+#- 1 cuve de 3 m3 de fioul domestique (FOD), simple compartiment, simple enveloppe, en pleine terre,
+
+8l1l0	1_cuve	D
+8l1l1	fioul_domestique	U
+8l1l2	FOD	I
+
+#- 1 cuve de 1,5 m3 d’huile usagée (HU), simple compartiment, simple enveloppe, en pleine terre,
+
+9l0l0	en_pleine_terre	L
+9l1l0	d__huile_usagée	U
+
+#- 2 postes de dépotage,
+
+10l0l0	2_postes_de_dépotage	O
+
+#- 5 postes de distribution,
+
+
+#- un puits perdu,
+
+
+#- un piézomètre.
+
+
+#Les cuves de 20 m3, 15 m3 et 3 m3 ont été extraites.
+
+14l0l0	ont_été_extraites	N
+
+#La cuve d’huile usagée est toujours en place.
+
+15l0l0	La_cuve_d__huile	O
+15l1l0	La_cuve_d__huile_usagée	U
+
+#A ce jour, une agence de location de véhicules a été aménagée sur le site.
+
+16l0l0	A_ce_jour	T
+16l0l1	une_agence_de_location_de_véhicules	O
+16l0l2	a_été_aménagée	N
+
+#Un logement est mitoyen à cet agence.
+
+17l0l0	cet_agence	O
+
+#Les sondages réalisés dans le cadre de la procédure de cessation d'activité ont fait l’objet d’une analyse en hydrocarbures totaux (HCT) ; ceux présentant des singularité organoleptiques ont fait l’objet d’analyses supplémentaires en BTEX.
+
+18l0l0	Les_sondages_réalisés	N
+18l0l1	dans_le_cadre_de	R
+18l0l2	la_procédure	O
+18l0l3	cessation_d__activité	N
+18l0l4	ont_fait_l__objet_d_	R
+18l0l5	une_analyse	N
+18l0l6	ont_fait_l__objet_d_	R
+18l1l0	hydrocarbures_totaux	S
+18l1l1	HCT	S
+18l1l2	BTEX	S
+
+#Les analyses réalisées en laboratoire font état :
+
+
+#- de présence de HCT (teneur maximale en S7 de 790 mg/kg de matière sèche (MS), à proximité des anciens îlots de distribution et des fosses maçonnées),
+
+20l0l0	à_proximité_des_anciens_îlots	L
+20l0l1	fosses	O
+20l0l2	maçonnées	L
+20l1l0	HCT	S
+20l1l1	S7	S
+
+#- de présence notable de toluène au niveau de S1 dans les anciens sablons de cuves (5,70 mg/kg MS),
+
+21l1l0	toluène	S
+
+#- de présence notable de xylènes totaux au niveau de S1 dans les anciens sablons de cuves et au niveau de S9 à proximité des anciens îlots de distribution et des fosses maçonnées (respectivement 98 mg/kg MS et 100 mg/kg MS).
+
+22l0l0	S9_à_proximité_des_anciens_îlots	L
+22l0l1	maçonnées	O
+22l1l0	xylènes_totaux	S
+
+#Trois piézomètres ont été posés à 6m de profondeur (Pz1 et Pz3 en latéral hydraulique, Pz2 au droit du site)
+
+23l0l0	Trois_piézomètres	O
+23l0l1	ont_été_posés	N
+23l0l2	à	R
+23l0l3	6_m_de_profondeur	O
+
+#Les analyses effectuées portent sur les hydrocarbures totaux et les BTEX.
+
+24l1l0	hydrocarbures_totaux	S
+24l1l1	les_BTEX	S
+
+#Les résultats sont repris ci-dessous :
+
+
+#- Présence de HCT, notamment au niveau de Pz2 et Pz3 (500 et 300 µg/L),
+
+26l1l0	HCT	S
+26l1l1	Pz2	S
+
+#- Teneurs notables en benzène au niveau de Pz2 et Pz3 (360 et 69 µg/L),
+
+27l1l0	benzène	S
+
+#- Présence de toluène au niveau de Pz2 (520 µg/L),
+
+28l1l0	toluène	S
+
+#- Présence de xylènes totaux au niveau de Pz2 (670 µg/L).
+
+29l1l0	xylènes_totaux	S
+
+#L'étude précise que la Reyssouze (eaux superficielles) et les nappes d’eau souterraine des alluvions de la Reyssouze et des cailloutis de Saint-Jean-sur-Reyssouze sont vulnérables au regard de la pollution constatée sur le site.
+
+30l0l0	la_Reyssouze	L
+30l0l1	alluvions	N
+30l0l2	de_la_Reyssouze	L
+30l0l3	cailloutis	A
+30l0l4	de_Saint_Jean_sur_Reyssouze	L
+
+#L'étude n’a identifié aucune cible, susceptible d’utiliser l’eau souterraine :
+
+
+#- aucun captage AEP localisé en aval hydraulique,
+
+32l0l0	captage_AEP	O
+32l0l1	localisé_en_aval_hydraulique	L
+
+#- aucun captage à usage agricole à proximité du site,
+
+33l0l0	captage_à_usage_agricole	O
+33l0l1	à_proximité_du_site	L
+
+#- présence de plusieurs puits privés et captages industriels à proximité, situés en amont, en latéral hydraulique ou de l’autre côté de la Reyssouze qui joue un rôle de barrage hydraulique
+
+34l0l0	à_proximité	L
+34l0l1	situés_en_amont___en_latéral_hydraulique	L
+34l0l2	autre_côté_de_la_Reyssouze	L
+34l0l3	joue_un_rôle_de_barrage_hydraulique	A
+
+#Dans ce contexte, il a été imposé à l'exploitant par arrêté complémentaire du 31 juillet 2007 une surveillance des eaux souterraines, ainsi que la remise d'un mémoire de réhabilitation du site.
+
+35l0l0	il	O
+35l0l1	a_été_imposé	N
+35l0l2	l__exploitant	O
+35l0l3	par	R
+35l0l4	arrêté_complémentaire	O
+35l0l5	du_31_juillet_2007	T
+35l0l6	une_surveillance_des_eaux_souterraines	A
+35l0l7	la_remise	N
+35l0l8	d_	L
+35l0l9	un_mémoire_de_réhabilitation	O
+
+#Les résultats d'analyses des eaux souterraines menées depuis confirment la présence d'une pollution aux hydrocarbures et BTEX au droit du site.
+
+36l0l0	depuis	T
+36l0l1	confirment	R
+36l0l2	la_présence_d__une_pollution	O
+36l0l3	au_droit_du_site	L
+36l1l0	hydrocarbures_et_BTEX	S
+
+#En outre, des analyses menées dans le puits privé d'une parcelle voisine concluent à la présence épisodique de benzène.
+
+37l0l0	des_analyses	N
+37l0l1	dans_le_puits_privé_d__une_parcelle_voisine	L
+37l1l0	benzène	S
+
+#Dans ce contexte, l'usage de l'eau du puit précité a été interdite par arrêté municipal du 30 avril 2009.
+
+38l0l0	l__usage_de_l__eau	A
+38l0l1	a_été_interdite	N
+38l0l2	par_arrêté_municipal	O
+38l0l3	du_30_avril_2009__	T
+
+#Par arrêté préfectoral de prescriptions spéciales du 14 mars 2011, il a été imposé à l'exploitant la mise en œuvre de travaux de dépollution, suite à la remise par l'exploitant d'un plan de gestion du site prévoyant l'utilisation d'une technique de biolessivage des sources de pollution.
+
+39l0l0	Par	R
+39l0l1	arrêté_préfectoral_de_prescriptions_spéciales	O
+39l0l2	14_mars_2011__	T
+39l0l3	il_a_été_imposé	N
+39l0l4	à_l__exploitant	O
+39l0l5	la_mise_en_œuvre_de_travaux_de_dépollution	N
+39l0l6	suite_à	R
+39l0l7	la_remise	N
+39l0l8	l__exploitant	O
+39l0l9	un_plan_de_gestion	O
+39l0l10	site	O
+39l0l11	prévoyant	R
+39l0l12	l__utilisation_d__une_technique	O
+39l0l13	biolessivage	N
+
+#Les opérations de dépollutions ont été menées de 2011 à mi-2014 ; à l’issue d’une période d’arrêt qui a permis d’observer l’évolution de la pollution en l’absence de traitement, l’exploitant a remis en janvier 2016 un bilan quadriennal de suivi des eaux souterraines au travers duquel il propose l’arrêt définitif des travaux de dépollution.
+
+40l0l0	Les_opérations_de_dépollutions	N
+40l0l1	ont_été_menées	N
+40l0l2	de_2011_à_mi_2014	T
+40l0l3	__l__exploitant	O
+40l0l4	a_remis	N
+40l0l5	en_janvier_2016	T
+40l0l6	un_bilan_quadriennal	N
+40l0l7	de_suivi_des_eaux_souterraines	O
+40l0l8	l__arrêt_définitif_des_travaux_de_dépollution	N
+
+#Ce bilan montre une diminution significative en HCT et BTEX dans les eaux souterraines :
+
+41l1l0	HCT	S
+41l1l1	BTEX	S
+
+#-Le benzène présente encore régulièrement, au droit de la zone source, des teneurs supérieures au seuil de qualité des eaux destinées à la consommation humaine, fixé à 1 µg/l par l’arrêté ministériel du 11 janvier 2007 (200 µg/l maximum en 2015, à comparer aux 2000 µg/l fréquemment mesurés avant le début du traitement).
+
+42l0l0	11_janvier_2007	T
+42l0l1	mesurés_avant_le_début_du_traitement	A
+42l1l0	_Le_benzène	S
+
+#Il n'est plus retrouvé dans le puits privé voisin.
+
+43l0l0	le_puits_privé_voisin	O
+
+#-Les hydrocarbures aliphatiques sont désormais quasi-systématiquement mesurés à des concentrations inférieures au seuil de qualité des eaux brutes destinées à la consommation humaine, fixé à 1 mg/l par l’arrêté ministériel du 11 janvier 2007.
+
+44l0l0	11_janvier_2007__	T
+44l1l0	_Les_hydrocarbures_aliphatiques	S
+
+#-Les toluènes, ethylbenzènes, xylènes sont systématiquement en dessous des valeurs guides de l’OMS pour l’eau potable (respectivement 700 µg/l, 300 µg/l, 500 µg/l)
+
+45l1l0	_Les_toluènes	S
+45l1l1	ethylbenzènes	S
+45l1l2	xylènes	S
+
+#Une Analyse des risques résiduels a été menée et conclu à l'absence de risque sanitaire inaccepatable compte tenu de l'usage actuel du site.
+
+46l0l0	Une_Analyse	N
+46l0l1	des_risques_résiduels	O
+46l0l2	a_été_menée	N
+
+#Un arrêté préfectoral de servitudes d'utilité publique a été signé le 31 août 2017 afin de garantir des usages futurs compatibles avec la pollution résiduelle du site.
+
+47l0l0	Un_arrêté_préfectoral_de_servitudes_d__utilité_publique	O
+47l0l1	a_été_signé	N
+47l0l2	le_31_août_2017	T
+47l0l3	afin	R
+47l0l4	de_garantir	N
+47l0l5	des_usages	O

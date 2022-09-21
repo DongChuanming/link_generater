@@ -1,0 +1,458 @@
+
+#44.0152
+#La société ATELIERS BRETONS DE RÉALISATIONS FERROVIAIRES Industrie (ABRFi) est localisée dans une zone industrielle au sud-ouest de Châteaubriant.
+
+0l0l0	La_société_ATELIERS_BRETONS	O
+0l0l1	DE_RÉALISATIONS_FERROVIAIRES_Industrie	O
+0l0l2	localisée_dans_une_zone_industrielle_au_sud_ouest_de_Châteaubriant	L
+0l1l0	La_société_ATELIERS_BRETONS	I
+0l1l1	DE_RÉALISATIONS_FERROVIAIRES_Industrie	I
+0l1l2	ABRFi	I
+
+#Le site de 137 765 m2 est dans un environnement délimité par des industries à l’ouest et à l’est, des commerces et des industries au sud, des voies ferrées, un espace vert et des parcelles agricoles au nord.(voir plan-cartographique-44.0152--1)
+
+1l0l0	Le_site	O
+1l0l1	dans_un_environnement_délimité_par_des_industries_à_l__ouest	L
+1l0l2	des_commerces_et_des_industries_au_sud	O
+1l0l3	des_voies_ferrées	O
+1l0l4	des_parcelles_agricoles	O
+
+#ABRFi était spécialisée dans la fabrication et l'entretien de wagons ferroviaires.
+
+2l0l0	ABRFi	O
+2l0l1	était_spécialisée_dans	R
+2l0l2	la_fabrication_et_l__entretien_de_wagons_ferroviaires	A
+2l1l0	ABRFi	I
+
+#La partie fabrication se résume à une activité de chaudronnerie classique avec une importante composante d'application de peintures.
+
+3l0l0	La_partie_fabrication	O
+3l0l1	se_résume_à	R
+3l0l2	une_activité_de_chaudronnerie	A
+3l0l3	d__application_de_peintures	A
+
+#La partie entretien s'apparente quant à elle à une activité de « garage » avec le remplacement de certaines pièces d'usure (freins, essieux, etc.), soit en phase curative, soit en phase d'entretien préventif car le matériel ferroviaire est astreint à des cycles de révisions périodiques.
+
+4l0l0	La_partie_entretien	O
+4l0l1	__garage	A
+4l0l2	avec_le_remplacement_de_certaines	A
+4l0l3	soit_en_phase_curative	T
+
+#Des activités de dégazage de wagons citernes de gaz et de citernes de produits dangereux et/ou inflammables étaient réalisées sur le site dans le cadre de ces entretiens.
+
+5l0l0	Des_activités_de_dégazage_de_wagons_citernes_de_gaz_et_de_citernes_de_produits_dangereux_et__	A
+5l0l1	étaient_réalisées	N
+5l0l2	sur_le_site	L
+5l0l3	dans_le_cadre_de	R
+5l0l4	ces_entretiens	N
+5l1l0	produits_dangereux	U
+
+#Jusqu’en 1974, date d’installation des activités ferroviaires, le site était une vaste parcelle agricole.
+
+6l0l0	Jusqu__en_1974	T
+6l0l1	__date_d__installation_des_activités_ferroviaires	O
+6l0l2	le_site	O
+6l0l3	était_une_vaste_parcelle_agricole	N
+
+#L'établissement de Châteaubriant a compté jusqu’à 300 personnes avant de connaître des difficultés à partir de l’année 2011.
+
+7l0l0	L__établissement	O
+7l0l1	Châteaubriant	O
+7l0l2	300_personnes	O
+7l0l3	avant_de	R
+7l0l4	connaître_des_difficultés	O
+7l0l5	à_partir_de_l__année_2011__	T
+
+#Un jugement du 23 mai 2014 du tribunal de commerce d’Orléans à prononcé la liquidation judiciaire de la société.
+
+8l0l0	Un_jugement	O
+8l0l1	du_23_mai_2014	T
+8l0l2	tribunal_de_commerce	O
+8l0l3	Orléans	L
+8l0l4	à_prononcé_la_liquidation_judiciaire	N
+8l0l5	la_société	O
+
+#Le site est depuis inoccupé.
+
+9l0l0	Le_site	O
+9l0l1	est_depuis_inoccupé	N
+
+#Un ruisseau longe la limite nord-ouest du site et se jette dans l’étang de la Courbetière situé à environ 400 m au sud-ouest.
+
+10l0l0	Un_ruisseau	O
+10l0l1	longe_la_limite_nord_ouest_du_site	L
+10l0l2	se_jette_dans_l__étang	L
+10l0l3	Courbetière	O
+10l0l4	situé_à_environ_400_m_au_sud_ouest	L
+
+#Le site n’est pas localisé au droit d’une zone inondable.
+
+11l0l0	Le_site	O
+11l0l1	localisé_au_droit_d__une_zone_inondable	L
+
+#Au regard des voies de transfert identifiées et de la présence de plusieurs sources potentielles de pollution, d’activités potentiellement polluantes et d’éventuels remblais, la sensibilité environnementale du site à la pollution est élevée.
+
+
+#Une étude de pollution réalisée au droit du site en 2015 a mis en évidence des pollutions dans les sols, les sédiments et les eaux de surface ainsi que de nombreux déchets.
+
+13l0l0	Une_étude_de_pollution	N
+13l0l1	réalisée	N
+13l0l2	au_droit_du_site	L
+13l0l3	en_2015	T
+13l0l4	a_mis_en_évidence	R
+13l0l5	des_pollutions	N
+
+#Les sources potentielles de pollutions identifiées sont les suivantes :
+
+14l0l0	Les_sources_potentielles_de_pollutions	O
+
+#- une ancienne aire de lavage des wagons comprenant de nombreux stockages de produits, un bassin de décantation de 4000 m³ et un séparateur d’hydrocarbures au sud du site,
+
+15l0l0	une_ancienne_aire	O
+15l0l1	de_lavage_des_wagons	O
+15l0l2	un_bassin_de_décantation	O
+15l0l3	d__hydrocarbures	O
+15l0l4	au_sud_du_site	L
+15l1l0	hydrocarbures	S
+
+#- d’anciens ateliers comprenant divers produits potentiellement polluants,
+
+16l1l0	produits_potentiellement_polluants	U
+
+#- un ancien transformateur électrique pouvant avoir contenu du Pyralène au sud du site,
+
+17l0l0	un_ancien_transformateur_électrique	O
+17l0l1	pouvant	R
+17l0l2	avoir_contenu	A
+17l0l3	Pyralène	O
+17l0l4	au_sud_du_site	L
+17l1l0	Pyralène	S
+
+#- des zones de stockage de déchets en extérieur au sud, à l’ouest, au nord et au centre du site,
+
+18l0l0	des_zones	O
+18l0l1	au_sud___à_l__ouest___au_nord_et_au_centre_du_site	L
+
+#- des merlons de terres pouvant contenir des produits et déchets polluants au nord du site,
+
+19l0l0	merlons_de_terres	O
+19l0l1	au_nord_du_site	L
+19l1l0	déchets_polluants	U
+
+#- plusieurs anciennes voies de chemin de fer et stockages de traverses en bois (pouvant contenir des produits polluants),
+
+20l0l0	plusieurs_anciennes_voies_de_chemin_de_fer	O
+20l1l0	des_produits_polluants	U
+
+#- un ancien dépôt aérien de fuel domestique de 18 m³,
+
+21l0l0	un_ancien_dépôt_aérien_de_fuel_domestique	O
+21l1l0	dépôt	D
+21l1l1	fuel	U
+
+#- d’anciens dépôts aériens au sud-ouest du site contenant 25 000 litres de résine polyester, 1 000 litres de Gel-coat, 3 000 litres d’acétone et 3 000 litres d’octoate de cobalt,
+
+22l0l0	anciens_dépôts_aériens	O
+22l0l1	au_sud_ouest_du_site	L
+22l0l2	25_000_litres_de_résine_polyester	O
+22l0l3	litres_de_Gel___coat	O
+22l1l0	résine_polyester	S
+22l1l1	Gel___coat	I
+22l1l2	acétone	U
+22l1l3	octoate_de_cobalt	S
+
+#- une ancienne canalisation enterrée utilisée pour l’acheminement de résine au sud-ouest du site,
+
+23l0l0	une_ancienne_canalisation_enterrée	O
+23l0l1	utilisée_pour	R
+23l0l2	l__acheminement_de_résine	A
+23l0l3	au_sud_ouest_du_site	L
+
+#- une ancienne cuve enterrée de fioul de 10 m³ au sud-ouest du site.
+
+24l0l0	une_ancienne_cuve_enterrée	O
+24l0l1	de_fioul	O
+24l0l2	au_sud_ouest_du_site	L
+24l1l0	une_ancienne_cuve_enterrée_de	D
+24l1l1	fioul	U
+
+#Une campagne d’investigations des sols a été réalisée en juillet 2015. (voir plan-cartographique-44.0152--2)
+
+25l0l0	Une_campagne_d__investigations	N
+25l0l1	des_sols	N
+25l0l2	a_été_réalisée	N
+25l0l3	en_juillet_2015__	T
+
+#13 sondages de 5 m de profondeur maximum et 13 sondages de 3 m de profondeur ont été réalisés.
+
+26l0l0	13_sondages	N
+26l0l1	ont_été_réalisés	N
+
+#Des déchets sont trouvés au droit des sondages réalisés dans les merlons de terres situés au nord du site (ferraille, plastique, pneus, …).
+
+27l0l0	au_droit_des_sondages	L
+27l0l1	réalisés_dans	R
+27l0l2	les_merlons_de_terres	O
+27l0l3	situés_au_nord_du_site	L
+27l0l4	ferraille	O
+27l1l0	plastique	S
+27l1l1	pneus	S
+
+#Les résultats ont mis en évidence des teneurs en métaux, HCT, HAP et PCB supérieurs aux valeurs guides, ainsi qu’une teneur en antimoine sur éluât supérieure à la valeur maximale admissible en Installation de Stockage de Déchets Inertes (ISDI).
+
+28l1l0	métaux	S
+28l1l1	HCT	S
+28l1l2	HAP	S
+28l1l3	PCB	S
+28l1l4	antimoine_sur_éluât	S
+28l1l5	Déchets_Inertes	U
+
+#Dans le cadre de cette étude, des prélèvements ponctuels d’eau de surface et de sédiments ont été réalisés au sud du site dans le bassin de décantation, l’aire de lavage et les anciennes fosses de dégraissage du grand atelier.
+
+29l0l0	Dans_le_cadre_de	R
+29l0l1	cette_étude	N
+29l0l2	des_prélèvements_ponctuels	N
+29l0l3	sédiments	O
+29l0l4	ont_été_réalisés	N
+29l0l5	au_sud_du_site	L
+29l0l6	le_bassin_de_décantation	O
+29l0l7	aire	L
+29l0l8	de_lavage	O
+29l0l9	les_anciennes_fosses_de_dégraissage	O
+
+#Les résultats montrent un impact important en métaux et hydrocarbures (HCT, HAP et BTEX) dans les eaux du bassin de décantation et un impact important en métaux, HCT et PCB sur les prélèvements de sédiments du bassin et de l’aire de lavage.
+
+30l0l0	bassin_de_décantation	O
+30l0l1	un_impact	O
+30l1l0	métaux	S
+30l1l1	hydrocarbures	S
+30l1l2	HCT	S
+30l1l3	HAP	S
+30l1l4	BTEX	S
+30l1l5	métaux	S
+30l1l6	HCT	S
+30l1l7	PCB	S
+
+#Une évaluation complémentaire a été réalisée au droit du site en avril 2017 afin d’étudier l’étendue des pollutions détectées.(voir plan-cartographique-44.0152--3 et 4)
+
+31l0l0	Une_évaluation_complémentaire_a_été_réalisée	N
+31l0l1	au_droit_du_site	L
+31l0l2	en_avril_2017	T
+31l0l3	pollutions_détectées_voir	O
+
+#13 sondages de 2,5 m de profondeur maximum, 5 sondages de 2 m de profondeur maximum et 3 sondages de 0,3 m de profondeur maximum ont été réalisés.
+
+32l0l0	13_sondages	N
+32l0l1	ont_été_réalisés	N
+
+#Les résultats mettent en évidence des anomalies significatives en métaux, HCT et HAP et des anomalies sur éluâts en chrome, antimoine et fluorures.
+
+33l1l0	métaux	S
+33l1l1	HCT	S
+33l1l2	HAP	S
+33l1l3	chrome	S
+33l1l4	antimoine	S
+33l1l5	fluorures	S
+
+#Des prélèvements ponctuels de sédiments ont été effectués dans le bassin de décantation et l’aire de lavage situés au sud du site.
+
+34l0l0	Des_prélèvements_ponctuels	N
+34l0l1	sédiments	O
+34l0l2	ont_été_effectués	N
+34l0l3	le_bassin_de_décantation	O
+34l0l4	lavage	A
+34l0l5	situés_au_sud_du_site	L
+
+#Les résultats montrent un impact important en métaux, hydrocarbures, COHV et PCB.
+
+35l0l0	un_impact	O
+35l1l0	métaux	S
+35l1l1	hydrocarbures	S
+35l1l2	COHV	S
+35l1l3	PCB	S
+
+#Les teneurs détectées sur sol brut et éluât ne sont pas conformes aux critères ISDI.
+
+
+#3 piézomètres de 10 m de profondeur (PZ1 à 3) ont été installés au droit du site en avril 2017.
+
+37l0l0	3_piézomètres	O
+37l0l1	ont_été_installés	N
+37l0l2	au_droit_du_site	L
+37l0l3	en_avril_2017__	T
+
+#L’écoulement général est de direction nord-est vers sud-ouest.
+
+38l0l0	direction_nord_est_vers_sud_ouest	L
+
+#Des traces de BTEX, HAP et COHV sont détectées au droit des 3 piézomètres mais aucune teneur supérieure aux valeurs guides n’a été identifiée.
+
+39l1l0	BTEX	S
+39l1l1	HAP	S
+39l1l2	COHV	S
+
+#De nouvelles zone à risques sont identifiées après la réalisation des études de 2015 et 2017 : une cuve enterrée de carburant au centre du site et l’ancien emplacement d’une cuve aérienne de carburant au sud-est.
+
+40l0l0	De_nouvelles_zone_à_risques	O
+40l0l1	sont_identifiées	N
+40l0l2	après	R
+40l0l3	la_réalisation_des_études	N
+40l0l4	de_2015_et_2017	T
+40l0l5	__une_cuve	O
+40l0l6	enterrée	N
+40l0l7	de_carburant	O
+40l0l8	au_centre_du_site	L
+40l0l9	et_l__ancien_emplacement	O
+40l0l10	d__une_cuve_aérienne_de_carburant	O
+40l0l11	au_sud_est	L
+40l1l0	__une_cuve_enterrée	D
+40l1l1	de_carburant	U
+40l1l2	une_cuve	D
+40l1l3	aérienne_de_carburant	U
+
+#Une étude complémentaire est réalisée en février 2018 et consiste en la réalisation 4 sondages à 6 m de profondeur maximum au droit de ces nouvelles zones à risques.(voir plan-cartographique-44.0152--5 et 6)
+
+41l0l0	Une_étude_complémentaire_est_réalisée	N
+41l0l1	en_février_2018	T
+41l0l2	la_réalisation	N
+41l0l3	4	O
+41l0l4	sondages_à_6_m_de	N
+41l0l5	profondeur_maximum	O
+41l0l6	au_droit_de_ces	L
+41l0l7	nouvelles_zones_à_risques_voir	N
+
+#Les résultats ont mis en évidence des traces en HCT et HAP.
+
+42l1l0	HCT	S
+42l1l1	HAP	S
+
+#Un piézomètre supplémentaire de 10 m de profondeur (PZ4) est implanté à l’ouest du bassin.
+
+43l0l0	Un_piézomètre	O
+43l0l1	est_implanté	N
+43l0l2	à_l__ouest_du_bassin	L
+
+#Il permet de préciser le sens d’écoulement des eaux souterraines.
+
+
+#Les résultats montrent des anomalies en trichloréthylène au droit de PZ3, des anomalies en nickel, benzène, trichloéthylène et chlorure de vinyle au droit de PZ4 ainsi que des teneurs significatives en naphtalène et cis-1,2-dichloroéthène au droit de PZ4 mais ces teneurs restent toutefois inférieures aux valeurs guides existantes.
+
+45l0l0	ces_teneurs	O
+45l1l0	trichloréthylène	S
+45l1l1	nickel	S
+45l1l2	benzène	S
+45l1l3	trichloéthylène	S
+45l1l4	chlorure_de_vinyle	S
+45l1l5	naphtalène	S
+45l1l6	cis_1_2_dichloroéthène	S
+
+#On note aussi des traces en hydrocarbures aromatiques (PZ1, 2 et 4), COHV (PZ1 à 4) et hydrocarbures totaux (PZ4).
+
+46l1l0	hydrocarbures_aromatiques	S
+46l1l1	PZ1	S
+46l1l2	COHV	S
+46l1l3	hydrocarbures_totaux	S
+46l1l4	PZ4__	S
+
+#Des investigations complémentaires sur les eaux souterraines sont réalisées en juillet 2018 : 4 piézomètres supplémentaires sont implantés à 10 m de profondeur maximum (PZ5 à 8). (la campagne est réalisée sur les 8 piézomètres présents au droit du site)(mettre plan d’implantation des investigations – annexe 1- eaux souterraines été 2018)
+
+47l0l0	Des_investigations_complémentaires	N
+47l0l1	les_eaux_souterraines	O
+47l0l2	sont_réalisées	N
+47l0l3	en_juillet_2018	T
+47l0l4	__4_piézomètres_supplémentaires	O
+47l0l5	sont_implantés_à_10_m_de_profondeur_maximum	N
+47l0l6	souterraines_été_2018__	T
+
+#Les résultats des analyses montrent des anomalies en hydrocarbures (benzène), solvants chlorés (cis-1,2-dichloroéthène, trichloroéthylène et chlorure de vinyle), nickel et naphtalène au droit de PZ4.
+
+48l1l0	hydrocarbures	S
+48l1l1	benzène	S
+48l1l2	solvants_chlorés	S
+48l1l3	cis_1_2_dichloroéthène	S
+48l1l4	trichloroéthylène	S
+48l1l5	chlorure_de_vinyle	S
+48l1l6	nickel	S
+48l1l7	naphtalène	S
+
+#Une anomalie en nickel a été également détectée à proximité de PZ5.
+
+49l0l0	a_été_également_détectée	N
+49l0l1	à_proximité_de_PZ5	L
+49l1l0	nickel	S
+
+#n notera aussi la présence de traces d’hydrocarbures (BTEX et HAP) et de solvants chlorés au droit de l’ensemble des piézomètres à l’exception de PZ3.
+
+50l1l0	traces_d_	U
+50l1l1	hydrocarbures	S
+50l1l2	BTEX	S
+50l1l3	HAP	S
+50l1l4	solvants_chlorés	U
+
+#Les investigations menées sur les sols montrent des anomalies en hydrocarbures peu volatils (HCT et HAP) sur 1 sondage (la teneur en HAP est légèrement supérieure à la valeur guide ISDI).
+
+51l0l0	Les_investigations_menées	N
+51l0l1	sur_les_sols	N
+51l1l0	hydrocarbures_peu_volatils	S
+51l1l1	HCT	S
+51l1l2	HAP	S
+51l1l3	HAP	S
+
+#Cette anomalie semble provenir d’un remblai de mauvaise qualité et apparaît donc comme ponctuelle.
+
+52l0l0	remblai	R
+
+#Sur la base de ces éléments de diagnostic, une mise à jour du bilan coûts/avantages pour la mise en œuvre d’un plan de gestion a été faite.
+
+53l0l0	une_mise_à_jour	N
+53l0l1	la_mise_en_œuvre_d_	N
+53l0l2	un_plan_de_gestion	O
+53l0l3	a_été_faite	N
+
+#Un contrôle biannuel de la qualité des eaux souterraines est recommandé par le bureau d’études.
+
+54l0l0	Un_contrôle_biannuel	T
+54l0l1	de_la_qualité_des_eaux_souterraines	A
+54l0l2	le_bureau_d__études	O
+
+#A noter que des produits dangereux et des déchets restent présents sur le site et feront l’objet d’une élimination (évacuation vers des filières de traitement agréées).
+
+55l0l0	évacuation_vers_des_filières_de_traitement_agréées	O
+55l1l0	des_produits_dangereux	U
+
+#Par courrier reçu le 21 novembre 2017, la société BARBAZANGES TRI OUEST (BTO) a sollicité au titre de l’article L.512-21 du Code de l’Environnement la possibilité de se substituer à l’ancien exploitant pour réhabiliter le terrain laissé libre par la cessation définitive des activités d’ABRF.
+
+56l0l0	le_21_novembre_2017__	T
+56l0l1	la_société_BARBAZANGES	O
+56l0l2	TRI_OUEST___BTO	O
+56l0l3	l__ancien_exploitant	O
+56l0l4	réhabiliter	N
+56l0l5	le_terrain	N
+56l0l6	la_cessation_définitive	N
+56l0l7	des_activités_d__ABRF	A
+56l1l0	la_société_BARBAZANGES_TRI_OUEST	I
+56l1l1	ABRF	I
+
+#Cette société est spécialisée dans la gestion de déchets.
+
+57l0l0	Cette_société	O
+57l0l1	est_spécialisée_dans	R
+57l0l2	la_gestion	N
+57l0l3	de_déchets	O
+
+#L’acquisition du terrain anciennement exploité par la société ABRF lui permettrait d’étendre ses activités de gestion de déchets (terrains limitrophes).
+
+58l0l0	L__acquisition	N
+58l0l1	du_terrain_anciennement	O
+58l0l2	exploité	N
+58l0l3	la_société_ABRF	O
+58l0l4	d__étendre	N
+58l0l5	ses_activités_de_gestion_de_déchets	A
+58l0l6	terrains_limitrophes	O
+58l1l0	la_société_ABRF	I
+
+#Cette demande de substitution est en cours d’analyse par l’inspection des installations classées avec l’appui d’un tiers expert.
+
+59l0l0	en_cours_d_	T
+59l0l1	analyse	N
+59l0l2	l__inspection_des_installations_classées	O

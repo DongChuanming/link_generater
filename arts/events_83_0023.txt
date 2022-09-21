@@ -1,0 +1,99 @@
+
+#83.0023
+#Station service MOBIL-OIL à BRIGNOLES (83)
+
+0l0l0	Station_service_MOBIL___OIL	O
+0l0l1	à_BRIGNOLES	O
+0l0l2	__83__	L
+0l1l0	Station_service_MOBIL___OIL	I
+0l1l1	BRIGNOLES___83__	I
+
+#Cette station service a été exploité par M.
+
+1l0l0	Cette_station_service	O
+1l0l1	a_été_exploité	N
+
+#DE OLIVERA-BECO puis a été mis en liquidation judiciaire dans les années 1990.
+
+2l0l0	a_été_mis_en_liquidation_judiciaire	N
+2l0l1	dans_les_années_1990	T
+2l1l0	DE_OLIVERA___BECO	I
+
+#La station service a été vendu à M.
+
+3l0l0	La_station_service	O
+3l0l1	a_été_vendu_à	N
+3l0l2	M_	O
+
+#DEMARIA qui ne l'a jamais exploitée.
+
+4l0l0	DEMARIA	O
+4l0l1	a_jamais_exploitée	N
+4l1l0	DEMARIA	I
+
+#Une pollution par hydrocarbures d'un puits sur la commune de Brignoles a été relevée.
+
+5l0l0	Une_pollution_par_hydrocarbures	O
+5l0l1	un_puits	O
+5l0l2	sur_la_commune_de_Brignoles	L
+5l0l3	a_été_relevée	N
+5l1l0	hydrocarbures	S
+
+#La station service, propriétée de M.
+
+6l0l0	La_station_service	O
+6l0l1	M_	O
+
+#EMARIA, représente une source potentielle tout comme la station service BRIGNOLDIS (cf fiche BASOL correspondante).
+
+7l0l0	EMARIA	O
+7l0l1	la_station_service_BRIGNOLDIS	O
+7l1l0	EMARIA	I
+
+#Une action de la DREAL visait d'une part à s'assurer que les 2 cuves enterrées encore présentes sur le site avaient été dégazé et nettoyées et d'autres part à remplir ces cuves de matériaux inertes afin de limiter les risques d'effondrement puisque la zone est ouverte au public.
+
+8l0l0	Une_action	N
+8l0l1	la_DREAL	O
+8l0l2	les_2_cuves_enterrées	O
+8l0l3	site	L
+8l0l4	avaient_été_dégazé	N
+8l0l5	nettoyées	N
+8l0l6	remplir	R
+8l0l7	ces_cuves	O
+8l0l8	la_zone	O
+8l0l9	est_ouverte_au_public	N
+8l1l0	la_DREAL	I
+8l1l1	cuves	D
+8l1l2	cuves	D
+
+#Ces dispositions ont fait l'objet de l'AP du 10/04/2006 puis de l'AP de mise en demeure du 15/10/2007.
+
+9l0l0	ont_fait_l__objet_de	R
+9l0l1	l_	O
+9l0l2	10_04_2006	T
+9l0l3	l_	O
+9l0l4	AP_de_mise_en_demeure	N
+9l0l5	15_10_2007	T
+
+#Devant la non réponse du propriétaire, un AP de consignation d'une somme de 10 000€ a été signé par Monsieur le Préfet du VAR le 27/02/2008.
+
+10l0l0	un_AP_de_consignation	O
+10l0l1	a_été_signé	N
+10l0l2	par_Monsieur_le_Préfet_du_VAR	O
+10l0l3	le_27_02_2008__	T
+10l1l0	le_Préfet_du_VAR	I
+
+#Les cuves ont été dégazées et remplies de ciment.
+
+11l0l0	Les_cuves	O
+11l0l1	ont_été_dégazées	N
+11l0l2	remplies	N
+11l0l3	de_ciment	O
+
+#Ce site ne nécessite plus d'actions de la part de l'administration et va basculer dans BASIAS.
+
+12l0l0	Ce_site	O
+12l0l1	ne_nécessite_plus	N
+12l0l2	va_basculer	N
+12l0l3	dans	R
+12l0l4	BASIAS	O

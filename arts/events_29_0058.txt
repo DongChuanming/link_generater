@@ -1,0 +1,185 @@
+
+#29.0058
+#La société COMBUSTIBLES DE L'OUEST est autorisée a exploiter un dépôt d'hydrocarbures par arrêté préfectoral d'autorisation du 1er décembre 1989.
+
+0l0l0	La_société_COMBUSTIBLES	O
+0l0l1	DE_L__OUEST	O
+0l0l2	est_autorisée_a_exploiter	N
+0l0l3	un_dépôt_d__hydrocarbures	O
+0l0l4	arrêté_préfectoral_d__autorisation	O
+0l0l5	du_1er_décembre_1989__	T
+0l1l0	La_société_COMBUSTIBLES_DE_L__OUEST	I
+0l1l1	dépôt	D
+0l1l2	d__hydrocarbures	S
+
+#L'arrêté préfectoral complémentaire du 14 janvier 2008 déclasse l'installation en déclaration avec contrôle.
+
+1l0l0	L__arrêté_préfectoral_complémentaire	O
+1l0l1	14_janvier_2008	T
+1l0l2	déclasse	N
+1l0l3	l__installation	O
+1l0l4	déclaration	N
+1l0l5	contrôle	N
+
+#La SAS CPO a repris les activités le 1er janvier 2014.
+
+2l0l0	La_SAS_CPO	O
+2l0l1	a_repris_les_activités	N
+2l0l2	le_1er_janvier_2014__	T
+2l1l0	La_SAS_CPO	I
+
+#En novembre 2003, un diagnostic de sol a été réalisé et a mis en évidence une pollution des sols par les hydrocarbures.
+
+3l0l0	En_novembre_2003__	T
+3l0l1	un_diagnostic_de_sol	N
+3l0l2	a_été_réalisé	N
+3l0l3	a_mis_en_évidence	R
+3l0l4	une_pollution_des_sols	N
+3l0l5	les_hydrocarbures	O
+3l1l0	hydrocarbures	S
+
+#Des investigations complémentaires ont alors été réalisées de décembre 2004 à novembre 2005 sur les eaux souterraines.
+
+4l0l0	Des_investigations_complémentaires	N
+4l0l1	ont_alors_été_réalisées	N
+4l0l2	de_décembre_2004_à_novembre_2005	T
+4l0l3	les_eaux_souterraines	A
+
+#Les résultats montrent une pollution par des hydrocarbures totaux dans les sols et dans les eaux souterraines.
+
+5l0l0	hydrocarbures_totaux	O
+5l1l0	hydrocarbures_totaux	S
+
+#De nouvelles investigations ont été réalisées en avril-mai 2006 sur les sols et les eaux souterraines.
+
+6l0l0	De_nouvelles_investigations	N
+6l0l1	ont_été_réalisées	N
+6l0l2	en_avril___mai_2006	T
+6l0l3	les_eaux_souterraines	O
+
+#Elles confirment la pollution des sols et des eaux souterraines par les hydrocarbures :
+
+7l0l0	la_pollution	N
+7l1l0	hydrocarbures	S
+
+#- teneurs en hydrocarbures C5 à C40 élevées et supérieures au VDSS et VCI usage non sensible au niveau de la tuyauterie détectée fuyarde ;
+
+8l0l0	détectée_fuyarde	N
+8l1l0	hydrocarbures	S
+8l1l1	VDSS	I
+
+#- présence de BTEX, avec notamment des teneurs supérieures à la VDSS (toluène et éthylbenzène), voire supérieures à la VCI définie pour un usage non sensible ;
+
+9l1l0	BTEX	S
+9l1l1	toluène	S
+9l1l2	éthylbenzène	S
+
+#- augmentation importante des teneurs en hydrocarbures C5 à C40 dans les eaux souterraines avec des valeurs largement supérieures à la VCI usage sensible considérée.
+
+10l1l0	hydrocarbures_C5	S
+10l1l1	C40	S
+
+#Ainsi, l'arrêté préfectoral du 14 janvier 2008 prescrit :
+
+11l0l0	l__arrêté_préfectoral	O
+11l0l1	14_janvier_2008	T
+11l0l2	prescrit	N
+
+#- la surveillance mensuelle des eaux souterraines pour le paramètre "hydrocarbures totaux" et BTEX ;
+
+12l0l0	la_surveillance_mensuelle_des_eaux_souterraines	A
+12l1l0	hydrocarbures_totaux	S
+12l1l1	BTEX	S
+
+#- la mise en place de restrictions d'usages, dans la mesure où l'état final du site et de ses abords laisse perdurer un état de pollution incompatible avec l'usage futur.
+
+13l0l0	la_mise_en_place_de	N
+13l0l1	restrictions_d__usages	O
+
+#Les résultats d'analyses des eaux souterraines au mois de mai 2013 montrent une amélioration de la qualité des eaux avec des teneurs en hydrocarbures et en BTEX désormais inférieures aux limites considérées.
+
+14l0l0	au_mois_de_mai_2013	T
+14l0l1	la_qualité_des_eaux	O
+14l0l2	des_teneurs	O
+14l1l0	hydrocarbures	S
+14l1l1	BTEX	S
+
+#Par contre il y a toujours présence de surnageants d'hydrocarbures.
+
+15l1l0	surnageants_d__hydrocarbures	U
+
+#Une opération de rabattement de la nappe a été mise en œuvre.
+
+16l0l0	Une_opération_de_rabattement_de_la_nappe	N
+16l0l1	a_été_mise_en_œuvre	N
+
+#Un arrêt temporaire de l'unité de rabattement a été opérée en septembre 2014 pour vérifier le comportement hydrogéologique de la nappe et un éventuel "effet rebond" de la pollution sur une période de trois mois.
+
+17l0l0	Un_arrêt_temporaire	N
+17l0l1	l__unité_de_rabattement	O
+17l0l2	a_été_opérée	N
+17l0l3	en_septembre_2014	T
+17l0l4	hydrogéologique	N
+17l0l5	de_trois_mois	T
+
+#Les résultats de la campagne de surveillance des eaux souterraines d'octobre 2014 mettent en évidence :
+
+18l0l0	la_campagne_de_surveillance	N
+18l0l1	des_eaux_souterraines	A
+18l0l2	d__octobre_2014	T
+
+#- l'absence de phase organique libre dans tous les ouvrages (puits et piézomètres) et le maintien des boudins oléophiles au droit d'un piézomètre et dans deux puits ;
+
+19l0l0	le_maintien	N
+
+#- une stabilité de la qualité des eaux souterraines dans le piézomètre aval hors site pour les hydrocarbures C10-C40 et une faible teneur en éthylbenzène et xylène (inférieures aux valeurs limités considérées).
+
+20l1l0	les_hydrocarbures_C10_C40	S
+20l1l1	éthylbenzène	S
+20l1l2	xylène	S
+
+#La tendance générale des hydrocarbures C10-C40 est une fluctuation dans le temps.
+
+21l1l0	hydrocarbures	S
+
+#La campagne d'octobre 2017 montre
+
+22l0l0	La_campagne_d_	N
+22l0l1	octobre_2017	T
+22l0l2	montre	R
+
+#- l'absence de phase organique libre dans tous les ouvrages,
+
+
+#- une légère dégradation par les hydrocarbures C10-C40 en Pz1 (latéral),
+
+24l1l0	les_hydrocarbures_C10_C40	S
+
+#- un impact constant dans le piézomètre aval/latéral par les HC C10-C40,
+
+25l0l0	un_impact	N
+
+#- de faibles teneurs en éthylène et xylène,
+
+26l1l0	éthylène	S
+26l1l1	xylène	S
+
+#- l’absence de pollution dans les piézomètres situés en aval, à l’extérieur du site
+
+27l0l0	situés_en_aval	L
+27l0l1	à_l__extérieur_du_site	L
+
+#L’unité de traitement et du dispositif de mise en sécurité hydraulique a été arrêté en juillet 2017.
+
+28l0l0	L__unité_de_traitement	O
+28l0l1	a_été_arrêté	N
+28l0l2	en_juillet_2017__	T
+
+#L'exploitant a remis un dossier de restrictions à l'inspection, qui est en cours d'instruction.
+
+29l0l0	L__exploitant	O
+29l0l1	a_remis	N
+29l0l2	un_dossier	O
+29l0l3	est	N
+29l0l4	en_cours_d_	T
+29l0l5	instruction	N

@@ -1,0 +1,282 @@
+
+#41.0023
+#Le site concerné est constitué de l'implantation dénommée SALBRIS I (12,4 ha - 23 000 m2 couverts - 38 bâtiments principaux).
+
+0l0l0	Le_site_concerné	O
+0l0l1	l__implantation	O
+
+#Il est partiellement bordé par la voie SNCF Paris-Toulouse, par le ruisseau Le grand Coussin au Nord et proche de zones boisées.
+
+1l0l0	bordé_par_la_voie_SNCF	L
+1l0l1	le_ruisseau_Le_grand_Coussin_au_Nord_et_proche_de_zones_boisées	L
+
+#La rivière La Sauldre et le ruisseau Le Naon coulent à plus de 500 m du site.
+
+2l0l0	La_rivière_La_Sauldre	O
+2l0l1	le_ruisseau_Le_Naon	O
+2l0l2	à_plus_de_500_m_du_site	L
+
+#Des captages AEP (Alimentation en Eau Potable) à plus de 200 m de profondeur sont recensés à 1,3 et 2,4 km du site.
+
+3l0l0	Des_captages_AEP	O
+3l0l1	recensés	N
+3l0l2	à_1_3_et_2_4	T
+3l0l3	km_du_site	L
+
+#Un forage industriel à moindre profondeur est implanté à 300 m du site.
+
+4l0l0	Un_forage_industriel	O
+4l0l1	est_implanté	N
+4l0l2	à_300_m_du_site	L
+
+#La nappe des sables de sologne est largement utilisée sur la commune pour des usages domestiques (arrosage notamment).
+
+5l0l0	est_largement_utilisée	N
+5l0l1	sur_la_commune	L
+5l0l2	des_usages_domestiques	A
+5l0l3	arrosage	A
+
+#La société MBDA y a exercé une activité de fabrication et d'essais de pièces d'armement jusqu'à la cessation de son activité intervenue le 31/12/2002 (procès verbal de récolement du 20/12/2005).
+
+6l0l0	La_société_MBDA	O
+6l0l1	a_exercé	N
+6l0l2	une_activité_de_fabrication_et_d__essais_de_pièces_d__armement	A
+6l0l3	jusqu_	T
+6l0l4	à_la_cessation_de_son_activité_intervenue	N
+6l0l5	le_31_12_2002	T
+6l0l6	20_12_2005	T
+6l1l0	La_société_MBDA	I
+
+#Le site est en cours d'aménagement en lotissement industriel par la commune de Salbris.
+
+7l0l0	Le_site	O
+7l0l1	est	R
+7l0l2	en_cours_d__aménagement	N
+7l0l3	en	R
+7l0l4	lotissement_industriel	O
+7l0l5	la_commune_de_Salbris	L
+
+#Quelques installations classées seront maintenues en service (pour fournitures d'utilités).
+
+8l0l0	Quelques_installations_classées	O
+8l0l1	seront_maintenues_en_service	N
+
+#Les investigations réalisées sur le site montrent qu'il existe une pollution des sols et de la nappe des sables de Sologne.
+
+9l0l0	Les_investigations_réalisées	N
+9l0l1	une_pollution_des_sols	N
+9l0l2	Sologne	L
+
+#Au nord-Est du site, la pollution essentiellement de surface en cuivre est étendue (17500 m2). 7 autres zones polluées (sols ou nappe) d'extension limitée sont identifiées et présentent des pollutions par des hydrocarbures, des solvants chlorés, des solvants aromatiques ou des métaux (cadmium, cuivre, chrome).
+
+10l0l0	Au_nord_Est_du_site	L
+10l0l1	7_autres_zones_polluées	O
+10l1l0	cuivre	S
+10l1l1	hydrocarbures	S
+10l1l2	des_solvants_chlorés	S
+10l1l3	des_solvants_aromatiques	S
+10l1l4	des_métaux	S
+10l1l5	cadmium	S
+10l1l6	cuivre	S
+10l1l7	chrome	S
+
+#Une étude détaillée des risques pour la santé a été réalisée.
+
+11l0l0	a_été_réalisée	N
+
+#Elle montre que la pollution rencontrée est incompatible avec un usage sensible du site.
+
+
+#En revanche, en prenant en compte les hypothèses les plus pénalisantes, moyennant la mise en place de servitudes, la pollution est compatible avec un usage industriel.
+
+13l0l0	la_mise_en_place_de	N
+13l0l1	servitudes	O
+13l0l2	un_usage_industriel	A
+
+#Une surveillance des eaux souterraines est assurée conformément à l'arrêté préfectoral du 30 novembre 2005.
+
+14l0l0	Une_surveillance_des_eaux_souterraines	A
+14l0l1	l__arrêté_préfectoral	O
+14l0l2	30_novembre_2005__	T
+
+#La remise en état du site a été entérinée par procès verbal de récolement du 20 décembre 2005.
+
+15l0l0	La_remise_en_état_du_site	O
+15l0l1	a_été_entérinée	N
+15l0l2	20_décembre_2005__	T
+
+#Une convention de servitudes a été signée entre la Commune de Salbris, l'État et MBDA (publication et enregistrement aux hypothèques le 30 mars 2006).
+
+16l0l0	Une_convention_de_servitudes	O
+16l0l1	a_été_signée	N
+16l0l2	entre	R
+16l0l3	la_Commune	O
+16l0l4	de_Salbris	L
+16l0l5	l__État	O
+16l0l6	MBDA	O
+16l0l7	le_30_mars_2006____	T
+16l1l0	la_Commune	I
+16l1l1	MBDA	I
+
+#Les résultats d'analyse des eaux souterraines en 2009-2010 mettent en évidence une rémanence des concentrations en cadmium, trichloroéthylène  et tétrachloroéthylène  supérieures  aux valeurs de référence sur un des piézomètres.
+
+17l0l0	en_2009___2010	T
+17l1l0	cadmium	S
+17l1l1	trichloroéthylène	S
+17l1l2	et_tétrachloroéthylène	S
+
+#Les résultats d'analyses des échantillons  d'eaux souterraines prélevés dans les autres piézomètres ne mettent pas en évidence d'impact significatif.
+
+
+#Le programme de surveillance des eaux souterraines a été modifié pour tenir compte de cette situation.
+
+19l0l0	Le_programme	O
+19l0l1	surveillance_des_eaux_souterraines	A
+19l0l2	a_été_modifié	N
+
+#Les analyses d'eaux souterraines au droit du site sont effectuées sur 3 piézomètres dont un nouveau.
+
+20l0l0	Les_analyses	N
+20l0l1	au_droit_du_site	L
+20l0l2	sont_effectuées_sur	N
+20l0l3	3_piézomètres	O
+
+#Les analyses d'eaux souterraines portent désormais sur le chrome III et VI, le cadmium, le cuivre et les COHV (Composés Organo-Halogénés Volatils).
+
+21l0l0	Les_analyses	N
+21l1l0	chrome	S
+21l1l1	le_cadmium	S
+21l1l2	cuivre	S
+21l1l3	les_COHV	S
+21l1l4	Composés_Organo___Halogénés_Volatils	S
+
+#Des compléments d'investigation ont été demandés à l'exploitant pour:
+
+22l0l0	ont_été_demandés	N
+22l0l1	l__exploitant	O
+
+#- Caractériser l'origine de la persistance du cadmium au droit du site;
+
+23l1l0	cadmium	S
+
+#- Réévaluer les enjeux éventuels différés face à une migration potentielle de la pollution des eaux souterraines hors du site.
+
+24l0l0	Réévaluer	N
+24l0l1	les_enjeux	O
+24l0l2	hors_du_site	L
+
+#Des études menées dans le cadre des mesures de gestion liées à l'état du sous-sol du site ont été réalisées le 29/06/2010 puis complétées en novembre 2010 et en janvier 2011.
+
+25l0l0	Des_études_menées	N
+25l0l1	dans_le_cadre_des	R
+25l0l2	mesures	N
+25l0l3	ont_été_réalisées	N
+25l0l4	le_29_06_2010	T
+25l0l5	puis_complétées	N
+25l0l6	en_novembre_2010_et_en_janvier_2011__	T
+
+#Les conclusions de ces rapports montrent :
+
+
+#- une décroissance des teneurs en cadmium dans la nappe des sables de Sologne et l'absence d'impact sur les puits privés situés à 250 m en aval hydraulique;
+
+27l0l0	une_décroissance	N
+27l0l1	cadmium	O
+27l0l2	Sologne	L
+27l0l3	les_puits_privés	O
+27l0l4	situés_à_250_m_en_aval_hydraulique	L
+27l1l0	cadmium	S
+
+#- une stabilisation de la pollution en cadmium en aval du ruisseau "Grand Coussin" avec lequel la nappe est en relation, mais une absence d'impact sur le ruisseau;
+
+28l0l0	une_stabilisation	N
+28l0l1	cadmium	O
+28l0l2	en_aval_du_ruisseau___Grand_Coussin	L
+28l1l0	cadmium	S
+
+#- des teneurs élevées en cadmium dissous en sortie de site lors de la dernière campagne de prélèvements au niveau d'un des piézomètres;
+
+29l0l0	cadmium	O
+29l0l1	en_sortie_de_site	L
+29l1l0	cadmium	S
+
+#- une pollution résiduelle stabilisée de la nappe en solvants halogénés au droit du site (avec des teneurs en 2010 supérieures à la limite de qualité des eaux souterraines) sans impact potentiel sur les puits privés les plus proches.
+
+30l0l0	une_pollution_résiduelle	N
+30l0l1	au_droit_du_site	L
+30l1l0	solvants_halogénés	S
+
+#Les analyses des sols indiquent que le cadmium proviendrait de sources de pollution résiduelles dans les sols en partie Nord du site, à proximité du cours d'eau du Grand Coussin, et en périphérie de l'ancienne STEP (Station d'Épuration des eaux usées).
+
+31l0l0	Les_analyses	N
+31l0l1	cadmium_proviendrait_de_sources_de_pollution	O
+31l0l2	en_partie_Nord_du_site	L
+31l0l3	à_proximité_du_cours_d__eau_du_Grand_Coussin	L
+31l0l4	en_périphérie_de_l__ancienne_STEP	L
+31l1l0	cadmium	S
+
+#Ces sols auraient été impactés par des éluas ou des sédiments de curage issus de l'ancienne station d'épuration (démantelée vers 1985).
+
+32l0l0	été_impactés	O
+32l0l1	curage	N
+32l0l2	issus_de	R
+32l0l3	l__ancienne_station_d_	O
+32l0l4	démantelée	N
+32l0l5	vers_1985	T
+
+#Une simulation de transfert de la pollution résiduelle des eaux souterraines en cadmium a également été menée en décembre 2010.
+
+33l0l0	Une_simulation_de_transfert	N
+33l0l1	a_également_été_menée	N
+33l0l2	en_décembre_2010__	T
+33l1l0	cadmium	S
+
+#Elle démontre que le polluant serait piégé dans la matrice des sols et des terrains aquifères.
+
+34l1l0	polluant	S
+
+#Sa mobilité est alors très faible, et sa dispersion dans l'eau vers l'aval implique des teneurs restant sous le seuil du Code de la Santé Publique (arrêté du 11/01/2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine).
+
+35l0l0	vers_l__aval	L
+35l0l1	11_01_2007	T
+
+#Une note de janvier 2011 propose l'instauration de servitudes conventionnelles plus étendues que celles de 2006, et ce, afin de prendre en compte la pollution au cadmium.
+
+36l0l0	Une_note	O
+36l0l1	de_janvier_2011	T
+36l0l2	propose	R
+36l0l3	l_	N
+36l0l4	instauration_de_servitudes_conventionnelles	O
+36l0l5	cadmium	O
+36l1l0	cadmium	S
+
+#S'agissant de sujets techniques complexes, un courrier de l'Inspection des Installations Classées daté de début 2012 conclut sur la nécessité d'une tierce-expertise afin de se positionner sur les points suivants :
+
+37l0l0	l__Inspection_des_Installations_Classées	O
+37l0l1	daté_de_début_2012	T
+37l0l2	conclut	R
+
+#1) l'absence de risque de remobilisation du cadmium;
+
+38l0l0	remobilisation	N
+38l0l1	cadmium	O
+38l1l0	cadmium	S
+
+#2) l'impossibilité ou le caractère inapproprié d'un traitement de la pollution au cadmium;
+
+39l0l0	cadmium	O
+39l1l0	cadmium	S
+
+#3) la pertinence de l'arrêt de la surveillance;
+
+40l0l0	la_surveillance	O
+
+#4) la pertinence des servitudes proposées vis à vis de la prévention des risques de mobilisation des polluants et des usages des eaux souterraines et superficielles.
+
+41l0l0	mobilisation_des_polluants	N
+41l0l1	usages_des_eaux_souterraines	A
+
+#La tierce expertise est actuellement en cours.
+
+42l0l0	La_tierce_expertise	O
+42l0l1	actuellement_en_cours	T

@@ -1,0 +1,726 @@
+
+#72.0038
+#La société AG France est située sur la zone industrielle « Le Roineau » de la commune de Vaas et son site possède une surface totale d’environ 48 500 m².
+
+0l0l0	La_société_AG_France	O
+0l0l1	est	N
+0l0l2	située_sur_la_zone_industrielle_____Le_Roineau_____de_la_commune_de_Vaas	L
+0l0l3	et_son_site	N
+0l1l0	La_société_AG_France	I
+
+#L’environnement du site est de type semi-urbain.
+
+1l0l0	L__environnement	O
+
+#Il est situé au nord-ouest du centre communal et est délimité par :
+
+2l0l0	situé_au_nord_ouest_du_centre_communal	L
+
+#- au nord, le voie de chemin de fer et des espaces verts ;
+
+3l0l0	au_nord	L
+3l0l1	le_voie_de_chemin_de_fer	O
+3l0l2	espaces_verts	O
+
+#- au sud, par des zones pavillonnaires ;
+
+4l0l0	au_sud	L
+4l0l1	des_zones_pavillonnaires	O
+
+#- à l’est, par des champs ;
+
+5l0l0	à_l__est	L
+
+#- à l’ouest, par un terrain de footbal.
+
+6l0l0	l__ouest	O
+
+#Le terrain repose sur une formation de type alluvionnaire.
+
+
+#Le sol présente donc une structure sableuse au droit du site, perméable pouvant constituer un vecteur de transfert d’une éventuelle contamination vers les eaux souterraines.
+
+
+#Le site AG France se trouve au droit d’un aquifère multicouche argilo-sableux et peut être libre ou captive.
+
+9l0l0	Le_site_AG_France	O
+9l0l1	se_trouve_au_droit_d__un_aquifère	L
+
+#On retrouve différents ouvrages présents sur le site AG France (piézomètres et puits).
+
+10l0l0	différents_ouvrages	O
+
+#Il n’existe aucun captage exploité pour l’alimentation en eau potable sur la commune de Vaas.
+
+11l0l0	sur_la_commune_de_Vaas	L
+
+#L’hydrographie de la commune est marquée par la présence du Loir, de petits ruisseaux et plans d’eau.
+
+12l0l0	la_commune	O
+12l0l1	Loir	L
+
+#Le fossé « Le Roineau » qui longe la limite ouest du site permet d’évacuer les eaux de pluie de la zone.
+
+13l0l0	Le_fossé	O
+13l0l1	__Le_Roineau	L
+13l0l2	qui_longe_la_limite_ouest_du_site	L
+13l0l3	de_la_zone	O
+
+#Ce fossé rejoint le Loir qui se situe à environ 2 km du site.
+
+14l0l0	le_Loir	L
+14l0l1	se_situe_à_environ_2_km_du_site	L
+
+#À noter, le caractère vulnérable de la ressource en eaux souterraines, en eaux superficielles et des sols par rapport au site.
+
+
+#L’activité de fabrication de détergents d’ICL France s’est implanté en 1973 sur une zone agricole.
+
+16l0l0	L__activité_de_fabrication_de_détergents	A
+16l0l1	ICL_France	O
+16l0l2	s_	R
+16l0l3	est_implanté	N
+16l0l4	en_1973	T
+16l0l5	sur	R
+16l0l6	une_zone_agricole	O
+
+#Le site CEREXAGRI, implanté en 1982, sur la parcelle voisine à l’Est d’ICL France, a été autorisé par arrêté préfectoral du 27 janvier 1995, à exploiter une installation qui fabriquait et conditionnait des produits pesticides, herbicides et de préservation des récoltes.
+
+17l0l0	Le_site_CEREXAGRI	O
+17l0l1	implanté_en_1982	T
+17l0l2	sur_la_parcelle_voisine_à_l__Est_d__ICL	L
+17l0l3	France	A
+17l0l4	a_été_autorisé	N
+17l0l5	par_arrêté_préfectoral	O
+17l0l6	du_27_janvier_1995__	T
+17l0l7	exploiter	N
+17l0l8	une_installation	O
+17l0l9	fabriquait	A
+17l0l10	conditionnait_des_produits_pesticides	A
+17l1l0	Le_site_CEREXAGRI	I
+17l1l1	des_produits_pesticides	U
+
+#Ce site était soumis à autorisation avec servitudes pour ses activités de mise en œuvre de produits toxiques dont le méthylparathion (utilisé pour la fabrication d’un insecticide), et relevant de la directive SEVESO II.
+
+18l0l0	Ce_site	O
+18l0l1	était	R
+18l0l2	soumis_à_autorisation	N
+18l0l3	servitudes	O
+18l0l4	ses_activités_de_mise_en_œuvre_de_produits_toxiques	A
+18l0l5	utilisé_pour_la_fabrication_d__un_insecticide	A
+18l0l6	et_relevant_de	R
+18l0l7	la_directive_SEVESO_II	O
+18l1l0	produits_toxiques	U
+18l1l1	le_méthylparathion	S
+18l1l2	SEVESO	S
+
+#En date du 5 novembre 2008, la cessation d’activité de la société CEREXAGRI a été actée par arrêté préfectoral.
+
+19l0l0	En_date_du_5_novembre_2008__	T
+19l0l1	la_cessation_d__activité	N
+19l0l2	la_société_CEREXAGRI	O
+19l0l3	a_été_actée	N
+19l0l4	par_arrêté_préfectoral	O
+19l1l0	la_société_CEREXAGRI	I
+
+#En 2009, le site de CEREXAGRI (fabrication d'insecticides) a été racheté par Anti-Germ France qui est devenu par changement de raison social en 2012 : ICL France.
+
+20l0l0	En_2009__	T
+20l0l1	le_site_de_CEREXAGRI	O
+20l0l2	fabrication_d__insecticides	A
+20l0l3	a_été_racheté	N
+20l0l4	par_Anti_Germ_France	O
+20l0l5	est_devenu	N
+20l0l6	changement_de_raison_social	N
+20l0l7	en_2012	T
+20l0l8	ICL_France	O
+20l1l0	CEREXAGRI	I
+20l1l1	Anti_Germ_France	I
+20l1l2	ICL_France	I
+
+#Le site est alors délimité en 2 zones :
+
+21l0l0	Le_site	O
+21l0l1	2_zones	O
+
+#- Vaas 1 : site comprenant l’ensemble des terrains appartenant à ICL France (partie Ouest) avant le rachat de l’ancien site de CEREXAGRI.
+
+22l0l0	Vaas_1	O
+22l0l1	comprenant_l__ensemble_des_terrains	O
+22l0l2	appartenant	R
+22l0l3	à_ICL_France	O
+22l0l4	__avant	T
+22l0l5	le_rachat	N
+22l0l6	de_l__ancien_site	O
+22l0l7	de_CEREXAGRI	O
+22l1l0	à_ICL_France	I
+22l1l1	de_CEREXAGRI	I
+
+#Cette partie est davantage dédiée à l’activité de fabrication de détergents (production et stockage de matières premières) avec : une zone de stockage vrac (produits basiques, notamment eau de javel), une zone de dépotage vrac acides (acide phosphorique, nitrique et sulfurique), un bassin de traitement des eaux et une station de lavage.
+
+23l0l0	Cette_partie	O
+23l0l1	est_davantage_dédiée_à	R
+23l0l2	l__activité_de_fabrication_de_détergents	A
+23l0l3	production_et_stockage_de_matières_premières	A
+23l0l4	__un_bassin_de_traitement_des_eaux	O
+23l0l5	et_une_station_de_lavage	O
+23l1l0	détergents	U
+23l1l1	__produits_basiques	U
+23l1l2	__notamment_eau_de_javel	U
+23l1l3	vrac_acides___acide_phosphorique___nitrique	S
+23l1l4	et_sulfurique	S
+
+#- Vaas 2 : terrains (partie Est) faisant l’objet d’une extension du site d’ICL France.
+
+24l0l0	Vaas_2	O
+24l0l1	faisant_l__objet_d_	R
+24l0l2	une_extension	N
+24l0l3	du_site	O
+24l0l4	d__ICL_France	O
+24l1l0	d__ICL_France	I
+
+#Depuis le rachat par Anti-Germ France, cette zone est dédiée au stockage de produits détergents et dangereux pour l'environnement, elle accueillait également une activité de fabrication de produits phytosanitaires menée par CEREXAGRI.
+
+25l0l0	Depuis_le_rachat	N
+25l0l1	Anti_Germ_France	O
+25l0l2	cette_zone	O
+25l0l3	est_dédiée	R
+25l0l4	au_stockage_de_produits_détergents	A
+25l0l5	elle	O
+25l0l6	accueillait_également	R
+25l0l7	une_activité_de_fabrication_de_produits_phytosanitaires	A
+25l0l8	CEREXAGRI	O
+25l1l0	Anti_Germ_France	I
+25l1l1	produits_détergents	U
+25l1l2	CEREXAGRI	I
+
+#On y retrouve également 2 anciennes cuves à fioul dégazées et inertées (voir plan cartographique 1 et 2 partie B).
+
+26l0l0	2_anciennes_cuves_à_fioul	O
+26l0l1	dégazées	N
+26l0l2	inertées	N
+26l1l0	2_anciennes_cuves	D
+26l1l1	fioul	U
+26l1l2	inertées	D
+
+#La société ICL France possède des activités de fabrication de détergents alcalins et acides, de désinfectants, de produits de nettoyage et de désinfection du matériel de traite, des produits d’hygiène et produits de traitement de l’eau de boisson des animaux.
+
+27l0l0	La_société_ICL_France	O
+27l0l1	possède	R
+27l0l2	des_activités_de_fabrication_de_détergents	N
+27l0l3	produits_de_nettoyage_et_de_désinfection	O
+27l1l0	La_société_ICL_France	I
+
+#La société Anti-Germ France, devenu ICL France en 2012, a transmis le 12 mars 2010 au préfet, une demande d’extension du site qui a ensuite été complétée le 27 octobre 2010, le 14 janvier 2011, le 17 mars 2011 et le 4 décembre 2013, afin d’augmenter les capacités de l’établissement.
+
+28l0l0	La_société_Anti_Germ_France	O
+28l0l1	devenu	T
+28l0l2	ICL_France	O
+28l0l3	en_2012__	T
+28l0l4	a_transmis	N
+28l0l5	le_12_mars_2010	T
+28l0l6	une_demande_d__extension	N
+28l0l7	du_site	O
+28l0l8	a_ensuite_été_complétée	N
+28l0l9	le_27_octobre_2010__	T
+28l0l10	le_14_janvier_2011__	T
+28l0l11	le_17_mars_2011	T
+28l0l12	le_4_décembre_2013__	T
+28l0l13	afin	R
+28l0l14	d__augmenter_les_capacités	N
+28l0l15	l__établissement	O
+28l1l0	La_société_Anti_Germ_France	I
+28l1l1	devenu_ICL_France	I
+
+#Cette demande d’extension a été autorisée par Arrêté Préfectoral du 27 février 2015.
+
+29l0l0	Cette_demande	O
+29l0l1	d__extension	O
+29l0l2	a_été_autorisée	N
+29l0l3	par_Arrêté_Préfectoral	O
+29l0l4	27_février_2015__	T
+
+#L'exploitant de ce site est actuellement soumis au régime SEVESO seuil haut.
+
+30l0l0	L__exploitant	O
+30l0l1	ce_site	O
+30l0l2	est_actuellement_soumis_au_régime_SEVESO	N
+
+#En date du 6 juillet 2015, un arrêté préfectoral d’autorisation complémentaire portant sur le changement d’exploitant a été prescrit au nom de la société AG France, l’activité restant la même sur le site.
+
+31l0l0	En_date_du_6_juillet_2015__	T
+31l0l1	un_arrêté_préfectoral_d__autorisation_complémentaire	O
+31l0l2	portant_sur	R
+31l0l3	le_changement	N
+31l0l4	d__exploitant	O
+31l0l5	a_été_prescrit	N
+31l0l6	au_nom	N
+31l0l7	de_la_société_AG_France	O
+31l0l8	l__activité	O
+31l0l9	le_site	O
+31l1l0	la_société_AG_France	I
+
+#Le 21 mars 2008, il a été demandé à l’exploitant (CEREXAGRI) de fournir un mémoire sur la remise en état du site.
+
+32l0l0	Le_21_mars_2008__	T
+32l0l1	il	T
+32l0l2	a_été_demandé	N
+32l0l3	l__exploitant	O
+32l0l4	CEREXAGRI	O
+32l0l5	la_remise_en_état_du_site	N
+32l1l0	__CEREXAGRI	I
+
+#L’établissement comportait 3 ateliers spécialisés chacun dans une famille de produits :
+
+33l0l0	L_	O
+
+#- Atelier DECCO :
+
+
+#Dans cet atelier étaient fabriqués des produits de post récolte, destinés à protéger les fruits avant leur consommation (produits de nettoyage, antioxydants, fongicides, cires).
+
+35l0l0	cet_atelier	O
+35l0l1	étaient_fabriqués	N
+35l0l2	des_produits_de_post_récolte	O
+
+#Les équipements de cet atelier ont été démontés puis transférés vers un autre site du groupe.
+
+36l0l0	Les_équipements	O
+36l0l1	cet_atelier	O
+36l0l2	ont_été_démontés	N
+36l0l3	puis_transférés	N
+36l0l4	vers_un_autre_site	L
+
+#Préalablement au démontage, les équipements avaient été nettoyés.
+
+37l0l0	au_démontage	N
+37l0l1	les_équipements	O
+37l0l2	avaient_été_nettoyés	N
+
+#- Atelier AGCHEM :
+
+38l0l0	AGCHEM	O
+
+#Cet atelier fabriquait des insecticides et des herbicides par microencapsulation d'un principe actif.
+
+39l0l0	Cet_atelier	O
+39l0l1	fabriquait	A
+39l0l2	des_insecticides	O
+
+#En avril 2008, une partie des équipements de cet atelier a été démontée et transférée vers un autre site.
+
+40l0l0	En_avril_2008__	T
+40l0l1	une_partie_des_équipements_de_cet_atelier	O
+40l0l2	a_été_démontée	N
+40l0l3	et_transférée	N
+40l0l4	vers_un_autre_site	L
+
+#Préalablement au démontage, les équipements avaient été nettoyés.
+
+41l0l0	au_démontage	N
+41l0l1	les_équipements	O
+41l0l2	avaient_été_nettoyés	N
+
+#- Atelier HUILES :
+
+42l1l0	HUILES	I
+
+#Dans cet atelier, les insecticides et les herbicides étaient préparés dans des cuves par dissolution des matières actives dans des huiles ou des émulsions huile-eau.
+
+43l0l0	les_insecticides	O
+43l0l1	les_herbicides	O
+43l0l2	émulsions	A
+43l0l3	huile___eau	O
+
+#En janvier 2008, les équipements de cet atelier ont été démontés et transférés vers un autre site.
+
+44l0l0	En_janvier_2008__	T
+44l0l1	les_équipements_de_cet_atelier	O
+44l0l2	ont_été_démontés	N
+44l0l3	transférés	N
+44l0l4	vers_un_autre_site	L
+
+#Préalablement au démontage, les équipements avaient été nettoyés.
+
+45l0l0	au_démontage	N
+45l0l1	les_équipements	O
+45l0l2	avaient_été_nettoyés	N
+
+#-> Étude de pollution des sols et des eaux souterraines :
+
+
+#Parmi les matières premières utilisées sur le site, les molécules retenues pour réaliser l’étude des sols et des eaux souterraines sont les suivantes :
+
+
+#- Méthylparathion,
+
+48l1l0	Méthylparathion	S
+
+#- Fénitrothion,
+
+
+#- Diazinon,
+
+
+#- Chlorpyriphos,
+
+51l1l0	Chlorpyriphos	S
+
+#- Diuron,
+
+
+#- Simazine,
+
+53l1l0	Simazine	I
+
+#- Aminotriazole,
+
+54l1l0	Aminotriazole	S
+
+#- Diphénylamine.
+
+55l1l0	Diphénylamine	S
+
+#Les pyréthrinaoïdes (Cyperméthrine, Perméthrine, Betacyperméthrine, Pyrèthre) n’ont pas été retenues compte tenu des faibles tonnages mis en œuvre sur le site.
+
+56l1l0	Les_pyréthrinaoïdes	S
+56l1l1	Cyperméthrine	S
+56l1l2	Perméthrine	S
+56l1l3	Betacyperméthrine	S
+56l1l4	Pyrèthre	S
+
+#Il en est de même pour l’alachlore, molécule qui n’est plus utilisée depuis 1999.
+
+57l0l0	n__est_plus_utilisée	N
+57l0l1	depuis_1999__	T
+57l1l0	alachlore	S
+
+#-> Suivi des eaux de surfaces et souterraines :
+
+
+#Le suivi de la qualité du ruisseau « Le Roineau » ainsi que des eaux souterraines est réalisé depuis 1996.
+
+59l0l0	Le_suivi_de_la_qualité_du_ruisseau	A
+59l0l1	__Le_Roineau	L
+59l0l2	est_réalisé	N
+59l0l3	depuis_1996__	T
+
+#L’échantillonnage est réalisé sur 6 points de prélèvement (voir plan cartographique 3 partie B) :
+
+
+#- Puits DECCO (amont)
+
+61l0l0	Puits_DECCO	O
+61l0l1	amont	L
+
+#- Piézomètre 1 (aval)
+
+
+#- Piézomètre 2 (aval)
+
+
+#- Piézomètre 3 (aval)
+
+
+#- Prélèvement Roineau amont
+
+
+#- Prélèvement Roineau aval
+
+66l0l0	aval	L
+
+#-> Investigations au niveau des sols :
+
+67l0l0	Investigations	N
+67l0l1	au_niveau_des	R
+67l0l2	sols	O
+
+#Les investigations au niveau des sols ont été réalisées en avril 2008.
+
+68l0l0	Les_investigations_au_niveau_des_sols	N
+68l0l1	ont_été_réalisées	N
+68l0l2	en_avril_2008__	T
+
+#Six points de prélèvement ont été définis (voir plan cartographique 3 partie B):
+
+69l0l0	Six_points_de_prélèvement	O
+69l0l1	ont_été_définis	N
+
+#- point 1 : au nord de l’atelier de micro-encapsulation
+
+70l0l0	au_nord_de_l_	L
+70l0l1	atelier_de_micro_encapsulation	A
+
+#- point 2 : le long de l’atelier DECCO
+
+71l0l0	le_long_de_l_	L
+
+#- point 3 : à l’est de l’atelier micro-encapsulation
+
+72l0l0	à_l__est_de	L
+72l0l1	l__atelier	A
+72l0l2	micro_encapsulation	O
+
+#- point 4 : le long de l’atelier huiles
+
+73l0l0	le_long_de_l__atelier_huiles	L
+
+#- point 5 : au sud du terrain entre les 2 piézomètres aval
+
+74l0l0	au_sud_du_terrain	L
+
+#- point 6 : le long du barnum de stockage des emballages vides
+
+75l0l0	le_long_du_barnum	L
+75l0l1	emballages_vides	O
+
+#Un blanc de référence a été réalisé dans le terrain mitoyen voisin du site.
+
+76l0l0	Un_blanc_de_référence	O
+76l0l1	a_été_réalisé	N
+76l0l2	dans_le_terrain_mitoyen_voisin_du_site	L
+
+#-> Interprétation des résultats par l’exploitant :
+
+77l0l0	l__exploitant	O
+
+#L’exploitant conclut que :
+
+
+#- les concentrations présentes sont très faibles à la fois dans les sols et dans les eaux souterraines ,
+
+
+#- les analyses au niveau de l’eau souterraine en aval des piézomètres ne montrent pas de transfert ou migration des différents éléments.
+
+
+#L’exploitant ne prévoit aucune mesure particulière (travaux, réhabilitation) hormis les contrôles habituels liés à une activité industrielle.
+
+81l0l0	L__exploitant	O
+81l0l1	les_contrôles	A
+81l0l2	activité_industrielle	A
+
+#L'exploitant a transmis le 4 juin 2008 au maire les plans du site et les études et rapports communiqués à l'administration sur la situation environnementale et sur les usages successifs du site, ainsi que ses propositions sur le type d'usage futur du site qu'il envisage de considérer.
+
+82l0l0	L__exploitant	O
+82l0l1	a_transmis	N
+82l0l2	le_4_juin_2008	T
+82l0l3	maire	O
+82l0l4	les_plans_du_site	N
+82l0l5	les_études	O
+82l0l6	situation_environnementale	O
+82l0l7	usages_successifs	A
+82l0l8	du_site	L
+82l0l9	le_type_d__usage_futur	O
+
+#En réponse à ces documents, le maire a répondu le 19 juin 2008 qu’il souhaitait que cette zone soit maintenue comme zone à usage industriel.
+
+83l0l0	le_maire	O
+83l0l1	le_19_juin_2008	T
+83l0l2	cette_zone	O
+83l0l3	soit_maintenue	O
+83l0l4	comme	R
+83l0l5	zone_à_usage_industriel	A
+
+#Les valeurs mesurées dans les eaux souterraines, notamment au niveau du puits DECCO sont supérieures à la limite de qualité des eaux destinées à la consommation humaine prélevés en avril 2008.
+
+84l0l0	en_avril_2008__	T
+
+#Si on regarde la surveillance qui était réalisée les années précédentes, on peut constater que jusqu’en 2005, on observait des valeurs non négligeables de Méthylparathion, Fénitrothion, Diazinon, Chlorpyriphos, Diuron, Simazine et d’Aminotriazole dans le puits DECCO et dans les piézomètres 1, 2 et 3.
+
+85l0l0	la_surveillance	A
+85l0l1	les_années_précédentes	T
+85l0l2	jusqu__en_2005__	T
+85l1l0	Méthylparathion	S
+85l1l1	Fénitrothion	S
+85l1l2	Diazinon	S
+85l1l3	Chlorpyriphos	S
+85l1l4	Diuron	S
+85l1l5	Simazine	S
+85l1l6	d__Aminotriazole	S
+
+#C’est pourquoi une surveillance semestrielle de ces diverses substances au niveau du puits DECCO, des piézomètres 1, 2 et 3 ainsi que dans le ruisseau (amont et aval) a été prescrite par AP complémentaire en date du 25 mai 2009 pour confirmer la tendance à la baisse qu’on peut observer dans les résultats de 2007 et 2008.
+
+86l0l0	une_surveillance_semestrielle	A
+86l0l1	ces_diverses_substances	O
+86l0l2	dans_le_ruisseau___amont_et_aval__	L
+86l0l3	a_été_prescrite	N
+86l0l4	par	R
+86l0l5	AP_complémentaire	O
+86l0l6	en_date_du_25_mai_2009	T
+86l0l7	2007_et_2008__	T
+
+#La surveillance a par la suite été assurée par ICL France.
+
+87l0l0	La_surveillance	O
+87l0l1	a_par_la_suite_été_assurée	N
+87l0l2	ICL_France	O
+87l1l0	ICL_France	I
+
+#À noter qu’une servitude existe aux abords du site, relative aux chemins de fer.
+
+88l0l0	aux_abords_du_site	L
+88l0l1	fer	O
+
+#Elle prévoit l’absence de construction dans l’emprise de la voie ferrée.
+
+89l0l0	la_voie_ferrée	O
+
+#Un diagnostic de site a été effectué pour le compte d'ICL France en avril 2014 par un bureau d’étude.
+
+90l0l0	Un_diagnostic_de_site	N
+90l0l1	a_été_effectué	N
+90l0l2	le_compte_d_	R
+90l0l3	ICL_France	O
+90l0l4	en_avril_2014	T
+90l0l5	un_bureau_d__étude	O
+90l1l0	ICL_France	I
+
+#Il a été constaté que les sols du site sont principalement occupés par des zones bâties (dalle béton) ou sur enrobés, malgré la présence de zones de sols nus en bordure de site.
+
+
+#Les sols voisins sont principalement des espaces nus.
+
+
+#L’usage futur envisagé sur le site, reste un usage industriel.
+
+93l0l0	L__usage_futur_envisagé	O
+93l0l1	usage_industriel	O
+
+#Les usagers du site sont des travailleurs, potentiellement exposés à d’éventuels polluants dans les sols via principalement, l’inhalation de polluants volatils, mais aussi, au droit des espaces de terrains nus, via un contact direct (inhalation de poussières, ingestion de sol ou contact cutané).
+
+94l0l0	au_droit_des	L
+94l1l0	éventuels_polluants	U
+94l1l1	polluants_volatils	S
+
+#La campagne d’investigation a permis de vérifier la qualité des sols en place au droit du site d’étude et des eaux souterraines.
+
+95l0l0	La_campagne_d__investigation	N
+95l0l1	a_permis_de_vérifier	R
+95l0l2	la_qualité_des_sols_en	O
+95l0l3	place	N
+95l0l4	au_droit_du_site_d_	L
+95l0l5	eaux_souterraines	O
+
+#> Sur les sols, 9 sondages ont été effectués le 18 mars 2014 (voir plan cartographique 4 partie B) et ont permis de mettre en évidence :
+
+96l0l0	9_sondages_ont_été_effectués	N
+96l0l1	le_18_mars_2014	T
+
+#- Une contamination des sols au droit du point de sondage S9 par des résidus pétroliers lourds avec des teneurs en HCT (hydrocarbures totaux) de 446 mg/kg MS (Matière Sèches) et en HAP (Hydrocarbures Aromatiques Polycyclique) de 55,8 mg/kg MS.
+
+97l0l0	Une_contamination_des_sols	N
+97l0l1	au_droit_du_point_de_sondage	L
+97l1l0	des_résidus_pétroliers_lourds	U
+97l1l1	HCT	S
+97l1l2	hydrocarbures_totaux	S
+97l1l3	HAP	S
+97l1l4	Hydrocarbures_Aromatiques_Polycyclique	S
+
+#Il est alors à noter :
+
+
+#- une teneur en HAP supérieure au seuil d’admissibilité des terres en installation de stockage de déchets inertes fixés par AP du 28/10/2010
+
+99l0l0	28_10_2010	T
+99l1l0	HAP	S
+
+#- une teneur en benzo(a)pyrène plus de 35 fois supérieur à la moyenne ds sols urbains
+
+100l1l0	benzo_a_pyrène	S
+
+#- des teneurs élevées en fractions volatiles d’hydrocarbures pour les échantillons S1/2 et S2/2
+
+101l1l0	fractions_volatiles_d_	U
+101l1l1	hydrocarbures	S
+
+#- une absence de contamination des sols par des solvants aromatiques, des chlorures, des nitrates des orthophosphates et des sulfates au droit des points de sondages réalisés.
+
+102l0l0	une_absence_de_contamination	N
+102l0l1	au_droit_des	L
+102l0l2	points_de_sondages_réalisés	N
+102l1l0	solvants_aromatiques	S
+102l1l1	des_chlorures	S
+102l1l2	des_nitrates_des_orthophosphates	S
+102l1l3	sulfates	S
+
+#> Sur les eaux souterraines, pose de 2 piézomètres (Pz1 et Pz4) entre le 19 mars 2014 et le 24 mars 2014, avec les prélèvements réalisés le 27 mars 2014, qui ont permis de mettre en évidence (voir plan cartographique 4 partie B) :
+
+103l0l0	pose_de_2_piézomètres	N
+103l0l1	entre_le_19_mars_2014	T
+103l0l2	et_le_24_mars_2014__	T
+103l0l3	avec	O
+103l0l4	les_prélèvements_réalisés	N
+103l0l5	le_27_mars_2014__	T
+
+#- Une contamination des eaux souterraines au droit du piézomètre Pz4 pourtant situé en amont hydraulique de la zone d’étude :
+
+104l0l0	Une_contamination	N
+104l0l1	situé_en_amont_hydraulique_de_la_zone_d__étude	L
+
+#- par des hydrocarbures totaux avec des teneurs de 1,77 mg/L supérieur à la référence de la qualité des eaux brutes fixée par AP du 11/01/2007
+
+105l0l0	11_01_2007	T
+105l1l0	des_hydrocarbures_totaux	S
+
+#- pour les paramètres DCO (Demande Chimique en Oxygène)  avec des teneurs plus de 10 fois supérieure à la limité de quantification du laboratoire.
+
+106l1l0	DCO	S
+106l1l1	Oxygène	U
+
+#- Un impact sur les eaux souterraines en chlorures au droit du piézomètre Pz3 avec des teneurs de 392 mg/L, supérieure à la référence de qualité des eaux brutes fixée par AP du 11/01/2007
+
+107l0l0	Un_impact	O
+107l0l1	11_01_2007	T
+107l1l0	chlorures	S
+
+#- Une absence de contamination des eaux souterraines pour les paramètres solvants aromatiques, nitrates, sulfates et orthophosphates, pour les échantillons analysés.
+
+108l0l0	de_contamination	O
+108l1l0	solvants_aromatiques	S
+108l1l1	nitrates	S
+108l1l2	sulfates	S
+108l1l3	orthophosphates	S
+
+#Pour éviter toute source de pollution, le puits DECCO a été comblé suite aux prescriptions de l'arrêté préfectoral du 27/02/2015.
+
+109l0l0	source_de_pollution	O
+109l0l1	le_puits_DECCO	O
+109l0l2	a_été_comblé	N
+109l0l3	suite_aux_prescriptions_de	R
+109l0l4	l__arrêté_préfectoral	O
+109l0l5	27_02_2015__	T
+
+#Il est recommandé par le bureau d’étude :
+
+110l0l0	le_bureau_d__étude	O
+
+#- une surveillance semestrielle des eaux souterraines au droit des 4 piézomètres implantés sur le site d’étude ;
+
+111l0l0	une_surveillance_semestrielle	A
+111l0l1	des_eaux_souterraines	A
+
+#- une gestion de la contamination des sols aux abords du point S9 par :
+
+112l0l0	gestion_de_la_contamination_des_sols	O
+
+#- une gestion spécifique des déblais en cas de terrassement avec réalisation au préalable d’une mission d’investigations complémentaires sur les sols ;
+
+113l0l0	déblais	O
+113l0l1	en_cas_de	R
+113l0l2	terrassement	N
+
+#- un recouvrement de surface en cas d’utilisation de cette zone, afin de bloquer les voies de transfert par inhalation de poussières, ingestion de sol ou contact cutané, ou par réalisation d’une Évaluation Quantitative des Risques Sanitaires (EQRS).
+
+114l0l0	en_cas_d_	R
+114l0l1	utilisation	N
+114l0l2	réalisation_d_	R
+114l0l3	une_Évaluation_Quantitative	N
+114l1l0	Sanitaires	S
+
+#- une attention particulière quant à l’orientation des déblais en cas de terrassement aux abords des points de sondage S1 et S2
+
+115l0l0	de_terrassement	N
+
+#- une conservation de la mémoire, pour d’éventuels futurs acquéreurs qui devront être informés de l’état des sols et des mesures de gestion prises.
+
+116l0l0	des_mesures_de_gestion	N

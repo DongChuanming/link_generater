@@ -1,0 +1,96 @@
+
+#57.0045
+#Station service Shell
+
+0l0l0	Station_service_Shell	O
+0l1l0	Station_service_Shell	I
+
+#Une visite de l'inspection a été réalisée sur le site le 21 décembre 1999 suite à des plaintes concernant l'existence d'odeurs d'hydrocarbures dans l'eau potable.
+
+1l0l0	Une_visite	N
+1l0l1	l__inspection	O
+1l0l2	a_été_réalisée	N
+1l0l3	le_21_décembre_1999	T
+1l0l4	suite_à	R
+1l0l5	des	O
+1l1l0	hydrocarbures	S
+
+#Des analyses ont effectivement montrées des teneurs en hycrocarbures au niveau du robinet des plaignants supérieures aux critères de qualité d'eau potable.
+
+2l0l0	Des_analyses	N
+2l1l0	hycrocarbures	S
+
+#Cette pollution semblait se produire au niveau de la conduite traversant la zone des pompes et citernes de la station service.
+
+3l0l0	au_niveau_de	R
+3l0l1	la_conduite_traversant_la_zone	O
+
+#La source de cette pollution pouvait a priori être de deux types:
+
+
+#- pollution chronique : fuite d'une citerne ou des conduites de dépotage et d'alimentation des pompes,
+
+5l0l0	des_conduites_de_dépotage	O
+
+#- pollution accidentelle : égouttures lors du remplissage des réservoirs, accident lors du dépotage, lessivage par les eaux de pluie du sol de la station...
+
+6l0l0	lessivage	N
+6l0l1	la_station	O
+
+#Il a été demandé par courrier du 21 janvier 2000 que l'exploitant s'assurer de l'étanchéité des circuits des carburants.
+
+7l0l0	a_été_demandé_par_courrier	N
+7l0l1	21_janvier_2000	T
+7l0l2	l__exploitant	O
+7l0l3	s_	R
+7l0l4	carburants	O
+7l1l0	carburants	U
+
+#En mars 2000, les documents d'épreuves des cuves ont été fournis sans toutefois y joindre les résultats.
+
+8l0l0	En_mars_2000__	T
+8l0l1	ont_été_fournis	N
+
+#L'article 13 de l'arrêté ministériel du 22 juin 1998 stipule que les réservoirs simples enveloppes en contact avec le sol doivent subir un contrôle d'étanchéité tous les 5 ans.
+
+9l0l0	22_juin_1998	T
+9l0l1	enveloppes	O
+9l0l2	en_contact_avec_le_sol	L
+9l0l3	doivent_subir	R
+9l0l4	un_contrôle_d__étanchéité_tous_les	N
+9l0l5	5_ans	T
+
+#A la date du 30 janvier 2008, il est demandé par l'inspection que l'exploitant réalise une nouvelle épreuve et fasse parvenir les résultats avec ceux de l'épreuve réalisée en 2003.
+
+10l0l0	A_la_date_du_30_janvier_2008__	T
+10l0l1	l__inspection	O
+10l0l2	l__exploitant	O
+10l0l3	réalise_une_nouvelle_épreuve	N
+10l0l4	en_2003	T
+
+#Les résultats de l'épreuve de 2003 ont démontré l'absence de fuite.
+
+11l0l0	de_2003	T
+
+#Par courrier du 19 février 2008, l'exploitant indique avoir procédé au remplacement des conduites qui étaient à l'origine des odeurs d'hydrocarbures compte tenu de leur vétusté.
+
+12l0l0	19_février_2008__	T
+12l0l1	l__exploitant	O
+12l0l2	indique	R
+12l0l3	avoir_procédé_au_remplacement	N
+12l0l4	des_conduites	O
+12l0l5	étaient_à_l__origine	N
+12l0l6	d__hydrocarbures	O
+12l1l0	odeurs_d__hydrocarbures	U
+
+#La station a été intégralement remise aux normes en 2002-2003 (mise en place de cuves double enveloppe, changement de la tuyauterie, récupérateur de vapeurs et séparateur d'HC).
+
+13l0l0	La_station	O
+13l0l1	a_été_intégralement_remise_aux_normes	N
+13l0l2	en_2002___2003	T
+13l0l3	mise_en_place_de_cuves	N
+13l0l4	double_enveloppe	O
+13l0l5	changement	N
+13l0l6	la_tuyauterie	O
+13l1l0	cuves	D
+13l1l1	HC	S

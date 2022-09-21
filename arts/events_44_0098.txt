@@ -1,0 +1,143 @@
+
+#44.0098
+#Le site, d'une superficie de 900 m2, était exploité par une station-service et un garage d'entretien et de réparation automobile.
+
+0l0l0	Le_site	O
+0l0l1	était_exploité	N
+0l0l2	une_station___service	O
+0l0l3	un_garage_d__entretien_et_de_réparation_automobile	O
+
+#Il comportait deux bâtiments.
+
+
+#Les installations de la station-service comportaient:
+
+2l0l0	Les_installations	O
+
+#- une cuve enterrée de 30 m3 tri-compartimentée en fosse maçonnée (2 compartiments pour le gasoil de 10 et 7 m3 et un compartiment pour le supercarburant sans plomb de 9 m3),
+
+3l0l0	une_cuve_enterrée	O
+3l1l0	une_cuve_enterrée	D
+3l1l1	gasoil	S
+3l1l2	le_supercarburant_sans_plomb	U
+
+#- une cuve enterrée double paroi de 10 m3 de sans plomb,
+
+4l1l0	une_cuve_enterrée	D
+4l1l1	sans_plomb	U
+
+#- une aire de distribution avec deux volucompteurs pour le gasoil et deux pour l'essence,
+
+5l0l0	une_aire	O
+5l0l1	deux_volucompteurs	O
+5l1l0	gasoil	S
+5l1l1	essence	S
+
+#- un volucompteur pour moteur deux temps,
+
+
+#- une cuve aérienne d'huiles usagées d'environ 1 m3.
+
+7l0l0	une_cuve_aérienne	O
+7l0l1	huiles_usagées	O
+7l1l0	une_cuve	D
+7l1l1	huiles_usagées	U
+
+#Les activités de la station-service et du garage ont été autorisées par récépissé de déclaration en date du 24 juillet 1981.
+
+8l0l0	Les_activités	A
+8l0l1	garage	O
+8l0l2	ont_été_autorisées_par_récépissé	N
+8l0l3	de_déclaration	N
+8l0l4	en_date_du_24_juillet_1981__	T
+
+#Les activités ont cessé le 31 décembre 2010.
+
+9l0l0	Les_activités	O
+9l0l1	ont_cessé	N
+9l0l2	le_31_décembre_2010__	T
+
+#L'usage futur retenu est un usage résidentiel.
+
+
+#Dans le cadre de la cessation des activités de la station-service et du garage, un diagnostic initial de la qualité des sols et des eaux souterraines a été réalisé en juillet 2010.
+
+11l0l0	Dans_le_cadre_de	R
+11l0l1	la_cessation_des_activités	N
+11l0l2	garage	O
+11l0l3	un_diagnostic_initial	N
+11l0l4	la_qualité_des_sols_et_des_eaux_souterraines	O
+11l0l5	a_été_réalisé	N
+11l0l6	en_juillet_2010__	T
+
+#Les résultats ont montré:
+
+
+#- dans les sols: un impact en métaux, métalloïdes et hydrocarbures,
+
+13l1l0	métaux	S
+13l1l1	métalloïdes	S
+13l1l2	hydrocarbures	S
+
+#- dans les eaux souterraines: un impact en hydrocarbures, HAP et métaux.
+
+14l1l0	hydrocarbures	S
+14l1l1	HAP	S
+14l1l2	métaux	S
+
+#Des investigations complémentaires ont été menées en février 2012 afin de dimensionner les zones reconnues impactées au niveau de la station-service et du garage.
+
+15l0l0	Des_investigations_complémentaires	N
+15l0l1	ont_été_menées	N
+15l0l2	en_février_2012	T
+15l0l3	les_zones_reconnues_impactées	O
+15l0l4	garage	L
+
+#Il s'avère que les sols sont impactés jusqu'à une profondeur d'environ 7m pour les hydrocarbures sur 90 m2.
+
+16l0l0	sont_impactés_jusqu_	N
+16l0l1	hydrocarbures	O
+16l1l0	hydrocarbures	S
+
+#En septembre 2012, des travaux de dépollution ont été réalisés:
+
+17l0l0	En_septembre_2012__	T
+17l0l1	des_travaux_de_dépollution	N
+17l0l2	ont_été_réalisés	N
+
+#- démolition et excavation de la fosse maçonnée de l'ancienne cuve de 30 m3,
+
+18l0l0	démolition_et_excavation	N
+18l0l1	la_fosse	O
+18l0l2	maçonnée	O
+
+#- excavation des terres polluées (2 106 t de matériaux excavés).
+
+19l0l0	excavation	N
+19l0l1	des_terres_polluées	O
+
+#Les résultats des analyses effectuées en fond et parois de fouille ont montré des teneurs en hydrocarbures de l'ordre de 5 300 mg/kg MS.
+
+20l0l0	des_teneurs	O
+20l1l0	hydrocarbures	S
+
+#Des travaux de dépollution complémentaire ont été réalisés en octobre 2012.
+
+21l0l0	Des_travaux_de_dépollution	N
+21l0l1	complémentaire	O
+21l0l2	ont_été_réalisés	N
+21l0l3	en_octobre_2012__	T
+
+#La teneur en hydrocarbures mesurée en fond et parois de fouille est de 720 mg/kg MS.
+
+22l1l0	hydrocarbures	S
+
+#L'analyse résiduels des risques conclut à un risque acceptable pour l'usage futur retenu.
+
+
+#Le suivi de la qualité des eaux souterraines est poursuivi pour une durée de 4 ans.
+
+24l0l0	Le_suivi_de	A
+24l0l1	la_qualité_des_eaux_souterraines	O
+24l0l2	est_poursuivi	N
+24l0l3	pour_une_durée_de_4_ans	T

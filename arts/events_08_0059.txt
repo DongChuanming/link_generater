@@ -1,0 +1,73 @@
+
+#08.0059
+#Ancien site de récupération de ferrailles par l'entreprise FOURNAISE, en liquidation depuis 1990.
+
+0l0l0	Ancien_site_de_récupération_de_ferrailles	A
+0l0l1	l__entreprise_FOURNAISE	O
+0l0l2	liquidation	O
+0l0l3	depuis_1990__	T
+0l1l0	FOURNAISE	I
+
+#La société Espace Habitat a construit des habitations (usage sensible) sur le site après l'avoir acheté.
+
+1l0l0	La_société_Espace_Habitat	O
+1l0l1	a_construit_des_habitations	N
+1l0l2	après_l_	R
+1l0l3	avoir_acheté	N
+1l1l0	La_société_Espace_Habitat	I
+
+#Pour cela la société Espace Habitat réalise une étude géotechnique en décembre 2007, une étude des risques sanitaires en juin 2009 et une étude de caractérisation des terres en février 2010.
+
+2l0l0	la_société_Espace_Habitat	O
+2l0l1	réalise_une_étude_géotechnique	N
+2l0l2	en_décembre_2007__	T
+2l0l3	une_étude_des_risques_sanitaires	N
+2l0l4	en_juin_2009	T
+2l0l5	une_étude_de_caractérisation	N
+2l0l6	des_terres	O
+2l0l7	en_février_2010__	T
+2l1l0	la_société_Espace_Habitat	I
+
+#Les conclusions des différentes études ont précisé que les usages sensibles sont autorisés sur ce site sous certaines conditions, telles que l'évacuation des terres polluées et la mise en place d'une chape de propreté en dessous des logements.
+
+3l0l0	les_usages_sensibles	O
+3l0l1	sont_autorisés	N
+3l0l2	sur_ce_site	L
+3l0l3	l__évacuation_des_terres_polluées	N
+3l0l4	la_mise_en_place_d_	N
+3l0l5	une_chape	O
+3l0l6	dessous_des_logements	L
+
+#En Mai 2010 l'évacuation des terres polluées dans une filière d'élimination adaptées est réalisé, une couverture végétale a été apportée pour les parties restant sans couvertures tandis qu'une dalle de béton a été réalisée sur les zones d'habitation.
+
+4l0l0	En_Mai_2010	T
+4l0l1	l__évacuation_des_terres_polluées	O
+4l0l2	une_filière	O
+4l0l3	élimination_adaptées	O
+4l0l4	est_réalisé	N
+4l0l5	une_couverture_végétale	O
+4l0l6	a_été_apportée	N
+4l0l7	les_parties	O
+4l0l8	une_dalle_de_béton	O
+4l0l9	a_été_réalisée	N
+4l0l10	les_zones	O
+4l0l11	d__habitation	L
+
+#L'inspection des installations classées n'a pas eu connaissance ni des l'activité de ferrailleur, exercée par la société FOURNAISE, ni des pollutions présentes sur le site, ni même du projet de réhabilitation porté par Espace Habitat.
+
+5l0l0	L__inspection_des_installations_classées	O
+5l0l1	n__a_pas_eu_connaissance	N
+5l0l2	l__activité_de_ferrailleur	A
+5l0l3	la_société_FOURNAISE	O
+5l0l4	du_projet_de_réhabilitation	N
+5l0l5	Espace_Habitat	O
+5l1l0	la_société_FOURNAISE	I
+
+#ESPACE HABITANT réalise une Évaluation Quantitative des Risques Sanitaires (EQRS), elle conclu que dans son état actuel, le site est compatible avec l'usage qui en est fait.
+
+6l0l0	ESPACE_HABITANT	O
+6l0l1	réalise_une_Évaluation	N
+6l0l2	Quantitative_des	L
+6l0l3	Risques_Sanitaires	N
+6l1l0	ESPACE_HABITANT	I
+6l1l1	Sanitaires	S

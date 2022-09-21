@@ -1,0 +1,146 @@
+
+#36.0020
+#Le site de  1100 m2 est bordé par la RN 151, des habitations, une casse automobile et un champ.
+
+0l0l0	Le_site	O
+0l0l1	est_bordé_par_la_RN_151	L
+0l0l2	__des_habitations	O
+0l0l3	une_casse_automobile	O
+0l0l4	et_un_champ	O
+
+#Un ruisseau se trouve à 500 m du site.
+
+1l0l0	Un_ruisseau	O
+1l0l1	se_trouve_à_500_m_du_site	L
+
+#Le sous-sol est du type calcaire fissuré avec une nappe à faible profondeur (3,3 m) à débit important.
+
+
+#Les installations liées au dépôt (4 cuves aériennes, bras de déchargement) ont été démantelées.
+
+3l0l0	Les_installations_liées	O
+3l0l1	déchargement	N
+3l0l2	ont_été_démantelées	N
+3l1l0	cuves	D
+
+#Une étude diagnostic réalisée en 1998 (11 forages dont 3 équipés en piézomètres) a conduit à identifier plusieurs zones localisées polluées par les hydrocarbures et une pollution de la nappe (4,1 mg/l dans le piézomètre le plus pollué).
+
+4l0l0	Une_étude_diagnostic	N
+4l0l1	réalisée	N
+4l0l2	en_1998	T
+4l0l3	identifier	N
+4l0l4	plusieurs_zones_localisées_polluées	O
+4l0l5	la_nappe	O
+4l1l0	hydrocarbures	S
+
+#En 2001, des excavations des 2 zones les plus polluées ont eu lieu. 64 t de terres polluées ont été envoyées en traitement sur le biocentre.
+
+5l0l0	En_2001__	T
+5l0l1	des_excavations	N
+5l0l2	2_zones_les_plus_polluées	O
+5l0l3	ont_eu_lieu	N
+5l0l4	64_t_de_terres_polluées	O
+5l0l5	ont_été_envoyées_en_traitement	N
+5l0l6	le_biocentre	O
+
+#Un rapport de travaux d'excavation  a été établi et transmis fin décembre 2001 avec le diagnostic à la préfecture.
+
+6l0l0	Un_rapport_de	O
+6l0l1	travaux_d__excavation	N
+6l0l2	__a_été_établi_et_transmis	N
+6l0l3	fin_décembre_2001	T
+6l0l4	avec_le_diagnostic	N
+6l0l5	à_la_préfecture	O
+
+#L'Inspection des Installations Classées a demandé qu'une surveillance des eaux souterraines soit mise en place dans l'attente que l'étude diagnostic soit complétée et qu'une évaluation simplifiée des risques soit produite par l'exploitant prenant en compte le devenir du site qui reste à préciser.
+
+7l0l0	L__Inspection_des_Installations_Classées	O
+7l0l1	une_surveillance_des_eaux_souterraines	A
+7l0l2	soit_mise_en_place	N
+7l0l3	étude_diagnostic	N
+7l0l4	une	O
+7l0l5	évaluation_simplifiée_des_risques	N
+7l0l6	l__exploitant	O
+
+#En 2003, une étude historique et environnementale ainsi qu'une évaluation simplifiée des risques (ESR) ont été réalisées.
+
+8l0l0	En_2003__	T
+8l0l1	une_étude_historique_et_environnementale	N
+8l0l2	une_évaluation_simplifiée_des_risques	N
+8l0l3	ESR___ont_été_réalisées	N
+
+#Des traces organoleptiques caractéristiques d'une contamination par des hydrocarbures ont été relevées.
+
+9l0l0	hydrocarbures	O
+9l0l1	ont_été_relevées	N
+9l1l0	hydrocarbures	S
+
+#Les terres concernées ont été excavées (50 tonnes).
+
+10l0l0	Les_terres_concernées	O
+10l0l1	ont_été_excavées	N
+
+#La suppression de la source de pollution a permis de conclure à la non nécessité d'un classement ESR.
+
+11l0l0	La_suppression_de_la_source_de_pollution	O
+
+#Afin de confirmer cet état de fait, il lui a été demandé de réaliser une surveillance semestrielle des eaux souterraines, engagée en février 2004.
+
+12l0l0	a_été_demandé	N
+12l0l1	une_surveillance_semestrielle	A
+12l0l2	eaux_souterraines	A
+12l0l3	en_février_2004__	T
+
+#Suite aux résultats obtenus une nouvelle ESR a été réalisée en juin 2004 et conclut à un classement de type 2, "site à surveiller".
+
+13l0l0	a_été_réalisée	N
+13l0l1	en_juin_2004	T
+
+#Après une baisse significative des concentrations en hydrocarbures totaux pour les piézomètres situés en amont et en aval pour les mesures de février 2004, mars 2004 et août 2005, comparativement à celles décembre 1997, une hausse significative a été enregistrée en novembre 2005 (1 mg/l pour le piézomètre amont et 4,6 mg/l et 0,4 mg/l pour les piézomètres aval).
+
+14l0l0	Après	R
+14l0l1	une_baisse	N
+14l0l2	situés_en_amont	L
+14l0l3	les_mesures	N
+14l0l4	de_février_2004___mars_2004_et_août_2005__	T
+14l0l5	en_novembre_2005	T
+14l1l0	hydrocarbures_totaux	S
+
+#L'absence d'hydrocarbures surnageant est toutefois confirmée.
+
+15l1l0	hydrocarbures	S
+15l1l1	surnageant	U
+
+#Les campagnes de mesures de juin 2006, novembre 2006 et mai 2007 montrent des concentrations en hydrocarbures très basses, voir inférieures au seuil de détection (0,02 mg/L étant la concentration la plus élevée).
+
+16l0l0	Les_campagnes_de_mesures	N
+16l0l1	de_juin_2006___novembre_2006_et_mai_2007	T
+16l1l0	hydrocarbures	S
+
+#Il n'y a pas non plus d'odeurs caractéristiques ou d'hydrocarbures surnageant.
+
+17l1l0	hydrocarbures_surnageant	U
+
+#Au vu des ces résultats, le bureau d'études recommande l'arrêt définitif de la surveillance des eaux souterraines au droit du site.
+
+18l0l0	le_bureau_d__études	O
+18l0l1	la_surveillance_des_eaux_souterraines	A
+18l0l2	au_droit_du_site	L
+
+#Le site est entièrement clôturé et fermé par une grille cadenassée.
+
+19l0l0	Le_site	O
+19l0l1	une_grille_cadenassée	O
+
+#Son usage futur sera de type industriel (dépôt pour matériaux de construction).
+
+20l1l0	dépôt	D
+
+#Le maire a confirmé que le terrain était inconstructible car situé dans une bande de 75 m le long de la nationale 151.
+
+21l0l0	Le_maire	O
+21l0l1	a_confirmé	O
+21l0l2	le_terrain	O
+21l0l3	était_inconstructible	O
+21l0l4	situé_dans_une_bande_de_75_m_le_long_de_la_nationale_151__	L
+21l1l0	Le_maire	I

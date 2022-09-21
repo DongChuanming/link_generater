@@ -1,0 +1,410 @@
+
+#74.0001
+#Le site est un ancien crassier de la société Pechiney Electro Métallurgie (PEM) qui a cessé toute activité (fabrication de ferro-alliages) au lieu dit "Le Giffre" en 1994 (AP d'autorisation du 25 juillet 1977).
+
+0l0l0	Le_site	O
+0l0l1	un_ancien_crassier	O
+0l0l2	la_société_Pechiney	O
+0l0l3	Electro_Métallurgie___PEM	O
+0l0l4	a_cessé	N
+0l0l5	toute_activité	A
+0l0l6	fabrication_de_ferro___alliages	A
+0l0l7	au_lieu_dit___Le_Giffre__	L
+0l0l8	en_1994	T
+0l0l9	25_juillet_1977	T
+0l1l0	la_société_Pechiney_Electro_Métallurgie	I
+0l1l1	PEM	I
+
+#Les deux décharges (petit crassier et grand crassier), qui ont reçu des scories et des laitiers de Mn et de Mo, ont été réhabilitées en 1997.
+
+1l0l0	Les_deux_décharges	O
+1l0l1	ont_reçu	N
+1l0l2	des_scories	O
+1l0l3	ont_été_réhabilitées	N
+1l0l4	en_1997	T
+1l1l0	Mn	S
+1l1l1	Mo	S
+
+#Elles sont revégétalisées et clôturées.
+
+2l0l0	sont_revégétalisées	N
+2l0l1	clôturées	N
+
+#L'AP du 09/10/1996 impose à PEM de mettre en place une servitude de droit privé au profit de l’État pour tous les terrains ayant fait l'objet d'un dépôt de déchets.
+
+3l0l0	L__AP	O
+3l0l1	09_10_1996	T
+3l0l2	impose	N
+3l0l3	PEM	O
+3l0l4	de_mettre_en_place	N
+3l0l5	une_servitude_de_droit_privé	O
+3l0l6	les_terrains	O
+3l0l7	ayant_fait_l_	R
+3l1l0	PEM	I
+3l1l1	dépôt_de_déchets	U
+
+#Celle-ci est instaurée par un acte notarié soussigné les 19/12/1997 et 23/01/1998.
+
+4l0l0	est_instaurée	N
+4l0l1	par	R
+4l0l2	un_acte_notarié	N
+4l0l3	les_19_12_1997_et_23_01_1998__	T
+
+#Le 31 mai 2005, Pechiney Bâtiment (Alcan) signe un acte notarié dans le but d'acquérir les parcelles cadastrales suivantes : 1, 2, 3, 2434, 2437, 2440, 2442, 2444, 2447, 2449, 2982, 2983 ("petit crassier" d'environ 0,97 ha) ; 356 357 361 368 269, 371, 372, 373, 374, 377, 378, 379, 388, 3821, 2823, 2825, 2827, 2829, 2847, 2849, 2956 et 2972 ("grand crassier" d'environ 3 ha 96) de la section C de la commune de Saint-Jeoire (en Faucigny).
+
+5l0l0	Le_31_mai_2005__	T
+5l0l1	Pechiney_Bâtiment	O
+5l0l2	signe_un_acte_notarié	N
+5l0l3	d__acquérir	N
+5l0l4	les_parcelles_cadastrales	O
+5l0l5	2956	O
+5l0l6	la_section_C_de_la_commune_de_Saint_Jeoire___en_Faucigny	L
+5l1l0	Pechiney_Bâtiment___Alcan	I
+
+#De nombreuses études ont été réalisées pour préparer la réhabilitation du site :
+
+6l0l0	De_nombreuses_études_ont_été_réalisées	N
+6l0l1	préparer	R
+6l0l2	la_réhabilitation	N
+6l0l3	site	O
+
+#- étude hydrogéologique du site de l'usine et des crassiers, par le BRGM en octobre 1993 ;
+
+7l0l0	étude_hydrogéologique	N
+7l0l1	l__usine	O
+7l0l2	le_BRGM	O
+7l0l3	en_octobre_1993	T
+7l1l0	le_BRGM	I
+
+#- analyses des sols prélevés sur le site en novembre 1993 ;
+
+8l0l0	en_novembre_1993	T
+
+#- étude historique de l'usine et de ses fabrications réalisée par PEM en février 1994 ;
+
+9l0l0	l__usine	O
+9l0l1	ses_fabrications	O
+9l0l2	réalisée_par	N
+9l0l3	PEM	O
+9l0l4	en_février_1994	T
+9l1l0	PEM	I
+
+#- analyses  des eaux superficielles et souterraines prélevées sur le site en février 1994, février 1995 et août 1995 ;
+
+10l0l0	site_en_février_1994___février_1995_et_août_1995	T
+
+#- étude d'évaluation des risques pour la santé humaine liés à la qualité des eaux souterraines par l'INERIS le 4 octobre 1994 ;
+
+11l0l0	étude_d__évaluation_des_risques	N
+11l0l1	la_qualité_des_eaux_souterraines	O
+11l0l2	l__INERIS	O
+11l0l3	le_4_octobre_1994	T
+
+#- cahier des charges des travaux de démolition des ateliers de l'usine du Giffre en date du 13 février 1995 ;
+
+12l0l0	travaux_de_démolition	N
+12l0l1	des_ateliers	O
+12l0l2	l__usine	O
+12l0l3	du_Giffre	L
+12l0l4	en_date_du_13_février_1995	T
+
+#- étude de stabilité hydraulique et de confortement par Mecasol le 10 novembre 1995.
+
+13l0l0	étude_de_stabilité_hydraulique	O
+13l0l1	confortement_par	N
+13l0l2	Mecasol	O
+13l0l3	le_10_novembre_1995__	T
+13l1l0	Mecasol	I
+
+#L'AP du 09/10/1996 impose à PEM le réaménagement des sites conformément aux préconisations définies dans le rapport de Mecasol, notamment :
+
+14l0l0	L__AP	O
+14l0l1	09_10_1996	T
+14l0l2	impose	N
+14l0l3	PEM	O
+14l0l4	le_réaménagement	N
+14l0l5	des_sites	O
+14l1l0	PEM	I
+
+#> Pour le grand crassier :
+
+
+#- Les poussières récupérées lors de la démolition des ateliers de fabrication de composés de manganèse ou de molybdène de l'usine du Giffre ainsi que les déchets bétons de démolition de ces ateliers seront déposés sur une zone clairement identifiée sur plan.
+
+16l0l0	la_démolition	N
+16l0l1	des_ateliers_de	O
+16l0l2	fabrication_de_composés_de_manganèse	A
+16l0l3	Giffre_ainsi_que_les_déchets_bétons	O
+16l0l4	démolition	N
+16l0l5	ces_ateliers	O
+16l0l6	seront_déposés_sur	R
+16l0l7	une_zone	O
+16l1l0	manganèse	S
+16l1l1	molybdène	S
+
+#La zone de dépôts sera recouverte d'une membrane PEHD.
+
+17l1l0	PEHD	I
+
+#- Un ouvrage de protection des berges par enrochements, constitué de blocs de granulométrie comprise entre 250 et 1000 mm et d'une sous-couche drainante, sera implantée en berge du Risse conformément aux caractéristiques définies par l'étude Mecasol.
+
+18l0l0	Un_ouvrage_de_protection_des_berges	O
+18l0l1	sera_implantée	N
+18l0l2	en_berge_du_Risse	L
+18l0l3	étude_Mecasol	O
+
+#Les travaux seront menés de manière à augmenter la largeur du lit du Risse et à réduire les vitesses d'écoulement.
+
+19l0l0	Les_travaux	N
+19l0l1	seront_menés	N
+19l0l2	augmenter	N
+19l0l3	la_largeur	O
+19l0l4	Risse	L
+19l0l5	réduire	N
+19l0l6	les_vitesses_d__écoulement	O
+
+#- L'ensemble du site sera reprofilé de manière à obtenir une forme de pente permettant u écoulement maximal des eaux en direction du Risse, à éviter toute dépression susceptible d'accumuler les eaux de ruissellement et à empêcher l'infiltration de pluie ou de ruissellement vers l'intérieur du crassier.
+
+20l0l0	L__ensemble_du_site	O
+20l0l1	sera_reprofilé	N
+20l0l2	en_direction_du_Risse	L
+20l0l3	vers_l__intérieur_du_crassier	L
+
+#- L'ensemble du site sera recouvert d'un couverture ayant une structure multicouches.
+
+
+#> Pour la confluence du Risse et du Giffre : un ouvrage de protection des berges par enrochements, constitué de blocs de granulométrie comprise entre 250 et 1000 mm et d'une sous-couche drainante, sera implantée en berge du Risse conformément aux caractéristiques définies par l'étude Mecasol.
+
+22l0l0	la	O
+22l0l1	confluence_du_Risse_et_du_Giffre	L
+22l0l2	un_ouvrage_de_protection_des_berges	O
+22l0l3	sera_implantée_en_berge	N
+22l0l4	du_Risse	L
+22l0l5	Mecasol	O
+
+#Cet ouvrage ne devra pas empiéter sur le lit actuel des cours d'eau.
+
+23l0l0	Cet_ouvrage	O
+23l0l1	ne_devra_pas_empiéter	N
+23l0l2	sur	R
+23l0l3	le_lit	O
+
+#> Pour le petit crassier :
+
+
+#- Le dépôt de scories de ferromanganèse sera transféré sur le grand crassier.
+
+25l0l0	scories_de_ferromanganèse	O
+25l0l1	sera_transféré	N
+25l0l2	sur_le_grand_crassier	L
+25l1l0	ferromanganèse	S
+
+#- Les berges du Risse et le talus dominant du Risse feront l'objet d'un nettoyage, d'un reprofilage partiel, d'une mise en place d'une couche d'au moins 0,4 m d'épaisseur de terre végétalisable.
+
+26l0l0	Les_berges	O
+26l0l1	du_Risse	L
+26l0l2	le_talus	O
+26l0l3	Risse	L
+26l0l4	feront_l__objet_d_	R
+26l0l5	un_nettoyage	N
+26l0l6	un_reprofilage_partiel	N
+26l0l7	une_mise_en_place_d_	N
+
+#- L'ensemble du site sera reprofilé de manière à obtenir une forme de pente permettant un écoulement maximal des eaux vers le Risse et vers le chemin départemental n°26 et à éviter la présence de dépression.
+
+27l0l0	L__ensemble_du_site	O
+27l0l1	sera_reprofilé	N
+27l0l2	vers_le_Risse	L
+27l0l3	vers_le_chemin_départemental_n__26	L
+
+#- L'ensemble du site sera recouvert d'une couche de couverture (structure multicouches) pour empêcher l'infiltration d'eau de pluie ou de ruissellement vers l'intérieur du crassier.
+
+28l0l0	ruissellement	N
+28l0l1	vers_l__intérieur_du_crassier	L
+
+#Une visite de récolement par l'inspection a été réalisée le 23/09/1997 et fait état de l'entière réhabilitation du site.
+
+29l0l0	Une_visite_de_récolement	N
+29l0l1	l__inspection	O
+29l0l2	a_été_réalisée	N
+29l0l3	le_23_09_1997	T
+29l0l4	de_l__entière_réhabilitation	N
+
+#L'AP du 28/10/1993, rappelé dans l'AP du 09/10/1996, impose la surveillance semestrielle des eaux souterraines sur un nombre minimum de 10 piézomètres, pour les paramètres suivants : pH, DCO, arsenic, cadmium, chlorures, chrome VI, chrome total, cobalt, cuivre, cyanures, étain, fer, manganèse, mercure, molybdène, nickel, PCB, plomb, rhénium, titane, tungstène, vanadium et zinc.
+
+30l0l0	L_	O
+30l0l1	28_10_1993	T
+30l0l2	l_	O
+30l0l3	09_10_1996	T
+30l0l4	impose	N
+30l0l5	la_surveillance_semestrielle	A
+30l0l6	des_eaux_souterraines	A
+30l1l0	pH	S
+30l1l1	DCO	S
+30l1l2	arsenic	S
+30l1l3	cadmium	S
+30l1l4	chlorures	S
+30l1l5	chrome_VI	S
+30l1l6	chrome_total	S
+30l1l7	cobalt	S
+30l1l8	cuivre	S
+30l1l9	cyanures	S
+30l1l10	étain	S
+30l1l11	fer	S
+30l1l12	manganèse	S
+30l1l13	mercure	S
+30l1l14	molybdène	S
+30l1l15	nickel	S
+30l1l16	PCB	S
+30l1l17	plomb	S
+30l1l18	rhénium	S
+30l1l19	titane	S
+30l1l20	tungstène	S
+30l1l21	vanadium	S
+30l1l22	zinc	S
+
+#Le 13 février 2002, suite aux analyses pratiquées sur l'eau souterraine depuis plus de 5 ans, PEM demande une modification des dispositions prescrites par les AP suscités.
+
+31l0l0	Le_13_février_2002__	T
+31l0l1	depuis_plus_de_5_ans	T
+31l0l2	PEM	O
+31l0l3	demande_une_modification	N
+
+#Sur avis de l'inspection le 08/07/2003 et l'avis du Conseil Départemental d'Hygiène le 30/07/2003, l'AP du 28/08/2003 allège la surveillance :
+
+32l0l0	l__inspection	O
+32l0l1	le_08_07_2003	T
+32l0l2	l__avis	O
+32l0l3	d__Hygiène	O
+32l0l4	le_30_07_2003	T
+32l0l5	l__AP	O
+32l0l6	28_08_2003	T
+32l0l7	allège	N
+32l0l8	la_surveillance	A
+32l1l0	Conseil_Départemental_d__Hygiène	I
+
+#- analyses semestrielles des eaux souterraines sur les paramètres pH, conductivité, arsenic, chrome hexavalent, chrome total, cobalt, cuivre, rhénium, titane, tungstène, fer total, manganèse, molybdène, plomb, vanadium, zinc, DCO et chlorures ;
+
+33l1l0	arsenic	S
+33l1l1	chrome_hexavalent	S
+33l1l2	chrome_total	S
+33l1l3	cobalt	S
+33l1l4	cuivre	S
+33l1l5	rhénium	S
+33l1l6	titane	S
+33l1l7	tungstène	S
+33l1l8	fer_total	S
+33l1l9	manganèse	S
+33l1l10	molybdène	S
+33l1l11	plomb	S
+33l1l12	vanadium	S
+33l1l13	zinc	S
+33l1l14	DCO	S
+33l1l15	chlorures	S
+
+#- une fois tous les 5 ans, analyses des eaux souterraines sur les paramètres pH, DCO, arsenic, cadmium, chlorures, chrome 6, chrome total, cobalt, cuivre, cyanures, étain, fer, manganèse, mercure, molybdène, nickel, PCB, plomb, rhénium, titane, tungstène, vanadium, zinc ;
+
+34l0l0	fois_tous_les_5_ans	T
+34l1l0	DCO	S
+34l1l1	arsenic	S
+34l1l2	cadmium	S
+34l1l3	chlorures	S
+34l1l4	chrome_6	S
+34l1l5	chrome_total	S
+34l1l6	cobalt	S
+34l1l7	cuivre	S
+34l1l8	cyanures	S
+34l1l9	étain	S
+34l1l10	fer	S
+34l1l11	manganèse	S
+34l1l12	mercure	S
+34l1l13	molybdène	S
+34l1l14	nickel	S
+34l1l15	PCB	S
+34l1l16	plomb	S
+34l1l17	rhénium	S
+34l1l18	titane	S
+34l1l19	tungstène	S
+34l1l20	vanadium	S
+34l1l21	zinc	S
+
+#- le nombre de piézomètres sera au minimum de 8.
+
+
+#Les analyses des eaux souterraines, réalisées sur 7 piézomètres, mettent en évidence (derniers résultats disponibles : juin 2016) :
+
+36l0l0	Les_analyses	N
+36l0l1	eaux_souterraines	O
+36l0l2	__juin_2016__	T
+
+#-  molybdène : impact très net et récurrent sur tous les ouvrages par rapport au piézomètre amont, y compris sur le piézomètre aval (jusqu'à 13 fois la valeur de référence).
+
+37l1l0	__molybdène	S
+
+#Les maximums sont obtenus au droit du grand crassier (concentrations entre 9 et 270 fois la valeur de référence).
+
+
+#Cependant les valeurs sont globalement moins élevées depuis novembre 2013.
+
+39l0l0	depuis_novembre_2013__	T
+
+#- manganèse : impact fort et récurrent sur le piézomètre aval (jusqu'à 7 fois la valeur de référence) ; impact très fort et régulier au droit du grand crassier jusqu'à 40 fois la valeur de référence.
+
+40l1l0	manganèse	S
+
+#Pas de tendance d'évolution.
+
+
+#- arsenic : impact observé au droit des crassiers : jusqu'à 18 fois la valeur de référence (10 µg/L) sur le PZ 4.
+
+42l1l0	arsenic	S
+
+#Les ouvrages aval présentent des concentrations normales.
+
+43l0l0	Les_ouvrages_aval	O
+
+#- chrome : un impact est observé de manière récurrente à l'aval des crassiers (PZ 4, 5 et 7).
+
+44l0l0	à_l__aval_des_crassiers	L
+44l1l0	chrome	S
+
+#Maximum : 4 fois la valeur de référence.
+
+
+#Une amélioration est visible sur PZ 7 depuis mai 2013.
+
+46l0l0	depuis_mai_2013__	T
+
+#Les concentrations sur le piézomètre aval sont normales.
+
+
+#Le chrome est présent ici très principalement sous sa forme hexavalente.
+
+48l0l0	hexavalente	O
+48l1l0	Le_chrome	S
+48l1l1	hexavalente	S
+
+#- pH : Les eaux sont très basiques au coeur et à l'aval immédiat du petit crassier (de l'ordre de 12).
+
+49l0l0	à_l__aval_immédiat_du_petit_crassier	L
+
+#Les valeurs sont normales au droit du grand crassier et à l'aval du site.
+
+50l0l0	à_l__aval_du_site	L
+
+#- conductivité : en lien avec le pH élevé, la conductivité  au coeur et à l'aval immédiat du petit crassier est très élevée
+
+51l0l0	l__aval_immédiat_du_petit_crassier	L
+
+#- Pour certains autres métaux (plomb, rhénium, tungstène, vanadium, cadmium, nickel), les mesures mettent en évidence un léger impact du site par rapport au piézomètre amont.
+
+52l1l0	métaux	S
+52l1l1	plomb	S
+52l1l2	rhénium	S
+52l1l3	tungstène	S
+52l1l4	vanadium	S
+52l1l5	cadmium	S
+52l1l6	nickel	S
+
+#Les concentrations relevées restent toutefois très inférieures aux valeurs de référence.
+

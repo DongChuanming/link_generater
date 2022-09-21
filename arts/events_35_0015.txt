@@ -1,0 +1,211 @@
+
+#35.0015
+#Initialement, la société LANGLOIS Chimie a été autorisée à exploiter une unité de régénération de solvants par arrêté préfectoral du 14 juin 1995.
+
+0l0l0	Initialement___la_société_LANGLOIS	N
+0l0l1	exploiter_une_unité	O
+0l0l2	solvants_par_arrêté_préfectoral_du_14	O
+0l0l3	juin_1995__	N
+0l1l0	solvants_par_arrêté_préfectoral	S
+0l1l1	du_14	I
+
+#Se sont succédées les sociétés VALODIS en 2000 puis la société SPEICHIM Processing en 2003.
+
+1l0l0	Se_sont_succédées	N
+1l0l1	les_sociétés_VALODIS_en	O
+1l0l2	2000_puis_la_société_SPEICHIM	N
+1l0l3	Processing	O
+1l0l4	en_2003__	A
+1l1l0	succédées_les_sociétés_VALODIS_en_2000	I
+
+#Le site comportait :
+
+2l0l0	comportait__	O
+2l1l0	comportait__	I
+
+#* des locaux administratifs ;
+
+3l0l0	__des_locaux	O
+
+#* un poste de chargement/déchargement de camions citernes ;
+
+
+#* des zones de stockage de produits en réservoirs aériens ;
+
+5l0l0	de_stockage_de	A
+5l0l1	produits	N
+5l0l2	en_réservoirs_aériens__	A
+5l1l0	réservoirs_aériens__	U
+
+#* des zones de stockage de produits en fûts ou conteneur ;
+
+6l0l0	conteneur__	O
+
+#* une installation de régénération de solvants composée de deux colonnes ;
+
+
+#* une tour aéro-réfrigérante.
+
+8l0l0	une_tour_aéro_réfrigérante__	O
+
+#En juillet 2006, la société SPEICHIM Processing a cessé ses activités.
+
+9l0l0	société_SPEICHIM	O
+
+#La société TRIADIS Services a été autorisée à exploiter un centre de tri, transit, prétraitement et regroupement de déchets par arrêté préfectoral du 7 décembre 2006, sur l'ancien site de la société SPEICHIM Processing.
+
+10l0l0	La_société_TRIADIS	T
+10l0l1	Services_a_été_autorisée_à	O
+10l0l2	exploiter	N
+10l0l3	un_centre_de_tri	A
+10l1l0	TRIADIS_Services_a_été_autorisée_à_exploiter	I
+
+#Le site est mitoyen du site QUARON (ex Solvadis France), également recensé dans Basol (35.0014).
+
+11l0l0	Le_site_est_mitoyen_du_site	O
+11l0l1	QUARON___ex_Solvadis_France____	N
+11l0l2	également_recensé	O
+11l1l0	Le_site_est_mitoyen_du_site_QUARON	I
+
+#Un arrêté préfectoral complémentaire en date du 19 février 2004 a imposé la réalisation d'un diagnostic initial et d'une évaluation simplifiée des risques, à la société SPEICHIM Processing : les activités passées ont été à l'origine de pollution des eaux souterraines au droit des parcelles entre le site et la Vilaine et de pollution des eaux de surface.
+
+12l0l0	Un_arrêté	O
+12l0l1	préfectoral_complémentaire	O
+12l0l2	en_date_du_19_février	O
+12l0l3	réalisation	O
+12l1l0	complémentaire	I
+12l1l1	en_date_du_19_février	I
+
+#1- Analyses de sols : des dépassements des Valeurs de Définition de Source Sol (VDSS) définissant une source de pollution au droit de la zone des cuves aériennes de stockage pour les paramètres toluène et xylène ont été constatés.
+
+13l0l0	1__Analyses_de_sols___des_dépassements	O
+13l0l1	des_Valeurs_de_Définition	T
+13l0l2	de_Source_Sol___VDSS___définissant_une_source_de	N
+13l0l3	pollution_au_droit_de_la_zone_des_cuves_aériennes	N
+13l0l4	de_stockage_pour_les_paramètres	O
+13l0l5	toluène_et_xylène_ont_été	O
+13l0l6	constatés__	R
+13l1l0	de_stockage_pour_les_paramètres	I
+
+#2- Eaux souterraines : impact probable du site (concentrations supérieures à la VCI usage sensible) pour les substances suivantes :
+
+14l0l0	souterraines	N
+14l0l1	__impact_probable	N
+14l0l2	concentrations_supérieures	O
+14l0l3	usage_sensible	N
+14l0l4	__pour_les_substances	O
+14l0l5	suivantes	L
+14l0l6	_	O
+
+#- hydrocarbures totaux (notamment BTEX, avec des concentrations proches de la VCI usage sensible pour le toluène et le benzène sur un piézomètre) ;
+
+15l1l0	toluène_et_le_benzène	U
+
+#- composés organohalogénés volatils -COHV- (chlorure de vinyle, trichloroéthylène, tétrachloroéthylène) ;
+
+16l1l0	composés_organohalogénés	S
+16l1l1	volatils__COHV_	S
+16l1l2	tétrachloroéthylène____	S
+
+#- métaux lourds (arsenic, nickel) ;
+
+17l1l0	métaux_lourds___arsenic___nickel____	S
+
+#- sulfates.
+
+18l1l0	sulfates__	S
+
+#3- Les sources de pollution retenues sont :
+
+19l1l0	3__Les_sources	S
+
+#- source 1 : sols pollués par des égouttures accidentelles lors des opérations de dépotage autour des cuves aériennes de stockage ;
+
+
+#- source 2 : à l'origine d'une pollution des eaux souterraines par les COHV.
+
+21l0l0	à_l__origine_d_	O
+21l0l1	une_pollution_des_eaux_souterraines	N
+21l0l2	par_les_COHV__	N
+
+#Les vecteurs de migration sont les eaux souterraines de la nappe alluviale de la Vilaine et les eaux superficielles de la Vilaine.
+
+22l0l0	vecteurs_de_migration	R
+22l0l1	sont_les_eaux	N
+22l0l2	souterraines_de_la_nappe_alluviale	O
+22l1l0	alluviale	S
+
+#Etant donné que le site se situe en amont hydraulique du captage de Lillion et qu'il y a des usages sensibles des eaux superficielles en aval du site, un arrêté préfectoral du 13 décembre 2004 prescrit la réalisation d'une étude détaillée des risques (EDR) et la mise en place d'une surveillance des eaux.
+
+23l0l0	qu__il_y_a_des	L
+23l0l1	superficielles	L
+
+#L'EDR conclut :
+
+
+#- que la présence de toluène et de xylène dans les sols est compatible avec un usage industriel ;
+
+
+#- que la nappe est contaminée par des solvants chlorés et des HAP.
+
+26l1l0	contaminée	S
+26l1l1	des_solvants	S
+
+#L'étude d'impact sanitaire montre que, par modélisation, les concentrations en substances deviennent insignifiantes au niveau des puits et du captage de Lillion.
+
+27l0l0	modélisation___les	O
+27l1l0	que___par_modélisation	S
+27l1l1	les	S
+
+#Dans l'arrêté préfectoral d'autorisation d'exploiter délivré à la société TRIADIS Services, la poursuite de la surveillance des eaux souterraines a été prescrite.
+
+28l0l0	délivré_à_la_société	O
+28l0l1	TRIADIS_Services___la_poursuite	N
+28l0l2	surveillance_des_eaux_souterraines_a_été_prescrite	L
+
+#La surveillance est assurée au moyen d'un réseau de 7 piézomètres :
+
+29l0l0	La	R
+29l0l1	surveillance_est_assurée_au_moyen_d__un_réseau_de_7	O
+29l0l2	piézomètres	N
+
+#- à fréquence trimestrielle sur les paramètres suivants HCT, BTEX, DCO, solvants chlorés (tétrachloroéthylène (PCE), trichloroéthylène (TCE), dichloroéthylène (DCE), chlorobenzène, chlorure de vinyle, dichlorométhane, cis 1,2 - DCE) ;
+
+30l0l0	__à_fréquence_trimestrielle	A
+
+#- à fréquence annuelle pour les paramètres nitrates, nitrites, chlorures, sulfates, métaux lourds (arsenic, nickel, cadmium, chrome total, cuivre, mercure, plomb, zinc).
+
+31l1l0	nitrites___chlorures___sulfates___métaux_lourds___arsenic___nickel___cadmium___chrome_total___cuivre___mercure___plomb	S
+31l1l1	zinc	S
+31l1l2	_	S
+
+#La surveillance de 2005 à 2014 montre (cf. plan en partie B) :
+
+32l0l0	2014_montre___cf__plan_en	O
+32l1l0	plan_en_partie_B____	S
+
+#- des traces de pollution au niveau des piézomètres P12 (amont), NPz-3 et NP10 (aval en limite de site),
+
+33l0l0	__des_traces_de	N
+33l0l1	pollution_au_niveau	T
+
+#- une forte pollution par les solvants chlorés (chlorure de vinyle et chlorobenzène) pour les 4 autres piézomètres ; les valeurs fluctuent dans le temps.
+
+34l0l0	une_forte_pollution_par	O
+
+#Les résultats de 2015 montrent :
+
+35l0l0	Les_résultats_de_2015	N
+35l1l0	montrent__	U
+
+#- la présence du chlorure de vinyle et du chlorobenzène dans les mêmes piézomètres,
+
+
+#- la présence d'ammonium à de fortes concentrations en P05 et P07,
+
+37l1l0	ammonium_à_de_fortes_concentrations_en	S
+
+#- la présence ponctuelle d'arsenic fin 2015 en P05 et P07.
+
+38l0l0	ponctuelle	O
+38l1l0	ponctuelle	S

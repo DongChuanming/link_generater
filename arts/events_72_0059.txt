@@ -1,0 +1,231 @@
+
+#72.0059
+#Depuis 1998, l'entreprise CLEMABA, située sur le site du supermarché "Ecomarché", exerçait une activité de distribution de carburants.
+
+0l0l0	Depuis_1998__	T
+0l0l1	l__entreprise_CLEMABA	O
+0l0l2	située_sur_le_site_du_supermarché___Ecomarché__	L
+0l0l3	exerçait_une_activité_de_distribution_de_carburants	A
+0l1l0	CLEMABA	I
+0l1l1	carburants	U
+
+#Le site est constitué :
+
+1l0l0	Le_site	O
+
+#- de 2 pistes de distribution,
+
+
+#- d'une aire de dépotage et d'évents,
+
+3l0l0	une_aire	O
+
+#- d'un séparateur à hydrocarbures,
+
+4l1l0	hydrocarbures	S
+
+#- d'une cuve enterrée de stockage de carburants multi-compartimentée de 100m3 (50m3 GO, 20m3 SP98, 10m3 SP95 et 20m3 SCA a priori inertée),
+
+5l0l0	une_cuve_enterrée_de_stockage_de_carburants	O
+5l1l0	une_cuve_enterrée_de	D
+5l1l1	stockage_de_carburants	U
+5l1l2	GO	S
+5l1l3	SP98	S
+5l1l4	SP95	S
+5l1l5	SCA	I
+5l1l6	inertée	D
+
+#- une aire de lavage.
+
+
+#L'environnement est globalement sensible, composé d'habitation individuelles et collectives autour du site :
+
+7l0l0	L__environnement	O
+7l0l1	autour_du_site	L
+
+#- à 180 m au sud, une école,
+
+8l0l0	à_180_m_au_sud	L
+8l0l1	une_école	O
+
+#- à 200m à l'est, une maison de retraite,
+
+9l0l0	à_200_m_à_l__est	L
+9l0l1	une_maison	O
+
+#- à 300m au sud-est, un collège.
+
+10l0l0	à_300_m_au_sud_est	L
+10l0l1	un_collège	O
+
+#Au droit du site, deux nappes sont présente mais peuvent être discontinues.
+
+
+#La nappe des Marnes de ballon se situe à environ 13m de profondeur.
+
+12l0l0	La_nappe	O
+12l0l1	se_situe_à_environ_13_m_de_profondeur	L
+
+#Cette nappe n'est plus exploitée localement.
+
+13l0l0	n__est_plus_exploitée	N
+
+#Des puits de particuliers d'une profondeur de 15m au moins peuvent probablement l'atteindre dans le voisinage.
+
+14l0l0	Des_puits	O
+14l0l1	dans_le_voisinage	L
+
+#La nappe des sables cénomaniens, moins profonde, commencent à exister dans les 2 à 3 m supérieurs.
+
+
+#Le 28/07/2015, le site a cessé son activité de stockage et de distribution de carburants par liquidation judiciaire de la SA CLEMABA.
+
+16l0l0	Le_28_07_2015	T
+16l0l1	le_site	O
+16l0l2	a_cessé	N
+16l0l3	son_activité_de_stockage_et_de_distribution_de_carburants	A
+16l0l4	liquidation_judiciaire	N
+16l0l5	la_SA_CLEMABA	O
+16l1l0	carburants	U
+16l1l1	la_SA_CLEMABA	I
+
+#Suite à la cessation d'activité du 28/07/2015, la mise en sécurité du site a été effectuée par l'exploitant, comme suit :
+
+17l0l0	Suite	R
+17l0l1	à_la_cessation_d__activité	N
+17l0l2	du_28_07_2015	T
+17l0l3	__la_mise_en_sécurité	N
+17l0l4	du_site	O
+17l0l5	a_été_effectuée_par	N
+17l0l6	l__exploitant	O
+
+#- évacuation des carburants,
+
+18l0l0	évacuation_des_carburants	N
+18l1l0	carburants	U
+
+#- dégazage et enlèvement de la cuve multi-compartimentée de 100m3,
+
+19l0l0	dégazage	N
+19l0l1	enlèvement	N
+19l0l2	la_cuve	O
+19l1l0	la_cuve	D
+
+#- curage et enlèvement des équipements annexes.
+
+20l0l0	curage	N
+20l0l1	enlèvement	N
+20l0l2	des_équipements_annexes	O
+
+#La localisation des investigations sur les sols et des différents sondages sont précisés sur le plan joints (plan-cartographique-72.0059--3.png).
+
+21l0l0	La_localisation_des_investigations_sur_les_sols	O
+
+#Ces investigations réalisées en septembre 2016 ont mis en évidence :
+
+22l0l0	Ces_investigations_réalisées	N
+22l0l1	en_septembre_2016	T
+
+#- un impact modéré en hydrocarbures C10-C40 au droit du sondage S4 entre 0 et 1m de profondeur avec 1800 mg/kg-MS,
+
+23l0l0	un_impact	O
+23l0l1	au_droit_du_sondage_S4	L
+23l1l0	hydrocarbures_C10_C40	S
+
+#- le sondage S4 présente une teneur trace en xylènes avec 0,25 mg/kg-MS entre 0 et 1m,
+
+24l1l0	xylènes	S
+
+#- les autres sondages S1 et S3 et S5 et S8 ne présentent pas d'anomalie en hydrocarbures C5-C400 et BTEX (Benzene, Toluene, Ethylbenzene et Xylenes).
+
+25l1l0	hydrocarbures_C5_C400	S
+25l1l1	BTEX	S
+25l1l2	Benzene	S
+25l1l3	Toluene	S
+25l1l4	Ethylbenzene	S
+25l1l5	Xylenes	S
+
+#Le bureau d'étude préconise :
+
+
+#- le traitement en filière agréée des sols impactés en hydrocarbures identifiés au droit des pistes de distribution et la vérification de la qualité des sols sous la seconde dalle,
+
+27l0l0	le_traitement_en_filière	N
+27l0l1	sols_impactés	O
+27l0l2	hydrocarbures	O
+27l0l3	identifiés	N
+27l0l4	au_droit_des_pistes_de_distribution	L
+27l0l5	la_vérification	N
+27l1l0	hydrocarbures	S
+
+#- la prise en compte des éventuels risques sanitaires pour les travailleurs intervenant sur le site.
+
+
+#ne excavation des terres est à prévoir si d'autres terres sont impactées en hydrocarbures,
+
+29l0l0	ne_excavation_des_terres	N
+29l0l1	prévoir	O
+29l0l2	si	R
+29l0l3	d__autres_terres	O
+29l0l4	sont_impactées	N
+29l0l5	hydrocarbures	O
+29l1l0	hydrocarbures	S
+
+#- de remettre en perspective ces conclusions en cas de changement d'usage.
+
+
+#Une interprétation de l'Etat des Milieux (IEM) a été réalisée en novembre 2017.
+
+31l0l0	Milieux	O
+31l0l1	a_été_réalisée	N
+31l0l2	en_novembre_2017__	T
+
+#Les résultats d'analyses de sol montrent :
+
+
+#- un seul point de prélèvement effectué au droit du séparateur à hydrocarbures de l'air de dépotage montre une présence d'hydrocarbures (indice hydrocarbures C10-C40 : 560 mg/kg MS),
+
+33l0l0	au_droit_du_séparateur	L
+33l1l0	hydrocarbures	S
+33l1l1	hydrocarbures	S
+33l1l2	hydrocarbures	S
+
+#- des traces d'hydrocarbures aromatiques polycycliques (HAP) sont relevées en deux points, mais selon des niveaux de présences faibles,
+
+34l1l0	des_traces_d_	U
+34l1l1	hydrocarbures_aromatiques_polycycliques	S
+34l1l2	HAP	S
+
+#- aucun impact n'est constaté ailleurs.
+
+
+#Dans le prolongement des constats effectués lors du creusement et de l'extraction de la cuve enterrée, les anomalies présentent un caractère très ponctuel et des niveaux de présence de polluants limités.
+
+36l0l0	des_constats	N
+36l0l1	du_creusement	N
+36l0l2	l__extraction_de_la_cuve_enterrée	N
+36l1l0	cuve_enterrée	D
+36l1l1	polluants	U
+
+#L’Évaluation Quantitative des Risque Sanitaires (EQRS) permet de conclure, compte tenu des impacts ponctuels observés dans les sols que le site peut être réutilisé à des fins industrielles ou artisanales sans excavation ni traitement des terres.
+
+37l0l0	Évaluation_Quantitative	O
+37l0l1	le_site	O
+37l0l2	peut_être_réutilisé	N
+37l0l3	à_des_fins_industrielles	N
+37l0l4	excavation	N
+37l0l5	traitement_des_terres	N
+37l1l0	Sanitaires	S
+
+#Aucun travaux de dépollution n'ont été réalisés en 2018.
+
+38l0l0	Aucun_travaux_de_dépollution	N
+38l0l1	n__ont_été_réalisés	N
+38l0l2	en_2018__	T
+
+#En cas de changement d'usage, des investigations permettant de vérifier la compatibilité du sol avec le nouvel usage seront nécessaires.
+
+39l0l0	En_cas_de	R
+39l0l1	changement_d__usage	N
+39l0l2	des_investigations	N
+39l0l3	le_nouvel_usage	O

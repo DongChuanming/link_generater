@@ -1,0 +1,255 @@
+
+#40.0087
+#Scierie avec traitement du bois exploitée par les ETS GABRIEL BEYRIA (site Scierie), située sur la route de Garein 40110 Ygos St Saturnin (40).
+
+0l0l0	Scierie_avec_traitement_du_bois	A
+0l0l1	exploitée_par	R
+0l0l2	les_ETS_GABRIEL_BEYRIA	O
+0l0l3	Scierie	A
+0l0l4	située_sur_la_route_de_Garein	L
+0l0l5	40110_Ygos_St_Saturnin	L
+0l0l6	__40__	L
+0l1l0	Scierie	I
+0l1l1	les_ETS_GABRIEL_BEYRIA	I
+0l1l2	Saturnin	I
+
+#L'exploitant dispose également à Ygos St Saturnin d'un second établissement (site Usine), situé sur la route de Ousse (fiche BASOL 40.0086).
+
+1l0l0	L__exploitant	O
+1l0l1	à_Ygos_St_Saturnin	L
+1l0l2	un_second_établissement	O
+1l0l3	situé_sur_la_route_de_Ousse	L
+
+#Le site "Scierie" est spécialisé dans le sciage de grumes de pin maritime.
+
+2l0l0	Le_site	O
+2l0l1	Scierie__	O
+2l0l2	est_spécialisé_dans	R
+2l0l3	le_sciage_de_grumes	A
+2l0l4	de_pin_maritime	O
+
+#Tous les bois avivés sortant de la scierie alimentent le site "Usine".
+
+3l0l0	scierie	A
+
+#Une partie de ces bois fait l'objet d'un traitement anti-bleu (fongicide).
+
+4l0l0	ces_bois	O
+4l0l1	fait_l__objet_d_	R
+4l0l2	un_traitement_anti_bleu	N
+
+#Les installations sont autorisées par l'arrêté préfectoral du 19 mai 2006, lequel a annulé et remplacé l'arrêté préfectoral du 23 décembre 1991.
+
+5l0l0	Les_installations	O
+5l0l1	sont_autorisées	N
+5l0l2	par_l__arrêté_préfectoral	O
+5l0l3	du_19_mai_2006__	T
+5l0l4	a_annulé_et_remplacé	N
+5l0l5	l__arrêté_préfectoral	O
+5l0l6	du_23_décembre_1991	T
+
+#1 - DIAGNOSTIC
+
+6l0l0	DIAGNOSTIC	N
+
+#Dans le cadre de l'action collective "diagnostic des scieries avec traitement des bois" lancée en 2003 par la DRIRE, l'arrêté du 2 avril 2003 prescrit le diagnostic initial et l’Évaluation Simplifiée des Risques (ESR) du site.
+
+7l0l0	Dans_le_cadre	R
+7l0l1	diagnostic	N
+7l0l2	scieries_avec_traitement_des_bois	A
+7l0l3	en_2003	T
+7l0l4	la_DRIRE	O
+7l0l5	2_avril_2003	T
+7l0l6	prescrit	R
+7l0l7	le_diagnostic_initial	N
+7l0l8	l__Évaluation_Simplifiée_des_Risques	N
+7l1l0	la_DRIRE	I
+
+#Les études et l'évaluation simplifiée des risques (ESR) ont été remises les 26 mai 2004 et 7 juillet 2005.
+
+8l0l0	Les_études	N
+8l0l1	évaluation_simplifiée_des_risques	N
+8l0l2	ESR___ont_été_remises	N
+8l0l3	les_26_mai_2004_et_7_juillet_2005__	T
+
+#L'ESR classe le site en catégorie 2 "à surveiller" pour les milieux "eaux souterraines, autres usages que l'Alimentation en Eau Potable (AEP)" et "eaux superficielles, autres usages que AEP".
+
+9l1l0	L__ESR	I
+
+#Les résultats de la surveillance de la nappe montrent la persistance d'une situation dégradée et variable, observée depuis 2005.
+
+10l0l0	surveillance	A
+10l0l1	nappe	N
+10l0l2	une_situation_dégradée	N
+10l0l3	depuis_2005__	T
+
+#Le bilan de la surveillance mérite d'être effectué afin d'expliquer la situation.
+
+11l0l0	surveillance	A
+
+#Le diagnostic de 2005 susvisé et l'étude d'impact de l'établissement pourront au besoin être actualisés.
+
+12l0l0	Le_diagnostic_de_2005	T
+12l0l1	l__établissement	O
+
+#2 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+13l0l0	SURVEILLANCE_DES_EAUX	A
+13l0l1	SOUTERRAINES	O
+13l1l0	EAUX_SOUTERRAINES	I
+
+#Ce site est soumis à l’application de l’article 65 a) de l’arrêté ministériel du 2 février 1998 modifié relatif à la surveillance des eaux souterraines par référence à la rubrique 2415 de la nomenclature des Installations Classées pour la Protection de l'Environnement (traitement du bois).
+
+14l0l0	Ce_site	O
+14l0l1	est_soumis_à	R
+14l0l2	l_	O
+14l0l3	2_février_1998	T
+14l0l4	la_surveillance_des_eaux_souterraines	A
+14l0l5	traitement_du_bois	A
+
+#L'arrêté préfectoral du 2 avril 2003 prescrit la surveillance des eaux souterraines selon les modalités ci-après :
+
+15l0l0	L__arrêté_préfectoral	O
+15l0l1	2_avril_2003	T
+15l0l2	prescrit	N
+15l0l3	la_surveillance_des_eaux_souterraines	A
+15l0l4	les_modalités	O
+
+#- la mise en place de 3 piézomètres : PF1 (forage au Nord, près de l'installation de traitement des bois), PZ1 (piézomètre en aval du site à l'angle sud-est) et PZ2 (piézomètre à l'angle Sud-Ouest),
+
+16l0l0	la_mise_en_place	N
+16l0l1	3_piézomètres	O
+16l0l2	Nord	T
+16l0l3	près_de_l__installation_de	L
+16l0l4	traitement_des_bois	A
+16l0l5	en_aval_du_site	L
+
+#- les paramètres à analyser sont représentatifs des activités et des produits utilisés sur le site (Cypermétrine, propiconazole, IPBC et carbendazime + PCP Na utilisé dans le passé),
+
+17l1l0	Cypermétrine	S
+17l1l1	propiconazole	S
+17l1l2	IPBC	S
+17l1l3	carbendazime___PCP_Na	S
+
+#- le niveau piézométrique de la nappe est relevé à chaque campagne,
+
+18l0l0	est_relevé_à_chaque_campagne	N
+
+#- la fréquence des campagnes d'analyses est semestrielle.
+
+19l0l0	campagnes_d__analyses	N
+
+#La campagne du 7 février 2005 met en évidence la présence dans la nappe des substances actives utilisées:
+
+20l0l0	La_campagne	N
+20l0l1	du_7_février_2005	T
+20l0l2	la_présence	O
+20l0l3	la_nappe	O
+20l1l0	substances_actives_utilisées	U
+
+#- Propiconazole (150 µg/l) et de Carbendazime (3,9 µg/l) sur PF1 (forage),
+
+21l1l0	Propiconazole	S
+21l1l1	Carbendazime	S
+
+#- Propiconazole (9,4 µg/l) en PZ2 aval.
+
+22l1l0	Propiconazole___9_4	S
+
+#Ces valeurs sont supérieures à la valeur de référence "eau de consommation" (0,1 µg/l) et "eau ressource" (2 µg/l).
+
+
+#La campagne du 28 janvier 2008 montre que seul le Propiconazole est détecté :
+
+24l0l0	La_campagne_du	N
+24l0l1	28_janvier_2008	T
+24l1l0	le_Propiconazole	S
+
+#- 3,8 µg/l sur le forage,
+
+
+#- 26,4 µg/l sur le piézomètre aval PZ2.
+
+
+#On constate une amélioration notable mais aussi un  déplacement des substances vers le piézomètre aval PZ2.
+
+27l0l0	un___déplacement	N
+
+#La possibilité d'un délavage des bois traités sur parc a été envisagée.
+
+28l0l0	délavage	N
+28l0l1	bois_traités_sur_parc	O
+28l0l2	a_été_envisagée	N
+
+#Lors d'une entrevue de l'Inspection des Installations Classées avec l'exploitant le 4 mars 2008, ce dernier n'avait pas d'explication.
+
+29l0l0	Lors_d_	R
+29l0l1	une_entrevue	N
+29l0l2	l__Inspection_des_Installations_Classées	O
+29l0l3	l__exploitant	O
+29l0l4	le_4_mars_2008__	T
+
+#Il a été jugé qu'il était encore trop tôt pour en tirer une conclusion.
+
+
+#La campagne du 28 juillet 2008 confirme la situation avec 6,63 µg/l de Propiconazole en PZ1 mais des traces en PZ2 et dans le forage.
+
+31l0l0	La_campagne	N
+31l0l1	du_28_juillet_2008	T
+31l1l0	Propiconazole	S
+31l1l1	PZ1	S
+
+#La campagne d'analyse du 16 juin 2009 (basses eaux) confirme la situation par l'incidence pérenne du propiconazole sur la nappe :
+
+32l0l0	La_campagne_d__analyse	N
+32l0l1	du_16_juin_2009	T
+32l1l0	propiconazole	S
+
+#- 2,34µg/l sur le forage PF1,
+
+
+#- 5,53 µg/l sur le piézomètre aval PZ2,
+
+
+#- 0,17 µg/l sur le piézomètre aval PZ3.
+
+
+#Les hydrocarbures et les autres substances (cypermétrine, IPBC,carbendazime et PCPNa)ne sont pas détectées.
+
+36l1l0	hydrocarbures	S
+36l1l1	autres_substances	S
+36l1l2	cypermétrine	S
+36l1l3	IPBC	S
+36l1l4	carbendazime	S
+36l1l5	PCPNa_ne	S
+
+#La campagne du 26 novembre 2009 (hautes eaux) confirme la situation par l'incidence pérenne du propiconazole sur la nappe :
+
+37l0l0	La_campagne	N
+37l0l1	du_26_novembre_2009	T
+37l0l2	hautes_eaux	O
+37l0l3	l__incidence_pérenne	N
+37l1l0	propiconazole	S
+
+#- 2,76 µg/l sur le forage scierie
+
+38l0l0	scierie	A
+
+#- 8,32 µg/l sur le forage PZ1,
+
+
+#- 0,12 µg/l sur le piézomètre aval PZ2,
+
+
+#Les hydrocarbures et les autres substances (cypermétrine, IPBC,carbendazime et PCPNa)ne sont pas détectées.
+
+41l1l0	Les_hydrocarbures	S
+41l1l1	autres_substances	S
+41l1l2	cypermétrine	S
+41l1l3	IPBC	S
+41l1l4	carbendazime	S
+41l1l5	PCPNa_ne	S
+
+#Aucune explication n'est fournie par l'exploitant.
+
+42l0l0	l__exploitant	O

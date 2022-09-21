@@ -1,0 +1,122 @@
+
+#83.0024
+#Station service SHELL quai de la croisette à SAINTE-MAXIME (83)
+
+0l0l0	Station_service_SHELL	O
+0l0l1	quai_de_la_croisette_à_SAINTE_MAXIME___83__	L
+0l1l0	Station_service_SHELL	I
+0l1l1	SAINTE_MAXIME___83__	I
+
+#Cette station service est située au Sud-Ouest de la commune de SAINTE MAXIME dans le VAR.
+
+1l0l0	Cette_station_service	O
+1l0l1	est_située_au_Sud_Ouest_de_la_commune_de_SAINTE_MAXIME	O
+1l0l2	dans_le_VAR	L
+1l1l0	VAR	I
+
+#Elle est délimitée à l'Est par le quai de la croisette puis la plage et la Mer Méditerranée, au Nord, à l'Ouest et à l'Est, le site est bordé par des habitations, hotels et commerces.
+
+2l0l0	délimitée_à_l__Est_par_le_quai_de_la_croisette	L
+2l0l1	plage_et_la_Mer_Méditerranée	L
+2l0l2	au	T
+2l0l3	Nord___à_l__Ouest_et_à_l_	L
+2l0l4	Est	N
+2l0l5	le_site	O
+2l0l6	est	R
+2l0l7	bordé_par_des_habitations	L
+2l0l8	hotels	O
+2l1l0	la_Mer_Méditerranée	I
+
+#Elle comprend 5 cuves pour une capacité totale de stockage de 195 m3.
+
+
+#Un bâtiment abritant une boutique et des locaux destinés au personnel  est également présent.
+
+4l0l0	Un_bâtiment	O
+
+#Quatres îlots à volucompteurs multiples, un poste de dépotage, deux aires de lavage, un spérateur d'hydrocarbures, une zone de stockage de pneus et une autre de batteries complètent les installations du site.
+
+5l0l0	Quatres	O
+5l0l1	deux_aires_de_lavage	O
+5l1l0	hydrocarbures	S
+5l1l1	pneus	U
+
+#La nappe se situe à environ 2,5m de profondeur et est utilisée en AEP et AEA.
+
+6l0l0	La_nappe	O
+6l0l1	se_situe_à_environ_2_5	L
+6l0l2	est_utilisée	N
+
+#Un diagnostic du site a été réalisé en Mai 2005.
+
+7l0l0	Un_diagnostic_du_site_a_été_réalisé	N
+7l0l1	en_Mai_2005__	T
+
+#Il a révélé une contamination des sols en hydrocarbures et par des traces de BTEX, idem dans les eaux souterraines.
+
+8l0l0	a_révélé	N
+8l0l1	une_contamination	N
+8l0l2	hydrocarbures	O
+8l1l0	hydrocarbures	S
+8l1l1	BTEX	S
+
+#Dans le cadre du projet de cession de la station service (revente à TOTAL Raffinage Marketing), un diagnostic environnemental a été effectué.
+
+9l0l0	Dans_le_cadre	R
+9l0l1	du_projet_de_cession	N
+9l0l2	la_station_service	O
+9l0l3	revente	N
+9l0l4	TOTAL	O
+9l0l5	Raffinage_Marketing	N
+9l0l6	un_diagnostic_environnemental	N
+9l0l7	a_été_effectué	N
+9l1l0	TOTAL_Raffinage	I
+
+#Il a montré l'impact des hydrocarbures sur le site au droit de deux zones d’impacts en hydrocarbures C10-C40 au niveau des sols et un impact sur les eaux souterraines en hydrocarbures C10-C40 et en MTBE (piézomètre PzD).
+
+10l0l0	au_droit_de	R
+10l0l1	deux_zones	O
+10l0l2	un	O
+10l0l3	impact	R
+10l1l0	hydrocarbures	S
+10l1l1	hydrocarbures	S
+10l1l2	hydrocarbures_C10_C40	S
+10l1l3	MTBE	S
+
+#Le volume de terre impacté estimé est de 1085m3 soit 1953 Tonnes, le coût d'élimination est estimé à 137 k€.
+
+
+#Selon le schéma conceptuel, en l'état actuel du site et de son usage, le principal risque identifié est le risque d'impacts sur la Mer Méditerranée à faible distance et en aval immédiat du site.
+
+12l0l0	le_schéma_conceptuel	O
+12l0l1	le_principal_risque_identifié	O
+12l0l2	la_Mer_Méditerranée	L
+12l0l3	à_faible_distance_et_en_aval_immédiat_du_site	L
+12l1l0	la_Mer_Méditerranée	I
+
+#Un prélèvement en mer est recommandé afin de confirmer l’absence d'impact ainsi qu'un suivi des eaux souterraines à fréquence semestrielle.
+
+13l0l0	mer	L
+13l0l1	un_suivi_des_eaux_souterraines	A
+
+#Le prélèvement en mer a été effectué est n'a révélé aucun impact de celle ci.
+
+14l0l0	Le_prélèvement_en_mer	N
+14l0l1	a_été_effectué	N
+
+#Le site est donc compatible avec son usage.
+
+
+#La dernière campagne de mesure s'est effectué le 17/03/2010 montre une amélioration des teneurs en MTBE sur trois piézomètres et la dégradation des eaux au droit de PZD avec apparition de Benzène à des teneurs significatives, une hausse des MTBE et des hydrocarbures.
+
+16l0l0	La_dernière_campagne_de_mesure	N
+16l0l1	s__est_effectué	N
+16l0l2	le_17_03_2010	T
+16l0l3	teneurs	O
+16l0l4	MTBE	O
+16l0l5	la_dégradation_des_eaux	O
+16l1l0	MTBE	S
+16l1l1	PZD	I
+16l1l2	Benzène	S
+16l1l3	MTBE	S
+16l1l4	hydrocarbures	S

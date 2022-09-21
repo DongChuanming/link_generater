@@ -1,0 +1,289 @@
+
+#74.0106
+#La commune de Lullin a exploité sans autorisation, de 1982 à 2001, une décharge d'ordures ménagères au lieu-dit "La Siaux".
+
+0l0l0	La_commune	O
+0l0l1	de_Lullin	L
+0l0l2	a_exploité_sans_autorisation	N
+0l0l3	de_1982_à_2001__	T
+0l0l4	une_décharge	O
+0l0l5	au_lieu__	R
+0l0l6	dit___La_Siaux	L
+
+#L'arrêté préfectoral du 6 août 2001 prescrit l'arrêt de l'exploitation de la décharge.
+
+1l0l0	L__arrêté_préfectoral	O
+1l0l1	6_août_2001	T
+1l0l2	prescrit	R
+1l0l3	l__arrêt_de_l__exploitation	N
+1l0l4	la_décharge	O
+
+#Une barrière interdit l'accès routier à la plate-forme.
+
+
+#Celle-ci n'est pas clôturée, mais des éléments naturels en limite l'accès :
+
+
+#- le torrent de la Follaz à l'ouest ;
+
+4l0l0	le_torrent_de_la_Follaz_à_l__ouest	L
+
+#- un bois à l'est.
+
+5l0l0	bois_à_l__est	L
+
+#2 phases d'exploitation peuvent être distinguées :
+
+
+#- de 1982 à 1985 : les déchets ménagers déposés sur le site proviennent de la commune de Lullin ;
+
+7l0l0	de_1982_à_1985	T
+7l0l1	de_la_commune_de_Lullin	L
+7l1l0	les_déchets_ménagers	U
+
+#- de 1985 à 2001 : seuls les déchets inertes, les déchets verts et les encombrants sont admis sur le site.
+
+8l0l0	de_1985_à_2001	T
+8l1l0	les_déchets_inertes	U
+8l1l1	les_déchets_verts	U
+
+#La décharge n'était pas surveillée pendant son existence.
+
+9l0l0	pendant_son_existence	T
+
+#Les investigations réalisées sur le site en 2005 ont confirmé la présence de déchets divers tels que des ferrailles, des plastiques, du verre, des matériaux de démolition, du bois et des pneus.
+
+10l0l0	Les_investigations_réalisées	N
+10l0l1	sur_le_site	L
+10l0l2	en_2005	T
+10l0l3	la_présence	O
+10l1l0	plastiques	S
+10l1l1	verre	S
+
+#Aucun déchet d'origine industrielle n'a été découvert.
+
+
+#Les données topographiques du site permettent d'évaluer le volume des déchets à environ 2 900 m3.
+
+12l0l0	Les_données_topographiques	N
+
+#Ils ont été déposés en mélange avec du remblai, sur des sols constitués d'argiles légèrement sableuses, et compactés sommairement avec un engin municipal.
+
+13l0l0	remblai	N
+13l0l1	compactés_sommairement	N
+13l0l2	avec_un_engin_municipal	O
+
+#Les deux piézomètres implantés sur le site ont mis en évidence la présence d'eaux souterraines à des profondeurs variant de 1,65 à 2,4 mètres.
+
+
+#Le POS de la commune de Lullin inscrit le secteur de la décharge en zone ND : zone naturelle à préserver.
+
+15l0l0	Le_POS	O
+15l0l1	la_commune	O
+15l0l2	de_Lullin	L
+15l0l3	inscrit	R
+15l0l4	le_secteur_de_la_décharge	O
+15l0l5	en	R
+15l0l6	zone_ND	O
+
+#Au Nord de la décharge, le figuré indique : "mouvement de faible amplitude et zone mouilleuse – zone bleue", vis-à-vis de risques potentiels de glissement de terrain.
+
+16l0l0	Au_Nord_de_la_décharge	L
+16l0l1	mouvement	N
+16l0l2	glissement_de_terrain	N
+
+#L'arrêté préfectoral du 6 août 2001 prescrit à la commune de Lullin :
+
+17l0l0	L__arrêté_préfectoral	O
+17l0l1	6_août_2001	T
+17l0l2	prescrit	N
+17l0l3	à_la_commune_de_Lullin	L
+
+#- l'arrêt de l'exploitation de la décharge ;
+
+18l0l0	l__arrêt_de_l__exploitation	N
+18l0l1	la_décharge	O
+
+#- la réalisation d'une étude diagnostic proposant des travaux de réaménagement.
+
+19l0l0	la_réalisation_d__une_étude_diagnostic	N
+19l0l1	proposant_des_travaux_de_réaménagement	N
+
+#Le diagnostic environnement du site a été transmis par courrier du 21 octobre 2005 à l'inspection de l'environnement.
+
+20l0l0	Le_diagnostic_environnement	N
+20l0l1	site	O
+20l0l2	a_été_transmis	N
+20l0l3	21_octobre_2005	T
+20l0l4	l__environnement	O
+
+#Le prélèvement réalisé sur les eaux souterraines le 31 mai 2005 met en évidence une altération modérée de ce milieu caractérisé par une concentration en aluminium de 380 µg/L, en fer de 200 µg/L, en DCO de 24 mg/L et en DBO5 de 6,9 mg/L.
+
+21l0l0	Le_prélèvement_réalisé	N
+21l0l1	sur	R
+21l0l2	les_eaux_souterraines	O
+21l0l3	le_31_mai_2005	T
+21l0l4	une_altération_modérée	N
+21l0l5	ce_milieu	O
+21l1l0	aluminium	S
+21l1l1	fer	S
+21l1l2	DCO	S
+21l1l3	DBO5	S
+
+#En revanche, suite à deux prélèvements en amont et en aval, aucun impact lié à la décharge n'a pu être détecté sur les eaux du torrent de la Follaz.
+
+22l0l0	aucun_impact	O
+22l0l1	eaux_du	R
+22l0l2	torrent_de_la_Follaz	L
+
+#Le diagnostic environnement a également mis en évidence, au droit de la partie aval de la décharge, une largeur mineur du cours d'eau insuffisante pour absorber un débit de crue décennale et des pentes susceptibles d'être à l'origine d'instabilité du massif de déchets.
+
+23l0l0	Le_diagnostic_environnement	N
+23l0l1	au_droit_de_la_partie_aval_de_la_décharge	L
+
+#La visite d'inspection du 12 mars 2007 a permis de constater que l'exploitation de la décharge a bien cessé.
+
+24l0l0	La_visite_d__inspection	N
+24l0l1	du_12_mars_2007	T
+24l0l2	l__exploitation	N
+24l0l3	la_décharge	O
+24l0l4	a_bien_cessé	N
+
+#Suite à cette visite, l'inspecteur de l'environnement demande à la commune de Lullin, dans son rapport du 26 avril 2007, d'enlever les déchets visibles en bordure du torrent et de veiller au respect de la fermeture du dispositif interdisant l'accès au site.
+
+25l0l0	Suite_à	R
+25l0l1	cette_visite	N
+25l0l2	la_commune	O
+25l0l3	de_Lullin	L
+25l0l4	26_avril_2007__	T
+25l0l5	d__enlever	N
+25l0l6	en_bordure_du_torrent	L
+25l0l7	la_fermeture_du_dispositif	O
+25l1l0	les_déchets	U
+
+#L'arrêté préfectoral du 22 mai 2007 impose à la commune de Lullin la réhabilitation de la décharge conformément aux dispositions proposées dans l'avant-projet daté de mars 2007, établi par le CABINET UGUET.
+
+26l0l0	L__arrêté_préfectoral	O
+26l0l1	du_22_mai_2007	T
+26l0l2	impose	N
+26l0l3	la_commune	O
+26l0l4	de_Lullin	L
+26l0l5	la_réhabilitation	N
+26l0l6	la_décharge	O
+26l0l7	de_mars_2007__	T
+26l0l8	établi	N
+26l0l9	le_CABINET_UGUET	O
+26l1l0	le_CABINET_UGUET	I
+
+#Elle consiste notamment dans :
+
+
+#- le reprofilage des déchets et leur couverture par une couche argileuse d'imperméabilisation d'une épaisseur d'un mètre ;
+
+28l0l0	le_reprofilage	N
+28l0l1	des_déchets	O
+28l0l2	couverture	A
+28l0l3	imperméabilisation	N
+
+#- la mise en place d'une couche de finition de 0,30 mètre de déblais terreux surmontés d'une épaisseur de 0,20 mètre de terre végétale qui sera ensemencée par des espèces herbacées ;
+
+29l0l0	la_mise_en_place	N
+29l0l1	d_	R
+29l0l2	une_couche_de_finition	O
+29l0l3	ensemencée	N
+29l0l4	des_espèces_herbacées	O
+
+#- l'augmentation de deux mètres de la section du lit mineur du torrent en amont immédiat du pont permettant l'accès au site ;
+
+30l0l0	l__augmentation	N
+30l0l1	deux_mètres	O
+30l0l2	la	O
+30l0l3	en_amont_immédiat_du_pont_permettant_l__accès_au_site	L
+
+#- le confortement des berges sur la totalité de la longueur de la décharge par l'aménagement de matelas gabions ;
+
+31l0l0	le_confortement	N
+31l0l1	des_berges	O
+31l0l2	l__aménagement_de_matelas_gabions	N
+
+#- le débroussaillage et le reprofilage du bief situé en limite est du site afin qu'il puisse garantir l'écoulement des eaux de ruissellement provenant des terrains extérieurs à la décharge ;
+
+32l0l0	le_débroussaillage	N
+32l0l1	le_reprofilage	N
+32l0l2	du_bief	O
+32l0l3	situé_en_limite_est_du_site	L
+32l0l4	terrains_extérieurs_à_la_décharge	L
+
+#- la création d'un busage permettant aux eaux collectées par le bief de se rejeter dans le torrent de la Follaz, à l'aval du site.
+
+33l0l0	la_création_d_	N
+33l0l1	un_busage	O
+33l0l2	permettant	R
+33l0l3	le_bief	O
+33l0l4	dans_le_torrent_de_la_Follaz	L
+33l0l5	à_l__aval_du_site	L
+
+#L'arrêté suscité impose également à la commune de Lullin un suivi post-réhabilitation de la décharge qui comprend notamment :
+
+34l0l0	la_commune	O
+34l0l1	de_Lullin	L
+34l0l2	un_suivi_post_réhabilitation	N
+34l0l3	la_décharge	O
+
+#- la surveillance semestrielle de la qualité des eaux souterraines sur 3 piézomètres sur les paramètres suivants : conductivité, pH, DCO, DBO5, HCT, phosphore total, NH4, aluminium, fer, chlorures et sulfates ;
+
+35l0l0	la_surveillance_semestrielle	A
+35l0l1	la_qualité	O
+35l0l2	des_eaux_souterraines	A
+35l1l0	pH	S
+35l1l1	DCO	S
+35l1l2	DBO5	S
+35l1l3	HCT	S
+35l1l4	phosphore_total	S
+35l1l5	NH4___aluminium	S
+35l1l6	fer	S
+35l1l7	chlorures	S
+35l1l8	sulfates	S
+
+#- l'entretien du site.
+
+36l0l0	entretien	R
+36l0l1	du_site	O
+
+#Enfin, l'arrêté suscité impose à la commune de Lullin le dépôt d'un dossier de servitudes d'utilité publique afin d'exclure :
+
+37l0l0	impose	N
+37l0l1	la_commune	O
+37l0l2	de_Lullin	L
+37l0l3	le_dépôt_d__un_dossier	N
+37l0l4	de_servitudes_d__utilité_publique	O
+
+#- toute construction de bâtiment quelle que soit sa destination ;
+
+
+#- toute utilisation du sol susceptible de porter atteinte à l'efficacité des travaux réalisés et notamment celles nécessitant des mouvements de terrains de types affouillements ou des retraits de matériaux, même très limités en emprise ou en quantité ;
+
+39l0l0	mouvements_de_terrains	N
+39l0l1	affouillements	N
+39l0l2	retraits	N
+
+#- toute culture de végétaux à des fins de consommation humain ou animale ;
+
+40l0l0	toute_culture_de_végétaux	N
+
+#- toute plantation d'essences végétales à racines profondes.
+
+41l0l0	toute_plantation	N
+
+#Dans un compte-rendu de l'état d'avancement des travaux, il est mentionné que la commune de Lullin a réalisé une partie des travaux de réhabilitation durant l'automne 2007 et que l'ensemble des travaux devraient être terminés pour l'automne 2008.
+
+42l0l0	un_compte_rendu	N
+42l0l1	l__état_d__avancement	O
+42l0l2	des_travaux	N
+42l0l3	la_commune_de_Lullin	L
+42l0l4	a_réalisé	N
+42l0l5	une_partie_des_travaux_de_réhabilitation	O
+42l0l6	durant_l__automne_2007	T
+42l0l7	l_	O
+42l0l8	ensemble_des_travaux_devraient_être_terminés	N
+42l0l9	pour_l__automne_2008__	T

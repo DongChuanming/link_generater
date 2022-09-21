@@ -1,0 +1,165 @@
+
+#27.0065
+#La société NOVELIS est spécialisée dans le laminage de feuilles minces en aluminium.
+
+0l0l0	La_société_NOVELIS	O
+0l0l1	est_spécialisée_dans	R
+0l0l2	le_laminage_de_feuilles_minces_en_aluminium	A
+0l1l0	La_société_NOVELIS	I
+
+#Cette activité consiste à produire des bandes enroulées en bobines de 5 à 200 microns d'épaisseur destinées au marché de l'emballage alimentaire (produits laitiers, confiserie, aluminium à usage ménager, barquettes, etc …) et à des applications industrielles, dont les échangeurs thermiques pour l'automobile, la climatisation et le câbleur pour blindage des conducteurs électriques.
+
+1l0l0	au_marché_de_l__emballage_alimentaire	A
+1l0l1	confiserie	A
+1l0l2	des_applications_industrielles___dont	A
+1l0l3	les_échangeurs_thermiques_pour	O
+1l0l4	câbleur_pour	O
+
+#Les installations principales du site sont constituées de fours de recuit, de laminoirs à froid, de lignes de parachèvement et de rectifieuses, d'une fonderie d'aluminium et alliages, d'un stockage d'huile de laminage, de sources radioactives scellées, d'installations de combustion, d'installations de compression et réfrigération, de stockage et de distribution de liquides inflammables.
+
+2l0l0	Les_installations_principales	O
+2l0l1	fours_de_recuit	A
+2l0l2	laminoirs_à_froid	A
+2l0l3	parachèvement	O
+2l0l4	rectifieuses	A
+2l0l5	fonderie_d__aluminium	A
+2l0l6	alliages	A
+2l0l7	laminage	A
+2l0l8	sources_radioactives_scellées	O
+2l0l9	réfrigération	A
+2l0l10	stockage_et_de_distribution_de_liquides_inflammables	A
+2l1l0	liquides_inflammables	U
+
+#La capacité de production de feuilles minces actuelle autorisée est de 50 000 tonnes par an.
+
+3l0l0	La_capacité_de_production_de_feuilles_minces	A
+
+#La société est implantée sur un site dont la superficie est d'environ 12,9 ha.
+
+4l0l0	La_société	O
+4l0l1	est_implantée_sur	N
+4l0l2	un_site	L
+
+#L’usine est située sur la commune de RUGLES au lieu dit "Le moulin à papier ", à 2 km au sud de l'agglomération, dans le département de l’EURE (27).
+
+5l0l0	L__usine	O
+5l0l1	est_située_sur_la_commune_de_RUGLES	L
+5l0l2	au_lieu_dit___Le_moulin	L
+5l0l3	à_papier__	A
+5l0l4	__à_2_km_au_sud_de_l__agglomération	L
+5l0l5	dans_le_département_de_l__EURE___27	L
+5l1l0	RUGLES	I
+5l1l1	EURE___27	I
+
+#Les eaux superficielles dans les environs du site sont la rivière « la Risle » en bordure Nord du site, des étangs de pêche à environ 600 m au Nord et au Sud-Ouest du site et les ruisseaux « le Robillard » et « le Cauche » situés à 1km et 1,5 km du site.
+
+6l0l0	Les_eaux	O
+6l0l1	la_rivière_____la_Risle	L
+6l0l2	____en_bordure_Nord_du_site	L
+6l0l3	__des_étangs_de_pêche	O
+6l0l4	à_environ_600_m_au_Nord_et_au_Sud_Ouest_du_site	L
+6l0l5	Cauche_____situés_à_1_km_et_1_5_km	L
+
+#La nappe est située entre 28 m de profondeur en amont du site et 2 m de profondeur en aval du site.
+
+7l0l0	située_entre_28_m_de_profondeur_en_amont_du_site	L
+7l0l1	2	O
+7l0l2	en_aval_du_site	L
+
+#Depuis 2012, le site n'appartient plus au groupe NOVELIS mais à un groupe d'investisseurs américain AIAC.
+
+8l0l0	Depuis_2012__	T
+8l0l1	le_site	O
+8l0l2	n__appartient_plus	N
+8l0l3	NOVELIS	O
+8l0l4	un	O
+8l1l0	groupe_NOVELIS	I
+8l1l1	américain_AIAC	I
+
+#Le site est en plan de continuation depuis avril 2016 ; les activités de laminage ont été réduites, tandis que les 2 fours de fonderie fonctionnement en continu.
+
+9l0l0	Le_site	O
+9l0l1	est_en_plan_de_continuation	N
+9l0l2	depuis_avril_2016	T
+9l0l3	les_activités_de_laminage	A
+9l0l4	ont_été_réduites	N
+9l0l5	les_2_fours_de_fonderie	O
+
+#En 2004, une étude simplifié des risques (ESR) a été réalisée, suivie en 2006 d'une étude de sol, afin de déterminer les concentrations en métaux (probablement présents) dans les sols.
+
+10l0l0	En_2004__	T
+10l0l1	une_étude_simplifié_des_risques	N
+10l0l2	a_été_réalisée	N
+10l0l3	en_2006	T
+10l0l4	d_	R
+10l0l5	une_étude_de_sol	N
+10l0l6	métaux	O
+10l1l0	métaux	S
+
+#Ces diagnostics ont mis en évidence une contamination des sols aux hydrocarbures et aux COV.
+
+11l0l0	Ces_diagnostics	N
+11l0l1	une_contamination	N
+11l0l2	hydrocarbures	O
+11l1l0	hydrocarbures	S
+11l1l1	COV	S
+
+#De plus, les différentes études et suivis de la qualité des eaux souterraines montrent une contamination de la nappe aux hydrocarbures.
+
+12l0l0	suivis_de_la_qualité_des_eaux_souterraines	A
+12l0l1	une_contamination	N
+12l0l2	hydrocarbures	O
+12l1l0	hydrocarbures	S
+
+#A la suite de ces découvertes, la mise en place d'une surveillance des eaux souterraines, l'établissement d'un plan de gestion de la pollution et la réalisation de travaux de dépollution ont été imposés à l'exploitant par l'arrêté préfectoral du 22/02/2008.
+
+13l0l0	A_la_suite_de	R
+13l0l1	ces_découvertes	N
+13l0l2	la_mise_en_place_d__une	N
+13l0l3	surveillance_des_eaux_souterraines	A
+13l0l4	l__établissement	N
+13l0l5	d_	R
+13l0l6	un_plan_de	O
+13l0l7	gestion_de_la_pollution	N
+13l0l8	la_réalisation_de_travaux_de_dépollution	N
+13l0l9	ont_été_imposés	N
+13l0l10	l__exploitant	O
+13l0l11	l__arrêté_préfectoral	O
+13l0l12	du_22_02_2008__	T
+
+#Dans ce cadre, des travaux de mise en confinement hydraulique du site par rabattement de nappe ont été réalisés en juillet 2008 et un plan de gestion a été remis à l'inspection des installations classées en juin 2009.
+
+14l0l0	des_travaux_de_mise_en_confinement	N
+14l0l1	site	O
+14l0l2	rabattement_de_nappe	N
+14l0l3	ont_été_réalisés	N
+14l0l4	en_juillet_2008	T
+14l0l5	un_plan_de_gestion	O
+14l0l6	a_été_remis	N
+14l0l7	l__inspection_des_installations_classées	O
+14l0l8	en_juin_2009__	T
+
+#Depuis 2006, une installation SERPOL de pompage de la lentille de pollution est installée sur le site, avec 3 pompes et plusieurs piézomètres de surveillance autour (dont certains chez le voisin AREVA).
+
+15l0l0	Depuis_2006__	T
+15l0l1	une_installation_SERPOL	O
+15l0l2	la_lentille_de_pollution	O
+15l0l3	est_installée	N
+15l0l4	AREVA	O
+15l1l0	SERPOL	I
+15l1l1	AREVA	I
+
+#L'arrêté préfectoral complémentaire du 19 janvier 2015 encadre ce traitement.
+
+16l0l0	L__arrêté_préfectoral_complémentaire	O
+16l0l1	19_janvier_2015	T
+16l0l2	encadre_ce_traitement	N
+
+#98,02 m3 de flottant hydrocarburé ont été pompé depuis la découverte de la pollution en 2006.
+
+17l0l0	98_02_m3_de_flottant_hydrocarburé	O
+17l0l1	ont_été_pompé	N
+17l0l2	depuis	T
+17l0l3	la_découverte_de_la_pollution	N
+17l0l4	en_2006__	T
+17l1l0	flottant_hydrocarburé	U

@@ -1,0 +1,161 @@
+
+#56.0021
+#Le site était occupé dès les années 1970 par une activité de laboratoire photographique, exploitée successivement par plusieurs entreprises.
+
+0l0l0	1970	O
+0l0l1	par_une_activité	N
+0l0l2	de_laboratoire	O
+0l0l3	photographique	N
+0l0l4	exploitée_successivement	O
+0l0l5	plusieurs_entreprises__	L
+
+#La société KODAK s'est installée sur le site en 2001.
+
+1l0l0	La_société	O
+1l0l1	KODAK_s_	N
+1l0l2	est_installée_sur_le	T
+1l0l3	site_en_2001__	A
+
+#Elle a été autorisée à exploiter un laboratoire photographique par arrêté préfectoral du 18 août 2004.
+
+2l0l0	Elle_a_été_autorisée	O
+2l0l1	à_exploiter_un_laboratoire_photographique_par_arrêté_préfectoral_du_18_août_2004__	T
+2l1l0	Elle_a_été_autorisée	I
+
+#Les activités ont cessé définitivement en novembre 2004.
+
+3l0l0	Les	O
+3l0l1	activités_ont_cessé_définitivement	N
+3l0l2	en_novembre_2004__	O
+
+#La notification de cessation a été effectuée en octobre 2004 et complétée en janvier 2005.
+
+4l0l0	La_notification	O
+4l0l1	de_cessation_a_été_effectuée	N
+4l0l2	en_octobre_2004_et_complétée_en_janvier_2005__	T
+
+#Dans le cadre de la cessation d'activité, un diagnostic environnemental a été réalisée en septembre 2004 :
+
+5l0l0	Dans_le_cadre_de_la_cessation_d__activité___un	N
+5l0l1	diagnostic_environnemental	N
+5l0l2	a_été_réalisée_en_septembre_2004__	T
+
+#- pour les sols :
+
+6l0l0	__pour_les_sols__	R
+
+#* aucune concentration supérieure à la Valeur de Constat d'Impact usage sensible pour les métaux et les hydrocarbures totaux ;
+
+
+#- l'arsenic a été détecté localement à des teneurs supérieures à la Valeur de Définition de Source Sol.
+
+8l1l0	Définition_de_Source	S
+
+#Ces concentrations sont fort probablement associées au bruit de fond local en arsenic.
+
+9l0l0	Ces_concentrations	O
+9l0l1	sont	N
+9l1l0	concentrations	S
+
+#* absence de BTEX (benzène, toluène, éthylbenzène, xylène) et de composés chlorés ;
+
+10l0l0	chlorés__	O
+10l1l0	chlorés__	S
+
+#* 3 composés ont toutefois été retrouvés à l'état de traces : dichlorométhane, éthylbenzène, styrène.
+
+11l1l0	ont_toutefois_été_retrouvés_à_l__état_de_traces___dichlorométhane___éthylbenzène	U
+
+#- pour les eaux souterraines :
+
+12l1l0	pour_les_eaux	S
+
+#* absence de métaux et d'hydrocarbures totaux ;
+
+
+#* présence de nickel et de plomb à des concentrations supérieures à la VCI usage non sensible.
+
+14l1l0	__présence_de_nickel	S
+14l1l1	de_plomb_à_des_concentrations	S
+
+#Deux sources de pollution des sols ont été identifiées :
+
+15l1l0	de_pollution_des_sols	S
+
+#- une source de pollution par l'arsenic,
+
+16l0l0	__une_source_de_pollution_par_l__arsenic	O
+16l0l1	_	N
+
+#- une source de pollution par le nickel et le plomb.
+
+17l0l0	le_nickel_et	O
+17l1l0	nickel_et	S
+
+#Sur la base de ce constat, une étude simplifiée des risques a été réalisée.
+
+18l1l0	étude_simplifiée_des	S
+
+#L'ESR classe le site en classe 2 : "site nécessitant la mise en place d'un dispositif de surveillance".
+
+19l0l0	classe_2_____site_nécessitant_la_mise	N
+19l0l1	en_place_d__un_dispositif	N
+
+#L'arrêté préfectoral du 29 septembre 2005 prescrit la surveillance des eaux souterraines à fréquence semestrielle sur les paramètres arsenic, nickel et plomb, pour une durée minimale de deux ans.
+
+20l0l0	préfectoral	O
+20l0l1	prescrit_la_surveillance	N
+20l1l0	L__arrêté	I
+
+#La surveillance a été poursuivie jusqu'en juin 2008.
+
+21l0l0	La_surveillance_a_été	O
+21l0l1	poursuivie_jusqu__en	T
+21l0l2	juin_2008	N
+21l0l3	_	A
+
+#Le bilan des 5 années de surveillance montre une baisse générale sur les trois piézomètres (voire absence des paramètres contrôlés).
+
+22l0l0	Le_bilan_des_5_années	O
+22l0l1	de_surveillance	N
+22l0l2	montre_une_baisse_générale_sur_les_trois_piézomètres___voire_absence_des_paramètres_contrôlés____	T
+
+#Toutefois, un seul piézomètre présente des teneurs supérieures aux seuils de qualité pour les eaux potables (à noter qu'il n'y a pas de captage d'eau en aval proche).
+
+23l0l0	un_seul_piézomètre_présente	A
+
+#L'EDTA et les bromures sont présents à des concentrations importantes dans le piézomètre aval.
+
+24l0l0	des_concentrations	O
+
+#Le formaldéhyde est également présent dans le piézomètre Pz1.
+
+25l0l0	Le_formaldéhyde	O
+25l1l0	Le_formaldéhyde_est_également	S
+
+#Suite à une réunion du 7 juillet 2009, l'inspection a demandé à l'exploitant de compléter l'étude historique, voire de compléter les investigations sur les sols et les eaux souterraines.
+
+26l1l0	Suite_à_une_réunion	S
+
+#Une nouvelle campagne d'analyse des eaux souterraines a été réalisée en 2010 et a montré une baisse des concentrations en métaux (Ni, Pb et As), en nitrites, sulfates, bromures et EDTA (dont la concentration reste toutefois assez  élevée).
+
+27l0l0	Une	R
+27l0l1	nouvelle_campagne	N
+27l0l2	d__analyse_des	T
+27l0l3	eaux_souterraines	O
+27l0l4	a_été	N
+27l0l5	réalisée_en_2010	O
+27l0l6	et_a_montré	N
+27l0l7	une_baisse_des_concentrations	O
+27l0l8	en_métaux___Ni___Pb_et_As_____en_nitrites	N
+27l0l9	__sulfates___bromures_et_EDTA___dont	O
+
+#La campagne réalisée en juillet 2017 montre un impact de l'ancienne activité en aval du site pour les paramètres arsenic, nickel, plomb et EDTA.
+
+28l0l0	La_campagne_réalisée_en_juillet_2017	N
+28l0l1	montre_un_impact_de	O
+28l0l2	l__ancienne	N
+28l0l3	activité	T
+28l1l0	nickel	S
+28l1l1	plomb	S
+28l1l2	EDTA	S

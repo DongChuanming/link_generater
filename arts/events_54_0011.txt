@@ -1,0 +1,234 @@
+
+#54.0011
+#Ce site d'une superficie de 30 ha a accueilli des activités sidérurgiques dont une cokerie.
+
+0l0l0	Ce_site	O
+0l0l1	a_accueilli	N
+0l0l2	des_activités_sidérurgiques	A
+0l0l3	cokerie	A
+
+#Les analyses ont montré que le site était pollué par du plomb, zinc, HPA, cyanures et goudrons.
+
+1l0l0	le_site	O
+1l0l1	était_pollué	O
+1l1l0	plomb	S
+1l1l1	zinc	S
+1l1l2	HPA	S
+1l1l3	cyanures	S
+
+#Aménagement de la zone industrielle dite Pole Européen de Développement des 3 frontières : 2 confinements de terres polluées ont été réalisés ("confinement ouest" et "confinement cokerie" - voir également fiche BASOL confinement ouest)
+
+2l0l0	Aménagement_de	N
+2l0l1	la_zone_industrielle_dite_Pole	O
+2l0l2	Européen_de_Développement	O
+2l0l3	3_frontières	O
+2l0l4	2_confinements_de_terres_polluées	O
+2l0l5	ont_été_réalisés	N
+2l0l6	ouest__	L
+2l0l7	confinement	N
+2l1l0	Pole_Européen	I
+2l1l1	BASOL	I
+
+#Aménagement de la zone industrielle dite Pole Européen de Développement des 3 frontières.
+
+3l0l0	Aménagement	R
+3l0l1	la_zone_industrielle_dite_Pole	O
+3l0l2	Européen_de_Développement	O
+3l0l3	3_frontières	O
+
+#2 confinements de terres polluées ont été réalisés,(confinement Ouest et confinement cokerie)
+
+4l0l0	2_confinements_de_terres_polluées	O
+4l0l1	ont_été_réalisés_confinement	N
+4l0l2	Ouest	L
+
+#Ces confinements étaient  équipés d'un dispositif permettant la récupération et le traitement éventuel des eaux.
+
+5l0l0	Ces_confinements	O
+5l0l1	et_le_traitement_éventuel_des_eaux	O
+
+#Suite à une panne de la pompe de relevage des eaux collectées du confinement cokerie fin 2001, le niveau d'eau est monté à l'intérieur du confinement.
+
+6l0l0	Suite_à_une	R
+6l0l1	panne	N
+6l0l2	la_pompe_de_relevage_des_eaux_collectées	O
+6l0l3	confinement_cokerie	O
+6l0l4	fin_2001__	T
+6l0l5	le_niveau_d__eau	O
+6l0l6	est_monté	N
+
+#Ce qui se traduit par une augmentation des teneurs en cyanures et phénols des eaux de lixiviation.
+
+7l0l0	une_augmentation	N
+7l0l1	lixiviation	N
+7l1l0	cyanures	S
+7l1l1	phénols	S
+
+#Lors de l'inspection du 16 février 2006, il est constaté des dégradations sur les piézomètres PW3 et PZ4 (absence de cadenas + bouchés) et sur la pompe de relevage des eaux de l'alvéole n°1.
+
+8l0l0	Lors	T
+8l0l1	de_l__inspection	N
+8l0l2	du_16_février_2006__	T
+8l0l3	des_dégradations	O
+8l0l4	la_pompe_de_relevage_des_eaux	O
+
+#Il est demandé par l'inspection des installations classées de mettre en place au plus vite des modifications pour assurer la surveillance semestrielle.
+
+9l0l0	l__inspection_des_installations_classées	O
+9l0l1	mettre_en_place_au	N
+9l0l2	plus_vite	T
+9l0l3	des_modifications	O
+9l0l4	la_surveillance_semestrielle	A
+
+#A la date du 3 avril 2006, l'évolution actuelle due aux dégradations récentes et le devenir des eaux de percolation sont préoccupants.
+
+10l0l0	A_la_date_du_3_avril_2006__	T
+10l0l1	le_devenir_des_eaux_de_percolation	O
+
+#L'arrêté préfectoral du 22 septembre 2006 prescrit :
+
+11l0l0	L__arrêté_préfectoral	O
+11l0l1	du_22_septembre_2006	T
+11l0l2	prescrit	N
+
+#- la réalisation d'une étude sur l'état des terres confinées (avec caractérisation physico chimique en subsurface et profondeur) ainsi qu'un test de lixiviation,
+
+12l0l0	la_réalisation	N
+12l0l1	terres_confinées	O
+12l0l2	un_test_de_lixiviation	N
+
+#- la réalisation d'un relevé topographique du fond des merlons périphériques des 3 alvéoles, un plan de positionnement des points d'accès à l'intérieur des alvéoles, la prévision de l'évolution du volume d'eau stagnante par rapport à la cote de débordement des alvéoles et la mise en place d'une surveillance des eaux à l'intérieure des alvéoles,
+
+13l0l0	la_réalisation_d_	R
+13l0l1	un_relevé_topographique	N
+13l0l2	fond	O
+13l0l3	la_prévision	A
+13l0l4	la_mise_en_place_d_	N
+13l0l5	une_surveillance_des_eaux	O
+
+#- la réalisation d'un plan de réaménagement permettant de limiter les infiltrations d'eaux pluviales, de les gérer et d'éviter tout contact avec les terres confinées,
+
+14l0l0	la_réalisation_d_	R
+14l0l1	un_plan_de_réaménagement	N
+14l0l2	terres_confinées	O
+
+#- le suivi trimestriel des eaux et traitements éventuels.
+
+15l0l0	le_suivi_trimestriel	A
+15l0l1	eaux	O
+
+#Par courrier du 24 janvier 2007, il est rapporté que les eaux du confinement atteignent le niveau du trop plein et se déversent dans la canalisation qui était l'exutoire des eaux de la pompe de relevage.
+
+16l0l0	24_janvier_2007__	T
+16l0l1	les_eaux	O
+16l0l2	déversent_dans	N
+16l0l3	la_canalisation	O
+16l0l4	l__exutoire_des_eaux	A
+
+#Cependant, les dernières analyses montrent que l'état hydraulique ne semble pas présenter de risque particulier (teneur en cyanures faibles au regard des objectifs qualité de la Chiers).
+
+17l0l0	Chiers	L
+17l1l0	cyanures	S
+
+#Un pompage ponctuel des eaux sera cependant réalisé par AREF pour garantir le non impact des eaux sur la Chiers.
+
+18l0l0	Un_pompage_ponctuel	N
+18l0l1	eaux	O
+18l0l2	sera_cependant_réalisé	N
+18l0l3	AREF	O
+18l0l4	Chiers	L
+18l1l0	AREF	I
+
+#Par courrier du 17 septembre 2007, il est demandé à l'exploitant de fournir un dossier précisant les détails techniques de l'opération qu'il est envisagé de réaliser compte tenu des dépassements de seuils de déclaration pour les AOX et l'azote (le rejet doit faire l'objet d'un AP le réglementant).
+
+19l0l0	17_septembre_2007__	T
+19l0l1	déclaration	N
+19l1l0	les_AOX	S
+19l1l1	azote	S
+
+#Au niveau du confinement cokerie, on observe lors des analyses de décembre 2007 portant sur les eaux au droit du piézomètre de contrôle :
+
+20l0l0	confinement_cokerie	O
+20l0l1	des_analyses	N
+20l0l2	de_décembre_2007	T
+
+#- la non détection d'hydrocarbures et des composés phénoliques comme depuis 2004 sur ce point,
+
+21l0l0	depuis_2004	T
+21l1l0	hydrocarbures	S
+21l1l1	composés_phénoliques	U
+
+#- une DCO qui reste inférieure au seuil de qualité et qui fluctue de façon saisonnière,
+
+
+#- la présence de cyanures totaux avec une teneur qui reste inférieure au seuil de qualité,
+
+23l1l0	cyanures_totaux	S
+
+#- la détection d'ammonium à une teneur supérieure au seuil de qualité, cohérente avec les teneurs observées en 2006.
+
+24l0l0	d__ammonium	O
+24l0l1	en_2006__	T
+24l1l0	ammonium	S
+
+#Au niveau du confinement ouest, les mesures de décembre 2007 ne montrent pas d'évolution significative de la qualité des percolats transitant au travers des terres mises en dépôt.
+
+25l0l0	confinement_ouest	O
+25l0l1	les_mesures	N
+25l0l2	de_décembre_2007	T
+
+#Par l'ensemble des paramètres mesurés, les teneurs de décembre 2007 sont conformes aux normes de rejet imposées après travaux par AP.
+
+26l0l0	les_teneurs	O
+26l0l1	décembre_2007	T
+26l0l2	aux_normes_de_rejet	O
+26l0l3	imposées_après_travaux	N
+26l0l4	AP	O
+
+#La qualité des percolats est caractérisée par un pH à tendance basique, une DCO sans anomalie, la présence d'ammonium, des traces sporadiques de chrome et parfois d'autres métaux lourds, des traces de HAP et de cyanures libres.
+
+27l0l0	d__ammonium	O
+27l1l0	ammonium	S
+27l1l1	chrome	S
+27l1l2	métaux_lourds	S
+27l1l3	HAP	S
+27l1l4	cyanures_libres	S
+
+#Les composés phénoliques et les hycrocabures ne sont plus détectés dans ces percolats depuis 2002.
+
+28l0l0	ne_sont_plus_détectés	N
+28l0l1	ces_percolats	O
+28l0l2	depuis_2002	T
+28l1l0	Les_composés_phénoliques	S
+28l1l1	les_hycrocabures	S
+
+#Les eaux de la nappe phréatique n'ont pu être contrôlées depuis juin 2006, les piézomètres de contrôle PW3 et PW4 sont détériorés depuis 2005 et le piézomètre PW2 est inaccessible depuis juin 2006.
+
+29l0l0	Les_eaux	O
+29l0l1	ont_pu_être_contrôlées	N
+29l0l2	depuis_juin_2006__	T
+29l0l3	les_piézomètres_de_contrôle_PW3	O
+29l0l4	depuis_2005	T
+29l0l5	depuis_juin_2006__	T
+
+#Lors de la visite de mars 2011, il a été constaté que le site du confinement COKERIE était utilisé comme parcours de moto-cross ou de quad.
+
+30l0l0	Lors	T
+30l0l1	de_la_visite	N
+30l0l2	de_mars_2011__	T
+30l0l3	le_site_du_confinement_COKERIE	O
+30l0l4	était_utilisé_comme_parcours	N
+30l0l5	de_moto___cross	A
+30l0l6	quad	A
+
+#Cela pourrait endommager la couverture de confinement en place.
+
+
+#Aussi, il a été demandé au représentant de l'ancien exploitant de prendre toute mesure afin de limiter l'accès au site.
+
+32l0l0	l__ancien_exploitant	O
+
+#L'exploitant a clôturé le confinement.
+
+33l0l0	L__exploitant	O
+33l0l1	a_clôturé_le_confinement	N

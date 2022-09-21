@@ -1,0 +1,444 @@
+
+#34.0037
+#La société MOBIL OIL FRANCAISE, puis la société GDH ont exploité des installations de stockages, de réception et d’expédition d’hydrocarbures par navires et par oléoduc.
+
+0l0l0	La_société_MOBIL_OIL_FRANCAISE	O
+0l0l1	la_société_GDH	O
+0l0l2	ont_exploité	N
+0l0l3	des_installations_de_stockages	O
+0l0l4	__de_réception_et_d__expédition_d__hydrocarbures_par_navires	O
+0l1l0	La_société_MOBIL_OIL_FRANCAISE	I
+0l1l1	la_société_GDH	I
+0l1l2	hydrocarbures	S
+
+#Le site abritait 8 réservoirs d’un volume total de 38 000 m3, une pomperie et des installations de chargement/déchargement à quai, sur environ 3 hectares.
+
+1l0l0	Le_site	O
+1l0l1	abritait	R
+1l0l2	8_réservoirs	O
+1l0l3	pomperie	A
+1l0l4	des_installations_de	O
+1l0l5	chargement___déchargement_à_quai	A
+1l1l0	8_réservoirs	D
+
+#Les installations du B.
+
+
+#.P. du Port de Sète datent du  début du 20ème siècle ; elles sont autorisées par arrêtés préfectoraux depuis 1923.
+
+3l0l0	_P_	O
+3l0l1	Port_de_Sète	O
+3l0l2	datent_du___début_du_20ème_siècle	T
+3l0l3	elles_sont_autorisées	N
+3l0l4	par_arrêtés_préfectoraux	O
+3l0l5	depuis_1923	T
+3l1l0	Sète	I
+
+#L’exploitation a été transférée de la société MOBIL OIL FRANCAISE à la société GDH le 15 janvier 1992.
+
+4l0l0	L__exploitation	O
+4l0l1	a_été_transférée	N
+4l0l2	de_la_société_MOBIL_OIL_FRANCAISE	O
+4l0l3	GDH	O
+4l0l4	le_15_janvier_1992__	T
+4l1l0	la_société_MOBIL_OIL_FRANCAISE	I
+4l1l1	société_GDH	I
+
+#Le site occupe environ 1,5 hectare ; l’environnement immédiat est constitué :
+
+5l0l0	Le_site	O
+5l0l1	l__environnement_immédiat	O
+
+#- au Sud par une zone de stockage de France Mélasse puis par la mer Méditerranée,
+
+6l0l0	au_Sud	L
+6l0l1	une_zone	O
+6l0l2	France_Mélasse	O
+6l0l3	la_mer_Méditerranée	L
+6l1l0	Mélasse	I
+
+#- à l’Est par la zone de chargement/déchargement du Port (notamment pour le bois),
+
+7l0l0	à_l__Est_par_la_zone_de_chargement	N
+7l0l1	déchargement	N
+7l0l2	du_Port	A
+7l0l3	le_bois	A
+
+#- au Nord par une zone de stockage appartenant à la société Médiaco,
+
+8l0l0	au_Nord	L
+8l0l1	une_zone_de_stockage	O
+8l0l2	appartenant_à	R
+8l0l3	la_société_Médiaco	O
+8l1l0	la_société_Médiaco	I
+
+#- à l’Ouest par une zone d’accès au « bassin au pétroles ».
+
+9l0l0	à_l__Ouest	L
+9l0l1	une_zone_d_	O
+9l0l2	bassin_au_pétroles	O
+
+#La société GDH a notifié la cessation définitive de son activité sur le site du B.
+
+10l0l0	La_société_GDH	O
+10l0l1	a_notifié	N
+10l0l2	la_cessation_définitive	N
+10l0l3	de_son_activité	N
+10l0l4	sur_le_site_du_B_	L
+10l1l0	La_société_GDH	I
+
+#.P. le 2 avril 2004.
+
+11l0l0	le_2_avril_2004__	T
+
+#Elle  a produit les documents suivants :
+
+
+#- Un dossier relatif à la cessation d’activité, le 2 avril 2004
+
+13l0l0	relatif_à	R
+13l0l1	la_cessation_d__activité	N
+13l0l2	le_2_avril_2004	T
+
+#- Un diagnostic de pollution des sols et des eaux souterraines et un dossier descriptif de travaux de réhabilitation, le 11 octobre 2005,
+
+14l0l0	Un_diagnostic_de_pollution_des_sols	N
+14l0l1	un	O
+14l0l2	de_travaux_de_réhabilitation	N
+14l0l3	le_11_octobre_2005__	T
+
+#- Un dossier de suivi et de bilan d’étape des travaux de dépollution, en mars 2007.
+
+15l0l0	d__étape	O
+15l0l1	des_travaux_de_dépollution	N
+15l0l2	en_mars_2007__	T
+
+#DIAGNOSTIC:
+
+16l0l0	DIAGNOSTIC	N
+
+#Le diagnostic a été réalisé en décembre 2004 au moyen de 18 fouilles de reconnaissance des sols, 8 piézomètres et plusieurs campagnes de mesures et prélèvements.
+
+17l0l0	Le_diagnostic	N
+17l0l1	a_été_réalisé	N
+17l0l2	en_décembre_2004	T
+17l0l3	18_fouilles_de_reconnaissance	N
+
+#Les eaux souterraines sont rencontrées à partir de 1.5 à 2 m de profondeur par rapport au sol naturel.
+
+
+#Le diagnostic a mis en évidence :
+
+
+# Pour les sols :
+
+
+#- Une pollution gazeuse par des hydrocarbures volatils.
+
+21l1l0	hydrocarbures	S
+
+#Le panache le plus important s’étendait du Nord (zone de l’ancienne pomperie) jusqu’à la limite Sud du site, avec des teneurs supérieures à 2 500 ppmV.
+
+22l0l0	étendait_du_Nord	L
+22l0l1	à_la_limite_Sud_du_site	L
+22l0l2	des_teneurs	O
+22l1l0	ppmV_	S
+
+#La surface impactée en hydrocarbures volatils était estimée à environ 8 000 à 10 000 m².
+
+23l0l0	impactée	O
+23l1l0	hydrocarbures	S
+
+#Une zone limitée à l’angle Est du dépôt était également concernée par la présence d’hydrocarbures volatils en concentrations supérieures à 2 500 ppmV.
+
+24l0l0	Une_zone_limitée	O
+24l0l1	à_l__angle_Est_du_dépôt	L
+24l0l2	était_également_concernée_par	R
+24l0l3	la	O
+24l1l0	hydrocarbures	S
+
+#- Une pollution adsorbée mixte par des hydrocarbures totaux et des benzène, toluène, éthylbenzènes, xylènes (BTEX).
+
+25l1l0	hydrocarbures_totaux	S
+25l1l1	des_benzène	S
+25l1l2	toluène	S
+25l1l3	éthylbenzènes	S
+25l1l4	xylènes	S
+25l1l5	BTEX	S
+
+#La répartition des hydrocarbures totaux était quasi-identique à celle des hydrocarbures volatils avec une extension plus réduite.
+
+26l1l0	hydrocarbures_totaux	S
+26l1l1	hydrocarbures	S
+
+#On distinguait un panache majoritaire dans la partie Nord du dépôt puis 2 zones ponctuellement impactées dans les parties Est et Sud du site.
+
+27l0l0	dans_la_partie_Nord_du_dépôt	L
+27l0l1	2_zones	O
+27l0l2	ponctuellement_impactées	O
+27l0l3	dans_les_parties_Est_et_Sud_du_site	L
+
+#Les teneurs moyennes étaient supérieures à 15 000 mg/kg MS.
+
+
+#On trouvait les BTEX essentiellement dans la partie Nord du dépôt, sur 5000 à 7000 m².
+
+29l0l0	On_trouvait_les_BTEX	O
+29l0l1	essentiellement_dans_la_partie_Nord_du_dépôt	L
+29l1l0	BTEX	S
+
+#Le benzène était le plus fréquemment rencontré.
+
+30l1l0	Le_benzène	S
+
+# Pour les eaux souterraines :
+
+
+#- Une phase libre mesurée sur 4 piézomètres, avec une zone particulièrement impactée dans la partie Nord-Ouest du site.
+
+32l0l0	Une_phase_libre_mesurée	N
+32l0l1	une_zone	O
+32l0l2	particulièrement_impactée	O
+32l0l3	dans_la_partie_Nord_Ouest_du_site	L
+
+#L’épaisseur d’hydrocarbures surnageants dans cette partie du dépôt était  supérieure à 0.5 m.
+
+33l0l0	à_0_5	O
+33l1l0	hydrocarbures	S
+33l1l1	surnageants	U
+
+#- Une phase dissoute mixte constituée par des hydrocarbures totaux et des BTEX en périphérie du panache de la phase libre.
+
+34l0l0	en_périphérie_du_panache	L
+34l1l0	dissoute_mixte	U
+34l1l1	hydrocarbures_totaux	S
+34l1l2	des_BTEX	S
+
+#Une concentration maximale de 12 000 µg/l était mesurée en benzène dans les ouvrages forés dans la partie Sud du site.
+
+35l0l0	les_ouvrages	O
+35l0l1	forés	N
+35l0l2	dans_la_partie_Sud_du_site	L
+35l1l0	benzène	S
+
+#TRAVAUX DE REHABILITATION:
+
+36l0l0	TRAVAUX	N
+36l0l1	DE_REHABILITATION	O
+
+#Les opérations de traitement réalisées par l’industriel en 2006 et début 2007 sont les suivantes :
+
+37l0l0	Les_opérations_de_traitement_réalisées	N
+37l0l1	l__industriel	O
+37l0l2	en_2006_et_début_2007	T
+
+# Isolement du site vis à vis des terrains voisins coté nord, en amont hydraulique : compte tenu des anciennes activités de stockage d’hydrocarbures sur le site voisin, et en prévention du risque de migration de polluants, notamment lors des pompages d’eaux souterraines, l’exploitant a installé une barrière étanche (tranchée bétonnée).
+
+38l0l0	Isolement	N
+38l0l1	des_terrains_voisins_coté_nord	O
+38l0l2	en_amont_hydraulique	L
+38l0l3	anciennes_activités_de_stockage_d__hydrocarbures	O
+38l0l4	l__exploitant	O
+38l0l5	a_installé	N
+38l0l6	une_barrière_étanche	O
+38l1l0	hydrocarbures	S
+38l1l1	polluants	U
+
+# Récupération la phase libre d’hydrocarbures par écrémage dynamique, au moyen de 4 puits à drains rayonnants de rabattement, 7piézomètres de contrôle.
+
+39l0l0	écrémage_dynamique	N
+39l1l0	hydrocarbures	S
+
+#Les eaux ont été réinjectées après traitement.
+
+40l0l0	Les_eaux	O
+40l0l1	ont_été_réinjectées	N
+40l0l2	après_traitement	N
+
+#L’écrémage des hydrocarbures flottants s’est poursuivie jusqu’à ce que:
+
+41l0l0	L__écrémage	N
+41l0l1	hydrocarbures_flottants	O
+41l0l2	s__est_poursuivie	N
+41l1l0	hydrocarbures	S
+
+#- l’obtention d’une épaisseur de flottants aussi faible que possible,
+
+
+#- l’épaisseur de flottants ne diminue plus pendant 2 mois de traitement
+
+43l0l0	pendant_2_mois_de_traitement	T
+
+# Bio-traitement in situ des hydrocarbures volatils et adsorbés dans les sols au moyen d’un ensemencement des sols pollués par des bactéries spécifiques, un réseau de drains d’injection et d’aspiration, un dispositif de traitement des gaz extraits.
+
+44l0l0	Bio_traitement_in_situ	N
+44l0l1	un_ensemencement	N
+44l0l2	sols_pollués	O
+44l1l0	hydrocarbures	S
+44l1l1	bactéries	S
+
+#Ce traitement a été poursuivi jusqu’à ce que :
+
+45l0l0	Ce_traitement	O
+45l0l1	a_été_poursuivi	N
+
+#- les concentrations en hydrocarbures dans les gaz du sol soient inférieurs à 100 ppmV, correspondant à la limite de détection des mesures réalisées in situ.
+
+46l1l0	hydrocarbures	S
+
+#- Les concentrations en hydrocarbures adsorbés soient inférieures aux valeurs de référence pour usage sensible, existantes au moment de la définition des travaux.
+
+47l0l0	au_moment_de	R
+47l0l1	la_définition_des_travaux	N
+47l1l0	hydrocarbures_adsorbés	S
+
+#COMPATIBILITE ETAT DU SITE - USAGE ENVISAGE
+
+
+#L’usage futur du site souhaité par le concessionnaire, à l'époque, de la zone portuaire (CCI) et par le propriétaire (Région) est un usage industriel (stockages de vracs liquides agroalimentaires, type vin, huiles…).
+
+49l0l0	L__usage_futur_du_site_souhaité	O
+49l0l1	le_concessionnaire	O
+49l0l2	la_zone_portuaire	O
+49l0l3	CCI	O
+49l0l4	le_propriétaire	O
+49l0l5	Région	O
+49l0l6	un_usage_industriel	O
+49l0l7	stockages_de_vracs_liquides_agroalimentaires	A
+49l1l0	CCI	I
+49l1l1	vracs_liquides	U
+
+#Afin de s’assurer que le site est compatible avec cet usage, l'arrêté du 04 décembre 2007 a prescrit à la société GDH la justification de la compatibilité de l’état du site avec l'usage envisagé compte tenu des teneurs résiduelles.
+
+50l0l0	le_site	O
+50l0l1	cet_usage	O
+50l0l2	04_décembre_2007	T
+50l0l3	a_prescrit	N
+50l0l4	la_société_GDH	O
+50l0l5	la_justification_de_la_compatibilité	O
+50l0l6	l__usage_envisagé	O
+50l1l0	la_société_GDH	I
+
+#Une analyse des risques résiduels (ARR) a été remise en 2007.
+
+51l0l0	a_été_remise	N
+51l0l1	en_2007__	T
+
+#Elle a conclut a l'absence de risque sanitaire sous réserve de la mise en place de vide sanitaire en cas de construction ultérieure de bureaux.
+
+52l0l0	sous_réserve_de	R
+52l0l1	la_mise_en_place_de	N
+52l0l2	vide_sanitaire	O
+52l0l3	en_cas_de	R
+52l0l4	construction_ultérieure_de_bureaux	N
+
+#L'ARR a été actualisée en juillet 2010 afin d'intégrer les résultats de nouvelles campagnes d'analyses des eaux souterraines effectuées en 2009.
+
+53l0l0	L_	O
+53l0l1	a_été_actualisée	N
+53l0l2	en_juillet_2010	T
+53l0l3	nouvelles_campagnes_d__analyses	N
+53l0l4	des_eaux_souterraines	O
+53l0l5	effectuées	N
+53l0l6	en_2009__	T
+
+#Les conclusions sont restées inchangées.
+
+
+#Une visite de récolement suite aux travaux de réhabilitation a été effectuée par l'inspection des installations classées le 22 décembre 2010.
+
+55l0l0	Une_visite_de_récolement	N
+55l0l1	suite	R
+55l0l2	aux_travaux_de_réhabilitation	N
+55l0l3	a_été_effectuée	N
+55l0l4	l__inspection_des_installations_classées	O
+55l0l5	le_22_décembre_2010__	T
+
+#Un dossier de demande d'instauration de servitudes d'utilités publiques a été remis par la société GDH en 2010.
+
+56l0l0	Un_dossier_de_demande_d__instauration_de_servitudes_d__utilités_publiques	O
+56l0l1	a_été_remis	N
+56l0l2	la_société_GDH	O
+56l0l3	en_2010__	T
+56l1l0	la_société_GDH	I
+
+#A l'issue de l'instruction de ce dossier un arrêté préfectoral d'instauration de servitudes ainsi qu'un arrêté encadrant la surveillance des eaux souterraines au droit du site ont été présentés devant les membres du conseil départemental de l'environnement et des risques sanitaires et technologiques de l'Hérault le 29 juin 2011.
+
+57l0l0	A_l_	R
+57l0l1	issue_de_l__instruction	N
+57l0l2	ce_dossier_un_arrêté_préfectoral	O
+57l0l3	d__instauration_de	N
+57l0l4	servitudes	O
+57l0l5	un_arrêté	O
+57l0l6	encadrant	N
+57l0l7	la_surveillance_des_eaux_souterraines	A
+57l0l8	au_droit_du_site	O
+57l0l9	ont_été_présentés_devant	N
+57l0l10	les_membres_du_conseil_départemental_de_l__environnement_et_des_risques_sanitaires_et_technologiques	O
+57l0l11	de_l__Hérault	L
+57l0l12	le_29_juin_2011__	T
+
+#Ces arrêtés ont été signés le 1er septembre 2011.
+
+58l0l0	Ces_arrêtés	O
+58l0l1	ont_été_signés	N
+58l0l2	le_1er_septembre_2011__	T
+
+#Cet acte n'a pu être enregistré par les hypothèques et a été modifié afin de pouvoir l'être le 13 octobre 2016.
+
+59l0l0	Cet_acte	O
+59l0l1	n__a_pu_être_enregistré	N
+59l0l2	les_hypothèques	O
+59l0l3	a_été_modifié	N
+59l0l4	afin_de_pouvoir	R
+59l0l5	l__être	N
+59l0l6	le_13_octobre_2016__	T
+
+#BILAN DU SUIVI DES EAUX SOUTERRAINES
+
+60l0l0	SUIVI_DES_EAUX	A
+60l0l1	SOUTERRAINES	O
+60l1l0	SOUTERRAINES	I
+
+#Un bilan du suivi de la surveillance des eaux souterraines a été établi en 2015.
+
+61l0l0	suivi_de_la_surveillance_des_eaux_souterraines	A
+61l0l1	a_été_établi	N
+61l0l2	en_2015__	T
+
+#Cette synthèse montre globalement une stabilisation ou une amélioration de la situation, selon les ouvrages contrôlés.
+
+
+#Ce bilan se conclue sur une proposition d'arrêt du suivi.
+
+
+#Compte tenu de :
+
+
+#- cette évolution;
+
+
+#- de l'implantation de l'ancien dépôt pétrolier en zone portuaire industrielle;
+
+66l0l0	l__implantation	N
+66l0l1	l__ancien_dépôt_pétrolier	O
+66l0l2	en	R
+66l0l3	zone_portuaire_industrielle	O
+66l1l0	dépôt_pétrolier	D
+
+#- et de l'absence d'usage sensible de l'eau, celle-ci étant saumâtre;
+
+
+#M. le Préfet de l'Hérault, sur proposition de l'inspection, a donné une suite favorable à la demande d'arrêt du suivi.
+
+68l0l0	M__le_Préfet_de_l__Hérault	O
+68l0l1	la_demande	O
+68l1l0	le_Préfet_de_l__Hérault	I
+
+#Les ouvrages ont été comblés selon les règles de l'art, fin 2015
+
+69l0l0	Les_ouvrages	O
+69l0l1	ont_été_comblés	N
+69l0l2	selon	R
+69l0l3	les_règles_de_l__art	O
+69l0l4	fin_2015	T

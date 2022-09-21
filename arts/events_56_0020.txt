@@ -1,0 +1,338 @@
+
+#56.0020
+#La société KOLORIAN a été autorisée à exploiter une usine de fabrication de peintures pour bateau par arrêté préfectoral du 18 mai 1982.
+
+0l0l0	La_société_KOLORIAN	O
+0l0l1	a_été_autorisée_à_exploiter	N
+0l0l2	une_usine_de_fabrication_de_peintures_pour_bateau	O
+0l0l3	arrêté_préfectoral	O
+0l0l4	18_mai_1982	T
+0l1l0	La_société_KOLORIAN	I
+
+#Cependant, les activités ont démarré dès 1951.
+
+1l0l0	les_activités	O
+1l0l1	ont_démarré	N
+1l0l2	dès_1951	T
+
+#L'exploitation a cessé en septembre 2008. et a été acté le 16 décembre 2009 (PV de récolement).
+
+2l0l0	L__exploitation	O
+2l0l1	a_cessé	N
+2l0l2	en_septembre_2008__	T
+2l0l3	a_été_acté	N
+2l0l4	le_16_décembre_2009	T
+
+#L'usine a utilisé, entre autres, des pigments au plomb ou au chrome, des solvants chlorés ou benzéniques, du tributhylétain.
+
+3l0l0	L__usine	O
+3l1l0	pigments	U
+3l1l1	plomb	S
+3l1l2	chrome	S
+3l1l3	solvants_chlorés	S
+3l1l4	benzéniques	S
+3l1l5	du_tributhylétain	S
+
+#Au vu de la cessation d'activité et des différents produits potentiellement polluants utilisés sur le site, un arrêté préfectoral complémentaire du 6 mai 2008 prescrit la réalisation d'un diagnostic environnemental du site.
+
+4l0l0	la_cessation_d__activité	N
+4l0l1	un_arrêté_préfectoral_complémentaire	O
+4l0l2	6_mai_2008	T
+4l0l3	prescrit_la_réalisation_d__un_diagnostic_environnemental	N
+4l0l4	site	O
+
+#Un diagnostic initial de pollution a été réalisé en août 2008.
+
+5l0l0	Un_diagnostic_initial_de_pollution	N
+5l0l1	a_été_réalisé	N
+5l0l2	en_août_2008__	T
+
+#Il a permis d'identifier plusieurs sources de pollution et conclut en la nécessité de réaliser un diagnostic approfondi du site :
+
+6l0l0	identifier	N
+6l0l1	plusieurs_sources_de_pollution	O
+6l0l2	un_diagnostic_approfondi	N
+
+#- mauvaise qualité des remblais et proximité de la cuve à fioul : pollution des sols par des métaux, hydrocarbures (HC, C10-C40), hydrocarbures aromatiques polycycliques (HAP), solvants chlorés (trichloroéthylène - TCE) ;
+
+7l0l0	remblais	N
+7l0l1	cuve_à_fioul	O
+7l0l2	des_métaux	O
+7l1l0	cuve	D
+7l1l1	fioul	S
+7l1l2	des_métaux	S
+7l1l3	hydrocarbures	S
+7l1l4	HC	S
+7l1l5	C10_C40	S
+7l1l6	hydrocarbures_aromatiques_polycycliques	S
+7l1l7	HAP	S
+7l1l8	chlorés	S
+7l1l9	trichloroéthylène	S
+7l1l10	TCE	S
+
+#- aire de stockage des produits dangereux : pollution des remblais par des HC (C10-C40) et des BTEX (benzène, toluène, éthylène, xylène) ;
+
+8l0l0	remblais	N
+8l1l0	produits_dangereux	U
+8l1l1	des_HC	S
+8l1l2	C10_C40	S
+8l1l3	des_BTEX	S
+8l1l4	benzène	S
+8l1l5	toluène	S
+8l1l6	éthylène	S
+8l1l7	xylène	S
+
+#- séparateur d'hydrocarbures : pollution des eaux souterraines par des BTEX, HAP, arsenic, solvants chlorés (dichloroéthane) ;
+
+9l1l0	d__hydrocarbures	S
+9l1l1	des_BTEX	S
+9l1l2	HAP	S
+9l1l3	arsenic	S
+9l1l4	solvants_chlorés	S
+9l1l5	dichloroéthane	S
+
+#- hangar de stockage des produits finis : pollution des sols par des composés organiques halogénés volatils (COHV - perchloroéthylène) ;
+
+10l0l0	hangar	O
+10l1l0	produits_finis	U
+10l1l1	composés_organiques	S
+10l1l2	halogénés_volatils	S
+10l1l3	COHV	S
+10l1l4	perchloroéthylène	S
+
+#- aire de stockage des fûts vides et de peintures : pollution des sols par des HAP (fluoranthène).
+
+11l0l0	aire	O
+11l0l1	des_HAP	O
+11l1l0	fûts_vides	U
+11l1l1	de_peintures	U
+11l1l2	HAP	S
+11l1l3	fluoranthène	S
+
+#Un diagnostic complémentaire de pollution a été réalisé en novembre 2008.
+
+12l0l0	Un_diagnostic_complémentaire	N
+12l0l1	de_pollution	O
+12l0l2	a_été_réalisé	N
+12l0l3	en_novembre_2008__	T
+
+#Il met en évidence :
+
+
+#* pour les sols :
+
+
+#- une pollution par le cuivre, le plomb, le zinc ; le cadmium ponctuellement ;
+
+15l0l0	une_pollution	O
+15l1l0	cuivre	S
+15l1l1	plomb	S
+15l1l2	zinc	S
+15l1l3	cadmium	S
+
+#- une pollution par les HCT lourds (huiles de coupes), notamment au niveau de l'aire de stockage des produits dangereux, de la cuve à fioul, du compresseur, du séparateur d'hydrocarbures ;
+
+16l0l0	les_HCT	O
+16l1l0	les_HCT_lourds___huiles	U
+16l1l1	de_coupes	U
+16l1l2	produits_dangereux	U
+16l1l3	fioul	U
+16l1l4	hydrocarbures	S
+
+#- une pollution par les HCT légers (essences et teintures à l'alcool) au niveau du hangar de stockage des produits finis ;
+
+17l0l0	une_pollution	N
+17l0l1	les_HCT	O
+17l0l2	au	L
+17l0l3	niveau_du	R
+17l0l4	hangar_de_stockage_des_produits_finis	O
+17l1l0	les_HCT_légers	U
+17l1l1	essences	U
+
+#- une pollution par des HAP sur la majorité du site, notamment au niveau de l'aire de stockage des produits dangereux, de la cuve FOD, de l'aire de stockage des fûts vides, du compresseur et du hangar de stockage des produits finis ;
+
+18l0l0	une_pollution_par	R
+18l0l1	des_HAP	O
+18l0l2	fûts_vides	O
+18l0l3	hangar_de_stockage_des_produits_finis	O
+18l1l0	des_HAP	S
+18l1l1	produits_dangereux	U
+18l1l2	cuve_FOD	I
+18l1l3	fûts_vides	U
+
+#- une pollution par les BTEX au niveau de l'aire de stockage des produits dangereux, de l'aire de stockage des fûts vides, du séparateur d'hydrocarbures ;
+
+19l0l0	une_pollution	N
+19l0l1	les_BTEX	O
+19l1l0	les_BTEX	S
+19l1l1	produits_dangereux	U
+19l1l2	fûts_vides	U
+19l1l3	hydrocarbures	S
+
+#- une pollution par les COHV (TCE et ponctuellement des produits de dégradation du TCE) au niveau de la cuve à fioul et de l'aire de stockage des produits finis.
+
+20l0l0	une_pollution	N
+20l0l1	les_COHV	O
+20l1l0	les_COHV___TCE	S
+20l1l1	TCE	S
+20l1l2	fioul	U
+
+#* pour les eaux souterraines :
+
+
+#- dans le piézomètre aval une très forte concentration en arsenic, des concentrations importantes en BTEX ;
+
+22l0l0	aval	O
+22l0l1	arsenic	O
+22l1l0	arsenic	S
+22l1l1	BTEX	S
+
+#- sur l'ensemble des piézomètres : des traces d'HCT (C10-C40), d'HAP (naphtalène, fluoranthène) et des COHV (dichloroéthane).
+
+23l1l0	traces_d__HCT	S
+23l1l1	C10_C40__	S
+23l1l2	d__HAP	S
+23l1l3	naphtalène	S
+23l1l4	fluoranthène	S
+23l1l5	des_COHV	S
+23l1l6	dichloroéthane	S
+
+#* pour les gaz du sol :
+
+
+#- présence de toluène au niveau de l'aire de stockage des fûts vides et de peintures ;
+
+25l0l0	fûts_vides	O
+25l1l0	toluène	S
+25l1l1	fûts_vides	U
+
+#- présence de COHV (perchloroéthylène, 1,2-dicloroéthylène, diclorométhane) au niveau du hangar de stockage des produits finis ;
+
+26l0l0	niveau_du_hangar_de_stockage	A
+26l1l0	COHV	S
+26l1l1	perchloroéthylène	S
+26l1l2	1_2_dicloroéthylène	S
+26l1l3	diclorométhane	S
+
+#- présence d'hydrocarbures volatils au niveau de l'aire de stockage de produits dangereux.
+
+27l1l0	hydrocarbures	S
+
+#Le schéma conceptuel identifie comme cibles potentielles les travailleurs sur site par inhalation des composés volatils présents dans les sols, l'ingestion et le contact direct de polluants.
+
+28l0l0	Le_schéma_conceptuel	O
+28l0l1	inhalation	N
+28l1l0	composés	U
+28l1l1	polluants	U
+
+#L'évaluation quantitative des risques sanitaires conclut en un risque sanitaire non significatif.
+
+
+#Etant donné :
+
+
+#- la présence de pollution dans les sols, le sous-sol et les eaux souterraines,
+
+
+#- la non accessibilité d'une partie de la pollution (présence de bâtiment au-dessus),
+
+
+#- l'absence de risque sanitaire identifié pour un usage industriel,
+
+33l0l0	un_usage_industriel	A
+
+#- le contexte industriel de la zone et son remblaiement,
+
+34l0l0	la_zone	O
+34l0l1	remblaiement	N
+
+#des restrictions d'usage (aménagement du site, gestion des déblais, affouillement et eaux) doivent être proposées par l'exploitant.
+
+35l0l0	déblais	O
+35l0l1	affouillement	N
+35l0l2	l__exploitant	O
+
+#L'exploitant souhaitant limiter les restrictions d'usage, il a engagé des travaux de dépollution (pour un usage futur industriel) entre juin et octobre 2009 :
+
+36l0l0	L__exploitant	O
+36l0l1	d__usage	O
+36l0l2	il	O
+36l0l3	a_engagé_des_travaux_de_dépollution	N
+36l0l4	un_usage_futur_industriel	O
+36l0l5	entre_juin_et_octobre_2009__	T
+
+#- dégazage-inertage puis extractions des cuves à fioul,
+
+37l0l0	dégazage	N
+37l0l1	inertage	O
+37l0l2	extractions	N
+37l0l3	cuves_à_fioul	O
+37l1l0	des_cuves	D
+37l1l1	fioul	U
+
+#- excavation des sols pollués au droit des anciennes airs de stockage de produits dangereux puis remblaiement.
+
+38l0l0	__excavation	N
+38l0l1	des_sols_pollués	N
+38l0l2	au_droit_des	L
+38l0l3	anciennes_airs_de_stockage_de_produits_dangereux	O
+38l0l4	remblaiement	N
+38l1l0	produits_dangereux	U
+
+#La campagne de mesure des eaux souterraines à l'issue de la dépollution met en évidence :
+
+39l0l0	La	N
+39l0l1	campagne_de_mesure_des_eaux_souterraines	O
+39l0l2	la_dépollution	N
+
+#- de fortes teneurs en arsenic dans les deux piézomètres aval ;
+
+40l0l0	arsenic	O
+40l1l0	arsenic	S
+
+#- des traces en métaux, d'HCT (C10-C40),d'HAP (notamment naphtalène), de BTEX en aval, de COHV en aval.
+
+41l1l0	métaux	S
+41l1l1	d__HCT	S
+41l1l2	C10_C40_d__HAP	S
+41l1l3	notamment_naphtalène	S
+41l1l4	BTEX	S
+41l1l5	COHV	S
+
+#A l'issue de ces travaux, il en ressort la nécessité d'instaurer des restrictions d'usage ainsi qu'une surveillance des eaux souterraines.
+
+42l0l0	d__instaurer_des_restrictions_d_	N
+42l0l1	usage	O
+42l0l2	surveillance_des_eaux_souterraines	A
+
+#Dans ce sens, un arrêté préfectoral du 15 mars 2010 prescrit :
+
+43l0l0	un_arrêté_préfectoral	O
+43l0l1	du_15_mars_2010	T
+
+#- la surveillance des eaux souterraines à fréquence semestrielle et sur les paramètres BTEX, HAP, HC (C10-C40), COHV, composés organiques aromatiques ;
+
+44l0l0	la_surveillance	A
+44l0l1	eaux_souterraines	O
+44l1l0	BTEX	S
+44l1l1	HAP	S
+44l1l2	HC	S
+44l1l3	C10_C40	S
+44l1l4	COHV	S
+44l1l5	composés_organiques_aromatiques	S
+
+#- l'instauration de servitudes.
+
+45l0l0	l_	N
+45l0l1	instauration_de_servitudes	O
+
+#Les propositions de servitudes faites par l'exploitant doivent être complétées.
+
+46l0l0	Les_propositions_de_servitudes	O
+46l0l1	l__exploitant	O
+46l0l2	doivent	R
+46l0l3	être_complétées	N
+
+#La surveillance des eaux n'est pas effective.
+
+47l0l0	La_surveillance_des_eaux	A

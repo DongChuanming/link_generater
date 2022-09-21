@@ -1,0 +1,203 @@
+
+#92.0081
+#La société SHELL exploitait sur le site une station-service classée sous les rubriques 1432 (3 cuves DE de 60 m3, 30 m3 et 15 m3 (CE 21 m3)) et 1435 (Volume annuel : 1511 m3 (2 distributeurs double face multi-produits)).
+
+0l0l0	La_société_SHELL	O
+0l0l1	exploitait	N
+0l1l0	La_société_SHELL	I
+0l1l1	cuves_DE	D
+0l1l2	CE	I
+
+#L’installation a été déclarée le 12/03/82 (rcp du 27/05/82) pour la distribution de liquides inflammables et le 21/10/93 (rcp du 06/12/93) pour le stockage de liquides inflammables.
+
+1l0l0	L__installation	O
+1l0l1	a_été_déclarée	N
+1l0l2	le_12_03_82	T
+1l0l3	27_05_82	T
+1l0l4	la_distribution_de_liquides_inflammables	A
+1l0l5	et	R
+1l0l6	le_21_10_93	O
+1l0l7	06_12_93	T
+1l0l8	le_stockage_de_liquides_inflammables	A
+1l1l0	liquides_inflammables	U
+1l1l1	liquides_inflammables	U
+
+#Le 28/09/10, la Mairie du Plessis-Robinson a transmis une demande d'avis sur le permis de démolir n°09206010 0316 de la station-service SHELL du 176, avenue de la Résistance au Plessis-Robinson.
+
+2l0l0	Le_28_09_10	T
+2l0l1	la_Mairie	O
+2l0l2	du_Plessis_Robinson	L
+2l0l3	a_transmis	N
+2l0l4	une_demande	N
+2l0l5	d__avis	O
+2l0l6	le_permis_de_démolir	O
+2l0l7	la_station___service_SHELL	O
+2l0l8	176___avenue_de_la_Résistance_au_Plessis_Robinson	L
+2l1l0	la_station___service_SHELL	I
+
+#Suite à cette demande, le 02/11/10, la Préfecture des Hauts-de-Seine a demandé à l'exploitant de transmettre un dossier de cessation d'activité ainsi que les justificatifs correspondant au retrait des cuves.
+
+3l0l0	Suite_à	R
+3l0l1	cette_demande	N
+3l0l2	le_02_11_10	T
+3l0l3	la_Préfecture_des_Hauts_de_Seine	O
+3l0l4	a_demandé	N
+3l0l5	l__exploitant	O
+3l0l6	de_transmettre	N
+3l0l7	un_dossier	O
+3l0l8	cessation_d__activité	N
+3l0l9	ainsi_que_les_justificatifs	O
+3l0l10	correspondant	R
+3l0l11	au_retrait_des_cuves	N
+3l1l0	la_Préfecture_des_Hauts_de_Seine	I
+3l1l1	cuves	D
+
+#Le 29/03/11, SHELL a transmis la déclaration de cessation d'activité de la station-service.
+
+4l0l0	Le_29_03_11	T
+4l0l1	__SHELL	O
+4l0l2	a_transmis	N
+4l0l3	la_déclaration	O
+4l0l4	de_cessation_d__activité	N
+4l0l5	la_station___service	O
+4l1l0	SHELL	I
+
+#La station-service a cessé définitivement son activité le 05/05/11.
+
+5l0l0	La_station___service	O
+5l0l1	a_cessé_définitivement_son_activité	N
+5l0l2	le_05_05_11__	T
+
+#L’inspection a demandé à la société SHELL de compléter son dossier de cessation d’activité en précisant notamment les mesures de mise en sécurité du site et de surveillance de ses effets sur l'environnement.
+
+6l0l0	L__inspection	O
+6l0l1	la_société_SHELL	O
+6l0l2	compléter	N
+6l0l3	cessation_d__activité	N
+6l0l4	surveillance	O
+6l0l5	ses_effets	O
+6l1l0	la_société_SHELL	I
+
+#L’exploitant a indiqué les mesures de mise en sécurité prévues sur le site et transmis les études environnementales réalisées en 2009 et 2011, pendant le fonctionnement des activités.
+
+7l0l0	L__exploitant	O
+7l0l1	a_indiqué	N
+7l0l2	les_mesures	O
+7l0l3	transmis	N
+7l0l4	les_études_environnementales_réalisées_en	N
+7l0l5	2009_et_2011___pendant	T
+7l0l6	le_fonctionnement_des_activités	A
+
+#Il ressortait de ces études une pollution des sols principalement par des HCT (hydrocarbures totaux) et des BTEX (benzène, toluène, ethylbenzène, xylène) sur plusieurs zones de la station-service.
+
+8l0l0	des_HCT	O
+8l1l0	des_HCT	S
+8l1l1	hydrocarbures_totaux	S
+8l1l2	des_BTEX	S
+8l1l3	benzène	S
+8l1l4	toluène	S
+8l1l5	ethylbenzène	S
+8l1l6	xylène	S
+
+#La nappe est également impactée par des HCT, des BTEX, des HAP (hydrocarbures aromatiques polycycliques) et des COHV (Composés Organohalogénés Volatils).
+
+9l0l0	impactée	O
+9l1l0	des_HCT	S
+9l1l1	des_BTEX	S
+9l1l2	des_HAP	S
+9l1l3	hydrocarbures_aromatiques_polycycliques	S
+9l1l4	des_COHV	S
+9l1l5	Composés_Organohalogénés_Volatils	S
+
+#Le Préfet des Hauts de Seine a donc prescrit, par arrêté préfectoral du 19/03/2012, la mise en sécurité du site, la surveillance de la qualité des eaux souterraines, et la réalisation d’un plan de gestion présentant les mesures nécessaires pour rendre compatible le site avec un usage comparable à celui de la dernière période d’exploitation de l’installation
+
+10l0l0	Le_Préfet_des_Hauts_de_Seine	O
+10l0l1	a_donc_prescrit	N
+10l0l2	par_arrêté_préfectoral	O
+10l0l3	19_03_2012	T
+10l0l4	la_mise_en_sécurité	N
+10l0l5	site	O
+10l0l6	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+10l0l7	la_réalisation_d_	N
+10l0l8	un_plan_de_gestion	O
+10l0l9	dernière_période_d__exploitation	N
+10l0l10	l__installation	O
+10l1l0	Le_Préfet	I
+10l1l1	des_Hauts_de_Seine	I
+
+#Un plan de gestion et un rapport de fin de travaux de démantèlement et de dépollution ont été transmis à l’inspection en septembre 2012.
+
+11l0l0	Un_plan_de_gestion	O
+11l0l1	un_rapport	O
+11l0l2	fin_de_travaux_de_démantèlement	N
+11l0l3	de_dépollution	N
+11l0l4	ont_été_transmis	N
+11l0l5	en_septembre_2012__	T
+
+#D’autre part, un rapport de suivi de la qualité des eaux souterraines de janvier 2013, une nouvelle Analyse des Risques Résiduels accompagnée de l’Interprétation de l’État des Milieux suite aux travaux de dépollution ont été transmis.
+
+12l0l0	un_rapport_de_suivi_de_la_qualité_des_eaux_souterraines	O
+12l0l1	de_janvier_2013__	T
+12l0l2	aux_travaux_de_dépollution	N
+12l0l3	ont_été_transmis	N
+
+#Il ressort de ces documents que le site, à l'issue de la dépollution, est compatible avec un usage industriel/commercial sur site et un usage résidentiel hors site.
+
+13l0l0	le_site	O
+13l0l1	l__issue_de	R
+13l0l2	la_dépollution	N
+13l0l3	un_usage_industriel	A
+13l0l4	un	O
+13l0l5	usage_résidentiel_hors_site	A
+
+#Une visite d’inspection a été menée le 13/10/2014 sur le site de l’ancienne station service.
+
+14l0l0	Une_visite_d__inspection	N
+14l0l1	a_été_menée	N
+14l0l2	le_13_10_2014	T
+14l0l3	l__ancienne_station_service	O
+
+#Il a été constaté que l’exploitant n’avait plus réalisé la surveillance de la qualité des eaux souterraines alors prescrit par l’arrêté préfectoral du 19/03/2012.
+
+15l0l0	l__exploitant	O
+15l0l1	n__avait_plus_réalisé_la	N
+15l0l2	surveillance_de_la_qualité_des_eaux_souterraines	A
+15l0l3	l__arrêté_préfectoral	O
+15l0l4	19_03_2012__	T
+
+#Aussi, Monsieur le Préfet a mis en demeure par arrêté préfectoral du 18/11/2014 l’exploitant de réaliser les campagnes de surveillance.
+
+16l0l0	Monsieur_le_Préfet	O
+16l0l1	a_mis_en_demeure	N
+16l0l2	par_arrêté_préfectoral	O
+16l0l3	du_18_11_2014	T
+16l0l4	l__exploitant	O
+16l0l5	réaliser_les_campagnes_de_surveillance	N
+16l1l0	le_Préfet	I
+
+#En mars 2015, l’exploitant a transmis la campagne de surveillance de février 2015. Les résultats montrent l’absence ou la quasi absence (concentrations inférieures ou proches du seuil de détection du laboratoire) des hydrocarbures volatils (C5-C10) et totaux ( C10-C40), des BTEX et des HAP au droit de l’ensemble des piézomètres prélevés Pz2 à Pz5 (hors site).
+
+17l0l0	En_mars_2015__	T
+17l0l1	l__exploitant	O
+17l0l2	a_transmis	N
+17l0l3	la_campagne_de_surveillance	N
+17l0l4	de_février_2015__	T
+17l1l0	des_hydrocarbures_volatils	S
+17l1l1	__C5_C10___et_totaux	S
+17l1l2	des_BTEX	S
+17l1l3	des_HAP	S
+
+#Ces résultats ont été confirmés lors des campagnes suivantes d'août 2015 et d'avril 2016.
+
+18l0l0	ont_été_confirmés	N
+18l0l1	lors	T
+18l0l2	des_campagnes_suivantes_d_	N
+18l0l3	août_2015_et_d__avril_2016__	T
+
+#En conséquence, l'inspection a considéré que la société SHELL pouvait arrêter le suivi de la qualité des eaux souterraines au niveau de ce site.
+
+19l0l0	l__inspection	O
+19l0l1	a_considéré	N
+19l0l2	la_société_SHELL	O
+19l0l3	le_suivi_de_la_qualité_des_eaux_souterraines	A
+19l1l0	la_société_SHELL	I

@@ -1,0 +1,200 @@
+
+#53.0050
+#Le site, d’une superficie de 18 800m², est localisé à proximité de la ville de Gorron (voir plan cartographique n°1).
+
+
+#Le site est entouré d'entreprises artisanales au sud, de champs au nord et à proximité de la rivière la Colmont et du ruisseau le Hercé.
+
+1l0l0	Le_site	O
+1l0l1	artisanales_au_sud___de_champs_au_nord_et_à_proximité	L
+
+#L'habitation la plus proche est une exploitation agricole située à plus de 100 m de la limite du site.
+
+2l0l0	L__habitation	O
+2l0l1	la_plus_proche_est_une_exploitation_agricole	L
+2l0l2	de_100_m_de_la_limite_du_site__	L
+
+#L’exploitant du site est la société BELLIARD Frères depuis 1981.
+
+3l0l0	L__exploitant_du_site_est_la	O
+3l0l1	société_BELLIARD_Frères_depuis	O
+3l0l2	1981__	L
+
+#Elle a pour activité la fabrication de charpente traditionnelle et en lamellé/collé.
+
+4l0l0	Elle_a_pour_activité_la	O
+4l0l1	fabrication_de_charpente	O
+4l0l2	traditionnelle_et_en_lamellé___collé__	T
+4l1l0	fabrication_de_charpente_traditionnelle	I
+
+#La société est autorisé à exploiter par arrêté préfectoral du 13/02/2005.
+
+5l0l0	est_autorisé_à_exploiter_par_arrêté_préfectoral_du_13_02_2005__	A
+
+#- Installation de mise en œuvre de produits de préservation du bois (régime autorisation),
+
+6l0l0	__Installation	O
+6l0l1	de_mise_en_œuvre_de	N
+6l0l2	produits_de_préservation	O
+6l0l3	bois___régime_autorisation____	T
+
+#- Application de peinture, colle, … sur support quelconque par tout procédé autre que le trempé (régime autorisation),
+
+7l0l0	Application_de	R
+7l0l1	peinture___colle_____sur_support_quelconque_par_tout	A
+
+#- Atelier de travail du bois (régime autorisation),
+
+8l0l0	Atelier_de_travail_du_bois	N
+
+#- Installation de distribution de liquides inflammables (régime déclaration avec contrôle).
+
+9l0l0	Installation_de_distribution	A
+
+#Les installations de la société se répartissent de la manière suivante:
+
+10l0l0	Les_installations_de_la_société_se_répartissent	A
+10l1l0	répartissent_de_la_manière	U
+
+#- un atelier d’aboutage des pièces de bois
+
+11l0l0	__un_atelier_d__aboutage_des_pièces	O
+
+#- d'une chaine de rabotage et encollage de lamelle
+
+12l0l0	chaine_de_rabotage_et_encollage_de_lamelle	A
+
+#- un atelier de serrage des pièces de lamellés-collés
+
+13l0l0	atelier_de	O
+13l0l1	serrage_des_pièces_de_lamellés___collés	A
+
+#- un atelier de débit
+
+14l0l0	de_débit	A
+
+#- une installation de traitement du bois par immersion
+
+15l0l0	une_installation_de_traitement_du_bois_par_immersion	O
+
+#- une installation de traitement du bois par aspersion
+
+16l0l0	une	N
+16l0l1	installation_de_traitement_du_bois	A
+16l0l2	par_aspersion	L
+
+#- un local de stockage de la colle et de son durcisseur
+
+17l0l0	un_local_de_stockage_de_la_colle_et	O
+17l0l1	durcisseur	N
+
+#L’activité de fabrication de charpente et en lamellés-collé est toujours en fonctionnement.
+
+18l0l0	L__activité	O
+18l0l1	de_fabrication_de	A
+18l0l2	charpente_et_en_lamellés___collé_est_toujours_en_fonctionnement__	O
+18l1l0	fabrication_de_charpente	U
+18l1l1	lamellés___collé_est_toujours_en_fonctionnement__	U
+
+#En 2003, le petit ruisseau du "Hercé" situé à proximité du site est polluée.
+
+19l0l0	En_2003___le_petit_ruisseau_du___Hercé___situé	A
+19l0l1	proximité_du	A
+19l0l2	polluée__	T
+
+#L'établissement a été à l'origine de cette pollution, à l'occasion du lavage d'un container en attente de reprise par le fournisseur.
+
+20l0l0	L_	T
+20l0l1	établissement_a_été_à_l__origine_de	L
+20l0l2	cette_pollution___à_l__occasion	L
+20l0l3	du_lavage	N
+
+#Cette pollution a donné lieu à un procès-verbal d'infraction par le conseil supérieur de la pêche.
+
+21l0l0	Cette_pollution_a	O
+21l0l1	donné	N
+21l0l2	lieu_à_un	R
+21l0l3	procès_verbal_d_	O
+21l0l4	infraction_par_le_conseil	N
+21l0l5	supérieur_de_la_pêche	O
+
+#Depuis cet évènement, plus aucun nettoyage de container n'est effectué sur le site.
+
+22l0l0	Depuis_cet_évènement	N
+22l1l0	effectué_sur_le_site__	I
+
+#En 2004, un réseau de trois piézomètre (voir plan cartographique n°2) à été mise en place sur le site afin d'assurer une surveillance (par semestre) des eaux souterraines.
+
+23l0l0	En_2004	T
+23l0l1	__un_réseau_de	N
+23l0l2	trois_piézomètre___voir	N
+23l0l3	plan_cartographique	O
+
+#La surveillance est actuellement toujours en cours.
+
+24l0l0	La_surveillance	T
+
+#Le 15 janvier 2010, des produits toxiques ont rejoint la rivière "la colmont" entraînant une mortalité de poissons.
+
+25l0l0	Le_15_janvier_2010	O
+
+#Suite à cette pollution, une inspection a été réalisée le 18/01/2010.
+
+26l0l0	Suite_à_cette_pollution	T
+26l0l1	__une_inspection_a	O
+26l0l2	été_réalisée	N
+26l0l3	le_18_01_2010__	L
+26l1l0	pollution___une_inspection_a	U
+
+#La pollution due à une fissure du bac de traitement par immersion a entraîné un écoulement de produit toxique pour les organismes aquatiques dans une cuvette de rétention présentant un défaut d’étanchéité.
+
+27l0l0	La	R
+27l0l1	pollution_due_à_une_fissure_du_bac_de_traitement_par	N
+27l0l2	immersion_a_entraîné_un_écoulement_de_produit_toxique_pour_les_organismes_aquatiques_dans_une_cuvette_de_rétention_présentant_un_défaut_d__étanchéité__	T
+
+#Environ 1000 litres de produits dilués se sont déversés dans le réseau pluvial et ont rejoint la rivière de "la Colmont" par le réseau de Bailleul situé à proximité.
+
+28l0l0	Environ_1000	O
+28l0l1	litres	R
+28l0l2	de_produits	N
+28l0l3	dilués_se_sont_déversés	O
+28l0l4	dans_le_réseau_pluvial	N
+28l0l5	et_ont_rejoint_la_rivière_de___la	N
+28l0l6	situé_à_proximité__	O
+28l1l0	rejoint_la_rivière_de___la	U
+
+#Cette pollution a entrainée l’arrêt de la station de pompage d’eau potable pendant 3 jours et la mortalité d’environ 250 kg de poissons.
+
+29l0l0	pendant_3_jours_et	N
+29l0l1	la_mortalité_d__environ_250	L
+29l0l2	_	L
+29l1l0	entrainée_l__arrêt_de	U
+
+#Un procès-verbal pour non respect des dispositions de l’arrêté d’autorisation du 13 mai 2005 a été adressé à l’encontre des établissements BELLIARD.
+
+30l0l0	Un_procès_verbal_pour_non_respect_des	N
+30l0l1	dispositions	O
+30l0l2	de_l__arrêté_d__autorisation	A
+30l0l3	du_13_mai_2005	T
+30l0l4	a_été_adressé	N
+
+#Le 19 janvier 2010, la société à enlevé l'ensemble du produit récupéré dans son bac de traitement.
+
+31l0l0	Le_19_janvier_2010	O
+31l0l1	produit_récupéré_dans_son_bac	O
+31l0l2	de_traitement	T
+31l0l3	_	N
+
+#En 2016, lors d'une visite de l'inspection des installations classées, il a été constaté que les résultats de la campagne de surveillance des eaux souterraines mettent en évidence une présence de cyperméthrine, de phénol et de chlorophénols au niveau du Pz3.
+
+32l0l0	En_2016___lors_d__une	T
+32l0l1	visite_de_l_	O
+32l0l2	inspection	N
+
+#Aujourd'hui, à la date du 19/04/2018, le préfet attend que l'exploitant lui transmettre les résultats des campagnes de surveillance des eaux souterraines (2017 et 2018).
+
+33l0l0	Aujourd_hui	T
+33l0l1	__à_la_date_du	N
+33l0l2	19_04_2018___le_préfet_attend_que_l__exploitant	O
+33l0l3	campagnes_de_surveillance_des	N
+33l0l4	eaux_souterraines___2017	A

@@ -1,0 +1,151 @@
+
+#18.0046
+#L'ancienne station service CHAMPION est située dans le quartier de La Chancellerie sur le territoire de la commune de Bourges.
+
+0l0l0	L__ancienne_station_service_CHAMPION	O
+0l0l1	est_située_dans_le_quartier_de_La_Chancellerie	L
+0l0l2	sur_le_territoire_de_la_commune_de_Bourges	L
+0l1l0	CHAMPION	I
+
+#La superficie du site (comprenant la station et le supermarché) est de l'ordre de 2 450 m2.
+
+
+#Il couvre les parcelles AZ 125 et AZ 263.
+
+
+#Le site est localisé à proximité du Moulon.
+
+3l0l0	Le_site	O
+3l0l1	localisé_à_proximité_du_Moulon	L
+
+#Le site était spécialisé dans la distribution de carburant, et à ce titre utilisait de grandes quantités d'essence et de gazole.
+
+4l0l0	Le_site	O
+4l0l1	était_spécialisé	R
+4l0l2	dans_la_distribution_de_carburant	A
+4l0l3	gazole	O
+4l1l0	carburant	U
+4l1l1	gazole	U
+
+#Les zones initiales de pollution sont l'aire de dépotage et l'environnement proche de la cuve enterrée de stockage des carburants.
+
+5l0l0	Les_zones_initiales	O
+5l0l1	l_	O
+5l0l2	environnement_proche_de_la_cuve_enterrée	L
+5l0l3	de_stockage_des_carburants	O
+5l1l0	stockage_des_carburants	U
+
+#Un diagnostic des sols a été effectué en décembre 2005.
+
+6l0l0	Un_diagnostic_des_sols	N
+6l0l1	a_été_effectué	N
+6l0l2	en_décembre_2005__	T
+
+#Il en ressort une pollution en BTEX (benzène, toluène, éthylbenzène et xylène)au niveau de l'aire de distribution des carburants.
+
+7l1l0	BTEX	S
+7l1l1	benzène	S
+7l1l2	toluène	S
+7l1l3	éthylbenzène	S
+7l1l4	xylène_au	S
+7l1l5	carburants	U
+
+#L'exploitant a procédé à des travaux de démantèlement de la station service et de réhabilitation du site en 2008 dont l'enlèvement de la cuve enterrée de stockage de carburants et l'excavation des terres polluées d'une quantité de 95,5 tonnes.
+
+8l0l0	L__exploitant	O
+8l0l1	a_procédé_à	N
+8l0l2	des_travaux_de_démantèlement	N
+8l0l3	la_station_service	O
+8l0l4	de_réhabilitation	N
+8l0l5	site	O
+8l0l6	en_2008	T
+8l0l7	dont_l__enlèvement	N
+8l0l8	la_cuve_enterrée	O
+8l0l9	de_stockage_de_carburants	O
+8l0l10	l__excavation	N
+8l0l11	des_terres_polluées	N
+8l1l0	la_cuve_enterrée	D
+8l1l1	stockage_de_carburants	U
+
+#Ces terres ont ensuite été éliminées en centre de bio-traitement.
+
+9l0l0	Ces_terres	O
+9l0l1	ont_ensuite_été_éliminées	N
+9l0l2	bio_traitement	O
+
+#Les justificatifs de traitement ont été transmis à l'inspection des installations classées.
+
+10l0l0	Les_justificatifs_de_traitement	O
+10l0l1	ont_été_transmis	N
+
+#A l'issu de ces travaux des mesures des sols et des sous sols ont été réalisés.
+
+11l0l0	ces_travaux	N
+11l0l1	des_mesures	N
+11l0l2	ont_été_réalisés	N
+
+#Ceux-ci ont démontré la présence d'une pollution résiduelle au droit de la zone de dépotage des carburants.
+
+12l0l0	au_droit_de_la_zone_de	L
+12l0l1	dépotage_des_carburants	O
+12l1l0	carburants	U
+
+#L'excavation de terres souillées d'une partie de cette zone n'a pas pu être effectuée du fait de la présence de réseaux électriques souterrains.
+
+13l0l0	L__excavation	N
+13l0l1	terres_souillées	O
+13l0l2	cette_zone	O
+13l0l3	n__a_pas_pu_être_effectuée	N
+
+#Un diagnostic approfondi et une évaluation quantitative des risques sanitaires (EQRS)ont été réalisés respectivement en septembre et en octobre 2008.
+
+14l0l0	Un_diagnostic_approfondi	N
+14l0l1	une_évaluation_quantitative	N
+14l0l2	EQRS_ont_été_réalisés	N
+14l0l3	respectivement_en_septembre_et_en_octobre_2008__	T
+
+#Une pollution des eaux souterraines en hydrocarbures volatils a été détectée au droit du site ainsi qu'en aval hydraulique.
+
+15l0l0	Une_pollution	O
+15l0l1	a_été_détectée	N
+15l0l2	au_droit_du_site	L
+15l0l3	ainsi	O
+15l0l4	qu_	R
+15l0l5	en_aval_hydraulique	L
+15l1l0	hydrocarbures_volatils	S
+
+#L'arrêté préfectoral du 2 février 2010 prescrit donc la surveillance semestrielle des eaux souterraines par 5 piézomètres pour lesquelles les paramètres suivants sont analysés : hydrocarbures totaux, BTEX.
+
+16l0l0	L__arrêté_préfectoral	O
+16l0l1	du_2_février_2010	T
+16l0l2	prescrit	N
+16l0l3	la_surveillance_semestrielle	A
+16l0l4	des_eaux_souterraines	A
+16l1l0	hydrocarbures_totaux	S
+16l1l1	BTEX	S
+
+#La surveillance piézométrique montre que la situation est satisfaisante et que les concentrations pour l'ensemble des paramètres sont en diminution et inférieures aux valeurs limites de référence des eaux destinées à la consommation humaine.
+
+17l0l0	La_surveillance_piézométrique	N
+
+#L'exploitant a établi un dossier de demande d'institution de servitudes d'utilité publique en février 2010 dans le but de limiter l'usage des sols sur site et d'interdire l'utilisation des eaux souterraines sur le site ainsi qu'en aval hydraulique.
+
+18l0l0	L__exploitant	O
+18l0l1	a_établi	N
+18l0l2	un_dossier	O
+18l0l3	de_demande	N
+18l0l4	d_	N
+18l0l5	institution_de_servitudes_d__utilité_publique	O
+18l0l6	en_février_2010	T
+18l0l7	d__interdire	N
+18l0l8	l_	O
+18l0l9	utilisation_des_eaux_souterraines	A
+18l0l10	en_aval_hydraulique	L
+
+#Les restrictions d'usage ont été prescrites dans l'arrêté préfectoral du 28 octobre 2011 instituant des servitudes d'utilité publique.
+
+19l0l0	Les_restrictions_d__usage	O
+19l0l1	ont_été_prescrites	N
+19l0l2	l__arrêté_préfectoral	O
+19l0l3	28_octobre_2011	T
+19l0l4	instituant_des_servitudes	N

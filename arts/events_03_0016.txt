@@ -1,0 +1,98 @@
+
+#03.0016
+#Le site de Commentry a accueilli une usine fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	Le_site_de_Commentry	O
+0l0l1	a_accueilli	N
+0l0l2	une_usine	O
+0l0l3	fabriquant_du_gaz	A
+0l0l4	à_partir_de	R
+0l0l5	la_distillation_de_la_houille	A
+
+#Actuellement, il est utilisé pour les besoins des entreprises EDF et  / ou Gaz de France.
+
+1l1l0	des_entreprises_EDF	I
+1l1l1	ou_Gaz_de_France	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+2l0l0	Gaz_de_France	O
+2l0l1	a_hiérarchisé	N
+2l0l2	ses_actions	O
+2l0l3	467_sites	O
+2l1l0	Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement  (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site...).
+
+3l0l0	hiérarchiser	N
+3l0l1	les_sites	O
+3l0l2	en_fonction_de	R
+3l0l3	leur_sensibilité	O
+3l0l4	vis_à_vis_de	R
+3l0l5	l__environnement	O
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+4l0l0	L__application	N
+4l0l1	cette_méthode	O
+4l0l2	a_abouti_à	R
+4l0l3	l__établissement	N
+4l0l4	5_classes_de_priorité	O
+4l0l5	les_engagements	O
+4l0l6	Gaz_de_France	O
+4l0l7	ont_fait_l__objet_d_	R
+4l0l8	un_protocole_d__accord	O
+4l0l9	relatif_à	R
+4l0l10	la_maîtrise	O
+4l0l11	suivi	O
+4l0l12	la_réhabilitation	N
+4l0l13	anciens_terrains_d__usines_à_gaz	O
+4l0l14	entre	R
+4l0l15	le_Ministère_de_l__Environnement	O
+4l0l16	Gaz_de_France	O
+4l0l17	signé	N
+4l0l18	le_25_avril_1996	T
+4l1l0	Gaz_de_France	I
+4l1l1	le_Ministère_de_l__Environnement	I
+4l1l2	Gaz_de_France	I
+
+#Le site de Commentry est en classe 4 du protocole.
+
+5l0l0	Le_site_de_Commentry	O
+
+#De ce fait, c'est un site dont la sensibilité vis à vis de l'homme, des eaux souterraines et superficielles est très faible.
+
+
+#Sur la base de plans historiques, deux sondages sols ont été réalisés en février 2001 à l'emplacement supposé d'une cuve à goudron et d'un gazomètre.
+
+7l0l0	deux_sondages_sols	O
+7l0l1	ont_été_réalisés	N
+7l0l2	en_février_2001	T
+7l0l3	à_l_	R
+7l0l4	emplacement_supposé_d__une_cuve_à_goudron	O
+7l0l5	un_gazomètre	L
+
+#Ces sondages n'ont pas mis en évidence la présence de ces ouvrages.
+
+8l0l0	ces_ouvrages	O
+
+#Un rapport parcellaire (ICF Environnement) d'octobre 2003 trace ces conclusions.
+
+9l0l0	Un_rapport_parcellaire	O
+9l0l1	__d__octobre_2003	T
+9l1l0	ICF_Environnement	I
+
+#Compte tenu de l'activité historique du site et des investigations très limitées, la présence d'ouvrages enterrés ne peut être exclue.
+
+
+#Aussi, dans le cas d'un réaménagement du site et de la découverte d'ouvrages liés aux anciennes activités de fabrication de gaz à partir de houille, il conviendra de procéder aux traitements des pollutions et de s'assurer de la compatibilité sanitaire de l'usage avec l'état des sols et des eaux souterraines.
+
+11l0l0	dans_le_cas_d_	R
+11l0l1	un_réaménagement	N
+11l0l2	la_découverte	N
+11l0l3	ouvrages	O
+11l0l4	liés_aux	R
+11l0l5	anciennes_activités_de_fabrication_de_gaz	A
+11l0l6	à	R
+11l0l7	partir_de_houille	A
+11l0l8	traitements_des_pollutions	N

@@ -1,0 +1,471 @@
+
+#94.0075
+#La société CALDEO (ancienne station service ELAN) exploitait, sur ce site, deux installations de distribution de carburants, soumises à déclaration selon la rubrique R 1434-1-b [D].
+
+0l0l0	La_société_CALDEO	O
+0l0l1	ELAN	O
+0l0l2	exploitait	N
+0l0l3	sur_ce_site	L
+0l0l4	deux_installations_de	O
+0l0l5	distribution_de_carburants	A
+0l0l6	soumises	L
+0l0l7	à_déclaration	N
+0l0l8	selon	R
+0l1l0	La_société_CALDEO	I
+0l1l1	ancienne_station_service_ELAN	I
+0l1l2	carburants	U
+
+#Les installations étaient les suivantes :
+
+1l0l0	Les_installations	O
+
+#· Au niveau de la cour avant :
+
+
+#– 1 cuve de 30 m³ double enveloppe de super carburant.
+
+3l0l0	double_enveloppe_de_super_carburant	O
+3l1l0	de_super_carburant	U
+
+#– 1 cuve de 30 m³ double enveloppe  : 15 GO + 15 SP98.
+
+4l0l0	m³_double_enveloppe	O
+4l1l0	__1_cuve_de	D
+4l1l1	____15	I
+4l1l2	__15_SP98	S
+
+#– 2 îlots de distribution.
+
+
+#· Au niveau de la cour arrière :
+
+
+#– 1 cuve de 30 m³ : 25 GO + 5 vide.
+
+
+#– 1 îlot de distribution GO de 5 m³/h.
+
+
+#Par courrier du 16/03/2005, l’exploitant a informé la préfecture de la cessation des activités de stockage et de distribution situées dans la cour avant de l’établissement.
+
+9l0l0	16_03_2005	T
+9l0l1	l__exploitant	O
+9l0l2	a_informé	N
+9l0l3	la_préfecture	O
+9l0l4	la_cessation	N
+9l0l5	des_activités_de_stockage_et_de_distribution	A
+9l0l6	situées_dans_la_cour_avant_de_l__établissement	L
+
+#En mars 2005, toutes les cuves du site ont été nettoyées et dégazées.
+
+10l0l0	En_mars_2005__	T
+10l0l1	toutes_les_cuves_du_site	O
+10l0l2	ont_été_nettoyées	N
+10l0l3	dégazées	N
+10l1l0	cuves	D
+
+#Les cuves situées dans la cour avant ont ensuite été neutralisées.
+
+11l0l0	Les_cuves	O
+11l0l1	situées_dans_la_cour_avant	L
+11l0l2	ont_ensuite_été_neutralisées	N
+
+#Les installations situées dans la cour arrière ont été reprises par une société de transport puis supprimées en 2014.
+
+12l0l0	Les_installations	O
+12l0l1	situées_dans_la_cour_arrière	L
+12l0l2	ont_été_reprises	N
+12l0l3	une_société_de_transport	O
+12l0l4	supprimées	N
+12l0l5	en_2014__	T
+12l1l0	une_société_de_transport	I
+
+#1-Diagnostic initial
+
+13l0l0	1_Diagnostic_initial	N
+
+#Le diagnostic pollution réalisé en 2005 a mis en évidence la présence :
+
+14l0l0	Le_diagnostic_pollution	N
+14l0l1	réalisé	N
+14l0l2	en_2005	T
+
+#· Dans les sols : d’hydrocarbures totaux, de toluène, d’éthylbenzène et de xylènes.
+
+15l1l0	d__hydrocarbures_totaux	S
+15l1l1	toluène	S
+15l1l2	d__éthylbenzène	S
+15l1l3	xylènes	S
+
+#· Dans la nappe : de benzène, d’hydrocarbures totaux, de HAP.
+
+16l1l0	benzène	S
+16l1l1	d__hydrocarbures_totaux	S
+16l1l2	HAP	S
+
+#2-Suivi de la qualité des milieux
+
+17l0l0	2_Suivi_de_la_qualité_des_milieux	A
+
+#CALDEO a transmis le rapport relatif à la campagne d’analyses des eaux de la nappe, réalisées en juillet 2005, par courrier du 26/01/2012.
+
+18l0l0	CALDEO	O
+18l0l1	a_transmis	N
+18l0l2	le_rapport	O
+18l0l3	relatif_à	R
+18l0l4	la_campagne_d__analyses	N
+18l0l5	réalisées	N
+18l0l6	en_juillet_2005__	T
+18l0l7	par_courrier	N
+18l0l8	du_26_01_2012__	T
+18l1l0	CALDEO	I
+
+#Une nappe est présente au droit du site entre 3,30 et 3,80 mètres qui s’écoule vers le nord-est (vers la zone industrielle voisine).
+
+19l0l0	au_droit_du_site	L
+19l0l1	vers_le_nord_est	L
+19l0l2	vers_la_zone_industrielle_voisine	L
+
+#Vu les teneurs importantes, en polluants, présentes dans la nappe depuis 2005, il a été demandé à CALDEO, par courrier préfectoral du 10/08/2012, de transmettre, dans un délai de 3 mois :
+
+20l0l0	depuis_2005__	T
+20l0l1	il_a_été_demandé	N
+20l0l2	CALDEO	O
+20l0l3	10_08_2012	T
+20l0l4	dans_un_délai_de_3_mois	T
+20l1l0	polluants	S
+20l1l1	CALDEO	I
+
+#– Un plan de gestion (conformément à la circulaire du ministère du 08/02/2007 relative à la gestion des sites pollués) visant à lister les mesures prévues en vue de supprimer les sources sol de pollution et de traiter l’eau de la nappe.
+
+21l0l0	Un_plan_de_gestion	O
+21l0l1	08_02_2007	T
+
+#– Les résultats d’une campagne d’analyse des eaux de la nappe afin de faire le point sur l’évolution de la pollution.
+
+22l0l0	une_campagne_d__analyse	N
+22l0l1	la_nappe	O
+
+#– Les résultats d’air intérieur des bâtiments présents sur le site de l’ancienne station service, vu les teneurs importantes en benzène, présentes dans la nappe.
+
+23l1l0	benzène	S
+
+#En mars et août 2013, les analyses des eaux de la nappe, d’air intérieur (au rez-de-chaussée dans la boutique) et d’air extérieur, ont été  réalisées.
+
+24l0l0	En_mars_et_août_2013__	T
+24l0l1	les_analyses	N
+24l0l2	ont_été___réalisées	N
+
+#En août 2013, 4 nouveaux piézomètres ont été implantés afin de déterminer l’extension de la pollution (PZ15 à PZ18).
+
+25l0l0	En_août_2013__	T
+25l0l1	4_nouveaux_piézomètres	O
+25l0l2	ont_été_implantés	N
+
+#Les résultats des analyses ont mis en évidence les points suivants :
+
+
+#- L’impact est centré sur le PZ13 situé à proximité de l’ancienne cuve D.
+
+27l0l0	le_PZ13	O
+27l0l1	situé_à_proximité_de_l__ancienne_cuve_D_	L
+
+#Il est en constante diminution depuis 2005, mais reste important.
+
+28l0l0	depuis_2005__	T
+
+#- La présence d’hydrocarbures est constatée sur les PZ13, PZ15 et PZ16, les BTEX dont le benzène sont présents au droit de tous les piézomètres, sauf au niveau du PZ11 pour le mois d’août.
+
+29l0l0	mois_d_	A
+29l0l1	août	T
+29l1l0	hydrocarbures	S
+29l1l1	BTEX	S
+29l1l2	le_benzène	S
+
+#- La campagne de mesures, réalisée sur l’air intérieur, au sous-sol de la boutique et en extérieur a mis en évidence l’absence d’impact.
+
+30l0l0	La_campagne_de_mesures	N
+30l0l1	au_sous_sol_de_la_boutique_et_en_extérieur	L
+30l0l2	a_mis	R
+
+#Seul le toluène a été détecté, avec des teneurs non significatives (2,09 µg/m3).
+
+31l1l0	le_toluène	S
+
+#Au regard de ces résultats d’analyses, l’inspection a demandé à CALDEO de poursuivre la surveillance de la nappe avec des analyses semestrielles et de transmettre, dans un délai de 5 mois, à la préfecture du Val-de-Marne et à l’inspection des installations classées, un plan de gestion de la pollution, ainsi que les justificatifs de nettoyage, dégazage et neutralisation des cuves et tuyauteries de l’ancienne station service.
+
+32l0l0	l__inspection	O
+32l0l1	a	N
+32l0l2	CALDEO	O
+32l0l3	surveillance	A
+32l0l4	la_nappe	O
+32l0l5	dans_un_délai_de_5_mois	T
+32l0l6	la_préfecture_du_Val_de_Marne	O
+32l0l7	l__inspection_des_installations_classées	O
+32l0l8	un_plan_de_gestion	N
+32l0l9	la_pollution	O
+32l0l10	les_justificatifs	O
+32l0l11	de_nettoyage	N
+32l0l12	dégazage	N
+32l0l13	neutralisation	N
+32l0l14	cuves_et_tuyauteries	O
+32l0l15	l__ancienne_station_service	O
+32l1l0	CALDEO	I
+32l1l1	cuves	D
+
+#L'inspection a pris bonne note du fait que la réalisation du plan de gestion nécessiterait de compléter le diagnostic, notamment par des mesures de gaz des sols.
+
+33l0l0	la_réalisation	N
+33l0l1	du_plan_de_gestion	O
+33l0l2	compléter_le_diagnostic	N
+
+#3-Mise en sécurité du site
+
+34l0l0	3_Mise_en_sécurité	N
+34l0l1	du_site	O
+
+#Par courrier du 14/05/2014, l’exploitant à transmis les justificatifs de dégazage de toutes les cuves du site, présentes dans la cour arrière et dans la cour avant, et de neutralisation des 2 cuves de 30 m³ de la cour avant.
+
+35l0l0	14_05_2014	T
+35l0l1	l__exploitant	O
+35l0l2	à_transmis	N
+35l0l3	les_justificatifs	O
+35l0l4	de_dégazage	N
+35l0l5	toutes_les_cuves	O
+35l0l6	dans_la_cour_arrière_et_dans_la_cour_avant	L
+35l0l7	de_neutralisation	N
+35l0l8	2_cuves	O
+35l1l0	cuves	D
+35l1l1	2_cuves	D
+
+#Les travaux ont été réalisés du 18 au 23 mars 2005.
+
+36l0l0	Les_travaux_ont_été_réalisés	N
+36l0l1	du_18_au_23_mars_2005__	T
+
+#4-Plan de gestion
+
+37l0l0	gestion	T
+
+#Par courrier du 30/11/2017, CALDEO a transmis un plan de gestion de la pollution.
+
+38l0l0	30_11_2017	T
+38l0l1	CALDEO	O
+38l0l2	a_transmis	N
+38l0l3	un_plan_de_gestion	O
+38l0l4	la_pollution	O
+38l1l0	CALDEO	I
+
+#Les mesures de gestion prévues sont :
+
+
+#- une extraction des cuves présentes sur le site ;
+
+40l0l0	une_extraction	N
+
+#- une excavation des zones de pollution de sol concentrée avec un traitement et un pompage des eaux de fond de fouilles ;
+
+41l0l0	une_excavation	N
+41l0l1	zones_de_pollution	O
+41l0l2	un_traitement	N
+41l0l3	un_pompage	N
+41l0l4	des_eaux_de	A
+41l0l5	fond_de_fouilles	O
+
+#- un traitement in situ par oxydation ;
+
+42l0l0	un_traitement_in_situ	N
+42l0l1	oxydation	N
+
+#- une recherche d’autres cuves indiquées sur un ancien plan de l’installation des années 1970.
+
+43l0l0	des_années_1970	T
+
+#Sur la base du plan de gestion n°P7 140 070 et des informations transmises lors de la réunion du 30/01/2017, l’inspection des installations classées a donné, par courrier du 01/02/2018, un accord de principe sur la méthodologie choisie de traitement des pollutions présentes sur le site.
+
+44l0l0	Sur_la_base_du	R
+44l0l1	plan_de_gestion	O
+44l0l2	du_30_01_2017	T
+44l0l3	__l__inspection_des_installations_classées	O
+44l0l4	a_donné___par_courrier	N
+44l0l5	du_01_02_2018	T
+44l0l6	de_traitement_des_pollutions	N
+
+#5-Rapport de fin de travaux
+
+45l0l0	5_Rapport	O
+45l0l1	fin_de_travaux	N
+
+#CALDEO a transmis :
+
+46l1l0	CALDEO	I
+
+#- Par courrier du 15/11/2018, le rapport de fin des travaux d’excavation, réalisés du 03/04/2018 au 23/07/2018 ;
+
+47l0l0	15_11_2018	O
+47l0l1	le_rapport	O
+47l0l2	fin_des_travaux_d__excavation	N
+47l0l3	réalisés	N
+47l0l4	du_03_04_2018_au_23_07_2018	T
+
+#- par courrier du 26/08/2019, le rapport de fin de travaux relatif au traitement complémentaire de la nappe et l’analyse des risques résiduels.
+
+48l0l0	26_08_2019	T
+48l0l1	le_rapport	O
+48l0l2	fin_de_travaux	N
+48l0l3	relatif	R
+48l0l4	au_traitement_complémentaire	N
+
+#Les travaux de réhabilitation ont été les suivants :
+
+49l0l0	Les_travaux_de_réhabilitation	N
+49l0l1	ont_été_les	N
+
+#- Démantèlement des 3 cuves enterrées de 30 m³ et de la cuve aérienne de 5 m³ ;
+
+50l0l0	Démantèlement	N
+50l0l1	3_cuves_enterrées	O
+50l0l2	la_cuve_aérienne	O
+50l1l0	cuves_enterrées	D
+
+#- recherche de cuves enterrées : aucune nouvelle cuve n’a été trouvée.
+
+51l1l0	cuves_enterrées	D
+
+#- excavation des terres polluées sur la zone sud, jusqu’à 30 cm sous le niveau de la nappe.
+
+52l0l0	excavation	N
+52l0l1	des_terres_polluées	O
+52l0l2	la_zone_sud	O
+
+#Les eaux d’exhaure ont été traitées par le séparateur à hydrocarbures du site puis sur charbon actif, avant rejet dans le réseau d’assainissement.
+
+53l0l0	Les_eaux_d__exhaure	O
+53l0l1	ont_été_traitées	N
+53l0l2	charbon_actif	O
+53l1l0	hydrocarbures	S
+53l1l1	charbon_actif	U
+
+#- traitement de finition de la pollution résiduelle (sol et eaux souterraines) par oxydation chimique au persulfate de sodium, directement dans la fouille.
+
+54l0l0	oxydation_chimique	N
+54l0l1	persulfate	O
+54l0l2	directement_dans_la_fouille	L
+54l1l0	persulfate	S
+54l1l1	sodium	S
+
+#Les terres impactées par des hydrocarbures ont été évacuées vers le biocentre BIOGENIE à Echarcon (91).
+
+55l0l0	Les_terres_impactées_par	O
+55l0l1	hydrocarbures	O
+55l0l2	ont_été_évacuées_vers	N
+55l0l3	le_biocentre_BIOGENIE	O
+55l0l4	à_Echarcon___91__	L
+55l1l0	hydrocarbures	S
+55l1l1	le_biocentre_BIOGENIE	I
+
+#Au total, 255,88 tonnes de terres et sables pollués ont été évacuées du site.
+
+56l0l0	255_88_tonnes_de_terres	O
+56l0l1	sables_pollués	O
+56l0l2	ont_été_évacuées	N
+
+#Des prélèvements ont été réalisés en fond et bords de fouille.
+
+57l0l0	Des_prélèvements_ont_été_réalisés	N
+57l0l1	en_fond_et_bords_de_fouille	L
+
+#La fouille a été remblayée avec des terres issues du site et avec des matériaux d’apport extérieur.
+
+58l0l0	La_fouille	O
+58l0l1	a_été_remblayée	N
+58l0l2	avec_des_terres	O
+58l0l3	des_matériaux	O
+
+#Un géotextile a été mis en place à - 1 mètre de profondeur.
+
+59l0l0	Un_géotextile	O
+59l0l1	a_été_mis_en_place	N
+
+#Les concentrations résiduelles en hydrocarbures, dans les sols, les plus significatives sont comprises entre 556 et 701 mg/kg;
+
+60l1l0	hydrocarbures	S
+
+#- traitement d’appoint des eaux souterraines au réactif de Fenton (peroxyde d’hydrogène + sulfate de fer) au droit des piézomètres impactés. 2 campagnes d’injection successives, espacées de 2 mois ont été réalisées, à partir du mois d’août 2018.
+
+61l0l0	traitement_d__appoint_des_eaux_souterraines	O
+61l0l1	au_droit_des_piézomètres_impactés	O
+61l0l2	2_campagnes_d__injection_successives	N
+61l0l3	2_mois	T
+61l0l4	ont_été_réalisées	N
+61l0l5	à_partir_du_mois_d__août_2018__	T
+61l1l0	Fenton	S
+61l1l1	peroxyde_d__hydrogène	U
+61l1l2	sulfate_de_fer	S
+
+#Les résultats d’analyses de décembre 2018 ont mis en évidence des concentrations résiduelles, dans l'eau de la nappe, très importantes, jusqu'à 18900 µg/l en benzène, 20902 µg/l en BTEX et 2760 µg/l en hydrocarbures volatils.
+
+62l0l0	décembre_2018	T
+62l0l1	des_concentrations	O
+62l1l0	benzène	S
+62l1l1	BTEX	S
+62l1l2	hydrocarbures_volatils	S
+
+#Une diminution des concentrations a été constatée en mars 2019, mais elles restent élevées : 5750 µg/l en benzène et 3701 µg/l en hydrocarbures volatils.
+
+63l0l0	a_été_constatée	N
+63l0l1	en_mars_2019__	T
+63l1l0	benzène	S
+63l1l1	hydrocarbures_volatils	S
+
+#L’analyse des risques résiduels a été basée sur le scénario suivant : inhalation, par des travailleurs, de substances volatiles dans l’air intérieur (sous-sol et rez-de-chaussée), suite au dégazage des sols et des eaux souterraines.
+
+64l0l0	suivant__	N
+64l0l1	inhalation	N
+64l0l2	par_des_travailleurs	N
+64l0l3	__suite_au	R
+64l0l4	dégazage	N
+64l1l0	de_substances_volatiles	U
+
+#Les teneurs prises en compte sont celles mesurées dans l’air intérieur du bâtiment présent sur le site.
+
+65l0l0	mesurées	N
+
+#Les calculs de risque ont montré que la qualité du sous-sol était compatible avec un usage industriel, avec conservation de l’aménagement actuel.
+
+66l0l0	Les_calculs_de_risque	N
+66l0l1	un_usage_industriel	A
+66l0l2	l__aménagement	N
+
+#L’inspection des installations classées a demandé à CALDEO, dans son rapport du 16/12/2019, de transmettre, dans un délai de 3 mois :
+
+67l0l0	L__inspection_des_installations_classées	O
+67l0l1	CALDEO	O
+67l0l2	16_12_2019	T
+67l0l3	dans_un_délai_de_3_mois	T
+67l1l0	CALDEO	I
+
+#• un plan de gestion proposant de nouvelles mesures de gestion permettant de traiter l’eau de la nappe ;
+
+68l0l0	un_plan_de_gestion	O
+
+#• un plan d’ensemble du site mentionnant les contours des panaches de pollution dans les sols et dans la nappe ;
+
+69l0l0	les_contours	O
+
+#• une explication sur l’absence de prélèvement et d’analyse en fond de fouille, suite aux travaux d’excavation.
+
+70l0l0	fond	O
+70l0l1	de_fouille	N
+70l0l2	aux_travaux_d__excavation	N
+
+#Par ailleurs, il a été précisé que la surveillance de la qualité des eaux de la nappe devait se poursuivre, semestriellement, sur au moins 4 années après la réalisation des travaux, afin d’établir un bilan quadriennal de l'évolution de la pollution.
+
+71l0l0	la_surveillance	A
+71l0l1	la_qualité_des_eaux	O
+71l0l2	la_nappe	O
+71l0l3	devait_se_poursuivre	N
+71l0l4	semestriellement	T
+71l0l5	au_moins_4___années_après	T
+71l0l6	la_réalisation	N
+71l0l7	des_travaux	N

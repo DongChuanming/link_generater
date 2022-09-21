@@ -1,0 +1,506 @@
+
+#45.0049
+#Le site de la société EPTA RACK est implanté rue de l’Europe sur la commune de Sermaises.
+
+0l0l0	Le_site	O
+0l0l1	la_société_EPTA_RACK	O
+0l0l2	est_implanté	R
+0l0l3	rue_de_l__Europe	L
+0l0l4	sur_la_commune_de_Sermaises	L
+0l1l0	la_société_EPTA_RACK	I
+
+#D’une superficie de 34.854 m², il occupe les parcelles 414, 225, 226, 227 et 228, section OG en zone UI du PLU.
+
+1l0l0	en	R
+1l0l1	zone_UI	O
+
+#Le voisinage immédiat du site est constitué :
+
+2l0l0	Le_voisinage_immédiat_du_site	O
+
+#-	au nord, par la société CHRYSO,
+
+3l0l0	au_nord	L
+3l0l1	la_société_CHRYSO	O
+3l1l0	la_société_CHRYSO	I
+
+#-	à l’est, par la société FLAMMARION,
+
+4l0l0	à_l__est	L
+4l0l1	la_société_FLAMMARION	O
+4l1l0	la_société_FLAMMARION	I
+
+#-	au sud, par un poste électrique, puis des champs,
+
+5l0l0	au_sud	L
+5l0l1	par_un_poste_électrique	L
+5l0l2	champs	L
+
+#-	à l’ouest, par les sociétés GRÜND, SOFEDIT et BOUILLET.
+
+6l0l0	l__ouest	O
+6l0l1	les_sociétés_GRÜND	O
+6l0l2	SOFEDIT	O
+6l1l0	les_sociétés_GRÜND___SOFEDIT	I
+6l1l1	BOUILLET	I
+
+#Les premières habitations sont situées à deux cents mètres à l’ouest des limites du site.
+
+7l0l0	Les_premières_habitations	O
+7l0l1	sont_situées_à_deux_cents_mètres_à_l__ouest_des_limites_du_site	L
+
+#Au droit du site, est présent un aquifère multicouche complexe, alternant calcaires de Beauce, sables de Fontainebleau et calcaires de Brie, où coexistent de nombreuses variations de faciès, tant latérales qu’horizontales.
+
+8l0l0	Au_droit_du_site	L
+8l0l1	présent	N
+8l0l2	Beauce	L
+8l0l3	Brie	L
+
+#La nappe abritée dite du Stampien est une nappe libre alimentée par les eaux météoriques et drainée par les cours d’eaux (au niveau des sables de Fontainebleau).
+
+9l0l0	drainée	N
+
+#La limite inférieure de la nappe est constituée par les argiles de Romainville.
+
+10l0l0	la_nappe	O
+10l0l1	Romainville	L
+
+#Au droit du site, la nappe phréatique était en 2012 située entre 30 et 35 mètres de profondeur par rapport au terrain naturel, dans les calcaires de Beauce, mais en jonction avec les formations sous-jacentes.
+
+11l0l0	Au_droit_du_site	L
+11l0l1	en_2012	T
+11l0l2	située_entre_30_et_35_mètres_de_profondeur_par_rapport_au	L
+11l0l3	terrain_naturel	N
+11l0l4	Beauce	L
+11l0l5	en_jonction_avec_les	L
+11l0l6	formations_sous_jacentes	O
+
+#Son écoulement est globalement dirigé vers le nord nord-ouest.
+
+12l0l0	Son_écoulement	O
+12l0l1	est_globalement_dirigé_vers_le_nord_nord_ouest	L
+
+#Bien que profonde, cette nappe est vulnérable en absence de protection de surface et très puissante (70 mètres au droit du site).
+
+
+#Cette nappe était historiquement très exploitée pour l’alimentation en eau potable et l’irrigation.
+
+14l0l0	était_historiquement_très_exploitée	N
+14l0l1	l__alimentation_en_eau_potable	A
+14l0l2	l__irrigation	A
+
+#Néanmoins, cet aquifère est impacté par un panache de pollution des eaux souterraines par les solvants chlorés de grande ampleur orienté nord nord-ouest.
+
+15l0l0	impacté_par	O
+15l0l1	orienté_nord_nord_ouest	N
+15l1l0	solvants_chlorés	U
+
+#Il touche les trois aquifères précités et a induit la fermeture de plusieurs captages AEP.
+
+16l0l0	trois_aquifères	O
+16l0l1	a_induit	N
+16l0l2	la_fermeture	N
+16l0l3	captages	O
+16l0l4	AEP	A
+
+#La nappe sous-jacente des calcaires de Champigny, protégée par quelques mètres d’argile semble quant à elle indemne.
+
+17l0l0	La_nappe	O
+17l0l1	Champigny	L
+
+#Historique du site
+
+
+#La société ALSER a commencé à exploiter le site en 1965.
+
+19l0l0	La_société_ALSER	O
+19l0l1	a_commencé_à_exploiter	N
+19l0l2	le_site	O
+19l0l3	en_1965__	T
+19l1l0	La_société_ALSER	I
+
+#Ses activités étaient réglementées par les arrêtés préfectoraux des 18 juin 1985 et 13 mai 1993 et par les arrêtés préfectoraux complémentaires des 31 juillet 2003, 2 mai 2005, 23 juillet 2007 et 18 août 2008.
+
+20l0l0	Ses_activités	A
+20l0l1	étaient_réglementées	N
+20l0l2	les_arrêtés_préfectoraux	O
+20l0l3	des_18_juin_1985_et_13_mai_1993	T
+20l0l4	les_arrêtés_préfectoraux_complémentaires	O
+20l0l5	des_31_juillet_2003___2_mai_2005___23_juillet_2007	T
+20l0l6	18_août_2008__	T
+
+#En 2007, la société EPTA RACK a repris le l'exploitation du site.
+
+21l0l0	En_2007__	T
+21l0l1	la_société_EPTA_RACK	O
+21l0l2	a_repris_le_l__exploitation	N
+21l0l3	du_site	O
+21l1l0	la_société_EPTA_RACK	I
+
+#Un récépissé de changement d’exploitant a été notifié le 3 août 2007.
+
+22l0l0	Un_récépissé	O
+22l0l1	changement_d__exploitant	O
+22l0l2	a_été_notifié	N
+22l0l3	le_3_août_2007__	T
+
+#Le classement des activités de l’établissement relevant de l’autorisation s’établissait comme suit :
+
+23l0l0	l_	O
+23l0l1	établissement_relevant_de_l__autorisation	A
+23l0l2	s__établissait	N
+
+#-	1175.1° : emploi ou stockage de liquides organohalogénés,
+
+24l1l0	liquides_organohalogénés	U
+
+#-	2661.1°a : transformation de polymères,
+
+25l0l0	transformation_de_polymères	A
+
+#-	2560.1° : travail mécanique des métaux,
+
+26l0l0	travail_mécanique_des_métaux	A
+
+#-	2565.2°a : revêtement métallique ou traitement de surfaces,
+
+27l0l0	revêtement_métallique	O
+
+#-	2940.2°a : application, cuisson, séchage de vernis, peinture.
+
+28l0l0	séchage_de_vernis	N
+28l0l1	peinture	A
+
+#Par courrier du 15 avril 2008, la société EPTA RACK a déclaré au Préfet du Loiret que la cessation définitive de ses activités interviendrait au 5 mai 2008 et a précisé que l’usage futur du site serait un usage industriel.
+
+29l0l0	du_15_avril_2008__	T
+29l0l1	la_société_EPTA_RACK	O
+29l0l2	a_déclaré	N
+29l0l3	au_Préfet	O
+29l0l4	du_Loiret_que	L
+29l0l5	la_cessation_définitive_de_ses_activités	N
+29l0l6	interviendrait_au_5_mai_2008	T
+29l0l7	a_précisé	N
+29l0l8	que_l__usage_futur_du_site	O
+29l0l9	un_usage_industriel	A
+29l1l0	la_société_EPTA_RACK	I
+
+#Les investigations menées ont consisté en la réalisation de nombreux sondages de sols et de neuf piézairs.
+
+30l0l0	Les_investigations_menées	N
+30l0l1	la_réalisation	N
+30l0l2	de	R
+30l0l3	nombreux_sondages_de_sols	N
+
+#Les résultats du diagnostic de pollution ont mis en évidence l’existence de trois sources principales de pollution au droit du site :
+
+31l0l0	Les_résultats	O
+31l0l1	du_diagnostic_de_pollution	N
+31l0l2	l__existence	O
+31l0l3	trois_sources_principales_de_pollution	O
+31l0l4	au_droit_du_site	L
+
+#·	les sédiments présents au droit du puisard fortement impactés notamment par des hydrocarbures, des métaux lourds, du 1-1-1 trichloroéthane et de moindre manière par les HAP, les PCB, les BTEX et le trichloroéthylène,
+
+32l0l0	au_droit_du_puisard	L
+32l0l1	fortement_impactés	N
+32l1l0	hydrocarbures	S
+32l1l1	des_métaux_lourds	S
+32l1l2	du_1___1___1_trichloroéthane	S
+32l1l3	les_HAP	S
+32l1l4	les_PCB	S
+32l1l5	les_BTEX	S
+32l1l6	le_trichloroéthylène	S
+
+#·	les terrains présents à six mètres de profondeur au fond de la fosse ayant contenu 20.000 litres de trichloroéthylène présentant un impact en trichloroéthylène,
+
+33l0l0	les_terrains	O
+33l0l1	contenu_20_000_litres_de_trichloroéthylène	A
+33l1l0	trichloroéthylène	S
+33l1l1	trichloroéthylène	S
+
+#·	les terrains de la zone de décapage extérieur présentant un impact essentiellement en 1-1-1 trichloroéthane et en trichloroéthylène.
+
+34l0l0	les_terrains	O
+34l0l1	la_zone_de_décapage_extérieur	O
+34l0l2	un_impact	O
+34l1l0	__1___1_trichloroéthane	S
+34l1l1	trichloroéthylène	S
+
+#Les résultats des sondages de sols ont aussi mis en évidence une concentration anormale en arsenic (247 mg/kg) sur une zone enherbée et non recouverte d’une surface d’environ 9 m² et d’une profondeur de 0,5 m à 1 mètre.
+
+35l0l0	Les_résultats	O
+35l0l1	des_sondages_de_sols	N
+35l0l2	arsenic	O
+35l0l3	une_zone_enherbée	N
+35l1l0	arsenic	S
+
+#L'arrêté du 2 mai 2005 a imposé la surveillance des eaux souterraines à la société Epta Rack.
+
+36l0l0	L_	O
+36l0l1	2_mai_2005	T
+36l0l2	a_imposé	N
+36l0l3	la_surveillance_des_eaux_souterraines	A
+36l0l4	la_société_Epta_Rack	O
+36l1l0	la_société_Epta_Rack	I
+
+#Travaux de dépollution :
+
+37l0l0	Travaux_de_dépollution	N
+
+#a) Curage du puisard :
+
+38l0l0	Curage	N
+38l0l1	du_puisard	O
+
+#Le curage du puisard a été réalisé en mars 2011.
+
+39l0l0	Le_curage	N
+39l0l1	du_puisard	O
+39l0l2	a_été_réalisé	N
+39l0l3	en_mars_2011__	T
+
+#Afin de vérifier l’efficacité du curage, l’inspection des installations classées a demandé à l’exploitant d’effectuer des prélèvements sur les parois et en fond de fouille.
+
+40l0l0	l__efficacité_du_curage	N
+40l0l1	l__inspection_des_installations_classées	O
+40l0l2	a_demandé	N
+40l0l3	en_fond_de_fouille	L
+
+#La nature des terres rencontrées n’ayant pas permis de procéder à ces prélèvements, l’inspection des installations classées a demandé que la zone excavée soit imperméabilisée et que des prélèvements pour analyses soient réalisés dans les eaux souterraines du piézomètre PZ4 situé à proximité immédiate du puisard et que les teneurs en métaux, en HAP et en PCB soient mesurées afin de confirmer ou non l’efficacité des travaux de curage.
+
+41l0l0	La_nature_des_terres_rencontrées	O
+41l0l1	ces_prélèvements	A
+41l0l2	l__inspection_des_installations_classées	O
+41l0l3	a_demandé	N
+41l0l4	la_zone_excavée	O
+41l0l5	soit_imperméabilisée	N
+41l0l6	à_proximité_immédiate_du_puisard	L
+41l0l7	mesurées	N
+41l0l8	des_travaux_de_curage	N
+41l1l0	métaux	S
+41l1l1	HAP	S
+41l1l2	PCB	S
+
+#La zone excavée du puisard a été recouverte d’une dalle de béton et entourée d’un muret en parpaings.
+
+42l0l0	La_zone	O
+42l0l1	excavée	N
+42l0l2	du_puisard	O
+42l0l3	a_été	N
+42l0l4	entourée	O
+
+#Lors de l’inspection du 20 novembre 2012, l’inspection des installations classées a constaté la présence d’un tas de déchets recouvert d’une bâche plastique à proximité de la zone du puisard.
+
+43l0l0	Lors	T
+43l0l1	de_l__inspection	N
+43l0l2	du_20_novembre_2012__	T
+43l0l3	l__inspection_des_installations_classées	O
+43l0l4	a_constaté	N
+43l0l5	la_présence	O
+43l0l6	une_bâche_plastique	O
+43l0l7	à_proximité_de_la_zone_du_puisard	L
+
+#L’industriel a transmis par courrier du 21 février 2013, les documents relatifs à l’élimination de ces déchets par la société VEOLIA PROPRETE de Chaingy.
+
+44l0l0	L__industriel	O
+44l0l1	a_transmis	N
+44l0l2	21_février_2013__	T
+44l0l3	les_documents	O
+44l0l4	relatifs_à	R
+44l0l5	l__élimination_de	N
+44l0l6	ces_déchets	O
+44l0l7	la_société_VEOLIA_PROPRETE	O
+44l0l8	Chaingy	O
+44l1l0	la_société_VEOLIA_PROPRETE	I
+44l1l1	de_Chaingy	I
+
+#Lors du contrôle du 14 mars 2013, l’inspection des installations classée a constaté l’enlèvement des déchets précédemment stockés près du puisard.
+
+45l0l0	Lors	R
+45l0l1	du_contrôle	N
+45l0l2	du_14_mars_2013__	T
+45l0l3	l__inspection_des_installations_classée	O
+45l0l4	a_constaté	N
+45l0l5	l__enlèvement_des_déchets_précédemment_stockés	N
+45l0l6	près_du_puisard	L
+
+#Deux campagnes d’analyses ont été effectuées en juin et en décembre 2012.
+
+46l0l0	Deux_campagnes_d__analyses	N
+46l0l1	ont_été_effectuées	N
+46l0l2	en_juin_et_en_décembre_2012__	T
+
+#Ces résultats montrent l’absence d’impact en BTEX, HCT, PCB, métaux et HAP, les teneurs en polluants sont inférieures aux valeurs limites fixées par l’arrêté ministériel du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes destinées à la consommation humaine ou sont inférieures aux seuils de détection du laboratoire.
+
+47l0l0	11_janvier_2007	T
+47l1l0	BTEX	S
+47l1l1	HCT	S
+47l1l2	PCB	S
+47l1l3	métaux	S
+47l1l4	HAP	S
+
+#b) Le traitement des gaz du sol par venting au droit de la fosse ayant contenu 20.000 litres de trichloroéthylène et au droit de la zone de décapage a été réalisé de mai 2011 à février 2012.
+
+48l0l0	Le_traitement_des_gaz_du_sol	N
+48l0l1	venting	N
+48l0l2	au_droit_de	R
+48l0l3	la_fosse	O
+48l0l4	ayant	R
+48l0l5	contenu_20_000_litres_de_trichloroéthylène	A
+48l0l6	au_droit_de_la	L
+48l0l7	zone_de_décapage	N
+48l0l8	a_été_réalisé	N
+48l0l9	de_mai_2011_à_février_2012__	T
+48l1l0	trichloroéthylène	S
+
+#L’inspection des installations classées a demandé le maintien en l’état de la dalle de béton présente au fond de la fosse ayant contenu du trichloroéthylène.
+
+49l0l0	L__inspection_des_installations_classées	O
+49l0l1	a_demandé_le_maintien_en_l_	N
+49l0l2	état	O
+49l0l3	la_dalle_de_béton	O
+49l0l4	présente	R
+49l0l5	au_fond_de_la_fosse	L
+49l0l6	ayant_contenu_du_trichloroéthylène	A
+49l1l0	trichloroéthylène	S
+
+#Lors du contrôle du 20 novembre 2012, l’inspection des installations classées avait constaté la présence d’effluents dans le fond de la fosse.
+
+50l0l0	Lors	T
+50l0l1	du_contrôle	N
+50l0l2	du_20_novembre_2012__	T
+50l0l3	l__inspection_des_installations_classées	O
+50l0l4	avait_constaté	N
+50l0l5	la_présence	O
+50l1l0	effluents	U
+
+#Le 14 mars 2013, l’inspection des installations classées a constaté que le fond de la fosse était exempt de tout liquide.
+
+51l0l0	Le_14_mars_2013__	T
+51l0l1	l__inspection_des_installations_classées	O
+51l0l2	a_constaté	N
+
+#c) Les résultats des sondages de sols avaient mis en évidence une concentration anormale en arsenic.
+
+52l0l0	sondages_de_sols	N
+52l0l1	arsenic	O
+52l1l0	arsenic	S
+
+#L’inspection des installations classées a demandé à l’industriel de procéder à l’excavation et à l’élimination des terres
+
+53l0l0	L__inspection_des_installations_classées	O
+53l0l1	a_demandé	N
+53l0l2	l__industriel	O
+53l0l3	de_procéder	N
+53l0l4	à	L
+53l0l5	l__excavation	N
+53l0l6	l__élimination	N
+53l0l7	terres	O
+
+#Les terres ont été excavées sur une surface d’environ 12 m² et jusqu’à une profondeur d’1 mètre au refus sur le calcaire compact en février 2013 par la société ARCADIS.
+
+54l0l0	Les_terres	O
+54l0l1	ont_été_excavées	N
+54l0l2	en_février_2013	T
+54l0l3	par	N
+54l0l4	la_société_ARCADIS	O
+54l1l0	la_société_ARCADIS	I
+
+#Les résultats des analyses portant sur la concentration en arsenic ont montré une concentration variant de 22 mg/kg à 28 mg/kg en arsenic sur les parois, soit une concentration inférieure au bruit de fond local de 50 mg/kg et une teneur de 280 mg/kg en arsenic en fond de fouille.
+
+55l0l0	arsenic	O
+55l1l0	arsenic	S
+55l1l1	arsenic	S
+55l1l2	arsenic	S
+
+#ARCADIS  précise que cette teneur confirme la présence d’un filon arsénié en profondeur dans le terrain naturel (l’échantillon ayant été prélevé au refus sur le calcaire compact) et que ce filon n’est plus accessible par contact cutané et ingestion, la fouille ayant été remblayée avec les terres de surface.
+
+56l0l0	dans_le_terrain_naturel	N
+56l0l1	fouille_ayant_été_remblayée_avec	N
+56l0l2	les_terres	O
+56l1l0	ARCADIS	I
+56l1l1	filon_arsénié	S
+
+#Contrôle du 14 mars 2013 :
+
+57l0l0	Contrôle	N
+57l0l1	14_mars_2013__	T
+
+#Lors du précédent contrôle du site (20 novembre 2012), l’inspection des installations classées avait constaté la présence :
+
+58l0l0	Lors	R
+58l0l1	du_précédent_contrôle	N
+58l0l2	site	O
+58l0l3	__20_novembre_2012__	T
+58l0l4	l__inspection_des_installations_classées	O
+
+#·	de quelques bidons pleins de produits dont la nature n’était pas connue,
+
+59l0l0	bidons_pleins_de_produits	O
+
+#·	d’un extincteur dont la dernière vérification était antérieure à la date de cessation des activités du site,
+
+60l0l0	d__un_extincteur	O
+60l0l1	la_dernière_vérification	N
+60l0l2	était_antérieure_à	R
+60l0l3	la_date_de_cessation	N
+60l0l4	des_activités_du_site	A
+
+#·	d’effluent liquide dans un regard au droit d’une gouttière à l’intérieur du bâtiment I,
+
+61l0l0	au_droit_d__une_gouttière	L
+61l0l1	à_l__intérieur_du_bâtiment_I	L
+61l1l0	effluent_liquide	U
+
+#·	d’un fût de 200 litres contenant un produit d’origine inconnue à proximité de la zone du puisard.
+
+62l0l0	un_produit	O
+62l0l1	à_proximité_de_la_zone_du_puisard	L
+
+#Lors du contrôle de l’établissement, l’inspection des installations classées a constaté que les bidons, l’extincteur et le fût de 200 litres avaient été évacués du site et que le regard au droit d’une gouttière à l’intérieur du bâtiment I était exempt d’effluent liquide.
+
+63l0l0	Lors	T
+63l0l1	du_contrôle	N
+63l0l2	l__établissement	N
+63l0l3	l__inspection_des_installations_classées	O
+63l0l4	avaient_été_évacués	N
+63l0l5	à_l__intérieur_du_bâtiment_I	L
+63l0l6	effluent_liquide	L
+63l1l0	effluent_liquide	U
+
+#L’exploitant a présenté les bordereaux de suivi relatifs à l’élimination de l’extincteur, des bidons et du fût.
+
+64l0l0	L__exploitant	O
+64l0l1	a_présenté	N
+64l0l2	les_bordereaux	O
+64l0l3	de_suivi	O
+64l0l4	relatifs_à	R
+64l0l5	l__élimination	N
+
+#L’extincteur a été pris en charge par la société SOA de Chaingy le 19 novembre 2012 et envoyé pour valorisation chez la société SMAB (département de l’Yonne) le 20 novembre 2012.
+
+65l0l0	L__extincteur	O
+65l0l1	a_été_pris_en_charge	N
+65l0l2	la_société_SOA	O
+65l0l3	Chaingy	O
+65l0l4	le_19_novembre_2012	T
+65l0l5	et_envoyé_pour_valorisation	N
+65l0l6	chez	R
+65l0l7	la_société_SMAB	O
+65l0l8	__département_de	A
+65l0l9	l__Yonne	L
+65l0l10	le_20_novembre_2012__	T
+65l1l0	la_société_SOA	I
+65l1l1	la_société_SMAB	I
+
+#Les bidons et le fût ont été pris en charge par cette même société le 22 novembre 2012 et envoyés pour incinération à la société SARP INDUSTRIES à la même date.
+
+66l0l0	Les_bidons	O
+66l0l1	le_fût	O
+66l0l2	ont_été_pris_en_charge	N
+66l0l3	cette_même_société	O
+66l0l4	le_22_novembre_2012	T
+66l0l5	et_envoyés_pour_incinération	N
+66l0l6	la_société_SARP_INDUSTRIES	O
+66l1l0	la_société_SARP_INDUSTRIES	I

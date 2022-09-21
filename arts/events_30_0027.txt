@@ -1,0 +1,136 @@
+
+#30.0027
+#Ce site de 20 ha est géographiquement positionné au cœur de la ville, entre la rue Pierre Sémard, la rue Sully et la rue Pitot; il est exploité depuis la fin du 19ème siècle.
+
+0l0l0	Ce_site	O
+0l0l1	20_ha	O
+0l0l2	positionné_au_cœur_de_la_ville	L
+0l0l3	rue_Sully	L
+0l0l4	rue_Pitot	L
+0l0l5	est_exploité	N
+0l0l6	depuis_la_fin_du_19ème_siècle__	T
+0l1l0	Pitot	I
+
+#La SNCF a repris sur ce site, en 1948, les activités nécessaires au parking, à l'entretien et la réparation des trains ainsi qu'un dépôt de fioul avec station de distribution de carburants.
+
+1l0l0	La_SNCF	O
+1l0l1	a_repris	N
+1l0l2	sur_ce_site	L
+1l0l3	en_1948	T
+1l0l4	les_activités_nécessaires_au_parking	O
+1l0l5	entretien_et_la_réparation_des_trains	A
+1l0l6	ainsi_qu__un_dépôt_de_fioul	O
+1l0l7	distribution_de_carburants	A
+1l1l0	La_SNCF	I
+
+#La pollution du site est liée à l'utilisation du fioul domestique par les motrices diesel.
+
+2l0l0	les_motrices_diesel	O
+2l1l0	fioul_domestique	U
+
+#Le dernier déversement d'hydocarbures recensé a eu lieu le 15 mars 2010,il a pour origine un défaut d'étanchéité de la canalisation de transfert du fioul.
+
+3l0l0	Le_dernier_déversement	N
+3l0l1	d__hydocarbures	O
+3l0l2	a_eu_lieu	N
+3l0l3	le_15_mars_2010_il	T
+3l0l4	la_canalisation_de_transfert_du_fioul	O
+3l1l0	hydocarbures	S
+3l1l1	fioul	U
+
+#Les hydrocarbures ont rejoint le réseau pluvial du site qui rejoint le Cadereau de la route d'Uzès.
+
+4l0l0	Les_hydrocarbures	O
+4l0l1	ont_rejoint_le_réseau_pluvial	N
+4l0l2	rejoint_le_Cadereau_de_la_route_d__Uzès	L
+4l1l0	hydrocarbures	S
+
+#Les pompages réalisés ont permis de récupérer 35m3 d'hydrocarbures émulsionnés .
+
+5l0l0	Les_pompages_réalisés	N
+5l0l1	35m3	O
+5l0l2	hydrocarbures_émulsionnés	O
+5l1l0	hydrocarbures_émulsionnés	S
+
+#Compte tenu de l'ancienneté des installations, d'autres pollutions plus anciennes et non signalées ne sont pas à exclure.
+
+6l0l0	d__autres_pollutions	O
+
+#Les travaux de dépollution du site ont débuté au mois de janvier 2011, par le démantèlement des équipements du dépôt de fioul et de la station-service.
+
+7l0l0	Les_travaux_de_dépollution	N
+7l0l1	du_site	O
+7l0l2	ont_débuté	N
+7l0l3	au_mois_de_janvier_2011__	T
+7l0l4	le_démantèlement_des_équipements	N
+7l0l5	dépôt_de_fioul	O
+7l1l0	fioul	U
+
+#Les travaux d'excavation des terres polluées par les hydrocarbures a été confiée à la Sté VALGO qui est une entreprise spécialisée dans la dépollution des sites.
+
+8l0l0	Les_travaux_d__excavation	N
+8l0l1	des_terres_polluées	O
+8l0l2	hydrocarbures	O
+8l0l3	a_été_confiée	N
+8l0l4	la_Sté_VALGO	O
+8l0l5	la_dépollution_des_sites	N
+8l1l0	hydrocarbures	S
+8l1l1	la_Sté_VALGO	I
+
+#17 000 m3 de terres ont été excavées, sur 4 m de profondeur et 4 500 m3 de terres polluées ont été extraits.
+
+9l0l0	17_000_m3_de_terres	O
+9l0l1	ont_été_excavées	N
+9l0l2	4_500_m3_de_terres_polluées	O
+9l0l3	ont_été_extraits	N
+
+#Des analyses in situ sont réalisées sur chaque lot de 100 m3.
+
+10l0l0	Des_analyses_in_situ	N
+10l0l1	sont_réalisées	N
+
+#Les terres dont la concentration en hydrocarbures est supérieure à 2 500 mg/kg sont dirigées vers la plate-forme multimodale de traitement de Bellegarde, exploitée par la Sté SITA-FD.
+
+11l0l0	sont_dirigées_vers	R
+11l0l1	la_plate___forme_multimodale	O
+11l0l2	traitement	A
+11l0l3	de_Bellegarde	L
+11l0l4	exploitée	N
+11l0l5	la_Sté_SITA	O
+11l1l0	hydrocarbures	S
+11l1l1	la_Sté_SITA___FD	I
+
+#Après remblaiement avec des matériaux « sains », débuteront les travaux de reconstruction du dépôt de fioul et de la station-service.
+
+12l0l0	remblaiement_avec_des_matériaux	N
+12l0l1	____débuteront_les_travaux_de_reconstruction	N
+12l0l2	du_dépôt_de_fioul	O
+
+#Suite aux travaux de dépollution terminés en 2012:
+
+13l0l0	Suite	R
+13l0l1	aux_travaux_de_dépollution_terminés	N
+13l0l2	en_2012	T
+
+#- les teneurs mesurées en hydrocarbure dans les eaux souterraines au droit de la partie de la parcelle à construire (piézos PzB et PzC) sont proches du seuil pour la production d'eau potable ( 1mg/l);
+
+14l0l0	hydrocarbure	O
+14l0l1	au_droit_de_la_partie	L
+14l0l2	de_la_parcelle_à_construire	O
+14l1l0	hydrocarbure	S
+
+#- la phase flottante habituellement observée dans la zone résidentielle (piézos PzE et PzF) a disparu;
+
+15l1l0	la_phase_flottante	U
+
+#- la phase flottante en partie sud du site SNCF (PzD et Pz12) a diminué.
+
+16l0l0	la_phase_flottante	O
+16l0l1	en_partie_sud_du_site_SNCF	L
+16l0l2	a_diminué	N
+
+#Les dernières analyses réalisées en 2017 confirme la tendance à la baisse.
+
+17l0l0	Les_dernières_analyses	O
+17l0l1	réalisées	N
+17l0l2	en_2017	T

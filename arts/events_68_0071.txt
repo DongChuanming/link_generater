@@ -1,0 +1,160 @@
+
+#68.0071
+#Usine de transformation de matières plastiques, anciennement SOLVAY.
+
+0l0l0	Usine_de_transformation_de_matières_plastiques	O
+0l0l1	anciennement	R
+0l0l2	SOLVAY	O
+0l1l0	SOLVAY	I
+
+#Site occupé par la société CORDOUAL jusqu'en 1980, qui enduisait des tissus de caoutchouc ou de résines.
+
+1l0l0	Site	O
+1l0l1	occupé	N
+1l0l2	la_société_CORDOUAL	O
+1l0l3	jusqu__en_1980__	T
+1l0l4	enduisait_des_tissus_de_caoutchouc_ou_de_résines	A
+1l1l0	la_société_CORDOUAL	I
+
+#En juillet 2000 la société SOLVAY a constaté la présence de divers produits dans le sous-sol, ne correspondant pas aux activités de l'entreprise.
+
+2l0l0	En_juillet_2000	T
+2l0l1	la_société_SOLVAY	O
+2l0l2	a_constaté	N
+2l0l3	la_présence	O
+2l0l4	activités_de_l__entreprise	A
+2l1l0	la_société_SOLVAY	I
+
+#Les polluants identifiés sont des hydrocarbures, des HAP et des traces de trichloroéthylène.
+
+3l1l0	hydrocarbures	S
+3l1l1	des_HAP	S
+3l1l2	trichloroéthylène	S
+
+#Un diagnostic initial et une ESR ont été demandé par AP du 24/10/2001.
+
+4l0l0	Un_diagnostic_initial	N
+4l0l1	ont_été_demandé	N
+4l0l2	24_10_2001	T
+
+#Un rapport d'étape a été remis le 11 juillet 2001, et a fait l'objet d'observations.
+
+5l0l0	Un_rapport_d__étape	O
+5l0l1	a_été_remis	N
+5l0l2	le_11_juillet_2001__	T
+5l0l3	a_fait_l__objet_d_	R
+
+#Un diagnostic initial ( étapes A et B) aété remis le 8 février 2002, et a fait l'objet d'observations le 18 avril 2002.
+
+6l0l0	Un_diagnostic_initial	N
+6l0l1	aété_remis	N
+6l0l2	le_8_février_2002__	T
+6l0l3	a_fait_l__objet	R
+6l0l4	d__observations	N
+6l0l5	le_18_avril_2002	T
+
+#Des informations complémentaires ont été fournies par l'industriel le 28 mai 2002.
+
+7l0l0	Des_informations_complémentaires	O
+7l0l1	ont_été_fournies	N
+7l0l2	l__industriel	O
+7l0l3	le_28_mai_2002	T
+
+#Il a été retenu 4 sources de pollution:
+
+8l0l0	4_sources_de_pollution	O
+
+#source 1: dite les "Ateliers"-- pollution en HC, Méthyléthylcétone: classe 1 s'agissant des Eaux souterraines en AEP pour HC et MEK.
+
+9l1l0	HC	S
+9l1l1	Méthyléthylcétone	S
+9l1l2	HC	S
+9l1l3	MEK	S
+
+#source 2: zones où des phtalates ont été mis en évidence: Classe 1 s'agissant des Eaux souterraines en AEP et usage du sol
+
+10l1l0	des_phtalates	S
+
+#source 3: dite "Ouest Ateliers"-- Pb et Arsenic: classe 2 s'agissant des Eaux souteraines en AEP pour Pb et Arsenic.
+
+11l0l0	Ouest_Ateliers_	O
+11l0l1	Arsenic	O
+11l1l0	dite___Ouest_Ateliers_	I
+11l1l1	Pb	S
+11l1l2	Arsenic	S
+11l1l3	Pb	S
+11l1l4	Arsenic	S
+
+#source 4: zone où une pollution en amonium a été mise en évidence
+
+12l0l0	amonium	O
+12l0l1	a_été_mise_en_évidence	N
+12l1l0	amonium	S
+
+#Les résultats de la cotation ESR montrent que les contaminants présents dans les milieux d’exposition (eaux souterraines et eaux superficielles) conduisent à une classe 2 « site à surveiller ».
+
+13l0l0	les_contaminants	O
+13l1l0	contaminants	S
+
+#Dans le cas où les eaux souterraines seraient effectivement polluées, le risque est de voir les polluants migrer vers les captages de la ville de Mulhouse.
+
+14l0l0	polluées	O
+14l0l1	migrer	N
+14l0l2	vers_les_captages	L
+14l0l3	de_la_ville_de_Mulhouse	L
+14l1l0	les_polluants	U
+
+#Il est donc proposé la mise en place d’un réseau de surveillance par forages implantés entre le site et le champ captant de la Ville de Mulhouse qui devrait permettre de contrôler ce risque de migration.
+
+15l0l0	en_place_d_	N
+15l0l1	un_réseau_de_surveillance_par_forages	O
+15l0l2	implantés_entre	R
+15l0l3	le_site	O
+15l0l4	le_champ_captant	O
+15l0l5	la_Ville_de_Mulhouse	L
+15l0l6	contrôler_ce_risque_de_migration	N
+
+#Il a donc été demandé par courrier préfectoral du 10 mai 2004 que l'exploitant renforce son réseau de surveillance par la mise en place de forages implantés entre le site Inergy et le champ captant de la Ville de Mulhouse ; ceci devrait permettre de contrôler le risque de migration des polluants provenant du site.
+
+16l0l0	Il_a_donc_été_demandé	N
+16l0l1	10_mai_2004	T
+16l0l2	l__exploitant	O
+16l0l3	renforce	N
+16l0l4	surveillance	A
+16l0l5	la_mise_en_place_de_forages	N
+16l0l6	implantés	R
+16l0l7	entre_le_site_Inergy	L
+16l0l8	et_le_champ	L
+16l0l9	captant	R
+16l0l10	la_Ville_de_Mulhouse	L
+16l1l0	le_site_Inergy	I
+16l1l1	polluants	S
+
+#L'exploitant continue de réaliser une surveillance semestrielle de la qualité des eaux souterraines au droit des ouvrages présents sur son site ainsi que sur 2 nouveaux piézomètres positionnés entre l'usine et le champs captant AEP de la ville.
+
+17l0l0	L__exploitant	O
+17l0l1	réaliser	N
+17l0l2	une_surveillance_semestrielle	A
+17l0l3	la_qualité	O
+17l0l4	des_eaux_souterraines	A
+17l0l5	2_nouveaux_piézomètres	O
+17l0l6	positionnés_entre_l__usine	L
+17l0l7	le_champs	O
+17l0l8	captant_AEP	A
+17l0l9	de_la_ville	L
+
+#Des travaux de restructuration ont été réalisés sur le site en 2005.
+
+18l0l0	Des_travaux_de_restructuration_ont_été_réalisés	N
+18l0l1	le_site	O
+18l0l2	en_2005__	T
+
+#Ainsi l'exploitant a engagé des travaux de décaissement de certaines zones polluées identifiées dans l'ESR.
+
+19l0l0	l__exploitant	O
+19l0l1	a_engagé	N
+19l0l2	des_travaux_de_décaissement	N
+19l0l3	certaines_zones_polluées	O
+
+#L'exploitant doit nous transmettre un bilan de ces opérations.
+

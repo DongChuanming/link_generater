@@ -1,0 +1,237 @@
+
+#76.0168
+#Situé en bordure de la route départementale 49, le terrain occupe une superficie de 8125 m2 environ.
+
+0l0l0	Situé_en_bordure_de_la_route_départementale_49	L
+0l0l1	le_terrain	O
+
+#Il était au préalable occupé par une société (SURFACE 76 puis ANTIGONE) spécialisée dans le parachèvement du verre (dépolissage chimique, mécanique, dépolissage par recouvrement pistolété, coloration, sérigraphie émail ou encre, dorure  à chaud et pose d'accessoires).
+
+1l0l0	une_société	O
+1l0l1	ANTIGONE	O
+1l0l2	dans_le_parachèvement_du_verre	A
+1l1l0	une_société	I
+1l1l1	SURFACE_76_puis_ANTIGONE	I
+
+#Les bâtiments du site ont été gardé en l'état en vu de leur exploitation par le nouveau propriétaire du site.
+
+2l0l0	Les_bâtiments_du_site	O
+2l0l1	ont_été_gardé_en_l_	N
+2l0l2	état	O
+2l0l3	en_vu_de	R
+2l0l4	leur_exploitation	N
+2l0l5	le_nouveau_propriétaire_du_site	O
+
+#Les bâtiments ont longtemps été délabrés (en particulier la toiture du bâtiment central)  mais ont fait l'objet d'une récente réhabilitation.
+
+3l0l0	Les_bâtiments	O
+3l0l1	ont_longtemps_été_délabrés	N
+3l0l2	la_toiture_du_bâtiment_central	O
+3l0l3	mais_ont	N
+3l0l4	fait_l__objet_d_	R
+3l0l5	une_récente_réhabilitation	N
+
+#Aucune étude de sols n'ayant été réalisée, la géologie du site et l'hydrogéologie du site ne sont pas connus en dehors des données de la littérature (nappe alluviale puis nappe de la craie).
+
+4l0l0	la_géologie_du_site	O
+4l0l1	hydrogéologie	N
+
+#Le site se trouve dans la vallée de la Bresle, dans la commune de Longroy en zone moyennement urbanisée.
+
+5l0l0	Le_site	O
+5l0l1	se_trouve_dans_la_vallée_de_la_Bresle	L
+5l0l2	dans_la_commune_de_Longroy	L
+5l0l3	en_zone_moyennement_urbanisée	L
+
+#Après redressement puis liquidation judiciaire, le site a été laissé "en l'état".
+
+6l0l0	Après_redressement_puis_liquidation_judiciaire	N
+6l0l1	le_site	O
+6l0l2	a_été_laissé	N
+
+#A la fermeture du site, on constatait de nombreux déchets non caractérisés dans l'enceinte, des bidons de 200 litres pleins, des fûts de petite contenance, (contenant des acides, de la peinture etc).
+
+7l0l0	A	T
+7l0l1	la_fermeture	N
+7l0l2	du_site	A
+7l0l3	des_fûts_de_petite_contenance	O
+7l1l0	des_acides	U
+7l1l1	la_peinture	U
+
+#Un arrêté préfectoral de mise en demeure de déclarer la cessation d'activité de la société sous un mois a été pris le  13/06/2000, suivi d'un arrêté préfectoral de consignation de somme de 400 000 F pour l'évacuation des déchets .
+
+8l0l0	Un_arrêté_préfectoral	O
+8l0l1	de_mise_en_demeure_de_déclarer	N
+8l0l2	la_cessation_d__activité	N
+8l0l3	la_société	O
+8l0l4	sous_un_mois	T
+8l0l5	a_été_pris	N
+8l0l6	le___13_06_2000	T
+8l0l7	__suivi	R
+8l0l8	d__un_arrêté_préfectoral	O
+8l0l9	pour_l__évacuation_des_déchets	O
+8l1l0	évacuation_des_déchets	U
+
+#Un arrêté de déconsignation a été pris le 30/07/2002(en raison de la vente aux enchères du site).
+
+9l0l0	Un_arrêté_de_déconsignation	N
+9l0l1	a_été_pris	N
+9l0l2	le_30_07_2002_en	T
+9l0l3	la_vente_aux_enchères	N
+9l0l4	du_site	O
+
+#La société ANTIGONE a été radié du RCS le 18-10-2003, à la suite de quoi, il n'existe plus de dernier exploitant du site, au regard de code de l'environnement.
+
+10l0l0	La_société_ANTIGONE	O
+10l0l1	a_été_radié_du_RCS	N
+10l0l2	le_18___10___2003	T
+10l0l3	n__existe_plus_de_dernier_exploitant	N
+10l0l4	du_site	O
+10l1l0	La_société_ANTIGONE	I
+
+#Un arrêté de mise en demeure a été pris à l'encontre du  nouveau propriétaire du site (M RASCOUSSIER) puis un titre de perception (consignation de somme de 60 379,61 euros) pour l’élimination des déchets présent sur le site.
+
+11l0l0	Un_arrêté_de_mise_en_demeure	O
+11l0l1	a_été_pris	N
+11l0l2	du___nouveau_propriétaire_du_site	O
+11l0l3	_	O
+11l0l4	puis_un_titre_de_perception	O
+11l0l5	pour_l__élimination	N
+11l1l0	M_RASCOUSSIER	I
+
+#Lors d'une inspection réalisée en 2006, il avait été constaté la réalisation d'opérations d'enlèvements partiels de ces même déchets par la société SARP industries.
+
+12l0l0	Lors	R
+12l0l1	d__une_inspection	N
+12l0l2	en_2006__	T
+12l0l3	il	O
+12l0l4	avait_été_constaté	N
+12l0l5	la_réalisation_d__opérations	N
+12l0l6	d__enlèvements_partiels	N
+12l0l7	ces	O
+12l0l8	la_société_SARP_industries	O
+12l1l0	la_société_SARP_industries	I
+
+#La quantité des déchets enlevés a été de 48,4 t correspondant à un coût de 36 346,41 euros.
+
+
+#Les différents bidons se sont dégradés compte tenu de leurs expositions à l’air libre et aux intempéries, ce qui a valu l'utilisation de nouveaux conteneurs pour le transport (la société SARP Industrie a fourni les BED).
+
+14l0l0	utilisation_de_nouveaux_conteneurs	O
+14l0l1	le_transport	N
+14l0l2	la_société_SARP_Industrie	O
+14l0l3	a_fourni	N
+14l0l4	les_BED	O
+14l1l0	la_société_SARP_Industrie	I
+14l1l1	les_BED	I
+
+#Des déchets étaient encore présents.
+
+
+#Les bâtiments, après la fermeture d'Antigone, ont été occupés par quelques sociétés exploitant différentes surfaces du site.
+
+16l0l0	Les_bâtiments	O
+16l0l1	après	T
+16l0l2	la_fermeture_d_	A
+16l0l3	Antigone	O
+16l0l4	ont_été_occupés	N
+16l0l5	quelques_sociétés	O
+16l1l0	Antigone	I
+
+#Le site a été partiellement occupé par un vendeur de véhicules d'occasion (Etablissement COUET RCS : 47 754 5354 00011) du 13-07-2004 au 26-06-2013 faisant certaines opérations de réparation sur le site.
+
+17l0l0	Le_site	O
+17l0l1	a_été_partiellement_occupé_par	N
+17l0l2	un_vendeur_de_véhicules_d_	O
+17l0l3	COUET	O
+17l0l4	du_13___07___2004	T
+17l0l5	au_26___06___2013	T
+17l0l6	faisant	N
+17l0l7	certaines	R
+17l0l8	opérations_de_réparation	O
+17l1l0	Etablissement_COUET	I
+
+#En effet, une soixantaine de véhicules étaient en exposition et le site était ouvert au public, puis par la société TYM AUTOS IR (RCS : 430 196 279 00029), avec une activité d'entretien et de réparation de véhicules légers depuis le 10-11-2014.
+
+18l0l0	une_soixantaine_de_véhicules	O
+18l0l1	étaient_en_exposition	N
+18l0l2	le_site	O
+18l0l3	était_ouvert_au_public	N
+18l0l4	puis	R
+18l0l5	par_la_société_TYM_AUTOS_IR	O
+18l0l6	une_activité_d__entretien_et_de_réparation_de_véhicules_légers	A
+18l0l7	depuis_le_10___11___2014__	T
+18l1l0	la_société_TYM_AUTOS_IR	I
+
+#L’ensemble du site, et notamment les zones où les déchets sont stockés, ont longtemps été accessibles au public jusqu'à la réhabilitation du site à partir de 2013.
+
+19l0l0	L__ensemble_du_site	O
+19l0l1	les_zones	O
+19l0l2	ont_longtemps_été_accessibles_au_public	N
+19l0l3	à	T
+19l0l4	la_réhabilitation_du_site	N
+19l0l5	partir_de_2013__	T
+
+#Par ailleurs, Il avait été constaté que le bâtiment central était occupé en plus des déchets sus nommés par un dépôt de meubles en tous genres.
+
+20l0l0	le_bâtiment_central	O
+20l0l1	était_occupé_en	R
+20l0l2	un_dépôt_de_meubles	O
+20l1l0	dépôt	D
+
+#Certaines zones du site étaient inaccessibles du fait d’un encombrement excessif et anarchique des locaux.
+
+21l0l0	Certaines_zones	O
+
+#Ceux-ci n'étaient pas munis des éléments d’extinction nécessaires à la protection incendie.
+
+
+#Il semblerait, suivant les propos du propriétaire à l'époque, que le dépôt était exploité directement par ce dernier (pas d'inscription au RCS).
+
+23l0l0	le_dépôt	O
+23l0l1	était_exploité_directement	N
+
+#Suite au décès du propriétaire en 2012, le site est resté en indivision jusqu'à son rachat en 2013 par un nouveau propriétaire. c'est à ce dernier que revient la charge de l'élimination du reliquat de déchets encore présents sur le site.
+
+24l0l0	Suite_au	R
+24l0l1	décès	N
+24l0l2	du_propriétaire	O
+24l0l3	en_2012__	T
+24l0l4	le_site	O
+24l0l5	est_resté_en_indivision	N
+24l0l6	jusqu_	T
+24l0l7	à_son_rachat	N
+24l0l8	en_2013	T
+24l0l9	un_nouveau_propriétaire	O
+24l0l10	la_charge	O
+24l0l11	l__élimination	N
+
+#Une dernière inspection réalisée en décembre 2016 a permis d'observer l'enlèvement de déchets jusque là accessibles.
+
+25l0l0	Une_dernière_inspection_réalisée	N
+25l0l1	en_décembre_2016	T
+25l0l2	l__enlèvement_de_déchets_jusque_là_accessibles	N
+
+#En l'absence du propriétaire, le bâtiments central n'a pas pu être inspecté.
+
+26l0l0	du_propriétaire	O
+26l0l1	le_bâtiments_central	O
+26l0l2	n__a_pas_pu_être_inspecté	N
+
+#Il est dorénavant occupé par la société TOP DEPOT LONGROY, qui y exerce une activité d'entreposage depuis le 10-11-2014 (RCS : 809 031 552 00015).
+
+27l0l0	Il	O
+27l0l1	est_dorénavant_occupé	N
+27l0l2	la_société_TOP_DEPOT_LONGROY	O
+27l0l3	exerce	N
+27l0l4	une_activité_d__entreposage	A
+27l0l5	depuis_le_10___11___2014	T
+27l1l0	la_société_TOP_DEPOT_LONGROY	I
+
+#Il a été demandé au propriétaire, par courrier, de fournir les justificatifs d'élimination de déchets.
+
+28l0l0	Il_a_été_demandé	N
+
+#Au vu de ces documents et en cas de bonne élimination de ces déchets, la mise sécurité du site pourra être actée, ce qui mettra fin à notre action.
+
+29l0l0	la_mise_sécurité_du_site_pourra_être_actée	N

@@ -1,0 +1,375 @@
+
+#45.0123
+#La Société de Traitement Chimique des Métaux (STCM), filiale du groupe ECO BAT TECHNOLOGIES PLC (premier producteur mondial de plomb), est une société spécialisée dans le recyclage des batteries au plomb.
+
+0l0l0	La_Société_de_Traitement_Chimique	O
+0l0l1	ECO_BAT_TECHNOLOGIES	O
+0l0l2	société_spécialisée_dans_le_recyclage_des_batteries_au_plomb	A
+0l1l0	La_Société_de_Traitement_Chimique_des_Métaux	I
+0l1l1	STCM	S
+0l1l2	groupe_ECO_BAT_TECHNOLOGIES_PLC	I
+0l1l3	plomb	S
+0l1l4	plomb	S
+
+#STCM possède 2 usines sur le territoire de la commune de BAZOCHES LES GALLERANDES : l'usine B1, faisant l'objet de la fiche BASOL n°450035, est dédiée à l'affinage du Pb pour diverses applications industrielles ; l'usine B2, située Route de Pithiviers au lieu-dit les onze mines à BAZOCHES LES GALLERANDES, a pour activité principale, autorisée par l'arrêté préfectoral du 6 mai 2015, le retraitement et le recyclage de batteries contenant du Plomb.
+
+1l0l0	STCM	O
+1l0l1	possède	N
+1l0l2	2_usines	O
+1l0l3	sur_le_territoire_de_la_commune_de_BAZOCHES_LES_GALLERANDES	L
+1l0l4	l__usine_B1	O
+1l0l5	l__affinage_du_Pb_pour_diverses_applications_industrielles	A
+1l0l6	l__usine_B2	O
+1l0l7	située_Route_de_Pithiviers	O
+1l0l8	au_lieu___dit_les_onze_mines_à_BAZOCHES_LES_GALLERANDES	L
+1l0l9	_	R
+1l0l10	a_pour_activité_principale	N
+1l0l11	autorisée_par_l__arrêté_préfectoral	O
+1l0l12	6_mai_2015__	T
+1l0l13	le_retraitement	N
+1l0l14	et_le_recyclage_de_batteries_contenant_du_Plomb	A
+1l1l0	STCM	I
+1l1l1	Pb	S
+1l1l2	batteries	S
+1l1l3	Plomb	S
+
+#Le site est soumis à la directive européenne relative aux émissions industrielles, dite directive IED.
+
+2l0l0	Le_site	O
+2l0l1	est_soumis_à	R
+2l0l2	la_directive	O
+2l1l0	IED	I
+
+#Le site est également classé SEVESO Seuil Haut au titre de la rubrique 4510 de la nomenclature des installations classées pour la protection de l'environnement (Dangereux pour l'environnement aquatique).
+
+3l0l0	Le_site	O
+3l0l1	classé_SEVESO	O
+3l0l2	nomenclature_des_installations_classées	O
+3l0l3	la_protection_de	A
+3l0l4	l__environnement	O
+3l1l0	SEVESO	I
+
+#Au droit du site, la première nappe rencontrée est celle des Calcaires de Beauce ; elle est présente à une profondeur comprise entre 22 et 25 m.
+
+4l0l0	Au_droit_du_site	L
+4l0l1	Beauce	L
+
+#Les abords immédiats du site objet de la présente étude sont constitués par :
+
+5l0l0	Les_abords_immédiats	O
+
+#• au nord : des terrains agricoles ;
+
+6l0l0	au_nord	L
+6l0l1	des_terrains_agricoles	O
+
+#• à l’ouest : la D97 puis des terrains agricoles ;
+
+7l0l0	à_l__ouest___la_D97	L
+7l0l1	des_terrains_agricoles	O
+
+#• à l’est : des terrains agricoles ;
+
+8l0l0	à_l__est	L
+8l0l1	des_terrains_agricoles	O
+
+#• au sud : une déchetterie en bordure de site puis des terrains agricoles.
+
+9l0l0	au_sud	L
+9l0l1	une_déchetterie	O
+9l0l2	en_bordure_de_site	L
+9l0l3	des_terrains_agricoles	O
+
+#Au regard de ses activités, la société STCM est susceptible d'avoir un impact sur son environnement.
+
+10l0l0	la_société_STCM	O
+10l1l0	la_société_STCM	I
+
+#Pour évaluer cet impact sur la qualité des eaux souterraines, une étude hydrogéologique a été réalisée en avril 2003 pour définir les actions à mettre en œuvre pour la surveillance des eaux souterraines ainsi que le nombre de piézomètres à mettre en place (1 en aval et 2 en amont).
+
+11l0l0	cet_impact	O
+11l0l1	la_qualité_des_eaux_souterraines	O
+11l0l2	une_étude_hydrogéologique	N
+11l0l3	a_été_réalisée	N
+11l0l4	en_avril_2003	T
+11l0l5	surveillance_des_eaux_souterraines	A
+
+#Le sens général d’écoulement de la nappe dans le secteur de Bazoches-les-Gallerandes est orienté vers l’Est-Nord-Est.
+
+12l0l0	Le_sens_général	O
+12l0l1	dans_le_secteur_de_Bazoches_les_Gallerandes	L
+12l0l2	est_orienté_vers_l__Est_Nord_Est	N
+
+#Un suivi trimestriel de la qualité des eaux souterraines est imposé à l'exploitant.
+
+13l0l0	Un_suivi_trimestriel	A
+13l0l1	la_qualité_des_eaux_souterraines	A
+13l0l2	est_imposé	N
+13l0l3	l__exploitant	O
+
+#Les analyses des teneurs en plomb dans les sols ont permis de définir un rayon de 400 m, au sein duquel les teneurs en plomb sont supérieures au fond géochimique local.
+
+14l1l0	plomb	S
+14l1l1	plomb	S
+
+#Le plan local d'urbanisme de la commune de Bazoches-les-Gallerandes a défini des zones spécifiques (indice plomb) comprenant les terrains autour du site contaminés à plus de 100 mg de plomb par kg de terre.
+
+15l0l0	Le_plan_local_d__urbanisme	O
+15l0l1	la_commune_de_Bazoches_les_Gallerandes	L
+15l0l2	a_défini	N
+15l0l3	des_zones_spécifiques	O
+15l0l4	les_terrains	O
+15l0l5	autour_du_site	L
+15l0l6	contaminés	O
+15l1l0	plomb	S
+15l1l1	plomb	S
+
+#Par ailleurs, une surveillance de l’impact sur l’environnement au voisinage de l’installation, comprenant notamment la mesure du plomb et du cadmium (cultures agricoles et retombées atmosphériques à fréquence annuelle et sols à fréquence quinquennale), ainsi que la surveillance des eaux souterraines (plomb et ses composés) et des émissions de dioxines et furannes ont été prescrites par arrêtés préfectoraux des 6 mai et 21 décembre 2015.
+
+16l0l0	une_surveillance	A
+16l0l1	l__impact	O
+16l0l2	l__environnement	O
+16l0l3	au_voisinage_de_l_	L
+16l0l4	la_mesure	A
+16l0l5	la_surveillance_des_eaux_souterraines	A
+16l0l6	ont_été_prescrites	N
+16l0l7	par_arrêtés_préfectoraux	O
+16l0l8	des_6_mai_et_21_décembre_2015__	T
+16l1l0	plomb	S
+16l1l1	cadmium	S
+16l1l2	plomb	S
+16l1l3	ses_composés	U
+16l1l4	dioxines	S
+16l1l5	furannes	S
+
+#La réalisation d’une interprétation de l'état des milieux (IEM) a été prescrite par arrêté préfectoral du 6 mai 2015.
+
+17l0l0	La_réalisation_d_	N
+17l0l1	une_interprétation_de_l__état_des_milieux___IEM	O
+17l0l2	a_été_prescrite	N
+17l0l3	par_arrêté_préfectoral	O
+17l0l4	6_mai_2015__	T
+
+#Les analyses des sols réalisées lors de l'IEM montrent que les sols des terres agricoles avoisinants le site sont impactés par les rejets passés et actuels des dioxines et furannes du site, mais aucune incompatibilité manifeste entre l'état des sols et l'usage n'est constatée.
+
+18l0l0	Les_analyses	N
+18l0l1	les_sols_des_terres_agricoles	O
+18l0l2	avoisinants	R
+18l0l3	le_site	O
+18l0l4	sont_impactés	N
+18l0l5	par	R
+18l0l6	les_rejets_passés	L
+18l1l0	dioxines	S
+18l1l1	furannes	S
+
+#Lors de la visite d'inspection du 9 mars 2016, l'inspection des installations classés a constaté que le bassin de confinement des eaux d'extinction incendie et le bassin de rétention des eaux industrielles et pluviales étaient entièrement remplis par des eaux industrielles et pluviales et qu'une partie des eaux du bassin de rétention Sud-Est s'infiltrait sur ses côtés par débordement.
+
+19l0l0	Lors	T
+19l0l1	de_la_visite_d__inspection	N
+19l0l2	9_mars_2016__	T
+19l0l3	l__inspection_des_installations_classés	O
+19l0l4	a_constaté	N
+19l0l5	que_le_bassin_de_confinement	O
+19l0l6	le_bassin_de_rétention	O
+19l0l7	eaux_industrielles	O
+19l0l8	remplis_par_des_eaux_industrielles	A
+19l0l9	une_partie_des_eaux_du_bassin_de_rétention_Sud_Est	O
+19l0l10	débordement	L
+19l1l0	eaux_industrielles	U
+19l1l1	des_eaux_industrielles	U
+
+#Suite à ce constat, un arrêté préfectoral de mesures d'urgence du 26 mai 2016 a prescrit à l'exploitant la réalisation d'un diagnostic de pollution des sols.
+
+20l0l0	un_arrêté_préfectoral_de_mesures_d__urgence	O
+20l0l1	26_mai_2016	T
+20l0l2	a_prescrit	N
+20l0l3	l__exploitant	O
+20l0l4	la_réalisation_d__un_diagnostic_de_pollution_des_sols	N
+
+#Par arrêté de mise en demeure du 19 juillet 2016, le Préfet du Loiret a imposé à l'exploitant de mettre en place des réseaux d'eaux pluviales de toiture séparatifs reliés à un bassin d'infiltration.
+
+21l0l0	Par_arrêté_de_mise_en_demeure	N
+21l0l1	du_19_juillet_2016__	T
+21l0l2	le_Préfet_du_Loiret	O
+21l0l3	a_imposé	N
+21l0l4	l__exploitant	O
+21l0l5	de_mettre_en_place	N
+21l0l6	des_réseaux	O
+21l0l7	reliés_à	R
+21l0l8	un_bassin	O
+21l1l0	le_Préfet_du_Loiret	I
+
+#Le diagnostic de pollution des sols a mis en évidence une infiltration d'eaux acides contenant des Éléments Traces Métalliques (ETM) (principalement plomb, zinc, cuivre, nickel et cadmium) dans les sols ainsi qu'une augmentation de la conductivité de l’amont vers l’aval hydraulique du site.
+
+22l0l0	Le_diagnostic_de_pollution_des_sols	N
+22l0l1	une_infiltration	N
+22l0l2	eaux_acides	O
+22l0l3	amont_vers_l__aval_hydraulique_du_site	L
+22l1l0	Éléments_Traces_Métalliques	S
+22l1l1	ETM	S
+22l1l2	plomb	S
+22l1l3	zinc	S
+22l1l4	cuivre	S
+22l1l5	nickel	S
+22l1l6	cadmium	S
+
+#Les résultats de la campagne de contrôle de la qualité des eaux souterraines de novembre 2016 ont montré :
+
+23l0l0	la_campagne_de_contrôle	N
+23l0l1	de	R
+23l0l2	la_qualité_des_eaux_souterraines	O
+23l0l3	de_novembre_2016	T
+
+#- un dépassement des critères de potabilité sur les paramètres SO4, Ni et Se ;
+
+24l0l0	un_dépassement_des_critères_de_potabilité	N
+24l1l0	SO4___Ni	S
+24l1l1	Se	S
+
+#- une augmentation de la concentration en zinc entre l'amont et l'aval qui reste toutefois inférieure au critère de potabilité.
+
+25l0l0	aval	O
+25l1l0	zinc	S
+
+#Lors de l'inspection du 3 mai 2017, l’exploitant a indiqué à l’inspection avoir créé un merlon de terre sur la parcelle n°11 adjacente au site (comprise dans l’arrêté préfectoral d’autorisation du site), en utilisant les terres qui ont été excavées pour permettre la création de bassins de rétention et d'infiltration des eaux pluviales.
+
+26l0l0	l__inspection	O
+26l0l1	du_3_mai_2017__	T
+26l0l2	l__exploitant	O
+26l0l3	l__inspection	O
+26l0l4	avoir_créé	N
+26l0l5	un_merlon_de_terre	O
+26l0l6	sur_la	L
+26l0l7	parcelle_n__11_adjacente	O
+26l0l8	au_site	L
+26l0l9	ont_été_excavées	N
+26l0l10	permettre	R
+26l0l11	la_création	N
+26l0l12	de_bassins_de_rétention	O
+26l0l13	eaux_pluviales	O
+
+#L'analyse de ces terres a mis en évidence une teneur moyenne en plomb de 750 mg/kg, ce qui correspond à la teneur en plomb des sols environnants relevée dans l un rapport établi par GALLYS en 2015.
+
+27l0l0	GALLYS	O
+27l0l1	en_2015__	T
+27l1l0	plomb	S
+27l1l1	plomb	S
+27l1l2	GALLYS	I
+
+#L'exploitant a mis en place une clôture pour limiter l'accès à cette parcelle.
+
+28l0l0	L__exploitant	O
+28l0l1	a_mis_en_place_une_clôture	N
+28l0l2	limiter_l__accès	N
+28l0l3	à	R
+28l0l4	cette_parcelle	O
+
+#Dans le cadre de ses obligations liées à la directive IED, l’exploitant a fourni un rapport de base sur l’état de pollution des sols et des eaux souterraines réalisé en juin 2017.
+
+29l0l0	Dans_le_cadre_de	R
+29l0l1	l__exploitant	O
+29l0l2	a_fourni_un_rapport_de_base	N
+29l0l3	l__état_de_pollution_des_sols_et_des_eaux_souterraines	O
+29l0l4	réalisé	N
+29l0l5	en_juin_2017__	T
+
+#Les investigations menées sur les sols, qui ont consisté en la réalisation de 9 sondages ont permis de mettre en évidence :
+
+30l0l0	Les_investigations_menées	N
+30l0l1	sur	R
+30l0l2	les_sols	O
+30l0l3	la_réalisation	N
+30l0l4	9_sondages	N
+
+#- une contamination ponctuelle en surface en métaux (arsenic, cadmium, plomb, zinc) à des concentrations élevées (jusqu’à 9964 mg/kg de matière sèche en plomb) et en sulfates ;
+
+31l1l0	métaux	S
+31l1l1	arsenic	S
+31l1l2	cadmium	S
+31l1l3	plomb	S
+31l1l4	zinc	S
+31l1l5	plomb	S
+31l1l6	sulfates	S
+
+#- une contamination ponctuelle en profondeur en métaux (cadmium et plomb) et en sulfates ;
+
+32l1l0	métaux	S
+32l1l1	cadmium	S
+32l1l2	plomb	S
+32l1l3	sulfates	S
+
+#- une contamination ponctuelle sous la dalle en métaux (arsenic et plomb) à des concentrations élevées (7273 mg/kg MS en plomb) ;
+
+33l1l0	métaux	S
+33l1l1	arsenic	S
+33l1l2	plomb	S
+33l1l3	plomb	S
+
+#- une concentration généralisée en étain et en antimoine à des teneurs élevées.
+
+34l1l0	étain	S
+34l1l1	antimoine	S
+
+#Le rapport de base de juin 2017 sur la partie surveillance des eaux souterraines permet d’établir les constats suivants :
+
+35l0l0	de_juin_2017	T
+35l0l1	surveillance_des_eaux_souterraines	A
+
+#- les teneurs en plomb sont de manière générale inférieures aux valeurs de référence ; seule une teneur supérieure aux limites des valeurs de référence a été relevée en mai 2016 sur le puits 2 et elle se révèle isolée et inexpliquée,
+
+36l0l0	a_été_relevée	N
+36l0l1	en_mai_2016	T
+36l1l0	plomb	S
+
+#- pour les autres paramètres, les teneurs relevées sont faibles ou inférieures aux limites de détection,
+
+
+#- seul un dépassement de valeur eaux brutes pour le cadmium sur le puits B2 en février 2016 est à signaler.
+
+38l0l0	en_février_2016	T
+38l1l0	cadmium	S
+
+#Pas de dépassement des valeurs limites sur Pz Sud-Ouest.
+
+39l0l0	Pas_de_dépassement_des_valeurs_limites	O
+
+#Si les sulfates sont à des teneurs faibles sur les Pz Sud-Ouest et Puits B2, ils sont relevés à des valeurs élevées dépassant la valeur limite eaux brutes (250 mg/l) sur le Pz Nord-Est.
+
+40l1l0	sulfates	S
+
+#Il est précisé que les analyses des eaux souterraines réalisées par ERM suite à un incident dans l’été 2016 ne montrent pas d’impacts en métaux lourds.
+
+41l0l0	les_analyses	N
+41l0l1	eaux_souterraines	O
+41l0l2	réalisées	N
+41l0l3	ERM	O
+41l0l4	suite_à	R
+41l0l5	un_incident	N
+41l0l6	dans_l_	N
+41l0l7	été_2016	T
+41l1l0	ERM	I
+41l1l1	métaux_lourds	S
+
+#En novembre 2017, l’exploitant a remis un rapport sur le suivi de la qualité des eaux souterraines.
+
+42l0l0	En_novembre_2017__	T
+42l0l1	l__exploitant	O
+42l0l2	a_remis	N
+42l0l3	le_suivi_de_la_qualité_des_eaux_souterraines	A
+
+#Les différentes campagnes de surveillance de la qualité des eaux souterraines montrent par rapport aux critères de potabilité :
+
+43l0l0	surveillance_de	A
+43l0l1	la_qualité_des_eaux_souterraines	O
+
+#- une hausse de la teneur en zinc au niveau du piézomètre B2-NE (aval) ;
+
+44l0l0	aval	O
+44l1l0	zinc	S
+
+#- une baisse de la teneur en plomb au niveau du piézomètre B2-SO (amont) et puits B2 (aval) ;
+
+45l0l0	une_baisse	N
+
+#- une baisse de la teneur en zinc au niveau du piézomètre B2-SO et au puits B2.
+

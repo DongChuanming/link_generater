@@ -1,0 +1,311 @@
+
+#34.0024
+#La zone polluée par les hydrocarbures est située de part et d'autre de la nationale 112 à l'entrée de la ville de Sète, sur le territoire de la commune de Frontignan-La Peyrade.
+
+0l0l0	de_la_nationale	N
+0l1l0	autre	S
+
+#Elle touche essentiellement une zone de délaissés routiers appartenant à l'état.
+
+
+#Elle est bordée au nord par une lagune, à l'est par un bâtiment commercial et une scierie, à l'ouest par la voie SNCF située en bordure de mer, à l'ouest par le canal de la Peyrade.
+
+2l0l0	Elle_est_bordée	O
+2l0l1	par_une_lagune__	O
+2l0l2	à_l__est_par	N
+2l0l3	commercial_et_une_scierie___à_l__ouest_par_la_voie_SNCF	L
+2l0l4	située_en_bordure_de_mer___à_l__ouest_par_le_canal_de_la_Peyrade	L
+2l1l0	par_une_lagune__	S
+
+#La pollution, détectée début 2003, résulte du percement d'un pipeline d'alimentation en produits pétroliers appartenant à la société GDH et reliant le dépôt d'hyrocarbures de GDH à Frontignan au dépôt TOTAL situé dans le port de Sète, lors de travaux de terrassement effectués en 2002 par un tiers.
+
+3l0l0	2003___résulte_du_percement_d__un	O
+3l0l1	pipeline_d__alimentation	R
+
+#Le produit présent dans le pipeline s'est répandu dans les sols, puis a migré vers le canal de La Peyrade via une tranchée abritant une canalisation d'eaux de la station d'épuration de la zone des Eaux Blanches et en contrebas de la route départementale RD600.
+
+4l0l0	produit_présent_dans_le_pipeline_s_	L
+4l0l1	est_répandu	L
+4l0l2	dans_les_sols	O
+4l0l3	__puis_a_migré_vers_le_canal	A
+4l0l4	de_La_Peyrade	L
+4l0l5	via_une	O
+4l0l6	tranchée_abritant_une	L
+4l0l7	canalisation_d__eaux	R
+4l0l8	de_la_station_d__épuration	L
+
+#Un traitement des flottants et une surveillance de la nappe ont été, depuis, mis en place.
+
+5l0l0	Un_traitement_des_flottants	N
+5l0l1	et_une	T
+5l0l2	surveillance	R
+5l0l3	de_la_nappe	N
+5l0l4	ont_été	O
+5l0l5	__depuis___mis_en_place__	A
+
+#En novembre 2004, une pollution par des PCB est constatée sur les hydrocarbures pompés et receuillis.
+
+6l0l0	pollution_par	O
+6l0l1	des_PCB_est_constatée	N
+6l0l2	sur_les	O
+6l0l3	hydrocarbures	N
+6l0l4	pompés_et_receuillis__	L
+6l1l0	En_novembre	S
+
+#Par arrêté préfectoral du 08 juin 2005, il a été imposé à GDH de surveiller et traiter cette nouvelle pollution due à une pollution ancienne des sols par les PCB, antérieure à la fuite du pipeline.
+
+7l0l0	Par_arrêté_préfectoral_du_08	N
+7l0l1	juin_2005___il_a_été_imposé_à_GDH_de	A
+7l0l2	surveiller_et_traiter_cette	N
+
+#Un arrêté préfectoral de mesures d'urgence a été pris le 03 mars 2003, imposant à GDH la mise en sécurité de la zone et la réalisation de travaux de réhabilitation.
+
+8l0l0	Un_arrêté_préfectoral	T
+8l0l1	de_mesures	O
+8l0l2	2003___imposant_à	O
+8l1l0	urgence	S
+8l1l1	2003___imposant_à	S
+
+#Les travaux effectués lors de la découverte de la pollution dans le canal de la Peyrade ont été successivement:
+
+9l0l0	travaux_effectués	O
+9l0l1	lors_de_la_découverte	T
+9l0l2	de_la_pollution	N
+9l0l3	dans_le_canal	T
+9l0l4	la_Peyrade_ont_été_successivement	N
+9l1l0	pollution	I
+
+#- la mise en place de barrages flottants,
+
+10l0l0	__la_mise_en_place_de_barrages_flottants__	O
+
+#- le pompage des hydrocarbures surnageant dans le canal,
+
+11l0l0	__le_pompage_des_hydrocarbures_surnageant_dans	N
+11l0l1	le_canal__	O
+
+#- le creusement d'une tranchée drainante parallèle au canal,
+
+12l0l0	le_creusement_d_	N
+12l0l1	une_tranchée_drainante	O
+
+#- la fermeture d'une portion du canal par la pose de 2 batardeaux afin d'éviter le transfert de pollution vers le port de Sète, l'étang de Thau, le canal du Midi,
+
+13l0l0	la_fermeture	A
+13l0l1	d__une_portion_du	O
+13l1l0	d__une_portion_du_canal_par_la	U
+
+#- la pose d'une clôture autour des zones excavées,
+
+14l0l0	la_pose_d__une	N
+14l0l1	clôture_autour_des_zones	O
+14l0l2	excavées__	L
+
+#- le pompage de la phase surnageante des hydrocarbures dans le canal et les tranchées créées
+
+15l0l0	le_pompage_de	N
+15l0l1	la_phase_surnageante_des	O
+15l0l2	hydrocarbures_dans_le_canal	O
+15l0l3	tranchées_créées	N
+
+#- la mise en place d'un réseau de piézomètres afin de déterminer l'étendue de la pollution.
+
+16l0l0	la_mise_en	N
+16l0l1	place_d__un_réseau	O
+16l0l2	piézomètres_afin	N
+
+#Un diagnostic initial a été adressé le 23/04/2003 et un diagnostic approfondi le 11/08/2003.
+
+17l0l0	Un_diagnostic	A
+17l0l1	diagnostic	O
+17l0l2	approfondi_le	R
+17l0l3	11_08_2003__	O
+17l1l0	initial_a_été_adressé	U
+17l1l1	23_04_2003_et_un	S
+
+#La réouverture du canal, soumise aux conditions fixées par le service chargé de la police de l'eau (SMNLR) a eu lieu en octobre 2004.
+
+18l0l0	La_réouverture_du_canal	N
+
+#Au niveau administratif, l'arrêté préfectoral de mesures d'urgence du 03 mars 2003 a eté complété le 08 juin 2005 par un arrêté qui a prescrit:
+
+19l0l0	Au_niveau_administratif	N
+19l0l1	__l__arrêté	N
+19l0l2	préfectoral_de	T
+19l0l3	mesures_d__urgence_du_03_mars	N
+19l0l4	2003_a_eté_complété	T
+
+#- le traitement des eaux et des hydrocabures pollués par les PCB
+
+20l0l0	__le_traitement	N
+20l0l1	des_eaux	O
+
+#- la surveillance de la qualité des eaux
+
+21l0l0	qualité_des_eaux	O
+
+#- la gestion et l'élimination des déchets.
+
+22l0l0	la_gestion_et_l__élimination	N
+22l0l1	des_déchets__	O
+
+#Une évaluation détaillée des risques (EDR) a été remise en 2006.
+
+23l0l0	évaluation_détaillée_des_risques___EDR___a_été_remise_en_2006__	A
+
+#Elle a conclu à l'absence de risque sanitaire.
+
+
+#Cette étude a été complétée en 2007 pour prendre en compte la présence de PCB.
+
+25l0l0	Cette	O
+25l0l1	étude_a_été_complétée_en_2007_pour	N
+25l0l2	prendre_en_compte	N
+25l0l3	la_présence_de_PCB__	T
+
+#Ce complément n'a pas modifié les conclusions de l'EDR.
+
+
+#Suite aux phases d'investigations, un réseau d'ouvrages (puits, piézomètres et aiguilles) a été installé afin de récupérer le produit flottant sur les eaux souterraines, puis un système d'extraction multi-phase a été mis en place.
+
+27l0l0	Suite_aux_phases_d__investigations	N
+27l1l0	piézomètres	S
+
+#Au vu des résultats d'analyses obtenus après plusieurs années, un test d'arrêt sur l'une des 2 unité de traitement (zone canal) a été réalisé pendant 3 mois en 2008.
+
+
+#Sur la base des résultats obtenus, le traitement a été arrêté et le repli des installations a été finalisé en mai 2009.
+
+29l0l0	Sur_la	R
+29l0l1	base_des_résultats_obtenus___le	N
+29l0l2	été_finalisé_en_mai	N
+
+#Au total, environ 1250 m3 de produits ont été récupérés.
+
+30l0l0	ont_été_récupérés__	T
+
+#Une surveillance périodique des niveaux de phase immiscible d'hydrocarbures sur les eaux souterraines et un écrémage manuel sur les piézomètres présentant des hauteurs de flottants supérieures à 5 cm a été assurée.
+
+31l0l0	niveaux_de_phase	O
+31l0l1	immiscible	N
+31l0l2	d__hydrocarbures_sur_les_eaux	O
+31l0l3	souterraines	N
+31l0l4	et_un_écrémage_manuel_sur_les_piézomètres_présentant_des_hauteurs_de_flottants_supérieures_à_5_cm_a_été_assurée__	T
+
+#Depuis fin 2008, environ 568 litres de flottant ont ainsi été récupérés.
+
+32l0l0	environ_568_litres_de	O
+32l0l1	flottant_ont_ainsi	N
+
+#Plusieurs campagnes d'investigations ont été réalisées entre 2003 et 2010 afin de caractériser et de délimiter les impacts liés à la fuite du pipeline (prélèvements d'échantillons de sols, de gaz du sol, d'eaux souterraines, d'eaux de surface).
+
+33l0l0	Plusieurs_campagnes_d__investigations	A
+33l0l1	délimiter_les_impacts_liés	N
+33l1l0	2003_et_2010_afin	S
+33l1l1	échantillons_de	U
+
+#Un suivi semestriel des gaz du sol a été mis en place entre décembre 2012 et décembre 2014.
+
+34l0l0	Un_suivi_semestriel	T
+34l0l1	gaz_du_sol_a_été_mis_en_place	O
+34l0l2	entre_décembre_2012_et	N
+
+#Un plan de gestion de la pollution du site a été remis par GDH en 2011.
+
+35l0l0	Un_plan_de_gestion_de_la_pollution_du_site	N
+35l0l1	a_été_remis_par_GDH	N
+35l0l2	en_2011__	T
+
+#Il a été complété en juillet 2014.
+
+36l0l0	Il_a_été_complété_en_juillet_2014__	O
+
+#Ce document comporte une analyse des risques résiduels.
+
+37l0l0	Ce_document_comporte_une_analyse_des_risques	O
+37l0l1	résiduels	N
+37l0l2	_	O
+37l1l0	résiduels__	I
+
+#Selon cette étude, l’état actuel du site est compatible avec les usages constatés aujourd’hui et ceux prévus par le PLU de Frontignan (zone d’activité économique).
+
+38l0l0	Selon_cette_étude	N
+38l0l1	__l__état_actuel_du_site_est_compatible_avec_les_usages_constatés_aujourd_hui_et_ceux_prévus_par_le_PLU_de_Frontignan___zone_d__activité_économique____	T
+
+#Ce plan conclut à la nécessité :
+
+
+#- de poursuivre la surveillance semestrielle de la qualité des eaux souterraines jusqu'au moins en 2016 ;
+
+40l0l0	surveillance_semestrielle	O
+40l0l1	de_la_qualité	R
+40l0l2	des_eaux_souterraines	O
+
+#- de poursuivre le suivi sur les eaux souterraines des épaisseurs de flottant résiduel, à une fréquence semestrielle, et d'écrémer les ouvrages le nécessitant ;
+
+
+#- d'instaurer des mesures visant à conserver la mémoire de la pollution résiduelle.
+
+42l0l0	d__instaurer	N
+42l0l1	des_mesures_visant_à_conserver_la	A
+42l0l2	mémoire_de_la_pollution_résiduelle	A
+42l0l3	_	T
+
+#A l'issue de l'examen du plan de gestion, l'inspection en charge des installations classées de la DREAL Languedoc-Roussillon a émis des recommandations à destination des collectivités (municipalité de Frontignan et Communauté d'Agglomération Thau Agglo) en cas de réaménagement de la zone.
+
+43l0l0	l__issue_de_l_	N
+43l0l1	examen_du_plan_de_gestion___l__inspection	A
+43l0l2	Roussillon_a_émis	N
+43l0l3	des_recommandations	O
+43l1l0	installations_classées	U
+
+#Un démantèlement d'anciens ouvrages ayant servi au traitement effectué entre 2003 et 2008 (ouvrages sur lesquels aucune réalimentation en flottant n'a été observée) a été réalisé entre 2015 et 2016 : comblement des aiguilles de traitement et démantèlement des conduites associées.
+
+44l0l0	Un_démantèlement_d__anciens	O
+44l1l0	traitement_effectué_entre_2003	U
+
+#La qualité des eaux souterraines au droit du site a fait l'objet d'un suivi périodique (périodes de hautes et de basses eaux) jusqu'en 2017.
+
+45l0l0	des_eaux	N
+45l0l1	souterraines_au_droit	O
+45l0l2	du_site_a_fait_l__objet_d__un_suivi_périodique___périodes	O
+45l0l3	de_hautes_et_de_basses_eaux___jusqu_	O
+45l0l4	en	R
+45l0l5	2017__	O
+45l1l0	périodes_de_hautes_et_de_basses_eaux___jusqu_	I
+
+#En effet, il a été constaté: une amélioration de la qualité des eaux suite aux travaux de dépollution; une relative stabilisation des teneurs en benzène et hydrocabures sur l'ensemble des ouvrages suivis; une absence d'usage sensible des eaux souterraines car celles-ci sont saumâtres.
+
+46l0l0	En_effet___il_a_été_constaté___une_amélioration_de_la_qualité_des_eaux	N
+46l0l1	suite	R
+46l0l2	aux_travaux_de_dépollution	T
+46l0l3	sur_l__ensemble	N
+46l0l4	des_ouvrages	T
+46l0l5	suivis___une_absence_d__usage_sensible_des_eaux	N
+46l0l6	souterraines_car_celles_ci	N
+46l0l7	sont_saumâtres	O
+
+#Un Secteur d'information sur les sols (SIS) a été acté par arrêté préfectoral du 9 août 2018 sur les terrains concernés par la pollution.
+
+47l0l0	Un_Secteur_d__information_sur_les	O
+47l0l1	sols___SIS___a_été	L
+47l0l2	acté_par_arrêté	R
+47l0l3	préfectoral_du_9_août	N
+47l0l4	pollution__	T
+
+#Tout projet d'aménagement devra faire appel à un bureau d'études certifié dans le domaine des sites et sols pollués pour garantir la compatibilité du projet avec l'état du sol.
+
+48l0l0	un_bureau_d__études	O
+48l0l1	certifié	R
+48l0l2	dans_le_domaine_des_sites	N
+48l0l3	et_sols_pollués_pour_garantir	N
+48l0l4	compatibilité	O
+48l1l0	compatibilité_du_projet_avec_l__état	S
+
+#Un PV de récolement du 05/09/2019 indique que l'exploitant a satisfait à ses obligations au titre de la protection de l'environnement (R512-39-3).
+
+49l0l0	que_l_	N
+49l0l1	exploitant_a_satisfait_à_ses	O
+49l0l2	obligations_au	T
+49l0l3	titre_de_la_protection_de_l_	O
+49l0l4	environnement	N

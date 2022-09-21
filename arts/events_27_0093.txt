@@ -1,0 +1,116 @@
+
+#27.0093
+#Le site serait une ancienne décharge et aurait pu être utilisé pour l'enfouissement de déchets industriels issus de l'ex usine Wonder.
+
+0l0l0	Le_site	O
+0l0l1	une_ancienne_décharge	O
+0l0l2	aurait_pu_être_utilisé	N
+0l0l3	pour	R
+0l0l4	l__enfouissement	N
+0l0l5	déchets_industriels	O
+0l1l0	déchets_industriels	U
+
+#Il est situé au sud-est de la commune de Louviers et occupe une superficie de 27 000 m2.
+
+1l0l0	situé_au_sud_est_de_la_commune_de_Louviers	L
+
+#Il est notamment bordé par le captage AEP de la ville de Pinterville (au sud) et par la rivière Eure (à l'ouest).
+
+2l0l0	bordé_par_le	L
+2l0l1	captage_AEP	O
+2l0l2	la_ville_de_Pinterville	L
+2l0l3	__au_sud	L
+2l0l4	la_rivière_Eure	L
+2l0l5	__à_l__ouest	L
+
+#Le site se trouve en zone jaune (zone de remontée de nappe) du PPRI.
+
+3l0l0	Le_site	O
+3l0l1	se_trouve_en_zone	L
+
+#Une aire d'accueil des gens du voyage y a été aménagée en 2007.
+
+4l0l0	Une_aire	O
+4l0l1	a_été_aménagée	N
+4l0l2	en_2007__	T
+
+#Un permis de construire a été délivré à cet effet le 4 septembre 2006.
+
+5l0l0	Un_permis_de_construire	O
+5l0l1	a_été_délivré_à_cet_effet	N
+5l0l2	le_4_septembre_2006__	T
+
+#Les travaux de réhabilitation ont été réceptionnés le 26 juillet 2007.
+
+6l0l0	Les_travaux_de_réhabilitation	N
+6l0l1	ont_été_réceptionnés	N
+6l0l2	le_26_juillet_2007__	T
+
+#Un diagnostic réalisé en 2004 par SITA Remédiation met en évidence la présence de divers polluants dans les sols : des hydrocarbures (HCT), des métaux (As, Cr, Hg, Pb) et des PCB.
+
+7l0l0	Un_diagnostic	N
+7l0l1	réalisé	N
+7l0l2	en_2004	T
+7l0l3	SITA	O
+7l0l4	Remédiation	N
+7l1l0	SITA_Remédiation	I
+7l1l1	polluants	S
+7l1l2	hydrocarbures	S
+7l1l3	HCT	S
+7l1l4	des_métaux	S
+7l1l5	As	S
+7l1l6	Cr	S
+7l1l7	Hg	S
+7l1l8	Pb	S
+7l1l9	des_PCB	S
+
+#Une évaluation détaillée des risques montre que les modes d'exposition par contact direct, ingestion et inhalation de poussières du sol entrainent des risques sanitaires inacceptables pour l'enfant.
+
+8l0l0	Une_évaluation_détaillée_des_risques	N
+8l0l1	inhalation_de	N
+8l0l2	poussières_du_sol	A
+
+#Dans le cadre du projet d'implantation d'une aire d'accueil des gens du voyage, une couverture de l'ensemble de la superficie concernée par le projet et une gestion adaptée des terres excavées sont toutefois de nature à assurer la maîtrise des risques liées aux pollutions présentes.
+
+9l0l0	Dans_le_cadre	R
+9l0l1	du_projet	N
+9l0l2	implantation_d__une_aire	O
+9l0l3	gens_du_voyage	A
+9l0l4	le_projet	O
+9l0l5	une_gestion_adaptée	O
+9l0l6	excavées	O
+9l0l7	maîtrise_des_risques	N
+9l0l8	liées	R
+9l0l9	aux_pollutions	N
+
+#Des études réalisées par TAUW Environnement en 2005 et 2006 permettent en effet d'établir les mesures de gestion à mettre en œuvre afin de rendre compatible le site avec l'usage susvisé.
+
+10l0l0	Des_études_réalisées	N
+10l0l1	par_TAUW_Environnement	O
+10l0l2	en_2005_et_2006	T
+10l0l3	les_mesures_de_gestion	O
+10l1l0	TAUW	I
+
+#Ces mesures consistent en particulier à :
+
+
+#- confiner en merlon les éventuelles terres excavées et les recouvrir d'une géomembrane et de 30 cm de terres végétales,
+
+12l0l0	confiner	N
+12l0l1	en_merlon	O
+
+#- recouvrir également les zones non imperméabilisées d'une géomembrane et de 30 cm de terres végétales.
+
+
+#L'inspection des installations classées préconise par ailleurs la prise de servitudes destinées à conserver la mémoire des pollutions confinées.
+
+14l0l0	L__inspection_des_installations_classées	O
+14l0l1	confinées	O
+
+#Les travaux d'aménagement ont été réceptionnés par la CASE le 26 juillet 2007 sans émission de réserves relatives aux mesures de gestion des pollutions des sols.
+
+15l0l0	Les_travaux_d__aménagement	O
+15l0l1	ont_été_réceptionnés	N
+15l0l2	la_CASE	O
+15l0l3	le_26_juillet_2007	T
+15l1l0	la_CASE	I

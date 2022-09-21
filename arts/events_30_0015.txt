@@ -1,0 +1,151 @@
+
+#30.0015
+#Le terrain d'une superficie d'environ 5 000 m², situé dans le Sud-Ouest de l'agglomération de Pont-Saint-Esprit, a accueilli pendant près de 100 ans, de 1854 à 1949, une usine fabriquant du gaz à partir de la distillation de la houille.
+
+0l0l0	Le_terrain	O
+0l0l1	situé_dans_le_Sud_Ouest_de_l__agglomération_de_Pont_Saint_Esprit	L
+0l0l2	a_accueilli	N
+0l0l3	pendant_près_de_100_ans	T
+0l0l4	de_1854_à_1949	T
+0l0l5	une_usine	O
+0l0l6	fabriquant_du_gaz	A
+0l0l7	à_partir_de	R
+0l0l8	la_distillation_de_la_houille	A
+
+#En 1954, la mise en place d'une station d'air-propane a entraîné l'arrêt de la production de gaz.
+
+1l0l0	En_1954	T
+1l0l1	la_mise_en_place_d_	N
+1l0l2	une_station_d__air___propane	A
+1l0l3	a_entraîné	N
+1l0l4	l__arrêt	N
+1l0l5	de_la_production_de_gaz	A
+
+#Les installations de l'usine ont été démantelées dès 1954.
+
+2l0l0	Les_installations_de_l__usine	O
+2l0l1	ont_été_démantelées	N
+2l0l2	dès_1954__	T
+
+#Actuellement, le terrain est occupé par un poste électrique haute tension entouré d'une clôture en interdisant l'accès.
+
+3l0l0	le_terrain	O
+3l0l1	est_occupé_par	R
+3l0l2	un_poste_électrique_haute_tension_entouré	O
+3l0l3	une_clôture	O
+3l0l4	en_interdisant_l__accès	N
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère.
+
+4l0l0	Gaz_de_France	O
+4l0l1	a_hiérarchisé	N
+4l0l2	ses_actions	O
+4l0l3	467_sites	O
+4l1l0	Gaz_de_France	I
+
+#La méthodologie a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site,...).
+
+5l0l0	hiérarchiser	N
+5l0l1	les_sites	O
+5l0l2	en_fonction_de	R
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz, entre le Ministère de l'Environnement et Gaz de France, signé le 25 avril 1996.
+
+6l0l0	L__application	N
+6l0l1	cette_méthode	O
+6l0l2	a_abouti_à	R
+6l0l3	l__établissement	N
+6l0l4	5_classes_de_priorité	O
+6l0l5	les_engagements	O
+6l0l6	Gaz_de_France	O
+6l0l7	ont_fait_l__objet_d_	R
+6l0l8	un_protocole_d__accord	O
+6l0l9	relatif_à	R
+6l0l10	la_maîtrise	O
+6l0l11	suivi	O
+6l0l12	la_réhabilitation	N
+6l0l13	anciens_terrains_d__usines_à_gaz	O
+6l0l14	entre	R
+6l0l15	le_Ministère_de_l__Environnement	O
+6l0l16	Gaz_de_France	O
+6l0l17	signé	N
+6l0l18	le_25_avril_1996	T
+6l1l0	Gaz_de_France	I
+6l1l1	le_Ministère_de_l__Environnement	I
+6l1l2	Gaz_de_France	I
+
+#Le site de l'ancienne usine à gaz de Pont Saint Esprit est en classe 3 du protocole ce qui correspond à un site dont la sensibilité vis à vis de l'homme, des eaux souterraines et superficielles est faible.
+
+7l0l0	Le_site	O
+7l0l1	l__ancienne_usine_à_gaz	O
+7l0l2	de_Pont_Saint_Esprit	L
+
+#Conformément aux engagements du protocole, ce site a fait l'objet d'une étude historique avec localisation de cuves (recherches bibliographiques, enquêtes,...) effectuée par un bureau d'études, à la demande de Gaz de France.
+
+8l0l0	Conformément_aux	R
+8l0l1	engagements	O
+8l0l2	ce_site	O
+8l0l3	a_fait_l__objet_d_	R
+8l0l4	une_étude_historique	N
+8l0l5	un_bureau_d__études	O
+8l0l6	à_la_demande_de	R
+8l0l7	Gaz_de_France	O
+8l1l0	cuves	D
+8l1l1	Gaz_de_France	I
+
+#Cette étude réalisée par TAUW ENVIRONNEMENT en mars 2002 a été adressée à la DRIRE en janvier 2003 .
+
+9l0l0	Cette_étude_réalisée	N
+9l0l1	TAUW_ENVIRONNEMENT	O
+9l0l2	en_mars_2002	T
+9l0l3	a_été_adressée	N
+9l0l4	la_DRIRE	O
+9l0l5	en_janvier_2003	T
+9l1l0	TAUW_ENVIRONNEMENT	I
+9l1l1	la_DRIRE	I
+
+#Aucune cuve enterrée n'a été trouvée lors des fouilles à la pelle mécanique .
+
+
+#L'auteur de l'étude suppose que cette cuve a été démantelée à l'occasion de la pose de 2 canalisations en fonte rencontrées à 80 cm de profondeur .
+
+11l0l0	cette_cuve	O
+11l0l1	a_été_démantelée	N
+11l0l2	à_l__occasion_de	R
+11l0l3	la_pose	N
+11l0l4	2_canalisations	O
+11l0l5	à_80_cm_de_profondeur	L
+
+#L'inspection des installations classées considère que les investigations réalisées ne suffisent pas à écarter totalement la présence de cuves à goudron sur le site ni l'existence de pollution (aucune analyse de sol n'est fournie dans l'étude).
+
+12l0l0	L__inspection_des_installations_classées	O
+12l0l1	les_investigations_réalisées	N
+12l0l2	cuves_à_goudron	O
+12l1l0	cuves	D
+12l1l1	goudron	U
+
+#Il sera donc nécessaire de réaliser avant tout changement d'usage des investigations complémentaires pour connaître l'état du sol.
+
+13l0l0	tout_changement_d_	N
+13l0l1	usage	O
+13l0l2	investigations_complémentaires	O
+
+#Aussi, Gaz de France (article 2 du protocole) s'est engagé à réaliser un diagnostic initial en préalable à toute opération de vente, cession ou réaménagement et à définir, en accord avec l'Inspection des installations classées, les conditions de réhabilitation en fonction de la classe de sensibilité du site et de sa destination future.
+
+14l0l0	Gaz_de_France	O
+14l0l1	s__est_engagé_à_réaliser_un_diagnostic_initial	N
+14l0l2	en_préalable_à	R
+14l0l3	toute_opération_de_vente	N
+14l0l4	cession_ou_réaménagement	N
+14l0l5	l__Inspection_des_installations_classées	O
+14l0l6	les_conditions_de_réhabilitation	O
+14l1l0	Gaz_de_France	I
+
+#L'accord sur les suites à donner au protocole de 1996, signé le 2 avril 2007,  précise que la mémoire de l'état du site sera conservée en transférant les informations de la fiche BASOL dans BASIAS (la mise en place de restrictions d'usage n'a pas été retenue).
+
+15l0l0	L_	O
+15l0l1	accord_sur	R
+15l0l2	les_suites	O
+15l0l3	le_2_avril_2007__	T
+15l0l4	en_transférant	N
+15l0l5	__la_mise_en_place_de_restrictions_d__usage	O

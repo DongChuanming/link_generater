@@ -1,0 +1,151 @@
+
+#08.0113
+#Le crassier Nord aurait reçu, de sa création qui daterait de 1806 à 1887 :
+
+0l0l0	Le_crassier_Nord	O
+0l0l1	aurait_reçu	N
+0l0l2	sa_création	N
+0l0l3	daterait_de_1806_à_1887	T
+
+#- des scories de fonderie (déchets solides provenant des opérations d'affinage du cuivre qui surnagent le métal en fusion),
+
+1l0l0	scories_de_fonderie	O
+1l0l1	opérations_d__affinage_du_cuivre	A
+1l1l0	des_scories	U
+1l1l1	déchets_solides	U
+
+#- des écumures (résidus de fusion contenant une forte teneur en cuivre).
+
+2l0l0	écumures	O
+2l1l0	cuivre	S
+
+#Le crassier Nord a été divisé en deux grandes parties, une partie "Nord" elle-même divisée en deux sous-ensembles (extrémité Nord et partie centrale), et une partie "Extrême Sud".
+
+3l0l0	Le_crassier_Nord	O
+3l0l1	a_été_divisé_en	N
+3l0l2	deux_grandes_parties	O
+3l0l3	une_partie___Nord	O
+3l0l4	deux_sous_ensembles	O
+
+#Son emprise recouvre une superficie totale de plus de 25000 m2 sur 10 parcelles.
+
+4l0l0	Son_emprise	O
+4l0l1	25000_m2	O
+
+#Sur la partie "Nord" du crassier, on constate les aménagements suivants : piste de vélo-cross, aire de jeux pour enfants, espace vert, zone de voirie, zone non aménagée (parcelles AD173 et AD174).
+
+5l0l0	la_partie___Nord__	O
+5l0l1	les_aménagements	N
+
+#Sur la partie "Centrale", un parking a été aménagé avec la mise en place d'enrobés sur les voiries et de graviers sur les stationnements.
+
+6l0l0	Sur_la_partie	O
+6l0l1	Centrale	O
+6l0l2	un_parking	O
+6l0l3	a_été_aménagé	N
+6l0l4	avec	R
+6l0l5	la_mise_en_place_d__enrobés	N
+
+#L'autre partie est restée en l'état, sans recouvrement, mais une végétation spontanée s'est développée sur la majeure partie de cette zone.
+
+7l0l0	s__est_développée	N
+7l0l1	cette_zone	O
+
+#On note la présence d'un chemin piéton à l'Est de l'ancien crassier (parcelles AE15, AE109, AE111 et AE113)
+
+8l0l0	à_l__Est_de_l__ancien_crassier	L
+
+#Sur la partie "Extrême Sud", un rond-point a été créé qui est recouvert d'enrobés et de terres (parcelles AE107, AE108, AE110 et AE112).
+
+9l0l0	Sur_la_partie	O
+9l0l1	__Extrême_Sud__	L
+9l0l2	a_été_créé	N
+
+#Description sommaire des analyses réalisées :
+
+10l0l0	analyses_réalisées	O
+
+#En septembre 1999, un échantillon au sein du « crassier Nord » a été réalisé par l'exploitant de l'époque.
+
+11l0l0	En_septembre_1999__	T
+11l0l1	un_échantillon	O
+11l0l2	au_sein_du_____crassier_Nord	L
+11l0l3	____a_été_réalisé	N
+11l0l4	par_l__exploitant	O
+
+#Un test de lixiviation a été réalisé et comparé avec les valeurs de référence pour les eaux destinées à la consommation humaine et avec les critères d'admission des déchets en installation de stockage de déchets inertes.
+
+12l0l0	Un_test_de_lixiviation_a_été_réalisé	N
+12l0l1	les_critères	O
+
+#Selon les données transmises par l'exploitant, "les résultats des tests de lixiviation sont généralement inférieurs aux valeurs de référence " et "les résultats des tests [de lixiviation] montrent des teneurs inférieures [aux critères d’admission des déchets en installation de stockage de déchets inertes] pour les métaux recherchés".
+
+13l0l0	l__exploitant	O
+13l0l1	les_métaux_recherchés	O
+13l1l0	les_métaux	S
+
+#Par ailleurs, en 1999 et 2013, des mesures de la qualité des eaux souterraines ont été réalisées en aval hydraulique du parking.
+
+14l0l0	en_1999_et_2013__	T
+14l0l1	des_mesures_de	A
+14l0l2	la_qualité_des_eaux_souterraines	O
+14l0l3	ont_été_réalisées	N
+14l0l4	en_aval_hydraulique_du_parking	L
+
+#Ces mesures montrent :
+
+
+#- des concentrations en chrome et en zinc légèrement supérieures à celles mesurées en amont mais inférieures aux limites de la qualité des eaux destinées à la consommation humaine en 1999 mais plus en 2013 ;
+
+16l0l0	en_1999	T
+16l1l0	chrome	S
+16l1l1	zinc	S
+
+#- un marquage au manganèse en 1999 très présent à l’état naturel dans les sols de la région ;
+
+17l0l0	un_marquage_au_manganèse	O
+17l0l1	en_1999	T
+17l1l0	manganèse	S
+
+#- la présence de trichloroéthylène détecté en 1999 mais plus en 2013.
+
+18l0l0	en_1999	T
+18l0l1	mais_plus	R
+18l0l2	en_2013__	T
+18l1l0	trichloroéthylène	S
+
+#Aucun autre marquage n’a été détecté.
+
+
+#Description des actions menées :
+
+
+#Arrêté préfectoral complémentaire du 01/10/2015 demandant à la société KME de transmettre :
+
+21l0l0	Arrêté_préfectoral_complémentaire	O
+21l0l1	du_01_10_2015	T
+21l0l2	la_société_KME	O
+21l1l0	la_société_KME	I
+
+#- une proposition d'implantation de piézomètres à proximité du crassier pour surveiller son impact sur l'environnement ;
+
+22l0l0	d_	N
+22l0l1	implantation_de_piézomètres	O
+22l0l2	à_proximité_du_crassier	L
+22l0l3	surveiller_son_impact_sur	R
+22l0l4	l__environnement	O
+
+#- des propositions de servitudes d'utilité publique à mettre en place.
+
+
+#En réponse à ces demandes, la société KME a transmis à l'inspection des installations classées, le 4 janvier 2016, un dossier établi par le bureau d'études ANTEA.
+
+24l0l0	la_société_KME	O
+24l0l1	a_transmis	N
+24l0l2	l__inspection_des_installations_classées	O
+24l0l3	le_4_janvier_2016__	T
+24l0l4	un_dossier	O
+24l0l5	établi_par	R
+24l0l6	le_bureau_d__études_ANTEA	O
+24l1l0	la_société_KME	I
+24l1l1	ANTEA	I

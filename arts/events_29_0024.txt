@@ -1,0 +1,106 @@
+
+#29.0024
+#La Société ROMI a exploité, pendant plusieurs années et de façon irrégulière, une activité de transit de déchets industriels.
+
+0l0l0	La_Société_ROMI	O
+0l0l1	a_exploité	N
+0l0l2	pendant_plusieurs_années	T
+0l0l3	une_activité_de_transit_de_déchets_industriels	A
+0l1l0	La_Société_ROMI	I
+
+#L'arrêt des activités est intervenu début 2003.
+
+1l0l0	L__arrêt	N
+1l0l1	des_activités	A
+1l0l2	est_intervenu	N
+1l0l3	début_2003__	T
+
+#Auparavant ce site a connu diverses activités : dépôt pétrolier, chantier de récupération de ferrailles.
+
+2l0l0	Auparavant	T
+2l0l1	ce_site	O
+2l0l2	dépôt_pétrolier	O
+2l0l3	récupération_de_ferrailles	A
+2l1l0	dépôt_pétrolier	D
+
+#Le site, actuellement à l'état de friche industriel, est situé sur le domaine public maritime et est concédé à la Chambre de Commerce et de l'Industrie (CCI) de Quimper.
+
+3l0l0	Le_site	O
+3l0l1	actuellement_à_l__état_de_friche_industriel	N
+3l0l2	est_situé_sur_le_domaine_public_maritime	L
+3l0l3	est_concédé	N
+3l0l4	la_Chambre_de	O
+3l0l5	Commerce_et_de_l__Industrie___CCI	O
+3l1l0	la_Chambre_de_Commerce_et_de_l__Industrie	I
+
+#Dans le cadre du transfert de ses activités, un arrêté préfectoral du 3 avril 1998 a imposé à la Société ROMI l'arrêt de ses activités et la remise en état du site.
+
+4l0l0	Dans_le_cadre	R
+4l0l1	du_transfert	N
+4l0l2	de_ses_activités	N
+4l0l3	un_arrêté_préfectoral	O
+4l0l4	du_3_avril_1998	T
+4l0l5	a_imposé	N
+4l0l6	la_Société_ROMI	O
+4l0l7	l__arrêt_de_ses_activités	N
+4l0l8	la_remise_en_état_du_site	N
+4l1l0	la_Société_ROMI	I
+
+#Un diagnostic du site, réalisé au cours de l'année 2003, a mis en évidence une contamination du site par les métaux lourds, les huiles, les hydrocarbures, les PCB.
+
+5l0l0	Un_diagnostic	N
+5l0l1	site	O
+5l0l2	réalisé	N
+5l0l3	au_cours_de_l__année_2003__	T
+5l0l4	a_mis_en_évidence	R
+5l0l5	une_contamination_du_site	N
+5l0l6	les_métaux_lourds	O
+5l1l0	les_métaux_lourds	S
+5l1l1	les_huiles	S
+5l1l2	hydrocarbures	S
+5l1l3	les_PCB	S
+
+#L'étude simplifiée des risques (ESR) associée classe le site en 1 (nécessite des investigations complémentaires) pour les sols et 2 (nécessitant une surveillance) pour les eaux souterraines.
+
+6l0l0	étude_simplifiée_des_risques	N
+
+#L'arrêté préfectoral complémentaire du 28 juin 2004 fixe les conditions de réhabilitation du site ainsi que les conditions de la surveillance des eaux :
+
+7l0l0	L__arrêté_préfectoral_complémentaire	O
+7l0l1	28_juin_2004	T
+7l0l2	fixe	N
+7l0l3	les_conditions_de_réhabilitation_du_site	O
+7l0l4	surveillance_des_eaux	A
+
+#- Les travaux de réhabilitation ont été réalisés au cours du second semestre 2004.
+
+8l0l0	Les_travaux_de_réhabilitation	N
+8l0l1	ont_été_réalisés	N
+8l0l2	au_cours_du_second_semestre_2004__	T
+
+#Ils ont permis d'éliminer en surface les lentilles de pollution mises en évidence par le diagnostic initial ;
+
+9l0l0	le_diagnostic_initial	N
+9l1l0	lentilles_de_pollution	U
+
+#- La surveillance des eaux fait apparaître une contamination par des hydrocarbures dégradés (Fuel, GO) sur un des piézomètres (avec présence de flottants).
+
+10l0l0	surveillance_des_eaux	N
+10l0l1	une_contamination	O
+10l0l2	hydrocarbures_dégradés	O
+10l1l0	hydrocarbures_dégradés___Fuel	S
+10l1l1	GO	S
+10l1l2	flottants	U
+
+#Le procès verbal de constat de fin de travaux a été pris le 12 octobre 2005.
+
+11l0l0	Le_procès_verbal_de_constat_de_fin_de_travaux	O
+11l0l1	a_été_pris	N
+11l0l2	le_12_octobre_2005__	T
+
+#L'arrêté préfectoral du 14 octobre 2004 prescrit des restrictions d'usages des sols, des eaux et d'affouillement.
+
+12l0l0	L__arrêté_préfectoral	O
+12l0l1	14_octobre_2004	T
+12l0l2	prescrit_des_restrictions_d__usages	N
+12l0l3	affouillement	O

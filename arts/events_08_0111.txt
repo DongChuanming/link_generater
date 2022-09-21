@@ -1,0 +1,154 @@
+
+#08.0111
+#Le site EDF-GDF se trouve à l'Ouest de Rethel, bordé d'un côté par l'Aisne et de l'autre côté par la D 926.
+
+0l0l0	Le_site_EDF___GDF	O
+0l0l1	se_trouve_à_l__Ouest_de_Rethel	L
+0l0l2	bordé	L
+0l0l3	un_côté_par_l__Aisne	O
+0l0l4	par_la_D_926	L
+0l1l0	Le_site_EDF___GDF	I
+
+#Deux accès permettent de s'y rendre, le 1er par "La promenade des Isles" et le 2e par la rue Jean Gerson.
+
+1l0l0	Deux_accès	O
+1l0l1	Isles__	L
+1l0l2	la_rue_Jean_Gerson	L
+
+#L'usine à gaz a été construite en 1841 et a fonctionné jusqu'à la période 1945-1950.
+
+2l0l0	L__usine_à_gaz	O
+2l0l1	a_été_construite	N
+2l0l2	en_1841	T
+2l0l3	a_fonctionné	N
+2l0l4	jusqu__à_la_période_1945___1950__	T
+
+#Les sous produits générés par l'exploitation sont essentiellement des goudrons, des hydrocarbures légers, et des ferro-cyanures.
+
+3l0l0	goudrons	O
+3l1l0	goudrons	U
+3l1l1	hydrocarbures_légers	U
+3l1l2	des_ferro___cyanures	S
+
+#Historique du dossier:
+
+
+#Un audit environnemental datant de janvier 1997 a été mené par le bureau d'études IRH environnement en 1996, qui a mis en évidence:
+
+5l0l0	Un_audit_environnemental	N
+5l0l1	datant_de_janvier_1997	T
+5l0l2	a_été_mené	N
+5l0l3	le_bureau_d__études_IRH_environnement	O
+5l0l4	en_1996__	T
+5l1l0	IRH_environnement	I
+
+#- la présence d'une cuve à goudron contenant environ 73 m3 de produits;
+
+6l0l0	une_cuve_à_goudron	O
+6l1l0	une_cuve	D
+6l1l1	goudron	U
+
+#- l'existence de différentes zones polluées:
+
+7l0l0	zones_polluées	O
+
+#* à proximité de la cuve;
+
+8l0l0	la_cuve	O
+
+#* en aval hydraulique de la cuve;
+
+9l0l0	aval_hydraulique	O
+9l0l1	la_cuve	O
+
+#* le long d'une canalisation d'alimentation en carburant, et à proximité immédiate;
+
+10l0l0	long_d__une_canalisation_d__alimentation	L
+10l0l1	en_carburant	A
+10l0l2	et	R
+10l0l3	à_proximité_immédiate	L
+10l1l0	carburant	S
+
+#* ponctuellement au sondage 14.
+
+
+#Les polluants (notamment les HAP) ont migré dans les sols et dans la nappe phréatique de L'AISNE.
+
+12l0l0	ont_migré	N
+12l0l1	dans_la_nappe_phréatique_de_L__AISNE	L
+12l1l0	Les_polluants	U
+12l1l1	les_HAP	S
+
+#En 1997, GAZ DE FRANCE s'est engagé à réaliser les opérations suivantes:
+
+13l0l0	En_1997__	T
+13l0l1	GAZ_DE_FRANCE	O
+13l0l2	s__est_engagé_à_réaliser_les_opérations	N
+13l1l0	GAZ_DE_FRANCE	I
+
+#- vidange, nettoyage et remblayage de la cuve à goudrons;
+
+14l0l0	vidange___nettoyage	N
+14l0l1	remblayage	N
+14l0l2	la_cuve_à_goudrons	O
+14l1l0	goudrons	U
+
+#- rétablissement d'une étanchéité de surface (enrobé);
+
+
+#analyse de l'AISNE en amont et en aval du site:
+
+16l0l0	l__AISNE	O
+16l0l1	en_amont_et_en_aval_du_site	L
+
+#* analyse sur l'eau des HAP, NH4 et phénols;
+
+17l1l0	HAP	S
+17l1l1	NH4	S
+17l1l2	phénols	S
+
+#* analyse sur les sédiments des HAP;
+
+18l1l0	HAP	S
+
+#- surveillance piézomètres bi-annuelle en avril (haute eaux) et en octobre (basses eaux) sur les paramètres: NH4, HAP (16) et phénols.
+
+19l0l0	en_avril	O
+19l1l0	NH4___HAP___16__	S
+19l1l1	phénols	S
+
+#La DRIRE a demandé alors à l'exploitant que soit réalisée une Évaluation Simplifiée des Risques.
+
+20l0l0	La_DRIRE	O
+20l0l1	a_demandé	N
+20l0l2	l__exploitant	O
+20l0l3	réalisée_une_Évaluation_Simplifiée_des_Risques	N
+20l1l0	La_DRIRE	I
+
+#Gaz de France a estimé à cette époque (sans validation de ce point par le service de l'inspection des installations classées) que le site est classé en classe 3 (sensibilité faible entraînant la réalisation d'un audit partiel dans un délai de 8 ans avec recherche et vidange des cuves existantes).
+
+21l0l0	Gaz_de_France	O
+21l0l1	a_estimé	N
+21l0l2	à_cette_époque	T
+21l0l3	le_site	O
+21l0l4	classé_en_classe_3	O
+21l0l5	la_réalisation_d__un_audit_partiel	N
+21l0l6	dans_un_délai_de_8_ans	T
+21l0l7	vidange_des_cuves	N
+21l1l0	Gaz_de_France	I
+21l1l1	cuves	D
+
+#EDF - GAZ DE FRANCE a transmis un état d'avancement des travaux le 30 janvier 1998, mentionnant la planification de la vidange et du comblement de la cuve pour le 1er trimestre 1998.
+
+22l0l0	EDF	O
+22l0l1	GAZ_DE_FRANCE	O
+22l0l2	a_transmis	N
+22l0l3	un_état_d__avancement	O
+22l0l4	des_travaux	N
+22l0l5	le_30_janvier_1998__	T
+22l0l6	mentionnant	R
+22l0l7	la_planification_de_la_vidange	N
+22l0l8	du_comblement_de_la_cuve	N
+22l0l9	pour_le_1er_trimestre_1998__	T
+22l1l0	EDF	I
+22l1l1	GAZ_DE_FRANCE	I

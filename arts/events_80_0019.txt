@@ -1,0 +1,109 @@
+
+#80.0019
+#L'espace industriel nord est situé en limite de commune d'Amiens et comprend une centaine d'établissements industriels ou tertiaires.
+
+0l0l0	L_	N
+0l0l1	espace_industriel_nord	O
+0l0l2	situé_en_limite_de_commune_d__Amiens	L
+0l0l3	établissements_industriels_ou_tertiaires	A
+
+#12 exploitants de l’Espace industriel nord ainsi que la CCI d’Amiens en tant que gestionnaire du réseau d’assainissement, se sont vus prescrire en mars 2005 la mise en place de campagnes de surveillance des eaux souterraines coordonnées sur l’ensemble des piézomètres de la zone industrielle. 50 paramètres sont surveillés sur 45 piézomètres.
+
+1l0l0	12_exploitants	O
+1l0l1	l__Espace_industriel_nord	O
+1l0l2	que_la_CCI	O
+1l0l3	d__Amiens	L
+1l0l4	en_tant_que	R
+1l0l5	gestionnaire_du_réseau_d__assainissement	O
+1l0l6	se_sont_vus_prescrire	N
+1l0l7	en_mars_2005	T
+1l0l8	la_mise_en_place_de_campagnes_de_surveillance	N
+1l0l9	des_eaux_souterraines	A
+1l0l10	zone_industrielle	O
+1l1l0	la_CCI_d__Amiens	I
+
+#Cette surveillance a mis en évidence de multiples pollutions, notamment une pollution par les produits chlorés et le benzène, une pollution organique et azotée et une pollution par les hydrocarbures.
+
+2l0l0	Cette_surveillance	N
+2l1l0	les_produits_chlorés	U
+2l1l1	benzène	S
+2l1l2	azotée	S
+2l1l3	hydrocarbures	S
+
+#La surveillance a également permis d’établir que les pollutions avaient plusieurs origines.
+
+3l0l0	La_surveillance	A
+3l0l1	pollutions	O
+3l0l2	plusieurs_origines	O
+
+#Les évaluations simplifiées des risques prescrites à quatre exploitants ainsi que les diagnostics des réseaux de la CCI et de deux exploitants ont permis d’identifier certaines des sources possibles de ces pollutions.
+
+4l0l0	Les_évaluations_simplifiées_des_risques	N
+4l0l1	quatre_exploitants	O
+4l0l2	les_diagnostics	N
+4l0l3	la_CCI	O
+4l0l4	deux_exploitants	O
+4l0l5	ces_pollutions	O
+4l1l0	la_CCI	I
+
+#Compte tenu de la profondeur de la nappe phréatique (plus de 30 mètres), les risques liés à l’inhalation de vapeurs en provenance de la nappe devraient être relativement limités.
+
+5l0l0	l__inhalation	N
+5l0l1	la_nappe	O
+
+#Les risques principaux devraient être liés à l’utilisation de l’eau de la nappe.
+
+
+#A priori, il n’y a pas d’usage destiné à la consommation humaine sur ou à proximité de la zone industrielle.
+
+7l0l0	à_proximité_de_la_zone_industrielle	L
+
+#La principale voie d’exposition serait ainsi liée à l’usage industriel de l’eau captée sur la zone industrielle.
+
+8l0l0	La_principale_voie_d_	O
+8l0l1	l__usage_industriel_de_l__eau_captée	A
+8l0l2	sur	R
+8l0l3	la_zone_industrielle	L
+
+#Le contact avec cette eau et l’inhalation des polluants qui peuvent s’en évaporer sont susceptibles de présenter des risques sanitaires.
+
+9l0l0	l__inhalation	N
+9l1l0	des_polluants	U
+
+#Il apparaît nécessaire d’élaborer un schéma conceptuel pour identifier de façon exhaustive les voies d’exposition potentielles à cette pollution puis d’évaluer les risques correspondants et de proposer un plan de gestion.
+
+10l0l0	un_schéma_conceptuel	O
+
+#Les résultats de la surveillance depuis 2005 ont permis d'adapter les programmes de surveillance et de prescrire, début 2011, la réalisation d'un plan de gestion aux exploitants dont la responsabilité a pu être établie pour une  partie de la pollution.
+
+11l0l0	la_surveillance	O
+11l0l1	depuis_2005	T
+11l0l2	les_programmes	O
+11l0l3	de_surveillance	O
+11l0l4	de_prescrire	N
+11l0l5	début_2011__	T
+11l0l6	la_réalisation_d_	N
+11l0l7	un_plan_de_gestion	O
+11l0l8	aux_exploitants	O
+11l0l9	la_responsabilité	O
+11l0l10	a_pu_être_établie	N
+
+#Ceux-ci ont décidé de mutualiser la réalisation de ce plan de gestion et d'en confier la maîtrise d’ouvrage à la CCI.
+
+12l0l0	ont_décidé	N
+12l0l1	mutualiser_la_réalisation_de	N
+12l0l2	ce_plan_de_gestion	O
+12l0l3	confier	N
+12l0l4	la_maîtrise_d__ouvrage	O
+12l0l5	la_CCI	O
+12l1l0	la_CCI	I
+
+#Sur la base de ce plan de gestion, les programmes de surveillance ont été adaptés et harmonisés en 2015 afin de permettre le suivi de l'atténuation naturelle.
+
+13l0l0	base_de	R
+13l0l1	ce_plan_de_gestion	O
+13l0l2	les_programmes_de_surveillance	N
+13l0l3	ont_été_adaptés	N
+13l0l4	harmonisés	N
+13l0l5	en_2015	T
+13l0l6	l__atténuation_naturelle	N

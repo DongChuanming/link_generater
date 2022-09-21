@@ -1,0 +1,186 @@
+
+#85.0012
+#L'activité de la société VIRONA était la fabrication de chaussures, en particulier en cuir.
+
+0l0l0	L__activité	O
+0l0l1	la_société_VIRONA	O
+0l0l2	la_fabrication_de_chaussures	A
+0l0l3	cuir	A
+0l1l0	la_société_VIRONA	I
+
+#Pour cela, des solvants chlorés ont notamment été utilisés.
+
+1l1l0	solvants_chlorés	U
+
+#Le site était exploité depuis les années 1960.
+
+2l0l0	Le_site	O
+2l0l1	était_exploité	N
+2l0l2	depuis_les_années_1960__	T
+
+#La société a été liquidée et le site mis à l'arrêt définitif en 2010.
+
+3l0l0	La_société	O
+3l0l1	a_été_liquidée	N
+3l0l2	le_site	O
+3l0l3	mis_à_l__arrêt_définitif	N
+3l0l4	en_2010__	T
+
+#Le site se trouve en zone périurbaine sur un terrain de 1.7 ha.
+
+4l0l0	Le_site	O
+4l0l1	se_trouve_en_zone_périurbaine_sur_un_terrain_de_1_7_ha	L
+
+#Il est voisin d'un lotissement.
+
+5l0l0	voisin_d__un_lotissement	L
+
+#Actuellement les deux tiers de l'ancien site environ sont occupés par différentes entreprises et notamment les sociétés DACHSER, MEPI et FAUCHET.
+
+6l0l0	les_sociétés_DACHSER	O
+6l0l1	MEPI	O
+6l0l2	FAUCHET	O
+6l1l0	les_sociétés_DACHSER___MEPI	I
+6l1l1	FAUCHET	I
+
+#Aucune de ces sociétés n'exerce une activité similaire à celle de la société VIRONA.
+
+7l0l0	la_société_VIRONA	O
+7l1l0	la_société_VIRONA	I
+
+#Un usage futur de type industriel a été retenu.
+
+8l0l0	Un_usage_futur	O
+
+#Dans le cadre de la cessation d'activité, le liquidateur avait indiqué avoir mis en œuvre les mesures de mise en sécurité suivantes :
+
+9l0l0	Dans_le_cadre_de	R
+9l0l1	la_cessation_d__activité	N
+9l0l2	le_liquidateur	O
+9l0l3	avait_indiqué	N
+9l0l4	avoir_mis_en_œuvre_les_mesures_de_mise_en_sécurité	N
+
+#- maintien de la clôture en place et fermeture des bâtiments non occupés,
+
+10l0l0	maintien_de	N
+10l0l1	la_clôture	O
+10l0l2	en_place	N
+10l0l3	fermeture	N
+10l0l4	des_bâtiments	O
+
+#- évacuation de déchets et produits dangereux, pour un total de 3,8t.
+
+11l0l0	évacuation_de_déchets_et_produits_dangereux	N
+11l0l1	3_8_t_	O
+
+#Un diagnostic de pollution des sols a été réalisé en 2011/2012.
+
+12l0l0	Un_diagnostic_de_pollution_des_sols	N
+12l0l1	a_été_réalisé	N
+12l0l2	en_2011_2012__	T
+
+#Il a été révélé la présence d'hydrocarbures à des concentrations modérées et de certains métaux lourds (notamment du cadmium, du cuivre et du zinc) à des concentrations légèrement supérieures au fond géochimique de référence.
+
+13l1l0	hydrocarbures	S
+13l1l1	métaux_lourds	S
+13l1l2	cadmium	S
+13l1l3	cuivre	S
+13l1l4	zinc	S
+
+#Un diagnostic de pollution des eaux souterraines a été réalisé en 2012.
+
+14l0l0	Un_diagnostic	N
+14l0l1	de_pollution_des_eaux_souterraines	O
+14l0l2	a_été_réalisé	N
+14l0l3	en_2012__	T
+
+#Il a été révélé la présence d'hydrocarbures en aval proche du site, à une concentration légèrement supérieure à la valeur maximale d'une eau brute pour la production d'eau potable (arrêté ministériel du 11/01/07).
+
+15l0l0	a_été_révélé	N
+15l0l1	hydrocarbures	O
+15l0l2	en_aval_proche_du_site	L
+15l0l3	11_01_07	T
+15l1l0	hydrocarbures	S
+
+#Considérant la présence de cette pollution, une interprétation de l'état des milieux a été réalisée.
+
+16l0l0	une_interprétation_de_l__état_des_milieux	O
+16l0l1	a_été_réalisée	N
+
+#En particulier, les risques lié à l'inhalation de substances volatiles présentes dans les sols ont été évalués.
+
+17l0l0	inhalation_de_substances	N
+17l0l1	ont_été_évalués	N
+
+#Considérant qu'aucun forage destiné à la consommation d'eau ne se situe à moins de 1km en aval du site, et que la concentration d'hydrocarbures est proche de la limite de qualité pour une potabilisation, le risque sanitaire lié à la présence d'hydrocarbures a été exclu.
+
+18l0l0	aucun_forage	O
+18l0l1	destiné_à	R
+18l0l2	la_consommation_d__eau_ne	A
+18l0l3	se_situe_à_moins_de_1_km_en_aval_du_site	L
+18l0l4	potabilisation	A
+18l1l0	hydrocarbures	S
+18l1l1	hydrocarbures	S
+
+#Cette évaluation quantitative des risques sanitaires a conclu à l'absence de risque sanitaire sous réserve de conserver l'usage industriel du site et de ne pas confiner certaines zones polluées (zones repérées en rose sur le plan du paragraphe B) par des fractions volatiles d'hydrocarbures.
+
+19l0l0	Cette_évaluation_quantitative	N
+19l0l1	l__usage_industriel_du_site	A
+19l0l2	certaines_zones_polluées	O
+19l1l0	hydrocarbures	S
+
+#En effet, la présence de fractions volatiles d'hydrocarbures rend inacceptable d'un point de vue sanitaire la présence de personnel dans un milieu confiné.
+
+20l1l0	fractions_volatiles_d__hydrocarbures	U
+
+#Les recommandations suivantes ont été formulées :
+
+21l0l0	ont_été_formulées	N
+
+#- en cas d'implantation d'arbres fruitiers, les planter dans une zone excavée de 1m3, limitée par un géotextile et remblayée par des terres saines ;
+
+22l0l0	en_cas_d_	R
+22l0l1	implantation	N
+22l0l2	d__arbres_fruitiers	O
+22l0l3	les_planter_dans_une_zone_excavée_de_1m3___limitée_par_un_géotextile	L
+22l0l4	remblayée_par	O
+22l0l5	des_terres_saines	N
+
+#- mettre en place des canalisations pour l'eau potable en polyéthylène haute densité (PEHD) au sein d'un remblai d'apport propre ou dans des caniveaux techniques béton, ou à défaut, poser des canalisations métalliques ou en matériau anti-contaminant ;
+
+23l0l0	mettre_en_place	N
+23l0l1	des_canalisations	O
+23l0l2	au_sein_d__un_remblai_d_	L
+23l0l3	dans_des_caniveaux_techniques_béton	O
+23l0l4	poser_des_canalisations	N
+23l0l5	métalliques	O
+23l1l0	PEHD	S
+
+#- en cas de travaux sur le site, les personnes présentes devront veiller à porter les équipements de protection individuelles adaptés ;
+
+24l0l0	en_cas_de	R
+24l0l1	travaux	N
+
+#- mettre en place une surveillance de la qualité des eaux souterraines.
+
+25l0l0	mettre_en_place	N
+25l0l1	une_surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#Ces recommandations devront être intégrées aux documents d'urbanisme de la commune.
+
+26l0l0	la_commune	O
+
+#Pour finir, des travaux de remise en état n'ont pas été réalisés.
+
+27l0l0	des_travaux_de_remise_en_état	N
+27l0l1	ont_pas_été_réalisés	N
+
+#De plus, une surveillance des eaux souterraines ne peut pas être imposée à l'exploitant, celui-ci étant défaillant.
+
+28l0l0	une_surveillance_des_eaux_souterraines	A
+28l0l1	l__exploitant	O
+
+#La conservation de la mémoire sera réalisée par un porter à connaissance à l'attention du maire de la commune concernée.
+
+29l0l0	la_mémoire	O
+29l0l1	sera_réalisée	N

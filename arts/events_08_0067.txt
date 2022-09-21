@@ -1,0 +1,184 @@
+
+#08.0067
+#Le dépôt pétrolier a été créé en 1965 par la société SHELL, propriétaire des terrains et des installations.
+
+0l0l0	Le_dépôt_pétrolier	O
+0l0l1	a_été_créé	N
+0l0l2	en_1965	T
+0l0l3	la_société_SHELL	O
+0l0l4	des_terrains	O
+0l1l0	dépôt_pétrolier	D
+0l1l1	la_société_SHELL	I
+
+#Le seul incident survenu sur ce site serait lié au débordement de l'évent de la cuve FOD.
+
+1l1l0	cuve_FOD	I
+
+#Les investigations et travaux, ci-après résumés, ont été initiés par le diagnostic environnemental réalisé en 1996 par la société SHELL, alors propriétaire et exploitant du site.
+
+2l0l0	Les_investigations	N
+2l0l1	ont_été_initiés	N
+2l0l2	le_diagnostic_environnemental	N
+2l0l3	réalisé	N
+2l0l4	en_1996	T
+2l0l5	la_société_SHELL	O
+2l1l0	la_société_SHELL	I
+
+#Le dernier exploitant (Bolloré Energie) ayant eu la connaissance des investigations mais n'ayant pas eu le rapport de 1996 a relancé les investigations à partir de 2002.
+
+3l0l0	Le_dernier_exploitant	O
+3l0l1	Bolloré_Energie	O
+3l0l2	ayant_eu_la_connaissance	N
+3l0l3	des_investigations	O
+3l0l4	1996	T
+3l0l5	a_relancé_les_investigations	N
+3l0l6	à_partir_de_2002	T
+3l1l0	__Bolloré_Energie	I
+
+#En effet, l'exploitant (Bolloré Energie) exploite ce site depuis 2002.
+
+4l0l0	l__exploitant	O
+4l0l1	exploite	N
+4l0l2	ce_site	O
+4l0l3	depuis_2002	T
+4l1l0	__Bolloré_Energie	I
+
+#En conséquence, l'exploitant a réalisé une mise à jour des précédentes investigations et travaux pour lesquels il a transmis à l'autorité préfectorale les documents suivants :
+
+5l0l0	l__exploitant	O
+5l0l1	a_réalisé	N
+5l0l2	une_mise_à_jour	N
+5l0l3	précédentes_investigations	N
+5l0l4	travaux	N
+5l0l5	a_transmis	N
+5l0l6	l__autorité_préfectorale	O
+
+#- Un diagnostic de sol comportant (en juillet 2005)  :
+
+6l0l0	Un_diagnostic_de_sol_comportant	N
+6l0l1	en_juillet_2005	T
+
+#- Un mémoire de cessation d'activité dans lequel on retrouve :
+
+7l0l0	cessation_d__activité	N
+
+#- une synthèse des actions menées antérieurement, à savoir :
+
+
+#du diagnostic environnemental (URS) du 15 juillet 2002,
+
+9l0l0	du_diagnostic_environnemental	N
+9l0l1	15_juillet_2002__	T
+
+#l'excavation et l'élimination hors site des terres polluées par des hydrocarbures (SITA Remediation) du 25 juillet 2003,
+
+10l0l0	l__excavation	N
+10l0l1	l__élimination_hors_site	N
+10l0l2	des_terres_polluées_par_des	N
+10l0l3	hydrocarbures	O
+10l0l4	Remediation	N
+10l0l5	25_juillet_2003__	T
+10l1l0	hydrocarbures	S
+10l1l1	SITA	I
+
+#- un descriptif du site,
+
+
+#- les méthodes et investigations,
+
+
+#- les résultats ainsi que les conclusions de ces dernières investigations, en particulier la mise en évidence d'une seconde source sol (HCT) au niveau du groupe de pompage (Cf. point F3 sur plan en annexe IV)
+
+13l0l0	ces_dernières_investigations	N
+13l0l1	la_mise	N
+13l0l2	une_seconde_source_sol	O
+13l0l3	au_niveau_du_groupe_de_pompage	L
+13l1l0	HCT	S
+
+#- Un rapport de travaux (septembre 2005) :
+
+14l0l0	Un_rapport_de_travaux	N
+14l0l1	__septembre_2005__	T
+
+#Le diagnostic évoqué au point précédent a identifié une zone polluée aux HCT, à proximité de l'ancien groupe de pompage (F3).  En conséquence, l'exploitant a engagé des travaux d'excavation afin de faire traiter les terres polluées (103 tonnes) sur un site adapté à ce type de traitement.
+
+15l0l0	Le_diagnostic	N
+15l0l1	a_identifié	N
+15l0l2	une_zone_polluée_aux_HCT	O
+15l0l3	à_proximité_de_l__ancien_groupe_de_pompage	L
+15l0l4	__l__exploitant	O
+15l0l5	a_engagé_des_travaux_d__excavation	N
+15l0l6	afin_de	R
+15l0l7	faire	N
+15l0l8	traiter_les_terres_polluées	O
+15l0l9	sur_un_site	O
+15l1l0	HCT	S
+
+#Les analyses réalisées lors des travaux d'excavation, de juillet 2005, ont montré que les terres laissées en place (fond et côtés de fouilles) respectaient désormais les valeurs seuils.
+
+16l0l0	Les_analyses_réalisées_lors	N
+16l0l1	des_travaux_d__excavation	N
+16l0l2	de_juillet_2005__	T
+16l0l3	respectaient_désormais	N
+16l0l4	les_valeurs_seuils	O
+
+#En effet, les 4 prélèvements réalisés sur les parois de fouille ont relevé une concentration maximale de 360 mg/kg, tandis que les 2 prélèvements réalisés sur le fond de fouille ont relevé une concentration maximale de 260 mg/kg.
+
+
+#Pour mémoire la concentration maximale admissible définie par la réglementation (VDSS) est de 2500 mg/kg, pour ce site.
+
+
+#Le 30 septembre 2009, une visite de l'inspection des installations classées est réalisée, elle a permis de vérifier que les exigences réglementaires (en matière de cessation d'activité) sont bien respectées.
+
+19l0l0	Le_30_septembre_2009__	T
+19l0l1	une_visite	N
+19l0l2	l__inspection_des_installations_classées	O
+19l0l3	est_réalisée	N
+19l0l4	d__activité	O
+
+#Elle ce conclu par une demande de continuer la surveillance pendant une période minimale de 4 années après laquelle l'exploitant pourra demander s'il peut se soustraire de cette surveillance, si toutefois celle-ci reste en dessous des seuils définis par la réglementation.
+
+20l0l0	une_demande	O
+20l0l1	la_surveillance	O
+20l0l2	pendant_une_période_minimale_de_4_années	T
+20l0l3	après_laquelle	R
+20l0l4	l__exploitant	O
+
+#Le 19 avril 2010 un arrêté préfectoral complémentaire est notifié par le préfet.
+
+21l0l0	Le_19_avril_2010	T
+21l0l1	un_arrêté_préfectoral_complémentaire	O
+21l0l2	est_notifié	N
+21l0l3	le_préfet	O
+21l1l0	le_préfet	I
+
+#Cet arrêté impose, à la société Bolloré Energie, une surveillance des eaux souterraines sur les paramètres suivants :
+
+22l0l0	Cet_arrêté	O
+22l0l1	impose	N
+22l0l2	la_société_Bolloré_Energie	O
+22l0l3	une_surveillance_des_eaux_souterraines	A
+22l1l0	la_société_Bolloré_Energie	I
+
+#- Température,
+
+
+#- conductivité,
+
+
+#- hydrocarbure totaux,
+
+25l1l0	hydrocarbure_totaux	S
+
+#- HAP,
+
+26l1l0	HAP	S
+
+#- BTEX.
+
+
+#Cet surveillance sera réalisé à minima sur une période de 4 années.
+
+28l0l0	Cet_surveillance	O
+28l0l1	sera_réalisé	N
+28l0l2	période_de_4_années	T

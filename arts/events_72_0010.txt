@@ -1,0 +1,419 @@
+
+#72.0010
+#Le dépôt, d’une superficie de 27 500 m², est situé dans la zone industrielle Sud, à environ 3,5 km au sud de la commune du Mans (voir plan cartographique 1 partie B).
+
+0l0l0	d__une_superficie_de	O
+
+#Le site est bordé au Nord par des usines, à l’Est par une gare de triage et à l’Ouest par une route départementale et le cours d’eau La Sarthe.
+
+1l0l0	Le_site_est	O
+1l0l1	à_l__Est_par_une_gare_de_triage_et_à_l__Ouest	L
+1l0l2	par_une_route_départementale_et_le_cours_d_	L
+
+#Le site est implanté sur des formations alluvionnaires anciennes.
+
+2l0l0	Le_site	O
+2l0l1	implanté_sur_des_formations	O
+2l0l2	alluvionnaires_anciennes__	O
+
+#La nappe est présente à une profondeur comprise entre 6 et 10 mètres environ.
+
+3l0l0	La_nappe	O
+3l0l1	est_présente_à_une	N
+
+#Elle est en communication avec les eaux de la Sarthe et de l’Huisne.
+
+
+#Son sens d’écoulement théorique est dirigé vers le Sud-Ouest en direction de La Sarthe, son exutoire principal.
+
+5l0l0	sens_d__écoulement_théorique	N
+5l0l1	est_dirigé_vers_le_Sud_Ouest_en_direction	L
+
+#La Sarthe se situe à environ 750 mètres à l’Est en aval du site et est potentiellement vulnérable à une pollution issue du site.
+
+6l0l0	La_Sarthe	O
+6l0l1	mètres_à_l__Est_en_aval_du_site_et	N
+6l0l2	est_potentiellement_vulnérable	L
+
+#Il n’existe pas de captage des eaux souterraines utilisé pour l’Alimentation en Eau Potable (AEP) dans la région du Mans.
+
+7l0l0	Il_n__existe	O
+7l0l1	pas_de_captage_des_eaux_souterraines_utilisé_pour	L
+7l1l0	Il_n__existe	I
+
+#Des captages d’eau industrielle sont présents dans la zone d’étude, notamment le captage YOPLAIT, ACI et CLAAS.
+
+8l0l0	__ACI_et_CLAAS__	L
+
+#Le dépôt d'hydrocarbures liquides, d'une capacité globale d'environ 42 000 m3, comporte 10 bacs aériens et 9 cuves enterrées (voir plan cartographique 2 partie B).
+
+9l0l0	Le_dépôt_d__hydrocarbures	O
+9l0l1	globale	O
+9l0l2	__comporte_10	O
+9l0l3	bacs_aériens	N
+9l1l0	aériens_et_9_cuves	I
+
+#Il est exploité depuis 1971 et est situé en zone industrielle sud du Mans.
+
+10l0l0	Il_est	N
+10l0l1	exploité_depuis_1971_et_est_situé	O
+10l1l0	est	D
+10l1l1	exploité_depuis_1971_et_est_situé	U
+
+#Dans un premier temps exploité par la société Total, ce site a fait l'objet d'un changement d'exploitant en 2011 au profit de la Société des Dépôts Pétroliers de la Sarthe (SDPS).
+
+11l0l0	Dans	O
+11l0l1	un_premier	N
+11l0l2	temps_exploité	T
+11l0l3	par_la_société_Total___ce_site_a_fait_l__objet	L
+
+#L'activité principale du dépôt est la réception, le stockage et l’expédition par camions-citernes de liquides inflammables (produits pétroliers).
+
+12l0l0	L__activité_principale_du_dépôt	N
+12l0l1	est_la_réception___le_stockage	O
+12l0l2	et_l__expédition	R
+12l0l3	par_camions__	N
+12l0l4	citernes_de	O
+12l0l5	liquides	T
+12l0l6	inflammables	R
+12l0l7	__produits_pétroliers	O
+12l0l8	___	A
+12l1l0	est_la_réception___le	I
+12l1l1	inflammables___produits_pétroliers____	I
+
+#En 2018, le site est en activité.
+
+13l0l0	activité__	O
+
+#Suite à une pollution accidentelle en mai 1997 une étude de sols a été prescrite dans le cadre de la circulaire du 3 avril 1996, par arrêté préfectoral du 09/04/1998.
+
+14l0l0	Suite_à	T
+14l0l1	une_pollution	O
+14l0l2	accidentelle	N
+
+#Les 3 étapes ont été réalisées et présentées à l'inspection le 16 mars 1999.
+
+15l0l0	Les_3	R
+15l0l1	étapes_ont_été_réalisées_et_présentées	N
+15l0l2	à_l_	T
+15l0l3	inspection_le_16_mars_1999__	N
+
+#Au regard des résultats, 3 zones de pollution sont identifiées :
+
+16l0l0	Au_regard_des	O
+16l0l1	résultats___3_zones	N
+16l0l2	sont_identifiées	N
+16l0l3	___	T
+
+#- une pollution en composés organiques est notée au droit du poste de chargement de carburant (PCC).
+
+17l0l0	composés_organiques_est	O
+17l0l1	notée_au_droit_du_poste	N
+
+#La pollution est donc probablement due à des égouttures lors du chargement de camions.
+
+18l0l0	égouttures_lors_du	L
+18l0l1	chargement_de_camions__	O
+18l1l0	donc_probablement_due	S
+18l1l1	camions__	U
+
+#Avant 1990 (date de mise en place d’une dalle béton), les produits hydrocarburés s’infiltraient directement dans les terrains superficiels affleurant.
+
+19l0l0	béton_____les	O
+19l0l1	produits_hydrocarburés_s__infiltraient	L
+
+#Depuis l’origine du dépôt (1971), les polluants se sont accumulés dans les terrains de la zone insaturée, au droit du poste de chargement.
+
+20l0l0	Depuis_l__origine	T
+20l0l1	du_dépôt___1971	N
+20l0l2	sont_accumulés_dans_les	O
+20l0l3	zone_insaturée___au_droit_du_poste_de_chargement	N
+20l1l0	accumulés_dans_les_terrains	U
+
+#La pollution a ensuite migré jusqu’à la zone de battement de la nappe alluviale.
+
+21l0l0	La_pollution	T
+21l0l1	a_ensuite_migré	O
+21l0l2	jusqu_	T
+21l0l3	à_la_zone_de	O
+21l0l4	battement_de_la_nappe	N
+21l0l5	alluviale__	O
+21l1l0	jusqu__à_la_zone_de_battement	U
+
+#En effet, une teneur élevée en hydrocarbures dissous est notée à l’aval hydraulique du PCC (APZ5).
+
+22l0l0	En_effet___une	O
+22l0l1	teneur_élevée_en	N
+22l0l2	hydrocarbures	L
+22l0l3	dissous_est	A
+22l0l4	notée_à_l__aval	O
+
+#- la seconde zone de pollution (aux hydrocarbures) comprend l’embranchement SNCF et la pomperie PI.
+
+23l0l0	embranchement_SNCF_et	L
+23l1l0	__aux_hydrocarbures	S
+
+#La pollution constatée semble principalement due aux égouttures lors du dépotage des wagons-citernes et à la pollution accidentelle.
+
+24l0l0	La_pollution_constatée_semble	O
+24l0l1	égouttures_lors_du_dépotage	L
+24l0l2	wagons_citernes	O
+24l1l0	principalement_due	S
+
+#Malgré la présence d’une couche d’argile, les eaux souterraines présentent un panache d’hydrocarbures dissous.
+
+25l0l0	présentent	N
+25l0l1	un_panache_d__hydrocarbures	A
+
+#- Enfin, la dernière zone de contamination a été mise en évidence à proximité du parc de stationnement des camions.
+
+26l0l0	a_été_mise_en_évidence_à	O
+26l1l0	stationnement_des_camions	S
+
+#L’origine de la contamination des eaux n’a pas été identifiée.
+
+27l0l0	origine_de_la_contamination_des_eaux_n__a	O
+27l0l1	pas_été_identifiée__	N
+
+#Les sources potentielles peuvent provenir du déshuileur, du parc de stockage ou de l’ancien poste de chargement des produits spéciaux.
+
+28l0l0	Les_sources_potentielles_peuvent_provenir	O
+28l0l1	déshuileur___du	N
+
+#Une Évaluation Simplifiée des Risques (ESR) a été réalisée, classant le site dans la classe des sites nécessitant une surveillance.
+
+29l0l0	été_réalisée	N
+29l0l1	classant_le_site_dans	O
+29l0l2	la_classe_des_sites_nécessitant_une_surveillance__	O
+29l1l0	une_surveillance__	U
+
+#Plusieurs recommandations doivent être prises en compte :
+
+30l0l0	Plusieurs_recommandations_doivent_être	N
+30l0l1	prises_en_compte__	N
+
+#- le site doit rester clos et surveillé ;
+
+
+#- tout travaux de terrassement nécessitera le respect de protection particulière pour les intervenants étant donné la présence de polluants ;
+
+32l0l0	terrassement_nécessitera	T
+
+#- la réalisation de puits profonds est à proscrire afin d’éviter tout transferts des panaches de pollution vers les nappes profondes ;
+
+33l0l0	la_réalisation_de_puits_profonds	N
+
+#- l’eau souterraine éventuellement extraite de la nappe superficielle ne pourra être utilisée que pour un usage industriel.
+
+34l0l0	l__eau_souterraine_éventuellement	N
+34l0l1	extraite_de_la	O
+34l0l2	usage_industriel__	L
+
+#En Décembre 2001, une fuite a été identifiée lors d'une épreuve mensuelle d'une canalisation enterrée acheminant le gazole au poste de chargement n°1.
+
+35l0l0	mensuelle_d__une_canalisation_enterrée	N
+35l0l1	acheminant_le_gazole	A
+
+#L’exploitant a donc mis en place un pompage (CPZ21) avec rabattement de nappe pour la récupération des flottants.
+
+36l0l0	L__exploitant_a_donc	T
+36l0l1	mis_en	O
+36l0l2	place_un_pompage__	N
+36l0l3	CPZ21__	L
+36l0l4	avec_rabattement_de_nappe	N
+36l0l5	pour_la_récupération	O
+36l0l6	des_flottants__	N
+
+#Le début du pompage s’est effectué le 10 janvier 2002.
+
+37l0l0	Le_début_du_pompage	O
+37l0l1	s__est	N
+37l0l2	effectué_le_10_janvier	N
+37l1l0	janvier	I
+
+#Un cabinet d’étude a identifié la source de la pollution à proximité de la voie ferrée.
+
+38l0l0	Un_cabinet_d__étude	N
+38l0l1	a_identifié_la	N
+38l0l2	source_de_la_pollution	T
+
+#Un diagnostic complémentaire de pollution a été transmis en juillet 2004 précisant la localisation de la source de pollution et sa caractérisation.
+
+39l0l0	Un_diagnostic_complémentaire	N
+39l0l1	de_pollution_a_été_transmis	O
+39l0l2	en_juillet	L
+39l0l3	2004_précisant	O
+
+#Les investigations réalisées (du 25 au 27 avril 2003, ainsi que le 31 avril 2003) ont mis en évidence :
+
+40l0l0	Les_investigations_réalisées___du_25_au_27_avril	O
+40l0l1	2003___ainsi	N
+40l0l2	que_le_31_avril	T
+40l0l3	2003___ont	R
+40l0l4	mis_en_évidence____	O
+
+#- une zone d’imprégnation des sols par de l’essence de 7 à 10 mètres de profondeur au niveau de la zone de battement de la nappe.
+
+41l0l0	__une_zone_d__imprégnation_des	N
+41l0l1	sols_par_de_l__essence_de	T
+41l0l2	mètres_de_profondeur	T
+
+#Centrée sur ST2 et ST4, son extension latérale est délimitée à l’Est (à l’amont) par ST1 et ST7, à l’ouest (à l’aval) par ST8 et ST10, au sud par ST3 et ST6.
+
+42l0l0	Centrée_sur	O
+42l0l1	ST2_et_ST4___son_extension	A
+42l0l2	latérale_est_délimitée	O
+42l0l3	ouest___à_l__aval___par_ST8_et	A
+
+#Au cœur de cette zone, des concentrations en Toluène et Xylène de l’ordre de 500 à 1000 mg/kg et en hydrocarbures de 5000 à 11 000 mg/kg sont observées.
+
+43l0l0	Au_cœur_de_cette	L
+43l0l1	Toluène_et_Xylène	R
+43l0l2	de_l__ordre	L
+43l0l3	hydrocarbures	O
+43l0l4	de	L
+
+#- la source de surface à l’origine de cette pollution et les voies de transfert empruntées à travers l’horizon argileux identifié de 3 à 4-6 mètres sur toute la zone n’ont cependant pu être identifiées.
+
+44l0l0	__la_source	L
+44l1l0	pollution	S
+44l1l1	les_voies	S
+44l1l2	travers_l__horizon_argileux	S
+
+#- aucun surnageant n’a été identifié dans cette zone.
+
+45l0l0	aucun_surnageant_n_	O
+45l0l1	identifié_dans_cette_zone	O
+
+#À noter que des pollutions ponctuelles (essentiellement par du fioul) sont identifiées en surface au niveau des zones de dépotage sur les voies ferrées et ponctuellement sur ST9.
+
+46l0l0	ponctuelles__	L
+46l0l1	essentiellement	O
+46l1l0	que_des_pollutions	U
+
+#En 2005 et en 2006, les investigations se sont poursuivies, notamment pour examiner les atténuations naturelles par les micro-organismes présents dans le sol.
+
+47l0l0	pour_examiner_les	N
+47l0l1	atténuations	O
+47l0l2	naturelles_par_les	O
+47l0l3	micro_organismes_présents_dans	O
+47l1l0	notamment	S
+
+#La démonstration exposée par l'exploitant repose sur les éléments suivants:
+
+48l0l0	La_démonstration	T
+48l0l1	exposée_par_l__exploitant_repose_sur_les	N
+
+#- la mesure de l'atténuation du benzène, réputé difficilement biodégradable, en laboratoire.
+
+
+#- le panache de la pollution est en diminution, ou stable, et les mécanismes d'atténuation sont présents, car le panache est plus court que s'il n'était sujet que d'une simple dilution ou dispersion.
+
+50l1l0	en_diminution	S
+
+#- les mécanismes responsables de la diminution de la masse sont actifs.
+
+
+#La présence d'accepteurs d'électrons (oxygène, nitrates, sulfates, Fe+3) et la présence de conditions réduites liées au panache de pollution (potentiel redox faible, présence de Fe+2, manganèse, méthane)constitue une indication d'activité biologique.
+
+
+#Un suivi piézométrique permet de vérifier l'évolution des teneurs.
+
+53l1l0	vérifier_l__évolution_des_teneurs__	S
+
+#En effet, entre 2000 et 2007, 14 piézomètres semblent régulièrement utilisés pour la surveillance de la qualité des eaux souterraines.
+
+
+#Entre 1998 et 2007, il est possible d’observer une importante altération de la qualité des eaux souterraines vis-à-vis des BTEX.
+
+55l0l0	1998_et_2007___il_est_possible	T
+55l0l1	qualité_des_eaux_souterraines_vis_à_vis_des_BTEX__	A
+
+#Les analyses piézométrique reçu en 2014 (pour le bilan de 2013) font état :
+
+56l0l0	Les_analyses_piézométrique	T
+56l0l1	__font_état__	N
+
+#- en Pz2 : des concentrations en benzène stables vis-à-vis de l’année 2012, ainsi que des traces en Hydrocarbures et,
+
+57l0l0	__en_Pz2_____des	N
+57l0l1	benzène	T
+57l0l2	vis_à_vis_de_l_	T
+
+#- en APZ4 : un dépassement ponctuel en hydrocarbures (51 mg/L)
+
+58l0l0	hydrocarbures___51_mg__	R
+58l0l1	L	T
+58l0l2	_	T
+58l1l0	APZ4	S
+58l1l1	ponctuel_en_hydrocarbures	S
+
+#Les campagnes réalisées en février, juin, septembre et novembre 2015 sur les eaux souterraines mettent en évidence, comme lors des campagnes précédentes, une pollution en hydrocarbures et en BTEX des eaux souterraines :
+
+59l1l0	campagnes	S
+59l1l1	juin___septembre	S
+
+#- au droit du poste de chargement.
+
+60l0l0	__au_droit_du_poste_de_chargement	N
+60l0l1	_	T
+
+#Globalement, les teneurs observées sont stables au droit des différents ouvrages à proximité du poste de chargement.
+
+61l0l0	Globalement___les_teneurs_observées	O
+
+#L’apparition de surnageant est observée en APZ5,
+
+
+#- en aval des bacs de stockage et en aval-latéral du site (flottant sur le CPZ26), avec une tendance à la stabilisation des teneurs.
+
+63l1l0	de_stockage	U
+63l1l1	latéral_du	I
+
+#Concernant les eaux résiduaires, les campagnes de 2015 mettent en évidence l’absence de dépassement des valeurs limites fixées par l’arrêté préfectoral du site pour les différents composés analysés (hydrocarbures, DCO = Demande Chimique en Oxygène, DBO5 = Demande Biologique en Oxygène, MES = Matières En Suspension) et des températures conformes.
+
+64l0l0	Concernant_les_eaux_résiduaires___les_campagnes_de_2015	L
+64l0l1	mettent_en	N
+64l0l2	évidence	L
+64l0l3	dépassement_des_valeurs_limites	N
+
+#Un écart du pH (valeur un peu plus faible que la valeur de référence) est toutefois observé pour les 2 décanteurs en juin 2015 et pour le décanteur n°1 en novembre 2015.
+
+65l0l0	pH___valeur_un_peu_plus	O
+65l0l1	faible_que_la_valeur	N
+65l0l2	de_référence	T
+65l0l3	toutefois_observé_pour_les_2_décanteurs_en_juin_2015	N
+65l0l4	décanteur_n__1_en_novembre	O
+
+#Au vu de ces résultats, le bureau d’étude préconise la poursuite du suivi trimestriel de la qualité des eaux souterraines et des eaux résiduaires sur l’année 2016.
+
+66l0l0	qualité_des_eaux	O
+66l0l1	souterraines_et	T
+66l0l2	eaux_résiduaires	O
+66l0l3	sur_l__année_2016__	T
+
+#Suite à la visite d'inspection du 14 juin 2016, une étude est lancée sur la zone d'arrivée pipe au niveau d'une poche de pollution qui semble très localisée.
+
+67l0l0	inspection_du_14_juin	O
+67l0l1	2016___une	R
+67l0l2	étude_est_lancée	O
+67l0l3	sur_la_zone_d__arrivée	A
+67l0l4	pipe_au_niveau_d__une_poche_de_pollution	O
+67l0l5	localisée__	T
+
+#Un nouveau piézomètre a été installé et des essais de rabattement de nappe par pompage vont être effectués.
+
+68l0l0	Un_nouveau_piézomètre_a_été_installé	N
+68l0l1	et_des_essais	T
+68l0l2	de_rabattement_de	N
+68l0l3	nappe	R
+68l0l4	par	O
+68l0l5	être_effectués	R
+68l0l6	_	N
+
+#La visite d’inspection du 28 juin 2017 a permis de constater que l’exploitant a réalisé les travaux nécessaires pour mettre en conformité ses installations avec l’arrêté préfectoral de mise en demeure du 22/08/2016, en modifiant ses installations afin d’assurer la récupération des eaux incendie en cas d’accident.
+
+69l0l0	La_visite_d__inspection	O
+69l0l1	du_28_juin_2017	N
+69l0l2	permis_de_constater_que_l__exploitant_a_réalisé	N
+69l0l3	les_travaux_nécessaires	N

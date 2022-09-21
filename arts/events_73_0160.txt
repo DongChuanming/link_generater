@@ -1,0 +1,181 @@
+
+#73.0160
+#Le site de cette ancienne station service est localisé route de Grignon à Albertville, à environ 1,5 km au sud du centre ville.
+
+0l0l0	Le_site	O
+0l0l1	cette_ancienne_station_service	O
+0l0l2	localisé_route_de_Grignon_à_Albertville	L
+0l0l3	à_environ_1_5_km_au_sud_du_centre_ville	L
+
+#Il est en zone UE au PLU soit une zone d'activités économique (zone d'activité économique de la Pierre du Roy).
+
+1l0l0	Il	O
+1l0l1	est_en_zone_UE	N
+1l0l2	une_zone_d__activités_économique	O
+1l0l3	zone_d__activité_économique	O
+1l0l4	de_la_Pierre_du_Roy	L
+
+#Elle est concernée par des servitudes d'utilité publique liées au risque naturel d'inondation énoncées dans le ppri. la superficie de la parcelle est de 7670 m2.
+
+2l0l0	des_servitudes_d_	O
+
+#Le site a fait l'objet d'un diagnostic environnement en aout 2016 (rapport INOVADIA C16-050 du 9 novembre 2016).
+
+3l0l0	Le_site	O
+3l0l1	a_fait_l__objet_d_	R
+3l0l2	un_diagnostic_environnement	N
+3l0l3	en_aout_2016	T
+3l0l4	9_novembre_2016__	T
+
+#Ce rapport liste les sources de pollution potentielles du site:
+
+
+#- un réservoir enterré de 40 m3 de gazole et de 6 m3 de GNR,
+
+5l0l0	6_m3_de_GNR	O
+5l1l0	un_réservoir_enterré	D
+5l1l1	gazole	U
+5l1l2	GNR	U
+
+#- un réservoir aérien de 10 m3 d'Adblue,
+
+6l1l0	Adblue	U
+
+#- un ilot de distribution de carburant doté de trois volucompteurs (GO/GNR/Adblue) et du dépotage,
+
+7l0l0	ilot_de_distribution_de_carburant	O
+7l1l0	carburant	U
+7l1l1	GO	S
+7l1l2	GNR	S
+7l1l3	Adblue	S
+
+#- un séparateur d'hydrocarbures,
+
+8l1l0	d__hydrocarbures	S
+
+#- un ancien réservoir enterré bi-compartimenté de SP/GO de 26 m3,
+
+9l1l0	SP___GO	I
+
+#- des remblais...
+
+10l0l0	remblais	N
+
+#Il est  à noter que les cuves enterrées de gazole et de gnr étaient déportées sous la propriété du parking de l'agence Citroën située à l'est du terrain.
+
+11l0l0	que_les_cuves_enterrées	O
+11l0l1	de_gnr	O
+11l0l2	étaient_déportées	N
+11l0l3	sous_la_propriété_du_parking	O
+11l0l4	de_l__agence_Citroën	O
+11l0l5	située_à_l__est_du_terrain	L
+11l1l0	que_les_cuves_enterrées	D
+11l1l1	gazole	S
+11l1l2	de_gnr	S
+
+#Inovadia a procédé à 6 sondages dont 3 ont permis la mise en place de piézomètres Pz1, Pz2 et Pz3 permettant une surveillance de la nappe phréatique qui est rencontrée à une profondeur de 7 à 8 mètres au droit des sondages.
+
+12l0l0	Inovadia	O
+12l0l1	a_procédé_à	N
+12l0l2	6_sondages	N
+12l0l3	la_mise_en_place	N
+12l0l4	surveillance_de	A
+12l0l5	la_nappe_phréatique	O
+12l1l0	Inovadia	I
+
+#le résultats des analyses qui ont été réalisées sur la base de ces sondages (sols) montrent:
+
+13l0l0	le_résultats	O
+
+#- la présence d'un impact ponctuel en hydrocarbures C10-C40 en profondeur (entre 4 m et 10.5 m) au droit du sondage S1, en limite sud de la station service,
+
+14l0l0	au_droit_du_sondage_S1___en_limite_sud_de_la_station_service	L
+14l1l0	hydrocarbures_C10_C40	S
+
+#- la présence d'un impact en composés volatils (COV) de type essence sur toute la hauteur du sondage S5 localisé au droit de la piste de distribution et visant l'ancien réservoir de 26 m3,
+
+15l0l0	localisé_au_droit_de_la_piste_de_distribution	L
+15l0l1	et_visant	R
+15l1l0	COV	S
+15l1l1	type_essence	U
+
+#- des anomalies en hydrocarbures C10-C40 au droit du sondage S6 (sous le réservoir enterré de 40 m3),
+
+16l0l0	au_droit_du_sondage_S6	L
+16l1l0	hydrocarbures_C10_C40	S
+
+#- des teneurs non significatives (traces xylènes et HC C5-C10 en S5) voire inférieures aux limites de quantification pour les autres paramètres.
+
+17l1l0	traces_xylènes	S
+17l1l1	HC_C5_C10	S
+
+#Le site a ensuite fait l'objet d'un rapport concernant la mise en sécurité et le suivi environnemental des travaux de démantèlement (rapport Inovedia du 13 juillet 2017 relatant les travaux qui ont été réalisés entre janvier et mai 2017).
+
+18l0l0	Le_site	O
+18l0l1	la_mise_en_sécurité	N
+18l0l2	le_suivi_environnemental	O
+18l0l3	des_travaux_de_démantèlement	N
+18l0l4	Inovedia	O
+18l0l5	13_juillet_2017	T
+18l0l6	les_travaux	N
+18l0l7	ont_été_réalisés	N
+18l0l8	entre_janvier_et_mai_2017____	T
+18l1l0	Inovedia	I
+
+#Les opérations ont notamment consisté en:
+
+19l0l0	Les_opérations	N
+
+#- l'évacuation des matériels du type "réservoirs, tuyauterie, séparateurs d'hydrocarbure...",
+
+20l1l0	d__hydrocarbure	S
+
+#- l'évacuation de 10.33 tonnes de produits liquides/boueux encore présents sur l'installation,
+
+21l0l0	l__évacuation	N
+21l0l1	10_33_tonnes_de_produits_liquides	O
+21l1l0	tonnes_de_produits_liquides___boueux	U
+
+#- l'évacuation vers le centre de traitement de Biogenie de Chateau-Gaillard (01) de 488,05 tonnes de terres impactée.
+
+22l0l0	l__évacuation_vers	N
+22l0l1	le_centre_de_traitement	O
+22l0l2	de_Biogenie_de_Chateau_Gaillard___01__	L
+22l0l3	de_488_05_tonnes_de	N
+22l0l4	terres_impactée	O
+22l1l0	Biogenie	I
+
+#- la mise en place de remblais de carrière inertes au niveau de terres excavées.
+
+23l0l0	la_mise_en_place_de_remblais	N
+23l0l1	de_carrière_inertes	O
+23l0l2	terres_excavées	N
+
+#En conclusion du document, Inovadia indique que l'analyse de risque, réalisée sur la base des résultats de l'ensemble des investigations réalisées à ce jour et considérant un usage comparable à celui de la dernière période d'exploitation (industriel/commercial) en l'absence d'usage des eaux souterraines au droit du site a mis en évidence l'absence de risque pour les futurs usagers du site et la population hors site.
+
+24l0l0	analyse_de_risque	N
+24l0l1	à_ce_jour	T
+24l0l2	au_droit_du_site	L
+24l0l3	a_mis	R
+24l0l4	l__absence_de_risque	O
+24l0l5	les_futurs_usagers_du_site	O
+24l0l6	la_population_hors_site	O
+24l1l0	Inovadia	I
+
+#Toutefois, inovadia recommande de réaliser:
+
+25l1l0	inovadia	I
+
+#- une surveillance des eaux souterraines sur un cycle hydrogéologique complet dans les trois piézomètres conservés sur le site pour confirmer/infirmer ces résultats,
+
+26l0l0	une_surveillance_des_eaux_souterraines	A
+
+#- un dossier de Servitude d'Utilités Publique pour garder en mémoire la présence d'impact résiduel dans les sols.
+
+
+#un dossier de servitude d'utilité publique est déposé par AS24 le 26 octobre 2017.
+
+28l0l0	un_dossier_de_servitude_d__utilité_publique	O
+28l0l1	est_déposé	N
+28l0l2	le_26_octobre_2017__	T
+28l1l0	AS24	I

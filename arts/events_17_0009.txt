@@ -1,0 +1,250 @@
+
+#17.0009
+#Terrain de la zone industrielle d'Aytré, exploité successivement par des entreprises de la chimie :
+
+0l0l0	Terrain	O
+0l0l1	de_la_zone_industrielle_d__Aytré	L
+0l0l2	exploité_successivement	N
+0l0l3	des_entreprises_de_la_chimie	O
+0l1l0	la_chimie	U
+
+#- la société Atlantique Distribution,
+
+1l0l0	la_société_Atlantique_Distribution	O
+1l1l0	la_société_Atlantique_Distribution	I
+
+#- la société Rolland's company, Rol-Eco
+
+2l0l0	company	O
+2l0l1	Eco	T
+2l1l0	la_société_Rolland_	I
+
+#- la société NCH,
+
+3l0l0	la_société_NCH	O
+3l1l0	la_société_NCH	I
+
+#jusqu'en 1994.
+
+4l0l0	jusqu__en_1994__	T
+
+#En 1998, la société Ruppelacolor envisage d'exploiter une unité de fabrication de peinture et de régénération de solvants.
+
+5l0l0	En_1998__	T
+5l0l1	la_société_Ruppelacolor	O
+5l0l2	envisage_d_	R
+5l0l3	exploiter	R
+5l0l4	une_unité	O
+5l0l5	de_fabrication_de_peinture	A
+5l0l6	régénération_de_solvants	A
+5l1l0	la_société_Ruppelacolor	I
+5l1l1	solvants	U
+
+#Cette autorisation ayant été refusée, le demandeur n'a pas poursuivi ses recherches sur la pollution du sol qu'il avait mis en évidence en constituant son dossier.
+
+6l0l0	Cette_autorisation	O
+6l0l1	ayant_été_refusée	N
+6l0l2	le_demandeur	O
+6l0l3	n__a_pas_poursuivi	N
+6l0l4	ses_recherches_sur_la_pollution_du_sol	O
+
+#Le site est actuellement occupé par diverses entreprises artisanales et commerciales.
+
+7l0l0	Le_site	O
+7l0l1	est_actuellement_occupé	N
+7l0l2	diverses_entreprises_artisanales	O
+
+#Dans le cadre de sa demande d'autorisation d'exploiter établie en janvier 1998, la Sté Ruppelacolor a fait réaliser par un bureau d'études une reconnaissance simplifiée du site.
+
+8l0l0	Dans_le_cadre_de	R
+8l0l1	sa_demande_d__autorisation	N
+8l0l2	d__exploiter	O
+8l0l3	établie	N
+8l0l4	en_janvier_1998__	T
+8l0l5	la_Sté_Ruppelacolor	O
+8l0l6	a_fait_réaliser_par	N
+8l0l7	un_bureau_d__études	O
+8l0l8	une_reconnaissance_simplifiée	N
+8l1l0	la_Sté_Ruppelacolor	I
+
+#L'étude a mis en évidence huit zones potentiellement polluées par des solvants et des hydrocarbures utilisés par les précédents exploitants.
+
+9l0l0	huit_zones_potentiellement_polluées	O
+9l0l1	des_hydrocarbures	O
+9l1l0	hydrocarbures	S
+
+#Deux de ces zones sont contaminées à la fois par des hydrocarbures et du trichloroéthylène, et la nappe paraît impactée par des solvants.
+
+10l0l0	ces_zones	O
+10l0l1	sont_contaminées	N
+10l0l2	impactée_par	R
+10l1l0	hydrocarbures	S
+10l1l1	trichloroéthylène	S
+10l1l2	solvants	S
+
+#Un deuxième bureau d'études, chargé par la communauté d'agglomération (alors propriétaire du site) de critiquer cette étude, propose de traiter les deux zones contaminées et de mettre en place une piézométrie représentative de la nappe.
+
+11l0l0	Un_deuxième_bureau_d__études	O
+11l0l1	la_communauté_d__agglomération	O
+11l0l2	critiquer_cette_étude	N
+11l0l3	traiter	N
+11l0l4	les_deux_zones_contaminées	O
+11l0l5	mettre_en_place_une_piézométrie	N
+11l1l0	la_communauté_d__agglomération	I
+
+#La société Ruppelacolor n'ayant pas été autorisée, par arrêté en date du 2 juin 2000, à exercer de nouvelles activités sur ce site, a abandonné ses recherches sur sa pollution.
+
+12l0l0	La_société_Ruppelacolor	O
+12l0l1	n__ayant_pas_été_autorisée	N
+12l0l2	en_date_du_2_juin_2000__	T
+12l0l3	exercer_de_nouvelles_activités	N
+12l0l4	sur_ce_site	L
+12l0l5	a_abandonné	N
+12l0l6	ses_recherches_sur_sa_pollution	N
+12l1l0	La_société_Ruppelacolor	I
+
+#L'inspection des installations classées a mené des recherches afin de déterminer le ou les responsables de la pollution compte tenu de la cessation d'activité non déclarée de la part du dernier exploitant du site, à savoir la Rolland's Company en 1992 ou 1993.
+
+13l0l0	L__inspection_des_installations_classées	O
+13l0l1	a_mené	N
+13l0l2	la_pollution	O
+13l0l3	la_cessation_d__activité_non_déclarée	N
+13l0l4	dernier_exploitant	N
+13l0l5	la_Rolland__s_Company	O
+13l0l6	en_1992_ou_1993	T
+13l1l0	la	I
+
+#La liquidation judiciaire a été prononcée par jugement du 24 avril 1996.
+
+14l0l0	La_liquidation_judiciaire	N
+14l0l1	a_été_prononcée_par_jugement_du	N
+14l0l2	24_avril_1996__	T
+
+#Suite à une première enquête, il est apparu que la société ROLLAND'S COMPANY qui avait été autorisée par arrêté préfectoral du 13 octobre 1976 à exploiter sur ce site des activités de fabrication et de stockage de produits chimiques et industriels était une division du groupe NCH.
+
+15l0l0	la_société_ROLLAND_	O
+15l0l1	COMPANY	O
+15l0l2	avait_été_autorisée_par	N
+15l0l3	arrêté_préfectoral	O
+15l0l4	du_13_octobre_1976	T
+15l0l5	exploiter	N
+15l0l6	sur_ce_site	L
+15l0l7	des_activités_de_fabrication_et_de_stockage_de_produits_chimiques_et_industriels	A
+15l0l8	NCH	O
+15l1l0	la_société_ROLLAND__S_COMPANY	I
+15l1l1	produits_chimiques	U
+15l1l2	groupe_NCH	I
+
+#L'inspection a donc proposé au préfet, en janvier 2000, d'imposer à la société NCH la remise en état de ce terrain.
+
+16l0l0	L__inspection	O
+16l0l1	a_donc_proposé	N
+16l0l2	au_préfet	O
+16l0l3	en_janvier_2000__	T
+16l0l4	d__imposer	N
+16l0l5	la_société_NCH	O
+16l0l6	la_remise_en_état	N
+16l0l7	ce_terrain	O
+16l1l0	préfet	I
+16l1l1	la_société_NCH	I
+
+#Néanmoins, l'arrêté de mise en demeure correspondant n'a pu être signifié, dans la mesure où la société NCH Internationale SA, s'est déclarée non-propriétaire et non impliquée dans l'exploitation de ce site.
+
+17l0l0	la_société_NCH_Internationale_SA	O
+17l0l1	s__est_déclarée	N
+17l0l2	non_propriétaire	O
+17l0l3	impliquée_dans_l__exploitation_de	L
+17l0l4	ce_site	O
+17l1l0	la_société_NCH_Internationale_SA	I
+
+#Elle prétendait, que ce terrain avait été exploité par la Compagnie Industrielle de Recherche (CIR), filiale de NCH EUROPE Inc, société de droit américain.
+
+18l0l0	ce_terrain	O
+18l0l1	avait_été_exploité	N
+18l0l2	la_Compagnie_Industrielle_de_Recherche	O
+18l0l3	CIR	O
+18l1l0	la_Compagnie_Industrielle_de_Recherche	I
+18l1l1	CIR	I
+18l1l2	NCH_EUROPE_Inc	I
+
+#Par suite de nouvelles recherches, la Rolland's Company a été retrouvée sous ce nom à Provins.
+
+19l0l0	la_Rolland__s_Company	O
+19l0l1	a_été_retrouvée_sous	N
+19l0l2	ce_nom	O
+19l0l3	à_Provins	L
+
+#En conséquence, l'inspection a proposé au préfet, fin août 2003, de mettre en demeure la société ROLLAND'S COMPANY, dont le siège social est à Provins (77), de notifier l'arrêt définitif de l'exploitation d'Aytré et de remettre le site dans un état tel qu'il ne s'y manifeste plus aucun danger ou inconvénient pour l'environnement, notamment par la présentation d'une étude hydrogéologique afin de déterminer les modalités du suivi de la qualité des eaux souterraines, si celui-ci s'avère nécessaire.
+
+20l0l0	fin_août_2003__	T
+20l0l1	la_société_ROLLAND__S_COMPANY	O
+20l0l2	à	T
+20l0l3	Provins___77__	L
+20l0l4	notifier_l__arrêt_définitif	N
+20l0l5	l__exploitation	N
+20l0l6	Aytré	L
+20l0l7	l__environnement	O
+20l0l8	la_présentation	N
+20l0l9	d__une_étude_hydrogéologique	N
+20l0l10	déterminer	R
+20l0l11	les_modalités	O
+20l0l12	du_suivi_de_la_qualité_des_eaux_souterraines	A
+20l1l0	la_société_ROLLAND__S_COMPANY	I
+20l1l1	Provins	I
+
+#Cette procédure s'est de nouveau heurtée au même rejet signifié par le même conseil juridique que le précédent.
+
+
+#De nouvelles recherches montrant que l'exploitant présumé pollueur faisait partie d'un groupe, que la CIR, propriétaire du site, faisait  également partie du même groupe et que les mêmes noms sont retrouvés à Aytré avec les mêmes lieux de siège que ceux existant actuellement, l'inspection propose de relancer la procédure de mise en demeure à l'encontre de NCH Europe dont une adresse a été retrouvée et d'établir par une enquête administrative les liens entre les différentes sociétés de même nom mais de statuts différents.
+
+22l0l0	De_nouvelles_recherches	N
+22l0l1	l__exploitant_présumé_pollueur	O
+22l0l2	faisait	R
+22l0l3	partie_d_	A
+22l0l4	un_groupe	O
+22l0l5	la_CIR	O
+22l0l6	faisait	O
+22l0l7	__également_partie_du_même	N
+22l0l8	groupe	O
+22l0l9	que_les_mêmes_noms	O
+22l0l10	retrouvés_à_Aytré	L
+22l0l11	avec_les_mêmes_lieux_de_siège	O
+22l0l12	de_relancer_la_procédure_de_mise_en_demeure	N
+22l0l13	de_NCH_Europe	O
+22l0l14	dont_une_adresse	O
+22l0l15	a_été_retrouvée	N
+22l0l16	par_une_enquête_administrative	N
+22l1l0	la_CIR	I
+22l1l1	de_NCH_Europe	I
+
+#Cependant l'avocat a de nouveau renvoyé le projet en indiquant qu'il y a lieu de transmettre l'arrêté au liquidateur mais en précisant toutefois que la Rolland's Company a été acquise par le groupe NCH, que la Compagnie Industrielle de Recherche (CIR) a exploité le site d'Aytré, également acquise par le groupe NCH.
+
+23l0l0	de_nouveau_renvoyé	N
+23l0l1	le_projet	O
+23l0l2	la_Rolland__s_Company	O
+23l0l3	a_été_acquise_par	N
+23l0l4	le_groupe_NCH	O
+23l0l5	la_Compagnie_Industrielle_de_Recherche	O
+23l0l6	CIR	N
+23l0l7	a_exploité_le_site	N
+23l0l8	d__Aytré	L
+23l0l9	acquise_par	N
+23l0l10	le_groupe_NCH	O
+23l1l0	la	I
+23l1l1	s_Company	I
+23l1l2	le_groupe_NCH	I
+23l1l3	la_Compagnie_Industrielle_de_Recherche	I
+23l1l4	le_groupe_NCH	I
+
+#Ainsi, l'inspection ayant noté que les sociétés Rolland's Company, CIR, NCH Europe, Rol-Eco étaient liées (groupe comprenant plusieurs divisions autour des mêmes activités) l'inspection propose, en 2007 de mettre le groupe NCH en demeure.
+
+24l0l0	les_sociétés_Rolland__s_Company	O
+24l0l1	plusieurs_divisions	O
+24l0l2	autour	L
+24l0l3	des_mêmes_activités	A
+24l0l4	en_2007	T
+24l1l0	les_sociétés_Rolland__s_Company	I
+24l1l1	CIR	I
+24l1l2	NCH_Europe	I
+24l1l3	Rol___Eco	I
+24l1l4	le_groupe_NCH	I

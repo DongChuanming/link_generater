@@ -1,0 +1,128 @@
+
+#76.0167
+#Historiquement, le site a été le siège d'une importante activité de teinture et d'apprêt.
+
+0l0l0	le_site	O
+0l0l1	a_été_le	A
+0l0l2	siège_d_	R
+0l0l3	une_importante	O
+0l0l4	activité_de_teinture_et_d__apprêt	A
+
+#Suite au rachat des terrains par la société commerciale de courtage, une évaluation simplifiée des risques a été réalisée, sans avoir été encadrée par un arrêté préfectoral complémentaire.
+
+1l0l0	Suite	R
+1l0l1	au_rachat	N
+1l0l2	des_terrains	O
+1l0l3	la_société_commerciale_de_courtage	O
+1l0l4	une_évaluation_simplifiée_des_risques	N
+1l0l5	a_été_réalisée	N
+1l0l6	sans_avoir_été_encadrée	R
+1l1l0	la_société_commerciale	I
+
+#Celle-ci notait le site en classe 2 pour le seul risque d'incendie, et concluait qu'une fois les produits toxiques enlevés et éliminés dans des filières agrées, le site deviendrait banalisable (classe 3).
+
+2l0l0	des_filières	O
+2l0l1	agrées	N
+2l0l2	le_site	O
+2l1l0	les_produits_toxiques	U
+
+#Par la suite, le site a été racheté pour partie par la SCI GRENA et a été occupé par la société GALVANORM.
+
+3l0l0	le_site	O
+3l0l1	a_été_racheté	N
+3l0l2	la_SCI_GRENA	O
+3l0l3	a_été_occupé	N
+3l0l4	la_société_GALVANORM	O
+3l1l0	la_SCI_GRENA	I
+3l1l1	la_société_GALVANORM	I
+
+#Le reste du site, abandonné consécutivement à la mise en liquidation judicière de la SCC, a été vandalisé et incendié à plusieurs reprises.
+
+4l0l0	Le_reste_du_site	O
+4l0l1	abandonné	O
+4l0l2	consécutivement_à	R
+4l0l3	la_mise_en_liquidation_judicière	N
+4l0l4	la_SCC	A
+4l0l5	a_été_vandalisé	N
+4l0l6	incendié	N
+4l1l0	la_SCC	I
+
+#Sur la partie rachetée par la GALVANORM, des souillures et déchets ont du faire l'objet d'un conditionnement et d'une élimination.
+
+5l0l0	la_partie	O
+5l0l1	rachetée	N
+5l0l2	la_GALVANORM	O
+5l0l3	des_souillures	O
+5l0l4	déchets	O
+5l0l5	ont_du_faire	N
+5l0l6	l__objet_d_	R
+5l0l7	un_conditionnement	O
+5l0l8	une_élimination	N
+5l1l0	la_GALVANORM	I
+
+#Il s'agit notamment :
+
+
+#- de résidus d'hydrocarbures présents dans des rétentions notamment le long d'une ancienne conduite de fuel lourd reliant les cuves à l'ancienne chaufferie)
+
+7l0l0	des_rétentions	O
+7l0l1	le_long_d_	L
+7l0l2	une_ancienne_conduite_de_fuel_lourd	O
+7l0l3	chaufferie__	O
+7l1l0	de_résidus_d__hydrocarbures	U
+7l1l1	fuel_lourd	U
+
+#- de sols contaminés par d'une fuite de fluide diélectrique à base de PCB sur un tranformateur vandalisé,
+
+8l0l0	de_sols_contaminés	O
+8l0l1	par_d_	R
+8l0l2	une_fuite	N
+8l0l3	tranformateur	A
+8l0l4	vandalisé	N
+8l1l0	fluide_diélectrique	U
+8l1l1	PCB	S
+
+#- d'un ensemble de papiers et d'emballages (déchets banals)
+
+
+#A noter que le transformateur électrique a été éliminé par le liquidateur judiciaire de la Société Commerciale et de Courtage, premier acquéreur des terrains.
+
+10l0l0	le_transformateur_électrique	O
+10l0l1	a_été_éliminé	N
+10l0l2	le_liquidateur_judiciaire	O
+10l0l3	la_Société_Commerciale	O
+10l0l4	Courtage	O
+10l0l5	des_terrains	O
+10l1l0	la_Société_Commerciale	I
+
+#Le traitement et l'élimination des derniers déchets a justifié d'un arrêté préfectoral de mise en demeure pris le 9 octobre 2000.
+
+11l0l0	Le_traitement_et_l__élimination_des_derniers_déchets	O
+11l0l1	a_justifié_d_	R
+11l0l2	un_arrêté_préfectoral	O
+11l0l3	mise_en_demeure_pris	N
+11l0l4	le_9_octobre_2000__	T
+
+#Aprés un arrêté préfectoral d'exécution de travaux d'office en date du 17 juillet 2001, l'ADEME a réalisé des opérations de vidange de la lagune et de la fosse à huile, d'évacuation et d'élimination des batteries de condensateur, des fûts de DIS, des palettes et autres déchets de bois présentant un fort pouvoir calorifique.
+
+12l0l0	Aprés	R
+12l0l1	un_arrêté_préfectoral	O
+12l0l2	exécution_de_travaux_d__office	N
+12l0l3	en_date_du_17_juillet_2001__	T
+12l0l4	l__ADEME	O
+12l0l5	a_réalisé	N
+12l0l6	des_opérations	N
+12l0l7	de_vidange	N
+12l0l8	la_lagune	O
+12l0l9	la_fosse_à_huile	O
+12l0l10	évacuation	N
+12l0l11	élimination	N
+12l1l0	DIS	U
+12l1l1	calorifique	U
+
+#Cependant, certains produits restent sur le site tels que les produits de traitement des eaux (acides, bases, résines ...)et les vides sanitaires sont susceptibles de contenir des produits ou résidus.
+
+13l1l0	les_produits	U
+
+#Dans l'état actuel des connaissance, l'état du site nettoyé ne justifie plus de mesure de restriction d'usage.
+

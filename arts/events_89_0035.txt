@@ -1,0 +1,132 @@
+
+#89.0035
+#Le site étudié est une station-service anciennement sous l'enseigne SHELL et rachetée en 2005 par AVIA.
+
+0l0l0	Le_site	O
+0l0l1	anciennement_sous	R
+0l0l2	l__enseigne_SHELL	O
+0l0l3	rachetée	N
+0l0l4	en_2005	T
+0l0l5	AVIA	O
+0l1l0	SHELL	I
+0l1l1	AVIA	I
+
+#L'environnement de la station est résidentiel (maisons individuelles et immeubles).
+
+1l0l0	L__environnement	O
+1l0l1	la_station	O
+
+#Contexte hydrologique:
+
+
+#Le site se situe à environ 1000 mètres à l'est de la rivière "l'Yonne" et à 500 mètres de l'étang de la Ballastière.
+
+3l0l0	Le_site	O
+3l0l1	se_situe_à_environ_1000_mètres_à_l__est_de_la_rivière___l__Yonne___et_à_500_mètres_de_l__étang_de_la_Ballastière	L
+
+#contexte hydrogéologique:
+
+
+#Deux nappes sont recensées au droit du site:
+
+5l0l0	Deux_nappes	O
+5l0l1	au_droit_du_site	L
+
+#- la nappe libre des alluvions anciennes de l'Yonne, utilisée pour l'industrie et l'agriculture, et rencontrée à environ 5 mètres de profondeur
+
+6l0l0	l__Yonne	L
+6l0l1	l__industrie_et_l__agriculture	A
+6l0l2	rencontrée_à_environ_5_mètres_de_profondeur	N
+
+#- la nappe de la craie, rencontrée à environ 7/8 mètres de profondeur, est exploitée pour l'alimentation en eau potable et industrielle.
+
+7l0l0	environ_7_8	T
+7l0l1	mètres_de_profondeur	N
+7l0l2	est_exploitée	N
+7l0l3	l__alimentation_en_eau_potable_et_industrielle	A
+
+#Un diagnostic environnemental des sols et des eaux souterraines avait été réalisé au droit de la station SHELL les 28 et 29 juin 2005. les investigations avaient consisté en la réalisation de 7 sondages à la tarière manuelle et à la gouge à percussion. l'eau souterraine avait été rencontrée à environ 5 mètres de profondeur et 3 sondages étaient équipés de piézomètres.
+
+8l0l0	Un_diagnostic_environnemental	N
+8l0l1	sols_et_des_eaux_souterraines	A
+8l0l2	avait_été_réalisé	N
+8l0l3	au_droit_de_la_station_SHELL	L
+8l0l4	les_28_et_29_juin_2005__	T
+8l0l5	les_investigations	N
+8l0l6	3_sondages	O
+
+#les résultats du diagnostic avaient permis d'identifier les pollutions suivantes:
+
+9l0l0	les_pollutions	O
+
+#- une contamination des sols: en hydrocarbures totaux et en xylènes
+
+10l0l0	une_contamination	N
+10l1l0	hydrocarbures_totaux	S
+10l1l1	xylènes	S
+
+#- une contamination des eaux souterraines: en hydrocarbures totaux et en BTEX (benzène, toluène, éthylbenzène et xylènes).
+
+11l0l0	une_contamination	N
+11l1l0	hydrocarbures_totaux	S
+11l1l1	BTEX	S
+11l1l2	benzène	S
+11l1l3	toluène	S
+11l1l4	éthylbenzène	S
+11l1l5	xylènes	S
+
+#Suite à ces résultats, un système de traitement de la nappe phréatique a été mis en place en 2005.
+
+12l0l0	un_système_de_traitement	N
+12l0l1	la_nappe_phréatique	O
+12l0l2	a_été_mis_en_place	N
+12l0l3	en_2005__	T
+
+#Ce système était composé de cannes d'aspiration permettant de pomper l'eau souterraine.
+
+
+#L'eau ainsi pompée était acheminée au système de traitement composé d'un séparateur d'hydrocarbures, d'une unité de stripping et d'un ventilateur.
+
+14l0l0	était_acheminée_au	R
+14l0l1	système_de_traitement	O
+14l0l2	une_unité_de_stripping	O
+14l1l0	hydrocarbures	S
+
+#Au terme de la vente de la station-service à la société AVIA, la société SHELL devait procéder au contrôle et à la validation de la fin du traitement de dépollution de la station-service.
+
+15l0l0	Au_terme	R
+15l0l1	de_la_vente	N
+15l0l2	la_station___service	O
+15l0l3	la_société_AVIA	O
+15l0l4	la_société_SHELL	O
+15l0l5	devait_procéder_au	R
+15l0l6	contrôle	N
+15l0l7	à_la_validation	N
+15l0l8	la_fin_du_traitement_de_dépollution	N
+15l0l9	la_station___service	O
+15l1l0	la_société_AVIA	I
+15l1l1	la_société_SHELL	I
+
+#En 2008, les différents tests réalisés sur l'installation de traitement montrent que le dimensionnement de l'installation est insuffisant pour le traitement de l'eau souterraine et ne permet pas de traiter les sols.
+
+16l0l0	En_2008__	T
+
+#Une installation de "venting" pouvait être une solution acceptable.
+
+17l0l0	Une_installation_de___venting	O
+
+#En 2009, des campagnes de suivi de la qualité des eaux souterraines ont été réalisées dans le cadre de la démarche "d'interprétation de l'état des milieux" et de "l'analyse des risques résiduels".
+
+18l0l0	En_2009__	T
+18l0l1	des_campagnes_de	N
+18l0l2	suivi_de_la_qualité_des_eaux_souterraines	A
+18l0l3	ont_été_réalisées	N
+18l0l4	dans_le_cadre_de	R
+18l0l5	la_démarche	O
+
+#En juillet 2011, un suivi trimestriel de l'eau souterraine est recommandée sur les piézomètres du site, hors site et les puits privés.
+
+19l0l0	En_juillet_2011__	T
+19l0l1	un_suivi_trimestriel	A
+19l0l2	l_	O
+19l0l3	eau_souterraine	A

@@ -1,0 +1,139 @@
+
+#36.0027
+#Le site YARA FRANCE est situé sur le territoire de la commune d'ISSOUDUN.
+
+0l0l0	Le_site_YARA_FRANCE_est_situé	O
+
+#Sa superficie est de 50 687 m2 et il couvre les parcelles section AR n°741 et 742.
+
+1l0l0	Sa_superficie_est_de	O
+1l0l1	50	N
+1l0l2	687_m2_et_il_couvre_les_parcelles_section_AR_n__741	L
+1l1l0	Sa_superficie_est_de	I
+
+#Le site est délimité :
+
+
+#- au nord par l'ancienne cité industrielle de l'usine ;
+
+3l0l0	__au_nord	O
+
+#- à l'est par l'avenue Jean Bonnefont ;
+
+
+#- à l'ouest par la voie ferrée Paris-Toulouse ;
+
+5l0l0	à_l__ouest_par_la_voie_ferrée_Paris___Toulouse	L
+
+#- au sud par l'hôpital d'Issoudun.
+
+6l0l0	au_sud_par_l__hôpital_d__Issoudun__	L
+
+#La rivière la Théols coule à environ 50 mètres à l'ouest du site.
+
+7l0l0	La_rivière_la_Théols_coule_à_environ	L
+
+#Le site a été construit en 1924 pour la production d'acide sulfurique et de superphosphates.
+
+8l0l0	Le_site_a_été_construit	O
+8l0l1	1924_pour_la_production_d__acide_sulfurique	L
+
+#L'acide sulfurique était obtenu à l'aide du grillage de la pyrite.
+
+9l0l0	L__acide	O
+9l0l1	sulfurique_était	N
+9l0l2	obtenu	T
+9l0l3	l__aide_du_grillage_de_la_pyrite	A
+9l1l0	grillage_de_la_pyrite__	S
+
+#Par la suite, et jusqu'à l'arrêt total de l'activité en mars 2010, des engrais agricoles ont été produits sur le site : engrais liquides, engrais solides de type sulfomagnésien.
+
+10l1l0	Par_la_suite___et_jusqu_	S
+
+#Les actions de mise en sécurité du site ont démarré en mars 2010 et se sont poursuivies jusqu'en 2012.
+
+11l0l0	sécurité_du_site	N
+11l0l1	ont_démarré_en	O
+11l0l2	mars_2010_et_se	T
+11l0l3	sont_poursuivies_jusqu_	O
+11l0l4	en_2012__	N
+
+#Dans le cadre de la cessation totale d'activité, un diagnostic de site a été réalisé par l'exploitant en décembre 2010.
+
+12l0l0	Dans_le_cadre_de_la_cessation_totale	N
+12l0l1	d_	O
+12l0l2	activité___un	N
+12l0l3	diagnostic	T
+12l0l4	de_site_a_été_réalisé	N
+12l0l5	par_l__exploitant_en_décembre_2010__	T
+
+#Les investigations réalisées à cette occasion ont notamment montré :
+
+13l0l0	Les_investigations	R
+13l0l1	réalisées_à_cette_occasion	N
+13l0l2	ont_notamment_montré__	N
+
+#- présence de pyrites grillées, chargées en métaux lourds, sur une partie du site et sur une faible épaisseur ;
+
+14l0l0	__présence_de_pyrites_grillées	N
+
+#- concentrations élevées en hydrocarbures à proximité de la cuve de carburant enterrée ;
+
+15l0l0	à_proximité_de	O
+15l1l0	concentrations_élevées	S
+15l1l1	à_proximité_de	S
+
+#- confirmation de la présence d'une ancienne zone de déchets à l'ouest du site ;
+
+16l0l0	présence_d__une_ancienne	O
+16l0l1	zone_de_déchets	L
+16l0l2	à_l__ouest_du_site__	O
+16l1l0	présence_d__une_ancienne	S
+16l1l1	à_l__ouest	D
+16l1l2	du_site__	U
+
+#- dans les eaux souterraines, présence de composés azotés au dessus des seuils de potabilité.
+
+17l0l0	présence_de_composés_azotés_au	O
+17l0l1	dessus_des_seuils	L
+
+#La cuve de carburant a été excavée en 2010 et les terres contaminées en hydrocarbures ont été évacuées.
+
+18l1l0	et_les_terres_contaminées	S
+
+#Un plan de gestion a été établi par l'ancien exploitant et transmis à l'inspection des installations classées en septembre 2011.
+
+19l0l0	Un_plan_de_gestion_a_été	O
+19l0l1	établi_par	N
+19l0l2	l__ancien	T
+19l0l3	exploitant_et_transmis	O
+19l0l4	l__inspection_des	O
+19l0l5	installations	N
+19l1l0	plan_de	D
+19l1l1	gestion_a_été	U
+19l1l2	l__inspection_des	S
+
+#Dans le cadre d'une utilisation industrielle future du site, il a été retenu les mesures suivantes : remblais et recouvrement des zones impactées listées précédemment.
+
+20l0l0	Dans_le_cadre_d__une	O
+20l0l1	utilisation	N
+20l0l2	industrielle_future_du	O
+20l0l3	été_retenu_les_mesures_suivantes___remblais_et	O
+20l0l4	recouvrement_des_zones_impactées_listées_précédemment__	T
+
+#Une première campagne de contrôle des eaux souterraines a été réalisée en octobre 2011.
+
+21l0l0	Une_première	R
+21l0l1	campagne_de_contrôle_des_eaux_souterraines_a_été	A
+
+#Elle confirme le sens d'écoulement de la nappe souterraine en direction de la Théols et met en évidence des dépassements de certains paramètres (métaux, sulfates, nitrites, ammonium).
+
+22l0l0	Elle_confirme_le_sens_d__écoulement	N
+22l0l1	de_la_nappe_souterraine	A
+22l0l2	en_direction	N
+22l0l3	de_la_Théols_et_met_en_évidence_des_dépassements_de_certains_paramètres___métaux___sulfates___nitrites___ammonium____	T
+
+#Un arrêté préfectoral prescrira prochainement la surveillance semestrielle des eaux souterraines par 5 piézomètres.
+
+23l0l0	prochainement_la_surveillance	O
+23l0l1	semestrielle_des_eaux	L

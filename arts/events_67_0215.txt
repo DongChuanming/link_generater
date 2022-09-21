@@ -1,0 +1,96 @@
+
+#67.0215
+#Activité de distribution d'hydrocarbure à l’arrêt.
+
+0l0l0	Activité_de_distribution_d__hydrocarbure	A
+0l1l0	hydrocarbure	I
+
+#Le site est entouré :
+
+1l0l0	Le_site	O
+
+#- au nord : un supermarché puis des habitations avec jardins et la rivière Zorn
+
+2l0l0	au_nord	L
+2l0l1	un_supermarché	O
+2l0l2	des_habitations	O
+2l1l0	Zorn	I
+
+#- à l'ouest : deux étangs, des champs et des terrains de sports
+
+3l0l0	deux_étangs	O
+3l0l1	des_terrains_de_sports	O
+
+#- au sud et à l'est : des bâtiments d'activités commerciales et industrielles, le canal de dérivation de la Zorn, une gravière et des étangs.
+
+4l0l0	activités_commerciales_et_industrielles	A
+4l0l1	le_canal_de	O
+4l0l2	dérivation_de_la_Zorn	L
+4l0l3	des_étangs	O
+
+#Le démantèlement de la station-service et la gestion des terres polluées associées, commencés en 2010, ont été suivis d'études hydrogéologiques annuelles dès 2011 ainsi que la mise en place d'un réseau de piézomètres conformément à la demande de la Direction Régionale de l'Environnement, de l'Aménagement et du Logement (DREAL) datée du 27 mai 2011.
+
+5l0l0	Le_démantèlement	N
+5l0l1	la_station___service	O
+5l0l2	la_gestion_des_terres_polluées_associées	O
+5l0l3	commencés_en_2010__	T
+5l0l4	ont_été	N
+5l0l5	suivis_d_	R
+5l0l6	études_hydrogéologiques_annuelles	N
+5l0l7	dès_2011	T
+5l0l8	ainsi_que	R
+5l0l9	la_mise_en_place_d_	N
+5l0l10	un_réseau_de_piézomètres	O
+5l0l11	conformément_à	R
+5l0l12	la_demande	N
+5l0l13	la_Direction_Régionale_de_l__Environnement	O
+5l0l14	DREAL	O
+5l0l15	du_27_mai_2011__	T
+5l1l0	la_Direction_Régionale_de_l__Environnement	I
+5l1l1	DREAL	I
+
+#Le suivi de l'aménagement du site pour l'implantation d'un super marché LIDL ainsi que le suivi des eaux souterraines, de l'air ambiant et enquête de proximité ont été réalisés par SITA Remediation jusqu'à la campagne de surveillance des eaux souterraines du 24 novembre 2014.
+
+6l0l0	Le_suivi_de	O
+6l0l1	l__aménagement	N
+6l0l2	du_site	O
+6l0l3	l__implantation	N
+6l0l4	d_	R
+6l0l5	un_super_marché_LIDL	O
+6l0l6	le_suivi_des_eaux_souterraines	A
+6l0l7	ont_été_réalisés	N
+6l0l8	SITA	O
+6l0l9	la	A
+6l0l10	campagne_de_surveillance_des_eaux_souterraines	O
+6l0l11	du_24_novembre_2014__	T
+6l1l0	SITA_Remediation	I
+
+#Cette dernière campagne de surveillance a permis de mettre en évidence un léger impact résiduel de l'ancienne activité de distribution de carburant sur la qualité des eaux souterraines.
+
+7l0l0	Cette_dernière_campagne_de_surveillance	N
+7l0l1	activité_de_distribution_de_carburant	A
+7l0l2	la_qualité_des_eaux_souterraines	O
+7l1l0	carburant	U
+
+#En effet, la concentration de benzène est légèrement supérieure à la valeur française pour l'eau potable et également supérieure à la valeur guide de l'OMS au droit du piézomètre 3.
+
+8l1l0	benzène	S
+
+#La qualité des eaux souterraines semble s'améliorer depuis le début de la surveillance, les concentrations sont en diminution par rapport au début du suivi.
+
+9l0l0	La_qualité_des_eaux_souterraines	O
+9l0l1	semble_s__améliorer	N
+9l0l2	depuis_le_début_de_la	T
+9l0l3	surveillance	A
+9l0l4	début	T
+
+#Compte tenu des résultats en l'état actuel du site et de son usage il est opportun de poursuivre le suivi de la surveillance de la qualité des eaux souterraines selon une fréquence semestrielle (hautes eaux / basses eaux).
+
+10l0l0	le_suivi_de_la_surveillance	A
+10l0l1	la_qualité_des_eaux_souterraines	O
+10l0l2	selon	R
+
+#Une révision du suivi de la qualité des eaux souterraines pourra s'envisager si les prochaines campagnes continuent de révéler une baisse des concentrations de polluants.
+
+11l0l0	Une_révision	N
+11l0l1	suivi_de_la_qualité_des_eaux_souterraines	A

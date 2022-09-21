@@ -1,0 +1,330 @@
+
+#33.0388
+#Ancienne décharge communale de Saint Paul, située au lieu-dit « Brandacotte » qui se situe à 2 km à l’Est de la commune.
+
+0l0l0	Ancienne_décharge	O
+0l0l1	communale_de_Saint_Paul	L
+0l0l2	située_au_lieu___dit_____Brandacotte	L
+0l0l3	qui_se_situe_à_2_km_à_l__Est_de_la_commune	L
+
+#Le site est déclaré « décharge communale » depuis le début du siècle dernier.
+
+1l0l0	Le_site	O
+1l0l1	__décharge_communale	O
+1l0l2	____depuis_le_début_du_siècle_dernier	T
+
+#Il a reçu principalement des déchets inertes, des déchets verts ainsi que des éléments métalliques (canalisations,…) et plastiques (canalisation PVC, sacs plastiques,…).
+
+2l0l0	Il	O
+2l0l1	a_reçu	N
+2l0l2	métalliques	O
+2l1l0	des_déchets_verts	U
+
+#Il n’aurait reçu aucune ordure ménagère ce qui a été confirmé par les sondages réalisés sur le site lors de cette étude.
+
+
+#Le dépôt de déchets s’est fait à même le sol, sans excavation et aurait été arrêté entre 1985 et 1995.
+
+4l0l0	Le_dépôt_de_déchets	O
+4l0l1	s__est_fait_à	N
+4l0l2	sans_excavation	N
+4l0l3	aurait_été_arrêté	N
+4l0l4	entre_1985_et_1995	T
+
+#Le site a une superficie de 0,9 ha.
+
+
+#Il est entouré à l’Ouest, au Sud et au Nord de 3 talus d’une hauteur de 2,5 m environ.
+
+6l0l0	entouré	O
+6l0l1	à_l__Ouest___au_Sud_et_au_Nord	L
+
+#A l’Est, du côté route, le site est clôturé.
+
+7l0l0	A_l__Est	L
+7l0l1	le_site	O
+7l0l2	est_clôturé	N
+
+#Les déchets sauvages présents au voisinage du site, sont régulièrement ramassés par les agents communaux.
+
+8l0l0	au_voisinage_du_site	L
+
+#Cependant, il y a la présence de déchets en surface tels que des gravats, plastiques et métaux.
+
+9l1l0	plastiques	S
+
+#I - DIAGNOSTIC
+
+10l0l0	DIAGNOSTIC	N
+
+#En 2001, l'agence SUD-OUEST D'HORIZON-SAUNER TECHNA, a menée, pour le compte du Conseil Général de la Gironde et de l'ADEME, une étude pour le résorption et la réhabilitation des décharges brutes.
+
+11l0l0	En_2001__	T
+11l0l1	l__agence_SUD_OUEST	O
+11l0l2	SAUNER_TECHNA	O
+11l0l3	a_menée	N
+11l0l4	pour_le_compte	R
+11l0l5	du_Conseil_Général_de_la_Gironde	O
+11l0l6	l__ADEME	O
+11l0l7	une_étude	N
+11l0l8	le_résorption	N
+11l0l9	la_réhabilitation	N
+11l0l10	décharges_brutes	O
+11l1l0	l__agence_SUD_OUEST_D__HORIZON___SAUNER_TECHNA	I
+11l1l1	Conseil_Général	I
+11l1l2	de_la_Gironde	I
+
+#La société NORISKO Environnement a réalisé l'ESR du site.
+
+12l0l0	La_société_NORISKO_Environnement	O
+12l0l1	a_réalisé	N
+12l0l2	l_	O
+12l1l0	La_société_NORISKO_Environnement	I
+
+#I-1 - SOLS
+
+
+#5 sondages ont été réalisés sur le site et 1 sondage a été réalisé sur une prairie adjacente.
+
+14l0l0	5_sondages_ont_été_réalisés	N
+14l0l1	1_sondage	O
+14l0l2	a_été_réalisé	N
+14l0l3	sur_une_prairie_adjacente	L
+
+#Une analyse a été réalisée sur un mélange moyen d’échantillon provenant de 3 sondages différents.
+
+15l0l0	Une_analyse_a_été_réalisée	N
+
+#Les composés organiques volatils ont été analysés sur cet échantillon moyen et se révèlent en dessous des valeurs de détection.
+
+16l0l0	ont_été_analysés	N
+16l1l0	composés_organiques_volatils	S
+
+#Des traces en hydrocarbures totaux et HAP sont à noter sur ce même échantillon.
+
+17l1l0	hydrocarbures_totaux	S
+17l1l1	HAP	S
+
+#Cependant ces valeurs restent en dessous des valeurs de sources sols.
+
+
+#Concernant les éléments traces métalliques, analysés sur la totalité des échantillons, aucune concentration n’est significative d’une pollution.
+
+19l1l0	les_éléments_traces	U
+19l1l1	métalliques	S
+
+#I-2 - EAUX SOUTERRAINES
+
+20l0l0	SOUTERRAINES	O
+20l1l0	SOUTERRAINES	I
+
+#Aucune venue d’eau dans les sondages réalisées n’est à noter lors de la campagne d’étude, en Avril 2006.
+
+21l0l0	Aucune_venue_d__eau	O
+21l0l1	les_sondages_réalisées	N
+21l0l2	la_campagne_d__étude	N
+21l0l3	en_Avril_2006__	T
+
+#Au droit du site, les nappes rencontrées sont :
+
+
+#- une nappe superficielle très discontinue appartenant à la formation quaternaire ;
+
+
+#- une nappe appartenant à la formation calcaire du Blayais.
+
+24l0l0	Blayais	L
+
+#Cette nappe se situe à une profondeur d’environ 30 m et serait alimentée par les petites nappes formées dans le faciès quaternaire ;
+
+25l0l0	se_situe_à_une_profondeur_d_	L
+25l0l1	serait_alimentée	O
+25l0l2	par	R
+25l0l3	les_petites_nappes	O
+25l0l4	formées	N
+
+#- une nappe des sables inférieurs à environ 80 m de profondeur ;
+
+
+#- la nappe des calcaires du Crétacé à environ 200 m de profondeur.
+
+27l0l0	à_environ_200_m	L
+27l1l0	Crétacé	S
+
+#Le sens d’écoulement de ces nappes se fait principalement en direction du Sud ou du Sud-Ouest.
+
+28l0l0	en_direction_du_Sud_ou_du_Sud_Ouest	L
+
+#Aucune analyse n’a été réalisée sur les eaux souterraines.
+
+
+#Des puits captant les nappes de la formation quaternaire et dont l’usage principal est l’arrosage, ont été recensés aux alentours du site.
+
+30l0l0	Des_puits	O
+30l0l1	captant	R
+30l0l2	les_nappes	O
+30l0l3	l__arrosage	A
+30l0l4	ont_été_recensés	N
+30l0l5	aux_alentours_du_site	L
+
+#Des puits captant la nappe des calcaires ont aussi été recensés aux environs du site.
+
+31l0l0	Des_puits	O
+31l0l1	captant	A
+31l0l2	ont_aussi_été_recensés	N
+31l0l3	aux_environs_du_site	L
+
+#Selon le bureau d’étude, ces puits ne seraient pas utilisés pour l’alimentation en eau potable.
+
+32l0l0	le_bureau_d__étude	O
+32l0l1	ces_puits	O
+32l0l2	ne_seraient_pas_utilisés_pour	R
+32l0l3	l__alimentation_en_eau_potable	A
+
+#I-3 - EAUX SUPERFICIELLES
+
+33l0l0	EAUX_SUPERFICIELLES	O
+33l1l0	SUPERFICIELLES	I
+
+#Le ruisseau de Courtebotte est alimenté par deux sources temporaires à 500 m à l’Ouest / Sud-Ouest du site.
+
+34l0l0	Courtebotte	L
+34l0l1	est_alimenté_par	R
+34l0l2	deux_sources_temporaires	O
+34l0l3	à_500_m_à_l__Ouest___Sud_Ouest_du_site	L
+
+#Ces eaux proviennent de la formation quaternaire à la faveur d’un passage argileux drainant les eaux.
+
+35l0l0	Ces_eaux	O
+35l0l1	proviennent_de	R
+35l0l2	la_formation_quaternaire	O
+35l0l3	drainant	N
+35l0l4	les_eaux	O
+
+#Le ruisseau s’écoule globalement du Sud vers le Nord.
+
+36l0l0	Sud_vers_le_Nord	L
+
+#Aucun prélèvement n’a été réalisé dans ce ruisseau.
+
+
+#II - Préconisations de la société NORISKO Environnement
+
+38l0l0	la_société_NORISKO_Environnement	O
+38l1l0	la_société_NORISKO_Environnement	I
+
+#La société NORISKO recommande :
+
+39l0l0	La_société_NORISKO	O
+39l1l0	société_NORISKO	I
+
+#- la création d’une servitude d’utilité publique sur la parcelle ;
+
+40l0l0	la_création_d_	N
+40l0l1	une_servitude_d__utilité_publique	O
+
+#- le drainage périphérique des eaux météoriques ;
+
+41l0l0	le_drainage_périphérique_des	A
+41l0l1	eaux_météoriques	O
+
+#- l’uniformisation de la hauteur de la décharge en étalant les talus périphériques ;
+
+42l0l0	l__uniformisation	N
+42l0l1	la_décharge	O
+42l0l2	étalant	N
+42l0l3	les_talus_périphériques	O
+
+#- la mise en place d’une couche de terre végétale après étalement des talus ;
+
+43l0l0	la_mise_en_place_d_	N
+43l0l1	une_couche_de_terre_végétale_après	O
+43l0l2	étalement	N
+43l0l3	des_talus	O
+
+#- le maintien de la clôture autour du site.
+
+44l0l0	la_clôture	O
+44l0l1	autour_du_site	L
+
+#III - Avis de la DRIRE sur le dossier
+
+45l1l0	la_DRIRE	I
+
+#Au vu des sondages, le site n’aurait reçu que des déchets inertes ainsi que des déchets verts et métalliques.
+
+46l0l0	le_site	O
+46l0l1	n__aurait_reçu_que	N
+46l0l2	des_déchets_inertes	O
+46l0l3	métalliques	O
+46l1l0	des_déchets_inertes	U
+46l1l1	des_déchets_verts	U
+
+#Des analyses ont été réalisées sur deux échantillons de sondages (1 sur site et 1 hors site) ainsi que sur un échantillon moyen, mélange de 3 échantillons provenant de 3 sondages différents.
+
+47l0l0	Des_analyses_ont_été_réalisées	N
+
+#Les résultats de ces analyses montrent la présence, à l’état de traces, d’hydrocarbures et d’HAP.
+
+48l1l0	hydrocarbures	S
+48l1l1	HAP	S
+
+#Les concentrations de ces paramètres restent cependant inférieures aux valeurs de sources sols.
+
+
+#Cependant, aucune analyse des eaux superficielles ou souterraines n’a été réalisée.
+
+
+#De plus, l’étude montre que les eaux souterraines sont utilisées notamment pour l’arrosage dans des puits en aval du site, captant la nappe superficielle quaternaire et la nappe des calcaires du Blayais qu’elle alimente.
+
+51l0l0	l__arrosage_dans	R
+51l0l1	des_puits	O
+51l0l2	en_aval_du_site	L
+51l0l3	captant	A
+51l0l4	Blayais_qu_	L
+
+#Il convient donc de demander à Monsieur le Maire de Saint Paul de compléter l’étude par au moins une analyse des eaux de la nappe superficielle et des eaux superficielles (au niveau d’une des sources) pouvant être impactées par le site, en aval hydraulique.
+
+52l0l0	Maire	O
+52l0l1	de_Saint_Paul_de_compléter	N
+52l0l2	une_analyse	N
+52l0l3	eaux	N
+52l0l4	eaux_superficielles	O
+52l0l5	pouvant_être_impactées	O
+52l0l6	en_aval_hydraulique	L
+52l1l0	le_Maire_de_Saint_Paul	I
+
+#Les analyses porteront sur les paramètres suivants : DCO, ammonium, hydrocarbures totaux et HAP.
+
+53l1l0	__DCO___ammonium___hydrocarbures_totaux	S
+53l1l1	et_HAP	S
+
+#De plus, le site décrit lors de l’étude départementale SAUNIER TECHNA de 2001, n’est pas celui dont il est question dans cette étude.
+
+54l0l0	le_site	O
+54l0l1	décrit_lors_de	R
+54l0l2	l_	N
+54l0l3	étude_départementale_SAUNIER_TECHNA	O
+54l0l4	de_2001__	T
+54l0l5	n_	R
+
+#En effet, les caractéristiques des deux sites sont différents (localisation, orientation, nature des déchets reçus,…).
+
+55l0l0	deux_sites	O
+
+#La fiche réalisée par SAUNIER TECHNA localiserait donc un autre site, au Sud de la commune, proche d’une déchetterie.
+
+56l0l0	SAUNIER_TECHNA_localiserait	O
+56l0l1	un_autre_site	O
+56l0l2	__au_Sud_de_la_commune	L
+56l0l3	proche_d__une_déchetterie	L
+56l1l0	SAUNIER_TECHNA	I
+
+#Il convient donc également de demander à la Mairie de Saint Paul de déposer un dossier de remise en état accompagné d’une ESR pour le site mis en lumière par l’étude départementale de 2001.
+
+57l0l0	la_Mairie	O
+57l0l1	de_Saint_Paul	L
+57l0l2	déposer_un_dossier_de_remise_en_état	N
+57l0l3	mis_en_lumière	N
+57l0l4	étude_départementale	O
+57l0l5	de_2001	T

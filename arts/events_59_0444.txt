@@ -1,0 +1,92 @@
+
+#59.0444
+#- Site d'environ 0,8 ha anciennement occupé par SANELEC (Entreprise générale d'électricité).
+
+0l0l0	environ_0_8_ha	N
+0l0l1	occupé_par_SANELEC	O
+0l0l2	__Entreprise	N
+
+#- Découverte d'une pollution des sols par le plomb lors d'investigations en vue d'un changement d'usage du site (habitat).
+
+1l0l0	pollution_des_sols_par_le_plomb	R
+1l0l1	lors_d_	O
+1l0l2	investigations_en_vue_d__un_changement	O
+1l1l0	plomb_lors_d_	I
+
+#- L'origine du plomb semble attribué à la Compagnie Auxiliaire des Mines qui a exercé entre 1923 et 1959 une activité de fabrication de lampes pour mineurs, et qui a fait usage durant cette période de deux fours de fonte de plomb.
+
+2l0l0	L__origine_du	N
+2l0l1	plomb_semble_attribué_à	O
+2l0l2	Auxiliaire_des_Mines	N
+2l0l3	qui_a_exercé	R
+2l0l4	entre_1923_et_1959_une	N
+2l0l5	activité_de_fabrication	O
+2l1l0	Compagnie	S
+
+#Il s'agissait d'une société belge qui a disparu depuis.
+
+3l0l0	a_disparu_depuis__	O
+3l1l0	d__une	S
+3l1l1	a_disparu_depuis__	I
+
+#- Forte pollution des sols par le plomb (14 g/kg par endroit).
+
+4l0l0	pollution_des_sols_par_le_plomb	O
+4l0l1	__14_g___kg	N
+4l0l2	par_endroit	T
+
+#- Superficie du site: 8000 m2.
+
+
+#- Études de sols réalisées en 2001 et 2002.
+
+
+#- Demande d'investigations complémentaires demandées au propriétaire en septembre 2004 (surveillance des eaux souterraines avec mesure mensuelle du niveau d'eau dans les piézomètres, investigations complémentaires dans les remblais).
+
+7l0l0	investigations_complémentaires	T
+
+#- Le site est contaminé par le plomb sur une épaisseur limitée de 50m.
+
+8l0l0	limitée_de_50_m_	O
+
+#- Juillet 2006: La société Norevi envisage d'aménager des logements sociaux sur le site.
+
+9l0l0	Juillet	O
+9l0l1	2006___La_société	O
+9l1l0	Norevi_envisage	S
+
+#- 09/2009: demande d'avis sur un permis de démolition.
+
+10l0l0	__09_2009___demande	T
+10l0l1	d__avis_sur_un	O
+10l0l2	permis_de	R
+10l0l3	démolition__	N
+10l1l0	demande_d__avis_sur_un_permis	I
+
+#- Les nappes d'eau souterraines sont utilisées dans ce secteur à des fins AEP (Potable).
+
+11l0l0	__Les_nappes	T
+11l0l1	d__eau_souterraines	N
+11l0l2	sont_utilisées_dans_ce	N
+
+#Néanmoins, le captage AEP le plus proche se trouve à 3.5 km du site, ce qui minore le risque pour les populations utilisatrices.
+
+12l0l0	plus_proche_se_trouve	N
+
+#- Deux piézomètres ont été installés en début 2005 et il s'avère que la zone de battement de la nappe se trouve très au dessous des horizons imprégnés de plomb (environ 3.5m).
+
+13l0l0	piézomètres_ont_été_installés_en	O
+13l0l1	début_2005_et_il_s__avère_que	L
+
+#Le risque de d'entrainement de plomb vers le canal par remontée de nappe peut donc être considéré comme très faible.
+
+14l0l0	Le_risque_de_d__entrainement	O
+14l0l1	de_plomb	N
+14l0l2	vers_le_canal	T
+14l0l3	nappe_peut_donc_être_considéré	O
+14l0l4	comme	R
+14l0l5	très_faible__	L
+
+#- Action de l'administration toujours en cours.
+
+15l0l0	toujours_en_cours__	L

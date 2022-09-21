@@ -1,0 +1,113 @@
+
+#57.0133
+#Le crassier de Nilvange, d'une superficie de 83 hectares, est implanté sur les communes de Nilvange et d'Hayange, sur l'ancien site sidérurgique des hauts-fourneaux de Knutange.
+
+0l0l0	Le_crassier_de_Nilvange	L
+0l0l1	est_implanté_sur_les_communes_de_Nilvange_et_d__Hayange	L
+0l0l2	sur_l__ancien_site_sidérurgique	N
+0l0l3	hauts_fourneaux_de_Knutange	N
+
+#Le crassier a reçu de 1897 jusqu'aux années 1970, de la crasse de hauts-fourneaux.
+
+1l0l0	crassier	O
+1l0l1	a_reçu	N
+1l0l2	de_1897_jusqu__aux_années_1970__	T
+1l0l3	la_crasse	O
+
+#depuis1977, la SLAG valorise les laitiers du crassier ; elle y a installé, pour ce faire, des installations de criblage et de concassage de matériaux autorisées au titre de la législation sur les Installations Classées pour la Protection de l'Environnement (ICPE).
+
+2l0l0	depuis1977	T
+2l0l1	la_SLAG	O
+2l0l2	valorise	N
+2l0l3	a_installé	N
+2l0l4	des_installations_de_criblage	N
+2l0l5	et_de_concassage	A
+2l0l6	matériaux	O
+2l1l0	la_SLAG	I
+
+#Le crassier est implanté à flanc de coteaux, à la limite entre le plateau lorrain et la vallée de la Fensch.
+
+3l0l0	Le_crassier	O
+3l0l1	est_implanté_à_flanc_de_coteaux	L
+3l0l2	à_la_limite_entre_le_plateau_lorrain_et_la_vallée_de_la_Fensch	L
+
+#Le sous-sol est composé de calcaires au niveau des côtes  et de marnes dans la vallée.
+
+4l0l0	dans_la_vallée	L
+
+#Les terrains naturels sont recouverts d'une couche de laitier variant de 10 à 30 m.
+
+
+#Une Evaluation Simplifiée des Risques (ESR, selon l'ancienne méthodologie nationale sur les sites et sols pollués) a été menée et remise à l'Inspection des Installations Classées en février 2005.
+
+6l0l0	Une_Evaluation_Simplifiée_des_Risques	N
+6l0l1	a_été_menée	N
+6l0l2	l__Inspection_des_Installations_Classées	O
+6l0l3	en_février_2005__	T
+
+#Des sondages ont été réalisés au droit du crassier ; les métaux, les hydrocarbures et les PCB ont été recherchés.
+
+7l0l0	Des_sondages_ont_été_réalisés	N
+7l0l1	au_droit_du_crassier	L
+7l0l2	les_métaux	O
+7l0l3	hydrocarbures	O
+7l0l4	ont_été_recherchés	N
+7l1l0	les_métaux	S
+7l1l1	hydrocarbures	S
+7l1l2	PCB	S
+
+#Les analyses réalisées ne montrent pas de dépassement des valeurs-guides à l'exception du plomb sur un sondage.
+
+8l0l0	Les_analyses_réalisées	N
+8l1l0	plomb	S
+
+#Des prélèvements ont également été réalisés dans les eaux souterraines au travers d'un puits et dans le ruisseau qui s'écoule en contrebas du site et recueille les eaux de ruissellement du crassier.
+
+9l0l0	Des_prélèvements_ont_également_été_réalisés	N
+9l0l1	les_eaux_souterraines	O
+9l0l2	un_puits	O
+9l0l3	le_ruisseau	O
+9l0l4	en_contrebas_du_site	L
+9l0l5	ruissellement	N
+9l0l6	crassier	L
+
+#Les eaux du puits montrent un dépassement des seuils de potabilité pour les chlorures, les sulfates et le fluoranthène.
+
+10l0l0	Les_eaux_du_puits	O
+10l1l0	les_chlorures	S
+10l1l1	sulfates	S
+10l1l2	fluoranthène	S
+
+#Ce puits étant utilisé pour l'arrosage des pistes du crassier, il n'y a pas de risque pour la santé.
+
+11l0l0	Ce_puits	O
+11l0l1	étant_utilisé_pour	R
+11l0l2	l__arrosage_des_pistes_du_crassier	A
+
+#Concernant les eaux du ruisseau, aucune différence significative n'a été observée entre l'amont et l'aval du site, donc nous pouvons en déduire que le site n'a pas d'impact du site sur les eaux du ruisseau.
+
+12l0l0	amont	L
+12l0l1	aval_du_site	L
+12l0l2	le_site	O
+
+#A l'issue de l'ESR le site est classé en 3, banalisable, pour son usage et environnement actuel.
+
+13l0l0	A_l_	T
+13l0l1	issue_de_l_	N
+13l0l2	le_site	O
+13l0l3	est	R
+13l0l4	classé_en_3	O
+13l0l5	son_usage	O
+
+#Tout changement d'usage du site ou des eaux de surfaces ou souterraines devra entraîner la réalisation d'une nouvelle ESR.
+
+14l0l0	Tout_changement_d_	N
+14l0l1	devra_entraîner	R
+14l0l2	la_réalisation_d__une_nouvelle_ESR	N
+
+#En octobre 2006, un rapport du bureau d'études LCDI conclut, après essais sur un échantillon de laitier de Nilvange, que ce dernier peut être classé comme "non dangereux pour l'environnement".
+
+15l0l0	En_octobre_2006__	T
+15l0l1	études_LCDI	O
+15l0l2	Nilvange	L
+15l1l0	LCDI	S

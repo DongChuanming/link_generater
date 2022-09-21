@@ -1,0 +1,281 @@
+
+#80.0110
+#44.0076
+#Dans les années 60, le site était exploité par la famille RAINGEARD, qui était à la fois exploitant et propriétaire.
+
+
+#Les arrêtés préfectoraux de mars 1978 et juillet 1979 autorisaient notamment l’exploitation de la carrière de "La Coche" par la famille RAINGEARD.
+
+1l0l0	Les_arrêtés_préfectoraux	O
+1l0l1	de_mars_1978_et	N
+1l0l2	juillet_1979_autorisaient	O
+1l0l3	exploitation_de	N
+1l1l0	juillet_1979_autorisaient	I
+
+#Dans les années 1980, a lieu sur le site l'exploitation d'une centrale d'enrobé à chaud par la société SEMO (Sociétés des Enrobés Modernes).
+
+2l0l0	Dans_les_années_1980___a_lieu	O
+2l0l1	sur_le_site_l__exploitation_d_	N
+2l0l2	une_centrale	R
+2l0l3	enrobé_à_chaud_par_la_société_SEMO___Sociétés_des_Enrobés	N
+2l0l4	Modernes____	O
+2l1l0	Enrobés_Modernes____	I
+
+#En septembre 1992, Jean RAINGEARD rachète les parts dans l'entreprise et créé la société SNC RCB (RAINGEARD Carrières et Béton).
+
+3l0l0	En_septembre_1992___Jean	T
+3l0l1	RAINGEARD	N
+3l0l2	rachète	O
+3l0l3	les_parts_dans	N
+3l0l4	l__entreprise	O
+3l0l5	et_créé_la_société	A
+3l0l6	SNC_RCB___RAINGEARD	O
+3l0l7	Carrières_et_Béton____	O
+3l1l0	SNC_RCB___RAINGEARD_Carrières_et_Béton	I
+
+#La carrière exploitée par la société RCB a été réglementée par l'arrêté préfectoral du 15 juin 2009.
+
+4l0l0	La_carrière_exploitée	T
+4l0l1	par_la_société	O
+4l0l2	RCB_a_été_réglementée_par_l__arrêté	O
+4l0l3	préfectoral	N
+4l0l4	du_15_juin_2009	O
+4l1l0	exploitée_par_la_société	I
+4l1l1	préfectoral_du_15_juin_2009	I
+4l1l2	_	I
+
+#Les activités exercées sur le site étaient alors les suivantes :
+
+5l0l0	Les	O
+5l0l1	activités_exercées	N
+5l0l2	sur_le_site_étaient	O
+5l0l3	alors_les_suivantes	N
+5l0l4	_	O
+5l1l0	sur_le_site_étaient	I
+
+#- exploitation de carrière ;
+
+6l0l0	__exploitation_de_carrière	A
+6l0l1	_	O
+
+#- broyage / concassage ;
+
+
+#- station de transit de produits minéraux.
+
+8l0l0	station_de_transit_de	N
+
+#Par arrêté préfectoral du 06/07/2011 n°2011/ICPE/140, l'exploitation de la carrière située au lieu dit "la Coche" délivrée à la société RCB est transférée à la société GSM.
+
+
+#Suite à la mise en évidence de remontées de goudron sur la plate forme et la présence d'une eau nauséabonde dans le forage destiné à alimenter le bloc sanitaire en 2001, un diagnostic de sols a été réalisé le 7 mars 2002.
+
+10l0l0	Suite_à_la_mise_en_évidence	O
+10l0l1	de_remontées_de_goudron	T
+10l0l2	plate_forme_et_la	N
+10l0l3	présence_d__une	O
+10l0l4	eau_nauséabonde_dans_le_forage	L
+10l0l5	destiné	N
+10l0l6	à_alimenter_le	O
+10l0l7	bloc_sanitaire	N
+10l0l8	en_2001___un_diagnostic	O
+10l1l0	à_alimenter_le	I
+10l1l1	en_2001___un_diagnostic	I
+
+#Suite aux éléments du diagnostic, il a été déterminé que la pollution sur le site découlerait de l'exploitation de la centrale d’enrobage à chaud sur le site entre 1980 et 2001.
+
+11l0l0	Suite	R
+11l0l1	aux_éléments_du_diagnostic___il_a_été	N
+11l0l2	déterminé	O
+11l0l3	sur_le_site_découlerait	O
+11l0l4	exploitation_de_la	O
+11l0l5	centrale_d_	R
+11l0l6	enrobage_à_chaud_sur_le_site	L
+11l0l7	entre_1980	T
+11l0l8	et_2001__	N
+
+#Les événements suivants ont été déterminés comme ayant conduit à la pollution du site :
+
+12l0l0	suivants_ont_été_déterminés_comme_ayant	N
+12l0l1	conduit_à_la	O
+12l0l2	pollution_du	L
+
+#- fuite de la canalisation reliant la cuve de fioul et le groupe électrogène provoquant une pollution des sols (épanchement de fioul sur les sols et résurgence d’hydrocarbures en surface),
+
+13l0l0	__fuite_de_la_canalisation	O
+13l0l1	reliant_la_cuve_de	N
+13l0l2	et_le_groupe_électrogène_provoquant	N
+
+#- pollution du forage situé au nord du site par des phtalates, esters et acide gras en 2001,
+
+14l0l0	pollution_du_forage_situé	O
+14l0l1	du_site_par_des	O
+14l0l2	phtalates___esters_et_acide	O
+14l0l3	gras_en_2001__	N
+14l1l0	du_site_par_des_phtalates	U
+
+#- remontée de goudrons (ancienne plateforme générale, zone de fabrication des enrobés, périphérie des anciennes cuves de carburants, atelier d'entretien des véhicules) et détection de la présence d'hydrocarbures au niveau de l’ancienne zone de stockage des fines de la centrale d’enrobage en 2002.
+
+15l0l0	__remontée_de_goudrons	N
+15l0l1	__ancienne_plateforme	L
+15l0l2	enrobés___périphérie_des_anciennes_cuves_de_carburants___atelier_d__entretien_des_véhicules___et_détection_de_la_présence_d__hydrocarbures_au_niveau_de_l__ancienne_zone_de_stockage_des_fines_de_la_centrale_d__enrobage_en_2002__	T
+15l1l0	générale___zone_de_fabrication	S
+
+#Un impact de cette pollution a été observé sur les nappes perchées et les eaux souterraines profondes.
+
+16l0l0	Un_impact_de	N
+16l0l1	cette_pollution	O
+16l0l2	souterraines	N
+
+#Sur le site, les principales zones de pollution qui ont été identifiées sont situées:
+
+17l0l0	Sur_le_site	O
+
+#1) au niveau de l'ancienne centrale de fabrication d'enrobé à froid (benzène, hydrocarbures, chlorure de vinyle, naphtalène) ;
+
+18l0l0	de_l__ancienne_centrale_de_fabrication	O
+18l0l1	d__enrobé_à_froid___benzène	N
+
+#2) à proximité du pont d'entretien, zone au niveau de laquelle des opérations d'enfouissement de déchets, d'entreposage de terres souillées aux hydrocarbures et de stockage d'hydrocarbures sont susceptibles d'avoir été réalisées (hydrocarbures, trichloroéthylène, naphtalène, métaux lourds);
+
+19l0l0	à_proximité	R
+19l0l1	du_pont_d__entretien___zone_au_niveau_de_laquelle	O
+19l1l0	opérations_d__enfouissement_de_déchets___d_	S
+19l1l1	entreposage_de_terres	S
+
+#3) à proximité de l'ancien puits existant, de la cour et de l'atelier (trichloroéthylène, cis 1,2-dichloroéthylène, naphtalène);
+
+20l0l0	à_proximité_de_l__ancien_puits_existant	L
+
+#4) au niveau des anciens stockages répartis sur le site, centrale à béton et groupe électrogène (pas d'impact sur la nappe perchée).
+
+21l0l0	au_niveau_des	L
+21l0l1	anciens_stockages_répartis	O
+21l1l0	béton_et_groupe_électrogène___pas_d__impact_sur_la_nappe_perchée__	S
+
+#L'impact sur les eaux souterraines a été observé pour les paramètres trichloroéthylène, cis 1,2-dichloroéthylène, chlorure de vinyle, tétrachloroéthylène et hydrocarbures.
+
+22l0l0	les_paramètres_trichloroéthylène___cis_1_2_dichloroéthylène	O
+
+#La pollution du site correspond à des terres souillées par des hydrocarbures, bitumes et goudrons ainsi que des eaux chargées en Composés Organiques Halogénés Volatils (COHV) principalement trichloréthylène (TCE).
+
+23l1l0	souillées_par_des_hydrocarbures___bitumes_et_goudrons_ainsi_que_des_eaux_chargées_en_Composés	S
+23l1l1	Organiques_Halogénés_Volatils___COHV___principalement	S
+
+#Les travaux de dépollution suivants ont été entrepris:
+
+24l0l0	Les_travaux_de	N
+24l0l1	ont_été_entrepris	O
+
+#- Destruction des anciennes infrastructures : les déchets de démolition (béton) ont été éliminés dans des filières dûment autorisées.
+
+25l0l0	__Destruction_des_anciennes	N
+25l0l1	infrastructures_____les_déchets	N
+
+#Les bitumes graveleux et enrobés ont été utilisés comme remblais de parkings ou routiers (300 m3).
+
+26l0l0	Les_bitumes	N
+26l0l1	graveleux_et_enrobés_ont_été_utilisés	O
+26l0l2	comme_remblais_de_parkings	N
+26l0l3	routiers___300_m3____	N
+
+#- Traitement de la pollution aux hydrocarbures dans les terres (environ 1 000 m3), la solution de traitement in situ par voie microbiologique (création de 4 biotertres ou andains) a été retenue.
+
+27l0l0	__Traitement	O
+27l0l1	pollution_aux_hydrocarbures_dans	N
+27l0l2	les	R
+27l0l3	terres___environ	O
+
+#A noter que lors de l'inspection de la carrière réalisée le 1er juillet 2010, il a été constaté que ce traitement était terminé et qu'il n'y avait plus d'andains sur le site,
+
+28l0l0	noter_que_lors_de_l__inspection	N
+28l0l1	de_la_carrière_réalisée	O
+28l0l2	été_constaté_que_ce_traitement_était	O
+28l1l0	de_la_carrière_réalisée	S
+28l1l1	sur_le_site	S
+
+#- Test des fonds de fouille des terres excavées sur plusieurs critères : BTEX, HCT et HAP.
+
+29l0l0	fonds	T
+29l0l1	de_fouille_des_terres	L
+29l0l2	excavées_sur_plusieurs	N
+29l0l3	critères_____BTEX	T
+
+#Les seuils de dépollution retenus étaient ceux fixés à l’arrêté ministériel du 15 mars 2006 relatif aux installations de stockage de déchets industriels inertes provenant des installations classées pour la protection de l'environnement et ceux fixés pour l’acceptation de déchets en centre d'enfouissement technique (CET) de classe 3.
+
+30l1l0	ministériel_du_15_mars	S
+
+#Les zones excavées ont été remblayées après validation du fond de fouille par des matériaux issus des merlons de la carrière (remblais/terre végétale),
+
+31l0l0	Les_zones	O
+31l0l1	excavées_ont_été_remblayées	N
+31l0l2	validation_du_fond_de_fouille_par	O
+31l0l3	des_matériaux	T
+31l0l4	merlons_de_la_carrière___remblais___terre_végétale____	O
+31l1l0	remblais___terre_végétale____	U
+
+#- Traitement de la pollution au TCE, l'injection sous pression d'un agent oxydant (permanganate de potassium, KMNO4), qui complexe et dégrade le TCE, a été réalisée.
+
+32l0l0	__Traitement	O
+32l0l1	de_la_pollution_au_TCE___l_	N
+32l0l2	pression_d__un_agent	O
+
+#Pour faciliter la diffusion du KMNO4, une circulation d’eau avec un pompage a été créée artificiellement.
+
+33l0l0	Pour_faciliter_la_diffusion	N
+33l0l1	KMNO4	O
+33l0l2	__une_circulation_d__eau_avec	N
+33l1l0	KMNO4	S
+33l1l1	pompage_a_été_créée_artificiellement	S
+
+#L’eau extraite a été dépolluée par adsorption sur charbon actif avant d’être réinjectée.
+
+34l0l0	charbon_actif	O
+34l0l1	avant_d__être_réinjectée__	N
+34l1l0	par_adsorption	I
+
+#Ce dispositif a été mis en place en février 2007.
+
+35l0l0	Ce_dispositif_a	O
+35l0l1	été_mis_en_place	N
+35l0l2	février	N
+
+#Un note de synthèse de l’ensemble des actions entreprises dans le cadre de la dépollution de la zone polluée a été intégrée dans le rapport technique établi au mois de janvier 2010.
+
+36l0l0	Un_note_de_synthèse	O
+36l0l1	de_l__ensemble	N
+36l0l2	des_actions_entreprises_dans_le_cadre_de_la_dépollution_de_la_zone_polluée_a_été_intégrée_dans_le_rapport_technique_établi_au_mois_de_janvier_2010__	T
+
+#Ces actions ont permis d'une part la résorption globale de la contamination du sous-sol et l'absence de risques liés à la présence d'éventuels composés organiques volatils dans l'air.
+
+37l0l0	Ces_actions	O
+37l0l1	la_résorption	O
+37l0l2	globale_de_la_contamination_du_sous_sol_et	N
+37l0l3	l__absence_de_risques	O
+37l0l4	liés_à_la_présence	R
+37l0l5	d__éventuels_composés	O
+37l0l6	organiques_volatils_dans_l__air__	T
+
+#D'autre part, les actions ont entrainées la réduction forte des teneurs en COHV dans la nappe.
+
+38l0l0	entrainées_la_réduction	N
+38l0l1	forte_des_teneurs_en_COHV	O
+38l0l2	dans_la_nappe	O
+
+#La situation concernant la pollution résiduelle dans le sous-sol profond demeure assez complexe et nécessite une surveillance à long terme de la qualité des eaux de la nappe afin de confirmer la stabilité des teneurs observées.
+
+39l0l0	concernant_la	O
+39l0l1	pollution_résiduelle_dans_le_sous_sol	N
+39l0l2	demeure_assez_complexe	O
+39l1l0	demeure	S
+
+#Dans ce contexte, l’arrêté préfectoral  complémentaire du 06/07/2011 impose à l’exploitant une surveillance semestrielle à long terme de la qualité des eaux souterraines afin de confirmer sans un premier temps la diminution des teneurs en COHV, BTEX et manganèse et ensuite la stabilité de ces teneurs dans le temps.
+
+40l0l0	semestrielle_à_long_terme_de	O
+40l0l1	qualité_des_eaux_souterraines	O
+
+#Actuellement la surveillance des eaux souterraines est toujours en cours.
+
+41l0l0	surveillance_des_eaux_souterraines_est	O
+41l0l1	toujours_en	T
+41l0l2	cours__	N

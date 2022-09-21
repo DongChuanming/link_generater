@@ -1,0 +1,354 @@
+
+#45.0087
+#Le site est implanté au niveau du lieu-dit le Bois Salé sur la commune de Saran.
+
+0l0l0	Le_site	O
+0l0l1	est_implanté	R
+0l0l2	au_niveau_du_lieu___dit_le_Bois_Salé	L
+0l0l3	sur_la_commune_de_Saran	L
+
+#Il est délimité :
+
+
+#- au nord par la rue de la Chenille et la RN 60 en surplomb (voie rapide dite tangentielle) ;
+
+2l0l0	nord	T
+2l0l1	par_la_rue_de_la_Chenille	L
+2l0l2	la_RN_60_en_surplomb	L
+2l0l3	tangentielle	N
+
+#- au sud-ouest par la voie de chemin de fer reliant Paris à Orléans ;
+
+3l0l0	au_sud_ouest	L
+3l0l1	la_voie_de_chemin_de_fer	O
+3l0l2	reliant_Paris_à_Orléans	L
+
+#- au sud-est par la voie de chemin de fer reliant Orléans à Pithiviers;
+
+4l0l0	au_sud_est	L
+4l0l1	la_voie_de_chemin_de_fer	O
+4l0l2	reliant_Orléans_à_Pithiviers	L
+
+#- à l'est par un plan d'eau d'agrément et au-delà par des habitations situées rue du Bois Salé.
+
+5l0l0	à_l__est	L
+5l0l1	un_plan	O
+5l0l2	eau_d__agrément	O
+5l0l3	et	R
+5l0l4	au_delà	O
+5l0l5	des_habitations	O
+5l0l6	situées_rue_du_Bois_Salé	L
+
+#La société GABRIEL ENVIRONNEMENT (SGE) exerce ses activités sur les parcelles cadastrées AO 113, 114, 115 et 116 de la commune de SARAN.
+
+6l0l0	La_société_GABRIEL_ENVIRONNEMENT___SGE	O
+6l0l1	exerce_ses_activités	A
+6l0l2	sur_les	L
+6l0l3	parcelles_cadastrées	N
+6l0l4	la_commune_de_SARAN	L
+6l1l0	La_société_GABRIEL_ENVIRONNEMENT	I
+6l1l1	SGE	I
+
+#La superficie des terrains d'emprise est d'environ 17 900 m².
+
+
+#La SGE exploite, au titre des arrêtés préfectoraux du 5 décembre 2014 modifié et du 11 décembre 2015, au 171 rue de la Chenille à SARAN, une installation de transit :
+
+8l0l0	La_SGE	O
+8l0l1	exploite	N
+8l0l2	arrêtés_préfectoraux	O
+8l0l3	du_5_décembre_2014	T
+8l0l4	11_décembre_2015__	T
+8l0l5	au_171_rue_de_la_Chenille	L
+8l0l6	à_SARAN	L
+8l0l7	une_installation_de_transit	O
+8l1l0	La_SGE	I
+
+#- de gravats (provenant de chantiers de démolition),
+
+9l0l0	chantiers_de_démolition	N
+
+#- d’amiante conditionné,
+
+10l1l0	amiante	U
+
+#- de déchets verts et de bois,
+
+
+#- de déchets industriels banals (DIB).
+
+12l1l0	de_déchets_industriels	U
+12l1l1	DIB	S
+
+#Elle exerce également sur ce site des activités de broyage de végétaux et de concassage de gravats.
+
+13l0l0	Elle	O
+13l0l1	exerce	N
+13l0l2	activités_de_broyage	A
+13l0l3	de_végétaux	N
+13l0l4	concassage_de_gravats	A
+
+#Avant la reprise du site par SGE en 2007, des activités de récupération de ferrailles étaient exercées sur le site.
+
+14l0l0	Avant	T
+14l0l1	la_reprise	N
+14l0l2	du_site	O
+14l0l3	SGE	O
+14l0l4	en_2007__	T
+14l0l5	des_activités_de_récupération_de_ferrailles	A
+14l0l6	étaient_exercées	R
+14l0l7	sur_le_site	L
+14l1l0	SGE	I
+
+#Le contexte hydrogéologique au droit du site est marqué par la présence de 2 aquifères:
+
+15l0l0	Le_contexte_hydrogéologique	N
+15l0l1	au_droit_du_site	L
+
+#- la nappe libre des Sables de l'Orléanais
+
+16l0l0	Sables_de_l__Orléanais	L
+
+#- la nappe des calcaire de Beauce exploitée pour l'irrigation de cultures.
+
+17l0l0	Beauce	L
+17l0l1	exploitée_pour_l_	R
+17l0l2	irrigation_de	R
+17l0l3	cultures	A
+
+#Cette dernière se situe à environ 27-28 mètres de profondeur.
+
+18l0l0	se_situe_à_environ_27	L
+18l0l1	__28	T
+
+#Dans le cadre de la cessation d'activité en 2005 de la société SOR, précédente exploitante du site, une pollution de celui-ci a été mise en évidence.
+
+19l0l0	Dans_le_cadre_de	R
+19l0l1	la_cessation_d__activité	N
+19l0l2	en_2005	T
+19l0l3	la_société_SOR	O
+19l0l4	une_pollution	N
+19l0l5	celui_ci	O
+19l0l6	a_été_mise_en_évidence	N
+19l1l0	la_société_SOR	I
+
+#Des investigations complémentaires des sols (analyse des terres, des gaz du sol et des eaux souterraines) ont été réalisées le 15 octobre 2014.
+
+20l0l0	Des_investigations_complémentaires	N
+20l0l1	ont_été_réalisées	N
+20l0l2	le_15_octobre_2014__	T
+
+#Sur les 9 sondages réalisés jusqu’à une profondeur de 4,8 mètres pour analyser les sols, 3 ont montré la présence d’une pollution par :
+
+
+#- des Hydrocarbures (HCT), notamment sur l’un des sondages où la concentration a été mesurée à 16 000 mg/kg (fraction hydrocarbures C10-C40),
+
+22l1l0	des_Hydrocarbures	S
+22l1l1	HCT	S
+22l1l2	hydrocarbures_C10_C40__	S
+
+#- des Hydrocarbures Aromatiques Polycycliques (HAP) dont la plus forte concentration a été mesurée à 10,44 mg/kg,
+
+23l1l0	des_Hydrocarbures_Aromatiques_Polycycliques	S
+23l1l1	HAP	S
+
+#- des métaux, notamment par le cuivre dont la plus forte concentration a été mesurée à 7 200 mg/kg.
+
+24l1l0	des_métaux	S
+24l1l1	cuivre	S
+
+#Les analyses menées sur les 3 échantillons de gaz du sol prélevés ont montré :
+
+
+#- la présence d’Hydrocarbures type alcane (HCT C5-C12) dont la concentration maximale a été mesurée à 216,7 mg/m3,
+
+26l1l0	d__Hydrocarbures_type_alcane	S
+26l1l1	HCT_C5_C12	S
+
+#- la présence d’Hydrocarbures Aromatiques Polycycliques (HAP) dont la concentration maximale a été mesurée à 0,017 mg/m3,
+
+27l1l0	d__Hydrocarbures_Aromatiques_Polycycliques	S
+27l1l1	HAP	S
+
+#- la présence de Composés Organo-halogénés Polycycliques (COHV) dont la concentration maximale a été mesurée à 1,897 mg/m3,
+
+28l1l0	Composés_Organo___halogénés_Polycycliques	S
+28l1l1	COHV	S
+
+#- la présence de Composés Aromatiques Volatils (CAV) dont la concentration maximale a été mesurée à 4,3 mg/m3.
+
+29l1l0	Composés_Aromatiques_Volatils	S
+29l1l1	CAV	S
+
+#Les site dispose de 2 piézomètres (Pz)(1 en amont et 1 en aval hydraulique du site) implantés sur le site.
+
+30l0l0	Les_site	O
+30l0l1	aval_hydraulique_du_site	L
+30l0l2	implantés	R
+
+#Ces deux piézomètres ont une profondeur de 35 m pour PzAmont et 36.5 m pour PzAval.
+
+31l0l0	PzAmont	O
+31l0l1	36_5	O
+
+#L’analyse des HCT (fractions C10-C40), des HAP, des CAV, des COHV et des métaux dans les eaux souterraines a été réalisée lors de cette campagne.
+
+32l0l0	L__analyse	N
+32l0l1	souterraines	O
+32l0l2	a_été_réalisée_lors_de	N
+32l0l3	cette_campagne	N
+32l1l0	HCT	S
+32l1l1	C10_C40__	S
+32l1l2	HAP	S
+32l1l3	des_CAV	S
+32l1l4	COHV	S
+32l1l5	métaux	S
+
+#Les résultats montrent :
+
+
+#- pour les HCT, la concentration est inférieure aux limites de quantification du laboratoire (0,05 mg/l) pour les échantillons prélevés sur les 2 piézomètres,
+
+34l1l0	les_HCT	S
+
+#- pour les HAP, la concentration est de 0,14 μg/l au droit du piézomètre Pz Amont ; une concentration inférieure à la limite de quantification du laboratoire (0,02 μg/l) au droit du piézomètre Pz Aval.
+
+35l1l0	les_HAP	S
+
+#- pour les CAV, la concentration est de 110 μg/l au droit du piézomètre Pz Amont et de 8,8 μg/l au droit du piézomètre Pz Aval.
+
+
+#Selon le bureau d’études, la présence de CAV dans les eaux souterraines au droit de Pz amont (teneur supérieure à l’aval hydraulique du site) ne semble pas provenir du site de la SGE,
+
+37l0l0	le_bureau_d__études	O
+37l0l1	CAV	O
+37l0l2	les_eaux_souterraines	O
+37l0l3	au_droit_de_Pz_amont	L
+37l0l4	aval_hydraulique_du_site	L
+37l0l5	la_SGE	O
+37l1l0	CAV	S
+37l1l1	la_SGE	I
+
+#- pour les COHV, la concentration est de 2,5 μg/l au droit du piézomètre Pz Amont et de 0,7 μg/l au droit du piézomètre Pz Aval (teneur supérieure à l’aval hydraulique du site) et ne semble pas provenir du site de la SGE.
+
+38l0l0	la_SGE	O
+38l1l0	les_COHV	I
+38l1l1	la_SGE	I
+
+#- Pour les 8 métaux recherchés (Cr, Ni, Cu, Zn, As, Cd, Pb, Hg), les concentrations mesurées sont inférieures aux limites de quantification du laboratoire (respectivement 5, 10, 5, 50, 3, 1.5, 10 et 0.1 μg/l) sur les 2 piézomètres investigués.
+
+39l1l0	8_métaux	S
+39l1l1	Cr	S
+39l1l2	Ni	S
+39l1l3	Cu	S
+39l1l4	Zn	S
+39l1l5	As	S
+39l1l6	Cd	S
+39l1l7	Pb	S
+39l1l8	Hg	S
+
+#Le bureau d’études a conclu que les investigations menées au droit des piézomètres aval extérieurs au site (appartenant à la société RETIA située au Sud) d’une part et sur le piézomètre aval du site d’autre part, ne montrent pas d’incompatibilité de la nappe avec son usage (considéré comme pouvant potentiellement être de type domestique).
+
+40l0l0	Le_bureau_d__études	O
+40l0l1	les_investigations_menées	N
+40l0l2	au_droit_des_piézomètres_aval_extérieurs_au_site	L
+40l0l3	appartenant_à	R
+40l0l4	la_société_RETIA	O
+40l0l5	située_au_Sud	L
+40l0l6	sur_le_piézomètre_aval_du_site	L
+40l1l0	la_société_RETIA	I
+
+#A noter que (considérant la présence d’employés, de travailleurs et des clients de l’entreprise sur le site) le résultat des calculs sanitaires montre que l’état actuel du site ne présente pas de risque sanitaire inacceptable vis-à-vis de l’usage actuel (de type industriel).
+
+41l0l0	l__entreprise	O
+41l0l1	l_	A
+41l0l2	usage_actuel	O
+
+#Dans le cadre d’un bilan coûts/avantages, comme le préconise la circulaire du 8 février 2007 relative aux modalités de gestion et de réaménagement des sites pollués, la solution de confinement de la pollution sur le site a été retenue par le bureau d’études, d'autant que la zone la plus fortement impactée est située sous une dalle béton permettant de faire une barrière de confinement avec le sol pollué.
+
+42l0l0	Dans_le_cadre_d_	R
+42l0l1	8_février_2007	T
+42l0l2	de_réaménagement_des_sites_pollués	N
+42l0l3	la_solution_de_confinement	O
+42l0l4	le_bureau_d__études	O
+42l0l5	la_zone_la_plus_fortement_impactée	O
+42l0l6	située_sous_une	L
+42l0l7	dalle_béton	O
+
+#L'arrêté préfectoral du 11 décembre 2015 a notamment prescrit la couverture de la zone polluée assurant le confinement de la pollution et la surveillance des eaux souterraines.
+
+43l0l0	L__arrêté_préfectoral	O
+43l0l1	11_décembre_2015	T
+43l0l2	a_notamment_prescrit	N
+43l0l3	la_couverture	A
+43l0l4	la_zone_polluée	O
+43l0l5	la_surveillance_des_eaux_souterraines	A
+
+#Le dispositif de surveillance des eaux souterraines, déjà constitué de 2 piézomètres, a été complété par 2 piézomètres supplémentaires.
+
+44l0l0	Le_dispositif_de	O
+44l0l1	surveillance_des_eaux_souterraines	A
+44l0l2	a_été_complété	N
+
+#Deux fois par an, en période de « hautes eaux » et « basses eaux », les niveaux piézométriques sont relevés afin de caractériser le sens privilégié d’écoulement des eaux souterraines.
+
+45l0l0	fois_par_an	T
+45l0l1	en_période	T
+45l0l2	de___hautes_eaux	N
+45l0l3	basses_eaux	N
+
+#Des prélèvements sont effectués dans la nappe, au niveau des ouvrages permettant une surveillance optimale dont l’objet est d’identifier en toute circonstance une migration éventuelle de polluants.
+
+46l0l0	la_nappe	O
+46l0l1	au_niveau_des_ouvrages	L
+46l0l2	permettant_une	R
+46l0l3	surveillance_optimale	A
+46l1l0	polluants	U
+
+#L’eau prélevée fait l’objet a minima de mesures des substances suivantes :
+
+
+#• Hydrocarbures aromatiques polycycliques (HAP),
+
+48l1l0	__Hydrocarbures_aromatiques_polycycliques	S
+48l1l1	HAP	S
+
+#• Hydrocarbures C5-C10
+
+49l1l0	Hydrocarbures_C5_C10	S
+
+#• Hydrocarbures C10-C40,
+
+50l1l0	Hydrocarbures_C10_C40	S
+
+#• Composés aromatiques volatils (CAV),
+
+51l1l0	Composés_aromatiques_volatils	S
+51l1l1	CAV	S
+
+#• Composés organo-halogénés volatils (COHV),
+
+52l1l0	Composés_organo___halogénés_volatils	S
+52l1l1	COHV	S
+
+#• Métaux (Cr, Ni, Cu, Zn, As, Cd, Pb, Hg).
+
+53l1l0	Métaux	S
+53l1l1	Cr	S
+53l1l2	Ni	S
+53l1l3	Cu	S
+53l1l4	Zn	S
+53l1l5	As	S
+53l1l6	Cd	S
+53l1l7	Pb	S
+53l1l8	Hg	S
+
+#Dans le cas où une dégradation de la qualité des eaux serait observée, un plan d’actions et de surveillance renforcée sera mis en œuvre par l’exploitant en accord avec l’inspection des installations classées.
+
+54l0l0	la_qualité_des_eaux	O
+54l0l1	un_plan_d__actions	O
+54l0l2	surveillance_renforcée	O
+54l0l3	sera_mis_en_œuvre	N
+54l0l4	l__exploitant	O
+54l0l5	en_accord_avec	R
+54l0l6	l__inspection_des_installations_classées	O

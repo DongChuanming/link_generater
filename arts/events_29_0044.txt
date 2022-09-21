@@ -1,0 +1,249 @@
+
+#29.0044
+#La société BOLLORE a été autorisée à exploiter une installation de transformation et de métallisation de matières plastiques par arrêté préfectoral du 21 décembre 2001.
+
+0l0l0	La_société_BOLLORE	O
+0l0l1	a_été_autorisée_à_exploiter	N
+0l0l2	une	O
+0l0l3	installation_de_transformation_et_de_métallisation_de_matières_plastiques	A
+0l0l4	arrêté_préfectoral	O
+0l0l5	21_décembre_2001	T
+0l1l0	La_société_BOLLORE	I
+
+#L'installation comportait :
+
+
+#- 9 machines à métalliser au centre du site,
+
+2l0l0	9_machines_à_métalliser	O
+2l0l1	au_centre_du_site	L
+
+#- une laverie (stockage de soude et de solvants en fût, cuve aérienne des eaux de lessivage) et une zone de laquage à l'est,
+
+3l0l0	stockage_de_soude	A
+3l0l1	lessivage	A
+3l0l2	une_zone_de_laquage_à_l__est	O
+3l1l0	une_laverie	D
+3l1l1	soude	U
+3l1l2	solvants	U
+
+#- deux transformateurs pollués par les PCB au nord,
+
+4l0l0	deux_transformateurs_pollués	O
+4l0l1	au_nord	L
+4l1l0	PCB	S
+
+#- un stockage de ferraille, câbles électriques, batteries, etc. au nord,
+
+5l0l0	ferraille	O
+5l0l1	câbles_électriques	O
+5l0l2	au_nord	L
+
+#- une zone de stockage de déchets banals et un réservoir de stockage des eaux de lavage du sol au sud,
+
+6l0l0	une_zone	O
+6l0l1	un_réservoir	O
+6l0l2	au_sud	L
+
+#- trois zones de stockage a) de solvants et huiles usagées, b) de ferraille et c) de solvants de nettoyage et d'huiles au sud-est,
+
+7l0l0	huiles	O
+7l0l1	au_sud_est	L
+7l1l0	solvants	U
+7l1l1	huiles_usagées	U
+7l1l2	solvants	U
+
+#- une canalisation d'huiles usagées enterrées au sud-est,
+
+8l0l0	huiles_usagées_enterrées	O
+8l0l1	au_sud_est	L
+8l1l0	une_canalisation_d__huiles_usagées	U
+
+#- un séparateur d'hydrocarbures au sud.
+
+9l0l0	d__hydrocarbures	O
+9l0l1	au_sud	L
+
+#Le site a cessé ses activités août 2008 ; les activités ont été transférées vers un autre site appartenant à la société.
+
+10l0l0	Le_site	O
+10l0l1	a_cessé_ses_activités	N
+10l0l2	août_2008	T
+10l0l3	les_activités	O
+10l0l4	ont_été_transférées_vers	N
+10l0l5	un_autre_site	O
+10l0l6	appartenant_à	R
+10l0l7	la_société	O
+
+#Des études ont été menées dans le cadre de la cessation d’activité.
+
+11l0l0	ont_été_menées	N
+11l0l1	dans_le_cadre_de	R
+11l0l2	la_cessation_d__activité	N
+
+#Elles ont mis en évidence la présence d’hydrocarbures totaux (HCT) et d’éléments traces métalliques (ETM), principalement sur 6 zones distinctes :
+
+12l0l0	6_zones	O
+12l1l0	hydrocarbures_totaux	S
+12l1l1	HCT	S
+12l1l2	éléments_traces_métalliques	S
+12l1l3	ETM	S
+
+#- présence d’HCT sur trois zones (A, B et C) ;
+
+13l1l0	d__HCT	I
+
+#- présence de chrome, cuivre, nickel, aluminium (et localement en plomb) sur trois zones (D, E et F).
+
+14l1l0	chrome	S
+14l1l1	cuivre	S
+14l1l2	nickel	S
+14l1l3	aluminium	S
+14l1l4	plomb	S
+
+#Un prélèvement effectué en avril 2008 au niveau d’un piézomètre situé à 250 mètres en aval hydraulique du site révèle l’absence d’impact sur les eaux souterraines.
+
+15l0l0	Un_prélèvement_effectué	N
+15l0l1	en_avril_2008	T
+15l0l2	au_niveau_d_	R
+15l0l3	un_piézomètre	O
+15l0l4	situé_à_250_mètres_en_aval_hydraulique_du_site	L
+15l0l5	les_eaux_souterraines	O
+
+#Le risque d’inhalation au niveau des zones contaminées par les HCT est limité de part leur faible volatilité et l’existence d'une "barrière" physique (dalle béton) entre le sol et l’air environnant.
+
+16l0l0	zones_contaminées	O
+16l0l1	par	R
+16l0l2	les_HCT	O
+16l1l0	les_HCT	S
+
+#Le risque de contact direct avec les ETM par ingestion ou par inhalation est limité par :
+
+17l1l0	les_ETM	S
+
+#- la présence d’une couche végétale pour les zones D et E ;
+
+
+#- la profondeur des éléments présents pour la zone F.
+
+
+#De plus, le faible caractère lixiviable des ETM et le recouvrement des zones à risques évitent un transfert de pollution à l’extérieur du site, qui pourrait impacter la rivière (Isole) ou les eaux souterraines.
+
+20l0l0	ETM	O
+20l0l1	le_recouvrement_des_zones_à_risques	O
+20l0l2	évitent_un_transfert	N
+20l1l0	ETM	S
+
+#Il faut noter que la pêche est pratiquée dans la rivière l'Isole qui traverse le site et dont les eaux sont en lien direct avec les eaux souterraines.
+
+21l0l0	la_pêche	A
+21l0l1	dans_la_rivière_l__Isole_qui_traverse_le_site	L
+21l0l2	les_eaux_souterraines	O
+
+#Le plan de gestion des zones polluées par les Hydrocarbures (C10-C40) et les ETM et le schéma conceptuel (risques faibles liés aux pollutions dans les sols vu l'usage industriel futur retenu) propose de laisser en place les terres polluées et d'instituer des restrictions d'usage.
+
+22l0l0	Le_plan_de_gestion	O
+22l0l1	zones_polluées	O
+22l0l2	les_ETM	O
+22l0l3	le_schéma_conceptuel	O
+22l0l4	terres_polluées	O
+22l0l5	d__instituer_des_restrictions	N
+22l1l0	les_Hydrocarbures	S
+22l1l1	les_ETM	I
+
+#Les restrictions d'usage doivent porter sur :
+
+
+#- le maintien, sur site, d'une couche végétale,
+
+24l0l0	le_maintien	N
+
+#- l'interdiction de réaliser des affouillements et de creuser dans les zones polluées sans étude préalable,
+
+25l0l0	l__interdiction_de_réaliser_des_affouillements	N
+25l0l1	de_creuser	N
+25l0l2	les_zones_polluées	O
+25l0l3	étude_préalable	O
+
+#- le maintien d'un usage industriel sur le site,
+
+26l0l0	un_usage_industriel	A
+26l0l1	sur	R
+26l0l2	le_site	O
+
+#- l'interdiction de cultiver des végétaux destinés à la consommation humaine ou animale dans les zones polluées.
+
+27l0l0	l__interdiction	N
+27l0l1	de_cultiver_des_végétaux_destinés_à_la	A
+27l0l2	les_zones_polluées	O
+
+#Ainsi, l’arrêté préfectoral du 30 novembre 2009 prescrit la surveillance semestrielle des eaux souterraines pour les paramètres hydrocarbures (C10-C40) et les ETM (chrome, cuivre, nickel, plomb et aluminium) via un seul piézomètre situé en aval hydraulique, ainsi que l'élaboration de restrictions d'usage.
+
+28l0l0	l__arrêté_préfectoral	O
+28l0l1	30_novembre_2009	T
+28l0l2	prescrit	N
+28l0l3	la_surveillance_semestrielle	A
+28l0l4	des_eaux_souterraines	A
+28l0l5	paramètres	N
+28l0l6	hydrocarbures	O
+28l0l7	situé_en_aval_hydraulique	L
+28l0l8	l__élaboration_de_restrictions_d__usage	O
+28l1l0	hydrocarbures	S
+28l1l1	les_ETM	S
+28l1l2	chrome	S
+28l1l3	cuivre	S
+28l1l4	nickel	S
+28l1l5	plomb	S
+28l1l6	aluminium	S
+
+#Le bilan quadriennal, réalisé en avril 2012, porte sur la période 2008 - 2012.
+
+29l0l0	Le_bilan_quadriennal	N
+29l0l1	en_avril_2012__	T
+29l0l2	porte_sur	R
+29l0l3	la_période_2008___2012__	T
+
+#Les paramètres recherchés sont les hydrocarbures C10-C40 et les ETM (arsenic, cadmium, chrome, cuivre, mercure, nickel, plomb, zinc, aluminium, argent).
+
+30l0l0	les_ETM	O
+30l1l0	hydrocarbures_C10_C40	S
+30l1l1	les_ETM	S
+30l1l2	arsenic	S
+30l1l3	cadmium	S
+30l1l4	chrome	S
+30l1l5	cuivre	S
+30l1l6	mercure	S
+30l1l7	nickel	S
+30l1l8	plomb	S
+30l1l9	zinc	S
+30l1l10	aluminium	S
+
+#Il met en évidence :
+
+
+#- une absence d'impact par les hydrocarbures,
+
+32l1l0	hydrocarbures	S
+
+#- des anomalies ponctuelles pour les ETM,
+
+33l1l0	les_ETM	I
+
+#- une tendance à l'augmentation des concentrations pour l'arsenic en période de basses eaux,
+
+34l0l0	l__arsenic	O
+34l1l0	arsenic	S
+
+#- une tendance probable à l'augmentation des concentrations pour l'aluminium et le zinc en période de hautes eaux.
+
+35l0l0	l__augmentation	N
+35l0l1	l__aluminium	O
+35l0l2	période_de_hautes_eaux	N
+35l1l0	l__aluminium	S
+35l1l1	zinc	S
+
+#Les impacts ponctuels pourraient être dus à des interférences avec les dépôts de boues et de déchets des papeteries localisées en amont hydraulique du piézomètre.
+
+36l0l0	interférences	N
+36l0l1	papeteries	O
+36l0l2	localisées_en_amont_hydraulique_du_piézomètre	L

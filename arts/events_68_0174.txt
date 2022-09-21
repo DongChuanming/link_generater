@@ -1,0 +1,137 @@
+
+#68.0174
+#Il s'agit d'une décharge d'ordures ménagères qui a été exploitée :
+
+0l0l0	a_été_exploitée	N
+
+#> Ancien dépôt: de 1960 à 1968
+
+1l0l0	de_1960_à_1968	T
+
+#> Actuel dépôt: de 1968 à au moins 1991 (date de la dernière insoection 27/08/1991).
+
+2l0l0	dépôt	O
+2l0l1	__de_1968_à_au_moins_1991	T
+2l0l2	la_dernière_insoection	O
+2l0l3	27_08_1991____	T
+
+#Le dépôt consiste : branchage, pavés, terres, bois, emballages en carton, vieux pneus,
+
+3l0l0	branchage	O
+
+#Le dépôt consiste en : branchage, pavés, terres, graviers, déblais de démolition, ciment, plaques de bitume, planche, encombrements ménagers, déchets de jardin et agricoles, foin, fûts en plastique, bois, emballages en carton, vieux pneus.
+
+
+#Beaucoup de ces matériaux sont inflammables, des incendies sont fréquents en période estivale.
+
+5l0l0	incendies	N
+5l0l1	en_période_estivale	T
+5l1l0	inflammables	U
+
+#Décision du Conseil Municipal (DCM) du 11/07/1959 et 12/12/1959: acquisition par la commune du terrain aux fins d'y déposer des ordures.
+
+6l0l0	Décision_du_Conseil_Municipal	O
+6l0l1	11_07_1959_et_12_12_1959	T
+6l0l2	__acquisition	N
+6l0l3	par	R
+6l0l4	la_commune_du_terrain	O
+6l0l5	des_ordures	O
+
+#Rapport géologique du 23/03/1960 signale plusieurs dépôts de détritus provenant, notamment d'industrie chimique.
+
+7l0l0	23_03_1960	T
+7l1l0	détritus	U
+
+#DCM du 10/10/1960: établir le périmètre du dépôt qu'au lieu du Losgraben.
+
+8l0l0	DCM	O
+8l0l1	10_10_1960__	T
+8l0l2	établir	N
+8l0l3	le_périmètre	O
+8l0l4	dépôt_qu_	O
+8l0l5	Losgraben	L
+8l1l0	DCM	I
+
+#DCM du 23/11/1960: rappelle l'interdiction d'entreposer des produits chimiques.
+
+9l0l0	DCM	O
+9l0l1	23_11_1960__	T
+9l0l2	rappelle_l__interdiction	N
+9l0l3	entreposer_des_produits_chimiques	O
+9l1l0	DCM	I
+9l1l1	des_produits_chimiques	U
+
+#Demande d'autorisation provisoire de déposer des ordures malgré un avis défavorable du Génie Rural.
+
+10l0l0	Demande_d__autorisation	N
+10l1l0	du_Génie_Rural	I
+
+#Rapport géologique du 30/12/1964 donne un avis favorable au dépôt d'ordures.
+
+11l0l0	Rapport_géologique	O
+11l0l1	30_12_1964	T
+11l0l2	donne_un	N
+11l0l3	avis_favorable	O
+11l0l4	au_dépôt_d_	N
+11l0l5	ordures	O
+
+#En 1968, le dépôt est déplacé vers l'Est.
+
+12l0l0	En_1968	T
+12l0l1	le_dépôt	O
+12l0l2	est_déplacé_vers_l__Est	L
+
+#DCM du 03/05/1968: la commune comble et aplanit la partie supérieure du dépôt  et interdit provisoirement les déchargements (à faire plus bas).
+
+13l0l0	DCM_du	O
+13l0l1	03_05_1968__	T
+13l0l2	la_commune	O
+13l0l3	comble	N
+13l0l4	aplanit	N
+13l0l5	la_partie_supérieure_du_dépôt	O
+13l0l6	et_interdit	N
+13l0l7	les_déchargements	A
+
+#Rapport géologique du 10/06/1968 : avis favorable pour l'exploitation du nouveau site en décharge publique portant que sur le dépôts d'ordures ménagères (exclusion de produits chimiques et hydrocarbures).
+
+14l0l0	Rapport_géologique	O
+14l0l1	10_06_1968	T
+14l0l2	avis_favorable	O
+14l0l3	l__exploitation_du_nouveau_site	N
+14l0l4	décharge_publique	O
+14l0l5	portant_que_sur	R
+14l0l6	le_dépôts	A
+14l0l7	exclusion_de_produits_chimiques_et_hydrocarbures	O
+14l1l0	ordures_ménagères	U
+14l1l1	produits_chimiques	U
+14l1l2	hydrocarbures	S
+
+#Arrêté Préfectoral dub 21/01/1969 autorise la Commune de Hagenthal-le-Bas de déposer des déchets ménagers.
+
+15l0l0	Arrêté_Préfectoral	O
+15l0l1	dub_21_01_1969	T
+15l0l2	autorise	N
+15l0l3	la_Commune	O
+15l0l4	de_Hagenthal_le_Bas	L
+15l0l5	de_déposer	N
+15l0l6	des_déchets_ménagers	O
+
+#Le rapport de l'Inspection des installations classées, résultant d'une visite du 27/08/1991, préconise:
+
+16l0l0	l__Inspection_des_installations_classées	O
+16l0l1	27_08_1991	T
+
+#> L'arrêt du rejet des eaux usées (au droit de l'ancien dépôt) par la création d'un assainissement individuel pour plus tard effectuer un contrôle des eaux de lessivages;
+
+17l0l0	L__arrêt	N
+17l0l1	rejet_des_eaux_usées	O
+17l0l2	la_création_d__un_assainissement	N
+17l0l3	individuel	O
+17l0l4	plus_tard	T
+17l0l5	effectuer_un_contrôle_des_eaux_de_lessivages	A
+17l1l0	eaux_usées	U
+
+#> Un contrôle immédiat (au droit du dépôt actuel) des eaux s'écoulant des déchets après de fortes pluies.
+
+18l0l0	contrôle_immédiat	N
+18l0l1	au_droit_du_dépôt	L

@@ -1,0 +1,100 @@
+
+#21.0027
+#Le groupe SEB exploite deux usines de fabrication d'autocuiseurs sur la commune de Selongey.
+
+0l0l0	Le_groupe_SEB	O
+0l0l1	exploite	N
+0l0l2	deux_usines	O
+0l0l3	de_fabrication_d__autocuiseurs	A
+0l0l4	sur_la_commune_de_Selongey	L
+0l1l0	Le_groupe_SEB	I
+
+#L'usine du Bourg se situe au centre de la commune de Selongey.
+
+1l0l0	L__usine	O
+1l0l1	Bourg_se_situe_au_centre_de_la_commune_de_Selongey	L
+
+#Les activités ont démarré en 1857 et le démarrage de la cocotte minute en 1955.
+
+2l0l0	Les_activités	O
+2l0l1	ont_démarré	N
+2l0l2	en_1857	T
+2l0l3	le_démarrage_de_la_cocotte_minute	A
+2l0l4	en_1955	T
+
+#Le site actuel s'étend sur 23 660 m².
+
+3l0l0	Le_site_actuel	O
+
+#Une rivière "La Venelle" traverse l'usine par un souterrain canalisé.
+
+4l0l0	Une_rivière	O
+4l0l1	La_Venelle	L
+4l0l2	canalisé	O
+
+#Le contexte hydrogéologique laisse apparaître deux nappes souterraines :
+
+
+#- une nappe superficielle accompagnant "La Venelle", qui n'est pas utilisée pour l'alimentation en eau potable,
+
+6l0l0	La_Venelle__	L
+
+#- une nappe de type karstique à écoulement complexe avec des captages d'eau situés à plusieurs kilomètres du site.
+
+7l0l0	captages_d__eau	O
+7l0l1	situés_à_plusieurs_kilomètres_du_site	L
+
+#Le diagnostic initial et l'étude historique ont permis de mettre en évidence des sources de pollutions potentielles et de proposer un programme d'investigation par reconnaissance de sol et analyses d'eaux souterraines.
+
+8l0l0	Le_diagnostic_initial	N
+8l0l1	en_évidence_des_sources_de_pollutions_potentielles	O
+
+#Les investigations complémentaires ont permis de mettre en évidence la présence de sol contaminé en chrome et en nickel par des poussières de polissage.
+
+9l0l0	Les_investigations_complémentaires	N
+9l0l1	sol_contaminé	O
+9l0l2	polissage	O
+9l1l0	nickel	S
+
+#Le site est en classe 2 "site à surveiller" pour cette source.
+
+
+#Afin d'éliminer ce risque de contamination, la société SEB a décidé de construire un bâtiment couvert pour le stockage de ce type de déchet.
+
+11l0l0	la_société_SEB	O
+11l0l1	a_décidé	N
+11l0l2	de_construire	N
+11l0l3	un_bâtiment_couvert	O
+11l0l4	le_stockage_de_ce_type_de_déchet	A
+11l1l0	la_société_SEB	I
+
+#Par ailleurs, plusieurs actions visant à réduire les risques de pollution ont été réalisées sur ce site:
+
+12l0l0	ont_été_réalisées	N
+
+#-les 2 cuves enterrées utilisées pour le stockage de solvants et d'huiles usagées ont été vidangées, dégazées et remplies de sable;
+
+13l0l0	_les_2_cuves_enterrées	O
+13l0l1	utilisées_pour	R
+13l0l2	le_stockage_de_solvants_et_d_	A
+13l0l3	huiles_usagées	O
+13l0l4	ont_été_vidangées	N
+13l0l5	dégazées	N
+13l0l6	remplies_de_sable	N
+13l1l0	_les_2_cuves_enterrées_utilisées	D
+13l1l1	stockage_de_solvants	U
+
+#-les travaux d'aménagement et d'étanchéification de la tête de puits situé dans l'atelier ont été réalisés.
+
+14l0l0	_les_travaux_d__aménagement	N
+14l0l1	d__étanchéification	N
+14l0l2	la_tête_de_puits	O
+14l0l3	situé_dans_l__atelier	L
+14l0l4	ont_été_réalisés	N
+
+#Une surveillance de la qualité des eaux souterraines est mise en place par l'exploitant depuis début 2002.
+
+15l0l0	Une_surveillance_de_la_qualité_des_eaux_souterraines	A
+15l0l1	est_mise_en_place	N
+15l0l2	l__exploitant	O
+15l0l3	depuis_début_2002	T

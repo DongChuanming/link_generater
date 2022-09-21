@@ -1,0 +1,146 @@
+
+#56.0014
+#L'établissement de la société ALAG a été construit dans les années 50.
+
+0l0l0	L__établissement	O
+0l0l1	la_société_ALAG	O
+0l0l2	a_été_construit	N
+0l0l3	dans_les_années_50__	T
+0l1l0	la_société_ALAG	I
+
+#L'activité principale consistait à transformer des engrais, principalement des phosphates naturels, en d'autres engrais.
+
+1l0l0	L__activité	O
+1l0l1	à	R
+1l0l2	transformer_des_engrais	O
+1l1l0	phosphates	S
+
+#La société a cessé ses activités en 1992.
+
+2l0l0	La_société	O
+2l0l1	a_cessé_ses_activités	N
+2l0l2	en_1992	T
+
+#La CCIM (Chambre de Commerce et d'Industrie du Morbihan) a acquis le terrain pour y entreposer du sulfate de fer à l'intérieur du hangar (2 500 tonnes environ), de 1995 à 1999.
+
+3l0l0	La_CCIM	O
+3l0l1	Chambre_de_Commerce_et_d__Industrie_du_Morbihan	O
+3l0l2	a_acquis	N
+3l0l3	le_terrain	O
+3l0l4	entreposer_du_sulfate	A
+3l0l5	de_fer	O
+3l0l6	de_1995_à_1999__	T
+3l1l0	La_CCIM	I
+3l1l1	Chambre_de_Commerce	I
+3l1l2	Morbihan	S
+3l1l3	sulfate_de_fer	S
+
+#Un diagnostic de pollution a été réalisé en juillet 1999.
+
+4l0l0	Un_diagnostic_de_pollution	N
+4l0l1	a_été_réalisé	N
+4l0l2	en_juillet_1999__	T
+
+#Il met en évidence la présence diffuse dans les terrains de surface, de produits à base d'azote, de phosphore et de soufre.
+
+5l1l0	azote	S
+5l1l1	phosphore	S
+5l1l2	soufre	S
+
+#Cependant, les concentrations mesurées sont peu élevées et ne génèrent pas de risque vis à vis de l'environnement immédiat (terrain situé dans une zone à vocation industrielle et absence de captage dans le secteur).
+
+6l0l0	terrain	O
+6l0l1	situé_dans_une_zone_à_vocation_industrielle	L
+6l0l2	captage	R
+6l0l3	dans_le_secteur	L
+
+#En revanche, la présence d'hydrocarbures au droit de certains sondages a nécessite la réalisation d'investigations complémentaires.
+
+7l0l0	d__hydrocarbures	O
+7l0l1	au_droit_de_certains_sondages	O
+7l0l2	a_nécessite_la_réalisation_d__investigations	N
+7l1l0	hydrocarbures	S
+
+#Cette étude complémentaire menée en juin 2000 a montré l'existence qu'une zone importante polluée par des hydrocarbures.
+
+8l0l0	Cette_étude_complémentaire	N
+8l0l1	en_juin_2000	T
+8l0l2	une_zone_importante_polluée	O
+8l1l0	hydrocarbures	S
+
+#Au vue de ces résultats, il est apparu nécessaire d'entreprendre des travaux de dépollution.
+
+9l0l0	il_est_apparu_nécessaire	O
+9l0l1	d__entreprendre_des_travaux_de_dépollution	N
+
+#Cette dépollution s'est faite en deux temps :
+
+10l0l0	Cette_dépollution	N
+10l0l1	s__est_faite_en	N
+
+#- octobre 2000 : excavation des terres polluées qui se trouvaient à l'extérieur des bâtiments et des infrastructures existantes.
+
+11l0l0	__octobre_2000	T
+11l0l1	__excavation	N
+11l0l2	des_terres_polluées	O
+11l0l3	se_trouvaient_à_l__extérieur_des_bâtiments_et_des_infrastructures_existantes	L
+
+#Ces terres excavées ont été entreposées dans le bâtiment couvert, protégées au sol par un polyane disposé sur une dalle béton puis évacuées en biocentre en mars 2001.
+
+12l0l0	ont_été_entreposées	N
+12l0l1	évacuées_en_biocentre	N
+12l0l2	en_mars_2001	T
+
+#- juillet-août 2001 : excavation des terres polluées qui se trouvaient à l'intérieur du bâtiment après destruction de la dalle béton, ainsi que sous les dalles extérieures.
+
+13l0l0	juillet___août_2001	T
+13l0l1	__excavation	N
+13l0l2	des_terres_polluées	O
+13l0l3	destruction	N
+13l0l4	la_dalle_béton	O
+13l0l5	sous_les	L
+13l0l6	dalles_extérieures	O
+
+#Les terres excavées ont été mises en dépôt à l'intérieur du bâtiment couvert sur un polyane disposé sur la dalle béton puis évacuées en biocentre en juin 2003.
+
+14l0l0	Les_terres	O
+14l0l1	excavées_ont_été_mises_en_dépôt	N
+14l0l2	évacuées_en_biocentre	N
+14l0l3	en_juin_2003	T
+
+#Après chaque excavation, des prélèvements en fond de fouille ont été réalisés afin de contrôler les teneurs en hydrocarbures totaux.
+
+15l0l0	Après	R
+15l0l1	chaque_excavation	N
+15l0l2	fond_de_fouille	O
+15l0l3	ont_été_réalisés	N
+15l1l0	hydrocarbures_totaux	S
+
+#Le remblaiement des excavations a été effectué par des remblais du site excavés ne présentant pas de traces organoleptiques, et par du déchet de sable.
+
+16l0l0	Le_remblaiement	N
+16l0l1	des_excavations	N
+16l0l2	a_été_effectué	N
+16l0l3	des_remblais	N
+
+#Étant donné que les travaux de dépollution ont concerné l'intérieur des bâtiments et pas sous les fondations, des pollutions résiduelles peuvent être présentes localement.
+
+17l0l0	les_travaux_de_dépollution	N
+17l0l1	ont_concerné	N
+17l0l2	l__intérieur_des_bâtiments	O
+17l0l3	sous_les_fondations	L
+
+#Ainsi, en cas de travaux d'affouillement sur le site, des préconisations devront être prises sur les terres excavées.
+
+18l0l0	de_travaux_d__affouillement	N
+
+#L'inspection des installations classées a procédé à une visite rapide depuis l'extérieur du site en octobre 2013 qui démontre que la site a été réaménagé en parking (PL + VL) sur la totalité de la surface, qu'il est entièrement clôturé et muni d'avaloirs pour le pluvial.
+
+19l0l0	L__inspection_des_installations_classées	O
+19l0l1	une_visite_rapide	N
+19l0l2	depuis_l__extérieur_du_site	L
+19l0l3	en_octobre_2013	T
+19l0l4	la_site	O
+19l0l5	a_été_réaménagé	N
+19l0l6	en_parking	N
+19l0l7	avaloirs	O

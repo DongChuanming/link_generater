@@ -1,0 +1,231 @@
+
+#63.0058
+#Le site est implanté à l’Est du Centre-ville historique de Clermont-Ferrand.
+
+0l0l0	Le_site	O
+0l0l1	est_implanté_à_l__Est_du_Centre___ville_historique_de_Clermont___Ferrand	L
+
+#Le voisinage proche est constitué par :
+
+1l0l0	Le_voisinage_proche	O
+
+#- au Nord : la voie ferrée
+
+2l0l0	au_Nord	L
+
+#- à l’Est : un centre commercial
+
+3l0l0	à_l__Est	L
+3l0l1	__un_centre_commercial	O
+
+#- au Sud : des petits immeubles d’habitation
+
+4l0l0	au_Sud	L
+
+#- à l’Ouest : des activités commerciales et immeubles d’habitation
+
+5l0l0	Ouest	L
+5l0l1	des_activités_commerciales_et_immeubles_d__habitation	A
+
+#Le site est entièrement clôturé.
+
+6l0l0	Le_site	O
+
+#Le terrain fait 48000 m².
+
+7l0l0	Le_terrain	O
+7l0l1	m²__	O
+
+#Le site repose sur les alluvions anciennes indifférenciées situées au bas de la butte de Clermont-Ferrand.
+
+8l0l0	Le_site	O
+8l0l1	repose_sur	R
+8l0l2	situées_au_bas_de_la_butte_de_Clermont___Ferrand	L
+
+#Le sous-sol est de nature marno-calcaire, caractérisé par des marnes altérées reposant sur des marnes calcaires.
+
+
+#La zone est très pauvre en eau souterraine, du fait de la création de la ZI voisine du Brézet.
+
+10l0l0	La_zone	O
+10l0l1	la_création	N
+10l0l2	la_ZI_voisine	O
+10l0l3	du_Brézet	L
+
+#Cette zone autrefois marécageuse a été largement drainée.
+
+11l0l0	Cette_zone	O
+11l0l1	autrefois_marécageuse	N
+11l0l2	a_été_largement_drainée	N
+
+#La Tiretaine a été canalisée et draine les éventuelles eaux superficielles et l’imperméabilisation en surface a entrainé une quasi disparition de la nappe.
+
+12l0l0	Tiretaine	O
+12l0l1	a_été_canalisée	N
+12l0l2	l__imperméabilisation	N
+12l0l3	en_surface	A
+12l0l4	a_entrainé	N
+12l0l5	une_quasi_disparition	N
+
+#Des venues d’eau souterraine sont apparues à faible profondeur lors des travaux de démolition, mais ne sont plus apparues par la suite et ne sont pas visibles dans le fosses.
+
+13l0l0	sont_apparues	N
+13l0l1	à_faible_profondeur_lors	L
+13l0l2	des_travaux_de_démolition	N
+13l0l3	ne_sont_plus_apparues	N
+
+#Il doit probablement s’agir de la vidange d’une lentille aquifère.
+
+14l0l0	la_vidange	N
+14l0l1	lentille_aquifère	N
+
+#La Tiretaine s’écoule à environ 1,2 km au Nord-Est du site.
+
+15l0l0	écoule_à_environ_1_2_km_au_Nord_Est_du_site	L
+
+#Le site n’exploite et n’exploitait aucune eau souterraine.
+
+16l0l0	Le_site	O
+16l0l1	n__exploitait	N
+
+#Les captages industriels les plus proches captent des niveaux souterrains différents de ceux présentes sur le site. 2 forages d’eau souterraine pour l’alimentation en eau agricole sont recensés à proximité.
+
+17l0l0	Les_captages_industriels	O
+17l0l1	2_forages	O
+17l0l2	l__alimentation_en_eau_agricole	A
+17l0l3	à_proximité	L
+
+#Suite à la démolition des abattoirs, les sols dans la zone Sud du site ne sont plus imperméabilisés.
+
+18l0l0	Suite_à	R
+18l0l1	la_démolition_des_abattoirs	N
+18l0l2	les_sols	O
+18l0l3	dans	L
+18l0l4	la_zone_Sud_du_site	O
+18l0l5	ne_sont_plus_imperméabilisés	N
+
+#Sur le site se sont succédées plusieurs activités.
+
+
+#Avant 1933 et jusqu’à 1955, l’extrait cadastral ne montre aucune activité particulière.
+
+20l0l0	Avant_1933_et_jusqu__à_1955	T
+
+#De 1955 à 1962 environ, un camp militaire est installé au droit du site et regroupe prisonniers et réfugiés.
+
+21l0l0	De_1955_à_1962	T
+21l0l1	un_camp_militaire	O
+21l0l2	est_installé	N
+21l0l3	au_droit_du_site	L
+
+#De 1962 à 2003, les abattoirs municipaux sont implantés sur le site et sont soumis à autorisation.
+
+22l0l0	De_1962_à_2003__	T
+22l0l1	les_abattoirs_municipaux	O
+22l0l2	sont_implantés	N
+22l0l3	sont_soumis_à_autorisation	N
+
+#De 2003 à aujourd’hui, les activités de l’abattoir sont arrêtées mais il reste certains bâtiments en activité : Clermont Viande et ADIV.
+
+23l0l0	De_2003	T
+23l0l1	à_aujourd_hui	T
+23l0l2	les_activités	A
+23l0l3	l__abattoir	O
+23l0l4	sont_arrêtées	N
+23l0l5	il_reste_certains_bâtiments	O
+23l0l6	en_activité	N
+23l0l7	ADIV	O
+
+#Un diagnostic initial est réalisé en 2005.
+
+24l0l0	Un_diagnostic_initial	N
+24l0l1	est_réalisé	N
+24l0l2	en_2005__	T
+
+#La phase A conclut à la nécessité de réaliser des investigations de la qualité des sols et des eaux souterraines.
+
+25l0l0	La_phase_A	O
+25l0l1	réaliser_des_investigations	N
+25l0l2	la_qualité_des_sols	O
+
+#Lors de la phase B, 11 sondages ont été réalisés, permettant de mettre en évidence :
+
+26l0l0	la_phase_B	O
+26l0l1	11_sondages_ont_été_réalisés	N
+
+#- une contamination des sols en hydrocarbures, BTEX et HAP liés à la présence d’une cuve de fioul au droit du 5ème quartier
+
+27l0l0	une_contamination	N
+27l0l1	hydrocarbures	O
+27l0l2	une_cuve_de_fioul	O
+27l0l3	au_droit_du_5ème_quartier	L
+27l1l0	hydrocarbures	S
+27l1l1	BTEX	S
+27l1l2	HAP	S
+27l1l3	fioul	S
+
+#- une légère contamination très ponctuelle des sols en PCB liée à la présence d’un ancien transformateur en limite de propriété
+
+28l0l0	une	N
+28l0l1	légère_contamination	O
+28l0l2	PCB	O
+28l0l3	un_ancien_transformateur	O
+28l0l4	en_limite_de_propriété	L
+28l1l0	PCB	S
+
+#- une légère contamination assez générale en arsenic mais qui ne semble pas liée à l’activité du site
+
+29l0l0	arsenic	O
+29l0l1	activité_du_site	A
+29l1l0	arsenic	S
+
+#L’environnement a une faible vulnérabilité étant donné les terrains très argileux et l’absence de nappe phréatique.
+
+
+#Le risque principal est le contact direct (ingestion) avec le sol pollué.
+
+31l0l0	ingestion	N
+31l0l1	le_sol_pollué	N
+
+#La majeure partie des sols pollués au droit du 5ème quartier a été excavée mais non évacuée.
+
+32l0l0	La_majeure_partie_des_sols_pollués	O
+32l0l1	au_droit_du_5ème_quartier	L
+32l0l2	a_été_excavée	N
+
+#Il existe une pollution résiduelle au-delà de 4,5 m de profondeur.
+
+33l0l0	au_delà	T
+33l0l1	de_4_5_m_de_profondeur	L
+
+#Concernant les PCB, les teneurs mesurées sont limitées à un unique sondage et restent faibles.
+
+34l1l0	PCB	S
+
+#Les concentrations étant inférieures au critère d’acceptation des matériaux en décharge inerte, il ne semble pas nécessaire de dépolluer cette zone.
+
+35l0l0	il_ne	O
+35l0l1	dépolluer	N
+35l0l2	cette_zone	O
+
+#Des odeurs de matières en décomposition ont été relevées dans les sols du secteur des anciens bâtiments d’abattage et de triperie.
+
+36l0l0	ont_été_relevées	N
+
+#Aucune pollution des sols n’a été mesurée, mais les sols contiennent de la matière organique.
+
+
+#Il conviendra d’en tenir compte dans l’élaboration de tout projet.
+
+38l0l0	tout_projet	O
+
+#Certaines zones identifiées en phase A comme source potentielle de pollution sont actuellement inaccessibles du fait des activités et des bâtiments toujours présents sur le site.
+
+39l0l0	Certaines_zones_identifiées	O
+
+#Des investigations de terrain devront être réalisées une fois les bâtiments démolis.
+
+40l0l0	Des_investigations_de_terrain	N
+40l0l1	devront_être_réalisées_une_fois	N
+40l0l2	les	O
+40l0l3	bâtiments_démolis	N

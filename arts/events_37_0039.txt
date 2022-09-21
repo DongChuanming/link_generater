@@ -1,0 +1,196 @@
+
+#37.0039
+#Le site, d'une superficie de 21600m2 , est situé sur le territoire de la commune de Chinon (37).
+
+0l0l0	Le_site	O
+0l0l1	est_situé_sur_le_territoire_de_la_commune_de_Chinon___37__	L
+
+#Il couvre un total de 13 parcelles.
+
+
+#Le site est implanté dans une zone destinée à l’implantation d'activités industrielles, artisanales et commerciales.
+
+2l0l0	Le_site	O
+2l0l1	est_implanté_dans	R
+2l0l2	une_zone	O
+2l0l3	destinée_à	R
+2l0l4	l__implantation	N
+2l0l5	d__activités_industrielles	A
+
+#Ce dernier se trouve à environ 2km au Nord-Est du centre-ville de Chinon.
+
+3l0l0	se_trouve_à_environ_2_km_au_Nord_Est_du_centre___ville_de_Chinon	L
+
+#Bien que disposée en zone industrielle, la société ARFEO est proche d'habitations situées en partie Nord des installations.
+
+4l0l0	en_zone_industrielle	L
+4l0l1	la_société_ARFEO	O
+4l0l2	est_proche_d__habitations_situées_en_partie_Nord_des_installations	L
+4l1l0	la_société_ARFEO	I
+
+#Ce site à été exploité par plusieurs sociétés depuis 1971 (COUSIN MALBRAN, ATAL, SAMAS) puis par ARFEO.
+
+5l0l0	Ce_site	O
+5l0l1	à_été_exploité	N
+5l0l2	plusieurs_sociétés	O
+5l0l3	depuis_1971	T
+5l0l4	MALBRAN	O
+5l0l5	ATAL	O
+5l0l6	ARFEO	O
+5l1l0	COUSIN_MALBRAN	I
+5l1l1	ATAL	I
+5l1l2	SAMAS	I
+5l1l3	ARFEO	I
+
+#Toutes ces sociétés avaient pour objet le travail du bois.
+
+6l0l0	Toutes_ces_sociétés	O
+6l0l1	avaient_pour_objet	R
+6l0l2	le_travail_du_bois	A
+
+#Plusieurs pollutions ont eu lieu lors de l'exploitation de ce site depuis 1971.
+
+7l0l0	Plusieurs_pollutions	O
+7l0l1	ont_eu_lieu	N
+7l0l2	lors_de	R
+7l0l3	l__exploitation	N
+7l0l4	ce_site	O
+7l0l5	depuis_1971	T
+
+#Dans le cadre de la cessation d'activité, l'administration a demandé la mise en sécurité du site et sa remise en état.
+
+8l0l0	Dans_le_cadre_de	R
+8l0l1	la_cessation_d__activité	N
+8l0l2	l__administration	O
+8l0l3	a_demandé_la_mise_en_sécurité	N
+
+#L'exploitation industrielle de ce site a eu par le passé de nombreux impacts néfastes sur l'environnement :
+
+9l0l0	L__exploitation_industrielle	N
+9l0l1	ce_site	O
+9l0l2	a_eu_par_le_passé	N
+
+#-pollution du réseau pluvial public fin décembre 2005
+
+10l0l0	_pollution_du_réseau_pluvial_public	O
+10l0l1	fin_décembre_2005	T
+
+#-émission de COV
+
+11l1l0	COV	S
+
+#-pollution des sols
+
+12l0l0	_pollution_des_sols	N
+
+#Plusieurs actions ont déjà été entreprises afin de réaliser la mise en sécurité du site.
+
+13l0l0	de_réaliser_la_mise_en_sécurité	N
+
+#Le site est entouré par un grillage et ses deux entrées sont munies d'un portail fermant à clé.
+
+14l0l0	Le_site	O
+14l0l1	est_entouré_par	L
+14l0l2	un_grillage	O
+
+#L'alimentation électrique a été coupée et le site ne possède plus de réseau de gaz.
+
+15l0l0	L__alimentation_électrique_a_été_coupée	N
+15l0l1	le_site	O
+15l0l2	ne_possède_plus	N
+
+#La cuve de stockage de fuel a été nettoyée, dégazée et inertée par du béton.
+
+16l0l0	La_cuve_de_stockage_de_fuel	O
+16l0l1	a_été_nettoyée	N
+16l0l2	dégazée	N
+16l0l3	inertée_par_du_béton	O
+16l1l0	stockage_de_fuel	U
+
+#Concernant l'évacuation des déchets et des produits dangereux, la société ARFEO a indiquée que tous les déchets avaient été collectés lors de la cessation d'activité du site (entre juillet et décembre 2011), or certains déchets résultant de l'ancienne exploitation n'ont pas été évacués (présence d'un conteneur GRV rempli d'un produit liquide inconnu).
+
+17l0l0	évacuation_des_déchets_et_des_produits_dangereux	O
+17l0l1	la_société_ARFEO	O
+17l0l2	a_indiquée	N
+17l0l3	avaient_été_collectés	N
+17l0l4	lors_de	T
+17l0l5	la_cessation_d__activité	N
+17l0l6	du_site	L
+17l0l7	entre_juillet_et_décembre_2011__	T
+17l0l8	un_conteneur_GRV	O
+17l1l0	des_produits_dangereux	U
+17l1l1	la_société_ARFEO	I
+17l1l2	un_conteneur_GRV_rempli	D
+17l1l3	un_produit_liquide_inconnu	U
+
+#Un stockage de bûches de sciures de bois a encore lieu sur le site mais la société ne dispose pas de moyens d'intervention opérationnels en cas d'incendie.
+
+18l0l0	Un_stockage_de_bûches_de_sciures_de_bois	A
+18l0l1	a_encore_lieu	N
+18l0l2	la_société	O
+
+#Un diagnostic de pollution des sols a été mené au droit du site par la société GMEP en juin et août 2012.
+
+19l0l0	Un_diagnostic_de_pollution_des_sols	N
+19l0l1	a_été_mené	N
+19l0l2	au_droit_du_site	L
+19l0l3	la_société_GMEP	O
+19l0l4	en_juin_et_août_2012__	T
+19l1l0	la_société_GMEP	I
+
+#Deux zones présentant des concentrations anormales en hydrocarbures et PCB on été identifiées :
+
+20l0l0	Deux_zones	O
+20l0l1	hydrocarbures	O
+20l0l2	on_été_identifiées	N
+20l1l0	hydrocarbures	S
+20l1l1	PCB	S
+
+#-cuve enterré de stockage de fuel (HCT : 3220 ppm),
+
+21l1l0	stockage_de_fuel	U
+
+#-zone de dépôts divers issu des activités de l'atelier de maintenance (PCB : 1000 et 1900 ppm).
+
+22l0l0	l__atelier_de_maintenance	O
+22l1l0	PCB	S
+
+#Le bureau d'étude recommande dans son rapport du 20 août 2012 de mettre en œuvre un plan de gestion des terres polluées aux PCB et en HCT et propose trois solutions de gestion.
+
+23l0l0	Le_bureau_d__étude	O
+23l0l1	20_août_2012	T
+23l0l2	mettre_en_œuvre	N
+23l0l3	un_plan_de_gestion_des_terres_polluées	O
+23l1l0	PCB	S
+23l1l1	HCT	S
+
+#ARFEO a choisi le traitement biologique sur site.
+
+24l0l0	ARFEO	O
+24l0l1	a_choisi	N
+24l0l2	le_traitement_biologique	O
+24l1l0	ARFEO	I
+
+#Les résultats du rapport GMEP du 21/06/2012 indique que l'objectif d'un seuil résiduel en PCB de 50mg/kg/MS dans les sols pourrait être atteint dans un délai de trois mois (fin de traitement prévue pour début 2013).
+
+25l0l0	21_06_2012	T
+25l0l1	dans_un_délai_de_trois_mois	T
+25l0l2	pour_début_2013____	T
+25l1l0	GMEP	I
+25l1l1	PCB	S
+
+#L'exploitant a indiqué (en accord avec le maire) que le terrain et les bâtiments garderont pour vocation future une utilisation industrielle et de bureaux.
+
+26l0l0	L__exploitant	O
+26l0l1	en	O
+26l0l2	accord_avec	R
+26l0l3	le_maire	O
+26l0l4	le_terrain	O
+26l0l5	les_bâtiments	O
+26l0l6	garderont	R
+26l0l7	pour_vocation	N
+26l0l8	future_une_utilisation_industrielle_et_de_bureaux	A
+
+#Il n'est question d'aucun suivi de la qualité de l'eau souterraine.
+
+27l0l0	la_qualité_de_l__eau_souterraine	O

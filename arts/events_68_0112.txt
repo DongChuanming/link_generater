@@ -1,0 +1,277 @@
+
+#68.0112
+#Le secteur B de l'ancienne friche SACM supporte un bâtiment dit "La Cathédrale" et des terrains qui lui sont associés (terrains de proximité immédiate définis comme "le parvis").
+
+0l0l0	Le_secteur_B	O
+0l0l1	l__ancienne_friche_SACM	O
+0l0l2	supporte	R
+0l0l3	un_bâtiment	O
+0l0l4	dit	R
+0l0l5	des_terrains	O
+0l1l0	SACM	I
+
+#Ils font partie de l'ancien site industriel de la SACM - site exploité depuis le début du 19° siècle.
+
+1l0l0	l__ancien_site_industriel	O
+1l0l1	la_SACM	O
+1l0l2	site_exploité	O
+1l0l3	depuis_le_début_du_19___siècle__	T
+1l1l0	la_SACM	I
+
+#Ce bâtiment a abrité diverses activités industrielles (fonderie, travail des métaux, etc....).
+
+2l0l0	Ce_bâtiment	O
+2l0l1	a_abrité_diverses_activités_industrielles	A
+2l0l2	fonderie	A
+2l0l3	travail_des_métaux	A
+
+#Le dernier exploitant (SACM ou l'une de ses filiales) n'existe plus.
+
+3l0l0	Le_dernier_exploitant	O
+3l0l1	n__existe_plus	N
+3l1l0	SACM	I
+
+#Aucune déclaration de cessation d'activité n'a été déposée à l'époque.
+
+4l0l0	activité	N
+4l0l1	l__époque	N
+
+#La SERM (Société d'Equipement de la Région Mulhousienne) a fait réaliser un certain nombre de travaux de réhabilitation sur le site, permettant dans un premier temps de caractériser la pollution et de définir des travaux de réhabilitation compatibles avec les usages envisagés.
+
+5l0l0	La_SERM	O
+5l0l1	Société_d__Equipement_de_la_Région_Mulhousienne	O
+5l0l2	a_fait_réaliser	N
+5l0l3	de_travaux_de_réhabilitation	N
+5l0l4	sur_le_site	L
+5l0l5	la_pollution	O
+5l0l6	de	O
+5l0l7	définir_des_travaux_de_réhabilitation	N
+5l1l0	La_SERM	I
+5l1l1	Société_d__Equipement	I
+
+#Ainsi, une excavation des terres de surface du parvis de la cathédrale a été réalisée sur 1 mètre d'épaisseur, permettant une remise à niveau du site avec des remblais de terres saines.
+
+6l0l0	une_excavation	N
+6l0l1	parvis_de_la_cathédrale	L
+6l0l2	a_été_réalisée	N
+6l0l3	permettant_une_remise_à_niveau	N
+6l0l4	du_site	N
+6l0l5	des_remblais	N
+6l0l6	de_terres_saines	O
+
+#En février 2008, un rapport caractérisant la pollution résiduelle après travaux et les risques sanitaires associés a été remis aux autorités compétentes.
+
+7l0l0	En_février_2008__	T
+7l0l1	un_rapport	O
+7l0l2	la_pollution_résiduelle	O
+7l0l3	après_travaux	N
+7l0l4	a_été_remis	N
+7l0l5	autorités_compétentes	O
+
+#Les conclusions de l'étude proposent la mise en place de restrictions d'usages qui doivent, à terme, s'inscrire dans une démarche plus globale de servitudes d'utilités publiques des secteurs concernés.
+
+8l0l0	Les_conclusions	O
+8l0l1	la_mise_en_place_de_restrictions_d__usages	N
+8l0l2	s__inscrire_dans_une_démarche_plus_globale	N
+8l0l3	secteurs_concernés	O
+
+#Bien que les terres polluées soient recouvertes d'1 mètre de terres saines, une pollution résiduelle aux métaux demeure nécessitant la mise en place de mesures de protection adaptées pour éviter tous contact dans le cas de remaniement des terres.
+
+9l0l0	terres_polluées	O
+9l0l1	le_cas_de	R
+9l0l2	remaniement_des_terres	N
+
+#Un rapport d'information a été adressé au préfet le 15/05/2003.
+
+10l0l0	a_été_adressé	N
+10l0l1	préfet	O
+10l0l2	le_15_05_2003__	T
+10l1l0	préfet	I
+
+#Il a été proposé qu'il soit signalé à la Ville de Mulhouse et à la SERM que :
+
+11l0l0	Ville_de_Mulhouse	L
+11l0l1	la_SERM	O
+11l1l0	la_Ville_de_Mulhouse	I
+11l1l1	la_SERM	I
+
+#- les terrains sont contaminés par des métaux lourds, arsenic,... et qu'en l'absence de tout exploitant responsable la responsabilité du site incombe au propriétaire détenteur.
+
+12l0l0	les_terrains	O
+12l0l1	sont_contaminés	O
+12l0l2	par	R
+12l0l3	des_métaux_lourds	O
+12l1l0	des_métaux_lourds	S
+12l1l1	arsenic	S
+
+#- les eaux souterraines peuvent également avoir été impactées.
+
+13l0l0	avoir_été_impactées	N
+
+#- les dalles et les murs peuvent être pollués du fait des activités industrielles  anciennement exercées, et qu'il est raisonnable d'envisager la présence d'amiante dans le bâtiment.
+
+14l0l0	pollués	O
+14l0l1	des_activités_industrielles	A
+14l0l2	__anciennement_exercées	N
+
+#- il y a lieu de confirmer la propriété du site, dans l'objectif de demander la réalisation d'une étude de sol.
+
+15l0l0	la_propriété_du_site	O
+15l0l1	demander_la_réalisation_d__une_étude_de_sol	N
+
+#Ceci a fait l'objet de courriers préfectoraux des 19 juin et 22 août 2003, adressés à la Ville de Mulhouse, la SERM et FIMALAC.
+
+16l0l0	Ceci	O
+16l0l1	a_fait_l__objet_de_courriers	R
+16l0l2	préfectoraux	O
+16l0l3	des_19_juin_et_22_août_2003__	T
+16l0l4	adressés_à	R
+16l0l5	la_Ville_de_Mulhouse	O
+16l0l6	la_SERM	O
+16l0l7	FIMALAC	O
+16l1l0	la_SERM	I
+16l1l1	FIMALAC	I
+
+#Un rapport d'investigation des terrains sous le bâtiment (une partie des terrains du secteur B) a été adressé au préfet le 17 septembre 2003 (rapport "Expertise environnementale" du 13 novembre 2001).
+
+17l0l0	Un_rapport_d__investigation	N
+17l0l1	des_terrains	O
+17l0l2	sous	L
+17l0l3	le_bâtiment	O
+17l0l4	une_partie_des_terrains	O
+17l0l5	a_été_adressé	N
+17l0l6	préfet	O
+17l0l7	le_17_septembre_2003	T
+17l0l8	13_novembre_2001	T
+17l1l0	préfet	I
+
+#Ce rapport faisait état:
+
+
+#- de la présence de certains déchets dans le bâtiment,
+
+
+#- de la présence de remblais à scories avec contamination par endroits par HC, COV(Tétrachloroéthylène), Ba, Pb, Cu, traces As, Cr.
+
+20l0l0	remblais	N
+20l0l1	contamination	O
+20l1l0	HC	S
+20l1l1	COV_Tétrachloroéthylène	S
+20l1l2	Ba	S
+20l1l3	Pb	S
+20l1l4	Cu___traces_As	S
+20l1l5	Cr	S
+
+#- traces HC,COHVglobaus,Ba dans les eaux souterraines.
+
+21l1l0	traces_HC	S
+21l1l1	COHVglobaus	S
+21l1l2	Ba	S
+
+#Il a été retenu de confiner les scories, qui pourraient être en contact avec l'homme, dans un dispositif de type merlon (voir site FIMALAC).
+
+22l0l0	merlon	O
+22l1l0	les_scories	U
+22l1l1	site_FIMALAC	I
+
+#3 arrêtés ont été imposés aux détenteurs/propriétaires.
+
+23l0l0	3_arrêtés	O
+23l0l1	ont_été_imposés	N
+
+#Les prescriptions concernent notamment:
+
+
+#- l'interdiction d'accès au site,
+
+
+#- une reconnaissance des sols du secteur B, extérieurs au bâtiment,
+
+
+#- l'élimination des déchets,
+
+
+#- la surveillance de la qualité des eaux souterraines.
+
+28l0l0	la_surveillance_de_la_qualité_des_eaux_souterraines	A
+
+#Un rapport final sur le diagnostic et suivi des matériaux relatif au bâtiment (amiante) a été produit en mars 2004.
+
+29l0l0	Un_rapport_final	O
+29l0l1	le_diagnostic	N
+29l0l2	suivi	O
+29l0l3	des_matériaux_relatif_au_bâtiment	A
+29l0l4	a_été_produit	N
+29l0l5	en_mars_2004__	T
+
+#Un arrêté complémentaire du 21/04/2004 a imposé l'élimination des déchets et la surveillance de l'impact des remblais.
+
+30l0l0	Un_arrêté_complémentaire	O
+30l0l1	du_21_04_2004	T
+30l0l2	a_imposé	N
+30l0l3	l__élimination_des	A
+30l0l4	déchets	O
+30l0l5	la_surveillance_de	A
+30l0l6	l__impact	N
+30l0l7	remblais	N
+
+#Une demande de création d'une faculté et bibliothèque de sciences économiques, sociales et juridiques, un centre d'art contemporain, des archives municipales et une maison de quartier a fait l'objet d'un avis en date du 28 juin 2004.
+
+31l0l0	Une_demande	O
+31l0l1	création_d_	N
+31l0l2	une_faculté	O
+31l0l3	archives_municipales	O
+31l0l4	une_maison_de_quartier	O
+31l0l5	a_fait_l__objet_d_	R
+31l0l6	en_date_du_28_juin_2004__	T
+
+#Des travaux de dépollution ont été réalisés du 09/02 au 17/05/2004 pour excaver les scories et sables de fonderie présents.
+
+32l0l0	Des_travaux_de_dépollution	N
+32l0l1	ont_été_réalisés	N
+32l0l2	du_09_02_au_17_05_2004	T
+32l0l3	excaver	N
+32l0l4	les_scories	O
+32l0l5	fonderie	O
+
+#Un désamiantage et l'évacuation de produits chargés en PCB ont également été réalisés.
+
+33l0l0	Un_désamiantage	N
+33l0l1	l_	O
+33l0l2	évacuation_de_produits_chargés	N
+33l0l3	PCB	O
+33l0l4	ont_également_été_réalisés	N
+33l1l0	PCB	S
+
+#En 2008, la parcelle du parvis de la cathédrale a fait l'objet d'un réaménagement en espace de promenade avec des zones recouvertes en espace verts.
+
+34l0l0	En_2008__	T
+34l0l1	la_parcelle_du_parvis	O
+34l0l2	la_cathédrale	O
+34l0l3	a_fait_l__objet_d_	R
+34l0l4	un_réaménagement	N
+34l0l5	en	R
+34l0l6	espace_de_promenade	O
+34l0l7	des_zones_recouvertes	O
+34l0l8	en	R
+34l0l9	espace_verts	N
+
+#L'épaisseur de la couche de terres saines est évaluée à 1 mètre.
+
+
+#Les terrains ont été remis à la ville de Mulhouse pour un usage résidentiel.
+
+36l0l0	Les_terrains	O
+36l0l1	ont_été_remis	N
+36l0l2	à_la_ville_de_Mulhouse	L
+36l0l3	un_usage_résidentiel	A
+
+#Depuis 2007, la Fonderie, symbole du quartier entièrement réhabilité, abrite notamment la faculté de Sciences économiques, logements étudiants, restaurant universitaire, des sociales et juridiques (FSESJ), la Kunsthalle et les archives municipales.
+
+37l0l0	Depuis_2007__	T
+37l0l1	la_Fonderie	O
+37l0l2	quartier_entièrement_réhabilité	N
+37l0l3	la_faculté_de_Sciences_économiques	O
+37l0l4	Kunsthalle	O
+37l0l5	les_archives_municipales	O
+37l1l0	la_Fonderie	I

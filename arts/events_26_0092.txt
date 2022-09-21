@@ -1,0 +1,192 @@
+
+#26.0092
+#L'étude historique du site met en avant les usages suivants :
+
+
+#avant 1972 : parcelle agricole ;
+
+1l0l0	avant_1972	T
+1l0l1	__parcelle_agricole	O
+
+#Entre 1971 et 1972 : l’activité de COLAS a démarré ;
+
+2l0l0	Entre_1971_et_1972	T
+2l0l1	l__activité_de_COLAS	O
+2l0l2	a_démarré	N
+2l1l0	COLAS	I
+
+#Depuis a minima 1980 : centrale d’enrobage sur la partie Sud du site.
+
+3l0l0	Depuis_a_minima_1980	T
+3l0l1	_	N
+3l0l2	centrale_d__enrobage	O
+3l0l3	sur_la_partie_Sud_du_site	L
+
+#Le site est soumis au régime d’autorisation ICPE depuis 1972 pour son activité d’enrobage à chaud.
+
+4l0l0	Le_site	O
+4l0l1	est	N
+4l0l2	soumis_au_régime_d__autorisation_ICPE	O
+4l0l3	depuis_1972	T
+4l0l4	son_activité_d__enrobage_à_chaud	A
+
+#Il a fait l’objet d’un arrêté préfectoral en date du 10/12/1997 et de deux arrêtés complémentaires datés du 19 juillet 2016 et du 4 avril 2017.
+
+5l0l0	Il	O
+5l0l1	a_fait_l__objet_d_	R
+5l0l2	un_arrêté_préfectoral	O
+5l0l3	en_date_du_10_12_1997	T
+5l0l4	deux_arrêtés_complémentaires	O
+5l0l5	datés_du_19_juillet_2016_et_du_4_avril_2017__	T
+
+#L'activité d'enrobage à chaud et de stockage de fioul lourd a fait l'objet d'une cessation en 2018.
+
+6l0l0	L__activité_d__enrobage_à_chaud_et_de_stockage_de_fioul_lourd	A
+6l0l1	a_fait_l__objet_d_	R
+6l0l2	une_cessation	N
+6l0l3	en_2018__	T
+6l1l0	fioul_lourd	U
+
+#La centrale d'enrobage fonctionnait au fioul lourd.
+
+7l0l0	La_centrale	O
+7l0l1	enrobage_fonctionnait_au_fioul_lourd	A
+7l1l0	fioul_lourd	S
+
+#Il reste sur le site les stockages de bitume réchauffés par fluide caloporteur.
+
+8l0l0	bitume_réchauffés	O
+8l1l0	bitume	U
+
+#La chaudière fonctionne au fioul domestique.
+
+9l1l0	fioul	U
+
+#Une activité d'enrobage à froid est maintenue sur le site (déclaration).
+
+10l0l0	Une_activité_d__enrobage	A
+10l0l1	à_froid	O
+10l0l2	est_maintenue	N
+10l0l3	déclaration	N
+
+#Un projet de concassage de matériaux soumis à enregistrement sur le Nord du site est prévu.
+
+11l0l0	Un_projet_de_concassage_de_matériaux	O
+11l0l1	soumis_à_enregistrement_sur_le_Nord_du_site	L
+
+#L'évacuation des déchets liés aux activités cessées et le démantèlement des installations non utilisées ont été réalisés en 2017.
+
+12l0l0	L__évacuation	N
+12l0l1	activités_cessées	N
+12l0l2	le_démantèlement	N
+12l0l3	des_installations_non_utilisées	O
+12l0l4	ont_été_réalisés	N
+12l0l5	en_2017__	T
+
+#Une recherche des pollution avec étude historique a été menée par le BURGEAP (juin 2018).
+
+13l0l0	Une_recherche	N
+13l0l1	a_été_menée	N
+13l0l2	le_BURGEAP	O
+13l0l3	__juin_2018____	T
+13l1l0	le_BURGEAP	I
+
+#16 sondages de sols à différentes profondeurs et 3 nouveaux piézomètres à une profondeur de 10m ont été réalisés courant 2017.
+
+14l0l0	16_sondages_de_sols	N
+14l0l1	3	O
+14l0l2	ont_été_réalisés	N
+14l0l3	courant_2017__	T
+
+#Les polluants recherchés sont les hydrocarbures C10-C40, les hydrocarbures aromatiques polycycliques (HAP), les BTEX (benzène, toluène, éthylbenzène, xylènes), les composés organiques volatils halogénés (COHV) et les métaux.
+
+15l1l0	hydrocarbures_C10_C40	S
+15l1l1	hydrocarbures_aromatiques_polycycliques	S
+15l1l2	HAP	S
+15l1l3	les_BTEX	S
+15l1l4	benzène	S
+15l1l5	toluène	S
+15l1l6	éthylbenzène	S
+15l1l7	xylènes	S
+15l1l8	les_composés_organiques_volatils_halogénés	S
+15l1l9	COHV	S
+15l1l10	métaux	S
+
+#D’après les activités décrites, la recherche de ces polluants est pertinente.
+
+
+#Pollution des sols
+
+
+#Sur sols bruts, il apparaît :
+
+
+#- des impacts en hydrocarbures lourds (> C16) au droit de S2 (1-2) certainement liés à l’ancien décanteur et S5 entre 1 et 5 m et dans une moindre mesure S6 (3-4) liés à l’ancienne cuve FOD ;
+
+19l0l0	des_impacts	N
+19l0l1	au_droit_de	L
+19l0l2	S2	O
+19l1l0	hydrocarbures_lourds	S
+19l1l1	__C16	S
+19l1l2	cuve_FOD	D
+
+#- une teneur notable en certains composés chlorés : PCE, TCE et sous-produit de dégradation (1,2 dichloroéthylène) sur un seul point : S11 (zone du laboratoire) entre 1 et 2 m de profondeur ;
+
+20l1l0	composés_chlorés	S
+20l1l1	PCE	S
+20l1l2	TCE	S
+20l1l3	sous_produit	S
+20l1l4	1_2_dichloroéthylène	S
+
+#- de faibles concentrations (non significatives) en hydrocarbures sont observées sur le reste du site.
+
+21l1l0	hydrocarbures	S
+
+#- de faibles concentrations en HAP et PCB,
+
+22l1l0	HAP	S
+22l1l1	PCB	S
+
+#- l’absence de BTEX.
+
+23l1l0	BTEX	S
+
+#Sur sols après lixiviation, aucun dépassement des valeurs seuils fixées par l’arrêté du 12/12/2014 n’est mis en évidence pour les métaux, les phénols et le carbone organique total.
+
+24l0l0	après_lixiviation	N
+24l0l1	12_12_2014	T
+24l1l0	les_métaux	S
+24l1l1	les_phénols	S
+24l1l2	carbone_organique_total	S
+
+#Pollution des eaux souterraines
+
+25l0l0	Pollution_des_eaux_souterraines	O
+
+#Le sens d’écoulement de la nappe est en direction du Sud-Ouest.
+
+26l0l0	la_nappe	O
+26l0l1	en_direction_du_Sud_Ouest	L
+
+#Les résultats d’analyse mettent en évidence uniquement la présence de chlorure de vinyle au droit du puits (0,4 µg/L (cette concentration est supérieure au seuil eau potable)).
+
+27l0l0	au_droit_du_puits	L
+27l1l0	chlorure_de_vinyle	S
+
+#Aucune autre substance n’a été détectée.
+
+
+#Le sens de la nappe change en fonction des saisons à cause de la proximité du Rhône à l'Est et d'un étang de carrière à l'Ouest.
+
+29l0l0	la_proximité_du_Rhône_à_l__Est_et_d__un_étang_de_carrière_à_l__Ouest	L
+
+#Le chlorure de vinyle (CV) est certainement lié à l’usage de Trichloroéthylène (TCE) sur le site dans le laboratoire.
+
+30l1l0	Le_chlorure_de_vinyle	S
+30l1l1	CV	S
+30l1l2	Trichloroéthylène	S
+30l1l3	TCE	S
+
+#A noter que le CV est un produit de dégradation du TCE.
+
+31l1l0	TCE	I

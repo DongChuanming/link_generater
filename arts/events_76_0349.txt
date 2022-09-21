@@ -1,0 +1,231 @@
+
+#76.0349
+#Le site est traversé par le cours d'eau "le Cailly".
+
+0l0l0	Le_site	O
+0l0l1	est_traversé_par	R
+0l0l2	le_cours_d__eau	O
+0l0l3	Cailly	L
+
+#Trois captage d'eau potable sont situés près du site: les deux captages "des anglais" situés à 50 mètres du site, et le captage "des sondres" situé à environ 500 mètres du site.
+
+1l0l0	Trois_captage	O
+1l0l1	situés_près_du_site	L
+1l0l2	les_deux_captages	O
+1l0l3	situés_à_50_mètres_du_site	L
+1l0l4	le_captage	O
+1l0l5	situé_à_environ_500_mètres_du_site	L
+
+#Ils alimentent la commune de Montville et les communes avoisinantes.
+
+2l0l0	alimentent_la_commune_de_Montville_et_les_communes_avoisinantes	L
+
+#Le site dispose de deux captages "Legrand", dont un de secours.
+
+3l0l0	Le_site	O
+3l0l1	dispose_de	R
+3l0l2	deux_captages	O
+3l1l0	__Legrand__	I
+
+#A partir de 1893, à la place d'une ancienne filature, s'implante la tisserie de coton Geoges Lepicard.
+
+4l0l0	A	R
+4l0l1	partir_de_1893	T
+4l0l2	à_la_place_d__une_ancienne_filature	A
+4l0l3	s__implante	N
+4l0l4	la_tisserie_de_coton	A
+4l0l5	Geoges_Lepicard	O
+
+#Après la fermeture de cette entreprise, les établissements Badin et fils reprennent la tisserie.
+
+5l0l0	Après_la_fermeture_de	N
+5l0l1	cette_entreprise	O
+5l0l2	les_établissements_Badin_et_fils_reprennent	N
+5l0l3	la_tisserie	O
+5l1l0	les_établissements_Badin	I
+
+#La société Legrand Normandie commence son activité en 1973.
+
+6l0l0	La_société_Legrand_Normandie	O
+6l0l1	commence_son_activité	N
+6l0l2	en_1973__	T
+6l1l0	La_société_Legrand_Normandie	I
+
+#L'activité principale est la fabrication de produits et de systèmes pour les installations électriques et les réseaux d'information.
+
+7l0l0	la_fabrication_de_produits_et_de_systèmes	A
+7l0l1	les_installations_électriques	O
+
+#La campagne d'investigations des eaux souterraines d'avril 2011 a permis de mettre en évidence la présence d'une concentration significative en COHV (PCE et PTE) au droit du captage Legrand.
+
+8l0l0	La_campagne_d__investigations	N
+8l0l1	eaux_souterraines	O
+8l0l2	d__avril_2011	T
+8l0l3	la_présence	O
+8l0l4	au_droit_du_captage_Legrand	L
+8l1l0	COHV	S
+8l1l1	PCE_et_PTE	S
+
+#Une campagne réalisée en juin 2011 a confirmé les résultats obtenus via la campagne d'avril 2011.
+
+9l0l0	Une_campagne_réalisée	N
+9l0l1	en_juin_2011	T
+9l0l2	la_campagne_d_	N
+9l0l3	avril_2011__	T
+
+#Réalisée suite à la demande de la DREAL et pour le compte du Syndicat Intercommunal d'Adduction d'Eau Potable et d'Assainissement (SIAEPA) de la région de Montville, la campagne de prélèvements et d'analyses de mai 2012 a inclus la pose de deux ouvrages complémentaires (piézomètres G et H) afin de capter les eaux souterraines de la nappe de la craie en amont, à l'extérieur (piézomètre G) et au droit du site, sur la rive Ouest du "Cailly" à proximité des ateliers municipaux de Montville (piézomètre H).
+
+10l0l0	Réalisée	N
+10l0l1	suite_à	R
+10l0l2	la_demande	N
+10l0l3	la_DREAL	O
+10l0l4	le_compte_du_Syndicat_Intercommunal_d__Adduction_d__Eau_Potable_et_d__Assainissement	O
+10l0l5	la	O
+10l0l6	région_de_Montville	L
+10l0l7	la_campagne_de_prélèvements	N
+10l0l8	de_mai_2012	T
+10l0l9	la_pose_de	N
+10l0l10	deux_ouvrages_complémentaires	O
+10l0l11	au_droit_du_site	L
+10l0l12	sur_la_rive_Ouest_du___Cailly___à_proximité_des_ateliers_municipaux_de_Montville	L
+10l1l0	Syndicat	S
+10l1l1	SIAEPA	I
+
+#Les analyses réalisées ont mis en évidence la présence d'une teneur significative en tétrachloroéthylène et trichloréthylène supérieure à la limite de qualité établie par l'annexe I de l'arrêté ministériel du 11 janvier 2007 (10 µg/l) au droit du piézomètre G (amont hydraulique du site).
+
+11l0l0	Les_analyses_réalisées	N
+11l0l1	11_janvier_2007	T
+11l0l2	amont_hydraulique_du_site	L
+11l1l0	tétrachloroéthylène	S
+11l1l1	trichloréthylène	S
+
+#Aucune teneur en COHV n'a été quantifiée dans le piézomètre installé sur la rive droite du "Cailly" (piézomètre H).
+
+12l0l0	été_quantifiée	N
+12l0l1	le_piézomètre	O
+12l0l2	installé_sur_la_rive_droite_du___Cailly__	L
+12l1l0	COHV	S
+
+#L'étude parallèle à celle décrite ci-dessus, réalisée pour le compte de Legrand, a inclus la pose de deux ouvrages complémentaires (piézomètres E et F) afin de capter respectivement les eaux souterraines de la nappe des alluvions et de la nappe de la craie au droit du site.
+
+13l0l0	réalisée_pour_le_compte	N
+13l0l1	Legrand	O
+13l0l2	a_inclus	N
+13l0l3	la_pose_de	N
+13l0l4	deux_ouvrages_complémentaires	O
+13l0l5	au_droit_du_site	L
+13l1l0	Legrand	I
+
+#La présence de teneurs significatives  tétrachloroéthylène et trichloréthylène a été mise en évidence au droit du site (forage Legrand, captage de secours, piézomètres A, E et F) et dans les captages AEP des Anglais.
+
+14l0l0	évidence_au_droit_du_site	L
+14l0l1	__forage_Legrand	L
+14l0l2	et_dans_les_captages_AEP_des_Anglais	L
+14l1l0	__tétrachloroéthylène_et_trichloréthylène	S
+
+#Une nouvelle campagne de contrôle des eaux souterraines a été organisée en juillet 2013.
+
+15l0l0	Une_nouvelle_campagne_de_contrôle_des_eaux_souterraines	O
+15l0l1	a_été_organisée	N
+15l0l2	en_juillet_2013__	T
+
+#Un total de 12 ouvrages a été échantillonné (piézomètres A à H, captage Legrand, captage de secours, captage AEP des Anglais et le piézomètre des Anglais).
+
+16l0l0	12_ouvrages	O
+16l0l1	a_été_échantillonné	N
+16l0l2	captage_AEP_des_Anglais	O
+
+#Les résultats d'analyses ont mis en évidence la présence de tétrachloroéthylène et trichloréthylène sur l'ensemble des échantillons.
+
+17l1l0	tétrachloroéthylène	S
+17l1l1	trichloréthylène	S
+
+#Un diagnostic des sols a été réalisé en juillet 2013. 14 sondages ont été faits.
+
+18l0l0	Un_diagnostic_des_sols	N
+18l0l1	a_été_réalisé_en	N
+18l0l2	juillet_2013__	T
+18l0l3	14_sondages_ont_été_faits	N
+
+#Des COHV ont été quantifiés sur 9 échantillons.
+
+19l0l0	Des_COHV	O
+19l0l1	ont_été_quantifiés	N
+19l1l0	Des_COHV	S
+
+#La présence d'une teneur significative en trichloréthylène a été mise en évidence dans les remblais sous les bâtiments, au droit du sondage S7 réalisé en aval du forage Legrand, à l'intérieur du bâtiment anciennement concerné par l'outillage.
+
+20l0l0	a_été_mise_en_évidence	N
+20l0l1	les_remblais	N
+20l0l2	sous_les_bâtiments	L
+20l0l3	au_droit_du_sondage_S7_réalisé_en_aval_du_forage_Legrand	L
+20l0l4	à_l__intérieur_du_bâtiment	O
+20l0l5	anciennement_concerné_par	R
+20l0l6	l__outillage	O
+20l1l0	trichloréthylène	S
+20l1l1	Legrand	I
+
+#Les résultats des analyses ont permis de quantifier les métaux lourds et métalloïdes (cuivre, plomb, nickel, zinc et mercure) à des concentrations supérieures aux valeurs de références ASPITET (bruit de fond géochimique des sols en France défini par l'INRA) dans 6 échantillons.
+
+21l1l0	métaux_lourds	S
+21l1l1	métalloïdes	S
+21l1l2	cuivre	S
+21l1l3	plomb	S
+21l1l4	nickel	S
+21l1l5	zinc	S
+21l1l6	mercure	S
+
+#La présence de ces teneurs peut être attribuée aux activités anciennes et actuelles, et ne constitue pas un risque sanitaire pour les usagers du site compte tenu du confinement des terres échantillonnées.
+
+22l0l0	activités_anciennes	O
+
+#En avril 2015, des investigations sur les gaz du sol et les sols sont réalisées.
+
+23l0l0	En_avril_2015__	T
+23l0l1	des_investigations	N
+23l0l2	les_sols	O
+23l0l3	sont_réalisées	N
+
+#Elles révèlent la présence de HAP et d'hydrocarbures.
+
+24l0l0	HAP	O
+24l1l0	HAP	S
+24l1l1	hydrocarbures	S
+
+#Une évaluation quantitative des risques sanitaire (EQRS) a été établie le 17/07/15.
+
+25l0l0	Une_évaluation_quantitative	N
+25l0l1	a_été_établie	N
+25l0l2	le_17_07_15__	T
+
+#Elle indique que les niveaux de risque sont inférieurs aux seuils de risque recommandés dans la méthodologie de gestion des sites potentiellement pollués.
+
+26l0l0	pollués	A
+
+#L'état environnemental du site est compatible avec l'hypothèse d'aménagement général envisagée.
+
+
+#En outre, le bureau d'études recommande, une fois le projet d'aménagement défini, de mettre à jour l'EQRS.
+
+28l0l0	le_bureau_d__études	O
+28l0l1	le_projet	O
+28l0l2	aménagement_défini	N
+28l0l3	mettre_à_jour	N
+28l0l4	l__EQRS	O
+
+#L'inspection des installations classées considère cette étude incomplète et demande des compléments notamment sur l'identification des voies d'exposition, l'identification des cibles retenues et le schéma conceptuel.
+
+29l0l0	L__inspection_des_installations_classées	O
+29l0l1	identification	N
+29l0l2	des_cibles_retenues	O
+29l0l3	le_schéma_conceptuel	O
+
+#Par ailleurs, des dispositions seront prises lors des travaux (excavations,...) et les constructions et occupations futures respecteront les dispositions réglementaires imposées dans le cadre de la DUP...
+
+30l0l0	des_travaux	N
+30l0l1	excavations	N
+30l0l2	les_constructions_et_occupations_futures	O
+30l0l3	respecteront	R
+30l0l4	les_dispositions_réglementaires	O
+30l0l5	imposées_dans_le_cadre_de	R
+30l0l6	la_DUP	O

@@ -1,0 +1,107 @@
+
+#59.0279
+#Il s'agit d'un site en activité de l'industrie mécanique, spécialisé dans la fabrication de wagons.
+
+0l0l0	un_site	O
+0l0l1	l__industrie_mécanique	A
+0l0l2	spécialisé_dans	R
+0l0l3	la_fabrication_de_wagons	A
+
+#Des activités de passivation des métaux et d'application de peintures sont exercées.
+
+1l0l0	Des_activités_de_passivation	N
+1l0l1	d__application_de_peintures	A
+1l0l2	sont_exercées	N
+
+#L'activité industrielle a débuté au début du 20 éme siecle par des forges et ensuite rapidement évolué vers l'emboutissage de tôles et la construction de wagons.
+
+2l0l0	L__activité_industrielle	A
+2l0l1	a_débuté	N
+2l0l2	au_début_du_20_éme_siecle	O
+2l0l3	forges	A
+2l0l4	l__emboutissage_de_tôles	A
+2l0l5	la_construction_de_wagons	A
+
+#Sur ce site en activité visé par la circulaire du 3 avril 1996, une étude des sols a été réalisée.
+
+3l0l0	Sur_ce_site_en_activité	O
+3l0l1	visé_par	R
+3l0l2	la_circulaire	O
+3l0l3	3_avril_1996__	T
+3l0l4	une_étude_des_sols	N
+3l0l5	a_été_réalisée	N
+
+#Des pollutions ont été mises en évidence :
+
+
+#- dans le ruisseau voisin, la cunette, en raison de déversements de bains de dégraissage(présence de plomb).
+
+5l0l0	dans	L
+5l0l1	le_ruisseau_voisin	O
+5l0l2	cunette	L
+5l0l3	en_raison_de	R
+5l0l4	déversements_de_bains_de_dégraissage_présence	O
+5l1l0	plomb	S
+
+#- suite à un écoulement froid de pyralène.
+
+6l0l0	suite_à	R
+6l0l1	un_écoulement_froid	N
+6l0l2	pyralène	O
+6l1l0	pyralène	S
+
+#Cette pollution a été traitée.
+
+7l0l0	Cette_pollution	O
+7l0l1	a_été_traitée	N
+
+#- suite à des écoulements de produits de la cabine de passivation.
+
+8l0l0	suite_à	R
+8l0l1	des_écoulements	N
+8l0l2	la_cabine_de_passivation	O
+
+#L'arrêté préfectoral du 21 mai 2001 a notamment imposé le curage de la cunette et la réalisation d'une surveillance des eaux souterraines
+
+9l0l0	L__arrêté_préfectoral	O
+9l0l1	21_mai_2001	T
+9l0l2	a_notamment_imposé	N
+9l0l3	le_curage	N
+9l0l4	la_cunette	O
+9l0l5	la_réalisation_d_	O
+9l0l6	une_surveillance_des_eaux_souterraines	A
+
+#à l'aide de 4 piézomètres situés dans la nappe de la craie.
+
+
+#Le fossé « La Cunette » fait partie de l’emprise qui a été rétrocédée à la CAD (Communauté d’Agglomération du Douaisis) en 2006.
+
+11l0l0	Le_fossé	O
+11l0l1	de_l__emprise	O
+11l0l2	qui_a_été_rétrocédée	N
+11l0l3	à_la_CAD	O
+11l0l4	d__Agglomération_du_Douaisis	L
+11l0l5	__en_2006__	T
+11l1l0	rétrocédée_à_la_CAD	I
+11l1l1	__Communauté	S
+
+#Les travaux de curage de ce fossé ont été réalisés en décembre 2006 sous la maîtrise d’ouvrage de la CAD (Communauté d’Agglomération du Douaisis) et sous la maîtrise d’œuvre de l’EPF (Etablissement Public Foncier).
+
+12l0l0	Les_travaux_de_curage	N
+12l0l1	ce_fossé	O
+12l0l2	ont_été_réalisés	N
+12l0l3	en_décembre_2006	T
+12l0l4	sous	R
+12l0l5	la	N
+12l0l6	maîtrise_d__ouvrage	O
+12l0l7	la_CAD	O
+12l0l8	Communauté_d_	N
+12l0l9	Agglomération_du_Douaisis	L
+12l0l10	sous_la_maîtrise_d__œuvre	O
+12l0l11	l__EPF	O
+12l1l0	l__EPF	I
+
+#Les résultats de la surveillance disponibles à ce jour ont montré des valeurs  supérieures à la valeur de constat d'impact (VCI usage sensible) pour le nickel et l'indice phénol.
+
+13l1l0	pour_le_nickel	S
+13l1l1	l__indice_phénol	S

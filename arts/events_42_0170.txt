@@ -1,0 +1,154 @@
+
+#42.0170
+#L’exploitation du site aurait débuté en 1965.
+
+0l0l0	L__exploitation_du_site_aurait_débuté	N
+0l0l1	en_1965	T
+
+#La clôture de la liquidation judiciaire de l’entreprise PLM AUTO a été prononcée par jugement du Tribunal de Commerce de SAINT ETIENNE en date du 29 janvier 2014.
+
+1l0l0	La_clôture_de_la_liquidation_judiciaire	N
+1l0l1	l__entreprise_PLM_AUTO	O
+1l0l2	a_été_prononcée_par_jugement	N
+1l0l3	du_Tribunal_de_Commerce_de_SAINT_ETIENNE	L
+1l0l4	en_date_du_29_janvier_2014__	T
+1l1l0	PLM_AUTO	I
+1l1l1	du_Tribunal_de_Commerce_de_SAINT_ETIENNE	I
+
+#Il s’agit d’une clôture pour insuffisance d’actifs.
+
+
+#Le mandataire judiciaire n’a donc pas établi les procédures et actions réglementaires.
+
+
+#Le site est entouré :
+
+4l0l0	Le_site	O
+
+#- au Nord par la commune de Planfoy,
+
+5l0l0	au_Nord_par_la_commune_de_Planfoy	L
+
+#- à l’Est par la Rn82 puis des habitations et de la fôret,
+
+6l0l0	à_l__Est_par_la_Rn82	L
+6l0l1	la_fôret	L
+
+#- au Sud par des habitations et des champs,
+
+7l0l0	au_Sud	L
+
+#- à l’Ouest par un talus surplombant le ruisseau du Furet puis le bois de la Neyranche.
+
+8l0l0	à_l__Ouest_par_un_talus_surplombant_le_ruisseau_du_Furet	L
+8l0l1	le_bois_de_la_Neyranche	L
+
+#L’élément significatif de la localisation de l’entreprise est son positionnement en surplomb du ruisseau « le Furet » en limite ouest, et s’écoulant vers le nord-ouest.
+
+9l0l0	la_localisation	O
+9l0l1	l__entreprise	O
+9l0l2	son_positionnement	N
+9l0l3	en_surplomb_du_ruisseau_____le_Furet_____en_limite_ouest	L
+9l0l4	écoulant_vers_le_nord_ouest	L
+
+#Le sol du site est constitué d’un revêtement en enrobé, de remblais divers, puis du terrain naturel supposé, composé de limons et morceaux de granite.
+
+
+#Aucune arrivée d’eau n’a été constatée lors des investigations de sols, jusqu’à 5 m de profondeur.
+
+11l0l0	des_investigations_de_sols	N
+
+#Il est précisé que l’enrobé est d’assez mauvais qualité, et que les eaux d’infiltration et de ruissellement sont susceptibles d’entraîner des contaminations jusqu’au ruisseau en contrebas.
+
+12l0l0	des_contaminations	O
+12l0l1	au_ruisseau_en_contrebas	L
+
+#Dans son rapport du 11 juin 2013, l’inspection indique que le liquidateur judiciaire a communiqué, en date du 18 avril 2013, un rapport environnemental relatif à une contamination des sols sur le site.
+
+13l0l0	11_juin_2013__	T
+13l0l1	le_liquidateur_judiciaire	O
+13l0l2	a_communiqué	N
+13l0l3	en_date_du_18_avril_2013__	T
+13l0l4	un_rapport_environnemental	O
+13l0l5	relatif_à	R
+13l0l6	une_contamination	N
+13l0l7	des_sols	N
+
+#Le rapport communiqué fait état de contaminations des sols au droit des cuves, volucompteurs et zones de dépotage, et le liquidateur indique qu’il ne dispose pas des fonds nécessaires à l’établissement d’un mémoire de cessation d’activité.
+
+14l0l0	contaminations	O
+14l0l1	sols	O
+14l0l2	au_droit_des_cuves	L
+14l0l3	dépotage	A
+14l0l4	cessation_d__activité	N
+14l1l0	cuves	D
+
+#Certaines contaminations sont considérées comme significatives et nécessitent un traitement adapté une fois délimité la zone source :
+
+15l0l0	traitement_adapté	O
+15l0l1	la_zone_source	O
+
+#- au droit du sondage S2 entre 4 et 5 m de profondeur, les teneurs en HC C5-C10 sont relevées à 5700 mg/kg de matière sèche,
+
+16l0l0	au_droit_du_sondage_S2	L
+16l1l0	HC_C5_C10	S
+
+#- au droit de ce même sondage, les BTEX sont présents à hauteur de 1100 mg/kg de matière sèche,
+
+17l1l0	les_BTEX	S
+
+#- les analyses de gaz du sol au moyen de tubes Dräger ont permis de relever des teneurs de 100 ppmV en vapeurs d’essence au droit du sondage S2, sans que ces analyses puissent être considérées comme représentatives.
+
+18l0l0	au_droit_du_sondage_S2	L
+
+#Il convient donc de demander au liquidateur
+
+
+#- de procéder à la mise en sécurité du site (dégazage et inertage des cuves, clôture du site, démantèlement des volucompteurs...),
+
+20l0l0	la_mise_en_sécurité	N
+20l0l1	du_site	O
+20l0l2	dégazage	N
+20l0l3	inertage_des	N
+20l0l4	cuves	O
+20l0l5	clôture_du_site	N
+20l0l6	démantèlement_des_volucompteurs	N
+20l1l0	cuves	D
+
+#- de réaliser des analyses HCT et BTEX sur un échantillon prélevé en pied du talus côté ouest du site,
+
+21l0l0	de_réaliser_des_analyses	N
+21l0l1	en_pied_du_talus_côté_ouest_du_site	L
+21l1l0	HCT	S
+21l1l1	BTEX	S
+
+#- de présenter un plan de gestion du point chaud constitué au droit du sondage S2  (côté ouest de la cuve tri-compartimentée).
+
+22l0l0	un_plan_de_gestion_du_point_chaud	O
+22l0l1	constitué	N
+22l0l2	au_droit_du_sondage_S2_____côté_ouest_de_la_cuve_tri_compartimentée	L
+
+#Dans son rapport du 16 octobre 2014, l’inspection propose de saisir l’ADEME de cette affaire.
+
+23l0l0	16_octobre_2014__	T
+23l0l1	l__ADEME	O
+
+#La commune de PLANFOY compte rendre le tènement à sa destination initiale, à savoir artisanat ou commerce, et s’inquiète des risques résultant de l’abandon de ses équipements.
+
+24l0l0	La_commune_de_PLANFOY	O
+24l0l1	compte_rendre	R
+24l0l2	le_tènement	O
+24l0l3	destination_initiale	N
+24l0l4	artisanat_ou_commerce	A
+24l0l5	s__inquiète	R
+24l0l6	l__abandon_de_ses_équipements	N
+
+#La situation du tènement en surplomb d’un ruisseau devrait en outre conduire à des analyses d’eaux souterraines et de surface, le budget afférent pouvant s’intégrer dans le montant estimé à 45000 € en début d’année.
+
+25l0l0	La_situation_du_tènement	O
+25l0l1	en_surplomb_d__un_ruisseau	L
+25l0l2	à	R
+25l0l3	des_analyses_d__eaux_souterraines	O
+25l0l4	45000__	O
+25l0l5	en	T
+25l0l6	début_d__année	T

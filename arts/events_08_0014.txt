@@ -1,0 +1,208 @@
+
+#08.0014
+#La société VALLOUREC-ISOPIPE puis la société G.
+
+0l0l0	La_société_VALLOUREC___ISOPIPE	O
+0l0l1	la_société_G_	O
+0l1l0	La_société_VALLOUREC___ISOPIPE	I
+0l1l1	la_société_G_	I
+
+#.S.
+
+
+#Industrie fabriquait sur le site des tubes pour pipe line qui étaient ensuite enduits de bitume ou de revêtement époxy.
+
+2l0l0	Industrie	O
+2l0l1	fabriquait	A
+2l0l2	pipe_line	O
+2l0l3	revêtement_époxy	A
+2l1l0	bitume	U
+
+#Le site qui s'étend sur une surface de 25 ha sur les communes de SEDAN et de GLAIRE, a cessé son activité en 1987.
+
+3l0l0	Le_site	O
+3l0l1	ha	T
+3l0l2	sur_les_communes_de_SEDAN_et_de_GLAIRE	L
+3l0l3	a_cessé	N
+3l0l4	son_activité	O
+3l0l5	en_1987__	T
+
+#Le site est en partie réutilisé par plusieurs sociétés dont les sociétés CEPIA et MOB
+
+4l0l0	Le_site	O
+4l0l1	les_sociétés_CEPIA	O
+4l1l0	les_sociétés_CEPIA	I
+4l1l1	MOB	I
+
+#Un diagnostic initial et une évaluation simplifiée des risques ont été imposés à la société G.
+
+5l0l0	Un_diagnostic_initial	N
+5l0l1	une_évaluation_simplifiée_des_risques	N
+5l0l2	ont_été_imposés	N
+5l0l3	la_société_G_	O
+5l1l0	la_société_G_	I
+
+#.S.
+
+
+#Industrie par arrêté préfectoral en date du 31 juillet 1997, suite à des demandes d'aide pour la réhabilitation de la friche.
+
+7l0l0	Industrie	O
+7l0l1	arrêté_préfectoral	O
+7l0l2	en_date_du_31_juillet_1997__	T
+7l0l3	suite	R
+7l0l4	à_des_demandes_d_	N
+7l0l5	aide	O
+7l0l6	la_réhabilitation	N
+7l0l7	la_friche	O
+
+#Le diagnostic initial remis fin 1998 a mis en évidence la présence de fûts (isocyanates, liquides chlorés, de graisses, de goudrons...), de plaques de bitume, de liquides suspects dans les fosses...
+
+8l0l0	Le_diagnostic_initial_remis	N
+8l0l1	fin_1998	T
+8l0l2	a_mis_en_évidence	R
+8l0l3	la_présence	O
+8l0l4	bitume	O
+8l1l0	isocyanates	S
+8l1l1	liquides_chlorés	U
+8l1l2	goudrons	U
+8l1l3	bitume	U
+
+#Une partie des déchets ont été excavés et éliminés.
+
+9l0l0	Une_partie_des_déchets	O
+9l0l1	ont_été_excavés	N
+9l0l2	éliminés	N
+
+#Des investigations complémentaires ont été demandées par l'inspection des installations classées à l'exploitant en avril 1999.
+
+10l0l0	Des_investigations_complémentaires	O
+10l0l1	ont_été_demandées	N
+10l0l2	l__inspection_des_installations_classées	O
+10l0l3	l__exploitant	O
+10l0l4	en_avril_1999__	T
+
+#Les compléments ont été fournis par l'exploitant à l'inspection des installations classées en novembre 1999.
+
+11l0l0	Les_compléments	O
+11l0l1	ont_été_fournis	N
+11l0l2	l__exploitant	O
+11l0l3	l__inspection_des_installations_classées	O
+11l0l4	en_novembre_1999__	T
+
+#Le site est classé comme "à surveiller".
+
+
+#L'inspection a demandé à l'ancien exploitant BAIL INDUSTRIE la mise en place d'une surveillance des eaux souterraines par courrier en date du 23 septembre 2002.
+
+13l0l0	l_	O
+13l0l1	exploitant	O
+13l0l2	BAIL_INDUSTRIE	O
+13l0l3	la_mise_en_place_d__une	N
+13l0l4	surveillance_des_eaux_souterraines	A
+13l0l5	en_date_du_23_septembre_2002	T
+13l1l0	BAIL_INDUSTRIE	I
+
+#L'exploitant n'ayant jamais transmis à l'inspection des installations classées une proposition de mise en place de cette surveillance, il a donc été relancé par courrier du 23/05/2003.
+
+14l0l0	L__exploitant	O
+14l0l1	l__inspection_des_installations_classées	O
+14l0l2	une_proposition_de_mise_en_place_de_cette_surveillance	N
+14l0l3	il	O
+14l0l4	a_donc_été_relancé_par_courrier	N
+14l0l5	du_23_05_2003__	T
+
+#Par courrier du 23 juillet 2003, la société Bail Industrie a communiqué à l'inspection les propositions d'un bureau d'études relatives à la mise en place d'un réseau de surveillance des eaux souterraines.
+
+15l0l0	du_23_juillet_2003__	T
+15l0l1	la_société_Bail_Industrie	O
+15l0l2	a_communiqué	N
+15l0l3	l__inspection_les_propositions	O
+15l0l4	un_bureau_d__études	O
+15l0l5	relatives_à	R
+15l0l6	la_mise_en_place_d__un	N
+15l0l7	réseau_de_surveillance_des_eaux_souterraines	A
+15l1l0	la_société_Bail_Industrie	I
+
+#Par courrier en date du 8 octobre 2003, l'inspection des installations classées a fait part de ses remarques à la société et lui a demandé que la surveillance soit effective dans un délai d'un mois au plus tard et que les résultats d'analyses lui sont transmis dès réception.
+
+16l0l0	en_date_du_8_octobre_2003__	T
+16l0l1	l__inspection_des_installations_classées	O
+16l0l2	a_fait_part	N
+16l0l3	la_société	O
+16l0l4	la_surveillance	O
+16l0l5	soit_effective	N
+16l0l6	dans_un_délai_d__un_mois_au_plus_tard	T
+
+#Aucun résultat supplémentaire de surveillance des eaux souterraines n'a été obtenu.
+
+
+#Par les rapports du 25 août 2005 (Avis favorable du CDH d'Octobre 2005) et du 16 janvier 2006, l'inspection des installations classées a proposé par A.
+
+18l0l0	Par	R
+18l0l1	les_rapports_du	N
+18l0l2	25_août_2005	T
+18l0l3	d__Octobre_2005	T
+18l0l4	16_janvier_2006__	T
+18l0l5	l__inspection_des_installations_classées	O
+18l0l6	a_proposé	N
+18l0l7	A_	O
+
+#.C une surveillance des eaux souterraines, superficielles et une mesure d'impact de la pollution du site sur les sédiments dans la Rû de Glaire.
+
+19l0l0	surveillance_des_eaux_souterraines	A
+19l0l1	la_Rû_de_Glaire	L
+
+#Un arrêté préfectoral complémentaire est notifié par le préfet le 24 aout 2006.
+
+20l0l0	Un_arrêté_préfectoral_complémentaire	O
+20l0l1	est_notifié	N
+20l0l2	le_préfet	O
+20l0l3	le_24_aout_2006__	T
+20l1l0	préfet	I
+
+#L'arrêté divise de manière théorique le site en deux parties:
+
+
+#- la partie nord qui a fait l'objet de travaux de dépollution entre 1997 et 2006: où une étude résiduelle des risques a été prescrite,
+
+22l0l0	la_partie_nord	O
+22l0l1	a_fait_l__objet	R
+22l0l2	de_travaux_de_dépollution	N
+22l0l3	entre_1997_et_2006__	T
+22l0l4	où_une_étude_résiduelle	N
+22l0l5	des_risques_a_été_prescrite	N
+
+#- la partie sud du site (lieu de l'implantation de la société CEPIA) qui n'a fait l'objet d'aucun travaux: où un diagnostique approfondi a été prescrit afin de déterminer les modes de transfert des polluants, les cibles impactées et les modes de dépollution à mettre en oeuvre.
+
+23l0l0	la_partie_sud_du_site	O
+23l0l1	la_société_CEPIA	O
+23l0l2	a_fait_l__objet	R
+23l0l3	d__aucun_travaux___où_un_diagnostique_approfondi_a_été_prescrit	N
+23l0l4	les_modes_de_transfert	N
+23l0l5	les_cibles_impactées	O
+23l0l6	les_modes_de_dépollution	N
+23l0l7	à_mettre_en_oeuvre	N
+23l1l0	la_société_CEPIA	I
+23l1l1	polluants	U
+
+#Une réunion technique avec l'exploitant s'est tenue au mois d'avril 2006 afin de discuter des investigations complémentaires à engager suivant les zones concernées.
+
+24l0l0	Une_réunion_technique	N
+24l0l1	l__exploitant	O
+24l0l2	s__est_tenue	N
+24l0l3	au_mois_d__avril_2006	T
+24l0l4	discuter_des_investigations_complémentaires	O
+24l0l5	les_zones_concernées	O
+
+#Le 20 octobre 2008 le tribunal administratif de Chalons en Champagne annule l'arrêté préfectoral du préfet des Ardennes du 24 aout 2006.
+
+25l0l0	Le_20_octobre_2008	T
+25l0l1	le_tribunal_administratif	O
+25l0l2	Chalons_en_Champagne	L
+25l0l3	annule	N
+25l0l4	l__arrêté_préfectoral	O
+25l0l5	préfet_des_Ardennes	O
+25l0l6	24_aout_2006__	T
+25l1l0	le_tribunal_administratif	I
+25l1l1	préfet_des_Ardennes	I

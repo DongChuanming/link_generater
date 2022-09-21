@@ -1,0 +1,126 @@
+
+#27.0038
+#Il s'agit d'une usine de fabrication d'articles sanitaires en laiton et zamack pour salles de bains (flexibles, barres et colonnes de douche) qui a cessé son activité en Avril 2000.
+
+0l0l0	une_usine	O
+0l0l1	de_fabrication_d__articles_sanitaires	A
+0l0l2	a_cessé_son_activité	N
+0l0l3	en_Avril_2000__	T
+
+#e procédé de fabrication comprenait des opérations de traitements de surfaces (dégraissage,nickelage,chromage).
+
+1l0l0	traitements_de_surfaces	A
+1l0l1	dégraissage	N
+1l0l2	nickelage	A
+
+#Dans le cadre de la cession de l'activité de son usine de Menneval et suite à notre courrier du 28/01/00, la société CHAMPION a fait réaliser durant l'année 2000 un dignostic de sol par le cabinet OPHRYS (TAUW ENVIRONNEMENT).
+
+2l0l0	Dans_le_cadre_de	R
+2l0l1	la_cession	N
+2l0l2	l_	O
+2l0l3	activité_de	A
+2l0l4	son_usine	O
+2l0l5	de_Menneval	L
+2l0l6	à_notre_courrier	N
+2l0l7	28_01_00	T
+2l0l8	la_société_CHAMPION	O
+2l0l9	a_fait_réaliser	N
+2l0l10	durant_l__année_2000	T
+2l0l11	un_dignostic	N
+2l0l12	le_cabinet_OPHRYS	O
+2l0l13	TAUW_ENVIRONNEMENT	O
+2l1l0	la_société_CHAMPION	I
+2l1l1	le_cabinet_OPHRYS___TAUW_ENVIRONNEMENT	I
+
+#Ce diagnostic a consisté en une étude historique et documentaire, ainsi qu'une reconnaissance de la qualité des sols, des eaux souterraines et superficielles.
+
+3l0l0	Ce_diagnostic	N
+3l0l1	une_reconnaissance	N
+3l0l2	la_qualité_des_sols	O
+
+#L'achèvement de ce diagnostic est intervenu en janvier 2001 avec la réalisation d'une évaluation simplifiée des risques ayant pour objectif le classement du site.
+
+4l0l0	L__achèvement_de_ce_diagnostic	N
+4l0l1	est_intervenu	N
+4l0l2	en_janvier_2001	T
+4l0l3	la_réalisation_d__une_évaluation_simplifiée_des_risques	N
+
+#Au regard des conclusions de l'E.
+
+
+#.R, le site relève des classes suivantes: classe 1 vis à vis du milieu "Sol" pour les 3 paramètres chrome/nickel/cuivre, classe 2 vis à vis des milieux "Eaux superficielles" et "Eaux souterraines non AEP" pour les mêmes polluants.
+
+6l1l0	chrome___nickel	S
+6l1l1	cuivre	S
+6l1l2	polluants	S
+
+#A noter de plus, la mise en évidence de traces d'hydrocarbures dans les eaux souterraines lors d'une des campagnes d'analyses.
+
+7l0l0	analyses	N
+7l1l0	hydrocarbures	S
+
+#Suite à ce constat, la société CHAMPION a confié au cabinet OPHRYS-TAUW ENVIRONNEMENT la réalisation  d'un diagnostic approfondi avec évaluation détaillée des risques pour la santé humaine en vue de définir les objectifs de réhabilitation du site.
+
+8l0l0	Suite	R
+8l0l1	à_ce_constat	N
+8l0l2	la_société_CHAMPION	O
+8l0l3	a_confié	N
+8l0l4	au_cabinet_OPHRYS___TAUW_ENVIRONNEMENT	O
+8l0l5	la_réalisation___d__un_diagnostic_approfondi	N
+8l0l6	humaine_en_vue_de	R
+8l0l7	définir_les_objectifs	O
+8l0l8	de_réhabilitation	N
+8l1l0	la_société_CHAMPION	I
+8l1l1	OPHRYS___TAUW_ENVIRONNEMENT	I
+
+#Les premières conclusions de cette étude examinée avec l'industriel le 14/12/01 confirment la nécessité d'instaurer un suivi de la qualité de la nappe souterraine et des eaux de surface au droit du site.
+
+9l0l0	Les_premières_conclusions	O
+9l0l1	cette_étude_examinée	N
+9l0l2	l__industriel	O
+9l0l3	le_14_12_01	T
+9l0l4	la_nécessité	O
+9l0l5	un_suivi_de_la_qualité_de_la_nappe_souterraine	A
+9l0l6	au_droit_du_site	L
+
+#Cette surveillance sera imposée sous peu à l'industriel par voie d'arrêté complémentaire.
+
+10l0l0	Cette_surveillance	A
+10l0l1	sera_imposée	N
+10l0l2	sous_peu	T
+10l0l3	l__industriel	O
+
+#Les con clusions définitives de l'E.
+
+
+#.R, actuellement en cours de discussion dans un contexte nouveau de cessation d'activité de l'établissement (absence de repreneur), nous amèneront très certainement à proposer des travaux de réhabilitation fonction de l'usage ultérieur du site dont la pérennité devra être assurée par le biais de servitudes.
+
+12l0l0	en_cours	T
+12l0l1	un	O
+12l0l2	contexte_nouveau	N
+12l0l3	cessation_d__activité	N
+12l0l4	l__établissement	O
+12l0l5	des_travaux_de_réhabilitation	N
+
+#ar ailleurs,les travaux de remise en état du site ont déjà été engagés par la vidange et l'évacuation en centre extérieur du contenu des cuves de traitements de surfaces ( constaté lors de notre visite du 14/12/01).
+
+13l0l0	les_travaux_de_remise_en_état_du_site	O
+13l0l1	ont_déjà_été_engagés	N
+13l0l2	la_vidange	N
+13l0l3	l_	O
+13l0l4	évacuation_en	N
+13l0l5	centre_extérieur	O
+13l0l6	contenu_des_cuves_de_traitements_de_surfaces	O
+13l0l7	de_notre_visite	N
+13l0l8	14_12_01	T
+
+#Toutefois, des sources potentielles de pollution existent encore sur le site (3 cuves enfouies d'hydrocarbures, une vingtaine de fûts,plusieurs redresseurs électriques rempis d'huile, un transformateur PCB,....) que l'industriel devra traiter rapidement (précisé par courrier du 24/12/01).
+
+14l0l0	fûts	O
+14l0l1	plusieurs_redresseurs_électriques_rempis	O
+14l0l2	un_transformateur_PCB	O
+14l0l3	24_12_01	T
+14l1l0	cuves_enfouies_d_	D
+14l1l1	hydrocarbures	S
+14l1l2	huile	S
+14l1l3	transformateur_PCB	S

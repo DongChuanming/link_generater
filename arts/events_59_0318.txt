@@ -1,0 +1,55 @@
+
+#59.0318
+#Ancien site de lavage de fûts ayant exercé ses activités de 1976 à 1997.
+
+0l0l0	Ancien_site_de_lavage_de_fûts	O
+0l0l1	ayant_exercé_ses_activités	A
+0l0l2	de_1976_à_1997__	T
+
+#Les études mettent en évidence 5 sources de pollution, 4 au niveau de remblais et 1 pour les eaux souterraines (nappe alluviale non-AEP des limons).
+
+1l0l0	5_sources_de_pollution	O
+
+#Le baryum et le cuivre contaminent l'ensemble du site en surface (0 à 0,3 m de profondeur), le plomb, le zinc et les hydrocarbures sont présents ponctuellement et les eaux souterraines enregistrent la présence de détergents anioniques, de nickel et d'hydrocarbures sur l'ensemble du site.
+
+2l1l0	baryum	S
+2l1l1	cuivre	S
+2l1l2	plomb	S
+2l1l3	le_zinc	S
+2l1l4	hydrocarbures	S
+2l1l5	détergents_anioniques	S
+2l1l6	nickel	S
+2l1l7	hydrocarbures	S
+
+#La nappe alluviale des limons semble présenter un dôme piézométrique an niveau du site, les eaux s'écouleraient donc dans deux sens opposés depuis le site, vers le nord (drainage par le réseau d'assainissement) et vers le sud (drainage par le canal de Roubaix) [cf schéma conceptuel].
+
+3l0l0	deux_sens_opposés	O
+3l0l1	vers_le_nord	L
+3l0l2	drainage	N
+3l0l3	le_sud	O
+3l0l4	drainage	N
+3l0l5	par_le_canal_de_Roubaix	L
+
+#Un essai de perméabilité donne un temps de transfert vers le canal de Roubaix de 880 ans.
+
+4l0l0	vers_le_canal_de_Roubaix	L
+4l0l1	880_ans	O
+
+#Les ESR, réalisées pour un usage non sensible du site avec couverture des remblais pollués par une voirie, sur la base des substances détectées, conduisent à une position en classe 2, site à surveiller, avec une incertitude maximale de 24%.
+
+5l0l0	Les_ESR	N
+5l0l1	réalisées_pour	R
+5l0l2	un_usage	N
+5l0l3	couverture	N
+5l0l4	remblais	N
+5l0l5	pollués_par_une_voirie	O
+
+#L'expert propose un programme de surveillance à partir des 3 piézomètres aval implantés, après confirmation de l'existence d'un dôme piézométrique au milieu du site.
+
+6l0l0	surveillance	A
+6l0l1	aval_implantés	O
+6l0l2	au_milieu_du_site	L
+
+#Les résultats Octobre 2002 montrent qu'aucun paramétre analysé ne présente de concentrations supérieures aux VCI pour un usage non sensible
+
+7l0l0	Octobre_2002	T

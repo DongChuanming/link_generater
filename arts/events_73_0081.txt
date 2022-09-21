@@ -1,0 +1,178 @@
+
+#73.0081
+#Implantée dans la zone industrielle de La Pouille, la société CADREX était spécialisée dans la fabrication de circuits électroniques.
+
+0l0l0	Implantée	R
+0l0l1	dans_la_zone_industrielle_de_La_Pouille	L
+0l0l2	la_société_CADREX	O
+0l0l3	était	R
+0l0l4	spécialisée_dans_la_fabrication_de_circuits_électroniques	A
+0l1l0	la_société_CADREX	I
+
+#Les activités ont été autorisées par arrêté préfectoral du 14/04/95.
+
+1l0l0	Les_activités	O
+1l0l1	ont_été_autorisées	N
+1l0l2	par_arrêté_préfectoral	O
+1l0l3	14_04_95__	T
+
+#L'entreprise est devenue AROL Circuits en 1996, puis CPS en 1998.
+
+2l0l0	L__entreprise	O
+2l0l1	est_devenue	N
+2l0l2	AROL_Circuits	O
+2l0l3	en_1996__	T
+2l0l4	CPS	O
+2l0l5	en_1998__	T
+2l1l0	AROL_Circuits	I
+2l1l1	CPS	I
+
+#La société CPS a été placée en liquidation judiciaire par jugement du 21 janvier 2000.
+
+3l0l0	La_société_CPS	O
+3l0l1	a_été_placée_en_liquidation_judiciaire_par_jugement	N
+3l0l2	du_21_janvier_2000__	T
+3l1l0	La_société_CPS	I
+
+#Les terrains et le bâtiment sont actuellement occupés par la société TREZ / AUREA Investissements.
+
+4l0l0	Les_terrains	O
+4l0l1	le_bâtiment	O
+4l0l2	sont_actuellement_occupés	N
+4l0l3	la_société_TREZ	O
+4l0l4	AUREA	O
+4l0l5	Investissements	N
+4l1l0	la_société_TREZ___AUREA_Investissements	I
+
+#Considérant les risques de pollutions des sols, des eaux souterraines et superficielles, et sur proposition de l’inspection des installations classées, un arrêté préfectoral du 12 décembre 2002 a imposé au liquidateur judiciaire de la société CPS (Me Clanet) la réalisation d’un diagnostic et d'une évaluation simplifiée des risques (ESR.
+
+5l0l0	Considérant	R
+5l0l1	les_risques_de_pollutions	O
+5l0l2	un_arrêté_préfectoral	O
+5l0l3	du_12_décembre_2002	T
+5l0l4	a_imposé	N
+5l0l5	la_société_CPS	O
+5l0l6	la_réalisation_d__un_diagnostic	N
+5l0l7	une_évaluation_simplifiée_des_risques	N
+5l1l0	la_société_CPS	I
+
+#Cette évaluation a été remise à l’administration par le liquidateur en janvier 2003, et complétée le 12 février 2003.
+
+6l0l0	Cette_évaluation	O
+6l0l1	a_été_remise	N
+6l0l2	l__administration	O
+6l0l3	le_liquidateur	O
+6l0l4	en_janvier_2003__	T
+6l0l5	complétée	N
+6l0l6	le_12_février_2003__	T
+
+#Elle conclut au classement du site en catégorie 1, compte tenu de la présence simultanée d’une source de pollution, de cibles, et de vecteurs de transfert potentiels de cette pollution.
+
+7l0l0	site	O
+7l0l1	en	R
+7l0l2	catégorie_1	O
+7l0l3	une_source_de_pollution	O
+7l0l4	de_cibles	O
+
+#Sur proposition de l’inspection des installations classées (rapport du 17 mars 2003), un arrêté préfectoral du 19/05/03 a imposé au liquidateur responsable du site :
+
+8l0l0	17_mars_2003	T
+8l0l1	un_arrêté_préfectoral	O
+8l0l2	du_19_05_03	T
+8l0l3	a_imposé	N
+
+#- une surveillance semestrielle de la qualité des eaux souterraines,
+
+9l0l0	une_surveillance_semestrielle	A
+9l0l1	la_qualité	O
+9l0l2	des_eaux_souterraines	A
+
+#- l’enlèvement des terres souillées dans un tunnel servant à l’évacuation des eaux usées débouchant au sud du bâtiment,
+
+10l0l0	l__enlèvement	N
+10l0l1	terres_souillées	O
+10l0l2	un_tunnel	O
+10l0l3	servant_à	R
+10l0l4	l_	O
+10l0l5	évacuation_des_eaux_usées	A
+10l0l6	débouchant_au_sud_du_bâtiment	L
+
+#- la réalisation d’une évaluation détaillée des risques  (EDR).
+
+11l0l0	la_réalisation_d__une_évaluation_détaillée_des_risques	N
+
+#Les travaux de dépollution du tunnel ont été réalisés par la société VALTECH (cf. rapport SOGREAH de novembre 2003).
+
+12l0l0	Les_travaux_de_dépollution	N
+12l0l1	tunnel	O
+12l0l2	ont_été_réalisés	N
+12l0l3	la_société_VALTECH	O
+12l0l4	novembre_2003	T
+12l1l0	la_société_VALTECH	I
+
+#L'EDR, réalisée par le bureau d'études SOGREAH, a été transmise à l'administration le 1er octobre 2003.
+
+13l0l0	L__EDR	N
+13l0l1	réalisée	N
+13l0l2	le_bureau_d__études_SOGREAH	O
+13l0l3	a_été_transmise	N
+13l0l4	l__administration	N
+13l0l5	le_1er_octobre_2003__	T
+13l1l0	SOGREAH	I
+
+#Elle a conclu à la nécessité de mettre en place, sur les zones non-revêtues, un remblai sain et végétalisable.
+
+
+#La mise en place de ce remblai a été prescrite à Me Clanet par arrêté préfectoral du 7/01/05.
+
+15l0l0	La_mise_en_place	N
+15l0l1	ce_remblai	O
+15l0l2	a_été_prescrite	N
+15l0l3	Me_Clanet	O
+15l0l4	7_01_05__	T
+
+#Cet arrêté a également complété les dispositions relatives à la  surveillance des eaux souterraines.
+
+16l0l0	Cet_arrêté	O
+16l0l1	a_également_complété	N
+16l0l2	les_dispositions	O
+16l0l3	relatives_à	R
+16l0l4	la___surveillance_des_eaux_souterraines	A
+
+#Cependant, les fonds restant au liquidateur se sont avérés insuffisants pour mener cette surveillance.
+
+17l0l0	les_fonds	O
+
+#Celle-ci a été prescrite au nouvel exploitant occupant le site : la société TREZ, autorisée à exploiter une unité de traitement de déchets zincifères par arrêté du 15/04/05 (N.
+
+18l0l0	a_été_prescrite	N
+18l0l1	nouvel_exploitant	O
+18l0l2	occupant	N
+18l0l3	le_site	O
+18l0l4	la_société_TREZ	O
+18l0l5	autorisée_à_exploiter	N
+18l0l6	une_unité_de_traitement_de_déchets_zincifères	A
+18l0l7	15_04_05	T
+18l1l0	la_société_TREZ	I
+18l1l1	zincifères	S
+
+#. : la société TREZ est devenue par la suite également propriétaire du site).
+
+19l0l0	la_société_TREZ	O
+19l0l1	est_devenue_par_la_suite_également_propriétaire	N
+19l0l2	site____	O
+19l1l0	la_société_TREZ	I
+
+#Cette surveillance a été complétée par arrêté complémentaire du 30/12/05 (mise en place d'un piézomètre supplémentaire et ajout de polluants caractéristiques des activités anciennes menées sur le site : tungstène, vanadium, yttrium, lanthanides et actinides.
+
+20l0l0	Cette_surveillance	A
+20l0l1	a_été_complétée	N
+20l0l2	par_arrêté_complémentaire	O
+20l0l3	du_30_12_05	T
+20l0l4	mise_en_place_d_	N
+20l1l0	polluants	U
+20l1l1	tungstène	S
+20l1l2	vanadium	S
+20l1l3	yttrium	S
+20l1l4	lanthanides	S
+20l1l5	actinides	S

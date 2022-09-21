@@ -1,0 +1,321 @@
+
+#72.0060
+#Ce site est exploité comme station service depuis 1963.
+
+0l0l0	Ce_site	O
+0l0l1	est_exploité	N
+0l0l2	depuis_1963	T
+
+#Différents exploitants se sont succédé.
+
+1l0l0	Différents_exploitants	O
+1l0l1	se_sont_succédé	N
+
+#En 1989, la société ELF-FRANCE, a pris la suite de Monsieur GARNIER, en 2012 la SARL SEYE et en 2015 TOTAL MARKETING FRANCE est devenue l'exploitant.
+
+2l0l0	En_1989	T
+2l0l1	la_société_ELF___FRANCE	O
+2l0l2	a_pris_la	N
+2l0l3	suite_de_Monsieur_GARNIER	O
+2l0l4	en_2012	T
+2l0l5	la_SARL_SEYE	O
+2l0l6	en_2015	T
+2l0l7	TOTAL_MARKETING_FRANCE	O
+2l0l8	est_devenue	N
+2l0l9	l__exploitant	O
+2l1l0	la_société_ELF___FRANCE	I
+2l1l1	GARNIER	I
+2l1l2	la_SARL_SEYE	I
+2l1l3	TOTAL_MARKETING_FRANCE	I
+
+#Cette installation était soumise au régime de déclaration au titre de la réglementation des installations classées pour la protection de l'environnement pour le stockage et la distribution d'hydrocarbures.
+
+3l0l0	Cette_installation	O
+3l0l1	était	R
+3l0l2	soumise_au_régime_de_déclaration	N
+3l0l3	la_réglementation_des_installations_classées	O
+3l0l4	pour_la_protection_de_l__environnement	O
+3l0l5	le_stockage_et_la_distribution_d__hydrocarbures	A
+3l1l0	hydrocarbures	S
+
+#En 2015, l'exploitant déclare que la quantité susceptible d'être présente dans les installations était de 35,35 tonnes d'essence et 98,18 tonnes au total; le volume réel distribué est de 3461,43 m3 annuel.
+
+4l0l0	En_2015__	T
+4l0l1	l__exploitant	O
+4l0l2	tonnes_d__essence	O
+4l1l0	essence	U
+
+#Les principales infrastructures de la station service TOTAL, implantée sur une parcelle cadastrale référencée section BC n° 17, étaient les suivantes (voir plan-cartographique-72.0060--3.pdf):
+
+5l0l0	Les_principales_infrastructures	O
+5l0l1	la_station_service_TOTAL	O
+5l0l2	implantée_sur_une_parcelle_cadastrale	N
+5l1l0	la_station_service_TOTAL	I
+
+#* un bâtiment au Sud de la parcelle accueillant :
+
+6l0l0	un_bâtiment	O
+6l0l1	au_Sud_de_la_parcelle	L
+
+#- à l'Est, une boutique ;
+
+7l0l0	à_l__Est	L
+
+#- à l'Ouest, un ancien atelier d'entretien et de réparation mécanique, en activité de 2012 à octobre 2015;
+
+8l0l0	à_l__Ouest	L
+8l0l1	un_ancien_atelier_d_	O
+8l0l2	entretien_et_de_réparation_mécanique	A
+8l0l3	en_activité_de_2012_à_octobre_2015	T
+
+#- au centre du bâtiment, le sous-sol avec un ancien réservoir de fioul (R6) d'1,5m3 extrait en 2010, dont le dépotage était à l'extérieur du bâtiment au Sud, et plusieurs pièces utilisées comme lieu de stockage (pneus, cartons...).
+
+9l0l0	centre_du_bâtiment	O
+9l0l1	le_sous_sol	O
+9l0l2	un_ancien_réservoir_de_fioul	O
+9l0l3	en_2010__	T
+9l0l4	le_dépotage_était	A
+9l0l5	à_l__extérieur_du_bâtiment_au_Sud	L
+9l1l0	fioul	U
+9l1l1	cartons	U
+
+#- accolé l'extérieur côté Ouest du bâtiment, un ancien réservoir enterré d'huiles usagées (R5) a été extrait en 2011.
+
+10l0l0	accolé_l__extérieur_côté_Ouest_du_bâtiment	L
+10l0l1	un_ancien_réservoir_enterré	O
+10l0l2	huiles_usagées	O
+10l0l3	a_été_extrait	N
+10l0l4	en_2011__	T
+10l1l0	huiles_usagées	U
+
+#* 2 îlots de distribution de carburants au Sud-Est du site, équipés de six volucompteurs, sous auvent et sur pavés et dalle béton.
+
+11l0l0	2_îlots_de_distribution_de_carburants	O
+11l0l1	au_Sud_Est_du_site	L
+11l1l0	carburants	U
+
+#* une aire de dépotage des carburants au Nord de l'îlot Est,
+
+12l0l0	une_aire	O
+12l0l1	de_dépotage_des_carburants	O
+12l0l2	au_Nord_de_l__îlot_Est	L
+12l1l0	carburants	U
+
+#* un séparateur à hydrocarbures (SH2) associé à l'aire de distribution de carburants à l'Est ;
+
+13l0l0	hydrocarbures	O
+13l0l1	distribution_de_carburants	A
+13l0l2	à_l__Est	L
+13l1l0	hydrocarbures	S
+13l1l1	SH2	S
+13l1l2	carburants	U
+
+#* 2 réservoirs enterrés quadri-compartimenté à double enveloppe au Nord-Est du site :
+
+14l0l0	au_Nord_Est_du_site	L
+
+#=> (R3) 22 m3 de gasoil +18 m3 d'essence sans plomb 95 +8 m3 de gasoil +12 m3 d'essence sans plomb 98,
+
+15l0l0	_8	O
+15l1l0	gasoil	U
+15l1l1	essence	S
+15l1l2	essence_sans_plomb	U
+15l1l3	98	I
+
+#=> un réservoir de gasoil (R4) de 14+20+16+10 m3.
+
+16l0l0	un_réservoir_de_gasoil	O
+16l1l0	un_réservoir	D
+16l1l1	de_gasoil	U
+
+#De plus, 2 réservoirs enterré ont été en 1991 :
+
+17l0l0	2_réservoirs_enterré	O
+17l0l1	ont_été	N
+17l0l2	en_1991	T
+
+#=> (R1) bi-compartimenté 25 + 15 m3 au nord de l'air de distribution;
+
+18l0l0	au_nord	L
+18l0l1	distribution	A
+
+#=> (R2) tri-compartimenté 10+8+12 m3 au Sud-Ouest du réservoir R3.
+
+19l0l0	au_Sud_Ouest_du_réservoir	L
+
+#Le site comporte également :
+
+
+#- une aire de lavage associée à un séparateur à hydrocarbures (SH3),
+
+21l1l0	hydrocarbures	S
+
+#- un réservoir aérien de 1,5m3 d'huiles usagées (R7) sur rétention localisé dans un local à l'Ouest de l'ancien atelier,
+
+22l0l0	un_réservoir_aérien	O
+22l0l1	localisé_dans_un_local_à_l__Ouest_de_l__ancien_atelier	L
+22l1l0	huiles_usagées	U
+
+#- au Nord Ouest de la parcelle, un parking pour véhicules légers.
+
+23l0l0	au_Nord_Ouest_de	L
+23l0l1	la_parcelle	O
+
+#Le site était recouvert à 80% par de l'enrobé ou du béton, le reste du site correspondant à des espaces verts.
+
+24l0l0	Le_site	O
+24l0l1	l__enrobé	O
+24l0l2	des_espaces_verts	N
+
+#Il est clôturé en limite Sud,Ouest et Nord de la parcelle.
+
+25l0l0	clôturé	O
+25l0l1	en_limite_Sud___Ouest_et_Nord_de_la_parcelle	L
+
+#L'exploitant déclare au préfet la cessation de ses activités sur le site le 29 septembre 2017, et d'autre part que le fond de commerce est restitué à son propriétaire qui prend en charge la poursuite l'activité commerciale.
+
+26l0l0	L__exploitant	O
+26l0l1	déclare	N
+26l0l2	préfet	O
+26l0l3	la_cessation_de_ses_activités	N
+26l0l4	sur_le_site	L
+26l0l5	le_29_septembre_2017__	T
+26l0l6	d_	O
+26l0l7	le_fond_de_commerce	O
+26l0l8	est_restitué_à	R
+26l0l9	son_propriétaire	O
+26l0l10	prend_en_charge	T
+26l0l11	la_poursuite_l__activité_commerciale	A
+
+#Une analyse des Enjeux sanitaires (AES) a été réalisée sur la base de campagnes de prélèvement d'air ambiant et d'eau du réseau de distribution réalisées en 2016 et 2017  dans la boutique et l'arrière boutique.
+
+27l0l0	Une_analyse	N
+27l0l1	a_été_réalisée	N
+27l0l2	sur_la_base_de	R
+27l0l3	campagnes	N
+27l0l4	en_2016_et_2017	T
+
+#Les résultats mettent en évidence , pour les futurs employés du commerce dans le bâtiment existant :
+
+28l0l0	commerce	O
+28l0l1	dans_le_bâtiment_existant	L
+
+#- une somme de quotient de danger (QD) de 0,34, inférieure à la valeur repère de 1,
+
+
+#- une somme d'excès de risque individuel (ERI) de 9,36.10^-6 inférieure mais proche de la valeur repère de 10^-5.
+
+
+#Les calculs mettent en évidence  des risques acceptables par inhalation de substances volatiles liées à la présence d'impacts en composés volatils dans l'air ambiant de la boutique et l'arrière boutique.
+
+31l0l0	par_inhalation_de_substances	N
+
+#De plus, les résultats des analyses sur les milieux eaux souterraines et sol ont montré l'absence d'impact par des hydrocarbures et des BTEX (Benzene, Toluene, Ethylbenzene, Xylene).
+
+32l1l0	hydrocarbures	S
+32l1l1	des_BTEX	S
+32l1l2	Benzene	S
+32l1l3	Toluene	S
+32l1l4	Ethylbenzene	S
+32l1l5	Xylene	S
+
+#SOL  (voir plan-cartographique-72.0060--2.pdf et plan-cartographique-72.0060--4.pdf)
+
+
+#Un diagnostic complémentaire des sols en septembre 2017 a été réalisé, afin de délimiter l'impact  mis en évidence dans les sols au Sud des pistes de distribution, en limite Est du bâtiment accueillant la boutique et l'ancien garage du site.
+
+34l0l0	Un_diagnostic_complémentaire_des_sols	N
+34l0l1	en_septembre_2017	T
+34l0l2	a_été_réalisé	N
+34l0l3	sols_au_Sud_des_pistes_de_distribution	L
+34l0l4	__en_limite_Est_du_bâtiment	L
+34l0l5	et_l__ancien_garage	O
+
+#Les investigations ont mis en évidence :
+
+
+#- la présence, sous une dalle béton, des sables jusqu'à 4,3 m de profondeur surmontant des argiles sableuses ;
+
+
+#- des arrivées d'eaux souterraines à 5,3 m de profondeur ;
+
+
+#- l'absence d'impact en composés organiques volatils (mesures de terrain) et en hydrocarbures C5 à C40 et BTEX.
+
+38l1l0	composés_organiques_volatils	S
+38l1l1	hydrocarbures	S
+38l1l2	BTEX	S
+
+#L'impact en hydrocarbures C10-C40 mis en évidence dans les sols (sondages S22, S11 et S9) est délimité à l'Ouest des pistes de distribution.
+
+39l0l0	délimité_à_l__Ouest_des_pistes_de_distribution	L
+39l1l0	hydrocarbures_C10_C40	S
+
+#Le volume des terres impactées par des hydrocarbures au droit de la station service est estimé à environ 100m3
+
+40l0l0	Le_volume_des_terres_impactées_par	O
+40l0l1	hydrocarbures	O
+40l0l2	au_droit_de_la_station	L
+40l0l3	100m3	O
+40l1l0	hydrocarbures	S
+
+#En cas de changement ultérieur d'usage, il faudra vérifier la compatibilité de la qualité des milieux avec le projet envisagé par le biais d'une nouvelle étude.
+
+41l0l0	En_cas	R
+41l0l1	de_changement_ultérieur_d_	N
+41l0l2	le_projet	O
+
+#EAUX SOUTERRAINES (voir plan-cartographique-72.0060--1.pdf)
+
+42l0l0	EAUX_SOUTERRAINES	O
+42l1l0	SOUTERRAINES	I
+
+#La campagne de surveillance du 25 janvier 2018 met en évidence :
+
+43l0l0	La_campagne_de_surveillance	N
+43l0l1	du_25_janvier_2018	T
+
+#- des teneurs en hydrocarbures C10-C40 faibles et inférieures à la valeur de référence considérée (<1mg/L),
+
+44l1l0	hydrocarbures_C10_C40	S
+
+#- des teneurs en hydrocarbures C5-C10, BTEX, MTBE (éther éthyle tertiobutyle) et ETBE (éther éthyle tertiobutyle) inférieures aux limites de quantification du laboratoire.
+
+45l1l0	hydrocarbures_C5_C10	S
+45l1l1	BTEX	S
+45l1l2	MTBE	S
+45l1l3	éther_éthyle_tertiobutyle	S
+45l1l4	ETBE	S
+45l1l5	éther_éthyle_tertiobutyle	S
+
+#Le schéma conceptuel, établi à la base d'un usage comparable à la dernière d'exploitation (type commercial ou industriel), a mis en évidence l'absence de risques pour les usagers du site et pour la population hors site.
+
+46l0l0	Le_schéma_conceptuel	O
+46l0l1	établi	N
+46l0l2	à_la_base_d_	R
+46l0l3	un_usage	N
+46l0l4	l__absence_de_risques	O
+46l0l5	les_usagers_du_site	O
+
+#Recommandations:
+
+
+#Au regard des résultats montrant une bonne qualité des eaux souterraines, l'arrêt du suivi et la neutralisation des piézomètres dans les règles de l'art peuvent être envisagés.
+
+48l0l0	l__arrêt_du_suivi	N
+48l0l1	la_neutralisation_des_piézomètres	N
+48l0l2	les_règles_de_l__art	O
+
+#En cas de travaux de terrassement, des mesures de gestion particulière (envoi en centre de traitement...) et l'information et la protection des travailleurs (équipements de protection adaptés...) seront à prévoir, en particulier au Sud des pistes de distribution et au droit de l'ancien réservoir aérien R7 d'huiles usagées.
+
+49l0l0	En_cas	R
+49l0l1	de_travaux_de_terrassement	N
+49l0l2	la_protection	O
+49l0l3	au_Sud_des_pistes_de_distribution	L
+49l1l0	huiles_usagées	U
+
+#En cas de changement d'usage, il convient de vérifier la compatibilité de l'état des sols avec le nouvel usage.
+
+50l0l0	En_cas_de	R
+50l0l1	changement_d_	N
+50l0l2	le_nouvel_usage	O

@@ -1,0 +1,167 @@
+
+#76.0316
+#Le terrain a une superficie de 1300 m².
+
+0l0l0	Le_terrain	O
+
+#Un récépissé de déclaration en date du 5 février 1969 a été délivré à la société SHIPP pour un dépôt de liquide inflammable de 3 réservoirs : 10 m3 (2ème catégorie), 20 m3 (1ère catégorie) et 30 m3 (1ere catégorie).
+
+1l0l0	Un_récépissé	O
+1l0l1	de_déclaration	N
+1l0l2	en_date_du_5_février_1969	T
+1l0l3	a_été_délivré_à	N
+1l0l4	la_société_SHIPP	O
+1l0l5	un_dépôt_de_liquide_inflammable	N
+1l1l0	la_société_SHIPP	I
+1l1l1	dépôt_de_liquide_inflammable	U
+
+#Les activités du site étaient soumises à déclaration au titre de la rubrique 1434 (ancien dépôt de liquide inflammable).
+
+2l0l0	Les_activités_du_site	O
+2l0l1	étaient_soumises_à	R
+2l0l2	déclaration	N
+2l1l0	dépôt	D
+2l1l1	liquide_inflammable	U
+
+#Cette activité a eu lieu de 1969 à 1991.
+
+3l0l0	Cette_activité	O
+3l0l1	a_eu_lieu	N
+3l0l2	de_1969_à_1991	T
+
+#Le site a été exploité de 1992 à 2008 par la société SCAPE pour un usage de station de lavage de véhicule.
+
+4l0l0	Le_site	O
+4l0l1	a_été_exploité	N
+4l0l2	de_1992_à_2008	T
+4l0l3	la_société_SCAPE	O
+4l0l4	un_usage_de_station_de_lavage_de_véhicule	A
+4l1l0	la_société_SCAPE	I
+
+#Référentiels documentaires :
+
+
+#Diagnostic  du sous-sol – HPC ENVIROTEC – 13 janvier 2003 (pour DMS)
+
+6l0l0	Diagnostic	N
+6l0l1	du_sous_sol	O
+6l0l2	__HPC_ENVIROTEC	O
+6l0l3	__13_janvier_2003	T
+6l1l0	__HPC_ENVIROTEC	I
+
+#Suivi des travaux d’extraction des installations souterraines – HPC ENVIROTEC – 25 aout 2003 (pour DMS)
+
+7l0l0	Suivi_des_travaux_d__extraction	N
+7l0l1	HPC_ENVIROTEC	O
+7l0l2	__25_aout_2003	T
+7l1l0	HPC_ENVIROTEC	I
+
+#Diagnostic du sous-sol – HPC ENVIROTEC – 4 février 2009 (pour la ville du Havre)
+
+8l0l0	Diagnostic	N
+8l0l1	HPC_ENVIROTEC	O
+8l0l2	4_février_2009__	T
+8l0l3	la	O
+8l0l4	ville_du_Havre	L
+8l1l0	HPC_ENVIROTEC	I
+
+#Investigations complémentaires, Evaluation quantitative des risques sanitaires et Plan de gestion – HPC ENVIROTEC – 23 juillet 2009 (pour la ville du Havre)
+
+9l0l0	Investigations_complémentaires	N
+9l0l1	Evaluation_quantitative_des_risques_sanitaires	N
+9l0l2	Plan_de_gestion	O
+9l0l3	HPC_ENVIROTEC	O
+9l0l4	__23_juillet_2009	T
+9l0l5	ville_du_Havre	L
+9l1l0	HPC_ENVIROTEC	I
+
+#Analyse des Risques Sanitaires Residuels – HPC ENVIROTEC – 17 juin 2013 pour DMS)
+
+10l0l0	Analyse_des_Risques_Sanitaires	N
+10l0l1	HPC_ENVIROTEC	O
+10l0l2	17_juin_2013	T
+10l0l3	DMS__	O
+10l1l0	Sanitaires_Residuels___HPC_ENVIROTEC	I
+10l1l1	DMS	I
+
+#Depuis la fermeture de la station au début des années 90, DMS a réalisé en mai et juin 2003 des travaux d’extraction des installations souterraines :
+
+11l0l0	Depuis	T
+11l0l1	la_fermeture_de_la_station	O
+11l0l2	au_début_des_années_90	T
+11l0l3	DMS	O
+11l0l4	a_réalisé	N
+11l0l5	en_mai_et_juin_2003	T
+11l0l6	des_travaux_d__extraction	N
+11l0l7	installations_souterraines	N
+11l1l0	DMS	I
+
+#- Extraction des 3 cuves enterrées de stockage de carburant et élimination hors site
+
+12l0l0	Extraction	N
+12l0l1	des_3_cuves_enterrées	O
+12l0l2	stockage_de_carburant	O
+12l0l3	élimination_hors_site	N
+12l1l0	3_cuves_enterrées	D
+12l1l1	stockage_de_carburant	U
+
+#- Excavation, tri et stockage des matériaux impactés encaissant des ouvrages
+
+13l0l0	Excavation	N
+13l0l1	stockage_des_matériaux_impactés	O
+13l0l2	encaissant_des_ouvrages	N
+
+#- Prélèvements et analyses d’échantillons des sols et d’air du sol
+
+14l0l0	Prélèvements	N
+
+#- Chargement, transport et élimination des matériaux impactés par un centre de traitement agréé
+
+15l0l0	Chargement___transport	N
+15l0l1	élimination	N
+15l0l2	des_matériaux_impactés	O
+15l0l3	un_centre_de_traitement_agréé	O
+
+#- Remblaiement de la zone d’excavation par des matériaux sains.
+
+16l0l0	Remblaiement_de_la_zone_d__excavation	N
+16l0l1	des_matériaux_sains	O
+
+#Un diagnostic des sols du site a permis de mettre en évidence :
+
+17l0l0	Un_diagnostic	N
+
+#- la nappe de la craie Cénomanienne et les eaux superficielles ont une vulnérabilité faible (nappe attendue à plus de 35 m de profondeur protégée par des horizons susjacents très peu perméables et absence d’eaux superficielles proches) mais une sensibilité forte (nappe utilisée pour l’AEP).
+
+
+#- Les résultats d'analyses ont montré la présence de pollution de surface dans les sols :
+
+
+#par des Hydrocarbures Aromatiques Polycyclique (HAP) et d’éléments traces métalliques sur la quasi-totalité du site,
+
+20l1l0	des_Hydrocarbures_Aromatiques_Polycyclique	S
+20l1l1	HAP	S
+
+#par des hydrocarbures C5-C40 et /ou BTEX en partie Nord-Ouest du site,
+
+21l0l0	en_partie_Nord_Ouest_du_site	L
+21l1l0	hydrocarbures_C5_C40	S
+21l1l1	BTEX	S
+
+#par des PCB et triméthylbezène.
+
+22l1l0	des_PCB	S
+22l1l1	triméthylbezène	S
+
+#L'Analyse des Risques Résiduels (ARR) a été menée sur la base d'un scénario de type station-service / commerce (présence d'adultes et d'enfants) sur l’ensemble du site en considérant le recouvrement actuel de l’intégralité du site.
+
+23l0l0	L_	N
+
+#Vu les teneurs résiduelles en hydrocarbures, en HAP, en COHV et en éléments traces métalliques observées en fond et flanc de fouille, l'ARR valide les mesures de gestion déjà réalisées sous réserve de mettre en place des restrictions d'usage.
+
+24l0l0	fond_et_flanc_de_fouille	L
+24l0l1	valide	R
+24l0l2	les_mesures_de_gestion	O
+24l1l0	hydrocarbures	S
+24l1l1	HAP	S
+24l1l2	COHV	S

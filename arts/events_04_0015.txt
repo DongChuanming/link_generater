@@ -1,0 +1,202 @@
+
+#04.0015
+#INCINERATEUR DE MISON (04)
+
+0l0l0	INCINERATEUR_DE_MISON	O
+0l1l0	INCINERATEUR	I
+
+#Le site de l'incinérateur de Mison est situé à l'emplacement d'une ancienne décharge fermée début 1990 (recouvrement et végétalisation de la décharge).
+
+1l0l0	Le_site	O
+1l0l1	l__incinérateur_de_Mison	O
+1l0l2	est_situé_à_l__emplacement_d__une_ancienne_décharge_fermée	L
+1l0l3	début_1990	T
+1l0l4	recouvrement	N
+1l0l5	végétalisation	N
+1l0l6	la_décharge	O
+
+#L'incinérateur est composé de deux fours statique de 36m3 chacun.
+
+
+#Le traitement des fumées et la cheminée sont communs aux deux fours.
+
+3l0l0	Le_traitement_des_fumées	O
+3l0l1	la_cheminée	O
+
+#Le traitement des fumées est constitué d'un silo réfractaire à deux chambres, l'une étant chargée de pierre calcaire, l'autre étant vide.
+
+4l0l0	Le_traitement	A
+4l1l0	pierre_calcaire	U
+
+#La capacité nominale des fours est d'environ 6 tonnes.
+
+
+#Le site a été exploité par le Syndicat Intercommunal pour le traitement des ordures ménagères du Sisteronnais (AP d'autorisation du 11/10/1990).
+
+6l0l0	Le_site	O
+6l0l1	a_été_exploité	N
+6l0l2	le_Syndicat_Intercommunal	O
+6l0l3	traitement_des_ordures_ménagères	O
+6l0l4	du_Sisteronnais	L
+6l0l5	11_10_1990____	T
+6l1l0	le_Syndicat	I
+6l1l1	ordures_ménagères_du_Sisteronnais	I
+
+#Par courrier en date du 23 avril 2002, le SITOM du Sisteronnais s'est engagé à fermer l'installation avant le 1er juillet 2002.
+
+7l0l0	en_date_du_23_avril_2002__	T
+7l0l1	le_SITOM	O
+7l0l2	du_Sisteronnais	O
+7l0l3	s__est_engagé_à_fermer	N
+7l0l4	l__installation	O
+7l0l5	avant_le_1er_juillet_2002	T
+7l1l0	le_SITOM_du_Sisteronnais	I
+
+#L'UIOM a fait l'objet d'un APC en 1998 pour mise aux normes des textes réglementaires parus depuis 1990.
+
+8l0l0	L__UIOM	O
+8l0l1	a_fait_l__objet_d_	R
+8l0l2	un_APC	N
+8l0l3	en_1998	T
+8l0l4	mise_aux_normes	N
+8l0l5	depuis_1990	T
+8l1l0	UIOM	I
+
+#Les analyses des fumées en sortie de cheminée ont montré des dépassements des normes en vigueurs entre 2000 et 2002.
+
+9l0l0	en_sortie_de_cheminée	L
+9l0l1	des_dépassements	N
+9l0l2	des_normes	O
+9l0l3	entre_2000_et_2002	T
+
+#Un PV a été dressé a cet effet en avril 2002.
+
+10l0l0	Un_PV_a_été_dressé_a_cet_effet	N
+10l0l1	en_avril_2002	T
+
+#Les coûts de mise en conformité de l'incinérateur étant trop élevés, le SITOM du Sisteronnais a décidé la fermeture de cette UIOM.
+
+11l0l0	Les_coûts_de_mise_en_conformité	O
+11l0l1	incinérateur	N
+11l0l2	le_SITOM	O
+11l0l3	du_Sisteronnais	L
+11l0l4	a_décidé	N
+11l0l5	la_fermeture	N
+11l0l6	cette_UIOM	O
+11l1l0	le_SITOM_du_Sisteronnais	I
+
+#Lors de du CdH du 9/07/2002, le préfet a décidé la fermeture de cet UIOM pour le 15 août 2002.
+
+12l0l0	Lors	L
+12l0l1	de_du_CdH	O
+12l0l2	9_07_2002	T
+12l0l3	le_préfet	O
+12l0l4	a_décidé	N
+12l0l5	la_fermeture_de	N
+12l0l6	cet_UIOM	O
+12l0l7	pour_le_15_août_2002	T
+12l1l0	le_préfet	I
+
+#Les analyses effectuée sur les œufs des poules fermières (Sisteron) indiquent des teneurs en dioxine 6 à 8 fois supérieures aux normes, l'UIOM a donc émis des quantité importantes de dioxines dans l'environnement.
+
+13l0l0	Les_analyses	N
+13l0l1	l__UIOM	O
+13l1l0	dioxine	S
+13l1l1	dioxines	S
+
+#Un stock de mâchefers de 5600 m3 recouverts de 40 cm de terre végétale à la limite Est du site.
+
+14l0l0	Un_stock_de_mâchefers	O
+14l0l1	à_la_limite_Est_du_site	L
+14l1l0	mâchefers	D
+
+#De plus, 22000 m² (33 000m3) sont occupés par du remblai composé de déchets encombrants, plastiques, verres et gravats mélangés à de la terre végétale sur une épaisseur de 1m50.
+
+15l0l0	remblai	O
+15l1l0	déchets_encombrants	U
+15l1l1	plastiques	S
+
+#En 2007, un projet d'implantation d'une centrale photovoltaïque a été étudié sur le site de l'ancien incinérateur (EDF Énergie Nouvelles).
+
+16l0l0	En_2007__	T
+16l0l1	un_projet	O
+16l0l2	d__implantation	N
+16l0l3	d__une_centrale_photovoltaïque_a_été_étudié	N
+16l0l4	sur_le_site	L
+16l0l5	incinérateur	N
+16l0l6	EDF_Énergie_Nouvelles	O
+16l1l0	EDF_Énergie_Nouvelles	I
+
+#En Mars 2009, les installations de l'ancien UIOM ont été démantelées, il ne reste plus que la rampe d'accès aux deux fosses d'alimentation des fours et la structure béton.
+
+17l0l0	En_Mars_2009__	T
+17l0l1	les_installations	O
+17l0l2	l__ancien_UIOM	O
+17l0l3	ont_été_démantelées	N
+17l0l4	la_rampe_d_	O
+17l0l5	deux_fosses_d__alimentation_des_fours	O
+17l0l6	la_structure_béton	O
+
+#Le site est clôturé sur les limites Sud et Est partiellement, le portail d'entrée est scellé.
+
+18l0l0	Le_site	O
+18l0l1	est_clôturé	N
+18l0l2	sur_les_limites_Sud_et_Est_partiellement	L
+18l0l3	le_portail_d__entrée	O
+18l0l4	est_scellé	N
+
+#Une Étude de Risques Sanitaires (ERS) a été réalisée dans le cadre du projet.
+
+19l0l0	Une_Étude_de_Risques	N
+19l0l1	Sanitaires	O
+19l0l2	a_été_réalisée	N
+19l0l3	dans_le_cadre	R
+19l0l4	du_projet	N
+19l1l0	Sanitaires	S
+
+#Les analyses sur les mâchefers montrent que ceux-ci sont en catégorie V « Valorisable », ils peuvent être réutilisés sur le site.
+
+
+#Les concentrations en polluants dans les eaux temporaires présentes sous les déchets sont inférieures aux concentrations que doivent respecter les rejets des installations de stockage de déchets en activité.
+
+
+#Les calculs de risques montrent que les émissions de poussières liées au terrassement de la parcelle en phase de chantier pourraient dépasser la norme de 50 µg/m3 d'air.
+
+22l0l0	au_terrassement	N
+22l0l1	la_parcelle	O
+22l0l2	en_phase	T
+22l0l3	de_chantier	N
+
+#Les risques sanitaires associés à ces poussières sont acceptables car les polluants y sont présent en très faible quantité.
+
+23l1l0	les_polluants	U
+
+#La zone de remblais de 2,2ha sera couverte par 25cm de mâchefers puis 30cm de matériaux issus de la démolition du bâtiment.
+
+24l0l0	La_zone_de_remblais	O
+24l0l1	2_2_ha	O
+24l0l2	sera_couverte	N
+24l0l3	la_démolition_du_bâtiment	N
+
+#Aucune eaux souterraines n'a été retrouvé dans la limite de réalisation des sondages (40m).
+
+
+#Le rapport du 1/02/2010 de l'inspection des installations classées un avis favorable au projet d'implantation de la centrale photovoltaïque.
+
+26l0l0	1_02_2010	T
+26l0l1	l__inspection_des_installations_classées	O
+26l0l2	projet_d__implantation	N
+26l0l3	la_centrale_photovoltaïque	O
+
+#La réhabilitation des terrains incombe au Syndicat Mixte de Traitement des Ordures Ménagères (SMITOM) du Sisteronnais (AP du 19/07/2010).
+
+27l0l0	La_réhabilitation	N
+27l0l1	des_terrains	O
+27l0l2	incombe	N
+27l0l3	au_Syndicat_Mixte_de_Traitement	O
+27l0l4	SMITOM	O
+27l0l5	Sisteronnais	L
+27l0l6	19_07_2010____	T
+27l1l0	Syndicat_Mixte	I
+27l1l1	Ordures_Ménagères	S
+27l1l2	SMITOM	I

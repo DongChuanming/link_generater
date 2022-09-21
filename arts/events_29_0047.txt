@@ -1,0 +1,171 @@
+
+#29.0047
+#Le site correspond à une ancienne carrière (probablement depuis les années 1950), ensuite exploitée comme centre de stockage permanent de matériaux divers dans lesquels on retrouve des déchets urbains et assimilés et des déchets dangereux, dont des abrasifs de carénage.
+
+0l0l0	Le_site	O
+0l0l1	correspond_à	R
+0l0l2	une_ancienne_carrière	O
+0l0l3	depuis_les_années_1950	T
+0l0l4	ensuite_exploitée	N
+0l0l5	comme	R
+0l0l6	centre_de_stockage_permanent_de_matériaux_divers	O
+0l0l7	carénage	A
+0l1l0	des_déchets_urbains	U
+0l1l1	des_déchets_dangereux	U
+0l1l2	des_abrasifs	U
+
+#L'exploitation, non autorisée, du centre de stockage a duré au moins une vingtaine d'année, pour s'arrêter en 1992 lors du rachat du site par le Conseil Général du Finistère.
+
+1l0l0	L__exploitation___non_autorisée	N
+1l0l1	centre_de_stockage	O
+1l0l2	a	N
+1l0l3	duré_au_moins_une_vingtaine_d__année	T
+1l0l4	s__arrêter	N
+1l0l5	en_1992	T
+1l0l6	du_rachat	N
+1l0l7	du_site	O
+1l0l8	le_Conseil_Général_du_Finistère	O
+1l1l0	le_Conseil_Général_du_Finistère	I
+
+#Le site est situé dans le périmètre de protection rapproché de la prise d'eau du Moulin de Kerhuon qui alimente, en partie, l'agglomération brestoise.
+
+2l0l0	Le_site	O
+2l0l1	est_situé_dans_le_périmètre_de_protection_rapproché_de_la_prise_d__eau_du_Moulin_de_Kerhuon	L
+2l0l2	l__agglomération_brestoise	L
+
+#Diverses études ont été menées depuis 1997.
+
+3l0l0	depuis_1997	T
+
+#Elle montrent que le site est susceptible d'être à l'origine d'une pollution des eaux souterraines et superficielles, notamment par du tributylétain (TBT), voire des métaux lourds (manganèse et mercure) et des hydrocarbures.
+
+4l0l0	le_site	O
+4l0l1	être_à_l__origine	N
+4l0l2	d_	R
+4l0l3	une_pollution	N
+4l1l0	du_tributylétain	S
+4l1l1	TBT	S
+4l1l2	des_métaux_lourds	S
+4l1l3	manganèse	S
+4l1l4	mercure	S
+4l1l5	hydrocarbures	S
+
+#A l'issue de ces études, l'arrêté préfectoral du 28 octobre 2004 impose la réalisation d'un diagnostic initial, d'une évaluation simplifiée des risques (ESR), d'un plan de surveillance ainsi qu'un projet de réhabilitation de la décharge.
+
+5l0l0	A_l_	R
+5l0l1	issue_de_ces_études	N
+5l0l2	l__arrêté_préfectoral	O
+5l0l3	28_octobre_2004	T
+5l0l4	impose_la_réalisation_d__un_diagnostic_initial	N
+5l0l5	une_évaluation_simplifiée_des_risques	N
+5l0l6	d__un_plan_de_surveillance	O
+5l0l7	ainsi_qu_	R
+5l0l8	un_projet	O
+5l0l9	de_réhabilitation	N
+5l0l10	la_décharge	O
+
+#L'ESR classe le site en 1 : "à traiter" vis à vis de la contamination des eaux souterraines et superficielles par le TBT, les métaux lourds et les hydrocarbures.
+
+6l0l0	la_contamination	O
+6l0l1	TBT	O
+6l1l0	ESR	I
+6l1l1	TBT	S
+6l1l2	les_métaux_lourds	S
+6l1l3	hydrocarbures	S
+
+#Au vue de ce résultat, une étude détaillée des risques (EDR) a été réalisée en 2005 sur le site non réhabilité, portant seulement sur les risques pour la santé encourus par les promeneurs et les riverains immédiats.  Elle conclue que le site ne constitue pas un risque pour la santé des personnes, pour les paramètres manganèse, mercure, nickel, TBT, zinc.
+
+7l0l0	une_étude_détaillée_des_risques	N
+7l0l1	EDR___a_été_réalisée	N
+7l0l2	en_2005	T
+7l0l3	réhabilité	N
+7l0l4	les_riverains_immédiats	O
+7l1l0	pour_les_paramètres_manganèse___mercure___nickel___TBT___zinc	S
+
+#En 2006, le Conseil Général a procédé aux travaux de réhabilitation du site :
+
+8l0l0	En_2006__	T
+8l0l1	le_Conseil_Général	O
+8l0l2	a_procédé_aux_travaux_de_réhabilitation	N
+8l0l3	site	O
+8l1l0	le_Conseil_Général	I
+
+#- reprofilage de l'ensemble du remblai,
+
+9l0l0	reprofilage	N
+9l0l1	remblai	O
+
+#- confinement de l'ensemble de la zone dans laquelle étaient présents les déchets dangereux,
+
+10l0l0	la_zone	O
+10l1l0	les_déchets_dangereux	U
+
+#- recouvrement du site par une couche végétale puis végétalisation.
+
+11l0l0	végétalisation	N
+
+#La visite d'inspection du 28 septembre 2006 a permis de constater la réalisation effective des travaux.
+
+12l0l0	La_visite_d__inspection	N
+12l0l1	28_septembre_2006	T
+12l0l2	la_réalisation_effective_des_travaux	N
+
+#Afin de s'assurer dans le temps de l'absence d'impact sur l'environnement, l'arrêté préfectoral du 15 janvier 2007 prescrit la surveillance semestrielle du site pour les eaux souterraines et superficielles (notamment pour les paramètres hydrocarbures, manganèse, mercure, nickel, MBT, DBT, TBT).
+
+13l0l0	dans_le_temps	T
+13l0l1	l__environnement	O
+13l0l2	l__arrêté_préfectoral	O
+13l0l3	15_janvier_2007	T
+13l0l4	prescrit	N
+13l0l5	la_surveillance_semestrielle	A
+13l0l6	site	A
+13l1l0	hydrocarbures	S
+13l1l1	manganèse	S
+13l1l2	mercure	S
+13l1l3	nickel	S
+13l1l4	MBT	S
+13l1l5	DBT	S
+13l1l6	TBT	S
+
+#Les analyses sur le ruisseau en 2017 montre un impact par les charges minérales (augmentation significative de la conductivité).
+
+14l0l0	Les_analyses	N
+14l0l1	sur_le_ruisseau	L
+14l0l2	en_2017	T
+14l0l3	un_impact	N
+
+#Les charges polluantes sont entraînées vers le ruisseau lors des évènements pluvieux.
+
+15l0l0	Les_charges_polluantes	O
+15l0l1	sont_entraînées	N
+15l0l2	vers_le_ruisseau_lors_des_évènements_pluvieux	L
+15l1l0	polluantes	U
+
+#Les différentes analyses réalisées sur les eaux souterraines montrent un impact de l'ancienne décharge en aval et latéral :
+
+16l0l0	un_impact	N
+
+#- en latéral et en aval hydraulique pour les paramètres MES, manganèse, nickel,
+
+17l0l0	aval_hydraulique	L
+17l1l0	MES	S
+17l1l1	manganèse	S
+17l1l2	nickel	S
+
+#- aval : impact par le manganèse et amélioration pour les paramètres MES et conductivité,
+
+18l0l0	manganèse	O
+18l1l0	le_manganèse	S
+
+#- latéral : impact par les MES, la conductivité et le manganèse.
+
+19l1l0	les_MES	S
+19l1l1	le_manganèse	S
+
+#Par ailleurs, du fait que des déchets dangereux sont confinés sur le site, des restrictions d'usage ont été prises au travers de SCPE en date du 02 décembre 2009.
+
+20l0l0	des_restrictions_d__usage	O
+20l0l1	ont_été_prises	N
+20l0l2	SCPE	O
+20l0l3	en_date_du_02_décembre_2009__	T
+20l1l0	des_déchets_dangereux	U

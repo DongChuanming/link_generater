@@ -1,0 +1,158 @@
+
+#78.0018
+#Ancien dépôt de combustibles qui comprenait quatre cuves enfouies ayant une capacité totale de 180 m3.
+
+0l0l0	Ancien_dépôt_de_combustibles	O
+0l0l1	quatre_cuves_enfouies	O
+0l1l0	dépôt_de	D
+0l1l1	combustibles	U
+
+#Le terrain est actuellement occupé par plusieurs immeubles.
+
+1l0l0	Le_terrain	O
+1l0l1	est_actuellement_occupé_par	R
+1l0l2	plusieurs_immeubles	O
+
+#Aucun rivière ou plan d'eau naturel n'est situé à moins de 5 km du site (la Seine s'écoule à plus de 10 km).
+
+2l0l0	est_situé_à_moins_de_5_km_du_site	L
+2l0l1	à	L
+2l0l2	plus_de_10_km	N
+
+#Une première nappe est rencontrée au droit du site à environ 4.5 m de profondeur, le sens de son écoulement est estimé vers le nord/nord-ouest.
+
+3l0l0	rencontrée_au_droit_du_site_à_environ_4_5_m_de_profondeur	L
+3l0l1	vers	T
+3l0l2	le_nord___nord___ouest	L
+
+#La nappe de l'éocène et la nappe de la craie sont rencontrées à des profondeurs plus importantes.
+
+
+#Le site n'est pas situé dans un périmètre de protection de captage d'eau potable.
+
+5l0l0	Le_site	O
+5l0l1	n_	R
+5l0l2	est_pas_situé_dans_un_périmètre_de_protection_de_captage	L
+
+#Les activités ont cessé en 1992.
+
+6l0l0	Les_activités	O
+6l0l1	ont_cessé	N
+6l0l2	en_1992__	T
+
+#En 1995, une pollution des eaux par des hydrocarbures a été mis en évidence au niveau d'un puits à usage privé, situé dans une propriété voisine du site.
+
+7l0l0	En_1995__	T
+7l0l1	une_pollution_des_eaux	O
+7l0l2	des_hydrocarbures	O
+7l0l3	a_été_mis_en_évidence	N
+7l0l4	au_niveau_d_	R
+7l0l5	un_puits	O
+7l0l6	à	R
+7l0l7	usage_privé	A
+7l0l8	situé_dans_une_propriété_voisine_du_site	L
+7l1l0	hydrocarbures	S
+
+#Deux épisodes de pollution ont été distingués lors d'une étude historique :
+
+8l0l0	Deux_épisodes_de_pollution	O
+8l0l1	ont_été_distingués	N
+
+#- débordement d'une cuve de fioul domestique en 1973
+
+9l0l0	une_cuve_de_fioul_domestique	O
+9l0l1	en_1973	T
+9l1l0	cuve_de	D
+9l1l1	fioul	U
+
+#- percement d'une cuve encore remplie lors des travaux de démantèlement des installations en 1994
+
+10l0l0	percement	N
+10l0l1	une_cuve_encore_remplie	O
+10l0l2	des_travaux	N
+10l0l3	de_démantèlement_des_installations	N
+10l0l4	en_1994	T
+10l1l0	cuve_encore_remplie	D
+
+#Plusieurs arrêtés préfectoraux ont été pris et une procédure de consignation a été engagée à l'encontre du dernier exploitant, SHELL DIRECT.
+
+11l0l0	Plusieurs_arrêtés_préfectoraux	O
+11l0l1	ont_été_pris	N
+11l0l2	une_procédure_de_consignation	O
+11l0l3	a_été_engagée	N
+11l0l4	du_dernier_exploitant	O
+11l0l5	SHELL_DIRECT	O
+11l1l0	SHELL_DIRECT	I
+
+#Le 30/10/2007, le préfet des Yvelines a imposé à SHELL DIRECT par arrêté de prescriptions complémentaires, la mise en œuvre de travaux de confinement dans un délai maximum de 6 mois, un programme de surveillance de la qualité des eaux souterraines au droit du site et la mise en place de restrictions d’usages compte tenu de la pollution des terres et de la nappe d'eau souterraine en hydrocarbures.
+
+12l0l0	Le_30_10_2007	T
+12l0l1	le_préfet_des_Yvelines	O
+12l0l2	a_imposé	N
+12l0l3	SHELL_DIRECT	O
+12l0l4	par	R
+12l0l5	arrêté_de_prescriptions_complémentaires	O
+12l0l6	la_mise_en_œuvre_de_travaux_de	N
+12l0l7	confinement_dans_un_délai_maximum	O
+12l0l8	de_6_mois	T
+12l0l9	un_programme	O
+12l0l10	surveillance_de_la_qualité_des_eaux_souterraines	A
+12l0l11	au_droit_du_site	L
+12l0l12	la_mise_en_place_de_restrictions_d__usages	N
+12l0l13	la_nappe	O
+12l1l0	le_préfet_des_Yvelines	I
+12l1l1	SHELL_DIRECT	I
+12l1l2	hydrocarbures	S
+
+#Courant 2008, près de 500 tonnes de terres souillées ont été évacuées vers des biocentres et des centres d'enfouissement techniques.
+
+13l0l0	Courant_2008__	T
+13l0l1	500_tonnes_de_terres_souillées	O
+13l0l2	ont_été_évacuées_vers	N
+13l0l3	des_biocentres	O
+13l0l4	des_centres_d__enfouissement_techniques	O
+
+#Compte tenu du risque de mis en péril de l'immeuble, une zone polluée n'a pas pu être excavée.
+
+14l0l0	une_zone_polluée	O
+14l0l1	n__a_pas_pu_être_excavée	N
+
+#Elle a été confinée de manière à éviter toute infiltration d'eau et remobilisation des polluants vers la nappe.
+
+15l0l0	Elle	O
+15l0l1	a_été_confinée	N
+15l0l2	remobilisation	N
+15l0l3	des_polluants	N
+15l0l4	vers_la_nappe	L
+
+#Par arrêté préfectoral du 24 avril 2012, Monsieur le Préfet des Yvelines a institué des servitudes d'utilité publique au droit du site.
+
+16l0l0	Par_arrêté_préfectoral	O
+16l0l1	du_24_avril_2012__	T
+16l0l2	Monsieur_le_Préfet_des_Yvelines	O
+16l0l3	a_institué	N
+16l0l4	des_servitudes_d__utilité_publique	O
+16l0l5	au_droit_du_site	L
+16l1l0	le_Préfet_des_Yvelines	I
+
+#Ces servitudes prévoient en particulier l'interdiction de creusement de puits ou forages et de l'utilisation des eaux souterraines du droit du site, ainsi que l'interdiction du tout aménagement extérieur afin d'éviter tout risque de perforation du confinement à 1,5 de profondeur.
+
+17l0l0	l__interdiction_de_creusement	N
+17l0l1	de_puits	N
+17l0l2	l__utilisation_des_eaux_souterraines	A
+17l0l3	l__interdiction_du_tout_aménagement_extérieur	O
+
+#La surveillance de la qualité des eaux souterraines s'est poursuivie jusqu'en 2015.
+
+18l0l0	La_surveillance	A
+18l0l1	la_qualité_des_eaux_souterraines	O
+18l0l2	s__est_poursuivie	N
+18l0l3	jusqu__en_2015__	T
+
+#Les teneurs mesurées étaient inférieures aux limites de détection du laboratoire.
+
+
+#Sauf éléments nouveaux, ce site n'appelle plus d'action de la part de l'inspection des installations classées.
+
+20l0l0	action	O
+20l0l1	l__inspection_des_installations_classées	O

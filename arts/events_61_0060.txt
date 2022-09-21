@@ -1,0 +1,97 @@
+
+#61.0060
+#Le site est constitué d'un dépôt de véhicules hors d'usage et de métaux sur 3 ha.
+
+0l0l0	Le_site_est_constitué_d__un_dépôt_de_véhicules	A
+0l0l1	hors_d__usage	N
+0l0l2	ha__	T
+
+#Site implanté au sein d'une ancienne cidrerie dont une partie des bâtiments, en mauvais état, est encore en place.
+
+1l0l0	Site_implanté	O
+1l0l1	une_ancienne_cidrerie_dont_une_partie_des_bâtiments__	O
+1l1l0	une_ancienne	D
+
+#Une étude, établie par le cabinet EAS Environnement produite le 20/07/2009 à notre demande, met en évidence que l’ensemble du site est concerné par des teneurs très élevées en fer et aluminium mais également par des dépassements des teneurs reconnues comme normales pour des sols ordinaires pour divers métaux (chrome, cuivre, plomb et zinc) et des teneurs relativement élevées en hydrocarbures ; or, à notre connaissance, aucune action de dépollution n’a été engagée par l’exploitant à ce jour.
+
+2l0l0	Une	O
+2l0l1	étude___établie	R
+2l0l2	par_le	R
+2l0l3	cabinet_EAS_Environnement	O
+2l0l4	produite_le_20_07_2009	O
+2l0l5	évidence___que	N
+
+#Pour
+
+3l0l0	Pour	N
+
+#Aussi, compte-tenu de ces éléments et sur proposition de la DREAL, à l’issue d’une inspection du site réalisée le 17/02/2017, Mme la préfète a mis M.
+
+
+#Patrick BASLEY, celui-ci ayant annoncé son départ en retraite prochain, vers juillet 2017, par arrêté du 06/06/2017, de :
+
+5l0l0	retraite	O
+5l0l1	prochain___vers_juillet_2017___par_arrêté_du_06_06_2017	N
+5l0l2	__de____	T
+5l1l0	retraite_prochain	I
+
+#- procéder à la mise en sécurité du site d’emprise de son établissement de Gacé (en particulier, évacuation des déchets résultant de son activité vers un établissement habilité ainsi que le décapage de la couche superficielle des terrains et son remplacement par de la terre saine à défaut de mise en place d’un revêtement imperméable ;
+
+6l0l0	__procéder_à_la_mise	O
+6l0l1	sécurité_du_site_d__emprise_de_son_établissement_de	O
+6l0l2	Gacé_____en_particulier	T
+6l0l3	_	R
+6l0l4	évacuation_des_déchets	T
+6l1l0	__procéder_à_la_mise	I
+
+#- déposer, dans un délai maximal d’un an, un dossier de notification de cessation d’activité accompagné d’un mémoire sur l’état du site comprenant, notamment un diagnostic des sols et des eaux souterraines réalisé après les opérations de dépollution susmentionnées, ainsi qu’une évaluation quantitative des risques sanitaires (EQRS), permettant de se prononcer sur les usages futurs du site envisagés pour les terrains ainsi libérés et avec ceux définis par le PLU en vigueur.
+
+7l0l0	déposer__	R
+7l0l1	dans_un_délai_maximal	N
+7l0l2	de_notification_de	O
+7l0l3	cessation	L
+7l0l4	accompagné_d_	N
+7l0l5	__comprenant___notamment___un_diagnostic_des	A
+7l0l6	des_eaux_souterraines	N
+
+#Depuis, cet exploitant, par courrier du 19/09/2017, a confirmé l’arrêt de l’exploitation du site et l’engagement des opérations de dépollution (enlèvement de la ferraille, des huiles usagées, des pneus,...), mais a demandé un délai supplémentaire pour se conformer totalement à l’arrêté de mise en demeure du 06/06/2017, tout en ayant mis en vente sa propriété dans deux études notariales.
+
+8l0l0	cet_exploitant___par_courrier_du	T
+8l0l1	19_09_2017	O
+8l0l2	a_confirmé_l_	O
+8l0l3	arrêt_de_l__exploitation_du	N
+8l0l4	de_la_ferraille	N
+8l0l5	demandé_un_délai_supplémentaire	N
+8l0l6	l__arrêté_de_mise_en_demeure_du_06_06_2017___tout_en	O
+8l0l7	deux_études_notariales	O
+8l0l8	_	O
+
+#Or, il s’avère que le terrain concerné est, d’ores et déjà, inclus dans un secteur du PLU, classé en zone 2AU, c’est-à-dire en zone à urbaniser à long terme.
+
+9l0l0	Or___il_s_	T
+9l0l1	avère_que_le_terrain	O
+9l0l2	est___d__ores_et	T
+9l0l3	déjà___inclus	N
+9l0l4	dans_un_secteur_du_PLU___classé	N
+9l0l5	zone_2AU___c__est___à___dire_en_zone_à_urbaniser_à_long_terme__	N
+
+#En conséquence, un changement d'usage du site est clairement envisagé mais n'est encore clairement établi, le site n'étant pas encore vendu.
+
+10l0l0	un_changement_d__usage	O
+10l0l1	du_site_est_clairement	N
+10l0l2	envisagé_mais_n__est_encore	L
+10l0l3	clairement_établi	N
+10l0l4	encore	N
+10l0l5	vendu__	O
+
+#Conséquence : nécessité de :
+
+
+#- faire réaliser un nouveau diagnostic des sols et des eaux souterraines après achèvement du nettoyage du site;
+
+
+#- proposer l'institution de servitudes en fonction des niveaux de pollution et des usages envisagés
+
+13l0l0	proposer_l__institution_de_servitudes	N
+13l0l1	fonction_des_niveaux_de_pollution	O
+13l0l2	et_des_usages_envisagés	N

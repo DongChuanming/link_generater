@@ -1,0 +1,154 @@
+@prefix : <http://example.com/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:event_components a owl:Class.
+:labels a owl:Class.
+:when a owl:ObjectProperty .
+:status a owl:ObjectProperty .
+:locate a owl:ObjectProperty .
+:parallel a owl:ObjectProperty .
+:unknown a owl:ObjectProperty .
+:agent a owl:ObjectProperty .
+:pagent a owl:ObjectProperty .
+:target a owl:ObjectProperty .
+:indirect_target a owl:ObjectProperty .
+:ptarget a owl:ObjectProperty .
+:complement a owl:ObjectProperty .
+:passive_target a owl:ObjectProperty .
+:passive_agent a owl:ObjectProperty .
+:precise a owl:ObjectProperty .
+:pprecise a owl:ObjectProperty .
+:pollutant a owl:ObjectProperty .
+:event owl:subClassOf owl:Class.
+:N a :labels.
+:event rdfs:label :N.
+:object owl:subClassOf owl:Class.
+:O a :labels.
+:object rdfs:label :O.
+:time owl:subClassOf owl:Class.
+:T a :labels.
+:time rdfs:label :T.
+:location owl:subClassOf owl:Class.
+:L a :labels.
+:location rdfs:label :L.
+:industrial_activity owl:subClassOf owl:Class.
+:A a :labels.
+:industrial_activity rdfs:label :A.
+:relation owl:subClassOf owl:Class.
+:R a :labels.
+:relation rdfs:label :R.
+:institution owl:subClassOf owl:Class.
+:I a :labels.
+:institution rdfs:label :I.
+:pollutant_container owl:subClassOf owl:Class.
+:D a :labels.
+:pollutant_container rdfs:label :D.
+:pollutant owl:subClassOf owl:Class.
+:U a :labels.
+:pollutant rdfs:label :U.
+:chemical owl:subClassOf owl:Class.
+:S a :labels.
+:chemical rdfs:label :S.
+:0l0l0 a :object.
+:1l0l0 a :industrial_activity.
+:_ owl:subClassOf :event.
+:1l0l1 a :_.
+:2l0l0 a :object.
+:2l0l1 a :location.
+:2l0l1 ::locate :2l0l0.
+:3l0l0 a :object.
+:3l0l1 a :location.
+:3l0l1 ::locate :3l0l0.
+:4l0l0 a :location.
+:4l0l1 a :location.
+:pollution owl:subClassOf :event.
+:7l0l0 a :pollution.
+:7l0l1 a :object.
+:7l0l2 a :time.
+:7l0l3 a :relation.
+:droit owl:subClassOf :event.
+:7l0l4 a :droit.
+:7l0l1 :complement :7l0l0.
+:7l0l0 :when :7l0l2.
+:7l0l4 :unknown :7l0l0.
+:7l0l4 :when :7l0l2.
+:trichloréthylène owl:subClassOf :chemical.
+:8l1l0 a :trichloréthylène.
+:kilogramme owl:subClassOf :chemical.
+:8l1l1 a :kilogramme.
+:métal owl:subClassOf :chemical.
+:9l1l0 a :métal.
+:10l1l0 a :trichloréthylène.
+:issu owl:subClassOf :chemical.
+:10l1l1 a :issu.
+:bureau owl:subClassOf :chemical.
+:10l1l2 a :bureau.
+:eau owl:subClassOf :chemical.
+:10l1l3 a :eau.
+:identifier owl:subClassOf :event.
+:11l0l0 a :identifier.
+:11l0l1 a :industrial_activity.
+:11l1l0 a :eau.
+:réhabilitation owl:subClassOf :event.
+:12l0l0 a :réhabilitation.
+:12l0l1 a :location.
+:issue owl:subClassOf :event.
+:13l0l0 a :issue.
+:prévoir owl:subClassOf :event.
+:13l0l1 a :prévoir.
+:13l0l2 a :relation.
+:terre owl:subClassOf :event.
+:13l0l3 a :terre.
+:13l0l4 a :industrial_activity.
+:avantage owl:subClassOf :chemical.
+:13l1l0 a :avantage.
+:13l1l1 a :institution.
+:13l0l0 :unknown :13l0l1.
+:13l0l0 :contain :13l1l0.
+:13l1l0 :unknown :13l0l1.
+:13l1l1 :target :13l0l1.
+:13l0l3 :target :13l0l2.
+:14l0l0 a :object.
+:dalle owl:subClassOf :event.
+:14l0l1 a :dalle.
+:béton owl:subClassOf :event.
+:14l0l2 a :béton.
+:14l0l3 a :object.
+:zone owl:subClassOf :chemical.
+:14l1l0 a :zone.
+:14l0l0 :unknown :14l0l1.
+:14l0l0 :unknown :14l0l2.
+:14l0l2 :status :14l0l1.
+:14l0l2 :complement :14l0l1.
+:14l1l0 :complement :14l0l2.
+:14l0l3 :target :14l0l2.
+:14l0l3 :contain :14l1l0.
+:15l0l0 a :object.
+:15l0l1 a :location.
+:15l0l2 a :object.
+:15l1l0 a :eau.
+:15l0l1 ::locate :15l0l0.
+:15l0l0 :contain :15l1l0.
+:15l1l0 :unknown :15l0l1.
+:15l0l1 ::locate :15l0l2.
+:17l0l0 a :time.
+:17l0l1 a :object.
+:17l0l2 a :object.
+:17l0l2 ::parallel :17l0l1.
+:compte owl:subClassOf :event.
+:18l0l0 a :compte.
+:18l0l1 a :object.
+:relever owl:subClassOf :event.
+:18l0l2 a :relever.
+:ouvrage owl:subClassOf :event.
+:18l0l3 a :ouvrage.
+:18l0l4 a :object.
+:18l0l5 a :object.
+:18l0l1 ::target :18l0l0.
+:18l0l1 :unknown :18l0l0.
+:18l0l1 ::target :18l0l2.
+:18l0l3 :unknown :18l0l0.
+:18l0l3 :complement :18l0l2.
+:18l0l4 :complement :18l0l3.

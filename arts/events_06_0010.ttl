@@ -1,0 +1,155 @@
+@prefix : <http://example.com/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:event_components a owl:Class.
+:labels a owl:Class.
+:when a owl:ObjectProperty .
+:status a owl:ObjectProperty .
+:locate a owl:ObjectProperty .
+:parallel a owl:ObjectProperty .
+:unknown a owl:ObjectProperty .
+:agent a owl:ObjectProperty .
+:pagent a owl:ObjectProperty .
+:target a owl:ObjectProperty .
+:indirect_target a owl:ObjectProperty .
+:ptarget a owl:ObjectProperty .
+:complement a owl:ObjectProperty .
+:passive_target a owl:ObjectProperty .
+:passive_agent a owl:ObjectProperty .
+:precise a owl:ObjectProperty .
+:pprecise a owl:ObjectProperty .
+:pollutant a owl:ObjectProperty .
+:event owl:subClassOf owl:Class.
+:N a :labels.
+:event rdfs:label :N.
+:object owl:subClassOf owl:Class.
+:O a :labels.
+:object rdfs:label :O.
+:time owl:subClassOf owl:Class.
+:T a :labels.
+:time rdfs:label :T.
+:location owl:subClassOf owl:Class.
+:L a :labels.
+:location rdfs:label :L.
+:industrial_activity owl:subClassOf owl:Class.
+:A a :labels.
+:industrial_activity rdfs:label :A.
+:relation owl:subClassOf owl:Class.
+:R a :labels.
+:relation rdfs:label :R.
+:institution owl:subClassOf owl:Class.
+:I a :labels.
+:institution rdfs:label :I.
+:pollutant_container owl:subClassOf owl:Class.
+:D a :labels.
+:pollutant_container rdfs:label :D.
+:pollutant owl:subClassOf owl:Class.
+:U a :labels.
+:pollutant rdfs:label :U.
+:chemical owl:subClassOf owl:Class.
+:S a :labels.
+:chemical rdfs:label :S.
+:1l0l0 a :object.
+:1l0l1 a :object.
+:1l1l0 a :institution.
+:1l1l1 a :pollutant_container.
+:1l1l2 a :institution.
+:1l0l0 :contain :1l1l0.
+:1l1l1 :unknown :1l0l0.
+:1l1l2 :unknown :1l0l0.
+:1l0l1 :contain :1l1l1.
+:exploiter owl:subClassOf :event.
+:2l0l0 a :exploiter.
+:2l0l1 a :object.
+:2l0l2 a :time.
+:2l0l3 a :object.
+:2l0l4 a :object.
+:2l1l0 a :pollutant.
+:2l1l1 a :institution.
+:2l1l0 :unknown :2l0l0.
+:2l0l1 :unknown :2l0l0.
+:2l0l1 :contain :2l1l0.
+:2l0l3 :contain :2l1l1.
+:2l0l4 :unknown :2l0l0.
+:3l0l0 a :object.
+:dépôt owl:subClassOf :event.
+:3l0l1 a :dépôt.
+:3l0l0 ::target :3l0l1.
+:circonscrire owl:subClassOf :event.
+:6l0l0 a :circonscrire.
+:6l0l1 a :time.
+:piste owl:subClassOf :event.
+:6l0l2 a :piste.
+:6l0l3 a :object.
+:terminal owl:subClassOf :event.
+:6l0l4 a :terminal.
+:6l0l0 :when :6l0l1.
+:6l0l0 :when :6l0l1.
+:6l0l2 :when :6l0l1.
+:6l0l2 :unknown :6l0l0.
+:6l0l3 :unknown :6l0l0.
+:6l0l3 :unknown :6l0l2.
+:7l0l0 a :object.
+:7l0l1 a :location.
+:7l0l1 ::locate :7l0l0.
+:8l0l0 a :object.
+:part owl:subClassOf :event.
+:8l0l1 a :part.
+:8l0l2 a :time.
+:9l0l0 a :object.
+:9l0l1 a :object.
+:pollution owl:subClassOf :event.
+:10l0l0 a :pollution.
+:10l0l1 a :time.
+:10l1l0 a :institution.
+:10l0l0 :when :10l0l1.
+:10l0l0 :when :10l0l1.
+:mettre owl:subClassOf :event.
+:11l0l0 a :mettre.
+:11l0l1 a :object.
+:11l0l2 a :object.
+:11l0l3 a :location.
+:exposition owl:subClassOf :chemical.
+:11l1l0 a :exposition.
+:11l1l1 a :pollutant_container.
+:11l0l1 ::target :11l0l0.
+:11l0l1 :unknown :11l0l0.
+:11l0l2 :contain :11l1l0.
+:11l1l1 :complement :11l0l3.
+:disposition owl:subClassOf :chemical.
+:13l1l0 a :disposition.
+:14l0l0 a :relation.
+:14l0l1 a :object.
+:15l0l0 a :object.
+:particulier owl:subClassOf :event.
+:15l0l1 a :particulier.
+:16l0l0 a :object.
+:16l0l1 a :location.
+:17l0l0 a :time.
+:monter owl:subClassOf :event.
+:18l0l0 a :monter.
+:18l0l1 a :object.
+:18l0l2 a :time.
+:sol owl:subClassOf :event.
+:18l0l3 a :sol.
+:18l1l0 a :institution.
+:18l0l1 ::target :18l0l0.
+:18l1l0 :complement :18l0l0.
+:18l0l1 :target :18l0l0.
+:18l0l1 :contain :18l1l0.
+:18l0l3 :unknown :18l0l0.
+:niveau owl:subClassOf :chemical.
+:19l1l0 a :niveau.
+:19l1l1 a :sol.
+:20l0l0 a :object.
+:piézomètre owl:subClassOf :event.
+:20l0l1 a :piézomètre.
+:20l1l0 a :institution.
+:relever owl:subClassOf :chemical.
+:20l1l1 a :relever.
+:20l0l0 :unknown :20l0l1.
+:20l1l0 :unknown :20l0l0.
+:20l0l0 :parallel :20l1l1.
+:20l0l1 :contain :20l1l0.
