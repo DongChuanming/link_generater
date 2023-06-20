@@ -1,0 +1,188 @@
+
+#94.0035
+#Sur un terrain d'environ 2 ha, la Société VULCAIN INDUSTRIE a exercé sur ce site une activité de travail mécanique des métaux (ICPE soumise à autorisation) jusqu'en 1998, date à laquelle une procédure de redressement judiciaire suivie d'un plan de cession a abouti à une cessation des activités.
+
+0l0l0	Sur	R
+0l0l1	un_terrain	O
+0l0l2	d__environ	L
+0l0l3	2_ha	O
+0l0l4	la_Société_VULCAIN_INDUSTRIE	O
+0l0l5	a_exercé	N
+0l0l6	sur_ce_site	L
+0l0l7	une_activité_de_travail_mécanique_des_métaux	A
+0l0l8	ICPE	O
+0l0l9	jusqu__en_1998__	T
+0l0l10	date_à_laquelle	O
+0l0l11	une_procédure_de_redressement_judiciaire	N
+0l0l12	suivie_d_	R
+0l0l13	un_plan_de	O
+0l0l14	cession_a_abouti_à_une_cessation_des_activités	N
+0l1l0	la_Société_VULCAIN_INDUSTRIE	I
+
+#Les activités exercées concernaient le décolletage des métaux (tours automatiques) et des machines de finition, avec une activité de dégraissage des métaux par solvants chlorés.
+
+1l0l0	Les_activités_exercées	A
+1l0l1	concernaient_le_décolletage_des_métaux	A
+1l0l2	tours_automatiques	O
+1l0l3	machines_de_finition	A
+1l0l4	dégraissage_des_métaux	A
+1l0l5	solvants_chlorés	O
+1l1l0	solvants_chlorés	U
+
+#- Cessation des activités sur le site en août 1998 suite au redressement judiciaire et au plan de cession.
+
+2l0l0	Cessation_des_activités	N
+2l0l1	sur_le_site	L
+2l0l2	en_août_1998	T
+2l0l3	suite	R
+2l0l4	au_redressement_judiciaire	N
+2l0l5	plan_de_cession	N
+
+#- Demande préfectorale au Commissaire au Plan nommé par le Tribunal de Commerce de faire éliminer les déchets (solvants, huiles)encore présents sur le site.
+
+3l0l0	faire_éliminer	N
+3l1l0	le_Tribunal_de_Commerce	I
+3l1l1	les_déchets	U
+3l1l2	solvants	S
+3l1l3	huiles_encore	S
+
+#- Elimination des déchets par une société agréée en mai 1999 sous la responsabilité du Commissaire au Plan.
+
+4l0l0	Elimination	N
+4l0l1	déchets	O
+4l0l2	une_société_agréée	O
+4l0l3	en_mai_1999	T
+4l0l4	la_responsabilité_du_Commissaire_au_Plan	O
+
+#- Elimination des transformateurs aux PCB par une société agréée en avril 1999 par le propriétaire des locaux.
+
+5l0l0	Elimination_des_transformateurs	N
+5l0l1	une_société_agréée	O
+5l0l2	en_avril_1999	T
+5l0l3	le_propriétaire	O
+5l1l0	PCB	S
+
+#- Demande par arrêté préfectoral du 24/01/2000 au Commissaire au Plan de fournir un diagnostic pollution (arrêté faisant l'objet d'un recours au Tribunal Administratif rejeté par jugement du 5 novembre 2001).
+
+6l0l0	arrêté_préfectoral	O
+6l0l1	24_01_2000	T
+6l0l2	fournir_un_diagnostic_pollution	N
+6l0l3	5_novembre_2001	T
+
+#- Entre temps, fourniture par le propriétaire d'un diagnostic pollution en juin 2000 indiquant une pollution du sol et de la nappe par hydrocarbures et solvants halogénés.
+
+7l0l0	__fourniture	N
+7l0l1	le_propriétaire	O
+7l0l2	d__un_diagnostic_pollution	N
+7l0l3	en_juin_2000	T
+7l0l4	indiquant	R
+7l0l5	une_pollution	N
+7l1l0	hydrocarbures	S
+7l1l1	halogénés	S
+
+#- Terrain vendu en juillet 2002 en vue d'une nouvelle activité industrielle.
+
+8l0l0	Terrain_vendu	N
+8l0l1	en_juillet_2002	T
+8l0l2	en_vue_d_	R
+8l0l3	une_nouvelle_activité_industrielle	A
+
+#- Nettoyage du site réalisé en juillet 2003 en vue de la démolition des bâtiments ; restaient alors sur le site les déchets issus de ce nettoyage collectés dans des conteneurs en attente d'élimination ainsi que des condensateurs PCB (dans des boitiers inaccessibles).
+
+9l0l0	Nettoyage	N
+9l0l1	du_site	O
+9l0l2	réalisé	N
+9l0l3	en_juillet_2003	T
+9l0l4	en_vue_de	R
+9l0l5	la_démolition_des_bâtiments	N
+9l0l6	des_conteneurs	O
+9l1l0	PCB	S
+
+#- Arrêté préfectoral du 19/12/2003 demandant au propriétaire, en particulier l'élimination de tous les déchets et la fourniture d'un diagnostic complémentaire ainsi que d'un projet de réhabilition du site compatible avec son usage futur.
+
+10l0l0	__Arrêté_préfectoral	O
+10l0l1	du_19_12_2003	T
+10l0l2	propriétaire	O
+10l0l3	l__élimination	N
+10l0l4	tous_les_déchets	O
+10l0l5	la_fourniture_d__un_diagnostic_complémentaire	N
+10l0l6	un_projet	O
+10l0l7	de_réhabilition	N
+10l0l8	site	O
+10l0l9	compatible_avec	R
+10l0l10	son_usage_futur	O
+
+#- Les derniers déchets ont été éliminés début 2004.
+
+11l0l0	ont_été_éliminés	N
+11l0l1	début_2004__	T
+
+#- Les bâtiments ont été démolis.
+
+12l0l0	Les_bâtiments	O
+12l0l1	ont_été_démolis	N
+
+#- Le terrain a été vendu en juillet 2002 à la société Paris-Log, dont le gérant est M.
+
+13l0l0	Le_terrain	O
+13l0l1	a_été_vendu	N
+13l0l2	en_juillet_2002	T
+13l0l3	à	N
+13l0l4	la_société_Paris	O
+13l1l0	la_société_Paris__	I
+
+#Besson, en vu d’une nouvelle activité industrielle (messagerie rapide).  L’acte de vente précisait que la dépollution du site était à la charge de l’acquéreur.
+
+14l0l0	Besson	O
+14l0l1	en_vu_d_	R
+14l0l2	une_nouvelle_activité_industrielle	A
+14l0l3	messagerie	A
+14l0l4	L__acte_de_vente	N
+14l0l5	précisait	R
+14l0l6	que_la_dépollution	N
+14l0l7	du_site	O
+14l0l8	était_à_la_charge_de	R
+14l0l9	l__acquéreur	N
+
+#- La société Paris-Log a en octobre 2004 une version partielle du diagnostic complémentaire et de l'évaluation détaillée des risques, puis le 1/06/05 ces documents complétés ainsi qu'un plan de réhabilitation qu’elle s’engageait à réaliser.
+
+15l0l0	La_société_Paris___Log	O
+15l0l1	en_octobre_2004	T
+15l0l2	une_version_partielle	O
+15l0l3	du_diagnostic_complémentaire	N
+15l0l4	évaluation_détaillée_des_risques	N
+15l0l5	le_1_06_05	T
+15l0l6	ces	O
+15l0l7	documents_complétés	N
+15l0l8	un_plan_de_réhabilitation	O
+15l0l9	s__engageait_à_réaliser	N
+15l1l0	La_société_Paris___Log	I
+
+#- Sur cette base, l'arrêté préfectoral du 20/07/2005 demande à la société ParisLog,la dépollution du site et la surveillance des eaux souterraines.
+
+16l0l0	l__arrêté_préfectoral	O
+16l0l1	20_07_2005_demande	T
+16l0l2	la_société_ParisLog	O
+16l0l3	__la_dépollution	N
+16l0l4	du_site	N
+16l0l5	la	O
+16l0l6	surveillance_des_eaux_souterraines	A
+16l1l0	la_société_ParisLog	I
+
+#La société Paislog a été relancée à 2 reprises par courrier préfectoral pour la réalisation de la surveillance et des travux de dépollution prévus.
+
+17l0l0	La_société_Paislog	O
+17l0l1	a_été_relancée_à_2_reprises	N
+17l0l2	courrier_préfectoral	O
+17l0l3	la_réalisation_de_la_surveillance	N
+17l0l4	des_travux_de_dépollution_prévus	N
+17l1l0	La_société_Paislog	I
+
+#A ce jour, le réseau de "sparging" et "venting" est installé et les opérations de dépollution devraient démarrer au dernier trimesre 2007.
+
+18l0l0	A_ce_jour	T
+18l0l1	le_réseau	O
+18l0l2	les_opérations_de_dépollution	N
+18l0l3	devraient_démarrer	N
+18l0l4	au_dernier	T
+18l0l5	trimesre_2007__	T

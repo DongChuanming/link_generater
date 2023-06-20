@@ -1,0 +1,187 @@
+
+#77.0024
+#Le site comprend un terrain situé en périphérie de l'agglomération de Coulommiers.
+
+0l0l0	Le_site	O
+0l0l1	comprend	R
+0l0l2	un_terrain	O
+0l0l3	situé_en_périphérie_de_l__agglomération_de_Coulommiers	L
+
+#Le site a accueilli une usine fabriquant du gaz par distillation de la houille.
+
+1l0l0	Le_site	O
+1l0l1	a_accueilli	N
+1l0l2	une_usine	O
+1l0l3	fabriquant_du_gaz	A
+1l0l4	par_distillation_de_la_houille	A
+
+#Ces installations ont été arrêtées dans les années 1960 après l'arrivée du gaz naturel.  Le site est occupé par un immeuble résidentiel construit en 1993.
+
+2l0l0	Ces_installations	O
+2l0l1	ont_été_arrêtées	N
+2l0l2	dans_les_années_1960_après	T
+2l0l3	l__arrivée	N
+2l0l4	gaz_naturel	O
+2l0l5	__Le_site	O
+2l0l6	est_occupé_par	R
+2l0l7	un_immeuble_résidentiel	O
+2l0l8	construit	N
+2l0l9	en_1993	T
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+3l0l0	Gaz_de_France	O
+3l0l1	a_hiérarchisé	N
+3l0l2	ses_actions	O
+3l0l3	467_sites	O
+3l1l0	Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis à vis de l'environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site, ...).
+
+4l0l0	hiérarchiser	N
+4l0l1	les_sites	O
+4l0l2	en_fonction_de	R
+4l0l3	leur_sensibilité	O
+4l0l4	vis_à_vis_de	R
+4l0l5	l__environnement	O
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+5l0l0	L__application	N
+5l0l1	cette_méthode	O
+5l0l2	a_abouti_à	R
+5l0l3	l__établissement	N
+5l0l4	5_classes_de_priorité	O
+5l0l5	les_engagements	O
+5l0l6	Gaz_de_France	O
+5l0l7	ont_fait_l__objet_d_	R
+5l0l8	un_protocole_d__accord	O
+5l0l9	relatif_à	R
+5l0l10	la_maîtrise	O
+5l0l11	suivi	O
+5l0l12	la_réhabilitation	N
+5l0l13	anciens_terrains_d__usines_à_gaz	O
+5l0l14	entre	R
+5l0l15	le_Ministère_de_l__Environnement	O
+5l0l16	Gaz_de_France	O
+5l0l17	signé	N
+5l0l18	le_25_avril_1996	T
+5l1l0	Gaz_de_France	I
+5l1l1	le_Ministère_de_l__Environnement	I
+5l1l2	Gaz_de_France	I
+
+#Le site de l'ancienne usine à gaz de Coulommiers est en classe 2 du protocole.
+
+6l0l0	Le_site	O
+6l0l1	Coulommiers	L
+
+#Conformément aux engagements pris dans le protocole, ce site a fait l'objet d'un diagnostic initial dont les principaux objectifs sont, outre les recherches (historiques et documentaires,...) la recherche des ouvrages enterrés, l'évaluation de l'impact du site sur les ressources locales en eaux (eaux superficielles et souterraines) et la caractérisation du sol superficiel pour évaluer les risques de contact direct et ceux liés à d'éventuelles émanations gazeuses.
+
+7l0l0	Conformément_aux	R
+7l0l1	engagements	O
+7l0l2	pris_dans	R
+7l0l3	le_protocole	O
+7l0l4	ce_site	O
+7l0l5	a_fait_l__objet_d_	R
+7l0l6	un_diagnostic_initial	N
+
+#Ce diagnostic, effectué par un bureau d'études lors des travaux de réaménagement du site, a mis en évidence la présence de cuves enterrées contenant des goudrons et des eaux ammoniacales ainsi que la présence de sols souillés par des goudrons.
+
+8l0l0	Ce_diagnostic	N
+8l0l1	effectué_par	N
+8l0l2	un_bureau_d__études	O
+8l0l3	des_travaux_de_réaménagement	N
+8l0l4	la_présence_de_cuves_enterrées	O
+8l0l5	goudrons	O
+8l0l6	des_eaux_ammoniacales	O
+8l0l7	la_présence_de_sols	O
+8l0l8	souillés	R
+8l1l0	cuves_enterrées	D
+8l1l1	goudrons	U
+8l1l2	eaux_ammoniacales	U
+8l1l3	goudrons	U
+
+#Les cuves ont été vidangées et leur contenu évacué vers des centres de traitement spécialisés.
+
+9l0l0	Les_cuves	O
+9l0l1	ont_été_vidangées	N
+9l0l2	leur_contenu	O
+9l0l3	évacué_vers	R
+9l0l4	des_centres_de_traitement_spécialisés	O
+
+#Les matériaux constituant les cuves (maçonnerie) ont été extraits, nettoyés et éliminés selon les filières agréées.
+
+10l0l0	Les_matériaux	O
+10l0l1	cuves	O
+10l0l2	ont_été_extraits	N
+10l0l3	nettoyés	N
+10l0l4	éliminés	O
+10l0l5	selon	R
+10l0l6	les_filières_agréées	O
+10l1l0	les_cuves	D
+
+#Les eaux de lavage ont été traitées.
+
+11l0l0	Les_eaux_de_lavage	O
+11l0l1	ont_été_traitées	N
+
+#Les sols souillés par des goudrons au voisinage des cuves ont été excavés et évacués vers des centres de traitement agréés (incinération et centre d'enfouissement de classe 1 selon les concentrations dans les sols).
+
+12l0l0	Les_sols_souillés	O
+12l0l1	goudrons	O
+12l0l2	au_voisinage	L
+12l0l3	des_cuves_ont_été_excavés	N
+12l0l4	évacués_vers	N
+12l0l5	des_centres_de_traitement_agréés	O
+12l0l6	incinération	N
+12l1l0	goudrons	U
+
+#Une partie importante du site (environ 40%) a été excavée sur une profondeur d'environ 2 m.
+
+13l0l0	Une_partie_importante_du_site	O
+13l0l1	a_été_excavée	N
+
+#Les sols extraits de la fouille ont été triés et les sols souillés par des goudrons ont été évacués vers des centres de traitement agréés.
+
+14l0l0	la_fouille	O
+14l0l1	ont_été_triés	N
+14l0l2	les_sols_souillés	O
+14l0l3	ont_été_évacués_vers	N
+14l0l4	des_centres_de_traitement_agréés	O
+14l1l0	goudrons	U
+
+#Aucun impact sur la nappe n'a été identifié.
+
+15l0l0	la_nappe	O
+
+#Ce site ne nécessite donc pas de surveillance des eaux souterraines.
+
+16l0l0	Ce_site	O
+16l0l1	surveillance_des_eaux_souterraines	A
+
+#Les travaux réalisés ont permis d'extraire les résidus provenant de l'exploitation de l'usine à gaz.
+
+17l0l0	Les_travaux_réalisés	N
+17l0l1	ont_permis_d__extraire	N
+17l0l2	les_résidus	O
+17l0l3	provenant_de	R
+17l0l4	l__exploitation	N
+17l0l5	l__usine_à_gaz	O
+
+#Aucun incident lié à l'exploitation par le passé d'une usine à gaz sur le site n'a été répertorié.
+
+18l0l0	Aucun_incident	O
+18l0l1	lié_à	R
+18l0l2	l__exploitation	O
+18l0l3	par_le_passé	T
+18l0l4	d__une_usine_à_gaz	O
+18l0l5	le_site	O
+
+#Sauf élément nouveau et tant qu'aucun changement d'usage de ce site n'est envisagé, l'inspection des installations classées estime que ce site ne nécessite pas de nouvelles actions.
+
+19l0l0	tant_qu_	R
+19l0l1	aucun_changement_d__usage	N
+19l0l2	ce_site	O
+19l0l3	n__est_envisagé	R
+19l0l4	__l__inspection_des_installations_classées	O
+19l0l5	ce_site	O

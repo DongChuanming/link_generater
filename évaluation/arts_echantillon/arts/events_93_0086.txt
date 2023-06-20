@@ -1,0 +1,156 @@
+
+#93.0086
+#La société Berthollet AMM Industrie (BAMMI) exploitait ce site de 4 000 m².
+
+0l0l0	La_société_Berthollet_AMM_Industrie	O
+0l0l1	BAMMI	O
+0l0l2	exploitait	N
+0l0l3	ce_site	O
+0l0l4	4_000_m²__	O
+0l1l0	La_société_Berthollet_AMM_Industrie	I
+0l1l1	BAMMI	I
+
+#L’entreprise était soumise à autorisation pour « une exploitation d’un atelier de traitement des métaux » et à déclaration pour l’utilisation de PCB (polychlorobiphényles).
+
+1l0l0	L__entreprise	O
+1l0l1	était_soumise_à_autorisation	N
+1l0l2	__une_exploitation	N
+1l0l3	d__un_atelier_de	L
+1l0l4	traitement_des_métaux	A
+1l0l5	et_à_déclaration	N
+1l0l6	pour_l__utilisation_de_PCB	A
+1l1l0	de_PCB___polychlorobiphényles	S
+
+#En décembre 2015, la société est placée en liquidation judiciaire.
+
+2l0l0	En_décembre_2015__	T
+2l0l1	la_société	O
+2l0l2	est_placée_en_liquidation_judiciaire	N
+
+#Le site est entouré par des immeubles d’habitations, par des entrepôts et par un centre commercial.
+
+3l0l0	Le_site	O
+3l0l1	est_entouré_par	L
+3l0l2	habitations	O
+3l0l3	des_entrepôts	O
+3l0l4	un_centre_commercial	O
+
+#Une école, un hôpital et une crèche se trouvent à proximité.
+
+4l0l0	Une_école	O
+4l0l1	un_hôpital	O
+
+#En 2009, dans le cadre d'une procédure judiciaire, un diagnostic est réalisé, montrant des traces de trichloroéthylène, de tétrachloroéthylène, des concentrations faibles en HCT (Hydrocarbures Totaux) ainsi que de fortes teneurs en métaux (notamment cuivre, chrome, nickel et mercure).
+
+5l0l0	En_2009__	T
+5l0l1	dans_le_cadre_d_	R
+5l0l2	une_procédure_judiciaire	N
+5l0l3	un_diagnostic_est_réalisé	N
+5l1l0	trichloroéthylène	S
+5l1l1	tétrachloroéthylène	S
+5l1l2	HCT	S
+5l1l3	Hydrocarbures_Totaux	S
+5l1l4	métaux	S
+5l1l5	cuivre	S
+5l1l6	chrome	S
+5l1l7	nickel	S
+5l1l8	mercure	S
+
+#Le 9 juin 2015, le Tribunal de Grande Instance ordonne l’expulsion de la société AMM Industrie du site.
+
+6l0l0	Le_9_juin_2015__	T
+6l0l1	le_Tribunal_de_Grande_Instance	O
+6l0l2	ordonne	R
+6l0l3	l__expulsion	N
+6l0l4	la_société_AMM_Industrie	O
+6l1l0	le_Tribunal_de_Grande_Instance	I
+6l1l1	la_société_AMM_Industrie	I
+
+#Le préfet indique à l’exploitant qu’il doit cesser ses activités dans un délai de 12 mois et lui rappelle les obligations liées à la cessation d’activité.
+
+7l0l0	Le_préfet	O
+7l0l1	l__exploitant	O
+7l0l2	doit_cesser_ses_activités	N
+7l0l3	dans_un_délai_de_12_mois	T
+7l0l4	la_cessation_d__activité	N
+7l1l0	Le_préfet	I
+
+#Suite à la visite de l’inspection du 18 juin 2015, un arrêté préfectoral de mise en demeure de respecter les conditions d’exploitation est transmis le 27 août 2015 à l’exploitant.
+
+8l0l0	Suite_à	R
+8l0l1	la_visite	N
+8l0l2	l__inspection	O
+8l0l3	du_18_juin_2015__	T
+8l0l4	un_arrêté_préfectoral_de_mise_en_demeure_de_respecter_les_conditions_d__exploitation	O
+8l0l5	est_transmis	N
+8l0l6	le_27_août_2015	T
+8l0l7	l__exploitant	O
+
+#Le 28 décembre 2015, le Tribunal de Commerce place la société BERTHOLLET AMM Industrie en liquidation judiciaire.
+
+9l0l0	Le_28_décembre_2015__	T
+9l0l1	le_Tribunal_de_Commerce	O
+9l0l2	place	N
+9l0l3	la_société_BERTHOLLET_AMM_Industrie	O
+9l0l4	en_liquidation_judiciaire	N
+9l1l0	le_Tribunal_de_Commerce_place_la_société_BERTHOLLET_AMM_Industrie	I
+
+#L’inspection des installations classées a procédé à une visite du site le 12 janvier 2016 qui lui a permis de constater que les activités avaient cessé et que l’état du site s’était dégradé.
+
+10l0l0	L__inspection_des_installations_classées	O
+10l0l1	a_procédé_à_une_visite	N
+10l0l2	site	O
+10l0l3	le_12_janvier_2016	T
+10l0l4	les_activités	N
+10l0l5	avaient_cessé	N
+10l0l6	l__état_du_site	O
+10l0l7	s__était_dégradé	N
+
+#Aucune cessation d’activité n’a été déclarée au préfet et le site n’est pas mis en sécurité.
+
+11l0l0	a_été_déclarée	N
+11l0l1	préfet	O
+11l0l2	le_site	O
+11l0l3	n__est_pas	R
+11l0l4	mis_en_sécurité	N
+
+#Sur proposition de l’inspection, le préfet a pris, le 21 janvier 2016, un arrêté préfectoral prescrivant des mesures d’urgence.
+
+12l0l0	le_préfet	O
+12l0l1	a_pris	N
+12l0l2	le_21_janvier_2016__	T
+12l0l3	un_arrêté_préfectoral	N
+12l0l4	prescrivant	N
+12l0l5	des_mesures_d__urgence	O
+12l1l0	le_préfet	I
+
+#Le 28 janvier 2016, le liquidateur judiciaire indique au préfet avoir pris bonne note des obligations liées à la cessation d’activité mais l’informe qu’il ne dispose pas des fonds nécessaires afin de respecter ces obligations.
+
+13l0l0	Le_28_janvier_2016__	T
+13l0l1	le_liquidateur_judiciaire	O
+13l0l2	préfet	O
+13l0l3	avoir_pris_bonne_note	N
+13l0l4	la_cessation_d__activité	N
+
+#Le 27 avril 2016, aucun élément ne montrant que l’arrêté préfectoral de mesures d’urgence soit respecté, le préfet a pris un arrêté préfectoral de mise en demeure demandant la remise d’un mémoire de cessation d’activité dans un délai d’un mois.
+
+14l0l0	Le_27_avril_2016__	T
+14l0l1	l__arrêté_préfectoral_de_mesures_d_	O
+14l0l2	le_préfet	O
+14l0l3	a_pris	N
+14l0l4	un_arrêté_préfectoral	N
+14l0l5	la_remise_d__un_mémoire_de_cessation_d__activité	N
+14l0l6	dans_un_délai_d__un_mois__	T
+14l1l0	le_préfet	I
+
+#Celui-ci est fourni par courrier du 18/05/2016.
+
+15l0l0	18_05_2016__	T
+
+#Cependant, aucun diagnostic des sols n'est réalisé, du fait de la situation impécunieuse de la liquidation.
+
+
+#Le mémoire fait état du diagnostic établi en 2009.
+
+17l0l0	du_diagnostic_établi	N
+17l0l1	en_2009__	T

@@ -1,0 +1,128 @@
+
+#91.0051
+#Revival DERICHBOURG (anciennement Fradena), filiale du groupe de la compagnie française des Ferrailles, exerce depuis les années 60 l'activité de broyage de carcasses de véhicules.
+
+0l0l0	Revival_DERICHBOURG	O
+0l0l1	Fradena	O
+0l0l2	depuis_les_années_60	T
+0l0l3	l__activité_de_broyage	A
+0l0l4	carcasses_de_véhicules	O
+0l1l0	Revival_DERICHBOURG	I
+0l1l1	Fradena	I
+0l1l2	la_compagnie_française_des_Ferrailles	I
+
+#Ce site est en bordure de Seine et longé par des voies RER.
+
+1l0l0	Ce_site	O
+1l0l1	en_bordure_de_Seine	L
+1l0l2	longé_par_des_voies_RER	L
+
+#La société Revival (ex Fradena) de par sa présence ancienne sur le site et l'activité exercée est susceptible d'avoir généré une pollution.
+
+2l0l0	La_société_Revival	O
+2l0l1	l__activité_exercée	A
+2l0l2	est_susceptible_d_	R
+2l0l3	avoir_généré_une_pollution	N
+2l1l0	La_société_Revival	I
+2l1l1	Fradena	I
+
+#C'est pourquoi la réalisation d'un diagnostic de sol et d'une évaluation simplifiée des risques (ESR) lui a été prescrite par l'arrêté préfectoral du 28 /10/1998.
+
+3l0l0	la_réalisation_d__un_diagnostic	N
+3l0l1	une_évaluation_simplifiée_des_risques	N
+3l0l2	a_été_prescrite	N
+3l0l3	l__arrêté_préfectoral	O
+3l0l4	28__10_1998__	T
+
+#L'ESR transmise identifie le site comme installation à surveiller (classe 2).
+
+
+#Des sources de pollution avec impact en cuivre et plomb ont été identifiées dans le sol.
+
+5l0l0	Des_sources_de_pollution	O
+5l0l1	ont_été_identifiées	N
+5l0l2	le_sol	O
+5l1l0	cuivre	S
+5l1l1	plomb	S
+
+#Des teneurs de l'ordre du gramme par kg de sol en fer et en aluminium ont également été mesurées dans les échantillons de sol.
+
+6l0l0	Des_teneurs	O
+6l0l1	fer	O
+6l0l2	aluminium	O
+6l0l3	ont_également_été_mesurées	N
+6l1l0	fer	S
+6l1l1	aluminium	S
+
+#Pour la nappe d'accompagnement de la Seine, seuls le fer,le manganèse et l'aluminium dépassent les valeurs de constat d'impact pour les usages non sensibles.
+
+7l0l0	la_nappe	O
+7l0l1	accompagnement_de_la_Seine	L
+7l1l0	le_fer	S
+7l1l1	le_manganèse	S
+7l1l2	l__aluminium	S
+
+#La qualité de cette nappe est surveillée.
+
+
+#Les mesures en Seine menées dans le cadre de ce diagnostic n'ont rien révélé.
+
+9l0l0	Les_mesures_en_Seine	A
+9l0l1	dans_le_cadre_de	R
+9l0l2	ce_diagnostic	N
+
+#L'inspection des installations classées a relancé la société par courrier en date du 7 octobre 2011 afin d'obtenir les résultats de la surveillance semestrielle relative à la qualité des eaux sortant des séparateurs menée en parallèle de la surveillance de la qualité des eaux souterraines et de la Seine.
+
+10l0l0	L__inspection_des_installations_classées	O
+10l0l1	a_relancé	N
+10l0l2	la_société	O
+10l0l3	en_date_du_7_octobre_2011	T
+10l0l4	la_surveillance_semestrielle	A
+10l0l5	relative_à	R
+10l0l6	la_qualité_des_eaux	O
+10l0l7	en_parallèle_de	R
+10l0l8	la_surveillance_de_la_qualité_des_eaux_souterraines_et_de_la_Seine	A
+
+#L'exploitant a répondu par courrier du 21 novembre 2011.
+
+11l0l0	L__exploitant	O
+11l0l1	21_novembre_2011__	T
+
+#Les résultats sont satisfaisants.
+
+
+#Un diagnostic complémentaire a été réalisé en mars 2016 : celui-ci confirme les conclusions de celui mené en 2000.
+
+13l0l0	Un_diagnostic_complémentaire_a_été_réalisé	N
+13l0l1	en_mars_2016	T
+13l0l2	en_2000__	T
+
+#Des métaux sont détectés dans les sols (Chrome, cuivre, zinc, plomb, cadmium, mercure) ainsi que des hydrocarbures (HAP et hydrocarbures C21-C35 principalement) et un peu de PCB respectivement sur deux sondages.
+
+14l0l0	Des_métaux	O
+14l0l1	sont_détectés	N
+14l0l2	les_sols	O
+14l1l0	métaux	S
+14l1l1	Chrome	S
+14l1l2	cuivre	S
+14l1l3	zinc	S
+14l1l4	plomb	S
+14l1l5	cadmium	S
+14l1l6	mercure	S
+14l1l7	hydrocarbures	S
+14l1l8	HAP	S
+14l1l9	hydrocarbures_C21_C35_principalement	S
+14l1l10	PCB	S
+
+#Les dernières mesures en Seine d'octobre 2015 ne mettent pas en évidence d'anomalies.
+
+15l0l0	Les_dernières_mesures	N
+15l0l1	en_Seine	L
+15l0l2	d__octobre_2015	T
+
+#Les résultats de la qualité des eaux souterraines d'octobre 2015 mettent toujours en évidence la présence de manganèse ainsi que du fer.
+
+16l0l0	la_qualité_des_eaux_souterraines	O
+16l0l1	octobre_2015	T
+16l1l0	manganèse	S
+16l1l1	fer	S

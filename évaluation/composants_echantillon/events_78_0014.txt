@@ -1,0 +1,162 @@
+
+#78.0014
+#Le terrain a abrité une usine à gaz de 1875 à 1954.
+
+0l0l0	Le_terrain	O
+0l0l1	a_abrité	A
+0l0l2	une_usine_à_gaz	O
+0l0l3	de_1875_à_1954	T
+
+#Le site, situé dans une zone d'habitation et de commerces de Versailles, comporte à présent les installations du Centre d'Etudes et de Formation de Gaz de France du personnel et des relations sociales (bureaux, laboratoire, atelier électrique, garages, jardin), des locaux appartenant à la commune et au département et une zone vendue à un promoteur : la SEPRIM.
+
+1l0l0	Le_site	O
+1l0l1	situé_dans_une_zone_d__habitation_et_de_commerces_de_Versailles	L
+1l0l2	comporte	R
+1l0l3	à_présent	T
+1l0l4	les_installations	O
+1l0l5	Centre_d__Etudes_et_de_Formation	O
+1l0l6	Gaz_de_France	O
+1l0l7	appartenant_à	R
+1l0l8	la_commune	O
+1l0l9	département	O
+1l0l10	une_zone	O
+1l0l11	vendue_à	N
+1l0l12	un_promoteur	O
+1l0l13	la_SEPRIM	O
+1l1l0	Centre_d__Etudes_et_de_Formation	I
+1l1l1	Gaz_de_France	I
+1l1l2	bureaux	D
+1l1l3	la_SEPRIM	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+2l0l0	Gaz_de_France	O
+2l0l1	a_hiérarchisé	N
+2l0l2	ses_actions	O
+2l0l3	467_sites	O
+2l1l0	Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis-à-vis de l'environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site, ...).
+
+3l0l0	hiérarchiser	N
+3l0l1	les_sites	O
+3l0l2	en_fonction_de	R
+3l0l3	leur_sensibilité	O
+3l0l4	vis_à_vis_de	R
+3l0l5	l__environnement	O
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+4l0l0	L__application	N
+4l0l1	cette_méthode	O
+4l0l2	a_abouti_à	R
+4l0l3	l__établissement	N
+4l0l4	5_classes_de_priorité	O
+4l0l5	les_engagements	O
+4l0l6	Gaz_de_France	O
+4l0l7	ont_fait_l__objet_d_	R
+4l0l8	un_protocole_d__accord	O
+4l0l9	relatif_à	R
+4l0l10	la_maîtrise	O
+4l0l11	suivi	O
+4l0l12	la_réhabilitation	N
+4l0l13	anciens_terrains_d__usines_à_gaz	O
+4l0l14	entre	R
+4l0l15	le_Ministère_de_l__Environnement	O
+4l0l16	Gaz_de_France	O
+4l0l17	signé	N
+4l0l18	le_25_avril_1996	T
+4l1l0	Gaz_de_France	I
+4l1l1	le_Ministère_de_l__Environnement	I
+4l1l2	Gaz_de_France	I
+
+#Sur le site de l'ancienne usine à gaz de Versailles, en classe 2 du protocole, ont été réalisés un diagnostic initial suivi d'un diagnostic approfondi en raison d'un réaménagement du site.
+
+5l0l0	Sur_le_site	L
+5l0l1	l__ancienne_usine_à_gaz	O
+5l0l2	Versailles	L
+5l0l3	ont_été_réalisés	N
+5l0l4	un_diagnostic_initial	N
+5l0l5	suivi_d_	R
+5l0l6	un_diagnostic_approfondi	N
+5l0l7	en_raison_d_	R
+5l0l8	un_réaménagement	N
+
+#L'ensemble des études a consisté à effectuer des recherches historiques et documentaires, à rechercher des ouvrages enterrés, à évaluer l'impact du site sur les ressources locales en eaux (eaux souterraines et superficielles), à caractériser le sol superficiel pour évaluer les risques de contact direct et ceux liés à d'éventuelles émanations gazeuses et à caractériser le sol en profondeur.
+
+
+#De ces études, il ressort qu'il existe une couche fine de résidus de coke et de charbon enfouis dans les remblais du site, dans l'ancienne zone du parc à charbon.
+
+7l0l0	enfouis_dans_les_remblais	N
+7l0l1	du_site	L
+7l0l2	dans_l__ancienne_zone_du_parc_à_charbon	L
+7l1l0	coke	U
+7l1l1	charbon	U
+
+#L'épaisseur de cette couche varie entre 0,1 et 0,5 m.
+
+
+#Dans le cadre d'un projet de réalisation d'un parking souterrain, planifié au 2ème semestre 2002, GDF s'est engagé à prendre toutes les dispositions nécessaires pour que les terres contaminées soient éliminées dans des filières de traitement autorisées.
+
+9l0l0	Dans_le_cadre_d_	R
+9l0l1	un_projet_de_réalisation_d_	N
+9l0l2	un_parking_souterrain	O
+9l0l3	au_2ème_semestre_2002__	T
+9l0l4	GDF	O
+9l0l5	s__est_engagé	N
+9l0l6	les_terres_contaminées	O
+9l0l7	éliminées_dans	R
+9l0l8	des_filières_de_traitement_autorisées	O
+9l1l0	GDF	I
+
+#Entre fin 2002 et fin 2003, des travaux de réalisation d'un parking souterrain ont été réalisés sur le site.
+
+10l0l0	Entre_fin_2002_et_fin_2003__	T
+10l0l1	des_travaux_de_réalisation_d_	N
+10l0l2	un_parking_souterrain	O
+10l0l3	ont_été_réalisés	N
+10l0l4	sur_le_site	L
+
+#Les terres ont fait l'objet d'une gestion particulière : les terres susceptibles de présenter une contamination ont été expédiées sur le site de l'ancienne usine à gaz de Viry-Chatillon puis éliminées dans des filières de traitement adaptées.
+
+11l0l0	Les_terres	O
+11l0l1	ont_fait_l__objet_d_	R
+11l0l2	les_terres	O
+11l0l3	contamination	O
+11l0l4	ont_été_expédiées	N
+11l0l5	sur_le_site	L
+11l0l6	l__ancienne_usine_à_gaz	O
+11l0l7	Viry___Chatillon	L
+11l0l8	éliminées	O
+11l0l9	des_filières_de_traitement	O
+
+#Les rapports de fin de travaux ont été transmis à la DRIRE le 9 octobre 2003.
+
+12l0l0	Les_rapports_de	O
+12l0l1	fin_de_travaux	N
+12l0l2	ont_été_transmis	N
+12l0l3	la_DRIRE	O
+12l0l4	le_9_octobre_2003	T
+12l1l0	la_DRIRE	I
+
+#Les terres polluées ont été prises en charge sur une plate-forme spécialisée en Hollande et déplacées par transport fluvial, en juillet 2003, par la société hollandaise ATM.
+
+13l0l0	Les_terres_polluées	O
+13l0l1	ont_été_prises_en_charge_sur	N
+13l0l2	une_plate___forme	O
+13l0l3	Hollande	T
+13l0l4	déplacées_par_transport_fluvial	N
+13l0l5	en_juillet_2003__	T
+13l0l6	par_la_société_hollandaise_ATM	O
+13l1l0	la_société_hollandaise_ATM	I
+
+#En raison de l'imperméabilisation des sols, aucune surveillance des eaux souterraines n'est nécessaire.
+
+14l0l0	imperméabilisation	N
+14l0l1	surveillance_des_eaux_souterraines	A
+
+#Sauf éléments nouveaux et tant qu'aucun changement d'usage n'est envisagé, ce site ne nécessite pas de nouvelles actions.
+
+15l0l0	ce_site	O
+15l0l1	ne	R
+15l0l2	nécessite_pas_de_nouvelles_actions	N

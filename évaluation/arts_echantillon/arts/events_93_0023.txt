@@ -1,0 +1,146 @@
+
+#93.0023
+#Le site est en zone résidentielle, il s'étend sur 13 393 m2 et a accueilli une ancienne usine à gaz entre 1877 et 1952.
+
+0l0l0	Le_site	O
+0l0l1	est_en_zone_résidentielle	L
+0l0l2	a_accueilli	N
+0l0l3	une_ancienne_usine_à_gaz	O
+0l0l4	entre_1877_et_1952	T
+
+#Puis, une station gazométrique a été exploitée jusqu'en 1965/70.
+
+1l0l0	une_station_gazométrique	O
+1l0l1	a_été_exploitée	N
+1l0l2	jusqu__en_1965_70	T
+
+#Une agence GrDF l'occupe en partie.
+
+2l0l0	Une_agence_GrDF	O
+2l0l1	l__occupe_en_partie	A
+2l1l0	Une_agence_GrDF	I
+
+#Gaz de France a hiérarchisé ses actions sur les 467 sites d'anciennes usines à gaz qu'il gère, répartis sur l'ensemble du territoire.
+
+3l0l0	Gaz_de_France	O
+3l0l1	a_hiérarchisé	N
+3l0l2	ses_actions	O
+3l0l3	467_sites	O
+3l1l0	Gaz_de_France	I
+
+#La méthodologie retenue a consisté à hiérarchiser les sites en fonction de leur sensibilité vis-à-vis de l'environnement (usage du site, vulnérabilité des eaux souterraines et superficielles, présence et type de population sur le site, ...).
+
+4l0l0	hiérarchiser	N
+4l0l1	les_sites	O
+4l0l2	en_fonction_de	R
+4l0l3	leur_sensibilité	O
+4l0l4	vis_à_vis_de	R
+4l0l5	l__environnement	O
+
+#L'application de cette méthode a abouti à l'établissement de 5 classes de priorité pour lesquelles les engagements de Gaz de France ont fait l'objet d'un protocole d'accord relatif à la maîtrise et au suivi de la réhabilitation des anciens terrains d'usines à gaz entre le Ministère en charge de l'Environnement et Gaz de France signé le 25 avril 1996.
+
+5l0l0	L__application	N
+5l0l1	cette_méthode	O
+5l0l2	a_abouti_à	R
+5l0l3	l__établissement	N
+5l0l4	5_classes_de_priorité	O
+5l0l5	les_engagements	O
+5l0l6	Gaz_de_France	O
+5l0l7	ont_fait_l__objet_d_	R
+5l0l8	un_protocole_d__accord	O
+5l0l9	relatif_à	R
+5l0l10	la_maîtrise	O
+5l0l11	suivi	O
+5l0l12	la_réhabilitation	N
+5l0l13	anciens_terrains_d__usines_à_gaz	O
+5l0l14	entre	R
+5l0l15	le_Ministère_en_charge_de_l__Environnement	O
+5l0l16	Gaz_de_France	O
+5l0l17	signé	N
+5l0l18	le_25_avril_1996	T
+5l1l0	Gaz_de_France	I
+5l1l1	le_Ministère_en_charge_de_l__Environnement	I
+5l1l2	Gaz_de_France	I
+
+#Sur le site de l'ancienne usine à gaz de Villemomble en classe 3 du protocole, ont été réalisés un diagnostic initial suivi d'un diagnostic approfondi en raison d'un réaménagement pour les besoins internes de l'entreprise.
+
+6l0l0	Sur_le_site	L
+6l0l1	l__ancienne_usine_à_gaz	O
+6l0l2	Villemomble	L
+6l0l3	ont_été_réalisés	N
+6l0l4	un_diagnostic_initial	N
+6l0l5	suivi_d_	R
+6l0l6	un_diagnostic_approfondi	N
+6l0l7	en_raison_d_	R
+6l0l8	un_réaménagement	N
+
+#L'ensemble des études a consisté à effectuer des recherches historiques et documentaires, à rechercher des ouvrages enterrés, à évaluer l'impact du site sur les ressources locales en eaux (eaux souterraines et superficielles), à caractériser le sol superficiel pour évaluer les risques de contact direct et ceux liés à d'éventuelles émanations gazeuses et à caractériser le sol en profondeur.
+
+
+#Ces diagnostics, effectués par un bureau d'études à la demande de Gaz de France, ont mis en évidence l'existence de sols souillés par des HAP (hydrocarbures aromatiques polycycliques) et hydrocarbures, de sols souillés par ferrocyanures, d'une poche de goudron pâteux, de 2 cuves à goudron, d'une cuve à eau ammoniacale.
+
+8l0l0	Ces_diagnostics	N
+8l0l1	effectués	N
+8l0l2	un_bureau_d__études	O
+8l0l3	à_la_demande_de	R
+8l0l4	Gaz_de_France	O
+8l0l5	l__existence	O
+8l0l6	sols	O
+8l0l7	souillés_par	R
+8l0l8	des_HAP	O
+8l0l9	sols	O
+8l0l10	souillés_par	R
+8l0l11	ferrocyanures	O
+8l0l12	une_poche	O
+8l0l13	goudron_pâteux	O
+8l0l14	2_cuves_à_goudron	O
+8l0l15	une_cuve_à_eau_ammoniacale	O
+8l1l0	Gaz_de_France	I
+8l1l1	des_HAP	S
+8l1l2	hydrocarbures_aromatiques_polycycliques	S
+8l1l3	hydrocarbures	S
+8l1l4	ferrocyanures	S
+8l1l5	goudron_pâteux	U
+8l1l6	2_cuves	D
+8l1l7	goudron	U
+8l1l8	une_cuve	D
+8l1l9	eau_ammoniacale	U
+
+#Gaz de France a entrepris le traitement de ces zones et ouvrages.
+
+9l0l0	Gaz_de_France	O
+9l0l1	a_entrepris	N
+9l0l2	le_traitement	N
+9l0l3	ces_zones	O
+9l0l4	ouvrages	O
+9l1l0	Gaz_de_France	I
+
+#Les travaux, réalisés en 1997 -1998 par une entreprise spécialisée, ont consisté en l'excavation et le traitement des sols souillés et en la neutralisation des cuves à goudron.
+
+10l0l0	Les_travaux	N
+10l0l1	réalisés	N
+10l0l2	en_1997__1998	T
+10l0l3	une_entreprise	O
+10l0l4	l__excavation	N
+10l0l5	le_traitement	N
+10l0l6	sols_souillés	O
+10l0l7	la_neutralisation	N
+10l0l8	cuves_à_goudron	O
+10l1l0	des_cuves	D
+10l1l1	goudron	U
+
+#Le rapport final de réhabilitation a été validé par l'inspection des installations classées (procès-verbal de récolement du 25 mars 2002).
+
+11l0l0	Le_rapport_final_de_réhabilitation	O
+11l0l1	a_été_validé	N
+11l0l2	l__inspection_des_installations_classées	O
+11l0l3	25_mars_2002	T
+
+#Des restrictions d'usage, en cas d'excavations devront être prévues du fait du confinement de terres souillées dans des ouvrages (cuves) enterrées existantes, actuellement sous le bâtiment GrDF.
+
+12l0l0	des_ouvrages___cuves___enterrées_existantes	N
+12l0l1	sous_le_bâtiment_GrDF	L
+12l1l0	GrDF	I
+
+#Sauf élément nouveau, ce site n’appelle plus d’actions de l'inspection des installations classées.
+
