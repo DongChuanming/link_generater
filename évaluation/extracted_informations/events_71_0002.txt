@@ -1,0 +1,877 @@
+
+#71.0002
+#L'exploitation de la société THEMEROIL existe au lieu-dit "Les mouilles" sur le territoire de la commune de Varennes Le Grand depuis 1971.
+
+0l0l0	L__exploitation	O
+0l0l1	la_société_THEMEROIL	O
+0l0l2	existe	R
+0l0l3	au_lieu___dit___Les_mouilles__	L
+0l0l4	sur_le_territoire_de_la_commune_de_Varennes_Le_Grand	L
+0l0l5	depuis_1971__	T
+0l1l0	la_société_THEMEROIL	I
+
+#L'activité de l'établissement était le traitement d'huiles usagées et de solvants chlorés.
+
+1l0l0	l__établissement	O
+1l0l1	le_traitement_d_	A
+1l0l2	huiles_usagées	O
+1l0l3	de	O
+1l0l4	solvants_chlorés	A
+1l1l0	solvants_chlorés	U
+
+#L'établissement est règlementé par un arrêté préfectoral d'autorisation au titre de la législation ICPE du 21 novembre 1984.
+
+2l0l0	L__établissement	O
+2l0l1	est_règlementé	N
+2l0l2	un_arrêté_préfectoral_d_	O
+2l0l3	autorisation	N
+2l0l4	législation_ICPE	O
+2l0l5	21_novembre_1984__	T
+
+#Les déchets liés à ces activités (goudrons sulfuriques, culots de distillation, ...) ont été, en grande partie, éliminés sur place.
+
+3l0l0	goudrons_sulfuriques	O
+3l0l1	distillation	A
+3l0l2	ont_été___en_grande	N
+3l1l0	sulfuriques	S
+
+#En conséquence, des stockages de goudrons sulfuriques sont présents sur ce site.
+
+4l0l0	goudrons_sulfuriques	O
+4l1l0	goudrons	U
+4l1l1	sulfuriques	S
+
+#L'entreprise a ensuite eu une activité de fabrication d'huiles de décoffrage pour le BTP par mélange à froid d'huiles et d'adjuvants.
+
+5l0l0	L__entreprise	O
+5l0l1	a_ensuite_eu	N
+5l0l2	une_activité_de_fabrication_d__huiles_de_décoffrage	A
+5l0l3	le_BTP	O
+
+#Cette activité n'a pas été, a priori, source de pollution.
+
+6l0l0	Cette_activité	O
+6l0l1	n_	R
+
+#Le stockage historique de déchets ainsi que la contamination des terrains du site sont à l'origine d'une pollution de l'environnement de l'entreprise.
+
+7l0l0	Le_stockage_historique_de_déchets	O
+7l0l1	la_contamination	O
+7l0l2	des_terrains	N
+7l0l3	l_	N
+7l0l4	origine_d_	R
+7l0l5	une_pollution	N
+7l0l6	l__entreprise	O
+
+#GÉOLOGIE
+
+8l0l0	GÉOLOGIE	O
+
+#- De 0 à 3m de profondeur , on trouve des remblais limono-argileux (conductivité forte) ;
+
+
+#- De 3 à 6m, une couche sableuse ( conductivité d'abord faible puis élevée) ;
+
+
+#- De 6 à 8m, du sable argileux (conductivité moindre) ;
+
+
+#- De 8 à 12m, un niveau argileux (conductivité plus élevée) , devenant plus sableux de 12 à 16m (conductivité diminue) ;
+
+12l0l0	devenant_plus_sableux	N
+
+#- En dessous de 16m , de la marne (conductivité de nouveau élevée)
+
+
+#HISTORIQUE DE LA POLLUTION
+
+14l0l0	POLLUTION	O
+14l1l0	POLLUTION	I
+
+#-------------------
+
+
+#Depuis 1975, plusieurs plaintes et constats de pollution ont été enregistrés.
+
+16l0l0	Depuis_1975	T
+16l0l1	pollution	O
+16l0l2	ont_été_enregistrés	N
+
+#Suite à ces faits, des études ont été menées successivement par le CETE d'Autun, le cabinet CPGF en coopération avec POLDEN et le cabinet d'études géologiques LAURE SOMMERIA.
+
+17l0l0	des_études_ont_été_menées_successivement	N
+17l0l1	le_CETE_d__Autun	O
+17l0l2	le_cabinet_CPGF	O
+17l0l3	POLDEN	O
+17l0l4	le_cabinet_d__études_géologiques_LAURE_SOMMERIA	O
+17l1l0	le_CETE	I
+17l1l1	le_cabinet_CPGF	I
+17l1l2	POLDEN	I
+17l1l3	LAURE_SOMMERIA	I
+
+#La dernière étude a été conduite en 1994.
+
+18l0l0	a_été_conduite	N
+18l0l1	en_1994__	T
+
+#Ces études ont conclu à une absence de risque de pollution du captage d'AEP situé à Varennes-le-Grand.
+
+19l0l0	Ces_études	N
+19l0l1	une_absence_de_risque_de_pollution	O
+19l0l2	captage_d__AEP	O
+19l0l3	situé_à_Varennes_le_Grand	L
+
+#Cependant, le site est pollué du fait des stockages de goudrons sulfuriques et des culôts de distillation venant de la régénération des solvants chlorés et sans doute d'autres produits.
+
+20l0l0	le_site	O
+20l0l1	est_pollué	O
+20l0l2	distillation	N
+20l0l3	la_régénération_des_solvants_chlorés	A
+20l1l0	goudrons	U
+20l1l1	sulfuriques	S
+20l1l2	solvants_chlorés	U
+
+#En 1994, le suivi de la nappe a été imposé et le site a été inscrit à l'inventaire des sols pollués (Basol).
+
+21l0l0	En_1994__	T
+21l0l1	le_suivi_de_la_nappe	O
+21l0l2	a_été_imposé	N
+21l0l3	le_site	O
+21l0l4	a_été_inscrit_à_l__inventaire_des_sols_pollués	N
+21l0l5	Basol	O
+
+#Des analyses sont réalisées 4 fois par an sur les prélèvements de la nappe sur des paramètres traceurs.
+
+22l0l0	la_nappe	O
+
+#Une recherche des PCB a été demandée puisque ces derniers ont été identifiés dans les sols, l'analyse réalisée n'a pas mis en évidence leur présence dans la nappe.
+
+23l0l0	ont_été_identifiés	N
+23l0l1	dans_les_sols	L
+23l0l2	la_nappe	N
+23l1l0	PCB	S
+
+#En 1995, il a été imposé la mise en place d'un dispositif empêchant l'extension de la pollution sur le site par pompage à l'aval hydraulique et réintroduction de l'eau pompée.
+
+24l0l0	En_1995__	T
+24l0l1	il	O
+24l0l2	a_été_imposé	N
+24l0l3	la_mise_en_place_d_	N
+24l0l4	un_dispositif	O
+24l0l5	l__extension_de_la_pollution	N
+24l0l6	pompage	A
+24l0l7	à_l__aval_hydraulique	L
+24l0l8	réintroduction_de	N
+24l0l9	l__eau_pompée	A
+
+#Ce système se révélant inefficace, il a été arrêté en 2000.
+
+25l0l0	Ce_système	O
+25l0l1	a_été_arrêté	N
+25l0l2	en_2000__	T
+
+#Afin de mieux connaître l'ensemble du problème, la société THEMEROIL a commandé une étude détaillée des risques (EDR).
+
+26l0l0	la_société_THEMEROIL	O
+26l0l1	a_commandé_une_étude_détaillée_des_risques	N
+26l1l0	la_société_THEMEROIL	I
+
+#Cette étude, réalisée par ATOS Environnement en 2002, a montré que la pollution reste confinée au site et à son proche aval hydraulique, avec une stabilisation pluriannuelle des paramètres physico-chimiques de caractérisation de la pollution.
+
+27l0l0	Cette_étude	N
+27l0l1	réalisée	N
+27l0l2	ATOS_Environnement	O
+27l0l3	en_2002__	T
+27l0l4	la_pollution	O
+27l0l5	reste_confinée	N
+27l0l6	à_son_proche_aval_hydraulique	L
+27l0l7	une_stabilisation_pluriannuelle	A
+27l0l8	paramètres_physico___chimiques	A
+
+#Il est préconisé dans ce cadre de mieux positionner les piézomètres de contrôle et de pratiquer une communication de voisinage plus importante.
+
+
+#Par ailleurs, du fait que la barrière hydraulique mise en place antérieurement a montré son inefficacité et que l'EDR a démontré que la mise en place de barrières réactives serait d'une efficacité incertaine et à un coût rédhibitoire, l'exploitant avec son conseil ATOS a cherché sans succès à valider la voie de dépollution par phytoremédiation (mise en place d'essences telles que le peuplier pompant l'eau de la nappe et rejetant les polluants organiques dans l'atmosphère).
+
+29l0l0	barrière_hydraulique	O
+29l0l1	mise_en_place_antérieurement	N
+29l0l2	la_mise_en_place	N
+29l0l3	l__exploitant	O
+29l0l4	conseil_ATOS	O
+29l0l5	a_cherché_sans_succès	N
+29l0l6	dépollution	N
+29l0l7	mise_en_place	N
+29l0l8	d__essences	A
+29l1l0	le_peuplier	I
+29l1l1	les_polluants_organiques	U
+
+#Du fait du confinement de la pollution au site, l'atténuation naturelle de la pollution (dispersion lente des polluants dans la nappe et dégradation de la matière organique) a été mise à profit, l'EDR ayant démontré que les risques induits restaient acceptables.
+
+30l0l0	atténuation_naturelle	N
+30l0l1	la_pollution	O
+30l0l2	dispersion	N
+30l0l3	a_été_mise_à_profit	N
+30l1l0	polluants	S
+
+#Suite à une visite d'inspection réalisée en janvier 2009, l'exploitant a été mis en demeure, par arrêté préfectoral du 16 février 2009, de réaliser des travaux sur les rétentions et de procéder à l'analyse périodique des eaux souterraines prévue.
+
+31l0l0	Suite_à	R
+31l0l1	une_visite_d__inspection_réalisée	N
+31l0l2	en_janvier_2009__	T
+31l0l3	l__exploitant	O
+31l0l4	a_été_mis_en	N
+31l0l5	par_arrêté_préfectoral	O
+31l0l6	16_février_2009__	T
+31l0l7	de_réaliser_des_travaux_sur_les_rétentions	N
+31l0l8	l__analyse_périodique_des_eaux_souterraines	A
+
+#Une nouvelle inspection menée le 3 juin 2009 a permis de constater que les prescriptions de la mise en demeure étaient respectées.
+
+32l0l0	Une_nouvelle_inspection	N
+32l0l1	le_3_juin_2009	T
+
+#PROBLÉMATIQUE DES PCB
+
+33l1l0	PCB	S
+
+#-------------------
+
+
+#Durant l'été 2009, la présence de Polychlorobiphényles (PCB) dans les sédiments des fossés situés à proximité de l'entreprise a été constatée.
+
+35l0l0	Durant_l__été_2009__	T
+35l0l1	la_présence	A
+35l0l2	fossés	O
+35l0l3	situés_à_proximité_de_l__entreprise	L
+35l0l4	a_été_constatée	N
+35l1l0	Polychlorobiphényles	S
+35l1l1	PCB	S
+
+#Sur proposition de l'inspection des installations classées, le préfet de Saône et Loire a signé un arrêté de mesures d'urgence le 24 juillet 2009 afin de :
+
+36l0l0	l__inspection_des_installations_classées	O
+36l0l1	le_préfet_de_Saône_et_Loire	O
+36l0l2	a_signé	N
+36l0l3	un_arrêté_de_mesures_d__urgence	O
+36l0l4	le_24_juillet_2009	T
+36l1l0	le_préfet_de_Saône	I
+
+#- procéder à la mise en place d'un dispositif permettant d'éviter tout entraînement de sédiments contaminés vers l'aval du site ;
+
+37l0l0	procéder_à	R
+37l0l1	la_mise_en_place_d_	N
+37l0l2	un_dispositif	O
+37l0l3	sédiments_contaminés	O
+37l0l4	vers_l__aval_du_site	L
+
+#- curer les fossés au droit du site ;
+
+38l0l0	curer	N
+38l0l1	les_fossés	O
+38l0l2	au_droit_du_site	L
+
+#- cartographier la contamination du site et de son environnement ;
+
+39l0l0	cartographier_la_contamination	N
+
+#- procéder à des analyses complémentaires (sédiments notamment).
+
+
+#La société a remis une étude en décembre 2009 montrant une contamination aux PCB des terres sur certaines zones du site et dans les fossés extérieurs à proximité.
+
+41l0l0	La_société	O
+41l0l1	a_remis	N
+41l0l2	une_étude	N
+41l0l3	en_décembre_2009	T
+41l0l4	dans_les_fossés_extérieurs_à_proximité	L
+41l1l0	La_société	I
+41l1l1	PCB	S
+
+#En outre, les résultats relatifs à la qualité des eaux souterraines (rapports d'avril et de septembre 2009) ont montré une extension du panache de la pollution historique aux solvants chlorés et l'absence d'atténuation de la source de cette pollution, contrairement aux prévisions des précédentes études réalisées.
+
+42l0l0	relatifs_à	R
+42l0l1	la_qualité_des_eaux_souterraines	O
+42l0l2	avril_et_de_septembre_2009__	T
+42l0l3	une_extension	N
+42l1l0	solvants_chlorés	S
+
+#Compte tenu de ces éléments mettant en évidence la nécessité de procéder aux travaux permettant de limiter l'impact sur l'environnement, un arrêté préfectoral complémentaire a été signé le 7 juin 2010.
+
+43l0l0	la_nécessité	O
+43l0l1	de_procéder_aux_travaux	N
+43l0l2	permettant_de_limiter	N
+43l0l3	l__impact_sur	R
+43l0l4	l__environnement	O
+43l0l5	un_arrêté_préfectoral_complémentaire	O
+43l0l6	a_été_signé	N
+43l0l7	le_7_juin_2010__	T
+
+#Il prévoit notamment :
+
+
+#- la finition du curage des fossés ainsi que la réalisation des travaux de suivi et d'entretien du seuil métallique (dispositif mis en place par l'exploitant permettant d'éviter tout entraînement de sédiments contaminés vers l'aval du site) ;
+
+45l0l0	la_finition_du_curage	N
+45l0l1	fossés	O
+45l0l2	la_réalisation_des_travaux_de_suivi_et_d__entretien	N
+45l0l3	du_seuil_métallique	O
+45l0l4	mis_en_place	N
+45l0l5	l__exploitant	O
+45l0l6	sédiments_contaminés	O
+45l0l7	vers_l__aval_du_site	L
+
+#- à court terme le confinement des sols contaminés aux PCB et à terme leur évacuation ;
+
+46l0l0	confinement_des_sols_contaminés	N
+46l0l1	évacuation	N
+46l1l0	PCB	S
+
+#- la mise en place d'un confinement hydraulique (eaux souterraines) et le traitement en continu des eaux collectées.
+
+47l0l0	la_mise_en_place_d__un	N
+47l0l1	confinement_hydraulique	O
+47l0l2	le_traitement_en_continu_des_eaux_collectées	A
+
+#Les 7 et 15 juillet 2010, des inspecteurs des installations classées ont constaté que des prescriptions dont l'échéance était écoulée n'avaient pas été respectées.
+
+48l0l0	Les_7_et_15_juillet_2010__	T
+48l0l1	des_inspecteurs_des_installations_classées	O
+48l0l2	ont_constaté	N
+
+#En conséquence et sur proposition de l'inspection des installations classées, l'exploitant a été mis en demeure, par arrêté préfectoral en date du 2 août 2010, de réaliser en particulier des curages complémentaires de fossés.
+
+49l0l0	l__inspection_des_installations_classées	O
+49l0l1	l__exploitant	O
+49l0l2	a_été_mis_en	N
+49l0l3	par_arrêté_préfectoral	O
+49l0l4	en_date_du_2_août_2010__	T
+49l0l5	réaliser_en_particulier_des_curages_complémentaires_de_fossés	N
+
+#Une nouvelle inspection a été réalisée le 17 septembre 2010 afin de vérifier le respect des échéances fixées par l'arrêté préfectoral complémentaire du 7 juin 2010 d'une part et l'arrêté préfectoral de mise en demeure du 2 août 2010 d'autre part.
+
+50l0l0	Une_nouvelle_inspection_a_été_réalisée	N
+50l0l1	le_17_septembre_2010	T
+50l0l2	vérifier_le_respect	N
+50l0l3	des_échéances	O
+50l0l4	l__arrêté_préfectoral_complémentaire	O
+50l0l5	du_7_juin_2010	T
+50l0l6	l__arrêté_préfectoral	O
+50l0l7	2_août_2010	T
+
+#Les constats réalisés ont montré que les échéances de l'arrêté préfectoral de mise en demeure du 02 août 2010 étaient globalement respectées au contraire de celles de l'arrêté préfectoral complémentaire du 07 juin 2010.
+
+51l0l0	les_échéances	O
+51l0l1	l__arrêté_préfectoral_de_mise_en_demeure	O
+51l0l2	du_02_août_2010	T
+51l0l3	l_	O
+51l0l4	07_juin_2010__	T
+
+#Sur proposition de l'inspection des installations classées, l'exploitant a donc été mis en demeure, par arrêté préfectoral en date du 4 octobre 2010, de se mettre en conformité sous trois mois pour :
+
+52l0l0	l__inspection_des_installations_classées	O
+52l0l1	l__exploitant	O
+52l0l2	a_donc_été_mis_en	N
+52l0l3	par_arrêté_préfectoral	O
+52l0l4	en_date_du_4_octobre_2010__	T
+52l0l5	sous_trois_mois	T
+
+#- le confinement hydraulique du site ;
+
+
+#- le confinement des sols contaminés aux PCB ;
+
+54l1l0	PCB	S
+
+#- la réalisation d'analyses complémentaires.
+
+
+#A l'issue des échéances de mise en conformité fixées par l'arrêté préfectoral de mise en demeure du 4 octobre 2010, une nouvelle visite d'inspection a été diligentée le 12 janvier 2011.
+
+56l0l0	des_échéances_de_mise_en_conformité_fixées	N
+56l0l1	par_l__arrêté_préfectoral_de_mise_en_demeure	O
+56l0l2	4_octobre_2010__	T
+56l0l3	une_nouvelle_visite_d__inspection	N
+56l0l4	a_été_diligentée	N
+56l0l5	le_12_janvier_2011__	T
+
+#Cette inspection a permis de constater que les prescriptions pour lesquelles l'exploitant avait été mis en demeure n'étaient pas respectées.
+
+57l0l0	Cette_inspection	N
+57l0l1	les_prescriptions	O
+57l0l2	l__exploitant	O
+
+#Ce constat à conduit à un arrêté de consignation d'une somme de 234 174,78 € et un nouvel arrêté de mise en demeure, tous deux en date du 20 janvier 2011.
+
+58l0l0	Ce_constat	N
+58l0l1	à_conduit_à	R
+58l0l2	un_arrêté_de_consignation	O
+58l0l3	et_un_nouvel_arrêté	N
+58l0l4	deux_en_date_du_20_janvier_2011__	T
+
+#LIQUIDATION JUDICIAIRE
+
+59l1l0	JUDICIAIRE	I
+
+#-------------------
+
+
+#Par jugement en date du 24 février 2011, le tribunal de commerce de Chalon-sur-Saône a ouvert une procédure de redressement judiciaire à l'égard de la société HUILES THEMEROIL, avec une période d'observation limitée à six mois.
+
+61l0l0	en_date_du_24_février_2011__	T
+61l0l1	le_tribunal_de_commerce_de	O
+61l0l2	Chalon_sur_Saône	L
+61l0l3	a_ouvert_une_procédure_de_redressement_judiciaire	N
+61l0l4	à_l__égard_de	R
+61l0l5	la_société_HUILES_THEMEROIL	O
+61l0l6	une_période_d__observation	O
+61l0l7	six_mois	T
+61l1l0	la_société_HUILES_THEMEROIL	I
+
+#A cette date, il était plus que probable que la société serait placée en liquidation judiciaire à l'issue de la période d'observation, voire avant à son terme.
+
+62l0l0	A_cette_date	T
+62l0l1	il_était_plus_que_probable	O
+62l0l2	la_société	O
+62l0l3	serait_placée_en_liquidation_judiciaire	N
+62l0l4	à_l__issue_de_la	T
+62l0l5	période_d_	O
+
+#Dans ce cadre et sans attendre la mise en liquidation judiciaire, une visite conjointe ADEME - DREAL du site THEMEROIL a été réalisée le 13 avril 2011 afin que l'ADEME puisse commencer à travailler sur le contenu des mesures de mise en sécurité à mettre en œuvre qui nécessiteront, avant toute intervention de l'agence, l'accord du ministère en charge du développement durable.
+
+63l0l0	sans_attendre_la_mise_en_liquidation_judiciaire	N
+63l0l1	une_visite	N
+63l0l2	conjointe_ADEME	O
+63l0l3	DREAL	O
+63l0l4	site_THEMEROIL	O
+63l0l5	a_été_réalisée	N
+63l0l6	le_13_avril_2011	T
+63l0l7	le_contenu_des_mesures_de_mise_en_sécurité	O
+63l0l8	ministère_en_charge_du_développement_durable	O
+63l1l0	DREAL	I
+63l1l1	THEMEROIL	I
+
+#Par jugement du tribunal de commerce de Chalon-sur-Saône en date du 28 avril 2011, la société THEMEROIL a été mise en liquidation judiciaire.
+
+64l0l0	tribunal_de_commerce	O
+64l0l1	de_Chalon_sur_Saône	L
+64l0l2	en_date_du_28_avril_2011__	T
+64l0l3	la_société_THEMEROIL	O
+64l0l4	a_été_mise_en_liquidation_judiciaire	N
+64l1l0	la_société_THEMEROIL	I
+
+#Sur proposition de l'inspection des installations classées, le liquidateur judiciaire a notamment été mis en demeure, par arrêté préfectoral du 1er juin 2011, d'évacuer ou éliminer les produits dangereux et les déchets présents sur le site sous un délai d'un mois.
+
+65l0l0	l__inspection_des_installations_classées	O
+65l0l1	le_liquidateur_judiciaire	O
+65l0l2	a_notamment_été_mis_en	N
+65l0l3	par_arrêté_préfectoral	O
+65l0l4	du_1er_juin_2011__	T
+65l0l5	d__évacuer	N
+65l0l6	éliminer_les_produits_dangereux	N
+65l0l7	les_déchets	O
+65l0l8	sous_un_délai_d__un_mois	T
+65l1l0	les_produits_dangereux	U
+
+#Une visite d'inspection réalisée le 4 juillet 2011 a permis de constater que l'ensemble des échéances de l'arrêté de mise en demeure du 1er juin 2011 n'étaient pas respectées.
+
+66l0l0	Une_visite_d__inspection	N
+66l0l1	le_4_juillet_2011	T
+66l0l2	l__ensemble_des_échéances	O
+66l0l3	l_	O
+66l0l4	arrêté_de_mise_en_demeure_du	N
+66l0l5	1er_juin_2011	T
+
+#Ce constat a conduit à un arrêté de consignation d'une somme de 850 000 € en date du 22 juillet 2011.
+
+67l0l0	Ce_constat	N
+67l0l1	a_conduit_à	R
+67l0l2	un_arrêté_de_consignation	N
+67l0l3	850_000__	O
+67l0l4	en_date_du_22_juillet_2011__	T
+
+#Par courrier en date du 28 septembre 2011, le liquidateur judiciaire confirme qu'il ne pourra pas honorer la consignation d'un montant de 850 000 €.
+
+68l0l0	en_date_du_28_septembre_2011__	T
+
+#Les fonds disponibles ont, en revanche, permis d'engager des travaux d'enlèvement et de traitement de déchets hors sol.
+
+69l0l0	Les_fonds	O
+69l0l1	d__engager_des_travaux_d__enlèvement	N
+69l0l2	de_traitement_de_déchets_hors_sol	N
+
+#INTERVENTION DE L'ADEME
+
+70l0l0	INTERVENTION	N
+70l0l1	L__ADEME	O
+70l1l0	ADEME	I
+
+#-------------------
+
+
+#Sans attendre la mise en liquidation judiciaire, une visite conjointe ADEME - DREAL du site THEMEROIL a été réalisée le 13 avril 2011 afin que l'ADEME puisse commencer à travailler sur le contenu des mesures de mise en sécurité à mettre en œuvre qui nécessiteront, avant toute intervention de l'agence, l'accord du ministère en charge du développement durable.
+
+72l0l0	Sans_attendre_la_mise_en_liquidation_judiciaire	N
+72l0l1	une_visite_conjointe	N
+72l0l2	ADEME	O
+72l0l3	DREAL	O
+72l0l4	site_THEMEROIL	O
+72l0l5	a_été_réalisée	N
+72l0l6	le_13_avril_2011	T
+72l0l7	le_contenu_des_mesures_de_mise	O
+72l0l8	ministère_en_charge_du_développement_durable	O
+72l1l0	DREAL	I
+72l1l1	THEMEROIL	I
+
+#Suite à l'accord du ministère en charge du développement durable, le Préfet a chargé l'ADEME, par arrêté en date du 21 octobre 2011, de procéder à l'exécution des évaluations ou travaux suivants :
+
+73l0l0	Suite_à	R
+73l0l1	l__accord_du_ministère_en_charge_du_développement_durable	O
+73l0l2	le_Préfet	O
+73l0l3	a_chargé	N
+73l0l4	l__ADEME	O
+73l0l5	en_date_du_21_octobre_2011__	T
+73l0l6	l__exécution_des_évaluations	N
+73l1l0	le_Préfet	I
+
+#- l'entretien du seuil métallique disposé dans le fossé captant les eaux en provenance du site, sur une durée de deux ans, y compris l'enlèvement et le traitement des déchets en résultant potentiellement chargés en PCB ;
+
+74l0l0	l__entretien	N
+74l0l1	du_seuil_métallique	O
+74l0l2	disposé	N
+74l0l3	dans_le_fossé_captant_les_eaux_en_provenance_du_site	L
+74l0l4	sur_une_durée_de_deux_ans	T
+74l0l5	l__enlèvement	N
+74l0l6	le_traitement	N
+74l1l0	PCB	S
+
+#- l'enlèvement et le traitement des déchets conditionnés présents sur le site ;
+
+75l0l0	l__enlèvement	N
+75l0l1	le_traitement	N
+
+#- le dimensionnement technique de l'opération de dépollution des eaux souterraines ;
+
+76l0l0	le_dimensionnement_technique	O
+76l0l1	l__opération_de_dépollution	N
+76l0l2	des_eaux_souterraines	A
+
+#- la dépollution de la nappe de Saint-Cosme, intégrant le traitement des sources sol éventuellement encore actives sur le site.
+
+77l0l0	la_dépollution	N
+77l0l1	la_nappe	O
+77l0l2	de_Saint_Cosme	L
+77l0l3	intégrant_le_traitement	N
+
+#Des travaux d'enlèvement des déchets enfouis et de terres imbibées ont été réalisés de juillet à septembre 2013.
+
+78l0l0	Des_travaux_d__enlèvement	N
+78l0l1	déchets_enfouis	N
+78l0l2	terres_imbibées	O
+78l0l3	ont_été_réalisés	N
+78l0l4	de_juillet_à_septembre_2013__	T
+
+#Ils ont permis d'excaver et de trier 8350 m3 de matériaux.
+
+79l0l0	d__excaver	N
+79l0l1	trier	N
+79l0l2	8350_m3_de_matériaux	O
+
+#Afin de répondre aux inquiétudes exprimées par différents représentants d'associations de défense de l'environnement concernant la problématique des PCB, le Préfet a complété l'arrêté préfectoral du 21 octobre 2011 par un arrêté en date du 28 mars 2014 chargeant l'ADEME de procéder aux actions suivantes :
+
+80l0l0	le_Préfet	O
+80l0l1	a_complété	N
+80l0l2	l__arrêté_préfectoral	O
+80l0l3	21_octobre_2011	T
+80l0l4	un_arrêté	O
+80l0l5	en_date_du_28_mars_2014	T
+80l0l6	chargeant	N
+80l0l7	l__ADEME	O
+80l1l0	PCB	S
+80l1l1	le_Préfet	I
+
+#- la poursuite de l'entretien semestriel du seuil métallique ;
+
+81l0l0	la_poursuite	N
+81l0l1	de_l__entretien_semestriel_du_seuil_métallique	A
+
+#- la réalisation d'une étude des transferts, via le réseau hydrographique, des PCB et d'une étude des milieux potentiellement impactés.
+
+82l0l0	une_étude_des_milieux	N
+82l0l1	potentiellement_impactés	O
+82l1l0	PCB	S
+
+#L'implantation de piézomètres supplémentaires ainsi que les mesures faites ont permis de définir plus précisément l’étendue du panache de pollution et de confirmer le sens d'écoulement de la nappe (du site vers le sud-Est en direction du ruisseau « Raie de l'Etang »).
+
+83l0l0	implantation_de_piézomètres	O
+83l0l1	la_nappe	O
+83l0l2	site	O
+83l0l3	vers_le_sud_Est_en_direction_du_ruisseau_____Raie_de_l__Etang	L
+
+#Les polluants retrouvés correspondent à des solvants chlorés et des hydrocarbures aromatiques (de type BTEX).
+
+84l1l0	solvants_chlorés	U
+84l1l1	hydrocarbures_aromatiques	S
+84l1l2	BTEX	S
+
+#Les investigations menées, au niveau des eaux souterraines, permettent de conclure que :
+
+85l0l0	Les_investigations_menées	N
+85l0l1	au_niveau	N
+
+#- le panache de pollution n’atteint pas le centre du bourg de la commune de Saint-Ambreuil ;
+
+86l0l0	le_centre_du_bourg_de_la_commune_de_Saint_Ambreuil	L
+
+#- les puits au nord du bourg (zone des Teppes) et un puits de la commune de Varennes-Le-Grand montrent des niveaux de pollution nécessitant la mise en place de restrictions d'usage (les particuliers et les maires des communes concernées ont été informés) ;
+
+87l0l0	les_puits	O
+87l0l1	au_nord_du_bourg___zone_des_Teppes	L
+87l0l2	un_puits	O
+87l0l3	la_commune_de_Varennes_Le_Grand	L
+87l0l4	des_niveaux_de_pollution_nécessitant	O
+87l0l5	la_mise_en_place_de	N
+87l0l6	restrictions_d_	O
+87l0l7	les_particuliers	O
+87l0l8	les_maires_des_communes_concernées	O
+87l0l9	ont_été_informés	N
+87l1l0	Teppes	S
+
+#- les conditions d'écoulement de la nappe de Saint-Cosme permettent d'exclure une communication directe entre la nappe de Saint-Cosme et les alluvions de la Grosne et d'exclure les risques sanitaires liés à l'usage des eaux des alluvions de la Grosne faisant l'objet de plusieurs captages AEP.
+
+88l0l0	Saint_Cosme	L
+88l0l1	Saint_Cosme	L
+88l0l2	les_alluvions_de_la_Grosne	L
+88l0l3	alluvions	N
+88l0l4	de_la_Grosne	L
+
+#Les investigations complémentaires réalisées début 2014 sur le site montrent :
+
+89l0l0	Les_investigations_complémentaires	N
+89l0l1	réalisées	N
+89l0l2	début_2014	T
+
+#- que la pollution est toujours présente sur les secteurs du site sur lesquels des excavations ont déjà eu lieu mais également sur d'autres zones et notamment le merlon Ouest ;
+
+90l0l0	la_pollution	O
+90l0l1	est_toujours_présente_sur	R
+90l0l2	les_secteurs_du_site	O
+90l0l3	sur	R
+90l0l4	lesquels_des_excavations_ont_déjà_eu_lieu	N
+90l0l5	le_merlon_Ouest	L
+
+#- la présence d'une couche d'argile relativement imperméable et homogène entre les remblais impactés et la nappe des sables sous-jacente permettant de limiter la diffusion de la pollution au niveau de la nappe.
+
+91l0l0	remblais_impactés	N
+
+#En revanche, cette couche d'argile est quasi inexistante au niveau de la ZEC (Zone Enherbée Centrale) qui constitue donc une voie d'infiltration préférentielle de la pollution vers la nappe.
+
+92l0l0	au_niveau_de_la_ZEC	L
+92l0l1	vers_la_nappe	L
+
+#Enfin, les résultats de l'étude du transfert des PCB vers les milieux environnants montre que les sédiments présents dans les fossés au droit du site constituent une source de contamination en PCB, via le réseau hydrographique, vers les milieux récepteurs à l'aval.
+
+93l0l0	vers_les_milieux_environnants	L
+93l0l1	au_droit_du_site	L
+93l0l2	constituent	R
+93l0l3	une_source_de_contamination	O
+93l0l4	vers_les	L
+93l0l5	milieux_récepteurs	O
+93l1l0	PCB	S
+93l1l1	PCB	S
+
+#En particulier, les analyses réalisées dans les sédiments de l'étang du bois des « Reppes » (aussi appelé « Trou à Kramer ») montrent une contamination modérée en PCB.
+
+94l0l0	l_	O
+94l0l1	étang_du_bois_des_____Reppes	L
+94l1l0	modérée_en	S
+
+#Cependant, seule une étude de la teneur en PCB dans la chair des poissons permettrait d'évaluer les impacts liés à la présence de PCB dans les sédiments de l'étang.
+
+95l1l0	PCB	S
+95l1l1	PCB	S
+
+#En ce qui concerne la gestion globale du site, la solution technique proposée par l'ADEME consiste à procéder au confinement global du site.
+
+96l0l0	gestion_globale	N
+96l0l1	du_site	O
+96l0l2	l__ADEME	O
+96l0l3	confinement_global	N
+
+#Cette solution permettra ainsi de :
+
+
+#- couper les voies de transfert entre les sources actives du site et les eaux souterraines grâce à la mise en place d'une couche argileuse au droit de la ZEC ;
+
+98l0l0	les_sources_actives	O
+98l0l1	les_eaux_souterraines	O
+98l0l2	la_mise_en_place_d_	N
+98l0l3	au_droit_de_la_ZEC	L
+
+#- imperméabiliser la totalité du site.
+
+99l0l0	imperméabiliser	N
+99l0l1	la	O
+
+#Aussi et par arrêté en date du 16 février 2015, le Préfet a chargé l'ADEME de procéder à l'exécution des évaluations et travaux suivants :
+
+100l0l0	en_date_du_16_février_2015__	T
+100l0l1	le_Préfet	O
+100l0l2	a_chargé	N
+100l0l3	l__ADEME	O
+100l0l4	l__exécution	R
+100l0l5	des_évaluations	N
+100l1l0	le_Préfet	I
+
+#- au 01 avril 2015 : la sécurisation du site, (condamnation des ouvertures des bâtiments encore en place, pose d'une grille sur les fosses encore ouvertes, réparation du portail, panneaux interdisant l'accès au site).
+
+101l0l0	au_01_avril_2015__	T
+101l0l1	__la_sécurisation_du_site	N
+101l0l2	__condamnation_des_ouvertures	N
+101l0l3	des_bâtiments	O
+101l0l4	encore_en_place	N
+101l0l5	__pose_d__une_grille	N
+101l0l6	les_fosses	O
+101l0l7	__réparation_du_portail	N
+101l0l8	__panneaux	O
+101l0l9	interdisant_l__accès	N
+
+#Ces éléments permettront la réouverture en sécurité de l'aire des gens du voyage pour la saison estivale 2015 ;
+
+102l0l0	la_réouverture	N
+102l0l1	en_sécurité	N
+102l0l2	l__aire_des_gens_du_voyage	O
+102l0l3	la_saison_estivale_2015	T
+
+#- au 31 octobre 2016 : remise des études de faisabilité relatives au traitement des sources sols encore actives au droit de la ZEC (mise en place d'un traitement par réduction chimique in-situ et malaxage) et au curage des fossés en aval du site ;
+
+103l0l0	au_31_octobre_2016	T
+103l0l1	____remise	N
+103l0l2	des_études_de_faisabilité	O
+103l0l3	relatives	R
+103l0l4	au	N
+103l0l5	traitement_des_sources_sols	O
+103l0l6	actives_au_droit_de_la_ZEC	L
+103l0l7	__mise_en_place_d__un_traitement	N
+103l0l8	et_malaxage	A
+103l0l9	et_au_curage	N
+103l0l10	des_fossés	O
+103l0l11	en_aval_du_site	L
+
+#- au 31 octobre 2016 : remise des études de dimensionnement technique et financier de l'opération de confinement sur la totalité du site avec couverture végétale et du comblement de la fenêtre d'infiltration vers la nappe souterraine identifiée au droit de la zone centrale par de l'argile saine.
+
+104l0l0	au_31_octobre_2016	T
+104l0l1	____remise	N
+104l0l2	des_études_de_dimensionnement_technique	N
+104l0l3	de_l__opération	N
+104l0l4	et_du_comblement	N
+104l0l5	vers_la_nappe_souterraine	O
+104l0l6	identifiée_au_droit_de_la_zone_centrale	L
+
+#- la réalisation des travaux définis ci-dessus intégrant le terrassement du quai de stockage et la démolition de l'ensemble des structures aériennes du site ainsi que le traitement des sources de pollution encore actives qui pourraient être retrouvées lors de la phase travaux.
+
+105l0l0	la_réalisation_des_travaux	N
+105l0l1	le_terrassement	N
+105l0l2	du_quai_de_stockage	O
+105l0l3	la_démolition	N
+105l0l4	l_	O
+105l0l5	ensemble_des_structures_aériennes	N
+105l0l6	le_traitement_des_sources_de_pollution	O
+105l0l7	la_phase_travaux	N
+
+#Une campagne d'investigation des eaux a été réalisée en mars 2015 , venant confirmé les impacts dans les eaux souterraines et préconisant une réduction chimique de la nappe ainsi qu'un malaxage , ainsi qu'une évacuation de terre imbibée et de déchets.
+
+106l0l0	Une_campagne_d__investigation	N
+106l0l1	eaux_a_été_réalisée	N
+106l0l2	en_mars_2015	T
+106l0l3	les_impacts	O
+106l0l4	les_eaux_souterraines	O
+106l0l5	la_nappe	O
+106l0l6	un_malaxage	N
+106l0l7	une_évacuation	N
+106l0l8	terre_imbibée	O
+
+#1,14 T de sédiments ont été évacués en janvier 2016.
+
+107l0l0	1_14_T_de_sédiments	O
+107l0l1	ont_été_évacués	N
+107l0l2	en_janvier_2016__	T
+
+#Une nouvelle campagne a été réalisée en septembre 2016 , portant sur les sédiments.
+
+108l0l0	Une_nouvelle_campagne_a_été_réalisée	N
+108l0l1	en_septembre_2016	T
+108l0l2	sédiments	O
+
+#Des prélèvements ont été réalisés sur 11 stations , ils ont démontrés :
+
+109l0l0	Des_prélèvements_ont_été_réalisés	N
+
+#- une concentration significative en PCB dans les sédiments du fossé et dans les sédiments profonds du ruisseau , avec des teneurs en baisse par rapport à la campagne de 2014.
+
+110l0l0	campagne_de_2014__	T
+110l1l0	PCB	S
+
+#Des investigations ont également été réalisées sur les poissons de l'étang environnant ; certains présentaient des dépassements des seuils de pollutions.
+
+111l0l0	Des_investigations	O
+111l0l1	ont_également_été_réalisées	N
+
+#Un curage du fossé à la sortie du site a été réalisé le 27 septembre 2016 et a permis l'évacuation de 4,4T de sédiments vers un biocentre en vue d'un traitement.
+
+112l0l0	Un_curage	N
+112l0l1	fossé	O
+112l0l2	à_la_sortie_du_site	L
+112l0l3	a_été_réalisé	N
+112l0l4	le_27_septembre_2016	T
+112l0l5	l__évacuation	N
+112l0l6	4_4_T	O
+112l0l7	un_biocentre	O
+112l0l8	en_vue_d_	R
+
+#En décembre 2016 , un nouveau diagnostic est réalisé.
+
+113l0l0	En_décembre_2016	T
+113l0l1	un_nouveau_diagnostic_est_réalisé	N
+
+#4 sondages sous gaine PVC ainsi que 14 sondages EnISSA-MIP ont été réalisés, ainsi que des prélèvements multi-niveaux sur Pz27.
+
+114l0l0	4_sondages	O
+114l0l1	MIP	O
+114l0l2	ont_été_réalisés	N
+
+#Ils ont mis en évidence :
+
+
+#- La présence en forte concentrations de HCT , BTEX , COHV dans les sols ; avec les plus hautes concentrations en COHV dans les remblais et en surface , un concentration des pollution en BTEX et COHV dans les 4 premiers mètres , un pic de chlorure de vinyle à 3,4m , un deuxième pic de concentrations en BTEX et COHV à environ 8m et une présence de pollution à partir de 10m et jusqu'à 16m.
+
+116l0l0	forte_concentrations	N
+116l0l1	plus_hautes_concentrations	N
+116l0l2	remblais	L
+116l0l3	un_deuxième_pic	N
+116l0l4	une_présence_de_pollution	O
+116l0l5	à_partir_de	R
+116l0l6	10	O
+116l1l0	HCT	S
+116l1l1	BTEX	S
+116l1l2	COHV	S
+116l1l3	COHV	S
+116l1l4	BTEX	S
+116l1l5	COHV	S
+116l1l6	chlorure_de_vinyle	S
+116l1l7	BTEX	S
+116l1l8	COHV	S
+
+#- Dans les eaux, des concentrations significatives en COHV , BTEX et en surface comme en fond , significatifs de la présence de phases flottantes et plongeantes , ainsi qu'une forte présence d'HC au fond , laissant présumé la présence de composés purs.
+
+117l1l0	COHV	S
+117l1l1	BTEX	S
+117l1l2	phases_flottantes	U
+117l1l3	HC	S
+117l1l4	composés_purs	S
+
+#Les travaux de confinement du site prescrits par l'arrêté préfectoral du 12 février 2015 devraient être engagés en 2020.
+
+118l0l0	Les_travaux_de_confinement_du_site_prescrits	N
+118l0l1	l__arrêté_préfectoral	O
+118l0l2	12_février_2015	T
+118l0l3	devraient_être_engagés_en_2020__	T

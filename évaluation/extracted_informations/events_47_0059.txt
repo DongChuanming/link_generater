@@ -1,0 +1,538 @@
+
+#47.0059
+#Ancienne station service exploitée par la S.
+
+0l0l0	Ancienne_station_service_exploitée	N
+0l0l1	la_S_	O
+0l1l0	la_S_	I
+
+#. CASTELDIS avenue du 8 mai 1945 47700 Casteljaloux.
+
+1l0l0	CASTELDIS_avenue_du_8_mai_1945	N
+1l0l1	47700_Casteljaloux	L
+1l1l0	CASTELDIS	I
+
+#Récépissé a été délivré le 19 janvier 1981.
+
+2l0l0	Récépissé	O
+2l0l1	a_été_délivré	N
+2l0l2	le_19___janvier___1981__	T
+
+#Elle mentionnait :
+
+
+#une cuve de 100 m3 compartimentée double enveloppe destinée à recevoir 60 m3 de supercarburant, 20 m3 de gasoil et 20 m3 d'essence ;
+
+4l0l0	supercarburant	O
+4l0l1	gasoil	A
+4l1l0	une_cuve_de	D
+4l1l1	supercarburant	U
+4l1l2	gasoil	U
+4l1l3	essence	U
+
+#4 distributeurs de carburant : 2 SC, 1 GO et 1 ES.
+
+5l1l0	carburant	U
+5l1l1	GO	I
+
+#Une rénovation de la station-service était déclarée le 10 juin 1995. le courrier préfectoral du  19 juin 1995 confirmait l'absence de modification du classement administratif des installations et des prescriptions applicables.
+
+6l0l0	Une_rénovation	N
+6l0l1	la_station___service	O
+6l0l2	était_déclarée	N
+6l0l3	le_10_juin_1995	T
+6l0l4	__le_courrier_préfectoral	O
+6l0l5	__19_juin_1995	T
+6l0l6	confirmait_l__absence_de_modification	N
+6l0l7	du_classement_administratif_des_installations	O
+6l0l8	et_des_prescriptions_applicables	O
+
+#Le récépissé délivré le 2 juin 1995 mentionnait un stockage de liquides inflammables composé de 80 m3 de 1ère catégorie (CA et SC) et 20 m3 de 2e catégorie (GO) en cuve enterrée cloisonnée, soit un volume équivalent total de 100 m3. ainsi que 3 volucompteurs d'un débit de 3 m3/h de 1ère catégorie et un volucompteur de  3 m3/h de 1ère catégorie soit un débit équivalent total de 9,6 m3/h.
+
+7l0l0	Le_récépissé	O
+7l0l1	délivré	N
+7l0l2	le_2_juin_1995	T
+7l0l3	un_stockage_de_liquides_inflammables	O
+7l0l4	que_3_volucompteurs	O
+7l0l5	et_un	O
+7l1l0	stockage_de_liquides_inflammables	U
+7l1l1	en_cuve_enterrée	D
+
+#Un deuxième récépissé délivré à la S.
+
+8l0l0	Un_deuxième_récépissé	O
+8l0l1	la_S_	O
+
+#.S.
+
+
+#CASTELDIS le 15 décembre 2008 concerne le nouveau site d'implantation (situé à la même adresse) et mentionne l'ensemble des rubriques de classement du magasin LECLERC et de la nouvelle station-service : rubriques 1412.2 (2,94 t de gaz => NC), 1432.2.b (Ce=22,4 m3 => D), 1434.1.b (De=31 m3/h  => D, à reclasser selon la nouvelle rubrique 1435), 2221.2 (1,8 t/j => D), 2910.
+
+10l0l0	CASTELDIS	O
+10l0l1	le_15_décembre_2008	T
+10l0l2	concerne	R
+10l0l3	le_nouveau_site_d_	O
+10l0l4	situé_à_la_même_adresse	L
+10l0l5	LECLERC	L
+10l0l6	la	O
+10l0l7	nouvelle_station	N
+10l1l0	LECLERC	I
+10l1l1	service	S
+10l1l2	t_de_gaz	U
+10l1l3	Ce_22_4	S
+
+#.2 (1,95 MW => NC), 2920.2.b (304 kW => D) et 2925 (>50 kW => D)
+
+
+#Le 1er septembre 2010, Castaldis précise les conditions de cessation d'activité de cette station-service exploitée depuis 1981.
+
+12l0l0	Le_1er_septembre_2010__	T
+12l0l1	Castaldis	O
+12l0l2	précise	R
+12l0l3	les_conditions	O
+12l0l4	cessation_d__activité	N
+12l0l5	exploitée	N
+12l0l6	depuis_1981	T
+12l1l0	Castaldis	I
+
+#Cette cessation d'activité est liée au transfert du magasin LECLERC, voisin de la station-service, qui devait intervenir en octobre 2010 et à la création d'une nouvelle station.
+
+13l0l0	Cette_cessation	N
+13l0l1	d__activité	O
+13l0l2	au_transfert	N
+13l0l3	du_magasin_LECLERC	O
+13l0l4	qui_devait_intervenir	N
+13l0l5	en_octobre_2010	T
+13l0l6	la_création_d__une_nouvelle_station	N
+13l1l0	LECLERC	I
+
+#L'usage futur du site est un parking jusqu'en juin 2011 mais n'est pas déterminé pour la suite.
+
+14l0l0	L__usage_futur_du_site	O
+14l0l1	un_parking	O
+14l0l2	jusqu__en_juin_2011	T
+14l0l3	n__est_pas	R
+14l0l4	déterminé	N
+
+#1- MISE EN SECURITE
+
+15l1l0	SECURITE	I
+
+#Le rapport de fin des travaux de réhabilitation a été adressé à l'inspection le 16/08/2011.
+
+16l0l0	Le_rapport_de_fin_des_travaux_de_réhabilitation	O
+16l0l1	a_été_adressé	N
+16l0l2	l__inspection	O
+16l0l3	le_16_08_2011__	T
+
+#Lors de la visite de l'inspecteur du 28/02/2012, nous avons constaté :
+
+17l0l0	de_la_visite	N
+17l0l1	l__inspecteur	O
+17l0l2	28_02_2012	T
+
+#- que le site est entouré de barrières
+
+
+#- que l'aire de l'ancienne station a été excavée sur une centaine de m2
+
+19l0l0	l__aire	O
+19l0l1	l__ancienne_station	O
+19l0l2	a_été_excavée	N
+
+#- que l'excavation a été remblayée jusqu'à une cinquantaine de cm de la surface
+
+20l0l0	l__excavation	N
+20l0l1	a_été_remblayée	N
+20l0l2	jusqu_	T
+20l0l3	à_une_cinquantaine_de_cm_de_la	N
+20l0l4	surface	A
+
+#- qu'il ne subsiste aucun élément apparent de l'ancienne station
+
+21l0l0	station	O
+
+#- que les cuves ont été enlevées à la date du 08 juin 2011
+
+22l0l0	les_cuves	O
+22l0l1	ont_été_enlevées	N
+22l0l2	à_la_date_du_08_juin_2011	T
+22l1l0	cuves	D
+
+#- que les 3 piézomètres présents sont fermés par un couvercle
+
+
+#Une attestation de neutralisation et ferraillage émise par la société MADIC à la date du 16/07/2012, le certificat de transport et de destination des cuves enlevées du site, et un bordereau de suivi des déchets pour les eaux pompées chargées en hydrocarbures (émis par la SAS LA POPULAIRE de la ZA Michemon à Marmande) ont été transmis à la DREAL par la société LECLERC Casteljaloux par un courrier datant du 19/07/2012.
+
+24l0l0	Une_attestation	O
+24l0l1	de_neutralisation	N
+24l0l2	ferraillage_émise_par	R
+24l0l3	la_société_MADIC	O
+24l0l4	à_la_date_du_16_07_2012	T
+24l0l5	le_certificat_de_transport	N
+24l0l6	la_SAS_LA_POPULAIRE	O
+24l0l7	ZA_Michemon	O
+24l0l8	à_Marmande	L
+24l0l9	ont_été_transmis	N
+24l0l10	la_DREAL	O
+24l0l11	la_société	O
+24l0l12	LECLERC	A
+24l0l13	Casteljaloux	O
+24l0l14	un_courrier	N
+24l0l15	datant_du_19_07_2012__	T
+24l1l0	la_société_MADIC	I
+24l1l1	cuves	D
+24l1l2	hydrocarbures	S
+24l1l3	la_SAS_LA_POPULAIRE	I
+24l1l4	de_la_ZA_Michemon	I
+24l1l5	la_DREAL	I
+24l1l6	la_société_LECLERC_Casteljaloux	I
+
+#2 - DIAGNOSTIC
+
+25l0l0	DIAGNOSTIC	N
+
+#Le diagnostic de l'état des sols joint à la notification de cessation d'activité du 1er/09/2010 fait apparaître une pollution des sols de l'ancienne station-service par des hydrocarbures (gasoil), des BTEX et des HAP :
+
+26l0l0	Le_diagnostic	N
+26l0l1	l__état_des_sols	O
+26l0l2	joint_à	R
+26l0l3	la_notification	N
+26l0l4	de_cessation_d__activité	N
+26l0l5	du_1er_09_2010	T
+26l0l6	une_pollution_des_sols	N
+26l0l7	l__ancienne_station___service	O
+26l1l0	hydrocarbures	S
+26l1l1	gasoil	S
+26l1l2	des_BTEX	S
+26l1l3	des_HAP	S
+
+#- une pollution par hydrocarbures (gasoil) au niveau des sondages T1, T2 et T5, a minima jusqu'à 6 mètres de profondeur,
+
+27l0l0	une_pollution_par	N
+27l0l1	hydrocarbures	O
+27l1l0	hydrocarbures	S
+
+#- la présence significative de BTEX (deux fois supérieure au seuil de définition d'un sol inerte au sens de l'arrêté ministériel du 13 mars 2006) au niveau du sondage T5,
+
+28l0l0	13_mars_2006	T
+28l0l1	au_niveau_du_sondage_T5	L
+28l1l0	BTEX	S
+
+#- la présence importante d'HAP (treize fois supérieure au seuil de définition d'un sol inerte) au niveau du sondage T2 dans la tranche supérieure (0,3 m à 1,5 m) ;
+
+29l0l0	d__HAP	O
+29l0l1	sondage_T2	O
+29l0l2	dans_la_tranche_supérieure	L
+29l1l0	HAP	S
+
+#le bureau d'études mentionne que les terres souillées par les hydrocarbures semblent limitées autour des cuves enterrées et représenter un faible volume ;
+
+30l0l0	hydrocarbures	O
+30l0l1	semblent_limitées	R
+30l0l2	autour_des_cuves_enterrées	L
+30l1l0	hydrocarbures	S
+30l1l1	des_cuves_enterrées	D
+
+#L'origine de la présence des polluants dans les sols n'est pas identifiée.
+
+31l0l0	L__origine	O
+31l1l0	des_polluants	U
+
+#Le 21/01/2011, l'inspection des Installations Classées propose de fixer les conditions de réalisation des études et travaux suivants :
+
+32l0l0	Le_21_01_2011	T
+32l0l1	l__inspection_des_Installations_Classées	O
+32l0l2	réalisation_des_études	N
+
+#- constitution d'un schéma conceptuel permettant d'appréhender les sources de pollution, les différents milieux de transfert et leurs caractéristiques, l'étendue des pollutions et les enjeux à protéger ;
+
+33l0l0	les_sources_de_pollution	O
+33l0l1	les_enjeux_à_protéger	O
+
+#- investigations documentaires et sur site permettant de préciser les milieux et les modalités de transfert des polluants présents ;
+
+34l1l0	polluants_présents	U
+
+#- établissement des objectifs de dépollution ;
+
+35l0l0	établissement	N
+35l0l1	des_objectifs	O
+35l0l2	de_dépollution	N
+
+#- plan de gestion du site pollué comprenant le dimensionnement des sources, la détermination des possibilités de suppression et les mesures permettant de supprimer de façon pérenne les possibilités de contact entre les pollutions (terres, vapeurs,..) et les personnes ;
+
+36l0l0	plan_de_gestion	N
+36l0l1	du_site_pollué	O
+36l0l2	la_détermination	N
+
+#- bilan coûts-avantages permettant de justifier les objectifs de - dépollution et les modalités de gestion proposées ;
+
+37l0l0	dépollution	N
+
+#- détermination et mise en œuvre des mesures retenues pour la gestion du site : opérations de dépollution, de régénération, de confinement, de surveillance,..
+
+38l0l0	mise_en_œuvre	N
+38l0l1	gestion_du_site	O
+38l0l2	opérations_de_dépollution	N
+38l0l3	régénération	N
+38l0l4	confinement	N
+38l0l5	surveillance	A
+
+#- détermination et mise en œuvre des mesures de prévention lors des opérations à réaliser in situ et les délais de réalisation ;
+
+39l0l0	mise_en_œuvre	N
+39l0l1	des_opérations	N
+
+#- surveillance de la qualité des eaux souterraines de la première nappe rencontrée au droit des terrains ;
+
+40l0l0	surveillance_de_la_qualité_des_eaux_souterraines	A
+40l0l1	au_droit_des_terrains	L
+
+#- analyse des risques résiduels.
+
+
+#Sur proposition de l'inspection du 21/01/2011, l'arrêté préfectoral du 07/06/2011 prescrit :
+
+42l0l0	21_01_2011	T
+42l0l1	l__arrêté_préfectoral	O
+42l0l2	07_06_2011_prescrit	N
+
+#- la mise en sécurité du site (évacuation des déchets, accès au site, suppression risques incendie et explosion),
+
+43l0l0	la_mise_en_sécurité	N
+43l0l1	évacuation	N
+43l0l2	accès_au_site	L
+
+#- compléments d'investigations de terrain permettant de connaître l'état des milieux de dimensionner les sources de pollution et de et établir un schéma conceptuel ( 3 mois),
+
+44l0l0	dimensionner_les_sources_de_pollution	O
+44l0l1	un_schéma_conceptuel	O
+
+#- définir les choix de dépollution sur la base d'un bilan coûts avantages,
+
+45l0l0	définir_les_choix_de_dépollution	N
+
+#- la surveillance semestrielle des eaux souterraines
+
+46l0l0	la_surveillance_semestrielle	A
+
+#Les résultats des études et investigations complémentaires confiées au bureau d'études ICF Environnement transmis le 14/02/2011 font apparaître une divergence d'approche consistant à fixer un objectif de dépollution basé sur les seuils de mise en décharge de déchets inertes, contraire à l'approche nationale définie par la circulaire du 08/02/2007.
+
+47l0l0	Les_résultats_des_études	N
+47l0l1	investigations_complémentaires	O
+47l0l2	confiées	N
+47l0l3	au_bureau_d__études_ICF_Environnement	O
+47l0l4	transmis	N
+47l0l5	le_14_02_2011	T
+47l0l6	un_objectif	O
+47l0l7	dépollution	N
+47l0l8	basé_sur	R
+47l0l9	les_seuils	O
+47l0l10	08_02_2007	T
+47l1l0	ICF	I
+
+#En 2011, il a été montré que le calcul de risque sanitaire indique que les niveaux de risque sont inférieurs aux seuils de risque recommandés par la méthodologie de gestion des sites pollués.
+
+48l0l0	En_2011__	T
+
+#Le site est compatible avec son usage envisagé c'est-à-dire la construction d'un parking extérieur.
+
+49l0l0	Le_site	O
+49l0l1	la_construction_d__un	N
+49l0l2	parking_extérieur	O
+
+#3 - TRAVAUX
+
+50l0l0	TRAVAUX	O
+50l1l0	TRAVAUX	I
+
+#En septembre 2011, la DREAL reçoit le rapport de fin de travaux exécutés en juin 2011 : 308 t de terres polluées ont été excavées et envoyées au centre de traitement biologique de Graulhet 81.
+
+51l0l0	En_septembre_2011__	T
+51l0l1	la_DREAL	O
+51l0l2	reçoit	N
+51l0l3	le_rapport	O
+51l0l4	fin_de_travaux_exécutés	N
+51l0l5	en_juin_2011	T
+51l0l6	308_t_de_terres_polluées	O
+51l0l7	ont_été_excavées_et_envoyées_au_centre_de_traitement_biologique	N
+51l0l8	Graulhet_81	L
+51l1l0	la_DREAL	I
+
+#Les résultats des analyses des prélèvements de sols sur les parois et le fond après excavation des sols pollués font apparaître des concentrations nettement inférieures à cet objectif retenu (500 mg/kg de matière sèche).
+
+52l0l0	fond_après	O
+52l0l1	excavation_des_sols_pollués	N
+
+#Les 8 analyses de flancs et fonds de fouilles montrent des valeurs de 0,24 à 320 mg/kg d'HCTX.
+
+53l1l0	d__HCTX	S
+
+#Le toluène précédemment observé ( dans les sols et dans les eaux souterraines) n'est plus détecté dans les sondages ni dans les eaux souterraines (campagne du 06/06/2011).
+
+54l0l0	n__est_plus_détecté	N
+54l0l1	les_sondages	N
+54l0l2	campagne	N
+54l0l3	du_06_06_2011	T
+54l1l0	Le_toluène	S
+
+#L'analyse des risques résiduels montre que les niveaux de risque sont très inférieurs aux recommandations de gestion sanitaire(pour les substances cancérigènes: ERI de l'ordre de 10-10 pour une valeur guide de 10-5 et pour les substances non cancérigènes IR inférieur à 10-5 pour une valeur guide de 1) et sont compatibles avec l'usage futur de parking extérieur.
+
+55l0l0	l__usage_futur	A
+55l1l0	les_substances_cancérigènes	U
+55l1l1	substances	S
+55l1l2	non_cancérigènes	U
+
+#Dans ces conditions, l'inspection considère qu'il n'y a pas lieu de remettre en question les travaux de dépollution effectués et prend note que ce site sera utilisé en parking.
+
+56l0l0	les_travaux_de_dépollution_effectués	N
+56l0l1	ce_site	O
+56l0l2	sera_utilisé_en	R
+56l0l3	parking	O
+
+#Selon un courrier de l'exploitant du 19/07/2012, les excavations ont été remblayées par des matériaux de nature sable graveleux issus des terrassements effectués lors de la création du nouveau magasin jusqu'à 50 cm de la surface.
+
+57l0l0	l__exploitant	O
+57l0l1	du_19_07_2012	T
+57l0l2	les_excavations	N
+57l0l3	ont_été_remblayées	N
+57l0l4	des_terrassements	N
+57l0l5	effectués_lors_de_la_création	N
+57l0l6	du_nouveau_magasin	O
+
+#Les 3 piézomètres présents sont fermés par un couvercle.
+
+
+#Lors d'une visite d'inspection le 28/02/2012, il est constaté que l'aire de l'ancienne station a été excavée puis remblayée, qu'il ne subsiste plus aucun élément apparent de l'ancienne station et enfin que les trois piézomètre servant aux prélèvements sont à présents obturés.
+
+59l0l0	d__une_visite_d__inspection	N
+59l0l1	le_28_02_2012	T
+59l0l2	station	O
+59l0l3	a_été_excavée	N
+59l0l4	remblayée	N
+59l0l5	présents_obturés	N
+59l1l0	obturés	D
+
+#Le procès-verbal de récolement du 1er/03/2012 constate que l’ancienne station service de la société Casteldis a été mise à l'arrêt définitif dans des conditions satisfaisantes au regard de l'article R 512-66-1-III  du code de l'environnement.
+
+60l0l0	Le_procès_verbal_de_récolement	N
+60l0l1	du_1er_03_2012	T
+60l0l2	l__ancienne_station_service	O
+60l0l3	la_société_Casteldis	O
+60l0l4	a_été_mise_à_l__arrêt_définitif	N
+60l1l0	la_société_Casteldis	I
+
+#.
+
+
+#4 - SURVEILLANCE DES EAUX SOUTERRAINES
+
+62l0l0	SURVEILLANCE_DES_EAUX	A
+62l0l1	SOUTERRAINES	O
+62l1l0	EAUX_SOUTERRAINES	I
+
+#Le 21/01/2011, l'inspection des Installations Classées propose la surveillance semestrielle de la qualité des eaux souterraines de la première nappe rencontrée au droit des terrains par l'implantation de 3 piézomètres et l'analyse des paramètres Hydrocarbures totaux, BTEX, 10HAP.
+
+63l0l0	Le_21_01_2011	T
+63l0l1	l__inspection_des_Installations_Classées	O
+63l0l2	propose	R
+63l0l3	la_surveillance_semestrielle	A
+63l0l4	la_qualité_des_eaux_souterraines	O
+63l0l5	la_première_nappe	O
+63l0l6	au_droit_des_terrains	L
+63l1l0	Hydrocarbures_totaux	S
+63l1l1	BTEX	S
+63l1l2	10HAP	S
+
+#L'arrêté du 07/06/2011 prescrit la surveillance semestrielle de la nappe dans 3 piézomètres avec la mesure des paramètres HCTX, BTEX, HAP.
+
+64l0l0	L_	O
+64l0l1	07_06_2011_prescrit	T
+64l0l2	la_surveillance_semestrielle	A
+64l0l3	la_nappe	O
+64l0l4	la_mesure	N
+64l0l5	paramètres_HCTX	O
+64l1l0	HCTX	S
+64l1l1	BTEX	S
+64l1l2	HAP	S
+
+#L'exploitant a transmis à l'inspection le 16 août 2011 les résultats de la première campagne d'analyses après travaux (en période de basses eaux en juin 2011).
+
+65l0l0	L__exploitant	O
+65l0l1	a_transmis	N
+65l0l2	l__inspection	O
+65l0l3	le_16_août_2011	T
+65l0l4	les_résultats	O
+65l0l5	la_première_campagne_d__analyses_après_travaux	N
+65l0l6	en_période_de_basses_eaux_en_juin_2011__	T
+
+#Les résultats de la campagne suivante (hautes eaux en décembre 2011) ont été remis le 28 février 2012.
+
+66l0l0	Les_résultats_de_la_campagne_suivante	O
+66l0l1	hautes_eaux	N
+66l0l2	en_décembre_2011__	T
+66l0l3	ont_été_remis	N
+66l0l4	le_28_février_2012__	T
+
+#Les résultats des 2 campagnes de juin et décembre 2011, réalisées après les travaux, ne mettent pas en évidence un impact de l'ancienne station sur la nappe présente à 5 m environ en dessous de la surface du sol.
+
+67l0l0	Les_résultats_des_2_campagnes	N
+67l0l1	de_juin_et_décembre_2011__	T
+67l0l2	réalisées_après_les_travaux	N
+67l0l3	à_5	T
+67l0l4	m_environ_en_dessous_de	L
+
+#L'inspection considère que la surveillance doit être maintenue pour la prochaine période de basses eaux et de hautes eaux et qu'elle pourra être suspendue si les analyses ne font pas apparaître d'évolution des concentrations.
+
+68l0l0	la_surveillance	O
+68l0l1	doit	R
+68l0l2	être_maintenue	N
+68l0l3	pour_la_prochaine_période	T
+68l0l4	de_basses_eaux	N
+68l0l5	hautes_eaux	N
+
+#Pour la campagne de juin 2012, le suivi a porté sur les piézomètres PZ1 (amont), PZ2 (aval) et PZ3 (latéral aval).
+
+69l0l0	campagne_de_juin_2012__	T
+69l0l1	le_suivi	N
+
+#Pour ces trois piézomètres, les concentrations en BTEX et HAP sont inférieures aux limites de quantification analytiques.
+
+70l0l0	trois_piézomètres	O
+70l0l1	concentrations	O
+70l1l0	BTEX	S
+70l1l1	HAP	S
+
+#Il y a 140 mg/l d'HCT au droit du piézomètre PZ2 (en dessous de la valeur réglementaire définie) et des concentrations en HCT inférieures aux limites de quantification analytiques pour les piézomètres PZ1 et PZ 3.
+
+71l1l0	HCT	S
+71l1l1	HCT	S
+
+#Aucun impact significatif n'est donc relevé.
+
+
+#Pour la campagne de février 2013, il n'a pas été possible de réaliser le suivi sur les 3 piézomètres car le PZ2 (aval) était ensablé.
+
+73l0l0	Pour_la_campagne_de_février_2013__	T
+73l0l1	3_piézomètres	O
+73l0l2	le_PZ2	O
+
+#Le suivi a donc porté sur les piézomètres PZ1 (amont) et PZ3 (latéral aval).
+
+74l0l0	Le_suivi	N
+
+#Pour ces deux piézomètres, les concentrations en BTEX, HCT et HAP sont inférieures aux limites de quantification analytiques.
+
+75l1l0	BTEX	S
+75l1l1	HCT	S
+75l1l2	HAP	S
+
+#Aucun impact significatif n'a été relevé sur les eaux souterraines lors des 3 campagnes postérieures aux travaux de réhabilitation.
+
+76l0l0	les_eaux_souterraines	O
+76l0l1	des_3_campagnes_postérieures_aux_travaux_de_réhabilitation	N
+
+#Le laboratoire préconise donc l'arrêt du suivi règlementaire.
+
+77l0l0	suivi_règlementaire	O

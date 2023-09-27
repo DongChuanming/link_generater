@@ -1,0 +1,540 @@
+
+#72.0082
+#Ce site était exploité comme station service à partir de 1960.
+
+0l0l0	Ce_site	O
+0l0l1	était_exploité	N
+0l0l2	comme_station	R
+0l0l3	service	O
+0l0l4	à_partir_de_1960	T
+
+#La station ferme en juin 2014.
+
+1l0l0	La_station	O
+1l0l1	ferme	N
+1l0l2	en_juin_2014__	T
+
+#Toutes les installations et les bâtiments sont démantelés en 2016.
+
+2l0l0	Toutes_les_installations	O
+2l0l1	les_bâtiments	O
+2l0l2	sont_démantelés	N
+2l0l3	en_2016__	T
+
+#TOTAL MARKETING FRANCE est le dernier exploitant connu.
+
+3l0l0	TOTAL_MARKETING	O
+3l0l1	exploitant_connu	O
+3l1l0	TOTAL_MARKETING_FRANCE	I
+
+#Cette installation était soumise au régime de déclaration au titre de la réglementation des installations classées pour la protection de l'environnement pour le stockage et la distribution d'hydrocarbures.
+
+4l0l0	Cette_installation	O
+4l0l1	était	R
+4l0l2	soumise_au_régime_de_déclaration	N
+4l0l3	la_réglementation_des_installations_classées	O
+4l0l4	pour_la_protection_de_l__environnement	O
+4l0l5	le_stockage_et_la_distribution_d__hydrocarbures	A
+4l1l0	hydrocarbures	S
+
+#Les principales infrastructures de la station service TOTAL MARKETING FRANCE sont les suivantes :
+
+5l0l0	Les_principales_infrastructures	O
+5l0l1	la_station_service_TOTAL_MARKETING	O
+5l1l0	la_station_service_TOTAL_MARKETING_FRANCE	I
+
+#*R1 - Cuve simple enveloppe de 15 m3 en fosse maçonnée - mise en place en 1960 et extraite en 1995;
+
+6l0l0	__mise_en_place	N
+6l0l1	en_1960	T
+6l0l2	et_extraite	N
+6l0l3	en_1995	T
+
+#*R2 - Cuve simple enveloppe de 15 m3 en fosse maçonnée - mise en place en 1960 et extraite en 1995;
+
+7l0l0	__mise_en_place	N
+7l0l1	en_1960	T
+7l0l2	et_extraite	N
+7l0l3	en_1995	T
+
+#*R3 - Cuve simple enveloppe de 15 m3 en fosse maçonnée - mise en place en 1962 et extraite en 1995;
+
+8l0l0	__mise_en_place	N
+8l0l1	en_1962	T
+8l0l2	et_extraite	N
+8l0l3	en_1995	T
+
+#*R4 - Cuve simple enveloppe de 15 m3 en fosse maçonnée - mise en place en 1968 et extraite en 1995 (remplacée par R7/R8);
+
+9l0l0	__mise_en_place	N
+9l0l1	en_1968	T
+9l0l2	et_extraite	N
+9l0l3	en_1995	T
+
+#*R5 - Cuve simple enveloppe de 7,5 m3 en fosse maçonnée - mise en place en 1968 et extraite en 1995 (remplacée par R7/R8);
+
+10l0l0	__mise_en_place	N
+10l0l1	en_1968	T
+10l0l2	et_extraite	N
+10l0l3	en_1995	T
+
+#*R6 - Cuve simple enveloppe de 1,5 m3- mise en place supposée en 1995 et extraite en 2009;
+
+11l0l0	m3__mise_en_place	N
+11l0l1	supposée_en_1995	T
+11l0l2	et_extraite	N
+11l0l3	en_2009	T
+
+#*R7 - Cuve compartimentée double enveloppe de 40 m3 (20 m3 GO   10 m3 GO   10 m3 GO) - mise en place en 1995 et extraite en 2016.
+
+12l0l0	10___m3_GO_____mise	N
+12l0l1	en_place	T
+12l0l2	en_1995_et_extraite_en_2016__	T
+12l1l0	Cuve	D
+
+#Située à une profondeur de 4,5 m;
+
+
+#*R8 - Cuve compartimentée double enveloppe de 40 m3 (10 m3 E10 10 m3 E10 10 m3 GO+ 10 m3 SP98) - mise en place en 1995 et extraite en 2016.
+
+14l0l0	SP98_____mise_en	N
+14l0l1	place_en	T
+14l0l2	1995_et_extraite_en_2016__	T
+14l1l0	Cuve	D
+14l1l1	m3_E10	I
+14l1l2	__m3	I
+14l1l3	10___m3	S
+14l1l4	10___m3	S
+
+#Située à une profondeur de 4,5 m;
+
+15l0l0	Située_à	N
+
+#*D1 - zone de dépotage R1/R2 - mise en place en 1960 et extraite en 1995;
+
+16l0l0	mise_en_place	N
+16l0l1	en_1960	T
+16l0l2	extraite	N
+16l0l3	en_1995	T
+
+#*D2 - Dépotage R3 - mise en place en 1962 et extraite en 1995;
+
+17l0l0	mise_en_place	N
+17l0l1	en_1962	T
+17l0l2	et_extraite	N
+17l0l3	en_1995	T
+
+#*D3 - Dépotage R4/R5 - mise en place en 1968 et extraite en 1995;
+
+18l0l0	mise_en_place	N
+18l0l1	en_1968	T
+18l0l2	et_extraite	N
+18l0l3	en_1995	T
+
+#*D4 - Dépotage - mise en place en 1995 et extraite en 2016.
+
+19l0l0	mise_en_place	N
+19l0l1	en_1995	T
+19l0l2	et_extraite	N
+19l0l3	en_2016__	T
+
+#Située à une profondeur de 0,5 m;
+
+
+#*S1 - Fosse de décantation garage - Extraite en 2016.
+
+21l0l0	en_2016__	T
+21l1l0	Fosse_de_décantation	D
+
+#Située à une profondeur de 1,5 m;
+
+
+#*S2 - Séparateur à hydrocarbures "pistes" - mise en place en 1995 et extraite en 2009 (remplacée par S3)
+
+23l0l0	mise_en_place	N
+23l0l1	en_1995	T
+23l0l2	extraite	N
+23l0l3	en_2009	T
+23l1l0	hydrocarbures	S
+
+#*S3 - Séparateur à hydrocarbures "pistes" - mise en place en 2009 et extraite en 2016.
+
+24l0l0	mise_en_place	N
+24l0l1	en_2009	T
+24l0l2	extraite	N
+24l0l3	en_2016__	T
+
+#Située à une profondeur de 1,5 m;
+
+
+#*1 distributeur 2T - mise en place en 1960 et extraite en 1995;
+
+26l0l0	mise_en_place	N
+26l0l1	en_1960	T
+26l0l2	extraite	N
+26l0l3	en_1995	T
+
+#*5 distributeurs simple produit - mise en place en 1960/62 et extraite en 1995;
+
+27l0l0	mise_en_place	N
+27l0l1	en_1960_62	T
+27l0l2	extraite	O
+27l0l3	en_1995	T
+
+#*2 distributeurs multiproduits - mise en place en 1995 et extraite en 2016.
+
+28l0l0	mise_en_place	N
+28l0l1	en_1995	T
+28l0l2	extraite	O
+28l0l3	en_2016__	T
+
+#La station service est située en centre-ville du Mans en rive droite de la Sarthe, qui s'écoule du Nord vers le Sud, à 650 m au Sud-Est du site.
+
+29l0l0	La_station_service	O
+29l0l1	est_située_en_centre___ville_du_Mans_en_rive_droite_de_la_Sarthe	L
+29l0l2	du_Nord_vers_le_Sud	L
+29l0l3	à_650___m_au_Sud_Est_du_site	L
+
+#L'environnement immédiat du site est composé :
+
+30l0l0	L__environnement_immédiat	O
+
+#‑ en direction du Nord : de la rue des jardins, de pavillons avec jardins sur 110 m, puis de 	parkings individuels ;
+
+31l0l0	en_direction_du_Nord	L
+31l0l1	la	O
+31l0l2	rue_des_jardins	L
+31l0l3	pavillons	O
+
+#‑ en direction de l'Ouest : d'habitations pavillonaires accolées au site, de la place de la 	Chasse Royale, d'un supermarché à 100 m, puis d'habitations pavillonaires et collectives et 	d'une école à 350 m ;
+
+32l0l0	en_direction_de_l__Ouest	L
+32l0l1	__d_	N
+32l0l2	habitations_pavillonaires	O
+32l0l3	accolées_au_site	L
+32l0l4	de_la_place_de_la	L
+32l0l5	Chasse_Royale	L
+32l0l6	d__un_supermarché	O
+32l0l7	à_100	L
+32l0l8	d__une_école	O
+
+#‑ en direction du Sud: de la rue de Voltaire, puis d'haibtations sur plus d'un kilomètre ;
+
+33l0l0	en_direction_du_Sud	O
+33l0l1	__de	R
+33l0l2	la_rue_de_Voltaire	L
+33l0l3	haibtations	N
+
+#‑ en direction de l'Est : d'habitations pavillonnaires accolées au site, de la rue des Jardins, 	d'habitations, d'une école à 170 m puis de terrains de sport à 230 m.
+
+34l0l0	en_direction_de_l__Est	L
+34l0l1	_	N
+34l0l2	d__habitations_pavillonnaires_accolées_au_site	L
+34l0l3	de_la_rue_des_Jardins	L
+34l0l4	d__une_école	O
+
+#Les installations ont été démantelées.
+
+35l0l0	Les_installations	O
+35l0l1	ont_été_démantelées	N
+
+#Le site est clôturé et repose sur des alluvions anciennes de la Sarthe, sur environ 6 m d'épaisseur, constituée de sables et de graviers plus ou moins argileux, et de sables et grès du Cénomanien sur 40 m d'épaisseur.
+
+36l0l0	Le_site	O
+36l0l1	repose_sur_des_alluvions_anciennes_de_la_Sarthe	L
+
+#Le sens d'écoulement de la nappe alluviale, présente au droit du site, est orienté Nord-Ouest vers Est Sud‑Est.
+
+37l0l0	au_droit_du_site	L
+37l0l1	orienté_Nord_Ouest_vers_Est_Sud_Est	N
+
+#Le site est considéré comme mis en sécurité (évacuation des déchets, démantèlement des installations et infrastructures, clôture).
+
+38l0l0	Le_site	O
+38l0l1	est_considéré_comme_mis_en_sécurité	N
+38l0l2	évacuation	N
+38l0l3	des_déchets	O
+38l0l4	démantèlement_des_installations	N
+38l0l5	infrastructures	O
+
+#Compte tenu des travaux de dépollution réalisés et de l'acceptabilité des conditions d'usage industriel du site, TOTAL MARKETING France envisage de valoriser l'ancienne station, une fois le récolement de cessation d'activité réalisé.
+
+39l0l0	des_travaux_de_dépollution_réalisés	N
+39l0l1	l__acceptabilité_des_conditions_d__usage_industriel_du_site	O
+39l0l2	TOTAL_MARKETING_France	O
+39l0l3	envisage	R
+39l0l4	de_valoriser	N
+39l0l5	l__ancienne_station	O
+39l0l6	récolement_de_cessation_d__activité_réalisé	N
+39l1l0	TOTAL_MARKETING_France	I
+
+#Un suivi environnemental est initié, dès juin 2009.
+
+40l0l0	Un_suivi_environnemental	N
+40l0l1	est_initié	N
+40l0l2	dès_juin_2009__	T
+
+#Une étude historique et un diagnostic des sols sont réalisés en août 2014.
+
+41l0l0	Une_étude_historique	N
+41l0l1	un_diagnostic_des_sols	N
+41l0l2	sont_réalisés	N
+41l0l3	en_août_2014__	T
+
+#Des campagnes de suivi des eaux souterraines,  mises en œuvre en juillet 2014 et avant les travaux de démantèlement en avril 2016, mettent en évidence l'absence d'anomalies dans les eaux souterraines.
+
+42l0l0	Des_campagnes_de	N
+42l0l1	suivi_des_eaux_souterraines	A
+42l0l2	__mises_en_œuvre	N
+42l0l3	en_juillet_2014	T
+42l0l4	et_avant_les_travaux_de_démantèlement	N
+42l0l5	en_avril_2016	T
+
+#Les travaux de démantèlement de la station se déroulent en 2 phases (avril 2016 ‑ juillet 2016).
+
+43l0l0	Les_travaux_de_démantèlement	N
+43l0l1	la_station	O
+43l0l2	se_déroulent_en	N
+43l0l3	2_phases	O
+43l0l4	__avril_2016___juillet_2016__	T
+
+#L'ensemble des travaux permet d'extraire et d'envoyer en biocentre, près de 354 tonnes de terres impactées.
+
+44l0l0	des_travaux	N
+44l0l1	permet_d_	R
+44l0l2	extraire	N
+44l0l3	d__envoyer_en_biocentre	N
+44l0l4	354___tonnes_de_terres_impactées	O
+
+#Des ouvrages de surveillance (piézair et piézomètres) sont installés, compte tenu des impacts résiduels constatés.
+
+45l0l0	Des_ouvrages_de_surveillance	O
+45l0l1	sont_installés	N
+
+#De nouvelle investigations sont menées en janvier 2017 afin de délimiter l'impact dans les sols et quantifier un éventuel dégazage des sols.
+
+46l0l0	De_nouvelle_investigations_sont_menées	N
+46l0l1	en_janvier_2017	T
+46l0l2	délimiter	R
+46l0l3	l__impact	O
+46l0l4	dégazage_des_sols	N
+
+#Une enquête de voisinage réalisée en mai 2017 met en évidence l'absence de puits privés en aval de la station service.
+
+47l0l0	Une_enquête_de_voisinage_réalisée	N
+47l0l1	en_mai_2017	T
+47l0l2	l__absence_de_puits_privés	O
+47l0l3	en_aval_de_la_station_service	L
+
+#Depuis janvier 2017, aucun impact significatif n'est mis en évidence dans les eaux souterraines.
+
+48l0l0	Depuis_janvier_2017__	T
+48l0l1	les_eaux_souterraines	O
+
+#Une analyse des risques résiduels (ARR) et une interprétation de l'état des milieux (IEM) sont réalisées en août 2017.
+
+49l0l0	Une_analyse_des_risques_résiduels	O
+49l0l1	une_interprétation_de_l__état_des_milieux	O
+49l0l2	sont_réalisées	N
+49l0l3	en_août_2017__	T
+
+#Les résultats obtenus à partir des gaz du sol, pour le scénario usage industriel du futur bâtiment, aboutissent à :
+
+50l0l0	le_scénario_usage_industriel	O
+50l0l1	du_futur_bâtiment	N
+
+#‑ un quotient de danger (QD) de 3.10-2 (QD < 1)
+
+
+#‑ un excès de risque individuel (ERI) de 8,6.10-7 (ERI < 10-5)
+
+
+#Ces résultats signifient un risque acceptable, en cas d'usage futur comparable à la dernière période d'activité sur site, à savoir un usage industriel.
+
+53l0l0	un_usage_industriel	A
+
+#L'évaluation des risques est menée au vu des hypothèses retenues suivantes :
+
+54l0l0	L__évaluation_des_risques	N
+
+#‑ la population exposée désigne les futurs employés du site,
+
+
+#‑ la voie de transfert désigne l'inhalation de composés volatils, issus du dégazage des sols à 	l'intérieur des bâtiments,
+
+56l0l0	dégazage_des_sols	N
+56l0l1	à	L
+56l0l2	l__intérieur_des_bâtiments	L
+56l1l0	composés_volatils	U
+
+#‑ l'exposition par inhalation au droit des zones extérieures est négligeable,
+
+
+#‑ l'absorption cutanée de gaz est négligeable,
+
+
+#‑ les voies d'exposition par contact direct avec les sols ne sont pas prises en compte, les sols 	seront entièrement recouverts (dalle, enrobé ou remblais sains),
+
+59l0l0	enrobé	N
+59l0l1	remblais_sains	N
+
+#‑ les canalisations AEP ne seront pas mises en place dans les terrains impactés,
+
+60l0l0	les_canalisations_AEP	O
+60l0l1	ne_seront_pas_mises_en_place	N
+60l0l2	les_terrains_impactés	O
+
+#‑ la nappe d'eaux souterraines n'est pas utilisée au droit du site.
+
+
+#Des travaux de dépollution complémentaire interviennent en juillet 2018, extrayant près de 115 tonnes supplémentaires de terres polluées en biocentre.
+
+62l0l0	Des_travaux_de_dépollution_complémentaire_interviennent	N
+62l0l1	en_juillet_2018__	T
+62l0l2	extrayant	N
+62l0l3	115___tonnes_supplémentaires_de_terres_polluées	O
+62l0l4	en_biocentre	O
+
+#Aucun impact résiduel n'est constaté en fond et bord de fouille, à l'exception de la paroi se situant à l’aplomb du bâtiment voisin en limite de site (limite technique).
+
+63l0l0	fond	O
+63l0l1	se_situant_à_l_	L
+63l0l2	aplomb_du_bâtiment_voisin	L
+63l0l3	en_limite_de_site___limite_technique	L
+
+#Le réseau de surveillance est reconstitué après travaux (2 piézairs et 6 piézomètres).
+
+64l0l0	Le_réseau_de_surveillance	O
+64l0l1	est_reconstitué_après_travaux	N
+
+#Deux campagnes de suivi sont menées en août puis novembre 2018.
+
+65l0l0	Deux_campagnes_de_suivi_sont_menées	N
+65l0l1	en_août_puis_novembre_2018__	T
+
+#Les données acquises confirment :
+
+
+#- l'absence d'impact, dans les eaux souterraines, par des hydrocarbures et des BTEX (Benzene, Toluene, Ethylbenzene, Xylene),
+
+67l1l0	hydrocarbures	S
+67l1l1	des_BTEX	S
+67l1l2	Benzene	S
+67l1l3	Toluene	S
+67l1l4	Ethylbenzene	S
+67l1l5	Xylene	S
+
+#‑ l'absence de phase pure d'hydrocarbures dans le piézair, installé après travaux, au droit de la 	zone dépolluée,
+
+68l0l0	le_piézair	O
+68l0l1	installé_après_travaux	N
+68l0l2	au_droit_de_la	L
+68l0l3	zone_dépolluée	L
+68l1l0	hydrocarbures	S
+
+#‑ la présence de traces résiduelles non significatives, dans les gaz du sol, depuis la fin des 	travaux de dépollution complémentaire,
+
+69l0l0	depuis	T
+69l0l1	la_fin_des	N
+69l0l2	travaux_de_dépollution_complémentaire	N
+
+#‑ l'absence de remise en cause des conclusions de l'ARR et de l'IEM, compte tenu de la 	présence après travaux de teneurs dans les gaz du sol bien inférieures aux données d'entrée 	utilisées dans les calculs de risques.
+
+
+#L'exploitant envisage de neutraliser, dans les règles de l'art, les ouvrages mis en place (piézairs et piézomètres), une fois le récépissé de récolement de fin d'activité.
+
+71l0l0	L__exploitant	O
+71l0l1	envisage	R
+71l0l2	de_neutraliser	N
+71l0l3	dans_les_règles_de_l__art	O
+71l0l4	les_ouvrages	O
+71l0l5	mis_en_place	N
+71l0l6	le_récépissé	O
+
+#SOL
+
+
+#Les sols, dans lesquels le piézair PzR3 est implanté, ont fait l'objet d'excavation lors des travaux de dépollution en juillet 2018, jusqu'aux limites techniques (limite de propriété et bâtiments à proximité).
+
+73l0l0	Les_sols	O
+73l0l1	ont_fait_l__objet_d_	R
+73l0l2	excavation	N
+73l0l3	des_travaux_de_dépollution	N
+73l0l4	en_juillet_2018__	T
+73l0l5	jusqu_	R
+73l0l6	aux_limites_techniques	O
+73l1l0	piézair_PzR3	I
+
+#L'analyse des prélèvements des terres laissées en place révèle une teneur maximale en hydrocarbures C10‑C40 de 1 860 mg/kg de matière sèche, entre 0,2 et 4 m de profondeur, au pied de l'habitation adjacente, et une mesure maximale de 402 ppmV au PID en composés volatils.
+
+74l0l0	profondeur___au_pied_de_l__habitation_adjacente	L
+74l1l0	hydrocarbures_C10_C40	S
+
+#Les teneurs en hydrocarbures, mises en évidence en novembre 2018 sur les 2 ouvrages, révèlent  une baisse d'un facteur 4 pour PzR2 et d'un facteur 36 pour PzR4, signifiant une nette amélioration de la qualité des gaz du sol, depuis les travaux de dépollution de juillet 2018.
+
+75l0l0	en_novembre_2018	T
+75l0l1	depuis_les_travaux_de_dépollution	N
+75l0l2	de_juillet_2018__	T
+75l1l0	hydrocarbures	S
+75l1l1	pour_PzR4	S
+
+#La campagne de novembre 2018 dans les gaz du sol indique :
+
+76l0l0	La_campagne_de	N
+76l0l1	novembre_2018	T
+
+#‑ la présence de teneurs en hydrocarbures aliphatiques, sur les 2 ouvrages (maxi : 1,1 mg/m3)
+
+77l1l0	hydrocarbures_aliphatiques	S
+
+#‑ l'absence d'anomalie en hydrocarbures aromatiques et BTEX, avec des teneurs inférieures 	ou proches des limites de quantitification, au niveau des 2 ouvrages.
+
+78l1l0	hydrocarbures_aromatiques	S
+78l1l1	BTEX	S
+
+#En cas de changement ultérieur d'usage, il importe de vérifier la compatibilité de la qualité des milieux avec le projet envisagé par le biais d'une nouvelle étude.
+
+79l0l0	En_cas	R
+79l0l1	de_changement_ultérieur_d_	N
+
+#EAUX SOUTERRAINES
+
+80l0l0	EAUX_SOUTERRAINES	O
+80l1l0	SOUTERRAINES	I
+
+#La campagne de surveillance du 29 novembre 2018 met en évidence :
+
+81l0l0	La_campagne_de_surveillance	N
+81l0l1	du_29_novembre_2018	T
+
+#‑ la présence de traces non significatives en BTEX, sur l'ensemble des ouvrages (6) (maxi : 	9,9 µg/l en amont hydraulique),
+
+82l1l0	BTEX	S
+
+#‑ des teneurs en hydrocarbures C5‑C40 inférieures aux limites de quantification sur 	l'ensemble des 6 piézomètres, à l'exception d'une détection sur Pz8 (maxi : 33 µg/l), 	légèrement supérieure à la limite de quantification du laboratoire.
+
+83l1l0	hydrocarbures_C5_C40	S
+
+#Le schéma conceptuel, établi sur la base d'un usage comparable à la dernière d'exploitation (industriel), met en évidence l'absence de risques, suite aux travaux de dépollution de juillet 2018.
+
+84l0l0	Le_schéma_conceptuel	O
+84l0l1	établi	N
+84l0l2	sur_la_base_d_	R
+84l0l3	la_dernière_d__exploitation	O
+84l0l4	l__absence_de_risques	N
+84l0l5	aux_travaux_de_dépollution	N
+84l0l6	de_juillet_2018__	T
+
+#Recommandations :
+
+
+#Au regard des résultats montrant une bonne qualité des gaz de sols et des eaux souterraines, l'arrêt du suivi et la neutralisation des ouvrages (6 piézomètres et 2 piézairs), dans les règles de l'art, peuvent être envisagés.
+
+86l0l0	l__arrêt_du_suivi	N
+86l0l1	la_neutralisation_des_ouvrages	N
+
+#En cas de changement d'usage, il convient de vérifier la compatibilité de l'état des sols avec le nouvel usage.
+
+87l0l0	En_cas_de	R
+87l0l1	changement_d__usage	N
+87l0l2	le_nouvel_usage	O

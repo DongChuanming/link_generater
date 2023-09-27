@@ -1,0 +1,641 @@
+
+#19.0015
+#L'usine LMB est installée depuis 1956 au 36 avenue Pierre et Marie Curie à  Malemort-sur-Corrèze, dans une zone à usage mixte industriel – résidentiel.
+
+0l0l0	L__usine_LMB	O
+0l0l1	est_installée	N
+0l0l2	depuis_1956	T
+0l0l3	au_36_avenue_Pierre_et_Marie_Curie_à___Malemort_sur_Corrèze___dans_une_zone_à_usage_mixte_industriel___résidentiel	L
+
+#L'établissement conçoit et fabrique des moteurs électriques, des électroventilateurs et des échangeurs de chaleur de précision utilisés dans différents secteurs industriels, dont l'aviation et l'industrie spatiale.
+
+1l0l0	L__établissement	O
+1l0l1	conçoit_et_fabrique	A
+1l0l2	des_moteurs_électriques	O
+1l0l3	secteurs_industriels	A
+1l0l4	l__aviation	O
+1l0l5	industrie_spatiale	O
+
+#L'usine de Malemort est actuellement réglementée au moyen des prescriptions générales applicables aux installations classées soumises à déclaration sous les rubriques 2560-2, 2564-2, et 2564-3 de la nomenclature des installations classées, au titre desquelles son exploitant s'est vu délivrer le récépissé de déclaration n° 2009/0016 du 5 mars 2009.
+
+2l0l0	L__usine	O
+2l0l1	Malemort	L
+2l0l2	est_actuellement_réglementée	N
+2l0l3	installations_classées_soumises_à_déclaration	N
+2l0l4	exploitant	O
+2l0l5	s__est_vu_délivrer_le_récépissé	N
+2l0l6	de_déclaration	N
+2l0l7	n__2009_0016_du_5_mars_2009__	T
+
+#Notons que le 16 novembre 2010, l'exploitant a informé la préfecture de l'arrêt définitif de l'activité de traitement de surface, rangée sous la rubrique n° 2565-2b et concernée par le récépissé du 5 mars 2009, et du démantèlement des installations correspondantes.
+
+3l0l0	le_16_novembre_2010__	T
+3l0l1	l__exploitant	O
+3l0l2	a_informé	N
+3l0l3	la_préfecture	O
+3l0l4	l__arrêt_définitif	N
+3l0l5	l__activité_de_traitement_de_surface	O
+3l0l6	rangée_sous_la_rubrique	N
+3l0l7	le_récépissé	O
+3l0l8	5_mars_2009__	T
+3l0l9	du_démantèlement_des_installations	N
+
+#Le terrain d'emprise de l'usine s'étend sur une surface d'environ 3206 m2 dont 2343 m2 de bâtis.
+
+4l0l0	Le_terrain	O
+4l0l1	bâtis	O
+
+#Il est à ce jour entouré d'un atelier de réparation automobile, d'une imprimerie, d'une fabrique d'emballages, et d'une résidence, et est longé par une voie de circulation urbaine importante.
+
+5l0l0	Il	O
+5l0l1	est	N
+5l0l2	à_ce_jour	T
+5l0l3	entouré_d_	L
+5l0l4	un_atelier_de_réparation_automobile	O
+5l0l5	imprimerie	A
+5l0l6	emballages	O
+5l0l7	d__une_résidence	L
+5l0l8	longé_par	R
+5l0l9	une_voie_de_circulation_urbaine	O
+
+#Cette voie sépare le site industriel d'une zone pavillonnaire située en aval.
+
+6l0l0	Cette_voie	O
+6l0l1	le_site_industriel	O
+6l0l2	d__une_zone_pavillonnaire_située_en_aval	L
+
+#En aval de la zone pavillonnaire, est implantée une zone d'habitations légères située en bordure de la rivière Corrèze.
+
+7l0l0	En_aval_de_la_zone_pavillonnaire	L
+7l0l1	est_implantée	N
+7l0l2	une_zone_d__habitations	O
+7l0l3	en_bordure_de_la_rivière_Corrèze	L
+
+#1.
+
+
+#Constat de la pollution sur site :
+
+
+#Sur le site est présente une pollution historique qui entraîne des concentrations anormales dans les sols (hydrocarbures, dichlorométhane et cis-1,2dichloroéthylène) et les eaux (trichloréthylène "TCE" et dichloroéthylène "DCE").
+
+10l0l0	une_pollution_historique	N
+10l1l0	hydrocarbures	S
+10l1l1	dichlorométhane	S
+10l1l2	cis_1_2dichloroéthylène	S
+10l1l3	trichloréthylène___TCE__	S
+10l1l4	dichloroéthylène	S
+10l1l5	DCE______	I
+
+#Aussi, des investigations, études et travaux de suppression des sources de pollution ont été menés.
+
+11l0l0	des_investigations	N
+11l0l1	travaux_de_suppression	N
+11l0l2	des_sources_de_pollution	O
+11l0l3	ont_été_menés	N
+
+#Trois piézomètres en limite du site présentent des concentrations importantes de produits de dégradation du trichloroéthylène tels que le dichloroéthylène et le chlorure de vinyle.
+
+12l0l0	Trois_piézomètres	O
+12l0l1	en_limite_du_site	L
+12l1l0	trichloroéthylène	S
+12l1l1	le_dichloroéthylène	S
+12l1l2	chlorure_de_vinyle	S
+
+#La présence de solvants chlorés en limite de propriété du site posait la question des écoulements souterrains de polluants, de la détermination des zones impactées, et d'éventuels impacts sanitaires sur les populations situées à l'extérieur du site.
+
+13l0l0	en_limite_de_propriété_du_site	L
+13l0l1	des_zones_impactées	O
+13l1l0	solvants_chlorés	S
+
+#En conséquence, et conformément à la méthodologie nationale actuellement en vigueur en matière de sites et sols pollués, une interprétation de l'état des milieux (IEM) au sens des circulaires ministérielles du 8 février 2007 a été initiée.
+
+14l0l0	sols_pollués	O
+14l0l1	8_février_2007	T
+14l0l2	a_été_initiée	N
+
+#2.
+
+
+#Investigations complémentaires hors site :
+
+16l0l0	Investigations_complémentaires_hors_site	N
+
+#Afin de réaliser l'IEM, des investigations de terrains hors site ont été menées sur le domaine public de novembre 2011 à janvier 2012, et ce en accord avec la municipalité de Malemort-sur-Corrèze.
+
+17l0l0	Afin	R
+17l0l1	de_réaliser_l__IEM	O
+17l0l2	__des_investigations_de_terrains_hors_site	N
+17l0l3	ont_été_menées	N
+17l0l4	sur_le_domaine_public	L
+17l0l5	de_novembre_2011_à_janvier_2012__	T
+17l0l6	ce	O
+17l0l7	en_accord_avec	R
+17l0l8	la_municipalité	O
+17l0l9	de_Malemort_sur_Corrèze	L
+
+#Ont ainsi été réalisées notamment :
+
+
+#- une enquête de voisinage pour déterminer s'il y a utilisation éventuelle des eaux souterraines (puits),
+
+19l0l0	une_enquête_de_voisinage	N
+
+#- l'installation de puits de contrôle.
+
+20l0l0	l_	N
+20l0l1	installation_de_puits_de_contrôle	O
+
+#Le rapport des investigations réalisées par ERM (référencé GMS 0115563 - R1999 de février 2012) a été remis à l'Inspection des Installations Classées le 6 mars 2012.
+
+21l0l0	Le_rapport_des	O
+21l0l1	investigations_réalisées	N
+21l0l2	par_ERM	O
+21l0l3	février_2012__	T
+21l0l4	a_été_remis	N
+21l0l5	l__Inspection_des_Installations_Classées	O
+21l0l6	le_6_mars_2012__	T
+21l1l0	ERM	I
+
+#Ce document concluait à la faisabilité de la mise en œuvre d'un confinement des eaux souterraines, à l'absence d'utilisation de puits par les riverains et à la nécessité de poursuivre les investigations hors site (prélèvements et analyses de gaz du sol).
+
+22l0l0	la_mise_en_œuvre_d__un_confinement	N
+22l0l1	eaux_souterraines	O
+22l0l2	l__absence_d__utilisation_de_puits	N
+22l0l3	les_riverains	O
+22l0l4	la_nécessité	O
+22l0l5	de	R
+22l0l6	poursuivre_les_investigations_hors_site	N
+22l0l7	prélèvements	N
+
+#Des investigations complémentaires hors site ont été réalisées de mars à septembre 2012, et ce en accord avec la municipalité de Malemort et des riverains.
+
+23l0l0	Des_investigations_complémentaires_hors_site_ont_été_réalisées	N
+23l0l1	de_mars_à_septembre_2012__	T
+23l0l2	ce_en	O
+23l0l3	accord_avec	R
+23l0l4	la	O
+23l0l5	municipalité_de_Malemort_et_des_riverains	L
+
+#Ont ainsi été réalisés :
+
+
+#- un test de confinement de la nappe souterraine,
+
+25l0l0	la_nappe_souterraine	O
+
+#- la pose de 3 réseaux de « Gore Sorber » (technique permettant de récupérer les gaz du sol en utilisant des membranes en GORE-TEX),
+
+26l0l0	la_pose	N
+26l0l1	3_réseaux	O
+26l1l0	__Gore_Sorber	S
+26l1l1	en_GORE___TEX	S
+
+#- et l'installation de 5 triplets de puits de contrôle.
+
+27l0l0	l__installation_de	N
+27l0l1	5_triplets_de_puits_de_contrôle	O
+
+#Le rapport des investigations réalisées par ERM (référencé GMS 0158102 - R2166 de septembre 2012) a été remis à l'Inspection des Installations Classées le 24 septembre 2012.
+
+28l0l0	Le_rapport_des	O
+28l0l1	investigations_réalisées	N
+28l0l2	par_ERM	O
+28l0l3	septembre_2012__	T
+28l0l4	a_été_remis	N
+28l0l5	l__Inspection_des_Installations_Classées	O
+28l0l6	le_24_septembre_2012__	T
+28l1l0	ERM	I
+
+#Ce document conclut à l'efficacité du test de confinement et de son maintien en place (traitement par charbon actif).
+
+29l1l0	charbon_actif	U
+
+#Les dispositifs de prélèvement passif des gaz du sol ont permis de mieux cerner la zone d'étude initiale.
+
+30l0l0	la_zone_d__étude_initiale	O
+
+#Les résultats d'analyses confirmaient également que la migration des composés organo-halogénés est limitée à une surface située devant l'usine sur l'avenue Pierre et Marie Curie et en direction de la Corrèze.
+
+31l0l0	située_devant_l__usine	L
+31l0l1	sur_l__avenue_Pierre_et_Marie_Curie	L
+31l0l2	et	R
+31l0l3	en_direction_de_la_Corrèze	L
+31l1l0	composés_organo___halogénés	S
+
+#Toutefois les résultats d'une évaluation des risques sanitaires, sur la base d'une modélisation, indiquaient des niveaux de risques potentiellement supérieurs aux niveaux de référence.
+
+32l0l0	évaluation_des_risques_sanitaires	N
+32l0l1	des_niveaux_de_risques	O
+
+#En conséquence, afin d'affiner les résultats de l'évaluation quantitative des risques sanitaires (EQRS) et de pouvoir apprécier la réalité d'un risque sanitaire, des investigations complémentaires ont été menées, s'appuyant sur des mesures directes de l'air intérieur et de l'eau du robinet dans certaines habitations.
+
+33l0l0	des_investigations_complémentaires	N
+33l0l1	ont_été_menées	N
+
+#3.
+
+
+#Résultats de l'IEM et travaux de mise en sécurité des habitations :
+
+35l0l0	travaux_de_mise_en_sécurité	N
+35l0l1	des_habitations	O
+
+#Un rapport transmis le 30 janvier 2013 sous la référence r2297 "interprétation de l'état des milieux - investigations complémentaires hors site - octobre à décembre 2012 et la proposition de plan d'action" fait état de pollutions au droit de certaines parcelles privées, dont deux bâties.
+
+36l0l0	Un_rapport_transmis	N
+36l0l1	le_30_janvier_2013	T
+36l0l2	l__état	N
+36l0l3	des_milieux___investigations_complémentaires_hors_site	O
+36l0l4	octobre_à_décembre_2012	T
+36l0l5	et_la_proposition_de_plan	O
+
+#En particulier, ont été caractérisées, dans l'une des deux habitations, des valeurs en TCE dans l'air ambiant supérieures à la valeur d'action rapide émise par le haut conseil de santé publique (HCSP) qui implique une action dans un maximum de six mois.
+
+37l1l0	TCE	S
+37l1l1	le_haut_conseil_de_santé_publique	I
+
+#Après appréciation de la situation sanitaire au regard des concentrations mesurées, il a été acté que les travaux de mise en sécurité devraient être engagés afin de s'inscrire dans le délai de 6 mois maximum précité préconisé en de telles situations.
+
+38l0l0	il_a	O
+38l0l1	été_acté	N
+38l0l2	les_travaux_de_mise_en_sécurité	N
+38l0l3	devraient	T
+38l0l4	être_engagés	N
+
+#Les propriétaires des 2 maisons concernées (l'une présentant toutefois essentiellement une contamination domestique due à des produits stockés) ont été informés de la situation le 22 février 2013.
+
+39l0l0	Les_propriétaires	O
+39l0l1	2_maisons_concernées	O
+39l0l2	ont_été_informés_de_la_situation	N
+39l0l3	le_22_février_2013__	T
+
+#En parallèle de nouvelles analyses de l'air ambiant des habitations ont été réalisées du 3 au 5 avril 2013.
+
+40l0l0	de_nouvelles_analyses	N
+40l0l1	habitations	O
+40l0l2	ont_été_réalisées	N
+40l0l3	du_3_au_5_avril_2013__	T
+
+#Les résultats d'analyses reçus le 17 avril 2013, indiquent pour l'habitation n°17 des teneurs inférieures aux valeurs guides.
+
+41l0l0	Les_résultats_d__analyses_reçus	N
+41l0l1	le_17_avril_2013__	T
+
+#Pour ce qui concerne l'habitation n°19 des teneurs avec de fortes concentrations de TCE mesurées en avril 2013 ont laissé présager la présence d'une deuxième source de pollution non identifiée.
+
+42l0l0	de_fortes_concentrations	O
+42l0l1	de_TCE_mesurées_en	N
+42l0l2	avril_2013	T
+42l0l3	présager	R
+42l0l4	la_présence_d__une_deuxième_source_de_pollution	O
+42l1l0	TCE	S
+
+#Des investigations complémentaires ont donc été initiées autour de cette habitation.
+
+43l0l0	Des_investigations_complémentaires	O
+43l0l1	ont_donc_été_initiées	N
+43l0l2	autour_de_cette_habitation	L
+
+#Dès cette époque, les analyses ne montrent plus de pic de pollution dans cette habitation.
+
+44l0l0	Dès_cette_époque	T
+
+#Les nombreuses investigations qui ont été menées depuis n'ont pas permis d'identifier d'autre source de polluants.
+
+45l0l0	Les_nombreuses_investigations	N
+45l1l0	polluants	U
+
+#Les travaux de mise en sécurité des habitations (dépressurisation sous dalle pour la maison 19 et dalle béton pour la maison 17) ont été réalisés et les dispositifs installés sont opérationnels depuis juin 2013.
+
+46l0l0	Les_travaux_de_mise_en_sécurité	N
+46l0l1	des_habitations	O
+46l0l2	dépressurisation_sous_dalle	N
+46l0l3	ont_été_réalisés	N
+46l0l4	les_dispositifs_installés	O
+46l0l5	sont_opérationnels	N
+46l0l6	depuis_juin_2013__	T
+
+#Après la réalisation de 3 séries de mesures d'air intérieur (juillet, août et septembre 2013, le BRGM dans le cadre de sa tierce expertise a validé l'efficacité des dispositifs mis en place dans ces 2 habitations (Rapport BRGM/RP-63029 FR décembre 2013).
+
+47l0l0	Après	R
+47l0l1	la_réalisation	N
+47l0l2	de_3_séries_de_mesures	N
+47l0l3	juillet___août_et_septembre_2013__	T
+47l0l4	le_BRGM	O
+47l0l5	dans_le_cadre_de	R
+47l0l6	ces_2_habitations	O
+47l1l0	le_BRGM	I
+47l1l1	BRGM	I
+
+#Pour les deux habitations les teneurs en COHV et BTEX mesurées sont toutes inférieures aux valeurs repères de qualité d'air fixées par le Haut Conseil de Santé Publique (HCSP) alors en vigueur.
+
+48l1l0	COHV	S
+48l1l1	BTEX	S
+48l1l2	le_Haut_Conseil_de_Santé_Publique	I
+
+#Désormais ces maisons font l'objet d'une surveillance de la qualité d'air intérieur qui s'inscrit dans une démarche de moyen terme (4 ans) dans le cadre de la méthodologie nationale.
+
+49l0l0	Désormais	N
+49l0l1	ces_maisons	O
+49l0l2	font_l__objet_d_	R
+49l0l3	une_surveillance_de	A
+49l0l4	la_qualité_d__air_intérieur	O
+49l0l5	s__inscrit_dans_une_démarche	N
+49l0l6	moyen_terme	O
+
+#A l'issue de cette surveillance, sera appréciée la nécessité de poursuivre, ou non, cette surveillance, notamment au regard de la pollution résiduelle présente dans les eaux souterraines.
+
+50l0l0	cette_surveillance	A
+50l0l1	surveillance	A
+
+#4.
+
+
+#Investigations complémentaires dans le secteur résidentiel situé à proximité de l’usine :
+
+52l0l0	Investigations_complémentaires	N
+52l0l1	dans	L
+52l0l2	le_secteur_résidentiel	O
+52l0l3	situé_à_proximité_de_l__usine	L
+
+#La préfecture de la Corrèze a décidé de faire réaliser des investigations environnementales complémentaires dans le secteur résidentiel situé à proximité de l’usine, notamment par la mise en œuvre d’analyses d’air ambiant dans quelques habitations du voisinage.
+
+53l0l0	La_préfecture_de_la_Corrèze	O
+53l0l1	a_décidé	N
+53l0l2	de_faire_réaliser_des_investigations_environnementales_complémentaires	N
+53l0l3	dans_le_secteur_résidentiel	L
+53l0l4	situé_à_proximité_de_l__usine	L
+53l0l5	la_mise_en_œuvre_d__analyses	N
+53l0l6	quelques_habitations	O
+53l0l7	du_voisinage	L
+53l1l0	La_préfecture_de_la_Corrèze	I
+
+#Il s’agissait de procéder, à une étape clef du dossier et alors que les travaux de mise en sécurité des 2 habitations identifiées (parcelles n° 17 et n° 19) étaient achevés, à une validation de la zone d’intervention concernée et ce, avant l'engagement des travaux de dépollution des eaux souterraines situées sous l’usine et à proximité.
+
+54l0l0	à	L
+54l0l1	une_étape_clef	O
+54l0l2	les_travaux_de_mise_en_sécurité	N
+54l0l3	2_habitations_identifiées	O
+54l0l4	achevés	N
+54l0l5	une_validation	N
+54l0l6	la_zone_d__intervention	N
+54l0l7	avant	T
+54l0l8	l_	L
+54l0l9	engagement_des_travaux_de_dépollution	N
+54l0l10	eaux_souterraines	O
+54l0l11	situées_sous_l__usine	L
+54l0l12	et	R
+54l0l13	à_proximité	L
+
+#Cette démarche s’appuie sur l’expertise scientifique du BRGM qui intervient dans ce dossier, mais aussi sur les propositions de l’ARS.
+
+55l0l0	BRGM	O
+55l1l0	BRGM	I
+
+#Ces investigations ont été réalisées directement pour le compte de l’État par un bureau d’étude indépendant et spécialisé.
+
+56l0l0	Ces_investigations_ont_été_réalisées	N
+56l0l1	directement_pour_le_compte_de	R
+56l0l2	l__État	O
+56l0l3	un_bureau_d__étude	O
+
+#Des prélèvements d'eaux souterraines, de gaz du sol, mais aussi d'air intérieur au sein de 5 habitations (dont les deux maisons ayant fait l'objet de travaux) ont été réalisés par l'INERIS entre le 16 et le 19 septembre 2013.
+
+57l0l0	5_habitations	O
+57l0l1	deux_maisons	O
+57l0l2	ayant_fait_l__objet	R
+57l0l3	de_travaux	N
+57l0l4	ont_été_réalisés	N
+57l0l5	l__INERIS	O
+57l0l6	entre_le_16_et_le_19_septembre_2013__	T
+
+#Les résultats de ces investigations ont confirmé que le périmètre impacté est bien limité aux 4 parcelles initiales (parcelles n° 13, 15, 17 et 19 section BE).
+
+58l0l0	ces_investigations	N
+58l0l1	le_périmètre_impacté	O
+58l0l2	est	R
+58l0l3	bien_limité	N
+
+#5.
+
+
+#Travaux de dépollution des eaux souterraines :
+
+60l0l0	Travaux_de_dépollution	N
+60l0l1	des_eaux_souterraines	A
+
+#Les opérations de remédiation devaient donc se poursuivre avec la mise en œuvre dans les mois suivants de travaux de dépollution des eaux souterraines sous l'usine et sous les 4 parcelles privées hors du site de l'usine, ces travaux pouvant durer de quelques mois à plusieurs années.
+
+61l0l0	Les_opérations_de_remédiation	N
+61l0l1	la_mise_en_œuvre	N
+61l0l2	dans_les_mois_suivants	T
+61l0l3	de_travaux_de_dépollution	N
+61l0l4	des_eaux_souterraines	O
+61l0l5	sous_les_4_parcelles_privées_hors_du_site_de_l__usine	L
+
+#Le plan de gestion du site de l'usine même a été remis le 30 septembre 2013 (rapport GMS 0158102 - R2598)
+
+62l0l0	Le_plan_de_gestion	O
+62l0l1	du_site	O
+62l0l2	l__usine_même	O
+62l0l3	a_été_remis	N
+62l0l4	le_30_septembre_2013	T
+
+#Le plan de gestion global a été remis le 31 janvier 2014 (rapport GMS 0158102- R2721) avec une version 2 en avril 2014 reprenant les recommandations du BRGM.
+
+63l0l0	Le_plan_de_gestion_global	O
+63l0l1	a_été_remis	N
+63l0l2	le_31_janvier_2014	T
+63l0l3	une_version_2	O
+63l0l4	en_avril_2014	T
+63l0l5	BRGM	O
+63l1l0	BRGM	I
+
+#Les travaux s'accompagneront d'une surveillance pluriannuelle des différents milieux et vraisemblablement de la mise en place de servitudes d'utilité publique et de restrictions d'usage dans le secteur (périmètre et mesures non définis à ce jour).
+
+64l0l0	Les_travaux	N
+64l0l1	d__une_surveillance_pluriannuelle	A
+64l0l2	différents_milieux	O
+64l0l3	vraisemblablement	R
+64l0l4	la_mise_en_place_de	N
+64l0l5	servitudes_d__utilité_publique	O
+64l0l6	à_ce_jour	T
+
+#Bien entendu, les travaux au droit des parcelles privées, ainsi que la surveillance de l'air intérieur dans les habitations nécessitent un accord des riverains concernés.
+
+65l0l0	les_travaux	N
+65l0l1	au_droit_des_parcelles_privées	L
+65l0l2	la_surveillance_de_l_	A
+65l0l3	les_habitations	O
+65l0l4	nécessitent	R
+65l0l5	un_accord	N
+
+#Ces derniers font régulièrement l'objet d'une information leur présentant l'évolution de la situation et des suites prévues.
+
+
+#Les plans de gestions ayant été validés par la DREAL et le tiers expert, il a été proposé d'encadrer leur mise en œuvre par un arrêté préfectoral de prescriptions spéciales, dont le projet a reçu un avis favorable lors du CODERST du 19 juin 2014, et qui a été signé le 4 juillet 2014 (lien vers l'arrêté au chapitre "identification du site" situé en début de fiche, rubrique "plans cartographiques attachés").
+
+67l0l0	Les_plans_de_gestions	O
+67l0l1	ayant_été_validés	N
+67l0l2	la_DREAL	O
+67l0l3	le_tiers_expert	O
+67l0l4	d__encadrer	R
+67l0l5	leur_mise_en_œuvre	N
+67l0l6	un_arrêté_préfectoral_de_prescriptions_spéciales	O
+67l0l7	le_projet	O
+67l0l8	a_reçu	N
+67l0l9	un_avis_favorable	O
+67l0l10	19_juin_2014__	T
+67l0l11	a_été_signé	N
+67l0l12	le_4_juillet_2014	T
+67l1l0	la_DREAL	I
+67l1l1	CODERST	I
+
+#Les travaux réalisés dans l'emprise du site LMB font l'objet d'un suivi périodique de l'air ambiant, ceux réalisés hors emprise du site LMB font l'objet d'un suivi périodique de l'air ambiant des habitations concernées, de l'eau souterraine et de l'air du sol.
+
+68l0l0	Les_travaux_réalisés	N
+68l0l1	dans_l__emprise_du_site_LMB	L
+68l0l2	font_l__objet_d_	R
+68l0l3	un	N
+68l0l4	suivi_périodique	O
+68l0l5	l__air_ambiant	O
+68l0l6	ceux	O
+68l0l7	réalisés_hors_emprise	O
+68l0l8	l_	O
+68l0l9	objet_d_	R
+68l0l10	un_suivi_périodique	A
+
+#Les propriétaires privés sont tenus régulièrement informés des résultats tant sur site que hors site.
+
+69l0l0	Les_propriétaires_privés	O
+
+#Un bilan d'étape des travaux et des surveillances a été présenté par l'exploitant et le cabinet d’ingénierie ERM lors d'une réunion de travail le 3 décembre 2014 à la sous-préfecture de Brive.
+
+70l0l0	Un_bilan_d_	O
+70l0l1	étape_des_travaux	N
+70l0l2	des_surveillances	N
+70l0l3	a_été_présenté	N
+70l0l4	l__exploitant	O
+70l0l5	le_cabinet_d__ingénierie_ERM	O
+70l0l6	une_réunion	N
+70l0l7	de_travail	N
+70l0l8	le_3_décembre_2014	T
+70l0l9	la_sous_préfecture_de_Brive	O
+70l1l0	ERM	I
+
+#Par ailleurs, un avant-projet du dossier de demande de servitudes d'utilité publique prescrit par l'arrêté préfectoral du 4 juillet 2014 a été remis le 30 décembre 2014.
+
+71l0l0	un_avant_projet	O
+71l0l1	demande	N
+71l0l2	de_servitudes_d__utilité_publique	O
+71l0l3	prescrit_par	R
+71l0l4	l__arrêté_préfectoral	O
+71l0l5	4_juillet_2014	T
+71l0l6	a_été_remis	N
+71l0l7	le_30_décembre_2014__	T
+
+#Le dossier définitif ne pourra être établi qu'après la réalisation des travaux sur l'ensemble du domaine privé concerné par les pollutions.
+
+72l0l0	Le_dossier_définitif	O
+72l0l1	ne_pourra_être_établi	N
+72l0l2	la_réalisation	N
+72l0l3	des_travaux	N
+
+#Des négociations sont toujours en cours auprès d'un propriétaire de parcelles non bâties à ce jour.
+
+73l0l0	un_propriétaire_de_parcelles_non_bâties	O
+73l0l1	à_ce_jour	T
+
+#Les travaux pour la mise en œuvre du plan de gestion sur le domaine public, prescrit par l'arrêté du 4 juillet 2014, ont été réalisés en octobre 2014 et les dispositifs de pompages (air et eau) étaient opérationnels en décembre 2014.
+
+74l0l0	Les_travaux	N
+74l0l1	la_mise_en_œuvre	N
+74l0l2	du_plan_de_gestion	O
+74l0l3	sur_le_domaine_public	L
+74l0l4	prescrit_par	R
+74l0l5	l_arrêté	O
+74l0l6	4_juillet_2014__	T
+74l0l7	ont_été_réalisés	N
+74l0l8	en_octobre_2014	T
+74l0l9	les_dispositifs_de_pompages	O
+74l0l10	eau	O
+74l0l11	__étaient_opérationnels	N
+74l0l12	en_décembre_2014__	T
+
+#LMB a remis le 15 février 2015, l'ensemble des bilans de la surveillance environnementale de l'année 2014.
+
+75l0l0	LMB	O
+75l0l1	a_remis	N
+75l0l2	le_15_février_2015__	T
+75l0l3	la_surveillance_environnementale	A
+75l0l4	de_l__année_2014__	T
+75l1l0	LMB	I
+
+#Les travaux pour la mise en œuvre du plan de gestion sur le domaine privé, prescrit par l'arrêté du 4 juillet 2014, ont été réalisés en octobre 2015 et les dispositifs étaient opérationnels en décembre 2015.
+
+76l0l0	Les_travaux	N
+76l0l1	la_mise_en_œuvre	N
+76l0l2	du_plan_de_gestion	O
+76l0l3	sur	R
+76l0l4	le_domaine_privé	O
+76l0l5	prescrit_par	R
+76l0l6	l_arrêté	O
+76l0l7	4_juillet_2014__	T
+76l0l8	ont_été_réalisés	N
+76l0l9	en_octobre_2015	T
+76l0l10	les_dispositifs	O
+76l0l11	étaient_opérationnels	N
+76l0l12	en_décembre_2015__	T
+
+#LMB a remis le 15 février 2016, l'ensemble des bilans de la surveillance environnementale de l'année 2015.
+
+77l0l0	LMB	O
+77l0l1	a_remis	N
+77l0l2	le_15_février_2016__	T
+77l0l4	l_ensemble_des_bilans	N
+77l0l5	de_la_surveillance_environnementale	O
+77l0l6	de_l_	N
+77l0l7	année_2015__	T
+
+#Les résultats de la dernière campagne de surveillance réglementaire d'avril 2016 de la nappe et des gaz du sol montrent une tendance à la continuation de l'amélioration de la situation.
+
+78l0l0	la_dernière_campagne	N
+78l0l1	de_surveillance_réglementaire	O
+78l0l2	d__avril_2016	T
+78l0l3	la_nappe	O
+
+#Les riverains concernés sont régulièrement informés par l'exploitant.
+
+79l0l0	Les_riverains_concernés	O
+79l0l1	l__exploitant	O
+
+#Le traitement de la nappe hors site continue et depuis fin avril des méthodes complémentaires préalablement testées en pilotes sont mises en œuvre pour accélérer la biodégradation des polluants.
+
+80l0l0	Le_traitement	N
+80l0l1	la_nappe	O
+80l0l2	hors_site	N
+80l0l3	depuis_fin_avril	T
+80l1l0	polluants	U
+
+#La prochaine campagne de surveillance est prévue au mois de juillet.
+
+81l0l0	La_prochaine_campagne_de_surveillance	N
+81l0l1	prévue_au_mois_de_juillet	T
+
+#Le dossier de demande de servitudes d'utilité publique daté d'avril 2016 a été adressé à la Préfecture de la Corrèze et fait actuellement l'objet d'un examen de recevabilité par l'Inspection des Installations Classées.
+
+82l0l0	Le_dossier_de_demande_de_servitudes_d__utilité_publique	O
+82l0l1	daté_d__avril_2016	T
+82l0l2	a_été_adressé	N
+82l0l3	la_Préfecture_de_la_Corrèze	O
+82l0l4	actuellement	T
+82l0l5	l__objet_d_	R
+82l0l6	un_examen	N
+82l0l7	l__Inspection_des_Installations_Classées	O
+82l1l0	la_Préfecture_de_la_Corrèze	I
+
+#En application de la procédure prévue à l'article L.512-12 du code de l'environnement, du fait que malgré la superficie de l'ordre de 1,9 ha, un grand nombre de parcelles sont intéressées (une trentaine) ainsi qu'une partie de la voie publique, la demande ne bénéficiera pas de la procédure "simplifiée" (consultation écrite des propriétaires des parcelles) mais donnera bien lieu à enquête publique.
+
+83l0l0	la_demande	O
+83l0l1	enquête_publique	N

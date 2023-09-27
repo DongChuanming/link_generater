@@ -1,0 +1,687 @@
+
+#49.0017
+#Le terrain d'une surface de près de 2ha est situé à La Possonnière, à 750 m au sud ouest du bourg et à 400 m au nord de la Loire.
+
+0l0l0	Le_terrain	O
+0l0l1	2_ha	O
+0l0l2	est_situé_à_La_Possonnière___à_750_m_au_sud_ouest_du_bourg_et_à_400_m_au_nord_de_la_Loire	L
+
+#Il est clos d'un grillage sur la totalité de son périmètre et fermé par un portail.
+
+1l0l0	fermé_par_un_portail	N
+
+#L’environnement du site est constitué par :
+
+
+#* à l’ouest, à l’est et au sud, des habitations individuelles ;
+
+
+#* au nord, une voie de chemin de fer SNCF Nantes-Paris, et au-delà des habitations individuelles.
+
+4l0l0	au_nord	L
+4l0l1	une_voie_de_chemin_de_fer	O
+4l0l2	et	R
+4l0l3	au_delà_des_habitations_individuelles	L
+
+#Le site occupe les parcelles n°2636, 2637, 2638, 2761 et 2768, cadastrées sous la section A de la commune de La Possonnière.
+
+5l0l0	Le_site	O
+5l0l1	la_commune_de_La_Possonnière	L
+
+#La nappe phréatique se situe dans les alluvions.
+
+
+#Elle est exploitée en dehors du site par des puits, vulnérables au risque de pollution.
+
+7l0l0	Elle	O
+7l0l1	est_exploitée	N
+7l0l2	en_dehors_du_site	L
+7l0l3	des_puits	O
+
+#Environ 25 puits ont été recensés en aval du site SAI TS.
+
+8l0l0	25_puits	O
+8l0l1	ont_été_recensés	N
+8l0l2	en_aval_du_site_SAI	L
+8l0l3	TS	O
+
+#Le site d'implantation a accueilli successivement une fonderie (1936), puis une laiterie (1945) et enfin un atelier de traitements de surfaces, exploité pendant une trentaine d'années par SAPEMO, puis Traitements Electrolytiques et, suite au dépôt de bilan de cette dernière société, SAI TS.
+
+9l0l0	Le_site_d__implantation	O
+9l0l1	a_accueilli_successivement	N
+9l0l2	une	O
+9l0l3	fonderie	A
+9l0l4	laiterie	A
+9l0l5	__1945__	T
+9l0l6	un_atelier_de	O
+9l0l7	traitements_de_surfaces	A
+9l0l8	exploité	N
+9l0l9	pendant_une_trentaine_d__années	T
+9l0l10	SAPEMO	O
+9l0l11	Traitements_Electrolytiques	A
+9l0l12	suite_au	R
+9l0l13	dépôt_de_bilan	N
+9l0l14	SAI_TS	O
+9l1l0	SAI_TS	I
+
+#Le dernier exploitant avait été autorisé à poursuivre l'exploitation d'une installation de traitements de surfaces de métaux à La Possonnière par arrêté préfectoral du 22 octobre 2001.
+
+10l0l0	Le_dernier_exploitant	O
+10l0l1	avait_été_autorisé	N
+10l0l2	poursuivre_l_	O
+10l0l3	exploitation_d_	R
+10l0l4	une_installation_de	O
+10l0l5	traitements_de_surfaces_de_métaux	A
+10l0l6	à_La_Possonnière	L
+10l0l7	arrêté_préfectoral	O
+10l0l8	du_22_octobre_2001	T
+
+#Ces activités ont comporté dans le passé un traitement de cadmiage, chaîne supprimée avant les années 2000.
+
+11l0l0	Ces_activités	O
+11l0l1	ont_comporté	N
+11l0l2	dans_le_passé	T
+11l0l3	avant_les_années_2000__	T
+11l1l0	cadmiage	S
+
+#Les dernières chaînes, arrêtées depuis début 2004 comprenaient essentiellement, une chaîne de zingage acide tonneaux, 2 chaînes de zingage attache, une chaîne d'oxydation anodique et une machine de dégraissage au trichloréthylène.
+
+12l0l0	Les_dernières_chaînes	O
+12l0l1	arrêtées	N
+12l0l2	depuis_début_2004	T
+12l0l3	zingage_acide_tonneaux	A
+12l0l4	une_machine_de	O
+12l0l5	dégraissage_au_trichloréthylène	A
+12l1l0	anodique	U
+12l1l1	trichloréthylène	S
+
+#La liquidation judiciaire du dernier exploitant a été prononcée par jugement du tribunal de commerce de Rennes le 12 mai 2004.
+
+13l0l0	La_liquidation_judiciaire	N
+13l0l1	du_dernier_exploitant	O
+13l0l2	a_été_prononcée_par_jugement	N
+13l0l3	du_tribunal_de_commerce	O
+13l0l4	Rennes_le_12_mai_2004__	T
+
+#Maître Olivier MASSART (Rennes) a été nommé mandataire liquidateur.
+
+14l0l0	MASSART	O
+14l0l1	a_été_nommé_mandataire_liquidateur	N
+14l1l0	Olivier_MASSART	I
+
+#Le site a fait l'objet fin 2003 d'une évaluation simplifiée des risques, prescrite par l'arrêté d'autorisation d'extension du 22/10/2001, qui a conclu à un classement du site en classe 1 (site nécessitant un diagnostic approfondi et une évaluation détaillée des risques) pour les sources de pollution constituées de solvants chlorés (notamment trichloréthylène et produits de dégradation) et de métaux (cadmium, chrome VI).
+
+15l0l0	Le_site	O
+15l0l1	a_fait_l__objet	R
+15l0l2	fin_2003	T
+15l0l3	d_	R
+15l0l4	une_évaluation_simplifiée_des_risques	N
+15l0l5	prescrite_par	R
+15l0l6	l__arrêté_d__autorisation	O
+15l0l7	d_	L
+15l0l8	extension	R
+15l0l9	du_22_10_2001	T
+15l0l10	site	O
+15l0l11	en	R
+15l0l12	classe_1	O
+15l0l13	les_sources_de_pollution	O
+15l1l0	solvants_chlorés	S
+15l1l1	notamment_trichloréthylène	S
+15l1l2	métaux	S
+15l1l3	cadmium	S
+15l1l4	chrome_VI	S
+
+#Une analyse des eaux souterraines a été effectuée en février 2004, en application de l'arrêté de mesures d'urgence du 19/01/2004, et a montré que la pollution par les solvants chlorés sort du périmètre du site et affecte les puits riverains.
+
+16l0l0	Une_analyse	N
+16l0l1	eaux_souterraines	O
+16l0l2	a_été_effectuée	N
+16l0l3	en_février_2004__	T
+16l0l4	19_01_2004	T
+16l0l5	sort_du_périmètre_du_site	L
+16l1l0	solvants_chlorés	S
+
+#Les résultats des mesures ont révélé des teneurs en trichloroéthane allant jusqu'à 29000 µg/l (tandis que l'on considère qu'il y a impact de la pollution par cette substance pour une valeur de 2000 µg/l) et en trichloroéthylène allant jusqu'à 1036 µg/l (tandis que l'on considère qu'il y a impact de la pollution par cette substance pour une valeur de 10 µg/l).
+
+17l0l0	des_teneurs	O
+17l1l0	trichloroéthane	S
+17l1l1	trichloroéthylène	S
+
+#Le 24/05/2004, un arrêté préfectoral complémentaire a imposé à l'exploitant :
+
+18l0l0	Le_24_05_2004	T
+18l0l1	un_arrêté_préfectoral_complémentaire	O
+18l0l2	a_imposé	N
+18l0l3	l__exploitant	O
+
+#* de fournir courant mai 2004 ses propositions de mesures, accompagnées d'un calendrier de mise en oeuvre, pour prévenir la migration de la pollution en dehors du périmètre de l'usine,
+
+19l0l0	de_fournir	N
+19l0l1	courant_mai_2004	T
+19l0l2	ses_propositions_de_mesures	O
+19l0l3	la_pollution	O
+19l0l4	en_dehors_du_périmètre_de_l__usine	L
+
+#* la mise en place d'une surveillance des eaux souterraines puis la réalisation d'une étude détaillée des risques avant le 30 septembre 2004.
+
+20l0l0	la_mise_en_place_d__une	N
+20l0l1	surveillance_des_eaux_souterraines	A
+20l0l2	la_réalisation_d__une_étude_détaillée_des_risques	N
+20l0l3	avant_le_30_septembre_2004__	T
+
+#L'information de la mairie et des riverains concernés a été assurée.
+
+21l0l0	L__information	N
+21l0l1	la_mairie	O
+21l0l2	riverains_concernés	O
+21l0l3	a_été_assurée	N
+
+#Un arrêté municipal en date du 29/04/2004 a interdit l’utilisation, à des fins alimentaires, de l’eau de la nappe située dans le secteur de l’usine SAI TS.
+
+22l0l0	Un_arrêté_municipal	O
+22l0l1	en_date_du_29_04_2004	T
+22l0l2	a_interdit	N
+22l0l3	l__utilisation	O
+22l0l4	à	L
+22l0l5	des_fins_alimentaires	A
+22l0l6	la_nappe	O
+22l0l7	située_dans_le_secteur_de_l__usine_SAI_TS	O
+22l1l0	SAI_TS	I
+
+#En 2005, les chaînes de traitement de surface avaient toutes été vidangées de leur bain; les produits chimiques correspondants et les déchets étaient encore présents en quantité importante (environ 60 tonnes) et stockés dans un local fermé à clé.
+
+23l0l0	En_2005__	T
+23l0l1	les_chaînes_de_traitement_de_surface	O
+23l0l2	avaient_toutes_été_vidangées	N
+23l0l3	leur_bain	O
+23l0l4	les_produits_chimiques_correspondants	O
+23l1l0	les_produits_chimiques	U
+23l1l1	les_déchets	U
+
+#Suite à la liquidation de l'entreprise en mai 2004, les procédures administratives mises en œuvre ont conduit au constat d'insolvabilité de l'entreprise pour assurer la mise en sécurité du site.
+
+24l0l0	Suite_à	R
+24l0l1	la_liquidation_de	N
+24l0l2	l__entreprise	O
+24l0l3	en_mai_2004__	T
+24l0l4	les_procédures_administratives	O
+24l0l5	mises_en_œuvre	N
+24l0l6	ont_conduit_au	R
+24l0l7	constat_d__insolvabilité	N
+24l0l8	l__entreprise	O
+24l0l9	assurer_la_mise_en_sécurité	N
+24l0l10	du_site	O
+
+#Par courrier du 2 février 2005, le Ministère de l'Ecologie et du Développement Durable a donné son accord au préfet du Maine-et-Loire pour confier à l'ADEME l'étude des conditions financières et techniques de mise en sécurité du site.
+
+25l0l0	Par_courrier	R
+25l0l1	du_2_février_2005__	T
+25l0l2	le_Ministère_de_l__Ecologie_et_du_Développement_Durable	O
+25l0l3	a_donné_son_accord	N
+25l0l4	au_préfet_du_Maine_et_Loire	O
+25l0l5	confier_à	N
+25l0l6	l__ADEME	O
+25l0l7	l__étude	N
+25l0l8	des_conditions_financières_et_techniques	O
+25l1l0	le_Ministère_de_l__Ecologie	I
+
+#La Commission Nationale des Aides (CNA) a donné un avis favorable, le 8 juin 2005, pour confier à l'ADEME l'enlèvement et l'élimination des déchets dangereux stockés sur le site.
+
+26l0l0	La_Commission_Nationale_des_Aides	O
+26l0l1	a_donné	N
+26l0l2	un_avis_favorable	O
+26l0l3	le_8_juin_2005__	T
+26l0l4	confier	N
+26l0l5	l__ADEME	O
+26l0l6	l__enlèvement	N
+26l0l7	l__élimination_des_déchets_dangereux	N
+26l0l8	le_site	O
+26l1l0	La_Commission_Nationale	I
+26l1l1	des_déchets_dangereux	U
+
+#Un arrêté préfectoral d'exécution de travaux d'office du 4 août 2005 (modifié le 20 janvier 2006) a chargé l'ADEME de l'enlèvement des déchets dangereux et du traitement des transformateurs présents sur le site.
+
+27l0l0	Un_arrêté_préfectoral_d__exécution_de	O
+27l0l1	travaux_d__office	N
+27l0l2	4_août_2005	T
+27l0l3	modifié_le_20_janvier_2006	T
+27l0l4	a_chargé	N
+27l0l5	l__ADEME	O
+27l0l6	l__enlèvement	O
+27l0l7	des_déchets_dangereux	N
+27l0l8	du_traitement_des_transformateurs	N
+27l1l0	des_déchets_dangereux	U
+
+#L'enlèvement des déchets s'est achevé début mai 2006.
+
+28l0l0	L__enlèvement_des_déchets_s__est_achevé	N
+28l0l1	début_mai_2006__	T
+
+#Un arrêté préfectoral de travaux d'office du 17 novembre 2006 a chargé l'ADEME de la réalisation d'un diagnostic approfondi pour la caractérisation des sources de pollution et des conditions de transfert des polluants dans la nappe.
+
+29l0l0	Un_arrêté_préfectoral_de	O
+29l0l1	travaux_d__office	N
+29l0l2	du_17_novembre_2006	T
+29l0l3	a_chargé	N
+29l0l4	l__ADEME	O
+29l0l5	la_réalisation_d__un_diagnostic_approfondi	N
+29l0l6	la_caractérisation_des_sources_de_pollution	O
+29l1l0	polluants	S
+
+#Les travaux ont comporté une étude historique du site suivie d'investigations de terrain réalisées entre mai 2008 et octobre 2009, au droit du site, ainsi qu’à l’extérieur du site.
+
+30l0l0	Les_travaux	N
+30l0l1	une_étude_historique	N
+30l0l2	site	O
+30l0l3	suivie_d__investigations_de_terrain_réalisées	N
+30l0l4	entre_mai_2008_et_octobre_2009__	T
+30l0l5	au_droit_du_site	L
+30l0l6	ainsi	O
+30l0l7	qu_	R
+30l0l8	à_l__extérieur_du_site	L
+
+#Les investigations ont mis en évidence :
+
+31l0l0	Les_investigations	N
+
+#* au droit du site, des impacts sur les sols : en hydrocarbures (3 zones sources) pour des teneurs atteignant au maximum 32 400 mg/kg MS pour des sondages situés en bordure nord du site, en solvants chlorés (10 zones sources), en métaux dans les remblais superficiels (arsenic 53 mg/kg MS, cadmium 143 mg/kg MS, chrome 408 mg/kg MS, cuivre 150 mg/kg MS, nickel 4 170 mg/kg MS, plomb 205 mg/kg MS, zinc 1 570 mg/kg MS au maximum) ;
+
+32l0l0	au_droit_du_site	L
+32l0l1	sondages_situés_en_bordure_nord_du_site	L
+32l1l0	en_hydrocarbures	S
+32l1l1	en_solvants_chlorés	S
+32l1l2	en_métaux	S
+32l1l3	__arsenic	S
+32l1l4	__cadmium	S
+32l1l5	__chrome	S
+32l1l6	__cuivre	S
+32l1l7	__nickel	S
+32l1l8	__plomb	S
+32l1l9	__zinc	S
+
+#* un impact dans les eaux souterraines : les analyses des eaux prélevées dans les piézomètres sur site ainsi que dans des puits de particuliers en aval du site ont mis en évidence la présence de 3 panaches de composés organochlorés dissous dans les eaux souterraines, avec un impact hors site (jusqu'à 265 000 µg/l en COHV totaux sur site et 79 000 µg/l en COHV totaux hors site).
+
+33l0l0	__les_analyses	N
+33l0l1	dans_des	O
+33l0l2	puits_de_particuliers_en_aval_du_site	L
+33l1l0	de_composés_organochlorés	S
+33l1l1	en_COHV_totaux	S
+33l1l2	en_COHV_totaux	S
+
+#Ces panaches se sont développés à partir des différentes zones sources en solvants chlorés présentes dans les sols au droit du site.
+
+34l0l0	au_droit_du_site	L
+34l1l0	solvants_chlorés	S
+
+#* impacts sur l’air du sol et l’air ambiant : les zones sources de pollution sont à l’origine de panaches de composés gazeux organochlorés dans l’air du sol de la zone non saturée, sur site et hors site, par volatilisation des composés volatils présents dans les sols et les eaux souterraines.
+
+35l0l0	__les_zones_sources_de_pollution	O
+35l1l0	de_composés_gazeux_organochlorés	S
+35l1l1	des_composés	U
+
+#Des composés gazeux au droit du site ont également été détectés.
+
+36l0l0	au_droit_du_site	L
+36l0l1	détectés	N
+
+#Compte tenu de l’impact confirmé en composés chlorés dans les eaux souterraines hors site et au vu des usages connus des eaux de la nappe (arrosage des potagers, remplissage de piscines), une première approche des risques sanitaires a été menée fin 2009.
+
+37l0l0	a_été_menée	N
+37l0l1	fin_2009__	T
+37l1l0	composés_chlorés	S
+
+#Les calculs ont montré que les risques sanitaires liés aux eaux souterraines étaient acceptables pour l’utilisation de l’eau pour remplir une piscine.
+
+38l0l0	l__utilisation_de_l__eau	A
+
+#En revanche, cette évaluation des risques n’a pas permis de conclure concernant la consommation de végétaux arrosés par l’eau de puits polluée.
+
+39l0l0	la_consommation_de_végétaux_arrosés	A
+
+#Afin de s'assurer de la compatibilité des usages avec l'état des milieux, un diagnostic complémentaire hors site, suivi d'une interprétation de l'état des milieux (IEM), a été réalisé en 2010.
+
+40l0l0	Afin	R
+40l0l1	de_s__assurer_de_la_compatibilité_des_usages	N
+40l0l2	un_diagnostic_complémentaire_hors_site	N
+40l0l3	interprétation_de_l__état_des_milieux___IEM	O
+40l0l4	a_été_réalisé	N
+40l0l5	en_2010__	T
+
+#Des investigations ont ainsi été mises en œuvre dans les différents milieux d’exposition (eaux souterraines, eau du robinet, sols, air et végétaux) au voisinage du site, chez des riverains volontaires.
+
+41l0l0	Des_investigations_ont_ainsi_été_mises_en	N
+41l0l1	au_voisinage_du_site	L
+41l0l2	chez_des_riverains_volontaires	L
+
+#Ces nouvelles investigations hors site ont mis en évidence :
+
+42l0l0	Ces_nouvelles_investigations	N
+42l0l1	hors_site	N
+
+#* pour le milieu eaux souterraines : confirmation de la pollution en composés chlorés volatils et métaux ;
+
+43l1l0	en_composés_chlorés_volatils	S
+43l1l1	et_métaux	S
+
+#* pour le milieu air ambiant et eau du robinet : absence de détection de composés volatils ;
+
+44l1l0	de_composés_volatils	U
+
+#* pour les milieux végétaux et sols superficiels : une dégradation par les métaux et métalloïdes.
+
+45l0l0	par_les_métaux	O
+45l1l0	par_les_métaux_et_métalloïdes	S
+
+#Pour le milieu eaux souterraines, la comparaison des résultats d’analyses sur les composés chlorés volatils, métaux et métalloïdes avec les valeurs de référence réglementaire confirme l’incompatibilité de ces eaux avec un usage de type alimentation en eau potable.
+
+46l1l0	les_composés_chlorés	U
+46l1l1	métaux	S
+46l1l2	métalloïdes	S
+
+#En revanche, les usages fixés au droit de deux puits pris en compte dans l’étude (usage de type domestiques et utilisation de l’eau souterraine pour le remplissage de la piscine) sont compatibles avec la qualité actuelle des eaux souterraines.
+
+47l0l0	les_usages	O
+47l0l1	fixés	N
+47l0l2	au_droit_de	L
+47l0l3	deux_puits	O
+47l0l4	remplissage_de_la_piscine	A
+47l0l5	compatibles_avec	R
+47l0l6	la_qualité_actuelle_des_eaux_souterraines	O
+
+#L'étude a par ailleurs permis de conclure à :
+
+
+#* des niveaux de risques acceptables pour la consommation de végétaux arrosés par l’eau de puits impactée en composés chlorés et métaux et métalloïdes ;
+
+49l1l0	composés_chlorés	S
+49l1l1	métaux	S
+49l1l2	métalloïdes	S
+
+#* des niveaux de risques acceptables pour le milieu sols superficiels (ingestion de sol).
+
+50l0l0	ingestion	N
+
+#A l’issue de ces investigations et études, l’ADEME a préconisé la mise en place d’un suivi semestriel des eaux souterraines sur 4 ans, au droit du réseau de piézomètres sur site et hors site et au droit des puits de particuliers touchés par la pollution, dans le but de suivre l’évolution du niveau de pollution.
+
+51l0l0	l__ADEME	O
+51l0l1	a_préconisé_la_mise_en_place_d_	N
+51l0l2	un_suivi_semestriel_des_eaux_souterraines	A
+51l0l3	sur_4_ans	T
+51l0l4	au_droit_du_réseau	L
+51l0l5	de_piézomètres	O
+51l0l6	au_droit_des_puits_de_particuliers_touchés_par_la_pollution	L
+51l0l7	l__évolution_du_niveau_de_pollution	O
+
+#En date du 20/06/2014, le Ministère de l'écologie, du développement durable et de l'énergie a donné son accord pour une intervention de l’ADEME afin de réaliser cette surveillance.
+
+52l0l0	En_date_du_20_06_2014	T
+52l0l1	le_Ministère_de_l__écologie	O
+52l0l2	énergie_a_donné	N
+52l0l3	son_accord	O
+52l0l4	une_intervention	N
+52l0l5	l__ADEME	O
+52l0l6	afin_de_réaliser_cette_surveillance	N
+
+#Deux arrêtés préfectoraux portant sur l’occupation temporaire des terrains par l’ADEME (loi du 29 décembre 1892) et l’exécution de travaux d’office (surveillance et dossier de servitudes - cf. point « restrictions d’usage » ci-desssous) ont ainsi été pris en date du 24 février 2015.
+
+53l0l0	Deux_arrêtés_préfectoraux	O
+53l0l1	l__occupation_temporaire	N
+53l0l2	des_terrains	O
+53l0l3	l__ADEME	O
+53l0l4	29_décembre_1892	T
+53l0l5	l__exécution_de_travaux_d_	N
+53l0l6	desssous___ont_ainsi_été_pris	N
+53l0l7	en_date_du_24_février_2015__	T
+
+#Le programme de surveillance des eaux souterraines prescrit consiste à réaliser des prélèvements semestriels d’eau au droit de 17 ouvrages : 9 piézomètres sur le site SAI TS, 3 piézomètres hors du site, et 5 puits de particuliers situés sur des parcelles proches.
+
+54l0l0	Le_programme	O
+54l0l1	surveillance_des_eaux_souterraines	A
+54l0l2	réaliser_des_prélèvements_semestriels	N
+54l0l3	__9_piézomètres	O
+54l0l4	sur_le_site_SAI_TS	O
+54l0l5	et_5_puits_de_particuliers	O
+54l0l6	situés_sur_des_parcelles_proches	L
+54l1l0	site_SAI_TS	I
+
+#Plusieurs paramètres sont contrôlés dont les composés organohalogénés volatils (COHV) tels que le trichloroéthylène, les hydrocarbures aromatiques (ex : benzène) ou encore les métaux (ex : chrome).
+
+55l1l0	composés_organohalogénés_volatils	S
+55l1l1	COHV	S
+55l1l2	le_trichloroéthylène	S
+55l1l3	les_hydrocarbures_aromatiques	S
+55l1l4	__benzène	S
+55l1l5	les_métaux	S
+55l1l6	____chrome	S
+
+#Les deux premières campagnes de surveillance ont été réalisées par l’APAVE en juin et novembre 2016.
+
+56l0l0	Les_deux_premières_campagnes_de_surveillance	N
+56l0l1	ont_été_réalisées_par	N
+56l0l2	l_	O
+56l0l3	APAVE_en_juin_et_novembre_2016__	T
+56l1l0	l__APAVE	I
+
+#A l’issue de ces deux campagnes, les résultats d’analyses mettent en évidence une situation globalement stable, voire à la baisse, comparativement à celle observée lors des investigations de 2008-2009 et l’IEM de 2010.
+
+57l0l0	l__issue_de_ces_deux_campagnes	N
+57l0l1	des_investigations	N
+57l0l2	de_2008___2009	T
+57l0l3	l__IEM	O
+57l0l4	2010__	T
+
+#Toutefois, certains piézomètres font exception à ce constat général :
+
+
+#* sur site, les concentrations mesurées dans le piézomètre Pz1 situé au nord du site présentent une forte hausse par rapport aux valeurs mesurées en 2008-2009, pour les paramètres trichloroéthylène (310 000 µg/l contre 104 000 en 2009), cis-1,2-dichloroéthène (54 000 µg/l contre 13 200 en 2009), et chlorure de vinyle (8100 µg/l contre 138 en 2009), plus particulièrement sur la campagne de novembre 2016.
+
+59l0l0	situé_au_nord_du_site	L
+59l0l1	en_2008___2009	T
+59l0l2	2009__	T
+59l0l3	en_2009__	T
+59l0l4	la_campagne	N
+59l0l5	de_novembre_2016__	T
+59l1l0	les_paramètres_trichloroéthylène	S
+59l1l1	cis_1_2_dichloroéthène	S
+59l1l2	chlorure_de_vinyle	S
+
+#* à l’aval immédiat du site (sud), les eaux de certains ouvrages contrôlés (P6, P28) présentent au moins sur l’une des deux campagnes de 2016 des concentrations plus élevées que celles prises en compte dans l’IEM de 2010, notamment en COHV.
+
+60l0l0	à_l__aval_immédiat_du_site___sud	L
+60l0l1	les_eaux	O
+60l0l2	certains_ouvrages_contrôlés	O
+60l0l3	campagnes_de_2016	T
+60l1l0	COHV	S
+
+#A ce stade, ces évolutions peuvent s’expliquer par des variations pluriannuelles mais aussi par l’influence de pompages.
+
+61l0l0	pompages	A
+
+#Ainsi, les prélèvements d’eaux indiqués par les propriétaires (pompes installées, voire système de pompage raccordé aux habitations pour l’alimentation en eau domestique) peuvent contribuer à attirer des panaches de pollution situés au droit du site.
+
+62l0l0	les_propriétaires	O
+62l0l1	habitations	L
+62l0l2	l__alimentation_en_eau_domestique	A
+62l0l3	attirer	N
+62l0l4	panaches_de_pollution	O
+62l0l5	situés_au_droit_du_site	L
+
+#Les nouvelles campagnes à venir vont permettre de connaître l’évolution de ces tendances dans le temps.
+
+
+#RESTRICTIONS D'USAGE
+
+64l0l0	USAGE	O
+
+#Une restriction d’usage sur les eaux souterraines était déjà applicable, au travers de l’arrêté municipal du 29 avril 2004 qui interdisait l’utilisation, à des fins alimentaires, de l’eau de la nappe située dans le secteur de l’usine SAI TS.
+
+65l0l0	Une_restriction_d__usage	O
+65l0l1	les_eaux_souterraines	A
+65l0l2	l__arrêté_municipal	O
+65l0l3	du_29_avril_2004	T
+65l0l4	interdisait	N
+65l0l5	l__utilisation	O
+65l0l6	des_fins_alimentaires	A
+65l0l7	la_nappe	O
+65l0l8	située_dans_le_secteur_de_l_	L
+65l0l9	usine_SAI_TS	O
+
+#Le diagnostic approfondi et l’interprétation de l’état des milieux réalisé entre 2008 et 2011 ont permis d’apporter des informations nouvelles sur l’extension de la pollution hors site et sur la nature exacte des usages incompatibles avec la qualité de l’eau de la nappe.
+
+66l0l0	Le_diagnostic_approfondi	N
+66l0l1	l__état	N
+66l0l2	des_milieux	O
+66l0l3	réalisé	N
+66l0l4	entre_2008_et_2011	T
+66l0l5	l__extension_de_la	N
+66l0l6	pollution_hors_site	O
+66l0l7	la_nature_exacte_des_usages	O
+
+#A l’issue de ces études, l’ADEME a donc préconisé d’apporter des précisions à l’arrêté municipal de 2004.
+
+67l0l0	ces_études	N
+67l0l1	l__ADEME	O
+67l0l2	précisions	O
+67l0l3	l__arrêté_municipal	O
+67l0l4	de_2004__	T
+
+#Sur la base d’un porter à connaissance du 11 décembre 2014 adressé par le préfet au Maire de la Commune de La Possonnière, un nouvel arrêté municipal a été pris en date du 17 mars 2015 pour préciser d’une part, le périmètre concerné par la restriction d’usage sur les eaux, et d’autre part la nature de la restriction d’usage.
+
+68l0l0	Sur_la_base_d_	R
+68l0l1	un_porter_à_connaissance	O
+68l0l2	11_décembre_2014	T
+68l0l3	le_préfet	O
+68l0l4	Maire	O
+68l0l5	de_la_Commune_de_La_Possonnière	L
+68l0l6	un_nouvel_arrêté_municipal	O
+68l0l7	a_été_pris	N
+68l0l8	en_date_du_17_mars_2015	T
+68l0l9	le_périmètre_concerné	O
+68l0l10	la	A
+68l0l11	restriction_d__usage	O
+68l0l12	la_nature_de_la_restriction_d__usage	O
+68l1l0	le_préfet	I
+
+#En l’occurrence, l’arrêté municipal du 17 mars 2015 a interdit l’utilisation des eaux souterraines à usage d’eau potable.
+
+69l0l0	l__arrêté_municipal	O
+69l0l1	17_mars_2015	T
+69l0l2	a_interdit	N
+69l0l3	l__utilisation_des_eaux_souterraines_à_usage_d__eau_potable	A
+
+#Les analyses d’eaux souterraines réalisées sur site et hors site en 2016 ont toutefois mis en évidence des concentrations plus élevées, notamment en COHV, que celles observées lors de l’étude environnementale réalisée entre 2008 et 2010.
+
+70l0l0	Les_analyses	N
+70l0l1	en_2016	T
+70l0l2	entre_2008_et_2010__	T
+70l1l0	COHV	S
+
+#Il est donc apparu nécessaire de modifier les contraintes d’usage sur une partie du secteur situé au sein du périmètre de restriction d’usage déjà en place au travers de l’arrêté municipal du 17 mars 2015.
+
+71l0l0	Il_est_donc_apparu_nécessaire_de_modifier	N
+71l0l1	une_partie_du_secteur	O
+71l0l2	situé_au_sein_du_périmètre	L
+71l0l3	de_restriction_d__usage	O
+71l0l4	l__arrêté_municipal	O
+71l0l5	17_mars_2015__	T
+
+#Cette modification consiste à introduire au sein du périmètre actuel, une zone d’interdiction stricte d’usage des eaux souterraines quel qu’il soit (cf. plan cartographique) :
+
+72l0l0	introduire	N
+72l0l1	au_sein_du_périmètre_actuel	L
+72l0l2	une_zone_d__interdiction_stricte	O
+72l0l3	usage_des_eaux_souterraines	A
+
+#- les 5 parcelles du site SAI TS ainsi que 67 parcelles situées en aval hydraulique du site sont concernées par la restriction stricte : toute utilisation des eaux souterraines, quelle qu’elle soit, est interdite ;
+
+73l0l0	5_parcelles_du_site_SAI_TS	O
+73l0l1	situées_en_aval_hydraulique_du_site	L
+73l0l2	sont_concernées_par	R
+73l0l3	la_restriction	O
+73l0l4	__toute_utilisation_des_eaux_souterraines	A
+73l1l0	SAI_TS	I
+
+#- pour 109 autres parcelles situées en aval hydraulique, l’utilisation des eaux souterraines pour un usage sensible (eau potable) est interdite.
+
+74l0l0	situées_en_aval_hydraulique	L
+74l0l1	l__utilisation_des_eaux_souterraines	A
+74l0l2	un_usage_sensible	A
+
+#Ainsi les usages alimentaires (boisson, préparation des aliments, lavage de vaisselle) et usages liés à l’hygiène corporelle (lavabo, douche, bain, lavage du linge) sont interdits.
+
+75l0l0	préparation_des_aliments	A
+75l0l1	lavage_de_vaisselle	A
+75l0l2	lavage_du_linge	A
+75l1l0	usages_alimentaires	U
+
+#Seuls les usages connexes comme l’arrosage du potager ou le remplissage des piscines sont autorisés.
+
+76l0l0	l__arrosage	A
+76l0l1	remplissage_des_piscines	A
+
+#Un porter à connaissance a été adressé au maire de la Possonnière en date du 22 mai 2017 afin qu’il dispose des dernières informations sur la qualité des eaux souterraines au droit et en aval hydrogéologique du site, et qu’il procède à la modification de l’arrêté municipal de restriction d’usage des eaux souterraines en intégrant les nouvelles restrictions.
+
+77l0l0	Un_porter_à_connaissance	O
+77l0l1	a_été_adressé	N
+77l0l2	au_maire_de_la_Possonnière	L
+77l0l3	en_date_du_22_mai_2017	T
+77l0l4	la_qualité_des_eaux_souterraines	O
+77l0l5	au_droit_et_en_aval_hydrogéologique_du_site	L
+77l0l6	la_modification	N
+77l0l7	l__arrêté_municipal_de_restriction_d__usage_des_eaux_souterraines	O
+77l0l8	en	R
+77l0l9	intégrant_les_nouvelles_restrictions	N
+
+#Des courriers ont par ailleurs été adressés par le préfet aux riverains disposant d’un puits dans la zone d’interdiction stricte pour les informer de la nouvelle restriction.
+
+78l0l0	ont_par_ailleurs_été_adressés	N
+78l0l1	le_préfet	O
+78l0l2	la_zone_d__interdiction_stricte	O
+78l0l3	informer_de_la_nouvelle_restriction	N
+78l1l0	le_préfet	I
+
+#Au-delà de l’usage des eaux souterraines, il apparaît que d’autres types d’usages, tels que excavation du sol, création de puits, évacuation de déblais de sol, ... pourraient potentiellement générer des risques sanitaires pour les riverains et des risques environnementaux.
+
+79l0l0	l__usage_des_eaux_souterraines	A
+79l0l1	d__autres_types_d__usages	O
+79l0l2	excavation_du_sol	N
+79l0l3	création_de_puits	N
+79l0l4	évacuation_de	N
+79l0l5	déblais_de_sol	O
+
+#L’ADEME a donc proposé l’élaboration d’un dossier de servitudes qui permettra à l’administration d’instaurer des servitudes d’utilité publique sur le secteur impacté par les pollutions (sur site et hors site).
+
+80l0l0	L__ADEME	O
+80l0l1	l__élaboration	O
+80l0l2	un_dossier_de_servitudes	O
+80l0l3	instaurer	N
+80l0l4	des_servitudes	O
+80l0l5	le_secteur_impacté	O
+80l0l6	par	R
+80l0l7	les_pollutions	N
+
+#En date du 20 juin 2014, le ministère de l'écologie, du développement durable et de l'énergie a donné son accord pour une intervention de l’ADEME afin de réaliser ce dossier de servitudes d’utilité publique.
+
+81l0l0	En_date_du_20_juin_2014__	T
+81l0l1	le_ministère_de_l__écologie	O
+81l0l2	énergie	O
+81l0l3	a_donné	N
+81l0l4	son_accord	O
+81l0l5	une_intervention	N
+81l0l6	l__ADEME	O
+81l0l7	afin_de_réaliser	N
+81l0l8	ce_dossier_de_servitudes_d__utilité_publique	O
+81l1l0	le_ministère	I
+
+#L’arrêté préfectoral d’exécution de travaux d’office du 24 février 2015 prévoit ainsi la réalisation d’un dossier de servitudes d’utilité publique.
+
+82l0l0	L__arrêté_préfectoral_d__exécution_de	O
+82l0l1	travaux_d__office	N
+82l0l2	du_24_février_2015	T
+82l0l3	prévoit_ainsi	R
+82l0l4	la_réalisation_d_	N
+82l0l5	un_dossier_de_servitudes_d__utilité_publique	O
+
+#Les servitudes qui seront instituées permettront de garantir la sécurité des riverains et du propriétaire du site pour tout type d'usage.
+
+83l0l0	des_riverains	O

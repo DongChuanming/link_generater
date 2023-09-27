@@ -1,0 +1,752 @@
+
+#49.0037
+#Le site de l’ancienne société SAI TS, s’étendant sur une superficie de 10 574 m², est implanté dans la commune de Vern d’Anjou (commune nouvelle Erdre-en-Anjou), à environ 35 km au nord-ouest d’Angers.
+
+0l0l0	Le_site	O
+0l0l1	l__ancienne_société_SAI_TS	O
+0l0l2	m²__	O
+0l0l3	est_implanté	R
+0l0l4	dans_la_commune_de_Vern_d__Anjou___commune_nouvelle_Erdre_en_Anjou	L
+0l0l5	à_environ_35_km_au_nord_ouest_d__Angers	L
+0l1l0	ancienne_société_SAI_TS	I
+0l1l1	commune_nouvelle_Erdre_en_Anjou	I
+
+#Il est implanté en périphérie du bourg dans une zone industrielle, au cœur d’une zone d’habitation et à proximité d’une école.
+
+1l0l0	Il	O
+1l0l1	est_implanté_en_périphérie_du_bourg_dans_une_zone_industrielle___au_cœur_d__une_zone_d__habitation	L
+1l0l2	à_proximité_d__une_école	L
+
+#La société SAI TS a exploité de 1999 à 2004 une activité de traitement de surface par protection électrolytique, chimique (zinc, nickel, chrome), ainsi que par revêtements spécifiques sur toutes surfaces métalliques et plastiques, poursuivant les activités de la société ANJOU ELECTROLYSE, qui avait été autorisée à exploiter le site en 1981 et à étendre son activité à plusieurs reprises (zincage, nickelage, étamage et dorure).
+
+2l0l0	La_société_SAI_TS	O
+2l0l1	a_exploité	N
+2l0l2	de_1999_à_2004	T
+2l0l3	une_activité_de_traitement_de_surface	A
+2l0l4	les_activités	A
+2l0l5	la_société_ANJOU_ELECTROLYSE	O
+2l0l6	avait_été_autorisée_à_exploiter	N
+2l0l7	le_site	O
+2l0l8	en_1981	T
+2l0l9	à_étendre	N
+2l0l10	son_activité	O
+2l0l11	plusieurs_reprises	O
+2l0l12	zincage	N
+2l0l13	nickelage	N
+2l0l14	étamage	A
+2l0l15	dorure	A
+2l1l0	La_société_SAI_TS	I
+2l1l1	zinc	S
+2l1l2	nickel	S
+2l1l3	chrome	S
+2l1l4	la_société_ANJOU_ELECTROLYSE	I
+2l1l5	zincage	S
+
+#En effet, une première extension a été autorisée par arrêté préfectoral en date du 8 novembre 1984, et une seconde extension autorisée par arrêté préfectoral en date du 14 juin 1993.
+
+3l0l0	une_première_extension	O
+3l0l1	a_été_autorisée	N
+3l0l2	par_arrêté_préfectoral	O
+3l0l3	en_date_du_8_novembre_1984	T
+3l0l4	une_seconde_extension	O
+3l0l5	autorisée_par_arrêté_préfectoral	O
+3l0l6	en_date_du_14_juin_1993__	T
+
+#La société SAI TS a été placée en liquidation judiciaire par jugement du tribunal de commerce de Rennes le 12 mai 2004.
+
+4l0l0	La_société_SAI_TS	O
+4l0l1	a_été_placée_en_liquidation_judiciaire_par_jugement	N
+4l0l2	du_tribunal_de_commerce	N
+4l0l3	Rennes_le_12_mai_2004__	T
+4l1l0	La_société_SAI_TS	I
+
+#Maître Olivier MASSART (Rennes), nommé liquidateur, a déclaré la cessation d’activité le 21 juillet 2004.
+
+5l0l0	Maître_Olivier_MASSART	O
+5l0l1	Rennes	L
+5l0l2	a_déclaré_la_cessation_d__activité	N
+5l0l3	le_21_juillet_2004__	T
+5l1l0	Maître_Olivier_MASSART	I
+
+#Le site comprenait (voir plan cartographique n°1-partie B):
+
+6l0l0	Le_site	O
+
+#* 2 bâtiments (B et D) ayant abrité les ateliers de traitement de surface, laboratoire, bureaux et zone d’expédition des pièces travaillées ;
+
+7l0l0	2_bâtiments	O
+7l0l1	abrité_les_ateliers_de_traitement_de_surface	A
+7l0l2	pièces_travaillées	O
+
+#* 1 hangar de stockage des produits chimiques (magasin) ;
+
+8l0l0	hangar_de_stockage_des_produits_chimiques	O
+8l1l0	produits_chimiques	U
+
+#* 1 station de traitement des effluents de l’activité ;
+
+9l0l0	1_station_de_traitement	O
+9l1l0	effluents	U
+
+#* 1 bassin (réserve d’incendie) ;
+
+
+#* 1 forage d’alimentation en eau industrielle.
+
+11l0l0	eau_industrielle	O
+
+#Le sens d’écoulement des eaux souterraines au droit du site est dirigé vers le nord-est, vers le ruisseau de l’Hommée distant d’environ 350 m.
+
+12l0l0	dirigé_vers_le_nord_est	N
+12l0l1	vers_le_ruisseau_de_l__Hommée	L
+12l0l2	distant_d__environ_350_m_	L
+
+#La nappe profonde atteinte par le forage du site (à une profondeur de 80 m), peu productive, est peu exploitée notamment en raison de sa forte teneur en fer.
+
+13l0l0	La_nappe_profonde	O
+13l0l1	le_forage	N
+13l0l2	à_une_profondeur_de_80_m	L
+13l1l0	fer	S
+
+#Une nappe phréatique peu épaisse (10-15 m) et peu profonde (1 à 10 m du sol selon les variations saisonnières) est exploitée en dehors du site par de nombreux puits particuliers pour l’arrosage des jardins.
+
+14l0l0	est_exploitée	N
+14l0l1	en_dehors_du_site	L
+14l0l2	l__arrosage_des_jardins	A
+
+#On retrouve de très nombreux étangs autour de la commune, dont l’étang du Val d’Hommée localisé à 450 m au nord-est de la zone d’étude.
+
+15l0l0	nombreux_étangs	O
+15l0l1	autour_de_la_commune	L
+15l0l2	Val_d__Hommée	L
+15l0l3	localisé_à_450_m_au_nord_est_de_la_zone_d__étude	L
+
+#Le réseau hydrographique du secteur est dominé par le ruisseau dit de « l’Hommée » qui rejoint au nord-ouest de Vern d’Anjou la rivière Argos, affluent de la Verzée, rejoignant elle-même l’Oudon.
+
+16l0l0	le_ruisseau	L
+16l0l1	dit	R
+16l0l2	Hommée	L
+16l0l3	rejoint_au_nord_ouest_de_Vern_d__Anjou	L
+16l0l4	la_rivière_Argos	L
+16l0l5	affluent_de_la_Verzée	L
+16l0l6	Oudon	L
+
+#I/ MISE EN SECURITE DU SITE
+
+17l1l0	SECURITE	I
+
+#Suite à sa mise en liquidation judiciaire prononcée en mai 2004, la société SAI TS, insolvable, n’a pas éliminé les matières premières restantes et les déchets résultant de son activité, stockés sur le site.
+
+18l0l0	Suite_à	R
+18l0l1	sa_mise_en_liquidation_judiciaire	N
+18l0l2	en_mai_2004__	T
+18l0l3	la_société_SAI_TS	O
+18l0l4	a_pas_éliminé	N
+18l0l5	les_matières_premières_restantes	O
+18l0l6	les_déchets	O
+18l1l0	la_société_SAI_TS	I
+18l1l1	les_déchets	U
+
+#Par ailleurs, une réserve d’incendie, remplie de liquides et facilement accessible, pouvait représenter un risque pour toute personne pénétrant sur le site.
+
+19l1l0	une_réserve_d__incendie	U
+
+#Un forage d’alimentation en eau industrielle constituait un point de vulnérabilité pour la nappe profonde.
+
+20l0l0	Un_forage	O
+20l0l1	d__alimentation_en_eau_industrielle	A
+20l0l2	constituait	R
+20l0l3	un_point_de_vulnérabilité	O
+20l0l4	nappe_profonde	O
+
+#Le liquidateur n’ayant plus les moyens financiers de réaliser la dépollution du site, un arrêté préfectoral d’exécution de travaux d’office en date du 3 septembre 2007 a prescrit à l’ADEME la réalisation des travaux de mise en sécurité du site (déjà clôturé), à savoir évacuation et traitement des déchets dangereux (déjà en partie reconditionnés par l’exploitant), sécurisation de la réserve incendie et du forage d’eau.
+
+21l0l0	Le	O
+21l0l1	réaliser_la_dépollution	N
+21l0l2	du_site	O
+21l0l3	un_arrêté_préfectoral_d_	O
+21l0l4	exécution_de_travaux_d_	N
+21l0l5	en_date_du_3_septembre_2007	T
+21l0l6	a_prescrit	N
+21l0l7	l__ADEME	O
+21l0l8	la_réalisation_des_travaux_de_mise_en_sécurité_du_site	N
+21l0l9	évacuation	N
+21l0l10	traitement_des_déchets_dangereux	N
+21l0l11	l__exploitant	O
+21l0l12	sécurisation_de_la_réserve_incendie	N
+21l0l13	forage_d__eau	O
+21l1l0	des_déchets_dangereux	U
+
+#Les produits et déchets étaient constitués principalement :
+
+
+#* des produits chimiques divers et bains usés ;
+
+23l1l0	des_produits_chimiques_divers	U
+23l1l1	bains_usés	U
+
+#* de 53 big-bags de boues ;
+
+24l0l0	bags_de_boues	O
+
+#* des cuves et silos de produits et bains de traitement, intérieurs et extérieurs à la station d’épuration et à l’extérieur du bâtiment D ;
+
+25l0l0	à_l__extérieur_du_bâtiment_D	L
+
+#* d’une cuve de fuel enterrée de contenance totale potentielle d’environ 5000 litres (ne contenant que 1500 L de fuel environ) à l’extérieur du bâtiment D ;
+
+26l0l0	une_cuve_de_fuel_enterrée	O
+26l0l1	à_l__extérieur_du_bâtiment_D	L
+26l1l0	cuve	D
+26l1l1	de_fuel	U
+26l1l2	fuel	U
+
+#* de 2 fosses ouvertes à l’intérieur des bâtiments B et D : environ 7 m³ de liquides et boues.
+
+27l0l0	boues	A
+
+#Ces travaux se sont déroulés sur deux périodes en 2009 et en 2010, pour s’achever en septembre 2010.
+
+28l0l0	Ces_travaux	N
+28l0l1	se_sont_déroulés	N
+28l0l2	deux_périodes	O
+28l0l3	en_2009_et_en_2010__	T
+28l0l4	s__achever_en_septembre_2010__	T
+
+#Au total près de 230 tonnes de déchets dangereux ont été évacués du site.
+
+29l0l0	230_tonnes_de_déchets_dangereux	O
+29l0l1	ont_été_évacués	N
+29l1l0	déchets_dangereux	U
+
+#Concernant l’intervention sur la réserve incendie (avec mise en place d’une clôture sur le pourtour) des analyses ont été effectuées sur les boues et les eaux.
+
+30l0l0	l__intervention	N
+30l0l1	sur_la	L
+30l0l2	réserve_incendie	N
+30l0l3	mise_en_place_d_	N
+30l0l4	une_clôture	O
+30l0l5	des_analyses_ont_été_effectuées	N
+30l0l6	les_eaux	O
+
+#Les résultats ont montré pour les eaux des concentrations significatives en Chrome, Nickel et Zinc, et pour les boues des concentrations élevées en métaux (Chrome, Nickel, Zinc et Cuivre) et en hydrocarbures totaux (HCT).
+
+31l1l0	Chrome	S
+31l1l1	Nickel	S
+31l1l2	Zinc	S
+31l1l3	métaux	S
+31l1l4	Chrome	S
+31l1l5	Nickel	S
+31l1l6	Zinc	S
+31l1l7	Cuivre	S
+31l1l8	hydrocarbures_totaux	S
+31l1l9	HCT	S
+
+#Au total, 141 tonnes de boues ont été éliminées et traitées hors site, ainsi que 25 tonnes d’eaux souillées.
+
+32l0l0	141_tonnes_de_boues	O
+32l0l1	ont_été_éliminées_et_traitées_hors_site	N
+32l0l2	25	O
+
+#Le forage d’eau sur site a été mis en sécurité (protection de la tête d’ouvrage, cimentation de la partie supérieure).
+
+33l0l0	Le_forage_d__eau_sur_site	O
+33l0l1	a_été_mis_en_sécurité	N
+33l0l2	la_tête_d__ouvrage	O
+33l0l3	cimentation	N
+33l0l4	de_la_partie_supérieure	O
+
+#Le principal risque restant sur le site est lié à l’état des bâtiments considérés comme vétustes et non entretenus et à l’état des clôtures du site.
+
+34l0l0	Le	O
+34l0l1	des_clôtures	O
+
+#II/ ETAT ENVIRONNEMENTAL
+
+35l0l0	ETAT_ENVIRONNEMENTAL	O
+35l1l0	ETAT_ENVIRONNEMENTAL	I
+
+#Une première étude de sol a été réalisée en juillet 2004 à l’initiative du propriétaire de la partie nord du site. 10 sondages ont été effectués et ont mis en évidence une contamination du sol par des métaux (1300 mg/kg MS en Cr, 89 mg/kg MS en Ni, et 15 000 mg/kg MS en Zn, identifiés au maximum) au droit de l’ancienne station d’épuration.
+
+36l0l0	Une_première_étude_de_sol	N
+36l0l1	a_été_réalisée	N
+36l0l2	en_juillet_2004	T
+36l0l3	l__initiative_du_propriétaire_de_la_partie_nord_du_site	O
+36l0l4	sondages_ont_été_effectués	N
+36l0l5	une_contamination	O
+36l0l6	des_métaux	O
+36l1l0	des_métaux	S
+36l1l1	Cr	S
+36l1l2	Ni	S
+36l1l3	Zn	S
+
+#Le bureau d’études, en charge du diagnostic, avait préconisé une étude hydrologique avec l’implantation de piézomètres afin de déterminer l’extension de la pollution dans les eaux souterraines.
+
+37l0l0	Le_bureau_d__études	O
+37l0l1	charge_du_diagnostic	N
+37l0l2	une_étude_hydrologique	N
+37l0l3	l__implantation_de_piézomètres	O
+
+#L’identification en septembre 2005 d’une pollution des eaux d’un puits de particulier proche du site par du plomb (964 μg/l) a conduit le maire à prendre un arrêté d’interdiction d’utilisation à des fins alimentaires des eaux des puits sur une partie de la commune en novembre 2005.
+
+38l0l0	L__identification	N
+38l0l1	en_septembre_2005	T
+38l0l2	d__une_pollution	N
+38l0l3	un_puits_de_particulier	O
+38l0l4	proche_du_site	L
+38l0l5	a_conduit	N
+38l0l6	le_maire	O
+38l0l7	à	R
+38l0l8	prendre_un_arrêté_d_	N
+38l0l9	interdiction_d__utilisation_à_des_fins_alimentaires_des_eaux_des_puits	A
+38l0l10	sur_une_partie_de_la_commune	L
+38l0l11	en_novembre_2005__	T
+38l1l0	plomb	S
+
+#Une étude hydrogéologique a été réalisée fin 2005 pour le compte de la mairie.
+
+39l0l0	Une_étude_hydrogéologique	N
+39l0l1	a_été_réalisée	N
+39l0l2	fin_2005	T
+39l0l3	la_mairie	O
+
+#Dans ce cadre, un nouveau contrôle de la qualité des eaux souterraines à partir de prélèvements réalisés dans ce même puits, ainsi que dans 5 autres puits et dans le ruisseau de l’Hommée, les 15 et 16 décembre 2005, n’a pas révélé la présence de plomb, ou autres métaux dans les prélèvements (les analyses se sont limitées à la recherche des métaux).
+
+40l0l0	un_nouveau_contrôle	N
+40l0l1	la	O
+40l0l2	qualité_des_eaux_souterraines	A
+40l0l3	dans_le_ruisseau_de_l__Hommée	L
+40l0l4	les_15_et_16_décembre_2005__	T
+40l0l5	se_sont_limitées_à	R
+40l0l6	la	N
+40l0l7	métaux	O
+40l1l0	plomb	S
+40l1l1	métaux	S
+
+#Les analyses des puits n’ayant pas confirmé la pollution en plomb mise en évidence en septembre 2005 sur un puits, l’arrêté municipal d’interdiction d’usage de l’eau de la nappe a été levé en mars 2006.
+
+41l0l0	Les_analyses	N
+41l0l1	en_septembre_2005	T
+41l0l2	un_puits	O
+41l0l3	l__arrêté_municipal	O
+41l0l4	interdiction_d__usage_de_l__eau_de_la_nappe	A
+41l0l5	a_été_levé	N
+41l0l6	en_mars_2006__	T
+41l1l0	plomb	S
+
+#Néanmoins, l’environnement du site apparaissait vulnérable (nappe au droit du site très vulnérable puisque située à faible profondeur, avec un taux de renouvellement très rapide, présence de plusieurs puits de pompage utilisés par des riverains du site pour des usages personnels) et les conditions d’activités de la société SAI TS présentaient des risques pour l’environnement (emploi de substances toxiques dont le trichloroéthylène, utilisation de la réserve incendie à des fins de stockage d’effluents de la station d’épuration, évacuation du trop plein de la réserve incendie vers le ruisseau, ...).
+
+42l0l0	plusieurs_puits_de_pompage	O
+42l0l1	des_usages_personnels	A
+42l0l2	la_société_SAI_TS	O
+42l0l3	présentaient	N
+42l0l4	des_risques	N
+42l0l5	l__environnement	O
+42l0l6	la_réserve_incendie	O
+42l0l7	à_des_fins	O
+42l0l8	évacuation	N
+42l0l9	vers_le_ruisseau	L
+42l1l0	la_société_SAI_TS	I
+42l1l1	substances_toxiques	U
+42l1l2	le_trichloroéthylène	S
+42l1l3	stockage_d__effluents	U
+
+#Les investigations réalisées en 2004 et 2005 sur les sols et les eaux souterraines apparaissaient insuffisantes (investigations sur les sols uniquement au nord du site et sur des paramètres limités aux métaux et hydrocarbures, absence d’investigations sur les eaux souterraines au droit du site).
+
+43l0l0	Les_investigations_réalisées	N
+43l0l1	en_2004_et_2005	T
+43l0l2	les_eaux_souterraines	O
+43l0l3	au_nord_du_site	L
+43l0l4	des_paramètres	O
+43l1l0	métaux	S
+43l1l1	hydrocarbures	S
+
+#L’ADEME préconisait alors début 2011, à l’issue de son intervention sur le site pour sa mise en sécurité, la réalisation d’investigations complémentaires sur les sols et les eaux souterraines au droit du site et autour du site.
+
+44l0l0	L__ADEME	O
+44l0l1	préconisait_alors	N
+44l0l2	début_2011__	T
+44l0l3	à_l__issue_de	R
+44l0l4	son_intervention	N
+44l0l5	le_site	O
+44l0l6	sa_mise_en_sécurité	N
+44l0l7	la_réalisation_d__investigations_complémentaires	N
+44l0l8	les_eaux_souterraines	O
+44l0l9	au_droit_du_site_et_autour_du_site	L
+
+#Dans la cadre d’un projet de la collectivité de réaménagement de l’ancien site SAI TS (projet de maison médicale), des études historiques et de vulnérabilité ont été effectuées en 2011 et 2012, d’une part sur la partie nord du site à l’initiative du propriétaire des parcelles nord, et d’autre part sur la partie sud du site et la partie nord-est (ancienne station de traitement des effluents) à l’initiative de la collectivité.
+
+45l0l0	Dans_la_cadre_d_	R
+45l0l1	un_projet	O
+45l0l2	la_collectivité	O
+45l0l3	de_réaménagement	N
+45l0l4	l__ancien_site_SAI_TS	O
+45l0l5	projet_de_maison_médicale	O
+45l0l6	des_études_historiques	N
+45l0l7	ont_été_effectuées	N
+45l0l8	en_2011_et_2012__	T
+45l0l9	sur_la_partie_nord_du_site	L
+45l0l10	à_l__initiative	R
+45l0l11	du_propriétaire_des_parcelles_nord	O
+45l0l12	sur_la_partie_sud_du_site	L
+45l0l13	la_partie_nord_est	O
+45l0l14	ancienne_station_de_traitement	O
+45l0l15	effluents	O
+45l0l16	à_l__initiative_de	R
+45l0l17	la_collectivité	O
+45l1l0	SAI_TS	I
+45l1l1	effluents	U
+45l1l2	la_collectivité	I
+
+#L’ensemble des données acquises ont permis d’identifier des zones à risques de pollution sur site et les enjeux sur site et hors site, et de définir un programme d’investigations.
+
+46l0l0	identifier	N
+46l0l1	des_zones_à_risques_de_pollution	O
+46l0l2	les_enjeux	O
+46l0l3	de_définir	N
+46l0l4	un_programme	O
+46l0l5	investigations	N
+
+#Des investigations ont ainsi été réalisées :
+
+47l0l0	Des_investigations	N
+47l0l1	ont_ainsi_été_réalisées	N
+
+#* sur la partie nord du site (parcelles 2997, 3085 et 3546), en mars 2012, réalisation de 14 sondages de sols (voir le plan cartographique n°2-partie B) ;
+
+48l0l0	sur_la_partie_nord_du_site	L
+48l0l1	en_mars_2012__	T
+48l0l2	réalisation_de_14_sondages_de_sols	N
+
+#* sur les parties sud et nord-est du site (parcelles 3410, 3481 et 3664), en août 2012, 24 sondages de sols (voir le plan cartographique n°3-partie B) ;
+
+49l0l0	sur_les	L
+49l0l1	parties_sud_et_nord_est	N
+49l0l2	en_août_2012__	T
+49l0l3	24_sondages_de_sols	N
+
+#* pose de 3 piézomètres sur le site et prélèvement des eaux souterraines sur ces 3 ouvrages en août 2012.
+
+50l0l0	__pose_de_3_piézomètres	N
+50l0l1	et_prélèvement_des_eaux_souterraines	A
+50l0l2	ces_3_ouvrages	O
+50l0l3	en_août_2012__	T
+
+#Au nord du site, les analyses de sols ont mis en évidence un impact en métaux et métalloïdes (Ni et Zn) au sein des remblais et des sables du Pliocène (sondages T5, T6, T7 et T9) avec des valeurs maximales respectives de 600 et 3200 mg/kg MS au droit du sondage T7 entre 0,15 et 1 m de profondeur (voir plan cartographique n°2-partie B).
+
+51l0l0	Au_nord_du_site	L
+51l0l1	remblais	L
+51l1l0	métaux	S
+51l1l1	métalloïdes	S
+51l1l2	Ni	S
+51l1l3	Zn	S
+
+#Au regard de l’implantation des sondages et de la technique de foration choisie, la présence de zones sources en solvants chlorés dans les sols, l’air du sol ou les eaux souterraines ne pouvait être exclue sur cette partie du site.
+
+52l0l0	zones_sources	O
+52l0l1	sur_cette_partie_du_site	L
+52l1l0	solvants_chlorés	S
+
+#Sur les parties sud et nord-est du site, les investigations ont mis en évidence (voir plan cartographique n°3-partie B):
+
+53l0l0	les_parties_sud_et_nord_est_du_site	O
+53l0l1	les_investigations	N
+
+#* des sols impactés par des solvants chlorés jusqu’au minimum 2 m de profondeur ( trichloroéthylène, 1,1,1-trichloroéthane et dichloroéthylène) au niveau des sondages S8, S9, S10 et S12 (emprise de la zone de 200 m², emprise verticale non connue) ;
+
+54l0l0	des_sols_impactés	O
+54l0l1	par	N
+54l0l2	au_niveau_des_sondages	L
+54l1l0	solvants_chlorés	U
+54l1l1	trichloroéthylène	S
+54l1l2	1_1_1_trichloroéthane	S
+54l1l3	dichloroéthylène	S
+
+#*  des sols impactés par des métaux/métalloïdes au droit du bâtiment A (station de traitement des effluents) (Cd, Cr, Ni et Zn), , au droit du bâtiment B (Cd, Cr, Ni, Zn et Cu)  et au droit de zones situées en extérieur (Cr et Zn, au sud-est et nord-ouest du bâtiment B) ;
+
+55l0l0	__des_sols_impactés	O
+55l0l1	par	R
+55l0l2	des_métaux	O
+55l0l3	métalloïdes_au_droit_du_bâtiment	L
+55l0l4	et_au_droit_de_zones_situées_en_extérieur	L
+55l0l5	Zn___au_sud_est_et_nord_ouest_du_bâtiment	L
+55l1l0	par_des_métaux___métalloïdes	S
+55l1l1	des_effluents	S
+55l1l2	__Cd___Cr___Ni_et_Zn	S
+55l1l3	__Cd___Cr___Ni___Zn_et_Cu	S
+55l1l4	extérieur__	S
+55l1l5	et	S
+
+#* des sols impactés par des hydrocarbures au droit du bâtiment C (1670 mg/kg MS - surface concernée de 50 m²) et sur un sondage en extérieur (755 mg/kg MS - nord-ouest du bâtiment B) ;
+
+56l0l0	des_sols_impactés	O
+56l0l1	hydrocarbures	O
+56l0l2	au_droit_du_bâtiment_C	L
+56l0l3	un	N
+56l0l4	sondage_en_extérieur	L
+56l0l5	nord_ouest_du_bâtiment_B	L
+56l1l0	hydrocarbures	S
+
+#* des bétons impactés par des hydrocarbures totaux au droit des bâtiments A et B.
+
+57l0l0	bétons_impactés	O
+57l0l1	hydrocarbures_totaux	O
+57l0l2	au_droit_des_bâtiments_A	L
+57l1l0	hydrocarbures_totaux	S
+
+#Concernant les eaux souterraines, ont été mis en évidence :
+
+
+#* un impact en solvants chlorés au niveau du piézomètre Pz2 (aval proche des zones de traitement et de stockage de produits chimiques) principalement en 1,1,1-trichloroéthane (140 µg/l) et 1,1-dichloroéthylène (51 µg/l) ;
+
+59l0l0	un_impact	N
+59l0l1	aval_proche_des_zones_de_traitement	N
+59l1l0	solvants_chlorés	S
+59l1l1	produits_chimiques	U
+59l1l2	1_1_1_trichloroéthane	S
+59l1l3	1_1_dichloroéthylène	S
+
+#* un impact en métaux/métalloïdes au droit du Pz1 ;
+
+60l1l0	métaux	S
+
+#* au niveau du Pz1, on retrouve également des traces de solvants chlorés et benzène pouvant caractériser la limite du panache des impacts constatés dans les eaux souterraines au droit du Pz2 ou une autre pollution dans les sols et la nappe présente au droit du bâtiment D.
+
+61l0l0	une_autre_pollution	N
+61l0l1	la_nappe	O
+61l0l2	présente	R
+61l0l3	au_droit_du_bâtiment_D_	L
+61l1l0	des_traces_de_solvants_chlorés	U
+61l1l1	benzène	S
+
+#Au regard des résultats d’analyse sur les eaux souterraines en limite aval du site SAI TS et de la présence de puits de particuliers en aval immédiat du site, le bureau d’étude recommandait d’interdire par mesure de précaution l’usage des eaux souterraines dans un rayon de 500 m en aval du site.
+
+62l0l0	en_limite_aval_du_site_SAI	L
+62l0l1	TS	O
+62l0l2	la_présence_de_puits_de_particuliers	O
+62l0l3	en_aval_immédiat_du_site	L
+62l0l4	le_bureau_d__étude	O
+62l0l5	recommandait_d_	R
+62l0l6	interdire	N
+62l0l7	l__usage_des_eaux_souterraines	A
+62l0l8	500_m_en_aval_du_site	L
+62l1l0	SAI_TS	I
+
+#Le bureau d’étude recommandait également un plan de gestion associé à des investigations complémentaires des milieux sol, air de sol et eaux souterraines au droit de la zone d’étude, ainsi que la réalisation d’une Interprétation de l’État des Milieux sur les eaux souterraines afin de recenser et vérifier les usages et la qualité de ces eaux en aval du site et déterminer la compatibilité sanitaire de ces milieux avec les usages actuels.
+
+63l0l0	Le_bureau_d__étude	O
+63l0l1	un_plan_de_gestion	O
+63l0l2	associé_à	R
+63l0l3	des_investigations_complémentaires	N
+63l0l4	au_droit_de_la_zone_d__étude	L
+63l0l5	usages_et_la_qualité_de	A
+63l0l6	ces_eaux	O
+63l0l7	en_aval_du_site	L
+63l0l8	ces_milieux	O
+
+#En novembre 2012, un diagnostic complémentaire de pollution sur les milieux sol, eau souterraine et air du sol a donc été effectué sur l’ensemble du site (un nouveau piézomètre implanté en aval hydraulique du site, 2 piézairs dans le bâtiment D et 28 nouveaux sondages de sols).
+
+64l0l0	En_novembre_2012__	T
+64l0l1	un_diagnostic_complémentaire	N
+64l0l2	a_donc_été_effectué	N
+64l0l3	un_nouveau_piézomètre	O
+64l0l4	implanté	R
+64l0l5	en_aval_hydraulique_du_site	L
+64l0l6	nouveaux_sondages_de_sols	N
+
+#Ce diagnostic complémentaire couplé aux investigations précédentes de mars et août 2012 permettent d’établir l’état de pollution du site :
+
+65l0l0	Ce_diagnostic	N
+65l0l1	mars_et_août_2012	T
+65l0l2	l__état_de_pollution_du_site	O
+
+#> Sur le milieu sol (voir plan cartographique n°5-partie B) :
+
+
+#* impact par des métaux/métalloïdes (Cd, Cr, Ni et Zn) au droit des bâtiments A (ancienne station d’épuration interne), D et B (anciens ateliers de traitement de surfaces) jusqu’à une profondeur de 4 m, à des concentrations modérées.
+
+67l0l0	au_droit_des_bâtiments_A	L
+67l0l1	traitement_de_surfaces	A
+67l1l0	des_métaux	S
+67l1l1	métalloïdes	S
+67l1l2	Cd	S
+67l1l3	Cr	S
+67l1l4	Ni	S
+67l1l5	Zn	S
+
+#Seul le paramètre Zn dépasse la valeur d’admission en ISDI, car il présente une capacité lixiviable et donc un risque de transfert vers le milieu « eau souterraine » ;
+
+68l0l0	vers_le_milieu	L
+68l1l0	Zn	S
+
+#* impact par des hydrocarbures sur trois zones restreintes, jusqu’à une profondeur maximale de 1 m et à des concentrations relativement modérées (1 100 mg/kg MS), et présence d’hydrocarbures dans la dalle bétonnée du bâtiment D ;
+
+69l0l0	d__hydrocarbures	O
+69l0l1	la_dalle_bétonnée	O
+69l1l0	hydrocarbures	S
+69l1l1	hydrocarbures	S
+
+#* impact par des solvants chlorés sous le bâtiment B jusqu’à une profondeur de 3 m en 2 points de sondage principalement, avec une concentration totale en COHV de 50 mg/kg MS ;
+
+70l1l0	solvants_chlorés	U
+70l1l1	COHV	S
+
+#> Sur le milieu air du sol (au droit du bâtiment D) : impact en BTEX, en solvant chloré (TCE et PCE) et en hydrocarbures légers (C5-C16) sous le bâtiment D, ce qui montre un impact par ces substances volatiles non détecté lors des investigations sur le milieu « sol » ;
+
+71l0l0	au_droit_du_bâtiment_D	L
+71l1l0	BTEX	S
+71l1l1	solvant_chloré	S
+71l1l2	TCE	S
+71l1l3	PCE	S
+71l1l4	hydrocarbures_légers	S
+71l1l5	C5_C16	S
+
+#> Sur le milieu eau souterraine (voir plan cartographique n°6-partie B) :
+
+
+#* impact en solvants chlorés sur le piézomètre Pz2 au niveau du bâtiment B (578 µg/l en COHV totaux).
+
+73l1l0	solvants_chlorés	S
+73l1l1	COHV_totaux	S
+
+#Les composés mesurés (1,1,1-TCA et métabolites du TCE) révèlent le début du processus de dégradation naturelle du TCE ;
+
+74l0l0	le_début_du_processus_de_dégradation_naturelle	N
+74l1l0	1_1_1_TCA	S
+74l1l1	métabolites_du_TCE	S
+74l1l2	TCE	S
+
+#* sur le piézomètre Pz4 en aval du site, la présence de solvants est également détectée (210 µg/l en COHV totaux).
+
+75l0l0	en_aval_du_site	L
+75l1l0	solvants	S
+75l1l1	COHV_totaux	S
+
+#Ainsi, potentiellement, un panache de COHV peut impacter l’eau des puits riverains du site ;
+
+76l0l0	panache_de_COHV	O
+76l0l1	peut_impacter	N
+76l0l2	riverains_du_site	L
+76l1l0	COHV	S
+
+#* les concentrations en métaux dépassent légèrement les valeurs de référence pour le Cr, le Cd, le Cu et le Pb, et de façon significative pour le Zn au droit des Pz1 et 4.
+
+77l1l0	métaux	S
+77l1l1	le_Cr	S
+77l1l2	le_Cd	S
+77l1l3	le_Cu	S
+77l1l4	Pb	S
+77l1l5	le_Zn	S
+
+#Du fait d’un risque de transfert de pollution existant via les eaux souterraines, des prélèvements et analyses de puits riverains ont été effectués par l’ARS le 4 octobre 2012.
+
+78l0l0	des_prélèvements_et_analyses	N
+78l0l1	de_puits_riverains	O
+78l0l2	ont_été_effectués	N
+78l0l3	l__ARS	O
+78l0l4	le_4_octobre_2012__	T
+
+#Ces puits se situent en aval hydraulique immédiat du site SAI TS et en amont du ruisseau de l’Hommée.
+
+79l0l0	Ces_puits	O
+79l0l1	se_situent_en_aval_hydraulique_immédiat_du_site_SAI_TS	O
+79l0l2	et_en_amont_du_ruisseau_de_l__Hommée	L
+79l1l0	SAI_TS	I
+
+#Ces puits semblent être utilisés à vocation d’arrosage de jardins et potagers.
+
+80l0l0	Ces_puits	O
+80l0l1	utilisés	N
+80l0l2	à_vocation_d_	R
+80l0l3	arrosage_de_jardins	L
+
+#Les résultats d’analyse mettent en évidence une mauvaise qualité bactériologique de l’eau, qui la rend impropre à une consommation humaine, mais qui ne peut être imputée au site SAI TS.
+
+81l0l0	site_SAI_TS	O
+81l1l0	SAI_TS	I
+
+#En revanche, des traces de TCE (1,2 μg/L) sur un des puits et une teneur en plomb de 34 μg/L sur un autre puits, dépassent légèrement la valeur de référence pour l’eau potable.
+
+82l1l0	traces_de_TCE	S
+82l1l1	plomb	S
+
+#Ces dépassements apparaissent résulter du transfert de pollution depuis le site SAI TS.
+
+83l0l0	le_site_SAI_TS	O
+83l1l0	le_site_SAI_TS	I
+
+#Ces résultats ont conduit l’ARS à proposer au maire de Vern d’Anjou de publier un arrêté municipal d’interdiction d’usage de l’eau des puits de ce secteur, à des fins de consommation humaine.
+
+84l0l0	maire	O
+84l0l1	de_Vern_d__Anjou	L
+84l0l2	publier_un_arrêté_municipal	O
+84l0l3	d__interdiction	N
+84l0l4	d__usage_de_l__eau_des_puits	A
+84l0l5	à	R
+84l0l6	des_fins_de_consommation_humaine	A
+
+#Un Plan de Gestion (cofinancé par le propriétaire des parcelles nord et la collectivité, avec subvention de l'ADEME) intégrant les éléments des diagnostics précédents a été réalisé sur l’ensemble du site.
+
+85l0l0	Un_Plan_de_Gestion	O
+85l0l1	cofinancé	N
+85l0l2	le_propriétaire_des_parcelles_nord	O
+85l0l3	la_collectivité	O
+85l0l4	diagnostics	N
+85l0l5	a_été_réalisé	N
+85l1l0	la_collectivité	I
+
+#Le projet d’aménagement de la collectivité locale a été abandonné en décembre 2012 suite aux différentes investigations et aux conclusions du plan de gestion, à cause des coûts de dépollution prohibitifs.
+
+86l0l0	Le	O
+86l0l1	projet_d__aménagement	N
+86l0l2	la_collectivité_locale	O
+86l0l3	a_été_abandonné	N
+86l0l4	en_décembre_2012	T
+86l0l5	dépollution_prohibitifs	N
+
+#Sur le site, les voies d’exposition humaine à considérer sont l’inhalation de composés volatils depuis les sols et/ou les eaux souterraines, et l’ingestion, le contact direct de sols pollués, voire l’inhalation de poussière.
+
+87l0l0	l__ingestion	N
+87l0l1	sols_pollués	O
+87l1l0	composés	U
+
+#Dans l’usage actuel, aucun risque sanitaire n’apparaît sur le site tant que le site demeure clôturé et interdit au public.
+
+88l0l0	le_site	O
+88l0l1	tant_que	R
+88l0l2	le_site	O
+88l0l3	interdit_au_public	N
+
+#La seule voie de transfert de la pollution du site vers l’extérieur se caractérise par la nappe d’eaux souterraines, naturellement vulnérable (faible profondeur, taux de renouvellement rapide).
+
+89l0l0	La_seule_voie	O
+
+#Les cibles à considérer via ce transfert sont les puits situés en aval hydraulique proche du site SAI TS, à usage d’arrosage de jardins et potagers.
+
+90l0l0	les_puits	O
+90l0l1	situés_en_aval_hydraulique_proche_du_site_SAI_TS	O
+90l0l2	à_usage_d_	R
+90l0l3	arrosage_de_jardins	A
+90l1l0	SAI_TS	I
+
+#Au vu des faibles teneurs mesurées en métaux et en solvants chlorés dans l’eau d’un des puits, la voie de transfert par arrosage du sol et des végétaux n’est pas retenue.
+
+91l0l0	métaux	O
+91l0l1	la_voie	O
+91l0l2	arrosage	N
+91l1l0	métaux	S
+91l1l1	solvants_chlorés	S
+
+#Seule la voie d’exposition potentielle à considérer est donc l’ingestion d’eau des puits.
+
+92l0l0	l__ingestion_d__eau	A
+
+#Avec la restriction d’usage imposée aux propriétaires par l’arrêt municipal, aucun risque sanitaire n’apparaît dans l’état des connaissances acquises sur ce site.
+
+93l0l0	l__arrêt_municipal	O
+
+#Afin de conserver la mémoire des pollutions et des actions mises en œuvre à ce jour, le classement de ce site en secteur d’information sur les sols est proposé.
+
+94l0l0	pollutions	O
+94l0l1	ce_site	O
+94l0l2	en	R
